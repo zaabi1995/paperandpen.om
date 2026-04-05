@@ -1,0 +1,48 @@
+{
+  "nav": { "features": "Features", "pricing": "Pricing", "compare": "Compare", "login": "Log in", "startFree": "Start Free Trial" },
+  "hero": {
+    "tagline": "The ERP built for growing businesses",
+    "sub": "Manage sales, inventory, HR, and finance — in Arabic and English — from one platform built for the GCC.",
+    "cta": "Start Free Trial",
+    "subdomainLabel": "Your workspace URL",
+    "subdomainPlaceholder": "yourcompany",
+    "subdomainSuffix": ".paperandpen.om",
+    "available": "✓ {{subdomain}} is available",
+    "taken": "✗ {{subdomain}} is taken",
+    "checking": "Checking..."
+  },
+  "languages": { "title": "Built for every team in the GCC", "sub": "Switch between languages instantly — your data stays the same." },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "sub": "All prices in Omani Rial (OMR). 20% discount on annual plans.",
+    "monthly": "Monthly", "annual": "Annual", "perMonth": "/mo", "perYear": "/yr",
+    "startTrial": "Start Free Trial", "mostPopular": "Most Popular",
+    "starter": { "name": "Starter", "price_monthly": 12, "price_annual": 115, "description": "Perfect for freelancers and small teams", "features": ["Up to 3 users", "Sales & invoicing", "Basic reports", "Email support"] },
+    "growth": { "name": "Growth", "price_monthly": 29, "price_annual": 278, "description": "For growing businesses that need more", "features": ["Up to 15 users", "All Starter features", "HR & payroll", "Multi-currency", "WhatsApp notifications", "Priority support"] },
+    "business": { "name": "Business", "price_monthly": 55, "price_annual": 528, "description": "Full-featured ERP for established companies", "features": ["Unlimited users", "All Growth features", "Manufacturing", "Advanced analytics", "API access", "Dedicated support"] },
+    "addons": { "title": "Add-ons", "whatsapp": "WhatsApp Notifications — 5 OMR/mo", "extraUsers": "Extra users — from 3 OMR/user/mo", "extraStorage": "Extra storage — 5 OMR/5GB/mo" }
+  },
+  "modules": {
+    "title": "Everything your business needs",
+    "sales": { "title": "Sales & CRM", "desc": "Quotes, invoices, client pipeline, and follow-ups." },
+    "inventory": { "title": "Inventory", "desc": "Track stock, locations, and reorder levels in real time." },
+    "hr": { "title": "HR & Payroll", "desc": "Attendance, leave, payroll, and employee portal." },
+    "accounting": { "title": "Accounting", "desc": "Double-entry ledger, bank reconciliation, VAT returns." },
+    "manufacturing": { "title": "Manufacturing", "desc": "Bill of materials, work orders, and production planning." },
+    "reports": { "title": "Reports & Analytics", "desc": "P&L, cash flow, aged receivables, and custom dashboards." }
+  },
+  "compare": {
+    "title": "How Paper & Pen compares", "feature": "Feature", "pp": "Paper & Pen", "zoho": "Zoho", "odoo": "Odoo", "tally": "Tally", "sowaan": "SowaanERP",
+    "rows": { "arabic": "Full Arabic RTL UI", "gcc_pricing": "GCC pricing (OMR/BHD/AED)", "free_trial": "Free trial, no card required", "local_support": "Local GCC support", "multi_lang": "5-language UI", "paymob": "Paymob / local payment", "onboarding": "Self-serve onboarding < 5 min" }
+  },
+  "trust": { "title": "Built in the GCC, for the GCC and beyond", "sub": "We understand the local regulatory environment, Arabic business culture, and the challenges of running an SME in Oman, Bahrain, and the UAE." },
+  "footer": { "tagline": "The ERP for growing GCC businesses.", "contact": "Contact", "email": "hello@paperandpen.om", "terms": "Terms of Service", "privacy": "Privacy Policy", "rights": "© {{year}} Paper & Pen. All rights reserved." },
+  "signup": {
+    "title": "Create your workspace",
+    "step1": { "title": "What's your company name?", "label": "Company name", "placeholder": "Acme LLC", "subdomainLabel": "Your workspace URL will be", "next": "Continue" },
+    "step2": { "title": "Your account details", "email": "Work email", "password": "Password", "passwordHint": "At least 8 characters", "language": "Preferred language", "currency": "Default currency", "next": "Continue" },
+    "step3": { "title": "Choose your plan", "next": "Continue", "trialNote": "14-day free trial — cancel anytime" },
+    "step4": { "title": "Setting up your workspace...", "steps": ["Creating your database", "Configuring modules", "Setting up your domain", "Almost done!"], "redirect": "Redirecting you to your workspace..." }
+  },
+  "login": { "title": "Welcome back", "email": "Email", "password": "Password", "submit": "Log in", "forgotPassword": "Forgot password?", "noAccount": "Don't have an account?", "signUp": "Start free trial" }
+}

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[dir="rtl"] body {
+  font-family: 'IBM Plex Arabic', 'Noto Sans Arabic', sans-serif;
+}
