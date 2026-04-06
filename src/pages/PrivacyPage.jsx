@@ -11,7 +11,7 @@ export default function PrivacyPage() {
         <h2 className="text-xl font-semibold text-gray-900 mt-8">Data Export</h2>
         <p>You can export all your data at any time from Settings → Subscription → Request Data Export.</p>
         <h2 className="text-xl font-semibold text-gray-900 mt-8">Contact</h2>
-        <p>Privacy inquiries: <a href="mailto:hello@paperandpen.om" className="text-brand-500">hello@paperandpen.om</a></p>
+        <p>Privacy inquiries: <a href="mailto:info@paperandpen.om" className="text-brand-500">info@paperandpen.om</a></p>
       </div>
     </div>
   );

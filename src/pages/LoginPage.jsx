@@ -7,8 +7,8 @@ export default function LoginPage() {
   const [form, setForm] = useState({ email: '', password: '' });
   function handleSubmit(e) {
     e.preventDefault();
-    // Real login redirects to tenant subdomain — API not yet deployed
-    alert('Login integration coming soon. The ERP backend is being deployed.');
+    // Redirect to ERP login at erp.paperandpen.om
+    window.location.href = `https://erp.paperandpen.om/login?email=${encodeURIComponent(form.email)}`;
   }
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">

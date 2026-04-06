@@ -13,7 +13,7 @@ export default function TermsPage() {
         <h2 className="text-xl font-semibold text-gray-900 mt-8">4. Data &amp; Privacy</h2>
         <p>Each tenant's data is stored in a dedicated, isolated database. We do not share tenant data with other tenants or third parties except as required by law.</p>
         <h2 className="text-xl font-semibold text-gray-900 mt-8">5. Contact</h2>
-        <p>For questions: <a href="mailto:hello@paperandpen.om" className="text-brand-500">hello@paperandpen.om</a></p>
+        <p>For questions: <a href="mailto:info@paperandpen.om" className="text-brand-500">info@paperandpen.om</a></p>
       </div>
     </div>
   );
