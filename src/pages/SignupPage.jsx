@@ -1,7 +1,13 @@
 import { useState, useEffect } from 'react';
-import { useSearchParams, Link, useNavigate } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
-import { slugifySubdomain } from '@/lib/utils';
+import {
+  checkSubdomainAvailability,
+  fetchBillingPlans,
+  initiateSignup,
+  isTrustedRedirectUrl,
+  normalizeSubdomainCandidate,
+} from '@/lib/api';
 import LangToggle from '@/components/LangToggle';
 
 const STEPS = 3;
@@ -12,16 +18,29 @@ const PLAN_FALLBACK = {
   enterprise: { id: 'enterprise', name: 'Enterprise', priceOMR: 99, users: 999, storage: '100GB' },
 };
 
-const API = 'https://erp.paperandpen.om/api';
+function sanitizeInitialSubdomain(value) {
+  try {
+    return normalizeSubdomainCandidate(value || '');
+  } catch {
+    return '';
+  }
+}
+
+function sanitizeSubdomainForForm(value) {
+  if (!value) {
+    return '';
+  }
+
+  return sanitizeInitialSubdomain(value);
+}
 
 export default function SignupPage() {
   const { t } = useI18n();
   const [params] = useSearchParams();
-  const navigate = useNavigate();
   const [step, setStep] = useState(1);
   const [form, setForm] = useState({
     companyName: '',
-    subdomain: params.get('subdomain') || '',
+    subdomain: sanitizeInitialSubdomain(params.get('subdomain')),
     email: '',
     password: '',
     language: params.get('lang') || 'en',
@@ -31,33 +50,59 @@ export default function SignupPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [subdomainStatus, setSubdomainStatus] = useState(null); // null | 'checking' | 'available' | 'taken'
+  const [subdomainError, setSubdomainError] = useState('');
   const [plans, setPlans] = useState(PLAN_FALLBACK);
 
   // Fetch plans from API on mount
   useEffect(() => {
-    fetch(`${API}/pnp-billing/plans`)
-      .then(r => r.json())
-      .then(data => {
-        if (data.success && Array.isArray(data.result)) {
-          const map = {};
-          data.result.forEach(p => { map[p.id] = p; });
+    let cancelled = false;
+
+    async function loadPlans() {
+      try {
+        const result = await fetchBillingPlans();
+        if (cancelled) {
+          return;
+        }
+
+        const map = {};
+        result.forEach((plan) => {
+          if (plan && typeof plan === 'object' && typeof plan.id === 'string') {
+            map[plan.id] = plan;
+          }
+        });
+
+        if (Object.keys(map).length > 0) {
           setPlans(map);
         }
-      })
-      .catch(() => {/* use fallback */});
+      } catch {
+        // Keep fallback pricing if the billing API is unavailable.
+      }
+    }
+
+    loadPlans();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   // Check subdomain availability debounced
   useEffect(() => {
-    if (!form.subdomain || form.subdomain.length < 3) { setSubdomainStatus(null); return; }
+    if (!form.subdomain || form.subdomain.length < 3) {
+      setSubdomainStatus(null);
+      setSubdomainError('');
+      return;
+    }
+
     setSubdomainStatus('checking');
+    setSubdomainError('');
     const timer = setTimeout(async () => {
       try {
-        const res = await fetch(`${API}/pnp-billing/check-subdomain?id=${form.subdomain}`);
-        const data = await res.json();
-        setSubdomainStatus(data.available ? 'available' : 'taken');
+        const { available } = await checkSubdomainAvailability(form.subdomain);
+        setSubdomainStatus(available ? 'available' : 'taken');
       } catch {
         setSubdomainStatus(null);
+        setSubdomainError('Unable to verify this workspace right now.');
       }
     }, 600);
     return () => clearTimeout(timer);
@@ -66,7 +111,8 @@ export default function SignupPage() {
   function update(field, value) {
     setForm((f) => {
       const next = { ...f, [field]: value };
-      if (field === 'companyName') next.subdomain = slugifySubdomain(value);
+      if (field === 'companyName') next.subdomain = sanitizeSubdomainForForm(value);
+      if (field === 'subdomain') next.subdomain = sanitizeSubdomainForForm(value);
       return next;
     });
   }
@@ -75,29 +121,36 @@ export default function SignupPage() {
     setLoading(true);
     setError('');
     try {
-      const res = await fetch(`${API}/pnp-billing/signup/initiate`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          tenantId: form.subdomain,
-          companyName: form.companyName,
-          email: form.email,
-          ownerName: form.companyName,
-          planId: form.plan,
-        }),
+      const safeSubdomain = normalizeSubdomainCandidate(form.subdomain);
+      const data = await initiateSignup({
+        tenantId: safeSubdomain,
+        companyName: form.companyName.trim(),
+        email: form.email.trim(),
+        ownerName: form.companyName.trim(),
+        planId: form.plan,
       });
-      const data = await res.json();
-      if (!data.success) {
+
+      if (!data?.success) {
         setError(data.message || 'Something went wrong. Please try again.');
         setLoading(false);
         return;
       }
-      // Store tenant for success page
-      sessionStorage.setItem('pnp_signup_tenant', form.subdomain);
-      // Redirect to Paymob hosted checkout
+
+      if (!isTrustedRedirectUrl(data.paymentUrl)) {
+        setError('The payment gateway URL was invalid. Please contact support.');
+        setLoading(false);
+        return;
+      }
+
+      try {
+        sessionStorage.setItem('pnp_signup_tenant', safeSubdomain);
+      } catch {
+        console.warn('Unable to store signup tenant in session storage.');
+      }
+
       window.location.href = data.paymentUrl;
-    } catch {
-      setError('Network error. Please check your connection and try again.');
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Network error. Please check your connection and try again.');
       setLoading(false);
     }
   }
@@ -158,12 +211,13 @@ export default function SignupPage() {
                     {subdomainStatus === 'available' && <span className="text-xs text-green-600 font-medium">✓ Available</span>}
                     {subdomainStatus === 'taken' && <span className="text-xs text-red-500 font-medium">✗ Taken</span>}
                   </div>
+                  {subdomainError && <p className="mt-2 text-xs text-red-500">{subdomainError}</p>}
                 </div>
               )}
               <button
-                onClick={() => form.companyName && subdomainStatus !== 'taken' && setStep(2)}
+                onClick={() => form.companyName && form.subdomain && !subdomainError && subdomainStatus !== 'taken' && subdomainStatus !== 'checking' && setStep(2)}
                 className="w-full py-3 bg-brand-500 text-white font-semibold rounded-xl hover:bg-brand-600 disabled:opacity-50 transition-colors"
-                disabled={!form.companyName || subdomainStatus === 'taken'}>
+                disabled={!form.companyName || !form.subdomain || subdomainStatus === 'taken' || subdomainStatus === 'checking' || Boolean(subdomainError)}>
                 Continue →
               </button>
             </div>

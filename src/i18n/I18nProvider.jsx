@@ -6,6 +6,8 @@ import bn from './translations/bn.json';
 import ur from './translations/ur.json';
 
 const translations = { en, ar, hi, bn, ur };
+const DEFAULT_LOCALE = 'en';
+const TRANSLATION_KEY_PATTERN = /^[a-z0-9_.-]+$/i;
 
 export const RTL_LANGS = new Set(['ar', 'ur']);
 
@@ -16,6 +18,7 @@ export const SUPPORTED_LANGS = [
   { code: 'bn', label: 'বাংলা', flag: '🇧🇩' },
   { code: 'ur', label: 'اردو', flag: '🇵🇰' },
 ];
+export const SUPPORTED_LOCALE_CODES = new Set(SUPPORTED_LANGS.map(({ code }) => code));
 
 export const I18nContext = createContext();
 
@@ -25,10 +28,20 @@ export function useI18n() {
   return ctx;
 }
 
+function sanitizeLocale(value) {
+  return SUPPORTED_LOCALE_CODES.has(value) ? value : DEFAULT_LOCALE;
+}
+
+function readStoredLocale() {
+  try {
+    return sanitizeLocale(localStorage.getItem('pp-lang'));
+  } catch {
+    return DEFAULT_LOCALE;
+  }
+}
+
 export default function I18nProvider({ children }) {
-  const [locale, setLocaleState] = useState(
-    () => localStorage.getItem('pp-lang') || 'en'
-  );
+  const [locale, setLocaleState] = useState(() => readStoredLocale());
   const isRTL = RTL_LANGS.has(locale);
 
   useEffect(() => {
@@ -37,25 +50,35 @@ export default function I18nProvider({ children }) {
   }, [locale, isRTL]);
 
   const setLocale = useCallback((lang) => {
-    setLocaleState(lang);
-    localStorage.setItem('pp-lang', lang);
+    const nextLocale = sanitizeLocale(lang);
+    setLocaleState(nextLocale);
+    try {
+      localStorage.setItem('pp-lang', nextLocale);
+    } catch {
+      console.warn('Unable to persist locale preference.');
+    }
   }, []);
 
   const t = useCallback(
     (key, vars = {}) => {
+      if (typeof key !== 'string' || !TRANSLATION_KEY_PATTERN.test(key)) {
+        return '';
+      }
+
       const keys = key.split('.');
-      let value = translations[locale] || translations.en;
+      const activeLocale = sanitizeLocale(locale);
+      let value = translations[activeLocale] || translations[DEFAULT_LOCALE];
       for (const k of keys) value = value?.[k];
       // Fallback to English if key missing in current locale
       if (value === undefined) {
-        let fallback = translations.en;
+        let fallback = translations[DEFAULT_LOCALE];
         for (const k of keys) fallback = fallback?.[k];
         value = fallback ?? key;
       }
       let result = value;
       if (typeof result === 'string') {
         Object.entries(vars).forEach(([k, v]) => {
-          result = result.replace(new RegExp(`\\{\\{${k}\\}\\}`, 'g'), v);
+          result = result.replace(new RegExp(`\\{\\{${k}\\}\\}`, 'g'), String(v));
         });
       }
       return result;

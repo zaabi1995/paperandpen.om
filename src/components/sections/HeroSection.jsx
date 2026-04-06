@@ -1,35 +1,39 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
-import { slugifySubdomain } from '@/lib/utils';
-
-const API_BASE = 'https://erp.paperandpen.om/api';
+import { checkSubdomainAvailability } from '@/lib/api';
+import { MAX_SUBDOMAIN_LENGTH, sanitizeSubdomainInput } from '@/lib/utils';
 
 export default function HeroSection() {
   const { t, lang } = useI18n();
   const [input, setInput] = useState('');
   const [subdomain, setSubdomain] = useState('');
   const [status, setStatus] = useState('idle');
+  const [checkerError, setCheckerError] = useState('');
   const timerRef = useRef(null);
   const isRTL = lang === 'ar';
 
   useEffect(() => {
-    const slug = slugifySubdomain(input);
+    const slug = sanitizeSubdomainInput(input);
     setSubdomain(slug);
-    if (!slug) { setStatus('idle'); return; }
+    setCheckerError('');
+    if (!slug) {
+      setStatus('idle');
+      return;
+    }
     setStatus('checking');
     clearTimeout(timerRef.current);
     timerRef.current = setTimeout(async () => {
       try {
-        const res = await fetch(`${API_BASE}/pnp-billing/check-subdomain?id=${slug}`);
-        const data = await res.json();
-        setStatus(data.available ? 'available' : 'taken');
+        const { available } = await checkSubdomainAvailability(slug);
+        setStatus(available ? 'available' : 'taken');
       } catch {
-        setStatus('available');
+        setStatus('idle');
+        setCheckerError(t('hero.subdomainError') || 'Unable to verify this workspace right now.');
       }
     }, 600);
     return () => clearTimeout(timerRef.current);
-  }, [input]);
+  }, [input, t]);
 
   const signupLink = subdomain ? `/signup?subdomain=${subdomain}` : '/signup';
 
@@ -81,7 +85,7 @@ export default function HeroSection() {
               <input
                 type="text"
                 value={input}
-                onChange={(e) => setInput(e.target.value)}
+                onChange={(e) => setInput(sanitizeSubdomainInput(e.target.value, MAX_SUBDOMAIN_LENGTH))}
                 placeholder={t('hero.subdomainPlaceholder')}
                 className="flex-1 px-4 py-3.5 text-ink-500 placeholder-ink-200 text-sm outline-none bg-transparent font-medium"
                 maxLength={50}
@@ -94,6 +98,7 @@ export default function HeroSection() {
               {status === 'checking' && <p className="text-xs text-ink-300">{t('hero.checking')}</p>}
               {status === 'available' && <p className="text-xs text-emerald-600 font-medium">✓ {subdomain}{t('hero.subdomainSuffix')} {t('hero.available_short')}</p>}
               {status === 'taken' && <p className="text-xs text-red-500">{subdomain}{t('hero.subdomainSuffix')} {t('hero.taken_short')}</p>}
+              {checkerError && <p className="text-xs text-red-500">{checkerError}</p>}
             </div>
           </div>
 
