@@ -8,10 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center gap-2 mb-3">
-            <div className="w-7 h-7 rounded-md bg-brand-500 flex items-center justify-center">
-              <span className="text-white font-bold text-xs">P</span>
-            </div>
-            <span className="text-white font-semibold">Paper &amp; Pen ERP</span>
+            <img src="/logo-white.svg" alt="Paper & Pen ERP" className="h-7 w-auto" />
           </div>
           <p className="text-sm">{t('footer.tagline')}</p>
         </div>

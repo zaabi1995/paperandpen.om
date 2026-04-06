@@ -10,10 +10,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center">
-            <span className="text-white font-bold text-sm">P</span>
-          </div>
-          <span className="font-semibold text-gray-900">Paper &amp; Pen ERP</span>
+          <img src="/logo.svg" alt="Paper & Pen ERP" className="h-8 w-auto" />
         </Link>
         <div className="hidden md:flex items-center gap-6">
           <a href="#pricing" className="text-sm text-gray-600 hover:text-gray-900">{t('nav.pricing')}</a>
