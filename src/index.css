@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-[dir="rtl"] body {
-  font-family: 'IBM Plex Arabic', 'Noto Sans Arabic', sans-serif;
+@layer base {
+  :root {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fdfaf5;
+    color: #1e2d5a;
+  }
+
+  [dir="rtl"] body,
+  [dir="rtl"] {
+    font-family: 'IBM Plex Arabic', 'Noto Sans Arabic', sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  [dir="rtl"] h1,
+  [dir="rtl"] h2,
+  [dir="rtl"] h3,
+  [dir="rtl"] h4 {
+    font-family: 'IBM Plex Arabic', 'Noto Sans Arabic', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-arabic {
+    font-family: 'IBM Plex Arabic', 'Noto Sans Arabic', sans-serif;
+  }
 }
