@@ -15,7 +15,7 @@ const MODULES = [
   },
   {
     key: 'inventory',
-    price: 8,
+    price: 5,
     included: false,
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -25,7 +25,7 @@ const MODULES = [
   },
   {
     key: 'hr',
-    price: 10,
+    price: 8,
     included: false,
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@ const MODULES = [
   },
   {
     key: 'accounting',
-    price: 12,
+    price: 8,
     included: false,
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@ const MODULES = [
   },
   {
     key: 'manufacturing',
-    price: 15,
+    price: 10,
     included: false,
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -56,7 +56,7 @@ const MODULES = [
   },
   {
     key: 'reports',
-    price: 8,
+    price: 5,
     included: false,
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -80,7 +80,7 @@ export default function ModuleShowcaseSection() {
   };
 
   const total = MODULES.filter(m => selected.has(m.key) && m.price).reduce((s, m) => s + m.price, 0);
-  const base = 15;
+  const base = 0;
 
   return (
     <section id="modules" className="py-24 px-6 lg:px-10 bg-white">
@@ -144,9 +144,15 @@ export default function ModuleShowcaseSection() {
           <div>
             <p className="text-xs font-semibold text-ink-300 uppercase tracking-widest mb-1">{t('modules.estimateLabel')}</p>
             <div className="flex items-baseline gap-2">
-              <span className="font-display text-4xl font-bold text-ink-500">{base + total}</span>
-              <span className="text-ink-400 font-medium">{t('modules.omr_mo')}</span>
-              {total > 0 && <span className="text-xs text-ink-300">({t('modules.base_label')} {base} + {t('modules.addons_label')} {total})</span>}
+              {total === 0 ? (
+                <span className="font-display text-4xl font-bold text-ink-500">{t('pricing.free_label')}</span>
+              ) : (
+                <>
+                  <span className="font-display text-4xl font-bold text-ink-500">{total}</span>
+                  <span className="text-ink-400 font-medium">{t('modules.omr_mo')}</span>
+                  <span className="text-xs text-ink-300">({t('modules.addons_label')} only)</span>
+                </>
+              )}
             </div>
             <p className="text-xs text-ink-300 mt-1">{t('modules.estimateNote')}</p>
           </div>

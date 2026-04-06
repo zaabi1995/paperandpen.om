@@ -5,7 +5,7 @@
     "tagline_line1": "The ERP that speaks",
     "tagline_line2": "your language.",
     "sub": "Manage sales, inventory, HR, and finance — in Arabic and English — from one platform built for Oman and the GCC.",
-    "cta": "Start Free Trial",
+    "cta": "Start for free",
     "seeModules": "See modules",
     "subdomainLabel": "Your workspace URL",
     "subdomainPlaceholder": "yourcompany",
@@ -52,34 +52,35 @@
   "pricing": {
     "eyebrow": "Pricing",
     "title": "Simple, honest pricing",
-    "sub": "All prices in Omani Rial (OMR). 20% off on annual plans.",
+    "sub": "Start free — Sales & Invoicing forever at no cost. Add modules as you grow.",
     "monthly": "Monthly", "annual": "Annual", "perMonth": "/mo", "perYear": "/yr",
     "annualSave": "Save 20%",
-    "startTrial": "Start Free Trial", "mostPopular": "Most Popular",
+    "startTrial": "Get started free", "mostPopular": "Most Popular",
+    "free_label": "Free",
     "unlimited": "Unlimited",
     "users": "users",
     "buildYourOwn": "Build your own plan",
-    "trialNote": "14-day free trial on all plans · No credit card required · Cancel anytime",
-    "starter": {
-      "name": "Starter",
-      "price_monthly": 15,
-      "price_annual": 144,
-      "description": "For freelancers and very small teams",
-      "features": ["Up to 5 users", "Sales & invoicing", "Basic reports", "Email support", "14-day free trial"]
+    "trialNote": "Free plan forever · No credit card required · Upgrade anytime",
+    "free": {
+      "name": "Free",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Sales & Invoicing, forever free",
+      "features": ["Up to 3 users", "Sales & invoicing", "Quotes & payments", "Basic reports", "No credit card needed"]
     },
     "growth": {
       "name": "Growth",
-      "price_monthly": 35,
-      "price_annual": 336,
+      "price_monthly": 25,
+      "price_annual": 240,
       "description": "For growing businesses that need more",
-      "features": ["Up to 25 users", "All Starter features", "Inventory module", "HR & payroll", "Multi-currency", "Priority support"]
+      "features": ["Up to 20 users", "Everything in Free", "Inventory module", "HR & payroll", "Multi-currency", "WhatsApp notifications", "Priority support"]
     },
     "enterprise": {
       "name": "Enterprise",
-      "price_monthly": 65,
-      "price_annual": 624,
+      "price_monthly": 49,
+      "price_annual": 470,
       "description": "Full ERP for established companies",
-      "features": ["Unlimited users", "All Growth features", "Manufacturing", "Advanced analytics", "API access", "WhatsApp notifications", "Dedicated support"]
+      "features": ["Unlimited users", "Everything in Growth", "Accounting & bank sync", "Manufacturing", "Advanced analytics", "API access", "Dedicated support"]
     },
     "addons": {
       "title": "Need something specific?",

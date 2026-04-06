@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 
-const PLANS = ['starter', 'growth', 'enterprise'];
+const PLANS = ['free', 'growth', 'enterprise'];
 const HIGHLIGHT = 'growth';
 
 export default function PricingSection() {
@@ -67,12 +67,20 @@ export default function PricingSection() {
                 </p>
 
                 <div className="flex items-baseline gap-1 mb-8">
-                  <span className={`font-display text-5xl font-bold leading-none ${isHighlight ? 'text-cream-50' : 'text-ink-500'}`}>
-                    {price}
-                  </span>
-                  <span className={`text-sm font-medium ml-1 ${isHighlight ? 'text-cream-100/60' : 'text-ink-300'}`}>
-                    OMR{suffix}
-                  </span>
+                  {price === 0 ? (
+                    <span className={`font-display text-5xl font-bold leading-none ${isHighlight ? 'text-cream-50' : 'text-ink-500'}`}>
+                      {t('pricing.free_label')}
+                    </span>
+                  ) : (
+                    <>
+                      <span className={`font-display text-5xl font-bold leading-none ${isHighlight ? 'text-cream-50' : 'text-ink-500'}`}>
+                        {price}
+                      </span>
+                      <span className={`text-sm font-medium ml-1 ${isHighlight ? 'text-cream-100/60' : 'text-ink-300'}`}>
+                        OMR{suffix}
+                      </span>
+                    </>
+                  )}
                 </div>
 
                 <ul className="space-y-3 mb-8 flex-1">
