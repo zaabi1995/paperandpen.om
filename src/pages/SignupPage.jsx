@@ -18,6 +18,9 @@ const PLAN_FALLBACK = {
   enterprise: { id: 'enterprise', name: 'Enterprise', priceOMR: 99, users: 999, storage: '100GB' },
 };
 
+// Map legacy/marketing plan IDs to backend plan IDs
+const PLAN_ID_MAP = { free: 'starter' };
+
 function sanitizeInitialSubdomain(value) {
   try {
     return normalizeSubdomainCandidate(value || '');
@@ -45,7 +48,7 @@ export default function SignupPage() {
     password: '',
     language: params.get('lang') || 'en',
     currency: 'OMR',
-    plan: params.get('plan') || 'growth',
+    plan: PLAN_ID_MAP[params.get('plan')] || params.get('plan') || 'growth',
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -101,8 +104,9 @@ export default function SignupPage() {
         const { available } = await checkSubdomainAvailability(form.subdomain);
         setSubdomainStatus(available ? 'available' : 'taken');
       } catch {
-        setSubdomainStatus(null);
-        setSubdomainError('Unable to verify this workspace right now.');
+        // Network/CORS error — don't block the user, let backend validate
+        setSubdomainStatus('unknown');
+        setSubdomainError('Unable to verify availability right now. You can continue anyway.');
       }
     }, 600);
     return () => clearTimeout(timer);
@@ -127,6 +131,7 @@ export default function SignupPage() {
         companyName: form.companyName.trim(),
         email: form.email.trim(),
         ownerName: form.companyName.trim(),
+        password: form.password,
         planId: form.plan,
       });
 
@@ -215,9 +220,9 @@ export default function SignupPage() {
                 </div>
               )}
               <button
-                onClick={() => form.companyName && form.subdomain && !subdomainError && subdomainStatus !== 'taken' && subdomainStatus !== 'checking' && setStep(2)}
+                onClick={() => form.companyName && form.subdomain && subdomainStatus !== 'taken' && subdomainStatus !== 'checking' && setStep(2)}
                 className="w-full py-3 bg-brand-500 text-white font-semibold rounded-xl hover:bg-brand-600 disabled:opacity-50 transition-colors"
-                disabled={!form.companyName || !form.subdomain || subdomainStatus === 'taken' || subdomainStatus === 'checking' || Boolean(subdomainError)}>
+                disabled={!form.companyName || !form.subdomain || subdomainStatus === 'taken' || subdomainStatus === 'checking'}>
                 Continue →
               </button>
             </div>

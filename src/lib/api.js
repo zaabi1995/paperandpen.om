@@ -78,7 +78,7 @@ async function initiateSignup(payload) {
 function isTrustedRedirectUrl(value) {
   try {
     const url = new URL(value);
-    return url.protocol === 'https:' && ['erp.paperandpen.om', 'accept.paymob.com'].includes(url.hostname);
+    return url.protocol === 'https:' && ['erp.paperandpen.om', 'oman.paymob.com'].includes(url.hostname);
   } catch {
     return false;
   }

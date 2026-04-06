@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 
 const PLANS = ['free', 'growth', 'enterprise'];
+// 'free' maps to 'starter' on the backend — the free plan has no card requirement
+const PLAN_ID_MAP = { free: 'starter', growth: 'growth', enterprise: 'enterprise' };
 const HIGHLIGHT = 'growth';
 
 export default function PricingSection() {
@@ -95,7 +97,7 @@ export default function PricingSection() {
                 </ul>
 
                 <Link
-                  to={`/signup?plan=${key}&billing=${annual ? 'annual' : 'monthly'}`}
+                  to={`/signup?plan=${PLAN_ID_MAP[key] || key}&billing=${annual ? 'annual' : 'monthly'}`}
                   className={`block text-center py-3 px-5 rounded-xl font-semibold text-sm transition-all ${
                     isHighlight
                       ? 'bg-copper-400 text-white hover:bg-copper-500 shadow-lg'
