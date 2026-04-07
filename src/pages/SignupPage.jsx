@@ -3,7 +3,6 @@ import { useSearchParams, Link } from 'react-router-dom';
 import { useI18n } from '@/i18n/I18nProvider';
 import {
   checkSubdomainAvailability,
-  fetchBillingPlans,
   initiateSignup,
   isTrustedRedirectUrl,
   normalizeSubdomainCandidate,
@@ -12,14 +11,13 @@ import LangToggle from '@/components/LangToggle';
 
 const STEPS = 3;
 
-const PLAN_FALLBACK = {
-  starter:    { id: 'starter',    name: 'Starter',    priceOMR: 25, users: 3,   storage: '5GB' },
-  growth:     { id: 'growth',     name: 'Growth',     priceOMR: 49, users: 10,  storage: '20GB' },
-  enterprise: { id: 'enterprise', name: 'Enterprise', priceOMR: 99, users: 999, storage: '100GB' },
-};
-
-// Map legacy/marketing plan IDs to backend plan IDs
-const PLAN_ID_MAP = { free: 'starter' };
+const MODULES = [
+  { key: 'inventory',     price: 5 },
+  { key: 'hr',            price: 8 },
+  { key: 'accounting',    price: 8 },
+  { key: 'manufacturing', price: 10 },
+  { key: 'reports',       price: 5 },
+];
 
 function sanitizeInitialSubdomain(value) {
   try {
@@ -29,12 +27,10 @@ function sanitizeInitialSubdomain(value) {
   }
 }
 
-function sanitizeSubdomainForForm(value) {
-  if (!value) {
-    return '';
-  }
-
-  return sanitizeInitialSubdomain(value);
+function parseModulesParam(value) {
+  if (!value) return new Set();
+  const valid = new Set(MODULES.map(m => m.key));
+  return new Set(value.split(',').filter(k => valid.has(k)));
 }
 
 export default function SignupPage() {
@@ -46,48 +42,12 @@ export default function SignupPage() {
     subdomain: sanitizeInitialSubdomain(params.get('subdomain')),
     email: '',
     password: '',
-    language: params.get('lang') || 'en',
-    currency: 'OMR',
-    plan: PLAN_ID_MAP[params.get('plan')] || params.get('plan') || 'growth',
   });
+  const [selectedModules, setSelectedModules] = useState(parseModulesParam(params.get('modules')));
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [subdomainStatus, setSubdomainStatus] = useState(null); // null | 'checking' | 'available' | 'taken'
+  const [subdomainStatus, setSubdomainStatus] = useState(null);
   const [subdomainError, setSubdomainError] = useState('');
-  const [plans, setPlans] = useState(PLAN_FALLBACK);
-
-  // Fetch plans from API on mount
-  useEffect(() => {
-    let cancelled = false;
-
-    async function loadPlans() {
-      try {
-        const result = await fetchBillingPlans();
-        if (cancelled) {
-          return;
-        }
-
-        const map = {};
-        result.forEach((plan) => {
-          if (plan && typeof plan === 'object' && typeof plan.id === 'string') {
-            map[plan.id] = plan;
-          }
-        });
-
-        if (Object.keys(map).length > 0) {
-          setPlans(map);
-        }
-      } catch {
-        // Keep fallback pricing if the billing API is unavailable.
-      }
-    }
-
-    loadPlans();
-
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   // Check subdomain availability debounced
   useEffect(() => {
@@ -115,11 +75,21 @@ export default function SignupPage() {
   function update(field, value) {
     setForm((f) => {
       const next = { ...f, [field]: value };
-      if (field === 'companyName') next.subdomain = sanitizeSubdomainForForm(value);
-      if (field === 'subdomain') next.subdomain = sanitizeSubdomainForForm(value);
+      if (field === 'companyName') next.subdomain = sanitizeInitialSubdomain(value);
+      if (field === 'subdomain') next.subdomain = sanitizeInitialSubdomain(value);
       return next;
     });
   }
+
+  function toggleModule(key) {
+    setSelectedModules(prev => {
+      const next = new Set(prev);
+      next.has(key) ? next.delete(key) : next.add(key);
+      return next;
+    });
+  }
+
+  const moduleTotal = MODULES.filter(m => selectedModules.has(m.key)).reduce((s, m) => s + m.price, 0);
 
   async function handlePayment() {
     setLoading(true);
@@ -132,7 +102,8 @@ export default function SignupPage() {
         email: form.email.trim(),
         ownerName: form.companyName.trim(),
         password: form.password,
-        planId: form.plan,
+        planId: 'starter',
+        modules: [...selectedModules],
       });
 
       if (!data?.success) {
@@ -183,7 +154,7 @@ export default function SignupPage() {
         <div className="max-w-lg mx-auto flex justify-between mt-1 text-xs text-gray-400">
           <span className={step >= 1 ? 'text-brand-600 font-medium' : ''}>Workspace</span>
           <span className={step >= 2 ? 'text-brand-600 font-medium' : ''}>Account</span>
-          <span className={step >= 3 ? 'text-brand-600 font-medium' : ''}>Plan &amp; Payment</span>
+          <span className={step >= 3 ? 'text-brand-600 font-medium' : ''}>Modules &amp; Payment</span>
         </div>
       </div>
 
@@ -268,59 +239,65 @@ export default function SignupPage() {
             </div>
           )}
 
-          {/* Step 3 — Plan & Payment */}
+          {/* Step 3 — Modules & Payment */}
           {step === 3 && (
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-1">Choose your plan</h2>
-              <p className="text-sm text-gray-500 mb-6">14-day free trial — card required to activate. Cancel anytime.</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-1">Pick your modules</h2>
+              <p className="text-sm text-gray-500 mb-4">Sales & Invoicing is always free. Add what you need.</p>
 
-              <div className="space-y-3 mb-6">
-                {Object.entries(plans).map(([key, plan]) => (
-                  <button
-                    key={key}
-                    onClick={() => update('plan', key)}
-                    className={`w-full text-left p-4 rounded-xl border-2 transition-all ${form.plan === key ? 'border-brand-500 bg-brand-50' : 'border-gray-200 hover:border-brand-300'}`}>
-                    <div className="flex justify-between items-center">
-                      <div>
-                        <span className="font-semibold text-gray-900">{plan.name}</span>
-                        <p className="text-xs text-gray-500 mt-0.5">{plan.users === 999 ? 'Unlimited' : plan.users} users · {plan.storage}</p>
-                      </div>
-                      <div className="text-right">
-                        <span className="text-brand-600 font-bold">{plan.priceOMR} OMR</span>
-                        <p className="text-xs text-gray-400">/month</p>
-                      </div>
-                    </div>
-                    {form.plan === key && (
-                      <div className="mt-2 pt-2 border-t border-brand-200">
-                        <p className="text-xs text-brand-700">
-                          ✓ Free for 14 days · then {plan.priceOMR} OMR/month · cancel anytime
-                        </p>
-                      </div>
-                    )}
-                  </button>
-                ))}
+              {/* Base (always included) */}
+              <div className="mb-4 p-4 rounded-xl bg-gray-900 text-white flex items-center justify-between">
+                <div>
+                  <span className="font-semibold text-sm">Sales & Invoicing</span>
+                  <p className="text-xs text-gray-400 mt-0.5">Quotes, invoices, payments · 3 users</p>
+                </div>
+                <span className="text-sm font-bold text-green-400">Free</span>
               </div>
 
-              {/* Order summary */}
+              {/* Module toggles */}
+              <div className="space-y-2 mb-6">
+                {MODULES.map(({ key, price }) => {
+                  const active = selectedModules.has(key);
+                  return (
+                    <button
+                      key={key}
+                      onClick={() => toggleModule(key)}
+                      className={`w-full text-left p-4 rounded-xl border-2 transition-all flex items-center justify-between ${active ? 'border-brand-500 bg-brand-50' : 'border-gray-200 hover:border-gray-300'}`}
+                    >
+                      <div className="flex items-center gap-3">
+                        <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 transition-all ${active ? 'border-brand-500 bg-brand-500' : 'border-gray-300'}`}>
+                          {active && <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>}
+                        </div>
+                        <span className="font-medium text-sm text-gray-900">{t(`modules.${key}.title`)}</span>
+                      </div>
+                      <span className={`text-sm font-bold shrink-0 ${active ? 'text-brand-600' : 'text-gray-400'}`}>+{price} OMR/mo</span>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Summary */}
               <div className="bg-gray-50 rounded-xl p-4 mb-4 border border-gray-200">
                 <div className="flex justify-between text-sm mb-2">
                   <span className="text-gray-600">Workspace</span>
-                  <span className="font-mono text-gray-900">{form.subdomain}.paperandpen.om</span>
+                  <span className="font-mono text-gray-900 text-xs">{form.subdomain}.paperandpen.om</span>
                 </div>
                 <div className="flex justify-between text-sm mb-2">
-                  <span className="text-gray-600">Plan</span>
-                  <span className="font-semibold text-gray-900">{plans[form.plan]?.name}</span>
+                  <span className="text-gray-600">Base (Sales)</span>
+                  <span className="text-green-600 font-medium">Free forever</span>
                 </div>
-                <div className="flex justify-between text-sm mb-2">
-                  <span className="text-gray-600">Trial period</span>
-                  <span className="text-green-600 font-medium">14 days free</span>
-                </div>
+                {moduleTotal > 0 && (
+                  <div className="flex justify-between text-sm mb-2">
+                    <span className="text-gray-600">Add-on modules</span>
+                    <span className="font-semibold text-gray-900">{moduleTotal} OMR/mo</span>
+                  </div>
+                )}
                 <div className="border-t border-gray-200 pt-2 flex justify-between text-sm">
                   <span className="text-gray-600">Due today</span>
                   <span className="font-bold text-gray-900">0.000 OMR</span>
                 </div>
                 <p className="text-xs text-gray-400 mt-2">
-                  After trial: {plans[form.plan]?.priceOMR} OMR/month. Card is saved securely via Paymob.
+                  {moduleTotal > 0 ? `After 14-day trial: ${moduleTotal} OMR/month.` : 'Free forever — add modules anytime.'} Card saved via Paymob.
                 </p>
               </div>
 
@@ -346,14 +323,14 @@ export default function SignupPage() {
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                       </svg>
-                      Start Free Trial
+                      Start Free
                     </>
                   )}
                 </button>
               </div>
 
               <p className="text-center text-xs text-gray-400 mt-4">
-                🔒 Card saved securely via Paymob · No charge during trial
+                Card saved securely via Paymob · No charge today
               </p>
             </div>
           )}
