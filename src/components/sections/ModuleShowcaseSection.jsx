@@ -80,7 +80,8 @@ export default function ModuleShowcaseSection() {
   };
 
   const total = MODULES.filter(m => selected.has(m.key) && m.price).reduce((s, m) => s + m.price, 0);
-  const base = 0;
+  const modulesParam = [...selected].filter(k => k !== 'sales').join(',');
+  const signupHref = `/signup${modulesParam ? `?modules=${modulesParam}` : ''}`;
 
   return (
     <section id="modules" className="py-24 px-6 lg:px-10 bg-white">
@@ -157,7 +158,7 @@ export default function ModuleShowcaseSection() {
             <p className="text-xs text-ink-300 mt-1">{t('modules.estimateNote')}</p>
           </div>
           <Link
-            to="/signup"
+            to={signupHref}
             className="inline-flex items-center gap-2 px-7 py-3.5 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 transition-all shadow-md whitespace-nowrap"
           >
             {t('modules.startTrial')}
