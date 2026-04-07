@@ -61,16 +61,6 @@ async function checkSubdomainAvailability(subdomain) {
   return parseSubdomainAvailabilityResponse(data);
 }
 
-async function fetchBillingPlans() {
-  const data = await request('GET', '/pnp-billing/plans');
-
-  if (!data || typeof data !== 'object' || data.success === false || !Array.isArray(data.result)) {
-    throw new Error('Invalid plans response');
-  }
-
-  return data.result;
-}
-
 async function initiateSignup(payload) {
   return request('POST', '/pnp-billing/signup/initiate', { body: payload });
 }
@@ -92,7 +82,6 @@ export const api = {
 export {
   BASE as API_BASE,
   checkSubdomainAvailability,
-  fetchBillingPlans,
   initiateSignup,
   isTrustedRedirectUrl,
 };
