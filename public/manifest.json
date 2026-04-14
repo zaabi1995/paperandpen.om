@@ -1,0 +1,27 @@
+{
+  "name": "Paper & Pen ERP",
+  "short_name": "P&P ERP",
+  "description": "GCC-native cloud ERP — sales, inventory, HR & accounting in Arabic and English.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#172e50",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "finance"]
+}
