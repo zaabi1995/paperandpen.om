@@ -112,16 +112,28 @@ export default function SignupPage() {
         return;
       }
 
-      if (!isTrustedRedirectUrl(data.paymentUrl)) {
-        setError('The payment gateway URL was invalid. Please contact support.');
-        setLoading(false);
-        return;
-      }
-
       try {
         sessionStorage.setItem('pnp_signup_tenant', safeSubdomain);
       } catch {
         console.warn('Unable to store signup tenant in session storage.');
+      }
+
+      // FREE path — no Paymob, tenant is already provisioned. Send user to their workspace.
+      if (data.free && data.workspaceUrl) {
+        if (!isTrustedRedirectUrl(data.workspaceUrl)) {
+          // Fallback: build URL from tenantId if returned URL isn't trusted
+          window.location.href = `https://${safeSubdomain}.paperandpen.om/login?email=${encodeURIComponent(form.email.trim())}`;
+          return;
+        }
+        window.location.href = data.workspaceUrl + `?email=${encodeURIComponent(form.email.trim())}`;
+        return;
+      }
+
+      // PAID path — Paymob card capture required.
+      if (!isTrustedRedirectUrl(data.paymentUrl)) {
+        setError('The payment gateway URL was invalid. Please contact support.');
+        setLoading(false);
+        return;
       }
 
       window.location.href = data.paymentUrl;
@@ -297,7 +309,9 @@ export default function SignupPage() {
                   <span className="font-bold text-gray-900">0.000 OMR</span>
                 </div>
                 <p className="text-xs text-gray-400 mt-2">
-                  {moduleTotal > 0 ? `After 14-day trial: ${moduleTotal} OMR/month.` : 'Free forever — add modules anytime.'} Card saved via Paymob.
+                  {moduleTotal > 0
+                    ? `After 14-day trial: ${moduleTotal} OMR/month. Card saved securely via Paymob (0.100 OMR verification, refunded immediately).`
+                    : 'Free forever. No credit card required. Add modules anytime.'}
                 </p>
               </div>
 
@@ -318,19 +332,28 @@ export default function SignupPage() {
                       <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
                       Creating workspace...
                     </>
-                  ) : (
+                  ) : moduleTotal > 0 ? (
                     <>
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                       </svg>
-                      Start Free
+                      Start 14-day Trial
+                    </>
+                  ) : (
+                    <>
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      Create my workspace
                     </>
                   )}
                 </button>
               </div>
 
               <p className="text-center text-xs text-gray-400 mt-4">
-                Card saved securely via Paymob · No charge today
+                {moduleTotal > 0
+                  ? 'Card secured via Paymob · 0.100 OMR auth refunded immediately'
+                  : 'No credit card required · Sales & Invoicing free forever'}
               </p>
             </div>
           )}
