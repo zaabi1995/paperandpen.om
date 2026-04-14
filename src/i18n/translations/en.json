@@ -1,5 +1,11 @@
 {
-  "nav": { "features": "Features", "pricing": "Pricing", "compare": "Compare", "login": "Log in", "startFree": "Start Free Trial" },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "compare": "Compare",
+    "login": "Log in",
+    "startFree": "Start Free Trial"
+  },
   "hero": {
     "badge": "Built for the GCC",
     "tagline_line1": "The ERP that speaks",
@@ -43,47 +49,94 @@
     "addons_label": "add-ons",
     "estimateNote": "Based on selected modules. Users billed separately.",
     "startTrial": "Start 14-day Free Trial",
-    "sales": { "title": "Sales & CRM", "desc": "Quotes, invoices, client pipeline, payment tracking and follow-ups." },
-    "inventory": { "title": "Inventory", "desc": "Track stock, locations, and reorder levels in real time." },
-    "hr": { "title": "HR & Payroll", "desc": "Attendance, leave management, payroll, and employee portal." },
-    "accounting": { "title": "Accounting", "desc": "Double-entry ledger, bank reconciliation, and VAT returns." },
-    "manufacturing": { "title": "Manufacturing", "desc": "Bill of materials, work orders, and production planning." },
-    "reports": { "title": "Reports & Analytics", "desc": "P&L, cash flow, aged receivables, and custom dashboards." }
+    "sales": {
+      "title": "Sales & CRM",
+      "desc": "Quotes, invoices, client pipeline, payment tracking and follow-ups."
+    },
+    "inventory": {
+      "title": "Inventory",
+      "desc": "Track stock, locations, and reorder levels in real time."
+    },
+    "hr": {
+      "title": "HR & Payroll",
+      "desc": "Attendance, leave management, payroll, and employee portal."
+    },
+    "accounting": {
+      "title": "Accounting",
+      "desc": "Double-entry ledger, bank reconciliation, and VAT returns."
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "desc": "Bill of materials, work orders, and production planning."
+    },
+    "reports": {
+      "title": "Reports & Analytics",
+      "desc": "P&L, cash flow, aged receivables, and custom dashboards."
+    }
   },
   "pricing": {
     "eyebrow": "Pricing",
     "title": "Simple, honest pricing",
     "sub": "Start free — Sales & Invoicing forever at no cost. Add modules as you grow.",
-    "monthly": "Monthly", "annual": "Annual", "perMonth": "/mo", "perYear": "/yr",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "perMonth": "/mo",
+    "perYear": "/yr",
     "annualSave": "Save 20%",
-    "startTrial": "Get started free", "mostPopular": "Most Popular",
+    "startTrial": "Get started free",
+    "mostPopular": "Most Popular",
     "free_label": "Free",
     "unlimited": "Unlimited",
     "users": "users",
     "buildYourOwn": "Build your own plan",
     "trialNote": "Free plan forever · No credit card required · Upgrade anytime",
     "addModules": "Add modules",
-    "base": { "title": "Sales & Invoicing — Free forever", "desc": "Quotes, invoices, payments, up to 3 users. No credit card needed." },
+    "base": {
+      "title": "Sales & Invoicing — Free forever",
+      "desc": "Quotes, invoices, payments, up to 3 users. No credit card needed."
+    },
     "free": {
       "name": "Free",
       "price_monthly": 0,
       "price_annual": 0,
       "description": "Sales & Invoicing, forever free",
-      "features": ["Up to 3 users", "Sales & invoicing", "Quotes & payments", "Basic reports", "No credit card needed"]
+      "features": [
+        "Up to 3 users",
+        "Sales & invoicing",
+        "Quotes & payments",
+        "Basic reports",
+        "No credit card needed"
+      ]
     },
     "growth": {
       "name": "Growth",
       "price_monthly": 25,
       "price_annual": 240,
       "description": "For growing businesses that need more",
-      "features": ["Up to 20 users", "Everything in Free", "Inventory module", "HR & payroll", "Multi-currency", "WhatsApp notifications", "Priority support"]
+      "features": [
+        "Up to 20 users",
+        "Everything in Free",
+        "Inventory module",
+        "HR & payroll",
+        "Multi-currency",
+        "WhatsApp notifications",
+        "Priority support"
+      ]
     },
     "enterprise": {
       "name": "Enterprise",
       "price_monthly": 49,
       "price_annual": 470,
       "description": "Full ERP for established companies",
-      "features": ["Unlimited users", "Everything in Growth", "Accounting & bank sync", "Manufacturing", "Advanced analytics", "API access", "Dedicated support"]
+      "features": [
+        "Unlimited users",
+        "Everything in Growth",
+        "Accounting & bank sync",
+        "Manufacturing",
+        "Advanced analytics",
+        "API access",
+        "Dedicated support"
+      ]
     },
     "addons": {
       "title": "Need something specific?",
@@ -99,18 +152,35 @@
   "compare": {
     "eyebrow": "Why Paper & Pen",
     "title": "How we compare",
-    "feature": "Feature", "pp": "Paper & Pen", "zoho": "Zoho", "odoo": "Odoo", "tally": "Tally", "sowaan": "SowaanERP",
-    "rows": { "arabic": "Full Arabic RTL UI", "gcc_pricing": "GCC pricing (OMR/BHD/AED)", "free_trial": "Free trial, no card required", "local_support": "Local GCC support", "multi_lang": "5-language UI", "paymob": "Paymob / local payment", "onboarding": "Self-serve onboarding < 5 min" }
+    "feature": "Feature",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Full Arabic RTL UI",
+      "gcc_pricing": "GCC pricing (OMR/BHD/AED)",
+      "free_trial": "Free trial, no card required",
+      "local_support": "Local GCC support",
+      "multi_lang": "5-language UI",
+      "paymob": "Paymob / local payment",
+      "onboarding": "Self-serve onboarding < 5 min"
+    }
   },
   "trust": {
     "eyebrow": "Why businesses choose us",
     "title": "Built in Oman, for Oman and the GCC",
     "sub": "We understand the local regulatory environment, Arabic business culture, and the unique challenges of running a business in Oman, Bahrain, and the UAE.",
     "cta": "Start your free trial",
-    "stat1_value": "5", "stat1_label": "Languages supported",
-    "stat2_value": "14 days", "stat2_label": "Free trial, no card needed",
-    "stat3_value": "< 5 min", "stat3_label": "Average setup time",
-    "stat4_value": "OMR", "stat4_label": "Local currency billing"
+    "stat1_value": "5",
+    "stat1_label": "Languages supported",
+    "stat2_value": "14 days",
+    "stat2_label": "Free trial, no card needed",
+    "stat3_value": "< 5 min",
+    "stat3_label": "Average setup time",
+    "stat4_value": "OMR",
+    "stat4_label": "Local currency billing"
   },
   "footer": {
     "tagline": "The ERP for growing GCC businesses. Made in Oman.",
@@ -125,10 +195,83 @@
   },
   "signup": {
     "title": "Create your workspace",
-    "step1": { "title": "What's your company name?", "label": "Company name", "placeholder": "Acme LLC", "subdomainLabel": "Your workspace URL will be", "next": "Continue" },
-    "step2": { "title": "Your account details", "email": "Work email", "password": "Password", "passwordHint": "At least 8 characters", "language": "Preferred language", "currency": "Default currency", "next": "Continue" },
-    "step3": { "title": "Choose your plan", "next": "Continue", "trialNote": "14-day free trial — cancel anytime" },
-    "step4": { "title": "Setting up your workspace...", "steps": ["Creating your database", "Configuring modules", "Setting up your domain", "Almost done!"], "redirect": "Redirecting you to your workspace..." }
+    "step1": {
+      "title": "What's your company name?",
+      "label": "Company name",
+      "placeholder": "Al Noor Trading LLC",
+      "subdomainLabel": "Your workspace URL will be",
+      "next": "Continue",
+      "subtitle": "This becomes your unique ERP subdomain.",
+      "workspaceUrlLabel": "Your workspace URL:",
+      "available": "✓ Available",
+      "taken": "✗ Taken",
+      "checking": "checking..."
+    },
+    "step2": {
+      "title": "Your account details",
+      "email": "Work email",
+      "password": "Password",
+      "passwordHint": "At least 8 characters",
+      "language": "Preferred language",
+      "currency": "Default currency",
+      "next": "Continue",
+      "subtitle": "You'll use these to log in to your ERP.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@company.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Min. 8 characters",
+      "back": "Back"
+    },
+    "step3": {
+      "title": "Pick your modules",
+      "next": "Continue",
+      "trialNote": "14-day free trial — cancel anytime",
+      "subtitle": "Sales & Invoicing is always free. Add what you need.",
+      "baseTitle": "Sales & Invoicing",
+      "baseSub": "Quotes, invoices, payments · 3 users",
+      "baseTag": "Free",
+      "workspaceLabel": "Workspace",
+      "baseRow": "Base (Sales)",
+      "baseValue": "Free forever",
+      "addonsLabel": "Add-on modules",
+      "dueToday": "Due today",
+      "freeNote": "Free forever. No credit card required. Add modules anytime.",
+      "paidNote": "After 14-day trial: {{total}} OMR/month. Card saved securely via Paymob (0.100 OMR verification, refunded immediately).",
+      "back": "Back",
+      "btnFree": "Create my workspace",
+      "btnPaid": "Start 14-day Trial",
+      "btnLoading": "Creating workspace...",
+      "footerFree": "No credit card required · Sales & Invoicing free forever",
+      "footerPaid": "Card secured via Paymob · 0.100 OMR auth refunded immediately"
+    },
+    "step4": {
+      "title": "Setting up your workspace...",
+      "steps": [
+        "Creating your database",
+        "Configuring modules",
+        "Setting up your domain",
+        "Almost done!"
+      ],
+      "redirect": "Redirecting you to your workspace..."
+    },
+    "progress": {
+      "workspace": "Workspace",
+      "account": "Account",
+      "modulesPayment": "Modules & Payment"
+    },
+    "errors": {
+      "gateway": "The payment gateway URL was invalid. Please contact support.",
+      "network": "Network error. Please check your connection and try again.",
+      "generic": "Something went wrong. Please try again."
+    }
   },
-  "login": { "title": "Welcome back", "email": "Email", "password": "Password", "submit": "Log in", "forgotPassword": "Forgot password?", "noAccount": "Don't have an account?", "signUp": "Start free trial" }
+  "login": {
+    "title": "Welcome back",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Log in",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "signUp": "Start free trial"
+  }
 }

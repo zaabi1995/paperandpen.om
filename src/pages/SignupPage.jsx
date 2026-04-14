@@ -107,7 +107,7 @@ export default function SignupPage() {
       });
 
       if (!data?.success) {
-        setError(data.message || 'Something went wrong. Please try again.');
+        setError(data.message || t('signup.errors.generic') || 'Something went wrong. Please try again.');
         setLoading(false);
         return;
       }
@@ -131,14 +131,14 @@ export default function SignupPage() {
 
       // PAID path — Paymob card capture required.
       if (!isTrustedRedirectUrl(data.paymentUrl)) {
-        setError('The payment gateway URL was invalid. Please contact support.');
+        setError(t('signup.errors.gateway') || 'The payment gateway URL was invalid. Please contact support.');
         setLoading(false);
         return;
       }
 
       window.location.href = data.paymentUrl;
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Network error. Please check your connection and try again.');
+      setError(err instanceof Error ? err.message : (t('signup.errors.network') || 'Network error. Please check your connection and try again.'));
       setLoading(false);
     }
   }
@@ -164,9 +164,9 @@ export default function SignupPage() {
           ))}
         </div>
         <div className="max-w-lg mx-auto flex justify-between mt-1 text-xs text-gray-400">
-          <span className={step >= 1 ? 'text-brand-600 font-medium' : ''}>Workspace</span>
-          <span className={step >= 2 ? 'text-brand-600 font-medium' : ''}>Account</span>
-          <span className={step >= 3 ? 'text-brand-600 font-medium' : ''}>Modules &amp; Payment</span>
+          <span className={step >= 1 ? 'text-brand-600 font-medium' : ''}>{t('signup.progress.workspace') || 'Workspace'}</span>
+          <span className={step >= 2 ? 'text-brand-600 font-medium' : ''}>{t('signup.progress.account') || 'Account'}</span>
+          <span className={step >= 3 ? 'text-brand-600 font-medium' : ''}>{t('signup.progress.modulesPayment') || 'Modules & Payment'}</span>
         </div>
       </div>
 
@@ -176,28 +176,28 @@ export default function SignupPage() {
           {/* Step 1 — Workspace */}
           {step === 1 && (
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-1">{t('signup.step1.title') || 'Name your workspace'}</h2>
-              <p className="text-sm text-gray-500 mb-6">This becomes your unique ERP subdomain.</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-1">{t('signup.step1.title') || "What's your company name?"}</h2>
+              <p className="text-sm text-gray-500 mb-6">{t('signup.step1.subtitle') || 'This becomes your unique ERP subdomain.'}</p>
               <div className="mb-4">
-                <label className="block text-sm font-medium text-gray-700 mb-1">Company name</label>
+                <label className="block text-sm font-medium text-gray-700 mb-1">{t('signup.step1.label') || 'Company name'}</label>
                 <input
                   type="text"
                   value={form.companyName}
                   onChange={(e) => update('companyName', e.target.value)}
-                  placeholder="Al Noor Trading LLC"
+                  placeholder={t('signup.step1.placeholder') || 'Al Noor Trading LLC'}
                   className="w-full px-4 py-2.5 border border-gray-300 rounded-xl text-sm focus:outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20"
                 />
               </div>
               {form.subdomain && (
                 <div className="mb-6 px-4 py-3 bg-gray-50 rounded-xl border border-gray-200">
-                  <p className="text-xs text-gray-500 mb-1">Your workspace URL:</p>
+                  <p className="text-xs text-gray-500 mb-1">{t('signup.step1.workspaceUrlLabel') || 'Your workspace URL:'}</p>
                   <div className="flex items-center gap-2">
-                    <span className="font-mono text-sm font-semibold text-gray-900">
+                    <span className="font-mono text-sm font-semibold text-gray-900" dir="ltr">
                       {form.subdomain}.paperandpen.om
                     </span>
-                    {subdomainStatus === 'checking' && <span className="text-xs text-gray-400">checking...</span>}
-                    {subdomainStatus === 'available' && <span className="text-xs text-green-600 font-medium">✓ Available</span>}
-                    {subdomainStatus === 'taken' && <span className="text-xs text-red-500 font-medium">✗ Taken</span>}
+                    {subdomainStatus === 'checking' && <span className="text-xs text-gray-400">{t('signup.step1.checking') || 'checking...'}</span>}
+                    {subdomainStatus === 'available' && <span className="text-xs text-green-600 font-medium">{t('signup.step1.available') || '✓ Available'}</span>}
+                    {subdomainStatus === 'taken' && <span className="text-xs text-red-500 font-medium">{t('signup.step1.taken') || '✗ Taken'}</span>}
                   </div>
                   {subdomainError && <p className="mt-2 text-xs text-red-500">{subdomainError}</p>}
                 </div>
@@ -206,7 +206,7 @@ export default function SignupPage() {
                 onClick={() => form.companyName && form.subdomain && subdomainStatus !== 'taken' && subdomainStatus !== 'checking' && setStep(2)}
                 className="w-full py-3 bg-brand-500 text-white font-semibold rounded-xl hover:bg-brand-600 disabled:opacity-50 transition-colors"
                 disabled={!form.companyName || !form.subdomain || subdomainStatus === 'taken' || subdomainStatus === 'checking'}>
-                Continue →
+                {t('signup.step1.next') || 'Continue'} →
               </button>
             </div>
           )}
@@ -214,38 +214,40 @@ export default function SignupPage() {
           {/* Step 2 — Account */}
           {step === 2 && (
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-1">{t('signup.step2.title') || 'Create your account'}</h2>
-              <p className="text-sm text-gray-500 mb-6">You'll use these to log in to your ERP.</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-1">{t('signup.step2.title') || 'Your account details'}</h2>
+              <p className="text-sm text-gray-500 mb-6">{t('signup.step2.subtitle') || "You'll use these to log in to your ERP."}</p>
               <div className="space-y-4 mb-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Email address</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">{t('signup.step2.emailLabel') || 'Email address'}</label>
                   <input
                     type="email"
                     value={form.email}
                     onChange={(e) => update('email', e.target.value)}
-                    placeholder="you@company.com"
+                    placeholder={t('signup.step2.emailPlaceholder') || 'you@company.com'}
                     className="w-full px-4 py-2.5 border border-gray-300 rounded-xl text-sm focus:outline-none focus:border-brand-500"
+                    dir="ltr"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">{t('signup.step2.passwordLabel') || 'Password'}</label>
                   <input
                     type="password"
                     value={form.password}
                     onChange={(e) => update('password', e.target.value)}
-                    placeholder="Min. 8 characters"
+                    placeholder={t('signup.step2.passwordPlaceholder') || 'Min. 8 characters'}
                     className="w-full px-4 py-2.5 border border-gray-300 rounded-xl text-sm focus:outline-none focus:border-brand-500"
+                    dir="ltr"
                   />
-                  <p className="text-xs text-gray-400 mt-1">At least 8 characters</p>
+                  <p className="text-xs text-gray-400 mt-1">{t('signup.step2.passwordHint') || 'At least 8 characters'}</p>
                 </div>
               </div>
               <div className="flex gap-3">
-                <button onClick={() => setStep(1)} className="flex-1 py-3 border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50">Back</button>
+                <button onClick={() => setStep(1)} className="flex-1 py-3 border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50">{t('signup.step2.back') || 'Back'}</button>
                 <button
                   onClick={() => form.email && form.password.length >= 8 && setStep(3)}
                   disabled={!form.email || form.password.length < 8}
                   className="flex-1 py-3 bg-brand-500 text-white font-semibold rounded-xl hover:bg-brand-600 disabled:opacity-50">
-                  Continue →
+                  {t('signup.step2.next') || 'Continue'} →
                 </button>
               </div>
             </div>
@@ -254,16 +256,16 @@ export default function SignupPage() {
           {/* Step 3 — Modules & Payment */}
           {step === 3 && (
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-1">Pick your modules</h2>
-              <p className="text-sm text-gray-500 mb-4">Sales & Invoicing is always free. Add what you need.</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-1">{t('signup.step3.title') || 'Pick your modules'}</h2>
+              <p className="text-sm text-gray-500 mb-4">{t('signup.step3.subtitle') || 'Sales & Invoicing is always free. Add what you need.'}</p>
 
               {/* Base (always included) */}
               <div className="mb-4 p-4 rounded-xl bg-gray-900 text-white flex items-center justify-between">
                 <div>
-                  <span className="font-semibold text-sm">Sales & Invoicing</span>
-                  <p className="text-xs text-gray-400 mt-0.5">Quotes, invoices, payments · 3 users</p>
+                  <span className="font-semibold text-sm">{t('signup.step3.baseTitle') || 'Sales & Invoicing'}</span>
+                  <p className="text-xs text-gray-400 mt-0.5">{t('signup.step3.baseSub') || 'Quotes, invoices, payments · 3 users'}</p>
                 </div>
-                <span className="text-sm font-bold text-green-400">Free</span>
+                <span className="text-sm font-bold text-green-400">{t('signup.step3.baseTag') || 'Free'}</span>
               </div>
 
               {/* Module toggles */}
@@ -291,27 +293,27 @@ export default function SignupPage() {
               {/* Summary */}
               <div className="bg-gray-50 rounded-xl p-4 mb-4 border border-gray-200">
                 <div className="flex justify-between text-sm mb-2">
-                  <span className="text-gray-600">Workspace</span>
-                  <span className="font-mono text-gray-900 text-xs">{form.subdomain}.paperandpen.om</span>
+                  <span className="text-gray-600">{t('signup.step3.workspaceLabel') || 'Workspace'}</span>
+                  <span className="font-mono text-gray-900 text-xs" dir="ltr">{form.subdomain}.paperandpen.om</span>
                 </div>
                 <div className="flex justify-between text-sm mb-2">
-                  <span className="text-gray-600">Base (Sales)</span>
-                  <span className="text-green-600 font-medium">Free forever</span>
+                  <span className="text-gray-600">{t('signup.step3.baseRow') || 'Base (Sales)'}</span>
+                  <span className="text-green-600 font-medium">{t('signup.step3.baseValue') || 'Free forever'}</span>
                 </div>
                 {moduleTotal > 0 && (
                   <div className="flex justify-between text-sm mb-2">
-                    <span className="text-gray-600">Add-on modules</span>
+                    <span className="text-gray-600">{t('signup.step3.addonsLabel') || 'Add-on modules'}</span>
                     <span className="font-semibold text-gray-900">{moduleTotal} OMR/mo</span>
                   </div>
                 )}
                 <div className="border-t border-gray-200 pt-2 flex justify-between text-sm">
-                  <span className="text-gray-600">Due today</span>
+                  <span className="text-gray-600">{t('signup.step3.dueToday') || 'Due today'}</span>
                   <span className="font-bold text-gray-900">0.000 OMR</span>
                 </div>
                 <p className="text-xs text-gray-400 mt-2">
                   {moduleTotal > 0
-                    ? `After 14-day trial: ${moduleTotal} OMR/month. Card saved securely via Paymob (0.100 OMR verification, refunded immediately).`
-                    : 'Free forever. No credit card required. Add modules anytime.'}
+                    ? (t('signup.step3.paidNote') || `After 14-day trial: {{total}} OMR/month. Card saved securely via Paymob (0.100 OMR verification, refunded immediately).`).replace('{{total}}', moduleTotal)
+                    : (t('signup.step3.freeNote') || 'Free forever. No credit card required. Add modules anytime.')}
                 </p>
               </div>
 
@@ -322,7 +324,7 @@ export default function SignupPage() {
               )}
 
               <div className="flex gap-3">
-                <button onClick={() => setStep(2)} className="flex-1 py-3 border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50" disabled={loading}>Back</button>
+                <button onClick={() => setStep(2)} className="flex-1 py-3 border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50" disabled={loading}>{t('signup.step3.back') || 'Back'}</button>
                 <button
                   onClick={handlePayment}
                   disabled={loading}
@@ -330,21 +332,21 @@ export default function SignupPage() {
                   {loading ? (
                     <>
                       <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                      Creating workspace...
+                      {t('signup.step3.btnLoading') || 'Creating workspace...'}
                     </>
                   ) : moduleTotal > 0 ? (
                     <>
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                       </svg>
-                      Start 14-day Trial
+                      {t('signup.step3.btnPaid') || 'Start 14-day Trial'}
                     </>
                   ) : (
                     <>
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      Create my workspace
+                      {t('signup.step3.btnFree') || 'Create my workspace'}
                     </>
                   )}
                 </button>
@@ -352,8 +354,8 @@ export default function SignupPage() {
 
               <p className="text-center text-xs text-gray-400 mt-4">
                 {moduleTotal > 0
-                  ? 'Card secured via Paymob · 0.100 OMR auth refunded immediately'
-                  : 'No credit card required · Sales & Invoicing free forever'}
+                  ? (t('signup.step3.footerPaid') || 'Card secured via Paymob · 0.100 OMR auth refunded immediately')
+                  : (t('signup.step3.footerFree') || 'No credit card required · Sales & Invoicing free forever')}
               </p>
             </div>
           )}
