@@ -151,7 +151,7 @@ export default function SignupPage() {
           <img src="/logo.svg" alt="Paper & Pen ERP" className="h-7 w-auto" />
         </Link>
         <div className="flex items-center gap-3">
-          <span className="text-xs text-gray-400 hidden sm:inline">Secured by Paymob</span>
+          <span className="text-xs text-gray-400 hidden sm:inline">{t('signup.securedBy') || 'Secured by Paymob'}</span>
           <LangToggle />
         </div>
       </div>
@@ -284,7 +284,7 @@ export default function SignupPage() {
                         </div>
                         <span className="font-medium text-sm text-gray-900">{t(`modules.${key}.title`)}</span>
                       </div>
-                      <span className={`text-sm font-bold shrink-0 ${active ? 'text-brand-600' : 'text-gray-400'}`}>+{price} OMR/mo</span>
+                      <span className={`text-sm font-bold shrink-0 ${active ? 'text-brand-600' : 'text-gray-400'}`}>{(t('modules.pricePerMonth') || '+{{price}} OMR/mo').replace('{{price}}', price)}</span>
                     </button>
                   );
                 })}
