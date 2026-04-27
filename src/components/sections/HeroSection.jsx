@@ -42,17 +42,17 @@ export default function HeroSection() {
       {/* Paper texture overlay */}
       <div className="absolute inset-0 bg-paper-texture opacity-100 pointer-events-none" />
 
-      {/* Decorative ink bleed — top right */}
+      {/* Decorative ink bleed, top right */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] pointer-events-none overflow-hidden">
         <div className="absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-ink-500/5 blur-3xl" />
         <div className="absolute top-10 right-10 w-64 h-64 rounded-full bg-copper-300/10 blur-2xl" />
       </div>
-      {/* Decorative — bottom left */}
+      {/* Decorative, bottom left */}
       <div className="absolute bottom-0 left-0 w-96 h-96 pointer-events-none">
         <div className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-cream-300/40 blur-3xl" />
       </div>
 
-      {/* Vertical rule — editorial detail */}
+      {/* Vertical rule, editorial detail */}
       <div className="absolute left-6 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-ink-200/60 to-transparent hidden lg:block" />
 
       <div className="relative max-w-6xl mx-auto px-6 lg:px-10 py-24 grid lg:grid-cols-2 gap-16 items-center w-full">

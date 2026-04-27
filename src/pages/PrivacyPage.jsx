@@ -13,7 +13,7 @@ export default function PrivacyPage() {
 
         <h2 className="text-xl font-semibold text-gray-900 mt-8">Information We Collect</h2>
         <p><strong>Account data:</strong> company name, owner name, email address, phone number (if provided).</p>
-        <p><strong>Billing data:</strong> collected only if you enable a paid module. Card details are processed by our payment partner Paymob (Oman) and tokenized — we never see or store your full card number.</p>
+        <p><strong>Billing data:</strong> collected only if you enable a paid module. Card details are processed by our payment partner Paymob (Oman) and tokenized, we never see or store your full card number.</p>
         <p><strong>Usage data:</strong> basic logs (IP address, browser, request timestamps) used for security and troubleshooting. We do not use third-party advertising or cross-site tracking.</p>
         <p><strong>Your business data:</strong> everything you enter into your workspace (clients, invoices, products, etc.) belongs to you. We process it only to operate the Service on your behalf.</p>
 
@@ -28,16 +28,16 @@ export default function PrivacyPage() {
         <h2 className="text-xl font-semibold text-gray-900 mt-8">Where Your Data Is Stored</h2>
         <p>
           All data is stored on servers located in the GCC region. Each workspace has a fully
-          isolated database — your data is never mixed with other businesses. Backups are
+          isolated database, your data is never mixed with other businesses. Backups are
           encrypted at rest and retained for 30 days.
         </p>
 
         <h2 className="text-xl font-semibold text-gray-900 mt-8">Who We Share Data With</h2>
         <p>We do not sell your data. We share only the minimum necessary with trusted service providers, under contract:</p>
         <ul className="list-disc pl-6">
-          <li><strong>Paymob</strong> — to process card payments for paid modules.</li>
-          <li><strong>Dardasha</strong> — to send WhatsApp sign-in codes and notifications, only if you opt in.</li>
-          <li><strong>Hostinger</strong> — infrastructure hosting in the region.</li>
+          <li><strong>Paymob</strong>, to process card payments for paid modules.</li>
+          <li><strong>Dardasha</strong>, to send WhatsApp sign-in codes and notifications, only if you opt in.</li>
+          <li><strong>Hostinger</strong>, infrastructure hosting in the region.</li>
         </ul>
         <p>
           We may also disclose information if required by a lawful order from Omani authorities
@@ -64,7 +64,7 @@ export default function PrivacyPage() {
         <p>
           All traffic is encrypted with TLS. Passwords are hashed with bcrypt. Per-tenant
           database isolation prevents cross-tenant access. We follow reasonable industry
-          practices but no system is 100% secure — please report any concerns to
+          practices but no system is 100% secure, please report any concerns to
           <a href="mailto:security@paperandpen.om" className="text-brand-500"> security@paperandpen.om</a>.
         </p>
 

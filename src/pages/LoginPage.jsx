@@ -40,7 +40,8 @@ export default function LoginPage() {
     try {
       sessionStorage.setItem('pnp_last_workspace', workspace);
     } catch {}
-    const target = `https://${workspace}.paperandpen.om/login?email=${encodeURIComponent(form.email.trim())}`;
+    // Send user straight to the OTP sign-in page on their workspace, passwordless by default.
+    const target = `https://${workspace}.paperandpen.om/login/code?email=${encodeURIComponent(form.email.trim())}`;
     window.location.href = target;
   }
 
@@ -92,18 +93,13 @@ export default function LoginPage() {
               Continue to workspace →
             </button>
           </form>
-          <div className="flex justify-between text-sm text-gray-500 mt-6">
-            <span>
-              {t('login.noAccount') || "Don't have an account?"}{' '}
-              <Link to="/signup" className="text-brand-500 font-medium hover:underline">{t('login.signUp') || 'Sign up'}</Link>
-            </span>
-            <a
-              href={`https://${(() => { try { return normalizeSubdomainCandidate(form.workspace) || 'erp'; } catch { return 'erp'; } })()}.paperandpen.om/forgot-password`}
-              className="text-gray-400 hover:text-brand-500 hover:underline"
-            >
-              Forgot password?
-            </a>
-          </div>
+          <p className="text-xs text-gray-400 mt-4 text-center">
+            We'll send a one-time code to your email. No password required.
+          </p>
+          <p className="text-center text-sm text-gray-500 mt-6">
+            {t('login.noAccount') || "Don't have an account?"}{' '}
+            <Link to="/signup" className="text-brand-500 font-medium hover:underline">{t('login.signUp') || 'Sign up'}</Link>
+          </p>
         </div>
       </div>
     </div>

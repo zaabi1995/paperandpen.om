@@ -64,7 +64,7 @@ export default function SignupPage() {
         const { available } = await checkSubdomainAvailability(form.subdomain);
         setSubdomainStatus(available ? 'available' : 'taken');
       } catch {
-        // Network/CORS error — don't block the user, let backend validate
+        // Network/CORS error, don't block the user, let backend validate
         setSubdomainStatus('unknown');
         setSubdomainError('Unable to verify availability right now. You can continue anyway.');
       }
@@ -101,7 +101,7 @@ export default function SignupPage() {
         companyName: form.companyName.trim(),
         email: form.email.trim(),
         ownerName: form.companyName.trim(),
-        password: form.password,
+        // No password, Paper & Pen is sign-in via email/WhatsApp one-time code
         planId: 'starter',
         modules: [...selectedModules],
       });
@@ -118,7 +118,7 @@ export default function SignupPage() {
         console.warn('Unable to store signup tenant in session storage.');
       }
 
-      // FREE path — no Paymob, tenant is already provisioned. Send user to their workspace.
+      // FREE path, no Paymob, tenant is already provisioned. Send user to their workspace.
       if (data.free && data.workspaceUrl) {
         if (!isTrustedRedirectUrl(data.workspaceUrl)) {
           // Fallback: build URL from tenantId if returned URL isn't trusted
@@ -129,7 +129,7 @@ export default function SignupPage() {
         return;
       }
 
-      // PAID path — Paymob card capture required.
+      // PAID path, Paymob card capture required.
       if (!isTrustedRedirectUrl(data.paymentUrl)) {
         setError(t('signup.errors.gateway') || 'The payment gateway URL was invalid. Please contact support.');
         setLoading(false);
@@ -173,7 +173,7 @@ export default function SignupPage() {
       <div className="flex-1 flex items-start justify-center py-12 px-4">
         <div className="w-full max-w-md">
 
-          {/* Step 1 — Workspace */}
+          {/* Step 1, Workspace */}
           {step === 1 && (
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-1">{t('signup.step1.title') || "What's your company name?"}</h2>
@@ -211,11 +211,11 @@ export default function SignupPage() {
             </div>
           )}
 
-          {/* Step 2 — Account */}
+          {/* Step 2, Account (OTP-only, no password) */}
           {step === 2 && (
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-1">{t('signup.step2.title') || 'Your account details'}</h2>
-              <p className="text-sm text-gray-500 mb-6">{t('signup.step2.subtitle') || "You'll use these to log in to your ERP."}</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-1">{t('signup.step2.title') || 'Your email'}</h2>
+              <p className="text-sm text-gray-500 mb-6">{t('signup.step2.subtitle') || "We'll send a one-time code every time you sign in. No password to remember."}</p>
               <div className="space-y-4 mb-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">{t('signup.step2.emailLabel') || 'Email address'}</label>
@@ -226,26 +226,16 @@ export default function SignupPage() {
                     placeholder={t('signup.step2.emailPlaceholder') || 'you@company.com'}
                     className="w-full px-4 py-2.5 border border-gray-300 rounded-xl text-sm focus:outline-none focus:border-brand-500"
                     dir="ltr"
+                    autoFocus
                   />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">{t('signup.step2.passwordLabel') || 'Password'}</label>
-                  <input
-                    type="password"
-                    value={form.password}
-                    onChange={(e) => update('password', e.target.value)}
-                    placeholder={t('signup.step2.passwordPlaceholder') || 'Min. 8 characters'}
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-xl text-sm focus:outline-none focus:border-brand-500"
-                    dir="ltr"
-                  />
-                  <p className="text-xs text-gray-400 mt-1">{t('signup.step2.passwordHint') || 'At least 8 characters'}</p>
+                  <p className="text-xs text-gray-400 mt-1">{t('signup.step2.emailHint') || 'You’ll receive a 6-digit sign-in code here every time.'}</p>
                 </div>
               </div>
               <div className="flex gap-3">
                 <button onClick={() => setStep(1)} className="flex-1 py-3 border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50">{t('signup.step2.back') || 'Back'}</button>
                 <button
-                  onClick={() => form.email && form.password.length >= 8 && setStep(3)}
-                  disabled={!form.email || form.password.length < 8}
+                  onClick={() => form.email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email) && setStep(3)}
+                  disabled={!form.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)}
                   className="flex-1 py-3 bg-brand-500 text-white font-semibold rounded-xl hover:bg-brand-600 disabled:opacity-50">
                   {t('signup.step2.next') || 'Continue'} →
                 </button>
@@ -253,7 +243,7 @@ export default function SignupPage() {
             </div>
           )}
 
-          {/* Step 3 — Modules & Payment */}
+          {/* Step 3, Modules & Payment */}
           {step === 3 && (
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-1">{t('signup.step3.title') || 'Pick your modules'}</h2>
