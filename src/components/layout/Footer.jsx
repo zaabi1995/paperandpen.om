@@ -14,15 +14,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <img src="/logo-white.svg" alt="Paper & Pen ERP" className="h-9 w-auto mb-5 opacity-90" />
             <p className="text-sm leading-relaxed max-w-xs mb-6">{t('footer.tagline')}</p>
-            <a
-              href={`mailto:${t('footer.email')}`}
-              className="inline-flex items-center gap-2 text-sm text-copper-300 hover:text-copper-200 font-medium transition-colors mb-3"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              {t('footer.email')}
-            </a>
+            
             <a
               href="https://wa.me/96898899100"
               target="_blank"
@@ -51,7 +43,7 @@ export default function Footer() {
           <div>
             <h3 className="text-cream-100 text-sm font-semibold mb-4 tracking-wide">{t('footer.support') || 'Support'}</h3>
             <ul className="space-y-2.5">
-              <li><a href="mailto:support@paperandpen.om" className="text-sm hover:text-cream-100 transition-colors">{t('footer.contactSupport') || 'Contact Support'}</a></li>
+              <li><a href="https://wa.me/96898899100" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-cream-100 transition-colors">{t('footer.contactSupport') || 'Contact Support'}</a></li>
               <li><a href="https://wa.me/96898899100" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-cream-100 transition-colors">WhatsApp</a></li>
               <li><Link to="/login" className="text-sm hover:text-cream-100 transition-colors">{t('nav.login')}</Link></li>
             </ul>

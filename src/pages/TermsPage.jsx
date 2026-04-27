@@ -25,7 +25,7 @@ export default function TermsPage() {
           You must provide accurate information when creating an account and keep it up to date.
           You are responsible for maintaining the confidentiality of your login credentials and
           for all activity under your account. Notify us immediately of any unauthorized use at
-          <a href="mailto:security@paperandpen.om" className="text-brand-500"> security@paperandpen.om</a>.
+          <a href="/#contact" className="text-brand-500">our contact form</a>.
         </p>
 
         <h2 className="text-xl font-semibold text-gray-900 mt-8">3. Free Plan and Paid Modules</h2>
@@ -92,8 +92,8 @@ export default function TermsPage() {
         <h2 className="text-xl font-semibold text-gray-900 mt-8">11. Contact</h2>
         <p>
           Paper and Pen Company LLC, Muscat, Sultanate of Oman.<br />
-          General enquiries: <a href="mailto:info@paperandpen.om" className="text-brand-500">info@paperandpen.om</a><br />
-          Legal notices: <a href="mailto:legal@paperandpen.om" className="text-brand-500">legal@paperandpen.om</a>
+          General enquiries: <a href="/#contact" className="text-brand-500">our contact form</a><br />
+          Legal notices: <a href="/#contact" className="text-brand-500">our contact form</a>
         </p>
       </div>
     </div>

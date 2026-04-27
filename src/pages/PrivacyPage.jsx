@@ -65,7 +65,7 @@ export default function PrivacyPage() {
           All traffic is encrypted with TLS. Passwords are hashed with bcrypt. Per-tenant
           database isolation prevents cross-tenant access. We follow reasonable industry
           practices but no system is 100% secure, please report any concerns to
-          <a href="mailto:security@paperandpen.om" className="text-brand-500"> security@paperandpen.om</a>.
+          <a href="/#contact" className="text-brand-500">our contact form</a>.
         </p>
 
         <h2 className="text-xl font-semibold text-gray-900 mt-8">Children</h2>
@@ -84,7 +84,7 @@ export default function PrivacyPage() {
         <h2 className="text-xl font-semibold text-gray-900 mt-8">Contact</h2>
         <p>
           Paper and Pen Company LLC, Muscat, Sultanate of Oman.<br />
-          Privacy inquiries: <a href="mailto:privacy@paperandpen.om" className="text-brand-500">privacy@paperandpen.om</a>
+          Privacy inquiries: <a href="/#contact" className="text-brand-500">our contact form</a>
         </p>
       </div>
     </div>
