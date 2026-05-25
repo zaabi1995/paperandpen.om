@@ -96,6 +96,30 @@
     <link rel="preconnect" href="https://fonts.bhd.om" />
     <link rel="preconnect" href="https://fonts.bhd.om" crossorigin />
     <link href="https://fonts.bhd.om/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=DM+Sans:wght@300;400;500;600;700&family=IBM+Plex+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- BHD-Group shared design layer (design.bhd.om).
+         Paper & Pen keeps its ink+cream+copper palette; design.bhd.om
+         adds Cmd+K palette + skeleton loaders. -->
+    <link rel="stylesheet" href="https://design.bhd.om/cmdk.css" />
+    <link rel="stylesheet" href="https://design.bhd.om/skeleton.css" />
+    <script src="https://design.bhd.om/cmdk.js" defer></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        if (!window.BHDCmdK) return;
+        var isAr = location.search.indexOf('lang=ar') !== -1;
+        BHDCmdK.init({
+          commands: [
+            { id: 'home',       label: isAr ? 'الرئيسية' : 'Home',                 hint: isAr ? 'تنقل' : 'Navigate', action: function () { location.href = '/'; } },
+            { id: 'collections',label: isAr ? 'المجموعات' : 'Collections',          hint: isAr ? 'تنقل' : 'Navigate', action: function () { location.href = '/collections'; } },
+            { id: 'shop',       label: isAr ? 'المتجر' : 'Shop',                     hint: isAr ? 'تنقل' : 'Navigate', action: function () { location.href = '/shop'; } },
+            { id: 'about',      label: isAr ? 'من نحن' : 'About',                    hint: isAr ? 'تنقل' : 'Navigate', action: function () { location.href = '/about'; } },
+            { id: 'contact',    label: isAr ? 'تواصل' : 'Contact',                   hint: isAr ? 'تنقل' : 'Navigate', action: function () { location.href = '/contact'; } },
+            { id: 'lang-toggle',label: isAr ? 'Switch to English' : 'التبديل للعربية', hint: 'Locale',                  action: function () { location.href = location.pathname + (isAr ? '' : '?lang=ar'); } },
+            { id: 'whatsapp',   label: 'WhatsApp',                                    hint: 'External',                  action: function () { window.open('https://wa.me/96898899100', '_blank'); } }
+          ]
+        });
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>
