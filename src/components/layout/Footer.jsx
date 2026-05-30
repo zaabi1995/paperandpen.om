@@ -16,7 +16,7 @@ export default function Footer() {
             <p className="text-sm leading-relaxed max-w-xs mb-6">{t('footer.tagline')}</p>
             
             <a
-              href="https://wa.me/96898899100"
+              href="https://api.whatsapp.com/send?phone=96898899100"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-copper-300 hover:text-copper-200 font-medium transition-colors"
@@ -43,8 +43,8 @@ export default function Footer() {
           <div>
             <h3 className="text-cream-100 text-sm font-semibold mb-4 tracking-wide">{t('footer.support') || 'Support'}</h3>
             <ul className="space-y-2.5">
-              <li><a href="https://wa.me/96898899100" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-cream-100 transition-colors">{t('footer.contactSupport') || 'Contact Support'}</a></li>
-              <li><a href="https://wa.me/96898899100" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-cream-100 transition-colors">WhatsApp</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=96898899100" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-cream-100 transition-colors">{t('footer.contactSupport') || 'Contact Support'}</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=96898899100" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-cream-100 transition-colors">WhatsApp</a></li>
               <li><Link to="/login" className="text-sm hover:text-cream-100 transition-colors">{t('nav.login')}</Link></li>
             </ul>
           </div>

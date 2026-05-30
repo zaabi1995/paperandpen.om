@@ -86,7 +86,7 @@
             "addressCountry": "OM"
           },
           "sameAs": [
-            "https://wa.me/96898899100"
+            "https://api.whatsapp.com/send?phone=96898899100"
           ]
         }
       ]
@@ -116,7 +116,7 @@
             { id: 'about',      label: isAr ? 'من نحن' : 'About',                    hint: isAr ? 'تنقل' : 'Navigate', action: function () { location.href = '/about'; } },
             { id: 'contact',    label: isAr ? 'تواصل' : 'Contact',                   hint: isAr ? 'تنقل' : 'Navigate', action: function () { location.href = '/contact'; } },
             { id: 'lang-toggle',label: isAr ? 'Switch to English' : 'التبديل للعربية', hint: 'Locale',                  action: function () { location.href = location.pathname + (isAr ? '' : '?lang=ar'); } },
-            { id: 'whatsapp',   label: 'WhatsApp',                                    hint: 'External',                  action: function () { window.open('https://wa.me/96898899100', '_blank'); } }
+            { id: 'whatsapp',   label: 'WhatsApp',                                    hint: 'External',                  action: function () { window.open('https://api.whatsapp.com/send?phone=96898899100', '_blank'); } }
           ]
         });
       });
