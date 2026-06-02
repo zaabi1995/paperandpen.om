@@ -2,357 +2,366 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Paper &amp; Pen ERP — Product Overview</title>
+<title>Paper &amp; Pen ERP · Run your whole business from one place</title>
 <style>
-@import url("https://fonts.bhd.om/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.bhd.om/css2?family=Poppins:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap");
 
 :root{
-  --ink:#172e50; --ink2:#1e2d5a; --ink-deep:#101a36;
-  --cream:#fdfaf5; --cream2:#faf4e8; --cream3:#f5e9d0;
-  --copper:#c07840; --copper-deep:#a85f25;
-  --gold:#c9973f; --gold-soft:#e0bb7e;
-  --muted:#5b6a85;
+  --ink:#172e50; --ink-deep:#0f2138; --cream:#fdfaf5; --cream2:#faf4e8;
+  --gold:#c9973f; --gold-soft:#e7c98a; --copper:#c07840;
+  --tx:#33425c; --tx-soft:#62718c;
+  /* friendly accent tints */
+  --amber:#d98a2b;  --amber-bg:#fdf1df;
+  --teal:#2fa090;   --teal-bg:#e7f5f2;
+  --rose:#d4647a;   --rose-bg:#fceaee;
+  --sky:#3f7cc0;    --sky-bg:#e9f1fb;
+  --green:#4a9d5b;  --green-bg:#eaf5ec;
+  --violet:#7a5fb0; --violet-bg:#f0ecfa;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 @page{ size:33.867cm 19.05cm; margin:0; }
-html,body{ font-family:"DM Sans",system-ui,sans-serif; color:var(--ink); -webkit-font-smoothing:antialiased; }
+html,body{ font-family:"DM Sans",system-ui,sans-serif; color:var(--tx); -webkit-font-smoothing:antialiased; }
+h1,h2,h3{ font-family:"Poppins","DM Sans",sans-serif; color:var(--ink); letter-spacing:-.01em; }
 
-.slide{
-  position:relative; width:33.867cm; height:19.05cm; overflow:hidden;
-  page-break-after:always; display:flex; flex-direction:column;
-  padding:1.45cm 1.7cm 1.2cm; background:var(--cream);
-}
+.slide{ position:relative; width:33.867cm; height:19.05cm; overflow:hidden;
+  page-break-after:always; padding:1.5cm 1.9cm; background:var(--cream); display:flex; flex-direction:column; }
 .slide:last-child{ page-break-after:auto; }
-.slide.dark{ background:var(--ink); color:var(--cream); }
-.slide.deep{ background:var(--ink-deep); color:var(--cream); }
+.slide.navy{ background:var(--ink); color:var(--cream); }
+.slide.navy h1,.slide.navy h2,.slide.navy h3{ color:var(--cream); }
+.hl{ color:var(--copper); }
+.navy .hl{ color:var(--gold); }
 
-/* shared bits */
-.eyebrow{ font-size:11pt; letter-spacing:.28em; text-transform:uppercase; font-weight:700; color:var(--copper); margin-bottom:.35cm; }
-.dark .eyebrow,.deep .eyebrow{ color:var(--gold-soft); }
-.title{ font-family:"Playfair Display",serif; font-weight:800; line-height:1.04; color:var(--ink); }
-.dark .title,.deep .title{ color:var(--cream); }
-.title .ac{ font-style:italic; font-weight:700; color:var(--copper); }
-.dark .title .ac,.deep .title .ac{ color:var(--gold); }
-.lead{ font-size:13.5pt; line-height:1.5; color:#42526e; max-width:24cm; }
-.dark .lead,.deep .lead{ color:rgba(253,250,245,.78); }
+.foot{ position:absolute; left:1.9cm; right:1.9cm; bottom:.95cm; display:flex; align-items:center; justify-content:space-between; font-size:9pt; color:#9aa6bb; }
+.navy .foot{ color:rgba(253,250,245,.5); }
+.foot img{ height:.6cm; }
+.pgtag{ font-weight:600; letter-spacing:.02em; }
 
-.foot{ position:absolute; left:1.7cm; right:1.7cm; bottom:.85cm; display:flex; align-items:center; justify-content:space-between;
-  font-size:9pt; letter-spacing:.04em; color:#8a96ad; }
-.dark .foot,.deep .foot{ color:rgba(253,250,245,.5); }
-.foot img{ height:.62cm; }
-.rule{ height:3px; width:1.9cm; background:var(--copper); border-radius:3px; margin:.5cm 0 .6cm; }
-.dark .rule,.deep .rule{ background:var(--gold); }
-
-/* COVER */
+/* ---------- COVER ---------- */
 .cover{ justify-content:center; }
-.cover .brandrow{ display:flex; align-items:center; gap:.45cm; margin-bottom:1.5cm; }
-.cover .brandrow img{ height:1.25cm; }
-.cover .brandrow .wm{ font-family:"Playfair Display",serif; font-weight:700; font-size:17pt; color:var(--cream); letter-spacing:.01em; }
-.cover h1{ font-family:"Playfair Display",serif; font-weight:800; font-size:52pt; line-height:1.02; color:var(--cream); letter-spacing:-.01em; }
-.cover h1 .ac{ font-style:italic; color:var(--gold); }
-.cover .sub{ margin-top:.7cm; font-size:15pt; color:rgba(253,250,245,.8); max-width:21cm; line-height:1.5; }
-.cover .badge{ display:inline-block; font-size:10pt; font-weight:700; letter-spacing:.18em; text-transform:uppercase;
-  color:var(--gold-soft); border:1px solid rgba(224,187,126,.45); padding:.22cm .5cm; border-radius:1cm; margin-bottom:1.1cm; align-self:flex-start; }
-.cover .statstrip{ margin-top:1.5cm; display:flex; gap:1.5cm; }
-.cover .statstrip .s .n{ font-family:"Playfair Display",serif; font-weight:700; font-size:22pt; color:var(--gold); }
-.cover .statstrip .s .l{ font-size:9.5pt; letter-spacing:.12em; text-transform:uppercase; color:rgba(253,250,245,.62); margin-top:.1cm; }
+.cover .top{ display:flex; align-items:center; gap:.4cm; margin-bottom:auto; padding-top:.3cm; }
+.cover .top img{ height:1.15cm; }
+.cover .top span{ font-family:"Poppins"; font-weight:700; font-size:15pt; color:var(--cream); }
+.cover .chip{ display:inline-block; align-self:flex-start; background:rgba(231,201,138,.16); color:var(--gold-soft);
+  border:1px solid rgba(231,201,138,.4); padding:.25cm .55cm; border-radius:2cm; font-weight:600; font-size:11pt; margin-bottom:.6cm; }
+.cover h1{ font-size:50pt; font-weight:800; line-height:1.05; max-width:24cm; }
+.cover p{ margin-top:.6cm; font-size:16pt; line-height:1.5; color:rgba(253,250,245,.82); max-width:21cm; }
+.cover .madein{ margin-top:auto; margin-bottom:.2cm; font-size:11.5pt; color:rgba(253,250,245,.6); }
+.cover .madein b{ color:var(--gold-soft); font-weight:600; }
 
-/* WHAT IS / pillars */
-.pillars{ display:grid; grid-template-columns:repeat(4,1fr); gap:.55cm; margin-top:.4cm; }
-.pillar{ background:rgba(255,255,255,.06); border:1px solid rgba(224,187,126,.22); border-radius:.4cm; padding:.65cm .6cm; }
-.pillar .n{ font-family:"Playfair Display",serif; font-weight:700; font-size:26pt; color:var(--gold); line-height:1; }
-.pillar .l{ font-size:11pt; font-weight:600; margin-top:.28cm; color:var(--cream); }
-.pillar .d{ font-size:9.5pt; color:rgba(253,250,245,.62); margin-top:.12cm; line-height:1.35; }
+/* ---------- section heading bits ---------- */
+.kick{ font-family:"Poppins"; font-weight:700; font-size:12pt; color:var(--copper); margin-bottom:.2cm; }
+.navy .kick{ color:var(--gold); }
+.big{ font-size:38pt; font-weight:800; line-height:1.08; }
+.lead{ font-size:15pt; line-height:1.5; color:var(--tx-soft); max-width:23cm; margin-top:.35cm; }
+.navy .lead{ color:rgba(253,250,245,.8); }
 
-/* MODULE MAP grid */
-.map{ display:grid; grid-template-columns:repeat(4,1fr); gap:.5cm; margin-top:.3cm; flex:1; align-content:start; }
-.mcard{ background:#fff; border:1px solid var(--cream3); border-radius:.4cm; padding:.55cm .55cm; }
-.mcard .ic{ font-size:17pt; }
-.mcard .t{ font-weight:700; font-size:11pt; margin-top:.2cm; color:var(--ink); }
-.mcard .d{ font-size:8.6pt; color:#5b6a85; margin-top:.12cm; line-height:1.32; }
+/* ---------- PROBLEM bubbles ---------- */
+.bubbles{ display:flex; flex-wrap:wrap; gap:.55cm; margin-top:1cm; max-width:27cm; }
+.bub{ background:#fff; border:1px solid #efe4cf; border-radius:1.4cm; padding:.5cm .8cm; font-size:14pt; font-weight:500; color:var(--ink);
+  box-shadow:0 2px 5px rgba(23,46,80,.05); }
+.bub .e{ margin-right:.2cm; }
+.punch{ margin-top:auto; margin-bottom:.4cm; font-family:"Poppins"; font-weight:600; font-size:18pt; color:var(--ink); }
 
-/* DETAIL slides: two/three column feature lists */
-.detail-head{ display:flex; align-items:flex-end; justify-content:space-between; }
-.kbadge{ font-size:9.5pt; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--copper-deep);
-  background:var(--cream2); border:1px solid var(--cream3); padding:.2cm .45cm; border-radius:1cm; }
-.cols{ display:grid; grid-template-columns:repeat(3,1fr); gap:.45cm .9cm; margin-top:.55cm; }
-.cols.two{ grid-template-columns:repeat(2,1fr); }
-.grp .gh{ font-weight:700; font-size:11.5pt; color:var(--ink); margin-bottom:.18cm; padding-bottom:.14cm; border-bottom:2px solid var(--cream3); }
-.grp ul{ list-style:none; }
-.grp li{ position:relative; padding-left:.5cm; font-size:10pt; line-height:1.5; color:#3c4a63; margin-bottom:.06cm; }
-.grp li::before{ content:""; position:absolute; left:0; top:.22cm; width:.18cm; height:.18cm; border-radius:50%; background:var(--copper); }
-.d-lead{ font-size:12pt; line-height:1.45; color:#42526e; max-width:25cm; margin-top:-.1cm; }
-.outcome{ margin-top:auto; margin-bottom:.5cm; background:var(--cream2); border-left:4px solid var(--copper); border-radius:.3cm; padding:.5cm .72cm; font-size:11.5pt; line-height:1.4; color:var(--ink); }
-.outcome b{ color:var(--copper-deep); font-weight:700; }
+/* ---------- FIX: one app visual ---------- */
+.fixwrap{ flex:1; display:flex; align-items:center; gap:1.6cm; }
+.fixwrap .left{ flex:1.1; }
+.fixwrap .left h2{ font-size:40pt; font-weight:800; line-height:1.07; }
+.fixwrap .left p{ font-size:16pt; color:rgba(253,250,245,.82); margin-top:.5cm; line-height:1.5; }
+.hub{ flex:1; display:flex; align-items:center; justify-content:center; }
+.hub .core{ width:6.2cm; height:6.2cm; border-radius:50%; background:var(--gold); color:var(--ink);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
+  font-family:"Poppins"; box-shadow:0 0 0 .7cm rgba(231,201,138,.18), 0 0 0 1.4cm rgba(231,201,138,.08); }
+.hub .core .e{ font-size:30pt; line-height:1; }
+.hub .core b{ font-size:14pt; font-weight:700; margin-top:.15cm; }
 
-/* feature card row (for highlights) */
-.hl{ display:grid; grid-template-columns:repeat(2,1fr); gap:.6cm; margin-top:.5cm; flex:1; align-content:start; }
-.hcard{ background:rgba(255,255,255,.05); border:1px solid rgba(224,187,126,.25); border-radius:.45cm; padding:.7cm .75cm; }
-.hcard .ic{ font-size:18pt; }
-.hcard .t{ font-family:"Playfair Display",serif; font-weight:700; font-size:15pt; color:var(--cream); margin-top:.2cm; }
-.hcard .d{ font-size:10pt; color:rgba(253,250,245,.72); margin-top:.18cm; line-height:1.45; }
+/* ---------- OVERVIEW chips grid ---------- */
+.grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:.55cm; margin-top:.9cm; flex:1; align-content:center; }
+.cell{ background:#fff; border:1px solid #efe4cf; border-radius:.5cm; padding:.6cm .7cm; display:flex; align-items:center; gap:.5cm;
+  box-shadow:0 2px 5px rgba(23,46,80,.04); }
+.cell .ic{ width:1.5cm; height:1.5cm; border-radius:.4cm; display:flex; align-items:center; justify-content:center; font-size:18pt; flex-shrink:0; background:var(--cream2); }
+.cell .tx{ font-family:"Poppins"; font-weight:600; font-size:13.5pt; color:var(--ink); line-height:1.2; }
 
-/* platform grid */
-.plat{ display:grid; grid-template-columns:repeat(3,1fr); gap:.55cm; margin-top:.5cm; }
-.pl{ background:rgba(255,255,255,.05); border:1px solid rgba(224,187,126,.22); border-radius:.42cm; padding:.62cm .6cm; }
-.pl .t{ font-weight:700; font-size:11.5pt; color:var(--cream); }
-.pl .d{ font-size:9.4pt; color:rgba(253,250,245,.66); margin-top:.14cm; line-height:1.4; }
+/* ---------- BENEFIT slides ---------- */
+.benefit{ flex:1; display:flex; align-items:center; gap:1.7cm; }
+.benefit .copy{ flex:1.25; }
+.benefit .badge{ width:2.4cm; height:2.4cm; border-radius:.7cm; display:flex; align-items:center; justify-content:center; font-size:30pt; margin-bottom:.5cm; }
+.benefit h2{ font-size:36pt; font-weight:800; line-height:1.06; }
+.benefit .say{ font-size:16pt; line-height:1.5; color:var(--tx); margin-top:.4cm; max-width:18cm; }
+.ticks{ list-style:none; margin-top:.7cm; }
+.ticks li{ position:relative; padding-left:1.05cm; font-size:14.5pt; line-height:1.35; color:var(--tx); margin-bottom:.42cm; }
+.ticks li::before{ content:"✓"; position:absolute; left:0; top:-.02cm; width:.72cm; height:.72cm; border-radius:50%;
+  color:#fff; font-size:11pt; font-weight:700; display:flex; align-items:center; justify-content:center; }
+.benefit .art{ flex:1; display:flex; align-items:center; justify-content:center; }
+.benefit .art .disc{ width:8.4cm; height:8.4cm; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:84pt; }
 
-/* closing */
-.close{ justify-content:center; align-items:flex-start; }
-.close h2{ font-family:"Playfair Display",serif; font-weight:800; font-size:40pt; line-height:1.05; color:var(--cream); }
-.close h2 .ac{ font-style:italic; color:var(--gold); }
-.close .c-sub{ margin-top:.55cm; font-size:14pt; color:rgba(253,250,245,.8); max-width:22cm; line-height:1.5; }
-.contact{ margin-top:1.3cm; display:flex; gap:1.4cm; }
-.contact .ci .l{ font-size:9pt; letter-spacing:.14em; text-transform:uppercase; color:var(--gold-soft); }
-.contact .ci .v{ font-size:13pt; font-weight:600; color:var(--cream); margin-top:.12cm; white-space:nowrap; }
+/* accent helpers */
+.a-amber  .badge,.a-amber  .ticks li::before{ background:var(--amber); }  .a-amber  .art .disc{ background:var(--amber-bg); }  .a-amber .badge{ background:var(--amber-bg); }
+.a-teal   .badge,.a-teal   .ticks li::before{ background:var(--teal); }   .a-teal   .art .disc{ background:var(--teal-bg); }   .a-teal .badge{ background:var(--teal-bg); }
+.a-rose   .badge,.a-rose   .ticks li::before{ background:var(--rose); }   .a-rose   .art .disc{ background:var(--rose-bg); }   .a-rose .badge{ background:var(--rose-bg); }
+.a-sky    .badge,.a-sky    .ticks li::before{ background:var(--sky); }    .a-sky    .art .disc{ background:var(--sky-bg); }    .a-sky .badge{ background:var(--sky-bg); }
+.a-green  .badge,.a-green  .ticks li::before{ background:var(--green); }  .a-green  .art .disc{ background:var(--green-bg); }  .a-green .badge{ background:var(--green-bg); }
+.a-violet .badge,.a-violet .ticks li::before{ background:var(--violet); } .a-violet .art .disc{ background:var(--violet-bg); } .a-violet .badge{ background:var(--violet-bg); }
+.a-gold   .badge,.a-gold   .ticks li::before{ background:var(--gold); }   .a-gold   .art .disc{ background:var(--cream2); }   .a-gold .badge{ background:var(--cream2); }
+/* keep emoji badge readable: emoji are coloured themselves, so tint bg + dark icon */
+.benefit .badge{ filter:none; }
+
+/* ---------- LANGUAGES ---------- */
+.langs{ display:flex; flex-wrap:wrap; align-items:flex-start; gap:.5cm; margin-top:.9cm; }
+.lang{ background:#fff; border:1px solid #efe4cf; border-radius:1cm; padding:.4cm .85cm; font-size:15pt; font-weight:600; color:var(--ink); box-shadow:0 2px 5px rgba(23,46,80,.05); }
+.threecol{ display:grid; grid-template-columns:repeat(3,1fr); gap:.7cm; margin-top:auto; margin-bottom:.5cm; }
+.threecol .t{ display:flex; align-items:flex-start; gap:.45cm; }
+.threecol .t .e{ font-size:22pt; line-height:1; }
+.threecol .t .h{ font-family:"Poppins"; font-weight:600; font-size:14pt; color:var(--ink); }
+.threecol .t .d{ font-size:11.5pt; color:var(--tx-soft); margin-top:.08cm; line-height:1.35; }
+
+/* ---------- SMART cards ---------- */
+.smart{ display:grid; grid-template-columns:repeat(3,1fr); gap:.7cm; margin-top:1cm; flex:1; align-content:center; }
+.scard{ background:rgba(255,255,255,.06); border:1px solid rgba(231,201,138,.25); border-radius:.6cm; padding:.85cm .8cm; }
+.scard .e{ font-size:34pt; line-height:1; }
+.scard h3{ font-size:17pt; font-weight:700; margin-top:.3cm; color:var(--cream); }
+.scard p{ font-size:12.5pt; color:rgba(253,250,245,.78); margin-top:.25cm; line-height:1.45; }
+
+/* ---------- CLOSE ---------- */
+.close{ justify-content:center; }
+.close .chip{ display:inline-block; align-self:flex-start; background:rgba(231,201,138,.16); color:var(--gold-soft);
+  border:1px solid rgba(231,201,138,.4); padding:.25cm .55cm; border-radius:2cm; font-weight:600; font-size:12pt; margin-bottom:.55cm; }
+.close h2{ font-size:44pt; font-weight:800; line-height:1.06; }
+.close p{ font-size:16pt; color:rgba(253,250,245,.82); margin-top:.5cm; max-width:21cm; line-height:1.5; }
+.cta{ margin-top:1.3cm; display:flex; gap:1.5cm; }
+.cta .c .l{ font-size:10pt; letter-spacing:.1em; text-transform:uppercase; color:var(--gold-soft); font-weight:600; }
+.cta .c .v{ font-family:"Poppins"; font-size:15pt; font-weight:600; color:var(--cream); margin-top:.1cm; white-space:nowrap; }
 </style>
 </head>
 <body>
 
 <!-- 1. COVER -->
-<section class="slide dark cover">
-  <div class="brandrow"><img src="logo-white.svg" alt=""><span class="wm">Paper &amp; Pen ERP</span></div>
-  <span class="badge">Built for the GCC · by BHD Group</span>
-  <h1>The ERP that speaks<br><span class="ac">your language.</span></h1>
-  <p class="sub">One cloud system that runs your entire business, from the first quote to the final ledger. Sales, CRM, procurement, manufacturing, HR, finance and banking, in Arabic and English.</p>
-  <div class="statstrip">
-    <div class="s"><div class="n">5</div><div class="l">Languages</div></div>
-    <div class="s"><div class="n">12</div><div class="l">Module families</div></div>
-    <div class="s"><div class="n">&lt;5 min</div><div class="l">Setup</div></div>
-    <div class="s"><div class="n">Cloud</div><div class="l">+ desktop app</div></div>
-  </div>
-  <div class="foot"><span>paperandpen.om</span><span>Product Overview</span></div>
+<section class="slide navy cover">
+  <div class="top"><img src="logo-white.svg" alt=""><span>Paper &amp; Pen</span></div>
+  <span class="chip">👋 Meet Paper &amp; Pen</span>
+  <h1>Run your whole business<br>from <span class="hl">one place.</span></h1>
+  <p>Sales, stock, staff, money and the bank, all in one simple app. In Arabic and English, on your phone or computer.</p>
+  <div class="madein">Made in Oman, for businesses like yours. <b>A BHD Group product.</b></div>
+  <div class="foot"><span>paperandpen.om</span><span class="pgtag">Hello 👋</span></div>
 </section>
 
-<!-- 2. WHAT IS -->
-<section class="slide deep">
-  <div class="eyebrow">What is Paper &amp; Pen ERP</div>
-  <h2 class="title" style="font-size:32pt;">One platform for <span class="ac">your whole company</span></h2>
-  <div class="rule"></div>
-  <p class="lead">Paper &amp; Pen is a multi-tenant cloud ERP built in Oman for GCC small and mid-sized businesses. Switch on only the modules you need and grow into the rest, all on one secure platform, fully bilingual, and live in minutes.</p>
-  <div class="pillars" style="margin-top:.95cm;">
-    <div class="pillar"><div class="n">1</div><div class="l">Single source of truth</div><div class="d">Quotes, stock, people and money connected end to end.</div></div>
-    <div class="pillar"><div class="n">5</div><div class="l">Languages, full RTL</div><div class="d">English, Arabic, Hindi, Bangla and Urdu out of the box.</div></div>
-    <div class="pillar"><div class="n">AI</div><div class="l">Built in</div><div class="d">Document capture, assistant and forecasting included.</div></div>
-    <div class="pillar"><div class="n">∞</div><div class="l">Modular &amp; scalable</div><div class="d">From a one-person shop to a multi-entity group.</div></div>
-  </div>
-  <div class="foot"><img src="logo-white.svg" alt=""><span>02</span></div>
-</section>
-
-<!-- 3. MODULE MAP -->
+<!-- 2. PROBLEM -->
 <section class="slide">
-  <div class="eyebrow">The module map</div>
-  <h2 class="title" style="font-size:30pt;">Twelve families, <span class="ac">one system</span></h2>
-  <div class="rule"></div>
-  <div class="map">
-    <div class="mcard"><div class="ic">🧾</div><div class="t">Sales &amp; Invoicing</div><div class="d">Quotes, orders, invoices, payments, credit notes.</div></div>
-    <div class="mcard"><div class="ic">🤝</div><div class="t">CRM &amp; Customers</div><div class="d">Pipeline, tickets, loyalty, portal, WhatsApp + AI.</div></div>
-    <div class="mcard"><div class="ic">🛒</div><div class="t">Point of Sale</div><div class="d">Terminal, receipts, settlement, POS analytics.</div></div>
-    <div class="mcard"><div class="ic">📦</div><div class="t">Procurement</div><div class="d">Requests, POs, RFQs, vendors, goods received.</div></div>
-    <div class="mcard"><div class="ic">🏭</div><div class="t">Manufacturing</div><div class="d">Production orders, BOM, Kanban, machines, QC.</div></div>
-    <div class="mcard"><div class="ic">👥</div><div class="t">HR &amp; Payroll</div><div class="d">Attendance, face kiosk, leave, payroll, SOPs.</div></div>
-    <div class="mcard"><div class="ic">📒</div><div class="t">Finance &amp; Accounting</div><div class="d">Ledger, journals, expenses, bills, Magic Inbox AI.</div></div>
-    <div class="mcard"><div class="ic">🏦</div><div class="t">Banking</div><div class="d">Bank sync, reconciliation, transfers, payees.</div></div>
-    <div class="mcard"><div class="ic">🗃️</div><div class="t">Inventory &amp; Stock</div><div class="d">Stock levels, reorder alerts, stock take, reports.</div></div>
-    <div class="mcard"><div class="ic">🌐</div><div class="t">E-commerce &amp; Portal</div><div class="d">Storefront, cart, checkout, self-service portal.</div></div>
-    <div class="mcard"><div class="ic">📐</div><div class="t">Projects &amp; Job Costing</div><div class="d">Projects, tasks, timesheets, job-level costing.</div></div>
-    <div class="mcard"><div class="ic">📊</div><div class="t">Analytics &amp; Board</div><div class="d">Dashboards, report builder, board pack, AI.</div></div>
+  <div class="kick">Sound familiar?</div>
+  <h2 class="big">Running a business feels like<br>juggling <span class="hl">ten different apps.</span></h2>
+  <div class="bubbles">
+    <div class="bub"><span class="e">😩</span> Orders lost in WhatsApp</div>
+    <div class="bub"><span class="e">🧾</span> Stock counted on paper</div>
+    <div class="bub"><span class="e">📊</span> Invoices stuck in Excel</div>
+    <div class="bub"><span class="e">☎️</span> Chasing payments by phone</div>
+    <div class="bub"><span class="e">🧮</span> Payroll on a calculator</div>
+    <div class="bub"><span class="e">🤷</span> No idea what you really made</div>
   </div>
-  <div class="foot"><img src="logo.svg" alt=""><span>03</span></div>
+  <div class="punch">It doesn't have to be this way.</div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">The problem</span></div>
 </section>
 
-<!-- 4. SALES -->
+<!-- 3. THE FIX -->
+<section class="slide navy">
+  <div class="fixwrap">
+    <div class="left">
+      <div class="kick">The fix</div>
+      <h2>What if it was<br>all in <span class="hl">one app?</span></h2>
+      <p>One place for everything your business does. Everyone sees the same thing. Nothing falls through the cracks, and it speaks your language.</p>
+    </div>
+    <div class="hub">
+      <div class="core"><span class="e">📲</span><b>Paper &amp; Pen</b></div>
+    </div>
+  </div>
+  <div class="foot"><img src="logo-white.svg" alt=""><span class="pgtag">The fix</span></div>
+</section>
+
+<!-- 4. OVERVIEW -->
 <section class="slide">
-  <div class="detail-head">
-    <div><div class="eyebrow">Module 01</div><h2 class="title" style="font-size:28pt;">Sales &amp; <span class="ac">Invoicing</span></h2></div>
-    <span class="kbadge">Free core</span>
+  <div class="kick">Everything in one</div>
+  <h2 class="big">One app does the job of <span class="hl">ten.</span></h2>
+  <div class="grid">
+    <div class="cell"><div class="ic">💸</div><div class="tx">Quote &amp; get paid</div></div>
+    <div class="cell"><div class="ic">🤝</div><div class="tx">Keep customers close</div></div>
+    <div class="cell"><div class="ic">🛒</div><div class="tx">Sell at the counter</div></div>
+    <div class="cell"><div class="ic">📦</div><div class="tx">Track your stock</div></div>
+    <div class="cell"><div class="ic">🏭</div><div class="tx">Run your workshop</div></div>
+    <div class="cell"><div class="ic">👥</div><div class="tx">Pay your team</div></div>
+    <div class="cell"><div class="ic">📒</div><div class="tx">Sort the books</div></div>
+    <div class="cell"><div class="ic">🌐</div><div class="tx">Sell online</div></div>
+    <div class="cell"><div class="ic">📊</div><div class="tx">See your numbers</div></div>
   </div>
-  <div class="rule"></div>
-  <div class="cols">
-    <div class="grp"><div class="gh">Sell faster</div><ul>
-      <li>Quick Sale one-screen billing</li><li>Quotations, clone &amp; revise</li><li>Sample orders</li><li>Sales orders</li><li>Price lists (retail / dealer / VIP)</li></ul></div>
-    <div class="grp"><div class="gh">Invoice &amp; collect</div><ul>
-      <li>Invoices with live cost preview</li><li>Payments, incl. split payments</li><li>Recurring invoices</li><li>Credit &amp; debit notes</li><li>Delivery notes</li></ul></div>
-    <div class="grp"><div class="gh">Control</div><ul>
-      <li>Quote → order → invoice chain</li><li>Credit approval workflow</li><li>Margin approval queue</li><li>Customer blacklist guard</li><li>Multi-currency &amp; OMR precision</li></ul></div>
-  </div>
-  <div class="outcome"><b>The outcome:</b> every sale costed, approved and collected, with a clean audit trail from the first quote to cash in the bank.</div>
-  <div class="foot"><img src="logo.svg" alt=""><span>04</span></div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">What it does</span></div>
 </section>
 
-<!-- 5. CRM -->
+<!-- 5. GET PAID -->
+<section class="slide a-amber">
+  <div class="benefit">
+    <div class="copy">
+      <div class="badge">💸</div>
+      <h2>Get paid <span class="hl">faster.</span></h2>
+      <p class="say">Quote in seconds, send a proper invoice, and always know who still owes you.</p>
+      <ul class="ticks">
+        <li>Turn a quote into an invoice in one tap</li>
+        <li>Take payment by card, cash or online link</li>
+        <li>Automatic reminders chase late payers for you</li>
+      </ul>
+    </div>
+    <div class="art"><div class="disc">💸</div></div>
+  </div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">Sales &amp; invoicing</span></div>
+</section>
+
+<!-- 6. CUSTOMERS -->
+<section class="slide a-rose">
+  <div class="benefit">
+    <div class="copy">
+      <div class="badge">🤝</div>
+      <h2>Keep every customer <span class="hl">close.</span></h2>
+      <p class="say">Everything you know about a customer in one place, so you never drop the ball.</p>
+      <ul class="ticks">
+        <li>Reply to customers on WhatsApp, right from the app</li>
+        <li>Let them view quotes, invoices and pay online</li>
+        <li>Spot your best customers and win repeat business</li>
+      </ul>
+    </div>
+    <div class="art"><div class="disc">🤝</div></div>
+  </div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">Customers &amp; CRM</span></div>
+</section>
+
+<!-- 7. STOCK -->
+<section class="slide a-teal">
+  <div class="benefit">
+    <div class="copy">
+      <div class="badge">📦</div>
+      <h2>Never run out, <span class="hl">never overstock.</span></h2>
+      <p class="say">Know exactly what's on the shelf, and get a nudge before you run low.</p>
+      <ul class="ticks">
+        <li>Live stock counts across all your locations</li>
+        <li>Reorder reminders so you're never caught short</li>
+        <li>Send purchase orders to suppliers in a click</li>
+      </ul>
+    </div>
+    <div class="art"><div class="disc">📦</div></div>
+  </div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">Stock &amp; buying</span></div>
+</section>
+
+<!-- 8. PRODUCTION -->
+<section class="slide a-violet">
+  <div class="benefit">
+    <div class="copy">
+      <div class="badge">🏭</div>
+      <h2>Make it, <span class="hl">on time.</span></h2>
+      <p class="say">Follow every job on a simple board and know the real cost of each order.</p>
+      <ul class="ticks">
+        <li>See every job's status on one visual board</li>
+        <li>Know what materials each order needs</li>
+        <li>See the true profit on every job</li>
+      </ul>
+    </div>
+    <div class="art"><div class="disc">🏭</div></div>
+  </div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">Production &amp; projects</span></div>
+</section>
+
+<!-- 9. TEAM -->
+<section class="slide a-sky">
+  <div class="benefit">
+    <div class="copy">
+      <div class="badge">👥</div>
+      <h2>Pay your team, <span class="hl">no headaches.</span></h2>
+      <p class="say">Attendance, leave and payroll in one place, so payday just works.</p>
+      <ul class="ticks">
+        <li>Staff clock in with their face, no cards or apps</li>
+        <li>Track leave, overtime and advances easily</li>
+        <li>Run payroll in a click, payslips sent for you</li>
+      </ul>
+    </div>
+    <div class="art"><div class="disc">👥</div></div>
+  </div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">Team &amp; payroll</span></div>
+</section>
+
+<!-- 10. BOOKS -->
+<section class="slide a-green">
+  <div class="benefit">
+    <div class="copy">
+      <div class="badge">📒</div>
+      <h2>Your books, <span class="hl">basically done.</span></h2>
+      <p class="say">The boring accounting bits happen on their own in the background.</p>
+      <ul class="ticks">
+        <li>Snap a supplier bill and it files itself</li>
+        <li>The bank reconciles automatically every day</li>
+        <li>VAT and reports are always ready to go</li>
+      </ul>
+    </div>
+    <div class="art"><div class="disc">📒</div></div>
+  </div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">Money &amp; bank</span></div>
+</section>
+
+<!-- 11. NUMBERS -->
+<section class="slide a-gold">
+  <div class="benefit">
+    <div class="copy">
+      <div class="badge">📊</div>
+      <h2>Know your numbers <span class="hl">at a glance.</span></h2>
+      <p class="say">Open the app and see how the business is really doing, today.</p>
+      <ul class="ticks">
+        <li>Live dashboards: sales, cash and what you're owed</li>
+        <li>See what's selling and what's not</li>
+        <li>Board-ready reports whenever you need them</li>
+      </ul>
+    </div>
+    <div class="art"><div class="disc">📊</div></div>
+  </div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">Reports &amp; insight</span></div>
+</section>
+
+<!-- 12. LANGUAGES / WORKS YOUR WAY -->
 <section class="slide">
-  <div class="detail-head">
-    <div><div class="eyebrow">Module 02</div><h2 class="title" style="font-size:28pt;">CRM &amp; <span class="ac">customer experience</span></h2></div>
-    <span class="kbadge">Relationships</span>
+  <div class="kick">Built for you</div>
+  <h2 class="big">It speaks <span class="hl">your language.</span></h2>
+  <p class="lead">Everyone on your team works in the language they're comfortable with. Same data, just their words.</p>
+  <div class="langs">
+    <div class="lang">🇴🇲 العربية</div>
+    <div class="lang">🇬🇧 English</div>
+    <div class="lang">🇮🇳 हिन्दी</div>
+    <div class="lang">🇧🇩 বাংলা</div>
+    <div class="lang">🇵🇰 اردو</div>
   </div>
-  <div class="rule"></div>
-  <div class="cols">
-    <div class="grp"><div class="gh">Win business</div><ul>
-      <li>Leads &amp; opportunities</li><li>Visual deal pipeline</li><li>Tasks &amp; activities</li><li>Client visit logging</li><li>Customer 360 view</li></ul></div>
-    <div class="grp"><div class="gh">Serve &amp; retain</div><ul>
-      <li>Help desk &amp; tickets</li><li>Loyalty &amp; retention dashboard</li><li>Knowledge base</li><li>Surveys</li><li>Self-service client portal</li></ul></div>
-    <div class="grp"><div class="gh">Engage</div><ul>
-      <li>WhatsApp chat, in-app</li><li>Anna AI assistant</li><li>Message log &amp; audit trail</li><li>Notification preferences</li><li>Email templates</li></ul></div>
+  <div class="threecol">
+    <div class="t"><span class="e">📱</span><div><div class="h">Phone &amp; computer</div><div class="d">Works anywhere, on any device.</div></div></div>
+    <div class="t"><span class="e">👆</span><div><div class="h">No passwords</div><div class="d">Log in with one tap, by WhatsApp or email.</div></div></div>
+    <div class="t"><span class="e">⚡</span><div><div class="h">Up in minutes</div><div class="d">Start today, no IT project needed.</div></div></div>
   </div>
-  <div class="outcome"><b>The outcome:</b> one timeline per customer, from first lead to repeat order and support, so nothing falls through the cracks.</div>
-  <div class="foot"><img src="logo.svg" alt=""><span>05</span></div>
+  <div class="foot"><img src="logo.svg" alt=""><span class="pgtag">Works your way</span></div>
 </section>
 
-<!-- 6. PROCUREMENT & INVENTORY -->
-<section class="slide">
-  <div class="detail-head">
-    <div><div class="eyebrow">Module 03 + 04</div><h2 class="title" style="font-size:28pt;">Procurement &amp; <span class="ac">inventory</span></h2></div>
-    <span class="kbadge">Supply chain</span>
+<!-- 13. SMART STUFF -->
+<section class="slide navy">
+  <div class="kick">Clever bits</div>
+  <h2 class="big" style="color:var(--cream)">Little things that save you <span class="hl">hours.</span></h2>
+  <div class="smart">
+    <div class="scard"><div class="e">📸</div><h3>Snap a bill</h3><p>Take a photo of a supplier invoice and it files itself, matched to the right payment.</p></div>
+    <div class="scard"><div class="e">🏦</div><h3>Bank on autopilot</h3><p>Your bank statements come in and match themselves, so the books stay current.</p></div>
+    <div class="scard"><div class="e">🙂</div><h3>Face check-in</h3><p>Staff clock in with a smile at a screen, no cards, no buddy-punching.</p></div>
   </div>
-  <div class="rule"></div>
-  <div class="cols">
-    <div class="grp"><div class="gh">Buy smart</div><ul>
-      <li>Purchase requests</li><li>Purchase orders</li><li>RFQs to suppliers</li><li>Vendor management</li><li>Vendor scorecards</li></ul></div>
-    <div class="grp"><div class="gh">Receive &amp; track</div><ul>
-      <li>Goods received notes (GRN)</li><li>Order vs received variance</li><li>Stock levels &amp; movements</li><li>Multi-location stock</li><li>Vendor statements</li></ul></div>
-    <div class="grp"><div class="gh">Stay in control</div><ul>
-      <li>Reorder-point alerts</li><li>Periodic stock take + auto JE</li><li>Dead stock &amp; aging reports</li><li>Zero-sales reports</li><li>Stock movement reports</li></ul></div>
-  </div>
-  <div class="outcome"><b>The outcome:</b> buy at the right price and always have the right stock, without sitting on dead inventory.</div>
-  <div class="foot"><img src="logo.svg" alt=""><span>06</span></div>
+  <div class="foot"><img src="logo-white.svg" alt=""><span class="pgtag">Smart &amp; simple</span></div>
 </section>
 
-<!-- 7. MANUFACTURING -->
-<section class="slide">
-  <div class="detail-head">
-    <div><div class="eyebrow">Module 05</div><h2 class="title" style="font-size:28pt;">Manufacturing &amp; <span class="ac">production</span></h2></div>
-    <span class="kbadge">Make to order</span>
+<!-- 14. CLOSE -->
+<section class="slide navy close">
+  <span class="chip">👋 Let's get you set up</span>
+  <h2>Ready when <span class="hl">you are.</span></h2>
+  <p>Start free with sales and invoicing, then switch on whatever you need as you grow. We'll help you get going.</p>
+  <div class="cta">
+    <div class="c"><div class="l">Visit</div><div class="v">paperandpen.om</div></div>
+    <div class="c"><div class="l">Email</div><div class="v">info@paperandpen.om</div></div>
+    <div class="c"><div class="l">WhatsApp</div><div class="v">+968 9889 9100</div></div>
   </div>
-  <div class="rule"></div>
-  <div class="cols">
-    <div class="grp"><div class="gh">Plan</div><ul>
-      <li>Production / manufacturing orders</li><li>Bill of materials (BOM)</li><li>Product attributes &amp; categories</li><li>Sample orders</li></ul></div>
-    <div class="grp"><div class="gh">Run the floor</div><ul>
-      <li>Production Kanban board</li><li>Machines &amp; scheduling</li><li>Capacity planning</li><li>Reprint jobs (labels / tags)</li></ul></div>
-    <div class="grp"><div class="gh">Assure quality</div><ul>
-      <li>Quality dashboard</li><li>QC inspections</li><li>Job costing per order</li><li>Cost engine with margin checks</li></ul></div>
-  </div>
-  <div class="outcome"><b>The outcome:</b> know the real cost and live status of every job on the floor, not just at month end.</div>
-  <div class="foot"><img src="logo.svg" alt=""><span>07</span></div>
-</section>
-
-<!-- 8. HR -->
-<section class="slide">
-  <div class="detail-head">
-    <div><div class="eyebrow">Module 06</div><h2 class="title" style="font-size:28pt;">HR, attendance &amp; <span class="ac">payroll</span></h2></div>
-    <span class="kbadge">Your people</span>
-  </div>
-  <div class="rule"></div>
-  <div class="cols">
-    <div class="grp"><div class="gh">People &amp; time</div><ul>
-      <li>Employee records</li><li>Face-recognition kiosk</li><li>Attendance + corrections</li><li>Leave requests &amp; approvals</li><li>Overtime &amp; holidays</li></ul></div>
-    <div class="grp"><div class="gh">Pay</div><ul>
-      <li>Monthly payroll runs</li><li>Payslips, self-service</li><li>Deductions, fines &amp; bonuses</li><li>Salary advance requests</li><li>Sales commissions</li></ul></div>
-    <div class="grp"><div class="gh">Grow &amp; comply</div><ul>
-      <li>Recruitment &amp; onboarding</li><li>Employee contracts</li><li>Announcements</li><li>Visual SOPs + compliance</li><li>Team performance</li></ul></div>
-  </div>
-  <div class="outcome"><b>The outcome:</b> from clock-in to payslip in one place, compliant, paperless and accurate.</div>
-  <div class="foot"><img src="logo.svg" alt=""><span>08</span></div>
-</section>
-
-<!-- 9. FINANCE & BANKING -->
-<section class="slide">
-  <div class="detail-head">
-    <div><div class="eyebrow">Module 07 + 08</div><h2 class="title" style="font-size:28pt;">Finance, accounting &amp; <span class="ac">banking</span></h2></div>
-    <span class="kbadge">The books</span>
-  </div>
-  <div class="rule"></div>
-  <div class="cols">
-    <div class="grp"><div class="gh">Accounting</div><ul>
-      <li>Chart of accounts</li><li>Journal entries + recurring</li><li>General ledger &amp; trial balance</li><li>Expenses &amp; vendor bills</li><li>Debit notes &amp; intercompany</li></ul></div>
-    <div class="grp"><div class="gh">Cash &amp; credit</div><ul>
-      <li>Aged receivables &amp; payables</li><li>Post-dated cheque register</li><li>Collections workspace</li><li>Magic Inbox AI bill capture</li><li>Finance &amp; cash-flow overview</li></ul></div>
-    <div class="grp"><div class="gh">Banking</div><ul>
-      <li>Live bank sync (Bank Dhofar)</li><li>Auto bank reconciliation</li><li>Outgoing transfers + approval</li><li>Saved payees</li><li>POS settlement &amp; online payments</li></ul></div>
-  </div>
-  <div class="outcome"><b>The outcome:</b> books that stay current, with the bank reconciled automatically and no double entry.</div>
-  <div class="foot"><img src="logo.svg" alt=""><span>09</span></div>
-</section>
-
-<!-- 10. ECOMMERCE & PORTAL -->
-<section class="slide">
-  <div class="detail-head">
-    <div><div class="eyebrow">Module 09</div><h2 class="title" style="font-size:28pt;">E-commerce &amp; <span class="ac">client portal</span></h2></div>
-    <span class="kbadge">Sell online</span>
-  </div>
-  <div class="rule"></div>
-  <div class="cols two">
-    <div class="grp"><div class="gh">Online storefront</div><ul>
-      <li>SEO-friendly product catalog</li><li>Product detail pages &amp; variants</li><li>Shopping cart &amp; checkout</li><li>Online payment (Paymob, Amwal)</li><li>Shop order management</li></ul></div>
-    <div class="grp"><div class="gh">Self-service portal</div><ul>
-      <li>B2B quote request forms</li><li>Customer views quotes &amp; invoices</li><li>Pay invoices online</li><li>Order &amp; delivery tracking</li><li>Branded per tenant</li></ul></div>
-  </div>
-  <div class="outcome"><b>The outcome:</b> sell online and let customers serve themselves, view, track and pay, day or night.</div>
-  <div class="foot"><img src="logo.svg" alt=""><span>10</span></div>
-</section>
-
-<!-- 11. ANALYTICS & BOARD -->
-<section class="slide">
-  <div class="detail-head">
-    <div><div class="eyebrow">Module 10</div><h2 class="title" style="font-size:28pt;">Analytics, reporting &amp; <span class="ac">the boardroom</span></h2></div>
-    <span class="kbadge">Decisions</span>
-  </div>
-  <div class="rule"></div>
-  <div class="cols">
-    <div class="grp"><div class="gh">See the business</div><ul>
-      <li>Finance &amp; sales dashboards</li><li>HR &amp; inventory analytics</li><li>POS &amp; profitability analysis</li><li>Consumption trends</li></ul></div>
-    <div class="grp"><div class="gh">Build your own</div><ul>
-      <li>No-code report builder</li><li>Saved &amp; scheduled reports</li><li>Custom PDF designer</li><li>AI demand forecasting</li></ul></div>
-    <div class="grp"><div class="gh">Board &amp; investors</div><ul>
-      <li>Income statement (P&amp;L)</li><li>Balance sheet</li><li>Cash-flow statement</li><li>Investor pack &amp; steering deck</li></ul></div>
-  </div>
-  <div class="outcome"><b>The outcome:</b> from the shop floor to the board table, everyone works off one trusted set of numbers.</div>
-  <div class="foot"><img src="logo.svg" alt=""><span>11</span></div>
-</section>
-
-<!-- 12. AI & AUTOMATION -->
-<section class="slide deep">
-  <div class="eyebrow">What sets it apart</div>
-  <h2 class="title" style="font-size:30pt;">AI &amp; automation, <span class="ac">built in</span></h2>
-  <div class="rule"></div>
-  <div class="hl">
-    <div class="hcard"><div class="ic">📥</div><div class="t">Magic Inbox</div><div class="d">Email or upload a supplier invoice and AI extracts it, matches the vendor and bank payment, and drafts the bill for one-click posting.</div></div>
-    <div class="hcard"><div class="ic">🤖</div><div class="t">Anna AI assistant</div><div class="d">An always-on assistant connected to email and WhatsApp, plus AI business insights surfaced across the system.</div></div>
-    <div class="hcard"><div class="ic">🪪</div><div class="t">Face-recognition kiosk</div><div class="d">Web-based biometric attendance with photo capture, no separate hardware or native app needed.</div></div>
-    <div class="hcard"><div class="ic">🏦</div><div class="t">Bank automation</div><div class="d">Live bank-statement sync with smart auto-reconciliation, including split-payment matching, and secured transfers.</div></div>
-  </div>
-  <div class="foot"><img src="logo-white.svg" alt=""><span>12</span></div>
-</section>
-
-<!-- 13. PLATFORM -->
-<section class="slide dark">
-  <div class="eyebrow">The platform</div>
-  <h2 class="title" style="font-size:30pt;">Multilingual, multi-tenant, <span class="ac">secure</span></h2>
-  <div class="rule"></div>
-  <div class="plat">
-    <div class="pl"><div class="t">5 languages, full RTL</div><div class="d">English, Arabic, Hindi, Bangla, Urdu, switchable per user.</div></div>
-    <div class="pl"><div class="t">Multi-tenant SaaS</div><div class="d">Per-tenant branding, logo, colours and custom domain.</div></div>
-    <div class="pl"><div class="t">Passwordless login</div><div class="d">Secure one-tap OTP sign-in over WhatsApp or email.</div></div>
-    <div class="pl"><div class="t">Document chains</div><div class="d">Every quote, order and invoice linked and traceable.</div></div>
-    <div class="pl"><div class="t">Workflows &amp; audit log</div><div class="d">Automation rules plus a full who-changed-what trail.</div></div>
-    <div class="pl"><div class="t">Cloud + desktop app</div><div class="d">Browser anywhere, with a dedicated desktop application.</div></div>
-  </div>
-  <div class="foot"><img src="logo-white.svg" alt=""><span>13</span></div>
-</section>
-
-<!-- 14. CLOSING -->
-<section class="slide deep close">
-  <div class="brandrow" style="display:flex;align-items:center;gap:.4cm;margin-bottom:1cm;"><img src="logo-white.svg" style="height:1.1cm" alt=""><span style="font-family:'Playfair Display',serif;font-weight:700;font-size:15pt;color:var(--cream);white-space:nowrap">Paper &amp; Pen ERP</span></div>
-  <h2>Run your whole business<br>on <span class="ac">one platform.</span></h2>
-  <p class="c-sub">Start with Sales &amp; Invoicing, then switch on the modules you need as you grow. Set up in minutes, in your language.</p>
-  <div class="contact">
-    <div class="ci"><div class="l">Web</div><div class="v">paperandpen.om</div></div>
-    <div class="ci"><div class="l">Email</div><div class="v">info@paperandpen.om</div></div>
-    <div class="ci"><div class="l">WhatsApp</div><div class="v">+968 9889 9100</div></div>
-  </div>
-  <div class="foot"><span>A BHD Group product · Muscat, Oman</span><span>14</span></div>
+  <div class="foot"><span>A BHD Group product · Muscat, Oman</span><span class="pgtag">Thank you 🙏</span></div>
 </section>
 
 </body>
