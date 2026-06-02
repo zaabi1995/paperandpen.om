@@ -57,16 +57,18 @@ h1,h2,h3{ font-family:"Sora","Inter",sans-serif; letter-spacing:-.02em; }
 .accent .lbl,.accent .cd{ color:rgba(255,255,255,.82); }
 
 /* hero image cell */
-.cell.hero{ padding:0; background-image:url("shots/shot-kanban.png"); background-size:cover; background-position:left top; border-color:rgba(156,192,230,.25); }
+.cell.hero{ padding:0; background-image:url("shots/shot-board.png"); background-size:cover; background-position:left top; border-color:rgba(156,192,230,.25); }
 .hero .tagchip{ position:absolute; left:.4cm; bottom:.4cm; display:flex; align-items:center; gap:.22cm; background:rgba(14,31,55,.82); border:1px solid var(--line); color:#fff; font-size:9.5pt; font-weight:600; padding:.18cm .42cm; border-radius:1cm; font-family:"Sora"; }
 .hero .tagchip i{ color:var(--blue-bright); font-size:9pt; }
 
-/* module icon strip */
-.cell.modstrip{ justify-content:center; }
-.modstrip .row{ display:flex; gap:.42cm; flex-wrap:wrap; }
-.modstrip .mi{ width:1.05cm; height:1.05cm; border-radius:.3cm; background:rgba(60,123,190,.18); color:var(--blue-soft); display:flex; align-items:center; justify-content:center; font-size:13pt; }
-.modstrip .mt{ font-family:"Sora"; font-weight:700; font-size:12.5pt; color:#fff; margin-bottom:.32cm; }
-.modstrip .mt b{ color:var(--blue-bright); }
+/* module grid (labelled) */
+.cell.modgrid{ justify-content:center; padding:.42cm .55cm; }
+.modgrid .mh{ font-family:"Sora"; font-weight:700; font-size:11pt; color:#fff; margin-bottom:.34cm; }
+.modgrid .mh b{ color:var(--blue-bright); }
+.modgrid .g{ display:grid; grid-template-columns:repeat(6,1fr); gap:.3cm .32cm; }
+.modgrid .t{ display:flex; align-items:center; gap:.24cm; }
+.modgrid .t i{ width:.84cm; height:.84cm; border-radius:.24cm; background:rgba(60,123,190,.2); color:var(--blue-soft); display:flex; align-items:center; justify-content:center; font-size:11pt; flex-shrink:0; }
+.modgrid .t span{ font-size:8pt; font-weight:500; color:#cad8ec; line-height:1.05; }
 
 /* langs cell */
 .langs .num{ font-size:30pt; }
@@ -126,21 +128,21 @@ h1,h2,h3{ font-family:"Sora","Inter",sans-serif; letter-spacing:-.02em; }
     <div class="cell accent ctr b-free"><div class="num">Free</div><div class="lbl">to start</div></div>
     <div class="cell ctr b-setup"><div class="num">&lt;5<span style="font-size:18pt"> min</span></div><div class="lbl">to set up</div></div>
 
-    <div class="cell modstrip b-mods">
-      <div class="mt">One system, <b>twelve module families</b></div>
-      <div class="row">
-        <div class="mi"><i class="fa-solid fa-file-invoice-dollar"></i></div>
-        <div class="mi"><i class="fa-solid fa-handshake"></i></div>
-        <div class="mi"><i class="fa-solid fa-cash-register"></i></div>
-        <div class="mi"><i class="fa-solid fa-cart-shopping"></i></div>
-        <div class="mi"><i class="fa-solid fa-boxes-stacked"></i></div>
-        <div class="mi"><i class="fa-solid fa-industry"></i></div>
-        <div class="mi"><i class="fa-solid fa-users"></i></div>
-        <div class="mi"><i class="fa-solid fa-book"></i></div>
-        <div class="mi"><i class="fa-solid fa-landmark"></i></div>
-        <div class="mi"><i class="fa-solid fa-globe"></i></div>
-        <div class="mi"><i class="fa-solid fa-diagram-project"></i></div>
-        <div class="mi"><i class="fa-solid fa-chart-line"></i></div>
+    <div class="cell modgrid b-mods">
+      <div class="mh">Twelve module families, <b>one connected system</b></div>
+      <div class="g">
+        <div class="t"><i class="fa-solid fa-file-invoice-dollar"></i><span>Sales &amp; Invoicing</span></div>
+        <div class="t"><i class="fa-solid fa-handshake"></i><span>CRM</span></div>
+        <div class="t"><i class="fa-solid fa-cash-register"></i><span>Point of Sale</span></div>
+        <div class="t"><i class="fa-solid fa-cart-shopping"></i><span>Procurement</span></div>
+        <div class="t"><i class="fa-solid fa-boxes-stacked"></i><span>Inventory</span></div>
+        <div class="t"><i class="fa-solid fa-industry"></i><span>Manufacturing</span></div>
+        <div class="t"><i class="fa-solid fa-users"></i><span>HR &amp; Payroll</span></div>
+        <div class="t"><i class="fa-solid fa-book"></i><span>Accounting</span></div>
+        <div class="t"><i class="fa-solid fa-landmark"></i><span>Banking</span></div>
+        <div class="t"><i class="fa-solid fa-globe"></i><span>E-commerce</span></div>
+        <div class="t"><i class="fa-solid fa-diagram-project"></i><span>Projects</span></div>
+        <div class="t"><i class="fa-solid fa-chart-line"></i><span>Analytics</span></div>
       </div>
     </div>
 
