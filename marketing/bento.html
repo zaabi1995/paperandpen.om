@@ -9,71 +9,70 @@
 :root{
   --navy:#0e1f37; --cell:#17304e; --cell2:#1c3a5e; --line:rgba(156,192,230,.16);
   --blue:#3c7bbe; --blue-bright:#5a9bd8; --blue-soft:#9cc0e6; --steel:#195177;
-  --cream:#f4f9ff; --muted:#90a6c4;
+  --cream:#f4f9ff; --muted:#93a8c6;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 @page{ size:33.867cm 19.05cm; margin:0; }
 html,body{ font-family:"Inter",system-ui,sans-serif; }
-.slide{ width:33.867cm; height:19.05cm; background:var(--navy); color:var(--cream); padding:1.15cm 1.3cm; display:flex; flex-direction:column; overflow:hidden; }
+.slide{ width:33.867cm; height:19.05cm; background:var(--navy); color:var(--cream); padding:.95cm 1.1cm; overflow:hidden; }
 h1,h2,h3{ font-family:"Sora","Inter",sans-serif; letter-spacing:-.02em; }
 
-.head{ display:flex; align-items:center; justify-content:space-between; margin-bottom:.7cm; }
-.head .brand{ display:flex; align-items:center; gap:.4cm; }
-.head .brand img{ height:1cm; }
-.head .brand .nm{ font-family:"Sora"; font-weight:700; font-size:16pt; color:#fff; white-space:nowrap; }
-.head .ov{ font-family:"Sora"; font-weight:600; font-size:13pt; color:var(--blue-soft); letter-spacing:.02em; }
-
-.bento{ height:15cm; display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); grid-template-rows:repeat(4,minmax(0,1fr)); gap:.4cm; }
-.cell{ background:var(--cell); border:1px solid var(--line); border-radius:.5cm; padding:.55cm .62cm; display:flex; flex-direction:column; overflow:hidden; position:relative; }
+.bento{ height:17.15cm; display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); grid-template-rows:repeat(4,minmax(0,1fr)); gap:.38cm; }
+.cell{ background:var(--cell); border:1px solid var(--line); border-radius:.5cm; padding:.6cm .68cm; display:flex; flex-direction:column; overflow:hidden; position:relative; }
 .cell.ctr{ justify-content:center; }
 .cell.btw{ justify-content:space-between; }
 
 /* numbers / stats */
-.num{ font-family:"Sora"; font-weight:800; font-size:40pt; line-height:.95; color:#fff; }
+.num{ font-family:"Sora"; font-weight:800; font-size:42pt; line-height:.9; color:#fff; }
 .num.blue{ color:var(--blue-bright); }
-.lbl{ font-size:10.5pt; color:var(--muted); margin-top:.18cm; font-weight:500; }
-.sub{ font-size:9pt; color:var(--blue-soft); margin-top:.12cm; letter-spacing:.02em; }
+.lbl{ font-size:11pt; color:#cfe; color:var(--cream); font-weight:600; margin-top:.22cm; }
+.sub{ font-size:9.5pt; color:var(--muted); margin-top:.12cm; line-height:1.3; }
 
-/* titled feature cell */
-.ci{ font-size:17pt; color:var(--blue-bright); }
-.ct{ font-family:"Sora"; font-weight:700; font-size:12.5pt; color:#fff; margin-top:.28cm; }
-.cd{ font-size:9pt; color:var(--muted); margin-top:.12cm; line-height:1.35; }
-
-/* small icon-tile */
-.small .ci{ font-size:15pt; }
-.small .ct{ font-size:11pt; margin-top:.2cm; }
+/* feature cell */
+.ci{ font-size:18pt; color:var(--blue-bright); }
+.ct{ font-family:"Sora"; font-weight:700; font-size:13pt; color:#fff; }
+.cd{ font-size:9.5pt; color:var(--muted); margin-top:.14cm; line-height:1.4; }
+.topi{ display:flex; align-items:center; gap:.3cm; }
+.topi .ct{ font-size:12.5pt; }
 
 /* brand cell */
-.cell.brandcell{ background:linear-gradient(135deg,#17304e,#1c3a5e); }
-.brandcell .bb{ display:flex; align-items:center; gap:.32cm; }
-.brandcell .bb img{ height:.8cm; }
-.brandcell .bb span{ font-family:"Sora"; font-weight:700; font-size:13pt; color:#fff; }
-.brandcell .tag{ font-family:"Sora"; font-weight:600; font-size:13.5pt; color:#fff; line-height:1.18; margin-top:.25cm; }
+.cell.brandcell{ background:linear-gradient(135deg,#17304e,#1d3d63); }
+.brandcell .ey{ font-family:"Sora"; font-weight:700; font-size:9pt; letter-spacing:.22em; text-transform:uppercase; color:var(--blue-bright); }
+.brandcell .bb{ display:flex; align-items:center; gap:.32cm; margin-top:.28cm; }
+.brandcell .bb img{ height:.95cm; }
+.brandcell .bb span{ font-family:"Sora"; font-weight:700; font-size:15pt; color:#fff; white-space:nowrap; }
+.brandcell .tag{ font-family:"Sora"; font-weight:700; font-size:15pt; color:#fff; line-height:1.18; margin-top:.4cm; }
 .brandcell .tag b{ color:var(--blue-bright); }
+.brandcell .desc{ font-size:9.5pt; color:var(--blue-soft); margin-top:.3cm; line-height:1.4; }
 
 /* accent cell */
 .cell.accent{ background:var(--blue); border-color:transparent; }
-.accent .num,.accent .ct{ color:#fff; }
-.accent .lbl,.accent .cd{ color:rgba(255,255,255,.82); }
+.accent .num,.accent .ct,.accent .lbl{ color:#fff; }
+.accent .sub,.accent .cd{ color:rgba(255,255,255,.85); }
 
 /* hero image cell */
-.cell.hero{ padding:0; background-image:url("shots/shot-board.png"); background-size:cover; background-position:left top; border-color:rgba(156,192,230,.25); }
-.hero .tagchip{ position:absolute; left:.4cm; bottom:.4cm; display:flex; align-items:center; gap:.22cm; background:rgba(14,31,55,.82); border:1px solid var(--line); color:#fff; font-size:9.5pt; font-weight:600; padding:.18cm .42cm; border-radius:1cm; font-family:"Sora"; }
-.hero .tagchip i{ color:var(--blue-bright); font-size:9pt; }
+.cell.hero{ padding:0; background-image:url("shots/shot-board.png"); background-size:cover; background-position:left top; border-color:rgba(156,192,230,.28); }
+.hero .tagchip{ position:absolute; left:.42cm; bottom:.42cm; display:flex; align-items:center; gap:.24cm; background:rgba(14,31,55,.85); border:1px solid var(--line); color:#fff; font-size:10pt; font-weight:600; padding:.2cm .46cm; border-radius:1cm; font-family:"Sora"; }
+.hero .tagchip i{ color:var(--blue-bright); font-size:9.5pt; }
 
-/* module grid (labelled) */
-.cell.modgrid{ justify-content:center; padding:.42cm .55cm; }
-.modgrid .mh{ font-family:"Sora"; font-weight:700; font-size:11pt; color:#fff; margin-bottom:.34cm; }
+/* module grid */
+.cell.modgrid{ justify-content:center; padding:.5cm .6cm; }
+.modgrid .mh{ font-family:"Sora"; font-weight:700; font-size:12pt; color:#fff; margin-bottom:.42cm; }
 .modgrid .mh b{ color:var(--blue-bright); }
-.modgrid .g{ display:grid; grid-template-columns:repeat(6,1fr); gap:.3cm .32cm; }
-.modgrid .t{ display:flex; align-items:center; gap:.24cm; }
-.modgrid .t i{ width:.84cm; height:.84cm; border-radius:.24cm; background:rgba(60,123,190,.2); color:var(--blue-soft); display:flex; align-items:center; justify-content:center; font-size:11pt; flex-shrink:0; }
-.modgrid .t span{ font-size:8pt; font-weight:500; color:#cad8ec; line-height:1.05; }
+.modgrid .g{ display:grid; grid-template-columns:repeat(6,1fr); gap:.4cm .34cm; }
+.modgrid .t{ display:flex; align-items:center; gap:.26cm; }
+.modgrid .t i{ width:.9cm; height:.9cm; border-radius:.26cm; background:rgba(60,123,190,.22); color:var(--blue-soft); display:flex; align-items:center; justify-content:center; font-size:12pt; flex-shrink:0; }
+.modgrid .t span{ font-size:8.5pt; font-weight:500; color:#cad8ec; line-height:1.08; }
 
-/* langs cell */
-.langs .num{ font-size:30pt; }
-.langs .row{ display:flex; flex-wrap:nowrap; gap:.18cm; margin-top:.25cm; }
-.langs .lg{ font-size:8pt; color:var(--blue-soft); border:1px solid var(--line); border-radius:1cm; padding:.07cm .26cm; white-space:nowrap; }
+/* langs */
+.langs .num{ font-size:32pt; }
+.langs .row{ display:flex; flex-wrap:nowrap; gap:.18cm; margin-top:.28cm; }
+.langs .lg{ font-size:8.5pt; color:var(--blue-soft); border:1px solid var(--line); border-radius:1cm; padding:.08cm .28cm; white-space:nowrap; }
+
+/* cta */
+.cta .ch{ font-family:"Sora"; font-weight:800; font-size:18pt; color:#fff; line-height:1.1; }
+.cta .cs{ font-size:9.5pt; color:rgba(255,255,255,.85); margin-top:.18cm; }
+.cta .url{ font-family:"Sora"; font-weight:700; font-size:16pt; color:#fff; }
 
 /* placement */
 .b-brand{ grid-column:1/3; grid-row:1; }
@@ -87,32 +86,26 @@ h1,h2,h3{ font-family:"Sora","Inter",sans-serif; letter-spacing:-.02em; }
 .b-mods{ grid-column:3/7; grid-row:3; }
 .b-bank{ grid-column:1; grid-row:4; }
 .b-face{ grid-column:2; grid-row:4; }
-.b-mobile{ grid-column:3; grid-row:4; }
-.b-aren{ grid-column:4; grid-row:4; }
+.b-chain{ grid-column:3; grid-row:4; }
+.b-mobile{ grid-column:4; grid-row:4; }
 .b-cta{ grid-column:5/7; grid-row:4; }
-.cta .num{ font-size:15pt; }
 </style>
 </head>
 <body>
 <div class="slide">
-
-  <div class="head">
-    <div class="brand"><img src="logo-white.svg" alt=""><span class="nm">Paper &amp; Pen ERP</span></div>
-    <div class="ov">Overview</div>
-  </div>
-
   <div class="bento">
 
-    <div class="cell brandcell btw b-brand">
-      <div class="bb"><img src="logo-white.svg" alt=""><span>Paper &amp; Pen</span></div>
+    <div class="cell brandcell ctr b-brand">
+      <div class="bb"><img src="logo-white.svg" alt=""><span>Paper &amp; Pen ERP</span></div>
       <div class="tag">Your whole business,<br>on <b>one platform.</b></div>
+      <div class="desc">A cloud ERP, built in Oman for the GCC.</div>
     </div>
 
-    <div class="cell ctr b-12"><div class="num">12</div><div class="lbl">Module families</div></div>
-    <div class="cell ctr b-30"><div class="num">30+</div><div class="lbl">Switch-on modules</div></div>
+    <div class="cell ctr b-12"><div class="num">12</div><div class="lbl">Module families</div><div class="sub">From the first quote to the boardroom</div></div>
+    <div class="cell ctr b-30"><div class="num">30+</div><div class="lbl">Switch-on modules</div><div class="sub">Turn on only what you need, as you grow</div></div>
 
     <div class="cell btw langs b-lang">
-      <div><div class="num blue">5</div><div class="lbl">Languages, full RTL</div></div>
+      <div><div class="num blue">5</div><div class="lbl">Languages, full RTL</div><div class="sub">Every user works in their own language</div></div>
       <div class="row"><span class="lg">العربية</span><span class="lg">English</span><span class="lg">हिन्दी</span><span class="lg">বাংলা</span><span class="lg">اردو</span></div>
     </div>
 
@@ -121,18 +114,18 @@ h1,h2,h3{ font-family:"Sora","Inter",sans-serif; letter-spacing:-.02em; }
     </div>
 
     <div class="cell btw b-ai">
-      <div><i class="fa-solid fa-wand-magic-sparkles ci"></i><div class="ct">AI, built in</div></div>
-      <div class="cd">Magic Inbox captures bills, AI Assistant on WhatsApp, demand forecasting.</div>
+      <div class="topi"><i class="fa-solid fa-wand-magic-sparkles ci"></i><div class="ct">AI, built in</div></div>
+      <div class="cd">Magic Inbox reads your supplier bills and drafts them, an AI Assistant answers customers on WhatsApp, and demand is forecast for you, on every plan.</div>
     </div>
 
-    <div class="cell accent ctr b-free"><div class="num">Free</div><div class="lbl">to start</div></div>
-    <div class="cell ctr b-setup"><div class="num">&lt;5<span style="font-size:18pt"> min</span></div><div class="lbl">to set up</div></div>
+    <div class="cell accent ctr b-free"><div class="num">Free</div><div class="lbl">to start</div><div class="sub">Sales &amp; Invoicing, no card</div></div>
+    <div class="cell ctr b-setup"><div class="num">&lt;5<span style="font-size:18pt"> min</span></div><div class="lbl">to set up</div><div class="sub">No IT project needed</div></div>
 
     <div class="cell modgrid b-mods">
       <div class="mh">Twelve module families, <b>one connected system</b></div>
       <div class="g">
         <div class="t"><i class="fa-solid fa-file-invoice-dollar"></i><span>Sales &amp; Invoicing</span></div>
-        <div class="t"><i class="fa-solid fa-handshake"></i><span>CRM</span></div>
+        <div class="t"><i class="fa-solid fa-handshake"></i><span>CRM &amp; Customers</span></div>
         <div class="t"><i class="fa-solid fa-cash-register"></i><span>Point of Sale</span></div>
         <div class="t"><i class="fa-solid fa-cart-shopping"></i><span>Procurement</span></div>
         <div class="t"><i class="fa-solid fa-boxes-stacked"></i><span>Inventory</span></div>
@@ -142,18 +135,30 @@ h1,h2,h3{ font-family:"Sora","Inter",sans-serif; letter-spacing:-.02em; }
         <div class="t"><i class="fa-solid fa-landmark"></i><span>Banking</span></div>
         <div class="t"><i class="fa-solid fa-globe"></i><span>E-commerce</span></div>
         <div class="t"><i class="fa-solid fa-diagram-project"></i><span>Projects</span></div>
-        <div class="t"><i class="fa-solid fa-chart-line"></i><span>Analytics</span></div>
+        <div class="t"><i class="fa-solid fa-chart-line"></i><span>Analytics &amp; Board</span></div>
       </div>
     </div>
 
-    <div class="cell ctr small b-bank"><i class="fa-solid fa-landmark ci"></i><div class="ct">Bank on autopilot</div></div>
-    <div class="cell ctr small b-face"><i class="fa-solid fa-user-check ci"></i><div class="ct">Face check-in</div></div>
-    <div class="cell ctr small b-mobile"><i class="fa-solid fa-mobile-screen ci"></i><div class="ct">Desktop &amp; phone</div></div>
-    <div class="cell ctr small b-aren"><i class="fa-solid fa-language ci"></i><div class="ct">Arabic &amp; English</div></div>
+    <div class="cell btw b-bank">
+      <div class="topi"><i class="fa-solid fa-landmark ci"></i><div class="ct">Bank on autopilot</div></div>
+      <div class="cd">Live bank sync, automatic reconciliation and secured transfers.</div>
+    </div>
+    <div class="cell btw b-face">
+      <div class="topi"><i class="fa-solid fa-user-check ci"></i><div class="ct">Face check-in</div></div>
+      <div class="cd">Biometric attendance at a screen, no cards, no app, no buddy-punching.</div>
+    </div>
+    <div class="cell btw b-chain">
+      <div class="topi"><i class="fa-solid fa-link ci"></i><div class="ct">One document chain</div></div>
+      <div class="cd">Quote, order, invoice and payment, all linked and traceable.</div>
+    </div>
+    <div class="cell btw b-mobile">
+      <div class="topi"><i class="fa-solid fa-mobile-screen ci"></i><div class="ct">Desktop &amp; phone</div></div>
+      <div class="cd">Run it in any browser, plus a dedicated desktop app.</div>
+    </div>
 
     <div class="cell accent btw cta b-cta">
-      <div><div class="ct" style="font-size:14pt">Start free, grow as you go.</div><div class="cd">A BHD Group product · Muscat, Oman</div></div>
-      <div class="num">paperandpen.om</div>
+      <div><div class="ch">Start free, grow as you go.</div><div class="cs">A BHD Group product · Muscat, Oman</div></div>
+      <div class="url">paperandpen.om</div>
     </div>
 
   </div>
