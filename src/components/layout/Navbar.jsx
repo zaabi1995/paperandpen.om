@@ -24,7 +24,6 @@ export default function Navbar() {
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-8">
           <a href="#modules" className="text-sm font-medium text-ink-500/70 hover:text-ink-500 transition-colors tracking-wide">{t('nav.features')}</a>
-          <a href="#pricing" className="text-sm font-medium text-ink-500/70 hover:text-ink-500 transition-colors tracking-wide">{t('nav.pricing')}</a>
           <a href="#compare" className="text-sm font-medium text-ink-500/70 hover:text-ink-500 transition-colors tracking-wide">{t('nav.compare')}</a>
           <LangToggle />
           <div className="w-px h-4 bg-ink-200" />
@@ -52,7 +51,6 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden border-t border-cream-200 bg-cream-50 px-6 py-5 flex flex-col gap-4 shadow-lg">
           <a href="#modules" className="text-sm font-medium text-ink-500/70" onClick={() => setOpen(false)}>{t('nav.features')}</a>
-          <a href="#pricing" className="text-sm font-medium text-ink-500/70" onClick={() => setOpen(false)}>{t('nav.pricing')}</a>
           <a href="#compare" className="text-sm font-medium text-ink-500/70" onClick={() => setOpen(false)}>{t('nav.compare')}</a>
           <div className="flex items-center gap-3">
             <LangToggle />

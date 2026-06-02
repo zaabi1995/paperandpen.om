@@ -79,7 +79,6 @@ export default function ModuleShowcaseSection() {
     });
   };
 
-  const total = MODULES.filter(m => selected.has(m.key) && m.price).reduce((s, m) => s + m.price, 0);
   const modulesParam = [...selected].filter(k => k !== 'sales').join(',');
   const signupHref = `/signup${modulesParam ? `?modules=${modulesParam}` : ''}`;
 
@@ -96,7 +95,7 @@ export default function ModuleShowcaseSection() {
         </div>
 
         <div className="grid lg:grid-cols-3 gap-5 mb-10">
-          {MODULES.map(({ key, price, included, icon }) => {
+          {MODULES.map(({ key, included, icon }) => {
             const active = selected.has(key);
             return (
               <button
@@ -126,36 +125,19 @@ export default function ModuleShowcaseSection() {
                 <h3 className={`font-semibold text-base mb-1.5 ${included ? 'text-cream-50' : 'text-ink-500'}`}>
                   {t(`modules.${key}.title`)}
                 </h3>
-                <p className={`text-sm leading-relaxed mb-4 ${included ? 'text-cream-100/80' : 'text-ink-400'}`}>
+                <p className={`text-sm leading-relaxed ${included ? 'text-cream-100/80' : 'text-ink-400'}`}>
                   {t(`modules.${key}.desc`)}
                 </p>
-
-                {!included && (
-                  <p className={`text-sm font-bold ${active ? 'text-copper-500' : 'text-ink-300'}`}>
-                    +{price} {t('modules.omrPerMonth')}
-                  </p>
-                )}
               </button>
             );
           })}
         </div>
 
-        {/* Pricing calculator */}
+        {/* CTA */}
         <div className="bg-cream-50 border border-cream-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <p className="text-xs font-semibold text-ink-300 uppercase tracking-widest mb-1">{t('modules.estimateLabel')}</p>
-            <div className="flex items-baseline gap-2">
-              {total === 0 ? (
-                <span className="font-display text-4xl font-bold text-ink-500">{t('pricing.free_label')}</span>
-              ) : (
-                <>
-                  <span className="font-display text-4xl font-bold text-ink-500">{total}</span>
-                  <span className="text-ink-400 font-medium">{t('modules.omr_mo')}</span>
-                  <span className="text-xs text-ink-300">({t('modules.addons_label')} only)</span>
-                </>
-              )}
-            </div>
-            <p className="text-xs text-ink-300 mt-1">{t('modules.estimateNote')}</p>
+            <p className="font-display text-2xl font-bold text-ink-500 mb-1">{t('modules.ctaTitle')}</p>
+            <p className="text-sm text-ink-400">{t('modules.ctaSub')}</p>
           </div>
           <Link
             to={signupHref}

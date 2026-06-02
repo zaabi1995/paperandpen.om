@@ -33,7 +33,6 @@ export default function Footer() {
             <h3 className="text-cream-100 text-sm font-semibold mb-4 tracking-wide">{t('footer.product')}</h3>
             <ul className="space-y-2.5">
               <li><a href="/#modules" className="text-sm hover:text-cream-100 transition-colors">{t('nav.features')}</a></li>
-              <li><a href="/#pricing" className="text-sm hover:text-cream-100 transition-colors">{t('nav.pricing')}</a></li>
               <li><a href="/#compare" className="text-sm hover:text-cream-100 transition-colors">{t('nav.compare')}</a></li>
               <li><Link to="/signup" className="text-sm hover:text-cream-100 transition-colors">{t('nav.startFree')}</Link></li>
             </ul>

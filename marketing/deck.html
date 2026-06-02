@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Paper &amp; Pen ERP — Product Overview</title>
+<style>
+@import url("https://fonts.bhd.om/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap");
+
+:root{
+  --ink:#172e50; --ink2:#1e2d5a; --ink-deep:#101a36;
+  --cream:#fdfaf5; --cream2:#faf4e8; --cream3:#f5e9d0;
+  --copper:#c07840; --copper-deep:#a85f25;
+  --gold:#c9973f; --gold-soft:#e0bb7e;
+  --muted:#5b6a85;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+@page{ size:33.867cm 19.05cm; margin:0; }
+html,body{ font-family:"DM Sans",system-ui,sans-serif; color:var(--ink); -webkit-font-smoothing:antialiased; }
+
+.slide{
+  position:relative; width:33.867cm; height:19.05cm; overflow:hidden;
+  page-break-after:always; display:flex; flex-direction:column;
+  padding:1.45cm 1.7cm 1.2cm; background:var(--cream);
+}
+.slide:last-child{ page-break-after:auto; }
+.slide.dark{ background:var(--ink); color:var(--cream); }
+.slide.deep{ background:var(--ink-deep); color:var(--cream); }
+
+/* shared bits */
+.eyebrow{ font-size:11pt; letter-spacing:.28em; text-transform:uppercase; font-weight:700; color:var(--copper); margin-bottom:.35cm; }
+.dark .eyebrow,.deep .eyebrow{ color:var(--gold-soft); }
+.title{ font-family:"Playfair Display",serif; font-weight:800; line-height:1.04; color:var(--ink); }
+.dark .title,.deep .title{ color:var(--cream); }
+.title .ac{ font-style:italic; font-weight:700; color:var(--copper); }
+.dark .title .ac,.deep .title .ac{ color:var(--gold); }
+.lead{ font-size:13.5pt; line-height:1.5; color:#42526e; max-width:24cm; }
+.dark .lead,.deep .lead{ color:rgba(253,250,245,.78); }
+
+.foot{ position:absolute; left:1.7cm; right:1.7cm; bottom:.85cm; display:flex; align-items:center; justify-content:space-between;
+  font-size:9pt; letter-spacing:.04em; color:#8a96ad; }
+.dark .foot,.deep .foot{ color:rgba(253,250,245,.5); }
+.foot img{ height:.62cm; }
+.rule{ height:3px; width:1.9cm; background:var(--copper); border-radius:3px; margin:.5cm 0 .6cm; }
+.dark .rule,.deep .rule{ background:var(--gold); }
+
+/* COVER */
+.cover{ justify-content:center; }
+.cover .brandrow{ display:flex; align-items:center; gap:.45cm; margin-bottom:1.5cm; }
+.cover .brandrow img{ height:1.25cm; }
+.cover .brandrow .wm{ font-family:"Playfair Display",serif; font-weight:700; font-size:17pt; color:var(--cream); letter-spacing:.01em; }
+.cover h1{ font-family:"Playfair Display",serif; font-weight:800; font-size:52pt; line-height:1.02; color:var(--cream); letter-spacing:-.01em; }
+.cover h1 .ac{ font-style:italic; color:var(--gold); }
+.cover .sub{ margin-top:.7cm; font-size:15pt; color:rgba(253,250,245,.8); max-width:21cm; line-height:1.5; }
+.cover .badge{ display:inline-block; font-size:10pt; font-weight:700; letter-spacing:.18em; text-transform:uppercase;
+  color:var(--gold-soft); border:1px solid rgba(224,187,126,.45); padding:.22cm .5cm; border-radius:1cm; margin-bottom:1.1cm; align-self:flex-start; }
+.cover .statstrip{ margin-top:1.5cm; display:flex; gap:1.5cm; }
+.cover .statstrip .s .n{ font-family:"Playfair Display",serif; font-weight:700; font-size:22pt; color:var(--gold); }
+.cover .statstrip .s .l{ font-size:9.5pt; letter-spacing:.12em; text-transform:uppercase; color:rgba(253,250,245,.62); margin-top:.1cm; }
+
+/* WHAT IS / pillars */
+.pillars{ display:grid; grid-template-columns:repeat(4,1fr); gap:.55cm; margin-top:.4cm; }
+.pillar{ background:rgba(255,255,255,.06); border:1px solid rgba(224,187,126,.22); border-radius:.4cm; padding:.65cm .6cm; }
+.pillar .n{ font-family:"Playfair Display",serif; font-weight:700; font-size:26pt; color:var(--gold); line-height:1; }
+.pillar .l{ font-size:11pt; font-weight:600; margin-top:.28cm; color:var(--cream); }
+.pillar .d{ font-size:9.5pt; color:rgba(253,250,245,.62); margin-top:.12cm; line-height:1.35; }
+
+/* MODULE MAP grid */
+.map{ display:grid; grid-template-columns:repeat(4,1fr); gap:.5cm; margin-top:.3cm; flex:1; align-content:start; }
+.mcard{ background:#fff; border:1px solid var(--cream3); border-radius:.4cm; padding:.55cm .55cm; }
+.mcard .ic{ font-size:17pt; }
+.mcard .t{ font-weight:700; font-size:11pt; margin-top:.2cm; color:var(--ink); }
+.mcard .d{ font-size:8.6pt; color:#5b6a85; margin-top:.12cm; line-height:1.32; }
+
+/* DETAIL slides: two/three column feature lists */
+.detail-head{ display:flex; align-items:flex-end; justify-content:space-between; }
+.kbadge{ font-size:9.5pt; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--copper-deep);
+  background:var(--cream2); border:1px solid var(--cream3); padding:.2cm .45cm; border-radius:1cm; }
+.cols{ display:grid; grid-template-columns:repeat(3,1fr); gap:.45cm .9cm; margin-top:.55cm; }
+.cols.two{ grid-template-columns:repeat(2,1fr); }
+.grp .gh{ font-weight:700; font-size:11.5pt; color:var(--ink); margin-bottom:.18cm; padding-bottom:.14cm; border-bottom:2px solid var(--cream3); }
+.grp ul{ list-style:none; }
+.grp li{ position:relative; padding-left:.5cm; font-size:10pt; line-height:1.5; color:#3c4a63; margin-bottom:.06cm; }
+.grp li::before{ content:""; position:absolute; left:0; top:.22cm; width:.18cm; height:.18cm; border-radius:50%; background:var(--copper); }
+.d-lead{ font-size:12pt; line-height:1.45; color:#42526e; max-width:25cm; margin-top:-.1cm; }
+.outcome{ margin-top:auto; margin-bottom:.5cm; background:var(--cream2); border-left:4px solid var(--copper); border-radius:.3cm; padding:.5cm .72cm; font-size:11.5pt; line-height:1.4; color:var(--ink); }
+.outcome b{ color:var(--copper-deep); font-weight:700; }
+
+/* feature card row (for highlights) */
+.hl{ display:grid; grid-template-columns:repeat(2,1fr); gap:.6cm; margin-top:.5cm; flex:1; align-content:start; }
+.hcard{ background:rgba(255,255,255,.05); border:1px solid rgba(224,187,126,.25); border-radius:.45cm; padding:.7cm .75cm; }
+.hcard .ic{ font-size:18pt; }
+.hcard .t{ font-family:"Playfair Display",serif; font-weight:700; font-size:15pt; color:var(--cream); margin-top:.2cm; }
+.hcard .d{ font-size:10pt; color:rgba(253,250,245,.72); margin-top:.18cm; line-height:1.45; }
+
+/* platform grid */
+.plat{ display:grid; grid-template-columns:repeat(3,1fr); gap:.55cm; margin-top:.5cm; }
+.pl{ background:rgba(255,255,255,.05); border:1px solid rgba(224,187,126,.22); border-radius:.42cm; padding:.62cm .6cm; }
+.pl .t{ font-weight:700; font-size:11.5pt; color:var(--cream); }
+.pl .d{ font-size:9.4pt; color:rgba(253,250,245,.66); margin-top:.14cm; line-height:1.4; }
+
+/* closing */
+.close{ justify-content:center; align-items:flex-start; }
+.close h2{ font-family:"Playfair Display",serif; font-weight:800; font-size:40pt; line-height:1.05; color:var(--cream); }
+.close h2 .ac{ font-style:italic; color:var(--gold); }
+.close .c-sub{ margin-top:.55cm; font-size:14pt; color:rgba(253,250,245,.8); max-width:22cm; line-height:1.5; }
+.contact{ margin-top:1.3cm; display:flex; gap:1.4cm; }
+.contact .ci .l{ font-size:9pt; letter-spacing:.14em; text-transform:uppercase; color:var(--gold-soft); }
+.contact .ci .v{ font-size:13pt; font-weight:600; color:var(--cream); margin-top:.12cm; white-space:nowrap; }
+</style>
+</head>
+<body>
+
+<!-- 1. COVER -->
+<section class="slide dark cover">
+  <div class="brandrow"><img src="logo-white.svg" alt=""><span class="wm">Paper &amp; Pen ERP</span></div>
+  <span class="badge">Built for the GCC · by BHD Group</span>
+  <h1>The ERP that speaks<br><span class="ac">your language.</span></h1>
+  <p class="sub">One cloud system that runs your entire business, from the first quote to the final ledger. Sales, CRM, procurement, manufacturing, HR, finance and banking, in Arabic and English.</p>
+  <div class="statstrip">
+    <div class="s"><div class="n">5</div><div class="l">Languages</div></div>
+    <div class="s"><div class="n">12</div><div class="l">Module families</div></div>
+    <div class="s"><div class="n">&lt;5 min</div><div class="l">Setup</div></div>
+    <div class="s"><div class="n">Cloud</div><div class="l">+ desktop app</div></div>
+  </div>
+  <div class="foot"><span>paperandpen.om</span><span>Product Overview</span></div>
+</section>
+
+<!-- 2. WHAT IS -->
+<section class="slide deep">
+  <div class="eyebrow">What is Paper &amp; Pen ERP</div>
+  <h2 class="title" style="font-size:32pt;">One platform for <span class="ac">your whole company</span></h2>
+  <div class="rule"></div>
+  <p class="lead">Paper &amp; Pen is a multi-tenant cloud ERP built in Oman for GCC small and mid-sized businesses. Switch on only the modules you need and grow into the rest, all on one secure platform, fully bilingual, and live in minutes.</p>
+  <div class="pillars" style="margin-top:.95cm;">
+    <div class="pillar"><div class="n">1</div><div class="l">Single source of truth</div><div class="d">Quotes, stock, people and money connected end to end.</div></div>
+    <div class="pillar"><div class="n">5</div><div class="l">Languages, full RTL</div><div class="d">English, Arabic, Hindi, Bangla and Urdu out of the box.</div></div>
+    <div class="pillar"><div class="n">AI</div><div class="l">Built in</div><div class="d">Document capture, assistant and forecasting included.</div></div>
+    <div class="pillar"><div class="n">∞</div><div class="l">Modular &amp; scalable</div><div class="d">From a one-person shop to a multi-entity group.</div></div>
+  </div>
+  <div class="foot"><img src="logo-white.svg" alt=""><span>02</span></div>
+</section>
+
+<!-- 3. MODULE MAP -->
+<section class="slide">
+  <div class="eyebrow">The module map</div>
+  <h2 class="title" style="font-size:30pt;">Twelve families, <span class="ac">one system</span></h2>
+  <div class="rule"></div>
+  <div class="map">
+    <div class="mcard"><div class="ic">🧾</div><div class="t">Sales &amp; Invoicing</div><div class="d">Quotes, orders, invoices, payments, credit notes.</div></div>
+    <div class="mcard"><div class="ic">🤝</div><div class="t">CRM &amp; Customers</div><div class="d">Pipeline, tickets, loyalty, portal, WhatsApp + AI.</div></div>
+    <div class="mcard"><div class="ic">🛒</div><div class="t">Point of Sale</div><div class="d">Terminal, receipts, settlement, POS analytics.</div></div>
+    <div class="mcard"><div class="ic">📦</div><div class="t">Procurement</div><div class="d">Requests, POs, RFQs, vendors, goods received.</div></div>
+    <div class="mcard"><div class="ic">🏭</div><div class="t">Manufacturing</div><div class="d">Production orders, BOM, Kanban, machines, QC.</div></div>
+    <div class="mcard"><div class="ic">👥</div><div class="t">HR &amp; Payroll</div><div class="d">Attendance, face kiosk, leave, payroll, SOPs.</div></div>
+    <div class="mcard"><div class="ic">📒</div><div class="t">Finance &amp; Accounting</div><div class="d">Ledger, journals, expenses, bills, Magic Inbox AI.</div></div>
+    <div class="mcard"><div class="ic">🏦</div><div class="t">Banking</div><div class="d">Bank sync, reconciliation, transfers, payees.</div></div>
+    <div class="mcard"><div class="ic">🗃️</div><div class="t">Inventory &amp; Stock</div><div class="d">Stock levels, reorder alerts, stock take, reports.</div></div>
+    <div class="mcard"><div class="ic">🌐</div><div class="t">E-commerce &amp; Portal</div><div class="d">Storefront, cart, checkout, self-service portal.</div></div>
+    <div class="mcard"><div class="ic">📐</div><div class="t">Projects &amp; Job Costing</div><div class="d">Projects, tasks, timesheets, job-level costing.</div></div>
+    <div class="mcard"><div class="ic">📊</div><div class="t">Analytics &amp; Board</div><div class="d">Dashboards, report builder, board pack, AI.</div></div>
+  </div>
+  <div class="foot"><img src="logo.svg" alt=""><span>03</span></div>
+</section>
+
+<!-- 4. SALES -->
+<section class="slide">
+  <div class="detail-head">
+    <div><div class="eyebrow">Module 01</div><h2 class="title" style="font-size:28pt;">Sales &amp; <span class="ac">Invoicing</span></h2></div>
+    <span class="kbadge">Free core</span>
+  </div>
+  <div class="rule"></div>
+  <div class="cols">
+    <div class="grp"><div class="gh">Sell faster</div><ul>
+      <li>Quick Sale one-screen billing</li><li>Quotations, clone &amp; revise</li><li>Sample orders</li><li>Sales orders</li><li>Price lists (retail / dealer / VIP)</li></ul></div>
+    <div class="grp"><div class="gh">Invoice &amp; collect</div><ul>
+      <li>Invoices with live cost preview</li><li>Payments, incl. split payments</li><li>Recurring invoices</li><li>Credit &amp; debit notes</li><li>Delivery notes</li></ul></div>
+    <div class="grp"><div class="gh">Control</div><ul>
+      <li>Quote → order → invoice chain</li><li>Credit approval workflow</li><li>Margin approval queue</li><li>Customer blacklist guard</li><li>Multi-currency &amp; OMR precision</li></ul></div>
+  </div>
+  <div class="outcome"><b>The outcome:</b> every sale costed, approved and collected, with a clean audit trail from the first quote to cash in the bank.</div>
+  <div class="foot"><img src="logo.svg" alt=""><span>04</span></div>
+</section>
+
+<!-- 5. CRM -->
+<section class="slide">
+  <div class="detail-head">
+    <div><div class="eyebrow">Module 02</div><h2 class="title" style="font-size:28pt;">CRM &amp; <span class="ac">customer experience</span></h2></div>
+    <span class="kbadge">Relationships</span>
+  </div>
+  <div class="rule"></div>
+  <div class="cols">
+    <div class="grp"><div class="gh">Win business</div><ul>
+      <li>Leads &amp; opportunities</li><li>Visual deal pipeline</li><li>Tasks &amp; activities</li><li>Client visit logging</li><li>Customer 360 view</li></ul></div>
+    <div class="grp"><div class="gh">Serve &amp; retain</div><ul>
+      <li>Help desk &amp; tickets</li><li>Loyalty &amp; retention dashboard</li><li>Knowledge base</li><li>Surveys</li><li>Self-service client portal</li></ul></div>
+    <div class="grp"><div class="gh">Engage</div><ul>
+      <li>WhatsApp chat, in-app</li><li>Anna AI assistant</li><li>Message log &amp; audit trail</li><li>Notification preferences</li><li>Email templates</li></ul></div>
+  </div>
+  <div class="outcome"><b>The outcome:</b> one timeline per customer, from first lead to repeat order and support, so nothing falls through the cracks.</div>
+  <div class="foot"><img src="logo.svg" alt=""><span>05</span></div>
+</section>
+
+<!-- 6. PROCUREMENT & INVENTORY -->
+<section class="slide">
+  <div class="detail-head">
+    <div><div class="eyebrow">Module 03 + 04</div><h2 class="title" style="font-size:28pt;">Procurement &amp; <span class="ac">inventory</span></h2></div>
+    <span class="kbadge">Supply chain</span>
+  </div>
+  <div class="rule"></div>
+  <div class="cols">
+    <div class="grp"><div class="gh">Buy smart</div><ul>
+      <li>Purchase requests</li><li>Purchase orders</li><li>RFQs to suppliers</li><li>Vendor management</li><li>Vendor scorecards</li></ul></div>
+    <div class="grp"><div class="gh">Receive &amp; track</div><ul>
+      <li>Goods received notes (GRN)</li><li>Order vs received variance</li><li>Stock levels &amp; movements</li><li>Multi-location stock</li><li>Vendor statements</li></ul></div>
+    <div class="grp"><div class="gh">Stay in control</div><ul>
+      <li>Reorder-point alerts</li><li>Periodic stock take + auto JE</li><li>Dead stock &amp; aging reports</li><li>Zero-sales reports</li><li>Stock movement reports</li></ul></div>
+  </div>
+  <div class="outcome"><b>The outcome:</b> buy at the right price and always have the right stock, without sitting on dead inventory.</div>
+  <div class="foot"><img src="logo.svg" alt=""><span>06</span></div>
+</section>
+
+<!-- 7. MANUFACTURING -->
+<section class="slide">
+  <div class="detail-head">
+    <div><div class="eyebrow">Module 05</div><h2 class="title" style="font-size:28pt;">Manufacturing &amp; <span class="ac">production</span></h2></div>
+    <span class="kbadge">Make to order</span>
+  </div>
+  <div class="rule"></div>
+  <div class="cols">
+    <div class="grp"><div class="gh">Plan</div><ul>
+      <li>Production / manufacturing orders</li><li>Bill of materials (BOM)</li><li>Product attributes &amp; categories</li><li>Sample orders</li></ul></div>
+    <div class="grp"><div class="gh">Run the floor</div><ul>
+      <li>Production Kanban board</li><li>Machines &amp; scheduling</li><li>Capacity planning</li><li>Reprint jobs (labels / tags)</li></ul></div>
+    <div class="grp"><div class="gh">Assure quality</div><ul>
+      <li>Quality dashboard</li><li>QC inspections</li><li>Job costing per order</li><li>Cost engine with margin checks</li></ul></div>
+  </div>
+  <div class="outcome"><b>The outcome:</b> know the real cost and live status of every job on the floor, not just at month end.</div>
+  <div class="foot"><img src="logo.svg" alt=""><span>07</span></div>
+</section>
+
+<!-- 8. HR -->
+<section class="slide">
+  <div class="detail-head">
+    <div><div class="eyebrow">Module 06</div><h2 class="title" style="font-size:28pt;">HR, attendance &amp; <span class="ac">payroll</span></h2></div>
+    <span class="kbadge">Your people</span>
+  </div>
+  <div class="rule"></div>
+  <div class="cols">
+    <div class="grp"><div class="gh">People &amp; time</div><ul>
+      <li>Employee records</li><li>Face-recognition kiosk</li><li>Attendance + corrections</li><li>Leave requests &amp; approvals</li><li>Overtime &amp; holidays</li></ul></div>
+    <div class="grp"><div class="gh">Pay</div><ul>
+      <li>Monthly payroll runs</li><li>Payslips, self-service</li><li>Deductions, fines &amp; bonuses</li><li>Salary advance requests</li><li>Sales commissions</li></ul></div>
+    <div class="grp"><div class="gh">Grow &amp; comply</div><ul>
+      <li>Recruitment &amp; onboarding</li><li>Employee contracts</li><li>Announcements</li><li>Visual SOPs + compliance</li><li>Team performance</li></ul></div>
+  </div>
+  <div class="outcome"><b>The outcome:</b> from clock-in to payslip in one place, compliant, paperless and accurate.</div>
+  <div class="foot"><img src="logo.svg" alt=""><span>08</span></div>
+</section>
+
+<!-- 9. FINANCE & BANKING -->
+<section class="slide">
+  <div class="detail-head">
+    <div><div class="eyebrow">Module 07 + 08</div><h2 class="title" style="font-size:28pt;">Finance, accounting &amp; <span class="ac">banking</span></h2></div>
+    <span class="kbadge">The books</span>
+  </div>
+  <div class="rule"></div>
+  <div class="cols">
+    <div class="grp"><div class="gh">Accounting</div><ul>
+      <li>Chart of accounts</li><li>Journal entries + recurring</li><li>General ledger &amp; trial balance</li><li>Expenses &amp; vendor bills</li><li>Debit notes &amp; intercompany</li></ul></div>
+    <div class="grp"><div class="gh">Cash &amp; credit</div><ul>
+      <li>Aged receivables &amp; payables</li><li>Post-dated cheque register</li><li>Collections workspace</li><li>Magic Inbox AI bill capture</li><li>Finance &amp; cash-flow overview</li></ul></div>
+    <div class="grp"><div class="gh">Banking</div><ul>
+      <li>Live bank sync (Bank Dhofar)</li><li>Auto bank reconciliation</li><li>Outgoing transfers + approval</li><li>Saved payees</li><li>POS settlement &amp; online payments</li></ul></div>
+  </div>
+  <div class="outcome"><b>The outcome:</b> books that stay current, with the bank reconciled automatically and no double entry.</div>
+  <div class="foot"><img src="logo.svg" alt=""><span>09</span></div>
+</section>
+
+<!-- 10. ECOMMERCE & PORTAL -->
+<section class="slide">
+  <div class="detail-head">
+    <div><div class="eyebrow">Module 09</div><h2 class="title" style="font-size:28pt;">E-commerce &amp; <span class="ac">client portal</span></h2></div>
+    <span class="kbadge">Sell online</span>
+  </div>
+  <div class="rule"></div>
+  <div class="cols two">
+    <div class="grp"><div class="gh">Online storefront</div><ul>
+      <li>SEO-friendly product catalog</li><li>Product detail pages &amp; variants</li><li>Shopping cart &amp; checkout</li><li>Online payment (Paymob, Amwal)</li><li>Shop order management</li></ul></div>
+    <div class="grp"><div class="gh">Self-service portal</div><ul>
+      <li>B2B quote request forms</li><li>Customer views quotes &amp; invoices</li><li>Pay invoices online</li><li>Order &amp; delivery tracking</li><li>Branded per tenant</li></ul></div>
+  </div>
+  <div class="outcome"><b>The outcome:</b> sell online and let customers serve themselves, view, track and pay, day or night.</div>
+  <div class="foot"><img src="logo.svg" alt=""><span>10</span></div>
+</section>
+
+<!-- 11. ANALYTICS & BOARD -->
+<section class="slide">
+  <div class="detail-head">
+    <div><div class="eyebrow">Module 10</div><h2 class="title" style="font-size:28pt;">Analytics, reporting &amp; <span class="ac">the boardroom</span></h2></div>
+    <span class="kbadge">Decisions</span>
+  </div>
+  <div class="rule"></div>
+  <div class="cols">
+    <div class="grp"><div class="gh">See the business</div><ul>
+      <li>Finance &amp; sales dashboards</li><li>HR &amp; inventory analytics</li><li>POS &amp; profitability analysis</li><li>Consumption trends</li></ul></div>
+    <div class="grp"><div class="gh">Build your own</div><ul>
+      <li>No-code report builder</li><li>Saved &amp; scheduled reports</li><li>Custom PDF designer</li><li>AI demand forecasting</li></ul></div>
+    <div class="grp"><div class="gh">Board &amp; investors</div><ul>
+      <li>Income statement (P&amp;L)</li><li>Balance sheet</li><li>Cash-flow statement</li><li>Investor pack &amp; steering deck</li></ul></div>
+  </div>
+  <div class="outcome"><b>The outcome:</b> from the shop floor to the board table, everyone works off one trusted set of numbers.</div>
+  <div class="foot"><img src="logo.svg" alt=""><span>11</span></div>
+</section>
+
+<!-- 12. AI & AUTOMATION -->
+<section class="slide deep">
+  <div class="eyebrow">What sets it apart</div>
+  <h2 class="title" style="font-size:30pt;">AI &amp; automation, <span class="ac">built in</span></h2>
+  <div class="rule"></div>
+  <div class="hl">
+    <div class="hcard"><div class="ic">📥</div><div class="t">Magic Inbox</div><div class="d">Email or upload a supplier invoice and AI extracts it, matches the vendor and bank payment, and drafts the bill for one-click posting.</div></div>
+    <div class="hcard"><div class="ic">🤖</div><div class="t">Anna AI assistant</div><div class="d">An always-on assistant connected to email and WhatsApp, plus AI business insights surfaced across the system.</div></div>
+    <div class="hcard"><div class="ic">🪪</div><div class="t">Face-recognition kiosk</div><div class="d">Web-based biometric attendance with photo capture, no separate hardware or native app needed.</div></div>
+    <div class="hcard"><div class="ic">🏦</div><div class="t">Bank automation</div><div class="d">Live bank-statement sync with smart auto-reconciliation, including split-payment matching, and secured transfers.</div></div>
+  </div>
+  <div class="foot"><img src="logo-white.svg" alt=""><span>12</span></div>
+</section>
+
+<!-- 13. PLATFORM -->
+<section class="slide dark">
+  <div class="eyebrow">The platform</div>
+  <h2 class="title" style="font-size:30pt;">Multilingual, multi-tenant, <span class="ac">secure</span></h2>
+  <div class="rule"></div>
+  <div class="plat">
+    <div class="pl"><div class="t">5 languages, full RTL</div><div class="d">English, Arabic, Hindi, Bangla, Urdu, switchable per user.</div></div>
+    <div class="pl"><div class="t">Multi-tenant SaaS</div><div class="d">Per-tenant branding, logo, colours and custom domain.</div></div>
+    <div class="pl"><div class="t">Passwordless login</div><div class="d">Secure one-tap OTP sign-in over WhatsApp or email.</div></div>
+    <div class="pl"><div class="t">Document chains</div><div class="d">Every quote, order and invoice linked and traceable.</div></div>
+    <div class="pl"><div class="t">Workflows &amp; audit log</div><div class="d">Automation rules plus a full who-changed-what trail.</div></div>
+    <div class="pl"><div class="t">Cloud + desktop app</div><div class="d">Browser anywhere, with a dedicated desktop application.</div></div>
+  </div>
+  <div class="foot"><img src="logo-white.svg" alt=""><span>13</span></div>
+</section>
+
+<!-- 14. CLOSING -->
+<section class="slide deep close">
+  <div class="brandrow" style="display:flex;align-items:center;gap:.4cm;margin-bottom:1cm;"><img src="logo-white.svg" style="height:1.1cm" alt=""><span style="font-family:'Playfair Display',serif;font-weight:700;font-size:15pt;color:var(--cream);white-space:nowrap">Paper &amp; Pen ERP</span></div>
+  <h2>Run your whole business<br>on <span class="ac">one platform.</span></h2>
+  <p class="c-sub">Start with Sales &amp; Invoicing, then switch on the modules you need as you grow. Set up in minutes, in your language.</p>
+  <div class="contact">
+    <div class="ci"><div class="l">Web</div><div class="v">paperandpen.om</div></div>
+    <div class="ci"><div class="l">Email</div><div class="v">info@paperandpen.om</div></div>
+    <div class="ci"><div class="l">WhatsApp</div><div class="v">+968 9889 9100</div></div>
+  </div>
+  <div class="foot"><span>A BHD Group product · Muscat, Oman</span><span>14</span></div>
+</section>
+
+</body>
+</html>
