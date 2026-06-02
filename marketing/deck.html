@@ -7,10 +7,12 @@
 <link rel="stylesheet" href="https://design.bhd.om/fa6/css/all.min.css">
 <style>
 :root{
-  --ink:#172e50; --ink-deep:#0f2138; --cream:#fdfaf5; --cream2:#faf4e8; --rail:#f6efe1;
-  --gold:#c9973f; --gold-soft:#e7c98a; --copper:#b9722f;
-  --tx:#33425c; --tx-soft:#6a7790; --line:#ece1cc;
-  --amber:#cf8a2c; --teal:#2a9387; --rose:#c95f74; --sky:#3f7cc0; --green:#469a58; --violet:#7a5fb0;
+  /* Paper & Pen logo palette: navy + steel + bright blue + white */
+  --ink:#172e50; --ink-deep:#0f2138; --cream:#fbfdff; --cream2:#eaf1f9; --rail:#eef3f9;
+  --gold:#3c7bbe; --gold-soft:#9cc0e6; --copper:#195177;
+  --tx:#2a3a55; --tx-soft:#647a96; --line:#d9e4f0;
+  /* module accents, all drawn from the brand blue family */
+  --amber:#3c7bbe; --teal:#195177; --rose:#2f6aa8; --sky:#4a86c4; --green:#1f5e86; --violet:#356ea8;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 @page{ size:33.867cm 19.05cm; margin:0; }
@@ -21,6 +23,7 @@ i.fa-solid,i.fa-light,i.fa-regular{ font-style:normal; }
 .slide{ position:relative; width:33.867cm; height:19.05cm; overflow:hidden; page-break-after:always; background:var(--cream); display:flex; }
 .slide:last-child{ page-break-after:auto; }
 .hl{ color:var(--copper); }
+.navy .hl{ color:var(--gold); }
 
 /* ---------- MODULE SLIDE: rail + body ---------- */
 .rail{ width:9.2cm; flex-shrink:0; background:var(--rail); border-right:1px solid var(--line); padding:1.5cm 1.4cm; display:flex; flex-direction:column; }
@@ -61,7 +64,7 @@ i.fa-solid,i.fa-light,i.fa-regular{ font-style:normal; }
 .full{ display:flex; flex-direction:column; padding:1.7cm 2cm; }
 .full.navy{ background:var(--ink); color:var(--cream); }
 .full.navy h1,.full.navy h2{ color:var(--cream); }
-.dots{ position:absolute; inset:0; background-image:radial-gradient(circle at 1px 1px, rgba(231,201,138,.16) 1.1px, transparent 0); background-size:.62cm .62cm; }
+.dots{ position:absolute; inset:0; background-image:radial-gradient(circle at 1px 1px, rgba(60,123,190,.16) 1.1px, transparent 0); background-size:.62cm .62cm; }
 .kick{ font-family:"Sora"; font-weight:700; font-size:12pt; color:var(--gold); position:relative; }
 .full .ftr{ position:absolute; left:2cm; right:2cm; bottom:1cm; display:flex; justify-content:space-between; font-size:9pt; color:rgba(253,250,245,.55); }
 
@@ -69,7 +72,7 @@ i.fa-solid,i.fa-light,i.fa-regular{ font-style:normal; }
 .cover{ justify-content:flex-start; padding-top:4.3cm; }
 .cover .top{ position:absolute; left:2cm; top:1.6cm; display:flex; align-items:center; gap:.4cm; }
 .cover .top img{ height:1.1cm; } .cover .top span{ font-family:"Sora"; font-weight:700; font-size:15pt; color:var(--cream); white-space:nowrap; }
-.cover .pill{ position:relative; align-self:flex-start; display:flex; width:fit-content; white-space:nowrap; gap:.35cm; align-items:center; background:transparent; border:1.5px solid rgba(231,201,138,.5); color:var(--gold-soft); padding:.26cm .62cm; border-radius:1.1cm; font-weight:600; font-size:11pt; margin-bottom:.6cm; }
+.cover .pill{ position:relative; align-self:flex-start; display:flex; width:fit-content; white-space:nowrap; gap:.35cm; align-items:center; background:transparent; border:1.5px solid rgba(60,123,190,.5); color:var(--gold-soft); padding:.26cm .62cm; border-radius:1.1cm; font-weight:600; font-size:11pt; margin-bottom:.6cm; }
 .cover h1{ position:relative; font-size:48pt; font-weight:800; line-height:1.05; }
 .cover h1 .hl{ color:var(--gold); }
 .cover p{ position:relative; margin-top:.55cm; font-size:15.5pt; line-height:1.5; color:rgba(253,250,245,.82); max-width:23cm; }
@@ -82,21 +85,21 @@ i.fa-solid,i.fa-light,i.fa-regular{ font-style:normal; }
 .lead{ position:relative; font-size:14pt; line-height:1.5; color:var(--tx-soft); max-width:24cm; margin-top:.35cm; }
 .navy .lead{ color:rgba(253,250,245,.8); }
 .map{ position:relative; display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:2.5cm; align-content:start; gap:.42cm; margin-top:.5cm; }
-.mc{ background:rgba(255,255,255,.05); border:1px solid rgba(231,201,138,.2); border-radius:.4cm; padding:.42cm .5cm; }
-.mc .ic{ width:.95cm; height:.95cm; border-radius:.28cm; background:rgba(231,201,138,.16); color:var(--gold-soft); display:flex; align-items:center; justify-content:center; font-size:12pt; margin-bottom:.18cm; }
+.mc{ background:rgba(255,255,255,.05); border:1px solid rgba(60,123,190,.2); border-radius:.4cm; padding:.42cm .5cm; }
+.mc .ic{ width:.95cm; height:.95cm; border-radius:.28cm; background:rgba(60,123,190,.16); color:var(--gold-soft); display:flex; align-items:center; justify-content:center; font-size:12pt; margin-bottom:.18cm; }
 .mc .t{ font-family:"Sora"; font-weight:700; font-size:10.5pt; color:var(--cream); }
 .mc .d{ font-size:8.4pt; color:rgba(253,250,245,.6); margin-top:.06cm; line-height:1.28; }
 
 /* highlights (AI) */
 .hl2{ position:relative; display:grid; grid-template-columns:repeat(2,1fr); gap:.65cm; margin-top:.9cm; }
-.hcard{ background:rgba(255,255,255,.05); border:1px solid rgba(231,201,138,.22); border-radius:.5cm; padding:.7cm .8cm; display:flex; gap:.6cm; }
+.hcard{ background:rgba(255,255,255,.05); border:1px solid rgba(60,123,190,.22); border-radius:.5cm; padding:.7cm .8cm; display:flex; gap:.6cm; }
 .hcard .hi{ width:1.6cm; height:1.6cm; border-radius:.4cm; background:var(--gold); color:var(--ink); display:flex; align-items:center; justify-content:center; font-size:19pt; flex-shrink:0; }
 .hcard h4{ color:var(--cream); font-size:14pt; font-weight:700; }
 .hcard p{ font-size:10.5pt; color:rgba(253,250,245,.76); margin-top:.12cm; line-height:1.42; }
 
 /* platform */
 .plat{ position:relative; display:grid; grid-template-columns:repeat(3,1fr); gap:.6cm; margin-top:.9cm; }
-.pl{ background:rgba(255,255,255,.05); border:1px solid rgba(231,201,138,.2); border-radius:.45cm; padding:.62cm .65cm; }
+.pl{ background:rgba(255,255,255,.05); border:1px solid rgba(60,123,190,.2); border-radius:.45cm; padding:.62cm .65cm; }
 .pl i{ color:var(--gold-soft); font-size:16pt; }
 .pl .t{ font-family:"Sora"; font-weight:700; font-size:11.5pt; color:var(--cream); margin-top:.25cm; }
 .pl .d{ font-size:9.4pt; color:rgba(253,250,245,.66); margin-top:.1cm; line-height:1.38; }
@@ -460,7 +463,7 @@ i.fa-solid,i.fa-light,i.fa-regular{ font-style:normal; }
 <!-- 17. CLOSE -->
 <section class="slide full navy close">
   <div class="dots"></div>
-  <span class="pill" style="position:relative;display:flex;width:fit-content;white-space:nowrap;gap:.35cm;align-items:center;background:transparent;border:1.5px solid rgba(231,201,138,.5);color:var(--gold-soft);padding:.26cm .62cm;border-radius:1.1cm;font-weight:600;font-size:12pt;margin-bottom:.55cm;align-self:flex-start"><i class="fa-solid fa-rocket"></i> Ready when you are</span>
+  <span class="pill" style="position:relative;display:flex;width:fit-content;white-space:nowrap;gap:.35cm;align-items:center;background:transparent;border:1.5px solid rgba(60,123,190,.5);color:var(--gold-soft);padding:.26cm .62cm;border-radius:1.1cm;font-weight:600;font-size:12pt;margin-bottom:.55cm;align-self:flex-start"><i class="fa-solid fa-rocket"></i> Ready when you are</span>
   <h2>Start free. <span class="hl">Grow into the rest.</span></h2>
   <p>Begin with Sales &amp; Invoicing at no cost, then switch on whatever modules you need as you grow. We will help you get set up, in your language.</p>
   <div class="cta">

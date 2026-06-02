@@ -7,10 +7,12 @@
 <link rel="stylesheet" href="https://design.bhd.om/fa6/css/all.min.css">
 <style>
 :root{
-  --ink:#172e50; --ink-deep:#0f2138; --cream:#fdfaf5; --cream2:#faf4e8; --rail:#f6efe1;
-  --gold:#c9973f; --gold-soft:#e7c98a; --copper:#b9722f;
-  --tx:#33425c; --tx-soft:#6a7790; --line:#ece1cc;
-  --amber:#cf8a2c; --teal:#2a9387; --rose:#c95f74; --sky:#3f7cc0; --green:#469a58; --violet:#7a5fb0;
+  /* Paper & Pen logo palette: navy + steel + bright blue + white */
+  --ink:#172e50; --ink-deep:#0f2138; --cream:#fbfdff; --cream2:#eaf1f9; --rail:#eef3f9;
+  --gold:#3c7bbe; --gold-soft:#9cc0e6; --copper:#195177;
+  --tx:#2a3a55; --tx-soft:#647a96; --line:#d9e4f0;
+  /* module accents, all drawn from the brand blue family */
+  --amber:#3c7bbe; --teal:#195177; --rose:#2f6aa8; --sky:#4a86c4; --green:#1f5e86; --violet:#356ea8;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 @page{ size:A4; margin:12mm 11mm 13mm;
@@ -25,15 +27,15 @@ i.fa-solid{ font-style:normal; }
 
 /* COVER */
 .cover{ width:210mm; height:297mm; background:var(--ink); color:var(--cream); padding:24mm 20mm; position:relative; page-break-after:always; display:flex; flex-direction:column; overflow:hidden; }
-.cover .dots{ position:absolute; inset:0; background-image:radial-gradient(circle at 1px 1px, rgba(231,201,138,.16) 1.1px, transparent 0); background-size:6mm 6mm; }
+.cover .dots{ position:absolute; inset:0; background-image:radial-gradient(circle at 1px 1px, rgba(60,123,190,.16) 1.1px, transparent 0); background-size:6mm 6mm; }
 .cover .top{ position:relative; display:flex; align-items:center; gap:8px; }
 .cover .top img{ height:12mm; } .cover .top span{ font-family:"Sora"; font-weight:700; font-size:15pt; white-space:nowrap; }
 .cover .spacer{ flex:1; }
-.cover .pill{ position:relative; align-self:flex-start; width:fit-content; white-space:nowrap; display:flex; gap:7px; align-items:center; border:1.5px solid rgba(231,201,138,.5); color:var(--gold-soft); padding:5px 14px; border-radius:999px; font-weight:600; font-size:11pt; margin-bottom:7mm; }
+.cover .pill{ position:relative; align-self:flex-start; width:fit-content; white-space:nowrap; display:flex; gap:7px; align-items:center; border:1.5px solid rgba(60,123,190,.5); color:var(--gold-soft); padding:5px 14px; border-radius:999px; font-weight:600; font-size:11pt; margin-bottom:7mm; }
 .cover h1{ position:relative; font-size:38pt; font-weight:800; line-height:1.06; color:var(--cream); }
 .cover h1 .hl{ color:var(--gold); }
 .cover p{ position:relative; margin-top:7mm; font-size:13pt; line-height:1.55; color:rgba(253,250,245,.82); max-width:150mm; }
-.cover .meta{ position:absolute; left:20mm; right:20mm; bottom:24mm; display:flex; gap:14mm; border-top:1px solid rgba(231,201,138,.28); padding-top:6mm; }
+.cover .meta{ position:absolute; left:20mm; right:20mm; bottom:24mm; display:flex; gap:14mm; border-top:1px solid rgba(60,123,190,.28); padding-top:6mm; }
 .cover .meta .l{ font-size:8pt; letter-spacing:.1em; text-transform:uppercase; color:rgba(253,250,245,.55); }
 .cover .meta .v{ font-family:"Sora"; font-size:11pt; font-weight:600; color:var(--cream); margin-top:3px; }
 
