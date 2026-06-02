@@ -87,6 +87,18 @@ i.fa-solid{ font-style:normal; }
 .pl .t{ font-family:"Sora"; font-weight:700; font-size:10pt; color:var(--ink); margin-top:2mm; }
 .pl .d{ font-size:8.6pt; color:var(--tx-soft); margin-top:1mm; line-height:1.4; }
 
+/* see it in action band */
+.shotsband{ background:var(--ink); color:var(--cream); border-radius:10px; padding:7mm; margin-top:6mm; break-inside:avoid; }
+.shotsband .kick{ color:var(--gold); }
+.shotsband h3{ color:var(--cream); font-size:15pt; font-weight:700; margin:2px 0 4mm; }
+.srow{ display:grid; grid-template-columns:1fr 1fr 1fr 0.5fr; gap:4mm; align-items:start; }
+.sh{ border-radius:6px; overflow:hidden; border:1px solid rgba(156,192,230,.3); background:#fff; }
+.sh .bar{ height:4mm; background:#0f2138; display:flex; align-items:center; gap:1.2mm; padding:0 2.5mm; }
+.sh .bar .d{ width:1.4mm; height:1.4mm; border-radius:50%; background:rgba(156,192,230,.4); }
+.sh img{ display:block; width:100%; height:auto; }
+.scap{ font-size:8pt; color:rgba(253,250,245,.72); margin-top:2mm; font-family:"Sora"; font-weight:600; }
+.scap span{ display:block; font-family:"Inter"; font-weight:400; color:rgba(253,250,245,.5); }
+
 /* AI band */
 .band{ background:var(--ink); color:var(--cream); border-radius:10px; padding:7mm; margin-top:6mm; break-inside:avoid; }
 .band .kick{ color:var(--gold); }
@@ -142,6 +154,17 @@ i.fa-solid{ font-style:normal; }
     <div class="ovc"><div class="i"><i class="fa-solid fa-globe"></i></div><div><div class="t">E-commerce &amp; Portal</div><div class="d">Shop, checkout, portal</div></div></div>
     <div class="ovc"><div class="i"><i class="fa-solid fa-diagram-project"></i></div><div><div class="t">Projects &amp; Delivery</div><div class="d">Tasks, costing, delivery</div></div></div>
     <div class="ovc"><div class="i"><i class="fa-solid fa-chart-line"></i></div><div><div class="t">Analytics &amp; Board</div><div class="d">Dashboards, reports, board</div></div></div>
+  </div>
+
+  <div class="shotsband">
+    <div class="kick">See it in action</div>
+    <h3>A real look at the platform</h3>
+    <div class="srow">
+      <div><div class="sh"><div class="bar"><span class="d"></span><span class="d"></span><span class="d"></span></div><img src="shots/shot-quote.png" alt="Quote"></div><div class="scap">Quotes<span>Chain, cost &amp; margin</span></div></div>
+      <div><div class="sh"><div class="bar"><span class="d"></span><span class="d"></span><span class="d"></span></div><img src="shots/shot-invoice.png" alt="Invoice"></div><div class="scap">Invoices<span>Payments &amp; balance</span></div></div>
+      <div><div class="sh"><div class="bar"><span class="d"></span><span class="d"></span><span class="d"></span></div><img src="shots/shot-kanban.png" alt="Kanban"></div><div class="scap">Production Kanban<span>Job board by stage</span></div></div>
+      <div><div class="sh"><img src="shots/shot-phone.png" alt="Mobile"></div><div class="scap">On mobile<span>Arabic &amp; English</span></div></div>
+    </div>
   </div>
 
   <div style="margin-top:7mm" class="kick">What each module does</div>
