@@ -22,8 +22,8 @@ const { eyebrow, title, subtitle, features, bg = 'white' } = Astro.props;
     )}
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
       {features.map((f) => (
-        <div class="reveal group p-6 rounded-2xl border border-cream-200 bg-white hover:border-ink-200 hover:shadow-lg hover:shadow-ink-500/5 transition-all">
-          <div class="inline-flex p-2.5 rounded-xl bg-cream-100 text-copper-500 mb-5 group-hover:bg-copper-50 transition-colors">
+        <div class="reveal group ring-card p-6">
+          <div class="inline-flex p-3 rounded-2xl bg-gradient-to-br from-cream-100 to-cream-200 text-copper-500 mb-5 group-hover:from-copper-50 group-hover:to-copper-300/30 transition-colors">
             <Icon name={f.icon} class="w-6 h-6" />
           </div>
           <h3 class="font-semibold text-base text-ink-500 mb-1.5">{f.title}</h3>
