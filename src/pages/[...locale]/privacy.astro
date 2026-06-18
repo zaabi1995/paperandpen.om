@@ -1,0 +1,46 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import { useTranslations, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { graph, organization, breadcrumbList } from '@/lib/schema';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const jsonld = [graph(organization(), breadcrumbList([{ name: 'Home', url: '/' }, { name: t('footer.privacy'), url: '/privacy' }]))];
+---
+<BaseLayout {locale} path="/privacy" title="Privacy Policy · Paper & Pen" description="How Paper & Pen collects, uses and protects your data." {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.privacy') }]} />
+  <article class="section-pad bg-white">
+    <div class="max-w-3xl mx-auto legal">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: 14 April 2026 · Paper and Pen Company LLC, paperandpen.om</p>
+
+      <h2>Information We Collect</h2>
+      <p><strong>Account details:</strong> company name, owner name, email address, phone number (if provided).</p>
+      <p><strong>Payment details:</strong> collected only if you enable a paid module. Card details are processed by our payment partner Paymob and tokenized, we never see or store your full card number.</p>
+      <p><strong>Usage data:</strong> basic logs (IP address, browser, request timestamps) used for security and troubleshooting. We do not use third-party advertising or cross-site tracking.</p>
+      <p><strong>Your business data:</strong> everything you enter into your workspace (clients, invoices, products, etc.) belongs to you. We process it only to operate the Service on your behalf.</p>
+
+      <h2>How We Use Your Information</h2>
+      <p>To provide and operate the Service (sign-in, workspace provisioning, notifications); to send essential account emails; to communicate about product updates (you can opt out of non-essential messages); and to comply with legal obligations and protect the Service from abuse.</p>
+
+      <h2>Who We Share Data With</h2>
+      <p>We do not sell your data. We share only the minimum necessary with trusted providers under contract: Paymob to process card payments; messaging providers to send sign-in codes and notifications (only if you opt in); and infrastructure hosting providers.</p>
+
+      <h2>Your Rights</h2>
+      <p>You can at any time export all your workspace data, edit your account information, delete your workspace (we erase or anonymize within 30 days, except where retention is required by law), and withdraw consent for non-essential communications via the unsubscribe link in every email.</p>
+
+      <h2>Contact</h2>
+      <p>For any privacy request, contact info@paperandpen.om or WhatsApp +968 9889 9100.</p>
+    </div>
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .legal h1 { @apply font-display text-4xl font-bold text-ink-500 mb-2; }
+  .legal .meta { @apply text-sm text-ink-300 mb-8; }
+  .legal h2 { @apply font-display text-xl font-bold text-ink-500 mt-8 mb-2; }
+  .legal p { @apply text-ink-500/75 leading-relaxed mb-3; }
+</style>

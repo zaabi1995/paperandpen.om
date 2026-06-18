@@ -1,0 +1,137 @@
+---
+import { useTranslations, localizePath, type Locale } from '@/i18n';
+import LangSwitcher from '@/components/islands/LangSwitcher.tsx';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+
+const featureLinks = [
+  { href: '/features/invoicing', label: t('mega.invoicing') },
+  { href: '/features/quotations', label: t('mega.quotations') },
+  { href: '/features/inventory', label: t('mega.inventory') },
+  { href: '/features/accounting', label: t('mega.accounting') },
+  { href: '/features/hr-payroll', label: t('mega.hr') },
+  { href: '/features/reports', label: t('mega.reports') },
+];
+const solutionLinks = [
+  { href: '/industries/trading', label: t('mega.trading') },
+  { href: '/industries/retail', label: t('mega.retail') },
+  { href: '/industries/restaurants', label: t('mega.restaurants') },
+  { href: '/use-cases/freelancers', label: t('mega.freelancers') },
+  { href: '/use-cases/accountants', label: t('mega.accountants') },
+];
+const toolLinks = [
+  { href: '/tools/free-invoice-generator', label: t('mega.invoiceGen') },
+  { href: '/tools/free-quotation-generator', label: t('mega.quotationGen') },
+  { href: '/tools/free-receipt-generator', label: t('mega.receiptGen') },
+  { href: '/tools/oman-vat-calculator', label: t('mega.vatCalc') },
+];
+---
+
+<header
+  id="site-header"
+  class="sticky top-0 z-50 transition-all duration-300 bg-cream-50/0"
+  data-scrolled="false"
+>
+  <nav class="max-w-7xl mx-auto px-6 lg:px-10 h-[72px] flex items-center justify-between gap-6">
+    <a href={lp('/')} class="flex items-center gap-2.5 shrink-0" aria-label="Paper & Pen home">
+      <img src="/logo.svg" alt="Paper & Pen ERP" class="h-9 w-auto" width="120" height="36" />
+    </a>
+
+    {/* Desktop nav */}
+    <div class="hidden lg:flex items-center gap-1">
+      <div class="group relative">
+        <button class="nav-trigger">{t('nav.features')}<svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+        <div class="mega">
+          <div class="grid grid-cols-2 gap-1 w-[420px]">
+            {featureLinks.map((l) => <a href={lp(l.href)} class="mega-link">{l.label}</a>)}
+          </div>
+          <a href={lp('/free-invoicing-software')} class="mega-promo">{t('mega.allFeatures')} →</a>
+        </div>
+      </div>
+
+      <div class="group relative">
+        <button class="nav-trigger">{t('nav.solutions')}<svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+        <div class="mega">
+          <div class="grid grid-cols-1 gap-1 w-[260px]">
+            {solutionLinks.map((l) => <a href={lp(l.href)} class="mega-link">{l.label}</a>)}
+          </div>
+        </div>
+      </div>
+
+      <div class="group relative">
+        <button class="nav-trigger">{t('nav.tools')}<svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+        <div class="mega">
+          <div class="grid grid-cols-1 gap-1 w-[280px]">
+            {toolLinks.map((l) => <a href={lp(l.href)} class="mega-link">{l.label}</a>)}
+            <a href={lp('/tools')} class="mega-link font-semibold text-copper-500">{t('mega.allTools')} →</a>
+          </div>
+        </div>
+      </div>
+
+      <a href={lp('/pricing')} class="nav-link">{t('nav.pricing')}</a>
+      <a href={lp('/compare/paperandpen-vs-zoho')} class="nav-link">{t('nav.compare')}</a>
+    </div>
+
+    {/* Right actions */}
+    <div class="hidden lg:flex items-center gap-4">
+      <LangSwitcher client:idle locale={locale} />
+      <div class="w-px h-4 bg-ink-200"></div>
+      <a href={lp('/login')} class="text-sm font-medium text-ink-500/70 hover:text-ink-500 transition-colors">{t('nav.login')}</a>
+      <a href={lp('/signup')} class="px-5 py-2.5 bg-ink-500 text-cream-50 text-sm font-semibold rounded-lg hover:bg-ink-700 transition-all shadow-sm hover:shadow-md">{t('nav.startFree')}</a>
+    </div>
+
+    {/* Mobile toggle */}
+    <button id="mobile-toggle" class="lg:hidden p-2 rounded-lg text-ink-500 hover:bg-ink-100/50 transition-colors" aria-label="Toggle menu" aria-expanded="false">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </nav>
+
+  {/* Mobile menu */}
+  <div id="mobile-menu" class="lg:hidden hidden border-t border-cream-200 bg-cream-50 px-6 py-5 max-h-[80vh] overflow-y-auto shadow-lg">
+    <details class="mb-1"><summary class="m-summary">{t('nav.features')}</summary><div class="pl-3 py-1 flex flex-col">{featureLinks.map((l) => <a href={lp(l.href)} class="m-link">{l.label}</a>)}</div></details>
+    <details class="mb-1"><summary class="m-summary">{t('nav.solutions')}</summary><div class="pl-3 py-1 flex flex-col">{solutionLinks.map((l) => <a href={lp(l.href)} class="m-link">{l.label}</a>)}</div></details>
+    <details class="mb-1"><summary class="m-summary">{t('nav.tools')}</summary><div class="pl-3 py-1 flex flex-col">{toolLinks.map((l) => <a href={lp(l.href)} class="m-link">{l.label}</a>)}<a href={lp('/tools')} class="m-link text-copper-500">{t('mega.allTools')}</a></div></details>
+    <a href={lp('/pricing')} class="m-summary block">{t('nav.pricing')}</a>
+    <a href={lp('/compare/paperandpen-vs-zoho')} class="m-summary block">{t('nav.compare')}</a>
+    <div class="h-px bg-cream-200 my-3"></div>
+    <div class="mb-3"><LangSwitcher client:visible locale={locale} /></div>
+    <a href={lp('/login')} class="m-summary block">{t('nav.login')}</a>
+    <a href={lp('/signup')} class="block text-center mt-2 px-4 py-3 bg-ink-500 text-cream-50 text-sm font-semibold rounded-lg">{t('nav.startFree')}</a>
+  </div>
+</header>
+
+<style>
+  .nav-trigger { @apply flex items-center gap-1 px-3.5 py-2 text-sm font-medium text-ink-500/75 hover:text-ink-500 transition-colors rounded-lg cursor-pointer; }
+  .nav-link { @apply px-3.5 py-2 text-sm font-medium text-ink-500/75 hover:text-ink-500 transition-colors rounded-lg; }
+  .mega { @apply invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 focus-within:visible focus-within:opacity-100 transition-all absolute top-full start-0 mt-1 bg-white rounded-2xl shadow-2xl shadow-ink-500/10 border border-cream-200 p-3 z-50; }
+  .mega-link { @apply block px-4 py-2.5 text-sm text-ink-500/80 hover:text-ink-500 hover:bg-cream-50 rounded-xl transition-colors; }
+  .mega-promo { @apply block mt-2 px-4 py-2.5 text-sm font-semibold text-copper-500 bg-copper-50 hover:bg-copper-50/70 rounded-xl transition-colors; }
+  .m-summary { @apply py-2.5 text-sm font-semibold text-ink-500 cursor-pointer list-none; }
+  .m-link { @apply py-2 text-sm text-ink-500/70 hover:text-ink-500; }
+  details > summary::-webkit-details-marker { display: none; }
+</style>
+
+<script>
+  // Scroll style
+  const header = document.getElementById('site-header');
+  const onScroll = () => {
+    if (window.scrollY > 20) {
+      header?.classList.add('bg-cream-50/95', 'backdrop-blur-md', 'shadow-sm', 'border-b', 'border-cream-200');
+    } else {
+      header?.classList.remove('bg-cream-50/95', 'backdrop-blur-md', 'shadow-sm', 'border-b', 'border-cream-200');
+    }
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // Mobile menu
+  const toggle = document.getElementById('mobile-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!open));
+  });
+</script>

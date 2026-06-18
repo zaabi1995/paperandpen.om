@@ -1,0 +1,35 @@
+{
+  "locale": "en",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Manufacturing",
+  "metaTitle": "Manufacturing & Production Software · BOM & Costing · Paper & Pen",
+  "metaDescription": "Plan production with bills of materials, work orders and real costing. Consume raw stock, build finished goods, know your true margin. Works worldwide.",
+  "keywords": "manufacturing software, production management, bill of materials, bom, work orders, production costing, finished goods",
+  "heroEyebrow": "Add-on module",
+  "heroTitle": "Make to order, <em class=\"text-copper-400 not-italic\">cost to the rial</em>",
+  "heroSubtitle": "Turn raw materials into finished goods with bills of materials and work orders, while Paper & Pen tracks every component cost so you always know your real margin.",
+  "heroBullets": ["Bills of materials and work orders", "Auto stock consumption", "True production costing"],
+  "features": [
+    { "icon": "manufacturing", "title": "Bills of materials", "desc": "Define what goes into each product, with quantities and sub-assemblies." },
+    { "icon": "doc", "title": "Work orders", "desc": "Plan and track production runs from raw materials to finished stock." },
+    { "icon": "inventory", "title": "Auto stock moves", "desc": "Raw materials are consumed and finished goods added as you build." },
+    { "icon": "calc", "title": "Production costing", "desc": "Roll up material and overhead cost into an accurate finished-goods value." },
+    { "icon": "chart", "title": "Margin visibility", "desc": "Compare production cost to sale price and see true margin per item." },
+    { "icon": "refresh", "title": "Linked end to end", "desc": "Connect purchasing, inventory and sales in one continuous flow." }
+  ],
+  "sections": [
+    { "eyebrow": "Plan with confidence", "title": "From recipe to finished goods", "body": "Define a bill of materials once and Paper & Pen knows exactly what each build consumes. Raise a work order, and raw stock is reserved and consumed while finished goods are added to inventory, with all the costing handled for you.", "items": ["Reusable bills of materials", "Work orders with stock reservation", "Auto consumption and finished-goods receipt"] },
+    { "eyebrow": "Know your real margin", "title": "Costing that tells the truth", "body": "Guessing your cost is guessing your profit. Paper & Pen rolls material and overhead into a real finished-goods cost, posts it to your books, and shows the margin on every sale. Works in any currency, so you can source and sell across borders.", "items": ["Material plus overhead costing", "Posts to accounting automatically", "Margin per product, per order"] }
+  ],
+  "faqs": [
+    { "q": "Is manufacturing free?", "a": "Manufacturing is an optional paid add-on. The core Sales & Invoicing module is free forever, and you add Manufacturing when you produce goods." },
+    { "q": "Can I define bills of materials?", "a": "Yes. Build a BOM for each product, including sub-assemblies, and reuse it across every production run." },
+    { "q": "Does it consume stock automatically?", "a": "Yes. When you process a work order, raw materials are consumed and finished goods are added to inventory automatically." },
+    { "q": "How is production cost calculated?", "a": "Material and overhead costs roll up into the finished-goods value, which posts to accounting so your margins are accurate." },
+    { "q": "Does it work for any currency?", "a": "Yes. Purchase materials and sell finished goods in any currency, with costing and accounting kept in sync." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Cost every build accurately",
+  "ctaSub": "Start free with invoicing and add Manufacturing to plan production and know your true margin."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "en",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Inventory",
+  "metaTitle": "Inventory Management Software · Real-Time Stock · Paper & Pen",
+  "metaDescription": "Track stock across warehouses in real time, with low-stock alerts, batch and barcode support, and live valuation that posts to your books. Works worldwide.",
+  "keywords": "inventory management, stock control, warehouse software, low stock alerts, barcode inventory, stock valuation, multi-warehouse",
+  "heroEyebrow": "Add-on module",
+  "heroTitle": "Stock you can <em class=\"text-copper-400 not-italic\">trust</em>, in real time",
+  "heroSubtitle": "Know exactly what you have, where it is and what it's worth. Inventory updates the instant you invoice or receive goods, so your numbers are always live.",
+  "heroBullets": ["Live stock across warehouses", "Low-stock and reorder alerts", "Valuation posts to your books"],
+  "features": [
+    { "icon": "inventory", "title": "Real-time stock", "desc": "Quantities update the moment you sell, purchase or transfer goods." },
+    { "icon": "truck", "title": "Multi-warehouse", "desc": "Track and transfer stock across locations and branches with full visibility." },
+    { "icon": "bell", "title": "Low-stock alerts", "desc": "Set reorder points and get warned before you run out of a fast mover." },
+    { "icon": "receipt", "title": "Barcode & SKU", "desc": "Scan to sell or receive, organised by SKU, batch and unit of measure." },
+    { "icon": "calc", "title": "Live valuation", "desc": "Average or FIFO costing keeps inventory value accurate on your balance sheet." },
+    { "icon": "refresh", "title": "Linked to sales", "desc": "Invoices and purchase orders move stock automatically, no manual updates." }
+  ],
+  "sections": [
+    { "eyebrow": "Always accurate", "title": "Inventory that updates itself", "body": "Manual stock counts go stale the moment you make a sale. In Paper & Pen, every invoice, purchase and transfer adjusts stock and cost in real time, so the number on screen is the number on the shelf. Set reorder points and let the system tell you when to buy.", "items": ["Auto-adjusts on every transaction", "Reorder points and alerts", "Batch, SKU and unit-of-measure tracking"] },
+    { "eyebrow": "Stock meets the books", "title": "From shelf to balance sheet", "body": "Inventory is not just counting boxes, it is real money on your balance sheet. Paper & Pen values stock with average or FIFO costing and posts movements to accounting automatically, so your cost of goods sold and stock value are always reconciled. Works in any currency for any market.", "items": ["Average or FIFO costing", "Auto-posts to accounting", "Multi-currency purchasing"] }
+  ],
+  "faqs": [
+    { "q": "Is inventory included free?", "a": "Inventory is an optional paid add-on. The core Sales & Invoicing module is free forever, and you add Inventory when you need real-time stock control." },
+    { "q": "Can I manage multiple warehouses?", "a": "Yes. Track stock per location, transfer between them and see live quantities everywhere." },
+    { "q": "Does it support barcodes?", "a": "Yes. Use barcodes and SKUs to sell and receive faster, with batch and unit-of-measure support." },
+    { "q": "How is stock valued?", "a": "Choose average cost or FIFO. Valuation updates with every movement and posts to your accounting automatically." },
+    { "q": "Does selling update stock automatically?", "a": "Yes. Invoices reduce stock and purchases increase it in real time, so you never update quantities by hand." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Take control of your stock",
+  "ctaSub": "Start free with invoicing and add Inventory when you're ready for real-time stock across every location."
+}

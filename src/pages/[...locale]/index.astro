@@ -1,0 +1,142 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SocialProof from '@/components/blocks/SocialProof.astro';
+import ComparisonTable from '@/components/blocks/ComparisonTable.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import SubdomainChecker from '@/components/islands/SubdomainChecker.tsx';
+import ModulePicker from '@/components/islands/ModulePicker.tsx';
+import LangShowcase from '@/components/islands/LangShowcase.tsx';
+import { useTranslations, localizePath, isRTL, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { graph, organization, softwareApplication, faqPage } from '@/lib/schema';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+const rtl = isRTL(locale);
+
+const compareCols = [t('compare.pp'), t('compare.zoho'), t('compare.odoo'), t('compare.tally'), t('compare.sowaan')];
+const featKeys = ['arabic', 'gcc_pricing', 'free_trial', 'local_support', 'multi_lang', 'paymob', 'onboarding'];
+const MATRIX: Record<string, boolean[]> = {
+  arabic: [true, false, false, false, true],
+  gcc_pricing: [true, false, false, true, true],
+  free_trial: [true, true, true, false, false],
+  local_support: [true, false, false, false, true],
+  multi_lang: [true, false, false, false, false],
+  paymob: [true, false, false, false, false],
+  onboarding: [true, false, false, false, false],
+};
+const compareRows = featKeys.map((k) => ({ feature: t(`compare.rows.${k}`), values: MATRIX[k] }));
+
+const homeFaqs = [
+  { q: t('homeFaq.q1'), a: t('homeFaq.a1') },
+  { q: t('homeFaq.q2'), a: t('homeFaq.a2') },
+  { q: t('homeFaq.q3'), a: t('homeFaq.a3') },
+  { q: t('homeFaq.q4'), a: t('homeFaq.a4') },
+];
+
+const checkerStrings = {
+  label: t('hero.subdomainLabel'),
+  placeholder: t('hero.subdomainPlaceholder'),
+  suffix: t('hero.subdomainSuffix'),
+  checking: t('hero.checking'),
+  available: t('hero.available_short'),
+  taken: t('hero.taken_short'),
+  error: t('hero.subdomainError'),
+  cta: t('hero.cta'),
+};
+
+const moduleStrings = {
+  included: t('modules.included'),
+  estimateLabel: t('modules.estimateLabel'),
+  perMonth: t('modules.omr_mo'),
+  baseLabel: t('modules.base_label') + ' · ' + t('pricing.free_label'),
+  addonsLabel: t('modules.addons_label'),
+  startTrial: t('modules.startTrial'),
+  estimateNote: t('modules.estimateNote'),
+  titles: { sales: t('modules.sales.title'), inventory: t('modules.inventory.title'), hr: t('modules.hr.title'), accounting: t('modules.accounting.title'), manufacturing: t('modules.manufacturing.title'), reports: t('modules.reports.title') },
+  descs: { sales: t('modules.sales.desc'), inventory: t('modules.inventory.desc'), hr: t('modules.hr.desc'), accounting: t('modules.accounting.desc'), manufacturing: t('modules.manufacturing.desc'), reports: t('modules.reports.desc') },
+};
+
+const jsonld = [graph(organization(), softwareApplication()), graph(faqPage(homeFaqs.map((f) => ({ q: f.q, a: f.a }))))];
+const title = t('seo.homeTitle');
+const description = t('seo.homeDesc');
+const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing, accounting software, Arabic ERP, multi-currency invoicing, ERP Oman, ERP GCC, Paper and Pen ERP, Paymob';
+---
+
+<BaseLayout {locale} path="/" {title} {description} {keywords} {jsonld}>
+  {/* Hero */}
+  <section class="relative overflow-hidden bg-cream-50 pt-16 pb-20 lg:pt-20 lg:pb-28" dir={rtl ? 'rtl' : 'ltr'}>
+    <div class="absolute inset-0 bg-paper-texture pointer-events-none"></div>
+    <div class="absolute -top-32 end-[-8rem] w-[500px] h-[500px] rounded-full bg-ink-500/5 blur-3xl pointer-events-none"></div>
+    <div class="absolute top-10 end-10 w-64 h-64 rounded-full bg-copper-300/10 blur-2xl pointer-events-none"></div>
+
+    <div class="relative max-w-6xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
+      <div>
+        <div class="inline-flex items-center gap-2 border border-copper-300/40 bg-copper-300/10 text-copper-500 text-xs font-semibold px-3.5 py-1.5 rounded-full mb-8 tracking-widest uppercase">
+          <span class="w-1.5 h-1.5 rounded-full bg-copper-400 animate-pulse"></span>{t('hero.badge')}
+        </div>
+        <h1 class="font-display text-5xl lg:text-6xl xl:text-7xl font-bold text-ink-500 leading-[1.08] mb-6">
+          {t('hero.tagline_line1')}<br /><em class="text-copper-400 not-italic">{t('hero.tagline_line2')}</em>
+        </h1>
+        <p class="text-ink-500/60 text-lg leading-relaxed mb-8 max-w-lg">{t('hero.sub')}</p>
+        <SubdomainChecker client:load strings={checkerStrings} signupBase={lp('/signup')} rtl={rtl} />
+        <p class="mt-4 text-xs text-ink-300 tracking-wide">{t('hero.trialNote')}</p>
+      </div>
+
+      <div class="hidden lg:flex flex-col gap-5 items-end">
+        <div class="w-full max-w-sm bg-white rounded-2xl shadow-2xl shadow-ink-500/10 border border-cream-200 overflow-hidden">
+          <div class="bg-ink-500 px-5 py-3.5 flex items-center justify-between">
+            <span class="text-cream-50 text-sm font-semibold font-display">{t('hero.card_title')}</span>
+            <div class="flex gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-cream-50/20"></span><span class="w-2.5 h-2.5 rounded-full bg-cream-50/20"></span><span class="w-2.5 h-2.5 rounded-full bg-copper-400"></span></div>
+          </div>
+          <div class="p-5 space-y-3">
+            <div class="flex items-center justify-between py-2.5 border-b border-cream-100"><span class="text-xs text-ink-300 font-medium">{t('hero.stat1_label')}</span><span class="text-sm font-bold text-emerald-600">{t('hero.stat1_value')}</span></div>
+            <div class="flex items-center justify-between py-2.5 border-b border-cream-100"><span class="text-xs text-ink-300 font-medium">{t('hero.stat2_label')}</span><span class="text-sm font-bold text-ink-500">{t('hero.stat2_value')}</span></div>
+            <div class="flex items-center justify-between py-2.5"><span class="text-xs text-ink-300 font-medium">{t('hero.stat3_label')}</span><span class="text-sm font-bold text-copper-500">{t('hero.stat3_value')}</span></div>
+          </div>
+          <div class="px-5 pb-5">
+            <div class="h-1.5 w-full bg-cream-100 rounded-full overflow-hidden"><div class="h-full w-3/4 bg-gradient-to-r from-ink-500 to-copper-400 rounded-full"></div></div>
+            <p class="text-xs text-ink-300 mt-1.5">{t('hero.card_progress')}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bg-white border-y border-cream-200"><div class="container-narrow"><SocialProof {locale} compact /></div></div>
+
+  {/* Language showcase */}
+  <section class="section-pad bg-cream-50 border-b border-cream-200">
+    <div class="container-narrow">
+      <div class="max-w-2xl mb-12 reveal">
+        <p class="eyebrow mb-3">{t('languages.eyebrow')}</p>
+        <h2 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight mb-4">{t('languages.title')}</h2>
+        <p class="text-ink-500/60 text-lg leading-relaxed">{t('languages.sub')}</p>
+      </div>
+      <LangShowcase client:visible />
+    </div>
+  </section>
+
+  {/* Modules */}
+  <section id="modules" class="section-pad bg-white">
+    <div class="container-wide">
+      <div class="max-w-2xl mb-14 reveal">
+        <p class="eyebrow mb-3">{t('modules.eyebrow')}</p>
+        <h2 class="font-display text-3xl lg:text-5xl font-bold text-ink-500 leading-tight mb-4">{t('modules.title')}</h2>
+        <p class="text-ink-500/60 text-lg leading-relaxed">{t('modules.sub')}</p>
+      </div>
+      <ModulePicker client:visible strings={moduleStrings} signupBase={lp('/signup')} />
+    </div>
+  </section>
+
+  {/* Compare */}
+  <ComparisonTable eyebrow={t('compare.eyebrow')} title={t('compare.title')} cols={compareCols} rows={compareRows} bg="cream" />
+
+  {/* FAQ */}
+  <FaqAccordion eyebrow={t('faqSection.eyebrow')} title={t('faqSection.title')} faqs={homeFaqs} bg="white" />
+
+  <CtaBand {locale} />
+</BaseLayout>

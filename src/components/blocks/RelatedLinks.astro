@@ -1,0 +1,25 @@
+---
+import { localizePath, type Locale } from '@/i18n';
+interface Link { href: string; title: string; desc?: string }
+interface Props { locale: Locale; title: string; links: Link[] }
+const { locale, title, links } = Astro.props;
+const lp = (p: string) => localizePath(p, locale);
+---
+{links.length > 0 && (
+  <section class="section-pad bg-cream-50 border-t border-cream-200">
+    <div class="container-wide">
+      <h2 class="font-display text-2xl font-bold text-ink-500 mb-8 reveal">{title}</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {links.map((l) => (
+          <a href={lp(l.href)} class="reveal group block p-5 rounded-2xl bg-white border border-cream-200 hover:border-copper-300 hover:shadow-lg hover:shadow-ink-500/5 transition-all">
+            <div class="flex items-center justify-between">
+              <h3 class="font-semibold text-ink-500 group-hover:text-copper-500 transition-colors">{l.title}</h3>
+              <svg class="w-4 h-4 text-ink-300 group-hover:text-copper-400 rtl:rotate-180 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7l7 7-7 7"/></svg>
+            </div>
+            {l.desc && <p class="text-sm text-ink-400 mt-1.5 leading-relaxed">{l.desc}</p>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

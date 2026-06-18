@@ -1,0 +1,68 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, type Locale } from '@/i18n';
+import { LOCALES, DEFAULT_LOCALE } from '@/i18n';
+import { graph, organization, breadcrumbList } from '@/lib/schema';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('blog');
+  const bySlug = new Map<string, Map<string, any>>();
+  for (const e of entries) {
+    const m = bySlug.get(e.data.slug) ?? new Map();
+    m.set(e.data.locale, e);
+    bySlug.set(e.data.slug, m);
+  }
+  const paths = [];
+  for (const [slug, byLocale] of bySlug) {
+    const fallback = byLocale.get(DEFAULT_LOCALE) ?? [...byLocale.values()][0];
+    for (const locale of LOCALES) {
+      const entry = byLocale.get(locale) ?? fallback;
+      paths.push({ params: { locale: locale === DEFAULT_LOCALE ? undefined : locale, slug }, props: { entry, locale } });
+    }
+  }
+  return paths;
+}
+
+const { entry, locale } = Astro.props as { entry: any; locale: Locale };
+const t = useTranslations(locale);
+const { Content } = await render(entry);
+const path = `/blog/${entry.data.slug}`;
+const jsonld = [
+  graph(
+    organization(),
+    breadcrumbList([{ name: 'Home', url: '/' }, { name: t('footer.blog'), url: '/blog' }, { name: entry.data.title, url: path }]),
+    {
+      '@type': 'BlogPosting',
+      headline: entry.data.title,
+      description: entry.data.description,
+      datePublished: new Date(entry.data.pubDate).toISOString(),
+      author: { '@type': 'Organization', name: entry.data.author },
+    }
+  ),
+];
+---
+<BaseLayout {locale} {path} title={`${entry.data.title} · Paper & Pen`} description={entry.data.description} {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.blog'), href: '/blog' }, { name: entry.data.title }]} />
+  <article class="section-pad bg-white">
+    <div class="max-w-2xl mx-auto">
+      <h1 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight mb-4">{entry.data.title}</h1>
+      <p class="text-ink-400 text-sm mb-8">{entry.data.author}</p>
+      <div class="prose-pp text-ink-500/80 leading-relaxed space-y-4">
+        <Content />
+      </div>
+    </div>
+  </article>
+  <CtaBand {locale} />
+</BaseLayout>
+
+<style is:global>
+  .prose-pp h2 { @apply font-display text-2xl font-bold text-ink-500 mt-8 mb-3; }
+  .prose-pp h3 { @apply font-display text-xl font-bold text-ink-500 mt-6 mb-2; }
+  .prose-pp p { @apply mb-4; }
+  .prose-pp ul { @apply list-disc ps-6 space-y-1.5 mb-4; }
+  .prose-pp a { @apply text-copper-500 underline; }
+  .prose-pp strong { @apply text-ink-500 font-semibold; }
+</style>

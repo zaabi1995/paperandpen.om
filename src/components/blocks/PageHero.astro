@@ -1,0 +1,52 @@
+---
+import { useTranslations, localizePath, type Locale } from '@/i18n';
+import Icon from './Icon.astro';
+
+interface Props {
+  locale: Locale;
+  eyebrow?: string;
+  title: string;
+  subtitle: string;
+  bullets?: string[];
+  primaryCta?: { href: string; label: string };
+  secondaryCta?: { href: string; label: string };
+}
+const { locale, eyebrow, title, subtitle, bullets = [], primaryCta, secondaryCta } = Astro.props;
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+const primary = primaryCta ?? { href: '/signup', label: t('hero.cta') };
+---
+<section class="relative overflow-hidden bg-cream-50 pt-20 pb-16 lg:pt-28 lg:pb-24">
+  <div class="absolute inset-0 bg-paper-texture pointer-events-none"></div>
+  <div class="absolute -top-32 end-[-8rem] w-[500px] h-[500px] rounded-full bg-ink-500/5 blur-3xl pointer-events-none"></div>
+  <div class="absolute top-10 end-10 w-64 h-64 rounded-full bg-copper-300/10 blur-2xl pointer-events-none"></div>
+
+  <div class="relative max-w-4xl mx-auto px-6 lg:px-10 text-center">
+    {eyebrow && (
+      <div class="inline-flex items-center gap-2 border border-copper-300/40 bg-copper-300/10 text-copper-500 text-xs font-semibold px-3.5 py-1.5 rounded-full mb-6 tracking-widest uppercase">
+        <span class="w-1.5 h-1.5 rounded-full bg-copper-400 animate-pulse"></span>
+        {eyebrow}
+      </div>
+    )}
+    <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-ink-500 leading-[1.1] mb-6" set:html={title}></h1>
+    <p class="text-ink-500/65 text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto mb-9">{subtitle}</p>
+
+    <div class="flex flex-col sm:flex-row gap-3 justify-center">
+      <a href={lp(primary.href)} class="btn-primary">{primary.label}
+        <svg class="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7l7 7-7 7"/></svg>
+      </a>
+      {secondaryCta && <a href={lp(secondaryCta.href)} class="btn-secondary">{secondaryCta.label}</a>}
+    </div>
+
+    {bullets.length > 0 && (
+      <ul class="flex flex-wrap gap-x-6 gap-y-2 justify-center mt-8">
+        {bullets.map((b) => (
+          <li class="flex items-center gap-2 text-sm text-ink-500/70">
+            <span class="text-emerald-600"><Icon name="check" class="w-4 h-4" /></span>{b}
+          </li>
+        ))}
+      </ul>
+    )}
+    <p class="mt-6 text-xs text-ink-300 tracking-wide">{t('hero.trialNote')}</p>
+  </div>
+</section>

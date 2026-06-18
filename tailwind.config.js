@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/**/*.{astro,html,js,jsx,ts,tsx,md,mdx}'],
   theme: {
     extend: {
       colors: {
@@ -10,6 +10,7 @@ export default {
           100: '#dde3f0',
           200: '#bcc8e3',
           300: '#8ea2cc',
+          400: '#5a73a8',
           500: '#1e2d5a',
           600: '#172347',
           700: '#101a36',
@@ -26,6 +27,7 @@ export default {
         },
         // Copper accent
         copper: {
+          50:  '#fbf1ea',
           300: '#d4956a',
           400: '#c07840',
           500: '#a85f25',

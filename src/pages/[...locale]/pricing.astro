@@ -1,0 +1,52 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import PricingTable from '@/components/blocks/PricingTable.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import SocialProof from '@/components/blocks/SocialProof.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { graph, organization, product, faqPage, breadcrumbList } from '@/lib/schema';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+
+const faqs = [
+  { q: t('pricingFaq.q1'), a: t('pricingFaq.a1') },
+  { q: t('pricingFaq.q2'), a: t('pricingFaq.a2') },
+  { q: t('pricingFaq.q3'), a: t('pricingFaq.a3') },
+];
+const crumbs = [{ name: 'Home', url: '/' }, { name: t('nav.pricing'), url: '/pricing' }];
+const jsonld = [
+  graph(
+    organization(),
+    product({
+      name: 'Paper & Pen ERP',
+      description: 'Free cloud ERP & invoicing for GCC businesses with optional paid modules.',
+      offers: [
+        { name: 'Free', price: 0 },
+        { name: 'Growth', price: 25 },
+        { name: 'Enterprise', price: 49 },
+      ],
+    }),
+    breadcrumbList(crumbs)
+  ),
+  graph(faqPage(faqs)),
+];
+---
+<BaseLayout
+  {locale}
+  path="/pricing"
+  title={t('seo.pricingTitle')}
+  description={t('seo.pricingDesc')}
+  keywords="ERP pricing, free invoicing software pricing, affordable ERP, multi-currency ERP cost"
+  {jsonld}
+>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('nav.pricing') }]} />
+  <PricingTable {locale} />
+  <SocialProof {locale} />
+  <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} bg="cream" />
+  <CtaBand {locale} />
+</BaseLayout>

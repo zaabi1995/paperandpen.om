@@ -1,0 +1,83 @@
+---
+import { useTranslations, tRaw, localizePath, type Locale } from '@/i18n';
+import Icon from './Icon.astro';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+
+const planKeys = ['free', 'growth', 'enterprise'] as const;
+const plans = planKeys.map((key) => ({
+  key,
+  name: t(`pricing.${key}.name`),
+  monthly: Number(tRaw(locale, `pricing.${key}.price_monthly`) ?? 0),
+  annual: Number(tRaw(locale, `pricing.${key}.price_annual`) ?? 0),
+  description: t(`pricing.${key}.description`),
+  features: (tRaw(locale, `pricing.${key}.features`) as string[]) ?? [],
+  popular: key === 'growth',
+}));
+---
+<section class="section-pad bg-cream-50">
+  <div class="container-wide">
+    <div class="text-center max-w-2xl mx-auto mb-10 reveal">
+      <p class="eyebrow mb-3">{t('pricing.eyebrow')}</p>
+      <h2 class="font-display text-3xl lg:text-5xl font-bold text-ink-500 leading-tight mb-4">{t('pricing.title')}</h2>
+      <p class="text-ink-500/60 text-lg">{t('pricing.sub')}</p>
+    </div>
+
+    {/* Billing toggle */}
+    <div class="flex items-center justify-center gap-3 mb-12">
+      <span class="text-sm font-medium text-ink-500" id="lbl-monthly">{t('pricing.monthly')}</span>
+      <button id="bill-toggle" type="button" role="switch" aria-checked="false" class="relative w-14 h-7 rounded-full bg-ink-200 transition-colors">
+        <span id="bill-knob" class="absolute top-0.5 start-0.5 w-6 h-6 rounded-full bg-white shadow transition-transform"></span>
+      </button>
+      <span class="text-sm font-medium text-ink-400" id="lbl-annual">{t('pricing.annual')} <span class="text-copper-500 font-semibold">· {t('pricing.annualSave')}</span></span>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-6 max-w-5xl mx-auto items-start">
+      {plans.map((p) => (
+        <div class={`reveal relative rounded-2xl border bg-white p-7 ${p.popular ? 'border-copper-400 shadow-xl shadow-copper-400/10 lg:-mt-3 lg:mb-3' : 'border-cream-200'}`}>
+          {p.popular && <span class="absolute -top-3 start-1/2 -translate-x-1/2 px-3 py-1 bg-copper-400 text-white text-xs font-bold rounded-full tracking-wide">{t('pricing.mostPopular')}</span>}
+          <h3 class="font-display text-xl font-bold text-ink-500 mb-1">{p.name}</h3>
+          <p class="text-sm text-ink-400 mb-5 min-h-[40px]">{p.description}</p>
+          <div class="mb-6">
+            {p.monthly === 0 ? (
+              <span class="font-display text-4xl font-bold text-ink-500">{t('pricing.free_label')}</span>
+            ) : (
+              <span>
+                <span class="font-display text-4xl font-bold text-ink-500 price-amount" data-monthly={p.monthly} data-annual={(p.annual / 12).toFixed(0)}>{p.monthly}</span>
+                <span class="text-ink-300 text-sm"> OMR{t('pricing.perMonth')}</span>
+              </span>
+            )}
+          </div>
+          <a href={lp('/signup')} class={`block text-center px-5 py-3 rounded-xl font-semibold text-sm mb-6 transition-all ${p.popular ? 'bg-copper-400 text-white hover:bg-copper-500' : 'bg-ink-500 text-cream-50 hover:bg-ink-700'}`}>{t('pricing.startTrial')}</a>
+          <ul class="space-y-2.5">
+            {p.features.map((f) => (
+              <li class="flex items-start gap-2.5 text-sm text-ink-500/80">
+                <span class="mt-0.5 text-emerald-600 shrink-0"><Icon name="check" class="w-4 h-4" /></span>{f}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+    <p class="text-center text-xs text-ink-300 mt-8">{t('pricing.trialNote')}</p>
+  </div>
+</section>
+
+<script>
+  const toggle = document.getElementById('bill-toggle');
+  const knob = document.getElementById('bill-knob');
+  let annual = false;
+  toggle?.addEventListener('click', () => {
+    annual = !annual;
+    toggle.setAttribute('aria-checked', String(annual));
+    toggle.classList.toggle('bg-copper-400', annual);
+    toggle.classList.toggle('bg-ink-200', !annual);
+    knob?.classList.toggle('translate-x-7', annual);
+    document.querySelectorAll<HTMLElement>('.price-amount').forEach((el) => {
+      el.textContent = annual ? el.dataset.annual! : el.dataset.monthly!;
+    });
+  });
+</script>

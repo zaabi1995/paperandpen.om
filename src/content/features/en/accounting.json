@@ -1,0 +1,35 @@
+{
+  "locale": "en",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Accounting",
+  "metaTitle": "Online Accounting Software · Auto Bookkeeping · Paper & Pen",
+  "metaDescription": "Double-entry accounting that posts itself. Real-time P&L and balance sheet, VAT returns, bank reconciliation, any currency, any tax. Works worldwide.",
+  "keywords": "accounting software, online bookkeeping, double entry, balance sheet, profit and loss, vat return, bank reconciliation, general ledger",
+  "heroEyebrow": "Add-on module",
+  "heroTitle": "Books that <em class=\"text-copper-400 not-italic\">balance themselves</em>",
+  "heroSubtitle": "Every invoice, payment and purchase posts to a proper double-entry ledger automatically. See your real-time profit, balance sheet and tax position without touching a spreadsheet.",
+  "heroBullets": ["Auto double-entry, no manual journals", "Real-time P&L and balance sheet", "VAT returns in a click"],
+  "features": [
+    { "icon": "accounting", "title": "Automatic bookkeeping", "desc": "Sales, payments and expenses post to the ledger as they happen." },
+    { "icon": "chart", "title": "Live financials", "desc": "Profit and loss, balance sheet and cash flow, always up to date." },
+    { "icon": "calc", "title": "VAT & tax returns", "desc": "Track input and output tax and produce a filing-ready return in a click." },
+    { "icon": "refresh", "title": "Bank reconciliation", "desc": "Match bank lines to invoices and payments to keep the books clean." },
+    { "icon": "doc", "title": "Full ledgers", "desc": "Drill from any report down to the source document and journal entry." },
+    { "icon": "globe", "title": "Multi-currency", "desc": "Post in any currency with automatic gain and loss on exchange." }
+  ],
+  "sections": [
+    { "eyebrow": "No accountant required", "title": "Accounting that runs in the background", "body": "You should not have to be a bookkeeper to know if you're profitable. Because invoicing, payments and inventory all feed the same ledger, your accounts are correct without manual journals. Open the dashboard and your profit, debtors and tax are right there.", "items": ["Double-entry done for you", "Every report drills to source", "Audit trail on every entry"] },
+    { "eyebrow": "Built for any tax regime", "title": "Tax and compliance, anywhere you operate", "body": "Configure the tax rates and accounts for your country, including 5% VAT for the GCC, and Paper & Pen tracks input and output tax for you. Produce a return that's ready to file, reconcile your bank, and close the period with confidence, in any currency.", "items": ["Configurable tax for any country", "Filing-ready VAT returns", "Bank reconciliation and period close"] }
+  ],
+  "faqs": [
+    { "q": "Do I need accounting knowledge to use it?", "a": "No. Entries post automatically from your invoices, payments and purchases, so you get correct double-entry books without writing journals." },
+    { "q": "Is accounting free?", "a": "Accounting is an optional paid add-on. Sales & Invoicing is free forever, and you enable Accounting when you want full financial statements." },
+    { "q": "Can it produce VAT returns?", "a": "Yes. It tracks input and output tax (for example 5% GCC VAT, or any rate you set) and generates a filing-ready return." },
+    { "q": "Does it handle multiple currencies?", "a": "Yes. Post and report in any currency, with automatic foreign-exchange gain and loss." },
+    { "q": "Can I reconcile my bank?", "a": "Yes. Import or match bank lines against invoices and payments to keep your ledger reconciled." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Get accurate books, automatically",
+  "ctaSub": "Start free with invoicing and switch on Accounting for real-time financial statements and tax returns."
+}

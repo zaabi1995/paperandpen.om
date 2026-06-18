@@ -1,0 +1,82 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/blocks/PageHero.astro';
+import FeatureGrid from '@/components/blocks/FeatureGrid.astro';
+import FeatureSplit from '@/components/blocks/FeatureSplit.astro';
+import ComparisonTable from '@/components/blocks/ComparisonTable.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import SocialProof from '@/components/blocks/SocialProof.astro';
+import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { graph, organization, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+
+const docFeatures = [
+  { icon: 'invoice', title: t('fi.docs.invoices.t'), desc: t('fi.docs.invoices.d') },
+  { icon: 'quote', title: t('fi.docs.quotes.t'), desc: t('fi.docs.quotes.d') },
+  { icon: 'doc', title: t('fi.docs.proforma.t'), desc: t('fi.docs.proforma.d') },
+  { icon: 'receipt', title: t('fi.docs.receipts.t'), desc: t('fi.docs.receipts.d') },
+  { icon: 'cart', title: t('fi.docs.po.t'), desc: t('fi.docs.po.d') },
+  { icon: 'truck', title: t('fi.docs.delivery.t'), desc: t('fi.docs.delivery.d') },
+  { icon: 'refresh', title: t('fi.docs.recurring.t'), desc: t('fi.docs.recurring.d') },
+  { icon: 'bell', title: t('fi.docs.reminders.t'), desc: t('fi.docs.reminders.d') },
+  { icon: 'whatsapp', title: t('fi.docs.share.t'), desc: t('fi.docs.share.d') },
+];
+
+const faqs = [
+  { q: t('fi.faq.q1'), a: t('fi.faq.a1') },
+  { q: t('fi.faq.q2'), a: t('fi.faq.a2') },
+  { q: t('fi.faq.q3'), a: t('fi.faq.a3') },
+  { q: t('fi.faq.q4'), a: t('fi.faq.a4') },
+];
+
+const compareCols = [t('compare.pp'), 'Zoho', 'Tally', 'QuickBooks'];
+const rows = [
+  { feature: t('compare.rows.free_trial'), values: [true, true, false, false] },
+  { feature: t('compare.rows.arabic'), values: [true, false, false, false] },
+  { feature: t('compare.rows.gcc_pricing'), values: [true, false, true, false] },
+  { feature: t('compare.rows.paymob'), values: [true, false, false, false] },
+  { feature: t('compare.rows.local_support'), values: [true, false, false, false] },
+];
+
+const related = [
+  { href: '/tools/free-invoice-generator', title: t('mega.invoiceGen') },
+  { href: '/features/invoicing', title: t('mega.invoicing') },
+  { href: '/features/accounting', title: t('mega.accounting') },
+  { href: '/pricing', title: t('nav.pricing') },
+];
+
+const crumbs = [{ name: 'Home', url: '/' }, { name: t('fi.crumb'), url: '/free-invoicing-software' }];
+const jsonld = [graph(organization(), softwareApplication(), breadcrumbList(crumbs)), graph(faqPage(faqs))];
+---
+<BaseLayout
+  {locale}
+  path="/free-invoicing-software"
+  title={t('seo.fiTitle')}
+  description={t('seo.fiDesc')}
+  keywords="free invoicing software, free online invoicing, invoice software, multi-currency invoicing, VAT invoice, free invoice maker, billing software, invoicing software Oman GCC"
+  {jsonld}
+>
+  <PageHero
+    {locale}
+    eyebrow={t('fi.eyebrow')}
+    title={t('fi.title')}
+    subtitle={t('fi.subtitle')}
+    bullets={[t('fi.b1'), t('fi.b2'), t('fi.b3')]}
+    primaryCta={{ href: '/signup', label: t('hero.cta') }}
+    secondaryCta={{ href: '/tools/free-invoice-generator', label: t('fi.tryTool') }}
+  />
+  <SocialProof {locale} compact />
+  <FeatureGrid eyebrow={t('fi.docsEyebrow')} title={t('fi.docsTitle')} subtitle={t('fi.docsSub')} features={docFeatures} bg="white" />
+  <FeatureSplit eyebrow={t('fi.s1.eyebrow')} title={t('fi.s1.title')} body={t('fi.s1.body')} items={[t('fi.s1.i1'), t('fi.s1.i2'), t('fi.s1.i3')]} bg="cream" />
+  <FeatureSplit eyebrow={t('fi.s2.eyebrow')} title={t('fi.s2.title')} body={t('fi.s2.body')} items={[t('fi.s2.i1'), t('fi.s2.i2'), t('fi.s2.i3')]} flip bg="white" />
+  <ComparisonTable eyebrow={t('fi.cmpEyebrow')} title={t('fi.cmpTitle')} cols={compareCols} rows={rows} bg="cream" />
+  <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} bg="white" />
+  <RelatedLinks {locale} title={t('related.title')} links={related} />
+  <CtaBand {locale} />
+</BaseLayout>

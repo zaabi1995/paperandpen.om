@@ -1,0 +1,92 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import FeatureGrid from '@/components/blocks/FeatureGrid.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import DocumentBuilder from '@/components/islands/DocumentBuilder.tsx';
+import VatCalculator from '@/components/islands/VatCalculator.tsx';
+import { useTranslations, tRaw, localizePath, type Locale } from '@/i18n';
+import { graph, organization, webApplication, howTo, faqPage, breadcrumbList } from '@/lib/schema';
+
+interface Props { locale: Locale; data: any }
+const { locale, data } = Astro.props;
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+const path = `/tools/${data.slug}`;
+const SITE = 'https://paperandpen.om';
+
+const isCalc = data.toolType === 'vat-calculator';
+const docLabels = tRaw(locale, 'tool.labels') as Record<string, string>;
+
+const builderStrings = {
+  docLabel: docLabels?.[data.toolType] ?? t('tool.labels.invoice'),
+  from: t('tool.from'), billTo: t('tool.billTo'), docNo: t('tool.docNo'), date: t('tool.date'),
+  item: t('tool.item'), qty: t('tool.qty'), rate: t('tool.rate'), amount: t('tool.amount'),
+  addLine: t('tool.addLine'), subtotal: t('tool.subtotal'), vat: t('tool.vat'), total: t('tool.total'),
+  notes: t('tool.notes'), currency: t('tool.currency'), applyVat: t('tool.applyVat'), print: t('tool.print'), yourCompany: t('tool.yourCompany'),
+  clientName: t('tool.clientName'), signupCta: t('tool.signupCta'), signupHref: lp('/signup'),
+  showVat: data.toolType !== 'delivery-note' && data.toolType !== 'purchase-order' ? true : false,
+};
+const calcStrings = {
+  amount: t('tool.vatCalc.amount'), mode: t('tool.vatCalc.mode'), addVat: t('tool.vatCalc.addVat'),
+  removeVat: t('tool.vatCalc.removeVat'), rate: '5%', net: t('tool.vatCalc.net'), vat: t('tool.vatCalc.vat'), gross: t('tool.vatCalc.gross'),
+};
+
+const faqs = (data.faqs || []).map((f: any) => ({ q: f.q, a: f.a }));
+const related = (data.related || []).map((href: string) => {
+  const seg = href.split('/').filter(Boolean).pop() || '';
+  return { href, title: seg.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase()) };
+});
+const crumbs = [{ name: 'Home', url: '/' }, { name: t('nav.tools'), url: '/tools' }, { name: data.title, url: path }];
+const jsonld = [
+  graph(
+    organization(),
+    webApplication({ name: data.metaTitle, description: data.metaDescription, url: SITE + path }),
+    ...(data.howToSteps ? [howTo({ name: data.heroTitle, steps: data.howToSteps })] : []),
+    breadcrumbList(crumbs)
+  ),
+];
+if (faqs.length) jsonld.push(graph(faqPage(faqs)));
+---
+<BaseLayout {locale} {path} title={data.metaTitle} description={data.metaDescription} keywords={data.keywords} {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('nav.tools'), href: '/tools' }, { name: data.title }]} />
+
+  {/* Hero + builder */}
+  <section class="relative overflow-hidden bg-cream-50 pt-14 pb-16">
+    <div class="absolute inset-0 bg-paper-texture pointer-events-none"></div>
+    <div class="relative max-w-6xl mx-auto px-6 lg:px-10">
+      <div class="max-w-2xl mb-10 text-center mx-auto">
+        {data.heroEyebrow && <p class="eyebrow mb-3">{data.heroEyebrow}</p>}
+        <h1 class="font-display text-4xl lg:text-5xl font-bold text-ink-500 leading-tight mb-4">{data.heroTitle}</h1>
+        <p class="text-ink-500/65 text-lg leading-relaxed">{data.heroSubtitle}</p>
+      </div>
+      {isCalc ? (
+        <VatCalculator client:load strings={calcStrings} />
+      ) : (
+        <DocumentBuilder client:load strings={builderStrings} docType={data.toolType} />
+      )}
+    </div>
+  </section>
+
+  {data.features && data.features.length > 0 && <FeatureGrid eyebrow={data.heroEyebrow} title={data.sectionTitle} features={data.features} bg="white" />}
+
+  {(data.sections || []).length > 0 && (
+    <section class="section-pad bg-white">
+      <div class="container-narrow prose-pp">
+        {(data.sections || []).map((s: any) => (
+          <div class="mb-10 reveal">
+            <h2 class="font-display text-2xl font-bold text-ink-500 mb-3">{s.title}</h2>
+            {s.body && <p class="text-ink-500/70 leading-relaxed">{s.body}</p>}
+            {s.items && <ul class="mt-3 space-y-2">{s.items.map((it: string) => <li class="text-ink-500/70">• {it}</li>)}</ul>}
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {faqs.length > 0 && <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} />}
+  <RelatedLinks {locale} title={t('related.title')} links={related} />
+  <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} />
+</BaseLayout>

@@ -1,0 +1,56 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { getCollection } from 'astro:content';
+import { useTranslations, localizePath, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { graph, organization, breadcrumbList } from '@/lib/schema';
+import Icon from '@/components/blocks/Icon.astro';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+
+const all = await getCollection('tools');
+const tools = all.filter((e) => e.data.locale === locale);
+const fallback = all.filter((e) => e.data.locale === 'en');
+const list = (tools.length ? tools : fallback).sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+
+const ICONS: Record<string, string> = {
+  invoice: 'invoice', quotation: 'quote', proforma: 'doc', receipt: 'receipt',
+  'purchase-order': 'cart', 'delivery-note': 'truck', 'vat-calculator': 'calc',
+};
+const crumbs = [{ name: 'Home', url: '/' }, { name: t('nav.tools'), url: '/tools' }];
+const jsonld = [graph(organization(), breadcrumbList(crumbs))];
+---
+<BaseLayout
+  {locale}
+  path="/tools"
+  title={t('seo.toolsTitle')}
+  description={t('seo.toolsDesc')}
+  keywords="free invoice generator, free quotation maker, VAT calculator, free business tools"
+  {jsonld}
+>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('nav.tools') }]} />
+  <section class="section-pad bg-cream-50">
+    <div class="container-wide">
+      <div class="max-w-2xl mb-12 reveal">
+        <p class="eyebrow mb-3">{t('nav.tools')}</p>
+        <h1 class="font-display text-4xl lg:text-5xl font-bold text-ink-500 mb-4">{t('toolsIndex.title')}</h1>
+        <p class="text-ink-500/60 text-lg">{t('toolsIndex.sub')}</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {list.map((e) => (
+          <a href={lp(`/tools/${e.data.slug}`)} class="reveal group p-6 rounded-2xl bg-white border border-cream-200 hover:border-copper-300 hover:shadow-lg hover:shadow-ink-500/5 transition-all">
+            <div class="inline-flex p-2.5 rounded-xl bg-cream-100 text-copper-500 mb-4 group-hover:bg-copper-50 transition-colors"><Icon name={ICONS[e.data.toolType] || 'doc'} class="w-6 h-6" /></div>
+            <h2 class="font-semibold text-ink-500 group-hover:text-copper-500 transition-colors mb-1">{e.data.title}</h2>
+            <p class="text-sm text-ink-400 leading-relaxed">{e.data.heroSubtitle}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+  <CtaBand {locale} />
+</BaseLayout>

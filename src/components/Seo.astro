@@ -1,0 +1,69 @@
+---
+import { getAlternates, LOCALE_META, type Locale } from '@/i18n';
+
+export interface Props {
+  title: string;
+  description: string;
+  /** Default-locale path (no locale prefix), e.g. "/pricing". Used for canonical + hreflang. */
+  path: string;
+  locale: Locale;
+  image?: string;
+  /** One or more JSON-LD graph documents. */
+  jsonld?: Record<string, unknown>[];
+  noindex?: boolean;
+  keywords?: string;
+}
+
+const SITE = 'https://paperandpen.om';
+const {
+  title,
+  description,
+  path,
+  locale,
+  image = '/og-image.png',
+  jsonld = [],
+  noindex = false,
+  keywords,
+} = Astro.props;
+
+const localizedPath = locale === 'en' ? path : `/${locale}${path === '/' ? '' : path}`;
+const canonical = SITE + (localizedPath === '' ? '/' : localizedPath);
+const ogImage = image.startsWith('http') ? image : SITE + image;
+const alternates = getAlternates(path);
+const meta = LOCALE_META[locale];
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+{keywords && <meta name="keywords" content={keywords} />}
+<meta name="author" content="Paper and Pen Company LLC" />
+<meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+<link rel="canonical" href={canonical} />
+
+{/* hreflang alternates */}
+{alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
+
+{/* Open Graph */}
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Paper & Pen ERP" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content={meta.ogLocale} />
+{Object.values(LOCALE_META)
+  .filter((m) => m.ogLocale !== meta.ogLocale)
+  .map((m) => <meta property="og:locale:alternate" content={m.ogLocale} />)}
+
+{/* Twitter */}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+{/* JSON-LD */}
+{jsonld.map((doc) => (
+  <script type="application/ld+json" set:html={JSON.stringify(doc)} />
+))}

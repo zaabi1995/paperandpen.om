@@ -1,0 +1,17 @@
+---
+import { localizePath, type Locale } from '@/i18n';
+interface Crumb { name: string; href?: string }
+interface Props { locale: Locale; crumbs: Crumb[] }
+const { locale, crumbs } = Astro.props;
+const lp = (p: string) => localizePath(p, locale);
+---
+<nav aria-label="Breadcrumb" class="bg-cream-50 border-b border-cream-200">
+  <ol class="max-w-6xl mx-auto px-6 lg:px-10 py-3 flex items-center gap-2 text-xs text-ink-400 flex-wrap">
+    {crumbs.map((c, i) => (
+      <li class="flex items-center gap-2">
+        {c.href ? <a href={lp(c.href)} class="hover:text-ink-500 transition-colors">{c.name}</a> : <span class="text-ink-500 font-medium">{c.name}</span>}
+        {i < crumbs.length - 1 && <span class="text-ink-200">/</span>}
+      </li>
+    ))}
+  </ol>
+</nav>

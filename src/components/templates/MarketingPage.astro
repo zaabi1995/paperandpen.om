@@ -1,0 +1,87 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import PageHero from '@/components/blocks/PageHero.astro';
+import FeatureGrid from '@/components/blocks/FeatureGrid.astro';
+import FeatureSplit from '@/components/blocks/FeatureSplit.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import SocialProof from '@/components/blocks/SocialProof.astro';
+import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, type Locale } from '@/i18n';
+import { graph, organization, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
+
+interface Props {
+  locale: Locale;
+  data: any;
+  basePath: string; // e.g. "/features"
+  section: { label: string; href: string }; // breadcrumb section
+}
+const { locale, data, basePath, section } = Astro.props;
+const t = useTranslations(locale);
+
+const path = `${basePath}/${data.slug}`;
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: section.label, url: section.href },
+  { name: data.title },
+];
+
+const faqs = (data.faqs || []).map((f: any) => ({ q: f.q, a: f.a }));
+const related = (data.related || []).map((href: string) => {
+  const seg = href.split('/').filter(Boolean).pop() || '';
+  const title = seg.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase());
+  return { href, title };
+});
+
+const jsonld = [
+  graph(
+    organization(),
+    softwareApplication(),
+    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: c.url ?? path })))
+  ),
+];
+if (faqs.length) jsonld.push(graph(faqPage(faqs)));
+---
+<BaseLayout
+  {locale}
+  {path}
+  title={data.metaTitle}
+  description={data.metaDescription}
+  keywords={data.keywords}
+  {jsonld}
+>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: section.label, href: section.href }, { name: data.title }]} />
+
+  <PageHero
+    {locale}
+    eyebrow={data.heroEyebrow}
+    title={data.heroTitle}
+    subtitle={data.heroSubtitle}
+    bullets={data.heroBullets}
+    secondaryCta={{ href: '/pricing', label: t('nav.pricing') }}
+  />
+
+  <SocialProof {locale} compact />
+
+  {data.features && data.features.length > 0 && (
+    <FeatureGrid features={data.features} bg="white" />
+  )}
+
+  {(data.sections || []).map((s: any, i: number) => (
+    <FeatureSplit
+      eyebrow={s.eyebrow}
+      title={s.title}
+      body={s.body}
+      items={s.items}
+      flip={i % 2 === 1}
+      bg={i % 2 === 1 ? 'cream' : 'white'}
+    />
+  ))}
+
+  {faqs.length > 0 && <FaqAccordion title={data.faqTitle || t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} />}
+
+  <RelatedLinks {locale} title={t('related.title')} links={related} />
+
+  <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} />
+</BaseLayout>

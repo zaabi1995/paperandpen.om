@@ -1,0 +1,35 @@
+{
+  "locale": "en",
+  "slug": "payments",
+  "order": 10,
+  "title": "Payments",
+  "metaTitle": "Online Payments for Invoices · Get Paid Faster · Paper & Pen",
+  "metaDescription": "Add a pay-online link to every invoice and get paid by card. Paymob and global gateways, any currency, auto-reconciled to your books. Works worldwide.",
+  "keywords": "online payments, accept card payments, pay invoice online, paymob, payment gateway, get paid faster, payment link",
+  "heroEyebrow": "Built in",
+  "heroTitle": "Let clients pay you <em class=\"text-copper-400 not-italic\">in a tap</em>",
+  "heroSubtitle": "Put a secure pay-online link on every invoice so clients settle by card instantly. Payments reconcile to your books automatically, in any currency, anywhere.",
+  "heroBullets": ["Pay-online link on every invoice", "Auto-reconciled to your ledger", "Paymob and global gateways"],
+  "features": [
+    { "icon": "card", "title": "Pay by card", "desc": "Clients pay any invoice online with a card, no login or app required." },
+    { "icon": "bolt", "title": "Instant pay link", "desc": "Every invoice carries a secure link, shareable by email or WhatsApp." },
+    { "icon": "refresh", "title": "Auto reconciliation", "desc": "Successful payments mark the invoice paid and post to your books." },
+    { "icon": "globe", "title": "Any currency", "desc": "Collect in OMR, AED, SAR, USD, EUR and more through the right gateway." },
+    { "icon": "shield", "title": "Secure & PCI", "desc": "Card data is handled by certified gateways, never stored by you." },
+    { "icon": "receipt", "title": "Receipts sent", "desc": "Clients get an automatic receipt the moment a payment succeeds." }
+  ],
+  "sections": [
+    { "eyebrow": "Get paid faster", "title": "Remove the friction between invoice and cash", "body": "The faster a client can pay, the faster you get cash. A pay-online link on every invoice means no bank details to copy, no waiting for a transfer. The client taps, pays by card, and the invoice updates itself, with a receipt on the way.", "items": ["One-tap card payment", "Link shareable on WhatsApp and email", "Automatic receipts"] },
+    { "eyebrow": "Local and global", "title": "The right gateway for your market", "body": "Paper & Pen connects Paymob for the GCC and other global gateways so you can accept the cards your clients actually use, in their currency. Every settlement reconciles back to the right invoice and posts to your accounts, so collection and bookkeeping stay in lockstep.", "items": ["Paymob for the GCC, plus global options", "Multi-currency collection", "Reconciles to the exact invoice"] }
+  ],
+  "faqs": [
+    { "q": "Is online payment free to enable?", "a": "Yes, adding pay-online links is built in. The payment gateway charges its own processing fee per transaction, as gateways always do." },
+    { "q": "Which gateways are supported?", "a": "Paymob for the GCC plus other global gateways, so you can accept the cards your clients use in their currency." },
+    { "q": "Does a payment update the invoice automatically?", "a": "Yes. A successful payment marks the invoice paid, sends a receipt and posts the entry to your books." },
+    { "q": "Can clients pay in different currencies?", "a": "Yes. Collect in OMR, AED, SAR, USD, EUR and more, routed through the appropriate gateway." },
+    { "q": "Is card payment secure?", "a": "Yes. Card details are handled by PCI-certified gateways, never stored in Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Turn invoices into instant cash",
+  "ctaSub": "Start free and add a pay-online link to every invoice so clients can pay you in a tap."
+}

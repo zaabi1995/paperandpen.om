@@ -1,0 +1,38 @@
+{
+  "locale": "en",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Free VAT & Tax Calculator",
+  "metaTitle": "Free VAT Calculator · Oman VAT & Sales Tax Calculator Online · Paper & Pen",
+  "metaDescription": "Free VAT and sales tax calculator. Add or remove tax at any rate, default 5% for the GCC, in any currency. Get the net, tax and gross instantly. No signup.",
+  "keywords": "vat calculator, oman vat calculator, sales tax calculator, add vat, remove vat, 5 percent vat calculator, gcc vat calculator, reverse vat calculator",
+  "heroEyebrow": "Free · No signup",
+  "heroTitle": "Free <em class=\"text-copper-400 not-italic\">VAT & Tax</em> Calculator",
+  "heroSubtitle": "Add or remove VAT or sales tax at any rate, in any currency. Defaults to 5% for the GCC, but set 7.5%, 15%, 20% or anything else. See the net, tax and gross instantly.",
+  "heroBullets": ["Any rate, any currency", "Add or reverse tax", "Free forever, no signup"],
+  "howToSteps": [
+    { "name": "Enter the amount", "text": "Type the amount you want to work with and choose your currency." },
+    { "name": "Set the tax rate", "text": "Use the default 5% for the GCC, or set any rate such as 7.5%, 15% or 20%." },
+    { "name": "Choose add or remove", "text": "Add tax to a net amount, or remove tax from a gross amount to find the net (reverse VAT)." },
+    { "name": "Read the result", "text": "See the net, tax and gross broken out instantly, ready to copy into an invoice." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Add or remove tax", "desc": "Calculate tax forwards on a net amount, or reverse it out of a gross amount in one click." },
+    { "icon": "globe", "title": "Any rate, any currency", "desc": "Default 5% for the GCC, or set any rate worldwide, in OMR, AED, SAR, USD, EUR and more." },
+    { "icon": "bolt", "title": "Instant & free", "desc": "No signup, no limits. Get net, tax and gross the moment you type." }
+  ],
+  "sections": [
+    { "title": "Why use the Paper & Pen VAT calculator?", "body": "Whether you are pricing a quote, checking an invoice or filing a return, you need the net, tax and gross to agree to the last decimal. This calculator handles any rate in any currency, works both ways (add tax or reverse it out of a total), and is genuinely free. Oman, the UAE, Saudi Arabia and Bahrain use 5%, but the rate is fully configurable for anywhere in the world." },
+    { "eyebrow": "Beyond the calculator", "title": "Let your software do the VAT for you", "body": "Doing tax by hand on every line is slow and error prone. Inside the full Paper & Pen ERP, VAT is applied automatically on the post-discount net of every invoice, captured in your books, and rolled up into return-ready reports, so you stop reaching for a calculator at all.", "items": ["Automatic tax on every invoice and quote", "Per-item and per-document tax rates", "VAT summary reports ready for filing"] }
+  ],
+  "faqs": [
+    { "q": "What is the VAT rate in Oman and the GCC?", "a": "Oman, the UAE, Saudi Arabia and Bahrain apply VAT at 5% as standard (Saudi Arabia is 15%). This calculator defaults to 5% but you can set any rate." },
+    { "q": "How do I remove VAT from a total?", "a": "Choose the remove (reverse) option and enter the gross amount. The calculator works out the net and the tax portion that was included in the total." },
+    { "q": "Can I use it for sales tax outside the GCC?", "a": "Yes. Set any rate, for example 7.5%, 15% or 20%, and any currency. It works for VAT, GST or sales tax anywhere in the world." },
+    { "q": "Does it calculate tax on a discounted amount?", "a": "Enter the net amount after discount and add tax to it. For automatic post-discount VAT on full invoices, create a free Paper & Pen workspace where it is handled for you." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-quotation-generator", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Stop calculating VAT by hand",
+  "ctaSub": "Apply tax automatically on every invoice and get return-ready VAT reports with a free Paper & Pen workspace."
+}

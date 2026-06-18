@@ -1,0 +1,34 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import Icon from '@/components/blocks/Icon.astro';
+import { useTranslations, tRaw, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { graph, organization, breadcrumbList } from '@/lib/schema';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const items = (tRaw(locale, 'pages.security.items') as string[]) ?? [];
+const crumbs = [{ name: 'Home', url: '/' }, { name: t('footer.security'), url: '/security' }];
+const jsonld = [graph(organization(), breadcrumbList(crumbs))];
+---
+<BaseLayout {locale} path="/security" title={t('seo.securityTitle')} description={t('seo.securityDesc')} {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.security') }]} />
+  <section class="section-pad bg-cream-50">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="font-display text-4xl lg:text-5xl font-bold text-ink-500 mb-4">{t('pages.security.title')}</h1>
+      <p class="text-ink-500/65 text-lg leading-relaxed mb-10">{t('pages.security.lead')}</p>
+      <ul class="space-y-3">
+        {items.map((it) => (
+          <li class="flex items-start gap-3 bg-white border border-cream-200 rounded-xl px-5 py-4">
+            <span class="mt-0.5 shrink-0 text-emerald-600"><Icon name="shield" class="w-5 h-5" /></span>
+            <span class="text-ink-500/80">{it}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+  <CtaBand {locale} />
+</BaseLayout>

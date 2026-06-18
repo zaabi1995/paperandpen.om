@@ -1,0 +1,35 @@
+{
+  "locale": "en",
+  "slug": "reports",
+  "order": 8,
+  "title": "Reports",
+  "metaTitle": "Business Reports & Analytics · Real-Time Dashboards · Paper & Pen",
+  "metaDescription": "Live dashboards and reports on sales, cash, profit, tax and stock. Drill to source, export to Excel or PDF, in any currency. Works worldwide.",
+  "keywords": "business reports, analytics dashboard, sales report, profit and loss report, tax report, financial reports, export to excel",
+  "heroEyebrow": "Add-on module",
+  "heroTitle": "Decisions backed by <em class=\"text-copper-400 not-italic\">live numbers</em>",
+  "heroSubtitle": "Every sale, payment and movement rolls up into clear dashboards and reports, in real time. See what's selling, who owes you and where your profit is, then export it anywhere.",
+  "heroBullets": ["Real-time dashboards", "Drill to the source document", "Export to Excel or PDF"],
+  "features": [
+    { "icon": "reports", "title": "Sales analytics", "desc": "See top products, best clients and trends over any period." },
+    { "icon": "chart", "title": "Financial reports", "desc": "Profit and loss, balance sheet, cash flow and aged receivables." },
+    { "icon": "calc", "title": "Tax reports", "desc": "Input and output tax summaries ready for your VAT return." },
+    { "icon": "inventory", "title": "Stock reports", "desc": "Valuation, movement and low-stock reports across warehouses." },
+    { "icon": "doc", "title": "Drill to source", "desc": "Click any figure to trace it back to the exact document behind it." },
+    { "icon": "refresh", "title": "Always current", "desc": "Reports update live as transactions happen, no overnight batch." }
+  ],
+  "sections": [
+    { "eyebrow": "Clarity at a glance", "title": "One dashboard for the whole business", "body": "Open Paper & Pen and see the numbers that matter: cash in the bank, who owes you, what's selling and your profit this month. Because everything posts in real time, the dashboard is the truth, not last week's snapshot.", "items": ["Cash, debtors and profit up front", "Filter by period, client or product", "Live, never stale"] },
+    { "eyebrow": "Share and dig deeper", "title": "Reports your accountant and board will trust", "body": "Drill from any report straight to the source document, then export to Excel or PDF for your accountant, bank or board. Report in any currency, and switch the interface to Arabic, English, Hindi, Bengali or Urdu so everyone reads the same numbers in their own language.", "items": ["Drill-down to every transaction", "Export to Excel and PDF", "Multi-currency and multi-language"] }
+  ],
+  "faqs": [
+    { "q": "Are reports free?", "a": "Reports is an optional paid add-on. The free-forever core includes invoicing dashboards, and the full reporting suite is available when you need deeper analytics." },
+    { "q": "Are the reports real time?", "a": "Yes. Every transaction posts live, so dashboards and reports always reflect the current state of your business." },
+    { "q": "Can I export reports?", "a": "Yes. Export to Excel or PDF to share with your accountant, bank or board." },
+    { "q": "Can I trace a number to its source?", "a": "Yes. Click any figure to drill down to the exact invoice, payment or journal entry behind it." },
+    { "q": "Do reports support multiple currencies?", "a": "Yes. Report in any currency and view the interface in five languages." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "See your business clearly",
+  "ctaSub": "Start free with invoicing and add Reports for live dashboards and export-ready analytics."
+}

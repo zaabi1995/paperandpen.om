@@ -1,0 +1,35 @@
+---
+import Icon from './Icon.astro';
+
+interface Feature { icon?: string; title: string; desc: string }
+interface Props {
+  eyebrow?: string;
+  title?: string;
+  subtitle?: string;
+  features: Feature[];
+  bg?: 'white' | 'cream';
+}
+const { eyebrow, title, subtitle, features, bg = 'white' } = Astro.props;
+---
+<section class={`section-pad ${bg === 'cream' ? 'bg-cream-50 border-y border-cream-200' : 'bg-white'}`}>
+  <div class="container-wide">
+    {(eyebrow || title) && (
+      <div class="max-w-2xl mb-14 reveal">
+        {eyebrow && <p class="eyebrow mb-3">{eyebrow}</p>}
+        {title && <h2 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight mb-4">{title}</h2>}
+        {subtitle && <p class="text-ink-500/60 text-lg leading-relaxed">{subtitle}</p>}
+      </div>
+    )}
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {features.map((f) => (
+        <div class="reveal group p-6 rounded-2xl border border-cream-200 bg-white hover:border-ink-200 hover:shadow-lg hover:shadow-ink-500/5 transition-all">
+          <div class="inline-flex p-2.5 rounded-xl bg-cream-100 text-copper-500 mb-5 group-hover:bg-copper-50 transition-colors">
+            <Icon name={f.icon} class="w-6 h-6" />
+          </div>
+          <h3 class="font-semibold text-base text-ink-500 mb-1.5">{f.title}</h3>
+          <p class="text-sm leading-relaxed text-ink-400">{f.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

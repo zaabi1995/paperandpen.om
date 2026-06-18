@@ -1,0 +1,35 @@
+{
+  "locale": "en",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restaurants & Cafes",
+  "metaTitle": "Billing & Recipe Inventory Software for Restaurants · Paper & Pen",
+  "metaDescription": "Free billing plus ingredient inventory, recipe costing and supplier purchase orders for restaurants and cafes. Control food cost, bill fast, keep clean books. Works worldwide.",
+  "keywords": "restaurant software, cafe billing, recipe costing, food cost control, restaurant inventory, supplier purchase orders, restaurant erp",
+  "heroEyebrow": "For restaurants & cafes",
+  "heroTitle": "Bill fast, <em class=\"text-copper-400 not-italic\">control food cost</em>",
+  "heroSubtitle": "Print receipts in seconds, track ingredients down to the gram, and know the true cost of every dish. Paper & Pen keeps the kitchen, the till and the books working together.",
+  "heroBullets": ["Free, fast receipts", "Ingredient and recipe costing", "Supplier purchase orders"],
+  "features": [
+    { "icon": "receipt", "title": "Quick receipts", "desc": "Take an order, apply tax and service, and print or share a receipt in seconds." },
+    { "icon": "manufacturing", "title": "Recipe costing", "desc": "Define recipes from ingredients so you know the real cost of every dish." },
+    { "icon": "inventory", "title": "Ingredient stock", "desc": "Track raw materials by unit, batch and expiry, with low-stock alerts." },
+    { "icon": "truck", "title": "Supplier orders", "desc": "Raise purchase orders to suppliers and update stock and cost on receipt." },
+    { "icon": "calc", "title": "Food cost percent", "desc": "Compare dish cost to menu price so your margins stay healthy." },
+    { "icon": "chart", "title": "Sales reports", "desc": "See top dishes, daily takings and trends across days and branches." }
+  ],
+  "sections": [
+    { "eyebrow": "A faster front of house", "title": "Receipts that keep the line moving", "body": "Lunch rush leaves no time for slow billing. Add items, apply VAT or service charge, take payment and hand over a clean receipt in seconds, then share it on WhatsApp if a guest asks. Every sale posts to your books automatically, so closing the day is a glance, not an evening of typing.", "items": ["Add items and take payment fast", "VAT and service charge handled for you", "Daily takings reconcile automatically"] },
+    { "eyebrow": "The kitchen tells the truth", "title": "Recipe costing that protects your margin", "body": "A dish is only profitable if you know what it costs. Build recipes from ingredients, let Paper & Pen cost each plate from live purchase prices, and watch your food-cost percentage as supplier prices move. Track ingredients by batch and expiry, raise purchase orders, and keep waste in check. Built in Oman with native OMR, AED and SAR and 5% VAT, and ready for USD, EUR or any market.", "items": ["Recipes costed from live ingredient prices", "Batch and expiry tracking on raw materials", "Purchase orders that update cost on receipt"] }
+  ],
+  "faqs": [
+    { "q": "Can I cost my menu from ingredient prices?", "a": "Yes. Define each dish as a recipe of ingredients and Paper & Pen calculates its cost from current purchase prices, so you can set menu prices that protect your margin." },
+    { "q": "Does it track ingredients and expiry?", "a": "Yes. Raw materials are tracked by unit of measure, batch and expiry date, with low-stock alerts so you reorder before you run dry." },
+    { "q": "Can I apply VAT and a service charge?", "a": "Yes. Apply 5% GCC VAT, a service charge or any tax rate, all calculated automatically on the bill." },
+    { "q": "Is billing free for a cafe?", "a": "Sales and Invoicing, including receipts, is free forever. Add Inventory and Manufacturing when you want ingredient tracking and recipe costing." },
+    { "q": "Can I manage more than one outlet?", "a": "Yes. Track sales and stock per branch and see live quantities and daily takings across all your outlets from one workspace." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Serve fast, cost smart",
+  "ctaSub": "Start free with receipts and billing, then add Inventory and recipe costing to take control of food cost."
+}

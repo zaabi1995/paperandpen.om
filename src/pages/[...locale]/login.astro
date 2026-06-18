@@ -1,0 +1,29 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import LoginForm from '@/components/islands/LoginForm.tsx';
+import { useTranslations, localizePath, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+---
+<BaseLayout
+  {locale}
+  bare
+  path="/login"
+  noindex
+  title={t('seo.loginTitle')}
+  description={t('seo.loginDesc')}
+>
+  <div class="min-h-screen bg-cream-50 flex flex-col">
+    <header class="bg-white border-b border-cream-200 px-4 py-3 flex items-center justify-between">
+      <a href={lp('/')} class="flex items-center gap-2"><img src="/logo.svg" alt="Paper & Pen ERP" class="h-7 w-auto" /></a>
+      <a href={lp('/signup')} class="text-sm font-medium text-copper-500 hover:text-copper-600">{t('login.signUp')}</a>
+    </header>
+    <div class="flex-1 flex items-center justify-center py-12 px-4">
+      <LoginForm client:load {locale} />
+    </div>
+  </div>
+</BaseLayout>

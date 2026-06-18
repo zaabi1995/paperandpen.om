@@ -1,0 +1,52 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { getCollection } from 'astro:content';
+import { useTranslations, localizePath, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { graph, organization, breadcrumbList } from '@/lib/schema';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+
+const all = await getCollection('blog');
+const posts = all
+  .filter((p) => p.data.locale === locale)
+  .sort((a, b) => +new Date(b.data.pubDate) - +new Date(a.data.pubDate));
+const list = posts.length ? posts : all.filter((p) => p.data.locale === 'en').sort((a, b) => +new Date(b.data.pubDate) - +new Date(a.data.pubDate));
+const jsonld = [graph(organization(), breadcrumbList([{ name: 'Home', url: '/' }, { name: t('footer.blog'), url: '/blog' }]))];
+---
+<BaseLayout {locale} path="/blog" title={t('seo.blogTitle')} description={t('blog.sub')} {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.blog') }]} />
+  <section class="section-pad bg-cream-50">
+    <div class="container-wide">
+      <div class="max-w-2xl mb-12">
+        <p class="eyebrow mb-3">{t('footer.blog')}</p>
+        <h1 class="font-display text-4xl lg:text-5xl font-bold text-ink-500 mb-4">{t('blog.title')}</h1>
+        <p class="text-ink-500/60 text-lg">{t('blog.sub')}</p>
+      </div>
+      {list.length === 0 ? (
+        <p class="text-ink-400">{t('blog.empty')}</p>
+      ) : (
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {list.map((p) => (
+            <a href={lp(`/blog/${p.data.slug}`)} class="group block rounded-2xl bg-white border border-cream-200 overflow-hidden hover:shadow-lg hover:shadow-ink-500/5 transition-all">
+              <div class="aspect-[16/9] bg-gradient-to-br from-ink-500 to-ink-700 relative">
+                <div class="absolute inset-0 bg-paper-texture opacity-30"></div>
+              </div>
+              <div class="p-5">
+                <div class="flex flex-wrap gap-1.5 mb-2">{p.data.tags.slice(0, 2).map((tag) => <span class="text-[10px] uppercase tracking-wide font-semibold text-copper-500 bg-copper-50 px-2 py-0.5 rounded-full">{tag}</span>)}</div>
+                <h2 class="font-semibold text-ink-500 group-hover:text-copper-500 transition-colors mb-1.5 leading-snug">{p.data.title}</h2>
+                <p class="text-sm text-ink-400 leading-relaxed line-clamp-2">{p.data.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+  <CtaBand {locale} />
+</BaseLayout>

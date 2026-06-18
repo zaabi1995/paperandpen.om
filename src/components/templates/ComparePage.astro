@@ -1,0 +1,36 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import PageHero from '@/components/blocks/PageHero.astro';
+import ComparisonTable from '@/components/blocks/ComparisonTable.astro';
+import FeatureSplit from '@/components/blocks/FeatureSplit.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, type Locale } from '@/i18n';
+import { graph, organization, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
+
+interface Props { locale: Locale; data: any }
+const { locale, data } = Astro.props;
+const t = useTranslations(locale);
+const path = `/compare/${data.slug}`;
+
+const rows = (data.matrix || []).map((r: any) => ({ feature: r.feature, values: r.values }));
+const faqs = (data.faqs || []).map((f: any) => ({ q: f.q, a: f.a }));
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: t('nav.compare'), url: '/compare/paperandpen-vs-zoho' },
+  { name: data.title, url: path },
+];
+const jsonld = [graph(organization(), softwareApplication(), breadcrumbList(crumbs))];
+if (faqs.length) jsonld.push(graph(faqPage(faqs)));
+---
+<BaseLayout {locale} {path} title={data.metaTitle} description={data.metaDescription} keywords={data.keywords} {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('nav.compare'), href: '/compare/paperandpen-vs-zoho' }, { name: data.title }]} />
+  <PageHero {locale} eyebrow={data.heroEyebrow} title={data.heroTitle} subtitle={data.heroSubtitle} bullets={data.heroBullets} secondaryCta={{ href: '/pricing', label: t('nav.pricing') }} />
+  <ComparisonTable cols={data.matrixCols} rows={rows} bg="cream" />
+  {(data.sections || []).map((s: any, i: number) => (
+    <FeatureSplit eyebrow={s.eyebrow} title={s.title} body={s.body} items={s.items} flip={i % 2 === 1} bg={i % 2 === 1 ? 'cream' : 'white'} />
+  ))}
+  {faqs.length > 0 && <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} />}
+  <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} />
+</BaseLayout>

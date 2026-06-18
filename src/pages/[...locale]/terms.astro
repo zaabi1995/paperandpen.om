@@ -1,0 +1,58 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import { useTranslations, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { graph, organization, breadcrumbList } from '@/lib/schema';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const jsonld = [graph(organization(), breadcrumbList([{ name: 'Home', url: '/' }, { name: t('footer.terms'), url: '/terms' }]))];
+---
+<BaseLayout {locale} path="/terms" title="Terms of Service · Paper & Pen" description="The terms governing your use of Paper & Pen ERP." {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.terms') }]} />
+  <article class="section-pad bg-white">
+    <div class="max-w-3xl mx-auto legal">
+      <h1>Terms of Service</h1>
+      <p class="meta">Last updated: 14 April 2026 · Operated by Paper and Pen Company LLC (part of BHD Group). Governed by the laws of the Sultanate of Oman.</p>
+
+      <h2>1. Acceptance of Terms</h2>
+      <p>By creating a workspace or using Paper & Pen (the “Service”), you agree to these Terms. If you are using the Service on behalf of a company, you confirm you are authorised to bind that company.</p>
+
+      <h2>2. The Service</h2>
+      <p>Paper & Pen is a multi-tenant cloud ERP and invoicing platform available to businesses worldwide. We provide the Service on a software-as-a-service basis and may update features over time.</p>
+
+      <h2>3. Free Plan and Paid Modules</h2>
+      <p>Sales & Invoicing is free for up to 3 users with no time limit. Additional modules (Inventory, HR & Payroll, Accounting, Manufacturing, Reports) are billed monthly or annually in the currency shown at checkout. You can add or remove modules at any time.</p>
+
+      <h2>4. Cancellation and Refunds</h2>
+      <p>You may cancel paid modules at any time, effective at the end of the current billing period. The free plan continues regardless. Where required by applicable law, refunds are handled in line with local consumer regulations.</p>
+
+      <h2>5. Your Data</h2>
+      <p>Everything you enter into your workspace belongs to you. We process it only to operate the Service. See our Privacy Policy for details, including export and deletion rights.</p>
+
+      <h2>6. Acceptable Use</h2>
+      <p>You agree not to misuse the Service, including attempting unauthorised access, disrupting the platform, or using it for unlawful activity.</p>
+
+      <h2>7. Service Availability</h2>
+      <p>We aim for high availability but do not guarantee uninterrupted access. We may perform maintenance and will give reasonable notice for planned downtime where practical.</p>
+
+      <h2>8. Limitation of Liability</h2>
+      <p>To the maximum extent permitted by law, Paper and Pen Company LLC is not liable for indirect or consequential losses. Our total liability is limited to the fees you paid in the 12 months preceding the claim.</p>
+
+      <h2>9. Changes to These Terms</h2>
+      <p>We may update these Terms. Material changes will be notified by email or in-app. Continued use after changes constitutes acceptance.</p>
+
+      <h2>10. Governing Law</h2>
+      <p>These Terms are governed by the laws of the Sultanate of Oman. Questions? Reach us on WhatsApp +968 9889 9100 or info@paperandpen.om.</p>
+    </div>
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .legal h1 { @apply font-display text-4xl font-bold text-ink-500 mb-2; }
+  .legal .meta { @apply text-sm text-ink-300 mb-8; }
+  .legal h2 { @apply font-display text-xl font-bold text-ink-500 mt-8 mb-2; }
+  .legal p { @apply text-ink-500/75 leading-relaxed mb-3; }
+</style>

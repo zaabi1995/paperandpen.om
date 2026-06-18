@@ -1,0 +1,33 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import SocialProof from '@/components/blocks/SocialProof.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { graph, organization, breadcrumbList } from '@/lib/schema';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const crumbs = [{ name: 'Home', url: '/' }, { name: t('footer.about'), url: '/about' }];
+const jsonld = [graph(organization(), breadcrumbList(crumbs))];
+---
+<BaseLayout {locale} path="/about" title={t('seo.aboutTitle')} description={t('seo.aboutDesc')} {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.about') }]} />
+  <section class="section-pad bg-cream-50 relative overflow-hidden">
+    <div class="absolute inset-0 bg-paper-texture pointer-events-none"></div>
+    <div class="relative max-w-3xl mx-auto text-center">
+      <h1 class="font-display text-4xl lg:text-5xl font-bold text-ink-500 leading-tight mb-6">{t('pages.about.title')}</h1>
+      <p class="text-ink-500/65 text-lg lg:text-xl leading-relaxed">{t('pages.about.lead')}</p>
+    </div>
+  </section>
+  <section class="section-pad bg-white">
+    <div class="max-w-3xl mx-auto space-y-6 text-ink-500/75 text-lg leading-relaxed">
+      <p>{t('pages.about.body1')}</p>
+      <p>{t('pages.about.body2')}</p>
+    </div>
+  </section>
+  <SocialProof {locale} />
+  <CtaBand {locale} />
+</BaseLayout>

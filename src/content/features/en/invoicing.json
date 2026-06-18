@@ -1,0 +1,35 @@
+{
+  "locale": "en",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Invoicing",
+  "metaTitle": "Free Online Invoicing Software · Send & Get Paid · Paper & Pen",
+  "metaDescription": "Create, send and track professional invoices in any currency, free forever. Online payments, automatic reminders, VAT-ready, 5 languages. Works worldwide.",
+  "keywords": "invoicing software, free invoicing, online invoices, send invoice, get paid online, vat invoice, recurring invoices, payment reminders",
+  "heroEyebrow": "Free forever",
+  "heroTitle": "Invoicing that gets you <em class=\"text-copper-400 not-italic\">paid faster</em>",
+  "heroSubtitle": "Create a polished invoice in under a minute, send it by email or WhatsApp, and let your client pay online. Built for any currency and any tax rate, used worldwide.",
+  "heroBullets": ["Free forever for Sales & Invoicing", "Any currency, any tax rate", "Pay-online link on every invoice"],
+  "features": [
+    { "icon": "bolt", "title": "Invoice in seconds", "desc": "Pick a client, add items, hit send. Totals and tax calculate as you type." },
+    { "icon": "globe", "title": "Any currency", "desc": "Bill in OMR, AED, SAR, USD, EUR, GBP or any currency with the correct decimals." },
+    { "icon": "card", "title": "Get paid online", "desc": "Every invoice carries a secure pay link so clients settle by card in a tap." },
+    { "icon": "bell", "title": "Automatic reminders", "desc": "Gentle, scheduled reminders chase overdue invoices so you don't have to." },
+    { "icon": "refresh", "title": "Recurring invoices", "desc": "Set retainers and subscriptions to bill on autopilot, weekly or monthly." },
+    { "icon": "calc", "title": "VAT & tax ready", "desc": "Apply any VAT or sales-tax rate, computed on the net after discounts." }
+  ],
+  "sections": [
+    { "eyebrow": "Built for the world", "title": "One invoicing tool for every market", "body": "Whether you bill in dollars from New York or in rials from Muscat, Paper & Pen handles the currency, the decimals and the tax rules for you. Switch the interface between English, Arabic, Hindi, Bengali and Urdu so your whole team works in their own language.", "items": ["Multi-currency with live formatting", "Configurable tax for any country", "Arabic-first, fully RTL invoices"] },
+    { "eyebrow": "From quote to cash", "title": "Invoicing inside a full ERP", "body": "Your invoices don't live in a silo. Convert a winning quotation into an invoice in one click, record the payment, and watch it post to your books automatically. When you grow, inventory, accounting and payroll are already waiting in the same workspace.", "items": ["One-click quote to invoice", "Payments reconcile to your ledger", "No double entry, ever"] }
+  ],
+  "faqs": [
+    { "q": "Is invoicing really free?", "a": "Yes. Sales & Invoicing is free forever with no limit on the number of invoices or clients. You only pay if you add optional modules like Inventory or Payroll." },
+    { "q": "Can clients pay the invoice online?", "a": "Yes. Every invoice can include a secure pay-online link powered by Paymob and other gateways, so clients pay by card and the payment reconciles automatically." },
+    { "q": "Does it support VAT and other taxes?", "a": "Yes. Set any rate, including 5% VAT for the GCC, or whatever applies in your country. Tax is calculated on the net amount after any discount." },
+    { "q": "Can I send invoices in Arabic?", "a": "Yes. The whole interface and the invoice PDF can be Arabic, fully right-to-left, alongside English, Hindi, Bengali and Urdu." },
+    { "q": "Can I automate recurring billing?", "a": "Yes. Create a recurring invoice for retainers or subscriptions and Paper & Pen issues and sends it on schedule." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Send your first invoice free",
+  "ctaSub": "Create a free workspace and bill your first client in minutes. No card required, free forever."
+}

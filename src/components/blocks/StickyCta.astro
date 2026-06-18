@@ -1,0 +1,25 @@
+---
+import { useTranslations, localizePath, type Locale } from '@/i18n';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+---
+<div
+  id="sticky-cta"
+  class="no-print fixed bottom-0 inset-x-0 z-40 lg:hidden translate-y-full transition-transform duration-300 px-4 pb-4"
+>
+  <div class="max-w-md mx-auto bg-ink-500 text-cream-50 rounded-2xl shadow-2xl shadow-ink-900/30 px-4 py-3 flex items-center justify-between gap-3">
+    <span class="text-sm font-medium">{t('sticky.text')}</span>
+    <a href={lp('/signup')} class="shrink-0 px-4 py-2 bg-copper-400 text-white text-sm font-semibold rounded-lg">{t('nav.startFree')}</a>
+  </div>
+</div>
+<script>
+  const bar = document.getElementById('sticky-cta');
+  const onScroll = () => {
+    if (window.scrollY > 600) bar?.classList.remove('translate-y-full');
+    else bar?.classList.add('translate-y-full');
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>

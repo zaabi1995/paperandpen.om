@@ -1,0 +1,63 @@
+---
+interface Row { feature: string; values: (boolean | string)[] }
+interface Props {
+  eyebrow?: string;
+  title?: string;
+  cols: string[]; // first column is the highlighted "Paper & Pen" column
+  rows: Row[];
+  bg?: 'white' | 'cream';
+}
+const { eyebrow, title, cols, rows, bg = 'white' } = Astro.props;
+
+function cell(v: boolean | string) {
+  return typeof v === 'string' ? v : v;
+}
+---
+<section class={`section-pad ${bg === 'cream' ? 'bg-cream-50' : 'bg-white'}`}>
+  <div class="max-w-5xl mx-auto">
+    {(eyebrow || title) && (
+      <div class="max-w-2xl mb-12 reveal">
+        {eyebrow && <p class="eyebrow mb-3">{eyebrow}</p>}
+        {title && <h2 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight">{title}</h2>}
+      </div>
+    )}
+    <div class="overflow-x-auto rounded-2xl border border-cream-200 shadow-sm reveal">
+      <table class="w-full text-sm min-w-[640px]">
+        <thead>
+          <tr class="border-b-2 border-cream-100">
+            <th class="text-start px-6 py-5 text-ink-300 font-medium w-56 bg-cream-50"></th>
+            {cols.map((c, i) => (
+              <th class={`px-4 py-5 text-center font-semibold ${i === 0 ? 'bg-ink-500 text-cream-50' : 'bg-cream-50 text-ink-400'}`}>
+                {i === 0 ? <span class="font-display font-bold">{c}</span> : c}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr class="border-b border-cream-50 last:border-0 hover:bg-cream-50/50 transition-colors">
+              <td class="px-6 py-4 text-ink-500 font-medium bg-cream-50/30">{r.feature}</td>
+              {r.values.map((v, i) => (
+                <td class={`px-4 py-4 text-center ${i === 0 ? 'bg-ink-500/5' : ''}`}>
+                  {typeof v === 'boolean' ? (
+                    v ? (
+                      <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-emerald-100 text-emerald-600">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                      </span>
+                    ) : (
+                      <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-cream-100 text-ink-200">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                      </span>
+                    )
+                  ) : (
+                    <span class={i === 0 ? 'font-semibold text-ink-500' : 'text-ink-400'}>{cell(v)}</span>
+                  )}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
