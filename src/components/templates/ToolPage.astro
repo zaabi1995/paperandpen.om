@@ -70,7 +70,7 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
     </div>
   </section>
 
-  {data.features && data.features.length > 0 && <FeatureGrid eyebrow={data.heroEyebrow} title={data.sectionTitle} features={data.features} bg="white" />}
+  {data.features && data.features.length > 0 && <FeatureGrid title={t('tool.featuresHeading')} features={data.features} bg="white" />}
 
   {(data.sections || []).length > 0 && (
     <section class="section-pad bg-white">

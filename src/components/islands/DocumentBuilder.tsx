@@ -104,10 +104,10 @@ export default function DocumentBuilder({ strings, docType }: { strings: Strings
           </div>
           {lines.map((l, i) => (
             <div key={i} className="grid grid-cols-12 gap-2 px-3 py-2 border-t border-cream-100 items-center">
-              <input className="col-span-6 fld-sm" value={l.desc} onChange={(e) => setLine(i, { desc: e.target.value })} placeholder={strings.item} />
-              <input type="number" min="0" className="col-span-2 fld-sm text-center" value={l.qty} onChange={(e) => setLine(i, { qty: parseFloat(e.target.value) || 0 })} />
-              <input type="number" min="0" step="0.001" className="col-span-3 fld-sm text-end" value={l.rate} onChange={(e) => setLine(i, { rate: parseFloat(e.target.value) || 0 })} />
-              <button type="button" onClick={() => delLine(i)} className="col-span-1 text-ink-300 hover:text-red-500" aria-label="Remove line">×</button>
+              <input className="col-span-6 fld-sm" value={l.desc} onChange={(e) => setLine(i, { desc: e.target.value })} placeholder={strings.item} aria-label={`${strings.item} ${i + 1}`} />
+              <input type="number" min="0" className="col-span-2 fld-sm text-center" value={l.qty} onChange={(e) => setLine(i, { qty: parseFloat(e.target.value) || 0 })} aria-label={`${strings.qty} ${i + 1}`} />
+              <input type="number" min="0" step="0.001" className="col-span-3 fld-sm text-end" value={l.rate} onChange={(e) => setLine(i, { rate: parseFloat(e.target.value) || 0 })} aria-label={`${strings.rate} ${i + 1}`} />
+              <button type="button" onClick={() => delLine(i)} className="col-span-1 text-ink-400 hover:text-red-500" aria-label="Remove line">×</button>
             </div>
           ))}
           <button type="button" onClick={addLine} className="w-full px-3 py-2.5 text-sm font-medium text-copper-500 hover:bg-copper-50 border-t border-cream-100">+ {strings.addLine}</button>
@@ -155,7 +155,7 @@ export default function DocumentBuilder({ strings, docType }: { strings: Strings
         </div>
 
         <div className="mb-6">
-          <div className="text-xs font-semibold uppercase tracking-wide text-ink-300 mb-1">{strings.billTo}</div>
+          <div className="text-xs font-semibold uppercase tracking-wide text-ink-400 mb-1">{strings.billTo}</div>
           <div className="font-medium text-ink-500">{client || strings.clientName}</div>
         </div>
 
@@ -189,7 +189,7 @@ export default function DocumentBuilder({ strings, docType }: { strings: Strings
         </div>
 
         {notes && <div className="mt-8 pt-4 border-t border-cream-100 text-xs text-ink-400"><span className="font-semibold">{strings.notes}: </span>{notes}</div>}
-        <div className="mt-8 text-center text-[10px] text-ink-200">Generated free with Paper &amp; Pen · paperandpen.om</div>
+        <div className="mt-8 text-center text-[10px] text-ink-400">Generated free with Paper &amp; Pen · paperandpen.om</div>
       </div>
     </div>
   );

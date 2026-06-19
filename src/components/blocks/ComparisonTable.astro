@@ -25,9 +25,9 @@ function cell(v: boolean | string) {
       <table class="w-full text-sm min-w-[640px]">
         <thead>
           <tr class="border-b-2 border-cream-100">
-            <th class="text-start px-6 py-5 text-ink-300 font-medium w-56 bg-cream-50"></th>
+            <th scope="col" class="text-start px-6 py-5 text-ink-400 font-medium w-56 bg-cream-50"><span class="sr-only">Feature</span></th>
             {cols.map((c, i) => (
-              <th class={`px-4 py-5 text-center font-semibold ${i === 0 ? 'bg-ink-500 text-cream-50' : 'bg-cream-50 text-ink-400'}`}>
+              <th scope="col" class={`px-4 py-5 text-center font-semibold ${i === 0 ? 'bg-ink-500 text-cream-50' : 'bg-cream-50 text-ink-400'}`}>
                 {i === 0 ? <span class="font-display font-bold">{c}</span> : c}
               </th>
             ))}
@@ -36,7 +36,7 @@ function cell(v: boolean | string) {
         <tbody>
           {rows.map((r) => (
             <tr class="border-b border-cream-50 last:border-0 hover:bg-cream-50/50 transition-colors">
-              <td class="px-6 py-4 text-ink-500 font-medium bg-cream-50/30">{r.feature}</td>
+              <th scope="row" class="text-start px-6 py-4 text-ink-500 font-medium bg-cream-50/30">{r.feature}</th>
               {r.values.map((v, i) => (
                 <td class={`px-4 py-4 text-center ${i === 0 ? 'bg-ink-500/5' : ''}`}>
                   {typeof v === 'boolean' ? (

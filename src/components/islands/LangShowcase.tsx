@@ -47,7 +47,7 @@ export default function LangShowcase() {
             <div className="flex items-center gap-3 mb-5">
               <div className="w-10 h-10 rounded-full bg-ink-500 flex items-center justify-center text-cream-50 font-bold text-sm shrink-0">P</div>
               <div>
-                <p className="text-xs text-ink-300 mb-0.5">Paper & Pen ERP</p>
+                <p className="text-xs text-ink-400 mb-0.5">Paper & Pen ERP</p>
                 <p className={`text-sm font-semibold text-ink-500 ${rtl ? 'font-arabic' : ''}`}>{lang.sample}</p>
               </div>
             </div>
@@ -66,7 +66,7 @@ export default function LangShowcase() {
             </div>
             <div className={`flex gap-2 ${rtl ? 'justify-start' : 'justify-end'}`}>
               <div className="px-4 py-1.5 bg-ink-500 text-cream-50 text-xs rounded-lg font-medium">{lang.save}</div>
-              <div className="px-4 py-1.5 bg-cream-100 border border-cream-200 text-ink-400 text-xs rounded-lg">{lang.cancel}</div>
+              <div className="px-4 py-1.5 bg-cream-100 border border-cream-200 text-ink-500 text-xs rounded-lg">{lang.cancel}</div>
             </div>
           </div>
         </div>

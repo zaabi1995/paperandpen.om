@@ -78,7 +78,7 @@ export default function ModulePicker({ strings, signupBase }: Props) {
               </div>
               <div className="flex items-center justify-between mb-1.5">
                 <h3 className={`font-semibold text-base ${m.included ? 'text-cream-50' : 'text-ink-500'}`}>{strings.titles[m.key]}</h3>
-                {m.price && <span className={`text-xs font-bold ${active ? 'text-copper-500' : 'text-ink-300'}`}>+{m.price} {strings.perMonth}</span>}
+                {m.price && <span className={`text-xs font-bold ${active ? 'text-copper-500' : 'text-ink-400'}`}>+{m.price} {strings.perMonth}</span>}
               </div>
               <p className={`text-sm leading-relaxed ${m.included ? 'text-cream-100/80' : 'text-ink-400'}`}>{strings.descs[m.key]}</p>
             </button>
@@ -88,10 +88,10 @@ export default function ModulePicker({ strings, signupBase }: Props) {
 
       <div className="bg-cream-50 border border-cream-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-6">
         <div>
-          <p className="text-xs font-semibold text-ink-300 tracking-widest uppercase mb-1">{strings.estimateLabel}</p>
+          <p className="text-xs font-semibold text-ink-400 tracking-widest uppercase mb-1">{strings.estimateLabel}</p>
           <p className="font-display text-3xl font-bold text-ink-500">
             {total === 0 ? strings.baseLabel : `${total} OMR`}
-            {total > 0 && <span className="text-base text-ink-300 font-normal"> {strings.perMonth}</span>}
+            {total > 0 && <span className="text-base text-ink-400 font-normal"> {strings.perMonth}</span>}
           </p>
           <p className="text-xs text-ink-400 mt-1">{strings.estimateNote}</p>
         </div>

@@ -1,13 +1,14 @@
 ---
 interface Faq { q: string; a: string }
-interface Props { title?: string; eyebrow?: string; faqs: Faq[]; bg?: 'white' | 'cream' }
-const { title, eyebrow, faqs, bg = 'cream' } = Astro.props;
+interface Props { title?: string; eyebrow?: string; faqs: Faq[]; bg?: 'white' | 'cream'; as?: 'h1' | 'h2' }
+const { title, eyebrow, faqs, bg = 'cream', as = 'h2' } = Astro.props;
+const Heading = as;
 ---
 <section class={`section-pad ${bg === 'cream' ? 'bg-cream-50 border-y border-cream-200' : 'bg-white'}`}>
   <div class="max-w-3xl mx-auto">
     <div class="text-center mb-12 reveal">
       {eyebrow && <p class="eyebrow mb-3">{eyebrow}</p>}
-      <h2 class="font-display text-3xl lg:text-4xl font-bold text-ink-500">{title}</h2>
+      <Heading class="font-display text-3xl lg:text-4xl font-bold text-ink-500">{title}</Heading>
     </div>
     <div class="space-y-3">
       {faqs.map((f) => (

@@ -1,5 +1,5 @@
 ---
-import { getAlternates, LOCALE_META, type Locale } from '@/i18n';
+import { getAlternates, localizePath, LOCALE_META, type Locale } from '@/i18n';
 
 export interface Props {
   title: string;
@@ -26,8 +26,7 @@ const {
   keywords,
 } = Astro.props;
 
-const localizedPath = locale === 'en' ? path : `/${locale}${path === '/' ? '' : path}`;
-const canonical = SITE + (localizedPath === '' ? '/' : localizedPath);
+const canonical = SITE + localizePath(path, locale);
 const ogImage = image.startsWith('http') ? image : SITE + image;
 const alternates = getAlternates(path);
 const meta = LOCALE_META[locale];

@@ -22,8 +22,8 @@ const plans = planKeys.map((key) => ({
   <div class="container-wide">
     <div class="text-center max-w-2xl mx-auto mb-10 reveal">
       <p class="eyebrow mb-3">{t('pricing.eyebrow')}</p>
-      <h2 class="font-display text-3xl lg:text-5xl font-bold text-ink-500 leading-tight mb-4">{t('pricing.title')}</h2>
-      <p class="text-ink-500/60 text-lg">{t('pricing.sub')}</p>
+      <h1 class="font-display text-3xl lg:text-5xl font-bold text-ink-500 leading-tight mb-4">{t('pricing.title')}</h1>
+      <p class="text-ink-500/75 text-lg">{t('pricing.sub')}</p>
     </div>
 
     {/* Billing toggle */}
@@ -47,7 +47,7 @@ const plans = planKeys.map((key) => ({
             ) : (
               <span>
                 <span class="font-display text-4xl font-bold text-ink-500 price-amount" data-monthly={p.monthly} data-annual={(p.annual / 12).toFixed(0)}>{p.monthly}</span>
-                <span class="text-ink-300 text-sm"> OMR{t('pricing.perMonth')}</span>
+                <span class="text-ink-400 text-sm"> OMR{t('pricing.perMonth')}</span>
               </span>
             )}
           </div>
@@ -62,7 +62,7 @@ const plans = planKeys.map((key) => ({
         </div>
       ))}
     </div>
-    <p class="text-center text-xs text-ink-300 mt-8">{t('pricing.trialNote')}</p>
+    <p class="text-center text-xs text-ink-400 mt-8">{t('pricing.trialNote')}</p>
   </div>
 </section>
 

@@ -20,7 +20,7 @@ const lp = (p: string) => localizePath(p, locale);
   <div class="min-h-screen bg-cream-50 flex flex-col">
     <header class="bg-white border-b border-cream-200 px-4 py-3 flex items-center justify-between">
       <a href={lp('/')} class="flex items-center gap-2"><img src="/logo.svg" alt="Paper & Pen ERP" class="h-7 w-auto" /></a>
-      <span class="text-xs text-ink-300">{t('signup.securedBy')}</span>
+      <span class="text-xs text-ink-400">{t('signup.securedBy')}</span>
     </header>
     <div class="flex-1 flex items-start justify-center py-12 px-4">
       <SignupForm client:load {locale} />

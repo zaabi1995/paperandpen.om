@@ -11,7 +11,7 @@ const LOCALES = ['en', 'ar', 'hi', 'bn', 'ur'];
 export default defineConfig({
   site: SITE,
   output: 'static',
-  trailingSlash: 'ignore',
+  trailingSlash: 'always',
   integrations: [
     react(),
     tailwind({ applyBaseStyles: false }),

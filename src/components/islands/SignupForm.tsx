@@ -123,7 +123,7 @@ export default function SignupForm({ locale }: { locale: Locale }) {
           <div key={i} className={`h-1 flex-1 rounded-full transition-all ${i <= step ? 'bg-copper-400' : 'bg-cream-200'}`} />
         ))}
       </div>
-      <div className="flex justify-between mb-8 text-xs text-ink-300">
+      <div className="flex justify-between mb-8 text-xs text-ink-400">
         <span className={step >= 1 ? 'text-copper-500 font-medium' : ''}>{t('signup.progress.workspace')}</span>
         <span className={step >= 2 ? 'text-copper-500 font-medium' : ''}>{t('signup.progress.account')}</span>
         <span className={step >= 3 ? 'text-copper-500 font-medium' : ''}>{t('signup.progress.modulesPayment')}</span>
@@ -137,10 +137,10 @@ export default function SignupForm({ locale }: { locale: Locale }) {
           <input className="fld mb-4" value={form.companyName} onChange={(e) => update('companyName', e.target.value)} placeholder={t('signup.step1.placeholder')} autoFocus />
           {form.subdomain && (
             <div className="mb-6 px-4 py-3 bg-cream-50 rounded-xl border border-cream-200">
-              <p className="text-xs text-ink-300 mb-1">{t('signup.step1.workspaceUrlLabel')}</p>
+              <p className="text-xs text-ink-400 mb-1">{t('signup.step1.workspaceUrlLabel')}</p>
               <div className="flex items-center gap-2 flex-wrap">
                 <span className="font-mono text-sm font-semibold text-ink-500" dir="ltr">{form.subdomain}.paperandpen.om</span>
-                {subStatus === 'checking' && <span className="text-xs text-ink-300">{t('signup.step1.checking')}</span>}
+                {subStatus === 'checking' && <span className="text-xs text-ink-400">{t('signup.step1.checking')}</span>}
                 {subStatus === 'available' && <span className="text-xs text-emerald-600 font-medium">{t('signup.step1.available')}</span>}
                 {subStatus === 'taken' && <span className="text-xs text-red-500 font-medium">{t('signup.step1.taken')}</span>}
               </div>
@@ -162,7 +162,7 @@ export default function SignupForm({ locale }: { locale: Locale }) {
           <p className="text-sm text-ink-400 mb-6">{t('signup.step2.subtitle')}</p>
           <label className="lbl">{t('signup.step2.emailLabel')}</label>
           <input type="email" className="fld" dir="ltr" value={form.email} onChange={(e) => update('email', e.target.value)} placeholder={t('signup.step2.emailPlaceholder')} autoFocus />
-          <p className="text-xs text-ink-300 mt-1 mb-6">{t('signup.step2.emailHint')}</p>
+          <p className="text-xs text-ink-400 mt-1 mb-6">{t('signup.step2.emailHint')}</p>
           <div className="flex gap-3">
             <button onClick={() => setStep(1)} className="flex-1 py-3 border border-cream-300 text-ink-500 font-semibold rounded-xl hover:bg-cream-50">{t('signup.step2.back')}</button>
             <button onClick={() => emailOk && setStep(3)} disabled={!emailOk} className="flex-1 py-3 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 disabled:opacity-50">{t('signup.step2.next')} →</button>
@@ -192,7 +192,7 @@ export default function SignupForm({ locale }: { locale: Locale }) {
                     </div>
                     <span className="font-medium text-sm text-ink-500">{t(`modules.${key}.title`)}</span>
                   </div>
-                  <span className={`text-sm font-bold shrink-0 ${active ? 'text-copper-600' : 'text-ink-300'}`}>{t('modules.pricePerMonth', { price })}</span>
+                  <span className={`text-sm font-bold shrink-0 ${active ? 'text-copper-600' : 'text-ink-400'}`}>{t('modules.pricePerMonth', { price })}</span>
                 </button>
               );
             })}
@@ -201,7 +201,7 @@ export default function SignupForm({ locale }: { locale: Locale }) {
             <div className="flex justify-between mb-2"><span className="text-ink-400">{t('signup.step3.baseRow')}</span><span className="text-emerald-600 font-medium">{t('signup.step3.baseValue')}</span></div>
             {total > 0 && <div className="flex justify-between mb-2"><span className="text-ink-400">{t('signup.step3.addonsLabel')}</span><span className="font-semibold text-ink-500">{total} OMR/mo</span></div>}
             <div className="border-t border-cream-200 pt-2 flex justify-between"><span className="text-ink-400">{t('signup.step3.dueToday')}</span><span className="font-bold text-ink-500">0.000 OMR</span></div>
-            <p className="text-xs text-ink-300 mt-2">{total > 0 ? t('signup.step3.paidNote', { total }) : t('signup.step3.freeNote')}</p>
+            <p className="text-xs text-ink-400 mt-2">{total > 0 ? t('signup.step3.paidNote', { total }) : t('signup.step3.freeNote')}</p>
           </div>
           {error && <div className="mb-4 px-4 py-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">{error}</div>}
           <div className="flex gap-3">
@@ -210,7 +210,7 @@ export default function SignupForm({ locale }: { locale: Locale }) {
               {loading ? <><span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />{t('signup.step3.btnLoading')}</> : total > 0 ? t('signup.step3.btnPaid') : t('signup.step3.btnFree')}
             </button>
           </div>
-          <p className="text-center text-xs text-ink-300 mt-4">{total > 0 ? t('signup.step3.footerPaid') : t('signup.step3.footerFree')}</p>
+          <p className="text-center text-xs text-ink-400 mt-4">{total > 0 ? t('signup.step3.footerPaid') : t('signup.step3.footerFree')}</p>
         </div>
       )}
     </div>

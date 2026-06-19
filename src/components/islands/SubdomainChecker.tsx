@@ -71,12 +71,12 @@ export default function SubdomainChecker({ strings, signupBase, rtl = false }: P
           maxLength={50}
           aria-label={strings.label}
         />
-        <span className="flex items-center px-4 bg-cream-100 text-ink-300 text-sm border-s border-cream-200 select-none font-medium whitespace-nowrap">
+        <span className="flex items-center px-4 bg-cream-100 text-ink-400 text-sm border-s border-cream-200 select-none font-medium whitespace-nowrap">
           {strings.suffix}
         </span>
       </div>
       <div className="h-5 mt-1.5">
-        {status === 'checking' && <p className="text-xs text-ink-300">{strings.checking}</p>}
+        {status === 'checking' && <p className="text-xs text-ink-400">{strings.checking}</p>}
         {status === 'available' && <p className="text-xs text-emerald-600 font-medium">✓ {subdomain}{strings.suffix} {strings.available}</p>}
         {status === 'taken' && <p className="text-xs text-red-500">{subdomain}{strings.suffix} {strings.taken}</p>}
         {err && <p className="text-xs text-red-500">{err}</p>}

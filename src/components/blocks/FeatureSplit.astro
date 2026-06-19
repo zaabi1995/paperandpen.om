@@ -16,7 +16,7 @@ const { eyebrow, title, body, items = [], flip = false, bg = 'white' } = Astro.p
     <div class={`reveal ${flip ? 'lg:order-2' : ''}`}>
       {eyebrow && <p class="eyebrow mb-3">{eyebrow}</p>}
       <h2 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight mb-5">{title}</h2>
-      {body && <p class="text-ink-500/60 text-lg leading-relaxed mb-6">{body}</p>}
+      {body && <p class="text-ink-500/75 text-lg leading-relaxed mb-6">{body}</p>}
       {items.length > 0 && (
         <ul class="space-y-3">
           {items.map((it) => (

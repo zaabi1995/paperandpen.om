@@ -34,6 +34,6 @@ const jsonld = [graph(organization(), breadcrumbList(crumbs)), graph(faqPage(faq
   {jsonld}
 >
   <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: 'FAQ' }]} />
-  <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} bg="white" />
+  <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} bg="white" as="h1" />
   <CtaBand {locale} />
 </BaseLayout>

@@ -45,7 +45,7 @@ export default function LoginForm({ locale }: { locale: Locale }) {
           <label className="lbl">{t('login.workspace')}</label>
           <div className="flex items-stretch rounded-xl border border-cream-300 overflow-hidden focus-within:border-ink-500">
             <input value={workspace} onChange={(e) => setWorkspace(e.target.value)} placeholder="yourcompany" className="flex-1 px-4 py-2.5 text-sm outline-none bg-transparent" dir="ltr" required autoFocus />
-            <span className="px-3 flex items-center text-xs text-ink-300 bg-cream-100 border-s border-cream-200">.paperandpen.om</span>
+            <span className="px-3 flex items-center text-xs text-ink-400 bg-cream-100 border-s border-cream-200">.paperandpen.om</span>
           </div>
         </div>
         <div>
@@ -55,7 +55,7 @@ export default function LoginForm({ locale }: { locale: Locale }) {
         {error && <div className="px-4 py-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">{error}</div>}
         <button type="submit" className="w-full py-3 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 transition-colors">{t('login.submit')} →</button>
       </form>
-      <p className="text-xs text-ink-300 mt-4 text-center">{t('login.otpNote')}</p>
+      <p className="text-xs text-ink-400 mt-4 text-center">{t('login.otpNote')}</p>
     </div>
   );
 }

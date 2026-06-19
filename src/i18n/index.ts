@@ -44,11 +44,13 @@ export function stripLocale(pathname: string): string {
   return '/' + parts.join('/');
 }
 
-/** Prefix a default-locale path with the locale segment (en stays at root). */
+/** Prefix a default-locale path with the locale segment (en stays at root). Always trailing-slashed. */
 export function localizePath(path: string, locale: Locale): string {
   const clean = '/' + path.replace(/^\/+/, '').replace(/\/+$/, '');
   const base = clean === '/' ? '' : clean;
-  return locale === DEFAULT_LOCALE ? base || '/' : `/${locale}${base}`;
+  const localized = locale === DEFAULT_LOCALE ? base : `/${locale}${base}`;
+  if (localized === '') return '/';
+  return localized.endsWith('/') ? localized : localized + '/';
 }
 
 /** Build the hreflang alternates (5 locales + x-default) for a given default-locale path. */
