@@ -1,0 +1,59 @@
+{
+  "$schema": "https://agentskills.io/schemas/index/v0.2.0.json",
+  "version": "0.2.0",
+  "provider": {
+    "name": "Paper & Pen",
+    "url": "https://paperandpen.om"
+  },
+  "skills": [
+    {
+      "name": "Free Invoice Generator",
+      "type": "web",
+      "description": "Create a professional invoice online and download it as PDF. Multi-currency, configurable VAT/tax, no signup.",
+      "url": "https://paperandpen.om/tools/free-invoice-generator/",
+      "digest": "sha256:a280e93f79bf67526447b269d3f486cc7be8929ec6f6c0c3d588a111bde859fe"
+    },
+    {
+      "name": "Free Quotation Generator",
+      "type": "web",
+      "description": "Create quotations and estimates and download as PDF, any currency.",
+      "url": "https://paperandpen.om/tools/free-quotation-generator/",
+      "digest": "sha256:23f0ba55826f3292270b23ed2f77ab45efb04d95fc3bb6a8b8025f4f302ef785"
+    },
+    {
+      "name": "Free Proforma Invoice Generator",
+      "type": "web",
+      "description": "Issue proforma invoices for advance payments and customs.",
+      "url": "https://paperandpen.om/tools/free-proforma-invoice-generator/",
+      "digest": "sha256:0f419fba3d9109f461fcfc1a5c5f41dff47aa95176d6c6dd8f5be3ed08e4a36b"
+    },
+    {
+      "name": "Free Receipt Generator",
+      "type": "web",
+      "description": "Generate payment receipts as PDF.",
+      "url": "https://paperandpen.om/tools/free-receipt-generator/",
+      "digest": "sha256:4f3cb264e1d896bf504d21e4e083c0a9e24558cf09848967f205810b300aa250"
+    },
+    {
+      "name": "Free Purchase Order Generator",
+      "type": "web",
+      "description": "Raise purchase orders to suppliers.",
+      "url": "https://paperandpen.om/tools/free-purchase-order-generator/",
+      "digest": "sha256:867691796916084e0ef2315ff904c70339183030bef2f564716140e2e01096fc"
+    },
+    {
+      "name": "Free Delivery Note Generator",
+      "type": "web",
+      "description": "Create delivery notes and challans.",
+      "url": "https://paperandpen.om/tools/free-delivery-note-generator/",
+      "digest": "sha256:8f067be938819ec557a3bbbf7612224084fbed62f4e739e3ea7e33e5b6ffd92e"
+    },
+    {
+      "name": "VAT / Tax Calculator",
+      "type": "web",
+      "description": "Add or remove VAT at any rate (5% GCC default).",
+      "url": "https://paperandpen.om/tools/oman-vat-calculator/",
+      "digest": "sha256:2f56ae33b4e8c329921688825d2bb7254d847d1502f867f655f9b72a2cfac9cf"
+    }
+  ]
+}
