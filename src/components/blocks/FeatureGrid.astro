@@ -10,6 +10,8 @@ interface Props {
   bg?: 'white' | 'cream';
 }
 const { eyebrow, title, subtitle, features, bg = 'white' } = Astro.props;
+// Keep heading order valid: if there is no section <h2>, cards become <h2>; otherwise <h3>.
+const CardHeading = title ? 'h3' : 'h2';
 ---
 <section class={`section-pad ${bg === 'cream' ? 'bg-cream-50 border-y border-cream-200' : 'bg-white'}`}>
   <div class="container-wide">
@@ -26,7 +28,7 @@ const { eyebrow, title, subtitle, features, bg = 'white' } = Astro.props;
           <div class="inline-flex p-3 rounded-2xl bg-gradient-to-br from-cream-100 to-cream-200 text-copper-500 mb-5 group-hover:from-copper-50 group-hover:to-copper-300/30 transition-colors">
             <Icon name={f.icon} class="w-6 h-6" />
           </div>
-          <h3 class="font-semibold text-base text-ink-500 mb-1.5">{f.title}</h3>
+          <CardHeading class="font-semibold text-base text-ink-500 mb-1.5">{f.title}</CardHeading>
           <p class="text-sm leading-relaxed text-ink-400">{f.desc}</p>
         </div>
       ))}

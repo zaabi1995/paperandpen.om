@@ -36,13 +36,19 @@ const htmlLang = LOCALE_META[locale].htmlLang;
     <link rel="apple-touch-icon" href="/logo.svg" />
     <link rel="manifest" href="/manifest.json" />
 
-    {/* Fonts — fonts.bhd.om only (never Google) */}
+    {/* Fonts — fonts.bhd.om only (never Google). Loaded non-render-blocking. */}
     <link rel="preconnect" href="https://fonts.bhd.om" />
     <link rel="preconnect" href="https://fonts.bhd.om" crossorigin />
-    <link
-      href="https://fonts.bhd.om/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=DM+Sans:wght@300;400;500;600;700&family=IBM+Plex+Arabic:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    {(() => {
+      const FONTS = 'https://fonts.bhd.om/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=DM+Sans:wght@300;400;500;600;700&family=IBM+Plex+Arabic:wght@400;500;600;700&display=swap';
+      return (
+        <>
+          <link rel="preload" as="style" href={FONTS} />
+          <link rel="stylesheet" href={FONTS} media="print" onload="this.media='all'" />
+          <noscript><link rel="stylesheet" href={FONTS} /></noscript>
+        </>
+      );
+    })()}
 
     <Seo {...seo} locale={locale} />
   </head>
