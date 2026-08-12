@@ -4,7 +4,7 @@ import Seo from '@/components/Seo.astro';
 import Navbar from '@/components/layout/Navbar.astro';
 import Footer from '@/components/layout/Footer.astro';
 import StickyCta from '@/components/blocks/StickyCta.astro';
-import { isRTL, LOCALE_META, type Locale } from '@/i18n';
+import { isRTL, LOCALE_META, useTranslations, type Locale } from '@/i18n';
 
 export interface Props {
   title: string;
@@ -22,6 +22,7 @@ export interface Props {
 const { locale, bare = false, ...seo } = Astro.props;
 const dir = isRTL(locale) ? 'rtl' : 'ltr';
 const htmlLang = LOCALE_META[locale].htmlLang;
+const t = useTranslations(locale);
 ---
 
 <!doctype html>
@@ -51,10 +52,40 @@ const htmlLang = LOCALE_META[locale].htmlLang;
     })()}
 
     <Seo {...seo} locale={locale} />
+
+    {/*
+      r6-83. Three things have to be true together or the skip link measures
+      present and behaves broken, and this site had none of them on 118 served
+      documents: the link exists and is keyboard-reachable (clip technique),
+      its target can take focus (tabindex="-1" on <main>, without which the
+      anchor moves the scroll position but leaves focus on the link, so the
+      next Tab walks straight back into the nav the user just asked to skip),
+      and following it does not park the user under the sticky header
+      (Navbar is `sticky top-0 z-50`, so scroll-padding-top).
+
+      is:inline is deliberate. Astro would otherwise bundle this into a CSS
+      file, and r6-85 is the four-times-reopened item that proves a promise
+      riding a sheet a page may stop linking can go dark with nobody editing
+      it. This block reaches every served page in its own markup because
+      BaseLayout is the one owner every template routes through.
+    */}
+    <style is:inline>
+      .skip-link{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+      .skip-link:focus{position:fixed;top:.75rem;left:.75rem;z-index:100;width:auto;height:auto;margin:0;padding:.75rem 1.25rem;clip:auto;clip-path:none;white-space:normal;background:#172e50;color:#fff;border-radius:9999px;font-weight:600;text-decoration:none;outline:3px solid #fff;outline-offset:2px}
+      html[dir="rtl"] .skip-link:focus{left:auto;right:.75rem}
+      html{scroll-padding-top:5rem}
+    </style>
   </head>
   <body>
+    {/*
+      Bare pages hide the nav, so they have no repeated block to bypass and a
+      skip link on them is noise rather than an aid. WCAG 2.4.1 is about
+      bypassing REPEATED blocks, and the target keeps its id either way so the
+      anchor is never dangling.
+    */}
+    {!bare && <a class="skip-link" href="#main">{t('a11y.skipToContent')}</a>}
     {!bare && <Navbar locale={locale} />}
-    <main class="flex-1">
+    <main id="main" tabindex="-1" class="flex-1">
       <slot />
     </main>
     {!bare && <Footer locale={locale} />}
