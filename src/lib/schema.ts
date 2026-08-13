@@ -14,7 +14,10 @@ export function organization() {
       addressLocality: 'Muscat',
       addressCountry: 'OM',
     },
-    sameAs: ['https://api.whatsapp.com/send?phone=96898899100', 'https://bhd.om'],
+    // sameAs is IDENTITY, not family: listing the parent's URL here says Paper and Pen
+    // IS BHD Group. The parentOrganization edge below is the correct membership edge
+    // and stays. Ledger llm223-2 / llm225-1, round 227.
+    sameAs: ['https://api.whatsapp.com/send?phone=96898899100'],
     parentOrganization: { '@type': 'Organization', name: 'BHD Group', url: 'https://bhd.om' },
   };
 }
