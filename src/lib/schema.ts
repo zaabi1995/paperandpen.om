@@ -38,13 +38,12 @@ export function softwareApplication(extra: Record<string, unknown> = {}) {
       priceCurrency: 'OMR',
       description: 'Free forever for Sales & Invoicing',
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '73',
-      bestRating: '5',
-      worstRating: '1',
-    },
+    // NO aggregateRating. The 4.9 / 73 that stood here arrived whole in the initial
+    // site build (1826e05) and named no source: there is no Review node, no
+    // testimonial surface and no third-party corpus anywhere for this product, and a
+    // SoftwareApplication has no Google Business Profile to bind a figure to. A
+    // generator may not invent the number, so the only branch open to it is deletion.
+    // Ledger llm224-1 (the house 4.9 across six brands), round 255.
     featureList:
       'Sales & Invoicing, Inventory, HR & Payroll, Accounting, Manufacturing, Reports & Analytics, Multi-language (EN/AR/HI/BN/UR), OMR billing, Paymob payment integration',
     ...extra,
