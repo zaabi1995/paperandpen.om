@@ -233,10 +233,16 @@ export default function SignupForm({ locale }: { locale: Locale }) {
        * turned a 56px control into a long shallow trough, and the Continue pill
        * stretched with it into a blue slab wider than the headline above it.
        *
-       * The column is now a fixed 28rem / 448px reading measure and the whole
-       * grid is centred inside the container, so there is no dead gutter beside
-       * the fields. Below `lg` the layout is one column and the field goes full
-       * width, which is correct on a phone.
+       * The column is now a fixed 28rem / 448px reading measure. The shell in
+       * signup.astro is sized to exactly this grid (28 + 4 + 19 = 51rem), so
+       * the tracks fill it with no slack and the logo, the field and the footer
+       * line all share one left margin; `lg:justify-center` below is left in as
+       * a guard in case that shell ever widens again.
+       *
+       * Below `lg` the shell itself narrows to the same 28rem, so the layout is
+       * one column, the field is 448px at a tablet instead of the 816px trough
+       * it used to become, and the rail simply stacks underneath. Under 448px
+       * (a phone) the field goes edge to edge, which is what it should do.
        */}
       <div className="grid items-start gap-10 lg:grid-cols-[28rem_19rem] lg:justify-center lg:gap-16">
         {/* ---------------------------------------------------------------

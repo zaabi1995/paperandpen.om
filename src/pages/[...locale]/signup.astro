@@ -26,7 +26,14 @@ const lp = (p: string) => localizePath(p, locale);
 >
   <div class="flex min-h-screen flex-col bg-paper">
     <header class="px-6 pb-4 pt-6 sm:px-10 sm:pt-8">
-      <div class="mx-auto flex max-w-4xl items-center justify-between gap-4">
+      <!-- 51rem is not a round number, it is the exact sum of the two grid
+           tracks and the gap between them (28 + 4 + 19). max-w-4xl was 896px,
+           so the 816px grid floated with 40px of slack on each side and the
+           logo no longer sat over the left edge of the field. Sized to the
+           content, header, form and footer all share one margin. Below `lg`
+           the shell collapses to the single 28rem measure so a lone field can
+           never stretch into a trough on a tablet. -->
+      <div class="mx-auto flex max-w-md items-center justify-between gap-4 lg:max-w-[51rem]">
         <a href={lp('/')} class="inline-flex items-center">
           <img src="/logo.svg" alt="Paper & Pen ERP" class="h-8 w-auto" width="120" height="32" />
         </a>
@@ -47,13 +54,15 @@ const lp = (p: string) => localizePath(p, locale);
          content underneath, which is what a form is supposed to look like.
          `flex-1` still pushes the footer to the bottom on a short step. -->
     <div class="flex flex-1 justify-center px-6 pb-12 pt-6 sm:px-10 sm:pt-10">
-      <div class="w-full max-w-4xl">
+      <div class="w-full max-w-md lg:max-w-[51rem]">
         <SignupForm client:load {locale} />
       </div>
     </div>
 
     <footer class="px-6 pb-8 sm:px-10">
-      <p class="mx-auto max-w-4xl text-sm font-medium text-ink-500">{t('signup.securedBy')}</p>
+      <p class="mx-auto max-w-md text-sm font-medium text-ink-500 lg:max-w-[51rem]">
+        {t('signup.securedBy')}
+      </p>
     </footer>
   </div>
 </BaseLayout>

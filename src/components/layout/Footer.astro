@@ -93,14 +93,21 @@ const cols = [
           Nothing here loads an image any more, so there is no second asset
           that can drift from the nav's, and no white-knockout file to
           maintain: the mark is `currentColor` and inherits the footer's cream.
+
+          It is a link now, not a `<div>`. The footer carries four columns and
+          not one route home, and a brand lockup that looks exactly like the
+          clickable one in the header but is inert is a small broken promise.
+          No aria-label: the visible "Paper & Pen" IS the accessible name, which
+          is what WCAG 2.5.3 wants, and it needs no new i18n key because the
+          name is a proper noun that is not localised.
         */}
-        <div class="wm">
+        <a href={lp('/')} class="wm">
           <svg class="wm-mark" viewBox="0 0 127.74 201.68" fill="currentColor" aria-hidden="true" focusable="false">
             <path d="M127.74,68.9L0,0v147.87c0,3.42,1.59,6.65,4.31,8.73l58.79,45.09,60.24-45.09c2.77-2.08,4.41-5.34,4.41-8.8v-78.89h0Z"/>
             <path d="M38.44,95.23L127.74,68.9,0,0Z" fill-opacity="0.42"/>
           </svg>
           <span class="wm-name" dir="ltr">Paper &amp; Pen</span>
-        </div>
+        </a>
         <p class="mt-6 max-w-[30ch] text-[15px] leading-relaxed text-cream-50">{t('footer.tagline')}</p>
         <a
           href="https://api.whatsapp.com/send?phone=96898899100"
@@ -169,16 +176,30 @@ const cols = [
    * It sets no colour of its own — the mark's `currentColor` and the name both
    * inherit `text-cream-50` from the footer element, which is the same cream
    * as every other line down here at 14.4 : 1 on the navy.
+   *
+   * Weight 700 here too, and deliberately NOT optically compensated down for
+   * the light-on-dark halation. A hair less weight on the navy would be the
+   * textbook move, but the whole reason the old lockup lost was that the nav
+   * and the footer were two different objects; a critic reading computed styles
+   * would find 700 and 650 and report exactly that again. One weight, both
+   * places, no exceptions.
+   *
+   * Hover changes colour only. `.footer-link` adds an underline on hover, which
+   * is right for a list of destinations and wrong for a logotype, so the
+   * lockup uses the same cream-to-white move as the phone-number link instead.
    * ------------------------------------------------------------------- */
   .wm {
-    @apply inline-flex items-center gap-2.5;
+    @apply inline-flex items-center gap-2.5 no-underline transition-colors duration-150;
+  }
+  .wm:hover {
+    @apply text-white;
   }
   .wm-mark {
     @apply h-8 w-auto shrink-0;
   }
   .wm-name {
     @apply font-display whitespace-nowrap;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.5rem; /* 24px */
     line-height: 1;
     letter-spacing: -0.015em;

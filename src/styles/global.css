@@ -91,6 +91,17 @@
     letter-spacing: 0;
     line-height: 1.25;
   }
+  /* 500, not the roman's 430, and h1/h2 ONLY so Arabic card titles keep their
+     600. The book weight is a VARIABLE-font decision: Source Serif 4 is served
+     as a 100–900 variable face, so 430 renders at exactly 430. IBM Plex Arabic
+     is served as static 400/500/600/700 cuts, so 430 would simply snap down to
+     400 — and an Arabic headline at 400 goes thin and papery at display size,
+     where the Latin one only goes lighter. Same intent, different number,
+     because the two faces are built differently. */
+  html[dir='rtl'] h1,
+  html[dir='rtl'] h2 {
+    font-weight: 500;
+  }
   html[dir='rtl'] .accent-italic {
     font-style: normal;
   }

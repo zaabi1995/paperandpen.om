@@ -135,9 +135,20 @@ export default function LoginForm({ locale }: { locale: Locale }) {
           </div>
         )}
 
-        {/* Never disabled at rest: an empty field is answered by the message
-            above, not by a pale pill that reads broken. Same rule as signup. */}
-        <button type="submit" className="btn-primary btn-lg btn-block font-bold">
+        {/*
+          Never disabled at rest: an empty field is answered by the message
+          above, not by a pale pill that reads broken. Same rule as signup.
+
+          AND IT HUGS ITS LABEL. This carried `btn-block`, so on desktop it
+          stretched to the full 448px measure and became a solid electric slab
+          the width of both fields stacked above it, the loudest object on a
+          page whose whole job is two inputs. The bar never does that: its
+          actions are compact pills that size to their words. So it is only
+          full-bleed below `sm`, where a thumb-wide target is the point, and
+          hugs from `sm` up. This is the same `w-full sm:w-auto` the signup
+          step uses, so the two auth pages now share one action shape.
+        */}
+        <button type="submit" className="btn-primary btn-lg w-full font-bold sm:w-auto">
           {t('login.submit')}
           <svg
             aria-hidden="true"
