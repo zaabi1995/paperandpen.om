@@ -1,83 +1,503 @@
 ---
+/*
+ * Pricing: flat bands language.
+ *
+ * Two sections ship from this file:
+ *   1. the fold: centred serif headline with ONE italic squiggle-underlined
+ *      word, a single electric pill CTA, a hand-drawn cue pointing at a mint
+ *      "save" badge, a pale-blue segmented toggle with a white active segment,
+ *      then three flat tinted plan cards (grey / pale-blue / grey);
+ *   2. the full feature comparison on the pale-blue band.
+ *
+ * Rules held here:
+ *   - Flat. No drop shadow on a card, no gradient, no glow, no dark mode.
+ *   - Electric is spent ONLY on actions, links and price numerals. The plan
+ *     chips, ticks and the recommended border are the same electric because
+ *     they belong to the recommended plan's action, not to decoration.
+ *   - Prices are real (`pricing.*.price_monthly` / `price_annual`), never
+ *     recomputed into a per-month figure that does not divide exactly. Monthly
+ *     shows the monthly price, annual shows the annual TOTAL, the way the bar
+ *     does it. Nothing is converted into a second currency: there is one
+ *     published price list, and the note under the cards says so plainly.
+ *   - The comparison matrix is DERIVED from the already-translated per-plan
+ *     feature arrays by index, so it carries no untranslated row labels and
+ *     cannot drift out of sync with the cards.
+ */
 import { useTranslations, tRaw, localizePath, type Locale } from '@/i18n';
 import Icon from './Icon.astro';
 
-interface Props { locale: Locale }
+interface Props {
+  locale: Locale;
+}
 const { locale } = Astro.props;
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 
+const CURRENCY = 'OMR';
+
 const planKeys = ['free', 'growth', 'enterprise'] as const;
+type PlanKey = (typeof planKeys)[number];
+
+const featuresOf = (key: PlanKey): string[] =>
+  ((tRaw(locale, `pricing.${key}.features`) as string[]) ?? []).filter(Boolean);
+
 const plans = planKeys.map((key) => ({
   key,
   name: t(`pricing.${key}.name`),
   monthly: Number(tRaw(locale, `pricing.${key}.price_monthly`) ?? 0),
   annual: Number(tRaw(locale, `pricing.${key}.price_annual`) ?? 0),
   description: t(`pricing.${key}.description`),
-  features: (tRaw(locale, `pricing.${key}.features`) as string[]) ?? [],
+  features: featuresOf(key),
   popular: key === 'growth',
 }));
+
+/* Index 1 of a paid plan's list is its "Everything in <lower plan>" line. The
+   bar sets that as a bold lead-in above the ticks rather than as a tick. */
+const META_INDEX = 1;
+
+/* ---------------------------------------------------------------------------
+ * Comparison matrix, derived by index from the per-plan feature arrays.
+ * Index parity across en/ar/hi/bn/ur is guaranteed by the dictionaries, so
+ * every row label below is already translated.
+ *   free[0] / growth[0] / enterprise[0]  = the seat counts -> one text row
+ *   free[1..3]                           = in every plan
+ *   growth[2..6]                         = added in Growth
+ *   enterprise[2..6]                     = added in Enterprise
+ * free[4] ("No credit card needed") is a plan trait, not a feature, and is
+ * already said in the note under the cards.
+ * ------------------------------------------------------------------------ */
+const [free, growth, enterprise] = plans;
+
+type Row =
+  | { kind: 'text'; label: string; values: string[] }
+  | { kind: 'tick'; label: string; on: boolean[] };
+
+const pick = (list: string[], idx: number[]): string[] =>
+  idx.map((i) => list[i]).filter((v): v is string => typeof v === 'string' && v.length > 0);
+
+const groups: { label: string; rows: Row[] }[] = [
+  {
+    label: t('pricing.compareGroupCore'),
+    rows: [
+      {
+        kind: 'text',
+        label: t('pricing.compareUsers'),
+        values: plans.map((p) => p.features[0] ?? ''),
+      },
+      ...pick(free.features, [1, 2, 3]).map(
+        (label): Row => ({ kind: 'tick', label, on: [true, true, true] })
+      ),
+    ],
+  },
+  {
+    label: t('pricing.compareGroupAdded', { plan: growth.name }),
+    rows: pick(growth.features, [2, 3, 4, 5, 6]).map(
+      (label): Row => ({ kind: 'tick', label, on: [false, true, true] })
+    ),
+  },
+  {
+    label: t('pricing.compareGroupAdded', { plan: enterprise.name }),
+    rows: pick(enterprise.features, [2, 3, 4, 5, 6]).map(
+      (label): Row => ({ kind: 'tick', label, on: [false, false, true] })
+    ),
+  },
+].filter((g) => g.rows.length > 0);
+
+const lastGroup = groups.length - 1;
+
+/* Column tint. The recommended column is a pale-blue strip inside an electric
+   hairline, exactly like its card above.
+ *
+ * Every border colour below is spelled SIDE-SPECIFICALLY (`border-x-*`,
+ * `border-t-*`). A plain `border-electric-500` sets all four sides, so it would
+ * race the row separator's `border-ink-200/40` in the generated stylesheet and
+ * the winner would depend on Tailwind's emission order, not on class order.
+ * The transparent 2px edge on the quiet columns keeps all three the same width.
+ */
+const colFill = (i: number) => (plans[i].popular ? 'bg-tint-blue' : 'bg-white');
+const colEdge = (i: number) =>
+  plans[i].popular ? 'border-x-2 border-x-electric-500' : 'border-x-2 border-x-transparent';
 ---
-<section class="section-pad bg-cream-50">
+
+<!-- ======================================================================
+     THE FOLD: headline, one CTA, the cue, the toggle, the cards
+     =================================================================== -->
+<section class="band band-paper pb-16 pt-14 md:pb-24 md:pt-20">
   <div class="container-wide">
-    <div class="text-center max-w-2xl mx-auto mb-10 reveal">
-      <p class="eyebrow mb-3">{t('pricing.eyebrow')}</p>
-      <h1 class="font-display text-3xl lg:text-5xl font-bold text-ink-500 leading-tight mb-4">{t('pricing.title')}</h1>
-      <p class="text-ink-500/75 text-lg">{t('pricing.sub')}</p>
+    <h1 class="mx-auto max-w-[24ch] text-center">
+      {t('pricing.headLead')}{' '}
+      <span class="squiggle"><span class="accent-italic">{t('pricing.headAccent')}</span></span>
+    </h1>
+
+    <div class="mt-10 flex justify-center md:mt-11">
+      <a href={lp('/signup')} class="btn-primary btn-lg">{t('pricing.startTrial')}</a>
     </div>
 
-    {/* Billing toggle */}
-    <div class="flex items-center justify-center gap-3 mb-12">
-      <span class="text-sm font-medium text-ink-500" id="lbl-monthly">{t('pricing.monthly')}</span>
-      <button id="bill-toggle" type="button" role="switch" aria-checked="false" aria-label={t('pricing.annual')} class="relative w-14 h-7 rounded-full bg-ink-400 transition-colors">
-        <span id="bill-knob" class="absolute top-0.5 start-0.5 w-6 h-6 rounded-full bg-white shadow transition-transform"></span>
-      </button>
-      <span class="text-sm font-medium text-ink-400" id="lbl-annual">{t('pricing.annual')} <span class="text-copper-500 font-semibold">· {t('pricing.annualSave')}</span></span>
-    </div>
-
-    <div class="grid lg:grid-cols-3 gap-6 max-w-5xl mx-auto items-start">
-      {plans.map((p) => (
-        <div class={`reveal relative rounded-2xl border bg-white p-7 ${p.popular ? 'border-copper-400 shadow-xl shadow-copper-400/10 lg:-mt-3 lg:mb-3' : 'border-cream-200'}`}>
-          {p.popular && <span class="absolute -top-3 start-1/2 -translate-x-1/2 px-3 py-1 bg-copper-500 text-white text-xs font-bold rounded-full tracking-wide">{t('pricing.mostPopular')}</span>}
-          <h2 class="font-display text-xl font-bold text-ink-500 mb-1">{p.name}</h2>
-          <p class="text-sm text-ink-400 mb-5 min-h-[40px]">{p.description}</p>
-          <div class="mb-6">
-            {p.monthly === 0 ? (
-              <span class="font-display text-4xl font-bold text-ink-500">{t('pricing.free_label')}</span>
-            ) : (
-              <span>
-                <span class="font-display text-4xl font-bold text-ink-500 price-amount" data-monthly={p.monthly} data-annual={(p.annual / 12).toFixed(0)}>{p.monthly}</span>
-                <span class="text-ink-400 text-sm"> OMR{t('pricing.perMonth')}</span>
-              </span>
-            )}
-          </div>
-          <a href={lp('/signup')} class={`block text-center px-5 py-3 rounded-xl font-semibold text-sm mb-6 transition-all ${p.popular ? 'bg-copper-500 text-white hover:bg-copper-600' : 'bg-ink-500 text-cream-50 hover:bg-ink-700'}`}>{t('pricing.startTrial')}</a>
-          <ul class="space-y-2.5">
-            {p.features.map((f) => (
-              <li class="flex items-start gap-2.5 text-sm text-ink-500/80">
-                <span class="mt-0.5 text-emerald-600 shrink-0"><Icon name="check" class="w-4 h-4" /></span>{f}
-              </li>
-            ))}
-          </ul>
+    {/* Hand-drawn cue + save badge, sitting over the annual half of the toggle */}
+    <div class="mt-12 flex justify-center md:mt-14">
+      <div class="w-fit">
+        <div class="mb-1.5 flex items-end justify-end gap-1.5 pe-4 md:pe-10">
+          <span class="badge-save">{t('pricing.annualSave')}</span>
+          <svg
+            class="cue-arrow h-9 w-9 shrink-0 text-ink-500"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.9"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path d="M2.5 2.2c8.6.4 15 6.3 16.4 16.4" />
+            <path d="M13.6 15.1 19.1 19.2 21 12.6" />
+          </svg>
         </div>
-      ))}
+
+        <div class="seg" role="radiogroup" aria-label={t('pricing.billingPeriod')} id="bill-switch">
+          <button
+            type="button"
+            role="radio"
+            class="seg-item"
+            data-bill="monthly"
+            data-active="true"
+            aria-checked="true"
+            tabindex="0"
+          >
+            {t('pricing.monthly')}
+          </button>
+          <button
+            type="button"
+            role="radio"
+            class="seg-item"
+            data-bill="annual"
+            data-active="false"
+            aria-checked="false"
+            tabindex="-1"
+          >
+            {t('pricing.annual')}
+          </button>
+        </div>
+      </div>
     </div>
-    <p class="text-center text-xs text-ink-400 mt-8">{t('pricing.trialNote')}</p>
+
+    {/* Plan cards */}
+    <div class="mx-auto mt-10 grid max-w-5xl gap-6 pt-8 lg:grid-cols-3 md:mt-12">
+      {
+        plans.map((p) => (
+          <div class="relative reveal">
+            {/* .tab-flag is 28px tall (text-xs/1rem + py-1.5). -26px overlaps
+                the card's 2px electric top border so the two read as one
+                shape with no hairline gap at any device pixel ratio. */}
+            {p.popular && (
+              <div class="absolute inset-x-0 -top-[26px] flex justify-center">
+                <span class="tab-flag">{t('pricing.mostPopular')}</span>
+              </div>
+            )}
+
+            <div
+              class={`flex h-full flex-col overflow-hidden rounded-card ${
+                p.popular ? 'border-2 border-electric-500' : 'border border-paper-300'
+              }`}
+            >
+              {/* Tinted head: chip, description, price, action */}
+              <div class={`p-7 ${p.popular ? 'bg-tint-blue' : 'bg-tint-grey'}`}>
+                <div class="flex flex-wrap items-center gap-2.5">
+                  <span
+                    class={`rounded px-2.5 py-1 text-sm font-bold uppercase tracking-wide ${
+                      p.popular ? 'bg-electric-500 text-white' : 'bg-paper-400 text-ink-500'
+                    }`}
+                  >
+                    {p.name}
+                  </span>
+                  <span
+                    class={`text-lg font-bold ${p.popular ? 'text-electric-500' : 'text-ink-500'}`}
+                  >
+                    {t('pricing.planWord')}
+                  </span>
+                </div>
+
+                <p class="mt-4 min-h-[3.5rem] text-body text-ink-500">{p.description}</p>
+
+                <div class="mt-6">
+                  {p.monthly === 0 ? (
+                    <p class="leading-none">
+                      <span class="price text-ink-500">{t('pricing.free_label')}</span>
+                    </p>
+                  ) : (
+                    <>
+                      <p class="leading-none" data-bill-show="monthly">
+                        <bdi>
+                          <span class="price">{p.monthly}</span>
+                          <span class="price-unit">{CURRENCY + t('pricing.perMonth')}</span>
+                        </bdi>
+                      </p>
+                      <p class="leading-none" data-bill-show="annual" hidden>
+                        <bdi>
+                          <span class="price">{p.annual}</span>
+                          <span class="price-unit">{CURRENCY + t('pricing.perYear')}</span>
+                        </bdi>
+                      </p>
+                    </>
+                  )}
+
+                  {/* The bar leaves this line empty on its $0 card; the spacer
+                      keeps all three price blocks on one baseline. */}
+                  <p class="mt-2.5 h-6 text-base font-semibold text-electric-500">
+                    {p.monthly !== 0 && (
+                      <>
+                        <span data-bill-show="monthly">{t('pricing.billedMonthly')}</span>
+                        <span data-bill-show="annual" hidden>
+                          {t('pricing.billedAnnually')}
+                        </span>
+                      </>
+                    )}
+                  </p>
+                </div>
+
+                <a
+                  href={lp('/signup')}
+                  aria-label={`${t('pricing.startTrial')} (${p.name})`}
+                  class={
+                    p.popular
+                      ? 'btn-primary btn-block mt-7'
+                      : 'btn-base btn-block mt-7 border-2 border-electric-500 bg-transparent text-electric-500 hover:bg-electric-500 hover:text-white'
+                  }
+                >
+                  {t('pricing.startTrial')}
+                </a>
+              </div>
+
+              {/* White body: the checklist */}
+              <div class="flex-1 bg-white p-7">
+                {p.features[META_INDEX] && p.key !== 'free' && (
+                  <p
+                    class={`text-body mb-4 font-bold ${
+                      p.popular ? 'text-electric-500' : 'text-ink-500'
+                    }`}
+                  >
+                    {p.features[META_INDEX]}
+                  </p>
+                )}
+                <ul class="space-y-3.5">
+                  {p.features
+                    .filter((_, i) => !(i === META_INDEX && p.key !== 'free'))
+                    .map((f) => (
+                      <li class="text-body flex items-start gap-3 text-ink-500">
+                        <span
+                          class={`mt-1 shrink-0 ${
+                            p.popular ? 'text-electric-500' : 'text-ink-500'
+                          }`}
+                        >
+                          <Icon name="check" class="h-4 w-4" />
+                        </span>
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <p class="microcopy mt-10 text-center">{t('pricing.trialNote')}</p>
+    <p class="microcopy mx-auto mt-2 max-w-2xl text-center">{t('pricing.worldwideNote')}</p>
   </div>
 </section>
 
+<!-- ======================================================================
+     THE COMPARISON, on the pale-blue band
+     =================================================================== -->
+<section class="band band-sky">
+  <div class="container-wide">
+    <h2 class="text-center text-display-sm">{t('pricing.compareTitle')}</h2>
+    <p class="microcopy mt-4 text-center lg:hidden">{t('pricing.scrollHint')}</p>
+
+    {/* `relative` is LOAD-BEARING, not cosmetic. It is what keeps the page from
+        scrolling sideways on a phone.
+
+        Every tick cell carries a `.sr-only` span ("Included" / "Not included"),
+        and Tailwind's `.sr-only` is `position: absolute`. An absolutely
+        positioned box is clipped by an ancestor's `overflow` ONLY if that
+        ancestor is inside its containing block chain. This wrapper was static,
+        so the nearest positioned ancestor was `section.band`, which the
+        foundation sets `relative`. The spans therefore resolved against the
+        SECTION, escaped this scroll container entirely, and parked at their
+        static x, out at the far edge of a 544px table inside a 342px viewport
+        column. Result: the section's scrollable overflow measured 516px on a
+        390px phone and the whole document panned sideways.
+        (Measured: document.scrollWidth 390 -> 516 -> 390. The widest offender
+        was the `Included` span at right = 516, i.e. exactly the page width.)
+
+        `relative` here makes THIS box the containing block, so those spans are
+        clipped by its own `overflow-x: auto` and scroll with the table instead
+        of leaking upward. `max-w-full` pins the box to the column so the
+        table's `min-width` can never size it either. Do not remove either. */}
+    <div class="relative mt-10 max-w-full overflow-x-auto pb-2 md:mt-12">
+      {/* Widths are fixed rem below `md` and proportional at `md`+. A single
+          percentage set would give the sticky feature column 38% of a 46rem
+          minimum, i.e. 280px of the 342px a 390px phone can actually show,
+          leaving a sliver of one plan column. Fixed columns keep a whole plan
+          column on screen next to the labels. */}
+      <table
+        class="w-full min-w-[34rem] border-separate border-spacing-0 text-start md:min-w-[46rem]"
+      >
+        <caption class="sr-only">{t('pricing.compareTitle')}</caption>
+
+        <thead>
+          <tr>
+            <th
+              scope="col"
+              class="sticky start-0 z-10 w-[11.5rem] bg-sky-300 px-2 pb-5 text-start align-bottom md:w-[36%]"
+            >
+              <span class="sr-only">{t('pricing.compareFeature')}</span>
+            </th>
+            {
+              plans.map((p, i) => (
+                <th
+                  scope="col"
+                  class={`w-[7.5rem] rounded-t-card border-t-2 px-2 pb-6 pt-6 text-center align-bottom md:w-[21.3%] md:px-4 ${colFill(i)} ${colEdge(i)} ${p.popular ? 'border-t-electric-500' : 'border-t-transparent'}`}
+                >
+                  <span class="flex flex-col items-center gap-3">
+                    <span class="flex flex-wrap items-center justify-center gap-2">
+                      <span
+                        class={`rounded px-2 py-0.5 text-xs font-bold uppercase tracking-wide ${
+                          p.popular ? 'bg-electric-500 text-white' : 'bg-paper-400 text-ink-500'
+                        }`}
+                      >
+                        {p.name}
+                      </span>
+                      <span
+                        class={`text-sm font-bold ${p.popular ? 'text-electric-500' : 'text-ink-500'}`}
+                      >
+                        {t('pricing.planWord')}
+                      </span>
+                    </span>
+                    <a
+                      href={lp('/signup')}
+                      aria-label={`${t('pricing.selectPlan')} (${p.name})`}
+                      class={
+                        p.popular
+                          ? 'btn-primary btn-sm whitespace-nowrap px-3 text-sm md:px-5'
+                          : 'btn-base btn-sm whitespace-nowrap border-2 border-electric-500 bg-transparent px-3 text-sm text-electric-500 hover:bg-electric-500 hover:text-white md:px-5'
+                      }
+                    >
+                      {t('pricing.selectPlan')}
+                    </a>
+                  </span>
+                </th>
+              ))
+            }
+          </tr>
+        </thead>
+
+        {
+          groups.map((g, gi) => (
+            <tbody>
+              {/* The group label spans only the feature column. The three plan
+                  cells are empty but still painted, so the white / pale-blue
+                  column strips run unbroken from the header to the last row
+                  instead of the table reading as three separate tables. */}
+              <tr>
+                <th
+                  scope="rowgroup"
+                  class="sticky start-0 z-10 bg-sky-300 px-2 pb-3 pt-8 text-start text-lg font-bold text-ink-500"
+                >
+                  {g.label}
+                </th>
+                {plans.map((_, i) => <td class={`${colFill(i)} ${colEdge(i)}`}></td>)}
+              </tr>
+              {g.rows.map((r, ri) => {
+                const last = gi === lastGroup && ri === g.rows.length - 1;
+                return (
+                  <tr>
+                    <th
+                      scope="row"
+                      class="sticky start-0 z-10 border-t border-t-ink-200/50 bg-sky-300 px-2 py-3.5 text-start text-base font-medium text-ink-500 md:py-4"
+                    >
+                      {r.label}
+                    </th>
+                    {plans.map((p, i) => (
+                      <td
+                        class={`border-t border-t-ink-200/40 px-2 py-3.5 text-center align-middle md:px-4 md:py-4 ${colFill(i)} ${colEdge(i)} ${last ? 'rounded-b-card' : ''} ${last && p.popular ? 'border-b-2 border-b-electric-500' : ''}`}
+                      >
+                        {r.kind === 'text' ? (
+                          <span class="text-base font-semibold text-ink-500">{r.values[i]}</span>
+                        ) : r.on[i] ? (
+                          <>
+                            <span
+                              class={`inline-flex ${p.popular ? 'text-electric-500' : 'text-ink-500'}`}
+                            >
+                              <Icon name="check" class="h-5 w-5" />
+                            </span>
+                            <span class="sr-only">{t('pricing.included')}</span>
+                          </>
+                        ) : (
+                          <>
+                            <span class="text-ink-200" aria-hidden="true">
+                              &ndash;
+                            </span>
+                            <span class="sr-only">{t('pricing.notIncluded')}</span>
+                          </>
+                        )}
+                      </td>
+                    ))}
+                  </tr>
+                );
+              })}
+            </tbody>
+          ))
+        }
+      </table>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* `hidden` has to beat any display utility that lands on the same element. */
+  [hidden] {
+    display: none !important;
+  }
+
+  /* The cue points from the badge down into the annual segment. Mirror it in
+     RTL so it keeps pointing at the segment rather than away from it. */
+  :global(html[dir='rtl']) .cue-arrow {
+    transform: scaleX(-1);
+  }
+</style>
+
 <script>
-  const toggle = document.getElementById('bill-toggle');
-  const knob = document.getElementById('bill-knob');
-  let annual = false;
-  toggle?.addEventListener('click', () => {
-    annual = !annual;
-    toggle.setAttribute('aria-checked', String(annual));
-    toggle.classList.toggle('bg-copper-400', annual);
-    toggle.classList.toggle('bg-ink-200', !annual);
-    knob?.classList.toggle('translate-x-7', annual);
-    document.querySelectorAll<HTMLElement>('.price-amount').forEach((el) => {
-      el.textContent = annual ? el.dataset.annual! : el.dataset.monthly!;
+  const group = document.getElementById('bill-switch');
+  if (group) {
+    const radios = Array.from(group.querySelectorAll<HTMLButtonElement>('[data-bill]'));
+
+    const apply = (mode: string) => {
+      radios.forEach((r) => {
+        const on = r.dataset.bill === mode;
+        r.dataset.active = String(on);
+        r.setAttribute('aria-checked', String(on));
+        r.tabIndex = on ? 0 : -1;
+      });
+      document.querySelectorAll<HTMLElement>('[data-bill-show]').forEach((el) => {
+        el.hidden = el.dataset.billShow !== mode;
+      });
+    };
+
+    radios.forEach((radio, i) => {
+      radio.addEventListener('click', () => apply(radio.dataset.bill || 'monthly'));
+      radio.addEventListener('keydown', (event) => {
+        const keys = ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'];
+        if (!keys.includes(event.key)) return;
+        event.preventDefault();
+        const rtl = document.documentElement.dir === 'rtl';
+        let step = event.key === 'ArrowRight' || event.key === 'ArrowDown' ? 1 : -1;
+        if (rtl && (event.key === 'ArrowRight' || event.key === 'ArrowLeft')) step = -step;
+        const next = radios[(i + step + radios.length) % radios.length];
+        apply(next.dataset.bill || 'monthly');
+        next.focus();
+      });
     });
-  });
+  }
 </script>

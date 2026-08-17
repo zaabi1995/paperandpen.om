@@ -1,17 +1,44 @@
 ---
+/*
+ * BREADCRUMBS — the quietest thing on the page.
+ *
+ * The bottom rule is gone. On a banded page the band edge is the divider, and
+ * a hairline directly above a cream hero on a cream ground just draws a line
+ * across the fold for no reason. This now reads as the first line of the hero
+ * rather than as a separate bar.
+ */
 import { localizePath, type Locale } from '@/i18n';
-interface Crumb { name: string; href?: string }
-interface Props { locale: Locale; crumbs: Crumb[] }
+interface Crumb {
+  name: string;
+  href?: string;
+}
+interface Props {
+  locale: Locale;
+  crumbs: Crumb[];
+}
 const { locale, crumbs } = Astro.props;
 const lp = (p: string) => localizePath(p, locale);
 ---
-<nav aria-label="Breadcrumb" class="bg-cream-50 border-b border-cream-200">
-  <ol class="max-w-6xl mx-auto px-6 lg:px-10 py-3 flex items-center gap-2 text-xs text-ink-400 flex-wrap">
-    {crumbs.map((c, i) => (
-      <li class="flex items-center gap-2">
-        {c.href ? <a href={lp(c.href)} class="hover:text-ink-500 transition-colors">{c.name}</a> : <span class="text-ink-500 font-medium">{c.name}</span>}
-        {i < crumbs.length - 1 && <span class="text-ink-200">/</span>}
-      </li>
-    ))}
+
+<nav aria-label="Breadcrumb" class="bg-paper">
+  <ol class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-2 gap-y-1 px-6 pb-1 pt-6 text-sm text-ink-500 lg:px-10">
+    {
+      crumbs.map((c, i) => (
+        <li class="flex items-center gap-2">
+          {c.href ? (
+            <a href={lp(c.href)} class="no-underline hover:text-electric-500 hover:underline">
+              {c.name}
+            </a>
+          ) : (
+            <span class="font-semibold">{c.name}</span>
+          )}
+          {i < crumbs.length - 1 && (
+            <span class="text-ink-200" aria-hidden="true">
+              /
+            </span>
+          )}
+        </li>
+      ))
+    }
   </ol>
 </nav>

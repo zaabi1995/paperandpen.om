@@ -1,36 +1,125 @@
 ---
-// Lightweight inline icon set (stroke-based, currentColor). Add names as needed.
-interface Props { name?: string; class?: string }
-const { name = 'check', class: cls = 'w-6 h-6' } = Astro.props;
+/*
+ * Icon — one inline, stroke-based family. No sprite, no font, no request.
+ *
+ * FAMILY RULES (what makes this read as one set beside the doodles)
+ *   - 24×24 grid, geometric construction, stroked only — never a filled glyph
+ *     mixed in with outlined ones. That inconsistency is what makes an icon set
+ *     look assembled from three sources.
+ *   - ONE stroke weight, and it is heavier than a stock outline set. The page's
+ *     type is a bold navy serif and the doodles are chunky marker strokes; a
+ *     1.5 hairline icon read as a different, lighter product sitting next to
+ *     them. 1.8 is the weight that matches.
+ *   - Round caps and round joins everywhere, echoing the drawn accents.
+ *   - One concept, one glyph. `quote` and `whatsapp` used to share a path, so a
+ *     quotation and a chat message were indistinguishable; they are now
+ *     distinct. Anything that means the same thing aliases deliberately
+ *     (`hr` → `users`) rather than by accident.
+ *
+ * ACCESSIBILITY
+ *   Decorative by default (`aria-hidden`). Pass `title` when the icon is the
+ *   ONLY content of a control, and it becomes `role="img"` with a name.
+ *   `title` is user-facing copy: it must come from i18n, never a literal.
+ */
+interface Props {
+  name?: string;
+  class?: string;
+  /** Stroke weight override. Leave alone unless an icon sits at a huge size. */
+  weight?: number;
+  /** Accessible name. Supplying it un-hides the icon from assistive tech. */
+  title?: string;
+}
+const { name = 'check', class: cls = 'w-6 h-6', weight = 1.8, title } = Astro.props;
 
 const PATHS: Record<string, string> = {
+  /* --- status & marks ------------------------------------------------ */
   check: 'M5 13l4 4L19 7',
-  invoice: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
-  quote: 'M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.86 9.86 0 01-4-.8L3 21l1.8-4A8.2 8.2 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z',
-  inventory: 'M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4',
-  hr: 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z',
-  accounting: 'M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z',
-  reports: 'M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z',
-  manufacturing: 'M15 12a3 3 0 11-6 0 3 3 0 016 0z M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z',
-  whatsapp: 'M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.86 9.86 0 01-4-.8L3 21l1.8-4A8.2 8.2 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z',
-  clock: 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z',
-  shield: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
+  close: 'M6 6l12 12M18 6L6 18',
+  plus: 'M12 5v14M5 12h14',
+  star: 'M12 4.5l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.6-4.8 2.6.9-5.4-3.9-3.8 5.4-.8L12 4.5z',
+  sparkle:
+    'M12 3.5l1.7 4.6 4.6 1.7-4.6 1.7L12 16.1l-1.7-4.6L5.7 9.8l4.6-1.7L12 3.5z M18.6 16.1l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7.7-1.9z',
   bolt: 'M13 10V3L4 14h7v7l9-11h-7z',
+  shield: 'M9 12l2 2 4-4m5.6-4A12 12 0 0112 2.9 12 12 0 013.4 6 12 12 0 003 9c0 5.6 3.8 10.3 9 11.6 5.2-1.3 9-6 9-11.6 0-1-.1-2-.4-3z',
+  lock: 'M7 11V8a5 5 0 0110 0v3 M6 11h12a1 1 0 011 1v7a1 1 0 01-1 1H6a1 1 0 01-1-1v-7a1 1 0 011-1z',
+  bell: 'M15 17h5l-1.4-1.4A2 2 0 0118 14.2V11a6 6 0 00-4-5.7V5a2 2 0 10-4 0v.3A6 6 0 006 11v3.2c0 .5-.2 1-.6 1.4L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9',
+
+  /* --- navigation ---------------------------------------------------- */
+  'arrow-right': 'M4 12h15 M13 6l6 6-6 6',
+  'chevron-down': 'M6 9.5l6 6 6-6',
+  'chevron-up': 'M6 14.5l6-6 6 6',
+  'chevron-right': 'M9 5.5l6 6-6 6',
+  /* Growth marker for a delta chip. Built on the same 24 grid as `chart` and
+     `reports` so a "+18%" beside a figure reads from the same set, not from a
+     stray arrow glyph. */
+  'trend-up': 'M4 16.5l5-5 3.5 3.5L20 7 M14.5 7H20v5.5',
+  menu: 'M4 7h16M4 12h16M4 17h16',
+  search: 'M11 19a8 8 0 100-16 8 8 0 000 16z M21 21l-4.4-4.4',
+  filter: 'M4 6h16M7 12h10M10 18h4',
+  download: 'M12 4v10 M8 11l4 4 4-4 M5 19h14',
+  refresh: 'M4 4v5h.6m15.3 2A8 8 0 004.6 9m0 0H9m11 11v-5h-.6m0 0a8 8 0 01-15.4-2m15.4 2H15',
+
+  /* --- documents ------------------------------------------------------ */
+  doc: 'M7 21h10a2 2 0 002-2V9.4a1 1 0 00-.3-.7l-5.4-5.4a1 1 0 00-.7-.3H7a2 2 0 00-2 2v14a2 2 0 002 2z',
+  invoice:
+    'M7 21h10a2 2 0 002-2V9.4a1 1 0 00-.3-.7l-5.4-5.4a1 1 0 00-.7-.3H7a2 2 0 00-2 2v14a2 2 0 002 2z M9 12h6 M9 16h6',
+  /* A quotation is a message with a price on it — deliberately NOT the same
+     glyph as `whatsapp`, which it used to be. */
+  quote:
+    'M21 12c0 4.4-4 8-9 8a9.9 9.9 0 01-4-.8L3 21l1.8-4A8.2 8.2 0 013 12c0-4.4 4-8 9-8s9 3.6 9 8z M8.5 10.5h7 M8.5 13.5h4',
+  receipt: 'M9 14l6-6m-5.5.5h.01m4.99 5h.01 M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2z',
+  reports: 'M5 4h14a1 1 0 011 1v13a1 1 0 01-1 1H5a1 1 0 01-1-1V5a1 1 0 011-1z M7.5 14.5l3-3.5 2.5 2.5 3.5-4.5',
+  calendar: 'M8 3v3 M16 3v3 M4 9.5h16 M5 5h14a1 1 0 011 1v13a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1z',
+
+  /* --- commerce ------------------------------------------------------- */
+  cart: 'M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.3 2.3c-.6.6-.2 1.7.7 1.7H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z',
+  card: 'M3 10h18 M7 15h1m4 0h1 M6 19h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z',
+  wallet: 'M3 8a2 2 0 012-2h12a2 2 0 012 2 M3 8v9a2 2 0 002 2h13a2 2 0 002-2v-2 M21 11v4h-4a2 2 0 010-4h4z',
+  bank: 'M3 10h18 M4 10l8-6 8 6 M6.5 10v8 M10 10v8 M14 10v8 M17.5 10v8 M3 21h18',
+  tag: 'M3.5 11.2V5A1.5 1.5 0 015 3.5h6.2a1.5 1.5 0 011 .4l7.4 7.4a1.5 1.5 0 010 2.1l-6.2 6.2a1.5 1.5 0 01-2.1 0l-7.4-7.4a1.5 1.5 0 01-.4-1z M7.8 7.8h.01',
+  percent: 'M19 5L5 19 M7.5 9.5a2.2 2.2 0 100-4.4 2.2 2.2 0 000 4.4z M16.5 18.9a2.2 2.2 0 100-4.4 2.2 2.2 0 000 4.4z',
+  calc: 'M9 7h6m0 4h.01M15 15h.01M12 11h.01M12 15h.01M9 11h.01M9 15h.01 M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z',
+
+  /* --- operations ----------------------------------------------------- */
+  inventory: 'M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4',
+  truck: 'M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.6a1 1 0 01.7.3l3.4 3.4a1 1 0 01.3.7V16a1 1 0 01-1 1h-1',
+  manufacturing:
+    'M15 12a3 3 0 11-6 0 3 3 0 016 0z M10.3 4.3c.4-1.8 2.9-1.8 3.3 0a1.7 1.7 0 002.6 1.1c1.5-.9 3.3.8 2.4 2.4a1.7 1.7 0 001 2.6c1.8.4 1.8 2.9 0 3.3a1.7 1.7 0 00-1 2.6c.9 1.5-.9 3.3-2.4 2.4a1.7 1.7 0 00-2.6 1c-.4 1.8-2.9 1.8-3.3 0a1.7 1.7 0 00-2.6-1c-1.5.9-3.3-.9-2.4-2.4a1.7 1.7 0 00-1-2.6c-1.8-.4-1.8-2.9 0-3.3a1.7 1.7 0 001-2.6c-.9-1.5.9-3.3 2.4-2.4 1 .6 2.3.1 2.6-1z',
+  chart: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2z M9 19V9a2 2 0 012-2h2a2 2 0 012 2v10 M15 19V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z',
+  /* A ledger, NOT a second calculator — `calc` already owns that shape. */
+  accounting: 'M6 3h11a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2z M9 3.5v17 M12 8h4 M12 12h4 M12 16h2.5',
+
+  /* --- people --------------------------------------------------------- */
+  users: 'M17 20h5v-2a3 3 0 00-5.4-1.9M17 20H7m10 0v-2c0-.7-.1-1.3-.4-1.9M7 20H2v-2a3 3 0 015.4-1.9M7 20v-2c0-.7.1-1.3.4-1.9m0 0a5 5 0 019.2 0M15 7a3 3 0 11-6 0 3 3 0 016 0z',
+  /* An employee record, not a crowd — `users` already owns the crowd. */
+  hr: 'M4 5h16a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1z M9.4 12.1a2.1 2.1 0 100-4.2 2.1 2.1 0 000 4.2z M6 16.3a3.7 3.7 0 016.8 0 M15 10h3.4 M15 13.5h2.6',
+
+  /* --- contact & world ------------------------------------------------ */
+  /* A phone handset inside a bubble — the message app, not a quotation. */
+  whatsapp:
+    'M20.5 11.6a8.5 8.5 0 01-12.6 7.5L3.5 20.5l1.5-4.3A8.5 8.5 0 1120.5 11.6z M9.2 9.1c.3-.6.9-.6 1.2-.1l.7 1.2c.2.3.1.6-.1.8l-.5.5c.5 1 1.3 1.8 2.3 2.3l.5-.5c.2-.2.5-.3.8-.1l1.2.7c.5.3.5.9-.1 1.2-1.4.8-3.2.3-4.7-1.2s-2-3.3-1.3-4.8z',
+  mail: 'M4 6h16a1 1 0 011 1v10a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1z M3.5 7.2l8.5 6 8.5-6',
+  phone: 'M6.5 4h3l1.5 4-2 1.5a12 12 0 005.5 5.5L16 13l4 1.5v3a2 2 0 01-2.2 2A16 16 0 014.5 6.2 2 2 0 016.5 4z',
+  pin: 'M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z M12 12.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z',
   globe: 'M21 12a9 9 0 11-18 0 9 9 0 0118 0z M3.6 9h16.8M3.6 15h16.8 M12 3a15 15 0 010 18 M12 3a15 15 0 000 18',
-  card: 'M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z',
-  truck: 'M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1',
-  doc: 'M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z',
-  refresh: 'M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15',
-  bell: 'M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9',
-  receipt: 'M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2z',
-  cart: 'M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z',
-  calc: 'M9 7h6m0 4h.01M15 15h.01M12 11h.01M12 15h.01M9 11h.01M9 15h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z',
-  users: 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z',
-  chart: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z',
+  clock: 'M12 8v4l3 3 M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
+  play: 'M9.5 7.2v9.6L17 12 9.5 7.2z',
 };
-const d = PATHS[name] || PATHS.check;
-const segments = d.split(/\s(?=M)/);
+
+const d = PATHS[name] ?? PATHS.check;
+const a11y = title ? { role: 'img' } : { 'aria-hidden': 'true' };
 ---
-<svg class={cls} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-  {segments.map((seg) => <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={seg} />)}
+<svg
+  class={cls}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width={weight}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  focusable="false"
+  {...a11y}
+>
+  {title && <title>{title}</title>}
+  <path d={d} />
 </svg>

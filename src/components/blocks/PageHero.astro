@@ -1,6 +1,24 @@
 ---
+/*
+ * PAGE HERO — the fold on every inner marketing page (~300 of them).
+ *
+ * The bar's inner heroes are a cream fold, nothing else: a very large
+ * transitional serif title (2–3 short lines), one word of it set in italic
+ * with a hand-drawn squiggle under it, a calm lede, and ONE solid pill. No
+ * dark ground, no mesh, no glass chip, no gradient text, no glow, no second
+ * button competing with the first.
+ *
+ * Accent: the bar rotates the CTA HUE per product page (electric on home and
+ * pricing, lilac on accounting, orange on payments) but never rotates the
+ * accent's JOB — it is spent on the pill and on links, never on badge dots or
+ * icon decoration. `accent` does exactly that here and nothing else. The
+ * squiggle stays violet on every page, exactly as the bar keeps it purple
+ * under a blue CTA on its pricing fold.
+ */
 import { useTranslations, localizePath, type Locale } from '@/i18n';
-import Icon from './Icon.astro';
+import Doodle from './Doodle.astro';
+
+type Accent = 'electric' | 'violet' | 'copper';
 
 interface Props {
   locale: Locale;
@@ -10,41 +28,159 @@ interface Props {
   bullets?: string[];
   primaryCta?: { href: string; label: string };
   secondaryCta?: { href: string; label: string };
+  /* The heading level. Always `h1` on a page hero — the prop exists so a
+     caller can be explicit, and so this block can never emit a second h1. */
+  as?: 'h1' | 'h2';
+  accent?: Accent;
 }
-const { locale, eyebrow, title, subtitle, bullets = [], primaryCta, secondaryCta } = Astro.props;
+const {
+  locale,
+  eyebrow,
+  title,
+  subtitle,
+  bullets = [],
+  primaryCta,
+  secondaryCta,
+  as = 'h1',
+  accent = 'electric',
+} = Astro.props;
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 const primary = primaryCta ?? { href: '/signup', label: t('hero.cta') };
+
+/* The pill fill. Every pairing is a measured AA ratio:
+ *   electric-500 + white  6.15 : 1
+ *   violet-600   + white  7.10 : 1
+ *   copper-300   + ink    7.87 : 1   (never a white label on copper-300)
+ */
+const PILL: Record<Accent, string> = {
+  electric: 'bg-electric-500 text-white hover:bg-electric-600 active:bg-electric-700',
+  violet: 'bg-violet-600 text-white hover:bg-violet-700 active:bg-violet-800',
+  copper: 'bg-copper-300 text-ink-500 hover:bg-copper-200 active:bg-copper-200',
+};
+
+/*
+ * THE SIGNATURE MOVE — one word of the headline set in italic serif with a
+ * hand-drawn line under it.
+ *
+ * 210 of the 240 hero titles in src/content wrap their key phrase in an <em>
+ * that still carries the old system's `text-copper-400 not-italic`. Those
+ * files belong to other pieces, so the phrase is lifted out here and re-drawn
+ * with the shared <Doodle>, which is what the home page uses — same marker,
+ * same hand, across the whole site.
+ *
+ * <Doodle> hugs its word with `white-space: nowrap`, which is right for a
+ * short phrase and dangerous for a long one: the body clips overflow rather
+ * than scrolling it, so an unbreakable 27-character Bengali or Devanagari
+ * phrase at display size would be cut off on a phone. Above that length the
+ * title falls through to the CSS underline in the <style> block below, which
+ * draws under every wrapped line instead.
+ */
+const parts = typeof title === 'string' ? title.match(/^([\s\S]*?)<em\b[^>]*>([\s\S]*?)<\/em>([\s\S]*)$/) : null;
+const emText = parts ? parts[2].replace(/<[^>]+>/g, '').trim() : '';
+const useDoodle = !!parts && emText.length > 0 && emText.length <= 18;
+const before = parts ? parts[1] : '';
+const emphasis = parts ? parts[2] : '';
+const after = parts ? parts[3] : '';
+
+const Heading = as === 'h2' ? 'h2' : 'h1';
 ---
-<section class="relative overflow-hidden bg-mesh-dark text-cream-50 pt-24 pb-20 lg:pt-28 lg:pb-24">
-  <div class="absolute inset-0 bg-grid pointer-events-none"></div>
 
-  <div class="relative max-w-4xl mx-auto px-6 lg:px-10 text-center">
-    {eyebrow && (
-      <div class="inline-flex items-center gap-2 glass text-copper-300 text-xs font-semibold px-3.5 py-1.5 rounded-full mb-6 tracking-widest uppercase">
-        <span class="w-1.5 h-1.5 rounded-full bg-copper-400 animate-pulse"></span>
-        {eyebrow}
-      </div>
-    )}
-    <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-cream-50 leading-[1.08] mb-6" set:html={title}></h1>
-    <p class="text-cream-100/70 text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto mb-9">{subtitle}</p>
+<section class="band band-paper pt-10 pb-16 md:pt-14 md:pb-24 lg:pt-16 lg:pb-28">
+  <div class="mx-auto max-w-5xl text-center">
+    {eyebrow && <p class="eyebrow mb-5">{eyebrow}</p>}
 
-    <div class="flex flex-col sm:flex-row gap-3 justify-center">
-      <a href={lp(primary.href)} class="btn-glow">{primary.label}
-        <svg class="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7l7 7-7 7"/></svg>
-      </a>
-      {secondaryCta && <a href={lp(secondaryCta.href)} class="inline-flex items-center justify-center px-7 py-3.5 glass text-cream-50 font-semibold rounded-xl hover:bg-white/10 transition-all">{secondaryCta.label}</a>}
+    <Heading class="hero-h1 font-display text-display-lg text-ink-500">
+      {useDoodle && <Fragment set:html={before} />}
+      {useDoodle && (
+        <Doodle variant="underline" color="violet">
+          <em class="accent-italic"><Fragment set:html={emphasis} /></em>
+        </Doodle>
+      )}
+      {useDoodle && <Fragment set:html={after} />}
+      {!useDoodle && <Fragment set:html={title} />}
+    </Heading>
+
+    {subtitle && <p class="lede mx-auto mt-7 text-ink-500">{subtitle}</p>}
+
+    <div class="mt-9 flex flex-col items-center justify-center gap-x-8 gap-y-4 sm:flex-row">
+      <a href={lp(primary.href)} class={`btn-base btn-lg ${PILL[accent]}`}>{primary.label}</a>
+      {secondaryCta && (
+        <a
+          href={lp(secondaryCta.href)}
+          class="font-semibold text-ink-500 underline decoration-2 underline-offset-4 hover:text-electric-500"
+          >{secondaryCta.label}</a
+        >
+      )}
     </div>
 
     {bullets.length > 0 && (
-      <ul class="flex flex-wrap gap-x-6 gap-y-2 justify-center mt-8">
+      <ul class="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
         {bullets.map((b) => (
-          <li class="flex items-center gap-2 text-sm text-cream-100/70">
-            <span class="text-emerald-400"><Icon name="check" class="w-4 h-4" /></span>{b}
+          <li class="flex items-center gap-2.5 text-base font-medium text-ink-500">
+            <span
+              class="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-600 text-white"
+              aria-hidden="true"
+            >
+              <svg class="h-3 w-3" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"
+                ><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg
+              >
+            </span>
+            {b}
           </li>
         ))}
       </ul>
     )}
-    <p class="mt-6 text-xs text-cream-100/40 tracking-wide">{t('hero.trialNote')}</p>
+
+    <p class="microcopy mt-6">{t('hero.trialNote')}</p>
   </div>
 </section>
+
+<style is:global>
+  /* `is:global` on purpose. The heading is rendered through a dynamic tag
+     (<Heading>), so a scoped selector would depend on Astro's scope attribute
+     reaching that tag. `.hero-h1` is unique to this component, so scoping it
+     by hand is both safer and exactly equivalent. */
+  /*
+   * THE LONG-PHRASE FALLBACK.
+   *
+   * Short emphases are drawn with the shared <Doodle> above. This handles the
+   * ~33 titles whose phrase is too long to hold on one line — chiefly the
+   * Bengali, Hindi and Urdu ones — plus any title that ships an <em> in some
+   * other shape. It restyles the raw <em> in place: italic serif in the SAME
+   * ink as the rest of the headline, with the violet marker under it. Colour
+   * is not what marks the word; the italic and the drawn line are.
+   *
+   * `.accent-italic` is excluded so the Doodle path is not given a second,
+   * duplicate underline.
+   *
+   * `.hero-h1 :global(em)` compiles to 0,1,1 and so outranks the legacy
+   * `text-copper-400` / `not-italic` utilities (0,1,0) without !important.
+   * :global() is required because that <em> arrives through set:html and
+   * therefore carries no scope attribute.
+   *
+   * The line is a background on the <em> itself rather than an absolutely
+   * positioned ::after, so a phrase that wraps onto two lines is underlined on
+   * BOTH lines (box-decoration-break: clone) instead of only the first.
+   */
+  .hero-h1 em:not(.accent-italic) {
+    font-style: italic;
+    font-weight: inherit;
+    color: inherit;
+    padding-bottom: 0.12em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14' preserveAspectRatio='none'%3E%3Cpath d='M3 9.6c16.4-4.1 32.7-4.4 49.1-1.6 16.3 2.8 32.7 4.1 49 1.4 16.4-2.7 32.7-5.2 49.1-3.1 16.3 2 32.6 5.6 46.8 6.3' fill='none' stroke='%237c3aed' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100% 0.17em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  /* The serif display face carries no Arabic, and a synthesised italic in
+     Arabic or Urdu reads as a rendering fault. RTL keeps the squiggle and
+     drops the slant. */
+  html[dir='rtl'] .hero-h1 em:not(.accent-italic) {
+    font-style: normal;
+    background-position: right bottom;
+  }
+</style>

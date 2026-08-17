@@ -1,35 +1,82 @@
 ---
+/*
+ * FEATURE GRID — the bar's "three cards on a colour band" section.
+ *
+ * What the capture actually shows, and what this now copies: the section
+ * title is a CENTRED serif at section scale, the cards are flat white with a
+ * 2px coloured hairline and NO shadow, the icon sits alone at the top of the
+ * card with no chip behind it, the card title is a large bold sans, and the
+ * whole thing sits directly on a full-bleed pastel band. The band is the
+ * divider — there is no rule, no container border, no card-on-card.
+ *
+ * Bands: `band` is the new orchestration prop. `bg` is the legacy prop that
+ * pages outside this piece still pass ('white' | 'cream'); it keeps working
+ * and simply maps onto the same two neutral grounds.
+ */
 import Icon from './Icon.astro';
 
-interface Feature { icon?: string; title: string; desc: string }
+type Band = 'paper' | 'white' | 'sky' | 'peri' | 'tint';
+
+interface Feature {
+  icon?: string;
+  title: string;
+  desc: string;
+}
 interface Props {
   eyebrow?: string;
   title?: string;
   subtitle?: string;
   features: Feature[];
   bg?: 'white' | 'cream';
+  band?: Band;
 }
-const { eyebrow, title, subtitle, features, bg = 'white' } = Astro.props;
-// Keep heading order valid: if there is no section <h2>, cards become <h2>; otherwise <h3>.
+const { eyebrow, title, subtitle, features, bg, band } = Astro.props;
+
+const resolved: Band = band ?? (bg === 'cream' ? 'paper' : bg === 'white' ? 'white' : 'sky');
+
+const BAND: Record<Band, string> = {
+  paper: 'band-paper',
+  white: 'band-surface',
+  sky: 'band-sky',
+  peri: 'band-peri',
+  tint: 'band-tint',
+};
+
+/* On periwinkle, electric drops to 2.7 : 1 and cannot carry a boundary or a
+ * glyph; ink is 6.96 : 1 there. Everywhere else the mark is the action blue,
+ * the way the bar draws its cards on its blue band. */
+const onPeri = resolved === 'peri';
+const cardEdge = onPeri ? 'border-ink-500' : 'border-electric-500';
+const markColor = onPeri ? 'text-ink-500' : 'text-electric-500';
+
+/* The violet eyebrow is 5.31 : 1 on the sky band but only 3.14 : 1 on
+ * periwinkle, which fails AA for text that small. Ink is 6.96 : 1 there. */
+const eyebrowClass = onPeri ? 'eyebrow-ink' : 'eyebrow';
+
+// Keep heading order valid: if there is no section <h2>, cards become <h2>.
 const CardHeading = title ? 'h3' : 'h2';
 ---
-<section class={`section-pad ${bg === 'cream' ? 'bg-cream-50 border-y border-cream-200' : 'bg-white'}`}>
+
+<section class={`band ${BAND[resolved]}`}>
   <div class="container-wide">
-    {(eyebrow || title) && (
-      <div class="max-w-2xl mb-14 reveal">
-        {eyebrow && <p class="eyebrow mb-3">{eyebrow}</p>}
-        {title && <h2 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight mb-4">{title}</h2>}
-        {subtitle && <p class="text-ink-500/75 text-lg leading-relaxed">{subtitle}</p>}
+    {(eyebrow || title || subtitle) && (
+      <div class="mx-auto mb-14 max-w-3xl text-center md:mb-16">
+        {eyebrow && <p class={`${eyebrowClass} mb-4`}>{eyebrow}</p>}
+        {title && <h2 class="font-display text-display-sm text-ink-500">{title}</h2>}
+        {subtitle && <p class="lede mx-auto mt-5">{subtitle}</p>}
       </div>
     )}
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {features.map((f) => (
-        <div class="reveal group ring-card p-6">
-          <div class="inline-flex p-3 rounded-2xl bg-gradient-to-br from-cream-100 to-cream-200 text-copper-500 mb-5 group-hover:from-copper-50 group-hover:to-copper-300/30 transition-colors">
-            <Icon name={f.icon} class="w-6 h-6" />
-          </div>
-          <CardHeading class="font-semibold text-base text-ink-500 mb-1.5">{f.title}</CardHeading>
-          <p class="text-sm leading-relaxed text-ink-400">{f.desc}</p>
+        <div class={`flex flex-col rounded-card border-2 bg-white p-8 ${cardEdge}`}>
+          <span class={`mb-6 self-center ${markColor}`} aria-hidden="true">
+            <Icon name={f.icon} class="h-10 w-10" />
+          </span>
+          <CardHeading class="mb-4 text-center font-sans text-2xl font-bold leading-tight text-ink-500">
+            {f.title}
+          </CardHeading>
+          <p class="text-base leading-relaxed text-ink-500">{f.desc}</p>
         </div>
       ))}
     </div>

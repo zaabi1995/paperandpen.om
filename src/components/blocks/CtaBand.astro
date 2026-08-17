@@ -1,21 +1,86 @@
 ---
+/*
+ * CTA BAND — the loud pre-footer band.
+ *
+ * This was a dark mesh hero with a grid overlay and a copper glow button. It
+ * is now the bar's closing move: one saturated full-bleed violet band, a big
+ * white serif line, hand-drawn white doodles running off both edges, and ONE
+ * pill. The doodles are the single most distinctive thing about the bar's
+ * page and the easiest thing to lose, so they are drawn here rather than
+ * implied — a loose loop running off each edge, from the shared <Doodle> so
+ * the marker matches the one on the home page.
+ *
+ * The second action is a plain underlined link, not a competing button: the
+ * band should have exactly one thing to press.
+ */
 import { useTranslations, localizePath, type Locale } from '@/i18n';
-interface Props { locale: Locale; title?: string; sub?: string }
+import Doodle from './Doodle.astro';
+interface Props {
+  locale: Locale;
+  title?: string;
+  sub?: string;
+}
 const { locale, title, sub } = Astro.props;
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 ---
-<section class="section-pad bg-mesh-dark relative overflow-hidden">
-  <div class="absolute inset-0 bg-grid pointer-events-none"></div>
-  <div class="relative max-w-3xl mx-auto text-center reveal">
-    <h2 class="font-display text-3xl lg:text-5xl font-bold text-cream-50 leading-tight mb-4">{title ?? t('cta.title')}</h2>
-    <p class="text-cream-100/65 text-lg leading-relaxed mb-8">{sub ?? t('cta.sub')}</p>
-    <div class="flex flex-col sm:flex-row gap-3 justify-center">
-      <a href={lp('/signup')} class="btn-glow">{t('trust.cta')}
-        <svg class="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7l7 7-7 7"/></svg>
-      </a>
-      <a href={lp('/pricing')} class="inline-flex items-center justify-center px-7 py-3.5 glass text-cream-50 font-semibold rounded-xl hover:bg-white/10 transition-all">{t('nav.pricing')}</a>
+
+<section class="band band-violet relative overflow-hidden">
+  {/* Hand-drawn accents, from the shared <Doodle> so they are the same marker
+      the rest of the site uses. `paper` reads as near-white on this band, and a
+      doodle is decoration — it carries no meaning and needs no translation.
+      In free mode `class` replaces the default size, so each one sets its own
+      box as well as its position. */}
+  <Doodle
+    variant="circle"
+    color="paper"
+    seed={0}
+    class="pointer-events-none absolute -start-24 top-10 hidden h-44 w-72 opacity-70 md:block"
+  />
+  <Doodle
+    variant="circle"
+    color="paper"
+    seed={1}
+    class="pointer-events-none absolute -end-24 bottom-8 hidden h-40 w-72 opacity-70 lg:block"
+  />
+
+  <div class="relative mx-auto max-w-3xl text-center">
+    <h2 class="cta-title font-display text-display" set:html={title ?? t('cta.title')} />
+
+    <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white">{sub ?? t('cta.sub')}</p>
+
+    <div class="mt-9 flex flex-col items-center justify-center gap-x-8 gap-y-4 sm:flex-row">
+      <a
+        href={lp('/signup')}
+        class="btn-base btn-lg bg-white text-violet-700 hover:bg-violet-50 active:bg-violet-100"
+        >{t('trust.cta')}</a
+      >
+      <a href={lp('/pricing')} class="font-semibold">{t('nav.pricing')}</a>
     </div>
-    <p class="mt-5 text-xs text-cream-100/40 tracking-wide">{t('hero.trialNote')}</p>
+
+    <p class="mt-6 text-sm text-white">{t('hero.trialNote')}</p>
   </div>
 </section>
+
+<style>
+  /* Same signature move as the hero: any <em> the copy ships becomes an
+     italic serif phrase rather than a colour change. On this band the drawn
+     line is white, since the violet squiggle would vanish into the ground.
+     0,1,1 beats the legacy `text-copper-400 not-italic` utilities on it. */
+  .cta-title :global(em) {
+    font-style: italic;
+    font-weight: inherit;
+    color: inherit;
+    padding-bottom: 0.12em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14' preserveAspectRatio='none'%3E%3Cpath d='M3 9.6c16.4-4.1 32.7-4.4 49.1-1.6 16.3 2.8 32.7 4.1 49 1.4 16.4-2.7 32.7-5.2 49.1-3.1 16.3 2 32.6 5.6 46.8 6.3' fill='none' stroke='%23ffffff' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100% 0.17em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  :global(html[dir='rtl']) .cta-title :global(em) {
+    font-style: normal;
+    background-position: right bottom;
+  }
+</style>

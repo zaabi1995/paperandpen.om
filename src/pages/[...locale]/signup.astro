@@ -9,6 +9,13 @@ const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 ---
+<!--
+  ONE GROUND. The old shell put the form in a white box under a white,
+  hairline-bordered header bar sitting on cream — three surfaces stacked before
+  a single field appeared. The bar never does that: its page is one continuous
+  warm off-white, and the only panels on it are flat tinted fills. So the header
+  and footer here are transparent, and the sole card is the rail inside the form.
+-->
 <BaseLayout
   {locale}
   bare
@@ -17,13 +24,36 @@ const lp = (p: string) => localizePath(p, locale);
   title={t('seo.signupTitle')}
   description={t('seo.signupDesc')}
 >
-  <div class="min-h-screen bg-cream-50 flex flex-col">
-    <header class="bg-white border-b border-cream-200 px-4 py-3 flex items-center justify-between">
-      <a href={lp('/')} class="flex items-center gap-2"><img src="/logo.svg" alt="Paper & Pen ERP" class="h-7 w-auto" /></a>
-      <span class="text-xs text-ink-400">{t('signup.securedBy')}</span>
+  <div class="flex min-h-screen flex-col bg-paper">
+    <header class="px-6 pb-4 pt-6 sm:px-10 sm:pt-8">
+      <div class="mx-auto flex max-w-4xl items-center justify-between gap-4">
+        <a href={lp('/')} class="inline-flex items-center">
+          <img src="/logo.svg" alt="Paper & Pen ERP" class="h-8 w-auto" width="120" height="32" />
+        </a>
+        <a
+          href={lp('/login')}
+          class="text-sm font-semibold text-electric-500 underline-offset-4 hover:text-electric-600 hover:underline"
+        >
+          {t('nav.login')}
+        </a>
+      </div>
     </header>
-    <div class="flex-1 flex items-start justify-center py-12 px-4">
-      <SignupForm client:load {locale} />
+
+    <!-- TOP-ALIGNED, not vertically centred.
+         This used to be `my-auto`, which floated step 1 in the middle of the
+         viewport with roughly equal cream above and below it — the block read
+         as adrift rather than as the thing you came here to do. The step is
+         now anchored just under the logo and the page simply runs out of
+         content underneath, which is what a form is supposed to look like.
+         `flex-1` still pushes the footer to the bottom on a short step. -->
+    <div class="flex flex-1 justify-center px-6 pb-12 pt-6 sm:px-10 sm:pt-10">
+      <div class="w-full max-w-4xl">
+        <SignupForm client:load {locale} />
+      </div>
     </div>
+
+    <footer class="px-6 pb-8 sm:px-10">
+      <p class="mx-auto max-w-4xl text-sm font-medium text-ink-500">{t('signup.securedBy')}</p>
+    </footer>
   </div>
 </BaseLayout>

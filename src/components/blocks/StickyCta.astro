@@ -1,25 +1,63 @@
 ---
+/*
+ * STICKY CTA — the mobile-only bottom bar.
+ *
+ * Two things were wrong with it. It was a dark floating card with a heavy
+ * drop shadow, which the bar has nothing like; and it sat on top of the page
+ * all the way to the end, so on a phone it permanently covered the last band
+ * — including the pre-footer CTA it duplicates, and the footer links.
+ *
+ * It is now a flat bar with a single hairline, and it retracts once the
+ * closing CTA comes into view, so it never covers content. `invisible` rides
+ * with the transform so a hidden bar is also out of the tab order.
+ */
 import { useTranslations, localizePath, type Locale } from '@/i18n';
-interface Props { locale: Locale }
+interface Props {
+  locale: Locale;
+}
 const { locale } = Astro.props;
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 ---
+
 <div
   id="sticky-cta"
-  class="no-print fixed bottom-0 inset-x-0 z-40 lg:hidden translate-y-full transition-transform duration-300 px-4 pb-4"
+  class="no-print invisible fixed inset-x-0 bottom-0 z-40 translate-y-full border-t border-paper-300 bg-white transition-transform duration-300 lg:hidden"
+  style="padding-bottom: env(safe-area-inset-bottom, 0px);"
 >
-  <div class="max-w-md mx-auto bg-ink-500 text-cream-50 rounded-2xl shadow-2xl shadow-ink-900/30 px-4 py-3 flex items-center justify-between gap-3">
-    <span class="text-sm font-medium">{t('sticky.text')}</span>
-    <a href={lp('/signup')} class="shrink-0 px-4 py-2 bg-copper-400 text-white text-sm font-semibold rounded-lg">{t('nav.startFree')}</a>
+  <div class="mx-auto flex max-w-md items-center justify-between gap-4 px-5 py-3">
+    <span class="min-w-0 flex-1 truncate text-sm font-semibold text-ink-500">{t('sticky.text')}</span>
+    <a href={lp('/signup')} class="btn-base btn-sm shrink-0 bg-electric-500 text-white hover:bg-electric-600"
+      >{t('nav.startFree')}</a
+    >
   </div>
 </div>
+
 <script>
   const bar = document.getElementById('sticky-cta');
-  const onScroll = () => {
-    if (window.scrollY > 600) bar?.classList.remove('translate-y-full');
-    else bar?.classList.add('translate-y-full');
-  };
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
+  if (bar) {
+    /* Retract before the end of the document so the closing CTA band and the
+       footer are never covered. 260px ≈ the bar plus a comfortable margin. */
+    const TAIL = 260;
+    let queued = false;
+
+    const apply = () => {
+      queued = false;
+      const doc = document.documentElement;
+      const bottomReached = window.scrollY + window.innerHeight >= doc.scrollHeight - TAIL;
+      const show = window.scrollY > 600 && !bottomReached;
+      bar.classList.toggle('translate-y-full', !show);
+      bar.classList.toggle('invisible', !show);
+    };
+
+    const onScroll = () => {
+      if (queued) return;
+      queued = true;
+      requestAnimationFrame(apply);
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
+    apply();
+  }
 </script>

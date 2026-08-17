@@ -1,56 +1,136 @@
 ---
-interface Row { feature: string; values: (boolean | string)[] }
+/*
+ * COMPARISON TABLE — us against the alternatives.
+ *
+ * Flattened to the bar's language: no card around the table, no rounded
+ * container, no shadow, no zebra fill. The band carries the section and the
+ * only structure inside is a hairline per row plus ONE tinted, blue-edged
+ * column — the same treatment the bar gives its recommended pricing card.
+ *
+ * `<th scope="col">` / `<th scope="row">` are preserved: the row header is
+ * what makes each tick announce as "Multi-currency — Paper & Pen — included"
+ * instead of a bare "tick".
+ */
+import { useTranslations, getLocaleFromUrl, type Locale } from '@/i18n';
+
+type Band = 'paper' | 'white' | 'sky' | 'peri' | 'tint';
+
+interface Row {
+  feature: string;
+  values: (boolean | string)[];
+}
 interface Props {
   eyebrow?: string;
   title?: string;
   cols: string[]; // first column is the highlighted "Paper & Pen" column
   rows: Row[];
   bg?: 'white' | 'cream';
+  band?: Band;
+  locale?: Locale;
 }
-const { eyebrow, title, cols, rows, bg = 'white' } = Astro.props;
+const { eyebrow, title, cols, rows, bg, band, locale } = Astro.props;
 
-function cell(v: boolean | string) {
-  return typeof v === 'string' ? v : v;
-}
+/* A tick with no text announces as an empty cell. These two labels are what
+ * make each row read as "Multi-currency — Paper & Pen — included".
+ *
+ * The locale is resolved from the URL when the caller does not pass one, so
+ * the labels stay translated on the pages outside this piece that mount this
+ * table without a `locale` prop. */
+const t = useTranslations(locale ?? getLocaleFromUrl(Astro.url));
+const yesLabel = t('a11y.included');
+const noLabel = t('a11y.notIncluded');
+
+const resolved: Band = band ?? (bg === 'white' ? 'white' : 'paper');
+const BAND: Record<Band, string> = {
+  paper: 'band-paper',
+  white: 'band-surface',
+  sky: 'band-sky',
+  peri: 'band-peri',
+  tint: 'band-tint',
+};
+
+/* The highlighted column: pale blue fill, 2px electric edges. Both sampled
+   against the token table — ink on tint-blue is 13.8 : 1. */
+const OURS = 'border-x-2 border-electric-500 bg-tint-blue';
+const last = rows.length - 1;
+
+/* The row rule is the table's only structure, so it has to survive the band
+ * it lands on: the warm paper hairline is 1.03 : 1 against sky and vanishes.
+ * Each of these clears 3 : 1 as a non-text boundary on its own ground. */
+const RULE: Record<Band, string> = {
+  paper: 'border-ink-200',
+  white: 'border-ink-200',
+  tint: 'border-ink-200',
+  sky: 'border-ink-300',
+  peri: 'border-ink-500',
+};
+const rule = RULE[resolved];
+const eyebrowClass = resolved === 'peri' ? 'eyebrow-ink' : 'eyebrow';
 ---
-<section class={`section-pad ${bg === 'cream' ? 'bg-cream-50' : 'bg-white'}`}>
-  <div class="max-w-5xl mx-auto">
+
+<section class={`band ${BAND[resolved]}`}>
+  <div class="container-narrow">
     {(eyebrow || title) && (
-      <div class="max-w-2xl mb-12 reveal">
-        {eyebrow && <p class="eyebrow mb-3">{eyebrow}</p>}
-        {title && <h2 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight">{title}</h2>}
+      <div class="mx-auto mb-12 max-w-3xl text-center md:mb-16">
+        {eyebrow && <p class={`${eyebrowClass} mb-4`}>{eyebrow}</p>}
+        {title && <h2 class="font-display text-display-sm text-ink-500">{title}</h2>}
       </div>
     )}
-    <div class="overflow-x-auto rounded-2xl border border-cream-200 shadow-sm reveal">
-      <table class="w-full text-sm min-w-[640px]">
+
+    <div class="-mx-6 overflow-x-auto px-6">
+      <table class="w-full min-w-[640px] border-collapse text-base">
         <thead>
-          <tr class="border-b-2 border-cream-100">
-            <th scope="col" class="text-start px-6 py-5 text-ink-400 font-medium w-56 bg-cream-50"><span class="sr-only">Feature</span></th>
+          <tr>
+            <th scope="col" class="w-1/3 p-0 align-bottom"><span class="sr-only">{t('compare.feature')}</span></th>
             {cols.map((c, i) => (
-              <th scope="col" class={`px-4 py-5 text-center font-semibold ${i === 0 ? 'bg-ink-500 text-cream-50' : 'bg-cream-50 text-ink-400'}`}>
-                {i === 0 ? <span class="font-display font-bold">{c}</span> : c}
+              <th
+                scope="col"
+                class={`px-5 pb-5 pt-6 text-center align-bottom ${i === 0 ? `${OURS} rounded-t-card border-t-2` : ''}`}
+              >
+                {i === 0 ? (
+                  <span class="font-display text-2xl font-semibold text-ink-500">{c}</span>
+                ) : (
+                  <span class="text-base font-semibold text-ink-500">{c}</span>
+                )}
               </th>
             ))}
           </tr>
         </thead>
         <tbody>
-          {rows.map((r) => (
-            <tr class="border-b border-cream-50 last:border-0 hover:bg-cream-50/50 transition-colors">
-              <th scope="row" class="text-start px-6 py-4 text-ink-500 font-medium bg-cream-50/30">{r.feature}</th>
+          {rows.map((r, ri) => (
+            <tr>
+              <th
+                scope="row"
+                class={`border-t ${rule} py-5 pe-6 text-start text-base font-semibold text-ink-500`}
+              >
+                {r.feature}
+              </th>
               {r.values.map((v, i) => (
-                <td class={`px-4 py-4 text-center ${i === 0 ? 'bg-ink-500/5' : ''}`}>
+                <td
+                  class={`border-t ${rule} px-5 py-5 text-center ${
+                    i === 0 ? `${OURS} ${ri === last ? 'rounded-b-card border-b-2' : ''}` : ''
+                  }`}
+                >
                   {typeof v === 'boolean' ? (
                     v ? (
-                      <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-emerald-100 text-emerald-600">
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                      <span
+                        class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-emerald-600 text-white"
+                      >
+                        <span class="sr-only">{yesLabel}</span>
+                        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"
+                          ><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg
+                        >
                       </span>
                     ) : (
-                      <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-cream-100 text-ink-200">
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                      <span class="inline-flex h-7 w-7 items-center justify-center text-ink-300">
+                        <span class="sr-only">{noLabel}</span>
+                        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
+                          ><path stroke-linecap="round" d="M6 18L18 6M6 6l12 12" /></svg
+                        >
                       </span>
                     )
                   ) : (
-                    <span class={i === 0 ? 'font-semibold text-ink-500' : 'text-ink-400'}>{cell(v)}</span>
+                    <span class={i === 0 ? 'font-semibold text-ink-500' : 'text-ink-500'}>{v}</span>
                   )}
                 </td>
               ))}

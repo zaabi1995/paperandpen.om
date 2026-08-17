@@ -1,4 +1,12 @@
 ---
+/*
+ * COMPARE PAGE — "Paper & Pen vs X".
+ *
+ * Same band cadence as MarketingPage: cream fold, then the comparison table
+ * on the first colour band, then alternating splits, then the violet close.
+ * The accent hue is derived from the slug so each comparison page keeps its
+ * own stable pill colour, exactly as the bar gives each product page one.
+ */
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import PageHero from '@/components/blocks/PageHero.astro';
@@ -9,7 +17,10 @@ import CtaBand from '@/components/blocks/CtaBand.astro';
 import { useTranslations, type Locale } from '@/i18n';
 import { graph, organization, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
 
-interface Props { locale: Locale; data: any }
+interface Props {
+  locale: Locale;
+  data: any;
+}
 const { locale, data } = Astro.props;
 const t = useTranslations(locale);
 const path = `/compare/${data.slug}`;
@@ -21,16 +32,66 @@ const crumbs = [
   { name: t('nav.compare'), url: '/compare/paperandpen-vs-zoho' },
   { name: data.title, url: path },
 ];
+
+const ACCENTS = ['electric', 'violet', 'copper'] as const;
+const hash = [...String(data.slug ?? '')].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+const accent = ACCENTS[hash % ACCENTS.length];
+
+const SPLIT_BANDS = ['paper', 'peri', 'white'] as const;
+const VARIANTS = ['stats', 'table', 'doc'] as const;
+const sections = data.sections || [];
+const lastSplitBand = sections.length ? SPLIT_BANDS[(sections.length - 1) % SPLIT_BANDS.length] : 'sky';
+const faqBand = lastSplitBand === 'paper' ? 'white' : 'paper';
+
 const jsonld = [graph(organization(), softwareApplication(), breadcrumbList(crumbs))];
 if (faqs.length) jsonld.push(graph(faqPage(faqs)));
 ---
-<BaseLayout {locale} {path} title={data.metaTitle} description={data.metaDescription} keywords={data.keywords} {jsonld}>
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('nav.compare'), href: '/compare/paperandpen-vs-zoho' }, { name: data.title }]} />
-  <PageHero {locale} eyebrow={data.heroEyebrow} title={data.heroTitle} subtitle={data.heroSubtitle} bullets={data.heroBullets} secondaryCta={{ href: '/pricing', label: t('nav.pricing') }} />
-  <ComparisonTable cols={data.matrixCols} rows={rows} bg="cream" />
-  {(data.sections || []).map((s: any, i: number) => (
-    <FeatureSplit eyebrow={s.eyebrow} title={s.title} body={s.body} items={s.items} flip={i % 2 === 1} bg={i % 2 === 1 ? 'cream' : 'white'} />
+
+<BaseLayout
+  {locale}
+  {path}
+  title={data.metaTitle}
+  description={data.metaDescription}
+  keywords={data.keywords}
+  {jsonld}
+>
+  <Breadcrumbs
+    {locale}
+    crumbs={[
+      { name: 'Home', href: '/' },
+      { name: t('nav.compare'), href: '/compare/paperandpen-vs-zoho' },
+      { name: data.title },
+    ]}
+  />
+
+  <PageHero
+    {locale}
+    as="h1"
+    {accent}
+    eyebrow={data.heroEyebrow}
+    title={data.heroTitle}
+    subtitle={data.heroSubtitle}
+    bullets={data.heroBullets}
+    secondaryCta={{ href: '/pricing', label: t('nav.pricing') }}
+  />
+
+  <ComparisonTable {locale} cols={data.matrixCols} rows={rows} band="sky" />
+
+  {sections.map((s: any, i: number) => (
+    <FeatureSplit
+      eyebrow={s.eyebrow}
+      title={s.title}
+      body={s.body}
+      items={s.items}
+      flip={i % 2 === 1}
+      band={SPLIT_BANDS[i % SPLIT_BANDS.length]}
+      variant={VARIANTS[i % VARIANTS.length]}
+    />
   ))}
-  {faqs.length > 0 && <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} />}
+
+  {faqs.length > 0 && (
+    <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} band={faqBand} />
+  )}
+
   <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} />
 </BaseLayout>

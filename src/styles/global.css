@@ -2,9 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ===========================================================================
+ * Paper & Pen — foundation layer.
+ *
+ * Design language: warm off-white ground, deep ink navy type, ONE electric blue
+ * for actions, full-bleed pastel bands as the section dividers. Flat. Pills.
+ *
+ * ONE INK. Headline, body, microcopy and labels are all #0d1b5e at 14.4 : 1.
+ * The bar sets its H1 and its body copy in the same navy (#001b66 in both,
+ * sampled from the capture) and that single decision is most of why it reads
+ * certain instead of hazy. Hierarchy comes from size and weight only.
+ *
+ * Two things used to lighten the ink behind our backs, and both are shut off
+ * below rather than left to each page to remember:
+ *   1. the `ink-400` token (#404f8f, 7.0 : 1) — now a duplicate of ink-500;
+ *   2. alpha-dimmed utilities, `text-ink-500/50…/80`, which ranged from
+ *      3.19 : 1 (an outright AA failure) to 8.13 : 1.
+ *
+ * Banned and neutralised below (they still compile, they just no longer look
+ * like anything): .btn-glow, .bg-mesh-dark, .bg-grid, .text-gradient, .glass.
+ * ======================================================================== */
+
 @layer base {
   :root {
     color-scheme: light;
+
+    /* Semantic tokens, also readable from inline styles and non-Tailwind CSS. */
+    --pnp-paper: #f9f4f1;
+    --pnp-surface: #fdfaf8;
+    --pnp-hairline: #e9e0d9;
+    --pnp-ink: #0d1b5e;
+    /* Kept as a name only. It resolves to the ink: there is no soft tier. */
+    --pnp-ink-soft: #0d1b5e;
+    /* The one genuinely quieter step. Placeholders and disabled controls
+       ONLY — never body copy, never a caption. 4.88 : 1 on paper. */
+    --pnp-ink-quiet: #5c68a0;
+    --pnp-tint-grey: #ecf0f3;
+    --pnp-tint-blue: #e6f1fe;
+    --pnp-electric: #1650ee;
+    --pnp-electric-deep: #1442c9;
+    --pnp-peri: #9aa8f5;
+    --pnp-sky: #cfe0fb;
+    --pnp-hairline-ink: #7c88b8;
+    --pnp-violet: #6d28d9;
+    --pnp-violet-draw: #7c3aed;
+    --pnp-accent: #ffa15c;
+    --pnp-mint: #d9fbe6;
+
+    /* The only lift in the system. Everything else is flat. */
+    --pnp-lift: 0 1px 2px rgba(13, 27, 94, 0.06);
   }
 
   html {
@@ -13,112 +59,699 @@
   }
 
   body {
-    @apply bg-cream-50 text-ink-500 font-sans antialiased;
+    @apply bg-paper text-ink-500 font-sans antialiased;
+    /* Calm, roomy body copy — ~17px rising to 18px, 1.65 leading. */
+    font-size: 1.0625rem;
+    line-height: 1.65;
     text-rendering: optimizeLegibility;
+    /* `clip` (not `hidden`) so full-bleed bands cannot cause a sideways scroll
+       while `position: sticky` keeps working. */
+    overflow-x: clip;
   }
 
-  /* Arabic / Urdu typography */
+  @media (min-width: 768px) {
+    body {
+      font-size: 1.125rem;
+    }
+  }
+
+  /* Arabic / Urdu typography. Serif display does not carry Arabic, so RTL
+     headings fall back to the Arabic sans at a comfortable leading. */
   html[dir='rtl'] body {
     @apply font-arabic;
   }
+  html[dir='rtl'] h1,
+  html[dir='rtl'] h2,
+  html[dir='rtl'] h3,
+  html[dir='rtl'] h4 {
+    @apply font-arabic;
+    letter-spacing: 0;
+    line-height: 1.25;
+  }
+  html[dir='rtl'] .accent-italic {
+    font-style: normal;
+  }
 
-  h1, h2, h3, h4 {
-    @apply font-display;
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-ink-500;
+    font-weight: 600;
     text-wrap: balance;
+
+    /* Clamp the optical-size axis. Source Serif 4 is variable on [opsz, wght],
+     * and the browser default `font-optical-sizing: auto` selects the master by
+     * rendered size — at a 72px headline that lands on the opsz 60 DISPLAY cut,
+     * which is the hairline, high-contrast, editorial-fashion voice. Measured:
+     * auto width 351.58 == explicit opsz 60 exactly, vs 386.78 at the default
+     * and 442.33 at opsz 8.
+     *
+     * That is why three rounds of critique read the headline as a didone even
+     * after the family was correctly switched off Playfair. It is an axis
+     * problem, not a font-choice problem. Pinning opsz to 24 holds the
+     * moderate-contrast transitional cut at every size, which is the
+     * institutional voice we are matching.
+     *
+     * Only `opsz` is listed, so `font-weight` still drives the `wght` axis
+     * normally. */
+    font-optical-sizing: none;
+    font-variation-settings: 'opsz' 24;
+  }
+
+  /* The bar's display face is set at a book/medium weight, not a bold — the
+     size is what carries it, and a 600 at 88px reads as a much blacker,
+     more templated headline than the bar's. Small headings stay at 600 so
+     card titles keep their weight. An explicit `font-*` utility still wins.
+     (While BaseLayout requests Playfair at 600 and up, 500 simply resolves to
+     the nearest loaded face and this is a no-op — see "concerns".) */
+  h1,
+  h2 {
+    font-weight: 500;
+  }
+
+  /* An <h1> that sets no size utility of its own gets the full display scale —
+     large and tight, the way the bar sets it. An explicit `text-*` utility
+     still wins, because a class (0,1,0) outranks an element (0,0,1).
+     Deliberately h1 ONLY: h2/h3 are used for legal copy and card titles that
+     set weight but no size, and a display-scale default would wreck them. */
+  h1 {
+    @apply text-display-lg;
   }
 
   ::selection {
-    @apply bg-copper-400/20 text-ink-700;
+    background-color: #c2d2ff;
+    color: #0d1b5e;
+  }
+
+  /* Placeholders are the ONE place a quieter navy is correct, and even here it
+     holds AA (4.88 : 1). `opacity: 1` because Firefox dims placeholders by
+     default, which would drop it back under the bar. */
+  ::placeholder {
+    color: var(--pnp-ink-quiet);
+    opacity: 1;
   }
 
   a {
     -webkit-tap-highlight-color: transparent;
   }
+
+  /* Visible, on-brand focus for keyboard users (AA 2.4.7 / 2.4.11). */
+  :focus-visible {
+    outline: 3px solid var(--pnp-electric);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
 }
 
 @layer components {
+  /* =======================================================================
+   * THE ONE INK — enforcement.
+   *
+   * Collapsing the `ink-400` token fixes the ~69 `text-ink-400` call sites,
+   * but the site lightens its ink a second way: 30 alpha-dimmed utilities
+   * (`text-ink-500/50` … `/80`) spread across ToolPage, FaqAccordion,
+   * FeatureGrid, about, Navbar, LangSwitcher and SubdomainChecker. Measured
+   * on the paper ground those land at:
+   *     /50 → 3.19 : 1  (FAILS AA, on SubdomainChecker's field label)
+   *     /65 → 4.97 : 1     /70 → 5.84 : 1
+   *     /75 → 6.89 : 1     /80 → 8.13 : 1
+   * — i.e. the same haze, spelled with an opacity instead of a token. Those
+   * live in files other pieces own, so the fix has to land here.
+   *
+   * The selector is doubled to reach 0,2,0: these are Tailwind utilities, and
+   * the utilities layer is emitted after components, so a single 0,1,0
+   * attribute selector would tie and lose on order.
+   *
+   * Substring-matching the class attribute also catches the `hover:` variants,
+   * which is intended — the hover target was `text-ink-500` (full ink) anyway,
+   * so both states simply resolve to the ink and the hover affordance that
+   * mattered (background tint) is untouched.
+   *
+   * DELETE this block once those components stop dimming their ink.
+   * ==================================================================== */
+  [class*='text-ink-500/'][class*='text-ink-500/'],
+  [class*='text-ink-400/'][class*='text-ink-400/'],
+  [class*='text-ink-600/'][class*='text-ink-600/'],
+  [class*='text-brand-500/'][class*='text-brand-500/'],
+  [class*='text-brand-400/'][class*='text-brand-400/'] {
+    color: var(--pnp-ink);
+  }
+
+  /* …except on a dark band, where ink is invisible. Narrowed to the dimmed
+     forms only — plain `text-ink-500` inside a navy band is almost always a
+     white card sitting on that band, and repainting that would break it.
+     `:not()` keeps the escape hatch for a light surface nested in the band.
+     0,3,0 beats the 0,2,0 above. */
+  :is(.band-navy, .band-violet)
+    :not([class*='bg-white'], [class*='bg-paper'], [class*='bg-cream'], [class*='bg-tint'])
+    > [class*='text-ink-500/'][class*='text-ink-500/'] {
+    color: var(--pnp-paper);
+  }
+
+  /* Navbar spells its dimmed ink inside an Astro-scoped <style> via @apply, so
+     the class attribute reads `nav-link`, not `text-ink-500/75`, and the
+     attribute selectors above cannot see it. Astro's scoping attribute puts
+     those rules at 0,2,0, so matching that ties and loses on source order —
+     `!important` is the only reliable lever from the foundation layer.
+     Scoped to four nav-only class names. Delete with the block above. */
+  .nav-link,
+  .nav-trigger,
+  .mega-link,
+  .m-link {
+    color: var(--pnp-ink) !important;
+  }
+
+  /* Placeholder utilities pointed at the old washed tints (`placeholder-ink-200`
+     was 1.46 : 1) get the AA-safe quiet navy instead. */
+  [class*='placeholder-ink-'][class*='placeholder-ink-']::placeholder,
+  [class*='placeholder-cream-'][class*='placeholder-cream-']::placeholder {
+    color: var(--pnp-ink-quiet);
+    opacity: 1;
+  }
+
+  /* =======================================================================
+   * NO GRADIENTS, ANYWHERE.
+   *
+   * `bg-gradient-to-*` still appears in pages other pieces own (a feature
+   * image placeholder, a blog card, an icon chip, and the homepage chart bars
+   * which fade ink → copper). The bar has no gradient on it at all.
+   *
+   * `background-image: none` is NOT safe here: `from-*`/`to-*` only set custom
+   * properties, they set no background-color, so blanking the image would
+   * render those elements invisible. Instead the gradient is collapsed to a
+   * single stop — its own `from` colour — which flattens it while keeping it
+   * painted, whatever colours the page picked. Tailwind stores that var as
+   * `#rrggbb <position>`, which is a valid colour stop, so this needs no
+   * per-element knowledge and cannot pick a wrong fallback.
+   *
+   * Doubled to 0,2,0 so it outranks the 0,1,0 utility in the later layer.
+   * Deliberately placed BEFORE the `.bg-mesh-dark` block, which flattens to
+   * electric instead and should keep winning inside the legacy hero.
+   * ==================================================================== */
+  [class*='bg-gradient-to-'][class*='bg-gradient-to-'] {
+    background-image: linear-gradient(
+      var(--tw-gradient-from, transparent),
+      var(--tw-gradient-from, transparent)
+    );
+  }
+
+  /* =======================================================================
+   * BUTTONS — full pills, solid fill, no shadow, no gradient, no border glow.
+   * ==================================================================== */
+  .btn-base {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill px-8 py-3.5
+           font-semibold leading-none no-underline transition-colors duration-150;
+    font-size: 1rem;
+  }
+
+  /* The action. Electric fill, white label — 6.15 : 1. */
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 transition-all shadow-lg shadow-ink-500/20 hover:shadow-xl hover:shadow-ink-500/30 hover:-translate-y-0.5;
+    @apply btn-base bg-electric-500 text-white hover:bg-electric-600 active:bg-electric-700;
   }
 
+  /* Quiet action. Navy hairline, navy label. */
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-7 py-3.5 border-2 border-ink-200 text-ink-500 font-semibold rounded-xl hover:border-ink-500 hover:bg-ink-50 transition-all;
+    @apply btn-base border-2 border-ink-500 bg-transparent text-ink-500
+           hover:bg-ink-500 hover:text-paper;
   }
 
+  /* Warm secondary CTA on feature pages. Flat orange, NAVY label — 7.87 : 1.
+     Never give this a white label. */
+  .btn-accent {
+    @apply btn-base bg-copper-300 text-ink-500 hover:bg-copper-200 active:bg-copper-200;
+  }
+
+  /* Use on the periwinkle band, where electric drops to 2.7 : 1 and fails. */
+  .btn-onband {
+    @apply btn-base bg-ink-500 text-paper hover:bg-ink-600;
+  }
+
+  /* Use on the navy band. */
+  .btn-oninverse {
+    @apply btn-base bg-paper text-ink-500 hover:bg-white;
+  }
+
+  .btn-sm {
+    @apply px-5 py-2.5;
+    font-size: 0.9375rem;
+  }
+  .btn-lg {
+    @apply px-9 py-4;
+    font-size: 1.0625rem;
+  }
+  .btn-block {
+    @apply w-full;
+  }
+
+  /* Legacy alias — copper is no longer a primary; it maps to the warm CTA. */
   .btn-copper {
-    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-copper-500 text-white font-semibold rounded-xl hover:bg-copper-600 transition-all shadow-lg;
+    @apply btn-accent;
   }
 
+  /* NEUTRALISED. Was a copper gradient with a glow. Now indistinguishable from
+     .btn-primary so no page can keep the old look by accident. */
+  .btn-glow {
+    @apply btn-primary;
+    background-image: none;
+    box-shadow: none;
+    transform: none;
+  }
+  .btn-glow:hover {
+    box-shadow: none;
+    transform: none;
+  }
+
+  /* -----------------------------------------------------------------------
+   * COMPATIBILITY SHIM — legacy actions built from raw utilities.
+   *
+   * Most CTAs on the site predate `.btn-primary` and are spelled out inline as
+   * `bg-ink-500 text-cream-50 rounded-xl shadow-lg`, or as a copper fill. That
+   * is the other half of the "navy does three jobs" problem: the ground was
+   * navy AND the button on it was navy, so the CTA never separated.
+   *
+   * This re-points any <a>/<button> carrying those legacy fills at the one
+   * action colour, as a full pill with no shadow and no lift. It matches on
+   * the utility class names, so it is a no-op the moment a component migrates
+   * to `.btn-primary` — see "concerns", it is meant to be deleted then.
+   *
+   * Scoped to a/button on purpose: <th class="bg-ink-500"> in the comparison
+   * table and the navy sticky bar are legitimate navy surfaces and are left
+   * alone. Specificity is 0,2,1, so it outranks the utilities it overrides.
+   * --------------------------------------------------------------------- */
+  :is(a, button)[class*='bg-ink-5'][class*='text-cream-'],
+  :is(a, button)[class*='bg-copper-4'],
+  :is(a, button)[class*='bg-copper-5'],
+  :is(a, button)[class*='bg-copper-6'] {
+    background-color: var(--pnp-electric);
+    background-image: none;
+    color: #ffffff;
+    border-radius: 999px;
+    box-shadow: none;
+    transform: none;
+  }
+  :is(a, button)[class*='bg-ink-5'][class*='text-cream-']:hover,
+  :is(a, button)[class*='bg-copper-4']:hover,
+  :is(a, button)[class*='bg-copper-5']:hover,
+  :is(a, button)[class*='bg-copper-6']:hover {
+    background-color: var(--pnp-electric-deep);
+    color: #ffffff;
+    box-shadow: none;
+    transform: none;
+  }
+
+  /* Legacy secondary actions built on `.glass` become the quiet pill. */
+  :is(a, button).glass {
+    border-radius: 999px;
+  }
+
+  /* =======================================================================
+   * BANDS — full-bleed alternating sections. The band IS the divider:
+   * no rules, no boxes-on-boxes, no shadows between sections.
+   * Stack them cream → peri → sky → cream down the page.
+   * ==================================================================== */
+  .band {
+    @apply relative w-full px-6 py-20 md:py-28 lg:py-32;
+
+    /* A band clips its own decorative bleed. The hero's product window is pushed
+     * past the inline-end edge with a negative margin (`lg:-me-[16vw]`) to get
+     * the bar's "runs off the side" effect — but without this, that bleed became
+     * real document scroll: 1646px of scrollWidth in a 1440px viewport, and the
+     * same 1646 on the Arabic RTL page. No visual critic caught it, because a
+     * fold screenshot looks perfectly correct while the page scrolls sideways.
+     *
+     * `clip` rather than `hidden` on purpose: `hidden` would make every band a
+     * scroll container and silently break `position: sticky` inside one. */
+    overflow-x: clip;
+  }
+  .band-tight {
+    @apply py-12 md:py-16;
+  }
+
+  .band-paper {
+    @apply bg-paper text-ink-500;
+  }
+  .band-surface {
+    @apply bg-white text-ink-500;
+  }
+  /* Periwinkle. INK ONLY on this one — white and electric both fail AA here. */
+  .band-peri {
+    @apply bg-peri-400 text-ink-500;
+  }
+  .band-peri a:not([class*='btn-']) {
+    @apply text-ink-500 underline underline-offset-4;
+  }
+  /* Pale blue. Links use the deeper electric (5.92 : 1). */
+  .band-sky {
+    @apply bg-sky-300 text-ink-500;
+  }
+  .band-sky a:not([class*='btn-']) {
+    @apply text-electric-600;
+  }
+  /* Violet. The loud pre-footer CTA band, used once per page at most.
+     white on violet-600 = 7.10 : 1. */
+  .band-violet {
+    @apply bg-violet-600 text-white;
+  }
+  .band-violet h1,
+  .band-violet h2,
+  .band-violet h3,
+  .band-violet h4 {
+    @apply text-white;
+  }
+  .band-violet a:not([class*='btn-']) {
+    @apply text-white underline underline-offset-4;
+  }
+
+  /* Navy. Reserved for the FOOTER. Never the fold: a navy ground above the
+     fold is what made navy do three jobs at once. */
+  .band-navy {
+    @apply bg-ink-500 text-cream-50;
+  }
+  .band-navy h1,
+  .band-navy h2,
+  .band-navy h3,
+  .band-navy h4 {
+    @apply text-cream-50;
+  }
+  .band-navy a:not([class*='btn-']) {
+    @apply text-sky-300;
+  }
+  .band-navy .eyebrow {
+    @apply text-peri-300;
+  }
+
+  /* Neutral grey band — the quietest step, for a spec table or a logo row that
+     should not spend one of the coloured bands. ink-500 on it = 13.7 : 1. */
+  .band-tint {
+    @apply text-ink-500;
+    background-color: var(--pnp-tint-grey);
+  }
+
+  /* Escape hatch: paint a band edge-to-edge from inside a constrained parent. */
+  .full-bleed {
+    width: 100vw;
+    margin-inline: calc(50% - 50vw);
+  }
+
+  /* Ready-made alternating stack. Give a page `.band-stack` and its direct
+     `.band` children take cream → peri → sky → cream automatically, so no page
+     has to hand-maintain the rhythm (and none can drift out of it). */
+  .band-stack > .band:nth-child(4n + 1) {
+    @apply bg-paper text-ink-500;
+  }
+  .band-stack > .band:nth-child(4n + 2) {
+    @apply bg-peri-400 text-ink-500;
+  }
+  .band-stack > .band:nth-child(4n + 3) {
+    @apply bg-sky-300 text-ink-500;
+  }
+  .band-stack > .band:nth-child(4n + 4) {
+    @apply bg-white text-ink-500;
+  }
+
+  /* =======================================================================
+   * TYPE
+   * ==================================================================== */
+  .display-1 {
+    @apply font-display text-display-lg font-semibold text-ink-500;
+  }
+  .display-2 {
+    @apply font-display text-display font-semibold text-ink-500;
+  }
+  .display-3 {
+    @apply font-display text-display-sm font-semibold text-ink-500;
+  }
+
+  /* The signature move: one word of the headline in italic serif. */
+  .accent-italic {
+    @apply font-display italic;
+    font-weight: 600;
+  }
+
+  /* Hand-drawn squiggle under that word. Decorative only — the stroke never
+     carries meaning, so its contrast is not a text requirement. */
+  .squiggle {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .squiggle::after {
+    content: '';
+    position: absolute;
+    left: -0.04em;
+    right: -0.04em;
+    bottom: -0.08em;
+    height: 0.17em;
+    background-image: theme('backgroundImage.squiggle');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    pointer-events: none;
+  }
+  /* Squiggle in the action colour, for use on the paper ground. */
+  .squiggle-electric::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14' preserveAspectRatio='none'%3E%3Cpath d='M3 9.6c16.4-4.1 32.7-4.4 49.1-1.6 16.3 2.8 32.7 4.1 49 1.4 16.4-2.7 32.7-5.2 49.1-3.1 16.3 2 32.6 5.6 46.8 6.3' fill='none' stroke='%231650ee' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+
+  /* The hero / section standfirst. Full ink, exactly like the headline above
+     it — it is set apart by SIZE and measure, not by being lighter. */
+  .lede {
+    @apply text-lede text-ink-500;
+    max-width: 34em;
+  }
+
+  /* Captions, field hints, "no credit card required" rows, table microcopy.
+     Small, and still the full ink at 14.4 : 1 — this class exists so pieces
+     have somewhere to put quiet copy that is not a lighter colour. */
+  .microcopy {
+    @apply text-sm text-ink-500;
+  }
+  .microcopy-strong {
+    @apply text-sm font-semibold text-ink-500;
+  }
+
+  /* Small caps label above a headline. Violet, not copper — 6.47 : 1 on paper. */
   .eyebrow {
-    @apply text-xs font-semibold text-copper-500 tracking-widest uppercase;
+    @apply text-xs font-bold uppercase tracking-[0.14em] text-violet-600;
+  }
+  .eyebrow-ink {
+    @apply text-xs font-bold uppercase tracking-[0.14em] text-ink-500;
+  }
+
+  /* Inline link. Electric, underlined on hover only. */
+  .link {
+    @apply text-electric-500 underline-offset-4 hover:underline;
+  }
+
+  /* NEUTRALISED. Was a copper gradient clipped to text.
+     Inherits rather than forcing ink: hardcoding navy made these numerals
+     invisible wherever the old markup put them on a navy band. Inheriting
+     means they are ink on the paper ground and paper on a navy band. */
+  .text-gradient {
+    background-image: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    color: inherit;
+  }
+
+  /* =======================================================================
+   * SURFACES — flat. Hairline borders, no drop shadow between siblings.
+   * ==================================================================== */
+  .ring-card {
+    @apply rounded-card border border-paper-300 bg-white transition-colors;
+    box-shadow: none;
+  }
+  .ring-card:hover {
+    @apply border-ink-200;
+    box-shadow: none;
+  }
+
+  /* NEUTRALISED. Was frosted glass. Now a plain card. */
+  .glass {
+    background: #ffffff;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border: 1px solid #efe5dd;
+  }
+
+  /* Pricing cards, matching the bar: two flat tinted blocks, no shadow. The
+     quiet one is grey; the recommended one is pale blue with a blue hairline
+     and a notched `.tab-flag` sitting on its top edge. */
+  .card-quiet {
+    @apply rounded-card border border-transparent p-7 text-ink-500;
+    background-color: var(--pnp-tint-grey);
+  }
+  .card-highlight {
+    @apply rounded-card border-2 border-electric-500 p-7 text-ink-500;
+    background-color: var(--pnp-tint-blue);
+  }
+
+  /* Small white callout that overlaps product imagery. The only lift allowed. */
+  .float-card {
+    @apply rounded-xl border border-paper-300 bg-white px-4 py-3 text-sm text-ink-500 shadow-float;
+  }
+
+  /* =======================================================================
+   * NEUTRALISED LEGACY LOOKS
+   *
+   * The old system's dark hero is still referenced by pages other pieces own.
+   * Deleting the selector would break the build, and pointing it at flat navy
+   * (the last round's answer) kept navy doing three jobs at once — ground, ink
+   * AND button fill — so nothing separated from anything.
+   *
+   * So `.bg-mesh-dark` now resolves to the SAME warm paper ground as the rest
+   * of the page. Navy is demoted to ink only. A page still shipping the class
+   * gets a cream fold, not a navy one, and the whole fold sits on one ground.
+   *
+   * The rules under it repair the light-on-dark descendants that would
+   * otherwise be cream-on-cream. Each beats its utility on specificity
+   * (0,2,0 vs 0,1,0), so none of them needs !important.
+   * ==================================================================== */
+  /* Doubled class (0,2,0) on purpose: the old markup puts `text-cream-50` on
+     this same element, and at equal specificity the later utilities layer
+     would win — leaving the section's own text cream-on-cream. */
+  .bg-mesh-dark.bg-mesh-dark {
+    background-color: var(--pnp-paper);
+    background-image: none;
+    color: var(--pnp-ink);
+  }
+
+  /* Light text becomes ink — all of it, at full strength. `--pnp-ink-soft`
+     now resolves to the same ink, so the cream-100 rule below is a no-op kept
+     only so the selector list stays readable; there is no softer tier to
+     demote body copy to any more. */
+  .bg-mesh-dark [class*='text-cream-'],
+  .bg-mesh-dark [class*='text-white'] {
+    color: var(--pnp-ink);
+  }
+  .bg-mesh-dark [class*='text-cream-100'] {
+    color: var(--pnp-ink-soft);
+  }
+
+  /* …except where a child sits on its OWN dark fill (a mock window titlebar,
+     a navy chip). Those keep their light text. 0,3,0 wins. */
+  .bg-mesh-dark [class*='bg-ink-'] [class*='text-cream-'],
+  .bg-mesh-dark [class*='bg-ink-'] [class*='text-white'] {
+    color: var(--pnp-paper);
+  }
+
+  /* Copper stops decorating. Star rows and stray marks fall back to ink; the
+     eyebrow chip takes the violet accent, like the bar's "new feature" pill.
+     Orange's only remaining job in the system is `.btn-accent`. */
+  .bg-mesh-dark [class*='text-copper-'] {
+    color: var(--pnp-ink);
+  }
+  .bg-mesh-dark .glass,
+  .bg-mesh-dark .glass [class*='text-copper-'] {
+    color: var(--pnp-violet);
+  }
+  .bg-mesh-dark .glass [class*='bg-copper-'] {
+    background-color: var(--pnp-violet);
+  }
+
+  /* Flat, not gradient. These elements carry no background-color of their own,
+     so `background-image: none` alone would render them invisible — they need
+     a solid to fall back to. */
+  .bg-mesh-dark [class*='bg-gradient-to-'] {
+    background-image: none;
+    background-color: var(--pnp-electric);
+  }
+
+  /* No glow: kill the absolutely-positioned blurred colour blobs. */
+  .bg-mesh-dark [class*='absolute'][class*='blur-'] {
+    display: none;
+  }
+
+  /* No coloured drop shadows and no lift. `.float-card` stays the one
+     exception, for callouts that overlap product imagery. */
+  .bg-mesh-dark [class*='shadow-']:not(.float-card) {
+    box-shadow: var(--pnp-lift);
+  }
+  /* …and so do the legacy hand-rolled callouts, which are the same thing spelled
+     out inline: absolutely positioned cards overlapping the product image. The
+     bar gives those a soft lift, so they keep one. */
+  .bg-mesh-dark [class*='absolute'][class*='shadow-'] {
+    box-shadow: 0 8px 24px -12px rgba(13, 27, 94, 0.2);
+  }
+  .bg-mesh-dark [class*='border-white'] {
+    border-color: var(--pnp-hairline);
+  }
+
+  /* emerald-400 ticks are 1.9 : 1 on paper. emerald-700 is 5.00 : 1. */
+  .bg-mesh-dark [class*='text-emerald-4'] {
+    color: #047857;
+  }
+
+  /* NEUTRALISED. Was a masked grid overlay. */
+  .bg-grid {
+    background-image: none;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  /* =======================================================================
+   * SMALL PARTS the page pieces share
+   * ==================================================================== */
+
+  /* Big electric numeral with a small unit suffix: <span class="price">190<small>USD/yr</small></span> */
+  .price {
+    @apply font-sans font-bold tracking-tight text-electric-500;
+    font-size: clamp(2.5rem, 1.8rem + 2.6vw, 3.5rem);
+    line-height: 1;
+  }
+  .price small,
+  .price-unit {
+    @apply align-baseline text-base font-bold;
+  }
+
+  /* Pastel segmented toggle with a white active segment. */
+  .seg {
+    @apply inline-flex rounded-pill bg-sky-200 p-1;
+  }
+  .seg-item {
+    @apply rounded-pill px-6 py-2.5 text-sm font-semibold text-ink-500 transition-colors;
+  }
+  .seg-item[aria-selected='true'],
+  .seg-item[data-active='true'] {
+    @apply bg-white;
+  }
+
+  /* Notched "Recommended" tab that sits on a card's top edge. */
+  .tab-flag {
+    @apply inline-block rounded-t-lg bg-electric-500 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-white;
+  }
+
+  .badge-save {
+    @apply inline-block rounded-md bg-mint-100 px-2.5 py-1 text-sm font-bold text-mint-900;
+  }
+  .badge-new {
+    @apply inline-flex items-center gap-2 rounded-md bg-violet-600 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-white;
   }
 
   .section-pad {
-    @apply py-24 px-6 lg:px-10;
+    @apply px-6 py-20 md:py-28 lg:py-32;
   }
-
+  .container-tight {
+    @apply mx-auto max-w-3xl;
+  }
   .container-narrow {
-    @apply max-w-5xl mx-auto;
+    @apply mx-auto max-w-5xl;
   }
-
   .container-wide {
-    @apply max-w-6xl mx-auto;
-  }
-
-  /* --- Bold modern SaaS utilities --- */
-  .text-gradient {
-    background-image: linear-gradient(100deg, #e0bb7e 0%, #d4956a 40%, #c07840 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-  .bg-mesh-dark {
-    background-color: #0c1430;
-    background-image:
-      radial-gradient(60% 55% at 78% 12%, rgba(192, 120, 64, 0.38) 0%, rgba(192, 120, 64, 0) 60%),
-      radial-gradient(50% 50% at 8% 88%, rgba(46, 92, 173, 0.35) 0%, rgba(46, 92, 173, 0) 60%),
-      radial-gradient(40% 40% at 50% 0%, rgba(224, 187, 126, 0.18) 0%, rgba(224, 187, 126, 0) 70%);
-  }
-  .bg-grid {
-    background-image:
-      linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-    background-size: 56px 56px;
-    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
-    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
-  }
-  .glass {
-    background: color-mix(in srgb, #ffffff 8%, transparent);
-    backdrop-filter: blur(12px);
-    border: 1px solid color-mix(in srgb, #ffffff 14%, transparent);
-  }
-  .btn-glow {
-    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 font-semibold rounded-xl text-white transition-all;
-    background-image: linear-gradient(100deg, #c07840, #a85f25);
-    box-shadow: 0 10px 30px -8px rgba(192, 120, 64, 0.6);
-  }
-  .btn-glow:hover {
-    box-shadow: 0 14px 40px -8px rgba(192, 120, 64, 0.75);
-    transform: translateY(-2px);
-  }
-  .ring-card {
-    @apply rounded-3xl border border-cream-200 bg-white transition-all;
-    box-shadow: 0 1px 3px rgba(16, 26, 54, 0.04);
-  }
-  .ring-card:hover {
-    border-color: color-mix(in srgb, #c07840 40%, transparent);
-    box-shadow: 0 20px 50px -20px rgba(16, 26, 54, 0.25);
+    @apply mx-auto max-w-6xl;
   }
 
   /* Tool builder form fields */
   .lbl {
-    @apply block text-xs font-semibold text-ink-400 mb-1;
+    @apply mb-1 block text-xs font-semibold text-ink-500;
   }
   .fld {
-    @apply w-full px-3 py-2.5 rounded-lg border border-cream-300 bg-white text-sm text-ink-600 outline-none focus:border-ink-500 transition-colors;
+    @apply w-full rounded-lg border border-paper-400 bg-white px-3 py-2.5 text-sm
+           text-ink-600 outline-none transition-colors focus:border-electric-500;
   }
   .fld-sm {
-    @apply px-2 py-1.5 rounded-md border border-cream-200 bg-white text-sm text-ink-600 outline-none focus:border-ink-400 transition-colors;
+    @apply rounded-md border border-paper-300 bg-white px-2 py-1.5 text-sm
+           text-ink-600 outline-none transition-colors focus:border-electric-500;
   }
 }
 
@@ -126,8 +759,8 @@
 @media (prefers-reduced-motion: no-preference) {
   .reveal {
     opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+    transform: translateY(16px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
   .reveal.is-visible {
     opacity: 1;
@@ -140,7 +773,6 @@
   .no-print {
     display: none !important;
   }
-  /* Show only the document preview when printing */
   body.printing-doc * {
     visibility: hidden;
   }

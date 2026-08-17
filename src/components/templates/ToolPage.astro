@@ -1,4 +1,14 @@
 ---
+/*
+ * TOOL PAGE — the free document generators and the VAT calculator.
+ *
+ * The fold is the bar's centred cream hero: a very large serif title, a calm
+ * lede, and then the tool itself sitting directly on the ground with no card
+ * or texture wrapped around it. Everything under it takes the same band
+ * cadence as the other inner pages, closing on the violet CTA band.
+ *
+ * The builder islands are owned elsewhere; this template only places them.
+ */
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import FeatureGrid from '@/components/blocks/FeatureGrid.astro';
@@ -10,7 +20,10 @@ import VatCalculator from '@/components/islands/VatCalculator.tsx';
 import { useTranslations, tRaw, localizePath, type Locale } from '@/i18n';
 import { graph, organization, webApplication, howTo, faqPage, breadcrumbList } from '@/lib/schema';
 
-interface Props { locale: Locale; data: any }
+interface Props {
+  locale: Locale;
+  data: any;
+}
 const { locale, data } = Astro.props;
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
@@ -40,6 +53,9 @@ const related = (data.related || []).map((href: string) => {
   return { href, title: seg.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase()) };
 });
 const crumbs = [{ name: 'Home', url: '/' }, { name: t('nav.tools'), url: '/tools' }, { name: data.title, url: path }];
+
+const sections = data.sections || [];
+
 const jsonld = [
   graph(
     organization(),
@@ -50,17 +66,17 @@ const jsonld = [
 ];
 if (faqs.length) jsonld.push(graph(faqPage(faqs)));
 ---
+
 <BaseLayout {locale} {path} title={data.metaTitle} description={data.metaDescription} keywords={data.keywords} {jsonld}>
   <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('nav.tools'), href: '/tools' }, { name: data.title }]} />
 
-  {/* Hero + builder */}
-  <section class="relative overflow-hidden bg-cream-50 pt-14 pb-16">
-    <div class="absolute inset-0 bg-paper-texture pointer-events-none"></div>
-    <div class="relative max-w-6xl mx-auto px-6 lg:px-10">
-      <div class="max-w-2xl mb-10 text-center mx-auto">
-        {data.heroEyebrow && <p class="eyebrow mb-3">{data.heroEyebrow}</p>}
-        <h1 class="font-display text-4xl lg:text-5xl font-bold text-ink-500 leading-tight mb-4">{data.heroTitle}</h1>
-        <p class="text-ink-500/65 text-lg leading-relaxed">{data.heroSubtitle}</p>
+  {/* Fold: centred serif title on cream, then the tool itself. */}
+  <section class="band band-paper pt-10 pb-16 md:pt-14 md:pb-20">
+    <div class="container-wide">
+      <div class="mx-auto mb-12 max-w-4xl text-center md:mb-16">
+        {data.heroEyebrow && <p class="eyebrow mb-5">{data.heroEyebrow}</p>}
+        <h1 class="font-display text-display text-ink-500">{data.heroTitle}</h1>
+        {data.heroSubtitle && <p class="lede mx-auto mt-6">{data.heroSubtitle}</p>}
       </div>
       {isCalc ? (
         <VatCalculator client:load strings={calcStrings} />
@@ -70,23 +86,43 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
     </div>
   </section>
 
-  {data.features && data.features.length > 0 && <FeatureGrid title={t('tool.featuresHeading')} features={data.features} bg="white" />}
+  {data.features && data.features.length > 0 && (
+    <FeatureGrid title={t('tool.featuresHeading')} features={data.features} band="sky" />
+  )}
 
-  {(data.sections || []).length > 0 && (
-    <section class="section-pad bg-white">
-      <div class="container-narrow prose-pp">
-        {(data.sections || []).map((s: any) => (
-          <div class="mb-10 reveal">
-            <h2 class="font-display text-2xl font-bold text-ink-500 mb-3">{s.title}</h2>
-            {s.body && <p class="text-ink-500/70 leading-relaxed">{s.body}</p>}
-            {s.items && <ul class="mt-3 space-y-2">{s.items.map((it: string) => <li class="text-ink-500/70">• {it}</li>)}</ul>}
+  {sections.length > 0 && (
+    <section class="band band-paper">
+      <div class="container-tight">
+        {sections.map((s: any, i: number) => (
+          <div class={i > 0 ? 'mt-14' : ''}>
+            <h2 class="font-display text-display-sm text-ink-500">{s.title}</h2>
+            {s.body && <p class="mt-5 text-base leading-relaxed text-ink-500">{s.body}</p>}
+            {s.items && (
+              <ul class="mt-6 space-y-4">
+                {s.items.map((it: string) => (
+                  <li class="flex items-start gap-3.5">
+                    <span
+                      class="mt-1 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-600 text-white"
+                      aria-hidden="true"
+                    >
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"
+                        ><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg
+                      >
+                    </span>
+                    <span class="text-base leading-relaxed text-ink-500">{it}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         ))}
       </div>
     </section>
   )}
 
-  {faqs.length > 0 && <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} />}
-  <RelatedLinks {locale} title={t('related.title')} links={related} />
+  {faqs.length > 0 && (
+    <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} band="white" />
+  )}
+  <RelatedLinks {locale} title={t('related.title')} links={related} band="tint" />
   <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} />
 </BaseLayout>

@@ -28,110 +28,442 @@ const toolLinks = [
   { href: '/tools/free-receipt-generator', label: t('mega.receiptGen') },
   { href: '/tools/oman-vat-calculator', label: t('mega.vatCalc') },
 ];
+
+/* Current-section highlight. The bar paints the link for the page you are on in
+   its accent (verified: "Pricing" is electric on wave-pricing), so the accent
+   still only ever marks something interactive. Locale prefix is stripped first
+   so /ar/pricing/ lights the same link as /pricing/. */
+const rawPath = Astro.url.pathname;
+const path = rawPath.replace(/^\/(ar|hi|bn|ur)(?=\/|$)/, '') || '/';
+const isActive = (prefix: string) => path === prefix || path.startsWith(prefix + '/');
+const sections = {
+  features: isActive('/features') || isActive('/free-invoicing-software'),
+  solutions: isActive('/industries') || isActive('/use-cases'),
+  tools: isActive('/tools'),
+  pricing: isActive('/pricing'),
+  compare: isActive('/compare'),
+};
 ---
 
-<header
-  id="site-header"
-  class="sticky top-0 z-50 transition-all duration-300 bg-cream-50/0"
-  data-scrolled="false"
->
-  <nav class="max-w-7xl mx-auto px-6 lg:px-10 h-[72px] flex items-center justify-between gap-6">
-    <a href={lp('/')} class="flex items-center gap-2.5 shrink-0" aria-label="Paper & Pen home">
-      <img src="/logo.svg" alt="Paper & Pen ERP" class="h-9 w-auto" width="120" height="36" />
+{/*
+  Nav in the bar's language: the header sits on the SAME paper ground as the
+  page, with no border, no shadow, no blur and no scroll state — the ground is
+  continuous from the wordmark down into the hero. Quiet navy links, one
+  electric full pill hard right. Nothing else on the bar competes with it.
+*/}
+<header id="site-header" class="sticky top-0 z-50 bg-paper">
+  <nav class="max-w-7xl mx-auto px-6 lg:px-10 h-[76px] lg:h-[92px] flex items-center justify-between gap-6">
+    {/*
+      The wordmark. Was `/logo.svg`: an illustrated four-colour shield in a
+      mid-blue (#3c7bbe) that exists nowhere in the token system, locked up with
+      THREE stacked text sizes — "PAPER", "& PEN", and a "Company" line that
+      rendered ~7px tall at a 92px nav and read as a grey smear rather than a
+      word. The bar sets its name once: one mark, one wordmark, one weight, one
+      ink. So does this now.
+
+      The mark is the same silhouette reduced to two flat planes of the ONE ink
+      (`currentColor` + one fill-opacity fold), so it inherits the navy in the
+      nav and the cream in the footer instead of needing a second white-knockout
+      asset. No gradient, no multiply blend, no white inner strokes — all four
+      of which the old file carried and none of which survive at 32px.
+
+      "Paper & Pen" is a proper noun, so it is not localised and needs no
+      i18n key; it stays Latin and LTR in all five locales, which is why the
+      span is explicitly `dir="ltr"` — the bare ampersand is bidi-neutral and
+      would otherwise be resolved by the surrounding ar / ur paragraph
+      direction.
+    */}
+    <a href={lp('/')} class="wm shrink-0" aria-label="Paper &amp; Pen home">
+      <svg class="wm-mark" viewBox="0 0 127.74 201.68" fill="currentColor" aria-hidden="true" focusable="false">
+        <path d="M127.74,68.9L0,0v147.87c0,3.42,1.59,6.65,4.31,8.73l58.79,45.09,60.24-45.09c2.77-2.08,4.41-5.34,4.41-8.8v-78.89h0Z"/>
+        <path d="M38.44,95.23L127.74,68.9,0,0Z" fill-opacity="0.42"/>
+      </svg>
+      <span class="wm-name" dir="ltr">Paper &amp; Pen</span>
     </a>
 
-    {/* Desktop nav */}
-    <div class="hidden lg:flex items-center gap-1">
-      <div class="group relative">
-        <button class="nav-trigger">{t('nav.features')}<svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
-        <div class="mega">
-          <div class="grid grid-cols-2 gap-1 w-[420px]">
-            {featureLinks.map((l) => <a href={lp(l.href)} class="mega-link">{l.label}</a>)}
+    {/* Desktop nav — wide, even spacing, no pills, no hover chips.
+        Gaps and type step up at xl. At exactly 1024px the five labels, the
+        language chip and the pill have to share ~976px, and Bengali's
+        "বিনামূল্যে শুরু করুন" is the widest CTA of the five locales, so lg runs
+        tighter and `Compare` (which also lives in the mobile menu and the
+        footer) only joins the bar at xl. */}
+    <div class="hidden lg:flex self-stretch items-stretch gap-4 xl:gap-8">
+      <div class="relative flex items-center" data-nv-item>
+        <button class="nv-trigger" type="button" aria-expanded="false" aria-controls="nv-mega-features" data-nv-trigger>
+          <span class:list={[sections.features && 'is-current']}>{t('nav.features')}</span>
+          <svg class="nv-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="nv-mega" id="nv-mega-features">
+          <div class="grid grid-cols-2 gap-x-2 gap-y-0.5 w-[460px]">
+            {featureLinks.map((l) => <a href={lp(l.href)} class="nv-mega-link">{l.label}</a>)}
           </div>
-          <a href={lp('/free-invoicing-software')} class="mega-promo">{t('mega.allFeatures')} →</a>
+          <a href={lp('/free-invoicing-software')} class="nv-mega-cta">
+            {t('mega.allFeatures')}
+            <span aria-hidden="true" class="nv-arrow">&#8594;</span>
+          </a>
         </div>
       </div>
 
-      <div class="group relative">
-        <button class="nav-trigger">{t('nav.solutions')}<svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
-        <div class="mega">
-          <div class="grid grid-cols-1 gap-1 w-[260px]">
-            {solutionLinks.map((l) => <a href={lp(l.href)} class="mega-link">{l.label}</a>)}
+      <div class="relative flex items-center" data-nv-item>
+        <button class="nv-trigger" type="button" aria-expanded="false" aria-controls="nv-mega-solutions" data-nv-trigger>
+          <span class:list={[sections.solutions && 'is-current']}>{t('nav.solutions')}</span>
+          <svg class="nv-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="nv-mega" id="nv-mega-solutions">
+          <div class="grid grid-cols-1 gap-0.5 w-[280px]">
+            {solutionLinks.map((l) => <a href={lp(l.href)} class="nv-mega-link">{l.label}</a>)}
           </div>
         </div>
       </div>
 
-      <div class="group relative">
-        <button class="nav-trigger">{t('nav.tools')}<svg class="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
-        <div class="mega">
-          <div class="grid grid-cols-1 gap-1 w-[280px]">
-            {toolLinks.map((l) => <a href={lp(l.href)} class="mega-link">{l.label}</a>)}
-            <a href={lp('/tools')} class="mega-link font-semibold text-copper-500">{t('mega.allTools')} →</a>
+      <div class="relative flex items-center" data-nv-item>
+        <button class="nv-trigger" type="button" aria-expanded="false" aria-controls="nv-mega-tools" data-nv-trigger>
+          <span class:list={[sections.tools && 'is-current']}>{t('nav.tools')}</span>
+          <svg class="nv-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="nv-mega" id="nv-mega-tools">
+          <div class="grid grid-cols-1 gap-0.5 w-[300px]">
+            {toolLinks.map((l) => <a href={lp(l.href)} class="nv-mega-link">{l.label}</a>)}
           </div>
+          <a href={lp('/tools')} class="nv-mega-cta">
+            {t('mega.allTools')}
+            <span aria-hidden="true" class="nv-arrow">&#8594;</span>
+          </a>
         </div>
       </div>
 
-      <a href={lp('/pricing')} class="nav-link">{t('nav.pricing')}</a>
-      <a href={lp('/compare/paperandpen-vs-zoho')} class="nav-link">{t('nav.compare')}</a>
+      <a href={lp('/pricing')} class:list={['nv-link', sections.pricing && 'is-current']} aria-current={sections.pricing ? 'page' : undefined}>{t('nav.pricing')}</a>
+      <a href={lp('/compare/paperandpen-vs-zoho')} class:list={['nv-link', 'nv-link-xl', sections.compare && 'is-current']} aria-current={sections.compare ? 'page' : undefined}>{t('nav.compare')}</a>
     </div>
 
-    {/* Right actions */}
-    <div class="hidden lg:flex items-center gap-4">
+    {/* Right actions — language, plain-text log in, one solid pill. No divider. */}
+    <div class="hidden lg:flex items-center gap-3 xl:gap-6">
       <LangSwitcher client:idle locale={locale} />
-      <div class="w-px h-4 bg-ink-200"></div>
-      <a href={lp('/login')} class="text-sm font-medium text-ink-500/70 hover:text-ink-500 transition-colors">{t('nav.login')}</a>
-      <a href={lp('/signup')} class="px-5 py-2.5 bg-ink-500 text-cream-50 text-sm font-semibold rounded-lg hover:bg-ink-700 transition-all shadow-sm hover:shadow-md">{t('nav.startFree')}</a>
+      <a href={lp('/login')} class="nv-link">{t('nav.login')}</a>
+      <a href={lp('/signup')} class="nv-cta">{t('nav.startFree')}</a>
     </div>
 
-    {/* Mobile toggle */}
-    <button id="mobile-toggle" class="lg:hidden p-2 rounded-lg text-ink-500 hover:bg-ink-100/50 transition-colors" aria-label="Toggle menu" aria-expanded="false">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-    </button>
+    {/* Mobile — the pill rides in the bar next to the toggle, as on the bar. */}
+    <div class="flex items-center gap-2 lg:hidden">
+      <a href={lp('/signup')} class="nv-cta nv-cta-sm">{t('nav.startFree')}</a>
+      <button
+        id="mobile-toggle"
+        type="button"
+        class="-me-2 p-2 text-ink-500"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-width="2" d="M3.5 7h17M3.5 12h17M3.5 17h17"/></svg>
+      </button>
+    </div>
   </nav>
 
-  {/* Mobile menu */}
-  <div id="mobile-menu" class="lg:hidden hidden border-t border-cream-200 bg-cream-50 px-6 py-5 max-h-[80vh] overflow-y-auto shadow-lg">
-    <details class="mb-1"><summary class="m-summary">{t('nav.features')}</summary><div class="pl-3 py-1 flex flex-col">{featureLinks.map((l) => <a href={lp(l.href)} class="m-link">{l.label}</a>)}</div></details>
-    <details class="mb-1"><summary class="m-summary">{t('nav.solutions')}</summary><div class="pl-3 py-1 flex flex-col">{solutionLinks.map((l) => <a href={lp(l.href)} class="m-link">{l.label}</a>)}</div></details>
-    <details class="mb-1"><summary class="m-summary">{t('nav.tools')}</summary><div class="pl-3 py-1 flex flex-col">{toolLinks.map((l) => <a href={lp(l.href)} class="m-link">{l.label}</a>)}<a href={lp('/tools')} class="m-link text-copper-500">{t('mega.allTools')}</a></div></details>
-    <a href={lp('/pricing')} class="m-summary block">{t('nav.pricing')}</a>
-    <a href={lp('/compare/paperandpen-vs-zoho')} class="m-summary block">{t('nav.compare')}</a>
-    <div class="h-px bg-cream-200 my-3"></div>
-    <div class="mb-3"><LangSwitcher client:visible locale={locale} /></div>
-    <a href={lp('/login')} class="m-summary block">{t('nav.login')}</a>
-    <a href={lp('/signup')} class="block text-center mt-2 px-4 py-3 bg-ink-500 text-cream-50 text-sm font-semibold rounded-lg">{t('nav.startFree')}</a>
+  {/* Mobile menu — same ground, one hairline, generous rows. */}
+  {/* `overflow-x-hidden` is explicit, not incidental. `overflow-y-auto` alone
+      already coerces the x axis to `auto`, which means a single long label in
+      hi / bn / ur gets a horizontal scrollbar inside the panel instead of
+      wrapping. Pinning x to hidden keeps the panel a vertical list only, and
+      guarantees the open menu can never add to the document's scroll width —
+      the page-wide horizontal overflow is what makes the footer's navy stop at
+      the viewport edge. */}
+  <div id="mobile-menu" class="lg:hidden hidden border-t border-paper-300 bg-paper px-6 pb-8 pt-2 max-h-[calc(100vh-76px)] overflow-y-auto overflow-x-hidden">
+    <details class="nv-m-group">
+      <summary class="nv-m-summary">{t('nav.features')}<svg class="nv-chevron nv-m-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg></summary>
+      <div class="flex flex-col pb-2">{featureLinks.map((l) => <a href={lp(l.href)} class="nv-m-link">{l.label}</a>)}<a href={lp('/free-invoicing-software')} class="nv-m-link nv-m-link-cta">{t('mega.allFeatures')}</a></div>
+    </details>
+    <details class="nv-m-group">
+      <summary class="nv-m-summary">{t('nav.solutions')}<svg class="nv-chevron nv-m-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg></summary>
+      <div class="flex flex-col pb-2">{solutionLinks.map((l) => <a href={lp(l.href)} class="nv-m-link">{l.label}</a>)}</div>
+    </details>
+    <details class="nv-m-group">
+      <summary class="nv-m-summary">{t('nav.tools')}<svg class="nv-chevron nv-m-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg></summary>
+      <div class="flex flex-col pb-2">{toolLinks.map((l) => <a href={lp(l.href)} class="nv-m-link">{l.label}</a>)}<a href={lp('/tools')} class="nv-m-link nv-m-link-cta">{t('mega.allTools')}</a></div>
+    </details>
+
+    <a href={lp('/pricing')} class="nv-m-row" aria-current={sections.pricing ? 'page' : undefined}>{t('nav.pricing')}</a>
+    <a href={lp('/compare/paperandpen-vs-zoho')} class="nv-m-row" aria-current={sections.compare ? 'page' : undefined}>{t('nav.compare')}</a>
+    <a href={lp('/login')} class="nv-m-row">{t('nav.login')}</a>
+
+    {/* No rule of its own — the `Log in` row above already draws one, and a
+        second would stack two hairlines with a gap between them.
+        `-ms-2.5` cancels the switcher's own inline padding so its flag lines up
+        with the start edge of every row above it. */}
+    <div class="-ms-2.5 mt-6">
+      <LangSwitcher client:visible locale={locale} />
+    </div>
   </div>
 </header>
 
 <style>
-  .nav-trigger { @apply flex items-center gap-1 px-3.5 py-2 text-sm font-medium text-ink-500/75 hover:text-ink-500 transition-colors rounded-lg cursor-pointer; }
-  .nav-link { @apply px-3.5 py-2 text-sm font-medium text-ink-500/75 hover:text-ink-500 transition-colors rounded-lg; }
-  .mega { @apply invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 focus-within:visible focus-within:opacity-100 transition-all absolute top-full start-0 mt-1 bg-white rounded-2xl shadow-2xl shadow-ink-500/10 border border-cream-200 p-3 z-50; }
-  .mega-link { @apply block px-4 py-2.5 text-sm text-ink-500/80 hover:text-ink-500 hover:bg-cream-50 rounded-xl transition-colors; }
-  .mega-promo { @apply block mt-2 px-4 py-2.5 text-sm font-semibold text-copper-500 bg-copper-50 hover:bg-copper-50/70 rounded-xl transition-colors; }
-  .m-summary { @apply py-2.5 text-sm font-semibold text-ink-500 cursor-pointer list-none; }
-  .m-link { @apply py-2 text-sm text-ink-500/70 hover:text-ink-500; }
-  details > summary::-webkit-details-marker { display: none; }
+  /* ---------------------------------------------------------------------
+   * Class names are deliberately `nv-*`, not `nav-link` / `nav-trigger` /
+   * `mega-link` / `m-link`. global.css carries a repair block that pins those
+   * four names to `color: var(--pnp-ink) !important` (it was written to undo
+   * the dimmed `text-ink-500/75` this file used to @apply). That !important
+   * would also swallow the hover and current-page colour below. This file no
+   * longer dims its ink anywhere, so it opts out of the repair instead of
+   * fighting it — see "concerns".
+   * ------------------------------------------------------------------- */
+
+  /* ---------------------------------------------------------------------
+   * Wordmark. ONE weight, ONE ink, ONE size — the whole point of the rebuild.
+   *
+   * The mark is capped at 32px so the lockup answers the critic's own test
+   * ("verify it is legible at 32px tall") at its LARGEST, not just its
+   * smallest: at 92px of nav the name sits at 24px, which is 7px larger than
+   * the nav links beside it — enough to read as the brand, small enough that
+   * it never competes with the pill.
+   *
+   * `font-optical-sizing` is pinned for the same reason global.css pins it on
+   * h1–h4: Source Serif 4 is variable on [opsz, wght], and left on `auto` a
+   * 24px setting drifts toward the text cut while an 88px headline lands on
+   * the display cut, so the wordmark and the headlines would be two visibly
+   * different faces on the same page.
+   * ------------------------------------------------------------------- */
+  .wm {
+    @apply inline-flex items-center gap-2.5 text-ink-500 no-underline;
+  }
+  .wm-mark {
+    @apply h-7 w-auto shrink-0 lg:h-8;
+  }
+  .wm-name {
+    @apply font-display whitespace-nowrap;
+    font-weight: 600;
+    font-size: 1.375rem; /* 22px */
+    line-height: 1;
+    letter-spacing: -0.015em;
+    font-optical-sizing: none;
+    font-variation-settings: 'opsz' 24;
+  }
+  @media (min-width: 1024px) {
+    .wm-name {
+      font-size: 1.5rem; /* 24px */
+    }
+  }
+
+  /* Top-level nav items. Full ink, no chip, no rounded hover background:
+     the only thing that changes on hover is the colour. */
+  .nv-link,
+  .nv-trigger {
+    @apply inline-flex items-center gap-1.5 whitespace-nowrap py-2 font-medium
+           text-ink-500 no-underline transition-colors duration-150 cursor-pointer;
+    font-size: 1rem;
+    line-height: 1.2;
+    background: none;
+    border: 0;
+  }
+  @media (min-width: 1280px) {
+    .nv-link,
+    .nv-trigger {
+      font-size: 1.0625rem; /* 17px, matching the bar's nav */
+    }
+  }
+  .nv-link:hover,
+  .nv-trigger:hover,
+  [data-nv-item]:hover .nv-trigger {
+    @apply text-electric-500;
+  }
+  /* The page you are on. The accent marks an interactive thing — nothing else. */
+  .nv-link.is-current,
+  .nv-trigger .is-current {
+    @apply text-electric-500;
+  }
+
+  /* Held back to xl. NOT the `hidden xl:inline-flex` utilities: `.nv-link` is
+     an @apply rule inside this scoped block, so it carries the Astro scope
+     attribute and outranks a bare 0,1,0 utility — `hidden` would lose and the
+     link would show at lg regardless. Same-specificity, later in source, wins. */
+  .nv-link-xl {
+    display: none;
+  }
+  @media (min-width: 1280px) {
+    .nv-link-xl {
+      display: inline-flex;
+    }
+  }
+
+  .nv-chevron {
+    @apply w-3.5 h-3.5 shrink-0;
+    transition: transform 0.15s ease;
+  }
+  [data-nv-item]:hover .nv-chevron,
+  [data-nv-item][data-open='true'] .nv-chevron {
+    transform: translateY(1px);
+  }
+
+  /* The one solid pill. Full radius, flat fill, white label, no shadow. */
+  .nv-cta {
+    @apply inline-flex items-center justify-center whitespace-nowrap rounded-pill
+           bg-electric-500 px-5 py-3.5 font-semibold leading-none text-white
+           no-underline transition-colors duration-150 xl:px-8 xl:py-[17px];
+    font-size: 1rem;
+  }
+  @media (min-width: 1280px) {
+    .nv-cta {
+      font-size: 1.0625rem;
+    }
+  }
+  .nv-cta:hover {
+    @apply bg-electric-600;
+  }
+  .nv-cta:active {
+    @apply bg-electric-700;
+  }
+  .nv-cta-sm {
+    @apply px-4 py-3;
+    font-size: 0.9375rem;
+  }
+
+  /* --------------------------------------------------------------------- */
+  /* Dropdown panel. Flat white card, hairline, one soft lift — no glass,   */
+  /* no 2xl glow. Opens on hover, on keyboard focus, and on click.          */
+  /* --------------------------------------------------------------------- */
+  /* The item wrapper is stretched to the full header height, so `top-full`
+     lands exactly on the header's bottom edge — the panel hangs off the bar
+     with no dead gap for the pointer to cross on its way down. */
+  .nv-mega {
+    @apply invisible absolute top-full start-0 z-50 rounded-card border
+           border-paper-300 bg-white p-2.5 opacity-0;
+    transform: translateY(4px);
+    box-shadow: 0 10px 28px -14px rgba(13, 27, 94, 0.22);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+  }
+  [data-nv-item]:hover .nv-mega,
+  [data-nv-item]:focus-within .nv-mega,
+  [data-nv-item][data-open='true'] .nv-mega {
+    @apply visible opacity-100;
+    transform: translateY(0);
+  }
+  .nv-mega-link {
+    @apply block rounded-xl px-4 py-3 text-[15px] leading-snug text-ink-500
+           no-underline transition-colors duration-100;
+  }
+  .nv-mega-link:hover {
+    @apply bg-paper text-electric-500;
+  }
+  .nv-mega-cta {
+    @apply mt-2 flex items-center gap-2 border-t border-paper-300 px-4 pt-3.5 pb-1.5
+           text-[15px] font-semibold text-electric-500 no-underline;
+  }
+  .nv-arrow {
+    transition: transform 0.15s ease;
+  }
+  html[dir='rtl'] .nv-arrow {
+    transform: scaleX(-1);
+  }
+  .nv-mega-cta:hover .nv-arrow {
+    transform: translateX(3px);
+  }
+  html[dir='rtl'] .nv-mega-cta:hover .nv-arrow {
+    transform: scaleX(-1) translateX(3px);
+  }
+
+  /* --------------------------------------------------------------------- */
+  /* Mobile                                                                 */
+  /* --------------------------------------------------------------------- */
+  .nv-m-group {
+    @apply border-b border-paper-300;
+  }
+  .nv-m-summary,
+  .nv-m-row {
+    @apply flex w-full min-w-0 items-center justify-between py-4 font-semibold
+           text-ink-500 no-underline cursor-pointer;
+    font-size: 1.0625rem;
+    list-style: none;
+    /* A flex item refuses to shrink below its min-content unless told to, so
+       one long unbreakable label would otherwise push the row — and with it
+       the document — wider than the viewport. */
+    overflow-wrap: break-word;
+  }
+  .nv-m-row {
+    @apply border-b border-paper-300;
+  }
+  .nv-m-summary::-webkit-details-marker,
+  .nv-m-summary::marker {
+    display: none;
+    content: '';
+  }
+  details[open] > .nv-m-summary .nv-m-chevron {
+    transform: rotate(180deg);
+  }
+  /* `ps-3` is padding-inline-start, so the indent flips with the document
+     direction on its own — no dir-specific rule needed. */
+  .nv-m-link {
+    @apply py-2.5 ps-3 text-[15px] text-ink-500 no-underline;
+    overflow-wrap: break-word;
+  }
+  .nv-m-link-cta {
+    @apply font-semibold text-electric-500;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .nv-mega,
+    .nv-chevron,
+    .nv-arrow {
+      transition: none;
+    }
+  }
 </style>
 
 <script>
-  // Scroll style
-  const header = document.getElementById('site-header');
-  const onScroll = () => {
-    if (window.scrollY > 20) {
-      header?.classList.add('bg-cream-50/95', 'backdrop-blur-md', 'shadow-sm', 'border-b', 'border-cream-200');
-    } else {
-      header?.classList.remove('bg-cream-50/95', 'backdrop-blur-md', 'shadow-sm', 'border-b', 'border-cream-200');
-    }
-  };
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
+  /* Dropdowns. CSS already opens them on :hover and :focus-within so they work
+     with no JS at all; this only (a) makes click work for touch/trackpad users
+     on a wide viewport and (b) keeps aria-expanded honest, which the CSS-only
+     version cannot do. */
+  const items = Array.from(document.querySelectorAll<HTMLElement>('[data-nv-item]'));
 
-  // Mobile menu
+  const setOpen = (item: HTMLElement, open: boolean) => {
+    item.setAttribute('data-open', String(open));
+    item.querySelector('[data-nv-trigger]')?.setAttribute('aria-expanded', String(open));
+  };
+  const closeAll = (except?: HTMLElement) => {
+    items.forEach((i) => { if (i !== except) setOpen(i, false); });
+  };
+
+  items.forEach((item) => {
+    const trigger = item.querySelector<HTMLButtonElement>('[data-nv-trigger]');
+    trigger?.addEventListener('click', () => {
+      const open = item.getAttribute('data-open') === 'true';
+      closeAll(item);
+      setOpen(item, !open);
+    });
+    /* Mirror the CSS hover/focus states into aria-expanded. */
+    item.addEventListener('mouseenter', () => trigger?.setAttribute('aria-expanded', 'true'));
+    item.addEventListener('mouseleave', () => {
+      if (item.getAttribute('data-open') !== 'true') trigger?.setAttribute('aria-expanded', 'false');
+    });
+    item.addEventListener('focusin', () => trigger?.setAttribute('aria-expanded', 'true'));
+    item.addEventListener('focusout', (e) => {
+      const next = (e as FocusEvent).relatedTarget as Node | null;
+      if (!next || !item.contains(next)) setOpen(item, false);
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!(e.target as Element)?.closest?.('[data-nv-item]')) closeAll();
+  });
+
+  /* Mobile menu */
   const toggle = document.getElementById('mobile-toggle');
   const menu = document.getElementById('mobile-menu');
-  toggle?.addEventListener('click', () => {
-    const open = menu?.classList.toggle('hidden');
-    toggle.setAttribute('aria-expanded', String(!open));
+  const setMenu = (open: boolean) => {
+    menu?.classList.toggle('hidden', !open);
+    toggle?.setAttribute('aria-expanded', String(open));
+  };
+  toggle?.addEventListener('click', () => setMenu(menu?.classList.contains('hidden') ?? false));
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    const openItem = items.find((i) => i.getAttribute('data-open') === 'true');
+    if (openItem) {
+      setOpen(openItem, false);
+      openItem.querySelector<HTMLButtonElement>('[data-nv-trigger]')?.focus();
+      return;
+    }
+    if (menu && !menu.classList.contains('hidden')) {
+      setMenu(false);
+      toggle?.focus();
+    }
   });
 </script>

@@ -15,6 +15,54 @@ const MODULES = [
   { key: 'reports', price: 5 },
 ];
 
+/*
+ * Field styling, kept as constants so every input on both auth pages is
+ * literally the same object rather than the same string retyped.
+ *
+ *  - h-14 / text-base: tall and comfortable, and 16px stops iOS zooming the
+ *    viewport on focus.
+ *  - border-ink-200 (#7c88b8) is the non-text hairline token: 3.17 : 1 against
+ *    both white and paper, so the control boundary clears WCAG 1.4.11.
+ *  - The focus state moves the border to electric AND lays a soft electric
+ *    halo behind it. The global `:focus-visible` outline still fires for
+ *    keyboard users on top of this; the two stack rather than fight because
+ *    the outline sits outside the ring.
+ *  - Placeholders are ink-300, the one legitimately quieter step (4.88 : 1).
+ */
+const FIELD =
+  'w-full h-14 rounded-xl border bg-white px-5 text-base text-ink-500 ' +
+  'placeholder:text-ink-300 outline-none transition-colors duration-150 ' +
+  'focus:ring-4 focus:ring-electric-100';
+const FIELD_OK = `${FIELD} border-ink-200 focus:border-electric-500`;
+const FIELD_BAD = `${FIELD} border-red-600 focus:border-red-600 focus:ring-red-100`;
+const LABEL = 'mb-2 block text-sm font-semibold text-ink-500';
+
+/*
+ * THE ACTION.
+ *
+ * This used to carry `disabled:bg-ink-100 disabled:text-ink-300`, and because
+ * step 1 opens on an empty field the button was disabled the instant the page
+ * loaded. The only action on the page therefore rendered as a pale lavender
+ * pill with grey text. It read broken, and it was visually weaker than the
+ * plain blue "Log in" link in the header.
+ *
+ * The fix is not a better disabled colour, it is not being disabled at rest.
+ * The CTA is always the solid electric pill with a white label; pressing it
+ * with an incomplete field returns a message that says what is missing and
+ * what to do about it. The only state that still greys it out is the genuine
+ * one: the request is already in flight and a second press would double-post.
+ */
+const CTA = 'btn-primary btn-lg font-bold';
+const CTA_BUSY = 'disabled:bg-ink-100 disabled:text-ink-300';
+
+/*
+ * ...and its WIDTH. Full-bleed on a phone, where a thumb-wide target is the
+ * whole point, and hugging its own label from `sm` up. A 448px-wide slab of
+ * electric blue outweighs the serif headline it is meant to serve; a pill the
+ * width of the word "Continue" reads as an action instead of a banner.
+ */
+const CTA_HUG = 'w-full sm:w-auto';
+
 function sanitizeInitial(value: string) {
   try {
     return normalizeSubdomainCandidate(value || '');
@@ -60,12 +108,16 @@ export default function SignupForm({ locale }: { locale: Locale }) {
     return () => clearTimeout(timer);
   }, [form.subdomain]);
 
-  const update = (field: string, value: string) =>
+  const update = (field: string, value: string) => {
+    /* Typing is the user answering the message, so the message goes away as
+       soon as they start. It never sits there contradicting a fixed field. */
+    setError('');
     setForm((f) => {
       const next = { ...f, [field]: value };
       if (field === 'companyName' || field === 'subdomain') next.subdomain = sanitizeInitial(field === 'companyName' ? value : value);
       return next;
     });
+  };
   const toggle = (key: string) =>
     setSelected((prev) => {
       const next = new Set(prev);
@@ -75,6 +127,30 @@ export default function SignupForm({ locale }: { locale: Locale }) {
 
   const total = MODULES.filter((m) => selected.has(m.key)).reduce((s, m) => s + m.price, 0);
   const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email);
+
+  /* Validation happens on the press, not on every keystroke, so nothing is
+     marked wrong before the user has finished saying it. Each branch names the
+     specific problem and the specific next move. */
+  function goToAccount() {
+    if (!form.companyName.trim()) return setError(t('signup.errors.companyRequired'));
+    if (!form.subdomain) return setError(t('signup.errors.companyLetters'));
+    if (subStatus === 'taken') return setError(t('signup.errors.subdomainTaken'));
+    if (subStatus === 'checking') return setError(t('signup.errors.subdomainChecking'));
+    setError('');
+    setStep(2);
+  }
+
+  function goToModules() {
+    if (!form.email.trim()) return setError(t('signup.errors.emailRequired'));
+    if (!emailOk) return setError(t('signup.errors.emailInvalid'));
+    setError('');
+    setStep(3);
+  }
+
+  function goBack(to: number) {
+    setError('');
+    setStep(to);
+  }
 
   async function handlePayment() {
     setLoading(true);
@@ -115,104 +191,336 @@ export default function SignupForm({ locale }: { locale: Locale }) {
     }
   }
 
-  return (
-    <div className="w-full max-w-md mx-auto">
-      {/* Progress */}
-      <div className="flex gap-1 mb-1">
-        {[1, 2, 3].map((i) => (
-          <div key={i} className={`h-1 flex-1 rounded-full transition-all ${i <= step ? 'bg-copper-400' : 'bg-cream-200'}`} />
-        ))}
-      </div>
-      <div className="flex justify-between mb-8 text-xs text-ink-400">
-        <span className={step >= 1 ? 'text-copper-500 font-medium' : ''}>{t('signup.progress.workspace')}</span>
-        <span className={step >= 2 ? 'text-copper-500 font-medium' : ''}>{t('signup.progress.account')}</span>
-        <span className={step >= 3 ? 'text-copper-500 font-medium' : ''}>{t('signup.progress.modulesPayment')}</span>
-      </div>
+  /* The error surface. A tinted panel washes out on the cream ground, so this
+     is a white card carried by a solid rule on the inline-start edge — which
+     `border-s` mirrors for ar / ur without a second rule. */
+  const errorBox = error ? (
+    <div
+      role="alert"
+      className="mt-8 rounded-xl border border-red-200 border-s-4 border-s-red-600 bg-white px-5 py-4"
+    >
+      <p className="text-sm font-semibold leading-relaxed text-red-800">{error}</p>
+    </div>
+  ) : null;
 
-      {step === 1 && (
-        <div>
-          <h1 className="font-display text-2xl font-bold text-ink-500 mb-1">{t('signup.step1.title')}</h1>
-          <p className="text-sm text-ink-400 mb-6">{t('signup.step1.subtitle')}</p>
-          <label className="lbl">{t('signup.step1.label')}</label>
-          <input className="fld mb-4" value={form.companyName} onChange={(e) => update('companyName', e.target.value)} placeholder={t('signup.step1.placeholder')} autoFocus />
-          {form.subdomain && (
-            <div className="mb-6 px-4 py-3 bg-cream-50 rounded-xl border border-cream-200">
-              <p className="text-xs text-ink-400 mb-1">{t('signup.step1.workspaceUrlLabel')}</p>
-              <div className="flex items-center gap-2 flex-wrap">
-                <span className="font-mono text-sm font-semibold text-ink-500" dir="ltr">{form.subdomain}.paperandpen.om</span>
-                {subStatus === 'checking' && <span className="text-xs text-ink-400">{t('signup.step1.checking')}</span>}
-                {subStatus === 'available' && <span className="text-xs text-emerald-600 font-medium">{t('signup.step1.available')}</span>}
-                {subStatus === 'taken' && <span className="text-xs text-red-500 font-medium">{t('signup.step1.taken')}</span>}
+  const steps = [t('signup.progress.workspace'), t('signup.progress.account'), t('signup.progress.modulesPayment')];
+
+  return (
+    <div className="w-full">
+      {/*
+       * THE MEASURE.
+       *
+       * The form column used to be `minmax(0,1fr)`, so it took whatever was
+       * left of the container — about 650px at 1440, and wider still on a big
+       * monitor. A single company-name field stretched across all of it, which
+       * turned a 56px control into a long shallow trough, and the Continue pill
+       * stretched with it into a blue slab wider than the headline above it.
+       *
+       * The column is now a fixed 28rem / 448px reading measure and the whole
+       * grid is centred inside the container, so there is no dead gutter beside
+       * the fields. Below `lg` the layout is one column and the field goes full
+       * width, which is correct on a phone.
+       */}
+      <div className="grid items-start gap-10 lg:grid-cols-[28rem_19rem] lg:justify-center lg:gap-16">
+        {/* ---------------------------------------------------------------
+         * THE FORM COLUMN
+         * ------------------------------------------------------------- */}
+        <div className="min-w-0">
+          {/* Progress. The filled track carries the state; the labels stay at
+              full ink and separate by WEIGHT, never by being lightened. */}
+          <nav aria-label={t('signup.title')} className="mb-10">
+            <ol className="grid grid-cols-3 gap-2 sm:gap-3">
+              {steps.map((label, i) => {
+                const n = i + 1;
+                const active = n === step;
+                return (
+                  <li key={label} className="min-w-0" aria-current={active ? 'step' : undefined}>
+                    <span
+                      className={`block h-1 rounded-pill ${n <= step ? 'bg-electric-500' : 'bg-ink-100'}`}
+                    />
+                    <span
+                      className={`mt-2.5 block truncate text-xs text-ink-500 ${
+                        active ? 'font-bold' : 'font-medium'
+                      }`}
+                    >
+                      {label}
+                    </span>
+                  </li>
+                );
+              })}
+            </ol>
+          </nav>
+
+          {/* ---------------- STEP 1 — workspace ---------------- */}
+          {step === 1 && (
+            <div>
+              <h1 className="display-3">{t('signup.step1.title')}</h1>
+              <p className="lede mt-3">{t('signup.step1.subtitle')}</p>
+
+              <div className="mt-9">
+                <label className={LABEL} htmlFor="pnp-company">
+                  {t('signup.step1.label')}
+                </label>
+                <input
+                  id="pnp-company"
+                  name="company"
+                  autoComplete="organization"
+                  className={subStatus === 'taken' ? FIELD_BAD : FIELD_OK}
+                  aria-invalid={subStatus === 'taken' || undefined}
+                  aria-describedby={form.subdomain ? 'pnp-workspace-url' : undefined}
+                  value={form.companyName}
+                  onChange={(e) => update('companyName', e.target.value)}
+                  placeholder={t('signup.step1.placeholder')}
+                  autoFocus
+                />
+              </div>
+
+              {form.subdomain && (
+                <div
+                  id="pnp-workspace-url"
+                  className="mt-4 rounded-xl border border-paper-300 bg-white px-5 py-4"
+                >
+                  <p className="text-xs font-semibold uppercase tracking-[0.12em] text-ink-500">
+                    {t('signup.step1.subdomainLabel')}
+                  </p>
+                  <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-2">
+                    <span className="break-all font-mono text-base font-semibold text-ink-500" dir="ltr">
+                      {form.subdomain}
+                      {t('hero.subdomainSuffix')}
+                    </span>
+                    {subStatus === 'checking' && (
+                      <span className="text-xs font-semibold text-ink-500">{t('signup.step1.checking')}</span>
+                    )}
+                    {subStatus === 'available' && (
+                      <span className="rounded-pill bg-mint-100 px-3 py-1 text-xs font-bold text-mint-900">
+                        {t('signup.step1.available')}
+                      </span>
+                    )}
+                    {subStatus === 'taken' && (
+                      <span className="rounded-pill bg-red-100 px-3 py-1 text-xs font-bold text-red-800">
+                        {t('signup.step1.taken')}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {errorBox}
+
+              <button type="button" onClick={goToAccount} className={`${CTA} ${CTA_HUG} ${error ? 'mt-4' : 'mt-8'}`}>
+                {t('signup.step1.next')}
+                <Arrow />
+              </button>
+            </div>
+          )}
+
+          {/* ---------------- STEP 2 — account ---------------- */}
+          {step === 2 && (
+            <div>
+              <h1 className="display-3">{t('signup.step2.title')}</h1>
+              <p className="lede mt-3">{t('signup.step2.subtitle')}</p>
+
+              <div className="mt-9">
+                <label className={LABEL} htmlFor="pnp-email">
+                  {t('signup.step2.emailLabel')}
+                </label>
+                <input
+                  id="pnp-email"
+                  name="email"
+                  type="email"
+                  inputMode="email"
+                  autoComplete="email"
+                  className={FIELD_OK}
+                  dir="ltr"
+                  aria-describedby="pnp-email-hint"
+                  value={form.email}
+                  onChange={(e) => update('email', e.target.value)}
+                  placeholder={t('signup.step2.emailPlaceholder')}
+                  autoFocus
+                />
+                <p id="pnp-email-hint" className="mt-2.5 text-sm text-ink-500">
+                  {t('signup.step2.emailHint')}
+                </p>
+              </div>
+
+              {errorBox}
+
+              {/* `flex-row-reverse` + `justify-end` packs the pair against the
+                  inline-start edge with the primary on the outside, and mirrors
+                  itself for ar / ur. Neither button carries `flex-1` any more:
+                  they size to their labels rather than splitting the measure. */}
+              <div
+                className={`flex flex-col gap-3 sm:flex-row-reverse sm:justify-end ${
+                  error ? 'mt-4' : 'mt-8'
+                }`}
+              >
+                <button type="button" onClick={goToModules} className={CTA}>
+                  {t('signup.step2.next')}
+                  <Arrow />
+                </button>
+                <button type="button" onClick={() => goBack(1)} className="btn-secondary btn-lg">
+                  {t('signup.step2.back')}
+                </button>
               </div>
             </div>
           )}
-          <button
-            onClick={() => form.companyName && form.subdomain && subStatus !== 'taken' && subStatus !== 'checking' && setStep(2)}
-            disabled={!form.companyName || !form.subdomain || subStatus === 'taken' || subStatus === 'checking'}
-            className="w-full py-3 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 disabled:opacity-50 transition-colors"
-          >
-            {t('signup.step1.next')} →
-          </button>
-        </div>
-      )}
 
-      {step === 2 && (
-        <div>
-          <h1 className="font-display text-2xl font-bold text-ink-500 mb-1">{t('signup.step2.title')}</h1>
-          <p className="text-sm text-ink-400 mb-6">{t('signup.step2.subtitle')}</p>
-          <label className="lbl">{t('signup.step2.emailLabel')}</label>
-          <input type="email" className="fld" dir="ltr" value={form.email} onChange={(e) => update('email', e.target.value)} placeholder={t('signup.step2.emailPlaceholder')} autoFocus />
-          <p className="text-xs text-ink-400 mt-1 mb-6">{t('signup.step2.emailHint')}</p>
-          <div className="flex gap-3">
-            <button onClick={() => setStep(1)} className="flex-1 py-3 border border-cream-300 text-ink-500 font-semibold rounded-xl hover:bg-cream-50">{t('signup.step2.back')}</button>
-            <button onClick={() => emailOk && setStep(3)} disabled={!emailOk} className="flex-1 py-3 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 disabled:opacity-50">{t('signup.step2.next')} →</button>
-          </div>
-        </div>
-      )}
-
-      {step === 3 && (
-        <div>
-          <h1 className="font-display text-2xl font-bold text-ink-500 mb-1">{t('signup.step3.title')}</h1>
-          <p className="text-sm text-ink-400 mb-4">{t('signup.step3.subtitle')}</p>
-          <div className="mb-4 p-4 rounded-xl bg-ink-500 text-cream-50 flex items-center justify-between">
+          {/* ---------------- STEP 3 — modules & payment ---------------- */}
+          {step === 3 && (
             <div>
-              <span className="font-semibold text-sm">{t('signup.step3.baseTitle')}</span>
-              <p className="text-xs text-cream-100/60 mt-0.5">{t('signup.step3.baseSub')}</p>
-            </div>
-            <span className="text-sm font-bold text-emerald-400">{t('signup.step3.baseTag')}</span>
-          </div>
-          <div className="space-y-2 mb-6">
-            {MODULES.map(({ key, price }) => {
-              const active = selected.has(key);
-              return (
-                <button key={key} onClick={() => toggle(key)} className={`w-full text-start p-4 rounded-xl border-2 transition-all flex items-center justify-between ${active ? 'border-copper-400 bg-copper-50' : 'border-cream-200 hover:border-cream-300'}`}>
-                  <div className="flex items-center gap-3">
-                    <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 ${active ? 'border-copper-400 bg-copper-400' : 'border-cream-300'}`}>
-                      {active && <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>}
-                    </div>
-                    <span className="font-medium text-sm text-ink-500">{t(`modules.${key}.title`)}</span>
+              <h1 className="display-3">{t('signup.step3.title')}</h1>
+              <p className="lede mt-3">{t('signup.step3.subtitle')}</p>
+
+              {/* The "Sales & Invoicing is free" card that used to sit here was
+                  a navy slab repeating what the subtitle, the rail and the
+                  Base row of the summary all already say. Dropped: the module
+                  list now starts straight after the heading. */}
+              <div className="mt-9 space-y-3">
+                {MODULES.map(({ key, price }) => {
+                  const active = selected.has(key);
+                  return (
+                    <button
+                      key={key}
+                      type="button"
+                      onClick={() => toggle(key)}
+                      aria-pressed={active}
+                      className={`flex w-full items-center justify-between gap-4 rounded-card border-2 px-5 py-4 text-start transition-colors duration-150 ${
+                        active
+                          ? 'border-electric-500 bg-electric-50'
+                          : 'border-paper-300 bg-white hover:border-ink-200'
+                      }`}
+                    >
+                      <span className="flex min-w-0 items-center gap-3.5">
+                        <span
+                          aria-hidden="true"
+                          className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-md border-2 ${
+                            active ? 'border-electric-500 bg-electric-500' : 'border-ink-200 bg-white'
+                          }`}
+                        >
+                          {active && (
+                            <svg className="h-3 w-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3.5} d="M5 13l4 4L19 7" />
+                            </svg>
+                          )}
+                        </span>
+                        <span className="truncate font-semibold text-ink-500">{t(`modules.${key}.title`)}</span>
+                      </span>
+                      <span
+                        dir="ltr"
+                        className={`shrink-0 text-sm font-bold ${active ? 'text-electric-500' : 'text-ink-500'}`}
+                      >
+                        {t('modules.pricePerMonth', { price })}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Order summary. Kept beside the CTA rather than in the rail —
+                  it is the decision being made, not standing context. */}
+              <div className="mt-6 rounded-card border border-paper-300 bg-white px-5 py-4">
+                <div className="flex items-center justify-between gap-4 py-1.5 text-sm">
+                  <span className="text-ink-500">{t('signup.step3.baseRow')}</span>
+                  <span className="font-semibold text-emerald-500">{t('signup.step3.baseValue')}</span>
+                </div>
+                {total > 0 && (
+                  <div className="flex items-center justify-between gap-4 py-1.5 text-sm">
+                    <span className="text-ink-500">{t('signup.step3.addonsLabel')}</span>
+                    <span className="font-semibold text-ink-500" dir="ltr">
+                      {total} {t('modules.omr_mo')}
+                    </span>
                   </div>
-                  <span className={`text-sm font-bold shrink-0 ${active ? 'text-copper-600' : 'text-ink-400'}`}>{t('modules.pricePerMonth', { price })}</span>
+                )}
+                <div className="mt-2 flex items-center justify-between gap-4 border-t border-paper-300 pt-3">
+                  <span className="font-semibold text-ink-500">{t('signup.step3.dueToday')}</span>
+                  <span className="font-display text-2xl font-semibold text-electric-500" dir="ltr">
+                    0.000 OMR
+                  </span>
+                </div>
+                <p className="mt-3 text-sm leading-relaxed text-ink-500">
+                  {total > 0 ? t('signup.step3.paidNote', { total }) : t('signup.step3.freeNote')}
+                </p>
+              </div>
+
+              {errorBox}
+
+              <div
+                className={`flex flex-col gap-3 sm:flex-row-reverse sm:justify-end ${
+                  error ? 'mt-4' : 'mt-8'
+                }`}
+              >
+                {/* The one place the greyed treatment is honest: the request is
+                    already away and a second press would create a second
+                    workspace. Everywhere else the pill stays electric. */}
+                <button
+                  type="button"
+                  onClick={handlePayment}
+                  disabled={loading}
+                  className={`${CTA} ${CTA_BUSY}`}
+                >
+                  {loading ? (
+                    <>
+                      <span
+                        aria-hidden="true"
+                        className="h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent"
+                      />
+                      {t('signup.step3.btnLoading')}
+                    </>
+                  ) : total > 0 ? (
+                    t('signup.step3.btnPaid')
+                  ) : (
+                    t('signup.step3.btnFree')
+                  )}
                 </button>
-              );
-            })}
-          </div>
-          <div className="bg-cream-50 rounded-xl p-4 mb-4 border border-cream-200 text-sm">
-            <div className="flex justify-between mb-2"><span className="text-ink-400">{t('signup.step3.baseRow')}</span><span className="text-emerald-600 font-medium">{t('signup.step3.baseValue')}</span></div>
-            {total > 0 && <div className="flex justify-between mb-2"><span className="text-ink-400">{t('signup.step3.addonsLabel')}</span><span className="font-semibold text-ink-500">{total} OMR/mo</span></div>}
-            <div className="border-t border-cream-200 pt-2 flex justify-between"><span className="text-ink-400">{t('signup.step3.dueToday')}</span><span className="font-bold text-ink-500">0.000 OMR</span></div>
-            <p className="text-xs text-ink-400 mt-2">{total > 0 ? t('signup.step3.paidNote', { total }) : t('signup.step3.freeNote')}</p>
-          </div>
-          {error && <div className="mb-4 px-4 py-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">{error}</div>}
-          <div className="flex gap-3">
-            <button onClick={() => setStep(2)} disabled={loading} className="flex-1 py-3 border border-cream-300 text-ink-500 font-semibold rounded-xl hover:bg-cream-50">{t('signup.step3.back')}</button>
-            <button onClick={handlePayment} disabled={loading} className="flex-1 py-3 bg-copper-400 text-white font-semibold rounded-xl hover:bg-copper-500 disabled:opacity-50 flex items-center justify-center gap-2">
-              {loading ? <><span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />{t('signup.step3.btnLoading')}</> : total > 0 ? t('signup.step3.btnPaid') : t('signup.step3.btnFree')}
-            </button>
-          </div>
-          <p className="text-center text-xs text-ink-400 mt-4">{total > 0 ? t('signup.step3.footerPaid') : t('signup.step3.footerFree')}</p>
+                <button
+                  type="button"
+                  onClick={() => goBack(2)}
+                  disabled={loading}
+                  className="btn-secondary btn-lg disabled:border-ink-200 disabled:text-ink-300 disabled:hover:bg-transparent disabled:hover:text-ink-300"
+                >
+                  {t('signup.step3.back')}
+                </button>
+              </div>
+
+              <p className="mt-5 text-sm text-ink-500">
+                {total > 0 ? t('signup.step3.footerPaid') : t('signup.step3.footerFree')}
+              </p>
+            </div>
+          )}
         </div>
-      )}
+
+        {/* ---------------------------------------------------------------
+         * THE RAIL — standing context, identical on every step. Flat pale-blue
+         * fill, no shadow, no border. ink on tint-blue is 13.8 : 1.
+         * ------------------------------------------------------------- */}
+        <aside className="rounded-card bg-tint-blue px-7 py-7 lg:sticky lg:top-10">
+          <p className="eyebrow-ink">{t('modules.included')}</p>
+          <p className="mt-4 font-display text-2xl font-semibold leading-tight text-ink-500">
+            {t('signup.step3.baseTitle')}
+          </p>
+          <p className="mt-2 text-sm leading-relaxed text-ink-500">{t('signup.step3.baseSub')}</p>
+          <span className="mt-4 inline-block rounded-pill bg-mint-100 px-3 py-1 text-xs font-bold uppercase tracking-[0.1em] text-mint-900">
+            {t('signup.step3.baseTag')}
+          </span>
+          <div className="my-6 h-px bg-white" />
+          <p className="text-sm leading-relaxed text-ink-500">{t('cta.sub')}</p>
+        </aside>
+      </div>
     </div>
+  );
+}
+
+/* Forward arrow. Mirrored for ar / ur so it never points back at the user. */
+function Arrow() {
+  return (
+    <svg
+      aria-hidden="true"
+      className="h-4 w-4 shrink-0 rtl:rotate-180"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14m-7-7l7 7-7 7" />
+    </svg>
   );
 }

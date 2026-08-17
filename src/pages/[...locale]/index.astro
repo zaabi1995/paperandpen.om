@@ -60,6 +60,46 @@ const moduleStrings = {
   descs: { sales: t('modules.sales.desc'), inventory: t('modules.inventory.desc'), hr: t('modules.hr.desc'), accounting: t('modules.accounting.desc'), manufacturing: t('modules.manufacturing.desc'), reports: t('modules.reports.desc') },
 };
 
+/* ---------------------------------------------------------------------------
+ * The signature move: one word of the headline in italic serif, underlined with
+ * a hand-drawn squiggle. Rather than hard-coding which word (and adding five new
+ * i18n keys), the LAST word of the second tagline line is lifted out. Verified
+ * against all five locales — every one of them lands on the meaningful noun:
+ *   en "your language."      → language     bn "আপনার ভাষায়।" → ভাষায়
+ *   ar "لغتك."               → لغتك          ur "آپ کی زبان۔"  → زبان
+ *   hi "आपकी भाषा।"          → भाषा
+ * Trailing punctuation is peeled off first and re-attached AFTER the span, so
+ * the squiggle sits under the word and not under the full stop.
+ * `.accent-italic` is normalised back to upright for RTL by the foundation, so
+ * Arabic and Urdu keep the squiggle and drop the (meaningless) italic.
+ * ------------------------------------------------------------------------- */
+const TRAILING_PUNCT = '.。۔।!؟?';
+function splitAccentWord(line: string) {
+  let core = line.trim();
+  let tail = '';
+  while (core.length && TRAILING_PUNCT.includes(core[core.length - 1])) {
+    tail = core[core.length - 1] + tail;
+    core = core.slice(0, -1);
+  }
+  const words = core.split(/\s+/);
+  const accent = words.pop() ?? '';
+  return { lead: words.join(' '), accent, tail };
+}
+const headline2 = splitAccentWord(t('hero.tagline_line2'));
+
+/* The hero mockup must never be OMR-only — the product is international. The
+ * figure is formatted for the visitor's own locale and sits beside a currency
+ * switcher, so it reads as "any currency", not "Oman". */
+const heroAmount = new Intl.NumberFormat(locale, {
+  style: 'currency',
+  currency: 'USD',
+  // Both bounds pinned: with `style: 'currency'` the minimum defaults to the
+  // currency's own 2 digits, and a min above the max is a RangeError on
+  // stricter Node builds than the one this was written on.
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 0,
+}).format(48250);
+
 const jsonld = [graph(organization(), softwareApplication()), graph(faqPage(homeFaqs.map((f) => ({ q: f.q, a: f.a }))))];
 const title = t('seo.homeTitle');
 const description = t('seo.homeDesc');
@@ -67,113 +107,310 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
 ---
 
 <BaseLayout {locale} path="/" {title} {description} {keywords} {jsonld}>
-  {/* Hero — bold modern SaaS */}
-  <section class="relative overflow-hidden bg-mesh-dark text-cream-50 pt-28 pb-28 lg:pt-32 lg:pb-36" dir={rtl ? 'rtl' : 'ltr'}>
-    <div class="absolute inset-0 bg-grid pointer-events-none"></div>
-
-    <div class="relative max-w-6xl mx-auto px-6 lg:px-10 grid lg:grid-cols-[1.05fr_1fr] gap-14 items-center">
+  {/* ======================================================================
+    * HERO — band 1 of the stack: CREAM.
+    * Flat warm ground, an enormous navy serif headline with one italic word
+    * under a hand-drawn squiggle, calm sans standfirst, one electric pill, and
+    * a product window tilted in 3D that bleeds off the inline-end edge with
+    * small white callouts flat on top. No mesh, no gradient text, no glow.
+    * =================================================================== */}
+  {/* The top padding is cut well below the band default (128px at lg). Measured:
+      with the default the primary CTA landed at y=942 on a 1440x900 laptop, i.e.
+      below the fold, and the reassurance line at 982. The band's own rhythm is
+      right for a mid-page section but wrong for the one section that has a nav
+      above it and a fold to land inside. */}
+  <section class="band band-paper !pt-12 md:!pt-16 lg:!pt-20 !pb-16 md:!pb-20 lg:!pb-24" dir={rtl ? 'rtl' : 'ltr'}>
+    <div class="mx-auto max-w-6xl grid items-center gap-y-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-x-8">
       <div>
-        <div class="inline-flex items-center gap-2 glass text-copper-300 text-xs font-semibold px-3.5 py-1.5 rounded-full mb-7 tracking-widest uppercase">
-          <span class="w-1.5 h-1.5 rounded-full bg-copper-400 animate-pulse"></span>{t('hero.badge')}
-        </div>
-        <h1 class="font-display text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.04] mb-6">
-          {t('hero.tagline_line1')}<br /><span class="text-gradient">{t('hero.tagline_line2')}</span>
-        </h1>
-        <p class="text-cream-100/70 text-lg leading-relaxed mb-7 max-w-lg">{t('hero.sub')}</p>
-
-        <div class="bg-white rounded-2xl p-4 shadow-2xl shadow-black/40 max-w-md">
-          <SubdomainChecker client:load strings={checkerStrings} signupBase={lp('/signup')} rtl={rtl} />
-        </div>
-        <p class="mt-4 text-xs text-cream-100/40 tracking-wide">{t('hero.trialNote')}</p>
-
-        <div class="mt-7 flex items-center gap-3">
-          <div class="flex text-copper-300">
+        {/* Tiny rating line, above everything — the bar puts it first. */}
+        <div class="flex items-center gap-2.5 mb-5">
+          <div class="flex gap-0.5 text-ink-500" aria-hidden="true">
             {[0,1,2,3,4].map(() => <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>)}
           </div>
-          <span class="text-sm text-cream-100/70"><b class="text-cream-50">4.9/5</b> · {t('proof.ratingCount')}</span>
+          <p class="microcopy"><b class="font-bold">4.9/5</b> · {t('proof.ratingCount')}</p>
         </div>
+
+        <p class="eyebrow mb-6">{t('hero.badge')}</p>
+
+        {/* `mb-11` = 44px, measured. The bar leaves 49 CSS px under a comparable
+            headline; this sat at 28 and read as one cramped block. NO size,
+            leading, weight or tracking utility here on purpose — the h1 takes
+            the foundation's display scale, and a local `text-*` would silently
+            beat it. */}
+        <h1 class="mb-11">
+          {t('hero.tagline_line1')}<br />{headline2.lead}{headline2.lead && ' '}<span
+            class="accent-italic squiggle">{headline2.accent}</span>{headline2.tail}
+        </h1>
+
+        {/* Two lines, not three. The third line was "Built in Oman, used by
+            businesses across the GCC and around the world" — it cost 32px of
+            fold AND contradicted the "any currency" promise it sat inside.
+            Oman is a credibility detail; it belongs further down the page. */}
+        <p class="lede mb-9">{t('hero.sub')}</p>
+
+        {/* The workspace-URL field converts, so it stays — restyled flat and
+            pill-shaped in the bar's language, and folded onto ONE row with the
+            button from `sm` up (see the scoped block below). What it posts is
+            untouched. Wider than the old `max-w-md` because two controls now
+            share the row; it still caps at the ~546px grid column. */}
+        <div class="hero-signup max-w-xl">
+          <SubdomainChecker client:load strings={checkerStrings} signupBase={lp('/signup')} rtl={rtl} />
+        </div>
+        <p class="microcopy mt-4">{t('hero.trialNote')}</p>
       </div>
 
-      {/* Floating product mockup */}
-      <div class="hidden lg:block relative">
-        <div class="absolute -inset-10 bg-copper-400/20 blur-3xl rounded-full pointer-events-none"></div>
-        <div class="relative rounded-3xl bg-white shadow-2xl shadow-black/50 border border-white/10 overflow-hidden rotate-1">
-          <div class="bg-ink-700 px-5 py-3 flex items-center justify-between">
-            <span class="text-cream-50/90 text-sm font-semibold font-display">{t('hero.card_title')}</span>
-            <div class="flex gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-white/20"></span><span class="w-2.5 h-2.5 rounded-full bg-white/20"></span><span class="w-2.5 h-2.5 rounded-full bg-copper-400"></span></div>
-          </div>
-          <div class="p-5">
-            <div class="flex items-end justify-between mb-1"><span class="text-xs text-ink-400 font-medium">{t('hero.stat1_label')}</span></div>
-            <div class="flex items-end gap-2 mb-4"><span class="font-display text-3xl font-bold text-ink-500">{t('hero.stat1_value')}</span><span class="text-xs font-semibold text-emerald-600 mb-1">▲ 18%</span></div>
-            <div class="flex items-end gap-1.5 h-20 mb-5">
-              {[42,58,49,71,63,88,76,95].map((h) => <div class="flex-1 rounded-t-md bg-gradient-to-t from-ink-500 to-copper-400" style={`height:${h}%`}></div>)}
+      {/* Product window — tilted, bleeding off the inline-end edge. Decorative:
+          every figure in it is stated again in the periwinkle band below. */}
+      <div class="hero-stage relative lg:-me-[16vw] xl:-me-[20vw]" aria-hidden="true">
+        <div class="hero-tilt">
+          <div class="hero-window overflow-hidden rounded-2xl border border-paper-300 bg-white">
+            <div class="flex items-center justify-between bg-ink-500 px-5 py-3.5">
+              <span class="font-display text-sm font-semibold text-cream-50">{t('hero.card_title')}</span>
+              <div class="flex gap-1.5">
+                <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
+                <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
+                <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
+              </div>
             </div>
-            <div class="grid grid-cols-2 gap-3 mb-4">
-              <div class="rounded-xl bg-cream-50 border border-cream-100 p-3"><p class="text-[10px] text-ink-400 uppercase tracking-wide">{t('hero.stat2_label')}</p><p class="text-lg font-bold text-ink-500">{t('hero.stat2_value')}</p></div>
-              <div class="rounded-xl bg-cream-50 border border-cream-100 p-3"><p class="text-[10px] text-ink-400 uppercase tracking-wide">{t('hero.stat3_label')}</p><p class="text-lg font-bold text-copper-500">{t('hero.stat3_value')}</p></div>
+
+            <div class="flex">
+              <aside class="hidden w-36 shrink-0 space-y-3.5 border-e border-paper-300 bg-paper p-5 sm:block">
+                {[100, 72, 88, 64, 80, 56].map((w, i) => (
+                  <span class:list={["block h-2.5 rounded-pill", i === 1 ? 'bg-ink-200' : 'bg-paper-400']} style={`width:${w}%`}></span>
+                ))}
+              </aside>
+
+              <div class="min-w-0 flex-1 p-6">
+                <p class="text-xs font-semibold">{t('hero.stat1_label')}</p>
+                <div class="mt-1.5 mb-5 flex flex-wrap items-center gap-x-3 gap-y-2">
+                  <span class="font-display text-4xl font-semibold tracking-tight">{heroAmount}</span>
+                  <span class="inline-flex items-center gap-1 text-xs font-bold text-emerald-500">
+                    <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 12 12"><path d="M6 2l4.5 7h-9z"/></svg>18%
+                  </span>
+                  {/* Multi-currency, never one market's currency. */}
+                  <span class="ms-auto inline-flex rounded-pill bg-sky-200 p-0.5 text-[11px] font-bold">
+                    <span class="rounded-pill bg-white px-2.5 py-1">USD</span>
+                    <span class="px-2.5 py-1">EUR</span>
+                    <span class="px-2.5 py-1">AED</span>
+                  </span>
+                </div>
+
+                <div class="mb-6 flex h-24 items-end gap-2">
+                  {[42,58,49,71,63,88,76,95].map((h, i) => (
+                    <span class:list={["flex-1 rounded-t-md", i === 7 ? 'bg-electric-500' : 'bg-sky-400']} style={`height:${h}%`}></span>
+                  ))}
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                  <div class="rounded-xl bg-paper p-4">
+                    <p class="text-[11px] font-semibold uppercase tracking-wide">{t('hero.stat2_label')}</p>
+                    <p class="font-display text-2xl font-semibold">{t('hero.stat2_value')}</p>
+                  </div>
+                  <div class="rounded-xl bg-paper p-4">
+                    <p class="text-[11px] font-semibold uppercase tracking-wide">{t('hero.stat3_label')}</p>
+                    <p class="font-display text-2xl font-semibold">{t('hero.stat3_value')}</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="h-1.5 w-full bg-cream-100 rounded-full overflow-hidden"><div class="h-full w-3/4 bg-gradient-to-r from-ink-500 to-copper-400 rounded-full"></div></div>
           </div>
         </div>
-        {/* floating badges */}
-        <div class="absolute -top-5 -start-6 bg-white rounded-xl shadow-xl px-3.5 py-2.5 flex items-center gap-2 -rotate-3">
-          <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-emerald-100 text-emerald-600"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg></span>
-          <div><p class="text-[10px] text-ink-400 leading-none mb-0.5">Invoice paid</p><p class="text-xs font-bold text-ink-500 leading-none">1,250.000 OMR</p></div>
+
+        {/* Flat white callouts sitting square-on over the tilted window. The
+            lg offsets are percentages of the stage, because the tilt pulls the
+            window's near-left corner inward and down — fixed rem offsets would
+            leave these stranded in the gutter. */}
+        <div class="float-card hero-float absolute -top-6 start-0 lg:top-[8%] lg:-start-6">
+          <p class="text-[11px] font-semibold leading-none">{t('trust.stat1_label')}</p>
+          <p class="font-display text-xl font-semibold leading-none mt-1">{t('trust.stat1_value')}</p>
         </div>
-        <div class="absolute -bottom-6 -end-4 bg-white rounded-xl shadow-xl px-3.5 py-2.5 flex items-center gap-2 rotate-2">
-          <span class="text-lg">🇴🇲</span>
-          <div><p class="text-[10px] text-ink-400 leading-none mb-0.5">5 languages</p><p class="text-xs font-bold text-ink-500 leading-none">AR · EN · HI · BN · UR</p></div>
+        <div class="float-card hero-float absolute -bottom-7 start-[6%] lg:bottom-[10%] lg:start-[3%]">
+          <p class="text-[11px] font-semibold leading-none">{t('trust.stat4_label')}</p>
+          <p class="font-display text-xl font-semibold leading-none mt-1">{t('trust.stat4_value')}</p>
         </div>
       </div>
     </div>
   </section>
 
-  {/* Stat band */}
-  <section class="bg-ink-900 text-cream-50 border-t border-white/5">
-    <div class="max-w-6xl mx-auto px-6 lg:px-10 py-10 grid grid-cols-2 lg:grid-cols-4 gap-8">
+  {/* Band 2: PERIWINKLE. Ink only — white and electric both fail AA here. */}
+  <section class="band band-peri band-tight">
+    <div class="mx-auto max-w-6xl grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
       {[
         { v: t('trust.stat2_value'), l: t('trust.stat2_label') },
-        { v: '5', l: t('trust.stat1_label') },
+        { v: t('trust.stat1_value'), l: t('trust.stat1_label') },
         { v: t('trust.stat3_value'), l: t('trust.stat3_label') },
         { v: t('trust.stat4_value'), l: t('trust.stat4_label') },
       ].map((s) => (
         <div class="text-center lg:text-start">
-          <p class="font-display text-3xl lg:text-4xl font-bold text-gradient">{s.v}</p>
-          <p class="text-cream-100/55 text-sm mt-1">{s.l}</p>
+          <p class="font-display text-4xl lg:text-5xl font-semibold tracking-tight">{s.v}</p>
+          <p class="text-sm mt-2">{s.l}</p>
         </div>
       ))}
     </div>
   </section>
 
-  {/* Language showcase */}
-  <section class="section-pad bg-cream-50 border-b border-cream-200">
+  {/* Band 3: PALE BLUE. The language story, white cards popping off the band. */}
+  <section class="band band-sky">
     <div class="container-narrow">
       <div class="max-w-2xl mb-12 reveal">
-        <p class="eyebrow mb-3">{t('languages.eyebrow')}</p>
-        <h2 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight mb-4">{t('languages.title')}</h2>
-        <p class="text-ink-500/75 text-lg leading-relaxed">{t('languages.sub')}</p>
+        <p class="eyebrow-ink mb-3">{t('languages.eyebrow')}</p>
+        <h2 class="display-3 mb-4">{t('languages.title')}</h2>
+        <p class="lede">{t('languages.sub')}</p>
       </div>
       <LangShowcase client:visible />
     </div>
   </section>
 
-  {/* Modules */}
-  <section id="modules" class="section-pad bg-white">
+  {/* Band 4: CREAM again. */}
+  <section id="modules" class="band band-paper">
     <div class="container-wide">
       <div class="max-w-2xl mb-14 reveal">
         <p class="eyebrow mb-3">{t('modules.eyebrow')}</p>
-        <h2 class="font-display text-3xl lg:text-5xl font-bold text-ink-500 leading-tight mb-4">{t('modules.title')}</h2>
-        <p class="text-ink-500/75 text-lg leading-relaxed">{t('modules.sub')}</p>
+        <h2 class="display-2 mb-4">{t('modules.title')}</h2>
+        <p class="lede">{t('modules.sub')}</p>
       </div>
       <ModulePicker client:visible strings={moduleStrings} signupBase={lp('/signup')} />
     </div>
   </section>
 
   {/* Compare */}
-  <ComparisonTable eyebrow={t('compare.eyebrow')} title={t('compare.title')} cols={compareCols} rows={compareRows} bg="cream" />
+  <ComparisonTable eyebrow={t('compare.eyebrow')} title={t('compare.title')} cols={compareCols} rows={compareRows} bg="white" />
 
   {/* FAQ */}
-  <FaqAccordion eyebrow={t('faqSection.eyebrow')} title={t('faqSection.title')} faqs={homeFaqs} bg="white" />
+  <FaqAccordion eyebrow={t('faqSection.eyebrow')} title={t('faqSection.title')} faqs={homeFaqs} bg="cream" />
 
   <CtaBand {locale} />
 </BaseLayout>
+
+<style>
+  /* =====================================================================
+   * HERO PRODUCT WINDOW
+   *
+   * The bar's fold is carried by one move: a real product surface tilted in
+   * 3D and allowed to run off the edge of the page, with flat white callouts
+   * sitting on top of it. Below `lg` it stands square and in flow — a tilt on
+   * a narrow screen only costs legibility.
+   *
+   * The transform is static (no animation), so `prefers-reduced-motion` has
+   * nothing to switch off here.
+   * ================================================================== */
+  .hero-window {
+    /* The single grounding shadow in the hero. Not a glow: no spread, no
+       colour, and a long soft falloff so the window reads as sitting in the
+       page rather than hovering over it. */
+    box-shadow: 0 18px 44px -30px rgba(13, 27, 94, 0.4);
+  }
+
+  @media (min-width: 1024px) {
+    .hero-stage {
+      perspective: 1500px;
+    }
+    /* Measured off the bar's capture rather than guessed: its window's near
+       edge is the RIGHT one (the left sidebar is the compressed, receding
+       end), and its top edge climbs ~11° to the right. So the Y rotation is
+       negative — a positive one would push the right edge away and read as
+       the window turning into the page instead of out of it — and the Z
+       rotation has to be big enough to actually see. */
+    .hero-tilt {
+      transform: rotateX(6deg) rotateY(-16deg) rotate(-5deg);
+      transform-origin: left center;
+    }
+    /* Mirror it for Arabic and Urdu — the window bleeds off the left edge
+       there, because `-me-` is margin-inline-end. */
+    :global([dir='rtl']) .hero-tilt {
+      transform: rotateX(6deg) rotateY(16deg) rotate(5deg);
+      transform-origin: right center;
+    }
+  }
+
+  /* The callouts stay flat and square-on, on top of the perspective. */
+  .hero-float {
+    z-index: 2;
+  }
+
+  /* =====================================================================
+   * WORKSPACE-URL FIELD
+   *
+   * The island's own markup (a shared component this piece does not own)
+   * ships a `rounded-xl border-2 shadow-sm` field. Re-dressed here into the
+   * bar's language: a full pill, a hairline instead of a 2px rule, no shadow,
+   * and generous padding. The status border COLOURS are deliberately left
+   * alone so the available / taken feedback still reads.
+   * ================================================================== */
+  .hero-signup :global(label) {
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    margin-bottom: 0.65rem;
+  }
+  .hero-signup :global(label + div) {
+    border-width: 1.5px;
+    border-radius: 999px;
+    box-shadow: none;
+  }
+  .hero-signup :global(label + div input) {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+  }
+  .hero-signup :global(label + div > span) {
+    padding-inline: 1.35rem;
+    background-color: var(--pnp-tint-grey);
+    border-color: transparent;
+  }
+  /* One solid electric pill, sized like the bar's. */
+  .hero-signup :global(a) {
+    margin-top: 1rem;
+    padding: 1rem 2.25rem;
+    font-size: 1.0625rem;
+  }
+
+  /* -------------------------------------------------------------------
+   * …and from `sm` up, the field and the pill share ONE row.
+   *
+   * This is the fold fix, not a style preference. Stacked, the block ran
+   * label → field → status → button over 182px and pushed the primary CTA
+   * to y=942 on a 1440x900 laptop — below the fold, on the commonest laptop
+   * size there is. One row collapses that to ~112px.
+   *
+   * The island's own markup is a shared component this piece does not own,
+   * so the re-layout is done here with grid areas over its four children
+   * (label, field, status, button). Areas rather than source order because
+   * the status message has to stay full-width UNDER both controls.
+   *
+   * Grid columns run along the inline axis, so `dir="rtl"` mirrors the two
+   * areas for free: Arabic and Urdu get field-right / button-left with no
+   * second rule.
+   *
+   * Below 640px it stays stacked: at 390px a side-by-side row leaves the
+   * input too narrow to read what you typed.
+   * ---------------------------------------------------------------- */
+  @media (min-width: 640px) {
+    .hero-signup > :global(div) {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas:
+        'label label'
+        'field cta'
+        'status status';
+      column-gap: 0.75rem;
+    }
+    .hero-signup :global(label) {
+      grid-area: label;
+    }
+    .hero-signup :global(label + div) {
+      grid-area: field;
+    }
+    .hero-signup :global(label + div + div) {
+      grid-area: status;
+    }
+    .hero-signup :global(a) {
+      grid-area: cta;
+      /* `stretch` (the grid default) makes the pill match the field's height
+         exactly, so trimming the block padding to zero is safe and the two
+         controls read as one control. */
+      margin-top: 0;
+      padding-block: 0;
+      padding-inline: 1.9rem;
+      white-space: nowrap;
+    }
+  }
+</style>

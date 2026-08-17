@@ -1,5 +1,5 @@
 {
-  "a11y": { "skipToContent": "Skip to main content" },
+  "a11y": { "skipToContent": "Skip to main content", "included": "Included", "notIncluded": "Not included" },
   "nav": {
     "features": "Features",
     "solutions": "Solutions",
@@ -44,7 +44,7 @@
     "badge": "For businesses everywhere",
     "tagline_line1": "The ERP that speaks",
     "tagline_line2": "your language.",
-    "sub": "Run sales, inventory, HR and finance from one cloud platform, in 5 languages and any currency. Built in Oman, used by businesses across the GCC and around the world.",
+    "sub": "Run sales, inventory, HR and finance from one cloud platform, in 5 languages and any currency.",
     "cta": "Start for Free",
     "seeModules": "See modules",
     "subdomainLabel": "Your workspace URL",
@@ -184,7 +184,23 @@
       "extraUsers_desc": "From {{price}} OMR/user/month",
       "extraStorage_name": "Extra storage",
       "extraStorage_desc": "{{price}} OMR per 5GB/month"
-    }
+    },
+    "headLead": "Simple, honest",
+    "headAccent": "pricing",
+    "planWord": "Plan",
+    "billedMonthly": "Billed monthly",
+    "billedAnnually": "Billed annually",
+    "billingPeriod": "Billing period",
+    "worldwideNote": "One global price list, shown in Omani Rial (OMR). Pay by card from anywhere in the world.",
+    "compareTitle": "Compare full plan features",
+    "compareFeature": "Feature",
+    "compareUsers": "Users",
+    "compareGroupCore": "In every plan",
+    "compareGroupAdded": "Added in {{plan}}",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "scrollHint": "Swipe the table sideways to compare plans",
+    "selectPlan": "Select plan"
   },
   "compare": {
     "eyebrow": "Why Paper & Pen",
@@ -492,7 +508,13 @@
     "errors": {
       "gateway": "The payment gateway URL was invalid. Please contact support.",
       "network": "Network error. Please check your connection and try again.",
-      "generic": "Something went wrong. Please try again."
+      "generic": "Something went wrong. Please try again.",
+      "companyRequired": "Enter your company name to continue. It becomes the address of your workspace.",
+      "companyLetters": "That name has no letters or numbers to build a web address from. Add at least one.",
+      "subdomainTaken": "That workspace address is already in use. Add a word to make it yours, such as your city or a short form of the name.",
+      "subdomainChecking": "Still checking whether that address is free. Press Continue again in a moment.",
+      "emailRequired": "Enter the email address you want to sign in with. Your one-time codes go there.",
+      "emailInvalid": "That address is missing an @ or the part after it. Write it in full, like you@company.com."
     },
     "securedBy": "Secured by Paymob"
   },

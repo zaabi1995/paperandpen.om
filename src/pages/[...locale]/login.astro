@@ -9,6 +9,7 @@ const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 ---
+<!-- Same shell as /signup/: one continuous cream ground, transparent chrome. -->
 <BaseLayout
   {locale}
   bare
@@ -17,13 +18,33 @@ const lp = (p: string) => localizePath(p, locale);
   title={t('seo.loginTitle')}
   description={t('seo.loginDesc')}
 >
-  <div class="min-h-screen bg-cream-50 flex flex-col">
-    <header class="bg-white border-b border-cream-200 px-4 py-3 flex items-center justify-between">
-      <a href={lp('/')} class="flex items-center gap-2"><img src="/logo.svg" alt="Paper & Pen ERP" class="h-7 w-auto" /></a>
-      <a href={lp('/signup')} class="text-sm font-medium text-copper-500 hover:text-copper-600">{t('login.signUp')}</a>
+  <div class="flex min-h-screen flex-col bg-paper">
+    <header class="px-6 pb-4 pt-6 sm:px-10 sm:pt-8">
+      <div class="mx-auto flex max-w-md items-center justify-between gap-4">
+        <a href={lp('/')} class="inline-flex items-center">
+          <img src="/logo.svg" alt="Paper & Pen ERP" class="h-8 w-auto" width="120" height="32" />
+        </a>
+        <a
+          href={lp('/signup')}
+          class="text-sm font-semibold text-electric-500 underline-offset-4 hover:text-electric-600 hover:underline"
+        >
+          {t('nav.startFree')}
+        </a>
+      </div>
     </header>
-    <div class="flex-1 flex items-center justify-center py-12 px-4">
-      <LoginForm client:load {locale} />
+
+    <!-- Top-aligned for the same reason as /signup/: a centred block leaves
+         near-equal cream above and below it and reads as adrift. The column is
+         also the same 28rem reading measure the signup step uses, so the two
+         auth pages are one control width, not two. -->
+    <div class="flex flex-1 justify-center px-6 pb-12 pt-6 sm:px-10 sm:pt-10">
+      <div class="w-full max-w-md">
+        <LoginForm client:load {locale} />
+      </div>
     </div>
+
+    <footer class="px-6 pb-8 sm:px-10">
+      <p class="mx-auto max-w-md text-sm font-medium text-ink-500">{t('signup.securedBy')}</p>
+    </footer>
   </div>
 </BaseLayout>

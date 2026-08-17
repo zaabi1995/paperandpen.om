@@ -9,16 +9,20 @@ const year = 2026;
 
 const cols = [
   {
+    id: 'product',
     title: t('footer.product'),
     links: [
       { href: '/free-invoicing-software', label: t('footer.freeInvoicing') },
       { href: '/features/invoicing', label: t('mega.invoicing') },
       { href: '/features/accounting', label: t('mega.accounting') },
+      { href: '/features/inventory', label: t('mega.inventory') },
+      { href: '/features/hr-payroll', label: t('mega.hr') },
       { href: '/pricing', label: t('nav.pricing') },
       { href: '/compare/paperandpen-vs-zoho', label: t('nav.compare') },
     ],
   },
   {
+    id: 'tools',
     title: t('footer.tools'),
     links: [
       { href: '/tools/free-invoice-generator', label: t('mega.invoiceGen') },
@@ -29,6 +33,7 @@ const cols = [
     ],
   },
   {
+    id: 'company',
     title: t('footer.company'),
     links: [
       { href: '/about', label: t('footer.about') },
@@ -38,6 +43,7 @@ const cols = [
     ],
   },
   {
+    id: 'legal',
     title: t('footer.legal'),
     links: [
       { href: '/terms', label: t('footer.terms') },
@@ -47,42 +53,163 @@ const cols = [
 ];
 ---
 
-<footer class="bg-ink-900 text-cream-100/50 relative overflow-hidden">
-  <div class="absolute inset-0 bg-paper-texture opacity-20 pointer-events-none"></div>
-  <div class="relative max-w-7xl mx-auto px-6 lg:px-10 pt-16 pb-8">
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-10 mb-14">
-      <div class="col-span-2">
-        <img src="/logo-white.svg" alt="Paper & Pen ERP" class="h-9 w-auto mb-5 opacity-90" width="120" height="36" />
-        <p class="text-sm leading-relaxed max-w-xs mb-6">{t('footer.tagline')}</p>
+{/*
+  Footer in the same flat language as the nav: one solid navy block, no texture,
+  no gradient, no glow, no boxes. Every line of type is the SAME cream at full
+  strength — hierarchy is carried by size and weight, exactly as on the paper
+  ground above. (The old footer dimmed everything to `text-cream-100/50`, which
+  measured 3.4 : 1 on the near-black ground and read as a disclaimer.)
+
+  The navy is `ink-500`, the ink of the whole site, not the near-black `ink-900`
+  the old footer used. Same navy as the headlines = the footer reads as the end
+  of the page rather than a separate dark widget bolted underneath.
+*/}
+<footer class="bg-ink-500 text-cream-50">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 pt-20 pb-10 lg:pt-24">
+    {/* An fr template, not a 12-col span: with `col-span-2` out of 12 the link
+        columns land at ~173px and "Free Quotation Generator" wraps onto two
+        lines. 1.4fr for the brand and four equal columns gives each list ~198px,
+        which holds the longest label in all five locales on one line.
+
+        The tracks are `minmax(0, …)`, not bare `1.4fr` / `1fr`. A bare `fr`
+        track carries an automatic minimum of min-content, so one unbreakable
+        label in hi / bn / ur can push the whole grid wider than its
+        `max-w-7xl` parent — and horizontal overflow anywhere on the page makes
+        THIS footer's navy stop at the viewport edge and leave a raw cream
+        gutter down the side of it. Same reason every child carries `min-w-0`:
+        a grid ITEM also refuses to shrink below its own min-content unless
+        told to. */}
+    <div class="grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-[minmax(0,1.4fr)_repeat(4,minmax(0,1fr))]">
+      {/* Brand block */}
+      <div class="min-w-0 lg:pe-10">
+        {/*
+          Same single-weight wordmark as the nav, in cream. Was
+          `/logo-white.svg`, which was the illustrated shield knocked out to
+          five greys (#fdfeff / #e5e5e5 / #ccc / #878787 plus a
+          multiply-blended gradient) — on this navy the two darkest of those
+          disappeared outright and the "Company" line went with them, so the
+          footer's version of the lockup was the worse of the two.
+
+          Nothing here loads an image any more, so there is no second asset
+          that can drift from the nav's, and no white-knockout file to
+          maintain: the mark is `currentColor` and inherits the footer's cream.
+        */}
+        <div class="wm">
+          <svg class="wm-mark" viewBox="0 0 127.74 201.68" fill="currentColor" aria-hidden="true" focusable="false">
+            <path d="M127.74,68.9L0,0v147.87c0,3.42,1.59,6.65,4.31,8.73l58.79,45.09,60.24-45.09c2.77-2.08,4.41-5.34,4.41-8.8v-78.89h0Z"/>
+            <path d="M38.44,95.23L127.74,68.9,0,0Z" fill-opacity="0.42"/>
+          </svg>
+          <span class="wm-name" dir="ltr">Paper &amp; Pen</span>
+        </div>
+        <p class="mt-6 max-w-[30ch] text-[15px] leading-relaxed text-cream-50">{t('footer.tagline')}</p>
         <a
           href="https://api.whatsapp.com/send?phone=96898899100"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-flex items-center gap-2 text-sm text-copper-300 hover:text-copper-200 font-medium transition-colors"
+          class="mt-6 inline-flex items-center gap-2.5 text-[15px] font-semibold text-cream-50 no-underline transition-colors hover:text-white"
         >
-          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.693.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-          +968 9889 9100
+          <svg class="h-[18px] w-[18px] shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.693.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          <span dir="ltr">+968 9889 9100</span>
         </a>
       </div>
 
+      {/* Link columns. Each is its own landmark, labelled by its own heading, so
+          screen-reader users get four named lists instead of one long blur. */}
       {cols.map((col) => (
-        <div>
-          <h3 class="text-cream-100 text-sm font-semibold mb-4 tracking-wide">{col.title}</h3>
-          <ul class="space-y-2.5">
+        <nav class="min-w-0" aria-labelledby={`footer-${col.id}`}>
+          <h3 id={`footer-${col.id}`} class="text-xs font-bold uppercase tracking-[0.14em] text-cream-50">{col.title}</h3>
+          <ul class="mt-5 space-y-3.5">
             {col.links.map((l) => (
-              <li><a href={lp(l.href)} class="text-sm hover:text-cream-100 transition-colors">{l.label}</a></li>
+              <li>
+                <a href={lp(l.href)} class="footer-link">{l.label}</a>
+              </li>
             ))}
           </ul>
-        </div>
+        </nav>
       ))}
     </div>
 
-    <div class="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <p class="text-xs text-center sm:text-start">{t('footer.rights', { year })}</p>
-      <div class="flex items-center gap-1.5">
-        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span class="text-xs">{t('footer.status')}</span>
-      </div>
+    {/* One hairline, then the quiet line. No second dark block, no logo repeat. */}
+    <div class="mt-16 flex flex-col items-start gap-4 border-t border-white/20 pt-8 sm:flex-row sm:items-center sm:justify-between">
+      <p class="text-[13px] text-cream-50">{t('footer.rights', { year })}</p>
+      <p class="flex items-center gap-2 text-[13px] text-cream-50">
+        <span class="h-2 w-2 shrink-0 rounded-full bg-mint-200" aria-hidden="true"></span>
+        {t('footer.status')}
+      </p>
     </div>
   </div>
 </footer>
+
+<style>
+  /* ---------------------------------------------------------------------
+   * The footer may not widen the document.
+   *
+   * This is not housekeeping. The footer's navy is painted on a box that is
+   * exactly as wide as the VIEWPORT, so the moment anything anywhere on the
+   * page pushes the document's scroll width past the viewport, the navy stops
+   * short and a raw cream gutter runs down the whole side of the footer. The
+   * footer cannot paint its way out of that — an in-flow block has no way to
+   * know the document's scroll width — so the only defence available here is
+   * to guarantee the footer is never one of the culprits.
+   *
+   * `clip`, never `hidden`: `hidden` would turn the footer into a scroll
+   * container, `clip` does not, so nothing about scrolling or sticky
+   * positioning changes.
+   * ------------------------------------------------------------------- */
+  footer {
+    overflow-x: clip;
+  }
+
+  /* ---------------------------------------------------------------------
+   * Wordmark. Deliberately the SAME rule as the nav's, duplicated rather than
+   * shared: both components are Astro-scoped, so neither can see the other's
+   * <style>, and a third component file is not this piece's to create. If the
+   * two ever need to change together, see "concerns".
+   *
+   * It sets no colour of its own — the mark's `currentColor` and the name both
+   * inherit `text-cream-50` from the footer element, which is the same cream
+   * as every other line down here at 14.4 : 1 on the navy.
+   * ------------------------------------------------------------------- */
+  .wm {
+    @apply inline-flex items-center gap-2.5;
+  }
+  .wm-mark {
+    @apply h-8 w-auto shrink-0;
+  }
+  .wm-name {
+    @apply font-display whitespace-nowrap;
+    font-weight: 600;
+    font-size: 1.5rem; /* 24px */
+    line-height: 1;
+    letter-spacing: -0.015em;
+    font-optical-sizing: none;
+    font-variation-settings: 'opsz' 24;
+  }
+
+  /* A long unbreakable token (a hi / bn / ur label, a URL) breaks rather than
+     pushing its column past the container. `break-word`, not `anywhere`, so
+     normal text still wraps on spaces. */
+  footer h3,
+  footer p,
+  .footer-link {
+    overflow-wrap: break-word;
+  }
+
+  /* Full-strength cream on the navy — 14.4 : 1. The underline appears only on
+     hover, so the column reads as a calm list rather than a wall of rules. */
+  .footer-link {
+    @apply text-[15px] leading-snug text-cream-50 no-underline transition-colors duration-150;
+  }
+  .footer-link:hover {
+    @apply text-white underline;
+    text-underline-offset: 4px;
+  }
+
+  /* The global focus ring is a 3px electric outline, which measures ~1.5 : 1
+     against this navy — effectively invisible for keyboard users down here.
+     White on the navy is 14.4 : 1. Only the colour changes; the ring geometry
+     stays exactly as the foundation set it. */
+  footer a:focus-visible {
+    outline-color: #ffffff;
+  }
+</style>

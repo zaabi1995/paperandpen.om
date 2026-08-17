@@ -1,4 +1,18 @@
 ---
+/*
+ * MARKETING PAGE — the template behind the feature and solution pages.
+ *
+ * Its job in this design language is the RHYTHM. The bar's inner pages are a
+ * stack of full-bleed colour bands, and the band edge is the only divider on
+ * the page: cream fold → colour → cream → colour → cream → violet close. That
+ * cadence is assigned here rather than inside each block, so no page can drift
+ * out of it and no block has to guess what it is sitting next to.
+ *
+ * The accent hue rotates per page (the bar is electric on home and pricing,
+ * lilac on accounting, orange on payments) but the accent's JOB never rotates:
+ * it is the hero pill and nothing else. It is derived from the slug so all
+ * ~300 pages get a stable hue without a single content file being touched.
+ */
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import PageHero from '@/components/blocks/PageHero.astro';
@@ -34,6 +48,20 @@ const related = (data.related || []).map((href: string) => {
   return { href, title };
 });
 
+/* One stable hue per page, spent only on the hero pill. */
+const ACCENTS = ['electric', 'violet', 'copper'] as const;
+const hash = [...String(data.slug ?? '')].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+const accent = ACCENTS[hash % ACCENTS.length];
+
+/* The band cadence. Splits cycle cream → periwinkle → white so consecutive
+ * sections always separate, and the FAQ takes whichever neutral the last
+ * split did not, so those two never abut on the same colour. */
+const SPLIT_BANDS = ['paper', 'peri', 'white'] as const;
+const VARIANTS = ['table', 'stats', 'doc'] as const;
+const sections = data.sections || [];
+const lastSplitBand = sections.length ? SPLIT_BANDS[(sections.length - 1) % SPLIT_BANDS.length] : 'sky';
+const faqBand = lastSplitBand === 'paper' ? 'white' : 'paper';
+
 const jsonld = [
   graph(
     organization(),
@@ -43,6 +71,7 @@ const jsonld = [
 ];
 if (faqs.length) jsonld.push(graph(faqPage(faqs)));
 ---
+
 <BaseLayout
   {locale}
   {path}
@@ -51,10 +80,15 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
   keywords={data.keywords}
   {jsonld}
 >
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: section.label, href: section.href }, { name: data.title }]} />
+  <Breadcrumbs
+    {locale}
+    crumbs={[{ name: 'Home', href: '/' }, { name: section.label, href: section.href }, { name: data.title }]}
+  />
 
   <PageHero
     {locale}
+    as="h1"
+    {accent}
     eyebrow={data.heroEyebrow}
     title={data.heroTitle}
     subtitle={data.heroSubtitle}
@@ -64,24 +98,30 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
 
   <SocialProof {locale} compact />
 
-  {data.features && data.features.length > 0 && (
-    <FeatureGrid features={data.features} bg="white" />
-  )}
+  {data.features && data.features.length > 0 && <FeatureGrid features={data.features} band="sky" />}
 
-  {(data.sections || []).map((s: any, i: number) => (
+  {sections.map((s: any, i: number) => (
     <FeatureSplit
       eyebrow={s.eyebrow}
       title={s.title}
       body={s.body}
       items={s.items}
       flip={i % 2 === 1}
-      bg={i % 2 === 1 ? 'cream' : 'white'}
+      band={SPLIT_BANDS[i % SPLIT_BANDS.length]}
+      variant={VARIANTS[i % VARIANTS.length]}
     />
   ))}
 
-  {faqs.length > 0 && <FaqAccordion title={data.faqTitle || t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} />}
+  {faqs.length > 0 && (
+    <FaqAccordion
+      title={data.faqTitle || t('faqSection.title')}
+      eyebrow={t('faqSection.eyebrow')}
+      faqs={faqs}
+      band={faqBand}
+    />
+  )}
 
-  <RelatedLinks {locale} title={t('related.title')} links={related} />
+  <RelatedLinks {locale} title={t('related.title')} links={related} band="tint" />
 
   <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} />
 </BaseLayout>

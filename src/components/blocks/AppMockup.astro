@@ -1,0 +1,561 @@
+---
+/*
+ * AppMockup — the product image, built out of real DOM.
+ *
+ * The bar sells with a screenshot of the actual app tilted in 3D, bleeding off
+ * the right edge, with small white callout cards floating over it. This builds
+ * the same thing with CSS transforms over live markup: no PNG, no external
+ * request, nothing to go stale, and it stays crisp at every DPR.
+ *
+ * WHY THIS IS NOW A REAL SCREENSHOT AND NOT A SKELETON (round 4)
+ * The previous version carried the whole mock on grey skeleton bars, on the
+ * reasoning that any word inside it would have to exist in five locales. The
+ * critic read the result exactly as it looked: "a grey-skeleton wireframe …
+ * an unfinished placeholder". Wave's own product image is the opposite — real
+ * column headers, real vendor names, real dates, real dollar amounts — and
+ * that legibility IS the credibility.
+ *
+ * So the mock now ships a full sample UI in all five locales: nav labels, page
+ * title, column headers, customer names, dates, amounts and status chips. The
+ * copy lives in SAMPLE below, keyed by locale, complete for en / ar / hi / bn /
+ * ur — parity is structural here (one object, five identical shapes), so a
+ * missing string is impossible rather than merely unlikely.
+ *
+ * These strings deliberately do NOT live in src/i18n/ui/*.json: they are
+ * fixtures inside a decorative image, not interface copy. Putting invented
+ * customer names into the site's translation surface would mean five real
+ * translation keys per fake invoice row.
+ *
+ * ANY LOCALE ON ANY PAGE
+ * `locale` defaults to the page's locale but can be forced, which is the whole
+ * point for the multi-language section: an English page can show a genuinely
+ * Arabic, genuinely right-to-left screenshot. Direction, alignment, tilt
+ * mirroring, the sidebar side and the Arabic face all follow the mock's OWN
+ * locale, not the document's.
+ *
+ * INTERNATIONAL BY DEFAULT
+ * `currency` / `currencyCode` are props and default to a neutral USD example.
+ * Never hard-code an OMR-only figure into hero imagery.
+ *
+ * DIGITS
+ * Latin numerals everywhere, with `dir="ltr"` on every figure. Arabic ERP UIs
+ * overwhelmingly use Latin digits, and bidi would otherwise reorder a leading
+ * sign or trailing symbol — turning "+18%" into "18%+" and moving the currency
+ * mark to the wrong side of the number.
+ *
+ * ACCESSIBILITY
+ * Decorative by default (`aria-hidden`), because the copy beside it carries the
+ * meaning. Pass `alt` to promote it to `role="img"` with an accessible name.
+ * Nothing inside is focusable — there is not a single button or link element in
+ * here, so the mock never appears in the tab order.
+ *
+ * OVERFLOW SAFETY
+ * The tilted frame is deliberately WIDER than its clipping parent — that is how
+ * "bleeds off the edge" is achieved without ever letting a 3D transform push the
+ * document wider and introduce a horizontal scrollbar.
+ *
+ * USAGE
+ *   <AppMockup tilt="soft" callouts={[{ text: t('hero.callout.paid'), value: '1,250' }]} />
+ *   <AppMockup locale="ar" variant="invoices" tilt="none" bleed="none" />
+ */
+import Icon from './Icon.astro';
+import { getLocaleFromUrl, isRTL, type Locale } from '../../i18n';
+
+type Tone = 'sky' | 'mint' | 'violet';
+type At = 'top-start' | 'top-end' | 'bottom-start' | 'bottom-end';
+
+export interface Callout {
+  /** Already-translated label. Omit for a numeral-only card. */
+  text?: string;
+  value?: string;
+  tone?: Tone;
+  /** Any name from Icon.astro. */
+  icon?: string;
+  at?: At;
+}
+
+interface Props {
+  tilt?: 'none' | 'soft' | 'strong';
+  /** `end` makes the frame overflow its clip, so it runs off the page edge. */
+  bleed?: 'none' | 'end';
+  /** Flat colour block behind the frame, the way the bar's feature pages do it. */
+  panel?: 'none' | 'navy' | 'peri' | 'sky';
+  /** `dashboard` = figures + chart + recent rows · `invoices` = a full list. */
+  variant?: 'dashboard' | 'invoices';
+  /** Language shown INSIDE the mock. Defaults to the page's locale. */
+  locale?: Locale;
+  /** Currency symbol and ISO code. Neutral by default — never Oman-only. */
+  currency?: string;
+  currencyCode?: string;
+  /** Headline numeral and its change chip. */
+  metric?: string;
+  delta?: string;
+  callouts?: Callout[];
+  /** Soft idle drift. Ignored under prefers-reduced-motion. */
+  float?: boolean;
+  /** Fades the far edge into the ground, as the bar's hero does. */
+  fade?: boolean;
+  /** Supplying this promotes the mock from decoration to an image with a name. */
+  alt?: string;
+  class?: string;
+}
+
+const {
+  tilt = 'soft',
+  bleed = 'end',
+  panel = 'none',
+  variant = 'dashboard',
+  locale: localeProp,
+  currency = '$',
+  currencyCode = 'USD',
+  metric = '24,180',
+  delta = '+18%',
+  callouts = [],
+  float = false,
+  fade = false,
+  alt,
+  class: cls = '',
+} = Astro.props;
+
+const locale: Locale = localeProp ?? getLocaleFromUrl(Astro.url);
+const rtl = isRTL(locale);
+const dir = rtl ? 'rtl' : 'ltr';
+
+/* ---------------------------------------------------------------------------
+ * Sample UI copy. Five complete sets — the parity is the shape of this object.
+ * Customer names are invented businesses, kept international on purpose: no
+ * set is a single-country cast, and none of them is a real company.
+ * ------------------------------------------------------------------------ */
+interface Sample {
+  brand: string;
+  nav: string[];
+  title: Record<'dashboard' | 'invoices', string>;
+  search: string;
+  action: string;
+  kpi: string;
+  stats: [string, string][];
+  months: string[];
+  cols: [string, string, string, string];
+  rows: [string, string, string, boolean][]; // customer, date, amount, settled
+  status: [string, string]; // settled, outstanding
+}
+
+const SAMPLE: Record<Locale, Sample> = {
+  en: {
+    brand: 'Paper & Pen',
+    nav: ['Dashboard', 'Invoices', 'Customers', 'Inventory', 'Payroll', 'Accounting', 'Deliveries', 'Reports'],
+    title: { dashboard: 'Dashboard', invoices: 'Invoices' },
+    search: 'Search',
+    action: 'New invoice',
+    kpi: 'Revenue this month',
+    stats: [['Open invoices', '12'], ['Paid this month', '38']],
+    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
+    cols: ['Customer', 'Date', 'Amount', 'Status'],
+    rows: [
+      ['Northwind Traders', '12 Aug', '2,400', true],
+      ['Delta Logistics', '09 Aug', '860', true],
+      ['Harbour Café', '07 Aug', '1,190', false],
+      ['Vertex Studio', '04 Aug', '3,150', true],
+      ['Lumen Interiors', '01 Aug', '640', false],
+    ],
+    status: ['Paid', 'Due'],
+  },
+  ar: {
+    brand: 'Paper & Pen',
+    nav: ['لوحة التحكم', 'الفواتير', 'العملاء', 'المخزون', 'الرواتب', 'المحاسبة', 'التوصيل', 'التقارير'],
+    title: { dashboard: 'لوحة التحكم', invoices: 'الفواتير' },
+    search: 'بحث',
+    action: 'فاتورة جديدة',
+    kpi: 'إيرادات هذا الشهر',
+    stats: [['فواتير مفتوحة', '12'], ['مدفوعة هذا الشهر', '38']],
+    months: ['ينا', 'فبر', 'مار', 'أبر', 'مايو', 'يون', 'يول', 'أغس'],
+    cols: ['العميل', 'التاريخ', 'المبلغ', 'الحالة'],
+    rows: [
+      ['شركة النخيل للتجارة', '12 أغس', '2,400', true],
+      ['دلتا للخدمات اللوجستية', '09 أغس', '860', true],
+      ['مقهى المرسى', '07 أغس', '1,190', false],
+      ['استوديو رؤية', '04 أغس', '3,150', true],
+      ['لومن للديكور', '01 أغس', '640', false],
+    ],
+    status: ['مدفوعة', 'مستحقة'],
+  },
+  hi: {
+    brand: 'Paper & Pen',
+    nav: ['डैशबोर्ड', 'चालान', 'ग्राहक', 'इन्वेंटरी', 'पेरोल', 'लेखांकन', 'डिलीवरी', 'रिपोर्ट'],
+    title: { dashboard: 'डैशबोर्ड', invoices: 'चालान' },
+    search: 'खोजें',
+    action: 'नया चालान',
+    kpi: 'इस महीने की आय',
+    stats: [['खुले चालान', '12'], ['इस महीने भुगतान', '38']],
+    months: ['जन', 'फ़र', 'मार्च', 'अप्रै', 'मई', 'जून', 'जुल', 'अग'],
+    cols: ['ग्राहक', 'तारीख़', 'राशि', 'स्थिति'],
+    rows: [
+      ['नॉर्थविंड ट्रेडर्स', '12 अग', '2,400', true],
+      ['डेल्टा लॉजिस्टिक्स', '09 अग', '860', true],
+      ['हार्बर कैफ़े', '07 अग', '1,190', false],
+      ['वर्टेक्स स्टूडियो', '04 अग', '3,150', true],
+      ['लुमेन इंटीरियर्स', '01 अग', '640', false],
+    ],
+    status: ['भुगतान', 'बकाया'],
+  },
+  bn: {
+    brand: 'Paper & Pen',
+    nav: ['ড্যাশবোর্ড', 'চালান', 'গ্রাহক', 'ইনভেন্টরি', 'বেতন', 'হিসাব', 'ডেলিভারি', 'রিপোর্ট'],
+    title: { dashboard: 'ড্যাশবোর্ড', invoices: 'চালান' },
+    search: 'খুঁজুন',
+    action: 'নতুন চালান',
+    kpi: 'এই মাসের আয়',
+    stats: [['খোলা চালান', '12'], ['এই মাসে পরিশোধিত', '38']],
+    months: ['জানু', 'ফেব', 'মার্চ', 'এপ্রি', 'মে', 'জুন', 'জুল', 'আগ'],
+    cols: ['গ্রাহক', 'তারিখ', 'পরিমাণ', 'অবস্থা'],
+    rows: [
+      ['নর্থউইন্ড ট্রেডার্স', '12 আগ', '2,400', true],
+      ['ডেল্টা লজিস্টিকস', '09 আগ', '860', true],
+      ['হারবার ক্যাফে', '07 আগ', '1,190', false],
+      ['ভার্টেক্স স্টুডিও', '04 আগ', '3,150', true],
+      ['লুমেন ইন্টেরিয়র্স', '01 আগ', '640', false],
+    ],
+    status: ['পরিশোধিত', 'বকেয়া'],
+  },
+  ur: {
+    brand: 'Paper & Pen',
+    nav: ['ڈیش بورڈ', 'انوائسز', 'گاہک', 'انوینٹری', 'پے رول', 'اکاؤنٹنگ', 'ڈیلیوری', 'رپورٹس'],
+    title: { dashboard: 'ڈیش بورڈ', invoices: 'انوائسز' },
+    search: 'تلاش',
+    action: 'نئی انوائس',
+    kpi: 'اس ماہ کی آمدنی',
+    stats: [['کھلی انوائسز', '12'], ['اس ماہ ادا شدہ', '38']],
+    months: ['جن', 'فر', 'مار', 'اپر', 'مئی', 'جون', 'جول', 'اگس'],
+    cols: ['گاہک', 'تاریخ', 'رقم', 'حیثیت'],
+    rows: [
+      ['نارتھ ونڈ ٹریڈرز', '12 اگس', '2,400', true],
+      ['ڈیلٹا لاجسٹکس', '09 اگس', '860', true],
+      ['ہاربر کیفے', '07 اگس', '1,190', false],
+      ['ورٹیکس اسٹوڈیو', '04 اگس', '3,150', true],
+      ['لومن انٹیریئرز', '01 اگس', '640', false],
+    ],
+    status: ['ادا شدہ', 'واجب'],
+  },
+};
+
+const s = SAMPLE[locale] ?? SAMPLE.en;
+
+/* Arabic and Urdu need the Arabic face; the sans stack has no coverage for
+ * either script, and a fallback face is exactly what makes a "localised"
+ * screenshot look faked. */
+const scriptFont = rtl ? 'font-arabic' : '';
+
+/* Small-caps column headers are a LATIN typographic device. `uppercase` does
+ * nothing to Arabic, Devanagari or Bengali, and the letter-spacing that goes
+ * with it actively damages them — it prises apart cursive Arabic joins and
+ * pushes Devanagari away from its headline bar. Latin gets the treatment; the
+ * other scripts get plain weight instead. */
+const colHead = locale === 'en' ? 'uppercase tracking-wide' : '';
+
+const PANEL: Record<string, string> = {
+  none: '',
+  navy: 'bg-ink-500 p-6 sm:p-10 rounded-[1.75rem]',
+  peri: 'bg-peri-400 p-6 sm:p-10 rounded-[1.75rem]',
+  sky: 'bg-sky-300 p-6 sm:p-10 rounded-[1.75rem]',
+};
+
+const TONE: Record<Tone, { chip: string; icon: string }> = {
+  sky: { chip: 'bg-sky-100', icon: 'text-electric-500' },
+  mint: { chip: 'bg-mint-100', icon: 'text-emerald-500' },
+  violet: { chip: 'bg-violet-100', icon: 'text-violet-600' },
+};
+
+/* Callouts only overhang the frame from `sm` up. Measured: at a 390px viewport
+ * a -3% overhang is ~11px, which is wider than the page gutter, so the card
+ * landed at x=395 and made the whole document scroll sideways by 5px. Below
+ * `sm` they tuck inside the frame instead — which is also the better look at
+ * that width, where a card hanging off the edge just reads as cramped. */
+const AT: Record<At, string> = {
+  'top-start': 'top-[9%] start-0 sm:start-[-4%]',
+  'top-end': 'top-[6%] end-0 sm:end-[-3%]',
+  'bottom-start': 'bottom-[10%] start-0 sm:start-[-5%]',
+  'bottom-end': 'bottom-[7%] end-0 sm:end-[-3%]',
+};
+
+/* Nav rail icons, paired index-for-index with `nav` above. */
+const RAIL_ICONS = ['chart', 'invoice', 'users', 'inventory', 'hr', 'accounting', 'truck', 'reports'];
+const ACTIVE = variant === 'invoices' ? 1 : 0;
+
+/* Chart bars, in percent. Hand-picked so the shape reads as a real trend
+ * (a dip, then growth) rather than a tidy ramp. */
+const BARS = [46, 58, 41, 72, 63, 88, 76, 100];
+
+const rows = variant === 'invoices' ? s.rows : s.rows.slice(0, 3);
+
+const a11y = alt ? { role: 'img', 'aria-label': alt } : { 'aria-hidden': 'true' };
+---
+
+<div {dir} class:list={['pnp-mock relative', scriptFont, PANEL[panel], cls]} {...a11y}>
+  <!-- Clip layer. The frame overflows THIS, never the document. -->
+  <div class:list={['pnp-mock__clip relative overflow-hidden', panel === 'none' ? '' : 'rounded-2xl', fade && 'pnp-mock__clip--fade']}>
+    <div class="pnp-mock__stage" data-tilt={tilt} data-dir={dir}>
+      <div class:list={['pnp-mock__frame', bleed === 'end' && 'pnp-mock__frame--bleed']}>
+        <div class="rounded-2xl bg-white ring-1 ring-ink-500/10 overflow-hidden">
+          <!-- Window chrome. Pinned to `ltr` on purpose: this is the OS window,
+               not the app. Real desktop chrome does not mirror when the app
+               inside it is Arabic, and a mirrored one is a tell that the
+               "screenshot" was flipped rather than translated. -->
+          <div dir="ltr" class="flex items-center gap-2 bg-ink-600 px-4 h-9">
+            <span class="w-2.5 h-2.5 rounded-full bg-white/25"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-white/25"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-white/25"></span>
+            <span dir="ltr" class="ms-3 inline-flex items-center rounded-pill bg-white/10 px-3 py-0.5 text-[10px] font-medium text-white/70 tracking-wide">
+              app.paperandpen.om
+            </span>
+          </div>
+
+          <div class="flex">
+            <!-- nav rail: real labels, not skeleton bars -->
+            <div class="hidden sm:block w-40 lg:w-44 shrink-0 border-e border-paper-300 bg-paper-100 p-2.5">
+              <div class="flex items-center gap-2 px-2 pb-3">
+                <span class="inline-flex h-6 w-6 items-center justify-center rounded-md bg-ink-500 text-[11px] font-bold text-white leading-none">P</span>
+                <span dir="ltr" class="font-display text-[13px] font-semibold text-ink-500 leading-none">{s.brand}</span>
+              </div>
+              {s.nav.map((label, i) => (
+                <div class:list={['flex items-center gap-2 rounded-lg px-2 py-[7px]', i === ACTIVE && 'bg-electric-50']}>
+                  <span class={i === ACTIVE ? 'text-electric-500' : 'text-ink-300'}>
+                    <Icon name={RAIL_ICONS[i]} class="w-[15px] h-[15px] shrink-0" />
+                  </span>
+                  <span class:list={['text-[11.5px] leading-none truncate', i === ACTIVE ? 'font-semibold text-electric-600' : 'text-ink-500']}>{label}</span>
+                </div>
+              ))}
+            </div>
+
+            <!-- main pane -->
+            <div class="flex-1 min-w-0 p-4 sm:p-5">
+              <!-- header row -->
+              <div class="flex items-center justify-between gap-3 mb-5">
+                <!-- Deliberately a `p`, not a heading: the mock is decoration,
+                     and a real <h4> in here would inject a phantom level into
+                     the page's heading outline. -->
+                <p class="font-display text-[15px] sm:text-[17px] font-semibold text-ink-500 leading-none truncate">
+                  {s.title[variant]}
+                </p>
+                <div class="flex items-center gap-1.5 shrink-0">
+                  <span class="hidden sm:inline-flex items-center gap-1.5 rounded-pill bg-paper-200 ps-2.5 pe-3 py-1 text-[10.5px] font-medium text-ink-300">
+                    <Icon name="search" class="w-3 h-3" weight={2.4} />
+                    {s.search}
+                  </span>
+                  <span dir="ltr" class="inline-flex items-center gap-1 rounded-pill bg-paper-200 px-2.5 py-1 text-[10.5px] font-semibold text-ink-500">
+                    {currencyCode}
+                    <Icon name="chevron-down" class="w-2.5 h-2.5" weight={3} />
+                  </span>
+                  <span class="inline-flex items-center gap-1 rounded-pill bg-electric-500 px-2.5 py-1 text-[10.5px] font-semibold text-white">
+                    <Icon name="plus" class="w-2.5 h-2.5" weight={3} />
+                    <span class="hidden sm:inline">{s.action}</span>
+                  </span>
+                </div>
+              </div>
+
+              {variant === 'dashboard' && (
+                <div class="mb-5">
+                  {/* headline figure */}
+                  <p class="text-[10.5px] font-medium text-ink-300 mb-1.5">{s.kpi}</p>
+                  <div class="flex items-end gap-2.5 mb-4">
+                    <span dir="ltr" class="font-display text-3xl sm:text-4xl font-semibold text-ink-500 leading-none tabular-nums">{currency}{metric}</span>
+                    <span dir="ltr" class="inline-flex items-center gap-0.5 text-[12px] font-semibold text-emerald-500 leading-none pb-1 tabular-nums">
+                      <Icon name="trend-up" class="w-3.5 h-3.5" weight={2.4} />{delta}
+                    </span>
+                  </div>
+
+                  {/* chart */}
+                  <div class="flex items-end gap-1.5 sm:gap-2 h-24">
+                    {BARS.map((h, i) => (
+                      <span
+                        class:list={['flex-1 rounded-t-md', i === BARS.length - 1 ? 'bg-electric-500' : 'bg-electric-300']}
+                        style={`height:${h}%`}
+                      ></span>
+                    ))}
+                  </div>
+                  <div class="flex items-start gap-1.5 sm:gap-2 pt-1.5">
+                    {s.months.map((m) => (
+                      <span class="flex-1 text-center text-[9px] leading-none text-ink-300 truncate">{m}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {variant === 'dashboard' && (
+                <div class="grid grid-cols-2 gap-2 mb-4">
+                  {s.stats.map(([label, value]) => (
+                    <div class="rounded-lg bg-paper-100 px-3 py-2">
+                      <p class="text-[9.5px] font-medium text-ink-300 leading-none mb-1.5 truncate">{label}</p>
+                      <p dir="ltr" class="font-display text-[17px] font-semibold text-ink-500 leading-none tabular-nums">{value}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              <!-- ledger: real column headers, real rows -->
+              <div>
+                <div class="flex items-center gap-3 border-b border-paper-300 pb-1.5">
+                  <span class:list={['flex-1 min-w-0 text-[9.5px] font-semibold text-ink-300 truncate', colHead]}>{s.cols[0]}</span>
+                  <span class:list={['hidden sm:block w-14 text-[9.5px] font-semibold text-ink-300 truncate', colHead]}>{s.cols[1]}</span>
+                  <span class:list={['w-16 text-end text-[9.5px] font-semibold text-ink-300 truncate', colHead]}>{s.cols[2]}</span>
+                  <span class:list={['w-14 text-end text-[9.5px] font-semibold text-ink-300 truncate', colHead]}>{s.cols[3]}</span>
+                </div>
+                {rows.map(([name, date, amount, settled]) => (
+                  <div class="flex items-center gap-3 border-b border-paper-200 py-[9px]">
+                    <span class="flex-1 min-w-0 text-[11.5px] font-medium text-ink-500 truncate">{name}</span>
+                    <span class="hidden sm:block w-14 text-[10.5px] text-ink-300 truncate">{date}</span>
+                    <span dir="ltr" class="w-16 text-end text-[11.5px] font-semibold text-ink-500 tabular-nums">{currency}{amount}</span>
+                    <span class="w-14 flex justify-end">
+                      <span class:list={[
+                        'inline-block rounded-pill px-2 py-[3px] text-[9.5px] font-semibold leading-none truncate max-w-full',
+                        settled ? 'bg-mint-100 text-emerald-500' : 'bg-copper-100 text-copper-400',
+                      ]}>{settled ? s.status[0] : s.status[1]}</span>
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Callouts sit OUTSIDE the clip so they can overhang the frame, and outside
+       the 3D stage so they stay flat and legible — exactly as the bar does. -->
+  {callouts.map((c) => (
+    <div class:list={['pnp-mock__callout absolute z-10 max-w-[62%]', AT[c.at ?? 'top-start'], float && 'pnp-mock__callout--float']}>
+      <div class="flex items-center gap-2.5 rounded-xl bg-white p-2 shadow-float ring-1 ring-ink-500/5">
+        {c.icon && (
+          <span class:list={['inline-flex items-center justify-center w-8 h-8 rounded-lg shrink-0', TONE[c.tone ?? 'sky'].chip, TONE[c.tone ?? 'sky'].icon]}>
+            <Icon name={c.icon} class="w-4 h-4" />
+          </span>
+        )}
+        <span class:list={['rounded-lg px-2.5 py-1.5 min-w-0', TONE[c.tone ?? 'sky'].chip]}>
+          {c.text && <span class="block text-xs font-semibold text-ink-500 truncate">{c.text}</span>}
+          {c.value && <span dir="ltr" class="block text-sm font-bold text-ink-500 tabular-nums">{c.value}</span>}
+        </span>
+      </div>
+    </div>
+  ))}
+
+  <div class="pnp-mock__slot pnp-mock__slot--top absolute z-10"><slot name="callout-top" /></div>
+  <div class="pnp-mock__slot pnp-mock__slot--bottom absolute z-10"><slot name="callout-bottom" /></div>
+</div>
+
+<style>
+  /* `width: 0; min-width: 100%` is not a typo and not redundant with the
+     `overflow: hidden` on this element — it is what stops the mock forcing its
+     column wider than the viewport.
+     The frame inside is a percentage width, and a percentage is treated as
+     `auto` during intrinsic sizing, so the frame's min-content (its chrome bar,
+     ledger rows and paddings) propagated straight out through the clip and set
+     the grid track. At a 320px viewport that dragged the whole page 64px
+     sideways — including the headline and body copy in the OTHER column, which
+     is what made it look like a text bug rather than an image one.
+     A zero preferred width contributes zero, and `min-width: 100%` puts the
+     used width straight back, so nothing renders differently.
+     `min-width: 0` does NOT work here: it overrides the automatic minimum size
+     of a flex/grid item, which this is not. Verified 0px overflow at 320 / 390 /
+     768 / 1024 / 1440 in both directions.
+     Every text cell inside is `truncate` for the same reason: real words have
+     no fixed width, and a long customer name must clip like a real table
+     rather than widen the frame. */
+  .pnp-mock__clip {
+    width: 0;
+    min-width: 100%;
+    contain: inline-size; /* progressive enhancement: same effect, less layout work */
+  }
+
+  .pnp-mock__stage {
+    perspective: 1800px;
+    perspective-origin: 62% 38%;
+  }
+
+  /* No `will-change` here on purpose: the tilt is static, so promoting it to
+     its own compositor layer for the life of the page costs memory and buys
+     nothing. */
+  .pnp-mock__frame {
+    transform-origin: 50% 50%;
+  }
+
+  /* The tilt. Kept moderate on purpose: the bar can rotate hard because its
+     screenshot is decoration, but ours has to stay readable as a product —
+     and now that it carries real words, legibility is the whole point. */
+  [data-tilt='soft'] .pnp-mock__frame {
+    transform: rotateX(4deg) rotateY(-13deg) rotateZ(0.8deg);
+  }
+  [data-tilt='strong'] .pnp-mock__frame {
+    transform: rotateX(8deg) rotateY(-19deg) rotateZ(1.8deg);
+  }
+  [data-tilt='none'] .pnp-mock__frame {
+    transform: none;
+  }
+
+  /* RTL mirrors the tilt so the frame recedes away from the reading edge.
+     Keyed off the MOCK's own direction (`data-dir`), not the document's, so an
+     Arabic screenshot tilts correctly even when it sits on an English page. */
+  [data-dir='rtl'][data-tilt='soft'] .pnp-mock__frame {
+    transform: rotateX(4deg) rotateY(13deg) rotateZ(-0.8deg);
+  }
+  [data-dir='rtl'][data-tilt='strong'] .pnp-mock__frame {
+    transform: rotateX(8deg) rotateY(19deg) rotateZ(-1.8deg);
+  }
+
+  /* Bleed: wider than the clip, so it runs off the edge. A block box that is
+     wider than its container overflows towards the inline-END edge, which flips
+     with direction on its own — no RTL override needed. */
+  .pnp-mock__frame--bleed {
+    width: 124%;
+  }
+  @media (max-width: 640px) {
+    .pnp-mock__frame--bleed {
+      width: 136%;
+    }
+  }
+
+  .pnp-mock__clip--fade {
+    -webkit-mask-image: linear-gradient(to bottom, #000 74%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 74%, transparent 100%);
+  }
+
+  /* Slot wrappers collapse to nothing when the slot is unused, so an empty
+     absolutely-positioned box can never sit on top of the frame. */
+  .pnp-mock__slot:empty {
+    display: none;
+  }
+  /* Same overhang rule as the built-in callouts above — see the note there. */
+  .pnp-mock__slot--top {
+    top: 6%;
+    inset-inline-start: 0;
+  }
+  .pnp-mock__slot--bottom {
+    bottom: 8%;
+    inset-inline-end: 0;
+  }
+  @media (min-width: 640px) {
+    .pnp-mock__slot--top {
+      inset-inline-start: -4%;
+    }
+    .pnp-mock__slot--bottom {
+      inset-inline-end: -3%;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .pnp-mock__callout--float {
+      animation: pnp-mock-float 6s ease-in-out infinite;
+    }
+    .pnp-mock__callout--float:nth-of-type(even) {
+      animation-delay: -3s;
+    }
+    @keyframes pnp-mock-float {
+      0%,
+      100% {
+        transform: translateY(-3px);
+      }
+      50% {
+        transform: translateY(3px);
+      }
+    }
+  }
+</style>

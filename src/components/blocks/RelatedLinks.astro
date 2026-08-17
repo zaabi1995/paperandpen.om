@@ -1,25 +1,64 @@
 ---
+/*
+ * RELATED LINKS — the quiet "explore more" list.
+ *
+ * Was a grid of white boxes with hover shadows sitting on a cream page: boxes
+ * on boxes, which the bar never does. It is now a ruled list — a hairline per
+ * row and nothing else — so it reads as navigation rather than as another
+ * section competing with the CTA band under it.
+ */
 import { localizePath, type Locale } from '@/i18n';
-interface Link { href: string; title: string; desc?: string }
-interface Props { locale: Locale; title: string; links: Link[] }
-const { locale, title, links } = Astro.props;
+type Band = 'paper' | 'white' | 'tint';
+interface Link {
+  href: string;
+  title: string;
+  desc?: string;
+}
+interface Props {
+  locale: Locale;
+  title: string;
+  links: Link[];
+  band?: Band;
+}
+const { locale, title, links, band = 'paper' } = Astro.props;
 const lp = (p: string) => localizePath(p, locale);
+const BAND: Record<Band, string> = { paper: 'band-paper', white: 'band-surface', tint: 'band-tint' };
+/* The warm paper hairline is 1.14 : 1 on the grey band — invisible, and
+ * this list is nothing but hairlines. ink-200 clears 3 : 1 on all three. */
+const rule = 'border-ink-200';
 ---
-{links.length > 0 && (
-  <section class="section-pad bg-cream-50 border-t border-cream-200">
-    <div class="container-wide">
-      <h2 class="font-display text-2xl font-bold text-ink-500 mb-8 reveal">{title}</h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {links.map((l) => (
-          <a href={lp(l.href)} class="reveal group block p-5 rounded-2xl bg-white border border-cream-200 hover:border-copper-300 hover:shadow-lg hover:shadow-ink-500/5 transition-all">
-            <div class="flex items-center justify-between">
-              <h3 class="font-semibold text-ink-500 group-hover:text-copper-500 transition-colors">{l.title}</h3>
-              <svg class="w-4 h-4 text-ink-400 group-hover:text-copper-400 rtl:rotate-180 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7l7 7-7 7"/></svg>
-            </div>
-            {l.desc && <p class="text-sm text-ink-400 mt-1.5 leading-relaxed">{l.desc}</p>}
-          </a>
-        ))}
+
+{
+  links.length > 0 && (
+    <section class={`band band-tight ${BAND[band]}`}>
+      <div class="container-wide">
+        <h2 class="font-display text-2xl text-ink-500 md:text-3xl">{title}</h2>
+        <ul class="mt-8 grid gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
+          {links.map((l) => (
+            <li class={`border-t ${rule}`}>
+              <a
+                href={lp(l.href)}
+                class="group flex items-center justify-between gap-4 py-4 text-ink-500 no-underline transition-colors hover:text-electric-500"
+              >
+                <span>
+                  <span class="text-base font-semibold">{l.title}</span>
+                  {l.desc && <span class="mt-1 block text-sm text-ink-500">{l.desc}</span>}
+                </span>
+                <svg
+                  class="h-4 w-4 shrink-0 transition-transform group-hover:translate-x-1 rtl:rotate-180 rtl:group-hover:-translate-x-1"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7" />
+                </svg>
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
-    </div>
-  </section>
-)}
+    </section>
+  )
+}
