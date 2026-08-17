@@ -165,9 +165,15 @@ export default function LoginForm({ locale }: { locale: Locale }) {
       <p className="mt-5 text-sm leading-relaxed text-ink-500">{t('login.otpNote')}</p>
 
       <div className="mt-8 border-t border-paper-300 pt-6">
+        {/* `inline-block py-1` takes this link from 94x18 to 94x26. WCAG 2.5.8
+            does exempt a link sitting inside a sentence, but the exemption is a
+            licence to be small, not a reason to be — and 18px is below the
+            comfortable-thumb line on the one page a returning user taps in a
+            hurry. The padding is vertical only, so the sentence still reads as
+            one line and the baseline does not move. */}
         <p className="text-sm text-ink-500">
           {t('login.noAccount')}{' '}
-          <a className="link font-semibold" href={localizePath('/signup', locale)}>
+          <a className="link inline-block py-1 font-semibold" href={localizePath('/signup', locale)}>
             {t('login.signUp')}
           </a>
         </p>

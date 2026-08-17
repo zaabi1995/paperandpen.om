@@ -442,7 +442,7 @@
   "signup": {
     "title": "Create your workspace",
     "step1": {
-      "title": "What's your company name?",
+      "title": "What’s your company name?",
       "label": "Company name",
       "placeholder": "Al Noor Trading LLC",
       "subdomainLabel": "Your workspace URL will be",
@@ -461,12 +461,12 @@
       "language": "Preferred language",
       "currency": "Default currency",
       "next": "Continue",
-      "subtitle": "We'll send a one-time code every time you sign in. No password to remember.",
+      "subtitle": "We’ll send a one-time code every time you sign in. No password to remember.",
       "emailPlaceholder": "you@company.com",
       "passwordLabel": "Password",
       "passwordPlaceholder": "Min. 8 characters",
       "back": "Back",
-      "emailHint": "You'll receive a 6-digit sign-in code here every time."
+      "emailHint": "You’ll receive a 6-digit sign-in code here every time."
     },
     "step3": {
       "title": "Pick your modules",
@@ -516,20 +516,27 @@
       "emailRequired": "Enter the email address you want to sign in with. Your one-time codes go there.",
       "emailInvalid": "That address is missing an @ or the part after it. Write it in full, like you@company.com."
     },
+    "rail": {
+      "cardLabel": "Card required today",
+      "cardValue": "None",
+      "dataLabel": "Data if you leave",
+      "dataValue": "Yours to export",
+      "note": "Nothing is locked in. Stop paying for a module and the workspace stays open on the free plan, with your records exactly where you left them."
+    },
     "securedBy": "Secured by Paymob"
   },
   "login": {
     "title": "Welcome back",
     "subtitle": "Sign in to your workspace.",
     "workspace": "Workspace",
-    "workspaceError": "Please enter your workspace name (e.g. \"yourcompany\").",
+    "workspaceError": "Please enter your workspace name (e.g. “yourcompany”).",
     "email": "Email",
     "emailLabel": "Email",
     "password": "Password",
     "submit": "Continue to workspace",
-    "otpNote": "We'll send a one-time code to your email. No password required.",
+    "otpNote": "We’ll send a one-time code to your email. No password required.",
     "forgotPassword": "Forgot password?",
-    "noAccount": "Don't have an account?",
+    "noAccount": "Don’t have an account?",
     "signUp": "Start free trial"
   }
 }

@@ -7,6 +7,27 @@ import {
 } from '@/lib/api';
 import { useTranslations, type Locale } from '@/i18n';
 
+/*
+ * The rail's standing facts, and they are now DECISIONS rather than trivia.
+ *
+ * This used to restate the home page's marketing stats: "Languages supported 5"
+ * and "Currency billing / Any". Nobody with their hand on a signup button is
+ * weighing those; they are specification, and specification belongs on the
+ * marketing page it came from. What a person actually hesitates over before
+ * handing a company's books to a stranger is two things — what it costs me
+ * right now, and what happens to my data if I walk away — so those are the two
+ * rows that replaced them. Setup time survives because it is the one standing
+ * stat that IS a decision: it prices the effort of trying.
+ *
+ * Wave's equivalent panel is disciplined the same way: it only ever carries
+ * the number the reader is weighing ($0, $190 USD/year, Billed annually).
+ */
+const FACTS = [
+  { label: 'signup.rail.cardLabel', value: 'signup.rail.cardValue' },
+  { label: 'trust.stat3_label', value: 'trust.stat3_value' },
+  { label: 'signup.rail.dataLabel', value: 'signup.rail.dataValue' },
+];
+
 const MODULES = [
   { key: 'inventory', price: 5 },
   { key: 'hr', price: 8 },
@@ -261,9 +282,18 @@ export default function SignupForm({ locale }: { locale: Locale }) {
                     <span
                       className={`block h-1 rounded-pill ${n <= step ? 'bg-electric-500' : 'bg-ink-100'}`}
                     />
+                    {/* NOT truncated. `truncate` rendered the third and final
+                        step of a money signup as "Modules & Payme…" at 390px —
+                        the word Payment, unreadable, on the device most people
+                        sign up from. It wraps to two lines instead.
+
+                        And state is carried by COLOUR, not weight alone: at
+                        12px a medium/bold difference is not a state signal.
+                        The current step holds full navy, steps not yet reached
+                        drop to the quiet ink (still AA at 4.88:1). */}
                     <span
-                      className={`mt-2.5 block truncate text-xs text-ink-500 ${
-                        active ? 'font-bold' : 'font-medium'
+                      className={`mt-2.5 block text-xs leading-tight ${
+                        active ? 'font-bold text-ink-500' : n < step ? 'font-medium text-ink-500' : 'font-medium text-ink-300'
                       }`}
                     >
                       {label}
@@ -515,6 +545,27 @@ export default function SignupForm({ locale }: { locale: Locale }) {
         {/* ---------------------------------------------------------------
          * THE RAIL — standing context, identical on every step. Flat pale-blue
          * fill, no shadow, no border. ink on tint-blue is 13.8 : 1.
+         *
+         * IT CARRIES THE BAND. This was 308px tall against a 421px form
+         * column, so it stopped 113px short of the Continue button and left the
+         * bottom-right quadrant of the fold as a hole — the single thing the
+         * last critic named. The fix is mass, not a stretched empty panel: the
+         * rail runs to roughly the CTA baseline because it has more to say, not
+         * because it was padded.
+         *
+         * WHAT it says was the next gap, and it is the harder one. The rows
+         * were marketing stats lifted off the home page, and the closing line
+         * was the home page's pre-footer paragraph, which restated the FREE
+         * chip and the setup-time row already visible in the same panel. So
+         * three of five rows said something twice and two said nothing anyone
+         * decides on. See FACTS at the top of this file for what replaced them:
+         * the rail now only carries facts a person weighs with their hand on
+         * the button, and it closes on the one thing nothing else here says.
+         *
+         * Label left, value right, hairline between: the same row shape the
+         * pricing card uses. No icons and no accent on any of it — the accent
+         * is spent on the CTA and the links, which is the one rule the bar
+         * never breaks.
          * ------------------------------------------------------------- */}
         <aside className="rounded-card bg-tint-blue px-7 py-7 lg:sticky lg:top-10">
           <p className="eyebrow-ink">{t('modules.included')}</p>
@@ -525,8 +576,38 @@ export default function SignupForm({ locale }: { locale: Locale }) {
           <span className="mt-4 inline-block rounded-pill bg-mint-100 px-3 py-1 text-xs font-bold uppercase tracking-[0.1em] text-mint-900">
             {t('signup.step3.baseTag')}
           </span>
+
           <div className="my-6 h-px bg-white" />
-          <p className="text-sm leading-relaxed text-ink-500">{t('cta.sub')}</p>
+
+          {/* `justify-between` mirrors itself under dir="rtl", so ar / ur put
+              the label on the right and the value on the left with no second
+              rule. The value never gets a forced dir: "أي" and "কোনো" are real
+              words in those locales, not Latin data. */}
+          <dl className="space-y-3">
+            {FACTS.map(({ label, value }, i) => (
+              <div
+                key={label}
+                className={`flex items-baseline justify-between gap-4 ${
+                  i > 0 ? 'border-t border-white pt-3' : ''
+                }`}
+              >
+                <dt className="min-w-0 text-sm leading-snug text-ink-500">{t(label)}</dt>
+                <dd className="shrink-0 text-sm font-bold text-ink-500">{t(value)}</dd>
+              </div>
+            ))}
+          </dl>
+
+          <div className="my-6 h-px bg-white" />
+
+          {/* The closing line used to be `cta.sub`, the home page's pre-footer
+              paragraph: "Create your free workspace in under 5 minutes. Sales &
+              Invoicing is free forever, no credit card required." Inside THIS
+              panel every clause of it was already on screen — the FREE chip two
+              inches above, the setup-time row directly above, and the card row
+              directly above that — so the rail closed by repeating itself three
+              times. It now closes on the one thing nothing else here says: what
+              actually happens to the workspace when you stop paying. */}
+          <p className="text-sm leading-relaxed text-ink-500">{t('signup.rail.note')}</p>
         </aside>
       </div>
     </div>

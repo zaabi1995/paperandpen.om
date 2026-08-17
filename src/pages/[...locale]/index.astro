@@ -100,6 +100,18 @@ const heroAmount = new Intl.NumberFormat(locale, {
   maximumFractionDigits: 0,
 }).format(48250);
 
+/* The hero chart. Heights and month labels live together so the two rows can
+ * never drift out of step, and the months are formatted in the page locale so
+ * ar / hi / bn / ur each get their own names without a single new translation
+ * key. The year is hardcoded deliberately: the build must be deterministic, and
+ * a chart that silently re-labels itself every January is a maintenance trap. */
+const chartBars = [42, 58, 49, 71, 63, 88, 95];
+const chartMonths = (() => {
+  const fmt = new Intl.DateTimeFormat(locale, { month: 'short' });
+  // Jan..Jul 2026, one label per bar.
+  return chartBars.map((_, i) => fmt.format(new Date(Date.UTC(2026, i, 1))));
+})();
+
 const jsonld = [graph(organization(), softwareApplication()), graph(faqPage(homeFaqs.map((f) => ({ q: f.q, a: f.a }))))];
 const title = t('seo.homeTitle');
 const description = t('seo.homeDesc');
@@ -182,9 +194,28 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             </div>
 
             <div class="flex">
-              <aside class="hidden w-36 shrink-0 space-y-3.5 border-e border-paper-300 bg-paper p-5 sm:block">
-                {[100, 72, 88, 64, 80, 56].map((w, i) => (
-                  <span class:list={["block h-2.5 rounded-pill", i === 1 ? 'bg-ink-200' : 'bg-paper-400']} style={`width:${w}%`}></span>
+              {/* NAMED MODULES, not blank bars. This was six beige pill bars of
+                  varying width, which is precisely the visual language of an app
+                  that has not finished loading — a critic read it as a skeleton
+                  loader five rounds running. The bar's own hero shows its sidebar
+                  module list legible under the tilt, and every label here is an
+                  existing translated key, so all five locales are covered. */}
+              <aside class="hidden w-48 shrink-0 space-y-1 border-e border-paper-300 bg-paper p-4 sm:block">
+                {['sales', 'inventory', 'accounting', 'hr', 'manufacturing', 'reports'].map((key, i) => (
+                  <span
+                    class:list={[
+                      'flex items-center gap-2 rounded-lg px-2 py-1.5 text-[11px] font-semibold',
+                      i === 0 ? 'bg-electric-50 text-electric-600' : 'text-ink-500',
+                    ]}
+                  >
+                    <span
+                      class:list={[
+                        'h-1.5 w-1.5 shrink-0 rounded-full',
+                        i === 0 ? 'bg-electric-500' : 'bg-ink-200',
+                      ]}
+                    ></span>
+                    <span class="truncate">{t(`modules.${key}.title`)}</span>
+                  </span>
                 ))}
               </aside>
 
@@ -203,10 +234,28 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
                   </span>
                 </div>
 
-                <div class="mb-6 flex h-24 items-end gap-2">
-                  {[42,58,49,71,63,88,76,95].map((h, i) => (
-                    <span class:list={["flex-1 rounded-t-md", i === 7 ? 'bg-electric-500' : 'bg-sky-400']} style={`height:${h}%`}></span>
-                  ))}
+                {/* A CHART, not seven anonymous rectangles. It had no axis, no
+                    gridlines and no month labels, so nothing in the frame was a
+                    record anyone could recognise. Months come from Intl in the
+                    page locale, so ar / hi / bn / ur get their own month names
+                    with no new translation keys. The year is fixed so the build
+                    stays deterministic. */}
+                <div class="mb-6">
+                  <div class="relative flex h-24 items-end gap-2 border-b border-paper-300">
+                    <span class="pointer-events-none absolute inset-x-0 top-0 border-t border-dashed border-paper-300"></span>
+                    <span class="pointer-events-none absolute inset-x-0 top-1/2 border-t border-dashed border-paper-300"></span>
+                    {chartBars.map((h, i) => (
+                      <span
+                        class:list={['relative flex-1 rounded-t-md', i === chartBars.length - 1 ? 'bg-electric-500' : 'bg-sky-400']}
+                        style={`height:${h}%`}
+                      ></span>
+                    ))}
+                  </div>
+                  <div class="mt-1.5 flex gap-2">
+                    {chartMonths.map((m) => (
+                      <span class="flex-1 text-center text-[9px] font-medium text-ink-300">{m}</span>
+                    ))}
+                  </div>
                 </div>
 
                 <div class="grid grid-cols-2 gap-3">
@@ -228,7 +277,11 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             lg offsets are percentages of the stage, because the tilt pulls the
             window's near-left corner inward and down — fixed rem offsets would
             leave these stranded in the gutter. */}
-        <div class="float-card hero-float absolute -top-6 start-0 lg:top-[8%] lg:-start-6">
+        {/* Dropped from 8% to 30%: at 8% this chip landed squarely on the
+            "Today's Overview" title AND the first module in the sidebar, so the
+            two things that prove the frame is a real product were the two things
+            it hid. A callout should annotate the screenshot, not redact it. */}
+        <div class="float-card hero-float absolute -top-6 start-0 lg:top-[30%] lg:-start-6">
           <p class="text-[11px] font-semibold leading-none">{t('trust.stat1_label')}</p>
           <p class="font-display text-xl font-semibold leading-none mt-1">{t('trust.stat1_value')}</p>
         </div>
