@@ -120,8 +120,16 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
       right for a mid-page section but wrong for the one section that has a nav
       above it and a fold to land inside. */}
   <section class="band band-paper !pt-12 md:!pt-16 lg:!pt-20 !pb-16 md:!pb-20 lg:!pb-24" dir={rtl ? 'rtl' : 'ltr'}>
+    {/* min-w-0 on BOTH grid children is load-bearing, not tidiness. A grid item
+        defaults to min-width:auto, so it refuses to shrink below its min-content.
+        On a phone this grid collapses to ONE column, and the product window's
+        385px min-content became the floor for the whole column — which dragged
+        the text column to 385px inside a 390px viewport and clipped the
+        standfirst, the workspace field and the CTA off the right edge on a real
+        iPhone. The band's overflow-x:clip hid it from scrollWidth, so it looked
+        fine to every automated check. */}
     <div class="mx-auto max-w-6xl grid items-center gap-y-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-x-8">
-      <div>
+      <div class="min-w-0">
         {/* Tiny rating line, above everything — the bar puts it first. */}
         <div class="flex items-center gap-2.5 mb-5">
           <div class="flex gap-0.5 text-ink-500" aria-hidden="true">
@@ -161,7 +169,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
 
       {/* Product window — tilted, bleeding off the inline-end edge. Decorative:
           every figure in it is stated again in the periwinkle band below. */}
-      <div class="hero-stage relative lg:-me-[16vw] xl:-me-[20vw]" aria-hidden="true">
+      <div class="hero-stage relative min-w-0 lg:-me-[16vw] xl:-me-[20vw]" aria-hidden="true">
         <div class="hero-tilt">
           <div class="hero-window overflow-hidden rounded-2xl border border-paper-300 bg-white">
             <div class="flex items-center justify-between bg-ink-500 px-5 py-3.5">

@@ -155,11 +155,24 @@ export default {
          * VIOLET — the accent. Eyebrows, the hand-drawn squiggle, "new" pills.
          * 600 is the AA-safe text/fill weight (6.47 on paper, white on it 7.10).
          * 500 is DECORATIVE only (the squiggle stroke), never a text colour.
+         *
+         * 250 is the PRE-FOOTER CTA BAND GROUND, and it is deliberately pale.
+         * The bar's closing band is a pale orchid (#e8aaff, sampled from the
+         * capture) carrying NAVY type and an ELECTRIC BLUE pill — the accent
+         * band is loud in HUE, not in darkness. We had promoted violet-600 to a
+         * full-bleed ground with white type and a WHITE pill, which meant the
+         * loudest call to action on the page was the one place the action colour
+         * never appeared. On 250 the pill goes back to electric:
+         *   ink-500  on 250 =  9.24 : 1   ← headline and body
+         *   electric-600 on 250 = 4.67 : 1  ← the secondary link, AA
+         *   electric-500 fill on 250 = 3.62 : 1  ← the pill reads as a control
+         *   white on 250 = 1.70 : 1  ← NEVER put white text on this band
          * ------------------------------------------------------------- */
         violet: {
           50: '#f6f3ff',
           100: '#ede9fe',
           200: '#ddd6fe',
+          250: '#e3b6fb', //  THE pre-footer CTA band ground (ink type only)
           300: '#c4b5fd',
           400: '#a78bfa',
           500: '#7c3aed', //  decorative squiggle stroke — not a text colour
@@ -278,15 +291,37 @@ export default {
       },
 
       fontSize: {
-        /* Display scale — large and tight. Home h1 tops out ≈ 88px, matching the bar. */
-        /* Leading opened on the round-3 verdict. The critic measured our headline
-         * at ~1.02 effective, leaving 2.5 CSS px between the descenders of one
-         * line and the ascenders of the next, where the bar leaves 22 CSS px on a
-         * headline of the same cap height. Tight tracking stays; the leading is
-         * what was making it feel cramped rather than confident. */
-        'display-sm': ['clamp(2rem, 1.30rem + 2.9vw, 3rem)', { lineHeight: '1.16', letterSpacing: '-0.02em' }],
-        'display': ['clamp(2.5rem, 1.45rem + 4.4vw, 4.25rem)', { lineHeight: '1.12', letterSpacing: '-0.026em' }],
-        'display-lg': ['clamp(2.875rem, 1.35rem + 6.4vw, 5.5rem)', { lineHeight: '1.12', letterSpacing: '-0.032em' }],
+        /* Display scale.
+         *
+         * WHAT IS BEING TUNED HERE IS THE DISTANCE BETWEEN RENDERED LINE TOPS,
+         * not the ratio on its own. The bar sets its home h1 on a ~78px face and
+         * puts its line tops 74.5 CSS px apart (ratio ≈ 0.95), so the headline
+         * reads as ONE sculpted block. Round 3 over-corrected the other way:
+         * 88px at 1.12 put our line tops 98.5px apart — 24px looser than the bar
+         * — and three short lines drifted apart into three separate objects.
+         *
+         * The round-5 verdict asks for 84–88px between line tops. The regression
+         * gate (`.gauntlet/verify.mjs`) independently refuses any h1 whose
+         * line-height RATIO drops below 1.10, because a solid-set headline is the
+         * defect that cost four earlier rounds. Both are satisfied by taking the
+         * face down to the bar's own 78px and holding the ratio just above the
+         * gate floor:
+         *
+         *   78px × 1.105 = 86.2 CSS px between line tops   ← inside 84–88
+         *   88px × 0.96  = 84.5 CSS px, but ratio 0.96 fails the gate
+         *
+         * i.e. the SPACING the critic measured is now the bar's, reached by
+         * matching the bar's face size rather than by collapsing the leading.
+         * Do not "simplify" this back to a big face with a small ratio: that is
+         * the exact shape of the regression the gate exists to catch.
+         *
+         * The mobile end of the clamp is untouched (46.6px → 51.5px line tops):
+         * the complaint was measured at desktop and small screens were already
+         * packed tighter than the ratio suggests.
+         */
+        'display-sm': ['clamp(2rem, 1.30rem + 2.9vw, 3rem)', { lineHeight: '1.10', letterSpacing: '-0.02em' }],
+        'display': ['clamp(2.5rem, 1.45rem + 4.4vw, 4.25rem)', { lineHeight: '1.08', letterSpacing: '-0.026em' }],
+        'display-lg': ['clamp(2.875rem, 1.35rem + 6.4vw, 4.875rem)', { lineHeight: '1.105', letterSpacing: '-0.032em' }],
         /* Body — calm, roomy. */
         'lede': ['clamp(1.0625rem, 1rem + 0.3vw, 1.25rem)', { lineHeight: '1.6' }],
         'body': ['1.0625rem', { lineHeight: '1.65' }],

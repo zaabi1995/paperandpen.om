@@ -67,11 +67,17 @@ export default function SubdomainChecker({ strings, signupBase, rtl = false }: P
           value={input}
           onChange={(e) => setInput(sanitizeSubdomainInput(e.target.value, MAX_SUBDOMAIN_LENGTH))}
           placeholder={strings.placeholder}
-          className="flex-1 px-4 py-3.5 text-ink-500 placeholder-ink-200 text-sm outline-none bg-transparent font-medium"
+          /* min-w-0 is load-bearing: a flex item defaults to min-width:auto and
+             will not shrink below its placeholder's min-content, so without it
+             this input plus the 160px suffix overflowed a 390px phone and the
+             field was clipped off the right edge. */
+          className="min-w-0 flex-1 px-4 py-3.5 text-ink-500 placeholder-ink-200 text-sm outline-none bg-transparent font-medium"
           maxLength={50}
           aria-label={strings.label}
         />
-        <span className="flex items-center px-4 bg-cream-100 text-ink-400 text-sm border-s border-cream-200 select-none font-medium whitespace-nowrap">
+        {/* Tighter type and padding on a phone so the suffix cannot crowd the
+            input out of the row; full size from sm up. */}
+        <span className="flex shrink-0 items-center px-3 sm:px-4 bg-cream-100 text-ink-400 text-xs sm:text-sm border-s border-cream-200 select-none font-medium whitespace-nowrap">
           {strings.suffix}
         </span>
       </div>

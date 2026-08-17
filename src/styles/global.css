@@ -46,6 +46,9 @@
     --pnp-hairline-ink: #7c88b8;
     --pnp-violet: #6d28d9;
     --pnp-violet-draw: #7c3aed;
+    /* Pale orchid — the pre-footer CTA band ground. Ink type, electric pill.
+       Never white text on it (1.70 : 1). See `.band-violet`. */
+    --pnp-violet-band: #e3b6fb;
     --pnp-accent: #ffa15c;
     --pnp-mint: #d9fbe6;
 
@@ -119,15 +122,26 @@
     font-variation-settings: 'opsz' 24;
   }
 
-  /* The bar's display face is set at a book/medium weight, not a bold — the
-     size is what carries it, and a 600 at 88px reads as a much blacker,
-     more templated headline than the bar's. Small headings stay at 600 so
-     card titles keep their weight. An explicit `font-*` utility still wins.
-     (While BaseLayout requests Playfair at 600 and up, 500 simply resolves to
-     the nearest loaded face and this is a no-op — see "concerns".) */
+  /* The bar's display face is set at a book weight, not a bold — the size is
+     what carries it. Small headings stay at 600 so card titles keep their
+     weight. An explicit `font-*` utility still wins.
+
+     430, not 500. fonts.bhd.om serves Source Serif 4 as a genuine variable
+     face (`font-weight: 100 900` on both the roman and the italic @font-face),
+     so a fractional weight is honoured exactly rather than snapping to a static
+     master — 430 really renders at wght 430.
+
+     Paired with opsz 32: the round-5 verdict read our headline as "chunky and
+     airy" beside the bar's lighter, higher-modulation transitional. opsz is the
+     modulation control on this family — 24 is the sturdy-stem subhead cut, 60 is
+     the hairline display cut we fled in round 2 for looking like a didone. 32
+     sits between them: thinner hairlines and less blunt bracketing than 24,
+     nowhere near the fashion-magazine contrast of 60. h3/h4 stay on 24, where a
+     delicate cut at card-title size would simply look weak. */
   h1,
   h2 {
-    font-weight: 500;
+    font-weight: 430;
+    font-variation-settings: 'opsz' 32;
   }
 
   /* An <h1> that sets no size utility of its own gets the full display scale —
@@ -198,12 +212,16 @@
     color: var(--pnp-ink);
   }
 
-  /* …except on a dark band, where ink is invisible. Narrowed to the dimmed
+  /* …except on the navy band, where ink is invisible. Narrowed to the dimmed
      forms only — plain `text-ink-500` inside a navy band is almost always a
      white card sitting on that band, and repainting that would break it.
      `:not()` keeps the escape hatch for a light surface nested in the band.
-     0,3,0 beats the 0,2,0 above. */
-  :is(.band-navy, .band-violet)
+     0,3,0 beats the 0,2,0 above.
+
+     `.band-violet` used to be listed here too. It is a PALE ground now, so ink
+     is exactly what belongs on it and lifting the colour to paper would erase
+     the copy. */
+  .band-navy
     :not([class*='bg-white'], [class*='bg-paper'], [class*='bg-cream'], [class*='bg-tint'])
     > [class*='text-ink-500/'][class*='text-ink-500/'] {
     color: var(--pnp-paper);
@@ -408,19 +426,74 @@
   .band-sky a:not([class*='btn-']) {
     @apply text-electric-600;
   }
-  /* Violet. The loud pre-footer CTA band, used once per page at most.
-     white on violet-600 = 7.10 : 1. */
+  /* -----------------------------------------------------------------------
+   * VIOLET. The loud pre-footer CTA band, used once per page at most.
+   *
+   * It used to be violet-600 at full strength with white type and a WHITE pill.
+   * That inverted the whole system exactly where it mattered most: the accent
+   * was spent on the GROUND, so the loudest call to action on the page was the
+   * single place the action colour never appeared, and the button was a hole
+   * punched in the band rather than the brightest thing on it.
+   *
+   * The bar does the opposite and it is worth copying literally. Its closing
+   * band is a PALE orchid (#e8aaff, sampled off the capture) carrying navy type
+   * and an electric-blue pill — the accent band is loud in HUE, not in darkness.
+   * So violet-250 is the ground, ink is the type, and `.btn-primary` lands on it
+   * unchanged at 3.62 : 1 against the band with its usual 6.15 : 1 white label.
+   *
+   * Everything below repairs the light-on-dark descendants the old band needed.
+   * They live in CtaBand.astro, which another piece owns, so the repair has to
+   * land here. Each rule beats its utility on specificity, no !important.
+   * --------------------------------------------------------------------- */
   .band-violet {
-    @apply bg-violet-600 text-white;
+    @apply text-ink-500;
+    background-color: var(--pnp-violet-band);
   }
   .band-violet h1,
   .band-violet h2,
   .band-violet h3,
   .band-violet h4 {
-    @apply text-white;
+    @apply text-ink-500;
   }
+  /* The secondary action is a plain link. electric-600 = 4.67 : 1 here (AA),
+     and it keeps the accent hue on the band's second action too. */
   .band-violet a:not([class*='btn-']) {
-    @apply text-white underline underline-offset-4;
+    @apply text-electric-600 underline underline-offset-4;
+  }
+  /* White copy would be 1.70 : 1 on this ground — an outright failure, not a
+     style preference. `[class*='text-white']` catches the band's <p> rows.
+     Doubled to 0,3,0 so it outranks the utility in the later layer. */
+  .band-violet [class*='text-white'][class*='text-white'] {
+    color: var(--pnp-ink);
+  }
+  /* The pill. The band ships it as `bg-white text-violet-700`, which is now the
+     wrong way round: on a pale ground the action must be the electric fill.
+     0,2,1 beats the utilities; the :hover form is 0,3,1 and beats `hover:bg-*`. */
+  .band-violet :is(a, button)[class*='bg-white'] {
+    background-color: var(--pnp-electric);
+    color: #ffffff;
+  }
+  .band-violet :is(a, button)[class*='bg-white']:hover {
+    background-color: var(--pnp-electric-deep);
+    color: #ffffff;
+  }
+  /* violet-600 on this ground is 4.18 : 1 and misses AA by a hair, so an eyebrow
+     dropped into the band takes the ink instead. */
+  .band-violet .eyebrow {
+    @apply text-ink-500;
+  }
+  /* The doodles are drawn with an inline `fill` presentation attribute, which any
+     CSS rule outranks. They ship as `paper` for the old dark band and would be
+     invisible now, so they take the marker violet the rest of the site draws in.
+     Decoration: 3.37 : 1 is a look, not a text requirement. */
+  .band-violet .pnp-doodle {
+    fill: var(--pnp-violet-draw);
+  }
+  /* Same for the squiggle under the band headline's italic word, which the
+     component hard-codes to white in its own scoped style (0,1,1). This is
+     0,2,1 and wins wherever it sits in the cascade. */
+  .band-violet .cta-title em {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14' preserveAspectRatio='none'%3E%3Cpath d='M3 9.6c16.4-4.1 32.7-4.4 49.1-1.6 16.3 2.8 32.7 4.1 49 1.4 16.4-2.7 32.7-5.2 49.1-3.1 16.3 2 32.6 5.6 46.8 6.3' fill='none' stroke='%237c3aed' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   }
 
   /* Navy. Reserved for the FOOTER. Never the fold: a navy ground above the
@@ -473,20 +546,32 @@
   /* =======================================================================
    * TYPE
    * ==================================================================== */
+  /* display-1 / display-2 are the same voice as a bare <h1>/<h2>: book weight,
+     opsz 32. They used to be `font-semibold`, so a heading that reached for the
+     class rendered ~170 units heavier than the identical heading that did not.
+     display-3 keeps 600 on purpose — it sets form and section titles at 32–48px,
+     where the delicate cut goes weak. */
   .display-1 {
-    @apply font-display text-display-lg font-semibold text-ink-500;
+    @apply font-display text-display-lg text-ink-500;
+    font-weight: 430;
+    font-variation-settings: 'opsz' 32;
   }
   .display-2 {
-    @apply font-display text-display font-semibold text-ink-500;
+    @apply font-display text-display text-ink-500;
+    font-weight: 430;
+    font-variation-settings: 'opsz' 32;
   }
   .display-3 {
     @apply font-display text-display-sm font-semibold text-ink-500;
   }
 
-  /* The signature move: one word of the headline in italic serif. */
+  /* The signature move: one word of the headline in italic serif.
+     The weight is INHERITED, not set. The bar's italic word is the same weight
+     as the roman around it; pinning it to 600 made it the heaviest thing in a
+     430 headline, which read as emphasis-by-boldness rather than by voice. */
   .accent-italic {
     @apply font-display italic;
-    font-weight: 600;
+    font-weight: inherit;
   }
 
   /* Hand-drawn squiggle under that word. Decorative only — the stroke never
@@ -739,6 +824,25 @@
   }
   .container-wide {
     @apply mx-auto max-w-6xl;
+  }
+
+  /* Minimum tap target for LIST-style links (footer columns, nav rows).
+   * WCAG 2.5.8 asks for 24x24 CSS px. A 15px link on snug leading measures 20px
+   * tall, which is genuinely fiddly on a phone when the links are stacked.
+   *
+   * Deliberately NOT applied to every <a>: 2.5.8 exempts a link sitting inside a
+   * sentence, whose size is constrained by the line-height of the prose around
+   * it. Padding those out would wreck body copy for no accessibility gain.
+   *
+   * Only `display`, `align-items` and `min-height` are set here, none of which
+   * the component's own scoped rule declares, so this raises the floor without
+   * fighting it over type or colour. */
+  .footer-link,
+  .nv-m-row,
+  nav li > a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
   }
 
   /* Tool builder form fields */

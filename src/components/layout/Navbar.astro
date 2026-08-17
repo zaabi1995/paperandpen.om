@@ -220,6 +220,20 @@ const sections = {
    * 24px setting drifts toward the text cut while an 88px headline lands on
    * the display cut, so the wordmark and the headlines would be two visibly
    * different faces on the same page.
+   *
+   * WEIGHT 700, measured rather than picked. Rendered against the mark at
+   * 24px/32px, weight 600 leaves the type visibly lighter than the mark, so the
+   * pair reads "icon, then a label" — the mark dominates. The bar's own lockup
+   * is the other way round: a light three-stroke mark supporting a very heavy
+   * wordmark, so the NAME leads. 700 flips ours the same way and the two
+   * elements finally read as one object. It is still ONE weight, set once, and
+   * used identically in the footer.
+   *
+   * Source Serif 4 arrives from fonts.bhd.om as a true variable font
+   * (`wght 100 900`, verified in the served @font-face), so 700 is a real
+   * instance — no synthetic bold, and nothing here breaks if the foundation
+   * moves the h1 weight down: a logotype heavier than the headlines is the
+   * point, not a drift from them.
    * ------------------------------------------------------------------- */
   .wm {
     @apply inline-flex items-center gap-2.5 text-ink-500 no-underline;
@@ -229,7 +243,7 @@ const sections = {
   }
   .wm-name {
     @apply font-display whitespace-nowrap;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.375rem; /* 22px */
     line-height: 1;
     letter-spacing: -0.015em;
