@@ -113,8 +113,24 @@ export default function LoginForm({ locale }: { locale: Locale }) {
           <div
             id="pnp-login-error"
             role="alert"
-            className="rounded-xl border border-red-200 border-s-4 border-s-red-600 bg-white px-5 py-4"
+            className="flex items-start gap-3 rounded-xl border border-red-300 bg-white px-5 py-4"
           >
+            {/* Icon, not a side stripe: it adds a cue that is not colour, which
+                a red rule beside red text never did, and it keeps the flatness
+                the rest of the page commits to. Mirrors for ar / ur via flex. */}
+            <svg
+              className="mt-0.5 h-5 w-5 shrink-0 text-red-700"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9 5a1 1 0 012 0v5a1 1 0 01-2 0V5zm1 10a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5z"
+                clipRule="evenodd"
+              />
+            </svg>
             <p className="text-sm font-semibold leading-relaxed text-red-800">{error}</p>
           </div>
         )}

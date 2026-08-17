@@ -191,14 +191,31 @@ export default function SignupForm({ locale }: { locale: Locale }) {
     }
   }
 
-  /* The error surface. A tinted panel washes out on the cream ground, so this
-     is a white card carried by a solid rule on the inline-start edge — which
-     `border-s` mirrors for ar / ur without a second rule. */
+  /* The error surface. A tinted panel does wash out on the cream ground, so it
+     stays a white card — but carried by a full hairline rather than a thick rule
+     on one edge. The thick edge read as decoration and broke the flatness the
+     rest of the page commits to; nothing else in this design has a side accent.
+     The icon is the part that actually earns its place: it adds a cue that is
+     not colour, which a red stripe next to red text never did. Flex + gap
+     mirrors for ar / ur with no second rule. */
   const errorBox = error ? (
     <div
       role="alert"
-      className="mt-8 rounded-xl border border-red-200 border-s-4 border-s-red-600 bg-white px-5 py-4"
+      className="mt-8 flex items-start gap-3 rounded-xl border border-red-300 bg-white px-5 py-4"
     >
+      <svg
+        className="mt-0.5 h-5 w-5 shrink-0 text-red-700"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path
+          fillRule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zM9 5a1 1 0 012 0v5a1 1 0 01-2 0V5zm1 10a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5z"
+          clipRule="evenodd"
+        />
+      </svg>
       <p className="text-sm font-semibold leading-relaxed text-red-800">{error}</p>
     </div>
   ) : null;
