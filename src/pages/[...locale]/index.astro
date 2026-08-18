@@ -493,13 +493,20 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
        the window turning into the page instead of out of it — and the Z
        rotation has to be big enough to actually see. */
     .hero-tilt {
-      transform: rotateX(6deg) rotateY(-16deg) rotate(-5deg);
+      /* Near-flat, deliberately. This was rotateX(6) rotateY(-16) rotate(-5),
+         which staggered one row's four cells by nearly two row-heights — a
+         customer name sat level with the NEXT row's date and amount, so the
+         table only resolved if the eye tracked the slope. The bar's tell is
+         decisive: its crisp, readable Transactions table is DEAD FLAT, and it
+         spends the aggressive 3D tilt only on the home shot it deliberately
+         blurs. A ledger you are asked to read should not be rotated. */
+      transform: rotateY(-6deg) rotate(-1.5deg);
       transform-origin: left center;
     }
     /* Mirror it for Arabic and Urdu — the window bleeds off the left edge
        there, because `-me-` is margin-inline-end. */
     :global([dir='rtl']) .hero-tilt {
-      transform: rotateX(6deg) rotateY(16deg) rotate(5deg);
+      transform: rotateY(6deg) rotate(1.5deg);
       transform-origin: right center;
     }
   }

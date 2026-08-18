@@ -61,12 +61,12 @@ import { getLocaleFromUrl } from '../../i18n';
  * this frame carries the multi-LANGUAGE claim, and mixing the two would have
  * broken the "data stays the same" promise the copy makes. */
 const ROWS = [
-  { customer: 'Northwind Trading Co.', amount: '$4,820.00', day: '12', status: 'paid' },
-  { customer: 'Harbour Point Ltd', amount: '$12,500.00', day: '09', status: 'overdue' },
-  { customer: 'Cedar Clinic Group', amount: '$2,140.00', day: '05', status: 'paid' },
-  { customer: 'Studio Meridian', amount: '$860.00', day: '02', status: 'draft' },
+  { customer: 'Northwind Trading Co.', amount: '$4,820.50', day: '12', status: 'paid' },
+  { customer: 'Harbour Point Ltd', amount: '$12,500.75', day: '09', status: 'overdue' },
+  { customer: 'Cedar Clinic Group', amount: '$2,140.25', day: '05', status: 'paid' },
+  { customer: 'Studio Meridian', amount: '$863.40', day: '02', status: 'draft' },
 ] as const;
-const TOTAL = '$20,320.00';
+const TOTAL = '$20,324.90';
 
 type Status = 'paid' | 'overdue' | 'draft';
 
