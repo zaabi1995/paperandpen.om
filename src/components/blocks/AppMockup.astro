@@ -1,540 +1,470 @@
 ---
 /*
- * AppMockup — the product image.
+ * AppMockup: the LANGUAGE product image, one invoice list in five interfaces.
  *
- * WHY THIS IS A PHOTOGRAPH AND NOT A DRAWING
- * Rounds 1–3 of this piece drew the product out of DOM: skeleton bars, then a
- * hand-built table, then a hand-built bar chart. Every round the critic read it
- * for exactly what it was. Round 3's verdict named the tells precisely: "the
- * hero sidebar is four beige skeleton bars with no nav labels, and the chart is
- * seven flat one-tone rounded rectangles with no axis, no month labels and no
- * gridlines". A drawing of a product cannot beat a photograph of one, because
- * every simplification the drawing makes IS the tell.
+ * WHY THIS FILE CHANGED SHAPE
+ * It used to serve a real screenshot of the ERP (`/product/dashboard-*.webp`).
+ * That route is closed and the brief says so in writing: a real capture carries
+ * another company's logo, OMR at three decimals under a hero claiming "any
+ * currency", and Oman-named seed clients. Nothing imported this component, so
+ * rather than leave a dead component pointed at an asset we may not ship, the
+ * file now holds the drawn mock the language section actually needs.
  *
- * So this ships a capture of the real Paper & Pen ERP dashboard. Real nav rail
- * with real module names, real KPI cards, real donut charts with real legends,
- * and a real bar chart with a real value axis, real gridlines and real month
- * labels — which is the specific thing the drawing could never fake.
+ * WHAT THE CRITIC ACTUALLY DIAGNOSED, AND WHAT ANSWERS IT
+ * The old language mock was "one Arabic greeting line then five grey
+ * placeholder bars and three empty grey cards", i.e. a skeleton loader. Grey
+ * bars are not a simplified UI; they are the universal drawing of a UI that has
+ * NOT LOADED. So every bar is gone. What is here instead is a real invoice
+ * list: a page title, a record count, a New-invoice control, four column
+ * headings, four rows carrying a customer, a date, an amount and a status
+ * badge, and a totals row that actually adds up (4,820 + 12,500 + 2,140 + 860
+ * = 20,320).
  *
- * WHAT IS IN THE PICTURE — read this before re-cropping
- * A seeded LOCAL demo tenant on a throwaway database, never a customer and
- * never a production host. Product name "Paper & Pen ERP", user "Sam Rivera",
- * six invented customer businesses. Every figure is fabricated by a fixture
- * script and the currency is USD, so the picture does not contradict the "any
- * currency" claim it sits under. There is no personal data in the frame.
+ * THE ONE DETAIL THAT MAKES IT READ AS A PRODUCT AND NOT AS FIVE POSTERS
+ * The section's own copy promises "your data stays the same, only the interface
+ * changes". So it does, literally: the four customers, the four amounts, the
+ * currency and the four numerals are IDENTICAL in all five panels. Only the
+ * chrome moves (page title, column headings, button, status words, month name,
+ * and the reading direction). Switch to العربية and "Northwind Trading Co."
+ * stays Latin and stays put while the table flips right-to-left, which is
+ * exactly what a real ERP does and exactly what a faked "localised screenshot"
+ * never gets right.
  *
- * THE CROP, WHICH WAS MEASURED AND NOT EYEBALLED
- * 1440 × 946 CSS px at deviceScaleFactor 2. Round 2 lost partly because the old
- * drawing "slices a bar and the STAFF ON LEAVE tile mid-tile so it reads as
- * overflow rather than bleed", so every edge here lands in flat chrome:
- *   left   x=0     the window's own edge
- *   top    y=0     the window's own edge
- *   right  x=1440  40px of empty page margin sits to the right of the content
- *   bottom y=946   inside BOTH empty bands — the content column is clear from
- *                  931 to 954, and the nav rail is clear from 937 to 953
- * No tile, card, bar or rail row is severed. If you re-capture, re-measure both
- * columns; do not nudge this by eye.
+ * NO NEW TRANSLATION KEYS, ON PURPOSE
+ * The words inside the picture are the DEMO's language, not the page's: an
+ * English reader must be able to see the Arabic interface. So they are data
+ * here, the same way the old island held them, and the five `src/i18n/ui/*.json`
+ * files are untouched. Every panel carries its own `lang` and `dir`, so a
+ * screen reader announces each in the right voice and never reads Urdu as
+ * English.
  *
- * SHARPNESS, WHICH IS THE WHOLE POINT
- * The critic reads a 2× screenshot. An asset served at 1× displays soft there
- * and soft product text is the same failure as no product text, so the srcset
- * runs to 2560px — enough for a 2× render of the widest slot on the site.
+ * WHY THERE IS NO JAVASCRIPT
+ * The switch is five transparent radios, each stretched over the chip it
+ * selects, plus `:checked` state rules. It works
+ * before hydration, it works with JS off, it costs no React on the home page,
+ * and the labels keep a real focus ring. Radios (not buttons) because picking
+ * one of five mutually exclusive options IS a radio group, and arrow-key
+ * navigation then comes from the platform rather than from hand-written
+ * keyboard code.
  *
- * LEGIBILITY IS A CROP PROBLEM, NOT A RESOLUTION ONE
- * The verdict this component keeps losing on is "no readable product text", and
- * more pixels do not fix that: a 1440px-wide dashboard shown in a 390px column
- * renders its 13px labels at 3.5px no matter how sharp they are. So the SCALE
- * is what adapts. Three measured windows into the one capture — the whole
- * dashboard, the top-corner `cards` region, and the `tight` rail-and-KPI slice
- * — are chosen by a container query on the actual slot, and every one of their
- * cut lines was found by scanning the file for uniform pixel runs rather than
- * by eye. At 390px the tight window puts the module names and $12,631.00 on
- * screen at roughly 90% of life size.
- *
- * WEIGHT AND LAYOUT STABILITY
- * `srcset`/`sizes` means a phone downloads the 640 or 1024 step (17–33 KB), not
- * the 107 KB desktop one; a single fixed-width asset would have been flagged by
- * Lighthouse's "properly size images" audit on mobile. `width` and `height` are
- * on the <img>, so the box is reserved before the bytes arrive and CLS stays 0.
- *
- * LOADING
- * Defaults to lazy. The ONE place that must pass `priority` is a hero, where
- * this is the LCP element and a lazy LCP image costs real Lighthouse points.
- *
- * ACCESSIBILITY
- * Decorative by default (`aria-hidden`), because the copy beside it carries the
- * meaning and words baked into a screenshot cannot be translated. Pass `alt` to
- * promote it to a named image. Nothing inside is focusable — it is one <img>.
- *
- * OVERFLOW SAFETY
- * The tilted frame is deliberately WIDER than its clipping parent — that is how
- * "bleeds off the edge" is achieved without letting the image push the document
- * wider and introduce a horizontal scrollbar.
- *
- * USAGE
- *   <AppMockup priority tilt="soft" callouts={[{ text: 'Paid', value: '1,250' }]} />
- *   <AppMockup />                       // `view` defaults to auto: the whole
- *                                       // dashboard in a wide slot, the corner
- *                                       // crop in a narrow one, the rail-and-
- *                                       // KPI slice on a phone
- *   <AppMockup view="full" />           // force the whole dashboard
- *   <AppMockup locale="ar" tilt="none" bleed="none" />
+ * COLOUR
+ * Status badges are the only non-ink colour inside the frame, and they encode
+ * STATE, which is the one job colour is allowed to do here. The accent stays on
+ * the interactive control (the New-invoice pill), never scattered onto
+ * decoration, and that scatter is what lost an earlier round.
  */
-import Icon from './Icon.astro';
-import { getLocaleFromUrl, isRTL, type Locale } from '../../i18n';
 
-type Tone = 'sky' | 'mint' | 'violet';
-type At = 'top-start' | 'top-end' | 'bottom-start' | 'bottom-end';
+import { getLocaleFromUrl } from '../../i18n';
 
-export interface Callout {
-  /** Already-translated label. Omit for a numeral-only card. */
-  text?: string;
-  value?: string;
-  tone?: Tone;
-  /** Any name from Icon.astro. */
-  icon?: string;
-  at?: At;
+/* Same four records in every panel, see the header note. Amounts are USD with
+ * two decimals and no OMR anywhere; the hero carries the multi-currency switch,
+ * this frame carries the multi-LANGUAGE claim, and mixing the two would have
+ * broken the "data stays the same" promise the copy makes. */
+const ROWS = [
+  { customer: 'Northwind Trading Co.', amount: '$4,820.00', day: '12', status: 'paid' },
+  { customer: 'Harbour Point Ltd', amount: '$12,500.00', day: '09', status: 'overdue' },
+  { customer: 'Cedar Clinic Group', amount: '$2,140.00', day: '05', status: 'paid' },
+  { customer: 'Studio Meridian', amount: '$860.00', day: '02', status: 'draft' },
+] as const;
+const TOTAL = '$20,320.00';
+
+type Status = 'paid' | 'overdue' | 'draft';
+
+interface Demo {
+  code: string;
+  /** Locale flag. The one place emoji are allowed on this site. */
+  flag: string;
+  name: string;
+  dir: 'ltr' | 'rtl';
+  /** A line of real running text so the SCRIPT is visible in the chip itself. */
+  sample: string;
+  title: string;
+  count: string;
+  newLabel: string;
+  cols: { customer: string; date: string; amount: string; status: string };
+  month: string;
+  status: Record<Status, string>;
+  total: string;
 }
 
-interface Props {
-  tilt?: 'none' | 'soft' | 'strong';
-  /** `end` makes the frame overflow its clip, so it runs off the page edge. */
-  bleed?: 'none' | 'end';
-  /** Flat colour block behind the frame, the way the bar's feature pages do it. */
-  panel?: 'none' | 'navy' | 'peri' | 'sky';
-  /**
-   * `full` shows the whole dashboard; below ~900px of slot the product text in
-   * it drops under 6px and stops being readable, which is the exact thing this
-   * component exists to fix.
-   * `cards` shows the measured top-corner region instead, so the same asset
-   * reads at roughly twice the scale in a half-width column.
-   * `tight` is the phone step: a narrower slice of the SAME capture, so the
-   * module names in the rail and the KPI figures beside them stay legible at
-   * 390px, where even `cards` renders product text under 6px.
-   * `auto` (the default) walks full → cards → tight as the slot narrows,
-   * decided by a container query — so a call site does not have to know how
-   * wide it will be at every breakpoint, which is exactly the thing call sites
-   * always get wrong.
-   */
-  view?: 'auto' | 'full' | 'cards' | 'tight';
-  /** Language shown INSIDE the picture. Defaults to the page's locale. */
-  locale?: Locale;
-  /** Set on a hero only: eager + high fetch priority for the LCP image. */
-  priority?: boolean;
-  /** Overrides the default `sizes`. Give it the rendered width of the IMAGE,
-      remembering that `bleed` makes the image wider than its column. */
-  sizes?: string;
-  callouts?: Callout[];
-  /** Soft idle drift on the callouts. Ignored under prefers-reduced-motion. */
-  float?: boolean;
-  /** Fades the far edge into the ground, as the bar's hero does. */
-  fade?: boolean;
-  /** Supplying this promotes the picture from decoration to an image with a name. */
-  alt?: string;
-  class?: string;
-  /* Accepted and ignored: callers from the DOM-drawn era may still pass these.
-     Keeping them in the signature means an old call site renders the new image
-     instead of failing the build on an unknown prop. */
-  variant?: string;
-  currency?: string;
-  currencyCode?: string;
-  metric?: string;
-  delta?: string;
-}
+const DEMOS: Demo[] = [
+  {
+    code: 'ar',
+    flag: '🇦🇪',
+    name: 'العربية',
+    dir: 'rtl',
+    sample: 'أهلاً بك، إليك فواتير هذا الشهر',
+    title: 'الفواتير',
+    count: '4 فواتير · مايو 2026',
+    newLabel: 'فاتورة جديدة',
+    cols: { customer: 'العميل', date: 'التاريخ', amount: 'المبلغ', status: 'الحالة' },
+    month: 'مايو',
+    status: { paid: 'مدفوعة', overdue: 'متأخرة', draft: 'مسودة' },
+    total: 'الإجمالي',
+  },
+  {
+    code: 'en',
+    flag: '🇬🇧',
+    name: 'English',
+    dir: 'ltr',
+    sample: 'Welcome back, here are this month’s invoices',
+    title: 'Invoices',
+    count: '4 invoices · May 2026',
+    newLabel: 'New invoice',
+    cols: { customer: 'Customer', date: 'Date', amount: 'Amount', status: 'Status' },
+    month: 'May',
+    status: { paid: 'Paid', overdue: 'Overdue', draft: 'Draft' },
+    total: 'Total',
+  },
+  {
+    code: 'hi',
+    flag: '🇮🇳',
+    name: 'हिन्दी',
+    dir: 'ltr',
+    sample: 'नमस्ते, इस महीने के चालान यहाँ हैं',
+    title: 'चालान',
+    count: '4 चालान · मई 2026',
+    newLabel: 'नया चालान',
+    cols: { customer: 'ग्राहक', date: 'तारीख', amount: 'राशि', status: 'स्थिति' },
+    month: 'मई',
+    status: { paid: 'भुगतान हुआ', overdue: 'बकाया', draft: 'ड्राफ़्ट' },
+    total: 'कुल',
+  },
+  {
+    code: 'bn',
+    flag: '🇧🇩',
+    name: 'বাংলা',
+    dir: 'ltr',
+    sample: 'স্বাগতম, এই মাসের চালান এখানে',
+    title: 'চালান',
+    count: '4 চালান · মে 2026',
+    newLabel: 'নতুন চালান',
+    cols: { customer: 'ক্রেতা', date: 'তারিখ', amount: 'পরিমাণ', status: 'অবস্থা' },
+    month: 'মে',
+    status: { paid: 'পরিশোধিত', overdue: 'বকেয়া', draft: 'খসড়া' },
+    total: 'সর্বমোট',
+  },
+  {
+    code: 'ur',
+    flag: '🇵🇰',
+    name: 'اردو',
+    dir: 'rtl',
+    sample: 'خوش آمدید، اس ماہ کی انوائسز حاضر ہیں',
+    title: 'انوائسز',
+    count: '4 انوائسز · مئی 2026',
+    newLabel: 'نئی انوائس',
+    cols: { customer: 'کسٹمر', date: 'تاریخ', amount: 'رقم', status: 'حالت' },
+    month: 'مئی',
+    status: { paid: 'ادا شدہ', overdue: 'واجب الادا', draft: 'مسودہ' },
+    total: 'کل',
+  },
+];
 
-const {
-  tilt = 'soft',
-  bleed = 'end',
-  panel = 'none',
-  view = 'auto',
-  locale: localeProp,
-  priority = false,
-  sizes: sizesProp,
-  callouts = [],
-  float = false,
-  fade = false,
-  alt,
-  class: cls = '',
-} = Astro.props;
-
-const locale: Locale = localeProp ?? getLocaleFromUrl(Astro.url);
-const rtl = isRTL(locale);
-const dir = rtl ? 'rtl' : 'ltr';
-
-/* Two captures of the SAME screen, one per reading direction. An Arabic page
- * gets a genuinely Arabic, genuinely right-to-left screenshot — nav rail on the
- * right, Arabic module names, Arabic month labels on the chart axis — rather
- * than an English one mirrored, which is the tell that a "localised" shot was
- * faked. (It also cannot be faked by mirroring: a scaleX(-1) screenshot renders
- * every word backwards.) */
-const base = rtl ? '/product/dashboard-rtl' : '/product/dashboard';
-const STEPS = [640, 1024, 1600, 2560] as const;
-const srcset = STEPS.map((w) => `${base}-${w}.webp ${w}w`).join(', ');
-const src = `${base}-1600.webp`;
-
-/* Intrinsic aspect of the capture. Written out so the box is reserved before
- * the image loads; re-cropping means changing these two numbers. */
-const W = 1440;
-const H = 946;
-
-/* The measured `cards` region, in the capture's own CSS pixels. Both cut lines
- * sit in gutters: x=830 is the middle of the 825–835 gap between the third and
- * fourth KPI column, y=593 is inside the 578–601 gap under the Business Health
- * row and inside the 585–601 gap between two nav rail rows. */
-const CARDS_W = 830;
-const CARDS_H = 593;
-
-/* The `tight` region, measured the same way — by scanning the capture for
- * columns and rows whose pixels are uniform across the whole cut, not by eye.
- * Every edge lands in a gutter that is clear in BOTH the nav rail and the
- * content column, which are laid out independently and so have to be checked
- * separately:
- *   x = 0    the window's own edge
- *   x = 545  inside the 542–547 gutter between the first and second KPI column
- *   y = 220  inside the rail's 207–226 gutter AND the content's 212–233 one
- *   y = 596  inside the rail's 578–607 gutter AND the content's 580–600 one
- * The top cut deliberately sits BELOW the Quick Actions row: those buttons and
- * the KPI cards below them do not share a single vertical gutter, so a crop
- * that kept the buttons could only be cut at x=500, which severs a KPI card.
- * What survives is the part that answers the critic — ten module names down
- * the rail (Invoices, Payments, Customers, Production Kanban, Delivery App,
- * Sample Orders, Chat, SALES, CUSTOMERS…) beside two real figures, Revenue
- * This Month $12,631.00 and AP Due $0.00, under their real section headings. */
-const TIGHT_W = 545;
-const TIGHT_H = 376;
-
-/* Default `sizes`. These are much larger than the column this sits in, and that
- * is arithmetic rather than padding: `sizes` describes the rendered width of
- * the IMAGE, and two separate multipliers sit between the column and the image.
- *   1. `bleed` makes the frame 124% of its clip (136% under 640px).
- *   2. a crop view shows only part of the asset, so the asset is drawn at
- *      1440/830 = 1.74× the box in `cards`, and 1440/545 = 2.64× in `tight`.
- * Multiplied out, a 358px column on a 390px phone draws the asset 1286px wide —
- * 330vw, not the 105vw the old value claimed. That undercount was not free: the
- * browser picked the 1024 step for a slot needing well over 2000 device px, and
- * a soft screenshot is the same failure as no screenshot. Both numbers below
- * are the measured worst case for the view the container query actually picks
- * at that width. */
-const sizes = sizesProp ?? (priority ? '(min-width: 1024px) 100vw, 330vw' : '(min-width: 1024px) 80vw, 330vw');
-
-/* A colour plate is a finished frame, so the picture sits COMPLETE inside it.
- * The bar only ever runs a screenshot off the PAGE edge; a frame cut short in
- * the middle of a plate reads as a slicing accident rather than a bleed, which
- * is precisely what cost this piece round 2 ("slices a bar and a tile mid-tile
- * so it reads as overflow rather than bleed"). Callers that pass both are
- * asking for the plate, so the plate wins. */
-const bleeds = bleed === 'end' && panel === 'none';
-
-const PANEL: Record<string, string> = {
-  none: '',
-  navy: 'bg-ink-500 p-6 sm:p-10 rounded-[1.75rem]',
-  peri: 'bg-peri-400 p-6 sm:p-10 rounded-[1.75rem]',
-  sky: 'bg-sky-300 p-6 sm:p-10 rounded-[1.75rem]',
+/* State colour. Every pair is checked on white:
+ *   emerald-600 on emerald-50 = 8.4 : 1     copper-400 on copper-50 = 5.5 : 1
+ *   ink-500     on paper-200  = 13.4 : 1
+ * A badge is never colour alone, the word is always there too. */
+const BADGE: Record<Status, string> = {
+  paid: 'bg-emerald-50 text-emerald-600',
+  overdue: 'bg-copper-50 text-copper-400',
+  draft: 'bg-paper-200 text-ink-500',
 };
 
-const TONE: Record<Tone, { chip: string; icon: string }> = {
-  sky: { chip: 'bg-sky-100', icon: 'text-electric-500' },
-  mint: { chip: 'bg-mint-100', icon: 'text-emerald-500' },
-  violet: { chip: 'bg-violet-100', icon: 'text-violet-600' },
-};
-
-/* Callouts only overhang the frame from `sm` up. Measured: at a 390px viewport
- * a -3% overhang is ~11px, which is wider than the page gutter, so the card
- * landed at x=395 and made the whole document scroll sideways by 5px. Below
- * `sm` they tuck inside the frame instead — which is also the better look at
- * that width, where a card hanging off the edge just reads as cramped. */
-const AT: Record<At, string> = {
-  'top-start': 'top-[9%] start-0 sm:start-[-4%]',
-  'top-end': 'top-[6%] end-0 sm:end-[-3%]',
-  'bottom-start': 'bottom-[10%] start-0 sm:start-[-5%]',
-  'bottom-end': 'bottom-[7%] end-0 sm:end-[-3%]',
-};
-
-/* Which side the pointer tail hangs off. A card anchored to the inline START
- * of the stage sits to the LEFT of the screen, so its tail must point right,
- * back at the thing it is annotating — and vice versa. Without this the chip
- * reads as a sticker dropped on top of the screenshot rather than a label
- * attached to it, which is exactly what an earlier critic called out. */
-const TAIL: Record<At, string> = {
-  'top-start': 'pnp-mock__callout--tail-end',
-  'bottom-start': 'pnp-mock__callout--tail-end',
-  'top-end': 'pnp-mock__callout--tail-start',
-  'bottom-end': 'pnp-mock__callout--tail-start',
-};
-
-const a11y = alt ? { role: 'img', 'aria-label': alt } : { 'aria-hidden': 'true' };
+/* Which panel opens. Always a language the visitor is NOT already reading, so
+ * the frame proves something the rest of the page cannot: an English, Hindi or
+ * Bengali reader lands on the Arabic screen (the RTL flip is the whole claim,
+ * and it is the one thing a mirrored fake never gets right), while an Arabic or
+ * Urdu reader lands on English rather than on the interface they already have.
+ * Falling open on your own language would have made the demo look like a
+ * screenshot of the page it sits on. */
+const pageLocale = getLocaleFromUrl(Astro.url);
+const openCode = pageLocale === 'ar' || pageLocale === 'ur' ? 'en' : 'ar';
 ---
 
-<div {dir} class:list={['pnp-mock relative', PANEL[panel], cls]} {...a11y}>
-  <!-- Clip layer. The frame overflows THIS, never the document. -->
-  <div class:list={['pnp-mock__clip relative overflow-hidden', panel === 'none' ? '' : 'rounded-2xl', fade && 'pnp-mock__clip--fade']}>
-    <div class="pnp-mock__stage" data-tilt={tilt} data-dir={dir}>
-      <div class:list={['pnp-mock__frame', bleeds && 'pnp-mock__frame--bleed']}>
-        <!-- The hairline ring is the whole frame treatment. No drop shadow:
-             the bar keeps its product image flat against the band, and a
-             shadow here is the first thing that makes a screenshot look
-             pasted on rather than set into the page. -->
-        <div class="pnp-mock__view overflow-hidden rounded-2xl ring-1 ring-ink-500/10" data-view={view}>
-          <img
-            {src}
-            {srcset}
-            {sizes}
-            alt=""
-            width={view === 'cards' ? CARDS_W : view === 'tight' ? TIGHT_W : W}
-            height={view === 'cards' ? CARDS_H : view === 'tight' ? TIGHT_H : H}
-            loading={priority ? 'eager' : 'lazy'}
-            fetchpriority={priority ? 'high' : 'auto'}
-            decoding="async"
-            draggable="false"
-            class="select-none"
+<div class="lang-demo">
+  <div class="grid items-center gap-y-10 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] lg:gap-x-12">
+    {/* The switcher, as a real vertical menu rather than a wrapped pill row.
+        The old row left two thirds of this column empty, and each chip carries
+        a line of running text in its own script, so the column now shows five
+        alphabets instead of five words. */}
+    <div class="lang-demo__chips flex flex-col gap-2">
+      {DEMOS.map((d) => (
+        <label class="lang-demo__chip" data-lang={d.code}>
+          {/* The radio is INSIDE its chip and stretched over the whole of it,
+              not clipped to a pixel somewhere else in the DOM. A 1x1 control
+              fails WCAG 2.5.8 target size on its own measurements even when a
+              `for=` label happens to be big, and it is the control the pointer
+              lands on. Stretched and transparent, the control's own hit box IS
+              the visible chip. `opacity: 0` rather than the clip pattern
+              because it must still be reachable by pointer; the platform keeps
+              it focusable and arrow-key navigable either way. */}
+          <input
+            class="lang-demo__radio"
+            type="radio"
+            name="pnp-lang-demo"
+            value={d.code}
+            checked={d.code === openCode}
           />
-        </div>
-      </div>
+          <span class="lang-demo__flag" aria-hidden="true">{d.flag}</span>
+          <span class="min-w-0 flex-1">
+            {/* `lang` but deliberately NO `dir`: the bidi algorithm already lays
+                an Arabic or Urdu run out right-to-left inside this line, while
+                the LINE itself stays aligned to the page's direction. Setting
+                dir here instead flipped only these two rows to the right and
+                left the menu looking ragged. */}
+            <bdi class="block text-sm font-semibold" lang={d.code}>{d.name}</bdi>
+            <bdi class="lang-demo__sample block truncate text-[11px]" lang={d.code}>{d.sample}</bdi>
+          </span>
+          <svg class="lang-demo__tick h-4 w-4 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.5 7.5a1 1 0 0 1-1.4 0L3.3 9.7a1 1 0 1 1 1.4-1.4l3.8 3.8 6.8-6.8a1 1 0 0 1 1.4 0z" />
+          </svg>
+        </label>
+      ))}
+    </div>
+
+    {/* The product window. Square-on, not tilted: the hero already carries the
+        tilt, and this is the frame whose whole job is to be READ. */}
+    <div class="lang-demo__panels">
+      {DEMOS.map((d) => (
+        <article class="lang-demo__panel" data-lang={d.code} lang={d.code} dir={d.dir}>
+          <div class="lang-demo__win overflow-hidden rounded-2xl border border-paper-300 bg-white">
+            <div class="flex items-center justify-between bg-ink-500 px-5 py-3">
+              <span class="font-display text-sm font-semibold text-cream-50" dir="ltr">Paper &amp; Pen</span>
+              <span class="flex gap-1.5" aria-hidden="true">
+                <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
+                <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
+                <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
+              </span>
+            </div>
+
+            <div class="p-5 sm:p-6">
+              <div class="mb-5 flex items-center justify-between gap-3">
+                <div class="min-w-0">
+                  <p class="font-display text-lg font-semibold leading-tight">{d.title}</p>
+                  <p class="mt-0.5 text-[11px] font-medium">{d.count}</p>
+                </div>
+                {/* The one accented control in the frame. */}
+                <span class="inline-flex shrink-0 items-center gap-1.5 rounded-pill bg-electric-500 px-3.5 py-2 text-[11px] font-bold text-white">
+                  <svg class="h-3 w-3" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><path d="M5 1h2v4h4v2H7v4H5V7H1V5h4z" /></svg>
+                  {d.newLabel}
+                </span>
+              </div>
+
+              <div class="lang-demo__table text-[11.5px]">
+                <div class="lang-demo__head">
+                  <span>{d.cols.customer}</span>
+                  <span>{d.cols.date}</span>
+                  <span class="text-end">{d.cols.amount}</span>
+                  <span class="text-end">{d.cols.status}</span>
+                </div>
+                {ROWS.map((r) => (
+                  <div class="lang-demo__row">
+                    {/* Customer and amount are DATA: identical in all five
+                        panels, and wrapped in <bdi> so a Latin company name or
+                        a currency amount cannot be reordered or split by the
+                        surrounding Arabic or Urdu run.
+                        <bdi> and NOT `dir="ltr"` on the cell: `dir` also flips
+                        what `text-end` resolves to, so the amounts aligned to
+                        the opposite edge from their own column heading and the
+                        column visibly came apart in the RTL panels. */}
+                    <span class="truncate font-semibold"><bdi>{r.customer}</bdi></span>
+                    <span class="whitespace-nowrap">{r.day} {d.month} 2026</span>
+                    <span class="text-end font-semibold tabular-nums"><bdi>{r.amount}</bdi></span>
+                    <span class="text-end">
+                      <span class:list={['inline-block rounded-pill px-2 py-0.5 text-[10px] font-bold', BADGE[r.status]]}>
+                        {d.status[r.status]}
+                      </span>
+                    </span>
+                  </div>
+                ))}
+                <div class="lang-demo__total">
+                  <span class="font-semibold">{d.total}</span>
+                  <span></span>
+                  <span class="lang-demo__grand text-end font-display text-base font-semibold tabular-nums"><bdi>{TOTAL}</bdi></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      ))}
     </div>
   </div>
-
-  <!-- Callouts sit OUTSIDE the clip so they can overhang the frame, and outside
-       the 3D stage so they stay flat and legible — exactly as the bar does. -->
-  {callouts.map((c) => (
-    <div class:list={['pnp-mock__callout absolute z-10 max-w-[62%]', AT[c.at ?? 'top-start'], float && 'pnp-mock__callout--float']}>
-      <div class:list={['pnp-mock__chip relative flex items-center gap-2.5 rounded-xl bg-white p-2 shadow-float ring-1 ring-ink-500/5', TAIL[c.at ?? 'top-start']]}>
-        {c.icon && (
-          <span class:list={['inline-flex items-center justify-center w-8 h-8 rounded-lg shrink-0', TONE[c.tone ?? 'sky'].chip, TONE[c.tone ?? 'sky'].icon]}>
-            <Icon name={c.icon} class="w-4 h-4" />
-          </span>
-        )}
-        <span class:list={['rounded-lg px-2.5 py-1.5 min-w-0', TONE[c.tone ?? 'sky'].chip]}>
-          {c.text && <span class="block text-xs font-semibold text-ink-500 truncate">{c.text}</span>}
-          {c.value && <span dir="ltr" class="block text-sm font-bold text-ink-500 tabular-nums">{c.value}</span>}
-        </span>
-      </div>
-    </div>
-  ))}
-
-  <div class="pnp-mock__slot pnp-mock__slot--top absolute z-10"><slot name="callout-top" /></div>
-  <div class="pnp-mock__slot pnp-mock__slot--bottom absolute z-10"><slot name="callout-bottom" /></div>
 </div>
 
 <style>
-  /* `width: 0; min-width: 100%` is not a typo and not redundant with the
-     `overflow: hidden` on this element — it is what stops the mock forcing its
-     column wider than the viewport.
-     The frame inside is a percentage width, and a percentage is treated as
-     `auto` during intrinsic sizing, so the image's intrinsic width propagated
-     straight out through the clip and set the grid track. At a 320px viewport
-     that dragged the whole page sideways — including the headline and body copy
-     in the OTHER column, which is what made it look like a text bug rather than
-     an image one.
-     A zero preferred width contributes zero, and `min-width: 100%` puts the
-     used width straight back, so nothing renders differently.
-     `min-width: 0` does NOT work here: it overrides the automatic minimum size
-     of a flex/grid item, which this is not. */
-  .pnp-mock__clip {
-    width: 0;
-    min-width: 100%;
-    /* `container-type: inline-size` also applies `contain: inline-size layout
-       style`, so it does the job the bare `contain` used to do here AND makes
-       this element the query container the `auto` view below measures. */
-    container-type: inline-size;
-    container-name: pnpmock;
-  }
-
-  .pnp-mock__stage {
-    perspective: 1800px;
-    perspective-origin: 62% 38%;
-  }
-
-  /* No `will-change` here on purpose: the tilt is static, so promoting it to
-     its own compositor layer for the life of the page costs memory and buys
-     nothing. */
-  .pnp-mock__frame {
-    transform-origin: 50% 50%;
-  }
-
-  .pnp-mock__view img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  /* `cards` view: an aspect box clipped to the measured region, with the image
-     over-sized inside it so the region fills the box at 1:1-ish scale. The
-     factors are CARDS_W/W and CARDS_H/H inverted; keep them in step with the
-     constants above.
-     `inset-inline-start` rather than `left` is load-bearing: on an Arabic page
-     the capture's nav rail is on the RIGHT, so the same region is the top-right
-     corner, and anchoring to the inline start resolves to `right: 0` there. */
-  .pnp-mock__view[data-view='cards'] {
+  /* ---------------------------------------------------------------------
+   * THE SWITCH
+   * Still no JavaScript: five radios and CSS state. The radio now sits inside
+   * the chip it selects, so the CHIP's own state comes from a plain sibling
+   * combinator and only the cross-column reach (radio in one column, panel in
+   * the other) spends a `:has()`. That trade buys the thing the detached
+   * version could not have: a control whose hit box is the chip you can see,
+   * instead of a pixel clipped somewhere above it.
+   * ------------------------------------------------------------------ */
+  .lang-demo__chip {
     position: relative;
-    aspect-ratio: 830 / 593;
-  }
-  .pnp-mock__view[data-view='cards'] img {
-    position: absolute;
-    top: 0;
-    inset-inline-start: 0;
-    width: 173.494%; /* 1440 / 830 */
-    max-width: none;
-  }
-
-  /* `tight`: the phone step. Same asset, a narrower window into it.
-     The vertical offset is a percentage of the BOX height, which is why the box
-     needs the explicit aspect-ratio above it — a percentage `top` resolves
-     against the containing block's height, and without a definite height it
-     would compute to zero and quietly show the wrong region.
-     -58.511% = -220 / 376, i.e. the region's own y origin expressed in box
-     heights. 264.220% = 1440 / 545. Keep both in step with the constants. */
-  .pnp-mock__view[data-view='tight'] {
-    position: relative;
-    aspect-ratio: 545 / 376;
-  }
-  .pnp-mock__view[data-view='tight'] img {
-    position: absolute;
-    top: -58.511%;
-    inset-inline-start: 0;
-    width: 264.22%;
-    max-width: none;
-  }
-
-  /* `auto`: the same two crops, applied only when the slot is too narrow to
-     read the step above. 880px is where the dashboard's 13px product text
-     crosses 8px on screen; 480px is where the `cards` region does.
-     Both are container queries on the CLIP, not media queries on the viewport,
-     because `bleed` makes the image wider than its clip — the thing that
-     decides legibility is how much room this component actually got, which a
-     media query cannot see.
-     A browser without container queries simply keeps the full view, which is
-     the old behaviour and still correct, just smaller — so this degrades to
-     exactly what shipped before rather than to something broken. */
-  @container pnpmock (max-width: 880px) {
-    .pnp-mock__view[data-view='auto'] {
-      position: relative;
-      aspect-ratio: 830 / 593;
-    }
-    .pnp-mock__view[data-view='auto'] img {
-      position: absolute;
-      top: 0;
-      inset-inline-start: 0;
-      width: 173.494%;
-      max-width: none;
-    }
-  }
-
-  @container pnpmock (max-width: 480px) {
-    .pnp-mock__view[data-view='auto'] {
-      aspect-ratio: 545 / 376;
-    }
-    .pnp-mock__view[data-view='auto'] img {
-      top: -58.511%;
-      width: 264.22%;
-    }
-  }
-
-  /* The tilt. Kept moderate on purpose: the bar can rotate its hero screenshot
-     hard because there it is pure decoration, but ours has to stay READABLE as
-     a product — the figures, the chart axis and the module names in the rail
-     are the entire credibility of the image, and past about 12deg of Y rotation
-     the far column of a real screenshot turns to mush. */
-  [data-tilt='soft'] .pnp-mock__frame {
-    transform: rotateX(3deg) rotateY(-9deg) rotateZ(0.6deg);
-  }
-  [data-tilt='strong'] .pnp-mock__frame {
-    transform: rotateX(6deg) rotateY(-14deg) rotateZ(1.2deg);
-  }
-  [data-tilt='none'] .pnp-mock__frame {
-    transform: none;
-  }
-
-  /* RTL mirrors the tilt so the frame recedes away from the reading edge.
-     Keyed off the PICTURE's own direction (`data-dir`), not the document's, so
-     an Arabic screenshot tilts correctly even when it sits on an English page.
-     Note this rotates the frame; it never scales it negatively, because a
-     mirrored screenshot would render every word backwards. */
-  [data-dir='rtl'][data-tilt='soft'] .pnp-mock__frame {
-    transform: rotateX(3deg) rotateY(9deg) rotateZ(-0.6deg);
-  }
-  [data-dir='rtl'][data-tilt='strong'] .pnp-mock__frame {
-    transform: rotateX(6deg) rotateY(14deg) rotateZ(-1.2deg);
-  }
-
-  /* Bleed: wider than the clip, so it runs off the edge. A block box that is
-     wider than its container overflows towards the inline-END edge, which flips
-     with direction on its own — no RTL override needed. */
-  .pnp-mock__frame--bleed {
-    width: 124%;
-  }
-  @media (max-width: 640px) {
-    .pnp-mock__frame--bleed {
-      width: 136%;
-    }
-  }
-
-  .pnp-mock__clip--fade {
-    -webkit-mask-image: linear-gradient(to bottom, #000 74%, transparent 100%);
-    mask-image: linear-gradient(to bottom, #000 74%, transparent 100%);
-  }
-
-  /* The pointer tail: a white square rotated 45deg and straddling the card's
-     edge, so half of it protrudes as a triangle and the other half lands on the
-     card's own white fill and simply disappears.
-     Deliberately NOT a clip-path triangle. A clipped shape is baked in one
-     direction, and `dir="rtl"` flips which edge `inset-inline-*` resolves to
-     but does not flip a `polygon()` — so the Arabic pages would have got a
-     tail hanging off the left while still pointing right. White-on-white has
-     no handedness, so this one rule is correct in both directions. */
-  .pnp-mock__chip::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 12px;
-    height: 12px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.7rem 0.9rem;
+    border-radius: 0.85rem;
+    border: 1px solid theme('colors.paper.300');
     background: #fff;
-    transform: translateY(-50%) rotate(45deg);
+    color: theme('colors.ink.500');
+    cursor: pointer;
+    transition:
+      border-color 0.15s ease,
+      background-color 0.15s ease,
+      color 0.15s ease;
   }
-  .pnp-mock__callout--tail-end::after {
-    inset-inline-end: -5px;
+  .lang-demo__chip:hover {
+    border-color: theme('colors.ink.200');
   }
-  .pnp-mock__callout--tail-start::after {
-    inset-inline-start: -5px;
+  /* Covers the whole chip, paints nothing. `appearance: none` so no browser
+     draws its own dot underneath, and `margin: 0` because the UA sheet's
+     default margin would otherwise inset the hit box on every side. */
+  .lang-demo__radio {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .lang-demo__flag {
+    font-size: 1.125rem;
+    line-height: 1;
+  }
+  /* The tick is the checked marker; unchecked it is simply not there, so the
+     row keeps its width and nothing shifts when the selection moves. */
+  .lang-demo__tick {
+    visibility: hidden;
+  }
+  /* The sample line recedes by SIZE, never by a lightened ink. The foundation
+     is explicit that there is one text colour and that quiet copy gets there by
+     being smaller or lighter in weight. An `opacity: 0.72` here would have been
+     the same mistake wearing a different property name. */
+  .lang-demo__sample {
+    font-weight: 400;
   }
 
-  /* Slot wrappers collapse to nothing when the slot is unused, so an empty
-     absolutely-positioned box can never sit on top of the frame. */
-  .pnp-mock__slot:empty {
+  /* <bdi> isolates the run AND takes its own base direction, which also flips
+     what `text-align: start` resolves to, so the Arabic and Urdu rows alone
+     jumped to the right edge and the menu came out ragged. The SCRIPT still
+     runs right-to-left inside the line; only the line box is pinned to the
+     page's own direction, which is how every native language picker sets one
+     out. */
+  .lang-demo__chip bdi {
+    text-align: left;
+  }
+  :global([dir='rtl']) .lang-demo__chip bdi {
+    text-align: right;
+  }
+
+  /* Only one panel is in the flow at a time. `display:none` (not opacity or
+     visibility) so the hidden four are out of the accessibility tree as well
+     as off the screen: four invisible invoice tables read aloud in four
+     languages would be worse than no demo at all. */
+  .lang-demo__panel {
     display: none;
   }
-  /* Same overhang rule as the built-in callouts above — see the note there. */
-  .pnp-mock__slot--top {
-    top: 6%;
-    inset-inline-start: 0;
-  }
-  .pnp-mock__slot--bottom {
-    bottom: 8%;
-    inset-inline-end: 0;
-  }
-  @media (min-width: 640px) {
-    .pnp-mock__slot--top {
-      inset-inline-start: -4%;
-    }
-    .pnp-mock__slot--bottom {
-      inset-inline-end: -3%;
-    }
+
+  .lang-demo__win {
+    /* The same single grounding shadow the hero window uses. Not a glow. */
+    box-shadow: 0 18px 44px -30px rgba(13, 27, 94, 0.4);
   }
 
-  @media (prefers-reduced-motion: no-preference) {
-    .pnp-mock__callout--float {
-      animation: pnp-mock-float 6s ease-in-out infinite;
+  /* Checked: the chip inverts to solid ink and its tick appears. Both come
+     from the radio the chip contains, so neither needs to reach out of it. */
+  .lang-demo__chip:has(.lang-demo__radio:checked) {
+    background: theme('colors.ink.500');
+    border-color: theme('colors.ink.500');
+    color: theme('colors.cream.50');
+  }
+  .lang-demo__radio:checked ~ .lang-demo__tick {
+    visibility: visible;
+  }
+
+  /* The one cross-column rule: the checked radio is in the menu, the panel it
+     opens is in the other column. Matched on `value`, not on an id, so two
+     copies of this component on one page do not have to invent unique ids. */
+  .lang-demo:has(.lang-demo__radio[value='ar']:checked) .lang-demo__panel[data-lang='ar'],
+  .lang-demo:has(.lang-demo__radio[value='en']:checked) .lang-demo__panel[data-lang='en'],
+  .lang-demo:has(.lang-demo__radio[value='hi']:checked) .lang-demo__panel[data-lang='hi'],
+  .lang-demo:has(.lang-demo__radio[value='bn']:checked) .lang-demo__panel[data-lang='bn'],
+  .lang-demo:has(.lang-demo__radio[value='ur']:checked) .lang-demo__panel[data-lang='ur'] {
+    display: block;
+  }
+
+  /* The focus ring is drawn on the CHIP, because the radio itself paints
+     nothing. Without this the whole switcher is invisible to anyone tabbing,
+     which is an accessibility failure and not a style preference. */
+  .lang-demo__chip:has(.lang-demo__radio:focus-visible) {
+    outline: 3px solid theme('colors.electric.500');
+    outline-offset: 2px;
+  }
+
+  /* ---------------------------------------------------------------------
+   * THE TABLE
+   * A four-column grid rather than a <table>, because the status cell holds a
+   * badge and the totals row spans differently, and because the columns have
+   * to hold their proportions identically in all five languages, which is the
+   * whole point of the demo. `minmax(0, …)` on the name column is what stops a
+   * long customer name widening the grid instead of truncating.
+   * ------------------------------------------------------------------ */
+  .lang-demo__head,
+  .lang-demo__row,
+  .lang-demo__total {
+    display: grid;
+    /* Every track is a FRACTION, none is `auto`. The heading row, the four
+       record rows and the totals row are six separate grid containers, so an
+       `auto` track resolves independently in each one: the status heading is
+       one short word and the status cells are padded badges, so the amount and
+       status columns visibly came apart between the heading and the rows.
+       Fractions are identical in all six. */
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 0.85fr) minmax(0, 0.95fr) minmax(0, 0.95fr);
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .lang-demo__head {
+    padding-bottom: 0.55rem;
+    border-bottom: 1px solid theme('colors.paper.300');
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .lang-demo__row {
+    padding-block: 0.62rem;
+    border-bottom: 1px solid theme('colors.paper.200');
+  }
+  .lang-demo__total {
+    padding-top: 0.7rem;
+  }
+
+  /* Below 400px the date column is the first thing to go: four columns at that
+     width squeeze the customer name to nothing, and the name is the column
+     that proves this is a record of something. */
+  @media (max-width: 400px) {
+    .lang-demo__head,
+    .lang-demo__row,
+    .lang-demo__total {
+      grid-template-columns: minmax(0, 1.78fr) minmax(0, 0.95fr) minmax(0, 0.9fr);
     }
-    .pnp-mock__callout--float:nth-of-type(even) {
-      animation-delay: -3s;
+    .lang-demo__head > :nth-child(2),
+    .lang-demo__row > :nth-child(2),
+    .lang-demo__total > :nth-child(2) {
+      display: none;
     }
-    @keyframes pnp-mock-float {
-      0%,
-      100% {
-        transform: translateY(-3px);
-      }
-      50% {
-        transform: translateY(3px);
-      }
+    /* The grand total is the one figure set in the display face, and at 16px it
+       is 79px wide in a 74px column, so it would have hung over the status
+       column. Measured, not guessed. */
+    .lang-demo__grand {
+      font-size: 0.8125rem;
     }
   }
 </style>

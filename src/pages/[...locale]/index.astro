@@ -6,7 +6,7 @@ import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
 import SubdomainChecker from '@/components/islands/SubdomainChecker.tsx';
 import ModulePicker from '@/components/islands/ModulePicker.tsx';
-import LangShowcase from '@/components/islands/LangShowcase.tsx';
+import LangMock from '@/components/blocks/AppMockup.astro';
 import { useTranslations, localizePath, isRTL, type Locale } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
 import { graph, organization, softwareApplication, faqPage } from '@/lib/schema';
@@ -140,7 +140,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         standfirst, the workspace field and the CTA off the right edge on a real
         iPhone. The band's overflow-x:clip hid it from scrollWidth, so it looked
         fine to every automated check. */}
-    <div class="mx-auto max-w-6xl grid items-center gap-y-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-x-8">
+    <div class="mx-auto max-w-6xl grid items-center gap-y-8 sm:gap-y-12 lg:gap-y-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-x-8">
       <div class="min-w-0">
         {/* Tiny rating line, above everything — the bar puts it first. */}
         <div class="flex items-center gap-2.5 mb-5">
@@ -181,8 +181,15 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
 
       {/* Product window — tilted, bleeding off the inline-end edge. Decorative:
           every figure in it is stated again in the periwinkle band below. */}
-      <div class="hero-stage relative min-w-0 lg:-me-[16vw] xl:-me-[20vw]" aria-hidden="true">
+      <div class="hero-stage relative min-w-0 lg:-me-[7vw] xl:-me-[9vw]" aria-hidden="true">
+        {/* DEVICE FRAME. The bar seats its screenshot inside a navy rounded
+            frame, which is what makes its right-edge crop read as deliberate
+            rather than as an accident. Ours had no frame and no ground, so it
+            floated and the bleed looked like a mistake. The frame is padded on
+            the inline-start and top only: the end edge stays flush so the
+            window still runs off the page the way the bar's does. */}
         <div class="hero-tilt">
+          <div class="hero-frame rounded-[1.75rem] bg-ink-600 p-2.5 pe-0">
           <div class="hero-window overflow-hidden rounded-2xl border border-paper-300 bg-white">
             <div class="flex items-center justify-between bg-ink-500 px-5 py-3.5">
               <span class="font-display text-sm font-semibold text-cream-50">{t('hero.card_title')}</span>
@@ -272,20 +279,39 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             </div>
           </div>
         </div>
+          </div>
 
-        {/* Flat white callouts sitting square-on over the tilted window. The
-            lg offsets are percentages of the stage, because the tilt pulls the
-            window's near-left corner inward and down — fixed rem offsets would
-            leave these stranded in the gutter. */}
-        {/* Dropped from 8% to 30%: at 8% this chip landed squarely on the
-            "Today's Overview" title AND the first module in the sidebar, so the
-            two things that prove the frame is a real product were the two things
-            it hid. A callout should annotate the screenshot, not redact it. */}
-        <div class="float-card hero-float absolute -top-6 start-0 lg:top-[30%] lg:-start-6">
+        {/* Flat white callouts sitting square-on over the tilted window, each
+            with a pointer tail aimed at it. Without the tail a white box on a
+            screenshot reads as a sticker dropped on top rather than a label
+            attached to it, which is exactly what the last verdict said.
+
+            WHERE THIS ONE IS ALLOWED TO SIT, MEASURED AT 1440
+            The window's near-left edge lands at x=713 and the stage column
+            starts at x=722, so there is NO clear ground to the left of the
+            frame: any chip anchored inside the stage at start-0 lands ON the
+            module rail (x 716→912), and every one of the six module names sits
+            in y 341→561. That is why 8% covered the title and 30% then covered
+            Inventory→Manufacturing: both were the same mistake at different
+            heights. The rail has no gap big enough for a 61px card.
+
+            So it goes ABOVE the frame instead. The window's top-LEFT corner is
+            at y≈290 (the tilt lifts the right side, which is why the bounding
+            box says 154), leaving clear cream above it; -5.25rem puts the card
+            at y 214→275 with its tail closing the last few pixels onto the
+            window's top edge. All six module names now read.
+
+            Below lg the stage stacks under the copy and that clear ground is
+            occupied by the reassurance line, so the chip pins to the frame's
+            top-END corner instead, over the three window dots, the only part
+            of the frame that is pure chrome. */}
+        <div class="float-card hero-float hero-float--tail-b absolute -top-5 end-0 lg:top-[-5.25rem] lg:end-auto lg:start-4">
           <p class="text-[11px] font-semibold leading-none">{t('trust.stat1_label')}</p>
           <p class="font-display text-xl font-semibold leading-none mt-1">{t('trust.stat1_value')}</p>
         </div>
-        <div class="float-card hero-float absolute -bottom-7 start-[6%] lg:bottom-[10%] lg:start-[3%]">
+        {/* This one already sat clear of every module row (y 600→661, under the
+            last one at 561) so it keeps its place and only gains the tail. */}
+        <div class="float-card hero-float hero-float--tail-e absolute -bottom-7 start-[6%] lg:bottom-[10%] lg:start-[3%]">
           <p class="text-[11px] font-semibold leading-none">{t('trust.stat4_label')}</p>
           <p class="font-display text-xl font-semibold leading-none mt-1">{t('trust.stat4_value')}</p>
         </div>
@@ -318,7 +344,15 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         <h2 class="display-3 mb-4">{t('languages.title')}</h2>
         <p class="lede">{t('languages.sub')}</p>
       </div>
-      <LangShowcase client:visible />
+      {/* The section's OTHER product image. It used to be one greeting line over
+          five grey placeholder bars and three empty grey cards, i.e. a drawing
+          of an app that had not finished loading, sitting under the one heading
+          on the page that promises to SHOW the Arabic interface. It is now a
+          real invoice list (customer, date, amount, status, total) in whichever
+          of the five languages you pick, with the records held identical across
+          all five so the only thing that changes is the interface, which is
+          word-for-word what the standfirst above it claims. */}
+      <LangMock />
     </div>
   </section>
 
@@ -362,6 +396,11 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
     box-shadow: 0 18px 44px -30px rgba(13, 27, 94, 0.4);
   }
 
+  .hero-frame {
+    /* The ground. Without it the frame floated and the crop read as an accident. */
+    box-shadow: 0 28px 60px -32px rgba(13, 27, 94, 0.45);
+  }
+
   @media (min-width: 1024px) {
     .hero-stage {
       perspective: 1500px;
@@ -387,6 +426,63 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
   /* The callouts stay flat and square-on, on top of the perspective. */
   .hero-float {
     z-index: 2;
+  }
+
+  /* -------------------------------------------------------------------
+   * POINTER TAILS
+   *
+   * A white card floating over a screenshot with no tail reads as a sticker
+   * someone dropped on the picture. A tail makes it a label pointing at the
+   * picture, which is what the bar's own callouts do (its "Main Street Reno
+   * Project" chip has one aimed at the tag glyph beside it).
+   *
+   * Built as a square rotated 45deg that straddles the card's edge: the half
+   * that protrudes is a triangle, and the half that stays behind lands on the
+   * card's own white fill and disappears. Two adjacent borders are carried so
+   * the triangle keeps the card's hairline instead of ending in a seam.
+   *
+   * Only from `lg`. Below that the cards are pinned to the frame's own corners
+   * rather than standing off it, so a tail would either point at nothing or
+   * poke a white notch into the navy title bar.
+   * ---------------------------------------------------------------- */
+  @media (min-width: 1024px) {
+    .hero-float::after {
+      content: '';
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      background: #fff;
+      border-color: theme('colors.paper.300');
+      border-style: solid;
+      border-width: 0;
+    }
+
+    /* Points DOWN, at the top edge of the window below it. Vertical, so it has
+       no handedness and needs no RTL rule. */
+    .hero-float--tail-b::after {
+      bottom: -7px;
+      inset-inline-start: 2.25rem;
+      border-bottom-width: 1px;
+      border-right-width: 1px;
+      transform: rotate(45deg);
+    }
+
+    /* Points along the reading direction, into the panel it labels. `rotate`
+       has to be flipped for RTL as well as the offset: `inset-inline-end`
+       moves the triangle to the other side on its own, but a rotation is an
+       absolute angle, so without the 180deg the Arabic page would get a tail
+       hanging off the left while still pointing right. */
+    .hero-float--tail-e::after {
+      top: 50%;
+      inset-inline-end: -7px;
+      margin-top: -6.5px;
+      border-top-width: 1px;
+      border-right-width: 1px;
+      transform: rotate(45deg);
+    }
+    :global([dir='rtl']) .hero-float--tail-e::after {
+      transform: rotate(225deg);
+    }
   }
 
   /* =====================================================================
