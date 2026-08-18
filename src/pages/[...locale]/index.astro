@@ -112,6 +112,49 @@ const chartMonths = (() => {
   return chartBars.map((_, i) => fmt.format(new Date(Date.UTC(2026, i, 1))));
 })();
 
+/* The hero ledger. Chrome vocabulary, not marketing copy, so it lives here in
+ * five locales rather than adding seven keys to five i18n files for a
+ * decorative panel — the same call `AppMockup.astro` already makes for the
+ * "every market" mock, and this keeps the two panels speaking one language.
+ * Amounts are deliberately UNTIDY: round numbers read as a drawing. Dates are
+ * formatted through Intl so each locale gets its own month name and digits. */
+const LEDGER_COPY = {
+  en: { title: 'Invoices', search: 'Search invoices', filter: 'Filter', total: 'Total outstanding',
+        cols: { customer: 'Customer', date: 'Date', amount: 'Amount', status: 'Status' },
+        status: { paid: 'Paid', overdue: 'Overdue', draft: 'Draft' } },
+  ar: { title: 'الفواتير', search: 'بحث في الفواتير', filter: 'تصفية', total: 'الإجمالي المستحق',
+        cols: { customer: 'العميل', date: 'التاريخ', amount: 'المبلغ', status: 'الحالة' },
+        status: { paid: 'مدفوعة', overdue: 'متأخرة', draft: 'مسودة' } },
+  hi: { title: 'चालान', search: 'चालान खोजें', filter: 'फ़िल्टर', total: 'कुल बकाया',
+        cols: { customer: 'ग्राहक', date: 'तारीख', amount: 'राशि', status: 'स्थिति' },
+        status: { paid: 'भुगतान हुआ', overdue: 'बकाया', draft: 'ड्राफ़्ट' } },
+  bn: { title: 'চালান', search: 'চালান খুঁজুন', filter: 'ফিল্টার', total: 'মোট বকেয়া',
+        cols: { customer: 'ক্রেতা', date: 'তারিখ', amount: 'পরিমাণ', status: 'অবস্থা' },
+        status: { paid: 'পরিশোধিত', overdue: 'বকেয়া', draft: 'খসড়া' } },
+  ur: { title: 'انوائسز', search: 'انوائس تلاش کریں', filter: 'فلٹر', total: 'کل واجب الادا',
+        cols: { customer: 'کسٹمر', date: 'تاریخ', amount: 'رقم', status: 'حالت' },
+        status: { paid: 'ادا شدہ', overdue: 'واجب الادا', draft: 'مسودہ' } },
+} as const;
+const LEDGER = LEDGER_COPY[locale as keyof typeof LEDGER_COPY] ?? LEDGER_COPY.en;
+
+const dateFmt = new Intl.DateTimeFormat(locale, { day: '2-digit', month: 'short' });
+const money = (n: number) =>
+  new Intl.NumberFormat(locale, { style: 'currency', currency: 'USD' }).format(n);
+
+const LEDGER_SOURCE = [
+  { customer: 'Northwind Trading Co.', day: 12, amount: 4820.5, status: 'paid' as const },
+  { customer: 'Harbour Point Ltd', day: 9, amount: 12500.75, status: 'overdue' as const },
+  { customer: 'Cedar Clinic Group', day: 5, amount: 2140.25, status: 'paid' as const },
+  { customer: 'Studio Meridian', day: 2, amount: 863.4, status: 'draft' as const },
+];
+const LEDGER_ROWS = LEDGER_SOURCE.map((r) => ({
+  customer: r.customer,
+  date: dateFmt.format(new Date(Date.UTC(2026, 4, r.day))),
+  amount: money(r.amount),
+  status: r.status,
+}));
+const LEDGER_TOTAL = money(LEDGER_SOURCE.reduce((s, r) => s + r.amount, 0));
+
 const jsonld = [graph(organization(), softwareApplication()), graph(faqPage(homeFaqs.map((f) => ({ q: f.q, a: f.a }))))];
 const title = t('seo.homeTitle');
 const description = t('seo.homeDesc');
@@ -192,7 +235,18 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
           <div class="hero-frame rounded-[1.75rem] bg-ink-600 p-2.5 pe-0">
           <div class="hero-window overflow-hidden rounded-2xl border border-paper-300 bg-white">
             <div class="flex items-center justify-between bg-ink-500 px-5 py-3.5">
-              <span class="font-display text-sm font-semibold text-cream-50">{t('hero.card_title')}</span>
+              {/* The title names the list the frame is actually showing; it read
+                  "Today's Overview" over an invoice ledger, which is incoherent.
+                  The locale chip beside it is the control the "Languages
+                  supported" callout points at — that chip previously tailed into
+                  bare navy, asserting a fact the mock could not show. */}
+              <span class="flex items-center gap-2">
+                <span class="font-display text-sm font-semibold text-cream-50">{LEDGER.title}</span>
+                <span class="inline-flex items-center gap-1 rounded-pill bg-white/15 px-2 py-0.5 text-[9px] font-bold uppercase text-cream-50">
+                  <svg class="h-2.5 w-2.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/></svg>
+                  {locale}
+                </span>
+              </span>
               <div class="flex gap-1.5">
                 <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
                 <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
@@ -226,54 +280,81 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
                 ))}
               </aside>
 
-              <div class="min-w-0 flex-1 p-6">
-                <p class="text-xs font-semibold">{t('hero.stat1_label')}</p>
-                <div class="mt-1.5 mb-5 flex flex-wrap items-center gap-x-3 gap-y-2">
-                  <span class="font-display text-4xl font-semibold tracking-tight">{heroAmount}</span>
-                  <span class="inline-flex items-center gap-1 text-xs font-bold text-emerald-500">
-                    <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 12 12"><path d="M6 2l4.5 7h-9z"/></svg>18%
+              {/* A LEDGER, NOT A DASHBOARD.
+                  This was five round summary numbers (48,250 / 18% / 12 / 2 / 5)
+                  and a valueless bar chart whose gridlines were decoration
+                  imitating measurement. A critic put the structural problem
+                  exactly: the bar shows a ledger of records, we showed a
+                  dashboard of totals, and an app with no controls is a poster of
+                  an app — there was not one checkbox, filter, caret or cursor in
+                  the whole frame.
+
+                  So it is now the invoice list: dated rows, real customer names,
+                  deliberately UNTIDY amounts (tidy round numbers are what a
+                  designer draws when there is no product behind them), status
+                  pills, and controls that actually exist. The chips below hang
+                  off two of those controls rather than pointing at empty ground.
+
+                  Same idiom as the "every market" mock further down the page,
+                  which is where it was proven. LEDGER holds its own five-locale
+                  vocabulary for the same reason that one does: this is chrome,
+                  not marketing copy, and it would otherwise mean seven new keys
+                  in five files for a decorative panel. */}
+              <div class="min-w-0 flex-1 p-5">
+                <div class="mb-4 flex items-center gap-2">
+                  <span class="flex h-7 flex-1 items-center gap-1.5 rounded-lg border border-paper-300 bg-paper px-2 text-[10px] text-ink-300">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+                    {LEDGER.search}
                   </span>
-                  {/* Multi-currency, never one market's currency. */}
-                  <span class="ms-auto inline-flex rounded-pill bg-sky-200 p-0.5 text-[11px] font-bold">
-                    <span class="rounded-pill bg-white px-2.5 py-1">USD</span>
-                    <span class="px-2.5 py-1">EUR</span>
-                    <span class="px-2.5 py-1">AED</span>
+                  <span class="inline-flex h-7 shrink-0 items-center gap-1 rounded-pill border border-electric-500 px-2.5 text-[10px] font-semibold text-electric-600">
+                    {LEDGER.filter}
+                    <svg class="h-2.5 w-2.5" fill="currentColor" viewBox="0 0 12 12"><path d="M1 2h10L7 6.5V11L5 9.5V6.5z"/></svg>
+                  </span>
+                  {/* The currency control the "any currency" chip points at. */}
+                  <span id="hero-fx" class="inline-flex shrink-0 rounded-pill bg-sky-200 p-0.5 text-[9px] font-bold">
+                    <span class="rounded-pill bg-white px-2 py-0.5">USD</span>
+                    <span class="px-2 py-0.5">EUR</span>
+                    <span class="px-2 py-0.5">AED</span>
                   </span>
                 </div>
 
-                {/* A CHART, not seven anonymous rectangles. It had no axis, no
-                    gridlines and no month labels, so nothing in the frame was a
-                    record anyone could recognise. Months come from Intl in the
-                    page locale, so ar / hi / bn / ur get their own month names
-                    with no new translation keys. The year is fixed so the build
-                    stays deterministic. */}
-                <div class="mb-6">
-                  <div class="relative flex h-24 items-end gap-2 border-b border-paper-300">
-                    <span class="pointer-events-none absolute inset-x-0 top-0 border-t border-dashed border-paper-300"></span>
-                    <span class="pointer-events-none absolute inset-x-0 top-1/2 border-t border-dashed border-paper-300"></span>
-                    {chartBars.map((h, i) => (
-                      <span
-                        class:list={['relative flex-1 rounded-t-md', i === chartBars.length - 1 ? 'bg-electric-500' : 'bg-sky-400']}
-                        style={`height:${h}%`}
-                      ></span>
+                <table class="w-full border-collapse text-[10px]">
+                  <thead>
+                    <tr class="border-b border-paper-300 text-start text-ink-300">
+                      <th scope="col" class="w-6 pb-1.5 text-start font-semibold">
+                        <span class="block h-2.5 w-2.5 rounded-sm border border-ink-200"></span>
+                      </th>
+                      <th scope="col" class="pb-1.5 text-start font-semibold">{LEDGER.cols.customer}</th>
+                      <th scope="col" class="pb-1.5 text-start font-semibold">{LEDGER.cols.date}</th>
+                      <th scope="col" class="pb-1.5 text-end font-semibold">{LEDGER.cols.amount}</th>
+                      <th scope="col" class="pb-1.5 text-end font-semibold">{LEDGER.cols.status}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {LEDGER_ROWS.map((r) => (
+                      <tr class="border-b border-paper-200">
+                        <td class="py-2"><span class="block h-2.5 w-2.5 rounded-sm border border-ink-200"></span></td>
+                        <td class="py-2 font-semibold text-ink-500">{r.customer}</td>
+                        <td class="py-2 text-ink-300">{r.date}</td>
+                        <td class="py-2 text-end font-semibold text-ink-500 tabular-nums">{r.amount}</td>
+                        <td class="py-2 text-end">
+                          <span
+                            class:list={[
+                              'inline-block rounded-pill px-1.5 py-0.5 text-[9px] font-bold',
+                              r.status === 'paid' ? 'bg-mint text-emerald-700'
+                                : r.status === 'overdue' ? 'bg-red-100 text-red-700'
+                                : 'bg-paper-200 text-ink-300',
+                            ]}
+                          >{LEDGER.status[r.status]}</span>
+                        </td>
+                      </tr>
                     ))}
-                  </div>
-                  <div class="mt-1.5 flex gap-2">
-                    {chartMonths.map((m) => (
-                      <span class="flex-1 text-center text-[9px] font-medium text-ink-300">{m}</span>
-                    ))}
-                  </div>
-                </div>
+                  </tbody>
+                </table>
 
-                <div class="grid grid-cols-2 gap-3">
-                  <div class="rounded-xl bg-paper p-4">
-                    <p class="text-[11px] font-semibold uppercase tracking-wide">{t('hero.stat2_label')}</p>
-                    <p class="font-display text-2xl font-semibold">{t('hero.stat2_value')}</p>
-                  </div>
-                  <div class="rounded-xl bg-paper p-4">
-                    <p class="text-[11px] font-semibold uppercase tracking-wide">{t('hero.stat3_label')}</p>
-                    <p class="font-display text-2xl font-semibold">{t('hero.stat3_value')}</p>
-                  </div>
+                <div class="mt-3 flex items-center justify-between border-t border-paper-300 pt-2 text-[10px]">
+                  <span class="font-semibold text-ink-300">{LEDGER.total}</span>
+                  <span class="font-display text-base font-semibold tabular-nums">{LEDGER_TOTAL}</span>
                 </div>
               </div>
             </div>
