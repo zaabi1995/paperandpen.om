@@ -18,7 +18,12 @@ export function organization() {
     // IS BHD Group. The parentOrganization edge below is the correct membership edge
     // and stays. Ledger llm223-2 / llm225-1, round 227.
     sameAs: ['https://api.whatsapp.com/send?phone=96898899100'],
-    parentOrganization: { '@type': 'Organization', name: 'BHD Group', url: 'https://bhd.om' },
+    // A BARE @id reference, deliberately. Re-stating name/legalName/url here would
+    // assert a second value for fields bhd.om/#organization already publishes
+    // (legalName 'Bin Haider Darwish L.L.C.', url 'https://bhd.om/', @type
+    // ['Organization','LocalBusiness']), which is exactly the two-bodies-one-@id
+    // conflict entity_graph_gate is red on elsewhere. Ledger llm350-1, round 351.
+    parentOrganization: { '@id': 'https://bhd.om/#organization' },
   };
 }
 
