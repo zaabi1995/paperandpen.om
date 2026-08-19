@@ -354,12 +354,24 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
                           <span
                             class:list={[
                               'inline-block rounded-pill px-1.5 py-0.5 text-[9px] font-bold',
-                              /* All three statuses are PILLS. The hero printed
-                                 Paid as bare green text while the Arabic mock
-                                 pilled all three, directly under a headline
-                                 promising that only the interface changes. */
-                              r.status === 'paid' ? 'bg-mint text-emerald-700'
-                                : r.status === 'overdue' ? 'bg-red-100 text-red-700'
+                              /* EXACTLY the map AppMockup.astro uses, token for
+                                 token. This previously hand-wrote a THIRD status
+                                 vocabulary, and one of its tokens did not exist:
+                                 `mint` is declared as a scale (100/200/500/700/900)
+                                 with no DEFAULT, so `.bg-mint` compiled to nothing
+                                 and the Paid badge rendered as bare green text with
+                                 background-color rgba(0,0,0,0) — while the comment
+                                 here claimed all three were pills. It also split
+                                 Overdue across two hue families, red here and copper
+                                 there, so the status chrome became the ONLY thing
+                                 differing between the two mocks, directly under a
+                                 headline promising that only the interface changes.
+                                 Sharing one map is what makes that sentence true.
+                                 verify.mjs now asserts a non-transparent background
+                                 on every status badge, because this was invisible at
+                                 page scale and only a computed-style read caught it. */
+                              r.status === 'paid' ? 'bg-emerald-50 text-emerald-600'
+                                : r.status === 'overdue' ? 'bg-copper-50 text-copper-400'
                                 : 'bg-paper-200 text-ink-500',
                             ]}
                           >{LEDGER.status[r.status]}</span>
