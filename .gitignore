@@ -9,5 +9,14 @@ dist/
 # Astro
 .astro/
 
-# gauntlet loop workspace
-.gauntlet/
+# gauntlet loop workspace. The captures are regenerable and heavy (198MB of
+# PNGs, plus the Wave reference shots), so they stay local; the WRITTEN record
+# does not regenerate and is tracked below.
+.gauntlet/*
+!.gauntlet/notes/
+.gauntlet/notes/*
+!.gauntlet/notes/*.json
+!.gauntlet/BRIEF.md
+!.gauntlet/BRIEF-APP.md
+!.gauntlet/verify.mjs
+!.gauntlet/README.md
