@@ -52,7 +52,16 @@ export default function SubdomainChecker({ strings, signupBase, rtl = false }: P
 
   return (
     <div dir={rtl ? 'rtl' : 'ltr'}>
-      <label className="block text-xs font-semibold text-ink-500/50 mb-2 tracking-widest uppercase">{strings.label}</label>
+      {/* VISUALLY HIDDEN, NOT DELETED.
+          The fold used to stack two identical typographic registers: the violet
+          eyebrow (letterspaced caps) and this label 435px below it (letterspaced
+          caps, navy), so the caps treatment stopped meaning anything. The field
+          states its own job — the `.paperandpen.om` suffix sits inside it and the
+          placeholder is `yourcompany` — so the visible line was redundant as well
+          as duplicative, and on a 390px phone it cost 24px of the fold the
+          product panel needed. The label element stays in the DOM and the input
+          keeps its `aria-label`, so nothing changes for a screen reader. */}
+      <label className="sr-only">{strings.label}</label>
       <div
         className={`flex items-stretch rounded-xl border-2 bg-white shadow-sm overflow-hidden transition-all ${
           status === 'available'

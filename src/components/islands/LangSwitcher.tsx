@@ -3,13 +3,30 @@ import { useState } from 'react';
 const LOCALES = ['en', 'ar', 'hi', 'bn', 'ur'] as const;
 type Locale = (typeof LOCALES)[number];
 
-const META: Record<Locale, { label: string; flag: string }> = {
-  en: { label: 'English', flag: '🇬🇧' },
-  ar: { label: 'العربية', flag: '🇴🇲' },
-  hi: { label: 'हिन्दी', flag: '🇮🇳' },
-  bn: { label: 'বাংলা', flag: '🇧🇩' },
-  ur: { label: 'اردو', flag: '🇵🇰' },
+/* NO FLAGS.
+   The desktop switcher used to carry a raster country flag: ~20px of red and
+   blue noise, the only muddy multi-colour object in an otherwise purely
+   typographic nav bar. It was also wrong on its own terms — a flag names a
+   COUNTRY, not a language, and this product's headline is "the ERP that speaks
+   your language", so 🇬🇧 for English, 🇵🇰 for Urdu and 🇧🇩 for Bengali each
+   claimed a nationality for a language several nations share. Every entry now
+   names itself in its own script, which is the only label that is true, and the
+   control takes one stroked globe in the nav's own ink. Same glyph as the EN
+   chip inside the hero mock, so the page states the idea once. */
+const META: Record<Locale, { label: string }> = {
+  en: { label: 'English' },
+  ar: { label: 'العربية' },
+  hi: { label: 'हिन्दी' },
+  bn: { label: 'বাংলা' },
+  ur: { label: 'اردو' },
 };
+
+const Globe = ({ className }: { className: string }) => (
+  <svg className={className} fill="none" stroke="currentColor" strokeWidth={1.75} viewBox="0 0 24 24" aria-hidden="true">
+    <circle cx="12" cy="12" r="9" />
+    <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18" />
+  </svg>
+);
 
 function isLocale(v: string): v is Locale {
   return (LOCALES as readonly string[]).includes(v);
@@ -42,7 +59,7 @@ export default function LangSwitcher({ locale }: { locale: Locale }) {
         aria-expanded={open}
         aria-label="Change language"
       >
-        <span className="text-base leading-none">{current.flag}</span>
+        <Globe className="h-4 w-4 opacity-70" />
         <span>{current.label}</span>
         <svg className="w-3.5 h-3.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -64,7 +81,6 @@ export default function LangSwitcher({ locale }: { locale: Locale }) {
                 role="option"
                 aria-selected={loc === locale}
               >
-                <span className="text-base leading-none">{META[loc].flag}</span>
                 <span>{META[loc].label}</span>
               </button>
             </li>

@@ -182,7 +182,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
       below the fold, and the reassurance line at 982. The band's own rhythm is
       right for a mid-page section but wrong for the one section that has a nav
       above it and a fold to land inside. */}
-  <section class="band band-paper !pt-12 md:!pt-16 lg:!pt-20 !pb-16 md:!pb-20 lg:!pb-24" dir={rtl ? 'rtl' : 'ltr'}>
+  <section class="band band-paper !pt-8 md:!pt-16 lg:!pt-20 !pb-16 md:!pb-20 lg:!pb-24" dir={rtl ? 'rtl' : 'ltr'}>
     {/* min-w-0 on BOTH grid children is load-bearing, not tidiness. A grid item
         defaults to min-width:auto, so it refuses to shrink below its min-content.
         On a phone this grid collapses to ONE column, and the product window's
@@ -191,24 +191,24 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         standfirst, the workspace field and the CTA off the right edge on a real
         iPhone. The band's overflow-x:clip hid it from scrollWidth, so it looked
         fine to every automated check. */}
-    <div class="mx-auto max-w-6xl grid items-center gap-y-8 sm:gap-y-12 lg:gap-y-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-x-8">
+    <div class="mx-auto max-w-6xl grid items-center gap-y-2 sm:gap-y-12 lg:gap-y-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-x-8">
       <div class="min-w-0">
         {/* Tiny rating line, above everything — the bar puts it first. */}
-        <div class="flex items-center gap-2.5 mb-5">
+        <div class="flex items-center gap-2.5 mb-3 lg:mb-5">
           <div class="flex gap-0.5 text-ink-500" aria-hidden="true">
             {[0,1,2,3,4].map(() => <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>)}
           </div>
           <p class="microcopy"><b class="font-bold">4.9/5</b> · {t('proof.ratingCount')}</p>
         </div>
 
-        <p class="eyebrow mb-6">{t('hero.badge')}</p>
+        <p class="eyebrow mb-3 lg:mb-6">{t('hero.badge')}</p>
 
         {/* `mb-11` = 44px, measured. The bar leaves 49 CSS px under a comparable
             headline; this sat at 28 and read as one cramped block. NO size,
             leading, weight or tracking utility here on purpose — the h1 takes
             the foundation's display scale, and a local `text-*` would silently
             beat it. */}
-        <h1 class="mb-11">
+        <h1 class="mb-6 lg:mb-11">
           {t('hero.tagline_line1')}<br />{headline2.lead}{headline2.lead && ' '}<span
             class="accent-italic squiggle">{headline2.accent}</span>{headline2.tail}
         </h1>
@@ -217,7 +217,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             businesses across the GCC and around the world" — it cost 32px of
             fold AND contradicted the "any currency" promise it sat inside.
             Oman is a credibility detail; it belongs further down the page. */}
-        <p class="lede mb-9">{t('hero.sub')}</p>
+        <p class="lede mb-6 lg:mb-9">{t('hero.sub')}</p>
 
         {/* The workspace-URL field converts, so it stays — restyled flat and
             pill-shaped in the bar's language, and folded onto ONE row with the
@@ -227,7 +227,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         <div class="hero-signup max-w-xl">
           <SubdomainChecker client:load strings={checkerStrings} signupBase={lp('/signup')} rtl={rtl} />
         </div>
-        <p class="microcopy mt-4">{t('hero.trialNote')}</p>
+        <p class="microcopy mt-2 lg:mt-4">{t('hero.trialNote')}</p>
       </div>
 
       {/* Product window — tilted, bleeding off the inline-end edge. Decorative:
@@ -242,7 +242,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         <div class="hero-tilt">
           <div class="hero-frame rounded-[1.75rem] bg-ink-600 p-2.5 pe-0">
           <div class="hero-window overflow-hidden rounded-2xl border border-paper-300 bg-white">
-            <div class="flex items-center justify-between bg-ink-500 px-5 py-3.5">
+            <div class="flex items-center justify-between bg-ink-500 px-4 py-2.5 lg:px-5 lg:py-3.5">
               {/* The title names the list the frame is actually showing; it read
                   "Today's Overview" over an invoice ledger, which is incoherent.
                   The locale chip beside it is the control the "Languages
@@ -308,8 +308,8 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
                   vocabulary for the same reason that one does: this is chrome,
                   not marketing copy, and it would otherwise mean seven new keys
                   in five files for a decorative panel. */}
-              <div class="min-w-0 flex-1 p-5">
-                <div class="mb-4 flex items-center gap-2">
+              <div class="min-w-0 flex-1 p-4 lg:p-5">
+                <div class="mb-2.5 flex items-center gap-2 lg:mb-4">
                   {/* Currency FIRST, which is both what the bar does — its account
                       selector reading $25,980.23 leads its toolbar, ahead of the
                       Filter/Sort pills — and what puts this control where the
@@ -419,9 +419,31 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
           <p class="text-[11px] font-semibold leading-none">{t('trust.stat1_label')}</p>
           <p class="font-display text-xl font-semibold leading-none mt-1">{t('trust.stat1_value')}</p>
         </div>
-        {/* This one already sat clear of every module row (y 600→661, under the
-            last one at 561) so it keeps its place and only gains the tail. */}
-        <div class="float-card hero-float hero-float--tail-e absolute -bottom-7 start-[6%] lg:top-auto lg:bottom-[7%] lg:start-[1%]">
+        {/* AIMED AT THE TOTAL, NOT AT BEIGE.
+            This chip spent four rounds claiming a control its tail never
+            reached. At its last position (x 729→848, y 596→657) the tail left
+            at roughly (854,627) and terminated in empty sidebar, 71px short of
+            the sidebar-to-table divider — a pointer aimed at nothing, beside a
+            sibling ("Languages supported") whose tail genuinely lands on the
+            globe+EN control. Half-honouring the idiom is worse than not using
+            it, because the working one proves the broken one is broken.
+
+            Moving it up to the USD/EUR/AED toggle is not possible: that toggle
+            leads the toolbar 99px INSIDE the panel, and a tail can only
+            terminate on the frame's own edge, so a chip above the frame lands
+            on the navy title bar (which is exactly why the languages chip
+            works — its control is IN that bar). The 220px module rail owns
+            every pixel of clear ground to the start side.
+
+            So it points at the other thing "any currency" is true of, and the
+            one the mock actually renders in a currency: the Total. Anchored to
+            the stage's end edge with the tail on `inset-inline-end: 2.5rem`, so
+            the tip lands at x≈1379 — inside the $20,324.90 figure's own box
+            (1337→1421) — regardless of how wide the card gets in Arabic, Hindi,
+            Bengali or Urdu. The tip sits on the totals row's rule at y=648; the
+            card body below it covers only the panel's bottom padding and the
+            navy rim, no row and no figure. RTL mirrors both ends together. */}
+        <div class="float-card hero-float hero-float--tail-t absolute -bottom-7 start-[6%] lg:top-auto lg:bottom-[-2.0625rem] lg:start-auto lg:end-0">
           <p class="text-[11px] font-semibold leading-none">{t('trust.stat4_label')}</p>
           <p class="font-display text-xl font-semibold leading-none mt-1">{t('trust.stat4_value')}</p>
         </div>
@@ -599,6 +621,17 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
     }
     :global([dir='rtl']) .hero-float--tail-e::after {
       transform: rotate(225deg);
+    }
+
+    /* Points UP, at the totals row above it. Vertical like `--tail-b`, so it
+       needs no RTL rule; the offset is `inset-inline-end` so it stays under the
+       Total figure when the card's width changes with the locale. */
+    .hero-float--tail-t::after {
+      top: -7px;
+      inset-inline-end: 2.5rem;
+      border-top-width: 1px;
+      border-left-width: 1px;
+      transform: rotate(45deg);
     }
   }
 
