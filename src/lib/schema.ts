@@ -8,7 +8,12 @@ export function organization() {
     name: 'Paper and Pen Company LLC',
     url: SITE,
     logo: `${SITE}/logo.svg`,
-    telephone: '+968-9889-9100',
+    // r372 / ledger llm20-13. schema.org telephone is a MACHINE field and this
+    // was the estate's ONLY non-E.164 value: '+968-9889-9100' normalises to the
+    // same number every other property publishes as '+96898899100', so a consumer
+    // comparing schema strings read one BHD line as two. The human render stays
+    // '+968 9889 9100' (Footer.astro:119) -- that is a display surface, not this one.
+    telephone: '+96898899100',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Muscat',
