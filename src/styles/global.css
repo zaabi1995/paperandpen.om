@@ -399,6 +399,14 @@
    * no rules, no boxes-on-boxes, no shadows between sections.
    * Stack them cream → peri → sky → cream down the page.
    * ==================================================================== */
+  /* The English-only notice on /terms/ and /privacy/ in the four non-English
+     locales. It is the one paragraph on those pages written in the reader's own
+     language, so it is set apart from the English body it introduces rather
+     than blending into it. */
+  .legal-notice {
+    @apply mb-8 border-s-4 border-copper-400 ps-5 text-[15px] leading-relaxed text-ink-500;
+  }
+
   .band {
     @apply relative w-full px-6 py-20 md:py-28 lg:py-32;
 

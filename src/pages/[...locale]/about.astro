@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import UtilityLinks from '@/components/blocks/UtilityLinks.astro';
 import SocialProof from '@/components/blocks/SocialProof.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
 import { useTranslations, type Locale } from '@/i18n';
@@ -30,4 +31,5 @@ const jsonld = [graph(organization(), breadcrumbList(crumbs))];
   </section>
   <SocialProof {locale} />
   <CtaBand {locale} />
+  <UtilityLinks {locale} />
 </BaseLayout>

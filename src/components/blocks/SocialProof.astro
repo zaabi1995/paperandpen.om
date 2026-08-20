@@ -3,7 +3,8 @@
  * SOCIAL PROOF — two modes.
  *
  * `compact` is the thin trust strip that sits directly under a page hero on
- * the same cream ground: a rating, a review count, one line of provenance.
+ * the same cream ground. It carries three CHECKABLE facts now, not a rating:
+ * what is free, how many languages, and who builds it.
  *
  * The default mode is the stats row. It used to be four bordered cards with
  * copper numerals — boxes on boxes, plus the accent spent on decoration while
@@ -11,8 +12,6 @@
  * calls out. It is now flat on a band: no cards, no borders, no shadows, big
  * ink serif numerals, small labels. Electric stays reserved for actions and
  * price numerals, so it does not appear here at all.
- *
- * The stars are INK, not the accent, for the same reason.
  *
  * Two of the four stats used to be hardcoded ('5', and a literal 'OMR' that
  * made the row Oman-only). Both now read from the dictionary, so the row
@@ -26,8 +25,22 @@ interface Props {
 const { locale, compact = false } = Astro.props;
 const t = useTranslations(locale);
 
+/*
+ * r376. The first stat was a literal '4.9/5' beside 'Average customer rating',
+ * and the compact strip below it carried five filled stars and '73 business
+ * reviews'. There is no review corpus behind either number: no testimonial
+ * surface, no third-party listing, and nothing a reader could check. The same
+ * fabricated 4.9 / 73 pair was deleted from lib/schema.ts once already (see the
+ * note at its softwareApplication builder), and it survived here because the
+ * invented-claim linter only ever ran over GENERATED CONTENT and never over the
+ * shared layout. scripts/verify.py now lints the rendered document, so this
+ * cannot come back quietly.
+ *
+ * Every stat here is now a fact about the product that a reader can verify on
+ * this site in one click.
+ */
 const stats = [
-  { value: '4.9/5', label: t('proof.rating') },
+  { value: t('trust.stat2_value'), label: t('trust.stat2_label') },
   { value: t('trust.stat1_value'), label: t('trust.stat1_label') },
   { value: t('trust.stat3_value'), label: t('trust.stat3_label') },
   { value: t('trust.stat4_value'), label: t('trust.stat4_label') },
@@ -38,20 +51,10 @@ const stats = [
   compact ? (
     <div class="band-paper px-6 pb-2 pt-2">
       <div class="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-ink-500">
-        <span class="flex items-center gap-2">
-          <span class="flex text-ink-500" aria-hidden="true">
-            {[0, 1, 2, 3, 4].map(() => (
-              <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-              </svg>
-            ))}
-          </span>
-          <span class="font-semibold">4.9/5</span>
-          <span>· {t('proof.ratingCount')}</span>
-        </span>
-        <span aria-hidden="true" class="hidden text-ink-200 sm:inline">
-          ·
-        </span>
+        <span class="font-semibold">{t('proof.free')}</span>
+        <span aria-hidden="true" class="hidden text-ink-200 sm:inline">·</span>
+        <span>{t('proof.languages')}</span>
+        <span aria-hidden="true" class="hidden text-ink-200 sm:inline">·</span>
         <span>{t('proof.builtInOman')}</span>
       </div>
     </div>

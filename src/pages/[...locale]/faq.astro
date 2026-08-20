@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import UtilityLinks from '@/components/blocks/UtilityLinks.astro';
 import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
 import { useTranslations, type Locale } from '@/i18n';
@@ -36,4 +37,5 @@ const jsonld = [graph(organization(), breadcrumbList(crumbs)), graph(faqPage(faq
   <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: 'FAQ' }]} />
   <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={faqs} bg="white" as="h1" />
   <CtaBand {locale} />
+  <UtilityLinks {locale} />
 </BaseLayout>

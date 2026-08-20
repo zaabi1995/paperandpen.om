@@ -13,6 +13,14 @@
  * Regulations in Arabic only with an unextractable text layer, so its field
  * list is a reading of the Arabic gazette rather than an official English
  * translation, and the page says so where a competitor would simply assert it.
+ *
+ * KNOWN FALSE POSITIVE, do not "fix" it. The Bahrain source
+ * (nbr.gov.bh/publications/view/VAT_General_guide) returns 403 to a client that
+ * sends only a User-Agent, and 200 once Accept, Accept-Language and the
+ * Sec-Fetch-* headers are present. Real browsers and Googlebot get 200; naive
+ * link checkers get 403 and will report the best Bahrain citation on the site
+ * as dead. Verify any such report with a full header set before touching the
+ * URL. The same caution applies to the other authorities' PDF hosts.
  */
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';

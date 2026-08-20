@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import UtilityLinks from '@/components/blocks/UtilityLinks.astro';
 import { useTranslations, type Locale } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
 import { graph, organization, breadcrumbList } from '@/lib/schema';
@@ -16,10 +17,16 @@ const jsonld = [graph(organization(), breadcrumbList([{ name: t('nav.home'), url
   <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.privacy') }]} />
   <article class="section-pad bg-white">
     <div class="max-w-3xl mx-auto legal">
-      <h1>Privacy Policy</h1>
+      {/* The legal text below is English in every locale, by decision: machine
+          translating binding terms is not something this site will do. The
+          notice says so in the READER's language; the body is then marked
+          lang="en" dir="ltr" so assistive tech pronounces it as English and the
+          paragraphs stop inheriting the document's RTL direction. */}
       {locale !== 'en' && (
-        <p class="meta" lang="en" dir="ltr">{t('legal.englishOnly')}</p>
+        <p class="legal-notice">{t('legal.englishOnly')}</p>
       )}
+      <div lang={locale === 'en' ? undefined : 'en'} dir={locale === 'en' ? undefined : 'ltr'}>
+      <h1>Privacy Policy</h1>
       <p class="meta">Last updated: 14 April 2026 · Paper and Pen Company LLC, paperandpen.om</p>
 
       <h2>Information We Collect</h2>
@@ -39,8 +46,10 @@ const jsonld = [graph(organization(), breadcrumbList([{ name: t('nav.home'), url
 
       <h2>Contact</h2>
       <p>For any privacy request, contact info@paperandpen.om or WhatsApp +968 9889 9100.</p>
+      </div>
     </div>
   </article>
+  <UtilityLinks {locale} />
 </BaseLayout>
 
 <style is:global>

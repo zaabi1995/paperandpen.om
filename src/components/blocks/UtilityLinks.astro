@@ -1,0 +1,74 @@
+---
+/*
+ * Onward links for the utility pages (/about/, /contact/, /faq/, /security/,
+ * /terms/, /privacy/).
+ *
+ * These six were the only pages on the site that ended in nothing: measured at
+ * 91 to 93 internal links against a median of 103 and a maximum of 170, they
+ * were the floor of the whole estate. A reader who lands on /security/ from a
+ * search should have somewhere to go that is not the back button, and a crawler
+ * that lands there should be handed the parts of the site those pages actually
+ * relate to.
+ *
+ * These are real destinations chosen once, not a rotating link dump: the
+ * product surface, the two reference hubs, and the free tools.
+ */
+import { useTranslations, localizePath, type Locale } from '@/i18n';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+
+const groups = [
+  {
+    title: t('nav.features'),
+    links: [
+      { href: '/free-invoicing-software', label: t('mega.allFeatures') },
+      { href: '/features/invoicing', label: t('mega.invoicing') },
+      { href: '/features/accounting', label: t('mega.accounting') },
+      { href: '/features/inventory', label: t('mega.inventory') },
+      { href: '/pricing', label: t('nav.pricing') },
+    ],
+  },
+  {
+    title: t('nav.resources'),
+    links: [
+      { href: '/glossary', label: t('nav.glossary') },
+      { href: '/vat', label: t('nav.vat') },
+      { href: '/invoice-templates', label: t('nav.templates') },
+      { href: '/alternatives', label: t('nav.alternatives') },
+      { href: '/blog', label: t('footer.blog') },
+    ],
+  },
+  {
+    title: t('nav.tools'),
+    links: [
+      { href: '/tools', label: t('mega.allTools') },
+      { href: '/tools/free-invoice-generator', label: t('mega.invoiceGen') },
+      { href: '/tools/free-quotation-generator', label: t('mega.quotationGen') },
+      { href: '/tools/free-estimate-maker', label: t('mega.estimateGen') },
+      { href: '/tools/oman-vat-calculator', label: t('mega.vatCalc') },
+    ],
+  },
+];
+---
+
+<section class="band band-tint band-tight" aria-labelledby="ut-links">
+  <div class="container-wide">
+    <h2 id="ut-links" class="font-display text-2xl text-ink-500 md:text-3xl">{t('related.exploreTitle')}</h2>
+    <div class="mt-8 grid gap-x-12 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+      {groups.map((g) => (
+        <nav aria-label={g.title}>
+          <h3 class="text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{g.title}</h3>
+          <ul class="mt-4 space-y-2.5">
+            {g.links.map((l) => (
+              <li>
+                <a href={lp(l.href)} class="text-[15px] text-ink-500 no-underline hover:text-electric-500 hover:underline">{l.label}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      ))}
+    </div>
+  </div>
+</section>
