@@ -1,0 +1,51 @@
+{
+  "slug": "invoice-number",
+  "term": "Invoice number",
+  "category": "invoicing",
+  "short": "An invoice number is a unique, sequential code assigned to a sales document to identify a specific transaction, track payments and maintain accurate accounting records.",
+  "metaTitle": "What is an Invoice Number? · Paper & Pen",
+  "metaDescription": "An invoice number is a unique sequential code for a sales transaction. Learn how to structure invoice numbers and why missing numbers trigger tax audits.",
+  "definition": "Every time you issue a bill to a customer, you must assign it a unique invoice number. This identifier acts as the primary reference point for both your accounting records and your customer's accounts payable department. Tax authorities require these numbers to follow a strict, unbroken sequence. You can organise this sequence using prefix and series schemes to categorise different revenue streams. For example, you might use 'RET' for retail sales and 'WHL' for wholesale transactions, followed by a sequential number like 001. If you delete an invoice and create a gap in this sequence, tax inspectors may suspect you are hiding income. By maintaining a continuous numerical order, you prove that all sales are properly recorded and reported in your general ledger.",
+  "how": {
+    "title": "How Invoice number works",
+    "body": "The process begins when you configure your invoicing system before making your first sale. You establish a primary numbering format, often combining a date or department prefix with a starting sequential value. When you finalise a sale, the system automatically generates the next available number in that specific series and applies it to the document. You then send this numbered document to your buyer. When the customer pays, they quote this exact number on their bank transfer or remittance advice. You use this reference to match the incoming payment against the open receivable balance in your accounts. Finally, during financial reporting or a tax inspection, an auditor reviews the complete log of these numbers to verify that no documents are missing or duplicated.",
+    "items": [
+      "Choose a logical prefix system to identify different branches or sales channels.",
+      "Set a starting numerical value to begin your continuous billing sequence.",
+      "Generate the final document to lock the number and prevent future edits.",
+      "Share the document with your customer to secure a clear payment reference.",
+      "Reconcile the customer payment against the specific code in your accounting software."
+    ]
+  },
+  "matters": "A disorganised numbering system directly harms your cash flow and compliance. If your customers cannot clearly identify the bill they are paying, they will delay the transfer, increasing your days sales outstanding. More importantly, missing numbers are a red flag for tax authorities. An auditor who spots a gap in your sequence will assume you deleted a cash sale to evade taxes, which can trigger a full investigation and heavy penalties. Using a reliable system protects you from these risks. Paper & Pen creates invoices, quotations and receipts, and Sales and Invoicing is free forever.",
+  "faqs": [
+    {
+      "q": "Can I use different invoice number sequences for different projects?",
+      "a": "Yes, you can run multiple numbering series simultaneously. Many businesses use distinct prefixes for different branches, currencies, or project types to keep their revenue streams organised. As long as each individual series remains strictly sequential without any missing numbers, this approach complies with standard bookkeeping rules and tax authority requirements."
+    },
+    {
+      "q": "What should I do if I make a mistake on an invoice?",
+      "a": "You must never delete a finalised invoice, as this creates a prohibited gap in your numbering sequence. Instead, you should issue a credit note to cancel the incorrect document. The credit note will have its own sequential number. After cancelling the error, you can generate a completely new invoice with the next available number."
+    }
+  ],
+  "related": [
+    "tax-invoice",
+    "credit-note",
+    "e-invoicing",
+    "accounts-receivable"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Manage Invoices"
+    },
+    {
+      "href": "/tools/free-invoice-generator",
+      "label": "Free Invoice Generator"
+    }
+  ]
+}

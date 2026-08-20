@@ -3,6 +3,7 @@ import ar from './ui/ar.json';
 import hi from './ui/hi.json';
 import bn from './ui/bn.json';
 import ur from './ui/ur.json';
+import { HREFLANG as HL } from './hreflang.mjs';
 
 export const DEFAULT_LOCALE = 'en';
 export const LOCALES = ['en', 'ar', 'hi', 'bn', 'ur'] as const;
@@ -10,14 +11,42 @@ export type Locale = (typeof LOCALES)[number];
 
 export const RTL_LOCALES = new Set<Locale>(['ar', 'ur']);
 
-// og:locale + sitemap hreflang codes
-export const LOCALE_META: Record<Locale, { label: string; flag: string; ogLocale: string; htmlLang: string }> = {
-  en: { label: 'English', flag: '🇬🇧', ogLocale: 'en_US', htmlLang: 'en' },
-  ar: { label: 'العربية', flag: '🇴🇲', ogLocale: 'ar_OM', htmlLang: 'ar' },
-  hi: { label: 'हिन्दी', flag: '🇮🇳', ogLocale: 'hi_IN', htmlLang: 'hi' },
-  bn: { label: 'বাংলা', flag: '🇧🇩', ogLocale: 'bn_BD', htmlLang: 'bn' },
-  ur: { label: 'اردو', flag: '🇵🇰', ogLocale: 'ur_PK', htmlLang: 'ur' },
+/*
+ * og:locale, <html lang> and hreflang codes.
+ *
+ * `htmlLang` and `hreflang` are SEPARATE fields on purpose and must stay that way.
+ * `htmlLang` feeds the <html lang> attribute (a document-language declaration for
+ * assistive tech and the UA); `hreflang` feeds the alternate annotations in BOTH
+ * the page <head> AND the sitemap. Before r375 the sitemap took its codes from a
+ * second, independent map in astro.config.mjs (ar-OM / hi-IN / bn-BD / ur-PK) while
+ * getAlternates() below emitted htmlLang (ar / hi / bn / ur), so every one of 315
+ * URL pairs carried two contradictory annotation sets and the sitemap omitted the
+ * x-default the pages declared. One field, read by both, is the whole fix.
+ *
+ * The codes are BARE LANGUAGE, no region, deliberately:
+ *  - `ar-OM` narrows Arabic to Oman alone. The Arabic pages carry no Oman-only
+ *    pricing, law or copy, the H1 says "for businesses everywhere", and the
+ *    audience it would exclude (AE, SA, BH, QA, KW) is the majority of the Gulf
+ *    Arabic market this site is written for.
+ *  - `bn-BD` excludes the ~90m Bengali speakers in India; `ur-PK` excludes Urdu
+ *    readers outside Pakistan; and the real hi/bn/ur audience for a GCC business
+ *    tool is the Gulf expatriate workforce, who are in OM/AE/SA, not IN/BD/PK.
+ *    A region subtag is a targeting NARROWING, never a hint, so none is correct here.
+ * A bare code also matches the `lang` the documents already declare, so the two
+ * annotations agree by construction.
+ */
+export const LOCALE_META: Record<
+  Locale,
+  { label: string; flag: string; ogLocale: string; htmlLang: string; hreflang: string }
+> = {
+  en: { label: 'English', flag: '🇬🇧', ogLocale: 'en_US', htmlLang: 'en', hreflang: HL.en },
+  ar: { label: 'العربية', flag: '🇴🇲', ogLocale: 'ar_OM', htmlLang: 'ar', hreflang: HL.ar },
+  hi: { label: 'हिन्दी', flag: '🇮🇳', ogLocale: 'hi_IN', htmlLang: 'hi', hreflang: HL.hi },
+  bn: { label: 'বাংলা', flag: '🇧🇩', ogLocale: 'bn_BD', htmlLang: 'bn', hreflang: HL.bn },
+  ur: { label: 'اردو', flag: '🇵🇰', ogLocale: 'ur_PK', htmlLang: 'ur', hreflang: HL.ur },
 };
+
+export { HREFLANG } from './hreflang.mjs';
 
 const dictionaries: Record<Locale, Record<string, unknown>> = { en, ar, hi, bn, ur };
 
@@ -57,7 +86,7 @@ export function localizePath(path: string, locale: Locale): string {
 export function getAlternates(path: string): { hreflang: string; href: string }[] {
   const SITE = 'https://paperandpen.om';
   const list = LOCALES.map((loc) => ({
-    hreflang: LOCALE_META[loc].htmlLang,
+    hreflang: LOCALE_META[loc].hreflang,
     href: SITE + localizePath(path, loc),
   }));
   list.push({ hreflang: 'x-default', href: SITE + localizePath(path, DEFAULT_LOCALE) });

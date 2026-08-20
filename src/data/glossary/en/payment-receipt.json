@@ -1,0 +1,60 @@
+{
+  "slug": "payment-receipt",
+  "term": "Payment receipt",
+  "category": "invoicing",
+  "short": "A payment receipt is a formal written document issued by a seller to a buyer to confirm that a specific sum of money has been successfully received for goods or services.",
+  "metaTitle": "What is a Payment Receipt? · Paper & Pen",
+  "metaDescription": "Discover what a payment receipt is, how it differs from an invoice, and why issuing proof of payment protects your business and simplifies accounting.",
+  "definition": "While an invoice is a request for payment, a payment receipt is the definitive proof that the payment actually happened. When you sell goods or services, you first send an invoice to tell the customer how much they owe. Once the customer transfers the funds or hands over cash, you issue a payment receipt to acknowledge that the debt is settled.\n\nThis document serves as a critical record for both parties. For your customer, it provides assurance that their payment was successfully applied to their account. For your own business, it creates a clear audit trail that links cash inflows to specific sales. Keeping precise records of these transactions ensures your books remain accurate. It also prevents misunderstandings about whether an outstanding balance remains, which is especially important when dealing with partial payments or large ongoing contracts.",
+  "how": {
+    "title": "How Payment receipt works",
+    "body": "The process of issuing a payment receipt begins the moment funds clear your bank account or cash is placed in your till. First, you verify the exact amount received and match it against the corresponding open invoice. If the customer paid the full amount, you mark the entire invoice as paid. If they made a partial payment, you record the specific sum and leave the remaining balance open.\n\nNext, you generate the receipt document, ensuring it references the original invoice number to maintain a clear trail. Finally, you send a copy to the customer for their records. In double-entry bookkeeping, generating this receipt usually triggers a journal entry that increases your cash or bank balance while decreasing your accounts receivable by the exact same amount.",
+    "items": [
+      "Verify the exact amount of funds received in your bank or cash register.",
+      "Match the received funds to a specific open invoice or customer account.",
+      "Generate a receipt document detailing the date, amount, and payment method used.",
+      "Send the completed receipt to the customer as proof of their settled debt.",
+      "Update your accounting ledger to reflect the increased cash and decreased receivables."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC issues an invoice to a retailer for 1,200 OMR. The retailer decides to pay in two instalments. They make an initial bank transfer of 500 OMR. Gulf Trading LLC verifies the deposit and issues a payment receipt for 500 OMR, noting the original invoice number.\n\nThe receipt shows the total invoice value of 1,200 OMR, the 500 OMR paid, and clearly states the remaining balance of 700 OMR (1,200 - 500 = 700). When the retailer later transfers the final 700 OMR, Gulf Trading LLC issues a second payment receipt for 700 OMR, bringing the outstanding balance to zero and closing the invoice."
+  },
+  "matters": "Issuing accurate payment receipts is vital for maintaining healthy customer relationships and clean financial records. When you provide immediate proof of payment, you build trust and eliminate disputes over whether a bill was settled. This is crucial during audits, as tax authorities require clear documentation linking your bank deposits to specific commercial transactions.\n\nFailing to issue receipts can lead to double-billing errors, frustrated clients, and chaotic bank reconciliations. Using a system like Paper & Pen, which creates invoices, quotations and receipts, helps you automate this step so your accounts receivable balance is always correct and your cash flow is clearly documented.",
+  "faqs": [
+    {
+      "q": "What is the difference between a payment receipt and a sales receipt?",
+      "a": "A sales receipt is typically issued at the exact moment of purchase in a retail environment, where payment and the delivery of goods happen simultaneously. A payment receipt is usually issued after an invoice has been sent, acknowledging that a previously recorded debt has now been partially or fully paid by the customer."
+    },
+    {
+      "q": "Can I issue a payment receipt before the funds clear my bank?",
+      "a": "You should wait until the funds have officially cleared your bank account before issuing a formal payment receipt. Providing a receipt for a cheque or bank transfer that later bounces creates accounting complications and leaves you without the funds despite having provided proof of payment. Always verify the deposit first."
+    },
+    {
+      "q": "Is a payment receipt required for tax purposes?",
+      "a": "Yes, tax authorities generally require businesses to keep detailed records of all income. Payment receipts serve as primary supporting documents that prove where your bank deposits came from. They help justify your declared revenue during an audit and ensure you accurately calculate your corporate income tax and value-added tax liabilities."
+    }
+  ],
+  "related": [
+    "invoice",
+    "remittance-advice",
+    "accounts-receivable",
+    "statement-of-account",
+    "bank-reconciliation"
+  ],
+  "seeAlso": [
+    {
+      "href": "/invoicing/payment-receipts",
+      "label": "Manage Payment Receipts"
+    },
+    {
+      "href": "/tools/free-receipt-generator",
+      "label": "Free Receipt Generator"
+    },
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    }
+  ]
+}

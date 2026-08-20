@@ -1,0 +1,53 @@
+{
+  "slug": "reverse-charge",
+  "term": "Reverse charge",
+  "abbr": "RCM",
+  "category": "tax",
+  "short": "The reverse charge mechanism shifts the liability to report and pay value-added tax from the supplier to the buyer for specific cross-border or domestic transactions.",
+  "metaTitle": "Reverse Charge: Definition and Examples · Paper & Pen",
+  "metaDescription": "Learn how the reverse charge mechanism shifts VAT liability from the supplier to the buyer, and how it impacts your business tax returns.",
+  "definition": "In a standard transaction, the seller collects value-added tax from the buyer and pays it to the government. When the reverse charge applies, this responsibility flips. You, as the buyer, must calculate the tax due on the purchase and report it directly to your local tax authority.\n\nFor most businesses making fully taxable supplies, this process is purely an accounting exercise. You declare the tax as a liability (output tax) and simultaneously claim it back as a credit (input tax) on the same tax return, resulting in a net-nil cash effect. However, if your business makes exempt supplies (like certain healthcare or financial services), you cannot claim the input tax back. In that scenario, the reverse charge becomes a real cost, as you must pay the calculated tax amount directly to the government.",
+  "how": {
+    "title": "How Reverse charge works",
+    "body": "The reverse charge typically applies when you buy services from a foreign supplier or purchase specific domestic goods flagged for fraud prevention. First, your supplier issues an invoice that excludes local tax but clearly states that the reverse charge applies. Upon receiving the invoice, you calculate the tax amount based on your local country's prevailing rate. You then record this transaction in your accounting software by posting a journal entry that increases both your output tax liability and your input tax asset. Finally, you declare both amounts in the designated boxes on your next tax return. If you are fully registered and taxable, these two figures cancel each other out, meaning no actual tax payment leaves your bank account for this specific transaction.",
+    "items": [
+      "The foreign or specified domestic supplier issues an invoice without charging local tax.",
+      "The invoice explicitly notes that the reverse charge mechanism applies to the transaction.",
+      "The buyer calculates the required tax amount using their domestic tax rate.",
+      "The buyer records both an output tax liability and an input tax credit.",
+      "The buyer reports both figures on their periodic tax return to the government."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Tech Solutions, a VAT-registered business, purchases marketing software from a foreign vendor for $1,000. The vendor issues an invoice for $1,000 with no tax applied. Gulf Tech Solutions operates in a country with a 10 percent tax rate. Under the reverse charge, they calculate the tax on this purchase as $100 ($1,000 x 0.10). On their next tax return, they report $100 as output tax owed to the government and $100 as recoverable input tax. The net tax payable for this transaction is $0 ($100 - $100). The total cost to the business remains exactly $1,000."
+  },
+  "matters": "Understanding this mechanism is vital because failing to self-account for imported services can lead to severe penalties during a tax audit. Even if the net cash effect is zero, tax authorities require strict compliance in how these transactions are recorded and reported. If you operate an exempt business, missing this step means you are underpaying your actual tax liabilities. Proper bookkeeping ensures you stay compliant and avoid unexpected fines. Paper & Pen posts journal entries automatically, helping you record these complex tax liabilities accurately without manual errors.",
+  "faqs": [
+    {
+      "q": "Do I need to pay cash when applying the reverse charge?",
+      "a": "If your business only makes taxable supplies, you do not pay cash for the reverse charge. You report the tax as both a payable and a receivable on your return, which balances out completely. If your business provides exempt goods or services, you cannot claim the receivable, so you must pay the tax amount to the government."
+    },
+    {
+      "q": "Why do tax authorities use the reverse charge mechanism?",
+      "a": "Governments use this system primarily to collect tax on cross-border transactions where they have no jurisdiction over the foreign seller. It is also used domestically in specific industries, like construction or electronics trading, to prevent missing trader fraud. By shifting the liability to the buyer, the tax authority ensures the tax is reported locally."
+    }
+  ],
+  "related": [
+    "value-added-tax",
+    "input-vat",
+    "output-vat",
+    "taxable-supply",
+    "exempt-supply"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Ledger management"
+    }
+  ]
+}

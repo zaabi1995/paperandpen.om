@@ -5,7 +5,7 @@ import CtaBand from '@/components/blocks/CtaBand.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, localizePath, type Locale } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
-import { graph, organization, breadcrumbList } from '@/lib/schema';
+import { graph, organization, breadcrumbList, itemList } from '@/lib/schema';
 
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
@@ -17,10 +17,16 @@ const posts = all
   .filter((p) => p.data.locale === locale)
   .sort((a, b) => +new Date(b.data.pubDate) - +new Date(a.data.pubDate));
 const list = posts.length ? posts : all.filter((p) => p.data.locale === 'en').sort((a, b) => +new Date(b.data.pubDate) - +new Date(a.data.pubDate));
-const jsonld = [graph(organization(), breadcrumbList([{ name: 'Home', url: '/' }, { name: t('footer.blog'), url: '/blog' }]))];
+const jsonld = [
+  graph(
+    organization(),
+    itemList({ name: t('blog.title'), items: list.map((p) => ({ name: p.data.title, url: lp(`/blog/${p.data.slug}`) })) }),
+    breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.blog'), url: '/blog' }])
+  ),
+];
 ---
 <BaseLayout {locale} path="/blog" title={t('seo.blogTitle')} description={t('blog.sub')} {jsonld}>
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.blog') }]} />
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.blog') }]} />
   <section class="section-pad bg-cream-50">
     <div class="container-wide">
       <div class="max-w-2xl mb-12">

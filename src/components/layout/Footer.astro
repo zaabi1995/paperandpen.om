@@ -33,11 +33,27 @@ const cols = [
     ],
   },
   {
+    /* r375. The footer carried 4 columns and no route to the glossary, the FAQ
+       or the templates, which is most of the site's page count. Internal-link
+       density was measured at 67 to 73 links per page against 190 for Wave and
+       140 for Zoho, and a hub the footer does not link is a hub only the
+       sitemap knows about. */
+    id: 'resources',
+    title: t('footer.resources'),
+    links: [
+      { href: '/glossary', label: t('nav.glossary') },
+      { href: '/vat', label: t('nav.vat') },
+      { href: '/invoice-templates', label: t('nav.templates') },
+      { href: '/alternatives', label: t('nav.alternatives') },
+      { href: '/blog', label: t('footer.blog') },
+      { href: '/faq', label: t('footer.faq') },
+    ],
+  },
+  {
     id: 'company',
     title: t('footer.company'),
     links: [
       { href: '/about', label: t('footer.about') },
-      { href: '/blog', label: t('footer.blog') },
       { href: '/contact', label: t('footer.contact') },
       { href: '/security', label: t('footer.security') },
     ],
@@ -79,9 +95,9 @@ const cols = [
         gutter down the side of it. Same reason every child carries `min-w-0`:
         a grid ITEM also refuses to shrink below its own min-content unless
         told to. */}
-    <div class="grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-[minmax(0,1.4fr)_repeat(4,minmax(0,1fr))]">
+    <div class="grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[minmax(0,1.2fr)_repeat(5,minmax(0,1fr))]">
       {/* Brand block */}
-      <div class="min-w-0 lg:pe-10">
+      <div class="min-w-0 xl:pe-10">
         {/*
           Same single-weight wordmark as the nav, in cream. Was
           `/logo-white.svg`, which was the illustrated shield knocked out to

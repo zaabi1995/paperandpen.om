@@ -1,0 +1,65 @@
+{
+  "slug": "backorder",
+  "term": "Backorder",
+  "category": "inventory",
+  "short": "A backorder is a customer request for a product that is currently out of stock but is expected to be replenished and delivered at a later date.",
+  "metaTitle": "Backorder Definition & Meaning · Paper & Pen",
+  "metaDescription": "A backorder occurs when a customer buys an out-of-stock item that will ship later. Learn how to manage backorders and keep your supply chain moving.",
+  "definition": "When your business sells physical goods, you might occasionally run out of popular items. If a customer places an order for one of these out-of-stock items and you accept it with the promise of future delivery, you have created a backorder. This means the sale is secured, but fulfilment is delayed until your suppliers deliver new stock. Accepting backorders helps you maintain cash flow and retain customers who might otherwise buy from a competitor. However, it requires careful coordination. You must accurately track inventory levels, communicate expected delays clearly, and ensure your suppliers can deliver on time. If you mismanage this process, you risk frustrating buyers and damaging your reputation. A high volume of backordered items often signals that you need to adjust your reorder points or hold more safety stock.",
+  "how": {
+    "title": "How Backorder works",
+    "body": "The backorder process begins when a buyer attempts to purchase an item that is temporarily unavailable in your warehouse. Instead of rejecting the sale, your system flags the item as backordered and processes the transaction. You then notify the customer about the expected shipping date. Next, you place a purchase order with your supplier to replenish the missing inventory. While waiting for the goods to arrive, you keep the customer updated on any changes to the timeline. Once the supplier delivers the new stock to your facility, your team receives and inspects the items. Finally, you pack the backordered goods and ship them to the waiting customer, closing the order and completing the fulfilment cycle.",
+    "items": [
+      "A customer orders an item that is currently out of stock in your warehouse.",
+      "You accept the order and provide the buyer with an estimated future delivery date.",
+      "Your purchasing team issues a purchase order to the supplier for the required goods.",
+      "The supplier delivers the fresh inventory to your business after a specified lead time.",
+      "You immediately pick, pack and ship the reserved items to the waiting customer."
+    ]
+  },
+  "formula": {
+    "label": "Backorder Rate",
+    "expr": "(Unfulfilled Orders / Total Orders) x 100",
+    "note": "This percentage shows how many orders cannot be fulfilled immediately. A consistently high rate indicates poor inventory planning."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Electronics receives 500 total orders for mobile phones during a major promotional week. Due to high demand, they run out of stock for a specific model, leaving 25 of those orders unfulfilled at the time of purchase. The store places these 25 orders on backorder and contacts their supplier. To find their backorder rate, they divide the 25 unfulfilled orders by the 500 total orders, which equals 0.05. They then multiply 0.05 by 100 to get a percentage. The backorder rate for that week is 5 percent. This low rate shows they managed their stock reasonably well despite the surge in demand."
+  },
+  "matters": "Managing backorders properly is vital for preserving customer trust and protecting your revenue. If you simply turn away buyers when stock runs low, they will likely purchase from a competitor and may never return. Accepting a backorder secures the sale, but it creates a strict obligation to deliver on time. Failing to communicate delays leads to cancelled orders, refund requests and negative reviews. Tracking these pending orders manually can cause costly errors. Paper & Pen tracks stock and creates invoices, helping you monitor exactly what you owe to customers. By keeping a close eye on your backorder rate, you can identify supply chain bottlenecks and adjust your purchasing habits before stock shortages damage your brand.",
+  "faqs": [
+    {
+      "q": "What is the difference between a backorder and out of stock?",
+      "a": "An out-of-stock item is simply unavailable for purchase, meaning the customer cannot buy it until it returns to the shelves. A backorder means the item is out of stock, but you still allow the customer to place an order. You guarantee they will receive the product once your supplier delivers the next shipment."
+    },
+    {
+      "q": "Should I charge customers immediately for backordered items?",
+      "a": "You can choose to charge the customer at the time of purchase or wait until the item actually ships. Charging upfront secures the cash flow, which can help you pay your supplier. However, some buyers prefer to be charged only when the product is dispatched. You must clearly state your payment policy before the customer completes checkout."
+    },
+    {
+      "q": "How long can a backorder take to fulfil?",
+      "a": "The waiting period depends entirely on your supplier lead times and manufacturing schedules. It can range from a few days to several months. The most important factor is providing an accurate timeline to the buyer. If the delay extends beyond your original estimate, you should notify the customer immediately and offer them the option to cancel."
+    }
+  ],
+  "related": [
+    "purchase-order",
+    "sales-order",
+    "safety-stock",
+    "reorder-point",
+    "inventory-turnover"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory Management"
+    },
+    {
+      "href": "/invoicing/sales-orders",
+      "label": "Sales Orders"
+    },
+    {
+      "href": "/invoicing/purchase-orders",
+      "label": "Purchase Orders"
+    }
+  ]
+}

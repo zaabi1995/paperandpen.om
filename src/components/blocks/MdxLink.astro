@@ -1,0 +1,46 @@
+---
+/*
+ * Link renderer for MDX bodies.
+ *
+ * Prose written in Markdown cannot call localizePath, so every internal link in
+ * every blog post was authored as a bare default-locale path. Two defects fell
+ * out of that, and both shipped:
+ *   1. no trailing slash on 23 links per locale, and the site is
+ *      trailingSlash:'always', so each one was a 301 for the crawler; and
+ *   2. no locale prefix anywhere, so a reader on /ar/blog/... clicking a link
+ *      in the article landed on the ENGLISH page, in all four non-English
+ *      locales, 224 links in total.
+ *
+ * Fixing the corpus by hand would fix today's posts and none of tomorrow's, so
+ * the normalisation happens here, at render, for every post that will ever
+ * exist. External links are untouched except for the rel/target a link leaving
+ * the site should carry anyway.
+ */
+import { localizePath, getLocaleFromUrl } from '@/i18n';
+
+interface Props { href?: string }
+const { href = '', ...rest } = Astro.props;
+
+/*
+ * The locale is read from the URL rather than passed in. MDX `components`
+ * mapping takes a component reference, not a call, so there is nowhere to hand
+ * it a prop, and an inline arrow wrapper is not valid Astro template syntax.
+ * Astro.url is the page being rendered, so this is exact.
+ */
+const locale = getLocaleFromUrl(Astro.url);
+
+const isInternal = href.startsWith('/') && !href.startsWith('//');
+const isAnchor = href.startsWith('#');
+let final = href;
+if (isInternal) {
+  const [pathPart, hash] = href.split('#');
+  final = localizePath(pathPart, locale) + (hash ? `#${hash}` : '');
+}
+const external = !isInternal && !isAnchor && /^https?:/i.test(href);
+---
+<a
+  href={final}
+  {...rest}
+  rel={external ? 'noopener noreferrer' : undefined}
+  target={external ? '_blank' : undefined}
+><slot /></a>

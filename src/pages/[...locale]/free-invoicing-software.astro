@@ -8,9 +8,9 @@ import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
 import SocialProof from '@/components/blocks/SocialProof.astro';
 import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
-import { useTranslations, type Locale } from '@/i18n';
+import { useTranslations, type Locale, localizePath } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
-import { graph, organization, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
+import { graph, organization, softwareApplication, faqPage, breadcrumbList, itemList } from '@/lib/schema';
 
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
@@ -44,15 +44,39 @@ const rows = [
   { feature: t('compare.rows.local_support'), values: [true, false, false, false] },
 ];
 
-const related = [
-  { href: '/tools/free-invoice-generator', title: t('mega.invoiceGen') },
+/* This page IS the features hub, so it links every feature page rather than a
+   hand-picked four. Before r375 six feature pages were reachable only from the
+   nav mega-menu and the sitemap. */
+const featurePages = [
   { href: '/features/invoicing', title: t('mega.invoicing') },
+  { href: '/features/quotations', title: t('mega.quotations') },
+  { href: '/features/inventory', title: t('mega.inventory') },
   { href: '/features/accounting', title: t('mega.accounting') },
+  { href: '/features/hr-payroll', title: t('mega.hr') },
+  { href: '/features/reports', title: t('mega.reports') },
+  { href: '/features/sales-crm', title: t('mega.salescrm') },
+  { href: '/features/payments', title: t('mega.payments') },
+  { href: '/features/manufacturing', title: t('mega.manufacturing') },
+  { href: '/features/multi-language', title: t('mega.multilang') },
+];
+const related = [
+  ...featurePages,
+  { href: '/tools/free-invoice-generator', title: t('mega.invoiceGen') },
+  { href: '/invoice-templates', title: t('nav.templates') },
+  { href: '/glossary', title: t('nav.glossary') },
   { href: '/pricing', title: t('nav.pricing') },
 ];
 
-const crumbs = [{ name: 'Home', url: '/' }, { name: t('fi.crumb'), url: '/free-invoicing-software' }];
-const jsonld = [graph(organization(), softwareApplication(), breadcrumbList(crumbs)), graph(faqPage(faqs))];
+const crumbs = [{ name: t('nav.home'), url: '/' }, { name: t('fi.crumb'), url: '/free-invoicing-software' }];
+const jsonld = [
+  graph(
+    organization(),
+    softwareApplication(),
+    itemList({ name: t('fi.crumb'), items: featurePages.map((f) => ({ name: f.title, url: localizePath(f.href, locale) })) }),
+    breadcrumbList(crumbs)
+  ),
+  graph(faqPage(faqs)),
+];
 ---
 <BaseLayout
   {locale}

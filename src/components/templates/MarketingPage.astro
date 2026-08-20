@@ -22,8 +22,10 @@ import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
 import SocialProof from '@/components/blocks/SocialProof.astro';
 import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
-import { useTranslations, type Locale } from '@/i18n';
+import { useTranslations, localizePath, type Locale } from '@/i18n';
 import { graph, organization, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
+import { labelFor } from '@/lib/links';
+import { allTerms } from '@/lib/glossary';
 
 interface Props {
   locale: Locale;
@@ -36,17 +38,39 @@ const t = useTranslations(locale);
 
 const path = `${basePath}/${data.slug}`;
 const crumbs = [
-  { name: 'Home', url: '/' },
+  { name: t('nav.home'), url: '/' },
   { name: section.label, url: section.href },
   { name: data.title },
 ];
 
 const faqs = (data.faqs || []).map((f: any) => ({ q: f.q, a: f.a }));
-const related = (data.related || []).map((href: string) => {
-  const seg = href.split('/').filter(Boolean).pop() || '';
-  const title = seg.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase());
-  return { href, title };
-});
+/* Labels are looked up per locale, never rebuilt from the slug: the old
+   title-cased-slug path printed English labels ("Hr Payroll") on the ar, hi,
+   bn and ur copies of every one of these pages. */
+const related = await Promise.all(
+  (data.related || []).map(async (href: string) => ({ href, title: await labelFor(href, locale, t) }))
+);
+
+/*
+ * Glossary cross-links. The product pages and the glossary are two halves of
+ * the same subject and neither linked the other, so the glossary's 77 pages
+ * had inbound links only from their own hub. Terms are chosen by matching this
+ * page's own keywords and title against the term names, which keeps the block
+ * genuinely contextual rather than a rotating link dump; if nothing matches
+ * the block does not render at all.
+ */
+const haystack = `${data.title} ${data.keywords ?? ''} ${data.heroSubtitle ?? ''}`.toLowerCase();
+const glossaryTerms = allTerms(locale);
+const enTerms = allTerms('en');
+const scored = glossaryTerms
+  .map((term, i) => {
+    const en = enTerms[i];
+    const needles = [en.slug.replace(/-/g, ' '), en.term.toLowerCase(), ...(en.abbr ? [en.abbr.toLowerCase()] : [])];
+    const hit = needles.some((n) => n.length > 3 && haystack.includes(n));
+    return hit ? term : null;
+  })
+  .filter(Boolean)
+  .slice(0, 6) as typeof glossaryTerms;
 
 /* One stable hue per page, spent only on the hero pill. */
 const ACCENTS = ['electric', 'violet', 'copper'] as const;
@@ -82,7 +106,7 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
 >
   <Breadcrumbs
     {locale}
-    crumbs={[{ name: 'Home', href: '/' }, { name: section.label, href: section.href }, { name: data.title }]}
+    crumbs={[{ name: t('nav.home'), href: '/' }, { name: section.label, href: section.href }, { name: data.title }]}
   />
 
   <PageHero
@@ -119,6 +143,27 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
       faqs={faqs}
       band={faqBand}
     />
+  )}
+
+  {scored.length > 0 && (
+    <section class="band band-surface band-tight" aria-labelledby="mp-terms">
+      <div class="container-wide">
+        <h2 id="mp-terms" class="font-display text-2xl text-ink-500 md:text-3xl">{t('related.termsTitle')}</h2>
+        <ul class="mt-8 grid gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
+          {scored.map((term) => (
+            <li class="border-t border-ink-200">
+              <a href={localizePath(`/glossary/${term.slug}`, locale)} class="group block py-5 no-underline">
+                <span class="block font-semibold text-ink-500 group-hover:text-electric-500">{term.term}</span>
+                <span class="mt-1 block text-sm leading-relaxed text-ink-500/70">{term.short}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <p class="mt-8">
+          <a href={localizePath('/glossary', locale)} class="font-semibold text-ink-500">{t('glossary.browseAll')}</a>
+        </p>
+      </div>
+    </section>
   )}
 
   <RelatedLinks {locale} title={t('related.title')} links={related} band="tint" />

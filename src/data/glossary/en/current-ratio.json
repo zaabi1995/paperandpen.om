@@ -1,0 +1,62 @@
+{
+  "slug": "current-ratio",
+  "term": "Current ratio",
+  "abbr": "CR",
+  "category": "metrics",
+  "short": "The current ratio is a financial liquidity metric that measures whether a business has enough short-term assets to pay off its short-term liabilities within one year.",
+  "metaTitle": "What is the Current Ratio? · Paper & Pen",
+  "metaDescription": "Learn how to calculate the current ratio to measure business liquidity, evaluate short-term financial health, and ensure you can pay upcoming debts.",
+  "definition": "The current ratio evaluates the short-term liquidity of your business. It compares your current assets, which are items you expect to convert into cash within twelve months, against your current liabilities, which are the debts you must settle in that same period.\n\nWhen you calculate this metric, you get a clear picture of your immediate financial health. A healthy business usually holds more short-term assets than short-term debts. If your liabilities outweigh your assets, you might struggle to pay suppliers, settle tax bills, or cover payroll. Conversely, an extremely high ratio might indicate that you are hoarding cash instead of investing it back into the business. Because it relies heavily on inventory and receivables, the ideal number varies depending on your specific industry and trading cycle.",
+  "how": {
+    "title": "How Current ratio works",
+    "body": "To determine your current ratio, you must first gather your most recent balance sheet. You start by identifying all current assets. These typically include cash in the bank, accounts receivable from your customers, and any stock or inventory sitting in your warehouse.\n\nNext, you identify your current liabilities. These are obligations due within the next twelve months, such as accounts payable to your suppliers, short-term loans, and upcoming tax payments.\n\nOnce you have both totals, you divide the total current assets by the total current liabilities. The resulting number tells you how many times you can cover your short-term debts using your most liquid assets. Lenders and suppliers often review this calculation to decide if they should extend credit to your business.",
+    "items": [
+      "Generate a current balance sheet from your accounting records.",
+      "Sum up all cash, inventory, and accounts receivable.",
+      "Calculate total short-term debts, including accounts payable and taxes.",
+      "Divide the total assets figure by the total liabilities figure.",
+      "Compare the result against standard expectations for your industry."
+    ]
+  },
+  "formula": {
+    "label": "Current ratio formula",
+    "expr": "Current Assets / Current Liabilities",
+    "note": "A result of 1.0 or higher means you have enough assets to cover your immediate debts. A result below 1.0 indicates potential liquidity problems."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Al Maha Trading LLC wants to check its liquidity before applying for a bank loan. The owner reviews the balance sheet and finds 40,000 in cash, 35,000 in accounts receivable, and 25,000 in inventory. The total current assets equal 100,000.\n\nThe business also has 40,000 in accounts payable and a 10,000 short-term loan due in six months. The total current liabilities equal 50,000.\n\nThe owner divides 100,000 by 50,000 to get a current ratio of 2.0. This means Al Maha Trading LLC has twice as many short-term assets as short-term debts, showing strong financial health to the bank."
+  },
+  "matters": "Monitoring your current ratio helps you avoid cash flow crises. If your ratio drops too low, you risk defaulting on supplier payments or missing payroll. This can damage your commercial reputation and lead to strict cash-on-delivery terms from vendors. Maintaining a healthy metric also makes it easier to secure external funding, as banks use this figure to assess lending risk. To help manage your finances, Paper & Pen creates invoices, quotations and receipts, and it posts journal entries. Tracking this ratio regularly ensures you spot liquidity issues long before they threaten your daily operations.",
+  "faqs": [
+    {
+      "q": "What is a good current ratio for a small business?",
+      "a": "A ratio between 1.5 and 2.0 is generally considered healthy for most small businesses. This means you have enough assets to comfortably clear your short-term debts. However, acceptable ratios vary by industry. Retailers with fast-moving inventory might operate safely at a lower ratio, while manufacturing firms often need higher ratios to cover longer production cycles."
+    },
+    {
+      "q": "How is the current ratio different from the quick ratio?",
+      "a": "Both metrics measure short-term liquidity, but the quick ratio is more conservative. The current ratio includes inventory and other less liquid assets in its calculation. The quick ratio excludes inventory, focusing only on cash, marketable securities, and accounts receivable. This makes the quick ratio a better stress test for businesses that cannot sell their stock quickly."
+    },
+    {
+      "q": "Why would a very high current ratio be a bad thing?",
+      "a": "While a high ratio shows you can pay your debts, a number above 3.0 might indicate poor capital management. It suggests you are holding too much cash in low-interest accounts or carrying excess inventory that could become obsolete. Instead of hoarding liquid assets, you could reinvest that capital into marketing, new equipment, or business expansion."
+    }
+  ],
+  "related": [
+    "working-capital",
+    "balance-sheet",
+    "accounts-receivable",
+    "accounts-payable",
+    "inventory-turnover"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/reports",
+      "label": "Financial reports"
+    },
+    {
+      "href": "/features/accounting",
+      "label": "Cloud accounting"
+    }
+  ]
+}

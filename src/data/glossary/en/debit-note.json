@@ -1,0 +1,51 @@
+{
+  "slug": "debit-note",
+  "term": "Debit note",
+  "category": "invoicing",
+  "short": "A debit note is a commercial document issued by a buyer to request a credit, or by a seller to increase the amount owed on an existing invoice.",
+  "metaTitle": "Debit Note Definition & Uses · Paper & Pen",
+  "metaDescription": "Learn how a debit note works in accounting, when buyers or sellers issue them, and how they differ from credit notes to keep your records accurate.",
+  "definition": "A debit note acts as a formal request or notification regarding an adjustment to a financial balance. You will encounter debit notes in two common scenarios. First, as a buyer, you might issue a debit note to a supplier when returning damaged goods, effectively requesting a credit note in response. Second, as a seller, you might issue a debit note to a customer if you accidentally undercharged them on an original invoice, thereby increasing their payable balance. It is crucial to distinguish this from a credit note. A credit note decreases the amount a buyer owes, whereas a debit note increases the amount owed or requests a reduction in your own accounts payable. By using debit notes, you maintain an accurate audit trail without altering finalised tax invoices, ensuring your accounting records remain compliant and transparent.",
+  "how": {
+    "title": "How Debit note works",
+    "body": "The process begins when an error or return is identified after an invoice has already been issued and recorded. If you are the buyer returning defective inventory, you generate a debit note detailing the items, their value and the original invoice number. You send this document to your supplier. The supplier reviews the request and, upon approval, issues a corresponding credit note to formally reduce your payable balance. Alternatively, if you are the seller who underbilled a client, you issue the debit note directly to the buyer. This document notifies them of the additional charge. The buyer then updates their accounts payable ledger to reflect the higher amount owed. Finally, the outstanding balance is settled during the next payment cycle according to the updated ledger.",
+    "items": [
+      "Identify an undercharge or a need to return damaged goods to a supplier.",
+      "Draft the debit note referencing the original tax invoice and the adjustment reason.",
+      "Send the document to the other party to notify them of the balance change.",
+      "Wait for the supplier to issue a credit note if you are the buyer.",
+      "Update your general ledger to reflect the newly adjusted accounts payable or receivable balance."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading Supplies receives an invoice for 100 office chairs at $50 each, totaling $5,000. Upon delivery, they discover that 10 chairs are broken. Gulf Trading Supplies issues a debit note to the manufacturer for the damaged goods. The calculation is 10 chairs multiplied by $50, which equals $500. They send this $500 debit note to the manufacturer to request an adjustment. The manufacturer accepts the return and issues a $500 credit note. Gulf Trading Supplies then pays the revised balance of $4,500 ($5,000 minus $500) to settle the account."
+  },
+  "matters": "Handling debit notes correctly is essential for accurate financial reporting and inventory management. If you fail to issue a debit note for returned goods, you risk overpaying your suppliers and losing valuable working capital. Conversely, if you forget to issue a debit note when you undercharge a customer, your business absorbs the financial loss. Proper documentation also protects you during tax audits by providing a clear paper trail for every adjustment. Paper & Pen creates invoices, quotations and receipts, making it simple to track these adjustments alongside your standard billing documents. Maintaining strict control over debit notes ensures your cash flow remains predictable and your supplier relationships stay professional.",
+  "faqs": [
+    {
+      "q": "Can a debit note be used as a tax invoice?",
+      "a": "No, a debit note is not a substitute for a standard tax invoice. It serves strictly as an adjustment document for an invoice that has already been issued. Tax authorities typically require you to reference the original invoice number on the debit note. This ensures that the original tax liability is adjusted correctly without creating a duplicate sales record."
+    },
+    {
+      "q": "What is the difference between a debit note and an invoice?",
+      "a": "An invoice is the primary document requesting payment for goods or services provided. A debit note is a supplementary document used to adjust the value of that original invoice after the fact. You only use a debit note to correct an underbilling mistake or to formally request a credit from a supplier for returned or damaged items."
+    }
+  ],
+  "related": [
+    "credit-note",
+    "tax-invoice",
+    "accounts-payable",
+    "accounts-receivable"
+  ],
+  "seeAlso": [
+    {
+      "href": "/invoicing/debit-notes",
+      "label": "Debit Notes"
+    },
+    {
+      "href": "/invoicing/credit-notes",
+      "label": "Credit Notes"
+    }
+  ]
+}

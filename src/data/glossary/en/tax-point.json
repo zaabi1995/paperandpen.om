@@ -1,0 +1,60 @@
+{
+  "slug": "tax-point",
+  "term": "Tax point",
+  "category": "tax",
+  "short": "A tax point, also known as the time of supply, is the specific date a transaction takes place for value-added tax purposes, determining which tax return period the transaction falls into.",
+  "metaTitle": "What is a Tax Point? Definition & Examples · Paper & Pen",
+  "metaDescription": "Learn how a tax point determines the time of supply for your business transactions and dictates which VAT return period you must report your sales in.",
+  "definition": "The tax point, frequently called the time of supply, is the exact date a transaction becomes liable for value-added tax. You need to establish this date to know precisely when to report the sale or purchase to your local tax authority. It dictates which tax return period a transaction belongs to.\n\nIf you issue an invoice or receive payment before delivering goods or completing a service, the tax point usually shifts to that earlier date. This rule prevents businesses from delaying their tax payments. Getting the time of supply right ensures you declare your output tax and claim your input tax in the correct filing period. Incorrectly identifying this date often leads to penalties, late payment interest, or compliance audits by the tax administration.",
+  "how": {
+    "title": "How Tax point works",
+    "body": "To determine the correct tax point, you must look at the sequence of events in a transaction. The basic tax point usually occurs on the date you deliver goods to a customer or complete a service. However, tax authorities typically apply an actual tax point that overrides this basic date if certain events happen first. If you issue a tax invoice or receive full or partial payment before the basic tax point, the date of that invoice or payment becomes the actual tax point. Conversely, if you issue a tax invoice shortly after delivering the goods, the invoice date might become the new tax point depending on local regulations. You must monitor these triggers to record the transaction in the correct accounting period.",
+    "items": [
+      "Identify the basic tax point when goods are delivered or services are completed.",
+      "Check if you received an advance payment before the delivery date.",
+      "Note the exact date you issue a formal tax invoice to the buyer.",
+      "Compare the dates of delivery, payment, and invoicing to find the earliest event.",
+      "Record the transaction in the tax return period covering this earliest date."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC signs a contract to supply office furniture for 10,000 plus a 10 percent local tax rate, totalling 11,000. The customer pays a 50 percent deposit of 5,500 on the 15th of March. Gulf Trading delivers the furniture on the 4th of April and issues the final invoice on the 6th of April.\n\nBecause the deposit was received in March, a tax point is created on March 15th for the 5,500 advance. The company must report the 500 tax portion in their March tax period. The remaining 5,500 balance triggers a second tax point on April 4th upon delivery, requiring the final 500 tax to be reported in April."
+  },
+  "matters": "Understanding the tax point is critical for cash flow management and legal compliance. If you declare a transaction in the wrong return period, you risk facing financial penalties and interest charges from the tax authority. Recognising the time of supply early helps you set aside the exact amount of output tax you owe before the filing deadline approaches. It also ensures you claim input tax on your business purchases at the earliest legal opportunity. Paper & Pen creates invoices, quotations and receipts, helping you accurately date your documents to establish the correct time of supply.",
+  "faqs": [
+    {
+      "q": "What happens if I issue an invoice before delivering goods?",
+      "a": "If you issue a tax invoice before you deliver the goods or complete the service, the invoice date typically becomes the new tax point. Tax authorities use this rule to ensure tax is accounted for as soon as a formal demand for payment is made. You must report the transaction in the period matching the invoice date."
+    },
+    {
+      "q": "Does an advance payment create a tax point?",
+      "a": "Yes, receiving an advance payment almost always triggers a tax point for the amount received. Even if you have not yet supplied the goods or services, you must calculate and report the tax fraction of that deposit in the current filing period. The remaining balance will trigger a separate tax point later."
+    },
+    {
+      "q": "How does the time of supply affect my VAT return?",
+      "a": "The time of supply dictates the specific reporting period in which you must declare a transaction. If a tax point falls in November, you must include that sale or purchase in the return that covers November. Failing to do so means you have under-declared your tax liability for that period."
+    }
+  ],
+  "related": [
+    "value-added-tax",
+    "vat-return",
+    "tax-invoice",
+    "output-vat",
+    "place-of-supply"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Manage Invoices"
+    },
+    {
+      "href": "/features/accounting",
+      "label": "Accounting Tools"
+    }
+  ]
+}

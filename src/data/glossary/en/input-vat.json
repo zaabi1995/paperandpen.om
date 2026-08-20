@@ -1,0 +1,61 @@
+{
+  "slug": "input-vat",
+  "term": "Input VAT",
+  "category": "tax",
+  "short": "Input VAT is the value-added tax that a registered business pays on goods and services purchased for its own operations, which can typically be recovered from the tax authority.",
+  "metaTitle": "What is Input VAT? · Paper & Pen",
+  "metaDescription": "Input VAT is the tax your business pays on purchases and expenses. Learn how to track and reclaim it to reduce your total tax liability and save money.",
+  "definition": "When you buy supplies, equipment, or services to run your business, the supplier often charges you a value-added tax. This tax is known as Input VAT because it applies to the inputs of your business. If your business is registered for tax, you do not usually have to bear this cost permanently. Instead, you keep a record of the tax paid on these purchases and deduct it from the tax you collect from your own customers. The tax authority in your country sets specific rules about which expenses qualify for recovery. For example, tax paid on raw materials is almost always recoverable, while tax on certain entertainment expenses might not be. Keeping accurate purchase records is essential to ensure you can claim back the correct amount.",
+  "how": {
+    "title": "How Input VAT works",
+    "body": "The process begins when you purchase goods or services from a registered supplier. The supplier issues a valid tax invoice that clearly shows the tax amount charged. You must record this invoice in your accounting system, categorising the tax portion as an asset rather than an expense. At the end of your tax period, you calculate the total tax you collected from sales and subtract the total tax you paid on purchases. You then report these figures on your tax return. If you collected more than you paid, you send the difference to the tax authority. If you paid more than you collected, the authority will either refund the difference or credit it toward your next period.",
+    "items": [
+      "You purchase goods or services from a registered supplier for business use.",
+      "The supplier provides a tax invoice detailing the exact tax amount charged.",
+      "You record the purchase and the associated tax in your accounting records.",
+      "You deduct this paid tax from the tax you collect on your sales.",
+      "You submit a return and pay the net balance to the tax authority."
+    ]
+  },
+  "formula": {
+    "label": "Net VAT Payable",
+    "expr": "Output VAT - Input VAT",
+    "note": "A positive result is the amount you owe the tax authority. A negative result means you are due a refund or credit."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Traders buys office furniture for 10,000 plus a 1,000 tax charge, making the total invoice 11,000. The 1,000 is their Input VAT. Later that month, Gulf Traders sells goods for 20,000 and charges 2,000 in tax to their customers. This 2,000 is their Output VAT. At the end of the period, Gulf Traders calculates their net tax liability by subtracting the 1,000 paid from the 2,000 collected. They only pay the remaining 1,000 to the tax authority. This mechanism ensures the business only pays tax on the value it added."
+  },
+  "matters": "Tracking this tax properly is vital for protecting your profit margins. If you fail to record the tax you pay on purchases, you will not be able to deduct it from your final tax bill. This means you end up paying the tax out of your own pocket, which unnecessarily increases your business costs. Keeping strict records of supplier invoices is the only way to prove your claims to the tax authority. Using software like Paper & Pen, which creates invoices and posts journal entries for free, helps you automatically track these amounts so you never miss a deduction.",
+  "faqs": [
+    {
+      "q": "What is the difference between Input VAT and Output VAT?",
+      "a": "Input VAT is the tax you pay to your suppliers when you purchase goods and services for your business. Output VAT is the tax you charge your customers when you sell your products or services. You subtract the input tax from the output tax to determine how much you actually owe the government at the end of the filing period."
+    },
+    {
+      "q": "Can I claim Input VAT on all my business expenses?",
+      "a": "No, you cannot claim it on everything. Tax authorities typically block recovery on certain expenses, such as client entertainment, personal purchases, or company cars available for private use. You must check the specific rules set by your local tax authority to confirm which expenses are eligible for recovery and which are strictly prohibited."
+    }
+  ],
+  "related": [
+    "value-added-tax",
+    "output-vat",
+    "vat-return",
+    "tax-invoice",
+    "taxable-supply"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting Features"
+    },
+    {
+      "href": "/invoicing/expenses",
+      "label": "Manage Expenses"
+    },
+    {
+      "href": "/tools/oman-vat-calculator",
+      "label": "Oman VAT Calculator"
+    }
+  ]
+}

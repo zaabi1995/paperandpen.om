@@ -1,0 +1,58 @@
+{
+  "slug": "cash-flow-statement",
+  "term": "Cash flow statement",
+  "abbr": "CFS",
+  "category": "accounting",
+  "short": "A cash flow statement is a financial report that shows the exact amount of money entering and leaving your business over a specific period, helping you track your actual liquidity.",
+  "metaTitle": "Cash flow statement defined · Paper & Pen",
+  "metaDescription": "Learn what a cash flow statement is, how to read its three main sections, and why tracking actual cash movement is vital for your business survival.",
+  "definition": "A cash flow statement bridges the gap between your income statement and your actual bank balance. It tracks every unit of currency moving in and out of your accounts. The report is divided into three sections: operating activities (day-to-day trading), investing activities (buying or selling assets), and financing activities (loans or equity).\n\nYou need this statement because profit does not equal cash. Under accrual accounting, you recognise revenue when you make a sale, even if the customer has not paid yet. A highly profitable business can still run out of cash and face bankruptcy if its cash is tied up in unpaid invoices or excess inventory. By monitoring your cash flow statement, you ensure you always have enough liquidity to pay suppliers, settle payroll and cover immediate expenses.",
+  "how": {
+    "title": "How Cash flow statement works",
+    "body": "Preparing a cash flow statement usually starts with your net profit from the income statement. Because that profit includes non-cash items like depreciation, you must adjust it to reflect actual cash movements. First, you add back non-cash expenses. Next, you account for changes in your working capital. If your accounts receivable increased, it means customers owe you money, so you subtract that amount from your cash total. Conversely, an increase in accounts payable means you kept cash longer, so you add it back. Finally, you record cash spent on new equipment or cash received from bank loans. The final figure shows your net increase or decrease in cash, which must match the change in your bank balance over that period.",
+    "items": [
+      "Start with the net profit figure from your profit and loss statement.",
+      "Add back non-cash expenses like depreciation and amortisation to your starting profit.",
+      "Adjust for changes in working capital, such as pending invoices and unpaid bills.",
+      "Subtract cash spent on long-term assets like vehicles or new machinery.",
+      "Add cash received from new bank loans or capital injected by owners.",
+      "Calculate the net change and verify it matches your actual bank statement balance."
+    ]
+  },
+  "formula": {
+    "label": "Net Cash Flow",
+    "expr": "Net Cash Flow = Cash from Operations + Cash from Investing + Cash from Financing",
+    "note": "A positive result means you generated more cash than you spent. A negative result means you burned through your cash reserves."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC starts the month with 10,000 in the bank. They report a net profit of 5,000. However, 2,000 of that profit is tied up in unpaid invoices (accounts receivable). They also purchased a new delivery van for 4,000 in cash. Their cash from operations is 3,000 (5,000 profit minus 2,000 unpaid invoices). Their cash from investing is negative 4,000 for the van. The net cash flow for the month is negative 1,000 (3,000 minus 4,000). Despite being profitable, their final bank balance drops to 9,000 (10,000 starting balance minus 1,000 net cash outflow)."
+  },
+  "matters": "Ignoring your cash flow statement is a primary reason small businesses fail. If you do not monitor your cash inflows and outflows, you might commit to new expenses while lacking the actual funds to cover them. This leads to bounced cheques, damaged supplier relationships and missed payroll. By regularly reviewing this statement, you can spot collection delays early and negotiate better payment terms with your vendors. Paper & Pen creates invoices and posts journal entries automatically, making it easier to track the transactions that ultimately feed into your cash flow statement.",
+  "faqs": [
+    {
+      "q": "What is the difference between a cash flow statement and a profit and loss statement?",
+      "a": "A profit and loss statement records income and expenses when they are incurred, regardless of when money changes hands. A cash flow statement only records transactions when physical cash enters or leaves your bank account. You use the profit and loss statement to measure profitability and the cash flow statement to measure liquidity."
+    },
+    {
+      "q": "Can a business survive with negative cash flow?",
+      "a": "Yes, a business can survive temporary negative cash flow if it has sufficient cash reserves or access to financing. Growing companies often experience negative cash flow when they invest heavily in new equipment or inventory. However, sustained negative cash flow will eventually drain all reserves and force the business into insolvency."
+    }
+  ],
+  "related": [
+    "profit-and-loss-statement",
+    "balance-sheet",
+    "working-capital",
+    "accrual-accounting"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/reports",
+      "label": "Accounting reports"
+    },
+    {
+      "href": "/features/accounting",
+      "label": "Cloud accounting"
+    }
+  ]
+}

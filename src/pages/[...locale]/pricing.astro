@@ -34,7 +34,7 @@ const faqs = [
   { q: t('pricingFaq.q3'), a: t('pricingFaq.a3') },
 ];
 const crumbs = [
-  { name: 'Home', url: '/' },
+  { name: t('nav.home'), url: '/' },
   { name: t('nav.pricing'), url: '/pricing' },
 ];
 
@@ -69,7 +69,7 @@ const jsonld = [
   keywords="ERP pricing, free invoicing software pricing, affordable ERP, multi-currency ERP cost"
   {jsonld}
 >
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('nav.pricing') }]} />
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('nav.pricing') }]} />
   <PricingTable {locale} />
   <FaqAccordion
     title={t('faqSection.title')}

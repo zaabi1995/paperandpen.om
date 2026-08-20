@@ -1,0 +1,57 @@
+{
+  "slug": "bank-reconciliation",
+  "term": "Bank reconciliation",
+  "category": "accounting",
+  "short": "Bank reconciliation is the process of matching the cash balances in your business accounting records to the corresponding information on your official bank statement to identify and correct any discrepancies.",
+  "metaTitle": "Bank Reconciliation Explained · Paper & Pen",
+  "metaDescription": "Learn how bank reconciliation helps you match your accounting records with your bank statements to catch errors, track cash flow, and prevent fraud.",
+  "definition": "Bank reconciliation involves comparing your internal financial records against the official statement provided by your bank. Because you record transactions when they occur, and the bank records them when they clear, the two balances rarely match perfectly at the end of the month. These timing differences are completely normal. For example, you might have outstanding cheques that you have written but the supplier has not yet cashed. Similarly, you might have deposits in transit that you received late in the day and have not yet appeared on the bank's system. The bank might also deduct routine bank charges or add interest that you have not yet booked in your ledger. By identifying these differences, you ensure your cash balance is accurate and ready for financial reporting.",
+  "how": {
+    "title": "How Bank reconciliation works",
+    "body": "The reconciliation process begins by obtaining your most recent bank statement and opening your cash book or general ledger for the same period. You start by ticking off every transaction that appears in both places. Once you match the identical items, you focus on the remaining un-ticked entries. First, you add any missing bank fees, interest payments, or direct debits to your own accounting records. Next, you list the timing differences, such as uncleared cheques and pending deposits, which explain the remaining gap between the two balances. Finally, you calculate the adjusted balance for both the bank statement and your ledger. When these two adjusted figures match exactly, your account is successfully reconciled and your financial records are accurate.",
+    "items": [
+      "Compare your internal cash ledger balance against your official bank statement balance.",
+      "Mark all matching deposits and withdrawals that appear in both sets of records.",
+      "Record any bank fees or interest payments that are missing from your ledger.",
+      "Identify deposits in transit that the bank has not yet processed.",
+      "List outstanding cheques that payees have not yet presented for payment.",
+      "Calculate the adjusted balances to ensure both totals match perfectly."
+    ]
+  },
+  "formula": {
+    "label": "Adjusted Bank Balance",
+    "expr": "Ending Bank Balance + Deposits in Transit - Outstanding Cheques = Adjusted Balance",
+    "note": "This adjusted bank balance must equal your internal ledger balance after you deduct unrecorded bank fees and add earned interest."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC shows a cash ledger balance of 10,600. Their monthly bank statement shows an ending balance of 11,500. The bookkeeper identifies a 2,000 deposit in transit that has not cleared the bank yet. They also find 3,100 in outstanding cheques written to suppliers, and a 200 monthly bank service fee not yet recorded in the ledger. To reconcile, the bookkeeper adjusts the bank balance: 11,500 + 2,000 (deposits) - 3,100 (cheques) = 10,400. Then, they adjust the ledger balance: 10,600 - 200 (fees) = 10,400. Both adjusted balances equal 10,400, meaning the account is fully reconciled."
+  },
+  "matters": "Performing a regular bank reconciliation is vital for maintaining an accurate picture of your available cash. If you skip this process, you risk bouncing cheques or failing to pay suppliers because your ledger shows money that is not actually in the bank. It also acts as your primary defence against fraud and billing errors. By reviewing every transaction, you can quickly spot unauthorised withdrawals, duplicate charges, or missing deposits. Paper & Pen posts journal entries. Ultimately, reconciled accounts are essential for filing accurate tax returns and securing business loans.",
+  "faqs": [
+    {
+      "q": "How often should I do a bank reconciliation?",
+      "a": "Most small businesses perform a bank reconciliation at the end of every month when the bank issues a new statement. However, if your business processes a high volume of daily transactions, you might prefer to reconcile your accounts weekly or even daily. Frequent reconciliation makes it easier to spot errors."
+    },
+    {
+      "q": "What happens if my bank reconciliation does not balance?",
+      "a": "If your adjusted balances do not match, you must review your work to find the discrepancy. Common culprits include transposed numbers, duplicate entries, or missed bank fees. You should check off each transaction again, verify your addition, and ensure no deposits in transit were accidentally omitted from your calculations."
+    }
+  ],
+  "related": [
+    "general-ledger",
+    "cash-flow-statement",
+    "double-entry-bookkeeping",
+    "trial-balance"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting Features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Ledgers"
+    }
+  ]
+}

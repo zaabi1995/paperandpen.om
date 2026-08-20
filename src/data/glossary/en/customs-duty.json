@@ -1,0 +1,56 @@
+{
+  "slug": "customs-duty",
+  "term": "Customs duty",
+  "category": "tax",
+  "short": "Customs duty is an indirect tax imposed by a government on the import and export of goods, calculated based on the item's classification and its total assessed value at the border.",
+  "metaTitle": "What is Customs Duty? · Paper & Pen",
+  "metaDescription": "Learn how customs duty affects your business when importing or exporting goods, including how HS codes and customs value determine your final tax bill.",
+  "definition": "When you buy products from suppliers in another country or sell goods across borders, the government charges a tax called customs duty. Authorities use this tax to raise revenue and protect local industries from foreign competition. The amount you pay depends heavily on two factors: the customs value of your shipment and the Harmonised System (HS) code assigned to your products. The customs value usually includes the cost of the goods, insurance, and freight charges to reach the border. The HS code is an internationally recognised classification system that dictates the specific tariff rate applied to that item. Because rates and rules are set by individual countries, you must classify your items accurately to avoid penalties, delays, or overpaying on your cross-border shipments.",
+  "how": {
+    "title": "How Customs duty works",
+    "body": "The process begins before your goods even reach the border. You or your freight forwarder must prepare a commercial invoice and packing list detailing what you are shipping. Once the goods arrive at the port of entry, a customs declaration is submitted to the local authorities. This document includes the HS code for each item and the total customs value. Customs officers review the declaration to verify the classification and calculate the required duty. If everything is correct, they issue a bill for the taxes owed. You must pay this amount, or have a clearing agent pay it on your behalf, before the authorities release the goods for final delivery to your warehouse or customer.",
+    "items": [
+      "Identify the correct HS code for your imported or exported goods.",
+      "Calculate the total customs value including goods, freight, and insurance.",
+      "Submit a formal customs declaration to the border authorities upon arrival.",
+      "Pay the calculated duty based on the assigned tariff rate.",
+      "Receive clearance from customs officers to release the shipment for delivery."
+    ]
+  },
+  "formula": {
+    "label": "Customs duty calculation",
+    "expr": "Customs Value x Duty Rate",
+    "note": "The result is the total duty payable to the customs authority. You must add this figure to your other import costs to determine the true landed cost of your goods."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Global Tech Trading imports a shipment of computer monitors. The supplier charges $10,000 for the monitors. Shipping costs are $1,000, and insurance is $200. The total customs value is $11,200 ($10,000 + $1,000 + $200). The local customs authority assigns an HS code for computer monitors that carries a 5 percent duty rate. To find the duty owed, Global Tech Trading multiplies the customs value of $11,200 by 0.05. The resulting customs duty is $560. The company must pay this $560 before the monitors can leave the port."
+  },
+  "matters": "Understanding customs duty is essential for pricing your products profitably. If you underestimate the duty rates, your profit margins will shrink when the unexpected tax bill arrives at the border. Furthermore, using the wrong HS code can lead to severe financial penalties, confiscated goods, or long delays at the port. By accurately calculating these costs upfront, you can set correct retail prices and manage your cash flow effectively. Paper & Pen tracks your stock and posts journal entries, making it easier to record these landed costs accurately.",
+  "faqs": [
+    {
+      "q": "What is the difference between customs duty and VAT?",
+      "a": "Customs duty is a tax applied specifically to goods crossing international borders, based on their HS code and origin. Value-added tax (VAT) is a consumption tax applied to the sale of goods and services, including imports. When importing, you usually pay customs duty first, and then VAT is calculated on the total value of the goods plus the paid duty."
+    },
+    {
+      "q": "How do I find the right HS code for my products?",
+      "a": "You can find the correct HS code by consulting the official tariff schedule published by your national customs authority. Many governments provide online search tools where you can enter a product description to find the matching code. If your item is complex, you can hire a licensed customs broker to classify the goods for you, reducing the risk of costly errors."
+    }
+  ],
+  "related": [
+    "landed-cost",
+    "value-added-tax",
+    "excise-tax",
+    "cost-of-goods-sold"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory Management"
+    },
+    {
+      "href": "/features/accounting",
+      "label": "Cloud Accounting"
+    }
+  ]
+}

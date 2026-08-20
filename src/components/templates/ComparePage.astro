@@ -28,7 +28,7 @@ const path = `/compare/${data.slug}`;
 const rows = (data.matrix || []).map((r: any) => ({ feature: r.feature, values: r.values }));
 const faqs = (data.faqs || []).map((f: any) => ({ q: f.q, a: f.a }));
 const crumbs = [
-  { name: 'Home', url: '/' },
+  { name: t('nav.home'), url: '/' },
   { name: t('nav.compare'), url: '/compare/paperandpen-vs-zoho' },
   { name: data.title, url: path },
 ];
@@ -58,7 +58,7 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
   <Breadcrumbs
     {locale}
     crumbs={[
-      { name: 'Home', href: '/' },
+      { name: t('nav.home'), href: '/' },
       { name: t('nav.compare'), href: '/compare/paperandpen-vs-zoho' },
       { name: data.title },
     ]}

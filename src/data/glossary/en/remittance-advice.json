@@ -1,0 +1,52 @@
+{
+  "slug": "remittance-advice",
+  "term": "Remittance advice",
+  "category": "invoicing",
+  "short": "A remittance advice is a document sent by a customer to a supplier to confirm that a payment has been made and to detail exactly which invoices the payment covers.",
+  "metaTitle": "What is Remittance Advice? · Paper & Pen",
+  "metaDescription": "Discover what a remittance advice is, how it helps suppliers allocate lump-sum payments correctly, and why it prevents unallocated cash in your accounts.",
+  "definition": "When you sell goods or services on credit, your customers might pay multiple invoices at once with a single bank transfer. A remittance advice is the notification they send to explain exactly how that lump-sum payment should be applied. It acts as a breakdown, listing the specific invoice numbers, credit notes applied, and the payment amounts for each.\n\nWithout this document, your bookkeeping becomes a guessing game. If a customer deposits a large sum into your bank account, you might not know which outstanding balances to clear. This creates unallocated cash in your accounting system, leaving invoices marked as unpaid and potentially triggering unnecessary payment reminders. By requesting a remittance advice, you ensure that every payment is matched correctly, keeping your accounts receivable accurate and your customer relationships healthy.",
+  "how": {
+    "title": "How Remittance advice works",
+    "body": "The process begins when a customer prepares to pay their outstanding balances. Instead of making separate transfers for every purchase, they group several approved invoices into a single payment run. Before or immediately after authorising the bank transfer, the customer generates a remittance advice document. They send this to your accounts receivable team, usually via email.\n\nOnce the funds arrive in your bank account, your bookkeeper opens the remittance advice to review the breakdown. They match the total payment amount to the bank deposit. Then, they apply the specified amounts to the corresponding invoices in your accounting software. This step clears the outstanding balances and updates your general ledger, completing the payment cycle and ensuring your financial records reflect the true state of your receivables.",
+    "items": [
+      "The customer selects multiple due invoices to pay in a single batch.",
+      "They calculate the total payment, deducting any agreed credit notes.",
+      "The customer initiates a bank transfer for the total lump-sum amount.",
+      "They send a remittance advice listing the specific invoices being settled.",
+      "Your bookkeeper uses this list to allocate the received funds accurately."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC owes your business for three separate deliveries. They have outstanding invoices for 400, 600, and 250. They also have a credit note for 50. Instead of four transactions, Gulf Trading makes a single bank transfer of 1,200.\n\nThey email a remittance advice showing the calculation: Invoice 101 (400) plus Invoice 102 (600) plus Invoice 103 (250) minus Credit Note 05 (50) equals 1,200. When you see the 1,200 deposit on your bank statement, you do not have to guess which bills they intended to pay. You simply follow their breakdown to clear the exact invoices."
+  },
+  "matters": "Managing cash flow requires knowing exactly who owes you money at any given moment. If customers send payments without a remittance advice, your finance team wastes hours trying to reconcile bank deposits against a long list of open invoices. This delay leaves accounts looking unpaid, which might cause you to put a good customer on credit hold by mistake. It also distorts your aging reports, making it difficult to assess bad debts. Using a system like Paper & Pen, which creates invoices, quotations and receipts, helps you track these allocations clearly once the customer confirms their payment breakdown.",
+  "faqs": [
+    {
+      "q": "Is a remittance advice the same as a payment receipt?",
+      "a": "No, they serve opposite purposes. A customer sends a remittance advice to the supplier to explain what a payment is meant to cover. Conversely, a supplier sends a payment receipt to the customer to acknowledge that the funds have been successfully received and applied. The remittance advice comes before or alongside the payment, while the receipt comes after."
+    },
+    {
+      "q": "Do I legally have to send a remittance advice?",
+      "a": "There is usually no strict legal requirement to send this document, but it is a standard commercial practice. If you pay multiple invoices at once, sending a breakdown is highly recommended. It prevents your supplier from misallocating the funds, which could result in them incorrectly chasing you for a debt you have already settled."
+    }
+  ],
+  "related": [
+    "payment-receipt",
+    "statement-of-account",
+    "bank-reconciliation",
+    "accounts-receivable",
+    "aging-report"
+  ],
+  "seeAlso": [
+    {
+      "href": "/invoicing/payment-receipts",
+      "label": "Payment receipts"
+    },
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing features"
+    }
+  ]
+}

@@ -8,13 +8,18 @@ import { graph, organization, breadcrumbList } from '@/lib/schema';
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
-const jsonld = [graph(organization(), breadcrumbList([{ name: 'Home', url: '/' }, { name: t('footer.privacy'), url: '/privacy' }]))];
+const jsonld = [graph(organization(), breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.privacy'), url: '/privacy' }]))];
 ---
-<BaseLayout {locale} path="/privacy" title="Privacy Policy · Paper & Pen" description="How Paper & Pen collects, uses and protects your data." {jsonld}>
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.privacy') }]} />
+<BaseLayout
+  noindex={locale !== 'en'}
+  noAlternates {locale} path="/privacy" title="Privacy Policy · Paper & Pen" description="How Paper & Pen collects, uses and protects your data." {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.privacy') }]} />
   <article class="section-pad bg-white">
     <div class="max-w-3xl mx-auto legal">
       <h1>Privacy Policy</h1>
+      {locale !== 'en' && (
+        <p class="meta" lang="en" dir="ltr">{t('legal.englishOnly')}</p>
+      )}
       <p class="meta">Last updated: 14 April 2026 · Paper and Pen Company LLC, paperandpen.om</p>
 
       <h2>Information We Collect</h2>

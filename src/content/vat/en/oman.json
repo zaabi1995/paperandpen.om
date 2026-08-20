@@ -1,0 +1,159 @@
+{
+  "locale": "en",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "title": "VAT in Oman",
+  "metaTitle": "VAT in Oman: Rate, Thresholds, Invoices · Paper & Pen",
+  "metaDescription": "Oman's 5% VAT rate, the OMR 38,500 registration threshold and the twelve items a tax invoice must carry, each cited to the Tax Authority.",
+  "keywords": "vat oman, oman vat rate, oman vat registration threshold, oman tax invoice requirements, fawtara e-invoicing, oman tax authority",
+  "heroEyebrow": "Oman",
+  "heroTitle": "Invoicing under <em class=\"text-copper-400 not-italic\">Oman's VAT</em> rules",
+  "heroSubtitle": "The rate, the registration thresholds, what a tax invoice has to show and where e-invoicing stands. Every figure on this page is cited to the Oman Tax Authority's own published text.",
+  "heroBullets": [
+    "5% standard rate",
+    "OMR 38,500 to register",
+    "Fawtara announced, not yet live"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Standard VAT rate",
+      "value": "5%",
+      "note": "Article 36 of the VAT Law sets tax on the import and supply of taxable goods or services at five percent of the taxable value.",
+      "source": 1
+    },
+    {
+      "label": "Mandatory registration threshold",
+      "value": "OMR 38,500",
+      "note": "Annual supplies at or above this figure require registration. The Law leaves the number to a Chairman's decision rather than fixing it in the Law itself.",
+      "source": 2
+    },
+    {
+      "label": "Voluntary registration threshold",
+      "value": "OMR 19,250",
+      "note": "You may register below the mandatory threshold from this level.",
+      "source": 2
+    },
+    {
+      "label": "Invoice language",
+      "value": "Arabic",
+      "note": "An invoice may also be issued in English provided an Arabic translation is available on request.",
+      "source": 3
+    },
+    {
+      "label": "Simplified invoice ceiling",
+      "value": "OMR 500",
+      "note": "Supplies under this value may use a simplified invoice, with the Tax Authority's approval.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Article 145 of the Executive Regulations lists what a tax invoice must show. The article introduces the list with \"in particular\", so treat it as a minimum rather than a complete set.",
+    "items": [
+      "The words \"Tax Invoice\"",
+      "Date of issue, date of supply and date of payment",
+      "A sequential invoice number",
+      "Supplier's full name, address and Tax Identification Number",
+      "Customer's full name, address and Tax Identification Number, or the equivalent in their country of residence",
+      "A description of the goods and services supplied",
+      "The quantity of goods",
+      "The date of any advance payment",
+      "Total consideration excluding tax",
+      "The tax rate applied",
+      "Any price reduction or discount granted, and any State subsidy not already included",
+      "The taxable value"
+    ],
+    "source": 3,
+    "caveat": "The Tax Authority publishes the Executive Regulations in Arabic only. This list is a faithful reading of the official Arabic text, not an official English translation, so confirm the wording with your tax adviser before you rely on it."
+  },
+  "einvoicing": {
+    "status": "Announced and phased, not yet mandatory",
+    "body": "Oman's e-invoicing programme is called Fawtara. The Tax Authority describes a five-corner model in which invoices reach it through an accredited service provider, and sets out four phases: a pilot, an expansion, onboarding of smaller businesses, and full rollout. The Authority has not published the phase dates in English, and dates circulating in the press are not carried on its own pages. Treat any specific Fawtara deadline you read elsewhere as unconfirmed until the Tax Authority publishes it.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Getting it right",
+      "title": "What trips businesses up in Oman",
+      "body": "Three things account for most VAT invoice problems here. The first is the customer's Tax Identification Number: leave it off and your customer may not be able to recover the input tax, which turns your invoice into their cost and your problem. The second is invoice sequencing. Article 145 requires a sequential number, and the fastest way to break that is to delete or renumber an invoice that has already gone out. Correct it with a credit note instead. The third is language: the invoice must be in Arabic, and issuing only in English without an Arabic version available on request leaves you exposed.",
+      "items": [
+        "Capture the customer's TIN before you issue, not after",
+        "Never delete an issued invoice, credit it",
+        "Keep an Arabic version available on request",
+        "Record the date of supply separately from the date of issue"
+      ]
+    },
+    {
+      "eyebrow": "Preparing",
+      "title": "Getting ready for Fawtara without guessing dates",
+      "body": "You do not need a published deadline to be ready. Every e-invoicing regime that has gone live in the region has asked for the same underlying discipline: clean, complete customer records including tax numbers, an unbroken invoice sequence, tax treatment recorded per line rather than per invoice, and documents stored in a way you can retrieve on request. A business whose records already meet those four conditions has a short implementation ahead of it whenever the dates land. A business that does not will spend the notice period cleaning data instead.",
+      "items": [
+        "Complete customer records, tax numbers included",
+        "One unbroken invoice sequence per series",
+        "Tax treatment recorded line by line",
+        "Documents retrievable on request"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the VAT rate in Oman?",
+      "a": "Five percent. Article 36 of the VAT Law, promulgated by Royal Decree 121/2020, computes tax on the import and supply of taxable goods or services at five percent of the taxable value. Some supplies are zero-rated or exempt, which are different things: a zero-rated supplier can still recover input tax, an exempt one cannot."
+    },
+    {
+      "q": "When do I have to register for VAT in Oman?",
+      "a": "When your annual supplies reach or are expected to reach OMR 38,500. You may register voluntarily from OMR 19,250. Both figures come from the Chairman's decision on registration thresholds rather than from the VAT Law itself, which is why they can change without the Law changing."
+    },
+    {
+      "q": "Is e-invoicing mandatory in Oman yet?",
+      "a": "Not yet. The Tax Authority has announced Fawtara, a phased five-corner e-invoicing model using accredited service providers, and describes four rollout phases. It has not published the phase dates in English on its own pages, so we do not state a date here. Check the Tax Authority's e-invoicing pages for the current position."
+    },
+    {
+      "q": "Can I issue an invoice in English in Oman?",
+      "a": "You can issue in English, but the Executive Regulations require the tax invoice to be in Arabic and allow another language in addition, provided an Arabic translation is available on request. In practice that means keeping a bilingual template rather than an English-only one."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Invoice correctly in Oman, free",
+  "ctaSub": "Set your own tax rate, bill in any currency and keep an Arabic and English invoice from the same record.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, Article 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Chairman's Decision determining the mandatory and voluntary registration thresholds",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Decision 53/2021, Articles 145 to 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "E-invoicing (Fawtara) programme pages",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

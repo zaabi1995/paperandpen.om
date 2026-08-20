@@ -1,0 +1,61 @@
+{
+  "slug": "tax-invoice",
+  "term": "Tax invoice",
+  "category": "tax",
+  "short": "A tax invoice is a legal document issued by a registered business to a buyer, detailing the goods or services provided and the specific amount of tax collected on that sale.",
+  "metaTitle": "What is a Tax Invoice? · Paper & Pen",
+  "metaDescription": "A tax invoice is a legal document showing the tax collected on a sale, allowing a registered buyer to reclaim input tax from their local tax authority.",
+  "definition": "When you sell taxable goods or services, your government requires you to issue a tax invoice. This document serves as the official record of the transaction and the tax collected. For your buyer, this document is essential. They need a valid tax invoice to reclaim the input tax they paid on their business purchases. To be valid, the document generally must carry specific elements. These usually include the phrase \"Tax Invoice\", a unique sequential number, the date of issue, your tax identification number, the buyer's tax identification number, a clear description of the items, the net amount, the tax amount, and the gross total. However, you must check your local regulations, because the exact list of mandatory details is set by each country's tax authority.",
+  "how": {
+    "title": "How Tax invoice works",
+    "body": "The process begins when you supply taxable goods or services to a customer. You calculate the net value of the sale and apply the appropriate tax rate required by your jurisdiction. Next, you generate the tax invoice containing all locally mandated details, including both parties' tax registration numbers. You then issue this document to your customer within the time frame specified by your local tax authority. Your customer keeps this document in their accounting records to support their claim for input tax recovery during their next filing period. Meanwhile, you record the tax collected as output tax in your general ledger. Finally, you report and remit this collected tax to the government when you file your own tax return.",
+    "items": [
+      "Determine the taxable value of the goods or services you are selling.",
+      "Apply the correct tax rate to calculate the exact tax amount due.",
+      "Generate a document containing all mandatory details required by your local tax authority.",
+      "Issue the completed document to your buyer within the legal time limit.",
+      "Record the collected tax as a liability in your accounting system.",
+      "Keep a copy of the document for your official statutory records."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Horizon Trading sells office furniture to a local marketing agency. The net price of the desks is 2,000. Horizon Trading operates in a jurisdiction with a 10 percent tax rate. To create the tax invoice, the accountant calculates the tax amount by multiplying 2,000 by 0.10, which equals 200. The tax invoice displays the net amount of 2,000, the tax amount of 200, and the gross total of 2,200. The marketing agency pays the full 2,200. Later, the agency uses this tax invoice to reclaim the 200 as input tax from the government."
+  },
+  "matters": "Issuing a compliant tax invoice is a strict legal requirement for registered businesses. If you omit mandatory details, your customer cannot reclaim their input tax. This damages your business relationship and often delays your payment. Furthermore, tax authorities routinely audit these documents. Failing to issue them correctly can result in severe financial penalties. Using proper software ensures you never miss a required field. Paper & Pen creates invoices, quotations and receipts, and Sales and Invoicing is free forever. Accurate documentation protects your cash flow, keeps your customers happy, and maintains your good standing with the government.",
+  "faqs": [
+    {
+      "q": "What is the difference between a tax invoice and a standard invoice?",
+      "a": "A standard invoice is a commercial request for payment that outlines the amount owed for goods or services. A tax invoice is a specific legal document issued by a tax-registered business that explicitly separates the tax amount from the net value. Buyers require the latter to claim input tax credits from the government."
+    },
+    {
+      "q": "Can I issue a tax invoice if I am not registered for tax?",
+      "a": "No, you cannot legally issue a tax invoice if you are not registered with your local tax authority. Unregistered businesses must issue standard commercial invoices without charging tax. Charging tax or issuing a document labelled as a tax invoice when unregistered is illegal and carries heavy financial penalties in almost all jurisdictions."
+    },
+    {
+      "q": "What should I do if I make a mistake on a tax invoice?",
+      "a": "You generally cannot delete or alter a tax invoice once it is issued to a customer. Instead, you must issue a credit note to cancel or reduce the original amount, and then issue a new, correct tax invoice. Both documents must reference each other to maintain a clear audit trail for the tax authority."
+    }
+  ],
+  "related": [
+    "value-added-tax",
+    "input-vat",
+    "output-vat",
+    "credit-note",
+    "e-invoicing"
+  ],
+  "seeAlso": [
+    {
+      "href": "/invoicing/invoices",
+      "label": "Invoices"
+    },
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    },
+    {
+      "href": "/tools/free-invoice-generator",
+      "label": "Free Invoice Generator"
+    }
+  ]
+}

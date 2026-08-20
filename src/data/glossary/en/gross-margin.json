@@ -1,0 +1,56 @@
+{
+  "slug": "gross-margin",
+  "term": "Gross margin",
+  "category": "metrics",
+  "short": "Gross margin is a financial metric that reveals the percentage of revenue remaining after subtracting the direct costs of producing the goods or services sold by a business.",
+  "metaTitle": "What is Gross Margin? · Paper & Pen",
+  "metaDescription": "Learn how to calculate gross margin to measure business profitability. Understand the difference between margin and markup for accurate financial tracking.",
+  "definition": "Gross margin measures the financial health of your core business operations. It tells you how much profit you keep from each sale before paying for overhead expenses like rent, marketing, and administrative salaries. You calculate it by taking your total revenue and deducting the cost of goods sold (COGS).\n\nIt is critical to distinguish gross margin from markup. Margin is the profit expressed as a percentage of the selling price, while markup is the profit expressed as a percentage of the cost. If you buy a product for 80 dollars and sell it for 100 dollars, your profit is 20 dollars. Your gross margin is 20 percent (20 divided by 100). However, your markup is 25 percent (20 divided by 80). Confusing these two terms can lead to serious pricing errors and lower profits than you intended.",
+  "how": {
+    "title": "How Gross margin works",
+    "body": "To determine your gross margin, you must first identify the exact timeframe you want to measure, such as a specific month or financial quarter. Next, you calculate your total sales revenue for that period, excluding any sales taxes or discounts. Then, you add up all the direct costs associated with producing or buying those goods, known as the cost of goods sold. This includes raw materials, direct labour, and freight costs, but excludes indirect operating expenses. You subtract these direct costs from your total revenue to find your gross profit. Finally, you divide that gross profit by your total revenue and multiply by 100 to express the result as a percentage. This final percentage represents your gross margin.",
+    "items": [
+      "Select a specific accounting period to measure your sales and direct costs.",
+      "Calculate total sales revenue while excluding any discounts and collected sales taxes.",
+      "Identify all direct costs of goods sold, including raw materials and direct labour.",
+      "Subtract the direct costs from your total revenue to find your gross profit.",
+      "Divide the gross profit by total revenue and multiply by 100 for the percentage."
+    ]
+  },
+  "formula": {
+    "label": "Gross margin formula",
+    "expr": "((Total Revenue - Cost of Goods Sold) / Total Revenue) x 100",
+    "note": "A higher percentage indicates that you retain more capital from each sale to cover indirect expenses and generate net profit."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Al Noor Trading sells imported electronics. In the first quarter, the company generated 50,000 dollars in total revenue. The cost of purchasing these electronics from suppliers, including freight and direct customs duties, amounted to 35,000 dollars. To find the gross profit, Al Noor Trading subtracts 35,000 dollars from 50,000 dollars, leaving 15,000 dollars. To calculate the gross margin, the owner divides the 15,000 dollar gross profit by the 50,000 dollar total revenue, which equals 0.30. Finally, multiplying 0.30 by 100 gives a gross margin of 30 percent. This means Al Noor Trading keeps 30 cents of every dollar earned to cover operating expenses."
+  },
+  "matters": "Monitoring your gross margin is essential for setting sustainable prices and evaluating your business model. If your margin is too low, you will struggle to pay for fixed overheads like rent and salaries, eventually leading to cash flow problems. A shrinking margin often signals that supplier costs are rising faster than your retail prices, prompting you to renegotiate with vendors or increase your rates. Paper & Pen tracks stock and posts journal entries, helping you maintain accurate cost records. By keeping a close eye on this metric, you can identify which product lines are the most lucrative and focus your marketing efforts on selling them.",
+  "faqs": [
+    {
+      "q": "What is a good gross margin for a small business?",
+      "a": "There is no single ideal percentage, as acceptable margins vary heavily by industry and business model. Businesses selling high-volume goods often operate on lower margins, while those selling specialised items require higher margins to cover lower sales volumes. You should compare your current margin against your own historical performance to gauge your financial progress."
+    },
+    {
+      "q": "Can a business have a negative gross margin?",
+      "a": "Yes, a negative gross margin occurs when the direct costs of producing or acquiring goods exceed the revenue generated from selling them. This usually happens if a business offers steep discounts to clear obsolete inventory or if raw material prices spike unexpectedly. Operating with a negative margin means you lose money on every single sale before even paying overheads."
+    }
+  ],
+  "related": [
+    "cost-of-goods-sold",
+    "net-profit-margin",
+    "profit-and-loss-statement",
+    "inventory-turnover"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/reports",
+      "label": "Financial reports"
+    },
+    {
+      "href": "/features/inventory",
+      "label": "Inventory tracking"
+    }
+  ]
+}

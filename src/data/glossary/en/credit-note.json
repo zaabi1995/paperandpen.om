@@ -1,0 +1,52 @@
+{
+  "slug": "credit-note",
+  "term": "Credit note",
+  "abbr": "CN",
+  "category": "invoicing",
+  "short": "A credit note is a commercial document issued by a seller to a buyer, reducing or cancelling the amount owed on a previously issued invoice due to errors, returns, or damages.",
+  "metaTitle": "What is a Credit Note? · Paper & Pen",
+  "metaDescription": "Learn what a credit note is, when to issue one instead of a refund, and how it keeps your accounting records and invoice sequences legally compliant.",
+  "definition": "When you overcharge a customer, send damaged goods, or accept a return, you must correct the original bill. You do this by issuing a credit note, which acts as a negative invoice. It is crucial to understand when to use a credit note versus a refund or deleting an invoice. You issue a refund when you actually return cash to the customer's bank account. You issue a credit note to reduce their outstanding balance or keep a credit on file for future purchases. You should never simply delete a posted invoice. Deleting an invoice breaks your continuous numbering sequence, which tax authorities require to verify that no sales are hidden. A credit note creates a clear, legal audit trail that reverses the revenue and the associated tax without tampering with historical records.",
+  "how": {
+    "title": "How Credit note works",
+    "body": "The process begins after an invoice is issued and a discrepancy is found. First, the buyer notifies the seller of an issue, such as missing items or an incorrect price. The seller verifies the claim and approves the adjustment. Next, the seller generates the credit note, linking it directly to the original invoice number. This document details the exact items, quantities, and amounts being reversed, including any applicable taxes. Once issued, the seller sends the credit note to the buyer. In the accounting ledger, this transaction decreases the buyer's accounts receivable balance and reduces the seller's recorded revenue. If the buyer has not yet paid the original invoice, they simply pay the reduced net amount. If they already paid in full, the credit remains on their account for a future transaction.",
+    "items": [
+      "Identify the error, return, or damage on a previously issued and posted invoice.",
+      "Create a credit note document linked directly to the original invoice number.",
+      "Itemise the exact goods or services being credited, including the reversed tax amounts.",
+      "Send the document to the buyer to confirm the reduction in their payable balance.",
+      "Apply the credit against the open invoice or hold it for future purchases."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading Supplies issues an invoice to a client for 10 office chairs at $100 each, totalling $1,000. Upon delivery, the client discovers that two chairs are damaged and returns them. Instead of deleting the original invoice, Gulf Trading Supplies issues a credit note for the two damaged chairs. The credit note lists 2 chairs at $100 each, totalling $200. This $200 credit note is applied against the original $1,000 invoice. The client now owes a remaining balance of $800. The seller's accounting records correctly show $1,000 in gross sales, a $200 sales return, and $800 in net revenue."
+  },
+  "matters": "Issuing credit notes correctly protects your business during an audit. Tax authorities look for gaps in your invoice numbering sequence to find unreported income. By using credit notes instead of deleting invoices, you maintain a compliant, unbroken audit trail. This practice also ensures you do not overpay on taxes, as the credit note formally reduces your output tax liability. For your clients, it provides clear documentation of their updated balances, preventing payment disputes. Paper & Pen creates invoices, quotations and receipts. Managing these adjustments properly keeps your accounts receivable accurate and your customer relationships strong.",
+  "faqs": [
+    {
+      "q": "Can I issue a credit note for an invoice from a previous financial year?",
+      "a": "Yes, you can issue a credit note for a transaction that occurred in a previous financial year. The credit note will be recorded in the current period, reducing your current revenue and tax liability. You must clearly reference the original invoice number and date on the new document to ensure your accountant can track the adjustment correctly."
+    },
+    {
+      "q": "What is the difference between a credit note and a debit note?",
+      "a": "A seller issues a credit note to reduce the amount a buyer owes, effectively decreasing the buyer's debt. Conversely, a seller issues a debit note to increase the amount the buyer owes, usually because the original invoice was undercharged. Both documents serve to correct errors without altering the original, finalised invoice."
+    }
+  ],
+  "related": [
+    "invoice",
+    "debit-note",
+    "accounts-receivable",
+    "output-vat"
+  ],
+  "seeAlso": [
+    {
+      "href": "/invoicing/credit-notes",
+      "label": "Create credit notes"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Manage invoices"
+    }
+  ]
+}

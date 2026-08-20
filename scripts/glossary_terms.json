@@ -1,0 +1,434 @@
+[
+ {
+  "slug": "invoice",
+  "term": "Invoice",
+  "category": "invoicing",
+  "extra": "Cover what makes an invoice legally usable as a record: the required elements, sequential numbering, and the difference between an invoice and a receipt."
+ },
+ {
+  "slug": "tax-invoice",
+  "term": "Tax invoice",
+  "category": "tax",
+  "extra": "Explain the elements a tax invoice generally must carry for a buyer to reclaim input tax, and say clearly that the exact list is set by each country. Do not name a rate."
+ },
+ {
+  "slug": "proforma-invoice",
+  "term": "Proforma invoice",
+  "category": "invoicing",
+  "extra": "The key point is that a proforma is NOT a demand for payment and does not create a tax point or a receivable. Contrast it with a quotation and a real invoice."
+ },
+ {
+  "slug": "credit-note",
+  "term": "Credit note",
+  "category": "invoicing",
+  "extra": "Explain when a credit note is correct versus a refund versus deleting an invoice, and why deleting a posted invoice breaks a numbering sequence."
+ },
+ {
+  "slug": "debit-note",
+  "term": "Debit note",
+  "category": "invoicing",
+  "extra": "Distinguish clearly from a credit note, including who issues which and in which direction the balance moves."
+ },
+ {
+  "slug": "purchase-order",
+  "term": "Purchase order",
+  "category": "invoicing",
+  "extra": "Cover the PO as a buyer-issued commitment and the three-way match against the goods receipt and the supplier invoice."
+ },
+ {
+  "slug": "sales-order",
+  "term": "Sales order",
+  "category": "invoicing",
+  "extra": "Cover the sales order as the seller-side mirror of the PO and its place between quotation and delivery note."
+ },
+ {
+  "slug": "delivery-note",
+  "term": "Delivery note",
+  "category": "invoicing",
+  "extra": "Cover proof of delivery, why it carries quantities but usually no prices, and the signed copy as evidence in a dispute."
+ },
+ {
+  "slug": "quotation",
+  "term": "Quotation",
+  "category": "invoicing",
+  "extra": "Cover validity periods and the point at which a quotation becomes binding on acceptance. Contrast with an estimate."
+ },
+ {
+  "slug": "estimate",
+  "term": "Estimate",
+  "category": "invoicing",
+  "extra": "The whole value of this page is the estimate versus quotation distinction: an estimate is an approximation, a quotation is a firm offer. Make that unmistakable."
+ },
+ {
+  "slug": "payment-receipt",
+  "term": "Payment receipt",
+  "category": "invoicing",
+  "extra": "Contrast an invoice (a request for payment) with a receipt (evidence payment happened)."
+ },
+ {
+  "slug": "remittance-advice",
+  "term": "Remittance advice",
+  "category": "invoicing",
+  "extra": "Explain how it tells a supplier which invoices a lump-sum payment settles, and why its absence causes unallocated cash."
+ },
+ {
+  "slug": "statement-of-account",
+  "term": "Statement of account",
+  "category": "invoicing",
+  "extra": "Distinguish an open-item statement from a balance-forward statement."
+ },
+ {
+  "slug": "payment-terms",
+  "term": "Payment terms",
+  "category": "invoicing",
+  "extra": "Cover common terms, early-settlement discounts, and how terms shape cash flow."
+ },
+ {
+  "slug": "net-30",
+  "term": "Net 30",
+  "category": "invoicing",
+  "extra": "Explain the counting convention (from invoice date or from month end), and 2/10 net 30 style discount notation."
+ },
+ {
+  "slug": "invoice-number",
+  "term": "Invoice number",
+  "category": "invoicing",
+  "extra": "Cover sequential numbering, why gaps are a problem for an auditor, and prefix and series schemes."
+ },
+ {
+  "slug": "recurring-invoice",
+  "term": "Recurring invoice",
+  "category": "invoicing"
+ },
+ {
+  "slug": "retainer-invoice",
+  "term": "Retainer invoice",
+  "category": "invoicing",
+  "extra": "Explain that an unearned retainer is a liability, not revenue, until the work is done."
+ },
+ {
+  "slug": "accounts-receivable",
+  "term": "Accounts receivable",
+  "category": "accounting"
+ },
+ {
+  "slug": "accounts-payable",
+  "term": "Accounts payable",
+  "category": "accounting"
+ },
+ {
+  "slug": "general-ledger",
+  "term": "General ledger",
+  "category": "accounting"
+ },
+ {
+  "slug": "journal-entry",
+  "term": "Journal entry",
+  "category": "accounting",
+  "extra": "Show a real balanced entry with debits and credits on the correct sides and equal totals."
+ },
+ {
+  "slug": "trial-balance",
+  "term": "Trial balance",
+  "category": "accounting",
+  "extra": "Your worked example must actually balance, and you must say plainly that a balanced trial balance does not prove the books are correct."
+ },
+ {
+  "slug": "chart-of-accounts",
+  "term": "Chart of accounts",
+  "category": "accounting"
+ },
+ {
+  "slug": "double-entry-bookkeeping",
+  "term": "Double-entry bookkeeping",
+  "category": "accounting",
+  "extra": "State the accounting equation correctly and show one transaction hitting two accounts."
+ },
+ {
+  "slug": "accrual-accounting",
+  "term": "Accrual accounting",
+  "category": "accounting",
+  "extra": "Use the SAME transaction as the cash-basis page so the two pages teach each other by contrast."
+ },
+ {
+  "slug": "cash-basis-accounting",
+  "term": "Cash basis accounting",
+  "category": "accounting",
+  "extra": "Use the SAME transaction as the accrual page so the two pages teach each other by contrast."
+ },
+ {
+  "slug": "balance-sheet",
+  "term": "Balance sheet",
+  "category": "accounting",
+  "extra": "Your example must balance: assets equal liabilities plus equity."
+ },
+ {
+  "slug": "profit-and-loss-statement",
+  "term": "Profit and loss statement",
+  "category": "accounting"
+ },
+ {
+  "slug": "cash-flow-statement",
+  "term": "Cash flow statement",
+  "category": "accounting",
+  "extra": "Explain the three sections and why a profitable business can still run out of cash."
+ },
+ {
+  "slug": "retained-earnings",
+  "term": "Retained earnings",
+  "category": "accounting"
+ },
+ {
+  "slug": "working-capital",
+  "term": "Working capital",
+  "category": "accounting"
+ },
+ {
+  "slug": "bank-reconciliation",
+  "term": "Bank reconciliation",
+  "category": "accounting",
+  "extra": "Cover timing differences: outstanding cheques, deposits in transit, bank charges not yet booked."
+ },
+ {
+  "slug": "petty-cash",
+  "term": "Petty cash",
+  "category": "accounting",
+  "extra": "Cover the imprest system."
+ },
+ {
+  "slug": "aging-report",
+  "term": "Aging report",
+  "category": "accounting"
+ },
+ {
+  "slug": "dunning",
+  "term": "Dunning",
+  "category": "accounting"
+ },
+ {
+  "slug": "bad-debt",
+  "term": "Bad debt",
+  "category": "accounting",
+  "extra": "Distinguish a provision (an estimate) from a write-off (a specific decision)."
+ },
+ {
+  "slug": "write-off",
+  "term": "Write-off",
+  "category": "accounting"
+ },
+ {
+  "slug": "credit-limit",
+  "term": "Credit limit",
+  "category": "accounting"
+ },
+ {
+  "slug": "value-added-tax",
+  "term": "Value added tax",
+  "category": "tax",
+  "extra": "Explain VAT as a tax on value added collected in stages, and be explicit that rates and thresholds are set by each country."
+ },
+ {
+  "slug": "input-vat",
+  "term": "Input VAT",
+  "category": "tax"
+ },
+ {
+  "slug": "output-vat",
+  "term": "Output VAT",
+  "category": "tax"
+ },
+ {
+  "slug": "taxable-supply",
+  "term": "Taxable supply",
+  "category": "tax"
+ },
+ {
+  "slug": "zero-rated-supply",
+  "term": "Zero-rated supply",
+  "category": "tax",
+  "extra": "This page and the exempt-supply page are the most valuable pair in the glossary. The decisive point is that a zero-rated supplier CAN recover input VAT and an exempt supplier CANNOT. Make that the spine of the page."
+ },
+ {
+  "slug": "exempt-supply",
+  "term": "Exempt supply",
+  "category": "tax",
+  "extra": "This page and the zero-rated-supply page are a pair. The decisive point is that an exempt supplier CANNOT recover input VAT, so the tax becomes a real cost. Make that the spine of the page."
+ },
+ {
+  "slug": "reverse-charge",
+  "term": "Reverse charge",
+  "category": "tax",
+  "extra": "Explain that the buyer self-accounts for the tax, and why the entry is often net-nil for a fully taxable buyer but not for an exempt one."
+ },
+ {
+  "slug": "vat-return",
+  "term": "VAT return",
+  "category": "tax",
+  "extra": "Explain output minus input and the payable or refundable outcome. Never name a filing frequency or deadline for any country."
+ },
+ {
+  "slug": "e-invoicing",
+  "term": "E-invoicing",
+  "category": "tax",
+  "extra": "Explain structured formats and clearance versus post-audit models. You may name schemes as institutions but attach NO dates."
+ },
+ {
+  "slug": "withholding-tax",
+  "term": "Withholding tax",
+  "category": "tax"
+ },
+ {
+  "slug": "tax-identification-number",
+  "term": "Tax identification number",
+  "category": "tax",
+  "extra": "Cover the various national names for it and why it must appear on a tax invoice."
+ },
+ {
+  "slug": "place-of-supply",
+  "term": "Place of supply",
+  "category": "tax"
+ },
+ {
+  "slug": "tax-point",
+  "term": "Tax point",
+  "category": "tax",
+  "extra": "Explain the time of supply and why it decides which return period a transaction falls in."
+ },
+ {
+  "slug": "self-billing",
+  "term": "Self-billing",
+  "category": "tax"
+ },
+ {
+  "slug": "corporate-income-tax",
+  "term": "Corporate income tax",
+  "category": "tax"
+ },
+ {
+  "slug": "customs-duty",
+  "term": "Customs duty",
+  "category": "tax",
+  "extra": "Cover HS codes and the customs value as the basis. No country rates."
+ },
+ {
+  "slug": "excise-tax",
+  "term": "Excise tax",
+  "category": "tax"
+ },
+ {
+  "slug": "cost-of-goods-sold",
+  "term": "Cost of goods sold",
+  "category": "metrics",
+  "extra": "Formula: opening stock plus purchases minus closing stock. Worked example must reconcile."
+ },
+ {
+  "slug": "gross-margin",
+  "term": "Gross margin",
+  "category": "metrics",
+  "extra": "Distinguish margin from markup explicitly, with the same numbers computed both ways."
+ },
+ {
+  "slug": "net-profit-margin",
+  "term": "Net profit margin",
+  "category": "metrics"
+ },
+ {
+  "slug": "ebitda",
+  "term": "EBITDA",
+  "category": "metrics",
+  "extra": "Explain what it deliberately excludes, why that is useful, and the standard criticism of it."
+ },
+ {
+  "slug": "break-even-point",
+  "term": "Break-even point",
+  "category": "metrics",
+  "extra": "Use the contribution-margin method and verify the arithmetic."
+ },
+ {
+  "slug": "current-ratio",
+  "term": "Current ratio",
+  "category": "metrics"
+ },
+ {
+  "slug": "days-sales-outstanding",
+  "term": "Days sales outstanding",
+  "category": "metrics"
+ },
+ {
+  "slug": "overheads",
+  "term": "Overheads",
+  "category": "metrics"
+ },
+ {
+  "slug": "depreciation",
+  "term": "Depreciation",
+  "category": "metrics",
+  "extra": "Tangible assets. Show straight-line with correct arithmetic and cross-reference amortisation."
+ },
+ {
+  "slug": "amortisation",
+  "term": "Amortisation",
+  "category": "metrics",
+  "extra": "Intangible assets, and note the separate loan-amortisation meaning. Cross-reference depreciation."
+ },
+ {
+  "slug": "inventory-turnover",
+  "term": "Inventory turnover",
+  "category": "metrics"
+ },
+ {
+  "slug": "sku",
+  "term": "SKU",
+  "category": "inventory"
+ },
+ {
+  "slug": "fifo",
+  "term": "FIFO",
+  "category": "inventory",
+  "extra": "Show a real cost-layer walk: two purchase lots at different unit costs, a sale consuming part of both, and the resulting COGS and closing stock value, reconciling to the total purchase cost. Cross-reference weighted-average-cost."
+ },
+ {
+  "slug": "weighted-average-cost",
+  "term": "Weighted average cost",
+  "category": "inventory",
+  "extra": "Use the SAME two lots and the same sale as the FIFO page so the two pages teach each other by contrast. Verify the arithmetic."
+ },
+ {
+  "slug": "reorder-point",
+  "term": "Reorder point",
+  "category": "inventory",
+  "extra": "Formula: average daily usage x lead time in days, plus safety stock."
+ },
+ {
+  "slug": "safety-stock",
+  "term": "Safety stock",
+  "category": "inventory"
+ },
+ {
+  "slug": "stock-take",
+  "term": "Stock take",
+  "category": "inventory",
+  "extra": "Cover periodic versus cycle counting and what a variance means."
+ },
+ {
+  "slug": "landed-cost",
+  "term": "Landed cost",
+  "category": "inventory",
+  "extra": "Freight, insurance, duty and clearing as cost components, and why omitting them understates COGS. No country duty rates."
+ },
+ {
+  "slug": "bill-of-materials",
+  "term": "Bill of materials",
+  "category": "inventory"
+ },
+ {
+  "slug": "work-order",
+  "term": "Work order",
+  "category": "inventory"
+ },
+ {
+  "slug": "backorder",
+  "term": "Backorder",
+  "category": "inventory"
+ }
+]

@@ -52,7 +52,7 @@ const related = (data.related || []).map((href: string) => {
   const seg = href.split('/').filter(Boolean).pop() || '';
   return { href, title: seg.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase()) };
 });
-const crumbs = [{ name: 'Home', url: '/' }, { name: t('nav.tools'), url: '/tools' }, { name: data.title, url: path }];
+const crumbs = [{ name: t('nav.home'), url: '/' }, { name: t('nav.tools'), url: '/tools' }, { name: data.title, url: path }];
 
 const sections = data.sections || [];
 
@@ -68,7 +68,7 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
 ---
 
 <BaseLayout {locale} {path} title={data.metaTitle} description={data.metaDescription} keywords={data.keywords} {jsonld}>
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('nav.tools'), href: '/tools' }, { name: data.title }]} />
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('nav.tools'), href: '/tools' }, { name: data.title }]} />
 
   {/* Fold: centred serif title on cream, then the tool itself. */}
   <section class="band band-paper pt-10 pb-16 md:pt-14 md:pb-20">

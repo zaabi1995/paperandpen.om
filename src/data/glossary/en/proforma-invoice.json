@@ -1,0 +1,55 @@
+{
+  "slug": "proforma-invoice",
+  "term": "Proforma invoice",
+  "category": "invoicing",
+  "short": "A proforma invoice is a preliminary bill sent to buyers in advance of a shipment or service, detailing the estimated costs without creating a legal demand for payment or an accounting receivable.",
+  "metaTitle": "What is a Proforma Invoice? · Paper & Pen",
+  "metaDescription": "Learn what a proforma invoice is, how it differs from a standard tax invoice, and why businesses use it to request advance payments or clear customs.",
+  "definition": "A proforma invoice acts as a good faith agreement between you and your customer. It looks exactly like a standard invoice, outlining the goods or services, quantities, and prices you plan to deliver. However, it is not a formal demand for payment and does not create an accounts receivable entry in your general ledger. Because it is preliminary, issuing a proforma invoice does not trigger a tax point for value-added tax (VAT). You will still need to issue a final tax invoice once the sale is complete or when payment is received, depending on the rules set by your local tax authority. While a quotation is an initial offer that a customer might negotiate, a proforma invoice is typically issued after the buyer agrees to the terms but before the final details are locked in.",
+  "how": {
+    "title": "How Proforma invoice works",
+    "body": "The process begins when a customer accepts your initial quotation and places an order. Before you ship the goods or start the work, you generate a proforma invoice to confirm the exact details of the transaction. You send this document to the buyer, who uses it to arrange internal purchase approvals, secure a letter of credit, or process an advance payment. If the goods are crossing borders, the buyer may also use it to clear customs or calculate import duties. Once the goods are delivered or the service is completed, you issue a final tax invoice. The final invoice replaces the proforma and officially records the revenue in your accounting system.",
+    "items": [
+      "The buyer confirms their intent to purchase goods or services.",
+      "You issue a proforma invoice detailing the expected costs and quantities.",
+      "The buyer uses the document to secure funding or arrange customs clearance.",
+      "The buyer pays an advance deposit based on the proforma total.",
+      "You deliver the agreed items and issue a final tax invoice."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Traders LLC agrees to supply 50 office chairs to a corporate client at 40 OMR each. Before shipping, Gulf Traders issues a proforma invoice for 2,000 OMR (50 chairs multiplied by 40 OMR). The document notes a 25 percent advance payment requirement. The client uses the proforma to get internal approval and pays the 500 OMR deposit (2,000 OMR multiplied by 0.25). Gulf Traders then delivers the chairs and issues a final tax invoice for the full 2,000 OMR. The final invoice records the revenue and credits the 500 OMR already paid, leaving a balance of 1,500 OMR."
+  },
+  "matters": "Using proforma invoices protects your cash flow and prevents accounting errors. By requiring an advance payment based on a proforma, you reduce the risk of non-payment before committing resources to a large order. Furthermore, because a proforma does not register as a sale, you avoid paying VAT on transactions that might fall through or change in scope. If the final order quantity changes, you simply issue the final tax invoice for the exact amount delivered. Paper & Pen creates invoices, quotations and receipts, allowing you to easily convert a quotation into a proforma and then into a final bill.",
+  "faqs": [
+    {
+      "q": "Can I use a proforma invoice to claim VAT?",
+      "a": "No, a buyer cannot use a proforma invoice to reclaim input VAT. Tax authorities require a valid tax invoice to support any VAT claims. The proforma is strictly an informational document used for planning, customs, or advance payments. Once the supplier issues the final tax invoice, the buyer can use that official document for their tax return."
+    },
+    {
+      "q": "What is the difference between a quotation and a proforma invoice?",
+      "a": "A quotation is a preliminary offer sent during the negotiation phase to win business. It shows estimated prices and is subject to change. A proforma invoice is issued after the customer has agreed to the purchase but before the final delivery. It represents a binding commitment to supply the goods at the stated prices, provided the buyer meets the payment terms."
+    },
+    {
+      "q": "Do I assign an invoice number to a proforma?",
+      "a": "You should give a proforma invoice a unique reference number, but it must not use the same sequential numbering system as your official tax invoices. Mixing them can create gaps in your tax records if a proforma is cancelled. Most businesses use a distinct prefix, such as PRO-1001, to keep these preliminary documents separate from their actual accounting ledgers."
+    }
+  ],
+  "related": [
+    "quotation",
+    "tax-invoice",
+    "sales-order",
+    "purchase-order"
+  ],
+  "seeAlso": [
+    {
+      "href": "/invoicing/proforma-invoices",
+      "label": "Proforma Invoices"
+    },
+    {
+      "href": "/tools/free-proforma-invoice-generator",
+      "label": "Free Proforma Generator"
+    }
+  ]
+}

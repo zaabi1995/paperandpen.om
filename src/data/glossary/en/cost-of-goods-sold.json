@@ -1,0 +1,61 @@
+{
+  "slug": "cost-of-goods-sold",
+  "term": "Cost of goods sold",
+  "abbr": "COGS",
+  "category": "metrics",
+  "short": "Cost of goods sold is the total direct expense incurred to produce or purchase the items that a business successfully sells during a specific accounting period.",
+  "metaTitle": "Cost of goods sold · Paper & Pen",
+  "metaDescription": "Learn what cost of goods sold is, how to calculate it, and why tracking direct expenses is vital for measuring your gross profit and pricing correctly.",
+  "definition": "Cost of goods sold represents the direct costs tied to producing or acquiring the goods your business sells. This figure includes the cost of raw materials, parts, wholesale purchases, and the direct labour required to make the product ready for sale. It strictly excludes indirect expenses like rent, marketing, or administrative salaries.\n\nWhen you make a sale, you recognise this cost on your profit and loss statement, matching the expense to the revenue it generated. By isolating these direct expenses, you can see exactly how much it costs to deliver your core product. This metric is the foundation for understanding your gross margin. If your direct costs rise but your selling prices remain static, your profitability shrinks, making this an essential figure to monitor closely.",
+  "how": {
+    "title": "How Cost of goods sold works",
+    "body": "Calculating this metric requires tracking inventory values at the beginning and end of your accounting period. First, you determine the value of the stock you hold when the period starts. Next, you add all inventory purchases and direct production costs incurred during that same period. This combined figure represents the total goods available for sale.\n\nAt the end of the period, you perform a stock take to find the value of the unsold inventory. Finally, you subtract this closing stock value from the total goods available. The resulting number is the cost of the goods that actually left your warehouse and went to customers. This matching process ensures you only record expenses for items that generated revenue.",
+    "items": [
+      "Record the total value of your opening stock at the start of the period.",
+      "Add the cost of all new inventory purchases made during the accounting period.",
+      "Include any direct labour and freight costs required to bring goods to your warehouse.",
+      "Count and value your remaining unsold inventory at the end of the period.",
+      "Subtract the closing stock value to determine the final cost of goods sold."
+    ]
+  },
+  "formula": {
+    "label": "Cost of goods sold formula",
+    "expr": "Opening Stock + Purchases - Closing Stock",
+    "note": "This result shows the direct cost of items sold. Subtract this figure from your total sales revenue to find your gross profit."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Traders LLC starts the month with 10,000 in opening stock. During the month, they purchase an additional 15,000 worth of inventory and pay 2,000 in direct freight charges. This makes their total goods available for sale 27,000 (10,000 plus 15,000 plus 2,000).\n\nAt the end of the month, a stock take reveals they have 8,000 of inventory remaining. To find the cost of goods sold, they subtract the 8,000 closing stock from the 27,000 total available. Their cost of goods sold for the month is 19,000."
+  },
+  "matters": "Understanding your direct costs is critical for setting profitable prices and managing cash flow. If this figure creeps up due to supplier price hikes or inefficient labour, your gross profit drops immediately. Owners must monitor this metric to know when to negotiate better rates with vendors or increase retail prices. Accurate inventory tracking prevents you from understating these costs and paying unnecessary corporate income tax. Paper & Pen tracks stock and posts journal entries to help you keep these direct costs organised. Maintaining a clear view of these expenses ensures your core business model remains viable.",
+  "faqs": [
+    {
+      "q": "Does cost of goods sold include marketing expenses?",
+      "a": "No, it only includes direct costs tied to acquiring or producing the items you sell. Marketing, rent, and office salaries are operating expenses, not direct costs. Including them in this calculation will distort your gross margin and make it difficult to evaluate the true profitability of your products."
+    },
+    {
+      "q": "How does a service business calculate this metric?",
+      "a": "Service businesses usually refer to this as the cost of sales or cost of services. Instead of physical inventory, they calculate the direct labour hours, subcontractor fees, and specific materials used to deliver a service to a client. General overheads are still excluded from this calculation."
+    },
+    {
+      "q": "Why is an accurate stock take so important?",
+      "a": "The value of your closing stock directly impacts your profit calculation. If you overstate your remaining inventory, your direct costs will appear lower, which artificially inflates your taxable profit. Counting your physical inventory accurately ensures your financial statements reflect reality and prevents you from paying tax on phantom profits."
+    }
+  ],
+  "related": [
+    "gross-margin",
+    "profit-and-loss-statement",
+    "inventory-turnover",
+    "stock-take"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory tracking"
+    },
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "inventory-turnover",
+  "term": "Inventory turnover",
+  "category": "metrics",
+  "short": "Inventory turnover is a financial metric that measures how many times a business has sold and replaced its total stock of goods over a specific period, usually a year.",
+  "metaTitle": "Inventory Turnover Defined · Paper & Pen",
+  "metaDescription": "Learn how inventory turnover measures the rate at which your business sells and replaces stock, helping you optimise purchasing and improve cash flow.",
+  "definition": "Inventory turnover shows the number of times you sell and replace your entire stock of goods during a given period. When you buy products to sell, that stock ties up your cash. By calculating this metric, you can see exactly how efficiently your business converts those goods into sales. A higher rate generally indicates strong sales or effective purchasing, meaning you are not holding onto excess stock for too long. Conversely, a lower rate suggests weak sales or overstocking, which can lead to storage problems and obsolete goods. Whether you run a retail shop in Dubai or a wholesale business in Mumbai, monitoring this figure helps you balance your purchasing decisions. It ensures you have enough goods to meet customer demand without tying up capital unnecessarily.",
+  "how": {
+    "title": "How Inventory turnover works",
+    "body": "To determine your inventory turnover, you must first calculate two underlying figures for your chosen period. You begin by finding your cost of goods sold, which represents the direct costs of purchasing or manufacturing the items you actually sold. Next, you determine your average inventory value. You do this by adding your beginning stock value to your ending stock value, then dividing that sum by two. This average smooths out seasonal fluctuations in your stock levels. Finally, you divide the cost of goods sold by the average inventory. The resulting number tells you how many cycles of stock replenishment you completed. Tracking this process regularly allows you to spot slow-moving items and adjust your future purchase orders accordingly.",
+    "items": [
+      "Select a specific time period to measure, such as a month or a full year.",
+      "Calculate your total cost of goods sold for that exact period.",
+      "Determine your starting inventory value at the beginning of the period.",
+      "Find your ending inventory value at the close of the period.",
+      "Divide the sum of starting and ending inventory by two to find the average.",
+      "Divide the cost of goods sold by the average inventory to get your turnover rate."
+    ]
+  },
+  "formula": {
+    "label": "Inventory turnover ratio",
+    "expr": "Cost of goods sold / Average inventory",
+    "note": "A higher result means you sell through your stock quickly. A lower result indicates excess stock or slower sales."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Traders LLC wants to calculate its inventory turnover for the year. The company reports a cost of goods sold of 500,000 for the period. At the start of the year, their inventory was valued at 80,000. By the end of the year, their inventory value was 120,000. First, they calculate the average inventory by adding 80,000 and 120,000 to get 200,000, then dividing by two, which equals 100,000. Next, they divide the cost of goods sold (500,000) by the average inventory (100,000). The inventory turnover is 5. This means Gulf Traders LLC sold and replaced its entire stock five times during the year."
+  },
+  "matters": "Understanding your inventory turnover is vital for protecting your cash flow and maximising profitability. If your turnover is too low, your cash remains trapped in the warehouse. This increases storage costs and raises the risk of goods expiring or becoming outdated before you can sell them. On the other hand, an unusually high turnover might mean you are understocking and missing out on potential sales when customers want to buy immediately. Paper & Pen helps you monitor these movements automatically because it tracks stock and posts journal entries in real time. Striking the right balance ensures you always have enough working capital to cover your daily operating expenses.",
+  "faqs": [
+    {
+      "q": "What is a good inventory turnover ratio?",
+      "a": "There is no single perfect number, as the ideal rate depends entirely on your industry. A grocery store selling perishable items will naturally have a much higher turnover than a luxury car dealership. Generally, a ratio between four and six is healthy for most retail businesses, meaning they restock roughly every two to three months without running out of products."
+    },
+    {
+      "q": "How can I improve my inventory turnover?",
+      "a": "You can improve your rate by increasing your sales volume through targeted marketing or discounts on older stock. Alternatively, you can reduce your average inventory by ordering smaller quantities more frequently rather than buying in massive bulk. Reviewing your sales data helps you identify which products to reorder and which slow-moving items to drop from your catalogue."
+    }
+  ],
+  "related": [
+    "cost-of-goods-sold",
+    "working-capital",
+    "days-sales-outstanding",
+    "sku",
+    "reorder-point"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory tracking"
+    },
+    {
+      "href": "/industries/retail",
+      "label": "Retail software"
+    }
+  ]
+}

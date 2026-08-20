@@ -6,6 +6,7 @@ import CtaBand from '@/components/blocks/CtaBand.astro';
 import { useTranslations, type Locale } from '@/i18n';
 import { LOCALES, DEFAULT_LOCALE } from '@/i18n';
 import { graph, organization, breadcrumbList } from '@/lib/schema';
+import MdxLink from '@/components/blocks/MdxLink.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('blog');
@@ -29,11 +30,25 @@ export async function getStaticPaths() {
 const { entry, locale } = Astro.props as { entry: any; locale: Locale };
 const t = useTranslations(locale);
 const { Content } = await render(entry);
+
+/* Every internal link in the body is normalised to the reader's own locale and
+   given the site's trailing slash. See MdxLink. */
+const mdxComponents = { a: MdxLink };
+
+/*
+ * An article headline is already the specific, clickable part of a SERP line,
+ * and appending " · Paper & Pen" to a 60-character headline just pushes the
+ * end of the headline past the truncation point. The brand suffix is added
+ * only when there is room for it.
+ */
+const BRAND = ' · Paper & Pen';
+const pageTitle =
+  entry.data.title.length + BRAND.length <= 60 ? entry.data.title + BRAND : entry.data.title;
 const path = `/blog/${entry.data.slug}`;
 const jsonld = [
   graph(
     organization(),
-    breadcrumbList([{ name: 'Home', url: '/' }, { name: t('footer.blog'), url: '/blog' }, { name: entry.data.title, url: path }]),
+    breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.blog'), url: '/blog' }, { name: entry.data.title, url: path }]),
     {
       '@type': 'BlogPosting',
       headline: entry.data.title,
@@ -44,14 +59,14 @@ const jsonld = [
   ),
 ];
 ---
-<BaseLayout {locale} {path} title={`${entry.data.title} · Paper & Pen`} description={entry.data.description} {jsonld}>
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.blog'), href: '/blog' }, { name: entry.data.title }]} />
+<BaseLayout {locale} {path} title={pageTitle} description={entry.data.description} {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.blog'), href: '/blog' }, { name: entry.data.title }]} />
   <article class="section-pad bg-white">
     <div class="max-w-2xl mx-auto">
       <h1 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight mb-4">{entry.data.title}</h1>
       <p class="text-ink-400 text-sm mb-8">{entry.data.author}</p>
       <div class="prose-pp text-ink-500/80 leading-relaxed space-y-4">
-        <Content />
+        <Content components={mdxComponents} />
       </div>
     </div>
   </article>

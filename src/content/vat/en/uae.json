@@ -1,0 +1,152 @@
+{
+  "locale": "en",
+  "slug": "uae",
+  "order": 2,
+  "country": "United Arab Emirates",
+  "title": "VAT in the UAE",
+  "metaTitle": "VAT in the UAE: Rate, Thresholds, E-invoicing · Paper & Pen",
+  "metaDescription": "The UAE's 5% VAT rate, the AED 375,000 threshold, Article 59 invoice contents and the confirmed eInvoicing timetable, each cited to source.",
+  "keywords": "vat uae, uae vat rate, uae vat registration threshold, uae tax invoice requirements, uae e-invoicing 2027, federal tax authority",
+  "heroEyebrow": "United Arab Emirates",
+  "heroTitle": "Invoicing under the <em class=\"text-copper-400 not-italic\">UAE's VAT</em> rules",
+  "heroSubtitle": "The rate, the thresholds, the twelve items Article 59 requires on a tax invoice, and the eInvoicing dates the Ministry of Finance has actually published.",
+  "heroBullets": [
+    "5% standard rate",
+    "AED 375,000 to register",
+    "eInvoicing phased from 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Standard VAT rate",
+      "value": "5%",
+      "note": "Article 3 of Federal Decree-Law 8 of 2017 imposes a standard rate of 5% on any supply or import. In force since 1 January 2018.",
+      "source": 1
+    },
+    {
+      "label": "Mandatory registration threshold",
+      "value": "AED 375,000",
+      "note": "Article 7(1) of the Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Voluntary registration threshold",
+      "value": "AED 187,500",
+      "note": "Article 8(1) of the Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Simplified invoice ceiling",
+      "value": "AED 10,000",
+      "note": "A simplified tax invoice is permitted where the recipient is not registered, or is registered and the consideration does not exceed this amount.",
+      "source": 2
+    },
+    {
+      "label": "Currency on the invoice",
+      "value": "AED",
+      "note": "Tax amounts are shown in dirhams, and where the invoice is in another currency the exchange rate applied must appear.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Article 59(1) of the Executive Regulation lists what a full tax invoice must contain.",
+    "items": [
+      "The words \"Tax Invoice\", clearly displayed",
+      "Name, address and Tax Registration Number of the supplier",
+      "Name, address and TRN of the recipient, where the recipient is registered",
+      "A sequential or unique number that allows the invoice to be identified and ordered",
+      "The date of issue",
+      "The date of supply, where it differs from the date of issue",
+      "A description of the goods or services",
+      "For each item: unit price, quantity or volume, tax rate and amount payable in AED",
+      "The amount of any discount offered",
+      "The gross amount payable in AED",
+      "The tax amount charged in AED, with the exchange rate where converted from another currency",
+      "For a reverse-charge supply, a statement that the recipient must account for tax, and the provision relied on"
+    ],
+    "source": 2,
+    "caveat": "This is the Federal Tax Authority's consolidated publication of the Executive Regulation dated 4 October 2024. Commentators refer to a later amendment; we have not found it in an FTA-published text, so confirm the current wording with the FTA before relying on it."
+  },
+  "einvoicing": {
+    "status": "Mandatory and phased, pilot open",
+    "body": "The UAE eInvoicing System is a decentralised five-corner model in which invoices pass through Accredited Service Providers. The Ministry of Finance's own guidelines set the timetable: a pilot programme and voluntary adoption from 1 July 2026; businesses with revenue of AED 50 million or more implement from 1 January 2027; businesses below that threshold from 1 July 2027; government entities from 1 October 2027. The Ministry extended the first appointment deadline for an Accredited Service Provider from 31 July 2026 to 30 October 2026, leaving the January 2027 go-live unchanged, so the published guidelines PDF and the Ministry's news release disagree on that one date and the news release is the later word.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Getting it right",
+      "title": "What Article 59 catches people on",
+      "body": "The per-line requirement is the one most invoice templates fail. Article 59(1)(h) asks for unit price, quantity, tax rate and amount payable for each good or service, which means a single blended tax figure at the foot of the invoice is not enough when lines carry different treatments. The second is the recipient's TRN, required whenever the recipient is registered, and the third is the exchange rate: bill in dollars and you still have to show the tax in dirhams and the rate you used.",
+      "items": [
+        "Tax rate and amount per line, not just a total",
+        "Recipient's TRN whenever they are registered",
+        "Exchange rate shown on any non-AED invoice",
+        "Reverse-charge wording where it applies"
+      ]
+    },
+    {
+      "eyebrow": "Preparing",
+      "title": "What the 2027 dates actually ask of you",
+      "body": "The obligation is not to buy software with a logo on it, it is to be able to issue a structured invoice through an Accredited Service Provider on the date that applies to your revenue band. Work backwards from your band's implementation date rather than from the pilot: the appointment deadline for a service provider falls months before go-live, and it is the appointment, not the go-live, that most businesses miss. In the meantime the data you will need is the same data Article 59 already requires, which is a good reason to fix invoice quality now rather than during a migration.",
+      "items": [
+        "Know which revenue band you fall into",
+        "Diarise the service-provider appointment, not just go-live",
+        "Clean customer TRNs before the deadline, not during",
+        "Keep line-level tax detail from today"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the VAT rate in the UAE?",
+      "a": "Five percent. Article 3 of Federal Decree-Law 8 of 2017 imposes a standard rate of 5% on any taxable supply or import, in force since 1 January 2018. Certain supplies are zero-rated or exempt, and the difference matters: a zero-rated supplier can still recover input tax, an exempt one cannot."
+    },
+    {
+      "q": "When is e-invoicing mandatory in the UAE?",
+      "a": "It depends on your revenue. Under the Ministry of Finance's published guidelines, businesses with revenue of AED 50 million or more implement from 1 January 2027, businesses below that from 1 July 2027, and government entities from 1 October 2027. A pilot and voluntary adoption opened on 1 July 2026. Check the Ministry's pages before you plan around any date, because it has already amended one deadline."
+    },
+    {
+      "q": "When can I issue a simplified tax invoice in the UAE?",
+      "a": "Where the recipient is not registered for VAT, or is registered and the consideration does not exceed AED 10,000. A simplified invoice still needs the words \"Tax Invoice\", your name, address and TRN, the date of issue, a description of what was supplied, and the total consideration and tax amount in dirhams."
+    },
+    {
+      "q": "Do I need the customer's TRN on a UAE invoice?",
+      "a": "Yes, whenever the customer is registered for VAT. Article 59(1)(c) requires the recipient's name, address and Tax Registration Number in that case. Without it your customer may struggle to recover the input tax, which usually comes back to you as a request to reissue."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Invoice correctly in the UAE, free",
+  "ctaSub": "Line-level tax, any currency with the rate on the document, and an Arabic and English invoice from one record.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, Article 3 (consolidated, with amendments)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, Articles 7, 8 and 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, and the Ministry's amendment news release",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

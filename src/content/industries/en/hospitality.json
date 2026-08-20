@@ -1,0 +1,110 @@
+{
+  "locale": "en",
+  "slug": "hospitality",
+  "order": 17,
+  "title": "Hotels, Cafes & Hospitality",
+  "metaTitle": "Hospitality ERP & Accounting · Paper & Pen",
+  "metaDescription": "Manage daily cash-ups, supplier purchase orders, recipe costing, and staff payroll for your cafe or hotel with our free back-office accounting software.",
+  "keywords": "hospitality accounting software, cafe inventory management, hotel ERP system, recipe costing software, daily cash up ledger, restaurant payroll, supplier purchase orders",
+  "heroEyebrow": "Back-office hospitality software",
+  "heroTitle": "Control margins and <em class=\"text-copper-400 not-italic\">food costs</em> without the spreadsheets.",
+  "heroSubtitle": "Your point of sale handles the front of house. Paper & Pen handles the back office. Track daily cash-ups, calculate recipe portion costs, manage supplier purchase orders, and run your payroll in one system.",
+  "heroBullets": [
+    "Track daily covers and revenue",
+    "Cost recipes with bills of materials",
+    "Reconcile supplier deliveries against orders"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Daily cash-up ledgers",
+      "desc": "Record your end-of-day till totals, credit card splits, and petty cash expenses using simple journal entries to keep your accounts accurate."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Recipe and portion costing",
+      "desc": "Use the manufacturing module to build recipes as bills of materials. Track exactly how much each portion costs based on current ingredient prices."
+    },
+    {
+      "icon": "truck",
+      "title": "Supplier purchase orders",
+      "desc": "Send professional purchase orders to your food and beverage suppliers. Match incoming deliveries against the original order to prevent overcharging."
+    },
+    {
+      "icon": "inventory",
+      "title": "Track stock and wastage",
+      "desc": "Monitor your dry stores and beverage inventory. Record stock adjustments for kitchen wastage, spills, or complimentary items to maintain accurate margins."
+    },
+    {
+      "icon": "hr",
+      "title": "Staff payroll and HR",
+      "desc": "Manage your team with the paid HR module. Process payroll for chefs, servers, and housekeeping staff, and compare labour costs against revenue."
+    },
+    {
+      "icon": "chart",
+      "title": "Profit and loss reports",
+      "desc": "Generate clear financial reports to understand your revenue per head. See exactly where your cash goes across food costs, wages, and overheads."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Kitchen and bar",
+      "title": "Control ingredient costs and track daily wastage",
+      "body": "Hospitality margins are notoriously tight. When ingredient prices fluctuate, your gross profit vanishes if you do not update your dish costs. Using the paid manufacturing module, you can treat your recipes as bills of materials. This means every time you buy flour, coffee beans, or meat at a new price, your portion costs update automatically. You can also log inventory adjustments for kitchen wastage, dropped plates, or spoiled goods. This gives you a true picture of your food and beverage costs before the end of the month.",
+      "items": [
+        "Build recipes as bills of materials",
+        "Track ingredient price changes instantly",
+        "Log daily kitchen and bar wastage",
+        "Monitor dry store and cellar inventory"
+      ]
+    },
+    {
+      "eyebrow": "Back office administration",
+      "title": "Reconcile supplier deliveries and end-of-day takings",
+      "body": "Busy services mean paperwork often gets lost. Paper & Pen brings order to your back office. Instead of calling suppliers and hoping they remember your quantities, send formal purchase orders directly from the system. When the delivery truck arrives, your team can check the invoice against your original order to catch missing items. At the end of the night, use journal entries to record your daily cash-up. You can split your covers into cash, card payments, and delivery app revenue, while deducting any petty cash spent on emergency supplies.",
+      "items": [
+        "Send clear purchase orders to suppliers",
+        "Check deliveries against original orders",
+        "Record daily cash and card takings",
+        "Log petty cash and till discrepancies"
+      ]
+    },
+    {
+      "eyebrow": "Labour and performance",
+      "title": "Compare your wage costs against daily revenue",
+      "body": "Your staff rota is usually your biggest expense after food costs. If you overstaff a quiet Tuesday, your profitability drops. By using the paid HR and payroll module, you can accurately track your wage expenses for front of house, kitchen, and management teams. When you combine this payroll data with your daily revenue entries, your profit and loss ledger shows exactly how much of your income goes to labour. This helps you understand your true revenue per head and make better decisions about future shift scheduling.",
+      "items": [
+        "Process payroll for all hospitality staff",
+        "Compare labour costs to daily revenue",
+        "Calculate your true revenue per head",
+        "Generate accurate profit and loss ledgers"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Paper & Pen integrate with my restaurant point of sale system?",
+      "a": "Paper & Pen does not offer direct integrations with external point of sale systems. It is designed to act as your back-office ERP and accounting ledger. Most cafes and hotels use their POS for taking orders, and then enter their daily cash-up totals into Paper & Pen as a single journal entry at the end of the night."
+    },
+    {
+      "q": "Can I use this to calculate recipe costs for my menu?",
+      "a": "Yes. By adding the paid manufacturing module, you can use the bills of materials feature to build your recipes. You add your raw ingredients to the inventory, set the quantities needed for a single portion, and the system calculates the total cost based on your most recent supplier purchase prices."
+    },
+    {
+      "q": "How do I handle tips and service charges in the accounting?",
+      "a": "You can create specific ledger accounts for tips and service charges. When you record your daily takings, you allocate the tip amount to a liability account. When you pay those tips out to your staff through the payroll module or a cash expense, you clear that liability, keeping your revenue figures accurate."
+    },
+    {
+      "q": "Can I manage multiple cafe locations in one account?",
+      "a": "Paper & Pen tracks inventory and accounting for a single company entity. If your locations operate under the same legal company, you can manage them together, but you will not have separate stock locations out of the box. If they are separate legal entities, you need to register a separate account for each business."
+    }
+  ],
+  "related": [
+    "/industries/restaurants",
+    "/features/inventory",
+    "/features/manufacturing",
+    "/features/hr-payroll"
+  ],
+  "ctaTitle": "Organise your hospitality back office and control costs",
+  "ctaSub": "Stop relying on messy spreadsheets. Track your daily cash-ups, supplier orders, and recipe costs for free."
+}

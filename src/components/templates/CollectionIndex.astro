@@ -1,0 +1,93 @@
+---
+/*
+ * COLLECTION INDEX — the hub page behind /invoice-templates/ and /alternatives/.
+ *
+ * A hub earns its place two ways: it states the whole child set to a crawler as
+ * an ItemList (so the set is declared, not merely linked), and it puts every
+ * child one hop from the footer. Before r375 the site had 63 pages and only two
+ * hubs (/tools/ and /blog/), so entire families were reachable only through the
+ * sitemap.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import Icon from '@/components/blocks/Icon.astro';
+import { useTranslations, localizePath, LOCALE_META, type Locale } from '@/i18n';
+import { graph, organization, breadcrumbList, itemList } from '@/lib/schema';
+
+interface Item { slug: string; title: string; heroSubtitle: string; icon?: string }
+interface Props {
+  locale: Locale;
+  basePath: string;
+  title: string;
+  eyebrow: string;
+  sub: string;
+  metaTitle: string;
+  metaDescription: string;
+  items: Item[];
+  /** Extra contextual links out of the hub, so it is not a dead end. */
+  onward?: { href: string; label: string }[];
+}
+const { locale, basePath, title, eyebrow, sub, metaTitle, metaDescription, items, onward = [] } = Astro.props;
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+
+const crumbs = [
+  { name: t('nav.home'), url: '/' },
+  { name: title, url: basePath },
+];
+const jsonld = [
+  graph(
+    organization(),
+    itemList({ name: title, items: items.map((i) => ({ name: i.title, url: localizePath(`${basePath}/${i.slug}`, locale) })) }),
+    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: localizePath(c.url, locale) })))
+  ),
+];
+---
+
+<BaseLayout {locale} path={basePath} title={metaTitle} description={metaDescription} {jsonld}>
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: title }]} />
+
+  <header class="band band-paper band-tight">
+    <div class="container-wide">
+      <p class="eyebrow">{eyebrow}</p>
+      <h1 class="mt-4 max-w-[22ch] font-display text-display text-ink-500">{title}</h1>
+      <p class="mt-6 max-w-[62ch] text-xl leading-relaxed text-ink-500">{sub}</p>
+    </div>
+  </header>
+
+  <section class="band band-surface">
+    <div class="container-wide">
+      <ul class="grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
+        {items.map((i) => (
+          <li class="border-t border-ink-200">
+            <a href={lp(`${basePath}/${i.slug}`)} class="group block py-6 no-underline">
+              {i.icon && (
+                <span class="mb-3 inline-flex rounded-xl bg-paper p-2 text-ink-500" aria-hidden="true">
+                  <Icon name={i.icon} class="h-5 w-5" />
+                </span>
+              )}
+              <h2 class="font-semibold text-ink-500 group-hover:text-electric-500">{i.title}</h2>
+              <p class="mt-1 text-sm leading-relaxed text-ink-500/70">{i.heroSubtitle}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      {onward.length > 0 && (
+        <nav class="mt-14 border-t border-ink-200 pt-8" aria-label={t('related.title')}>
+          <h2 class="text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('related.title')}</h2>
+          <ul class="mt-4 flex flex-wrap gap-x-3 gap-y-2">
+            {onward.map((o) => (
+              <li>
+                <a href={lp(o.href)} class="inline-block rounded-full border border-ink-200 px-4 py-1.5 text-[15px] text-ink-500 no-underline transition-colors hover:border-ink-500 hover:bg-ink-500 hover:text-white">{o.label}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+    </div>
+  </section>
+
+  <CtaBand {locale} />
+</BaseLayout>

@@ -1,0 +1,53 @@
+{
+  "slug": "taxable-supply",
+  "term": "Taxable supply",
+  "category": "tax",
+  "short": "A taxable supply is any provision of goods or services made in the course of business that is subject to value-added tax under local tax laws.",
+  "metaTitle": "What is a Taxable Supply? · Paper & Pen",
+  "metaDescription": "Learn what constitutes a taxable supply, how it affects your VAT registration, and why correctly classifying your goods and services is essential.",
+  "definition": "When you sell goods or provide services in the course of running your business, tax authorities classify these transactions to determine if value-added tax applies. A taxable supply is any transaction that attracts VAT, whether at the standard rate or a zero rate. It excludes exempt supplies and transactions outside the scope of local tax laws.\n\nIf your business makes taxable supplies that exceed the mandatory registration threshold set by your local tax authority, you must register for VAT. Once registered, you are required to charge output VAT on your standard-rated taxable supplies and issue valid tax invoices to your customers. Correctly identifying your taxable supplies is the foundation of accurate VAT reporting. It ensures you collect the right amount of tax and allows you to claim input VAT on your related business expenses.",
+  "how": {
+    "title": "How Taxable supply works",
+    "body": "First, you evaluate the goods or services you intend to sell against your local tax authority guidelines. You determine if the transaction is a taxable supply, an exempt supply, or outside the scope of VAT. If it is taxable, you identify the correct rate (standard or zero). Next, you monitor your total taxable turnover over a rolling twelve-month period. Once this turnover reaches the local mandatory threshold, you apply for VAT registration. After registration, you calculate the VAT due on every standard-rated taxable supply. You add this tax to your selling price and issue a compliant tax invoice to the buyer. Finally, you declare the total value of your taxable supplies and remit the collected tax when filing your periodic VAT return.",
+    "items": [
+      "Classify your business transactions according to local tax authority rules.",
+      "Track your total sales value to monitor the VAT registration threshold.",
+      "Register for value-added tax once your turnover exceeds the mandatory limit.",
+      "Add the appropriate VAT rate to the price of standard-rated goods.",
+      "Issue a compliant tax invoice to your customer for the transaction.",
+      "Report the total value of these supplies on your VAT return."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Tariq runs a wholesale electronics business called Gulf Tech Trading. He sells 100 laptops at 200 dollars each, making the total value of this taxable supply 20,000 dollars. Assume his local tax authority sets a standard VAT rate of 10 percent. Tariq calculates the output VAT by multiplying the 20,000 dollar taxable supply by 10 percent, which equals 2,000 dollars. He issues a tax invoice to his customer for a total gross amount of 22,000 dollars. Because the laptops are a taxable supply, Tariq reports the 20,000 dollar net value and remits the 2,000 dollar tax to the government."
+  },
+  "matters": "Misclassifying your sales can lead to severe financial penalties from tax authorities. If you fail to recognise a taxable supply, you might not register for VAT on time or you might undercharge your customers. This forces you to pay the missing tax out of your own profit margin later. Conversely, correctly identifying taxable supplies allows you to claim back the input VAT you paid on your business expenses. Paper & Pen helps you manage this compliance by letting you create invoices and track stock, with Sales and Invoicing available free forever. Accurate classification ensures your pricing is correct and your tax returns are filed without errors.",
+  "faqs": [
+    {
+      "q": "What is the difference between a taxable supply and an exempt supply?",
+      "a": "A taxable supply attracts value-added tax at either a standard or zero rate, and it counts toward your mandatory VAT registration threshold. When you make taxable supplies, you can usually claim input VAT on related expenses. An exempt supply does not attract VAT, does not count toward your registration threshold, and blocks you from claiming input VAT on associated costs."
+    },
+    {
+      "q": "Do zero-rated supplies count as taxable supplies?",
+      "a": "Yes, zero-rated supplies are fully recognised as taxable supplies by tax authorities. The only difference is that the tax rate applied is zero percent. Because they are taxable, you must include their value when calculating your total turnover for VAT registration. You are also entitled to claim input VAT on the business expenses related to making zero-rated supplies."
+    }
+  ],
+  "related": [
+    "value-added-tax",
+    "exempt-supply",
+    "zero-rated-supply",
+    "output-vat",
+    "tax-invoice"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing features"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Manage invoices"
+    }
+  ]
+}

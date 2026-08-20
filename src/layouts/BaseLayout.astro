@@ -5,6 +5,7 @@ import Navbar from '@/components/layout/Navbar.astro';
 import Footer from '@/components/layout/Footer.astro';
 import StickyCta from '@/components/blocks/StickyCta.astro';
 import { isRTL, LOCALE_META, useTranslations, type Locale } from '@/i18n';
+import { graph, organization, webSite } from '@/lib/schema';
 
 export interface Props {
   title: string;
@@ -15,11 +16,30 @@ export interface Props {
   jsonld?: Record<string, unknown>[];
   noindex?: boolean;
   keywords?: string;
+  noAlternates?: boolean;
   /** Hide chrome (nav/footer/sticky CTA) for bare pages like signup/login. */
   bare?: boolean;
 }
 
 const { locale, bare = false, ...seo } = Astro.props;
+
+/*
+ * The WebSite node belongs to the SITE, not to any one page, so it is emitted
+ * here rather than repeated in ~20 page templates (where it would inevitably
+ * end up on some and not others). Its SearchAction points at the glossary
+ * index, which really does answer ?q= client-side; declaring a search endpoint
+ * that does not exist is worse than declaring none.
+ */
+const baseGraph = graph(
+  organization(),
+  webSite({
+    name: 'Paper & Pen',
+    description: useTranslations(locale)('seo.homeDesc'),
+    locale: LOCALE_META[locale].htmlLang,
+    searchUrl: '/glossary/',
+  })
+);
+const seoProps = { ...seo, jsonld: [...(seo.jsonld ?? []), baseGraph] };
 const dir = isRTL(locale) ? 'rtl' : 'ltr';
 const htmlLang = LOCALE_META[locale].htmlLang;
 const t = useTranslations(locale);
@@ -34,7 +54,13 @@ const t = useTranslations(locale);
     <meta name="generator" content={Astro.generator} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
-    <link rel="apple-touch-icon" href="/logo.svg" />
+    {/* iOS will not render an SVG here: it silently falls back to a screenshot
+        of the page. A real 180x180 PNG on an opaque ground is the only asset
+        that works, and /favicon.ico is the root fallback a browser requests
+        regardless of what the document declares. Both are generated from
+        favicon.svg so all three agree. */}
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="manifest" href="/manifest.json" />
 
     {/* Fonts — fonts.bhd.om only (never Google). Loaded non-render-blocking. */}
@@ -57,7 +83,7 @@ const t = useTranslations(locale);
       );
     })()}
 
-    <Seo {...seo} locale={locale} />
+    <Seo {...seoProps} locale={locale} />
 
     {/*
       r6-83. Three things have to be true together or the skip link measures

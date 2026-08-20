@@ -1,0 +1,57 @@
+{
+  "slug": "double-entry-bookkeeping",
+  "term": "Double-entry bookkeeping",
+  "category": "accounting",
+  "short": "Double-entry bookkeeping is a fundamental accounting method where every financial transaction requires at least two equal and opposite entries to keep the accounting equation perfectly balanced.",
+  "metaTitle": "Double-Entry Bookkeeping Explained · Paper & Pen",
+  "metaDescription": "Learn how double-entry bookkeeping works. Discover the accounting equation, see a worked example, and understand why this method protects your business.",
+  "definition": "Double-entry bookkeeping is the universal standard for recording financial information. Instead of simply listing cash coming in and going out like a basic checkbook, this method recognises that every business transaction has two sides. When you buy inventory, you gain stock but lose cash. When you make a sale, you gain cash but your stock decreases. To reflect this reality, you record every event in at least two different accounts. One account receives a debit entry, and the other receives a credit entry. The total amount debited must always equal the total amount credited. This dual-sided approach ensures that your financial records remain accurate and balanced. It forms the foundation of all modern financial reporting, allowing accountants and tax authorities to trust the integrity of your general ledger and financial statements.",
+  "how": {
+    "title": "How Double-entry bookkeeping works",
+    "body": "The process begins the moment a financial event occurs, such as receiving a supplier invoice or making a sale. First, you identify which accounts are affected by the transaction. Every event will impact at least two accounts from your chart of accounts. Next, you determine the direction of the impact. You must decide which account increases and which decreases. Based on accounting rules, you then translate these movements into debits and credits. Assets and expenses increase with a debit, while liabilities, equity, and revenue increase with a credit. Finally, you post the journal entry to the general ledger. The system checks that the total debits exactly match the total credits. If they do not match, the entry is rejected, preventing unbalanced books.",
+    "items": [
+      "Identify the financial transaction and the source document involved.",
+      "Select at least two specific accounts affected by the event.",
+      "Determine whether each account balance is increasing or decreasing.",
+      "Apply debit and credit rules to the changing account balances.",
+      "Post the entry, ensuring total debits equal total credits."
+    ]
+  },
+  "formula": {
+    "label": "The Accounting Equation",
+    "expr": "Assets = Liabilities + Equity",
+    "note": "This fundamental equation must remain perfectly balanced after every single transaction. If assets increase, either liabilities or equity must also increase, or another asset must decrease."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Oasis Trading LLC purchases new warehouse shelving for 2,000 OMR, paying immediately via bank transfer. This single transaction affects two accounts. The equipment account, an asset, increases by 2,000 OMR. The bank account, also an asset, decreases by 2,000 OMR. The bookkeeper records a debit of 2,000 OMR to the equipment account and a credit of 2,000 OMR to the bank account. Because one asset increased while another decreased by the exact same amount, total assets remain unchanged. The accounting equation stays in perfect balance, proving the transaction was recorded correctly."
+  },
+  "matters": "Using double-entry bookkeeping protects your business from costly errors and fraud. When your books are balanced, you can trust your profit figures and make informed decisions about hiring or expanding. If you use a single-entry system, a forgotten expense might artificially inflate your perceived profit, leading you to spend cash you do not actually have. Furthermore, banks and investors require double-entry financial statements before approving loans or funding. Paper & Pen posts journal entries automatically in the background, ensuring your records remain compliant without requiring a degree in accounting.",
+  "faqs": [
+    {
+      "q": "Can a small business use single-entry bookkeeping instead?",
+      "a": "Very small businesses or sole traders with minimal transactions sometimes use single-entry bookkeeping, which is similar to maintaining a simple cash register log. However, as soon as you offer credit to customers, hold inventory, or apply for a bank loan, single-entry becomes inadequate. Tax authorities often require double-entry records for corporate entities to ensure accurate tax assessments."
+    },
+    {
+      "q": "What happens if my debits and credits do not match?",
+      "a": "If your total debits do not equal your total credits, your trial balance will fail, indicating an error in your ledger. This means a transaction was recorded incorrectly, such as entering a number backwards or missing one side of an entry. You must find and correct the discrepancy before generating financial statements or filing your final tax return."
+    }
+  ],
+  "related": [
+    "general-ledger",
+    "journal-entry",
+    "trial-balance",
+    "chart-of-accounts",
+    "accrual-accounting"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting Features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Manage Ledgers"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "weighted-average-cost",
+  "term": "Weighted average cost",
+  "abbr": "WAC",
+  "category": "inventory",
+  "short": "Weighted average cost is an inventory valuation method that calculates the average cost of all identical items in stock to determine the cost of goods sold and ending inventory value.",
+  "metaTitle": "Weighted Average Cost Defined · Paper & Pen",
+  "metaDescription": "Learn how the weighted average cost method values your inventory by smoothing out price fluctuations, making your accounting simpler and more predictable.",
+  "definition": "When you buy the same product at different prices over time, calculating the profit on a sale can become complicated. Weighted average cost solves this by blending the purchase prices of all identical items in your warehouse. Instead of tracking exactly which batch a sold item came from, you calculate a single average cost per unit for your entire stock. As you purchase new batches at higher or lower prices, this average unit cost updates automatically. When you sell an item, you record its cost using this blended figure. This method is highly practical for businesses selling large volumes of identical goods, like hardware, raw materials, or wholesale electronics. It smooths out temporary price spikes and provides a stable, predictable gross margin for your financial statements.",
+  "how": {
+    "title": "How Weighted average cost works",
+    "body": "To use the weighted average cost method, you must track both the total number of units you have in stock and the total monetary value of that stock. Every time you receive a new shipment, you add the new units to your existing inventory count. You also add the total cost of that new shipment to your existing inventory value. Next, you divide the new total inventory value by the new total number of units. This calculation gives you a fresh average cost per unit. When a customer buys your product, you multiply the number of units sold by this newly calculated average cost. This figure becomes your cost of goods sold, while the remaining units keep that same average value on your balance sheet until the next purchase arrives.",
+    "items": [
+      "Record the total cost and quantity of your beginning inventory.",
+      "Add the total cost of any newly purchased inventory batches.",
+      "Add the total quantity of the newly purchased units.",
+      "Divide the combined total cost by the combined total quantity.",
+      "Apply this new average cost to every unit you sell.",
+      "Recalculate the average unit cost every time new stock arrives."
+    ]
+  },
+  "formula": {
+    "label": "Weighted Average Cost per Unit",
+    "expr": "(Cost of Beginning Inventory + Cost of New Purchases) / (Units in Beginning Inventory + Units in New Purchases)",
+    "note": "You multiply this result by the number of units sold to find your cost of goods sold."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Electronics buys 100 keyboards at $10 each (total $1,000). Later, they buy a second batch of 100 keyboards at $12 each (total $1,200). They now have 200 keyboards with a total inventory value of $2,200. To find the weighted average cost, they divide the total value ($2,200) by the total units (200), resulting in an average cost of $11 per keyboard. When they sell 150 keyboards, they calculate the cost of goods sold by multiplying 150 by $11, which equals $1,650. The remaining 50 keyboards stay in inventory valued at $550."
+  },
+  "matters": "Choosing the right inventory valuation method directly impacts your reported profits and tax liabilities. Weighted average cost is excellent for smoothing out extreme price fluctuations in your supply chain. If supplier prices suddenly jump, this method absorbs the shock across your entire inventory, preventing massive swings in your reported profit margins. It is also much simpler to manage than tracking individual batches. Paper & Pen tracks stock and automatically calculates your inventory values, saving you from complex manual spreadsheets. By maintaining a stable cost of goods sold, you gain a clearer picture of your long-term profitability and pricing strategy.",
+  "faqs": [
+    {
+      "q": "What is the difference between FIFO and weighted average cost?",
+      "a": "FIFO (First-In, First-Out) assumes you sell your oldest inventory first. If prices are rising, FIFO results in a lower cost of goods sold and higher reported profits. Weighted average cost blends the prices of all old and new inventory together. This creates a middle ground, smoothing out price changes and resulting in a more moderate profit figure during periods of inflation."
+    },
+    {
+      "q": "Can I switch from weighted average cost to another method?",
+      "a": "You can change your inventory valuation method, but accounting standards require you to have a valid business reason for doing so. You cannot switch back and forth simply to manipulate your profit margins or tax bill. If you do change methods, you must disclose the change in your financial statements and often restate previous periods for accurate comparison."
+    }
+  ],
+  "related": [
+    "fifo",
+    "cost-of-goods-sold",
+    "inventory-turnover",
+    "sku"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory tracking"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "General ledgers"
+    }
+  ]
+}

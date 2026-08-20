@@ -1,0 +1,51 @@
+{
+  "slug": "write-off",
+  "term": "Write-off",
+  "category": "accounting",
+  "short": "A write-off is an accounting action that reduces the recorded value of an asset to zero when it loses all its value or a customer fails to pay an outstanding invoice.",
+  "metaTitle": "What is a Write-off? · Paper & Pen",
+  "metaDescription": "Learn what an accounting write-off is, how to record bad debts or obsolete inventory, and why removing uncollectible assets keeps your books accurate.",
+  "definition": "When you record an asset on your balance sheet, you expect it to bring future economic value to your business. Sometimes, things do not go as planned. A customer might ignore your invoices and disappear, or a batch of inventory might expire before you can sell it. When it becomes clear that an asset has lost its value, you must perform a write-off. This accounting adjustment completely removes the asset from your financial records and recognises it as an expense on your profit and loss statement. By writing off uncollectible receivables or ruined stock, you prevent your financial statements from showing a falsely inflated net worth. It is a necessary step to ensure you pay taxes only on real profits and give stakeholders an honest view of your financial health.",
+  "how": {
+    "title": "How Write-off works",
+    "body": "A write-off usually begins when you identify an asset that will never convert into cash. For a small business, this is most commonly an unpaid invoice that has passed all collection attempts. You instruct your accountant or use your accounting software to post a journal entry. This entry credits the asset account, such as accounts receivable or inventory, reducing its balance to zero. Simultaneously, it debits an expense account, typically labelled as bad debt expense or inventory loss. This action shifts the value from the balance sheet to the profit and loss statement. Because the expense increases, your net profit for the period decreases. Once the entry is posted, the asset no longer inflates your company valuation, and your financial reports accurately reflect the loss.",
+    "items": [
+      "Identify the specific asset or unpaid invoice that has permanently lost its value.",
+      "Stop all active collection efforts for the customer associated with the bad debt.",
+      "Create a journal entry to credit the relevant asset account balance to zero.",
+      "Debit a corresponding expense account to recognise the financial loss immediately.",
+      "Review your updated balance sheet to ensure the uncollectible asset is fully removed."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Tech Supplies sells 5 laptops to a local startup for $1,000 each, creating an accounts receivable balance of $5,000. Six months later, the startup goes bankrupt and closes down. Gulf Tech Supplies realises they will never receive the $5,000. To correct their books, they initiate a write-off. They post a journal entry that credits accounts receivable for $5,000 and debits bad debt expense for $5,000. Before the write-off, their total assets were $50,000. After subtracting the $5,000 bad debt, their total assets correctly drop to $45,000. The $5,000 expense also reduces their taxable profit for the year by exactly $5,000."
+  },
+  "matters": "Delaying a write-off creates a dangerous illusion of wealth. If you keep uncollectible invoices in your accounts receivable, your balance sheet looks healthier than it actually is. This can mislead investors, partners, or lenders who review your financial statements. Worse, overstating your assets often means overstating your income, which could cause you to pay taxes on money you never actually received. Recognising the loss promptly ensures your tax liability is calculated fairly. If you need to post journal entries to handle these adjustments, Paper & Pen supports many currencies and 5 languages to help keep your international records accurate.",
+  "faqs": [
+    {
+      "q": "What is the difference between a write-off and a write-down?",
+      "a": "A write-off completely eliminates the value of an asset from your accounting records, dropping its book value to zero. A write-down only partially reduces the value of an asset. You use a write-down when an item loses some of its market value but can still be sold at a discount, whereas a write-off means the item is completely worthless."
+    },
+    {
+      "q": "Can I reverse a write-off if the customer eventually pays?",
+      "a": "Yes, you can reverse the transaction if a customer surprisingly pays a dead invoice. You will need to post a new journal entry that reverses the original bad debt expense and restores the accounts receivable balance. Then, you can record the cash payment normally against the restored invoice, ensuring your bank reconciliation matches perfectly."
+    }
+  ],
+  "related": [
+    "bad-debt",
+    "accounts-receivable",
+    "journal-entry",
+    "balance-sheet"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting Features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Manage Ledgers"
+    }
+  ]
+}

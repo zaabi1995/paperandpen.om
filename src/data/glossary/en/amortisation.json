@@ -1,0 +1,60 @@
+{
+  "slug": "amortisation",
+  "term": "Amortisation",
+  "category": "metrics",
+  "short": "Amortisation is the accounting practice of gradually writing off the initial cost of an intangible asset over its useful life to match expenses with generated revenues.",
+  "metaTitle": "What is Amortisation? · Paper & Pen",
+  "metaDescription": "Learn how amortisation spreads the cost of intangible assets over time, helping you match expenses to revenue and maintain accurate financial records.",
+  "definition": "When you buy an intangible asset, like a software license, patent, or trademark, you do not record the entire cost as an immediate expense. Instead, amortisation allows you to spread that cost over the time you expect the asset to provide value to your business. This aligns your expenses with the revenue the asset helps generate. Amortisation applies strictly to intangible assets. For physical items like machinery or vehicles, you use a similar process called depreciation. You will also hear the term used in banking, where loan amortisation refers to paying off a debt over time through regular, equal payments covering both principal and interest. In accounting, recognising this gradual expense correctly ensures your balance sheet reflects the true remaining value of your intellectual property.",
+  "how": {
+    "title": "How Amortisation works",
+    "body": "The process begins when you acquire an intangible asset that has a finite useful life. First, you determine the total initial cost of the asset, including any legal fees required to secure it. Next, you estimate how many years the asset will actively benefit your business. You also estimate its residual value, which is what you expect to sell it for at the end of its useful life. In most cases for intangible assets, this residual value is zero. You then subtract the residual value from the initial cost to find the amortisable amount. Finally, you divide this amount by the useful life to calculate the annual expense. You record this expense in your journal entries each accounting period, steadily reducing the asset value on your balance sheet.",
+    "items": [
+      "Identify an intangible asset with a clear, finite useful lifespan.",
+      "Calculate the total acquisition cost including registration and legal fees.",
+      "Estimate the residual value the asset will hold when retired.",
+      "Subtract the residual value from the total cost to find the amortisable base.",
+      "Divide the amortisable base by the useful life to determine the periodic expense."
+    ]
+  },
+  "formula": {
+    "label": "Straight-line amortisation",
+    "expr": "(Asset Cost - Residual Value) / Useful Life",
+    "note": "This calculates the fixed amount you will expense each year. You divide the result by 12 if you need a monthly figure."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Tech Solutions purchases a five-year software license for 15,000. The license will expire completely after five years, meaning its residual value is zero. To calculate the annual amortisation expense, the business subtracts the zero residual value from the 15,000 cost, leaving an amortisable base of 15,000. They divide 15,000 by the 5-year useful life, resulting in an annual amortisation expense of 3,000. Each year, Gulf Tech Solutions records a 3,000 expense on their profit and loss statement and reduces the asset value on their balance sheet by the same amount."
+  },
+  "matters": "Understanding amortisation is critical because it directly impacts your reported profitability and tax liabilities. If you expense a major software purchase entirely in year one, your profit for that year will look artificially low, while subsequent years will look artificially high. Amortising the cost smooths out your expenses, giving you a much clearer picture of your actual operating margins. This accuracy helps you secure financing, as investors and lenders rely on realistic financial statements. Paper & Pen posts journal entries to help you record these periodic amortisation expenses accurately. Proper tracking also ensures you do not overstate the value of aging intangible assets on your balance sheet.",
+  "faqs": [
+    {
+      "q": "What is the difference between depreciation and amortisation?",
+      "a": "Both concepts involve spreading the cost of an asset over its useful life. The difference lies in the type of asset. You use depreciation for tangible, physical assets like computers, vehicles, and office furniture. You use amortisation for intangible, non-physical assets like patents, copyrights, trademarks, and franchise agreements."
+    },
+    {
+      "q": "Can I amortise an asset with an indefinite useful life?",
+      "a": "No, you cannot amortise intangible assets that have an indefinite useful life, such as a strong brand name or goodwill. Because you cannot reliably estimate how long these assets will provide value, accounting rules require you to test them annually for impairment instead of applying a regular amortisation schedule."
+    },
+    {
+      "q": "What does amortisation mean for a bank loan?",
+      "a": "Loan amortisation is a schedule of periodic payments that gradually eliminates a debt. Each payment covers the interest for that period, with the remainder reducing the principal balance. Early in the loan, a larger portion goes toward interest, but over time, more of the payment pays down the principal."
+    }
+  ],
+  "related": [
+    "depreciation",
+    "journal-entry",
+    "balance-sheet",
+    "profit-and-loss-statement"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "General ledgers"
+    }
+  ]
+}

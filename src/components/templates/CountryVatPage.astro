@@ -1,0 +1,182 @@
+---
+/*
+ * COUNTRY VAT PAGE.
+ *
+ * The differentiator here is not the layout, it is the sourcing. Zoho owns
+ * Gulf Arabic search partly by publishing per-country pages, and the way to
+ * beat a page like that is not to publish the same claims faster: it is to
+ * publish claims a reader can check. Every rate, threshold and invoice field
+ * on this page carries a numbered citation to the tax authority's own text,
+ * rendered as a real outbound link at the foot of the page.
+ *
+ * The `caveat` field exists for the same reason. Oman publishes its Executive
+ * Regulations in Arabic only with an unextractable text layer, so its field
+ * list is a reading of the Arabic gazette rather than an official English
+ * translation, and the page says so where a competitor would simply assert it.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import PageHero from '@/components/blocks/PageHero.astro';
+import FeatureSplit from '@/components/blocks/FeatureSplit.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, localizePath, LOCALE_META, type Locale } from '@/i18n';
+import { labelFor } from '@/lib/links';
+import { graph, organization, faqPage, breadcrumbList, techArticle } from '@/lib/schema';
+
+interface Props { locale: Locale; data: any }
+const { locale, data } = Astro.props;
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+
+const path = `/vat/${data.slug}`;
+const crumbs = [
+  { name: t('nav.home'), url: '/' },
+  { name: t('vatIndex.title'), url: '/vat' },
+  { name: data.title, url: path },
+];
+const related = await Promise.all(
+  (data.related || []).map(async (href: string) => ({ href, title: await labelFor(href, locale, t) }))
+);
+const srcById = new Map<number, any>((data.sources || []).map((s: any) => [s.n, s]));
+
+const jsonld = [
+  graph(
+    organization(),
+    techArticle({
+      headline: data.title,
+      description: data.metaDescription,
+      url: localizePath(path, locale),
+      locale: LOCALE_META[locale].htmlLang,
+    }),
+    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: localizePath(c.url, locale) })))
+  ),
+];
+if (data.faqs?.length) jsonld.push(graph(faqPage(data.faqs)));
+---
+
+<BaseLayout {locale} {path} title={data.metaTitle} description={data.metaDescription} keywords={data.keywords} {jsonld}>
+  <Breadcrumbs
+    {locale}
+    crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('vatIndex.title'), href: '/vat' }, { name: data.title }]}
+  />
+
+  <PageHero
+    {locale}
+    as="h1"
+    accent="copper"
+    eyebrow={data.heroEyebrow}
+    title={data.heroTitle}
+    subtitle={data.heroSubtitle}
+    bullets={data.heroBullets}
+    secondaryCta={{ href: '/tools/oman-vat-calculator', label: t('mega.vatCalc') }}
+  />
+
+  {/* The fact table. Each row states one figure and names the document it is
+      from, so nothing on this page is an unattributed assertion. */}
+  <section class="band band-surface" aria-labelledby="vat-facts">
+    <div class="container-wide">
+      <p class="eyebrow">{t('vat.factsEyebrow')}</p>
+      <h2 id="vat-facts" class="mt-3 font-display text-display-sm text-ink-500">{t('vat.factsTitle', { country: data.country })}</h2>
+      <div class="mt-10 overflow-x-auto">
+        <table class="w-full min-w-[36rem] border-collapse text-start">
+          <caption class="sr-only">{t('vat.factsTitle', { country: data.country })}</caption>
+          <thead>
+            <tr class="border-b border-ink-500">
+              <th scope="col" class="py-3 pe-6 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('vat.colItem')}</th>
+              <th scope="col" class="py-3 pe-6 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('vat.colValue')}</th>
+              <th scope="col" class="py-3 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('vat.colDetail')}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.facts.map((f: any) => (
+              <tr class="border-b border-ink-200 align-top">
+                <th scope="row" class="py-5 pe-6 text-start font-semibold text-ink-500">{f.label}</th>
+                <td class="py-5 pe-6 font-mono text-lg font-semibold text-ink-500" dir="ltr">{f.value}</td>
+                <td class="py-5 text-[15px] leading-relaxed text-ink-500/80">
+                  {f.note}
+                  <a href={`#source-${f.source}`} class="ms-1 whitespace-nowrap font-semibold text-ink-500">[{f.source}]</a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-paper" aria-labelledby="vat-fields">
+    <div class="container-narrow">
+      <h2 id="vat-fields" class="font-display text-display-sm text-ink-500">{t('vat.fieldsTitle', { country: data.country })}</h2>
+      <p class="mt-6 max-w-[68ch] text-lg leading-relaxed text-ink-500/85">
+        {data.invoiceFields.intro}
+        <a href={`#source-${data.invoiceFields.source}`} class="ms-1 font-semibold text-ink-500">[{data.invoiceFields.source}]</a>
+      </p>
+      <ol class="mt-8 max-w-[68ch] space-y-3">
+        {data.invoiceFields.items.map((item: string, i: number) => (
+          <li class="flex gap-4 border-t border-ink-200 pt-3 text-[15px] leading-relaxed text-ink-500">
+            <span class="font-mono text-sm text-ink-500/60" dir="ltr">{String(i + 1).padStart(2, '0')}</span>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ol>
+      {data.invoiceFields.caveat && (
+        <p class="mt-8 max-w-[68ch] border-s-4 border-copper-400 ps-5 text-[15px] leading-relaxed text-ink-500/80">
+          {data.invoiceFields.caveat}
+        </p>
+      )}
+    </div>
+  </section>
+
+  <section class="band band-peri" aria-labelledby="vat-einv">
+    <div class="container-narrow">
+      <p class="eyebrow-ink">{t('vat.einvEyebrow')}</p>
+      <h2 id="vat-einv" class="mt-3 font-display text-display-sm text-ink-500">{data.einvoicing.status}</h2>
+      <p class="mt-6 max-w-[68ch] text-lg leading-relaxed text-ink-500/85">
+        {data.einvoicing.body}
+        <a href={`#source-${data.einvoicing.source}`} class="ms-1 font-semibold text-ink-500">[{data.einvoicing.source}]</a>
+      </p>
+    </div>
+  </section>
+
+  {(data.sections || []).map((s: any, i: number) => (
+    <FeatureSplit
+      eyebrow={s.eyebrow}
+      title={s.title}
+      body={s.body}
+      items={s.items}
+      flip={i % 2 === 1}
+      band={i % 2 === 0 ? 'white' : 'paper'}
+      variant={i % 2 === 0 ? 'doc' : 'table'}
+    />
+  ))}
+
+  {data.faqs?.length > 0 && (
+    <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={data.faqs} band="sky" />
+  )}
+
+  <section class="band band-surface band-tight" aria-labelledby="vat-sources">
+    <div class="container-narrow">
+      <h2 id="vat-sources" class="font-display text-2xl text-ink-500 md:text-3xl">{t('vat.sourcesTitle')}</h2>
+      <p class="mt-4 max-w-[68ch] text-[15px] leading-relaxed text-ink-500/75">{t('vat.sourcesNote')}</p>
+      <ol class="mt-8 space-y-5">
+        {data.sources.map((s: any) => (
+          <li id={`source-${s.n}`} class="border-t border-ink-200 pt-4 text-[15px] leading-relaxed text-ink-500 scroll-mt-28">
+            <span class="font-mono text-sm text-ink-500/60" dir="ltr">[{s.n}]</span>
+            <span class="ms-2">{s.label}</span>
+            <span class="text-ink-500/70">, {s.publisher}, {s.year}. </span>
+            <a href={s.url} rel="nofollow noopener" target="_blank" class="break-all font-semibold text-ink-500">{s.url}</a>
+          </li>
+        ))}
+      </ol>
+      <p class="mt-8 max-w-[68ch] text-[15px] leading-relaxed text-ink-500/75">
+        {t('vat.authorityNote')}
+        <a href={data.authority.url} rel="nofollow noopener" target="_blank" class="font-semibold text-ink-500">{data.authority.name}</a>.
+      </p>
+    </div>
+  </section>
+
+  <RelatedLinks {locale} title={t('related.title')} links={related} band="tint" />
+  <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} />
+</BaseLayout>

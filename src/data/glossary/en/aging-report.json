@@ -1,0 +1,56 @@
+{
+  "slug": "aging-report",
+  "term": "Aging report",
+  "category": "accounting",
+  "short": "An aging report is an accounting document that categorises a company's accounts receivable or payable based on the length of time an invoice has been outstanding.",
+  "metaTitle": "What is an Aging Report? · Paper & Pen",
+  "metaDescription": "Learn what an aging report is, how it helps you track overdue invoices, and why monitoring accounts receivable is vital for healthy cash flow.",
+  "definition": "An aging report provides a snapshot of your outstanding invoices, grouping them by how long they have been unpaid. When you run this report for your accounts receivable, it lists every customer who owes you money. The report separates these balances into time buckets, typically current, 1 to 30 days overdue, 31 to 60 days overdue, 61 to 90 days overdue, and over 90 days overdue. You can also generate an aging report for accounts payable to track what you owe your suppliers. By reviewing this summary regularly, you identify which clients are slow to pay and require immediate follow-up. It is a fundamental tool for managing cash flow, allowing you to recognise potential bad debts early and maintain a clear view of your working capital position.",
+  "how": {
+    "title": "How Aging report works",
+    "body": "The process begins when you issue an invoice to a customer and record it in your ledger. Each invoice carries a specific due date based on your agreed payment terms. As time passes, your accounting system tracks the number of days between the due date and the current date. When you generate the aging report, the system pulls all unpaid invoices and sorts them by customer. It then allocates each outstanding amount into a specific time column based on how many days past due it is. Finally, the report calculates a total for each time bracket and a grand total of all outstanding receivables. This structured format gives you an immediate overview of which accounts require urgent collection efforts.",
+    "items": [
+      "Issue an invoice with a clear due date to your customer.",
+      "The accounting software logs the open invoice in your accounts receivable ledger.",
+      "The system calculates the days elapsed since the original payment due date.",
+      "Unpaid balances are sorted into columns like current or 30 days overdue.",
+      "The report totals the amounts in each time bracket for your review."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC generates an accounts receivable aging report on 31 October. The report shows a total outstanding balance of $10,000. Customer A owes $4,000, which is not yet due, so it appears in the Current column. Customer B owes $3,500 from an invoice that was due on 15 October. Since it is 16 days late, this $3,500 sits in the 1 to 30 days column. Customer C owes $2,500 from an invoice due on 10 August. Being 82 days late, this $2,500 falls into the 61 to 90 days column. The total matches the $10,000 ledger balance ($4,000 + $3,500 + $2,500)."
+  },
+  "matters": "Monitoring your aging report is critical for business survival because profitable sales mean nothing if cash never arrives in your bank account. If you ignore overdue invoices, you risk running out of cash to pay your own suppliers and employees. A growing balance in the older time brackets warns you that a customer might be facing financial trouble, increasing your risk of bad debt. By catching late payments early, you can pause further credit sales to delinquent clients. Paper & Pen helps you track this easily, as its Sales and Invoicing module is free forever and automatically monitors unpaid balances.",
+  "faqs": [
+    {
+      "q": "What is the difference between an accounts receivable and accounts payable aging report?",
+      "a": "An accounts receivable aging report shows the money your customers owe you, highlighting which clients are late in paying their invoices. Conversely, an accounts payable aging report lists the money you owe to your suppliers and vendors. Both reports use the same time brackets, but one tracks incoming cash while the other manages outgoing payments."
+    },
+    {
+      "q": "How often should a small business review its aging report?",
+      "a": "Most small business owners and bookkeepers should review their accounts receivable aging report at least once a week. Frequent checks allow you to send timely payment reminders before an invoice becomes severely overdue. If you have a high volume of transactions, checking the report daily ensures you maintain tight control over your cash flow and credit limits."
+    }
+  ],
+  "related": [
+    "accounts-receivable",
+    "accounts-payable",
+    "bad-debt",
+    "dunning",
+    "days-sales-outstanding"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/reports",
+      "label": "Accounting reports"
+    },
+    {
+      "href": "/invoicing/payment-reminders",
+      "label": "Payment reminders"
+    },
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing features"
+    }
+  ]
+}

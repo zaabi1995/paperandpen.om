@@ -1,0 +1,56 @@
+{
+  "slug": "safety-stock",
+  "term": "Safety stock",
+  "category": "inventory",
+  "short": "Safety stock is an extra quantity of inventory kept on hand to prevent stockouts caused by unexpected surges in customer demand or sudden delays from suppliers.",
+  "metaTitle": "Safety Stock: Meaning & Formula · Paper & Pen",
+  "metaDescription": "Safety stock acts as an inventory buffer to protect your business from unexpected demand spikes or supplier delays. Learn how to calculate it.",
+  "definition": "Think of safety stock as your emergency inventory buffer. When you run a trading or retail business, you rely on predictable customer demand and reliable supplier delivery times. However, real life rarely follows a perfect schedule. A sudden trend might cause your sales to spike, or a customs delay could hold up your next shipment. If you only order exactly what you expect to sell, these disruptions will leave you with empty shelves and disappointed customers. By holding a calculated amount of extra stock, you build a bridge to cover the gap between running out of your regular inventory and receiving your next delivery. This reserve ensures you can continue fulfilling orders without interruption. Maintaining this balance is crucial because holding too much extra stock ties up your cash, while holding too little risks lost sales.",
+  "how": {
+    "title": "How Safety stock works",
+    "body": "The process begins with analysing your historical sales data and supplier performance. You first determine your average daily sales and the typical number of days it takes a supplier to deliver an order. Next, you identify your maximum daily sales and the longest delivery time you have experienced. Using these figures, you calculate the extra inventory needed to cover worst-case scenarios. Once calculated, you add this safety stock quantity to your reorder point. When your total inventory drops to this new reorder point, you place a new purchase order. Your regular stock is consumed while you wait for the delivery. If the delivery is delayed or sales suddenly increase, you dip into the safety stock to fulfil orders until the new shipment arrives.",
+    "items": [
+      "Track your average and maximum daily sales over a set period.",
+      "Record the average and maximum lead times for supplier deliveries.",
+      "Calculate the safety stock using your sales and lead time data.",
+      "Add the calculated buffer to your standard inventory reorder point.",
+      "Consume the safety stock only when regular inventory runs out unexpectedly."
+    ]
+  },
+  "formula": {
+    "label": "Safety stock formula",
+    "expr": "(Maximum Daily Sales x Maximum Lead Time) - (Average Daily Sales x Average Lead Time)",
+    "note": "This result tells you the exact number of extra units you must keep on hand. It represents the difference between your absolute worst-case scenario and your normal trading conditions."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Electronics sells mobile phone chargers. On an average day, they sell 20 chargers, and their supplier usually takes 5 days to deliver a new batch (20 x 5 = 100 units). During a busy period, their maximum daily sales reached 35 chargers, and the longest supplier delay resulted in a 9-day lead time (35 x 9 = 315 units). To find the safety stock, Gulf Electronics subtracts the average scenario from the maximum scenario. They subtract 100 from 315, resulting in 215 units. They must keep 215 extra chargers in their warehouse to protect against sudden spikes and delivery delays."
+  },
+  "matters": "Maintaining the right safety stock directly impacts your reputation and cash flow. If you run out of products, customers will simply buy from your competitors, costing you immediate revenue and long-term loyalty. Stockouts also disrupt your operations, forcing you to pay expensive rush shipping fees to restock quickly. Conversely, holding too much reserve inventory ties up working capital that you could use to grow your business, and it increases the risk of goods expiring or becoming obsolete. Paper & Pen tracks stock across your business, helping you monitor inventory levels so you know exactly when to reorder.",
+  "faqs": [
+    {
+      "q": "What is the difference between safety stock and a reorder point?",
+      "a": "Safety stock is the extra inventory you hold for emergencies. The reorder point is the specific inventory level that triggers you to place a new purchase order. Your reorder point actually includes your safety stock plus the inventory you expect to sell while waiting for the delivery."
+    },
+    {
+      "q": "How often should I recalculate my safety stock?",
+      "a": "You should review your calculations every few months, or whenever your business experiences significant changes. Seasonal shifts, new supplier contracts, or changes in customer buying habits will alter your average and maximum figures. Regular reviews ensure your buffer remains accurate and does not tie up excess cash."
+    }
+  ],
+  "related": [
+    "reorder-point",
+    "inventory-turnover",
+    "stock-take",
+    "backorder"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory tracking"
+    },
+    {
+      "href": "/industries/trading",
+      "label": "Trading businesses"
+    }
+  ]
+}

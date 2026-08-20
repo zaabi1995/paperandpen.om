@@ -1,0 +1,57 @@
+{
+  "slug": "balance-sheet",
+  "term": "Balance sheet",
+  "category": "accounting",
+  "short": "A balance sheet is a financial statement that reports a company's assets, liabilities, and shareholder equity at a specific point in time to provide a snapshot of its overall financial health.",
+  "metaTitle": "What is a Balance Sheet? · Paper & Pen",
+  "metaDescription": "Learn what a balance sheet is, how it works, and why this essential financial statement is crucial for tracking your business assets and liabilities.",
+  "definition": "Think of a balance sheet as a photograph of your business finances taken on a specific date, usually the last day of a month, quarter, or financial year. Unlike a profit and loss statement which shows activity over a period, the balance sheet shows exactly what your business owns and owes at that exact moment. It is divided into three main sections: assets, liabilities, and equity. Assets are resources with economic value, like cash in the bank, inventory, and unpaid invoices from customers. Liabilities are your debts, such as bank loans, unpaid supplier bills, and taxes owed. Equity represents the net worth of the business belonging to the owners. For the statement to be correct, your total assets must always equal the sum of your liabilities and equity.",
+  "how": {
+    "title": "How Balance sheet works",
+    "body": "The mechanics of a balance sheet rely entirely on double-entry bookkeeping. Every time a transaction occurs, it affects at least two accounts to keep the accounting equation in balance. First, you record your daily business transactions in your general ledger. At the end of your reporting period, you calculate the closing balances for all asset, liability, and equity accounts. Next, you list your assets in order of liquidity, starting with cash and ending with long-term items like equipment. Then, you list your liabilities according to their due dates, separating short-term debts from long-term obligations. Finally, you calculate the owner equity by adding initial investments and retained earnings. When you sum the liabilities and equity, the total must match your total assets exactly.",
+    "items": [
+      "Record all daily financial transactions using double-entry bookkeeping rules.",
+      "Tally the final balances of all asset accounts at the period end.",
+      "Calculate all short-term and long-term liabilities owed to outside parties.",
+      "Determine owner equity by combining capital investments and accumulated retained earnings.",
+      "Verify that total assets equal the combined total of liabilities and equity."
+    ]
+  },
+  "formula": {
+    "label": "The Accounting Equation",
+    "expr": "Assets = Liabilities + Equity",
+    "note": "This fundamental equation ensures that every asset owned by the business is financed either by borrowing money or by owner investment. If the two sides do not match, there is an error in your bookkeeping."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC prepares its balance sheet on December 31. The business holds 15,000 in cash, 20,000 in stock, and 5,000 in accounts receivable, giving total assets of 40,000. On the other side, the company owes 10,000 to suppliers and has a bank loan of 12,000, making total liabilities 22,000. The owner originally invested 10,000, and the business has retained earnings of 8,000, bringing total equity to 18,000. Adding the liabilities (22,000) and equity (18,000) gives 40,000. The total assets exactly match the combined liabilities and equity, meaning the balance sheet is correct."
+  },
+  "matters": "A balance sheet is critical because it reveals the true financial stability of your business. Without it, you might see high sales but miss that mounting debts threaten your survival. Banks and investors always require this statement before approving loans or providing capital, as it shows whether you have enough liquid assets to cover short-term obligations. Furthermore, reviewing it regularly helps you make informed decisions about taking on new debt or distributing profits. Paper & Pen posts journal entries automatically as you work, making it easy to generate accurate financial statements. Understanding your net worth protects you from cash flow crises and sudden insolvency.",
+  "faqs": [
+    {
+      "q": "What is the difference between a balance sheet and a profit and loss statement?",
+      "a": "A profit and loss statement measures your business revenue and expenses over a specific period, such as a month or a year, to show your net income. In contrast, a balance sheet is a snapshot of what you own and owe at one exact date. You need both documents to understand your complete financial position."
+    },
+    {
+      "q": "Why does a balance sheet always have to balance?",
+      "a": "The statement must balance because of the double-entry bookkeeping system. Every resource your business acquires must be funded by something else. If you buy new equipment, you either pay with cash, take out a loan, or use owner capital. Therefore, your total assets will always equal the sources of those funds, which are your liabilities and equity."
+    }
+  ],
+  "related": [
+    "profit-and-loss-statement",
+    "cash-flow-statement",
+    "general-ledger",
+    "double-entry-bookkeeping",
+    "working-capital"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Ledgers"
+    }
+  ]
+}

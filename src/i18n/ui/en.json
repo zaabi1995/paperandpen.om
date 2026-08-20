@@ -1,5 +1,9 @@
 {
-  "a11y": { "skipToContent": "Skip to main content", "included": "Included", "notIncluded": "Not included" },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "included": "Included",
+    "notIncluded": "Not included"
+  },
   "nav": {
     "features": "Features",
     "solutions": "Solutions",
@@ -7,7 +11,13 @@
     "pricing": "Pricing",
     "compare": "Compare",
     "login": "Log in",
-    "startFree": "Start for Free"
+    "startFree": "Start for Free",
+    "glossary": "Glossary",
+    "home": "Home",
+    "templates": "Invoice templates",
+    "alternatives": "Alternatives",
+    "resources": "Resources",
+    "vat": "VAT by country"
   },
   "mega": {
     "invoicing": "Invoicing & Billing",
@@ -26,7 +36,17 @@
     "receiptGen": "Free Receipt Generator",
     "vatCalc": "Oman VAT Calculator",
     "allFeatures": "Explore all features",
-    "allTools": "All free tools"
+    "allTools": "All free tools",
+    "salescrm": "Sales & CRM",
+    "payments": "Payments",
+    "manufacturing": "Manufacturing",
+    "multilang": "Multi-language",
+    "contracting": "Contracting",
+    "manufacturingInd": "Manufacturing",
+    "wholesale": "Wholesale & distribution",
+    "ecommerce": "E-commerce",
+    "logistics": "Logistics & transport",
+    "estimateGen": "Free Estimate Maker"
   },
   "sticky": {
     "text": "Run your business free, forever."
@@ -226,18 +246,19 @@
     "title": "Everything you need to know"
   },
   "related": {
-    "title": "Explore more"
+    "title": "Explore more",
+    "termsTitle": "Terms on this page, explained"
   },
   "seo": {
     "homeTitle": "Paper & Pen | Free Cloud ERP and Invoicing Software",
     "homeDesc": "Free cloud ERP & invoicing software. Sales, inventory, HR & accounting in 5 languages and any currency. Free forever for Sales & Invoicing.",
-    "fiTitle": "Free Online Invoicing Software · Any Currency, 5 Languages · Paper & Pen",
+    "fiTitle": "Free Online Invoicing Software · Paper & Pen",
     "fiDesc": "Create and send professional invoices in 1 click. Free online invoicing software with VAT/tax, any-currency billing, quotations and receipts. Free forever.",
-    "pricingTitle": "Pricing · Free ERP & Invoicing, Pay Only for Modules You Add · Paper & Pen",
+    "pricingTitle": "Pricing · Paper & Pen",
     "pricingDesc": "Simple pricing. Sales & Invoicing free forever. Add Inventory, HR, Accounting and more as you grow. No credit card to start. Save 20% annually.",
     "faqTitle": "Frequently Asked Questions · Paper & Pen ERP",
     "faqDesc": "Answers about Paper & Pen, the free cloud ERP and invoicing software: pricing, VAT, Arabic, modules, setup and more.",
-    "toolsTitle": "Free Business Tools · Invoice Generator, VAT Calculator & More · Paper & Pen",
+    "toolsTitle": "Free Business Tools · Paper & Pen",
     "toolsDesc": "Free, no-signup business tools: invoice generator, quotation maker, receipt generator, purchase orders, delivery notes and a configurable VAT calculator.",
     "aboutTitle": "About Paper & Pen · Free Cloud ERP, by BHD Group",
     "aboutDesc": "Paper & Pen is built in Oman by Paper and Pen Company LLC, part of BHD Group. A free cloud ERP for businesses worldwide, Arabic-first and multi-currency.",
@@ -249,7 +270,15 @@
     "signupTitle": "Create your free Paper & Pen workspace",
     "signupDesc": "Set up your free Paper & Pen ERP workspace in under 5 minutes. Sales & Invoicing free forever.",
     "loginTitle": "Log in to Paper & Pen",
-    "loginDesc": "Sign in to your Paper & Pen ERP workspace."
+    "loginDesc": "Sign in to your Paper & Pen ERP workspace.",
+    "glossaryTitle": "Accounting Glossary · Paper & Pen",
+    "glossaryDesc": "Plain-English definitions of the accounting, invoicing, VAT and inventory terms small businesses meet, with formulas and worked examples.",
+    "templatesTitle": "Free Invoice Templates by Profession · Paper & Pen",
+    "templatesDesc": "Invoice templates and billing guidance for contractors, consultants, designers, trades and services. What to show, how to price, how to get paid.",
+    "altTitle": "Accounting Software Alternatives · Paper & Pen",
+    "altDesc": "Thinking of switching accounting software? What transfers, what does not, when to cut over, and who is better off staying put.",
+    "vatTitle": "GCC VAT and E-invoicing by Country · Paper & Pen",
+    "vatDesc": "VAT rates, registration thresholds, tax invoice requirements and e-invoicing status for Oman, the UAE, Saudi Arabia and Bahrain, each cited to source."
   },
   "toolsIndex": {
     "title": "Free business tools",
@@ -261,10 +290,14 @@
       "lead": "Paper & Pen is the cloud ERP we wished existed: simple enough to start in five minutes, powerful enough to run the whole company, and finally built for how business actually works in Oman and the Gulf.",
       "body1": "Paper & Pen is made by Paper and Pen Company LLC, part of BHD Group, Oman's AI-first conglomerate. We build software in Oman, by Omanis, for GCC businesses, with Arabic as a first-class language, OMR billing native to the core, and local payment built in.",
       "body2": "Thousands of quotes, invoices and payments flow through Paper & Pen. Sales & Invoicing is free forever because every business deserves professional tools, and you only pay when you grow into inventory, HR, accounting or manufacturing.",
-      "stat1": "Free forever", "stat1l": "Sales & Invoicing",
-      "stat2": "5", "stat2l": "Languages",
-      "stat3": "< 5 min", "stat3l": "To get started",
-      "stat4": "OMR", "stat4l": "Native billing"
+      "stat1": "Free forever",
+      "stat1l": "Sales & Invoicing",
+      "stat2": "5",
+      "stat2l": "Languages",
+      "stat3": "< 5 min",
+      "stat3l": "To get started",
+      "stat4": "OMR",
+      "stat4l": "Native billing"
     },
     "contact": {
       "title": "Talk to us",
@@ -306,15 +339,42 @@
     "docsTitle": "Every business document you need",
     "docsSub": "From the first quote to the final receipt, Paper & Pen creates every document your business sends, then keeps them organised and reconciled automatically.",
     "docs": {
-      "invoices": { "t": "Professional invoices", "d": "Customisable, VAT-ready invoices with your logo, sent in seconds." },
-      "quotes": { "t": "Quotations & estimates", "d": "Win work with branded quotes that convert to invoices in one click." },
-      "proforma": { "t": "Proforma invoices", "d": "Issue proforma invoices for advance payments and customs." },
-      "receipts": { "t": "Payment receipts", "d": "Auto-generate receipts the moment a payment is recorded." },
-      "po": { "t": "Purchase orders", "d": "Raise and track purchase orders to your suppliers." },
-      "delivery": { "t": "Delivery notes", "d": "Issue delivery notes and challans linked to each order." },
-      "recurring": { "t": "Recurring invoices", "d": "Automate repeat billing for subscriptions and retainers." },
-      "reminders": { "t": "Payment reminders", "d": "Automatic, polite reminders so you get paid on time." },
-      "share": { "t": "WhatsApp & email sharing", "d": "Share any document by WhatsApp or email in one tap." }
+      "invoices": {
+        "t": "Professional invoices",
+        "d": "Customisable, VAT-ready invoices with your logo, sent in seconds."
+      },
+      "quotes": {
+        "t": "Quotations & estimates",
+        "d": "Win work with branded quotes that convert to invoices in one click."
+      },
+      "proforma": {
+        "t": "Proforma invoices",
+        "d": "Issue proforma invoices for advance payments and customs."
+      },
+      "receipts": {
+        "t": "Payment receipts",
+        "d": "Auto-generate receipts the moment a payment is recorded."
+      },
+      "po": {
+        "t": "Purchase orders",
+        "d": "Raise and track purchase orders to your suppliers."
+      },
+      "delivery": {
+        "t": "Delivery notes",
+        "d": "Issue delivery notes and challans linked to each order."
+      },
+      "recurring": {
+        "t": "Recurring invoices",
+        "d": "Automate repeat billing for subscriptions and retainers."
+      },
+      "reminders": {
+        "t": "Payment reminders",
+        "d": "Automatic, polite reminders so you get paid on time."
+      },
+      "share": {
+        "t": "WhatsApp & email sharing",
+        "d": "Share any document by WhatsApp or email in one tap."
+      }
     },
     "s1": {
       "eyebrow": "Get paid faster",
@@ -379,7 +439,9 @@
       "proforma": "PROFORMA INVOICE",
       "receipt": "RECEIPT",
       "purchase-order": "PURCHASE ORDER",
-      "delivery-note": "DELIVERY NOTE"
+      "delivery-note": "DELIVERY NOTE",
+      "estimate": "ESTIMATE",
+      "credit-note": "CREDIT NOTE"
     },
     "vatCalc": {
       "amount": "Amount",
@@ -437,7 +499,10 @@
     "support": "Support",
     "help": "Help Center",
     "contactSupport": "Contact Support",
-    "statusPage": "Service Status"
+    "statusPage": "Service Status",
+    "resources": "Resources",
+    "faq": "FAQ",
+    "invoices": "Invoices"
   },
   "signup": {
     "title": "Create your workspace",
@@ -538,5 +603,58 @@
     "forgotPassword": "Forgot password?",
     "noAccount": "Don’t have an account?",
     "signUp": "Start free trial"
+  },
+  "glossary": {
+    "title": "Accounting glossary",
+    "eyebrow": "Plain-English definitions",
+    "sub": "{{count}} accounting, invoicing and tax terms explained in plain English, with the formula and a worked example wherever the arithmetic is what people actually get stuck on.",
+    "filterLabel": "Filter terms",
+    "filterPlaceholder": "Search the glossary",
+    "filterCount": "Showing {{shown}} of {{total}} terms",
+    "definitionTitle": "What is {{term}}?",
+    "mattersTitle": "Why it matters for your business",
+    "faqTitle": "Common questions",
+    "relatedTerms": "Related terms",
+    "seeAlso": "See also",
+    "browseAll": "Browse all glossary terms",
+    "cat": {
+      "invoicing": "Invoicing and documents",
+      "accounting": "Accounting and bookkeeping",
+      "tax": "Tax and VAT",
+      "inventory": "Inventory and costing",
+      "metrics": "Financial metrics"
+    }
+  },
+  "templatesIndex": {
+    "title": "Invoice templates by profession",
+    "eyebrow": "Free templates",
+    "sub": "What an invoice actually has to show for your trade, how that kind of work is normally priced, and how to get paid without chasing. Build the invoice itself in the free generator, no signup."
+  },
+  "altIndex": {
+    "title": "Switching from other accounting software",
+    "eyebrow": "Migration guides",
+    "sub": "What moves across, what does not, the sensible cutover point in a financial year, and an honest note on who should stay where they are."
+  },
+  "vat": {
+    "factsEyebrow": "The figures",
+    "factsTitle": "VAT in {{country}}, at a glance",
+    "colItem": "Item",
+    "colValue": "Value",
+    "colDetail": "Detail and source",
+    "fieldsTitle": "What a {{country}} tax invoice must show",
+    "einvEyebrow": "E-invoicing",
+    "sourcesTitle": "Sources",
+    "sourcesNote": "Every figure and field list on this page is taken from the document linked below, published by the tax authority itself. We do not publish a rate, a threshold or a deadline that we cannot point at.",
+    "authorityNote": "Tax rules change. Before you rely on anything here, check the current position with "
+  },
+  "vatIndex": {
+    "title": "VAT and e-invoicing by country",
+    "eyebrow": "Gulf tax rules",
+    "sub": "Rates, registration thresholds, what a tax invoice must show and where e-invoicing actually stands, one country at a time, with a link to the tax authority text behind every figure.",
+    "whatIsVat": "What is VAT?",
+    "whatIsEinv": "What is e-invoicing?"
+  },
+  "legal": {
+    "englishOnly": "These terms are published in English only. The English text is the authoritative version, and no translation of it is offered as a binding document. If you need them reviewed in another language, contact us and we will help."
   }
 }

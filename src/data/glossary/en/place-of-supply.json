@@ -1,0 +1,52 @@
+{
+  "slug": "place-of-supply",
+  "term": "Place of supply",
+  "category": "tax",
+  "short": "The place of supply is a tax principle that determines the jurisdiction where a transaction occurs, which dictates which country's tax authority has the right to collect value-added tax.",
+  "metaTitle": "Place of supply defined · Paper & Pen",
+  "metaDescription": "Learn how the place of supply rules determine which country collects VAT on your sales, and understand how it affects your international transactions.",
+  "definition": "The place of supply is a fundamental concept in value-added tax and goods and services tax systems. It establishes exactly where a sale of goods or services is legally considered to happen. When you sell something, the place of supply rules tell you whether the transaction is domestic or international. This matters because it dictates which country gets to tax the transaction. If the place of supply is in your home country, you usually must charge local tax. If the place of supply is overseas, the transaction might be zero-rated as an export, or the buyer might need to account for the tax using the reverse charge mechanism. Because tax authorities have strict rules about cross-border trade, understanding where your supply takes place ensures you apply the correct tax treatment to your invoices and remain compliant with local laws.",
+  "how": {
+    "title": "How Place of supply works",
+    "body": "Determining the place of supply involves looking at the nature of what you are selling and the location of your customer. Goods and services follow different rules. For physical goods, the place of supply is generally where the goods are located when the transfer of ownership takes place or where the transport of the goods begins. If you ship a product from a warehouse in Dubai to a customer in Muscat, the supply usually starts in the United Arab Emirates. For services, the rules are more complex. The place of supply often depends on whether your customer is a business or a private consumer. Business-to-business services are typically supplied where the customer is established, while business-to-consumer services might be supplied where the supplier is located.",
+    "items": [
+      "Identify whether you are supplying physical goods or intangible services.",
+      "Determine the physical location of the goods at the time of sale.",
+      "Check if your customer is a registered business or a private individual.",
+      "Identify the country where your customer is legally established or resides.",
+      "Apply the specific tax authority rules to find the correct jurisdiction."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Imagine your business charges a flat fee of 2,000 for a digital service. You sell this to a local client and to an overseas client. For the local client, the place of supply is your home country. If your local tax authority mandates a 50 tax on this amount, you invoice a total of 2,050. For the overseas client, the place of supply is their country. You treat the sale as an export and add no local tax, invoicing exactly 2,000. The overseas buyer then accounts for the tax in their own jurisdiction."
+  },
+  "matters": "Getting the place of supply wrong can lead to serious financial penalties. If you incorrectly treat a domestic sale as an export, you will fail to collect the required tax from your customer. Your local tax authority will still demand that money, forcing you to pay the tax out of your own profit margin. Conversely, charging local tax on an international sale makes your pricing uncompetitive and frustrates foreign buyers. Paper & Pen supports many currencies and 5 languages, helping you issue accurate international invoices once you determine the correct jurisdiction. Correctly identifying the place of supply ensures you stay compliant, pass tax audits, and maintain healthy profit margins.",
+  "faqs": [
+    {
+      "q": "Does the place of supply change if I sell online?",
+      "a": "Yes, selling digital services or software online often triggers special place of supply rules. Many tax authorities require you to charge tax based on where the consumer lives, rather than where your business is based. You must check the specific e-commerce tax rules in the countries where your customers reside to ensure full compliance."
+    },
+    {
+      "q": "What happens if the place of supply is in another country?",
+      "a": "If the transaction occurs in a foreign country, your supply is usually outside the scope of your local tax system. You will not charge your local tax. Instead, the transaction may be treated as an export, or you might need to register for tax in the buyer's country, depending on their specific local laws."
+    }
+  ],
+  "related": [
+    "value-added-tax",
+    "zero-rated-supply",
+    "reverse-charge",
+    "tax-point",
+    "taxable-supply"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing features"
+    },
+    {
+      "href": "/tools/free-invoice-generator",
+      "label": "Free invoice generator"
+    }
+  ]
+}

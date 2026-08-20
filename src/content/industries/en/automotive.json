@@ -1,0 +1,110 @@
+{
+  "locale": "en",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Automotive Workshops",
+  "metaTitle": "ERP for Auto Workshops & Dealers · Paper & Pen",
+  "metaDescription": "Manage estimates, parts inventory, and invoicing for your automotive workshop. Track labour hours and handle warranty billing with our free cloud ERP.",
+  "keywords": "automotive workshop software, auto repair invoicing, mechanic estimate software, garage inventory management, car dealer ERP, warranty billing software, workshop accounting",
+  "heroEyebrow": "For Workshops and Dealers",
+  "heroTitle": "Run your garage with <em class=\"text-copper-400 not-italic\">clear estimates</em> and accurate parts billing.",
+  "heroSubtitle": "Stop losing margin on unbilled parts and untracked labour. Paper & Pen helps automotive workshops issue detailed repair estimates, track inventory down to the part number, and convert approvals directly into final invoices.",
+  "heroBullets": [
+    "Track parts and shop rates",
+    "Convert estimates to invoices",
+    "Manage third-party warranty billing"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Repair estimates",
+      "desc": "Build detailed estimates for customer authorisation. List labour hours, diagnostic fees, and required parts before starting the repair work."
+    },
+    {
+      "icon": "inventory",
+      "title": "Parts and margins",
+      "desc": "Track your stock using exact part numbers. Monitor your buying costs and set selling prices to protect your profit margins."
+    },
+    {
+      "icon": "clock",
+      "title": "Labour at shop rates",
+      "desc": "Add service line items for your mechanics' time. Multiply your standard shop rate by the labour hours required for the job."
+    },
+    {
+      "icon": "invoice",
+      "title": "Third-party billing",
+      "desc": "Invoice the vehicle owner for their deductible and bill the remaining balance directly to the warranty provider or manufacturer."
+    },
+    {
+      "icon": "receipt",
+      "title": "Diagnostic fee credits",
+      "desc": "Apply a diagnostic fee on the initial estimate, then easily credit it back on the final invoice if the customer proceeds with the repair."
+    },
+    {
+      "icon": "truck",
+      "title": "Purchase orders",
+      "desc": "Send purchase orders to your parts suppliers. Log incoming deliveries to update your stock levels automatically before the next job."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Repair Approvals",
+      "title": "From initial diagnosis to final repair bill",
+      "body": "Customers need to know the cost before you put a spanner to the engine. Paper & Pen handles the exact sequence your service advisors use daily. You can issue an initial estimate that includes a diagnostic fee. Once the fault is found, update the estimate with specific parts and labour hours. When the customer authorises the work, you convert that exact estimate into a final invoice. If your policy is to waive the diagnostic charge upon repair approval, simply add a negative line item to credit that fee against the total.",
+      "items": [
+        "Issue clear repair quotations",
+        "Convert approved quotes to invoices",
+        "Credit diagnostic fees easily",
+        "Log labour hours and shop rates"
+      ]
+    },
+    {
+      "eyebrow": "Parts Management",
+      "title": "Protect your margins on every part sold",
+      "body": "A busy workshop handles hundreds of components, from oil filters to brake calipers. If you lose track of what you paid your supplier, you lose your profit margin. Our inventory system lets you log every item by its specific part number. You record the cost price when receiving goods via purchase orders, and set a fixed selling price for your invoices. When a mechanic pulls a part from the shelf and you add it to the repair bill, your stock levels drop automatically and your profit is calculated correctly.",
+      "items": [
+        "Track items by exact part numbers",
+        "Monitor supplier cost prices",
+        "Set profitable selling prices",
+        "Automatically reduce stock on sale"
+      ]
+    },
+    {
+      "eyebrow": "Split Billing",
+      "title": "Handle warranty claims and third-party payers",
+      "body": "Not every repair is paid for by the person driving the car. Dealerships and authorised workshops frequently perform warranty work that must be billed to the manufacturer or an extended warranty company. Paper & Pen allows you to maintain separate customer profiles for these corporate payers. You can generate an invoice for the vehicle owner covering their excess or non-covered wear items, and generate a separate detailed invoice for the warranty provider covering the approved labour codes and replacement parts.",
+      "items": [
+        "Maintain corporate payer profiles",
+        "Invoice warranty providers directly",
+        "Split bills between owner and warranty",
+        "Keep detailed ledgers for all payers"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I integrate this with my mechanic time-tracking software or VIN decoder?",
+      "a": "No. Paper & Pen is a standalone cloud ERP. While you can add labour hours as line items on your invoices and use our HR module for basic payroll, we do not offer live mechanic time clocks, built-in VIN decoding, or direct integrations with third-party auto repair databases."
+    },
+    {
+      "q": "How do I handle a diagnostic fee that gets credited if they do the repair?",
+      "a": "You add the diagnostic fee as a standard service item on the initial quotation. When the customer approves the full repair, you convert the quotation to an invoice, add the required parts and labour, and add a negative line item to deduct the original diagnostic amount."
+    },
+    {
+      "q": "Can I track my parts inventory across different suppliers?",
+      "a": "Yes. You can create purchase orders for different parts suppliers and log the incoming delivery notes. The system updates your inventory quantities and tracks your cost prices, ensuring you know exactly how much margin you make when you bill the customer."
+    },
+    {
+      "q": "Is it possible to bill a warranty company instead of the driver?",
+      "a": "Yes. You simply create a customer profile for the warranty provider. You can then issue the invoice for the covered parts and shop rate labour directly to them, keeping their outstanding balances separate from your retail customers."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Organise your workshop billing today",
+  "ctaSub": "Create detailed estimates, track your parts inventory, and invoice your customers for free."
+}

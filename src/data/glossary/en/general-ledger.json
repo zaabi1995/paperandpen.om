@@ -1,0 +1,53 @@
+{
+  "slug": "general-ledger",
+  "term": "General ledger",
+  "abbr": "GL",
+  "category": "accounting",
+  "short": "A general ledger is the master accounting record of a business, containing all financial transactions categorised by account to track assets, liabilities, equity, revenue and expenses.",
+  "metaTitle": "General ledger defined · Paper & Pen",
+  "metaDescription": "Learn what a general ledger is, how it records your financial transactions and why it forms the foundation of accurate business accounting.",
+  "definition": "Think of the general ledger as the central nervous system of your business accounting. Every financial transaction you make eventually lands here. When you issue an invoice, pay a supplier or buy new equipment, the details are recorded into specific accounts within the general ledger. It uses the double-entry bookkeeping system, meaning every entry has a matching debit and credit.\n\nYou rely on this master record to generate all your major financial reports. It holds the complete history of your assets, liabilities, equity, revenue and expenses. Without a well-maintained general ledger, you cannot produce an accurate balance sheet or profit and loss statement. While older businesses used physical books with separate pages for each account, modern software handles this automatically in the background as you log your daily business activities.",
+  "how": {
+    "title": "How General ledger works",
+    "body": "The process begins when a financial transaction occurs, such as a customer paying a bill or your business purchasing inventory. First, you or your bookkeeper record this event as a journal entry, noting the date, amount and the specific accounts involved. Next, these journal entries are posted to the general ledger. The ledger categorises the data into five main groups: assets, liabilities, equity, revenue and expenses.\n\nAs entries accumulate, the ledger updates the running balance for every individual account. At the end of an accounting period, you calculate the closing balances of these accounts to create a trial balance. If total debits equal total credits, the ledger is balanced. Finally, you use these validated balances to generate your official financial statements.",
+    "items": [
+      "A business transaction occurs and generates a source document like a receipt.",
+      "The transaction is recorded as a journal entry with debits and credits.",
+      "The journal entry is posted to the corresponding general ledger accounts.",
+      "The ledger calculates a running balance for every individual financial account.",
+      "The final account balances are extracted to prepare a trial balance.",
+      "The balanced data flows directly into your primary financial statements."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading Co purchases new office furniture for 2,000. To record this in the general ledger, the bookkeeper posts a journal entry affecting two accounts. They debit the Office Equipment asset account by 2,000, increasing its balance. Simultaneously, they credit the Cash asset account by 2,000, decreasing its balance. If the previous Cash balance was 15,000, the new general ledger balance for Cash becomes 13,000 (15,000 minus 2,000). The total assets remain unchanged, keeping the fundamental accounting equation in perfect balance across the ledger."
+  },
+  "matters": "Maintaining an accurate general ledger is critical because it dictates the health of your entire financial reporting system. If an entry is posted to the wrong ledger account, your tax filings and profit calculations will be incorrect. This can lead to overpaying corporate income tax or facing penalties during an audit. A clean ledger allows you to spot unusual expenses quickly and proves your financial stability to banks when you apply for a loan. Using a system like Paper & Pen, which posts journal entries automatically as you work, eliminates manual transfer errors and keeps your books audit-ready.",
+  "faqs": [
+    {
+      "q": "What is the difference between a journal and a general ledger?",
+      "a": "A journal is the original book of entry where you record transactions chronologically as they happen. The general ledger is the final book of entry. It takes the chronological data from your journals and organises it by specific accounts, such as cash or inventory, so you can see individual balances."
+    },
+    {
+      "q": "Can a general ledger be out of balance?",
+      "a": "Yes, if you use manual bookkeeping, a general ledger can fall out of balance due to human error. This happens if a debit is recorded without a matching credit, or if numbers are transposed during data entry. Modern accounting software prevents this by requiring balanced entries before saving the transaction."
+    }
+  ],
+  "related": [
+    "journal-entry",
+    "chart-of-accounts",
+    "trial-balance",
+    "double-entry-bookkeeping"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Manage your ledgers"
+    }
+  ]
+}

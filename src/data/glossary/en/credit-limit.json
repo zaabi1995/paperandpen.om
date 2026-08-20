@@ -1,0 +1,51 @@
+{
+  "slug": "credit-limit",
+  "term": "Credit limit",
+  "category": "accounting",
+  "short": "A credit limit is the maximum amount of unpaid invoices a business allows a specific customer to accumulate before requiring payment to release further goods or services.",
+  "metaTitle": "What is a Credit Limit? · Paper & Pen",
+  "metaDescription": "Learn how a credit limit protects your cash flow by capping the amount of unpaid invoices a customer can owe your business at any given time.",
+  "definition": "When you sell on credit, you essentially lend money to your customers. A credit limit is the financial boundary you set to control this risk. It represents the total outstanding balance a client can owe you before you pause their account and demand payment. Setting this cap protects your working capital and prevents a single buyer from accumulating a debt they cannot repay.\n\nYou should base a customer's credit limit on their trading history, financial stability, and the references they provide. New customers typically start with a low limit to test their payment reliability. As they prove their ability to settle invoices on time, you can gradually increase their allowance. This practice ensures you maintain healthy cash flow while still offering flexible payment terms to encourage larger orders.",
+  "how": {
+    "title": "How Credit limit works",
+    "body": "The process begins when a customer applies for credit terms with your business. You evaluate their creditworthiness and assign a maximum outstanding balance. Whenever the customer places a new order, you check their current unpaid balance against this limit. If the new order keeps them under the cap, you approve the sale and issue an invoice. If the order pushes their balance over the limit, you place the order on hold. You then contact the customer to request a partial or full payment on their older invoices before you release the new goods. Once they make a payment, their available credit increases, allowing normal trading to resume.",
+    "items": [
+      "Assess the customer's financial health and trading history.",
+      "Set a maximum allowable unpaid balance for the account.",
+      "Monitor the total value of all outstanding invoices.",
+      "Compare new orders against the remaining available credit.",
+      "Require payment for older invoices when the limit is reached."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC sets a credit limit of $10,000 for a new retail client. In the first week, the client buys goods worth $4,000 on 30-day payment terms. Their available credit drops to $6,000. Two weeks later, the client places another order for $7,000.\n\nSince the total outstanding balance would become $11,000 ($4,000 + $7,000), this exceeds the $10,000 limit. Gulf Trading LLC holds the new order and asks the client to pay the initial $4,000 invoice early. Once the client pays the $4,000, their available credit returns to $10,000, and the $7,000 order is approved and dispatched."
+  },
+  "matters": "Enforcing credit limits is a fundamental practice for protecting your business from bad debts. If you allow customers unlimited credit, a single client's financial failure could severely damage your own cash flow. By capping exposure, you ensure that unpaid invoices never grow large enough to threaten your operations.\n\nStrict limits also force regular communication with your buyers, prompting them to settle accounts faster if they want to place new orders. Paper & Pen tracks your stock and creates invoices, making it easy to monitor customer balances before approving new sales. This discipline keeps your working capital healthy and predictable.",
+  "faqs": [
+    {
+      "q": "How do I decide the right credit limit for a new customer?",
+      "a": "Start with a conservative figure based on the average size of their initial orders. You might ask for trade references or review their financial statements to gauge their reliability. As the customer builds a history of paying your invoices on time over several months, you can confidently increase their limit to accommodate larger purchases."
+    },
+    {
+      "q": "What should I do if a customer exceeds their credit limit?",
+      "a": "You should immediately place any new orders on hold. Contact the customer to explain that their account has reached its maximum allowance. Request a payment to clear their oldest outstanding invoices before you process the new order. This firm approach protects your cash flow and trains your clients to respect your payment terms."
+    }
+  ],
+  "related": [
+    "accounts-receivable",
+    "bad-debt",
+    "payment-terms",
+    "aging-report"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing features"
+    },
+    {
+      "href": "/invoicing/payment-reminders",
+      "label": "Payment reminders"
+    }
+  ]
+}

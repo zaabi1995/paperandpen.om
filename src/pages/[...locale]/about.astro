@@ -10,11 +10,11 @@ import { graph, organization, breadcrumbList } from '@/lib/schema';
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
-const crumbs = [{ name: 'Home', url: '/' }, { name: t('footer.about'), url: '/about' }];
+const crumbs = [{ name: t('nav.home'), url: '/' }, { name: t('footer.about'), url: '/about' }];
 const jsonld = [graph(organization(), breadcrumbList(crumbs))];
 ---
 <BaseLayout {locale} path="/about" title={t('seo.aboutTitle')} description={t('seo.aboutDesc')} {jsonld}>
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.about') }]} />
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.about') }]} />
   <section class="section-pad bg-cream-50 relative overflow-hidden">
     <div class="absolute inset-0 bg-paper-texture pointer-events-none"></div>
     <div class="relative max-w-3xl mx-auto text-center">

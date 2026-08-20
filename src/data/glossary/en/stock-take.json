@@ -1,0 +1,52 @@
+{
+  "slug": "stock-take",
+  "term": "Stock take",
+  "category": "inventory",
+  "short": "A stock take is the physical verification of the quantities and condition of items held in an inventory room or warehouse at a specific point in time.",
+  "metaTitle": "Stock take defined · Paper & Pen",
+  "metaDescription": "Learn how a stock take works, the difference between periodic and cycle counting, and how to handle inventory variances in your business.",
+  "definition": "A stock take, also known as an inventory count, involves manually counting all the goods your business currently holds. You compare this physical count against the records in your inventory management system to ensure they match. If the numbers differ, you have an inventory variance. A negative variance means you have less stock than expected, which could point to theft, damage, or recording errors. A positive variance means you have more stock, usually caused by unrecorded supplier deliveries or sales mistakes.\n\nBusinesses typically choose between two methods. A periodic stock take requires counting everything at once, often at the end of the financial year, which usually means pausing operations. Cycle counting is an ongoing process where you count small sections of inventory regularly throughout the year, minimising disruption.",
+  "how": {
+    "title": "How Stock take works",
+    "body": "To conduct a successful stock take, you need a clear plan and organised inventory. First, choose a time when stock movement is minimal, such as after business hours or during a weekend. Freeze all inventory transactions so nothing enters or leaves the warehouse while counting.\n\nPrint count sheets from your system, but hide the expected quantities so staff count exactly what is on the shelf. Assign workers in pairs to count specific sections, ensuring one person counts while the other records. Once the counting finishes, enter the physical numbers into your system to identify any discrepancies. Finally, investigate large variances and post an adjustment journal entry to update your financial records.",
+    "items": [
+      "Organise the warehouse and label all shelves clearly before counting.",
+      "Freeze all stock movements to prevent changes during the count.",
+      "Print blind count sheets that do not show expected system quantities.",
+      "Count every item physically and record the actual quantities found.",
+      "Compare the physical count to system records to find variances.",
+      "Adjust the inventory ledger to reflect the true physical stock levels."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Electronics sells mobile phone chargers. The inventory system shows 500 units in stock at a cost of $10 each, meaning a total inventory value of $5,000. During the annual stock take, the staff physically count only 485 chargers on the shelves.\n\nThis creates a negative variance of 15 units (500 expected minus 485 actual). To correct the records, the business must reduce its inventory count by 15 units. The lost value is $150 (15 units multiplied by $10). Gulf Electronics posts an adjustment to decrease the inventory asset account by $150 and increase the cost of goods sold or inventory shrinkage expense by $150."
+  },
+  "matters": "Accurate stock takes are essential for reliable financial reporting and healthy cash flow. If your system overstates inventory, you might fail to reorder crucial items, leading to stockouts and lost sales. If it understates inventory, you risk tying up working capital by ordering goods you already have. Regular counting also helps you identify theft, spoilage, or poor warehouse management early. Correct inventory values ensure your balance sheet and profit and loss statement reflect reality, which is vital for tax compliance and securing loans. Paper & Pen tracks your stock levels automatically, making it easier to spot discrepancies during your count.",
+  "faqs": [
+    {
+      "q": "How often should a business do a stock take?",
+      "a": "The frequency depends on your business model and inventory volume. Retailers and trading companies often perform a full periodic count annually for tax and accounting purposes. However, many businesses also use cycle counting, checking high-value or fast-moving items weekly or monthly. Regular counting prevents massive year-end discrepancies and keeps your purchasing decisions accurate."
+    },
+    {
+      "q": "What causes an inventory variance?",
+      "a": "Variances happen when physical stock does not match system records. Common causes include administrative errors, such as forgetting to record a supplier delivery or a customer return. Physical issues like theft, damage, or placing items on the wrong shelf also create discrepancies. Investigating these variances helps you improve warehouse security and tighten your administrative processes."
+    }
+  ],
+  "related": [
+    "inventory-turnover",
+    "sku",
+    "safety-stock",
+    "cost-of-goods-sold"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory management"
+    },
+    {
+      "href": "/industries/retail",
+      "label": "Retail software"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "accrual-accounting",
+  "term": "Accrual accounting",
+  "category": "accounting",
+  "short": "Accrual accounting is a financial method where you record revenue when a sale occurs and expenses when you receive goods or services, regardless of when the actual cash changes hands.",
+  "metaTitle": "What is Accrual Accounting? · Paper & Pen",
+  "metaDescription": "Learn how accrual accounting records revenue and expenses when they occur, giving your business a more accurate picture of long-term profitability.",
+  "definition": "Accrual accounting requires you to recognise financial events as they happen, rather than waiting for money to enter or leave your bank account. If you deliver a service in November, you record the revenue in November, even if the client pays your invoice in December. The same principle applies to your expenses. When you receive supplies, you log the cost immediately, even if you have thirty days to pay the supplier. This matching principle ensures that your income and the costs associated with generating that income appear in the same reporting period. While it requires tracking accounts receivable and accounts payable, this method provides a highly accurate view of your financial health and obligations over time. Many tax authorities require larger businesses to use this method for corporate tax and VAT reporting.",
+  "how": {
+    "title": "How Accrual accounting works",
+    "body": "The accrual method relies on double-entry bookkeeping to track money you are owed and money you owe others. When you make a sale on credit, you issue a tax invoice and immediately record the revenue. Because you have not received cash, you also record a corresponding increase in accounts receivable. When the client finally pays, you do not record new revenue. Instead, you decrease your accounts receivable and increase your cash balance. Purchasing works the same way in reverse. You record an expense when you receive a vendor bill, increasing your accounts payable. Paying that bill later simply reduces your payable balance and your cash. This ongoing process requires you to reconcile your bank statements regularly to ensure your recorded transactions match your actual cash flow.",
+    "items": [
+      "Deliver goods or services to your customer and issue a tax invoice.",
+      "Record the sales revenue and increase your accounts receivable balance immediately.",
+      "Receive the customer payment in your bank account at a later date.",
+      "Increase your cash balance and decrease your accounts receivable by the payment amount.",
+      "Record expenses as soon as you receive a supplier bill, increasing accounts payable."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Imagine your IT agency completes a network installation for 5,000 OMR on 20 November. You issue an invoice with net-30 terms. Under accrual accounting, you record 5,000 OMR in revenue for November. On 5 December, you buy server racks for 1,000 OMR on credit, recording a 1,000 OMR expense for December. The client pays the 5,000 OMR on 18 December, and you pay your supplier 1,000 OMR on 4 January. Your November profit shows as 5,000 OMR. Your December profit shows as negative 1,000 OMR. The actual cash movements in December and January do not change when the profit is recognised."
+  },
+  "matters": "Using the accrual method gives you a realistic picture of your company's financial trajectory. If you only look at cash, a sudden drop in bank balance might cause panic, even if you have thousands in pending invoices. Accrual accounting smooths out these cash flow bumps by matching your earned income against your incurred costs. This visibility is essential when applying for bank loans or seeking investors, as financial institutions require standard financial statements. Paper & Pen automatically posts the correct journal entries when you create invoices and bills, keeping your ledgers accurate.",
+  "faqs": [
+    {
+      "q": "What is the difference between cash and accrual accounting?",
+      "a": "Cash accounting only records transactions when money physically changes hands. Accrual accounting records revenue when you earn it and expenses when you incur them. If you sell a product on credit, the accrual method recognises the sale immediately, while the cash method waits until the customer actually pays you."
+    },
+    {
+      "q": "Do I have to use accrual accounting for VAT?",
+      "a": "Tax authorities generally require you to account for VAT based on the date of supply or the invoice date, whichever happens first. This aligns closely with accrual accounting principles. Each country sets its own specific rules and thresholds, so you should consult your local tax authority to confirm your exact filing obligations."
+    }
+  ],
+  "related": [
+    "cash-basis-accounting",
+    "accounts-receivable",
+    "accounts-payable",
+    "double-entry-bookkeeping",
+    "general-ledger"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Cloud Accounting"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "General Ledgers"
+    }
+  ]
+}

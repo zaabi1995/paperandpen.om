@@ -1,0 +1,61 @@
+{
+  "slug": "break-even-point",
+  "term": "Break-even point",
+  "abbr": "BEP",
+  "category": "metrics",
+  "short": "The break-even point is the exact moment when a business generates enough revenue to cover all its fixed and variable costs, resulting in neither a profit nor a loss.",
+  "metaTitle": "What is the Break-even point? · Paper & Pen",
+  "metaDescription": "Learn how to calculate your break-even point to know exactly when your business covers its costs and starts making a profit.",
+  "definition": "The break-even point represents the specific volume of sales where your total business revenue equals your total business expenses. When you reach this target, you have paid for all the materials used to make your products and all the fixed overheads required to run your operations. At this exact stage, your net profit is zero. Every sale you make after crossing this threshold contributes directly to your profit margin. Understanding this concept helps you set realistic sales targets and price your goods or services correctly. If you do not know this number, you might sell hundreds of items but still lose money because your prices are too low to cover your fixed monthly bills. Calculating it gives you a clear financial milestone to aim for each month or financial year.",
+  "how": {
+    "title": "How Break-even point works",
+    "body": "To find your break-even point, you must first separate your business expenses into two categories: fixed costs and variable costs. Fixed costs remain the same regardless of how much you sell, such as rent and insurance. Variable costs change based on your production volume, like raw materials and packaging. Next, you determine the selling price of a single unit of your product. By subtracting the variable cost per unit from the selling price, you find your contribution margin. This margin is the amount each sale contributes toward paying off your fixed costs. Finally, you divide your total fixed costs by this contribution margin. The result tells you exactly how many units you need to sell to clear all expenses and start generating a profit.",
+    "items": [
+      "Identify all your fixed costs that do not change with sales volume.",
+      "Calculate the variable costs directly tied to producing one single unit.",
+      "Set the final selling price for one unit of your product or service.",
+      "Subtract the unit variable cost from the selling price to find the contribution margin.",
+      "Divide total fixed costs by the contribution margin to get the break-even volume."
+    ]
+  },
+  "formula": {
+    "label": "Break-even point (in units)",
+    "expr": "Total Fixed Costs / (Selling Price per Unit - Variable Cost per Unit)",
+    "note": "The denominator represents your contribution margin per unit. The final result indicates the exact number of units you must sell to break even."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Kerala Spices LLC sells premium cardamom packets. The business pays 2,000 in fixed monthly rent and salaries. Each packet sells for 15. The variable cost to buy and package the cardamom is 5 per packet. First, calculate the contribution margin by subtracting the variable cost (5) from the selling price (15), which equals 10. Next, divide the fixed costs (2,000) by the contribution margin (10). The result is 200. Kerala Spices LLC must sell exactly 200 packets of cardamom each month to break even. The 201st packet sold will begin generating a profit."
+  },
+  "matters": "Knowing your break-even point is critical for assessing the viability of a new business idea or a new product line. It tells you exactly how much pressure is on your sales team and whether your pricing strategy makes sense. If your required break-even volume is impossibly high, you must either raise your prices, negotiate cheaper materials, or reduce your fixed overheads. Tracking these numbers manually can lead to errors. Paper & Pen helps by tracking stock and posting journal entries, keeping your cost data organised. When you monitor this metric regularly, you make objective decisions about scaling your operations rather than relying on guesswork.",
+  "faqs": [
+    {
+      "q": "How can I lower my break-even point?",
+      "a": "You can lower it by reducing your fixed costs, decreasing your variable costs per unit, or increasing your selling price. Negotiating cheaper rent or finding a more affordable supplier for raw materials will drop the number of sales required to cover your expenses. Raising prices also works, provided your customers accept the increase."
+    },
+    {
+      "q": "Does the break-even point change over time?",
+      "a": "Yes, it changes whenever your costs or prices fluctuate. If your landlord increases the rent, your fixed costs rise, pushing your break-even point higher. Similarly, if you offer a seasonal discount on your products, your contribution margin shrinks, meaning you must sell a higher volume of goods to cover the same expenses."
+    }
+  ],
+  "related": [
+    "cost-of-goods-sold",
+    "gross-margin",
+    "overheads",
+    "profit-and-loss-statement"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/reports",
+      "label": "View financial reports"
+    },
+    {
+      "href": "/features/accounting",
+      "label": "Explore accounting features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Manage your ledgers"
+    }
+  ]
+}

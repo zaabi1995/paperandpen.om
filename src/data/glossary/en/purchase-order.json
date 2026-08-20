@@ -1,0 +1,58 @@
+{
+  "slug": "purchase-order",
+  "term": "Purchase order",
+  "abbr": "PO",
+  "category": "invoicing",
+  "short": "A purchase order is a legally binding document issued by a buyer to a supplier, authorising a purchase and detailing the exact items, quantities and agreed prices.",
+  "metaTitle": "What is a Purchase Order? · Paper & Pen",
+  "metaDescription": "Learn what a purchase order is, how it creates a binding agreement with suppliers, and why it is essential for accurate inventory and financial tracking.",
+  "definition": "A purchase order is your formal request to buy goods or services from a supplier. When the supplier accepts it, the document becomes a legally binding contract. It outlines exactly what you want, how many units you need, the agreed price and the expected delivery date. By issuing a purchase order before a transaction takes place, you protect your business from unexpected price increases and misunderstandings about the order details.\n\nIn accounting and inventory management, this document is the first step in the purchasing cycle. It forms the foundation for the three-way match, a crucial internal control process where you compare the purchase order against the goods receipt and the final supplier invoice to ensure you only pay for what you actually ordered and received.",
+  "how": {
+    "title": "How Purchase order works",
+    "body": "The purchasing process begins when you identify a need for goods or services and draft a purchase order detailing your requirements. You send this document to your supplier for review. Once the supplier accepts the order, they begin preparing your items for delivery. When the goods arrive, your receiving staff checks the delivery note against the original purchase order to confirm the correct items and quantities arrived. Finally, the supplier sends an invoice for payment. Your accounts payable team then performs a three-way match, comparing the purchase order, the receiving record and the invoice. If all three documents align perfectly, the invoice is approved for payment.",
+    "items": [
+      "Buyer identifies a need and drafts the document with item details.",
+      "Buyer sends the formal document to the supplier for approval.",
+      "Supplier accepts the order, creating a legally binding contract.",
+      "Supplier delivers the goods with a corresponding delivery note.",
+      "Buyer compares the received goods against the original order.",
+      "Accounts payable matches the order, receipt and invoice before payment."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC needs to restock office supplies. They issue a purchase order to City Stationers for 50 boxes of printer paper at $20 per box and 10 ink cartridges at $45 each. The purchase order lists a subtotal of $1,000 for the paper (50 x $20) and $450 for the ink (10 x $45), resulting in a total order value of $1,450. When City Stationers delivers the goods, Gulf Trading checks the delivery against this $1,450 purchase order. If only 40 boxes of paper arrive, the buyer knows immediately that the delivery is incomplete."
+  },
+  "matters": "Using purchase orders gives you strict control over your business spending. Without them, employees might order goods informally, leaving you unsure of what was authorised or what price was agreed upon. This lack of documentation often leads to overpaying suppliers or accepting incorrect deliveries. A formal purchase order system prevents these errors and provides a clear audit trail for your accountant. It also helps you manage cash flow by showing exactly what payments are upcoming. Using a system like Paper & Pen, which tracks stock and creates invoices for free forever, makes managing these procurement documents straightforward.",
+  "faqs": [
+    {
+      "q": "What is the difference between a purchase order and an invoice?",
+      "a": "A buyer issues a purchase order before a transaction to request goods and state the agreed price. A supplier issues an invoice after delivering the goods to request payment. The purchase order acts as the initial contract, while the invoice serves as the final bill for the completed order."
+    },
+    {
+      "q": "Can a supplier reject a purchase order?",
+      "a": "Yes, a supplier can reject the document if they cannot fulfil the request. This might happen if the requested items are out of stock, the buyer proposes an incorrect price, or the requested delivery date is impossible to meet. If rejected, the buyer must issue a revised document with updated terms."
+    },
+    {
+      "q": "Why is the three-way match important?",
+      "a": "The three-way match is an internal control that prevents fraud and accidental overpayments. By verifying that the purchase order, the receiving report and the supplier invoice all show the same quantities and prices, a business ensures it only pays for goods that were properly authorised and physically received."
+    }
+  ],
+  "related": [
+    "sales-order",
+    "invoice",
+    "accounts-payable",
+    "delivery-note",
+    "bill-of-materials"
+  ],
+  "seeAlso": [
+    {
+      "href": "/invoicing/purchase-orders",
+      "label": "Manage Purchase Orders"
+    },
+    {
+      "href": "/tools/free-purchase-order-generator",
+      "label": "Free PO Generator"
+    }
+  ]
+}

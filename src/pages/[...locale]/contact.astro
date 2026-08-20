@@ -8,11 +8,11 @@ import { graph, organization, breadcrumbList } from '@/lib/schema';
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
-const crumbs = [{ name: 'Home', url: '/' }, { name: t('footer.contact'), url: '/contact' }];
+const crumbs = [{ name: t('nav.home'), url: '/' }, { name: t('footer.contact'), url: '/contact' }];
 const jsonld = [graph(organization(), breadcrumbList(crumbs))];
 ---
 <BaseLayout {locale} path="/contact" title={t('seo.contactTitle')} description={t('seo.contactDesc')} {jsonld}>
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.contact') }]} />
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.contact') }]} />
   <section class="section-pad bg-cream-50">
     <div class="max-w-2xl mx-auto text-center">
       <h1 class="font-display text-4xl lg:text-5xl font-bold text-ink-500 mb-5">{t('pages.contact.title')}</h1>

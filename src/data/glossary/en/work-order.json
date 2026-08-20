@@ -1,0 +1,53 @@
+{
+  "slug": "work-order",
+  "term": "Work order",
+  "abbr": "WO",
+  "category": "inventory",
+  "short": "A work order is an internal document that authorises and details the specific tasks, materials and labour required to manufacture a product or complete a service.",
+  "metaTitle": "Work Order Definition · Paper & Pen",
+  "metaDescription": "Learn what a work order is, how it functions in inventory management, and why it is essential for tracking materials and labour costs in your business.",
+  "definition": "When a customer places an order or your stock levels drop below a certain threshold, you need a structured way to initiate production or service delivery. A work order serves as this formal instruction. It tells your production team exactly what needs to be built, repaired or serviced.\n\nYou will typically generate a work order from a sales order or a bill of materials. It outlines the raw materials required, the step-by-step instructions for the task and the estimated time it should take. By acting as a central reference point, it ensures that your staff know their responsibilities and your inventory system can correctly allocate components. Once the job is finished, the work order is closed, allowing you to record the actual time and materials used against your initial estimates.",
+  "how": {
+    "title": "How Work order works",
+    "body": "The process begins when a requirement is identified, either from a confirmed customer request or an internal need to replenish stock. A manager or automated system creates the work order, assigning a unique tracking number and specifying the exact items to be produced.\n\nNext, the inventory department reviews the document to allocate the necessary raw materials. If stock is insufficient, a purchase order must be raised first. Once materials are ready, the production team executes the tasks outlined in the document. Workers log their hours and any additional materials consumed during the process. Finally, a supervisor reviews the completed job, updates the inventory records to reflect the finished goods and closes the work order. This final step transfers the accumulated costs into your inventory valuation.",
+    "items": [
+      "Identify the production requirement from a sales order or stock alert.",
+      "Draft the document detailing tasks, required materials and assigned personnel.",
+      "Allocate raw materials from your inventory based on the bill of materials.",
+      "Execute the production tasks while recording actual labour hours and material usage.",
+      "Close the document and update your stock records with the finished goods."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Furniture Manufacturing receives a sales order for 10 custom wooden dining tables. The production manager creates a work order detailing the requirement. The bill of materials specifies that each table needs 5 square metres of oak wood (costing $40 per square metre) and 3 hours of labour (at $20 per hour).\n\nFor 10 tables, the work order allocates 50 square metres of oak wood ($2,000) and 30 hours of labour ($600). Upon completion, the total cost recorded on the work order is $2,600. This amount is then transferred to the finished goods inventory, establishing a unit cost of $260 per table."
+  },
+  "matters": "Using work orders brings discipline to your production and servicing processes. Without them, you risk wasting raw materials, misallocating labour and losing track of your true manufacturing costs. A clear work order ensures that every team member understands their specific tasks, which reduces errors and delays on the shop floor.\n\nFurthermore, these documents provide a vital paper trail for cost accounting. By comparing the estimated costs on the work order with the actual materials and time consumed, you can identify inefficiencies in your operations. Paper & Pen tracks stock and posts journal entries, helping you maintain accurate inventory valuations as work orders are completed.",
+  "faqs": [
+    {
+      "q": "What is the difference between a work order and a purchase order?",
+      "a": "A purchase order is an external document sent to a supplier to buy goods or services. In contrast, a work order is an internal document used to instruct your own employees to manufacture a product, perform maintenance or deliver a service. You might use a purchase order to buy the raw materials needed to complete a work order."
+    },
+    {
+      "q": "Can a work order be used for services instead of manufacturing?",
+      "a": "Yes, service-based businesses frequently use work orders. For example, an IT support company or an air conditioning maintenance firm will issue a work order to a technician. This document will detail the client's location, the reported issue, the parts required for the repair and the expected time to complete the service call."
+    }
+  ],
+  "related": [
+    "bill-of-materials",
+    "sales-order",
+    "purchase-order",
+    "cost-of-goods-sold",
+    "inventory-turnover"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/manufacturing",
+      "label": "Manufacturing features"
+    },
+    {
+      "href": "/features/inventory",
+      "label": "Inventory management"
+    }
+  ]
+}

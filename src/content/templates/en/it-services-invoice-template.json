@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "slug": "it-services-invoice-template",
+  "order": 17,
+  "title": "IT Services Invoice Template",
+  "metaTitle": "IT Services Invoice Template · Paper & Pen",
+  "metaDescription": "Create professional IT services invoices. Bill for managed services, hardware, software licences, and project milestones with our free invoice generator.",
+  "keywords": "IT services invoice template, managed service provider invoice, IT support billing, software licence invoice, hardware resale invoice, IT consulting invoice, MSP billing template",
+  "heroEyebrow": "Free IT Billing Template",
+  "heroTitle": "Bill for IT support and <em class=\"text-copper-400 not-italic\">managed services</em> accurately",
+  "heroSubtitle": "Stop using generic templates for complex IT billing. Create clear invoices that separate hardware sales, software licence pass-throughs, project milestones, and recurring managed service contracts.",
+  "heroBullets": [
+    "Bill per user or per device",
+    "Separate hardware and software lines",
+    "Invoice for out-of-scope incidents"
+  ],
+  "features": [
+    {
+      "icon": "users",
+      "title": "Per-user service contracts",
+      "desc": "Bill your managed service clients based on their active headcount. Update quantities easily each billing cycle to reflect new hires and departing staff."
+    },
+    {
+      "icon": "inventory",
+      "title": "Hardware resale lines",
+      "desc": "List servers, laptops, and networking gear as distinct line items. Keep hardware costs separate from your service labour to maintain clear profit margins."
+    },
+    {
+      "icon": "lock",
+      "title": "Software licence renewals",
+      "desc": "Pass through the costs of antivirus, backup software, and cloud storage licences. Group these renewals together so clients understand their recurring software overhead."
+    },
+    {
+      "icon": "bolt",
+      "title": "Incident and break-fix work",
+      "desc": "Charge for emergency callouts and out-of-scope repairs. Detail the specific problem resolved and the hours worked to justify the additional billing outside their contract."
+    },
+    {
+      "icon": "chart",
+      "title": "Project milestone billing",
+      "desc": "Split large network installations or server migrations into manageable stages. Invoice your clients when specific phases are completed and signed off."
+    },
+    {
+      "icon": "invoice",
+      "title": "Recurring invoice scheduling",
+      "desc": "Set up your monthly managed service agreements once and let the system generate the invoice automatically. Save hours of manual data entry every month."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Invoice Requirements",
+      "title": "What an IT services invoice must show",
+      "body": "A generic invoice fails when you need to bill for a mix of hardware, software, and labour. Your IT services invoice must clearly separate these categories. Clients need to see exactly what they are paying for to approve the payment quickly. Hardware sales require serial numbers and warranty periods. Software licences need renewal dates and user quantities. Service contracts must state the coverage period and the number of supported devices or users. If you completed out-of-scope work, you must describe the incident and the resolution. You can build this exact layout using our free invoice generator at /tools/free-invoice-generator without creating an account.",
+      "items": [
+        "Hardware line items with serial numbers",
+        "Software licence names and renewal dates",
+        "Coverage periods for managed service contracts",
+        "Clear descriptions of out-of-scope incident work"
+      ]
+    },
+    {
+      "eyebrow": "Billing Models",
+      "title": "How IT services work is priced and billed",
+      "body": "IT providers usually mix several pricing models on a single invoice. Managed services are typically billed at a flat monthly rate per user or per device. This covers standard support and maintenance. Hardware and software are billed as one-off purchases or annual pass-through costs. Project work, like a complete office network installation, is usually priced as a fixed fee and billed at specific milestones. Finally, break-fix work or emergency support outside the main contract is billed at an hourly rate. Your invoice must handle all these different billing methods simultaneously without confusing the client.",
+      "items": [
+        "Monthly flat rates per user or device",
+        "One-off hardware and equipment sales",
+        "Annual software licence pass-through costs",
+        "Fixed fees for project milestone completion",
+        "Hourly rates for emergency break-fix support"
+      ]
+    },
+    {
+      "eyebrow": "Payment Terms",
+      "title": "Getting paid for your IT services",
+      "body": "Managing cash flow is critical when you buy hardware on behalf of clients. Always take a deposit before ordering expensive servers or networking equipment. For monthly managed services, set strict payment terms of seven or fourteen days. State these terms clearly on every document. If a client ignores a payment, send a polite reminder immediately. Do not let unpaid invoices stack up while you continue to provide daily technical support. You can send payment reminders directly from your billing software to chase late payers without writing awkward emails yourself.",
+      "items": [
+        "Require deposits before purchasing expensive hardware",
+        "Set strict terms for monthly service contracts",
+        "State payment deadlines clearly on the invoice",
+        "Send immediate reminders for overdue accounts"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How should I bill for hardware purchases?",
+      "a": "Always list hardware as a separate line item on your invoice. Include the make, model, and serial number for warranty purposes. Because hardware requires upfront capital, you should request a deposit before placing the order with your distributor. This protects your cash flow and ensures the client is committed to the purchase before you take delivery of the equipment."
+    },
+    {
+      "q": "Can I invoice for software licences?",
+      "a": "Yes, you can pass the cost of software licences through to your clients. Group these items together on the invoice. Be sure to include the name of the software, the number of seats or users, and the exact dates of the coverage period. This helps clients understand their recurring software costs and prepares them for the next renewal cycle."
+    },
+    {
+      "q": "How do I handle out-of-scope support requests?",
+      "a": "When a client requests help for an issue not covered by their managed service contract, bill it as a separate line item. Describe the specific incident, the steps taken to resolve it, and the total hours worked. Clear documentation prevents disputes and helps the client understand why they are being charged an additional hourly rate on top of their monthly fee."
+    },
+    {
+      "q": "What is the best way to bill for large IT projects?",
+      "a": "Large projects like server migrations should be billed in stages. Agree on a fixed total price and divide it into milestones. You might invoice a deposit upfront, another payment when the equipment is installed, and the final balance upon testing and handover. Milestone billing keeps your cash flow steady while you complete long and complex technical installations."
+    }
+  ],
+  "related": [
+    "/use-cases/agencies",
+    "/invoicing/recurring-invoices",
+    "/invoicing/invoices",
+    "/features/invoicing"
+  ],
+  "ctaTitle": "Create your professional IT services invoice today",
+  "ctaSub": "Draft clear invoices for managed services, hardware, and software in minutes. Get paid faster for your technical support and project work."
+}

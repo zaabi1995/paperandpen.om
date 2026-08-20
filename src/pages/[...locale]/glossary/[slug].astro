@@ -1,0 +1,203 @@
+---
+/*
+ * GLOSSARY TERM PAGE.
+ *
+ * Built against a measured competitor: Zoho Books runs 152 accounting terms
+ * across 19 locales (1,712 URLs) and those pages carry ONE h1, no h2, no h3
+ * and no structured data at all. They rank on internal linking and domain
+ * authority alone. This page matches the volume play and wins the page itself:
+ * a real section structure, a DefinedTerm inside a DefinedTermSet, a TechArticle,
+ * an FAQPage where there are questions, a breadcrumb, and two distinct link
+ * blocks (sibling terms, and the product pages the term actually touches).
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, localizePath, LOCALE_META, LOCALES, type Locale } from '@/i18n';
+import { allTerms, getTerm, publishedSlugs, type GlossaryTerm } from '@/lib/glossary';
+import {
+  graph, organization, breadcrumbList, faqPage, definedTerm, techArticle,
+} from '@/lib/schema';
+
+export function getStaticPaths() {
+  const out: any[] = [];
+  for (const slug of publishedSlugs()) {
+    for (const locale of LOCALES) {
+      out.push({
+        params: { locale: locale === 'en' ? undefined : locale, slug },
+        props: { locale, slug },
+      });
+    }
+  }
+  return out;
+}
+
+const { locale, slug } = Astro.props as { locale: Locale; slug: string };
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+const d = getTerm(locale, slug) as GlossaryTerm;
+
+const path = `/glossary/${slug}`;
+
+/* Split in the frontmatter, deliberately. A regex literal containing a brace
+   quantifier (/\n{2,}/) inside a template expression is counted as an opening
+   brace by the Astro template parser and breaks the compile. */
+const exampleParas = (d.example?.body ?? '').split(/\n{2,}/).filter(Boolean);
+const heading = d.abbr ? `${d.term} (${d.abbr})` : d.term;
+
+/* The formula <p> below carries dir="ltr" and that is load-bearing: a formula
+   is a Latin mathematical expression, and inside an ar or ur document it would
+   otherwise be reordered by the paragraph direction and print its operands
+   backwards. */
+
+/* Sibling terms, resolved in THIS locale so a related link never shows an
+   English label on an Arabic page. Anything unresolvable is dropped rather
+   than linked, so the block cannot emit a dead internal link. */
+const terms = allTerms(locale);
+const bySlug = new Map(terms.map((x) => [x.slug, x]));
+const related = (d.related || []).map((s) => bySlug.get(s)).filter(Boolean) as GlossaryTerm[];
+
+/* If the authored related list is thin, top it up from the same category so
+   every term page carries a full row of onward links. This is the whole
+   mechanism Zoho's glossary ranks on. */
+const filler = terms.filter((x) => x.category === d.category && x.slug !== slug && !related.some((r) => r.slug === x.slug));
+const onward = [...related, ...filler].slice(0, 6);
+
+const crumbs = [
+  { name: t('nav.home'), url: '/' },
+  { name: t('glossary.title'), url: '/glossary' },
+  { name: d.term, url: path },
+];
+
+const jsonld = [
+  graph(
+    organization(),
+    definedTerm({
+      name: d.term,
+      description: d.short,
+      url: localizePath(path, locale),
+      setName: t('glossary.title'),
+      setUrl: localizePath('/glossary', locale),
+      termCode: d.abbr,
+    }),
+    techArticle({ headline: heading, description: d.metaDescription, url: localizePath(path, locale), locale: LOCALE_META[locale].htmlLang }),
+    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: localizePath(c.url, locale) })))
+  ),
+];
+if (d.faqs?.length) jsonld.push(graph(faqPage(d.faqs)));
+---
+
+<BaseLayout
+  {locale}
+  {path}
+  title={d.metaTitle}
+  description={d.metaDescription}
+  {jsonld}
+>
+  <Breadcrumbs
+    {locale}
+    crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('glossary.title'), href: '/glossary' }, { name: d.term }]}
+  />
+
+  <article>
+    <header class="band band-paper band-tight">
+      <div class="container-narrow">
+        <p class="eyebrow">{t(`glossary.cat.${d.category}`)}</p>
+        <h1 class="mt-4 font-display text-display text-ink-500">{heading}</h1>
+        {/* The lead IS the liftable definition. It is the first text node after
+            the h1 and it is a complete sentence on its own, which is what a
+            featured snippet needs. */}
+        <p class="mt-6 max-w-[62ch] text-xl leading-relaxed text-ink-500">{d.short}</p>
+      </div>
+    </header>
+
+    <section class="band band-surface" aria-labelledby="gl-def">
+      <div class="container-narrow">
+        <h2 id="gl-def" class="font-display text-display-sm text-ink-500">{t('glossary.definitionTitle', { term: d.term })}</h2>
+        <p class="mt-6 max-w-[68ch] text-lg leading-relaxed text-ink-500/85">{d.definition}</p>
+
+        {d.formula && (
+          <figure class="mt-10 max-w-[68ch] rounded-2xl border border-ink-200 bg-paper p-6">
+            <figcaption class="text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{d.formula.label}</figcaption>
+            <p class="mt-3 font-mono text-base leading-relaxed text-ink-500" dir="ltr">{d.formula.expr}</p>
+            {d.formula.note && <p class="mt-3 text-[15px] leading-relaxed text-ink-500/75">{d.formula.note}</p>}
+          </figure>
+        )}
+      </div>
+    </section>
+
+    <section class="band band-peri" aria-labelledby="gl-how">
+      <div class="container-narrow">
+        <h2 id="gl-how" class="font-display text-display-sm text-ink-500">{d.how.title}</h2>
+        <p class="mt-6 max-w-[68ch] text-lg leading-relaxed text-ink-500/85">{d.how.body}</p>
+        <ul class="mt-8 grid max-w-[68ch] gap-x-10 gap-y-3 sm:grid-cols-2">
+          {d.how.items.map((it) => (
+            <li class="flex gap-3 text-[15px] leading-relaxed text-ink-500">
+              <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ink-500" aria-hidden="true"></span>
+              <span>{it}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    {d.example && (
+      <section class="band band-surface" aria-labelledby="gl-ex">
+        <div class="container-narrow">
+          <h2 id="gl-ex" class="font-display text-display-sm text-ink-500">{d.example.title}</h2>
+          <div class="mt-6 max-w-[68ch] space-y-4 text-lg leading-relaxed text-ink-500/85">
+            {exampleParas.map((para) => <p>{para}</p>)}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <section class="band band-paper" aria-labelledby="gl-why">
+      <div class="container-narrow">
+        <h2 id="gl-why" class="font-display text-display-sm text-ink-500">{t('glossary.mattersTitle')}</h2>
+        <p class="mt-6 max-w-[68ch] text-lg leading-relaxed text-ink-500/85">{d.matters}</p>
+
+        {d.seeAlso?.length > 0 && (
+          <div class="mt-10 max-w-[68ch]">
+            <h3 class="text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('glossary.seeAlso')}</h3>
+            <ul class="mt-4 flex flex-wrap gap-x-3 gap-y-2">
+              {d.seeAlso.map((s) => (
+                <li>
+                  <a href={lp(s.href)} class="inline-block rounded-full border border-ink-200 px-4 py-1.5 text-[15px] text-ink-500 no-underline transition-colors hover:border-ink-500 hover:bg-ink-500 hover:text-white">{s.label}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </section>
+
+    {d.faqs?.length > 0 && (
+      <FaqAccordion title={t('glossary.faqTitle')} eyebrow={t('faqSection.eyebrow')} faqs={d.faqs} band="white" />
+    )}
+
+    {onward.length > 0 && (
+      <section class="band band-tint band-tight" aria-labelledby="gl-rel">
+        <div class="container-wide">
+          <h2 id="gl-rel" class="font-display text-2xl text-ink-500 md:text-3xl">{t('glossary.relatedTerms')}</h2>
+          <ul class="mt-8 grid gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
+            {onward.map((r) => (
+              <li class="border-t border-ink-200">
+                <a href={lp(`/glossary/${r.slug}`)} class="group block py-5 no-underline">
+                  <span class="block font-semibold text-ink-500 group-hover:text-electric-500">{r.term}</span>
+                  <span class="mt-1 block text-sm leading-relaxed text-ink-500/70">{r.short}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p class="mt-10">
+            <a href={lp('/glossary')} class="font-semibold text-ink-500">{t('glossary.browseAll')}</a>
+          </p>
+        </div>
+      </section>
+    )}
+  </article>
+
+  <CtaBand {locale} />
+</BaseLayout>

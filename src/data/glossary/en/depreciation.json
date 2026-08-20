@@ -1,0 +1,61 @@
+{
+  "slug": "depreciation",
+  "term": "Depreciation",
+  "category": "metrics",
+  "short": "Depreciation is an accounting method used to allocate the cost of a tangible physical asset over its useful life, reflecting how much of its value has been used up.",
+  "metaTitle": "Depreciation in Accounting · Paper & Pen",
+  "metaDescription": "Learn how depreciation allocates the cost of tangible assets over time. Discover how to calculate it and why it matters for your business profitability.",
+  "definition": "When you buy a large physical asset for your business, such as a delivery van or heavy machinery, you do not record the entire purchase price as an expense in a single month. Instead, you use depreciation to spread that cost over the years the asset helps you generate income. This matching principle ensures your profit and loss statement accurately reflects the cost of doing business over time. Depreciation applies exclusively to tangible assets you can touch. Intangible assets follow a similar but distinct process called amortisation. As the asset ages, its recorded value on your balance sheet decreases, while a portion of its original cost is recognised as an expense in your general ledger. This systematic reduction gives you a clearer picture of your actual financial health.",
+  "how": {
+    "title": "How Depreciation works",
+    "body": "The process begins when you acquire a tangible asset for long-term use in your business. First, you must determine the total initial cost, which includes the purchase price and any fees required to make the asset usable. Next, you estimate how long the asset will remain productive, known as its useful life. You also need to predict its salvage value, which is the amount you expect to sell it for at the end of its useful life. With these three figures, you select a depreciation method. The straight-line method is the most common and divides the cost evenly across the years. Finally, you record a journal entry at the end of each accounting period to log the depreciation expense and reduce the asset value.",
+    "items": [
+      "Identify the total acquisition cost of the physical asset being purchased.",
+      "Estimate the useful life or the total years the asset will remain productive.",
+      "Determine the salvage value you expect to receive when disposing of the asset.",
+      "Choose a calculation method to allocate the expense systematically over time.",
+      "Post regular journal entries to record the expense and update your balance sheet."
+    ]
+  },
+  "formula": {
+    "label": "Straight-Line Depreciation",
+    "expr": "(Asset Cost - Salvage Value) / Useful Life",
+    "note": "This calculation gives you the annual depreciation expense. You record this same amount every year until the asset reaches its salvage value."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Logistics LLC buys a new forklift for 25,000. The company expects to use the forklift for five years and estimates it can sell the machine for 5,000 at the end of that period. To calculate the straight-line depreciation, they subtract the 5,000 salvage value from the 25,000 purchase price, leaving a depreciable base of 20,000. They then divide this 20,000 by the five-year useful life. The result is an annual depreciation expense of 4,000. Each year, Gulf Logistics records a 4,000 expense on their profit and loss statement, reducing their taxable profit."
+  },
+  "matters": "Understanding depreciation is vital because it directly impacts your reported profitability and tax liabilities. If you expense a massive purchase immediately, your business will look artificially unprofitable that month and overly profitable in subsequent years. Proper depreciation smooths out these costs, giving you an accurate view of your actual margins. It also ensures your balance sheet does not overstate the value of aging equipment. You can easily post these regular journal entries in Paper & Pen to keep your general ledger accurate. Tracking asset values helps you plan for future replacements before equipment breaks down completely.",
+  "faqs": [
+    {
+      "q": "What is the difference between depreciation and amortisation?",
+      "a": "Both concepts allocate the cost of an asset over time, but they apply to different types of assets. Depreciation is strictly used for tangible, physical assets like vehicles, computers and machinery. Amortisation applies to intangible assets, such as software licences, patents and trademarks. The underlying accounting principle remains exactly the same."
+    },
+    {
+      "q": "Can I claim depreciation on land?",
+      "a": "No, you cannot depreciate land. In accounting, land is considered to have an unlimited useful life because it does not wear out, decay or become obsolete over time. If you buy a building and the land it sits on, you must separate the costs and only depreciate the building itself."
+    },
+    {
+      "q": "What happens if an asset breaks before its useful life ends?",
+      "a": "If an asset is destroyed or becomes entirely useless before the end of its estimated useful life, you must write it off. You will record an impairment loss or a disposal entry for the remaining undepreciated balance. This immediately reduces the asset value to zero on your balance sheet."
+    }
+  ],
+  "related": [
+    "amortisation",
+    "journal-entry",
+    "balance-sheet",
+    "profit-and-loss-statement",
+    "general-ledger"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Cloud Accounting"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "General Ledgers"
+    }
+  ]
+}

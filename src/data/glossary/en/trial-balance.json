@@ -1,0 +1,63 @@
+{
+  "slug": "trial-balance",
+  "term": "Trial balance",
+  "abbr": "TB",
+  "category": "accounting",
+  "short": "A trial balance is an internal accounting report that lists the closing balances of all general ledger accounts to verify that total debits equal total credits.",
+  "metaTitle": "Trial balance explained · Paper & Pen",
+  "metaDescription": "A trial balance lists all your general ledger account balances to ensure your total debits equal your total credits before preparing financial statements.",
+  "definition": "A trial balance is a foundational worksheet in double-entry bookkeeping. It compiles the ending balances of every account in your general ledger at a specific point in time, usually the end of a reporting period. The report features two columns: one for debit balances and one for credit balances. Because every transaction has equal and opposite entries, the sum of the debit column must exactly match the sum of the credit column.\n\nYou use this report to catch mathematical errors before generating your formal financial statements. If the two columns do not match, you know an error occurred during journal entry posting. However, it is vital to remember that a balanced trial balance does not mean your books are completely free of mistakes, as it cannot detect missing transactions or entries posted to the wrong account.",
+  "how": {
+    "title": "How Trial balance works",
+    "body": "Preparing a trial balance happens at the end of an accounting period, just before you draft your profit and loss statement and balance sheet. First, you must ensure all daily transactions are posted to the general ledger. Next, you calculate the final closing balance for every individual account. You then list each account name alongside its final balance, placing debit balances in the left column and credit balances in the right column. Finally, you add up both columns. If the totals match, your books are mathematically balanced. If they differ, you must investigate the ledger to find the discrepancy, which could be a transposition error or a one-sided journal entry.",
+    "items": [
+      "Post all business transactions to the general ledger accounts.",
+      "Calculate the closing balance for each individual ledger account.",
+      "List all accounts with their balances in respective columns.",
+      "Sum the total of the debit column at the bottom.",
+      "Sum the total of the credit column at the bottom.",
+      "Compare the two totals to ensure they are exactly equal."
+    ]
+  },
+  "formula": {
+    "label": "Trial balance equation",
+    "expr": "Total Debit Balances = Total Credit Balances",
+    "note": "If the two totals are not equal, a mathematical error exists in the ledger."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Consider a new trading business called Gulf Traders. At the end of the month, their ledger shows Cash with a debit balance of 10,000, Inventory with a debit balance of 5,000, and Rent Expense with a debit balance of 2,000. On the credit side, they have a Bank Loan of 7,000 and Owner Equity of 10,000.\n\nThe total debits equal 17,000 (10,000 + 5,000 + 2,000). The total credits equal 17,000 (7,000 + 10,000). Because 17,000 equals 17,000, the trial balance is successful. Please note that a balanced trial balance does not prove the books are correct, as an invoice might still be missing entirely."
+  },
+  "matters": "Business owners should care about the trial balance because it acts as an early warning system for accounting mistakes. Catching a data entry error here prevents that mistake from flowing into your final tax returns or financial statements. If you present inaccurate reports to a bank or an investor, you risk losing credibility or facing compliance penalties. Running this report regularly helps maintain clean financial records and ensures your trial balance is ready for year-end closing. Paper & Pen automatically posts journal entries and generates your trial balance in the background, saving you from manual calculations.",
+  "faqs": [
+    {
+      "q": "What errors will a trial balance not detect?",
+      "a": "A trial balance only checks for mathematical equality. It will not detect an entire transaction that was omitted from the books. It also cannot tell you if you posted a debit to the wrong expense account, or if you recorded a transaction twice. As long as the debits and credits are equal, the report will balance despite these errors."
+    },
+    {
+      "q": "What is the difference between an unadjusted and adjusted trial balance?",
+      "a": "An unadjusted trial balance is prepared immediately after everyday transactions are recorded. An adjusted trial balance is created after you make adjusting journal entries for things like depreciation, accruals, and prepayments at the end of the period. The adjusted version is the final document used to create your balance sheet and profit and loss statement."
+    },
+    {
+      "q": "How often should I prepare a trial balance?",
+      "a": "Most businesses prepare a trial balance at the end of every month, quarter, and financial year. Generating it monthly helps you spot and fix bookkeeping errors while the transactions are still fresh in your memory. Modern accounting software calculates this report automatically, so you can check your balance at any time without extra effort."
+    }
+  ],
+  "related": [
+    "general-ledger",
+    "double-entry-bookkeeping",
+    "journal-entry",
+    "chart-of-accounts",
+    "balance-sheet"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    },
+    {
+      "href": "/features/reports",
+      "label": "Financial reports"
+    }
+  ]
+}

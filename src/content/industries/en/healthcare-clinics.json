@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "slug": "healthcare-clinics",
+  "order": 12,
+  "title": "Clinics and Healthcare",
+  "metaTitle": "Clinic Billing & Inventory ERP · Paper & Pen",
+  "metaDescription": "Manage per-procedure billing, track prepaid consultation packages, and control consumable medical stock with our free cloud ERP for healthcare practices.",
+  "keywords": "clinic billing software, healthcare practice ERP, medical consumables inventory, practitioner revenue tracking, prepaid consultation packages, clinic invoicing system, medical billing software",
+  "heroEyebrow": "Healthcare Practice ERP",
+  "heroTitle": "Manage clinic billing, stock, and <em class=\"text-copper-400 not-italic\">practitioner payouts</em> easily.",
+  "heroSubtitle": "Handle per-procedure invoicing, track prepaid consultation packages, and monitor your medical consumables. Paper & Pen gives clinic managers the financial tools to separate unearned income from daily cash flow, keeping your practice organised.",
+  "heroBullets": [
+    "Track prepaid treatment packages",
+    "Monitor medical consumable stock",
+    "Separate revenue by practitioner"
+  ],
+  "features": [
+    {
+      "icon": "invoice",
+      "title": "Per-procedure billing",
+      "desc": "Create invoices for individual consultations, diagnostic tests, or minor procedures. Add specific line items for treatments to keep patient billing clear and accurate."
+    },
+    {
+      "icon": "wallet",
+      "title": "Prepaid package tracking",
+      "desc": "Sell treatment bundles upfront and record the payment as unearned income. Recognise the revenue gradually as patients consume their sessions over multiple visits."
+    },
+    {
+      "icon": "inventory",
+      "title": "Consumables inventory",
+      "desc": "Track your stock of gloves, syringes, and diagnostic reagents. Know exactly what you consume daily and create purchase orders before your supply runs out."
+    },
+    {
+      "icon": "users",
+      "title": "Practitioner revenue splits",
+      "desc": "Tag invoices or line items to specific doctors or therapists. Run reports at the end of the month to calculate accurate commission and salary payouts."
+    },
+    {
+      "icon": "accounting",
+      "title": "Clear financial ledgers",
+      "desc": "Maintain accurate profit and loss statements. Separate your daily operational expenses from patient revenue to understand the true margin of your healthcare practice."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Instant patient receipts",
+      "desc": "Send payment receipts directly to patients via a WhatsApp link or email. Reduce paper waste at the reception desk while maintaining professional financial records."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Treatment Packages",
+      "title": "Manage prepaid sessions and unearned income",
+      "body": "Clinics often sell packages of six or ten sessions upfront, especially for physiotherapy, laser treatments, or dental alignments. When a patient pays in advance, that cash is unearned income until the service is actually delivered. Paper & Pen allows you to record the initial lump sum payment and track the outstanding liability. As the patient returns for each visit, you can generate invoices to draw down the balance. This keeps your accounting accurate, ensuring you only recognise revenue when the consultation or procedure is complete, rather than falsely inflating your monthly profit.",
+      "items": [
+        "Record upfront payments for multi-session bundles",
+        "Track unearned income liabilities on your balance sheet",
+        "Generate invoices per visit to draw down balances",
+        "Recognise revenue only when the treatment is delivered"
+      ]
+    },
+    {
+      "eyebrow": "Medical Stock",
+      "title": "Control costs on medical consumables and supplies",
+      "body": "Healthcare practices burn through consumables daily. Gloves, masks, local anesthetics, and diagnostic kits eat directly into your margins if left unmonitored. You need to know exactly what sits in your supply closet and what needs reordering. With our inventory tools, you can track the quantity and cost of every medical supply item. When stock runs low, generate purchase orders instantly for your medical suppliers. By monitoring your consumable costs against your consultation revenue, you gain a clear picture of your actual operating margins per procedure.",
+      "items": [
+        "Track quantities of daily medical consumables",
+        "Monitor the unit cost of clinical supplies",
+        "Create purchase orders for medical distributors easily",
+        "Compare consumable expenses against your procedure revenue"
+      ]
+    },
+    {
+      "eyebrow": "Practitioner Payouts",
+      "title": "Separate clinic revenue for accurate doctor payouts",
+      "body": "Most clinics operate with a mix of salaried staff and visiting practitioners who take a percentage of their consultation fees. Calculating these payouts manually at the end of the month is prone to errors. Paper & Pen lets you organise your sales data clearly. You can tag specific services or invoices to individual doctors, therapists, or technicians. When it is time to run payroll or distribute commissions, simply pull a sales report filtered by the practitioner. This ensures every doctor is paid correctly for the exact procedures they performed.",
+      "items": [
+        "Tag individual invoices to specific visiting doctors",
+        "Filter monthly sales reports by healthcare practitioner",
+        "Calculate commission payouts based on exact procedures",
+        "Manage salaried staff with the paid HR module"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can this software handle patient medical records or EMR?",
+      "a": "No. Paper & Pen is strictly a financial and inventory management system. It does not store clinical notes, patient health records, or medical histories. You should use a dedicated EMR system for clinical documentation, while relying on our software to handle your invoicing, stock tracking, expenses, and accounting ledgers."
+    },
+    {
+      "q": "How do we handle upfront payments for treatment packages?",
+      "a": "When a patient pays for a bundle of sessions, you record the payment as a receipt without immediately invoicing for the full service. This registers the cash while keeping the value as a liability. As the patient completes each session, you issue an invoice for that specific visit, which reduces the prepaid balance and officially recognises the revenue in your profit and loss statement."
+    },
+    {
+      "q": "Can we track the inventory of medicines and clinic consumables?",
+      "a": "Yes, you can add all your medical supplies to the inventory module. You can track the stock levels of consumables like bandages, syringes, and diagnostic tools. When you use these items, you can adjust the stock levels to reflect consumption. You can also generate purchase orders to send to your medical suppliers when inventory runs low."
+    },
+    {
+      "q": "Is it possible to calculate commission for visiting doctors?",
+      "a": "Yes, you can track revenue by practitioner. By adding the doctor's name as a reference or tag on the invoices they generate, you can later run a sales report filtered by that specific tag. This gives you the exact total of consultations and procedures billed by that doctor, making it easy to calculate their percentage split or commission at the end of the month."
+    }
+  ],
+  "related": [
+    "/features/invoicing",
+    "/features/inventory",
+    "/features/accounting",
+    "/features/hr-payroll",
+    "/invoicing/recurring-invoices"
+  ],
+  "ctaTitle": "Organise your clinic billing and stock today",
+  "ctaSub": "Start managing your healthcare practice finances, from per-procedure invoicing to medical consumable tracking, completely free."
+}

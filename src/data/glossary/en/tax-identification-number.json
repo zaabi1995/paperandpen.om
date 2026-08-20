@@ -1,0 +1,52 @@
+{
+  "slug": "tax-identification-number",
+  "term": "Tax identification number",
+  "abbr": "TIN",
+  "category": "tax",
+  "short": "A tax identification number is a unique set of digits assigned to a business or individual by a government authority to track tax obligations and payments.",
+  "metaTitle": "Tax Identification Number (TIN) · Paper & Pen",
+  "metaDescription": "Learn what a tax identification number is, why you need it for invoicing, and how it helps authorities track your business tax obligations globally.",
+  "definition": "A tax identification number is a unique code that a national revenue authority assigns to your business. Governments use this number to monitor your tax filings, payments and general compliance. Depending on your location, you might know it by a different name. For example, it is often called a VAT Registration Number (TRN) in the Gulf countries, a Permanent Account Number (PAN) or Goods and Services Tax Identification Number (GSTIN) in India, or an Employer Identification Number (EIN) in the United States. When you register for corporate tax or value-added tax, you receive this official number. You must display it clearly on every tax invoice you issue. Without it, your customers cannot legally claim input tax credits on their purchases from you.",
+  "how": {
+    "title": "How Tax identification number works",
+    "body": "The process begins when you register your business with your national or regional tax authority. You submit your company details, trade licence and owner information. The authority reviews your application and issues a unique tax identification number. You then configure your accounting software to include this number on all official documents. Whenever you create a tax invoice, the system automatically prints your TIN at the top. When you file your periodic tax return, you use this number to log into the government portal and submit your financial data. The tax authority uses the TIN to match the tax you collected against the tax your buyers claim they paid, ensuring all records align correctly across the economy.",
+    "items": [
+      "Register your business entity with the local revenue authority.",
+      "Receive your official certificate containing the unique identification digits.",
+      "Add the number to your company profile in your invoicing software.",
+      "Display the number clearly on all tax invoices and official receipts.",
+      "Quote the number when filing returns or paying tax liabilities."
+    ]
+  },
+  "matters": "Your tax identification number is the foundation of your commercial credibility. Larger businesses will often refuse to trade with you if you cannot provide a valid TIN, because they need it to claim back the tax they pay on your goods and services. If you issue invoices without it, you risk severe fines from the tax authority for non-compliance. Furthermore, international suppliers require your TIN to apply the correct cross-border tax treatments. Paper & Pen creates invoices, quotations and receipts that automatically display your TIN to keep you compliant. Keeping this number active and visible ensures smooth operations and protects your business from penalties.",
+  "faqs": [
+    {
+      "q": "Can I use my personal tax number for my business?",
+      "a": "This depends entirely on your legal structure. If you operate as a sole trader or freelancer, your personal tax identification number is often the same as your business number. However, if you register a separate legal entity like a limited liability company, the tax authority will issue a distinct number specifically for that corporation."
+    },
+    {
+      "q": "What happens if I put the wrong TIN on an invoice?",
+      "a": "An incorrect tax identification number invalidates the tax invoice. Your customer will not be able to use that document to claim their input tax credit. You must cancel the invalid invoice by issuing a credit note, and then generate a new tax invoice with the correct number."
+    },
+    {
+      "q": "Do I need a TIN if my sales are very low?",
+      "a": "Registration requirements and thresholds are set by each country's tax authority. Many jurisdictions allow small businesses to operate without a tax identification number if their annual turnover falls below a specific limit. You must check your local tax regulations to determine exactly when registration becomes mandatory for your business size."
+    }
+  ],
+  "related": [
+    "value-added-tax",
+    "tax-invoice",
+    "input-vat",
+    "e-invoicing"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing features"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Create tax invoices"
+    }
+  ]
+}

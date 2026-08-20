@@ -48,6 +48,47 @@ const documents = defineCollection({ loader: dataLoader('documents'), schema: pa
 const industries = defineCollection({ loader: dataLoader('industries'), schema: pageSchema });
 const usecases = defineCollection({ loader: dataLoader('usecases'), schema: pageSchema });
 
+/*
+ * r375. Two new page families, both on the shared pageSchema so they render
+ * through the existing MarketingPage template with no new block:
+ *  - `templates`  per-profession invoice-template pages (Wave runs 97 of these)
+ *  - `alternatives`  "X alternative" switching pages, which are a DIFFERENT
+ *    intent from the /compare/ matrices already on the site: a compare page is
+ *    for someone choosing, an alternative page is for someone already leaving.
+ */
+const templates = defineCollection({ loader: dataLoader('templates'), schema: pageSchema });
+const alternatives = defineCollection({ loader: dataLoader('alternatives'), schema: pageSchema });
+
+/*
+ * Country VAT pages. These carry CITED tax facts, so the schema makes the
+ * citation structural rather than optional: every fact and every field list
+ * points at a numbered entry in `sources`, and the page renders those sources
+ * as real links. A country page may not ship without them.
+ *
+ * Only four countries exist here and that is deliberate. Qatar and Kuwait have
+ * no VAT regime published by their own authorities, and the interesting part
+ * (their e-invoicing plans) could not be verified against a reachable primary
+ * source, so no page was written for them rather than a page written on
+ * commentary. See the round report.
+ */
+const vat = defineCollection({
+  loader: dataLoader('vat'),
+  schema: pageSchema.extend({
+    country: z.string(),
+    authority: z.object({ name: z.string(), url: z.string().url() }),
+    facts: z.array(z.object({
+      label: z.string(), value: z.string(), note: z.string().optional(), source: z.number(),
+    })),
+    invoiceFields: z.object({
+      intro: z.string(), items: z.array(z.string()), source: z.number(), caveat: z.string().optional(),
+    }),
+    einvoicing: z.object({ status: z.string(), body: z.string(), source: z.number() }),
+    sources: z.array(z.object({
+      n: z.number(), label: z.string(), publisher: z.string(), year: z.string(), url: z.string().url(),
+    })).min(1),
+  }),
+});
+
 // Comparison pages add a feature matrix
 const comparisons = defineCollection({
   loader: dataLoader('comparisons'),
@@ -67,7 +108,9 @@ const tools = defineCollection({
     toolType: z.enum([
       'invoice',
       'quotation',
+      'estimate',
       'proforma',
+      'credit-note',
       'receipt',
       'purchase-order',
       'delivery-note',
@@ -92,4 +135,4 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { features, documents, industries, usecases, comparisons, tools, blog };
+export const collections = { features, documents, industries, usecases, comparisons, tools, blog, templates, alternatives, vat };

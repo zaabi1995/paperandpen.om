@@ -1,0 +1,52 @@
+{
+  "slug": "exempt-supply",
+  "term": "Exempt supply",
+  "category": "tax",
+  "short": "An exempt supply is a sale of goods or services that does not attract value-added tax and prevents the seller from reclaiming the tax paid on their associated business expenses.",
+  "metaTitle": "What is an Exempt Supply? · Paper & Pen",
+  "metaDescription": "Learn what an exempt supply means for your business. When you sell exempt goods, you cannot charge VAT or claim back the VAT on your business expenses.",
+  "definition": "When your business makes an exempt supply, you do not charge value-added tax to your customers. However, this status comes with a significant catch: you cannot reclaim the input VAT you paid on the goods and services you bought to make those sales. Unlike a zero-rated supply where you charge zero tax but still recover your costs, an exempt supply turns the tax you pay to your suppliers into a permanent business expense.\n\nTax authorities typically apply this classification to essential services like specific types of healthcare, education, local transport, or residential property leasing. Because you cannot recover the input tax, your profit margins will shrink unless you absorb the cost or increase your base prices. You must track these sales carefully in your accounting records to ensure you do not mistakenly claim back unrecoverable tax on your VAT return.",
+  "how": {
+    "title": "How Exempt supply works",
+    "body": "The process begins when you purchase goods or services required to run your business. Your suppliers charge you standard value-added tax on these purchases. Next, you provide your exempt goods or services to your customers. You issue a tax invoice, but you do not add any tax to the final amount. When it is time to prepare your tax return, you must declare your total exempt sales. Crucially, you must separate the input tax related to these sales from the input tax related to any taxable sales you make. You are legally barred from deducting the tax associated with the exempt sales from your final tax liability. This unrecovered tax must then be recorded as a standard business expense in your general ledger.",
+    "items": [
+      "You buy materials or services and pay input tax to your suppliers.",
+      "You sell an exempt service without adding tax to the customer invoice.",
+      "You record the sale in your books as an exempt transaction.",
+      "You calculate your tax return and exclude the input tax for these sales.",
+      "You absorb the unrecovered input tax as a direct cost to your business."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "City Residential Lettings manages apartments, which qualify as an exempt supply. The company buys maintenance supplies for 2,000 plus 100 in value-added tax, making the total purchase cost 2,100. They rent out an apartment to a tenant for 3,000. Because the rent is an exempt supply, they charge 0 in tax to the tenant. When filing their return, City Residential Lettings cannot reclaim the 100 paid on the supplies. Their actual cost remains 2,100, leaving a gross profit of 900 (calculated as 3,000 minus 2,100). If this were a zero-rated supply, they could reclaim the 100, increasing their profit to 1,000."
+  },
+  "matters": "Understanding this classification is vital because it directly impacts your profitability and pricing strategy. If you mistakenly treat an exempt sale as zero-rated, you will illegally claim back input tax and face severe penalties from your tax authority. Since the tax you pay on expenses becomes a sunk cost, you must factor it into the base price you charge your customers to maintain your margins. Paper & Pen creates invoices and posts journal entries, making it easier to separate these specific transactions in your records. Proper tracking ensures your tax returns are accurate and your actual profit margins are clear.",
+  "faqs": [
+    {
+      "q": "What is the difference between exempt and zero-rated supplies?",
+      "a": "Both types mean the customer pays no tax on the final invoice. The critical difference lies in your ability to recover costs. With a zero-rated sale, you can reclaim the tax you paid on your business expenses. With an exempt sale, you cannot reclaim that tax, meaning it becomes a permanent cost to your business."
+    },
+    {
+      "q": "Do I need to register for tax if I only make exempt supplies?",
+      "a": "If your business exclusively sells exempt goods or services, you generally cannot register for value-added tax. Tax authorities typically do not allow registration because there is no tax to collect from customers and no input tax to reclaim. However, if you make a mix of taxable and exempt sales, you must register once your taxable turnover exceeds the local threshold."
+    }
+  ],
+  "related": [
+    "zero-rated-supply",
+    "value-added-tax",
+    "input-vat",
+    "output-vat",
+    "taxable-supply"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing features"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Manage invoices"
+    }
+  ]
+}

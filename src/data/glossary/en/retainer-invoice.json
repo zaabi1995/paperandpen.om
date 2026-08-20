@@ -1,0 +1,59 @@
+{
+  "slug": "retainer-invoice",
+  "term": "Retainer invoice",
+  "category": "invoicing",
+  "short": "A retainer invoice is a bill sent to a client to collect an upfront deposit before work begins, securing your services and providing working capital for the upcoming project.",
+  "metaTitle": "What is a Retainer Invoice? · Paper & Pen",
+  "metaDescription": "Learn what a retainer invoice is, how to issue one to secure upfront payments, and why unearned retainers are recorded as liabilities, not revenue.",
+  "definition": "When you agree to take on a large project or provide ongoing services, you often need a commitment from the client before committing your time and resources. You achieve this by issuing a retainer invoice. This document requests a fixed advance payment. Once paid, the funds sit in your bank account, but in accounting terms, you have not earned them yet. Under accrual accounting rules, an unearned retainer is a liability, not revenue, until the work is actually done. You owe the client either the promised services or a refund. As you complete milestones or log billable hours, you issue standard invoices that draw down from this initial deposit, moving the money from a liability account to recognised revenue on your profit and loss statement.",
+  "how": {
+    "title": "How Retainer invoice works",
+    "body": "The process begins when you and your client sign an agreement detailing the scope of work and the required upfront deposit. You then generate and send the retainer invoice for this initial amount. When the client pays, you record the cash receipt and credit a liability account, often called unearned revenue or client deposits. You do not record this as sales revenue. As you perform the agreed work, you generate regular invoices detailing the services provided. Instead of asking the client for more money, you apply the retainer balance to these new invoices. This action reduces the client deposit liability and increases your actual sales revenue. If the retainer is fully depleted before the project ends, the client pays the remaining balance out of pocket.",
+    "items": [
+      "Agree on the project scope and the required upfront deposit amount.",
+      "Issue a retainer invoice to collect the advance payment from your client.",
+      "Record the received payment as a liability rather than immediate sales revenue.",
+      "Perform the work and generate standard invoices for the completed services.",
+      "Deduct the billed amounts from the retainer liability to recognise actual revenue."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Apex Consulting agrees to a project for a total fee of $10,000. They require a 40 percent upfront deposit. Apex issues a retainer invoice for $4,000. The client pays, and Apex records a $4,000 liability. In the first month, Apex completes work worth $3,000. They issue a standard invoice for $3,000 and apply $3,000 from the retainer to pay it. The liability drops to $1,000, and Apex recognises $3,000 in revenue. In the second month, Apex bills the final $7,000. They apply the remaining $1,000 retainer balance. The client now owes the outstanding $6,000, which they pay in cash."
+  },
+  "matters": "Requesting a retainer protects your business from cash flow shortages and unpaid bills. By securing funds upfront, you ensure you can cover early project expenses, such as software subscriptions or subcontractor fees, without dipping into your own working capital. It also tests the client's commitment, filtering out those who might default on payment later. From a compliance perspective, correctly tracking these deposits as liabilities keeps your financial statements accurate and prevents you from paying taxes on unearned income too early. If you need a simple way to manage this, Paper & Pen creates invoices, quotations and receipts, and Sales and Invoicing is free forever.",
+  "faqs": [
+    {
+      "q": "Do I charge value-added tax on a retainer invoice?",
+      "a": "The rules for taxing advance payments depend on your local tax authority. In many jurisdictions, receiving an advance payment creates a tax point, meaning you must account for the tax in the period you receive the cash, even if the work is unfinished. Always consult your accountant to ensure compliance with local regulations."
+    },
+    {
+      "q": "What happens if the project is cancelled before the retainer is used?",
+      "a": "Because an unearned retainer is a liability, that money technically belongs to the client until you perform the work. If the contract is cancelled early, you must refund the unused balance. Your contract should clearly state any non-refundable administrative fees to protect you from losing money on cancelled projects."
+    },
+    {
+      "q": "How is a retainer invoice different from a proforma invoice?",
+      "a": "A proforma invoice is a preliminary bill of sale sent to buyers in advance of a delivery of goods or services, acting as an estimate. It does not demand immediate payment. A retainer invoice is a formal request for an actual upfront payment to secure services before work begins."
+    }
+  ],
+  "related": [
+    "proforma-invoice",
+    "recurring-invoice",
+    "accrual-accounting",
+    "accounts-receivable"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Manage Invoices"
+    },
+    {
+      "href": "/use-cases/freelancers",
+      "label": "For Freelancers"
+    }
+  ]
+}

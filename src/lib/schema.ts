@@ -129,6 +129,91 @@ export function product(opts: {
   };
 }
 
+
+/**
+ * WebSite + SearchAction. One node, on every page, so the site name and its
+ * search entry point are stated once at the graph level rather than implied.
+ * The target is the glossary index's own filter box, which is a real URL that
+ * really answers `?q=`, not an invented /search endpoint: declaring a
+ * SearchAction that 404s is worse than declaring none.
+ */
+export function webSite(opts: { name: string; description: string; locale: string; searchUrl?: string }) {
+  const node: Record<string, unknown> = {
+    '@type': 'WebSite',
+    '@id': `${SITE}/#website`,
+    name: opts.name,
+    url: SITE,
+    description: opts.description,
+    inLanguage: opts.locale,
+    publisher: { '@id': `${SITE}/#organization` },
+  };
+  if (opts.searchUrl) {
+    node.potentialAction = {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${SITE}${opts.searchUrl}?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    };
+  }
+  return node;
+}
+
+/** ItemList for a hub page, so the set of children is stated, not just linked. */
+export function itemList(opts: { name: string; items: { name: string; url: string }[] }) {
+  return {
+    '@type': 'ItemList',
+    name: opts.name,
+    numberOfItems: opts.items.length,
+    itemListElement: opts.items.map((it, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: it.name,
+      url: it.url.startsWith('http') ? it.url : `${SITE}${it.url}`,
+    })),
+  };
+}
+
+/**
+ * DefinedTerm for a glossary entry, inside a DefinedTermSet for the glossary.
+ * This is the schema Zoho's 1,712 glossary URLs ship none of.
+ */
+export function definedTerm(opts: {
+  name: string;
+  description: string;
+  url: string;
+  setName: string;
+  setUrl: string;
+  termCode?: string;
+}) {
+  return {
+    '@type': 'DefinedTerm',
+    '@id': `${SITE}${opts.url}#term`,
+    name: opts.name,
+    description: opts.description,
+    url: `${SITE}${opts.url}`,
+    ...(opts.termCode ? { termCode: opts.termCode } : {}),
+    inDefinedTermSet: {
+      '@type': 'DefinedTermSet',
+      '@id': `${SITE}${opts.setUrl}#termset`,
+      name: opts.setName,
+      url: `${SITE}${opts.setUrl}`,
+    },
+  };
+}
+
+/** An Article node for a glossary/definition page, so it can carry authorship. */
+export function techArticle(opts: { headline: string; description: string; url: string; locale: string }) {
+  return {
+    '@type': 'TechArticle',
+    headline: opts.headline,
+    description: opts.description,
+    url: `${SITE}${opts.url}`,
+    inLanguage: opts.locale,
+    isAccessibleForFree: true,
+    publisher: { '@id': `${SITE}/#organization` },
+    author: { '@id': `${SITE}/#organization` },
+  };
+}
+
 /** Wrap one or more node objects into a @graph document. */
 export function graph(...nodes: Record<string, unknown>[]) {
   return {

@@ -1,0 +1,110 @@
+{
+  "locale": "en",
+  "slug": "ecommerce",
+  "order": 16,
+  "title": "Online and E-commerce Sellers",
+  "metaTitle": "E-commerce ERP & Invoicing Software · Paper & Pen",
+  "metaDescription": "Manage high order volumes, track stock across channels, process returns, and reconcile payment gateway payouts with our free e-commerce ERP.",
+  "keywords": "e-commerce ERP, online seller invoicing, track stock levels, reconcile payment gateways, cost of goods sold, e-commerce accounting, credit notes for returns",
+  "heroEyebrow": "For Online Sellers",
+  "heroTitle": "Manage high order volumes and <em class=\"text-copper-400 not-italic\">track exact margins</em>.",
+  "heroSubtitle": "Online selling means high transaction volumes, constant stock movement, and complex payout schedules. Track your cost of goods sold, issue credit notes for returns, and reconcile gateway payouts without losing track of your actual profit.",
+  "heroBullets": [
+    "Track stock across channels",
+    "Issue instant credit notes",
+    "Reconcile gateway payouts"
+  ],
+  "features": [
+    {
+      "icon": "cart",
+      "title": "Sales orders",
+      "desc": "Record high volumes of customer orders. Convert them to delivery notes and invoices as you pack and ship the goods."
+    },
+    {
+      "icon": "inventory",
+      "title": "Stock tracking",
+      "desc": "Monitor inventory levels as orders ship. Know exactly what you have available to prevent overselling on your storefront."
+    },
+    {
+      "icon": "refresh",
+      "title": "Returns and refunds",
+      "desc": "Process customer returns quickly. Generate credit notes to adjust customer balances and update your sales ledgers accurately for your records."
+    },
+    {
+      "icon": "truck",
+      "title": "Shipping costs",
+      "desc": "Record shipping expenses whether you absorb the cost or recharge it to the buyer on their final sales invoice."
+    },
+    {
+      "icon": "bank",
+      "title": "Payout reconciliation",
+      "desc": "Match bulk transfers from your payment gateway against individual sales orders. Keep your balance sheet accurate and up to date."
+    },
+    {
+      "icon": "chart",
+      "title": "Profit and loss",
+      "desc": "Calculate your true cost of goods sold per order. See your actual margins after shipping, packaging, and supplier purchase costs."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Order Fulfillment",
+      "title": "Turn daily orders into shipped goods",
+      "body": "E-commerce moves quickly. When a batch of orders arrives from your storefront, you need to process them without delay. Paper & Pen lets you record sales orders and generate delivery notes for your packing bench. As boxes leave your warehouse, you can convert those orders into final invoices. You can track whether shipping is a separate line item charged to the customer or a cost your business absorbs. By logging every dispatch, your inventory levels update immediately, helping you know exactly when to reorder stock from suppliers.",
+      "items": [
+        "Convert sales orders to invoices",
+        "Generate accurate delivery notes",
+        "Track absorbed or recharged shipping",
+        "Update stock levels on dispatch"
+      ]
+    },
+    {
+      "eyebrow": "Managing Returns",
+      "title": "Handle returns and stock adjustments",
+      "body": "Online retail involves returns. A customer orders the wrong size, or a courier damages a package. You need a clear process to handle the financial reversal and the physical stock. When a product comes back, you can issue a credit note to cancel the original invoice charge. This keeps your sales tax records accurate and ensures your revenue figures reflect actual retained sales. You can then adjust your inventory to either write off the damaged item or return it to your available stock pool for the next buyer.",
+      "items": [
+        "Issue credit notes for returns",
+        "Reverse sales revenue accurately",
+        "Return items to available stock",
+        "Write off damaged inventory"
+      ]
+    },
+    {
+      "eyebrow": "Financial Tracking",
+      "title": "Reconcile payouts and track true margins",
+      "body": "Payment gateways do not deposit money order by order. They send bulk payouts, often minus their processing fees. You can use journal entries to reconcile these lump sums against your individual sales invoices, ensuring your accounts receivable balance is correct. Beyond revenue, you need to know your cost of goods sold. By tracking supplier purchase orders and incoming inventory costs, your profit and loss report shows the true margin of your e-commerce operation, factoring in the actual cost of the items you shipped.",
+      "items": [
+        "Reconcile bulk gateway payouts",
+        "Account for payment processing fees",
+        "Track cost of goods sold",
+        "Generate profit and loss reports"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does this integrate directly with my Shopify or WooCommerce store?",
+      "a": "Paper & Pen does not have direct, automatic integrations with third-party app marketplaces or e-commerce platforms. You will need to enter your daily sales summaries or individual orders manually to keep your inventory and accounting records accurate."
+    },
+    {
+      "q": "How do I handle payment gateway fees?",
+      "a": "When a payment provider transfers a bulk payout, it is usually less than the total of your invoices due to their fees. You can use journal entries to clear the full invoice amounts from accounts receivable, log the cash received, and record the difference as a bank fee expense."
+    },
+    {
+      "q": "Can I manage inventory across multiple sales channels?",
+      "a": "You can track your total available stock within the system. When you make a sale on any platform, recording the invoice in Paper & Pen will deduct the items from your central inventory, helping you see what is left to sell."
+    },
+    {
+      "q": "How do I process a customer refund?",
+      "a": "If a customer returns an item, you create a credit note linked to their original invoice. This reverses the sale in your ledgers. You can then record the outbound payment if you are returning cash, and adjust your stock levels if the item is resalable."
+    }
+  ],
+  "related": [
+    "/industries/retail",
+    "/features/inventory",
+    "/invoicing/credit-notes",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Organise your e-commerce finances today",
+  "ctaSub": "Track your stock, issue credit notes, and calculate your true margins for free."
+}

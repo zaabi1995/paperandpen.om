@@ -1,0 +1,47 @@
+{
+  "slug": "e-invoicing",
+  "term": "E-invoicing",
+  "category": "tax",
+  "short": "E-invoicing is the automated creation, exchange and processing of invoices in a structured digital format between a supplier and a buyer, often directly integrated with government tax authorities.",
+  "metaTitle": "What is E-invoicing? · Paper & Pen",
+  "metaDescription": "Learn how e-invoicing works, the difference between clearance and post-audit models, and why structured digital invoices matter for your business.",
+  "definition": "Electronic invoicing, or e-invoicing, replaces paper documents and simple PDFs with structured digital data files like XML or JSON. When you issue an e-invoice, your accounting software generates a machine-readable file that another computer system can process automatically without human data entry. Governments worldwide use e-invoicing to monitor transactions and reduce tax evasion. They generally adopt one of two models. In a clearance model, you must submit the invoice data to a central tax authority portal for validation and approval before you can legally send the invoice to your customer. In a post-audit model, you send the invoice directly to your customer first, and the tax authority may audit the digital records later. The specific rules, formats and implementation timelines depend entirely on the tax authority in your country.",
+  "how": {
+    "title": "How E-invoicing works",
+    "body": "The exact workflow depends on your local tax authority, but the core process follows a standard path. First, you create a sale in your accounting system just as you normally would. Instead of printing a document, your software translates the billing details into a structured, machine-readable format. If your country uses a clearance model, your system transmits this file to the government portal. The tax authority validates the data, assigns a unique cryptographic stamp or tracking number, and clears the invoice. Only then is the official e-invoice delivered to your buyer. The buyer's accounting software receives the digital file and automatically reads the amounts, taxes and supplier details to update their accounts payable records without manual typing.",
+    "items": [
+      "You enter the transaction details into your accounting or invoicing software.",
+      "The software generates a structured digital file containing the invoice data.",
+      "The system transmits the file to a government portal for validation.",
+      "The tax authority approves the invoice and adds a unique digital signature.",
+      "The validated e-invoice is securely routed to the buyer's accounting system."
+    ]
+  },
+  "matters": "Transitioning to e-invoicing is often a legal requirement rather than a choice, as tax authorities increasingly mandate digital reporting to close VAT gaps. Failing to comply can result in severe financial penalties or the inability to legally trade. Beyond compliance, e-invoicing significantly reduces administrative work. Because computers read the data directly, you eliminate manual data entry errors, prevent lost documents and speed up the payment cycle. Paper & Pen creates invoices, quotations and receipts that help you transition to digital record-keeping, and its Sales and Invoicing is free forever. Adopting these systems early protects your business from sudden regulatory shocks.",
+  "faqs": [
+    {
+      "q": "Is a PDF considered an e-invoice?",
+      "a": "No, a standard PDF is not considered a true e-invoice by most tax authorities. While a PDF is a digital file, it is essentially a digital picture of a paper invoice. True e-invoices are built using structured data formats like XML, which allow accounting systems and government portals to read the information automatically without optical character recognition."
+    },
+    {
+      "q": "When do I have to start using e-invoicing?",
+      "a": "The deadline to adopt e-invoicing depends entirely on the country where your business is registered. Tax authorities usually roll out mandates in phases, often starting with large enterprises before requiring small businesses and freelancers to comply. You should consult your local tax authority or a registered accountant to confirm your specific deadline and technical requirements."
+    }
+  ],
+  "related": [
+    "tax-invoice",
+    "value-added-tax",
+    "input-vat",
+    "output-vat"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing features"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Manage invoices"
+    }
+  ]
+}

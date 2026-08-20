@@ -1,0 +1,52 @@
+{
+  "slug": "journal-entry",
+  "term": "Journal entry",
+  "abbr": "JE",
+  "category": "accounting",
+  "short": "A journal entry is a formal accounting record that logs a business transaction by showing the date, the accounts affected, and equal debit and credit amounts.",
+  "metaTitle": "What is a Journal Entry? · Paper & Pen",
+  "metaDescription": "Discover how a journal entry records business transactions using debits and credits to keep your accounting books balanced and your records accurate.",
+  "definition": "Whenever money moves in or out of your business, you must document it. A journal entry is the first step in the accounting cycle, acting as a raw diary of your financial activities. Under the double-entry bookkeeping system, every transaction affects at least two accounts. One account receives a debit, and another receives a credit. The total debits must always equal the total credits.\n\nYou will typically include the date of the transaction, the names of the accounts involved, the specific amounts, and a brief description explaining the event. By capturing this data accurately, you ensure that your general ledger remains balanced. Modern software automates many of these entries when you issue an invoice or record a payment, but understanding manual entries is essential for recording depreciation, correcting errors, or making year-end adjustments.",
+  "how": {
+    "title": "How Journal entry works",
+    "body": "Creating a journal entry follows a logical sequence to ensure your financial records remain accurate. First, you must analyse the business transaction to identify which accounts are affected. Next, you determine the account types, such as assets, liabilities, equity, revenue, or expenses. Based on standard accounting rules, you then decide which account increases and which decreases, translating these changes into debits and credits.\n\nYou record the date and list the debited account first, followed by the credited account, which is traditionally indented. Finally, you write a short narrative description of the transaction. Once the entry is complete, you must verify that the total debit amount exactly matches the total credit amount before posting it to the general ledger.",
+    "items": [
+      "Identify the specific business transaction and the accounts it affects.",
+      "Determine whether each affected account increases or decreases in value.",
+      "Assign the correct debit and credit amounts to the respective accounts.",
+      "Write a clear narrative description explaining the purpose of the entry.",
+      "Verify that the total debits exactly equal the total credits before posting."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Tech Trading purchases new office computers for 2,000 OMR, paying immediately via bank transfer. To record this transaction, the bookkeeper creates a journal entry on the 5th of November.\n\nThe Office Equipment asset account increases, so it receives a debit of 2,000 OMR. The Cash at Bank asset account decreases, so it receives a credit of 2,000 OMR. The entry shows a 2,000 OMR debit and a 2,000 OMR credit, meaning the transaction is perfectly balanced. The bookkeeper adds a note stating \"Purchase of three office computers\" to provide context for future audits."
+  },
+  "matters": "Accurate journal entries are the foundation of your financial health. If you record transactions incorrectly, the errors will flow into your general ledger and distort your final financial statements. This can lead to paying incorrect taxes, misjudging your profitability, or failing an audit. Business owners need reliable data to make informed decisions about hiring, expanding, or cutting costs. While manual bookkeeping is prone to human error, using software helps maintain accuracy. Paper & Pen posts journal entries automatically in the background as you manage your daily sales and expenses, keeping your books balanced without requiring deep accounting knowledge.",
+  "faqs": [
+    {
+      "q": "What is a compound journal entry?",
+      "a": "A compound journal entry is a transaction that affects three or more accounts, rather than just two. For example, if you purchase a machine by paying a cash deposit and taking a loan for the remainder, you will debit the equipment account while crediting both the cash and loan accounts. The total debits must still equal the total credits."
+    },
+    {
+      "q": "Can I delete a journal entry if I make a mistake?",
+      "a": "In professional accounting, you should never delete a posted journal entry, as this breaks the audit trail and raises suspicion during tax inspections. Instead, you must create a reversing journal entry to cancel out the error, followed by a new, correct entry. This ensures your financial history remains transparent and fully traceable."
+    }
+  ],
+  "related": [
+    "general-ledger",
+    "double-entry-bookkeeping",
+    "chart-of-accounts",
+    "trial-balance"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Manage ledgers"
+    }
+  ]
+}

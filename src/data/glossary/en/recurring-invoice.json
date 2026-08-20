@@ -1,0 +1,59 @@
+{
+  "slug": "recurring-invoice",
+  "term": "Recurring invoice",
+  "category": "invoicing",
+  "short": "A recurring invoice is a billing document sent automatically to a customer at regular intervals for ongoing services, subscriptions, or repeated product deliveries of the same value.",
+  "metaTitle": "Recurring Invoice Definition · Paper & Pen",
+  "metaDescription": "Learn what a recurring invoice is, how it works for ongoing billing, and why automating your regular payments saves time and improves cash flow.",
+  "definition": "When you provide the same goods or services to a customer on a regular schedule, creating a new bill from scratch every time wastes valuable hours. A recurring invoice solves this by generating and sending itself automatically at predefined intervals, such as weekly, monthly, or annually. You set up the template once with the customer details, line items, pricing, and tax information. The system then handles the repetition. This method is standard practice for software subscriptions, retainer agreements, commercial rent, and regular maintenance contracts. It ensures you never forget to bill a client for ongoing work. By standardising the billing cycle, you also help your customers anticipate their expenses, which often leads to faster payments and a healthier, more predictable cash flow for your business.",
+  "how": {
+    "title": "How Recurring invoice works",
+    "body": "The process begins when you agree on a fixed fee and schedule with your customer for continuous work or repeated deliveries. You create a master invoice template in your billing software, entering the standard line items, quantities, and prices. Next, you define the schedule by selecting the start date, the frequency of the billing cycle, and the end date or total number of occurrences. Once activated, the system automatically duplicates the master template on the scheduled dates, assigns a new sequential invoice number, and emails the document directly to the customer. If the customer's needs change, you can pause the schedule or edit the master template so that all future invoices reflect the updated pricing or services.",
+    "items": [
+      "Agree on fixed pricing and a regular billing schedule with your client.",
+      "Create a master template containing the standard line items and tax details.",
+      "Set the frequency, start date, and end date for the automated billing cycle.",
+      "The system generates a new invoice with a unique number on each scheduled date.",
+      "The software emails the final document directly to the customer for payment."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Muscat Cleaning Co signs a one-year contract to clean a corporate office. The agreed fee is 200 OMR per month, plus a standard 10 percent tax. The total monthly charge is 220 OMR (200 x 0.10 = 20 OMR tax). Instead of writing a new bill every month, the manager sets up a recurring invoice. The schedule is set to generate on the first day of each month for 12 months. Over the full year, the system automatically issues 12 invoices, billing a total of 2,640 OMR (220 OMR x 12 months) without requiring any manual data entry from the cleaning company."
+  },
+  "matters": "Manual billing for repeat customers is a major administrative burden that increases the risk of human error. Forgetting to send a monthly bill directly damages your cash flow and makes your business look unprofessional. Setting up a recurring invoice guarantees that your clients are billed exactly on time, every time. This predictability helps you forecast your revenue accurately and reduces the time spent chasing late payments. If you want to automate this process, remember that Paper & Pen creates invoices, quotations and receipts, and Sales and Invoicing is free forever. By automating your regular billing, you free up hours to focus on delivering the actual service.",
+  "faqs": [
+    {
+      "q": "Can I edit a recurring invoice after it starts?",
+      "a": "Yes, you can usually edit the master template at any time. If you need to increase your prices or add a new service to a client's monthly retainer, you simply update the recurring profile. All future invoices generated from that profile will automatically include the new details, while past invoices remain unchanged."
+    },
+    {
+      "q": "What is the difference between a recurring invoice and a subscription?",
+      "a": "A recurring invoice is the actual billing document sent to the customer at regular intervals to request payment. A subscription is the broader business model or agreement where a customer pays on a regular basis for continuous access to a product or service. Recurring invoices are the mechanism used to bill for subscriptions."
+    },
+    {
+      "q": "How do recurring invoices handle variable costs?",
+      "a": "Recurring invoices are designed for fixed amounts. If your monthly charges vary based on usage or hourly work, a strict recurring invoice will not work. Instead, you must generate a standard invoice each month, or use a recurring template as a draft that you manually adjust with the variable quantities before sending it to the client."
+    }
+  ],
+  "related": [
+    "invoice",
+    "retainer-invoice",
+    "payment-terms",
+    "accounts-receivable"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    },
+    {
+      "href": "/invoicing/recurring-invoices",
+      "label": "Recurring Invoices"
+    },
+    {
+      "href": "/use-cases/freelancers",
+      "label": "Freelancer Billing"
+    }
+  ]
+}

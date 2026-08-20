@@ -1,0 +1,56 @@
+{
+  "slug": "cash-basis-accounting",
+  "term": "Cash basis accounting",
+  "category": "accounting",
+  "short": "Cash basis accounting is a bookkeeping method that records revenue only when money is received and expenses only when money is paid out, regardless of when the invoice was issued.",
+  "metaTitle": "What is Cash basis accounting? · Paper & Pen",
+  "metaDescription": "Learn how cash basis accounting works, why small businesses use it to manage cash flow, and how it differs from accrual accounting for tax purposes.",
+  "definition": "Cash basis accounting is the simplest way to manage your business finances. Under this method, you only recognise income when the payment actually lands in your bank account or cash till. Similarly, you only record expenses when the money physically leaves your account. If you send an invoice to a client in October but they pay you in November, the revenue belongs to November. This approach gives you an immediate, clear picture of how much money you have available right now. Many freelancers and small retail shops prefer it because it aligns perfectly with their bank balance. However, it does not track money owed to you or money you owe to suppliers. Because it ignores unpaid invoices and bills, it can sometimes hide long-term financial trends, making it less suitable for larger organisations or those carrying heavy stock.",
+  "how": {
+    "title": "How Cash basis accounting works",
+    "body": "Operating on a cash basis requires you to focus entirely on the movement of funds. When you deliver a service or sell an item, you might issue a sales invoice to request payment. However, you do not post a journal entry for revenue at that moment. You wait until the customer transfers the funds. Once the payment clears, you record the income in your books. The same rule applies to your purchases. When a supplier sends you a bill for office rent or materials, you hold off on recording the expense. You only log the cost on the exact day you issue the bank transfer or hand over the cash. This chronological matching of actual cash inflows and outflows forms the foundation of your financial records.",
+    "items": [
+      "You issue an invoice to your customer for goods or services provided.",
+      "You wait for the customer to actually pay the invoiced amount.",
+      "You record the revenue in your ledger on the day the payment arrives.",
+      "You receive a bill from a supplier for a business expense.",
+      "You record the expense only when the funds leave your bank account."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Imagine your consulting firm, Gulf Tech Advisors, completes a project for a client in November. You issue an invoice for 5,000 OMR on November 28. The client takes their time and finally pays the 5,000 OMR on December 15. Under cash basis accounting, you record zero revenue for this project in November. The 5,000 OMR is recognised entirely in December, the month you actually received the money. If your financial year ends on November 30, this income will not appear on your current year profit and loss statement. It will count towards the next financial year."
+  },
+  "matters": "Understanding this method is vital because it directly impacts how you calculate your taxable income and assess your business health. Using the cash basis means you never pay tax on money you have not yet received, which protects your cash flow. If a client delays payment, you do not have to find the funds to cover the tax bill in advance. However, it can make your business look artificially profitable if you delay paying your own bills. Paper & Pen creates invoices and posts journal entries, allowing you to easily track these cash movements. As your business grows, you might need to switch to accrual accounting to secure bank loans.",
+  "faqs": [
+    {
+      "q": "Can I use cash basis accounting if I am registered for VAT?",
+      "a": "This depends entirely on your local tax authority. Some countries allow small businesses to use cash accounting for VAT, meaning you only pay VAT to the government after your customer pays you. Other jurisdictions require all VAT-registered businesses to use accrual accounting. You must check your specific national regulations."
+    },
+    {
+      "q": "What is the main difference between cash and accrual accounting?",
+      "a": "The difference is timing. Cash basis accounting records income and expenses exactly when money changes hands. Accrual accounting records income when you earn it and expenses when you incur them, regardless of when the actual payment happens. Accrual provides a better long-term view, while cash basis is simpler to maintain."
+    },
+    {
+      "q": "Does cash basis accounting track accounts receivable?",
+      "a": "Strictly speaking, pure cash basis accounting does not track accounts receivable or accounts payable on the general ledger. Because transactions are only recorded when cash moves, unpaid invoices do not formally exist in your financial statements. You must track who owes you money separately to ensure you get paid."
+    }
+  ],
+  "related": [
+    "accrual-accounting",
+    "profit-and-loss-statement",
+    "cash-flow-statement",
+    "accounts-receivable",
+    "general-ledger"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    },
+    {
+      "href": "/use-cases/small-business",
+      "label": "Small business ERP"
+    }
+  ]
+}

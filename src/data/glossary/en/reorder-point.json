@@ -1,0 +1,57 @@
+{
+  "slug": "reorder-point",
+  "term": "Reorder point",
+  "abbr": "ROP",
+  "category": "inventory",
+  "short": "A reorder point is the specific inventory level at which a business must place a new purchase order to replenish stock before running out completely.",
+  "metaTitle": "Reorder Point Definition · Paper & Pen",
+  "metaDescription": "Learn how to calculate your reorder point to maintain the right inventory levels, prevent stockouts, and keep your customers happy without overstocking.",
+  "definition": "The reorder point is a critical inventory threshold that tells you exactly when it is time to buy more stock. When your available inventory drops to this specific number, you trigger a new purchase order. It acts as a built-in alarm system for your warehouse or store shelves. By calculating this metric accurately, you ensure that new goods arrive just before your existing stock runs dry. This prevents costly delays and lost sales. To find your ideal threshold, you must understand how quickly you sell an item and how long your supplier takes to deliver a new batch. You also need a buffer for unexpected delays or sudden spikes in customer demand. Setting the right level keeps your cash flow healthy and your storage costs under control.",
+  "how": {
+    "title": "How Reorder point works",
+    "body": "Setting up a reorder point system requires tracking your daily sales and supplier timelines. First, you determine the average number of units you sell each day. Next, you calculate the lead time, which is the number of days it takes for a supplier to deliver an order once you place it. You then multiply your daily sales by this lead time to find your expected demand during the waiting period. Finally, you add a safety stock buffer to protect against unexpected delays or sudden surges in customer orders. Once your stock level hits this final calculated number, you immediately issue a purchase order to replenish your shelves.",
+    "items": [
+      "Calculate your average daily sales volume for a specific product over a set period.",
+      "Determine your supplier lead time in days from order placement to final delivery.",
+      "Multiply the daily sales volume by the lead time to find your basic replenishment need.",
+      "Calculate a safety stock buffer to handle unexpected shipping delays or sudden demand spikes.",
+      "Add the safety stock to your basic replenishment need to find the final threshold."
+    ]
+  },
+  "formula": {
+    "label": "Reorder Point Formula",
+    "expr": "(Average daily usage x Lead time in days) + Safety stock",
+    "note": "The result tells you the exact inventory count that should trigger a new purchase order."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Traders sells 15 office chairs every day. Their furniture supplier takes 10 days to deliver a new batch of chairs. To protect against shipping delays, Gulf Traders keeps a safety stock of 30 chairs. First, multiply the daily usage (15) by the lead time (10 days) to get 150 chairs. Then, add the safety stock of 30 chairs. The final reorder point is 180 chairs. Whenever their warehouse inventory drops to exactly 180 chairs, Gulf Traders must place a new purchase order to ensure they never run out of stock."
+  },
+  "matters": "Ignoring your reorder point leads directly to stockouts, unhappy customers, and lost revenue. If you order too late, you have nothing to sell while waiting for suppliers. If you order too early, you tie up valuable working capital in excess stock that gathers dust and increases your storage costs. Calculating this metric correctly balances your cash flow and ensures you can always fulfil customer orders on time. Paper & Pen tracks stock levels automatically, helping you monitor your inventory so you know exactly when to replenish your goods.",
+  "faqs": [
+    {
+      "q": "What is the difference between a reorder point and safety stock?",
+      "a": "Safety stock is the extra buffer inventory you keep on hand to prevent stockouts during emergencies or delays. The reorder point is the specific inventory level that triggers a new purchase. You actually use your safety stock number as part of the formula to calculate your final reorder threshold."
+    },
+    {
+      "q": "How often should I update my reorder points?",
+      "a": "You should review and update your thresholds every few months, or whenever your business experiences significant changes. Seasonal demand shifts, changes in supplier delivery times, and overall business growth will all alter your daily usage and lead times. Regular reviews ensure your inventory levels remain accurate and cost-effective."
+    }
+  ],
+  "related": [
+    "safety-stock",
+    "inventory-turnover",
+    "purchase-order",
+    "sku"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Explore inventory features"
+    },
+    {
+      "href": "/invoicing/purchase-orders",
+      "label": "Manage purchase orders"
+    }
+  ]
+}

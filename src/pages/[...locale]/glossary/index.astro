@@ -1,0 +1,151 @@
+---
+/*
+ * GLOSSARY HUB.
+ *
+ * Two jobs. It is the ItemList that states the whole set to a crawler, and it
+ * is the internal-link hub that makes the term pages reachable in one hop from
+ * anywhere in the footer. The filter box is progressive enhancement over a
+ * fully rendered list: with JavaScript off, every term is still in the HTML and
+ * still a link, which is the only version a crawler sees anyway.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, localizePath, LOCALE_META, type Locale } from '@/i18n';
+import { localeStaticPaths } from '@/lib/paths';
+import { allTerms, CATEGORIES } from '@/lib/glossary';
+import { graph, organization, breadcrumbList, itemList } from '@/lib/schema';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+const lp = (p: string) => localizePath(p, locale);
+
+const terms = allTerms(locale);
+/* The result-count sentence is a translated template carried on the element as
+   data-tpl, so the inline filter script never builds a sentence itself and no
+   English string can leak onto an /ar/ page. */
+const groups = CATEGORIES.map((c) => ({
+  id: c,
+  label: t(`glossary.cat.${c}`),
+  items: terms.filter((x) => x.category === c).sort((a, b) => a.term.localeCompare(b.term, locale)),
+})).filter((g) => g.items.length);
+
+const crumbs = [
+  { name: t('nav.home'), url: '/' },
+  { name: t('glossary.title'), url: '/glossary' },
+];
+
+const jsonld = [
+  graph(
+    organization(),
+    {
+      '@type': 'DefinedTermSet',
+      '@id': 'https://paperandpen.om' + localizePath('/glossary', locale) + '#termset',
+      name: t('glossary.title'),
+      description: t('seo.glossaryDesc'),
+      url: 'https://paperandpen.om' + localizePath('/glossary', locale),
+      hasDefinedTerm: terms.map((x) => ({
+        '@type': 'DefinedTerm',
+        '@id': 'https://paperandpen.om' + localizePath(`/glossary/${x.slug}`, locale) + '#term',
+        name: x.term,
+      })),
+    },
+    itemList({
+      name: t('glossary.title'),
+      items: terms.map((x) => ({ name: x.term, url: localizePath(`/glossary/${x.slug}`, locale) })),
+    }),
+    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: localizePath(c.url, locale) })))
+  ),
+];
+---
+
+<BaseLayout
+  {locale}
+  path="/glossary"
+  title={t('seo.glossaryTitle')}
+  description={t('seo.glossaryDesc')}
+  {jsonld}
+>
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('glossary.title') }]} />
+
+  <header class="band band-paper band-tight">
+    <div class="container-wide">
+      <p class="eyebrow">{t('glossary.eyebrow')}</p>
+      <h1 class="mt-4 max-w-[20ch] font-display text-display text-ink-500">{t('glossary.title')}</h1>
+      <p class="mt-6 max-w-[62ch] text-xl leading-relaxed text-ink-500">{t('glossary.sub', { count: terms.length })}</p>
+
+      <div class="mt-10 max-w-md">
+        <label for="gl-q" class="text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('glossary.filterLabel')}</label>
+        <input
+          id="gl-q"
+          type="search"
+          name="q"
+          autocomplete="off"
+          placeholder={t('glossary.filterPlaceholder')}
+          class="fld mt-3 w-full"
+        />
+                <p
+          id="gl-count"
+          class="mt-3 text-sm text-ink-500/75"
+          role="status"
+          aria-live="polite"
+          data-tpl={t('glossary.filterCount')}
+        ></p>
+      </div>
+    </div>
+  </header>
+
+  {groups.map((g, i) => (
+    <section class={`band ${i % 2 === 0 ? 'band-surface' : 'band-paper'}`} aria-labelledby={`gl-${g.id}`} data-gl-group={g.id}>
+      <div class="container-wide">
+        <h2 id={`gl-${g.id}`} class="font-display text-display-sm text-ink-500">{g.label}</h2>
+        <ul class="mt-8 grid gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
+          {g.items.map((x) => (
+            <li class="border-t border-ink-200" data-gl-term={`${x.term} ${x.abbr ?? ''} ${x.slug}`.toLowerCase()}>
+              <a href={lp(`/glossary/${x.slug}`)} class="group block py-5 no-underline">
+                <span class="block font-semibold text-ink-500 group-hover:text-electric-500">
+                  {x.abbr ? `${x.term} (${x.abbr})` : x.term}
+                </span>
+                <span class="mt-1 block text-sm leading-relaxed text-ink-500/70">{x.short}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  ))}
+
+  <CtaBand {locale} />
+</BaseLayout>
+
+<script>
+  /* Client-side filter. Everything is already in the DOM, so this only hides
+     rows; it never fetches and it never rewrites a URL a crawler would follow.
+     ?q= is read on load so the SearchAction target in the JSON-LD is a URL that
+     genuinely does something. */
+  const q = document.getElementById('gl-q') as HTMLInputElement | null;
+  const count = document.getElementById('gl-count');
+  if (q) {
+    const rows = Array.from(document.querySelectorAll<HTMLElement>('[data-gl-term]'));
+    const groups = Array.from(document.querySelectorAll<HTMLElement>('[data-gl-group]'));
+    const total = rows.length;
+    const tpl = count?.dataset.tpl || '';
+    const apply = (raw: string) => {
+      const v = raw.trim().toLowerCase();
+      let shown = 0;
+      for (const r of rows) {
+        const hit = !v || (r.dataset.glTerm || '').includes(v);
+        r.hidden = !hit;
+        if (hit) shown++;
+      }
+      for (const g of groups) {
+        g.hidden = !g.querySelector<HTMLElement>('[data-gl-term]:not([hidden])');
+      }
+      if (count) count.textContent = v ? tpl.replace('{{shown}}', String(shown)).replace('{{total}}', String(total)) : '';
+    };
+    q.addEventListener('input', () => apply(q.value));
+    const initial = new URLSearchParams(location.search).get('q');
+    if (initial) { q.value = initial; apply(initial); }
+  }
+</script>

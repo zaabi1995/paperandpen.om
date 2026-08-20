@@ -11,11 +11,11 @@ export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
 const items = (tRaw(locale, 'pages.security.items') as string[]) ?? [];
-const crumbs = [{ name: 'Home', url: '/' }, { name: t('footer.security'), url: '/security' }];
+const crumbs = [{ name: t('nav.home'), url: '/' }, { name: t('footer.security'), url: '/security' }];
 const jsonld = [graph(organization(), breadcrumbList(crumbs))];
 ---
 <BaseLayout {locale} path="/security" title={t('seo.securityTitle')} description={t('seo.securityDesc')} {jsonld}>
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('footer.security') }]} />
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.security') }]} />
   <section class="section-pad bg-cream-50">
     <div class="max-w-3xl mx-auto">
       <h1 class="font-display text-4xl lg:text-5xl font-bold text-ink-500 mb-4">{t('pages.security.title')}</h1>

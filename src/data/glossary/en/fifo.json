@@ -1,0 +1,56 @@
+{
+  "slug": "fifo",
+  "term": "FIFO",
+  "category": "inventory",
+  "short": "First-In, First-Out is an inventory valuation method where the oldest purchased goods are recorded as sold first, leaving the most recently purchased items in your closing stock.",
+  "metaTitle": "FIFO Inventory Valuation · Paper & Pen",
+  "metaDescription": "Learn how the First-In, First-Out (FIFO) method values your inventory, calculates the cost of goods sold, and impacts your business profitability.",
+  "definition": "First-In, First-Out (FIFO) is a widely used inventory valuation method based on a simple chronological assumption. When you sell a product, accounting rules require you to match the revenue with the cost of acquiring that specific item. Because tracking individual units is often impossible, FIFO assumes that the first items you placed into your warehouse are the first ones you sell to customers.\n\nUnder this method, your cost of goods sold reflects older purchase prices, while your remaining inventory on the balance sheet reflects the most recent costs. This approach closely mirrors the physical movement of perishable goods or products with expiration dates. By matching recent costs to your unsold stock, FIFO usually provides a highly accurate view of your current inventory value at the end of an accounting period.",
+  "how": {
+    "title": "How FIFO works",
+    "body": "To apply FIFO, you must track inventory purchases in distinct layers, recording the date, quantity, and unit cost of every incoming batch. When a customer buys from you, you do not simply average the costs. Instead, you deduct the sold quantity from the oldest available purchase layer first.\n\nIf the sale requires more units than the oldest layer holds, you empty that layer and take the remaining required units from the next oldest batch. You repeat this sequential process until the entire sales order is fulfilled. The total cost of these consumed layers becomes your cost of goods sold. The units left untouched in your newest layers determine the financial value of your closing stock at the end of the month.",
+    "items": [
+      "Record every new inventory purchase with its specific date, quantity, and unit price.",
+      "Identify the oldest available batch of inventory when a customer places an order.",
+      "Assign the unit cost of this oldest batch to the items you just sold.",
+      "Move to the next oldest batch if the sale quantity exceeds the first layer.",
+      "Calculate your total cost of goods sold by adding the costs of all consumed layers.",
+      "Value your remaining unsold stock using the unit costs of your most recent purchases."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Oasis Electronics buys two lots of phone chargers. On May 1, they buy 100 units at $10 each ($1,000). On May 15, they buy 100 units at $12 each ($1,200). Their total purchase cost is $2,200 for 200 units.\n\nOn May 20, Oasis sells 150 chargers. Using FIFO, they consume the entire first lot (100 units x $10 = $1,000) and 50 units from the second lot (50 units x $12 = $600). The cost of goods sold is $1,600.\n\nThe closing stock is the remaining 50 units from the second lot (50 units x $12 = $600). The $1,600 cost of goods sold plus the $600 closing stock perfectly reconciles to the $2,200 total purchase cost."
+  },
+  "matters": "Choosing an inventory valuation method directly impacts your reported profits and tax liabilities. During periods of rising prices, FIFO matches your older, cheaper costs against current sales revenue. This results in a lower cost of goods sold and a higher gross profit margin compared to methods like weighted-average-cost.\n\nWhile higher profits look attractive to investors and lenders, they can also increase your corporate tax burden. Conversely, your balance sheet will look healthier because your closing stock is valued at the newer, higher prices. Paper & Pen tracks stock and posts journal entries automatically, helping you maintain accurate inventory records regardless of the valuation method you choose.",
+  "faqs": [
+    {
+      "q": "What is the difference between FIFO and weighted average cost?",
+      "a": "FIFO values your sold goods using the specific prices of your oldest inventory batches, moving sequentially through purchase layers. Weighted-average-cost blends all purchase prices together, dividing the total cost of available goods by the total units. FIFO leaves your closing stock valued at the most recent prices, while the average method smooths out price fluctuations over time."
+    },
+    {
+      "q": "Can I switch from FIFO to another inventory method?",
+      "a": "Yes, but changing your inventory valuation method usually requires a formal adjustment in your accounting records and may require approval from your local tax authority. Consistency is a core accounting principle. If you switch methods, you must disclose the change in your financial statements and explain how it impacts your reported profit and inventory values."
+    },
+    {
+      "q": "Does FIFO mean I have to physically ship the oldest items first?",
+      "a": "No, FIFO is strictly a financial accounting assumption used to calculate the cost of goods sold. While supermarkets and pharmacies physically rotate stock to sell older perishable items first, a hardware store might physically sell a newer hammer before an older one. FIFO accounting simply assigns the oldest costs to the sale, regardless of physical movement."
+    }
+  ],
+  "related": [
+    "weighted-average-cost",
+    "cost-of-goods-sold",
+    "inventory-turnover",
+    "stock-take"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory Tracking"
+    },
+    {
+      "href": "/features/accounting",
+      "label": "Cloud Accounting"
+    }
+  ]
+}

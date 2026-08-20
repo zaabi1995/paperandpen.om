@@ -1,0 +1,140 @@
+{
+  "locale": "en",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrain",
+  "title": "VAT in Bahrain",
+  "metaTitle": "VAT in Bahrain: 10% Rate and Invoice Rules · Paper & Pen",
+  "metaDescription": "Bahrain's 10% VAT rate, the BHD 37,500 registration threshold and what the NBR requires on a VAT invoice, cited to the Bureau's own guide.",
+  "keywords": "vat bahrain, bahrain vat rate 10, bahrain vat registration threshold, bahrain vat invoice requirements, national bureau for revenue",
+  "heroEyebrow": "Bahrain",
+  "heroTitle": "Invoicing under <em class=\"text-copper-400 not-italic\">Bahrain's VAT</em> rules",
+  "heroSubtitle": "The 10% rate, the registration thresholds and what the National Bureau for Revenue requires on a VAT invoice, including the one field unique to construction.",
+  "heroBullets": [
+    "10% standard rate",
+    "BHD 37,500 to register",
+    "No e-invoicing mandate published"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Standard VAT rate",
+      "value": "10%",
+      "note": "VAT began at 5% on 1 January 2019 and was revised to 10% with effect from 1 January 2022. Comparisons written before 2022 are out of date.",
+      "source": 1
+    },
+    {
+      "label": "Mandatory registration threshold",
+      "value": "BHD 37,500",
+      "note": "Exceeding this figure requires registration.",
+      "source": 1
+    },
+    {
+      "label": "Voluntary registration threshold",
+      "value": "BHD 18,750",
+      "note": "Measured over the previous 12 months or the next 12 months, and may be based on VAT-bearing expenses rather than supplies.",
+      "source": 1
+    },
+    {
+      "label": "Invoice issue deadline",
+      "value": "15th of the following month",
+      "note": "Invoices must be issued by the fifteenth of the month after the month in which a VAT due date was triggered.",
+      "source": 1
+    },
+    {
+      "label": "Currency on the invoice",
+      "value": "BHD",
+      "note": "Values, VAT amounts and totals are shown in Bahraini dinars, with the exchange rate stated where a foreign currency is used.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Section 10.3 of the NBR's VAT General Guide sets out what a full VAT invoice must show. A simplified VAT invoice needs a subset of these.",
+    "items": [
+      "The label \"VAT invoice\"",
+      "Name, address and VAT Account Number of the supplier",
+      "Name and address of the customer",
+      "A sequential VAT invoice number",
+      "The date of issue, and the date of supply or payment where different",
+      "A description of the supply detailed enough to make the VAT treatment clear",
+      "For construction of a new building, the building permit number",
+      "The quantity of goods provided",
+      "The value of the supply and the unit price in dinars, excluding VAT",
+      "Any discount, and the net value in dinars excluding VAT",
+      "The VAT rate and VAT due in dinars, per line where rates differ",
+      "The total amount due including VAT, in dinars",
+      "The exchange rate applied where a foreign currency is used",
+      "A clear statement where a transaction is exempt",
+      "A reference to the profit margin mechanism where it is used"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "No mandate published",
+    "body": "We can find no e-invoicing scheme, phase or date published by the National Bureau for Revenue. Its VAT General Guide, updated in July 2026, does not mention electronic invoicing at all, and its publications index lists no e-invoicing guide. Commentary elsewhere describes a business-to-business system in design for a possible phased launch, but nothing on the Bureau's own site supports a date, so we do not publish one. If you are planning a system change, plan it on the invoice-content rules above, which are current and published, rather than on an anticipated mandate.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Getting it right",
+      "title": "The two Bahrain-specific traps",
+      "body": "The first is the rate history. Bahrain moved from five percent to ten percent on 1 January 2022, so any template, price list or comparison article written before that is wrong, and the mistake survives quietly in old quotation templates. The second is the issue deadline. Bahrain does not just say an invoice must be issued, it says by when: the fifteenth of the month following the month in which the VAT due date was triggered. A business that invoices whenever the paperwork is ready can be late without ever noticing it is late.",
+      "items": [
+        "Check any pre-2022 template for a 5% rate",
+        "Invoice by the 15th of the following month",
+        "Show VAT per line where rates differ",
+        "State the exchange rate on foreign-currency invoices"
+      ]
+    },
+    {
+      "eyebrow": "Sector detail",
+      "title": "The construction field nobody expects",
+      "body": "Bahrain's invoice content rules carry one requirement that has no equivalent elsewhere in the Gulf: for supplies relating to the construction of a new building, the invoice must show the building permit number. It is easy to miss because it sits inside the general description requirement rather than as a headline field, and it is the kind of omission that is only discovered when an invoice is queried months later. If you work in contracting, put the permit number in your line description template rather than trusting anyone to remember it.",
+      "items": [
+        "New-build supplies need the building permit number",
+        "Put it in the template, not in someone's memory",
+        "Describe the supply well enough to show its VAT treatment",
+        "Keep the exemption statement wording ready"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the VAT rate in Bahrain?",
+      "a": "Ten percent. Bahrain introduced VAT at five percent on 1 January 2019 and revised the standard rate to ten percent with effect from 1 January 2022. Any guide, template or comparison that still shows five percent for Bahrain predates that change."
+    },
+    {
+      "q": "When do I have to register for VAT in Bahrain?",
+      "a": "When your supplies exceed BHD 37,500. You may register voluntarily from BHD 18,750, measured over the previous or the next twelve months, and Bahrain allows voluntary registration on the basis of VAT-bearing expenses as well as supplies, which can suit a business still building up its sales."
+    },
+    {
+      "q": "Is e-invoicing mandatory in Bahrain?",
+      "a": "Not according to anything the National Bureau for Revenue publishes. Its VAT General Guide, updated July 2026, does not mention electronic invoicing, and no e-invoicing guide appears in its publications. We do not repeat dates from commentary that the Bureau itself has not published."
+    },
+    {
+      "q": "By when must a Bahrain VAT invoice be issued?",
+      "a": "By the fifteenth of the month following the month in which the VAT due date was triggered. This is a real deadline rather than a general expectation, and it catches businesses that batch their invoicing at the end of a quarter."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Invoice correctly in Bahrain, free",
+  "ctaSub": "Set the rate yourself, show VAT per line, and keep the fields the Bureau asks for in a template you do not have to remember.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, version 1.15, including section 10.3 on invoice requirements",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

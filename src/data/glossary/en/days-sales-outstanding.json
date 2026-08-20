@@ -1,0 +1,58 @@
+{
+  "slug": "days-sales-outstanding",
+  "term": "Days sales outstanding",
+  "abbr": "DSO",
+  "category": "metrics",
+  "short": "Days sales outstanding is a financial metric that measures the average number of days it takes a business to collect payment from its customers after a credit sale has been made.",
+  "metaTitle": "Days sales outstanding (DSO) · Paper & Pen",
+  "metaDescription": "Learn how to calculate days sales outstanding to measure how quickly your business collects payments from customers and improve your overall cash flow.",
+  "definition": "Days sales outstanding, commonly known as DSO, reveals the average time it takes for your company to turn credit sales into actual cash. When you sell goods or services on credit, you issue an invoice and wait for the customer to pay. This metric tracks that waiting period. A low number means you collect payments quickly, which keeps your cash flow healthy and reduces the risk of bad debts. A high number indicates that customers are taking longer to pay, which can tie up your working capital and force you to delay your own payments to suppliers. Monitoring this metric helps you evaluate the effectiveness of your credit policies and collection efforts. If your average collection period stretches too far beyond your standard payment terms, you may need to tighten credit limits or chase overdue invoices more actively.",
+  "how": {
+    "title": "How Days sales outstanding works",
+    "body": "To calculate days sales outstanding, you must first select a specific time period to analyse, such as a month, a quarter or a full year. Next, you determine the total value of your accounts receivable at the end of that period. You then calculate the total value of your credit sales made during that same timeframe. Cash sales are excluded because they do not generate receivables. Once you have these two figures, you divide your accounts receivable by your total credit sales. Finally, you multiply that result by the number of days in your chosen period. This final calculation yields the average number of days it takes for an invoice to be paid.",
+    "items": [
+      "Choose a specific accounting period to measure, like a month or a year.",
+      "Find your total accounts receivable balance at the end of the chosen period.",
+      "Calculate the total value of all credit sales made during that exact timeframe.",
+      "Divide the accounts receivable balance by the total credit sales figure.",
+      "Multiply the result by the total number of days in the period."
+    ]
+  },
+  "formula": {
+    "label": "Days sales outstanding formula",
+    "expr": "(Accounts receivable / Total credit sales) x Number of days",
+    "note": "A lower result indicates faster collections, while a higher result suggests customers are taking longer to pay."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Imagine a Dubai-based trading company, Desert Supplies LLC, wants to calculate its days sales outstanding for the month of April, which has 30 days. At the end of April, their accounts receivable balance is 40,000 dirhams. During the entire month, they made 160,000 dirhams in total credit sales. To find the metric, they divide 40,000 by 160,000, which equals 0.25. They then multiply 0.25 by 30 days. The result is 7.5 days. This means that, on average, Desert Supplies LLC collects payment from its customers in just under eight days after issuing an invoice."
+  },
+  "matters": "Keeping a close eye on days sales outstanding is vital for maintaining healthy working capital. If this number climbs, your business is effectively acting as a free bank for your customers. This traps cash you need to pay salaries, purchase new inventory or settle your own supplier bills. Consistently delayed payments also increase the likelihood of bad debts, forcing you to write off uncollected revenue. By tracking this metric, you can identify problem clients early and adjust your credit terms accordingly. Paper & Pen creates invoices, quotations and receipts to help you formalise these terms and track what you are owed.",
+  "faqs": [
+    {
+      "q": "What is a good days sales outstanding number?",
+      "a": "A good number depends entirely on your industry and your standard payment terms. If you typically offer net-30 terms, an average collection period of 35 to 45 days is generally considered acceptable. However, if your average stretches to 60 days on those same terms, your collection process needs immediate improvement to protect your cash flow."
+    },
+    {
+      "q": "How can I reduce my days sales outstanding?",
+      "a": "You can reduce this metric by issuing invoices immediately after delivering goods or services. Offering early payment discounts and enforcing strict credit limits for new customers also helps. Additionally, you should send regular payment reminders and follow up promptly when an invoice becomes overdue to encourage faster settlements."
+    }
+  ],
+  "related": [
+    "accounts-receivable",
+    "net-30",
+    "working-capital",
+    "aging-report",
+    "bad-debt"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/reports",
+      "label": "Accounting reports"
+    },
+    {
+      "href": "/invoicing/payment-reminders",
+      "label": "Payment reminders"
+    }
+  ]
+}

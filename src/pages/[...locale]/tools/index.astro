@@ -5,7 +5,7 @@ import CtaBand from '@/components/blocks/CtaBand.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, localizePath, type Locale } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
-import { graph, organization, breadcrumbList } from '@/lib/schema';
+import { graph, organization, breadcrumbList, itemList } from '@/lib/schema';
 import Icon from '@/components/blocks/Icon.astro';
 
 export const getStaticPaths = localeStaticPaths;
@@ -19,11 +19,19 @@ const fallback = all.filter((e) => e.data.locale === 'en');
 const list = (tools.length ? tools : fallback).sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
 
 const ICONS: Record<string, string> = {
-  invoice: 'invoice', quotation: 'quote', proforma: 'doc', receipt: 'receipt',
+  invoice: 'invoice', quotation: 'quote', estimate: 'calc', proforma: 'doc', receipt: 'receipt',
+  'credit-note': 'refresh',
   'purchase-order': 'cart', 'delivery-note': 'truck', 'vat-calculator': 'calc',
 };
-const crumbs = [{ name: 'Home', url: '/' }, { name: t('nav.tools'), url: '/tools' }];
-const jsonld = [graph(organization(), breadcrumbList(crumbs))];
+const crumbs = [{ name: t('nav.home'), url: '/' }, { name: t('nav.tools'), url: '/tools' }];
+/* The hub states its whole child set, not just links to it. */
+const jsonld = [
+  graph(
+    organization(),
+    itemList({ name: t('toolsIndex.title'), items: list.map((e) => ({ name: e.data.title, url: lp(`/tools/${e.data.slug}`) })) }),
+    breadcrumbList(crumbs)
+  ),
+];
 ---
 <BaseLayout
   {locale}
@@ -33,7 +41,7 @@ const jsonld = [graph(organization(), breadcrumbList(crumbs))];
   keywords="free invoice generator, free quotation maker, VAT calculator, free business tools"
   {jsonld}
 >
-  <Breadcrumbs {locale} crumbs={[{ name: 'Home', href: '/' }, { name: t('nav.tools') }]} />
+  <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('nav.tools') }]} />
   <section class="section-pad bg-cream-50">
     <div class="container-wide">
       <div class="max-w-2xl mb-12 reveal">

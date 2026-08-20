@@ -1,0 +1,62 @@
+{
+  "slug": "accounts-receivable",
+  "term": "Accounts receivable",
+  "abbr": "AR",
+  "category": "accounting",
+  "short": "Accounts receivable represents the total amount of money owed to a business by its customers for goods or services that have been delivered but not yet paid for.",
+  "metaTitle": "What is Accounts Receivable? · Paper & Pen",
+  "metaDescription": "Learn what accounts receivable is, how it works, and why tracking customer payments is essential for maintaining healthy cash flow in your business.",
+  "definition": "Accounts receivable is the balance of money due to your business from clients who have purchased your goods or services on credit. When you deliver a product or complete a service but agree to let the customer pay you at a later date, you create a receivable. This balance is recorded as a current asset on your balance sheet because you expect to convert it into cash within one year.\n\nManaging this balance properly ensures you have enough cash to cover your own obligations, like rent and payroll. If you allow customers 30 or 60 days to pay, you are essentially extending them a short-term loan. Keeping a close eye on these outstanding invoices helps you identify late payers early, maintain a healthy cash flow, and avoid the risk of bad debts that can harm your overall profitability.",
+  "how": {
+    "title": "How Accounts receivable works",
+    "body": "The accounts receivable process begins the moment you agree to provide goods or services to a customer on credit terms. Once you deliver the order, you issue a sales invoice detailing the amount due and the payment deadline. At this point, your accounting system records the invoice amount as an increase to your accounts receivable balance and recognises the revenue.\n\nWhile you wait for payment, you monitor the outstanding balances using an aging report to track which invoices are current and which are overdue. If a customer misses their deadline, you follow up with payment reminders or statements of account. Finally, when the customer transfers the funds, you apply the payment against the specific invoice, which reduces your accounts receivable balance and increases your cash balance.",
+    "items": [
+      "Agree on payment terms with your customer before delivering the goods or services.",
+      "Issue a clear tax invoice immediately after completing the delivery or service.",
+      "Record the outstanding amount as a current asset in your general ledger.",
+      "Monitor unpaid invoices regularly using an accounts receivable aging report.",
+      "Send polite payment reminders or statements to customers as their due dates approach.",
+      "Record the incoming payment to clear the receivable and increase your cash balance."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Suppose your company, Gulf Trading LLC, sells office supplies. On 1 March, you deliver goods worth $2,000 to a corporate client with net 30 payment terms. You issue the invoice, and your accounts receivable balance increases by $2,000.\n\nOn 15 March, you sell another batch of supplies to a different client for $1,500 on the same terms. Your total accounts receivable balance is now $3,500.\n\nOn 28 March, the first client pays their $2,000 invoice in full. You record the receipt, which reduces your accounts receivable balance by $2,000. Your new accounts receivable balance at the end of March is $1,500, representing the second client's unpaid invoice."
+  },
+  "matters": "Tracking accounts receivable is critical because sales mean nothing until the cash actually reaches your bank account. If outstanding balances grow too large, you may struggle to pay your own suppliers, even if your profit and loss statement shows a healthy profit. Unpaid invoices can quickly choke your working capital.\n\nBy monitoring who owes you money and when it is due, you can take proactive steps to collect payments on time. Using a system like Paper & Pen, which creates invoices and posts journal entries, helps keep accurate records of these balances. Good receivables management reduces the risk of bad debts and ensures you have the liquidity needed to operate.",
+  "faqs": [
+    {
+      "q": "Is accounts receivable an asset or a liability?",
+      "a": "Accounts receivable is classified as a current asset on your balance sheet. It represents future cash inflows that your business is legally entitled to receive from customers. Because you expect these payments to be settled within a short period, typically less than a year, they add to your company's total asset value and improve your working capital position."
+    },
+    {
+      "q": "What is the difference between accounts receivable and accounts payable?",
+      "a": "Accounts receivable is money owed to your business by customers for sales made on credit. It is an asset. Conversely, accounts payable is money your business owes to suppliers for purchases made on credit. It is a liability. Monitoring both balances is essential for managing your cash flow and ensuring you can meet your financial obligations."
+    },
+    {
+      "q": "How can I reduce my accounts receivable balance?",
+      "a": "You can reduce your balance by encouraging faster payments. Strategies include offering early payment discounts, enforcing strict credit limits, and sending prompt payment reminders. Requesting deposits or partial payments upfront also helps. Regularly reviewing an aging report allows you to identify overdue accounts early and follow up before they turn into uncollectible bad debts."
+    }
+  ],
+  "related": [
+    "accounts-payable",
+    "aging-report",
+    "days-sales-outstanding",
+    "bad-debt",
+    "working-capital"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    },
+    {
+      "href": "/invoicing/payment-reminders",
+      "label": "Payment Reminders"
+    },
+    {
+      "href": "/features/accounting",
+      "label": "Cloud Accounting"
+    }
+  ]
+}

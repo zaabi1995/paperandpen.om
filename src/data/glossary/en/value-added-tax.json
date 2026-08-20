@@ -1,0 +1,62 @@
+{
+  "slug": "value-added-tax",
+  "term": "Value added tax",
+  "abbr": "VAT",
+  "category": "tax",
+  "short": "Value added tax is an indirect consumption tax assessed on the incremental value created at each stage of the supply chain, from initial production to the final sale.",
+  "metaTitle": "Value Added Tax (VAT) Explained · Paper & Pen",
+  "metaDescription": "Value added tax is a consumption tax charged at each stage of a supply chain. Learn how VAT works and why it matters for your business.",
+  "definition": "Value added tax is an indirect tax that governments levy on the sale of goods and services. Unlike a simple sales tax collected only at the final purchase, VAT is collected in stages. At every step of the supply chain, a business pays tax on its purchases and charges tax on its sales. The difference between the tax collected from customers and the tax paid to suppliers is the actual value added tax remitted to the government.\n\nBecause it is a consumption tax, the final consumer ultimately bears the cost. As a business owner, you act as a collection agent for the tax authority. You must track these amounts carefully to file accurate returns. Keep in mind that specific VAT rates, registration thresholds and filing deadlines are set independently by each country's tax authority.",
+  "how": {
+    "title": "How Value added tax works",
+    "body": "The mechanics of value added tax rely on a system of credits and offsets. When you buy materials or services for your business, you pay VAT to your suppliers. This is known as input tax. When you sell your finished goods or services to your customers, you charge them VAT. This is known as output tax.\n\nAt the end of your tax period, you calculate the total output tax you collected and subtract the total input tax you paid. If you collected more than you paid, you send the difference to the tax authority. If you paid more than you collected, you can usually claim a refund or carry the credit forward. This continuous chain ensures that tax is only applied to the incremental value added at your specific stage of production.",
+    "items": [
+      "A manufacturer buys raw materials and pays input tax to the supplier.",
+      "The manufacturer creates a product, adding value to the raw materials.",
+      "The manufacturer sells the product to a retailer, charging output tax.",
+      "The manufacturer remits the collected tax minus the paid tax to the government.",
+      "The retailer repeats this process when selling to the final consumer."
+    ]
+  },
+  "formula": {
+    "label": "VAT Payable",
+    "expr": "Output VAT - Input VAT",
+    "note": "A positive result is the amount you owe to the tax authority. A negative result means you are owed a refund or a tax credit."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Suppose a local tax authority sets the VAT rate at 10 percent. Desert Oasis Trading buys raw wood from a supplier for 1,000 plus 100 in input VAT, paying 1,100 total. The company then manufactures custom furniture. Desert Oasis Trading sells the finished furniture to a retailer for 3,000 plus 300 in output VAT, collecting 3,300 total.\n\nTo calculate the VAT payable, the company subtracts the 100 input VAT from the 300 output VAT. Desert Oasis Trading will remit exactly 200 to the tax authority. The tax applies only to the 2,000 of value added during manufacturing."
+  },
+  "matters": "Understanding value added tax is critical because failing to comply can result in severe financial penalties. If your taxable turnover exceeds the threshold set by your country, you are legally required to register, charge tax on your sales, and issue compliant tax invoices.\n\nPoor record-keeping can also cost you money. If you do not accurately track the input tax you pay on business expenses, you will miss out on eligible deductions and end up overpaying the government. Using software like Paper & Pen, which creates invoices and posts journal entries, helps ensure your tax records remain accurate and organised.",
+  "faqs": [
+    {
+      "q": "What is the difference between VAT and sales tax?",
+      "a": "Sales tax is collected only once at the final point of sale to the consumer. Value added tax is collected by all parties throughout the supply chain. However, businesses can recover the VAT they pay on their own purchases, meaning the final economic burden still falls entirely on the end consumer."
+    },
+    {
+      "q": "Do I have to register for value added tax?",
+      "a": "Registration requirements depend entirely on the rules of your specific country. Tax authorities set mandatory registration thresholds based on your annual taxable turnover. If your revenue crosses this limit, you must register. Many countries also offer optional voluntary registration for businesses below the threshold, which allows them to reclaim input tax."
+    }
+  ],
+  "related": [
+    "input-vat",
+    "output-vat",
+    "tax-invoice",
+    "vat-return",
+    "taxable-supply"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing software"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Managing invoices"
+    },
+    {
+      "href": "/tools/oman-vat-calculator",
+      "label": "Oman VAT calculator"
+    }
+  ]
+}

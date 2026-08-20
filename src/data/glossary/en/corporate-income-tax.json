@@ -1,0 +1,62 @@
+{
+  "slug": "corporate-income-tax",
+  "term": "Corporate income tax",
+  "abbr": "CIT",
+  "category": "tax",
+  "short": "Corporate income tax is a direct levy imposed by a government on the net profits or taxable income earned by a registered company during a specific financial period.",
+  "metaTitle": "Corporate Income Tax Defined · Paper & Pen",
+  "metaDescription": "Learn how corporate income tax applies to your business profits, how to calculate your taxable income, and why accurate financial records are essential.",
+  "definition": "Corporate income tax is a direct tax applied to the net profit your company makes from its business activities. Unlike value-added tax, which you collect from customers and pass on to the government, corporate tax comes directly out of your own company profits. When your financial year ends, you must calculate your total revenue and deduct all allowable business expenses to find your taxable income. The tax authority in your jurisdiction sets the specific rate and determines exactly which expenses are deductible. Because rules vary widely, you must maintain precise accounting records to ensure you pay the correct amount. Failing to declare your income properly can lead to heavy financial penalties. Understanding this tax helps you set aside enough cash to meet your obligations without damaging your working capital.",
+  "how": {
+    "title": "How Corporate income tax works",
+    "body": "The process begins on the first day of your financial year. As you trade, you record every sale and every business expense in your general ledger. At the end of the year, you generate a profit and loss statement to determine your net accounting profit. However, accounting profit is rarely the same as taxable income. You must adjust this figure by adding back expenses that the tax authority does not allow as deductions, and subtracting any non-taxable income. Once you determine your final taxable income, you multiply it by the official corporate tax rate applicable in your jurisdiction. Finally, you submit a tax return to the government and pay the amount owed before the legal deadline.",
+    "items": [
+      "Record all daily business revenues and operating expenses in your general ledger.",
+      "Generate a profit and loss statement at the end of your financial year.",
+      "Adjust your net profit for non-deductible expenses to find your true taxable income.",
+      "Multiply your taxable income by the official tax rate set by your government.",
+      "File your corporate tax return and pay the final liability before the deadline."
+    ]
+  },
+  "formula": {
+    "label": "Corporate Income Tax Calculation",
+    "expr": "Corporate Income Tax = Taxable Income x Corporate Tax Rate",
+    "note": "Taxable income is your revenue minus allowable deductions. The rate is set by your local tax authority."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Desert Star Trading earns a total annual revenue of 500,000. During the year, the company incurs 300,000 in allowable business expenses, including rent, salaries, and inventory costs. To find the taxable income, the accountant subtracts the expenses from the revenue, leaving a taxable income of 200,000. The local tax authority applies a corporate income tax rate of 10 percent. The accountant multiplies the 200,000 taxable income by 0.10. This calculation results in a corporate income tax liability of 20,000. Desert Star Trading must pay this 20,000 to the government by the specified filing deadline."
+  },
+  "matters": "Corporate income tax directly reduces the amount of profit you can keep in your business or distribute to shareholders. If you do not plan for this liability, you might spend the cash during the year and face a severe liquidity crisis when the tax bill arrives. Accurate record-keeping is your best defence against overpaying or facing audits. By tracking your allowable expenses carefully, you minimise your taxable income legally. Paper & Pen posts journal entries automatically when you invoice, helping you keep your general ledger ready for tax season. Missing a filing deadline or underreporting income usually triggers fines that damage your bottom line.",
+  "faqs": [
+    {
+      "q": "What is the difference between corporate income tax and VAT?",
+      "a": "Value-added tax is a consumption tax charged on goods and services. You collect VAT from your customers and pay it to the government, meaning it does not affect your profit margins. Corporate income tax is a direct tax on your company's net profits. You pay it out of your own earnings after deducting allowable business expenses."
+    },
+    {
+      "q": "Can I reduce my corporate tax bill?",
+      "a": "You can legally reduce your tax liability by ensuring you record every allowable business expense. Common deductions include employee salaries, office rent, marketing costs, and depreciation on equipment. You must keep valid tax invoices and receipts for all claims. Always consult a local tax professional to understand exactly which deductions your tax authority permits."
+    }
+  ],
+  "related": [
+    "value-added-tax",
+    "profit-and-loss-statement",
+    "general-ledger",
+    "retained-earnings",
+    "withholding-tax"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting Features"
+    },
+    {
+      "href": "/features/reports",
+      "label": "Financial Reports"
+    },
+    {
+      "href": "/use-cases/small-business",
+      "label": "Small Business"
+    }
+  ]
+}

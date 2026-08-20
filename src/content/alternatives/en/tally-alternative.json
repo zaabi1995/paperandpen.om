@@ -1,0 +1,111 @@
+{
+  "locale": "en",
+  "slug": "tally-alternative",
+  "order": 4,
+  "title": "Tally Alternative",
+  "metaTitle": "Tally Alternative: A Practical Guide · Paper & Pen",
+  "metaDescription": "Considering a move from Tally? Learn what a migration involves, what you gain with cloud software, and who should actually stay on their current system.",
+  "keywords": "Tally alternative, moving from Tally, cloud ERP software, free invoicing software, replace Tally desktop, accounting software migration, cloud accounting",
+  "heroEyebrow": "Switching Software",
+  "heroTitle": "A practical guide to <em class=\"text-copper-400 not-italic\">moving from Tally</em> to the cloud.",
+  "heroSubtitle": "Changing your accounting system is a major decision. Understand exactly what data transfers, when to make the switch, and whether a cloud-based platform like Paper & Pen fits your operations.",
+  "heroBullets": [
+    "Clear migration timelines and steps",
+    "What you gain in the cloud",
+    "Who should keep using Tally"
+  ],
+  "features": [
+    {
+      "icon": "globe",
+      "title": "Access from anywhere",
+      "desc": "Paper & Pen runs entirely in your web browser. You can log in from any computer to create invoices, check stock levels, and review reports."
+    },
+    {
+      "icon": "users",
+      "title": "Five interface languages",
+      "desc": "Work in English, Arabic, Hindi, Bengali, or Urdu. The system fully supports right-to-left text for Arabic and Urdu, making it easier for diverse teams."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Direct document sharing",
+      "desc": "Send quotations, invoices, and receipts directly to your customers via email or a secure WhatsApp link. No need to export and attach PDFs manually."
+    },
+    {
+      "icon": "wallet",
+      "title": "Free core features",
+      "desc": "Sales, invoicing, and basic accounting are free forever. You only pay if you need advanced add-on modules for human resources, payroll, or manufacturing."
+    },
+    {
+      "icon": "inventory",
+      "title": "Track stock and costs",
+      "desc": "Keep an accurate count of your items. The system updates your inventory automatically when you issue delivery notes or record purchase orders."
+    },
+    {
+      "icon": "accounting",
+      "title": "Standard financial reports",
+      "desc": "Generate ledgers, profit and loss statements, and balance sheets. Record daily expenses and post manual journal entries to keep your books accurate."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "The Migration Process",
+      "title": "What actually transfers when you switch systems",
+      "body": "Moving accounting software requires planning. You cannot simply copy a database from Tally into Paper & Pen. Instead, you will export your master data and import it into your new system. This includes your customer list, vendor details, item catalogue, and chart of accounts. Historical transactions like old invoices and receipts do not transfer. You must keep your old system accessible for past records. The most sensible time to switch is at the start of a new financial year. You close your books in your old software, then enter your closing balances as opening balances in Paper & Pen.",
+      "items": [
+        "Export and import your customer and vendor lists",
+        "Transfer your item catalogue and chart of accounts",
+        "Keep your old software for historical document access",
+        "Switch at the start of a new financial year",
+        "Enter closing balances as your new opening balances"
+      ]
+    },
+    {
+      "eyebrow": "Cloud Advantages",
+      "title": "What you gain by moving to the cloud",
+      "body": "Paper & Pen provides a modern, browser-based approach to managing your business. You no longer need to maintain a local server or install updates on individual computers. Your team can issue quotations, track leads, and send payment reminders from any location. The platform supports multiple currencies and configurable tax rates out of the box. You can also accept online payments through our Paymob integration. Because the core invoicing and sales features are free forever, you can lower your software overhead while keeping your daily operations running smoothly.",
+      "items": [
+        "Access your business data from any web browser",
+        "Send invoices and receipts via WhatsApp links",
+        "Work in five different interface languages",
+        "Accept online payments directly through Paymob"
+      ]
+    },
+    {
+      "eyebrow": "Staying Put",
+      "title": "Who should not switch from Tally",
+      "body": "Paper & Pen is not for everyone. Tally is an established accounting software with a paid subscription model, and you should check their official website for current plans and pricing. It is deeply embedded in South Asian bookkeeping practices. If your external accountant relies entirely on Tally data files to prepare your statutory filings, switching will disrupt your compliance workflow. Furthermore, if your business requires an offline desktop application because of unreliable internet access, you should stay on your current system. Businesses with highly complex local network integrations will also find a cloud transition difficult.",
+      "items": [
+        "Accountants who require specific local data files",
+        "Businesses operating with unreliable internet connections",
+        "Companies relying on complex local network integrations",
+        "Teams deeply accustomed to keyboard-only desktop navigation"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I import my old invoices into Paper & Pen?",
+      "a": "No. Historical transactions like past invoices, receipts, and purchase orders do not transfer between accounting systems. You will import your master data, such as customers and items, and then enter your opening financial balances. You must keep your previous software available to view your historical records and past tax filings."
+    },
+    {
+      "q": "When is the best time to migrate my accounting software?",
+      "a": "The most practical time to switch is the first day of your new financial year. This provides a clean break. You finish your annual reporting in your old software, calculate your final closing balances, and enter those exact figures as the opening balances in Paper & Pen. Migrating mid-year is possible but requires manually entering year-to-date totals."
+    },
+    {
+      "q": "Does Paper & Pen work offline?",
+      "a": "No. Paper & Pen is a cloud-based platform that requires an active internet connection to function. All your data is stored securely on remote servers rather than on your local computer hard drive. If your business operates in an area with frequent internet outages, a desktop-first solution might be a better choice for your daily operations."
+    },
+    {
+      "q": "Will my accountant be able to use this system?",
+      "a": "Your accountant can log in from their own web browser to review your ledgers, post manual journal entries, and generate profit and loss statements or balance sheets. However, if they specifically require proprietary desktop data files to process your taxes, they may ask you to maintain your current setup."
+    }
+  ],
+  "related": [
+    "/features/accounting",
+    "/features/invoicing",
+    "/features/inventory",
+    "/use-cases/small-business"
+  ],
+  "ctaTitle": "Start managing your business in the cloud today",
+  "ctaSub": "Create a free account to explore the interface, test the features, and see if Paper & Pen fits your workflow."
+}

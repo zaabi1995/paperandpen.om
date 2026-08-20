@@ -1,0 +1,64 @@
+{
+  "slug": "petty-cash",
+  "term": "Petty cash",
+  "category": "accounting",
+  "short": "Petty cash is a small amount of physical currency kept on hand by a business to pay for minor, everyday expenses where using a bank transfer or cheque is impractical.",
+  "metaTitle": "What is Petty Cash? · Paper & Pen",
+  "metaDescription": "Learn how petty cash helps businesses manage minor daily expenses, how the imprest system works, and how to record these transactions in your accounting.",
+  "definition": "When you run a business, you often face minor expenses like buying milk for the office, paying for a taxi, or purchasing emergency stationery. Writing a cheque or processing a bank transfer for these tiny amounts is inefficient. Instead, you keep a small fund of physical currency known as petty cash. To maintain control over this money, businesses typically use the imprest system. Under this method, you establish a fixed balance for the fund. When an employee needs cash, they provide a receipt for their purchase. The total of the remaining cash and the collected receipts must always equal the fixed imprest balance. Once the cash runs low, you withdraw money from the main bank account to restore the fund to its original amount, recording the accumulated expenses in your general ledger at that time.",
+  "how": {
+    "title": "How Petty cash works",
+    "body": "The lifecycle of a petty cash fund begins when you withdraw a set amount from your business bank account and place it in a secure cash box. You assign a specific employee, known as the petty cash custodian, to manage this box. Whenever someone needs to make a minor purchase, the custodian hands over the cash and collects a physical receipt in return. Alternatively, the employee buys the item with their own money and submits the receipt to the custodian for reimbursement. The custodian logs every transaction in a petty cash book. At the end of the period, or when the cash is nearly depleted, the custodian totals the receipts. You then issue a cheque to replenish the exact amount spent, bringing the physical cash back to the starting balance.",
+    "items": [
+      "Withdraw a fixed amount from the bank to establish the initial imprest balance.",
+      "Assign a single custodian to secure the cash box and approve disbursements.",
+      "Collect a valid receipt or voucher for every single purchase made.",
+      "Record each expense in a dedicated petty cash logbook or spreadsheet.",
+      "Replenish the fund by transferring the exact total of the spent cash."
+    ]
+  },
+  "formula": {
+    "label": "Imprest Replenishment Formula",
+    "expr": "Replenishment Amount = Fixed Imprest Balance - Cash on Hand",
+    "note": "This calculation determines exactly how much money you must withdraw from the bank to restore the fund. The replenishment amount should perfectly match the total of your collected receipts."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading LLC sets up a petty cash fund with a fixed imprest balance of 500. During the month, the custodian pays 40 for office tea, 60 for a courier service, and 150 for emergency printer ink. The custodian collects receipts for all three purchases, which total 250. To check the fund, the custodian counts the remaining physical cash, which equals 250. The total of the cash on hand (250) and the receipts (250) matches the original 500 imprest balance. To replenish the fund for the next month, the business transfers exactly 250 from its main bank account into the cash box."
+  },
+  "matters": "Managing petty cash properly is vital to prevent theft and keep your financial records accurate. Without a strict imprest system, small cash withdrawals can quickly add up to significant unrecorded losses. This distorts your profit margins and complicates your tax reporting, as you lose the ability to claim deductions for undocumented business expenses. Assigning a single custodian creates clear accountability and ensures every coin is tracked. To make this process easier, Paper & Pen posts journal entries directly to your general ledger, helping you record your replenished petty cash expenses accurately. Regular reconciliations protect your working capital and maintain financial discipline.",
+  "faqs": [
+    {
+      "q": "What is the difference between petty cash and cash on hand?",
+      "a": "Cash on hand is a broad term that includes all physical currency a business holds, including cash in retail registers and money waiting to be deposited at the bank. Petty cash is a specific, limited portion of that cash on hand, set aside exclusively for paying minor, day-to-day business expenses."
+    },
+    {
+      "q": "How often should a petty cash fund be replenished?",
+      "a": "You should replenish the fund whenever the physical cash drops to a level where it can no longer cover expected minor expenses. For some businesses, this happens weekly, while others might only need to top up the box once a month. You should also replenish it at the end of your financial reporting period to ensure all expenses are recorded."
+    },
+    {
+      "q": "What happens if the petty cash does not balance?",
+      "a": "If the remaining cash plus the receipts does not equal the fixed imprest balance, you have a cash overage or shortage. You must investigate the discrepancy to see if a receipt was lost or incorrect change was given. If the missing money cannot be found, you must record the difference as an expense in your general ledger."
+    }
+  ],
+  "related": [
+    "general-ledger",
+    "journal-entry",
+    "bank-reconciliation",
+    "working-capital"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting Features"
+    },
+    {
+      "href": "/invoicing/expenses",
+      "label": "Manage Expenses"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "General Ledgers"
+    }
+  ]
+}

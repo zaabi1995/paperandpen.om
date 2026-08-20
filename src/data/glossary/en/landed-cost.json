@@ -1,0 +1,56 @@
+{
+  "slug": "landed-cost",
+  "term": "Landed cost",
+  "category": "inventory",
+  "short": "Landed cost is the total expense incurred to purchase inventory and transport it to your warehouse, including the original price of the goods, freight, insurance, customs duties, and clearing fees.",
+  "metaTitle": "What is Landed Cost? · Paper & Pen",
+  "metaDescription": "Landed cost calculates the total price of acquiring inventory, including freight, insurance, and customs duties, to help you price products profitably.",
+  "definition": "When you buy stock from overseas suppliers, the price on their invoice is only the beginning. To calculate the true cost of your inventory, you must add all the expenses required to bring those goods into your possession. This total figure is your landed cost. It encompasses the supplier's price, international freight charges, marine or air cargo insurance, import duties charged by your local customs authority, and fees paid to clearing agents. If you only record the supplier's price in your accounting system, you will artificially deflate your stock value. By capturing every additional expense, you ensure your inventory valuation is accurate. This allows you to set retail prices that actually cover your expenses and generate a genuine profit margin for your business.",
+  "how": {
+    "title": "How Landed cost works",
+    "body": "Calculating landed cost requires tracking multiple bills related to a single shipment. First, you receive the commercial invoice from your supplier for the goods themselves. Next, you pay a freight forwarder to transport the cargo across borders. You might also purchase a separate insurance policy to protect the shipment during transit. When the goods arrive at the port, your local customs authority assesses import duties and taxes based on the shipment's declared value. Finally, you pay a customs broker or clearing agent to process the paperwork and arrange local delivery to your warehouse. To find the landed cost per unit, you must allocate all these secondary bills across the items in your shipment, usually based on the quantity, weight, or value of the goods.",
+    "items": [
+      "The original purchase price paid to the supplier for the manufactured goods.",
+      "International shipping and freight charges to move the cargo across borders.",
+      "Cargo insurance premiums to protect the inventory against loss or damage during transit.",
+      "Customs duties and import tariffs levied by the destination country's tax authority.",
+      "Clearing agent fees and local port handling charges for processing the shipment."
+    ]
+  },
+  "formula": {
+    "label": "Landed cost formula",
+    "expr": "Supplier Price + Freight + Insurance + Customs Duties + Clearing Fees",
+    "note": "Divide this total by the number of units received to determine the landed cost per unit. This unit cost becomes your baseline for setting profitable retail prices."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Electronics imports 100 laptops from a supplier for $50,000. The company pays a freight forwarder $2,000 for air shipping and $500 for cargo insurance. Upon arrival, customs authorities charge $2,500 in import duties. Finally, a clearing agent charges $500 to process the paperwork and deliver the goods. The total landed cost is the sum of these expenses: $50,000 + $2,000 + $500 + $2,500 + $500 = $55,500. To find the unit cost, Gulf Electronics divides $55,500 by 100 laptops. The landed cost per laptop is $555, which is $55 higher than the supplier's original invoice price."
+  },
+  "matters": "Understanding your true landed cost is vital for setting accurate selling prices. If you ignore freight, insurance, duty, and clearing fees, you will severely understate your cost of goods sold (COGS). This mistake creates a false sense of profitability, leading you to set retail prices too low and potentially lose money on every sale. Properly allocating these import expenses ensures your inventory valuation is correct on your balance sheet. Paper & Pen tracks stock efficiently, helping you monitor these accumulated costs. When you know the exact cost to land a product in your warehouse, you can negotiate better shipping rates or adjust your pricing strategy to protect your gross margin.",
+  "faqs": [
+    {
+      "q": "How do I allocate freight costs to individual products?",
+      "a": "You can allocate freight costs by value, weight, or volume. If you import small, expensive items alongside large, cheap items, allocating by weight or volume is usually more accurate than allocating by value. You divide the total freight bill by the total weight of the shipment, then multiply that rate by the weight of each specific product to find its share."
+    },
+    {
+      "q": "Is value-added tax included in the landed cost?",
+      "a": "Generally, value-added tax (VAT) is not included in your landed cost if your business is registered for VAT and can recover it as input tax. Because you can claim the VAT back from the tax authority, it is not a final expense for your business. However, non-recoverable taxes and import duties must always be included in the calculation."
+    }
+  ],
+  "related": [
+    "cost-of-goods-sold",
+    "inventory-turnover",
+    "gross-margin",
+    "customs-duty"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory tracking"
+    },
+    {
+      "href": "/industries/trading",
+      "label": "Trading businesses"
+    }
+  ]
+}

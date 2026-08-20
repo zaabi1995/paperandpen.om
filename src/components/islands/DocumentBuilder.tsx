@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 
-type DocType = 'invoice' | 'quotation' | 'proforma' | 'receipt' | 'purchase-order' | 'delivery-note';
+type DocType = 'invoice' | 'quotation' | 'estimate' | 'proforma' | 'receipt' | 'credit-note' | 'purchase-order' | 'delivery-note';
 
 interface Strings {
   docLabel: string; // "INVOICE", "QUOTATION"...
@@ -171,7 +171,7 @@ export default function DocumentBuilder({ strings, docType }: { strings: Strings
           <tbody>
             {lines.map((l, i) => (
               <tr key={i} className="border-b border-cream-100">
-                <td className="py-2.5 text-ink-600">{l.desc || '—'}</td>
+                <td className="py-2.5 text-ink-600">{l.desc || '–'}</td>
                 <td className="py-2.5 text-center text-ink-500">{l.qty}</td>
                 <td className="py-2.5 text-end text-ink-500">{fmt(l.rate)}</td>
                 <td className="py-2.5 text-end font-medium text-ink-600">{fmt((l.qty || 0) * (l.rate || 0))}</td>

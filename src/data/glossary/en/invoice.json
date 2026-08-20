@@ -1,0 +1,53 @@
+{
+  "slug": "invoice",
+  "term": "Invoice",
+  "category": "invoicing",
+  "short": "An invoice is a commercial document issued by a seller to a buyer, detailing the products or services provided and specifying the amount owed for that transaction.",
+  "metaTitle": "What is an Invoice? Definition & Meaning · Paper & Pen",
+  "metaDescription": "Learn what an invoice is, how it differs from a receipt, and why sequential numbering is vital for your business accounting and tax compliance.",
+  "definition": "When you sell goods or provide services, you must issue an invoice to request payment from your customer. This document acts as a binding record of the sale. To be legally valid for tax purposes, your invoice must include specific details. These typically consist of your business name and tax identification number, the customer's details, a clear description of the items sold, the date of supply, and the total amount due.\n\nCrucially, you must assign a unique, sequential number to every invoice. This sequential numbering prevents gaps in your financial records and satisfies tax authority requirements. Do not confuse an invoice with a receipt. You send an invoice before the customer pays to demand payment, whereas you issue a payment receipt after the customer pays to confirm the funds have cleared.",
+  "how": {
+    "title": "How Invoice works",
+    "body": "The invoicing process begins as soon as you deliver your product or complete a service. First, you gather the transaction details, including quantities, unit prices, and any applicable taxes. You then format this information into a formal document with a unique invoice number. Next, you send this document to your buyer via email, post, or an electronic invoicing portal.\n\nThe buyer receives the document, reviews the line items against their purchase order, and processes it for payment based on your agreed payment terms. If the buyer does not pay by the due date, you will need to follow up with a statement of account or a payment reminder. Once the buyer transfers the funds, you record the payment in your general ledger to close the outstanding balance.",
+    "items": [
+      "Identify the buyer and include both registered business addresses.",
+      "List the goods or services provided with clear descriptions.",
+      "Apply the correct unit prices and calculate the subtotal.",
+      "Add any applicable value-added tax to reach the final total.",
+      "State the payment terms and specify the exact due date.",
+      "Assign a unique, sequential invoice number for accurate record keeping."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Consider a business named Apex Trading that sells office supplies. They deliver 50 office chairs to a corporate client at a price of 20 dollars per chair. The subtotal for the chairs is 1,000 dollars (50 chairs multiplied by 20 dollars). The local tax authority mandates a value-added tax on this transaction. Assuming the applicable tax rate set by the authority is 10 percent, the tax amount is 100 dollars (1,000 dollars multiplied by 0.10). Apex Trading issues an invoice for a grand total of 1,100 dollars. The client must pay this exact amount by the stated due date."
+  },
+  "matters": "Issuing accurate invoices is the only way to ensure your business gets paid for its hard work. If your invoices contain errors or lack mandatory tax details, your clients will delay payment, which severely damages your cash flow. Furthermore, tax authorities require properly formatted, sequentially numbered invoices during an audit to verify your revenue and tax liabilities. Failing to maintain these records can result in heavy financial penalties. Using software makes this process much safer. With Paper & Pen, Sales and Invoicing is free forever, helping you generate compliant documents without manual errors. Proper invoicing protects your legal rights if a customer defaults on a payment.",
+  "faqs": [
+    {
+      "q": "Can I create an invoice in a Word document?",
+      "a": "Yes, you can use a word processor to type out an invoice. However, doing this manually increases the risk of calculation errors and makes it difficult to track sequential invoice numbers. Manual documents also require you to update your accounting ledgers separately. Using dedicated invoicing software ensures your numbering remains strictly sequential and automatically updates your financial records."
+    },
+    {
+      "q": "What happens if I make a mistake on an invoice?",
+      "a": "If you discover an error after issuing an invoice to a customer, you should not simply delete or overwrite the original document. Because invoices must follow a sequential numbering system, deleting one creates a gap in your audit trail. Instead, you must issue a credit note to cancel the incorrect invoice, and then issue a new, correct invoice."
+    }
+  ],
+  "related": [
+    "tax-invoice",
+    "proforma-invoice",
+    "payment-receipt",
+    "invoice-number",
+    "payment-terms"
+  ],
+  "seeAlso": [
+    {
+      "href": "/invoicing/invoices",
+      "label": "Manage Invoices"
+    },
+    {
+      "href": "/tools/free-invoice-generator",
+      "label": "Free Invoice Generator"
+    }
+  ]
+}

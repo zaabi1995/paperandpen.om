@@ -1,0 +1,151 @@
+{
+  "locale": "en",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saudi Arabia",
+  "title": "VAT in Saudi Arabia",
+  "metaTitle": "VAT in Saudi Arabia: 15% Rate and Fatoora · Paper & Pen",
+  "metaDescription": "Saudi Arabia's 15% VAT rate, the SAR 375,000 threshold, Article 53 invoice contents and ZATCA's Fatoora e-invoicing phases, cited to source.",
+  "keywords": "vat saudi arabia, saudi vat rate 15, zatca fatoora, saudi e-invoicing phase 2, saudi tax invoice requirements, zatca",
+  "heroEyebrow": "Saudi Arabia",
+  "heroTitle": "Invoicing under <em class=\"text-copper-400 not-italic\">ZATCA's</em> rules",
+  "heroSubtitle": "The 15% rate, the registration thresholds, what Article 53 requires on a tax invoice, and what Fatoora adds on top of it once you are in the integration phase.",
+  "heroBullets": [
+    "15% standard rate",
+    "SAR 375,000 to register",
+    "Fatoora live since 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Standard VAT rate",
+      "value": "15%",
+      "note": "Saudi Arabia is the outlier in the Gulf: the other implementing states are at 5% or 10%. Assuming the standard rate applies, taxable supplies are charged at 15%.",
+      "source": 1
+    },
+    {
+      "label": "Mandatory registration threshold",
+      "value": "SAR 375,000",
+      "note": "Taxable supplies over this figure in a 12-month period require registration.",
+      "source": 1
+    },
+    {
+      "label": "Voluntary registration threshold",
+      "value": "SAR 187,500",
+      "note": "Based on taxable supplies OR taxable expenses in the last 12 months.",
+      "source": 1
+    },
+    {
+      "label": "Non-resident businesses",
+      "value": "No threshold",
+      "note": "A non-resident required to pay VAT in the Kingdom must register regardless of the value of its supplies.",
+      "source": 1
+    },
+    {
+      "label": "Invoice language",
+      "value": "Arabic",
+      "note": "The required contents must appear in Arabic. Another language may be shown in addition, as a translation.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Article 53(5) of the VAT Implementing Regulations lists what a tax invoice must contain, and requires it in Arabic in addition to any other language shown as a translation.",
+    "items": [
+      "The date of issue",
+      "A sequential number that uniquely identifies the invoice",
+      "The supplier's Tax Identification Number",
+      "Where the customer must self-account, the customer's TIN and a statement that they must account for the tax",
+      "Name and address of both supplier and customer",
+      "Quantity and nature of the goods, or scope and nature of the services",
+      "The date of supply, where it differs from the date of issue",
+      "Taxable amount per rate or exemption, unit price excluding VAT, and any discount not already in the unit price",
+      "The rate of tax applied",
+      "The amount of tax payable, shown in Saudi riyals",
+      "Where tax is not charged at the basic rate, a narration explaining the treatment",
+      "Where the profit margin method for eligible used goods applies, a reference to that fact"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Mandatory and live, rolling out in waves",
+    "body": "Saudi Arabia is the most advanced e-invoicing regime in the Gulf and the one others are modelled on. Phase 1, the Generation Phase, has applied to all resident taxable persons since 4 December 2021: invoices must be issued electronically in a structured form. Phase 2, the Integration Phase, began on 1 January 2023 and is being rolled out in waves by taxpayer size, with ZATCA notifying each group at least six months before its integration date. In Phase 2 an electronic invoice carries more than the Article 53 contents: it also needs a UUID, the hash of the previous invoice, a QR code, a cryptographic stamp and a tamper-resistant counter. Which wave you fall into is announced by ZATCA, so check its e-invoicing pages rather than assuming.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Getting it right",
+      "title": "Fatoora changes what an invoice IS",
+      "body": "In a paper or PDF world an invoice is a document you produce and send. Under Phase 2 it is a record in a chain: each invoice references the hash of the one before it, carries a cryptographic stamp and increments a counter that cannot be reset. That is a deliberate design, and it makes one common habit impossible. You cannot quietly delete, renumber or reissue an invoice after the fact, because the chain would break and the break is detectable. Businesses that used to fix mistakes by editing history have to move to credit notes, which is what the rest of the world's accounting rules always wanted anyway.",
+      "items": [
+        "Every invoice is linked to the previous one by hash",
+        "The counter cannot be reset or rolled back",
+        "Corrections happen through credit and debit notes",
+        "The QR code is part of the invoice, not decoration"
+      ]
+    },
+    {
+      "eyebrow": "Getting it right",
+      "title": "The 15% rate has knock-on effects",
+      "body": "A fifteen percent rate makes the zero-rated versus exempt distinction financially serious in a way a five percent rate does not. If your supplies are exempt, you cannot recover the input tax you paid, so fifteen percent of your input cost becomes a real, unrecoverable expense that has to be priced in. If they are zero-rated, you charge nothing but still recover. Getting that classification wrong is the most expensive single mistake available in Saudi VAT, and it is a classification question, not a rate question.",
+      "items": [
+        "Exempt means no input recovery, so the tax is your cost",
+        "Zero-rated means no charge but full recovery",
+        "Classify by supply type, not by customer",
+        "Take the classification decision before you price"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the VAT rate in Saudi Arabia?",
+      "a": "Fifteen percent is the standard rate. This is the highest in the Gulf, and a common mistake is to assume a single GCC rate: Oman and the UAE are at 5%, Bahrain at 10%, and Qatar and Kuwait have not implemented VAT at all. If you sell across the region you cannot apply one rate to everything."
+    },
+    {
+      "q": "What is Fatoora?",
+      "a": "Fatoora is ZATCA's e-invoicing programme. Phase 1, generation, has applied to all resident taxable persons since 4 December 2021. Phase 2, integration with ZATCA's systems, began on 1 January 2023 and is rolled out in waves by taxpayer size, with at least six months' notice to each wave."
+    },
+    {
+      "q": "Does a Saudi tax invoice have to be in Arabic?",
+      "a": "Yes. Article 53(5) requires the invoice contents in Arabic, and allows another language to be shown in addition as a translation. A bilingual invoice is compliant; an English-only one is not."
+    },
+    {
+      "q": "What extra fields does Phase 2 require?",
+      "a": "Beyond the Article 53 contents, an electronic invoice in the integration phase carries a UUID, the hash of the previous invoice, a QR code, a cryptographic stamp and a tamper-resistant counter. These are generated by compliant software rather than typed by a person."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Invoice correctly in Saudi Arabia, free",
+  "ctaSub": "Set the rate yourself, keep Arabic and English on one document, and correct mistakes with credit notes instead of edits.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, third version, sections 3.2 and 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, Article 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "E-invoicing implementation resolution, Governor's Decision 62738, and the ZATCA e-invoicing pages",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

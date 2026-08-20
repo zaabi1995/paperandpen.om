@@ -9,7 +9,7 @@ const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 ---
-<!-- Same shell as /signup/: one continuous cream ground, transparent chrome. -->
+{/* Same shell as /signup/: one continuous cream ground, transparent chrome. */}
 <BaseLayout
   {locale}
   bare
@@ -21,7 +21,7 @@ const lp = (p: string) => localizePath(p, locale);
   <div class="flex min-h-screen flex-col bg-paper">
     <header class="px-6 pb-4 pt-6 sm:px-10 sm:pt-8">
       <div class="mx-auto flex max-w-md items-center justify-between gap-4">
-        <!--
+        {/*
           THE MARK, IN THE PAGE'S OWN INK.
 
           This was `<img src="/logo.svg" class="h-8">`. That file is the full
@@ -40,7 +40,7 @@ const lp = (p: string) => localizePath(p, locale);
 
           `aria-label` on the link is the accessible name; both drawings are
           decorative to a screen reader.
-        -->
+        */}
         <a
           href={lp('/')}
           aria-label="Paper &amp; Pen"
@@ -86,14 +86,14 @@ const lp = (p: string) => localizePath(p, locale);
       </div>
     </header>
 
-    <!-- Centred on both axes, matching /signup/. Top-anchoring left 330px of
+    {/* Centred on both axes, matching /signup/. Top-anchoring left 330px of
          cream under the last line and a footer that read as stranded; here
-         there is no second column to balance against, so the fix is symmetry —
+         there is no second column to balance against, so the fix is symmetry ,
          an evenly framed 28rem column reads as placed, where the same column
          shoved against the top edge reads as an unfinished page. `my-auto`
          rather than `items-center` so a short viewport can never clip the
          heading off the top. Same 28rem reading measure as a signup step, so
-         the two auth pages are one control width, not two. -->
+         the two auth pages are one control width, not two. */}
     <div class="flex flex-1 justify-center px-6 pb-12 pt-6 sm:px-10 sm:pt-10">
       <div class="my-auto w-full max-w-md">
         <LoginForm client:load {locale} />

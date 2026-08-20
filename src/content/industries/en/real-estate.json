@@ -1,0 +1,110 @@
+{
+  "locale": "en",
+  "slug": "real-estate",
+  "order": 14,
+  "title": "Real Estate and Property Management",
+  "metaTitle": "Property Management Accounting · Paper & Pen",
+  "metaDescription": "Handle rent invoicing, tenant service charges, security deposits, and owner statements with free cloud accounting software for real estate.",
+  "keywords": "real estate accounting software, property management invoicing, rent collection software, tenant billing system, owner statements, security deposit accounting, real estate ERP, property commission tracking",
+  "heroEyebrow": "Property Management Accounting",
+  "heroTitle": "Track rent schedules and <em class=\"text-copper-400 not-italic\">security deposits</em> in one ledger.",
+  "heroSubtitle": "Stop tracking tenant payments in spreadsheets. Paper & Pen gives real estate agencies and property managers a clear system to invoice rent on a schedule, recharge service costs, and generate accurate owner statements.",
+  "heroBullets": [
+    "Invoice rent on a schedule",
+    "Hold security deposits as liabilities",
+    "Recharge tenant service charges easily"
+  ],
+  "features": [
+    {
+      "icon": "calendar",
+      "title": "Scheduled rent invoices",
+      "desc": "Set up recurring invoices for monthly or quarterly rent. The system generates the invoice automatically so you never miss a billing cycle for your tenants."
+    },
+    {
+      "icon": "shield",
+      "title": "Security deposit liabilities",
+      "desc": "Record security deposits properly. Post journal entries to hold tenant deposits as a liability on your balance sheet rather than incorrectly recording them as income."
+    },
+    {
+      "icon": "receipt",
+      "title": "Service charge recharges",
+      "desc": "When you pay for maintenance or utilities out of pocket, log the expense and quickly generate an invoice to recharge those exact costs to the tenant."
+    },
+    {
+      "icon": "percent",
+      "title": "Commission invoicing",
+      "desc": "Bill landlords for letting fees or charge commissions on property sales. You can configure custom tax rates for your agency fees directly on the sales invoice."
+    },
+    {
+      "icon": "reports",
+      "title": "Clear owner statements",
+      "desc": "Generate detailed ledgers to show property owners exactly what came in and what went out. Export the ledger reports to share financial performance with your landlords."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Share via WhatsApp",
+      "desc": "Tenants often ignore emails. Send rent reminders, payment receipts, and utility recharge invoices directly to their phone using a simple WhatsApp link."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Rent Collection",
+      "title": "Automate your rent schedules and tenant billing.",
+      "body": "Managing multiple tenancies means juggling different payment schedules. Some tenants pay monthly, while others pay quarterly or annually. Paper & Pen handles this timing by letting you configure recurring invoices for every lease. You create the schedule once, and the system generates the rent invoice when it is due. You can then send the invoice directly to the tenant via email or a WhatsApp link. When the tenant pays, you record the payment receipt against the specific invoice, keeping their account balance accurate and your cash flow visible.",
+      "items": [
+        "Set up recurring invoices for lease terms.",
+        "Send payment reminders for overdue rent.",
+        "Issue formal payment receipts to tenants.",
+        "Share rent invoices directly via WhatsApp."
+      ]
+    },
+    {
+      "eyebrow": "Trust Accounting",
+      "title": "Manage security deposits and generate owner statements.",
+      "body": "Real estate accounting requires strict separation of funds. When a tenant pays a security deposit, it is not your income. Paper & Pen allows you to post journal entries to hold these deposits as a liability on your balance sheet. When a tenancy ends, you can return the deposit or apply it against outstanding damages using clear debit and credit notes. For property managers handling funds on behalf of landlords, the general ledger provides a transparent record. You can filter the ledger to produce an accurate owner statement showing rent collected and expenses deducted.",
+      "items": [
+        "Record security deposits as balance sheet liabilities.",
+        "Filter ledgers to create accurate owner statements.",
+        "Apply deposits to damages using credit notes.",
+        "Keep agency income separate from landlord funds."
+      ]
+    },
+    {
+      "eyebrow": "Agency Revenue",
+      "title": "Recharge service costs and invoice your commissions.",
+      "body": "Property managers frequently incur costs that must be passed on to tenants, such as emergency maintenance, utility bills, or cleaning fees. You can log these out-of-pocket expenses in the system and immediately generate a sales invoice to recharge the tenant. For real estate brokers, revenue comes from letting fees and sales commissions. You can create standard quotations for your agency services, convert them to invoices upon signing, and apply the correct local tax rates to your commission fees. This keeps your agency revenue completely distinct from the property cash flow.",
+      "items": [
+        "Log maintenance expenses paid on behalf of owners.",
+        "Recharge utility bills directly to the tenant.",
+        "Invoice landlords for letting and management commissions.",
+        "Configure specific tax rates for agency fees."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does this software include a property management portal for tenants?",
+      "a": "No. Paper & Pen is an accounting and invoicing system, not a dedicated property management platform. We do not offer a tenant portal for logging maintenance tickets or a direct integration with property listing websites. We focus entirely on the financial side of your business, helping you manage rent invoices, expenses, and ledgers."
+    },
+    {
+      "q": "How do I record a security deposit so it does not show as income?",
+      "a": "Security deposits belong to the tenant and must be returned at the end of the lease. In Paper & Pen, you use manual journal entries to record the received funds in your bank account while simultaneously crediting a liability account for tenant deposits. This ensures the money appears on your balance sheet rather than artificially inflating your profit and loss statement."
+    },
+    {
+      "q": "Can I generate a statement for the property owner?",
+      "a": "Yes. While we do not have a button specifically named Owner Statement, you can easily generate this document using our ledger reports. By filtering the general ledger for a specific property or landlord account, you can export a complete list of rent collected, maintenance expenses paid, and management commissions deducted over any date range."
+    },
+    {
+      "q": "Can I set up automatic rent collection from tenant bank accounts?",
+      "a": "No. Paper & Pen does not connect directly to tenant bank accounts to pull funds automatically. You can set up recurring invoices so the bill is generated and sent on a schedule. To collect the actual payment, you can use our Paymob integration to accept card payments, or you can receive manual bank transfers and record the payment receipt in the system."
+    }
+  ],
+  "related": [
+    "/invoicing/recurring-invoices",
+    "/invoicing/ledgers",
+    "/features/accounting",
+    "/invoicing/expenses"
+  ],
+  "ctaTitle": "Take control of your rent schedules today.",
+  "ctaSub": "Create recurring rent invoices, manage tenant deposits, and generate clear owner statements with our free cloud accounting software."
+}

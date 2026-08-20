@@ -1,0 +1,110 @@
+{
+  "locale": "en",
+  "slug": "manufacturing",
+  "order": 10,
+  "title": "Manufacturing & Production",
+  "metaTitle": "ERP for Manufacturing & Production · Paper & Pen",
+  "metaDescription": "Track raw materials, manage bills of materials, and calculate true unit costs for your manufacturing or light production business with Paper & Pen.",
+  "keywords": "manufacturing ERP software, bill of materials software, light production inventory, job costing software, raw materials tracking, work order management, manufacturing invoicing",
+  "heroEyebrow": "Light production ERP",
+  "heroTitle": "Track raw materials and <em class=\"text-copper-400 not-italic\">calculate true costs</em> for every production run.",
+  "heroSubtitle": "Stop guessing your margins. Paper & Pen helps light manufacturing businesses manage bills of materials, consume raw stock, track wastage, and know exactly what a finished good costs before quoting.",
+  "heroBullets": [
+    "Build accurate bills of materials.",
+    "Consume raw stock into finished goods.",
+    "Track job costs and production wastage."
+  ],
+  "features": [
+    {
+      "icon": "manufacturing",
+      "title": "Bills of materials",
+      "desc": "Define the exact raw components required to build your finished goods. Update your recipes as material availability changes to keep production moving."
+    },
+    {
+      "icon": "inventory",
+      "title": "Raw material tracking",
+      "desc": "Know exactly how much stock you hold before accepting a large order. Track raw materials as they arrive and consume them during production."
+    },
+    {
+      "icon": "calc",
+      "title": "True unit costing",
+      "desc": "Calculate the actual cost of a finished item by combining the purchase price of raw materials and accounting for production wastage."
+    },
+    {
+      "icon": "quote",
+      "title": "Profitable quotations",
+      "desc": "Quote new jobs with confidence. When you know your exact unit costs, you can set prices that guarantee a margin rather than guessing."
+    },
+    {
+      "icon": "doc",
+      "title": "Work order management",
+      "desc": "Issue clear instructions to your production floor. Track the progress of active jobs and log the final yield when finished goods enter inventory."
+    },
+    {
+      "icon": "accounting",
+      "title": "Integrated financial ledgers",
+      "desc": "Your production floor connects directly to your accounts. Material purchases, stock consumption, and finished goods sales automatically update your profit and loss statements."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Control your inputs",
+      "title": "Manage bills of materials and raw stock",
+      "body": "Light production relies on having the right inputs at the right time. If you run out of a crucial component, the entire floor stops. Paper & Pen lets you build detailed bills of materials for every product you manufacture. When you receive a new order, you can check your raw material inventory immediately to see if you can fulfil it. As you purchase supplies, the system logs the exact purchase price. This means your inventory valuation always reflects reality, giving you a clear picture of the capital tied up in your warehouse.",
+      "items": [
+        "Define standard recipes for all finished goods.",
+        "Track raw material quantities across multiple locations.",
+        "Generate purchase orders when component stock runs low.",
+        "Value inventory based on actual purchase prices."
+      ]
+    },
+    {
+      "eyebrow": "Track the build",
+      "title": "Consume stock and monitor production wastage",
+      "body": "Turning raw materials into finished goods rarely goes perfectly. Parts break, offcuts are discarded, and yields vary. With the manufacturing module, you can issue work orders that instruct your team on what to build. When the job finishes, you log the actual amount of raw stock consumed and the final number of finished items produced. This process automatically removes the components from your inventory and adds the finished goods. By recording the exact material used, including wastage, you capture the true reality of your production floor rather than an idealised estimate.",
+      "items": [
+        "Issue detailed work orders to the production floor.",
+        "Consume raw materials directly into finished inventory.",
+        "Log material wastage to keep stock counts accurate.",
+        "Add finished goods to inventory ready for dispatch."
+      ]
+    },
+    {
+      "eyebrow": "Protect your margins",
+      "title": "Calculate true unit costs before you quote",
+      "body": "You cannot set a profitable price if you do not know what an item costs to make. Because Paper & Pen tracks the purchase price of your raw materials and the exact quantities consumed during production, it calculates the true cost of every finished good. This includes the cost of the wasted material. When a customer asks for a quote on a custom batch, you can look up your historical job costs. You will know exactly where your break-even point is, allowing you to quote competitive prices that still protect your profit margins.",
+      "items": [
+        "Calculate finished good costs based on consumed materials.",
+        "Include the cost of production wastage in unit prices.",
+        "Review historical job costs to inform future pricing.",
+        "Send accurate quotations directly to your clients."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the software handle bills of materials?",
+      "a": "Yes, bills of materials are a core part of our paid manufacturing module. You can define the exact raw materials and quantities required to produce a finished item. When you run a production job, the system uses this bill of materials to calculate how much raw stock to consume, ensuring your inventory levels remain accurate as you build."
+    },
+    {
+      "q": "Can I track the wastage from a production run?",
+      "a": "Absolutely. We know that real manufacturing involves offcuts, errors, and spoiled materials. When you complete a work order, you can log the actual amount of raw material consumed, even if it exceeds the standard bill of materials. This ensures your raw stock inventory is correct and applies the cost of that wasted material to the finished goods."
+    },
+    {
+      "q": "How does the system calculate the cost of a finished good?",
+      "a": "The system calculates unit costs by looking at the actual purchase price of the raw materials you used. When you convert raw stock into finished goods, the software adds up the cost of all consumed components, including any recorded wastage. This total cost is then divided by the number of finished items produced, giving you a highly accurate unit cost."
+    },
+    {
+      "q": "Is the manufacturing feature included in the free version?",
+      "a": "Our core sales and invoicing features are free forever, but the manufacturing and bills of materials tools are part of a paid add-on module. This paid module gives you full access to raw material tracking, work orders, stock consumption, and job costing. You can upgrade to this module whenever your production needs grow beyond simple inventory tracking."
+    }
+  ],
+  "related": [
+    "/features/manufacturing",
+    "/features/inventory",
+    "/features/quotations",
+    "/invoicing/purchase-orders"
+  ],
+  "ctaTitle": "Take control of your production costs and inventory today.",
+  "ctaSub": "Start tracking raw materials, managing bills of materials, and quoting profitable jobs with Paper & Pen."
+}

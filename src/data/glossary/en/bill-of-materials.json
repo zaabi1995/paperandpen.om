@@ -1,0 +1,56 @@
+{
+  "slug": "bill-of-materials",
+  "term": "Bill of materials",
+  "abbr": "BOM",
+  "category": "inventory",
+  "short": "A bill of materials is a comprehensive list of the raw materials, components, and instructions required to construct, manufacture, or repair a finished product.",
+  "metaTitle": "Bill of materials · Paper & Pen",
+  "metaDescription": "Learn what a bill of materials is, how it helps track raw materials for manufacturing, and why accurate component lists are essential for cost control.",
+  "definition": "A bill of materials acts as the master recipe for any item your business produces. When you manufacture or assemble goods, you need a precise record of every part, sub-assembly, and raw material that goes into the final product. This document ensures that your production team knows exactly what to pull from inventory and how those parts fit together.\n\nWhether you build custom furniture in Dubai or assemble electronics in Mumbai, a well-defined bill of materials keeps your production consistent. It prevents inventory shortages by linking the finished good directly to its underlying components. When you receive a sales order for a manufactured item, you can immediately check if you have enough raw materials in stock to complete the request.",
+  "how": {
+    "title": "How Bill of materials works",
+    "body": "The process begins when an engineer or product designer finalises the specifications for a new item. They document every single component required, noting the exact quantities and unit of measure for each part. This list is then entered into your inventory management system, linking the raw materials to the finished product profile.\n\nWhen a customer places an order, the production team generates a work order based on this list. The warehouse staff uses the document to pick the necessary items from the shelves. As the goods are assembled, the system deducts the raw materials from your stock and increases the inventory count of the finished product. This ensures your stock levels and material costs remain accurate throughout the entire production cycle.",
+    "items": [
+      "Identify the finished product you intend to manufacture or assemble.",
+      "List every raw material and component required for the build.",
+      "Specify the exact quantity and unit of measure for each part.",
+      "Include any necessary sub-assemblies if the product involves multiple stages.",
+      "Update your inventory system to link these parts to the final item."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Imagine a company called Gulf Woodworks that builds dining tables. Their bill of materials for one standard table includes one wooden tabletop, four wooden legs, 16 steel brackets, and 64 wood screws.\n\nTo calculate the material cost, they multiply the quantity of each part by its unit cost. The tabletop costs 40 OMR, each leg costs 5 OMR (total 20 OMR), each bracket costs 0.50 OMR (total 8 OMR), and each screw costs 0.05 OMR (total 3.20 OMR). By adding these amounts together, Gulf Woodworks determines that the total raw material cost to produce one dining table is 71.20 OMR."
+  },
+  "matters": "Without an accurate bill of materials, your business risks severe production delays and miscalculated costs. If you forget to list a crucial component, your assembly line might halt while you wait for a supplier delivery. This document is also vital for pricing your products correctly. By knowing exactly what goes into a finished good, you can calculate your true cost of goods sold and protect your profit margins. Paper & Pen tracks your stock levels automatically, helping you monitor the raw materials required for your production runs. Maintaining strict control over your component lists ensures you never over-order parts or run out of critical supplies.",
+  "faqs": [
+    {
+      "q": "What is the difference between a bill of materials and a purchase order?",
+      "a": "A bill of materials is an internal document listing the components needed to build a product. A purchase order is an external document sent to a supplier to buy those components. You use your component list to figure out what materials you need, and then you issue purchase orders to acquire any items that are currently out of stock."
+    },
+    {
+      "q": "Can a bill of materials include other manufactured items?",
+      "a": "Yes, this is known as a multi-level bill of materials. If you build bicycles, your primary list might include a wheel assembly. That wheel assembly will have its own separate list detailing the rim, spokes, and tyre. Multi-level lists help organise complex manufacturing processes by breaking them down into smaller, manageable sub-assemblies."
+    },
+    {
+      "q": "How does a bill of materials impact inventory valuation?",
+      "a": "When you complete a production run, the value of the raw materials consumed is transferred to the finished goods inventory. An accurate component list ensures that the final product's value correctly reflects the cost of all parts used. This precise tracking is essential for calculating your cost of goods sold and maintaining an accurate balance sheet."
+    }
+  ],
+  "related": [
+    "work-order",
+    "cost-of-goods-sold",
+    "inventory-turnover",
+    "sku"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/manufacturing",
+      "label": "Manufacturing features"
+    },
+    {
+      "href": "/features/inventory",
+      "label": "Inventory tracking"
+    }
+  ]
+}

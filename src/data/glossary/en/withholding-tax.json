@@ -1,0 +1,61 @@
+{
+  "slug": "withholding-tax",
+  "term": "Withholding tax",
+  "abbr": "WHT",
+  "category": "tax",
+  "short": "Withholding tax is a government requirement where a payer deducts a set percentage of tax from a payment made to a supplier and remits it directly to the tax authority.",
+  "metaTitle": "What is Withholding Tax? · Paper & Pen",
+  "metaDescription": "Learn how withholding tax works, when you must deduct it from supplier payments, and how to record these deductions accurately in your accounting records.",
+  "definition": "When you purchase services from certain suppliers, your local tax authority may require you to hold back a portion of the payment. Instead of paying the full invoice amount to the supplier, you pay the withheld amount directly to the government. This mechanism is known as withholding tax. It acts as an advance payment of income tax for the supplier and helps tax authorities prevent tax evasion, especially when dealing with foreign entities or freelance contractors. As a business owner, you act as a collection agent for the government. You must recognise the gross expense in your general ledger, deduct the correct tax percentage, and remit the funds by the official deadline. The supplier then claims this deducted amount as a tax credit when they file their annual corporate income tax return.",
+  "how": {
+    "title": "How Withholding tax works",
+    "body": "The withholding tax process begins when a supplier issues an invoice for their services. Before you settle the bill, you must determine if the specific service or the supplier's location triggers a withholding tax obligation under your local tax laws. If it does, you calculate the tax based on the gross invoice value using the rate specified by your tax authority. You then pay the supplier the net amount after the deduction. Next, you declare and transfer the withheld funds to your national tax department, usually on a monthly or quarterly schedule. Finally, you provide the supplier with a withholding tax certificate. This official document proves that you paid the tax on their behalf, allowing them to offset it against their final tax liability.",
+    "items": [
+      "The supplier sends a standard invoice for the total gross amount of their services.",
+      "The payer identifies the applicable withholding tax rate set by the local tax authority.",
+      "The payer deducts the tax and transfers only the net balance to the supplier.",
+      "The payer remits the withheld funds directly to the government before the filing deadline.",
+      "The payer issues a tax certificate so the supplier can claim a tax credit."
+    ]
+  },
+  "formula": {
+    "label": "Withholding Tax Calculation",
+    "expr": "Withholding Tax = Gross Amount x Withholding Tax Rate",
+    "note": "Subtract the resulting withholding tax from the gross invoice amount to find the net payable to your supplier."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Apex Consulting provides marketing services to Gulf Trading LLC for a gross fee of $10,000. Gulf Trading LLC operates in a jurisdiction that requires a 10 percent withholding tax on professional services. First, Gulf Trading calculates the tax by multiplying the $10,000 gross amount by 10 percent, which equals $1,000. Gulf Trading then subtracts this $1,000 from the gross invoice, leaving a net payable amount of $9,000. Gulf Trading pays $9,000 to Apex Consulting and remits the $1,000 withholding tax directly to the tax authority. Apex Consulting later uses the $1,000 tax certificate to reduce its annual income tax bill."
+  },
+  "matters": "Failing to deduct withholding tax when required leaves your business liable for the uncollected amount. Tax authorities will demand the missing funds from you directly, often adding severe financial penalties and late payment interest. This mistake drains your working capital and complicates your cash flow statement. Accurate tracking is essential to avoid these penalties and maintain good relationships with your vendors. You must keep clear records of gross expenses, tax liabilities, and net payments. Paper & Pen creates invoices, quotations and receipts while posting the necessary journal entries to keep your tax liabilities perfectly organised.",
+  "faqs": [
+    {
+      "q": "Do I apply withholding tax on the amount including or excluding VAT?",
+      "a": "You generally calculate withholding tax on the net invoice amount before Value Added Tax is added. VAT and withholding tax are separate mechanisms. You must check your local tax authority guidelines, as the exact rules for combining indirect taxes and withholding taxes can vary significantly by jurisdiction."
+    },
+    {
+      "q": "How does a supplier recover the withheld tax?",
+      "a": "The supplier recovers the withheld amount by claiming it as a tax credit on their annual corporate income tax return. To do this, they need a formal withholding tax certificate from the payer. This certificate acts as proof that the tax was paid to the government on their behalf."
+    },
+    {
+      "q": "Does withholding tax apply to the purchase of physical goods?",
+      "a": "In most jurisdictions, withholding tax applies primarily to services, royalties, dividends, and interest payments rather than physical goods. However, if a contract includes both goods and installation services, a portion of the invoice might be subject to the tax. Always consult your national tax laws for specific classifications."
+    }
+  ],
+  "related": [
+    "corporate-income-tax",
+    "value-added-tax",
+    "accounts-payable",
+    "journal-entry"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting Features"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "General Ledgers"
+    }
+  ]
+}

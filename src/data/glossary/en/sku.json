@@ -1,0 +1,57 @@
+{
+  "slug": "sku",
+  "term": "Stock Keeping Unit",
+  "abbr": "SKU",
+  "category": "inventory",
+  "short": "A Stock Keeping Unit is a unique alphanumeric code assigned to a specific product variant to track inventory levels, sales and locations within a business.",
+  "metaTitle": "What is a SKU in Inventory? · Paper & Pen",
+  "metaDescription": "Learn what a Stock Keeping Unit (SKU) is, how to create effective codes for your products, and why tracking inventory variants matters for your business.",
+  "definition": "A Stock Keeping Unit is a unique identifier you assign to every distinct item you sell. Unlike universal barcodes assigned by manufacturers, you create these codes internally to match your specific operations. If you sell a shirt in three colours and four sizes, you need twelve distinct codes to track exactly which variants are selling and which are sitting on your shelves.\n\nThese codes form the foundation of your inventory management system. When a customer buys an item, the code tells your system exactly what to deduct from your stock. This prevents overselling and helps you identify your most profitable items. By structuring your codes logically, you and your staff can instantly recognise a product's characteristics, such as its brand, size, colour and storage location, simply by reading the alphanumeric string.",
+  "how": {
+    "title": "How SKU works",
+    "body": "Creating a functional system requires a logical, consistent format that everyone in your business can understand. You start by identifying the most important attributes of your products, such as category, brand, colour and size. Next, you assign short alphanumeric abbreviations to each attribute. You then combine these abbreviations into a single string for each unique product variant.\n\nWhen new stock arrives, you record the quantities against these specific codes in your ledger or inventory software. As sales occur, the system automatically deducts the sold quantities from the corresponding codes. This continuous cycle gives you an accurate, real-time view of your stock levels. If you change your product lines, you simply create new codes following the same established structure to maintain consistency across your entire catalogue.",
+    "items": [
+      "Determine the key attributes that distinguish your products from one another.",
+      "Assign short, standardised alphanumeric abbreviations to each product attribute.",
+      "Combine the abbreviations to generate a unique code for every variant.",
+      "Record all incoming goods against their specific identification codes.",
+      "Deduct sold items from the corresponding codes to maintain accurate stock levels."
+    ]
+  },
+  "matters": "Without a structured coding system, you cannot accurately track which specific product variants are driving your profits. You risk running out of popular sizes or colours while capital remains tied up in slow-moving stock. A logical system speeds up order fulfilment because your staff can locate items faster and pack orders with fewer errors. It also simplifies your regular stock takes, making discrepancies easier to spot and investigate. Paper & Pen tracks stock automatically, allowing you to monitor quantities for every code in real time. This visibility helps you make informed purchasing decisions and keeps your customers satisfied.",
+  "faqs": [
+    {
+      "q": "What is the difference between a SKU and a UPC?",
+      "a": "A Universal Product Code is a standard barcode purchased from a global organisation and remains the same regardless of who sells the item. A Stock Keeping Unit is an internal code you create specifically for your own business. You use your internal codes for stock management, while you use universal codes for external retail scanning."
+    },
+    {
+      "q": "How long should my product codes be?",
+      "a": "You should keep your codes as short as possible while still including all necessary product attributes. Most businesses use between eight and twelve characters. If you make them too long, they become difficult to read and increase the risk of data entry errors. Always avoid using spaces, special characters or letters that look like numbers."
+    },
+    {
+      "q": "Can I reuse a code if I stop selling a product?",
+      "a": "You should never reuse an old code for a new product. Doing so will corrupt your historical sales data and confuse your inventory reports. If you discontinue an item, archive its code in your system. When you introduce a new product, always generate a completely new identifier to maintain accurate records."
+    }
+  ],
+  "related": [
+    "inventory-turnover",
+    "reorder-point",
+    "safety-stock",
+    "fifo",
+    "stock-take"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory Tracking"
+    },
+    {
+      "href": "/industries/retail",
+      "label": "Retail Solutions"
+    },
+    {
+      "href": "/features/manufacturing",
+      "label": "Manufacturing ERP"
+    }
+  ]
+}

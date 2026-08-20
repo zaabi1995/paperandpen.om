@@ -1,0 +1,57 @@
+{
+  "slug": "accounts-payable",
+  "term": "Accounts payable",
+  "abbr": "AP",
+  "category": "accounting",
+  "short": "Accounts payable is the total amount of short-term debt your business owes to suppliers and vendors for goods or services that you have received but have not yet paid for.",
+  "metaTitle": "What is Accounts payable? · Paper & Pen",
+  "metaDescription": "Accounts payable represents the money your business owes to suppliers for goods and services purchased on credit. Learn how to manage it effectively.",
+  "definition": "Accounts payable is a liability account on your balance sheet representing the money you owe to suppliers or creditors. When you buy inventory, supplies, or services on credit, the billed amount becomes part of your accounts payable until you settle the invoice. It is considered a current liability because you are typically expected to pay these debts within a year, often in 30, 60, or 90 days.\n\nKeeping accurate records of what you owe ensures you maintain good relationships with your vendors and avoid late payment penalties. If your accounts payable balance increases, it means you are buying more on credit than you are paying off. When it decreases, you are paying debts faster than you are incurring new ones. Managing this balance carefully helps you control your cash flow.",
+  "how": {
+    "title": "How Accounts payable works",
+    "body": "The accounts payable process begins when you issue a purchase order to a supplier for goods or services. Once the supplier delivers the items, they send you an invoice detailing the amount due and the payment terms. You then review the invoice to verify it matches the purchase order and the delivery note. This verification step prevents overpayment or fraud. After approval, you record the invoice in your accounting system, which increases your accounts payable balance. Finally, you schedule and make the payment before the due date. Once the payment clears, you record the transaction to decrease your accounts payable balance and reduce your cash account.",
+    "items": [
+      "Receiving an invoice from your supplier for goods or services provided.",
+      "Verifying the invoice details against the original purchase order and delivery note.",
+      "Recording the approved invoice in your general ledger as a current liability.",
+      "Scheduling the payment according to the agreed credit terms to avoid penalties.",
+      "Disbursing the funds and updating your records to reduce the liability balance."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Al Noor Trading starts the month with a zero balance in accounts payable. On the fifth of the month, the business buys 2,000 Omani Rials of inventory on credit from a local supplier. This increases their accounts payable to 2,000 Omani Rials. On the fifteenth, they purchase 500 Omani Rials of office supplies, also on credit, bringing the total accounts payable to 2,500 Omani Rials. On the twentieth, Al Noor Trading pays 1,200 Omani Rials to the first supplier. To find the new balance, subtract the 1,200 payment from the 2,500 total liability. The remaining accounts payable balance at the end of the month is 1,300 Omani Rials."
+  },
+  "matters": "Tracking accounts payable is essential for protecting your cash flow and maintaining your business reputation. If you lose track of what you owe, you might miss due dates, incur late fees, and damage relationships with crucial suppliers. Suppliers may respond by reducing your credit limit or refusing to deliver goods until past debts are cleared, which can halt your operations. Conversely, paying too early might leave you short on cash for payroll or rent. Using software like Paper & Pen, which posts journal entries and supports many currencies, helps you record these liabilities accurately to protect your working capital.",
+  "faqs": [
+    {
+      "q": "Is accounts payable an expense or a liability?",
+      "a": "Accounts payable is a liability, not an expense. An expense is the cost of operations recorded on your profit and loss statement. Accounts payable is a current liability recorded on your balance sheet, representing the unpaid balance for those expenses. When you finally pay the bill, your liability decreases, but the expense was already recognised when you received the invoice."
+    },
+    {
+      "q": "What is the difference between accounts payable and accounts receivable?",
+      "a": "Accounts payable represents the money you owe to your suppliers for purchases made on credit. It is a liability. Accounts receivable represents the money your customers owe you for sales you made on credit. It is an asset. In short, payable is money going out of your business, and receivable is money coming into your business."
+    }
+  ],
+  "related": [
+    "accounts-receivable",
+    "general-ledger",
+    "purchase-order",
+    "payment-terms",
+    "working-capital"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    },
+    {
+      "href": "/invoicing/purchase-orders",
+      "label": "Purchase orders"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Ledgers"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+---
+import CollectionIndex from '@/components/templates/CollectionIndex.astro';
+import { getCollection } from 'astro:content';
+import { localeStaticPaths } from '@/lib/paths';
+import { useTranslations, type Locale } from '@/i18n';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+
+const all = await getCollection('templates');
+const mine = all.filter((e) => e.data.locale === locale);
+const list = (mine.length ? mine : all.filter((e) => e.data.locale === 'en'))
+  .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99))
+  .map((e) => ({ slug: e.data.slug, title: e.data.title, heroSubtitle: e.data.heroSubtitle, icon: e.data.features?.[0]?.icon }));
+---
+<CollectionIndex
+  {locale}
+  basePath="/invoice-templates"
+  title={t('templatesIndex.title')}
+  eyebrow={t('templatesIndex.eyebrow')}
+  sub={t('templatesIndex.sub')}
+  metaTitle={t('seo.templatesTitle')}
+  metaDescription={t('seo.templatesDesc')}
+  items={list}
+  onward={[
+    { href: '/tools/free-invoice-generator', label: t('mega.invoiceGen') },
+    { href: '/tools/free-quotation-generator', label: t('mega.quotationGen') },
+    { href: '/glossary', label: t('nav.glossary') },
+    { href: '/invoicing/invoices', label: t('footer.invoices') },
+    { href: '/pricing', label: t('nav.pricing') },
+  ]}
+/>

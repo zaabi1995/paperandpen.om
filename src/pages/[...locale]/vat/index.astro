@@ -1,0 +1,33 @@
+---
+import CollectionIndex from '@/components/templates/CollectionIndex.astro';
+import { getCollection } from 'astro:content';
+import { localeStaticPaths } from '@/lib/paths';
+import { useTranslations, type Locale } from '@/i18n';
+
+export const getStaticPaths = localeStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const t = useTranslations(locale);
+
+const all = await getCollection('vat');
+const mine = all.filter((e) => e.data.locale === locale);
+const list = (mine.length ? mine : all.filter((e) => e.data.locale === 'en'))
+  .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99))
+  .map((e) => ({ slug: e.data.slug, title: e.data.title, heroSubtitle: e.data.heroSubtitle, icon: 'percent' }));
+---
+<CollectionIndex
+  {locale}
+  basePath="/vat"
+  title={t('vatIndex.title')}
+  eyebrow={t('vatIndex.eyebrow')}
+  sub={t('vatIndex.sub')}
+  metaTitle={t('seo.vatTitle')}
+  metaDescription={t('seo.vatDesc')}
+  items={list}
+  onward={[
+    { href: '/tools/oman-vat-calculator', label: t('mega.vatCalc') },
+    { href: '/glossary/value-added-tax', label: t('vatIndex.whatIsVat') },
+    { href: '/glossary/e-invoicing', label: t('vatIndex.whatIsEinv') },
+    { href: '/glossary', label: t('nav.glossary') },
+    { href: '/invoicing/invoices', label: t('footer.invoices') },
+  ]}
+/>

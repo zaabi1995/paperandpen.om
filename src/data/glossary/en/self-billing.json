@@ -1,0 +1,52 @@
+{
+  "slug": "self-billing",
+  "term": "Self-billing",
+  "category": "tax",
+  "short": "Self-billing is a commercial arrangement where a customer prepares and issues the tax invoice on behalf of their supplier, rather than waiting for the supplier to send a bill.",
+  "metaTitle": "Self-billing in Accounting · Paper & Pen",
+  "metaDescription": "Learn how self-billing allows a customer to issue a tax invoice on behalf of a supplier, saving time and ensuring accurate tax records for both parties.",
+  "definition": "In standard commercial transactions, the supplier issues an invoice to request payment. Under a self-billing arrangement, this process is reversed. You, as the customer, calculate the amount owed and generate the invoice on behalf of your supplier. You then send a copy of this self-billed invoice to the supplier along with your payment.\n\nThis method is particularly common when a large buyer works with many independent contractors, freelancers or small suppliers. It ensures that your accounts payable department receives uniform invoices that match your internal purchase orders perfectly. To use this method legally, both parties must agree to the arrangement in writing. The supplier must agree not to issue their own sales invoices for these transactions, and both parties must remain registered for value-added tax if required by their local tax authority.",
+  "how": {
+    "title": "How Self-billing works",
+    "body": "The process begins with a formal agreement between the customer and the supplier. This contract outlines the terms, the duration of the arrangement and the tax responsibilities of each party. Once goods or services are delivered, the customer calculates the value of the transaction based on agreed rates or timesheets. The customer then generates a tax invoice on behalf of the supplier. This document must clearly state that it is a self-billed invoice. The customer records this as an accounts payable entry and claims any eligible input tax, while the supplier records it as a sales transaction and declares the corresponding output tax. Finally, the customer sends the invoice copy and the payment to the supplier to complete the cycle.",
+    "items": [
+      "Both parties sign a formal self-billing agreement before starting.",
+      "The supplier delivers the agreed goods or services to the customer.",
+      "The customer calculates the payment due and generates a self-billed invoice.",
+      "The customer sends a copy of the invoice alongside the payment.",
+      "The supplier uses this document to declare their output tax."
+    ]
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Construction LLC hires an independent surveyor, Ahmed, for a site inspection at a rate of 500 per day. Ahmed works for 4 days. Instead of waiting for Ahmed to send a bill, Gulf Construction uses a self-billing agreement. They calculate the base fee as 4 days multiplied by 500, which equals 2,000. Assuming a generic 10 percent tax rate for this transaction, they add 200 in tax (2,000 multiplied by 0.10). Gulf Construction generates a self-billed invoice for a total of 2,200. They record 200 as input tax, pay Ahmed 2,200, and Ahmed declares the 200 as output tax."
+  },
+  "matters": "For small business owners and freelancers, agreeing to self-billing saves administrative time. You do not need to spend hours drafting and chasing invoices, as your client handles the paperwork and initiates payment automatically. For the customer, it guarantees that incoming invoices are formatted correctly and match purchase orders, which prevents payment delays. However, both parties must be careful. If the tax authority audits the transaction, invalid self-billing agreements can lead to denied tax reclaims. You can use Paper & Pen to create invoices and post journal entries easily, ensuring your records stay organised whether you issue the bill or your client does.",
+  "faqs": [
+    {
+      "q": "Is a self-billed invoice a valid tax document?",
+      "a": "Yes, provided it meets the specific conditions set by your local tax authority. Generally, there must be a prior written agreement between both parties, and the document must clearly display the words stating it is a self-billed invoice. The supplier remains legally responsible for declaring the output tax, even though the customer physically generated the document."
+    },
+    {
+      "q": "What happens if the supplier deregisters for VAT?",
+      "a": "If a supplier cancels their tax registration, the self-billing agreement usually becomes invalid immediately. The supplier must notify the customer without delay. If the customer continues to issue self-billed tax invoices for an unregistered supplier, the customer may face penalties and lose the right to claim the associated input tax."
+    }
+  ],
+  "related": [
+    "invoice",
+    "tax-invoice",
+    "input-vat",
+    "output-vat",
+    "accounts-payable"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    },
+    {
+      "href": "/invoicing/invoices",
+      "label": "Manage Invoices"
+    }
+  ]
+}

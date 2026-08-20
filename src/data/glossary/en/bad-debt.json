@@ -1,0 +1,57 @@
+{
+  "slug": "bad-debt",
+  "term": "Bad debt",
+  "category": "accounting",
+  "short": "Bad debt is a monetary amount owed to a business that is no longer recoverable because the customer is unable or unwilling to pay their outstanding invoice.",
+  "metaTitle": "What is Bad Debt? Definition · Paper & Pen",
+  "metaDescription": "Learn what bad debt is, how to recognise it in your accounting records, and the difference between a provision and a direct write-off for unpaid invoices.",
+  "definition": "When you sell goods or services on credit, you expect your customers to pay you on time. Unfortunately, some invoices remain unpaid due to customer bankruptcy, disputes, or financial hardship. When it becomes clear that you will never collect this money, the outstanding balance becomes a bad debt. In accounting, you must recognise this loss so your financial statements accurately reflect your true assets. There are two main ways to record this. A provision for bad debts is an estimate you make in advance based on historical trends, anticipating that a certain percentage of your total receivables will default. A write-off is a specific decision to remove a known, uncollectible invoice from your accounts receivable. By acknowledging bad debt, you prevent your business from paying taxes on phantom profits that you will never actually receive.",
+  "how": {
+    "title": "How Bad debt works",
+    "body": "The lifecycle of a bad debt begins the moment you issue an invoice on credit. As the payment deadline passes, the invoice becomes overdue. You typically follow a standard dunning process, sending reminders and statements of account to encourage payment. If the customer ignores these notices or informs you they cannot pay, you must evaluate the likelihood of recovery. Once you determine the amount is uncollectible, you remove the invoice value from your accounts receivable and record it as a bad debt expense in your general ledger. If you use the allowance method, you first create a provision based on estimated losses, then apply the specific uncollectible amount against that provision. This ensures your profit and loss statement accurately reflects the loss.",
+    "items": [
+      "Issue an invoice to a customer with agreed payment terms.",
+      "Monitor accounts receivable and identify invoices that are severely overdue.",
+      "Exhaust all reasonable collection efforts through a structured dunning process.",
+      "Determine that the outstanding balance is permanently uncollectible.",
+      "Record a journal entry to move the amount to bad debt expense."
+    ]
+  },
+  "formula": {
+    "label": "Bad Debt Ratio",
+    "expr": "(Total Bad Debts / Total Credit Sales) x 100",
+    "note": "This ratio shows the percentage of your credit sales that end up as uncollectible losses. A rising percentage indicates you may need stricter credit limits."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Traders LLC sells office supplies to local businesses on net-30 terms. In one financial year, they record 200,000 OMR in total credit sales. By the end of the year, three customers have gone out of business, leaving unpaid invoices totalling 4,000 OMR. Gulf Traders determines these invoices are uncollectible and writes them off. To calculate their bad debt ratio, they divide 4,000 by 200,000, which equals 0.02. Multiplying by 100 gives a bad debt ratio of 2 percent. This means Gulf Traders loses two percent of its credit revenue to defaulting customers."
+  },
+  "matters": "Ignoring bad debt artificially inflates your assets and your taxable income. If you leave uncollectible invoices sitting in your accounts receivable, your balance sheet will look healthier than it actually is. This misleads investors and lenders, and it means you might pay corporate income tax on revenue you never collected. High bad debt levels also severely restrict your working capital, leaving you without the cash needed to pay your own suppliers or staff. Paper & Pen tracks your accounts receivable and posts journal entries to help you manage these write-offs accurately. Monitoring your uncollectible accounts forces you to tighten your credit limits and vet new customers more carefully before offering them payment terms.",
+  "faqs": [
+    {
+      "q": "Can I claim back the VAT on a bad debt?",
+      "a": "In many jurisdictions, you can recover the output VAT you already paid to the tax authority on an uncollectible invoice. However, tax authorities usually require you to prove that the debt is genuinely unrecoverable and that a specific time period has passed since the invoice date. You must check the exact bad debt relief rules published by your local tax authority."
+    },
+    {
+      "q": "What happens if a customer pays after I write off their debt?",
+      "a": "If a customer unexpectedly settles their invoice after you have already recorded a write-off, you must reverse the initial accounting entry. This process is known as a bad debt recovery. You will record a new journal entry that reinstates the accounts receivable balance, and then you log the cash receipt as normal to clear the balance again."
+    }
+  ],
+  "related": [
+    "accounts-receivable",
+    "write-off",
+    "aging-report",
+    "dunning",
+    "credit-limit"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/accounting",
+      "label": "Accounting features"
+    },
+    {
+      "href": "/invoicing/payment-reminders",
+      "label": "Payment reminders"
+    }
+  ]
+}

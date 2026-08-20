@@ -12,6 +12,14 @@ export interface Props {
   jsonld?: Record<string, unknown>[];
   noindex?: boolean;
   keywords?: string;
+  /**
+   * Suppress the hreflang annotation set. Used by pages that exist in one
+   * language only: /terms/ and /privacy/ are English text on every locale, so
+   * the four non-English copies are noindex and kept out of the sitemap, and a
+   * page that still advertised them as alternates would recreate exactly the
+   * page-versus-sitemap contradiction r375 set out to remove.
+   */
+  noAlternates?: boolean;
 }
 
 const SITE = 'https://paperandpen.om';
@@ -24,11 +32,12 @@ const {
   jsonld = [],
   noindex = false,
   keywords,
+  noAlternates = false,
 } = Astro.props;
 
 const canonical = SITE + localizePath(path, locale);
 const ogImage = image.startsWith('http') ? image : SITE + image;
-const alternates = getAlternates(path);
+const alternates = noAlternates ? [] : getAlternates(path);
 const meta = LOCALE_META[locale];
 ---
 

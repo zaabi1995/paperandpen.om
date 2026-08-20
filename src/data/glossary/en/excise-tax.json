@@ -1,0 +1,56 @@
+{
+  "slug": "excise-tax",
+  "term": "Excise tax",
+  "category": "tax",
+  "short": "Excise tax is an indirect tax levied by governments on the production, sale, or consumption of specific goods that are considered harmful to human health or the environment.",
+  "metaTitle": "What is Excise Tax? Definition & Examples · Paper & Pen",
+  "metaDescription": "Learn what excise tax is, how it applies to specific goods like carbonated drinks and tobacco, and how it impacts your business pricing and compliance.",
+  "definition": "Excise tax is an indirect tax that governments apply to specific goods, typically those deemed harmful to human health or the environment. Unlike value-added tax, which applies broadly to most sales, excise tax targets particular items like tobacco products, carbonated beverages, energy drinks, and sometimes fuel or luxury goods. When you manufacture, import, or stockpile these specific goods, you are usually responsible for paying the tax to the tax authority. The goal is twofold: to generate government revenue and to discourage the consumption of these items. Because it is an indirect tax, you ultimately pass the cost on to the final consumer by including it in the retail selling price. You must carefully track these goods in your inventory and account for the tax liability before the product even reaches the retail shelf.",
+  "how": {
+    "title": "How Excise tax works",
+    "body": "The excise tax process begins when a business registers with the national tax authority for excise purposes. Once registered, you must identify which of your products attract the tax. If you manufacture or import these targeted goods, you calculate the tax based on either a percentage of the retail selling price or a fixed amount per unit, depending on local tax laws. You then file periodic excise tax returns and remit the collected amounts to the government. When you sell the goods to distributors or consumers, the tax is already embedded in the final price. Throughout this cycle, you must maintain precise inventory records to prove exactly how much taxable stock entered your warehouse and how much was released into the local market.",
+    "items": [
+      "Register your business with the local tax authority for excise tax purposes.",
+      "Identify which specific goods in your inventory are subject to the tax.",
+      "Calculate the tax liability upon importing, manufacturing, or stockpiling the targeted items.",
+      "Incorporate the tax cost into the final retail selling price of the goods.",
+      "File periodic returns and pay the owed tax directly to the government."
+    ]
+  },
+  "formula": {
+    "label": "Ad Valorem Excise Tax",
+    "expr": "Retail Selling Price x Excise Tax Rate",
+    "note": "This calculates the tax amount based on a percentage of the final retail price. Some goods instead use a specific duty, which multiplies the total quantity by a fixed monetary rate."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Desert Oasis Beverages imports energy drinks, which are subject to a percentage-based excise tax. The company imports 1,000 cans of a new energy drink. The designated retail selling price per can is 2.00 in the local currency. Assume the local tax authority mandates an excise tax rate of 100 percent on energy drinks.\n\nFirst, calculate the total retail value: 1,000 cans x 2.00 = 2,000.00.\nNext, apply the excise tax rate: 2,000.00 x 100 percent = 2,000.00.\n\nDesert Oasis Beverages must pay 2,000.00 in excise tax to the government upon importing this shipment, making their total initial cost 4,000.00 before other expenses."
+  },
+  "matters": "Understanding excise tax matters because failing to comply can result in severe financial penalties and the confiscation of your goods. If you trade in targeted items, this tax drastically increases your upfront costs, which directly impacts your working capital and pricing strategy. You must have enough cash on hand to pay the tax authority when goods are imported or produced, long before you actually sell them to a customer. Accurate record-keeping is mandatory to survive a tax audit. Paper & Pen tracks stock and creates invoices, helping you maintain the precise inventory records required to manage your excise tax obligations confidently.",
+  "faqs": [
+    {
+      "q": "What is the difference between excise tax and VAT?",
+      "a": "Value-added tax (VAT) is a general consumption tax applied to almost all goods and services at every stage of the supply chain. Excise tax is highly targeted, applying only to specific goods like tobacco or energy drinks. Furthermore, excise tax is usually levied only once, typically at the point of import or manufacture, rather than at every sale."
+    },
+    {
+      "q": "Do I need to show excise tax on my customer invoices?",
+      "a": "In most jurisdictions, excise tax is a hidden tax for the final consumer. It is embedded directly into the retail selling price of the product. You generally do not need to itemise the excise tax amount on a standard consumer receipt or tax invoice, though you must account for it meticulously in your own general ledger and inventory records."
+    }
+  ],
+  "related": [
+    "value-added-tax",
+    "customs-duty",
+    "taxable-supply",
+    "inventory-turnover"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/inventory",
+      "label": "Inventory tracking"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Ledger management"
+    }
+  ]
+}

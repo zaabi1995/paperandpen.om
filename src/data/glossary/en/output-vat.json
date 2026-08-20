@@ -1,0 +1,57 @@
+{
+  "slug": "output-vat",
+  "term": "Output VAT",
+  "category": "tax",
+  "short": "Output VAT is the value-added tax that a registered business calculates and charges to its customers on the sale of taxable goods and services.",
+  "metaTitle": "What is Output VAT? · Paper & Pen",
+  "metaDescription": "Learn what Output VAT is, how to calculate it on your sales, and why it matters for your business tax returns and compliance.",
+  "definition": "When your business is registered for value-added tax, you must add this tax to the price of the taxable goods and services you sell. This amount collected from your customers is known as Output VAT. It is called \"output\" because it applies to the outputs of your business operations. You do not get to keep this money. Instead, you act as a collection agent for the government. You hold the collected funds temporarily until your next tax filing period. When you file your tax return, you will declare your total Output VAT and pay it to the tax authority, usually after deducting the tax you paid on your own business purchases. Accurately recording this tax on every sales invoice is a strict legal requirement for registered businesses.",
+  "how": {
+    "title": "How Output VAT works",
+    "body": "The process begins when you determine the correct tax treatment for the item you are selling. You must check if the item is fully taxable, zero-rated, or exempt according to your local tax authority rules. Once you confirm the item is taxable, you calculate the tax amount by multiplying the net sales price by the applicable tax rate. You then issue a formal tax invoice to your customer. This document must clearly show the net price, the tax rate applied, the exact tax amount, and the gross total. The customer pays you the gross amount. Finally, you record this collected tax in your accounting ledger as a current liability, as you owe this exact amount to the government at the end of your reporting period.",
+    "items": [
+      "Identify the correct tax classification and rate for your specific product or service.",
+      "Calculate the tax amount based on the net selling price of the item.",
+      "Issue a compliant tax invoice displaying the tax amount and your tax identification number.",
+      "Collect the total gross payment, which includes the tax, from your customer.",
+      "Record the collected tax as a liability in your general ledger until your filing date."
+    ]
+  },
+  "formula": {
+    "label": "Output VAT Calculation",
+    "expr": "Output VAT = Net Sales Price x Applicable VAT Rate",
+    "note": "To find the gross amount the customer pays, add the Output VAT to the net sales price. If you only have the gross price, divide it by (1 + VAT Rate) to find the net price."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Alpha Tech LLC sells computer hardware and is registered for value-added tax. A customer orders a server with a total net price of 4,000. The local tax authority sets a 10 percent tax rate on electronics. To calculate the Output VAT, Alpha Tech multiplies the 4,000 net price by 0.10. This results in an Output VAT of 400. The company then issues a tax invoice for the gross amount, which is the 4,000 net price plus the 400 tax, totalling 4,400. Alpha Tech collects 4,400 from the buyer but owes 400 to the government."
+  },
+  "matters": "Understanding Output VAT is critical because mistakes directly impact your cash flow and legal compliance. If you fail to charge the tax when required, the tax authority will still demand the money from you. This means you will have to pay the tax out of your own profit margins. Conversely, overcharging or failing to remit the collected tax can lead to severe financial penalties and audits. Proper invoicing ensures you collect the right amount. Paper & Pen creates invoices, quotations and receipts. Keeping accurate records protects your business during tax inspections and ensures you only pay exactly what you owe.",
+  "faqs": [
+    {
+      "q": "What is the difference between Input VAT and Output VAT?",
+      "a": "Output VAT is the tax you charge and collect from customers on your sales. Input VAT is the tax you pay to your suppliers on your business expenses. When you file your tax return, you typically subtract your Input VAT from your Output VAT. You then pay the remaining balance to the tax authority, or claim a refund if your expenses were higher."
+    },
+    {
+      "q": "Do I have to charge Output VAT on every sale?",
+      "a": "No, you only charge it if your business is officially registered for value-added tax. Furthermore, even if you are registered, some goods and services might be classified as exempt or zero-rated by your local tax authority. You must check your local regulations to determine the exact tax treatment for each specific item you sell."
+    }
+  ],
+  "related": [
+    "input-vat",
+    "value-added-tax",
+    "tax-invoice",
+    "vat-return",
+    "taxable-supply"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    },
+    {
+      "href": "/tools/free-invoice-generator",
+      "label": "Free Invoice Generator"
+    }
+  ]
+}

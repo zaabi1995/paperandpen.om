@@ -9,13 +9,13 @@ const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 ---
-<!--
+{/*
   ONE GROUND. The old shell put the form in a white box under a white,
-  hairline-bordered header bar sitting on cream — three surfaces stacked before
+  hairline-bordered header bar sitting on cream , three surfaces stacked before
   a single field appeared. The bar never does that: its page is one continuous
   warm off-white, and the only panels on it are flat tinted fills. So the header
   and footer here are transparent, and the sole card is the rail inside the form.
--->
+*/}
 <BaseLayout
   {locale}
   bare
@@ -26,15 +26,15 @@ const lp = (p: string) => localizePath(p, locale);
 >
   <div class="flex min-h-screen flex-col bg-paper">
     <header class="px-6 pb-4 pt-6 sm:px-10 sm:pt-8">
-      <!-- 51rem is not a round number, it is the exact sum of the two grid
+      {/* 51rem is not a round number, it is the exact sum of the two grid
            tracks and the gap between them (28 + 4 + 19). max-w-4xl was 896px,
            so the 816px grid floated with 40px of slack on each side and the
            logo no longer sat over the left edge of the field. Sized to the
            content, header, form and footer all share one margin. Below `lg`
            the shell collapses to the single 28rem measure so a lone field can
-           never stretch into a trough on a tablet. -->
+           never stretch into a trough on a tablet. */}
       <div class="mx-auto flex max-w-md items-center justify-between gap-4 lg:max-w-[51rem]">
-        <!--
+        {/*
           THE MARK, IN THE PAGE'S OWN INK.
 
           This was `<img src="/logo.svg" class="h-8">`. That file is the full
@@ -53,7 +53,7 @@ const lp = (p: string) => localizePath(p, locale);
 
           `aria-label` on the link is the accessible name; both drawings are
           decorative to a screen reader.
-        -->
+        */}
         <a
           href={lp('/')}
           aria-label="Paper &amp; Pen"
@@ -99,7 +99,7 @@ const lp = (p: string) => localizePath(p, locale);
       </div>
     </header>
 
-    <!-- CENTRED ON THE VERTICAL AXIS, and this is a reversal — read why before
+    {/* CENTRED ON THE VERTICAL AXIS, and this is a reversal , read why before
          flipping it back a third time.
          Round 2 centred it, round 3 top-anchored it, and both lost. Measured at
          1440x900 the top-anchored version put every pixel of content in rows
@@ -107,14 +107,14 @@ const lp = (p: string) => localizePath(p, locale);
          and the "Secured by Paymob" line looked stranded rather than placed.
          The bar never leaves a fold like that: wave-payroll optically centres
          its text column against a right-hand column that spans the whole band.
-         So the answer was never "top or centre" on its own — it is centre PLUS
+         So the answer was never "top or centre" on its own , it is centre PLUS
          a right column with enough mass to define the band (see the rail in
          SignupForm). Centring alone is what read adrift in round 2.
          `my-auto` on the child rather than `items-center` on the parent: auto
          margins resolve to 0 when there is no free space, so the tall step 3
          and every phone viewport flow from the top and nothing is ever clipped
          off the top edge the way flex centring famously does.
-         `flex-1` still pushes the footer to the bottom on a short step. -->
+         `flex-1` still pushes the footer to the bottom on a short step. */}
     <div class="flex flex-1 justify-center px-6 pb-12 pt-6 sm:px-10 sm:pt-10">
       <div class="my-auto w-full max-w-md lg:max-w-[51rem]">
         <SignupForm client:load {locale} />

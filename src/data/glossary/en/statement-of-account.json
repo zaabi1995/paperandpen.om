@@ -1,0 +1,62 @@
+{
+  "slug": "statement-of-account",
+  "term": "Statement of account",
+  "abbr": "SOA",
+  "category": "invoicing",
+  "short": "A statement of account is a document issued to a customer that summarises all financial transactions, including invoices and payments, over a specific period to show the current outstanding balance.",
+  "metaTitle": "What is a Statement of Account? · Paper & Pen",
+  "metaDescription": "Learn what a statement of account is, how it summarises invoices and payments, and why sending one helps businesses collect outstanding balances faster.",
+  "definition": "When you sell goods or services on credit, you need a clear way to show your customer exactly what they owe. A statement of account provides this summary. It lists all activity between you and your buyer during a set timeframe. You will typically see two main formats. A balance-forward statement starts with the previous unpaid balance as a single line item, then adds new invoices and subtracts recent payments to reach a new total. An open-item statement only lists individual invoices that remain unpaid, regardless of when you issued them. Both formats help your clients reconcile their accounts payable records against your accounts receivable. By providing a transparent view of the financial relationship, this document reduces disputes and encourages timely settlement of debts.",
+  "how": {
+    "title": "How Statement of account works",
+    "body": "The process begins when you establish a billing cycle with your customer, often at the end of the month. Your accounting system gathers all recorded transactions for that specific client. It first identifies the opening balance, which is the amount left unpaid from the previous period. Next, the system lists all new charges, including tax invoices and debit notes issued during the current cycle. It then deducts any payments received and credit notes applied. Finally, the system calculates the closing balance. You then send this compiled document to the customer. The customer reviews the statement against their own ledgers to verify all entries match. If they agree with the closing balance, they arrange payment for the outstanding amount.",
+    "items": [
+      "Determine the statement date and the specific date range to cover.",
+      "Pull the opening balance from the end of the previous billing cycle.",
+      "Add all new invoices and debit notes issued during the period.",
+      "Subtract any payments received and credit notes issued to the customer.",
+      "Calculate the final closing balance that the customer currently owes."
+    ]
+  },
+  "formula": {
+    "label": "Closing Balance Calculation",
+    "expr": "Opening Balance + New Charges - Payments = Closing Balance",
+    "note": "This calculation determines the total amount a customer owes at the end of the statement period."
+  },
+  "example": {
+    "title": "Worked example",
+    "body": "Gulf Trading Supplies issues a statement of account to a client on 31 October. The client had an opening balance of $500 from September. During October, Gulf Trading Supplies issued two new invoices. The first invoice was for $1,200 and the second was for $800. The client made a single payment of $1,000 on 15 October. To find the closing balance, the company adds the new invoices ($1,200 + $800 = $2,000) to the opening balance ($500), resulting in $2,500. They then subtract the $1,000 payment. The statement of account shows a final closing balance of $1,500 due."
+  },
+  "matters": "Sending a regular statement of account is vital for maintaining healthy cash flow and preventing bad debts. When customers lose track of individual invoices, their payments often get delayed. A clear summary removes any confusion about what they owe and prompts faster settlement. It also acts as a polite collection tool, reminding clients of overdue amounts without requiring a confrontational phone call. If discrepancies exist between your records and the client's books, this document highlights them immediately so you can resolve issues quickly. Paper & Pen creates invoices, quotations and receipts, and Sales and Invoicing is free forever.",
+  "faqs": [
+    {
+      "q": "Is a statement of account the same as an invoice?",
+      "a": "No, they serve different purposes. An invoice is a request for payment for a specific sale of goods or services. A statement of account is a summary of all financial activities over a period, which may include multiple invoices, payments, and credit notes. Customers use invoices to record individual purchases and statements to reconcile their overall ledger balance."
+    },
+    {
+      "q": "How often should a business send a statement of account?",
+      "a": "Most businesses send statements on a monthly basis, usually at the end of the month. This regular schedule aligns with standard accounting cycles and helps customers prepare their monthly payment runs. However, if you have clients with high transaction volumes, you might choose to send statements weekly or bi-weekly to ensure they can track their balances accurately."
+    }
+  ],
+  "related": [
+    "invoice",
+    "accounts-receivable",
+    "aging-report",
+    "dunning",
+    "credit-note"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/invoicing",
+      "label": "Invoicing Features"
+    },
+    {
+      "href": "/invoicing/payment-reminders",
+      "label": "Payment Reminders"
+    },
+    {
+      "href": "/invoicing/ledgers",
+      "label": "Customer Ledgers"
+    }
+  ]
+}
