@@ -58,7 +58,7 @@ const jsonld = [
       url: localizePath(path, locale),
       locale: LOCALE_META[locale].htmlLang,
     }),
-    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: localizePath(c.url, locale) })))
+    breadcrumbList(crumbs, locale)
   ),
 ];
 if (data.faqs?.length) jsonld.push(graph(faqPage(data.faqs)));

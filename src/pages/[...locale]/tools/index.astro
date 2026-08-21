@@ -29,7 +29,7 @@ const jsonld = [
   graph(
     organization(),
     itemList({ name: t('toolsIndex.title'), items: list.map((e) => ({ name: e.data.title, url: lp(`/tools/${e.data.slug}`) })) }),
-    breadcrumbList(crumbs)
+    breadcrumbList(crumbs, locale)
   ),
 ];
 ---

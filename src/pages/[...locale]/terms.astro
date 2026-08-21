@@ -9,7 +9,7 @@ import { graph, organization, breadcrumbList } from '@/lib/schema';
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
-const jsonld = [graph(organization(), breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.terms'), url: '/terms' }]))];
+const jsonld = [graph(organization(), breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.terms'), url: '/terms' }], locale))];
 ---
 <BaseLayout
   noindex={locale !== 'en'}

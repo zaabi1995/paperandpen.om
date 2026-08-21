@@ -48,7 +48,7 @@ const path = `/blog/${entry.data.slug}`;
 const jsonld = [
   graph(
     organization(),
-    breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.blog'), url: '/blog' }, { name: entry.data.title, url: path }]),
+    breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.blog'), url: '/blog' }, { name: entry.data.title, url: path }], locale),
     {
       '@type': 'BlogPosting',
       headline: entry.data.title,

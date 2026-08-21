@@ -18,7 +18,7 @@
   ],
   "sections": [
     { "eyebrow": "The honest take", "title": "Where Zoho Books is strong", "body": "Zoho Books is a well-established product with deep accounting features, a large app ecosystem and integrations across the wider Zoho suite. If you already live inside Zoho CRM, Projects and Mail, it slots in neatly. It is a serious tool and we will not pretend otherwise.", "items": ["Mature accounting and reporting depth", "Large third-party app marketplace", "Tight fit if you already use Zoho One"] },
-    { "eyebrow": "Where we win", "title": "Free tier, Arabic and local fit", "body": "Paper & Pen starts genuinely free for unlimited invoicing, runs a true Arabic right-to-left interface (not just translated labels), and bills natively in OMR, AED and SAR with correct decimals. Local card payments through Paymob and GCC 5% VAT are ready out of the box, and onboarding takes minutes rather than a setup project.", "items": ["Free forever core, paid modules only when you grow", "Genuine Arabic RTL, end to end", "Native Gulf currencies and 5% VAT preset"] }
+    { "eyebrow": "Where we win", "title": "Free tier, Arabic and local fit", "body": "Paper & Pen starts genuinely free for unlimited invoicing, runs a true Arabic right-to-left interface (not just translated labels), and bills natively in OMR, AED and SAR with correct decimals. Local card payments through Paymob and GCC configurable VAT are ready out of the box, and onboarding takes minutes rather than a setup project.", "items": ["Free forever core, paid modules only when you grow", "Genuine Arabic RTL, end to end", "Native Gulf currencies and configurable VAT preset"] }
   ],
   "matrixCols": ["Paper & Pen", "Zoho Books"],
   "matrix": [
@@ -28,7 +28,7 @@
     { "feature": "Multi-currency", "values": [true, true] },
     { "feature": "Multi-language UI (5)", "values": [true, "Limited"] },
     { "feature": "Local payments (Paymob)", "values": [true, false] },
-    { "feature": "GCC 5% VAT preset", "values": [true, true] },
+    { "feature": "GCC configurable VAT preset", "values": [true, true] },
     { "feature": "Onboarding speed", "values": ["Minutes", "Setup needed"] },
     { "feature": "Inventory, HR & manufacturing modules", "values": [true, "Add-ons / higher tiers"] }
   ],

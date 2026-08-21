@@ -13,7 +13,7 @@ const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
 const items = (tRaw(locale, 'pages.security.items') as string[]) ?? [];
 const crumbs = [{ name: t('nav.home'), url: '/' }, { name: t('footer.security'), url: '/security' }];
-const jsonld = [graph(organization(), breadcrumbList(crumbs))];
+const jsonld = [graph(organization(), breadcrumbList(crumbs, locale))];
 ---
 <BaseLayout {locale} path="/security" title={t('seo.securityTitle')} description={t('seo.securityDesc')} {jsonld}>
   <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.security') }]} />

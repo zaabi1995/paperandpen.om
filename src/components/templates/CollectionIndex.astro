@@ -40,7 +40,7 @@ const jsonld = [
   graph(
     organization(),
     itemList({ name: title, items: items.map((i) => ({ name: i.title, url: localizePath(`${basePath}/${i.slug}`, locale) })) }),
-    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: localizePath(c.url, locale) })))
+    breadcrumbList(crumbs, locale)
   ),
 ];
 ---

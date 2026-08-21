@@ -1,6 +1,7 @@
 {
-  "$schema": "https://agentskills.io/schemas/index/v0.2.0.json",
-  "version": "0.2.0",
+  "format": "paperandpen-proprietary-web-tool-index",
+  "notice": "Proprietary discovery document for Paper & Pen web tools. This is not a standards-based Agent Skills manifest.",
+  "version": "1.0",
   "provider": {
     "name": "Paper & Pen",
     "url": "https://paperandpen.om"
@@ -51,7 +52,7 @@
     {
       "name": "VAT / Tax Calculator",
       "type": "web",
-      "description": "Add or remove VAT at any rate (5% GCC default).",
+      "description": "Add or remove VAT at any rate. Opens at Oman's 5% rate and can be changed for other jurisdictions.",
       "url": "https://paperandpen.om/tools/oman-vat-calculator/",
       "digest": "sha256:2f56ae33b4e8c329921688825d2bb7254d847d1502f867f655f9b72a2cfac9cf"
     }

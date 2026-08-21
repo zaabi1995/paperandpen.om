@@ -1,3 +1,5 @@
+import { localizePath, stripLocale, type Locale } from '@/i18n';
+
 // JSON-LD structured-data builders for rich results.
 const SITE = 'https://paperandpen.om';
 
@@ -19,16 +21,18 @@ export function organization() {
       addressLocality: 'Muscat',
       addressCountry: 'OM',
     },
-    // sameAs is IDENTITY, not family: listing the parent's URL here says Paper and Pen
-    // IS BHD Group. The parentOrganization edge below is the correct membership edge
-    // and stays. Ledger llm223-2 / llm225-1, round 227.
-    sameAs: ['https://api.whatsapp.com/send?phone=96898899100'],
-    // A BARE @id reference, deliberately. Re-stating name/legalName/url here would
-    // assert a second value for fields bhd.om/#organization already publishes
-    // (legalName 'Bin Haider Darwish L.L.C.', url 'https://bhd.om/', @type
-    // ['Organization','LocalBusiness']), which is exactly the two-bodies-one-@id
-    // conflict entity_graph_gate is red on elsewhere. Ledger llm350-1, round 351.
-    parentOrganization: { '@id': 'https://bhd.om/#organization' },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer support',
+      telephone: '+96898899100',
+      url: 'https://api.whatsapp.com/send?phone=96898899100',
+    },
+    // Keep the parent edge typed but reference-only. Re-stating its name,
+    // legalName, or URL here could conflict with the entity bhd.om publishes.
+    parentOrganization: {
+      '@type': 'Organization',
+      '@id': 'https://bhd.om/#organization',
+    },
   };
 }
 
@@ -40,7 +44,7 @@ export function softwareApplication(extra: Record<string, unknown> = {}) {
     description:
       'Free cloud ERP & invoicing software for GCC small and mid-sized businesses. Sales, inventory, HR, accounting in Arabic and English.',
     applicationCategory: 'BusinessApplication',
-    operatingSystem: 'Web, iOS, Android',
+    operatingSystem: 'Web',
     url: SITE,
     offers: {
       '@type': 'Offer',
@@ -97,14 +101,23 @@ export function faqPage(faqs: { q: string; a: string }[]) {
   };
 }
 
-export function breadcrumbList(crumbs: { name: string; url: string }[]) {
+function breadcrumbUrl(value: string, locale: Locale): string {
+  if (/^https?:\/\//i.test(value)) {
+    const parsed = new URL(value);
+    if (parsed.origin !== SITE) return value;
+    return SITE + localizePath(stripLocale(parsed.pathname), locale);
+  }
+  return SITE + localizePath(stripLocale(value), locale);
+}
+
+export function breadcrumbList(crumbs: { name: string; url: string }[], locale: Locale) {
   return {
     '@type': 'BreadcrumbList',
     itemListElement: crumbs.map((c, i) => ({
       '@type': 'ListItem',
       position: i + 1,
       name: c.name,
-      item: c.url.startsWith('http') ? c.url : `${SITE}${c.url}`,
+      item: breadcrumbUrl(c.url, locale),
     })),
   };
 }

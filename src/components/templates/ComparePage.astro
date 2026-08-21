@@ -29,7 +29,7 @@ const rows = (data.matrix || []).map((r: any) => ({ feature: r.feature, values: 
 const faqs = (data.faqs || []).map((f: any) => ({ q: f.q, a: f.a }));
 const crumbs = [
   { name: t('nav.home'), url: '/' },
-  { name: t('nav.compare'), url: '/compare/paperandpen-vs-zoho' },
+  { name: t('nav.compare'), url: '/compare' },
   { name: data.title, url: path },
 ];
 
@@ -43,7 +43,7 @@ const sections = data.sections || [];
 const lastSplitBand = sections.length ? SPLIT_BANDS[(sections.length - 1) % SPLIT_BANDS.length] : 'sky';
 const faqBand = lastSplitBand === 'paper' ? 'white' : 'paper';
 
-const jsonld = [graph(organization(), softwareApplication(), breadcrumbList(crumbs))];
+const jsonld = [graph(organization(), softwareApplication(), breadcrumbList(crumbs, locale))];
 if (faqs.length) jsonld.push(graph(faqPage(faqs)));
 ---
 
@@ -59,7 +59,7 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
     {locale}
     crumbs={[
       { name: t('nav.home'), href: '/' },
-      { name: t('nav.compare'), href: '/compare/paperandpen-vs-zoho' },
+      { name: t('nav.compare'), href: '/compare' },
       { name: data.title },
     ]}
   />

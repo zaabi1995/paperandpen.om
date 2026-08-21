@@ -90,7 +90,7 @@ const jsonld = [
   graph(
     organization(),
     softwareApplication(),
-    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: c.url ?? path })))
+    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: c.url ?? path })), locale)
   ),
 ];
 if (faqs.length) jsonld.push(graph(faqPage(faqs)));

@@ -16,12 +16,13 @@ pass as translated.
 import json, os, pathlib, re, sys, time, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-KEY = pathlib.Path('/tmp/.gk').read_text().strip()
-EP = 'https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key=' + KEY
-
 EM_DASH = '—'
 
 def call(prompt, model='gemini-3.1-pro-preview', temp=0.55, tries=4, max_tokens=32768, json_mode=True):
+    key = pathlib.Path('/tmp/.gk').read_text().strip()
+    if not key:
+        raise RuntimeError('/tmp/.gk is empty')
+    endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key=' + key
     body = {
         'contents': [{'parts': [{'text': prompt}]}],
         'generationConfig': {
@@ -34,7 +35,7 @@ def call(prompt, model='gemini-3.1-pro-preview', temp=0.55, tries=4, max_tokens=
     for i in range(tries):
         try:
             req = urllib.request.Request(
-                EP.format(m=model),
+                endpoint.format(m=model),
                 data=json.dumps(body).encode(),
                 headers={'Content-Type': 'application/json'},
             )

@@ -130,6 +130,10 @@ const sections = {
           <div class="grid grid-cols-1 gap-0.5 w-[280px]">
             {solutionLinks.map((l) => <a href={lp(l.href)} class="nv-mega-link">{l.label}</a>)}
           </div>
+          <a href={lp('/industries')} class="nv-mega-cta">
+            {t('mega.allIndustries')}
+            <span aria-hidden="true" class="nv-arrow">&#8594;</span>
+          </a>
         </div>
       </div>
 
@@ -162,7 +166,7 @@ const sections = {
       </div>
 
       <a href={lp('/pricing')} class:list={['nv-link', sections.pricing && 'is-current']} aria-current={sections.pricing ? 'page' : undefined}>{t('nav.pricing')}</a>
-      <a href={lp('/compare/paperandpen-vs-zoho')} class:list={['nv-link', 'nv-link-xl', sections.compare && 'is-current']} aria-current={sections.compare ? 'page' : undefined}>{t('nav.compare')}</a>
+      <a href={lp('/compare')} class:list={['nv-link', 'nv-link-xl', sections.compare && 'is-current']} aria-current={sections.compare ? 'page' : undefined}>{t('nav.compare')}</a>
     </div>
 
     {/* Right actions — language, plain-text log in, one solid pill. No divider. */}
@@ -203,7 +207,7 @@ const sections = {
     </details>
     <details class="nv-m-group">
       <summary class="nv-m-summary">{t('nav.solutions')}<svg class="nv-chevron nv-m-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg></summary>
-      <div class="flex flex-col pb-2">{solutionLinks.map((l) => <a href={lp(l.href)} class="nv-m-link">{l.label}</a>)}</div>
+      <div class="flex flex-col pb-2">{solutionLinks.map((l) => <a href={lp(l.href)} class="nv-m-link">{l.label}</a>)}<a href={lp('/industries')} class="nv-m-link nv-m-link-cta">{t('mega.allIndustries')}</a></div>
     </details>
     <details class="nv-m-group">
       <summary class="nv-m-summary">{t('nav.tools')}<svg class="nv-chevron nv-m-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg></summary>
@@ -216,7 +220,7 @@ const sections = {
     </details>
 
     <a href={lp('/pricing')} class="nv-m-row" aria-current={sections.pricing ? 'page' : undefined}>{t('nav.pricing')}</a>
-    <a href={lp('/compare/paperandpen-vs-zoho')} class="nv-m-row" aria-current={sections.compare ? 'page' : undefined}>{t('nav.compare')}</a>
+    <a href={lp('/compare')} class="nv-m-row" aria-current={sections.compare ? 'page' : undefined}>{t('nav.compare')}</a>
     <a href={lp('/login')} class="nv-m-row">{t('nav.login')}</a>
 
     {/* No rule of its own — the `Log in` row above already draws one, and a

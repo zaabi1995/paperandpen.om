@@ -25,7 +25,7 @@ const faqs = [
   { q: t('pricingFaq.q3'), a: t('pricingFaq.a3') },
 ];
 const crumbs = [{ name: t('nav.home'), url: '/' }, { name: 'FAQ', url: '/faq' }];
-const jsonld = [graph(organization(), breadcrumbList(crumbs)), graph(faqPage(faqs))];
+const jsonld = [graph(organization(), breadcrumbList(crumbs, locale)), graph(faqPage(faqs))];
 ---
 <BaseLayout
   {locale}

@@ -12,4 +12,4 @@ export async function getStaticPaths() {
 const { data, locale } = Astro.props as { data: any; locale: Locale };
 const t = useTranslations(locale);
 ---
-<MarketingPage {locale} {data} basePath="/industries" section={{ label: t('nav.solutions'), href: '/industries/trading' }} />
+<MarketingPage {locale} {data} basePath="/industries" section={{ label: t('nav.solutions'), href: '/industries' }} />

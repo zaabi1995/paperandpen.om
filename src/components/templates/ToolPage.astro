@@ -61,7 +61,7 @@ const jsonld = [
     organization(),
     webApplication({ name: data.metaTitle, description: data.metaDescription, url: SITE + path }),
     ...(data.howToSteps ? [howTo({ name: data.heroTitle, steps: data.howToSteps })] : []),
-    breadcrumbList(crumbs)
+    breadcrumbList(crumbs, locale)
   ),
 ];
 if (faqs.length) jsonld.push(graph(faqPage(faqs)));

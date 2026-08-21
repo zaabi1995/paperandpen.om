@@ -73,7 +73,7 @@ const jsonld = [
     organization(),
     softwareApplication(),
     itemList({ name: t('fi.crumb'), items: featurePages.map((f) => ({ name: f.title, url: localizePath(f.href, locale) })) }),
-    breadcrumbList(crumbs)
+    breadcrumbList(crumbs, locale)
   ),
   graph(faqPage(faqs)),
 ];

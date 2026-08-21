@@ -39,7 +39,19 @@ const baseGraph = graph(
     searchUrl: '/glossary/',
   })
 );
-const seoProps = { ...seo, jsonld: [...(seo.jsonld ?? []), baseGraph] };
+const ORGANIZATION_ID = 'https://paperandpen.om/#organization';
+const pageGraph = (seo.jsonld ?? []).map((document) => {
+  const nodes = Array.isArray(document['@graph']) ? document['@graph'] : null;
+  if (!nodes) return document;
+  return {
+    ...document,
+    '@graph': nodes.filter((node) => {
+      if (!node || typeof node !== 'object') return true;
+      return (node as Record<string, unknown>)['@id'] !== ORGANIZATION_ID;
+    }),
+  };
+});
+const seoProps = { ...seo, jsonld: [...pageGraph, baseGraph] };
 const dir = isRTL(locale) ? 'rtl' : 'ltr';
 const htmlLang = LOCALE_META[locale].htmlLang;
 const t = useTranslations(locale);

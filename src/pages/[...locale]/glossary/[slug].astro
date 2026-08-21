@@ -82,7 +82,7 @@ const jsonld = [
       termCode: d.abbr,
     }),
     techArticle({ headline: heading, description: d.metaDescription, url: localizePath(path, locale), locale: LOCALE_META[locale].htmlLang }),
-    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: localizePath(c.url, locale) })))
+    breadcrumbList(crumbs, locale)
   ),
 ];
 if (d.faqs?.length) jsonld.push(graph(faqPage(d.faqs)));

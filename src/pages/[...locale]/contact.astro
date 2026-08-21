@@ -10,7 +10,7 @@ export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
 const crumbs = [{ name: t('nav.home'), url: '/' }, { name: t('footer.contact'), url: '/contact' }];
-const jsonld = [graph(organization(), breadcrumbList(crumbs))];
+const jsonld = [graph(organization(), breadcrumbList(crumbs, locale))];
 ---
 <BaseLayout {locale} path="/contact" title={t('seo.contactTitle')} description={t('seo.contactDesc')} {jsonld}>
   <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.contact') }]} />

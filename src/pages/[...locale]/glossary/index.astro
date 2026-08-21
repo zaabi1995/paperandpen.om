@@ -55,7 +55,7 @@ const jsonld = [
       name: t('glossary.title'),
       items: terms.map((x) => ({ name: x.term, url: localizePath(`/glossary/${x.slug}`, locale) })),
     }),
-    breadcrumbList(crumbs.map((c) => ({ name: c.name, url: localizePath(c.url, locale) })))
+    breadcrumbList(crumbs, locale)
   ),
 ];
 ---
