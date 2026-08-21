@@ -233,16 +233,16 @@ const jsonld = [graph(appNode, faqPage(faqs), breadcrumbList(crumbs, locale))];
   />
 
   <section class="band band-tint band-tight">
-    <div class="container-wide grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-16">
+    <div class="container-wide grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-16">
       <div>
         <h2 class="font-display text-display-sm text-ink-500">{c.answerTitle}</h2>
         <p data-search-answer class="mt-5 text-lg leading-relaxed text-ink-500">{c.description}</p>
         <p class="mt-5 text-base leading-relaxed text-ink-500">{c.answer}</p>
       </div>
-      <dl class="grid gap-x-10 gap-y-6 sm:grid-cols-2">
+      <dl class="grid gap-10 sm:grid-cols-2">
         {c.facts.map(([term, detail]) => (
           <div class="border-t border-ink-200 pt-4">
-            <dt class="text-sm font-bold uppercase tracking-[0.11em] text-ink-500">{term}</dt>
+            <dt class="text-sm font-bold uppercase tracking-[0.12em] text-ink-500">{term}</dt>
             <dd class="mt-2 text-base leading-relaxed text-ink-500">{detail}</dd>
           </div>
         ))}
@@ -276,7 +276,7 @@ const jsonld = [graph(appNode, faqPage(faqs), breadcrumbList(crumbs, locale))];
         <h2 class="font-display text-display-sm text-ink-500">{c.modulesTitle}</h2>
         <p class="lede mt-6">{c.modulesIntro}</p>
       </div>
-      <div class="mt-12 grid gap-x-10 gap-y-8 md:grid-cols-2 lg:grid-cols-3">
+      <div class="mt-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
         {c.modules.map(([href, title, body]) => (
           <article class="border-t border-ink-200 pt-6">
             <h3 class="font-display text-2xl text-ink-500"><a href={lp(href)} class="no-underline hover:text-electric-500 hover:underline">{title}</a></h3>
@@ -292,11 +292,11 @@ const jsonld = [graph(appNode, faqPage(faqs), breadcrumbList(crumbs, locale))];
     <div class="container-narrow">
       <p class="eyebrow-ink mb-4">{c.workflowEyebrow}</p>
       <h2 class="font-display text-display-sm text-ink-500">{c.workflowTitle}</h2>
-      <ol class="mt-10 space-y-7">
+      <ol class="mt-10 space-y-6">
         {c.workflow.map(([title, body], index) => (
-          <li class="grid gap-4 border-t border-ink-300 pt-6 sm:grid-cols-[3rem_minmax(0,1fr)]">
-            <span class="font-display text-3xl text-ink-500" aria-hidden="true">{index + 1}</span>
-            <div>
+          <li class="flex gap-4 border-t border-ink-300 pt-6">
+            <span class="shrink-0 font-display text-3xl text-ink-500" aria-hidden="true">{index + 1}</span>
+            <div class="min-w-0">
               <h3 class="font-display text-xl text-ink-500">{title}</h3>
               <p class="mt-2 text-base leading-relaxed text-ink-500">{body}</p>
             </div>
@@ -307,19 +307,19 @@ const jsonld = [graph(appNode, faqPage(faqs), breadcrumbList(crumbs, locale))];
   </section>
 
   <section class="band band-peri">
-    <div class="container-wide grid gap-12 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.1fr)] lg:gap-20">
+    <div class="container-wide grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-20">
       <div>
         <p class="eyebrow-ink mb-4">{c.truthEyebrow}</p>
         <h2 class="font-display text-display-sm text-ink-500">{c.truthTitle}</h2>
         <p class="lede mt-6 text-ink-500">{c.truthBody}</p>
       </div>
       <div class="overflow-x-auto">
-        <table class="w-full min-w-[32rem] border-collapse text-start text-ink-500">
+        <table class="w-full min-w-[34rem] border-collapse text-start text-ink-500">
           <caption class="mb-5 text-start font-display text-2xl font-semibold text-ink-500">{c.decisionTitle}</caption>
           <tbody>
             {c.decisionRows.map(([criterion, check]) => (
               <tr class="border-t border-ink-500">
-                <th scope="row" class="w-[34%] py-4 pe-5 text-start align-top text-sm font-bold">{criterion}</th>
+                <th scope="row" class="py-4 pe-6 text-start align-top text-sm font-bold">{criterion}</th>
                 <td class="py-4 text-base leading-relaxed">{check}</td>
               </tr>
             ))}
