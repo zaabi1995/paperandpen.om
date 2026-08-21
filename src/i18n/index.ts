@@ -83,9 +83,13 @@ export function localizePath(path: string, locale: Locale): string {
 }
 
 /** Build the hreflang alternates (5 locales + x-default) for a given default-locale path. */
-export function getAlternates(path: string): { hreflang: string; href: string }[] {
+export function getAlternates(
+  path: string,
+  locales: readonly Locale[] = LOCALES
+): { hreflang: string; href: string }[] {
   const SITE = 'https://paperandpen.om';
-  const list = LOCALES.map((loc) => ({
+  const selected = [...new Set(locales)];
+  const list = selected.map((loc) => ({
     hreflang: LOCALE_META[loc].hreflang,
     href: SITE + localizePath(path, loc),
   }));

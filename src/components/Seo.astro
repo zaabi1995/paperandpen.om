@@ -1,5 +1,5 @@
 ---
-import { getAlternates, localizePath, LOCALE_META, type Locale } from '@/i18n';
+import { getAlternates, localizePath, LOCALES, LOCALE_META, type Locale } from '@/i18n';
 
 export interface Props {
   title: string;
@@ -12,6 +12,8 @@ export interface Props {
   jsonld?: Record<string, unknown>[];
   noindex?: boolean;
   keywords?: string;
+  /** Restrict alternates when a page has a smaller, fully translated locale set. */
+  alternateLocales?: readonly Locale[];
   /**
    * Suppress the hreflang annotation set. Used by pages that exist in one
    * language only: /terms/ and /privacy/ are English text on every locale, so
@@ -32,12 +34,14 @@ const {
   jsonld = [],
   noindex = false,
   keywords,
+  alternateLocales,
   noAlternates = false,
 } = Astro.props;
 
 const canonical = SITE + localizePath(path, locale);
 const ogImage = image.startsWith('http') ? image : SITE + image;
-const alternates = noAlternates ? [] : getAlternates(path);
+const alternates = noAlternates ? [] : getAlternates(path, alternateLocales);
+const alternateMetaLocales = alternateLocales ?? LOCALES;
 const meta = LOCALE_META[locale];
 ---
 
@@ -61,7 +65,8 @@ const meta = LOCALE_META[locale];
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:locale" content={meta.ogLocale} />
-{Object.values(LOCALE_META)
+{alternateMetaLocales
+  .map((loc) => LOCALE_META[loc])
   .filter((m) => m.ogLocale !== meta.ogLocale)
   .map((m) => <meta property="og:locale:alternate" content={m.ogLocale} />)}
 

@@ -11,6 +11,14 @@ export function localeStaticPaths() {
   }));
 }
 
+/** Pages whose factual copy has been written and reviewed in English and Arabic. */
+export function englishArabicStaticPaths() {
+  return (['en', 'ar'] as const).map((loc) => ({
+    params: { locale: loc === DEFAULT_LOCALE ? undefined : loc },
+    props: { locale: loc },
+  }));
+}
+
 /** Resolve the active locale from a `[...locale]` rest param value. */
 export function resolveLocale(param: string | undefined): Locale {
   const first = (param || '').split('/').filter(Boolean)[0];

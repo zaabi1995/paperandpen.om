@@ -16,11 +16,21 @@ DIST = pathlib.Path("dist")
 SITE = "https://paperandpen.om"
 ORG_ID = f"{SITE}/#organization"
 LOCALES = ("ar", "hi", "bn", "ur")
-EXPECTED_PAGES = 970
-EXPECTED_SITEMAP_URLS = 952
+EXPECTED_PAGES = 974
+EXPECTED_SITEMAP_URLS = 956
 EXPECTED_NOINDEX = 18
 SEARCH_UPDATED_DATE = "2026-08-21"
 PRIORITY_ARTICLES = ("what-is-a-proforma-invoice", "vat-invoicing-gcc-guide")
+INTENT_PAGE_PAIRS = {
+    "stationery": (
+        "/stationery-supplies-oman/",
+        "/ar/stationery-supplies-oman/",
+    ),
+    "erp": (
+        "/erp-software-oman/",
+        "/ar/erp-software-oman/",
+    ),
+}
 
 failures: list[str] = []
 
@@ -163,6 +173,64 @@ def check_priority_alternates(path: str, document: str, base_path: str) -> None:
     expected["x-default"] = f"{SITE}{base_path}"
     if alternates != expected:
         fail(f"{path}: priority hreflang set is not exact or reciprocal")
+
+
+def check_intent_alternates(path: str, document: str, english_path: str, arabic_path: str) -> None:
+    expected = {
+        "en": f"{SITE}{english_path}",
+        "ar": f"{SITE}{arabic_path}",
+        "x-default": f"{SITE}{english_path}",
+    }
+    if hreflang_map(document) != expected:
+        fail(f"{path}: commercial-intent hreflang set is not the exact English and Arabic pair")
+
+
+def check_intent_page(kind: str, path: str, document: str, documents: list[dict]) -> None:
+    description = description_from(document)
+    answer = search_answer_from(document)
+    if not description or answer != description:
+        fail(f"{path}: visible direct answer does not match the meta description")
+
+    canonical_url = f"{SITE}{path}"
+    entity_reference = {"@id": ORG_ID}
+    if kind == "stationery":
+        services = [node for node in walk_json(documents) if json_type(node, "Service")]
+        if len(services) != 1:
+            fail(f"{path}: expected one Service, found {len(services)}")
+        else:
+            service = services[0]
+            if service.get("description") != description:
+                fail(f"{path}: Service description does not match the visible answer")
+            if service.get("url") != canonical_url:
+                fail(f"{path}: Service URL does not match its canonical")
+            if service.get("provider") != entity_reference:
+                fail(f"{path}: Service provider must reference the canonical organization")
+            area = service.get("areaServed")
+            if not isinstance(area, dict) or area.get("@type") != "Country":
+                fail(f"{path}: Service areaServed must identify a country")
+        if any(json_type(node, "Product") for node in walk_json(documents)):
+            fail(f"{path}: quote-based stationery page must not publish Product schema")
+        if len([node for node in walk_json(documents) if json_type(node, "HowTo")]) != 1:
+            fail(f"{path}: stationery quote flow must have one HowTo")
+    elif kind == "erp":
+        applications = [
+            node for node in walk_json(documents) if json_type(node, "SoftwareApplication")
+        ]
+        if len(applications) != 1:
+            fail(f"{path}: expected one SoftwareApplication, found {len(applications)}")
+        else:
+            application = applications[0]
+            if application.get("description") != description:
+                fail(f"{path}: SoftwareApplication description does not match the visible answer")
+            if application.get("url") != canonical_url:
+                fail(f"{path}: SoftwareApplication URL does not match its canonical")
+            if application.get("publisher") != entity_reference:
+                fail(f"{path}: SoftwareApplication publisher must reference the canonical organization")
+            if application.get("provider") != entity_reference:
+                fail(f"{path}: SoftwareApplication provider must reference the canonical organization")
+
+    if len([node for node in walk_json(documents) if json_type(node, "FAQPage")]) != 1:
+        fail(f"{path}: commercial-intent page must have one FAQPage")
 
 
 def check_priority_article(path: str, document: str, documents: list[dict]) -> None:
@@ -365,6 +433,25 @@ def check_agent_index() -> None:
         fail("agent discovery index lacks a non-standard notice")
 
 
+def check_retired_shop_policy() -> None:
+    source = pathlib.Path("ops/nginx/paperandpen.om.conf")
+    if not source.is_file():
+        fail("versioned Paper & Pen nginx configuration is missing")
+        return
+    text = source.read_text(encoding="utf-8")
+    successor = "https://paperandpen.om/stationery-supplies-oman/"
+    for shop_path in ("/shop", "/shop/"):
+        pattern = rf"location\s*=\s*{re.escape(shop_path)}\s*\{{\s*return\s+301\s+{re.escape(successor)};\s*\}}"
+        if not re.search(pattern, text):
+            fail(f"nginx does not redirect exact {shop_path} to the stationery successor")
+    for retired_prefix in ("/product/", "/product-category/", "/product-tag/", "/category/"):
+        pattern = rf"location\s+\^~\s+{re.escape(retired_prefix)}\s*\{{\s*return\s+410;\s*\}}"
+        if not re.search(pattern, text):
+            fail(f"nginx no longer returns 410 for retired catalogue prefix {retired_prefix}")
+    if "\u2014" in text:
+        fail("versioned nginx configuration contains an em dash")
+
+
 if not DIST.is_dir():
     fail("dist is missing, run npm run build first")
     pages: list[pathlib.Path] = []
@@ -424,6 +511,39 @@ for locale in ("en", *LOCALES):
     else:
         check_priority_tool(calculator_path, calculator, jsonld_by_path[calculator_path])
         check_priority_alternates(calculator_path, calculator, "/tools/oman-vat-calculator/")
+
+for kind, (english_path, arabic_path) in INTENT_PAGE_PAIRS.items():
+    for path in (english_path, arabic_path):
+        document = documents_by_path.get(path, "")
+        if path not in indexable_paths:
+            fail(f"commercial-intent page is missing or not indexable: {path}")
+            continue
+        check_intent_page(kind, path, document, jsonld_by_path[path])
+        check_intent_alternates(path, document, english_path, arabic_path)
+
+for unavailable_locale in ("hi", "bn", "ur"):
+    for english_path, _ in INTENT_PAGE_PAIRS.values():
+        unavailable_path = f"/{unavailable_locale}{english_path}"
+        if unavailable_path in documents_by_path:
+            fail(f"untranslated commercial-intent page was built: {unavailable_path}")
+
+home_links = {
+    "/": internal_links(documents_by_path.get("/", "")),
+    "/ar/": internal_links(documents_by_path.get("/ar/", "")),
+}
+for english_path, arabic_path in INTENT_PAGE_PAIRS.values():
+    if english_path not in home_links["/"]:
+        fail(f"English home page does not link to {english_path}")
+    if arabic_path not in home_links["/ar/"]:
+        fail(f"Arabic home page does not link to {arabic_path}")
+
+for locale_prefix in ("", "/ar"):
+    stationery_path = f"{locale_prefix}/stationery-supplies-oman/"
+    erp_path = f"{locale_prefix}/erp-software-oman/"
+    if erp_path not in internal_links(documents_by_path.get(stationery_path, "")):
+        fail(f"{stationery_path}: visible link to the distinct ERP offer is missing")
+    if stationery_path not in internal_links(documents_by_path.get(erp_path, "")):
+        fail(f"{erp_path}: visible link to the distinct stationery offer is missing")
 
 for legal_path in ("/ur/privacy/", "/ur/terms/"):
     description = description_from(documents_by_path.get(legal_path, ""))
@@ -505,8 +625,20 @@ for relative in required_files:
     if relative not in {"sitemap-index.xml", "sitemap-0.xml"} and "\u2014" in built.read_text(encoding="utf-8"):
         fail(f"{relative}: discovery file contains an em dash")
 
+llms_path = DIST / "llms.txt"
+llms_text = llms_path.read_text(encoding="utf-8") if llms_path.is_file() else ""
+for english_path, arabic_path in INTENT_PAGE_PAIRS.values():
+    for path in (english_path, arabic_path):
+        if f"{SITE}{path}" not in llms_text:
+            fail(f"llms.txt is missing commercial-intent URL: {path}")
+if "retired product catalogue" not in llms_text:
+    fail("llms.txt does not explain that the former stationery catalogue is retired")
+if "blanket e-invoicing certification" not in llms_text:
+    fail("llms.txt does not preserve the GCC e-invoicing qualification")
+
 check_source_truth()
 check_agent_index()
+check_retired_shop_policy()
 
 print(f"pages: {len(pages)}")
 print(f"indexable: {len(indexable_paths)}")

@@ -1,0 +1,274 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
+import { localizePath, type Locale } from '@/i18n';
+import { englishArabicStaticPaths } from '@/lib/paths';
+import { graph, faqPage, howTo, breadcrumbList } from '@/lib/schema';
+
+export const getStaticPaths = englishArabicStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const lp = (path: string) => localizePath(path, locale);
+
+const COPY = {
+  en: {
+    title: 'Corporate Stationery & Office Supplies Oman | Paper & Pen',
+    description: 'Corporate stationery and office supplies for Oman businesses: writing tools, notepads, folders, organisers and branded items, quoted to order.',
+    keywords: 'stationery supplies Oman, office stationery Oman, corporate stationery Muscat, branded stationery Oman, office supplies quote Oman',
+    crumb: 'Stationery supplies in Oman',
+    eyebrow: 'Paper & Pen stationery division | Muscat, Oman',
+    h1: 'Corporate stationery and office supplies in Oman',
+    lede: 'Paper & Pen sources office essentials and branded stationery for companies in Oman. Send the item list, quantities and branding requirement, then the team confirms current options, minimum quantities and delivery terms in a written quote.',
+    primaryCta: 'Request a stationery quote',
+    secondaryCta: 'Email the item list',
+    answer: 'Corporate stationery supply is a quote-based service for businesses that need office essentials, branded items or recurring workplace supplies. Paper & Pen handles this separately from Paper & Pen ERP, so stationery buyers receive a supply quote while software buyers go to the cloud ERP pages.',
+    factsTitle: 'The quick answer',
+    facts: [
+      ['Service', 'Quote-based corporate stationery and office supplies'],
+      ['Market', 'Businesses and organisations in Oman'],
+      ['How to order', 'Send the item, quantity, delivery location and any artwork'],
+      ['Pricing', 'Confirmed per quote after stock, specification and branding review'],
+    ],
+    categoriesEyebrow: 'Supply categories',
+    categoriesTitle: 'What Paper & Pen can source',
+    categoriesIntro: 'The public catalogue does not publish live stock or prices. These are the current request categories, and the team confirms the exact brand, specification and availability before you approve an order.',
+    categories: [
+      ['Writing tools', 'Pens, pencils, markers and related day-to-day writing essentials.'],
+      ['Notepads and paper goods', 'Notepads, notebooks and paper-based office items for teams and meetings.'],
+      ['Folders and organisers', 'Document folders, filing products, desk organisers and workplace storage essentials.'],
+      ['Branded stationery', 'Selected stationery and gifting items customised with approved company artwork.'],
+    ],
+    processEyebrow: 'Quote process',
+    processTitle: 'How to order corporate stationery',
+    process: [
+      ['Send your list', 'Share the item names or photos, quantities and intended use by WhatsApp or email.'],
+      ['State the delivery location', 'Include the Oman delivery location so coverage and logistics can be confirmed.'],
+      ['Add branding details', 'For customised items, attach the logo or artwork and describe the required placement.'],
+      ['Review the written quote', 'Paper & Pen confirms available options, minimum quantities, pricing and delivery terms.'],
+      ['Approve before supply', 'Production or fulfilment begins only after the specification and quote are approved.'],
+    ],
+    distinctionEyebrow: 'One name, two offers',
+    distinctionTitle: 'Stationery supply is separate from Paper & Pen ERP',
+    distinctionBody: 'Paper and Pen Company LLC operates both a corporate stationery offering and a cloud business system. This page is for office supplies and branded stationery. The ERP page is for invoicing, inventory, accounting, HR and other software modules.',
+    distinctionLink: 'Explore Paper & Pen cloud ERP for Oman and the GCC',
+    faqTitle: 'Stationery questions, answered',
+    faqEyebrow: 'Before you request a quote',
+    faqs: [
+      ['Does Paper & Pen have an online stationery shop?', 'The former self-serve product catalogue is no longer the current ordering path. Corporate stationery orders now begin with an enquiry so stock, specification, minimum quantity and delivery terms can be confirmed before a quote is issued.'],
+      ['What stationery can I request?', 'You can request writing tools, notepads, notebooks, folders, organisers, paper goods and selected branded stationery or gifting items. Send the exact list because availability and brand options can change.'],
+      ['Can Paper & Pen customise stationery with our logo?', 'Selected stationery and gifting items can be quoted with custom branding. Feasibility, artwork requirements and minimum quantities depend on the item, so they are confirmed in the quote.'],
+      ['Do you publish prices and stock online?', 'No live stock or price claim is made on this page. Paper & Pen confirms the current option, quantity, price and delivery terms in writing for each request.'],
+      ['Is this the Paper & Pen ERP product?', 'No. The stationery supply service and Paper & Pen ERP are distinct offers from the same company. Use the cloud ERP page when you need invoicing, inventory, accounting, HR or manufacturing software.'],
+    ],
+    relatedTitle: 'Related Paper & Pen pages',
+    related: [
+      ['/erp-software-oman', 'Cloud ERP software for Oman and the GCC', 'The separate Paper & Pen business software offering.'],
+      ['/contact', 'Contact Paper & Pen', 'Send a stationery request by WhatsApp or email.'],
+      ['/features/inventory', 'Inventory management software', 'Track products, locations and reorder levels in Paper & Pen ERP.'],
+    ],
+    ctaTitle: 'Send the stationery list you need quoted',
+    ctaBody: 'Include quantities, delivery location and any branding requirement. The team will confirm current options before you commit.',
+  },
+  ar: {
+    title: 'قرطاسية ولوازم مكتبية للشركات في عُمان | Paper & Pen',
+    description: 'توريد قرطاسية ولوازم مكتبية للشركات في عُمان، من أدوات الكتابة والدفاتر والملفات إلى القرطاسية المخصصة، حسب عرض سعر واضح.',
+    keywords: 'قرطاسية عمان, لوازم مكتبية عمان, قرطاسية شركات مسقط, قرطاسية مخصصة بالشعار, عرض سعر قرطاسية',
+    crumb: 'قرطاسية ولوازم مكتبية في عُمان',
+    eyebrow: 'قسم القرطاسية في Paper & Pen | مسقط، عُمان',
+    h1: 'قرطاسية ولوازم مكتبية للشركات في عُمان',
+    lede: 'توفر Paper & Pen احتياجات المكاتب والقرطاسية المخصصة للشركات في عُمان. أرسل قائمة الأصناف والكميات ومتطلبات وضع الشعار، ثم يؤكد الفريق الخيارات المتاحة والحد الأدنى للكميات وشروط التسليم ضمن عرض سعر مكتوب.',
+    primaryCta: 'اطلب عرض سعر للقرطاسية',
+    secondaryCta: 'أرسل القائمة بالبريد',
+    answer: 'توريد قرطاسية الشركات هو خدمة قائمة على عرض سعر للمؤسسات التي تحتاج إلى لوازم مكتبية أو مواد تحمل هويتها أو توريد متكرر للمكتب. تدير Paper & Pen هذه الخدمة بصورة مستقلة عن نظام Paper & Pen ERP، لذلك يحصل مشتري القرطاسية على عرض توريد ويتوجه مشتري البرامج إلى صفحات النظام السحابي.',
+    factsTitle: 'الإجابة المختصرة',
+    facts: [
+      ['الخدمة', 'توريد قرطاسية ولوازم مكتبية للشركات حسب عرض سعر'],
+      ['السوق', 'الشركات والمؤسسات داخل عُمان'],
+      ['طريقة الطلب', 'أرسل الصنف والكمية وموقع التسليم وأي ملف للشعار'],
+      ['الأسعار', 'تؤكد في العرض بعد مراجعة المخزون والمواصفات والتخصيص'],
+    ],
+    categoriesEyebrow: 'فئات التوريد',
+    categoriesTitle: 'ما الذي يمكن أن توفره Paper & Pen؟',
+    categoriesIntro: 'لا ينشر الموقع مخزوناً أو أسعاراً مباشرة. هذه هي فئات الطلب الحالية، ويؤكد الفريق العلامة والمواصفات والتوفر الفعلي قبل اعتماد الطلب.',
+    categories: [
+      ['أدوات الكتابة', 'أقلام وأقلام رصاص وأقلام تحديد ولوازم الكتابة اليومية.'],
+      ['دفاتر ومنتجات ورقية', 'دفاتر ملاحظات ودفاتر ومنتجات ورقية للمكاتب والاجتماعات.'],
+      ['ملفات ومنظمات', 'ملفات مستندات ومنتجات حفظ ومنظمات مكتبية ولوازم ترتيب مكان العمل.'],
+      ['قرطاسية مخصصة', 'مواد قرطاسية وهدايا مختارة تخصص بهوية الشركة بعد اعتماد التصميم.'],
+    ],
+    processEyebrow: 'خطوات عرض السعر',
+    processTitle: 'كيف تطلب قرطاسية الشركات؟',
+    process: [
+      ['أرسل قائمتك', 'شارك أسماء الأصناف أو صورها والكميات والاستخدام المقصود عبر واتساب أو البريد الإلكتروني.'],
+      ['حدد موقع التسليم', 'اذكر موقع التسليم داخل عُمان حتى يؤكد الفريق نطاق الخدمة والترتيبات اللوجستية.'],
+      ['أضف تفاصيل الهوية', 'للأصناف المخصصة، أرفق الشعار أو التصميم وحدد موضع الطباعة المطلوب.'],
+      ['راجع عرض السعر المكتوب', 'تؤكد Paper & Pen الخيارات المتاحة والحد الأدنى للكميات والسعر وشروط التسليم.'],
+      ['اعتمد قبل التوريد', 'لا يبدأ الإنتاج أو التجهيز إلا بعد اعتماد المواصفات وعرض السعر.'],
+    ],
+    distinctionEyebrow: 'اسم واحد وخدمتان مختلفتان',
+    distinctionTitle: 'توريد القرطاسية منفصل عن نظام Paper & Pen ERP',
+    distinctionBody: 'تدير Paper and Pen Company LLC عرضاً لقرطاسية الشركات ونظاماً سحابياً لإدارة الأعمال. هذه الصفحة مخصصة للوازم المكتبية والقرطاسية التي تحمل هوية الشركة. صفحة ERP مخصصة للفوترة والمخزون والمحاسبة والموارد البشرية ووحدات البرامج الأخرى.',
+    distinctionLink: 'استكشف نظام Paper & Pen السحابي لعُمان والخليج',
+    faqTitle: 'إجابات عن قرطاسية الشركات',
+    faqEyebrow: 'قبل طلب عرض السعر',
+    faqs: [
+      ['هل لدى Paper & Pen متجر قرطاسية إلكتروني؟', 'كتالوج المنتجات السابق للخدمة الذاتية لم يعد مسار الطلب الحالي. تبدأ طلبات قرطاسية الشركات الآن باستفسار حتى يؤكد الفريق المخزون والمواصفات والحد الأدنى للكميات وشروط التسليم قبل إصدار العرض.'],
+      ['ما أنواع القرطاسية التي يمكنني طلبها؟', 'يمكنك طلب أدوات الكتابة والدفاتر والملفات والمنظمات والمنتجات الورقية ومواد قرطاسية أو هدايا مختارة تحمل هوية شركتك. أرسل القائمة الدقيقة لأن التوفر وخيارات العلامات قد تتغير.'],
+      ['هل يمكن تخصيص القرطاسية بشعار شركتنا؟', 'يمكن تقديم عرض لتخصيص أصناف مختارة من القرطاسية والهدايا. تعتمد إمكانية التنفيذ ومتطلبات التصميم والحد الأدنى للكميات على الصنف، لذلك تؤكد ضمن عرض السعر.'],
+      ['هل تنشرون الأسعار والمخزون مباشرة؟', 'لا تقدم هذه الصفحة ادعاءً بوجود مخزون أو سعر مباشر. تؤكد Paper & Pen الخيار المتاح والكمية والسعر وشروط التسليم كتابة لكل طلب.'],
+      ['هل هذه خدمة نظام Paper & Pen ERP؟', 'لا. توريد القرطاسية ونظام Paper & Pen ERP خدمتان منفصلتان من الشركة نفسها. استخدم صفحة النظام السحابي إذا كنت تحتاج إلى الفوترة أو المخزون أو المحاسبة أو الموارد البشرية أو التصنيع.'],
+    ],
+    relatedTitle: 'صفحات ذات صلة من Paper & Pen',
+    related: [
+      ['/erp-software-oman', 'نظام ERP سحابي لعُمان والخليج', 'عرض البرامج المنفصل من Paper & Pen لإدارة الأعمال.'],
+      ['/contact', 'تواصل مع Paper & Pen', 'أرسل طلب القرطاسية عبر واتساب أو البريد الإلكتروني.'],
+      ['/features/inventory', 'برنامج إدارة المخزون', 'تتبع المنتجات والمواقع وحدود إعادة الطلب في نظام Paper & Pen ERP.'],
+    ],
+    ctaTitle: 'أرسل قائمة القرطاسية المطلوب تسعيرها',
+    ctaBody: 'اذكر الكميات وموقع التسليم وأي متطلبات للهوية. سيؤكد الفريق الخيارات الحالية قبل التزامك بالطلب.',
+  },
+} as const;
+
+const c = COPY[locale === 'ar' ? 'ar' : 'en'];
+const faqs = c.faqs.map(([q, a]) => ({ q, a }));
+const steps = c.process.map(([name, text]) => ({ name, text }));
+const pagePath = '/stationery-supplies-oman';
+const pageUrl = `https://paperandpen.om${lp(pagePath)}`;
+const serviceNode = {
+  '@type': 'Service',
+  '@id': `${pageUrl}#service`,
+  name: c.h1,
+  description: c.description,
+  serviceType: locale === 'ar' ? 'توريد قرطاسية ولوازم مكتبية للشركات' : 'Corporate stationery and office supplies',
+  url: pageUrl,
+  provider: { '@id': 'https://paperandpen.om/#organization' },
+  areaServed: { '@type': 'Country', name: locale === 'ar' ? 'عُمان' : 'Oman' },
+  availableChannel: {
+    '@type': 'ServiceChannel',
+    serviceUrl: pageUrl,
+    servicePhone: {
+      '@type': 'ContactPoint',
+      contactType: 'sales',
+      telephone: '+96898899100',
+    },
+  },
+};
+const crumbs = [
+  { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: '/' },
+  { name: c.crumb, url: pagePath },
+];
+const jsonld = [graph(serviceNode, howTo({ name: c.processTitle, steps }), faqPage(faqs), breadcrumbList(crumbs, locale))];
+---
+
+<BaseLayout
+  {locale}
+  path={pagePath}
+  title={c.title}
+  description={c.description}
+  keywords={c.keywords}
+  alternateLocales={['en', 'ar']}
+  {jsonld}
+>
+  <Breadcrumbs {locale} crumbs={[{ name: locale === 'ar' ? 'الرئيسية' : 'Home', href: '/' }, { name: c.crumb }]} />
+
+  <section class="band band-paper !pt-10 md:!pt-16">
+    <div class="container-wide grid items-center gap-12 lg:grid-cols-[minmax(0,1.15fr)_minmax(18rem,.85fr)] lg:gap-20">
+      <div>
+        <p class="eyebrow mb-5">{c.eyebrow}</p>
+        <h1 class="font-display text-display-lg text-ink-500">{c.h1}</h1>
+        <p class="lede mt-7 max-w-[66ch]">{c.lede}</p>
+        <div class="mt-9 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+          <a
+            href="https://api.whatsapp.com/send?phone=96898899100"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary btn-lg"
+          >{c.primaryCta}</a>
+          <a href="mailto:info@paperandpen.om" class="font-semibold text-ink-500 underline decoration-2 underline-offset-4 hover:text-electric-500">{c.secondaryCta}</a>
+        </div>
+      </div>
+      <aside class="rounded-card border border-ink-200 bg-white p-7 lg:p-9" aria-labelledby="stationery-answer-title">
+        <h2 id="stationery-answer-title" class="font-display text-2xl text-ink-500">{c.factsTitle}</h2>
+        <p data-search-answer class="mt-5 text-base leading-relaxed text-ink-500">{c.description}</p>
+        <p class="mt-4 text-base leading-relaxed text-ink-500">{c.answer}</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="band band-tint band-tight">
+    <div class="container-wide">
+      <h2 class="font-display text-display-sm text-ink-500">{c.factsTitle}</h2>
+      <dl class="mt-9 grid gap-x-12 gap-y-7 md:grid-cols-2">
+        {c.facts.map(([term, detail]) => (
+          <div class="border-t border-ink-200 pt-4">
+            <dt class="text-sm font-bold uppercase tracking-[0.12em] text-ink-500">{term}</dt>
+            <dd class="mt-2 text-base leading-relaxed text-ink-500">{detail}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <section class="band band-surface">
+    <div class="container-wide">
+      <div class="max-w-3xl">
+        <p class="eyebrow mb-4">{c.categoriesEyebrow}</p>
+        <h2 class="font-display text-display-sm text-ink-500">{c.categoriesTitle}</h2>
+        <p class="lede mt-6">{c.categoriesIntro}</p>
+      </div>
+      <div class="mt-12 grid gap-8 md:grid-cols-2">
+        {c.categories.map(([title, body], index) => (
+          <article class="border-t border-ink-200 pt-6">
+            <p class="font-display text-4xl text-violet-600" aria-hidden="true">{String(index + 1).padStart(2, '0')}</p>
+            <h3 class="mt-4 font-display text-2xl text-ink-500">{title}</h3>
+            <p class="mt-3 max-w-[58ch] text-base leading-relaxed text-ink-500">{body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-sky">
+    <div class="container-narrow">
+      <p class="eyebrow-ink mb-4">{c.processEyebrow}</p>
+      <h2 class="font-display text-display-sm text-ink-500">{c.processTitle}</h2>
+      <ol class="mt-10 space-y-7">
+        {c.process.map(([title, body], index) => (
+          <li class="grid gap-4 border-t border-ink-300 pt-6 sm:grid-cols-[3rem_minmax(0,1fr)]">
+            <span class="font-display text-3xl text-ink-500" aria-hidden="true">{index + 1}</span>
+            <div>
+              <h3 class="font-display text-xl text-ink-500">{title}</h3>
+              <p class="mt-2 text-base leading-relaxed text-ink-500">{body}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="band band-peri band-tight">
+    <div class="container-narrow">
+      <p class="eyebrow-ink mb-4">{c.distinctionEyebrow}</p>
+      <h2 class="font-display text-display-sm text-ink-500">{c.distinctionTitle}</h2>
+      <p class="lede mt-6 text-ink-500">{c.distinctionBody}</p>
+      <a href={lp('/erp-software-oman')} class="mt-7 inline-flex font-bold text-ink-500 underline decoration-2 underline-offset-4 hover:text-electric-600">{c.distinctionLink}</a>
+    </div>
+  </section>
+
+  <FaqAccordion title={c.faqTitle} eyebrow={c.faqEyebrow} faqs={faqs} bg="white" />
+  <RelatedLinks {locale} title={c.relatedTitle} links={c.related.map(([href, title, desc]) => ({ href, title, desc }))} />
+
+  <section class="band bg-ink-500 text-cream-50">
+    <div class="container-narrow text-center">
+      <h2 class="font-display text-display-sm text-cream-50">{c.ctaTitle}</h2>
+      <p class="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-cream-50">{c.ctaBody}</p>
+      <a
+        href="https://api.whatsapp.com/send?phone=96898899100"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-oninverse btn-lg mt-8"
+      >{c.primaryCta}</a>
+    </div>
+  </section>
+</BaseLayout>

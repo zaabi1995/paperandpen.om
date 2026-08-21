@@ -1,0 +1,344 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import PageHero from '@/components/blocks/PageHero.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { localizePath, type Locale } from '@/i18n';
+import { englishArabicStaticPaths } from '@/lib/paths';
+import { graph, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
+
+export const getStaticPaths = englishArabicStaticPaths;
+const { locale } = Astro.props as { locale: Locale };
+const lp = (path: string) => localizePath(path, locale);
+
+const COPY = {
+  en: {
+    title: 'Cloud ERP Software for Oman & GCC | Paper & Pen',
+    description: 'Cloud ERP software for Oman and GCC businesses: invoicing, inventory, accounting, HR and manufacturing with Arabic RTL and multi-currency billing.',
+    keywords: 'ERP software Oman, cloud ERP GCC, Arabic ERP software, inventory management software Oman, HR payroll software Oman, accounting software GCC',
+    crumb: 'ERP software for Oman and the GCC',
+    eyebrow: 'Cloud business software built in Oman',
+    h1: 'Cloud ERP software for Oman and the GCC',
+    lede: 'Run invoicing, sales, inventory, accounting, HR, payroll, manufacturing and reporting from one browser-based workspace. Paper & Pen supports Arabic RTL, five interface languages and billing in any currency.',
+    primaryCta: 'Start with free invoicing',
+    secondaryCta: 'Review pricing',
+    answerTitle: 'What is Paper & Pen ERP?',
+    answer: 'Paper & Pen ERP is a multi-tenant cloud business system built in Oman for small and mid-sized companies. Each business works from its own web workspace and can begin with Sales and Invoicing, then add inventory, accounting, HR, manufacturing and reporting modules as needed.',
+    facts: [
+      ['Delivery', 'Browser-based cloud workspace'],
+      ['Core offer', 'Sales and Invoicing free forever for up to 3 users'],
+      ['Languages', 'English, Arabic, Hindi, Bengali and Urdu'],
+      ['RTL', 'Arabic and Urdu interfaces'],
+      ['Currencies', 'Any billing currency, including OMR, AED and SAR'],
+      ['Tax setup', 'Configurable tax rates by workspace'],
+    ],
+    definitionEyebrow: 'Direct definition',
+    definitionTitle: 'A GCC cloud ERP keeps core business records in one system',
+    definitionBody: 'Cloud ERP software connects sales, invoices, stock, finance, employees and operations in a shared online system instead of separate spreadsheets and disconnected apps. For an Oman or GCC business, the useful difference is not a generic regional label. It is whether the product supports the language, currency and workflow the team actually uses.',
+    fitTitle: 'Paper & Pen is designed around those practical requirements',
+    fitItems: [
+      'Arabic RTL and Urdu RTL are available alongside English, Hindi and Bengali.',
+      'Invoices can be issued in any currency, including OMR, AED and SAR.',
+      'Tax rates are configured by the business rather than hard-coded as one rate for every GCC country.',
+      'The application runs in the browser, with a separate workspace address for each business.',
+      'Sales and Invoicing can be used first, while paid modules are added when the workflow needs them.',
+    ],
+    modulesEyebrow: 'Module map',
+    modulesTitle: 'Choose the ERP capability your business needs',
+    modulesIntro: 'These pages describe the live product areas in detail. Paper & Pen does not present every module as free, so check the pricing page before enabling paid modules.',
+    modules: [
+      ['/features/invoicing', 'Invoicing and billing', 'Create quotes and invoices, record payments and follow outstanding balances.'],
+      ['/features/inventory', 'Inventory management', 'Track products, locations, stock movement and reorder levels.'],
+      ['/features/accounting', 'Accounting and bookkeeping', 'Use a double-entry ledger, bank reconciliation and financial reporting workflows.'],
+      ['/features/hr-payroll', 'HR and payroll', 'Manage employee records, attendance, leave and payroll workflows.'],
+      ['/features/manufacturing', 'Manufacturing', 'Work with bills of materials, work orders and production planning.'],
+      ['/features/reports', 'Reports and analytics', 'Review profit and loss, cash flow, receivables and operating dashboards.'],
+    ],
+    workflowEyebrow: 'Adoption path',
+    workflowTitle: 'How a business starts with Paper & Pen',
+    workflow: [
+      ['Create a workspace', 'Choose the business workspace name and create the account without entering a card for the free core.'],
+      ['Set company details', 'Add the business identity, currency, language and tax settings used on documents.'],
+      ['Start with sales documents', 'Create customers, quotations, invoices and payment records in the free Sales and Invoicing module.'],
+      ['Add operational modules', 'Enable inventory, accounting, HR, manufacturing or reports when those workflows are required.'],
+      ['Validate local requirements', 'Before relying on any system for statutory filing or mandated e-invoicing, confirm the current authority format and integration requirement for the relevant country.'],
+    ],
+    truthEyebrow: 'Regional fit, stated precisely',
+    truthTitle: 'GCC-ready does not mean one tax or legal rule for six countries',
+    truthBody: 'Paper & Pen supports Arabic interfaces, GCC currencies and configurable tax rates. It does not claim that one VAT setting automatically satisfies every current filing, payroll or e-invoicing rule across Oman, the UAE, Saudi Arabia, Bahrain, Qatar and Kuwait. Confirm country-specific legal and authority requirements before implementation.',
+    decisionTitle: 'What to verify before choosing an ERP',
+    decisionRows: [
+      ['Arabic user experience', 'Test the full RTL interface with the staff who will use it.'],
+      ['Document workflow', 'Create a real quote, invoice, receipt, credit note and purchase order.'],
+      ['Inventory fit', 'Check units, locations, stock movement and reorder workflows against your operation.'],
+      ['Accounting fit', 'Review the chart of accounts, journals, bank reconciliation and reports with your accountant.'],
+      ['Local requirements', 'Confirm statutory reports, e-invoicing formats, payroll rules and integrations for your country.'],
+      ['Migration', 'List the customers, products, balances and historical documents that must move.'],
+    ],
+    distinctionEyebrow: 'Looking for office supplies?',
+    distinctionTitle: 'Paper & Pen also has a separate stationery offering',
+    distinctionBody: 'The ERP platform and the corporate stationery service are distinct offers from Paper and Pen Company LLC. Use the stationery page for writing tools, notepads, folders, organisers and branded stationery quotes in Oman.',
+    distinctionLink: 'Go to corporate stationery supplies in Oman',
+    faqTitle: 'Cloud ERP questions, answered',
+    faqEyebrow: 'Before you choose',
+    faqs: [
+      ['Is Paper & Pen an Oman ERP system?', 'Paper & Pen ERP is built in Oman by Paper and Pen Company LLC and is designed for businesses in Oman, the GCC and other markets. It runs as a browser-based cloud application.'],
+      ['Does Paper & Pen ERP support Arabic?', 'Yes. The product includes an Arabic right-to-left interface. English, Hindi, Bengali and Urdu are also available, with Urdu displayed right to left.'],
+      ['Is Paper & Pen ERP free?', 'Sales and Invoicing is free forever for up to 3 users without a credit card. Inventory, Accounting, HR, Manufacturing and Reports are paid modules, so review the current pricing page for the applicable cost.'],
+      ['Can it invoice in OMR, AED and SAR?', 'Yes. Paper & Pen supports invoices in any currency, including OMR, AED and SAR. The workspace tax rate is configurable and should be set for the jurisdiction where the business operates.'],
+      ['Is Paper & Pen certified for every GCC e-invoicing system?', 'No such blanket certification is claimed on this page. Paper & Pen creates business documents and supports configurable tax settings, but mandated e-invoicing formats and authority integrations must be confirmed for the relevant country before use.'],
+      ['Is the stationery shop part of the ERP?', 'No. Corporate stationery supply is a separate commercial offering from the same company. It has its own page and quote process.'],
+    ],
+    relatedTitle: 'Explore Paper & Pen ERP',
+    related: [
+      ['/free-invoicing-software', 'Free invoicing software', 'Start with the free Sales and Invoicing core.'],
+      ['/pricing', 'ERP pricing', 'See which modules are free and which are paid.'],
+      ['/compare', 'ERP software comparisons', 'Compare practical fit, languages, currencies and modules.'],
+      ['/stationery-supplies-oman', 'Corporate stationery in Oman', 'The separate Paper & Pen stationery supply offering.'],
+      ['/security', 'Security and data protection', 'Review tenant isolation, access control and payment handling.'],
+      ['/contact', 'Contact Paper & Pen', 'Ask about implementation, migration or product fit.'],
+    ],
+    schemaFeatures: 'Sales and invoicing; inventory management; accounting and bookkeeping; HR and payroll; manufacturing; reports and analytics; Arabic RTL; multi-currency billing',
+  },
+  ar: {
+    title: 'برنامج ERP سحابي لعُمان والخليج | Paper & Pen',
+    description: 'برنامج ERP سحابي للشركات في عُمان والخليج يجمع الفوترة والمخزون والمحاسبة والموارد البشرية والتصنيع، مع واجهة عربية وعملات متعددة.',
+    keywords: 'برنامج ERP عمان, نظام ERP سحابي الخليج, برنامج ERP عربي, برنامج إدارة المخزون عمان, برنامج موارد بشرية ورواتب عمان, برنامج محاسبة الخليج',
+    crumb: 'برنامج ERP لعُمان والخليج',
+    eyebrow: 'نظام أعمال سحابي مبني في عُمان',
+    h1: 'برنامج ERP سحابي لعُمان ودول الخليج',
+    lede: 'أدر الفوترة والمبيعات والمخزون والمحاسبة والموارد البشرية والرواتب والتصنيع والتقارير من مساحة عمل واحدة عبر المتصفح. يدعم Paper & Pen العربية من اليمين إلى اليسار وخمس لغات للواجهة والفوترة بأي عملة.',
+    primaryCta: 'ابدأ بالفوترة المجانية',
+    secondaryCta: 'راجع الأسعار',
+    answerTitle: 'ما هو نظام Paper & Pen ERP؟',
+    answer: 'Paper & Pen ERP هو نظام سحابي متعدد المستأجرين لإدارة الأعمال، مبني في عُمان للشركات الصغيرة والمتوسطة. تعمل كل شركة من مساحة ويب خاصة بها، ويمكنها البدء بالمبيعات والفوترة ثم إضافة وحدات المخزون والمحاسبة والموارد البشرية والتصنيع والتقارير عند الحاجة.',
+    facts: [
+      ['طريقة التشغيل', 'مساحة عمل سحابية عبر المتصفح'],
+      ['العرض الأساسي', 'المبيعات والفوترة مجاناً للأبد لما يصل إلى 3 مستخدمين'],
+      ['اللغات', 'الإنجليزية والعربية والهندية والبنغالية والأردية'],
+      ['من اليمين إلى اليسار', 'واجهتان بالعربية والأردية'],
+      ['العملات', 'الفوترة بأي عملة، ومنها الريال العُماني والدرهم الإماراتي والريال السعودي'],
+      ['إعداد الضريبة', 'نسب ضريبية قابلة للضبط لكل مساحة عمل'],
+    ],
+    definitionEyebrow: 'تعريف مباشر',
+    definitionTitle: 'يربط نظام ERP السحابي الخليجي سجلات العمل الأساسية في نظام واحد',
+    definitionBody: 'يربط برنامج ERP السحابي المبيعات والفواتير والمخزون والمالية والموظفين والعمليات في نظام مشترك عبر الإنترنت بدلاً من جداول منفصلة وتطبيقات غير مترابطة. بالنسبة لشركة في عُمان أو الخليج، لا تكفي عبارة عامة مثل «نظام إقليمي». المهم هو دعم اللغة والعملة وسير العمل الذي يستخدمه الفريق فعلياً.',
+    fitTitle: 'صمم Paper & Pen حول هذه المتطلبات العملية',
+    fitItems: [
+      'العربية والأردية متاحتان من اليمين إلى اليسار إلى جانب الإنجليزية والهندية والبنغالية.',
+      'يمكن إصدار الفواتير بأي عملة، بما فيها الريال العُماني والدرهم الإماراتي والريال السعودي.',
+      'تضبط الشركة نسب الضريبة بدلاً من فرض نسبة واحدة على كل دول مجلس التعاون.',
+      'يعمل التطبيق عبر المتصفح، ولكل شركة عنوان مستقل لمساحة عملها.',
+      'يمكن البدء بالمبيعات والفوترة ثم إضافة الوحدات المدفوعة عند الحاجة الفعلية.',
+    ],
+    modulesEyebrow: 'خريطة الوحدات',
+    modulesTitle: 'اختر قدرة ERP التي يحتاجها عملك',
+    modulesIntro: 'تشرح هذه الصفحات مجالات المنتج المتاحة بالتفصيل. لا تقدم Paper & Pen كل الوحدات على أنها مجانية، لذلك راجع صفحة الأسعار قبل تفعيل أي وحدة مدفوعة.',
+    modules: [
+      ['/features/invoicing', 'الفوترة والتحصيل', 'أنشئ عروض الأسعار والفواتير وسجل المدفوعات وتابع الأرصدة المستحقة.'],
+      ['/features/inventory', 'إدارة المخزون', 'تتبع المنتجات والمواقع وحركة المخزون وحدود إعادة الطلب.'],
+      ['/features/accounting', 'المحاسبة ومسك الدفاتر', 'استخدم دفتر القيد المزدوج ومطابقة البنك ومسارات التقارير المالية.'],
+      ['/features/hr-payroll', 'الموارد البشرية والرواتب', 'أدر سجلات الموظفين والحضور والإجازات ومسارات الرواتب.'],
+      ['/features/manufacturing', 'التصنيع', 'اعمل بقوائم المواد وأوامر العمل وتخطيط الإنتاج.'],
+      ['/features/reports', 'التقارير والتحليلات', 'راجع الأرباح والخسائر والتدفق النقدي والمستحقات ولوحات التشغيل.'],
+    ],
+    workflowEyebrow: 'مسار البدء',
+    workflowTitle: 'كيف تبدأ الشركة مع Paper & Pen؟',
+    workflow: [
+      ['أنشئ مساحة عمل', 'اختر اسم مساحة العمل وأنشئ الحساب من دون إدخال بطاقة للاستفادة من العرض الأساسي المجاني.'],
+      ['اضبط بيانات الشركة', 'أضف هوية الشركة والعملة واللغة وإعدادات الضريبة المستخدمة في المستندات.'],
+      ['ابدأ بمستندات المبيعات', 'أنشئ العملاء وعروض الأسعار والفواتير وسجلات المدفوعات في وحدة المبيعات والفوترة المجانية.'],
+      ['أضف وحدات التشغيل', 'فعّل المخزون أو المحاسبة أو الموارد البشرية أو التصنيع أو التقارير عندما يحتاج سير العمل إليها.'],
+      ['تحقق من المتطلبات المحلية', 'قبل الاعتماد على أي نظام للإقرار القانوني أو الفوترة الإلكترونية الإلزامية، أكد الصيغة والتكامل المطلوبين حالياً لدى الجهة المختصة في الدولة المعنية.'],
+    ],
+    truthEyebrow: 'ملاءمة إقليمية بصياغة دقيقة',
+    truthTitle: 'الملاءمة للخليج لا تعني وجود قاعدة ضريبية أو قانونية واحدة لست دول',
+    truthBody: 'يدعم Paper & Pen الواجهة العربية وعملات الخليج ونسب الضريبة القابلة للضبط. لا يدعي أن إعداد ضريبة واحداً يحقق تلقائياً كل متطلبات الإقرار أو الرواتب أو الفوترة الإلكترونية الحالية في عُمان والإمارات والسعودية والبحرين وقطر والكويت. تحقق من المتطلبات القانونية ومتطلبات الجهات المختصة في كل دولة قبل التطبيق.',
+    decisionTitle: 'ما الذي يجب التحقق منه قبل اختيار نظام ERP؟',
+    decisionRows: [
+      ['تجربة المستخدم العربية', 'اختبر الواجهة الكاملة من اليمين إلى اليسار مع الموظفين الذين سيستخدمونها.'],
+      ['دورة المستندات', 'أنشئ عرض سعر وفاتورة وإيصالاً وإشعاراً دائناً وأمر شراء حقيقياً.'],
+      ['ملاءمة المخزون', 'قارن الوحدات والمواقع وحركة المخزون وإعادة الطلب مع طريقة تشغيلك.'],
+      ['ملاءمة المحاسبة', 'راجع دليل الحسابات والقيود ومطابقة البنك والتقارير مع محاسبك.'],
+      ['المتطلبات المحلية', 'أكد التقارير القانونية وصيغ الفوترة الإلكترونية وقواعد الرواتب والتكاملات في دولتك.'],
+      ['نقل البيانات', 'حدد العملاء والمنتجات والأرصدة والمستندات التاريخية التي يجب نقلها.'],
+    ],
+    distinctionEyebrow: 'هل تبحث عن لوازم مكتبية؟',
+    distinctionTitle: 'لدى Paper & Pen أيضاً عرض منفصل لقرطاسية الشركات',
+    distinctionBody: 'نظام ERP وخدمة قرطاسية الشركات عرضان مختلفان من Paper and Pen Company LLC. استخدم صفحة القرطاسية لطلبات أدوات الكتابة والدفاتر والملفات والمنظمات والمواد التي تحمل هوية شركتك داخل عُمان.',
+    distinctionLink: 'انتقل إلى قرطاسية ولوازم الشركات في عُمان',
+    faqTitle: 'إجابات عن نظام ERP السحابي',
+    faqEyebrow: 'قبل الاختيار',
+    faqs: [
+      ['هل Paper & Pen نظام ERP عُماني؟', 'نعم. نظام Paper & Pen ERP مبني في عُمان من قِبل Paper and Pen Company LLC ومصمم للشركات في عُمان والخليج وأسواق أخرى. يعمل كتطبيق سحابي عبر المتصفح.'],
+      ['هل يدعم Paper & Pen ERP اللغة العربية؟', 'نعم. يتضمن المنتج واجهة عربية كاملة من اليمين إلى اليسار. تتوفر أيضاً الإنجليزية والهندية والبنغالية والأردية، وتعرض الأردية من اليمين إلى اليسار.'],
+      ['هل نظام Paper & Pen ERP مجاني؟', 'المبيعات والفوترة مجانية للأبد لما يصل إلى 3 مستخدمين ومن دون بطاقة ائتمان. المخزون والمحاسبة والموارد البشرية والتصنيع والتقارير وحدات مدفوعة، لذلك راجع صفحة الأسعار الحالية لمعرفة التكلفة المناسبة.'],
+      ['هل يمكن إصدار فواتير بالريال العُماني والدرهم والريال السعودي؟', 'نعم. يدعم Paper & Pen الفوترة بأي عملة، ومنها الريال العُماني والدرهم الإماراتي والريال السعودي. تضبط نسبة الضريبة في مساحة العمل وفق الدولة التي تعمل فيها الشركة.'],
+      ['هل Paper & Pen معتمد لكل أنظمة الفوترة الإلكترونية الخليجية؟', 'لا تقدم هذه الصفحة ادعاءً باعتماد شامل كهذا. ينشئ Paper & Pen مستندات الأعمال ويدعم إعدادات ضريبية قابلة للضبط، لكن يجب تأكيد صيغ الفوترة الإلكترونية الإلزامية وتكاملات الجهات المختصة لكل دولة قبل الاستخدام.'],
+      ['هل متجر القرطاسية جزء من نظام ERP؟', 'لا. توريد قرطاسية الشركات عرض تجاري منفصل من الشركة نفسها، وله صفحة خاصة ومسار مستقل لطلب عرض السعر.'],
+    ],
+    relatedTitle: 'استكشف نظام Paper & Pen ERP',
+    related: [
+      ['/free-invoicing-software', 'برنامج فوترة مجاني', 'ابدأ بوحدة المبيعات والفوترة المجانية.'],
+      ['/pricing', 'أسعار نظام ERP', 'تعرف على الوحدات المجانية والوحدات المدفوعة.'],
+      ['/compare', 'مقارنات برامج ERP', 'قارن الملاءمة العملية واللغات والعملات والوحدات.'],
+      ['/stationery-supplies-oman', 'قرطاسية الشركات في عُمان', 'عرض Paper & Pen المنفصل لتوريد القرطاسية.'],
+      ['/security', 'الأمان وحماية البيانات', 'راجع عزل المستأجرين والتحكم في الوصول ومعالجة المدفوعات.'],
+      ['/contact', 'تواصل مع Paper & Pen', 'اسأل عن التطبيق أو نقل البيانات أو ملاءمة المنتج.'],
+    ],
+    schemaFeatures: 'المبيعات والفوترة؛ إدارة المخزون؛ المحاسبة ومسك الدفاتر؛ الموارد البشرية والرواتب؛ التصنيع؛ التقارير والتحليلات؛ واجهة عربية من اليمين إلى اليسار؛ فوترة متعددة العملات',
+  },
+} as const;
+
+const c = COPY[locale === 'ar' ? 'ar' : 'en'];
+const faqs = c.faqs.map(([q, a]) => ({ q, a }));
+const pagePath = '/erp-software-oman';
+const pageUrl = `https://paperandpen.om${lp(pagePath)}`;
+const crumbs = [
+  { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: '/' },
+  { name: c.crumb, url: pagePath },
+];
+const appNode = softwareApplication({
+  description: c.description,
+  url: pageUrl,
+  inLanguage: locale,
+  featureList: c.schemaFeatures,
+  publisher: { '@id': 'https://paperandpen.om/#organization' },
+  provider: { '@id': 'https://paperandpen.om/#organization' },
+  isAccessibleForFree: true,
+  mainEntityOfPage: pageUrl,
+});
+const jsonld = [graph(appNode, faqPage(faqs), breadcrumbList(crumbs, locale))];
+---
+
+<BaseLayout
+  {locale}
+  path={pagePath}
+  title={c.title}
+  description={c.description}
+  keywords={c.keywords}
+  alternateLocales={['en', 'ar']}
+  {jsonld}
+>
+  <Breadcrumbs {locale} crumbs={[{ name: locale === 'ar' ? 'الرئيسية' : 'Home', href: '/' }, { name: c.crumb }]} />
+  <PageHero
+    {locale}
+    eyebrow={c.eyebrow}
+    title={c.h1}
+    subtitle={c.lede}
+    primaryCta={{ href: '/signup', label: c.primaryCta }}
+    secondaryCta={{ href: '/pricing', label: c.secondaryCta }}
+  />
+
+  <section class="band band-tint band-tight">
+    <div class="container-wide grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-16">
+      <div>
+        <h2 class="font-display text-display-sm text-ink-500">{c.answerTitle}</h2>
+        <p data-search-answer class="mt-5 text-lg leading-relaxed text-ink-500">{c.description}</p>
+        <p class="mt-5 text-base leading-relaxed text-ink-500">{c.answer}</p>
+      </div>
+      <dl class="grid gap-x-10 gap-y-6 sm:grid-cols-2">
+        {c.facts.map(([term, detail]) => (
+          <div class="border-t border-ink-200 pt-4">
+            <dt class="text-sm font-bold uppercase tracking-[0.11em] text-ink-500">{term}</dt>
+            <dd class="mt-2 text-base leading-relaxed text-ink-500">{detail}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <section class="band band-surface">
+    <div class="container-narrow">
+      <p class="eyebrow mb-4">{c.definitionEyebrow}</p>
+      <h2 class="font-display text-display-sm text-ink-500">{c.definitionTitle}</h2>
+      <p class="lede mt-6">{c.definitionBody}</p>
+      <h3 class="mt-10 font-display text-2xl text-ink-500">{c.fitTitle}</h3>
+      <ul class="mt-6 space-y-4">
+        {c.fitItems.map((item) => (
+          <li class="flex items-start gap-3.5 text-base leading-relaxed text-ink-500">
+            <span class="mt-1 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-violet-600 text-white" aria-hidden="true">
+              <svg class="h-3 w-3" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+            </span>
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="band band-paper">
+    <div class="container-wide">
+      <div class="max-w-3xl">
+        <p class="eyebrow mb-4">{c.modulesEyebrow}</p>
+        <h2 class="font-display text-display-sm text-ink-500">{c.modulesTitle}</h2>
+        <p class="lede mt-6">{c.modulesIntro}</p>
+      </div>
+      <div class="mt-12 grid gap-x-10 gap-y-8 md:grid-cols-2 lg:grid-cols-3">
+        {c.modules.map(([href, title, body]) => (
+          <article class="border-t border-ink-200 pt-6">
+            <h3 class="font-display text-2xl text-ink-500"><a href={lp(href)} class="no-underline hover:text-electric-500 hover:underline">{title}</a></h3>
+            <p class="mt-3 text-base leading-relaxed text-ink-500">{body}</p>
+            <a href={lp(href)} class="mt-5 inline-flex text-sm font-bold text-ink-500 underline decoration-2 underline-offset-4 hover:text-electric-500">{title}</a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-sky">
+    <div class="container-narrow">
+      <p class="eyebrow-ink mb-4">{c.workflowEyebrow}</p>
+      <h2 class="font-display text-display-sm text-ink-500">{c.workflowTitle}</h2>
+      <ol class="mt-10 space-y-7">
+        {c.workflow.map(([title, body], index) => (
+          <li class="grid gap-4 border-t border-ink-300 pt-6 sm:grid-cols-[3rem_minmax(0,1fr)]">
+            <span class="font-display text-3xl text-ink-500" aria-hidden="true">{index + 1}</span>
+            <div>
+              <h3 class="font-display text-xl text-ink-500">{title}</h3>
+              <p class="mt-2 text-base leading-relaxed text-ink-500">{body}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="band band-peri">
+    <div class="container-wide grid gap-12 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.1fr)] lg:gap-20">
+      <div>
+        <p class="eyebrow-ink mb-4">{c.truthEyebrow}</p>
+        <h2 class="font-display text-display-sm text-ink-500">{c.truthTitle}</h2>
+        <p class="lede mt-6 text-ink-500">{c.truthBody}</p>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full min-w-[32rem] border-collapse text-start text-ink-500">
+          <caption class="mb-5 text-start font-display text-2xl font-semibold text-ink-500">{c.decisionTitle}</caption>
+          <tbody>
+            {c.decisionRows.map(([criterion, check]) => (
+              <tr class="border-t border-ink-500">
+                <th scope="row" class="w-[34%] py-4 pe-5 text-start align-top text-sm font-bold">{criterion}</th>
+                <td class="py-4 text-base leading-relaxed">{check}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-tint band-tight">
+    <div class="container-narrow">
+      <p class="eyebrow mb-4">{c.distinctionEyebrow}</p>
+      <h2 class="font-display text-display-sm text-ink-500">{c.distinctionTitle}</h2>
+      <p class="lede mt-6">{c.distinctionBody}</p>
+      <a href={lp('/stationery-supplies-oman')} class="mt-7 inline-flex font-bold text-ink-500 underline decoration-2 underline-offset-4 hover:text-electric-600">{c.distinctionLink}</a>
+    </div>
+  </section>
+
+  <FaqAccordion title={c.faqTitle} eyebrow={c.faqEyebrow} faqs={faqs} bg="white" />
+  <RelatedLinks {locale} title={c.relatedTitle} links={c.related.map(([href, title, desc]) => ({ href, title, desc }))} />
+  <CtaBand {locale} />
+</BaseLayout>

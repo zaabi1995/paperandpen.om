@@ -1,6 +1,6 @@
-// Submit all site URLs to IndexNow (Bing, Yandex, Seznam) for instant indexing.
-// Usage: node scripts/indexnow.mjs
-// Reads the tracked verification key and URLs from the built output.
+// Submit sitemap canonicals to IndexNow (Bing, Yandex, Seznam).
+// Usage: node scripts/indexnow.mjs [--dry-run] [canonical URL ...]
+// With URL arguments, only those changed canonicals are submitted.
 import { readFileSync, readdirSync } from 'node:fs';
 import { basename, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -28,7 +28,35 @@ const discoveryUrls = [
   `https://${HOST}/.well-known/api-catalog`,
   `https://${HOST}/sitemap-index.xml`,
 ];
-const urls = [...new Set([...sitemapUrls, ...discoveryUrls])];
+const args = process.argv.slice(2);
+const dryRun = args.includes('--dry-run');
+const requestedUrls = args.filter((arg) => arg !== '--dry-run');
+const sitemapSet = new Set(sitemapUrls);
+for (const value of requestedUrls) {
+  let parsed;
+  try {
+    parsed = new URL(value);
+  } catch {
+    console.error(`Invalid changed canonical URL: ${value}`);
+    process.exit(1);
+  }
+  if (parsed.protocol !== 'https:' || parsed.hostname !== HOST || parsed.search || parsed.hash) {
+    console.error(`Changed canonical must be a clean https://${HOST} URL: ${value}`);
+    process.exit(1);
+  }
+  if (parsed.pathname !== '/' && !parsed.pathname.endsWith('/')) {
+    console.error(`Changed canonical must have a trailing slash: ${value}`);
+    process.exit(1);
+  }
+  if (!sitemapSet.has(value)) {
+    console.error(`Changed canonical is not present in dist/sitemap-0.xml: ${value}`);
+    process.exit(1);
+  }
+}
+const exactMode = requestedUrls.length > 0;
+const urls = exactMode
+  ? [...new Set(requestedUrls)]
+  : [...new Set([...sitemapUrls, ...discoveryUrls])];
 if (!urls.length) {
   console.error('No URLs found in dist/sitemap-0.xml. Build first.');
   process.exit(1);
@@ -41,12 +69,18 @@ const body = {
   urlList: urls,
 };
 
+if (dryRun) {
+  console.log(JSON.stringify(body, null, 2));
+  console.log(`Dry run: ${urls.length} ${exactMode ? 'changed canonical' : 'site'} URLs validated.`);
+  process.exit(0);
+}
+
 const res = await fetch('https://api.indexnow.org/indexnow', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json; charset=utf-8' },
   body: JSON.stringify(body),
 });
 
-console.log(`Submitted ${urls.length} URLs to IndexNow → HTTP ${res.status} ${res.statusText}`);
+console.log(`Submitted ${urls.length} ${exactMode ? 'changed canonical' : 'site'} URLs to IndexNow, HTTP ${res.status} ${res.statusText}`);
 // 200 = accepted, 202 = accepted (validation pending). Both are success.
 process.exit(res.status === 200 || res.status === 202 ? 0 : 1);

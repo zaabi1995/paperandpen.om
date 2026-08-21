@@ -16,6 +16,7 @@ export interface Props {
   jsonld?: Record<string, unknown>[];
   noindex?: boolean;
   keywords?: string;
+  alternateLocales?: readonly Locale[];
   noAlternates?: boolean;
   /** Hide chrome (nav/footer/sticky CTA) for bare pages like signup/login. */
   bare?: boolean;
