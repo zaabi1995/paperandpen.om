@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
-import { useTranslations, type Locale } from '@/i18n';
+import { useTranslations, localizePath, type Locale } from '@/i18n';
 import { LOCALES, DEFAULT_LOCALE } from '@/i18n';
 import { graph, organization, breadcrumbList } from '@/lib/schema';
 import MdxLink from '@/components/blocks/MdxLink.astro';
@@ -45,17 +45,61 @@ const BRAND = ' · Paper & Pen';
 const pageTitle =
   entry.data.title.length + BRAND.length <= 60 ? entry.data.title + BRAND : entry.data.title;
 const path = `/blog/${entry.data.slug}`;
+const articleUrl = `https://paperandpen.om${localizePath(path, locale)}`;
+const publishedDate = new Date(entry.data.pubDate);
+const modifiedDate = entry.data.updatedDate ? new Date(entry.data.updatedDate) : undefined;
+const answerLabels: Record<Locale, string> = {
+  en: 'Quick answer',
+  ar: 'إجابة مختصرة',
+  hi: 'संक्षिप्त उत्तर',
+  bn: 'সংক্ষিপ্ত উত্তর',
+  ur: 'مختصر جواب',
+};
+const updatedLabels: Record<Locale, string> = {
+  en: 'Updated',
+  ar: 'آخر تحديث',
+  hi: 'अपडेट',
+  bn: 'হালনাগাদ',
+  ur: 'تازہ کاری',
+};
+const dateLocales: Record<Locale, string> = {
+  en: 'en-GB',
+  ar: 'ar-OM',
+  hi: 'hi-IN',
+  bn: 'bn-BD',
+  ur: 'ur-PK',
+};
+const formattedModifiedDate = modifiedDate
+  ? new Intl.DateTimeFormat(dateLocales[locale], {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+      timeZone: 'UTC',
+    }).format(modifiedDate)
+  : undefined;
+const blogPosting: Record<string, unknown> = {
+  '@type': 'BlogPosting',
+  headline: entry.data.title,
+  description: entry.data.description,
+  datePublished: publishedDate.toISOString(),
+  author: { '@type': 'Organization', name: entry.data.author },
+};
+if (entry.data.shortAnswer) {
+  Object.assign(blogPosting, {
+    url: articleUrl,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+    inLanguage: locale,
+    isAccessibleForFree: true,
+    author: { '@id': 'https://paperandpen.om/#organization' },
+    publisher: { '@id': 'https://paperandpen.om/#organization' },
+  });
+}
+if (modifiedDate) blogPosting.dateModified = modifiedDate.toISOString();
 const jsonld = [
   graph(
     organization(),
     breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.blog'), url: '/blog' }, { name: entry.data.title, url: path }], locale),
-    {
-      '@type': 'BlogPosting',
-      headline: entry.data.title,
-      description: entry.data.description,
-      datePublished: new Date(entry.data.pubDate).toISOString(),
-      author: { '@type': 'Organization', name: entry.data.author },
-    }
+    blogPosting
   ),
 ];
 ---
@@ -64,7 +108,23 @@ const jsonld = [
   <article class="section-pad bg-white">
     <div class="max-w-2xl mx-auto">
       <h1 class="font-display text-3xl lg:text-4xl font-bold text-ink-500 leading-tight mb-4">{entry.data.title}</h1>
-      <p class="text-ink-400 text-sm mb-8">{entry.data.author}</p>
+      {modifiedDate && formattedModifiedDate ? (
+        <p class="text-ink-400 text-sm mb-8">
+          {entry.data.author}
+          <span aria-hidden="true"> · </span>
+          <span>{updatedLabels[locale]} <time datetime={modifiedDate.toISOString()}>{formattedModifiedDate}</time></span>
+        </p>
+      ) : (
+        <p class="text-ink-400 text-sm mb-8">{entry.data.author}</p>
+      )}
+      {entry.data.shortAnswer && (
+        <section class="mb-8" aria-labelledby={`quick-answer-${entry.data.slug}`}>
+          <h2 id={`quick-answer-${entry.data.slug}`} class="font-display text-xl font-bold text-ink-500 mb-2">
+            {answerLabels[locale]}
+          </h2>
+          <p data-search-answer class="text-ink-500 leading-relaxed">{entry.data.shortAnswer}</p>
+        </section>
+      )}
       <div class="prose-pp text-ink-500/80 leading-relaxed space-y-4">
         <Content components={mdxComponents} />
       </div>

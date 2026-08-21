@@ -19,6 +19,8 @@ LOCALES = ("ar", "hi", "bn", "ur")
 EXPECTED_PAGES = 970
 EXPECTED_SITEMAP_URLS = 952
 EXPECTED_NOINDEX = 18
+SEARCH_UPDATED_DATE = "2026-08-21"
+PRIORITY_ARTICLES = ("what-is-a-proforma-invoice", "vat-invoicing-gcc-guide")
 
 failures: list[str] = []
 
@@ -116,6 +118,105 @@ def title_from(document: str) -> str:
     if not match:
         return ""
     return html.unescape(re.sub(r"<[^>]+>", "", match.group(1))).strip()
+
+
+def description_from(document: str) -> str:
+    for tag in re.findall(r"<meta\b[^>]*>", document, flags=re.IGNORECASE):
+        if not re.search(r'\bname=["\']description["\']', tag, flags=re.IGNORECASE):
+            continue
+        match = re.search(r'\bcontent=(["\'])(.*?)\1', tag, flags=re.IGNORECASE | re.DOTALL)
+        if match:
+            return html.unescape(match.group(2)).strip()
+    return ""
+
+
+def search_answer_from(document: str) -> str:
+    match = re.search(
+        r'<p\b[^>]*\bdata-search-answer(?:=["\'][^"\']*["\'])?[^>]*>(.*?)</p>',
+        document,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    if not match:
+        return ""
+    return html.unescape(re.sub(r"<[^>]+>", "", match.group(1))).strip()
+
+
+def hreflang_map(document: str) -> dict[str, str]:
+    pairs = re.findall(
+        r'<link\b[^>]*\brel=["\']alternate["\'][^>]*\bhreflang=["\']([^"\']+)["\'][^>]*\bhref=["\']([^"\']+)["\']',
+        document,
+        flags=re.IGNORECASE,
+    )
+    return {language: html.unescape(url) for language, url in pairs}
+
+
+def localized_path(path: str, locale: str) -> str:
+    return path if locale == "en" else f"/{locale}{path}"
+
+
+def check_priority_alternates(path: str, document: str, base_path: str) -> None:
+    alternates = hreflang_map(document)
+    expected = {
+        locale: f"{SITE}{localized_path(base_path, locale)}"
+        for locale in ("en", *LOCALES)
+    }
+    expected["x-default"] = f"{SITE}{base_path}"
+    if alternates != expected:
+        fail(f"{path}: priority hreflang set is not exact or reciprocal")
+
+
+def check_priority_article(path: str, document: str, documents: list[dict]) -> None:
+    description = description_from(document)
+    answer = search_answer_from(document)
+    if not description or answer != description:
+        fail(f"{path}: visible short answer does not match the meta description")
+    articles = [node for node in walk_json(documents) if json_type(node, "BlogPosting")]
+    if len(articles) != 1:
+        fail(f"{path}: expected one BlogPosting, found {len(articles)}")
+        return
+    article = articles[0]
+    if article.get("description") != description:
+        fail(f"{path}: BlogPosting description does not match the visible answer")
+    if not str(article.get("dateModified", "")).startswith(SEARCH_UPDATED_DATE):
+        fail(f"{path}: BlogPosting dateModified is not {SEARCH_UPDATED_DATE}")
+    if article.get("url") != f"{SITE}{path}":
+        fail(f"{path}: BlogPosting URL does not match its canonical")
+    if article.get("inLanguage") != locale_for(path):
+        fail(f"{path}: BlogPosting inLanguage does not match the page locale")
+    entity_reference = {"@id": ORG_ID}
+    if article.get("author") != entity_reference or article.get("publisher") != entity_reference:
+        fail(f"{path}: BlogPosting author and publisher must reference the canonical organization")
+    if "/vat-invoicing-gcc-guide/" in path:
+        locale = locale_for(path)
+        required_sources = {
+            localized_path(f"/vat/{country}/", locale)
+            for country in ("oman", "uae", "saudi-arabia", "bahrain")
+        }
+        missing_sources = sorted(required_sources - internal_links(document))
+        if missing_sources:
+            fail(f"{path}: authority-backed country links are missing: {missing_sources}")
+
+
+def check_priority_tool(path: str, document: str, documents: list[dict]) -> None:
+    description = description_from(document)
+    answer = search_answer_from(document)
+    if not description or answer != description:
+        fail(f"{path}: calculator answer does not match the meta description")
+    applications = [node for node in walk_json(documents) if json_type(node, "WebApplication")]
+    if len(applications) != 1:
+        fail(f"{path}: expected one WebApplication, found {len(applications)}")
+    elif applications[0].get("description") != description:
+        fail(f"{path}: WebApplication description does not match the visible answer")
+    if len([node for node in walk_json(documents) if json_type(node, "HowTo")]) != 1:
+        fail(f"{path}: calculator must have one HowTo")
+    if len([node for node in walk_json(documents) if json_type(node, "FAQPage")]) != 1:
+        fail(f"{path}: calculator must have one FAQPage")
+    heading = re.search(r"<h1\b[^>]*>(.*?)</h1>", document, flags=re.IGNORECASE | re.DOTALL)
+    if not heading or "&lt;em" in heading.group(1).lower():
+        fail(f"{path}: tool heading exposes raw emphasis markup")
+    how_tos = [node for node in walk_json(documents) if json_type(node, "HowTo")]
+    if how_tos and "<" in str(how_tos[0].get("name", "")):
+        fail(f"{path}: HowTo name contains HTML markup")
 
 
 def check_organization(path: str, nodes: list[dict]) -> None:
@@ -296,12 +397,38 @@ for page in pages:
             fail(f"{path}: canonical lacks a trailing slash")
     if not is_noindex(document):
         indexable_paths.add(path)
+        page_title = title_from(document)
+        if locale_for(path) == "en" and len(page_title) > 60:
+            fail(f"{path}: English title is {len(page_title)} characters, expected at most 60")
     jsonld = extract_jsonld(path, document)
     jsonld_by_path[path] = jsonld
     nodes = top_level_nodes(jsonld)
     check_organization(path, nodes)
     check_applications(path, jsonld)
     check_breadcrumbs(path, jsonld)
+
+for locale in ("en", *LOCALES):
+    prefix = "" if locale == "en" else f"/{locale}"
+    for slug in PRIORITY_ARTICLES:
+        path = f"{prefix}/blog/{slug}/"
+        document = documents_by_path.get(path, "")
+        if path not in indexable_paths:
+            fail(f"priority article is missing or not indexable: {path}")
+            continue
+        check_priority_article(path, document, jsonld_by_path[path])
+        check_priority_alternates(path, document, f"/blog/{slug}/")
+    calculator_path = f"{prefix}/tools/oman-vat-calculator/"
+    calculator = documents_by_path.get(calculator_path, "")
+    if calculator_path not in indexable_paths:
+        fail(f"priority calculator is missing or not indexable: {calculator_path}")
+    else:
+        check_priority_tool(calculator_path, calculator, jsonld_by_path[calculator_path])
+        check_priority_alternates(calculator_path, calculator, "/tools/oman-vat-calculator/")
+
+for legal_path in ("/ur/privacy/", "/ur/terms/"):
+    description = description_from(documents_by_path.get(legal_path, ""))
+    if not re.search(r"[\u0600-\u06ff]", description):
+        fail(f"{legal_path}: Urdu meta description is missing Urdu text")
 
 noindex_count = len(pages) - len(indexable_paths)
 if noindex_count != EXPECTED_NOINDEX:

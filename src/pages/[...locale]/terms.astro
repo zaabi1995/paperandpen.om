@@ -9,11 +9,34 @@ import { graph, organization, breadcrumbList } from '@/lib/schema';
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
+const metaByLocale: Record<Locale, { title: string; description: string }> = {
+  en: {
+    title: 'Terms of Service · Paper & Pen',
+    description: 'The terms governing your use of Paper & Pen ERP.',
+  },
+  ar: {
+    title: 'شروط الخدمة · Paper & Pen',
+    description: 'الشروط التي تنظّم استخدامك لنظام Paper & Pen.',
+  },
+  hi: {
+    title: 'सेवा की शर्तें · Paper & Pen',
+    description: 'Paper & Pen ERP के आपके उपयोग को नियंत्रित करने वाली शर्तें।',
+  },
+  bn: {
+    title: 'সেবার শর্তাবলি · Paper & Pen',
+    description: 'Paper & Pen ERP ব্যবহারের ক্ষেত্রে প্রযোজ্য শর্তাবলি।',
+  },
+  ur: {
+    title: 'سروس کی شرائط · Paper & Pen',
+    description: 'Paper & Pen ERP کے استعمال پر لاگو شرائط۔',
+  },
+};
+const meta = metaByLocale[locale];
 const jsonld = [graph(organization(), breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.terms'), url: '/terms' }], locale))];
 ---
 <BaseLayout
   noindex={locale !== 'en'}
-  noAlternates {locale} path="/terms" title="Terms of Service · Paper & Pen" description="The terms governing your use of Paper & Pen ERP." {jsonld}>
+  noAlternates {locale} path="/terms" title={meta.title} description={meta.description} {jsonld}>
   <Breadcrumbs {locale} crumbs={[{ name: t('nav.home'), href: '/' }, { name: t('footer.terms') }]} />
   <article class="section-pad bg-white">
     <div class="max-w-3xl mx-auto legal">

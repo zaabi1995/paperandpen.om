@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "astro dev --port 5174",
     "build": "astro build",
-    "seo:check": "python3 scripts/seo_integrity.py",
-    "verify": "python3 scripts/verify.py && npm run seo:check",
+    "seo:refresh": "node scripts/refresh_search_snippets.mjs",
+    "seo:check": "python3 -B scripts/seo_integrity.py",
+    "verify": "python3 -B scripts/verify.py && npm run seo:check",
     "ci": "npm run build && npm run verify",
     "preview": "astro preview --port 4321",
     "astro": "astro"

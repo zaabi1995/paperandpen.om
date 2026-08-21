@@ -19,6 +19,7 @@ import DocumentBuilder from '@/components/islands/DocumentBuilder.tsx';
 import VatCalculator from '@/components/islands/VatCalculator.tsx';
 import { useTranslations, tRaw, localizePath, type Locale } from '@/i18n';
 import { graph, organization, webApplication, howTo, faqPage, breadcrumbList } from '@/lib/schema';
+import { labelFor } from '@/lib/links';
 
 interface Props {
   locale: Locale;
@@ -48,19 +49,19 @@ const calcStrings = {
 };
 
 const faqs = (data.faqs || []).map((f: any) => ({ q: f.q, a: f.a }));
-const related = (data.related || []).map((href: string) => {
-  const seg = href.split('/').filter(Boolean).pop() || '';
-  return { href, title: seg.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase()) };
-});
+const related = await Promise.all(
+  (data.related || []).map(async (href: string) => ({ href, title: await labelFor(href, locale, t) }))
+);
 const crumbs = [{ name: t('nav.home'), url: '/' }, { name: t('nav.tools'), url: '/tools' }, { name: data.title, url: path }];
 
 const sections = data.sections || [];
+const plainHeroTitle = String(data.heroTitle || '').replace(/<[^>]+>/g, '').trim();
 
 const jsonld = [
   graph(
     organization(),
     webApplication({ name: data.metaTitle, description: data.metaDescription, url: SITE + path }),
-    ...(data.howToSteps ? [howTo({ name: data.heroTitle, steps: data.howToSteps })] : []),
+    ...(data.howToSteps ? [howTo({ name: plainHeroTitle, steps: data.howToSteps })] : []),
     breadcrumbList(crumbs, locale)
   ),
 ];
@@ -75,8 +76,15 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
     <div class="container-wide">
       <div class="mx-auto mb-12 max-w-4xl text-center md:mb-16">
         {data.heroEyebrow && <p class="eyebrow mb-5">{data.heroEyebrow}</p>}
-        <h1 class="font-display text-display text-ink-500">{data.heroTitle}</h1>
-        {data.heroSubtitle && <p class="lede mx-auto mt-6">{data.heroSubtitle}</p>}
+        <h1 class="font-display text-display text-ink-500"><Fragment set:html={data.heroTitle} /></h1>
+        {data.heroSubtitle && (
+          <p
+            class="lede mx-auto mt-6"
+            data-search-answer={data.heroSubtitle === data.metaDescription ? 'true' : undefined}
+          >
+            {data.heroSubtitle}
+          </p>
+        )}
       </div>
       {isCalc ? (
         <VatCalculator client:load strings={calcStrings} />

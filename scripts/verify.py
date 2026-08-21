@@ -85,7 +85,7 @@ for f, h in DOC.items():
     if tv and len(tv) > 60: long_t.append((len(tv), REL[f]))
     if dv and len(dv) > 155: long_d.append((len(dv), REL[f]))
 if no_canon: fails.append(f'{len(no_canon)} pages with no canonical: {no_canon[:5]}')
-if long_t: warns.append(f'{len(long_t)} EN titles over 60: {sorted(long_t, reverse=True)[:5]}')
+if long_t: fails.append(f'{len(long_t)} EN titles over 60: {sorted(long_t, reverse=True)[:8]}')
 if long_d: warns.append(f'{len(long_d)} EN descriptions over 155: {sorted(long_d, reverse=True)[:5]}')
 
 # ------------------------------------- 4. no indexable locale may render English
