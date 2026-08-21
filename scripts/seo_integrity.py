@@ -21,6 +21,10 @@ EXPECTED_SITEMAP_URLS = 956
 EXPECTED_NOINDEX = 18
 SEARCH_UPDATED_DATE = "2026-08-21"
 PRIORITY_ARTICLES = ("what-is-a-proforma-invoice", "vat-invoicing-gcc-guide")
+PROFORMA_ANSWER_PATHS = {
+    "/blog/what-is-a-proforma-invoice/",
+    "/ar/blog/what-is-a-proforma-invoice/",
+}
 INTENT_PAGE_PAIRS = {
     "stationery": (
         "/stationery-supplies-oman/",
@@ -245,8 +249,9 @@ def check_priority_article(path: str, document: str, documents: list[dict]) -> N
     article = articles[0]
     if article.get("description") != description:
         fail(f"{path}: BlogPosting description does not match the visible answer")
-    if not str(article.get("dateModified", "")).startswith(SEARCH_UPDATED_DATE):
-        fail(f"{path}: BlogPosting dateModified is not {SEARCH_UPDATED_DATE}")
+    expected_updated = "2026-08-22" if path in PROFORMA_ANSWER_PATHS else SEARCH_UPDATED_DATE
+    if not str(article.get("dateModified", "")).startswith(expected_updated):
+        fail(f"{path}: BlogPosting dateModified is not {expected_updated}")
     if article.get("url") != f"{SITE}{path}":
         fail(f"{path}: BlogPosting URL does not match its canonical")
     if article.get("inLanguage") != locale_for(path):
@@ -254,6 +259,77 @@ def check_priority_article(path: str, document: str, documents: list[dict]) -> N
     entity_reference = {"@id": ORG_ID}
     if article.get("author") != entity_reference or article.get("publisher") != entity_reference:
         fail(f"{path}: BlogPosting author and publisher must reference the canonical organization")
+    if path in PROFORMA_ANSWER_PATHS:
+        canonical = f"{SITE}{path}"
+        article_id = f"{canonical}#article"
+        faq_id = f"{canonical}#faq"
+        howto_id = f"{canonical}#howto"
+        if article.get("@id") != article_id:
+            fail(f"{path}: BlogPosting does not use its canonical article ID")
+        expected_about = {
+            "@id": f"{SITE}{localized_path('/glossary/proforma-invoice/', locale_for(path))}#term"
+        }
+        if article.get("about") != expected_about:
+            fail(f"{path}: BlogPosting does not reference the localized proforma term")
+        citations = article.get("citation")
+        citation_urls = {
+            item.get("url")
+            for item in citations or []
+            if isinstance(item, dict)
+        }
+        expected_citations = {
+            "https://www.trade.gov/pro-forma-invoice",
+            "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518",
+        }
+        if citation_urls != expected_citations:
+            fail(f"{path}: BlogPosting primary citations are not exact")
+
+        top_nodes = top_level_nodes(documents)
+        pages = [node for node in top_nodes if json_type(node, "WebPage") and node.get("@id") == canonical]
+        if len(pages) != 1:
+            fail(f"{path}: expected one canonical WebPage, found {len(pages)}")
+        else:
+            page = pages[0]
+            if page.get("mainEntity") != {"@id": article_id}:
+                fail(f"{path}: WebPage mainEntity does not reference the BlogPosting")
+            if page.get("isPartOf") != {"@id": f"{SITE}/#website"}:
+                fail(f"{path}: WebPage isPartOf does not reference the canonical WebSite")
+            speakable = page.get("speakable")
+            if not isinstance(speakable, dict) or speakable.get("cssSelector") != [
+                "[data-search-answer]",
+                "[data-key-takeaways]",
+            ]:
+                fail(f"{path}: WebPage speakable selectors are not exact")
+            if page.get("hasPart") != [{"@id": howto_id}, {"@id": faq_id}]:
+                fail(f"{path}: WebPage hasPart does not connect the HowTo and FAQ")
+
+        how_tos = [node for node in top_nodes if json_type(node, "HowTo")]
+        if len(how_tos) != 1:
+            fail(f"{path}: expected one proforma HowTo, found {len(how_tos)}")
+        elif how_tos[0].get("@id") != howto_id or len(how_tos[0].get("step", [])) != 6:
+            fail(f"{path}: proforma HowTo ID or six-step sequence is wrong")
+
+        faq_pages = [node for node in top_nodes if json_type(node, "FAQPage")]
+        if len(faq_pages) != 1:
+            fail(f"{path}: expected one proforma FAQPage, found {len(faq_pages)}")
+        elif faq_pages[0].get("@id") != faq_id or len(faq_pages[0].get("mainEntity", [])) != 5:
+            fail(f"{path}: proforma FAQPage ID or five-question set is wrong")
+
+        for marker in ("data-key-takeaways", "data-answer-comparison", "data-answer-howto", "data-answer-sources"):
+            if marker not in document:
+                fail(f"{path}: visible extractable block is missing {marker}")
+        if "<table" not in document:
+            fail(f"{path}: visible comparison table is missing")
+        locale = locale_for(path)
+        required_links = {
+            localized_path("/vat/oman/", locale),
+            localized_path("/tools/free-proforma-invoice-generator/", locale),
+            localized_path("/invoicing/proforma-invoices/", locale),
+            localized_path("/blog/quotation-vs-estimate-vs-proforma-invoice/", locale),
+        }
+        missing_links = sorted(required_links - internal_links(document))
+        if missing_links:
+            fail(f"{path}: proforma answer internal links are missing: {missing_links}")
     if "/vat-invoicing-gcc-guide/" in path:
         locale = locale_for(path)
         required_sources = {
@@ -545,6 +621,16 @@ for locale_prefix in ("", "/ar"):
     if stationery_path not in internal_links(documents_by_path.get(erp_path, "")):
         fail(f"{erp_path}: visible link to the distinct stationery offer is missing")
 
+for locale in ("en", "ar"):
+    target = localized_path("/blog/what-is-a-proforma-invoice/", locale)
+    inbound_sources = (
+        localized_path("/tools/free-proforma-invoice-generator/", locale),
+        localized_path("/invoicing/proforma-invoices/", locale),
+    )
+    for source in inbound_sources:
+        if target not in internal_links(documents_by_path.get(source, "")):
+            fail(f"{source}: contextual link to the canonical proforma answer is missing")
+
 for legal_path in ("/ur/privacy/", "/ur/terms/"):
     description = description_from(documents_by_path.get(legal_path, ""))
     if not re.search(r"[\u0600-\u06ff]", description):
@@ -563,6 +649,15 @@ else:
     sitemap_urls = set(html.unescape(value) for value in re.findall(r"<loc>(.*?)</loc>", sitemap_text))
     if len(sitemap_urls) != EXPECTED_SITEMAP_URLS:
         fail(f"expected {EXPECTED_SITEMAP_URLS} sitemap URLs, found {len(sitemap_urls)}")
+    for answer_path in sorted(PROFORMA_ANSWER_PATHS):
+        answer_url = f"{SITE}{answer_path}"
+        block = re.search(
+            rf"<url>.*?<loc>{re.escape(answer_url)}</loc>.*?</url>",
+            sitemap_text,
+            flags=re.DOTALL,
+        )
+        if not block or not re.search(r"<lastmod>2026-08-22", block.group(0)):
+            fail(f"{answer_path}: sitemap lastmod is not 2026-08-22")
 
 indexable_canonicals = {
     canonical_by_path[path]
@@ -635,6 +730,11 @@ if "retired product catalogue" not in llms_text:
     fail("llms.txt does not explain that the former stationery catalogue is retired")
 if "blanket e-invoicing certification" not in llms_text:
     fail("llms.txt does not preserve the GCC e-invoicing qualification")
+for answer_path in sorted(PROFORMA_ANSWER_PATHS):
+    if f"{SITE}{answer_path}" not in llms_text:
+        fail(f"llms.txt is missing proforma answer URL: {answer_path}")
+if "A proforma invoice is a proposed sale in invoice format, not the final tax invoice" not in llms_text:
+    fail("llms.txt is missing the qualified proforma definition")
 
 check_source_truth()
 check_agent_index()

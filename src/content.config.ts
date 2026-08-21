@@ -3,6 +3,18 @@ import { glob } from 'astro/loaders';
 
 // Reusable sub-schemas
 const faq = z.object({ q: z.string(), a: z.string() });
+const articleStep = z.object({ name: z.string(), text: z.string() });
+const articleSource = z.object({
+  name: z.string(),
+  publisher: z.string(),
+  year: z.string(),
+  url: z.string().url(),
+});
+const articleComparison = z.object({
+  title: z.string(),
+  columns: z.array(z.string()).min(2),
+  rows: z.array(z.object({ label: z.string(), values: z.array(z.string()).min(2) })).min(1),
+});
 const feature = z.object({
   icon: z.string().default('check'),
   title: z.string(),
@@ -134,6 +146,11 @@ const blog = defineCollection({
     author: z.string().default('Paper & Pen'),
     image: z.string().optional(),
     tags: z.array(z.string()).default([]),
+    keyTakeaways: z.array(z.string()).min(3).max(7).optional(),
+    comparison: articleComparison.optional(),
+    howTo: z.object({ name: z.string(), steps: z.array(articleStep).min(3).max(10) }).optional(),
+    faqs: z.array(faq).min(3).max(10).optional(),
+    sources: z.array(articleSource).min(1).optional(),
   }),
 });
 

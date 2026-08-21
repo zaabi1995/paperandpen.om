@@ -9,12 +9,14 @@ const articles = {
     en: {
       title: 'What Is a Proforma Invoice? Meaning, Uses and Example',
       description:
-        'A proforma invoice is a preliminary sales document sent before delivery. Learn its purpose, what it includes, and how it differs from a tax invoice.',
+        'A proforma invoice is a pre-sale quote in invoice format, sent before supply. See what it includes, when to use it and how it differs from a tax invoice.',
+      updatedDate: '2026-08-22',
     },
     ar: {
       title: 'ما هي الفاتورة المبدئية؟ المعنى والاستخدام والمثال',
       description:
-        'الفاتورة المبدئية مستند بيع أولي يُرسل قبل التسليم. تعرّف على غرضها وما تتضمنه والفرق بينها وبين الفاتورة الضريبية.',
+        'الفاتورة المبدئية عرض قبل البيع بصيغة فاتورة، يُرسل قبل التوريد. تعرّف على بياناتها واستخدامها والفرق بينها وبين الفاتورة الضريبية.',
+      updatedDate: '2026-08-22',
     },
     hi: {
       title: 'प्रोफॉर्मा इनवॉइस क्या है? अर्थ, उपयोग और उदाहरण',
@@ -154,7 +156,7 @@ function updateArticle(locale, slug, values) {
   frontmatter = setFrontmatterField(frontmatter, 'title', values.title, 'slug');
   frontmatter = setFrontmatterField(frontmatter, 'description', values.description, 'title');
   frontmatter = setFrontmatterField(frontmatter, 'shortAnswer', values.description, 'description');
-  frontmatter = setFrontmatterField(frontmatter, 'updatedDate', UPDATED_DATE, 'pubDate');
+  frontmatter = setFrontmatterField(frontmatter, 'updatedDate', values.updatedDate ?? UPDATED_DATE, 'pubDate');
   let next = `---\n${frontmatter}${source.slice(closing)}`;
   if (values.sourceBlock) {
     const start = '{/* search-authority-sources:start */}';

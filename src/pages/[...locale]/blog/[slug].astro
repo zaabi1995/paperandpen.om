@@ -3,9 +3,10 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
 import { useTranslations, localizePath, type Locale } from '@/i18n';
 import { LOCALES, DEFAULT_LOCALE } from '@/i18n';
-import { graph, organization, breadcrumbList } from '@/lib/schema';
+import { graph, organization, breadcrumbList, faqPage, howTo as howToSchema } from '@/lib/schema';
 import MdxLink from '@/components/blocks/MdxLink.astro';
 
 export async function getStaticPaths() {
@@ -46,8 +47,13 @@ const pageTitle =
   entry.data.title.length + BRAND.length <= 60 ? entry.data.title + BRAND : entry.data.title;
 const path = `/blog/${entry.data.slug}`;
 const articleUrl = `https://paperandpen.om${localizePath(path, locale)}`;
+const articleId = `${articleUrl}#article`;
+const faqId = `${articleUrl}#faq`;
+const howToId = `${articleUrl}#howto`;
 const publishedDate = new Date(entry.data.pubDate);
 const modifiedDate = entry.data.updatedDate ? new Date(entry.data.updatedDate) : undefined;
+const faqs = (entry.data.faqs || []).map((item: any) => ({ q: item.q, a: item.a }));
+const sources = entry.data.sources || [];
 const answerLabels: Record<Locale, string> = {
   en: 'Quick answer',
   ar: 'إجابة مختصرة',
@@ -61,6 +67,27 @@ const updatedLabels: Record<Locale, string> = {
   hi: 'अपडेट',
   bn: 'হালনাগাদ',
   ur: 'تازہ کاری',
+};
+const takeawayLabels: Record<Locale, string> = {
+  en: 'Key facts',
+  ar: 'خلاصة سريعة',
+  hi: 'मुख्य बातें',
+  bn: 'মূল তথ্য',
+  ur: 'اہم نکات',
+};
+const sourceLabels: Record<Locale, string> = {
+  en: 'Primary sources',
+  ar: 'المصادر الأصلية',
+  hi: 'प्राथमिक स्रोत',
+  bn: 'মূল উৎস',
+  ur: 'بنیادی ماخذ',
+};
+const faqLabels: Record<Locale, string> = {
+  en: 'Proforma invoice questions',
+  ar: 'أسئلة عن الفاتورة المبدئية',
+  hi: 'प्रोफॉर्मा इनवॉइस के सवाल',
+  bn: 'Proforma invoice প্রশ্ন',
+  ur: 'پروفارما انوائس کے سوالات',
 };
 const dateLocales: Record<Locale, string> = {
   en: 'en-GB',
@@ -79,6 +106,7 @@ const formattedModifiedDate = modifiedDate
   : undefined;
 const blogPosting: Record<string, unknown> = {
   '@type': 'BlogPosting',
+  '@id': articleId,
   headline: entry.data.title,
   description: entry.data.description,
   datePublished: publishedDate.toISOString(),
@@ -92,14 +120,74 @@ if (entry.data.shortAnswer) {
     isAccessibleForFree: true,
     author: { '@id': 'https://paperandpen.om/#organization' },
     publisher: { '@id': 'https://paperandpen.om/#organization' },
+    isPartOf: { '@id': articleUrl },
+    about: {
+      '@id': `https://paperandpen.om${localizePath('/glossary/proforma-invoice', locale)}#term`,
+    },
   });
 }
+if (sources.length) {
+  blogPosting.citation = sources.map((source: any) => ({
+    '@type': 'CreativeWork',
+    name: source.name,
+    url: source.url,
+    publisher: { '@type': 'Organization', name: source.publisher },
+  }));
+}
 if (modifiedDate) blogPosting.dateModified = modifiedDate.toISOString();
+const breadcrumb = breadcrumbList(
+  [{ name: t('nav.home'), url: '/' }, { name: t('footer.blog'), url: '/blog' }, { name: entry.data.title, url: path }],
+  locale
+) as Record<string, unknown>;
+breadcrumb['@id'] = `${articleUrl}#breadcrumb`;
+
+const webPage: Record<string, unknown> = {
+  '@type': 'WebPage',
+  '@id': articleUrl,
+  url: articleUrl,
+  name: entry.data.title,
+  description: entry.data.description,
+  inLanguage: locale,
+  isPartOf: { '@id': 'https://paperandpen.om/#website' },
+  breadcrumb: { '@id': `${articleUrl}#breadcrumb` },
+  mainEntity: { '@id': articleId },
+  datePublished: publishedDate.toISOString(),
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: entry.data.keyTakeaways
+      ? ['[data-search-answer]', '[data-key-takeaways]']
+      : ['[data-search-answer]'],
+  },
+};
+if (modifiedDate) webPage.dateModified = modifiedDate.toISOString();
+
+const articleNodes: Record<string, unknown>[] = [breadcrumb, webPage, blogPosting];
+const parts: { '@id': string }[] = [];
+if (entry.data.howTo) {
+  articleNodes.push({
+    ...howToSchema(entry.data.howTo),
+    '@id': howToId,
+    url: howToId,
+    inLanguage: locale,
+    isPartOf: { '@id': articleUrl },
+  });
+  parts.push({ '@id': howToId });
+}
+if (faqs.length) {
+  articleNodes.push({
+    ...faqPage(faqs),
+    '@id': faqId,
+    url: faqId,
+    inLanguage: locale,
+    isPartOf: { '@id': articleUrl },
+  });
+  parts.push({ '@id': faqId });
+}
+if (parts.length) webPage.hasPart = parts;
 const jsonld = [
   graph(
     organization(),
-    breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.blog'), url: '/blog' }, { name: entry.data.title, url: path }], locale),
-    blogPosting
+    ...articleNodes
   ),
 ];
 ---
@@ -125,11 +213,94 @@ const jsonld = [
           <p data-search-answer class="text-ink-500 leading-relaxed">{entry.data.shortAnswer}</p>
         </section>
       )}
+      {entry.data.keyTakeaways && (
+        <section
+          data-key-takeaways
+          class="mb-10 rounded-3xl border border-ink-200 bg-paper-100 p-6 sm:p-8"
+          aria-labelledby={`key-facts-${entry.data.slug}`}
+        >
+          <h2 id={`key-facts-${entry.data.slug}`} class="font-display text-xl font-bold text-ink-500">
+            {takeawayLabels[locale]}
+          </h2>
+          <ul class="mt-4 list-disc space-y-2 ps-6 text-ink-500/80">
+            {entry.data.keyTakeaways.map((item: string) => <li>{item}</li>)}
+          </ul>
+        </section>
+      )}
       <div class="prose-pp text-ink-500/80 leading-relaxed space-y-4">
         <Content components={mdxComponents} />
       </div>
+
+      {entry.data.comparison && (
+        <section data-answer-comparison class="mt-12" aria-labelledby={`comparison-${entry.data.slug}`}>
+          <h2 id={`comparison-${entry.data.slug}`} class="font-display text-2xl font-bold text-ink-500">
+            {entry.data.comparison.title}
+          </h2>
+          <div class="mt-5 overflow-x-auto rounded-2xl border border-ink-200">
+            <table class="w-full min-w-[680px] border-collapse text-start text-sm">
+              <thead class="bg-ink-500 text-white">
+                <tr>
+                  {entry.data.comparison.columns.map((column: string) => (
+                    <th scope="col" class="px-4 py-3 text-start font-semibold">{column}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {entry.data.comparison.rows.map((row: any) => (
+                  <tr class="border-t border-ink-200 align-top">
+                    <th scope="row" class="bg-paper-100 px-4 py-4 text-start font-semibold text-ink-500">{row.label}</th>
+                    {row.values.map((value: string) => <td class="px-4 py-4 text-ink-500/80">{value}</td>)}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      {entry.data.howTo && (
+        <section data-answer-howto class="mt-12" aria-labelledby={`howto-${entry.data.slug}`}>
+          <h2 id={`howto-${entry.data.slug}`} class="font-display text-2xl font-bold text-ink-500">
+            {entry.data.howTo.name}
+          </h2>
+          <ol class="mt-5 space-y-5">
+            {entry.data.howTo.steps.map((step: any, index: number) => (
+              <li class="grid grid-cols-[2rem_minmax(0,1fr)] gap-3">
+                <span class="flex h-8 w-8 items-center justify-center rounded-full bg-electric-500 font-bold text-white" aria-hidden="true">
+                  {index + 1}
+                </span>
+                <div>
+                  <h3 class="font-semibold text-ink-500">{step.name}</h3>
+                  <p class="mt-1 text-ink-500/80">{step.text}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {sources.length > 0 && (
+        <section data-answer-sources class="mt-12 border-t border-ink-200 pt-8" aria-labelledby={`sources-${entry.data.slug}`}>
+          <h2 id={`sources-${entry.data.slug}`} class="font-display text-2xl font-bold text-ink-500">
+            {sourceLabels[locale]}
+          </h2>
+          <ol class="mt-4 list-decimal space-y-3 ps-6 text-sm text-ink-500/80">
+            {sources.map((source: any) => (
+              <li>
+                <a class="font-semibold text-copper-500 underline" href={source.url} rel="noopener noreferrer" target="_blank">
+                  {source.name}
+                </a>
+                <span>{` · ${source.publisher} · ${source.year}`}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
     </div>
   </article>
+  {faqs.length > 0 && (
+    <FaqAccordion title={faqLabels[locale]} faqs={faqs} band="paper" />
+  )}
   <CtaBand {locale} />
 </BaseLayout>
 

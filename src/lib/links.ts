@@ -20,6 +20,7 @@ const COLLECTION_BASE: Record<string, string> = {
   tools: '/tools',
   templates: '/invoice-templates',
   alternatives: '/alternatives',
+  blog: '/blog',
 };
 
 let cache: Map<Locale, Map<string, string>> | null = null;

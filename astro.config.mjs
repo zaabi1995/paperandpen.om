@@ -7,6 +7,10 @@ import { HREFLANG, XDEFAULT_LOCALE } from './src/i18n/hreflang.mjs';
 
 const SITE = 'https://paperandpen.om';
 const LOCALES = ['en', 'ar', 'hi', 'bn', 'ur'];
+const PROFORMA_ANSWER_UPDATED = new Set([
+  `${SITE}/blog/what-is-a-proforma-invoice/`,
+  `${SITE}/ar/blog/what-is-a-proforma-invoice/`,
+]);
 
 // https://astro.build/config
 export default defineConfig({
@@ -48,6 +52,9 @@ export default defineConfig({
        * as getAlternates() does.
        */
       serialize(item) {
+        if (PROFORMA_ANSWER_UPDATED.has(item.url)) {
+          item.lastmod = new Date('2026-08-22T00:00:00Z');
+        }
         if (!item.links || !item.links.length) return item;
         if (item.links.some((l) => l.lang === 'x-default')) return item;
         const en = item.links.find((l) => l.lang === HREFLANG[XDEFAULT_LOCALE]);
