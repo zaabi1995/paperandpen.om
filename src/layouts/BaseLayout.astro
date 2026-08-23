@@ -4,8 +4,8 @@ import Seo from '@/components/Seo.astro';
 import Navbar from '@/components/layout/Navbar.astro';
 import Footer from '@/components/layout/Footer.astro';
 import StickyCta from '@/components/blocks/StickyCta.astro';
-import { isRTL, LOCALE_META, useTranslations, type Locale } from '@/i18n';
-import { graph, organization, webSite } from '@/lib/schema';
+import { isRTL, localizePath, LOCALES, LOCALE_META, useTranslations, type Locale } from '@/i18n';
+import { graph, organization, webPage, webSite } from '@/lib/schema';
 
 export interface Props {
   title: string;
@@ -31,15 +31,6 @@ const { locale, bare = false, ...seo } = Astro.props;
  * index, which really does answer ?q= client-side; declaring a search endpoint
  * that does not exist is worse than declaring none.
  */
-const baseGraph = graph(
-  organization(),
-  webSite({
-    name: 'Paper & Pen',
-    description: useTranslations(locale)('seo.homeDesc'),
-    locale: LOCALE_META[locale].htmlLang,
-    searchUrl: '/glossary/',
-  })
-);
 const ORGANIZATION_ID = 'https://paperandpen.om/#organization';
 const pageGraph = (seo.jsonld ?? []).map((document) => {
   const nodes = Array.isArray(document['@graph']) ? document['@graph'] : null;
@@ -52,6 +43,30 @@ const pageGraph = (seo.jsonld ?? []).map((document) => {
     }),
   };
 });
+const canonicalUrl = `https://paperandpen.om${localizePath(seo.path, locale)}`;
+const hasCanonicalPage = pageGraph.some((document) => {
+  const nodes = Array.isArray(document['@graph']) ? document['@graph'] : [document];
+  return nodes.some((node) => {
+    if (!node || typeof node !== 'object') return false;
+    const record = node as Record<string, unknown>;
+    const types = Array.isArray(record['@type']) ? record['@type'] : [record['@type']];
+    return record['@id'] === canonicalUrl && types.includes('WebPage');
+  });
+});
+const baseGraph = graph(
+  organization(),
+  webSite({ name: 'Paper & Pen', languages: LOCALES, searchUrl: '/glossary/' }),
+  ...(hasCanonicalPage
+    ? []
+    : [
+        webPage({
+          name: seo.title,
+          description: seo.description,
+          url: canonicalUrl,
+          locale: LOCALE_META[locale].htmlLang,
+        }),
+      ])
+);
 const seoProps = { ...seo, jsonld: [...pageGraph, baseGraph] };
 const dir = isRTL(locale) ? 'rtl' : 'ltr';
 const htmlLang = LOCALE_META[locale].htmlLang;

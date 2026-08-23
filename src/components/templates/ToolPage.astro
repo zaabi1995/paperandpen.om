@@ -60,7 +60,7 @@ const plainHeroTitle = String(data.heroTitle || '').replace(/<[^>]+>/g, '').trim
 const jsonld = [
   graph(
     organization(),
-    webApplication({ name: data.metaTitle, description: data.metaDescription, url: SITE + path }),
+    webApplication({ name: data.metaTitle, description: data.metaDescription, url: SITE + lp(path), locale }),
     ...(data.howToSteps ? [howTo({ name: plainHeroTitle, steps: data.howToSteps })] : []),
     breadcrumbList(crumbs, locale)
   ),

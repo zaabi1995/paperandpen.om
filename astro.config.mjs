@@ -7,10 +7,10 @@ import { HREFLANG, XDEFAULT_LOCALE } from './src/i18n/hreflang.mjs';
 
 const SITE = 'https://paperandpen.om';
 const LOCALES = ['en', 'ar', 'hi', 'bn', 'ur'];
-const PROFORMA_ANSWER_UPDATED = new Set([
-  `${SITE}/blog/what-is-a-proforma-invoice/`,
-  `${SITE}/ar/blog/what-is-a-proforma-invoice/`,
-]);
+// Every rendered page received a significant structured-data update on this
+// date. Keep this source date tied to real sitewide output changes. Google may
+// ignore lastmod values that behave like build timestamps.
+const SITEWIDE_LAST_SIGNIFICANT_UPDATE = new Date('2026-08-23T00:00:00Z');
 
 // https://astro.build/config
 export default defineConfig({
@@ -52,9 +52,7 @@ export default defineConfig({
        * as getAlternates() does.
        */
       serialize(item) {
-        if (PROFORMA_ANSWER_UPDATED.has(item.url)) {
-          item.lastmod = new Date('2026-08-22T00:00:00Z');
-        }
+        item.lastmod = SITEWIDE_LAST_SIGNIFICANT_UPDATE;
         if (!item.links || !item.links.length) return item;
         if (item.links.some((l) => l.lang === 'x-default')) return item;
         const en = item.links.find((l) => l.lang === HREFLANG[XDEFAULT_LOCALE]);

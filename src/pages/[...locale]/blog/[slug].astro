@@ -110,17 +110,17 @@ const blogPosting: Record<string, unknown> = {
   headline: entry.data.title,
   description: entry.data.description,
   datePublished: publishedDate.toISOString(),
-  author: { '@type': 'Organization', name: entry.data.author },
+  url: articleUrl,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+  inLanguage: locale,
+  isAccessibleForFree: true,
+  author: { '@id': 'https://paperandpen.om/#organization' },
+  publisher: { '@id': 'https://paperandpen.om/#organization' },
+  isPartOf: { '@id': articleUrl },
+  image: 'https://paperandpen.om/og-image.png',
 };
-if (entry.data.shortAnswer) {
+if (entry.data.slug === 'what-is-a-proforma-invoice') {
   Object.assign(blogPosting, {
-    url: articleUrl,
-    mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
-    inLanguage: locale,
-    isAccessibleForFree: true,
-    author: { '@id': 'https://paperandpen.om/#organization' },
-    publisher: { '@id': 'https://paperandpen.om/#organization' },
-    isPartOf: { '@id': articleUrl },
     about: {
       '@id': `https://paperandpen.om${localizePath('/glossary/proforma-invoice', locale)}#term`,
     },
@@ -149,9 +149,11 @@ const webPage: Record<string, unknown> = {
   description: entry.data.description,
   inLanguage: locale,
   isPartOf: { '@id': 'https://paperandpen.om/#website' },
+  publisher: { '@id': 'https://paperandpen.om/#organization' },
   breadcrumb: { '@id': `${articleUrl}#breadcrumb` },
   mainEntity: { '@id': articleId },
   datePublished: publishedDate.toISOString(),
+  primaryImageOfPage: { '@type': 'ImageObject', url: 'https://paperandpen.om/og-image.png' },
   speakable: {
     '@type': 'SpeakableSpecification',
     cssSelector: entry.data.keyTakeaways

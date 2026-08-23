@@ -19,6 +19,7 @@ LOCALES = ("ar", "hi", "bn", "ur")
 EXPECTED_PAGES = 974
 EXPECTED_SITEMAP_URLS = 956
 EXPECTED_NOINDEX = 18
+SITEMAP_LASTMOD_DATE = "2026-08-23"
 SEARCH_UPDATED_DATE = "2026-08-21"
 PRIORITY_ARTICLES = ("what-is-a-proforma-invoice", "vat-invoicing-gcc-guide")
 PROFORMA_ANSWER_PATHS = {
@@ -373,8 +374,8 @@ def check_organization(path: str, nodes: list[dict]) -> None:
         fail(f"{path}: expected one {ORG_ID} Organization definition, found {len(definitions)}")
         return
     organization = definitions[0]
-    if organization.get("url") != SITE:
-        fail(f"{path}: Organization root url must be exactly {SITE}")
+    if organization.get("url") != f"{SITE}/":
+        fail(f"{path}: Organization root url must match the canonical homepage")
     same_as = organization.get("sameAs", [])
     if isinstance(same_as, str):
         same_as = [same_as]
@@ -403,6 +404,114 @@ def check_applications(path: str, documents: list[dict]) -> None:
     for node in walk_json(documents):
         if json_type(node, "SoftwareApplication") and node.get("operatingSystem") != "Web":
             fail(f"{path}: SoftwareApplication operatingSystem must be Web")
+        if node.get("@id") == f"{SITE}/#software" and json_type(node, "SoftwareApplication"):
+            entity_reference = {"@id": ORG_ID}
+            if node.get("url") != f"{SITE}/":
+                fail(f"{path}: global SoftwareApplication URL is not the canonical homepage")
+            if node.get("publisher") != entity_reference or node.get("provider") != entity_reference:
+                fail(f"{path}: global SoftwareApplication ownership is incomplete")
+            if node.get("inLanguage") != ["en", "ar", "hi", "bn", "ur"]:
+                fail(f"{path}: global SoftwareApplication language set is not exact")
+            if node.get("isAccessibleForFree") is not True:
+                fail(f"{path}: global SoftwareApplication must state that its free offer is accessible")
+
+
+def check_site_graph(path: str, document: str, nodes: list[dict]) -> None:
+    canonical = f"{SITE}{path}"
+    website_id = f"{SITE}/#website"
+    websites = [
+        node for node in nodes
+        if node.get("@id") == website_id and json_type(node, "WebSite")
+    ]
+    if len(websites) != 1:
+        fail(f"{path}: expected one canonical WebSite, found {len(websites)}")
+    else:
+        website = websites[0]
+        if website.get("url") != f"{SITE}/":
+            fail(f"{path}: WebSite URL is not the canonical homepage")
+        if website.get("inLanguage") != ["en", "ar", "hi", "bn", "ur"]:
+            fail(f"{path}: WebSite language set is not stable across locales")
+        if website.get("publisher") != {"@id": ORG_ID}:
+            fail(f"{path}: WebSite publisher does not reference the canonical organization")
+
+    web_pages = [
+        node for node in nodes
+        if node.get("@id") == canonical and json_type(node, "WebPage")
+    ]
+    if len(web_pages) != 1:
+        fail(f"{path}: expected one canonical WebPage, found {len(web_pages)}")
+    else:
+        page = web_pages[0]
+        if page.get("url") != canonical:
+            fail(f"{path}: WebPage URL does not match its canonical")
+        if page.get("description") != description_from(document):
+            fail(f"{path}: WebPage description does not match page metadata")
+        if page.get("inLanguage") != locale_for(path):
+            fail(f"{path}: WebPage language does not match its locale")
+        if page.get("isPartOf") != {"@id": website_id}:
+            fail(f"{path}: WebPage does not reference the canonical WebSite")
+        if page.get("publisher") != {"@id": ORG_ID}:
+            fail(f"{path}: WebPage publisher does not reference the canonical organization")
+
+    identifiers = [node.get("@id") for node in nodes if isinstance(node.get("@id"), str)]
+    duplicates = sorted({identifier for identifier in identifiers if identifiers.count(identifier) > 1})
+    if duplicates:
+        fail(f"{path}: duplicate top-level schema IDs: {duplicates}")
+
+
+def check_article_graph(path: str, document: str, documents: list[dict]) -> None:
+    if "/blog/" not in path or path.endswith("/blog/"):
+        return
+    articles = [node for node in walk_json(documents) if json_type(node, "BlogPosting")]
+    if len(articles) != 1:
+        fail(f"{path}: expected one BlogPosting, found {len(articles)}")
+        return
+    article = articles[0]
+    canonical = f"{SITE}{path}"
+    entity_reference = {"@id": ORG_ID}
+    if article.get("url") != canonical:
+        fail(f"{path}: BlogPosting URL does not match its canonical")
+    if article.get("mainEntityOfPage") != {"@type": "WebPage", "@id": canonical}:
+        fail(f"{path}: BlogPosting mainEntityOfPage is not canonical")
+    if article.get("inLanguage") != locale_for(path):
+        fail(f"{path}: BlogPosting language does not match its locale")
+    if article.get("author") != entity_reference or article.get("publisher") != entity_reference:
+        fail(f"{path}: BlogPosting author and publisher are not canonical")
+    if article.get("isAccessibleForFree") is not True:
+        fail(f"{path}: BlogPosting does not state free access")
+    if article.get("isPartOf") != {"@id": canonical}:
+        fail(f"{path}: BlogPosting isPartOf does not reference its WebPage")
+    if article.get("image") != f"{SITE}/og-image.png":
+        fail(f"{path}: BlogPosting image does not match the canonical social image")
+    proforma_term = {
+        "@id": f"{SITE}{localized_path('/glossary/proforma-invoice/', locale_for(path))}#term"
+    }
+    if path.endswith("/what-is-a-proforma-invoice/"):
+        if article.get("about") != proforma_term:
+            fail(f"{path}: proforma BlogPosting does not reference its term")
+    elif article.get("about") == proforma_term:
+        fail(f"{path}: unrelated BlogPosting is incorrectly about proforma invoices")
+
+
+def check_tool_application(path: str, documents: list[dict]) -> None:
+    if "/tools/" not in path or path.endswith("/tools/"):
+        return
+    applications = [node for node in walk_json(documents) if json_type(node, "WebApplication")]
+    if len(applications) != 1:
+        fail(f"{path}: expected one WebApplication, found {len(applications)}")
+        return
+    application = applications[0]
+    canonical = f"{SITE}{path}"
+    if application.get("@id") != f"{canonical}#application":
+        fail(f"{path}: WebApplication ID is not canonical")
+    if application.get("url") != canonical:
+        fail(f"{path}: WebApplication URL does not match its canonical")
+    if application.get("inLanguage") != locale_for(path):
+        fail(f"{path}: WebApplication language does not match its locale")
+    if application.get("mainEntityOfPage") != {"@id": canonical}:
+        fail(f"{path}: WebApplication mainEntityOfPage is not canonical")
+    if application.get("provider") != {"@id": ORG_ID} or application.get("publisher") != {"@id": ORG_ID}:
+        fail(f"{path}: WebApplication ownership is not canonical")
 
 
 def check_breadcrumbs(path: str, documents: list[dict]) -> None:
@@ -526,6 +635,119 @@ def check_retired_shop_policy() -> None:
             fail(f"nginx no longer returns 410 for retired catalogue prefix {retired_prefix}")
     if "\u2014" in text:
         fail("versioned nginx configuration contains an em dash")
+    if not re.search(r"location\s*=\s*/llms\.txt\s*\{.*?charset\s+utf-8;", text, flags=re.DOTALL):
+        fail("versioned nginx configuration does not preserve UTF-8 llms.txt responses")
+
+
+def check_retired_crm_policy() -> None:
+    source = pathlib.Path("ops/nginx/crm.paperandpen.om.conf")
+    if not source.is_file():
+        fail("versioned retired CRM nginx configuration is missing")
+        return
+    text = source.read_text(encoding="utf-8")
+    if text.count("server_name crm.paperandpen.om;") != 2:
+        fail("retired CRM nginx configuration must cover HTTP and HTTPS")
+    if text.count("return 301 https://erp.paperandpen.om/;") != 2:
+        fail("retired CRM nginx configuration does not point permanently to ERP")
+    if re.search(r"return\s+503\b", text):
+        fail("retired CRM nginx configuration still advertises a temporary outage")
+    if "\u2014" in text:
+        fail("retired CRM nginx configuration contains an em dash")
+
+
+def check_deployment_wrapper() -> None:
+    source = pathlib.Path("scripts/deploy_site.sh")
+    if not source.is_file():
+        fail("tracked deployment wrapper is missing")
+        return
+    text = source.read_text(encoding="utf-8")
+    if not source.stat().st_mode & 0o111:
+        fail("tracked deployment wrapper is not executable")
+    required = (
+        'REMOTE_HOST="root@147.93.20.54"',
+        'REMOTE_ROOT="/www/wwwroot/paperandpen.om"',
+        "-azc",
+        "--dry-run",
+        "sha256sum -c .deploy-manifest.sha256",
+        "git diff --quiet",
+        "origin/main",
+    )
+    for marker in required:
+        if marker not in text:
+            fail(f"deployment wrapper is missing safety marker: {marker}")
+    if "--delete" in text:
+        fail("deployment wrapper must remain additive")
+    if "\u2014" in text:
+        fail("deployment wrapper contains an em dash")
+
+
+def check_nginx_deployment_wrapper() -> None:
+    source = pathlib.Path("scripts/deploy_nginx.sh")
+    if not source.is_file():
+        fail("tracked nginx deployment wrapper is missing")
+        return
+    text = source.read_text(encoding="utf-8")
+    if not source.stat().st_mode & 0o111:
+        fail("tracked nginx deployment wrapper is not executable")
+    required = (
+        'MODE="${1:---dry-run}"',
+        'REMOTE_APEX_CONFIG="$REMOTE_CONFIG_DIR/paperandpen.om.conf"',
+        'REMOTE_CRM_CONFIG="$REMOTE_CONFIG_DIR/crm.paperandpen.om.conf"',
+        'REMOTE_BACKUP_ROOT="$REMOTE_CONFIG_DIR/.paperandpen-backups"',
+        'REMOTE_LOCK="/run/lock/paperandpen-nginx-deploy.lock"',
+        "openssl x509 -in",
+        "-checkhost",
+        "-checkend",
+        "os.memfd_create",
+        "flock -n 9",
+        "mkdir -m 0700",
+        "install -m 0644",
+        '"$nginx_bin" -t -q',
+        '"$systemctl_bin" reload nginx',
+        "apex_rollback_pending",
+        "No reload was attempted",
+        "on_signal TERM 143",
+        "rollback",
+        "git diff --quiet",
+        "origin/main",
+    )
+    for marker in required:
+        if marker not in text:
+            fail(f"nginx deployment wrapper is missing safety marker: {marker}")
+    if "--delete" in text or "rm -rf" in text:
+        fail("nginx deployment wrapper contains a broad deletion operation")
+    if "\u2014" in text:
+        fail("nginx deployment wrapper contains an em dash")
+
+    procedure = pathlib.Path("ops/nginx/DEPLOY.md")
+    if not procedure.is_file():
+        fail("nginx production procedure is not documented")
+    elif "\u2014" in procedure.read_text(encoding="utf-8"):
+        fail("nginx production procedure contains an em dash")
+
+    rollback_test = pathlib.Path("scripts/test_deploy_nginx.sh")
+    if not rollback_test.is_file():
+        fail("nginx rollback test is missing")
+    elif not rollback_test.stat().st_mode & 0o111:
+        fail("nginx rollback test is not executable")
+    else:
+        rollback_test_text = rollback_test.read_text(encoding="utf-8")
+        for marker in ("run_success_case", "run_lock_contention_case"):
+            if marker not in rollback_test_text:
+                fail(f"nginx rollback test is missing transaction coverage: {marker}")
+        if "\u2014" in rollback_test_text:
+            fail("nginx rollback test contains an em dash")
+
+    package_source = pathlib.Path("package.json")
+    try:
+        package_scripts = json.loads(package_source.read_text(encoding="utf-8")).get("scripts", {})
+    except (OSError, json.JSONDecodeError) as error:
+        fail(f"package.json does not parse while checking nginx CI coverage: {error}")
+    else:
+        if package_scripts.get("test:nginx-deploy") != "bash scripts/test_deploy_nginx.sh":
+            fail("package.json does not expose the nginx rollback test")
+        if "npm run test:nginx-deploy" not in package_scripts.get("verify", ""):
+            fail("the nginx rollback test is not wired into the verification gate")
 
 
 if not DIST.is_dir():
@@ -568,7 +790,12 @@ for page in pages:
     nodes = top_level_nodes(jsonld)
     check_organization(path, nodes)
     check_applications(path, jsonld)
+    check_site_graph(path, document, nodes)
+    check_article_graph(path, document, jsonld)
+    check_tool_application(path, jsonld)
     check_breadcrumbs(path, jsonld)
+    if any(json_type(node, "Product") for node in walk_json(jsonld)):
+        fail(f"{path}: merchant Product schema is not valid for the current SaaS and quote-based offers")
 
 for locale in ("en", *LOCALES):
     prefix = "" if locale == "en" else f"/{locale}"
@@ -649,15 +876,23 @@ else:
     sitemap_urls = set(html.unescape(value) for value in re.findall(r"<loc>(.*?)</loc>", sitemap_text))
     if len(sitemap_urls) != EXPECTED_SITEMAP_URLS:
         fail(f"expected {EXPECTED_SITEMAP_URLS} sitemap URLs, found {len(sitemap_urls)}")
-    for answer_path in sorted(PROFORMA_ANSWER_PATHS):
-        answer_url = f"{SITE}{answer_path}"
-        block = re.search(
-            rf"<url>.*?<loc>{re.escape(answer_url)}</loc>.*?</url>",
-            sitemap_text,
-            flags=re.DOTALL,
-        )
-        if not block or not re.search(r"<lastmod>2026-08-22", block.group(0)):
-            fail(f"{answer_path}: sitemap lastmod is not 2026-08-22")
+    sitemap_blocks = re.findall(r"<url>.*?</url>", sitemap_text, flags=re.DOTALL)
+    for block in sitemap_blocks:
+        location = re.search(r"<loc>(.*?)</loc>", block, flags=re.DOTALL)
+        lastmods = re.findall(r"<lastmod>(.*?)</lastmod>", block, flags=re.DOTALL)
+        url = html.unescape(location.group(1)) if location else "unknown URL"
+        if len(lastmods) != 1:
+            fail(f"{url}: expected exactly one sitemap lastmod, found {len(lastmods)}")
+        elif not lastmods[0].startswith(SITEMAP_LASTMOD_DATE):
+            fail(f"{url}: sitemap lastmod is not the reviewed sitewide update date")
+
+    sitemap_alias = DIST / "sitemap.xml"
+    if not sitemap_alias.is_file():
+        fail("dist/sitemap.xml is missing")
+    else:
+        alias_locations = re.findall(r"<loc>(.*?)</loc>", sitemap_alias.read_text(encoding="utf-8"))
+        if alias_locations != [f"{SITE}/sitemap-0.xml"]:
+            fail("sitemap.xml must directly reference sitemap-0.xml")
 
 indexable_canonicals = {
     canonical_by_path[path]
@@ -739,6 +974,9 @@ if "A proforma invoice is a proposed sale in invoice format, not the final tax i
 check_source_truth()
 check_agent_index()
 check_retired_shop_policy()
+check_retired_crm_policy()
+check_deployment_wrapper()
+check_nginx_deployment_wrapper()
 
 print(f"pages: {len(pages)}")
 print(f"indexable: {len(indexable_paths)}")

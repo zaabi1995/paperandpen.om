@@ -9,7 +9,7 @@ import ModulePicker from '@/components/islands/ModulePicker.tsx';
 import LangMock from '@/components/blocks/AppMockup.astro';
 import { useTranslations, localizePath, isRTL, type Locale } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
-import { graph, organization, softwareApplication, faqPage } from '@/lib/schema';
+import { faqPage, graph, softwareApplication, webPage } from '@/lib/schema';
 
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
@@ -204,9 +204,22 @@ const LEDGER_ROWS = LEDGER_SOURCE.map((r) => ({
 }));
 const LEDGER_TOTAL = money(LEDGER_SOURCE.reduce((s, r) => s + r.amount, 0));
 
-const jsonld = [graph(organization(), softwareApplication()), graph(faqPage(homeFaqs.map((f) => ({ q: f.q, a: f.a }))))];
 const title = t('seo.homeTitle');
 const description = t('seo.homeDesc');
+const canonicalUrl = `https://paperandpen.om${lp('/')}`;
+const faqId = `${canonicalUrl}#faq`;
+const homeFaqNode = {
+  ...faqPage(homeFaqs.map((f) => ({ q: f.q, a: f.a }))),
+  '@id': faqId,
+  inLanguage: locale,
+  isPartOf: { '@id': canonicalUrl },
+};
+const homePageNode = {
+  ...webPage({ name: title, description, url: canonicalUrl, locale }),
+  mainEntity: { '@id': 'https://paperandpen.om/#software' },
+  hasPart: [{ '@id': faqId }],
+};
+const jsonld = [graph(homePageNode, softwareApplication(), homeFaqNode)];
 const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing, accounting software, Arabic ERP, multi-currency invoicing, ERP Oman, ERP GCC, Paper and Pen ERP, Paymob';
 ---
 
@@ -247,7 +260,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             the foundation's display scale, and a local `text-*` would silently
             beat it. */}
         <h1 class="mb-6 lg:mb-11">
-          {t('hero.tagline_line1')}<br />{headline2.lead}{headline2.lead && ' '}<span
+          {t('hero.tagline_line1')}<br />{' '}{headline2.lead}{headline2.lead && ' '}<span
             class="accent-italic squiggle">{headline2.accent}</span>{headline2.tail}
         </h1>
 

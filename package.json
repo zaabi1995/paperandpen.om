@@ -8,7 +8,8 @@
     "build": "astro build",
     "seo:refresh": "node scripts/refresh_search_snippets.mjs",
     "seo:check": "python3 -B scripts/seo_integrity.py",
-    "verify": "python3 -B scripts/verify.py && npm run seo:check",
+    "test:nginx-deploy": "bash scripts/test_deploy_nginx.sh",
+    "verify": "python3 -B scripts/verify.py && npm run seo:check && npm run test:nginx-deploy",
     "ci": "npm run build && npm run verify",
     "preview": "astro preview --port 4321",
     "astro": "astro"

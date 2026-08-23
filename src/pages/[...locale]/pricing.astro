@@ -20,9 +20,9 @@ import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import PricingTable from '@/components/blocks/PricingTable.astro';
 import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
-import { useTranslations, tRaw, type Locale } from '@/i18n';
+import { localizePath, useTranslations, tRaw, type Locale } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
-import { graph, organization, product, faqPage, breadcrumbList } from '@/lib/schema';
+import { graph, organization, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
 
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
@@ -41,18 +41,25 @@ const crumbs = [
 /* Offers are read from the same dictionary the cards render from, so the
    structured data cannot drift away from the published price. */
 const offers = (['free', 'growth', 'enterprise'] as const).map((key) => ({
+  '@type': 'Offer',
   name: t(`pricing.${key}.name`),
-  price: Number(tRaw(locale, `pricing.${key}.price_monthly`) ?? 0),
-  currency: 'OMR',
+  price: String(Number(tRaw(locale, `pricing.${key}.price_monthly`) ?? 0)),
+  priceCurrency: 'OMR',
+  url: `https://paperandpen.om${localizePath('/pricing', locale)}`,
 }));
+const pricingUrl = `https://paperandpen.om${localizePath('/pricing', locale)}`;
 
 const jsonld = [
   graph(
     organization(),
-    product({
+    softwareApplication({
+      '@id': `${pricingUrl}#software`,
       name: 'Paper & Pen ERP',
-      description:
-        'Free cloud ERP and invoicing with optional paid modules. One global price list, five languages, any currency.',
+      description: t('seo.pricingDesc'),
+      url: pricingUrl,
+      inLanguage: locale,
+      mainEntityOfPage: { '@id': pricingUrl },
+      featureList: undefined,
       offers,
     }),
     breadcrumbList(crumbs, locale)

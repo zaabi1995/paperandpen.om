@@ -8,7 +8,7 @@ export function organization() {
     '@type': 'Organization',
     '@id': `${SITE}/#organization`,
     name: 'Paper and Pen Company LLC',
-    url: SITE,
+    url: `${SITE}/`,
     logo: `${SITE}/logo.svg`,
     // r372 / ledger llm20-13. schema.org telephone is a MACHINE field and this
     // was the estate's ONLY non-E.164 value: '+968-9889-9100' normalises to the
@@ -42,10 +42,14 @@ export function softwareApplication(extra: Record<string, unknown> = {}) {
     '@id': `${SITE}/#software`,
     name: 'Paper & Pen ERP',
     description:
-      'Free cloud ERP & invoicing software for GCC small and mid-sized businesses. Sales, inventory, HR, accounting in Arabic and English.',
+      'Free cloud ERP & invoicing software. Sales, inventory, HR & accounting in 5 languages and any currency. Free forever for Sales & Invoicing.',
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web',
-    url: SITE,
+    url: `${SITE}/`,
+    inLanguage: ['en', 'ar', 'hi', 'bn', 'ur'],
+    isAccessibleForFree: true,
+    publisher: { '@id': `${SITE}/#organization` },
+    provider: { '@id': `${SITE}/#organization` },
     offers: {
       '@type': 'Offer',
       price: '0',
@@ -64,15 +68,22 @@ export function softwareApplication(extra: Record<string, unknown> = {}) {
   };
 }
 
-export function webApplication(opts: { name: string; description: string; url: string }) {
+export function webApplication(opts: { name: string; description: string; url: string; locale: string }) {
+  const url = opts.url.endsWith('/') ? opts.url : `${opts.url}/`;
   return {
     '@type': 'WebApplication',
+    '@id': `${url}#application`,
     name: opts.name,
     description: opts.description,
-    url: opts.url,
+    url,
+    inLanguage: opts.locale,
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web',
     browserRequirements: 'Requires JavaScript.',
+    isAccessibleForFree: true,
+    provider: { '@id': `${SITE}/#organization` },
+    publisher: { '@id': `${SITE}/#organization` },
+    mainEntityOfPage: { '@id': url },
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'OMR' },
   };
 }
@@ -122,27 +133,6 @@ export function breadcrumbList(crumbs: { name: string; url: string }[], locale: 
   };
 }
 
-export function product(opts: {
-  name: string;
-  description: string;
-  offers: { name: string; price: number; currency?: string }[];
-}) {
-  return {
-    '@type': 'Product',
-    name: opts.name,
-    description: opts.description,
-    brand: { '@type': 'Brand', name: 'Paper & Pen' },
-    offers: opts.offers.map((o) => ({
-      '@type': 'Offer',
-      name: o.name,
-      price: String(o.price),
-      priceCurrency: o.currency || 'OMR',
-      availability: 'https://schema.org/InStock',
-    })),
-  };
-}
-
-
 /**
  * WebSite + SearchAction. One node, on every page, so the site name and its
  * search entry point are stated once at the graph level rather than implied.
@@ -150,14 +140,13 @@ export function product(opts: {
  * really answers `?q=`, not an invented /search endpoint: declaring a
  * SearchAction that 404s is worse than declaring none.
  */
-export function webSite(opts: { name: string; description: string; locale: string; searchUrl?: string }) {
+export function webSite(opts: { name: string; languages: readonly string[]; searchUrl?: string }) {
   const node: Record<string, unknown> = {
     '@type': 'WebSite',
     '@id': `${SITE}/#website`,
     name: opts.name,
-    url: SITE,
-    description: opts.description,
-    inLanguage: opts.locale,
+    url: `${SITE}/`,
+    inLanguage: opts.languages,
     publisher: { '@id': `${SITE}/#organization` },
   };
   if (opts.searchUrl) {
@@ -168,6 +157,20 @@ export function webSite(opts: { name: string; description: string; locale: strin
     };
   }
   return node;
+}
+
+export function webPage(opts: { name: string; description: string; url: string; locale: string }) {
+  const url = opts.url.startsWith('http') ? opts.url : `${SITE}${opts.url}`;
+  return {
+    '@type': 'WebPage',
+    '@id': url,
+    url,
+    name: opts.name,
+    description: opts.description,
+    inLanguage: opts.locale,
+    isPartOf: { '@id': `${SITE}/#website` },
+    publisher: { '@id': `${SITE}/#organization` },
+  };
 }
 
 /** ItemList for a hub page, so the set of children is stated, not just linked. */

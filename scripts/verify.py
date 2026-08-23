@@ -52,9 +52,37 @@ no_h1 = [REL[f] for f, h in DOC.items() if '<h1' not in h]
 if multi_h1: fails.append(f'{len(multi_h1)} pages with multiple h1: {multi_h1[:5]}')
 if no_h1: fails.append(f'{len(no_h1)} pages with no h1: {no_h1[:5]}')
 
+# Homepage extraction must preserve the word boundary around the visual break.
+# A br element contributes no text node, so the source must serialize a real
+# space rather than relying on browser layout.
+bad_home_h1 = []
+for locale in ('en', 'ar', 'hi', 'bn', 'ur'):
+    page = D / 'index.html' if locale == 'en' else D / locale / 'index.html'
+    source = pathlib.Path(f'src/i18n/ui/{locale}.json')
+    if page not in DOC or not source.is_file():
+        bad_home_h1.append((locale, 'missing page or dictionary'))
+        continue
+    dictionary = json.loads(source.read_text(encoding='utf-8'))
+    expected = f"{dictionary['hero']['tagline_line1']} {dictionary['hero']['tagline_line2']}"
+    match = re.search(r'<h1\b[^>]*>(.*?)</h1>', DOC[page], re.S | re.I)
+    extracted = '' if not match else htmlmod.unescape(re.sub(r'<[^>]+>', '', match.group(1)))
+    extracted = ' '.join(extracted.split())
+    if extracted != expected:
+        bad_home_h1.append((locale, extracted))
+if bad_home_h1: fails.append(f'homepage h1 text boundary failures: {bad_home_h1}')
+
 # ------------------------------------------------- 2. hreflang page vs sitemap
 sm = (D / 'sitemap-0.xml').read_text()
 sm_langs = collections.Counter(re.findall(r'hreflang="([^"]+)"', sm))
+sm_blocks = re.findall(r'<url>.*?</url>', sm, re.S)
+bad_lastmod = []
+for block in sm_blocks:
+    loc = re.search(r'<loc>(.*?)</loc>', block, re.S)
+    dates = re.findall(r'<lastmod>(.*?)</lastmod>', block, re.S)
+    if len(dates) != 1 or not dates[0].startswith('2026-08-23'):
+        bad_lastmod.append((loc.group(1) if loc else 'unknown', dates))
+if bad_lastmod:
+    fails.append(f'{len(bad_lastmod)} sitemap URLs with missing or incorrect lastmod: {bad_lastmod[:5]}')
 page_langs = set()
 for f, h in DOC.items():
     if 'noindex' in h: continue
