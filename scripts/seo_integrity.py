@@ -575,6 +575,59 @@ def internal_links(document: str) -> set[str]:
     return links
 
 
+def check_translated_titles() -> None:
+    """A localized page must not wear the English title.
+
+    Every locale file translates `short`, `metaDescription` and the body, and a
+    handful stopped one field short: the title. The page then ranked in Hindi,
+    Urdu or Bengali while showing an English headline in the result, and the
+    English twin and the translation shipped one identical <title>. Search
+    Console reported seven of them as duplicates on paperandpen.om, 6 Sep 2026.
+
+    This reads the SOURCE content, not the build, because that is where the gap
+    is and where it is fixed. Fields are compared against the English file for
+    the same slug, so a term deliberately kept in Latin script is only a failure
+    when the WHOLE string matches English.
+    """
+    content_root = pathlib.Path("src") / "content"
+    data_root = pathlib.Path("src") / "data"
+    fields = ("metaTitle", "title")
+    for base in (content_root, data_root):
+        if not base.is_dir():
+            continue
+        for group in sorted(base.iterdir()):
+            english_dir = group / "en"
+            if not english_dir.is_dir():
+                continue
+            english = {}
+            for entry in english_dir.glob("*.json"):
+                try:
+                    english[entry.stem] = json.loads(entry.read_text(encoding="utf8"))
+                except json.JSONDecodeError:
+                    fail(f"{entry} is not valid JSON")
+            for locale_dir in sorted(x for x in group.iterdir() if x.is_dir()):
+                if locale_dir.name == "en":
+                    continue
+                for entry in sorted(locale_dir.glob("*.json")):
+                    try:
+                        document = json.loads(entry.read_text(encoding="utf8"))
+                    except json.JSONDecodeError:
+                        fail(f"{entry} is not valid JSON")
+                        continue
+                    source = english.get(entry.stem)
+                    if not source:
+                        continue
+                    for field in fields:
+                        theirs = document.get(field)
+                        ours = source.get(field)
+                        if isinstance(theirs, str) and isinstance(ours, str) \
+                                and theirs.strip() and theirs == ours:
+                            fail(
+                                f"{group.name}/{locale_dir.name}/{entry.stem}: "
+                                f"{field} is still the English string"
+                            )
+
+
 def check_source_truth() -> None:
     gcc = r"(?:GCC|জিসিসি|الخليج|دول مجلس التعاون|جی سی سی|जीसीसी)"
     digit = r"[0-9০-৯٠-٩]"
@@ -972,6 +1025,7 @@ if "A proforma invoice is a proposed sale in invoice format, not the final tax i
     fail("llms.txt is missing the qualified proforma definition")
 
 check_source_truth()
+check_translated_titles()
 check_agent_index()
 check_retired_shop_policy()
 check_retired_crm_policy()
