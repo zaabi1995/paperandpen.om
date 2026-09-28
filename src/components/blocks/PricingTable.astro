@@ -315,6 +315,29 @@ const colEdge = (i: number) =>
     <h2 class="text-center text-display-sm">{t('pricing.compareTitle')}</h2>
     <p class="microcopy mt-4 text-center lg:hidden">{t('pricing.scrollHint')}</p>
 
+    {/* Plan picker for phones and tablets. Only one plan column fits next to
+        the sticky labels, so the reader picks the plan here instead of
+        guessing how far to swipe (the Claude / Superlist plan-tab pattern).
+        Tapping scrolls that column into view; swiping updates the pick. */}
+    <div class="mt-6 flex justify-center lg:hidden">
+      <div class="seg" role="group" aria-label={t('pricing.compareTitle')} id="plan-pick">
+        {
+          plans.map((p, i) => (
+            <button
+              type="button"
+              class="seg-item px-4 sm:px-6"
+              data-plan-col={i}
+              data-active={String(i === 0)}
+              aria-pressed={String(i === 0)}
+              aria-controls="plan-compare"
+            >
+              {p.name}
+            </button>
+          ))
+        }
+      </div>
+    </div>
+
     {/* `relative` is LOAD-BEARING, not cosmetic. It is what keeps the page from
         scrolling sideways on a phone.
 
@@ -335,7 +358,7 @@ const colEdge = (i: number) =>
         clipped by its own `overflow-x: auto` and scroll with the table instead
         of leaking upward. `max-w-full` pins the box to the column so the
         table's `min-width` can never size it either. Do not remove either. */}
-    <div class="relative mt-10 max-w-full overflow-x-auto pb-2 md:mt-12">
+    <div id="plan-compare" class="relative mt-6 max-w-full overflow-x-auto pb-2 md:mt-12 lg:mt-12">
       {/* Widths are fixed rem below `md` and proportional at `md`+. A single
           percentage set would give the sticky feature column 38% of a 46rem
           minimum, i.e. 280px of the 342px a 390px phone can actually show,
@@ -358,6 +381,7 @@ const colEdge = (i: number) =>
               plans.map((p, i) => (
                 <th
                   scope="col"
+                  data-plan-head={i}
                   class={`w-[7.5rem] rounded-t-card border-t-2 px-2 pb-6 pt-6 text-center align-bottom md:w-[21.3%] md:px-4 ${colFill(i)} ${colEdge(i)} ${p.popular ? 'border-t-electric-500' : 'border-t-transparent'}`}
                 >
                   <span class="flex flex-col items-center gap-3">
@@ -499,5 +523,61 @@ const colEdge = (i: number) =>
         next.focus();
       });
     });
+  }
+</script>
+
+<script>
+  const pick = document.getElementById('plan-pick');
+  const wrap = document.getElementById('plan-compare');
+  if (pick && wrap) {
+    const btns = Array.from(pick.querySelectorAll<HTMLButtonElement>('[data-plan-col]'));
+    const heads = Array.from(wrap.querySelectorAll<HTMLElement>('[data-plan-head]'));
+    const sticky = wrap.querySelector<HTMLElement>('thead th');
+    const rtl = () => document.documentElement.dir === 'rtl';
+    const edge = () => {
+      const w = wrap.getBoundingClientRect();
+      const sw = sticky ? sticky.getBoundingClientRect().width : 0;
+      return rtl() ? w.right - sw : w.left + sw;
+    };
+    const mark = (idx: number) =>
+      btns.forEach((b, i) => {
+        b.dataset.active = String(i === idx);
+        b.setAttribute('aria-pressed', String(i === idx));
+      });
+    btns.forEach((b, i) =>
+      b.addEventListener('click', () => {
+        const h = heads[i];
+        if (!h) return;
+        const r = h.getBoundingClientRect();
+        const delta = rtl() ? r.right - edge() : r.left - edge();
+        const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        wrap.scrollBy({ left: delta, behavior: smooth ? 'smooth' : 'auto' });
+        mark(i);
+      }),
+    );
+    let queued = false;
+    wrap.addEventListener(
+      'scroll',
+      () => {
+        if (queued) return;
+        queued = true;
+        requestAnimationFrame(() => {
+          queued = false;
+          const e = edge();
+          let best = 0;
+          let bestD = Infinity;
+          heads.forEach((h, i) => {
+            const r = h.getBoundingClientRect();
+            const d = Math.abs((rtl() ? r.right : r.left) - e);
+            if (d < bestD) {
+              bestD = d;
+              best = i;
+            }
+          });
+          mark(best);
+        });
+      },
+      { passive: true },
+    );
   }
 </script>

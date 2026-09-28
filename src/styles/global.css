@@ -864,6 +864,21 @@
     min-height: 24px;
   }
 
+  /* Touch screens: grow the hit area without moving anything. Padding and an
+     equal negative margin cancel out in layout. Footer links get 7px, which
+     exactly fills their 14px list gap so neighbours never overlap; breadcrumb
+     links (24px tall) get 10px to reach 44px. */
+  @media (pointer: coarse) {
+    .footer-link {
+      padding-block: 7px;
+      margin-block: -7px;
+    }
+    nav[aria-label='Breadcrumb'] a {
+      padding-block: 10px;
+      margin-block: -10px;
+    }
+  }
+
   /* Tool builder form fields */
   .lbl {
     @apply mb-1 block text-xs font-semibold text-ink-500;
