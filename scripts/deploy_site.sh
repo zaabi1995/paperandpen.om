@@ -99,5 +99,9 @@ if [[ "$MODE" == "--dry-run" ]]; then
   exit 0
 fi
 
+# --no-perms lets the remote umask (root, 027) decide the mode of NEW files, so
+# every fresh hashed asset landed as root 0640 and nginx (www) answered 403.
+# On 29 Sep 2026 that took the site's only stylesheet down. Normalise after sync.
+ssh "$REMOTE_HOST" "cd '$REMOTE_ROOT' && chown -R www:www . && find . -type d -exec chmod 755 {} + && find . -type f -exec chmod 644 {} +"
 ssh "$REMOTE_HOST" "cd '$REMOTE_ROOT' && sha256sum -c .deploy-manifest.sha256"
 echo "Deployment complete and checksums verified for $head_revision."
