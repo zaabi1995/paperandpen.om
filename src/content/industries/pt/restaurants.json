@@ -1,0 +1,35 @@
+{
+  "locale": "pt",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restaurantes e cafés",
+  "metaTitle": "Faturamento e estoque de receitas para restaurantes | Paper & Pen",
+  "metaDescription": "Faturamento grátis com estoque de ingredientes, ficha técnica e pedidos de compra para restaurantes e cafés. Controle o custo dos alimentos e fature rápido.",
+  "keywords": "sistema para restaurante, sistema para cafeteria, ficha técnica de receitas, controle de CMV, estoque de restaurante, pedido de compra a fornecedores, ERP para restaurante",
+  "heroEyebrow": "Para restaurantes e cafés",
+  "heroTitle": "Fature rápido, <em class=\"text-copper-400 not-italic\">controle o custo dos alimentos</em>",
+  "heroSubtitle": "Imprima recibos em segundos, controle os ingredientes até o grama e saiba o custo real de cada prato. O Paper & Pen faz a cozinha, o caixa e os livros trabalharem juntos.",
+  "heroBullets": ["Recibos rápidos e grátis", "Custo de ingredientes e receitas", "Pedidos de compra a fornecedores"],
+  "features": [
+    { "icon": "receipt", "title": "Recibos rápidos", "desc": "Anote o pedido, aplique impostos e taxa de serviço e imprima ou compartilhe um recibo em segundos." },
+    { "icon": "manufacturing", "title": "Ficha técnica", "desc": "Monte as receitas a partir dos ingredientes e saiba o custo real de cada prato." },
+    { "icon": "inventory", "title": "Estoque de ingredientes", "desc": "Controle as matérias-primas por unidade, lote e validade, com alertas de estoque baixo." },
+    { "icon": "truck", "title": "Pedidos a fornecedores", "desc": "Emita pedidos de compra aos fornecedores e atualize estoque e custo no recebimento." },
+    { "icon": "calc", "title": "Percentual de custo dos alimentos", "desc": "Compare o custo do prato com o preço do cardápio para manter suas margens saudáveis." },
+    { "icon": "chart", "title": "Relatórios de vendas", "desc": "Veja os pratos mais vendidos, o faturamento diário e as tendências por dia e por unidade." }
+  ],
+  "sections": [
+    { "eyebrow": "Um salão mais ágil", "title": "Recibos que mantêm a fila andando", "body": "O horário de almoço não deixa tempo para uma cobrança lenta. Adicione os itens, aplique IVA ou taxa de serviço, receba e entregue um recibo limpo em segundos, e compartilhe pelo WhatsApp se o cliente pedir. Cada venda é lançada nos seus livros automaticamente, então fechar o dia é uma olhada, não uma noite digitando.", "items": ["Adicione itens e receba rápido", "IVA e taxa de serviço calculados para você", "Faturamento do dia conciliado automaticamente"] },
+    { "eyebrow": "A cozinha diz a verdade", "title": "Ficha técnica que protege sua margem", "body": "Um prato só dá lucro se você sabe quanto ele custa. Monte as receitas a partir dos ingredientes, deixe o Paper & Pen calcular o custo de cada prato com os preços de compra atuais e acompanhe seu percentual de custo dos alimentos conforme os preços dos fornecedores mudam. Controle os ingredientes por lote e validade, emita pedidos de compra e mantenha o desperdício sob controle. Feito em Omã, com OMR, AED e SAR nativos e IVA de 5%, e pronto para USD, EUR ou qualquer mercado.", "items": ["Receitas com custo pelos preços atuais dos ingredientes", "Controle de lote e validade das matérias-primas", "Pedidos de compra que atualizam o custo no recebimento"] }
+  ],
+  "faqs": [
+    { "q": "Posso calcular o custo do cardápio pelos preços dos ingredientes?", "a": "Sim. Defina cada prato como uma receita de ingredientes e o Paper & Pen calcula o custo com os preços de compra atuais, para você definir preços de cardápio que protejam sua margem." },
+    { "q": "Ele controla ingredientes e validade?", "a": "Sim. As matérias-primas são controladas por unidade de medida, lote e data de validade, com alertas de estoque baixo para você repor antes de acabar." },
+    { "q": "Posso aplicar IVA e taxa de serviço?", "a": "Sim. Aplique o IVA configurável do GCC, uma taxa de serviço ou qualquer alíquota, tudo calculado automaticamente na conta." },
+    { "q": "O faturamento é grátis para um café?", "a": "Vendas e Faturamento, incluindo recibos, é grátis para sempre. Adicione Estoque e Produção quando quiser controle de ingredientes e ficha técnica." },
+    { "q": "Posso gerenciar mais de uma unidade?", "a": "Sim. Acompanhe vendas e estoque por unidade e veja quantidades e faturamento diário ao vivo de todos os seus pontos em um só espaço de trabalho." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Sirva rápido, calcule com inteligência",
+  "ctaSub": "Comece grátis com recibos e faturamento e depois adicione Estoque e ficha técnica para controlar o custo dos alimentos."
+}

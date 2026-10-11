@@ -1,0 +1,35 @@
+{
+  "locale": "it",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Contabilità",
+  "metaTitle": "Software di contabilità online · Paper & Pen",
+  "metaDescription": "Contabilità in partita doppia che si registra da sola. Conto economico e stato patrimoniale in tempo reale, dichiarazioni IVA, riconciliazione bancaria, ogni valuta.",
+  "keywords": "software contabilità, contabilità online, partita doppia, stato patrimoniale, conto economico, dichiarazione iva, riconciliazione bancaria, libro mastro",
+  "heroEyebrow": "Modulo aggiuntivo",
+  "heroTitle": "Conti che <em class=\"text-copper-400 not-italic\">quadrano da soli</em>",
+  "heroSubtitle": "Ogni fattura, pagamento e acquisto viene registrato in automatico in un vero libro mastro in partita doppia. Vedi in tempo reale utile, stato patrimoniale e posizione fiscale senza toccare un foglio di calcolo.",
+  "heroBullets": ["Partita doppia automatica, nessuna scrittura manuale", "Conto economico e stato patrimoniale in tempo reale", "Dichiarazioni IVA in un clic"],
+  "features": [
+    { "icon": "accounting", "title": "Contabilità automatica", "desc": "Vendite, pagamenti e spese finiscono nel libro mastro nel momento in cui avvengono." },
+    { "icon": "chart", "title": "Bilanci sempre aggiornati", "desc": "Conto economico, stato patrimoniale e flusso di cassa, sempre aggiornati." },
+    { "icon": "calc", "title": "IVA e dichiarazioni fiscali", "desc": "Tieni traccia dell'IVA a credito e a debito e prepara in un clic una dichiarazione pronta da presentare." },
+    { "icon": "refresh", "title": "Riconciliazione bancaria", "desc": "Abbina i movimenti bancari a fatture e pagamenti per avere conti sempre in ordine." },
+    { "icon": "doc", "title": "Libri contabili completi", "desc": "Da qualsiasi report risali al documento di origine e alla scrittura contabile." },
+    { "icon": "globe", "title": "Multivaluta", "desc": "Registra in qualsiasi valuta con utili e perdite su cambi calcolati in automatico." }
+  ],
+  "sections": [
+    { "eyebrow": "Nessun contabile richiesto", "title": "La contabilità che lavora dietro le quinte", "body": "Non dovresti essere un contabile per sapere se stai guadagnando. Fatturazione, pagamenti e magazzino alimentano tutti lo stesso libro mastro, quindi i tuoi conti sono corretti senza scritture manuali. Apri la dashboard e trovi subito utile, crediti verso clienti e imposte.", "items": ["Partita doppia fatta per te", "Ogni report risale all'origine", "Traccia di controllo su ogni registrazione"] },
+    { "eyebrow": "Pensato per ogni regime fiscale", "title": "Fisco e adempimenti, ovunque tu operi", "body": "Configura le aliquote e i conti del tuo paese, compresa l'IVA configurabile per il GCC, e Paper & Pen tiene traccia per te dell'IVA a credito e a debito. Prepara una dichiarazione pronta da presentare, riconcilia la banca e chiudi il periodo con serenità, in qualsiasi valuta.", "items": ["Imposte configurabili per ogni paese", "Dichiarazioni IVA pronte da presentare", "Riconciliazione bancaria e chiusura del periodo"] }
+  ],
+  "faqs": [
+    { "q": "Servono conoscenze di contabilità per usarlo?", "a": "No. Le registrazioni partono in automatico da fatture, pagamenti e acquisti, così ottieni una contabilità in partita doppia corretta senza scrivere a mano le scritture." },
+    { "q": "La contabilità è gratuita?", "a": "La Contabilità è un modulo aggiuntivo a pagamento e facoltativo. Vendite e Fatturazione è gratis per sempre, e attivi la Contabilità quando vuoi bilanci completi." },
+    { "q": "Può preparare le dichiarazioni IVA?", "a": "Sì. Tiene traccia dell'IVA a credito e a debito (per esempio l'IVA configurabile del GCC, o qualsiasi aliquota tu imposti) e genera una dichiarazione pronta da presentare." },
+    { "q": "Gestisce più valute?", "a": "Sì. Registra e produci report in qualsiasi valuta, con utili e perdite su cambi calcolati in automatico." },
+    { "q": "Posso riconciliare la banca?", "a": "Sì. Importa o abbina i movimenti bancari a fatture e pagamenti per mantenere il libro mastro riconciliato." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Conti precisi, in automatico",
+  "ctaSub": "Inizia gratis con la fatturazione e attiva la Contabilità per bilanci e dichiarazioni fiscali in tempo reale."
+}

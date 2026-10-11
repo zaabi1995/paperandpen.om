@@ -1,0 +1,35 @@
+{
+  "locale": "de",
+  "slug": "retail",
+  "order": 2,
+  "title": "Einzelhandel & Geschäfte",
+  "metaTitle": "Kassen- und Lagersoftware für den Einzelhandel · Paper & Pen",
+  "metaDescription": "Kostenlose Abrechnung plus Lager mit Barcodes, Warnungen bei niedrigem Bestand und laufender Bewertung für Geschäfte. Schnell verkaufen, nie ausverkauft sein.",
+  "keywords": "Einzelhandelssoftware, Kassensoftware, Software für Ladengeschäft, Warenwirtschaft Einzelhandel, Barcode Lagerverwaltung, Meldebestand, Lagerverwaltung mehrere Filialen",
+  "heroEyebrow": "Für Geschäfte & Einzelhändler",
+  "heroTitle": "Schnell verkaufen, <em class=\"text-copper-400 not-italic\">nie ausverkauft sein</em>",
+  "heroSubtitle": "Rechnen Sie Kunden in Sekunden ab, verkaufen Sie per Barcode-Scan und lassen Sie den Bestand sich selbst aktualisieren. Paper & Pen hält Regale, Verkäufe und Bücher im Gleichschritt, damit Sie weniger zählen und mehr verkaufen.",
+  "heroBullets": ["Kostenlose, schnelle Abrechnung", "Unterstützung für Barcode und SKU", "Warnungen, bevor ein Artikel ausgeht"],
+  "features": [
+    { "icon": "receipt", "title": "Schnelle Abrechnung", "desc": "Einen Verkauf erfassen und in Sekunden eine Quittung drucken oder teilen, auf jedem Gerät." },
+    { "icon": "inventory", "title": "Lager mit Barcode", "desc": "Per Scan verkaufen oder einbuchen, geordnet nach SKU, Charge und Mengeneinheit." },
+    { "icon": "bell", "title": "Warnung bei niedrigem Bestand", "desc": "Meldebestände festlegen und gewarnt werden, bevor ein Bestseller auf null fällt." },
+    { "icon": "truck", "title": "Bestand für mehrere Filialen", "desc": "Bestände über Filialen hinweg verfolgen und umlagern, mit aktuellen Mengen überall." },
+    { "icon": "calc", "title": "Laufende Bewertung", "desc": "Durchschnittskosten oder FIFO halten den Lagerwert in Ihrer Bilanz genau." },
+    { "icon": "chart", "title": "Bestseller-Berichte", "desc": "Sehen, was sich bewegt und was liegen bleibt, nach Artikel, Kategorie und Filiale." }
+  ],
+  "sections": [
+    { "eyebrow": "Schneller an der Kasse", "title": "Abrechnung für eine volle Theke", "body": "Kunden warten nicht gern. Stellen Sie einen Verkauf per Scan oder Suche zusammen, gewähren Sie einen Rabatt, nehmen Sie die Zahlung an und übergeben Sie in Sekunden eine saubere Quittung. Quittungen lassen sich per WhatsApp teilen oder an der Kasse drucken, und jeder Verkauf fließt direkt in Ihren Bestand und Ihre Bücher, ohne dass etwas neu getippt wird.", "items": ["Artikel per Scan oder Suche schnell hinzufügen", "Quittungen sofort drucken oder teilen", "Rabatte und Steuer automatisch berücksichtigt"] },
+    { "eyebrow": "Ein Bestand, der sich selbst führt", "title": "Immer wissen, was im Regal steht", "body": "Manuelle Zählungen sind veraltet, sobald Sie etwas verkaufen. In Paper & Pen passt jeder Verkauf und jede Lieferung den Bestand in Echtzeit an, damit die Zahl auf dem Bildschirm zum Regal passt. Legen Sie Meldebestände fest, damit das System verspätete Nachbestellungen meldet, bevor Ihnen ein Verkauf entgeht. Entwickelt in Oman mit nativer Unterstützung für OMR, AED und SAR sowie 5% MwSt., und bereit für USD, EUR oder jeden Steuersatz, mit dem Sie handeln.", "items": ["Bestand in Echtzeit bei jedem Verkauf", "Meldebestände und Warnungen bei niedrigem Bestand", "Jede Währung, jeder Steuersatz"] }
+  ],
+  "faqs": [
+    { "q": "Kann ich mit einem Barcode-Scanner verkaufen?", "a": "Ja. Scannen Sie, um Artikel zu einem Verkauf hinzuzufügen oder Ware einzubuchen. Artikel sind nach SKU, Charge und Mengeneinheit geordnet, für eine schnelle und genaue Abrechnung." },
+    { "q": "Aktualisiert sich mein Bestand bei einem Verkauf?", "a": "Ja. Jeder Verkauf verringert den Bestand und jede Lieferung erhöht ihn in Echtzeit, in all Ihren Filialen, ohne manuelles Zählen." },
+    { "q": "Kann ich mehr als ein Geschäft führen?", "a": "Ja. Verfolgen Sie den Bestand je Filiale, lagern Sie zwischen Filialen um und sehen Sie aktuelle Mengen überall, aus einem Workspace." },
+    { "q": "Ist die Abrechnung wirklich kostenlos?", "a": "Vertrieb & Rechnungen, einschließlich Quittungen, ist für immer kostenlos. Fügen Sie das Modul Lager hinzu, wenn Sie Bestandsführung mit Barcodes und Warnungen bei niedrigem Bestand möchten." },
+    { "q": "Funktioniert es außerhalb der GCC-Staaten?", "a": "Ja. Paper & Pen funktioniert in jeder Währung mit jedem Steuersatz. Einzelhändler überall können abrechnen und ihren Bestand verwalten, auf Arabisch, Englisch und in weiteren Sprachen." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Führen Sie Ihr Geschäft ohne Rätselraten",
+  "ctaSub": "Starten Sie kostenlos mit Abrechnung und Quittungen und fügen Sie dann das Lager für Barcode-Bestände und Warnungen bei niedrigem Bestand hinzu."
+}

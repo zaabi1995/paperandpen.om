@@ -1,0 +1,152 @@
+{
+  "locale": "tr",
+  "slug": "uae",
+  "order": 2,
+  "country": "Birleşik Arap Emirlikleri",
+  "title": "BAE'de KDV",
+  "metaTitle": "BAE'de KDV: Oran, Eşikler, E-Fatura · Paper & Pen",
+  "metaDescription": "BAE'nin %5 KDV oranı, 375,000 AED eşiği, 59. madde fatura içeriği ve teyit edilmiş e-fatura takvimi; her biri kaynaklarıyla.",
+  "keywords": "bae kdv, birleşik arap emirlikleri kdv oranı, bae kdv kayıt eşiği, bae vergi faturası şartları, bae e-fatura 2027, federal tax authority, dubai kdv",
+  "heroEyebrow": "Birleşik Arap Emirlikleri",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">BAE KDV</em> kurallarına göre faturalama",
+  "heroSubtitle": "Oran, eşikler, 59. maddenin bir vergi faturasında istediği on iki unsur ve Ministry of Finance'ın gerçekten yayımladığı e-fatura tarihleri.",
+  "heroBullets": [
+    "%5 standart oran",
+    "Kayıt için 375,000 AED",
+    "E-fatura 2027'den itibaren aşamalı"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Standart KDV oranı",
+      "value": "%5",
+      "note": "2017 tarihli 8 sayılı Federal Kararname-Kanun'un 3. maddesi her teslim veya ithalata %5 standart oran uygular. 1 Ocak 2018'den beri yürürlüktedir.",
+      "source": 1
+    },
+    {
+      "label": "Zorunlu kayıt eşiği",
+      "value": "375,000 AED",
+      "note": "Uygulama Yönetmeliği'nin 7(1). maddesi.",
+      "source": 2
+    },
+    {
+      "label": "İsteğe bağlı kayıt eşiği",
+      "value": "187,500 AED",
+      "note": "Uygulama Yönetmeliği'nin 8(1). maddesi.",
+      "source": 2
+    },
+    {
+      "label": "Basitleştirilmiş fatura üst sınırı",
+      "value": "10,000 AED",
+      "note": "Alıcı kayıtlı değilse veya kayıtlı olup bedel bu tutarı aşmıyorsa basitleştirilmiş vergi faturasına izin verilir.",
+      "source": 2
+    },
+    {
+      "label": "Faturadaki para birimi",
+      "value": "AED",
+      "note": "Vergi tutarları dirhem olarak gösterilir ve fatura başka bir para birimindeyse uygulanan döviz kuru yer almalıdır.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Uygulama Yönetmeliği'nin 59(1). maddesi tam bir vergi faturasının neleri içermesi gerektiğini listeler.",
+    "items": [
+      "Açıkça görülen \"Vergi Faturası\" ibaresi",
+      "Satıcının adı, adresi ve Vergi Kayıt Numarası",
+      "Alıcı kayıtlıysa alıcının adı, adresi ve vergi kayıt numarası",
+      "Faturanın tanımlanmasını ve sıralanmasını sağlayan sıralı veya benzersiz bir numara",
+      "Düzenleme tarihi",
+      "Düzenleme tarihinden farklıysa teslim tarihi",
+      "Malların veya hizmetlerin tanımı",
+      "Her kalem için: birim fiyat, miktar veya hacim, vergi oranı ve AED cinsinden ödenecek tutar",
+      "Sunulan iskontonun tutarı",
+      "AED cinsinden ödenecek brüt tutar",
+      "AED cinsinden uygulanan vergi tutarı ve başka bir para biriminden çevrildiyse döviz kuru",
+      "Sorumlu sıfatıyla (reverse charge) teslimlerde, vergiyi alıcının beyan etmesi gerektiğine dair bir ifade ve dayanılan hüküm"
+    ],
+    "source": 2,
+    "caveat": "Bu, Federal Tax Authority'nin Uygulama Yönetmeliği'ne ilişkin 4 Ekim 2024 tarihli konsolide yayınıdır. Yorumcular daha sonraki bir değişiklikten söz ediyor; bunu FTA tarafından yayımlanmış bir metinde bulamadık, bu nedenle güvenmeden önce güncel ifadeyi FTA ile teyit edin."
+  },
+  "einvoicing": {
+    "status": "Zorunlu ve aşamalı, pilot açık",
+    "body": "BAE e-Fatura Sistemi, faturaların Akredite Hizmet Sağlayıcılar üzerinden geçtiği merkezi olmayan beş köşeli bir modeldir. Ministry of Finance'ın kendi rehberi takvimi belirler: 1 Temmuz 2026'dan itibaren bir pilot program ve gönüllü geçiş; geliri 50 milyon AED veya üzeri olan işletmeler 1 Ocak 2027'den itibaren; bu eşiğin altındaki işletmeler 1 Temmuz 2027'den itibaren; devlet kurumları 1 Ekim 2027'den itibaren uygular. Bakanlık, Akredite Hizmet Sağlayıcı için ilk atama son tarihini 31 Temmuz 2026'dan 30 Ekim 2026'ya uzattı ve Ocak 2027 başlangıcını değiştirmedi; bu nedenle yayımlanan rehber PDF'i ile Bakanlığın haber bülteni bu tek tarihte farklıdır ve son söz haber bültenine aittir.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Doğru yapmak",
+      "title": "59. maddede insanların takıldığı noktalar",
+      "body": "Fatura şablonlarının çoğunun karşılayamadığı şart, satır bazındaki şarttır. 59(1)(h). madde her mal veya hizmet için birim fiyat, miktar, vergi oranı ve ödenecek tutar ister; yani satırlar farklı uygulamalara tabiyse faturanın altındaki tek bir karma vergi rakamı yeterli değildir. İkincisi, alıcı kayıtlı olduğunda her zaman gereken alıcının vergi kayıt numarasıdır; üçüncüsü ise döviz kurudur: dolarla fatura keserseniz bile vergiyi dirhem olarak ve kullandığınız kurla göstermeniz gerekir.",
+      "items": [
+        "Yalnızca toplam değil, satır bazında vergi oranı ve tutarı",
+        "Alıcı kayıtlıysa her zaman vergi kayıt numarası",
+        "AED dışındaki her faturada döviz kuru gösterilir",
+        "Uygulandığı yerde sorumlu sıfatıyla beyan ifadesi"
+      ]
+    },
+    {
+      "eyebrow": "Hazırlık",
+      "title": "2027 tarihlerinin sizden gerçekte istedikleri",
+      "body": "Yükümlülük üzerinde logo olan bir yazılım satın almak değil; gelir diliminize uygulanan tarihte bir Akredite Hizmet Sağlayıcı üzerinden yapılandırılmış bir fatura düzenleyebilmektir. Pilottan değil, diliminizin uygulama tarihinden geriye doğru çalışın: hizmet sağlayıcı atama son tarihi başlangıçtan aylar önce gelir ve işletmelerin çoğunun kaçırdığı şey başlangıç değil, atamadır. Bu arada ihtiyaç duyacağınız veriler, 59. maddenin zaten istediği verilerle aynıdır; bu da fatura kalitesini bir geçiş sırasında değil, şimdi düzeltmek için iyi bir nedendir.",
+      "items": [
+        "Hangi gelir dilimine girdiğinizi bilin",
+        "Yalnızca başlangıcı değil, hizmet sağlayıcı atamasını da takvime yazın",
+        "Müşteri vergi kayıt numaralarını son tarihten önce temizleyin, sırasında değil",
+        "Bugünden itibaren satır düzeyinde vergi ayrıntısını tutun"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "BAE'de KDV oranı nedir?",
+      "a": "Yüzde beş. 2017 tarihli 8 sayılı Federal Kararname-Kanun'un 3. maddesi, vergiye tabi her teslim veya ithalata %5 standart oran uygular ve 1 Ocak 2018'den beri yürürlüktedir. Bazı teslimler sıfır oranlı veya muaftır ve aradaki fark önemlidir: sıfır oranlı teslim yapan bir satıcı indirilecek KDV'yi yine de geri alabilir, muaf olan alamaz."
+    },
+    {
+      "q": "BAE'de e-fatura ne zaman zorunlu?",
+      "a": "Gelirinize bağlıdır. Ministry of Finance'ın yayımladığı rehbere göre geliri 50 milyon AED veya üzeri olan işletmeler 1 Ocak 2027'den, bunun altındakiler 1 Temmuz 2027'den, devlet kurumları ise 1 Ekim 2027'den itibaren uygular. Pilot ve gönüllü geçiş 1 Temmuz 2026'da açıldı. Herhangi bir tarihe göre plan yapmadan önce Bakanlığın sayfalarını kontrol edin, çünkü bir son tarihi zaten değiştirdi."
+    },
+    {
+      "q": "BAE'de ne zaman basitleştirilmiş vergi faturası düzenleyebilirim?",
+      "a": "Alıcı KDV'ye kayıtlı değilse veya kayıtlı olup bedel 10,000 AED'yi aşmıyorsa. Basitleştirilmiş bir fatura yine de \"Vergi Faturası\" ibaresini, adınızı, adresinizi ve vergi kayıt numaranızı, düzenleme tarihini, teslim edilenin tanımını ve dirhem cinsinden toplam bedel ile vergi tutarını içermelidir."
+    },
+    {
+      "q": "BAE faturasında müşterinin vergi kayıt numarası gerekir mi?",
+      "a": "Evet, müşteri KDV'ye kayıtlı olduğunda her zaman. Bu durumda 59(1)(c). madde alıcının adını, adresini ve Vergi Kayıt Numarasını şart koşar. Bu olmadan müşteriniz indirilecek KDV'yi geri almakta zorlanabilir ve bu genellikle size faturayı yeniden düzenleme talebi olarak geri döner."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "BAE'de doğru fatura kesin, ücretsiz",
+  "ctaSub": "Satır düzeyinde vergi, kuru belgede gösterilen her para birimi ve tek kayıttan Arapça ve İngilizce fatura.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "KDV hakkında 2017 tarihli 8 sayılı Federal Kararname-Kanun, Madde 3 (değişikliklerle birlikte konsolide)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "2017 tarihli 52 sayılı Bakanlar Kurulu Kararı, Uygulama Yönetmeliği, Madde 7, 8 ve 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "BAE Elektronik Fatura Rehberi v1.1 ve Bakanlığın değişiklik haber bülteni",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

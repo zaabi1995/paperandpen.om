@@ -1,0 +1,35 @@
+{
+  "locale": "id",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Akuntansi",
+  "metaTitle": "Software Akuntansi Online · Pembukuan Otomatis · Paper & Pen",
+  "metaDescription": "Akuntansi berpasangan yang mencatat sendiri. Laba rugi dan neraca real-time, SPT PPN, rekonsiliasi bank, mata uang dan pajak apa pun. Untuk seluruh dunia.",
+  "keywords": "software akuntansi, aplikasi akuntansi online, pembukuan online, aplikasi pembukuan, laporan laba rugi, neraca keuangan, rekonsiliasi bank, buku besar, SPT PPN",
+  "heroEyebrow": "Modul tambahan",
+  "heroTitle": "Pembukuan yang <em class=\"text-copper-400 not-italic\">seimbang dengan sendirinya</em>",
+  "heroSubtitle": "Setiap faktur, pembayaran dan pembelian tercatat otomatis ke buku besar berpasangan yang benar. Lihat laba, neraca dan posisi pajak Anda secara real-time tanpa menyentuh spreadsheet.",
+  "heroBullets": ["Pencatatan berpasangan otomatis, tanpa jurnal manual", "Laba rugi dan neraca real-time", "SPT PPN dalam satu klik"],
+  "features": [
+    { "icon": "accounting", "title": "Pembukuan otomatis", "desc": "Penjualan, pembayaran dan biaya tercatat ke buku besar saat terjadi." },
+    { "icon": "chart", "title": "Laporan keuangan langsung", "desc": "Laba rugi, neraca dan arus kas, selalu terbaru." },
+    { "icon": "calc", "title": "SPT PPN & pajak", "desc": "Pantau pajak masukan dan keluaran, lalu buat SPT yang siap dilaporkan dalam satu klik." },
+    { "icon": "refresh", "title": "Rekonsiliasi bank", "desc": "Cocokkan baris mutasi bank dengan faktur dan pembayaran agar pembukuan tetap rapi." },
+    { "icon": "doc", "title": "Buku besar lengkap", "desc": "Telusuri dari laporan mana pun hingga dokumen sumber dan entri jurnalnya." },
+    { "icon": "globe", "title": "Multimata uang", "desc": "Catat dalam mata uang apa pun dengan laba dan rugi selisih kurs otomatis." }
+  ],
+  "sections": [
+    { "eyebrow": "Tanpa perlu akuntan", "title": "Akuntansi yang berjalan di latar belakang", "body": "Anda tidak perlu menjadi pemegang buku untuk tahu apakah bisnis Anda untung. Karena faktur, pembayaran dan inventaris mengalir ke buku besar yang sama, pembukuan Anda benar tanpa jurnal manual. Buka dasbor, dan laba, piutang serta pajak Anda langsung terlihat.", "items": ["Pencatatan berpasangan dikerjakan untuk Anda", "Setiap laporan bisa ditelusuri ke sumbernya", "Jejak audit di setiap entri"] },
+    { "eyebrow": "Untuk aturan pajak apa pun", "title": "Pajak dan kepatuhan, di mana pun Anda beroperasi", "body": "Atur tarif pajak dan akun untuk negara Anda, termasuk PPN yang bisa diatur untuk negara GCC, dan Paper & Pen memantau pajak masukan dan keluaran untuk Anda. Buat SPT yang siap dilaporkan, rekonsiliasi bank Anda, dan tutup periode dengan yakin, dalam mata uang apa pun.", "items": ["Pajak yang bisa diatur untuk negara mana pun", "SPT PPN siap lapor", "Rekonsiliasi bank dan tutup periode"] }
+  ],
+  "faqs": [
+    { "q": "Apakah saya perlu paham akuntansi untuk memakainya?", "a": "Tidak. Entri tercatat otomatis dari faktur, pembayaran dan pembelian Anda, sehingga Anda mendapat pembukuan berpasangan yang benar tanpa menulis jurnal." },
+    { "q": "Apakah modul Akuntansi gratis?", "a": "Akuntansi adalah modul tambahan berbayar yang opsional. Penjualan & Faktur gratis selamanya, dan Anda mengaktifkan Akuntansi saat membutuhkan laporan keuangan lengkap." },
+    { "q": "Bisakah membuat SPT PPN?", "a": "Bisa. Sistem memantau pajak masukan dan keluaran (misalnya PPN GCC yang bisa diatur, atau tarif apa pun yang Anda tetapkan) dan membuat SPT yang siap dilaporkan." },
+    { "q": "Apakah mendukung banyak mata uang?", "a": "Ya. Catat dan buat laporan dalam mata uang apa pun, dengan laba dan rugi selisih kurs otomatis." },
+    { "q": "Bisakah saya merekonsiliasi rekening bank?", "a": "Bisa. Impor atau cocokkan baris mutasi bank dengan faktur dan pembayaran agar buku besar Anda tetap terekonsiliasi." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Dapatkan pembukuan yang akurat, otomatis",
+  "ctaSub": "Mulai gratis dengan faktur, lalu aktifkan Akuntansi untuk laporan keuangan real-time dan SPT pajak."
+}

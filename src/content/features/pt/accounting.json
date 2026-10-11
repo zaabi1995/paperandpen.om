@@ -1,0 +1,35 @@
+{
+  "locale": "pt",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Contabilidade",
+  "metaTitle": "Software de contabilidade online automática · Paper & Pen",
+  "metaDescription": "Contabilidade por partidas dobradas que se lança sozinha. DRE e balanço em tempo real, declarações de IVA, conciliação bancária, qualquer moeda e imposto.",
+  "keywords": "software de contabilidade, contabilidade online, escrituração contábil, partidas dobradas, balanço patrimonial, DRE, declaração de IVA, conciliação bancária, razão geral",
+  "heroEyebrow": "Módulo complementar",
+  "heroTitle": "Livros que <em class=\"text-copper-400 not-italic\">fecham sozinhos</em>",
+  "heroSubtitle": "Cada fatura, pagamento e compra é lançado automaticamente em um razão de partidas dobradas. Veja seu lucro, balanço e posição fiscal em tempo real, sem abrir uma planilha.",
+  "heroBullets": ["Partidas dobradas automáticas, sem lançamentos manuais", "DRE e balanço em tempo real", "Declarações de IVA em um clique"],
+  "features": [
+    { "icon": "accounting", "title": "Escrituração automática", "desc": "Vendas, pagamentos e despesas vão para o razão no momento em que acontecem." },
+    { "icon": "chart", "title": "Números ao vivo", "desc": "DRE, balanço e fluxo de caixa, sempre atualizados." },
+    { "icon": "calc", "title": "IVA e declarações fiscais", "desc": "Acompanhe o imposto de entrada e de saída e gere uma declaração pronta para envio em um clique." },
+    { "icon": "refresh", "title": "Conciliação bancária", "desc": "Associe as linhas do extrato a faturas e pagamentos para manter os livros em ordem." },
+    { "icon": "doc", "title": "Razões completos", "desc": "Vá de qualquer relatório até o documento de origem e o lançamento contábil." },
+    { "icon": "globe", "title": "Multimoeda", "desc": "Lance em qualquer moeda, com ganho e perda cambial calculados automaticamente." }
+  ],
+  "sections": [
+    { "eyebrow": "Sem precisar de contador", "title": "Uma contabilidade que roda em segundo plano", "body": "Você não precisa ser guarda-livros para saber se está tendo lucro. Como faturamento, pagamentos e estoque alimentam o mesmo razão, suas contas ficam corretas sem lançamentos manuais. Abra o painel e lá estão seu lucro, seus devedores e seus impostos.", "items": ["Partidas dobradas feitas para você", "Todo relatório leva à origem", "Trilha de auditoria em cada lançamento"] },
+    { "eyebrow": "Feito para qualquer regime fiscal", "title": "Impostos e conformidade, onde quer que você atue", "body": "Configure as alíquotas e contas do seu país, incluindo IVA configurável para o GCC, e o Paper & Pen acompanha o imposto de entrada e de saída para você. Gere uma declaração pronta para envio, concilie seu banco e feche o período com segurança, em qualquer moeda.", "items": ["Impostos configuráveis para qualquer país", "Declarações de IVA prontas para envio", "Conciliação bancária e fechamento de período"] }
+  ],
+  "faqs": [
+    { "q": "Preciso saber contabilidade para usar?", "a": "Não. Os lançamentos são feitos automaticamente a partir das suas faturas, pagamentos e compras, então você tem livros corretos em partidas dobradas sem escrever lançamentos." },
+    { "q": "A contabilidade é grátis?", "a": "A Contabilidade é um complemento pago opcional. Vendas e Faturamento é grátis para sempre, e você ativa a Contabilidade quando quiser demonstrações financeiras completas." },
+    { "q": "Ele gera declarações de IVA?", "a": "Sim. Ele acompanha o imposto de entrada e de saída (por exemplo, o IVA configurável do GCC ou qualquer alíquota que você definir) e gera uma declaração pronta para envio." },
+    { "q": "Ele lida com várias moedas?", "a": "Sim. Lance e gere relatórios em qualquer moeda, com ganho e perda cambial automáticos." },
+    { "q": "Posso conciliar meu banco?", "a": "Sim. Importe ou associe as linhas do extrato a faturas e pagamentos para manter seu razão conciliado." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Tenha livros corretos, automaticamente",
+  "ctaSub": "Comece grátis com o faturamento e ative a Contabilidade para ter demonstrações financeiras e declarações fiscais em tempo real."
+}

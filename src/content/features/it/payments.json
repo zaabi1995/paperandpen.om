@@ -1,0 +1,35 @@
+{
+  "locale": "it",
+  "slug": "payments",
+  "order": 10,
+  "title": "Pagamenti",
+  "metaTitle": "Pagamenti online delle fatture · Incassa prima · Paper & Pen",
+  "metaDescription": "Aggiungi un link di pagamento online a ogni fattura e incassa con carta. Paymob e gateway globali, qualsiasi valuta, riconciliazione automatica in contabilità.",
+  "keywords": "pagamenti online, accettare pagamenti con carta, pagare fattura online, paymob, gateway di pagamento, incassare prima, link di pagamento",
+  "heroEyebrow": "Incluso",
+  "heroTitle": "I clienti ti pagano <em class=\"text-copper-400 not-italic\">in un tocco</em>",
+  "heroSubtitle": "Metti un link di pagamento online sicuro su ogni fattura, così i clienti pagano subito con carta. I pagamenti si riconciliano in automatico in contabilità, in qualsiasi valuta, ovunque.",
+  "heroBullets": ["Link di pagamento online su ogni fattura", "Riconciliazione automatica nel libro mastro", "Paymob e gateway globali"],
+  "features": [
+    { "icon": "card", "title": "Pagamento con carta", "desc": "I clienti pagano qualsiasi fattura online con carta, senza login né app." },
+    { "icon": "bolt", "title": "Link di pagamento immediato", "desc": "Ogni fattura ha un link sicuro, da condividere via email o WhatsApp." },
+    { "icon": "refresh", "title": "Riconciliazione automatica", "desc": "I pagamenti andati a buon fine segnano la fattura come pagata e la registrano in contabilità." },
+    { "icon": "globe", "title": "Qualsiasi valuta", "desc": "Incassa in OMR, AED, SAR, USD, EUR e altre ancora tramite il gateway giusto." },
+    { "icon": "shield", "title": "Sicuro e PCI", "desc": "I dati delle carte sono gestiti da gateway certificati, mai conservati da te." },
+    { "icon": "receipt", "title": "Ricevute inviate", "desc": "I clienti ricevono una ricevuta automatica nel momento in cui il pagamento va a buon fine." }
+  ],
+  "sections": [
+    { "eyebrow": "Incassa prima", "title": "Elimina gli ostacoli tra fattura e incasso", "body": "Più un cliente paga in fretta, prima incassi. Un link di pagamento online su ogni fattura significa niente coordinate bancarie da copiare e niente attesa per un bonifico. Il cliente tocca, paga con carta e la fattura si aggiorna da sola, con la ricevuta già in arrivo.", "items": ["Pagamento con carta in un tocco", "Link da condividere su WhatsApp e via email", "Ricevute automatiche"] },
+    { "eyebrow": "Locale e globale", "title": "Il gateway giusto per il tuo mercato", "body": "Paper & Pen collega Paymob per il GCC e altri gateway globali, così accetti le carte che i tuoi clienti usano davvero, nella loro valuta. Ogni accredito si riconcilia con la fattura giusta e viene registrato nei tuoi conti, così incassi e contabilità vanno di pari passo.", "items": ["Paymob per il GCC, più opzioni globali", "Incassi multivaluta", "Riconciliazione con la fattura esatta"] }
+  ],
+  "faqs": [
+    { "q": "Attivare i pagamenti online è gratuito?", "a": "Sì, aggiungere link di pagamento online è incluso. Il gateway di pagamento applica la propria commissione per ogni transazione, come fanno sempre i gateway." },
+    { "q": "Quali gateway sono supportati?", "a": "Paymob per il GCC più altri gateway globali, così accetti le carte che i tuoi clienti usano, nella loro valuta." },
+    { "q": "Un pagamento aggiorna la fattura in automatico?", "a": "Sì. Un pagamento andato a buon fine segna la fattura come pagata, invia una ricevuta e registra la scrittura nei tuoi conti." },
+    { "q": "I clienti possono pagare in valute diverse?", "a": "Sì. Incassa in OMR, AED, SAR, USD, EUR e altre ancora, tramite il gateway adatto." },
+    { "q": "Il pagamento con carta è sicuro?", "a": "Sì. I dati delle carte sono gestiti da gateway con certificazione PCI e non vengono mai conservati in Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Trasforma le fatture in incassi immediati",
+  "ctaSub": "Inizia gratis e aggiungi un link di pagamento online a ogni fattura, così i clienti ti pagano in un tocco."
+}

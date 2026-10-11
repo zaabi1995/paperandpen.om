@@ -1,0 +1,110 @@
+{
+  "locale": "it",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Officine e concessionari auto",
+  "metaTitle": "Gestionale per officine auto e concessionari · Paper & Pen",
+  "metaDescription": "Gestisci preventivi, magazzino ricambi e fatturazione della tua officina. Tieni traccia delle ore di manodopera e fattura le garanzie con il nostro ERP cloud gratuito.",
+  "keywords": "gestionale officina, software officina meccanica, fatturazione officina auto, preventivi riparazione auto, gestione magazzino ricambi, gestionale concessionaria auto, fatturazione garanzie",
+  "heroEyebrow": "Per officine e concessionari",
+  "heroTitle": "Gestisci la tua officina con <em class=\"text-copper-400 not-italic\">preventivi chiari</em> e una fatturazione precisa dei ricambi.",
+  "heroSubtitle": "Smetti di perdere margine su ricambi non fatturati e manodopera non registrata. Paper & Pen aiuta le officine auto a emettere preventivi di riparazione dettagliati, a seguire il magazzino fino al singolo codice ricambio e a trasformare le approvazioni direttamente in fatture finali.",
+  "heroBullets": [
+    "Tieni traccia di ricambi e tariffe orarie",
+    "Trasforma i preventivi in fatture",
+    "Gestisci la fatturazione delle garanzie a terzi"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Preventivi di riparazione",
+      "desc": "Prepara preventivi dettagliati da far approvare al cliente. Elenca ore di manodopera, costi di diagnosi e ricambi necessari prima di iniziare il lavoro."
+    },
+    {
+      "icon": "inventory",
+      "title": "Ricambi e margini",
+      "desc": "Gestisci il magazzino con i codici ricambio esatti. Controlla i costi di acquisto e fissa i prezzi di vendita per proteggere i tuoi margini."
+    },
+    {
+      "icon": "clock",
+      "title": "Manodopera a tariffa oraria",
+      "desc": "Aggiungi righe di servizio per il tempo dei tuoi meccanici. Moltiplica la tua tariffa oraria standard per le ore di manodopera richieste dal lavoro."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fatturazione a terzi",
+      "desc": "Fattura al proprietario del veicolo la sua franchigia e addebita il saldo restante direttamente al fornitore della garanzia o al costruttore."
+    },
+    {
+      "icon": "receipt",
+      "title": "Storno del costo di diagnosi",
+      "desc": "Applica un costo di diagnosi sul preventivo iniziale, poi stornalo facilmente sulla fattura finale se il cliente procede con la riparazione."
+    },
+    {
+      "icon": "truck",
+      "title": "Ordini di acquisto",
+      "desc": "Invia ordini di acquisto ai tuoi fornitori di ricambi. Registra le consegne in arrivo per aggiornare le giacenze in automatico prima del lavoro successivo."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Approvazione delle riparazioni",
+      "title": "Dalla prima diagnosi al conto finale della riparazione",
+      "body": "I clienti vogliono conoscere il costo prima che tu metta mano al motore. Paper & Pen segue esattamente la sequenza che i tuoi accettatori usano ogni giorno. Puoi emettere un preventivo iniziale che include un costo di diagnosi. Una volta trovato il guasto, aggiorni il preventivo con ricambi e ore di manodopera specifici. Quando il cliente autorizza il lavoro, trasformi quello stesso preventivo in fattura finale. Se la tua politica è rinunciare al costo di diagnosi quando la riparazione viene approvata, aggiungi semplicemente una riga negativa per stornare quell'importo dal totale.",
+      "items": [
+        "Emetti preventivi di riparazione chiari",
+        "Trasforma i preventivi approvati in fatture",
+        "Storna facilmente i costi di diagnosi",
+        "Registra ore di manodopera e tariffe orarie"
+      ]
+    },
+    {
+      "eyebrow": "Gestione ricambi",
+      "title": "Proteggi il margine su ogni ricambio venduto",
+      "body": "Un'officina piena di lavoro gestisce centinaia di componenti, dai filtri dell'olio alle pinze dei freni. Se perdi traccia di quanto hai pagato al fornitore, perdi il tuo margine. Il nostro sistema di magazzino ti permette di registrare ogni articolo con il suo codice ricambio specifico. Registri il prezzo di costo quando ricevi la merce tramite ordini di acquisto e fissi un prezzo di vendita per le tue fatture. Quando un meccanico prende un pezzo dallo scaffale e lo aggiungi al conto della riparazione, le giacenze scendono in automatico e il tuo utile viene calcolato correttamente.",
+      "items": [
+        "Gestisci gli articoli con il codice ricambio esatto",
+        "Controlla i prezzi di costo dei fornitori",
+        "Fissa prezzi di vendita redditizi",
+        "Riduci le giacenze in automatico alla vendita"
+      ]
+    },
+    {
+      "eyebrow": "Fatturazione separata",
+      "title": "Gestisci le garanzie e i pagatori terzi",
+      "body": "Non tutte le riparazioni sono pagate da chi guida l'auto. Concessionari e officine autorizzate eseguono spesso lavori in garanzia da fatturare al costruttore o a una società di garanzia estesa. Paper & Pen ti permette di avere schede cliente separate per questi pagatori aziendali. Puoi emettere una fattura al proprietario del veicolo per la sua franchigia o per i pezzi soggetti a usura non coperti, e una fattura separata e dettagliata al fornitore della garanzia per i codici di manodopera approvati e i ricambi sostituiti.",
+      "items": [
+        "Gestisci schede per i pagatori aziendali",
+        "Fattura direttamente ai fornitori di garanzia",
+        "Dividi il conto tra proprietario e garanzia",
+        "Tieni partitari dettagliati per tutti i pagatori"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posso collegarlo al software di rilevazione tempi dei meccanici o a un decodificatore VIN?",
+      "a": "No. Paper & Pen è un ERP cloud indipendente. Puoi aggiungere le ore di manodopera come righe nelle fatture e usare il nostro modulo HR per le paghe di base, ma non offriamo timbrature in tempo reale per i meccanici, decodifica VIN integrata né integrazioni dirette con banche dati di riparazione auto di terze parti."
+    },
+    {
+      "q": "Come gestisco un costo di diagnosi da stornare se il cliente fa la riparazione?",
+      "a": "Aggiungi il costo di diagnosi come normale voce di servizio nel preventivo iniziale. Quando il cliente approva la riparazione completa, trasformi il preventivo in fattura, aggiungi i ricambi e la manodopera necessari e inserisci una riga negativa per detrarre l'importo della diagnosi originale."
+    },
+    {
+      "q": "Posso seguire il magazzino ricambi con fornitori diversi?",
+      "a": "Sì. Puoi creare ordini di acquisto per fornitori di ricambi diversi e registrare i documenti di trasporto in arrivo. Il sistema aggiorna le quantità in magazzino e i prezzi di costo, così sai esattamente quanto margine fai quando fatturi al cliente."
+    },
+    {
+      "q": "È possibile fatturare a una società di garanzia invece che al conducente?",
+      "a": "Sì. Crei semplicemente una scheda cliente per il fornitore della garanzia. Poi puoi emettere direttamente a lui la fattura per i ricambi coperti e la manodopera a tariffa oraria, tenendo i suoi saldi aperti separati da quelli dei tuoi clienti privati."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Metti ordine nella fatturazione della tua officina",
+  "ctaSub": "Crea preventivi dettagliati, segui il magazzino ricambi e fattura ai tuoi clienti gratis."
+}

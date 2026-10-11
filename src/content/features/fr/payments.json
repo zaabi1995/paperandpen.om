@@ -1,0 +1,35 @@
+{
+  "locale": "fr",
+  "slug": "payments",
+  "order": 10,
+  "title": "Paiements",
+  "metaTitle": "Paiement en ligne des factures · Payé plus vite · Paper & Pen",
+  "metaDescription": "Ajoutez un lien de paiement à chaque facture et soyez payé par carte. Paymob et passerelles mondiales, toutes devises, rapprochement automatique.",
+  "keywords": "paiement en ligne, accepter les paiements par carte, payer une facture en ligne, paymob, passerelle de paiement, être payé plus vite, lien de paiement",
+  "heroEyebrow": "Intégré",
+  "heroTitle": "Vos clients vous paient <em class=\"text-copper-400 not-italic\">en un geste</em>",
+  "heroSubtitle": "Ajoutez un lien de paiement en ligne sécurisé à chaque facture pour que vos clients règlent par carte instantanément. Les paiements sont rapprochés automatiquement dans vos comptes, dans toutes les devises, partout.",
+  "heroBullets": ["Lien de paiement en ligne sur chaque facture", "Rapprochement automatique dans votre grand livre", "Paymob et passerelles mondiales"],
+  "features": [
+    { "icon": "card", "title": "Paiement par carte", "desc": "Vos clients paient n'importe quelle facture en ligne par carte, sans compte ni application." },
+    { "icon": "bolt", "title": "Lien de paiement instantané", "desc": "Chaque facture porte un lien sécurisé, à partager par e-mail ou WhatsApp." },
+    { "icon": "refresh", "title": "Rapprochement automatique", "desc": "Un paiement réussi marque la facture comme payée et passe en comptabilité." },
+    { "icon": "globe", "title": "Toutes les devises", "desc": "Encaissez en OMR, AED, SAR, USD, EUR et plus, via la bonne passerelle." },
+    { "icon": "shield", "title": "Sécurisé et PCI", "desc": "Les données de carte sont traitées par des passerelles certifiées, jamais stockées chez vous." },
+    { "icon": "receipt", "title": "Reçus envoyés", "desc": "Vos clients reçoivent un reçu automatique dès que le paiement aboutit." }
+  ],
+  "sections": [
+    { "eyebrow": "Soyez payé plus vite", "title": "Supprimez les frictions entre la facture et l'encaissement", "body": "Plus votre client peut payer vite, plus vite vous encaissez. Un lien de paiement en ligne sur chaque facture, c'est zéro coordonnées bancaires à recopier et zéro virement à attendre. Le client touche, paie par carte, et la facture se met à jour toute seule, reçu à la clé.", "items": ["Paiement par carte en un geste", "Lien à partager sur WhatsApp et par e-mail", "Reçus automatiques"] },
+    { "eyebrow": "Local et mondial", "title": "La bonne passerelle pour votre marché", "body": "Paper & Pen se connecte à Paymob pour les pays du Golfe et à d'autres passerelles mondiales : vous acceptez les cartes que vos clients utilisent vraiment, dans leur devise. Chaque règlement est rapproché de la bonne facture et passe dans vos comptes, pour qu'encaissement et comptabilité avancent d'un même pas.", "items": ["Paymob pour le Golfe, plus des options mondiales", "Encaissement multidevise", "Rapprochement avec la facture exacte"] }
+  ],
+  "faqs": [
+    { "q": "L'activation du paiement en ligne est-elle gratuite ?", "a": "Oui, l'ajout de liens de paiement en ligne est intégré. La passerelle de paiement prélève ses propres frais par transaction, comme toutes les passerelles." },
+    { "q": "Quelles passerelles sont prises en charge ?", "a": "Paymob pour les pays du Golfe, plus d'autres passerelles mondiales, pour accepter les cartes de vos clients dans leur devise." },
+    { "q": "Un paiement met-il la facture à jour automatiquement ?", "a": "Oui. Un paiement réussi marque la facture comme payée, envoie un reçu et passe l'écriture dans vos comptes." },
+    { "q": "Mes clients peuvent-ils payer dans différentes devises ?", "a": "Oui. Encaissez en OMR, AED, SAR, USD, EUR et plus, via la passerelle appropriée." },
+    { "q": "Le paiement par carte est-il sécurisé ?", "a": "Oui. Les données de carte sont traitées par des passerelles certifiées PCI, jamais stockées dans Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Transformez vos factures en trésorerie immédiate",
+  "ctaSub": "Commencez gratuitement et ajoutez un lien de paiement en ligne à chaque facture pour que vos clients vous paient en un geste."
+}

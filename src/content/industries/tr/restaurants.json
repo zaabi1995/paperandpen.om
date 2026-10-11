@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restoranlar ve Kafeler",
+  "metaTitle": "Restoran Faturalama ve Reçete Stoku | Paper & Pen",
+  "metaDescription": "Restoranlar ve kafeler için ücretsiz faturalama, malzeme stoku, reçete maliyeti ve tedarikçi siparişleri. Gıda maliyetini kontrol edin, hızlı fatura kesin.",
+  "keywords": "restoran programı, kafe adisyon programı, reçete maliyet hesaplama, gıda maliyeti kontrolü, restoran stok takibi, tedarikçi satın alma siparişi, restoran erp",
+  "heroEyebrow": "Restoranlar ve kafeler için",
+  "heroTitle": "Hızlı fatura kesin, <em class=\"text-copper-400 not-italic\">gıda maliyetini kontrol edin</em>",
+  "heroSubtitle": "Saniyeler içinde fiş yazdırın, malzemeleri grama kadar takip edin ve her yemeğin gerçek maliyetini bilin. Paper & Pen mutfağı, kasayı ve defterleri birlikte çalıştırır.",
+  "heroBullets": ["Ücretsiz, hızlı fişler", "Malzeme ve reçete maliyeti", "Tedarikçi satın alma siparişleri"],
+  "features": [
+    { "icon": "receipt", "title": "Hızlı fişler", "desc": "Siparişi alın, vergi ve servis ücretini uygulayın, saniyeler içinde fiş yazdırın veya paylaşın." },
+    { "icon": "manufacturing", "title": "Reçete maliyeti", "desc": "Reçeteleri malzemelerden tanımlayın, her yemeğin gerçek maliyetini bilin." },
+    { "icon": "inventory", "title": "Malzeme stoku", "desc": "Hammaddeleri birim, parti ve son kullanma tarihine göre düşük stok uyarılarıyla takip edin." },
+    { "icon": "truck", "title": "Tedarikçi siparişleri", "desc": "Tedarikçilere satın alma siparişleri verin, teslim alırken stok ve maliyeti güncelleyin." },
+    { "icon": "calc", "title": "Gıda maliyeti yüzdesi", "desc": "Marjlarınızın sağlıklı kalması için yemek maliyetini menü fiyatıyla karşılaştırın." },
+    { "icon": "chart", "title": "Satış raporları", "desc": "En çok satan yemekleri, günlük hasılatı ve günler ile şubeler genelindeki eğilimleri görün." }
+  ],
+  "sections": [
+    { "eyebrow": "Daha hızlı bir salon", "title": "Kuyruğu ilerleten fişler", "body": "Öğle yoğunluğunda yavaş hesaba yer yoktur. Ürünleri ekleyin, KDV veya servis ücretini uygulayın, ödemeyi alın ve saniyeler içinde temiz bir fiş verin; misafir isterse WhatsApp'ta paylaşın. Her satış defterlerinize otomatik işlenir, böylece günü kapatmak bir akşam boyu veri girişi değil, bir bakış kadar sürer.", "items": ["Ürünleri ekleyin ve ödemeyi hızla alın", "KDV ve servis ücreti sizin yerinize hesaplanır", "Günlük hasılat otomatik olarak mutabık olur"] },
+    { "eyebrow": "Mutfak gerçeği söyler", "title": "Marjınızı koruyan reçete maliyeti", "body": "Bir yemek ancak maliyetini biliyorsanız kârlıdır. Reçeteleri malzemelerden oluşturun, Paper & Pen her tabağın maliyetini güncel alış fiyatlarından hesaplasın ve tedarikçi fiyatları değiştikçe gıda maliyeti yüzdenizi izleyin. Malzemeleri parti ve son kullanma tarihine göre takip edin, satın alma siparişleri verin ve fireyi kontrol altında tutun. Yerleşik OMR, AED ve SAR ile %5 KDV desteğiyle Umman'da geliştirildi; USD, EUR veya her pazar için hazırdır.", "items": ["Güncel malzeme fiyatlarından maliyetlendirilen reçeteler", "Hammaddelerde parti ve son kullanma tarihi takibi", "Teslim alırken maliyeti güncelleyen satın alma siparişleri"] }
+  ],
+  "faqs": [
+    { "q": "Menümü malzeme fiyatlarından maliyetlendirebilir miyim?", "a": "Evet. Her yemeği bir malzeme reçetesi olarak tanımlayın, Paper & Pen maliyetini güncel alış fiyatlarından hesaplasın; böylece marjınızı koruyan menü fiyatları belirleyebilirsiniz." },
+    { "q": "Malzemeleri ve son kullanma tarihlerini takip ediyor mu?", "a": "Evet. Hammaddeler ölçü birimi, parti ve son kullanma tarihine göre takip edilir; düşük stok uyarıları sayesinde stok bitmeden yeniden sipariş verirsiniz." },
+    { "q": "KDV ve servis ücreti uygulayabilir miyim?", "a": "Evet. Yapılandırılabilir Körfez KDV'sini, servis ücretini veya herhangi bir vergi oranını uygulayın; hepsi hesapta otomatik hesaplanır." },
+    { "q": "Bir kafe için faturalama ücretsiz mi?", "a": "Fişler dahil Satış ve Faturalama sonsuza kadar ücretsizdir. Malzeme takibi ve reçete maliyeti istediğinizde Stok ve Üretim'i ekleyin." },
+    { "q": "Birden fazla şubeyi yönetebilir miyim?", "a": "Evet. Satışları ve stoku şube bazında takip edin, tüm şubelerinizdeki canlı miktarları ve günlük hasılatı tek çalışma alanından görün." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Hızlı servis, akıllı maliyet",
+  "ctaSub": "Fişler ve faturalama ile ücretsiz başlayın, ardından gıda maliyetini kontrol altına almak için Stok ve reçete maliyetini ekleyin."
+}

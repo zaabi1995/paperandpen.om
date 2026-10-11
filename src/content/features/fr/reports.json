@@ -1,0 +1,35 @@
+{
+  "locale": "fr",
+  "slug": "reports",
+  "order": 8,
+  "title": "Rapports",
+  "metaTitle": "Rapports et analyses d'entreprise · Paper & Pen",
+  "metaDescription": "Tableaux de bord et rapports en direct sur ventes, trésorerie, bénéfice, taxes et stocks. Remontée à la source, export Excel ou PDF, toutes devises.",
+  "keywords": "rapports d'entreprise, tableau de bord analytique, rapport de ventes, compte de résultat, rapport de TVA, états financiers, export Excel",
+  "heroEyebrow": "Module complémentaire",
+  "heroTitle": "Des décisions fondées sur des <em class=\"text-copper-400 not-italic\">chiffres en direct</em>",
+  "heroSubtitle": "Chaque vente, paiement et mouvement alimente des tableaux de bord et des rapports clairs, en temps réel. Voyez ce qui se vend, qui vous doit de l'argent et où se trouve votre bénéfice, puis exportez où vous voulez.",
+  "heroBullets": ["Tableaux de bord en temps réel", "Remontée jusqu'au document source", "Export Excel ou PDF"],
+  "features": [
+    { "icon": "reports", "title": "Analyse des ventes", "desc": "Meilleurs produits, meilleurs clients et tendances sur n'importe quelle période." },
+    { "icon": "chart", "title": "Rapports financiers", "desc": "Compte de résultat, bilan, flux de trésorerie et balance âgée clients." },
+    { "icon": "calc", "title": "Rapports fiscaux", "desc": "Récapitulatifs de TVA déductible et collectée, prêts pour votre déclaration." },
+    { "icon": "inventory", "title": "Rapports de stock", "desc": "Valorisation, mouvements et stocks bas, dans tous vos entrepôts." },
+    { "icon": "doc", "title": "Remontée à la source", "desc": "Cliquez sur n'importe quel chiffre pour retrouver le document exact qui le justifie." },
+    { "icon": "refresh", "title": "Toujours à jour", "desc": "Les rapports se mettent à jour en direct au fil des transactions, sans traitement nocturne." }
+  ],
+  "sections": [
+    { "eyebrow": "La clarté d'un coup d'œil", "title": "Un seul tableau de bord pour toute l'entreprise", "body": "Ouvrez Paper & Pen et voyez les chiffres qui comptent : la trésorerie en banque, qui vous doit de l'argent, ce qui se vend et votre bénéfice du mois. Comme tout est enregistré en temps réel, le tableau de bord dit la vérité, pas un instantané de la semaine dernière.", "items": ["Trésorerie, créances et bénéfice en premier", "Filtres par période, client ou produit", "En direct, jamais dépassé"] },
+    { "eyebrow": "Partagez et creusez", "title": "Des rapports auxquels votre comptable et votre conseil font confiance", "body": "Depuis n'importe quel rapport, remontez directement au document source, puis exportez en Excel ou PDF pour votre comptable, votre banque ou votre conseil d'administration. Produisez vos rapports dans toutes les devises et passez l'interface en arabe, anglais, hindi, bengali ou ourdou pour que chacun lise les mêmes chiffres dans sa langue.", "items": ["Détail jusqu'à chaque transaction", "Export Excel et PDF", "Multidevise et multilingue"] }
+  ],
+  "faqs": [
+    { "q": "Les rapports sont-ils gratuits ?", "a": "Les Rapports sont un module complémentaire payant et optionnel. Le socle gratuit pour toujours inclut des tableaux de bord de facturation, et la suite complète de rapports est disponible quand vous avez besoin d'analyses plus poussées." },
+    { "q": "Les rapports sont-ils en temps réel ?", "a": "Oui. Chaque transaction est enregistrée en direct : tableaux de bord et rapports reflètent toujours la situation actuelle de votre entreprise." },
+    { "q": "Puis-je exporter les rapports ?", "a": "Oui. Exportez en Excel ou PDF pour les partager avec votre comptable, votre banque ou votre conseil d'administration." },
+    { "q": "Puis-je remonter un chiffre jusqu'à sa source ?", "a": "Oui. Cliquez sur n'importe quel chiffre pour retrouver la facture, le paiement ou l'écriture comptable exacte qui le justifie." },
+    { "q": "Les rapports gèrent-ils plusieurs devises ?", "a": "Oui. Produisez vos rapports dans toutes les devises et affichez l'interface en cinq langues." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Voyez votre entreprise clairement",
+  "ctaSub": "Commencez gratuitement avec la facturation et ajoutez les Rapports pour des tableaux de bord en direct et des analyses prêtes à exporter."
+}

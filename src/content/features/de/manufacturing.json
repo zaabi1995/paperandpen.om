@@ -1,0 +1,35 @@
+{
+  "locale": "de",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Fertigung",
+  "metaTitle": "Fertigungs- und Produktionssoftware · Paper & Pen",
+  "metaDescription": "Produktion mit Stücklisten, Arbeitsaufträgen und echter Kalkulation planen. Rohstoffe verbrauchen, Fertigwaren herstellen, die echte Marge kennen. Weltweit.",
+  "keywords": "Fertigungssoftware, Produktionsplanung, Stückliste, Stücklistenverwaltung, Arbeitsauftrag, Fertigungsauftrag, Produktionskalkulation, Fertigwaren, PPS Software",
+  "heroEyebrow": "Zusatzmodul",
+  "heroTitle": "Auf Auftrag fertigen, <em class=\"text-copper-400 not-italic\">auf den Rial genau kalkulieren</em>",
+  "heroSubtitle": "Machen Sie mit Stücklisten und Arbeitsaufträgen aus Rohstoffen Fertigwaren, während Paper & Pen die Kosten jeder Komponente verfolgt. So kennen Sie immer Ihre echte Marge.",
+  "heroBullets": ["Stücklisten und Arbeitsaufträge", "Automatischer Lagerverbrauch", "Echte Produktionskalkulation"],
+  "features": [
+    { "icon": "manufacturing", "title": "Stücklisten", "desc": "Festlegen, was in jedes Produkt gehört, mit Mengen und Baugruppen." },
+    { "icon": "doc", "title": "Arbeitsaufträge", "desc": "Produktionsläufe planen und verfolgen, vom Rohstoff bis zum Fertigbestand." },
+    { "icon": "inventory", "title": "Automatische Lagerbewegungen", "desc": "Rohstoffe werden verbraucht und Fertigwaren zugebucht, während Sie produzieren." },
+    { "icon": "calc", "title": "Produktionskalkulation", "desc": "Material- und Gemeinkosten zu einem genauen Wert der Fertigwaren zusammenführen." },
+    { "icon": "chart", "title": "Margen im Blick", "desc": "Produktionskosten mit dem Verkaufspreis vergleichen und die echte Marge je Artikel sehen." },
+    { "icon": "refresh", "title": "Durchgängig verknüpft", "desc": "Einkauf, Lager und Verkauf in einem durchgehenden Ablauf verbinden." }
+  ],
+  "sections": [
+    { "eyebrow": "Mit Sicherheit planen", "title": "Vom Rezept zur Fertigware", "body": "Legen Sie eine Stückliste einmal an, und Paper & Pen weiß genau, was jede Produktion verbraucht. Erstellen Sie einen Arbeitsauftrag, und Rohstoffe werden reserviert und verbraucht, während Fertigwaren ins Lager gebucht werden. Die gesamte Kalkulation übernimmt das System für Sie.", "items": ["Wiederverwendbare Stücklisten", "Arbeitsaufträge mit Lagerreservierung", "Automatischer Verbrauch und Zugang der Fertigwaren"] },
+    { "eyebrow": "Kennen Sie Ihre echte Marge", "title": "Eine Kalkulation, die die Wahrheit sagt", "body": "Wer seine Kosten schätzt, schätzt seinen Gewinn. Paper & Pen führt Material- und Gemeinkosten zu echten Herstellkosten zusammen, bucht sie in Ihre Bücher und zeigt die Marge bei jedem Verkauf. Funktioniert in jeder Währung, damit Sie grenzüberschreitend einkaufen und verkaufen können.", "items": ["Kalkulation aus Material plus Gemeinkosten", "Automatische Buchung in die Buchhaltung", "Marge je Produkt und je Auftrag"] }
+  ],
+  "faqs": [
+    { "q": "Ist die Fertigung kostenlos?", "a": "Die Fertigung ist ein optionales, kostenpflichtiges Zusatzmodul. Das Kernmodul Vertrieb & Rechnungen ist für immer kostenlos, und Sie fügen die Fertigung hinzu, wenn Sie Waren herstellen." },
+    { "q": "Kann ich Stücklisten anlegen?", "a": "Ja. Erstellen Sie für jedes Produkt eine Stückliste (BOM), einschließlich Baugruppen, und verwenden Sie sie bei jedem Produktionslauf wieder." },
+    { "q": "Wird der Bestand automatisch verbraucht?", "a": "Ja. Wenn Sie einen Arbeitsauftrag abwickeln, werden Rohstoffe verbraucht und Fertigwaren automatisch ins Lager gebucht." },
+    { "q": "Wie werden die Produktionskosten berechnet?", "a": "Material- und Gemeinkosten fließen in den Wert der Fertigwaren ein, der in die Buchhaltung gebucht wird. So stimmen Ihre Margen." },
+    { "q": "Funktioniert es mit jeder Währung?", "a": "Ja. Kaufen Sie Material und verkaufen Sie Fertigwaren in jeder Währung, mit Kalkulation und Buchhaltung immer im Einklang." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Kalkulieren Sie jede Produktion genau",
+  "ctaSub": "Starten Sie kostenlos mit Rechnungen und fügen Sie die Fertigung hinzu, um die Produktion zu planen und Ihre echte Marge zu kennen."
+}

@@ -1,0 +1,140 @@
+{
+  "locale": "es",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Baréin",
+  "title": "IVA en Baréin",
+  "metaTitle": "IVA en Baréin: tipo del 10% y reglas de factura · Paper & Pen",
+  "metaDescription": "El tipo de IVA del 10% de Baréin, el umbral de registro de BHD 37,500 y lo que exige la NBR en una factura con IVA, citado a la guía de la propia NBR.",
+  "keywords": "iva baréin, tipo de iva baréin 10, umbral de registro de iva baréin, requisitos de factura con iva baréin, national bureau for revenue",
+  "heroEyebrow": "Baréin",
+  "heroTitle": "Facturar con las normas del <em class=\"text-copper-400 not-italic\">IVA de Baréin</em>",
+  "heroSubtitle": "El tipo del 10%, los umbrales de registro y lo que exige el National Bureau for Revenue en una factura con IVA, incluido el único dato propio de la construcción.",
+  "heroBullets": [
+    "Tipo general del 10%",
+    "BHD 37,500 para registrarse",
+    "Sin obligación de factura electrónica publicada"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Tipo general de IVA",
+      "value": "10%",
+      "note": "El IVA empezó con un 5% el 1 de enero de 2019 y se elevó al 10% con efecto desde el 1 de enero de 2022. Las comparativas escritas antes de 2022 están desfasadas.",
+      "source": 1
+    },
+    {
+      "label": "Umbral de registro obligatorio",
+      "value": "BHD 37,500",
+      "note": "Superar esta cifra obliga a registrarse.",
+      "source": 1
+    },
+    {
+      "label": "Umbral de registro voluntario",
+      "value": "BHD 18,750",
+      "note": "Se mide sobre los 12 meses anteriores o los 12 siguientes, y puede basarse en gastos con IVA en lugar de en suministros.",
+      "source": 1
+    },
+    {
+      "label": "Plazo de emisión de la factura",
+      "value": "Día 15 del mes siguiente",
+      "note": "Las facturas deben emitirse a más tardar el día quince del mes siguiente a aquel en que se produjo el devengo del IVA.",
+      "source": 1
+    },
+    {
+      "label": "Moneda de la factura",
+      "value": "BHD",
+      "note": "Los valores, los importes de IVA y los totales se muestran en dinares bareiníes, con el tipo de cambio indicado cuando se usa una moneda extranjera.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "La sección 10.3 de la VAT General Guide de la NBR establece lo que debe mostrar una factura con IVA completa. Una factura con IVA simplificada necesita solo una parte de estos datos.",
+    "items": [
+      "La indicación \"Factura con IVA\"",
+      "Nombre, dirección y número de cuenta de IVA del proveedor",
+      "Nombre y dirección del cliente",
+      "Un número de factura con IVA correlativo",
+      "La fecha de emisión, y la fecha de suministro o de pago si es distinta",
+      "Una descripción del suministro lo bastante detallada para que quede claro su tratamiento de IVA",
+      "En la construcción de un edificio nuevo, el número de la licencia de obra",
+      "La cantidad de bienes suministrados",
+      "El valor del suministro y el precio unitario en dinares, sin IVA",
+      "Cualquier descuento, y el valor neto en dinares sin IVA",
+      "El tipo de IVA y el IVA adeudado en dinares, por línea cuando los tipos difieren",
+      "El importe total adeudado con IVA, en dinares",
+      "El tipo de cambio aplicado cuando se usa una moneda extranjera",
+      "Una indicación clara cuando una operación está exenta",
+      "Una referencia al régimen de margen de beneficio cuando se utiliza"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Sin obligación publicada",
+    "body": "No encontramos ningún sistema, fase ni fecha de factura electrónica publicados por el National Bureau for Revenue. Su VAT General Guide, actualizada en julio de 2026, no menciona en absoluto la factura electrónica, y su índice de publicaciones no incluye ninguna guía sobre ella. Algunos comentarios de otras fuentes describen un sistema entre empresas en diseño para un posible lanzamiento por fases, pero nada en el sitio de la propia NBR respalda una fecha, así que no publicamos ninguna. Si estás planificando un cambio de sistema, planifícalo sobre las reglas de contenido de la factura indicadas arriba, que están vigentes y publicadas, y no sobre una obligación prevista.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Hacerlo bien",
+      "title": "Las dos trampas propias de Baréin",
+      "body": "La primera es el historial del tipo. Baréin pasó del cinco al diez por ciento el 1 de enero de 2022, así que cualquier plantilla, lista de precios o artículo comparativo escrito antes es incorrecto, y el error sobrevive en silencio en plantillas de cotización antiguas. La segunda es el plazo de emisión. Baréin no solo dice que hay que emitir la factura, dice cuándo: a más tardar el día quince del mes siguiente a aquel en que se produjo el devengo del IVA. Una empresa que factura cuando tiene el papeleo listo puede llegar tarde sin darse cuenta nunca.",
+      "items": [
+        "Revisa si alguna plantilla anterior a 2022 tiene un tipo del 5%",
+        "Factura a más tardar el día 15 del mes siguiente",
+        "Muestra el IVA por línea cuando los tipos difieren",
+        "Indica el tipo de cambio en las facturas en moneda extranjera"
+      ]
+    },
+    {
+      "eyebrow": "Detalle por sector",
+      "title": "El dato de construcción que nadie espera",
+      "body": "Las reglas de contenido de la factura de Baréin incluyen un requisito sin equivalente en el resto del Golfo: en los suministros relacionados con la construcción de un edificio nuevo, la factura debe mostrar el número de la licencia de obra. Es fácil pasarlo por alto porque está dentro del requisito general de descripción y no como un dato destacado, y es el tipo de omisión que solo se descubre cuando alguien cuestiona una factura meses después. Si trabajas en construcción, pon el número de licencia en tu plantilla de descripción de líneas en lugar de confiar en que alguien se acuerde.",
+      "items": [
+        "Los suministros de obra nueva necesitan el número de la licencia de obra",
+        "Ponlo en la plantilla, no en la memoria de alguien",
+        "Describe el suministro lo bastante para mostrar su tratamiento de IVA",
+        "Ten preparada la redacción de la indicación de exención"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Cuál es el tipo de IVA en Baréin?",
+      "a": "El diez por ciento. Baréin introdujo el IVA al cinco por ciento el 1 de enero de 2019 y elevó el tipo general al diez por ciento con efecto desde el 1 de enero de 2022. Cualquier guía, plantilla o comparativa que siga mostrando el cinco por ciento para Baréin es anterior a ese cambio."
+    },
+    {
+      "q": "¿Cuándo tengo que registrarme a efectos de IVA en Baréin?",
+      "a": "Cuando tus suministros superen BHD 37,500. Puedes registrarte de forma voluntaria a partir de BHD 18,750, medidos sobre los doce meses anteriores o los doce siguientes, y Baréin permite el registro voluntario a partir de los gastos con IVA además de los suministros, algo que puede venir bien a una empresa que aún está construyendo sus ventas."
+    },
+    {
+      "q": "¿La factura electrónica es obligatoria en Baréin?",
+      "a": "No, según nada de lo que publica el National Bureau for Revenue. Su VAT General Guide, actualizada en julio de 2026, no menciona la factura electrónica, y no aparece ninguna guía sobre ella entre sus publicaciones. No repetimos fechas de comentarios que la propia NBR no ha publicado."
+    },
+    {
+      "q": "¿Hasta cuándo hay que emitir una factura con IVA en Baréin?",
+      "a": "Hasta el día quince del mes siguiente a aquel en que se produjo el devengo del IVA. Es un plazo real y no una simple expectativa, y pilla desprevenidas a las empresas que agrupan su facturación al final del trimestre."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Factura correctamente en Baréin, gratis",
+  "ctaSub": "Define tú el tipo, muestra el IVA por línea y guarda los datos que pide la NBR en una plantilla que no tienes que recordar.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, versión 1.15, incluida la sección 10.3 sobre los requisitos de la factura",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "es",
+  "slug": "accountants",
+  "order": 4,
+  "title": "Contables y gestores",
+  "metaTitle": "Software de contabilidad para contables | Paper & Pen",
+  "metaDescription": "Libros por partida doble, declaraciones de IVA, informes financieros y espacios para varios clientes para contables y gestores. Cualquier moneda e impuesto.",
+  "keywords": "software de contabilidad para contables, programa de contabilidad para gestorías, contabilidad por partida doble, software para declaraciones de iva, informes financieros, contabilidad de varios clientes, balance de sumas y saldos",
+  "heroEyebrow": "Para contables y gestores",
+  "heroTitle": "Libros limpios que <em class=\"text-copper-400 not-italic\">siempre cuadran</em>",
+  "heroSubtitle": "Contabilidad real por partida doble, asientos automáticos de cada factura y pago, declaraciones de IVA e informes en los que tus clientes pueden confiar. Paper & Pen se ocupa de la contabilidad para que tú te ocupes de asesorar.",
+  "heroBullets": ["Libros por partida doble de verdad", "Asientos automáticos de ventas y compras", "Declaraciones de IVA e informes financieros"],
+  "features": [
+    { "icon": "accounting", "title": "Libros por partida doble", "desc": "Cada transacción registra un asiento cuadrado en un plan de cuentas como es debido." },
+    { "icon": "refresh", "title": "Asientos automáticos", "desc": "Facturas, pagos y movimientos de stock se registran en el libro mayor de forma automática." },
+    { "icon": "calc", "title": "Declaraciones de IVA", "desc": "El impuesto se controla en cada documento, listo para presentar una declaración de IVA del 5% o de cualquier tipo." },
+    { "icon": "reports", "title": "Informes financieros", "desc": "Pérdidas y ganancias, balance, balance de sumas y saldos y libros, cuando los necesites." },
+    { "icon": "doc", "title": "Registro de auditoría", "desc": "Cada asiento se rastrea hasta su documento de origen para una auditoría limpia." },
+    { "icon": "globe", "title": "Cualquier moneda e impuesto", "desc": "Atiende a clientes en varias monedas y con cualquier régimen fiscal del mundo." }
+  ],
+  "sections": [
+    { "eyebrow": "Se acabó volver a teclear", "title": "El libro mayor se escribe solo", "body": "Los asientos manuales son la puerta de entrada de los errores. En Paper & Pen, cada factura, pago, compra y movimiento de stock registra un asiento cuadrado por partida doble en un plan de cuentas como es debido, así que los libros están siempre al día y siempre conciliados. Dedicas tu tiempo a revisar y asesorar, no a teclear asientos, y cada cifra se rastrea directamente hasta su documento de origen.", "items": ["Asientos cuadrados de cada transacción", "Un plan de cuentas como es debido", "Registro de auditoría completo hasta los documentos de origen"] },
+    { "eyebrow": "Informa y presenta con seguridad", "title": "IVA, estados e informes cuando los necesites", "body": "Saca una cuenta de pérdidas y ganancias, un balance, un balance de sumas y saldos o el libro mayor cuando un cliente lo pida, y genera una declaración de IVA con el impuesto controlado en cada documento. Paper & Pen gestiona de serie el IVA configurable del CCG y cualquier tipo de impuesto o moneda para clientes de otros lugares, así que puedes atender una cartera en varios mercados. Hecho en Omán, cómodo en cualquier lugar, de Mascate a Manchester.", "items": ["Pérdidas y ganancias, balance, sumas y saldos, libros", "IVA controlado por documento, listo para presentar", "Multimoneda, cualquier régimen fiscal"] }
+  ],
+  "faqs": [
+    { "q": "¿Es contabilidad por partida doble de verdad?", "a": "Sí. Cada transacción registra un asiento cuadrado en un plan de cuentas como es debido, así que el balance de sumas y saldos siempre cuadra y los libros se concilian." },
+    { "q": "¿Las facturas y los pagos se registran de forma automática?", "a": "Sí. Ventas, compras, pagos y movimientos de stock se registran en el libro mayor de forma automática, así que no hay nada que volver a teclear y hay mucho menos margen de error." },
+    { "q": "¿Puedo generar declaraciones de IVA?", "a": "Sí. El impuesto se controla en cada documento, así que puedes generar una declaración del IVA configurable del CCG o una declaración de cualquier tipo para clientes de otros regímenes fiscales." },
+    { "q": "¿Qué informes puedo generar?", "a": "Pérdidas y ganancias, balance, balance de sumas y saldos, libro mayor y estados de cuenta de clientes o proveedores, cuando los necesites y rastreables hasta los documentos de origen." },
+    { "q": "¿Puedo atender a clientes en distintas monedas?", "a": "Sí. Paper & Pen gestiona clientes en varias monedas y cualquier régimen fiscal, así que puedes atender una cartera de varios países desde una sola plataforma." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/invoicing/ledgers", "/use-cases/small-business", "/pricing"],
+  "ctaTitle": "Menos tiempo tecleando, más tiempo asesorando",
+  "ctaSub": "Deja que Paper & Pen registre los libros de forma automática para que tus cuentas cuadren y tus informes estén listos cuando los necesites."
+}

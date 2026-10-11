@@ -1,0 +1,140 @@
+{
+  "locale": "tr",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahreyn",
+  "title": "Bahreyn'de KDV",
+  "metaTitle": "Bahreyn'de KDV: %10 Oran ve Fatura Kuralları · Paper & Pen",
+  "metaDescription": "Bahreyn'in %10 KDV oranı, 37,500 BHD kayıt eşiği ve NBR'nin KDV faturasında istedikleri; Kurum'un kendi rehberine dayanır.",
+  "keywords": "bahreyn kdv, bahreyn kdv oranı yüzde 10, bahreyn kdv kayıt eşiği, bahreyn kdv faturası şartları, national bureau for revenue, bahreyn vergi faturası",
+  "heroEyebrow": "Bahreyn",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">Bahreyn KDV</em> kurallarına göre faturalama",
+  "heroSubtitle": "%10 oran, kayıt eşikleri ve National Bureau for Revenue'nun bir KDV faturasında istedikleri, inşaata özgü tek alan dahil.",
+  "heroBullets": [
+    "%10 standart oran",
+    "Kayıt için 37,500 BHD",
+    "Yayımlanmış e-fatura zorunluluğu yok"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Standart KDV oranı",
+      "value": "%10",
+      "note": "KDV 1 Ocak 2019'da %5 ile başladı ve 1 Ocak 2022'den itibaren geçerli olmak üzere %10'a çıkarıldı. 2022'den önce yazılmış karşılaştırmalar güncel değildir.",
+      "source": 1
+    },
+    {
+      "label": "Zorunlu kayıt eşiği",
+      "value": "37,500 BHD",
+      "note": "Bu rakamın aşılması kayıt zorunluluğu doğurur.",
+      "source": 1
+    },
+    {
+      "label": "İsteğe bağlı kayıt eşiği",
+      "value": "18,750 BHD",
+      "note": "Önceki 12 ay veya sonraki 12 ay üzerinden ölçülür ve teslimler yerine KDV'ye tabi giderlere dayanabilir.",
+      "source": 1
+    },
+    {
+      "label": "Fatura düzenleme son tarihi",
+      "value": "Takip eden ayın 15'i",
+      "note": "Faturalar, KDV'yi doğuran olayın gerçekleştiği ayı takip eden ayın on beşine kadar düzenlenmelidir.",
+      "source": 1
+    },
+    {
+      "label": "Faturadaki para birimi",
+      "value": "BHD",
+      "note": "Değerler, KDV tutarları ve toplamlar Bahreyn dinarı olarak gösterilir; yabancı para birimi kullanıldığında döviz kuru belirtilir.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "NBR'nin KDV Genel Rehberi'nin 10.3. bölümü, tam bir KDV faturasında nelerin gösterilmesi gerektiğini belirler. Basitleştirilmiş bir KDV faturası bunların bir alt kümesini gerektirir.",
+    "items": [
+      "\"KDV faturası\" ibaresi",
+      "Satıcının adı, adresi ve KDV Hesap Numarası",
+      "Alıcının adı ve adresi",
+      "Sıralı bir KDV fatura numarası",
+      "Düzenleme tarihi ile farklıysa teslim veya ödeme tarihi",
+      "KDV uygulamasını açıkça ortaya koyacak ayrıntıda teslimin tanımı",
+      "Yeni bir bina inşaatı için yapı ruhsatı numarası",
+      "Sağlanan malların miktarı",
+      "Teslimin değeri ve KDV hariç dinar cinsinden birim fiyat",
+      "Varsa iskonto ve KDV hariç dinar cinsinden net değer",
+      "Oranlar farklıysa satır bazında KDV oranı ve dinar cinsinden ödenecek KDV",
+      "Dinar cinsinden KDV dahil ödenecek toplam tutar",
+      "Yabancı para birimi kullanıldığında uygulanan döviz kuru",
+      "Bir işlem muafsa bunu açıkça belirten bir ifade",
+      "Kullanılıyorsa kâr marjı yöntemine bir atıf"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Yayımlanmış zorunluluk yok",
+    "body": "National Bureau for Revenue tarafından yayımlanmış herhangi bir e-fatura sistemi, aşaması veya tarihi bulamıyoruz. Temmuz 2026'da güncellenen KDV Genel Rehberi elektronik faturadan hiç bahsetmez ve yayın dizininde hiçbir e-fatura rehberi yer almaz. Başka yerlerdeki yorumlar, olası aşamalı bir başlangıç için tasarlanmakta olan işletmeden işletmeye bir sistemden söz eder; ancak Kurum'un kendi sitesinde bir tarihi destekleyen hiçbir şey olmadığı için tarih yayımlamıyoruz. Bir sistem değişikliği planlıyorsanız, beklenen bir zorunluluğa değil, yukarıdaki güncel ve yayımlanmış fatura içeriği kurallarına göre planlayın.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Doğru yapmak",
+      "title": "Bahreyn'e özgü iki tuzak",
+      "body": "Birincisi oran geçmişidir. Bahreyn 1 Ocak 2022'de yüzde beşten yüzde ona geçti; bu nedenle bundan önce yazılmış her şablon, fiyat listesi veya karşılaştırma yazısı yanlıştır ve hata eski teklif şablonlarında sessizce yaşamaya devam eder. İkincisi düzenleme son tarihidir. Bahreyn yalnızca faturanın düzenlenmesi gerektiğini söylemez, ne zamana kadar düzenleneceğini de söyler: KDV'yi doğuran olayın gerçekleştiği ayı takip eden ayın on beşi. Evrak hazır olduğunda fatura kesen bir işletme, geciktiğini hiç fark etmeden gecikmiş olabilir.",
+      "items": [
+        "2022 öncesi her şablonda %5 oran olup olmadığını kontrol edin",
+        "Takip eden ayın 15'ine kadar fatura kesin",
+        "Oranlar farklıysa KDV'yi satır bazında gösterin",
+        "Yabancı para birimli faturalarda döviz kurunu belirtin"
+      ]
+    },
+    {
+      "eyebrow": "Sektör ayrıntısı",
+      "title": "Kimsenin beklemediği inşaat alanı",
+      "body": "Bahreyn'in fatura içeriği kuralları, Körfez'in başka hiçbir yerinde karşılığı olmayan bir şart taşır: yeni bir bina inşaatına ilişkin teslimlerde faturada yapı ruhsatı numarası gösterilmelidir. Başlı başına bir alan olarak değil, genel tanım şartının içinde yer aldığı için gözden kaçırmak kolaydır ve ancak bir fatura aylar sonra sorgulandığında fark edilen türden bir eksikliktir. Müteahhitlik alanında çalışıyorsanız, kimsenin hatırlamasına güvenmek yerine ruhsat numarasını kalem açıklaması şablonunuza koyun.",
+      "items": [
+        "Yeni yapı teslimleri yapı ruhsatı numarası gerektirir",
+        "Birinin hafızasına değil, şablona koyun",
+        "Teslimi KDV uygulamasını gösterecek kadar iyi tanımlayın",
+        "Muafiyet ifadesinin metnini hazır tutun"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bahreyn'de KDV oranı nedir?",
+      "a": "Yüzde on. Bahreyn KDV'yi 1 Ocak 2019'da yüzde beş olarak getirdi ve standart oranı 1 Ocak 2022'den itibaren geçerli olmak üzere yüzde ona çıkardı. Bahreyn için hâlâ yüzde beş gösteren her rehber, şablon veya karşılaştırma bu değişiklikten öncesine aittir."
+    },
+    {
+      "q": "Bahreyn'de KDV'ye ne zaman kayıt olmam gerekir?",
+      "a": "Teslimleriniz 37,500 BHD'yi aştığında. Önceki veya sonraki on iki ay üzerinden ölçülmek üzere 18,750 BHD'den itibaren isteğe bağlı kayıt olabilirsiniz; Bahreyn isteğe bağlı kaydı teslimlerin yanı sıra KDV'ye tabi giderler esasında da kabul eder, bu da satışlarını henüz geliştiren bir işletmeye uygun olabilir."
+    },
+    {
+      "q": "Bahreyn'de e-fatura zorunlu mu?",
+      "a": "National Bureau for Revenue'nun yayımladığı hiçbir şeye göre değil. Temmuz 2026'da güncellenen KDV Genel Rehberi elektronik faturadan bahsetmez ve yayınları arasında hiçbir e-fatura rehberi yer almaz. Kurum'un kendisinin yayımlamadığı tarihleri yorumlardan aktarmıyoruz."
+    },
+    {
+      "q": "Bahreyn'de bir KDV faturası ne zamana kadar düzenlenmelidir?",
+      "a": "KDV'yi doğuran olayın gerçekleştiği ayı takip eden ayın on beşine kadar. Bu genel bir beklenti değil, gerçek bir son tarihtir ve faturalarını çeyrek sonunda toplu kesen işletmeleri yakalar."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Bahreyn'de doğru fatura kesin, ücretsiz",
+  "ctaSub": "Oranı kendiniz belirleyin, KDV'yi satır bazında gösterin ve Kurum'un istediği alanları hatırlamanız gerekmeyen bir şablonda tutun.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "KDV Genel Rehberi, sürüm 1.15, fatura şartlarına ilişkin 10.3. bölüm dahil",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "fr",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Gestion des stocks",
+  "metaTitle": "Logiciel de gestion des stocks · Paper & Pen",
+  "metaDescription": "Suivez vos stocks dans tous vos entrepôts en temps réel : alertes de stock bas, lots, codes-barres et valorisation comptabilisée en direct. Partout dans le monde.",
+  "keywords": "gestion des stocks, logiciel de gestion de stock, gestion d'entrepôt, alerte stock bas, inventaire code-barres, valorisation des stocks, multi-entrepôts",
+  "heroEyebrow": "Module complémentaire",
+  "heroTitle": "Des stocks <em class=\"text-copper-400 not-italic\">fiables</em>, en temps réel",
+  "heroSubtitle": "Sachez exactement ce que vous avez, où il se trouve et ce qu'il vaut. Le stock se met à jour dès que vous facturez ou réceptionnez des marchandises : vos chiffres sont toujours en direct.",
+  "heroBullets": ["Stock en direct dans tous les entrepôts", "Alertes de stock bas et de réapprovisionnement", "Valorisation comptabilisée"],
+  "features": [
+    { "icon": "inventory", "title": "Stock en temps réel", "desc": "Les quantités se mettent à jour dès que vous vendez, achetez ou transférez des marchandises." },
+    { "icon": "truck", "title": "Multi-entrepôts", "desc": "Suivez et transférez le stock entre sites et agences en toute visibilité." },
+    { "icon": "bell", "title": "Alertes de stock bas", "desc": "Fixez des seuils de réapprovisionnement et soyez prévenu avant la rupture d'un article qui part vite." },
+    { "icon": "receipt", "title": "Code-barres et SKU", "desc": "Scannez pour vendre ou réceptionner, avec un classement par SKU, lot et unité de mesure." },
+    { "icon": "calc", "title": "Valorisation en direct", "desc": "Le coût moyen ou le FIFO garde la valeur du stock exacte dans votre bilan." },
+    { "icon": "refresh", "title": "Lié aux ventes", "desc": "Factures et bons de commande font bouger le stock automatiquement, sans mise à jour manuelle." }
+  ],
+  "sections": [
+    { "eyebrow": "Toujours exact", "title": "Un stock qui se met à jour tout seul", "body": "Un inventaire manuel est dépassé dès la première vente. Dans Paper & Pen, chaque facture, achat et transfert ajuste le stock et son coût en temps réel : le chiffre à l'écran est celui de l'étagère. Fixez des seuils de réapprovisionnement et laissez le système vous dire quand acheter.", "items": ["Ajustement automatique à chaque transaction", "Seuils et alertes de réapprovisionnement", "Suivi par lot, SKU et unité de mesure"] },
+    { "eyebrow": "Le stock rejoint la comptabilité", "title": "De l'étagère au bilan", "body": "Gérer un stock, ce n'est pas seulement compter des cartons : c'est de l'argent réel dans votre bilan. Paper & Pen valorise le stock au coût moyen ou en FIFO et comptabilise automatiquement les mouvements, pour que votre coût des ventes et la valeur du stock soient toujours rapprochés. Dans toutes les devises, pour tous les marchés.", "items": ["Coût moyen ou FIFO", "Comptabilisation automatique", "Achats multidevises"] }
+  ],
+  "faqs": [
+    { "q": "La gestion des stocks est-elle incluse gratuitement ?", "a": "La gestion des stocks est un module complémentaire payant et optionnel. Le module de base Ventes et Facturation est gratuit pour toujours, et vous ajoutez les Stocks quand vous avez besoin d'un suivi en temps réel." },
+    { "q": "Puis-je gérer plusieurs entrepôts ?", "a": "Oui. Suivez le stock par site, transférez entre eux et voyez les quantités en direct partout." },
+    { "q": "Les codes-barres sont-ils pris en charge ?", "a": "Oui. Utilisez codes-barres et SKU pour vendre et réceptionner plus vite, avec gestion des lots et des unités de mesure." },
+    { "q": "Comment le stock est-il valorisé ?", "a": "Choisissez le coût moyen ou le FIFO. La valorisation se met à jour à chaque mouvement et est comptabilisée automatiquement." },
+    { "q": "Les ventes mettent-elles le stock à jour automatiquement ?", "a": "Oui. Les factures diminuent le stock et les achats l'augmentent en temps réel : vous ne mettez jamais les quantités à jour à la main." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Reprenez le contrôle de votre stock",
+  "ctaSub": "Commencez gratuitement avec la facturation et ajoutez les Stocks quand vous êtes prêt à suivre chaque site en temps réel."
+}

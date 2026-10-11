@@ -1,0 +1,35 @@
+{
+  "locale": "pt",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Faturamento",
+  "metaTitle": "Recursos de gestão de faturas | Paper & Pen ERP",
+  "metaDescription": "Conheça o controle de faturas, pagamentos online, lembretes, impostos configuráveis, cinco idiomas e fluxos multimoeda no Paper & Pen ERP.",
+  "keywords": "software de faturamento, emissor de faturas grátis, fatura online, enviar fatura, receber pagamento online, fatura com IVA, cobrança recorrente, lembrete de pagamento",
+  "heroEyebrow": "Grátis para sempre",
+  "heroTitle": "Um faturamento que faz você <em class=\"text-copper-400 not-italic\">receber mais rápido</em>",
+  "heroSubtitle": "Crie uma fatura caprichada em menos de um minuto, envie por e-mail ou WhatsApp e deixe seu cliente pagar online. Feito para qualquer moeda e qualquer alíquota, usado no mundo todo.",
+  "heroBullets": ["Vendas e Faturamento grátis para sempre", "Qualquer moeda, qualquer alíquota", "Link de pagamento online em cada fatura"],
+  "features": [
+    { "icon": "bolt", "title": "Fatura em segundos", "desc": "Escolha o cliente, adicione os itens e envie. Totais e impostos são calculados enquanto você digita." },
+    { "icon": "globe", "title": "Qualquer moeda", "desc": "Fature em OMR, AED, SAR, USD, EUR, GBP ou qualquer moeda, com as casas decimais corretas." },
+    { "icon": "card", "title": "Receba online", "desc": "Cada fatura traz um link de pagamento seguro para o cliente pagar com cartão em um toque." },
+    { "icon": "bell", "title": "Lembretes automáticos", "desc": "Lembretes gentis e programados cobram as faturas vencidas para que você não precise." },
+    { "icon": "refresh", "title": "Faturas recorrentes", "desc": "Configure mensalidades e assinaturas para faturar no piloto automático, por semana ou por mês." },
+    { "icon": "calc", "title": "Pronto para IVA e impostos", "desc": "Aplique qualquer alíquota de IVA ou imposto sobre vendas, calculada sobre o valor líquido após descontos." }
+  ],
+  "sections": [
+    { "eyebrow": "Feito para o mundo", "title": "Uma só ferramenta de faturamento para todos os mercados", "body": "Seja cobrando em dólares de Nova York ou em riais de Mascate, o Paper & Pen cuida da moeda, das casas decimais e das regras fiscais para você. Alterne a interface entre inglês, árabe, hindi, bengali e urdu para que toda a equipe trabalhe no próprio idioma.", "items": ["Multimoeda com formatação automática", "Impostos configuráveis para qualquer país", "Faturas em árabe, totalmente da direita para a esquerda"] },
+    { "eyebrow": "Do orçamento ao recebimento", "title": "Faturamento dentro de um ERP completo", "body": "Suas faturas não ficam isoladas. Converta um orçamento aprovado em fatura com um clique, registre o pagamento e veja tudo ser lançado nos seus livros automaticamente. Quando você crescer, estoque, contabilidade e folha de pagamento já estarão esperando no mesmo espaço de trabalho.", "items": ["Orçamento vira fatura em um clique", "Pagamentos conciliados no seu razão", "Nada de digitar duas vezes, nunca"] }
+  ],
+  "faqs": [
+    { "q": "O faturamento é grátis mesmo?", "a": "Sim. Vendas e Faturamento é grátis para sempre, sem limite de faturas ou de clientes. Você só paga se adicionar módulos opcionais como Estoque ou Folha de pagamento." },
+    { "q": "O cliente pode pagar a fatura online?", "a": "Sim. Cada fatura pode incluir um link seguro de pagamento online via Paymob e outros gateways, para o cliente pagar com cartão e o pagamento ser conciliado automaticamente." },
+    { "q": "Ele aceita IVA e outros impostos?", "a": "Sim. Defina qualquer alíquota, incluindo IVA configurável para o GCC ou o que valer no seu país. O imposto é calculado sobre o valor líquido após qualquer desconto." },
+    { "q": "Posso enviar faturas em árabe?", "a": "Sim. Toda a interface e o PDF da fatura podem ficar em árabe, totalmente da direita para a esquerda, além de inglês, hindi, bengali e urdu." },
+    { "q": "Posso automatizar a cobrança recorrente?", "a": "Sim. Crie uma fatura recorrente para mensalidades ou assinaturas, e o Paper & Pen emite e envia no prazo programado." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Envie sua primeira fatura grátis",
+  "ctaSub": "Crie um espaço de trabalho grátis e fature seu primeiro cliente em minutos. Sem cartão, grátis para sempre."
+}

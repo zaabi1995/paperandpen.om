@@ -1,0 +1,35 @@
+{
+  "locale": "es",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Contabilidad",
+  "metaTitle": "Software de contabilidad online · Paper & Pen",
+  "metaDescription": "Contabilidad por partida doble que se registra sola. Pérdidas y ganancias y balance en tiempo real, declaraciones de IVA, conciliación bancaria, cualquier moneda.",
+  "keywords": "software de contabilidad, contabilidad online, partida doble, balance general, cuenta de pérdidas y ganancias, declaración de iva, conciliación bancaria, libro mayor",
+  "heroEyebrow": "Módulo complementario",
+  "heroTitle": "Libros que <em class=\"text-copper-400 not-italic\">cuadran solos</em>",
+  "heroSubtitle": "Cada factura, pago y compra se registra de forma automática en un libro mayor por partida doble. Ve tu beneficio, tu balance y tu situación fiscal en tiempo real sin tocar una hoja de cálculo.",
+  "heroBullets": ["Partida doble automática, sin asientos manuales", "Pérdidas y ganancias y balance en tiempo real", "Declaraciones de IVA en un clic"],
+  "features": [
+    { "icon": "accounting", "title": "Contabilidad automática", "desc": "Ventas, pagos y gastos se registran en el libro mayor en cuanto ocurren." },
+    { "icon": "chart", "title": "Estados financieros al día", "desc": "Pérdidas y ganancias, balance y flujo de caja, siempre actualizados." },
+    { "icon": "calc", "title": "IVA y declaraciones", "desc": "Controla el impuesto soportado y repercutido y genera una declaración lista para presentar en un clic." },
+    { "icon": "refresh", "title": "Conciliación bancaria", "desc": "Empareja los movimientos del banco con facturas y pagos para mantener los libros limpios." },
+    { "icon": "doc", "title": "Libros completos", "desc": "Baja desde cualquier informe hasta el documento de origen y el asiento contable." },
+    { "icon": "globe", "title": "Multimoneda", "desc": "Registra en cualquier moneda con diferencias de cambio calculadas de forma automática." }
+  ],
+  "sections": [
+    { "eyebrow": "Sin necesidad de contable", "title": "Contabilidad que trabaja en segundo plano", "body": "No deberías tener que ser contable para saber si tu negocio gana dinero. Como la facturación, los pagos y el inventario alimentan el mismo libro mayor, tus cuentas son correctas sin asientos manuales. Abre el panel y ahí tienes tu beneficio, tus deudores y tus impuestos.", "items": ["Partida doble hecha por ti", "Cada informe baja hasta el origen", "Registro de auditoría en cada asiento"] },
+    { "eyebrow": "Para cualquier régimen fiscal", "title": "Impuestos y cumplimiento, donde operes", "body": "Configura los tipos impositivos y las cuentas de tu país, incluido el IVA configurable para el CCG, y Paper & Pen controla por ti el impuesto soportado y repercutido. Genera una declaración lista para presentar, concilia tu banco y cierra el periodo con tranquilidad, en cualquier moneda.", "items": ["Impuestos configurables para cualquier país", "Declaraciones de IVA listas para presentar", "Conciliación bancaria y cierre de periodo"] }
+  ],
+  "faqs": [
+    { "q": "¿Necesito saber contabilidad para usarlo?", "a": "No. Los asientos se registran solos a partir de tus facturas, pagos y compras, así que tienes libros por partida doble correctos sin escribir asientos." },
+    { "q": "¿La contabilidad es gratis?", "a": "Contabilidad es un complemento de pago opcional. Ventas y Facturación es gratis para siempre, y activas Contabilidad cuando quieras estados financieros completos." },
+    { "q": "¿Puede generar declaraciones de IVA?", "a": "Sí. Controla el impuesto soportado y repercutido (por ejemplo, el IVA configurable del CCG o cualquier tipo que definas) y genera una declaración lista para presentar." },
+    { "q": "¿Trabaja con varias monedas?", "a": "Sí. Registra y genera informes en cualquier moneda, con diferencias de cambio automáticas." },
+    { "q": "¿Puedo conciliar mi banco?", "a": "Sí. Importa o empareja los movimientos bancarios con facturas y pagos para mantener tu libro mayor conciliado." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Libros exactos, de forma automática",
+  "ctaSub": "Empieza gratis con la facturación y activa Contabilidad para tener estados financieros y declaraciones de impuestos en tiempo real."
+}

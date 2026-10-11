@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "payments",
+  "order": 10,
+  "title": "Ödemeler",
+  "metaTitle": "Fatura için Online Ödeme · Hızlı Tahsilat · Paper & Pen",
+  "metaDescription": "Her faturaya online ödeme bağlantısı ekleyin, kartla ödeme alın. Paymob ve küresel altyapılar, her para birimi, defterinizle otomatik mutabakat.",
+  "keywords": "online ödeme, kartla ödeme alma, faturayı online ödeme, paymob, sanal pos, ödeme altyapısı, ödeme linki, hızlı tahsilat",
+  "heroEyebrow": "Yerleşik",
+  "heroTitle": "Müşterileriniz size <em class=\"text-copper-400 not-italic\">tek dokunuşla</em> ödesin",
+  "heroSubtitle": "Her faturaya güvenli bir online ödeme bağlantısı koyun, müşteriler kartla anında ödesin. Ödemeler her para biriminde, her yerde defterlerinizle otomatik olarak mutabık olur.",
+  "heroBullets": ["Her faturada online ödeme bağlantısı", "Defterinizle otomatik mutabakat", "Paymob ve küresel ödeme altyapıları"],
+  "features": [
+    { "icon": "card", "title": "Kartla ödeme", "desc": "Müşteriler herhangi bir faturayı giriş yapmadan veya uygulama indirmeden kartla online öder." },
+    { "icon": "bolt", "title": "Anında ödeme bağlantısı", "desc": "Her fatura, e-posta veya WhatsApp ile paylaşılabilen güvenli bir bağlantı taşır." },
+    { "icon": "refresh", "title": "Otomatik mutabakat", "desc": "Başarılı ödemeler faturayı ödendi olarak işaretler ve defterlerinize işlenir." },
+    { "icon": "globe", "title": "Her para birimi", "desc": "Doğru ödeme altyapısıyla OMR, AED, SAR, USD, EUR ve daha fazlasında tahsilat yapın." },
+    { "icon": "shield", "title": "Güvenli ve PCI uyumlu", "desc": "Kart verileri sertifikalı ödeme altyapılarında işlenir, sizde asla saklanmaz." },
+    { "icon": "receipt", "title": "Makbuz gönderilir", "desc": "Ödeme başarılı olduğu anda müşteriler otomatik bir makbuz alır." }
+  ],
+  "sections": [
+    { "eyebrow": "Daha hızlı ödeme alın", "title": "Fatura ile nakit arasındaki engeli kaldırın", "body": "Müşteri ne kadar hızlı ödeyebilirse, nakde o kadar hızlı kavuşursunuz. Her faturadaki online ödeme bağlantısı sayesinde kopyalanacak banka bilgisi yok, havale beklemek yok. Müşteri dokunur, kartla öder, fatura kendini günceller ve makbuz yola çıkar.", "items": ["Tek dokunuşla kartla ödeme", "WhatsApp ve e-postada paylaşılabilen bağlantı", "Otomatik makbuzlar"] },
+    { "eyebrow": "Yerel ve küresel", "title": "Pazarınıza uygun ödeme altyapısı", "body": "Paper & Pen, Körfez için Paymob'u ve diğer küresel ödeme altyapılarını bağlar; böylece müşterilerinizin gerçekten kullandığı kartları kendi para birimlerinde kabul edebilirsiniz. Her tahsilat doğru faturayla eşleşir ve hesaplarınıza işlenir, tahsilat ile defter tutma her zaman uyumlu kalır.", "items": ["Körfez için Paymob, artı küresel seçenekler", "Çoklu para biriminde tahsilat", "Tam olarak ilgili faturayla mutabakat"] }
+  ],
+  "faqs": [
+    { "q": "Online ödemeyi açmak ücretsiz mi?", "a": "Evet, online ödeme bağlantıları eklemek yerleşik bir özelliktir. Ödeme altyapısı, her zaman olduğu gibi işlem başına kendi işlem ücretini alır." },
+    { "q": "Hangi ödeme altyapıları destekleniyor?", "a": "Körfez için Paymob ve diğer küresel ödeme altyapıları; böylece müşterilerinizin kullandığı kartları kendi para birimlerinde kabul edebilirsiniz." },
+    { "q": "Ödeme faturayı otomatik günceller mi?", "a": "Evet. Başarılı bir ödeme faturayı ödendi olarak işaretler, makbuz gönderir ve kaydı defterlerinize işler." },
+    { "q": "Müşteriler farklı para birimlerinde ödeyebilir mi?", "a": "Evet. Uygun ödeme altyapısı üzerinden OMR, AED, SAR, USD, EUR ve daha fazlasında tahsilat yapın." },
+    { "q": "Kartla ödeme güvenli mi?", "a": "Evet. Kart bilgileri PCI sertifikalı ödeme altyapılarında işlenir, Paper & Pen'de asla saklanmaz." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Faturaları anında nakde çevirin",
+  "ctaSub": "Ücretsiz başlayın, her faturaya online ödeme bağlantısı ekleyin, müşterileriniz size tek dokunuşla ödesin."
+}

@@ -1,0 +1,151 @@
+{
+  "locale": "fr",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Arabie saoudite",
+  "title": "La TVA en Arabie saoudite",
+  "metaTitle": "TVA en Arabie saoudite : taux de 15% et Fatoora · Paper & Pen",
+  "metaDescription": "Le taux de TVA de 15% en Arabie saoudite, le seuil de SAR 375,000, les mentions de l'article 53 et les phases Fatoora de la ZATCA, avec leurs sources.",
+  "keywords": "tva arabie saoudite, taux de tva arabie saoudite 15, zatca fatoora, facturation électronique arabie saoudite phase 2, mentions facture fiscale arabie saoudite, zatca",
+  "heroEyebrow": "Arabie saoudite",
+  "heroTitle": "Facturer selon les règles de la <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "Le taux de 15%, les seuils d'immatriculation, ce que l'article 53 exige sur une facture fiscale et ce que Fatoora y ajoute une fois que vous êtes dans la phase d'intégration.",
+  "heroBullets": [
+    "Taux normal de 15%",
+    "Immatriculation à partir de SAR 375,000",
+    "Fatoora en vigueur depuis 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Taux normal de TVA",
+      "value": "15%",
+      "note": "L'Arabie saoudite fait figure d'exception dans le Golfe : les autres États qui appliquent la TVA sont à 5% ou 10%. Lorsque le taux normal s'applique, les livraisons taxables sont soumises à 15%.",
+      "source": 1
+    },
+    {
+      "label": "Seuil d'immatriculation obligatoire",
+      "value": "SAR 375,000",
+      "note": "Des livraisons taxables supérieures à ce montant sur une période de 12 mois imposent l'immatriculation.",
+      "source": 1
+    },
+    {
+      "label": "Seuil d'immatriculation volontaire",
+      "value": "SAR 187,500",
+      "note": "Calculé sur les livraisons taxables OU les dépenses taxables des 12 derniers mois.",
+      "source": 1
+    },
+    {
+      "label": "Entreprises non résidentes",
+      "value": "Aucun seuil",
+      "note": "Un non-résident tenu de payer la TVA dans le Royaume doit s'immatriculer quel que soit le montant de ses livraisons.",
+      "source": 1
+    },
+    {
+      "label": "Langue de la facture",
+      "value": "Arabe",
+      "note": "Les mentions obligatoires doivent figurer en arabe. Une autre langue peut être ajoutée, à titre de traduction.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "L'article 53(5) des VAT Implementing Regulations énumère ce que doit contenir une facture fiscale et exige qu'elle soit en arabe, en plus de toute autre langue présentée comme traduction.",
+    "items": [
+      "La date d'émission",
+      "Un numéro séquentiel qui identifie la facture de manière unique",
+      "Le numéro d'identification fiscale du fournisseur",
+      "Lorsque le client doit autoliquider la taxe, son numéro fiscal et une mention indiquant qu'il doit déclarer la taxe",
+      "Le nom et l'adresse du fournisseur et du client",
+      "La quantité et la nature des biens, ou l'étendue et la nature des services",
+      "La date de livraison, lorsqu'elle diffère de la date d'émission",
+      "Le montant imposable par taux ou exonération, le prix unitaire hors TVA et toute remise non déjà incluse dans le prix unitaire",
+      "Le taux de taxe appliqué",
+      "Le montant de la taxe due, indiqué en riyals saoudiens",
+      "Lorsque la taxe n'est pas appliquée au taux de base, une mention expliquant le traitement",
+      "Lorsque le régime de la marge pour les biens d'occasion éligibles s'applique, une référence à ce fait"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Obligatoire et en vigueur, déployée par vagues",
+    "body": "L'Arabie saoudite a le régime de facturation électronique le plus avancé du Golfe, celui dont les autres s'inspirent. La phase 1, dite de génération, s'applique à toutes les personnes imposables résidentes depuis le 4 décembre 2021 : les factures doivent être émises par voie électronique sous une forme structurée. La phase 2, dite d'intégration, a commencé le 1er janvier 2023 et se déploie par vagues selon la taille des contribuables, la ZATCA prévenant chaque groupe au moins six mois avant sa date d'intégration. En phase 2, une facture électronique comporte plus que les mentions de l'article 53 : il lui faut aussi un UUID, le hash de la facture précédente, un code QR, un cachet cryptographique et un compteur infalsifiable. C'est la ZATCA qui annonce à quelle vague vous appartenez : consultez ses pages sur la facturation électronique plutôt que de le supposer.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Bien faire les choses",
+      "title": "Fatoora change la nature même d'une facture",
+      "body": "Dans un monde papier ou PDF, une facture est un document que vous produisez et envoyez. En phase 2, c'est un maillon d'une chaîne : chaque facture référence le hash de la précédente, porte un cachet cryptographique et incrémente un compteur qui ne peut pas être remis à zéro. C'est un choix délibéré, et il rend impossible une habitude courante. Vous ne pouvez plus supprimer, renuméroter ou réémettre discrètement une facture après coup, car la chaîne serait rompue et la rupture est détectable. Les entreprises qui corrigeaient leurs erreurs en modifiant l'historique doivent passer aux avoirs, ce que les règles comptables du reste du monde ont toujours voulu de toute façon.",
+      "items": [
+        "Chaque facture est liée à la précédente par un hash",
+        "Le compteur ne peut être ni remis à zéro ni ramené en arrière",
+        "Les corrections passent par des avoirs et des notes de débit",
+        "Le code QR fait partie de la facture, ce n'est pas une décoration"
+      ]
+    },
+    {
+      "eyebrow": "Bien faire les choses",
+      "title": "Le taux de 15% a des effets en cascade",
+      "body": "Un taux de quinze pour cent rend la distinction entre taux zéro et exonération financièrement sérieuse, bien plus qu'un taux de cinq pour cent. Si vos livraisons sont exonérées, vous ne pouvez pas récupérer la taxe payée en amont : quinze pour cent de vos coûts d'achat deviennent une charge réelle et non récupérable, qu'il faut intégrer au prix. Si elles sont à taux zéro, vous ne facturez rien mais récupérez quand même. Se tromper de classification est l'erreur la plus coûteuse possible en TVA saoudienne, et c'est une question de classification, pas de taux.",
+      "items": [
+        "Exonéré signifie aucune récupération : la taxe est votre coût",
+        "Taux zéro signifie aucune taxe facturée mais une récupération totale",
+        "Classez selon le type de livraison, pas selon le client",
+        "Tranchez la classification avant de fixer vos prix"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quel est le taux de TVA en Arabie saoudite ?",
+      "a": "Le taux normal est de quinze pour cent. C'est le plus élevé du Golfe, et une erreur courante consiste à supposer un taux unique pour le CCG : Oman et les Émirats arabes unis sont à 5%, Bahreïn à 10%, et le Qatar et le Koweït n'ont pas du tout mis en place la TVA. Si vous vendez dans toute la région, vous ne pouvez pas appliquer un seul taux partout."
+    },
+    {
+      "q": "Qu'est-ce que Fatoora ?",
+      "a": "Fatoora est le programme de facturation électronique de la ZATCA. La phase 1, la génération, s'applique à toutes les personnes imposables résidentes depuis le 4 décembre 2021. La phase 2, l'intégration aux systèmes de la ZATCA, a commencé le 1er janvier 2023 et se déploie par vagues selon la taille des contribuables, avec un préavis d'au moins six mois pour chaque vague."
+    },
+    {
+      "q": "Une facture fiscale saoudienne doit-elle être en arabe ?",
+      "a": "Oui. L'article 53(5) exige que les mentions de la facture soient en arabe et autorise une autre langue en complément, à titre de traduction. Une facture bilingue est conforme, une facture uniquement en anglais ne l'est pas."
+    },
+    {
+      "q": "Quels champs supplémentaires la phase 2 exige-t-elle ?",
+      "a": "Au-delà des mentions de l'article 53, une facture électronique en phase d'intégration comporte un UUID, le hash de la facture précédente, un code QR, un cachet cryptographique et un compteur infalsifiable. Ils sont générés par un logiciel conforme, pas saisis à la main."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Facturez correctement en Arabie saoudite, gratuitement",
+  "ctaSub": "Fixez le taux vous-même, gardez l'arabe et l'anglais sur un même document, et corrigez les erreurs par des avoirs plutôt que par des modifications.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, troisième version, sections 3.2 et 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, article 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Résolution de mise en œuvre de la facturation électronique, Governor's Decision 62738, et pages de la ZATCA sur la facturation électronique",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

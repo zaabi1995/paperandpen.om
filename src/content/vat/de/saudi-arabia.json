@@ -1,0 +1,151 @@
+{
+  "locale": "de",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saudi-Arabien",
+  "title": "MwSt. in Saudi-Arabien",
+  "metaTitle": "MwSt. in Saudi-Arabien: 15% und Fatoora · Paper & Pen",
+  "metaDescription": "Der MwSt.-Satz von 15% in Saudi-Arabien, die Schwelle von SAR 375,000, die Rechnungsangaben nach Artikel 53 und die Fatoora-Phasen der ZATCA, mit Quellen.",
+  "keywords": "MwSt. Saudi-Arabien, Mehrwertsteuer Saudi-Arabien, MwSt.-Satz Saudi-Arabien 15, ZATCA Fatoora, E-Rechnung Saudi-Arabien Phase 2, Pflichtangaben Rechnung Saudi-Arabien, ZATCA",
+  "heroEyebrow": "Saudi-Arabien",
+  "heroTitle": "Rechnungen nach den Regeln der <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "Der Satz von 15%, die Registrierungsschwellen, was Artikel 53 auf einer Steuerrechnung verlangt und was Fatoora zusätzlich fordert, sobald Sie in der Integrationsphase sind.",
+  "heroBullets": [
+    "Regelsatz 15%",
+    "Registrierung ab SAR 375,000",
+    "Fatoora in Kraft seit 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "MwSt.-Regelsatz",
+      "value": "15%",
+      "note": "Saudi-Arabien ist der Ausreißer am Golf: Die anderen Staaten mit MwSt. liegen bei 5% oder 10%. Gilt der Regelsatz, werden steuerpflichtige Umsätze mit 15% besteuert.",
+      "source": 1
+    },
+    {
+      "label": "Schwelle für die Pflichtregistrierung",
+      "value": "SAR 375,000",
+      "note": "Steuerpflichtige Umsätze über diesem Betrag innerhalb von 12 Monaten erfordern eine Registrierung.",
+      "source": 1
+    },
+    {
+      "label": "Schwelle für die freiwillige Registrierung",
+      "value": "SAR 187,500",
+      "note": "Bezogen auf steuerpflichtige Umsätze ODER steuerpflichtige Ausgaben der letzten 12 Monate.",
+      "source": 1
+    },
+    {
+      "label": "Nicht ansässige Unternehmen",
+      "value": "Keine Schwelle",
+      "note": "Ein nicht ansässiges Unternehmen, das im Königreich MwSt. zahlen muss, muss sich unabhängig vom Wert seiner Umsätze registrieren.",
+      "source": 1
+    },
+    {
+      "label": "Sprache der Rechnung",
+      "value": "Arabisch",
+      "note": "Die Pflichtangaben müssen auf Arabisch erscheinen. Eine weitere Sprache darf zusätzlich als Übersetzung gezeigt werden.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artikel 53(5) der VAT Implementing Regulations führt auf, was eine Steuerrechnung enthalten muss, und verlangt sie auf Arabisch, zusätzlich zu jeder anderen Sprache, die als Übersetzung gezeigt wird.",
+    "items": [
+      "Das Ausstellungsdatum",
+      "Eine fortlaufende Nummer, die die Rechnung eindeutig kennzeichnet",
+      "Die Steuernummer des Lieferanten",
+      "Wenn der Kunde die Steuer selbst abführen muss: die Steuernummer des Kunden und ein Hinweis, dass er die Steuer abführen muss",
+      "Name und Adresse von Lieferant und Kunde",
+      "Menge und Art der Waren oder Umfang und Art der Leistungen",
+      "Das Lieferdatum, wenn es vom Ausstellungsdatum abweicht",
+      "Steuerpflichtiger Betrag je Satz oder Befreiung, Einzelpreis ohne MwSt. und jeder Rabatt, der nicht schon im Einzelpreis enthalten ist",
+      "Der angewendete Steuersatz",
+      "Der zu zahlende Steuerbetrag, ausgewiesen in Saudi-Riyal",
+      "Wird die Steuer nicht zum Regelsatz berechnet, eine Erläuterung der Behandlung",
+      "Gilt die Differenzbesteuerung für berechtigte Gebrauchtwaren, ein Hinweis darauf"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Verpflichtend und in Kraft, Einführung in Wellen",
+    "body": "Saudi-Arabien hat das am weitesten entwickelte System zur E-Rechnung am Golf, und andere Staaten orientieren sich daran. Phase 1, die Erstellungsphase, gilt seit dem 4. Dezember 2021 für alle ansässigen Steuerpflichtigen: Rechnungen müssen elektronisch in strukturierter Form ausgestellt werden. Phase 2, die Integrationsphase, begann am 1. Januar 2023 und wird in Wellen nach Größe der Steuerpflichtigen eingeführt. Die ZATCA benachrichtigt jede Gruppe mindestens sechs Monate vor ihrem Integrationsdatum. In Phase 2 enthält eine elektronische Rechnung mehr als die Angaben nach Artikel 53: Sie braucht außerdem eine UUID, den Hash der vorherigen Rechnung, einen QR-Code, einen kryptografischen Stempel und einen manipulationssicheren Zähler. In welche Welle Sie fallen, gibt die ZATCA bekannt. Prüfen Sie daher ihre Seiten zur E-Rechnung, statt Annahmen zu treffen.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Alles richtig machen",
+      "title": "Fatoora verändert, was eine Rechnung IST",
+      "body": "In einer Welt aus Papier oder PDF ist eine Rechnung ein Dokument, das Sie erstellen und versenden. In Phase 2 ist sie ein Glied in einer Kette: Jede Rechnung verweist auf den Hash der vorherigen, trägt einen kryptografischen Stempel und erhöht einen Zähler, der sich nicht zurücksetzen lässt. Das ist bewusst so gestaltet und macht eine verbreitete Gewohnheit unmöglich. Sie können eine Rechnung nachträglich nicht still löschen, neu nummerieren oder neu ausstellen, denn die Kette würde brechen, und der Bruch ist nachweisbar. Unternehmen, die Fehler früher durch das Ändern der Historie korrigiert haben, müssen auf Gutschriften umstellen. Genau das wollten die Buchhaltungsregeln im Rest der Welt ohnehin schon immer.",
+      "items": [
+        "Jede Rechnung ist per Hash mit der vorherigen verknüpft",
+        "Der Zähler lässt sich nicht zurücksetzen oder zurückdrehen",
+        "Korrekturen erfolgen über Gutschriften und Belastungsanzeigen",
+        "Der QR-Code ist Teil der Rechnung, keine Dekoration"
+      ]
+    },
+    {
+      "eyebrow": "Alles richtig machen",
+      "title": "Der Satz von 15% hat Folgewirkungen",
+      "body": "Bei einem Satz von fünfzehn Prozent wird der Unterschied zwischen Nullsatz und Steuerbefreiung finanziell ernst, wie es bei fünf Prozent nicht der Fall ist. Sind Ihre Umsätze steuerbefreit, können Sie die gezahlte Vorsteuer nicht zurückfordern. Fünfzehn Prozent Ihrer Eingangskosten werden dann zu echten, nicht erstattungsfähigen Kosten, die Sie einpreisen müssen. Unterliegen sie dem Nullsatz, berechnen Sie nichts und fordern trotzdem zurück. Diese Einordnung falsch zu treffen ist der teuerste einzelne Fehler bei der saudischen MwSt., und es ist eine Frage der Einordnung, nicht des Satzes.",
+      "items": [
+        "Steuerbefreit heißt keine Vorsteuererstattung, die Steuer sind also Ihre Kosten",
+        "Nullsatz heißt keine Berechnung, aber volle Erstattung",
+        "Nach Art des Umsatzes einordnen, nicht nach Kunde",
+        "Die Einordnung festlegen, bevor Sie den Preis bilden"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wie hoch ist der MwSt.-Satz in Saudi-Arabien?",
+      "a": "Der Regelsatz beträgt fünfzehn Prozent. Das ist der höchste am Golf, und ein häufiger Fehler ist die Annahme eines einheitlichen GCC-Satzes: Oman und die VAE liegen bei 5%, Bahrain bei 10%, und Katar und Kuwait haben gar keine MwSt. eingeführt. Wenn Sie in der ganzen Region verkaufen, können Sie nicht einen Satz auf alles anwenden."
+    },
+    {
+      "q": "Was ist Fatoora?",
+      "a": "Fatoora ist das Programm der ZATCA zur E-Rechnung. Phase 1, die Erstellung, gilt seit dem 4. Dezember 2021 für alle ansässigen Steuerpflichtigen. Phase 2, die Integration mit den Systemen der ZATCA, begann am 1. Januar 2023 und wird in Wellen nach Größe der Steuerpflichtigen eingeführt, mit mindestens sechs Monaten Vorlauf für jede Welle."
+    },
+    {
+      "q": "Muss eine saudische Steuerrechnung auf Arabisch sein?",
+      "a": "Ja. Artikel 53(5) verlangt die Rechnungsangaben auf Arabisch und erlaubt eine weitere Sprache zusätzlich als Übersetzung. Eine zweisprachige Rechnung ist konform, eine rein englische nicht."
+    },
+    {
+      "q": "Welche zusätzlichen Felder verlangt Phase 2?",
+      "a": "Über die Angaben nach Artikel 53 hinaus trägt eine elektronische Rechnung in der Integrationsphase eine UUID, den Hash der vorherigen Rechnung, einen QR-Code, einen kryptografischen Stempel und einen manipulationssicheren Zähler. Diese erzeugt konforme Software, sie werden nicht von einer Person eingetippt."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Korrekte Rechnungen in Saudi-Arabien, kostenlos",
+  "ctaSub": "Legen Sie den Satz selbst fest, halten Sie Arabisch und Englisch auf einem Beleg und korrigieren Sie Fehler mit Gutschriften statt mit Änderungen.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, dritte Fassung, Abschnitte 3.2 und 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, Artikel 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Beschluss zur Umsetzung der E-Rechnung, Governor's Decision 62738, und die Seiten der ZATCA zur E-Rechnung",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

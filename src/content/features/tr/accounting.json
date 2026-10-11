@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Muhasebe",
+  "metaTitle": "Online Muhasebe Yazılımı · Otomatik Defter · Paper & Pen",
+  "metaDescription": "Kendi kendine kayıt atan çift taraflı muhasebe. Anlık kâr zarar ve bilanço, KDV beyannamesi, banka mutabakatı, her para birimi ve her vergi. Dünya genelinde.",
+  "keywords": "muhasebe programı, online muhasebe, çift taraflı kayıt, bilanço, kâr zarar tablosu, kdv beyannamesi, banka mutabakatı, büyük defter, ön muhasebe",
+  "heroEyebrow": "Eklenti modül",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">Kendi kendine denkleşen</em> defterler",
+  "heroSubtitle": "Her fatura, ödeme ve satın alma otomatik olarak düzgün bir çift taraflı deftere işlenir. Gerçek zamanlı kârınızı, bilançonuzu ve vergi durumunuzu tek bir tabloya dokunmadan görün.",
+  "heroBullets": ["Otomatik çift taraflı kayıt, elle yevmiye yok", "Anlık kâr zarar ve bilanço", "Tek tıkla KDV beyannamesi"],
+  "features": [
+    { "icon": "accounting", "title": "Otomatik defter tutma", "desc": "Satışlar, ödemeler ve giderler gerçekleştiği anda deftere işlenir." },
+    { "icon": "chart", "title": "Canlı mali tablolar", "desc": "Kâr zarar, bilanço ve nakit akışı her zaman güncel." },
+    { "icon": "calc", "title": "KDV ve vergi beyannameleri", "desc": "İndirilecek ve hesaplanan KDV'yi takip edin, tek tıkla beyana hazır bir beyanname oluşturun." },
+    { "icon": "refresh", "title": "Banka mutabakatı", "desc": "Defterlerinizi temiz tutmak için banka hareketlerini faturalar ve ödemelerle eşleştirin." },
+    { "icon": "doc", "title": "Eksiksiz defterler", "desc": "Herhangi bir rapordan kaynak belgeye ve yevmiye kaydına kadar inin." },
+    { "icon": "globe", "title": "Çoklu para birimi", "desc": "Her para biriminde kayıt yapın, kur farkı kâr ve zararı otomatik hesaplansın." }
+  ],
+  "sections": [
+    { "eyebrow": "Muhasebeci gerekmez", "title": "Arka planda kendiliğinden çalışan muhasebe", "body": "Kâr edip etmediğinizi bilmek için defter tutmayı bilmeniz gerekmemeli. Faturalama, ödemeler ve stok aynı deftere aktığı için hesaplarınız elle yevmiye kaydı olmadan doğru olur. Panoyu açın; kârınız, alacaklarınız ve vergileriniz karşınızda.", "items": ["Çift taraflı kayıt sizin yerinize yapılır", "Her rapor kaynağına kadar açılır", "Her kayıtta denetim izi"] },
+    { "eyebrow": "Her vergi sistemine uygun", "title": "Faaliyet gösterdiğiniz her yerde vergi ve uyum", "body": "Körfez ülkeleri için yapılandırılabilir KDV dahil, ülkenize ait vergi oranlarını ve hesapları ayarlayın; Paper & Pen indirilecek ve hesaplanan KDV'yi sizin için takip etsin. Beyana hazır bir beyanname oluşturun, bankanızla mutabakat yapın ve dönemi her para biriminde güvenle kapatın.", "items": ["Her ülke için yapılandırılabilir vergi", "Beyana hazır KDV beyannameleri", "Banka mutabakatı ve dönem kapanışı"] }
+  ],
+  "faqs": [
+    { "q": "Kullanmak için muhasebe bilgisi gerekir mi?", "a": "Hayır. Kayıtlar faturalarınızdan, ödemelerinizden ve satın almalarınızdan otomatik olarak işlenir; böylece yevmiye yazmadan doğru çift taraflı defterlere sahip olursunuz." },
+    { "q": "Muhasebe ücretsiz mi?", "a": "Muhasebe isteğe bağlı ücretli bir eklentidir. Satış ve Faturalama sonsuza kadar ücretsizdir; tam mali tablolar istediğinizde Muhasebe'yi açarsınız." },
+    { "q": "KDV beyannamesi oluşturabilir mi?", "a": "Evet. İndirilecek ve hesaplanan KDV'yi (örneğin yapılandırılabilir Körfez KDV'si veya belirlediğiniz herhangi bir oran) takip eder ve beyana hazır bir beyanname oluşturur." },
+    { "q": "Birden fazla para birimini destekliyor mu?", "a": "Evet. Her para biriminde kayıt yapın ve raporlayın; kur farkı kâr ve zararı otomatik hesaplanır." },
+    { "q": "Banka mutabakatı yapabilir miyim?", "a": "Evet. Defterinizi mutabık tutmak için banka hareketlerini içe aktarın veya faturalar ve ödemelerle eşleştirin." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Doğru defterlere otomatik olarak sahip olun",
+  "ctaSub": "Faturalama ile ücretsiz başlayın, anlık mali tablolar ve vergi beyannameleri için Muhasebe'yi açın."
+}

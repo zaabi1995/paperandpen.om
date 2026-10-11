@@ -1,0 +1,35 @@
+{
+  "locale": "de",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Buchhaltung",
+  "metaTitle": "Online-Buchhaltungssoftware · Automatisch buchen · Paper & Pen",
+  "metaDescription": "Doppelte Buchführung, die sich selbst bucht. GuV und Bilanz in Echtzeit, MwSt.-Erklärungen, Bankabgleich, jede Währung, jede Steuer. Weltweit nutzbar.",
+  "keywords": "Buchhaltungssoftware, Online-Buchhaltung, doppelte Buchführung, Bilanz, Gewinn- und Verlustrechnung, MwSt.-Erklärung, Bankabgleich, Hauptbuch",
+  "heroEyebrow": "Zusatzmodul",
+  "heroTitle": "Bücher, die <em class=\"text-copper-400 not-italic\">von selbst aufgehen</em>",
+  "heroSubtitle": "Jede Rechnung, jede Zahlung und jeder Einkauf wird automatisch in ein sauberes Hauptbuch mit doppelter Buchführung gebucht. Sehen Sie Gewinn, Bilanz und Steuerposition in Echtzeit, ganz ohne Tabellenkalkulation.",
+  "heroBullets": ["Automatische doppelte Buchführung, keine manuellen Buchungssätze", "GuV und Bilanz in Echtzeit", "MwSt.-Erklärung mit einem Klick"],
+  "features": [
+    { "icon": "accounting", "title": "Automatische Buchführung", "desc": "Verkäufe, Zahlungen und Ausgaben werden im Moment des Geschehens ins Hauptbuch gebucht." },
+    { "icon": "chart", "title": "Aktuelle Finanzzahlen", "desc": "Gewinn- und Verlustrechnung, Bilanz und Cashflow, immer auf dem neuesten Stand." },
+    { "icon": "calc", "title": "MwSt.- und Steuererklärungen", "desc": "Vorsteuer und Umsatzsteuer verfolgen und mit einem Klick eine abgabefertige Erklärung erstellen." },
+    { "icon": "refresh", "title": "Bankabgleich", "desc": "Bankumsätze mit Rechnungen und Zahlungen abgleichen und die Bücher sauber halten." },
+    { "icon": "doc", "title": "Vollständige Konten", "desc": "Von jedem Bericht bis zum Ursprungsbeleg und zum Buchungssatz durchklicken." },
+    { "icon": "globe", "title": "Mehrere Währungen", "desc": "In jeder Währung buchen, mit automatischen Kursgewinnen und Kursverlusten." }
+  ],
+  "sections": [
+    { "eyebrow": "Kein Buchhalter nötig", "title": "Buchhaltung, die im Hintergrund läuft", "body": "Sie sollten kein Buchhalter sein müssen, um zu wissen, ob Sie Gewinn machen. Weil Rechnungen, Zahlungen und Lager alle in dasselbe Hauptbuch fließen, stimmen Ihre Konten ohne manuelle Buchungssätze. Öffnen Sie das Dashboard, und Gewinn, offene Forderungen und Steuern stehen direkt vor Ihnen.", "items": ["Doppelte Buchführung, für Sie erledigt", "Jeder Bericht führt bis zum Beleg", "Prüfpfad für jede Buchung"] },
+    { "eyebrow": "Für jedes Steuersystem gebaut", "title": "Steuern und Compliance, wo immer Sie tätig sind", "body": "Richten Sie die Steuersätze und Konten für Ihr Land ein, einschließlich einstellbarer MwSt. für die GCC-Staaten, und Paper & Pen verfolgt Vorsteuer und Umsatzsteuer für Sie. Erstellen Sie eine abgabefertige Erklärung, gleichen Sie Ihre Bank ab und schließen Sie die Periode mit gutem Gefühl ab, in jeder Währung.", "items": ["Einstellbare Steuer für jedes Land", "Abgabefertige MwSt.-Erklärungen", "Bankabgleich und Periodenabschluss"] }
+  ],
+  "faqs": [
+    { "q": "Brauche ich Buchhaltungskenntnisse?", "a": "Nein. Buchungen entstehen automatisch aus Ihren Rechnungen, Zahlungen und Einkäufen. So erhalten Sie korrekte doppelte Buchführung, ohne Buchungssätze zu schreiben." },
+    { "q": "Ist die Buchhaltung kostenlos?", "a": "Buchhaltung ist ein optionales, kostenpflichtiges Zusatzmodul. Vertrieb & Rechnungen ist für immer kostenlos, und Sie schalten die Buchhaltung zu, wenn Sie vollständige Jahresabschlüsse brauchen." },
+    { "q": "Kann es MwSt.-Erklärungen erstellen?", "a": "Ja. Es verfolgt Vorsteuer und Umsatzsteuer (zum Beispiel einstellbare GCC-MwSt. oder jeden von Ihnen festgelegten Satz) und erstellt eine abgabefertige Erklärung." },
+    { "q": "Unterstützt es mehrere Währungen?", "a": "Ja. Buchen und berichten Sie in jeder Währung, mit automatischen Kursgewinnen und Kursverlusten." },
+    { "q": "Kann ich meine Bank abgleichen?", "a": "Ja. Importieren Sie Bankumsätze oder gleichen Sie sie mit Rechnungen und Zahlungen ab, damit Ihr Hauptbuch stimmt." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Korrekte Bücher, ganz automatisch",
+  "ctaSub": "Starten Sie kostenlos mit Rechnungen und schalten Sie die Buchhaltung für Finanzberichte und Steuererklärungen in Echtzeit zu."
+}

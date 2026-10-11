@@ -1,0 +1,35 @@
+{
+  "locale": "de",
+  "slug": "payments",
+  "order": 10,
+  "title": "Zahlungen",
+  "metaTitle": "Rechnungen online bezahlen lassen · Paper & Pen",
+  "metaDescription": "Einen Online-Zahlungslink auf jede Rechnung setzen und per Karte bezahlt werden. Paymob und globale Anbieter, jede Währung, automatisch abgeglichen.",
+  "keywords": "Online-Zahlung, Kartenzahlung akzeptieren, Rechnung online bezahlen, Paymob, Zahlungsanbieter, Payment Gateway, schneller bezahlt werden, Zahlungslink",
+  "heroEyebrow": "Integriert",
+  "heroTitle": "Lassen Sie Kunden <em class=\"text-copper-400 not-italic\">mit einem Tippen</em> bezahlen",
+  "heroSubtitle": "Setzen Sie einen sicheren Online-Zahlungslink auf jede Rechnung, damit Kunden sofort per Karte bezahlen. Zahlungen werden automatisch mit Ihren Büchern abgeglichen, in jeder Währung und überall.",
+  "heroBullets": ["Online-Zahlungslink auf jeder Rechnung", "Automatisch mit Ihrem Hauptbuch abgeglichen", "Paymob und globale Zahlungsanbieter"],
+  "features": [
+    { "icon": "card", "title": "Per Karte bezahlen", "desc": "Kunden bezahlen jede Rechnung online per Karte, ohne Anmeldung oder App." },
+    { "icon": "bolt", "title": "Sofortiger Zahlungslink", "desc": "Jede Rechnung trägt einen sicheren Link, teilbar per E-Mail oder WhatsApp." },
+    { "icon": "refresh", "title": "Automatischer Abgleich", "desc": "Erfolgreiche Zahlungen markieren die Rechnung als bezahlt und werden in Ihre Bücher gebucht." },
+    { "icon": "globe", "title": "Jede Währung", "desc": "Zahlungen in OMR, AED, SAR, USD, EUR und mehr über den passenden Anbieter einziehen." },
+    { "icon": "shield", "title": "Sicher & PCI", "desc": "Kartendaten werden von zertifizierten Zahlungsanbietern verarbeitet und nie bei Ihnen gespeichert." },
+    { "icon": "receipt", "title": "Quittungen verschickt", "desc": "Kunden erhalten automatisch eine Quittung, sobald eine Zahlung erfolgreich ist." }
+  ],
+  "sections": [
+    { "eyebrow": "Schneller bezahlt werden", "title": "Keine Hürden mehr zwischen Rechnung und Geld", "body": "Je schneller ein Kunde bezahlen kann, desto schneller haben Sie das Geld. Ein Online-Zahlungslink auf jeder Rechnung heißt: keine Bankdaten abtippen, kein Warten auf eine Überweisung. Der Kunde tippt, zahlt per Karte, und die Rechnung aktualisiert sich selbst, die Quittung ist schon unterwegs.", "items": ["Kartenzahlung mit einem Tippen", "Link teilbar per WhatsApp und E-Mail", "Automatische Quittungen"] },
+    { "eyebrow": "Lokal und global", "title": "Der richtige Zahlungsanbieter für Ihren Markt", "body": "Paper & Pen verbindet Paymob für die GCC-Staaten und weitere globale Zahlungsanbieter. So akzeptieren Sie die Karten, die Ihre Kunden tatsächlich nutzen, in deren Währung. Jede Abrechnung wird der richtigen Rechnung zugeordnet und auf Ihren Konten gebucht, damit Zahlungseingang und Buchhaltung im Gleichschritt bleiben.", "items": ["Paymob für die GCC-Staaten, plus globale Optionen", "Zahlungseingang in mehreren Währungen", "Abgleich mit genau der richtigen Rechnung"] }
+  ],
+  "faqs": [
+    { "q": "Ist die Online-Zahlung kostenlos aktivierbar?", "a": "Ja, Online-Zahlungslinks sind integriert. Der Zahlungsanbieter berechnet wie üblich seine eigene Bearbeitungsgebühr pro Transaktion." },
+    { "q": "Welche Zahlungsanbieter werden unterstützt?", "a": "Paymob für die GCC-Staaten plus weitere globale Zahlungsanbieter, damit Sie die Karten Ihrer Kunden in deren Währung akzeptieren können." },
+    { "q": "Aktualisiert eine Zahlung die Rechnung automatisch?", "a": "Ja. Eine erfolgreiche Zahlung markiert die Rechnung als bezahlt, verschickt eine Quittung und bucht den Vorgang in Ihre Bücher." },
+    { "q": "Können Kunden in verschiedenen Währungen bezahlen?", "a": "Ja. Ziehen Sie Zahlungen in OMR, AED, SAR, USD, EUR und mehr ein, jeweils über den passenden Anbieter." },
+    { "q": "Ist die Kartenzahlung sicher?", "a": "Ja. Kartendaten werden von PCI-zertifizierten Zahlungsanbietern verarbeitet und nie in Paper & Pen gespeichert." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Machen Sie aus Rechnungen sofort Geld",
+  "ctaSub": "Starten Sie kostenlos und setzen Sie einen Online-Zahlungslink auf jede Rechnung, damit Kunden Sie mit einem Tippen bezahlen können."
+}

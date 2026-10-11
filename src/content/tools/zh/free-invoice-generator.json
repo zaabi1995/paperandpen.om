@@ -1,0 +1,36 @@
+{
+  "locale": "zh",
+  "slug": "free-invoice-generator",
+  "toolType": "invoice",
+  "order": 1,
+  "title": "免费发票生成器",
+  "metaTitle": "免费发票生成器 · Paper & Pen",
+  "metaDescription": "免费在线制作专业发票。添加项目，设置任意货币和增值税税率，几秒下载可打印的 PDF。无需注册。",
+  "keywords": "免费发票生成器, 发票制作, 在线开发票, 免费发票模板, 下载发票 PDF, 增值税发票生成器",
+  "heroEyebrow": "免费 · 无需注册",
+  "heroTitle": "免费发票生成器",
+  "heroSubtitle": "几秒钟做好一张专业发票。添加项目明细，选择任意货币，应用增值税或销售税，然后下载整洁的 PDF。无需账户。",
+  "howToSteps": [
+    { "name": "填写您的信息", "text": "输入公司名称、客户、发票编号和日期。" },
+    { "name": "添加项目明细", "text": "列出收费项目及数量和单价，合计自动计算。" },
+    { "name": "设置货币和税率", "text": "选择任意货币，并设置增值税或销售税税率。" },
+    { "name": "下载 PDF", "text": "点击下载，保存可打印的 PDF；也可以注册，保存并发送发票。" }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "即时且免费", "desc": "无需注册，没有水印，没有限制。需要多少发票就开多少。" },
+    { "icon": "globe", "title": "任意货币", "desc": "以 OMR、AED、SAR、USD、EUR、GBP 等货币开票，小数位准确。" },
+    { "icon": "calc", "title": "支持增值税和税费", "desc": "应用任意增值税或销售税税率，按净额自动计算。" }
+  ],
+  "sections": [
+    { "title": "为什么使用 Paper & Pen 发票生成器？", "body": "它真正免费，支持任意货币，生成整洁、专业的 PDF，可直接发送给客户。当您准备好跟踪收款、发送提醒并自动对账时，您的发票可以在完整的 Paper & Pen ERP 中继续使用。" }
+  ],
+  "faqs": [
+    { "q": "发票生成器真的免费吗？", "a": "是的。完全免费，无需注册，没有水印，制作发票的数量也不受限制。" },
+    { "q": "可以用我自己的货币开票吗？", "a": "可以。可从 OMR、AED、SAR、USD、EUR 和 GBP 等主要货币中选择，小数位自动调整。" },
+    { "q": "支持增值税或销售税吗？", "a": "支持。开启税费并设置任意税率（例如可为海湾地区配置），系统会按小计自动计算。" },
+    { "q": "如何保存和发送发票？", "a": "免费下载 PDF，或创建免费的 Paper & Pen 工作区，保存、发送并跟踪每张发票，还能在线收款。" }
+  ],
+  "related": ["/tools/free-quotation-generator", "/tools/free-receipt-generator", "/features/invoicing", "/free-invoicing-software"],
+  "ctaTitle": "不止是一个生成器",
+  "ctaSub": "使用免费的 Paper & Pen 工作区，保存、发送并跟踪每张发票，在线收款并自动对账。"
+}

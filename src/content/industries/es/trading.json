@@ -1,0 +1,35 @@
+{
+  "locale": "es",
+  "slug": "trading",
+  "order": 1,
+  "title": "Comercio y venta al por mayor",
+  "metaTitle": "Software ERP para comercio y mayoristas | Paper & Pen",
+  "metaDescription": "Facturación gratis más stock en tiempo real, órdenes de compra y multimoneda para comerciantes, importadores y mayoristas. Cotiza, vende y concilia más rápido.",
+  "keywords": "software para empresas comerciales, erp para mayoristas, facturación para distribuidores, software de importación y exportación, programa de órdenes de compra, comercio multimoneda, control de stock para comerciantes",
+  "heroEyebrow": "Para comerciantes, importadores y mayoristas",
+  "heroTitle": "Compra, vende y controla el stock con <em class=\"text-copper-400 not-italic\">un solo libro claro</em>",
+  "heroSubtitle": "De la orden de compra a la factura del cliente, Paper & Pen mantiene sincronizados tu mercancía, tus costes y tu dinero. Cotiza rápido, mueve el stock sin adivinar y conoce tu margen en cada operación.",
+  "heroBullets": ["Cotizaciones y facturación gratis", "Stock al día y coste en destino", "Compra en una moneda y vende en otra"],
+  "features": [
+    { "icon": "cart", "title": "De cotización a factura", "desc": "Convierte una cotización en pedido de venta y factura en dos clics, sin volver a escribir." },
+    { "icon": "inventory", "title": "Stock en tiempo real", "desc": "Cada venta y cada compra mueven el stock al instante en todos tus almacenes." },
+    { "icon": "truck", "title": "Órdenes de compra", "desc": "Emite órdenes de compra a proveedores, recibe la mercancía y actualiza stock y coste en un solo flujo." },
+    { "icon": "globe", "title": "Multimoneda", "desc": "Compra en USD o EUR y vende en OMR, AED o SAR, con los decimales correctos en todo momento." },
+    { "icon": "calc", "title": "Margen en cada operación", "desc": "Ve coste, precio y beneficio por línea para no vender nunca por debajo de tu mínimo." },
+    { "icon": "refresh", "title": "Conciliación automática", "desc": "Facturas, pagos y movimientos de stock se registran solos en tus libros." }
+  ],
+  "sections": [
+    { "eyebrow": "La rapidez gana ventas", "title": "Cotiza hoy, entrega mañana", "body": "En el comercio, la primera cotización limpia suele llevarse el pedido. Crea una cotización profesional en minutos, envíala por WhatsApp o correo y convierte la aprobada en pedido de venta, albarán y factura sin introducir nada dos veces. Tu cliente recibe un documento impecable; tú conservas un rastro limpio.", "items": ["De cotización a pedido de venta y a factura en unos clics", "Albaranes y preparación de envíos incluidos", "Comparte al instante por WhatsApp o correo"] },
+    { "eyebrow": "Conoce tu coste real", "title": "Stock y margen que dicen la verdad", "body": "Importadores y mayoristas viven de su margen. Paper & Pen valora tu stock por coste medio o FIFO y muestra el beneficio por línea mientras cotizas, para que fijes precios con seguridad. Compra en el extranjero en una moneda y vende en tu país en otra mientras los libros siguen conciliados. Hecho en Omán con OMR, AED y SAR nativos más IVA configurable, e igual de cómodo con USD, EUR o cualquier tipo de impuesto que definas.", "items": ["Coste medio o FIFO para un valor exacto", "Margen por línea mientras cotizas", "IVA del CCG o cualquier impuesto, cualquier moneda"] }
+  ],
+  "faqs": [
+    { "q": "¿Puedo cotizar en una moneda y comprar stock en otra?", "a": "Sí. Compra en USD, EUR, CNY o cualquier moneda y vende en OMR, AED, SAR o la que usen tus clientes. Los decimales y los totales se ajustan solos y los libros siguen conciliados." },
+    { "q": "¿La facturación actualiza mi stock?", "a": "Sí. Cada factura resta stock y cada recepción de una orden de compra lo suma en tiempo real, en varios almacenes, sin recuentos manuales." },
+    { "q": "¿Puedo ver mi margen de beneficio por artículo?", "a": "Sí. Paper & Pen muestra el coste, el precio de venta y el margen de cada línea mientras preparas una cotización o una factura, para que protejas tu mínimo en cada operación." },
+    { "q": "¿Es gratis de verdad para una empresa comercial?", "a": "Ventas y Facturación es gratis para siempre, con cotizaciones, facturas y albaranes. Añade el módulo de Inventario cuando necesites stock en tiempo real y coste en destino." },
+    { "q": "¿Gestiona el IVA del CCG y de otros mercados?", "a": "Sí. Aplica de serie el IVA configurable del CCG o configura cualquier tipo de impuesto para cualquier país. El impuesto siempre se calcula sobre el neto después del descuento." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Gestiona tu comercio con un solo libro limpio",
+  "ctaSub": "Empieza gratis con cotizaciones y facturación, y añade Inventario y Contabilidad a medida que crece tu negocio."
+}

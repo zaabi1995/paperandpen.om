@@ -1,0 +1,35 @@
+{
+  "locale": "es",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Facturación",
+  "metaTitle": "Funciones de gestión de facturas | Paper & Pen ERP",
+  "metaDescription": "Descubre el seguimiento de facturas, pagos online, recordatorios, impuestos configurables, cinco idiomas y la gestión multimoneda de Paper & Pen ERP.",
+  "keywords": "programa de facturación, facturación gratis, facturas online, enviar factura, cobrar online, factura con iva, facturas recurrentes, recordatorios de pago",
+  "heroEyebrow": "Gratis para siempre",
+  "heroTitle": "Facturación que te hace <em class=\"text-copper-400 not-italic\">cobrar antes</em>",
+  "heroSubtitle": "Crea una factura impecable en menos de un minuto, envíala por correo o WhatsApp y deja que tu cliente pague online. Pensado para cualquier moneda y cualquier tipo de impuesto, usado en todo el mundo.",
+  "heroBullets": ["Ventas y Facturación gratis para siempre", "Cualquier moneda, cualquier tipo de impuesto", "Enlace de pago online en cada factura"],
+  "features": [
+    { "icon": "bolt", "title": "Factura en segundos", "desc": "Elige un cliente, añade artículos y pulsa enviar. Totales e impuestos se calculan mientras escribes." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Factura en OMR, AED, SAR, USD, EUR, GBP o cualquier moneda con los decimales correctos." },
+    { "icon": "card", "title": "Cobra online", "desc": "Cada factura lleva un enlace de pago seguro para que el cliente pague con tarjeta en un toque." },
+    { "icon": "bell", "title": "Recordatorios automáticos", "desc": "Recordatorios amables y programados persiguen las facturas vencidas para que no tengas que hacerlo tú." },
+    { "icon": "refresh", "title": "Facturas recurrentes", "desc": "Programa cuotas fijas y suscripciones para facturar en piloto automático, cada semana o cada mes." },
+    { "icon": "calc", "title": "Listo para IVA e impuestos", "desc": "Aplica cualquier tipo de IVA o impuesto sobre ventas, calculado sobre el neto después de descuentos." }
+  ],
+  "sections": [
+    { "eyebrow": "Pensado para el mundo", "title": "Una herramienta de facturación para todos los mercados", "body": "Factures en dólares desde Nueva York o en riales desde Mascate, Paper & Pen se encarga por ti de la moneda, los decimales y las reglas fiscales. Cambia la interfaz entre inglés, árabe, hindi, bengalí y urdu para que todo tu equipo trabaje en su propio idioma.", "items": ["Multimoneda con formato automático", "Impuestos configurables para cualquier país", "Facturas en árabe, totalmente de derecha a izquierda"] },
+    { "eyebrow": "De la cotización al cobro", "title": "Facturación dentro de un ERP completo", "body": "Tus facturas no viven aisladas. Convierte una cotización aceptada en factura en un clic, registra el pago y míralo pasar a tus libros de forma automática. Cuando crezcas, el inventario, la contabilidad y las nóminas ya te esperan en el mismo espacio de trabajo.", "items": ["De cotización a factura en un clic", "Los pagos se concilian en tu libro mayor", "Nunca vuelves a introducir datos dos veces"] }
+  ],
+  "faqs": [
+    { "q": "¿La facturación es gratis de verdad?", "a": "Sí. Ventas y Facturación es gratis para siempre, sin límite de facturas ni de clientes. Solo pagas si añades módulos opcionales como Inventario o Nóminas." },
+    { "q": "¿Pueden los clientes pagar la factura online?", "a": "Sí. Cada factura puede incluir un enlace seguro de pago online con Paymob y otras pasarelas, así que el cliente paga con tarjeta y el pago se concilia de forma automática." },
+    { "q": "¿Admite IVA y otros impuestos?", "a": "Sí. Define cualquier tipo, incluido el IVA configurable para el CCG o el que se aplique en tu país. El impuesto se calcula sobre el importe neto después de cualquier descuento." },
+    { "q": "¿Puedo enviar facturas en árabe?", "a": "Sí. Toda la interfaz y el PDF de la factura pueden estar en árabe, totalmente de derecha a izquierda, además de en inglés, hindi, bengalí y urdu." },
+    { "q": "¿Puedo automatizar la facturación recurrente?", "a": "Sí. Crea una factura recurrente para cuotas fijas o suscripciones y Paper & Pen la emite y la envía según el calendario." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Envía tu primera factura gratis",
+  "ctaSub": "Crea un espacio de trabajo gratis y factura a tu primer cliente en minutos. Sin tarjeta, gratis para siempre."
+}

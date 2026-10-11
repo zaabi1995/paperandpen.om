@@ -1,0 +1,159 @@
+{
+  "locale": "tr",
+  "slug": "oman",
+  "order": 1,
+  "country": "Umman",
+  "title": "Umman'da KDV",
+  "metaTitle": "Umman'da KDV: Oran, Eşikler, Faturalar · Paper & Pen",
+  "metaDescription": "Umman'ın %5 KDV oranı, 38,500 OMR kayıt eşiği ve bir vergi faturasında bulunması gereken on iki unsur; her biri Oman Tax Authority kaynaklı.",
+  "keywords": "umman kdv, umman kdv oranı, umman kdv kayıt eşiği, umman vergi faturası şartları, fawtara e-fatura, oman tax authority, umman'da şirket vergisi",
+  "heroEyebrow": "Umman",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">Umman KDV</em> kurallarına göre faturalama",
+  "heroSubtitle": "Oran, kayıt eşikleri, bir vergi faturasında nelerin yer alması gerektiği ve e-faturanın ne durumda olduğu. Bu sayfadaki her rakam, Oman Tax Authority'nin kendi yayımladığı metne dayanır.",
+  "heroBullets": [
+    "%5 standart oran",
+    "Kayıt için 38,500 OMR",
+    "Fawtara duyuruldu, henüz yürürlükte değil"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Standart KDV oranı",
+      "value": "%5",
+      "note": "KDV Kanunu'nun 36. maddesi, vergiye tabi mal veya hizmetlerin ithalatı ve tesliminde vergiyi vergiye tabi değerin yüzde beşi olarak belirler.",
+      "source": 1
+    },
+    {
+      "label": "Zorunlu kayıt eşiği",
+      "value": "38,500 OMR",
+      "note": "Yıllık teslimleri bu tutarda veya üzerinde olanların kayıt olması gerekir. Kanun bu rakamı kendi metninde sabitlemek yerine Başkanlık kararına bırakır.",
+      "source": 2
+    },
+    {
+      "label": "İsteğe bağlı kayıt eşiği",
+      "value": "19,250 OMR",
+      "note": "Zorunlu eşiğin altında, bu seviyeden itibaren kayıt olabilirsiniz.",
+      "source": 2
+    },
+    {
+      "label": "Fatura dili",
+      "value": "Arapça",
+      "note": "Talep halinde Arapça çevirisi sunulabilmek koşuluyla fatura İngilizce olarak da düzenlenebilir.",
+      "source": 3
+    },
+    {
+      "label": "Basitleştirilmiş fatura üst sınırı",
+      "value": "500 OMR",
+      "note": "Bu değerin altındaki teslimlerde, Oman Tax Authority'nin onayıyla basitleştirilmiş fatura kullanılabilir.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Uygulama Yönetmeliği'nin 145. maddesi bir vergi faturasında nelerin gösterilmesi gerektiğini listeler. Madde listeyi \"özellikle\" ifadesiyle başlatır, bu nedenle onu eksiksiz bir küme değil, asgari şartlar olarak değerlendirin.",
+    "items": [
+      "\"Vergi Faturası\" ibaresi",
+      "Düzenleme tarihi, teslim tarihi ve ödeme tarihi",
+      "Sıralı bir fatura numarası",
+      "Satıcının tam adı, adresi ve Vergi Kimlik Numarası",
+      "Alıcının tam adı, adresi ve Vergi Kimlik Numarası veya ikamet ettiği ülkedeki karşılığı",
+      "Teslim edilen mal ve hizmetlerin tanımı",
+      "Malların miktarı",
+      "Varsa avans ödemenin tarihi",
+      "Vergi hariç toplam bedel",
+      "Uygulanan vergi oranı",
+      "Yapılan her türlü fiyat indirimi veya iskonto ile henüz dahil edilmemiş devlet sübvansiyonları",
+      "Vergiye tabi değer"
+    ],
+    "source": 3,
+    "caveat": "Oman Tax Authority, Uygulama Yönetmeliği'ni yalnızca Arapça yayımlar. Bu liste resmi bir İngilizce çeviri değil, resmi Arapça metnin sadık bir okumasıdır; bu nedenle güvenmeden önce ifadeleri vergi danışmanınızla teyit edin."
+  },
+  "einvoicing": {
+    "status": "Duyuruldu ve aşamalı, henüz zorunlu değil",
+    "body": "Umman'ın e-fatura programının adı Fawtara'dır. Oman Tax Authority, faturaların kendisine akredite bir hizmet sağlayıcı üzerinden ulaştığı beş köşeli bir model tanımlar ve dört aşama belirler: pilot, genişleme, küçük işletmelerin dahil edilmesi ve tam yaygınlaştırma. Kurum aşama tarihlerini İngilizce olarak yayımlamamıştır ve basında dolaşan tarihler kendi sayfalarında yer almaz. Başka bir yerde okuduğunuz belirli bir Fawtara son tarihini, Oman Tax Authority yayımlayana kadar teyit edilmemiş kabul edin.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Doğru yapmak",
+      "title": "Umman'da işletmeleri zorlayan noktalar",
+      "body": "Buradaki KDV faturası sorunlarının çoğu üç nedenden kaynaklanır. Birincisi alıcının Vergi Kimlik Numarası'dır: yazmazsanız alıcınız indirilecek KDV'yi geri alamayabilir; bu da faturanızı onun maliyetine, sizin sorununuza dönüştürür. İkincisi fatura sıralamasıdır. 145. madde sıralı bir numara ister ve bunu bozmanın en hızlı yolu, gönderilmiş bir faturayı silmek veya yeniden numaralandırmaktır. Bunun yerine bir alacak dekontuyla düzeltin. Üçüncüsü dildir: fatura Arapça olmalıdır ve talep halinde Arapça bir sürümü sunmadan yalnızca İngilizce düzenlemek sizi açıkta bırakır.",
+      "items": [
+        "Alıcının vergi numarasını düzenlemeden önce alın, sonra değil",
+        "Düzenlenmiş bir faturayı asla silmeyin, alacak dekontu kesin",
+        "Talep halinde Arapça bir sürümü hazır tutun",
+        "Teslim tarihini düzenleme tarihinden ayrı kaydedin"
+      ]
+    },
+    {
+      "eyebrow": "Hazırlık",
+      "title": "Tarih tahmin etmeden Fawtara'ya hazırlanmak",
+      "body": "Hazır olmak için yayımlanmış bir son tarihe ihtiyacınız yok. Bölgede yürürlüğe giren her e-fatura sistemi aynı temel disiplini istemiştir: vergi numaraları dahil temiz ve eksiksiz müşteri kayıtları, kesintisiz bir fatura sırası, fatura bazında değil satır bazında kaydedilen vergi uygulaması ve talep halinde erişilebilecek şekilde saklanan belgeler. Kayıtları bu dört koşulu zaten karşılayan bir işletmeyi, tarihler ne zaman açıklanırsa açıklansın kısa bir uygulama süreci bekler. Karşılamayan bir işletme ise bildirim süresini veri temizleyerek geçirir.",
+      "items": [
+        "Vergi numaraları dahil eksiksiz müşteri kayıtları",
+        "Her seri için tek, kesintisiz fatura sırası",
+        "Satır satır kaydedilen vergi uygulaması",
+        "Talep halinde erişilebilen belgeler"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Umman'da KDV oranı nedir?",
+      "a": "Yüzde beş. 121/2020 sayılı Sultanlık Kararnamesi ile yürürlüğe konan KDV Kanunu'nun 36. maddesi, vergiye tabi mal veya hizmetlerin ithalatı ve tesliminde vergiyi vergiye tabi değerin yüzde beşi olarak hesaplar. Bazı teslimler sıfır oranlı veya muaftır ve bunlar farklı şeylerdir: sıfır oranlı teslim yapan bir satıcı indirilecek KDV'yi yine de geri alabilir, muaf olan alamaz."
+    },
+    {
+      "q": "Umman'da KDV'ye ne zaman kayıt olmam gerekir?",
+      "a": "Yıllık teslimleriniz 38,500 OMR'ye ulaştığında veya ulaşması beklendiğinde. 19,250 OMR'den itibaren isteğe bağlı kayıt olabilirsiniz. Her iki rakam da KDV Kanunu'nun kendisinden değil, kayıt eşiklerine ilişkin Başkanlık kararından gelir; bu yüzden Kanun değişmeden de değişebilirler."
+    },
+    {
+      "q": "Umman'da e-fatura artık zorunlu mu?",
+      "a": "Henüz değil. Oman Tax Authority, akredite hizmet sağlayıcıları kullanan aşamalı, beş köşeli bir e-fatura modeli olan Fawtara'yı duyurmuş ve dört yaygınlaştırma aşaması tanımlamıştır. Aşama tarihlerini kendi sayfalarında İngilizce olarak yayımlamadığı için burada bir tarih belirtmiyoruz. Güncel durum için Oman Tax Authority'nin e-fatura sayfalarını kontrol edin."
+    },
+    {
+      "q": "Umman'da İngilizce fatura düzenleyebilir miyim?",
+      "a": "İngilizce düzenleyebilirsiniz, ancak Uygulama Yönetmeliği vergi faturasının Arapça olmasını şart koşar ve talep halinde Arapça çevirisi sunulabilmek koşuluyla ek olarak başka bir dile izin verir. Uygulamada bu, yalnızca İngilizce bir şablon yerine iki dilli bir şablon tutmak anlamına gelir."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Umman'da doğru fatura kesin, ücretsiz",
+  "ctaSub": "Kendi vergi oranınızı belirleyin, her para biriminde fatura kesin ve aynı kayıttan Arapça ve İngilizce fatura tutun.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "KDV Kanunu, 121/2020 sayılı Sultanlık Kararnamesi, Madde 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Zorunlu ve isteğe bağlı kayıt eşiklerini belirleyen Başkanlık Kararı",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "KDV Kanunu Uygulama Yönetmeliği, 53/2021 sayılı Karar, Madde 145 ila 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "E-fatura (Fawtara) programı sayfaları",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

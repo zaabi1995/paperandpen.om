@@ -1,0 +1,152 @@
+{
+  "locale": "es",
+  "slug": "uae",
+  "order": 2,
+  "country": "Emiratos Árabes Unidos",
+  "title": "IVA en los EAU",
+  "metaTitle": "IVA en los EAU: tipo, umbrales y eInvoicing · Paper & Pen",
+  "metaDescription": "El tipo de IVA del 5% de los EAU, el umbral de AED 375,000, el contenido de factura del artículo 59 y el calendario confirmado de eInvoicing, con fuentes.",
+  "keywords": "iva emiratos, tipo de iva en emiratos árabes unidos, umbral de registro de iva eau, requisitos de factura con iva emiratos, factura electrónica emiratos 2027, federal tax authority",
+  "heroEyebrow": "Emiratos Árabes Unidos",
+  "heroTitle": "Facturar con las normas del <em class=\"text-copper-400 not-italic\">IVA de los EAU</em>",
+  "heroSubtitle": "El tipo, los umbrales, los doce datos que exige el artículo 59 en una factura con IVA y las fechas de eInvoicing que el Ministerio de Finanzas ha publicado de verdad.",
+  "heroBullets": [
+    "Tipo general del 5%",
+    "AED 375,000 para registrarse",
+    "eInvoicing por fases desde 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Tipo general de IVA",
+      "value": "5%",
+      "note": "El artículo 3 del Decreto-ley federal 8 de 2017 establece un tipo general del 5% sobre cualquier suministro o importación. En vigor desde el 1 de enero de 2018.",
+      "source": 1
+    },
+    {
+      "label": "Umbral de registro obligatorio",
+      "value": "AED 375,000",
+      "note": "Artículo 7(1) del Reglamento Ejecutivo.",
+      "source": 2
+    },
+    {
+      "label": "Umbral de registro voluntario",
+      "value": "AED 187,500",
+      "note": "Artículo 8(1) del Reglamento Ejecutivo.",
+      "source": 2
+    },
+    {
+      "label": "Límite de la factura simplificada",
+      "value": "AED 10,000",
+      "note": "Se permite una factura con IVA simplificada cuando el destinatario no está registrado, o está registrado y la contraprestación no supera este importe.",
+      "source": 2
+    },
+    {
+      "label": "Moneda de la factura",
+      "value": "AED",
+      "note": "Los importes del impuesto se muestran en dírhams y, si la factura está en otra moneda, debe figurar el tipo de cambio aplicado.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "El artículo 59(1) del Reglamento Ejecutivo enumera lo que debe contener una factura con IVA completa.",
+    "items": [
+      "Las palabras \"Factura con IVA\", bien visibles",
+      "Nombre, dirección y Número de Registro Fiscal del proveedor",
+      "Nombre, dirección y TRN del destinatario, cuando el destinatario está registrado",
+      "Un número correlativo o único que permita identificar y ordenar la factura",
+      "La fecha de emisión",
+      "La fecha de suministro, cuando sea distinta de la fecha de emisión",
+      "Una descripción de los bienes o servicios",
+      "Para cada artículo: precio unitario, cantidad o volumen, tipo de impuesto e importe a pagar en AED",
+      "El importe de cualquier descuento ofrecido",
+      "El importe bruto a pagar en AED",
+      "El importe del impuesto repercutido en AED, con el tipo de cambio si se ha convertido desde otra moneda",
+      "En un suministro con inversión del sujeto pasivo, una indicación de que el destinatario debe declarar el impuesto y la disposición en que se basa"
+    ],
+    "source": 2,
+    "caveat": "Esta es la publicación consolidada del Reglamento Ejecutivo de la Federal Tax Authority con fecha 4 de octubre de 2024. Algunos comentaristas mencionan una modificación posterior; no la hemos encontrado en un texto publicado por la FTA, así que confirma la redacción vigente con la FTA antes de basarte en ella."
+  },
+  "einvoicing": {
+    "status": "Obligatoria y por fases, piloto abierto",
+    "body": "El UAE eInvoicing System es un modelo descentralizado de cinco esquinas en el que las facturas pasan por Accredited Service Providers. Las propias directrices del Ministerio de Finanzas fijan el calendario: un programa piloto y adopción voluntaria desde el 1 de julio de 2026; las empresas con ingresos de AED 50 millones o más lo implantan desde el 1 de enero de 2027; las empresas por debajo de ese umbral, desde el 1 de julio de 2027; las entidades públicas, desde el 1 de octubre de 2027. El Ministerio amplió el primer plazo para designar un Accredited Service Provider del 31 de julio de 2026 al 30 de octubre de 2026, sin cambiar la entrada en vigor de enero de 2027, así que el PDF de directrices publicado y el comunicado de prensa del Ministerio no coinciden en esa fecha, y el comunicado es la palabra más reciente.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Hacerlo bien",
+      "title": "Dónde hace tropezar el artículo 59",
+      "body": "El requisito por línea es el que más plantillas de factura incumplen. El artículo 59(1)(h) pide precio unitario, cantidad, tipo de impuesto e importe a pagar por cada bien o servicio, lo que significa que una sola cifra de impuesto global al pie de la factura no basta cuando las líneas tienen tratamientos distintos. El segundo es el TRN del destinatario, obligatorio siempre que esté registrado, y el tercero es el tipo de cambio: si facturas en dólares, aun así tienes que mostrar el impuesto en dírhams y el tipo de cambio que usaste.",
+      "items": [
+        "Tipo e importe del impuesto por línea, no solo un total",
+        "TRN del destinatario siempre que esté registrado",
+        "Tipo de cambio en cualquier factura que no sea en AED",
+        "Redacción de inversión del sujeto pasivo cuando corresponda"
+      ]
+    },
+    {
+      "eyebrow": "Prepararse",
+      "title": "Lo que te piden de verdad las fechas de 2027",
+      "body": "La obligación no es comprar un software con un logotipo, es poder emitir una factura estructurada a través de un Accredited Service Provider en la fecha que corresponde a tu tramo de ingresos. Calcula hacia atrás desde la fecha de implantación de tu tramo y no desde el piloto: el plazo para designar un proveedor de servicios cae meses antes de la entrada en vigor, y es la designación, no la entrada en vigor, lo que la mayoría de las empresas pasa por alto. Mientras tanto, los datos que necesitarás son los mismos que ya exige el artículo 59, una buena razón para mejorar ahora la calidad de tus facturas en lugar de hacerlo durante una migración.",
+      "items": [
+        "Sabe en qué tramo de ingresos estás",
+        "Anota en tu agenda la designación del proveedor, no solo la entrada en vigor",
+        "Limpia los TRN de tus clientes antes del plazo, no durante",
+        "Guarda el detalle del impuesto por línea desde hoy"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Cuál es el tipo de IVA en los EAU?",
+      "a": "El cinco por ciento. El artículo 3 del Decreto-ley federal 8 de 2017 establece un tipo general del 5% sobre cualquier suministro gravado o importación, en vigor desde el 1 de enero de 2018. Algunos suministros tienen tipo cero o están exentos, y la diferencia importa: un proveedor con tipo cero puede recuperar el impuesto soportado, uno exento no."
+    },
+    {
+      "q": "¿Cuándo es obligatoria la factura electrónica en los EAU?",
+      "a": "Depende de tus ingresos. Según las directrices publicadas por el Ministerio de Finanzas, las empresas con ingresos de AED 50 millones o más la implantan desde el 1 de enero de 2027, las que están por debajo desde el 1 de julio de 2027 y las entidades públicas desde el 1 de octubre de 2027. Un piloto y la adopción voluntaria se abrieron el 1 de julio de 2026. Consulta las páginas del Ministerio antes de planificar en torno a cualquier fecha, porque ya ha modificado un plazo."
+    },
+    {
+      "q": "¿Cuándo puedo emitir una factura con IVA simplificada en los EAU?",
+      "a": "Cuando el destinatario no está registrado a efectos de IVA, o está registrado y la contraprestación no supera AED 10,000. Una factura simplificada sigue necesitando las palabras \"Factura con IVA\", tu nombre, dirección y TRN, la fecha de emisión, una descripción de lo suministrado y la contraprestación total y el importe del impuesto en dírhams."
+    },
+    {
+      "q": "¿Necesito el TRN del cliente en una factura de los EAU?",
+      "a": "Sí, siempre que el cliente esté registrado a efectos de IVA. El artículo 59(1)(c) exige en ese caso el nombre, la dirección y el Número de Registro Fiscal del destinatario. Sin él, tu cliente puede tener problemas para recuperar el impuesto soportado, y eso suele volver a ti como una petición de reemisión."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Factura correctamente en los EAU, gratis",
+  "ctaSub": "Impuesto por línea, cualquier moneda con el tipo de cambio en el documento y una factura en árabe e inglés a partir de un mismo registro.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decreto-ley federal 8 de 2017 sobre el IVA, artículo 3 (consolidado, con modificaciones)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Decisión del Gabinete 52 de 2017, Reglamento Ejecutivo, artículos 7, 8 y 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, y el comunicado de prensa del Ministerio sobre la modificación",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

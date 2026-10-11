@@ -1,0 +1,35 @@
+{
+  "locale": "id",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Inventaris",
+  "metaTitle": "Software Manajemen Inventaris · Paper & Pen",
+  "metaDescription": "Pantau stok di semua gudang secara real-time, dengan peringatan stok menipis, dukungan batch dan barcode, serta valuasi langsung ke pembukuan. Untuk seluruh dunia.",
+  "keywords": "aplikasi stok barang, software inventaris, manajemen gudang, aplikasi gudang, kontrol stok, stok barcode, valuasi persediaan, aplikasi persediaan barang",
+  "heroEyebrow": "Modul tambahan",
+  "heroTitle": "Stok yang bisa Anda <em class=\"text-copper-400 not-italic\">percaya</em>, secara real-time",
+  "heroSubtitle": "Ketahui persis apa yang Anda miliki, di mana letaknya dan berapa nilainya. Inventaris diperbarui saat Anda membuat faktur atau menerima barang, jadi angka Anda selalu terkini.",
+  "heroBullets": ["Stok langsung di semua gudang", "Peringatan stok menipis dan pemesanan ulang", "Valuasi tercatat ke pembukuan"],
+  "features": [
+    { "icon": "inventory", "title": "Stok real-time", "desc": "Jumlah barang diperbarui saat Anda menjual, membeli atau memindahkan barang." },
+    { "icon": "truck", "title": "Multigudang", "desc": "Pantau dan pindahkan stok antarlokasi dan cabang dengan visibilitas penuh." },
+    { "icon": "bell", "title": "Peringatan stok menipis", "desc": "Tetapkan titik pemesanan ulang dan dapatkan peringatan sebelum barang laris habis." },
+    { "icon": "receipt", "title": "Barcode & SKU", "desc": "Pindai untuk menjual atau menerima barang, tertata per SKU, batch dan satuan." },
+    { "icon": "calc", "title": "Valuasi langsung", "desc": "Metode rata-rata atau FIFO menjaga nilai persediaan tetap akurat di neraca Anda." },
+    { "icon": "refresh", "title": "Terhubung ke penjualan", "desc": "Faktur dan purchase order menggerakkan stok otomatis, tanpa pembaruan manual." }
+  ],
+  "sections": [
+    { "eyebrow": "Selalu akurat", "title": "Inventaris yang memperbarui dirinya sendiri", "body": "Hitungan stok manual langsung usang begitu ada penjualan. Di Paper & Pen, setiap faktur, pembelian dan pemindahan menyesuaikan stok dan biaya secara real-time, jadi angka di layar sama dengan barang di rak. Tetapkan titik pemesanan ulang dan biarkan sistem memberi tahu kapan harus membeli.", "items": ["Menyesuaikan otomatis di setiap transaksi", "Titik pemesanan ulang dan peringatan", "Pelacakan batch, SKU dan satuan"] },
+    { "eyebrow": "Stok bertemu pembukuan", "title": "Dari rak ke neraca", "body": "Inventaris bukan sekadar menghitung kardus, ini uang sungguhan di neraca Anda. Paper & Pen menilai stok dengan metode rata-rata atau FIFO dan mencatat pergerakannya ke akuntansi secara otomatis, sehingga harga pokok penjualan dan nilai stok Anda selalu terekonsiliasi. Berfungsi dalam mata uang apa pun untuk pasar mana pun.", "items": ["Metode rata-rata atau FIFO", "Tercatat otomatis ke akuntansi", "Pembelian multimata uang"] }
+  ],
+  "faqs": [
+    { "q": "Apakah inventaris sudah termasuk gratis?", "a": "Inventaris adalah modul tambahan berbayar yang opsional. Modul inti Penjualan & Faktur gratis selamanya, dan Anda menambah Inventaris saat membutuhkan kontrol stok real-time." },
+    { "q": "Bisakah saya mengelola beberapa gudang?", "a": "Bisa. Pantau stok per lokasi, pindahkan antarlokasi dan lihat jumlah terkini di mana saja." },
+    { "q": "Apakah mendukung barcode?", "a": "Ya. Gunakan barcode dan SKU untuk menjual dan menerima barang lebih cepat, dengan dukungan batch dan satuan." },
+    { "q": "Bagaimana stok dinilai?", "a": "Pilih biaya rata-rata atau FIFO. Valuasi diperbarui di setiap pergerakan dan tercatat ke akuntansi Anda secara otomatis." },
+    { "q": "Apakah penjualan memperbarui stok otomatis?", "a": "Ya. Faktur mengurangi stok dan pembelian menambahnya secara real-time, jadi Anda tidak pernah memperbarui jumlah secara manual." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Kendalikan stok Anda",
+  "ctaSub": "Mulai gratis dengan faktur, lalu tambahkan Inventaris saat Anda siap memantau stok real-time di setiap lokasi."
+}

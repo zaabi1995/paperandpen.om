@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "İK ve Bordro",
+  "metaTitle": "İK ve Bordro Yazılımı · Kolay Bordro · Paper & Pen",
+  "metaDescription": "Çalışanları, devamı, izinleri ve maaş bordrolarını tek yerden yönetin. Her para biriminde bordro çalıştırın, maaşları deftere işleyin, kıdem tazminatına hazır.",
+  "keywords": "ik yazılımı, bordro programı, maaş bordrosu, personel devam takibi, izin yönetimi, kıdem tazminatı, wps, personel yönetimi",
+  "heroEyebrow": "Eklenti modül",
+  "heroTitle": "Ekibinize her seferinde <em class=\"text-copper-400 not-italic\">doğru</em> ödeme yapın",
+  "heroSubtitle": "Çalışanlar, devam, izin ve bordro tek düzenli bir modülde. Bir bordro dönemi çalıştırın, maaş bordrolarını oluşturun ve maaşları günler değil dakikalar içinde hesaplarınıza işleyin.",
+  "heroBullets": ["Dakikalar içinde bordro", "Maaş bordrosu ve izin için self servis", "Doğrudan muhasebeye işlenir"],
+  "features": [
+    { "icon": "hr", "title": "Çalışan kayıtları", "desc": "Kişi başına tek profil: sözleşme, maaş, belgeler ve geçmiş." },
+    { "icon": "clock", "title": "Devam ve fazla mesai", "desc": "Bordroya akan vardiyaları, fazla mesaiyi ve devamsızlıkları kaydedin." },
+    { "icon": "doc", "title": "İzin yönetimi", "desc": "İzin politikaları belirleyin, talepleri onaylayın ve bakiyeleri otomatik takip edin." },
+    { "icon": "receipt", "title": "Maaş bordroları", "desc": "Net ve kalem kalem maaş bordroları oluşturun, her çalışanla paylaşın." },
+    { "icon": "calc", "title": "Kesintiler ve kıdem tazminatı", "desc": "Avansları, kesintileri ve kıdem tazminatı hesaplarını doğru şekilde yönetin." },
+    { "icon": "accounting", "title": "Deftere işlenir", "desc": "Her bordro çalıştırması maaşları ve tahakkukları hesaplarınıza otomatik işler." }
+  ],
+  "sections": [
+    { "eyebrow": "Daha az evrak işi", "title": "Tablolar olmadan devamdan maaş bordrosuna", "body": "Devam, fazla mesai, izin ve avansların hepsi bordroya aktığı için ay sonunda tabloları birleştirmekle uğraşmazsınız. Dönemi bir kez onaylayın, Paper & Pen tüm maaş bordrolarını ve maaş yevmiyesini tek seferde hazırlasın.", "items": ["Devam ve fazla mesai bordroya akar", "Avanslar ve kesintiler yönetilir", "Maaş bordroları toplu oluşturulur"] },
+    { "eyebrow": "Nerede istihdam ederseniz edin", "title": "Ülkenize ve para biriminize uyan bordro", "body": "Personelinize her para biriminde ödeme yapın, faaliyet gösterdiğiniz yerde geçerli yan hakları, kesintileri ve kıdem tazminatı kurallarını yapılandırın. Arapça, İngilizce, Hintçe, Bengalce ve Urduca arayüzler sayesinde ekibiniz kendi maaş bordrosunu okuyabilir ve kendi dilinde izin talep edebilir.", "items": ["Her para biriminde maaş", "Yapılandırılabilir yan haklar ve kesintiler", "Kıdem tazminatına hazır"] }
+  ],
+  "faqs": [
+    { "q": "İK ve Bordro ücretsiz mi?", "a": "İsteğe bağlı ücretli bir eklentidir. Sonsuza kadar ücretsiz çekirdek Satış ve Faturalama'yı kapsar; personel ve maaş yönetmeniz gerektiğinde İK ve Bordro'yu eklersiniz." },
+    { "q": "Her para biriminde bordro çalıştırabilir miyim?", "a": "Evet. Ekibinize OMR, AED, SAR, USD, EUR veya herhangi bir para biriminde ödeme yapın; yan haklar ve kesintiler kurallarınıza göre yapılandırılır." },
+    { "q": "Devam ve izinleri yönetiyor mu?", "a": "Evet. Devamı ve fazla mesaiyi kaydedin, izin politikaları belirleyin, talepleri onaylayın ve bakiyeleri takip edin; hepsi bordroya akar." },
+    { "q": "Bordro muhasebeye işleniyor mu?", "a": "Evet. Muhasebe açık olduğunda her çalıştırma maaşları, yan hakları ve tahakkukları defterinize otomatik işler." },
+    { "q": "Kıdem tazminatını hesaplayabilir mi?", "a": "Evet. Ülkeniz için kıdem tazminatı ve ikramiye kurallarını yapılandırın, böylece son ödemeler doğru hesaplanır." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Maaş gününü zahmetsiz hale getirin",
+  "ctaSub": "Faturalama ile ücretsiz başlayın, ekibinizi yönetmek ve bordroyu dakikalar içinde çalıştırmak için İK ve Bordro'yu ekleyin."
+}

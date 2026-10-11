@@ -1,0 +1,35 @@
+{
+  "locale": "id",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Manufaktur",
+  "metaTitle": "Software Manufaktur & Produksi · Paper & Pen",
+  "metaDescription": "Rencanakan produksi dengan bill of materials, perintah kerja dan perhitungan biaya nyata. Pakai bahan baku, hasilkan barang jadi, ketahui margin sebenarnya.",
+  "keywords": "software manufaktur, aplikasi produksi, manajemen produksi, bill of materials, BOM, perintah kerja, harga pokok produksi, barang jadi, software pabrik",
+  "heroEyebrow": "Modul tambahan",
+  "heroTitle": "Produksi sesuai pesanan, <em class=\"text-copper-400 not-italic\">biaya akurat hingga rial terakhir</em>",
+  "heroSubtitle": "Ubah bahan baku menjadi barang jadi dengan bill of materials dan perintah kerja, sementara Paper & Pen melacak biaya setiap komponen agar Anda selalu tahu margin yang sebenarnya.",
+  "heroBullets": ["Bill of materials dan perintah kerja", "Pemakaian stok otomatis", "Perhitungan biaya produksi yang nyata"],
+  "features": [
+    { "icon": "manufacturing", "title": "Bill of materials", "desc": "Tentukan apa saja yang masuk ke setiap produk, lengkap dengan jumlah dan sub-rakitan." },
+    { "icon": "doc", "title": "Perintah kerja", "desc": "Rencanakan dan pantau produksi dari bahan baku hingga stok barang jadi." },
+    { "icon": "inventory", "title": "Pergerakan stok otomatis", "desc": "Bahan baku terpakai dan barang jadi bertambah selama Anda berproduksi." },
+    { "icon": "calc", "title": "Biaya produksi", "desc": "Gabungkan biaya bahan dan overhead menjadi nilai barang jadi yang akurat." },
+    { "icon": "chart", "title": "Margin terlihat jelas", "desc": "Bandingkan biaya produksi dengan harga jual dan lihat margin nyata per item." },
+    { "icon": "refresh", "title": "Terhubung dari awal hingga akhir", "desc": "Hubungkan pembelian, inventaris dan penjualan dalam satu alur yang berkesinambungan." }
+  ],
+  "sections": [
+    { "eyebrow": "Rencanakan dengan yakin", "title": "Dari resep hingga barang jadi", "body": "Tentukan bill of materials sekali dan Paper & Pen tahu persis apa yang dipakai setiap produksi. Buat perintah kerja, maka bahan baku dicadangkan dan dipakai sementara barang jadi masuk ke inventaris, dengan seluruh perhitungan biaya diurus untuk Anda.", "items": ["Bill of materials yang bisa dipakai ulang", "Perintah kerja dengan pencadangan stok", "Pemakaian otomatis dan penerimaan barang jadi"] },
+    { "eyebrow": "Ketahui margin sebenarnya", "title": "Perhitungan biaya yang jujur", "body": "Menebak biaya sama dengan menebak laba. Paper & Pen menggabungkan biaya bahan dan overhead menjadi biaya barang jadi yang nyata, mencatatnya ke pembukuan, dan menampilkan margin di setiap penjualan. Berfungsi dalam mata uang apa pun, jadi Anda bisa membeli dan menjual lintas negara.", "items": ["Perhitungan biaya bahan plus overhead", "Tercatat otomatis ke akuntansi", "Margin per produk, per pesanan"] }
+  ],
+  "faqs": [
+    { "q": "Apakah modul Manufaktur gratis?", "a": "Manufaktur adalah modul tambahan berbayar yang opsional. Modul inti Penjualan & Faktur gratis selamanya, dan Anda menambah Manufaktur saat memproduksi barang." },
+    { "q": "Bisakah saya membuat bill of materials?", "a": "Bisa. Buat BOM untuk setiap produk, termasuk sub-rakitan, dan pakai ulang di setiap produksi." },
+    { "q": "Apakah stok terpakai otomatis?", "a": "Ya. Saat Anda memproses perintah kerja, bahan baku terpakai dan barang jadi masuk ke inventaris secara otomatis." },
+    { "q": "Bagaimana biaya produksi dihitung?", "a": "Biaya bahan dan overhead digabung menjadi nilai barang jadi, yang tercatat ke akuntansi sehingga margin Anda akurat." },
+    { "q": "Apakah berfungsi untuk mata uang apa pun?", "a": "Ya. Beli bahan dan jual barang jadi dalam mata uang apa pun, dengan perhitungan biaya dan akuntansi yang tetap sinkron." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Hitung biaya setiap produksi dengan akurat",
+  "ctaSub": "Mulai gratis dengan faktur, lalu tambahkan Manufaktur untuk merencanakan produksi dan mengetahui margin sebenarnya."
+}

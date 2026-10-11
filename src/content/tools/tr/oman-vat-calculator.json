@@ -1,0 +1,38 @@
+{
+  "locale": "tr",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Ücretsiz KDV ve Vergi Hesaplayıcı",
+  "metaTitle": "Umman KDV Hesaplayıcı: %5 KDV Ekleyin veya Çıkarın",
+  "metaDescription": "Umman'ın %5 KDV'sini online hesaplayın. Net tutara KDV ekleyin veya brüt toplamdan çıkarın; net, KDV ve toplamı kayıt olmadan anında görün.",
+  "keywords": "kdv hesaplama, umman kdv hesaplayıcı, satış vergisi hesaplama, kdv ekleme, kdv çıkarma, yüzde 5 kdv hesaplama, kdv dahil hesaplama, kdv hariç hesaplama",
+  "heroEyebrow": "Ücretsiz · Kayıt gerekmez",
+  "heroTitle": "Ücretsiz <em class=\"text-copper-400 not-italic\">KDV ve Vergi</em> Hesaplayıcı",
+  "heroSubtitle": "Umman'ın %5 KDV'sini online hesaplayın. Net tutara KDV ekleyin veya brüt toplamdan çıkarın; net, KDV ve toplamı kayıt olmadan anında görün.",
+  "heroBullets": ["Her oran, her para birimi", "Vergi ekleyin veya geri hesaplayın", "Sonsuza kadar ücretsiz, kayıt yok"],
+  "howToSteps": [
+    { "name": "Tutarı girin", "text": "Çalışmak istediğiniz tutarı yazın ve para biriminizi seçin." },
+    { "name": "Vergi oranını belirleyin", "text": "Umman'ın varsayılan %5 oranını kullanın veya işleminiz için geçerli güncel oranı girin." },
+    { "name": "Ekle veya çıkar'ı seçin", "text": "Net tutara vergi ekleyin veya neti bulmak için brüt tutardan vergiyi çıkarın (KDV dahilden hariç hesaplama)." },
+    { "name": "Sonucu okuyun", "text": "Net, vergi ve brüt tutarı anında ayrıştırılmış olarak görün, bir faturaya kopyalamaya hazır." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Vergi ekleyin veya çıkarın", "desc": "Vergiyi net tutar üzerinden ileriye doğru hesaplayın veya tek tıkla brüt tutardan geriye doğru ayırın." },
+    { "icon": "globe", "title": "Her oran, her para birimi", "desc": "Varsayılan olarak Umman %5, ya da size uygulanan oranı OMR, AED, SAR, USD, EUR ve daha fazlasında belirleyin." },
+    { "icon": "bolt", "title": "Anında ve ücretsiz", "desc": "Kayıt yok, sınır yok. Yazdığınız anda net, vergi ve brüt tutarı alın." }
+  ],
+  "sections": [
+    { "title": "Neden Paper & Pen KDV hesaplayıcısını kullanmalısınız?", "body": "İster bir teklifi fiyatlandırın, ister bir faturayı kontrol edin, ister beyanname verin; net, vergi ve brüt tutarın son ondalığa kadar tutması gerekir. Bu hesaplayıcı her para biriminde her oranı işler, iki yönlü çalışır (vergi ekler veya toplamdan geriye ayırır) ve gerçekten ücretsizdir. Umman'ın %5 oranıyla açılır ve diğer ülkeler için tamamen yapılandırılabilir." },
+    { "eyebrow": "Hesaplayıcının ötesinde", "title": "KDV'yi yazılımınız sizin yerinize hesaplasın", "body": "Her satırda vergiyi elle hesaplamak yavaştır ve hataya açıktır. Eksiksiz Paper & Pen ERP içinde KDV her faturanın indirim sonrası net tutarına otomatik uygulanır, defterlerinize kaydedilir ve beyannameye hazır raporlarda toplanır; böylece hesap makinesine hiç ihtiyaç duymazsınız.", "items": ["Her fatura ve teklifte otomatik vergi", "Kalem ve belge bazında vergi oranları", "Beyana hazır KDV özet raporları"] }
+  ],
+  "faqs": [
+    { "q": "Bu Umman KDV hesaplayıcı hangi oranı kullanıyor?", "a": "Hesaplayıcı Umman'ın %5 oranıyla açılır. Vergi kuralları değişebilir; bir hesaplamaya güvenmeden önce güncel oranı Oman Tax Authority ile teyit edin. Herhangi bir oran girebilirsiniz." },
+    { "q": "Bir toplamdan KDV'yi nasıl çıkarırım?", "a": "Çıkar (geri hesapla) seçeneğini seçin ve brüt tutarı girin. Hesaplayıcı neti ve toplamın içindeki vergi payını bulur." },
+    { "q": "Umman dışında satış vergisi için kullanabilir miyim?", "a": "Evet. İşleminiz için geçerli oranı belirleyin ve herhangi bir para birimini seçin. Dünyanın her yerinde KDV, GST veya satış vergisi için çalışır." },
+    { "q": "İndirimli bir tutar üzerinden vergi hesaplıyor mu?", "a": "İndirim sonrası net tutarı girin ve üzerine vergi ekleyin. Tam faturalarda indirim sonrası KDV'nin otomatik hesaplanması için, bunun sizin yerinize yapıldığı ücretsiz bir Paper & Pen çalışma alanı oluşturun." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "KDV'yi elle hesaplamayı bırakın",
+  "ctaSub": "Ücretsiz bir Paper & Pen çalışma alanıyla her faturada vergiyi otomatik uygulayın ve beyana hazır KDV raporları alın."
+}

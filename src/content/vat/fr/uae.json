@@ -1,0 +1,152 @@
+{
+  "locale": "fr",
+  "slug": "uae",
+  "order": 2,
+  "country": "Émirats arabes unis",
+  "title": "La TVA aux Émirats arabes unis",
+  "metaTitle": "TVA aux Émirats : taux, seuils, e-facture · Paper & Pen",
+  "metaDescription": "Le taux de TVA de 5% aux Émirats, le seuil de AED 375,000, les mentions de l'article 59 et le calendrier confirmé de la facturation électronique, sourcés.",
+  "keywords": "tva émirats arabes unis, tva dubaï, taux de tva émirats, seuil immatriculation tva émirats, mentions facture fiscale émirats, facturation électronique émirats 2027, federal tax authority",
+  "heroEyebrow": "Émirats arabes unis",
+  "heroTitle": "Facturer selon les règles de <em class=\"text-copper-400 not-italic\">TVA des Émirats</em>",
+  "heroSubtitle": "Le taux, les seuils, les douze mentions que l'article 59 exige sur une facture fiscale et les dates de facturation électronique réellement publiées par le Ministry of Finance.",
+  "heroBullets": [
+    "Taux normal de 5%",
+    "Immatriculation à partir de AED 375,000",
+    "Facturation électronique progressive dès 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Taux normal de TVA",
+      "value": "5%",
+      "note": "L'article 3 du Federal Decree-Law 8 of 2017 impose un taux normal de 5% sur toute livraison ou importation. En vigueur depuis le 1er janvier 2018.",
+      "source": 1
+    },
+    {
+      "label": "Seuil d'immatriculation obligatoire",
+      "value": "AED 375,000",
+      "note": "Article 7(1) de l'Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Seuil d'immatriculation volontaire",
+      "value": "AED 187,500",
+      "note": "Article 8(1) de l'Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Plafond de la facture simplifiée",
+      "value": "AED 10,000",
+      "note": "Une facture fiscale simplifiée est autorisée lorsque le destinataire n'est pas immatriculé, ou lorsqu'il est immatriculé et que la contrepartie ne dépasse pas ce montant.",
+      "source": 2
+    },
+    {
+      "label": "Devise sur la facture",
+      "value": "AED",
+      "note": "Les montants de taxe sont indiqués en dirhams et, lorsque la facture est dans une autre devise, le taux de change appliqué doit apparaître.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "L'article 59(1) de l'Executive Regulation énumère ce que doit contenir une facture fiscale complète.",
+    "items": [
+      "La mention « Tax Invoice » (facture fiscale), bien visible",
+      "Le nom, l'adresse et le numéro d'immatriculation fiscale (TRN) du fournisseur",
+      "Le nom, l'adresse et le TRN du destinataire, lorsqu'il est immatriculé",
+      "Un numéro séquentiel ou unique permettant d'identifier et de classer la facture",
+      "La date d'émission",
+      "La date de livraison, lorsqu'elle diffère de la date d'émission",
+      "Une description des biens ou services",
+      "Pour chaque article : prix unitaire, quantité ou volume, taux de taxe et montant dû en AED",
+      "Le montant de toute remise accordée",
+      "Le montant brut dû en AED",
+      "Le montant de taxe facturé en AED, avec le taux de change en cas de conversion depuis une autre devise",
+      "Pour une livraison en autoliquidation, une mention indiquant que le destinataire doit déclarer la taxe, et la disposition invoquée"
+    ],
+    "source": 2,
+    "caveat": "Il s'agit de la publication consolidée de l'Executive Regulation par la Federal Tax Authority, datée du 4 octobre 2024. Des commentateurs évoquent un amendement ultérieur ; nous ne l'avons pas trouvé dans un texte publié par la FTA, donc confirmez la formulation en vigueur auprès de la FTA avant de vous y fier."
+  },
+  "einvoicing": {
+    "status": "Obligatoire et progressive, pilote ouvert",
+    "body": "Le système de facturation électronique des Émirats est un modèle décentralisé à cinq coins dans lequel les factures transitent par des Accredited Service Providers. Les lignes directrices du Ministry of Finance fixent le calendrier : un programme pilote et une adoption volontaire à partir du 1er juillet 2026 ; les entreprises dont le chiffre d'affaires atteint AED 50 millions ou plus mettent en œuvre à partir du 1er janvier 2027 ; les entreprises sous ce seuil à partir du 1er juillet 2027 ; les entités publiques à partir du 1er octobre 2027. Le Ministry a repoussé la première date limite de désignation d'un Accredited Service Provider du 31 juillet 2026 au 30 octobre 2026, sans changer le démarrage de janvier 2027 : le PDF des lignes directrices publié et le communiqué du Ministry divergent donc sur cette date, et le communiqué est le plus récent.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Bien faire les choses",
+      "title": "Les pièges de l'article 59",
+      "body": "L'exigence par ligne est celle que la plupart des modèles de facture ne respectent pas. L'article 59(1)(h) demande le prix unitaire, la quantité, le taux de taxe et le montant dû pour chaque bien ou service : un seul montant de taxe global en bas de facture ne suffit pas lorsque les lignes ont des traitements différents. Le deuxième piège est le TRN du destinataire, exigé dès que celui-ci est immatriculé, et le troisième est le taux de change : facturez en dollars et vous devez quand même indiquer la taxe en dirhams et le taux utilisé.",
+      "items": [
+        "Taux et montant de taxe par ligne, pas seulement un total",
+        "Le TRN du destinataire dès qu'il est immatriculé",
+        "Le taux de change sur toute facture hors AED",
+        "La mention d'autoliquidation lorsqu'elle s'applique"
+      ]
+    },
+    {
+      "eyebrow": "Se préparer",
+      "title": "Ce que les dates de 2027 exigent vraiment de vous",
+      "body": "L'obligation n'est pas d'acheter un logiciel orné d'un logo, mais de pouvoir émettre une facture structurée par l'intermédiaire d'un Accredited Service Provider à la date qui s'applique à votre tranche de chiffre d'affaires. Partez de la date de mise en œuvre de votre tranche plutôt que du pilote : la date limite de désignation d'un prestataire tombe des mois avant le démarrage, et c'est la désignation, pas le démarrage, que la plupart des entreprises ratent. En attendant, les données dont vous aurez besoin sont celles que l'article 59 exige déjà : une bonne raison d'améliorer la qualité de vos factures dès maintenant plutôt que pendant une migration.",
+      "items": [
+        "Sachez dans quelle tranche de chiffre d'affaires vous vous situez",
+        "Notez la désignation du prestataire, pas seulement le démarrage",
+        "Nettoyez les TRN clients avant l'échéance, pas pendant",
+        "Gardez le détail de la taxe par ligne dès aujourd'hui"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quel est le taux de TVA aux Émirats arabes unis ?",
+      "a": "Cinq pour cent. L'article 3 du Federal Decree-Law 8 of 2017 impose un taux normal de 5% sur toute livraison ou importation taxable, en vigueur depuis le 1er janvier 2018. Certaines livraisons sont à taux zéro ou exonérées, et la différence compte : un fournisseur à taux zéro peut toujours récupérer la taxe déductible, un fournisseur exonéré ne le peut pas."
+    },
+    {
+      "q": "Quand la facturation électronique devient-elle obligatoire aux Émirats ?",
+      "a": "Cela dépend de votre chiffre d'affaires. Selon les lignes directrices publiées par le Ministry of Finance, les entreprises dont le chiffre d'affaires atteint AED 50 millions ou plus mettent en œuvre à partir du 1er janvier 2027, celles sous ce seuil à partir du 1er juillet 2027, et les entités publiques à partir du 1er octobre 2027. Un pilote et une adoption volontaire ont ouvert le 1er juillet 2026. Consultez les pages du Ministry avant de planifier autour d'une date, car il a déjà modifié une échéance."
+    },
+    {
+      "q": "Quand puis-je émettre une facture fiscale simplifiée aux Émirats ?",
+      "a": "Lorsque le destinataire n'est pas immatriculé à la TVA, ou lorsqu'il est immatriculé et que la contrepartie ne dépasse pas AED 10,000. Une facture simplifiée doit tout de même porter la mention « Tax Invoice », vos nom, adresse et TRN, la date d'émission, une description de ce qui a été fourni, ainsi que la contrepartie totale et le montant de taxe en dirhams."
+    },
+    {
+      "q": "Le TRN du client doit-il figurer sur une facture aux Émirats ?",
+      "a": "Oui, dès que le client est immatriculé à la TVA. L'article 59(1)(c) exige dans ce cas le nom, l'adresse et le numéro d'immatriculation fiscale du destinataire. Sans lui, votre client peut avoir du mal à récupérer la taxe déductible, ce qui vous revient généralement sous la forme d'une demande de réémission."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Facturez correctement aux Émirats, gratuitement",
+  "ctaSub": "Taxe par ligne, toute devise avec le taux sur le document, et une facture en arabe et en anglais à partir d'un seul enregistrement.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, article 3 (version consolidée, avec amendements)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, articles 7, 8 et 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, et le communiqué du Ministry sur l'amendement",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

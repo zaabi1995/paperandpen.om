@@ -1,0 +1,159 @@
+{
+  "locale": "id",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "title": "PPN di Oman",
+  "metaTitle": "PPN di Oman: Tarif, Batas Registrasi, Faktur · Paper & Pen",
+  "metaDescription": "Tarif PPN 5% Oman, batas registrasi OMR 38,500 dan dua belas unsur wajib faktur pajak, masing-masing dengan rujukan ke Tax Authority.",
+  "keywords": "PPN Oman, tarif PPN Oman, pajak Oman, batas registrasi PPN Oman, syarat faktur pajak Oman, e-faktur Oman, Fawtara, Oman Tax Authority",
+  "heroEyebrow": "Oman",
+  "heroTitle": "Membuat faktur sesuai aturan <em class=\"text-copper-400 not-italic\">PPN Oman</em>",
+  "heroSubtitle": "Tarif, batas registrasi, isi wajib faktur pajak dan status e-faktur. Setiap angka di halaman ini merujuk pada teks resmi yang diterbitkan Oman Tax Authority sendiri.",
+  "heroBullets": [
+    "Tarif standar 5%",
+    "Registrasi mulai OMR 38,500",
+    "Fawtara diumumkan, belum berlaku"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Tarif PPN standar",
+      "value": "5%",
+      "note": "Pasal 36 VAT Law menetapkan pajak atas impor dan penyerahan barang atau jasa kena pajak sebesar lima persen dari nilai kena pajak.",
+      "source": 1
+    },
+    {
+      "label": "Batas registrasi wajib",
+      "value": "OMR 38,500",
+      "note": "Penyerahan tahunan yang mencapai atau melebihi angka ini wajib registrasi. Undang-undang menyerahkan angkanya pada keputusan Ketua, bukan menetapkannya di dalam undang-undang itu sendiri.",
+      "source": 2
+    },
+    {
+      "label": "Batas registrasi sukarela",
+      "value": "OMR 19,250",
+      "note": "Anda boleh registrasi di bawah batas wajib mulai dari angka ini.",
+      "source": 2
+    },
+    {
+      "label": "Bahasa faktur",
+      "value": "Arab",
+      "note": "Faktur juga boleh diterbitkan dalam bahasa Inggris asalkan terjemahan bahasa Arab tersedia bila diminta.",
+      "source": 3
+    },
+    {
+      "label": "Batas faktur sederhana",
+      "value": "OMR 500",
+      "note": "Penyerahan di bawah nilai ini boleh memakai faktur pajak sederhana, dengan persetujuan Tax Authority.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Pasal 145 Executive Regulations mencantumkan apa saja yang wajib ada di faktur pajak. Pasal ini membuka daftarnya dengan kata \"khususnya\", jadi anggap daftar ini sebagai batas minimum, bukan daftar lengkap.",
+    "items": [
+      "Tulisan \"Faktur Pajak\"",
+      "Tanggal terbit, tanggal penyerahan dan tanggal pembayaran",
+      "Nomor faktur yang berurutan",
+      "Nama lengkap, alamat dan Nomor Identifikasi Pajak pemasok",
+      "Nama lengkap, alamat dan Nomor Identifikasi Pajak pelanggan, atau padanannya di negara tempat tinggalnya",
+      "Uraian barang dan jasa yang diserahkan",
+      "Jumlah barang",
+      "Tanggal pembayaran uang muka, bila ada",
+      "Total imbalan tidak termasuk pajak",
+      "Tarif pajak yang diterapkan",
+      "Setiap potongan harga atau diskon yang diberikan, serta subsidi negara yang belum termasuk",
+      "Nilai kena pajak"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority menerbitkan Executive Regulations hanya dalam bahasa Arab. Daftar ini adalah pembacaan yang setia atas teks resmi berbahasa Arab, bukan terjemahan resmi, jadi pastikan rumusannya dengan konsultan pajak Anda sebelum mengandalkannya."
+  },
+  "einvoicing": {
+    "status": "Diumumkan dan bertahap, belum wajib",
+    "body": "Program e-faktur Oman bernama Fawtara. Tax Authority menjelaskan model lima sudut, di mana faktur sampai ke Tax Authority melalui penyedia layanan terakreditasi, dan menetapkan empat tahap: uji coba, perluasan, pendaftaran bisnis yang lebih kecil, dan peluncuran penuh. Tax Authority belum menerbitkan tanggal tiap tahap dalam bahasa Inggris, dan tanggal yang beredar di media tidak tercantum di halaman resminya. Anggap setiap tenggat Fawtara yang Anda baca di tempat lain belum terkonfirmasi sampai Tax Authority menerbitkannya.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Agar tidak salah",
+      "title": "Yang sering menjebak bisnis di Oman",
+      "body": "Tiga hal menjadi penyebab sebagian besar masalah faktur PPN di sini. Pertama, Nomor Identifikasi Pajak pelanggan: jika tidak dicantumkan, pelanggan Anda mungkin tidak bisa mengkreditkan pajak masukannya, sehingga faktur Anda menjadi biaya bagi mereka dan masalah bagi Anda. Kedua, urutan faktur. Pasal 145 mewajibkan nomor yang berurutan, dan cara tercepat merusaknya adalah menghapus atau mengubah nomor faktur yang sudah terkirim. Koreksi dengan nota kredit sebagai gantinya. Ketiga, bahasa: faktur harus dalam bahasa Arab, dan menerbitkan hanya dalam bahasa Inggris tanpa versi Arab yang tersedia bila diminta membuat Anda berisiko.",
+      "items": [
+        "Catat TIN pelanggan sebelum menerbitkan faktur, bukan sesudahnya",
+        "Jangan pernah menghapus faktur yang sudah terbit, buat nota kredit",
+        "Sediakan versi bahasa Arab bila diminta",
+        "Catat tanggal penyerahan terpisah dari tanggal terbit"
+      ]
+    },
+    {
+      "eyebrow": "Persiapan",
+      "title": "Bersiap untuk Fawtara tanpa menebak tanggal",
+      "body": "Anda tidak perlu menunggu tenggat resmi untuk bersiap. Setiap aturan e-faktur yang sudah berlaku di kawasan ini menuntut disiplin dasar yang sama: data pelanggan yang bersih dan lengkap termasuk nomor pajak, urutan faktur yang tidak terputus, perlakuan pajak yang dicatat per baris dan bukan per faktur, serta dokumen yang tersimpan sehingga bisa diambil kembali bila diminta. Bisnis yang datanya sudah memenuhi empat syarat itu hanya butuh implementasi singkat kapan pun tanggalnya ditetapkan. Bisnis yang belum akan menghabiskan masa pemberitahuan untuk membersihkan data.",
+      "items": [
+        "Data pelanggan lengkap, termasuk nomor pajak",
+        "Satu urutan faktur yang tidak terputus per seri",
+        "Perlakuan pajak dicatat baris demi baris",
+        "Dokumen bisa diambil kembali bila diminta"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Berapa tarif PPN di Oman?",
+      "a": "Lima persen. Pasal 36 VAT Law, yang diundangkan dengan Royal Decree 121/2020, menghitung pajak atas impor dan penyerahan barang atau jasa kena pajak sebesar lima persen dari nilai kena pajak. Sebagian penyerahan dikenai tarif nol atau dibebaskan, dan keduanya berbeda: pemasok dengan tarif nol tetap bisa mengkreditkan pajak masukan, sedangkan pemasok yang dibebaskan tidak bisa."
+    },
+    {
+      "q": "Kapan saya wajib registrasi PPN di Oman?",
+      "a": "Saat penyerahan tahunan Anda mencapai atau diperkirakan mencapai OMR 38,500. Anda boleh registrasi secara sukarela mulai OMR 19,250. Kedua angka ini berasal dari keputusan Ketua tentang batas registrasi, bukan dari VAT Law itu sendiri, sehingga angkanya bisa berubah tanpa undang-undangnya berubah."
+    },
+    {
+      "q": "Apakah e-faktur sudah wajib di Oman?",
+      "a": "Belum. Tax Authority telah mengumumkan Fawtara, model e-faktur lima sudut yang bertahap dengan penyedia layanan terakreditasi, dan menjelaskan empat tahap peluncuran. Tanggal tiap tahap belum diterbitkan dalam bahasa Inggris di halaman resminya, jadi kami tidak mencantumkan tanggal di sini. Periksa halaman e-faktur Tax Authority untuk posisi terkini."
+    },
+    {
+      "q": "Bolehkah saya menerbitkan faktur dalam bahasa Inggris di Oman?",
+      "a": "Boleh, tetapi Executive Regulations mewajibkan faktur pajak dalam bahasa Arab dan membolehkan bahasa lain sebagai tambahan, asalkan terjemahan bahasa Arab tersedia bila diminta. Dalam praktiknya, artinya Anda perlu template dwibahasa, bukan hanya bahasa Inggris."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Buat faktur yang benar di Oman, gratis",
+  "ctaSub": "Atur tarif pajak Anda sendiri, tagih dalam mata uang apa pun, dan buat faktur bahasa Arab dan Inggris dari catatan yang sama.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, Pasal 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Keputusan Ketua tentang penetapan batas registrasi wajib dan sukarela",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Keputusan 53/2021, Pasal 145 sampai 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Halaman program e-faktur (Fawtara)",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

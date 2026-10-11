@@ -1,0 +1,37 @@
+{
+  "locale": "de",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Kostenloser Bestellungs-Generator",
+  "metaTitle": "Bestellung erstellen kostenlos · Paper & Pen",
+  "metaDescription": "Bestellungen kostenlos online erstellen. Lieferant und Positionen eintragen, Währung und Steuer wählen und in Sekunden ein druckfertiges PDF herunterladen.",
+  "keywords": "Bestellung erstellen kostenlos, Bestellschein Vorlage, Bestellformular erstellen, Bestellung an Lieferanten, Bestellung als PDF, Einkaufsbestellung Vorlage",
+  "heroEyebrow": "Kostenlos · Ohne Anmeldung",
+  "heroTitle": "Kostenloser Bestellungs-Generator",
+  "heroSubtitle": "Senden Sie in Sekunden eine klare Bestellung an jeden Lieferanten. Positionen hinzufügen, jede Währung wählen, Steuer anwenden und ein druckfertiges PDF herunterladen. Kein Konto nötig.",
+  "howToSteps": [
+    { "name": "Ihre Daten eintragen", "text": "Geben Sie Ihren Firmennamen, den Lieferanten, eine Bestellnummer und das Datum ein." },
+    { "name": "Positionen hinzufügen", "text": "Führen Sie die bestellten Waren oder Leistungen mit Menge und Preis auf. Die Summen werden automatisch berechnet." },
+    { "name": "Währung & Steuer festlegen", "text": "Wählen Sie eine beliebige Währung und legen Sie den geltenden MwSt.- oder Umsatzsteuersatz fest." },
+    { "name": "PDF herunterladen", "text": "Klicken Sie auf Herunterladen, um eine druckfertige Bestellung zu senden, oder registrieren Sie sich, um die Lieferung zu verfolgen und mit der Lieferantenrechnung abzugleichen." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Sofort & kostenlos", "desc": "Keine Anmeldung, kein Wasserzeichen, keine Grenzen. Erstellen Sie so viele Bestellungen, wie Sie brauchen." },
+    { "icon": "globe", "title": "Jede Währung", "desc": "Bestellen in OMR, AED, SAR, USD, EUR, GBP und mehr, ideal für Lieferanten im Ausland." },
+    { "icon": "cart", "title": "Klare Bestellbedingungen", "desc": "Mengen, Lieferdetails und Zahlungsbedingungen angeben, damit Lieferanten genau das liefern, was Sie brauchen." }
+  ],
+  "sections": [
+    { "title": "Warum den Bestellungs-Generator von Paper & Pen nutzen?", "body": "Eine Bestellung ist Ihre formelle, nachvollziehbare Anweisung an einen Lieferanten und Ihr Schutz, wenn eine Lieferung nicht stimmt. Unser Generator ist kostenlos, unterstützt mehrere Währungen und erstellt ein sauberes PDF, das jeder Lieferant erkennt. Keine Tabelle, keine Anmeldung." },
+    { "eyebrow": "Mehr als der Generator", "title": "Von der Bestellung zum Lager zur Lieferantenrechnung", "body": "Ein PDF ist erst der Anfang. Ein echter Einkaufsprozess verknüpft die Bestellung mit dem Wareneingang, den Lieferantenrechnungen und Ihren Beständen. Im vollständigen Paper & Pen ERP zeigt eine Bestellung, was bestellt ist, aktualisiert das Lager beim Wareneingang und wird mit der Lieferantenrechnung abgeglichen, damit Sie nie zu viel bezahlen.", "items": ["Bestellte, erhaltene und offene Mengen verfolgen", "Bestand beim Wareneingang automatisch aktualisieren", "Lieferantenrechnung mit der ursprünglichen Bestellung abgleichen"] }
+  ],
+  "faqs": [
+    { "q": "Was ist eine Bestellung?", "a": "Eine Bestellung ist ein Dokument, das Sie an einen Lieferanten senden, um Waren oder Leistungen formell zu einem vereinbarten Preis und in einer vereinbarten Menge anzufordern. Sobald der Lieferant sie annimmt, wird sie zu einem verbindlichen Auftrag." },
+    { "q": "Ist der Bestellungs-Generator wirklich kostenlos?", "a": "Ja. Er ist völlig kostenlos, ohne Anmeldung, ohne Wasserzeichen und ohne Begrenzung bei der Zahl der Bestellungen, die Sie erstellen." },
+    { "q": "Kann ich bei einem Lieferanten im Ausland in seiner Währung bestellen?", "a": "Ja. Wählen Sie jede Währung, darunter USD, EUR und GBP, mit automatisch angepassten Dezimalstellen, damit grenzüberschreitende Bestellungen klar sind." },
+    { "q": "Kann ich die Lieferung verfolgen und die Lieferantenrechnung abgleichen?", "a": "Laden Sie die Bestellung kostenlos herunter, oder erstellen Sie einen kostenlosen Paper & Pen Workspace, um Wareneingänge zu verfolgen, den Bestand zu aktualisieren und Lieferantenrechnungen mit Ihren Bestellungen abzugleichen." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Bestellen mit Kontrolle",
+  "ctaSub": "Verfolgen Sie jede Bestellung, aktualisieren Sie den Bestand beim Wareneingang und gleichen Sie Lieferantenrechnungen ab, mit einem kostenlosen Paper & Pen Workspace."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "it",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Produzione",
+  "metaTitle": "Software di gestione della produzione · Paper & Pen",
+  "metaDescription": "Pianifica la produzione con distinte base, ordini di produzione e costi reali. Consuma le materie prime, crea prodotti finiti, conosci il tuo vero margine.",
+  "keywords": "software produzione, gestione produzione, distinta base, distinta base software, ordini di produzione, costi di produzione, prodotti finiti, gestionale produzione",
+  "heroEyebrow": "Modulo aggiuntivo",
+  "heroTitle": "Produci su ordine, <em class=\"text-copper-400 not-italic\">costi fino all'ultimo rial</em>",
+  "heroSubtitle": "Trasforma le materie prime in prodotti finiti con distinte base e ordini di produzione, mentre Paper & Pen segue il costo di ogni componente così conosci sempre il tuo margine reale.",
+  "heroBullets": ["Distinte base e ordini di produzione", "Consumo automatico delle scorte", "Costi di produzione reali"],
+  "features": [
+    { "icon": "manufacturing", "title": "Distinte base", "desc": "Definisci cosa entra in ogni prodotto, con quantità e semilavorati." },
+    { "icon": "doc", "title": "Ordini di produzione", "desc": "Pianifica e segui i lotti di produzione dalle materie prime ai prodotti finiti." },
+    { "icon": "inventory", "title": "Movimenti di magazzino automatici", "desc": "Le materie prime vengono consumate e i prodotti finiti aggiunti mentre produci." },
+    { "icon": "calc", "title": "Costi di produzione", "desc": "Somma costi dei materiali e costi generali in un valore preciso dei prodotti finiti." },
+    { "icon": "chart", "title": "Margini in chiaro", "desc": "Confronta il costo di produzione con il prezzo di vendita e vedi il margine reale per articolo." },
+    { "icon": "refresh", "title": "Collegato dall'inizio alla fine", "desc": "Unisci acquisti, magazzino e vendite in un unico flusso continuo." }
+  ],
+  "sections": [
+    { "eyebrow": "Pianifica con sicurezza", "title": "Dalla ricetta al prodotto finito", "body": "Definisci una distinta base una volta e Paper & Pen sa esattamente cosa consuma ogni produzione. Apri un ordine di produzione e le materie prime vengono riservate e consumate mentre i prodotti finiti entrano in magazzino, con tutti i costi calcolati per te.", "items": ["Distinte base riutilizzabili", "Ordini di produzione con riserva delle scorte", "Consumo automatico e carico dei prodotti finiti"] },
+    { "eyebrow": "Conosci il tuo margine reale", "title": "Costi che dicono la verità", "body": "Tirare a indovinare il costo significa tirare a indovinare l'utile. Paper & Pen somma materiali e costi generali in un costo reale dei prodotti finiti, lo registra in contabilità e mostra il margine su ogni vendita. Funziona in qualsiasi valuta, così puoi acquistare e vendere oltre confine.", "items": ["Costi di materiali più costi generali", "Registrazione automatica in contabilità", "Margine per prodotto e per ordine"] }
+  ],
+  "faqs": [
+    { "q": "La produzione è gratuita?", "a": "La Produzione è un modulo aggiuntivo a pagamento e facoltativo. Il modulo base Vendite e Fatturazione è gratis per sempre, e aggiungi la Produzione quando produci beni." },
+    { "q": "Posso definire distinte base?", "a": "Sì. Crea una distinta base per ogni prodotto, compresi i semilavorati, e riutilizzala in ogni produzione." },
+    { "q": "Consuma le scorte in automatico?", "a": "Sì. Quando elabori un ordine di produzione, le materie prime vengono consumate e i prodotti finiti aggiunti al magazzino in automatico." },
+    { "q": "Come si calcola il costo di produzione?", "a": "I costi dei materiali e i costi generali confluiscono nel valore dei prodotti finiti, che viene registrato in contabilità così i tuoi margini sono precisi." },
+    { "q": "Funziona con qualsiasi valuta?", "a": "Sì. Acquista materiali e vendi prodotti finiti in qualsiasi valuta, con costi e contabilità sempre allineati." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Calcola con precisione il costo di ogni produzione",
+  "ctaSub": "Inizia gratis con la fatturazione e aggiungi la Produzione per pianificare la produzione e conoscere il tuo vero margine."
+}

@@ -1,0 +1,110 @@
+{
+  "locale": "pt",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Oficinas mecânicas",
+  "metaTitle": "ERP para oficinas mecânicas e concessionárias · Paper & Pen",
+  "metaDescription": "Gerencie orçamentos, estoque de peças e faturamento da sua oficina. Controle horas de mão de obra e cobranças de garantia com nosso ERP na nuvem grátis.",
+  "keywords": "sistema para oficina mecânica, software para oficina, orçamento de oficina mecânica, controle de estoque de autopeças, ERP para concessionária, cobrança de garantia, gestão financeira de oficina",
+  "heroEyebrow": "Para oficinas e concessionárias",
+  "heroTitle": "Gerencie sua oficina com <em class=\"text-copper-400 not-italic\">orçamentos claros</em> e cobrança de peças precisa.",
+  "heroSubtitle": "Pare de perder margem com peças não cobradas e mão de obra não registrada. O Paper & Pen ajuda oficinas mecânicas a emitir orçamentos de reparo detalhados, controlar o estoque até o código da peça e converter aprovações direto em faturas finais.",
+  "heroBullets": [
+    "Controle peças e valor da hora",
+    "Converta orçamentos em faturas",
+    "Gerencie cobranças de garantia de terceiros"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Orçamentos de reparo",
+      "desc": "Monte orçamentos detalhados para a autorização do cliente. Liste horas de mão de obra, taxas de diagnóstico e peças necessárias antes de começar o reparo."
+    },
+    {
+      "icon": "inventory",
+      "title": "Peças e margens",
+      "desc": "Controle seu estoque pelo código exato da peça. Acompanhe os custos de compra e defina preços de venda que protejam suas margens de lucro."
+    },
+    {
+      "icon": "clock",
+      "title": "Mão de obra pelo valor da hora",
+      "desc": "Adicione itens de serviço para o tempo dos seus mecânicos. Multiplique o valor padrão da hora da oficina pelas horas de mão de obra que o serviço exige."
+    },
+    {
+      "icon": "invoice",
+      "title": "Cobrança de terceiros",
+      "desc": "Fature a franquia para o dono do veículo e cobre o saldo restante direto da garantidora ou do fabricante."
+    },
+    {
+      "icon": "receipt",
+      "title": "Crédito da taxa de diagnóstico",
+      "desc": "Aplique uma taxa de diagnóstico no orçamento inicial e depois credite-a facilmente na fatura final se o cliente seguir com o reparo."
+    },
+    {
+      "icon": "truck",
+      "title": "Pedidos de compra",
+      "desc": "Envie pedidos de compra aos seus fornecedores de peças. Registre as entregas recebidas para atualizar o estoque automaticamente antes do próximo serviço."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Aprovação de reparos",
+      "title": "Do diagnóstico inicial à conta final do reparo",
+      "body": "O cliente precisa saber o custo antes de você encostar uma chave no motor. O Paper & Pen segue exatamente a sequência que seus consultores técnicos usam todo dia. Você emite um orçamento inicial com taxa de diagnóstico. Quando o defeito é encontrado, atualiza o orçamento com as peças e as horas de mão de obra específicas. Quando o cliente autoriza o serviço, converte esse mesmo orçamento em fatura final. Se a sua política é dispensar a taxa de diagnóstico quando o reparo é aprovado, basta adicionar um item negativo para creditar essa taxa no total.",
+      "items": [
+        "Emita orçamentos de reparo claros",
+        "Converta orçamentos aprovados em faturas",
+        "Credite taxas de diagnóstico com facilidade",
+        "Registre horas de mão de obra e valor da hora"
+      ]
+    },
+    {
+      "eyebrow": "Gestão de peças",
+      "title": "Proteja sua margem em cada peça vendida",
+      "body": "Uma oficina movimentada lida com centenas de componentes, de filtros de óleo a pinças de freio. Se você perde o controle do que pagou ao fornecedor, perde sua margem de lucro. Nosso sistema de estoque permite registrar cada item pelo código específico da peça. Você registra o preço de custo ao receber mercadorias por pedidos de compra e define um preço de venda fixo para as faturas. Quando um mecânico tira uma peça da prateleira e você a adiciona à conta do reparo, o estoque cai automaticamente e o lucro é calculado corretamente.",
+      "items": [
+        "Controle itens pelo código exato da peça",
+        "Acompanhe os preços de custo dos fornecedores",
+        "Defina preços de venda lucrativos",
+        "Baixa automática do estoque na venda"
+      ]
+    },
+    {
+      "eyebrow": "Cobrança dividida",
+      "title": "Cuide de garantias e de terceiros pagadores",
+      "body": "Nem todo reparo é pago por quem dirige o carro. Concessionárias e oficinas autorizadas fazem com frequência serviços em garantia que precisam ser cobrados do fabricante ou de uma empresa de garantia estendida. O Paper & Pen permite manter cadastros de cliente separados para esses pagadores corporativos. Você gera uma fatura para o dono do veículo cobrindo a franquia ou os itens de desgaste não cobertos, e outra fatura detalhada para a garantidora cobrindo os códigos de mão de obra aprovados e as peças substituídas.",
+      "items": [
+        "Mantenha cadastros de pagadores corporativos",
+        "Fature diretamente as garantidoras",
+        "Divida a conta entre dono e garantia",
+        "Mantenha razões detalhados de todos os pagadores"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posso integrar com meu software de controle de horas dos mecânicos ou com um decodificador de chassi (VIN)?",
+      "a": "Não. O Paper & Pen é um ERP na nuvem independente. Você pode adicionar horas de mão de obra como itens nas faturas e usar nosso módulo de RH para a folha de pagamento básica, mas não oferecemos relógio de ponto ao vivo para mecânicos, decodificação de VIN integrada nem integrações diretas com bancos de dados de reparação automotiva de terceiros."
+    },
+    {
+      "q": "Como lido com uma taxa de diagnóstico que é creditada se o cliente fizer o reparo?",
+      "a": "Adicione a taxa de diagnóstico como um item de serviço comum no orçamento inicial. Quando o cliente aprovar o reparo completo, converta o orçamento em fatura, adicione as peças e a mão de obra necessárias e inclua um item negativo para abater o valor original do diagnóstico."
+    },
+    {
+      "q": "Posso controlar meu estoque de peças entre fornecedores diferentes?",
+      "a": "Sim. Você pode criar pedidos de compra para diferentes fornecedores de peças e registrar as guias de remessa recebidas. O sistema atualiza as quantidades em estoque e acompanha os preços de custo, para você saber exatamente quanto de margem ganha ao cobrar o cliente."
+    },
+    {
+      "q": "É possível cobrar uma empresa de garantia em vez do motorista?",
+      "a": "Sim. Basta criar um cadastro de cliente para a garantidora. Depois você emite a fatura das peças cobertas e da mão de obra pelo valor da hora diretamente para ela, mantendo os saldos em aberto separados dos seus clientes de varejo."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Organize hoje o faturamento da sua oficina",
+  "ctaSub": "Crie orçamentos detalhados, controle seu estoque de peças e fature seus clientes de graça."
+}

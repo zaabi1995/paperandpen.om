@@ -1,0 +1,35 @@
+{
+  "locale": "es",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Inventario",
+  "metaTitle": "Software de gestión de inventario · Paper & Pen",
+  "metaDescription": "Controla el stock de tus almacenes en tiempo real, con alertas de stock bajo, lotes y códigos de barras, y una valoración que se registra en tus libros.",
+  "keywords": "gestión de inventario, control de stock, software de almacén, alertas de stock bajo, inventario con código de barras, valoración de existencias, varios almacenes",
+  "heroEyebrow": "Módulo complementario",
+  "heroTitle": "Un stock en el que <em class=\"text-copper-400 not-italic\">confiar</em>, en tiempo real",
+  "heroSubtitle": "Sabe exactamente qué tienes, dónde está y cuánto vale. El inventario se actualiza en cuanto facturas o recibes mercancía, así que tus cifras están siempre al día.",
+  "heroBullets": ["Stock en tiempo real en todos los almacenes", "Alertas de stock bajo y de reposición", "La valoración se registra en tus libros"],
+  "features": [
+    { "icon": "inventory", "title": "Stock en tiempo real", "desc": "Las cantidades se actualizan en cuanto vendes, compras o trasladas mercancía." },
+    { "icon": "truck", "title": "Varios almacenes", "desc": "Controla y traslada stock entre ubicaciones y sucursales con visibilidad total." },
+    { "icon": "bell", "title": "Alertas de stock bajo", "desc": "Define puntos de reposición y recibe un aviso antes de quedarte sin un producto de alta rotación." },
+    { "icon": "receipt", "title": "Código de barras y SKU", "desc": "Escanea para vender o recibir, organizado por SKU, lote y unidad de medida." },
+    { "icon": "calc", "title": "Valoración al día", "desc": "El coste medio o FIFO mantiene exacto el valor del inventario en tu balance." },
+    { "icon": "refresh", "title": "Conectado a las ventas", "desc": "Las facturas y las órdenes de compra mueven el stock solas, sin ajustes manuales." }
+  ],
+  "sections": [
+    { "eyebrow": "Siempre exacto", "title": "Un inventario que se actualiza solo", "body": "Los recuentos manuales quedan desfasados en cuanto haces una venta. En Paper & Pen, cada factura, compra y traslado ajusta el stock y el coste en tiempo real, así que la cifra de la pantalla es la de la estantería. Define puntos de reposición y deja que el sistema te diga cuándo comprar.", "items": ["Se ajusta con cada transacción", "Puntos de reposición y alertas", "Control por lote, SKU y unidad de medida"] },
+    { "eyebrow": "El stock llega a los libros", "title": "De la estantería al balance", "body": "El inventario no es solo contar cajas, es dinero real en tu balance. Paper & Pen valora el stock por coste medio o FIFO y registra los movimientos en contabilidad de forma automática, así que tu coste de ventas y el valor de tus existencias siempre cuadran. Funciona en cualquier moneda y para cualquier mercado.", "items": ["Coste medio o FIFO", "Registro automático en contabilidad", "Compras en varias monedas"] }
+  ],
+  "faqs": [
+    { "q": "¿El inventario está incluido gratis?", "a": "Inventario es un complemento de pago opcional. El módulo principal de Ventas y Facturación es gratis para siempre, y añades Inventario cuando necesites controlar el stock en tiempo real." },
+    { "q": "¿Puedo gestionar varios almacenes?", "a": "Sí. Controla el stock por ubicación, traslada entre ellas y ve las cantidades al día en todas partes." },
+    { "q": "¿Admite códigos de barras?", "a": "Sí. Usa códigos de barras y SKU para vender y recibir más rápido, con control de lotes y unidades de medida." },
+    { "q": "¿Cómo se valora el stock?", "a": "Elige coste medio o FIFO. La valoración se actualiza con cada movimiento y se registra en tu contabilidad de forma automática." },
+    { "q": "¿Vender actualiza el stock de forma automática?", "a": "Sí. Las facturas restan stock y las compras lo suman en tiempo real, así que nunca actualizas cantidades a mano." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Toma el control de tu stock",
+  "ctaSub": "Empieza gratis con la facturación y añade Inventario cuando quieras stock en tiempo real en todas tus ubicaciones."
+}

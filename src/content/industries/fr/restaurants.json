@@ -1,0 +1,35 @@
+{
+  "locale": "fr",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restaurants et cafés",
+  "metaTitle": "Caisse et stock de recettes pour restaurants | Paper & Pen",
+  "metaDescription": "Facturation gratuite, stock d'ingrédients, coût des recettes et bons de commande fournisseurs pour restaurants et cafés. Maîtrisez le coût matière.",
+  "keywords": "logiciel restaurant, logiciel de caisse café, fiche technique coût recette, maîtrise du coût matière, gestion stock restaurant, bon de commande fournisseur, erp restaurant",
+  "heroEyebrow": "Pour les restaurants et cafés",
+  "heroTitle": "Encaissez vite, <em class=\"text-copper-400 not-italic\">maîtrisez le coût matière</em>",
+  "heroSubtitle": "Imprimez vos reçus en quelques secondes, suivez vos ingrédients au gramme près et connaissez le vrai coût de chaque plat. Paper & Pen fait travailler ensemble la cuisine, la caisse et la comptabilité.",
+  "heroBullets": ["Reçus gratuits et rapides", "Coût des ingrédients et des recettes", "Bons de commande fournisseurs"],
+  "features": [
+    { "icon": "receipt", "title": "Reçus rapides", "desc": "Prenez une commande, appliquez taxe et service, puis imprimez ou partagez un reçu en quelques secondes." },
+    { "icon": "manufacturing", "title": "Coût des recettes", "desc": "Définissez vos recettes à partir des ingrédients pour connaître le coût réel de chaque plat." },
+    { "icon": "inventory", "title": "Stock d'ingrédients", "desc": "Suivez les matières premières par unité, lot et date de péremption, avec des alertes de stock bas." },
+    { "icon": "truck", "title": "Commandes fournisseurs", "desc": "Émettez des bons de commande à vos fournisseurs et mettez à jour stock et coût à la réception." },
+    { "icon": "calc", "title": "Ratio coût matière", "desc": "Comparez le coût de chaque plat à son prix sur la carte pour garder des marges saines." },
+    { "icon": "chart", "title": "Rapports de ventes", "desc": "Visualisez les plats les plus vendus, les recettes du jour et les tendances par jour et par établissement." }
+  ],
+  "sections": [
+    { "eyebrow": "Une salle plus rapide", "title": "Des reçus qui font avancer la file", "body": "Le coup de feu du midi ne laisse pas de temps pour une facturation lente. Ajoutez les articles, appliquez la TVA ou le service, encaissez et remettez un reçu net en quelques secondes, puis partagez-le sur WhatsApp si un client le demande. Chaque vente est enregistrée automatiquement dans votre comptabilité, si bien que la clôture de la journée prend un coup d'œil, pas une soirée de saisie.", "items": ["Ajoutez les articles et encaissez vite", "TVA et service calculés pour vous", "Recettes du jour rapprochées automatiquement"] },
+    { "eyebrow": "La cuisine dit la vérité", "title": "Un coût des recettes qui protège votre marge", "body": "Un plat n'est rentable que si vous savez ce qu'il coûte. Construisez vos recettes à partir des ingrédients, laissez Paper & Pen calculer le coût de chaque assiette à partir des prix d'achat actuels, et surveillez votre ratio coût matière quand les prix fournisseurs bougent. Suivez les ingrédients par lot et date de péremption, émettez des bons de commande et limitez le gaspillage. Conçu à Oman avec OMR, AED et SAR en natif et la TVA à 5%, et prêt pour l'USD, l'EUR ou n'importe quel marché.", "items": ["Recettes chiffrées à partir des prix actuels des ingrédients", "Suivi des lots et des dates de péremption des matières premières", "Bons de commande qui mettent à jour le coût à la réception"] }
+  ],
+  "faqs": [
+    { "q": "Puis-je calculer le coût de ma carte à partir du prix des ingrédients ?", "a": "Oui. Définissez chaque plat comme une recette d'ingrédients et Paper & Pen calcule son coût à partir des prix d'achat actuels, pour que vous fixiez des prix de carte qui protègent votre marge." },
+    { "q": "Le logiciel suit-il les ingrédients et les dates de péremption ?", "a": "Oui. Les matières premières sont suivies par unité de mesure, lot et date de péremption, avec des alertes de stock bas pour recommander avant la rupture." },
+    { "q": "Puis-je appliquer la TVA et des frais de service ?", "a": "Oui. Appliquez la TVA du Golfe configurable, des frais de service ou n'importe quel taux de taxe, le tout calculé automatiquement sur l'addition." },
+    { "q": "La facturation est-elle gratuite pour un café ?", "a": "Ventes et Facturation, reçus compris, est gratuit pour toujours. Ajoutez Gestion des stocks et Production lorsque vous voulez suivre les ingrédients et calculer le coût des recettes." },
+    { "q": "Puis-je gérer plusieurs établissements ?", "a": "Oui. Suivez les ventes et le stock par établissement et consultez les quantités en direct et les recettes du jour de tous vos points de vente depuis un seul espace." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Servez vite, chiffrez juste",
+  "ctaSub": "Commencez gratuitement avec les reçus et la facturation, puis ajoutez Gestion des stocks et le coût des recettes pour maîtriser votre coût matière."
+}

@@ -1,0 +1,37 @@
+{
+  "locale": "es",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Generador de órdenes de compra gratis",
+  "metaTitle": "Generador de órdenes de compra gratis · Paper & Pen",
+  "metaDescription": "Crea órdenes de compra online gratis. Añade tu proveedor y tus artículos, elige cualquier moneda e impuesto y descarga un PDF listo para imprimir en segundos.",
+  "keywords": "generador de órdenes de compra gratis, hacer orden de compra, crear orden de compra online, plantilla de orden de compra gratis, descargar orden de compra pdf, pedido a proveedor",
+  "heroEyebrow": "Gratis · Sin registro",
+  "heroTitle": "Generador de órdenes de compra gratis",
+  "heroSubtitle": "Envía una orden de compra clara a cualquier proveedor en segundos. Añade tus líneas, elige cualquier moneda, aplica el impuesto y descarga un PDF listo para imprimir. Sin necesidad de cuenta.",
+  "howToSteps": [
+    { "name": "Añade tus datos", "text": "Introduce el nombre de tu empresa, el proveedor, un número de orden de compra y la fecha." },
+    { "name": "Añade las líneas", "text": "Indica los productos o servicios que pides, con cantidad y precio. Los totales se calculan solos." },
+    { "name": "Elige moneda e impuesto", "text": "Elige cualquier moneda y define el tipo de IVA o de impuesto sobre ventas que corresponda." },
+    { "name": "Descarga el PDF", "text": "Pulsa descargar para enviar una orden de compra lista para imprimir, o regístrate para seguir la entrega y cotejarla con la factura del proveedor." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Al instante y gratis", "desc": "Sin registro, sin marca de agua y sin límites. Emite todas las órdenes de compra que necesites." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Pide en OMR, AED, SAR, USD, EUR, GBP y más, ideal para proveedores del extranjero." },
+    { "icon": "cart", "title": "Condiciones claras", "desc": "Indica cantidades, datos de entrega y condiciones de pago para que el proveedor envíe exactamente lo que necesitas." }
+  ],
+  "sections": [
+    { "title": "¿Por qué usar el generador de órdenes de compra de Paper & Pen?", "body": "Una orden de compra es tu instrucción formal y rastreable a un proveedor, y tu protección si una entrega llega mal. La nuestra es gratis, multimoneda y genera un PDF limpio que cualquier proveedor reconocerá. Sin hojas de cálculo y sin registro." },
+    { "eyebrow": "Más allá del generador", "title": "De la orden de compra al stock y a la factura del proveedor", "body": "Un PDF es el comienzo. Un flujo de compras real une el pedido con la mercancía recibida, las facturas de proveedor y tus niveles de stock. Dentro del ERP completo de Paper & Pen, una orden de compra controla lo que está pedido, actualiza el inventario cuando llega la mercancía y se coteja con la factura del proveedor para que nunca pagues de más.", "items": ["Controla las cantidades pedidas, recibidas y pendientes", "Actualiza el stock de forma automática al recibir la mercancía", "Coteja la factura del proveedor con la orden de compra original"] }
+  ],
+  "faqs": [
+    { "q": "¿Qué es una orden de compra?", "a": "Una orden de compra es un documento que envías a un proveedor para pedir formalmente productos o servicios a un precio y una cantidad acordados. Se convierte en un pedido vinculante cuando el proveedor la acepta." },
+    { "q": "¿El generador de órdenes de compra es gratis de verdad?", "a": "Sí. Es totalmente gratis, sin registro, sin marca de agua y sin límite en el número de órdenes de compra que crees." },
+    { "q": "¿Puedo pedir a un proveedor extranjero en su moneda?", "a": "Sí. Elige cualquier moneda, como USD, EUR y GBP, con los decimales ajustados de forma automática, para que los pedidos internacionales queden claros." },
+    { "q": "¿Puedo seguir la entrega y cotejar la factura del proveedor?", "a": "Descarga la orden de compra gratis o crea un espacio de trabajo gratis en Paper & Pen para seguir la mercancía recibida, actualizar el stock y cotejar las facturas de proveedor con tus órdenes de compra." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Compra con control",
+  "ctaSub": "Sigue cada orden de compra, actualiza el stock al recibir y coteja las facturas de proveedor con un espacio de trabajo gratis en Paper & Pen."
+}

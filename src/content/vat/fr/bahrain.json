@@ -1,0 +1,140 @@
+{
+  "locale": "fr",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahreïn",
+  "title": "La TVA à Bahreïn",
+  "metaTitle": "TVA à Bahreïn : taux de 10% et règles de facture · Paper & Pen",
+  "metaDescription": "Le taux de TVA de 10% à Bahreïn, le seuil d'immatriculation de BHD 37,500 et les mentions exigées par le NBR sur une facture, selon le guide officiel.",
+  "keywords": "tva bahreïn, taux de tva bahreïn 10, seuil immatriculation tva bahreïn, mentions facture tva bahreïn, national bureau for revenue",
+  "heroEyebrow": "Bahreïn",
+  "heroTitle": "Facturer selon les règles de <em class=\"text-copper-400 not-italic\">TVA de Bahreïn</em>",
+  "heroSubtitle": "Le taux de 10%, les seuils d'immatriculation et les mentions que le National Bureau for Revenue exige sur une facture de TVA, y compris le champ propre au secteur de la construction.",
+  "heroBullets": [
+    "Taux normal de 10%",
+    "Immatriculation à partir de BHD 37,500",
+    "Aucune obligation de facturation électronique publiée"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Taux normal de TVA",
+      "value": "10%",
+      "note": "La TVA a démarré à 5% le 1er janvier 2019 et a été portée à 10% à compter du 1er janvier 2022. Les comparatifs rédigés avant 2022 sont dépassés.",
+      "source": 1
+    },
+    {
+      "label": "Seuil d'immatriculation obligatoire",
+      "value": "BHD 37,500",
+      "note": "Au-delà de ce montant, l'immatriculation est obligatoire.",
+      "source": 1
+    },
+    {
+      "label": "Seuil d'immatriculation volontaire",
+      "value": "BHD 18,750",
+      "note": "Mesuré sur les 12 mois précédents ou les 12 mois suivants, et peut reposer sur les dépenses soumises à la TVA plutôt que sur les livraisons.",
+      "source": 1
+    },
+    {
+      "label": "Délai d'émission de la facture",
+      "value": "Le 15 du mois suivant",
+      "note": "Les factures doivent être émises au plus tard le quinze du mois qui suit celui où la date d'exigibilité de la TVA est intervenue.",
+      "source": 1
+    },
+    {
+      "label": "Devise sur la facture",
+      "value": "BHD",
+      "note": "Les valeurs, montants de TVA et totaux sont indiqués en dinars bahreïniens, avec le taux de change mentionné lorsqu'une devise étrangère est utilisée.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "La section 10.3 du VAT General Guide du NBR précise ce que doit comporter une facture de TVA complète. Une facture de TVA simplifiée n'en exige qu'une partie.",
+    "items": [
+      "La mention « VAT invoice » (facture de TVA)",
+      "Le nom, l'adresse et le numéro de compte TVA du fournisseur",
+      "Le nom et l'adresse du client",
+      "Un numéro de facture de TVA séquentiel",
+      "La date d'émission, et la date de livraison ou de paiement si elle diffère",
+      "Une description de la livraison suffisamment précise pour faire apparaître le traitement TVA",
+      "Pour la construction d'un bâtiment neuf, le numéro du permis de construire",
+      "La quantité de biens fournis",
+      "La valeur de la livraison et le prix unitaire en dinars, hors TVA",
+      "Toute remise, et la valeur nette en dinars hors TVA",
+      "Le taux de TVA et la TVA due en dinars, par ligne lorsque les taux diffèrent",
+      "Le montant total dû TVA comprise, en dinars",
+      "Le taux de change appliqué lorsqu'une devise étrangère est utilisée",
+      "Une mention claire lorsqu'une opération est exonérée",
+      "Une référence au régime de la marge bénéficiaire lorsqu'il est appliqué"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Aucune obligation publiée",
+    "body": "Nous ne trouvons aucun dispositif, aucune phase ni aucune date de facturation électronique publiés par le National Bureau for Revenue. Son VAT General Guide, mis à jour en juillet 2026, ne mentionne pas du tout la facturation électronique, et l'index de ses publications ne contient aucun guide sur le sujet. Certains commentaires évoquent un système interentreprises en cours de conception, avec un lancement possible par phases, mais rien sur le site du Bureau ne confirme une date : nous n'en publions donc aucune. Si vous prévoyez de faire évoluer votre système, appuyez-vous sur les règles de contenu des factures ci-dessus, qui sont en vigueur et publiées, plutôt que sur une obligation attendue.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Bien faire les choses",
+      "title": "Les deux pièges propres à Bahreïn",
+      "body": "Le premier, c'est l'historique du taux. Bahreïn est passé de cinq à dix pour cent le 1er janvier 2022 : tout modèle, toute liste de prix ou tout comparatif rédigé avant cette date est faux, et l'erreur survit discrètement dans d'anciens modèles de devis. Le second, c'est le délai d'émission. Bahreïn ne se contente pas de dire qu'une facture doit être émise, il dit quand : au plus tard le quinze du mois qui suit celui où la date d'exigibilité de la TVA est intervenue. Une entreprise qui facture quand les papiers sont prêts peut être en retard sans jamais s'en rendre compte.",
+      "items": [
+        "Vérifiez tout modèle antérieur à 2022 pour un taux de 5%",
+        "Facturez au plus tard le 15 du mois suivant",
+        "Indiquez la TVA par ligne lorsque les taux diffèrent",
+        "Mentionnez le taux de change sur les factures en devise étrangère"
+      ]
+    },
+    {
+      "eyebrow": "Spécificité sectorielle",
+      "title": "Le champ construction que personne n'attend",
+      "body": "Les règles de contenu des factures à Bahreïn comportent une exigence sans équivalent ailleurs dans le Golfe : pour les livraisons liées à la construction d'un bâtiment neuf, la facture doit indiquer le numéro du permis de construire. Elle passe facilement inaperçue, car elle se trouve dans l'exigence générale de description plutôt que dans un champ bien visible, et c'est le genre d'oubli qu'on ne découvre que lorsqu'une facture est contestée des mois plus tard. Si vous travaillez dans le BTP, intégrez le numéro de permis à votre modèle de description de ligne plutôt que de compter sur la mémoire de quelqu'un.",
+      "items": [
+        "Les livraisons pour bâtiments neufs exigent le numéro du permis de construire",
+        "Mettez-le dans le modèle, pas dans la mémoire de quelqu'un",
+        "Décrivez la livraison assez précisément pour montrer son traitement TVA",
+        "Gardez prête la formulation de la mention d'exonération"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quel est le taux de TVA à Bahreïn ?",
+      "a": "Dix pour cent. Bahreïn a introduit la TVA à cinq pour cent le 1er janvier 2019 et a porté le taux normal à dix pour cent à compter du 1er janvier 2022. Tout guide, modèle ou comparatif qui indique encore cinq pour cent pour Bahreïn est antérieur à ce changement."
+    },
+    {
+      "q": "Quand dois-je m'immatriculer à la TVA à Bahreïn ?",
+      "a": "Lorsque vos livraisons dépassent BHD 37,500. Vous pouvez vous immatriculer volontairement à partir de BHD 18,750, mesurés sur les douze mois précédents ou suivants, et Bahreïn autorise l'immatriculation volontaire sur la base des dépenses soumises à la TVA comme des livraisons, ce qui peut convenir à une entreprise qui développe encore ses ventes."
+    },
+    {
+      "q": "La facturation électronique est-elle obligatoire à Bahreïn ?",
+      "a": "Pas selon ce que publie le National Bureau for Revenue. Son VAT General Guide, mis à jour en juillet 2026, ne mentionne pas la facturation électronique, et aucun guide sur le sujet ne figure dans ses publications. Nous ne reprenons pas de dates issues de commentaires que le Bureau lui-même n'a pas publiées."
+    },
+    {
+      "q": "Dans quel délai une facture de TVA doit-elle être émise à Bahreïn ?",
+      "a": "Au plus tard le quinze du mois qui suit celui où la date d'exigibilité de la TVA est intervenue. Il s'agit d'un vrai délai et non d'une simple attente, et il piège les entreprises qui regroupent leur facturation en fin de trimestre."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Facturez correctement à Bahreïn, gratuitement",
+  "ctaSub": "Fixez le taux vous-même, affichez la TVA par ligne et gardez les champs demandés par le Bureau dans un modèle que vous n'avez pas à retenir.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, version 1.15, dont la section 10.3 sur les exigences de facturation",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

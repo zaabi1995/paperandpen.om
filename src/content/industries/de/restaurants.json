@@ -1,0 +1,35 @@
+{
+  "locale": "de",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restaurants & Cafés",
+  "metaTitle": "Abrechnung & Rezeptkalkulation für Restaurants | Paper & Pen",
+  "metaDescription": "Kostenlose Abrechnung plus Zutatenlager, Rezeptkalkulation und Bestellungen bei Lieferanten für Restaurants und Cafés. Wareneinsatz im Griff, schnell abrechnen.",
+  "keywords": "Gastronomiesoftware, Restaurantsoftware, Kassensystem Café, Rezeptkalkulation, Wareneinsatz Gastronomie, Lagerverwaltung Restaurant, Bestellung Lieferanten, Speisenkalkulation",
+  "heroEyebrow": "Für Restaurants & Cafés",
+  "heroTitle": "Schnell abrechnen, <em class=\"text-copper-400 not-italic\">Wareneinsatz im Griff</em>",
+  "heroSubtitle": "Drucken Sie Quittungen in Sekunden, verfolgen Sie Zutaten aufs Gramm genau und kennen Sie die echten Kosten jedes Gerichts. Paper & Pen bringt Küche, Kasse und Buchhaltung zusammen.",
+  "heroBullets": ["Kostenlose, schnelle Quittungen", "Zutaten- und Rezeptkalkulation", "Bestellungen bei Lieferanten"],
+  "features": [
+    { "icon": "receipt", "title": "Schnelle Quittungen", "desc": "Bestellung aufnehmen, Steuer und Servicegebühr anwenden und in Sekunden eine Quittung drucken oder teilen." },
+    { "icon": "manufacturing", "title": "Rezeptkalkulation", "desc": "Rezepte aus Zutaten anlegen, damit Sie die echten Kosten jedes Gerichts kennen." },
+    { "icon": "inventory", "title": "Zutatenbestand", "desc": "Rohwaren nach Einheit, Charge und Ablaufdatum verfolgen, mit Warnungen bei niedrigem Bestand." },
+    { "icon": "truck", "title": "Lieferantenbestellungen", "desc": "Bestellungen an Lieferanten senden und Bestand und Kosten beim Wareneingang aktualisieren." },
+    { "icon": "calc", "title": "Wareneinsatz in Prozent", "desc": "Die Kosten eines Gerichts mit dem Menüpreis vergleichen, damit Ihre Margen gesund bleiben." },
+    { "icon": "chart", "title": "Umsatzberichte", "desc": "Top-Gerichte, Tageseinnahmen und Trends über Tage und Filialen sehen." }
+  ],
+  "sections": [
+    { "eyebrow": "Ein schnellerer Service", "title": "Quittungen, die die Schlange in Bewegung halten", "body": "Beim Mittagsansturm bleibt keine Zeit für langsame Abrechnung. Fügen Sie Artikel hinzu, wenden Sie MwSt. oder Servicegebühr an, nehmen Sie die Zahlung an und übergeben Sie in Sekunden eine saubere Quittung. Wenn ein Gast fragt, teilen Sie sie per WhatsApp. Jeder Verkauf wird automatisch in Ihre Bücher gebucht. So ist der Tagesabschluss ein kurzer Blick statt eines Abends voller Tipparbeit.", "items": ["Artikel hinzufügen und schnell kassieren", "MwSt. und Servicegebühr für Sie erledigt", "Tageseinnahmen werden automatisch abgeglichen"] },
+    { "eyebrow": "Die Küche sagt die Wahrheit", "title": "Rezeptkalkulation, die Ihre Marge schützt", "body": "Ein Gericht ist nur profitabel, wenn Sie wissen, was es kostet. Legen Sie Rezepte aus Zutaten an, lassen Sie Paper & Pen jeden Teller zu aktuellen Einkaufspreisen kalkulieren und beobachten Sie Ihren Wareneinsatz in Prozent, wenn sich Lieferantenpreise ändern. Verfolgen Sie Zutaten nach Charge und Ablaufdatum, senden Sie Bestellungen und halten Sie den Ausschuss im Griff. Entwickelt in Oman mit nativer Unterstützung für OMR, AED und SAR sowie 5% MwSt., und bereit für USD, EUR oder jeden Markt.", "items": ["Rezepte zu aktuellen Zutatenpreisen kalkuliert", "Verfolgung von Charge und Ablaufdatum bei Rohwaren", "Bestellungen, die die Kosten beim Wareneingang aktualisieren"] }
+  ],
+  "faqs": [
+    { "q": "Kann ich meine Speisekarte aus Zutatenpreisen kalkulieren?", "a": "Ja. Legen Sie jedes Gericht als Rezept aus Zutaten an, und Paper & Pen berechnet seine Kosten aus den aktuellen Einkaufspreisen. So legen Sie Menüpreise fest, die Ihre Marge schützen." },
+    { "q": "Werden Zutaten und Ablaufdaten verfolgt?", "a": "Ja. Rohwaren werden nach Mengeneinheit, Charge und Ablaufdatum verfolgt, mit Warnungen bei niedrigem Bestand, damit Sie nachbestellen, bevor etwas ausgeht." },
+    { "q": "Kann ich MwSt. und eine Servicegebühr anwenden?", "a": "Ja. Wenden Sie einstellbare GCC-MwSt., eine Servicegebühr oder jeden Steuersatz an, alles automatisch auf der Rechnung berechnet." },
+    { "q": "Ist die Abrechnung für ein Café kostenlos?", "a": "Vertrieb & Rechnungen, einschließlich Quittungen, ist für immer kostenlos. Fügen Sie Lager und Fertigung hinzu, wenn Sie Zutaten verfolgen und Rezepte kalkulieren möchten." },
+    { "q": "Kann ich mehr als einen Standort verwalten?", "a": "Ja. Verfolgen Sie Umsatz und Bestand je Filiale und sehen Sie aktuelle Mengen und Tageseinnahmen aller Standorte in einem Workspace." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Schnell servieren, klug kalkulieren",
+  "ctaSub": "Starten Sie kostenlos mit Quittungen und Abrechnung und fügen Sie dann Lager und Rezeptkalkulation hinzu, um den Wareneinsatz in den Griff zu bekommen."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "reports",
+  "order": 8,
+  "title": "Raporlar",
+  "metaTitle": "İşletme Raporları ve Analiz · Paper & Pen",
+  "metaDescription": "Satış, nakit, kâr, vergi ve stok için canlı panolar ve raporlar. Kaynağa inin, Excel veya PDF olarak dışa aktarın, her para biriminde. Dünya genelinde.",
+  "keywords": "işletme raporları, analiz panosu, satış raporu, kâr zarar raporu, vergi raporu, mali raporlar, excel'e aktarma, yönetim raporları",
+  "heroEyebrow": "Eklenti modül",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">Canlı rakamlara</em> dayanan kararlar",
+  "heroSubtitle": "Her satış, ödeme ve hareket gerçek zamanlı olarak net panolarda ve raporlarda toplanır. Neyin satıldığını, size kimin borçlu olduğunu ve kârınızın nerede olduğunu görün, sonra istediğiniz yere aktarın.",
+  "heroBullets": ["Gerçek zamanlı panolar", "Kaynak belgeye kadar inin", "Excel veya PDF olarak dışa aktarın"],
+  "features": [
+    { "icon": "reports", "title": "Satış analizi", "desc": "Herhangi bir dönem için en çok satan ürünleri, en iyi müşterileri ve eğilimleri görün." },
+    { "icon": "chart", "title": "Mali raporlar", "desc": "Kâr zarar, bilanço, nakit akışı ve alacak yaşlandırma." },
+    { "icon": "calc", "title": "Vergi raporları", "desc": "KDV beyannamenize hazır indirilecek ve hesaplanan KDV özetleri." },
+    { "icon": "inventory", "title": "Stok raporları", "desc": "Depolar genelinde değerleme, hareket ve düşük stok raporları." },
+    { "icon": "doc", "title": "Kaynağa inin", "desc": "Herhangi bir rakama tıklayarak arkasındaki belgeye kadar izini sürün." },
+    { "icon": "refresh", "title": "Her zaman güncel", "desc": "Raporlar işlemler gerçekleştikçe canlı güncellenir, gece toplu işlem yok." }
+  ],
+  "sections": [
+    { "eyebrow": "Bir bakışta netlik", "title": "Tüm işletme için tek pano", "body": "Paper & Pen'i açın ve önemli rakamları görün: bankadaki nakit, size borçlu olanlar, neyin satıldığı ve bu ayki kârınız. Her şey gerçek zamanlı işlendiği için pano geçen haftanın anlık görüntüsü değil, gerçeğin ta kendisidir.", "items": ["Nakit, alacaklar ve kâr en önde", "Döneme, müşteriye veya ürüne göre filtreleyin", "Canlı, asla eskimez"] },
+    { "eyebrow": "Paylaşın ve derinleşin", "title": "Muhasebecinizin ve yönetim kurulunuzun güveneceği raporlar", "body": "Herhangi bir rapordan doğrudan kaynak belgeye inin, ardından muhasebeciniz, bankanız veya yönetim kurulunuz için Excel veya PDF olarak dışa aktarın. Her para biriminde raporlayın, arayüzü Arapça, İngilizce, Hintçe, Bengalce veya Urducaya geçirin, herkes aynı rakamları kendi dilinde okusun.", "items": ["Her işleme kadar ayrıntıya inme", "Excel ve PDF olarak dışa aktarma", "Çoklu para birimi ve çok dilli"] }
+  ],
+  "faqs": [
+    { "q": "Raporlar ücretsiz mi?", "a": "Raporlar isteğe bağlı ücretli bir eklentidir. Sonsuza kadar ücretsiz çekirdek faturalama panolarını içerir; daha derin analize ihtiyaç duyduğunuzda tam raporlama paketi kullanılabilir." },
+    { "q": "Raporlar gerçek zamanlı mı?", "a": "Evet. Her işlem canlı işlenir, böylece panolar ve raporlar işletmenizin güncel durumunu her zaman yansıtır." },
+    { "q": "Raporları dışa aktarabilir miyim?", "a": "Evet. Muhasebeciniz, bankanız veya yönetim kurulunuzla paylaşmak için Excel veya PDF olarak dışa aktarın." },
+    { "q": "Bir rakamın kaynağını izleyebilir miyim?", "a": "Evet. Herhangi bir rakama tıklayarak arkasındaki faturaya, ödemeye veya yevmiye kaydına kadar inin." },
+    { "q": "Raporlar birden fazla para birimini destekliyor mu?", "a": "Evet. Her para biriminde raporlayın ve arayüzü beş dilde görüntüleyin." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "İşletmenizi net görün",
+  "ctaSub": "Faturalama ile ücretsiz başlayın, canlı panolar ve dışa aktarmaya hazır analizler için Raporlar'ı ekleyin."
+}

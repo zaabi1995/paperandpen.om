@@ -1,0 +1,35 @@
+{
+  "locale": "de",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Lager",
+  "metaTitle": "Lagerverwaltung Software · Paper & Pen",
+  "metaDescription": "Bestände in allen Lagern in Echtzeit verfolgen, mit Warnungen bei niedrigem Bestand, Chargen und Barcodes sowie laufender Bewertung in Ihren Büchern.",
+  "keywords": "Lagerverwaltung, Lagerverwaltung Software, Bestandsführung, Warenwirtschaft, Meldebestand, Barcode Lager, Lagerbewertung, mehrere Lager",
+  "heroEyebrow": "Zusatzmodul",
+  "heroTitle": "Bestände, denen Sie <em class=\"text-copper-400 not-italic\">vertrauen</em> können, in Echtzeit",
+  "heroSubtitle": "Wissen Sie genau, was Sie haben, wo es liegt und was es wert ist. Das Lager aktualisiert sich in dem Moment, in dem Sie eine Rechnung stellen oder Ware erhalten. Ihre Zahlen sind also immer aktuell.",
+  "heroBullets": ["Live-Bestand in allen Lagern", "Warnungen bei niedrigem Bestand und Nachbestellung", "Bewertung wird in Ihre Bücher gebucht"],
+  "features": [
+    { "icon": "inventory", "title": "Bestand in Echtzeit", "desc": "Mengen ändern sich in dem Moment, in dem Sie Ware verkaufen, einkaufen oder umlagern." },
+    { "icon": "truck", "title": "Mehrere Lager", "desc": "Bestände über Standorte und Filialen hinweg verfolgen und umlagern, mit vollem Überblick." },
+    { "icon": "bell", "title": "Warnung bei niedrigem Bestand", "desc": "Meldebestände festlegen und gewarnt werden, bevor ein Schnelldreher ausgeht." },
+    { "icon": "receipt", "title": "Barcode & SKU", "desc": "Per Scan verkaufen oder einbuchen, geordnet nach SKU, Charge und Mengeneinheit." },
+    { "icon": "calc", "title": "Laufende Bewertung", "desc": "Durchschnittskosten oder FIFO halten den Lagerwert in Ihrer Bilanz genau." },
+    { "icon": "refresh", "title": "Mit dem Verkauf verknüpft", "desc": "Rechnungen und Bestellungen bewegen den Bestand automatisch, ohne manuelle Updates." }
+  ],
+  "sections": [
+    { "eyebrow": "Immer genau", "title": "Ein Lager, das sich selbst aktualisiert", "body": "Manuelle Inventuren sind veraltet, sobald Sie etwas verkaufen. In Paper & Pen passt jede Rechnung, jeder Einkauf und jede Umlagerung Bestand und Kosten in Echtzeit an. Die Zahl auf dem Bildschirm ist also die Zahl im Regal. Legen Sie Meldebestände fest, und das System sagt Ihnen, wann Sie einkaufen sollten.", "items": ["Passt sich bei jeder Transaktion an", "Meldebestände und Warnungen", "Verfolgung nach Charge, SKU und Mengeneinheit"] },
+    { "eyebrow": "Lager trifft Buchhaltung", "title": "Vom Regal in die Bilanz", "body": "Lagerhaltung ist mehr als Kisten zählen, es ist echtes Geld in Ihrer Bilanz. Paper & Pen bewertet den Bestand mit Durchschnittskosten oder FIFO und bucht Bewegungen automatisch in die Buchhaltung. So sind Wareneinsatz und Lagerwert immer abgestimmt. Funktioniert in jeder Währung und für jeden Markt.", "items": ["Durchschnittskosten oder FIFO", "Automatische Buchung in die Buchhaltung", "Einkauf in mehreren Währungen"] }
+  ],
+  "faqs": [
+    { "q": "Ist das Lager kostenlos enthalten?", "a": "Das Lager ist ein optionales, kostenpflichtiges Zusatzmodul. Das Kernmodul Vertrieb & Rechnungen ist für immer kostenlos, und Sie fügen das Lager hinzu, wenn Sie eine Bestandsführung in Echtzeit brauchen." },
+    { "q": "Kann ich mehrere Lager verwalten?", "a": "Ja. Verfolgen Sie den Bestand je Standort, lagern Sie zwischen Standorten um und sehen Sie überall die aktuellen Mengen." },
+    { "q": "Werden Barcodes unterstützt?", "a": "Ja. Nutzen Sie Barcodes und SKUs, um schneller zu verkaufen und einzubuchen, mit Unterstützung für Chargen und Mengeneinheiten." },
+    { "q": "Wie wird der Bestand bewertet?", "a": "Wählen Sie Durchschnittskosten oder FIFO. Die Bewertung aktualisiert sich bei jeder Bewegung und wird automatisch in Ihre Buchhaltung gebucht." },
+    { "q": "Aktualisiert ein Verkauf den Bestand automatisch?", "a": "Ja. Rechnungen verringern den Bestand und Einkäufe erhöhen ihn in Echtzeit. Sie müssen Mengen nie von Hand ändern." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Behalten Sie Ihren Bestand im Griff",
+  "ctaSub": "Starten Sie kostenlos mit Rechnungen und fügen Sie das Lager hinzu, wenn Sie Bestände in Echtzeit an jedem Standort brauchen."
+}

@@ -1,0 +1,159 @@
+{
+  "locale": "es",
+  "slug": "oman",
+  "order": 1,
+  "country": "Omán",
+  "title": "IVA en Omán",
+  "metaTitle": "IVA en Omán: tipo, umbrales y facturas · Paper & Pen",
+  "metaDescription": "El tipo de IVA del 5% de Omán, el umbral de registro de OMR 38,500 y los doce datos que debe llevar una factura con IVA, cada uno citado a la Tax Authority.",
+  "keywords": "iva omán, tipo de iva en omán, umbral de registro de iva omán, requisitos de factura con iva omán, factura electrónica fawtara, autoridad fiscal de omán",
+  "heroEyebrow": "Omán",
+  "heroTitle": "Facturar con las normas del <em class=\"text-copper-400 not-italic\">IVA de Omán</em>",
+  "heroSubtitle": "El tipo, los umbrales de registro, lo que debe mostrar una factura con IVA y en qué punto está la factura electrónica. Cada cifra de esta página está citada al texto publicado por la propia Oman Tax Authority.",
+  "heroBullets": [
+    "Tipo general del 5%",
+    "OMR 38,500 para registrarse",
+    "Fawtara anunciada, aún no en vigor"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Tipo general de IVA",
+      "value": "5%",
+      "note": "El artículo 36 de la Ley del IVA fija el impuesto sobre la importación y el suministro de bienes o servicios gravados en el cinco por ciento del valor imponible.",
+      "source": 1
+    },
+    {
+      "label": "Umbral de registro obligatorio",
+      "value": "OMR 38,500",
+      "note": "Unos suministros anuales iguales o superiores a esta cifra obligan a registrarse. La Ley deja la cifra a una decisión del Presidente en lugar de fijarla en la propia Ley.",
+      "source": 2
+    },
+    {
+      "label": "Umbral de registro voluntario",
+      "value": "OMR 19,250",
+      "note": "A partir de esta cifra puedes registrarte aunque estés por debajo del umbral obligatorio.",
+      "source": 2
+    },
+    {
+      "label": "Idioma de la factura",
+      "value": "Árabe",
+      "note": "La factura también puede emitirse en inglés siempre que haya una traducción al árabe disponible si se solicita.",
+      "source": 3
+    },
+    {
+      "label": "Límite de la factura simplificada",
+      "value": "OMR 500",
+      "note": "Los suministros por debajo de este valor pueden usar una factura simplificada, con la aprobación de la Tax Authority.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "El artículo 145 del Reglamento Ejecutivo enumera lo que debe mostrar una factura con IVA. El artículo introduce la lista con \"en particular\", así que tómala como un mínimo y no como una lista completa.",
+    "items": [
+      "Las palabras \"Factura con IVA\"",
+      "Fecha de emisión, fecha de suministro y fecha de pago",
+      "Un número de factura correlativo",
+      "Nombre completo, dirección y Número de Identificación Fiscal del proveedor",
+      "Nombre completo, dirección y Número de Identificación Fiscal del cliente, o su equivalente en su país de residencia",
+      "Una descripción de los bienes y servicios suministrados",
+      "La cantidad de bienes",
+      "La fecha de cualquier pago anticipado",
+      "La contraprestación total sin impuesto",
+      "El tipo de impuesto aplicado",
+      "Cualquier rebaja de precio o descuento concedido, y cualquier subvención del Estado no incluida ya",
+      "El valor imponible"
+    ],
+    "source": 3,
+    "caveat": "La Tax Authority publica el Reglamento Ejecutivo solo en árabe. Esta lista es una lectura fiel del texto oficial en árabe, no una traducción oficial, así que confirma la redacción con tu asesor fiscal antes de basarte en ella."
+  },
+  "einvoicing": {
+    "status": "Anunciada y por fases, aún no obligatoria",
+    "body": "El programa de factura electrónica de Omán se llama Fawtara. La Tax Authority describe un modelo de cinco esquinas en el que las facturas le llegan a través de un proveedor de servicios acreditado, y establece cuatro fases: un piloto, una ampliación, la incorporación de las empresas más pequeñas y la implantación completa. La Autoridad no ha publicado en inglés las fechas de las fases, y las fechas que circulan en la prensa no aparecen en sus propias páginas. Considera sin confirmar cualquier plazo concreto de Fawtara que leas en otro sitio hasta que lo publique la Tax Authority.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Hacerlo bien",
+      "title": "Lo que hace tropezar a las empresas en Omán",
+      "body": "Tres cosas explican la mayoría de los problemas con las facturas con IVA aquí. La primera es el Número de Identificación Fiscal del cliente: si no lo incluyes, puede que tu cliente no pueda recuperar el impuesto soportado, y tu factura se convierte en un coste para él y en un problema para ti. La segunda es la numeración. El artículo 145 exige un número correlativo, y la forma más rápida de romperlo es borrar o renumerar una factura ya enviada. Corrígela con una nota de crédito. La tercera es el idioma: la factura debe estar en árabe, y emitirla solo en inglés sin una versión en árabe disponible si se solicita te deja expuesto.",
+      "items": [
+        "Recoge el NIF del cliente antes de emitir, no después",
+        "Nunca borres una factura emitida, abónala con una nota de crédito",
+        "Ten una versión en árabe disponible si se solicita",
+        "Registra la fecha de suministro aparte de la fecha de emisión"
+      ]
+    },
+    {
+      "eyebrow": "Prepararse",
+      "title": "Prepararse para Fawtara sin adivinar fechas",
+      "body": "No necesitas un plazo publicado para estar preparado. Todos los sistemas de factura electrónica que han entrado en vigor en la región han pedido la misma disciplina de base: fichas de cliente limpias y completas con los números fiscales, una numeración de facturas sin huecos, el tratamiento fiscal registrado por línea y no por factura, y documentos guardados de forma que puedas recuperarlos si te los piden. Una empresa cuyos registros ya cumplen esas cuatro condiciones tendrá una implantación corta cuando lleguen las fechas. Una que no las cumple pasará el periodo de aviso limpiando datos.",
+      "items": [
+        "Fichas de cliente completas, con números fiscales",
+        "Una numeración sin huecos por cada serie",
+        "Tratamiento fiscal registrado línea a línea",
+        "Documentos recuperables cuando se soliciten"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Cuál es el tipo de IVA en Omán?",
+      "a": "El cinco por ciento. El artículo 36 de la Ley del IVA, promulgada por el Real Decreto 121/2020, calcula el impuesto sobre la importación y el suministro de bienes o servicios gravados en el cinco por ciento del valor imponible. Algunos suministros tienen tipo cero y otros están exentos, y no es lo mismo: un proveedor con tipo cero puede recuperar el impuesto soportado, uno exento no."
+    },
+    {
+      "q": "¿Cuándo tengo que registrarme a efectos de IVA en Omán?",
+      "a": "Cuando tus suministros anuales alcancen o se prevea que alcancen OMR 38,500. Puedes registrarte de forma voluntaria a partir de OMR 19,250. Ambas cifras proceden de la decisión del Presidente sobre los umbrales de registro y no de la propia Ley del IVA, por eso pueden cambiar sin que cambie la Ley."
+    },
+    {
+      "q": "¿La factura electrónica ya es obligatoria en Omán?",
+      "a": "Todavía no. La Tax Authority ha anunciado Fawtara, un modelo de factura electrónica de cinco esquinas por fases con proveedores de servicios acreditados, y describe cuatro fases de implantación. No ha publicado en inglés las fechas de las fases en sus propias páginas, así que aquí no indicamos ninguna fecha. Consulta las páginas de factura electrónica de la Tax Authority para conocer la situación actual."
+    },
+    {
+      "q": "¿Puedo emitir una factura en inglés en Omán?",
+      "a": "Puedes emitirla en inglés, pero el Reglamento Ejecutivo exige que la factura con IVA esté en árabe y permite otro idioma además, siempre que haya una traducción al árabe disponible si se solicita. En la práctica, eso significa tener una plantilla bilingüe y no una solo en inglés."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Factura correctamente en Omán, gratis",
+  "ctaSub": "Define tu propio tipo de impuesto, factura en cualquier moneda y ten una factura en árabe y en inglés a partir del mismo registro.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Ley del IVA, Real Decreto 121/2020, artículo 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Decisión del Presidente que fija los umbrales de registro obligatorio y voluntario",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Reglamento Ejecutivo de la Ley del IVA, Decisión 53/2021, artículos 145 a 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Páginas del programa de factura electrónica (Fawtara)",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "retail",
+  "order": 2,
+  "title": "Perakende ve Mağazalar",
+  "metaTitle": "Mağazalar için Perakende Fatura ve Stok Programı · Paper & Pen",
+  "metaDescription": "Mağazalar ve perakendeciler için ücretsiz faturalama, barkodlu stok, düşük stok uyarıları ve canlı değerleme. Hızlı satın, stoksuz kalmayın, defterleri temiz tutun.",
+  "keywords": "perakende programı, mağaza fatura programı, barkodlu stok takibi, satış noktası faturalama, düşük stok uyarısı, perakende erp, çok mağazalı stok takibi",
+  "heroEyebrow": "Mağazalar ve perakendeciler için",
+  "heroTitle": "Hızlı satın, <em class=\"text-copper-400 not-italic\">asla stoksuz kalmayın</em>",
+  "heroSubtitle": "Müşterilere saniyeler içinde fatura kesin, satmak için barkod okutun ve stok kendini güncellesin. Paper & Pen raflarınızı, satışlarınızı ve defterlerinizi uyumlu tutar; saymaya daha az, satmaya daha çok zaman ayırırsınız.",
+  "heroBullets": ["Ücretsiz, hızlı faturalama", "Barkod ve SKU desteği", "Stok bitmeden düşük stok uyarıları"],
+  "features": [
+    { "icon": "receipt", "title": "Hızlı faturalama", "desc": "Bir satışı girin ve her cihazda saniyeler içinde fiş yazdırın veya paylaşın." },
+    { "icon": "inventory", "title": "Barkodlu stok", "desc": "Satmak veya teslim almak için okutun; SKU, parti ve ölçü birimine göre düzenli." },
+    { "icon": "bell", "title": "Düşük stok uyarıları", "desc": "Yeniden sipariş noktaları belirleyin, çok satan bir ürün sıfırlanmadan uyarı alın." },
+    { "icon": "truck", "title": "Çok mağazalı stok", "desc": "Stoku şubeler arasında takip edin ve transfer edin, her yerde canlı miktarlar." },
+    { "icon": "calc", "title": "Canlı değerleme", "desc": "Ortalama maliyet veya FIFO, bilançonuzdaki stok değerini doğru tutar." },
+    { "icon": "chart", "title": "Çok satanlar raporları", "desc": "Ürün, kategori ve mağaza bazında neyin satıldığını ve neyin rafta beklediğini görün." }
+  ],
+  "sections": [
+    { "eyebrow": "Daha hızlı kasa", "title": "Yoğun bir tezgâh için tasarlanmış faturalama", "body": "Müşteriler beklemez. Okutarak veya arayarak bir satış oluşturun, indirim uygulayın, ödemeyi alın ve saniyeler içinde temiz bir fiş verin. Fişler WhatsApp'ta paylaşılır veya kasa için yazdırılır; her satış yeniden giriş gerektirmeden doğrudan stokunuza ve defterlerinize akar.", "items": ["Ürünleri okutarak veya arayarak hızla ekleyin", "Fişleri anında yazdırın veya paylaşın", "İndirimler ve vergi otomatik hesaplanır"] },
+    { "eyebrow": "Kendini yöneten stok", "title": "Rafta ne olduğunu her zaman bilin", "body": "Elle yapılan sayımlar ilk satışta eskir. Paper & Pen'de her satış ve teslimat stoku anında günceller, ekrandaki rakam rafla eşleşir. Yeniden sipariş noktaları belirleyin, sistem siz bir satışı kaçırmadan geciken yenilemeleri işaretlesin. Yerleşik OMR, AED ve SAR ile %5 KDV desteğiyle Umman'da geliştirildi; USD, EUR veya ticaret yaptığınız her vergi oranı için hazırdır.", "items": ["Her satışta anlık stok", "Yeniden sipariş noktaları ve düşük stok uyarıları", "Her para birimi, her vergi oranı"] }
+  ],
+  "faqs": [
+    { "q": "Barkod okuyucuyla satış yapabilir miyim?", "a": "Evet. Bir satışa ürün eklemek veya stok teslim almak için okutun. Ürünler hızlı ve doğru faturalama için SKU, parti ve ölçü birimine göre düzenlenir." },
+    { "q": "Satış yaptığımda stokum güncellenecek mi?", "a": "Evet. Her satış stoku azaltır, her teslimat artırır; tüm mağazalarınızda anında ve elle sayım olmadan." },
+    { "q": "Birden fazla mağaza işletebilir miyim?", "a": "Evet. Stoku mağaza bazında takip edin, şubeler arasında transfer yapın ve her yerdeki canlı miktarları tek çalışma alanından görün." },
+    { "q": "Faturalama gerçekten ücretsiz mi?", "a": "Fişler dahil Satış ve Faturalama sonsuza kadar ücretsizdir. Barkodlu stok kontrolü ve düşük stok uyarıları istediğinizde Stok modülünü ekleyin." },
+    { "q": "Körfez ülkeleri dışında çalışıyor mu?", "a": "Evet. Paper & Pen her para biriminde ve her vergi oranıyla çalışır; böylece her yerdeki perakendeciler Arapça, İngilizce ve diğer dillerle fatura kesebilir ve stok yönetebilir." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Mağazanızı tahmine dayanmadan yönetin",
+  "ctaSub": "Faturalama ve fişlerle ücretsiz başlayın, ardından barkodlu stok ve düşük stok uyarıları için Stok'u ekleyin."
+}

@@ -1,0 +1,110 @@
+{
+  "locale": "it",
+  "slug": "ecommerce",
+  "order": 16,
+  "title": "Venditori online ed e-commerce",
+  "metaTitle": "ERP e software di fatturazione per e-commerce · Paper & Pen",
+  "metaDescription": "Gestisci grandi volumi di ordini, segui le giacenze su più canali, elabora i resi e riconcilia i versamenti dei gateway di pagamento con il nostro ERP gratuito.",
+  "keywords": "gestionale e-commerce, fatturazione e-commerce, software negozio online, gestione magazzino e-commerce, riconciliazione pagamenti online, costo del venduto, note di credito resi",
+  "heroEyebrow": "Per chi vende online",
+  "heroTitle": "Gestisci grandi volumi di ordini e <em class=\"text-copper-400 not-italic\">conosci i margini esatti</em>.",
+  "heroSubtitle": "Vendere online significa tante transazioni, merce sempre in movimento e calendari di versamento complessi. Segui il costo del venduto, emetti note di credito per i resi e riconcilia i versamenti dei gateway senza perdere di vista il tuo utile reale.",
+  "heroBullets": [
+    "Segui le giacenze su tutti i canali",
+    "Emetti note di credito all'istante",
+    "Riconcilia i versamenti dei gateway"
+  ],
+  "features": [
+    {
+      "icon": "cart",
+      "title": "Ordini di vendita",
+      "desc": "Registra grandi volumi di ordini dei clienti. Trasformali in documenti di trasporto e fatture mentre imballi e spedisci la merce."
+    },
+    {
+      "icon": "inventory",
+      "title": "Controllo delle giacenze",
+      "desc": "Controlla il magazzino man mano che gli ordini partono. Sai esattamente cosa hai disponibile ed eviti di vendere più di quanto hai sul tuo negozio online."
+    },
+    {
+      "icon": "refresh",
+      "title": "Resi e rimborsi",
+      "desc": "Gestisci rapidamente i resi dei clienti. Emetti note di credito per rettificare i saldi dei clienti e aggiornare con precisione i tuoi registri vendite."
+    },
+    {
+      "icon": "truck",
+      "title": "Costi di spedizione",
+      "desc": "Registra le spese di spedizione, sia che le sostenga tu sia che le riaddebiti all'acquirente nella fattura di vendita finale."
+    },
+    {
+      "icon": "bank",
+      "title": "Riconciliazione dei versamenti",
+      "desc": "Abbina i bonifici cumulativi del tuo gateway di pagamento ai singoli ordini di vendita. Mantieni lo stato patrimoniale preciso e aggiornato."
+    },
+    {
+      "icon": "chart",
+      "title": "Conto economico",
+      "desc": "Calcola il vero costo del venduto per ogni ordine. Vedi i margini effettivi dopo spedizione, imballaggio e costi di acquisto dai fornitori."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Evasione degli ordini",
+      "title": "Trasforma gli ordini del giorno in merce spedita",
+      "body": "L'e-commerce si muove in fretta. Quando arriva un gruppo di ordini dal tuo negozio online, devi lavorarli senza ritardi. Paper & Pen ti permette di registrare gli ordini di vendita e generare documenti di trasporto per il banco imballaggio. Man mano che i pacchi lasciano il magazzino, trasformi quegli ordini in fatture finali. Puoi indicare se la spedizione è una riga separata addebitata al cliente o un costo che la tua attività sostiene. Registrando ogni spedizione, le giacenze si aggiornano subito e sai esattamente quando riordinare dai fornitori.",
+      "items": [
+        "Trasforma gli ordini di vendita in fatture",
+        "Genera documenti di trasporto precisi",
+        "Segui le spedizioni sostenute o riaddebitate",
+        "Aggiorna le giacenze alla spedizione"
+      ]
+    },
+    {
+      "eyebrow": "Gestione dei resi",
+      "title": "Gestisci resi e rettifiche di magazzino",
+      "body": "Nella vendita online i resi sono normali. Un cliente ordina la taglia sbagliata, oppure un corriere danneggia un pacco. Ti serve un processo chiaro per gestire lo storno contabile e la merce fisica. Quando un prodotto torna indietro, puoi emettere una nota di credito per annullare l'addebito della fattura originale. Così i tuoi registri delle imposte sulle vendite restano precisi e i ricavi riflettono le vendite effettivamente mantenute. Poi puoi rettificare il magazzino per svalutare l'articolo danneggiato o rimetterlo tra le giacenze disponibili per il prossimo acquirente.",
+      "items": [
+        "Emetti note di credito per i resi",
+        "Storna con precisione i ricavi di vendita",
+        "Rimetti gli articoli tra le giacenze disponibili",
+        "Svaluta la merce danneggiata"
+      ]
+    },
+    {
+      "eyebrow": "Controllo finanziario",
+      "title": "Riconcilia i versamenti e conosci i margini reali",
+      "body": "I gateway di pagamento non versano il denaro ordine per ordine. Inviano versamenti cumulativi, spesso al netto delle loro commissioni. Puoi usare le scritture contabili per riconciliare queste somme forfettarie con le singole fatture di vendita, così il saldo dei crediti verso clienti è corretto. Oltre ai ricavi, devi conoscere il costo del venduto. Seguendo gli ordini di acquisto ai fornitori e i costi della merce in arrivo, il tuo conto economico mostra il vero margine della tua attività e-commerce, tenendo conto del costo reale degli articoli spediti.",
+      "items": [
+        "Riconcilia i versamenti cumulativi dei gateway",
+        "Registra le commissioni di pagamento",
+        "Segui il costo del venduto",
+        "Genera report di conto economico"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Si integra direttamente con il mio negozio Shopify o WooCommerce?",
+      "a": "Paper & Pen non ha integrazioni dirette e automatiche con marketplace di app di terze parti o piattaforme e-commerce. Dovrai inserire manualmente i riepiloghi giornalieri delle vendite o i singoli ordini per mantenere precisi i dati di magazzino e contabilità."
+    },
+    {
+      "q": "Come gestisco le commissioni del gateway di pagamento?",
+      "a": "Quando un fornitore di pagamenti trasferisce un versamento cumulativo, di solito l'importo è inferiore al totale delle fatture a causa delle sue commissioni. Puoi usare le scritture contabili per chiudere gli importi pieni delle fatture nei crediti verso clienti, registrare l'incasso ricevuto e contabilizzare la differenza come spesa per commissioni bancarie."
+    },
+    {
+      "q": "Posso gestire il magazzino su più canali di vendita?",
+      "a": "Puoi seguire nel sistema le giacenze totali disponibili. Quando vendi su qualsiasi piattaforma, registrare la fattura in Paper & Pen scarica gli articoli dal magazzino centrale e ti aiuta a vedere cosa resta da vendere."
+    },
+    {
+      "q": "Come gestisco un rimborso al cliente?",
+      "a": "Se un cliente restituisce un articolo, crei una nota di credito collegata alla sua fattura originale. Questo storna la vendita nei tuoi registri. Poi puoi registrare il pagamento in uscita se restituisci il denaro e rettificare le giacenze se l'articolo è rivendibile."
+    }
+  ],
+  "related": [
+    "/industries/retail",
+    "/features/inventory",
+    "/invoicing/credit-notes",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Metti ordine nei conti del tuo e-commerce",
+  "ctaSub": "Segui le giacenze, emetti note di credito e calcola i tuoi margini reali, gratis."
+}

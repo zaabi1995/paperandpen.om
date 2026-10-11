@@ -1,0 +1,152 @@
+{
+  "locale": "de",
+  "slug": "uae",
+  "order": 2,
+  "country": "Vereinigte Arabische Emirate",
+  "title": "MwSt. in den VAE",
+  "metaTitle": "MwSt. in den VAE: Satz, Schwellen, E-Rechnung · Paper & Pen",
+  "metaDescription": "Der MwSt.-Satz von 5% in den VAE, die Schwelle von AED 375,000, die Rechnungsangaben nach Artikel 59 und der bestätigte Zeitplan der E-Rechnung, mit Quellen.",
+  "keywords": "MwSt. VAE, Mehrwertsteuer Dubai, MwSt.-Satz VAE, Registrierungsschwelle VAE, Pflichtangaben Rechnung VAE, E-Rechnung VAE 2027, Federal Tax Authority",
+  "heroEyebrow": "Vereinigte Arabische Emirate",
+  "heroTitle": "Rechnungen nach den <em class=\"text-copper-400 not-italic\">MwSt.-Regeln der VAE</em>",
+  "heroSubtitle": "Der Satz, die Schwellen, die zwölf Angaben, die Artikel 59 auf einer Steuerrechnung verlangt, und die Termine zur E-Rechnung, die das Ministry of Finance tatsächlich veröffentlicht hat.",
+  "heroBullets": [
+    "Regelsatz 5%",
+    "Registrierung ab AED 375,000",
+    "E-Rechnung in Phasen ab 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "MwSt.-Regelsatz",
+      "value": "5%",
+      "note": "Artikel 3 des Federal Decree-Law 8 of 2017 erhebt einen Regelsatz von 5% auf jede Lieferung oder Einfuhr. In Kraft seit dem 1. Januar 2018.",
+      "source": 1
+    },
+    {
+      "label": "Schwelle für die Pflichtregistrierung",
+      "value": "AED 375,000",
+      "note": "Artikel 7(1) der Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Schwelle für die freiwillige Registrierung",
+      "value": "AED 187,500",
+      "note": "Artikel 8(1) der Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Obergrenze für vereinfachte Rechnungen",
+      "value": "AED 10,000",
+      "note": "Eine vereinfachte Steuerrechnung ist zulässig, wenn der Empfänger nicht registriert ist, oder wenn er registriert ist und das Entgelt diesen Betrag nicht übersteigt.",
+      "source": 2
+    },
+    {
+      "label": "Währung auf der Rechnung",
+      "value": "AED",
+      "note": "Steuerbeträge werden in Dirham ausgewiesen. Ist die Rechnung in einer anderen Währung, muss der angewendete Wechselkurs angegeben sein.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artikel 59(1) der Executive Regulation führt auf, was eine vollständige Steuerrechnung enthalten muss.",
+    "items": [
+      "Die Worte „Steuerrechnung“ (Tax Invoice), gut sichtbar",
+      "Name, Adresse und Steuerregistrierungsnummer (TRN) des Lieferanten",
+      "Name, Adresse und TRN des Empfängers, sofern er registriert ist",
+      "Eine fortlaufende oder eindeutige Nummer, über die sich die Rechnung identifizieren und einordnen lässt",
+      "Das Ausstellungsdatum",
+      "Das Lieferdatum, wenn es vom Ausstellungsdatum abweicht",
+      "Eine Beschreibung der Waren oder Leistungen",
+      "Für jede Position: Einzelpreis, Menge oder Volumen, Steuersatz und zu zahlender Betrag in AED",
+      "Die Höhe eines gewährten Rabatts",
+      "Der zu zahlende Bruttobetrag in AED",
+      "Der berechnete Steuerbetrag in AED, mit dem Wechselkurs bei Umrechnung aus einer anderen Währung",
+      "Bei einer Umkehrung der Steuerschuld (Reverse Charge) ein Hinweis, dass der Empfänger die Steuer abführen muss, und die zugrunde liegende Vorschrift"
+    ],
+    "source": 2,
+    "caveat": "Dies ist die konsolidierte Veröffentlichung der Executive Regulation durch die Federal Tax Authority vom 4. Oktober 2024. Kommentatoren verweisen auf eine spätere Änderung. Wir haben sie in keinem von der FTA veröffentlichten Text gefunden. Klären Sie den aktuellen Wortlaut daher mit der FTA, bevor Sie sich darauf verlassen."
+  },
+  "einvoicing": {
+    "status": "Verpflichtend und in Phasen, Pilotphase läuft",
+    "body": "Das UAE eInvoicing System ist ein dezentrales Fünf-Ecken-Modell, bei dem Rechnungen über akkreditierte Dienstleister (Accredited Service Providers) laufen. Die eigenen Leitlinien des Ministry of Finance legen den Zeitplan fest: ein Pilotprogramm und freiwillige Nutzung ab dem 1. Juli 2026; Unternehmen mit einem Umsatz von AED 50 Millionen oder mehr setzen ab dem 1. Januar 2027 um; Unternehmen unter dieser Schwelle ab dem 1. Juli 2027; staatliche Stellen ab dem 1. Oktober 2027. Das Ministerium hat die erste Frist zur Beauftragung eines akkreditierten Dienstleisters vom 31. Juli 2026 auf den 30. Oktober 2026 verlängert und den Start im Januar 2027 unverändert gelassen. Das veröffentlichte Leitlinien-PDF und die Pressemitteilung des Ministeriums widersprechen sich also bei diesem einen Datum, und die Pressemitteilung ist das spätere Wort.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Alles richtig machen",
+      "title": "Wo Artikel 59 Unternehmen ertappt",
+      "body": "An der Angabe pro Zeile scheitern die meisten Rechnungsvorlagen. Artikel 59(1)(h) verlangt Einzelpreis, Menge, Steuersatz und zu zahlenden Betrag für jede Ware oder Leistung. Eine einzige gemischte Steuerzahl am Fuß der Rechnung reicht also nicht, wenn Positionen unterschiedlich behandelt werden. Der zweite Punkt ist die TRN des Empfängers, die immer nötig ist, wenn er registriert ist. Der dritte ist der Wechselkurs: Rechnen Sie in Dollar ab, müssen Sie die Steuer trotzdem in Dirham und den verwendeten Kurs ausweisen.",
+      "items": [
+        "Steuersatz und Betrag pro Zeile, nicht nur eine Summe",
+        "TRN des Empfängers, wann immer er registriert ist",
+        "Wechselkurs auf jeder Rechnung, die nicht in AED ist",
+        "Hinweis auf die Umkehrung der Steuerschuld, wo sie gilt"
+      ]
+    },
+    {
+      "eyebrow": "Vorbereitung",
+      "title": "Was die Termine 2027 tatsächlich von Ihnen verlangen",
+      "body": "Die Pflicht besteht nicht darin, Software mit einem Logo darauf zu kaufen. Sie besteht darin, an dem Datum, das für Ihre Umsatzklasse gilt, eine strukturierte Rechnung über einen akkreditierten Dienstleister ausstellen zu können. Rechnen Sie vom Umsetzungsdatum Ihrer Klasse rückwärts, nicht von der Pilotphase: Die Frist zur Beauftragung eines Dienstleisters liegt Monate vor dem Start, und genau diese Beauftragung, nicht der Start, verpassen die meisten Unternehmen. Bis dahin sind die Daten, die Sie brauchen, dieselben, die Artikel 59 schon heute verlangt. Ein guter Grund, die Rechnungsqualität jetzt zu verbessern statt während einer Umstellung.",
+      "items": [
+        "Wissen, in welche Umsatzklasse Sie fallen",
+        "Die Beauftragung des Dienstleisters einplanen, nicht nur den Start",
+        "TRNs der Kunden vor der Frist bereinigen, nicht währenddessen",
+        "Steuerdetails pro Zeile ab heute führen"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wie hoch ist der MwSt.-Satz in den VAE?",
+      "a": "Fünf Prozent. Artikel 3 des Federal Decree-Law 8 of 2017 erhebt einen Regelsatz von 5% auf jede steuerpflichtige Lieferung oder Einfuhr, in Kraft seit dem 1. Januar 2018. Bestimmte Umsätze sind nullbesteuert oder steuerbefreit, und der Unterschied ist wichtig: Ein Lieferant mit Nullsatz kann die Vorsteuer weiterhin zurückfordern, ein steuerbefreiter nicht."
+    },
+    {
+      "q": "Wann ist die E-Rechnung in den VAE Pflicht?",
+      "a": "Das hängt von Ihrem Umsatz ab. Nach den veröffentlichten Leitlinien des Ministry of Finance setzen Unternehmen mit einem Umsatz von AED 50 Millionen oder mehr ab dem 1. Januar 2027 um, Unternehmen darunter ab dem 1. Juli 2027 und staatliche Stellen ab dem 1. Oktober 2027. Pilotphase und freiwillige Nutzung starteten am 1. Juli 2026. Prüfen Sie die Seiten des Ministeriums, bevor Sie mit einem Datum planen, denn es hat bereits eine Frist geändert."
+    },
+    {
+      "q": "Wann darf ich in den VAE eine vereinfachte Steuerrechnung ausstellen?",
+      "a": "Wenn der Empfänger nicht für die MwSt. registriert ist, oder wenn er registriert ist und das Entgelt AED 10,000 nicht übersteigt. Auch eine vereinfachte Rechnung braucht die Worte „Tax Invoice“, Ihren Namen, Ihre Adresse und TRN, das Ausstellungsdatum, eine Beschreibung der Lieferung sowie das Gesamtentgelt und den Steuerbetrag in Dirham."
+    },
+    {
+      "q": "Brauche ich die TRN des Kunden auf einer Rechnung in den VAE?",
+      "a": "Ja, wann immer der Kunde für die MwSt. registriert ist. Artikel 59(1)(c) verlangt in diesem Fall Name, Adresse und Steuerregistrierungsnummer des Empfängers. Ohne sie kann Ihr Kunde Schwierigkeiten haben, die Vorsteuer zurückzufordern, und das kommt meist als Bitte um eine neue Rechnung zu Ihnen zurück."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Korrekte Rechnungen in den VAE, kostenlos",
+  "ctaSub": "Steuer pro Zeile, jede Währung mit dem Kurs auf dem Beleg und eine arabische und englische Rechnung aus einem Datensatz.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, Artikel 3 (konsolidiert, mit Änderungen)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, Artikel 7, 8 und 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1 und die Pressemitteilung des Ministeriums zur Änderung",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

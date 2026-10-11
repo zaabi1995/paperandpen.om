@@ -1,0 +1,35 @@
+{
+  "locale": "id",
+  "slug": "payments",
+  "order": 10,
+  "title": "Pembayaran",
+  "metaTitle": "Pembayaran Faktur Online · Dibayar Lebih Cepat · Paper & Pen",
+  "metaDescription": "Tambahkan tautan bayar online di setiap faktur dan terima pembayaran kartu. Paymob dan gateway global, mata uang apa pun, terekonsiliasi otomatis ke pembukuan.",
+  "keywords": "pembayaran online, terima pembayaran kartu, bayar invoice online, payment gateway, link pembayaran, paymob, cara cepat dibayar klien",
+  "heroEyebrow": "Bawaan",
+  "heroTitle": "Biarkan klien membayar Anda <em class=\"text-copper-400 not-italic\">dalam satu ketukan</em>",
+  "heroSubtitle": "Pasang tautan bayar online yang aman di setiap faktur agar klien langsung melunasi dengan kartu. Pembayaran terekonsiliasi ke pembukuan secara otomatis, dalam mata uang apa pun, di mana saja.",
+  "heroBullets": ["Tautan bayar online di setiap faktur", "Terekonsiliasi otomatis ke buku besar", "Paymob dan gateway global"],
+  "features": [
+    { "icon": "card", "title": "Bayar dengan kartu", "desc": "Klien membayar faktur apa pun secara online dengan kartu, tanpa login atau aplikasi." },
+    { "icon": "bolt", "title": "Tautan bayar instan", "desc": "Setiap faktur membawa tautan aman yang bisa dibagikan lewat email atau WhatsApp." },
+    { "icon": "refresh", "title": "Rekonsiliasi otomatis", "desc": "Pembayaran yang berhasil menandai faktur lunas dan tercatat ke pembukuan." },
+    { "icon": "globe", "title": "Mata uang apa pun", "desc": "Tagih dalam OMR, AED, SAR, USD, EUR dan lainnya melalui gateway yang tepat." },
+    { "icon": "shield", "title": "Aman & PCI", "desc": "Data kartu ditangani gateway bersertifikat, tidak pernah Anda simpan." },
+    { "icon": "receipt", "title": "Kuitansi terkirim", "desc": "Klien menerima kuitansi otomatis begitu pembayaran berhasil." }
+  ],
+  "sections": [
+    { "eyebrow": "Dibayar lebih cepat", "title": "Hilangkan hambatan antara faktur dan kas", "body": "Semakin cepat klien bisa membayar, semakin cepat kas Anda masuk. Tautan bayar online di setiap faktur berarti tidak ada rekening bank yang harus disalin dan tidak ada menunggu transfer. Klien mengetuk, membayar dengan kartu, dan faktur memperbarui dirinya sendiri, dengan kuitansi segera menyusul.", "items": ["Pembayaran kartu dengan satu ketukan", "Tautan bisa dibagikan di WhatsApp dan email", "Kuitansi otomatis"] },
+    { "eyebrow": "Lokal dan global", "title": "Gateway yang tepat untuk pasar Anda", "body": "Paper & Pen terhubung dengan Paymob untuk negara GCC dan gateway global lainnya, jadi Anda bisa menerima kartu yang benar-benar dipakai klien, dalam mata uang mereka. Setiap pelunasan terekonsiliasi kembali ke faktur yang tepat dan tercatat ke akun Anda, sehingga penagihan dan pembukuan selalu selaras.", "items": ["Paymob untuk negara GCC, plus opsi global", "Penagihan multimata uang", "Terekonsiliasi ke faktur yang tepat"] }
+  ],
+  "faqs": [
+    { "q": "Apakah mengaktifkan pembayaran online gratis?", "a": "Ya, menambahkan tautan bayar online sudah bawaan. Gateway pembayaran mengenakan biaya pemrosesan sendiri per transaksi, seperti biasanya." },
+    { "q": "Gateway apa saja yang didukung?", "a": "Paymob untuk negara GCC plus gateway global lainnya, jadi Anda bisa menerima kartu yang dipakai klien dalam mata uang mereka." },
+    { "q": "Apakah pembayaran memperbarui faktur secara otomatis?", "a": "Ya. Pembayaran yang berhasil menandai faktur lunas, mengirim kuitansi dan mencatat entrinya ke pembukuan Anda." },
+    { "q": "Bisakah klien membayar dalam mata uang berbeda?", "a": "Bisa. Tagih dalam OMR, AED, SAR, USD, EUR dan lainnya, diarahkan melalui gateway yang sesuai." },
+    { "q": "Apakah pembayaran kartu aman?", "a": "Ya. Data kartu ditangani gateway bersertifikat PCI, tidak pernah disimpan di Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Ubah faktur menjadi kas instan",
+  "ctaSub": "Mulai gratis dan tambahkan tautan bayar online di setiap faktur agar klien bisa membayar Anda dalam satu ketukan."
+}

@@ -1,0 +1,140 @@
+{
+  "locale": "id",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrain",
+  "title": "PPN di Bahrain",
+  "metaTitle": "PPN di Bahrain: Tarif 10% dan Aturan Faktur · Paper & Pen",
+  "metaDescription": "Tarif PPN 10% Bahrain, batas registrasi BHD 37,500 dan syarat faktur PPN dari NBR, dengan rujukan ke panduan resmi NBR sendiri.",
+  "keywords": "PPN Bahrain, tarif PPN Bahrain 10 persen, pajak Bahrain, batas registrasi PPN Bahrain, syarat faktur PPN Bahrain, National Bureau for Revenue",
+  "heroEyebrow": "Bahrain",
+  "heroTitle": "Membuat faktur sesuai aturan <em class=\"text-copper-400 not-italic\">PPN Bahrain</em>",
+  "heroSubtitle": "Tarif 10%, batas registrasi dan isi wajib faktur PPN menurut National Bureau for Revenue, termasuk satu kolom yang khusus untuk konstruksi.",
+  "heroBullets": [
+    "Tarif standar 10%",
+    "Registrasi mulai BHD 37,500",
+    "Belum ada kewajiban e-faktur yang diterbitkan"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Tarif PPN standar",
+      "value": "10%",
+      "note": "PPN dimulai dengan tarif 5% pada 1 Januari 2019 dan direvisi menjadi 10% sejak 1 Januari 2022. Perbandingan yang ditulis sebelum 2022 sudah usang.",
+      "source": 1
+    },
+    {
+      "label": "Batas registrasi wajib",
+      "value": "BHD 37,500",
+      "note": "Melebihi angka ini mewajibkan registrasi.",
+      "source": 1
+    },
+    {
+      "label": "Batas registrasi sukarela",
+      "value": "BHD 18,750",
+      "note": "Diukur dalam 12 bulan terakhir atau 12 bulan ke depan, dan boleh didasarkan pada biaya yang dikenai PPN, bukan penyerahan.",
+      "source": 1
+    },
+    {
+      "label": "Tenggat penerbitan faktur",
+      "value": "Tanggal 15 bulan berikutnya",
+      "note": "Faktur wajib diterbitkan paling lambat tanggal lima belas bulan setelah bulan saat PPN menjadi terutang.",
+      "source": 1
+    },
+    {
+      "label": "Mata uang di faktur",
+      "value": "BHD",
+      "note": "Nilai, jumlah PPN dan total ditampilkan dalam dinar Bahrain, dengan kurs dicantumkan jika memakai mata uang asing.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Bagian 10.3 VAT General Guide dari NBR menjelaskan apa saja yang wajib ada di faktur PPN lengkap. Faktur PPN sederhana hanya memerlukan sebagian di antaranya.",
+    "items": [
+      "Label \"Faktur PPN\"",
+      "Nama, alamat dan Nomor Akun PPN pemasok",
+      "Nama dan alamat pelanggan",
+      "Nomor faktur PPN yang berurutan",
+      "Tanggal terbit, serta tanggal penyerahan atau pembayaran jika berbeda",
+      "Uraian penyerahan yang cukup rinci agar perlakuan PPN-nya jelas",
+      "Untuk pembangunan gedung baru, nomor izin mendirikan bangunan",
+      "Jumlah barang yang diserahkan",
+      "Nilai penyerahan dan harga satuan dalam dinar, tidak termasuk PPN",
+      "Diskon bila ada, dan nilai bersih dalam dinar tidak termasuk PPN",
+      "Tarif PPN dan PPN terutang dalam dinar, per baris jika tarifnya berbeda",
+      "Total jumlah terutang termasuk PPN, dalam dinar",
+      "Kurs yang dipakai jika memakai mata uang asing",
+      "Pernyataan yang jelas jika transaksi dibebaskan",
+      "Rujukan pada mekanisme margin laba jika dipakai"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Belum ada kewajiban yang diterbitkan",
+    "body": "Kami tidak menemukan skema, tahapan atau tanggal e-faktur yang diterbitkan National Bureau for Revenue. VAT General Guide miliknya, yang diperbarui pada Juli 2026, sama sekali tidak menyebut faktur elektronik, dan daftar publikasinya tidak memuat panduan e-faktur. Ulasan di tempat lain menggambarkan sistem antarbisnis yang sedang dirancang untuk kemungkinan peluncuran bertahap, tetapi tidak ada apa pun di situs resmi NBR yang mendukung sebuah tanggal, jadi kami tidak menerbitkannya. Jika Anda merencanakan perubahan sistem, dasarkan pada aturan isi faktur di atas, yang berlaku dan sudah diterbitkan, bukan pada kewajiban yang baru diperkirakan.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Agar tidak salah",
+      "title": "Dua jebakan khas Bahrain",
+      "body": "Pertama adalah riwayat tarif. Bahrain beralih dari lima persen ke sepuluh persen pada 1 Januari 2022, jadi setiap template, daftar harga atau artikel perbandingan yang ditulis sebelum itu sudah salah, dan kesalahannya bertahan diam-diam di template penawaran lama. Kedua adalah tenggat penerbitan. Bahrain tidak hanya mewajibkan faktur diterbitkan, tetapi juga menetapkan batas waktunya: tanggal lima belas bulan berikutnya setelah bulan saat PPN menjadi terutang. Bisnis yang membuat faktur kapan saja dokumennya siap bisa terlambat tanpa pernah menyadarinya.",
+      "items": [
+        "Periksa template sebelum 2022 yang masih memakai tarif 5%",
+        "Terbitkan faktur paling lambat tanggal 15 bulan berikutnya",
+        "Tampilkan PPN per baris jika tarifnya berbeda",
+        "Cantumkan kurs di faktur mata uang asing"
+      ]
+    },
+    {
+      "eyebrow": "Detail sektor",
+      "title": "Kolom konstruksi yang tidak terduga",
+      "body": "Aturan isi faktur Bahrain memuat satu persyaratan yang tidak ada padanannya di negara Teluk lain: untuk penyerahan yang terkait pembangunan gedung baru, faktur wajib mencantumkan nomor izin mendirikan bangunan. Persyaratan ini mudah terlewat karena berada di dalam persyaratan uraian umum, bukan sebagai kolom utama, dan jenis kelalaian ini baru ketahuan saat faktur dipertanyakan berbulan-bulan kemudian. Jika Anda bekerja di bidang kontraktor, masukkan nomor izin ke template uraian baris Anda, jangan mengandalkan ingatan seseorang.",
+      "items": [
+        "Penyerahan bangunan baru memerlukan nomor izin mendirikan bangunan",
+        "Masukkan ke template, bukan ke ingatan seseorang",
+        "Uraikan penyerahan cukup jelas untuk menunjukkan perlakuan PPN-nya",
+        "Siapkan kalimat pernyataan pembebasan"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Berapa tarif PPN di Bahrain?",
+      "a": "Sepuluh persen. Bahrain memperkenalkan PPN dengan tarif lima persen pada 1 Januari 2019 dan merevisi tarif standar menjadi sepuluh persen sejak 1 Januari 2022. Setiap panduan, template atau perbandingan yang masih menampilkan lima persen untuk Bahrain dibuat sebelum perubahan itu."
+    },
+    {
+      "q": "Kapan saya wajib registrasi PPN di Bahrain?",
+      "a": "Saat penyerahan Anda melebihi BHD 37,500. Anda boleh registrasi secara sukarela mulai BHD 18,750, diukur dalam dua belas bulan terakhir atau ke depan, dan Bahrain membolehkan registrasi sukarela berdasarkan biaya yang dikenai PPN maupun penyerahan, yang cocok untuk bisnis yang masih membangun penjualannya."
+    },
+    {
+      "q": "Apakah e-faktur wajib di Bahrain?",
+      "a": "Tidak, menurut semua yang diterbitkan National Bureau for Revenue. VAT General Guide miliknya, yang diperbarui Juli 2026, tidak menyebut faktur elektronik, dan tidak ada panduan e-faktur dalam publikasinya. Kami tidak mengulang tanggal dari ulasan yang belum diterbitkan NBR sendiri."
+    },
+    {
+      "q": "Kapan paling lambat faktur PPN Bahrain harus diterbitkan?",
+      "a": "Paling lambat tanggal lima belas bulan berikutnya setelah bulan saat PPN menjadi terutang. Ini tenggat sungguhan, bukan sekadar harapan umum, dan sering menjebak bisnis yang mengumpulkan pembuatan fakturnya di akhir kuartal."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Buat faktur yang benar di Bahrain, gratis",
+  "ctaSub": "Atur tarif sendiri, tampilkan PPN per baris, dan simpan kolom yang diminta NBR dalam template yang tidak perlu Anda ingat-ingat.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, versi 1.15, termasuk bagian 10.3 tentang syarat faktur",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

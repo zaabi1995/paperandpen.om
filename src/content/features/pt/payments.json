@@ -1,0 +1,35 @@
+{
+  "locale": "pt",
+  "slug": "payments",
+  "order": 10,
+  "title": "Pagamentos",
+  "metaTitle": "Pagamento online de faturas · Receba mais rápido · Paper & Pen",
+  "metaDescription": "Coloque um link de pagamento online em cada fatura e receba por cartão. Paymob e gateways globais, qualquer moeda, conciliação automática nos seus livros.",
+  "keywords": "pagamento online, aceitar cartão de crédito, pagar fatura online, paymob, gateway de pagamento, receber mais rápido, link de pagamento",
+  "heroEyebrow": "Já incluído",
+  "heroTitle": "Deixe o cliente pagar <em class=\"text-copper-400 not-italic\">em um toque</em>",
+  "heroSubtitle": "Coloque um link seguro de pagamento online em cada fatura para o cliente pagar com cartão na hora. Os pagamentos são conciliados nos seus livros automaticamente, em qualquer moeda, em qualquer lugar.",
+  "heroBullets": ["Link de pagamento online em cada fatura", "Conciliação automática no seu razão", "Paymob e gateways globais"],
+  "features": [
+    { "icon": "card", "title": "Pagamento com cartão", "desc": "O cliente paga qualquer fatura online com cartão, sem login e sem aplicativo." },
+    { "icon": "bolt", "title": "Link de pagamento na hora", "desc": "Cada fatura traz um link seguro, que pode ser enviado por e-mail ou WhatsApp." },
+    { "icon": "refresh", "title": "Conciliação automática", "desc": "Pagamentos aprovados marcam a fatura como paga e são lançados nos seus livros." },
+    { "icon": "globe", "title": "Qualquer moeda", "desc": "Receba em OMR, AED, SAR, USD, EUR e mais, pelo gateway certo." },
+    { "icon": "shield", "title": "Seguro e PCI", "desc": "Os dados do cartão ficam com gateways certificados, nunca armazenados por você." },
+    { "icon": "receipt", "title": "Recibos enviados", "desc": "O cliente recebe um recibo automático assim que o pagamento é aprovado." }
+  ],
+  "sections": [
+    { "eyebrow": "Receba mais rápido", "title": "Tire o atrito entre a fatura e o dinheiro", "body": "Quanto mais rápido o cliente consegue pagar, mais rápido o dinheiro entra. Um link de pagamento online em cada fatura significa nada de copiar dados bancários e nada de esperar uma transferência. O cliente toca, paga com cartão e a fatura se atualiza sozinha, com o recibo já a caminho.", "items": ["Pagamento com cartão em um toque", "Link compartilhável por WhatsApp e e-mail", "Recibos automáticos"] },
+    { "eyebrow": "Local e global", "title": "O gateway certo para o seu mercado", "body": "O Paper & Pen se conecta ao Paymob para o GCC e a outros gateways globais, para você aceitar os cartões que seus clientes realmente usam, na moeda deles. Cada liquidação é conciliada com a fatura certa e lançada na sua contabilidade, então cobrança e escrituração andam juntas.", "items": ["Paymob para o GCC, além de opções globais", "Recebimento em várias moedas", "Conciliação com a fatura exata"] }
+  ],
+  "faqs": [
+    { "q": "Ativar o pagamento online é grátis?", "a": "Sim, os links de pagamento online já vêm incluídos. O gateway de pagamento cobra a própria taxa de processamento por transação, como todo gateway faz." },
+    { "q": "Quais gateways são aceitos?", "a": "Paymob para o GCC, além de outros gateways globais, para você aceitar os cartões que seus clientes usam, na moeda deles." },
+    { "q": "Um pagamento atualiza a fatura automaticamente?", "a": "Sim. Um pagamento aprovado marca a fatura como paga, envia um recibo e lança o registro nos seus livros." },
+    { "q": "O cliente pode pagar em moedas diferentes?", "a": "Sim. Receba em OMR, AED, SAR, USD, EUR e mais, pelo gateway adequado." },
+    { "q": "O pagamento com cartão é seguro?", "a": "Sim. Os dados do cartão ficam com gateways certificados PCI e nunca são armazenados no Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Transforme faturas em dinheiro na hora",
+  "ctaSub": "Comece grátis e coloque um link de pagamento online em cada fatura para o cliente pagar em um toque."
+}

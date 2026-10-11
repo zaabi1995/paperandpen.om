@@ -1,0 +1,35 @@
+{
+  "locale": "fr",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Comptabilité",
+  "metaTitle": "Logiciel de comptabilité en ligne automatique · Paper & Pen",
+  "metaDescription": "Une comptabilité en partie double qui se passe de saisie. Compte de résultat et bilan en temps réel, TVA, rapprochement bancaire, toutes devises et taxes.",
+  "keywords": "logiciel de comptabilité, comptabilité en ligne, partie double, bilan comptable, compte de résultat, déclaration de TVA, rapprochement bancaire, grand livre",
+  "heroEyebrow": "Module complémentaire",
+  "heroTitle": "Des comptes qui <em class=\"text-copper-400 not-italic\">s'équilibrent tout seuls</em>",
+  "heroSubtitle": "Chaque facture, paiement et achat est enregistré automatiquement dans un vrai grand livre en partie double. Voyez en temps réel votre bénéfice, votre bilan et votre situation fiscale, sans toucher à un tableur.",
+  "heroBullets": ["Partie double automatique, sans écritures manuelles", "Compte de résultat et bilan en temps réel", "Déclarations de TVA en un clic"],
+  "features": [
+    { "icon": "accounting", "title": "Tenue des comptes automatique", "desc": "Ventes, paiements et dépenses sont comptabilisés au fil de l'eau." },
+    { "icon": "chart", "title": "États financiers en direct", "desc": "Compte de résultat, bilan et flux de trésorerie, toujours à jour." },
+    { "icon": "calc", "title": "TVA et déclarations fiscales", "desc": "Suivez la TVA déductible et collectée, et produisez une déclaration prête à déposer en un clic." },
+    { "icon": "refresh", "title": "Rapprochement bancaire", "desc": "Associez les lignes bancaires aux factures et aux paiements pour des comptes impeccables." },
+    { "icon": "doc", "title": "Grands livres complets", "desc": "Depuis n'importe quel rapport, remontez jusqu'au document source et à l'écriture comptable." },
+    { "icon": "globe", "title": "Multidevise", "desc": "Comptabilisez dans toutes les devises, avec gains et pertes de change automatiques." }
+  ],
+  "sections": [
+    { "eyebrow": "Pas besoin d'être comptable", "title": "Une comptabilité qui tourne en arrière-plan", "body": "Vous ne devriez pas avoir à devenir comptable pour savoir si vous êtes rentable. Comme la facturation, les paiements et les stocks alimentent tous le même grand livre, vos comptes sont justes sans écritures manuelles. Ouvrez le tableau de bord : votre bénéfice, vos créances clients et votre TVA sont là.", "items": ["La partie double, faite pour vous", "Chaque rapport remonte jusqu'à la source", "Piste d'audit sur chaque écriture"] },
+    { "eyebrow": "Adapté à tous les régimes fiscaux", "title": "Fiscalité et conformité, partout où vous exercez", "body": "Configurez les taux de taxe et les comptes de votre pays, y compris une TVA configurable pour les pays du Golfe, et Paper & Pen suit pour vous la TVA déductible et collectée. Produisez une déclaration prête à déposer, rapprochez votre banque et clôturez la période en toute confiance, dans n'importe quelle devise.", "items": ["Taxes configurables pour tous les pays", "Déclarations de TVA prêtes à déposer", "Rapprochement bancaire et clôture de période"] }
+  ],
+  "faqs": [
+    { "q": "Faut-il des connaissances en comptabilité pour l'utiliser ?", "a": "Non. Les écritures sont générées automatiquement à partir de vos factures, paiements et achats : vous obtenez une comptabilité en partie double correcte sans saisir d'écritures." },
+    { "q": "La comptabilité est-elle gratuite ?", "a": "La comptabilité est un module complémentaire payant et optionnel. Ventes et Facturation est gratuit pour toujours, et vous activez la Comptabilité quand vous voulez des états financiers complets." },
+    { "q": "Peut-il produire les déclarations de TVA ?", "a": "Oui. Il suit la TVA déductible et collectée (par exemple une TVA configurable pour les pays du Golfe, ou tout taux que vous définissez) et génère une déclaration prête à déposer." },
+    { "q": "Gère-t-il plusieurs devises ?", "a": "Oui. Comptabilisez et produisez vos rapports dans toutes les devises, avec gains et pertes de change automatiques." },
+    { "q": "Puis-je faire mon rapprochement bancaire ?", "a": "Oui. Importez ou associez les lignes bancaires aux factures et aux paiements pour garder votre grand livre rapproché." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Des comptes justes, automatiquement",
+  "ctaSub": "Commencez gratuitement avec la facturation et activez la Comptabilité pour des états financiers et des déclarations fiscales en temps réel."
+}

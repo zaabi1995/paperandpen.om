@@ -1,0 +1,152 @@
+{
+  "locale": "id",
+  "slug": "uae",
+  "order": 2,
+  "country": "Uni Emirat Arab",
+  "title": "PPN di UEA",
+  "metaTitle": "PPN di UEA: Tarif, Batas Registrasi, E-Faktur · Paper & Pen",
+  "metaDescription": "Tarif PPN 5% UEA, batas AED 375,000, isi faktur menurut Pasal 59 dan jadwal eInvoicing yang sudah dikonfirmasi, masing-masing dengan rujukan sumber.",
+  "keywords": "PPN UEA, tarif PPN Dubai, pajak UEA, batas registrasi PPN UEA, syarat faktur pajak UEA, e-faktur UEA 2027, Federal Tax Authority",
+  "heroEyebrow": "Uni Emirat Arab",
+  "heroTitle": "Membuat faktur sesuai aturan <em class=\"text-copper-400 not-italic\">PPN UEA</em>",
+  "heroSubtitle": "Tarif, batas registrasi, dua belas unsur yang diwajibkan Pasal 59 pada faktur pajak, dan tanggal eInvoicing yang benar-benar diterbitkan Ministry of Finance.",
+  "heroBullets": [
+    "Tarif standar 5%",
+    "Registrasi mulai AED 375,000",
+    "eInvoicing bertahap mulai 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Tarif PPN standar",
+      "value": "5%",
+      "note": "Pasal 3 Federal Decree-Law 8 of 2017 mengenakan tarif standar 5% atas setiap penyerahan atau impor. Berlaku sejak 1 Januari 2018.",
+      "source": 1
+    },
+    {
+      "label": "Batas registrasi wajib",
+      "value": "AED 375,000",
+      "note": "Pasal 7(1) Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Batas registrasi sukarela",
+      "value": "AED 187,500",
+      "note": "Pasal 8(1) Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Batas faktur sederhana",
+      "value": "AED 10,000",
+      "note": "Faktur pajak sederhana diperbolehkan jika penerima tidak terdaftar, atau terdaftar dan imbalannya tidak melebihi jumlah ini.",
+      "source": 2
+    },
+    {
+      "label": "Mata uang di faktur",
+      "value": "AED",
+      "note": "Jumlah pajak ditampilkan dalam dirham, dan jika faktur memakai mata uang lain, kurs yang dipakai wajib dicantumkan.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Pasal 59(1) Executive Regulation mencantumkan apa saja yang wajib ada di faktur pajak lengkap.",
+    "items": [
+      "Tulisan \"Faktur Pajak\", ditampilkan dengan jelas",
+      "Nama, alamat dan Nomor Registrasi Pajak (TRN) pemasok",
+      "Nama, alamat dan TRN penerima, jika penerima terdaftar",
+      "Nomor urut atau unik yang memungkinkan faktur dikenali dan diurutkan",
+      "Tanggal terbit",
+      "Tanggal penyerahan, jika berbeda dari tanggal terbit",
+      "Uraian barang atau jasa",
+      "Untuk setiap item: harga satuan, jumlah atau volume, tarif pajak dan jumlah terutang dalam AED",
+      "Jumlah diskon yang diberikan, bila ada",
+      "Jumlah bruto terutang dalam AED",
+      "Jumlah pajak yang dikenakan dalam AED, dengan kurs jika dikonversi dari mata uang lain",
+      "Untuk penyerahan reverse charge, pernyataan bahwa penerima wajib memperhitungkan pajaknya, beserta ketentuan yang menjadi dasarnya"
+    ],
+    "source": 2,
+    "caveat": "Ini adalah publikasi konsolidasi Executive Regulation dari Federal Tax Authority bertanggal 4 Oktober 2024. Sejumlah pengamat menyebut adanya amandemen yang lebih baru; kami belum menemukannya dalam teks yang diterbitkan FTA, jadi pastikan rumusan terkini ke FTA sebelum mengandalkannya."
+  },
+  "einvoicing": {
+    "status": "Wajib dan bertahap, uji coba dibuka",
+    "body": "UAE eInvoicing System adalah model lima sudut terdesentralisasi, di mana faktur melewati Accredited Service Provider. Pedoman resmi Ministry of Finance menetapkan jadwalnya: program uji coba dan adopsi sukarela mulai 1 Juli 2026; bisnis dengan pendapatan AED 50 juta atau lebih menerapkan mulai 1 Januari 2027; bisnis di bawah batas itu mulai 1 Juli 2027; instansi pemerintah mulai 1 Oktober 2027. Ministry memperpanjang tenggat penunjukan pertama Accredited Service Provider dari 31 Juli 2026 menjadi 30 Oktober 2026, tanpa mengubah tanggal mulai berlaku Januari 2027, sehingga PDF pedoman yang diterbitkan dan siaran pers Ministry berbeda pada satu tanggal itu, dan siaran pers adalah keterangan yang lebih baru.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Agar tidak salah",
+      "title": "Yang sering terlewat dari Pasal 59",
+      "body": "Persyaratan per baris adalah yang paling sering gagal dipenuhi template faktur. Pasal 59(1)(h) meminta harga satuan, jumlah, tarif pajak dan jumlah terutang untuk setiap barang atau jasa, artinya satu angka pajak gabungan di bagian bawah faktur tidak cukup jika baris-barisnya memiliki perlakuan berbeda. Kedua adalah TRN penerima, yang wajib setiap kali penerima terdaftar, dan ketiga adalah kurs: jika Anda menagih dalam dolar, Anda tetap harus menampilkan pajak dalam dirham beserta kurs yang dipakai.",
+      "items": [
+        "Tarif dan jumlah pajak per baris, bukan hanya total",
+        "TRN penerima setiap kali mereka terdaftar",
+        "Kurs dicantumkan di setiap faktur non-AED",
+        "Kalimat reverse charge bila berlaku"
+      ]
+    },
+    {
+      "eyebrow": "Persiapan",
+      "title": "Apa yang sebenarnya dituntut tanggal 2027",
+      "body": "Kewajibannya bukan membeli software berlogo tertentu, melainkan mampu menerbitkan faktur terstruktur melalui Accredited Service Provider pada tanggal yang berlaku untuk kelompok pendapatan Anda. Hitung mundur dari tanggal penerapan kelompok Anda, bukan dari uji coba: tenggat penunjukan penyedia layanan jatuh berbulan-bulan sebelum tanggal mulai berlaku, dan justru penunjukan inilah, bukan tanggal mulai berlaku, yang paling sering terlewat. Sementara itu, data yang Anda butuhkan sama dengan data yang sudah diwajibkan Pasal 59, alasan kuat untuk membenahi kualitas faktur sekarang, bukan di tengah migrasi.",
+      "items": [
+        "Ketahui kelompok pendapatan Anda",
+        "Catat tenggat penunjukan penyedia layanan, bukan hanya tanggal mulai berlaku",
+        "Bersihkan TRN pelanggan sebelum tenggat, bukan saat tenggat",
+        "Simpan detail pajak per baris mulai hari ini"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Berapa tarif PPN di UEA?",
+      "a": "Lima persen. Pasal 3 Federal Decree-Law 8 of 2017 mengenakan tarif standar 5% atas setiap penyerahan kena pajak atau impor, berlaku sejak 1 Januari 2018. Sebagian penyerahan dikenai tarif nol atau dibebaskan, dan perbedaannya penting: pemasok dengan tarif nol tetap bisa mengkreditkan pajak masukan, sedangkan pemasok yang dibebaskan tidak bisa."
+    },
+    {
+      "q": "Kapan e-faktur wajib di UEA?",
+      "a": "Tergantung pendapatan Anda. Menurut pedoman yang diterbitkan Ministry of Finance, bisnis dengan pendapatan AED 50 juta atau lebih menerapkan mulai 1 Januari 2027, bisnis di bawahnya mulai 1 Juli 2027, dan instansi pemerintah mulai 1 Oktober 2027. Uji coba dan adopsi sukarela dibuka pada 1 Juli 2026. Periksa halaman Ministry sebelum merencanakan berdasarkan tanggal apa pun, karena Ministry sudah pernah mengubah satu tenggat."
+    },
+    {
+      "q": "Kapan saya boleh menerbitkan faktur pajak sederhana di UEA?",
+      "a": "Jika penerima tidak terdaftar PPN, atau terdaftar dan imbalannya tidak melebihi AED 10,000. Faktur sederhana tetap memerlukan tulisan \"Faktur Pajak\", nama, alamat dan TRN Anda, tanggal terbit, uraian barang atau jasa yang diserahkan, serta total imbalan dan jumlah pajak dalam dirham."
+    },
+    {
+      "q": "Apakah saya perlu TRN pelanggan di faktur UEA?",
+      "a": "Ya, setiap kali pelanggan terdaftar PPN. Pasal 59(1)(c) mewajibkan nama, alamat dan Nomor Registrasi Pajak penerima dalam kasus itu. Tanpanya, pelanggan Anda bisa kesulitan mengkreditkan pajak masukan, yang biasanya kembali kepada Anda sebagai permintaan menerbitkan ulang faktur."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Buat faktur yang benar di UEA, gratis",
+  "ctaSub": "Pajak per baris, mata uang apa pun dengan kurs tercantum di dokumen, serta faktur bahasa Arab dan Inggris dari satu catatan.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, Pasal 3 (konsolidasi, dengan amandemen)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, Pasal 7, 8 dan 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, dan siaran pers amandemen dari Ministry",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

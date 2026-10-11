@@ -1,0 +1,38 @@
+{
+  "locale": "id",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Kalkulator PPN & Pajak Gratis",
+  "metaTitle": "Kalkulator PPN Oman: Tambah atau Hapus PPN 5%",
+  "metaDescription": "Hitung PPN 5% Oman secara online. Tambahkan PPN ke nilai bersih atau keluarkan dari total bruto untuk melihat nilai bersih, PPN dan total seketika, tanpa daftar.",
+  "keywords": "kalkulator PPN, kalkulator PPN Oman, cara hitung PPN, kalkulator pajak penjualan, tambah PPN, hapus PPN, hitung PPN 5 persen, hitung DPP dari harga termasuk PPN",
+  "heroEyebrow": "Gratis · Tanpa daftar",
+  "heroTitle": "Kalkulator <em class=\"text-copper-400 not-italic\">PPN & Pajak</em> Gratis",
+  "heroSubtitle": "Hitung PPN 5% Oman secara online. Tambahkan PPN ke nilai bersih atau keluarkan dari total bruto untuk melihat nilai bersih, PPN dan total seketika, tanpa daftar.",
+  "heroBullets": ["Tarif apa pun, mata uang apa pun", "Tambah atau keluarkan pajak", "Gratis selamanya, tanpa daftar"],
+  "howToSteps": [
+    { "name": "Masukkan jumlah", "text": "Ketik jumlah yang ingin dihitung dan pilih mata uang Anda." },
+    { "name": "Atur tarif pajak", "text": "Pakai tarif bawaan Oman 5%, atau masukkan tarif terkini yang berlaku untuk transaksi Anda." },
+    { "name": "Pilih tambah atau hapus", "text": "Tambahkan pajak ke nilai bersih, atau keluarkan pajak dari nilai bruto untuk menemukan nilai bersihnya (PPN terbalik)." },
+    { "name": "Baca hasilnya", "text": "Lihat rincian nilai bersih, pajak dan bruto seketika, siap disalin ke faktur." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Tambah atau hapus pajak", "desc": "Hitung pajak ke depan dari nilai bersih, atau keluarkan dari nilai bruto dalam satu klik." },
+    { "icon": "globe", "title": "Tarif apa pun, mata uang apa pun", "desc": "Bawaan Oman 5%, atau tetapkan tarif yang berlaku untuk Anda, dalam OMR, AED, SAR, USD, EUR dan lainnya." },
+    { "icon": "bolt", "title": "Instan & gratis", "desc": "Tanpa daftar, tanpa batas. Dapatkan nilai bersih, pajak dan bruto begitu Anda mengetik." }
+  ],
+  "sections": [
+    { "title": "Mengapa memakai kalkulator PPN Paper & Pen?", "body": "Baik Anda sedang menyusun harga penawaran, memeriksa faktur atau melaporkan SPT, nilai bersih, pajak dan bruto harus cocok hingga desimal terakhir. Kalkulator ini menangani tarif apa pun dalam mata uang apa pun, bekerja dua arah (menambah pajak atau mengeluarkannya dari total), dan benar-benar gratis. Kalkulator terbuka dengan tarif Oman 5% dan bisa diatur penuh untuk wilayah lain." },
+    { "eyebrow": "Lebih dari sekadar kalkulator", "title": "Biarkan software menghitung PPN untuk Anda", "body": "Menghitung pajak secara manual di setiap baris itu lambat dan rawan salah. Di dalam Paper & Pen ERP lengkap, PPN diterapkan otomatis pada nilai bersih setelah diskon di setiap faktur, tercatat di pembukuan, dan terangkum dalam laporan yang siap untuk SPT, sehingga Anda tidak perlu lagi meraih kalkulator.", "items": ["Pajak otomatis di setiap faktur dan penawaran", "Tarif pajak per item dan per dokumen", "Laporan ringkasan PPN siap dilaporkan"] }
+  ],
+  "faqs": [
+    { "q": "Tarif berapa yang dipakai kalkulator PPN Oman ini?", "a": "Kalkulator terbuka dengan tarif Oman 5%. Aturan pajak bisa berubah, jadi pastikan tarif terkini ke Oman Tax Authority sebelum mengandalkan hasil perhitungan. Anda bisa memasukkan tarif apa pun." },
+    { "q": "Bagaimana mengeluarkan PPN dari total?", "a": "Pilih opsi hapus (terbalik) dan masukkan nilai bruto. Kalkulator akan menghitung nilai bersih dan bagian pajak yang sudah termasuk dalam total." },
+    { "q": "Bisakah dipakai untuk pajak penjualan di luar Oman?", "a": "Bisa. Tetapkan tarif yang berlaku untuk transaksi Anda dan pilih mata uang apa pun. Kalkulator ini berfungsi untuk PPN, GST atau pajak penjualan di mana pun di dunia." },
+    { "q": "Apakah bisa menghitung pajak dari jumlah setelah diskon?", "a": "Masukkan nilai bersih setelah diskon lalu tambahkan pajaknya. Untuk PPN otomatis setelah diskon pada faktur lengkap, buat ruang kerja Paper & Pen gratis yang mengurusnya untuk Anda." }
+  ],
+  "related": ["/vat/oman", "/tools/free-invoice-generator", "/tools/free-quotation-generator", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Berhenti menghitung PPN secara manual",
+  "ctaSub": "Terapkan pajak otomatis di setiap faktur dan dapatkan laporan PPN yang siap untuk SPT dengan ruang kerja Paper & Pen gratis."
+}

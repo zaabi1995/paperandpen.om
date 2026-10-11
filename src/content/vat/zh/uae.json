@@ -1,0 +1,152 @@
+{
+  "locale": "zh",
+  "slug": "uae",
+  "order": 2,
+  "country": "阿拉伯联合酋长国",
+  "title": "阿联酋增值税",
+  "metaTitle": "阿联酋增值税：税率、门槛与电子发票 · Paper & Pen",
+  "metaDescription": "阿联酋 5% 增值税税率、AED 375,000 门槛、第 59 条发票内容和已确认的电子发票时间表，均注明出处。",
+  "keywords": "阿联酋增值税, 阿联酋增值税税率, 阿联酋增值税注册门槛, 阿联酋税务发票要求, 阿联酋电子发票 2027, 阿联酋联邦税务局",
+  "heroEyebrow": "阿拉伯联合酋长国",
+  "heroTitle": "按照<em class=\"text-copper-400 not-italic\">阿联酋增值税</em>规定开票",
+  "heroSubtitle": "税率、注册门槛、第 59 条要求税务发票载明的十二项内容，以及财政部实际公布的电子发票日期。",
+  "heroBullets": [
+    "5% 标准税率",
+    "AED 375,000 须注册",
+    "电子发票自 2027 年起分阶段实施"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "标准增值税税率",
+      "value": "5%",
+      "note": "Federal Decree-Law 8 of 2017 第 3 条对任何供应或进口征收 5% 的标准税率，自 2018 年 1 月 1 日起生效。",
+      "source": 1
+    },
+    {
+      "label": "强制注册门槛",
+      "value": "AED 375,000",
+      "note": "Executive Regulation 第 7(1) 条。",
+      "source": 2
+    },
+    {
+      "label": "自愿注册门槛",
+      "value": "AED 187,500",
+      "note": "Executive Regulation 第 8(1) 条。",
+      "source": 2
+    },
+    {
+      "label": "简化发票上限",
+      "value": "AED 10,000",
+      "note": "当收货方未注册，或已注册且对价不超过此金额时，允许使用简化税务发票。",
+      "source": 2
+    },
+    {
+      "label": "发票货币",
+      "value": "AED",
+      "note": "税额以迪拉姆显示；如发票使用其他货币，必须注明所采用的汇率。",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Executive Regulation 第 59(1) 条列出了完整税务发票必须包含的内容。",
+    "items": [
+      "清楚显示“税务发票”字样",
+      "供应商的名称、地址和税务注册号",
+      "收货方已注册时，其名称、地址和 TRN",
+      "可用于识别和排序发票的连续编号或唯一编号",
+      "开具日期",
+      "供应日期（如与开具日期不同）",
+      "商品或服务的描述",
+      "每个项目的单价、数量或体积、税率以及以 AED 计的应付金额",
+      "所给予的任何折扣金额",
+      "以 AED 计的应付总额",
+      "以 AED 计的已收税额；如由其他货币换算，须注明汇率",
+      "对于反向征税供应，须声明由收货方负责计税，并注明所依据的条款"
+    ],
+    "source": 2,
+    "caveat": "这是 Federal Tax Authority 发布的 Executive Regulation 汇编版，日期为 2024 年 10 月 4 日。有评论者提到后来的一项修订，但我们未在 FTA 发布的文本中找到，因此在依赖之前，请向 FTA 确认现行措辞。"
+  },
+  "einvoicing": {
+    "status": "强制实施并分阶段推进，试点已开放",
+    "body": "阿联酋电子发票系统采用去中心化的五角模式，发票经由 Accredited Service Provider 传递。财政部自己的指南规定了时间表：自 2026 年 7 月 1 日起开展试点计划并允许自愿采用；收入达到 AED 5,000 万或以上的企业自 2027 年 1 月 1 日起实施；低于该门槛的企业自 2027 年 7 月 1 日起实施；政府实体自 2027 年 10 月 1 日起实施。财政部将委任 Accredited Service Provider 的第一个截止日期从 2026 年 7 月 31 日延长至 2026 年 10 月 30 日，2027 年 1 月的上线日期保持不变。因此，已发布的指南 PDF 与财政部的新闻稿在这一个日期上不一致，以较晚发布的新闻稿为准。",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "把事情做对",
+      "title": "第 59 条让人栽跟头的地方",
+      "body": "大多数发票模板都过不了逐行要求这一关。第 59(1)(h) 条要求为每项商品或服务列出单价、数量、税率和应付金额，这意味着当各行适用不同税务处理时，只在发票底部给出一个合并税额是不够的。第二是收货方的 TRN，只要收货方已注册就必须填写。第三是汇率：即使以美元开票，您仍须以迪拉姆显示税额，并注明所用汇率。",
+      "items": [
+        "逐行列出税率和税额，而不只是合计",
+        "收货方已注册时必须填写其 TRN",
+        "任何非 AED 发票都要注明汇率",
+        "适用时注明反向征税措辞"
+      ]
+    },
+    {
+      "eyebrow": "提前准备",
+      "title": "2027 年的日期实际要求您做什么",
+      "body": "这项义务不是去买一款带标志的软件，而是要能够在适用于您收入档次的日期，通过 Accredited Service Provider 开具结构化发票。请从您所在档次的实施日期倒推，而不是从试点日期倒推：委任服务提供商的截止日期比上线早好几个月，而大多数企业错过的正是委任，而不是上线。在此期间，您需要的数据与第 59 条已经要求的数据相同，这正是现在就改善发票质量、而不是在迁移期间才处理的好理由。",
+      "items": [
+        "清楚自己属于哪个收入档次",
+        "把服务提供商委任日期记入日程，而不只是上线日期",
+        "在截止日期之前（而不是期间）清理客户 TRN",
+        "从今天起保留逐行税务明细"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "阿联酋的增值税税率是多少？",
+      "a": "百分之五。Federal Decree-Law 8 of 2017 第 3 条对任何应税供应或进口征收 5% 的标准税率，自 2018 年 1 月 1 日起生效。部分供应适用零税率或免税，两者的区别很重要：零税率供应商仍可抵扣进项税，免税供应商则不能。"
+    },
+    {
+      "q": "阿联酋什么时候强制实行电子发票？",
+      "a": "取决于您的收入。根据财政部公布的指南，收入达到 AED 5,000 万或以上的企业自 2027 年 1 月 1 日起实施，低于该数额的企业自 2027 年 7 月 1 日起实施，政府实体自 2027 年 10 月 1 日起实施。试点和自愿采用已于 2026 年 7 月 1 日开放。在围绕任何日期做计划之前，请先查看财政部的页面，因为它已经修改过一个截止日期。"
+    },
+    {
+      "q": "在阿联酋什么时候可以开具简化税务发票？",
+      "a": "当收货方未注册增值税，或已注册且对价不超过 AED 10,000 时。简化发票仍须包含“税务发票”字样、您的名称、地址和 TRN、开具日期、所供应内容的描述，以及以迪拉姆计的总对价和税额。"
+    },
+    {
+      "q": "阿联酋发票上需要填写客户的 TRN 吗？",
+      "a": "需要，只要客户已注册增值税。在这种情况下，第 59(1)(c) 条要求填写收货方的名称、地址和税务注册号。缺少这些信息，您的客户可能难以抵扣进项税，最后通常会回头要求您重新开具发票。"
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "在阿联酋免费正确开票",
+  "ctaSub": "逐行计税，任意货币且汇率显示在单据上，并从同一条记录生成阿拉伯语和英语发票。",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT，第 3 条（汇编版，含修订）",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017，Executive Regulation，第 7、8 和 59 条",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1，以及财政部的修订新闻稿",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

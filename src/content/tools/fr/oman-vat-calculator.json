@@ -1,0 +1,38 @@
+{
+  "locale": "fr",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Calculateur de TVA et de taxes gratuit",
+  "metaTitle": "Calculateur de TVA Oman : ajouter ou retirer 5% de TVA",
+  "metaDescription": "Calculez la TVA de 5% d'Oman en ligne. Ajoutez la TVA à un montant HT ou retirez-la d'un TTC pour voir HT, TVA et TTC instantanément, sans inscription.",
+  "keywords": "calcul tva, calculateur tva oman, calcul tva en ligne, ajouter la tva, retirer la tva, calcul ht ttc, calculateur tva 5%, calcul tva inversé",
+  "heroEyebrow": "Gratuit · Sans inscription",
+  "heroTitle": "Calculateur de <em class=\"text-copper-400 not-italic\">TVA et de taxes</em> gratuit",
+  "heroSubtitle": "Calculez la TVA de 5% d'Oman en ligne. Ajoutez la TVA à un montant HT ou retirez-la d'un montant TTC pour voir instantanément le HT, la TVA et le TTC, sans inscription.",
+  "heroBullets": ["Tous les taux, toutes les devises", "Ajouter ou retirer la taxe", "Gratuit pour toujours, sans inscription"],
+  "howToSteps": [
+    { "name": "Saisissez le montant", "text": "Tapez le montant sur lequel vous voulez travailler et choisissez votre devise." },
+    { "name": "Définissez le taux de taxe", "text": "Utilisez le taux par défaut d'Oman de 5%, ou saisissez le taux en vigueur qui s'applique à votre transaction." },
+    { "name": "Choisissez ajouter ou retirer", "text": "Ajoutez la taxe à un montant HT, ou retirez-la d'un montant TTC pour retrouver le HT (TVA inversée)." },
+    { "name": "Lisez le résultat", "text": "Consultez instantanément le HT, la taxe et le TTC détaillés, prêts à copier dans une facture." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Ajouter ou retirer la taxe", "desc": "Calculez la taxe sur un montant HT, ou extrayez-la d'un montant TTC, en un clic." },
+    { "icon": "globe", "title": "Tous les taux, toutes les devises", "desc": "Oman à 5% par défaut, ou le taux qui vous concerne, en OMR, AED, SAR, USD, EUR et plus encore." },
+    { "icon": "bolt", "title": "Instantané et gratuit", "desc": "Sans inscription, sans limite. Obtenez le HT, la taxe et le TTC dès que vous tapez." }
+  ],
+  "sections": [
+    { "title": "Pourquoi utiliser le calculateur de TVA Paper & Pen ?", "body": "Que vous prépariez un devis, vérifiiez une facture ou remplissiez une déclaration, le HT, la taxe et le TTC doivent concorder à la dernière décimale. Ce calculateur gère tous les taux dans toutes les devises, fonctionne dans les deux sens (ajouter la taxe ou l'extraire d'un total) et est vraiment gratuit. Il s'ouvre au taux de 5% d'Oman et se configure entièrement pour d'autres juridictions." },
+    { "eyebrow": "Au-delà du calculateur", "title": "Laissez votre logiciel gérer la TVA", "body": "Calculer la taxe à la main sur chaque ligne est lent et source d'erreurs. Dans l'ERP Paper & Pen complet, la TVA s'applique automatiquement sur le montant HT après remise de chaque facture, est enregistrée dans votre comptabilité et regroupée dans des rapports prêts pour la déclaration : vous n'avez plus besoin de calculatrice.", "items": ["Taxe automatique sur chaque facture et chaque devis", "Taux de taxe par article et par document", "Rapports récapitulatifs de TVA prêts pour la déclaration"] }
+  ],
+  "faqs": [
+    { "q": "Quel taux utilise ce calculateur de TVA pour Oman ?", "a": "Le calculateur s'ouvre au taux de 5% d'Oman. Les règles fiscales peuvent changer : vérifiez le taux en vigueur auprès de la Oman Tax Authority avant de vous fier à un calcul. Vous pouvez saisir n'importe quel taux." },
+    { "q": "Comment retirer la TVA d'un total ?", "a": "Choisissez l'option retirer (inverser) et saisissez le montant TTC. Le calculateur détermine le montant HT et la part de taxe incluse dans le total." },
+    { "q": "Puis-je l'utiliser pour une taxe sur les ventes hors d'Oman ?", "a": "Oui. Définissez le taux applicable à votre transaction et choisissez n'importe quelle devise. Il fonctionne pour la TVA, la GST ou la taxe sur les ventes partout dans le monde." },
+    { "q": "Calcule-t-il la taxe sur un montant remisé ?", "a": "Saisissez le montant HT après remise et ajoutez-y la taxe. Pour une TVA calculée automatiquement après remise sur des factures complètes, créez un espace Paper & Pen gratuit qui s'en charge pour vous." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Arrêtez de calculer la TVA à la main",
+  "ctaSub": "Appliquez la taxe automatiquement sur chaque facture et obtenez des rapports de TVA prêts pour la déclaration avec un espace Paper & Pen gratuit."
+}

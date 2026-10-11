@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "trading",
+  "order": 1,
+  "title": "Ticaret ve Toptan Satış",
+  "metaTitle": "Ticaret ve Toptan Satış için ERP Yazılımı | Paper & Pen",
+  "metaDescription": "Tüccarlar, ithalatçılar ve toptancılar için ücretsiz faturalama, anlık stok, satın alma siparişleri ve çoklu para birimi. Daha hızlı teklif verin, satın.",
+  "keywords": "ticaret programı, toptan satış erp, distribütör faturalama, ithalat ihracat programı, satın alma siparişi programı, çoklu para birimi ticaret, tüccarlar için stok takibi",
+  "heroEyebrow": "Tüccarlar, ithalatçılar ve toptancılar için",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">Tek net bir defterle</em> alın, satın ve stoklayın",
+  "heroSubtitle": "Satın alma siparişinden müşteri faturasına kadar Paper & Pen mallarınızı, maliyetlerinizi ve nakdinizi senkronize tutar. Hızlı teklif verin, stoku tahminsiz hareket ettirin ve her anlaşmadaki marjınızı bilin.",
+  "heroBullets": ["Ücretsiz teklif ve faturalama", "Canlı stok ve ithal maliyeti", "Bir para biriminde alın, başka birinde satın"],
+  "features": [
+    { "icon": "cart", "title": "Tekliften faturaya", "desc": "Bir teklifi iki tıkla satış siparişine ve faturaya dönüştürün, yeniden yazmak yok." },
+    { "icon": "inventory", "title": "Anlık stok", "desc": "Her satış ve satın alma, stoku tüm depolarınızda anında hareket ettirir." },
+    { "icon": "truck", "title": "Satın alma siparişleri", "desc": "Tedarikçilere sipariş verin, malları teslim alın, stok ve maliyeti tek akışta güncelleyin." },
+    { "icon": "globe", "title": "Çoklu para birimi", "desc": "USD veya EUR ile alın, OMR, AED veya SAR ile satın; baştan sona doğru ondalıklarla." },
+    { "icon": "calc", "title": "Her anlaşmada marj", "desc": "Satır başına maliyeti, fiyatı ve kârı görün, asla taban fiyatınızın altında satmayın." },
+    { "icon": "refresh", "title": "Otomatik mutabakat", "desc": "Faturalar, ödemeler ve stok hareketleri defterlerinize otomatik işlenir." }
+  ],
+  "sections": [
+    { "eyebrow": "Hız anlaşma kazandırır", "title": "Bugün teklif verin, yarın teslim edin", "body": "Ticarette siparişi çoğu zaman ilk temiz teklif kazanır. Dakikalar içinde profesyonel bir teklif hazırlayın, WhatsApp veya e-postayla gönderin ve onaylananı hiçbir şeyi iki kez girmeden satış siparişine, irsaliyeye ve faturaya dönüştürün. Müşteriniz şık bir belge alır; siz temiz bir iz tutarsınız.", "items": ["Birkaç tıkla tekliften satış siparişine ve faturaya", "Yerleşik irsaliye ve paketleme", "WhatsApp veya e-postayla anında paylaşın"] },
+    { "eyebrow": "Gerçek maliyetinizi bilin", "title": "Gerçeği söyleyen stok ve marj", "body": "İthalatçılar ve toptancılar marjla ayakta kalır. Paper & Pen stokunuzu ortalama maliyet veya FIFO ile değerler ve siz teklif verirken satır başına kârı gösterir, böylece güvenle fiyatlandırırsınız. Yurt dışından bir para biriminde alın, yurt içinde başka bir para biriminde satın; defterler mutabık kalsın. Yerleşik OMR, AED ve SAR ile yapılandırılabilir KDV desteğiyle Umman'da geliştirildi ve USD, EUR veya belirlediğiniz her vergi oranıyla da aynı ölçüde rahattır.", "items": ["Doğru değer için ortalama maliyet veya FIFO", "Teklif verirken satır bazında marj", "Körfez KDV'si veya her vergi oranı, her para birimi"] }
+  ],
+  "faqs": [
+    { "q": "Bir para biriminde teklif verip başka bir para biriminde stok alabilir miyim?", "a": "Evet. USD, EUR, CNY veya herhangi bir para biriminde satın alın, OMR, AED, SAR veya müşterilerinizin kullandığı para biriminde satın. Ondalıklar ve toplamlar otomatik ayarlanır, defterler mutabık kalır." },
+    { "q": "Faturalama stokumu günceller mi?", "a": "Evet. Her fatura stoku azaltır, her satın alma siparişi girişi artırır; birden fazla depoda anında ve elle sayım olmadan." },
+    { "q": "Ürün başına kâr marjımı görebilir miyim?", "a": "Evet. Paper & Pen bir teklif veya fatura hazırlarken her satırda maliyeti, satış fiyatını ve marjı gösterir; böylece her anlaşmada taban fiyatınızı korursunuz." },
+    { "q": "Bir ticaret işletmesi için gerçekten ücretsiz mi?", "a": "Teklifler, faturalar ve irsaliyeler dahil Satış ve Faturalama sonsuza kadar ücretsizdir. Anlık stok ve ithal maliyetine ihtiyaç duyduğunuzda Stok modülünü ekleyin." },
+    { "q": "Körfez ülkeleri ve diğer pazarlar için KDV'yi destekliyor mu?", "a": "Evet. Yapılandırılabilir Körfez KDV'sini kutudan çıktığı gibi uygulayın veya her ülke için herhangi bir vergi oranı yapılandırın. Vergi her zaman indirim sonrası net tutar üzerinden hesaplanır." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Ticaretinizi tek temiz bir defterle yönetin",
+  "ctaSub": "Teklif ve faturalama ile ücretsiz başlayın, ticaretiniz büyüdükçe Stok ve Muhasebe ekleyin."
+}

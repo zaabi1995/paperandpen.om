@@ -1,0 +1,37 @@
+{
+  "locale": "fr",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Générateur de reçus gratuit",
+  "metaTitle": "Générateur de reçus gratuit · Paper & Pen",
+  "metaDescription": "Créez des reçus de paiement en ligne gratuitement. Indiquez le montant, la devise et le moyen de paiement, puis téléchargez un PDF. Sans inscription.",
+  "keywords": "reçu gratuit, générateur de reçu gratuit, créer un reçu en ligne, modèle de reçu de paiement, reçu pdf, reçu d'espèces, quittance de paiement",
+  "heroEyebrow": "Gratuit · Sans inscription",
+  "heroTitle": "Générateur de reçus gratuit",
+  "heroSubtitle": "Remettez à chaque client un reçu de paiement soigné en quelques secondes. Indiquez le montant, la devise et le moyen de paiement, puis téléchargez un PDF prêt à imprimer. Aucun compte nécessaire.",
+  "howToSteps": [
+    { "name": "Ajoutez vos informations", "text": "Saisissez le nom de votre société, le payeur, un numéro de reçu et la date." },
+    { "name": "Saisissez le paiement", "text": "Indiquez l'objet du paiement, le montant et le moyen utilisé (espèces, carte, virement)." },
+    { "name": "Choisissez la devise et la taxe", "text": "Choisissez n'importe quelle devise et, si besoin, affichez la part de TVA ou de taxe sur les ventes." },
+    { "name": "Téléchargez le PDF", "text": "Cliquez sur télécharger pour enregistrer un reçu prêt à imprimer, ou inscrivez-vous pour émettre automatiquement vos reçus sur vos factures." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Instantané et gratuit", "desc": "Sans inscription, sans filigrane, sans limite. Émettez autant de reçus que nécessaire." },
+    { "icon": "globe", "title": "Toutes les devises", "desc": "Émettez vos reçus en OMR, AED, SAR, USD, EUR, GBP et plus encore, avec le bon nombre de décimales." },
+    { "icon": "card", "title": "Tous les moyens de paiement", "desc": "Enregistrez un paiement en espèces, par carte, par virement bancaire ou en ligne, clairement indiqué sur le reçu." }
+  ],
+  "sections": [
+    { "title": "Pourquoi utiliser le générateur de reçus Paper & Pen ?", "body": "Un reçu est la preuve de paiement de votre client et votre trace qu'une facture a été réglée. Le nôtre est gratuit, fonctionne dans toutes les devises et produit un PDF soigné que vous pouvez remettre ou envoyer par e-mail immédiatement. Pas de tableur, pas d'inscription." },
+    { "eyebrow": "Au-delà du générateur", "title": "Des reçus liés à vos factures", "body": "Un reçu isolé suffit pour un paiement ponctuel, mais une entreprise en croissance a besoin de reçus liés aux factures et d'un grand livre à jour. Dans l'ERP Paper & Pen complet, enregistrer un paiement génère le reçu et met à jour en même temps le solde de la facture et votre comptabilité.", "items": ["Générer automatiquement un reçu quand une facture est payée", "Suivre les paiements complets, partiels et fractionnés", "Envoyer les reçus instantanément par WhatsApp ou e-mail"] }
+  ],
+  "faqs": [
+    { "q": "Quelle est la différence entre une facture et un reçu ?", "a": "Une facture demande un paiement avant qu'il ne soit effectué. Un reçu confirme ensuite que le paiement a bien été reçu. Vous pouvez créer les deux ici gratuitement." },
+    { "q": "Le générateur de reçus est-il vraiment gratuit ?", "a": "Oui. Il est entièrement gratuit, sans inscription, sans filigrane et sans limite sur le nombre de reçus créés." },
+    { "q": "Puis-je afficher la TVA ou la taxe sur un reçu ?", "a": "Oui. Définissez n'importe quel taux de taxe et le reçu affichera la part de taxe du montant payé là où vous en avez besoin." },
+    { "q": "Les reçus peuvent-ils être liés à mes factures ?", "a": "Téléchargez des reçus indépendants gratuitement, ou créez un espace Paper & Pen gratuit où chaque paiement enregistré sur une facture génère automatiquement un reçu lié." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Preuve de paiement, c'est réglé",
+  "ctaSub": "Générez vos reçus automatiquement, suivez chaque paiement et gardez votre grand livre à jour avec un espace Paper & Pen gratuit."
+}

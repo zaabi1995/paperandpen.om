@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "contracting",
+  "order": 4,
+  "title": "Müteahhitlik ve İnşaat",
+  "metaTitle": "Müteahhitler için Faturalama ve Hakediş · Paper & Pen",
+  "metaDescription": "Müteahhitler için ücretsiz teklif, hakediş faturaları, satın alma siparişleri, bordro ve proje maliyeti. Aşamaları faturalayın, maliyeti kontrol edin.",
+  "keywords": "müteahhit programı, inşaat faturalama, hakediş faturası, proje maliyet takibi, müteahhit erp, satın alma siparişi, şantiye bordrosu, teminat kesintisi",
+  "heroEyebrow": "Müteahhitler ve inşaatçılar için",
+  "heroTitle": "Aşamayı faturalayın, <em class=\"text-copper-400 not-italic\">iş maliyetini kontrol edin</em>",
+  "heroSubtitle": "Bir projeye teklif verin, aşama aşama faturalayın, malzeme ve işçiliği bütçeye göre takip edin ve peşinden koşmadan ödeme alın. Paper & Pen tahminlerinizi, maliyetlerinizi ve nakdinizi tek yerde toplar.",
+  "heroBullets": ["Ücretsiz tahmin ve teklif", "Hakediş ve aşama faturaları", "İş başına malzeme, işçilik ve marj"],
+  "features": [
+    { "icon": "quote", "title": "Ayrıntılı tahminler", "desc": "Malzeme ve işçilikle kalem kalem teklifler hazırlayın, ardından projeye dönüştürün." },
+    { "icon": "invoice", "title": "Hakediş faturalaması", "desc": "Aşamaya veya tamamlanma yüzdesine göre fatura kesin, teminat kesintisi düzgün yönetilsin." },
+    { "icon": "truck", "title": "Satın alma siparişleri", "desc": "Malzemeleri bir işe bağlı olarak sipariş edin ve maliyeti ait olduğu yere işleyin." },
+    { "icon": "hr", "title": "İşçilik ve bordro", "desc": "Bordroyu çalıştırın ve gerçek iş maliyeti için ücretleri doğru projeye dağıtın." },
+    { "icon": "calc", "title": "İş maliyeti", "desc": "Gerçekleşen malzeme ve işçilik maliyetini tahmininizle canlı olarak karşılaştırın." },
+    { "icon": "bell", "title": "Ödeme hatırlatmaları", "desc": "Otomatik, nazik hatırlatmalar vadesi geçmiş hakedişleri sizin yerinize takip eder." }
+  ],
+  "sections": [
+    { "eyebrow": "İhaleden faturaya", "title": "İşin kendisine dönüşen tahminler", "body": "İşi net, kalem kalem bir tahminle kazanın, ardından onaylanan sürümü tek bir satırı yeniden yazmadan doğrudan projeye dönüştürün. İş tamamlandıkça aşamaya veya yüzdeye göre kademeli faturalayın ve kesin hesabın tutması için teminat kesintisini yönetin. Müşteriniz profesyonel bir hakediş belgesi alır; siz ise ihaleden son ödemeye kadar tek temiz bir iz tutarsınız.", "items": ["Malzeme ve işçilikle kalem kalem tahminler", "Aşama veya tamamlanma yüzdesine göre faturalar", "Kesin hesaba kadar takip edilen teminat kesintisi"] },
+    { "eyebrow": "İşin para kazandırdığını bilin", "title": "İş iş maliyet ve marj", "body": "Yoğun bir şantiye zarar eden bir işi gizleyebilir. Paper & Pen her satın alma siparişini, tedarikçi faturasını ve bordro çalıştırmasını projeye bağlar, ardından iş ilerledikçe gerçekleşen maliyeti tahmininizle karşılaştırarak gösterir. Marjı iş bittikten sonra değil, bitmeden görürsünüz. Yerleşik OMR, AED ve SAR ile %5 KDV desteğiyle Umman'da geliştirildi; USD, EUR veya her pazar ve vergi oranı için hazırdır.", "items": ["Proje başına malzeme ve işçilik maliyeti", "Canlı gerçekleşen ve tahmin marjı karşılaştırması", "Her para birimi, her vergi oranı, KDV'ye hazır"] }
+  ],
+  "faqs": [
+    { "q": "Bir projeyi aşamalar halinde faturalayabilir miyim?", "a": "Evet. Teminat kesintisi yönetilerek aşamaya veya tamamlanma yüzdesine göre fatura kesin; böylece her hakediş temiz olur ve kesin hesap mutabık kalır." },
+    { "q": "Maliyeti tahminime göre takip edebilir miyim?", "a": "Evet. Satın alma siparişleri, tedarikçi faturaları ve bordro işe bağlanır ve Paper & Pen iş ilerledikçe gerçekleşen maliyeti tahmininizle karşılaştırarak gösterir." },
+    { "q": "Teminat kesintisini yönetiyor mu?", "a": "Evet. Teminat kesintisi hakediş faturaları boyunca takip edilir ve kesin hesaba taşınır; böylece teslimde hiçbir şey gözden kaçmaz." },
+    { "q": "Şantiye personeli için bordro çalıştırabilir miyim?", "a": "Evet. İK ve Bordro modülü ücretleri öder ve doğru iş maliyeti için işçilik maliyetini ilgili projeye dağıtabilir." },
+    { "q": "Müteahhitler için teklif vermek ücretsiz mi?", "a": "Tahminler ve hakediş faturaları dahil Satış ve Faturalama sonsuza kadar ücretsizdir. Tam proje maliyet kontrolü için Stok, İK/Bordro ve Muhasebe ekleyin." }
+  ],
+  "related": ["/invoicing/estimates", "/invoicing/purchase-orders", "/features/hr-payroll", "/invoicing/payment-reminders", "/pricing"],
+  "ctaTitle": "İnşa edin, faturalayın, ödemenizi alın",
+  "ctaSub": "Tahminler ve hakediş faturalarıyla ücretsiz başlayın, ardından tam iş maliyeti için Bordro ve Muhasebe ekleyin."
+}

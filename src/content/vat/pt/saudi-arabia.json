@@ -1,0 +1,151 @@
+{
+  "locale": "pt",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Arábia Saudita",
+  "title": "IVA na Arábia Saudita",
+  "metaTitle": "IVA na Arábia Saudita: alíquota de 15% e Fatoora · Paper & Pen",
+  "metaDescription": "A alíquota de IVA de 15% da Arábia Saudita, o limite de SAR 375,000, o conteúdo da fatura pelo Artigo 53 e as fases da Fatoora da ZATCA, com fontes.",
+  "keywords": "IVA Arábia Saudita, alíquota de IVA saudita 15%, ZATCA Fatoora, fatura eletrônica Arábia Saudita fase 2, requisitos da fatura fiscal saudita, ZATCA",
+  "heroEyebrow": "Arábia Saudita",
+  "heroTitle": "Faturamento sob as regras da <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "A alíquota de 15%, os limites de registro, o que o Artigo 53 exige em uma fatura fiscal e o que a Fatoora acrescenta a isso quando você chega à fase de integração.",
+  "heroBullets": [
+    "Alíquota padrão de 15%",
+    "SAR 375,000 para registro",
+    "Fatoora em vigor desde 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Alíquota padrão de IVA",
+      "value": "15%",
+      "note": "A Arábia Saudita é a exceção no Golfo: os outros países que aplicam o imposto estão em 5% ou 10%. Quando vale a alíquota padrão, os fornecimentos tributáveis pagam 15%.",
+      "source": 1
+    },
+    {
+      "label": "Limite de registro obrigatório",
+      "value": "SAR 375,000",
+      "note": "Fornecimentos tributáveis acima deste valor em um período de 12 meses exigem registro.",
+      "source": 1
+    },
+    {
+      "label": "Limite de registro voluntário",
+      "value": "SAR 187,500",
+      "note": "Com base nos fornecimentos tributáveis OU nas despesas tributáveis dos últimos 12 meses.",
+      "source": 1
+    },
+    {
+      "label": "Empresas não residentes",
+      "value": "Sem limite",
+      "note": "Um não residente obrigado a pagar IVA no Reino deve se registrar, seja qual for o valor dos seus fornecimentos.",
+      "source": 1
+    },
+    {
+      "label": "Idioma da fatura",
+      "value": "Árabe",
+      "note": "O conteúdo obrigatório deve aparecer em árabe. Outro idioma pode aparecer junto, como tradução.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "O Artigo 53(5) do Regulamento de Implementação do IVA lista o que uma fatura fiscal deve conter e exige que ela esteja em árabe, além de qualquer outro idioma mostrado como tradução.",
+    "items": [
+      "A data de emissão",
+      "Um número sequencial que identifique a fatura de forma única",
+      "O Número de Identificação Fiscal do fornecedor",
+      "Quando o cliente deve recolher o próprio imposto, o número fiscal do cliente e uma declaração de que ele deve recolher o imposto",
+      "Nome e endereço do fornecedor e do cliente",
+      "Quantidade e natureza dos bens, ou escopo e natureza dos serviços",
+      "A data do fornecimento, quando for diferente da data de emissão",
+      "Valor tributável por alíquota ou isenção, preço unitário sem IVA e qualquer desconto que ainda não esteja no preço unitário",
+      "A alíquota aplicada",
+      "O valor do imposto devido, mostrado em riais sauditas",
+      "Quando o imposto não é cobrado pela alíquota básica, um texto explicando o tratamento",
+      "Quando se aplica o método da margem de lucro para bens usados elegíveis, uma referência a esse fato"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Obrigatória e em vigor, implantada em ondas",
+    "body": "A Arábia Saudita tem o regime de fatura eletrônica mais avançado do Golfo, e é nele que os outros se inspiram. A Fase 1, de Geração, vale para todos os contribuintes residentes desde 4 de dezembro de 2021: as faturas devem ser emitidas eletronicamente em formato estruturado. A Fase 2, de Integração, começou em 1º de janeiro de 2023 e está sendo implantada em ondas por porte do contribuinte, com a ZATCA avisando cada grupo pelo menos seis meses antes da sua data de integração. Na Fase 2, uma fatura eletrônica leva mais do que o conteúdo do Artigo 53: ela também precisa de um UUID, do hash da fatura anterior, de um QR code, de um carimbo criptográfico e de um contador à prova de adulteração. A onda em que você se encaixa é anunciada pela ZATCA, então consulte as páginas de fatura eletrônica dela em vez de presumir.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Fazendo certo",
+      "title": "A Fatoora muda o que uma fatura É",
+      "body": "No mundo do papel ou do PDF, a fatura é um documento que você produz e envia. Na Fase 2, ela é um registro em uma cadeia: cada fatura faz referência ao hash da anterior, leva um carimbo criptográfico e incrementa um contador que não pode ser zerado. Esse desenho é proposital e torna impossível um hábito comum. Você não consegue apagar, renumerar ou reemitir uma fatura discretamente depois do fato, porque a cadeia se romperia e a ruptura é detectável. Empresas que corrigiam erros editando o histórico precisam passar a usar notas de crédito, que é o que as regras contábeis do resto do mundo sempre quiseram, afinal.",
+      "items": [
+        "Cada fatura é ligada à anterior por hash",
+        "O contador não pode ser zerado nem voltar atrás",
+        "Correções são feitas por notas de crédito e de débito",
+        "O QR code faz parte da fatura, não é enfeite"
+      ]
+    },
+    {
+      "eyebrow": "Fazendo certo",
+      "title": "A alíquota de 15% tem efeitos em cadeia",
+      "body": "Uma alíquota de quinze por cento torna a distinção entre alíquota zero e isenção financeiramente séria de um jeito que uma alíquota de cinco por cento não torna. Se seus fornecimentos são isentos, você não pode recuperar o imposto de entrada que pagou, então quinze por cento do seu custo de entrada vira uma despesa real e irrecuperável que precisa entrar no preço. Se têm alíquota zero, você não cobra nada, mas ainda recupera. Errar essa classificação é o erro isolado mais caro possível no IVA saudita, e é uma questão de classificação, não de alíquota.",
+      "items": [
+        "Isento significa sem recuperação na entrada, então o imposto é custo seu",
+        "Alíquota zero significa nada cobrado, mas recuperação total",
+        "Classifique pelo tipo de fornecimento, não pelo cliente",
+        "Decida a classificação antes de formar o preço"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Qual é a alíquota de IVA na Arábia Saudita?",
+      "a": "Quinze por cento é a alíquota padrão. É a mais alta do Golfo, e um erro comum é presumir uma alíquota única no GCC: Omã e os EAU estão em 5%, o Bahrein em 10%, e o Catar e o Kuwait nem implementaram o IVA. Se você vende na região, não pode aplicar uma só alíquota a tudo."
+    },
+    {
+      "q": "O que é a Fatoora?",
+      "a": "A Fatoora é o programa de fatura eletrônica da ZATCA. A Fase 1, de geração, vale para todos os contribuintes residentes desde 4 de dezembro de 2021. A Fase 2, de integração com os sistemas da ZATCA, começou em 1º de janeiro de 2023 e é implantada em ondas por porte do contribuinte, com pelo menos seis meses de aviso para cada onda."
+    },
+    {
+      "q": "A fatura fiscal saudita precisa estar em árabe?",
+      "a": "Sim. O Artigo 53(5) exige o conteúdo da fatura em árabe e permite que outro idioma apareça junto, como tradução. Uma fatura bilíngue está em conformidade; uma só em inglês, não."
+    },
+    {
+      "q": "Que campos extras a Fase 2 exige?",
+      "a": "Além do conteúdo do Artigo 53, uma fatura eletrônica na fase de integração leva um UUID, o hash da fatura anterior, um QR code, um carimbo criptográfico e um contador à prova de adulteração. Eles são gerados por um software em conformidade, não digitados por uma pessoa."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Fature corretamente na Arábia Saudita, de graça",
+  "ctaSub": "Defina a alíquota você mesmo, mantenha árabe e inglês em um só documento e corrija erros com notas de crédito em vez de edições.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, terceira versão, seções 3.2 e 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, Artigo 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Resolução de implementação da fatura eletrônica, Governor's Decision 62738, e as páginas de fatura eletrônica da ZATCA",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

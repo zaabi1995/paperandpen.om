@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Üretim",
+  "metaTitle": "Üretim ve İmalat Yazılımı · Paper & Pen",
+  "metaDescription": "Ürün ağaçları, iş emirleri ve gerçek maliyetle üretimi planlayın. Hammaddeyi tüketin, mamul üretin, gerçek kâr marjınızı bilin. Dünya genelinde çalışır.",
+  "keywords": "üretim yazılımı, üretim yönetimi, ürün ağacı, bom, iş emri, üretim maliyeti, mamul stok, imalat programı",
+  "heroEyebrow": "Eklenti modül",
+  "heroTitle": "Siparişe göre üretin, <em class=\"text-copper-400 not-italic\">maliyeti kuruşu kuruşuna</em> bilin",
+  "heroSubtitle": "Ürün ağaçları ve iş emirleriyle hammaddeyi mamule dönüştürün; Paper & Pen her bileşenin maliyetini takip etsin, gerçek kâr marjınızı her zaman bilin.",
+  "heroBullets": ["Ürün ağaçları ve iş emirleri", "Otomatik stok tüketimi", "Gerçek üretim maliyeti"],
+  "features": [
+    { "icon": "manufacturing", "title": "Ürün ağaçları", "desc": "Her ürüne neyin girdiğini miktarlar ve alt montajlarla tanımlayın." },
+    { "icon": "doc", "title": "İş emirleri", "desc": "Hammaddeden mamul stoka kadar üretim partilerini planlayın ve takip edin." },
+    { "icon": "inventory", "title": "Otomatik stok hareketi", "desc": "Siz ürettikçe hammaddeler tüketilir ve mamuller eklenir." },
+    { "icon": "calc", "title": "Üretim maliyeti", "desc": "Malzeme ve genel gider maliyetini doğru bir mamul değerinde toplayın." },
+    { "icon": "chart", "title": "Kâr marjı görünürlüğü", "desc": "Üretim maliyetini satış fiyatıyla karşılaştırın, ürün başına gerçek marjı görün." },
+    { "icon": "refresh", "title": "Uçtan uca bağlantılı", "desc": "Satın alma, stok ve satışı tek kesintisiz akışta birleştirin." }
+  ],
+  "sections": [
+    { "eyebrow": "Güvenle planlayın", "title": "Reçeteden mamule", "body": "Ürün ağacını bir kez tanımlayın, Paper & Pen her üretimin tam olarak neyi tükettiğini bilsin. Bir iş emri açın; hammadde stoku ayrılır ve tüketilir, mamuller stoka eklenir, tüm maliyet hesabı sizin için yapılır.", "items": ["Yeniden kullanılabilir ürün ağaçları", "Stok ayırmalı iş emirleri", "Otomatik tüketim ve mamul girişi"] },
+    { "eyebrow": "Gerçek marjınızı bilin", "title": "Doğruyu söyleyen maliyetlendirme", "body": "Maliyetinizi tahmin etmek, kârınızı tahmin etmektir. Paper & Pen malzeme ve genel giderleri gerçek bir mamul maliyetinde toplar, defterlerinize işler ve her satıştaki marjı gösterir. Her para biriminde çalışır, böylece sınırların ötesinden tedarik edip satabilirsiniz.", "items": ["Malzeme artı genel gider maliyeti", "Muhasebeye otomatik işlenir", "Ürün ve sipariş başına marj"] }
+  ],
+  "faqs": [
+    { "q": "Üretim ücretsiz mi?", "a": "Üretim isteğe bağlı ücretli bir eklentidir. Çekirdek Satış ve Faturalama modülü sonsuza kadar ücretsizdir; mal ürettiğinizde Üretim'i eklersiniz." },
+    { "q": "Ürün ağaçları tanımlayabilir miyim?", "a": "Evet. Alt montajlar dahil her ürün için bir BOM oluşturun ve tüm üretim partilerinde yeniden kullanın." },
+    { "q": "Stoku otomatik tüketiyor mu?", "a": "Evet. Bir iş emrini işlediğinizde hammaddeler tüketilir ve mamuller stoka otomatik eklenir." },
+    { "q": "Üretim maliyeti nasıl hesaplanıyor?", "a": "Malzeme ve genel gider maliyetleri mamul değerinde toplanır ve muhasebeye işlenir, böylece marjlarınız doğru olur." },
+    { "q": "Her para biriminde çalışıyor mu?", "a": "Evet. Malzemeleri her para biriminde satın alın, mamulleri her para biriminde satın; maliyet ve muhasebe senkronize kalır." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Her üretimin maliyetini doğru hesaplayın",
+  "ctaSub": "Faturalama ile ücretsiz başlayın, üretimi planlamak ve gerçek marjınızı bilmek için Üretim'i ekleyin."
+}

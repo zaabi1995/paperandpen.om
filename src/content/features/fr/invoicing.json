@@ -1,0 +1,35 @@
+{
+  "locale": "fr",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Facturation",
+  "metaTitle": "Fonctionnalités de gestion des factures | Paper & Pen ERP",
+  "metaDescription": "Suivi des factures, paiement en ligne, relances, taxes configurables, cinq langues et facturation multidevise dans Paper & Pen ERP.",
+  "keywords": "logiciel de facturation, logiciel de facturation gratuit, facture en ligne, envoyer une facture, paiement en ligne, facture avec TVA, facturation récurrente, relance de paiement",
+  "heroEyebrow": "Gratuit pour toujours",
+  "heroTitle": "Une facturation qui vous fait <em class=\"text-copper-400 not-italic\">payer plus vite</em>",
+  "heroSubtitle": "Créez une facture soignée en moins d'une minute, envoyez-la par e-mail ou WhatsApp et laissez votre client payer en ligne. Pour toutes les devises et tous les taux de taxe, utilisé dans le monde entier.",
+  "heroBullets": ["Ventes et Facturation gratuit pour toujours", "Toutes devises, tous taux de taxe", "Lien de paiement en ligne sur chaque facture"],
+  "features": [
+    { "icon": "bolt", "title": "Une facture en quelques secondes", "desc": "Choisissez un client, ajoutez des articles, envoyez. Totaux et taxes se calculent pendant la saisie." },
+    { "icon": "globe", "title": "Toutes les devises", "desc": "Facturez en OMR, AED, SAR, USD, EUR, GBP ou toute autre devise, avec les bonnes décimales." },
+    { "icon": "card", "title": "Paiement en ligne", "desc": "Chaque facture porte un lien de paiement sécurisé : vos clients règlent par carte en un geste." },
+    { "icon": "bell", "title": "Relances automatiques", "desc": "Des relances courtoises et planifiées suivent les factures en retard à votre place." },
+    { "icon": "refresh", "title": "Factures récurrentes", "desc": "Facturez forfaits et abonnements en pilote automatique, chaque semaine ou chaque mois." },
+    { "icon": "calc", "title": "TVA et taxes prêtes", "desc": "Appliquez n'importe quel taux de TVA ou de taxe sur les ventes, calculé sur le net après remise." }
+  ],
+  "sections": [
+    { "eyebrow": "Pensé pour le monde entier", "title": "Un seul outil de facturation pour tous les marchés", "body": "Que vous facturiez en dollars depuis New York ou en rials depuis Mascate, Paper & Pen gère pour vous la devise, les décimales et les règles fiscales. Passez l'interface en anglais, arabe, hindi, bengali ou ourdou pour que toute votre équipe travaille dans sa propre langue.", "items": ["Multidevise avec mise en forme automatique", "Taxes configurables pour tous les pays", "Factures en arabe, entièrement de droite à gauche"] },
+    { "eyebrow": "Du devis à l'encaissement", "title": "La facturation au cœur d'un ERP complet", "body": "Vos factures ne vivent pas en vase clos. Transformez un devis gagné en facture en un clic, enregistrez le paiement et regardez-le passer automatiquement en comptabilité. Quand vous grandissez, les stocks, la comptabilité et la paie vous attendent déjà dans le même espace.", "items": ["Devis transformé en facture en un clic", "Paiements rapprochés dans votre grand livre", "Jamais de double saisie"] }
+  ],
+  "faqs": [
+    { "q": "La facturation est-elle vraiment gratuite ?", "a": "Oui. Ventes et Facturation est gratuit pour toujours, sans limite de factures ni de clients. Vous ne payez que si vous ajoutez des modules optionnels comme les Stocks ou la Paie." },
+    { "q": "Mes clients peuvent-ils payer la facture en ligne ?", "a": "Oui. Chaque facture peut inclure un lien de paiement en ligne sécurisé, via Paymob et d'autres passerelles : vos clients paient par carte et le paiement est rapproché automatiquement." },
+    { "q": "La TVA et les autres taxes sont-elles prises en charge ?", "a": "Oui. Définissez n'importe quel taux, y compris une TVA configurable pour les pays du Golfe, ou celui qui s'applique dans votre pays. La taxe est calculée sur le montant net après remise." },
+    { "q": "Puis-je envoyer des factures en arabe ?", "a": "Oui. Toute l'interface et le PDF de la facture peuvent être en arabe, entièrement de droite à gauche, aux côtés de l'anglais, du hindi, du bengali et de l'ourdou." },
+    { "q": "Puis-je automatiser la facturation récurrente ?", "a": "Oui. Créez une facture récurrente pour vos forfaits ou abonnements et Paper & Pen l'émet et l'envoie selon le calendrier prévu." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Envoyez votre première facture gratuitement",
+  "ctaSub": "Créez un espace gratuit et facturez votre premier client en quelques minutes. Sans carte bancaire, gratuit pour toujours."
+}

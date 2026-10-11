@@ -1,0 +1,35 @@
+{
+  "locale": "es",
+  "slug": "reports",
+  "order": 8,
+  "title": "Informes",
+  "metaTitle": "Informes y análisis para empresas · Paper & Pen",
+  "metaDescription": "Paneles e informes en tiempo real de ventas, caja, beneficio, impuestos y stock. Llega al origen y exporta a Excel o PDF, en cualquier moneda.",
+  "keywords": "informes de empresa, panel de análisis, informe de ventas, informe de pérdidas y ganancias, informe de impuestos, informes financieros, exportar a excel",
+  "heroEyebrow": "Módulo complementario",
+  "heroTitle": "Decisiones respaldadas por <em class=\"text-copper-400 not-italic\">cifras al día</em>",
+  "heroSubtitle": "Cada venta, pago y movimiento se resume en paneles e informes claros, en tiempo real. Ve qué se vende, quién te debe y dónde está tu beneficio, y expórtalo a donde quieras.",
+  "heroBullets": ["Paneles en tiempo real", "Llega al documento de origen", "Exporta a Excel o PDF"],
+  "features": [
+    { "icon": "reports", "title": "Análisis de ventas", "desc": "Ve los productos más vendidos, los mejores clientes y las tendencias de cualquier periodo." },
+    { "icon": "chart", "title": "Informes financieros", "desc": "Pérdidas y ganancias, balance, flujo de caja y antigüedad de saldos de clientes." },
+    { "icon": "calc", "title": "Informes de impuestos", "desc": "Resúmenes de impuesto soportado y repercutido listos para tu declaración de IVA." },
+    { "icon": "inventory", "title": "Informes de stock", "desc": "Valoración, movimientos y stock bajo en todos los almacenes." },
+    { "icon": "doc", "title": "Llega al origen", "desc": "Haz clic en cualquier cifra para rastrearla hasta el documento exacto que la origina." },
+    { "icon": "refresh", "title": "Siempre al día", "desc": "Los informes se actualizan en vivo con cada transacción, sin procesos nocturnos." }
+  ],
+  "sections": [
+    { "eyebrow": "Claridad de un vistazo", "title": "Un panel para todo el negocio", "body": "Abre Paper & Pen y ve las cifras que importan: el dinero en el banco, quién te debe, qué se vende y tu beneficio de este mes. Como todo se registra en tiempo real, el panel es la realidad, no una foto de la semana pasada.", "items": ["Caja, deudores y beneficio a primera vista", "Filtra por periodo, cliente o producto", "En vivo, nunca desfasado"] },
+    { "eyebrow": "Comparte y profundiza", "title": "Informes en los que confían tu contable y tu consejo", "body": "Baja desde cualquier informe directamente al documento de origen y exporta a Excel o PDF para tu contable, tu banco o tu consejo. Genera informes en cualquier moneda y cambia la interfaz a árabe, inglés, hindi, bengalí o urdu para que todos lean las mismas cifras en su idioma.", "items": ["Detalle hasta cada transacción", "Exporta a Excel y PDF", "Multimoneda y multilingüe"] }
+  ],
+  "faqs": [
+    { "q": "¿Los informes son gratis?", "a": "Informes es un complemento de pago opcional. El núcleo gratis para siempre incluye paneles de facturación, y el conjunto completo de informes está disponible cuando necesites un análisis más profundo." },
+    { "q": "¿Los informes son en tiempo real?", "a": "Sí. Cada transacción se registra al momento, así que los paneles y los informes reflejan siempre el estado actual de tu negocio." },
+    { "q": "¿Puedo exportar los informes?", "a": "Sí. Exporta a Excel o PDF para compartirlos con tu contable, tu banco o tu consejo." },
+    { "q": "¿Puedo rastrear una cifra hasta su origen?", "a": "Sí. Haz clic en cualquier cifra para bajar hasta la factura, el pago o el asiento contable exacto que hay detrás." },
+    { "q": "¿Los informes admiten varias monedas?", "a": "Sí. Genera informes en cualquier moneda y usa la interfaz en cinco idiomas." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Ve tu negocio con claridad",
+  "ctaSub": "Empieza gratis con la facturación y añade Informes para tener paneles en vivo y análisis listos para exportar."
+}

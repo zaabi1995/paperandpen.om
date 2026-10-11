@@ -1,0 +1,151 @@
+{
+  "locale": "tr",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Suudi Arabistan",
+  "title": "Suudi Arabistan'da KDV",
+  "metaTitle": "Suudi Arabistan'da KDV: %15 Oran ve Fatoora · Paper & Pen",
+  "metaDescription": "Suudi Arabistan'ın %15 KDV oranı, 375,000 SAR eşiği, 53. madde fatura içeriği ve ZATCA'nın Fatoora e-fatura aşamaları; kaynaklarıyla.",
+  "keywords": "suudi arabistan kdv, suudi arabistan kdv oranı yüzde 15, zatca fatoora, suudi arabistan e-fatura 2. aşama, suudi arabistan vergi faturası şartları, zatca",
+  "heroEyebrow": "Suudi Arabistan",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">ZATCA</em> kurallarına göre faturalama",
+  "heroSubtitle": "%15 oran, kayıt eşikleri, 53. maddenin bir vergi faturasında istedikleri ve entegrasyon aşamasına girdiğinizde Fatoora'nın bunun üzerine ekledikleri.",
+  "heroBullets": [
+    "%15 standart oran",
+    "Kayıt için 375,000 SAR",
+    "Fatoora 2021'den beri yürürlükte"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Standart KDV oranı",
+      "value": "%15",
+      "note": "Suudi Arabistan Körfez'de istisnadır: KDV uygulayan diğer ülkeler %5 veya %10'dadır. Standart oranın uygulandığı varsayıldığında vergiye tabi teslimler %15'ten vergilendirilir.",
+      "source": 1
+    },
+    {
+      "label": "Zorunlu kayıt eşiği",
+      "value": "375,000 SAR",
+      "note": "12 aylık bir dönemde bu rakamı aşan vergiye tabi teslimler kayıt zorunluluğu doğurur.",
+      "source": 1
+    },
+    {
+      "label": "İsteğe bağlı kayıt eşiği",
+      "value": "187,500 SAR",
+      "note": "Son 12 aydaki vergiye tabi teslimlere VEYA vergiye tabi giderlere göre belirlenir.",
+      "source": 1
+    },
+    {
+      "label": "Mukim olmayan işletmeler",
+      "value": "Eşik yok",
+      "note": "Krallıkta KDV ödemesi gereken mukim olmayan bir işletme, teslimlerinin değerinden bağımsız olarak kayıt olmalıdır.",
+      "source": 1
+    },
+    {
+      "label": "Fatura dili",
+      "value": "Arapça",
+      "note": "Zorunlu içerik Arapça olarak yer almalıdır. Ek olarak çeviri şeklinde başka bir dil gösterilebilir.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "KDV Uygulama Yönetmeliği'nin 53(5). maddesi bir vergi faturasının neleri içermesi gerektiğini listeler ve çeviri olarak gösterilen herhangi bir dile ek olarak Arapça olmasını şart koşar.",
+    "items": [
+      "Düzenleme tarihi",
+      "Faturayı benzersiz şekilde tanımlayan sıralı bir numara",
+      "Satıcının Vergi Kimlik Numarası",
+      "Alıcının vergiyi kendisinin beyan etmesi gerekiyorsa, alıcının vergi numarası ve vergiyi kendisinin beyan etmesi gerektiğine dair bir ifade",
+      "Hem satıcının hem de alıcının adı ve adresi",
+      "Malların miktarı ve niteliği veya hizmetlerin kapsamı ve niteliği",
+      "Düzenleme tarihinden farklıysa teslim tarihi",
+      "Oran veya muafiyet bazında vergiye tabi tutar, KDV hariç birim fiyat ve birim fiyata henüz dahil edilmemiş iskontolar",
+      "Uygulanan vergi oranı",
+      "Suudi riyali cinsinden gösterilen ödenecek vergi tutarı",
+      "Vergi temel orandan uygulanmıyorsa, uygulamayı açıklayan bir açıklama",
+      "Uygun ikinci el mallar için kâr marjı yöntemi uygulanıyorsa, bu duruma bir atıf"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Zorunlu ve yürürlükte, dalgalar halinde yaygınlaşıyor",
+    "body": "Suudi Arabistan, Körfez'in en gelişmiş e-fatura sistemidir ve diğerlerinin örnek aldığı sistemdir. 1. Aşama olan Oluşturma Aşaması, 4 Aralık 2021'den beri tüm mukim vergi mükelleflerine uygulanmaktadır: faturalar yapılandırılmış bir formatta elektronik olarak düzenlenmelidir. 2. Aşama olan Entegrasyon Aşaması 1 Ocak 2023'te başladı ve mükellef büyüklüğüne göre dalgalar halinde yaygınlaştırılıyor; ZATCA her grubu entegrasyon tarihinden en az altı ay önce bilgilendiriyor. 2. Aşamada bir elektronik fatura, 53. madde içeriğinden fazlasını taşır: ayrıca bir UUID, önceki faturanın hash değeri, bir QR kod, bir kriptografik damga ve değiştirilemez bir sayaç gerekir. Hangi dalgaya girdiğinizi ZATCA duyurur; bu nedenle varsaymak yerine e-fatura sayfalarını kontrol edin.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Doğru yapmak",
+      "title": "Fatoora faturanın NE olduğunu değiştiriyor",
+      "body": "Kâğıt veya PDF dünyasında fatura, ürettiğiniz ve gönderdiğiniz bir belgedir. 2. Aşamada ise bir zincirdeki kayıttır: her fatura kendinden öncekinin hash değerine atıf yapar, bir kriptografik damga taşır ve sıfırlanamayan bir sayacı artırır. Bu bilinçli bir tasarımdır ve yaygın bir alışkanlığı imkânsız kılar. Bir faturayı sonradan sessizce silemez, yeniden numaralandıramaz veya yeniden düzenleyemezsiniz; çünkü zincir kopar ve kopukluk tespit edilebilir. Hataları geçmişi düzenleyerek düzeltmeye alışkın işletmeler, dünyanın geri kalanındaki muhasebe kurallarının zaten her zaman istediği şeye, yani alacak dekontlarına geçmek zorundadır.",
+      "items": [
+        "Her fatura bir öncekine hash ile bağlıdır",
+        "Sayaç sıfırlanamaz veya geri alınamaz",
+        "Düzeltmeler alacak ve borç dekontlarıyla yapılır",
+        "QR kod süs değil, faturanın bir parçasıdır"
+      ]
+    },
+    {
+      "eyebrow": "Doğru yapmak",
+      "title": "%15 oranın zincirleme etkileri var",
+      "body": "Yüzde on beşlik bir oran, sıfır oranlı ile muaf teslim arasındaki ayrımı yüzde beşlik bir oranın yapmadığı ölçüde mali açıdan ciddi hale getirir. Teslimleriniz muafsa ödediğiniz indirilecek KDV'yi geri alamazsınız; bu durumda girdi maliyetinizin yüzde on beşi fiyata yansıtılması gereken gerçek ve geri alınamaz bir gidere dönüşür. Sıfır oranlıysa hiçbir şey tahsil etmezsiniz ama yine de geri alırsınız. Bu sınıflandırmayı yanlış yapmak, Suudi KDV'sinde yapılabilecek en pahalı tek hatadır ve bu bir oran sorusu değil, sınıflandırma sorusudur.",
+      "items": [
+        "Muaf, indirilecek KDV'nin geri alınmaması demektir; vergi sizin maliyetinizdir",
+        "Sıfır oranlı, tahsilat yok ama tam geri alım demektir",
+        "Müşteriye göre değil, teslim türüne göre sınıflandırın",
+        "Fiyatlandırmadan önce sınıflandırma kararını verin"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Suudi Arabistan'da KDV oranı nedir?",
+      "a": "Standart oran yüzde on beştir. Bu Körfez'deki en yüksek orandır ve yaygın bir hata tek bir Körfez oranı olduğunu varsaymaktır: Umman ve BAE %5'te, Bahreyn %10'dadır, Katar ve Kuveyt ise KDV'yi hiç uygulamamıştır. Bölge genelinde satış yapıyorsanız her şeye tek bir oran uygulayamazsınız."
+    },
+    {
+      "q": "Fatoora nedir?",
+      "a": "Fatoora, ZATCA'nın e-fatura programıdır. 1. Aşama olan oluşturma, 4 Aralık 2021'den beri tüm mukim vergi mükelleflerine uygulanmaktadır. 2. Aşama olan ZATCA sistemleriyle entegrasyon 1 Ocak 2023'te başladı ve mükellef büyüklüğüne göre, her dalgaya en az altı ay önceden bildirim yapılarak dalgalar halinde yaygınlaştırılıyor."
+    },
+    {
+      "q": "Suudi Arabistan'da vergi faturası Arapça olmak zorunda mı?",
+      "a": "Evet. 53(5). madde fatura içeriğinin Arapça olmasını şart koşar ve ek olarak çeviri şeklinde başka bir dilin gösterilmesine izin verir. İki dilli bir fatura uyumludur; yalnızca İngilizce bir fatura değildir."
+    },
+    {
+      "q": "2. Aşama hangi ek alanları gerektiriyor?",
+      "a": "53. madde içeriğinin ötesinde, entegrasyon aşamasındaki bir elektronik fatura bir UUID, önceki faturanın hash değeri, bir QR kod, bir kriptografik damga ve değiştirilemez bir sayaç taşır. Bunlar bir kişi tarafından yazılmaz, uyumlu yazılım tarafından oluşturulur."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Suudi Arabistan'da doğru fatura kesin, ücretsiz",
+  "ctaSub": "Oranı kendiniz belirleyin, Arapça ve İngilizceyi tek belgede tutun ve hataları düzenleme yerine alacak dekontlarıyla düzeltin.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "KDV Hükümleri Kapsamında Vergi Grupları Rehberi (Guideline on Tax Groups under VAT Provisions), üçüncü sürüm, 3.2 ve 3.3. bölümler",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "KDV Uygulama Yönetmeliği (VAT Implementing Regulations), Madde 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "E-fatura uygulama kararı, 62738 sayılı Vali Kararı ve ZATCA e-fatura sayfaları",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

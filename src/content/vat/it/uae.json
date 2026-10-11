@@ -1,0 +1,152 @@
+{
+  "locale": "it",
+  "slug": "uae",
+  "order": 2,
+  "country": "Emirati Arabi Uniti",
+  "title": "IVA negli Emirati Arabi Uniti",
+  "metaTitle": "IVA negli EAU: aliquota, soglie, eInvoicing · Paper & Pen",
+  "metaDescription": "L'aliquota IVA del 5% negli EAU, la soglia di AED 375,000, i contenuti della fattura dell'articolo 59 e il calendario confermato dell'eInvoicing, con le fonti.",
+  "keywords": "iva emirati arabi uniti, aliquota iva dubai, soglia registrazione iva emirati, requisiti fattura fiscale emirati, fatturazione elettronica emirati 2027, federal tax authority",
+  "heroEyebrow": "Emirati Arabi Uniti",
+  "heroTitle": "Fatturare secondo le regole <em class=\"text-copper-400 not-italic\">IVA degli Emirati</em>",
+  "heroSubtitle": "L'aliquota, le soglie, i dodici elementi che l'articolo 59 richiede su una fattura fiscale e le date dell'eInvoicing effettivamente pubblicate dal Ministry of Finance.",
+  "heroBullets": [
+    "Aliquota ordinaria del 5%",
+    "AED 375,000 per la registrazione",
+    "eInvoicing a fasi dal 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Aliquota IVA ordinaria",
+      "value": "5%",
+      "note": "L'articolo 3 del Federal Decree-Law 8 of 2017 impone un'aliquota ordinaria del 5% su ogni cessione o importazione. In vigore dal 1 gennaio 2018.",
+      "source": 1
+    },
+    {
+      "label": "Soglia di registrazione obbligatoria",
+      "value": "AED 375,000",
+      "note": "Articolo 7(1) della Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Soglia di registrazione volontaria",
+      "value": "AED 187,500",
+      "note": "Articolo 8(1) della Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Limite per la fattura semplificata",
+      "value": "AED 10,000",
+      "note": "Una fattura fiscale semplificata è ammessa quando il destinatario non è registrato, oppure è registrato e il corrispettivo non supera questo importo.",
+      "source": 2
+    },
+    {
+      "label": "Valuta in fattura",
+      "value": "AED",
+      "note": "Gli importi dell'imposta sono espressi in dirham e, se la fattura è in un'altra valuta, deve comparire il tasso di cambio applicato.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "L'articolo 59(1) della Executive Regulation elenca cosa deve contenere una fattura fiscale completa.",
+    "items": [
+      "La dicitura \"Tax Invoice\", ben visibile",
+      "Nome, indirizzo e Tax Registration Number del fornitore",
+      "Nome, indirizzo e TRN del destinatario, se il destinatario è registrato",
+      "Un numero progressivo o univoco che permetta di identificare e ordinare la fattura",
+      "La data di emissione",
+      "La data della cessione, se diversa dalla data di emissione",
+      "Una descrizione dei beni o dei servizi",
+      "Per ogni voce: prezzo unitario, quantità o volume, aliquota e importo dovuto in AED",
+      "L'importo di eventuali sconti concessi",
+      "L'importo lordo dovuto in AED",
+      "L'importo dell'imposta addebitata in AED, con il tasso di cambio se convertito da un'altra valuta",
+      "Per una cessione in reverse charge, una dicitura che indica che il destinatario deve versare l'imposta e la norma su cui si basa"
+    ],
+    "source": 2,
+    "caveat": "Si tratta della pubblicazione consolidata della Executive Regulation da parte della Federal Tax Authority, datata 4 ottobre 2024. Alcuni commentatori citano una modifica successiva che non abbiamo trovato in un testo pubblicato dalla FTA, quindi verifica la formulazione attuale con la FTA prima di farvi affidamento."
+  },
+  "einvoicing": {
+    "status": "Obbligatoria e a fasi, pilota aperto",
+    "body": "Il sistema eInvoicing degli EAU è un modello decentralizzato a cinque angoli in cui le fatture passano attraverso Accredited Service Providers. Le linee guida del Ministry of Finance fissano il calendario: un programma pilota e l'adozione volontaria dal 1 luglio 2026; le imprese con ricavi pari o superiori a AED 50 million si adeguano dal 1 gennaio 2027; quelle sotto questa soglia dal 1 luglio 2027; gli enti pubblici dal 1 ottobre 2027. Il Ministero ha prorogato la prima scadenza per la nomina di un Accredited Service Provider dal 31 luglio 2026 al 30 ottobre 2026, lasciando invariato l'avvio di gennaio 2027, quindi il PDF delle linee guida pubblicate e il comunicato stampa del Ministero non coincidono su quella data, e il comunicato è il più recente.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Fare le cose per bene",
+      "title": "Dove l'articolo 59 coglie in fallo",
+      "body": "Il requisito per riga è quello che la maggior parte dei modelli di fattura non rispetta. L'articolo 59(1)(h) chiede prezzo unitario, quantità, aliquota e importo dovuto per ogni bene o servizio, quindi un unico dato d'imposta cumulativo in fondo alla fattura non basta quando le righe hanno trattamenti diversi. Il secondo è il TRN del destinatario, obbligatorio ogni volta che il destinatario è registrato, e il terzo è il tasso di cambio: se fatturi in dollari devi comunque indicare l'imposta in dirham e il tasso che hai usato.",
+      "items": [
+        "Aliquota e importo per riga, non solo un totale",
+        "TRN del destinatario ogni volta che è registrato",
+        "Tasso di cambio indicato su ogni fattura non in AED",
+        "Dicitura di reverse charge dove si applica"
+      ]
+    },
+    {
+      "eyebrow": "Prepararsi",
+      "title": "Cosa ti chiedono davvero le date del 2027",
+      "body": "L'obbligo non è comprare un software con un logo sopra, ma essere in grado di emettere una fattura strutturata tramite un Accredited Service Provider alla data che vale per la tua fascia di ricavi. Parti a ritroso dalla data di adeguamento della tua fascia, non dal pilota: la scadenza per la nomina del fornitore di servizi cade mesi prima dell'avvio, ed è la nomina, non l'avvio, che la maggior parte delle imprese manca. Nel frattempo i dati che ti serviranno sono gli stessi che l'articolo 59 richiede già, un buon motivo per migliorare ora la qualità delle fatture invece che durante una migrazione.",
+      "items": [
+        "Sapere in quale fascia di ricavi rientri",
+        "Segnare in agenda la nomina del fornitore di servizi, non solo l'avvio",
+        "Ripulire i TRN dei clienti prima della scadenza, non durante",
+        "Tenere il dettaglio dell'imposta per riga da oggi"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Qual è l'aliquota IVA negli Emirati Arabi Uniti?",
+      "a": "Il cinque per cento. L'articolo 3 del Federal Decree-Law 8 of 2017 impone un'aliquota ordinaria del 5% su ogni cessione o importazione imponibile, in vigore dal 1 gennaio 2018. Alcune cessioni sono ad aliquota zero o esenti, e la differenza conta: un fornitore ad aliquota zero può comunque recuperare l'IVA a credito, uno esente no."
+    },
+    {
+      "q": "Quando diventa obbligatoria la fattura elettronica negli EAU?",
+      "a": "Dipende dai tuoi ricavi. Secondo le linee guida pubblicate dal Ministry of Finance, le imprese con ricavi pari o superiori a AED 50 million si adeguano dal 1 gennaio 2027, quelle sotto questa soglia dal 1 luglio 2027 e gli enti pubblici dal 1 ottobre 2027. Un pilota e l'adozione volontaria sono partiti il 1 luglio 2026. Consulta le pagine del Ministero prima di pianificare in base a una data, perché ha già modificato una scadenza."
+    },
+    {
+      "q": "Quando posso emettere una fattura fiscale semplificata negli EAU?",
+      "a": "Quando il destinatario non è registrato ai fini IVA, oppure è registrato e il corrispettivo non supera AED 10,000. Una fattura semplificata richiede comunque la dicitura \"Tax Invoice\", il tuo nome, indirizzo e TRN, la data di emissione, una descrizione di ciò che è stato fornito e il corrispettivo totale e l'importo dell'imposta in dirham."
+    },
+    {
+      "q": "Serve il TRN del cliente su una fattura negli EAU?",
+      "a": "Sì, ogni volta che il cliente è registrato ai fini IVA. In quel caso l'articolo 59(1)(c) richiede nome, indirizzo e Tax Registration Number del destinatario. Senza, il tuo cliente potrebbe avere difficoltà a recuperare l'IVA a credito, e di solito la cosa ti torna indietro come richiesta di riemettere la fattura."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Fattura correttamente negli EAU, gratis",
+  "ctaSub": "Imposta per riga, qualsiasi valuta con il tasso indicato sul documento e una fattura in arabo e in inglese da un unico record.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, articolo 3 (testo consolidato, con modifiche)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, articoli 7, 8 e 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1 e il comunicato stampa del Ministero sulla modifica",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

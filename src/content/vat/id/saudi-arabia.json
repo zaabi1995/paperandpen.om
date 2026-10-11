@@ -1,0 +1,151 @@
+{
+  "locale": "id",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Arab Saudi",
+  "title": "PPN di Arab Saudi",
+  "metaTitle": "PPN di Arab Saudi: Tarif 15% dan Fatoora · Paper & Pen",
+  "metaDescription": "Tarif PPN 15% Arab Saudi, batas SAR 375,000, isi faktur menurut Pasal 53 dan tahapan e-faktur Fatoora dari ZATCA, dengan rujukan sumber.",
+  "keywords": "PPN Arab Saudi, tarif PPN Saudi 15 persen, pajak Arab Saudi, ZATCA, Fatoora, e-faktur Saudi fase 2, syarat faktur pajak Saudi",
+  "heroEyebrow": "Arab Saudi",
+  "heroTitle": "Membuat faktur sesuai aturan <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "Tarif 15%, batas registrasi, isi wajib faktur pajak menurut Pasal 53, dan tambahan dari Fatoora begitu Anda masuk fase integrasi.",
+  "heroBullets": [
+    "Tarif standar 15%",
+    "Registrasi mulai SAR 375,000",
+    "Fatoora berlaku sejak 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Tarif PPN standar",
+      "value": "15%",
+      "note": "Arab Saudi adalah pengecualian di kawasan Teluk: negara lain yang menerapkan PPN memakai 5% atau 10%. Dengan asumsi tarif standar berlaku, penyerahan kena pajak dikenai 15%.",
+      "source": 1
+    },
+    {
+      "label": "Batas registrasi wajib",
+      "value": "SAR 375,000",
+      "note": "Penyerahan kena pajak di atas angka ini dalam periode 12 bulan wajib registrasi.",
+      "source": 1
+    },
+    {
+      "label": "Batas registrasi sukarela",
+      "value": "SAR 187,500",
+      "note": "Berdasarkan penyerahan kena pajak ATAU biaya kena pajak dalam 12 bulan terakhir.",
+      "source": 1
+    },
+    {
+      "label": "Bisnis nonresiden",
+      "value": "Tanpa batas",
+      "note": "Nonresiden yang wajib membayar PPN di Kerajaan harus registrasi berapa pun nilai penyerahannya.",
+      "source": 1
+    },
+    {
+      "label": "Bahasa faktur",
+      "value": "Arab",
+      "note": "Isi wajib harus tercantum dalam bahasa Arab. Bahasa lain boleh ditampilkan sebagai tambahan, sebagai terjemahan.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Pasal 53(5) VAT Implementing Regulations mencantumkan apa saja yang wajib ada di faktur pajak, dan mewajibkannya dalam bahasa Arab selain bahasa lain yang ditampilkan sebagai terjemahan.",
+    "items": [
+      "Tanggal terbit",
+      "Nomor urut yang mengidentifikasi faktur secara unik",
+      "Nomor Identifikasi Pajak (TIN) pemasok",
+      "Jika pelanggan wajib memperhitungkan pajaknya sendiri, TIN pelanggan dan pernyataan bahwa mereka wajib memperhitungkan pajak tersebut",
+      "Nama dan alamat pemasok dan pelanggan",
+      "Jumlah dan jenis barang, atau cakupan dan jenis jasa",
+      "Tanggal penyerahan, jika berbeda dari tanggal terbit",
+      "Nilai kena pajak per tarif atau pembebasan, harga satuan tidak termasuk PPN, dan diskon yang belum termasuk dalam harga satuan",
+      "Tarif pajak yang diterapkan",
+      "Jumlah pajak terutang, ditampilkan dalam riyal Saudi",
+      "Jika pajak tidak dikenakan dengan tarif dasar, keterangan yang menjelaskan perlakuannya",
+      "Jika metode margin laba untuk barang bekas yang memenuhi syarat berlaku, rujukan atas hal tersebut"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Wajib dan berlaku, diterapkan bergelombang",
+    "body": "Arab Saudi memiliki aturan e-faktur paling maju di kawasan Teluk dan menjadi acuan negara lain. Fase 1, Fase Pembuatan (Generation Phase), berlaku untuk semua wajib pajak residen sejak 4 Desember 2021: faktur harus diterbitkan secara elektronik dalam bentuk terstruktur. Fase 2, Fase Integrasi (Integration Phase), dimulai pada 1 Januari 2023 dan diterapkan bergelombang menurut ukuran wajib pajak, dengan ZATCA memberi tahu setiap kelompok paling lambat enam bulan sebelum tanggal integrasinya. Di Fase 2, faktur elektronik memuat lebih dari isi Pasal 53: faktur juga memerlukan UUID, hash faktur sebelumnya, kode QR, stempel kriptografis dan penghitung yang tahan manipulasi. Gelombang mana yang berlaku untuk Anda diumumkan oleh ZATCA, jadi periksa halaman e-faktur ZATCA alih-alih berasumsi.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Agar tidak salah",
+      "title": "Fatoora mengubah HAKIKAT sebuah faktur",
+      "body": "Di dunia kertas atau PDF, faktur adalah dokumen yang Anda buat dan kirim. Di Fase 2, faktur adalah catatan dalam sebuah rantai: setiap faktur merujuk pada hash faktur sebelumnya, membawa stempel kriptografis, dan menaikkan penghitung yang tidak bisa diatur ulang. Ini desain yang disengaja, dan membuat satu kebiasaan umum menjadi mustahil. Anda tidak bisa diam-diam menghapus, mengubah nomor atau menerbitkan ulang faktur setelahnya, karena rantainya akan putus dan putusnya bisa terdeteksi. Bisnis yang dulu memperbaiki kesalahan dengan mengubah riwayat harus beralih ke nota kredit, yang memang selalu dikehendaki aturan akuntansi di seluruh dunia.",
+      "items": [
+        "Setiap faktur terhubung ke faktur sebelumnya melalui hash",
+        "Penghitung tidak bisa diatur ulang atau dikembalikan",
+        "Koreksi dilakukan melalui nota kredit dan nota debit",
+        "Kode QR adalah bagian dari faktur, bukan hiasan"
+      ]
+    },
+    {
+      "eyebrow": "Agar tidak salah",
+      "title": "Tarif 15% membawa dampak lanjutan",
+      "body": "Tarif lima belas persen membuat perbedaan antara tarif nol dan dibebaskan menjadi serius secara keuangan, hal yang tidak terjadi pada tarif lima persen. Jika penyerahan Anda dibebaskan, Anda tidak bisa mengkreditkan pajak masukan yang sudah dibayar, sehingga lima belas persen dari biaya masukan Anda menjadi beban nyata yang tidak bisa dipulihkan dan harus diperhitungkan dalam harga. Jika penyerahan dikenai tarif nol, Anda tidak memungut apa pun tetapi tetap bisa mengkreditkan. Salah klasifikasi adalah kesalahan tunggal paling mahal dalam PPN Saudi, dan ini soal klasifikasi, bukan soal tarif.",
+      "items": [
+        "Dibebaskan berarti tanpa pengkreditan, jadi pajaknya menjadi biaya Anda",
+        "Tarif nol berarti tanpa pungutan tetapi pengkreditan penuh",
+        "Klasifikasikan berdasarkan jenis penyerahan, bukan pelanggan",
+        "Putuskan klasifikasi sebelum menetapkan harga"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Berapa tarif PPN di Arab Saudi?",
+      "a": "Lima belas persen adalah tarif standar. Ini yang tertinggi di kawasan Teluk, dan kesalahan umum adalah menganggap ada satu tarif GCC: Oman dan UEA memakai 5%, Bahrain 10%, sedangkan Qatar dan Kuwait sama sekali belum menerapkan PPN. Jika Anda berjualan di seluruh kawasan, Anda tidak bisa menerapkan satu tarif untuk semuanya."
+    },
+    {
+      "q": "Apa itu Fatoora?",
+      "a": "Fatoora adalah program e-faktur ZATCA. Fase 1, pembuatan, berlaku untuk semua wajib pajak residen sejak 4 Desember 2021. Fase 2, integrasi dengan sistem ZATCA, dimulai pada 1 Januari 2023 dan diterapkan bergelombang menurut ukuran wajib pajak, dengan pemberitahuan paling lambat enam bulan untuk setiap gelombang."
+    },
+    {
+      "q": "Apakah faktur pajak Saudi harus dalam bahasa Arab?",
+      "a": "Ya. Pasal 53(5) mewajibkan isi faktur dalam bahasa Arab, dan membolehkan bahasa lain ditampilkan sebagai tambahan berupa terjemahan. Faktur dwibahasa memenuhi syarat; faktur yang hanya berbahasa Inggris tidak."
+    },
+    {
+      "q": "Kolom tambahan apa yang diwajibkan Fase 2?",
+      "a": "Selain isi Pasal 53, faktur elektronik di fase integrasi memuat UUID, hash faktur sebelumnya, kode QR, stempel kriptografis dan penghitung yang tahan manipulasi. Semua ini dibuat oleh software yang patuh, bukan diketik manusia."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Buat faktur yang benar di Arab Saudi, gratis",
+  "ctaSub": "Atur tarif sendiri, cantumkan bahasa Arab dan Inggris di satu dokumen, dan koreksi kesalahan dengan nota kredit, bukan mengedit.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, versi ketiga, bagian 3.2 dan 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, Pasal 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Resolusi penerapan e-faktur, Governor's Decision 62738, dan halaman e-faktur ZATCA",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

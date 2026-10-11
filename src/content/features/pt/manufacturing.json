@@ -1,0 +1,35 @@
+{
+  "locale": "pt",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Produção",
+  "metaTitle": "Software de produção e manufatura · Paper & Pen",
+  "metaDescription": "Planeje a produção com lista de materiais, ordens de produção e custeio real. Consuma matéria-prima, produza acabados e conheça sua margem real.",
+  "keywords": "software de produção, gestão da produção, lista de materiais, BOM, ordem de produção, custo de produção, produto acabado, sistema para indústria",
+  "heroEyebrow": "Módulo complementar",
+  "heroTitle": "Produza sob encomenda, <em class=\"text-copper-400 not-italic\">com custo até o último rial</em>",
+  "heroSubtitle": "Transforme matéria-prima em produto acabado com listas de materiais e ordens de produção, enquanto o Paper & Pen acompanha o custo de cada componente para você sempre saber sua margem real.",
+  "heroBullets": ["Listas de materiais e ordens de produção", "Consumo de estoque automático", "Custeio real da produção"],
+  "features": [
+    { "icon": "manufacturing", "title": "Listas de materiais", "desc": "Defina o que entra em cada produto, com quantidades e submontagens." },
+    { "icon": "doc", "title": "Ordens de produção", "desc": "Planeje e acompanhe lotes de produção, da matéria-prima ao estoque acabado." },
+    { "icon": "inventory", "title": "Movimentação automática", "desc": "A matéria-prima é consumida e o produto acabado entra no estoque conforme você produz." },
+    { "icon": "calc", "title": "Custeio da produção", "desc": "Some custo de material e custos indiretos em um valor preciso do produto acabado." },
+    { "icon": "chart", "title": "Visão da margem", "desc": "Compare o custo de produção com o preço de venda e veja a margem real por item." },
+    { "icon": "refresh", "title": "Integrado de ponta a ponta", "desc": "Conecte compras, estoque e vendas em um fluxo contínuo." }
+  ],
+  "sections": [
+    { "eyebrow": "Planeje com segurança", "title": "Da receita ao produto acabado", "body": "Defina uma lista de materiais uma vez e o Paper & Pen sabe exatamente o que cada produção consome. Abra uma ordem de produção e a matéria-prima é reservada e consumida enquanto o produto acabado entra no estoque, com todo o custeio feito para você.", "items": ["Listas de materiais reutilizáveis", "Ordens de produção com reserva de estoque", "Consumo automático e entrada do produto acabado"] },
+    { "eyebrow": "Conheça sua margem real", "title": "Um custeio que diz a verdade", "body": "Chutar o custo é chutar o lucro. O Paper & Pen soma material e custos indiretos em um custo real do produto acabado, lança nos seus livros e mostra a margem em cada venda. Funciona em qualquer moeda, para você comprar e vender além das fronteiras.", "items": ["Custeio de material mais custos indiretos", "Lançamento automático na contabilidade", "Margem por produto e por pedido"] }
+  ],
+  "faqs": [
+    { "q": "O módulo de produção é grátis?", "a": "A Produção é um complemento pago opcional. O módulo principal de Vendas e Faturamento é grátis para sempre, e você adiciona a Produção quando fabrica produtos." },
+    { "q": "Posso definir listas de materiais?", "a": "Sim. Monte uma BOM para cada produto, incluindo submontagens, e reutilize em todos os lotes de produção." },
+    { "q": "Ele consome o estoque automaticamente?", "a": "Sim. Quando você processa uma ordem de produção, a matéria-prima é consumida e o produto acabado entra no estoque automaticamente." },
+    { "q": "Como o custo de produção é calculado?", "a": "Os custos de material e indiretos são somados no valor do produto acabado, que é lançado na contabilidade para que suas margens fiquem corretas." },
+    { "q": "Funciona com qualquer moeda?", "a": "Sim. Compre materiais e venda produtos acabados em qualquer moeda, com custeio e contabilidade sempre sincronizados." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Calcule o custo de cada produção com precisão",
+  "ctaSub": "Comece grátis com o faturamento e adicione a Produção para planejar a fabricação e conhecer sua margem real."
+}

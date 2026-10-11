@@ -1,0 +1,152 @@
+{
+  "locale": "ja",
+  "slug": "uae",
+  "order": 2,
+  "country": "アラブ首長国連邦",
+  "title": "UAE の消費税",
+  "metaTitle": "UAE の消費税：税率と電子請求書",
+  "metaDescription": "UAE の消費税率 5%、登録基準額 AED 375,000、第 59 条の記載事項、確定した電子請求書の日程を出典付きで解説。",
+  "keywords": "UAE 消費税, UAE VAT 税率, UAE VAT 登録 基準額, UAE 適格請求書 記載事項, UAE 電子請求書 2027, ドバイ VAT, Federal Tax Authority",
+  "heroEyebrow": "アラブ首長国連邦",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">UAE の消費税</em>ルールに沿った請求書",
+  "heroSubtitle": "税率、登録基準額、第 59 条が適格請求書に求める 12 項目、そして Ministry of Finance が実際に公表した電子請求書の日程をまとめました。",
+  "heroBullets": [
+    "標準税率 5%",
+    "登録基準額 AED 375,000",
+    "電子請求書は 2027 年から段階的に"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "消費税の標準税率",
+      "value": "5%",
+      "note": "Federal Decree-Law 8 of 2017 の第 3 条は、すべての供給と輸入に 5% の標準税率を課しています。2018 年 1 月 1 日から施行されています。",
+      "source": 1
+    },
+    {
+      "label": "義務登録の基準額",
+      "value": "AED 375,000",
+      "note": "Executive Regulation 第 7 条第 1 項。",
+      "source": 2
+    },
+    {
+      "label": "任意登録の基準額",
+      "value": "AED 187,500",
+      "note": "Executive Regulation 第 8 条第 1 項。",
+      "source": 2
+    },
+    {
+      "label": "簡易請求書の上限",
+      "value": "AED 10,000",
+      "note": "受領者が未登録の場合、または登録済みで対価がこの金額を超えない場合は、簡易適格請求書を使えます。",
+      "source": 2
+    },
+    {
+      "label": "請求書の通貨",
+      "value": "AED",
+      "note": "税額はディルハムで表示し、請求書が他の通貨の場合は適用した為替レートを記載する必要があります。",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Executive Regulation 第 59 条第 1 項は、完全な適格請求書に記載すべき事項を挙げています。",
+    "items": [
+      "「Tax Invoice（適格請求書）」の文言を明確に表示",
+      "供給者の名称、住所、Tax Registration Number（TRN）",
+      "受領者が登録済みの場合は、受領者の名称、住所、TRN",
+      "請求書を識別し順序づけられる連番または固有の番号",
+      "発行日",
+      "発行日と異なる場合は供給日",
+      "物品またはサービスの内容",
+      "各品目の単価、数量または容量、税率、AED での支払額",
+      "提供した割引の金額",
+      "AED での支払総額",
+      "AED での税額と、他の通貨から換算した場合はその為替レート",
+      "リバースチャージの供給では、受領者が税を計上すべき旨と根拠となる規定"
+    ],
+    "source": 2,
+    "caveat": "これは Federal Tax Authority が 2024 年 10 月 4 日付で公表した Executive Regulation の統合版です。専門家はその後の改正に言及していますが、FTA が公表した本文では確認できていません。頼りにする前に、最新の文言を FTA に確認してください。"
+  },
+  "einvoicing": {
+    "status": "義務化が決定し段階的に導入、パイロット実施中",
+    "body": "UAE の電子請求書システムは分散型のファイブコーナーモデルで、請求書は Accredited Service Provider を経由します。日程は Ministry of Finance 自身のガイドラインが定めています。2026 年 7 月 1 日からパイロットプログラムと任意導入、売上 AED 5,000 万以上の事業者は 2027 年 1 月 1 日から、それ未満の事業者は 2027 年 7 月 1 日から、政府機関は 2027 年 10 月 1 日から導入します。Ministry は Accredited Service Provider を選任する最初の期限を 2026 年 7 月 31 日から 2026 年 10 月 30 日に延長しましたが、2027 年 1 月の開始日は変わっていません。そのため、公表されたガイドラインの PDF と Ministry のニュースリリースではこの 1 つの日付が異なり、ニュースリリースが新しい情報です。",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "正しく対応する",
+      "title": "第 59 条でつまずきやすい点",
+      "body": "多くの請求書テンプレートが満たしていないのが、明細行ごとの要件です。第 59 条第 1 項 (h) は、物品やサービスごとに単価、数量、税率、支払額を求めています。つまり、明細行ごとに取り扱いが異なる場合、請求書の末尾にまとめた税額 1 つだけでは不十分です。2 つ目は受領者の TRN で、受領者が登録済みであれば必ず必要です。3 つ目は為替レートです。ドルで請求しても、税額はディルハムで、使ったレートとともに表示する必要があります。",
+      "items": [
+        "合計だけでなく明細行ごとの税率と税額",
+        "受領者が登録済みなら必ず受領者の TRN",
+        "AED 以外の請求書には為替レートを表示",
+        "該当する場合はリバースチャージの文言"
+      ]
+    },
+    {
+      "eyebrow": "準備",
+      "title": "2027 年の日程が実際に求めること",
+      "body": "求められているのはロゴ付きのソフトウェアを買うことではなく、自社の売上区分に適用される日付に、Accredited Service Provider を通じて構造化された請求書を発行できるようにすることです。パイロットからではなく、自社の区分の導入日から逆算してください。サービスプロバイダーの選任期限は開始日の数か月前にあり、多くの事業者が逃すのは開始日ではなく選任のほうです。その間に必要になるデータは、第 59 条がすでに求めているデータと同じです。移行の最中ではなく、今のうちに請求書の品質を整える十分な理由になります。",
+      "items": [
+        "自社がどの売上区分に入るかを把握する",
+        "開始日だけでなくサービスプロバイダーの選任日も予定に入れる",
+        "顧客の TRN は期限中ではなく期限前に整える",
+        "今日から明細行レベルの税の詳細を残す"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "UAE の消費税率は何％ですか？",
+      "a": "5% です。Federal Decree-Law 8 of 2017 の第 3 条は、すべての課税供給と輸入に 5% の標準税率を課しており、2018 年 1 月 1 日から施行されています。一部の供給はゼロ税率または非課税で、その違いは重要です。ゼロ税率の供給者は仕入税額を控除できますが、非課税の供給者はできません。"
+    },
+    {
+      "q": "UAE では電子請求書はいつ義務になりますか？",
+      "a": "売上によって異なります。Ministry of Finance が公表したガイドラインでは、売上 AED 5,000 万以上の事業者は 2027 年 1 月 1 日から、それ未満の事業者は 2027 年 7 月 1 日から、政府機関は 2027 年 10 月 1 日から導入します。パイロットと任意導入は 2026 年 7 月 1 日に始まりました。Ministry はすでに 1 つの期限を変更しているので、日付に合わせて計画する前に Ministry のページを確認してください。"
+    },
+    {
+      "q": "UAE ではいつ簡易適格請求書を発行できますか？",
+      "a": "受領者が消費税に未登録の場合、または登録済みで対価が AED 10,000 を超えない場合です。簡易請求書でも、「Tax Invoice」の文言、あなたの名称、住所、TRN、発行日、供給した内容、ディルハムでの対価の合計と税額が必要です。"
+    },
+    {
+      "q": "UAE の請求書に顧客の TRN は必要ですか？",
+      "a": "はい、顧客が消費税に登録している場合は必要です。その場合、第 59 条第 1 項 (c) は受領者の名称、住所、Tax Registration Number を求めています。記載がないと顧客は仕入税額の控除に苦労する場合があり、たいていは再発行の依頼としてあなたに戻ってきます。"
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "UAE で正しい請求書を、無料で",
+  "ctaSub": "明細行ごとの税額、書類にレートを記載したどの通貨での請求、1 つの記録からアラビア語と英語の請求書。",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT、第 3 条（改正を含む統合版）",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017、Executive Regulation、第 7 条、第 8 条、第 59 条",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1、および Ministry の改正に関するニュースリリース",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

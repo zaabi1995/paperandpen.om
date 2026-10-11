@@ -1,0 +1,35 @@
+{
+  "locale": "pt",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Estoque",
+  "metaTitle": "Software de gestão de estoque · Paper & Pen",
+  "metaDescription": "Controle o estoque de vários depósitos em tempo real, com alertas de estoque baixo, lotes, código de barras e valorização que vai direto para os livros.",
+  "keywords": "gestão de estoque, controle de estoque, software de estoque, sistema de almoxarifado, alerta de estoque baixo, estoque com código de barras, valorização de estoque, múltiplos depósitos",
+  "heroEyebrow": "Módulo complementar",
+  "heroTitle": "Um estoque <em class=\"text-copper-400 not-italic\">confiável</em>, em tempo real",
+  "heroSubtitle": "Saiba exatamente o que você tem, onde está e quanto vale. O estoque é atualizado no instante em que você fatura ou recebe mercadorias, então seus números estão sempre ao vivo.",
+  "heroBullets": ["Estoque ao vivo em todos os depósitos", "Alertas de estoque baixo e reposição", "Valorização lançada nos seus livros"],
+  "features": [
+    { "icon": "inventory", "title": "Estoque em tempo real", "desc": "As quantidades mudam no momento em que você vende, compra ou transfere mercadorias." },
+    { "icon": "truck", "title": "Vários depósitos", "desc": "Controle e transfira estoque entre locais e filiais com visibilidade total." },
+    { "icon": "bell", "title": "Alertas de estoque baixo", "desc": "Defina pontos de reposição e seja avisado antes que um item de alto giro acabe." },
+    { "icon": "receipt", "title": "Código de barras e SKU", "desc": "Escaneie para vender ou receber, organizado por SKU, lote e unidade de medida." },
+    { "icon": "calc", "title": "Valorização ao vivo", "desc": "Custo médio ou PEPS mantém o valor do estoque correto no seu balanço." },
+    { "icon": "refresh", "title": "Ligado às vendas", "desc": "Faturas e pedidos de compra movimentam o estoque automaticamente, sem ajustes manuais." }
+  ],
+  "sections": [
+    { "eyebrow": "Sempre correto", "title": "Um estoque que se atualiza sozinho", "body": "A contagem manual fica desatualizada no momento em que você faz uma venda. No Paper & Pen, cada fatura, compra e transferência ajusta quantidade e custo em tempo real, então o número na tela é o número na prateleira. Defina pontos de reposição e deixe o sistema avisar quando comprar.", "items": ["Ajuste automático a cada transação", "Pontos de reposição e alertas", "Controle por lote, SKU e unidade de medida"] },
+    { "eyebrow": "O estoque encontra os livros", "title": "Da prateleira ao balanço", "body": "Estoque não é só contar caixas, é dinheiro de verdade no seu balanço. O Paper & Pen valoriza o estoque por custo médio ou PEPS e lança as movimentações na contabilidade automaticamente, então seu custo das mercadorias vendidas e o valor do estoque estão sempre conciliados. Funciona em qualquer moeda, para qualquer mercado.", "items": ["Custo médio ou PEPS", "Lançamento automático na contabilidade", "Compras em várias moedas"] }
+  ],
+  "faqs": [
+    { "q": "O estoque está incluído de graça?", "a": "O Estoque é um complemento pago opcional. O módulo principal de Vendas e Faturamento é grátis para sempre, e você adiciona o Estoque quando precisar de controle em tempo real." },
+    { "q": "Posso gerenciar vários depósitos?", "a": "Sim. Controle o estoque por local, transfira entre eles e veja as quantidades ao vivo em todos." },
+    { "q": "Ele aceita código de barras?", "a": "Sim. Use códigos de barras e SKUs para vender e receber mais rápido, com suporte a lotes e unidades de medida." },
+    { "q": "Como o estoque é valorizado?", "a": "Escolha custo médio ou PEPS. A valorização é atualizada a cada movimentação e lançada na sua contabilidade automaticamente." },
+    { "q": "Vender atualiza o estoque automaticamente?", "a": "Sim. As faturas reduzem o estoque e as compras o aumentam em tempo real, então você nunca atualiza quantidades à mão." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Assuma o controle do seu estoque",
+  "ctaSub": "Comece grátis com o faturamento e adicione o Estoque quando quiser estoque em tempo real em todos os locais."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "es",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restaurantes y cafeterías",
+  "metaTitle": "Facturación y escandallos para restaurantes | Paper & Pen",
+  "metaDescription": "Facturación gratis más inventario de ingredientes, escandallos y órdenes de compra a proveedores para restaurantes y cafeterías. Controla el coste y cobra rápido.",
+  "keywords": "software para restaurantes, facturación para cafeterías, escandallos, control del coste de comida, inventario de restaurante, órdenes de compra a proveedores, erp para restaurantes",
+  "heroEyebrow": "Para restaurantes y cafeterías",
+  "heroTitle": "Cobra rápido y <em class=\"text-copper-400 not-italic\">controla el coste de la comida</em>",
+  "heroSubtitle": "Imprime recibos en segundos, controla los ingredientes al gramo y conoce el coste real de cada plato. Paper & Pen hace que la cocina, la caja y los libros trabajen juntos.",
+  "heroBullets": ["Recibos rápidos y gratis", "Coste de ingredientes y escandallos", "Órdenes de compra a proveedores"],
+  "features": [
+    { "icon": "receipt", "title": "Recibos rápidos", "desc": "Toma un pedido, aplica impuestos y servicio e imprime o comparte un recibo en segundos." },
+    { "icon": "manufacturing", "title": "Escandallos", "desc": "Define recetas a partir de ingredientes para conocer el coste real de cada plato." },
+    { "icon": "inventory", "title": "Stock de ingredientes", "desc": "Controla las materias primas por unidad, lote y caducidad, con alertas de stock bajo." },
+    { "icon": "truck", "title": "Pedidos a proveedores", "desc": "Emite órdenes de compra a proveedores y actualiza el stock y el coste al recibir." },
+    { "icon": "calc", "title": "Porcentaje de coste de comida", "desc": "Compara el coste de cada plato con su precio en carta para mantener sanos tus márgenes." },
+    { "icon": "chart", "title": "Informes de ventas", "desc": "Ve los platos más vendidos, la recaudación diaria y las tendencias por días y por local." }
+  ],
+  "sections": [
+    { "eyebrow": "Una sala más ágil", "title": "Recibos que mantienen la cola en marcha", "body": "La hora punta de la comida no deja tiempo para cobrar despacio. Añade artículos, aplica el IVA o el cargo por servicio, cobra y entrega un recibo limpio en segundos, y compártelo por WhatsApp si un cliente lo pide. Cada venta se registra sola en tus libros, así que cerrar el día es cuestión de un vistazo, no de una tarde tecleando.", "items": ["Añade artículos y cobra rápido", "IVA y cargo por servicio calculados por ti", "La recaudación diaria se concilia sola"] },
+    { "eyebrow": "La cocina dice la verdad", "title": "Escandallos que protegen tu margen", "body": "Un plato solo es rentable si sabes lo que cuesta. Crea recetas a partir de ingredientes, deja que Paper & Pen calcule el coste de cada plato con los precios de compra actuales y sigue tu porcentaje de coste de comida a medida que cambian los precios de los proveedores. Controla los ingredientes por lote y caducidad, emite órdenes de compra y mantén las mermas bajo control. Hecho en Omán con OMR, AED y SAR nativos e IVA del 5%, y listo para USD, EUR o cualquier mercado.", "items": ["Escandallos con precios de ingredientes al día", "Control de lote y caducidad de las materias primas", "Órdenes de compra que actualizan el coste al recibir"] }
+  ],
+  "faqs": [
+    { "q": "¿Puedo calcular el coste de mi carta con los precios de los ingredientes?", "a": "Sí. Define cada plato como una receta de ingredientes y Paper & Pen calcula su coste con los precios de compra actuales, para que fijes precios de carta que protejan tu margen." },
+    { "q": "¿Controla los ingredientes y su caducidad?", "a": "Sí. Las materias primas se controlan por unidad de medida, lote y fecha de caducidad, con alertas de stock bajo para que vuelvas a pedir antes de quedarte sin nada." },
+    { "q": "¿Puedo aplicar el IVA y un cargo por servicio?", "a": "Sí. Aplica el IVA configurable del CCG, un cargo por servicio o cualquier tipo de impuesto, todo calculado de forma automática en la cuenta." },
+    { "q": "¿La facturación es gratis para una cafetería?", "a": "Ventas y Facturación, con los recibos, es gratis para siempre. Añade Inventario y Fabricación cuando quieras controlar ingredientes y hacer escandallos." },
+    { "q": "¿Puedo gestionar más de un local?", "a": "Sí. Controla las ventas y el stock por local y ve las cantidades y la recaudación diaria de todos tus locales al momento desde un solo espacio de trabajo." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Sirve rápido y calcula bien",
+  "ctaSub": "Empieza gratis con recibos y facturación, y añade Inventario y escandallos para controlar el coste de la comida."
+}

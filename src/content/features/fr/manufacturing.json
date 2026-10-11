@@ -1,0 +1,35 @@
+{
+  "locale": "fr",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Production",
+  "metaTitle": "Logiciel de gestion de production · Paper & Pen",
+  "metaDescription": "Planifiez la production avec nomenclatures, ordres de fabrication et coûts réels. Consommez les matières, fabriquez, connaissez votre vraie marge.",
+  "keywords": "logiciel de production, gestion de production, nomenclature, bom, ordre de fabrication, coût de revient, produits finis",
+  "heroEyebrow": "Module complémentaire",
+  "heroTitle": "Fabriquez à la commande, <em class=\"text-copper-400 not-italic\">au rial près</em>",
+  "heroSubtitle": "Transformez vos matières premières en produits finis avec des nomenclatures et des ordres de fabrication, pendant que Paper & Pen suit le coût de chaque composant : vous connaissez toujours votre vraie marge.",
+  "heroBullets": ["Nomenclatures et ordres de fabrication", "Consommation de stock automatique", "Coût de revient réel"],
+  "features": [
+    { "icon": "manufacturing", "title": "Nomenclatures", "desc": "Définissez ce qui compose chaque produit, avec quantités et sous-ensembles." },
+    { "icon": "doc", "title": "Ordres de fabrication", "desc": "Planifiez et suivez vos séries, des matières premières au stock de produits finis." },
+    { "icon": "inventory", "title": "Mouvements de stock automatiques", "desc": "Les matières premières sont consommées et les produits finis ajoutés au fil de la fabrication." },
+    { "icon": "calc", "title": "Coût de production", "desc": "Cumulez coûts matières et frais généraux pour une valeur exacte des produits finis." },
+    { "icon": "chart", "title": "Visibilité sur les marges", "desc": "Comparez le coût de production au prix de vente et voyez la vraie marge par article." },
+    { "icon": "refresh", "title": "Relié de bout en bout", "desc": "Achats, stocks et ventes réunis dans un seul flux continu." }
+  ],
+  "sections": [
+    { "eyebrow": "Planifiez en confiance", "title": "De la recette au produit fini", "body": "Définissez une nomenclature une fois et Paper & Pen sait exactement ce que consomme chaque fabrication. Lancez un ordre de fabrication : les matières sont réservées puis consommées, les produits finis entrent en stock, et tout le calcul des coûts est fait pour vous.", "items": ["Nomenclatures réutilisables", "Ordres de fabrication avec réservation du stock", "Consommation et entrée des produits finis automatiques"] },
+    { "eyebrow": "Connaissez votre vraie marge", "title": "Des coûts qui disent la vérité", "body": "Deviner son coût, c'est deviner son bénéfice. Paper & Pen cumule matières et frais généraux en un vrai coût de produit fini, le comptabilise et affiche la marge sur chaque vente. Dans toutes les devises, pour acheter et vendre au-delà des frontières.", "items": ["Coût matières plus frais généraux", "Comptabilisation automatique", "Marge par produit et par commande"] }
+  ],
+  "faqs": [
+    { "q": "Le module Production est-il gratuit ?", "a": "La Production est un module complémentaire payant et optionnel. Le module de base Ventes et Facturation est gratuit pour toujours, et vous ajoutez la Production quand vous fabriquez des produits." },
+    { "q": "Puis-je définir des nomenclatures ?", "a": "Oui. Créez une nomenclature (BOM) pour chaque produit, sous-ensembles compris, et réutilisez-la pour chaque série." },
+    { "q": "Le stock est-il consommé automatiquement ?", "a": "Oui. Lorsque vous traitez un ordre de fabrication, les matières premières sont consommées et les produits finis ajoutés au stock automatiquement." },
+    { "q": "Comment le coût de production est-il calculé ?", "a": "Les coûts matières et les frais généraux se cumulent dans la valeur des produits finis, qui est comptabilisée pour que vos marges soient exactes." },
+    { "q": "Fonctionne-t-il dans toutes les devises ?", "a": "Oui. Achetez vos matières et vendez vos produits finis dans n'importe quelle devise, avec coûts et comptabilité synchronisés." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Chiffrez chaque fabrication avec précision",
+  "ctaSub": "Commencez gratuitement avec la facturation et ajoutez la Production pour planifier vos fabrications et connaître votre vraie marge."
+}

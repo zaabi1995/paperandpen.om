@@ -1,0 +1,38 @@
+{
+  "locale": "es",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Calculadora de IVA e impuestos gratis",
+  "metaTitle": "Calculadora de IVA de Omán: añade o quita el 5%",
+  "metaDescription": "Calcula online el IVA del 5% de Omán. Añade el IVA a un importe neto o quítalo de un total bruto y ve al instante el neto, el IVA y el total, sin registro.",
+  "keywords": "calculadora de iva, calculadora iva omán, calculadora de impuesto sobre ventas, sumar iva, quitar iva, calculadora iva 5 por ciento, calculadora de iva configurable, calcular iva inverso",
+  "heroEyebrow": "Gratis · Sin registro",
+  "heroTitle": "Calculadora de <em class=\"text-copper-400 not-italic\">IVA e impuestos</em> gratis",
+  "heroSubtitle": "Calcula online el IVA del 5% de Omán. Añade el IVA a un importe neto o quítalo de un total bruto y ve al instante el neto, el IVA y el total, sin registro.",
+  "heroBullets": ["Cualquier tipo, cualquier moneda", "Suma o quita el impuesto", "Gratis para siempre, sin registro"],
+  "howToSteps": [
+    { "name": "Introduce el importe", "text": "Escribe el importe con el que quieres trabajar y elige tu moneda." },
+    { "name": "Define el tipo de impuesto", "text": "Usa el tipo del 5% de Omán por defecto o introduce el tipo vigente que se aplica a tu operación." },
+    { "name": "Elige sumar o quitar", "text": "Suma el impuesto a un importe neto o quítalo de un importe bruto para obtener el neto (IVA inverso)." },
+    { "name": "Lee el resultado", "text": "Ve al instante el neto, el impuesto y el bruto desglosados, listos para copiar en una factura." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Suma o quita el impuesto", "desc": "Calcula el impuesto sobre un importe neto o extráelo de un importe bruto en un clic." },
+    { "icon": "globe", "title": "Cualquier tipo, cualquier moneda", "desc": "El 5% de Omán por defecto, o el tipo que te corresponda, en OMR, AED, SAR, USD, EUR y más." },
+    { "icon": "bolt", "title": "Al instante y gratis", "desc": "Sin registro y sin límites. Obtén neto, impuesto y bruto mientras escribes." }
+  ],
+  "sections": [
+    { "title": "¿Por qué usar la calculadora de IVA de Paper & Pen?", "body": "Tanto si preparas una cotización como si revisas una factura o presentas una declaración, necesitas que el neto, el impuesto y el bruto cuadren hasta el último decimal. Esta calculadora admite cualquier tipo en cualquier moneda, funciona en los dos sentidos (suma el impuesto o lo extrae de un total) y es gratis de verdad. Se abre con el tipo del 5% de Omán y se puede configurar por completo para otras jurisdicciones." },
+    { "eyebrow": "Más allá de la calculadora", "title": "Deja que tu software calcule el IVA por ti", "body": "Calcular el impuesto a mano en cada línea es lento y propenso a errores. Dentro del ERP completo de Paper & Pen, el IVA se aplica de forma automática sobre el neto tras descuentos de cada factura, se registra en tus libros y se resume en informes listos para la declaración, así que dejas de necesitar la calculadora.", "items": ["Impuesto automático en cada factura y cotización", "Tipos de impuesto por artículo y por documento", "Informes resumen de IVA listos para presentar"] }
+  ],
+  "faqs": [
+    { "q": "¿Qué tipo usa esta calculadora de IVA de Omán?", "a": "La calculadora se abre con el tipo del 5% de Omán. Las normas fiscales pueden cambiar, así que confirma el tipo vigente con la Oman Tax Authority antes de fiarte de un cálculo. Puedes introducir cualquier tipo." },
+    { "q": "¿Cómo quito el IVA de un total?", "a": "Elige la opción de quitar (inverso) e introduce el importe bruto. La calculadora obtiene el neto y la parte de impuesto que estaba incluida en el total." },
+    { "q": "¿Puedo usarla para impuestos sobre ventas fuera de Omán?", "a": "Sí. Define el tipo que se aplica a tu operación y elige cualquier moneda. Sirve para el IVA, el GST o el impuesto sobre ventas en cualquier lugar del mundo." },
+    { "q": "¿Calcula el impuesto sobre un importe con descuento?", "a": "Introduce el importe neto después del descuento y súmale el impuesto. Para tener el IVA calculado de forma automática tras descuentos en facturas completas, crea un espacio de trabajo gratis en Paper & Pen, donde se hace por ti." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Deja de calcular el IVA a mano",
+  "ctaSub": "Aplica el impuesto de forma automática en cada factura y obtén informes de IVA listos para la declaración con un espacio de trabajo gratis en Paper & Pen."
+}

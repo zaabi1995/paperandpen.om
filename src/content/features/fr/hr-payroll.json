@@ -1,0 +1,35 @@
+{
+  "locale": "fr",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "RH et paie",
+  "metaTitle": "Logiciel RH et paie · Une paie simple · Paper & Pen",
+  "metaDescription": "Gérez salariés, présences, congés et bulletins de paie au même endroit. Paie dans toutes les devises, salaires comptabilisés, fin de contrat prise en charge.",
+  "keywords": "logiciel RH, logiciel de paie, bulletin de paie, gestion des présences, gestion des congés, indemnité de fin de contrat, wps, gestion des salariés",
+  "heroEyebrow": "Module complémentaire",
+  "heroTitle": "Payez votre équipe <em class=\"text-copper-400 not-italic\">juste</em>, à chaque fois",
+  "heroSubtitle": "Salariés, présences, congés et paie dans un seul module bien rangé. Lancez un cycle de paie, générez les bulletins et comptabilisez les salaires en quelques minutes, pas en quelques jours.",
+  "heroBullets": ["La paie en quelques minutes", "Bulletins et congés en libre-service", "Comptabilisation directe"],
+  "features": [
+    { "icon": "hr", "title": "Dossiers salariés", "desc": "Une fiche par personne : contrat, salaire, documents et historique." },
+    { "icon": "clock", "title": "Présences et heures sup", "desc": "Enregistrez horaires, heures supplémentaires et absences, qui alimentent la paie." },
+    { "icon": "doc", "title": "Gestion des congés", "desc": "Définissez vos règles de congés, validez les demandes et suivez les soldes automatiquement." },
+    { "icon": "receipt", "title": "Bulletins de paie", "desc": "Générez des bulletins clairs et détaillés et partagez-les avec chaque salarié." },
+    { "icon": "calc", "title": "Retenues et fin de contrat", "desc": "Gérez correctement avances, retenues et calculs de fin de contrat." },
+    { "icon": "accounting", "title": "Comptabilisation", "desc": "Chaque paie comptabilise automatiquement salaires et provisions." }
+  ],
+  "sections": [
+    { "eyebrow": "Moins d'administratif", "title": "Des présences au bulletin, sans tableur", "body": "Présences, heures supplémentaires, congés et avances alimentent tous la paie : fini les tableurs à recoller en fin de mois. Validez le cycle une fois et Paper & Pen produit tous les bulletins et l'écriture de salaires d'un seul coup.", "items": ["Présences et heures sup alimentent la paie", "Avances et retenues prises en charge", "Bulletins générés en masse"] },
+    { "eyebrow": "Partout où vous employez", "title": "Une paie adaptée à votre pays et à votre devise", "body": "Payez votre personnel dans n'importe quelle devise et configurez les primes, retenues et règles de fin de contrat qui s'appliquent là où vous exercez. Avec une interface en arabe, anglais, hindi, bengali et ourdou, votre équipe lit ses bulletins et demande ses congés dans sa propre langue.", "items": ["Salaires dans toutes les devises", "Primes et retenues configurables", "Fin de contrat prise en charge"] }
+  ],
+  "faqs": [
+    { "q": "Le module RH et paie est-il gratuit ?", "a": "C'est un module complémentaire payant et optionnel. Le socle gratuit pour toujours couvre Ventes et Facturation, et vous ajoutez RH et paie quand vous devez gérer du personnel et des salaires." },
+    { "q": "Puis-je faire la paie dans n'importe quelle devise ?", "a": "Oui. Payez votre équipe en OMR, AED, SAR, USD, EUR ou toute autre devise, avec primes et retenues configurées selon vos règles." },
+    { "q": "Gère-t-il les présences et les congés ?", "a": "Oui. Enregistrez présences et heures supplémentaires, définissez vos règles de congés, validez les demandes et suivez les soldes, le tout alimentant la paie." },
+    { "q": "La paie est-elle comptabilisée ?", "a": "Oui. Chaque paie comptabilise automatiquement salaires, primes et provisions dans votre grand livre lorsque la Comptabilité est activée." },
+    { "q": "Calcule-t-il les indemnités de fin de contrat ?", "a": "Oui. Configurez les règles de fin de contrat et de gratification de votre pays pour que les soldes de tout compte soient calculés correctement." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Une paie sans prise de tête",
+  "ctaSub": "Commencez gratuitement avec la facturation et ajoutez RH et paie pour gérer votre équipe et faire la paie en quelques minutes."
+}

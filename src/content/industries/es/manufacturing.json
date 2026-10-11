@@ -1,0 +1,110 @@
+{
+  "locale": "es",
+  "slug": "manufacturing",
+  "order": 10,
+  "title": "Fabricación y producción",
+  "metaTitle": "ERP para fabricación y producción · Paper & Pen",
+  "metaDescription": "Controla las materias primas, gestiona listas de materiales y calcula el coste unitario real de tu empresa de fabricación o producción ligera con Paper & Pen.",
+  "keywords": "software erp de fabricación, programa de listas de materiales, inventario para producción ligera, software de costes por pedido, control de materias primas, gestión de órdenes de trabajo, facturación para fabricantes",
+  "heroEyebrow": "ERP para producción ligera",
+  "heroTitle": "Controla las materias primas y <em class=\"text-copper-400 not-italic\">calcula el coste real</em> de cada tanda de producción.",
+  "heroSubtitle": "Deja de adivinar tus márgenes. Paper & Pen ayuda a las empresas de fabricación ligera a gestionar listas de materiales, consumir la materia prima, controlar las mermas y saber exactamente cuánto cuesta un producto terminado antes de cotizar.",
+  "heroBullets": [
+    "Crea listas de materiales exactas.",
+    "Convierte la materia prima en producto terminado.",
+    "Controla los costes por pedido y las mermas de producción."
+  ],
+  "features": [
+    {
+      "icon": "manufacturing",
+      "title": "Listas de materiales",
+      "desc": "Define los componentes exactos que necesitas para fabricar tus productos terminados. Actualiza tus recetas cuando cambie la disponibilidad de materiales para que la producción no se pare."
+    },
+    {
+      "icon": "inventory",
+      "title": "Control de materias primas",
+      "desc": "Sabe exactamente cuánto stock tienes antes de aceptar un pedido grande. Controla las materias primas cuando llegan y consúmelas durante la producción."
+    },
+    {
+      "icon": "calc",
+      "title": "Coste unitario real",
+      "desc": "Calcula el coste real de un producto terminado combinando el precio de compra de las materias primas y teniendo en cuenta las mermas de producción."
+    },
+    {
+      "icon": "quote",
+      "title": "Cotizaciones rentables",
+      "desc": "Cotiza nuevos trabajos con seguridad. Cuando conoces tu coste unitario exacto, puedes fijar precios que garantizan un margen en lugar de adivinar."
+    },
+    {
+      "icon": "doc",
+      "title": "Gestión de órdenes de trabajo",
+      "desc": "Da instrucciones claras a tu planta de producción. Sigue el avance de los trabajos en curso y registra el rendimiento final cuando el producto terminado entra en inventario."
+    },
+    {
+      "icon": "accounting",
+      "title": "Libros contables integrados",
+      "desc": "Tu planta de producción se conecta directamente con tus cuentas. Las compras de material, el consumo de stock y las ventas de producto terminado actualizan solos tu cuenta de pérdidas y ganancias."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Controla tus entradas",
+      "title": "Gestiona listas de materiales y materia prima",
+      "body": "La producción ligera depende de tener los materiales adecuados en el momento adecuado. Si te quedas sin un componente clave, toda la planta se para. Paper & Pen te permite crear listas de materiales detalladas para cada producto que fabricas. Cuando recibes un pedido nuevo, puedes revisar al momento tu inventario de materias primas para ver si puedes atenderlo. A medida que compras suministros, el sistema registra el precio de compra exacto. Así la valoración de tu inventario siempre refleja la realidad y ves con claridad el capital inmovilizado en tu almacén.",
+      "items": [
+        "Define recetas estándar para todos los productos terminados.",
+        "Controla las cantidades de materia prima en varias ubicaciones.",
+        "Genera órdenes de compra cuando bajen los componentes.",
+        "Valora el inventario según los precios de compra reales."
+      ]
+    },
+    {
+      "eyebrow": "Sigue la fabricación",
+      "title": "Consume stock y controla las mermas de producción",
+      "body": "Convertir materias primas en producto terminado rara vez sale perfecto. Las piezas se rompen, los recortes se desechan y el rendimiento varía. Con el módulo de fabricación puedes emitir órdenes de trabajo que indican a tu equipo qué fabricar. Cuando termina el trabajo, registras la cantidad real de materia prima consumida y el número final de productos terminados. Este proceso retira los componentes de tu inventario y añade el producto terminado de forma automática. Al registrar el material exacto usado, mermas incluidas, reflejas la realidad de tu planta y no una estimación ideal.",
+      "items": [
+        "Emite órdenes de trabajo detalladas a la planta de producción.",
+        "Consume materias primas directamente en inventario terminado.",
+        "Registra las mermas de material para mantener exacto el stock.",
+        "Añade el producto terminado al inventario listo para enviar."
+      ]
+    },
+    {
+      "eyebrow": "Protege tus márgenes",
+      "title": "Calcula el coste unitario real antes de cotizar",
+      "body": "No puedes fijar un precio rentable si no sabes cuánto cuesta fabricar un artículo. Como Paper & Pen controla el precio de compra de tus materias primas y las cantidades exactas consumidas en la producción, calcula el coste real de cada producto terminado. Esto incluye el coste del material desperdiciado. Cuando un cliente pide una cotización para un lote a medida, puedes consultar tus costes históricos por pedido. Sabrás exactamente dónde está tu punto de equilibrio y podrás cotizar precios competitivos que sigan protegiendo tu margen.",
+      "items": [
+        "Calcula el coste del producto terminado según los materiales consumidos.",
+        "Incluye el coste de las mermas en los precios unitarios.",
+        "Revisa los costes históricos por pedido para fijar precios futuros.",
+        "Envía cotizaciones exactas directamente a tus clientes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿El software gestiona listas de materiales?",
+      "a": "Sí, las listas de materiales son una parte central de nuestro módulo de fabricación de pago. Puedes definir las materias primas y cantidades exactas que hacen falta para producir un artículo terminado. Cuando lanzas un trabajo de producción, el sistema usa esa lista de materiales para calcular cuánta materia prima consumir, y tu inventario se mantiene exacto mientras fabricas."
+    },
+    {
+      "q": "¿Puedo controlar las mermas de una tanda de producción?",
+      "a": "Por supuesto. Sabemos que la fabricación real implica recortes, errores y material estropeado. Cuando completas una orden de trabajo, puedes registrar la cantidad real de materia prima consumida, aunque supere la lista de materiales estándar. Así tu inventario de materia prima es correcto y el coste de ese material desperdiciado se aplica al producto terminado."
+    },
+    {
+      "q": "¿Cómo calcula el sistema el coste de un producto terminado?",
+      "a": "El sistema calcula el coste unitario a partir del precio de compra real de las materias primas que usaste. Cuando conviertes materia prima en producto terminado, el software suma el coste de todos los componentes consumidos, incluidas las mermas registradas. Ese coste total se divide entre el número de artículos terminados producidos, lo que te da un coste unitario muy exacto."
+    },
+    {
+      "q": "¿La función de fabricación está incluida en la versión gratis?",
+      "a": "Nuestras funciones principales de ventas y facturación son gratis para siempre, pero las herramientas de fabricación y listas de materiales forman parte de un módulo complementario de pago. Este módulo te da acceso completo al control de materias primas, órdenes de trabajo, consumo de stock y costes por pedido. Puedes pasarte a este módulo cuando tus necesidades de producción vayan más allá de un simple control de inventario."
+    }
+  ],
+  "related": [
+    "/features/manufacturing",
+    "/features/inventory",
+    "/features/quotations",
+    "/invoicing/purchase-orders"
+  ],
+  "ctaTitle": "Toma hoy el control de tus costes de producción y tu inventario.",
+  "ctaSub": "Empieza a controlar materias primas, gestionar listas de materiales y cotizar trabajos rentables con Paper & Pen."
+}

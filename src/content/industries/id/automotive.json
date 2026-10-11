@@ -1,0 +1,110 @@
+{
+  "locale": "id",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Bengkel Otomotif",
+  "metaTitle": "ERP untuk Bengkel & Dealer Otomotif · Paper & Pen",
+  "metaDescription": "Kelola estimasi, inventaris suku cadang dan faktur untuk bengkel otomotif Anda. Catat jam kerja dan tagihan garansi dengan ERP cloud gratis kami.",
+  "keywords": "software bengkel, aplikasi bengkel mobil, aplikasi kasir bengkel, estimasi biaya servis, stok sparepart bengkel, ERP dealer mobil, tagihan klaim garansi, pembukuan bengkel",
+  "heroEyebrow": "Untuk Bengkel dan Dealer",
+  "heroTitle": "Jalankan bengkel Anda dengan <em class=\"text-copper-400 not-italic\">estimasi yang jelas</em> dan penagihan suku cadang yang akurat.",
+  "heroSubtitle": "Berhenti kehilangan margin karena suku cadang yang tidak tertagih dan jam kerja yang tidak tercatat. Paper & Pen membantu bengkel otomotif menerbitkan estimasi perbaikan yang terperinci, melacak inventaris hingga nomor suku cadang, dan mengubah persetujuan langsung menjadi faktur akhir.",
+  "heroBullets": [
+    "Lacak suku cadang dan tarif jasa bengkel",
+    "Ubah estimasi menjadi faktur",
+    "Kelola penagihan garansi pihak ketiga"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Estimasi perbaikan",
+      "desc": "Buat estimasi terperinci untuk persetujuan pelanggan. Cantumkan jam kerja, biaya diagnosis dan suku cadang yang dibutuhkan sebelum mulai memperbaiki."
+    },
+    {
+      "icon": "inventory",
+      "title": "Suku cadang dan margin",
+      "desc": "Lacak stok Anda dengan nomor suku cadang yang tepat. Pantau harga beli dan tetapkan harga jual untuk menjaga margin keuntungan."
+    },
+    {
+      "icon": "clock",
+      "title": "Jasa sesuai tarif bengkel",
+      "desc": "Tambahkan baris jasa untuk waktu kerja mekanik Anda. Kalikan tarif standar bengkel dengan jam kerja yang dibutuhkan pekerjaan."
+    },
+    {
+      "icon": "invoice",
+      "title": "Penagihan pihak ketiga",
+      "desc": "Tagih pemilik kendaraan untuk biaya risiko sendiri dan tagihkan sisanya langsung ke penyedia garansi atau pabrikan."
+    },
+    {
+      "icon": "receipt",
+      "title": "Pengkreditan biaya diagnosis",
+      "desc": "Kenakan biaya diagnosis pada estimasi awal, lalu kreditkan kembali dengan mudah di faktur akhir jika pelanggan melanjutkan perbaikan."
+    },
+    {
+      "icon": "truck",
+      "title": "Purchase order",
+      "desc": "Kirim purchase order ke pemasok suku cadang. Catat barang masuk untuk memperbarui stok otomatis sebelum pekerjaan berikutnya."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Persetujuan Perbaikan",
+      "title": "Dari diagnosis awal hingga tagihan perbaikan akhir",
+      "body": "Pelanggan perlu tahu biayanya sebelum Anda menyentuh mesin dengan kunci pas. Paper & Pen mengikuti urutan persis yang dipakai service advisor Anda setiap hari. Anda bisa menerbitkan estimasi awal yang mencakup biaya diagnosis. Setelah kerusakan ditemukan, perbarui estimasi dengan suku cadang dan jam kerja yang spesifik. Saat pelanggan menyetujui pekerjaan, ubah estimasi itu menjadi faktur akhir. Jika kebijakan Anda membebaskan biaya diagnosis saat perbaikan disetujui, cukup tambahkan baris bernilai negatif untuk mengkreditkan biaya itu dari total.",
+      "items": [
+        "Terbitkan penawaran perbaikan yang jelas",
+        "Ubah penawaran yang disetujui menjadi faktur",
+        "Kreditkan biaya diagnosis dengan mudah",
+        "Catat jam kerja dan tarif bengkel"
+      ]
+    },
+    {
+      "eyebrow": "Manajemen Suku Cadang",
+      "title": "Jaga margin di setiap suku cadang yang terjual",
+      "body": "Bengkel yang sibuk menangani ratusan komponen, dari filter oli hingga kaliper rem. Jika Anda lupa berapa yang dibayar ke pemasok, margin keuntungan Anda ikut hilang. Sistem inventaris kami memungkinkan Anda mencatat setiap item berdasarkan nomor suku cadangnya. Anda mencatat harga pokok saat menerima barang melalui purchase order, dan menetapkan harga jual tetap untuk faktur. Saat mekanik mengambil suku cadang dari rak dan Anda menambahkannya ke tagihan perbaikan, stok berkurang otomatis dan keuntungan Anda dihitung dengan benar.",
+      "items": [
+        "Lacak item dengan nomor suku cadang yang tepat",
+        "Pantau harga beli dari pemasok",
+        "Tetapkan harga jual yang menguntungkan",
+        "Stok berkurang otomatis saat terjual"
+      ]
+    },
+    {
+      "eyebrow": "Penagihan Terpisah",
+      "title": "Tangani klaim garansi dan pembayar pihak ketiga",
+      "body": "Tidak setiap perbaikan dibayar oleh orang yang mengemudikan mobil. Dealer dan bengkel resmi sering mengerjakan pekerjaan garansi yang harus ditagihkan ke pabrikan atau perusahaan garansi tambahan. Paper & Pen memungkinkan Anda menyimpan profil pelanggan terpisah untuk pembayar korporat ini. Anda bisa membuat faktur untuk pemilik kendaraan yang mencakup biaya risiko sendiri atau komponen aus yang tidak ditanggung, dan membuat faktur terperinci terpisah untuk penyedia garansi yang mencakup kode jasa dan suku cadang pengganti yang disetujui.",
+      "items": [
+        "Simpan profil pembayar korporat",
+        "Tagih penyedia garansi secara langsung",
+        "Pisahkan tagihan antara pemilik dan garansi",
+        "Simpan buku besar terperinci untuk semua pembayar"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya mengintegrasikannya dengan software pencatat waktu mekanik atau dekoder VIN?",
+      "a": "Tidak. Paper & Pen adalah ERP cloud yang berdiri sendiri. Anda bisa menambahkan jam kerja sebagai baris item di faktur dan memakai modul HR kami untuk penggajian dasar, tetapi kami tidak menyediakan jam kerja mekanik real-time, dekoder VIN bawaan, atau integrasi langsung dengan database perbaikan otomotif pihak ketiga."
+    },
+    {
+      "q": "Bagaimana menangani biaya diagnosis yang dikreditkan jika pelanggan jadi memperbaiki?",
+      "a": "Tambahkan biaya diagnosis sebagai item jasa biasa pada penawaran awal. Saat pelanggan menyetujui perbaikan penuh, ubah penawaran menjadi faktur, tambahkan suku cadang dan jasa yang dibutuhkan, lalu tambahkan baris bernilai negatif untuk mengurangi biaya diagnosis semula."
+    },
+    {
+      "q": "Bisakah saya melacak inventaris suku cadang dari berbagai pemasok?",
+      "a": "Bisa. Anda bisa membuat purchase order untuk berbagai pemasok suku cadang dan mencatat surat jalan barang masuk. Sistem memperbarui jumlah inventaris dan melacak harga pokok, sehingga Anda tahu persis berapa margin yang didapat saat menagih pelanggan."
+    },
+    {
+      "q": "Apakah bisa menagih perusahaan garansi, bukan pengemudinya?",
+      "a": "Bisa. Cukup buat profil pelanggan untuk penyedia garansi. Lalu Anda bisa menerbitkan faktur untuk suku cadang yang ditanggung dan jasa sesuai tarif bengkel langsung kepada mereka, dengan saldo terutang yang terpisah dari pelanggan ritel Anda."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Rapikan penagihan bengkel Anda hari ini",
+  "ctaSub": "Buat estimasi terperinci, lacak inventaris suku cadang, dan tagih pelanggan Anda secara gratis."
+}

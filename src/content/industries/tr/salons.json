@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "salons",
+  "order": 5,
+  "title": "Kuaförler ve Spalar",
+  "metaTitle": "Kuaför Faturalama, Personel ve Stok Programı | Paper & Pen",
+  "metaDescription": "Kuaförler, spalar ve klinikler için ücretsiz faturalama, ürün stoku, personel bordrosu ve müşteri geçmişi. Hizmetleri hızlı faturalayın, personele ödeyin.",
+  "keywords": "kuaför programı, spa faturalama, güzellik salonu programı, güzellik merkezi yazılımı, personel prim hesaplama, kuaför ürün stok takibi, müşteri geçmişi",
+  "heroEyebrow": "Kuaförler, spalar ve klinikler için",
+  "heroTitle": "Hizmetleri hızlı faturalayın, <em class=\"text-copper-400 not-italic\">müşterilerinizi yakın tutun</em>",
+  "heroSubtitle": "Hizmetleri ve perakende ürünleri saniyeler içinde faturalayın, kullandığınız ürünleri takip edin ve primi sizin yerinize hesaplanmış olarak personele ödeyin. Paper & Pen ön büroyu, depoyu ve defterleri birlikte yönetir.",
+  "heroBullets": ["Ücretsiz, hızlı hizmet faturalaması", "Perakende ürün stoku", "Personel bordrosu ve prim"],
+  "features": [
+    { "icon": "receipt", "title": "Hızlı faturalama", "desc": "Hizmetleri ve perakende ürünleri ekleyin, ödemeyi alın ve saniyeler içinde fiş paylaşın." },
+    { "icon": "users", "title": "Müşteri geçmişi", "desc": "İletişim bilgilerini ve geçmiş ziyaretleri tutun, her müşteri hatırlandığını hissetsin." },
+    { "icon": "inventory", "title": "Ürün stoku", "desc": "Perakende ve salon içi ürünleri birim ve partiye göre düşük stok uyarılarıyla takip edin." },
+    { "icon": "hr", "title": "Personel ve prim", "desc": "Bordroyu çalıştırın ve hizmetler ile perakende satışlar üzerinden personel primini hesaplayın." },
+    { "icon": "whatsapp", "title": "WhatsApp fişleri", "desc": "Fişleri ve takip mesajlarını müşterilere tek dokunuşla WhatsApp'tan gönderin." },
+    { "icon": "chart", "title": "Hizmet raporları", "desc": "En çok tercih edilen hizmetleri, yoğun saatleri ve personel veya şube bazında geliri görün." }
+  ],
+  "sections": [
+    { "eyebrow": "Daha akıcı bir ön büro", "title": "Müşterilerinizin takdir edeceği faturalama", "body": "Hizmetleri ve perakende ürünleri bir hesaba ekleyin, indirim veya paket uygulayın, ödemeyi alın ve müşteri koltuktan kalkmadan temiz bir fişi WhatsApp'ta paylaşın. Müşteri bilgileri ve ziyaret geçmişi aynı ekranda durur; ekip düzenli müşterileri adıyla karşılayabilir ve doğru takip hizmetini önerebilir.", "items": ["Hizmetler ve perakende tek hesapta", "Fişler anında WhatsApp'ta paylaşılır", "Müşteri iletişim bilgileri ve ziyaret geçmişi elinizin altında"] },
+    { "eyebrow": "Stok ve personel düzende", "title": "Ürünler takip edilir, personel doğru ödenir", "body": "Kimse izlemezse salon içi ürünler kapıdan çıkıp gider. Paper & Pen perakende ve profesyonel ürünleri birim ve partiye göre takip eder, düşük stoku işaretler ve kullanımı satışlara bağlar. Ekibiniz için bordroyu çalıştırın, sattıkları hizmetler ve perakende ürünler üzerinden primi sistem hesaplasın. Yerleşik OMR, AED ve SAR ile %5 KDV desteğiyle Umman'da geliştirildi; USD, EUR veya her pazar ve vergi oranı için hazırdır.", "items": ["Uyarılarla perakende ve salon içi stok", "Otomatik prim hesaplamalı bordro", "Her para birimi, her vergi oranı, KDV'ye hazır"] }
+  ],
+  "faqs": [
+    { "q": "Hizmetleri ve perakende ürünleri birlikte faturalayabilir miyim?", "a": "Evet. Hizmetlerin ve perakende ürünlerin herhangi bir karışımını tek hesaba ekleyin, indirim veya paket uygulayın, ödemeyi alın ve anında fiş paylaşın." },
+    { "q": "Personel primini hesaplayabilir miyim?", "a": "Evet. İK ve Bordro modülü her personelin sattığı hizmetler ve perakende ürünler üzerinden primi hesaplayabilir ve bordrolarını çalıştırabilir." },
+    { "q": "Müşteri geçmişini tutuyor mu?", "a": "Evet. Ekibinizin düzenli müşterileri tanıyabilmesi ve doğru takip hizmetini önerebilmesi için iletişim bilgilerini ve geçmiş ziyaretleri saklayın." },
+    { "q": "Ürün stokunu takip edebilir miyim?", "a": "Evet. Stok modülüyle perakende ve salon içi ürünleri birim ve partiye göre, düşük stok uyarılarıyla takip edin." },
+    { "q": "Bir kuaför için faturalama ücretsiz mi?", "a": "Fişler ve müşteri kayıtları dahil Satış ve Faturalama sonsuza kadar ücretsizdir. Stok ve prim için Stok ve İK/Bordro ekleyin." }
+  ],
+  "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
+  "ctaTitle": "Evrak işini değil, salonu yönetin",
+  "ctaSub": "Hizmet faturalaması ve müşteri kayıtlarıyla ücretsiz başlayın, ardından stok ve prim için Stok ve Bordro ekleyin."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "es",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Fabricación",
+  "metaTitle": "Software de fabricación y producción · Paper & Pen",
+  "metaDescription": "Planifica la producción con listas de materiales, órdenes de trabajo y costes reales. Consume materia prima, fabrica producto terminado y conoce tu margen real.",
+  "keywords": "software de fabricación, gestión de la producción, lista de materiales, bom, órdenes de trabajo, costes de producción, producto terminado",
+  "heroEyebrow": "Módulo complementario",
+  "heroTitle": "Fabrica por pedido, <em class=\"text-copper-400 not-italic\">con el coste al último rial</em>",
+  "heroSubtitle": "Convierte materias primas en producto terminado con listas de materiales y órdenes de trabajo, mientras Paper & Pen controla el coste de cada componente para que siempre sepas tu margen real.",
+  "heroBullets": ["Listas de materiales y órdenes de trabajo", "Consumo de stock automático", "Coste de producción real"],
+  "features": [
+    { "icon": "manufacturing", "title": "Listas de materiales", "desc": "Define qué lleva cada producto, con cantidades y subconjuntos." },
+    { "icon": "doc", "title": "Órdenes de trabajo", "desc": "Planifica y sigue cada tanda de producción, de la materia prima al stock terminado." },
+    { "icon": "inventory", "title": "Movimientos de stock automáticos", "desc": "La materia prima se consume y el producto terminado se suma mientras fabricas." },
+    { "icon": "calc", "title": "Costes de producción", "desc": "Suma el coste de materiales y gastos generales en un valor exacto del producto terminado." },
+    { "icon": "chart", "title": "Visibilidad del margen", "desc": "Compara el coste de producción con el precio de venta y ve el margen real por artículo." },
+    { "icon": "refresh", "title": "Conectado de principio a fin", "desc": "Une compras, inventario y ventas en un flujo continuo." }
+  ],
+  "sections": [
+    { "eyebrow": "Planifica con seguridad", "title": "De la receta al producto terminado", "body": "Define una lista de materiales una vez y Paper & Pen sabe exactamente qué consume cada fabricación. Emite una orden de trabajo y la materia prima se reserva y se consume mientras el producto terminado entra en inventario, con todos los costes calculados por ti.", "items": ["Listas de materiales reutilizables", "Órdenes de trabajo con reserva de stock", "Consumo automático y entrada de producto terminado"] },
+    { "eyebrow": "Conoce tu margen real", "title": "Costes que dicen la verdad", "body": "Adivinar tu coste es adivinar tu beneficio. Paper & Pen suma materiales y gastos generales en un coste real del producto terminado, lo registra en tus libros y muestra el margen de cada venta. Funciona en cualquier moneda, así que puedes comprar y vender más allá de tus fronteras.", "items": ["Coste de materiales más gastos generales", "Registro automático en contabilidad", "Margen por producto y por pedido"] }
+  ],
+  "faqs": [
+    { "q": "¿La fabricación es gratis?", "a": "Fabricación es un complemento de pago opcional. El módulo principal de Ventas y Facturación es gratis para siempre, y añades Fabricación cuando produces bienes." },
+    { "q": "¿Puedo definir listas de materiales?", "a": "Sí. Crea una lista de materiales (BOM) para cada producto, con subconjuntos incluidos, y reutilízala en cada tanda de producción." },
+    { "q": "¿Consume el stock de forma automática?", "a": "Sí. Cuando procesas una orden de trabajo, la materia prima se consume y el producto terminado entra en inventario de forma automática." },
+    { "q": "¿Cómo se calcula el coste de producción?", "a": "Los costes de materiales y gastos generales se suman en el valor del producto terminado, que se registra en contabilidad para que tus márgenes sean exactos." },
+    { "q": "¿Funciona con cualquier moneda?", "a": "Sí. Compra materiales y vende producto terminado en cualquier moneda, con costes y contabilidad siempre sincronizados." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Calcula bien el coste de cada fabricación",
+  "ctaSub": "Empieza gratis con la facturación y añade Fabricación para planificar la producción y conocer tu margen real."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "es",
+  "slug": "payments",
+  "order": 10,
+  "title": "Pagos",
+  "metaTitle": "Pagos online de facturas · Cobra antes · Paper & Pen",
+  "metaDescription": "Añade un enlace de pago online a cada factura y cobra con tarjeta. Paymob y pasarelas globales, cualquier moneda, conciliado de forma automática en tus libros.",
+  "keywords": "pagos online, aceptar pagos con tarjeta, pagar factura online, paymob, pasarela de pago, cobrar más rápido, enlace de pago",
+  "heroEyebrow": "Incluido",
+  "heroTitle": "Que tus clientes te paguen <em class=\"text-copper-400 not-italic\">en un toque</em>",
+  "heroSubtitle": "Pon un enlace seguro de pago online en cada factura para que tus clientes paguen con tarjeta al instante. Los pagos se concilian en tus libros de forma automática, en cualquier moneda y en cualquier lugar.",
+  "heroBullets": ["Enlace de pago online en cada factura", "Conciliación automática en tu libro mayor", "Paymob y pasarelas globales"],
+  "features": [
+    { "icon": "card", "title": "Pago con tarjeta", "desc": "Tus clientes pagan cualquier factura online con tarjeta, sin iniciar sesión ni instalar apps." },
+    { "icon": "bolt", "title": "Enlace de pago al instante", "desc": "Cada factura lleva un enlace seguro que puedes compartir por correo o WhatsApp." },
+    { "icon": "refresh", "title": "Conciliación automática", "desc": "Los pagos correctos marcan la factura como pagada y se registran en tus libros." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Cobra en OMR, AED, SAR, USD, EUR y más a través de la pasarela adecuada." },
+    { "icon": "shield", "title": "Seguro y PCI", "desc": "Los datos de la tarjeta los gestionan pasarelas certificadas, nunca los guardas tú." },
+    { "icon": "receipt", "title": "Recibos enviados", "desc": "Tus clientes reciben un recibo automático en cuanto el pago se completa." }
+  ],
+  "sections": [
+    { "eyebrow": "Cobra antes", "title": "Quita los obstáculos entre la factura y el dinero", "body": "Cuanto antes pueda pagar un cliente, antes tienes el dinero. Un enlace de pago online en cada factura significa que no hay datos bancarios que copiar ni transferencias que esperar. El cliente toca, paga con tarjeta y la factura se actualiza sola, con el recibo en camino.", "items": ["Pago con tarjeta en un toque", "Enlace para compartir por WhatsApp y correo", "Recibos automáticos"] },
+    { "eyebrow": "Local y global", "title": "La pasarela adecuada para tu mercado", "body": "Paper & Pen conecta Paymob para el CCG y otras pasarelas globales para que aceptes las tarjetas que tus clientes usan de verdad, en su moneda. Cada liquidación se concilia con la factura correcta y se registra en tus cuentas, así que el cobro y la contabilidad van siempre a la par.", "items": ["Paymob para el CCG, más opciones globales", "Cobro en varias monedas", "Se concilia con la factura exacta"] }
+  ],
+  "faqs": [
+    { "q": "¿Activar el pago online es gratis?", "a": "Sí, añadir enlaces de pago online viene incluido. La pasarela de pago cobra su propia comisión por transacción, como hacen siempre las pasarelas." },
+    { "q": "¿Qué pasarelas admite?", "a": "Paymob para el CCG y otras pasarelas globales, para que aceptes las tarjetas que tus clientes usan en su moneda." },
+    { "q": "¿Un pago actualiza la factura de forma automática?", "a": "Sí. Un pago correcto marca la factura como pagada, envía un recibo y registra el asiento en tus libros." },
+    { "q": "¿Pueden los clientes pagar en distintas monedas?", "a": "Sí. Cobra en OMR, AED, SAR, USD, EUR y más, a través de la pasarela adecuada." },
+    { "q": "¿Es seguro el pago con tarjeta?", "a": "Sí. Los datos de la tarjeta los gestionan pasarelas con certificación PCI y nunca se guardan en Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Convierte tus facturas en dinero al instante",
+  "ctaSub": "Empieza gratis y añade un enlace de pago online a cada factura para que tus clientes te paguen en un toque."
+}

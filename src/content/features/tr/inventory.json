@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Stok",
+  "metaTitle": "Stok Yönetimi Yazılımı · Paper & Pen",
+  "metaDescription": "Depolar genelinde stoku anlık takip edin; düşük stok uyarıları, parti ve barkod desteği ve deftere işlenen canlı değerleme. Dünya genelinde çalışır.",
+  "keywords": "stok yönetimi, stok takip programı, depo yazılımı, düşük stok uyarısı, barkodlu stok takibi, stok değerleme, çoklu depo",
+  "heroEyebrow": "Eklenti modül",
+  "heroTitle": "Gerçek zamanlı, <em class=\"text-copper-400 not-italic\">güvenebileceğiniz</em> stok",
+  "heroSubtitle": "Elinizde tam olarak ne olduğunu, nerede olduğunu ve ne değerde olduğunu bilin. Fatura kestiğiniz veya mal teslim aldığınız anda stok güncellenir, rakamlarınız her zaman canlıdır.",
+  "heroBullets": ["Depolar genelinde canlı stok", "Düşük stok ve yeniden sipariş uyarıları", "Değerleme deftere işlenir"],
+  "features": [
+    { "icon": "inventory", "title": "Anlık stok", "desc": "Mal sattığınız, satın aldığınız veya transfer ettiğiniz anda miktarlar güncellenir." },
+    { "icon": "truck", "title": "Çoklu depo", "desc": "Stoku lokasyonlar ve şubeler arasında tam görünürlükle takip edin ve transfer edin." },
+    { "icon": "bell", "title": "Düşük stok uyarıları", "desc": "Yeniden sipariş noktaları belirleyin, hızlı satan bir ürün bitmeden uyarı alın." },
+    { "icon": "receipt", "title": "Barkod ve SKU", "desc": "Satmak veya teslim almak için okutun; SKU, parti ve ölçü birimine göre düzenli." },
+    { "icon": "calc", "title": "Canlı değerleme", "desc": "Ortalama maliyet veya FIFO, bilançonuzdaki stok değerini doğru tutar." },
+    { "icon": "refresh", "title": "Satışa bağlı", "desc": "Faturalar ve satın alma siparişleri stoku otomatik hareket ettirir, elle güncelleme yok." }
+  ],
+  "sections": [
+    { "eyebrow": "Her zaman doğru", "title": "Kendi kendini güncelleyen stok", "body": "Elle yapılan stok sayımları ilk satışta eskir. Paper & Pen'de her fatura, satın alma ve transfer stoku ve maliyeti anında günceller; ekrandaki rakam raftaki rakamdır. Yeniden sipariş noktaları belirleyin, ne zaman alım yapmanız gerektiğini sistem size söylesin.", "items": ["Her işlemde otomatik güncellenir", "Yeniden sipariş noktaları ve uyarılar", "Parti, SKU ve ölçü birimi takibi"] },
+    { "eyebrow": "Stok defterle buluşuyor", "title": "Raftan bilançoya", "body": "Stok yalnızca kutu saymak değildir, bilançonuzdaki gerçek paradır. Paper & Pen stoku ortalama maliyet veya FIFO ile değerler ve hareketleri muhasebeye otomatik işler; satılan malın maliyeti ve stok değeri her zaman mutabıktır. Her pazarda, her para biriminde çalışır.", "items": ["Ortalama maliyet veya FIFO", "Muhasebeye otomatik işlenir", "Çoklu para biriminde satın alma"] }
+  ],
+  "faqs": [
+    { "q": "Stok ücretsiz olarak dahil mi?", "a": "Stok isteğe bağlı ücretli bir eklentidir. Çekirdek Satış ve Faturalama modülü sonsuza kadar ücretsizdir; anlık stok kontrolüne ihtiyaç duyduğunuzda Stok'u eklersiniz." },
+    { "q": "Birden fazla depoyu yönetebilir miyim?", "a": "Evet. Stoku lokasyon bazında takip edin, aralarında transfer yapın ve her yerde canlı miktarları görün." },
+    { "q": "Barkodu destekliyor mu?", "a": "Evet. Parti ve ölçü birimi desteğiyle daha hızlı satmak ve teslim almak için barkod ve SKU kullanın." },
+    { "q": "Stok nasıl değerleniyor?", "a": "Ortalama maliyet veya FIFO seçin. Değerleme her harekette güncellenir ve muhasebenize otomatik işlenir." },
+    { "q": "Satış yapmak stoku otomatik günceller mi?", "a": "Evet. Faturalar stoku azaltır, satın almalar anında artırır; miktarları asla elle güncellemezsiniz." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Stokunuzun kontrolünü elinize alın",
+  "ctaSub": "Faturalama ile ücretsiz başlayın, tüm lokasyonlarda anlık stoka hazır olduğunuzda Stok'u ekleyin."
+}

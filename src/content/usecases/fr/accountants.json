@@ -1,0 +1,35 @@
+{
+  "locale": "fr",
+  "slug": "accountants",
+  "order": 4,
+  "title": "Experts-comptables et teneurs de livres",
+  "metaTitle": "Logiciel comptable pour experts-comptables | Paper & Pen",
+  "metaDescription": "Comptabilité en partie double, déclarations de TVA, états financiers et espaces multi-clients pour experts-comptables. Toute devise, tout taux de taxe.",
+  "keywords": "logiciel comptable expert-comptable, logiciel de tenue de comptabilité, comptabilité en partie double, logiciel déclaration de TVA, états financiers, comptabilité multi-clients, balance générale",
+  "heroEyebrow": "Pour les experts-comptables et teneurs de livres",
+  "heroTitle": "Des comptes propres qui <em class=\"text-copper-400 not-italic\">tombent toujours juste</em>",
+  "heroSubtitle": "Une vraie comptabilité en partie double, des écritures automatiques pour chaque facture et chaque paiement, des déclarations de TVA et des rapports fiables pour vos clients. Paper & Pen tient les comptes, vous vous consacrez au conseil.",
+  "heroBullets": ["De vrais grands livres en partie double", "Écritures automatiques depuis les ventes et les achats", "Déclarations de TVA et états financiers"],
+  "features": [
+    { "icon": "accounting", "title": "Comptabilité en partie double", "desc": "Chaque transaction passe une écriture équilibrée dans un vrai plan comptable." },
+    { "icon": "refresh", "title": "Écritures automatiques", "desc": "Factures, paiements et mouvements de stock sont comptabilisés automatiquement au grand livre." },
+    { "icon": "calc", "title": "Déclarations de TVA", "desc": "La taxe est suivie sur chaque document, prête pour une déclaration de TVA à 5% ou à tout autre taux." },
+    { "icon": "reports", "title": "États financiers", "desc": "Compte de résultat, bilan, balance générale et grands livres, à la demande." },
+    { "icon": "doc", "title": "Piste d'audit", "desc": "Chaque écriture remonte à son document source pour un audit sans accroc." },
+    { "icon": "globe", "title": "Toute devise, toute taxe", "desc": "Gérez des clients multidevises et tout régime fiscal dans le monde." }
+  ],
+  "sections": [
+    { "eyebrow": "Fini la ressaisie", "title": "Le grand livre s'écrit tout seul", "body": "C'est dans les écritures manuelles que les erreurs se glissent. Dans Paper & Pen, chaque facture, paiement, achat et mouvement de stock passe une écriture équilibrée en partie double dans un vrai plan comptable : les comptes sont toujours à jour et toujours rapprochés. Vous passez votre temps à contrôler et à conseiller, pas à saisir, et chaque chiffre remonte directement à son document source.", "items": ["Des écritures équilibrées pour chaque transaction", "Un vrai plan comptable", "Une piste d'audit complète jusqu'aux documents sources"] },
+    { "eyebrow": "Déclarez en toute confiance", "title": "TVA, états et rapports à la demande", "body": "Sortez un compte de résultat, un bilan, une balance générale ou un grand livre dès qu'un client le demande, et produisez une déclaration de TVA avec la taxe suivie sur chaque document. Paper & Pen gère d'emblée la TVA configurable du CCG, et tout taux de taxe ou toute devise pour vos clients ailleurs : vous pouvez servir un portefeuille sur plusieurs marchés. Conçu à Oman, à l'aise partout, de Mascate à Manchester.", "items": ["Compte de résultat, bilan, balance générale, grands livres", "TVA suivie par document, prête à déclarer", "Multidevise, tout régime fiscal"] }
+  ],
+  "faqs": [
+    { "q": "S'agit-il d'une vraie comptabilité en partie double ?", "a": "Oui. Chaque transaction passe une écriture équilibrée dans un vrai plan comptable : la balance générale est toujours équilibrée et les comptes se rapprochent." },
+    { "q": "Les factures et les paiements sont-ils comptabilisés automatiquement ?", "a": "Oui. Ventes, achats, paiements et mouvements de stock sont comptabilisés automatiquement au grand livre : rien à ressaisir, et beaucoup moins de risques d'erreur." },
+    { "q": "Puis-je produire des déclarations de TVA ?", "a": "Oui. La taxe est suivie sur chaque document : vous pouvez produire une déclaration de TVA configurable pour le CCG, ou une déclaration à tout taux pour vos clients soumis à d'autres régimes fiscaux." },
+    { "q": "Quels rapports puis-je générer ?", "a": "Compte de résultat, bilan, balance générale, grand livre et relevés clients ou fournisseurs, tous à la demande et rattachés à leurs documents sources." },
+    { "q": "Puis-je gérer des clients dans différentes devises ?", "a": "Oui. Paper & Pen gère les clients multidevises et tout régime fiscal : vous pouvez servir un portefeuille réparti sur plusieurs pays depuis une seule plateforme." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/invoicing/ledgers", "/use-cases/small-business", "/pricing"],
+  "ctaTitle": "Moins de saisie, plus de conseil",
+  "ctaSub": "Laissez Paper & Pen passer les écritures automatiquement : vos comptes se rapprochent et vos rapports sont prêts à la demande."
+}

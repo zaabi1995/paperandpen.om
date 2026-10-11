@@ -1,0 +1,35 @@
+{
+  "locale": "tr",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Faturalama",
+  "metaTitle": "Fatura Yönetimi Özellikleri | Paper & Pen ERP",
+  "metaDescription": "Paper & Pen ERP'de fatura takibi, online ödeme, hatırlatmalar, yapılandırılabilir vergi, beş dil ve çoklu para birimi iş akışlarını keşfedin.",
+  "keywords": "fatura programı, ücretsiz fatura programı, online fatura, fatura gönderme, online ödeme alma, kdv'li fatura, tekrarlayan fatura, ödeme hatırlatma",
+  "heroEyebrow": "Sonsuza kadar ücretsiz",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">Daha hızlı ödeme almanızı</em> sağlayan faturalama",
+  "heroSubtitle": "Bir dakikadan kısa sürede şık bir fatura oluşturun, e-posta veya WhatsApp ile gönderin ve müşteriniz online ödesin. Her para birimi ve her vergi oranı için tasarlandı, dünya genelinde kullanılıyor.",
+  "heroBullets": ["Satış ve Faturalama sonsuza kadar ücretsiz", "Her para birimi, her vergi oranı", "Her faturada online ödeme bağlantısı"],
+  "features": [
+    { "icon": "bolt", "title": "Saniyeler içinde fatura", "desc": "Bir müşteri seçin, kalemleri ekleyin, gönderin. Toplamlar ve vergi siz yazarken hesaplanır." },
+    { "icon": "globe", "title": "Her para birimi", "desc": "OMR, AED, SAR, USD, EUR, GBP veya herhangi bir para biriminde doğru ondalıklarla fatura kesin." },
+    { "icon": "card", "title": "Online ödeme alın", "desc": "Her fatura güvenli bir ödeme bağlantısı taşır, müşteriler tek dokunuşla kartla öder." },
+    { "icon": "bell", "title": "Otomatik hatırlatmalar", "desc": "Nazik, zamanlanmış hatırlatmalar vadesi geçmiş faturaları sizin yerinize takip eder." },
+    { "icon": "refresh", "title": "Tekrarlayan faturalar", "desc": "Sabit ücretleri ve abonelikleri haftalık veya aylık olarak otomatik faturalayın." },
+    { "icon": "calc", "title": "KDV ve vergiye hazır", "desc": "Herhangi bir KDV veya satış vergisi oranını uygulayın, indirimler sonrası net tutar üzerinden hesaplanır." }
+  ],
+  "sections": [
+    { "eyebrow": "Dünya için tasarlandı", "title": "Her pazar için tek faturalama aracı", "body": "İster New York'tan dolarla, ister Maskat'tan riyalle fatura kesin, Paper & Pen para birimini, ondalıkları ve vergi kurallarını sizin için halleder. Arayüzü İngilizce, Arapça, Hintçe, Bengalce ve Urduca arasında değiştirin, tüm ekibiniz kendi dilinde çalışsın.", "items": ["Canlı biçimlendirmeyle çoklu para birimi", "Her ülke için yapılandırılabilir vergi", "Arapça öncelikli, tamamen sağdan sola faturalar"] },
+    { "eyebrow": "Tekliften tahsilata", "title": "Eksiksiz bir ERP içinde faturalama", "body": "Faturalarınız ayrı bir köşede kalmaz. Kazanan bir teklifi tek tıkla faturaya dönüştürün, ödemeyi kaydedin ve defterlerinize otomatik işlenişini izleyin. Büyüdüğünüzde stok, muhasebe ve bordro aynı çalışma alanında sizi bekliyor olacak.", "items": ["Tek tıkla tekliften faturaya", "Ödemeler defterinizle mutabık olur", "Asla mükerrer kayıt yok"] }
+  ],
+  "faqs": [
+    { "q": "Faturalama gerçekten ücretsiz mi?", "a": "Evet. Satış ve Faturalama, fatura veya müşteri sayısında hiçbir sınır olmadan sonsuza kadar ücretsizdir. Yalnızca Stok veya Bordro gibi isteğe bağlı modüller eklerseniz ödeme yaparsınız." },
+    { "q": "Müşteriler faturayı online ödeyebilir mi?", "a": "Evet. Her fatura, Paymob ve diğer ödeme altyapılarıyla çalışan güvenli bir online ödeme bağlantısı içerebilir; müşteriler kartla öder ve ödeme otomatik olarak mutabık olur." },
+    { "q": "KDV'yi ve diğer vergileri destekliyor mu?", "a": "Evet. Körfez ülkeleri için yapılandırılabilir KDV dahil, ülkenizde geçerli olan herhangi bir oranı belirleyin. Vergi, varsa indirim sonrası net tutar üzerinden hesaplanır." },
+    { "q": "Arapça fatura gönderebilir miyim?", "a": "Evet. Tüm arayüz ve fatura PDF'i İngilizce, Hintçe, Bengalce ve Urducanın yanında tamamen sağdan sola Arapça olabilir." },
+    { "q": "Tekrarlayan faturalamayı otomatikleştirebilir miyim?", "a": "Evet. Sabit ücretler veya abonelikler için tekrarlayan bir fatura oluşturun, Paper & Pen onu zamanında düzenleyip göndersin." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "İlk faturanızı ücretsiz gönderin",
+  "ctaSub": "Ücretsiz bir çalışma alanı oluşturun ve ilk müşterinize dakikalar içinde fatura kesin. Kart gerekmez, sonsuza kadar ücretsiz."
+}

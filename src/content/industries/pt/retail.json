@@ -1,0 +1,35 @@
+{
+  "locale": "pt",
+  "slug": "retail",
+  "order": 2,
+  "title": "Varejo e lojas",
+  "metaTitle": "Faturamento e estoque para lojas e varejo · Paper & Pen",
+  "metaDescription": "Faturamento grátis com estoque por código de barras, alertas de estoque baixo e valorização ao vivo para lojas e varejistas. Venda rápido e nunca fique sem.",
+  "keywords": "sistema para loja, software de varejo, frente de caixa, estoque com código de barras, PDV, alerta de estoque baixo, ERP para varejo, estoque de várias lojas",
+  "heroEyebrow": "Para lojas e varejistas",
+  "heroTitle": "Venda rápido, <em class=\"text-copper-400 not-italic\">nunca fique sem estoque</em>",
+  "heroSubtitle": "Cobre os clientes em segundos, venda escaneando códigos de barras e deixe o estoque se atualizar sozinho. O Paper & Pen mantém prateleiras, vendas e livros alinhados para você contar menos e vender mais.",
+  "heroBullets": ["Faturamento rápido e grátis", "Suporte a código de barras e SKU", "Alertas de estoque baixo antes de acabar"],
+  "features": [
+    { "icon": "receipt", "title": "Cobrança rápida", "desc": "Registre a venda e imprima ou compartilhe o recibo em segundos, em qualquer dispositivo." },
+    { "icon": "inventory", "title": "Estoque por código de barras", "desc": "Escaneie para vender ou receber, organizado por SKU, lote e unidade de medida." },
+    { "icon": "bell", "title": "Alertas de estoque baixo", "desc": "Defina pontos de reposição e seja avisado antes que um campeão de vendas zere." },
+    { "icon": "truck", "title": "Estoque em várias lojas", "desc": "Controle e transfira estoque entre filiais, com quantidades ao vivo em todas elas." },
+    { "icon": "calc", "title": "Valorização ao vivo", "desc": "Custo médio ou PEPS mantém o valor do estoque correto no seu balanço." },
+    { "icon": "chart", "title": "Relatórios de mais vendidos", "desc": "Veja o que gira e o que fica parado, por item, categoria e loja." }
+  ],
+  "sections": [
+    { "eyebrow": "Caixa mais rápido", "title": "Cobrança feita para um balcão movimentado", "body": "O cliente não espera. Monte a venda escaneando ou buscando, aplique um desconto, receba e entregue um recibo limpo em segundos. Os recibos podem ser compartilhados pelo WhatsApp ou impressos no caixa, e cada venda vai direto para o seu estoque e seus livros, sem nada para redigitar.", "items": ["Escaneie ou busque para adicionar itens rápido", "Imprima ou compartilhe recibos na hora", "Descontos e impostos calculados automaticamente"] },
+    { "eyebrow": "Um estoque que se cuida sozinho", "title": "Saiba sempre o que tem na prateleira", "body": "A contagem manual fica desatualizada no momento em que você faz uma venda. No Paper & Pen, cada venda e cada entrega ajustam o estoque em tempo real, então o número na tela bate com a prateleira. Defina pontos de reposição para o sistema avisar sobre reposições atrasadas antes de você perder uma venda. Feito em Omã, com OMR, AED e SAR nativos e IVA de 5%, e pronto para USD, EUR ou qualquer alíquota com que você trabalhe.", "items": ["Estoque em tempo real a cada venda", "Pontos de reposição e alertas de estoque baixo", "Qualquer moeda, qualquer alíquota"] }
+  ],
+  "faqs": [
+    { "q": "Posso vender usando um leitor de código de barras?", "a": "Sim. Escaneie para adicionar itens a uma venda ou para receber estoque. Os itens são organizados por SKU, lote e unidade de medida para uma cobrança rápida e precisa." },
+    { "q": "Meu estoque é atualizado quando faço uma venda?", "a": "Sim. Cada venda reduz o estoque e cada entrega o aumenta em tempo real, em todas as suas lojas, sem contagem manual." },
+    { "q": "Posso administrar mais de uma loja?", "a": "Sim. Controle o estoque por loja, transfira entre filiais e veja as quantidades ao vivo em todas elas em um só espaço de trabalho." },
+    { "q": "O faturamento é grátis mesmo?", "a": "Vendas e Faturamento, incluindo recibos, é grátis para sempre. Adicione o módulo de Estoque quando quiser controle por código de barras e alertas de estoque baixo." },
+    { "q": "Funciona fora do GCC?", "a": "Sim. O Paper & Pen funciona em qualquer moeda e com qualquer alíquota, então varejistas de qualquer lugar podem faturar e gerenciar o estoque, com árabe, inglês e outros idiomas à disposição." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Gerencie sua loja sem achismo",
+  "ctaSub": "Comece grátis com faturamento e recibos e depois adicione o Estoque para controle por código de barras e alertas de estoque baixo."
+}

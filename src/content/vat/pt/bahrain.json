@@ -1,0 +1,140 @@
+{
+  "locale": "pt",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrein",
+  "title": "IVA no Bahrein",
+  "metaTitle": "IVA no Bahrein: alíquota de 10% e regras da fatura · Paper & Pen",
+  "metaDescription": "A alíquota de IVA de 10% do Bahrein, o limite de registro de BHD 37,500 e o que o NBR exige em uma fatura de IVA, com fonte no guia do próprio órgão.",
+  "keywords": "IVA Bahrein, alíquota de IVA no Bahrein 10%, limite de registro de IVA no Bahrein, requisitos da fatura de IVA no Bahrein, National Bureau for Revenue",
+  "heroEyebrow": "Bahrein",
+  "heroTitle": "Faturamento sob as regras do <em class=\"text-copper-400 not-italic\">IVA do Bahrein</em>",
+  "heroSubtitle": "A alíquota de 10%, os limites de registro e o que o National Bureau for Revenue exige em uma fatura de IVA, incluindo o único campo exclusivo da construção civil.",
+  "heroBullets": [
+    "Alíquota padrão de 10%",
+    "BHD 37,500 para registro",
+    "Nenhuma obrigação de fatura eletrônica publicada"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Alíquota padrão de IVA",
+      "value": "10%",
+      "note": "O IVA começou em 5% em 1º de janeiro de 2019 e foi revisto para 10% a partir de 1º de janeiro de 2022. Comparações escritas antes de 2022 estão desatualizadas.",
+      "source": 1
+    },
+    {
+      "label": "Limite de registro obrigatório",
+      "value": "BHD 37,500",
+      "note": "Ultrapassar este valor exige registro.",
+      "source": 1
+    },
+    {
+      "label": "Limite de registro voluntário",
+      "value": "BHD 18,750",
+      "note": "Medido nos 12 meses anteriores ou nos 12 meses seguintes, e pode se basear em despesas com IVA em vez de fornecimentos.",
+      "source": 1
+    },
+    {
+      "label": "Prazo de emissão da fatura",
+      "value": "Dia 15 do mês seguinte",
+      "note": "As faturas devem ser emitidas até o dia quinze do mês seguinte àquele em que surgiu a data de vencimento do IVA.",
+      "source": 1
+    },
+    {
+      "label": "Moeda na fatura",
+      "value": "BHD",
+      "note": "Valores, IVA e totais aparecem em dinares do Bahrein, com a taxa de câmbio informada quando se usa moeda estrangeira.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "A seção 10.3 do VAT General Guide do NBR define o que uma fatura de IVA completa deve mostrar. A fatura de IVA simplificada precisa de apenas uma parte destes itens.",
+    "items": [
+      "O rótulo \"Fatura de IVA\" (\"VAT invoice\")",
+      "Nome, endereço e Número da Conta de IVA do fornecedor",
+      "Nome e endereço do cliente",
+      "Um número sequencial de fatura de IVA",
+      "A data de emissão, e a data do fornecimento ou do pagamento quando forem diferentes",
+      "Uma descrição do fornecimento detalhada o bastante para deixar claro o tratamento do IVA",
+      "Na construção de um edifício novo, o número do alvará de construção",
+      "A quantidade de bens fornecidos",
+      "O valor do fornecimento e o preço unitário em dinares, sem IVA",
+      "Qualquer desconto, e o valor líquido em dinares sem IVA",
+      "A alíquota e o IVA devido em dinares, por linha quando as alíquotas forem diferentes",
+      "O valor total devido com IVA, em dinares",
+      "A taxa de câmbio aplicada quando se usa moeda estrangeira",
+      "Uma declaração clara quando a transação for isenta",
+      "Uma referência ao mecanismo de margem de lucro quando ele for usado"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Nenhuma obrigação publicada",
+    "body": "Não encontramos nenhum programa, fase ou data de fatura eletrônica publicado pelo National Bureau for Revenue. O VAT General Guide do órgão, atualizado em julho de 2026, não menciona fatura eletrônica em nenhum momento, e o índice de publicações não lista nenhum guia sobre o tema. Comentários em outros lugares descrevem um sistema entre empresas em fase de desenho para um possível lançamento em fases, mas nada no site do próprio órgão sustenta uma data, então não publicamos nenhuma. Se você está planejando uma mudança de sistema, planeje com base nas regras de conteúdo da fatura acima, que estão em vigor e publicadas, e não em uma obrigação esperada.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Fazendo certo",
+      "title": "As duas armadilhas próprias do Bahrein",
+      "body": "A primeira é o histórico da alíquota. O Bahrein passou de cinco para dez por cento em 1º de janeiro de 2022, então qualquer modelo, tabela de preços ou artigo comparativo escrito antes disso está errado, e o erro sobrevive em silêncio em modelos antigos de orçamento. A segunda é o prazo de emissão. O Bahrein não diz só que a fatura deve ser emitida, diz até quando: o dia quinze do mês seguinte àquele em que surgiu a data de vencimento do IVA. Uma empresa que fatura sempre que a papelada fica pronta pode estar atrasada sem nunca perceber.",
+      "items": [
+        "Verifique se algum modelo anterior a 2022 usa 5%",
+        "Fature até o dia 15 do mês seguinte",
+        "Mostre o IVA por linha quando as alíquotas forem diferentes",
+        "Informe a taxa de câmbio em faturas em moeda estrangeira"
+      ]
+    },
+    {
+      "eyebrow": "Detalhe do setor",
+      "title": "O campo da construção que ninguém espera",
+      "body": "As regras de conteúdo da fatura do Bahrein trazem uma exigência sem equivalente no resto do Golfo: em fornecimentos ligados à construção de um edifício novo, a fatura deve mostrar o número do alvará de construção. É fácil deixar passar porque ela está dentro da exigência geral de descrição, e não como um campo de destaque, e é o tipo de omissão que só aparece quando a fatura é questionada meses depois. Se você trabalha com empreitadas, coloque o número do alvará no seu modelo de descrição de linha em vez de confiar que alguém vai lembrar.",
+      "items": [
+        "Fornecimentos para obra nova precisam do número do alvará",
+        "Coloque no modelo, não na memória de alguém",
+        "Descreva o fornecimento o bastante para mostrar o tratamento do IVA",
+        "Tenha pronto o texto da declaração de isenção"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Qual é a alíquota de IVA no Bahrein?",
+      "a": "Dez por cento. O Bahrein introduziu o IVA a cinco por cento em 1º de janeiro de 2019 e revisou a alíquota padrão para dez por cento a partir de 1º de janeiro de 2022. Qualquer guia, modelo ou comparação que ainda mostre cinco por cento para o Bahrein é anterior a essa mudança."
+    },
+    {
+      "q": "Quando preciso me registrar no IVA no Bahrein?",
+      "a": "Quando seus fornecimentos passam de BHD 37,500. Você pode se registrar voluntariamente a partir de BHD 18,750, medidos nos doze meses anteriores ou nos doze meses seguintes, e o Bahrein permite o registro voluntário com base em despesas com IVA, além de fornecimentos, o que pode servir para uma empresa que ainda está construindo suas vendas."
+    },
+    {
+      "q": "A fatura eletrônica é obrigatória no Bahrein?",
+      "a": "Não, de acordo com tudo o que o National Bureau for Revenue publica. O VAT General Guide do órgão, atualizado em julho de 2026, não menciona fatura eletrônica, e nenhum guia sobre o tema aparece nas publicações. Não repetimos datas de comentários que o próprio órgão não publicou."
+    },
+    {
+      "q": "Até quando uma fatura de IVA no Bahrein deve ser emitida?",
+      "a": "Até o dia quinze do mês seguinte àquele em que surgiu a data de vencimento do IVA. É um prazo real, e não uma expectativa geral, e pega as empresas que juntam o faturamento no fim do trimestre."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Fature corretamente no Bahrein, de graça",
+  "ctaSub": "Defina a alíquota você mesmo, mostre o IVA por linha e mantenha os campos que o órgão pede em um modelo que você não precisa lembrar.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, versão 1.15, incluindo a seção 10.3 sobre requisitos da fatura",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "locale": "pt",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Calculadora grátis de IVA e impostos",
+  "metaTitle": "Calculadora de IVA de Omã: some ou retire 5% de IVA",
+  "metaDescription": "Calcule o IVA de 5% de Omã online. Some o IVA a um valor líquido ou retire de um total bruto e veja líquido, IVA e total na hora, sem cadastro.",
+  "keywords": "calculadora de IVA, calculadora de IVA de Omã, calculadora de imposto sobre vendas, somar IVA, retirar IVA, calcular 5% de IVA, calculadora de IVA configurável, cálculo de IVA por dentro",
+  "heroEyebrow": "Grátis · Sem cadastro",
+  "heroTitle": "Calculadora grátis de <em class=\"text-copper-400 not-italic\">IVA e impostos</em>",
+  "heroSubtitle": "Calcule o IVA de 5% de Omã online. Some o IVA a um valor líquido ou retire de um total bruto e veja líquido, IVA e total na hora, sem cadastro.",
+  "heroBullets": ["Qualquer alíquota, qualquer moeda", "Some ou retire o imposto", "Grátis para sempre, sem cadastro"],
+  "howToSteps": [
+    { "name": "Informe o valor", "text": "Digite o valor com que você quer trabalhar e escolha sua moeda." },
+    { "name": "Defina a alíquota", "text": "Use a alíquota padrão de 5% de Omã ou informe a alíquota atual que vale para a sua transação." },
+    { "name": "Escolha somar ou retirar", "text": "Some o imposto a um valor líquido, ou retire o imposto de um valor bruto para achar o líquido (IVA por dentro)." },
+    { "name": "Veja o resultado", "text": "Veja líquido, imposto e bruto separados na hora, prontos para copiar para uma fatura." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Some ou retire o imposto", "desc": "Calcule o imposto sobre um valor líquido, ou tire o imposto de dentro de um valor bruto, em um clique." },
+    { "icon": "globe", "title": "Qualquer alíquota, qualquer moeda", "desc": "5% de Omã por padrão, ou defina a alíquota que vale para você, em OMR, AED, SAR, USD, EUR e mais." },
+    { "icon": "bolt", "title": "Na hora e grátis", "desc": "Sem cadastro, sem limites. Veja líquido, imposto e bruto no momento em que digita." }
+  ],
+  "sections": [
+    { "title": "Por que usar a calculadora de IVA do Paper & Pen?", "body": "Seja para montar um orçamento, conferir uma fatura ou fazer uma declaração, você precisa que líquido, imposto e bruto batam até a última casa decimal. Esta calculadora aceita qualquer alíquota em qualquer moeda, funciona nos dois sentidos (somar o imposto ou tirá-lo de dentro de um total) e é grátis de verdade. Ela abre com a alíquota de 5% de Omã e é totalmente configurável para outras jurisdições." },
+    { "eyebrow": "Além da calculadora", "title": "Deixe o software cuidar do IVA para você", "body": "Calcular imposto à mão em cada linha é lento e sujeito a erros. No ERP completo do Paper & Pen, o IVA é aplicado automaticamente sobre o valor líquido após descontos de cada fatura, registrado nos seus livros e consolidado em relatórios prontos para a declaração, e você deixa a calculadora de lado de vez.", "items": ["Imposto automático em cada fatura e orçamento", "Alíquotas por item e por documento", "Relatórios-resumo de IVA prontos para envio"] }
+  ],
+  "faqs": [
+    { "q": "Que alíquota esta calculadora de IVA de Omã usa?", "a": "A calculadora abre com a alíquota de 5% de Omã. As regras fiscais podem mudar, então confirme a alíquota atual com a Oman Tax Authority antes de confiar em um cálculo. Você pode informar qualquer alíquota." },
+    { "q": "Como retiro o IVA de um total?", "a": "Escolha a opção de retirar (por dentro) e informe o valor bruto. A calculadora encontra o líquido e a parte do imposto que estava incluída no total." },
+    { "q": "Posso usar para impostos sobre vendas fora de Omã?", "a": "Sim. Defina a alíquota que vale para a sua transação e escolha qualquer moeda. Funciona para IVA, GST ou imposto sobre vendas em qualquer lugar do mundo." },
+    { "q": "Ela calcula o imposto sobre um valor com desconto?", "a": "Informe o valor líquido após o desconto e some o imposto a ele. Para IVA automático após desconto em faturas completas, crie um espaço de trabalho grátis no Paper & Pen, onde isso é feito para você." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Pare de calcular IVA à mão",
+  "ctaSub": "Aplique impostos automaticamente em cada fatura e tenha relatórios de IVA prontos para a declaração com um espaço de trabalho grátis no Paper & Pen."
+}
