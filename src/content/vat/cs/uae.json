@@ -1,0 +1,152 @@
+{
+  "locale": "cs",
+  "slug": "uae",
+  "order": 2,
+  "country": "Spojené arabské emiráty",
+  "title": "DPH ve Spojených arabských emirátech",
+  "metaTitle": "DPH v SAE: sazba, limity, e-fakturace · Paper & Pen",
+  "metaDescription": "Sazba DPH 5 % v SAE, limit AED 375,000, náležitosti faktury podle článku 59 a potvrzený harmonogram e-fakturace, vše s odkazem na zdroj.",
+  "keywords": "dph sae, sazba dph sae, limit pro registraci k dph sae, náležitosti daňového dokladu sae, e-fakturace sae 2027, federal tax authority",
+  "heroEyebrow": "Spojené arabské emiráty",
+  "heroTitle": "Fakturace podle pravidel <em class=\"text-copper-400 not-italic\">DPH v SAE</em>",
+  "heroSubtitle": "Sazba, limity, dvanáct údajů, které článek 59 vyžaduje na daňovém dokladu, a termíny e-fakturace, které Ministry of Finance skutečně zveřejnilo.",
+  "heroBullets": [
+    "Základní sazba 5 %",
+    "Registrace od AED 375,000",
+    "E-fakturace po fázích od roku 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Základní sazba DPH",
+      "value": "5 %",
+      "note": "Článek 3 Federal Decree-Law 8 of 2017 ukládá na jakékoli dodání nebo dovoz základní sazbu 5 %. Platí od 1. ledna 2018.",
+      "source": 1
+    },
+    {
+      "label": "Limit pro povinnou registraci",
+      "value": "AED 375,000",
+      "note": "Článek 7 odst. 1 Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Limit pro dobrovolnou registraci",
+      "value": "AED 187,500",
+      "note": "Článek 8 odst. 1 Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Strop pro zjednodušenou fakturu",
+      "value": "AED 10,000",
+      "note": "Zjednodušený daňový doklad je přípustný, pokud příjemce není registrovaný, nebo je registrovaný a úplata tuto částku nepřesahuje.",
+      "source": 2
+    },
+    {
+      "label": "Měna na faktuře",
+      "value": "AED",
+      "note": "Částky daně se uvádějí v dirhamech, a pokud je faktura v jiné měně, musí na ní být uvedený použitý směnný kurz.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Článek 59 odst. 1 Executive Regulation uvádí, co musí úplný daňový doklad obsahovat.",
+    "items": [
+      "Zřetelně uvedená slova „daňový doklad“ (Tax Invoice)",
+      "Jméno, adresa a daňové registrační číslo (TRN) dodavatele",
+      "Jméno, adresa a TRN příjemce, pokud je příjemce registrovaný",
+      "Pořadové nebo jedinečné číslo, podle kterého lze fakturu identifikovat a seřadit",
+      "Datum vystavení",
+      "Datum dodání, pokud se liší od data vystavení",
+      "Popis zboží nebo služeb",
+      "U každé položky: jednotková cena, množství nebo objem, sazba daně a částka k úhradě v AED",
+      "Výše případné poskytnuté slevy",
+      "Celková částka k úhradě v AED",
+      "Výše účtované daně v AED, se směnným kurzem, pokud byla přepočtena z jiné měny",
+      "U dodání v režimu přenesení daňové povinnosti prohlášení, že daň odvádí příjemce, a ustanovení, o které se opírá"
+    ],
+    "source": 2,
+    "caveat": "Jde o konsolidované znění Executive Regulation, které Federal Tax Authority zveřejnila 4. října 2024. Komentátoři zmiňují pozdější novelu; v textu zveřejněném FTA jsme ji nenašli, proto si aktuální znění před spolehnutím ověřte u FTA."
+  },
+  "einvoicing": {
+    "status": "Povinné a zaváděné po fázích, pilotní provoz otevřen",
+    "body": "Systém e-fakturace v SAE je decentralizovaný model pěti stran, ve kterém faktury procházejí přes akreditované poskytovatele služeb (Accredited Service Providers). Harmonogram stanoví vlastní pokyny Ministry of Finance: pilotní program a dobrovolné zavedení od 1. července 2026; firmy s obratem AED 50 milionů nebo vyšším zavádějí od 1. ledna 2027; firmy pod tímto limitem od 1. července 2027; vládní subjekty od 1. října 2027. Ministerstvo posunulo první termín pro jmenování akreditovaného poskytovatele služeb z 31. července 2026 na 30. října 2026, přičemž spuštění v lednu 2027 zůstalo beze změny. Zveřejněné PDF s pokyny a tisková zpráva ministerstva se tedy v tomto jednom datu rozcházejí a tisková zpráva je novější.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Jak to udělat správně",
+      "title": "Na čem lidé u článku 59 nejčastěji chybují",
+      "body": "Většina šablon faktur selhává na požadavku pro jednotlivé řádky. Článek 59 odst. 1 písm. h) vyžaduje jednotkovou cenu, množství, sazbu daně a částku k úhradě u každého zboží nebo služby, takže jediná souhrnná částka daně v patičce faktury nestačí, když mají řádky různý daňový režim. Druhým úskalím je TRN příjemce, povinné vždy, když je příjemce registrovaný, a třetím směnný kurz: když fakturujete v dolarech, musíte daň přesto uvést v dirhamech i s použitým kurzem.",
+      "items": [
+        "Sazba a částka daně u každého řádku, ne jen celkem",
+        "TRN příjemce vždy, když je registrovaný",
+        "Směnný kurz na každé faktuře mimo AED",
+        "Formulace o přenesení daňové povinnosti, kde se uplatní"
+      ]
+    },
+    {
+      "eyebrow": "Příprava",
+      "title": "Co od vás termíny pro rok 2027 skutečně chtějí",
+      "body": "Povinností není koupit software s logem, ale umět k datu, které platí pro vaše pásmo obratu, vystavit strukturovanou fakturu přes akreditovaného poskytovatele služeb. Počítejte zpětně od data zavedení pro vaše pásmo, ne od pilotního provozu: termín pro jmenování poskytovatele služeb připadá měsíce před spuštěním a většina firem nestihne právě jmenování, ne spuštění. Data, která budete potřebovat, jsou mezitím stejná, jaká už dnes vyžaduje článek 59, což je dobrý důvod opravit kvalitu faktur teď, a ne až během migrace.",
+      "items": [
+        "Vězte, do kterého pásma obratu patříte",
+        "Zapište si jmenování poskytovatele služeb, ne jen spuštění",
+        "Vyčistěte TRN zákazníků před termínem, ne během něj",
+        "Evidujte daň u jednotlivých řádků už od dneška"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Jaká je sazba DPH v SAE?",
+      "a": "Pět procent. Článek 3 Federal Decree-Law 8 of 2017 ukládá na jakékoli zdanitelné dodání nebo dovoz základní sazbu 5 %, platnou od 1. ledna 2018. Některá dodání mají nulovou sazbu nebo jsou osvobozená a ten rozdíl je důležitý: dodavatel s nulovou sazbou si daň na vstupu uplatnit může, osvobozený ne."
+    },
+    {
+      "q": "Odkdy je e-fakturace v SAE povinná?",
+      "a": "Záleží na vašem obratu. Podle zveřejněných pokynů Ministry of Finance zavádějí firmy s obratem AED 50 milionů nebo vyšším od 1. ledna 2027, firmy pod tímto limitem od 1. července 2027 a vládní subjekty od 1. října 2027. Pilotní provoz a dobrovolné zavedení byly otevřeny 1. července 2026. Než budete plánovat podle jakéhokoli data, ověřte si stránky ministerstva, protože už jeden termín změnilo."
+    },
+    {
+      "q": "Kdy mohu v SAE vystavit zjednodušený daňový doklad?",
+      "a": "Pokud příjemce není registrovaný k DPH, nebo je registrovaný a úplata nepřesahuje AED 10,000. Zjednodušená faktura musí i tak obsahovat slova „daňový doklad“ (Tax Invoice), vaše jméno, adresu a TRN, datum vystavení, popis dodaného plnění a celkovou úplatu a částku daně v dirhamech."
+    },
+    {
+      "q": "Potřebuji na faktuře v SAE TRN zákazníka?",
+      "a": "Ano, vždy když je zákazník registrovaný k DPH. Článek 59 odst. 1 písm. c) v takovém případě vyžaduje jméno, adresu a daňové registrační číslo příjemce. Bez něj si zákazník může jen obtížně uplatnit daň na vstupu, což se k vám obvykle vrátí jako žádost o nové vystavení."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Fakturujte v SAE správně, zdarma",
+  "ctaSub": "Daň u každého řádku, jakákoli měna s kurzem přímo na dokladu a arabská i anglická faktura z jednoho záznamu.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, článek 3 (konsolidované znění s novelami)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, články 7, 8 a 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1 a tisková zpráva ministerstva o změně",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

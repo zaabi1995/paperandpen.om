@@ -1,0 +1,152 @@
+{
+  "locale": "ro",
+  "slug": "uae",
+  "order": 2,
+  "country": "Emiratele Arabe Unite",
+  "title": "TVA în EAU",
+  "metaTitle": "TVA în EAU: cotă, praguri, facturare electronică · Paper & Pen",
+  "metaDescription": "Cota de TVA de 5% din EAU, pragul de AED 375,000, conținutul facturii după articolul 59 și calendarul confirmat al facturării electronice, toate cu surse.",
+  "keywords": "TVA EAU, TVA Emiratele Arabe Unite, cota TVA Dubai, prag înregistrare TVA EAU, cerințe factură fiscală EAU, facturare electronică EAU 2027, Federal Tax Authority",
+  "heroEyebrow": "Emiratele Arabe Unite",
+  "heroTitle": "Facturarea după regulile de <em class=\"text-copper-400 not-italic\">TVA din EAU</em>",
+  "heroSubtitle": "Cota, pragurile, cele douăsprezece elemente pe care articolul 59 le cere pe o factură fiscală și datele facturării electronice publicate efectiv de Ministry of Finance.",
+  "heroBullets": [
+    "Cotă standard de 5%",
+    "AED 375,000 pentru înregistrare",
+    "Facturare electronică etapizată din 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Cota standard de TVA",
+      "value": "5%",
+      "note": "Articolul 3 din Federal Decree-Law 8 of 2017 impune o cotă standard de 5% pentru orice livrare sau import. În vigoare din 1 ianuarie 2018.",
+      "source": 1
+    },
+    {
+      "label": "Pragul de înregistrare obligatorie",
+      "value": "AED 375,000",
+      "note": "Articolul 7 alineatul (1) din Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Pragul de înregistrare voluntară",
+      "value": "AED 187,500",
+      "note": "Articolul 8 alineatul (1) din Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Plafonul facturii simplificate",
+      "value": "AED 10,000",
+      "note": "Factura fiscală simplificată este permisă când destinatarul nu este înregistrat sau este înregistrat, iar contravaloarea nu depășește această sumă.",
+      "source": 2
+    },
+    {
+      "label": "Moneda de pe factură",
+      "value": "AED",
+      "note": "Sumele de taxă se afișează în dirhami, iar dacă factura este în altă monedă, trebuie să apară cursul de schimb aplicat.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Articolul 59 alineatul (1) din Executive Regulation enumeră ce trebuie să conțină o factură fiscală completă.",
+    "items": [
+      "Mențiunea „Factură fiscală”, afișată clar",
+      "Numele, adresa și codul de înregistrare fiscală (TRN) ale furnizorului",
+      "Numele, adresa și TRN-ul destinatarului, dacă acesta este înregistrat",
+      "Un număr secvențial sau unic, care permite identificarea și ordonarea facturii",
+      "Data emiterii",
+      "Data livrării, dacă diferă de data emiterii",
+      "O descriere a bunurilor sau serviciilor",
+      "Pentru fiecare articol: prețul unitar, cantitatea sau volumul, cota de taxă și suma de plată în AED",
+      "Valoarea oricărei reduceri acordate",
+      "Suma brută de plată în AED",
+      "Valoarea taxei percepute în AED, cu cursul de schimb dacă s-a convertit din altă monedă",
+      "Pentru o livrare cu taxare inversă, mențiunea că destinatarul trebuie să contabilizeze taxa și prevederea legală aplicată"
+    ],
+    "source": 2,
+    "caveat": "Aceasta este publicația consolidată a Executive Regulation de către Federal Tax Authority, datată 4 octombrie 2024. Comentatorii se referă la o modificare ulterioară; nu am găsit-o într-un text publicat de FTA, așa că verifică formularea actuală cu FTA înainte să te bazezi pe ea."
+  },
+  "einvoicing": {
+    "status": "Obligatorie și etapizată, pilot deschis",
+    "body": "UAE eInvoicing System este un model descentralizat cu cinci colțuri, în care facturile trec prin furnizori de servicii acreditați (Accredited Service Providers). Ghidurile publicate chiar de Ministry of Finance stabilesc calendarul: un program pilot și adoptare voluntară din 1 iulie 2026; firmele cu venituri de AED 50 milioane sau mai mult implementează din 1 ianuarie 2027; firmele sub acest prag din 1 iulie 2027; entitățile guvernamentale din 1 octombrie 2027. Ministerul a prelungit primul termen de numire a unui Accredited Service Provider de la 31 iulie 2026 la 30 octombrie 2026, fără să schimbe intrarea în vigoare din ianuarie 2027, așa că PDF-ul ghidurilor publicate și comunicatul ministerului diferă în privința acestei singure date, iar comunicatul este cel mai recent.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Cum faci corect",
+      "title": "Unde greșesc firmele la articolul 59",
+      "body": "Cerința pe fiecare linie este cea la care pică majoritatea șabloanelor de factură. Articolul 59 alineatul (1) litera (h) cere prețul unitar, cantitatea, cota de taxă și suma de plată pentru fiecare bun sau serviciu, ceea ce înseamnă că o singură cifră de taxă cumulată la finalul facturii nu ajunge când liniile au tratamente diferite. A doua este TRN-ul destinatarului, obligatoriu ori de câte ori acesta este înregistrat, iar a treia este cursul de schimb: dacă facturezi în dolari, trebuie totuși să afișezi taxa în dirhami și cursul folosit.",
+      "items": [
+        "Cota și suma taxei pe fiecare linie, nu doar un total",
+        "TRN-ul destinatarului ori de câte ori este înregistrat",
+        "Cursul de schimb afișat pe orice factură care nu e în AED",
+        "Mențiunea de taxare inversă acolo unde se aplică"
+      ]
+    },
+    {
+      "eyebrow": "Pregătirea",
+      "title": "Ce îți cer de fapt datele din 2027",
+      "body": "Obligația nu este să cumperi un software cu un logo pe el, ci să poți emite o factură structurată printr-un Accredited Service Provider la data care se aplică segmentului tău de venituri. Pornește înapoi de la data de implementare a segmentului tău, nu de la pilot: termenul de numire a furnizorului de servicii cade cu luni înainte de intrarea în vigoare și tocmai numirea, nu intrarea în vigoare, este cea pe care o ratează majoritatea firmelor. Între timp, datele de care vei avea nevoie sunt aceleași pe care articolul 59 le cere deja, un motiv bun să îmbunătățești calitatea facturilor acum, nu în timpul unei migrări.",
+      "items": [
+        "Află în ce segment de venituri te încadrezi",
+        "Notează în calendar numirea furnizorului de servicii, nu doar intrarea în vigoare",
+        "Curăță TRN-urile clienților înainte de termen, nu în timpul lui",
+        "Păstrează de azi detaliile de taxă la nivel de linie"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Care este cota de TVA în EAU?",
+      "a": "Cinci la sută. Articolul 3 din Federal Decree-Law 8 of 2017 impune o cotă standard de 5% pentru orice livrare sau import taxabil, în vigoare din 1 ianuarie 2018. Anumite livrări sunt cu cota zero sau scutite, iar diferența contează: un furnizor cu cota zero își poate deduce în continuare TVA-ul, unul scutit nu poate."
+    },
+    {
+      "q": "Când devine obligatorie facturarea electronică în EAU?",
+      "a": "Depinde de veniturile tale. Conform ghidurilor publicate de Ministry of Finance, firmele cu venituri de AED 50 milioane sau mai mult implementează din 1 ianuarie 2027, cele sub acest prag din 1 iulie 2027, iar entitățile guvernamentale din 1 octombrie 2027. Un pilot și adoptarea voluntară au început la 1 iulie 2026. Verifică paginile ministerului înainte să-ți planifici ceva în jurul vreunei date, pentru că a modificat deja un termen."
+    },
+    {
+      "q": "Când pot emite o factură fiscală simplificată în EAU?",
+      "a": "Când destinatarul nu este înregistrat în scopuri de TVA sau este înregistrat, iar contravaloarea nu depășește AED 10,000. O factură simplificată trebuie totuși să conțină mențiunea „Factură fiscală”, numele, adresa și TRN-ul tău, data emiterii, o descriere a ce s-a livrat și contravaloarea totală și valoarea taxei în dirhami."
+    },
+    {
+      "q": "Am nevoie de TRN-ul clientului pe o factură din EAU?",
+      "a": "Da, ori de câte ori clientul este înregistrat în scopuri de TVA. Articolul 59 alineatul (1) litera (c) cere în acest caz numele, adresa și codul de înregistrare fiscală ale destinatarului. Fără el, clientul tău ar putea avea dificultăți la deducerea TVA-ului, ceea ce de obicei se întoarce la tine ca cerere de reemitere."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Facturează corect în EAU, gratuit",
+  "ctaSub": "Taxă la nivel de linie, orice monedă cu cursul afișat pe document și o factură în arabă și engleză dintr-o singură înregistrare.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, articolul 3 (text consolidat, cu modificări)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, articolele 7, 8 și 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1 și comunicatul ministerului privind modificarea",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

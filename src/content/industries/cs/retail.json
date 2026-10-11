@@ -1,0 +1,35 @@
+{
+  "locale": "cs",
+  "slug": "retail",
+  "order": 2,
+  "title": "Maloobchod a prodejny",
+  "metaTitle": "Pokladní a skladový software pro prodejny · Paper & Pen",
+  "metaDescription": "Účtování zdarma a k tomu sklad s čárovými kódy, upozornění na nízký stav a aktuální ocenění pro prodejny. Prodávejte rychle a nikdy nevyprodejte.",
+  "keywords": "software pro maloobchod, pokladní software pro obchod, sklad s čárovými kódy, prodejní místo a fakturace, upozornění na nízký stav, erp pro maloobchod, sklad pro více prodejen",
+  "heroEyebrow": "Pro prodejny a maloobchodníky",
+  "heroTitle": "Prodávejte rychle, <em class=\"text-copper-400 not-italic\">nikdy nevyprodejte</em>",
+  "heroSubtitle": "Naúčtujte zákazníkům během vteřin, provádějte inventuru skenováním čárových kódů a nechte zásoby aktualizovat se samy. Paper & Pen drží regály, prodeje i účetnictví v souladu, takže méně počítáte a víc prodáváte.",
+  "heroBullets": ["Rychlé účtování zdarma", "Podpora čárových kódů a SKU", "Upozornění na nízký stav dřív, než dojde zboží"],
+  "features": [
+    { "icon": "receipt", "title": "Rychlé účtování", "desc": "Naúčtujte prodej a vytiskněte nebo pošlete účtenku během vteřin, na jakémkoli zařízení." },
+    { "icon": "inventory", "title": "Sklad s čárovými kódy", "desc": "Skenováním počítejte nebo přesouvejte zásoby, s tříděním podle SKU, šarže a měrné jednotky." },
+    { "icon": "bell", "title": "Upozornění na nízký stav", "desc": "Nastavte body doobjednání a dostanete varování dřív, než nejprodávanější zboží dojde." },
+    { "icon": "truck", "title": "Zásoby ve více prodejnách", "desc": "Sledujte a převádějte zásoby mezi pobočkami s aktuálním množstvím všude." },
+    { "icon": "calc", "title": "Aktuální ocenění", "desc": "Průměrná cena nebo FIFO udrží hodnotu zásob v rozvaze přesnou." },
+    { "icon": "chart", "title": "Přehledy nejprodávanějšího zboží", "desc": "Uvidíte, co se prodává a co leží, podle položky, kategorie a prodejny." }
+  ],
+  "sections": [
+    { "eyebrow": "Rychlejší pokladna", "title": "Účtování stavěné pro rušný pult", "body": "Zákazníci nečekají. Sestavte prodej vyhledáním položek, uplatněte slevu, přijměte platbu a během vteřin předejte čistou účtenku. Účtenky pošlete přes WhatsApp nebo vytisknete u pokladny a každý prodej se propíše rovnou do skladu a účetnictví, bez přepisování.", "items": ["Rychlé přidání položek vyhledáním", "Okamžitý tisk nebo sdílení účtenek", "Slevy a daň vyřešené automaticky"] },
+    { "eyebrow": "Sklad, který se hlídá sám", "title": "Vždy víte, co je v regálu", "body": "Ruční inventura zastará ve chvíli, kdy něco prodáte. V Paper & Pen každý prodej i dodávka upraví zásoby v reálném čase, takže číslo na obrazovce odpovídá regálu. Nastavte body doobjednání a systém vás upozorní na pomalé doplňování dřív, než přijdete o prodej. Vytvořeno v Ománu s nativní podporou OMR, AED a SAR a 5% DPH a připraveno na USD, EUR nebo jakoukoli sazbu daně, se kterou obchodujete.", "items": ["Zásoby v reálném čase při každém prodeji", "Body doobjednání a upozornění na nízký stav", "Jakákoli měna, jakákoli sazba daně"] }
+  ],
+  "faqs": [
+    { "q": "Mohu prodávat se čtečkou čárových kódů?", "a": "U pokladny ne. U pokladny položky vyhledáte a přidáte je do prodeje. Čtečka čárových kódů slouží pro zásoby: naskenujte položku, abyste ji spočítali, nebo abyste zásoby přijali či vydali. Položky jsou tříděné podle SKU, šarže a měrné jednotky." },
+    { "q": "Aktualizují se zásoby, když prodám?", "a": "Ano. Každý prodej snižuje zásoby a každá dodávka je zvyšuje v reálném čase, ve všech vašich prodejnách, bez ruční inventury." },
+    { "q": "Mohu provozovat více prodejen?", "a": "Ano. Sledujte zásoby po prodejnách, převádějte je mezi pobočkami a z jednoho pracovního prostoru vidíte všude aktuální množství." },
+    { "q": "Je účtování opravdu zdarma?", "a": "Prodej a fakturace, včetně účtenek, jsou navždy zdarma. Modul Sklad přidáte, až budete chtít řízení zásob s čárovými kódy a upozornění na nízký stav." },
+    { "q": "Funguje i mimo státy Perského zálivu?", "a": "Ano. Paper & Pen funguje v jakékoli měně s jakoukoli sazbou daně, takže maloobchodníci kdekoli mohou účtovat a spravovat zásoby, s arabštinou, angličtinou a dalšími jazyky po ruce." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Veďte prodejnu bez dohadů",
+  "ctaSub": "Začněte zdarma s účtováním a účtenkami a pak přidejte Sklad pro zásoby s čárovými kódy a upozornění na nízký stav."
+}

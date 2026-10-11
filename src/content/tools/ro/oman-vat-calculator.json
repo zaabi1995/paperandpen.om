@@ -1,0 +1,38 @@
+{
+  "locale": "ro",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Calculator gratuit de TVA și taxe",
+  "metaTitle": "Calculator TVA Oman: adaugă sau scade TVA de 5%",
+  "metaDescription": "Calculează online TVA-ul de 5% din Oman. Adaugă TVA la o sumă netă sau scade-l dintr-un total brut și vezi instant netul, TVA-ul și totalul, fără cont.",
+  "keywords": "calculator TVA, calculator TVA Oman, calculator taxă pe vânzări, adăugare TVA, scădere TVA, calculator TVA 5%, calculator TVA configurabil, calcul TVA invers",
+  "heroEyebrow": "Gratuit · Fără cont",
+  "heroTitle": "Calculator gratuit de <em class=\"text-copper-400 not-italic\">TVA și taxe</em>",
+  "heroSubtitle": "Calculează online TVA-ul de 5% din Oman. Adaugă TVA la o sumă netă sau scade-l dintr-un total brut și vezi instant netul, TVA-ul și totalul, fără cont.",
+  "heroBullets": ["Orice cotă, orice monedă", "Adaugă sau scade taxa", "Gratuit pentru totdeauna, fără cont"],
+  "howToSteps": [
+    { "name": "Introdu suma", "text": "Scrie suma cu care vrei să lucrezi și alege moneda." },
+    { "name": "Setează cota de taxă", "text": "Folosește cota implicită de 5% din Oman sau introdu cota actuală care se aplică tranzacției tale." },
+    { "name": "Alege adăugare sau scădere", "text": "Adaugă taxa la o sumă netă sau scade taxa dintr-o sumă brută ca să afli netul (TVA invers)." },
+    { "name": "Citește rezultatul", "text": "Vezi instant netul, taxa și brutul defalcate, gata de copiat într-o factură." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Adaugă sau scade taxa", "desc": "Calculează taxa înainte, pe o sumă netă, sau scoate-o dintr-o sumă brută cu un clic." },
+    { "icon": "globe", "title": "Orice cotă, orice monedă", "desc": "Implicit 5% pentru Oman sau cota care ți se aplică, în OMR, AED, SAR, USD, EUR și altele." },
+    { "icon": "bolt", "title": "Instant și gratuit", "desc": "Fără cont, fără limite. Obții netul, taxa și brutul în clipa în care scrii." }
+  ],
+  "sections": [
+    { "title": "De ce să folosești calculatorul de TVA Paper & Pen?", "body": "Fie că stabilești prețul unei oferte, verifici o factură sau depui un decont, ai nevoie ca netul, taxa și brutul să se potrivească până la ultima zecimală. Acest calculator lucrează cu orice cotă, în orice monedă, în ambele sensuri (adaugă taxa sau o scoate dintr-un total) și este cu adevărat gratuit. Pornește de la cota de 5% din Oman și este complet configurabil pentru alte jurisdicții." },
+    { "eyebrow": "Dincolo de calculator", "title": "Lasă software-ul să calculeze TVA-ul pentru tine", "body": "Calculul manual al taxei pe fiecare linie este lent și predispus la greșeli. În ERP-ul complet Paper & Pen, TVA-ul se aplică automat pe valoarea netă după reducere a fiecărei facturi, se înregistrează în contabilitate și se adună în rapoarte gata pentru decont, așa că nu mai ai nevoie deloc de calculator.", "items": ["Taxă automată pe fiecare factură și ofertă", "Cote de taxă pe articol și pe document", "Rapoarte de sinteză TVA gata de depus"] }
+  ],
+  "faqs": [
+    { "q": "Ce cotă folosește acest calculator de TVA pentru Oman?", "a": "Calculatorul pornește de la cota de 5% din Oman. Regulile fiscale se pot schimba, așa că verifică cota actuală la Oman Tax Authority înainte să te bazezi pe un calcul. Poți introduce orice cotă." },
+    { "q": "Cum scad TVA-ul dintr-un total?", "a": "Alege opțiunea de scădere (invers) și introdu suma brută. Calculatorul află netul și partea de taxă inclusă în total." },
+    { "q": "Îl pot folosi pentru taxa pe vânzări în afara Omanului?", "a": "Da. Setează cota care se aplică tranzacției tale și alege orice monedă. Funcționează pentru TVA, GST sau taxa pe vânzări oriunde în lume." },
+    { "q": "Calculează taxa pe o sumă cu reducere?", "a": "Introdu suma netă după reducere și adaugă taxa la ea. Pentru TVA aplicat automat după reducere pe facturi complete, creează un spațiu de lucru Paper & Pen gratuit, unde totul se face pentru tine." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Nu mai calcula TVA-ul de mână",
+  "ctaSub": "Aplică taxa automat pe fiecare factură și obține rapoarte de TVA gata de decont cu un spațiu de lucru Paper & Pen gratuit."
+}

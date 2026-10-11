@@ -1,0 +1,35 @@
+{
+  "locale": "vi",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "Nhân sự và tiền lương",
+  "metaTitle": "Phần mềm nhân sự và tính lương dễ dàng · Paper & Pen",
+  "metaDescription": "Quản lý nhân viên, chấm công, nghỉ phép và phiếu lương ở một nơi. Tính lương bằng mọi loại tiền tệ, ghi lương vào sổ sách, sẵn sàng cho trợ cấp thôi việc.",
+  "keywords": "phần mềm nhân sự, phần mềm tính lương, phiếu lương, chấm công, quản lý nghỉ phép, trợ cấp thôi việc, wps, quản lý nhân viên",
+  "heroEyebrow": "Mô-đun bổ sung",
+  "heroTitle": "Trả lương cho đội ngũ <em class=\"text-copper-400 not-italic\">chính xác</em>, mọi lúc",
+  "heroSubtitle": "Nhân viên, chấm công, nghỉ phép và tiền lương trong một mô-đun gọn gàng. Chạy một kỳ lương, tạo phiếu lương và ghi lương vào sổ kế toán chỉ trong vài phút, không phải vài ngày.",
+  "heroBullets": ["Tính lương trong vài phút", "Phiếu lương và tự đăng ký nghỉ phép", "Ghi thẳng vào sổ kế toán"],
+  "features": [
+    { "icon": "hr", "title": "Hồ sơ nhân viên", "desc": "Mỗi người một hồ sơ: hợp đồng, lương, giấy tờ và lịch sử." },
+    { "icon": "clock", "title": "Chấm công và làm thêm giờ", "desc": "Ghi nhận ca làm, giờ làm thêm và ngày vắng mặt, tự động đưa vào bảng lương." },
+    { "icon": "doc", "title": "Quản lý nghỉ phép", "desc": "Thiết lập chính sách nghỉ phép, duyệt đơn và tự động theo dõi số ngày phép còn lại." },
+    { "icon": "receipt", "title": "Phiếu lương", "desc": "Tạo phiếu lương rõ ràng, chi tiết từng khoản và gửi cho từng nhân viên." },
+    { "icon": "calc", "title": "Khấu trừ và trợ cấp thôi việc", "desc": "Xử lý đúng các khoản vay, khấu trừ và tính trợ cấp thôi việc." },
+    { "icon": "accounting", "title": "Ghi vào sổ sách", "desc": "Mỗi kỳ lương tự động ghi lương và các khoản dồn tích vào sổ kế toán." }
+  ],
+  "sections": [
+    { "eyebrow": "Bớt việc hành chính", "title": "Từ chấm công đến phiếu lương, không cần bảng tính", "body": "Chấm công, làm thêm giờ, nghỉ phép và khoản vay đều đổ vào kỳ lương, nên bạn không còn phải ghép nối các bảng tính vào cuối tháng. Duyệt kỳ lương một lần và Paper & Pen tạo toàn bộ phiếu lương cùng bút toán lương trong một lượt.", "items": ["Chấm công và làm thêm giờ đưa vào bảng lương", "Xử lý khoản vay và khấu trừ", "Tạo phiếu lương hàng loạt"] },
+    { "eyebrow": "Dù bạn tuyển dụng ở đâu", "title": "Bảng lương phù hợp quốc gia và tiền tệ của bạn", "body": "Trả lương bằng mọi loại tiền tệ và cấu hình các khoản phụ cấp, khấu trừ và quy định trợ cấp thôi việc áp dụng tại nơi bạn hoạt động. Với giao diện tiếng Ả Rập, tiếng Anh, tiếng Hindi, tiếng Bengal và tiếng Urdu, nhân viên có thể đọc phiếu lương và xin nghỉ phép bằng chính ngôn ngữ của mình.", "items": ["Trả lương bằng mọi loại tiền tệ", "Phụ cấp và khấu trừ có thể cấu hình", "Sẵn sàng cho trợ cấp thôi việc"] }
+  ],
+  "faqs": [
+    { "q": "Nhân sự và tiền lương có miễn phí không?", "a": "Đây là mô-đun bổ sung trả phí, tùy chọn. Phần lõi miễn phí mãi mãi gồm Bán hàng và hóa đơn, và bạn thêm Nhân sự và tiền lương khi cần quản lý nhân viên và lương." },
+    { "q": "Tôi có thể tính lương bằng mọi loại tiền tệ không?", "a": "Có. Trả lương cho đội ngũ bằng OMR, AED, SAR, USD, EUR hoặc bất kỳ loại tiền tệ nào, với phụ cấp và khấu trừ được cấu hình theo quy định của bạn." },
+    { "q": "Có quản lý chấm công và nghỉ phép không?", "a": "Có. Ghi nhận chấm công và làm thêm giờ, thiết lập chính sách nghỉ phép, duyệt đơn và theo dõi số ngày phép, tất cả đều đưa vào bảng lương." },
+    { "q": "Bảng lương có ghi vào sổ kế toán không?", "a": "Có. Khi bật Kế toán, mỗi kỳ lương tự động ghi lương, phụ cấp và các khoản dồn tích vào sổ cái." },
+    { "q": "Có tính được trợ cấp thôi việc không?", "a": "Có. Cấu hình quy định trợ cấp thôi việc và tiền thưởng thâm niên cho quốc gia của bạn để khoản quyết toán cuối cùng được tính chính xác." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Ngày trả lương nhẹ nhàng hơn",
+  "ctaSub": "Bắt đầu miễn phí với hóa đơn và thêm Nhân sự và tiền lương để quản lý đội ngũ và tính lương trong vài phút."
+}

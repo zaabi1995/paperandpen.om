@@ -1,0 +1,35 @@
+{
+  "locale": "ro",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Producție",
+  "metaTitle": "Software de producție și fabricație · Paper & Pen",
+  "metaDescription": "Planifică producția cu liste de materiale, comenzi de lucru și costuri reale. Consumă materii prime, produce bunuri finite și află marja reală. Oriunde.",
+  "keywords": "software producție, program fabricație, gestiunea producției, listă de materiale, BOM, comenzi de lucru, calculul costului de producție, produse finite",
+  "heroEyebrow": "Modul suplimentar",
+  "heroTitle": "Produci la comandă, <em class=\"text-copper-400 not-italic\">calculezi costul la rial</em>",
+  "heroSubtitle": "Transformă materiile prime în produse finite cu liste de materiale și comenzi de lucru, în timp ce Paper & Pen urmărește costul fiecărei componente, ca să-ți știi mereu marja reală.",
+  "heroBullets": ["Liste de materiale și comenzi de lucru", "Consum automat din stoc", "Cost de producție real"],
+  "features": [
+    { "icon": "manufacturing", "title": "Liste de materiale", "desc": "Definește ce intră în fiecare produs, cu cantități și subansamble." },
+    { "icon": "doc", "title": "Comenzi de lucru", "desc": "Planifică și urmărește loturile de producție, de la materii prime la stoc finit." },
+    { "icon": "inventory", "title": "Mișcări automate de stoc", "desc": "Materiile prime se consumă și produsele finite se adaugă pe măsură ce produci." },
+    { "icon": "calc", "title": "Costul producției", "desc": "Adună costul materialelor și regia într-o valoare corectă a produselor finite." },
+    { "icon": "chart", "title": "Vizibilitatea marjei", "desc": "Compară costul de producție cu prețul de vânzare și vezi marja reală pe fiecare articol." },
+    { "icon": "refresh", "title": "Legat de la un capăt la altul", "desc": "Conectează achizițiile, stocurile și vânzările într-un singur flux continuu." }
+  ],
+  "sections": [
+    { "eyebrow": "Planifică cu încredere", "title": "De la rețetă la produs finit", "body": "Definești o dată lista de materiale, iar Paper & Pen știe exact ce consumă fiecare lot. Emiți o comandă de lucru, iar materiile prime sunt rezervate și consumate, în timp ce produsele finite intră în stoc, cu toate costurile calculate pentru tine.", "items": ["Liste de materiale reutilizabile", "Comenzi de lucru cu rezervare de stoc", "Consum automat și recepție de produse finite"] },
+    { "eyebrow": "Află-ți marja reală", "title": "Costuri care spun adevărul", "body": "Dacă îți ghicești costul, îți ghicești profitul. Paper & Pen adună materialele și regia într-un cost real al produselor finite, îl înregistrează în contabilitate și îți arată marja la fiecare vânzare. Funcționează în orice monedă, ca să poți cumpăra și vinde peste granițe.", "items": ["Cost din materiale plus regie", "Înregistrare automată în contabilitate", "Marjă pe produs și pe comandă"] }
+  ],
+  "faqs": [
+    { "q": "Producția este gratuită?", "a": "Producția este un modul suplimentar opțional, cu plată. Modulul de bază Vânzări și Facturare este gratuit pentru totdeauna, iar Producția o adaugi când fabrici bunuri." },
+    { "q": "Pot defini liste de materiale?", "a": "Da. Creezi un BOM pentru fiecare produs, inclusiv subansamble, și îl refolosești la fiecare lot de producție." },
+    { "q": "Consumă stocul automat?", "a": "Da. Când procesezi o comandă de lucru, materiile prime se consumă și produsele finite se adaugă automat în stoc." },
+    { "q": "Cum se calculează costul de producție?", "a": "Costurile materialelor și ale regiei se adună în valoarea produselor finite, care se înregistrează în contabilitate, așa că marjele tale sunt corecte." },
+    { "q": "Funcționează în orice monedă?", "a": "Da. Cumperi materiale și vinzi produse finite în orice monedă, cu costurile și contabilitatea sincronizate." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Calculează corect costul fiecărui lot",
+  "ctaSub": "Începe gratuit cu facturarea și adaugă Producția ca să planifici fabricația și să-ți afli marja reală."
+}

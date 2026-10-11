@@ -1,0 +1,35 @@
+{
+  "locale": "cs",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restaurace a kavárny",
+  "metaTitle": "Účtování a skladové receptury pro restaurace | Paper & Pen",
+  "metaDescription": "Účtování zdarma a k tomu sklad surovin, kalkulace receptur a objednávky dodavatelům pro restaurace a kavárny. Hlídejte náklady na jídlo, účtujte rychle.",
+  "keywords": "software pro restaurace, účtování v kavárně, kalkulace receptur, kontrola nákladů na suroviny, sklad restaurace, objednávky dodavatelům, erp pro gastro",
+  "heroEyebrow": "Pro restaurace a kavárny",
+  "heroTitle": "Účtujte rychle, <em class=\"text-copper-400 not-italic\">hlídejte náklady na jídlo</em>",
+  "heroSubtitle": "Tiskněte účtenky během vteřin, sledujte suroviny na gramy přesně a znejte skutečné náklady každého jídla. Paper & Pen nechá kuchyni, pokladnu i účetnictví fungovat společně.",
+  "heroBullets": ["Rychlé účtenky zdarma", "Kalkulace surovin a receptur", "Objednávky dodavatelům"],
+  "features": [
+    { "icon": "receipt", "title": "Rychlé účtenky", "desc": "Přijměte objednávku, uplatněte daň a obsluhu a vytiskněte nebo pošlete účtenku během vteřin." },
+    { "icon": "manufacturing", "title": "Kalkulace receptur", "desc": "Sestavte receptury ze surovin a budete znát skutečné náklady každého jídla." },
+    { "icon": "inventory", "title": "Sklad surovin", "desc": "Sledujte suroviny podle jednotky, šarže a data spotřeby, s upozorněním na nízký stav." },
+    { "icon": "truck", "title": "Objednávky dodavatelům", "desc": "Vystavujte objednávky dodavatelům a při příjmu aktualizujte zásoby i náklady." },
+    { "icon": "calc", "title": "Podíl nákladů na jídlo", "desc": "Porovnávejte náklady jídla s cenou v menu, aby vaše marže zůstaly zdravé." },
+    { "icon": "chart", "title": "Přehledy prodejů", "desc": "Sledujte nejprodávanější jídla, denní tržby a trendy napříč dny a pobočkami." }
+  ],
+  "sections": [
+    { "eyebrow": "Rychlejší obsluha", "title": "Účtenky, se kterými fronta nestojí", "body": "Polední špička nedává čas na pomalé účtování. Přidejte položky, uplatněte DPH nebo obsluhu, přijměte platbu a během vteřin předejte čistou účtenku, a když o ni host požádá, pošlete ji přes WhatsApp. Každý prodej se automaticky zaúčtuje, takže uzávěrka dne je otázka jednoho pohledu, ne večera u klávesnice.", "items": ["Rychlé přidání položek a přijetí platby", "DPH a obsluha vyřešené za vás", "Denní tržby se párují automaticky"] },
+    { "eyebrow": "Kuchyně mluví pravdu", "title": "Kalkulace receptur, která chrání vaši marži", "body": "Jídlo je ziskové jen tehdy, když víte, kolik stojí. Sestavte receptury ze surovin, nechte Paper & Pen spočítat náklady každého talíře z aktuálních nákupních cen a sledujte podíl nákladů na jídlo, jak se mění ceny dodavatelů. Sledujte suroviny podle šarže a data spotřeby, vystavujte objednávky a držte odpad na uzdě. Vytvořeno v Ománu s nativní podporou OMR, AED a SAR a 5% DPH a připraveno na USD, EUR nebo jakýkoli trh.", "items": ["Receptury kalkulované z aktuálních cen surovin", "Sledování šarží a data spotřeby u surovin", "Objednávky, které při příjmu aktualizují náklady"] }
+  ],
+  "faqs": [
+    { "q": "Mohu kalkulovat menu z cen surovin?", "a": "Ano. Každé jídlo nadefinujte jako recepturu ze surovin a Paper & Pen spočítá jeho náklady z aktuálních nákupních cen, takže nastavíte ceny v menu, které chrání vaši marži." },
+    { "q": "Sleduje suroviny a data spotřeby?", "a": "Ano. Suroviny se sledují podle měrné jednotky, šarže a data spotřeby, s upozorněním na nízký stav, abyste objednali dřív, než dojdou." },
+    { "q": "Mohu uplatnit DPH a poplatek za obsluhu?", "a": "Ano. Uplatněte nastavitelnou DPH států Perského zálivu, poplatek za obsluhu nebo jakoukoli sazbu daně, vše se na účtu spočítá automaticky." },
+    { "q": "Je účtování pro kavárnu zdarma?", "a": "Prodej a fakturace, včetně účtenek, jsou navždy zdarma. Sklad a Výrobu přidáte, až budete chtít sledovat suroviny a kalkulovat receptury." },
+    { "q": "Mohu spravovat více provozoven?", "a": "Ano. Sledujte prodeje a zásoby po pobočkách a z jednoho pracovního prostoru vidíte aktuální množství i denní tržby ve všech provozovnách." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Obsluhujte rychle, kalkulujte chytře",
+  "ctaSub": "Začněte zdarma s účtenkami a fakturací a pak přidejte Sklad a kalkulaci receptur, abyste měli náklady na jídlo pod kontrolou."
+}

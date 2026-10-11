@@ -87,6 +87,41 @@ function checkContent(code) {
       n++;
     }
   }
+  // Blog posts are MDX: front matter + Markdown. Same front matter keys, own locale, same slug/date/tags,
+  // same internal links and the same number of headings as the English post; translated title; no em dash.
+  const blogDir = path.join(base, 'blog', code);
+  // ar, hi, bn and ur were written before this check existed; their posts that lag a later English
+  // edit are reported as warnings to refresh, not failures (11 Oct 2026). New locales must match.
+  const LEGACY = new Set(['ar', 'hi', 'bn', 'ur']);
+  const before = errors.length;
+  if (fs.existsSync(blogDir)) {
+    const fm = (t) => {
+      const m = t.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+      if (!m) return null;
+      const meta = {};
+      for (const line of m[1].split('\n')) { const k = line.match(/^([A-Za-z]+):\s*(.*)$/); if (k) meta[k[1]] = k[2].trim(); }
+      return { meta, body: m[2] };
+    };
+    const links = (b) => [...b.matchAll(/\]\(([^)\s]+)\)/g)].map((x) => x[1]).sort().join(' ');
+    const heads = (b) => (b.match(/^#{1,6} /gm) || []).length;
+    for (const file of fs.readdirSync(blogDir).filter((x) => /\.mdx?$/.test(x))) {
+      const enf = path.join(base, 'blog', 'en', file);
+      const where = `blog/${code}/${file}`;
+      if (!fs.existsSync(enf)) { errors.push(`${where}: no English twin`); continue; }
+      const e = fm(fs.readFileSync(enf, 'utf8')), t = fm(fs.readFileSync(path.join(blogDir, file), 'utf8'));
+      if (!t) { errors.push(`${where}: no front matter`); continue; }
+      const ek = Object.keys(e.meta).sort().join(','), tk = Object.keys(t.meta).sort().join(',');
+      if (ek !== tk) errors.push(`${where}: front matter keys ${tk} differ from English ${ek}`);
+      if (t.meta.locale !== `"${code}"`) errors.push(`${where}: locale must be "${code}"`);
+      for (const k of ['slug', 'pubDate', 'tags', 'updatedDate']) if (k in e.meta && e.meta[k] !== t.meta[k]) errors.push(`${where}: ${k} must stay as English`);
+      if (t.meta.title === e.meta.title) errors.push(`${where}: title is identical to English`);
+      if (links(e.body) !== links(t.body)) errors.push(`${where}: internal links differ from English`);
+      if (heads(e.body) !== heads(t.body)) errors.push(`${where}: heading count ${heads(t.body)}, English has ${heads(e.body)}`);
+      if (/\u2014/.test(fs.readFileSync(path.join(blogDir, file), 'utf8'))) errors.push(`${where}: em dash`);
+      n++;
+    }
+    if (LEGACY.has(code)) for (const w of errors.splice(before)) console.log(`WARN (refresh) ${w}`);
+  }
   return n;
 }
 

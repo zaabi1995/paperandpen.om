@@ -1,0 +1,35 @@
+{
+  "locale": "cs",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Účetnictví",
+  "metaTitle": "Online účetní software s automatickým účtováním · Paper & Pen",
+  "metaDescription": "Podvojné účetnictví, které se účtuje samo. Výsledovka a rozvaha v reálném čase, přiznání k DPH, párování s bankou, jakákoli měna a daň. Funguje po celém světě.",
+  "keywords": "účetní software, online účetnictví, podvojné účetnictví, rozvaha, výsledovka, přiznání k dph, párování s bankou, hlavní kniha",
+  "heroEyebrow": "Doplňkový modul",
+  "heroTitle": "Účetnictví, které <em class=\"text-copper-400 not-italic\">sedí samo</em>",
+  "heroSubtitle": "Každá faktura, platba a nákup se automaticky zaúčtuje do řádné podvojné hlavní knihy. Zisk, rozvahu a daňovou pozici vidíte v reálném čase, bez jediné tabulky.",
+  "heroBullets": ["Automatické podvojné účtování bez ručních zápisů", "Výsledovka a rozvaha v reálném čase", "Přiznání k DPH jedním kliknutím"],
+  "features": [
+    { "icon": "accounting", "title": "Automatické účtování", "desc": "Prodeje, platby a výdaje se zaúčtují do hlavní knihy hned, jak nastanou." },
+    { "icon": "chart", "title": "Aktuální výkazy", "desc": "Výsledovka, rozvaha a peněžní toky, vždy aktuální." },
+    { "icon": "calc", "title": "DPH a daňová přiznání", "desc": "Sledujte daň na vstupu i na výstupu a jedním kliknutím připravte přiznání k podání." },
+    { "icon": "refresh", "title": "Párování s bankou", "desc": "Párujte bankovní pohyby s fakturami a platbami, aby účetnictví zůstalo čisté." },
+    { "icon": "doc", "title": "Kompletní účetní knihy", "desc": "Z každého přehledu se proklikněte až ke zdrojovému dokladu a účetnímu zápisu." },
+    { "icon": "globe", "title": "Více měn", "desc": "Účtujte v jakékoli měně s automatickými kurzovými zisky a ztrátami." }
+  ],
+  "sections": [
+    { "eyebrow": "Účetní není nutný", "title": "Účetnictví, které běží na pozadí", "body": "Abyste věděli, jestli jste v zisku, nemusíte být účetní. Fakturace, platby i sklad se propisují do stejné hlavní knihy, takže účetnictví je správně bez ručních zápisů. Otevřete dashboard a zisk, pohledávky i daň máte hned před sebou.", "items": ["Podvojné účetnictví za vás", "Každý přehled vede ke zdrojovému dokladu", "Auditní stopa u každého zápisu"] },
+    { "eyebrow": "Pro jakýkoli daňový systém", "title": "Daně a předpisy, ať podnikáte kdekoli", "body": "Nastavte daňové sazby a účty pro svou zemi, včetně nastavitelné DPH pro státy Perského zálivu, a Paper & Pen za vás bude sledovat daň na vstupu i na výstupu. Připravte přiznání k podání, spárujte banku a s jistotou uzavřete období, v jakékoli měně.", "items": ["Nastavitelné daně pro jakoukoli zemi", "Přiznání k DPH připravená k podání", "Párování s bankou a uzávěrka období"] }
+  ],
+  "faqs": [
+    { "q": "Potřebuji k používání znalost účetnictví?", "a": "Ne. Zápisy se účtují automaticky z vašich faktur, plateb a nákupů, takže máte správné podvojné účetnictví bez psaní účetních zápisů." },
+    { "q": "Je účetnictví zdarma?", "a": "Účetnictví je volitelný placený doplněk. Prodej a fakturace jsou navždy zdarma a Účetnictví zapnete, až budete chtít úplné účetní výkazy." },
+    { "q": "Umí připravit přiznání k DPH?", "a": "Ano. Sleduje daň na vstupu i na výstupu (například nastavitelnou DPH ve státech Perského zálivu nebo jakoukoli sazbu, kterou nastavíte) a vytvoří přiznání připravené k podání." },
+    { "q": "Zvládá více měn?", "a": "Ano. Účtujte a vykazujte v jakékoli měně s automatickými kurzovými zisky a ztrátami." },
+    { "q": "Mohu párovat bankovní účet?", "a": "Ano. Importujte bankovní pohyby nebo je párujte s fakturami a platbami, aby hlavní kniha byla vždy odsouhlasená." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Přesné účetnictví, automaticky",
+  "ctaSub": "Začněte zdarma s fakturací a zapněte Účetnictví pro účetní výkazy a daňová přiznání v reálném čase."
+}

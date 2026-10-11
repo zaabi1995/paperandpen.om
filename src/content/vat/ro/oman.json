@@ -1,0 +1,159 @@
+{
+  "locale": "ro",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "title": "TVA în Oman",
+  "metaTitle": "TVA în Oman: cotă, praguri, facturi · Paper & Pen",
+  "metaDescription": "Cota de TVA de 5% din Oman, pragul de înregistrare de OMR 38,500 și cele douăsprezece elemente ale unei facturi fiscale, fiecare cu sursă la Tax Authority.",
+  "keywords": "TVA Oman, cota TVA Oman, prag înregistrare TVA Oman, cerințe factură fiscală Oman, facturare electronică Fawtara, Oman Tax Authority",
+  "heroEyebrow": "Oman",
+  "heroTitle": "Facturarea după regulile de <em class=\"text-copper-400 not-italic\">TVA din Oman</em>",
+  "heroSubtitle": "Cota, pragurile de înregistrare, ce trebuie să conțină o factură fiscală și stadiul facturării electronice. Fiecare cifră de pe această pagină are ca sursă textele publicate chiar de Oman Tax Authority.",
+  "heroBullets": [
+    "Cotă standard de 5%",
+    "OMR 38,500 pentru înregistrare",
+    "Fawtara anunțat, încă neaplicat"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Cota standard de TVA",
+      "value": "5%",
+      "note": "Articolul 36 din Legea TVA stabilește taxa pe importul și livrarea de bunuri sau servicii taxabile la cinci la sută din valoarea impozabilă.",
+      "source": 1
+    },
+    {
+      "label": "Pragul de înregistrare obligatorie",
+      "value": "OMR 38,500",
+      "note": "Livrările anuale la sau peste această valoare impun înregistrarea. Legea lasă cifra în seama unei decizii a președintelui, în loc s-o fixeze în textul legii.",
+      "source": 2
+    },
+    {
+      "label": "Pragul de înregistrare voluntară",
+      "value": "OMR 19,250",
+      "note": "De la acest nivel te poți înregistra sub pragul obligatoriu.",
+      "source": 2
+    },
+    {
+      "label": "Limba facturii",
+      "value": "Arabă",
+      "note": "Factura poate fi emisă și în engleză, cu condiția ca o traducere în arabă să fie disponibilă la cerere.",
+      "source": 3
+    },
+    {
+      "label": "Plafonul facturii simplificate",
+      "value": "OMR 500",
+      "note": "Livrările sub această valoare pot folosi o factură simplificată, cu aprobarea Tax Authority.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Articolul 145 din Normele de aplicare enumeră ce trebuie să conțină o factură fiscală. Articolul introduce lista cu „în special”, așa că trateaz-o ca pe un minim, nu ca pe o listă completă.",
+    "items": [
+      "Mențiunea „Factură fiscală”",
+      "Data emiterii, data livrării și data plății",
+      "Un număr de factură secvențial",
+      "Numele complet, adresa și codul de identificare fiscală ale furnizorului",
+      "Numele complet, adresa și codul de identificare fiscală ale clientului sau echivalentul din țara lui de rezidență",
+      "O descriere a bunurilor și serviciilor livrate",
+      "Cantitatea bunurilor",
+      "Data oricărei plăți în avans",
+      "Contravaloarea totală fără taxă",
+      "Cota de taxă aplicată",
+      "Orice reducere de preț sau discount acordat și orice subvenție de stat neinclusă deja",
+      "Valoarea impozabilă"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority publică Normele de aplicare doar în arabă. Această listă este o lectură fidelă a textului oficial în arabă, nu o traducere oficială, așa că verifică formularea cu consultantul tău fiscal înainte să te bazezi pe ea."
+  },
+  "einvoicing": {
+    "status": "Anunțată și etapizată, încă neobligatorie",
+    "body": "Programul de facturare electronică din Oman se numește Fawtara. Tax Authority descrie un model cu cinci colțuri, în care facturile ajung la ea printr-un furnizor de servicii acreditat, și stabilește patru etape: un pilot, o extindere, includerea firmelor mai mici și aplicarea completă. Autoritatea nu a publicat în engleză datele etapelor, iar datele care circulă în presă nu apar pe propriile ei pagini. Consideră neconfirmat orice termen Fawtara citit în altă parte până când îl publică Tax Authority.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Cum faci corect",
+      "title": "Unde greșesc firmele în Oman",
+      "body": "Trei lucruri explică majoritatea problemelor cu facturile de TVA de aici. Primul este codul de identificare fiscală al clientului: dacă îl omiți, clientul s-ar putea să nu-și poată deduce TVA-ul, iar factura ta devine costul lui și problema ta. Al doilea este numerotarea facturilor. Articolul 145 cere un număr secvențial, iar cel mai rapid mod de a o strica este să ștergi sau să renumerotezi o factură deja trimisă. Corecteaz-o în schimb cu o notă de credit. Al treilea este limba: factura trebuie să fie în arabă, iar dacă emiți doar în engleză, fără o versiune în arabă disponibilă la cerere, rămâi expus.",
+      "items": [
+        "Cere codul fiscal al clientului înainte de emitere, nu după",
+        "Nu șterge niciodată o factură emisă, storneaz-o cu o notă de credit",
+        "Ține o versiune în arabă disponibilă la cerere",
+        "Înregistrează data livrării separat de data emiterii"
+      ]
+    },
+    {
+      "eyebrow": "Pregătirea",
+      "title": "Cum te pregătești pentru Fawtara fără să ghicești date",
+      "body": "Nu ai nevoie de un termen publicat ca să fii pregătit. Fiecare regim de facturare electronică intrat în vigoare în regiune a cerut aceeași disciplină de bază: fișe de client curate și complete, inclusiv codurile fiscale, o numerotare a facturilor fără întreruperi, tratamentul fiscal înregistrat pe linie, nu pe factură, și documente păstrate astfel încât să le poți scoate la cerere. O firmă ale cărei evidențe îndeplinesc deja aceste patru condiții va avea o implementare scurtă, oricând ar apărea datele. O firmă care nu le îndeplinește își va petrece perioada de preaviz curățând date.",
+      "items": [
+        "Fișe de client complete, inclusiv codurile fiscale",
+        "O singură numerotare fără întreruperi pentru fiecare serie",
+        "Tratamentul fiscal înregistrat linie cu linie",
+        "Documente care pot fi prezentate la cerere"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Care este cota de TVA în Oman?",
+      "a": "Cinci la sută. Articolul 36 din Legea TVA, promulgată prin Decretul Regal 121/2020, calculează taxa pe importul și livrarea de bunuri sau servicii taxabile la cinci la sută din valoarea impozabilă. Unele livrări sunt cu cota zero sau scutite, iar acestea sunt lucruri diferite: un furnizor cu cota zero își poate deduce în continuare TVA-ul, unul scutit nu poate."
+    },
+    {
+      "q": "Când trebuie să mă înregistrez în scopuri de TVA în Oman?",
+      "a": "Când livrările tale anuale ating sau se estimează că vor atinge OMR 38,500. Te poți înregistra voluntar de la OMR 19,250. Ambele cifre provin din decizia președintelui privind pragurile de înregistrare, nu din Legea TVA, de aceea se pot schimba fără ca legea să se schimbe."
+    },
+    {
+      "q": "Facturarea electronică este deja obligatorie în Oman?",
+      "a": "Încă nu. Tax Authority a anunțat Fawtara, un model etapizat de facturare electronică cu cinci colțuri, prin furnizori de servicii acreditați, și descrie patru etape de implementare. Nu a publicat în engleză, pe propriile pagini, datele etapelor, așa că nu indicăm aici nicio dată. Verifică paginile de facturare electronică ale Tax Authority pentru situația actuală."
+    },
+    {
+      "q": "Pot emite o factură în engleză în Oman?",
+      "a": "Poți emite în engleză, dar Normele de aplicare cer ca factura fiscală să fie în arabă și permit o altă limbă în plus, cu condiția ca o traducere în arabă să fie disponibilă la cerere. În practică, asta înseamnă să folosești un șablon bilingv, nu unul doar în engleză."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Facturează corect în Oman, gratuit",
+  "ctaSub": "Setează-ți propria cotă de taxă, facturează în orice monedă și ai o factură în arabă și una în engleză din aceeași înregistrare.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, articolul 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Chairman's Decision privind stabilirea pragurilor de înregistrare obligatorie și voluntară",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Decision 53/2021, articolele 145-148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Paginile programului de facturare electronică (Fawtara)",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

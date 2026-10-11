@@ -1,0 +1,151 @@
+{
+  "locale": "ro",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Arabia Saudită",
+  "title": "TVA în Arabia Saudită",
+  "metaTitle": "TVA în Arabia Saudită: cota de 15% și Fatoora · Paper & Pen",
+  "metaDescription": "Cota de TVA de 15% din Arabia Saudită, pragul de SAR 375,000, conținutul facturii după articolul 53 și etapele Fatoora ale ZATCA, toate cu surse.",
+  "keywords": "TVA Arabia Saudită, cota TVA 15% Arabia Saudită, ZATCA Fatoora, facturare electronică Arabia Saudită etapa 2, cerințe factură fiscală Arabia Saudită, ZATCA",
+  "heroEyebrow": "Arabia Saudită",
+  "heroTitle": "Facturarea după regulile <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "Cota de 15%, pragurile de înregistrare, ce cere articolul 53 pe o factură fiscală și ce adaugă Fatoora peste acestea odată ce intri în etapa de integrare.",
+  "heroBullets": [
+    "Cotă standard de 15%",
+    "SAR 375,000 pentru înregistrare",
+    "Fatoora în vigoare din 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Cota standard de TVA",
+      "value": "15%",
+      "note": "Arabia Saudită este excepția din Golf: celelalte state care aplică TVA au 5% sau 10%. Dacă se aplică cota standard, livrările taxabile sunt taxate cu 15%.",
+      "source": 1
+    },
+    {
+      "label": "Pragul de înregistrare obligatorie",
+      "value": "SAR 375,000",
+      "note": "Livrările taxabile peste această valoare într-o perioadă de 12 luni impun înregistrarea.",
+      "source": 1
+    },
+    {
+      "label": "Pragul de înregistrare voluntară",
+      "value": "SAR 187,500",
+      "note": "Pe baza livrărilor taxabile SAU a cheltuielilor taxabile din ultimele 12 luni.",
+      "source": 1
+    },
+    {
+      "label": "Firme nerezidente",
+      "value": "Fără prag",
+      "note": "Un nerezident obligat să plătească TVA în Regat trebuie să se înregistreze indiferent de valoarea livrărilor sale.",
+      "source": 1
+    },
+    {
+      "label": "Limba facturii",
+      "value": "Arabă",
+      "note": "Conținutul obligatoriu trebuie să apară în arabă. O altă limbă poate fi afișată în plus, ca traducere.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Articolul 53 alineatul (5) din VAT Implementing Regulations enumeră ce trebuie să conțină o factură fiscală și cere ca aceasta să fie în arabă, pe lângă orice altă limbă afișată ca traducere.",
+    "items": [
+      "Data emiterii",
+      "Un număr secvențial care identifică unic factura",
+      "Codul de identificare fiscală (TIN) al furnizorului",
+      "Dacă clientul trebuie să aplice autotaxarea, TIN-ul clientului și mențiunea că trebuie să contabilizeze taxa",
+      "Numele și adresa furnizorului și ale clientului",
+      "Cantitatea și natura bunurilor sau întinderea și natura serviciilor",
+      "Data livrării, dacă diferă de data emiterii",
+      "Valoarea impozabilă pe fiecare cotă sau scutire, prețul unitar fără TVA și orice reducere neinclusă deja în prețul unitar",
+      "Cota de taxă aplicată",
+      "Valoarea taxei de plată, afișată în riali saudiți",
+      "Dacă taxa nu se aplică la cota de bază, o mențiune care explică tratamentul",
+      "Dacă se aplică regimul marjei de profit pentru bunurile second-hand eligibile, o trimitere la acest lucru"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Obligatorie și în vigoare, extinsă în valuri",
+    "body": "Arabia Saudită are cel mai avansat regim de facturare electronică din Golf și cel după care se modelează celelalte. Etapa 1, etapa de generare, se aplică tuturor persoanelor impozabile rezidente din 4 decembrie 2021: facturile trebuie emise electronic, într-o formă structurată. Etapa 2, etapa de integrare, a început la 1 ianuarie 2023 și se extinde în valuri, după mărimea contribuabilului, iar ZATCA anunță fiecare grup cu cel puțin șase luni înainte de data lui de integrare. În etapa 2, o factură electronică conține mai mult decât elementele din articolul 53: are nevoie și de un UUID, de hash-ul facturii anterioare, de un cod QR, de o ștampilă criptografică și de un contor care nu poate fi falsificat. În ce val intri anunță ZATCA, așa că verifică paginile ei de facturare electronică în loc să presupui.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Cum faci corect",
+      "title": "Fatoora schimbă ce ESTE o factură",
+      "body": "Într-o lume pe hârtie sau PDF, factura este un document pe care îl produci și îl trimiți. În etapa 2, ea este o înregistrare într-un lanț: fiecare factură face referire la hash-ul celei dinainte, poartă o ștampilă criptografică și incrementează un contor care nu poate fi resetat. Este un design intenționat și face imposibil un obicei des întâlnit. Nu poți șterge, renumerota sau reemite discret o factură ulterior, pentru că lanțul s-ar rupe, iar ruptura poate fi detectată. Firmele care corectau greșelile modificând istoricul trebuie să treacă la notele de credit, ceea ce regulile contabile din restul lumii au cerut oricum dintotdeauna.",
+      "items": [
+        "Fiecare factură este legată de cea anterioară prin hash",
+        "Contorul nu poate fi resetat sau dat înapoi",
+        "Corecturile se fac prin note de credit și de debit",
+        "Codul QR face parte din factură, nu e decor"
+      ]
+    },
+    {
+      "eyebrow": "Cum faci corect",
+      "title": "Cota de 15% are efecte în lanț",
+      "body": "O cotă de cincisprezece la sută face ca distincția dintre cota zero și scutire să conteze financiar serios, cum nu se întâmplă la o cotă de cinci la sută. Dacă livrările tale sunt scutite, nu poți deduce TVA-ul plătit pe achiziții, așa că cincisprezece la sută din costurile tale de intrare devin o cheltuială reală, nerecuperabilă, care trebuie inclusă în preț. Dacă sunt cu cota zero, nu percepi nimic, dar recuperezi în continuare. O clasificare greșită este cea mai scumpă greșeală posibilă la TVA-ul saudit și este o chestiune de clasificare, nu de cotă.",
+      "items": [
+        "Scutit înseamnă fără deducere, așa că taxa devine costul tău",
+        "Cota zero înseamnă fără taxă percepută, dar cu deducere integrală",
+        "Clasifică după tipul livrării, nu după client",
+        "Ia decizia de clasificare înainte să stabilești prețul"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Care este cota de TVA în Arabia Saudită?",
+      "a": "Cota standard este de cincisprezece la sută. Este cea mai mare din Golf, iar o greșeală frecventă este să presupui o cotă unică pentru țările din Golf: Omanul și EAU au 5%, Bahrainul 10%, iar Qatarul și Kuweitul nu au introdus deloc TVA. Dacă vinzi în toată regiunea, nu poți aplica o singură cotă la tot."
+    },
+    {
+      "q": "Ce este Fatoora?",
+      "a": "Fatoora este programul de facturare electronică al ZATCA. Etapa 1, generarea, se aplică tuturor persoanelor impozabile rezidente din 4 decembrie 2021. Etapa 2, integrarea cu sistemele ZATCA, a început la 1 ianuarie 2023 și se extinde în valuri, după mărimea contribuabilului, cu un preaviz de cel puțin șase luni pentru fiecare val."
+    },
+    {
+      "q": "O factură fiscală saudită trebuie să fie în arabă?",
+      "a": "Da. Articolul 53 alineatul (5) cere conținutul facturii în arabă și permite ca o altă limbă să fie afișată în plus, ca traducere. O factură bilingvă este conformă; una doar în engleză nu este."
+    },
+    {
+      "q": "Ce câmpuri suplimentare cere etapa 2?",
+      "a": "Pe lângă elementele din articolul 53, o factură electronică din etapa de integrare conține un UUID, hash-ul facturii anterioare, un cod QR, o ștampilă criptografică și un contor care nu poate fi falsificat. Acestea sunt generate de un software conform, nu scrise de o persoană."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Facturează corect în Arabia Saudită, gratuit",
+  "ctaSub": "Setezi singur cota, păstrezi araba și engleza pe același document și corectezi greșelile cu note de credit, nu prin modificări.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, versiunea a treia, secțiunile 3.2 și 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, articolul 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Rezoluția de implementare a facturării electronice, Governor's Decision 62738, și paginile de facturare electronică ale ZATCA",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

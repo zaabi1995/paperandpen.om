@@ -1,0 +1,35 @@
+{
+  "locale": "ro",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Stocuri",
+  "metaTitle": "Software de gestiune a stocurilor · Paper & Pen",
+  "metaDescription": "Urmărește stocurile din toate depozitele în timp real, cu alerte de stoc redus, loturi și coduri de bare și evaluare live înregistrată în contabilitate.",
+  "keywords": "gestiunea stocurilor, program gestiune stocuri, software depozit, alerte stoc minim, coduri de bare, evaluarea stocurilor, mai multe depozite",
+  "heroEyebrow": "Modul suplimentar",
+  "heroTitle": "Stocuri în care <em class=\"text-copper-400 not-italic\">poți avea încredere</em>, în timp real",
+  "heroSubtitle": "Știi exact ce ai, unde se află și cât valorează. Stocurile se actualizează în clipa în care facturezi sau primești marfă, așa că cifrele tale sunt mereu la zi.",
+  "heroBullets": ["Stocuri live în toate depozitele", "Alerte de stoc redus și reaprovizionare", "Evaluarea se înregistrează în contabilitate"],
+  "features": [
+    { "icon": "inventory", "title": "Stoc în timp real", "desc": "Cantitățile se actualizează în momentul în care vinzi, cumperi sau transferi marfă." },
+    { "icon": "truck", "title": "Mai multe depozite", "desc": "Urmărește și transferă stocuri între locații și filiale, cu vizibilitate completă." },
+    { "icon": "bell", "title": "Alerte de stoc redus", "desc": "Setează praguri de reaprovizionare și fii avertizat înainte să rămâi fără un produs căutat." },
+    { "icon": "receipt", "title": "Coduri de bare și SKU", "desc": "Scanezi ca să inventariezi sau să muți stocul, cu organizare pe SKU, lot și unitate de măsură." },
+    { "icon": "calc", "title": "Evaluare live", "desc": "Costul mediu sau FIFO păstrează corectă valoarea stocului în bilanț." },
+    { "icon": "refresh", "title": "Legat de vânzări", "desc": "Facturile și comenzile de achiziție mișcă stocul automat, fără actualizări manuale." }
+  ],
+  "sections": [
+    { "eyebrow": "Mereu corect", "title": "Stocuri care se actualizează singure", "body": "Inventarierile manuale se învechesc în clipa în care faci o vânzare. În Paper & Pen, fiecare factură, achiziție și transfer ajustează stocul și costul în timp real, așa că cifra de pe ecran este cifra de pe raft. Setează praguri de reaprovizionare și lasă sistemul să-ți spună când să cumperi.", "items": ["Se ajustează la fiecare tranzacție", "Praguri și alerte de reaprovizionare", "Urmărire pe lot, SKU și unitate de măsură"] },
+    { "eyebrow": "Stocurile întâlnesc contabilitatea", "title": "De la raft la bilanț", "body": "Stocurile nu înseamnă doar numărat cutii, ci bani reali în bilanț. Paper & Pen evaluează stocul la cost mediu sau FIFO și înregistrează automat mișcările în contabilitate, așa că costul mărfurilor vândute și valoarea stocului sunt mereu reconciliate. Funcționează în orice monedă, pe orice piață.", "items": ["Cost mediu sau FIFO", "Înregistrare automată în contabilitate", "Achiziții în mai multe monede"] }
+  ],
+  "faqs": [
+    { "q": "Stocurile sunt incluse gratuit?", "a": "Stocurile sunt un modul suplimentar opțional, cu plată. Modulul de bază Vânzări și Facturare este gratuit pentru totdeauna, iar Stocurile le adaugi când ai nevoie de control al stocului în timp real." },
+    { "q": "Pot gestiona mai multe depozite?", "a": "Da. Urmărești stocul pe fiecare locație, faci transferuri între ele și vezi cantitățile live peste tot." },
+    { "q": "Suportă coduri de bare?", "a": "Da. Scanează un cod de bare al furnizorului, un SKU sau o etichetă QR tipărită ca să inventariezi și să muți stocul mai repede, cu suport pentru loturi și unități de măsură." },
+    { "q": "Cum se evaluează stocul?", "a": "Alegi costul mediu sau FIFO. Evaluarea se actualizează la fiecare mișcare și se înregistrează automat în contabilitate." },
+    { "q": "Vânzarea actualizează stocul automat?", "a": "Da. Facturile scad stocul, iar achizițiile îl cresc în timp real, așa că nu mai actualizezi niciodată cantitățile de mână." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Preia controlul asupra stocurilor",
+  "ctaSub": "Începe gratuit cu facturarea și adaugă Stocuri când ești gata pentru stocuri în timp real în fiecare locație."
+}

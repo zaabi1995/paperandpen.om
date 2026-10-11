@@ -1,0 +1,35 @@
+{
+  "locale": "vi",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Kho hàng",
+  "metaTitle": "Phần mềm quản lý kho hàng · Paper & Pen",
+  "metaDescription": "Theo dõi tồn kho ở nhiều kho theo thời gian thực, cảnh báo sắp hết hàng, hỗ trợ lô và mã vạch, định giá trực tiếp ghi vào sổ sách. Dùng được trên toàn thế giới.",
+  "keywords": "quản lý kho, quản lý tồn kho, phần mềm kho hàng, cảnh báo hết hàng, quản lý kho bằng mã vạch, định giá tồn kho, nhiều kho",
+  "heroEyebrow": "Mô-đun bổ sung",
+  "heroTitle": "Tồn kho <em class=\"text-copper-400 not-italic\">đáng tin cậy</em>, theo thời gian thực",
+  "heroSubtitle": "Biết chính xác bạn có gì, ở đâu và trị giá bao nhiêu. Kho hàng cập nhật ngay khi bạn xuất hóa đơn hoặc nhận hàng, nên số liệu luôn trực tiếp.",
+  "heroBullets": ["Tồn kho trực tiếp ở mọi kho", "Cảnh báo sắp hết hàng và đặt hàng lại", "Định giá ghi vào sổ sách"],
+  "features": [
+    { "icon": "inventory", "title": "Tồn kho theo thời gian thực", "desc": "Số lượng cập nhật ngay khi bạn bán, mua hoặc chuyển hàng." },
+    { "icon": "truck", "title": "Nhiều kho", "desc": "Theo dõi và chuyển hàng giữa các địa điểm, chi nhánh với khả năng quan sát đầy đủ." },
+    { "icon": "bell", "title": "Cảnh báo sắp hết hàng", "desc": "Đặt điểm đặt hàng lại và được cảnh báo trước khi mặt hàng bán chạy hết hàng." },
+    { "icon": "receipt", "title": "Mã vạch và SKU", "desc": "Quét để kiểm đếm hoặc nhập xuất hàng, sắp xếp theo SKU, lô và đơn vị tính." },
+    { "icon": "calc", "title": "Định giá trực tiếp", "desc": "Phương pháp giá bình quân hoặc FIFO giữ giá trị tồn kho chính xác trên bảng cân đối kế toán." },
+    { "icon": "refresh", "title": "Liên kết với bán hàng", "desc": "Hóa đơn và đơn mua hàng tự động điều chỉnh tồn kho, không cần cập nhật thủ công." }
+  ],
+  "sections": [
+    { "eyebrow": "Luôn chính xác", "title": "Kho hàng tự cập nhật", "body": "Số liệu kiểm kê thủ công trở nên lỗi thời ngay khi bạn bán một món hàng. Trong Paper & Pen, mọi hóa đơn, giao dịch mua và chuyển kho đều điều chỉnh tồn kho và giá vốn theo thời gian thực, nên con số trên màn hình chính là con số trên kệ. Đặt điểm đặt hàng lại và để hệ thống báo cho bạn khi cần mua thêm.", "items": ["Tự điều chỉnh sau mỗi giao dịch", "Điểm đặt hàng lại và cảnh báo", "Theo dõi theo lô, SKU và đơn vị tính"] },
+    { "eyebrow": "Kho hàng gặp sổ sách", "title": "Từ kệ hàng đến bảng cân đối kế toán", "body": "Quản lý kho không chỉ là đếm thùng hàng, đó là tiền thật trên bảng cân đối kế toán của bạn. Paper & Pen định giá tồn kho theo giá bình quân hoặc FIFO và tự động ghi các biến động vào kế toán, nên giá vốn hàng bán và giá trị tồn kho luôn khớp. Dùng được với mọi loại tiền tệ, cho mọi thị trường.", "items": ["Giá bình quân hoặc FIFO", "Tự động ghi vào kế toán", "Mua hàng đa tiền tệ"] }
+  ],
+  "faqs": [
+    { "q": "Kho hàng có được bao gồm miễn phí không?", "a": "Kho hàng là mô-đun bổ sung trả phí, tùy chọn. Mô-đun lõi Bán hàng và hóa đơn miễn phí mãi mãi, và bạn thêm Kho hàng khi cần kiểm soát tồn kho theo thời gian thực." },
+    { "q": "Tôi có thể quản lý nhiều kho không?", "a": "Có. Theo dõi tồn kho theo từng địa điểm, chuyển hàng giữa các kho và xem số lượng trực tiếp ở mọi nơi." },
+    { "q": "Có hỗ trợ mã vạch không?", "a": "Có. Quét mã vạch của nhà cung cấp, SKU hoặc nhãn QR đã in để kiểm đếm và nhập xuất hàng nhanh hơn, có hỗ trợ lô và đơn vị tính." },
+    { "q": "Tồn kho được định giá như thế nào?", "a": "Chọn giá bình quân hoặc FIFO. Giá trị cập nhật sau mỗi biến động và tự động ghi vào kế toán." },
+    { "q": "Bán hàng có tự động cập nhật tồn kho không?", "a": "Có. Hóa đơn làm giảm và giao dịch mua làm tăng tồn kho theo thời gian thực, nên bạn không bao giờ phải cập nhật số lượng bằng tay." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Làm chủ hàng tồn kho của bạn",
+  "ctaSub": "Bắt đầu miễn phí với hóa đơn và thêm Kho hàng khi bạn sẵn sàng quản lý tồn kho theo thời gian thực ở mọi địa điểm."
+}

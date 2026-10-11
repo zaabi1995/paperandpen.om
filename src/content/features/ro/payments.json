@@ -1,0 +1,35 @@
+{
+  "locale": "ro",
+  "slug": "payments",
+  "order": 10,
+  "title": "Plăți",
+  "metaTitle": "Plăți online pentru facturi · Încasări rapide · Paper & Pen",
+  "metaDescription": "Adaugă un link de plată online pe fiecare factură și încasează cu cardul. Paymob și procesatoare globale, orice monedă, reconciliere automată în contabilitate.",
+  "keywords": "plăți online, acceptare plăți cu cardul, plata facturii online, Paymob, procesator de plăți, încasare mai rapidă, link de plată",
+  "heroEyebrow": "Inclus",
+  "heroTitle": "Lasă clienții să te plătească <em class=\"text-copper-400 not-italic\">dintr-o atingere</em>",
+  "heroSubtitle": "Pune un link securizat de plată online pe fiecare factură, ca clienții să plătească instant cu cardul. Plățile se reconciliază automat în contabilitate, în orice monedă, oriunde.",
+  "heroBullets": ["Link de plată online pe fiecare factură", "Reconciliere automată în registru", "Paymob și procesatoare globale"],
+  "features": [
+    { "icon": "card", "title": "Plată cu cardul", "desc": "Clienții plătesc online orice factură cu cardul, fără cont și fără aplicație." },
+    { "icon": "bolt", "title": "Link de plată instant", "desc": "Fiecare factură are un link securizat, pe care îl trimiți pe email sau WhatsApp." },
+    { "icon": "refresh", "title": "Reconciliere automată", "desc": "Plățile reușite marchează factura ca plătită și se înregistrează în contabilitate." },
+    { "icon": "globe", "title": "Orice monedă", "desc": "Încasează în OMR, AED, SAR, USD, EUR și altele, prin procesatorul potrivit." },
+    { "icon": "shield", "title": "Securitate și PCI", "desc": "Datele cardului sunt gestionate de procesatoare certificate, nu le stochezi niciodată tu." },
+    { "icon": "receipt", "title": "Chitanțe trimise", "desc": "Clienții primesc automat o chitanță în clipa în care plata reușește." }
+  ],
+  "sections": [
+    { "eyebrow": "Încasează mai repede", "title": "Elimină obstacolele dintre factură și bani", "body": "Cu cât clientul poate plăti mai repede, cu atât primești mai repede banii. Un link de plată online pe fiecare factură înseamnă fără date bancare de copiat și fără așteptat transferul. Clientul atinge, plătește cu cardul, iar factura se actualizează singură, cu chitanța pe drum.", "items": ["Plată cu cardul dintr-o atingere", "Link de trimis pe WhatsApp și email", "Chitanțe automate"] },
+    { "eyebrow": "Local și global", "title": "Procesatorul potrivit pentru piața ta", "body": "Paper & Pen conectează Paymob pentru țările din Golf și alte procesatoare globale, ca să accepți cardurile pe care clienții tăi le folosesc cu adevărat, în moneda lor. Fiecare decontare se reconciliază cu factura corectă și se înregistrează în conturi, așa că încasarea și contabilitatea merg mână în mână.", "items": ["Paymob pentru Golf, plus opțiuni globale", "Încasări în mai multe monede", "Reconciliere cu factura exactă"] }
+  ],
+  "faqs": [
+    { "q": "Activarea plăților online este gratuită?", "a": "Da, adăugarea linkurilor de plată online este inclusă. Procesatorul de plăți percepe propriul comision pe fiecare tranzacție, cum fac întotdeauna procesatoarele." },
+    { "q": "Ce procesatoare sunt suportate?", "a": "Paymob pentru țările din Golf, plus alte procesatoare globale, ca să accepți cardurile pe care clienții tăi le folosesc, în moneda lor." },
+    { "q": "O plată actualizează automat factura?", "a": "Da. O plată reușită marchează factura ca plătită, trimite o chitanță și înregistrează operațiunea în contabilitate." },
+    { "q": "Clienții pot plăti în monede diferite?", "a": "Da. Încasezi în OMR, AED, SAR, USD, EUR și altele, prin procesatorul potrivit." },
+    { "q": "Plata cu cardul este sigură?", "a": "Da. Datele cardului sunt gestionate de procesatoare certificate PCI și nu sunt stocate niciodată în Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Transformă facturile în bani pe loc",
+  "ctaSub": "Începe gratuit și adaugă un link de plată online pe fiecare factură, ca clienții să te plătească dintr-o atingere."
+}

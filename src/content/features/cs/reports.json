@@ -1,0 +1,35 @@
+{
+  "locale": "cs",
+  "slug": "reports",
+  "order": 8,
+  "title": "Přehledy a analýzy",
+  "metaTitle": "Firemní přehledy a analýzy · Paper & Pen",
+  "metaDescription": "Aktuální dashboardy a přehledy prodejů, hotovosti, zisku, daní a zásob. Proklik ke zdroji, export do Excel nebo PDF, v jakékoli měně. Funguje po celém světě.",
+  "keywords": "firemní přehledy, analytický dashboard, přehled prodejů, výsledovka, daňový přehled, finanční výkazy, export do excelu",
+  "heroEyebrow": "Doplňkový modul",
+  "heroTitle": "Rozhodnutí podložená <em class=\"text-copper-400 not-italic\">aktuálními čísly</em>",
+  "heroSubtitle": "Každý prodej, platba i pohyb se v reálném čase promítne do přehledných dashboardů a výkazů. Uvidíte, co se prodává, kdo vám dluží a kde je váš zisk, a pak to exportujete kamkoli.",
+  "heroBullets": ["Dashboardy v reálném čase", "Proklik ke zdrojovému dokladu", "Export do Excel nebo PDF"],
+  "features": [
+    { "icon": "reports", "title": "Analýza prodejů", "desc": "Nejprodávanější produkty, nejlepší zákazníci a trendy za jakékoli období." },
+    { "icon": "chart", "title": "Finanční výkazy", "desc": "Výsledovka, rozvaha, peněžní toky a stáří pohledávek." },
+    { "icon": "calc", "title": "Daňové přehledy", "desc": "Souhrny daně na vstupu a na výstupu připravené pro přiznání k DPH." },
+    { "icon": "inventory", "title": "Skladové přehledy", "desc": "Ocenění, pohyby a nízké stavy zásob napříč sklady." },
+    { "icon": "doc", "title": "Proklik ke zdroji", "desc": "Klikněte na jakékoli číslo a dohledejte přesný doklad, ze kterého vzniklo." },
+    { "icon": "refresh", "title": "Vždy aktuální", "desc": "Přehledy se aktualizují průběžně s každou transakcí, bez nočního zpracování." }
+  ],
+  "sections": [
+    { "eyebrow": "Přehled na první pohled", "title": "Jeden dashboard pro celou firmu", "body": "Otevřete Paper & Pen a uvidíte čísla, na kterých záleží: peníze v bance, kdo vám dluží, co se prodává a zisk za tento měsíc. Protože se vše účtuje v reálném čase, dashboard ukazuje skutečnost, ne snímek z minulého týdne.", "items": ["Hotovost, pohledávky a zisk na prvním místě", "Filtrování podle období, zákazníka nebo produktu", "Vždy aktuální, nikdy zastaralé"] },
+    { "eyebrow": "Sdílejte a jděte do hloubky", "title": "Přehledy, kterým bude věřit účetní i vedení", "body": "Z jakéhokoli přehledu se prokliknete rovnou ke zdrojovému dokladu a pak exportujete do Excel nebo PDF pro účetní, banku nebo vedení. Vykazujte v jakékoli měně a přepněte rozhraní do arabštiny, angličtiny, hindštiny, bengálštiny nebo urdštiny, aby všichni četli stejná čísla ve svém jazyce.", "items": ["Proklik ke každé transakci", "Export do Excel a PDF", "Více měn a více jazyků"] }
+  ],
+  "faqs": [
+    { "q": "Jsou přehledy zdarma?", "a": "Přehledy a analýzy jsou volitelný placený doplněk. Bezplatný základ navždy obsahuje fakturační dashboardy a kompletní sada přehledů je k dispozici, když potřebujete hlubší analýzy." },
+    { "q": "Jsou přehledy v reálném čase?", "a": "Ano. Každá transakce se účtuje průběžně, takže dashboardy a přehledy vždy odpovídají aktuálnímu stavu vaší firmy." },
+    { "q": "Mohu přehledy exportovat?", "a": "Ano. Exportujte do Excel nebo PDF a sdílejte je s účetní, bankou nebo vedením." },
+    { "q": "Mohu dohledat, odkud číslo pochází?", "a": "Ano. Klikněte na jakékoli číslo a prokliknete se k přesné faktuře, platbě nebo účetnímu zápisu, ze kterého vzniklo." },
+    { "q": "Podporují přehledy více měn?", "a": "Ano. Vykazujte v jakékoli měně a rozhraní používejte v pěti jazycích." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Mějte jasný přehled o firmě",
+  "ctaSub": "Začněte zdarma s fakturací a přidejte Přehledy a analýzy pro aktuální dashboardy a analýzy připravené k exportu."
+}

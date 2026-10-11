@@ -1,0 +1,35 @@
+{
+  "locale": "ro",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Contabilitate",
+  "metaTitle": "Software de contabilitate online · Paper & Pen",
+  "metaDescription": "Contabilitate în partidă dublă care se înregistrează singură. Profit și pierdere și bilanț în timp real, deconturi de TVA, reconciliere bancară, orice monedă.",
+  "keywords": "program contabilitate, contabilitate online, partidă dublă, bilanț contabil, cont de profit și pierdere, decont TVA, reconciliere bancară, registru general",
+  "heroEyebrow": "Modul suplimentar",
+  "heroTitle": "Conturi care <em class=\"text-copper-400 not-italic\">se echilibrează singure</em>",
+  "heroSubtitle": "Fiecare factură, plată și achiziție se înregistrează automat într-un registru corect în partidă dublă. Vezi în timp real profitul, bilanțul și situația taxelor fără să atingi o foaie de calcul.",
+  "heroBullets": ["Partidă dublă automată, fără note contabile manuale", "Profit și pierdere și bilanț în timp real", "Deconturi de TVA cu un clic"],
+  "features": [
+    { "icon": "accounting", "title": "Evidență contabilă automată", "desc": "Vânzările, plățile și cheltuielile se înregistrează în registru pe măsură ce au loc." },
+    { "icon": "chart", "title": "Situații financiare live", "desc": "Profit și pierdere, bilanț și flux de numerar, mereu la zi." },
+    { "icon": "calc", "title": "TVA și deconturi fiscale", "desc": "Urmărește TVA-ul deductibil și colectat și obține cu un clic un decont gata de depus." },
+    { "icon": "refresh", "title": "Reconciliere bancară", "desc": "Potrivește liniile din extras cu facturile și plățile, ca să ai conturile curate." },
+    { "icon": "doc", "title": "Registre complete", "desc": "Coboară din orice raport până la documentul sursă și nota contabilă." },
+    { "icon": "globe", "title": "Multivalută", "desc": "Înregistrează în orice monedă, cu diferențe de curs favorabile și nefavorabile calculate automat." }
+  ],
+  "sections": [
+    { "eyebrow": "Fără să fii contabil", "title": "Contabilitate care lucrează în fundal", "body": "Nu ar trebui să fii contabil ca să știi dacă ești pe profit. Pentru că facturarea, plățile și stocurile alimentează același registru, conturile tale sunt corecte fără note contabile manuale. Deschizi panoul și ai acolo profitul, debitorii și taxele.", "items": ["Partida dublă, făcută pentru tine", "Fiecare raport coboară până la sursă", "Istoric de audit pentru fiecare înregistrare"] },
+    { "eyebrow": "Pentru orice regim fiscal", "title": "Taxe și conformitate, oriunde activezi", "body": "Configurează cotele de taxă și conturile pentru țara ta, inclusiv TVA configurabil pentru țările din Golf, iar Paper & Pen urmărește pentru tine TVA-ul deductibil și colectat. Obții un decont gata de depus, reconciliezi banca și închizi perioada cu încredere, în orice monedă.", "items": ["Taxe configurabile pentru orice țară", "Deconturi de TVA gata de depus", "Reconciliere bancară și închidere de perioadă"] }
+  ],
+  "faqs": [
+    { "q": "Am nevoie de cunoștințe de contabilitate?", "a": "Nu. Înregistrările se fac automat din facturi, plăți și achiziții, așa că ai o contabilitate corectă în partidă dublă fără să scrii note contabile." },
+    { "q": "Contabilitatea este gratuită?", "a": "Contabilitatea este un modul suplimentar opțional, cu plată. Vânzări și Facturare sunt gratuite pentru totdeauna, iar Contabilitatea o activezi când vrei situații financiare complete." },
+    { "q": "Poate genera deconturi de TVA?", "a": "Da. Urmărește TVA-ul deductibil și colectat (de exemplu TVA configurabil pentru Golf sau orice cotă setezi) și generează un decont gata de depus." },
+    { "q": "Lucrează cu mai multe monede?", "a": "Da. Înregistrezi și raportezi în orice monedă, cu diferențe de curs valutar calculate automat." },
+    { "q": "Pot reconcilia contul bancar?", "a": "Da. Importă sau potrivește liniile din extras cu facturile și plățile, ca registrul să rămână reconciliat." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Conturi corecte, automat",
+  "ctaSub": "Începe gratuit cu facturarea și activează Contabilitatea pentru situații financiare și deconturi fiscale în timp real."
+}

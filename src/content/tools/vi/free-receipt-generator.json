@@ -1,0 +1,37 @@
+{
+  "locale": "vi",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Tạo biên lai miễn phí",
+  "metaTitle": "Công cụ tạo biên lai miễn phí · Paper & Pen",
+  "metaDescription": "Tạo biên lai thanh toán online miễn phí. Thêm số tiền, tiền tệ và phương thức thanh toán, rồi tải về file PDF sẵn sàng in trong vài giây. Không cần đăng ký.",
+  "keywords": "tạo biên lai miễn phí, mẫu biên lai thanh toán, tạo biên lai online, mẫu biên lai miễn phí, tải biên lai pdf, mẫu phiếu thu tiền mặt",
+  "heroEyebrow": "Miễn phí · Không cần đăng ký",
+  "heroTitle": "Tạo biên lai miễn phí",
+  "heroSubtitle": "Trao cho mỗi khách hàng một biên lai thanh toán gọn gàng chỉ trong vài giây. Nhập số tiền, tiền tệ và phương thức thanh toán, rồi tải về file PDF sẵn sàng in. Không cần tài khoản.",
+  "howToSteps": [
+    { "name": "Thêm thông tin của bạn", "text": "Nhập tên công ty, người thanh toán, số biên lai và ngày." },
+    { "name": "Nhập khoản thanh toán", "text": "Thêm nội dung thanh toán, số tiền và phương thức (tiền mặt, thẻ, chuyển khoản)." },
+    { "name": "Chọn tiền tệ và thuế", "text": "Chọn bất kỳ loại tiền tệ nào và, nếu cần, hiển thị phần thuế GTGT hoặc thuế bán hàng." },
+    { "name": "Tải PDF", "text": "Bấm tải về để lưu biên lai sẵn sàng in, hoặc đăng ký để tự động phát hành biên lai theo hóa đơn." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Tức thì và miễn phí", "desc": "Không cần đăng ký, không hình mờ, không giới hạn. Phát hành bao nhiêu biên lai tùy bạn cần." },
+    { "icon": "globe", "title": "Mọi loại tiền tệ", "desc": "Lập biên lai bằng OMR, AED, SAR, USD, EUR, GBP và nhiều loại khác, với số thập phân chính xác." },
+    { "icon": "card", "title": "Mọi phương thức thanh toán", "desc": "Ghi nhận tiền mặt, thẻ, chuyển khoản ngân hàng hoặc thanh toán online, hiển thị rõ trên biên lai." }
+  ],
+  "sections": [
+    { "title": "Vì sao nên dùng công cụ tạo biên lai của Paper & Pen?", "body": "Biên lai là bằng chứng thanh toán của khách hàng và là hồ sơ của bạn rằng một hóa đơn đã được tất toán. Công cụ của chúng tôi miễn phí, dùng được với mọi loại tiền tệ và tạo ra file PDF gọn gàng để bạn trao tay hoặc gửi email ngay. Không bảng tính, không đăng ký." },
+    { "eyebrow": "Hơn cả một công cụ", "title": "Biên lai liên kết với hóa đơn", "body": "Một biên lai riêng lẻ vẫn ổn cho giao dịch một lần, nhưng doanh nghiệp đang phát triển cần biên lai gắn với hóa đơn và một sổ cái liên tục. Trong Paper & Pen ERP đầy đủ, ghi nhận một khoản thanh toán sẽ tạo biên lai, đồng thời cập nhật số dư hóa đơn và sổ sách của bạn.", "items": ["Tự động tạo biên lai khi hóa đơn được thanh toán", "Theo dõi thanh toán toàn bộ, một phần và chia nhỏ", "Gửi biên lai ngay qua WhatsApp hoặc email"] }
+  ],
+  "faqs": [
+    { "q": "Hóa đơn và biên lai khác nhau thế nào?", "a": "Hóa đơn yêu cầu thanh toán trước khi tiền được trả. Biên lai xác nhận đã nhận thanh toán sau đó. Bạn có thể tạo cả hai miễn phí tại đây." },
+    { "q": "Công cụ tạo biên lai có thật sự miễn phí không?", "a": "Có. Hoàn toàn miễn phí, không cần đăng ký, không hình mờ và không giới hạn số biên lai bạn tạo." },
+    { "q": "Tôi có thể hiển thị thuế GTGT hoặc thuế trên biên lai không?", "a": "Có. Đặt bất kỳ thuế suất nào và biên lai sẽ hiển thị phần thuế trong số tiền đã trả ở chỗ bạn cần." },
+    { "q": "Biên lai có thể liên kết với hóa đơn của tôi không?", "a": "Tải biên lai riêng lẻ miễn phí, hoặc tạo không gian làm việc Paper & Pen miễn phí, nơi mọi khoản thanh toán ghi nhận theo hóa đơn đều tự động tạo biên lai liên kết." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Bằng chứng thanh toán, xong ngay",
+  "ctaSub": "Tự động tạo biên lai, theo dõi mọi khoản thanh toán và giữ sổ cái luôn cập nhật với không gian làm việc Paper & Pen miễn phí."
+}

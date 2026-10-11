@@ -1,0 +1,35 @@
+{
+  "locale": "cs",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Výroba",
+  "metaTitle": "Software pro výrobu a řízení produkce · Paper & Pen",
+  "metaDescription": "Plánujte výrobu s kusovníky, výrobními příkazy a skutečnou kalkulací. Spotřebujte suroviny, vyrobte hotové zboží a znejte svou marži. Funguje po celém světě.",
+  "keywords": "software pro výrobu, řízení výroby, kusovník, bom, výrobní příkazy, kalkulace výroby, hotové výrobky",
+  "heroEyebrow": "Doplňkový modul",
+  "heroTitle": "Vyrábějte na zakázku, <em class=\"text-copper-400 not-italic\">s kalkulací na riál přesně</em>",
+  "heroSubtitle": "Proměňte suroviny v hotové výrobky pomocí kusovníků a výrobních příkazů. Paper & Pen přitom sleduje náklady na každou komponentu, takže vždy znáte skutečnou marži.",
+  "heroBullets": ["Kusovníky a výrobní příkazy", "Automatická spotřeba zásob", "Skutečná kalkulace výroby"],
+  "features": [
+    { "icon": "manufacturing", "title": "Kusovníky", "desc": "Určete, z čeho se každý výrobek skládá, včetně množství a podsestav." },
+    { "icon": "doc", "title": "Výrobní příkazy", "desc": "Plánujte a sledujte výrobní dávky od surovin po hotové zásoby." },
+    { "icon": "inventory", "title": "Automatické skladové pohyby", "desc": "Při výrobě se suroviny spotřebují a hotové výrobky přibudou na sklad." },
+    { "icon": "calc", "title": "Kalkulace výroby", "desc": "Sečtěte materiál a režii do přesné hodnoty hotových výrobků." },
+    { "icon": "chart", "title": "Přehled o marži", "desc": "Porovnejte výrobní náklady s prodejní cenou a uvidíte skutečnou marži u každé položky." },
+    { "icon": "refresh", "title": "Propojeno od začátku do konce", "desc": "Spojte nákup, sklad a prodej v jednom souvislém toku." }
+  ],
+  "sections": [
+    { "eyebrow": "Plánujte s jistotou", "title": "Od receptury k hotovému výrobku", "body": "Kusovník nadefinujete jednou a Paper & Pen přesně ví, co každá výroba spotřebuje. Vystavíte výrobní příkaz a suroviny se zarezervují a spotřebují, zatímco hotové výrobky přibudou na sklad. O kalkulaci se postará systém.", "items": ["Opakovaně použitelné kusovníky", "Výrobní příkazy s rezervací zásob", "Automatická spotřeba a příjem hotových výrobků"] },
+    { "eyebrow": "Znejte skutečnou marži", "title": "Kalkulace, která říká pravdu", "body": "Odhadovat náklady znamená odhadovat zisk. Paper & Pen sečte materiál a režii do skutečných nákladů hotového výrobku, zaúčtuje je a u každého prodeje ukáže marži. Funguje v jakékoli měně, takže můžete nakupovat i prodávat přes hranice.", "items": ["Kalkulace materiálu a režie", "Automatické zaúčtování", "Marže za výrobek i za objednávku"] }
+  ],
+  "faqs": [
+    { "q": "Je výroba zdarma?", "a": "Výroba je volitelný placený doplněk. Základní modul Prodej a fakturace je navždy zdarma a Výrobu přidáte, když vyrábíte zboží." },
+    { "q": "Mohu definovat kusovníky?", "a": "Ano. Vytvořte BOM pro každý výrobek, včetně podsestav, a použijte jej v každé výrobní dávce." },
+    { "q": "Spotřebovává zásoby automaticky?", "a": "Ano. Při zpracování výrobního příkazu se suroviny automaticky spotřebují a hotové výrobky přibudou na sklad." },
+    { "q": "Jak se počítají výrobní náklady?", "a": "Náklady na materiál a režii se sečtou do hodnoty hotových výrobků, která se zaúčtuje, takže vaše marže jsou přesné." },
+    { "q": "Funguje v jakékoli měně?", "a": "Ano. Nakupujte materiál a prodávejte hotové výrobky v jakékoli měně, s kalkulací a účetnictvím v souladu." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Kalkulujte každou výrobu přesně",
+  "ctaSub": "Začněte zdarma s fakturací a přidejte Výrobu, abyste plánovali produkci a znali svou skutečnou marži."
+}

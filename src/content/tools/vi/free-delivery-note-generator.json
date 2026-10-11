@@ -1,0 +1,37 @@
+{
+  "locale": "vi",
+  "slug": "free-delivery-note-generator",
+  "toolType": "delivery-note",
+  "order": 6,
+  "title": "Tạo phiếu giao hàng miễn phí",
+  "metaTitle": "Công cụ tạo phiếu giao hàng miễn phí · Paper & Pen",
+  "metaDescription": "Tạo phiếu giao hàng online miễn phí. Liệt kê mặt hàng đã giao, thêm số lượng và tải về file PDF sẵn sàng in chỉ trong vài giây.",
+  "keywords": "tạo phiếu giao hàng miễn phí, mẫu phiếu giao hàng, tạo phiếu giao hàng online, mẫu phiếu giao hàng miễn phí, tải phiếu giao hàng pdf, phiếu xuất kho, phiếu đóng gói",
+  "heroEyebrow": "Miễn phí · Không cần đăng ký",
+  "heroTitle": "Tạo phiếu giao hàng miễn phí",
+  "heroSubtitle": "Giao hàng kèm phiếu giao hàng rõ ràng chỉ trong vài giây. Liệt kê mặt hàng và số lượng đã giao, rồi tải về file PDF sẵn sàng in để khách hàng ký nhận. Không cần tài khoản.",
+  "howToSteps": [
+    { "name": "Thêm thông tin của bạn", "text": "Nhập tên công ty, khách hàng, số phiếu giao hàng và ngày." },
+    { "name": "Liệt kê mặt hàng", "text": "Thêm từng mặt hàng được giao cùng số lượng. Phiếu giao hàng không cần ghi giá." },
+    { "name": "Thêm thông tin giao hàng", "text": "Ghi địa chỉ giao hàng, xe hoặc tài xế, và các hướng dẫn xử lý hàng nếu có." },
+    { "name": "Tải PDF", "text": "Bấm tải về để in phiếu cho khách hàng ký, hoặc đăng ký để tạo phiếu thẳng từ đơn hàng." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Tức thì và miễn phí", "desc": "Không cần đăng ký, không hình mờ, không giới hạn. Phát hành bao nhiêu phiếu giao hàng tùy bạn cần." },
+    { "icon": "truck", "title": "Bằng chứng giao hàng", "desc": "Hồ sơ rõ ràng, có thể ký, về những gì đã giao và đã nhận, có chỗ cho khách hàng ký." },
+    { "icon": "doc", "title": "Số lượng, không phải giá", "desc": "Hiển thị mặt hàng và số lượng mà không lộ giá, đúng như một phiếu giao hàng cần làm." }
+  ],
+  "sections": [
+    { "title": "Vì sao nên dùng công cụ tạo phiếu giao hàng của Paper & Pen?", "body": "Phiếu giao hàng (hay phiếu xuất kho) đi kèm hàng hóa và chứng minh những gì đã gửi và đã nhận, mà không hiển thị giá. Công cụ của chúng tôi miễn phí và tạo ra file PDF gọn gàng có chỗ ký tên, nên tranh chấp về giao thiếu hoặc giao sai đều dễ giải quyết." },
+    { "eyebrow": "Hơn cả một công cụ", "title": "Phiếu giao hàng tạo từ đơn hàng của bạn", "body": "Gõ phiếu giao hàng bằng tay dễ gây sai lệch với đơn hàng thực tế. Trong Paper & Pen ERP đầy đủ, phiếu giao hàng được tạo trực tiếp từ đơn bán hàng hoặc hóa đơn, nên mặt hàng và số lượng luôn khớp, tồn kho được trừ khi xuất hàng và khách hàng có thể xác nhận đã nhận.", "items": ["Tạo phiếu giao hàng từ bất kỳ đơn bán hàng nào", "Tự động trừ tồn kho khi xuất hàng", "Ghi nhận xác nhận giao hàng theo đơn"] }
+  ],
+  "faqs": [
+    { "q": "Phiếu giao hàng là gì?", "a": "Phiếu giao hàng là chứng từ đi kèm lô hàng, liệt kê mặt hàng và số lượng đã giao. Khách hàng ký vào làm bằng chứng đã nhận và thường không ghi giá." },
+    { "q": "Phiếu giao hàng khác hóa đơn thế nào?", "a": "Phiếu giao hàng xác nhận những gì thực tế đã đến nơi và không ghi giá. Hóa đơn yêu cầu thanh toán và hiển thị số tiền cùng thuế. Bạn có thể tạo cả hai miễn phí tại đây." },
+    { "q": "Công cụ tạo phiếu giao hàng có thật sự miễn phí không?", "a": "Có. Hoàn toàn miễn phí, không cần đăng ký, không hình mờ và không giới hạn số phiếu giao hàng bạn tạo." },
+    { "q": "Có thể tạo phiếu giao hàng từ đơn hàng của tôi không?", "a": "Tải về phiếu riêng lẻ miễn phí, hoặc tạo không gian làm việc Paper & Pen miễn phí để tạo phiếu giao hàng thẳng từ đơn bán hàng và tự động trừ tồn kho." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-purchase-order-generator", "/invoicing/delivery-notes", "/free-invoicing-software"],
+  "ctaTitle": "Giao hàng có bằng chứng",
+  "ctaSub": "Tạo phiếu giao hàng từ đơn hàng, trừ tồn kho khi xuất hàng và ghi nhận xác nhận với không gian làm việc Paper & Pen miễn phí."
+}

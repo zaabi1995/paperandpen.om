@@ -1,0 +1,140 @@
+{
+  "locale": "cs",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrajn",
+  "title": "DPH v Bahrajnu",
+  "metaTitle": "DPH v Bahrajnu: sazba 10 % a pravidla faktur · Paper & Pen",
+  "metaDescription": "Bahrajnská sazba DPH 10 %, registrační limit BHD 37,500 a co NBR vyžaduje na faktuře s DPH, s odkazy na vlastního průvodce úřadu.",
+  "keywords": "dph bahrajn, sazba dph bahrajn 10, limit pro registraci k dph bahrajn, náležitosti faktury s dph bahrajn, national bureau for revenue",
+  "heroEyebrow": "Bahrajn",
+  "heroTitle": "Fakturace podle pravidel <em class=\"text-copper-400 not-italic\">bahrajnské DPH</em>",
+  "heroSubtitle": "Sazba 10 %, registrační limity a co National Bureau for Revenue vyžaduje na faktuře s DPH, včetně jednoho údaje, který platí jen pro stavebnictví.",
+  "heroBullets": [
+    "Základní sazba 10 %",
+    "Registrace od BHD 37,500",
+    "Povinná e-fakturace nezveřejněna"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Základní sazba DPH",
+      "value": "10 %",
+      "note": "DPH začala 1. ledna 2019 se sazbou 5 % a s účinností od 1. ledna 2022 byla zvýšena na 10 %. Srovnání napsaná před rokem 2022 jsou zastaralá.",
+      "source": 1
+    },
+    {
+      "label": "Limit pro povinnou registraci",
+      "value": "BHD 37,500",
+      "note": "Překročení této částky vyžaduje registraci.",
+      "source": 1
+    },
+    {
+      "label": "Limit pro dobrovolnou registraci",
+      "value": "BHD 18,750",
+      "note": "Měří se za předchozích 12 měsíců nebo za následujících 12 měsíců a může vycházet z výdajů zatížených DPH, ne jen z plnění.",
+      "source": 1
+    },
+    {
+      "label": "Lhůta pro vystavení faktury",
+      "value": "15. den následujícího měsíce",
+      "note": "Faktury musí být vystaveny do patnáctého dne měsíce následujícího po měsíci, ve kterém vznikla povinnost přiznat DPH.",
+      "source": 1
+    },
+    {
+      "label": "Měna na faktuře",
+      "value": "BHD",
+      "note": "Hodnoty, částky DPH a součty se uvádějí v bahrajnských dinárech, a pokud se použije cizí měna, uvádí se i směnný kurz.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Oddíl 10.3 VAT General Guide od NBR stanoví, co musí obsahovat úplná faktura s DPH. Zjednodušená faktura s DPH potřebuje jen část těchto údajů.",
+    "items": [
+      "Označení „faktura s DPH“ (VAT invoice)",
+      "Jméno, adresa a číslo účtu DPH (VAT Account Number) dodavatele",
+      "Jméno a adresa zákazníka",
+      "Pořadové číslo faktury s DPH",
+      "Datum vystavení a datum dodání nebo platby, pokud se liší",
+      "Popis plnění dostatečně podrobný, aby byl jasný daňový režim",
+      "U výstavby nové budovy číslo stavebního povolení",
+      "Množství dodaného zboží",
+      "Hodnota plnění a jednotková cena v dinárech bez DPH",
+      "Případná sleva a čistá hodnota v dinárech bez DPH",
+      "Sazba DPH a DPH k úhradě v dinárech, u každého řádku, pokud se sazby liší",
+      "Celková částka k úhradě včetně DPH v dinárech",
+      "Použitý směnný kurz, pokud se použije cizí měna",
+      "Jasné prohlášení, pokud je transakce osvobozená",
+      "Zmínka o režimu zdanění přirážky, pokud se použije"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Povinnost nezveřejněna",
+    "body": "Nenašli jsme žádný systém, fázi ani datum e-fakturace, které by zveřejnil National Bureau for Revenue. Jeho VAT General Guide, aktualizovaný v červenci 2026, elektronickou fakturaci vůbec nezmiňuje a jeho seznam publikací neobsahuje žádného průvodce e-fakturací. Jinde se v komentářích píše o systému pro vztahy mezi firmami, který se připravuje k možnému postupnému spuštění, ale nic na vlastních stránkách úřadu žádné datum nepodporuje, proto žádné nezveřejňujeme. Pokud plánujete změnu systému, plánujte ji podle výše uvedených pravidel pro obsah faktury, která jsou aktuální a zveřejněná, ne podle očekávané povinnosti.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Jak to udělat správně",
+      "title": "Dvě pasti typické pro Bahrajn",
+      "body": "První je historie sazby. Bahrajn přešel 1. ledna 2022 z pěti na deset procent, takže každá šablona, ceník nebo srovnávací článek napsaný předtím je chybný a chyba tiše přežívá ve starých šablonách nabídek. Druhou pastí je lhůta pro vystavení. Bahrajn neříká jen, že se faktura musí vystavit, ale také dokdy: do patnáctého dne měsíce následujícího po měsíci, ve kterém vznikla povinnost přiznat DPH. Firma, která fakturuje, až když jsou papíry hotové, může být pozdě, aniž by si toho kdy všimla.",
+      "items": [
+        "Zkontrolujte šablony z doby před rokem 2022, zda nemají sazbu 5 %",
+        "Fakturujte do 15. dne následujícího měsíce",
+        "Uvádějte DPH u každého řádku, pokud se sazby liší",
+        "Na fakturách v cizí měně uvádějte směnný kurz"
+      ]
+    },
+    {
+      "eyebrow": "Detail pro obor",
+      "title": "Stavební údaj, který nikdo nečeká",
+      "body": "Bahrajnská pravidla pro obsah faktur obsahují jeden požadavek, který jinde v Zálivu nemá obdobu: u plnění souvisejících s výstavbou nové budovy musí faktura uvádět číslo stavebního povolení. Snadno se přehlédne, protože je skrytý v obecném požadavku na popis, ne jako samostatné pole, a takové opomenutí se obvykle odhalí, až když se na fakturu někdo za několik měsíců zeptá. Pokud pracujete ve stavebnictví, dejte číslo povolení do šablony popisu řádku, místo abyste spoléhali, že si na něj někdo vzpomene.",
+      "items": [
+        "Plnění u novostaveb vyžadují číslo stavebního povolení",
+        "Dejte ho do šablony, ne do něčí paměti",
+        "Popište plnění tak, aby byl jasný jeho daňový režim",
+        "Mějte připravené znění prohlášení o osvobození"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Jaká je sazba DPH v Bahrajnu?",
+      "a": "Deset procent. Bahrajn zavedl DPH se sazbou pět procent 1. ledna 2019 a s účinností od 1. ledna 2022 zvýšil základní sazbu na deset procent. Každý průvodce, šablona nebo srovnání, které pro Bahrajn stále uvádí pět procent, pochází z doby před touto změnou."
+    },
+    {
+      "q": "Kdy se musím v Bahrajnu registrovat k DPH?",
+      "a": "Když vaše plnění překročí BHD 37,500. Dobrovolně se můžete registrovat od BHD 18,750, měřeno za předchozích nebo následujících dvanáct měsíců, a Bahrajn umožňuje dobrovolnou registraci i na základě výdajů zatížených DPH, nejen plnění, což se hodí firmě, která své prodeje teprve buduje."
+    },
+    {
+      "q": "Je e-fakturace v Bahrajnu povinná?",
+      "a": "Podle ničeho, co National Bureau for Revenue zveřejňuje, ne. Jeho VAT General Guide, aktualizovaný v červenci 2026, elektronickou fakturaci nezmiňuje a mezi jeho publikacemi není žádný průvodce e-fakturací. Neopakujeme data z komentářů, která úřad sám nezveřejnil."
+    },
+    {
+      "q": "Dokdy musí být bahrajnská faktura s DPH vystavena?",
+      "a": "Do patnáctého dne měsíce následujícího po měsíci, ve kterém vznikla povinnost přiznat DPH. Jde o skutečnou lhůtu, ne o obecné očekávání, a zaskočí firmy, které fakturují hromadně na konci čtvrtletí."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Fakturujte v Bahrajnu správně, zdarma",
+  "ctaSub": "Sazbu si nastavte sami, uvádějte DPH u každého řádku a mějte údaje, které úřad požaduje, v šabloně, kterou si nemusíte pamatovat.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, verze 1.15, včetně oddílu 10.3 o náležitostech faktur",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

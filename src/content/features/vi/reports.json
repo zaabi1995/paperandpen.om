@@ -1,0 +1,35 @@
+{
+  "locale": "vi",
+  "slug": "reports",
+  "order": 8,
+  "title": "Báo cáo",
+  "metaTitle": "Báo cáo và phân tích kinh doanh · Paper & Pen",
+  "metaDescription": "Bảng điều khiển và báo cáo trực tiếp về bán hàng, tiền mặt, lợi nhuận, thuế và tồn kho. Truy về chứng từ gốc, xuất ra Excel hoặc PDF, bằng mọi loại tiền tệ.",
+  "keywords": "báo cáo kinh doanh, bảng điều khiển phân tích, báo cáo bán hàng, báo cáo lãi lỗ, báo cáo thuế, báo cáo tài chính, xuất ra excel",
+  "heroEyebrow": "Mô-đun bổ sung",
+  "heroTitle": "Quyết định dựa trên <em class=\"text-copper-400 not-italic\">số liệu trực tiếp</em>",
+  "heroSubtitle": "Mọi giao dịch bán hàng, thanh toán và biến động kho đều được tổng hợp thành bảng điều khiển và báo cáo rõ ràng, theo thời gian thực. Xem mặt hàng nào bán chạy, ai đang nợ bạn và lợi nhuận nằm ở đâu, rồi xuất ra bất cứ đâu.",
+  "heroBullets": ["Bảng điều khiển theo thời gian thực", "Truy về chứng từ gốc", "Xuất ra Excel hoặc PDF"],
+  "features": [
+    { "icon": "reports", "title": "Phân tích bán hàng", "desc": "Xem sản phẩm bán chạy, khách hàng tốt nhất và xu hướng trong bất kỳ khoảng thời gian nào." },
+    { "icon": "chart", "title": "Báo cáo tài chính", "desc": "Báo cáo lãi lỗ, bảng cân đối kế toán, dòng tiền và tuổi nợ phải thu." },
+    { "icon": "calc", "title": "Báo cáo thuế", "desc": "Tổng hợp thuế đầu vào và đầu ra sẵn sàng cho tờ khai thuế GTGT." },
+    { "icon": "inventory", "title": "Báo cáo tồn kho", "desc": "Báo cáo định giá, biến động và hàng sắp hết ở mọi kho." },
+    { "icon": "doc", "title": "Truy về chứng từ gốc", "desc": "Bấm vào bất kỳ con số nào để truy về đúng chứng từ đứng sau nó." },
+    { "icon": "refresh", "title": "Luôn cập nhật", "desc": "Báo cáo cập nhật trực tiếp khi giao dịch phát sinh, không phải chờ xử lý qua đêm." }
+  ],
+  "sections": [
+    { "eyebrow": "Rõ ràng trong nháy mắt", "title": "Một bảng điều khiển cho toàn bộ doanh nghiệp", "body": "Mở Paper & Pen và xem những con số quan trọng: tiền trong ngân hàng, ai đang nợ bạn, mặt hàng nào bán chạy và lợi nhuận tháng này. Vì mọi thứ được ghi nhận theo thời gian thực, bảng điều khiển phản ánh sự thật, không phải ảnh chụp của tuần trước.", "items": ["Tiền mặt, công nợ và lợi nhuận hiện ngay đầu trang", "Lọc theo kỳ, khách hàng hoặc sản phẩm", "Trực tiếp, không bao giờ lỗi thời"] },
+    { "eyebrow": "Chia sẻ và đào sâu", "title": "Báo cáo mà kế toán và hội đồng quản trị tin tưởng", "body": "Đi sâu từ bất kỳ báo cáo nào thẳng tới chứng từ gốc, rồi xuất ra Excel hoặc PDF cho kế toán, ngân hàng hoặc hội đồng quản trị. Báo cáo bằng mọi loại tiền tệ và chuyển giao diện sang tiếng Ả Rập, tiếng Anh, tiếng Hindi, tiếng Bengal hoặc tiếng Urdu để mọi người đọc cùng con số bằng ngôn ngữ của mình.", "items": ["Đi sâu tới từng giao dịch", "Xuất ra Excel và PDF", "Đa tiền tệ và đa ngôn ngữ"] }
+  ],
+  "faqs": [
+    { "q": "Báo cáo có miễn phí không?", "a": "Báo cáo là mô-đun bổ sung trả phí, tùy chọn. Phần lõi miễn phí mãi mãi có bảng điều khiển hóa đơn, và bộ báo cáo đầy đủ sẵn sàng khi bạn cần phân tích sâu hơn." },
+    { "q": "Báo cáo có theo thời gian thực không?", "a": "Có. Mọi giao dịch được ghi nhận trực tiếp, nên bảng điều khiển và báo cáo luôn phản ánh tình hình hiện tại của doanh nghiệp." },
+    { "q": "Tôi có thể xuất báo cáo không?", "a": "Có. Xuất ra Excel hoặc PDF để chia sẻ với kế toán, ngân hàng hoặc hội đồng quản trị." },
+    { "q": "Tôi có thể truy một con số về nguồn gốc của nó không?", "a": "Có. Bấm vào bất kỳ con số nào để đi sâu tới đúng hóa đơn, khoản thanh toán hoặc bút toán đứng sau nó." },
+    { "q": "Báo cáo có hỗ trợ nhiều loại tiền tệ không?", "a": "Có. Báo cáo bằng mọi loại tiền tệ và xem giao diện bằng năm ngôn ngữ." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Nhìn rõ doanh nghiệp của bạn",
+  "ctaSub": "Bắt đầu miễn phí với hóa đơn và thêm Báo cáo để có bảng điều khiển trực tiếp và phân tích sẵn sàng xuất file."
+}

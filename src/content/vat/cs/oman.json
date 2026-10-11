@@ -1,0 +1,159 @@
+{
+  "locale": "cs",
+  "slug": "oman",
+  "order": 1,
+  "country": "Omán",
+  "title": "DPH v Ománu",
+  "metaTitle": "DPH v Ománu: sazba, limity, faktury · Paper & Pen",
+  "metaDescription": "Ománská sazba DPH 5 %, registrační limit OMR 38,500 a dvanáct údajů, které musí obsahovat daňový doklad, každý s odkazem na Oman Tax Authority.",
+  "keywords": "dph omán, sazba dph omán, limit pro registraci k dph omán, náležitosti daňového dokladu omán, e-fakturace fawtara, oman tax authority",
+  "heroEyebrow": "Omán",
+  "heroTitle": "Fakturace podle pravidel <em class=\"text-copper-400 not-italic\">ománské DPH</em>",
+  "heroSubtitle": "Sazba, registrační limity, co musí daňový doklad obsahovat a jak je to s e-fakturací. Každé číslo na této stránce má odkaz na text, který zveřejnila přímo Oman Tax Authority.",
+  "heroBullets": [
+    "Základní sazba 5 %",
+    "Registrace od OMR 38,500",
+    "Fawtara oznámena, zatím nespuštěna"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Základní sazba DPH",
+      "value": "5 %",
+      "note": "Článek 36 VAT Law stanoví daň z dovozu a dodání zdanitelného zboží nebo služeb ve výši pěti procent ze zdanitelné hodnoty.",
+      "source": 1
+    },
+    {
+      "label": "Limit pro povinnou registraci",
+      "value": "OMR 38,500",
+      "note": "Roční objem dodání v této výši nebo vyšší vyžaduje registraci. Zákon tuto částku sám nestanoví, ale přenechává ji rozhodnutí předsedy (Chairman's Decision).",
+      "source": 2
+    },
+    {
+      "label": "Limit pro dobrovolnou registraci",
+      "value": "OMR 19,250",
+      "note": "Od této úrovně se můžete registrovat i pod limitem pro povinnou registraci.",
+      "source": 2
+    },
+    {
+      "label": "Jazyk faktury",
+      "value": "Arabština",
+      "note": "Fakturu lze vystavit i v angličtině, pokud je na vyžádání k dispozici arabský překlad.",
+      "source": 3
+    },
+    {
+      "label": "Strop pro zjednodušenou fakturu",
+      "value": "OMR 500",
+      "note": "U dodání pod touto hodnotou lze se souhlasem Tax Authority použít zjednodušenou fakturu.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Článek 145 Executive Regulations uvádí, co musí daňový doklad obsahovat. Článek seznam uvozuje slovy „zejména“, proto ho berte jako minimum, ne jako úplný výčet.",
+    "items": [
+      "Slova „daňový doklad“ (Tax Invoice)",
+      "Datum vystavení, datum dodání a datum platby",
+      "Pořadové číslo faktury",
+      "Celé jméno, adresa a daňové identifikační číslo dodavatele",
+      "Celé jméno, adresa a daňové identifikační číslo zákazníka, nebo jeho obdoba v zemi, kde má sídlo",
+      "Popis dodaného zboží a služeb",
+      "Množství zboží",
+      "Datum případné zálohové platby",
+      "Celková úplata bez daně",
+      "Uplatněná sazba daně",
+      "Jakékoli poskytnuté snížení ceny nebo sleva a jakákoli státní dotace, která v ceně ještě není zahrnuta",
+      "Zdanitelná hodnota"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority zveřejňuje Executive Regulations pouze v arabštině. Tento seznam věrně vychází z oficiálního arabského textu, nejde o oficiální anglický překlad, proto si znění před spolehnutím ověřte u svého daňového poradce."
+  },
+  "einvoicing": {
+    "status": "Oznámeno a rozděleno do fází, zatím nepovinné",
+    "body": "Ománský program e-fakturace se jmenuje Fawtara. Tax Authority popisuje model pěti stran, ve kterém k ní faktury putují přes akreditovaného poskytovatele služeb, a stanoví čtyři fáze: pilotní provoz, rozšíření, zapojení menších firem a plné spuštění. Data jednotlivých fází Authority v angličtině nezveřejnila a data, která kolují v tisku, na jejích vlastních stránkách uvedená nejsou. Jakýkoli konkrétní termín pro Fawtara, který najdete jinde, berte jako nepotvrzený, dokud ho Tax Authority nezveřejní.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Jak to udělat správně",
+      "title": "Na čem firmy v Ománu nejčastěji chybují",
+      "body": "Většinu problémů s fakturami s DPH zde způsobují tři věci. První je daňové identifikační číslo zákazníka: když ho vynecháte, zákazník si možná nebude moci uplatnit daň na vstupu, takže se vaše faktura stane jeho nákladem a vaším problémem. Druhou je číselná řada faktur. Článek 145 vyžaduje pořadové číslo a nejrychleji ji narušíte tím, že již odeslanou fakturu smažete nebo přečíslujete. Opravte ji raději dobropisem. Třetí je jazyk: faktura musí být v arabštině a pokud vystavujete jen anglicky a arabskou verzi nemáte na vyžádání k dispozici, vystavujete se riziku.",
+      "items": [
+        "DIČ zákazníka zjistěte před vystavením, ne až potom",
+        "Vystavenou fakturu nikdy nemažte, opravte ji dobropisem",
+        "Mějte na vyžádání k dispozici arabskou verzi",
+        "Datum dodání evidujte odděleně od data vystavení"
+      ]
+    },
+    {
+      "eyebrow": "Příprava",
+      "title": "Jak se připravit na Fawtara bez hádání termínů",
+      "body": "Abyste byli připraveni, nepotřebujete zveřejněný termín. Každý systém e-fakturace, který byl v regionu spuštěn, vyžadoval stejnou základní disciplínu: čisté a úplné záznamy o zákaznících včetně daňových čísel, nepřerušenou číselnou řadu faktur, daňový režim evidovaný u každého řádku, ne jen u celé faktury, a doklady uložené tak, abyste je na vyžádání dohledali. Firmu, jejíž záznamy tyto čtyři podmínky už splňují, čeká krátké zavádění, ať termíny přijdou kdykoli. Firma, která je nesplňuje, stráví výpovědní lhůtu čištěním dat.",
+      "items": [
+        "Úplné záznamy o zákaznících včetně daňových čísel",
+        "Jedna nepřerušená číselná řada faktur pro každou řadu",
+        "Daňový režim evidovaný řádek po řádku",
+        "Doklady dohledatelné na vyžádání"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Jaká je sazba DPH v Ománu?",
+      "a": "Pět procent. Článek 36 VAT Law, vyhlášeného Royal Decree 121/2020, stanoví daň z dovozu a dodání zdanitelného zboží nebo služeb ve výši pěti procent ze zdanitelné hodnoty. Některá dodání mají nulovou sazbu nebo jsou osvobozená, a to jsou dvě různé věci: dodavatel s nulovou sazbou si daň na vstupu uplatnit může, osvobozený ne."
+    },
+    {
+      "q": "Kdy se musím v Ománu registrovat k DPH?",
+      "a": "Když vaše roční dodání dosáhnou nebo se očekává, že dosáhnou, OMR 38,500. Dobrovolně se můžete registrovat od OMR 19,250. Obě částky pocházejí z rozhodnutí předsedy (Chairman's Decision) o registračních limitech, ne přímo z VAT Law, a proto se mohou změnit, aniž by se měnil zákon."
+    },
+    {
+      "q": "Je e-fakturace v Ománu už povinná?",
+      "a": "Zatím ne. Tax Authority oznámila Fawtara, model e-fakturace pěti stran zaváděný po fázích s využitím akreditovaných poskytovatelů služeb, a popisuje čtyři fáze zavádění. Data fází v angličtině na svých stránkách nezveřejnila, proto zde žádné datum neuvádíme. Aktuální stav si ověřte na stránkách Tax Authority věnovaných e-fakturaci."
+    },
+    {
+      "q": "Mohu v Ománu vystavit fakturu v angličtině?",
+      "a": "V angličtině vystavovat můžete, ale Executive Regulations vyžadují, aby byl daňový doklad v arabštině, a jiný jazyk povolují jako doplněk, pokud je na vyžádání k dispozici arabský překlad. V praxi to znamená mít dvojjazyčnou šablonu, ne jen anglickou."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Fakturujte v Ománu správně, zdarma",
+  "ctaSub": "Nastavte si vlastní sazbu daně, fakturujte v jakékoli měně a mějte arabskou i anglickou fakturu ze stejného záznamu.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, článek 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Chairman's Decision o stanovení limitů pro povinnou a dobrovolnou registraci",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Decision 53/2021, články 145 až 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Stránky programu e-fakturace (Fawtara)",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

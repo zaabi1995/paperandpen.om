@@ -1,0 +1,140 @@
+{
+  "locale": "ro",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrain",
+  "title": "TVA în Bahrain",
+  "metaTitle": "TVA în Bahrain: cota de 10% și reguli de facturare · Paper & Pen",
+  "metaDescription": "Cota de TVA de 10% din Bahrain, pragul de înregistrare de BHD 37,500 și ce cere NBR pe o factură cu TVA, cu trimitere la ghidul oficial al instituției.",
+  "keywords": "TVA Bahrain, cota TVA 10% Bahrain, prag înregistrare TVA Bahrain, cerințe factură TVA Bahrain, National Bureau for Revenue",
+  "heroEyebrow": "Bahrain",
+  "heroTitle": "Facturarea după regulile de <em class=\"text-copper-400 not-italic\">TVA din Bahrain</em>",
+  "heroSubtitle": "Cota de 10%, pragurile de înregistrare și ce cere National Bureau for Revenue pe o factură cu TVA, inclusiv singurul câmp specific construcțiilor.",
+  "heroBullets": [
+    "Cotă standard de 10%",
+    "BHD 37,500 pentru înregistrare",
+    "Nicio obligație de facturare electronică publicată"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Cota standard de TVA",
+      "value": "10%",
+      "note": "TVA-ul a pornit de la 5% la 1 ianuarie 2019 și a fost majorat la 10% începând cu 1 ianuarie 2022. Comparațiile scrise înainte de 2022 sunt depășite.",
+      "source": 1
+    },
+    {
+      "label": "Pragul de înregistrare obligatorie",
+      "value": "BHD 37,500",
+      "note": "Depășirea acestei valori impune înregistrarea.",
+      "source": 1
+    },
+    {
+      "label": "Pragul de înregistrare voluntară",
+      "value": "BHD 18,750",
+      "note": "Se măsoară pe ultimele 12 luni sau pe următoarele 12 luni și se poate baza pe cheltuielile purtătoare de TVA, nu doar pe livrări.",
+      "source": 1
+    },
+    {
+      "label": "Termenul de emitere a facturii",
+      "value": "Pe 15 a lunii următoare",
+      "note": "Facturile trebuie emise până pe data de cincisprezece a lunii de după luna în care a apărut exigibilitatea TVA.",
+      "source": 1
+    },
+    {
+      "label": "Moneda de pe factură",
+      "value": "BHD",
+      "note": "Valorile, sumele de TVA și totalurile se afișează în dinari bahreinieni, cu cursul de schimb menționat când se folosește o monedă străină.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Secțiunea 10.3 din VAT General Guide al NBR stabilește ce trebuie să conțină o factură completă cu TVA. O factură simplificată cu TVA are nevoie doar de o parte dintre acestea.",
+    "items": [
+      "Mențiunea „Factură cu TVA”",
+      "Numele, adresa și numărul de cont TVA ale furnizorului",
+      "Numele și adresa clientului",
+      "Un număr secvențial al facturii cu TVA",
+      "Data emiterii și data livrării sau a plății, dacă diferă",
+      "O descriere a livrării suficient de detaliată încât tratamentul TVA să fie clar",
+      "Pentru construcția unei clădiri noi, numărul autorizației de construire",
+      "Cantitatea bunurilor furnizate",
+      "Valoarea livrării și prețul unitar în dinari, fără TVA",
+      "Orice reducere și valoarea netă în dinari, fără TVA",
+      "Cota de TVA și TVA-ul datorat în dinari, pe fiecare linie dacă cotele diferă",
+      "Suma totală de plată cu TVA inclus, în dinari",
+      "Cursul de schimb aplicat, când se folosește o monedă străină",
+      "O mențiune clară când o tranzacție este scutită",
+      "O trimitere la regimul marjei de profit, când acesta se aplică"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Nicio obligație publicată",
+    "body": "Nu găsim nicio schemă, etapă sau dată de facturare electronică publicată de National Bureau for Revenue. VAT General Guide, actualizat în iulie 2026, nu menționează deloc facturarea electronică, iar lista de publicații a instituției nu include niciun ghid de facturare electronică. Comentariile din alte surse descriu un sistem între firme aflat în proiectare, pentru o posibilă lansare etapizată, dar nimic de pe site-ul instituției nu susține o dată, așa că nu publicăm una. Dacă plănuiești o schimbare de sistem, planific-o pe baza regulilor de conținut al facturii de mai sus, care sunt actuale și publicate, nu pe baza unei obligații anticipate.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Cum faci corect",
+      "title": "Cele două capcane specifice Bahrainului",
+      "body": "Prima este istoricul cotei. Bahrainul a trecut de la cinci la sută la zece la sută la 1 ianuarie 2022, așa că orice șablon, listă de prețuri sau articol comparativ scris înainte de asta este greșit, iar greșeala supraviețuiește discret în vechile șabloane de oferte. A doua este termenul de emitere. Bahrainul nu spune doar că o factură trebuie emisă, ci și până când: până pe data de cincisprezece a lunii următoare celei în care a apărut exigibilitatea TVA. O firmă care facturează când sunt gata actele poate întârzia fără să observe vreodată.",
+      "items": [
+        "Verifică orice șablon dinainte de 2022 pentru cota de 5%",
+        "Facturează până pe 15 a lunii următoare",
+        "Afișează TVA-ul pe linie când cotele diferă",
+        "Menționează cursul de schimb pe facturile în monedă străină"
+      ]
+    },
+    {
+      "eyebrow": "Detaliu de sector",
+      "title": "Câmpul pentru construcții pe care nu-l așteaptă nimeni",
+      "body": "Regulile de conținut al facturii din Bahrain au o cerință fără echivalent în restul Golfului: pentru livrările legate de construcția unei clădiri noi, factura trebuie să afișeze numărul autorizației de construire. Este ușor de ratat, pentru că se află în cerința generală de descriere, nu ca un câmp separat, și este genul de omisiune descoperit abia când o factură este contestată, luni mai târziu. Dacă lucrezi în construcții, pune numărul autorizației în șablonul de descriere a liniei, nu te baza pe memoria cuiva.",
+      "items": [
+        "Livrările pentru clădiri noi au nevoie de numărul autorizației de construire",
+        "Pune-l în șablon, nu în memoria cuiva",
+        "Descrie livrarea suficient încât să reiasă tratamentul TVA",
+        "Ține pregătită formularea pentru mențiunea de scutire"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Care este cota de TVA în Bahrain?",
+      "a": "Zece la sută. Bahrainul a introdus TVA-ul la cinci la sută la 1 ianuarie 2019 și a majorat cota standard la zece la sută începând cu 1 ianuarie 2022. Orice ghid, șablon sau comparație care încă arată cinci la sută pentru Bahrain este anterior acestei schimbări."
+    },
+    {
+      "q": "Când trebuie să mă înregistrez în scopuri de TVA în Bahrain?",
+      "a": "Când livrările tale depășesc BHD 37,500. Te poți înregistra voluntar de la BHD 18,750, măsurat pe ultimele sau pe următoarele douăsprezece luni, iar Bahrainul permite înregistrarea voluntară pe baza cheltuielilor purtătoare de TVA, nu doar a livrărilor, ceea ce poate conveni unei firme care încă își construiește vânzările."
+    },
+    {
+      "q": "Facturarea electronică este obligatorie în Bahrain?",
+      "a": "Nu, potrivit a tot ce publică National Bureau for Revenue. VAT General Guide, actualizat în iulie 2026, nu menționează facturarea electronică, iar printre publicațiile instituției nu apare niciun ghid de facturare electronică. Nu repetăm date din comentarii pe care instituția însăși nu le-a publicat."
+    },
+    {
+      "q": "Până când trebuie emisă o factură cu TVA în Bahrain?",
+      "a": "Până pe data de cincisprezece a lunii următoare celei în care a apărut exigibilitatea TVA. Este un termen real, nu o simplă așteptare generală, și prinde nepregătite firmele care își grupează facturarea la final de trimestru."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Facturează corect în Bahrain, gratuit",
+  "ctaSub": "Setezi singur cota, afișezi TVA-ul pe linie și păstrezi câmpurile cerute de instituție într-un șablon pe care nu trebuie să-l ții minte.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, versiunea 1.15, inclusiv secțiunea 10.3 privind cerințele facturii",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

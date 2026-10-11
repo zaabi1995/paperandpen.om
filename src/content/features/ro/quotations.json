@@ -1,0 +1,35 @@
+{
+  "locale": "ro",
+  "slug": "quotations",
+  "order": 2,
+  "title": "Oferte",
+  "metaTitle": "Software gratuit de oferte și estimări · Paper & Pen",
+  "metaDescription": "Trimite oferte și estimări profesionale în orice monedă, gratuit pentru totdeauna. Vezi când sunt deschise, transformă-le în factură, aprobare cu semnătură.",
+  "keywords": "program oferte, ofertă de preț gratuită, generator estimări, ofertă comercială, propunere, transformare ofertă în factură, semnare electronică ofertă",
+  "heroEyebrow": "Gratuit pentru totdeauna",
+  "heroTitle": "Oferte care <em class=\"text-copper-400 not-italic\">se închid</em>",
+  "heroSubtitle": "Construiești în câteva minute o ofertă curată, cu marca ta, o trimiți spre aprobare și transformi ofertele acceptate în facturi cu un singur clic. Orice monedă, orice limbă.",
+  "heroBullets": ["Din ofertă în factură, instant", "Acceptare online și semnătură electronică", "Gratuit pentru totdeauna"],
+  "features": [
+    { "icon": "quote", "title": "Oferte profesionale", "desc": "Oferte detaliate, cu sigla, condițiile și termenul tău de valabilitate." },
+    { "icon": "check", "title": "Aprobare online", "desc": "Clienții acceptă și semnează electronic dintr-un link securizat, fără imprimare sau scanare." },
+    { "icon": "refresh", "title": "Din ofertă în factură", "desc": "Transformi o ofertă acceptată în factură cu un clic, cu totalurile preluate." },
+    { "icon": "chart", "title": "Vizibilitatea pipeline-ului", "desc": "Vezi dintr-o privire ce oferte sunt trimise, văzute, acceptate sau expirate." },
+    { "icon": "globe", "title": "Orice monedă și taxă", "desc": "Ofertează în orice monedă, cu cota de taxă corectă inclusă în totaluri." },
+    { "icon": "doc", "title": "Șabloane reutilizabile", "desc": "Salvează articolele și condițiile obișnuite, ca următoarea ofertă să dureze câteva secunde." }
+  ],
+  "sections": [
+    { "eyebrow": "Un da mai rapid", "title": "Fă-le clienților aprobarea foarte ușoară", "body": "O ofertă ușor de citit și ușor de acceptat câștigă mai des. Paper & Pen trimite un PDF ordonat și un link securizat unde clientul poate verifica, accepta și chiar semna electronic de pe telefon. Primești o notificare în clipa în care o face.", "items": ["Trimitere pe email și WhatsApp", "Acceptare și semnătură electronică de pe mobil", "Notificare instant la acceptare"] },
+    { "eyebrow": "Fără retastare", "title": "De la ofertă la încasare, fără să scrii din nou", "body": "Când o ofertă este acceptată, o transformi direct în factură sau în comandă de vânzare. Articolele, reducerile, moneda și taxa sunt toate preluate, așa că nu se pierde nimic și nu se greșește nimic. Afacerea curge curat în contabilitate.", "items": ["Transformare cu un clic", "Reducerile și taxa se păstrează", "Istoric de audit de la ofertă la plată"] }
+  ],
+  "faqs": [
+    { "q": "Instrumentul de oferte este gratuit?", "a": "Da. Crearea și trimiterea ofertelor fac parte din modulul Vânzări și Facturare, gratuit pentru totdeauna, fără limită de oferte sau clienți." },
+    { "q": "Clienții pot accepta oferta online?", "a": "Da. Trimiți un link securizat unde clientul poate verifica, accepta și semna electronic de pe orice dispozitiv. Ești notificat instant." },
+    { "q": "Cum transform o ofertă în factură?", "a": "Deschizi oferta acceptată și apeși pe transformare. Factura se creează cu toate articolele, moneda și taxa preluate." },
+    { "q": "Pot face oferte în monede diferite?", "a": "Da. Ofertezi în OMR, AED, SAR, USD, EUR sau orice monedă, cu zecimalele și taxa corecte." },
+    { "q": "Pot refolosi șabloane de ofertă?", "a": "Da. Salvezi articolele, condițiile și notele frecvente ca șabloane, așa că ofertele repetate durează câteva secunde." }
+  ],
+  "related": ["/features/invoicing", "/features/sales-crm", "/invoicing/quotations", "/invoicing/estimates", "/pricing"],
+  "ctaTitle": "Trimite azi o ofertă câștigătoare",
+  "ctaSub": "Începe gratuit și construiește-ți prima ofertă în câteva minute. Transform-o în factură în clipa în care e acceptată."
+}

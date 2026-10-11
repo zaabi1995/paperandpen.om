@@ -1,0 +1,35 @@
+{
+  "locale": "vi",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Sản xuất",
+  "metaTitle": "Phần mềm quản lý sản xuất · Paper & Pen",
+  "metaDescription": "Lập kế hoạch sản xuất với định mức nguyên vật liệu, lệnh sản xuất và giá thành thực. Xuất nguyên liệu, nhập thành phẩm, biết biên lợi nhuận thật của bạn.",
+  "keywords": "phần mềm sản xuất, quản lý sản xuất, định mức nguyên vật liệu, bom, lệnh sản xuất, tính giá thành sản xuất, thành phẩm",
+  "heroEyebrow": "Mô-đun bổ sung",
+  "heroTitle": "Sản xuất theo đơn, <em class=\"text-copper-400 not-italic\">tính giá đến từng rial</em>",
+  "heroSubtitle": "Biến nguyên vật liệu thành thành phẩm bằng định mức nguyên vật liệu và lệnh sản xuất, trong khi Paper & Pen theo dõi chi phí từng thành phần để bạn luôn biết biên lợi nhuận thực.",
+  "heroBullets": ["Định mức nguyên vật liệu và lệnh sản xuất", "Tự động xuất kho nguyên liệu", "Giá thành sản xuất thực"],
+  "features": [
+    { "icon": "manufacturing", "title": "Định mức nguyên vật liệu", "desc": "Xác định những gì cấu thành mỗi sản phẩm, với số lượng và bán thành phẩm." },
+    { "icon": "doc", "title": "Lệnh sản xuất", "desc": "Lập kế hoạch và theo dõi các đợt sản xuất từ nguyên vật liệu đến thành phẩm." },
+    { "icon": "inventory", "title": "Tự động điều chỉnh kho", "desc": "Nguyên vật liệu được xuất dùng và thành phẩm được nhập kho ngay khi bạn sản xuất." },
+    { "icon": "calc", "title": "Tính giá thành sản xuất", "desc": "Cộng dồn chi phí nguyên vật liệu và chi phí chung thành giá trị thành phẩm chính xác." },
+    { "icon": "chart", "title": "Thấy rõ biên lợi nhuận", "desc": "So sánh giá thành sản xuất với giá bán và xem biên lợi nhuận thực của từng mặt hàng." },
+    { "icon": "refresh", "title": "Liên kết từ đầu đến cuối", "desc": "Kết nối mua hàng, kho hàng và bán hàng trong một luồng liên tục." }
+  ],
+  "sections": [
+    { "eyebrow": "Lập kế hoạch tự tin", "title": "Từ công thức đến thành phẩm", "body": "Xác định định mức nguyên vật liệu một lần và Paper & Pen biết chính xác mỗi lần sản xuất tiêu hao những gì. Tạo lệnh sản xuất, nguyên liệu được giữ chỗ và xuất dùng trong khi thành phẩm được nhập kho, mọi khâu tính giá thành đều được xử lý thay bạn.", "items": ["Định mức nguyên vật liệu dùng lại được", "Lệnh sản xuất có giữ chỗ tồn kho", "Tự động xuất nguyên liệu và nhập thành phẩm"] },
+    { "eyebrow": "Biết biên lợi nhuận thực", "title": "Giá thành nói lên sự thật", "body": "Đoán giá thành tức là đoán lợi nhuận. Paper & Pen cộng dồn nguyên vật liệu và chi phí chung thành giá thành thành phẩm thực, ghi vào sổ sách và hiển thị biên lợi nhuận trên mỗi đơn bán. Dùng được với mọi loại tiền tệ, để bạn mua nguyên liệu và bán hàng xuyên biên giới.", "items": ["Giá thành gồm nguyên vật liệu và chi phí chung", "Tự động ghi vào kế toán", "Biên lợi nhuận theo sản phẩm, theo đơn hàng"] }
+  ],
+  "faqs": [
+    { "q": "Mô-đun sản xuất có miễn phí không?", "a": "Sản xuất là mô-đun bổ sung trả phí, tùy chọn. Mô-đun lõi Bán hàng và hóa đơn miễn phí mãi mãi, và bạn thêm Sản xuất khi bạn sản xuất hàng hóa." },
+    { "q": "Tôi có thể xác định định mức nguyên vật liệu không?", "a": "Có. Lập BOM cho từng sản phẩm, kể cả bán thành phẩm, và dùng lại cho mọi đợt sản xuất." },
+    { "q": "Hệ thống có tự động xuất kho không?", "a": "Có. Khi bạn xử lý lệnh sản xuất, nguyên vật liệu được xuất dùng và thành phẩm được nhập kho tự động." },
+    { "q": "Giá thành sản xuất được tính như thế nào?", "a": "Chi phí nguyên vật liệu và chi phí chung được cộng dồn vào giá trị thành phẩm, ghi vào kế toán để biên lợi nhuận của bạn chính xác." },
+    { "q": "Có dùng được với mọi loại tiền tệ không?", "a": "Có. Mua nguyên vật liệu và bán thành phẩm bằng mọi loại tiền tệ, giá thành và kế toán luôn đồng bộ." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Tính giá thành chính xác cho mỗi lần sản xuất",
+  "ctaSub": "Bắt đầu miễn phí với hóa đơn và thêm Sản xuất để lập kế hoạch sản xuất và biết biên lợi nhuận thực."
+}

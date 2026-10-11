@@ -1,0 +1,35 @@
+{
+  "locale": "vi",
+  "slug": "retail",
+  "order": 2,
+  "title": "Bán lẻ và cửa hàng",
+  "metaTitle": "Phần mềm bán hàng và quản lý kho cho cửa hàng · Paper & Pen",
+  "metaDescription": "Tính tiền miễn phí cùng kho hàng mã vạch, cảnh báo sắp hết hàng và định giá trực tiếp cho cửa hàng bán lẻ. Bán nhanh, không bao giờ hết hàng, sổ sách gọn gàng.",
+  "keywords": "phần mềm bán lẻ, phần mềm tính tiền cửa hàng, quản lý kho mã vạch, hóa đơn bán hàng pos, cảnh báo hết hàng, erp bán lẻ, quản lý kho nhiều cửa hàng",
+  "heroEyebrow": "Cho cửa hàng và nhà bán lẻ",
+  "heroTitle": "Bán nhanh, <em class=\"text-copper-400 not-italic\">không bao giờ hết hàng</em>",
+  "heroSubtitle": "Tính tiền cho khách trong vài giây, quét mã vạch để kiểm kho và để tồn kho tự cập nhật. Paper & Pen giữ kệ hàng, doanh số và sổ sách luôn đồng bộ để bạn bớt thời gian kiểm đếm, thêm thời gian bán hàng.",
+  "heroBullets": ["Tính tiền nhanh, miễn phí", "Hỗ trợ mã vạch và SKU", "Cảnh báo sắp hết hàng trước khi cạn"],
+  "features": [
+    { "icon": "receipt", "title": "Tính tiền nhanh", "desc": "Ghi nhận giao dịch và in hoặc chia sẻ biên lai trong vài giây, trên mọi thiết bị." },
+    { "icon": "inventory", "title": "Kho hàng mã vạch", "desc": "Quét để kiểm đếm hoặc nhập xuất hàng, sắp xếp theo SKU, lô và đơn vị tính." },
+    { "icon": "bell", "title": "Cảnh báo sắp hết hàng", "desc": "Đặt điểm đặt hàng lại và được cảnh báo trước khi mặt hàng bán chạy về số không." },
+    { "icon": "truck", "title": "Tồn kho nhiều cửa hàng", "desc": "Theo dõi và chuyển hàng giữa các chi nhánh với số lượng trực tiếp ở mọi nơi." },
+    { "icon": "calc", "title": "Định giá trực tiếp", "desc": "Phương pháp giá bình quân hoặc FIFO giữ giá trị tồn kho chính xác trên bảng cân đối kế toán." },
+    { "icon": "chart", "title": "Báo cáo hàng bán chạy", "desc": "Xem mặt hàng nào bán chạy và mặt hàng nào tồn đọng, theo sản phẩm, danh mục và cửa hàng." }
+  ],
+  "sections": [
+    { "eyebrow": "Thanh toán nhanh hơn", "title": "Tính tiền dành cho quầy bận rộn", "body": "Khách hàng không muốn chờ. Tạo giao dịch bằng cách tìm kiếm mặt hàng, áp dụng chiết khấu, nhận thanh toán và trao biên lai gọn gàng trong vài giây. Biên lai được chia sẻ qua WhatsApp hoặc in tại quầy, và mọi giao dịch đều chảy thẳng vào tồn kho và sổ sách, không có gì phải nhập lại.", "items": ["Tìm kiếm để thêm hàng nhanh", "In hoặc chia sẻ biên lai ngay lập tức", "Chiết khấu và thuế được xử lý tự động"] },
+    { "eyebrow": "Tồn kho tự quản", "title": "Luôn biết trên kệ có gì", "body": "Số liệu kiểm kê thủ công trở nên lỗi thời ngay khi bạn bán một món hàng. Trong Paper & Pen, mọi giao dịch bán và nhập hàng đều điều chỉnh tồn kho theo thời gian thực, nên con số trên màn hình khớp với kệ hàng. Đặt điểm đặt hàng lại để hệ thống cảnh báo việc nhập hàng chậm trước khi bạn mất một đơn bán. Phát triển tại Oman với OMR, AED và SAR gốc cùng thuế GTGT 5%, và sẵn sàng cho USD, EUR hay bất kỳ thuế suất nào bạn giao dịch.", "items": ["Tồn kho theo thời gian thực sau mỗi giao dịch", "Điểm đặt hàng lại và cảnh báo sắp hết hàng", "Mọi tiền tệ, mọi thuế suất"] }
+  ],
+  "faqs": [
+    { "q": "Tôi có thể bán hàng bằng máy quét mã vạch không?", "a": "Không phải tại quầy. Tại quầy, bạn tìm kiếm mặt hàng để thêm vào giao dịch. Máy quét mã vạch dùng cho tồn kho: quét mặt hàng để kiểm đếm hoặc để nhập hoặc xuất kho. Mặt hàng được sắp xếp theo SKU, lô và đơn vị tính." },
+    { "q": "Tồn kho có cập nhật khi tôi bán hàng không?", "a": "Có. Mọi giao dịch bán làm giảm và mọi lần nhập hàng làm tăng tồn kho theo thời gian thực, ở tất cả cửa hàng, không cần kiểm đếm thủ công." },
+    { "q": "Tôi có thể vận hành nhiều hơn một cửa hàng không?", "a": "Có. Theo dõi tồn kho theo từng cửa hàng, chuyển hàng giữa các chi nhánh và xem số lượng trực tiếp ở mọi nơi từ một không gian làm việc." },
+    { "q": "Tính tiền có thật sự miễn phí không?", "a": "Bán hàng và hóa đơn, gồm cả biên lai, miễn phí mãi mãi. Thêm mô-đun Kho hàng khi bạn muốn quản lý tồn kho bằng mã vạch và cảnh báo sắp hết hàng." },
+    { "q": "Có dùng được ngoài vùng GCC không?", "a": "Có. Paper & Pen dùng được với mọi loại tiền tệ và mọi thuế suất, nên nhà bán lẻ ở bất cứ đâu cũng có thể tính tiền và quản lý tồn kho, với tiếng Ả Rập, tiếng Anh và nhiều ngôn ngữ khác sẵn sàng." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Vận hành cửa hàng không cần phỏng đoán",
+  "ctaSub": "Bắt đầu miễn phí với tính tiền và biên lai, rồi thêm Kho hàng để quản lý tồn kho bằng mã vạch và cảnh báo sắp hết hàng."
+}

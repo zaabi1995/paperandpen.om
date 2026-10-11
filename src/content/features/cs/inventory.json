@@ -1,0 +1,35 @@
+{
+  "locale": "cs",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Sklad",
+  "metaTitle": "Software pro řízení skladu a zásob · Paper & Pen",
+  "metaDescription": "Sledujte zásoby ve všech skladech v reálném čase, s upozorněním na nízký stav, šaržemi, čárovými kódy a oceněním, které se účtuje. Funguje po celém světě.",
+  "keywords": "skladový software, řízení zásob, skladová evidence, upozornění na nízký stav, čárové kódy, ocenění zásob, více skladů",
+  "heroEyebrow": "Doplňkový modul",
+  "heroTitle": "Zásoby, kterým můžete <em class=\"text-copper-400 not-italic\">věřit</em>, v reálném čase",
+  "heroSubtitle": "Vězte přesně, co máte, kde to je a kolik to stojí. Sklad se aktualizuje ve chvíli, kdy fakturujete nebo přijmete zboží, takže čísla jsou vždy aktuální.",
+  "heroBullets": ["Aktuální zásoby ve všech skladech", "Upozornění na nízký stav a doobjednání", "Ocenění se účtuje do účetnictví"],
+  "features": [
+    { "icon": "inventory", "title": "Zásoby v reálném čase", "desc": "Množství se aktualizuje ve chvíli, kdy zboží prodáte, nakoupíte nebo převedete." },
+    { "icon": "truck", "title": "Více skladů", "desc": "Sledujte a převádějte zásoby mezi místy a pobočkami s úplným přehledem." },
+    { "icon": "bell", "title": "Upozornění na nízký stav", "desc": "Nastavte body doobjednání a dostanete varování dřív, než vám dojde rychloobrátkové zboží." },
+    { "icon": "receipt", "title": "Čárové kódy a SKU", "desc": "Skenováním počítejte nebo přesouvejte zásoby, s tříděním podle SKU, šarže a měrné jednotky." },
+    { "icon": "calc", "title": "Aktuální ocenění", "desc": "Průměrná cena nebo FIFO udrží hodnotu zásob v rozvaze přesnou." },
+    { "icon": "refresh", "title": "Propojeno s prodejem", "desc": "Faktury a objednávky hýbou zásobami automaticky, bez ručních úprav." }
+  ],
+  "sections": [
+    { "eyebrow": "Vždy přesně", "title": "Sklad, který se aktualizuje sám", "body": "Ruční inventura zastará ve chvíli, kdy něco prodáte. V Paper & Pen každá faktura, nákup i převod upraví množství a náklady v reálném čase, takže číslo na obrazovce odpovídá tomu, co je v regálu. Nastavte body doobjednání a systém vám řekne, kdy nakoupit.", "items": ["Automatická úprava při každé transakci", "Body doobjednání a upozornění", "Sledování šarží, SKU a měrných jednotek"] },
+    { "eyebrow": "Sklad se potkává s účetnictvím", "title": "Z regálu až do rozvahy", "body": "Sklad není jen počítání krabic, jsou to skutečné peníze ve vaší rozvaze. Paper & Pen oceňuje zásoby průměrnou cenou nebo metodou FIFO a pohyby automaticky účtuje, takže náklady na prodané zboží i hodnota zásob jsou vždy odsouhlasené. Funguje v jakékoli měně a na jakémkoli trhu.", "items": ["Průměrná cena nebo FIFO", "Automatické zaúčtování", "Nákupy ve více měnách"] }
+  ],
+  "faqs": [
+    { "q": "Je sklad zahrnutý zdarma?", "a": "Sklad je volitelný placený doplněk. Základní modul Prodej a fakturace je navždy zdarma a Sklad přidáte, až budete potřebovat řízení zásob v reálném čase." },
+    { "q": "Mohu spravovat více skladů?", "a": "Ano. Sledujte zásoby podle místa, převádějte je mezi sklady a všude vidíte aktuální množství." },
+    { "q": "Podporuje čárové kódy?", "a": "Ano. Naskenujte čárový kód dodavatele, SKU nebo vytištěný QR štítek a počítejte i přesouvejte zásoby rychleji, s podporou šarží a měrných jednotek." },
+    { "q": "Jak se zásoby oceňují?", "a": "Zvolte průměrnou cenu nebo FIFO. Ocenění se aktualizuje s každým pohybem a automaticky se účtuje do účetnictví." },
+    { "q": "Aktualizuje prodej zásoby automaticky?", "a": "Ano. Faktury snižují zásoby a nákupy je zvyšují v reálném čase, takže množství nikdy neupravujete ručně." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Mějte zásoby pod kontrolou",
+  "ctaSub": "Začněte zdarma s fakturací a přidejte Sklad, až budete připraveni na zásoby v reálném čase na všech místech."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "cs",
+  "slug": "payments",
+  "order": 10,
+  "title": "Platby",
+  "metaTitle": "Online platby faktur · Zaplaceno rychleji · Paper & Pen",
+  "metaDescription": "Přidejte ke každé faktuře odkaz na online platbu a nechte si platit kartou. Paymob i globální brány, jakákoli měna, automatické párování. Funguje všude.",
+  "keywords": "online platby, platby kartou, zaplatit fakturu online, paymob, platební brána, rychlejší platby, platební odkaz",
+  "heroEyebrow": "V základu",
+  "heroTitle": "Ať vám zákazníci zaplatí <em class=\"text-copper-400 not-italic\">jedním klepnutím</em>",
+  "heroSubtitle": "Dejte na každou fakturu zabezpečený odkaz na online platbu, aby zákazníci zaplatili kartou okamžitě. Platby se automaticky spárují s účetnictvím, v jakékoli měně a kdekoli.",
+  "heroBullets": ["Odkaz na online platbu na každé faktuře", "Automatické párování s hlavní knihou", "Paymob a globální platební brány"],
+  "features": [
+    { "icon": "card", "title": "Platba kartou", "desc": "Zákazníci zaplatí jakoukoli fakturu online kartou, bez přihlášení a bez aplikace." },
+    { "icon": "bolt", "title": "Okamžitý platební odkaz", "desc": "Každá faktura nese zabezpečený odkaz, který sdílíte e-mailem nebo přes WhatsApp." },
+    { "icon": "refresh", "title": "Automatické párování", "desc": "Úspěšná platba označí fakturu jako zaplacenou a zaúčtuje se." },
+    { "icon": "globe", "title": "Jakákoli měna", "desc": "Inkasujte v OMR, AED, SAR, USD, EUR a dalších měnách přes vhodnou bránu." },
+    { "icon": "shield", "title": "Bezpečnost a PCI", "desc": "Údaje o kartách zpracovávají certifikované brány, vy je nikdy neukládáte." },
+    { "icon": "receipt", "title": "Odeslané potvrzení", "desc": "Zákazník dostane automatické potvrzení ve chvíli, kdy platba projde." }
+  ],
+  "sections": [
+    { "eyebrow": "Zaplaceno rychleji", "title": "Odstraňte překážky mezi fakturou a penězi", "body": "Čím rychleji může zákazník zaplatit, tím rychleji máte peníze. Odkaz na online platbu na každé faktuře znamená žádné opisování bankovních údajů a žádné čekání na převod. Zákazník klepne, zaplatí kartou a faktura se sama aktualizuje, potvrzení už je na cestě.", "items": ["Platba kartou jedním klepnutím", "Odkaz ke sdílení přes WhatsApp i e-mail", "Automatická potvrzení"] },
+    { "eyebrow": "Lokálně i globálně", "title": "Správná platební brána pro váš trh", "body": "Paper & Pen propojuje Paymob pro státy Perského zálivu a další globální brány, takže přijmete karty, které vaši zákazníci skutečně používají, v jejich měně. Každá úhrada se spáruje se správnou fakturou a zaúčtuje se, takže inkaso a účetnictví jdou ruku v ruce.", "items": ["Paymob pro státy Perského zálivu a globální možnosti", "Inkaso ve více měnách", "Párování s konkrétní fakturou"] }
+  ],
+  "faqs": [
+    { "q": "Je zapnutí online plateb zdarma?", "a": "Ano, odkazy na online platbu jsou součástí základu. Platební brána si účtuje vlastní poplatek za zpracování každé transakce, jak je u bran obvyklé." },
+    { "q": "Které platební brány jsou podporované?", "a": "Paymob pro státy Perského zálivu a další globální brány, takže přijmete karty, které vaši zákazníci používají, v jejich měně." },
+    { "q": "Aktualizuje platba fakturu automaticky?", "a": "Ano. Úspěšná platba označí fakturu jako zaplacenou, odešle potvrzení a zaúčtuje zápis." },
+    { "q": "Mohou zákazníci platit v různých měnách?", "a": "Ano. Inkasujte v OMR, AED, SAR, USD, EUR a dalších měnách přes odpovídající bránu." },
+    { "q": "Je platba kartou bezpečná?", "a": "Ano. Údaje o kartách zpracovávají brány s certifikací PCI a v Paper & Pen se nikdy neukládají." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Proměňte faktury v okamžité peníze",
+  "ctaSub": "Začněte zdarma a přidejte ke každé faktuře odkaz na online platbu, ať vám zákazníci zaplatí jedním klepnutím."
+}

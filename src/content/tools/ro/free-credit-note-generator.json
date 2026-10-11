@@ -1,0 +1,133 @@
+{
+  "locale": "ro",
+  "slug": "free-credit-note-generator",
+  "order": 9,
+  "title": "Generator gratuit de note de credit",
+  "metaTitle": "Generator gratuit de note de credit · Paper & Pen",
+  "metaDescription": "Creează și descarcă o notă de credit profesională în format PDF. Funcționează instant în browser, fără să-ți faci cont.",
+  "keywords": "generator notă de credit gratuit, factură de stornare, creare notă de credit online, notă de credit PDF, emitere notă de credit, storno factură",
+  "heroEyebrow": "Instrument online gratuit",
+  "heroTitle": "Generează o notă de credit <em class=\"text-copper-400 not-italic\">instant, online</em>",
+  "heroSubtitle": "Corectează greșeli de facturare, procesează retururi sau acordă reduceri fără să strici numerotarea contabilă. Completezi datele, aplici taxa corectă și descarci un PDF gata de trimis.",
+  "heroBullets": [
+    "Fără cont",
+    "Zece monede disponibile",
+    "Se descarcă în format PDF"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PDF creat instant",
+      "desc": "Documentul se generează direct în browser. Îl poți salva ca PDF sau îl poți tipări imediat, fără să aștepți vreun email."
+    },
+    {
+      "icon": "lock",
+      "title": "Privat și sigur",
+      "desc": "Nu încărcăm datele tale pe serverele noastre. Tot ce scrii rămâne pe dispozitivul tău, așa că informațiile despre clienți rămân complet private."
+    },
+    {
+      "icon": "globe",
+      "title": "Zece monede disponibile",
+      "desc": "Alege dintre OMR, AED, SAR, QAR, BHD, KWD, USD, EUR, GBP sau INR. Potrivește moneda cu cea a facturii inițiale pe care trebuie s-o corectezi."
+    },
+    {
+      "icon": "percent",
+      "title": "Cote de taxă personalizate",
+      "desc": "Aplică exact procentul de taxă folosit pe factura inițială. Instrumentul calculează automat totalurile finale, ca evidența fiscală să rămână corectă."
+    },
+    {
+      "icon": "accounting",
+      "title": "Istoric de audit curat",
+      "desc": "O notă de credit emisă corect păstrează intactă numerotarea facturilor. Este modul corect de a trata retururile sau greșelile în contabilitate."
+    },
+    {
+      "icon": "download",
+      "title": "Fără cont",
+      "desc": "Nu trebuie să-ți faci cont și nici să dai o adresă de email ca să folosești acest generator. Este complet gratuit și mereu la îndemână."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Noțiuni de bază",
+      "title": "Când emiți o notă de credit",
+      "body": "Nota de credit este un document legal care reduce suma pe care ți-o datorează cumpărătorul. Trebuie s-o emiți când un client returnează marfa, când l-ai taxat prea mult sau când îi acorzi o reducere după vânzare. Tot cu o notă de credit anulezi complet o factură. Nu șterge și nu modifica niciodată o factură pe care ai trimis-o deja clientului. Ștergerea unei facturi creează un gol în numerotare, ceea ce aduce probleme la un audit. În schimb, emiți o notă de credit ca să anulezi suma în mod legal și transparent.",
+      "items": [
+        "Corectarea unei sume facturate din greșeală prea mari",
+        "Procesarea returului unui anumit produs",
+        "Aplicarea unei reduceri după ce facturarea s-a încheiat",
+        "Anularea completă a unei facturi greșite, ca să o iei de la capăt"
+      ]
+    },
+    {
+      "eyebrow": "Ghid de completare",
+      "title": "Cum completezi formularul",
+      "body": "Începe prin a introduce datele firmei tale și ale clientului exact cum apar pe factura inițială. Trebuie să treci numărul facturii inițiale în câmpul de referință, ca cele două documente să fie legate. Pentru un credit parțial, enumeră doar articolele returnate sau reduse. Pentru un credit total, enumeră toate articolele de pe factura inițială. Introdu cantitatea și prețul unitar pentru fiecare linie. La final, aplică exact aceeași cotă de taxă pe care ai perceput-o inițial. Nota de credit trebuie să conțină taxa în aceeași proporție ca factura pe care o corectează.",
+      "items": [
+        "Datele firmei, exact cum sunt tipărite pe factura inițială",
+        "Numărul facturii inițiale trecut în câmpul de referință",
+        "Doar articolele returnate sau reduse",
+        "Exact aceeași cotă de taxă ca pe prima factură"
+      ]
+    },
+    {
+      "eyebrow": "Pașii următori",
+      "title": "Ce faci cu nota de credit finală",
+      "body": "După ce generezi și descarci PDF-ul, trimite-l clientului, ca să-și actualizeze propriile evidențe de achiziții. Dacă clientul nu a plătit încă factura inițială, va scădea valoarea notei de credit din plată. Dacă a plătit deja integral, poți fie să-i returnezi banii direct, fie să păstrezi creditul în contul lui pentru o achiziție viitoare. În propria contabilitate, înregistrează nota de credit ca să reduci veniturile din vânzări și să ajustezi corespunzător obligația fiscală.",
+      "items": [
+        "Trimite PDF-ul descărcat direct clientului",
+        "Aplică valoarea creditului pe soldurile facturilor neplătite",
+        "Păstrează valoarea ca credit pentru vânzări viitoare",
+        "Înregistrează ajustarea financiară în registrul contabil"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Pot doar să modific factura inițială în loc să fac o notă de credit?",
+      "a": "Nu, nu ar trebui niciodată să modifici sau să ștergi o factură după ce ai emis-o clientului. Așa strici numerotarea secvențială a facturilor, care este o cerință strictă pentru conformitatea fiscală și pentru audit. Trebuie să emiți o notă de credit ca să anulezi suma corect. Astfel rămâne o evidență clară și trasabilă a motivului pentru care s-a schimbat totalul, care te protejează atât pe tine, cât și pe client, dacă un auditor îți verifică conturile."
+    },
+    {
+      "q": "Cum calculez taxa pe o notă de credit?",
+      "a": "Nota de credit trebuie să conțină taxa exact în aceeași proporție ca factura inițială. Dacă ai aplicat un anumit procent de taxă la vânzarea inițială, aplici același procent și pe suma creditată. Generatorul nostru are un câmp de taxă personalizat, unde introduci cota corectă, iar reducerea finală de taxă se calculează automat."
+    },
+    {
+      "q": "Care e diferența dintre o notă de credit totală și una parțială?",
+      "a": "Nota de credit totală anulează întreaga valoare a facturii inițiale, ceea ce e util dacă comanda este anulată complet. Nota de credit parțială anulează doar o parte din suma totală. O folosești când un client returnează doar un articol dintr-o comandă mai mare sau când accepți o mică reducere ca să rezolvi o reclamație."
+    },
+    {
+      "q": "Instrumentul îmi salvează datele clienților?",
+      "a": "Nu, acest generator gratuit funcționează în întregime în browser. Nu încărcăm pe serverele noastre datele firmei, informațiile despre clienți sau articolele și nu îți cerem să-ți faci cont. După ce închizi fila browserului, informațiile dispar. Trebuie să descarci documentul final ca PDF ca să-l păstrezi."
+    }
+  ],
+  "related": [
+    "/invoicing/credit-notes",
+    "/tools/free-invoice-generator",
+    "/tools/free-receipt-generator",
+    "/features/invoicing"
+  ],
+  "ctaTitle": "Vrei să-ți urmărești notele de credit?",
+  "ctaSub": "Cu Paper & Pen creezi gratuit facturi și note de credit, urmărești clienții și îți gestionezi registrul contabil.",
+  "howToSteps": [
+    {
+      "name": "Introdu datele firmei",
+      "text": "Scrie în generator numele firmei și datele clientului. Asigură-te că se potrivesc exact cu factura inițială."
+    },
+    {
+      "name": "Fă referire la factura inițială",
+      "text": "Introdu numărul facturii inițiale în câmpul de referință. Așa legi nota de credit de tranzacția pe care o corectezi."
+    },
+    {
+      "name": "Adaugă articolele",
+      "text": "Enumeră produsele sau serviciile rambursate. Introdu cantitatea și prețul unitar pentru fiecare articol și alege moneda corectă."
+    },
+    {
+      "name": "Aplică cota de taxă",
+      "text": "Scrie procentul de taxă folosit pe factura inițială. Instrumentul calculează automat ajustarea totală a taxei."
+    },
+    {
+      "name": "Descarcă PDF-ul final",
+      "text": "Verifică documentul, apoi apasă pe buton ca să-l salvezi ca PDF sau să-l tipărești direct din browser."
+    }
+  ],
+  "toolType": "credit-note"
+}
