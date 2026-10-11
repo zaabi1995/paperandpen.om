@@ -1,0 +1,60 @@
+---
+locale: "pt"
+slug: "vat-invoicing-gcc-guide"
+title: "Guia de faturamento com IVA no GCC: regras da fatura fiscal por país"
+description: "As regras da fatura com IVA no GCC variam por país. Veja os campos que uma fatura fiscal costuma exigir, a ordem certa do cálculo e onde confirmar as regras atuais."
+shortAnswer: "As regras da fatura com IVA no GCC variam por país. Veja os campos que uma fatura fiscal costuma exigir, a ordem certa do cálculo e onde confirmar as regras atuais."
+pubDate: 2026-06-04
+updatedDate: "2026-08-21"
+author: "Paper & Pen"
+tags: ["vat", "invoicing", "gcc", "guide"]
+---
+
+Se você vende no Golfo, suas faturas precisam satisfazer as autoridades fiscais, além dos clientes. As regras não são complicadas depois que você as conhece, mas esquecer um campo obrigatório ou errar o cálculo do imposto pode custar multas ou créditos de imposto perdidos. Este guia mostra o que uma fatura em conformidade com o IVA precisa ter no GCC, onde estão os erros mais comuns e por que você nunca deve supor que a alíquota de um país vale em todos.
+
+## O IVA no GCC em resumo
+
+O IVA não é uniforme no GCC. Cada país define a própria alíquota, o limite de registro, as regras da fatura e o processo de declaração, e alguns países ainda não implantaram o IVA. Confira sempre a situação atual com a autoridade fiscal em que você está registrado.
+
+Um ponto essencial: **não existe uma alíquota única de IVA no GCC.** Se você fatura clientes em outros países, defina a alíquota vigente de cada jurisdição, em vez de levar a configuração de um país para outro.
+
+## O que uma fatura com IVA (fatura fiscal) precisa mostrar
+
+Para estar em conformidade, uma fatura fiscal geralmente precisa trazer:
+
+- **As palavras "Fatura Fiscal"** de forma clara no documento.
+- **O seu nome, o seu endereço e o seu número de registro no IVA.**
+- **O nome e o endereço do cliente,** além do número de IVA dele, se ele for registrado e recuperar o imposto.
+- **Um número de fatura sequencial e único** e a data de emissão.
+- **A descrição de cada item,** com quantidade e preço unitário.
+- **O valor líquido (antes do imposto), a alíquota e o valor do IVA e o total bruto.**
+- **A moeda,** informada de forma explícita (OMR, AED, SAR e assim por diante).
+
+Vários países do GCC permitem faturas fiscais simplificadas para valores menores no varejo, mas o limite e as regras exatas variam por país, então confirme localmente.
+
+## O erro que pega todo mundo: imposto sobre o líquido
+
+O erro de IVA mais comum é calcular o imposto sobre o valor bruto ou antes de aplicar um desconto. A ordem correta é:
+
+1. Some as linhas de itens para chegar ao subtotal.
+2. Subtraia qualquer desconto.
+3. **Aplique o IVA sobre esse valor líquido com desconto.**
+4. Some o IVA ao líquido para chegar ao total geral.
+
+Por exemplo, em uma venda de OMR 1,000 com desconto de OMR 100, o IVA de 5% incide sobre OMR 900, o que dá OMR 45 de imposto e um total de OMR 945, e não OMR 50 sobre os mil inteiros. Errar isso cobra a mais do cliente e distorce a sua declaração fiscal.
+
+## Alíquota zero, isento e fora do campo de incidência
+
+Nem toda linha segue a alíquota padrão. Alguns fornecimentos têm **alíquota zero** (tributados a 0%, mas ainda declarados), outros são **isentos** (sem IVA e com recuperação limitada do imposto pago) e outros ficam totalmente **fora do campo de incidência**. O tratamento depende do que você vende e de onde, então, na dúvida, consulte as orientações da sua autoridade fiscal ou o seu contador. Sua ferramenta de faturamento deve permitir definir 0% ou uma alíquota personalizada por linha, para esses casos ficarem bem resolvidos.
+
+## Deixe a conformidade automática
+
+É na conta manual do IVA que os erros aparecem. Uma boa ferramenta aplica a alíquota certa, desconta os abatimentos e organiza todos os campos obrigatórios para você. Nosso [gerador de faturas grátis](/tools/free-invoice-generator) produz uma fatura fiscal bem estruturada, e a [calculadora de IVA de Omã](/tools/oman-vat-calculator) faz a conta dos 5% em segundos. Para o faturamento contínuo em várias moedas e alíquotas, um [software de faturamento grátis](/free-invoicing-software) mantém cada documento em conformidade e arquivado.
+
+Veja na nossa página de [preços](/pricing) como os módulos completos de contabilidade e relatórios se somam a isso. As regras fiscais mudam, então trate este texto como uma visão prática e confirme as regras vigentes com a autoridade fiscal do seu país.
+
+{/* search-authority-sources:start */}
+## Confirme as regras atuais na fonte
+
+Use nossos guias por país para [Omã](/vat/oman), os [Emirados Árabes Unidos](/vat/uae), a [Arábia Saudita](/vat/saudi-arabia) e o [Bahrein](/vat/bahrain). Cada guia cita e liga os documentos da autoridade fiscal por trás dos seus números. Consulte de novo a autoridade competente antes de emitir uma fatura, porque as regras fiscais podem mudar.
+{/* search-authority-sources:end */}

@@ -1,0 +1,36 @@
+{
+  "locale": "de",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Gutschriften",
+  "metaTitle": "Software für Gutschriften · Paper & Pen",
+  "metaDescription": "Erstellen Sie kostenlos professionelle Gutschriften in jeder Währung. Korrigieren Sie eine Rechnung bei Rückgabe, Erstattung oder Fehler mit einem echten Beleg.",
+  "keywords": "Gutschrift, Gutschrift erstellen, Rechnungskorrektur, Stornorechnung, Gutschrift Rückgabe, Software für Gutschriften, Gutschrift MwSt.",
+  "heroEyebrow": "Gutschriften",
+  "heroTitle": "Stellen Sie <em class=\"text-copper-400 not-italic\">Gutschriften</em> richtig aus",
+  "heroSubtitle": "Korrigieren Sie eine Rechnung bei Rückgabe, Erstattung oder Fehler mit einer echten Gutschrift, einem klaren Prüfpfad und einer automatischen Buchung. In jeder Währung.",
+  "heroBullets": ["Für immer kostenlos", "Mit der Originalrechnung verknüpft", "Bucht den richtigen Eintrag"],
+  "features": [
+    { "icon": "doc", "title": "Ein echter Gutschriftsbeleg", "desc": "Eine nummerierte Gutschrift, verknüpft mit der Originalrechnung, nie eine stille Änderung." },
+    { "icon": "refresh", "title": "Passt den Saldo an", "desc": "Senkt den Kundensaldo und kehrt die Steuer auf den gutgeschriebenen Betrag korrekt um." },
+    { "icon": "shield", "title": "Vollständiger Prüfpfad", "desc": "Jede Gutschrift wird mit ihrem Grund erfasst, damit Ihre Bücher sauber und prüfbar bleiben." },
+    { "icon": "calc", "title": "Korrekte MwSt.-Umkehr", "desc": "Die Steuer wird auf den gutgeschriebenen Nettobetrag umgekehrt, damit Ihre Steuererklärungen stimmen." },
+    { "icon": "globe", "title": "Jede Währung", "desc": "Gutschriften in USD, EUR, AED, SAR, OMR, INR und mehr, passend zur Originalrechnung." },
+    { "icon": "whatsapp", "title": "Überallhin senden", "desc": "Teilen Sie die Gutschrift per WhatsApp oder E-Mail, damit der Kunde den Beleg hat." }
+  ],
+  "sections": [
+    { "eyebrow": "Was ist eine Gutschrift", "title": "Was ist eine Gutschrift?", "body": "Eine Gutschrift (auch Rechnungskorrektur genannt) ist ein Beleg, mit dem ein Verkäufer den Betrag senkt, den ein Kunde aus einer bereits ausgestellten Rechnung schuldet. Sie dient für Rückgaben, Erstattungen, zu hohe Berechnungen, stornierte Positionen oder Preiskorrekturen. Eine Gutschrift löscht die Originalrechnung nie, sie verrechnet sie ganz oder teilweise. So bleibt lückenlos und prüfbar festgehalten, was sich geändert hat und warum." },
+    { "eyebrow": "So funktioniert es", "title": "Gutschreiben, umkehren, abgleichen", "body": "Paper & Pen stellt eine Gutschrift als echten Beleg mit eigener Nummer und eigener Buchung aus, nie als stille Änderung an der Rechnung.", "items": ["Öffnen Sie die Rechnung und erstellen Sie dazu eine Gutschrift", "Schreiben Sie die ganze Rechnung oder einzelne Positionen gut", "Geben Sie den Grund an: Rückgabe, Erstattung, Korrektur oder Storno", "Die Steuer wird auf den gutgeschriebenen Nettobetrag automatisch umgekehrt", "Kundensaldo und Hauptbücher werden gemeinsam aktualisiert"] },
+    { "eyebrow": "Warum das wichtig ist", "title": "Ändern Sie nie eine bezahlte Rechnung", "body": "Wer eine ausgestellte Rechnung ändert oder löscht, zerstört den Prüfpfad und die eigene Steuerposition. Der richtige Weg, eine Forderung zu senken, ist eine Gutschrift. Sie lässt die Originalrechnung unberührt, bucht einen Gegeneintrag und kehrt den richtigen Steuerbetrag um. In den meisten MwSt.- und GST-Systemen weltweit ist genau das vorgeschrieben." }
+  ],
+  "faqs": [
+    { "q": "Wofür wird eine Gutschrift verwendet?", "a": "Um einen Betrag, den ein Kunde aus einer Rechnung schuldet, zu senken oder zu stornieren, meist bei Rückgaben, Erstattungen, zu hohen Berechnungen oder Korrekturen. Sie verrechnet die Rechnung, statt sie zu löschen." },
+    { "q": "Ist das Erstellen von Gutschriften kostenlos?", "a": "Ja. Gutschriften ausstellen und verfolgen ist in Paper & Pen für immer kostenlos." },
+    { "q": "Kehrt eine Gutschrift die MwSt. um?", "a": "Ja. Paper & Pen kehrt die Steuer auf den gutgeschriebenen Nettobetrag automatisch um, damit Ihre MwSt.- oder GST-Position korrekt bleibt." },
+    { "q": "Kann ich nur einen Teil einer Rechnung gutschreiben?", "a": "Ja. Schreiben Sie die ganze Rechnung oder nur bestimmte Positionen und Mengen gut. Der Kundensaldo passt sich entsprechend an." },
+    { "q": "Was ist der Unterschied zwischen Gutschrift und Belastungsanzeige?", "a": "Eine Gutschrift stellt der Verkäufer aus, um zu senken, was ein Kunde schuldet. Eine Belastungsanzeige stellt meist der Käufer aus (oder sie erhöht einen geschuldeten Betrag), zum Beispiel um eine Überzahlung zurückzufordern oder einen Zusatzbetrag zu berechnen." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Stellen Sie Gutschriften mit gutem Gefühl aus",
+  "ctaSub": "Erstellen Sie einen kostenlosen Paper & Pen Workspace und korrigieren Sie jede Rechnung in Sekunden mit einer echten, prüfbaren Gutschrift."
+}

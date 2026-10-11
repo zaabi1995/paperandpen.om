@@ -1,0 +1,110 @@
+{
+  "locale": "pt",
+  "slug": "auto-repair-invoice-template",
+  "order": 10,
+  "title": "Modelo de fatura para oficina mecânica",
+  "metaTitle": "Modelo de fatura para oficina mecânica · Paper & Pen",
+  "metaDescription": "Crie faturas profissionais para oficina. Cobre horas de mão de obra, liste peças e gerencie taxas de diagnóstico com nosso gerador de faturas grátis para mecânicos.",
+  "keywords": "modelo de fatura para oficina mecânica, modelo de fatura para mecânico, gerador de fatura para oficina, cobrança de oficina, fatura de conserto de carro, software de cobrança para mecânico, modelo de orçamento para oficina",
+  "heroEyebrow": "Para mecânicos e oficinas",
+  "heroTitle": "Crie uma fatura de oficina que <em class=\"text-copper-400 not-italic\">mostra cada detalhe</em>.",
+  "heroSubtitle": "Chega de modelos genéricos que ignoram como uma oficina funciona de verdade. Cobre com clareza peças, horas de oficina e taxas de diagnóstico e registre os dados do veículo, como quilometragem e placa.",
+  "heroBullets": [
+    "Liste peças com o número exato",
+    "Calcule a mão de obra pelo valor da oficina",
+    "Registre quilometragem e placa do veículo"
+  ],
+  "features": [
+    {
+      "icon": "truck",
+      "title": "Dados do veículo incluídos",
+      "desc": "Registre a placa, a marca, o modelo e a quilometragem atual direto no documento para manter um histórico de serviços claro de cada veículo."
+    },
+    {
+      "icon": "clock",
+      "title": "Horas e valor da mão de obra",
+      "desc": "Multiplique o valor padrão da hora da oficina pelas horas que o serviço exigiu. Mostre o tempo exato gasto no conserto para justificar o total da mão de obra."
+    },
+    {
+      "icon": "inventory",
+      "title": "Lista de peças clara",
+      "desc": "Adicione uma linha para cada filtro, correia ou pastilha de freio. Inclua o código da peça do fabricante para o cliente saber exatamente o que foi colocado no carro."
+    },
+    {
+      "icon": "calc",
+      "title": "Abatimento da taxa de diagnóstico",
+      "desc": "Adicione com facilidade uma linha que abate a taxa de diagnóstico inicial da conta final do conserto quando o cliente autoriza o serviço completo."
+    },
+    {
+      "icon": "quote",
+      "title": "De estimativa a fatura",
+      "desc": "Envie primeiro uma estimativa detalhada do serviço proposto. Quando o cliente aprovar o conserto, converta essa mesma estimativa em fatura final na hora."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Envie pelo WhatsApp",
+      "desc": "Compartilhe a fatura pronta direto no celular do cliente com um link simples. Ele vê na hora o detalhamento de peças e mão de obra."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Dados essenciais da fatura",
+      "title": "O que uma fatura de oficina mecânica precisa mostrar",
+      "body": "Um modelo de fatura comum não funciona numa oficina porque não tem espaço para os dados do veículo. Registre a placa, a marca, o modelo e a quilometragem atual em todo documento. Isso protege você de contestações e ajuda a montar um histórico de serviços confiável. As linhas precisam separar bem peças e mão de obra. Liste cada peça com o código exato e o preço unitário. Na mão de obra, mostre o total de horas trabalhadas multiplicado pelo valor padrão da hora da oficina. Se você cobra uma taxa ambiental pelo descarte de óleo, coloque-a em uma linha própria, em vez de escondê-la no custo da mão de obra.",
+      "items": [
+        "Placa do veículo e quilometragem atual",
+        "Código do fabricante de todas as peças trocadas",
+        "Horas de mão de obra multiplicadas pelo valor da oficina",
+        "Linhas separadas para taxas de descarte de resíduos"
+      ]
+    },
+    {
+      "eyebrow": "Preços e cobrança",
+      "title": "Como o serviço de oficina costuma ser cobrado",
+      "body": "O mecânico raramente começa um serviço sem aprovação. A sequência padrão começa com um diagnóstico. Você cobra uma taxa fixa para encontrar o defeito e depois envia uma estimativa detalhada do conserto completo. Quando o cliente autoriza, o serviço segue. Muitas oficinas, por cortesia, abatem a taxa de diagnóstico da conta final. Você pode fazer todo esse fluxo com o nosso gerador de faturas grátis em /tools/free-invoice-generator, sem precisar de conta. Basta criar a estimativa, esperar o cliente aprovar peças e mão de obra e depois gerar a fatura final com uma linha negativa para o abatimento do diagnóstico.",
+      "items": [
+        "Comece com uma taxa fixa de diagnóstico",
+        "Envie uma estimativa completa antes de começar o conserto",
+        "Espere a autorização expressa do cliente para seguir",
+        "Abata a taxa de diagnóstico na fatura final"
+      ]
+    },
+    {
+      "eyebrow": "Pagamento e condições",
+      "title": "Como receber pelos serviços da sua oficina",
+      "body": "Uma oficina depende muito do fluxo de caixa para cobrir peças caras. Em serviços grandes, como retífica de motor ou troca de câmbio, peça um sinal antecipado para cobrir o custo das peças. O saldo normalmente vence na retirada do veículo. As condições da fatura devem dizer com clareza que o carro só será liberado depois que a conta for paga. Se o cliente deixar o veículo na oficina por dias depois do conserto pronto, talvez você também precise cobrar diárias de permanência. Deixe essas condições de permanência claras nas condições de pagamento antes de começar o serviço.",
+      "items": [
+        "Peça sinal antecipado para peças de alto custo",
+        "Exija o pagamento total antes de liberar o veículo",
+        "Inclua as diárias de permanência nas suas condições",
+        "Informe no documento as formas de pagamento aceitas"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Como lanço a mão de obra em uma fatura de mecânico?",
+      "a": "Separe totalmente a mão de obra das peças. Crie uma linha específica para o serviço de conserto. Informe o valor padrão da hora da oficina como preço unitário e o número de horas do serviço como quantidade. Assim o cliente vê exatamente como você chegou ao custo final, o que reduz discussões sobre o total."
+    },
+    {
+      "q": "Devo incluir o número do chassi nas faturas de conserto?",
+      "a": "Incluir o número de identificação do veículo (chassi) é uma boa prática, embora a placa e a quilometragem costumem bastar para consertos comuns. Registrar o chassi ajuda quando você precisa encomendar peças muito específicas de concessionária ou mantém um histórico formal de serviços para fins de garantia. Também evita qualquer confusão sobre qual veículo recebeu o serviço."
+    },
+    {
+      "q": "Como trato a taxa de diagnóstico se o cliente recusar o conserto?",
+      "a": "Se o cliente decidir não seguir com o conserto completo depois que você encontrar o defeito, basta faturar só a taxa de diagnóstico. Você só abate essa taxa se ele autorizar o serviço completo. Deixe claro na estimativa inicial que a taxa de diagnóstico vale independentemente da decisão final dele."
+    },
+    {
+      "q": "Posso usar este modelo para funilaria e pintura?",
+      "a": "Sim, funilarias podem usar a mesma estrutura de cobrança. Você ainda vai listar peças como painéis ou presilhas com os códigos e calcular a mão de obra de funilaria ou pintura pelo valor da sua hora. Também pode adicionar linhas específicas para tinta e verniz, separadas das peças de reposição."
+    }
+  ],
+  "related": [
+    "/invoicing/estimates",
+    "/tools/free-invoice-generator",
+    "/tools/free-quotation-generator",
+    "/invoicing/invoices"
+  ],
+  "ctaTitle": "Crie hoje a fatura da sua oficina mecânica",
+  "ctaSub": "Monte estimativas detalhadas, liste peças e mão de obra com clareza e converta tudo em fatura final na hora, com nossas ferramentas grátis para mecânicos e oficinas."
+}

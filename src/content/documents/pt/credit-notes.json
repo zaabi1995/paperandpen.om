@@ -1,0 +1,36 @@
+{
+  "locale": "pt",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Notas de crédito",
+  "metaTitle": "Software de notas de crédito · Paper & Pen",
+  "metaDescription": "Emita notas de crédito profissionais online, grátis e em qualquer moeda. Ajuste uma fatura por devolução, reembolso ou correção com um documento formal.",
+  "keywords": "nota de crédito, criar nota de crédito, memorando de crédito, reembolso de fatura, nota de crédito de devolução, software de nota de crédito, nota de crédito com IVA",
+  "heroEyebrow": "Notas de crédito",
+  "heroTitle": "Emita <em class=\"text-copper-400 not-italic\">notas de crédito</em> do jeito certo",
+  "heroSubtitle": "Ajuste uma fatura por devolução, reembolso ou correção com uma nota de crédito formal, uma trilha de auditoria clara e um lançamento contábil automático. Em qualquer moeda.",
+  "heroBullets": ["Grátis para sempre", "Vinculada à fatura original", "Gera o lançamento correto"],
+  "features": [
+    { "icon": "doc", "title": "Documento de crédito formal", "desc": "Uma nota de crédito numerada e vinculada à fatura original, nunca uma edição silenciosa." },
+    { "icon": "refresh", "title": "Ajusta o saldo", "desc": "Reduz o saldo do cliente e estorna o imposto corretamente sobre o valor creditado." },
+    { "icon": "shield", "title": "Trilha de auditoria completa", "desc": "Cada nota de crédito é registrada com o motivo, para seus livros ficarem limpos e auditáveis." },
+    { "icon": "calc", "title": "Estorno correto do IVA", "desc": "O imposto é estornado sobre o valor líquido creditado, mantendo suas declarações fiscais exatas." },
+    { "icon": "globe", "title": "Qualquer moeda", "desc": "Credite em USD, EUR, AED, SAR, OMR, INR e outras, na mesma moeda da fatura original." },
+    { "icon": "whatsapp", "title": "Envie para qualquer lugar", "desc": "Compartilhe a nota de crédito por WhatsApp ou e-mail para o cliente ter o registro." }
+  ],
+  "sections": [
+    { "eyebrow": "O que é uma nota de crédito", "title": "O que é uma nota de crédito?", "body": "Uma nota de crédito (ou memorando de crédito) é um documento que o vendedor emite para reduzir o valor que um cliente deve em uma fatura já emitida. Ela é usada para devoluções, reembolsos, cobranças a mais, itens cancelados ou correções de preço. A nota de crédito nunca apaga a fatura original: ela compensa formalmente parte ou todo o valor, o que mantém um registro completo e auditável do que mudou e por quê." },
+    { "eyebrow": "Como funciona", "title": "Creditar, estornar, conciliar", "body": "O Paper & Pen emite a nota de crédito como um documento real, com número e lançamento contábil próprios, nunca como uma edição discreta na fatura.", "items": ["Abra a fatura e gere uma nota de crédito a partir dela", "Credite a fatura inteira ou linhas específicas", "Informe o motivo: devolução, reembolso, correção ou cancelamento", "O imposto é estornado automaticamente sobre o valor líquido creditado", "O saldo do cliente e seus razões são atualizados juntos"] },
+    { "eyebrow": "Por que isso importa", "title": "Nunca edite uma fatura paga", "body": "Editar ou apagar uma fatura emitida quebra sua trilha de auditoria e sua posição fiscal. O jeito correto de reduzir um valor a receber é emitir uma nota de crédito, que deixa a fatura original intacta, gera um lançamento de estorno e estorna o valor certo de imposto. Essa é a prática exigida pela maioria dos regimes de IVA e GST no mundo." }
+  ],
+  "faqs": [
+    { "q": "Para que serve uma nota de crédito?", "a": "Para reduzir ou cancelar um valor que o cliente deve em uma fatura, normalmente em devoluções, reembolsos, cobranças a mais ou correções. Ela compensa a fatura em vez de apagá-la." },
+    { "q": "Criar notas de crédito é grátis?", "a": "Sim. Emitir e acompanhar notas de crédito é grátis para sempre no Paper & Pen." },
+    { "q": "A nota de crédito estorna o IVA?", "a": "Sim. O Paper & Pen estorna o imposto sobre o valor líquido creditado automaticamente, para sua posição de IVA ou GST continuar correta." },
+    { "q": "Posso creditar só parte de uma fatura?", "a": "Sim. Credite a fatura inteira ou apenas linhas e quantidades específicas. O saldo do cliente se ajusta de acordo." },
+    { "q": "Qual é a diferença entre nota de crédito e nota de débito?", "a": "A nota de crédito é emitida pelo vendedor para reduzir o que o cliente deve. A nota de débito normalmente é emitida pelo comprador (ou para aumentar um valor devido), por exemplo para recuperar um pagamento a maior ou cobrar um valor extra." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Emita uma nota de crédito com segurança",
+  "ctaSub": "Crie um espaço de trabalho grátis no Paper & Pen e ajuste qualquer fatura com uma nota de crédito formal e auditável em segundos."
+}

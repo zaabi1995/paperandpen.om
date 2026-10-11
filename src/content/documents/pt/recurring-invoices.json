@@ -1,0 +1,36 @@
+{
+  "locale": "pt",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Faturas recorrentes",
+  "metaTitle": "Faturas recorrentes · Automatize a cobrança · Paper & Pen",
+  "metaDescription": "Configure faturas recorrentes online, grátis e em qualquer moeda. Cobre assinaturas e mensalidades automaticamente e envie por WhatsApp ou e-mail.",
+  "keywords": "fatura recorrente, fatura automática, cobrança de assinatura, fatura de mensalidade, cobrança recorrente, faturamento automático, fatura agendada",
+  "heroEyebrow": "Faturas recorrentes",
+  "heroTitle": "Cobre assinaturas e mensalidades no <em class=\"text-copper-400 not-italic\">piloto automático</em>",
+  "heroSubtitle": "Defina o valor, a moeda e o cronograma uma vez, e o Paper & Pen emite e envia cada fatura automaticamente. Receba online no mesmo ciclo. Grátis para sempre.",
+  "heroBullets": ["Grátis para sempre", "Configure uma vez, cobre para sempre", "Recebimento online automático"],
+  "features": [
+    { "icon": "refresh", "title": "Configure e esqueça", "desc": "Defina o cronograma uma vez e as faturas se geram e se enviam sozinhas, no prazo." },
+    { "icon": "clock", "title": "Qualquer frequência", "desc": "Semanal, mensal, trimestral ou anual, com data de início e data de término opcional." },
+    { "icon": "card", "title": "Recebimento automático", "desc": "Envie cada fatura com um link de pagamento online ou cobre automaticamente a cada ciclo." },
+    { "icon": "globe", "title": "Qualquer moeda", "desc": "Cobre em USD, EUR, AED, SAR, OMR, INR e outras, com o imposto e as casas decimais corretos." },
+    { "icon": "whatsapp", "title": "Envie para qualquer lugar", "desc": "Cada fatura recorrente sai automaticamente por WhatsApp ou e-mail." },
+    { "icon": "bell", "title": "Lembretes incluídos", "desc": "Lembretes automáticos de pagamento cobram qualquer fatura recorrente que não for paga." }
+  ],
+  "sections": [
+    { "eyebrow": "O que é uma fatura recorrente", "title": "O que é uma fatura recorrente?", "body": "A fatura recorrente é emitida automaticamente em um cronograma definido, para o mesmo cliente e o mesmo valor, e é usada em assinaturas, mensalidades, associações, aluguéis ou contratos de manutenção. Em vez de recriar a fatura a cada ciclo, você a define uma vez e o sistema gera, numera e envia em cada vencimento, deixando a receita previsível e o trabalho administrativo em zero." },
+    { "eyebrow": "Como funciona", "title": "Defina uma vez, funciona para sempre", "body": "O Paper & Pen cuida de todo o ciclo, para a receita recorrente se receber sozinha.", "items": ["Crie um modelo recorrente com itens, moeda e imposto", "Escolha a frequência, a data de início e a data de término opcional", "A cada ciclo, uma fatura é gerada e enviada automaticamente", "O cliente paga online e os pagamentos se conciliam sozinhos", "Os lembretes cobram automaticamente qualquer fatura recorrente não paga"] },
+    { "eyebrow": "Para quem é", "title": "Perfeito para receita previsível", "body": "As faturas recorrentes servem para qualquer negócio com cobrança repetida: SaaS e assinaturas, agências com contrato mensal, academias e associações, aluguel de imóveis, contratos de manutenção de TI e de equipamentos, e serviços gerenciados. Defina o cronograma uma vez e sua receita recorrente é faturada, enviada e cobrada sem ninguém mexer nela todo mês." }
+  ],
+  "faqs": [
+    { "q": "O que é uma fatura recorrente?", "a": "Uma fatura emitida automaticamente em um cronograma definido, para o mesmo cliente e o mesmo valor, usada em assinaturas, mensalidades, aluguéis e contratos de manutenção." },
+    { "q": "A cobrança recorrente é grátis?", "a": "Sim. Configurar e manter faturas recorrentes é grátis para sempre no Paper & Pen." },
+    { "q": "Quais frequências são aceitas?", "a": "Semanal, mensal, trimestral ou anual, com data de início e data de término opcional para a série parar quando você quiser." },
+    { "q": "O cliente pode ser cobrado automaticamente?", "a": "Sim. Envie cada fatura com um link de pagamento online ou configure a cobrança automática para o ciclo cobrar a forma de pagamento salva." },
+    { "q": "E se uma fatura recorrente não for paga?", "a": "Lembretes automáticos de pagamento cobram qualquer fatura recorrente não paga até ela ser quitada, sem precisar de acompanhamento manual." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Coloque a receita recorrente no piloto automático",
+  "ctaSub": "Crie um espaço de trabalho grátis no Paper & Pen, configure uma fatura recorrente uma vez e deixe-a faturar, enviar e cobrar no prazo."
+}

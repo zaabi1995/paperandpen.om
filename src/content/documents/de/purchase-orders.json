@@ -1,0 +1,36 @@
+{
+  "locale": "de",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Bestellungen",
+  "metaTitle": "Software für Bestellungen · Paper & Pen",
+  "metaDescription": "Erstellen Sie kostenlos professionelle Bestellungen in jeder Währung. Senden Sie Bestellungen an Lieferanten und verfolgen Sie Freigaben und Lieferungen.",
+  "keywords": "Bestellung, Bestellung erstellen, Einkaufsbestellung, Bestellsoftware, Bestellung kostenlos, Lieferantenbestellung, Bestellung zu Rechnung",
+  "heroEyebrow": "Bestellungen",
+  "heroTitle": "Bestellen Sie bei Lieferanten mit echten <em class=\"text-copper-400 not-italic\">Bestellungen</em>",
+  "heroSubtitle": "Erstellen, freigeben und senden Sie Bestellungen an Lieferanten in jeder Währung, und gleichen Sie sie mit Lieferungen und Rechnungen ab, mit sauberem Prüfpfad. Für immer kostenlos.",
+  "heroBullets": ["Für immer kostenlos", "Freigabe vor dem Senden", "Abgleich mit Lieferantenrechnungen"],
+  "features": [
+    { "icon": "cart", "title": "Bestellungen mit Ihrem Logo", "desc": "Stellen Sie Lieferanten klare, nummerierte Bestellungen mit Ihren Bedingungen und Lieferangaben aus." },
+    { "icon": "check", "title": "Freigabe vor dem Senden", "desc": "Leiten Sie Bestellungen zur internen Freigabe weiter, damit nichts ohne Zustimmung bestellt wird." },
+    { "icon": "truck", "title": "Lieferungen verfolgen", "desc": "Sehen Sie je Bestellung, was bestellt, teilweise erhalten und vollständig geliefert ist." },
+    { "icon": "refresh", "title": "Abgleich mit Rechnungen", "desc": "Machen Sie aus einer erhaltenen Bestellung eine Lieferantenrechnung und gleichen Sie dreifach ab, für mehr Genauigkeit." },
+    { "icon": "globe", "title": "Jede Währung", "desc": "Bestellen in USD, EUR, AED, SAR, OMR, INR und mehr, mit der richtigen Steuer und den richtigen Dezimalstellen." },
+    { "icon": "whatsapp", "title": "Überallhin senden", "desc": "Teilen Sie die Bestellung mit einem Tippen per WhatsApp oder E-Mail mit dem Lieferanten." }
+  ],
+  "sections": [
+    { "eyebrow": "Was ist eine Bestellung", "title": "Was ist eine Bestellung?", "body": "Eine Bestellung (englisch purchase order, kurz PO) ist ein Dokument, mit dem ein Käufer bei einem Lieferanten förmlich Waren oder Leistungen zu einem vereinbarten Preis anfordert. Sie nennt Artikel, Mengen, Einzelpreise, Steuern, Lieferbedingungen und eine Bestellnummer, die der Lieferant auf seiner Rechnung angibt. Nimmt der Lieferant sie an, wird sie verbindlich. Und weil sie eine Freigabe verlangt, bevor Geld fließt, hält sie die Ausgaben unter Kontrolle." },
+    { "eyebrow": "So funktioniert es", "title": "Erstellen, freigeben, empfangen, abgleichen", "body": "Paper & Pen bildet den ganzen Ablauf vom Einkauf bis zur Zahlung ab, damit jede Bestellung freigegeben, verfolgt und abgeglichen ist.", "items": ["Erstellen Sie eine Bestellung aus einem Hinweis auf niedrigen Bestand oder von Grund auf", "Leiten Sie sie vor dem Senden zur internen Freigabe weiter", "Senden Sie sie per WhatsApp oder E-Mail an den Lieferanten", "Buchen Sie den Wareneingang zur Bestellung und aktualisieren Sie den Bestand", "Machen Sie eine Lieferantenrechnung daraus und gleichen Sie sie mit Bestellung und Lieferung ab"] },
+    { "eyebrow": "Warum das wichtig ist", "title": "Ausgaben steuern, bevor sie entstehen", "body": "Mit Bestellungen kontrollieren Sie Ausgaben, bevor das Geld das Haus verlässt, nicht danach. Mit Freigaben, Lieferverfolgung und dem dreifachen Abgleich zwischen Bestellung, erhaltener Ware und Lieferantenrechnung entdecken Sie zu hohe Rechnungen und unvollständige Lieferungen, bevor Sie zahlen. Diese Disziplin wächst mit, vom einzelnen Einkäufer bis zum ganzen Einkaufsteam." }
+  ],
+  "faqs": [
+    { "q": "Wofür ist eine Bestellung da?", "a": "Sie fordert bei einem Lieferanten förmlich Waren oder Leistungen zu einem vereinbarten Preis an, steuert Ausgaben über die Freigabe und gibt dem Lieferanten eine Referenz für seine Rechnung." },
+    { "q": "Ist die Software für Bestellungen kostenlos?", "a": "Ja. Bestellungen erstellen, freigeben und verfolgen ist in Paper & Pen für immer kostenlos." },
+    { "q": "Kann ich eine Bestellung vor dem Senden freigeben?", "a": "Ja. Leiten Sie Bestellungen zur internen Freigabe weiter, damit nichts ohne die richtige Zustimmung bestellt wird." },
+    { "q": "Kann ich eine Bestellung mit einer Lieferantenrechnung abgleichen?", "a": "Ja. Machen Sie aus einer erhaltenen Bestellung eine Lieferantenrechnung und gleichen Sie sie dreifach mit Bestellung und Wareneingang ab, um Abweichungen zu finden." },
+    { "q": "Aktualisiert der Wareneingang zu einer Bestellung meinen Bestand?", "a": "Mit dem optionalen Modul Lager erhöht der Wareneingang zu einer Bestellung den Bestand automatisch." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Bestellen Sie mit Kontrolle statt Chaos",
+  "ctaSub": "Erstellen Sie einen kostenlosen Paper & Pen Workspace, stellen Sie freigegebene Bestellungen aus und gleichen Sie sie automatisch mit Rechnungen ab."
+}
