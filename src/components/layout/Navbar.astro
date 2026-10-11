@@ -8,6 +8,8 @@ const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 
 const featureLinks = [
+  { href: '/features', label: t('featuresIndex.title') },
+  { href: '/invoicing', label: t('invoicingIndex.title') },
   { href: '/features/invoicing', label: t('mega.invoicing') },
   { href: '/features/quotations', label: t('mega.quotations') },
   { href: '/features/inventory', label: t('mega.inventory') },
@@ -24,6 +26,7 @@ const solutionLinks = [
   { href: '/industries/wholesale-distribution', label: t('mega.wholesale') },
   { href: '/industries/ecommerce', label: t('mega.ecommerce') },
   { href: '/industries/logistics', label: t('mega.logistics') },
+  { href: '/use-cases', label: t('useCasesIndex.title') },
   { href: '/use-cases/freelancers', label: t('mega.freelancers') },
   { href: '/use-cases/accountants', label: t('mega.accountants') },
 ];
@@ -69,7 +72,7 @@ const sections = {
   electric full pill hard right. Nothing else on the bar competes with it.
 */}
 <header id="site-header" class="sticky top-0 z-50 bg-paper">
-  <nav class="max-w-7xl mx-auto px-6 lg:px-10 h-[76px] lg:h-[92px] flex items-center justify-between gap-6">
+  <nav class="max-w-7xl mx-auto px-6 xl:px-10 h-[76px] lg:h-[92px] flex items-center justify-between gap-6 lg:gap-3 xl:gap-6">
     {/*
       The wordmark. Was `/logo.svg`: an illustrated four-colour shield in a
       mid-blue (#3c7bbe) that exists nowhere in the token system, locked up with

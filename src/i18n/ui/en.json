@@ -631,6 +631,27 @@
       "metrics": "Financial metrics"
     }
   },
+  "invoicingIndex": {
+    "title": "Invoicing documents",
+    "eyebrow": "Sales documents",
+    "sub": "Invoices, quotations, estimates, delivery notes, credit notes and the rest of the sales file. Create and send them free, in any currency.",
+    "metaTitle": "Invoicing Documents · Paper & Pen",
+    "metaDesc": "Create invoices, quotations, estimates, delivery notes and credit notes online, free, in any currency. Send by WhatsApp or email."
+  },
+  "featuresIndex": {
+    "title": "ERP features",
+    "eyebrow": "What the software does",
+    "sub": "Invoicing, inventory, accounting, HR and the other modules in Paper & Pen. Invoicing stays free. The other modules are optional.",
+    "metaTitle": "ERP Features · Paper & Pen",
+    "metaDesc": "See the Paper & Pen modules: free invoicing, inventory, accounting, HR and more. Read what each one does before you turn it on."
+  },
+  "useCasesIndex": {
+    "title": "Who Paper & Pen is for",
+    "eyebrow": "Use cases",
+    "sub": "How freelancers, agencies, accountants and small businesses use the same free invoicing core, and which extra modules they add.",
+    "metaTitle": "ERP Use Cases · Paper & Pen",
+    "metaDesc": "See how freelancers, agencies, accountants and small businesses use Paper & Pen, and which modules each one actually needs."
+  },
   "templatesIndex": {
     "title": "Invoice templates by profession",
     "eyebrow": "Free templates",
@@ -672,5 +693,68 @@
   },
   "legal": {
     "englishOnly": "These terms are published in English only. The English text is the authoritative version, and no translation of it is offered as a binding document. If you need them reviewed in another language, contact us and we will help."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Modules you can switch on",
+      "db_v": "1",
+      "db_l": "Private database per workspace"
+    },
+    "ai": {
+      "eyebrow": "AI, built in",
+      "title": "AI that does the boring work",
+      "sub": "Paper & Pen AI works on your own records. It answers questions, reads supplier emails and replies to customers on WhatsApp. You approve what matters.",
+      "c1t": "Ask your business",
+      "c1d": "Ask in plain words, like \"who owes us the most?\" Get the answer from your live records.",
+      "c2t": "Magic Inbox",
+      "c2d": "Forward a supplier email. Paper & Pen reads the bill and drafts the purchase entry for you to approve.",
+      "c3t": "WhatsApp replies",
+      "c3d": "Connect your WhatsApp line. AI answers price and order questions and sends quotes and invoices.",
+      "note": "AI modules are optional add-ons.",
+      "mockTitle": "Ask Paper & Pen",
+      "q": "Who owes us the most money?",
+      "a": "Harbour Point Ltd owes the most. The invoice is overdue:",
+      "overdue": "Overdue",
+      "input": "Ask a question"
+    },
+    "how": {
+      "eyebrow": "From sign-up to live",
+      "title": "Live today, not next quarter",
+      "s1t": "Pick your workspace name",
+      "s1d": "Choose yourcompany.paperandpen.om. No card and no sales call.",
+      "s2t": "Switch on what you need",
+      "s2d": "Start with free invoicing. Add inventory, HR, accounting or AI when you need them.",
+      "s3t": "Bring your team and data",
+      "s3d": "Import customers and products from a spreadsheet, invite your team and send your first invoice."
+    },
+    "ind": {
+      "eyebrow": "Built for your industry",
+      "title": "Ready for how your business works",
+      "sub": "Documents, workflows and reports set up for 15 industries.",
+      "all": "See all industries"
+    },
+    "sec": {
+      "eyebrow": "Security",
+      "title": "Your data stays yours",
+      "i1t": "Private database",
+      "i1d": "Each workspace runs on its own database. No shared tables.",
+      "i2t": "Encrypted",
+      "i2d": "TLS in transit and encryption at rest.",
+      "i3t": "Regular backups",
+      "i3d": "Every workspace is backed up automatically.",
+      "i4t": "Safe payments",
+      "i4d": "Card payments run through Paymob, a PCI-DSS gateway.",
+      "more": "Read about security",
+      "intTitle": "Works with the tools you already use",
+      "int": [
+        "WhatsApp",
+        "Email",
+        "Paymob",
+        "Thawani",
+        "Excel and CSV import",
+        "Windows and macOS app"
+      ]
+    }
   }
 }

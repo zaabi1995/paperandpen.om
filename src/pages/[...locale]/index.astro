@@ -7,7 +7,9 @@ import CtaBand from '@/components/blocks/CtaBand.astro';
 import SubdomainChecker from '@/components/islands/SubdomainChecker.tsx';
 import ModulePicker from '@/components/islands/ModulePicker.tsx';
 import LangMock from '@/components/blocks/AppMockup.astro';
-import { useTranslations, localizePath, isRTL, type Locale } from '@/i18n';
+import Icon from '@/components/blocks/Icon.astro';
+import { getCollection } from 'astro:content';
+import { useTranslations, tRaw, localizePath, isRTL, type Locale } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
 import { faqPage, graph, softwareApplication, webPage } from '@/lib/schema';
 
@@ -18,9 +20,12 @@ const lp = (p: string) => localizePath(p, locale);
 const rtl = isRTL(locale);
 
 const compareCols = [t('compare.pp'), t('compare.zoho'), t('compare.odoo'), t('compare.tally'), t('compare.sowaan')];
-const featKeys = ['arabic', 'gcc_pricing', 'free_trial', 'local_support', 'multi_lang', 'paymob', 'onboarding'];
+/* Every cell here has to survive a competitor reading it. Zoho and Odoo both
+ * ship an Arabic RTL interface, and the 5-language and <5-minute rows could not
+ * be defended against either, so those two rows were removed (Oct 2026). */
+const featKeys = ['arabic', 'gcc_pricing', 'free_trial', 'local_support', 'paymob'];
 const MATRIX: Record<string, boolean[]> = {
-  arabic: [true, false, false, false, true],
+  arabic: [true, true, true, false, true],
   gcc_pricing: [true, false, false, true, true],
   free_trial: [true, true, true, false, false],
   local_support: [true, false, false, false, true],
@@ -29,6 +34,14 @@ const MATRIX: Record<string, boolean[]> = {
   onboarding: [true, false, false, false, false],
 };
 const compareRows = featKeys.map((k) => ({ feature: t(`compare.rows.${k}`), values: MATRIX[k] }));
+
+const h = (k: string) => t(`home2.${k}`);
+const INDUSTRIES = await getCollection('industries');
+const indLocal = INDUSTRIES.filter((e) => e.data.locale === locale);
+const industries = (indLocal.length ? indLocal : INDUSTRIES.filter((e) => e.data.locale === 'en'))
+  .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99))
+  .slice(0, 9);
+const integrations = (tRaw(locale, 'home2.sec.int') as string[]) ?? [];
 
 const homeFaqs = [
   { q: t('homeFaq.q1'), a: t('homeFaq.a1') },
@@ -516,10 +529,10 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
   <section class="band band-peri band-tight">
     <div class="mx-auto max-w-6xl grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
       {[
+        { v: h('stats.modules_v'), l: h('stats.modules_l') },
         { v: t('trust.stat2_value'), l: t('trust.stat2_label') },
         { v: t('trust.stat1_value'), l: t('trust.stat1_label') },
-        { v: t('trust.stat3_value'), l: t('trust.stat3_label') },
-        { v: t('trust.stat4_value'), l: t('trust.stat4_label') },
+        { v: h('stats.db_v'), l: h('stats.db_l') },
       ].map((s) => (
         <div class="text-center lg:text-start">
           <p class="font-display text-4xl lg:text-5xl font-semibold tracking-tight">{s.v}</p>
@@ -558,6 +571,139 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         <p class="lede">{t('modules.sub')}</p>
       </div>
       <ModulePicker client:visible strings={moduleStrings} signupBase={lp('/signup')} />
+    </div>
+  </section>
+
+  {/* AI. The one dark band on the page: the product's newest layer gets the
+      loudest ground. The mock answers with the SAME four invoices as the hero
+      ledger, so the two panels never disagree about the business. */}
+  <section class="band ai-band" aria-labelledby="ai-title">
+    <div class="container-wide grid items-center gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.95fr)] lg:gap-16">
+      <div class="min-w-0 reveal">
+        <p class="ai-eyebrow mb-3">{h('ai.eyebrow')}</p>
+        <h2 id="ai-title" class="display-2 mb-5 text-white">{h('ai.title')}</h2>
+        <p class="text-lg leading-relaxed text-white/85 max-w-[56ch]">{h('ai.sub')}</p>
+        <ul class="mt-10 grid gap-6 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
+          {[
+            { i: 'search', t: h('ai.c1t'), d: h('ai.c1d') },
+            { i: 'mail', t: h('ai.c2t'), d: h('ai.c2d') },
+            { i: 'whatsapp', t: h('ai.c3t'), d: h('ai.c3d') },
+          ].map((c) => (
+            <li class="border-t border-white/25 pt-5">
+              <Icon name={c.i} class="h-6 w-6 text-white" />
+              <h3 class="mt-3 font-display text-xl font-semibold text-white">{c.t}</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/80">{c.d}</p>
+            </li>
+          ))}
+        </ul>
+        <p class="mt-8 text-sm text-white/75">{h('ai.note')}</p>
+      </div>
+      <div class="min-w-0 reveal" aria-hidden="true">
+        <div class="rounded-2xl bg-white p-5 text-ink-500 shadow-2xl lg:p-6">
+          <div class="flex items-center gap-2 border-b border-paper-300 pb-3">
+            <Icon name="sparkle" class="h-4 w-4 text-electric-600" />
+            <span class="font-display text-sm font-semibold">{h('ai.mockTitle')}</span>
+          </div>
+          <div class="mt-4 flex justify-end">
+            <p class="max-w-[85%] rounded-2xl rounded-ee-sm bg-ink-500 px-4 py-2.5 text-sm text-white">{h('ai.q')}</p>
+          </div>
+          <div class="mt-4 max-w-[92%] rounded-2xl rounded-es-sm bg-paper px-4 py-3 text-sm">
+            <p class="mb-3">{h('ai.a')}</p>
+            <ul class="space-y-2">
+              {/* One row only. The hero's other open line is a Draft, and a draft
+                  is not money anyone owes, so it must not appear in this answer. */}
+              <li class="flex items-center justify-between gap-3 rounded-lg bg-white px-3 py-2">
+                <bdi class="font-semibold">Harbour Point Ltd</bdi>
+                <span class="flex items-center gap-2">
+                  <bdi class="tabular-nums font-semibold">{money(12500.75)}</bdi>
+                  <span class="rounded-pill bg-red-100 px-2 py-0.5 text-[11px] font-bold text-red-800">{h('ai.overdue')}</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-5 flex items-center gap-2 rounded-pill border border-paper-300 px-4 py-2.5 text-sm text-ink-400">
+            <span class="flex-1">{h('ai.input')}</span>
+            <Icon name="arrow-right" class="h-4 w-4 rtl:rotate-180" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* How it works: three steps, numbered, no cards. */}
+  <section class="band band-paper" aria-labelledby="how-title">
+    <div class="container-wide">
+      <div class="max-w-2xl mb-12 reveal">
+        <p class="eyebrow mb-3">{h('how.eyebrow')}</p>
+        <h2 id="how-title" class="display-2">{h('how.title')}</h2>
+      </div>
+      <ol class="grid gap-10 md:grid-cols-3">
+        {[1, 2, 3].map((n) => (
+          <li class="reveal">
+            <span class="font-display text-5xl font-semibold text-electric-600 tabular-nums">{n}</span>
+            <h3 class="mt-4 font-display text-2xl font-semibold">{h(`how.s${n}t`)}</h3>
+            <p class="mt-3 leading-relaxed text-ink-500/80">{h(`how.s${n}d`)}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  {/* Industries: real links into the 15 industry pages, so the home page
+      passes authority to them instead of a dead grid of labels. */}
+  <section class="band band-sky" aria-labelledby="ind-title">
+    <div class="container-wide">
+      <div class="flex flex-wrap items-end justify-between gap-6 mb-10">
+        <div class="max-w-2xl reveal">
+          <p class="eyebrow-ink mb-3">{h('ind.eyebrow')}</p>
+          <h2 id="ind-title" class="display-2 mb-4">{h('ind.title')}</h2>
+          <p class="lede">{h('ind.sub')}</p>
+        </div>
+        <a href={lp('/industries')} class="font-bold underline decoration-2 underline-offset-4">{h('ind.all')}</a>
+      </div>
+      <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {industries.map((e) => (
+          <li>
+            <a href={lp(`/industries/${e.data.slug}`)} class="ind-link group flex items-center justify-between gap-4 rounded-xl bg-white px-5 py-4 font-semibold !no-underline !text-ink-500">
+              <span>{e.data.title}</span>
+              <Icon name="arrow-right" class="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1 rtl:rotate-180 rtl:group-hover:-translate-x-1" />
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  {/* Security + integrations. Every claim here is already made, in more detail,
+      on /security/; this band only points at it. */}
+  <section class="band band-surface" aria-labelledby="sec-title">
+    <div class="container-wide">
+      <div class="flex flex-wrap items-end justify-between gap-6 mb-10">
+        <div class="max-w-2xl reveal">
+          <p class="eyebrow mb-3">{h('sec.eyebrow')}</p>
+          <h2 id="sec-title" class="display-2">{h('sec.title')}</h2>
+        </div>
+        <a href={lp('/security')} class="font-bold underline decoration-2 underline-offset-4 text-ink-500">{h('sec.more')}</a>
+      </div>
+      <ul class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        {[
+          { i: 'lock', n: 1 }, { i: 'shield', n: 2 }, { i: 'refresh', n: 3 }, { i: 'card', n: 4 },
+        ].map((c) => (
+          <li class="border-t-2 border-ink-500 pt-5">
+            <Icon name={c.i} class="h-6 w-6 text-ink-500" />
+            <h3 class="mt-3 font-display text-xl font-semibold">{h(`sec.i${c.n}t`)}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-500/80">{h(`sec.i${c.n}d`)}</p>
+          </li>
+        ))}
+      </ul>
+      <div class="mt-16 border-t border-paper-300 pt-10">
+        <h3 class="text-sm font-bold uppercase tracking-wider text-ink-500/80">{h('sec.intTitle')}</h3>
+        <ul class="mt-5 flex flex-wrap gap-3">
+          {integrations.map((name) => (
+            <li class="rounded-pill border border-paper-300 bg-paper px-4 py-2 text-sm font-semibold text-ink-500">{name}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   </section>
 
@@ -804,5 +950,27 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
       padding-inline: 1.9rem;
       white-space: nowrap;
     }
+  }
+
+  /* AI band: the only navy ground on the home page. White type on ink-500 is
+     15.7 : 1; the eyebrow uses sky-300, 10+ : 1 on the same ground. */
+  .ai-band {
+    background-color: theme('colors.ink.500');
+    color: #fff;
+  }
+  .ai-eyebrow {
+    @apply text-sm font-bold uppercase tracking-wider;
+    color: theme('colors.sky.300');
+  }
+  .ind-link {
+    box-shadow: 0 1px 0 rgba(13, 27, 94, 0.08);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  .ind-link:hover {
+    box-shadow: 0 10px 24px -14px rgba(13, 27, 94, 0.45);
+    transform: translateY(-1px);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ind-link, .ind-link:hover { transition: none; transform: none; }
   }
 </style>
