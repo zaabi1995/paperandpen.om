@@ -1,0 +1,37 @@
+{
+  "locale": "fi",
+  "slug": "free-quotation-generator",
+  "toolType": "quotation",
+  "order": 2,
+  "title": "Ilmainen tarjousgeneraattori",
+  "metaTitle": "Ilmainen tarjousgeneraattori · Tee tarjous verkossa · Paper & Pen",
+  "metaDescription": "Tee ammattimaisia tarjouksia verkossa ilmaiseksi. Lisää rivit, valitse mikä tahansa valuutta ja ALV-kanta ja lataa tulostusvalmis PDF sekunneissa.",
+  "keywords": "ilmainen tarjousgeneraattori, tarjouspohja, tee tarjous verkossa, ilmainen tarjouspohja, tarjous pdf, alv tarjous, hintatarjous",
+  "heroEyebrow": "Ilmainen · Ei rekisteröitymistä",
+  "heroTitle": "Ilmainen tarjousgeneraattori",
+  "heroSubtitle": "Lähetä viimeistelty hintatarjous sekunneissa. Lisää rivit, valitse mikä tahansa valuutta, lisää ALV tai myyntivero ja lataa siisti PDF. Tiliä ei tarvita.",
+  "howToSteps": [
+    { "name": "Lisää tietosi", "text": "Kirjoita yrityksesi nimi, asiakas, tarjouksen numero, päivämäärä ja voimassaoloaika." },
+    { "name": "Lisää tarjousrivit", "text": "Luettele tarjoamasi tuotteet tai palvelut määrineen ja hintoineen. Summat lasketaan automaattisesti." },
+    { "name": "Aseta valuutta ja vero", "text": "Valitse mikä tahansa valuutta ja aseta ALV- tai myyntiverokantasi." },
+    { "name": "Lataa PDF", "text": "Klikkaa lataa ja tallenna tulostusvalmis PDF, tai rekisteröidy lähettääksesi sen ja muuttaaksesi sen laskuksi yhdellä klikkauksella." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Heti ja ilmaiseksi", "desc": "Ei rekisteröitymistä, ei vesileimaa, ei rajoituksia. Lähetä niin monta tarjousta kuin tarvitset." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Tee tarjous OMR-, AED-, SAR-, USD-, EUR- ja GBP-valuutassa ja muissa, oikeilla desimaaleilla." },
+    { "icon": "calc", "title": "Valmis ALV:lle ja veroille", "desc": "Käytä mitä tahansa ALV- tai myyntiverokantaa, laskettuna automaattisesti nettosummasta." }
+  ],
+  "sections": [
+    { "title": "Miksi käyttää Paper & Penin tarjousgeneraattoria?", "body": "Se on aidosti ilmainen, toimii millä tahansa valuutalla ja tuottaa siistin, ammattimaisen PDF:n, joka voittaa enemmän kauppoja kuin pelkkä taulukko. Lisää voimassaoloajat ja ehdot, niin asiakkaat tietävät tarkalleen, mitä he hyväksyvät." },
+    { "eyebrow": "Generaattoria pidemmälle", "title": "Muuta voittava tarjous laskuksi", "body": "Kun asiakas hyväksyy, et halua kirjoittaa mitään uudelleen. Täydessä Paper & Pen ERP:ssä hyväksytty tarjous muuttuu myyntitilaukseksi tai laskuksi yhdellä klikkauksella, ja summat, vero ja rivit siirtyvät mukana.", "items": ["Seuraa lähetettyjä, hyväksyttyjä ja vanhentuneita tarjouksia", "Muuta heti laskuksi tai myyntitilaukseksi", "Lähetä WhatsAppilla tai sähköpostilla ja saat ilmoituksen, kun tarjous avataan"] }
+  ],
+  "faqs": [
+    { "q": "Onko tarjousgeneraattori todella ilmainen?", "a": "Kyllä. Se on täysin ilmainen, ilman rekisteröitymistä, ilman vesileimaa ja ilman rajoitusta tekemiesi tarjousten määrälle." },
+    { "q": "Mikä ero on tarjouksella ja laskulla?", "a": "Tarjous on hintaehdotus, jonka lähetät ennen työn alkua. Lasku on maksupyyntö työn jälkeen. Voit tehdä molemmat täällä ilmaiseksi." },
+    { "q": "Voinko asettaa tarjoukselle voimassaoloajan?", "a": "Kyllä. Lisää voimassaoloaika ja omat ehtosi, niin asiakas tietää, kuinka kauan hinta on voimassa ja mihin hän sitoutuu." },
+    { "q": "Miten muutan hyväksytyn tarjouksen laskuksi?", "a": "Lataa PDF ilmaiseksi, tai luo ilmainen Paper & Pen -työtila, jossa hyväksytty tarjous muuttuu laskuksi tai myyntitilaukseksi yhdellä klikkauksella." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-proforma-invoice-generator", "/features/quotations", "/free-invoicing-software"],
+  "ctaTitle": "Voita työ ja laskuta se",
+  "ctaSub": "Lähetä tarjouksia, seuraa hyväksyntöjä ja muuta ne laskuiksi yhdellä klikkauksella ilmaisella Paper & Pen -työtilalla."
+}

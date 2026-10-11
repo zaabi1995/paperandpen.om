@@ -1,0 +1,151 @@
+{
+  "locale": "sl",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Savdska Arabija",
+  "title": "DDV v Savdski Arabiji",
+  "metaTitle": "DDV v Savdski Arabiji: stopnja 15 % in Fatoora · Paper & Pen",
+  "metaDescription": "Savdska 15 % stopnja DDV, prag SAR 375,000, vsebina računa po 53. členu in faze e-računov Fatoora organa ZATCA, z navedbo virov.",
+  "keywords": "ddv savdska arabija, stopnja ddv savdska arabija 15, zatca fatoora, e-računi savdska arabija faza 2, zahteve za davčni račun savdska arabija, zatca",
+  "heroEyebrow": "Savdska Arabija",
+  "heroTitle": "Izdajanje računov po pravilih <em class=\"text-copper-400 not-italic\">organa ZATCA</em>",
+  "heroSubtitle": "Stopnja 15 %, pragovi za registracijo, kaj 53. člen zahteva na davčnem računu in kaj Fatoora doda, ko ste v fazi integracije.",
+  "heroBullets": [
+    "Splošna stopnja 15 %",
+    "Registracija od SAR 375,000",
+    "Fatoora v veljavi od leta 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Splošna stopnja DDV",
+      "value": "15%",
+      "note": "Savdska Arabija v Zalivu odstopa: druge države, ki uporabljajo DDV, imajo stopnjo 5 % ali 10 %. Ob predpostavki, da velja splošna stopnja, se obdavčljive dobave obdavčijo s 15 %.",
+      "source": 1
+    },
+    {
+      "label": "Prag za obvezno registracijo",
+      "value": "SAR 375,000",
+      "note": "Obdavčljive dobave nad tem zneskom v obdobju 12 mesecev zahtevajo registracijo.",
+      "source": 1
+    },
+    {
+      "label": "Prag za prostovoljno registracijo",
+      "value": "SAR 187,500",
+      "note": "Na podlagi obdavčljivih dobav ALI obdavčljivih stroškov v zadnjih 12 mesecih.",
+      "source": 1
+    },
+    {
+      "label": "Podjetja brez sedeža v državi",
+      "value": "Brez praga",
+      "note": "Nerezident, ki mora v kraljevini plačevati DDV, se mora registrirati ne glede na vrednost svojih dobav.",
+      "source": 1
+    },
+    {
+      "label": "Jezik računa",
+      "value": "Arabščina",
+      "note": "Zahtevana vsebina mora biti v arabščini. Dodatno je lahko prikazan še drug jezik kot prevod.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "53. člen (5. odstavek) izvedbenih predpisov o DDV navaja, kaj mora vsebovati davčni račun, in zahteva, da je v arabščini, poleg morebitnega drugega jezika, prikazanega kot prevod.",
+    "items": [
+      "Datum izdaje",
+      "Zaporedna številka, ki račun enolično označuje",
+      "Davčna številka dobavitelja",
+      "Kadar mora kupec sam obračunati davek, davčna številka kupca in izjava, da mora davek obračunati sam",
+      "Ime in naslov dobavitelja in kupca",
+      "Količina in vrsta blaga ali obseg in vrsta storitev",
+      "Datum dobave, če se razlikuje od datuma izdaje",
+      "Davčna osnova po stopnji ali oprostitvi, cena na enoto brez DDV in morebitni popust, ki še ni vključen v ceno na enoto",
+      "Uporabljena davčna stopnja",
+      "Znesek davka za plačilo, prikazan v savdskih rialih",
+      "Kadar davek ni obračunan po osnovni stopnji, pojasnilo o obravnavi",
+      "Kadar se za primerno rabljeno blago uporablja metoda obdavčitve marže, sklic na to dejstvo"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Obvezno in v veljavi, uvedba v valovih",
+    "body": "Savdska Arabija ima najnaprednejši sistem e-računov v Zalivu, po katerem se zgledujejo drugi. Faza 1, faza ustvarjanja, velja za vse davčne zavezance z rezidentstvom od 4. decembra 2021: računi morajo biti izdani elektronsko v strukturirani obliki. Faza 2, faza integracije, se je začela 1. januarja 2023 in se uvaja v valovih glede na velikost zavezanca, pri čemer ZATCA vsako skupino obvesti najmanj šest mesecev pred datumom integracije. V fazi 2 elektronski račun vsebuje več kot vsebino po 53. členu: potrebuje še UUID, zgoščeno vrednost prejšnjega računa, kodo QR, kriptografski žig in števec, odporen proti posegom. V kateri val spadate, napove ZATCA, zato to preverite na njegovih straneh o e-računih, namesto da bi ugibali.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Kako ravnati pravilno",
+      "title": "Fatoora spremeni, kaj račun SPLOH JE",
+      "body": "V svetu papirja ali PDF je račun dokument, ki ga pripravite in pošljete. V fazi 2 je zapis v verigi: vsak račun se sklicuje na zgoščeno vrednost prejšnjega, nosi kriptografski žig in poveča števec, ki ga ni mogoče ponastaviti. To je namerna zasnova in onemogoča eno pogosto navado. Računa ne morete naknadno tiho izbrisati, preštevilčiti ali ponovno izdati, ker bi se veriga pretrgala, pretrganje pa je mogoče zaznati. Podjetja, ki so napake popravljala z urejanjem zgodovine, morajo preiti na dobropise, kar so računovodska pravila drugod po svetu vedno zahtevala.",
+      "items": [
+        "Vsak račun je s prejšnjim povezan z zgoščeno vrednostjo",
+        "Števca ni mogoče ponastaviti ali vrniti nazaj",
+        "Popravki potekajo z dobropisi in bremepisi",
+        "Koda QR je del računa, ne okras"
+      ]
+    },
+    {
+      "eyebrow": "Kako ravnati pravilno",
+      "title": "Stopnja 15 % ima posledice",
+      "body": "Pri stopnji petnajst odstotkov postane razlika med ničelno stopnjo in oprostitvijo finančno resna na način, kot pri stopnji pet odstotkov ni. Če so vaše dobave oproščene, ne morete uveljavljati vstopnega davka, ki ste ga plačali, zato petnajst odstotkov vaših vstopnih stroškov postane pravi, nepovračljiv strošek, ki ga morate vključiti v ceno. Če so obdavčene po ničelni stopnji, ne zaračunate ničesar, vendar davek še vedno uveljavljate. Napačna razvrstitev je najdražja posamezna napaka pri savdskem DDV, in to je vprašanje razvrstitve, ne stopnje.",
+      "items": [
+        "Oprostitev pomeni brez uveljavljanja vstopnega davka, zato je davek vaš strošek",
+        "Ničelna stopnja pomeni brez zaračunavanja, a s polnim uveljavljanjem",
+        "Razvrščajte po vrsti dobave, ne po kupcu",
+        "O razvrstitvi se odločite, preden določite ceno"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kakšna je stopnja DDV v Savdski Arabiji?",
+      "a": "Splošna stopnja je petnajst odstotkov. To je najvišja stopnja v Zalivu, pogosta napaka pa je predpostavka o enotni stopnji za države Zaliva: Oman in ZAE imata 5 %, Bahrajn 10 %, Katar in Kuvajt pa DDV sploh nista uvedla. Če prodajate po vsej regiji, ne morete za vse uporabiti ene stopnje."
+    },
+    {
+      "q": "Kaj je Fatoora?",
+      "a": "Fatoora je program e-računov organa ZATCA. Faza 1, ustvarjanje, velja za vse davčne zavezance z rezidentstvom od 4. decembra 2021. Faza 2, integracija s sistemi ZATCA, se je začela 1. januarja 2023 in se uvaja v valovih glede na velikost zavezanca, z najmanj šestmesečnim obvestilom za vsak val."
+    },
+    {
+      "q": "Ali mora biti savdski davčni račun v arabščini?",
+      "a": "Da. 53. člen (5. odstavek) zahteva vsebino računa v arabščini, dodatno pa dovoljuje še drug jezik kot prevod. Dvojezični račun je skladen, račun samo v angleščini pa ne."
+    },
+    {
+      "q": "Katere dodatne podatke zahteva faza 2?",
+      "a": "Poleg vsebine po 53. členu elektronski račun v fazi integracije vsebuje UUID, zgoščeno vrednost prejšnjega računa, kodo QR, kriptografski žig in števec, odporen proti posegom. Te ustvari skladen program, ne vtipka jih človek."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Pravilni računi v Savdski Arabiji, brezplačno",
+  "ctaSub": "Stopnjo nastavite sami, arabščino in angleščino imejte na enem dokumentu, napake pa popravljajte z dobropisi namesto z urejanjem.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, tretja različica, razdelka 3.2 in 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, 53. člen",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Sklep o uvedbi e-računov, Governor's Decision 62738, in strani ZATCA o e-računih",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

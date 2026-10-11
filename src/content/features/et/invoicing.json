@@ -1,0 +1,35 @@
+{
+  "locale": "et",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Arveldamine",
+  "metaTitle": "Arvete haldamise funktsioonid | Paper & Pen ERP",
+  "metaDescription": "Arvete jälgimine, veebimaksed, meeldetuletused, seadistatav maks, viis keelt ja mitu valuutat ühes kohas: avasta Paper & Pen ERP arveldusfunktsioonid.",
+  "keywords": "arvetarkvara, arveprogramm, tasuta arveldamine, e-arve, arve koostamine, arve saatmine, veebimakse, käibemaksuarve, korduvad arved, maksemeeldetuletus",
+  "heroEyebrow": "Igavesti tasuta",
+  "heroTitle": "Arveldamine, mis toob raha <em class=\"text-copper-400 not-italic\">kiiremini kätte</em>",
+  "heroSubtitle": "Koosta korralik arve vähem kui minutiga, saada see e-posti või WhatsAppi kaudu ja lase kliendil maksta veebis. Sobib iga valuuta ja iga maksumääraga, kasutusel üle maailma.",
+  "heroBullets": ["Müük ja arveldamine igavesti tasuta", "Iga valuuta, iga maksumäär", "Veebimakse link igal arvel"],
+  "features": [
+    { "icon": "bolt", "title": "Arve sekunditega", "desc": "Vali klient, lisa read ja saada. Summad ja maks arvutatakse kirjutamise ajal." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Esita arveid OMR-ides, AED-des, SAR-ides, USD-des, EUR-ides, GBP-des või mis tahes valuutas õigete kümnendkohtadega." },
+    { "icon": "card", "title": "Saa makse veebis", "desc": "Igal arvel on turvaline maksmise link, nii et klient maksab kaardiga ühe puudutusega." },
+    { "icon": "bell", "title": "Automaatsed meeldetuletused", "desc": "Viisakad ajastatud meeldetuletused tegelevad tähtaja ületanud arvetega, et sina ei peaks." },
+    { "icon": "refresh", "title": "Korduvad arved", "desc": "Lase kuutasudel ja tellimustel arveldada automaatselt, iga nädal või iga kuu." },
+    { "icon": "calc", "title": "Käibemaks ja maksud valmis", "desc": "Kasuta mis tahes käibemaksu- või müügimaksumäära, arvestatuna netosummalt pärast allahindlusi." }
+  ],
+  "sections": [
+    { "eyebrow": "Loodud maailma jaoks", "title": "Üks arveldustööriist igale turule", "body": "Olgu sa New Yorgis ja arveldad dollarites või Muscatis ja arveldad riaalides, Paper & Pen hoolitseb sinu eest valuuta, kümnendkohtade ja maksureeglite eest. Vaheta liidese keelt inglise, araabia, hindi, bengali ja urdu vahel, et kogu meeskond töötaks oma keeles.", "items": ["Mitu valuutat õige vorminguga", "Seadistatav maks igale riigile", "Araabia keel esikohal, arved täielikult paremalt vasakule"] },
+    { "eyebrow": "Pakkumisest rahani", "title": "Arveldamine täisväärtusliku ERP sees", "body": "Sinu arved ei ela eraldi saarel. Muuda võidetud hinnapakkumine ühe klõpsuga arveks, salvesta makse ja vaata, kuidas see automaatselt raamatutesse kirjendub. Kui kasvad, ootavad ladu, raamatupidamine ja palgaarvestus sind juba samas tööruumis.", "items": ["Pakkumisest arve ühe klõpsuga", "Maksed seotakse pearaamatuga", "Mitte kunagi topelt sisestamist"] }
+  ],
+  "faqs": [
+    { "q": "Kas arveldamine on tõesti tasuta?", "a": "Jah. Müük ja arveldamine on igavesti tasuta, ilma arvete ja klientide arvu piiranguta. Maksad ainult siis, kui lisad valikulisi mooduleid, nagu ladu või palgaarvestus." },
+    { "q": "Kas kliendid saavad arve veebis tasuda?", "a": "Jah. Igale arvele saab lisada turvalise veebimakse lingi, mida pakuvad Paymob ja teised makseväravad, nii et kliendid maksavad kaardiga ja makse seotakse automaatselt." },
+    { "q": "Kas see toetab käibemaksu ja muid makse?", "a": "Jah. Määra mis tahes määr, sealhulgas Lahe riikide seadistatav käibemaks või see, mis kehtib sinu riigis. Maks arvutatakse netosummalt pärast allahindlust." },
+    { "q": "Kas saan saata arveid araabia keeles?", "a": "Jah. Kogu liides ja arve-PDF võivad olla araabia keeles, täielikult paremalt vasakule, lisaks inglise, hindi, bengali ja urdu keelele." },
+    { "q": "Kas saan korduvarveldust automatiseerida?", "a": "Jah. Loo kuutasude või tellimuste jaoks korduv arve ning Paper & Pen koostab ja saadab selle graafiku järgi." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Saada oma esimene arve tasuta",
+  "ctaSub": "Loo tasuta tööruum ja esita oma esimesele kliendile arve mõne minutiga. Kaarti pole vaja, igavesti tasuta."
+}

@@ -1,0 +1,37 @@
+{
+  "locale": "fi",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Ilmainen ostotilausgeneraattori",
+  "metaTitle": "Ilmainen ostotilausgeneraattori · Tee ostotilaus · Paper & Pen",
+  "metaDescription": "Tee ostotilauksia verkossa ilmaiseksi. Lisää toimittaja ja tuotteet, valitse mikä tahansa valuutta ja vero ja lataa tulostusvalmis PDF sekunneissa.",
+  "keywords": "ilmainen ostotilausgeneraattori, ostotilaus, tee ostotilaus verkossa, ilmainen ostotilauspohja, ostotilaus pdf, tilauslomake toimittajalle",
+  "heroEyebrow": "Ilmainen · Ei rekisteröitymistä",
+  "heroTitle": "Ilmainen ostotilausgeneraattori",
+  "heroSubtitle": "Lähetä selkeä ostotilaus mille tahansa toimittajalle sekunneissa. Lisää rivit, valitse mikä tahansa valuutta, lisää vero ja lataa tulostusvalmis PDF. Tiliä ei tarvita.",
+  "howToSteps": [
+    { "name": "Lisää tietosi", "text": "Kirjoita yrityksesi nimi, toimittaja, ostotilauksen numero ja päivämäärä." },
+    { "name": "Lisää tilausrivit", "text": "Luettele tilaamasi tavarat tai palvelut määrineen ja hintoineen. Summat lasketaan automaattisesti." },
+    { "name": "Aseta valuutta ja vero", "text": "Valitse mikä tahansa valuutta ja aseta sovellettava ALV- tai myyntiverokanta." },
+    { "name": "Lataa PDF", "text": "Klikkaa lataa ja lähetä tulostusvalmis ostotilaus, tai rekisteröidy seurataksesi toimitusta ja täsmäyttääksesi sen toimittajan laskuun." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Heti ja ilmaiseksi", "desc": "Ei rekisteröitymistä, ei vesileimaa, ei rajoituksia. Tee niin monta ostotilausta kuin tarvitset." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Tilaa OMR-, AED-, SAR-, USD-, EUR- ja GBP-valuutassa ja muissa, ihanteellinen ulkomaisille toimittajille." },
+    { "icon": "cart", "title": "Selkeät tilausehdot", "desc": "Ilmoita määrät, toimitustiedot ja maksuehdot, niin toimittajat lähettävät juuri sen, mitä tarvitset." }
+  ],
+  "sections": [
+    { "title": "Miksi käyttää Paper & Penin ostotilausgeneraattoria?", "body": "Ostotilaus on virallinen, jäljitettävä ohjeesi toimittajalle ja suojasi, jos toimitus on väärä. Meidän generaattorimme on ilmainen, monivaluuttainen ja tuottaa siistin PDF:n, jonka jokainen toimittaja tunnistaa. Ei taulukoita, ei rekisteröitymistä." },
+    { "eyebrow": "Generaattoria pidemmälle", "title": "Ostotilauksesta varastoon ja toimittajan laskuun", "body": "PDF on vasta alku. Todellinen hankintaprosessi yhdistää tilauksen vastaanotettuihin tavaroihin, toimittajien laskuihin ja varastosaldoihin. Täydessä Paper & Pen ERP:ssä ostotilaus seuraa, mitä on tilattu, päivittää varaston tavaroiden saapuessa ja täsmäytetään toimittajan laskuun, joten et koskaan maksa liikaa.", "items": ["Seuraa tilattuja, vastaanotettuja ja avoimia määriä", "Varasto päivittyy automaattisesti tavaran vastaanotossa", "Täsmäytä toimittajan lasku alkuperäiseen ostotilaukseen"] }
+  ],
+  "faqs": [
+    { "q": "Mikä on ostotilaus?", "a": "Ostotilaus on asiakirja, jonka lähetät toimittajalle pyytääksesi virallisesti tavaroita tai palveluja sovittuun hintaan ja määrään. Siitä tulee sitova tilaus, kun toimittaja hyväksyy sen." },
+    { "q": "Onko ostotilausgeneraattori todella ilmainen?", "a": "Kyllä. Se on täysin ilmainen, ilman rekisteröitymistä, ilman vesileimaa ja ilman rajoitusta tekemiesi ostotilausten määrälle." },
+    { "q": "Voinko tilata ulkomaiselta toimittajalta hänen valuutassaan?", "a": "Kyllä. Valitse mikä tahansa valuutta, kuten USD, EUR tai GBP, ja desimaalit mukautuvat automaattisesti, joten rajat ylittävät tilaukset ovat selkeitä." },
+    { "q": "Voinko seurata toimitusta ja täsmäyttää toimittajan laskun?", "a": "Lataa ostotilaus ilmaiseksi, tai luo ilmainen Paper & Pen -työtila, jossa seuraat vastaanotettuja tavaroita, päivität varastoa ja täsmäytät toimittajien laskut ostotilauksiisi." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Tilaa hallitusti",
+  "ctaSub": "Seuraa jokaista ostotilausta, päivitä varasto vastaanotossa ja täsmäytä toimittajien laskut ilmaisella Paper & Pen -työtilalla."
+}

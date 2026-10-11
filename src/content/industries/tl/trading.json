@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "trading",
+  "order": 1,
+  "title": "Trading at Wholesale",
+  "metaTitle": "ERP Software para sa Trading at Wholesale | Paper & Pen",
+  "metaDescription": "Libreng invoicing kasama ang real-time na stock, purchase order at multi-currency para sa trader, importer at wholesaler. Mas mabilis mag-quote, magbenta at mag-reconcile.",
+  "keywords": "trading software, wholesale erp, invoicing para sa distributor, import export software, purchase order software, multi-currency na trading, kontrol sa stock para sa trader",
+  "heroEyebrow": "Para sa trader, importer at wholesaler",
+  "heroTitle": "Bumili, magbenta at mag-stock gamit ang <em class=\"text-copper-400 not-italic\">iisang malinaw na ledger</em>",
+  "heroSubtitle": "Mula purchase order hanggang invoice ng customer, pinagsasabay ng Paper & Pen ang paninda, cost at cash mo. Mabilis mag-quote, maglipat ng stock nang walang hula at alamin ang margin mo sa bawat deal.",
+  "heroBullets": ["Libreng quotation at invoicing", "Live na stock at landed cost", "Bumili sa isang currency, magbenta sa iba"],
+  "features": [
+    { "icon": "cart", "title": "Quote papuntang invoice", "desc": "Gawing sales order at invoice ang quotation sa dalawang click, walang ulit na pag-type." },
+    { "icon": "inventory", "title": "Real-time na stock", "desc": "Agad na ginagalaw ng bawat benta at pagbili ang stock sa lahat ng bodega mo." },
+    { "icon": "truck", "title": "Purchase order", "desc": "Gumawa ng PO sa supplier, tumanggap ng paninda at i-update ang stock at cost sa iisang daloy." },
+    { "icon": "globe", "title": "Multi-currency", "desc": "Bumili sa USD o EUR at magbenta sa OMR, AED o SAR, na tama ang decimal sa lahat." },
+    { "icon": "calc", "title": "Margin sa bawat deal", "desc": "Makita ang cost, presyo at kita bawat linya para hindi ka magbenta nang mas mababa sa floor mo." },
+    { "icon": "refresh", "title": "Awtomatikong reconciliation", "desc": "Kusang pumapasok sa libro mo ang invoice, bayad at galaw ng stock." }
+  ],
+  "sections": [
+    { "eyebrow": "Bilis ang nananalo", "title": "Mag-quote ngayon, mag-deliver bukas", "body": "Sa trading, madalas na ang unang malinis na quote ang nakakakuha ng order. Bumuo ng propesyonal na quotation sa ilang minuto, ipadala ito sa WhatsApp o email, at gawing sales order, delivery note at invoice ang naaprubahan nang walang dalawang beses na pag-encode. Maayos na dokumento ang natatanggap ng customer mo; malinis na trail ang naiiwan sa iyo.", "items": ["Quotation papuntang sales order papuntang invoice sa ilang click", "May delivery note at packing na", "Agad na i-share sa WhatsApp o email"] },
+    { "eyebrow": "Alamin ang totoong cost", "title": "Stock at margin na nagsasabi ng totoo", "body": "Nabubuhay at namamatay sa margin ang mga importer at wholesaler. Binibigyang-halaga ng Paper & Pen ang stock mo gamit ang average o FIFO costing at ipinapakita ang kita bawat linya habang nagko-quote ka, kaya nakakapag-presyo ka nang may kumpiyansa. Bumili sa ibang bansa sa isang currency at magbenta rito sa iba habang nananatiling reconciled ang libro. Gawa sa Oman na may native na OMR, AED at SAR pati naa-adjust na VAT, at kasing-komportable sa USD, EUR o kahit anong tax rate na itakda mo.", "items": ["Average o FIFO costing para sa tumpak na halaga", "Margin bawat linya habang nagko-quote", "GCC VAT o kahit anong tax rate, kahit anong currency"] }
+  ],
+  "faqs": [
+    { "q": "Puwede ba akong mag-quote sa isang currency at bumili ng stock sa iba?", "a": "Oo. Bumili sa USD, EUR, CNY o kahit anong currency at magbenta sa OMR, AED, SAR o kung ano ang gamit ng customer mo. Kusang nag-a-adjust ang decimal at total at nananatiling reconciled ang libro." },
+    { "q": "Ina-update ba ng invoicing ang stock ko?", "a": "Oo. Binabawasan ng bawat invoice ang stock at dinadagdagan ito ng bawat pagtanggap sa purchase order nang real time, sa maraming bodega, nang walang manual na bilang." },
+    { "q": "Makikita ko ba ang profit margin ko bawat item?", "a": "Oo. Ipinapakita ng Paper & Pen ang cost, presyo ng benta at margin sa bawat linya habang bumubuo ka ng quote o invoice, kaya napoprotektahan mo ang floor mo sa bawat deal." },
+    { "q": "Libre ba talaga ito para sa trading business?", "a": "Libre habambuhay ang Benta at Invoicing, kasama ang quotation, invoice at delivery note. Idagdag ang module na Imbentaryo kapag kailangan mo na ng real-time na stock at landed cost." },
+    { "q": "Hawak ba nito ang VAT para sa GCC at iba pang merkado?", "a": "Oo. Ilapat agad ang naa-adjust na GCC VAT, o i-configure ang kahit anong tax rate para sa kahit anong bansa. Laging kinukuwenta ang tax sa net pagkatapos ng discount." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Patakbuhin ang trading mo sa iisang malinis na ledger",
+  "ctaSub": "Magsimula nang libre sa quotation at invoicing, saka idagdag ang Imbentaryo at Accounting habang lumalaki ang negosyo mo."
+}

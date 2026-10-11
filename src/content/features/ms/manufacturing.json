@@ -1,0 +1,35 @@
+{
+  "locale": "ms",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Pembuatan",
+  "metaTitle": "Perisian Pembuatan & Pengeluaran · Paper & Pen",
+  "metaDescription": "Rancang pengeluaran dengan senarai bahan, arahan kerja dan kos sebenar. Guna stok mentah, hasilkan barang siap dan ketahui margin sebenar anda. Untuk seluruh dunia.",
+  "keywords": "perisian pembuatan, pengurusan pengeluaran, senarai bahan, bom, arahan kerja, kos pengeluaran, barang siap",
+  "heroEyebrow": "Modul tambahan",
+  "heroTitle": "Buat ikut pesanan, <em class=\"text-copper-400 not-italic\">kira kos hingga ke rial</em>",
+  "heroSubtitle": "Tukar bahan mentah kepada barang siap dengan senarai bahan dan arahan kerja, sementara Paper & Pen menjejak setiap kos komponen supaya anda sentiasa tahu margin sebenar anda.",
+  "heroBullets": ["Senarai bahan dan arahan kerja", "Penggunaan stok automatik", "Kos pengeluaran sebenar"],
+  "features": [
+    { "icon": "manufacturing", "title": "Senarai bahan", "desc": "Tentukan apa yang masuk ke dalam setiap produk, dengan kuantiti dan sub-pemasangan." },
+    { "icon": "doc", "title": "Arahan kerja", "desc": "Rancang dan jejak kitaran pengeluaran dari bahan mentah hingga stok siap." },
+    { "icon": "inventory", "title": "Pergerakan stok automatik", "desc": "Bahan mentah digunakan dan barang siap ditambah semasa anda mengeluarkan." },
+    { "icon": "calc", "title": "Kos pengeluaran", "desc": "Gabungkan kos bahan dan overhed menjadi nilai barang siap yang tepat." },
+    { "icon": "chart", "title": "Keterlihatan margin", "desc": "Bandingkan kos pengeluaran dengan harga jualan dan lihat margin sebenar bagi setiap item." },
+    { "icon": "refresh", "title": "Bersambung dari hujung ke hujung", "desc": "Sambungkan pembelian, inventori dan jualan dalam satu aliran berterusan." }
+  ],
+  "sections": [
+    { "eyebrow": "Merancang dengan yakin", "title": "Dari resipi ke barang siap", "body": "Tentukan senarai bahan sekali dan Paper & Pen tahu dengan tepat apa yang digunakan oleh setiap pengeluaran. Keluarkan arahan kerja, dan stok mentah ditempah serta digunakan sementara barang siap ditambah ke inventori, dengan semua pengiraan kos diuruskan untuk anda.", "items": ["Senarai bahan boleh guna semula", "Arahan kerja dengan tempahan stok", "Penggunaan automatik dan penerimaan barang siap"] },
+    { "eyebrow": "Ketahui margin sebenar anda", "title": "Pengiraan kos yang jujur", "body": "Meneka kos bermakna meneka untung. Paper & Pen menggabungkan bahan dan overhed menjadi kos barang siap yang sebenar, merekodkannya ke buku akaun anda, dan menunjukkan margin pada setiap jualan. Berfungsi dalam sebarang mata wang, jadi anda boleh mendapatkan bahan dan menjual merentas sempadan.", "items": ["Kos bahan serta overhed", "Direkodkan ke perakaunan secara automatik", "Margin bagi setiap produk, setiap pesanan"] }
+  ],
+  "faqs": [
+    { "q": "Adakah pembuatan percuma?", "a": "Pembuatan ialah modul tambahan berbayar pilihan. Modul teras Jualan & Invois percuma selamanya, dan anda menambah Pembuatan apabila anda mengeluarkan barang." },
+    { "q": "Bolehkah saya menentukan senarai bahan?", "a": "Ya. Bina BOM untuk setiap produk, termasuk sub-pemasangan, dan gunakan semula pada setiap kitaran pengeluaran." },
+    { "q": "Adakah ia menggunakan stok secara automatik?", "a": "Ya. Apabila anda memproses arahan kerja, bahan mentah digunakan dan barang siap ditambah ke inventori secara automatik." },
+    { "q": "Bagaimanakah kos pengeluaran dikira?", "a": "Kos bahan dan overhed digabungkan menjadi nilai barang siap, yang direkodkan ke perakaunan supaya margin anda tepat." },
+    { "q": "Adakah ia berfungsi untuk sebarang mata wang?", "a": "Ya. Beli bahan dan jual barang siap dalam sebarang mata wang, dengan kos dan perakaunan kekal selaras." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Kira kos setiap pengeluaran dengan tepat",
+  "ctaSub": "Mula percuma dengan invois dan tambah Pembuatan untuk merancang pengeluaran dan mengetahui margin sebenar anda."
+}

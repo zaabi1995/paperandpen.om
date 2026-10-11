@@ -1,0 +1,159 @@
+{
+  "locale": "et",
+  "slug": "oman",
+  "order": 1,
+  "country": "Omaan",
+  "title": "Käibemaks Omaanis",
+  "metaTitle": "Käibemaks Omaanis: määr, piirmäärad, arved · Paper & Pen",
+  "metaDescription": "Omaani 5% käibemaksumäär, OMR 38,500 registreerimispiir ja kaksteist kohustuslikku maksuarve rekvisiiti, igaüks viitega Oman Tax Authority allikale.",
+  "keywords": "käibemaks omaan, omaani käibemaksumäär, omaani käibemaksukohustuslaseks registreerimise piir, omaani maksuarve nõuded, fawtara e-arve, oman tax authority",
+  "heroEyebrow": "Omaan",
+  "heroTitle": "Arveldamine <em class=\"text-copper-400 not-italic\">Omaani käibemaksu</em> reeglite järgi",
+  "heroSubtitle": "Määr, registreerimise piirmäärad, mida maksuarve peab näitama ja kus e-arveldus seisab. Iga number sellel lehel on viidatud Oman Tax Authority enda avaldatud tekstile.",
+  "heroBullets": [
+    "5% standardmäär",
+    "Registreerimine alates OMR 38,500",
+    "Fawtara välja kuulutatud, kuid veel mitte kasutusel"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Käibemaksu standardmäär",
+      "value": "5%",
+      "note": "Käibemaksuseaduse artikkel 36 kehtestab maksustatavate kaupade või teenuste impordi ja käibe maksumääraks viis protsenti maksustatavast väärtusest.",
+      "source": 1
+    },
+    {
+      "label": "Kohustusliku registreerimise piirmäär",
+      "value": "OMR 38,500",
+      "note": "Kui aastakäive on sellel tasemel või sellest suurem, on registreerimine kohustuslik. Seadus ei fikseeri seda numbrit ise, vaid jätab selle esimehe otsusega määrata.",
+      "source": 2
+    },
+    {
+      "label": "Vabatahtliku registreerimise piirmäär",
+      "value": "OMR 19,250",
+      "note": "Alates sellest tasemest võid registreeruda ka kohustuslikust piirmäärast madalama käibe korral.",
+      "source": 2
+    },
+    {
+      "label": "Arve keel",
+      "value": "Araabia",
+      "note": "Arve võib väljastada ka inglise keeles, tingimusel et araabiakeelne tõlge on nõudmisel kättesaadav.",
+      "source": 3
+    },
+    {
+      "label": "Lihtsustatud arve ülempiir",
+      "value": "OMR 500",
+      "note": "Sellest väärtusest väiksema käibe puhul võib maksuameti loal kasutada lihtsustatud arvet.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Rakendusmääruste (Executive Regulations) artikkel 145 loetleb, mida maksuarve peab näitama. Artikkel alustab loetelu sõnadega \"eelkõige\", seega käsitle seda miinimumina, mitte täieliku loeteluna.",
+    "items": [
+      "Sõnad \"Tax Invoice\" (maksuarve)",
+      "Väljastamise kuupäev, käibe kuupäev ja makse kuupäev",
+      "Järjestikune arve number",
+      "Tarnija täielik nimi, aadress ja maksukohustuslase number",
+      "Kliendi täielik nimi, aadress ja maksukohustuslase number või selle vaste tema residentsusriigis",
+      "Tarnitud kaupade ja teenuste kirjeldus",
+      "Kaupade kogus",
+      "Ettemakse kuupäev, kui see tehti",
+      "Kogutasu ilma maksuta",
+      "Rakendatud maksumäär",
+      "Antud hinnaalandus või allahindlus ning riiklik toetus, mis ei ole juba arvesse võetud",
+      "Maksustatav väärtus"
+    ],
+    "source": 3,
+    "caveat": "Maksuamet avaldab rakendusmäärused ainult araabia keeles. See loetelu on ametliku araabiakeelse teksti täpne lugemine, mitte ametlik tõlge, seega kontrolli sõnastust enne sellele tuginemist oma maksunõustajaga."
+  },
+  "einvoicing": {
+    "status": "Välja kuulutatud ja etapiviisiline, veel mitte kohustuslik",
+    "body": "Omaani e-arvelduse programmi nimi on Fawtara. Maksuamet kirjeldab viienurgalist mudelit, kus arved jõuavad temani akrediteeritud teenusepakkuja kaudu, ning näeb ette neli etappi: pilootprojekt, laiendamine, väiksemate ettevõtete liitmine ja täielik kasutuselevõtt. Amet ei ole etappide kuupäevi inglise keeles avaldanud ning ajakirjanduses ringlevaid kuupäevi tema enda lehtedel ei ole. Käsitle iga mujalt loetud Fawtara tähtaega kinnitamata infona, kuni maksuamet selle avaldab.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Tee see õigesti",
+      "title": "Mis ettevõtteid Omaanis komistama paneb",
+      "body": "Kolm asja põhjustavad siin enamiku käibemaksuarvete probleeme. Esimene on kliendi maksukohustuslase number: kui see puudub, ei pruugi su klient saada sisendkäibemaksu tagasi, mis muudab su arve tema kuluks ja sinu probleemiks. Teine on arvete järjestus. Artikkel 145 nõuab järjestikust numbrit ja kiireim viis seda lõhkuda on kustutada või ümber nummerdada juba välja saadetud arve. Paranda see hoopis kreeditarvega. Kolmas on keel: arve peab olema araabia keeles ja ainult ingliskeelne arve ilma nõudmisel kättesaadava araabiakeelse versioonita jätab su haavatavaks.",
+      "items": [
+        "Küsi kliendi maksukohustuslase number enne arve väljastamist, mitte pärast",
+        "Ära kunagi kustuta väljastatud arvet, krediteeri see",
+        "Hoia araabiakeelne versioon nõudmisel kättesaadavana",
+        "Märgi käibe kuupäev väljastamise kuupäevast eraldi"
+      ]
+    },
+    {
+      "eyebrow": "Ettevalmistus",
+      "title": "Valmistu Fawtaraks kuupäevi oletamata",
+      "body": "Valmis olemiseks ei ole avaldatud tähtaega vaja. Iga piirkonnas käivitunud e-arvelduse süsteem on nõudnud sama põhilist distsipliini: puhtad ja täielikud kliendiandmed koos maksunumbritega, katkematu arvete järjestus, maksukäsitlus salvestatud rea, mitte arve kaupa, ning dokumendid hoitud nii, et neid saab nõudmisel kätte. Ettevõttel, kelle andmed juba vastavad neile neljale tingimusele, on ees lühike juurutus, ükskõik millal kuupäevad saabuvad. Ettevõte, kelle andmed ei vasta, kulutab etteteatamisaja andmete korrastamisele.",
+      "items": [
+        "Täielikud kliendiandmed koos maksunumbritega",
+        "Üks katkematu arvete järjestus seeria kohta",
+        "Maksukäsitlus salvestatud rea kaupa",
+        "Dokumendid nõudmisel kättesaadavad"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Milline on käibemaksumäär Omaanis?",
+      "a": "Viis protsenti. Kuningliku dekreediga 121/2020 välja kuulutatud käibemaksuseaduse artikkel 36 arvutab maksustatavate kaupade või teenuste impordi ja käibe maksu viie protsendina maksustatavast väärtusest. Mõned käibed on nullmääraga või maksuvabad, mis on eri asjad: nullmääraga käibe tarnija saab sisendkäibemaksu siiski tagasi, maksuvaba käibe tarnija mitte."
+    },
+    {
+      "q": "Millal pean Omaanis käibemaksukohustuslaseks registreeruma?",
+      "a": "Kui su aastakäive jõuab või eeldatavasti jõuab OMR 38,500-ni. Vabatahtlikult võid registreeruda alates OMR 19,250-st. Mõlemad numbrid tulenevad esimehe otsusest registreerimise piirmäärade kohta, mitte käibemaksuseadusest endast, mistõttu võivad need muutuda ilma seadust muutmata."
+    },
+    {
+      "q": "Kas e-arveldus on Omaanis juba kohustuslik?",
+      "a": "Veel mitte. Maksuamet on välja kuulutanud Fawtara, etapiviisilise viienurgalise e-arvelduse mudeli, mis kasutab akrediteeritud teenusepakkujaid, ja kirjeldab nelja juurutusetappi. Etappide kuupäevi ei ole ta oma lehtedel inglise keeles avaldanud, seega me siin kuupäeva ei nimeta. Kontrolli kehtivat seisu maksuameti e-arvelduse lehtedelt."
+    },
+    {
+      "q": "Kas saan Omaanis väljastada arve inglise keeles?",
+      "a": "Võid väljastada inglise keeles, kuid rakendusmäärused nõuavad, et maksuarve oleks araabia keeles, ja lubavad lisaks muud keelt, tingimusel et araabiakeelne tõlge on nõudmisel kättesaadav. Praktikas tähendab see kakskeelse malli, mitte ainult ingliskeelse malli kasutamist."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Arvelda Omaanis õigesti, tasuta",
+  "ctaSub": "Määra oma maksumäär, esita arveid mis tahes valuutas ning hoia araabia- ja ingliskeelne arve samast kirjest.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law (käibemaksuseadus), Royal Decree 121/2020, artikkel 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Esimehe otsus kohustusliku ja vabatahtliku registreerimise piirmäärade kohta",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law (rakendusmäärused), Decision 53/2021, artiklid 145 kuni 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "E-arvelduse (Fawtara) programmi lehed",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

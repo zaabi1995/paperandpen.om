@@ -1,0 +1,35 @@
+{
+  "locale": "et",
+  "slug": "retail",
+  "order": 2,
+  "title": "Jaekaubandus ja poed",
+  "metaTitle": "Kaupluse arveldus- ja laohaldustarkvara · Paper & Pen",
+  "metaDescription": "Tasuta arveldus, vöötkoodiga laoarvestus, madala laoseisu hoiatused ja reaalajas väärtus poodidele ja jaemüüjatele. Müü kiiresti ja hoia raamatud korras.",
+  "keywords": "jaekaubanduse tarkvara, poe arveldusprogramm, vöötkoodiga laoarvestus, kassatarkvara, madala laoseisu hoiatus, jaekaubanduse erp, mitme poe laoarvestus",
+  "heroEyebrow": "Poodidele ja jaemüüjatele",
+  "heroTitle": "Müü kiiresti, <em class=\"text-copper-400 not-italic\">ära jää kunagi kaubast ilma</em>",
+  "heroSubtitle": "Arvelda kliente sekunditega, skaneeri vöötkoode laoseisu lugemiseks ja lase laoseisul end ise uuendada. Paper & Pen hoiab su riiulid, müügi ja raamatud ühes rütmis, nii et kulutad vähem aega lugemisele ja rohkem müümisele.",
+  "heroBullets": ["Tasuta ja kiire arveldus", "Vöötkoodi ja SKU tugi", "Madala laoseisu hoiatused enne kauba lõppemist"],
+  "features": [
+    { "icon": "receipt", "title": "Kiire arveldus", "desc": "Löö müük sisse ning prindi või jaga tšekk sekunditega, mis tahes seadmes." },
+    { "icon": "inventory", "title": "Vöötkoodiga laoarvestus", "desc": "Skaneeri, et lugeda või liigutada kaupa, korrastatuna SKU, partii ja mõõtühiku järgi." },
+    { "icon": "bell", "title": "Madala laoseisu hoiatused", "desc": "Määra tellimispiirid ja saa hoiatus enne, kui menukaup otsa saab." },
+    { "icon": "truck", "title": "Mitme poe laoseis", "desc": "Jälgi ja liiguta kaupa filiaalide vahel, kogused kõikjal reaalajas." },
+    { "icon": "calc", "title": "Väärtus reaalajas", "desc": "Keskmise hinna või FIFO meetod hoiab laoseisu väärtuse bilansis täpsena." },
+    { "icon": "chart", "title": "Menukaupade aruanded", "desc": "Näe, mis liigub ja mis seisab, kauba, kategooria ja poe kaupa." }
+  ],
+  "sections": [
+    { "eyebrow": "Kiirem kassa", "title": "Arveldus, mis on loodud kiireks letiks", "body": "Kliendid ei oota. Koosta müük kaupu otsides, rakenda allahindlus, võta makse vastu ja anna puhas tšekk üle sekunditega. Tšekke saab jagada WhatsAppis või kassas printida ning iga müük liigub otse sinu laoseisu ja raamatutesse, midagi pole vaja uuesti sisestada.", "items": ["Otsi ja lisa kaupu kiiresti", "Prindi või jaga tšekke kohe", "Allahindlused ja maks arvestatakse automaatselt"] },
+    { "eyebrow": "Laoseis, mis hoiab end ise korras", "title": "Tea alati, mis riiulil on", "body": "Käsitsi inventuur vananeb hetkel, mil teed müügi. Paper & Penis muudab iga müük ja tarne laoseisu reaalajas, nii et ekraanil olev number vastab riiulile. Määra tellimispiirid, et süsteem märgiks aeglase täiendamise enne, kui müük kaob. Loodud Omaanis, OMR, AED ja SAR ning 5% käibemaks sisse ehitatud, valmis ka USD, EUR või mis tahes maksumäära jaoks, millega kauplad.", "items": ["Reaalajas laoseis igal müügil", "Tellimispiirid ja madala laoseisu hoiatused", "Iga valuuta, iga maksumäär"] }
+  ],
+  "faqs": [
+    { "q": "Kas saan müüa vöötkoodiskanneriga?", "a": "Kassas mitte. Kassas otsid kaupu, et neid müügile lisada. Vöötkoodiskanner töötab laoseisu jaoks: skaneeri kaup, et seda lugeda või kaupa lattu või laost välja liigutada. Kaubad on korrastatud SKU, partii ja mõõtühiku järgi." },
+    { "q": "Kas mu laoseis uueneb müügi tegemisel?", "a": "Jah. Iga müük vähendab ja iga tarne suurendab laoseisu reaalajas kõigis sinu poodides, ilma käsitsi lugemiseta." },
+    { "q": "Kas saan pidada mitut poodi?", "a": "Jah. Jälgi laoseisu poe kaupa, liiguta kaupa filiaalide vahel ja näe koguseid kõikjal reaalajas ühest tööruumist." },
+    { "q": "Kas arveldus on tõesti tasuta?", "a": "Müük ja arveldamine, sealhulgas tšekid, on igavesti tasuta. Lisa laohalduse moodul, kui soovid vöötkoodiga laoarvestust ja madala laoseisu hoiatusi." },
+    { "q": "Kas see töötab väljaspool Lahe riike?", "a": "Jah. Paper & Pen töötab mis tahes valuutas ja maksumääraga, nii et jaemüüjad kõikjal saavad arveldada ja laoseisu hallata, käepärast araabia, inglise ja muud keeled." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Pea oma poodi ilma oletusteta",
+  "ctaSub": "Alusta tasuta arvelduse ja tšekkidega ning lisa laohaldus vöötkoodiga laoarvestuse ja madala laoseisu hoiatuste jaoks."
+}

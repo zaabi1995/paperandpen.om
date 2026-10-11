@@ -1,0 +1,37 @@
+{
+  "locale": "et",
+  "slug": "free-delivery-note-generator",
+  "toolType": "delivery-note",
+  "order": 6,
+  "title": "Tasuta saatelehe generaator",
+  "metaTitle": "Tasuta saatelehe generaator · Paper & Pen",
+  "metaDescription": "Koosta saatelehti veebis tasuta. Loetle saadetud kaubad, lisa kogused ja laadi sekunditega alla prindivalmis PDF.",
+  "keywords": "tasuta saatelehe generaator, saatelehe koostamine, saateleht veebis, saatelehe põhi, saatelehe näidis, saateleht pdf, pakkeleht, kaubasaateleht",
+  "heroEyebrow": "Tasuta · Registreerumist pole vaja",
+  "heroTitle": "Tasuta saatelehe generaator",
+  "heroSubtitle": "Saada kaup teele selge saatelehega sekunditega. Loetle saadetud kaubad ja kogused ning laadi alla prindivalmis PDF, mille klient kauba vastuvõtmisel allkirjastab. Kontot pole vaja.",
+  "howToSteps": [
+    { "name": "Lisa oma andmed", "text": "Sisesta oma ettevõtte nimi, klient, saatelehe number ja kuupäev." },
+    { "name": "Loetle kaubad", "text": "Lisa iga tarnitav kaup koos kogusega. Saatelehel ei ole hindu vaja." },
+    { "name": "Lisa tarne andmed", "text": "Märgi tarneaadress, sõiduk või juht ning käsitsemisjuhised." },
+    { "name": "Laadi PDF alla", "text": "Klõpsa allalaadimisel, et printida leht kliendile allkirjastamiseks, või registreeru, et luua see otse tellimusest." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Kohe ja tasuta", "desc": "Ei registreerumist, vesimärki ega piiranguid. Koosta nii palju saatelehti, kui vajad." },
+    { "icon": "truck", "title": "Tarne tõendus", "desc": "Selge ja allkirjastatav ülevaade saadetud ja vastu võetud kaubast, koos kohaga kliendi allkirjale." },
+    { "icon": "doc", "title": "Kogused, mitte hinnad", "desc": "Näita kaupu ja koguseid ilma hindu avaldamata, täpselt nagu saateleht peab." }
+  ],
+  "sections": [
+    { "title": "Miks kasutada Paper & Peni saatelehe generaatorit?", "body": "Saateleht liigub koos kaubaga ja tõendab, mis saadeti ja vastu võeti, ilma hindu näitamata. Meie generaator on tasuta ja loob puhta PDF-i koos allkirjakohaga, nii et vaidlused puuduliku või vale tarne üle on lihtne lahendada." },
+    { "eyebrow": "Generaatorist edasi", "title": "Saatelehed, mis tulevad sinu tellimustest", "body": "Saatelehe käsitsi trükkimine võib tekitada lahknevusi tegeliku tellimusega. Täisväärtuslikus Paper & Pen ERP-s luuakse saateleht otse müügitellimusest või arvest, nii et kaubad ja kogused klapivad alati, laoseis väheneb väljastamisel ja klient saab vastuvõtmist kinnitada.", "items": ["Loo saateleht mis tahes müügitellimusest", "Laoseis väheneb väljastamisel automaatselt", "Salvesta tarne kinnitus tellimuse juurde"] }
+  ],
+  "faqs": [
+    { "q": "Mis on saateleht?", "a": "Saateleht on dokument, mis on saadetisega kaasas ja loetleb tarnitud kaubad ja kogused. Klient allkirjastab selle vastuvõtmise tõenduseks ning tavaliselt hindu sellel ei ole." },
+    { "q": "Mille poolest erineb saateleht arvest?", "a": "Saateleht kinnitab, mis füüsiliselt kohale jõudis, ja hindu sellel ei ole. Arve nõuab makset ning näitab summasid ja maksu. Siin saad mõlemad tasuta koostada." },
+    { "q": "Kas saatelehe generaator on tõesti tasuta?", "a": "Jah. See on täiesti tasuta, ilma registreerumise, vesimärgi ja koostatavate saatelehtede arvu piiranguta." },
+    { "q": "Kas saatelehti saab luua minu tellimustest?", "a": "Laadi eraldiseisvaid saatelehti tasuta alla või loo tasuta Paper & Peni tööruum, et luua saatelehed otse müügitellimustest ja vähendada laoseisu automaatselt." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-purchase-order-generator", "/invoicing/delivery-notes", "/free-invoicing-software"],
+  "ctaTitle": "Tarni koos tõendusega",
+  "ctaSub": "Loo saatelehed tellimustest, vähenda laoseisu väljastamisel ja salvesta kinnitus tasuta Paper & Peni tööruumiga."
+}

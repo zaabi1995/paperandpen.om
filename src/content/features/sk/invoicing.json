@@ -1,0 +1,35 @@
+{
+  "locale": "sk",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Fakturácia",
+  "metaTitle": "Funkcie na správu faktúr | Paper & Pen ERP",
+  "metaDescription": "Sledovanie faktúr, online platby, pripomienky, nastaviteľná daň, päť jazykov a práca vo viacerých menách, všetko v Paper & Pen ERP.",
+  "keywords": "fakturačný softvér, fakturácia zadarmo, online faktúry, poslať faktúru, online platba faktúry, faktúra s dph, opakované faktúry, upomienky",
+  "heroEyebrow": "Navždy zadarmo",
+  "heroTitle": "Fakturácia, vďaka ktorej <em class=\"text-copper-400 not-italic\">dostanete zaplatené rýchlejšie</em>",
+  "heroSubtitle": "Vytvorte úhľadnú faktúru za menej ako minútu, pošlite ju e-mailom alebo cez WhatsApp a nechajte klienta zaplatiť online. Pre akúkoľvek menu a sadzbu dane, používané po celom svete.",
+  "heroBullets": ["Predaj a fakturácia navždy zadarmo", "Akákoľvek mena, akákoľvek sadzba dane", "Odkaz na online platbu na každej faktúre"],
+  "features": [
+    { "icon": "bolt", "title": "Faktúra za pár sekúnd", "desc": "Vyberte klienta, pridajte položky a odošlite. Súčty a daň sa počítajú počas písania." },
+    { "icon": "globe", "title": "Akákoľvek mena", "desc": "Fakturujte v OMR, AED, SAR, USD, EUR, GBP alebo akejkoľvek mene so správnym počtom desatinných miest." },
+    { "icon": "card", "title": "Platby online", "desc": "Každá faktúra má bezpečný platobný odkaz, takže klienti zaplatia kartou jedným ťuknutím." },
+    { "icon": "bell", "title": "Automatické pripomienky", "desc": "Taktné plánované pripomienky upomínajú neuhradené faktúry namiesto vás." },
+    { "icon": "refresh", "title": "Opakované faktúry", "desc": "Paušály a predplatné fakturujte automaticky, týždenne alebo mesačne." },
+    { "icon": "calc", "title": "Pripravené na DPH a dane", "desc": "Použite akúkoľvek sadzbu DPH alebo dane z predaja, vypočítanú zo sumy po zľavách." }
+  ],
+  "sections": [
+    { "eyebrow": "Pre celý svet", "title": "Jeden fakturačný nástroj pre každý trh", "body": "Či fakturujete v dolároch z New Yorku alebo v rialoch z Maskatu, Paper & Pen za vás vyrieši menu, desatinné miesta aj daňové pravidlá. Prepnite rozhranie medzi angličtinou, arabčinou, hindčinou, bengálčinou a urdčinou, aby celý tím pracoval vo vlastnom jazyku.", "items": ["Viac mien so správnym formátovaním", "Nastaviteľná daň pre každú krajinu", "Faktúry v arabčine, úplne sprava doľava"] },
+    { "eyebrow": "Od ponuky k peniazom", "title": "Fakturácia v rámci kompletného ERP", "body": "Vaše faktúry nežijú oddelene. Úspešnú ponuku premeníte na faktúru jedným kliknutím, zaznamenáte platbu a tá sa automaticky zaúčtuje do kníh. Keď porastiete, sklad, účtovníctvo aj mzdy na vás čakajú v tom istom pracovnom priestore.", "items": ["Z ponuky faktúra jedným kliknutím", "Platby sa spárujú s hlavnou knihou", "Nikdy nič nezadávate dvakrát"] }
+  ],
+  "faqs": [
+    { "q": "Je fakturácia naozaj zadarmo?", "a": "Áno. Predaj a fakturácia sú navždy zadarmo bez obmedzenia počtu faktúr či klientov. Platíte len vtedy, ak pridáte voliteľné moduly, napríklad Sklad alebo Mzdy." },
+    { "q": "Môžu klienti zaplatiť faktúru online?", "a": "Áno. Každá faktúra môže obsahovať bezpečný odkaz na online platbu cez Paymob a ďalšie platobné brány, takže klienti zaplatia kartou a platba sa automaticky spáruje." },
+    { "q": "Podporuje DPH a iné dane?", "a": "Áno. Nastavte akúkoľvek sadzbu vrátane nastaviteľnej DPH pre krajiny Zálivu alebo toho, čo platí vo vašej krajine. Daň sa počíta zo sumy po zľave." },
+    { "q": "Môžem posielať faktúry v arabčine?", "a": "Áno. Celé rozhranie aj PDF faktúry môžu byť v arabčine, úplne sprava doľava, popri angličtine, hindčine, bengálčine a urdčine." },
+    { "q": "Môžem automatizovať opakovanú fakturáciu?", "a": "Áno. Vytvorte opakovanú faktúru pre paušály alebo predplatné a Paper & Pen ju vystaví a odošle podľa plánu." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Pošlite prvú faktúru zadarmo",
+  "ctaSub": "Vytvorte si bezplatný pracovný priestor a vyfakturujte prvému klientovi za pár minút. Bez karty, navždy zadarmo."
+}

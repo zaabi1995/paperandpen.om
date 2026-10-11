@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "payments",
+  "order": 10,
+  "title": "Maksut",
+  "metaTitle": "Laskujen verkkomaksut · Saat rahasi nopeammin · Paper & Pen",
+  "metaDescription": "Lisää verkkomaksulinkki jokaiseen laskuun ja ota vastaan korttimaksuja. Paymob ja globaalit maksupalvelut, mikä tahansa valuutta, automaattinen täsmäytys.",
+  "keywords": "verkkomaksut, korttimaksujen vastaanotto, maksa lasku verkossa, paymob, maksupalvelu, maksulinkki, nopeampi maksu",
+  "heroEyebrow": "Sisäänrakennettu",
+  "heroTitle": "Anna asiakkaiden maksaa <em class=\"text-copper-400 not-italic\">yhdellä napautuksella</em>",
+  "heroSubtitle": "Lisää turvallinen verkkomaksulinkki jokaiseen laskuun, niin asiakkaat maksavat kortilla heti. Maksut täsmäytyvät kirjanpitoosi automaattisesti, millä tahansa valuutalla, missä tahansa.",
+  "heroBullets": ["Verkkomaksulinkki jokaisessa laskussa", "Täsmäytys pääkirjaan automaattisesti", "Paymob ja maailmanlaajuiset maksupalvelut"],
+  "features": [
+    { "icon": "card", "title": "Korttimaksu", "desc": "Asiakkaat maksavat minkä tahansa laskun verkossa kortilla ilman kirjautumista tai sovellusta." },
+    { "icon": "bolt", "title": "Välitön maksulinkki", "desc": "Jokaisessa laskussa on turvallinen linkki, jonka voi jakaa sähköpostilla tai WhatsAppilla." },
+    { "icon": "refresh", "title": "Automaattinen täsmäytys", "desc": "Onnistunut maksu merkitsee laskun maksetuksi ja kirjautuu kirjanpitoosi." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Peri OMR-, AED-, SAR-, USD- ja EUR-valuutassa ja muissa oikean maksupalvelun kautta." },
+    { "icon": "shield", "title": "Turvallinen ja PCI", "desc": "Korttitiedot käsittelevät sertifioidut maksupalvelut, etkä tallenna niitä koskaan itse." },
+    { "icon": "receipt", "title": "Kuitit lähetetään", "desc": "Asiakas saa automaattisen kuitin heti, kun maksu onnistuu." }
+  ],
+  "sections": [
+    { "eyebrow": "Saat rahasi nopeammin", "title": "Poista kitka laskun ja rahan väliltä", "body": "Mitä nopeammin asiakas voi maksaa, sitä nopeammin saat rahat. Verkkomaksulinkki jokaisessa laskussa tarkoittaa, ettei pankkitietoja tarvitse kopioida eikä tilisiirtoa odottaa. Asiakas napauttaa, maksaa kortilla, ja lasku päivittyy itsestään ja kuitti on matkalla.", "items": ["Korttimaksu yhdellä napautuksella", "Linkin voi jakaa WhatsAppissa ja sähköpostilla", "Automaattiset kuitit"] },
+    { "eyebrow": "Paikallinen ja maailmanlaajuinen", "title": "Oikea maksupalvelu markkinallesi", "body": "Paper & Pen yhdistää Persianlahden maille Paymobin ja muita maailmanlaajuisia maksupalveluita, joten voit ottaa vastaan kortteja, joita asiakkaasi todella käyttävät, heidän valuutassaan. Jokainen tilitys täsmäytyy oikeaan laskuun ja kirjautuu kirjanpitoosi, joten perintä ja kirjanpito kulkevat käsi kädessä.", "items": ["Paymob Persianlahden maille sekä maailmanlaajuisia vaihtoehtoja", "Perintä useilla valuutoilla", "Täsmäytyy juuri oikeaan laskuun"] }
+  ],
+  "faqs": [
+    { "q": "Onko verkkomaksujen käyttöönotto ilmaista?", "a": "Kyllä, verkkomaksulinkit ovat sisäänrakennettuja. Maksupalvelu veloittaa oman käsittelymaksunsa jokaisesta tapahtumasta, kuten maksupalvelut aina tekevät." },
+    { "q": "Mitä maksupalveluita tuetaan?", "a": "Paymob Persianlahden maille sekä muita maailmanlaajuisia maksupalveluita, joten voit ottaa vastaan asiakkaidesi käyttämiä kortteja heidän valuutassaan." },
+    { "q": "Päivittääkö maksu laskun automaattisesti?", "a": "Kyllä. Onnistunut maksu merkitsee laskun maksetuksi, lähettää kuitin ja kirjaa viennin kirjanpitoosi." },
+    { "q": "Voivatko asiakkaat maksaa eri valuutoissa?", "a": "Kyllä. Peri OMR-, AED-, SAR-, USD- ja EUR-valuutassa ja muissa, sopivan maksupalvelun kautta ohjattuna." },
+    { "q": "Onko korttimaksu turvallinen?", "a": "Kyllä. Korttitiedot käsittelevät PCI-sertifioidut maksupalvelut, eikä niitä koskaan tallenneta Paper & Peniin." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Muuta laskut heti rahaksi",
+  "ctaSub": "Aloita ilmaiseksi ja lisää verkkomaksulinkki jokaiseen laskuun, niin asiakkaat voivat maksaa sinulle yhdellä napautuksella."
+}

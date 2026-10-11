@@ -1,0 +1,151 @@
+{
+  "locale": "tl",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saudi Arabia",
+  "title": "VAT sa Saudi Arabia",
+  "metaTitle": "VAT sa Saudi Arabia: 15% na Rate at Fatoora · Paper & Pen",
+  "metaDescription": "Ang 15% VAT rate ng Saudi Arabia, ang SAR 375,000 na threshold, ang laman ng invoice ayon sa Artikulo 53 at ang mga yugto ng Fatoora e-invoicing ng ZATCA, may sanggunian.",
+  "keywords": "vat saudi arabia, vat rate sa saudi 15, zatca fatoora, saudi e-invoicing phase 2, requirements ng tax invoice sa saudi, zatca, vat sa KSA, negosyo sa riyadh",
+  "heroEyebrow": "Saudi Arabia",
+  "heroTitle": "Pag-invoice sa ilalim ng mga patakaran ng <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "Ang 15% na rate, ang mga threshold sa registration, ang hinihingi ng Artikulo 53 sa tax invoice, at ang idinadagdag ng Fatoora rito kapag nasa integration phase ka na.",
+  "heroBullets": [
+    "15% na standard rate",
+    "SAR 375,000 para magparehistro",
+    "Live ang Fatoora mula 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Standard na VAT rate",
+      "value": "15%",
+      "note": "Ang Saudi Arabia ang naiiba sa Gulf: nasa 5% o 10% ang ibang estadong nagpapatupad. Kung standard rate ang naaangkop, 15% ang singil sa taxable na supply.",
+      "source": 1
+    },
+    {
+      "label": "Threshold sa mandatory na registration",
+      "value": "SAR 375,000",
+      "note": "Kailangang magparehistro kapag lumampas sa halagang ito ang taxable na supply sa loob ng 12 buwan.",
+      "source": 1
+    },
+    {
+      "label": "Threshold sa boluntaryong registration",
+      "value": "SAR 187,500",
+      "note": "Batay sa taxable na supply O taxable na gastos sa nakaraang 12 buwan.",
+      "source": 1
+    },
+    {
+      "label": "Negosyong hindi residente",
+      "value": "Walang threshold",
+      "note": "Ang hindi residenteng kailangang magbayad ng VAT sa Kaharian ay dapat magparehistro anuman ang halaga ng supply nito.",
+      "source": 1
+    },
+    {
+      "label": "Wika ng invoice",
+      "value": "Arabic",
+      "note": "Dapat lumabas sa Arabic ang hinihinging laman. Puwedeng ipakita ang ibang wika bilang dagdag, bilang salin.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Inililista ng Artikulo 53(5) ng VAT Implementing Regulations ang dapat laman ng tax invoice, at hinihingi itong nasa Arabic bukod sa anumang ibang wikang ipinapakita bilang salin.",
+    "items": [
+      "Ang petsa ng pag-isyu",
+      "Sunud-sunod na numerong natatanging kumikilala sa invoice",
+      "Ang Tax Identification Number ng supplier",
+      "Kapag ang customer ang dapat mag-self-account, ang TIN ng customer at pahayag na sila ang dapat mag-account sa tax",
+      "Pangalan at address ng supplier at ng customer",
+      "Dami at uri ng paninda, o saklaw at uri ng serbisyo",
+      "Ang petsa ng supply, kapag iba ito sa petsa ng pag-isyu",
+      "Taxable na halaga bawat rate o exemption, unit price na hindi kasama ang VAT, at anumang discount na wala pa sa unit price",
+      "Ang inilapat na tax rate",
+      "Ang halaga ng babayarang tax, nakalagay sa Saudi riyal",
+      "Kapag hindi sa basic rate siningil ang tax, paliwanag sa treatment",
+      "Kapag ginamit ang profit margin method para sa kwalipikadong second-hand na paninda, pagbanggit sa katotohanang iyon"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Mandatory at live na, inilulunsad nang paalon-alon",
+    "body": "Ang Saudi Arabia ang may pinaka-advanced na e-invoicing regime sa Gulf at ang ginagaya ng iba. Ang Phase 1, ang Generation Phase, ay naaangkop sa lahat ng residenteng taxable person mula 4 Disyembre 2021: dapat i-isyu nang elektroniko ang mga invoice sa structured na anyo. Nagsimula ang Phase 2, ang Integration Phase, noong 1 Enero 2023 at inilulunsad nang paalon-alon ayon sa laki ng taxpayer, at inaabisuhan ng ZATCA ang bawat grupo nang hindi bababa sa anim na buwan bago ang petsa ng integration nila. Sa Phase 2, higit pa sa laman ng Artikulo 53 ang dala ng electronic invoice: kailangan din nito ng UUID, ng hash ng naunang invoice, ng QR code, ng cryptographic stamp at ng counter na hindi madaling pakialaman. Ang ZATCA ang nag-aanunsyo kung saang alon ka kabilang, kaya tingnan ang mga pahina nito sa e-invoicing sa halip na mag-akala.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Paggawa nang tama",
+      "title": "Binabago ng Fatoora kung ano ang invoice",
+      "body": "Sa mundo ng papel o PDF, ang invoice ay dokumentong ginagawa at ipinapadala mo. Sa ilalim ng Phase 2, isa itong record sa isang kadena: tinutukoy ng bawat invoice ang hash ng nauna rito, may dalang cryptographic stamp at nagpapataas ng counter na hindi mare-reset. Sinadya ang disenyong iyon, at ginagawa nitong imposible ang isang karaniwang ugali. Hindi mo na matatahimik na mabubura, mapapalitan ang numero o maiisyu ulit ang invoice pagkatapos, dahil masisira ang kadena at natutukoy ang pagkasirang iyon. Ang mga negosyong dating nag-aayos ng mali sa pag-edit ng nakaraan ay kailangang lumipat sa credit note, na siya namang laging gusto ng mga patakaran sa accounting sa buong mundo.",
+      "items": [
+        "Naka-link ang bawat invoice sa nauna rito sa pamamagitan ng hash",
+        "Hindi mare-reset o maibabalik ang counter",
+        "Sa credit at debit note ginagawa ang pagtatama",
+        "Bahagi ng invoice ang QR code, hindi palamuti"
+      ]
+    },
+    {
+      "eyebrow": "Paggawa nang tama",
+      "title": "May sunud-sunod na epekto ang 15% na rate",
+      "body": "Dahil sa labinlimang porsiyentong rate, nagiging seryoso sa pananalapi ang pagkakaiba ng zero-rated at exempt sa paraang hindi nangyayari sa limang porsiyento. Kung exempt ang supply mo, hindi mo mababawi ang input tax na binayaran mo, kaya nagiging totoo at hindi mababawing gastos ang labinlimang porsiyento ng input cost mo na kailangang isama sa presyo. Kung zero-rated ang mga ito, wala kang sinisingil pero nakakabawi ka pa rin. Ang pagkakamali sa klasipikasyong iyon ang pinakamahal na iisang pagkakamaling posible sa Saudi VAT, at tanong ito ng klasipikasyon, hindi ng rate.",
+      "items": [
+        "Exempt ay walang pagbawi sa input, kaya gastos mo ang tax",
+        "Zero-rated ay walang singil pero buong pagbawi",
+        "Iuri ayon sa uri ng supply, hindi ayon sa customer",
+        "Gawin ang desisyon sa klasipikasyon bago mag-presyo"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ano ang VAT rate sa Saudi Arabia?",
+      "a": "Labinlimang porsiyento ang standard rate. Ito ang pinakamataas sa Gulf, at karaniwang pagkakamali ang mag-akala ng iisang GCC rate: nasa 5% ang Oman at UAE, 10% ang Bahrain, at hindi pa nagpapatupad ng VAT ang Qatar at Kuwait. Kung nagbebenta ka sa buong rehiyon, hindi mo maaaring ilapat ang iisang rate sa lahat."
+    },
+    {
+      "q": "Ano ang Fatoora?",
+      "a": "Ang Fatoora ang e-invoicing program ng ZATCA. Naaangkop ang Phase 1, ang generation, sa lahat ng residenteng taxable person mula 4 Disyembre 2021. Nagsimula ang Phase 2, ang integration sa mga sistema ng ZATCA, noong 1 Enero 2023 at inilulunsad nang paalon-alon ayon sa laki ng taxpayer, may abisong hindi bababa sa anim na buwan sa bawat alon."
+    },
+    {
+      "q": "Kailangan bang nasa Arabic ang tax invoice sa Saudi?",
+      "a": "Oo. Hinihingi ng Artikulo 53(5) na nasa Arabic ang laman ng invoice, at pinapayagan ang ibang wika bilang dagdag na salin. Sumusunod sa patakaran ang bilingual na invoice; ang Ingles lang ay hindi."
+    },
+    {
+      "q": "Anong mga dagdag na field ang hinihingi ng Phase 2?",
+      "a": "Bukod sa laman ng Artikulo 53, may dalang UUID, hash ng naunang invoice, QR code, cryptographic stamp at counter na hindi madaling pakialaman ang electronic invoice sa integration phase. Ginagawa ang mga ito ng compliant na software sa halip na i-type ng tao."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Mag-invoice nang tama sa Saudi Arabia, libre",
+  "ctaSub": "Ikaw ang magtakda ng rate, panatilihin ang Arabic at Ingles sa iisang dokumento, at itama ang mali gamit ang credit note sa halip na pag-edit.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, ikatlong bersyon, seksyon 3.2 at 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, Artikulo 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Resolusyon sa pagpapatupad ng e-invoicing, Governor's Decision 62738, at ang mga pahina ng ZATCA sa e-invoicing",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

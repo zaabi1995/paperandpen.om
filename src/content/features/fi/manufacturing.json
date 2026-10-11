@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Tuotanto",
+  "metaTitle": "Tuotannonohjausohjelma valmistukseen · Paper & Pen",
+  "metaDescription": "Suunnittele tuotanto materiaaliluetteloilla, työtilauksilla ja todellisella kustannuslaskennalla. Kuluta raaka-aineet, valmista tuotteet ja tunne todellinen katteesi.",
+  "keywords": "tuotannonohjaus, tuotannonohjausohjelma, materiaaliluettelo, bom, työtilaus, tuotannon kustannuslaskenta, valmiit tuotteet",
+  "heroEyebrow": "Lisämoduuli",
+  "heroTitle": "Valmista tilauksesta, <em class=\"text-copper-400 not-italic\">laske kustannus rialin tarkkuudella</em>",
+  "heroSubtitle": "Muuta raaka-aineet valmiiksi tuotteiksi materiaaliluetteloilla ja työtilauksilla, kun Paper & Pen seuraa jokaisen komponentin kustannusta. Näin tiedät aina todellisen katteesi.",
+  "heroBullets": ["Materiaaliluettelot ja työtilaukset", "Automaattinen varaston kulutus", "Todellinen tuotannon kustannuslaskenta"],
+  "features": [
+    { "icon": "manufacturing", "title": "Materiaaliluettelot", "desc": "Määritä, mitä kuhunkin tuotteeseen menee, määrineen ja alikokoonpanoineen." },
+    { "icon": "doc", "title": "Työtilaukset", "desc": "Suunnittele ja seuraa tuotantoeriä raaka-aineista valmiiseen varastoon." },
+    { "icon": "inventory", "title": "Automaattiset varastoliikkeet", "desc": "Raaka-aineet kulutetaan ja valmiit tuotteet lisätään sitä mukaa kuin valmistat." },
+    { "icon": "calc", "title": "Tuotannon kustannuslaskenta", "desc": "Kokoa materiaali- ja yleiskustannukset tarkaksi valmiiden tuotteiden arvoksi." },
+    { "icon": "chart", "title": "Kate näkyvissä", "desc": "Vertaa tuotantokustannusta myyntihintaan ja näe todellinen kate tuotteittain." },
+    { "icon": "refresh", "title": "Yhteydessä alusta loppuun", "desc": "Yhdistä ostot, varasto ja myynti yhdeksi yhtenäiseksi kokonaisuudeksi." }
+  ],
+  "sections": [
+    { "eyebrow": "Suunnittele luottavaisesti", "title": "Reseptistä valmiiksi tuotteiksi", "body": "Määritä materiaaliluettelo kerran, niin Paper & Pen tietää tarkalleen, mitä kukin valmistuserä kuluttaa. Luo työtilaus, niin raaka-aineet varataan ja kulutetaan ja valmiit tuotteet lisätään varastoon, ja kustannuslaskenta hoituu puolestasi.", "items": ["Uudelleenkäytettävät materiaaliluettelot", "Työtilaukset varastovarauksella", "Automaattinen kulutus ja valmiiden tuotteiden vastaanotto"] },
+    { "eyebrow": "Tunne todellinen katteesi", "title": "Kustannuslaskenta, joka kertoo totuuden", "body": "Kun arvaat kustannuksesi, arvaat myös tuloksesi. Paper & Pen kokoaa materiaali- ja yleiskustannukset todelliseksi valmiiden tuotteiden kustannukseksi, kirjaa sen kirjanpitoon ja näyttää katteen jokaisessa myynnissä. Toimii millä tahansa valuutalla, joten voit hankkia ja myydä yli rajojen.", "items": ["Materiaali- ja yleiskustannuslaskenta", "Kirjautuu automaattisesti kirjanpitoon", "Kate tuotteittain ja tilauksittain"] }
+  ],
+  "faqs": [
+    { "q": "Onko tuotanto ilmainen?", "a": "Tuotanto on valinnainen maksullinen lisäosa. Myynnin ja laskutuksen ydinmoduuli on ilmainen ikuisesti, ja lisäät Tuotannon, kun valmistat tuotteita." },
+    { "q": "Voinko määrittää materiaaliluetteloita?", "a": "Kyllä. Laadi BOM jokaiselle tuotteelle alikokoonpanoineen ja käytä sitä uudelleen jokaisessa tuotantoerässä." },
+    { "q": "Kuluttaako se varastoa automaattisesti?", "a": "Kyllä. Kun käsittelet työtilauksen, raaka-aineet kulutetaan ja valmiit tuotteet lisätään varastoon automaattisesti." },
+    { "q": "Miten tuotantokustannus lasketaan?", "a": "Materiaali- ja yleiskustannukset kootaan valmiiden tuotteiden arvoon, joka kirjautuu kirjanpitoon, joten katteesi ovat tarkkoja." },
+    { "q": "Toimiiko se millä tahansa valuutalla?", "a": "Kyllä. Osta materiaaleja ja myy valmiita tuotteita millä tahansa valuutalla, ja kustannuslaskenta ja kirjanpito pysyvät synkronoituina." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Laske jokaisen valmistuserän kustannus tarkasti",
+  "ctaSub": "Aloita ilmaiseksi laskutuksella ja lisää Tuotanto, niin suunnittelet tuotannon ja tiedät todellisen katteesi."
+}

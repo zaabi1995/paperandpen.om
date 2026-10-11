@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "trading",
+  "order": 1,
+  "title": "Kauppa ja tukkukauppa",
+  "metaTitle": "ERP-ohjelmisto kauppa- ja tukkuyrityksille | Paper & Pen",
+  "metaDescription": "Ilmainen laskutus sekä reaaliaikainen varasto, ostotilaukset ja monivaluuttaisuus kauppiaille, maahantuojille ja tukkureille. Tarjoa, myy ja täsmäytä nopeammin.",
+  "keywords": "kauppayrityksen ohjelmisto, tukkukaupan erp, jakelijan laskutus, tuonti ja vienti ohjelmisto, ostotilausohjelma, monivaluuttainen kauppa, varastonhallinta kauppiaille",
+  "heroEyebrow": "Kauppiaille, maahantuojille ja tukkureille",
+  "heroTitle": "Osta, myy ja varastoi <em class=\"text-copper-400 not-italic\">yhdellä selkeällä pääkirjalla</em>",
+  "heroSubtitle": "Ostotilauksesta asiakaslaskuun Paper & Pen pitää tavarasi, kustannuksesi ja rahasi tahdissa. Tee tarjoukset nopeasti, liikuta varastoa ilman arvailua ja tunne katteesi jokaisessa kaupassa.",
+  "heroBullets": ["Ilmaiset tarjoukset ja laskut", "Ajantasainen varasto ja kokonaishankintameno", "Osta yhdellä valuutalla, myy toisella"],
+  "features": [
+    { "icon": "cart", "title": "Tarjouksesta laskuksi", "desc": "Muuta tarjous myyntitilaukseksi ja laskuksi kahdella klikkauksella kirjoittamatta mitään uudelleen." },
+    { "icon": "inventory", "title": "Saldot reaaliajassa", "desc": "Jokainen myynti ja osto liikuttaa varastoa heti kaikissa varastoissasi." },
+    { "icon": "truck", "title": "Ostotilaukset", "desc": "Tee ostotilaukset toimittajille, vastaanota tavarat ja päivitä varasto ja kustannus yhdessä työnkulussa." },
+    { "icon": "globe", "title": "Monivaluuttaisuus", "desc": "Osta USD- tai EUR-valuutassa ja myy OMR-, AED- tai SAR-valuutassa oikein desimaalein läpi linjan." },
+    { "icon": "calc", "title": "Kate jokaisessa kaupassa", "desc": "Näe kustannus, hinta ja voitto riveittäin, joten et koskaan myy alle alarajasi." },
+    { "icon": "refresh", "title": "Automaattinen täsmäytys", "desc": "Laskut, maksut ja varastoliikkeet kirjautuvat kirjanpitoosi automaattisesti." }
+  ],
+  "sections": [
+    { "eyebrow": "Nopeus voittaa kaupat", "title": "Tarjous tänään, toimitus huomenna", "body": "Kaupankäynnissä ensimmäinen siisti tarjous voittaa usein tilauksen. Laadi ammattimainen tarjous minuuteissa, lähetä se WhatsAppissa tai sähköpostilla ja muuta hyväksytty myyntitilaukseksi, lähetteeksi ja laskuksi syöttämättä mitään kahdesti. Asiakkaasi saa viimeistellyn asiakirjan, ja sinulle jää siisti ketju.", "items": ["Tarjouksesta myyntitilaukseen ja laskuun muutamalla klikkauksella", "Lähetteet ja pakkaus sisäänrakennettuina", "Jaa heti WhatsAppissa tai sähköpostilla"] },
+    { "eyebrow": "Tunne todellinen kustannuksesi", "title": "Varasto ja kate, jotka kertovat totuuden", "body": "Maahantuojien ja tukkureiden menestys riippuu katteesta. Paper & Pen arvostaa varastosi keskihinta- tai FIFO-menetelmällä ja näyttää voiton riveittäin tarjousta tehdessäsi, joten hinnoittelet luottavaisin mielin. Osta ulkomailta yhdellä valuutalla ja myy kotimaassa toisella, ja kirjanpito pysyy täsmäytettynä. Tehty Omanissa valmiilla OMR-, AED- ja SAR-tuella sekä säädettävällä ALV:llä, ja yhtä kotonaan USD-, EUR- tai minkä tahansa asettamasi verokannan kanssa.", "items": ["Keskihinta- tai FIFO-laskenta tarkkaan arvostukseen", "Rivikohtainen kate tarjousta tehdessä", "Persianlahden ALV tai mikä tahansa verokanta ja valuutta"] }
+  ],
+  "faqs": [
+    { "q": "Voinko tehdä tarjouksen yhdellä valuutalla ja ostaa varastoa toisella?", "a": "Kyllä. Osta USD-, EUR- tai CNY-valuutassa tai millä tahansa valuutalla ja myy OMR-, AED- tai SAR-valuutassa tai siinä, mitä asiakkaasi käyttävät. Desimaalit ja summat mukautuvat automaattisesti, ja kirjanpito pysyy täsmäytettynä." },
+    { "q": "Päivittääkö laskutus varastoni?", "a": "Kyllä. Jokainen lasku vähentää ja jokainen ostotilauksen vastaanotto lisää varastoa reaaliajassa useissa varastoissa, ilman käsin tehtyjä inventaarioita." },
+    { "q": "Näenkö katteeni tuotteittain?", "a": "Kyllä. Paper & Pen näyttää kustannuksen, myyntihinnan ja katteen jokaisella rivillä tarjousta tai laskua laatiessasi, joten suojaat alarajasi jokaisessa kaupassa." },
+    { "q": "Onko se todella ilmainen kauppayritykselle?", "a": "Myynti ja laskutus on ilmaista ikuisesti, mukaan lukien tarjoukset, laskut ja lähetteet. Lisää Varastonhallinta-moduuli, kun tarvitset reaaliaikaisen varaston ja kokonaishankintamenon." },
+    { "q": "Hoitaako se ALV:n Persianlahden maissa ja muilla markkinoilla?", "a": "Kyllä. Käytä valmiina Persianlahden maiden säädettävää ALV:tä tai määritä mikä tahansa verokanta mille tahansa maalle. Vero lasketaan aina alennuksen jälkeisestä nettosummasta." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Pyöritä kauppaasi yhdellä siistillä pääkirjalla",
+  "ctaSub": "Aloita ilmaiseksi tarjouksilla ja laskutuksella ja lisää Varastonhallinta ja Kirjanpito kaupankäyntisi kasvaessa."
+}

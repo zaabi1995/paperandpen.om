@@ -1,0 +1,38 @@
+{
+  "locale": "sl",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Brezplačni kalkulator DDV in davkov",
+  "metaTitle": "Kalkulator DDV za Oman: dodajte ali odštejte 5 % DDV",
+  "metaDescription": "Izračunajte omanski 5 % DDV na spletu. DDV prištejte neto znesku ali ga odštejte od bruto zneska in takoj vidite neto, DDV in skupni znesek, brez registracije.",
+  "keywords": "kalkulator ddv, kalkulator ddv oman, kalkulator prometnega davka, prištevanje ddv, odštevanje ddv, kalkulator 5 % ddv, nastavljiv kalkulator ddv, izračun ddv iz bruto zneska",
+  "heroEyebrow": "Brezplačno · Brez registracije",
+  "heroTitle": "Brezplačni kalkulator <em class=\"text-copper-400 not-italic\">DDV in davkov</em>",
+  "heroSubtitle": "Izračunajte omanski 5 % DDV na spletu. DDV prištejte neto znesku ali ga odštejte od bruto zneska in takoj vidite neto, DDV in skupni znesek, brez registracije.",
+  "heroBullets": ["Katera koli stopnja, katera koli valuta", "Prištejte ali odštejte davek", "Brezplačno za vedno, brez registracije"],
+  "howToSteps": [
+    { "name": "Vpišite znesek", "text": "Vpišite znesek, s katerim želite računati, in izberite valuto." },
+    { "name": "Nastavite davčno stopnjo", "text": "Uporabite privzeto omansko stopnjo 5 % ali vpišite veljavno stopnjo, ki velja za vašo transakcijo." },
+    { "name": "Izberite prištevanje ali odštevanje", "text": "Davek prištejte neto znesku ali ga odštejte od bruto zneska, da dobite neto znesek (obratni izračun DDV)." },
+    { "name": "Preberite rezultat", "text": "Takoj vidite razčlenjen neto znesek, davek in bruto znesek, pripravljene za prepis v račun." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Prištejte ali odštejte davek", "desc": "Davek izračunajte na neto znesek ali ga z enim klikom izločite iz bruto zneska." },
+    { "icon": "globe", "title": "Katera koli stopnja, katera koli valuta", "desc": "Privzeto omanskih 5 % ali stopnja, ki velja za vas, v OMR, AED, SAR, USD, EUR in drugih valutah." },
+    { "icon": "bolt", "title": "Takoj in brezplačno", "desc": "Brez registracije, brez omejitev. Neto, davek in bruto dobite med tipkanjem." }
+  ],
+  "sections": [
+    { "title": "Zakaj uporabiti kalkulator DDV Paper & Pen?", "body": "Ne glede na to, ali pripravljate ponudbo, preverjate račun ali oddajate obračun, se morajo neto znesek, davek in bruto znesek ujemati do zadnje decimalke. Ta kalkulator obvlada katero koli stopnjo v kateri koli valuti, deluje v obe smeri (prišteje davek ali ga izloči iz skupnega zneska) in je resnično brezplačen. Odpre se z omansko stopnjo 5 % in ga je mogoče v celoti nastaviti za druga območja." },
+    { "eyebrow": "Več kot kalkulator", "title": "Naj DDV namesto vas obračuna program", "body": "Ročno računanje davka v vsaki vrstici je počasno in polno napak. V celovitem Paper & Pen ERP se DDV samodejno uporabi na neto znesek po popustu na vsakem računu, zabeleži v knjigah in združi v poročila, pripravljena za obračun, zato kalkulatorja sploh ne potrebujete več.", "items": ["Samodejni davek na vsakem računu in ponudbi", "Davčne stopnje po postavki in po dokumentu", "Povzetna poročila o DDV, pripravljena za oddajo"] }
+  ],
+  "faqs": [
+    { "q": "Katero stopnjo uporablja ta kalkulator DDV za Oman?", "a": "Kalkulator se odpre z omansko stopnjo 5 %. Davčna pravila se lahko spremenijo, zato veljavno stopnjo preverite pri Oman Tax Authority, preden se zanesete na izračun. Vpišete lahko katero koli stopnjo." },
+    { "q": "Kako odštejem DDV od skupnega zneska?", "a": "Izberite možnost odštevanja (obratni izračun) in vpišite bruto znesek. Kalkulator izračuna neto znesek in davčni delež, ki je bil vključen v skupni znesek." },
+    { "q": "Ali ga lahko uporabim za prometni davek zunaj Omana?", "a": "Da. Nastavite stopnjo, ki velja za vašo transakcijo, in izberite katero koli valuto. Deluje za DDV, GST ali prometni davek kjer koli na svetu." },
+    { "q": "Ali izračuna davek na znižan znesek?", "a": "Vpišite neto znesek po popustu in mu prištejte davek. Za samodejni DDV po popustu na celotnih računih ustvarite brezplačen delovni prostor Paper & Pen, kjer je to urejeno namesto vas." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Nehajte ročno računati DDV",
+  "ctaSub": "Z brezplačnim delovnim prostorom Paper & Pen samodejno uporabite davek na vsakem računu in pridobite poročila o DDV, pripravljena za obračun."
+}

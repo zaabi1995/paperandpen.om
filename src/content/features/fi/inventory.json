@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Varastonhallinta",
+  "metaTitle": "Varastonhallintaohjelma · Varasto reaaliajassa · Paper & Pen",
+  "metaDescription": "Seuraa saldoja kaikissa varastoissa reaaliajassa: hälytykset vähäisestä saldosta, erä- ja viivakooditunnisteet sekä ajantasainen arvostus, joka kirjautuu kirjanpitoon.",
+  "keywords": "varastonhallinta, varastonhallintaohjelma, varasto-ohjelma, saldon seuranta, viivakoodi varasto, varaston arvostus, useampi varasto",
+  "heroEyebrow": "Lisämoduuli",
+  "heroTitle": "Varasto, johon voit <em class=\"text-copper-400 not-italic\">luottaa</em>, reaaliajassa",
+  "heroSubtitle": "Tiedä tarkalleen, mitä sinulla on, missä se on ja mitä se on arvoltaan. Varasto päivittyy heti, kun laskutat tai vastaanotat tavaraa, joten lukusi ovat aina ajan tasalla.",
+  "heroBullets": ["Ajantasaiset saldot kaikissa varastoissa", "Hälytykset vähäisestä saldosta ja tilausrajoista", "Arvostus kirjautuu kirjanpitoon"],
+  "features": [
+    { "icon": "inventory", "title": "Saldot reaaliajassa", "desc": "Määrät päivittyvät heti, kun myyt, ostat tai siirrät tavaraa." },
+    { "icon": "truck", "title": "Useita varastoja", "desc": "Seuraa ja siirrä tavaraa toimipaikkojen ja sivuliikkeiden välillä täydellä näkyvyydellä." },
+    { "icon": "bell", "title": "Hälytys vähäisestä saldosta", "desc": "Aseta tilausrajat ja saat varoituksen ennen kuin nopeasti liikkuva tuote loppuu." },
+    { "icon": "receipt", "title": "Viivakoodi ja SKU", "desc": "Skannaa varaston laskentaa tai siirtoja varten, järjestettynä SKU:n, erän ja yksikön mukaan." },
+    { "icon": "calc", "title": "Ajantasainen arvostus", "desc": "Keskihinta- tai FIFO-laskenta pitää varaston arvon taseessa oikeana." },
+    { "icon": "refresh", "title": "Yhteydessä myyntiin", "desc": "Laskut ja ostotilaukset liikuttavat varastoa automaattisesti, ilman käsin tehtyjä päivityksiä." }
+  ],
+  "sections": [
+    { "eyebrow": "Aina tarkka", "title": "Varasto, joka päivittää itsensä", "body": "Käsin tehdyt inventaariot vanhenevat heti, kun teet myynnin. Paper & Penissä jokainen lasku, osto ja siirto päivittää saldon ja kustannuksen reaaliajassa, joten ruudulla näkyvä luku on sama kuin hyllyssä. Aseta tilausrajat ja anna järjestelmän kertoa, milloin pitää ostaa.", "items": ["Päivittyy jokaisesta tapahtumasta", "Tilausrajat ja hälytykset", "Erän, SKU:n ja yksikön seuranta"] },
+    { "eyebrow": "Varasto kohtaa kirjanpidon", "title": "Hyllystä taseeseen", "body": "Varasto ei ole pelkkää laatikoiden laskemista, vaan oikeaa rahaa taseessasi. Paper & Pen arvostaa varaston keskihinta- tai FIFO-menetelmällä ja kirjaa liikkeet kirjanpitoon automaattisesti, joten myytyjen tavaroiden hankintameno ja varaston arvo ovat aina täsmäytettyinä. Toimii millä tahansa valuutalla kaikilla markkinoilla.", "items": ["Keskihinta- tai FIFO-laskenta", "Kirjautuu automaattisesti kirjanpitoon", "Ostot useilla valuutoilla"] }
+  ],
+  "faqs": [
+    { "q": "Sisältyykö varastonhallinta ilmaiseksi?", "a": "Varastonhallinta on valinnainen maksullinen lisäosa. Myynnin ja laskutuksen ydinmoduuli on ilmainen ikuisesti, ja lisäät Varastonhallinnan, kun tarvitset reaaliaikaista saldojen hallintaa." },
+    { "q": "Voinko hallita useita varastoja?", "a": "Kyllä. Seuraa saldoja toimipaikoittain, siirrä tavaraa niiden välillä ja näe ajantasaiset määrät kaikkialla." },
+    { "q": "Tukeeko se viivakoodeja?", "a": "Kyllä. Skannaa toimittajan viivakoodi, SKU tai tulostettu QR-tarra, niin varaston laskenta ja siirrot sujuvat nopeammin, erä- ja yksikkötuen kanssa." },
+    { "q": "Miten varasto arvostetaan?", "a": "Valitse keskihinta tai FIFO. Arvostus päivittyy jokaisesta liikkeestä ja kirjautuu kirjanpitoosi automaattisesti." },
+    { "q": "Päivittääkö myynti saldot automaattisesti?", "a": "Kyllä. Laskut vähentävät ja ostot lisäävät saldoa reaaliajassa, joten sinun ei koskaan tarvitse päivittää määriä käsin." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Ota varasto hallintaasi",
+  "ctaSub": "Aloita ilmaiseksi laskutuksella ja lisää Varastonhallinta, kun olet valmis reaaliaikaisiin saldoihin kaikissa toimipaikoissa."
+}

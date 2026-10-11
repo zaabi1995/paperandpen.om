@@ -1,0 +1,38 @@
+{
+  "locale": "sk",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Kalkulačka DPH a daní zadarmo",
+  "metaTitle": "Kalkulačka DPH pre Omán: pripočítať alebo odpočítať 5 % DPH",
+  "metaDescription": "Vypočítajte 5 % ománsku DPH online. Pripočítajte DPH k základu alebo ju odpočítajte z celkovej sumy a hneď uvidíte základ, DPH aj súčet, bez registrácie.",
+  "keywords": "kalkulačka dph, kalkulačka dph omán, výpočet dane z predaja, pripočítať dph, odpočítať dph, kalkulačka 5 % dph, výpočet dph online, spätný výpočet dph",
+  "heroEyebrow": "Zadarmo · Bez registrácie",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">Kalkulačka DPH a daní</em> zadarmo",
+  "heroSubtitle": "Vypočítajte 5 % ománsku DPH online. Pripočítajte DPH k základu alebo ju odpočítajte z celkovej sumy a hneď uvidíte základ, DPH aj súčet, bez registrácie.",
+  "heroBullets": ["Akákoľvek sadzba, akákoľvek mena", "Pripočítanie aj spätný výpočet dane", "Navždy zadarmo, bez registrácie"],
+  "howToSteps": [
+    { "name": "Zadajte sumu", "text": "Napíšte sumu, s ktorou chcete pracovať, a vyberte menu." },
+    { "name": "Nastavte sadzbu dane", "text": "Použite predvolenú ománsku sadzbu 5 % alebo zadajte aktuálnu sadzbu, ktorá platí pre vašu transakciu." },
+    { "name": "Vyberte pripočítanie alebo odpočítanie", "text": "Pripočítajte daň k základu alebo ju odpočítajte z celkovej sumy a zistite základ (spätný výpočet DPH)." },
+    { "name": "Prečítajte výsledok", "text": "Okamžite uvidíte rozpis základu, dane a celkovej sumy, pripravený na prepísanie do faktúry." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Pripočítanie alebo odpočítanie dane", "desc": "Vypočítajte daň zo základu alebo ju jedným kliknutím odpočítajte z celkovej sumy." },
+    { "icon": "globe", "title": "Akákoľvek sadzba, akákoľvek mena", "desc": "Predvolene ománskych 5 % alebo sadzba, ktorá platí pre vás, v OMR, AED, SAR, USD, EUR a ďalších menách." },
+    { "icon": "bolt", "title": "Okamžite a zadarmo", "desc": "Bez registrácie, bez obmedzení. Základ, daň a celkovú sumu máte hneď pri písaní." }
+  ],
+  "sections": [
+    { "title": "Prečo použiť kalkulačku DPH od Paper & Pen?", "body": "Či pripravujete cenovú ponuku, kontrolujete faktúru alebo podávate priznanie, základ, daň a celková suma musia sedieť na posledné desatinné miesto. Táto kalkulačka zvláda akúkoľvek sadzbu v akejkoľvek mene, počíta oboma smermi (pripočíta daň alebo ju odpočíta zo sumy) a je naozaj zadarmo. Otvára sa so sadzbou 5 % platnou v Ománe a dá sa úplne prispôsobiť pre iné jurisdikcie." },
+    { "eyebrow": "Viac než kalkulačka", "title": "Nechajte DPH na softvér", "body": "Ručný výpočet dane pri každom riadku je pomalý a náchylný na chyby. V úplnom Paper & Pen ERP sa DPH automaticky uplatní na základ po zľave na každej faktúre, zaúčtuje sa a spojí do prehľadov pripravených na priznanie, takže kalkulačku už nebudete potrebovať.", "items": ["Automatická daň na každej faktúre a ponuke", "Sadzby dane na položku aj na doklad", "Súhrnné prehľady DPH pripravené na podanie"] }
+  ],
+  "faqs": [
+    { "q": "Akú sadzbu používa táto kalkulačka DPH pre Omán?", "a": "Kalkulačka sa otvára so sadzbou 5 % platnou v Ománe. Daňové pravidlá sa môžu meniť, preto si aktuálnu sadzbu overte u úradu Oman Tax Authority skôr, ako sa na výpočet spoľahnete. Zadať môžete akúkoľvek sadzbu." },
+    { "q": "Ako odpočítam DPH z celkovej sumy?", "a": "Vyberte možnosť odpočítania (spätného výpočtu) a zadajte celkovú sumu. Kalkulačka vypočíta základ a podiel dane, ktorý bol v sume zahrnutý." },
+    { "q": "Môžem ju použiť aj na daň z predaja mimo Ománu?", "a": "Áno. Nastavte sadzbu, ktorá platí pre vašu transakciu, a vyberte akúkoľvek menu. Funguje pre DPH, GST aj daň z predaja kdekoľvek na svete." },
+    { "q": "Počíta daň zo zľavnenej sumy?", "a": "Zadajte základ po zľave a pripočítajte k nemu daň. Ak chcete automatickú DPH po zľave na celých faktúrach, vytvorte si bezplatný pracovný priestor Paper & Pen, kde sa o to postará systém." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Prestaňte počítať DPH ručne",
+  "ctaSub": "Uplatňujte daň automaticky na každej faktúre a získajte prehľady DPH pripravené na priznanie v bezplatnom pracovnom priestore Paper & Pen."
+}

@@ -1,0 +1,37 @@
+{
+  "locale": "et",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Tasuta ostutellimuse generaator",
+  "metaTitle": "Tasuta ostutellimuse generaator · Paper & Pen",
+  "metaDescription": "Koosta ostutellimusi veebis tasuta. Lisa tarnija ja kaubad, vali mis tahes valuuta ja maks ning laadi sekunditega alla prindivalmis PDF.",
+  "keywords": "tasuta ostutellimuse generaator, ostutellimuse koostamine, ostutellimus veebis, ostutellimuse põhi, ostutellimuse näidis, ostutellimus pdf, tellimisvorm tarnijale",
+  "heroEyebrow": "Tasuta · Registreerumist pole vaja",
+  "heroTitle": "Tasuta ostutellimuse generaator",
+  "heroSubtitle": "Saada igale tarnijale selge ostutellimus sekunditega. Lisa read, vali mis tahes valuuta, rakenda maks ja laadi alla prindivalmis PDF. Kontot pole vaja.",
+  "howToSteps": [
+    { "name": "Lisa oma andmed", "text": "Sisesta oma ettevõtte nimi, tarnija, ostutellimuse number ja kuupäev." },
+    { "name": "Lisa read", "text": "Loetle tellitavad kaubad või teenused koos koguse ja hinnaga. Summad arvutatakse automaatselt." },
+    { "name": "Vali valuuta ja maks", "text": "Vali mis tahes valuuta ja määra kehtiv käibemaksu- või müügimaksumäär." },
+    { "name": "Laadi PDF alla", "text": "Klõpsa allalaadimisel, et saata prindivalmis ostutellimus, või registreeru, et jälgida tarnet ja võrrelda seda tarnija arvega." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Kohe ja tasuta", "desc": "Ei registreerumist, vesimärki ega piiranguid. Koosta nii palju ostutellimusi, kui vajad." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Telli OMR-ides, AED-des, SAR-ides, USD-des, EUR-ides, GBP-des ja muudes valuutades, ideaalne välismaiste tarnijate jaoks." },
+    { "icon": "cart", "title": "Selged tellimistingimused", "desc": "Märgi kogused, tarne andmed ja maksetingimused, et tarnijad saadaksid täpselt selle, mida vajad." }
+  ],
+  "sections": [
+    { "title": "Miks kasutada Paper & Peni ostutellimuse generaatorit?", "body": "Ostutellimus on sinu ametlik ja jälgitav juhis tarnijale ning sinu kaitse, kui tarne on vale. Meie generaator on tasuta, toetab mitut valuutat ja loob puhta PDF-i, mille iga tarnija ära tunneb. Ei tabelit ega registreerumist." },
+    { "eyebrow": "Generaatorist edasi", "title": "Ostutellimusest laoseisu ja tarnija arveni", "body": "PDF on alles algus. Päris hankeprotsess seob tellimuse vastu võetud kauba, tarnija arvete ja laoseisuga. Täisväärtuslikus Paper & Pen ERP-s jälgib ostutellimus, mis on tellitud, uuendab laoseisu kauba saabumisel ja võrdleb seda tarnija arvega, nii et sa ei maksa kunagi üle.", "items": ["Jälgi tellitud, vastu võetud ja ootel koguseid", "Laoseis uueneb kauba vastuvõtmisel automaatselt", "Võrdle tarnija arvet algse ostutellimusega"] }
+  ],
+  "faqs": [
+    { "q": "Mis on ostutellimus?", "a": "Ostutellimus on dokument, mille saadad tarnijale, et ametlikult tellida kaupu või teenuseid kokkulepitud hinna ja kogusega. Kui tarnija selle aktsepteerib, muutub see siduvaks tellimuseks." },
+    { "q": "Kas ostutellimuse generaator on tõesti tasuta?", "a": "Jah. See on täiesti tasuta, ilma registreerumise, vesimärgi ja koostatavate ostutellimuste arvu piiranguta." },
+    { "q": "Kas saan tellida välismaiselt tarnijalt tema valuutas?", "a": "Jah. Vali mis tahes valuuta, sealhulgas USD, EUR ja GBP, kümnendkohad kohanduvad automaatselt, nii et piiriülesed tellimused on selged." },
+    { "q": "Kas saan jälgida tarnet ja võrrelda tarnija arvet?", "a": "Laadi ostutellimus tasuta alla või loo tasuta Paper & Peni tööruum, et jälgida vastu võetud kaupa, uuendada laoseisu ja võrrelda tarnija arveid oma ostutellimustega." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Telli kontrolli all",
+  "ctaSub": "Jälgi iga ostutellimust, uuenda laoseisu vastuvõtmisel ja võrdle tarnija arveid tasuta Paper & Peni tööruumiga."
+}

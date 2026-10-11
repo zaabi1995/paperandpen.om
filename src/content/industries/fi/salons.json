@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "salons",
+  "order": 5,
+  "title": "Kampaamot ja kylpylät",
+  "metaTitle": "Kampaamon laskutus-, henkilöstö- ja varasto-ohjelma | Paper & Pen",
+  "metaDescription": "Ilmainen laskutus sekä tuotevarasto, henkilöstön palkat ja asiakashistoria kampaamoille, kylpylöille ja klinikoille. Laskuta palvelut nopeasti ja maksa palkat.",
+  "keywords": "kampaamon ohjelmisto, kylpylän laskutus, kampaamon erp, kauneusalan ohjelmisto, henkilöstön provisio, kampaamon tuotevarasto, asiakashistoria",
+  "heroEyebrow": "Kampaamoille, kylpylöille ja klinikoille",
+  "heroTitle": "Laskuta palvelut nopeasti, <em class=\"text-copper-400 not-italic\">pidä asiakkaat lähellä</em>",
+  "heroSubtitle": "Kirjaa palvelut ja tuotemyynti sekunneissa, seuraa käyttämiäsi tuotteita ja maksa henkilöstölle palkat, joiden provisiot lasketaan puolestasi. Paper & Pen pyörittää vastaanottoa, varastoa ja kirjanpitoa yhdessä.",
+  "heroBullets": ["Ilmainen, nopea palvelujen laskutus", "Myyntituotteiden varasto", "Henkilöstön palkat ja provisiot"],
+  "features": [
+    { "icon": "receipt", "title": "Nopea laskutus", "desc": "Lisää palvelut ja myyntituotteet, ota maksu vastaan ja jaa kuitti sekunneissa." },
+    { "icon": "users", "title": "Asiakashistoria", "desc": "Säilytä yhteystiedot ja aiemmat käynnit, niin jokainen asiakas tuntee tulleensa muistetuksi." },
+    { "icon": "inventory", "title": "Tuotevarasto", "desc": "Seuraa myynti- ja työtuotteita yksikön ja erän mukaan, hälytyksin vähäisestä saldosta." },
+    { "icon": "hr", "title": "Henkilöstö ja provisiot", "desc": "Aja palkat ja laske henkilöstön provisiot palveluista ja tuotemyynnistä." },
+    { "icon": "whatsapp", "title": "Kuitit WhatsAppissa", "desc": "Lähetä kuitit ja jatkoviestit asiakkaille WhatsAppissa yhdellä napautuksella." },
+    { "icon": "chart", "title": "Palveluraportit", "desc": "Näe suosituimmat palvelut, kiireisimmät tunnit ja myynti työntekijöittäin tai toimipisteittäin." }
+  ],
+  "sections": [
+    { "eyebrow": "Sujuvampi vastaanotto", "title": "Laskutus, jota asiakkaasi arvostavat", "body": "Lisää laskuun palvelut ja mahdolliset myyntituotteet, lisää alennus tai paketti, ota maksu vastaan ja jaa siisti kuitti WhatsAppissa ennen kuin asiakas on noussut tuolista. Asiakkaan tiedot ja käyntihistoria ovat samalla näytöllä, joten tiimi voi tervehtiä vakioasiakkaita nimeltä ja suositella oikeaa jatkokäsittelyä.", "items": ["Palvelut ja tuotteet samassa laskussa", "Kuitit jaettuna WhatsAppissa heti", "Asiakkaan yhteystiedot ja käyntihistoria käden ulottuvilla"] },
+    { "eyebrow": "Varasto ja henkilöstö kunnossa", "title": "Tuotteet seurattuina, henkilöstölle oikea palkka", "body": "Työtuotteita katoaa, jos kukaan ei seuraa. Paper & Pen seuraa myynti- ja ammattituotteita yksikön ja erän mukaan, varoittaa vähäisestä saldosta ja yhdistää käytön myyntiin. Aja tiimisi palkat ja anna järjestelmän laskea provisiot heidän myymistään palveluista ja tuotteista. Tehty Omanissa valmiilla OMR-, AED- ja SAR-tuella ja 5 %:n ALV:llä, ja valmis USD-, EUR- tai minkä tahansa markkinan ja verokannan käyttöön.", "items": ["Myynti- ja työtuotteiden varasto hälytyksin", "Palkat ja automaattiset provisiot", "Mikä tahansa valuutta ja verokanta, valmis ALV:lle"] }
+  ],
+  "faqs": [
+    { "q": "Voinko laskuttaa palvelut ja tuotteet yhdessä?", "a": "Kyllä. Lisää yhteen laskuun mikä tahansa yhdistelmä palveluja ja myyntituotteita, käytä alennuksia tai paketteja, ota maksu vastaan ja jaa kuitti heti." },
+    { "q": "Voinko laskea henkilöstön provisiot?", "a": "Kyllä. HR ja palkat -moduuli laskee provisiot jokaisen työntekijän myymistä palveluista ja tuotteista ja ajaa heidän palkkansa." },
+    { "q": "Säilyykö asiakashistoria?", "a": "Kyllä. Tallenna yhteystiedot ja aiemmat käynnit, niin tiimisi tunnistaa vakioasiakkaat ja voi suositella oikeaa jatkopalvelua." },
+    { "q": "Voinko seurata tuotevarastoa?", "a": "Kyllä. Seuraa myynti- ja työtuotteita yksikön ja erän mukaan, hälytyksin vähäisestä saldosta, Varastonhallinta-moduulin avulla." },
+    { "q": "Onko laskutus ilmaista kampaamolle?", "a": "Myynti ja laskutus, mukaan lukien kuitit ja asiakastiedot, on ilmaista ikuisesti. Lisää Varastonhallinta sekä HR ja palkat varastoa ja provisioita varten." }
+  ],
+  "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
+  "ctaTitle": "Pyöritä kampaamoa, älä paperitöitä",
+  "ctaSub": "Aloita ilmaiseksi palvelujen laskutuksella ja asiakastiedoilla ja lisää Varastonhallinta ja Palkat varastoa ja provisioita varten."
+}

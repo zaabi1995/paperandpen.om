@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Accounting at Bookkeeping",
+  "metaTitle": "Online Accounting Software · Awtomatikong Bookkeeping · Paper & Pen",
+  "metaDescription": "Double-entry accounting na kusang nagpo-post. Real-time na P&L at balance sheet, VAT return, bank reconciliation, kahit anong currency at tax. Sa buong mundo.",
+  "keywords": "accounting software, online bookkeeping, double entry, balance sheet, profit and loss, VAT return, bank reconciliation, general ledger, accounting software Pilipinas",
+  "heroEyebrow": "Add-on na module",
+  "heroTitle": "Librong <em class=\"text-copper-400 not-italic\">kusang nagbabalanse</em>",
+  "heroSubtitle": "Kusang pumapasok sa maayos na double-entry ledger ang bawat invoice, bayad at purchase. Makita ang real-time na kita, balance sheet at posisyon sa tax nang hindi humahawak ng spreadsheet.",
+  "heroBullets": ["Awtomatikong double-entry, walang manual na journal", "Real-time na P&L at balance sheet", "VAT return sa isang click"],
+  "features": [
+    { "icon": "accounting", "title": "Awtomatikong bookkeeping", "desc": "Pumapasok sa ledger ang benta, bayad at gastos habang nangyayari ang mga ito." },
+    { "icon": "chart", "title": "Live na financials", "desc": "Profit and loss, balance sheet at cash flow, laging updated." },
+    { "icon": "calc", "title": "VAT at tax return", "desc": "Subaybayan ang input at output tax at gumawa ng return na handang i-file sa isang click." },
+    { "icon": "refresh", "title": "Bank reconciliation", "desc": "Itugma ang mga linya ng bangko sa invoice at bayad para malinis ang libro." },
+    { "icon": "doc", "title": "Kumpletong ledger", "desc": "Bumaba mula sa kahit anong ulat hanggang sa source document at journal entry." },
+    { "icon": "globe", "title": "Multi-currency", "desc": "Mag-post sa kahit anong currency na may awtomatikong gain at loss sa palitan." }
+  ],
+  "sections": [
+    { "eyebrow": "Hindi kailangan ng accountant", "title": "Accounting na tumatakbo sa likod", "body": "Hindi mo dapat kailangang maging bookkeeper para malaman kung kumikita ka. Dahil iisang ledger ang pinapakain ng invoicing, bayad at imbentaryo, tama ang accounts mo nang walang manual na journal. Buksan ang dashboard at naroon na ang kita, mga may utang sa iyo at ang tax.", "items": ["Double-entry na ginagawa para sa iyo", "Bawat ulat ay bumababa hanggang source", "Audit trail sa bawat entry"] },
+    { "eyebrow": "Para sa kahit anong tax regime", "title": "Tax at compliance, saanman ka nag-ooperate", "body": "I-configure ang mga tax rate at account para sa bansa mo, kasama ang naa-adjust na VAT para sa GCC, at susubaybayan ng Paper & Pen ang input at output tax para sa iyo. Gumawa ng return na handang i-file, i-reconcile ang bangko, at isara ang period nang may kumpiyansa, sa kahit anong currency.", "items": ["Naa-adjust na tax para sa kahit anong bansa", "VAT return na handang i-file", "Bank reconciliation at pagsasara ng period"] }
+  ],
+  "faqs": [
+    { "q": "Kailangan ko ba ng kaalaman sa accounting para gamitin ito?", "a": "Hindi. Kusang pumapasok ang mga entry mula sa invoice, bayad at purchase mo, kaya tama ang double-entry na libro mo nang hindi sumusulat ng journal." },
+    { "q": "Libre ba ang accounting?", "a": "Opsyonal na bayad na add-on ang Accounting. Libre habambuhay ang Benta at Invoicing, at bubuksan mo ang Accounting kapag gusto mo na ng kumpletong financial statement." },
+    { "q": "Kaya ba nitong gumawa ng VAT return?", "a": "Oo. Sinusubaybayan nito ang input at output tax (halimbawa ang naa-adjust na GCC VAT, o kahit anong rate na itakda mo) at gumagawa ng return na handang i-file." },
+    { "q": "Kaya ba nito ang maraming currency?", "a": "Oo. Mag-post at mag-ulat sa kahit anong currency, na may awtomatikong foreign-exchange gain at loss." },
+    { "q": "Puwede ko bang i-reconcile ang bangko ko?", "a": "Oo. Mag-import o itugma ang mga linya ng bangko sa invoice at bayad para laging reconciled ang ledger mo." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Magkaroon ng tumpak na libro, awtomatiko",
+  "ctaSub": "Magsimula nang libre sa invoicing at buksan ang Accounting para sa real-time na financial statement at tax return."
+}

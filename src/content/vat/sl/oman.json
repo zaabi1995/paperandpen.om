@@ -1,0 +1,159 @@
+{
+  "locale": "sl",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "title": "DDV v Omanu",
+  "metaTitle": "DDV v Omanu: stopnja, pragovi, računi · Paper & Pen",
+  "metaDescription": "Omanska 5 % stopnja DDV, prag za registracijo OMR 38,500 in dvanajst podatkov, ki jih mora vsebovati davčni račun, vsak z navedbo vira pri davčnem organu.",
+  "keywords": "ddv oman, stopnja ddv oman, prag za registracijo ddv oman, zahteve za davčni račun oman, e-računi fawtara, davčni organ oman",
+  "heroEyebrow": "Oman",
+  "heroTitle": "Izdajanje računov po pravilih <em class=\"text-copper-400 not-italic\">omanskega DDV</em>",
+  "heroSubtitle": "Stopnja, pragovi za registracijo, kaj mora prikazovati davčni račun in kakšno je stanje e-računov. Vsak podatek na tej strani je naveden z virom v besedilih, ki jih je objavil sam Oman Tax Authority.",
+  "heroBullets": [
+    "Splošna stopnja 5 %",
+    "Registracija od OMR 38,500",
+    "Fawtara napovedana, še ne v veljavi"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Splošna stopnja DDV",
+      "value": "5%",
+      "note": "36. člen zakona o DDV določa davek na uvoz in dobavo obdavčljivega blaga ali storitev v višini pet odstotkov davčne osnove.",
+      "source": 1
+    },
+    {
+      "label": "Prag za obvezno registracijo",
+      "value": "OMR 38,500",
+      "note": "Letne dobave v tej višini ali več zahtevajo registracijo. Zakon zneska ne določa sam, temveč ga prepušča odločitvi predsednika (Chairman's Decision).",
+      "source": 2
+    },
+    {
+      "label": "Prag za prostovoljno registracijo",
+      "value": "OMR 19,250",
+      "note": "Pod pragom za obvezno registracijo se lahko registrirate od te višine naprej.",
+      "source": 2
+    },
+    {
+      "label": "Jezik računa",
+      "value": "Arabščina",
+      "note": "Račun je mogoče izdati tudi v angleščini, če je na zahtevo na voljo arabski prevod.",
+      "source": 3
+    },
+    {
+      "label": "Zgornja meja za poenostavljeni račun",
+      "value": "OMR 500",
+      "note": "Za dobave pod to vrednostjo se lahko z odobritvijo davčnega organa uporabi poenostavljeni račun.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "145. člen izvršilnih predpisov navaja, kaj mora prikazovati davčni račun. Člen seznam uvede z besedami \"zlasti\", zato ga obravnavajte kot minimum in ne kot popoln nabor.",
+    "items": [
+      "Besedi \"davčni račun\"",
+      "Datum izdaje, datum dobave in datum plačila",
+      "Zaporedna številka računa",
+      "Polno ime, naslov in davčna številka dobavitelja",
+      "Polno ime, naslov in davčna številka kupca ali ustrezna številka v državi njegovega prebivališča",
+      "Opis dobavljenega blaga in storitev",
+      "Količina blaga",
+      "Datum morebitnega predplačila",
+      "Skupno plačilo brez davka",
+      "Uporabljena davčna stopnja",
+      "Morebitno znižanje cene ali odobreni popust ter morebitna državna subvencija, ki še ni vključena",
+      "Davčna osnova"
+    ],
+    "source": 3,
+    "caveat": "Davčni organ izvršilne predpise objavlja samo v arabščini. Ta seznam je zvesto branje uradnega arabskega besedila in ne uradni prevod, zato besedilo preverite pri davčnem svetovalcu, preden se nanj zanesete."
+  },
+  "einvoicing": {
+    "status": "Napovedano in postopno, še ne obvezno",
+    "body": "Omanski program e-računov se imenuje Fawtara. Davčni organ opisuje model s petimi koti, v katerem računi do njega pridejo prek pooblaščenega ponudnika storitev, in določa štiri faze: pilotno fazo, razširitev, vključitev manjših podjetij in polno uvedbo. Organ datumov faz ni objavil v angleščini, datumi, ki krožijo v medijih, pa na njegovih straneh niso navedeni. Vsak konkreten rok za Fawtara, ki ga preberete drugje, obravnavajte kot nepotrjen, dokler ga davčni organ ne objavi.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Kako ravnati pravilno",
+      "title": "Kje se podjetja v Omanu najpogosteje spotaknejo",
+      "body": "Tri stvari povzročijo večino težav z računi z DDV. Prva je davčna številka kupca: če je ne navedete, kupec morda ne bo mogel uveljaviti vstopnega davka, zato vaš račun postane njegov strošek in vaša težava. Druga je zaporedje računov. 145. člen zahteva zaporedno številko, najhitreje pa ga prekinete, če izbrišete ali preštevilčite že poslani račun. Namesto tega ga popravite z dobropisom. Tretja je jezik: račun mora biti v arabščini, izdajanje samo v angleščini brez arabske različice, ki je na voljo na zahtevo, pa vas izpostavlja tveganju.",
+      "items": [
+        "Davčno številko kupca pridobite pred izdajo, ne pozneje",
+        "Izdanega računa nikoli ne brišite, izdajte dobropis",
+        "Arabska različica naj bo na voljo na zahtevo",
+        "Datum dobave beležite ločeno od datuma izdaje"
+      ]
+    },
+    {
+      "eyebrow": "Priprava",
+      "title": "Priprava na Fawtara brez ugibanja datumov",
+      "body": "Da bi bili pripravljeni, ne potrebujete objavljenega roka. Vsak sistem e-računov, ki je v regiji začel veljati, je zahteval enako osnovno disciplino: čiste, popolne podatke o kupcih, vključno z davčnimi številkami, neprekinjeno zaporedje računov, davčno obravnavo, zabeleženo po postavkah in ne po računih, ter dokumente, shranjene tako, da jih lahko na zahtevo pridobite. Podjetje, katerega evidence že izpolnjujejo te štiri pogoje, čaka kratka uvedba, ko bodo datumi znani. Podjetje, ki jih ne, bo obdobje obvestila porabilo za čiščenje podatkov.",
+      "items": [
+        "Popolni podatki o kupcih, vključno z davčnimi številkami",
+        "Eno neprekinjeno zaporedje računov za vsako serijo",
+        "Davčna obravnava, zabeležena po postavkah",
+        "Dokumenti, ki jih je mogoče pridobiti na zahtevo"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kakšna je stopnja DDV v Omanu?",
+      "a": "Pet odstotkov. 36. člen zakona o DDV, razglašenega s kraljevim dekretom 121/2020, določa davek na uvoz in dobavo obdavčljivega blaga ali storitev v višini pet odstotkov davčne osnove. Nekatere dobave so obdavčene po ničelni stopnji ali oproščene, kar ni isto: dobavitelj z ničelno stopnjo lahko še vedno uveljavlja vstopni davek, oproščeni pa ne."
+    },
+    {
+      "q": "Kdaj se moram v Omanu registrirati za DDV?",
+      "a": "Ko vaše letne dobave dosežejo ali naj bi dosegle OMR 38,500. Prostovoljno se lahko registrirate od OMR 19,250. Oba zneska izhajata iz odločitve predsednika o pragovih za registracijo in ne iz samega zakona o DDV, zato se lahko spremenita, ne da bi se spremenil zakon."
+    },
+    {
+      "q": "Ali so e-računi v Omanu že obvezni?",
+      "a": "Še ne. Davčni organ je napovedal Fawtara, postopni model e-računov s petimi koti, ki uporablja pooblaščene ponudnike storitev, in opisuje štiri faze uvedbe. Datumov faz na svojih straneh ni objavil v angleščini, zato tukaj datuma ne navajamo. Trenutno stanje preverite na straneh davčnega organa o e-računih."
+    },
+    {
+      "q": "Ali lahko v Omanu izdam račun v angleščini?",
+      "a": "V angleščini ga lahko izdate, vendar izvršilni predpisi zahtevajo, da je davčni račun v arabščini, dodatno pa dovoljujejo še drug jezik, če je na zahtevo na voljo arabski prevod. V praksi to pomeni, da uporabljate dvojezično predlogo in ne samo angleške."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Pravilni računi v Omanu, brezplačno",
+  "ctaSub": "Nastavite svojo davčno stopnjo, zaračunavajte v kateri koli valuti in iz istega zapisa pripravite račun v arabščini in angleščini.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, 36. člen",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Chairman's Decision o določitvi pragov za obvezno in prostovoljno registracijo",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Decision 53/2021, členi od 145 do 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Strani programa e-računov (Fawtara)",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

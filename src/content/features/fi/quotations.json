@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "quotations",
+  "order": 2,
+  "title": "Tarjoukset",
+  "metaTitle": "Ilmainen tarjous- ja kustannusarvio-ohjelma · Paper & Pen",
+  "metaDescription": "Lähetä ammattimaisia tarjouksia ja kustannusarvioita millä tahansa valuutalla, ilmaiseksi ikuisesti. Seuraa avauksia, muuta laskuksi yhdellä klikkauksella, e-allekirjoitus.",
+  "keywords": "tarjousohjelma, ilmainen tarjouspohja, kustannusarvio, myyntitarjous, tarjouksen tekeminen, tarjouksesta lasku, sähköinen allekirjoitus",
+  "heroEyebrow": "Ilmainen ikuisesti",
+  "heroTitle": "Tarjoukset, jotka <em class=\"text-copper-400 not-italic\">johtavat kauppaan</em>",
+  "heroSubtitle": "Laadi siisti, brändätty tarjous minuuteissa, lähetä se hyväksyttäväksi ja muuta hyväksytyt tarjoukset laskuiksi yhdellä klikkauksella. Mikä tahansa valuutta, mikä tahansa kieli.",
+  "heroBullets": ["Tarjouksesta lasku hetkessä", "Hyväksyntä ja e-allekirjoitus verkossa", "Ilmainen ikuisesti"],
+  "features": [
+    { "icon": "quote", "title": "Ammattimaiset tarjoukset", "desc": "Brändätyt, eritellyt tarjoukset logollasi, ehdoillasi ja voimassaoloajoilla." },
+    { "icon": "check", "title": "Hyväksyntä verkossa", "desc": "Asiakkaat hyväksyvät ja allekirjoittavat sähköisesti turvallisen linkin kautta ilman tulostamista tai skannaamista." },
+    { "icon": "refresh", "title": "Tarjouksesta laskuksi", "desc": "Muuta hyväksytty tarjous laskuksi yhdellä klikkauksella, summat siirtyvät mukana." },
+    { "icon": "chart", "title": "Myyntiputki näkyvissä", "desc": "Näe yhdellä silmäyksellä, mitkä tarjoukset on lähetetty, avattu, hyväksytty tai mitkä ovat vanhentuneet." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta ja vero", "desc": "Tee tarjous millä tahansa valuutalla, ja oikea verokanta sisältyy summiin." },
+    { "icon": "doc", "title": "Uudelleenkäytettävät pohjat", "desc": "Tallenna usein käytetyt rivit ja ehdot, niin seuraava tarjous syntyy sekunneissa." }
+  ],
+  "sections": [
+    { "eyebrow": "Nopeampi kyllä", "title": "Tee hyväksymisestä asiakkaalle vaivatonta", "body": "Tarjous, joka on helppo lukea ja helppo hyväksyä, voittaa useammin. Paper & Pen lähettää siistin PDF:n ja turvallisen linkin, jonka kautta asiakas voi tarkastella, hyväksyä ja jopa allekirjoittaa sähköisesti puhelimellaan. Saat ilmoituksen heti, kun hän tekee sen.", "items": ["Toimitus sähköpostilla ja WhatsAppilla", "Mobiiliystävällinen hyväksyntä ja e-allekirjoitus", "Välitön ilmoitus hyväksynnästä"] },
+    { "eyebrow": "Ei uudelleennäppäilyä", "title": "Tarjouksesta maksuun kirjoittamatta mitään uudelleen", "body": "Kun tarjous hyväksytään, muuta se suoraan laskuksi tai myyntitilaukseksi. Rivit, alennukset, valuutta ja vero siirtyvät kaikki mukana, joten mitään ei katoa eikä mitään näppäillä väärin. Kauppa siirtyy sujuvasti kirjanpitoosi.", "items": ["Muunnos yhdellä klikkauksella", "Alennukset ja vero säilyvät", "Kirjausketju tarjouksesta maksuun"] }
+  ],
+  "faqs": [
+    { "q": "Onko tarjoustyökalu ilmainen?", "a": "Kyllä. Tarjousten luominen ja lähettäminen kuuluu ikuisesti ilmaiseen Myynti ja laskutus -moduuliin, eikä tarjousten tai asiakkaiden määrää ole rajoitettu." },
+    { "q": "Voivatko asiakkaat hyväksyä tarjouksen verkossa?", "a": "Kyllä. Lähetä turvallinen linkki, jonka kautta asiakas voi tarkastella, hyväksyä ja allekirjoittaa sähköisesti millä tahansa laitteella. Saat ilmoituksen heti." },
+    { "q": "Miten muutan tarjouksen laskuksi?", "a": "Avaa hyväksytty tarjous ja klikkaa muunna. Lasku luodaan, ja kaikki rivit, valuutta ja vero siirtyvät mukana." },
+    { "q": "Voinko tehdä tarjouksia eri valuutoissa?", "a": "Kyllä. Tee tarjous OMR-, AED-, SAR-, USD- tai EUR-valuutassa tai millä tahansa muulla valuutalla oikeilla desimaaleilla ja verolla." },
+    { "q": "Voinko käyttää tarjouspohjia uudelleen?", "a": "Kyllä. Tallenna usein käytetyt rivit, ehdot ja huomautukset pohjiksi, niin toistuvat tarjoukset syntyvät sekunneissa." }
+  ],
+  "related": ["/features/invoicing", "/features/sales-crm", "/invoicing/quotations", "/invoicing/estimates", "/pricing"],
+  "ctaTitle": "Lähetä voittava tarjous tänään",
+  "ctaSub": "Aloita ilmaiseksi ja laadi ensimmäinen tarjouksesi minuuteissa. Muuta se laskuksi heti, kun se hyväksytään."
+}

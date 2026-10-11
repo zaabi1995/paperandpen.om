@@ -1,0 +1,152 @@
+{
+  "locale": "et",
+  "slug": "uae",
+  "order": 2,
+  "country": "Araabia Ühendemiraadid",
+  "title": "Käibemaks Araabia Ühendemiraatides",
+  "metaTitle": "Käibemaks AÜE-s: määr, piirmäärad, e-arved · Paper & Pen",
+  "metaDescription": "AÜE 5% käibemaksumäär, AED 375,000 piirmäär, artikli 59 arve rekvisiidid ja kinnitatud e-arvelduse ajakava, igaüks viitega allikale.",
+  "keywords": "käibemaks aüe, araabia ühendemiraatide käibemaks, aüe käibemaksumäär, aüe registreerimise piirmäär, aüe maksuarve nõuded, aüe e-arve 2027, federal tax authority",
+  "heroEyebrow": "Araabia Ühendemiraadid",
+  "heroTitle": "Arveldamine <em class=\"text-copper-400 not-italic\">AÜE käibemaksu</em> reeglite järgi",
+  "heroSubtitle": "Määr, piirmäärad, kaksteist rekvisiiti, mida artikkel 59 maksuarvelt nõuab, ja e-arvelduse kuupäevad, mille rahandusministeerium on tegelikult avaldanud.",
+  "heroBullets": [
+    "5% standardmäär",
+    "Registreerimine alates AED 375,000",
+    "E-arveldus etapiviisiliselt alates 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Käibemaksu standardmäär",
+      "value": "5%",
+      "note": "Föderaalse dekreetseaduse 8/2017 artikkel 3 kehtestab igale käibele või impordile 5% standardmäära. Kehtib alates 1. jaanuarist 2018.",
+      "source": 1
+    },
+    {
+      "label": "Kohustusliku registreerimise piirmäär",
+      "value": "AED 375,000",
+      "note": "Rakendusmääruse artikkel 7(1).",
+      "source": 2
+    },
+    {
+      "label": "Vabatahtliku registreerimise piirmäär",
+      "value": "AED 187,500",
+      "note": "Rakendusmääruse artikkel 8(1).",
+      "source": 2
+    },
+    {
+      "label": "Lihtsustatud arve ülempiir",
+      "value": "AED 10,000",
+      "note": "Lihtsustatud maksuarve on lubatud, kui saaja ei ole registreeritud või on registreeritud ja tasu ei ületa seda summat.",
+      "source": 2
+    },
+    {
+      "label": "Arve valuuta",
+      "value": "AED",
+      "note": "Maksusummad näidatakse dirhamites ning kui arve on muus valuutas, peab kasutatud vahetuskurss olema arvel näha.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Rakendusmääruse artikkel 59(1) loetleb, mida täielik maksuarve peab sisaldama.",
+    "items": [
+      "Sõnad \"Tax Invoice\" (maksuarve), selgelt nähtaval",
+      "Tarnija nimi, aadress ja maksukohustuslase registreerimisnumber (TRN)",
+      "Saaja nimi, aadress ja TRN, kui saaja on registreeritud",
+      "Järjestikune või unikaalne number, mis võimaldab arve tuvastada ja järjestada",
+      "Väljastamise kuupäev",
+      "Käibe kuupäev, kui see erineb väljastamise kuupäevast",
+      "Kaupade või teenuste kirjeldus",
+      "Iga kauba kohta: ühikuhind, kogus või maht, maksumäär ja tasumisele kuuluv summa AED-des",
+      "Pakutud allahindluse summa",
+      "Tasumisele kuuluv brutosumma AED-des",
+      "Arvestatud maksusumma AED-des koos vahetuskursiga, kui summa on teisendatud muust valuutast",
+      "Pöördmaksustatud käibe korral märge, et maksu peab arvestama saaja, ja viide aluseks olevale sättele"
+    ],
+    "source": 2,
+    "caveat": "See on Federal Tax Authority konsolideeritud väljaanne rakendusmäärusest seisuga 4. oktoober 2024. Kommentaatorid viitavad hilisemale muudatusele; me ei ole seda FTA avaldatud tekstist leidnud, seega kontrolli kehtivat sõnastust enne sellele tuginemist FTA-lt."
+  },
+  "einvoicing": {
+    "status": "Kohustuslik ja etapiviisiline, pilootprojekt avatud",
+    "body": "AÜE e-arvelduse süsteem on detsentraliseeritud viienurgaline mudel, kus arved liiguvad akrediteeritud teenusepakkujate kaudu. Rahandusministeeriumi enda juhised määravad ajakava: pilootprojekt ja vabatahtlik kasutuselevõtt alates 1. juulist 2026; ettevõtted, mille tulu on AED 50 miljonit või rohkem, juurutavad alates 1. jaanuarist 2027; sellest piirist väiksemad ettevõtted alates 1. juulist 2027; riigiasutused alates 1. oktoobrist 2027. Ministeerium pikendas akrediteeritud teenusepakkuja määramise esimest tähtaega 31. juulist 2026 kuni 30. oktoobrini 2026, jättes jaanuari 2027 käivituse muutmata, nii et avaldatud juhiste PDF ja ministeeriumi pressiteade lähevad selle ühe kuupäeva osas lahku ning pressiteade on hilisem sõna.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Tee see õigesti",
+      "title": "Millega artikkel 59 inimesi vahele võtab",
+      "body": "Rea kaupa nõue on see, mille enamik arvemalle läbi kukub. Artikkel 59(1)(h) nõuab iga kauba või teenuse kohta ühikuhinda, kogust, maksumäära ja tasumisele kuuluvat summat, mis tähendab, et üks koondatud maksusumma arve lõpus ei piisa, kui ridadel on erinev maksukäsitlus. Teine on saaja TRN, mida nõutakse alati, kui saaja on registreeritud, ja kolmas on vahetuskurss: arvelda dollarites ja pead siiski näitama maksu dirhamites ning kasutatud kurssi.",
+      "items": [
+        "Maksumäär ja summa iga rea kohta, mitte ainult kokku",
+        "Saaja TRN alati, kui ta on registreeritud",
+        "Vahetuskurss näidatud igal mitte-AED arvel",
+        "Pöördmaksustamise sõnastus, kus see kehtib"
+      ]
+    },
+    {
+      "eyebrow": "Ettevalmistus",
+      "title": "Mida 2027. aasta kuupäevad sinult tegelikult nõuavad",
+      "body": "Kohustus ei ole osta logoga tarkvara, vaid suuta väljastada struktureeritud arve akrediteeritud teenusepakkuja kaudu kuupäeval, mis kehtib sinu tuluklassile. Arvuta tagasi oma tuluklassi juurutuskuupäevast, mitte pilootprojektist: teenusepakkuja määramise tähtaeg saabub kuid enne käivitust ja just määramise, mitte käivituse jätab enamik ettevõtteid vahele. Seni on vajalikud andmed samad, mida artikkel 59 juba nõuab, mis on hea põhjus parandada arvete kvaliteeti kohe, mitte ülemineku ajal.",
+      "items": [
+        "Tea, millisesse tuluklassi kuulud",
+        "Märgi kalendrisse teenusepakkuja määramine, mitte ainult käivitus",
+        "Korrasta klientide TRN-id enne tähtaega, mitte selle ajal",
+        "Hoia maksuandmed rea tasemel juba täna"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Milline on käibemaksumäär Araabia Ühendemiraatides?",
+      "a": "Viis protsenti. Föderaalse dekreetseaduse 8/2017 artikkel 3 kehtestab igale maksustatavale käibele või impordile 5% standardmäära, kehtib alates 1. jaanuarist 2018. Teatud käibed on nullmääraga või maksuvabad ja vahe on oluline: nullmääraga käibe tarnija saab sisendkäibemaksu siiski tagasi, maksuvaba käibe tarnija mitte."
+    },
+    {
+      "q": "Millal muutub e-arveldus AÜE-s kohustuslikuks?",
+      "a": "See sõltub sinu tulust. Rahandusministeeriumi avaldatud juhiste järgi juurutavad ettevõtted, mille tulu on AED 50 miljonit või rohkem, alates 1. jaanuarist 2027, sellest väiksemad alates 1. juulist 2027 ja riigiasutused alates 1. oktoobrist 2027. Pilootprojekt ja vabatahtlik kasutuselevõtt algasid 1. juulil 2026. Kontrolli ministeeriumi lehti enne mis tahes kuupäevale tuginemist, sest üht tähtaega on juba muudetud."
+    },
+    {
+      "q": "Millal võin AÜE-s väljastada lihtsustatud maksuarve?",
+      "a": "Kui saaja ei ole käibemaksukohustuslasena registreeritud või on registreeritud ja tasu ei ületa AED 10,000. Lihtsustatud arvel peavad siiski olema sõnad \"Tax Invoice\" (maksuarve), sinu nimi, aadress ja TRN, väljastamise kuupäev, tarnitu kirjeldus ning kogutasu ja maksusumma dirhamites."
+    },
+    {
+      "q": "Kas AÜE arvel on vaja kliendi TRN-i?",
+      "a": "Jah, alati kui klient on käibemaksukohustuslasena registreeritud. Artikkel 59(1)(c) nõuab sel juhul saaja nime, aadressi ja maksukohustuslase registreerimisnumbrit. Ilma selleta võib su kliendil olla raske sisendkäibemaksu tagasi saada, mis tuleb tavaliselt sinu juurde tagasi palvena arve uuesti väljastada."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Arvelda AÜE-s õigesti, tasuta",
+  "ctaSub": "Maks rea tasemel, mis tahes valuuta koos kursiga dokumendil ning araabia- ja ingliskeelne arve ühest kirjest.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, artikkel 3 (konsolideeritud, koos muudatustega)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, artiklid 7, 8 ja 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1 ja ministeeriumi pressiteade muudatuse kohta",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

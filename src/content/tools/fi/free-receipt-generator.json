@@ -1,0 +1,37 @@
+{
+  "locale": "fi",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Ilmainen kuittigeneraattori",
+  "metaTitle": "Ilmainen kuittigeneraattori · Tee kuitti verkossa · Paper & Pen",
+  "metaDescription": "Tee maksukuitteja verkossa ilmaiseksi. Lisää summa, valuutta ja maksutapa ja lataa tulostusvalmis PDF sekunneissa. Ei rekisteröitymistä.",
+  "keywords": "ilmainen kuittigeneraattori, maksukuitti, tee kuitti verkossa, ilmainen kuittipohja, kuitti pdf, käteiskuitti, kuittipohja",
+  "heroEyebrow": "Ilmainen · Ei rekisteröitymistä",
+  "heroTitle": "Ilmainen kuittigeneraattori",
+  "heroSubtitle": "Anna jokaiselle asiakkaalle siisti maksukuitti sekunneissa. Syötä summa, valuutta ja maksutapa ja lataa tulostusvalmis PDF. Tiliä ei tarvita.",
+  "howToSteps": [
+    { "name": "Lisää tietosi", "text": "Kirjoita yrityksesi nimi, maksaja, kuitin numero ja päivämäärä." },
+    { "name": "Syötä maksu", "text": "Lisää, mistä maksu suoritettiin, summa ja maksutapa (käteinen, kortti, tilisiirto)." },
+    { "name": "Aseta valuutta ja vero", "text": "Valitse mikä tahansa valuutta ja näytä tarvittaessa ALV:n tai myyntiveron osuus." },
+    { "name": "Lataa PDF", "text": "Klikkaa lataa ja tallenna tulostusvalmis kuitti, tai rekisteröidy luodaksesi kuitit automaattisesti laskujesi perusteella." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Heti ja ilmaiseksi", "desc": "Ei rekisteröitymistä, ei vesileimaa, ei rajoituksia. Anna niin monta kuittia kuin tarvitset." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Kuitit OMR-, AED-, SAR-, USD-, EUR- ja GBP-valuutassa ja muissa, oikeilla desimaaleilla." },
+    { "icon": "card", "title": "Mikä tahansa maksutapa", "desc": "Kirjaa käteinen, kortti, tilisiirto tai verkkomaksu, selkeästi kuitissa näkyvänä." }
+  ],
+  "sections": [
+    { "title": "Miksi käyttää Paper & Penin kuittigeneraattoria?", "body": "Kuitti on asiakkaasi todiste maksusta ja sinun tositteesi siitä, että lasku on maksettu. Meidän generaattorimme on ilmainen, toimii millä tahansa valuutalla ja tuottaa siistin PDF:n, jonka voit ojentaa tai lähettää sähköpostilla heti. Ei taulukoita, ei rekisteröitymistä." },
+    { "eyebrow": "Generaattoria pidemmälle", "title": "Kuitit, jotka liittyvät laskuihisi", "body": "Erillinen kuitti riittää kertaluonteiseen tarpeeseen, mutta kasvava yritys tarvitsee laskuihin sidottuja kuitteja ja ajantasaisen pääkirjan. Täydessä Paper & Pen ERP:ssä maksun kirjaaminen luo kuitin ja päivittää samalla laskun saldon ja kirjanpitosi.", "items": ["Kuitti luodaan automaattisesti, kun lasku maksetaan", "Seuraa täysiä, osittaisia ja jaettuja maksuja", "Lähetä kuitit heti WhatsAppilla tai sähköpostilla"] }
+  ],
+  "faqs": [
+    { "q": "Mikä ero on laskulla ja kuitilla?", "a": "Lasku pyytää maksua ennen kuin se suoritetaan. Kuitti vahvistaa jälkikäteen, että maksu on vastaanotettu. Voit tehdä molemmat täällä ilmaiseksi." },
+    { "q": "Onko kuittigeneraattori todella ilmainen?", "a": "Kyllä. Se on täysin ilmainen, ilman rekisteröitymistä, ilman vesileimaa ja ilman rajoitusta tekemiesi kuittien määrälle." },
+    { "q": "Voinko näyttää ALV:n tai veron kuitissa?", "a": "Kyllä. Aseta mikä tahansa verokanta, niin kuitti näyttää maksetun summan vero-osuuden siellä, missä tarvitset sitä." },
+    { "q": "Voiko kuitit liittää laskuihini?", "a": "Lataa erilliset kuitit ilmaiseksi, tai luo ilmainen Paper & Pen -työtila, jossa jokainen laskulle kirjattu maksu luo siihen liitetyn kuitin automaattisesti." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Todiste maksusta, hoidettu",
+  "ctaSub": "Luo kuitit automaattisesti, seuraa jokaista maksua ja pidä pääkirjasi ajan tasalla ilmaisella Paper & Pen -työtilalla."
+}

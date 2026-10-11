@@ -1,0 +1,152 @@
+{
+  "locale": "fi",
+  "slug": "uae",
+  "order": 2,
+  "country": "Arabiemiirikunnat",
+  "title": "ALV Arabiemiirikunnissa",
+  "metaTitle": "ALV Arabiemiirikunnissa: kanta, rajat ja verkkolaskutus · Paper & Pen",
+  "metaDescription": "Arabiemiirikuntien 5 %:n ALV-kanta, AED 375,000:n raja, 59 artiklan laskun sisältö ja vahvistettu verkkolaskutuksen aikataulu, kaikki lähteineen.",
+  "keywords": "alv arabiemiirikunnat, arabiemiirikuntien alv-kanta, uae alv rekisteröintiraja, uae verolaskun vaatimukset, uae verkkolaskutus 2027, federal tax authority",
+  "heroEyebrow": "Arabiemiirikunnat",
+  "heroTitle": "Laskutus <em class=\"text-copper-400 not-italic\">Arabiemiirikuntien ALV-sääntöjen</em> mukaan",
+  "heroSubtitle": "Verokanta, rajat, kaksitoista tietoa, jotka 59 artikla vaatii verolaskulta, ja verkkolaskutuksen päivämäärät, jotka valtiovarainministeriö on todella julkaissut.",
+  "heroBullets": [
+    "Yleinen verokanta 5 %",
+    "Rekisteröinti AED 375,000:sta",
+    "Verkkolaskutus vaiheittain vuodesta 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Yleinen ALV-kanta",
+      "value": "5%",
+      "note": "Liittovaltion asetuslain 8/2017 3 artikla määrää 5 %:n yleisen verokannan kaikelle myynnille ja tuonnille. Voimassa 1. tammikuuta 2018 alkaen.",
+      "source": 1
+    },
+    {
+      "label": "Pakollisen rekisteröinnin raja",
+      "value": "AED 375,000",
+      "note": "Täytäntöönpanoasetuksen (Executive Regulation) 7 artiklan 1 kohta.",
+      "source": 2
+    },
+    {
+      "label": "Vapaaehtoisen rekisteröinnin raja",
+      "value": "AED 187,500",
+      "note": "Täytäntöönpanoasetuksen 8 artiklan 1 kohta.",
+      "source": 2
+    },
+    {
+      "label": "Yksinkertaistetun laskun yläraja",
+      "value": "AED 10,000",
+      "note": "Yksinkertaistettu verolasku on sallittu, jos ostaja ei ole rekisteröitynyt tai on rekisteröitynyt ja vastike on enintään tämän summan suuruinen.",
+      "source": 2
+    },
+    {
+      "label": "Laskun valuutta",
+      "value": "AED",
+      "note": "Veron määrät esitetään dirhameina, ja jos lasku on muussa valuutassa, sovellettu vaihtokurssi on näytettävä.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Täytäntöönpanoasetuksen 59 artiklan 1 kohta luettelee, mitä täydessä verolaskussa on oltava.",
+    "items": [
+      "Sanat \"Tax Invoice\" (verolasku) selvästi näkyvissä",
+      "Myyjän nimi, osoite ja verorekisterinumero (TRN)",
+      "Ostajan nimi, osoite ja TRN, jos ostaja on rekisteröitynyt",
+      "Juokseva tai yksilöllinen numero, jonka avulla lasku voidaan tunnistaa ja järjestää",
+      "Laskun päivämäärä",
+      "Toimituspäivä, jos se eroaa laskun päivämäärästä",
+      "Kuvaus tavaroista tai palveluista",
+      "Jokaiselle riville: yksikköhinta, määrä tai volyymi, verokanta ja maksettava summa AED:nä",
+      "Mahdollisen alennuksen määrä",
+      "Maksettava bruttosumma AED:nä",
+      "Veloitettu vero AED:nä sekä vaihtokurssi, jos summa on muunnettu muusta valuutasta",
+      "Käännetyn verovelvollisuuden myynnissä maininta siitä, että ostajan on tilitettävä vero, sekä sovellettu säännös"
+    ],
+    "source": 2,
+    "caveat": "Tämä on Federal Tax Authorityn 4. lokakuuta 2024 päivätty konsolidoitu julkaisu täytäntöönpanoasetuksesta. Kommentaattorit viittaavat myöhempään muutokseen, mutta emme ole löytäneet sitä FTA:n julkaisemasta tekstistä, joten tarkista nykyinen sanamuoto FTA:lta ennen kuin luotat siihen."
+  },
+  "einvoicing": {
+    "status": "Pakollinen ja vaiheistettu, pilotti avoinna",
+    "body": "Arabiemiirikuntien verkkolaskutusjärjestelmä on hajautettu viiden osapuolen malli, jossa laskut kulkevat akkreditoitujen palveluntarjoajien (Accredited Service Providers) kautta. Valtiovarainministeriön omat ohjeet määrittävät aikataulun: pilottiohjelma ja vapaaehtoinen käyttöönotto 1. heinäkuuta 2026 alkaen; yritykset, joiden liikevaihto on AED 50 miljoonaa tai enemmän, ottavat järjestelmän käyttöön 1. tammikuuta 2027 alkaen; tätä pienemmät yritykset 1. heinäkuuta 2027 alkaen; valtion yksiköt 1. lokakuuta 2027 alkaen. Ministeriö siirsi akkreditoidun palveluntarjoajan nimeämisen ensimmäistä määräaikaa 31. heinäkuuta 2026:sta 30. lokakuuta 2026:een ja jätti tammikuun 2027 käyttöönoton ennalleen, joten julkaistu ohje-PDF ja ministeriön tiedote ovat tästä yhdestä päivämäärästä eri mieltä, ja tiedote on myöhempi sana.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Oikein tekeminen",
+      "title": "Missä 59 artikla yllättää",
+      "body": "Rivikohtainen vaatimus on se, johon useimmat laskupohjat kaatuvat. 59 artiklan 1 kohdan h alakohta edellyttää yksikköhintaa, määrää, verokantaa ja maksettavaa summaa jokaiselle tavaralle tai palvelulle, joten yksi yhdistetty verosumma laskun alareunassa ei riitä, kun riveillä on eri verokohtelu. Toinen on ostajan TRN, jota vaaditaan aina, kun ostaja on rekisteröitynyt, ja kolmas on vaihtokurssi: laskutat dollareissa, sinun on silti näytettävä vero dirhameina ja käyttämäsi kurssi.",
+      "items": [
+        "Verokanta ja summa riveittäin, ei vain kokonaissumma",
+        "Ostajan TRN aina, kun hän on rekisteröitynyt",
+        "Vaihtokurssi näkyvissä jokaisessa muussa kuin AED-laskussa",
+        "Käännetyn verovelvollisuuden maininta, kun sitä sovelletaan"
+      ]
+    },
+    {
+      "eyebrow": "Valmistautuminen",
+      "title": "Mitä vuoden 2027 päivämäärät todella vaativat sinulta",
+      "body": "Velvoite ei ole ostaa ohjelmistoa, jossa on logo, vaan pystyä antamaan rakenteinen lasku akkreditoidun palveluntarjoajan kautta siitä päivästä alkaen, joka koskee liikevaihtoluokkaasi. Laske taaksepäin oman luokkasi käyttöönottopäivästä äläkä pilotista: palveluntarjoajan nimeämisen määräaika on kuukausia ennen käyttöönottoa, ja juuri nimeäminen, ei käyttöönotto, jää useimmilta yrityksiltä väliin. Sillä välin tarvitsemasi tiedot ovat samoja, joita 59 artikla jo vaatii, mikä on hyvä syy korjata laskujen laatu nyt eikä siirtymän aikana.",
+      "items": [
+        "Tiedä, mihin liikevaihtoluokkaan kuulut",
+        "Merkitse kalenteriin palveluntarjoajan nimeäminen, ei vain käyttöönotto",
+        "Siivoa asiakkaiden TRN:t ennen määräaikaa, ei sen aikana",
+        "Pidä rivikohtaiset verotiedot tästä päivästä alkaen"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mikä on ALV-kanta Arabiemiirikunnissa?",
+      "a": "Viisi prosenttia. Liittovaltion asetuslain 8/2017 3 artikla määrää 5 %:n yleisen verokannan kaikelle verolliselle myynnille ja tuonnille, voimassa 1. tammikuuta 2018 alkaen. Tietyt myynnit ovat nollaverokannan alaisia tai verosta vapautettuja, ja erolla on merkitystä: nollaverokannalla myyvä voi silti vähentää ostoveron, verosta vapautettu ei voi."
+    },
+    {
+      "q": "Milloin verkkolaskutus on pakollista Arabiemiirikunnissa?",
+      "a": "Se riippuu liikevaihdostasi. Valtiovarainministeriön julkaisemien ohjeiden mukaan yritykset, joiden liikevaihto on AED 50 miljoonaa tai enemmän, ottavat järjestelmän käyttöön 1. tammikuuta 2027 alkaen, tätä pienemmät 1. heinäkuuta 2027 alkaen ja valtion yksiköt 1. lokakuuta 2027 alkaen. Pilotti ja vapaaehtoinen käyttöönotto avautuivat 1. heinäkuuta 2026. Tarkista ministeriön sivut ennen kuin suunnittelet minkään päivämäärän varaan, koska se on jo muuttanut yhtä määräaikaa."
+    },
+    {
+      "q": "Milloin voin antaa yksinkertaistetun verolaskun Arabiemiirikunnissa?",
+      "a": "Kun ostaja ei ole rekisteröitynyt ALV-velvolliseksi tai on rekisteröitynyt ja vastike on enintään AED 10,000. Yksinkertaistetussakin laskussa on oltava sanat \"Tax Invoice\", nimesi, osoitteesi ja TRN:si, laskun päivämäärä, kuvaus myydystä sekä kokonaisvastike ja veron määrä dirhameina."
+    },
+    {
+      "q": "Tarvitsenko asiakkaan TRN:n Arabiemiirikuntien laskuun?",
+      "a": "Kyllä, aina kun asiakas on rekisteröitynyt ALV-velvolliseksi. 59 artiklan 1 kohdan c alakohta edellyttää tällöin ostajan nimeä, osoitetta ja verorekisterinumeroa. Ilman sitä asiakkaasi voi joutua vaikeuksiin ostoveron vähentämisessä, mikä palaa yleensä sinulle pyyntönä antaa lasku uudelleen."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Laskuta oikein Arabiemiirikunnissa, ilmaiseksi",
+  "ctaSub": "Rivikohtainen vero, mikä tahansa valuutta kurssi asiakirjassa näkyvissä, sekä arabian- ja englanninkielinen lasku yhdestä tietueesta.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, 3 artikla (konsolidoitu, muutoksineen)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, artiklat 7, 8 ja 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1 sekä ministeriön tiedote muutoksesta",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

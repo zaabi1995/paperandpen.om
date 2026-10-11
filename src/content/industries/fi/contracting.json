@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "contracting",
+  "order": 4,
+  "title": "Urakointi ja rakentaminen",
+  "metaTitle": "Laskutus ja projektilaskutus urakoitsijoille · Paper & Pen",
+  "metaDescription": "Ilmaiset tarjoukset sekä osalaskut, ostotilaukset, palkat ja projektien kustannuslaskenta urakoitsijoille ja rakentajille. Laskuta virstanpylväät ja hallitse kustannuksia.",
+  "keywords": "urakoitsijan ohjelmisto, rakennusalan laskutus, osalaskutus, projektin kustannuslaskenta, urakoitsijan erp, ostotilaukset, urakoitsijan palkanlaskenta, pidätysosuus",
+  "heroEyebrow": "Urakoitsijoille ja rakentajille",
+  "heroTitle": "Laskuta virstanpylväs, <em class=\"text-copper-400 not-italic\">hallitse työmaan kustannuksia</em>",
+  "heroSubtitle": "Tee projektista tarjous, laskuta se vaiheittain, seuraa materiaaleja ja työtä budjettia vasten ja saa maksusi ilman karhuamista. Paper & Pen kokoaa kustannusarviosi, kulusi ja rahasi yhteen paikkaan.",
+  "heroBullets": ["Ilmaiset kustannusarviot ja tarjoukset", "Osa- ja virstanpylväslaskut", "Materiaalit, työ ja kate projekteittain"],
+  "features": [
+    { "icon": "quote", "title": "Yksityiskohtaiset kustannusarviot", "desc": "Laadi eritellyt tarjoukset materiaaleineen ja työineen ja muuta ne projektiksi." },
+    { "icon": "invoice", "title": "Osalaskutus", "desc": "Laskuta virstanpylväittäin tai valmiusasteen mukaan, ja pidätysosuus hoituu siististi." },
+    { "icon": "truck", "title": "Ostotilaukset", "desc": "Tilaa materiaalit projektille ja kirjaa kustannus sinne, minne se kuuluu." },
+    { "icon": "hr", "title": "Työ ja palkat", "desc": "Aja palkat ja kohdista palkat oikealle projektille todellista projektikustannusta varten." },
+    { "icon": "calc", "title": "Projektikohtainen kustannuslaskenta", "desc": "Vertaa toteutunutta materiaali- ja työkustannusta kustannusarvioosi reaaliajassa." },
+    { "icon": "bell", "title": "Maksumuistutukset", "desc": "Automaattiset, kohteliaat muistutukset karhuavat erääntyneitä maksuja, ettei sinun tarvitse." }
+  ],
+  "sections": [
+    { "eyebrow": "Tarjouskilpailusta laskuun", "title": "Kustannusarviot, joista tulee projekti", "body": "Voita työ selkeällä, eritellyllä kustannusarviolla ja muuta hyväksytty versio suoraan projektiksi kirjoittamatta yhtäkään riviä uudelleen. Laskuta vaiheittain työn edetessä, virstanpylväittäin tai valmiusasteen mukaan, ja hoida pidätysosuus niin, että loppulaskelma täsmää. Asiakkaasi saa ammattimaisen maksuerälaskun, ja sinulle jää yksi siisti ketju tarjouksesta loppumaksuun.", "items": ["Eritellyt kustannusarviot materiaaleineen ja työineen", "Virstanpylväs- tai valmiusasteeseen perustuvat laskut", "Pidätysosuus seurattuna loppulaskelmaan asti"] },
+    { "eyebrow": "Tiedä, että projekti tuottaa", "title": "Kustannus ja kate projekti kerrallaan", "body": "Kiireinen työmaa voi kätkeä tappiollisen projektin. Paper & Pen kohdistaa jokaisen ostotilauksen, toimittajan laskun ja palkka-ajon projektille ja näyttää toteutuneen kustannuksen kustannusarviota vasten työn edetessä. Näet katteen ennen kuin projekti päättyy, et sen jälkeen. Tehty Omanissa valmiilla OMR-, AED- ja SAR-tuella ja 5 %:n ALV:llä, ja valmis USD-, EUR- tai minkä tahansa markkinan ja verokannan käyttöön.", "items": ["Materiaali- ja työkustannus projekteittain", "Toteutunut vs. arvioitu kate reaaliajassa", "Mikä tahansa valuutta ja verokanta, valmis ALV:lle"] }
+  ],
+  "faqs": [
+    { "q": "Voinko laskuttaa projektin vaiheittain?", "a": "Kyllä. Laskuta virstanpylväittäin tai valmiusasteen mukaan pidätysosuus huomioiden, jolloin jokainen maksuerä on siisti ja loppulaskelma täsmää." },
+    { "q": "Voinko seurata kustannuksia kustannusarviota vasten?", "a": "Kyllä. Ostotilaukset, toimittajien laskut ja palkat kohdistetaan projektille, ja Paper & Pen näyttää toteutuneen kustannuksen kustannusarviota vasten työn edetessä." },
+    { "q": "Hoitaako se pidätysosuuden?", "a": "Kyllä. Pidätysosuutta seurataan osalaskujen kautta ja se siirtyy loppulaskelmaan, joten mitään ei jää huomaamatta luovutuksessa." },
+    { "q": "Voinko ajaa palkat työmaan henkilöstölle?", "a": "Kyllä. HR ja palkat -moduuli hoitaa palkat ja voi kohdistaa työkustannukset oikealle projektille tarkkaa projektikohtaista kustannuslaskentaa varten." },
+    { "q": "Ovatko tarjoukset ilmaisia urakoitsijoille?", "a": "Myynti ja laskutus, mukaan lukien kustannusarviot ja osalaskut, on ilmaista ikuisesti. Lisää Varastonhallinta, HR ja palkat sekä Kirjanpito, niin hallitset projektien kustannuksia täysin." }
+  ],
+  "related": ["/invoicing/estimates", "/invoicing/purchase-orders", "/features/hr-payroll", "/invoicing/payment-reminders", "/pricing"],
+  "ctaTitle": "Rakenna, laskuta, saa maksu",
+  "ctaSub": "Aloita ilmaiseksi kustannusarvioilla ja osalaskuilla ja lisää Palkat ja Kirjanpito täyttä projektikohtaista kustannuslaskentaa varten."
+}

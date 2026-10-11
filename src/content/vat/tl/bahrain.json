@@ -1,0 +1,140 @@
+{
+  "locale": "tl",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrain",
+  "title": "VAT sa Bahrain",
+  "metaTitle": "VAT sa Bahrain: 10% na Rate at Patakaran sa Invoice · Paper & Pen",
+  "metaDescription": "Ang 10% VAT rate ng Bahrain, ang BHD 37,500 na threshold sa registration at ang hinihingi ng NBR sa VAT invoice, may sanggunian sa mismong gabay ng Bureau.",
+  "keywords": "vat bahrain, vat rate sa bahrain 10, threshold sa vat registration sa bahrain, requirements ng vat invoice sa bahrain, national bureau for revenue, negosyo sa manama",
+  "heroEyebrow": "Bahrain",
+  "heroTitle": "Pag-invoice sa ilalim ng mga patakaran sa <em class=\"text-copper-400 not-italic\">VAT ng Bahrain</em>",
+  "heroSubtitle": "Ang 10% na rate, ang mga threshold sa registration at ang hinihingi ng National Bureau for Revenue sa VAT invoice, kasama ang iisang field na natatangi sa konstruksyon.",
+  "heroBullets": [
+    "10% na standard rate",
+    "BHD 37,500 para magparehistro",
+    "Walang nailathalang mandato sa e-invoicing"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Standard na VAT rate",
+      "value": "10%",
+      "note": "Nagsimula ang VAT sa 5% noong 1 Enero 2019 at binago sa 10% simula 1 Enero 2022. Luma na ang mga paghahambing na isinulat bago ang 2022.",
+      "source": 1
+    },
+    {
+      "label": "Threshold sa mandatory na registration",
+      "value": "BHD 37,500",
+      "note": "Kailangang magparehistro kapag lumampas sa halagang ito.",
+      "source": 1
+    },
+    {
+      "label": "Threshold sa boluntaryong registration",
+      "value": "BHD 18,750",
+      "note": "Sinusukat sa nakaraang 12 buwan o sa susunod na 12 buwan, at puwedeng batay sa gastos na may VAT sa halip na sa supply.",
+      "source": 1
+    },
+    {
+      "label": "Deadline sa pag-isyu ng invoice",
+      "value": "Ika-15 ng susunod na buwan",
+      "note": "Dapat i-isyu ang invoice bago o sa ikalabinlima ng buwan pagkatapos ng buwan kung kailan na-trigger ang VAT due date.",
+      "source": 1
+    },
+    {
+      "label": "Currency sa invoice",
+      "value": "BHD",
+      "note": "Ipinapakita sa Bahraini dinar ang mga halaga, VAT at total, kasama ang exchange rate kapag foreign currency ang ginamit.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Inilalatag ng Seksyon 10.3 ng VAT General Guide ng NBR ang dapat ipakita ng buong VAT invoice. Bahagi lang ng mga ito ang kailangan ng simplified VAT invoice.",
+    "items": [
+      "Ang label na \"VAT invoice\"",
+      "Pangalan, address at VAT Account Number ng supplier",
+      "Pangalan at address ng customer",
+      "Sunud-sunod na numero ng VAT invoice",
+      "Ang petsa ng pag-isyu, at ang petsa ng supply o bayad kung iba",
+      "Paglalarawan ng supply na sapat na detalyado para malinaw ang VAT treatment",
+      "Para sa konstruksyon ng bagong gusali, ang numero ng building permit",
+      "Ang dami ng paninda na ibinigay",
+      "Ang halaga ng supply at ang unit price sa dinar, hindi kasama ang VAT",
+      "Anumang discount, at ang net na halaga sa dinar na hindi kasama ang VAT",
+      "Ang VAT rate at VAT na babayaran sa dinar, bawat linya kapag magkakaiba ang rate",
+      "Ang kabuuang halagang babayaran kasama ang VAT, sa dinar",
+      "Ang inilapat na exchange rate kapag foreign currency ang ginamit",
+      "Malinaw na pahayag kapag exempt ang transaksyon",
+      "Pagbanggit sa profit margin mechanism kapag ginamit ito"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Walang nailathalang mandato",
+    "body": "Wala kaming makitang e-invoicing scheme, yugto o petsa na inilathala ng National Bureau for Revenue. Ang VAT General Guide nito, na na-update noong Hulyo 2026, ay hindi man lang bumabanggit ng electronic invoicing, at walang e-invoicing guide sa listahan ng mga publikasyon nito. May mga komentaryo sa ibang lugar na naglalarawan ng business-to-business na sistemang dinidisenyo para sa posibleng paunti-unting paglulunsad, pero walang sinusuportahang petsa sa mismong site ng Bureau, kaya wala kaming inilalathalang petsa. Kung nagpaplano ka ng pagbabago sa sistema, ibatay ito sa mga patakaran sa laman ng invoice sa itaas, na kasalukuyan at nailathala, sa halip na sa inaasahang mandato.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Paggawa nang tama",
+      "title": "Ang dalawang bitag na natatangi sa Bahrain",
+      "body": "Ang una ay ang kasaysayan ng rate. Lumipat ang Bahrain mula limang porsiyento papuntang sampung porsiyento noong 1 Enero 2022, kaya mali ang anumang template, price list o artikulo ng paghahambing na isinulat bago iyon, at tahimik na nananatili ang pagkakamaling iyon sa mga lumang quotation template. Ang ikalawa ay ang deadline sa pag-isyu. Hindi lang sinasabi ng Bahrain na dapat i-isyu ang invoice, sinasabi rin nito kung kailan: bago o sa ikalabinlima ng buwan pagkatapos ng buwan kung kailan na-trigger ang VAT due date. Ang negosyong nag-i-invoice kung kailan handa ang papeles ay puwedeng mahuli nang hindi napapansing huli na.",
+      "items": [
+        "Suriin ang anumang template bago ang 2022 kung may 5% na rate",
+        "Mag-invoice bago o sa ika-15 ng susunod na buwan",
+        "Ipakita ang VAT bawat linya kapag magkakaiba ang rate",
+        "Isaad ang exchange rate sa invoice na foreign currency"
+      ]
+    },
+    {
+      "eyebrow": "Detalye ng sektor",
+      "title": "Ang field sa konstruksyon na hindi inaasahan ng sinuman",
+      "body": "May isang requirement ang mga patakaran ng Bahrain sa laman ng invoice na walang katumbas sa ibang bahagi ng Gulf: para sa supply na may kinalaman sa konstruksyon ng bagong gusali, dapat ipakita ng invoice ang numero ng building permit. Madali itong makaligtaan dahil nasa loob ito ng pangkalahatang requirement sa paglalarawan sa halip na hiwalay na field, at ito ang uri ng pagkukulang na natutuklasan lang kapag kinuwestiyon ang invoice makalipas ang ilang buwan. Kung nasa contracting ka, ilagay ang numero ng permit sa template ng paglalarawan ng linya sa halip na umasang may makakaalala nito.",
+      "items": [
+        "Kailangan ng numero ng building permit ang supply para sa bagong gusali",
+        "Ilagay ito sa template, hindi sa alaala ng isang tao",
+        "Ilarawan ang supply nang sapat para ipakita ang VAT treatment nito",
+        "Ihanda ang pananalita ng pahayag sa exemption"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ano ang VAT rate sa Bahrain?",
+      "a": "Sampung porsiyento. Ipinatupad ng Bahrain ang VAT sa limang porsiyento noong 1 Enero 2019 at binago ang standard rate sa sampung porsiyento simula 1 Enero 2022. Mas luma sa pagbabagong iyon ang anumang gabay, template o paghahambing na nagpapakita pa rin ng limang porsiyento para sa Bahrain."
+    },
+    {
+      "q": "Kailan ko kailangang magparehistro para sa VAT sa Bahrain?",
+      "a": "Kapag lumampas sa BHD 37,500 ang supply mo. Puwede kang magparehistro nang boluntaryo mula BHD 18,750, na sinusukat sa nakaraan o susunod na labindalawang buwan, at pinapayagan ng Bahrain ang boluntaryong registration batay sa gastos na may VAT pati sa supply, na puwedeng bagay sa negosyong nagpapalago pa ng benta."
+    },
+    {
+      "q": "Mandatory ba ang e-invoicing sa Bahrain?",
+      "a": "Hindi, ayon sa lahat ng inilalathala ng National Bureau for Revenue. Ang VAT General Guide nito, na na-update noong Hulyo 2026, ay hindi bumabanggit ng electronic invoicing, at walang e-invoicing guide sa mga publikasyon nito. Hindi namin inuulit ang mga petsa mula sa komentaryo na hindi mismo inilathala ng Bureau."
+    },
+    {
+      "q": "Kailan dapat i-isyu ang VAT invoice sa Bahrain?",
+      "a": "Bago o sa ikalabinlima ng buwan pagkatapos ng buwan kung kailan na-trigger ang VAT due date. Totoong deadline ito at hindi pangkalahatang inaasahan, at nahuhuli nito ang mga negosyong pinagsasama-sama ang invoicing sa pagtatapos ng quarter."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Mag-invoice nang tama sa Bahrain, libre",
+  "ctaSub": "Ikaw ang magtakda ng rate, ipakita ang VAT bawat linya, at itago ang mga field na hinihingi ng Bureau sa template na hindi mo kailangang tandaan.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, bersyon 1.15, kasama ang seksyon 10.3 tungkol sa requirements ng invoice",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

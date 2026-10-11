@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restawran at Café",
+  "metaTitle": "Billing ng Restawran at Imbentaryo ng Recipe | Paper & Pen",
+  "metaDescription": "Libreng billing kasama ang imbentaryo ng sangkap, recipe costing at purchase order sa supplier para sa restawran at café. Kontrolin ang food cost, mabilis na billing.",
+  "keywords": "software para sa restawran, billing ng café, recipe costing, kontrol sa food cost, imbentaryo ng restawran, purchase order sa supplier, restaurant erp, restaurant POS Pilipinas",
+  "heroEyebrow": "Para sa mga restawran at café",
+  "heroTitle": "Mabilis na billing, <em class=\"text-copper-400 not-italic\">kontrolado ang food cost</em>",
+  "heroSubtitle": "Mag-print ng resibo sa ilang segundo, subaybayan ang sangkap hanggang sa gramo, at alamin ang totoong cost ng bawat putahe. Pinagtutulungan ng Paper & Pen ang kusina, ang kaha at ang libro.",
+  "heroBullets": ["Libre at mabilis na resibo", "Costing ng sangkap at recipe", "Purchase order sa supplier"],
+  "features": [
+    { "icon": "receipt", "title": "Mabilis na resibo", "desc": "Kumuha ng order, ilapat ang tax at service, at mag-print o mag-share ng resibo sa ilang segundo." },
+    { "icon": "manufacturing", "title": "Recipe costing", "desc": "Itakda ang recipe mula sa mga sangkap para alam mo ang totoong cost ng bawat putahe." },
+    { "icon": "inventory", "title": "Stock ng sangkap", "desc": "Subaybayan ang raw materials ayon sa unit, batch at expiry, may low-stock alert." },
+    { "icon": "truck", "title": "Order sa supplier", "desc": "Gumawa ng purchase order sa supplier at i-update ang stock at cost pagtanggap." },
+    { "icon": "calc", "title": "Porsiyento ng food cost", "desc": "Ihambing ang cost ng putahe sa presyo sa menu para manatiling malusog ang margin mo." },
+    { "icon": "chart", "title": "Sales report", "desc": "Makita ang top na putahe, araw-araw na kita at trend sa mga araw at branch." }
+  ],
+  "sections": [
+    { "eyebrow": "Mas mabilis na front of house", "title": "Resibong nagpapatuloy sa pila", "body": "Walang oras para sa mabagal na billing kapag lunch rush. Idagdag ang mga item, ilapat ang VAT o service charge, tanggapin ang bayad at iabot ang malinis na resibo sa ilang segundo, saka i-share ito sa WhatsApp kung hihingin ng bisita. Kusang pumapasok sa libro mo ang bawat benta, kaya isang sulyap na lang ang pagsasara ng araw, hindi isang gabing pagta-type.", "items": ["Mabilis na pagdagdag ng item at pagtanggap ng bayad", "Hawak na ang VAT at service charge", "Kusang nagre-reconcile ang araw-araw na kita"] },
+    { "eyebrow": "Ang kusina ang nagsasabi ng totoo", "title": "Recipe costing na nagpoprotekta sa margin mo", "body": "Kumikita lang ang isang putahe kung alam mo ang cost nito. Bumuo ng recipe mula sa mga sangkap, hayaang kuwentahin ng Paper & Pen ang cost ng bawat plato mula sa live na presyo ng pagbili, at bantayan ang porsiyento ng food cost habang gumagalaw ang presyo ng supplier. Subaybayan ang sangkap ayon sa batch at expiry, gumawa ng purchase order, at kontrolin ang sayang. Gawa sa Oman na may native na OMR, AED at SAR at 5% VAT, at handa para sa USD, EUR o kahit anong merkado.", "items": ["Recipe na kinukuwenta mula sa live na presyo ng sangkap", "Pagsubaybay sa batch at expiry ng raw materials", "Purchase order na nag-a-update ng cost pagtanggap"] }
+  ],
+  "faqs": [
+    { "q": "Puwede ko bang kuwentahin ang cost ng menu mula sa presyo ng sangkap?", "a": "Oo. Itakda ang bawat putahe bilang recipe ng mga sangkap at kukuwentahin ng Paper & Pen ang cost nito mula sa kasalukuyang presyo ng pagbili, para makapagtakda ka ng presyo sa menu na nagpoprotekta sa margin mo." },
+    { "q": "Sinusubaybayan ba nito ang sangkap at expiry?", "a": "Oo. Sinusubaybayan ang raw materials ayon sa unit of measure, batch at petsa ng expiry, may low-stock alert para makapag-reorder ka bago maubusan." },
+    { "q": "Puwede ba akong maglapat ng VAT at service charge?", "a": "Oo. Ilapat ang naa-adjust na GCC VAT, service charge o kahit anong tax rate, lahat kusang kinukuwenta sa bill." },
+    { "q": "Libre ba ang billing para sa café?", "a": "Libre habambuhay ang Benta at Invoicing, kasama ang resibo. Idagdag ang Imbentaryo at Manufacturing kapag gusto mo na ng pagsubaybay sa sangkap at recipe costing." },
+    { "q": "Puwede ba akong mamahala ng higit sa isang outlet?", "a": "Oo. Subaybayan ang benta at stock bawat branch at makita ang live na dami at araw-araw na kita sa lahat ng outlet mo mula sa iisang workspace." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Mabilis magsilbi, matalino sa cost",
+  "ctaSub": "Magsimula nang libre sa resibo at billing, saka idagdag ang Imbentaryo at recipe costing para kontrolin ang food cost."
+}

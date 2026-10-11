@@ -1,0 +1,35 @@
+{
+  "locale": "sl",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Zaloge",
+  "metaTitle": "Program za upravljanje zalog · Paper & Pen",
+  "metaDescription": "Spremljajte zaloge v več skladiščih v realnem času, z opozorili o nizki zalogi, serijami, črtnimi kodami in sprotnim vrednotenjem, ki se knjiži v knjige.",
+  "keywords": "upravljanje zalog, nadzor zalog, skladiščni program, opozorila o nizki zalogi, črtne kode, vrednotenje zalog, več skladišč",
+  "heroEyebrow": "Dodatni modul",
+  "heroTitle": "Zaloge, ki jim lahko <em class=\"text-copper-400 not-italic\">zaupate</em>, v realnem času",
+  "heroSubtitle": "Natančno vedite, kaj imate, kje je in koliko je vredno. Zaloge se posodobijo v trenutku, ko izdate račun ali prevzamete blago, zato so številke vedno sveže.",
+  "heroBullets": ["Sprotne zaloge v vseh skladiščih", "Opozorila o nizki zalogi in ponovnem naročilu", "Vrednotenje se knjiži v knjige"],
+  "features": [
+    { "icon": "inventory", "title": "Zaloge v realnem času", "desc": "Količine se posodobijo v trenutku, ko blago prodate, kupite ali prenesete." },
+    { "icon": "truck", "title": "Več skladišč", "desc": "Spremljajte in prenašajte zaloge med lokacijami in podružnicami s popolnim pregledom." },
+    { "icon": "bell", "title": "Opozorila o nizki zalogi", "desc": "Določite točke ponovnega naročila in prejmite opozorilo, preden vam zmanjka hitro prodajanega artikla." },
+    { "icon": "receipt", "title": "Črtne kode in šifre", "desc": "Skenirajte za popis ali premike zalog, urejeno po šifri artikla, seriji in merski enoti." },
+    { "icon": "calc", "title": "Sprotno vrednotenje", "desc": "Povprečne cene ali metoda FIFO ohranjajo vrednost zalog v bilanci stanja točno." },
+    { "icon": "refresh", "title": "Povezano s prodajo", "desc": "Računi in naročilnice samodejno premikajo zaloge, brez ročnih posodobitev." }
+  ],
+  "sections": [
+    { "eyebrow": "Vedno točno", "title": "Zaloge, ki se posodabljajo same", "body": "Ročni popisi zastarijo v trenutku, ko nekaj prodate. V Paper & Pen vsak račun, nakup in prenos v realnem času prilagodi količino in vrednost, zato je številka na zaslonu enaka številki na polici. Določite točke ponovnega naročila in sistem vam bo povedal, kdaj nabaviti.", "items": ["Samodejna prilagoditev ob vsaki transakciji", "Točke ponovnega naročila in opozorila", "Sledenje serijam, šifram in merskim enotam"] },
+    { "eyebrow": "Zaloge in knjige skupaj", "title": "Od police do bilance stanja", "body": "Zaloge niso le štetje škatel, so pravi denar v vaši bilanci stanja. Paper & Pen vrednoti zaloge po povprečnih cenah ali metodi FIFO in premike samodejno knjiži v računovodstvo, zato sta nabavna vrednost prodanega blaga in vrednost zalog vedno usklajeni. Deluje v kateri koli valuti na katerem koli trgu.", "items": ["Povprečne cene ali FIFO", "Samodejno knjiženje v računovodstvo", "Nabava v več valutah"] }
+  ],
+  "faqs": [
+    { "q": "Ali so zaloge vključene brezplačno?", "a": "Zaloge so izbirni plačljivi dodatek. Osnovni modul Prodaja in računi je brezplačen za vedno, Zaloge pa dodate, ko potrebujete nadzor zalog v realnem času." },
+    { "q": "Ali lahko upravljam več skladišč?", "a": "Da. Spremljajte zaloge po lokacijah, jih prenašajte med njimi in povsod vidite sprotne količine." },
+    { "q": "Ali podpira črtne kode?", "a": "Da. Skenirajte črtno kodo dobavitelja, šifro artikla ali natisnjeno nalepko QR, da hitreje popišete in premikate zaloge, s podporo za serije in merske enote." },
+    { "q": "Kako se vrednotijo zaloge?", "a": "Izberite povprečno ceno ali FIFO. Vrednotenje se posodobi ob vsakem premiku in se samodejno knjiži v računovodstvo." },
+    { "q": "Ali prodaja samodejno posodobi zaloge?", "a": "Da. Računi zmanjšajo zalogo, nakupi pa jo povečajo v realnem času, zato količin nikoli ne posodabljate ročno." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Prevzemite nadzor nad zalogami",
+  "ctaSub": "Začnite brezplačno z računi in dodajte Zaloge, ko ste pripravljeni na sprotne zaloge na vseh lokacijah."
+}

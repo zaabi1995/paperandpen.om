@@ -1,0 +1,37 @@
+{
+  "locale": "sl",
+  "slug": "free-delivery-note-generator",
+  "toolType": "delivery-note",
+  "order": 6,
+  "title": "Brezplačni generator dobavnic",
+  "metaTitle": "Brezplačni generator dobavnic · Paper & Pen",
+  "metaDescription": "Brezplačno ustvarite dobavnice na spletu. Navedite poslane artikle, dodajte količine in v nekaj sekundah prenesite PDF, pripravljen za tisk.",
+  "keywords": "brezplačni generator dobavnic, izdelava dobavnice, dobavnica na spletu, brezplačna predloga dobavnice, dobavnica pdf, odpremnica, pakirni list",
+  "heroEyebrow": "Brezplačno · Brez registracije",
+  "heroTitle": "Brezplačni generator dobavnic",
+  "heroSubtitle": "Blago v nekaj sekundah pošljite z jasno dobavnico. Navedite poslane artikle in količine, nato prenesite PDF, pripravljen za tisk, ki ga stranka podpiše ob prevzemu. Račun ni potreben.",
+  "howToSteps": [
+    { "name": "Dodajte svoje podatke", "text": "Vpišite ime podjetja, stranko, številko dobavnice in datum." },
+    { "name": "Navedite artikle", "text": "Dodajte vsak artikel, ki ga dostavljate, s količino. Cene na dobavnici niso potrebne." },
+    { "name": "Dodajte podatke o dostavi", "text": "Navedite naslov dostave, vozilo ali voznika in morebitna navodila za ravnanje." },
+    { "name": "Prenesite PDF", "text": "Kliknite prenos in natisnite dobavnico, ki jo stranka podpiše, ali se registrirajte, da jo ustvarite neposredno iz naročila." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Takoj in brezplačno", "desc": "Brez registracije, brez vodnega žiga, brez omejitev. Izdajte toliko dobavnic, kot jih potrebujete." },
+    { "icon": "truck", "title": "Dokazilo o dostavi", "desc": "Jasna evidenca, ki jo je mogoče podpisati, o tem, kaj je bilo poslano in prejeto, s prostorom za podpis stranke." },
+    { "icon": "doc", "title": "Količine, ne cene", "desc": "Prikažite artikle in količine, ne da bi razkrili cene, točno tako, kot mora dobavnica." }
+  ],
+  "sections": [
+    { "title": "Zakaj uporabiti generator dobavnic Paper & Pen?", "body": "Dobavnica (ali odpremnica) potuje skupaj z blagom in dokazuje, kaj je bilo poslano in prejeto, ne da bi prikazovala cene. Naš generator je brezplačen in ustvari čist PDF s prostorom za podpis, zato je spore zaradi premajhne ali napačne dostave lahko rešiti." },
+    { "eyebrow": "Več kot generator", "title": "Dobavnice, ki nastanejo iz vaših naročil", "body": "Ročno tipkanje dobavnice pomeni tveganje, da se ne bo ujemala z dejanskim naročilom. V celovitem Paper & Pen ERP dobavnica nastane neposredno iz prodajnega naročila ali računa, zato se artikli in količine vedno ujemajo, zaloga se ob odpremi odšteje, stranka pa lahko potrdi prevzem.", "items": ["Dobavnica iz katerega koli prodajnega naročila", "Samodejno odštevanje zaloge ob odpremi", "Potrditev dostave, zabeležena pri naročilu"] }
+  ],
+  "faqs": [
+    { "q": "Kaj je dobavnica?", "a": "Dobavnica je dokument, ki spremlja pošiljko in navaja dostavljene artikle in količine. Stranka jo podpiše kot dokazilo o prevzemu, običajno pa ne prikazuje cen." },
+    { "q": "Kako se dobavnica razlikuje od računa?", "a": "Dobavnica potrjuje, kaj je fizično prispelo, in ne vsebuje cen. Račun zahteva plačilo ter prikazuje zneske in davek. Oboje lahko tukaj ustvarite brezplačno." },
+    { "q": "Ali je generator dobavnic res brezplačen?", "a": "Da. Popolnoma brezplačen je, brez registracije, brez vodnega žiga in brez omejitve števila dobavnic, ki jih ustvarite." },
+    { "q": "Ali lahko dobavnice ustvarim iz svojih naročil?", "a": "Samostojne dobavnice prenesite brezplačno ali ustvarite brezplačen delovni prostor Paper & Pen, da dobavnice ustvarjate neposredno iz prodajnih naročil in samodejno odštevate zalogo." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-purchase-order-generator", "/invoicing/delivery-notes", "/free-invoicing-software"],
+  "ctaTitle": "Dostavljajte z dokazilom",
+  "ctaSub": "Z brezplačnim delovnim prostorom Paper & Pen ustvarjajte dobavnice iz naročil, odštevajte zalogo ob odpremi in beležite potrditve."
+}

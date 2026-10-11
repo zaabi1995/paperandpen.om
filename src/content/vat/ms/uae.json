@@ -1,0 +1,152 @@
+{
+  "locale": "ms",
+  "slug": "uae",
+  "order": 2,
+  "country": "Emiriah Arab Bersatu",
+  "title": "VAT di UAE",
+  "metaTitle": "VAT di UAE: Kadar, Ambang, E-invois · Paper & Pen",
+  "metaDescription": "Kadar VAT 5% UAE, ambang AED 375,000, kandungan invois Perkara 59 dan jadual eInvoicing yang telah disahkan, setiap satu dengan rujukan kepada sumber.",
+  "keywords": "vat uae, kadar vat uae, cukai nilai tambah uae, ambang pendaftaran vat uae, syarat invois cukai uae, e-invois uae 2027, federal tax authority",
+  "heroEyebrow": "Emiriah Arab Bersatu",
+  "heroTitle": "Membuat invois mengikut peraturan <em class=\"text-copper-400 not-italic\">VAT UAE</em>",
+  "heroSubtitle": "Kadar, ambang, dua belas butiran yang dikehendaki Perkara 59 pada invois cukai, dan tarikh eInvoicing yang benar-benar diterbitkan oleh Ministry of Finance, bagi VAT UAE (cukai nilai tambah Teluk, bukan SST Malaysia).",
+  "heroBullets": [
+    "Kadar standard 5%",
+    "AED 375,000 untuk mendaftar",
+    "eInvoicing berperingkat dari 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Kadar VAT standard",
+      "value": "5%",
+      "note": "Perkara 3 Federal Decree-Law 8 of 2017 mengenakan kadar standard 5% ke atas sebarang pembekalan atau import. Berkuat kuasa sejak 1 Januari 2018.",
+      "source": 1
+    },
+    {
+      "label": "Ambang pendaftaran wajib",
+      "value": "AED 375,000",
+      "note": "Perkara 7(1) Peraturan Pelaksanaan.",
+      "source": 2
+    },
+    {
+      "label": "Ambang pendaftaran sukarela",
+      "value": "AED 187,500",
+      "note": "Perkara 8(1) Peraturan Pelaksanaan.",
+      "source": 2
+    },
+    {
+      "label": "Had invois ringkas",
+      "value": "AED 10,000",
+      "note": "Invois cukai ringkas dibenarkan apabila penerima tidak berdaftar, atau berdaftar dan balasannya tidak melebihi amaun ini.",
+      "source": 2
+    },
+    {
+      "label": "Mata wang pada invois",
+      "value": "AED",
+      "note": "Amaun cukai ditunjukkan dalam dirham, dan jika invois dalam mata wang lain, kadar pertukaran yang digunakan mesti dinyatakan.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Perkara 59(1) Peraturan Pelaksanaan menyenaraikan apa yang mesti terkandung dalam invois cukai penuh.",
+    "items": [
+      "Perkataan \"Invois Cukai\" (Tax Invoice), dipaparkan dengan jelas",
+      "Nama, alamat dan Nombor Pendaftaran Cukai (TRN) pembekal",
+      "Nama, alamat dan TRN penerima, jika penerima berdaftar",
+      "Nombor berurutan atau unik yang membolehkan invois dikenal pasti dan disusun",
+      "Tarikh dikeluarkan",
+      "Tarikh pembekalan, jika berbeza daripada tarikh dikeluarkan",
+      "Perihalan barang atau perkhidmatan",
+      "Bagi setiap item: harga seunit, kuantiti atau isi padu, kadar cukai dan amaun yang perlu dibayar dalam AED",
+      "Amaun sebarang diskaun yang ditawarkan",
+      "Jumlah kasar yang perlu dibayar dalam AED",
+      "Amaun cukai yang dikenakan dalam AED, dengan kadar pertukaran jika ditukar daripada mata wang lain",
+      "Bagi pembekalan caj balikan, kenyataan bahawa penerima mesti mengakaunkan cukai, dan peruntukan yang dirujuk"
+    ],
+    "source": 2,
+    "caveat": "Ini ialah terbitan disatukan Peraturan Pelaksanaan oleh Federal Tax Authority bertarikh 4 Oktober 2024. Pengulas merujuk kepada pindaan yang lebih baharu; kami tidak menemuinya dalam teks yang diterbitkan oleh FTA, jadi sahkan perkataan semasa dengan FTA sebelum bergantung padanya."
+  },
+  "einvoicing": {
+    "status": "Wajib dan berperingkat, perintis dibuka",
+    "body": "Sistem eInvoicing UAE ialah model lima penjuru tanpa pusat di mana invois melalui Penyedia Perkhidmatan Diakreditasi (Accredited Service Providers). Garis panduan Ministry of Finance sendiri menetapkan jadualnya: program perintis dan penggunaan sukarela dari 1 Julai 2026; perniagaan dengan hasil AED 50 juta atau lebih melaksanakan dari 1 Januari 2027; perniagaan di bawah ambang itu dari 1 Julai 2027; entiti kerajaan dari 1 Oktober 2027. Kementerian melanjutkan tarikh akhir pertama untuk melantik Penyedia Perkhidmatan Diakreditasi dari 31 Julai 2026 ke 30 Oktober 2026, tanpa mengubah tarikh mula Januari 2027, jadi PDF garis panduan yang diterbitkan dan kenyataan media Kementerian tidak sepakat tentang satu tarikh itu, dan kenyataan media ialah kata putus yang terkemudian.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Melakukannya dengan betul",
+      "title": "Perkara dalam Perkara 59 yang sering terlepas",
+      "body": "Keperluan bagi setiap baris ialah yang paling kerap gagal dipenuhi oleh templat invois. Perkara 59(1)(h) meminta harga seunit, kuantiti, kadar cukai dan amaun yang perlu dibayar bagi setiap barang atau perkhidmatan, yang bermakna satu angka cukai gabungan di bahagian bawah invois tidak mencukupi apabila baris-baris mempunyai layanan cukai yang berbeza. Yang kedua ialah TRN penerima, yang diperlukan setiap kali penerima berdaftar, dan yang ketiga ialah kadar pertukaran: bilkan dalam dolar dan anda masih perlu menunjukkan cukai dalam dirham serta kadar yang anda gunakan.",
+      "items": [
+        "Kadar dan amaun cukai bagi setiap baris, bukan hanya jumlah",
+        "TRN penerima setiap kali mereka berdaftar",
+        "Kadar pertukaran ditunjukkan pada sebarang invois bukan AED",
+        "Perkataan caj balikan di mana berkenaan"
+      ]
+    },
+    {
+      "eyebrow": "Membuat persediaan",
+      "title": "Apa yang sebenarnya dituntut oleh tarikh 2027",
+      "body": "Kewajipannya bukan membeli perisian yang berlogo, tetapi mampu mengeluarkan invois berstruktur melalui Penyedia Perkhidmatan Diakreditasi pada tarikh yang terpakai kepada jalur hasil anda. Kira ke belakang dari tarikh pelaksanaan jalur anda dan bukan dari perintis: tarikh akhir pelantikan penyedia perkhidmatan jatuh beberapa bulan sebelum tarikh mula, dan pelantikan itulah, bukan tarikh mula, yang paling kerap terlepas oleh perniagaan. Sementara itu, data yang anda perlukan ialah data yang sama yang sudah dikehendaki oleh Perkara 59, satu alasan yang baik untuk membaiki kualiti invois sekarang dan bukan semasa migrasi.",
+      "items": [
+        "Ketahui jalur hasil anda",
+        "Catat tarikh pelantikan penyedia perkhidmatan, bukan hanya tarikh mula",
+        "Bersihkan TRN pelanggan sebelum tarikh akhir, bukan semasanya",
+        "Simpan butiran cukai peringkat baris mulai hari ini"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Berapakah kadar VAT di UAE?",
+      "a": "Lima peratus. Perkara 3 Federal Decree-Law 8 of 2017 mengenakan kadar standard 5% ke atas sebarang pembekalan bercukai atau import, berkuat kuasa sejak 1 Januari 2018. Pembekalan tertentu dikenakan kadar sifar atau dikecualikan, dan perbezaannya penting: pembekal berkadar sifar masih boleh menuntut semula cukai input, pembekal yang dikecualikan tidak boleh."
+    },
+    {
+      "q": "Bilakah e-invois diwajibkan di UAE?",
+      "a": "Ia bergantung pada hasil anda. Di bawah garis panduan yang diterbitkan oleh Ministry of Finance, perniagaan dengan hasil AED 50 juta atau lebih melaksanakan dari 1 Januari 2027, perniagaan di bawah itu dari 1 Julai 2027, dan entiti kerajaan dari 1 Oktober 2027. Program perintis dan penggunaan sukarela dibuka pada 1 Julai 2026. Semak halaman Kementerian sebelum merancang mengikut mana-mana tarikh, kerana ia telah meminda satu tarikh akhir."
+    },
+    {
+      "q": "Bilakah saya boleh mengeluarkan invois cukai ringkas di UAE?",
+      "a": "Apabila penerima tidak berdaftar untuk VAT, atau berdaftar dan balasannya tidak melebihi AED 10,000. Invois ringkas masih memerlukan perkataan \"Invois Cukai\" (Tax Invoice), nama, alamat dan TRN anda, tarikh dikeluarkan, perihalan apa yang dibekalkan, serta jumlah balasan dan amaun cukai dalam dirham."
+    },
+    {
+      "q": "Adakah saya memerlukan TRN pelanggan pada invois UAE?",
+      "a": "Ya, setiap kali pelanggan berdaftar untuk VAT. Perkara 59(1)(c) menghendaki nama, alamat dan Nombor Pendaftaran Cukai penerima dalam keadaan itu. Tanpanya, pelanggan anda mungkin sukar menuntut semula cukai input, yang biasanya kembali kepada anda sebagai permintaan untuk mengeluarkan semula invois."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Buat invois dengan betul di UAE, percuma",
+  "ctaSub": "Cukai peringkat baris, sebarang mata wang dengan kadar pertukaran pada dokumen, dan invois bahasa Arab dan Inggeris daripada satu rekod.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, Perkara 3 (disatukan, dengan pindaan)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Peraturan Pelaksanaan, Perkara 7, 8 dan 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, dan kenyataan media pindaan Kementerian",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

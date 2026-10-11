@@ -1,0 +1,35 @@
+{
+  "locale": "sl",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Računovodstvo",
+  "metaTitle": "Spletni računovodski program s samodejnim knjiženjem · Paper & Pen",
+  "metaDescription": "Dvostavno knjigovodstvo, ki se knjiži samo. Izkaz poslovnega izida in bilanca stanja v realnem času, obračuni DDV, bančno usklajevanje, katera koli valuta in davek.",
+  "keywords": "računovodski program, spletno knjigovodstvo, dvostavno knjigovodstvo, bilanca stanja, izkaz poslovnega izida, obračun ddv, bančno usklajevanje, glavna knjiga",
+  "heroEyebrow": "Dodatni modul",
+  "heroTitle": "Knjige, ki se <em class=\"text-copper-400 not-italic\">uskladijo same</em>",
+  "heroSubtitle": "Vsak račun, plačilo in nakup se samodejno knjiži v pravo dvostavno glavno knjigo. Dobiček, bilanco stanja in davčni položaj vidite v realnem času, brez ene same preglednice.",
+  "heroBullets": ["Samodejno dvostavno knjiženje brez ročnih temeljnic", "Izkaz poslovnega izida in bilanca stanja v realnem času", "Obračun DDV z enim klikom"],
+  "features": [
+    { "icon": "accounting", "title": "Samodejno knjigovodstvo", "desc": "Prodaja, plačila in stroški se knjižijo v glavno knjigo takoj, ko nastanejo." },
+    { "icon": "chart", "title": "Sprotni izkazi", "desc": "Izkaz poslovnega izida, bilanca stanja in denarni tok, vedno ažurni." },
+    { "icon": "calc", "title": "DDV in davčni obračuni", "desc": "Spremljajte vstopni in izstopni davek ter z enim klikom pripravite obračun za oddajo." },
+    { "icon": "refresh", "title": "Bančno usklajevanje", "desc": "Povežite bančne postavke z računi in plačili, da knjige ostanejo urejene." },
+    { "icon": "doc", "title": "Celotne knjige", "desc": "Iz katerega koli poročila se prebijte do izvirnega dokumenta in temeljnice." },
+    { "icon": "globe", "title": "Več valut", "desc": "Knjižite v kateri koli valuti s samodejnimi tečajnimi dobički in izgubami." }
+  ],
+  "sections": [
+    { "eyebrow": "Računovodja ni potreben", "title": "Računovodstvo, ki teče v ozadju", "body": "Da veste, ali poslujete z dobičkom, vam ni treba biti knjigovodja. Ker računi, plačila in zaloge polnijo isto glavno knjigo, so vaše knjige pravilne brez ročnih temeljnic. Odprite nadzorno ploščo in dobiček, dolžniki ter davek so takoj pred vami.", "items": ["Dvostavno knjiženje namesto vas", "Vsako poročilo vodi do izvirnika", "Revizijska sled pri vsakem vnosu"] },
+    { "eyebrow": "Za kateri koli davčni sistem", "title": "Davki in skladnost, kjer koli poslujete", "body": "Nastavite davčne stopnje in konte za svojo državo, vključno z nastavljivim DDV za države Zaliva, Paper & Pen pa za vas spremlja vstopni in izstopni davek. Pripravite obračun za oddajo, uskladite banko in z zaupanjem zaprite obdobje, v kateri koli valuti.", "items": ["Nastavljiv davek za katero koli državo", "Obračuni DDV, pripravljeni za oddajo", "Bančno usklajevanje in zaključek obdobja"] }
+  ],
+  "faqs": [
+    { "q": "Ali potrebujem znanje računovodstva?", "a": "Ne. Vknjižbe nastanejo samodejno iz vaših računov, plačil in nakupov, zato dobite pravilne dvostavne knjige brez pisanja temeljnic." },
+    { "q": "Ali je računovodstvo brezplačno?", "a": "Računovodstvo je izbirni plačljivi dodatek. Prodaja in računi so brezplačni za vedno, Računovodstvo pa vklopite, ko želite celotne računovodske izkaze." },
+    { "q": "Ali lahko pripravi obračune DDV?", "a": "Da. Spremlja vstopni in izstopni davek (na primer nastavljiv DDV v državah Zaliva ali katero koli stopnjo, ki jo nastavite) in pripravi obračun za oddajo." },
+    { "q": "Ali podpira več valut?", "a": "Da. Knjižite in poročajte v kateri koli valuti, s samodejnimi tečajnimi dobički in izgubami." },
+    { "q": "Ali lahko uskladim banko?", "a": "Da. Uvozite bančne postavke ali jih povežite z računi in plačili, da bo glavna knjiga usklajena." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Natančne knjige, samodejno",
+  "ctaSub": "Začnite brezplačno z računi in vklopite Računovodstvo za računovodske izkaze in davčne obračune v realnem času."
+}

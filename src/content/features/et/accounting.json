@@ -1,0 +1,35 @@
+{
+  "locale": "et",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Raamatupidamine",
+  "metaTitle": "Veebipõhine raamatupidamistarkvara · Paper & Pen",
+  "metaDescription": "Kahekordne kirjendamine, mis toimub iseenesest. Reaalajas kasumiaruanne ja bilanss, käibedeklaratsioonid, pangakonto võrdlus, iga valuuta ja maks.",
+  "keywords": "raamatupidamistarkvara, raamatupidamisprogramm, veebipõhine raamatupidamine, kahekordne kirjendamine, bilanss, kasumiaruanne, käibedeklaratsioon, pangakonto võrdlus, pearaamat",
+  "heroEyebrow": "Lisamoodul",
+  "heroTitle": "Raamatud, mis <em class=\"text-copper-400 not-italic\">on alati tasakaalus</em>",
+  "heroSubtitle": "Iga arve, makse ja ost kirjendatakse automaatselt korralikku kahekordse kirjendamise pearaamatusse. Näed reaalajas oma kasumit, bilanssi ja maksuseisu ilma tabelarvutust avamata.",
+  "heroBullets": ["Automaatne kahekordne kirjendamine, käsitsi kandeid pole", "Reaalajas kasumiaruanne ja bilanss", "Käibedeklaratsioon ühe klõpsuga"],
+  "features": [
+    { "icon": "accounting", "title": "Automaatne raamatupidamine", "desc": "Müügid, maksed ja kulud kirjendatakse pearaamatusse kohe, kui need toimuvad." },
+    { "icon": "chart", "title": "Finantsaruanded reaalajas", "desc": "Kasumiaruanne, bilanss ja rahavood, alati ajakohased." },
+    { "icon": "calc", "title": "Käibemaks ja deklaratsioonid", "desc": "Jälgi sisend- ja väljundkäibemaksu ning koosta esitamiseks valmis deklaratsioon ühe klõpsuga." },
+    { "icon": "refresh", "title": "Pangakonto võrdlus", "desc": "Seo pangaväljavõtte read arvete ja maksetega, et raamatud oleksid korras." },
+    { "icon": "doc", "title": "Täielikud pearaamatud", "desc": "Liigu igast aruandest edasi algdokumendi ja raamatupidamiskandeni." },
+    { "icon": "globe", "title": "Mitu valuutat", "desc": "Kirjenda mis tahes valuutas, kursivahe kasum ja kahjum arvestatakse automaatselt." }
+  ],
+  "sections": [
+    { "eyebrow": "Raamatupidajat pole vaja", "title": "Raamatupidamine, mis töötab taustal", "body": "Sa ei pea olema raamatupidaja, et teada, kas su äri on kasumlik. Kuna arveldamine, maksed ja ladu toidavad kõik sama pearaamatut, on su raamatud õiged ilma käsitsi kanneteta. Ava töölaud ja su kasum, võlgnikud ja maksud on kohe näha.", "items": ["Kahekordne kirjendamine tehakse sinu eest", "Igast aruandest pääseb algdokumendini", "Igal kandel on muudatuste ajalugu"] },
+    { "eyebrow": "Sobib igale maksusüsteemile", "title": "Maksud ja nõuetele vastavus kõikjal, kus tegutsed", "body": "Seadista oma riigi maksumäärad ja kontod, sealhulgas Lahe riikide seadistatav käibemaks, ning Paper & Pen jälgib sinu eest sisend- ja väljundkäibemaksu. Koosta esitamiseks valmis deklaratsioon, võrdle pangakontot ja sulge periood kindlalt, mis tahes valuutas.", "items": ["Seadistatav maks igale riigile", "Esitamiseks valmis käibedeklaratsioonid", "Pangakonto võrdlus ja perioodi sulgemine"] }
+  ],
+  "faqs": [
+    { "q": "Kas selle kasutamiseks on vaja raamatupidamisteadmisi?", "a": "Ei. Kanded tehakse automaatselt sinu arvete, maksete ja ostude põhjal, nii et saad õiged kahekordse kirjendamise raamatud ilma kandeid kirjutamata." },
+    { "q": "Kas raamatupidamine on tasuta?", "a": "Raamatupidamine on valikuline tasuline lisamoodul. Müük ja arveldamine on igavesti tasuta ning raamatupidamise lülitad sisse siis, kui soovid täielikke finantsaruandeid." },
+    { "q": "Kas see koostab käibedeklaratsioone?", "a": "Jah. See jälgib sisend- ja väljundkäibemaksu (näiteks Lahe riikide seadistatavat käibemaksu või mis tahes määra, mille ise seadistad) ja koostab esitamiseks valmis deklaratsiooni." },
+    { "q": "Kas see toetab mitut valuutat?", "a": "Jah. Kirjenda ja koosta aruandeid mis tahes valuutas, kursivahe kasum ja kahjum arvestatakse automaatselt." },
+    { "q": "Kas saan pangakontot võrrelda?", "a": "Jah. Impordi pangaväljavõtte read või seo need arvete ja maksetega, et pearaamat oleks alati pangaga kooskõlas." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Saa täpsed raamatud automaatselt",
+  "ctaSub": "Alusta tasuta arveldamisega ja lülita sisse raamatupidamine, et saada reaalajas finantsaruanded ja käibedeklaratsioonid."
+}

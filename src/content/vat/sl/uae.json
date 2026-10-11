@@ -1,0 +1,152 @@
+{
+  "locale": "sl",
+  "slug": "uae",
+  "order": 2,
+  "country": "Združeni arabski emirati",
+  "title": "DDV v ZAE",
+  "metaTitle": "DDV v ZAE: stopnja, pragovi, e-računi · Paper & Pen",
+  "metaDescription": "Stopnja DDV v ZAE 5 %, prag AED 375,000, vsebina računa po 59. členu in potrjeni časovni načrt e-računov, vsak podatek z navedbo vira.",
+  "keywords": "ddv zae, stopnja ddv zae, prag za registracijo ddv zae, zahteve za davčni račun zae, e-računi zae 2027, federal tax authority",
+  "heroEyebrow": "Združeni arabski emirati",
+  "heroTitle": "Izdajanje računov po pravilih <em class=\"text-copper-400 not-italic\">DDV v ZAE</em>",
+  "heroSubtitle": "Stopnja, pragovi, dvanajst podatkov, ki jih 59. člen zahteva na davčnem računu, in datumi za e-račune, ki jih je ministrstvo za finance dejansko objavilo.",
+  "heroBullets": [
+    "Splošna stopnja 5 %",
+    "Registracija od AED 375,000",
+    "E-računi postopno od leta 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Splošna stopnja DDV",
+      "value": "5%",
+      "note": "3. člen zveznega uredbenega zakona št. 8 iz leta 2017 določa splošno stopnjo 5 % za vsako dobavo ali uvoz. Velja od 1. januarja 2018.",
+      "source": 1
+    },
+    {
+      "label": "Prag za obvezno registracijo",
+      "value": "AED 375,000",
+      "note": "7. člen (1. odstavek) izvršilnega predpisa.",
+      "source": 2
+    },
+    {
+      "label": "Prag za prostovoljno registracijo",
+      "value": "AED 187,500",
+      "note": "8. člen (1. odstavek) izvršilnega predpisa.",
+      "source": 2
+    },
+    {
+      "label": "Zgornja meja za poenostavljeni račun",
+      "value": "AED 10,000",
+      "note": "Poenostavljeni davčni račun je dovoljen, če prejemnik ni registriran ali je registriran in plačilo ne presega tega zneska.",
+      "source": 2
+    },
+    {
+      "label": "Valuta na računu",
+      "value": "AED",
+      "note": "Zneski davka so prikazani v dirhamih, če je račun v drugi valuti, pa mora biti naveden uporabljeni menjalni tečaj.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "59. člen (1. odstavek) izvršilnega predpisa navaja, kaj mora vsebovati popoln davčni račun.",
+    "items": [
+      "Besedi \"davčni račun\", jasno prikazani",
+      "Ime, naslov in davčna registrska številka (TRN) dobavitelja",
+      "Ime, naslov in TRN prejemnika, če je prejemnik registriran",
+      "Zaporedna ali enolična številka, ki omogoča prepoznavo in razvrstitev računa",
+      "Datum izdaje",
+      "Datum dobave, če se razlikuje od datuma izdaje",
+      "Opis blaga ali storitev",
+      "Za vsako postavko: cena na enoto, količina ali obseg, davčna stopnja in znesek za plačilo v AED",
+      "Znesek morebitnega ponujenega popusta",
+      "Bruto znesek za plačilo v AED",
+      "Obračunani znesek davka v AED, z menjalnim tečajem, če je preračunan iz druge valute",
+      "Pri dobavi z obrnjeno davčno obveznostjo izjava, da mora davek obračunati prejemnik, in določba, na katero se opira"
+    ],
+    "source": 2,
+    "caveat": "To je prečiščena objava izvršilnega predpisa, ki jo je Federal Tax Authority objavil 4. oktobra 2024. Komentatorji omenjajo poznejšo spremembo, ki je v besedilu, objavljenem pri FTA, nismo našli, zato veljavno besedilo preverite pri FTA, preden se nanj zanesete."
+  },
+  "einvoicing": {
+    "status": "Obvezno in postopno, pilotni program odprt",
+    "body": "Sistem e-računov v ZAE je decentraliziran model s petimi koti, v katerem računi potujejo prek pooblaščenih ponudnikov storitev. Smernice ministrstva za finance določajo časovni načrt: pilotni program in prostovoljna uporaba od 1. julija 2026; podjetja s prihodki AED 50 milijonov ali več od 1. januarja 2027; podjetja pod tem pragom od 1. julija 2027; državni organi od 1. oktobra 2027. Ministrstvo je prvi rok za imenovanje pooblaščenega ponudnika storitev podaljšalo z 31. julija 2026 na 30. oktober 2026, začetek januarja 2027 pa ostaja nespremenjen, zato se objavljene smernice v PDF in sporočilo ministrstva za javnost glede tega datuma razlikujeta, sporočilo za javnost pa je novejše.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Kako ravnati pravilno",
+      "title": "Kje se ljudje spotaknejo ob 59. člen",
+      "body": "Zahteva po postavkah je tista, ki jo večina predlog računov ne izpolni. 59. člen (1. odstavek, točka h) zahteva ceno na enoto, količino, davčno stopnjo in znesek za plačilo za vsako blago ali storitev, kar pomeni, da en sam skupni znesek davka na dnu računa ne zadošča, kadar imajo postavke različno obravnavo. Druga je TRN prejemnika, ki je obvezen vedno, ko je prejemnik registriran, tretja pa menjalni tečaj: če zaračunate v dolarjih, morate davek še vedno prikazati v dirhamih skupaj z uporabljenim tečajem.",
+      "items": [
+        "Davčna stopnja in znesek po postavkah, ne le skupaj",
+        "TRN prejemnika, kadar koli je registriran",
+        "Menjalni tečaj na vsakem računu, ki ni v AED",
+        "Besedilo o obrnjeni davčni obveznosti, kjer velja"
+      ]
+    },
+    {
+      "eyebrow": "Priprava",
+      "title": "Kaj datumi za leto 2027 dejansko zahtevajo od vas",
+      "body": "Obveznost ni nakup programa z logotipom, temveč zmožnost izdati strukturiran račun prek pooblaščenega ponudnika storitev na datum, ki velja za vaš razred prihodkov. Načrtujte nazaj od datuma uvedbe za vaš razred, ne od pilotnega programa: rok za imenovanje ponudnika storitev je več mesecev pred začetkom, večina podjetij pa zamudi prav imenovanje, ne začetka. Medtem so podatki, ki jih boste potrebovali, isti, kot jih 59. člen že zahteva, kar je dober razlog, da kakovost računov uredite zdaj in ne med selitvijo.",
+      "items": [
+        "Vedite, v kateri razred prihodkov spadate",
+        "V koledar vpišite imenovanje ponudnika storitev, ne le začetka",
+        "TRN kupcev uredite pred rokom, ne med njim",
+        "Davčne podrobnosti po postavkah vodite že od danes"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kakšna je stopnja DDV v ZAE?",
+      "a": "Pet odstotkov. 3. člen zveznega uredbenega zakona št. 8 iz leta 2017 določa splošno stopnjo 5 % za vsako obdavčljivo dobavo ali uvoz in velja od 1. januarja 2018. Nekatere dobave so obdavčene po ničelni stopnji ali oproščene, razlika pa je pomembna: dobavitelj z ničelno stopnjo lahko še vedno uveljavlja vstopni davek, oproščeni pa ne."
+    },
+    {
+      "q": "Kdaj bodo e-računi v ZAE obvezni?",
+      "a": "Odvisno od vaših prihodkov. Po objavljenih smernicah ministrstva za finance podjetja s prihodki AED 50 milijonov ali več začnejo 1. januarja 2027, podjetja pod tem pragom 1. julija 2027, državni organi pa 1. oktobra 2027. Pilotni program in prostovoljna uporaba sta se začela 1. julija 2026. Preden načrtujete na podlagi katerega koli datuma, preverite strani ministrstva, saj je en rok že spremenilo."
+    },
+    {
+      "q": "Kdaj lahko v ZAE izdam poenostavljeni davčni račun?",
+      "a": "Kadar prejemnik ni registriran za DDV ali je registriran in plačilo ne presega AED 10,000. Poenostavljeni račun mora še vedno vsebovati besedi \"davčni račun\", vaše ime, naslov in TRN, datum izdaje, opis dobave ter skupno plačilo in znesek davka v dirhamih."
+    },
+    {
+      "q": "Ali na računu v ZAE potrebujem TRN kupca?",
+      "a": "Da, kadar koli je kupec registriran za DDV. 59. člen (1. odstavek, točka c) v tem primeru zahteva ime, naslov in davčno registrsko številko prejemnika. Brez nje bo kupec morda težko uveljavljal vstopni davek, kar se vam običajno vrne kot prošnja za ponovno izdajo."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Pravilni računi v ZAE, brezplačno",
+  "ctaSub": "Davek po postavkah, katera koli valuta s tečajem na dokumentu ter račun v arabščini in angleščini iz enega zapisa.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, 3. člen (prečiščeno besedilo s spremembami)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, členi 7, 8 in 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1 in sporočilo ministrstva za javnost o spremembi",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

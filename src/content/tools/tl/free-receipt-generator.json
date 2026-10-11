@@ -1,0 +1,37 @@
+{
+  "locale": "tl",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Libreng Gawaan ng Resibo",
+  "metaTitle": "Libreng Gawaan ng Resibo · Paper & Pen",
+  "metaDescription": "Gumawa ng resibo ng bayad online nang libre. Ilagay ang halaga, currency at paraan ng bayad, saka i-download ang PDF na handang i-print sa ilang segundo. Walang signup.",
+  "keywords": "libreng resibo generator, gumawa ng resibo, payment receipt, resibo online, libreng resibo template, i-download ang resibo pdf, acknowledgement receipt, cash receipt",
+  "heroEyebrow": "Libre · Walang signup",
+  "heroTitle": "Libreng Gawaan ng Resibo",
+  "heroSubtitle": "Bigyan ang bawat customer ng malinis na resibo ng bayad sa ilang segundo. Ilagay ang halaga, currency at paraan ng bayad, saka i-download ang PDF na handang i-print. Walang account na kailangan.",
+  "howToSteps": [
+    { "name": "Ilagay ang detalye mo", "text": "Ilagay ang pangalan ng kumpanya mo, ang nagbayad, numero ng resibo at petsa." },
+    { "name": "Ilagay ang bayad", "text": "Idagdag kung para saan ang bayad, ang halaga, at ang paraan (cash, card, transfer)." },
+    { "name": "Itakda ang currency at tax", "text": "Pumili ng kahit anong currency at, kung kailangan, ipakita ang bahaging VAT o sales tax." },
+    { "name": "I-download ang PDF", "text": "I-click ang download para mag-save ng resibong handang i-print, o mag-sign up para kusang mag-isyu ng resibo laban sa mga invoice mo." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Instant at libre", "desc": "Walang signup, walang watermark, walang limit. Mag-isyu ng kahit ilang resibo ang kailangan mo." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Gumawa ng resibo sa OMR, AED, SAR, USD, EUR, GBP at iba pa, na may tamang decimal." },
+    { "icon": "card", "title": "Kahit anong paraan ng bayad", "desc": "Itala ang cash, card, bank transfer o online na bayad, malinaw na nakalagay sa resibo." }
+  ],
+  "sections": [
+    { "title": "Bakit gamitin ang receipt generator ng Paper & Pen?", "body": "Ang resibo ang patunay ng bayad ng customer mo at ang record mo na nabayaran ang isang invoice. Libre ang sa amin, gumagana sa kahit anong currency, at gumagawa ng malinis na PDF na puwede mong iabot o i-email agad. Walang spreadsheet, walang signup." },
+    { "eyebrow": "Higit pa sa generator", "title": "Resibong konektado sa mga invoice mo", "body": "Ayos ang standalone na resibo para sa isahang transaksyon, pero kailangan ng lumalaking negosyo ang resibong nakatali sa invoice at tuloy-tuloy na ledger. Sa loob ng buong Paper & Pen ERP, ang pagtatala ng bayad ay gumagawa ng resibo at nag-a-update ng balanse ng invoice at ng libro mo nang sabay.", "items": ["Kusang gumawa ng resibo kapag nabayaran ang invoice", "Subaybayan ang buo, partial at hating bayad", "Ipadala agad ang resibo sa WhatsApp o email"] }
+  ],
+  "faqs": [
+    { "q": "Ano ang pagkakaiba ng invoice at resibo?", "a": "Ang invoice ay humihingi ng bayad bago ito gawin. Ang resibo ay nagpapatunay na natanggap ang bayad pagkatapos. Puwede mong gawin pareho dito nang libre." },
+    { "q": "Libre ba talaga ang receipt generator?", "a": "Oo. Ganap itong libre, walang signup, walang watermark at walang limit sa dami ng resibong gagawin mo." },
+    { "q": "Puwede ko bang ipakita ang VAT o tax sa resibo?", "a": "Oo. Magtakda ng kahit anong tax rate at ipapakita ng resibo ang bahaging tax ng binayarang halaga kung saan mo ito kailangan." },
+    { "q": "Puwede bang i-link ang resibo sa mga invoice ko?", "a": "Mag-download ng standalone na resibo nang libre, o gumawa ng libreng Paper & Pen workspace kung saan ang bawat bayad na itinala laban sa invoice ay kusang gumagawa ng naka-link na resibo." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Patunay ng bayad, ayos na",
+  "ctaSub": "Kusang gumawa ng resibo, subaybayan ang bawat bayad at panatilihing updated ang ledger mo gamit ang libreng Paper & Pen workspace."
+}

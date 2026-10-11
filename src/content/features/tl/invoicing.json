@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Pag-invoice",
+  "metaTitle": "Mga Feature sa Pamamahala ng Invoice | Paper & Pen ERP",
+  "metaDescription": "Tuklasin ang pagsubaybay sa invoice, online na bayad, paalala, naa-adjust na tax, limang wika at multi-currency na workflow sa loob ng Paper & Pen ERP.",
+  "keywords": "invoicing software, libreng invoice, online invoice, magpadala ng invoice, mabayaran online, VAT invoice, paulit-ulit na invoice, paalala sa bayad, invoice app Pilipinas",
+  "heroEyebrow": "Libre habambuhay",
+  "heroTitle": "Invoicing na nagpapabilis ng <em class=\"text-copper-400 not-italic\">pagbabayad sa iyo</em>",
+  "heroSubtitle": "Gumawa ng maayos na invoice sa loob ng wala pang isang minuto, ipadala ito sa email o WhatsApp, at hayaang magbayad online ang kliyente mo. Para sa kahit anong currency at tax rate, ginagamit sa buong mundo.",
+  "heroBullets": ["Libre habambuhay ang Benta at Invoicing", "Kahit anong currency, kahit anong tax rate", "Pay-online link sa bawat invoice"],
+  "features": [
+    { "icon": "bolt", "title": "Invoice sa ilang segundo", "desc": "Pumili ng kliyente, magdagdag ng item, at i-send. Kusang nakukuwenta ang total at tax habang nagta-type ka." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Mag-bill sa OMR, AED, SAR, USD, EUR, GBP o kahit anong currency na may tamang decimal." },
+    { "icon": "card", "title": "Mabayaran online", "desc": "May secure na pay link ang bawat invoice kaya isang tap lang ang bayad ng kliyente gamit ang card." },
+    { "icon": "bell", "title": "Awtomatikong paalala", "desc": "Mahinahon at naka-iskedyul na paalala ang humahabol sa overdue na invoice para hindi ikaw." },
+    { "icon": "refresh", "title": "Paulit-ulit na invoice", "desc": "Itakda ang retainer at subscription para kusang ma-bill, lingguhan o buwanan." },
+    { "icon": "calc", "title": "Handa sa VAT at tax", "desc": "Gamitin ang kahit anong VAT o sales-tax rate, kinukuwenta sa net pagkatapos ng discount." }
+  ],
+  "sections": [
+    { "eyebrow": "Gawa para sa buong mundo", "title": "Iisang invoicing tool para sa bawat merkado", "body": "Nagbi-bill ka man sa dolyar mula New York o sa rial mula Muscat, ang Paper & Pen na ang bahala sa currency, sa decimal at sa mga patakaran sa tax. Ilipat ang interface sa Ingles, Arabic, Hindi, Bengali at Urdu para makapagtrabaho ang buong team sa sarili nilang wika.", "items": ["Multi-currency na may live na formatting", "Naa-adjust na tax para sa kahit anong bansa", "Arabic-first, buong RTL na invoice"] },
+    { "eyebrow": "Mula quote hanggang cash", "title": "Invoicing sa loob ng buong ERP", "body": "Hindi nakahiwalay ang mga invoice mo. Gawing invoice ang panalong quotation sa isang click, itala ang bayad, at panoorin itong kusang pumasok sa libro mo. Paglaki mo, naghihintay na ang imbentaryo, accounting at payroll sa parehong workspace.", "items": ["Isang click mula quote papuntang invoice", "Nare-reconcile ang bayad sa ledger mo", "Walang dobleng encoding, kahit kailan"] }
+  ],
+  "faqs": [
+    { "q": "Libre ba talaga ang invoicing?", "a": "Oo. Libre habambuhay ang Benta at Invoicing, walang limit sa dami ng invoice o kliyente. Magbabayad ka lang kung magdadagdag ka ng opsyonal na module tulad ng Imbentaryo o Payroll." },
+    { "q": "Puwede bang bayaran ng kliyente ang invoice online?", "a": "Oo. Puwedeng may secure na pay-online link ang bawat invoice na pinapatakbo ng Paymob at iba pang gateway, kaya nagbabayad ang kliyente gamit ang card at kusang nare-reconcile ang bayad." },
+    { "q": "Sinusuportahan ba nito ang VAT at iba pang tax?", "a": "Oo. Magtakda ng kahit anong rate, kasama ang naa-adjust na VAT para sa GCC, o kung ano ang naaangkop sa bansa mo. Kinukuwenta ang tax sa net na halaga pagkatapos ng discount." },
+    { "q": "Puwede ba akong magpadala ng invoice sa Arabic?", "a": "Oo. Puwedeng Arabic ang buong interface at ang PDF ng invoice, buong right-to-left, kasama ng Ingles, Hindi, Bengali at Urdu." },
+    { "q": "Puwede ko bang i-automate ang paulit-ulit na billing?", "a": "Oo. Gumawa ng recurring invoice para sa retainer o subscription at ang Paper & Pen na ang mag-iisyu at magpapadala nito ayon sa iskedyul." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Ipadala ang una mong invoice nang libre",
+  "ctaSub": "Gumawa ng libreng workspace at i-bill ang una mong kliyente sa loob ng ilang minuto. Walang card na kailangan, libre habambuhay."
+}

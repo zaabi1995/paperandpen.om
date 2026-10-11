@@ -1,0 +1,38 @@
+{
+  "locale": "fi",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Ilmainen ALV- ja verolaskuri",
+  "metaTitle": "Omanin ALV-laskuri: lisää tai poista 5 %:n ALV",
+  "metaDescription": "Laske Omanin 5 %:n ALV verkossa. Lisää ALV nettosummaan tai poista se bruttosummasta ja näe netto, ALV ja kokonaissumma heti, ilman rekisteröitymistä.",
+  "keywords": "alv-laskuri, omanin alv-laskuri, verolaskuri, lisää alv, poista alv, alv 5 prosenttia laskuri, alv laskuri netto brutto, käänteinen alv-laskuri",
+  "heroEyebrow": "Ilmainen · Ei rekisteröitymistä",
+  "heroTitle": "Ilmainen <em class=\"text-copper-400 not-italic\">ALV- ja vero</em>laskuri",
+  "heroSubtitle": "Laske Omanin 5 %:n ALV verkossa. Lisää ALV nettosummaan tai poista se bruttosummasta ja näe netto, ALV ja kokonaissumma heti, ilman rekisteröitymistä.",
+  "heroBullets": ["Mikä tahansa kanta ja valuutta", "Lisää tai poista vero", "Ilmainen ikuisesti, ei rekisteröitymistä"],
+  "howToSteps": [
+    { "name": "Syötä summa", "text": "Kirjoita summa, jolla haluat laskea, ja valitse valuuttasi." },
+    { "name": "Aseta verokanta", "text": "Käytä Omanin oletuskantaa 5 % tai syötä tapahtumaasi sovellettava voimassa oleva kanta." },
+    { "name": "Valitse lisää tai poista", "text": "Lisää vero nettosummaan tai poista vero bruttosummasta saadaksesi nettosumman (käänteinen ALV)." },
+    { "name": "Lue tulos", "text": "Näe netto, vero ja brutto eriteltyinä heti, valmiina kopioitavaksi laskuun." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Lisää tai poista vero", "desc": "Laske vero nettosummasta eteenpäin tai pura se bruttosummasta yhdellä klikkauksella." },
+    { "icon": "globe", "title": "Mikä tahansa kanta ja valuutta", "desc": "Omanin 5 % oletuksena, tai aseta sinuun sovellettava kanta, OMR-, AED-, SAR-, USD- ja EUR-valuutassa ja muissa." },
+    { "icon": "bolt", "title": "Heti ja ilmaiseksi", "desc": "Ei rekisteröitymistä, ei rajoituksia. Saat netton, veron ja brutton heti kirjoittaessasi." }
+  ],
+  "sections": [
+    { "title": "Miksi käyttää Paper & Penin ALV-laskuria?", "body": "Hinnoittelitpa tarjousta, tarkistitpa laskua tai teitpä veroilmoitusta, netton, veron ja brutton on täsmättävä viimeistä desimaalia myöten. Tämä laskuri toimii millä tahansa kannalla ja valuutalla, molempiin suuntiin (lisää vero tai pura se kokonaissummasta), ja on aidosti ilmainen. Se avautuu Omanin 5 %:n kannalla, ja sen voi säätää täysin muita lainkäyttöalueita varten." },
+    { "eyebrow": "Laskuria pidemmälle", "title": "Anna ohjelmiston hoitaa ALV puolestasi", "body": "Veron laskeminen käsin jokaiselle riville on hidasta ja altista virheille. Täydessä Paper & Pen ERP:ssä ALV lasketaan automaattisesti jokaisen laskun alennusten jälkeisestä nettosummasta, kirjataan kirjanpitoosi ja kootaan ilmoitusvalmiisiin raportteihin, joten laskinta ei tarvita lainkaan.", "items": ["Automaattinen vero jokaisessa laskussa ja tarjouksessa", "Rivi- ja asiakirjakohtaiset verokannat", "ALV-yhteenvedot valmiina ilmoitusta varten"] }
+  ],
+  "faqs": [
+    { "q": "Mitä kantaa tämä Omanin ALV-laskuri käyttää?", "a": "Laskuri avautuu Omanin 5 %:n kannalla. Verosäännöt voivat muuttua, joten tarkista voimassa oleva kanta Oman Tax Authoritylta ennen kuin luotat laskelmaan. Voit syöttää minkä tahansa kannan." },
+    { "q": "Miten poistan ALV:n kokonaissummasta?", "a": "Valitse poista (käänteinen) ja syötä bruttosumma. Laskuri laskee netton ja kokonaissummaan sisältyneen vero-osuuden." },
+    { "q": "Voinko käyttää sitä myyntiveroon Omanin ulkopuolella?", "a": "Kyllä. Aseta tapahtumaasi sovellettava kanta ja valitse mikä tahansa valuutta. Se toimii ALV:lle, GST:lle tai myyntiverolle missä tahansa maailmassa." },
+    { "q": "Laskeeko se veron alennetusta summasta?", "a": "Syötä alennuksen jälkeinen nettosumma ja lisää siihen vero. Jos haluat automaattisen alennusten jälkeisen ALV:n kokonaisiin laskuihin, luo ilmainen Paper & Pen -työtila, jossa se hoituu puolestasi." }
+  ],
+  "related": ["/vat/oman", "/tools/free-invoice-generator", "/tools/free-quotation-generator", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Lopeta ALV:n laskeminen käsin",
+  "ctaSub": "Lisää vero automaattisesti jokaiseen laskuun ja saat ilmoitusvalmiit ALV-raportit ilmaisella Paper & Pen -työtilalla."
+}

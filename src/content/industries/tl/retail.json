@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "retail",
+  "order": 2,
+  "title": "Retail at Tindahan",
+  "metaTitle": "Billing at Imbentaryo para sa Retail at Tindahan · Paper & Pen",
+  "metaDescription": "Libreng billing kasama ang barcode na imbentaryo, low-stock alert at live na valuation para sa tindahan at retailer. Mabilis magbenta, hindi nauubusan, malinis na libro.",
+  "keywords": "retail software, billing software para sa tindahan, barcode inventory, point of sale invoicing, low stock alert, retail erp, imbentaryo ng maraming tindahan, POS system Pilipinas",
+  "heroEyebrow": "Para sa mga tindahan at retailer",
+  "heroTitle": "Mabilis magbenta, <em class=\"text-copper-400 not-italic\">hindi nauubusan</em>",
+  "heroSubtitle": "Singilin ang customer sa ilang segundo, mag-scan ng barcode para magbilang ng stock, at hayaang kusang mag-update ang stock. Pinagsasabay ng Paper & Pen ang estante, benta at libro mo para mas kaunti ang oras sa pagbibilang at mas marami sa pagbebenta.",
+  "heroBullets": ["Libre at mabilis na billing", "Suporta sa barcode at SKU", "Low-stock alert bago ka maubusan"],
+  "features": [
+    { "icon": "receipt", "title": "Mabilis na billing", "desc": "Mag-ring up ng benta at mag-print o mag-share ng resibo sa ilang segundo, sa kahit anong device." },
+    { "icon": "inventory", "title": "Barcode na imbentaryo", "desc": "Mag-scan para magbilang o maglipat ng stock, nakaayos ayon sa SKU, batch at unit of measure." },
+    { "icon": "bell", "title": "Low-stock alert", "desc": "Magtakda ng reorder point at mababalaan ka bago maubos ang best seller." },
+    { "icon": "truck", "title": "Stock ng maraming tindahan", "desc": "Subaybayan at ilipat ang stock sa mga branch na may live na dami saanman." },
+    { "icon": "calc", "title": "Live na valuation", "desc": "Pinapanatiling tumpak ng average o FIFO costing ang halaga ng stock sa balance sheet mo." },
+    { "icon": "chart", "title": "Ulat ng best seller", "desc": "Makita kung ano ang gumagalaw at ano ang nakatengga, ayon sa item, kategorya at tindahan." }
+  ],
+  "sections": [
+    { "eyebrow": "Mas mabilis na checkout", "title": "Billing na gawa para sa abalang counter", "body": "Hindi naghihintay ang customer. Bumuo ng benta sa paghahanap ng item, maglapat ng discount, tanggapin ang bayad at iabot ang malinis na resibo sa ilang segundo. Naishe-share ang resibo sa WhatsApp o napi-print para sa kaha, at diretsong pumapasok ang bawat benta sa stock at libro mo nang walang ulit na pag-encode.", "items": ["Maghanap para mabilis magdagdag ng item", "Mag-print o mag-share agad ng resibo", "Kusang hawak ang discount at tax"] },
+    { "eyebrow": "Stock na kusang nag-aalaga", "title": "Laging alam kung ano ang nasa estante", "body": "Luma na agad ang manual na bilang sa sandaling may mabenta ka. Sa Paper & Pen, inaayos ng bawat benta at delivery ang stock nang real time, kaya tugma ang numero sa screen sa estante. Magtakda ng reorder point para i-flag ng sistema ang mabagal na restock bago ka mawalan ng benta. Gawa sa Oman na may native na OMR, AED at SAR at 5% VAT, at handa para sa USD, EUR o kahit anong tax rate na ginagamit mo.", "items": ["Real-time na stock sa bawat benta", "Reorder point at low-stock alert", "Kahit anong currency, kahit anong tax rate"] }
+  ],
+  "faqs": [
+    { "q": "Puwede ba akong magbenta gamit ang barcode scanner?", "a": "Hindi sa kaha. Sa kaha, hinahanap mo ang mga item para idagdag sa benta. Gumagana ang barcode scanner para sa stock: i-scan ang item para bilangin ito o para magpasok o maglabas ng stock. Nakaayos ang mga item ayon sa SKU, batch at unit of measure." },
+    { "q": "Mag-a-update ba ang stock ko kapag nagbenta ako?", "a": "Oo. Binabawasan ng bawat benta ang stock at dinadagdagan ito ng bawat delivery nang real time, sa lahat ng tindahan mo, nang walang manual na pagbibilang." },
+    { "q": "Puwede ba akong magpatakbo ng higit sa isang tindahan?", "a": "Oo. Subaybayan ang stock bawat tindahan, maglipat sa pagitan ng mga branch at makita ang live na dami saanman mula sa iisang workspace." },
+    { "q": "Libre ba talaga ang billing?", "a": "Libre habambuhay ang Benta at Invoicing, kasama ang resibo. Idagdag ang module na Imbentaryo kapag gusto mo na ng barcode na kontrol sa stock at low-stock alert." },
+    { "q": "Gumagana ba ito sa labas ng GCC?", "a": "Oo. Gumagana ang Paper & Pen sa kahit anong currency at kahit anong tax rate, kaya makakapag-bill at makakapamahala ng stock ang retailer saanman, may Arabic, Ingles at iba pa." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Patakbuhin ang tindahan mo nang walang hula",
+  "ctaSub": "Magsimula nang libre sa billing at resibo, saka idagdag ang Imbentaryo para sa barcode na stock at low-stock alert."
+}

@@ -1,0 +1,140 @@
+{
+  "locale": "fi",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrain",
+  "title": "ALV Bahrainissa",
+  "metaTitle": "ALV Bahrainissa: 10 %:n kanta ja laskusäännöt · Paper & Pen",
+  "metaDescription": "Bahrainin 10 %:n ALV-kanta, BHD 37,500:n rekisteröintiraja ja mitä NBR vaatii ALV-laskulta, lähteenä viraston oma ohje.",
+  "keywords": "alv bahrain, bahrainin alv-kanta 10, bahrainin alv rekisteröintiraja, bahrainin alv-laskun vaatimukset, national bureau for revenue",
+  "heroEyebrow": "Bahrain",
+  "heroTitle": "Laskutus <em class=\"text-copper-400 not-italic\">Bahrainin ALV-sääntöjen</em> mukaan",
+  "heroSubtitle": "10 %:n verokanta, rekisteröintirajat ja mitä National Bureau for Revenue vaatii ALV-laskulta, mukaan lukien yksi vain rakentamista koskeva kenttä.",
+  "heroBullets": [
+    "Yleinen verokanta 10 %",
+    "Rekisteröinti BHD 37,500:sta",
+    "Verkkolaskutusvelvoitetta ei ole julkaistu"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Yleinen ALV-kanta",
+      "value": "10%",
+      "note": "ALV otettiin käyttöön 5 %:n kannalla 1. tammikuuta 2019, ja kanta nostettiin 10 %:iin 1. tammikuuta 2022 alkaen. Ennen vuotta 2022 kirjoitetut vertailut ovat vanhentuneita.",
+      "source": 1
+    },
+    {
+      "label": "Pakollisen rekisteröinnin raja",
+      "value": "BHD 37,500",
+      "note": "Tämän summan ylittäminen edellyttää rekisteröitymistä.",
+      "source": 1
+    },
+    {
+      "label": "Vapaaehtoisen rekisteröinnin raja",
+      "value": "BHD 18,750",
+      "note": "Lasketaan edellisten 12 kuukauden tai seuraavien 12 kuukauden ajalta, ja se voi perustua myynnin sijaan ALV:n alaisiin kuluihin.",
+      "source": 1
+    },
+    {
+      "label": "Laskun antamisen määräaika",
+      "value": "Seuraavan kuun 15. päivä",
+      "note": "Laskut on annettava viimeistään sen kuukauden jälkeisen kuukauden viidentenätoista päivänä, jona ALV:n suorituspäivä syntyi.",
+      "source": 1
+    },
+    {
+      "label": "Laskun valuutta",
+      "value": "BHD",
+      "note": "Arvot, ALV-määrät ja summat esitetään Bahrainin dinaareina, ja vaihtokurssi ilmoitetaan, jos käytetään ulkomaista valuuttaa.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "NBR:n VAT General Guiden kohta 10.3 kertoo, mitä täydessä ALV-laskussa on näyttävä. Yksinkertaistettu ALV-lasku edellyttää osan näistä.",
+    "items": [
+      "Merkintä \"VAT invoice\" (ALV-lasku)",
+      "Myyjän nimi, osoite ja ALV-tilinumero",
+      "Ostajan nimi ja osoite",
+      "Juokseva ALV-laskun numero",
+      "Laskun päivämäärä sekä toimitus- tai maksupäivä, jos se on eri",
+      "Riittävän yksityiskohtainen kuvaus myynnistä, jotta ALV-kohtelu on selvä",
+      "Uuden rakennuksen rakentamisessa rakennusluvan numero",
+      "Toimitettujen tavaroiden määrä",
+      "Myynnin arvo ja yksikköhinta dinaareina ilman ALV:tä",
+      "Mahdollinen alennus ja nettoarvo dinaareina ilman ALV:tä",
+      "ALV-kanta ja maksettava ALV dinaareina, riveittäin, jos kannat eroavat",
+      "Maksettava kokonaissumma ALV mukaan lukien dinaareina",
+      "Sovellettu vaihtokurssi, jos käytetään ulkomaista valuuttaa",
+      "Selkeä maininta, jos liiketoimi on verosta vapautettu",
+      "Viittaus voittomarginaalimenettelyyn, jos sitä käytetään"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Velvoitetta ei ole julkaistu",
+    "body": "Emme löydä yhtään National Bureau for Revenuen julkaisemaa verkkolaskutusjärjestelmää, vaihetta tai päivämäärää. Sen heinäkuussa 2026 päivitetty VAT General Guide ei mainitse sähköistä laskutusta lainkaan, eikä sen julkaisuluettelossa ole verkkolaskutusohjetta. Muualla julkaistuissa kommenteissa kuvataan suunnitteilla olevaa yritysten välistä järjestelmää mahdollista vaiheittaista käyttöönottoa varten, mutta mikään viraston omalla sivustolla ei tue mitään päivämäärää, joten emme julkaise sellaista. Jos suunnittelet järjestelmämuutosta, perusta se yllä oleviin laskun sisältösääntöihin, jotka ovat voimassa ja julkaistuja, äläkä odotettuun velvoitteeseen.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Oikein tekeminen",
+      "title": "Kaksi Bahrainille ominaista ansaa",
+      "body": "Ensimmäinen on verokannan historia. Bahrain siirtyi viidestä prosentista kymmeneen prosenttiin 1. tammikuuta 2022, joten kaikki sitä ennen kirjoitetut pohjat, hinnastot ja vertailuartikkelit ovat väärin, ja virhe säilyy hiljaa vanhoissa tarjouspohjissa. Toinen on antamisen määräaika. Bahrain ei sano vain, että lasku on annettava, vaan myös mihin mennessä: sen kuukauden jälkeisen kuukauden viidentenätoista päivänä, jona ALV:n suorituspäivä syntyi. Yritys, joka laskuttaa aina kun paperit ovat valmiina, voi myöhästyä huomaamattaan koskaan myöhästyneensä.",
+      "items": [
+        "Tarkista ennen vuotta 2022 tehdyistä pohjista 5 %:n kanta",
+        "Laskuta seuraavan kuun 15. päivään mennessä",
+        "Näytä ALV riveittäin, jos kannat eroavat",
+        "Ilmoita vaihtokurssi ulkomaanvaluuttaisissa laskuissa"
+      ]
+    },
+    {
+      "eyebrow": "Toimialan yksityiskohta",
+      "title": "Rakentamisen kenttä, jota kukaan ei odota",
+      "body": "Bahrainin laskun sisältösäännöissä on yksi vaatimus, jolle ei ole vastinetta muualla Persianlahdella: uuden rakennuksen rakentamiseen liittyvissä myynneissä laskussa on näyttävä rakennusluvan numero. Se on helppo ohittaa, koska se sisältyy yleiseen kuvausvaatimukseen eikä ole oma pääkenttänsä, ja se on juuri sellainen puute, joka huomataan vasta, kun laskua kyseenalaistetaan kuukausia myöhemmin. Jos toimit urakoinnissa, lisää luvan numero rivikuvauksen pohjaan sen sijaan, että luottaisit kenenkään muistiin.",
+      "items": [
+        "Uudisrakentamisen myynnit vaativat rakennusluvan numeron",
+        "Laita se pohjaan, älä jonkun muistiin",
+        "Kuvaa myynti riittävän hyvin, jotta sen ALV-kohtelu näkyy",
+        "Pidä verovapautusta koskeva maininta valmiina"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mikä on ALV-kanta Bahrainissa?",
+      "a": "Kymmenen prosenttia. Bahrain otti ALV:n käyttöön viiden prosentin kannalla 1. tammikuuta 2019 ja nosti yleisen verokannan kymmeneen prosenttiin 1. tammikuuta 2022 alkaen. Jokainen ohje, pohja tai vertailu, jossa Bahrainin kantana näkyy yhä viisi prosenttia, on tätä muutosta vanhempi."
+    },
+    {
+      "q": "Milloin minun on rekisteröidyttävä ALV-velvolliseksi Bahrainissa?",
+      "a": "Kun myyntisi ylittää BHD 37,500. Voit rekisteröityä vapaaehtoisesti BHD 18,750:stä alkaen edellisten tai seuraavien kahdentoista kuukauden perusteella, ja Bahrain sallii vapaaehtoisen rekisteröinnin myynnin lisäksi myös ALV:n alaisten kulujen perusteella, mikä voi sopia yritykselle, joka vasta kasvattaa myyntiään."
+    },
+    {
+      "q": "Onko verkkolaskutus pakollista Bahrainissa?",
+      "a": "Ei minkään National Bureau for Revenuen julkaiseman tiedon mukaan. Sen heinäkuussa 2026 päivitetty VAT General Guide ei mainitse sähköistä laskutusta, eikä sen julkaisuissa ole verkkolaskutusohjetta. Emme toista päivämääriä kommenteista, joita virasto itse ei ole julkaissut."
+    },
+    {
+      "q": "Mihin mennessä Bahrainin ALV-lasku on annettava?",
+      "a": "Sen kuukauden jälkeisen kuukauden viidentenätoista päivänä, jona ALV:n suorituspäivä syntyi. Kyse on todellisesta määräajasta eikä yleisestä odotuksesta, ja se yllättää yritykset, jotka koostavat laskutuksensa vuosineljänneksen lopussa."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Laskuta oikein Bahrainissa, ilmaiseksi",
+  "ctaSub": "Aseta verokanta itse, näytä ALV riveittäin ja pidä viraston vaatimat kentät pohjassa, jota sinun ei tarvitse muistaa.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, versio 1.15, mukaan lukien laskun vaatimuksia koskeva kohta 10.3",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

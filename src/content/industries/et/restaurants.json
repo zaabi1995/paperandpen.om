@@ -1,0 +1,35 @@
+{
+  "locale": "et",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restoranid ja kohvikud",
+  "metaTitle": "Restorani arveldus ja retseptipõhine laoarvestus | Paper & Pen",
+  "metaDescription": "Tasuta arveldus, toorainete laoarvestus, retseptide kalkulatsioon ja ostutellimused restoranidele ja kohvikutele. Hoia toidukulu kontrolli all.",
+  "keywords": "restoranitarkvara, kohviku kassa, retsepti kalkulatsioon, toidukulu kontroll, restorani laoarvestus, ostutellimus tarnijale, restorani erp",
+  "heroEyebrow": "Restoranidele ja kohvikutele",
+  "heroTitle": "Arvelda kiiresti, <em class=\"text-copper-400 not-italic\">hoia toidukulu kontrolli all</em>",
+  "heroSubtitle": "Prindi tšekke sekunditega, jälgi tooraineid grammi täpsusega ja tea iga roa tegelikku omahinda. Paper & Pen paneb köögi, kassa ja raamatud koos töötama.",
+  "heroBullets": ["Tasuta ja kiired tšekid", "Toorainete ja retseptide kalkulatsioon", "Ostutellimused tarnijatele"],
+  "features": [
+    { "icon": "receipt", "title": "Kiired tšekid", "desc": "Võta tellimus vastu, lisa maks ja teenustasu ning prindi või jaga tšekk sekunditega." },
+    { "icon": "manufacturing", "title": "Retseptide kalkulatsioon", "desc": "Koosta retseptid toorainetest, et teaksid iga roa tegelikku omahinda." },
+    { "icon": "inventory", "title": "Toorainete laoseis", "desc": "Jälgi tooraineid ühiku, partii ja säilivusaja järgi, koos madala laoseisu hoiatustega." },
+    { "icon": "truck", "title": "Tellimused tarnijatele", "desc": "Koosta tarnijatele ostutellimusi ning uuenda laoseisu ja omahinda kauba vastuvõtmisel." },
+    { "icon": "calc", "title": "Toidukulu protsent", "desc": "Võrdle roa omahinda menüühinnaga, et marginaalid püsiksid tervena." },
+    { "icon": "chart", "title": "Müügiaruanded", "desc": "Näe populaarseimaid roogi, päevakäivet ja trende päevade ja filiaalide kaupa." }
+  ],
+  "sections": [
+    { "eyebrow": "Kiirem saaliteenindus", "title": "Tšekid, mis hoiavad järjekorra liikumas", "body": "Lõunatipp ei jäta aega aeglaseks arveldamiseks. Lisa tooted, rakenda käibemaks või teenustasu, võta makse vastu ja anna puhas tšekk üle sekunditega ning jaga seda WhatsAppis, kui külaline palub. Iga müük kirjendub automaatselt sinu raamatutesse, nii et päeva sulgemine on üks pilk, mitte õhtutäis trükkimist.", "items": ["Lisa tooted ja võta makse kiiresti vastu", "Käibemaks ja teenustasu arvestatakse sinu eest", "Päevakäive seotakse automaatselt"] },
+    { "eyebrow": "Köök räägib tõtt", "title": "Retseptide kalkulatsioon, mis kaitseb su marginaali", "body": "Roog on kasumlik ainult siis, kui tead, mis see maksab. Koosta retseptid toorainetest, lase Paper & Penil arvutada iga taldriku omahind kehtivate ostuhindade järgi ja jälgi toidukulu protsenti, kui tarnijate hinnad muutuvad. Jälgi tooraineid partii ja säilivusaja järgi, koosta ostutellimusi ja hoia raiskamine kontrolli all. Loodud Omaanis, OMR, AED ja SAR ning 5% käibemaks sisse ehitatud, valmis ka USD, EUR või mis tahes turu jaoks.", "items": ["Retseptide omahind kehtivatest toorainehindadest", "Toorainete partii ja säilivusaja jälgimine", "Ostutellimused, mis uuendavad omahinda kauba vastuvõtmisel"] }
+  ],
+  "faqs": [
+    { "q": "Kas saan menüü omahinna arvutada toorainete hindadest?", "a": "Jah. Määra iga roog toorainetest koosnevaks retseptiks ja Paper & Pen arvutab selle omahinna kehtivate ostuhindade põhjal, nii et saad seada menüühinnad, mis kaitsevad su marginaali." },
+    { "q": "Kas see jälgib tooraineid ja säilivusaega?", "a": "Jah. Tooraineid jälgitakse mõõtühiku, partii ja säilivusaja järgi, koos madala laoseisu hoiatustega, et tellida enne, kui varud otsa saavad." },
+    { "q": "Kas saan rakendada käibemaksu ja teenustasu?", "a": "Jah. Rakenda Lahe riikide seadistatavat käibemaksu, teenustasu või mis tahes maksumäära, kõik arvutatakse arvel automaatselt." },
+    { "q": "Kas arveldus on kohvikule tasuta?", "a": "Müük ja arveldamine, sealhulgas tšekid, on igavesti tasuta. Lisa laohaldus ja tootmine, kui soovid toorainete jälgimist ja retseptide kalkulatsiooni." },
+    { "q": "Kas saan hallata mitut söögikohta?", "a": "Jah. Jälgi müüki ja laoseisu filiaalide kaupa ning näe reaalajas koguseid ja päevakäivet kõigis oma söögikohtades ühest tööruumist." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Teeninda kiiresti, arvesta targalt",
+  "ctaSub": "Alusta tasuta tšekkide ja arveldusega ning lisa laohaldus ja retseptide kalkulatsioon, et võtta toidukulu kontrolli alla."
+}

@@ -1,0 +1,110 @@
+{
+  "locale": "tl",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Mga Automotive Workshop",
+  "metaTitle": "ERP para sa Auto Workshop at Dealer · Paper & Pen",
+  "metaDescription": "Pamahalaan ang estimate, imbentaryo ng piyesa at invoicing ng automotive workshop mo. Subaybayan ang oras ng labor at warranty billing gamit ang libreng cloud ERP.",
+  "keywords": "software para sa automotive workshop, invoice ng auto repair, estimate software para sa mekaniko, imbentaryo ng piyesa sa talyer, car dealer ERP, warranty billing software, accounting ng workshop, software para sa talyer",
+  "heroEyebrow": "Para sa mga Workshop at Dealer",
+  "heroTitle": "Patakbuhin ang talyer mo gamit ang <em class=\"text-copper-400 not-italic\">malinaw na estimate</em> at tumpak na billing ng piyesa.",
+  "heroSubtitle": "Tigilan na ang pagkawala ng margin sa hindi na-bill na piyesa at hindi nasubaybayang labor. Tinutulungan ng Paper & Pen ang mga automotive workshop na mag-isyu ng detalyadong repair estimate, subaybayan ang imbentaryo hanggang sa part number, at gawing final na invoice agad ang mga naaprubahan.",
+  "heroBullets": [
+    "Subaybayan ang piyesa at shop rate",
+    "Gawing invoice ang estimate",
+    "Pamahalaan ang third-party na warranty billing"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Repair estimate",
+      "desc": "Bumuo ng detalyadong estimate para sa pahintulot ng customer. Ilista ang oras ng labor, diagnostic fee at kailangang piyesa bago simulan ang repair."
+    },
+    {
+      "icon": "inventory",
+      "title": "Piyesa at margin",
+      "desc": "Subaybayan ang stock mo gamit ang eksaktong part number. Bantayan ang cost ng pagbili at magtakda ng presyo ng benta para protektahan ang profit margin mo."
+    },
+    {
+      "icon": "clock",
+      "title": "Labor sa shop rate",
+      "desc": "Magdagdag ng service line item para sa oras ng mga mekaniko mo. I-multiply ang standard na shop rate mo sa oras ng labor na kailangan sa trabaho."
+    },
+    {
+      "icon": "invoice",
+      "title": "Third-party na billing",
+      "desc": "I-invoice ang may-ari ng sasakyan para sa deductible nila at i-bill ang natitirang balanse diretso sa warranty provider o manufacturer."
+    },
+    {
+      "icon": "receipt",
+      "title": "Credit sa diagnostic fee",
+      "desc": "Maglagay ng diagnostic fee sa unang estimate, saka madaling i-credit ito pabalik sa final na invoice kung itutuloy ng customer ang repair."
+    },
+    {
+      "icon": "truck",
+      "title": "Purchase order",
+      "desc": "Magpadala ng purchase order sa mga supplier mo ng piyesa. Itala ang papasok na delivery para kusang ma-update ang lebel ng stock bago ang susunod na trabaho."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Pag-apruba ng Repair",
+      "title": "Mula unang diagnosis hanggang final na bill ng repair",
+      "body": "Kailangang malaman ng customer ang cost bago mo hawakan ng liyabe ang makina. Hawak ng Paper & Pen ang eksaktong pagkakasunod-sunod na ginagamit ng mga service advisor mo araw-araw. Puwede kang mag-isyu ng unang estimate na may kasamang diagnostic fee. Kapag nakita na ang sira, i-update ang estimate gamit ang partikular na piyesa at oras ng labor. Kapag pinahintulutan ng customer ang trabaho, gagawin mong final na invoice ang eksaktong estimate na iyon. Kung patakaran mong i-waive ang diagnostic charge kapag naaprubahan ang repair, magdagdag lang ng negatibong line item para i-credit ang fee na iyon laban sa total.",
+      "items": [
+        "Mag-isyu ng malinaw na repair quotation",
+        "Gawing invoice ang naaprubahang quote",
+        "Madaling i-credit ang diagnostic fee",
+        "Itala ang oras ng labor at shop rate"
+      ]
+    },
+    {
+      "eyebrow": "Pamamahala ng Piyesa",
+      "title": "Protektahan ang margin mo sa bawat piyesang naibenta",
+      "body": "Daan-daang component ang hawak ng abalang workshop, mula oil filter hanggang brake caliper. Kapag nawala ka sa kung magkano ang ibinayad mo sa supplier, nawawala ang profit margin mo. Hinahayaan ka ng sistema ng imbentaryo namin na itala ang bawat item ayon sa partikular na part number nito. Itinatala mo ang cost price pagtanggap ng paninda sa purchase order, at nagtatakda ng nakapirming presyo ng benta para sa mga invoice mo. Kapag kumuha ang mekaniko ng piyesa sa estante at idinagdag mo ito sa bill ng repair, kusang bumababa ang lebel ng stock mo at tama ang pagkakakuwenta ng kita mo.",
+      "items": [
+        "Subaybayan ang item ayon sa eksaktong part number",
+        "Bantayan ang cost price ng supplier",
+        "Magtakda ng kumikitang presyo ng benta",
+        "Kusang magbawas ng stock sa benta"
+      ]
+    },
+    {
+      "eyebrow": "Hating Billing",
+      "title": "Hawakan ang warranty claim at third-party na nagbabayad",
+      "body": "Hindi lahat ng repair ay binabayaran ng taong nagmamaneho ng sasakyan. Madalas gumawa ang mga dealership at awtorisadong workshop ng warranty work na kailangang i-bill sa manufacturer o sa extended warranty company. Pinapayagan ka ng Paper & Pen na magkaroon ng hiwalay na customer profile para sa mga corporate na nagbabayad na ito. Makakagawa ka ng invoice para sa may-ari ng sasakyan para sa excess nila o sa mga wear item na hindi sakop, at gumawa ng hiwalay at detalyadong invoice para sa warranty provider para sa naaprubahang labor code at kapalit na piyesa.",
+      "items": [
+        "Magkaroon ng profile para sa corporate na nagbabayad",
+        "Direktang i-invoice ang warranty provider",
+        "Hatiin ang bill sa may-ari at warranty",
+        "Mag-ingat ng detalyadong ledger para sa lahat ng nagbabayad"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puwede ko ba itong i-integrate sa time-tracking software ng mekaniko o VIN decoder ko?",
+      "a": "Hindi. Standalone na cloud ERP ang Paper & Pen. Bagama't puwede kang magdagdag ng oras ng labor bilang line item sa mga invoice mo at gamitin ang HR module namin para sa simpleng payroll, wala kaming live na time clock para sa mekaniko, built-in na VIN decoding, o direktang integration sa mga third-party na auto repair database."
+    },
+    {
+      "q": "Paano ko hahawakan ang diagnostic fee na kini-credit kapag itinuloy nila ang repair?",
+      "a": "Idagdag mo ang diagnostic fee bilang karaniwang service item sa unang quotation. Kapag inaprubahan ng customer ang buong repair, gawin mong invoice ang quotation, idagdag ang kailangang piyesa at labor, at magdagdag ng negatibong line item para ibawas ang orihinal na halaga ng diagnostic."
+    },
+    {
+      "q": "Puwede ko bang subaybayan ang imbentaryo ng piyesa mula sa iba't ibang supplier?",
+      "a": "Oo. Puwede kang gumawa ng purchase order para sa iba't ibang supplier ng piyesa at itala ang papasok na delivery note. Ina-update ng sistema ang dami ng imbentaryo mo at sinusubaybayan ang cost price mo, kaya alam mo nang eksakto kung magkano ang margin mo kapag sinisingil mo ang customer."
+    },
+    {
+      "q": "Posible bang i-bill ang warranty company sa halip na ang driver?",
+      "a": "Oo. Gumawa ka lang ng customer profile para sa warranty provider. Saka mo maiisyu sa kanila nang direkta ang invoice para sa sakop na piyesa at labor sa shop rate, kaya hiwalay ang outstanding na balanse nila sa mga retail na customer mo."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Ayusin ang billing ng workshop mo ngayon",
+  "ctaSub": "Gumawa ng detalyadong estimate, subaybayan ang imbentaryo ng piyesa, at i-invoice ang mga customer mo nang libre."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "sl",
+  "slug": "payments",
+  "order": 10,
+  "title": "Plačila",
+  "metaTitle": "Spletna plačila računov · Hitreje do plačila · Paper & Pen",
+  "metaDescription": "Vsakemu računu dodajte povezavo za spletno plačilo in prejmite plačilo s kartico. Paymob in globalni prehodi, katera koli valuta, samodejna uskladitev s knjigami.",
+  "keywords": "spletna plačila, plačila s kartico, spletno plačilo računa, paymob, plačilni prehod, hitrejše plačilo, povezava za plačilo",
+  "heroEyebrow": "Vgrajeno",
+  "heroTitle": "Naj vas stranke plačajo <em class=\"text-copper-400 not-italic\">z enim dotikom</em>",
+  "heroSubtitle": "Na vsak račun dodajte varno povezavo za spletno plačilo, da stranke takoj poravnajo s kartico. Plačila se samodejno uskladijo s knjigami, v kateri koli valuti, kjer koli.",
+  "heroBullets": ["Povezava za spletno plačilo na vsakem računu", "Samodejna uskladitev z glavno knjigo", "Paymob in globalni plačilni prehodi"],
+  "features": [
+    { "icon": "card", "title": "Plačilo s kartico", "desc": "Stranke plačajo kateri koli račun prek spleta s kartico, brez prijave ali aplikacije." },
+    { "icon": "bolt", "title": "Takojšnja povezava za plačilo", "desc": "Vsak račun ima varno povezavo, ki jo delite po e-pošti ali WhatsApp." },
+    { "icon": "refresh", "title": "Samodejna uskladitev", "desc": "Uspešna plačila označijo račun kot plačan in se knjižijo v knjige." },
+    { "icon": "globe", "title": "Katera koli valuta", "desc": "Zbirajte v OMR, AED, SAR, USD, EUR in drugih valutah prek pravega prehoda." },
+    { "icon": "shield", "title": "Varno in PCI", "desc": "Podatke kartic obdelujejo certificirani prehodi, vi jih nikoli ne hranite." },
+    { "icon": "receipt", "title": "Poslana potrdila", "desc": "Stranke samodejno prejmejo potrdilo v trenutku, ko je plačilo uspešno." }
+  ],
+  "sections": [
+    { "eyebrow": "Hitreje do plačila", "title": "Odstranite ovire med računom in denarjem", "body": "Hitreje ko stranka lahko plača, hitreje dobite denar. Povezava za spletno plačilo na vsakem računu pomeni, da ni treba prepisovati bančnih podatkov in čakati na nakazilo. Stranka tapne, plača s kartico in račun se posodobi sam, potrdilo pa je že na poti.", "items": ["Plačilo s kartico z enim dotikom", "Povezavo delite prek WhatsApp in e-pošte", "Samodejna potrdila"] },
+    { "eyebrow": "Lokalno in globalno", "title": "Pravi plačilni prehod za vaš trg", "body": "Paper & Pen poveže Paymob za države Zaliva in druge globalne prehode, da sprejemate kartice, ki jih vaše stranke dejansko uporabljajo, v njihovi valuti. Vsako nakazilo se uskladi s pravim računom in knjiži v vaše knjige, zato izterjava in knjigovodstvo ostaneta usklajena.", "items": ["Paymob za države Zaliva in globalne možnosti", "Zbiranje plačil v več valutah", "Uskladitev s točno določenim računom"] }
+  ],
+  "faqs": [
+    { "q": "Ali je vklop spletnega plačila brezplačen?", "a": "Da, dodajanje povezav za spletno plačilo je vgrajeno. Plačilni prehod za vsako transakcijo zaračuna svojo provizijo za obdelavo, kot to vedno počnejo prehodi." },
+    { "q": "Kateri plačilni prehodi so podprti?", "a": "Paymob za države Zaliva in drugi globalni prehodi, zato lahko sprejemate kartice, ki jih stranke uporabljajo, v njihovi valuti." },
+    { "q": "Ali plačilo samodejno posodobi račun?", "a": "Da. Uspešno plačilo označi račun kot plačan, pošlje potrdilo in knjiži vknjižbo v vaše knjige." },
+    { "q": "Ali lahko stranke plačajo v različnih valutah?", "a": "Da. Zbirajte v OMR, AED, SAR, USD, EUR in drugih valutah, prek ustreznega plačilnega prehoda." },
+    { "q": "Ali je plačilo s kartico varno?", "a": "Da. Podatke kartic obdelujejo plačilni prehodi s certifikatom PCI, v Paper & Pen se nikoli ne hranijo." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Spremenite račune v takojšnji denar",
+  "ctaSub": "Začnite brezplačno in vsakemu računu dodajte povezavo za spletno plačilo, da vas stranke plačajo z enim dotikom."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "reports",
+  "order": 8,
+  "title": "Mga Ulat at Analytics",
+  "metaTitle": "Mga Ulat at Analytics para sa Negosyo · Paper & Pen",
+  "metaDescription": "Live na dashboard at ulat sa benta, cash, kita, tax at stock. Bumaba hanggang source, i-export sa Excel o PDF, sa kahit anong currency. Gumagana sa buong mundo.",
+  "keywords": "ulat ng negosyo, analytics dashboard, sales report, profit and loss report, tax report, financial report, i-export sa excel, business report Pilipinas",
+  "heroEyebrow": "Add-on na module",
+  "heroTitle": "Desisyong suportado ng <em class=\"text-copper-400 not-italic\">live na numero</em>",
+  "heroSubtitle": "Bawat benta, bayad at galaw ay naiipon sa malinaw na dashboard at ulat, real time. Makita kung ano ang mabenta, sino ang may utang sa iyo at nasaan ang kita mo, saka i-export ito kahit saan.",
+  "heroBullets": ["Real-time na dashboard", "Bumaba hanggang source document", "I-export sa Excel o PDF"],
+  "features": [
+    { "icon": "reports", "title": "Sales analytics", "desc": "Makita ang top na produkto, pinakamagagaling na kliyente at trend sa kahit anong period." },
+    { "icon": "chart", "title": "Financial report", "desc": "Profit and loss, balance sheet, cash flow at aged receivables." },
+    { "icon": "calc", "title": "Tax report", "desc": "Buod ng input at output tax na handa para sa VAT return mo." },
+    { "icon": "inventory", "title": "Stock report", "desc": "Ulat sa valuation, galaw at low-stock sa lahat ng bodega." },
+    { "icon": "doc", "title": "Bumaba hanggang source", "desc": "I-click ang kahit anong numero para sundan ito pabalik sa eksaktong dokumento sa likod nito." },
+    { "icon": "refresh", "title": "Laging updated", "desc": "Live na nag-a-update ang ulat habang nangyayari ang transaksyon, walang overnight na batch." }
+  ],
+  "sections": [
+    { "eyebrow": "Linaw sa isang tingin", "title": "Iisang dashboard para sa buong negosyo", "body": "Buksan ang Paper & Pen at makita ang mga numerong mahalaga: cash sa bangko, sino ang may utang sa iyo, ano ang mabenta at ang kita mo ngayong buwan. Dahil real time pumapasok ang lahat, ang dashboard ang totoo, hindi snapshot noong nakaraang linggo.", "items": ["Cash, may utang at kita sa harap", "I-filter ayon sa period, kliyente o produkto", "Live, hindi kailanman luma"] },
+    { "eyebrow": "I-share at maghukay pa", "title": "Ulat na pagkakatiwalaan ng accountant at board mo", "body": "Bumaba mula sa kahit anong ulat diretso sa source document, saka i-export sa Excel o PDF para sa accountant, bangko o board mo. Mag-ulat sa kahit anong currency, at ilipat ang interface sa Arabic, Ingles, Hindi, Bengali o Urdu para pare-parehong numero ang mabasa ng lahat sa sarili nilang wika.", "items": ["Drill-down sa bawat transaksyon", "I-export sa Excel at PDF", "Multi-currency at maraming wika"] }
+  ],
+  "faqs": [
+    { "q": "Libre ba ang mga ulat?", "a": "Opsyonal na bayad na add-on ang Mga Ulat. Kasama sa libre-habambuhay na core ang dashboard ng invoicing, at available ang buong reporting suite kapag kailangan mo na ng mas malalim na analytics." },
+    { "q": "Real time ba ang mga ulat?", "a": "Oo. Live na pumapasok ang bawat transaksyon, kaya laging ipinapakita ng dashboard at ulat ang kasalukuyang lagay ng negosyo mo." },
+    { "q": "Puwede ko bang i-export ang mga ulat?", "a": "Oo. I-export sa Excel o PDF para i-share sa accountant, bangko o board mo." },
+    { "q": "Puwede ko bang sundan ang isang numero pabalik sa source nito?", "a": "Oo. I-click ang kahit anong numero para bumaba hanggang sa eksaktong invoice, bayad o journal entry sa likod nito." },
+    { "q": "Sinusuportahan ba ng ulat ang maraming currency?", "a": "Oo. Mag-ulat sa kahit anong currency at tingnan ang interface sa limang wika." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Makita nang malinaw ang negosyo mo",
+  "ctaSub": "Magsimula nang libre sa invoicing at idagdag ang Mga Ulat para sa live na dashboard at analytics na handang i-export."
+}

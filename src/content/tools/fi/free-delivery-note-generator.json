@@ -1,0 +1,37 @@
+{
+  "locale": "fi",
+  "slug": "free-delivery-note-generator",
+  "toolType": "delivery-note",
+  "order": 6,
+  "title": "Ilmainen lähetegeneraattori",
+  "metaTitle": "Ilmainen lähetegeneraattori · Tee lähete verkossa · Paper & Pen",
+  "metaDescription": "Tee lähetteitä verkossa ilmaiseksi. Luettele toimitetut tuotteet, lisää määrät ja lataa tulostusvalmis PDF sekunneissa.",
+  "keywords": "ilmainen lähetegeneraattori, lähete, tee lähete verkossa, ilmainen lähetepohja, lähete pdf, rahtikirja, pakkauslista, kuittaus toimituksesta",
+  "heroEyebrow": "Ilmainen · Ei rekisteröitymistä",
+  "heroTitle": "Ilmainen lähetegeneraattori",
+  "heroSubtitle": "Lähetä tavarat matkaan selkeän lähetteen kanssa sekunneissa. Luettele toimitetut tuotteet ja määrät ja lataa tulostusvalmis PDF, jonka asiakas allekirjoittaa vastaanottaessaan. Tiliä ei tarvita.",
+  "howToSteps": [
+    { "name": "Lisää tietosi", "text": "Kirjoita yrityksesi nimi, asiakas, lähetteen numero ja päivämäärä." },
+    { "name": "Luettele tuotteet", "text": "Lisää jokainen toimitettava tuote ja sen määrä. Lähetteessä ei tarvita hintoja." },
+    { "name": "Lisää toimitustiedot", "text": "Merkitse toimitusosoite, ajoneuvo tai kuljettaja sekä mahdolliset käsittelyohjeet." },
+    { "name": "Lataa PDF", "text": "Klikkaa lataa ja tulosta lähete asiakkaan allekirjoitettavaksi, tai rekisteröidy luodaksesi sen suoraan tilauksesta." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Heti ja ilmaiseksi", "desc": "Ei rekisteröitymistä, ei vesileimaa, ei rajoituksia. Tee niin monta lähetettä kuin tarvitset." },
+    { "icon": "truck", "title": "Todiste toimituksesta", "desc": "Selkeä, allekirjoitettava tosite siitä, mitä lähetettiin ja vastaanotettiin, ja tila asiakkaan allekirjoitukselle." },
+    { "icon": "doc", "title": "Määrät, ei hintoja", "desc": "Näytä tuotteet ja määrät paljastamatta hintoja, juuri kuten lähetteen kuuluu." }
+  ],
+  "sections": [
+    { "title": "Miksi käyttää Paper & Penin lähetegeneraattoria?", "body": "Lähete kulkee tavaran mukana ja todistaa, mitä lähetettiin ja vastaanotettiin, näyttämättä hintoja. Meidän generaattorimme on ilmainen ja tuottaa siistin PDF:n allekirjoitustilalla, joten vajaita tai vääriä toimituksia koskevat erimielisyydet on helppo ratkaista." },
+    { "eyebrow": "Generaattoria pidemmälle", "title": "Lähetteet suoraan tilauksistasi", "body": "Käsin kirjoitettu lähete voi poiketa todellisesta tilauksesta. Täydessä Paper & Pen ERP:ssä lähete luodaan suoraan myyntitilauksesta tai laskusta, joten tuotteet ja määrät täsmäävät aina, varasto vähenee lähetettäessä ja asiakas voi vahvistaa vastaanoton.", "items": ["Luo lähete mistä tahansa myyntitilauksesta", "Varasto vähenee automaattisesti lähetettäessä", "Kirjaa toimituksen vahvistus tilaukselle"] }
+  ],
+  "faqs": [
+    { "q": "Mikä on lähete?", "a": "Lähete on asiakirja, joka kulkee lähetyksen mukana ja luettelee toimitetut tuotteet ja määrät. Asiakas allekirjoittaa sen todisteeksi vastaanotosta, eikä siinä yleensä näy hintoja." },
+    { "q": "Miten lähete eroaa laskusta?", "a": "Lähete vahvistaa, mitä fyysisesti saapui, eikä siinä ole hintoja. Lasku pyytää maksua ja näyttää summat ja veron. Voit tehdä molemmat täällä ilmaiseksi." },
+    { "q": "Onko lähetegeneraattori todella ilmainen?", "a": "Kyllä. Se on täysin ilmainen, ilman rekisteröitymistä, ilman vesileimaa ja ilman rajoitusta tekemiesi lähetteiden määrälle." },
+    { "q": "Voiko lähetteet luoda tilauksistani?", "a": "Lataa erilliset lähetteet ilmaiseksi, tai luo ilmainen Paper & Pen -työtila, jossa lähetteet syntyvät suoraan myyntitilauksista ja varasto vähenee automaattisesti." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-purchase-order-generator", "/invoicing/delivery-notes", "/free-invoicing-software"],
+  "ctaTitle": "Toimita todisteen kanssa",
+  "ctaSub": "Luo lähetteet tilauksista, vähennä varastoa lähetettäessä ja kirjaa vahvistukset ilmaisella Paper & Pen -työtilalla."
+}

@@ -1,0 +1,37 @@
+{
+  "locale": "sl",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Brezplačni generator naročilnic",
+  "metaTitle": "Brezplačni generator naročilnic · Paper & Pen",
+  "metaDescription": "Brezplačno ustvarite naročilnice na spletu. Dodajte dobavitelja in artikle, nastavite katero koli valuto in davek ter v nekaj sekundah prenesite PDF, pripravljen za tisk.",
+  "keywords": "brezplačni generator naročilnic, izdelava naročilnice, naročilnica na spletu, brezplačna predloga naročilnice, naročilnica pdf, obrazec za naročilo pri dobavitelju",
+  "heroEyebrow": "Brezplačno · Brez registracije",
+  "heroTitle": "Brezplačni generator naročilnic",
+  "heroSubtitle": "V nekaj sekundah pošljite jasno naročilnico kateremu koli dobavitelju. Dodajte postavke, izberite katero koli valuto, uporabite davek in prenesite PDF, pripravljen za tisk. Račun ni potreben.",
+  "howToSteps": [
+    { "name": "Dodajte svoje podatke", "text": "Vpišite ime podjetja, dobavitelja, številko naročilnice in datum." },
+    { "name": "Dodajte postavke", "text": "Navedite blago ali storitve, ki jih naročate, s količino in ceno. Zneski se izračunajo samodejno." },
+    { "name": "Nastavite valuto in davek", "text": "Izberite katero koli valuto in nastavite ustrezno stopnjo DDV ali prometnega davka." },
+    { "name": "Prenesite PDF", "text": "Kliknite prenos in pošljite naročilnico, pripravljeno za tisk, ali se registrirajte, da spremljate dostavo in jo primerjate z računom dobavitelja." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Takoj in brezplačno", "desc": "Brez registracije, brez vodnega žiga, brez omejitev. Izdajte toliko naročilnic, kot jih potrebujete." },
+    { "icon": "globe", "title": "Katera koli valuta", "desc": "Naročajte v OMR, AED, SAR, USD, EUR, GBP in drugih valutah, idealno za tuje dobavitelje." },
+    { "icon": "cart", "title": "Jasni pogoji naročila", "desc": "Navedite količine, podatke o dostavi in plačilne pogoje, da dobavitelji pošljejo točno to, kar potrebujete." }
+  ],
+  "sections": [
+    { "title": "Zakaj uporabiti generator naročilnic Paper & Pen?", "body": "Naročilnica je vaše formalno, sledljivo navodilo dobavitelju in vaša zaščita, če je dostava napačna. Naš generator je brezplačen, podpira več valut in ustvari čist PDF, ki ga prepozna vsak dobavitelj. Brez preglednice, brez registracije." },
+    { "eyebrow": "Več kot generator", "title": "Od naročilnice do zaloge in računa dobavitelja", "body": "PDF je šele začetek. Pravi nabavni proces poveže naročilo s prejetim blagom, računi dobaviteljev in stanjem zalog. V celovitem Paper & Pen ERP naročilnica spremlja, kaj je naročeno, ob prihodu blaga posodobi zaloge in se primerja z računom dobavitelja, da nikoli ne plačate preveč.", "items": ["Spremljajte naročene, prejete in odprte količine", "Samodejna posodobitev zalog ob prevzemu blaga", "Primerjava računa dobavitelja z izvirno naročilnico"] }
+  ],
+  "faqs": [
+    { "q": "Kaj je naročilnica?", "a": "Naročilnica je dokument, ki ga pošljete dobavitelju, da formalno naročite blago ali storitve po dogovorjeni ceni in količini. Ko jo dobavitelj sprejme, postane zavezujoče naročilo." },
+    { "q": "Ali je generator naročilnic res brezplačen?", "a": "Da. Popolnoma brezplačen je, brez registracije, brez vodnega žiga in brez omejitve števila naročilnic, ki jih ustvarite." },
+    { "q": "Ali lahko pri tujem dobavitelju naročim v njegovi valuti?", "a": "Da. Izberite katero koli valuto, vključno z USD, EUR in GBP, decimalke pa se prilagodijo samodejno, zato so čezmejna naročila jasna." },
+    { "q": "Ali lahko spremljam dostavo in primerjam račun dobavitelja?", "a": "Naročilnico prenesite brezplačno ali ustvarite brezplačen delovni prostor Paper & Pen, da spremljate prejeto blago, posodabljate zaloge in račune dobaviteljev primerjate z naročilnicami." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Naročajte z nadzorom",
+  "ctaSub": "Z brezplačnim delovnim prostorom Paper & Pen spremljajte vsako naročilnico, posodobite zaloge ob prevzemu in primerjajte račune dobaviteljev."
+}

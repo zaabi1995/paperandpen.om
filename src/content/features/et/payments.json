@@ -1,0 +1,35 @@
+{
+  "locale": "et",
+  "slug": "payments",
+  "order": 10,
+  "title": "Maksed",
+  "metaTitle": "Arvete veebimaksed · Saa raha kiiremini · Paper & Pen",
+  "metaDescription": "Lisa igale arvele veebimakse link ja võta vastu kaardimakseid. Paymob ja ülemaailmsed makseväravad, iga valuuta, automaatne sidumine raamatutega.",
+  "keywords": "veebimaksed, kaardimaksete vastuvõtmine, arve tasumine veebis, paymob, maksevärav, makselink, kiirem laekumine",
+  "heroEyebrow": "Sisse ehitatud",
+  "heroTitle": "Lase klientidel maksta <em class=\"text-copper-400 not-italic\">ühe puudutusega</em>",
+  "heroSubtitle": "Lisa igale arvele turvaline veebimakse link, et kliendid saaksid kohe kaardiga tasuda. Maksed seotakse automaatselt sinu raamatutega, mis tahes valuutas ja kõikjal.",
+  "heroBullets": ["Veebimakse link igal arvel", "Automaatne sidumine pearaamatuga", "Paymob ja ülemaailmsed makseväravad"],
+  "features": [
+    { "icon": "card", "title": "Maksa kaardiga", "desc": "Kliendid tasuvad iga arve veebis kaardiga, sisselogimist ega rakendust pole vaja." },
+    { "icon": "bolt", "title": "Kohene makselink", "desc": "Igal arvel on turvaline link, mida saab jagada e-posti või WhatsAppi kaudu." },
+    { "icon": "refresh", "title": "Automaatne sidumine", "desc": "Õnnestunud makse märgib arve tasutuks ja kirjendub sinu raamatutesse." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Võta raha vastu OMR-ides, AED-des, SAR-ides, USD-des, EUR-ides ja muudes valuutades õige makseväravaga." },
+    { "icon": "shield", "title": "Turvaline ja PCI", "desc": "Kaardiandmeid töötlevad sertifitseeritud makseväravad, sina neid ei salvesta." },
+    { "icon": "receipt", "title": "Kviitungid saadetakse", "desc": "Kliendid saavad automaatse kviitungi kohe, kui makse õnnestub." }
+  ],
+  "sections": [
+    { "eyebrow": "Saa raha kiiremini", "title": "Eemalda takistused arve ja raha vahelt", "body": "Mida kiiremini klient saab maksta, seda kiiremini jõuab raha sinuni. Veebimakse link igal arvel tähendab, et pangaandmeid pole vaja kopeerida ega ülekannet oodata. Klient puudutab, maksab kaardiga ja arve uueneb ise, kviitung on juba teel.", "items": ["Kaardimakse ühe puudutusega", "Link on jagatav WhatsAppis ja e-postis", "Automaatsed kviitungid"] },
+    { "eyebrow": "Kohalik ja ülemaailmne", "title": "Õige maksevärav sinu turu jaoks", "body": "Paper & Pen ühendab Lahe riikide jaoks Paymobi ja teised ülemaailmsed makseväravad, nii et saad vastu võtta kaarte, mida su kliendid päriselt kasutavad, nende valuutas. Iga laekumine seotakse õige arvega ja kirjendub sinu kontodele, nii et raha kogumine ja raamatupidamine käivad käsikäes.", "items": ["Paymob Lahe riikidele ja ülemaailmsed valikud", "Raha vastuvõtmine mitmes valuutas", "Seotakse täpselt õige arvega"] }
+  ],
+  "faqs": [
+    { "q": "Kas veebimakse sisselülitamine on tasuta?", "a": "Jah, veebimakse lingid on sisse ehitatud. Makseväravad võtavad iga tehingu eest oma töötlustasu, nagu makseväravad alati teevad." },
+    { "q": "Milliseid makseväravaid toetatakse?", "a": "Paymobi Lahe riikide jaoks ja teisi ülemaailmseid makseväravaid, nii et saad vastu võtta kaarte, mida su kliendid kasutavad, nende valuutas." },
+    { "q": "Kas makse uuendab arvet automaatselt?", "a": "Jah. Õnnestunud makse märgib arve tasutuks, saadab kviitungi ja kirjendab kande sinu raamatutesse." },
+    { "q": "Kas kliendid saavad maksta eri valuutades?", "a": "Jah. Võta raha vastu OMR-ides, AED-des, SAR-ides, USD-des, EUR-ides ja muudes valuutades sobiva makseväravaga." },
+    { "q": "Kas kaardimakse on turvaline?", "a": "Jah. Kaardiandmeid töötlevad PCI-sertifikaadiga makseväravad, Paper & Penis neid kunagi ei salvestata." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Muuda arved kohe rahaks",
+  "ctaSub": "Alusta tasuta ja lisa igale arvele veebimakse link, et kliendid saaksid sulle maksta ühe puudutusega."
+}

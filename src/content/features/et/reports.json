@@ -1,0 +1,35 @@
+{
+  "locale": "et",
+  "slug": "reports",
+  "order": 8,
+  "title": "Aruanded",
+  "metaTitle": "Äriaruanded ja analüütika · Paper & Pen",
+  "metaDescription": "Reaalajas töölauad ja aruanded müügi, raha, kasumi, maksude ja laoseisu kohta. Liigu algdokumendini, ekspordi Excelisse või PDF-i, igas valuutas.",
+  "keywords": "äriaruanded, analüütika töölaud, müügiaruanne, kasumiaruanne, maksuaruanne, finantsaruanded, eksport excelisse",
+  "heroEyebrow": "Lisamoodul",
+  "heroTitle": "Otsused, mille taga on <em class=\"text-copper-400 not-italic\">reaalajas numbrid</em>",
+  "heroSubtitle": "Iga müük, makse ja laoliikumine koondub selgetesse töölaudadesse ja aruannetesse, reaalajas. Näe, mis müüb, kes sulle võlgneb ja kus on su kasum, ning ekspordi see kuhu iganes.",
+  "heroBullets": ["Reaalajas töölauad", "Liigu algdokumendini", "Eksport Excelisse või PDF-i"],
+  "features": [
+    { "icon": "reports", "title": "Müügianalüütika", "desc": "Näe parimaid tooteid, parimaid kliente ja trende mis tahes perioodil." },
+    { "icon": "chart", "title": "Finantsaruanded", "desc": "Kasumiaruanne, bilanss, rahavood ja nõuete vanuseline jaotus." },
+    { "icon": "calc", "title": "Maksuaruanded", "desc": "Sisend- ja väljundkäibemaksu kokkuvõtted, valmis sinu käibedeklaratsiooniks." },
+    { "icon": "inventory", "title": "Laoaruanded", "desc": "Laoseisu väärtuse, liikumiste ja madala laoseisu aruanded kõigis ladudes." },
+    { "icon": "doc", "title": "Liigu algdokumendini", "desc": "Klõpsa mis tahes numbril, et leida täpselt see dokument, mis selle taga on." },
+    { "icon": "refresh", "title": "Alati ajakohane", "desc": "Aruanded uuenevad tehingute toimumise ajal, öist töötlust pole." }
+  ],
+  "sections": [
+    { "eyebrow": "Selgus ühe pilguga", "title": "Üks töölaud kogu ettevõtte jaoks", "body": "Ava Paper & Pen ja näe olulisi numbreid: raha pangas, kes sulle võlgneb, mis müüb ja selle kuu kasum. Kuna kõik kirjendub reaalajas, on töölaud tõde, mitte eelmise nädala hetktõmmis.", "items": ["Raha, võlgnikud ja kasum kohe näha", "Filtreeri perioodi, kliendi või toote järgi", "Reaalajas, mitte kunagi aegunud"] },
+    { "eyebrow": "Jaga ja kaeva sügavamale", "title": "Aruanded, mida su raamatupidaja ja juhatus usaldavad", "body": "Liigu igast aruandest otse algdokumendini ning ekspordi Excelisse või PDF-i oma raamatupidajale, pangale või juhatusele. Koosta aruandeid mis tahes valuutas ja vaheta liides araabia, inglise, hindi, bengali või urdu keelde, et kõik loeksid samu numbreid oma keeles.", "items": ["Liikumine iga tehinguni", "Eksport Excelisse ja PDF-i", "Mitu valuutat ja mitu keelt"] }
+  ],
+  "faqs": [
+    { "q": "Kas aruanded on tasuta?", "a": "Aruanded on valikuline tasuline lisamoodul. Igavesti tasuta põhipakett sisaldab arvelduse töölaudu ning täielik aruandluse komplekt on saadaval, kui vajad põhjalikumat analüütikat." },
+    { "q": "Kas aruanded on reaalajas?", "a": "Jah. Iga tehing kirjendub kohe, nii et töölauad ja aruanded näitavad alati su ettevõtte praegust seisu." },
+    { "q": "Kas saan aruandeid eksportida?", "a": "Jah. Ekspordi Excelisse või PDF-i, et jagada neid oma raamatupidaja, panga või juhatusega." },
+    { "q": "Kas saan numbri jälgida tagasi algallikani?", "a": "Jah. Klõpsa mis tahes numbril, et liikuda täpselt selle arve, makse või raamatupidamiskandeni, mis selle taga on." },
+    { "q": "Kas aruanded toetavad mitut valuutat?", "a": "Jah. Koosta aruandeid mis tahes valuutas ja kasuta liidest viies keeles." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Näe oma ettevõtet selgelt",
+  "ctaSub": "Alusta tasuta arveldamisega ja lisa aruannete moodul, et saada reaalajas töölauad ja ekspordiks valmis analüütika."
+}

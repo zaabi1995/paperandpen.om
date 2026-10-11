@@ -1,0 +1,35 @@
+{
+  "locale": "sk",
+  "slug": "retail",
+  "order": 2,
+  "title": "Maloobchod a predajne",
+  "metaTitle": "Softvér na účtovanie a sklad pre predajne · Paper & Pen",
+  "metaDescription": "Bezplatné účtovanie plus sklad s čiarovými kódmi, upozornenia na nízky stav a ocenenie zásob pre predajne a maloobchod. Predávajte rýchlo a majte čisté knihy.",
+  "keywords": "softvér pre maloobchod, účtovanie v predajni, sklad s čiarovými kódmi, fakturácia na pokladni, upozornenie na nízky stav, erp pre maloobchod, sklad pre viac predajní",
+  "heroEyebrow": "Pre predajne a maloobchod",
+  "heroTitle": "Predávajte rýchlo, <em class=\"text-copper-400 not-italic\">tovar vám nikdy nedôjde</em>",
+  "heroSubtitle": "Účtujte zákazníkom za pár sekúnd, počítajte zásoby skenovaním čiarových kódov a nechajte sklad aktualizovať sa sám. Paper & Pen drží regály, predaj aj účtovníctvo v súlade, takže menej počítate a viac predávate.",
+  "heroBullets": ["Rýchle účtovanie zadarmo", "Podpora čiarových kódov a SKU", "Upozornenia na nízky stav skôr, než tovar dôjde"],
+  "features": [
+    { "icon": "receipt", "title": "Rýchle účtovanie", "desc": "Namarkujte predaj a za pár sekúnd vytlačte alebo zdieľajte účtenku na akomkoľvek zariadení." },
+    { "icon": "inventory", "title": "Sklad s čiarovými kódmi", "desc": "Počítajte alebo presúvajte zásoby skenovaním, s triedením podľa SKU, šarže a mernej jednotky." },
+    { "icon": "bell", "title": "Upozornenia na nízky stav", "desc": "Nastavte body doobjednania a dostanete upozornenie skôr, ako sa najpredávanejší tovar minie." },
+    { "icon": "truck", "title": "Zásoby vo viacerých predajniach", "desc": "Sledujte a presúvajte zásoby medzi pobočkami s aktuálnymi množstvami všade." },
+    { "icon": "calc", "title": "Ocenenie naživo", "desc": "Priemerná cena alebo FIFO udržia hodnotu zásob v súvahe presnú." },
+    { "icon": "chart", "title": "Prehľady najpredávanejších položiek", "desc": "Vidzte, čo sa predáva a čo leží, podľa položky, kategórie a predajne." }
+  ],
+  "sections": [
+    { "eyebrow": "Rýchlejšia pokladňa", "title": "Účtovanie pre rušný pult", "body": "Zákazníci nečakajú. Predaj zostavíte vyhľadaním položiek, uplatníte zľavu, prijmete platbu a za pár sekúnd odovzdáte čistú účtenku. Účtenky zdieľate cez WhatsApp alebo vytlačíte pri pokladni a každý predaj ide priamo do skladu aj účtovníctva bez prepisovania.", "items": ["Rýchle pridávanie položiek vyhľadaním", "Okamžitá tlač alebo zdieľanie účteniek", "Zľavy a daň vyriešené automaticky"] },
+    { "eyebrow": "Sklad, ktorý sa stará sám", "title": "Vždy viete, čo je na regáli", "body": "Ručná inventúra zastará hneď pri prvom predaji. V Paper & Pen každý predaj a dodávka upraví zásoby v reálnom čase, takže číslo na obrazovke zodpovedá regálu. Nastavte body doobjednania, aby systém upozornil na pomalé doplňovanie skôr, ako prídete o predaj. Vytvorené v Ománe s natívnou podporou OMR, AED a SAR a 5 % DPH a pripravené na USD, EUR či akúkoľvek sadzbu dane, s ktorou obchodujete.", "items": ["Zásoby v reálnom čase pri každom predaji", "Body doobjednania a upozornenia na nízky stav", "Akákoľvek mena, akákoľvek sadzba dane"] }
+  ],
+  "faqs": [
+    { "q": "Môžem predávať pomocou čítačky čiarových kódov?", "a": "Pri pokladni nie. Pri pokladni pridávate položky do predaja vyhľadaním. Čítačka čiarových kódov slúži na sklad: naskenovaním položku spočítate alebo zaznamenáte príjem či výdaj zásob. Položky sú triedené podľa SKU, šarže a mernej jednotky." },
+    { "q": "Aktualizujú sa zásoby, keď predám tovar?", "a": "Áno. Každý predaj zásoby zníži a každá dodávka ich zvýši v reálnom čase, vo všetkých vašich predajniach, bez ručného počítania." },
+    { "q": "Môžem prevádzkovať viac predajní?", "a": "Áno. Sledujte zásoby podľa predajne, presúvajte ich medzi pobočkami a z jedného pracovného priestoru vidíte aktuálne množstvá všade." },
+    { "q": "Je účtovanie naozaj zadarmo?", "a": "Predaj a fakturácia vrátane účteniek sú navždy zadarmo. Modul Sklad pridáte, keď budete chcieť riadiť zásoby pomocou čiarových kódov a dostávať upozornenia na nízky stav." },
+    { "q": "Funguje aj mimo krajín Zálivu?", "a": "Áno. Paper & Pen funguje v akejkoľvek mene s akoukoľvek sadzbou dane, takže predajcovia kdekoľvek môžu účtovať a spravovať zásoby, s arabčinou, angličtinou a ďalšími jazykmi poruke." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Veďte predajňu bez hádania",
+  "ctaSub": "Začnite zadarmo s účtovaním a účtenkami a potom pridajte Sklad pre zásoby s čiarovými kódmi a upozornenia na nízky stav."
+}

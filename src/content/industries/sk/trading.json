@@ -1,0 +1,35 @@
+{
+  "locale": "sk",
+  "slug": "trading",
+  "order": 1,
+  "title": "Obchodné spoločnosti",
+  "metaTitle": "ERP softvér pre obchod a veľkoobchod | Paper & Pen",
+  "metaDescription": "Bezplatná fakturácia plus zásoby v reálnom čase, nákupné objednávky a viac mien pre obchodníkov, dovozcov a veľkoobchody. Rýchlejšie ponuky, predaj aj párovanie.",
+  "keywords": "softvér pre obchodné firmy, erp pre veľkoobchod, fakturácia pre distribútorov, softvér pre dovoz a vývoz, softvér na nákupné objednávky, obchod vo viacerých menách, skladové hospodárstvo pre obchodníkov",
+  "heroEyebrow": "Pre obchodníkov, dovozcov a veľkoobchody",
+  "heroTitle": "Nakupujte, predávajte a skladujte s <em class=\"text-copper-400 not-italic\">jednou prehľadnou knihou</em>",
+  "heroSubtitle": "Od nákupnej objednávky po faktúru zákazníkovi drží Paper & Pen váš tovar, náklady a peniaze v súlade. Naceňujte rýchlo, hýbte zásobami bez hádania a poznajte maržu pri každom obchode.",
+  "heroBullets": ["Ponuky a fakturácia zadarmo", "Aktuálne zásoby a obstarávacie náklady", "Nákup v jednej mene, predaj v inej"],
+  "features": [
+    { "icon": "cart", "title": "Z ponuky faktúra", "desc": "Cenovú ponuku premeníte na predajnú objednávku a faktúru dvoma kliknutiami, bez prepisovania." },
+    { "icon": "inventory", "title": "Zásoby v reálnom čase", "desc": "Každý predaj a nákup okamžite pohne zásobami vo všetkých vašich skladoch." },
+    { "icon": "truck", "title": "Nákupné objednávky", "desc": "Vystavte objednávky dodávateľom, prijmite tovar a aktualizujte zásoby aj ceny v jednom toku." },
+    { "icon": "globe", "title": "Viac mien", "desc": "Nakupujte v USD alebo EUR a predávajte v OMR, AED alebo SAR so správnymi desatinnými miestami všade." },
+    { "icon": "calc", "title": "Marža pri každom obchode", "desc": "Vidíte náklady, cenu a zisk na každom riadku, takže nikdy nepredáte pod svoju hranicu." },
+    { "icon": "refresh", "title": "Automatické párovanie", "desc": "Faktúry, platby a pohyby zásob sa do kníh zaúčtujú automaticky." }
+  ],
+  "sections": [
+    { "eyebrow": "Rýchlosť vyhráva obchody", "title": "Ponuka dnes, dodávka zajtra", "body": "V obchode často vyhráva objednávku ten, kto prvý pošle čistú ponuku. Vytvorte profesionálnu cenovú ponuku za pár minút, pošlite ju cez WhatsApp alebo e-mail a schválenú premeňte na predajnú objednávku, dodací list a faktúru bez toho, aby ste čokoľvek zadávali dvakrát. Zákazník dostane úhľadný doklad a vy máte čistú stopu.", "items": ["Z ponuky predajná objednávka a faktúra na pár kliknutí", "Vstavané dodacie listy a balenie", "Okamžité zdieľanie cez WhatsApp alebo e-mail"] },
+    { "eyebrow": "Poznajte skutočné náklady", "title": "Zásoby a marža, ktoré hovoria pravdu", "body": "Dovozcovia a veľkoobchody stoja a padajú na marži. Paper & Pen oceňuje zásoby priemernou cenou alebo metódou FIFO a pri nacenení ukazuje zisk na každom riadku, takže stanovujete ceny s istotou. Nakupujte v zahraničí v jednej mene a predávajte doma v inej, zatiaľ čo knihy zostávajú odsúhlasené. Vytvorené v Ománe s natívnou podporou OMR, AED a SAR a nastaviteľnou DPH a rovnako pohodlné v USD, EUR či s akoukoľvek sadzbou dane, ktorú nastavíte.", "items": ["Priemerná cena alebo FIFO pre presné ocenenie", "Marža na každom riadku počas nacenenia", "DPH pre krajiny Zálivu alebo akákoľvek sadzba dane, akákoľvek mena"] }
+  ],
+  "faqs": [
+    { "q": "Môžem ponúkať v jednej mene a nakupovať tovar v inej?", "a": "Áno. Nakupujte v USD, EUR, CNY alebo akejkoľvek mene a predávajte v OMR, AED, SAR alebo v tom, čo používajú vaši zákazníci. Desatinné miesta a súčty sa upravia automaticky a knihy zostanú odsúhlasené." },
+    { "q": "Aktualizuje fakturácia moje zásoby?", "a": "Áno. Každá faktúra zásoby zníži a každý príjem z nákupnej objednávky ich zvýši v reálnom čase, vo viacerých skladoch, bez ručného počítania." },
+    { "q": "Vidím ziskovú maržu na položku?", "a": "Áno. Paper & Pen ukazuje náklady, predajnú cenu a maržu na každom riadku, keď tvoríte ponuku alebo faktúru, takže pri každom obchode ochránite svoju hranicu." },
+    { "q": "Je to pre obchodnú firmu naozaj zadarmo?", "a": "Predaj a fakturácia sú navždy zadarmo vrátane cenových ponúk, faktúr a dodacích listov. Modul Sklad pridáte, keď potrebujete zásoby v reálnom čase a obstarávacie náklady." },
+    { "q": "Zvláda DPH pre krajiny Zálivu a iné trhy?", "a": "Áno. Použite nastaviteľnú DPH pre krajiny Zálivu hneď po spustení alebo nastavte akúkoľvek sadzbu dane pre akúkoľvek krajinu. Daň sa vždy počíta zo základu po zľave." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Veďte obchod v jednej čistej knihe",
+  "ctaSub": "Začnite zadarmo s ponukami a fakturáciou a Sklad a Účtovníctvo pridajte, ako bude váš obchod rásť."
+}

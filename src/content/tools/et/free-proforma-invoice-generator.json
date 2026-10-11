@@ -1,0 +1,37 @@
+{
+  "locale": "et",
+  "slug": "free-proforma-invoice-generator",
+  "toolType": "proforma",
+  "order": 3,
+  "title": "Tasuta ettemaksuarve generaator",
+  "metaTitle": "Tasuta ettemaksuarve (proforma) generaator · Paper & Pen",
+  "metaDescription": "Koosta ettemaksuarveid (proforma arveid) veebis tasuta. Lisa read, vali mis tahes valuuta ja käibemaksumäär ning laadi sekunditega alla prindivalmis PDF.",
+  "keywords": "tasuta proforma arve, ettemaksuarve, proforma arve koostamine, proforma arve põhi, ettemaksuarve näidis, proforma pdf, ettemaksu arve",
+  "heroEyebrow": "Tasuta · Registreerumist pole vaja",
+  "heroTitle": "Tasuta ettemaksuarve (proforma) generaator",
+  "heroSubtitle": "Koosta sekunditega ettemaksuarve ettemaksete, tagatisrahade või tolli jaoks. Lisa read, vali mis tahes valuuta, rakenda käibemaks või müügimaks ja laadi alla puhas PDF. Kontot pole vaja.",
+  "howToSteps": [
+    { "name": "Lisa oma andmed", "text": "Sisesta oma ettevõtte nimi, ostja, viitenumber ja kuupäev." },
+    { "name": "Lisa read", "text": "Loetle kaubad või teenused koos koguse ja hinnaga. Summad arvutatakse automaatselt." },
+    { "name": "Vali valuuta ja maks", "text": "Vali mis tahes valuuta ja määra oma käibemaksu- või müügimaksumäär." },
+    { "name": "Laadi PDF alla", "text": "Klõpsa allalaadimisel, et salvestada prindivalmis ettemaksuarve, või registreeru, et muuta see pärast makses kokkuleppimist lõplikuks maksuarveks." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Kohe ja tasuta", "desc": "Ei registreerumist, vesimärki ega piiranguid. Koosta nii palju ettemaksuarveid, kui vajad." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Esita arveid OMR-ides, AED-des, SAR-ides, USD-des, EUR-ides, GBP-des ja muudes valuutades, ideaalne piiriüleseks kaubanduseks." },
+    { "icon": "doc", "title": "Valmis tolli ja ettemaksu jaoks", "desc": "Selgelt märgistatud proforma tagatisrahade, impordidokumentide ja ettemaksu pakkumiste jaoks." }
+  ],
+  "sections": [
+    { "title": "Miks kasutada Paper & Peni ettemaksuarve generaatorit?", "body": "Ettemaksuarve ehk proforma arve on kohustus tarnida kindla hinnaga enne lõpliku maksuarve väljastamist. Seda kasutatakse tagatisraha küsimiseks, impordi- või ekspordidokumentide toetamiseks või hinna kinnitamiseks ettemakse jaoks. Meie generaator on tasuta, toetab mitut valuutat ja loob puhta PDF-i, mida ostjad ja tolliametnikud ootavad." },
+    { "eyebrow": "Generaatorist edasi", "title": "Ettemaksuarvest lõpliku arveni", "body": "Kui ostja maksab või kinnitab, vajad korralikku maksuarvet ilma kõike uuesti trükkimata. Täisväärtuslikus Paper & Pen ERP-s muutub ettemaksuarve lõplikuks arveks koos kõigi ridade, valuuta ja maksuga ning makset jälgitakse algusest lõpuni.", "items": ["Salvesta tagatisrahad ettemaksuarve juurde", "Muuda lõplikuks käibemaksuarveks ühe klõpsuga", "Hoia piiriülese kaubanduse dokumendid ühes kohas"] }
+  ],
+  "faqs": [
+    { "q": "Mis on ettemaksuarve (proforma arve)?", "a": "See on esialgne müügidokument, mis saadetakse enne kaupade või teenuste tarnimist. See kinnitab hinna ja tingimused, kuid ei ole lõplik maksenõue ega maksudokument." },
+    { "q": "Millal peaksin kasutama ettemaksuarvet?", "a": "Kasuta seda ettemakse või tagatisraha küsimiseks, tolli- ja impordidokumentide toetamiseks või hinna kinnitamiseks enne lõpliku maksuarve väljastamist." },
+    { "q": "Kas ettemaksuarve generaator on tõesti tasuta?", "a": "Jah. See on täiesti tasuta, ilma registreerumise, vesimärgi ja koostatavate dokumentide arvu piiranguta." },
+    { "q": "Kuidas muuta ettemaksuarve lõplikuks arveks?", "a": "Laadi PDF tasuta alla või loo tasuta Paper & Peni tööruum, et muuta ettemaksuarve lõplikuks maksuarveks ja jälgida makset automaatselt." }
+  ],
+  "related": ["/blog/what-is-a-proforma-invoice", "/tools/free-invoice-generator", "/tools/free-quotation-generator", "/invoicing/proforma-invoices", "/free-invoicing-software"],
+  "ctaTitle": "Täna ettemaksuarve, homme tasutud arve",
+  "ctaSub": "Muuda ettemaksuarved lõplikeks arveteks, võta vastu tagatisrahasid ja jälgi makseid tasuta Paper & Peni tööruumiga."
+}

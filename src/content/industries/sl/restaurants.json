@@ -1,0 +1,35 @@
+{
+  "locale": "sl",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restavracije in kavarne",
+  "metaTitle": "Računi in zaloge receptur za restavracije | Paper & Pen",
+  "metaDescription": "Brezplačno zaračunavanje ter zaloge sestavin, kalkulacija receptur in naročilnice dobaviteljem za restavracije in kavarne. Nadzorujte stroške hrane, zaračunajte hitro.",
+  "keywords": "program za restavracije, računi v kavarni, kalkulacija receptur, nadzor stroškov hrane, zaloge v restavraciji, naročilnice dobaviteljem, erp za restavracije",
+  "heroEyebrow": "Za restavracije in kavarne",
+  "heroTitle": "Zaračunajte hitro, <em class=\"text-copper-400 not-italic\">nadzorujte stroške hrane</em>",
+  "heroSubtitle": "Natisnite potrdila v nekaj sekundah, spremljajte sestavine do grama in poznajte pravi strošek vsake jedi. Paper & Pen poskrbi, da kuhinja, blagajna in knjige delujejo skupaj.",
+  "heroBullets": ["Brezplačna, hitra potrdila", "Kalkulacija sestavin in receptur", "Naročilnice dobaviteljem"],
+  "features": [
+    { "icon": "receipt", "title": "Hitra potrdila", "desc": "Sprejmite naročilo, uporabite davek in postrežnino ter v nekaj sekundah natisnite ali delite potrdilo." },
+    { "icon": "manufacturing", "title": "Kalkulacija receptur", "desc": "Recepture sestavite iz sestavin, da poznate pravi strošek vsake jedi." },
+    { "icon": "inventory", "title": "Zaloga sestavin", "desc": "Surovine spremljajte po enoti, seriji in roku uporabe, z opozorili o nizki zalogi." },
+    { "icon": "truck", "title": "Naročila pri dobaviteljih", "desc": "Dobaviteljem izdajte naročilnice ter ob prevzemu posodobite zalogo in strošek." },
+    { "icon": "calc", "title": "Odstotek stroškov hrane", "desc": "Primerjajte strošek jedi s ceno na jedilniku, da marže ostanejo zdrave." },
+    { "icon": "chart", "title": "Poročila o prodaji", "desc": "Oglejte si najbolj priljubljene jedi, dnevni iztržek in trende po dnevih in poslovalnicah." }
+  ],
+  "sections": [
+    { "eyebrow": "Hitrejša strežba", "title": "Potrdila, s katerimi vrsta teče naprej", "body": "Med kosilom ni časa za počasno zaračunavanje. Dodajte artikle, uporabite DDV ali postrežnino, sprejmite plačilo in v nekaj sekundah izročite čisto potrdilo, nato ga, če gost želi, delite prek WhatsApp. Vsaka prodaja se samodejno knjiži v knjige, zato je zaključek dneva le hiter pogled in ne večer tipkanja.", "items": ["Hitro dodajte artikle in sprejmite plačilo", "DDV in postrežnina urejena namesto vas", "Dnevni iztržek se uskladi samodejno"] },
+    { "eyebrow": "Kuhinja pove resnico", "title": "Kalkulacija receptur, ki ščiti maržo", "body": "Jed je donosna le, če veste, koliko stane. Recepture sestavite iz sestavin, naj Paper & Pen izračuna strošek vsakega krožnika iz sprotnih nabavnih cen, in spremljajte odstotek stroškov hrane, ko se cene dobaviteljev spreminjajo. Sestavine spremljajte po seriji in roku uporabe, izdajajte naročilnice in imejte odpis pod nadzorom. Razvito v Omanu z vgrajenimi OMR, AED in SAR ter 5 % DDV, pripravljeno pa tudi za USD, EUR ali kateri koli trg.", "items": ["Recepture, izračunane iz sprotnih cen sestavin", "Sledenje serijam in rokom uporabe surovin", "Naročilnice, ki ob prevzemu posodobijo strošek"] }
+  ],
+  "faqs": [
+    { "q": "Ali lahko jedilnik ovrednotim iz cen sestavin?", "a": "Da. Vsako jed določite kot recepturo iz sestavin, Paper & Pen pa izračuna njen strošek iz trenutnih nabavnih cen, zato lahko določite cene na jedilniku, ki ščitijo maržo." },
+    { "q": "Ali spremlja sestavine in roke uporabe?", "a": "Da. Surovine se spremljajo po merski enoti, seriji in roku uporabe, z opozorili o nizki zalogi, da jih ponovno naročite, preden zmanjka." },
+    { "q": "Ali lahko uporabim DDV in postrežnino?", "a": "Da. Uporabite nastavljiv DDV za države Zaliva, postrežnino ali katero koli davčno stopnjo, vse samodejno izračunano na računu." },
+    { "q": "Ali je zaračunavanje za kavarno brezplačno?", "a": "Prodaja in računi, vključno s potrdili, so brezplačni za vedno. Zaloge in Proizvodnjo dodajte, ko želite spremljati sestavine in kalkulirati recepture." },
+    { "q": "Ali lahko upravljam več kot eno poslovalnico?", "a": "Da. Spremljajte prodajo in zaloge po poslovalnicah ter v enem delovnem prostoru vidite sprotne količine in dnevni iztržek vseh poslovalnic." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Hitra strežba, pametni stroški",
+  "ctaSub": "Začnite brezplačno s potrdili in računi, nato dodajte Zaloge in kalkulacijo receptur, da prevzamete nadzor nad stroški hrane."
+}

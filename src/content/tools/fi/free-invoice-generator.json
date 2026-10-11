@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "free-invoice-generator",
+  "toolType": "invoice",
+  "order": 1,
+  "title": "Ilmainen laskugeneraattori",
+  "metaTitle": "Ilmainen laskugeneraattori · Tee lasku verkossa · Paper & Pen",
+  "metaDescription": "Tee ammattimaisia laskuja verkossa ilmaiseksi. Lisää rivit, valitse mikä tahansa valuutta ja ALV-kanta ja lataa tulostusvalmis PDF sekunneissa. Ei rekisteröitymistä.",
+  "keywords": "ilmainen laskugeneraattori, laskupohja, tee lasku verkossa, ilmainen laskupohja, lasku pdf, alv-lasku, laskun tekeminen",
+  "heroEyebrow": "Ilmainen · Ei rekisteröitymistä",
+  "heroTitle": "Ilmainen laskugeneraattori",
+  "heroSubtitle": "Tee ammattimainen lasku sekunneissa. Lisää rivit, valitse mikä tahansa valuutta, lisää ALV tai myyntivero ja lataa siisti PDF. Tiliä ei tarvita.",
+  "howToSteps": [
+    { "name": "Lisää tietosi", "text": "Kirjoita yrityksesi nimi, asiakkaasi, laskun numero ja päivämäärä." },
+    { "name": "Lisää laskurivit", "text": "Luettele, mistä laskutat, määrineen ja hintoineen. Summat lasketaan automaattisesti." },
+    { "name": "Aseta valuutta ja vero", "text": "Valitse mikä tahansa valuutta ja aseta ALV- tai myyntiverokantasi." },
+    { "name": "Lataa PDF", "text": "Klikkaa lataa ja tallenna tulostusvalmis PDF, tai rekisteröidy tallentaaksesi ja lähettääksesi sen." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Heti ja ilmaiseksi", "desc": "Ei rekisteröitymistä, ei vesileimaa, ei rajoituksia. Tee niin monta laskua kuin tarvitset." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Laskuta OMR-, AED-, SAR-, USD-, EUR- ja GBP-valuutassa ja muissa, oikeilla desimaaleilla." },
+    { "icon": "calc", "title": "Valmis ALV:lle ja veroille", "desc": "Käytä mitä tahansa ALV- tai myyntiverokantaa, laskettuna automaattisesti nettosummasta." }
+  ],
+  "sections": [
+    { "title": "Miksi käyttää Paper & Penin laskugeneraattoria?", "body": "Se on aidosti ilmainen, toimii millä tahansa valuutalla ja tuottaa siistin, ammattimaisen PDF:n, jonka voit lähettää suoraan asiakkaallesi. Kun olet valmis seuraamaan maksuja, lähettämään muistutuksia ja täsmäyttämään automaattisesti, laskusi jatkavat elämäänsä täydessä Paper & Pen ERP:ssä." }
+  ],
+  "faqs": [
+    { "q": "Onko laskugeneraattori todella ilmainen?", "a": "Kyllä. Se on täysin ilmainen, ilman rekisteröitymistä, ilman vesileimaa ja ilman rajoitusta tekemiesi laskujen määrälle." },
+    { "q": "Voinko laskuttaa omassa valuutassani?", "a": "Kyllä. Valitse yleisimmistä valuutoista, kuten OMR, AED, SAR, USD, EUR ja GBP. Desimaalit mukautuvat automaattisesti." },
+    { "q": "Hoitaako se ALV:n tai myyntiveron?", "a": "Kyllä. Ota vero käyttöön ja aseta mikä tahansa kanta (esimerkiksi Persianlahden maille säädettävä). Se lasketaan automaattisesti välisummasta." },
+    { "q": "Miten tallennan ja lähetän laskuja?", "a": "Lataa PDF ilmaiseksi, tai luo ilmainen Paper & Pen -työtila, jossa voit tallentaa, lähettää ja seurata jokaista laskua ja ottaa vastaan maksuja verkossa." }
+  ],
+  "related": ["/tools/free-quotation-generator", "/tools/free-receipt-generator", "/features/invoicing", "/free-invoicing-software"],
+  "ctaTitle": "Saat enemmän kuin generaattorin",
+  "ctaSub": "Tallenna, lähetä ja seuraa jokaista laskua, ota maksut vastaan verkossa ja täsmäytä automaattisesti ilmaisella Paper & Pen -työtilalla."
+}

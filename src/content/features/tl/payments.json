@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "payments",
+  "order": 10,
+  "title": "Mga Bayad",
+  "metaTitle": "Online na Bayad para sa Invoice · Mabayaran Agad · Paper & Pen",
+  "metaDescription": "Lagyan ng pay-online link ang bawat invoice at mabayaran sa card. Paymob at global na gateway, kahit anong currency, kusang nare-reconcile sa libro mo.",
+  "keywords": "online na bayad, tumanggap ng bayad sa card, bayaran ang invoice online, paymob, payment gateway, mabayaran agad, payment link",
+  "heroEyebrow": "Kasama na",
+  "heroTitle": "Hayaang bayaran ka ng kliyente <em class=\"text-copper-400 not-italic\">sa isang tap</em>",
+  "heroSubtitle": "Maglagay ng secure na pay-online link sa bawat invoice para agad makabayad ang kliyente gamit ang card. Kusang nare-reconcile ang bayad sa libro mo, sa kahit anong currency, saanman.",
+  "heroBullets": ["Pay-online link sa bawat invoice", "Kusang nare-reconcile sa ledger mo", "Paymob at global na gateway"],
+  "features": [
+    { "icon": "card", "title": "Bayad gamit ang card", "desc": "Binabayaran ng kliyente ang kahit anong invoice online gamit ang card, walang login o app." },
+    { "icon": "bolt", "title": "Instant na pay link", "desc": "May secure na link ang bawat invoice, puwedeng i-share sa email o WhatsApp." },
+    { "icon": "refresh", "title": "Awtomatikong reconciliation", "desc": "Ang matagumpay na bayad ay nagmamarka sa invoice na bayad na at pumapasok sa libro mo." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Mangolekta sa OMR, AED, SAR, USD, EUR at iba pa sa tamang gateway." },
+    { "icon": "shield", "title": "Secure at PCI", "desc": "Ang certified na gateway ang humahawak sa card data, hindi mo ito iniimbak." },
+    { "icon": "receipt", "title": "Naipapadala ang resibo", "desc": "Nakakatanggap ang kliyente ng awtomatikong resibo sa sandaling pumasok ang bayad." }
+  ],
+  "sections": [
+    { "eyebrow": "Mabayaran nang mas mabilis", "title": "Alisin ang hadlang sa pagitan ng invoice at cash", "body": "Kapag mas mabilis makabayad ang kliyente, mas mabilis kang magkaka-cash. Dahil may pay-online link ang bawat invoice, wala nang bank details na kokopyahin at wala nang hinihintay na transfer. Magta-tap ang kliyente, magbabayad sa card, at kusang mag-a-update ang invoice, kasama ang resibong padating na.", "items": ["Isang-tap na bayad sa card", "Link na puwedeng i-share sa WhatsApp at email", "Awtomatikong resibo"] },
+    { "eyebrow": "Lokal at global", "title": "Ang tamang gateway para sa merkado mo", "body": "Ikinokonekta ng Paper & Pen ang Paymob para sa GCC at iba pang global na gateway para matanggap mo ang mga card na talagang ginagamit ng mga kliyente mo, sa currency nila. Bawat settlement ay nare-reconcile pabalik sa tamang invoice at pumapasok sa accounts mo, kaya sabay ang koleksyon at bookkeeping.", "items": ["Paymob para sa GCC, kasama ang global na opsyon", "Multi-currency na koleksyon", "Nare-reconcile sa eksaktong invoice"] }
+  ],
+  "faqs": [
+    { "q": "Libre bang i-enable ang online na bayad?", "a": "Oo, kasama na ang pagdagdag ng pay-online link. Naniningil ang payment gateway ng sarili nitong processing fee bawat transaksyon, gaya ng ginagawa ng lahat ng gateway." },
+    { "q": "Aling gateway ang suportado?", "a": "Paymob para sa GCC at iba pang global na gateway, para matanggap mo ang mga card na ginagamit ng kliyente mo sa currency nila." },
+    { "q": "Kusa bang ina-update ng bayad ang invoice?", "a": "Oo. Ang matagumpay na bayad ay nagmamarka sa invoice na bayad na, nagpapadala ng resibo at nagpo-post ng entry sa libro mo." },
+    { "q": "Puwede bang magbayad ang kliyente sa iba't ibang currency?", "a": "Oo. Mangolekta sa OMR, AED, SAR, USD, EUR at iba pa, na dumadaan sa angkop na gateway." },
+    { "q": "Secure ba ang bayad sa card?", "a": "Oo. Ang PCI-certified na gateway ang humahawak sa detalye ng card, hindi ito iniimbak sa Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Gawing instant na cash ang mga invoice",
+  "ctaSub": "Magsimula nang libre at lagyan ng pay-online link ang bawat invoice para mabayaran ka ng kliyente sa isang tap."
+}

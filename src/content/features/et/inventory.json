@@ -1,0 +1,35 @@
+{
+  "locale": "et",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Laohaldus",
+  "metaTitle": "Laohaldustarkvara · Laoseis reaalajas · Paper & Pen",
+  "metaDescription": "Jälgi laoseisu kõigis ladudes reaalajas: madala laoseisu hoiatused, partiid ja vöötkoodid ning väärtus, mis kirjendub raamatutesse. Töötab kõikjal.",
+  "keywords": "laohaldus, laohaldustarkvara, laoarvestus, laoprogramm, laoseisu jälgimine, vöötkood, laoseisu väärtus, mitu ladu",
+  "heroEyebrow": "Lisamoodul",
+  "heroTitle": "Laoseis, mida saad <em class=\"text-copper-400 not-italic\">usaldada</em>, reaalajas",
+  "heroSubtitle": "Tea täpselt, mis sul on, kus see asub ja palju see väärt on. Laoseis uueneb kohe, kui esitad arve või võtad kauba vastu, nii et su numbrid on alati ajakohased.",
+  "heroBullets": ["Laoseis kõigis ladudes reaalajas", "Madala laoseisu ja tellimise hoiatused", "Väärtus kirjendub raamatutesse"],
+  "features": [
+    { "icon": "inventory", "title": "Laoseis reaalajas", "desc": "Kogused uuenevad kohe, kui müüd, ostad või liigutad kaupa." },
+    { "icon": "truck", "title": "Mitu ladu", "desc": "Jälgi ja liiguta kaupa asukohtade ja filiaalide vahel täieliku ülevaatega." },
+    { "icon": "bell", "title": "Madala laoseisu hoiatused", "desc": "Määra tellimispiirid ja saa hoiatus enne, kui populaarne kaup otsa saab." },
+    { "icon": "receipt", "title": "Vöötkood ja SKU", "desc": "Skaneeri lao inventeerimiseks või liikumisteks, korrastatuna SKU, partii ja mõõtühiku järgi." },
+    { "icon": "calc", "title": "Väärtus reaalajas", "desc": "Keskmise hinna või FIFO meetod hoiab laoseisu väärtuse bilansis täpsena." },
+    { "icon": "refresh", "title": "Seotud müügiga", "desc": "Arved ja ostutellimused liigutavad laoseisu automaatselt, käsitsi uuendusi pole." }
+  ],
+  "sections": [
+    { "eyebrow": "Alati täpne", "title": "Laoseis, mis uueneb ise", "body": "Käsitsi inventuur vananeb hetkel, mil teed müügi. Paper & Penis muudab iga arve, ost ja ülekanne laoseisu ja omahinda reaalajas, nii et ekraanil olev number on sama mis riiulil. Määra tellimispiirid ja lase süsteemil öelda, millal osta.", "items": ["Kohandub iga tehinguga automaatselt", "Tellimispiirid ja hoiatused", "Partii, SKU ja mõõtühiku jälgimine"] },
+    { "eyebrow": "Ladu kohtub raamatutega", "title": "Riiulilt bilanssi", "body": "Laohaldus ei ole lihtsalt kastide lugemine, see on päris raha sinu bilansis. Paper & Pen hindab laoseisu keskmise hinna või FIFO meetodiga ja kirjendab liikumised automaatselt raamatupidamisse, nii et müüdud kauba kulu ja laoseisu väärtus on alati kooskõlas. Töötab mis tahes valuutas ja igal turul.", "items": ["Keskmise hinna või FIFO meetod", "Kirjendub automaatselt raamatupidamisse", "Ostud mitmes valuutas"] }
+  ],
+  "faqs": [
+    { "q": "Kas laohaldus on tasuta?", "a": "Laohaldus on valikuline tasuline lisamoodul. Põhimoodul müük ja arveldamine on igavesti tasuta ning laohalduse lisad siis, kui vajad laoseisu kontrolli reaalajas." },
+    { "q": "Kas saan hallata mitut ladu?", "a": "Jah. Jälgi laoseisu asukohtade kaupa, liiguta kaupa nende vahel ja näe koguseid kõikjal reaalajas." },
+    { "q": "Kas see toetab vöötkoode?", "a": "Jah. Skaneeri tarnija vöötkoodi, SKU-d või prinditud QR-silti, et ladu kiiremini inventeerida ja liigutada, koos partiide ja mõõtühikute toega." },
+    { "q": "Kuidas laoseisu hinnatakse?", "a": "Vali keskmine hind või FIFO. Väärtus uueneb iga liikumisega ja kirjendub automaatselt raamatupidamisse." },
+    { "q": "Kas müük uuendab laoseisu automaatselt?", "a": "Jah. Arved vähendavad ja ostud suurendavad laoseisu reaalajas, nii et sa ei pea koguseid kunagi käsitsi muutma." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Võta laoseis kontrolli alla",
+  "ctaSub": "Alusta tasuta arveldamisega ja lisa laohaldus, kui oled valmis jälgima laoseisu igas asukohas reaalajas."
+}

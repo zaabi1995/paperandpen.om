@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Laskutus",
+  "metaTitle": "Laskutuksen ominaisuudet | Paper & Pen ERP",
+  "metaDescription": "Tutustu laskujen seurantaan, verkkomaksuihin, muistutuksiin, säädettävään veroon, viiteen kieleen ja monivaluuttaisiin työnkulkuihin Paper & Pen ERP:ssä.",
+  "keywords": "laskutusohjelma, ilmainen laskutus, verkkolasku, lähetä lasku, verkkomaksu, alv-lasku, toistuvat laskut, maksumuistutus",
+  "heroEyebrow": "Ilmainen ikuisesti",
+  "heroTitle": "Laskutus, jolla saat <em class=\"text-copper-400 not-italic\">rahasi nopeammin</em>",
+  "heroSubtitle": "Luo viimeistelty lasku alle minuutissa, lähetä se sähköpostilla tai WhatsAppilla ja anna asiakkaasi maksaa verkossa. Tehty mille tahansa valuutalle ja verokannalle, käytössä kaikkialla maailmassa.",
+  "heroBullets": ["Myynti ja laskutus ilmaiseksi ikuisesti", "Mikä tahansa valuutta ja verokanta", "Verkkomaksulinkki jokaisessa laskussa"],
+  "features": [
+    { "icon": "bolt", "title": "Lasku sekunneissa", "desc": "Valitse asiakas, lisää rivit ja lähetä. Summat ja verot lasketaan kirjoittaessasi." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Laskuta OMR-, AED-, SAR-, USD-, EUR- tai GBP-valuutassa tai millä tahansa muulla valuutalla oikeilla desimaaleilla." },
+    { "icon": "card", "title": "Maksut verkossa", "desc": "Jokaisessa laskussa on turvallinen maksulinkki, joten asiakas maksaa kortilla yhdellä napautuksella." },
+    { "icon": "bell", "title": "Automaattiset muistutukset", "desc": "Ystävälliset, ajastetut muistutukset karhuavat erääntyneitä laskuja, ettei sinun tarvitse." },
+    { "icon": "refresh", "title": "Toistuvat laskut", "desc": "Aseta kuukausisopimukset ja tilaukset laskuttumaan automaattisesti viikoittain tai kuukausittain." },
+    { "icon": "calc", "title": "Valmis ALV:lle ja veroille", "desc": "Käytä mitä tahansa ALV- tai myyntiverokantaa, laskettuna alennusten jälkeisestä nettosummasta." }
+  ],
+  "sections": [
+    { "eyebrow": "Tehty koko maailmalle", "title": "Yksi laskutustyökalu kaikille markkinoille", "body": "Laskutatpa dollareissa New Yorkista tai riaaleissa Muscatista, Paper & Pen hoitaa valuutan, desimaalit ja verosäännöt puolestasi. Vaihda käyttöliittymän kieleksi englanti, arabia, hindi, bengali tai urdu, niin koko tiimisi työskentelee omalla kielellään.", "items": ["Monivaluuttaisuus ja oikea muotoilu", "Säädettävä vero mille tahansa maalle", "Arabia edellä, täysin oikealta vasemmalle kulkevat laskut"] },
+    { "eyebrow": "Tarjouksesta maksuun", "title": "Laskutus osana täyttä ERP:tä", "body": "Laskusi eivät jää omaan siiloonsa. Muuta hyväksytty tarjous laskuksi yhdellä klikkauksella, kirjaa maksu ja katso, kun se kirjautuu kirjanpitoosi automaattisesti. Kun kasvat, varasto, kirjanpito ja palkat odottavat jo samassa työtilassa.", "items": ["Tarjouksesta laskuksi yhdellä klikkauksella", "Maksut täsmäytyvät pääkirjaan", "Ei koskaan kaksinkertaista kirjaamista"] }
+  ],
+  "faqs": [
+    { "q": "Onko laskutus todella ilmaista?", "a": "Kyllä. Myynti ja laskutus on ilmaista ikuisesti, eikä laskujen tai asiakkaiden määrää ole rajoitettu. Maksat vain, jos lisäät valinnaisia moduuleja, kuten Varastonhallinnan tai Palkat." },
+    { "q": "Voivatko asiakkaat maksaa laskun verkossa?", "a": "Kyllä. Jokaiseen laskuun voi lisätä turvallisen verkkomaksulinkin, jonka taustalla ovat Paymob ja muut maksupalvelut. Asiakkaat maksavat kortilla, ja maksu täsmäytyy automaattisesti." },
+    { "q": "Tukeeko se ALV:tä ja muita veroja?", "a": "Kyllä. Aseta mikä tahansa kanta, myös Persianlahden maiden säädettävä ALV tai mikä tahansa maassasi sovellettava vero. Vero lasketaan alennusten jälkeisestä nettosummasta." },
+    { "q": "Voinko lähettää laskuja arabiaksi?", "a": "Kyllä. Koko käyttöliittymä ja laskun PDF voivat olla arabiaksi, täysin oikealta vasemmalle, englannin, hindin, bengalin ja urdun rinnalla." },
+    { "q": "Voinko automatisoida toistuvan laskutuksen?", "a": "Kyllä. Luo toistuva lasku kuukausisopimuksille tai tilauksille, niin Paper & Pen laatii ja lähettää sen aikataulun mukaan." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Lähetä ensimmäinen laskusi ilmaiseksi",
+  "ctaSub": "Luo ilmainen työtila ja laskuta ensimmäistä asiakastasi minuuteissa. Ei korttia, ilmainen ikuisesti."
+}

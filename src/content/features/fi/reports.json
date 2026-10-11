@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "reports",
+  "order": 8,
+  "title": "Raportit",
+  "metaTitle": "Liiketoimintaraportit ja analytiikka · Paper & Pen",
+  "metaDescription": "Ajantasaiset koontinäytöt ja raportit myynnistä, kassasta, tuloksesta, veroista ja varastosta. Siirry lähteeseen, vie Exceliin tai PDF:ksi millä tahansa valuutalla.",
+  "keywords": "liiketoimintaraportit, raportointiohjelma, myyntiraportti, tuloslaskelma raportti, veroraportti, talousraportit, vienti exceliin",
+  "heroEyebrow": "Lisämoduuli",
+  "heroTitle": "Päätökset, joiden takana ovat <em class=\"text-copper-400 not-italic\">ajantasaiset luvut</em>",
+  "heroSubtitle": "Jokainen myynti, maksu ja liike kertyy selkeisiin koontinäyttöihin ja raportteihin reaaliajassa. Näe, mikä myy, kuka on sinulle velkaa ja mistä tuloksesi tulee, ja vie tiedot minne tahansa.",
+  "heroBullets": ["Reaaliaikaiset koontinäytöt", "Siirry alkuperäiseen tositteeseen", "Vienti Exceliin tai PDF:ksi"],
+  "features": [
+    { "icon": "reports", "title": "Myyntianalytiikka", "desc": "Näe parhaat tuotteet, parhaat asiakkaat ja trendit miltä tahansa ajanjaksolta." },
+    { "icon": "chart", "title": "Talousraportit", "desc": "Tuloslaskelma, tase, kassavirta ja myyntisaamisten ikäjakauma." },
+    { "icon": "calc", "title": "Veroraportit", "desc": "Osto- ja myyntiveron yhteenvedot valmiina ALV-ilmoitustasi varten." },
+    { "icon": "inventory", "title": "Varastoraportit", "desc": "Arvostus-, liike- ja vähäisen saldon raportit kaikista varastoista." },
+    { "icon": "doc", "title": "Siirry lähteeseen", "desc": "Klikkaa mitä tahansa lukua ja jäljitä se tarkalleen sen takana olevaan tositteeseen." },
+    { "icon": "refresh", "title": "Aina ajan tasalla", "desc": "Raportit päivittyvät sitä mukaa kuin tapahtumia syntyy, ilman yöajoja." }
+  ],
+  "sections": [
+    { "eyebrow": "Selkeys yhdellä silmäyksellä", "title": "Yksi koontinäyttö koko yritykselle", "body": "Avaa Paper & Pen ja näe luvut, joilla on merkitystä: rahat pankissa, kuka on sinulle velkaa, mikä myy ja tämän kuun tuloksesi. Koska kaikki kirjautuu reaaliajassa, koontinäyttö kertoo totuuden, ei viime viikon tilannekuvaa.", "items": ["Kassa, myyntisaamiset ja tulos heti näkyvissä", "Suodata ajanjakson, asiakkaan tai tuotteen mukaan", "Ajantasainen, ei koskaan vanhentunut"] },
+    { "eyebrow": "Jaa ja kaiva syvemmälle", "title": "Raportit, joihin kirjanpitäjäsi ja hallituksesi luottavat", "body": "Siirry mistä tahansa raportista suoraan alkuperäiseen tositteeseen ja vie tiedot Exceliin tai PDF:ksi kirjanpitäjällesi, pankillesi tai hallitukselle. Raportoi millä tahansa valuutalla ja vaihda käyttöliittymän kieleksi arabia, englanti, hindi, bengali tai urdu, niin kaikki lukevat samoja lukuja omalla kielellään.", "items": ["Porautuminen jokaiseen tapahtumaan", "Vienti Exceliin ja PDF:ksi", "Monivaluuttainen ja monikielinen"] }
+  ],
+  "faqs": [
+    { "q": "Ovatko raportit ilmaisia?", "a": "Raportit on valinnainen maksullinen lisäosa. Ikuisesti ilmainen ydin sisältää laskutuksen koontinäytöt, ja täysi raportointikokonaisuus on saatavilla, kun tarvitset syvempää analytiikkaa." },
+    { "q": "Ovatko raportit reaaliaikaisia?", "a": "Kyllä. Jokainen tapahtuma kirjautuu heti, joten koontinäytöt ja raportit kertovat aina yrityksesi nykytilan." },
+    { "q": "Voinko viedä raportteja?", "a": "Kyllä. Vie Exceliin tai PDF:ksi ja jaa kirjanpitäjällesi, pankillesi tai hallitukselle." },
+    { "q": "Voinko jäljittää luvun sen lähteeseen?", "a": "Kyllä. Klikkaa mitä tahansa lukua, niin pääset tarkalleen sen takana olevaan laskuun, maksuun tai kirjausvientiin." },
+    { "q": "Tukevatko raportit useita valuuttoja?", "a": "Kyllä. Raportoi millä tahansa valuutalla ja käytä käyttöliittymää viidellä kielellä." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Näe yrityksesi selkeästi",
+  "ctaSub": "Aloita ilmaiseksi laskutuksella ja lisää Raportit, niin saat ajantasaiset koontinäytöt ja vientivalmiin analytiikan."
+}

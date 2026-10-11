@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Kirjanpito",
+  "metaTitle": "Kirjanpito-ohjelma verkossa · Automaattinen kirjaus · Paper & Pen",
+  "metaDescription": "Kahdenkertainen kirjanpito, joka kirjautuu itsestään. Tuloslaskelma ja tase reaaliajassa, ALV-ilmoitukset, pankkitäsmäytys, mikä tahansa valuutta ja vero.",
+  "keywords": "kirjanpito-ohjelma, kirjanpito verkossa, kahdenkertainen kirjanpito, tase, tuloslaskelma, alv-ilmoitus, pankkitäsmäytys, pääkirja",
+  "heroEyebrow": "Lisämoduuli",
+  "heroTitle": "Kirjanpito, joka <em class=\"text-copper-400 not-italic\">täsmää itsestään</em>",
+  "heroSubtitle": "Jokainen lasku, maksu ja osto kirjautuu automaattisesti oikeaan kahdenkertaiseen pääkirjaan. Näet tuloksesi, taseesi ja veroasemasi reaaliajassa koskematta taulukkoon.",
+  "heroBullets": ["Automaattinen kahdenkertainen kirjaus ilman käsin tehtyjä vientejä", "Tuloslaskelma ja tase reaaliajassa", "ALV-ilmoitukset yhdellä klikkauksella"],
+  "features": [
+    { "icon": "accounting", "title": "Automaattinen kirjanpito", "desc": "Myynnit, maksut ja kulut kirjautuvat pääkirjaan sitä mukaa kuin ne tapahtuvat." },
+    { "icon": "chart", "title": "Ajantasaiset luvut", "desc": "Tuloslaskelma, tase ja kassavirta, aina ajan tasalla." },
+    { "icon": "calc", "title": "ALV ja veroilmoitukset", "desc": "Seuraa osto- ja myyntiveroa ja tee ilmoitusvalmis ALV-ilmoitus yhdellä klikkauksella." },
+    { "icon": "refresh", "title": "Pankkitäsmäytys", "desc": "Täsmäytä pankkitapahtumat laskuihin ja maksuihin, niin kirjanpito pysyy siistinä." },
+    { "icon": "doc", "title": "Kattavat pääkirjat", "desc": "Siirry mistä tahansa raportista alkuperäiseen tositteeseen ja kirjausvientiin." },
+    { "icon": "globe", "title": "Monivaluuttaisuus", "desc": "Kirjaa millä tahansa valuutalla, ja kurssivoitot ja -tappiot lasketaan automaattisesti." }
+  ],
+  "sections": [
+    { "eyebrow": "Kirjanpitäjää ei tarvita", "title": "Kirjanpito, joka hoituu taustalla", "body": "Sinun ei pitäisi joutua kirjanpitäjäksi tietääksesi, onko yrityksesi kannattava. Koska laskutus, maksut ja varasto syöttävät samaa pääkirjaa, kirjanpitosi on oikein ilman käsin tehtyjä vientejä. Avaa koontinäyttö, niin tulos, myyntisaamiset ja verot ovat heti edessäsi.", "items": ["Kahdenkertainen kirjaus hoituu puolestasi", "Jokaisesta raportista pääsee tositteeseen", "Kirjausketju jokaisessa viennissä"] },
+    { "eyebrow": "Sopii mihin tahansa verojärjestelmään", "title": "Verot ja vaatimukset kaikkialla, missä toimit", "body": "Määritä maasi verokannat ja tilit, myös Persianlahden maiden säädettävä ALV, niin Paper & Pen seuraa osto- ja myyntiveroa puolestasi. Tee ilmoitusvalmis veroilmoitus, täsmäytä pankkitilisi ja sulje kausi luottavaisin mielin millä tahansa valuutalla.", "items": ["Säädettävä vero mille tahansa maalle", "Ilmoitusvalmiit ALV-ilmoitukset", "Pankkitäsmäytys ja kauden sulkeminen"] }
+  ],
+  "faqs": [
+    { "q": "Tarvitsenko kirjanpidon osaamista?", "a": "Et. Viennit kirjautuvat automaattisesti laskuistasi, maksuistasi ja ostoistasi, joten saat oikean kahdenkertaisen kirjanpidon kirjoittamatta vientejä itse." },
+    { "q": "Onko kirjanpito ilmaista?", "a": "Kirjanpito on valinnainen maksullinen lisäosa. Myynti ja laskutus on ilmaista ikuisesti, ja otat Kirjanpidon käyttöön, kun haluat täydet tilinpäätöslaskelmat." },
+    { "q": "Voiko sillä tehdä ALV-ilmoituksia?", "a": "Kyllä. Se seuraa osto- ja myyntiveroa (esimerkiksi Persianlahden maiden säädettävää ALV:tä tai mitä tahansa asettamaasi kantaa) ja luo ilmoitusvalmiin ilmoituksen." },
+    { "q": "Toimiiko se useilla valuutoilla?", "a": "Kyllä. Kirjaa ja raportoi millä tahansa valuutalla, ja kurssivoitot ja -tappiot lasketaan automaattisesti." },
+    { "q": "Voinko täsmäyttää pankkitilini?", "a": "Kyllä. Tuo pankkitapahtumat tai täsmäytä ne laskuihin ja maksuihin, niin pääkirjasi pysyy täsmäytettynä." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Saat tarkan kirjanpidon automaattisesti",
+  "ctaSub": "Aloita ilmaiseksi laskutuksella ja ota Kirjanpito käyttöön, niin saat reaaliaikaiset tilinpäätöslaskelmat ja veroilmoitukset."
+}

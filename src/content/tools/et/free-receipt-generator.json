@@ -1,0 +1,37 @@
+{
+  "locale": "et",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Tasuta kviitungigeneraator",
+  "metaTitle": "Tasuta kviitungigeneraator · Paper & Pen",
+  "metaDescription": "Koosta maksekviitungeid veebis tasuta. Lisa summa, valuuta ja makseviis ning laadi sekunditega alla prindivalmis PDF. Registreerumist pole vaja.",
+  "keywords": "tasuta kviitungigeneraator, maksekviitung, kviitungi koostamine veebis, kviitungi põhi, kviitungi näidis, kviitung pdf, sularahakviitung",
+  "heroEyebrow": "Tasuta · Registreerumist pole vaja",
+  "heroTitle": "Tasuta kviitungigeneraator",
+  "heroSubtitle": "Anna igale kliendile sekunditega korralik maksekviitung. Sisesta summa, valuuta ja makseviis ning laadi alla prindivalmis PDF. Kontot pole vaja.",
+  "howToSteps": [
+    { "name": "Lisa oma andmed", "text": "Sisesta oma ettevõtte nimi, maksja, kviitungi number ja kuupäev." },
+    { "name": "Sisesta makse", "text": "Lisa, mille eest makse tehti, summa ja makseviis (sularaha, kaart, ülekanne)." },
+    { "name": "Vali valuuta ja maks", "text": "Vali mis tahes valuuta ja vajadusel näita käibemaksu- või müügimaksuosa." },
+    { "name": "Laadi PDF alla", "text": "Klõpsa allalaadimisel, et salvestada prindivalmis kviitung, või registreeru, et väljastada kviitungeid automaatselt sinu arvete põhjal." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Kohe ja tasuta", "desc": "Ei registreerumist, vesimärki ega piiranguid. Väljasta nii palju kviitungeid, kui vajad." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Kviitungid OMR-ides, AED-des, SAR-ides, USD-des, EUR-ides, GBP-des ja muudes valuutades õigete kümnendkohtadega." },
+    { "icon": "card", "title": "Iga makseviis", "desc": "Salvesta sularaha, kaardimakse, pangaülekanne või veebimakse, selgelt kviitungil näidatud." }
+  ],
+  "sections": [
+    { "title": "Miks kasutada Paper & Peni kviitungigeneraatorit?", "body": "Kviitung on sinu kliendi tõend makse kohta ja sinu dokument selle kohta, et arve on tasutud. Meie generaator on tasuta, töötab mis tahes valuutas ja loob puhta PDF-i, mille saad kohe üle anda või e-postiga saata. Ei tabelit ega registreerumist." },
+    { "eyebrow": "Generaatorist edasi", "title": "Kviitungid, mis on seotud sinu arvetega", "body": "Eraldiseisev kviitung sobib ühekordseks juhuks, kuid kasvav ettevõte vajab arvetega seotud kviitungeid ja jooksvat pearaamatut. Täisväärtuslikus Paper & Pen ERP-s loob makse salvestamine kviitungi ning uuendab samal ajal arve saldot ja sinu raamatuid.", "items": ["Kviitung luuakse automaatselt, kui arve tasutakse", "Jälgi täis-, osa- ja jagatud makseid", "Saada kviitungid kohe WhatsAppi või e-posti kaudu"] }
+  ],
+  "faqs": [
+    { "q": "Mis vahe on arvel ja kviitungil?", "a": "Arve nõuab makset enne selle tegemist. Kviitung kinnitab pärast, et makse on laekunud. Siin saad mõlemad tasuta koostada." },
+    { "q": "Kas kviitungigeneraator on tõesti tasuta?", "a": "Jah. See on täiesti tasuta, ilma registreerumise, vesimärgi ja koostatavate kviitungite arvu piiranguta." },
+    { "q": "Kas saan kviitungil näidata käibemaksu või muud maksu?", "a": "Jah. Määra mis tahes maksumäär ja kviitung näitab tasutud summa maksuosa seal, kus seda vajad." },
+    { "q": "Kas kviitungeid saab siduda minu arvetega?", "a": "Laadi eraldiseisvaid kviitungeid tasuta alla või loo tasuta Paper & Peni tööruum, kus iga arve juurde salvestatud makse loob automaatselt seotud kviitungi." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Maksetõend korras",
+  "ctaSub": "Loo kviitungid automaatselt, jälgi iga makset ja hoia pearaamat ajakohasena tasuta Paper & Peni tööruumiga."
+}

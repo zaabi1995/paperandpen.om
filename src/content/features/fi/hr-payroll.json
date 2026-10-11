@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "HR ja palkat",
+  "metaTitle": "HR- ja palkanlaskentaohjelma · Palkat helposti · Paper & Pen",
+  "metaDescription": "Hallitse työntekijöitä, läsnäoloa, lomia ja palkkalaskelmia yhdessä paikassa. Maksa palkat millä tahansa valuutalla, kirjaa ne ja laske työsuhteen päättymiskorvaukset.",
+  "keywords": "hr-ohjelma, palkanlaskentaohjelma, palkkalaskelma, läsnäolon seuranta, lomien hallinta, työsuhteen päättymiskorvaus, palkanmaksu, henkilöstöhallinto",
+  "heroEyebrow": "Lisämoduuli",
+  "heroTitle": "Maksa tiimillesi <em class=\"text-copper-400 not-italic\">oikein</em>, joka kerta",
+  "heroSubtitle": "Työntekijät, läsnäolo, lomat ja palkat yhdessä selkeässä moduulissa. Aja palkkakausi, luo palkkalaskelmat ja kirjaa palkat kirjanpitoon minuuteissa, ei päivissä.",
+  "heroBullets": ["Palkanlaskenta minuuteissa", "Palkkalaskelmat ja lomat itsepalveluna", "Kirjautuu suoraan kirjanpitoon"],
+  "features": [
+    { "icon": "hr", "title": "Työntekijätiedot", "desc": "Yksi profiili jokaiselle: työsopimus, palkka, asiakirjat ja historia." },
+    { "icon": "clock", "title": "Läsnäolo ja ylityöt", "desc": "Kirjaa vuorot, ylityöt ja poissaolot, jotka siirtyvät palkanlaskentaan." },
+    { "icon": "doc", "title": "Lomien hallinta", "desc": "Määritä lomasäännöt, hyväksy hakemukset ja seuraa saldoja automaattisesti." },
+    { "icon": "receipt", "title": "Palkkalaskelmat", "desc": "Luo selkeät, eritellyt palkkalaskelmat ja jaa ne jokaiselle työntekijälle." },
+    { "icon": "calc", "title": "Vähennykset ja päättymiskorvaus", "desc": "Hoida lainat, vähennykset ja työsuhteen päättymiskorvaukset oikein." },
+    { "icon": "accounting", "title": "Kirjautuu kirjanpitoon", "desc": "Jokainen palkka-ajo kirjaa palkat ja jaksotukset kirjanpitoosi automaattisesti." }
+  ],
+  "sections": [
+    { "eyebrow": "Vähemmän hallintoa", "title": "Läsnäolosta palkkalaskelmaan ilman taulukoita", "body": "Läsnäolo, ylityöt, lomat ja lainat siirtyvät kaikki palkka-ajoon, joten taulukoiden yhdistely kuun lopussa jää pois. Hyväksy kausi kerran, niin Paper & Pen tuottaa jokaisen palkkalaskelman ja palkkatositteen kerralla.", "items": ["Läsnäolo ja ylityöt siirtyvät palkanlaskentaan", "Lainat ja vähennykset hoidettuna", "Palkkalaskelmat kerralla kaikille"] },
+    { "eyebrow": "Missä tahansa työllistät", "title": "Palkanlaskenta, joka sopii maahasi ja valuuttaasi", "body": "Maksa henkilöstölle palkkaa millä tahansa valuutalla ja määritä lisät, vähennykset ja päättymiskorvaussäännöt, jotka koskevat toimintamaatasi. Arabian-, englannin-, hindin-, bengalin- ja urdunkielisen käyttöliittymän ansiosta tiimisi voi lukea palkkalaskelmansa ja hakea lomaa omalla kielellään.", "items": ["Palkat millä tahansa valuutalla", "Säädettävät lisät ja vähennykset", "Valmis työsuhteen päättymiskorvauksiin"] }
+  ],
+  "faqs": [
+    { "q": "Onko HR ja palkat ilmainen?", "a": "Se on valinnainen maksullinen lisäosa. Ilmainen ydin kattaa Myynnin ja laskutuksen, ja lisäät HR:n ja palkat, kun tarvitset henkilöstön ja palkkojen hallintaa." },
+    { "q": "Voinko maksaa palkat millä tahansa valuutalla?", "a": "Kyllä. Maksa tiimillesi OMR-, AED-, SAR-, USD- tai EUR-valuutassa tai millä tahansa muulla valuutalla, lisät ja vähennykset sääntöjesi mukaan määritettyinä." },
+    { "q": "Hoitaako se läsnäolon ja lomat?", "a": "Kyllä. Kirjaa läsnäolo ja ylityöt, määritä lomasäännöt, hyväksy hakemukset ja seuraa saldoja, ja kaikki siirtyy palkanlaskentaan." },
+    { "q": "Kirjautuvatko palkat kirjanpitoon?", "a": "Kyllä. Kun Kirjanpito on käytössä, jokainen ajo kirjaa palkat, lisät ja jaksotukset pääkirjaasi automaattisesti." },
+    { "q": "Laskeeko se työsuhteen päättymiskorvauksen?", "a": "Kyllä. Määritä maasi päättymiskorvaus- ja gratifikaatiosäännöt, niin loppuselvitykset lasketaan oikein." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Tee palkkapäivästä vaivaton",
+  "ctaSub": "Aloita ilmaiseksi laskutuksella ja lisää HR ja palkat, niin hallitset tiimiäsi ja hoidat palkanlaskennan minuuteissa."
+}

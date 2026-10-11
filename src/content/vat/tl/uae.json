@@ -1,0 +1,152 @@
+{
+  "locale": "tl",
+  "slug": "uae",
+  "order": 2,
+  "country": "United Arab Emirates",
+  "title": "VAT sa UAE",
+  "metaTitle": "VAT sa UAE: Rate, Threshold, E-invoicing · Paper & Pen",
+  "metaDescription": "Ang 5% VAT rate ng UAE, ang AED 375,000 na threshold, ang laman ng invoice ayon sa Artikulo 59 at ang kumpirmadong iskedyul ng eInvoicing, bawat isa ay may sanggunian.",
+  "keywords": "vat uae, vat rate sa uae, threshold sa vat registration sa uae, requirements ng tax invoice sa uae, uae e-invoicing 2027, federal tax authority, vat sa dubai, negosyo sa dubai",
+  "heroEyebrow": "United Arab Emirates",
+  "heroTitle": "Pag-invoice sa ilalim ng mga patakaran sa <em class=\"text-copper-400 not-italic\">VAT ng UAE</em>",
+  "heroSubtitle": "Ang rate, ang mga threshold, ang labindalawang item na hinihingi ng Artikulo 59 sa tax invoice, at ang mga petsa ng eInvoicing na talagang inilathala ng Ministry of Finance.",
+  "heroBullets": [
+    "5% na standard rate",
+    "AED 375,000 para magparehistro",
+    "Paunti-unting eInvoicing mula 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Standard na VAT rate",
+      "value": "5%",
+      "note": "Nagpapataw ang Artikulo 3 ng Federal Decree-Law 8 of 2017 ng standard rate na 5% sa anumang supply o import. May bisa mula 1 Enero 2018.",
+      "source": 1
+    },
+    {
+      "label": "Threshold sa mandatory na registration",
+      "value": "AED 375,000",
+      "note": "Artikulo 7(1) ng Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Threshold sa boluntaryong registration",
+      "value": "AED 187,500",
+      "note": "Artikulo 8(1) ng Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Limit ng simplified invoice",
+      "value": "AED 10,000",
+      "note": "Pinapayagan ang simplified tax invoice kapag hindi rehistrado ang tatanggap, o rehistrado ito at hindi lumalampas sa halagang ito ang consideration.",
+      "source": 2
+    },
+    {
+      "label": "Currency sa invoice",
+      "value": "AED",
+      "note": "Ipinapakita ang halaga ng tax sa dirham, at kapag nasa ibang currency ang invoice, dapat lumabas ang inilapat na exchange rate.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Inililista ng Artikulo 59(1) ng Executive Regulation ang dapat laman ng buong tax invoice.",
+    "items": [
+      "Ang mga salitang \"Tax Invoice\", malinaw na nakalagay",
+      "Pangalan, address at Tax Registration Number ng supplier",
+      "Pangalan, address at TRN ng tatanggap, kapag rehistrado ang tatanggap",
+      "Sunud-sunod o natatanging numero para makilala at maayos ang invoice",
+      "Ang petsa ng pag-isyu",
+      "Ang petsa ng supply, kapag iba ito sa petsa ng pag-isyu",
+      "Paglalarawan ng paninda o serbisyo",
+      "Para sa bawat item: unit price, dami o volume, tax rate at halagang babayaran sa AED",
+      "Ang halaga ng anumang inalok na discount",
+      "Ang gross na halagang babayaran sa AED",
+      "Ang halaga ng siningil na tax sa AED, kasama ang exchange rate kapag kinonvert mula sa ibang currency",
+      "Para sa reverse-charge na supply, pahayag na ang tatanggap ang dapat mag-account sa tax, at ang probisyong pinagbabatayan"
+    ],
+    "source": 2,
+    "caveat": "Ito ang pinagsamang publikasyon ng Federal Tax Authority ng Executive Regulation na may petsang 4 Oktubre 2024. May binabanggit ang mga komentarista na mas bagong amendment; hindi pa namin ito nakita sa tekstong inilathala ng FTA, kaya kumpirmahin sa FTA ang kasalukuyang pananalita bago ka umasa rito."
+  },
+  "einvoicing": {
+    "status": "Mandatory at paunti-unti, bukas na ang pilot",
+    "body": "Ang UAE eInvoicing System ay desentralisadong five-corner na modelo kung saan dumadaan ang mga invoice sa Accredited Service Provider. Ang sariling guidelines ng Ministry of Finance ang nagtatakda ng iskedyul: pilot program at boluntaryong paggamit mula 1 Hulyo 2026; ang mga negosyong may kita na AED 50 milyon o higit pa ay mag-iimplementa mula 1 Enero 2027; ang mga negosyong mas mababa sa threshold na iyon mula 1 Hulyo 2027; ang mga entity ng gobyerno mula 1 Oktubre 2027. Pinalawig ng Ministry ang unang deadline sa pagtatalaga ng Accredited Service Provider mula 31 Hulyo 2026 hanggang 30 Oktubre 2026, nang hindi binabago ang go-live sa Enero 2027, kaya hindi nagtutugma ang nailathalang guidelines PDF at ang news release ng Ministry sa iisang petsang iyon at ang news release ang mas huling salita.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Paggawa nang tama",
+      "title": "Kung saan nahuhuli ng Artikulo 59 ang mga tao",
+      "body": "Ang requirement bawat linya ang madalas na hindi napapasa ng mga invoice template. Hinihingi ng Artikulo 59(1)(h) ang unit price, dami, tax rate at halagang babayaran para sa bawat paninda o serbisyo, kaya hindi sapat ang iisang pinagsamang numero ng tax sa ibaba ng invoice kapag magkakaiba ang treatment ng mga linya. Ang ikalawa ay ang TRN ng tatanggap, na kailangan tuwing rehistrado ang tatanggap, at ang ikatlo ay ang exchange rate: kahit sa dolyar ka mag-bill, kailangan mo pa ring ipakita ang tax sa dirham at ang rate na ginamit mo.",
+      "items": [
+        "Tax rate at halaga bawat linya, hindi lang total",
+        "TRN ng tatanggap tuwing rehistrado sila",
+        "Exchange rate na nakalagay sa anumang invoice na hindi AED",
+        "Pananalita para sa reverse-charge kung naaangkop"
+      ]
+    },
+    {
+      "eyebrow": "Paghahanda",
+      "title": "Ano talaga ang hinihingi sa iyo ng mga petsa sa 2027",
+      "body": "Hindi obligasyon ang bumili ng software na may logo, ang obligasyon ay makapag-isyu ng structured na invoice sa pamamagitan ng Accredited Service Provider sa petsang naaangkop sa revenue band mo. Magbilang pabalik mula sa petsa ng implementasyon ng band mo sa halip na mula sa pilot: buwan-buwan bago ang go-live ang deadline sa pagtatalaga ng service provider, at ang pagtatalaga, hindi ang go-live, ang madalas makaligtaan ng mga negosyo. Samantala, ang data na kakailanganin mo ay ang parehong data na hinihingi na ng Artikulo 59, kaya magandang dahilan ito para ayusin na ngayon ang kalidad ng invoice sa halip na sa gitna ng migration.",
+      "items": [
+        "Alamin kung saang revenue band ka kabilang",
+        "Itala sa kalendaryo ang pagtatalaga ng service provider, hindi lang ang go-live",
+        "Linisin ang TRN ng customer bago ang deadline, hindi habang tumatakbo ito",
+        "Mag-ingat ng detalye ng tax bawat linya mula ngayon"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ano ang VAT rate sa UAE?",
+      "a": "Limang porsiyento. Nagpapataw ang Artikulo 3 ng Federal Decree-Law 8 of 2017 ng standard rate na 5% sa anumang taxable na supply o import, may bisa mula 1 Enero 2018. May mga supply na zero-rated o exempt, at mahalaga ang pagkakaiba: nababawi pa rin ng zero-rated na supplier ang input tax, ang exempt ay hindi."
+    },
+    {
+      "q": "Kailan magiging mandatory ang e-invoicing sa UAE?",
+      "a": "Depende sa kita mo. Sa ilalim ng nailathalang guidelines ng Ministry of Finance, ang mga negosyong may kita na AED 50 milyon o higit pa ay mag-iimplementa mula 1 Enero 2027, ang mas mababa roon mula 1 Hulyo 2027, at ang mga entity ng gobyerno mula 1 Oktubre 2027. Nagbukas ang pilot at boluntaryong paggamit noong 1 Hulyo 2026. Tingnan ang mga pahina ng Ministry bago ka magplano batay sa anumang petsa, dahil nabago na nito ang isang deadline."
+    },
+    {
+      "q": "Kailan ako puwedeng mag-isyu ng simplified tax invoice sa UAE?",
+      "a": "Kapag hindi rehistrado sa VAT ang tatanggap, o rehistrado ito at hindi lumalampas sa AED 10,000 ang consideration. Kailangan pa rin ng simplified invoice ang mga salitang \"Tax Invoice\", ang pangalan, address at TRN mo, ang petsa ng pag-isyu, paglalarawan ng ibinigay, at ang kabuuang consideration at halaga ng tax sa dirham."
+    },
+    {
+      "q": "Kailangan ko ba ang TRN ng customer sa invoice sa UAE?",
+      "a": "Oo, tuwing rehistrado sa VAT ang customer. Hinihingi ng Artikulo 59(1)(c) ang pangalan, address at Tax Registration Number ng tatanggap sa ganoong kaso. Kung wala ito, maaaring mahirapan ang customer mo na bawiin ang input tax, na kadalasang bumabalik sa iyo bilang hiling na mag-isyu ulit."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Mag-invoice nang tama sa UAE, libre",
+  "ctaSub": "Tax bawat linya, kahit anong currency na nakalagay ang rate sa dokumento, at Arabic at Ingles na invoice mula sa iisang record.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, Artikulo 3 (pinagsama, kasama ang mga amendment)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, Artikulo 7, 8 at 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, at ang news release ng Ministry tungkol sa amendment",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

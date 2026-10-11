@@ -1,0 +1,35 @@
+{
+  "locale": "et",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Tootmine",
+  "metaTitle": "Tootmistarkvara ja tootmise juhtimine · Paper & Pen",
+  "metaDescription": "Planeeri tootmist materjalide nimekirjade, töökäskude ja tegeliku omahinnaga. Kuluta toorainet, valmista tooteid ja tea oma päris marginaali.",
+  "keywords": "tootmistarkvara, tootmise juhtimine, materjalide nimekiri, koosteosade loetelu, töökäsk, tootmise omahind, valmistoodang",
+  "heroEyebrow": "Lisamoodul",
+  "heroTitle": "Tooda tellimuse järgi, <em class=\"text-copper-400 not-italic\">arvesta kulu viimase riaalini</em>",
+  "heroSubtitle": "Muuda tooraine valmistoodanguks materjalide nimekirjade ja töökäskudega, samal ajal kui Paper & Pen jälgib iga komponendi kulu, nii et tead alati oma tegelikku marginaali.",
+  "heroBullets": ["Materjalide nimekirjad ja töökäsud", "Automaatne tooraine kulumine", "Tootmise tegelik omahind"],
+  "features": [
+    { "icon": "manufacturing", "title": "Materjalide nimekirjad", "desc": "Määra, mis iga toote sisse läheb, koos koguste ja alamkoostudega." },
+    { "icon": "doc", "title": "Töökäsud", "desc": "Planeeri ja jälgi tootmist toorainest kuni valmis kaubani laos." },
+    { "icon": "inventory", "title": "Automaatsed laoliikumised", "desc": "Tootmise käigus kulub tooraine ja valmistoodang lisandub lattu." },
+    { "icon": "calc", "title": "Tootmise omahind", "desc": "Liida materjali- ja üldkulud valmistoodangu täpseks väärtuseks." },
+    { "icon": "chart", "title": "Marginaal nähtaval", "desc": "Võrdle tootmiskulu müügihinnaga ja näe iga toote tegelikku marginaali." },
+    { "icon": "refresh", "title": "Algusest lõpuni seotud", "desc": "Ühenda ostud, ladu ja müük üheks katkematuks vooks." }
+  ],
+  "sections": [
+    { "eyebrow": "Planeeri kindlalt", "title": "Retseptist valmistoodanguni", "body": "Määra materjalide nimekiri üks kord ja Paper & Pen teab täpselt, mida iga tootmiskord kulutab. Loo töökäsk ning tooraine broneeritakse ja kulutatakse, valmistoodang lisatakse lattu ja kogu kuluarvestus tehakse sinu eest.", "items": ["Korduvkasutatavad materjalide nimekirjad", "Töökäsud koos laobroneeringuga", "Automaatne kulumine ja valmistoodangu vastuvõtt"] },
+    { "eyebrow": "Tea oma tegelikku marginaali", "title": "Kuluarvestus, mis räägib tõtt", "body": "Kulu oletamine tähendab kasumi oletamist. Paper & Pen liidab materjali- ja üldkulud valmistoodangu tegelikuks omahinnaks, kirjendab selle raamatutesse ja näitab marginaali igal müügil. Töötab mis tahes valuutas, nii et saad osta ja müüa üle piiride.", "items": ["Materjali- ja üldkulude arvestus", "Kirjendub automaatselt raamatupidamisse", "Marginaal toote ja tellimuse kaupa"] }
+  ],
+  "faqs": [
+    { "q": "Kas tootmine on tasuta?", "a": "Tootmine on valikuline tasuline lisamoodul. Põhimoodul müük ja arveldamine on igavesti tasuta ning tootmise mooduli lisad siis, kui valmistad tooteid." },
+    { "q": "Kas saan koostada materjalide nimekirju?", "a": "Jah. Koosta igale tootele materjalide nimekiri (BOM) koos alamkoostudega ja kasuta seda igal tootmiskorral uuesti." },
+    { "q": "Kas tooraine kulub automaatselt?", "a": "Jah. Töökäsu töötlemisel kulub tooraine ja valmistoodang lisatakse lattu automaatselt." },
+    { "q": "Kuidas tootmise omahind arvutatakse?", "a": "Materjali- ja üldkulud liidetakse valmistoodangu väärtuseks, mis kirjendub raamatupidamisse, nii et su marginaalid on täpsed." },
+    { "q": "Kas see töötab mis tahes valuutas?", "a": "Jah. Osta materjale ja müü valmistoodangut mis tahes valuutas, kuluarvestus ja raamatupidamine püsivad kooskõlas." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Arvesta iga tootmiskorra kulu täpselt",
+  "ctaSub": "Alusta tasuta arveldamisega ja lisa tootmise moodul, et planeerida tootmist ja teada oma tegelikku marginaali."
+}

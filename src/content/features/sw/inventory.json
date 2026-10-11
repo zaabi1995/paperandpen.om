@@ -1,0 +1,35 @@
+{
+  "locale": "sw",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Hesabu ya Bidhaa",
+  "metaTitle": "Programu ya Usimamizi wa Hesabu ya Bidhaa · Paper & Pen",
+  "metaDescription": "Fuatilia bidhaa katika maghala yote kwa wakati halisi, kwa arifa za bidhaa kupungua, bechi na misimbopau, na thamani hai inayorekodiwa kwenye vitabu vyako.",
+  "keywords": "usimamizi wa hesabu ya bidhaa, udhibiti wa stoku, programu ya ghala, arifa za stoku kupungua, misimbopau, thamani ya stoku, maghala mengi",
+  "heroEyebrow": "Moduli ya nyongeza",
+  "heroTitle": "Stoku unayoweza <em class=\"text-copper-400 not-italic\">kuiamini</em>, kwa wakati halisi",
+  "heroSubtitle": "Jua hasa ulicho nacho, kilipo na thamani yake. Hesabu ya bidhaa inasasishwa papo hapo unapotoa ankara au kupokea bidhaa, kwa hivyo namba zako huwa hai daima.",
+  "heroBullets": ["Stoku hai katika maghala yote", "Arifa za kupungua na kuagiza upya", "Thamani hurekodiwa kwenye vitabu vyako"],
+  "features": [
+    { "icon": "inventory", "title": "Stoku kwa wakati halisi", "desc": "Idadi husasishwa papo hapo unapouza, kununua au kuhamisha bidhaa." },
+    { "icon": "truck", "title": "Maghala mengi", "desc": "Fuatilia na hamisha stoku kati ya maeneo na matawi kwa uwazi kamili." },
+    { "icon": "bell", "title": "Arifa za stoku kupungua", "desc": "Weka viwango vya kuagiza upya na upate onyo kabla bidhaa inayouzika haraka haijaisha." },
+    { "icon": "receipt", "title": "Msimbopau na SKU", "desc": "Changanua ili kuhesabu au kuhamisha bidhaa, zikipangwa kwa SKU, bechi na kipimo." },
+    { "icon": "calc", "title": "Thamani hai", "desc": "Gharama ya wastani au FIFO huweka thamani ya stoku sahihi kwenye mizania yako." },
+    { "icon": "refresh", "title": "Imeunganishwa na mauzo", "desc": "Ankara na oda za ununuzi husogeza stoku kiotomatiki, bila kusasisha kwa mkono." }
+  ],
+  "sections": [
+    { "eyebrow": "Sahihi daima", "title": "Hesabu ya bidhaa inayojisasisha", "body": "Hesabu za stoku za mkono hupitwa na wakati punde unapofanya mauzo. Ndani ya Paper & Pen, kila ankara, ununuzi na uhamisho hurekebisha stoku na gharama kwa wakati halisi, kwa hivyo namba kwenye skrini ndiyo namba kwenye rafu. Weka viwango vya kuagiza upya na acha mfumo ukuambie wakati wa kununua.", "items": ["Hujirekebisha kwa kila muamala", "Viwango vya kuagiza upya na arifa", "Ufuatiliaji wa bechi, SKU na kipimo"] },
+    { "eyebrow": "Stoku inakutana na vitabu", "title": "Kutoka rafu hadi mizania", "body": "Hesabu ya bidhaa si kuhesabu masanduku tu, ni pesa halisi kwenye mizania yako. Paper & Pen hukadiria thamani ya stoku kwa gharama ya wastani au FIFO na kurekodi mienendo kwenye uhasibu kiotomatiki, kwa hivyo gharama ya bidhaa zilizouzwa na thamani ya stoku huwa zimepatanishwa daima. Inafanya kazi kwa sarafu yoyote katika soko lolote.", "items": ["Gharama ya wastani au FIFO", "Hurekodiwa kwenye uhasibu kiotomatiki", "Ununuzi kwa sarafu nyingi"] }
+  ],
+  "faqs": [
+    { "q": "Je, hesabu ya bidhaa imejumuishwa bure?", "a": "Hesabu ya Bidhaa ni nyongeza ya hiari ya kulipia. Moduli ya msingi ya Mauzo na Ankara ni bure milele, na unaongeza Hesabu ya Bidhaa unapohitaji udhibiti wa stoku kwa wakati halisi." },
+    { "q": "Je, naweza kusimamia maghala mengi?", "a": "Ndiyo. Fuatilia stoku kwa kila eneo, hamisha kati yao na ona idadi hai kila mahali." },
+    { "q": "Je, inasaidia misimbopau?", "a": "Ndiyo. Changanua msimbopau wa msambazaji, SKU au lebo ya QR iliyochapishwa ili kuhesabu na kuhamisha bidhaa kwa haraka zaidi, pamoja na usaidizi wa bechi na kipimo." },
+    { "q": "Thamani ya stoku hukadiriwaje?", "a": "Chagua gharama ya wastani au FIFO. Thamani husasishwa kwa kila mwenendo na kurekodiwa kwenye uhasibu wako kiotomatiki." },
+    { "q": "Je, kuuza husasisha stoku kiotomatiki?", "a": "Ndiyo. Ankara hupunguza stoku na ununuzi huiongeza kwa wakati halisi, kwa hivyo hutasasisha idadi kwa mkono kamwe." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Dhibiti stoku yako",
+  "ctaSub": "Anza bure na ankara, kisha ongeza Hesabu ya Bidhaa ukiwa tayari kwa stoku ya wakati halisi katika kila eneo."
+}

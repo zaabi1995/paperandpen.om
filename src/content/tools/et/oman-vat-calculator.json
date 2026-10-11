@@ -1,0 +1,38 @@
+{
+  "locale": "et",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Tasuta käibemaksu- ja maksukalkulaator",
+  "metaTitle": "Omaani käibemaksukalkulaator: lisa või eemalda 5% käibemaks",
+  "metaDescription": "Arvuta Omaani 5% käibemaks veebis. Lisa käibemaks netosummale või eemalda see brutosummast ja näe kohe netosummat, käibemaksu ja kogusummat, registreerumata.",
+  "keywords": "käibemaksu kalkulaator, käibemaksu arvutamine, omaani käibemaks, käibemaksu lisamine, käibemaksu eemaldamine, 5% käibemaks, km kalkulaator, netosumma brutosumma",
+  "heroEyebrow": "Tasuta · Registreerumist pole vaja",
+  "heroTitle": "Tasuta <em class=\"text-copper-400 not-italic\">käibemaksu- ja maksukalkulaator</em>",
+  "heroSubtitle": "Arvuta Omaani 5% käibemaks veebis. Lisa käibemaks netosummale või eemalda see brutosummast ja näe kohe netosummat, käibemaksu ja kogusummat, registreerumata.",
+  "heroBullets": ["Iga määr, iga valuuta", "Lisa maks või arvuta see välja", "Igavesti tasuta, registreerumata"],
+  "howToSteps": [
+    { "name": "Sisesta summa", "text": "Sisesta summa, millega soovid arvutada, ja vali oma valuuta." },
+    { "name": "Määra maksumäär", "text": "Kasuta Omaani vaikimisi 5% määra või sisesta oma tehingule kehtiv määr." },
+    { "name": "Vali lisamine või eemaldamine", "text": "Lisa maks netosummale või eemalda maks brutosummast, et leida netosumma (pöördarvutus)." },
+    { "name": "Loe tulemust", "text": "Näe kohe eraldi netosummat, maksu ja brutosummat, valmis arvele kopeerimiseks." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Lisa või eemalda maks", "desc": "Arvuta maks netosummale juurde või arvuta see brutosummast välja ühe klõpsuga." },
+    { "icon": "globe", "title": "Iga määr, iga valuuta", "desc": "Vaikimisi Omaani 5% või sulle kehtiv määr, OMR-ides, AED-des, SAR-ides, USD-des, EUR-ides ja muudes valuutades." },
+    { "icon": "bolt", "title": "Kohe ja tasuta", "desc": "Ei registreerumist ega piiranguid. Netosumma, maks ja brutosumma kohe kirjutamise ajal." }
+  ],
+  "sections": [
+    { "title": "Miks kasutada Paper & Peni käibemaksukalkulaatorit?", "body": "Olgu sa hinnastamas pakkumist, kontrollimas arvet või esitamas deklaratsiooni, netosumma, maks ja brutosumma peavad klappima viimase kümnendkohani. See kalkulaator töötab mis tahes määra ja valuutaga, mõlemas suunas (lisab maksu või arvutab selle kogusummast välja) ning on päriselt tasuta. See avaneb Omaani 5% määraga ja on täielikult seadistatav teiste riikide jaoks." },
+    { "eyebrow": "Kalkulaatorist edasi", "title": "Lase tarkvaral käibemaks sinu eest arvutada", "body": "Maksu käsitsi arvutamine igal real on aeglane ja vigaderohke. Täisväärtuslikus Paper & Pen ERP-s rakendatakse käibemaks automaatselt iga arve allahindlusjärgsele netosummale, kirjendatakse sinu raamatutesse ja koondatakse deklareerimiseks valmis aruanneteks, nii et kalkulaatorit pole enam üldse vaja.", "items": ["Automaatne maks igal arvel ja pakkumisel", "Maksumäärad rea ja dokumendi kaupa", "Käibemaksu koondaruanded deklareerimiseks valmis"] }
+  ],
+  "faqs": [
+    { "q": "Millist määra see Omaani käibemaksukalkulaator kasutab?", "a": "Kalkulaator avaneb Omaani 5% määraga. Maksureeglid võivad muutuda, seega kontrolli enne arvutusele tuginemist kehtivat määra Oman Tax Authority käest. Võid sisestada mis tahes määra." },
+    { "q": "Kuidas eemaldada käibemaks kogusummast?", "a": "Vali eemaldamise (pöördarvutuse) valik ja sisesta brutosumma. Kalkulaator arvutab välja netosumma ja kogusummas sisaldunud maksuosa." },
+    { "q": "Kas saan seda kasutada müügimaksu jaoks väljaspool Omaani?", "a": "Jah. Määra oma tehingule kehtiv määr ja vali mis tahes valuuta. See töötab käibemaksu, GST või müügimaksuga kõikjal maailmas." },
+    { "q": "Kas see arvutab maksu allahinnatud summalt?", "a": "Sisesta netosumma pärast allahindlust ja lisa sellele maks. Täisarvete automaatse allahindlusjärgse käibemaksu jaoks loo tasuta Paper & Peni tööruum, kus see tehakse sinu eest." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Lõpeta käibemaksu käsitsi arvutamine",
+  "ctaSub": "Rakenda maks automaatselt igal arvel ja saa deklareerimiseks valmis käibemaksuaruanded tasuta Paper & Peni tööruumiga."
+}

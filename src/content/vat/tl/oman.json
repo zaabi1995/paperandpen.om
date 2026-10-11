@@ -1,0 +1,159 @@
+{
+  "locale": "tl",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "title": "VAT sa Oman",
+  "metaTitle": "VAT sa Oman: Rate, Threshold, Invoice · Paper & Pen",
+  "metaDescription": "Ang 5% VAT rate ng Oman, ang OMR 38,500 na threshold sa registration at ang labindalawang item na dapat nasa tax invoice, bawat isa ay may sanggunian sa Tax Authority.",
+  "keywords": "vat oman, vat rate sa oman, threshold sa vat registration sa oman, requirements ng tax invoice sa oman, fawtara e-invoicing, oman tax authority, vat sa oman para sa OFW na negosyante",
+  "heroEyebrow": "Oman",
+  "heroTitle": "Pag-invoice sa ilalim ng mga patakaran sa <em class=\"text-copper-400 not-italic\">VAT ng Oman</em>",
+  "heroSubtitle": "Ang rate, ang mga threshold sa registration, ang dapat ipakita ng tax invoice at kung nasaan na ang e-invoicing. Bawat numero sa pahinang ito ay may sanggunian sa mismong nailathalang teksto ng Oman Tax Authority.",
+  "heroBullets": [
+    "5% na standard rate",
+    "OMR 38,500 para magparehistro",
+    "Inanunsyo na ang Fawtara, hindi pa live"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Standard na VAT rate",
+      "value": "5%",
+      "note": "Itinatakda ng Artikulo 36 ng VAT Law ang tax sa import at supply ng taxable na paninda o serbisyo sa limang porsiyento ng taxable value.",
+      "source": 1
+    },
+    {
+      "label": "Threshold sa mandatory na registration",
+      "value": "OMR 38,500",
+      "note": "Kailangang magparehistro kapag ang taunang supply ay umabot o lumampas sa halagang ito. Iniiwan ng Batas ang numero sa desisyon ng Chairman sa halip na itakda ito sa mismong Batas.",
+      "source": 2
+    },
+    {
+      "label": "Threshold sa boluntaryong registration",
+      "value": "OMR 19,250",
+      "note": "Puwede kang magparehistro mula sa lebel na ito kahit mas mababa sa mandatory na threshold.",
+      "source": 2
+    },
+    {
+      "label": "Wika ng invoice",
+      "value": "Arabic",
+      "note": "Puwede ring i-isyu ang invoice sa Ingles basta may available na Arabic na salin kapag hiningi.",
+      "source": 3
+    },
+    {
+      "label": "Limit ng simplified invoice",
+      "value": "OMR 500",
+      "note": "Puwedeng gumamit ng simplified invoice ang supply na mas mababa sa halagang ito, nang may pag-apruba ng Tax Authority.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Inililista ng Artikulo 145 ng Executive Regulations ang dapat ipakita ng tax invoice. Sinisimulan ng artikulo ang listahan sa \"lalo na\", kaya ituring itong minimum at hindi kumpletong listahan.",
+    "items": [
+      "Ang mga salitang \"Tax Invoice\"",
+      "Petsa ng pag-isyu, petsa ng supply at petsa ng bayad",
+      "Sunud-sunod na numero ng invoice",
+      "Buong pangalan, address at Tax Identification Number ng supplier",
+      "Buong pangalan, address at Tax Identification Number ng customer, o ang katumbas nito sa bansang tinitirhan nila",
+      "Paglalarawan ng paninda at serbisyong ibinigay",
+      "Ang dami ng paninda",
+      "Ang petsa ng anumang advance payment",
+      "Kabuuang halaga na hindi kasama ang tax",
+      "Ang inilapat na tax rate",
+      "Anumang bawas sa presyo o discount na ibinigay, at anumang subsidy ng Estado na hindi pa kasama",
+      "Ang taxable value"
+    ],
+    "source": 3,
+    "caveat": "Sa Arabic lang inilalathala ng Tax Authority ang Executive Regulations. Tapat na pagbasa ang listahang ito sa opisyal na tekstong Arabic, hindi opisyal na saling Ingles, kaya kumpirmahin ang pananalita sa tax adviser mo bago ka umasa rito."
+  },
+  "einvoicing": {
+    "status": "Inanunsyo at paunti-unti, hindi pa mandatory",
+    "body": "Fawtara ang tawag sa e-invoicing program ng Oman. Inilalarawan ng Tax Authority ang five-corner na modelo kung saan umaabot sa kanila ang mga invoice sa pamamagitan ng accredited na service provider, at naglalatag ng apat na yugto: pilot, pagpapalawak, pagsali ng mas maliliit na negosyo, at buong rollout. Hindi pa inilalathala ng Authority sa Ingles ang petsa ng mga yugto, at wala sa sarili nitong mga pahina ang mga petsang kumakalat sa press. Ituring na hindi kumpirmado ang anumang partikular na deadline ng Fawtara na mababasa mo sa ibang lugar hangga't hindi ito inilalathala ng Tax Authority.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Paggawa nang tama",
+      "title": "Ang mga nagpapatisod sa negosyo sa Oman",
+      "body": "Tatlong bagay ang sanhi ng karamihan sa problema sa VAT invoice dito. Ang una ay ang Tax Identification Number ng customer: kapag hindi mo ito isinama, maaaring hindi mabawi ng customer mo ang input tax, kaya nagiging gastos nila ang invoice mo at problema mo. Ang ikalawa ay ang pagkakasunod-sunod ng invoice. Hinihingi ng Artikulo 145 ang sunud-sunod na numero, at ang pinakamabilis na paraan para sirain iyon ay burahin o palitan ang numero ng invoice na naipadala na. Itama ito gamit ang credit note. Ang ikatlo ay ang wika: dapat nasa Arabic ang invoice, at delikado kung sa Ingles ka lang nag-iisyu nang walang Arabic na bersyon na available kapag hiningi.",
+      "items": [
+        "Kunin ang TIN ng customer bago mag-isyu, hindi pagkatapos",
+        "Huwag kailanman burahin ang naiisyu nang invoice, i-credit ito",
+        "Magkaroon ng Arabic na bersyon na available kapag hiningi",
+        "Itala ang petsa ng supply nang hiwalay sa petsa ng pag-isyu"
+      ]
+    },
+    {
+      "eyebrow": "Paghahanda",
+      "title": "Paghahanda para sa Fawtara nang hindi nanghuhula ng petsa",
+      "body": "Hindi mo kailangan ng nailathalang deadline para maging handa. Lahat ng e-invoicing regime na naging live sa rehiyon ay humingi ng parehong pangunahing disiplina: malinis at kumpletong record ng customer kasama ang tax number, tuloy-tuloy na pagkakasunod-sunod ng invoice, tax treatment na itinatala bawat linya sa halip na bawat invoice, at mga dokumentong nakatago sa paraang makukuha mo kapag hiningi. Maikli na lang ang implementasyon ng negosyong ang record ay pasok na sa apat na kondisyong iyon, kailan man dumating ang mga petsa. Ang negosyong hindi pa ay gugugulin ang notice period sa paglilinis ng data.",
+      "items": [
+        "Kumpletong record ng customer, kasama ang tax number",
+        "Iisang tuloy-tuloy na pagkakasunod-sunod ng invoice bawat serye",
+        "Tax treatment na itinatala bawat linya",
+        "Mga dokumentong makukuha kapag hiningi"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ano ang VAT rate sa Oman?",
+      "a": "Limang porsiyento. Kinukuwenta ng Artikulo 36 ng VAT Law, na ipinahayag ng Royal Decree 121/2020, ang tax sa import at supply ng taxable na paninda o serbisyo sa limang porsiyento ng taxable value. May mga supply na zero-rated o exempt, na magkaibang bagay: nababawi pa rin ng zero-rated na supplier ang input tax, ang exempt ay hindi."
+    },
+    {
+      "q": "Kailan ko kailangang magparehistro para sa VAT sa Oman?",
+      "a": "Kapag umabot o inaasahang aabot sa OMR 38,500 ang taunang supply mo. Puwede kang magparehistro nang boluntaryo mula OMR 19,250. Parehong nagmumula ang dalawang numero sa desisyon ng Chairman sa mga threshold sa registration sa halip na sa mismong VAT Law, kaya puwede silang magbago nang hindi nagbabago ang Batas."
+    },
+    {
+      "q": "Mandatory na ba ang e-invoicing sa Oman?",
+      "a": "Hindi pa. Inanunsyo ng Tax Authority ang Fawtara, isang paunti-unting five-corner na e-invoicing model na gumagamit ng accredited na service provider, at naglalarawan ng apat na yugto ng rollout. Hindi pa nito inilalathala sa Ingles sa sarili nitong mga pahina ang petsa ng mga yugto, kaya wala kaming binabanggit na petsa dito. Tingnan ang mga pahina ng Tax Authority sa e-invoicing para sa kasalukuyang lagay."
+    },
+    {
+      "q": "Puwede ba akong mag-isyu ng invoice sa Ingles sa Oman?",
+      "a": "Puwede kang mag-isyu sa Ingles, pero hinihingi ng Executive Regulations na nasa Arabic ang tax invoice at pinapayagan ang ibang wika bilang dagdag, basta may available na Arabic na salin kapag hiningi. Sa praktika, ibig sabihin nito ay gumamit ng bilingual na template sa halip na Ingles lang."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Mag-invoice nang tama sa Oman, libre",
+  "ctaSub": "Itakda ang sarili mong tax rate, mag-bill sa kahit anong currency at magkaroon ng Arabic at Ingles na invoice mula sa iisang record.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, Artikulo 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Desisyon ng Chairman na nagtatakda ng mandatory at boluntaryong threshold sa registration",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Desisyon 53/2021, Artikulo 145 hanggang 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Mga pahina ng e-invoicing (Fawtara) program",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

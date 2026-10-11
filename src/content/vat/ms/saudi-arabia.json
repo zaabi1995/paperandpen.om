@@ -1,0 +1,151 @@
+{
+  "locale": "ms",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Arab Saudi",
+  "title": "VAT di Arab Saudi",
+  "metaTitle": "VAT di Arab Saudi: Kadar 15% dan Fatoora · Paper & Pen",
+  "metaDescription": "Kadar VAT 15% Arab Saudi, ambang SAR 375,000, kandungan invois Perkara 53 dan fasa e-invois Fatoora oleh ZATCA, dengan rujukan kepada sumber.",
+  "keywords": "vat arab saudi, kadar vat saudi 15, cukai nilai tambah arab saudi, zatca fatoora, e-invois saudi fasa 2, syarat invois cukai saudi, zatca",
+  "heroEyebrow": "Arab Saudi",
+  "heroTitle": "Membuat invois mengikut peraturan <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "Kadar 15%, ambang pendaftaran, apa yang dikehendaki Perkara 53 pada invois cukai, dan apa yang ditambah oleh Fatoora sebaik sahaja anda berada dalam fasa integrasi, bagi VAT Arab Saudi (cukai nilai tambah Teluk, bukan SST Malaysia).",
+  "heroBullets": [
+    "Kadar standard 15%",
+    "SAR 375,000 untuk mendaftar",
+    "Fatoora berkuat kuasa sejak 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Kadar VAT standard",
+      "value": "15%",
+      "note": "Arab Saudi ialah pengecualian di Teluk: negara lain yang melaksanakan VAT berada pada 5% atau 10%. Dengan andaian kadar standard terpakai, pembekalan bercukai dikenakan 15%.",
+      "source": 1
+    },
+    {
+      "label": "Ambang pendaftaran wajib",
+      "value": "SAR 375,000",
+      "note": "Pembekalan bercukai melebihi angka ini dalam tempoh 12 bulan memerlukan pendaftaran.",
+      "source": 1
+    },
+    {
+      "label": "Ambang pendaftaran sukarela",
+      "value": "SAR 187,500",
+      "note": "Berdasarkan pembekalan bercukai ATAU perbelanjaan bercukai dalam 12 bulan terakhir.",
+      "source": 1
+    },
+    {
+      "label": "Perniagaan bukan pemastautin",
+      "value": "Tiada ambang",
+      "note": "Bukan pemastautin yang dikehendaki membayar VAT di Kerajaan Arab Saudi mesti mendaftar tanpa mengira nilai pembekalannya.",
+      "source": 1
+    },
+    {
+      "label": "Bahasa invois",
+      "value": "Arab",
+      "note": "Kandungan yang diwajibkan mesti dipaparkan dalam bahasa Arab. Bahasa lain boleh ditunjukkan sebagai tambahan, sebagai terjemahan.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Perkara 53(5) Peraturan Pelaksanaan VAT menyenaraikan apa yang mesti terkandung dalam invois cukai, dan menghendakinya dalam bahasa Arab sebagai tambahan kepada sebarang bahasa lain yang ditunjukkan sebagai terjemahan.",
+    "items": [
+      "Tarikh dikeluarkan",
+      "Nombor berurutan yang mengenal pasti invois secara unik",
+      "Nombor Pengenalan Cukai pembekal",
+      "Jika pelanggan mesti mengakaunkan cukai sendiri, TIN pelanggan dan kenyataan bahawa mereka mesti mengakaunkan cukai tersebut",
+      "Nama dan alamat kedua-dua pembekal dan pelanggan",
+      "Kuantiti dan jenis barang, atau skop dan jenis perkhidmatan",
+      "Tarikh pembekalan, jika berbeza daripada tarikh dikeluarkan",
+      "Amaun bercukai bagi setiap kadar atau pengecualian, harga seunit tidak termasuk VAT, dan sebarang diskaun yang belum termasuk dalam harga seunit",
+      "Kadar cukai yang dikenakan",
+      "Amaun cukai yang perlu dibayar, ditunjukkan dalam riyal Saudi",
+      "Jika cukai tidak dikenakan pada kadar asas, catatan yang menerangkan layanan tersebut",
+      "Jika kaedah margin keuntungan bagi barang terpakai yang layak terpakai, rujukan kepada fakta itu"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Wajib dan berkuat kuasa, dilaksanakan secara berperingkat",
+    "body": "Arab Saudi mempunyai sistem e-invois yang paling maju di Teluk dan menjadi model kepada negara lain. Fasa 1, Fasa Penjanaan, telah terpakai kepada semua orang bercukai yang bermastautin sejak 4 Disember 2021: invois mesti dikeluarkan secara elektronik dalam bentuk berstruktur. Fasa 2, Fasa Integrasi, bermula pada 1 Januari 2023 dan dilaksanakan secara berperingkat mengikut saiz pembayar cukai, dengan ZATCA memaklumkan setiap kumpulan sekurang-kurangnya enam bulan sebelum tarikh integrasinya. Dalam Fasa 2, invois elektronik membawa lebih daripada kandungan Perkara 53: ia juga memerlukan UUID, hash invois sebelumnya, kod QR, cop kriptografi dan pembilang yang kalis ubah suai. Peringkat mana yang terpakai kepada anda diumumkan oleh ZATCA, jadi semak halaman e-invoisnya dan jangan membuat andaian.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Melakukannya dengan betul",
+      "title": "Fatoora mengubah HAKIKAT sebuah invois",
+      "body": "Dalam dunia kertas atau PDF, invois ialah dokumen yang anda hasilkan dan hantar. Di bawah Fasa 2, ia ialah rekod dalam satu rantaian: setiap invois merujuk kepada hash invois sebelumnya, membawa cop kriptografi dan menambah pembilang yang tidak boleh ditetapkan semula. Itu reka bentuk yang disengajakan, dan ia menjadikan satu tabiat biasa mustahil. Anda tidak boleh secara diam-diam memadam, menomborkan semula atau mengeluarkan semula invois selepas itu, kerana rantaian akan terputus dan pemutusan itu boleh dikesan. Perniagaan yang dahulu membetulkan kesilapan dengan menyunting sejarah perlu beralih kepada nota kredit, yang memang sentiasa dikehendaki oleh peraturan perakaunan di seluruh dunia.",
+      "items": [
+        "Setiap invois dipautkan kepada invois sebelumnya melalui hash",
+        "Pembilang tidak boleh ditetapkan semula atau diundurkan",
+        "Pembetulan dibuat melalui nota kredit dan nota debit",
+        "Kod QR ialah sebahagian daripada invois, bukan hiasan"
+      ]
+    },
+    {
+      "eyebrow": "Melakukannya dengan betul",
+      "title": "Kadar 15% membawa kesan berantai",
+      "body": "Kadar lima belas peratus menjadikan perbezaan antara kadar sifar dan dikecualikan serius dari segi kewangan, dengan cara yang tidak berlaku pada kadar lima peratus. Jika pembekalan anda dikecualikan, anda tidak boleh menuntut semula cukai input yang telah anda bayar, jadi lima belas peratus daripada kos input anda menjadi perbelanjaan sebenar yang tidak boleh dituntut dan perlu dimasukkan dalam harga. Jika ia berkadar sifar, anda tidak mengenakan apa-apa tetapi masih boleh menuntut semula. Tersilap membuat pengelasan itu ialah kesilapan tunggal paling mahal dalam VAT Saudi, dan ia soal pengelasan, bukan soal kadar.",
+      "items": [
+        "Dikecualikan bermakna tiada tuntutan semula input, jadi cukai menjadi kos anda",
+        "Kadar sifar bermakna tiada caj tetapi tuntutan semula penuh",
+        "Kelaskan mengikut jenis pembekalan, bukan mengikut pelanggan",
+        "Buat keputusan pengelasan sebelum anda menetapkan harga"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Berapakah kadar VAT di Arab Saudi?",
+      "a": "Lima belas peratus ialah kadar standard. Ini yang tertinggi di Teluk, dan kesilapan biasa ialah menganggap satu kadar GCC: Oman dan UAE pada 5%, Bahrain pada 10%, manakala Qatar dan Kuwait belum melaksanakan VAT langsung. Jika anda menjual di seluruh rantau ini, anda tidak boleh mengenakan satu kadar untuk semua."
+    },
+    {
+      "q": "Apakah Fatoora?",
+      "a": "Fatoora ialah program e-invois ZATCA. Fasa 1, penjanaan, telah terpakai kepada semua orang bercukai yang bermastautin sejak 4 Disember 2021. Fasa 2, integrasi dengan sistem ZATCA, bermula pada 1 Januari 2023 dan dilaksanakan secara berperingkat mengikut saiz pembayar cukai, dengan notis sekurang-kurangnya enam bulan kepada setiap peringkat."
+    },
+    {
+      "q": "Adakah invois cukai Saudi mesti dalam bahasa Arab?",
+      "a": "Ya. Perkara 53(5) menghendaki kandungan invois dalam bahasa Arab, dan membenarkan bahasa lain ditunjukkan sebagai tambahan sebagai terjemahan. Invois dwibahasa mematuhi peraturan; invois bahasa Inggeris sahaja tidak."
+    },
+    {
+      "q": "Apakah medan tambahan yang dikehendaki oleh Fasa 2?",
+      "a": "Selain kandungan Perkara 53, invois elektronik dalam fasa integrasi membawa UUID, hash invois sebelumnya, kod QR, cop kriptografi dan pembilang yang kalis ubah suai. Semua ini dijana oleh perisian yang patuh, bukan ditaip oleh manusia."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Buat invois dengan betul di Arab Saudi, percuma",
+  "ctaSub": "Tetapkan kadar sendiri, simpan bahasa Arab dan Inggeris pada satu dokumen, dan betulkan kesilapan dengan nota kredit, bukan suntingan.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, versi ketiga, seksyen 3.2 dan 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, Perkara 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Resolusi pelaksanaan e-invois, Governor's Decision 62738, dan halaman e-invois ZATCA",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

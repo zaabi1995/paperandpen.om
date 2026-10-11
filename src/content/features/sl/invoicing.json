@@ -1,0 +1,35 @@
+{
+  "locale": "sl",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Izdajanje računov",
+  "metaTitle": "Funkcije za upravljanje računov | Paper & Pen ERP",
+  "metaDescription": "Spoznajte spremljanje računov, spletna plačila, opomnike, nastavljiv davek, pet jezikov in delo v več valutah v Paper & Pen ERP.",
+  "keywords": "program za račune, brezplačni računi, spletni računi, pošiljanje računa, spletno plačilo, račun z ddv, ponavljajoči se računi, opomniki za plačilo",
+  "heroEyebrow": "Brezplačno za vedno",
+  "heroTitle": "Računi, s katerimi ste <em class=\"text-copper-400 not-italic\">hitreje plačani</em>",
+  "heroSubtitle": "V manj kot minuti ustvarite urejen račun, ga pošljite po e-pošti ali WhatsApp in stranki omogočite spletno plačilo. Za katero koli valuto in davčno stopnjo, v uporabi po vsem svetu.",
+  "heroBullets": ["Prodaja in računi brezplačno za vedno", "Katera koli valuta in davčna stopnja", "Povezava za spletno plačilo na vsakem računu"],
+  "features": [
+    { "icon": "bolt", "title": "Račun v nekaj sekundah", "desc": "Izberite stranko, dodajte postavke in pošljite. Zneski in davek se izračunajo med tipkanjem." },
+    { "icon": "globe", "title": "Katera koli valuta", "desc": "Zaračunajte v OMR, AED, SAR, USD, EUR, GBP ali kateri koli valuti s pravilnim številom decimalk." },
+    { "icon": "card", "title": "Spletno plačilo", "desc": "Vsak račun ima varno povezavo za plačilo, da stranka poravna s kartico z enim dotikom." },
+    { "icon": "bell", "title": "Samodejni opomniki", "desc": "Vljudni, načrtovani opomniki terjajo zapadle račune, da vam ni treba." },
+    { "icon": "refresh", "title": "Ponavljajoči se računi", "desc": "Mesečne pavšale in naročnine zaračunavajte samodejno, tedensko ali mesečno." },
+    { "icon": "calc", "title": "Pripravljeno za DDV in davke", "desc": "Uporabite katero koli stopnjo DDV ali prometnega davka, izračunano na neto znesek po popustih." }
+  ],
+  "sections": [
+    { "eyebrow": "Narejeno za ves svet", "title": "Eno orodje za račune za vsak trg", "body": "Ne glede na to, ali zaračunavate v dolarjih iz New Yorka ali v rialih iz Maskata, Paper & Pen za vas uredi valuto, decimalke in davčna pravila. Vmesnik preklopite med angleščino, arabščino, hindijščino, bengalščino in urdu, da vsa ekipa dela v svojem jeziku.", "items": ["Več valut s sprotnim oblikovanjem", "Nastavljiv davek za katero koli državo", "Arabščina na prvem mestu, računi v celoti od desne proti levi"] },
+    { "eyebrow": "Od ponudbe do denarja", "title": "Računi v celovitem ERP", "body": "Vaši računi niso ločeni od ostalega. Uspešno ponudbo z enim klikom pretvorite v račun, zabeležite plačilo in ga glejte, kako se samodejno knjiži v knjige. Ko rastete, vas zaloge, računovodstvo in plače že čakajo v istem delovnem prostoru.", "items": ["Ponudba v račun z enim klikom", "Plačila se uskladijo z glavno knjigo", "Nikoli dvojnega vnosa"] }
+  ],
+  "faqs": [
+    { "q": "Ali so računi res brezplačni?", "a": "Da. Prodaja in računi so brezplačni za vedno, brez omejitve števila računov ali strank. Plačate le, če dodate izbirne module, kot sta Zaloge ali Plače." },
+    { "q": "Ali lahko stranke račun plačajo prek spleta?", "a": "Da. Vsak račun lahko vsebuje varno povezavo za spletno plačilo prek Paymob in drugih plačilnih prehodov, zato stranke plačajo s kartico, plačilo pa se samodejno uskladi." },
+    { "q": "Ali podpira DDV in druge davke?", "a": "Da. Nastavite katero koli stopnjo, vključno z nastavljivim DDV za države Zaliva ali karkoli velja v vaši državi. Davek se izračuna na neto znesek po morebitnem popustu." },
+    { "q": "Ali lahko pošiljam račune v arabščini?", "a": "Da. Celoten vmesnik in PDF računa sta lahko v arabščini, v celoti od desne proti levi, poleg angleščine, hindijščine, bengalščine in urduja." },
+    { "q": "Ali lahko avtomatiziram ponavljajoče se zaračunavanje?", "a": "Da. Ustvarite ponavljajoči se račun za pavšale ali naročnine in Paper & Pen ga izda in pošlje po urniku." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Pošljite prvi račun brezplačno",
+  "ctaSub": "Ustvarite brezplačen delovni prostor in prvi stranki izstavite račun v nekaj minutah. Brez kartice, brezplačno za vedno."
+}

@@ -1,0 +1,151 @@
+{
+  "locale": "fi",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saudi-Arabia",
+  "title": "ALV Saudi-Arabiassa",
+  "metaTitle": "ALV Saudi-Arabiassa: 15 %:n kanta ja Fatoora · Paper & Pen",
+  "metaDescription": "Saudi-Arabian 15 %:n ALV-kanta, SAR 375,000:n raja, 53 artiklan laskun sisältö ja ZATCA:n Fatoora-verkkolaskutuksen vaiheet, kaikki lähteineen.",
+  "keywords": "alv saudi-arabia, saudi-arabian alv-kanta 15, zatca fatoora, saudi-arabian verkkolaskutus vaihe 2, saudi-arabian verolaskun vaatimukset, zatca",
+  "heroEyebrow": "Saudi-Arabia",
+  "heroTitle": "Laskutus <em class=\"text-copper-400 not-italic\">ZATCA:n</em> sääntöjen mukaan",
+  "heroSubtitle": "15 %:n verokanta, rekisteröintirajat, mitä 53 artikla vaatii verolaskulta ja mitä Fatoora lisää siihen, kun olet integraatiovaiheessa.",
+  "heroBullets": [
+    "Yleinen verokanta 15 %",
+    "Rekisteröinti SAR 375,000:sta",
+    "Fatoora käytössä vuodesta 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Yleinen ALV-kanta",
+      "value": "15%",
+      "note": "Saudi-Arabia on Persianlahden poikkeus: muissa ALV:n käyttöön ottaneissa valtioissa kanta on 5 % tai 10 %. Kun yleistä verokantaa sovelletaan, verollisesta myynnistä peritään 15 %.",
+      "source": 1
+    },
+    {
+      "label": "Pakollisen rekisteröinnin raja",
+      "value": "SAR 375,000",
+      "note": "Kun verollinen myynti ylittää tämän summan 12 kuukauden aikana, rekisteröityminen on pakollista.",
+      "source": 1
+    },
+    {
+      "label": "Vapaaehtoisen rekisteröinnin raja",
+      "value": "SAR 187,500",
+      "note": "Perustuu viimeisten 12 kuukauden verolliseen myyntiin TAI verollisiin kuluihin.",
+      "source": 1
+    },
+    {
+      "label": "Ulkomaiset yritykset",
+      "value": "Ei rajaa",
+      "note": "Ulkomaisen yrityksen, jonka on maksettava ALV:tä kuningaskunnassa, on rekisteröidyttävä myyntinsä arvosta riippumatta.",
+      "source": 1
+    },
+    {
+      "label": "Laskun kieli",
+      "value": "Arabia",
+      "note": "Vaadittujen tietojen on oltava arabiaksi. Muuta kieltä voi käyttää lisäksi käännöksenä.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "ALV:n täytäntöönpanoasetuksen (VAT Implementing Regulations) 53 artiklan 5 kohta luettelee, mitä verolaskussa on oltava, ja edellyttää sen olevan arabiaksi käännöksenä näytettävän muun kielen lisäksi.",
+    "items": [
+      "Laskun päivämäärä",
+      "Juokseva numero, joka yksilöi laskun",
+      "Myyjän verotunniste",
+      "Jos asiakkaan on itse tilitettävä vero, asiakkaan verotunniste ja maininta siitä, että hänen on tilitettävä vero",
+      "Sekä myyjän että ostajan nimi ja osoite",
+      "Tavaroiden määrä ja laji tai palvelujen laajuus ja laji",
+      "Toimituspäivä, jos se eroaa laskun päivämäärästä",
+      "Verotettava summa verokannoittain tai vapautuksittain, yksikköhinta ilman ALV:tä ja mahdollinen alennus, joka ei sisälly yksikköhintaan",
+      "Sovellettu verokanta",
+      "Maksettavan veron määrä Saudi-Arabian riaaleina",
+      "Jos veroa ei peritä peruskannalla, selitys verokohtelusta",
+      "Jos sovelletaan käytettyjen tavaroiden voittomarginaalimenettelyä, viittaus siihen"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Pakollinen ja käytössä, otetaan käyttöön aalloittain",
+    "body": "Saudi-Arabian verkkolaskutusjärjestelmä on Persianlahden edistynein, ja muut mallintavat omansa sen mukaan. Vaihe 1, luontivaihe (Generation Phase), on koskenut kaikkia kotimaisia verovelvollisia 4. joulukuuta 2021 alkaen: laskut on annettava sähköisesti rakenteisessa muodossa. Vaihe 2, integraatiovaihe (Integration Phase), alkoi 1. tammikuuta 2023, ja se otetaan käyttöön aalloittain verovelvollisten koon mukaan niin, että ZATCA ilmoittaa kullekin ryhmälle vähintään kuusi kuukautta ennen sen integraatiopäivää. Vaiheessa 2 sähköisessä laskussa on enemmän kuin 53 artiklan sisältö: siinä tarvitaan myös UUID, edellisen laskun tiiviste, QR-koodi, kryptografinen leima ja peukaloinnin estävä laskuri. ZATCA ilmoittaa, mihin aaltoon kuulut, joten tarkista asia sen verkkolaskutussivuilta äläkä oleta.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Oikein tekeminen",
+      "title": "Fatoora muuttaa sen, MITÄ lasku on",
+      "body": "Paperin tai PDF:n maailmassa lasku on asiakirja, jonka laadit ja lähetät. Vaiheessa 2 se on tietue ketjussa: jokainen lasku viittaa edellisen laskun tiivisteeseen, kantaa kryptografista leimaa ja kasvattaa laskuria, jota ei voi nollata. Tämä on tarkoituksellinen rakenne, ja se tekee yhden yleisen tavan mahdottomaksi. Et voi jälkikäteen hiljaa poistaa, numeroida uudelleen tai antaa uudelleen laskua, koska ketju katkeaisi ja katkos on havaittavissa. Yritysten, jotka ennen korjasivat virheitä muokkaamalla historiaa, on siirryttävä hyvityslaskuihin, mitä muun maailman kirjanpitosäännöt ovat aina halunneetkin.",
+      "items": [
+        "Jokainen lasku on linkitetty edelliseen tiivisteellä",
+        "Laskuria ei voi nollata eikä palauttaa taaksepäin",
+        "Korjaukset tehdään hyvitys- ja veloituslaskuilla",
+        "QR-koodi on osa laskua, ei koriste"
+      ]
+    },
+    {
+      "eyebrow": "Oikein tekeminen",
+      "title": "15 %:n kannalla on kerrannaisvaikutuksia",
+      "body": "Viidentoista prosentin kanta tekee nollaverokannan ja verovapauden erosta taloudellisesti merkittävän tavalla, jota viiden prosentin kanta ei tee. Jos myyntisi on verosta vapautettua, et voi vähentää maksamaasi ostoveroa, joten viidestätoista prosentista ostokustannuksiasi tulee todellinen, palautumaton kulu, joka on hinnoiteltava mukaan. Jos myynti on nollaverokannan alaista, et veloita mitään mutta saat silti vähennyksen. Tämän luokittelun virhe on Saudi-Arabian ALV:n kallein yksittäinen mahdollinen virhe, ja se on luokittelukysymys, ei verokantakysymys.",
+      "items": [
+        "Verovapaus tarkoittaa, ettei ostoveroa voi vähentää, joten vero on sinun kulusi",
+        "Nollaverokanta tarkoittaa, ettei veroa veloiteta mutta vähennys on täysi",
+        "Luokittele myynnin lajin, ei asiakkaan mukaan",
+        "Tee luokittelupäätös ennen hinnoittelua"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mikä on ALV-kanta Saudi-Arabiassa?",
+      "a": "Viisitoista prosenttia on yleinen verokanta. Se on Persianlahden korkein, ja yleinen virhe on olettaa, että Persianlahden mailla on yksi yhteinen kanta: Omanissa ja Arabiemiirikunnissa kanta on 5 %, Bahrainissa 10 %, eivätkä Qatar ja Kuwait ole ottaneet ALV:tä käyttöön lainkaan. Jos myyt koko alueelle, et voi soveltaa yhtä kantaa kaikkeen."
+    },
+    {
+      "q": "Mikä on Fatoora?",
+      "a": "Fatoora on ZATCA:n verkkolaskutusohjelma. Vaihe 1, luonti, on koskenut kaikkia kotimaisia verovelvollisia 4. joulukuuta 2021 alkaen. Vaihe 2, integraatio ZATCA:n järjestelmiin, alkoi 1. tammikuuta 2023, ja se otetaan käyttöön aalloittain verovelvollisten koon mukaan niin, että kukin aalto saa ilmoituksen vähintään kuusi kuukautta etukäteen."
+    },
+    {
+      "q": "Onko Saudi-Arabian verolaskun oltava arabiaksi?",
+      "a": "Kyllä. 53 artiklan 5 kohta edellyttää laskun sisällön olevan arabiaksi ja sallii lisäksi muun kielen käännöksenä. Kaksikielinen lasku täyttää vaatimukset, pelkkä englanninkielinen ei."
+    },
+    {
+      "q": "Mitä lisäkenttiä vaihe 2 vaatii?",
+      "a": "53 artiklan sisällön lisäksi integraatiovaiheen sähköisessä laskussa on UUID, edellisen laskun tiiviste, QR-koodi, kryptografinen leima ja peukaloinnin estävä laskuri. Ne luodaan vaatimukset täyttävällä ohjelmistolla, eikä ihminen kirjoita niitä."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Laskuta oikein Saudi-Arabiassa, ilmaiseksi",
+  "ctaSub": "Aseta verokanta itse, pidä arabia ja englanti samassa asiakirjassa ja korjaa virheet hyvityslaskuilla muokkaamisen sijaan.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, kolmas versio, kohdat 3.2 ja 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, 53 artikla",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Verkkolaskutuksen käyttöönottopäätös, Governor's Decision 62738, sekä ZATCA:n verkkolaskutussivut",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

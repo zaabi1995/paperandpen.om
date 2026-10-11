@@ -1,0 +1,35 @@
+{
+  "locale": "sw",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Uhasibu",
+  "metaTitle": "Programu ya Uhasibu Mtandaoni · Vitabu Kiotomatiki · Paper & Pen",
+  "metaDescription": "Uhasibu wa kuingiza mara mbili unaojirekodi wenyewe. Faida na hasara na mizania kwa wakati halisi, ritani za VAT, upatanisho wa benki, sarafu na kodi yoyote.",
+  "keywords": "programu ya uhasibu, utunzaji wa vitabu mtandaoni, uhasibu wa kuingiza mara mbili, mizania, faida na hasara, ritani ya VAT, upatanisho wa benki, leja kuu",
+  "heroEyebrow": "Moduli ya nyongeza",
+  "heroTitle": "Vitabu <em class=\"text-copper-400 not-italic\">vinavyojisawazisha vyenyewe</em>",
+  "heroSubtitle": "Kila ankara, malipo na ununuzi hurekodiwa kiotomatiki kwenye leja sahihi ya kuingiza mara mbili. Ona faida yako, mizania na hali yako ya kodi kwa wakati halisi bila kugusa lahajedwali.",
+  "heroBullets": ["Kuingiza mara mbili kiotomatiki, bila majarida ya mkono", "Faida na hasara na mizania kwa wakati halisi", "Ritani za VAT kwa mbofyo mmoja"],
+  "features": [
+    { "icon": "accounting", "title": "Utunzaji wa vitabu kiotomatiki", "desc": "Mauzo, malipo na matumizi hurekodiwa kwenye leja papo hapo yanapotokea." },
+    { "icon": "chart", "title": "Taarifa za fedha hai", "desc": "Faida na hasara, mizania na mtiririko wa fedha, daima zikiwa za kisasa." },
+    { "icon": "calc", "title": "Ritani za VAT na kodi", "desc": "Fuatilia kodi ya pembejeo na ya matokeo, na toa ritani iliyo tayari kuwasilishwa kwa mbofyo mmoja." },
+    { "icon": "refresh", "title": "Upatanisho wa benki", "desc": "Linganisha mistari ya benki na ankara na malipo ili vitabu vibaki safi." },
+    { "icon": "doc", "title": "Leja kamili", "desc": "Shuka kutoka ripoti yoyote hadi hati ya asili na ingizo la jarida." },
+    { "icon": "globe", "title": "Sarafu nyingi", "desc": "Rekodi kwa sarafu yoyote, pamoja na faida na hasara ya ubadilishaji kiotomatiki." }
+  ],
+  "sections": [
+    { "eyebrow": "Huhitaji mhasibu", "title": "Uhasibu unaofanya kazi nyuma ya pazia", "body": "Hupaswi kuwa mtunza vitabu ili kujua kama unapata faida. Kwa kuwa ankara, malipo na hesabu ya bidhaa vyote vinalisha leja moja, hesabu zako ziko sahihi bila majarida ya mkono. Fungua dashibodi na utaona faida yako, wadaiwa na kodi papo hapo.", "items": ["Kuingiza mara mbili kunafanywa kwa ajili yako", "Kila ripoti inashuka hadi chanzo", "Kumbukumbu ya ukaguzi kwa kila ingizo"] },
+    { "eyebrow": "Kwa mfumo wowote wa kodi", "title": "Kodi na utiifu, popote unapofanya kazi", "body": "Weka viwango vya kodi na akaunti za nchi yako, ikiwemo VAT inayorekebishwa kwa nchi za Ghuba, na Paper & Pen hufuatilia kodi ya pembejeo na ya matokeo kwa ajili yako. Toa ritani iliyo tayari kuwasilishwa, patanisha benki yako, na funga kipindi kwa kujiamini, kwa sarafu yoyote.", "items": ["Kodi inayorekebishwa kwa nchi yoyote", "Ritani za VAT tayari kuwasilishwa", "Upatanisho wa benki na kufunga kipindi"] }
+  ],
+  "faqs": [
+    { "q": "Je, ninahitaji ujuzi wa uhasibu kuitumia?", "a": "Hapana. Maingizo hurekodiwa kiotomatiki kutoka kwenye ankara, malipo na ununuzi wako, kwa hivyo unapata vitabu sahihi vya kuingiza mara mbili bila kuandika majarida." },
+    { "q": "Je, uhasibu ni bure?", "a": "Uhasibu ni nyongeza ya hiari ya kulipia. Mauzo na Ankara ni bure milele, na unawasha Uhasibu unapotaka taarifa kamili za fedha." },
+    { "q": "Je, inaweza kutoa ritani za VAT?", "a": "Ndiyo. Inafuatilia kodi ya pembejeo na ya matokeo (kwa mfano VAT ya Ghuba inayorekebishwa, au kiwango chochote unachoweka) na kutengeneza ritani iliyo tayari kuwasilishwa." },
+    { "q": "Je, inashughulikia sarafu nyingi?", "a": "Ndiyo. Rekodi na toa ripoti kwa sarafu yoyote, pamoja na faida na hasara ya ubadilishaji wa fedha za kigeni kiotomatiki." },
+    { "q": "Je, naweza kupatanisha benki yangu?", "a": "Ndiyo. Ingiza au linganisha mistari ya benki na ankara na malipo ili leja yako ibaki imepatanishwa." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Pata vitabu sahihi, kiotomatiki",
+  "ctaSub": "Anza bure na ankara, kisha washa Uhasibu kwa taarifa za fedha na ritani za kodi kwa wakati halisi."
+}

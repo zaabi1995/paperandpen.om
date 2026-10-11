@@ -1,0 +1,35 @@
+{
+  "locale": "sl",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Proizvodnja",
+  "metaTitle": "Program za proizvodnjo in načrtovanje · Paper & Pen",
+  "metaDescription": "Načrtujte proizvodnjo s kosovnicami, delovnimi nalogi in pravo kalkulacijo stroškov. Porabite surovine, izdelajte končne izdelke in poznajte pravo maržo.",
+  "keywords": "program za proizvodnjo, upravljanje proizvodnje, kosovnica, kosovnice, delovni nalogi, kalkulacija proizvodnih stroškov, končni izdelki",
+  "heroEyebrow": "Dodatni modul",
+  "heroTitle": "Izdelujte po naročilu, <em class=\"text-copper-400 not-italic\">stroške poznajte do riala</em>",
+  "heroSubtitle": "S kosovnicami in delovnimi nalogi spremenite surovine v končne izdelke, Paper & Pen pa spremlja strošek vsake sestavine, da vedno poznate svojo pravo maržo.",
+  "heroBullets": ["Kosovnice in delovni nalogi", "Samodejna poraba zalog", "Prava kalkulacija proizvodnih stroškov"],
+  "features": [
+    { "icon": "manufacturing", "title": "Kosovnice", "desc": "Določite, kaj gre v vsak izdelek, s količinami in podsklopi." },
+    { "icon": "doc", "title": "Delovni nalogi", "desc": "Načrtujte in spremljajte proizvodne serije od surovin do končne zaloge." },
+    { "icon": "inventory", "title": "Samodejni premiki zalog", "desc": "Med izdelavo se surovine porabijo, končni izdelki pa dodajo." },
+    { "icon": "calc", "title": "Kalkulacija proizvodnje", "desc": "Stroške materiala in režije združite v točno vrednost končnih izdelkov." },
+    { "icon": "chart", "title": "Pregled nad maržo", "desc": "Primerjajte proizvodni strošek s prodajno ceno in vidite pravo maržo za vsak artikel." },
+    { "icon": "refresh", "title": "Povezano od začetka do konca", "desc": "Nabavo, zaloge in prodajo povežite v en neprekinjen tok." }
+  ],
+  "sections": [
+    { "eyebrow": "Načrtujte z zaupanjem", "title": "Od recepture do končnega izdelka", "body": "Kosovnico določite enkrat in Paper & Pen natančno ve, kaj porabi vsaka izdelava. Odprite delovni nalog in surovine se rezervirajo ter porabijo, končni izdelki pa se dodajo v zalogo, vsa kalkulacija pa je urejena namesto vas.", "items": ["Kosovnice za večkratno uporabo", "Delovni nalogi z rezervacijo zalog", "Samodejna poraba in prevzem končnih izdelkov"] },
+    { "eyebrow": "Poznajte pravo maržo", "title": "Kalkulacija, ki pove resnico", "body": "Ugibati strošek pomeni ugibati dobiček. Paper & Pen združi material in režijo v pravi strošek končnega izdelka, ga knjiži v knjige in pokaže maržo pri vsaki prodaji. Deluje v kateri koli valuti, zato lahko nabavljate in prodajate prek meja.", "items": ["Kalkulacija materiala in režije", "Samodejno knjiženje v računovodstvo", "Marža po izdelku in po naročilu"] }
+  ],
+  "faqs": [
+    { "q": "Ali je proizvodnja brezplačna?", "a": "Proizvodnja je izbirni plačljivi dodatek. Osnovni modul Prodaja in računi je brezplačen za vedno, Proizvodnjo pa dodate, ko izdelujete blago." },
+    { "q": "Ali lahko določim kosovnice?", "a": "Da. Za vsak izdelek sestavite kosovnico, tudi s podsklopi, in jo uporabite pri vsaki proizvodni seriji." },
+    { "q": "Ali samodejno porabi zaloge?", "a": "Da. Ko obdelate delovni nalog, se surovine porabijo, končni izdelki pa samodejno dodajo v zalogo." },
+    { "q": "Kako se izračuna proizvodni strošek?", "a": "Stroški materiala in režije se združijo v vrednost končnih izdelkov, ki se knjiži v računovodstvo, zato so vaše marže točne." },
+    { "q": "Ali deluje v kateri koli valuti?", "a": "Da. Material kupujte in končne izdelke prodajajte v kateri koli valuti, kalkulacija in računovodstvo pa ostaneta usklajena." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Točen strošek vsake izdelave",
+  "ctaSub": "Začnite brezplačno z računi in dodajte Proizvodnjo, da načrtujete proizvodnjo in poznate pravo maržo."
+}

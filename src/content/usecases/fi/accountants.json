@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "accountants",
+  "order": 4,
+  "title": "Tilitoimistot ja kirjanpitäjät",
+  "metaTitle": "Kirjanpito-ohjelma tilitoimistoille ja kirjanpitäjille | Paper & Pen",
+  "metaDescription": "Kahdenkertainen kirjanpito, ALV-ilmoitukset, talousraportit ja monen asiakkaan työtilat tilitoimistoille. Siistit pääkirjat, mikä tahansa valuutta ja verokanta.",
+  "keywords": "kirjanpito-ohjelma tilitoimistolle, kirjanpito-ohjelma, kahdenkertainen kirjanpito, alv-ilmoitus ohjelma, talousraportit, usean asiakkaan kirjanpito, koetase",
+  "heroEyebrow": "Tilitoimistoille ja kirjanpitäjille",
+  "heroTitle": "Siisti kirjanpito, joka <em class=\"text-copper-400 not-italic\">täsmää aina</em>",
+  "heroSubtitle": "Aito kahdenkertainen kirjanpito, automaattiset kirjaukset jokaisesta laskusta ja maksusta, ALV-ilmoitukset ja raportit, joihin asiakkaasi voivat luottaa. Paper & Pen hoitaa kirjaukset, jotta sinä voit neuvoa.",
+  "heroBullets": ["Aidot kahdenkertaiset pääkirjat", "Automaattiset kirjaukset myynneistä ja ostoista", "ALV-ilmoitukset ja talousraportit"],
+  "features": [
+    { "icon": "accounting", "title": "Kahdenkertainen kirjanpito", "desc": "Jokainen tapahtuma kirjaa tasapainoisen viennin asianmukaiseen tilikarttaan." },
+    { "icon": "refresh", "title": "Automaattinen kirjaus", "desc": "Laskut, maksut ja varastoliikkeet kirjautuvat pääkirjaan automaattisesti." },
+    { "icon": "calc", "title": "ALV-ilmoitukset", "desc": "Vero seurataan jokaisessa asiakirjassa, valmiina 5 %:n ALV-ilmoitukseen tai mihin tahansa kantaan." },
+    { "icon": "reports", "title": "Talousraportit", "desc": "Tuloslaskelma, tase, koetase ja pääkirjat tarpeen mukaan." },
+    { "icon": "doc", "title": "Kirjausketju", "desc": "Jokainen vienti on jäljitettävissä alkuperäiseen tositteeseen siistiä tilintarkastusta varten." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta ja vero", "desc": "Palvele monivaluuttaisia asiakkaita ja mitä tahansa verojärjestelmää maailmanlaajuisesti." }
+  ],
+  "sections": [
+    { "eyebrow": "Ei enää uudelleennäppäilyä", "title": "Pääkirja kirjoittaa itsensä", "body": "Käsin tehdyt viennit ovat paikka, jossa virheet pääsevät sisään. Paper & Penissä jokainen lasku, maksu, osto ja varastoliike kirjaa tasapainoisen kahdenkertaisen viennin asianmukaiseen tilikarttaan, joten kirjanpito on aina ajan tasalla ja täsmäytettynä. Käytät aikasi tarkastamiseen ja neuvontaan, et vientien näppäilyyn, ja jokainen luku johtaa suoraan alkuperäiseen tositteeseensa.", "items": ["Tasapainoiset viennit jokaisesta tapahtumasta", "Asianmukainen tilikartta", "Täydellinen kirjausketju alkuperäisiin tositteisiin"] },
+    { "eyebrow": "Raportoi ja ilmoita luottavaisesti", "title": "ALV, laskelmat ja raportit tarpeen mukaan", "body": "Ota tuloslaskelma, tase, koetase tai pääkirja aina, kun asiakas pyytää, ja tee ALV-ilmoitus, kun vero on seurattu jokaisessa asiakirjassa. Paper & Pen tukee valmiiksi Persianlahden maiden säädettävää ALV:tä sekä mitä tahansa verokantaa tai valuuttaa muualla oleville asiakkaille, joten voit palvella asiakaskuntaa useilla markkinoilla. Tehty Omanissa, kotonaan kaikkialla Muscatista Manchesteriin.", "items": ["Tuloslaskelma, tase, koetase, pääkirjat", "ALV seurattuna asiakirjoittain, valmiina ilmoitettavaksi", "Monivaluuttainen, mikä tahansa verojärjestelmä"] }
+  ],
+  "faqs": [
+    { "q": "Onko tämä aitoa kahdenkertaista kirjanpitoa?", "a": "Kyllä. Jokainen tapahtuma kirjaa tasapainoisen viennin asianmukaiseen tilikarttaan, joten koetase on aina tasapainossa ja kirjanpito täsmää." },
+    { "q": "Kirjautuvatko laskut ja maksut automaattisesti?", "a": "Kyllä. Myynnit, ostot, maksut ja varastoliikkeet kirjautuvat pääkirjaan automaattisesti, joten mitään ei tarvitse näppäillä uudelleen ja virheille jää paljon vähemmän tilaa." },
+    { "q": "Voinko tehdä ALV-ilmoituksia?", "a": "Kyllä. Vero seurataan jokaisessa asiakirjassa, joten voit tehdä Persianlahden maiden säädettävän ALV:n mukaisen ilmoituksen tai ilmoituksen millä tahansa kannalla asiakkaille muissa verojärjestelmissä." },
+    { "q": "Mitä raportteja voin ajaa?", "a": "Tuloslaskelman, taseen, koetaseen, pääkirjan sekä asiakkaiden ja toimittajien tiliotteet, kaikki tarpeen mukaan ja alkuperäisiin tositteisiin jäljitettävinä." },
+    { "q": "Voinko palvella asiakkaita eri valuutoissa?", "a": "Kyllä. Paper & Pen tukee monivaluuttaisia asiakkaita ja mitä tahansa verojärjestelmää, joten voit palvella asiakaskuntaa eri maissa yhdeltä alustalta." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/invoicing/ledgers", "/use-cases/small-business", "/pricing"],
+  "ctaTitle": "Vähemmän näppäilyä, enemmän neuvontaa",
+  "ctaSub": "Anna Paper & Penin kirjata pääkirjat automaattisesti, niin kirjanpitosi täsmää ja raporttisi ovat valmiina tarpeen mukaan."
+}

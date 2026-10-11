@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "HR at Payroll",
+  "metaTitle": "HR at Payroll Software · Madaling Payroll · Paper & Pen",
+  "metaDescription": "Pamahalaan ang empleyado, attendance, leave at payslip sa iisang lugar. Magpatakbo ng payroll sa kahit anong currency, i-post ang sahod sa libro, handa sa end-of-service.",
+  "keywords": "hr software, payroll software, payslip, attendance, pamamahala ng leave, end of service, wps, pamamahala ng empleyado, payroll system Pilipinas",
+  "heroEyebrow": "Add-on na module",
+  "heroTitle": "Bayaran ang team mo nang <em class=\"text-copper-400 not-italic\">tama</em>, palagi",
+  "heroSubtitle": "Empleyado, attendance, leave at payroll sa iisang maayos na module. Magpatakbo ng payroll cycle, gumawa ng payslip at i-post ang sahod sa accounts mo sa loob ng ilang minuto, hindi ilang araw.",
+  "heroBullets": ["Payroll sa ilang minuto", "Payslip at leave na self-service", "Diretsong pumapasok sa accounting"],
+  "features": [
+    { "icon": "hr", "title": "Record ng empleyado", "desc": "Isang profile bawat tao: kontrata, sahod, dokumento at history." },
+    { "icon": "clock", "title": "Attendance at overtime", "desc": "Itala ang shift, overtime at pagliban na dumadaloy papunta sa payroll." },
+    { "icon": "doc", "title": "Pamamahala ng leave", "desc": "Magtakda ng leave policy, aprubahan ang request at kusang subaybayan ang balanse." },
+    { "icon": "receipt", "title": "Payslip", "desc": "Gumawa ng malinaw at naka-itemize na payslip at i-share sa bawat empleyado." },
+    { "icon": "calc", "title": "Deduction at EOS", "desc": "Tamang hawakan ang loan, deduction at kuwenta ng end-of-service." },
+    { "icon": "accounting", "title": "Pumapasok sa libro", "desc": "Kusang nagpo-post ng sahod at accrual sa accounts mo ang bawat payroll run." }
+  ],
+  "sections": [
+    { "eyebrow": "Mas kaunting admin", "title": "Mula attendance hanggang payslip nang walang spreadsheet", "body": "Lahat ng attendance, overtime, leave at loan ay pumapasok sa payroll run, kaya hindi mo na kailangang pagdugtung-dugtungin ang spreadsheet tuwing katapusan ng buwan. Aprubahan ang cycle nang isang beses at gagawin ng Paper & Pen ang bawat payslip at ang salary journal nang sabay-sabay.", "items": ["Pumapasok sa payroll ang attendance at overtime", "Hawak ang loan at deduction", "Maramihang paggawa ng payslip"] },
+    { "eyebrow": "Saanman ka may empleyado", "title": "Payroll na akma sa bansa at currency mo", "body": "Bayaran ang staff sa kahit anong currency at i-configure ang allowance, deduction at patakaran sa end-of-service na naaangkop kung saan ka nag-ooperate. Sa interface na Arabic, Ingles, Hindi, Bengali at Urdu, mababasa ng team mo ang sarili nilang payslip at makakapag-request ng leave sa sarili nilang wika.", "items": ["Sahod sa kahit anong currency", "Naa-adjust na allowance at deduction", "Handa sa end-of-service"] }
+  ],
+  "faqs": [
+    { "q": "Libre ba ang HR at Payroll?", "a": "Opsyonal itong bayad na add-on. Sakop ng libre-habambuhay na core ang Benta at Invoicing, at idaragdag mo ang HR at Payroll kapag kailangan mo nang pamahalaan ang staff at sahod." },
+    { "q": "Puwede ba akong magpatakbo ng payroll sa kahit anong currency?", "a": "Oo. Bayaran ang team mo sa OMR, AED, SAR, USD, EUR o kahit anong currency, na naka-configure ang allowance at deduction ayon sa patakaran mo." },
+    { "q": "Hawak ba nito ang attendance at leave?", "a": "Oo. Itala ang attendance at overtime, magtakda ng leave policy, aprubahan ang request at subaybayan ang balanse, lahat pumapasok sa payroll." },
+    { "q": "Pumapasok ba sa accounting ang payroll?", "a": "Oo. Kusang nagpo-post ng sahod, allowance at accrual sa ledger mo ang bawat run kapag naka-enable ang Accounting." },
+    { "q": "Kaya ba nitong kuwentahin ang end-of-service?", "a": "Oo. I-configure ang patakaran sa end-of-service at gratuity para sa bansa mo para tama ang kuwenta ng final settlement." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Gawing walang sakit ng ulo ang araw ng sahod",
+  "ctaSub": "Magsimula nang libre sa invoicing at idagdag ang HR at Payroll para pamahalaan ang team mo at magpatakbo ng payroll sa ilang minuto."
+}

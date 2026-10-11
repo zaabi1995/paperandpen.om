@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Ravintolat ja kahvilat",
+  "metaTitle": "Ravintolan laskutus ja reseptivarasto | Paper & Pen",
+  "metaDescription": "Ilmainen laskutus sekä raaka-ainevarasto, reseptien kustannuslaskenta ja ostotilaukset toimittajille ravintoloille ja kahviloille. Hallitse raaka-ainekustannuksia.",
+  "keywords": "ravintolan ohjelmisto, kahvilan kassa, reseptin kustannuslaskenta, raaka-ainekustannus, ravintolan varastonhallinta, ostotilaus toimittajalle, ravintolan erp",
+  "heroEyebrow": "Ravintoloille ja kahviloille",
+  "heroTitle": "Laskuta nopeasti, <em class=\"text-copper-400 not-italic\">hallitse raaka-ainekustannuksia</em>",
+  "heroSubtitle": "Tulosta kuitit sekunneissa, seuraa raaka-aineita grammalleen ja tunne jokaisen annoksen todellinen kustannus. Paper & Pen pitää keittiön, kassan ja kirjanpidon yhteistyössä.",
+  "heroBullets": ["Ilmaiset, nopeat kuitit", "Raaka-aineiden ja reseptien kustannuslaskenta", "Ostotilaukset toimittajille"],
+  "features": [
+    { "icon": "receipt", "title": "Nopeat kuitit", "desc": "Ota tilaus vastaan, lisää vero ja palvelumaksu ja tulosta tai jaa kuitti sekunneissa." },
+    { "icon": "manufacturing", "title": "Reseptien kustannuslaskenta", "desc": "Määritä reseptit raaka-aineista, niin tiedät jokaisen annoksen todellisen kustannuksen." },
+    { "icon": "inventory", "title": "Raaka-ainevarasto", "desc": "Seuraa raaka-aineita yksikön, erän ja viimeisen käyttöpäivän mukaan, hälytyksin vähäisestä saldosta." },
+    { "icon": "truck", "title": "Toimittajatilaukset", "desc": "Tee ostotilauksia toimittajille ja päivitä varasto ja kustannus vastaanotossa." },
+    { "icon": "calc", "title": "Raaka-aineprosentti", "desc": "Vertaa annoksen kustannusta ruokalistan hintaan, niin katteesi pysyvät terveinä." },
+    { "icon": "chart", "title": "Myyntiraportit", "desc": "Näe suosituimmat annokset, päivän myynti ja trendit päivittäin ja toimipisteittäin." }
+  ],
+  "sections": [
+    { "eyebrow": "Nopeampi salipalvelu", "title": "Kuitit, jotka pitävät jonon liikkeessä", "body": "Lounasruuhkassa ei ole aikaa hitaalle laskutukselle. Lisää tuotteet, lisää ALV tai palvelumaksu, ota maksu vastaan ja ojenna siisti kuitti sekunneissa, ja jaa se WhatsAppissa, jos asiakas pyytää. Jokainen myynti kirjautuu kirjanpitoosi automaattisesti, joten päivän sulkeminen on silmäys, ei iltaa kestävää näppäilyä.", "items": ["Lisää tuotteet ja ota maksu vastaan nopeasti", "ALV ja palvelumaksu hoidettuina puolestasi", "Päivän myynti täsmäytyy automaattisesti"] },
+    { "eyebrow": "Keittiö kertoo totuuden", "title": "Reseptien kustannuslaskenta, joka suojaa katettasi", "body": "Annos on kannattava vain, jos tiedät, mitä se maksaa. Rakenna reseptit raaka-aineista, anna Paper & Penin laskea jokaisen annoksen kustannus ajantasaisista ostohinnoista ja seuraa raaka-aineprosenttiasi toimittajien hintojen muuttuessa. Seuraa raaka-aineita erän ja viimeisen käyttöpäivän mukaan, tee ostotilauksia ja pidä hävikki kurissa. Tehty Omanissa valmiilla OMR-, AED- ja SAR-tuella ja 5 %:n ALV:llä, ja valmis USD-, EUR- tai minkä tahansa markkinan käyttöön.", "items": ["Reseptit hinnoiteltuina ajantasaisista raaka-ainehinnoista", "Raaka-aineiden erä- ja päiväysseuranta", "Ostotilaukset, jotka päivittävät kustannuksen vastaanotossa"] }
+  ],
+  "faqs": [
+    { "q": "Voinko laskea ruokalistan kustannukset raaka-ainehinnoista?", "a": "Kyllä. Määritä jokainen annos raaka-aineiden reseptiksi, niin Paper & Pen laskee sen kustannuksen ajantasaisista ostohinnoista ja voit asettaa ruokalistan hinnat, jotka suojaavat katettasi." },
+    { "q": "Seuraako se raaka-aineita ja viimeisiä käyttöpäiviä?", "a": "Kyllä. Raaka-aineita seurataan yksikön, erän ja viimeisen käyttöpäivän mukaan, ja hälytykset vähäisestä saldosta auttavat tilaamaan ennen kuin tavara loppuu." },
+    { "q": "Voinko lisätä ALV:n ja palvelumaksun?", "a": "Kyllä. Käytä Persianlahden maiden säädettävää ALV:tä, palvelumaksua tai mitä tahansa verokantaa, ja kaikki lasketaan laskuun automaattisesti." },
+    { "q": "Onko laskutus ilmaista kahvilalle?", "a": "Myynti ja laskutus, mukaan lukien kuitit, on ilmaista ikuisesti. Lisää Varastonhallinta ja Tuotanto, kun haluat raaka-aineiden seurannan ja reseptien kustannuslaskennan." },
+    { "q": "Voinko hallita useampaa toimipistettä?", "a": "Kyllä. Seuraa myyntiä ja varastoa toimipisteittäin ja näe ajantasaiset määrät ja päivän myynti kaikista toimipisteistäsi yhdestä työtilasta." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Palvele nopeasti, laske fiksusti",
+  "ctaSub": "Aloita ilmaiseksi kuiteilla ja laskutuksella ja lisää Varastonhallinta ja reseptien kustannuslaskenta, niin raaka-ainekustannukset pysyvät hallinnassa."
+}

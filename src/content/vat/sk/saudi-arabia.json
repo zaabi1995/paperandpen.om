@@ -1,0 +1,151 @@
+{
+  "locale": "sk",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saudská Arábia",
+  "title": "DPH v Saudskej Arábii",
+  "metaTitle": "DPH v Saudskej Arábii: sadzba 15 % a Fatoora · Paper & Pen",
+  "metaDescription": "Sadzba DPH 15 % v Saudskej Arábii, limit SAR 375,000, náležitosti faktúry podľa článku 53 a fázy e-fakturácie Fatoora od ZATCA, s odkazmi na zdroje.",
+  "keywords": "dph saudská arábia, sadzba dph saudská arábia 15, zatca fatoora, e-fakturácia saudská arábia fáza 2, náležitosti daňovej faktúry saudská arábia, zatca",
+  "heroEyebrow": "Saudská Arábia",
+  "heroTitle": "Fakturácia podľa pravidiel <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "Sadzba 15 %, registračné limity, čo článok 53 vyžaduje na daňovej faktúre a čo k tomu pridáva Fatoora, keď ste vo fáze integrácie.",
+  "heroBullets": [
+    "Základná sadzba 15 %",
+    "Registrácia od SAR 375,000",
+    "Fatoora v prevádzke od roku 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Základná sadzba DPH",
+      "value": "15%",
+      "note": "Saudská Arábia je v Zálive výnimkou: ostatné štáty, ktoré DPH zaviedli, majú 5 % alebo 10 %. Ak platí základná sadzba, zdaniteľné plnenia sa zdaňujú sadzbou 15 %.",
+      "source": 1
+    },
+    {
+      "label": "Limit povinnej registrácie",
+      "value": "SAR 375,000",
+      "note": "Zdaniteľné plnenia nad touto sumou za 12 mesiacov vyžadujú registráciu.",
+      "source": 1
+    },
+    {
+      "label": "Limit dobrovoľnej registrácie",
+      "value": "SAR 187,500",
+      "note": "Na základe zdaniteľných plnení ALEBO zdaniteľných výdavkov za posledných 12 mesiacov.",
+      "source": 1
+    },
+    {
+      "label": "Firmy bez sídla v krajine",
+      "value": "Bez limitu",
+      "note": "Nerezident, ktorý je povinný platiť DPH v kráľovstve, sa musí zaregistrovať bez ohľadu na hodnotu svojich plnení.",
+      "source": 1
+    },
+    {
+      "label": "Jazyk faktúry",
+      "value": "Arabčina",
+      "note": "Povinné náležitosti musia byť uvedené v arabčine. Ďalší jazyk môže byť uvedený navyše ako preklad.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Článok 53 ods. 5 vykonávacieho predpisu k DPH uvádza, čo musí daňová faktúra obsahovať, a vyžaduje ju v arabčine popri akomkoľvek inom jazyku uvedenom ako preklad.",
+    "items": [
+      "Dátum vystavenia",
+      "Poradové číslo, ktoré faktúru jednoznačne identifikuje",
+      "Daňové identifikačné číslo dodávateľa",
+      "Ak musí daň priznať zákazník, jeho DIČ a vyhlásenie, že daň musí priznať on",
+      "Meno a adresa dodávateľa aj zákazníka",
+      "Množstvo a druh tovaru alebo rozsah a druh služieb",
+      "Dátum dodania, ak sa líši od dátumu vystavenia",
+      "Zdaniteľná suma podľa sadzby alebo oslobodenia, jednotková cena bez DPH a akákoľvek zľava, ktorá ešte nie je v jednotkovej cene",
+      "Uplatnená sadzba dane",
+      "Suma dane na úhradu, uvedená v saudských rialoch",
+      "Ak sa daň neúčtuje základnou sadzbou, vysvetlenie použitého zaobchádzania",
+      "Ak sa uplatňuje úprava zdaňovania prirážky pri vhodnom použitom tovare, odkaz na túto skutočnosť"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Povinná a v prevádzke, zavádza sa vo vlnách",
+    "body": "Saudská Arábia má najvyspelejší systém e-fakturácie v Zálive a ostatné štáty sa ním inšpirujú. Fáza 1, fáza generovania, platí pre všetky zdaniteľné osoby so sídlom v krajine od 4. decembra 2021: faktúry sa musia vystavovať elektronicky v štruktúrovanej podobe. Fáza 2, fáza integrácie, sa začala 1. januára 2023 a zavádza sa vo vlnách podľa veľkosti daňovníka, pričom ZATCA každú skupinu upovedomí najmenej šesť mesiacov pred dátumom jej integrácie. Vo fáze 2 obsahuje elektronická faktúra viac než náležitosti podľa článku 53: potrebuje aj UUID, hash predchádzajúcej faktúry, QR kód, kryptografickú pečať a počítadlo odolné voči manipulácii. Do ktorej vlny patríte, oznamuje ZATCA, preto si to overte na jeho stránkach o e-fakturácii a nič nepredpokladajte.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Ako to urobiť správne",
+      "title": "Fatoora mení to, čím faktúra JE",
+      "body": "Vo svete papiera alebo PDF je faktúra doklad, ktorý vytvoríte a pošlete. Vo fáze 2 je to záznam v reťazci: každá faktúra odkazuje na hash predchádzajúcej, nesie kryptografickú pečať a zvyšuje počítadlo, ktoré sa nedá vynulovať. Je to zámerný návrh a jeden bežný zvyk znemožňuje. Faktúru nemôžete dodatočne potichu vymazať, prečíslovať ani vystaviť znova, pretože reťazec by sa prerušil a prerušenie sa dá odhaliť. Firmy, ktoré chyby opravovali úpravou histórie, musia prejsť na dobropisy, čo účtovné pravidlá vo zvyšku sveta vždy aj tak chceli.",
+      "items": [
+        "Každá faktúra je s predchádzajúcou prepojená cez hash",
+        "Počítadlo sa nedá vynulovať ani vrátiť späť",
+        "Opravy sa robia dobropismi a ťarchopismi",
+        "QR kód je súčasťou faktúry, nie ozdoba"
+      ]
+    },
+    {
+      "eyebrow": "Ako to urobiť správne",
+      "title": "Sadzba 15 % má ďalšie dôsledky",
+      "body": "Pri sadzbe pätnásť percent je rozdiel medzi nulovou sadzbou a oslobodením finančne závažný tak, ako pri piatich percentách nie je. Ak sú vaše plnenia oslobodené, nemôžete si uplatniť odpočet dane na vstupe, ktorú ste zaplatili, takže pätnásť percent vašich vstupných nákladov sa stáva skutočným, nevratným výdavkom, ktorý treba započítať do ceny. Ak majú nulovú sadzbu, neúčtujete nič, no odpočet si uplatníte. Nesprávne zatriedenie je najdrahšia jednotlivá chyba, akú môžete v saudskej DPH urobiť, a je to otázka zatriedenia, nie sadzby.",
+      "items": [
+        "Oslobodenie znamená bez odpočtu, takže daň je váš náklad",
+        "Nulová sadzba znamená bez dane na výstupe, ale s plným odpočtom",
+        "Zatrieďujte podľa druhu plnenia, nie podľa zákazníka",
+        "O zatriedení rozhodnite skôr, ako stanovíte cenu"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Aká je sadzba DPH v Saudskej Arábii?",
+      "a": "Základná sadzba je pätnásť percent. Je najvyššia v Zálive a častou chybou je predpokladať jednu sadzbu pre celú GCC: Omán a SAE majú 5 %, Bahrajn 10 % a Katar a Kuvajt DPH vôbec nezaviedli. Ak predávate v celom regióne, nemôžete na všetko použiť jednu sadzbu."
+    },
+    {
+      "q": "Čo je Fatoora?",
+      "a": "Fatoora je program e-fakturácie ZATCA. Fáza 1, generovanie, platí pre všetky zdaniteľné osoby so sídlom v krajine od 4. decembra 2021. Fáza 2, integrácia so systémami ZATCA, sa začala 1. januára 2023 a zavádza sa vo vlnách podľa veľkosti daňovníka, pričom každá vlna dostane oznámenie najmenej šesť mesiacov vopred."
+    },
+    {
+      "q": "Musí byť saudská daňová faktúra v arabčine?",
+      "a": "Áno. Článok 53 ods. 5 vyžaduje náležitosti faktúry v arabčine a ďalší jazyk povoľuje navyše ako preklad. Dvojjazyčná faktúra je v súlade s predpismi, faktúra len v angličtine nie."
+    },
+    {
+      "q": "Aké ďalšie polia vyžaduje fáza 2?",
+      "a": "Okrem náležitostí podľa článku 53 obsahuje elektronická faktúra vo fáze integrácie UUID, hash predchádzajúcej faktúry, QR kód, kryptografickú pečať a počítadlo odolné voči manipulácii. Tieto údaje generuje vyhovujúci softvér, človek ich neprepisuje."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Fakturujte v Saudskej Arábii správne a zadarmo",
+  "ctaSub": "Nastavte si sadzbu sami, majte arabčinu aj angličtinu na jednom doklade a chyby opravujte dobropismi namiesto úprav.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, tretia verzia, oddiely 3.2 a 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, článok 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Uznesenie o zavedení e-fakturácie, Governor's Decision 62738, a stránky ZATCA o e-fakturácii",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

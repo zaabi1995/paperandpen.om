@@ -1,0 +1,37 @@
+{
+  "locale": "fi",
+  "slug": "free-proforma-invoice-generator",
+  "toolType": "proforma",
+  "order": 3,
+  "title": "Ilmainen proformalaskugeneraattori",
+  "metaTitle": "Ilmainen proformalaskugeneraattori · Paper & Pen",
+  "metaDescription": "Tee proformalaskuja verkossa ilmaiseksi. Lisää rivit, valitse mikä tahansa valuutta ja ALV-kanta ja lataa tulostusvalmis PDF sekunneissa.",
+  "keywords": "ilmainen proformalasku, proformalaskugeneraattori, tee proformalasku verkossa, proformalaskupohja, proformalasku pdf, ennakkolasku, ennakkomaksulasku",
+  "heroEyebrow": "Ilmainen · Ei rekisteröitymistä",
+  "heroTitle": "Ilmainen proformalaskugeneraattori",
+  "heroSubtitle": "Tee proformalasku sekunneissa ennakkomaksuja, talletuksia tai tullia varten. Lisää rivit, valitse mikä tahansa valuutta, lisää ALV tai myyntivero ja lataa siisti PDF. Tiliä ei tarvita.",
+  "howToSteps": [
+    { "name": "Lisää tietosi", "text": "Kirjoita yrityksesi nimi, ostaja, viitenumero ja päivämäärä." },
+    { "name": "Lisää laskurivit", "text": "Luettele tavarat tai palvelut määrineen ja hintoineen. Summat lasketaan automaattisesti." },
+    { "name": "Aseta valuutta ja vero", "text": "Valitse mikä tahansa valuutta ja aseta ALV- tai myyntiverokantasi." },
+    { "name": "Lataa PDF", "text": "Klikkaa lataa ja tallenna tulostusvalmis proformalasku, tai rekisteröidy muuttaaksesi sen lopulliseksi verolaskuksi, kun maksusta on sovittu." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Heti ja ilmaiseksi", "desc": "Ei rekisteröitymistä, ei vesileimaa, ei rajoituksia. Tee niin monta proformalaskua kuin tarvitset." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Laskuta OMR-, AED-, SAR-, USD-, EUR- ja GBP-valuutassa ja muissa, ihanteellinen rajat ylittävään kauppaan." },
+    { "icon": "doc", "title": "Valmis tulliin ja ennakkomaksuihin", "desc": "Selkeästi merkitty proformalasku talletuksiin, tuonnin asiakirjoihin ja ennakkomaksutarjouksiin." }
+  ],
+  "sections": [
+    { "title": "Miksi käyttää Paper & Penin proformalaskugeneraattoria?", "body": "Proformalasku on sitoumus toimittaa ilmoitettuun hintaan ennen kuin lopullinen verolasku laaditaan. Sillä pyydetään talletusta, tuetaan tuonti- tai vientiasiakirjoja tai vahvistetaan hinta ennakkomaksua varten. Meidän generaattorimme on ilmainen, monivaluuttainen ja tuottaa siistin PDF:n, jollaista ostajat ja tullivirkailijat odottavat." },
+    { "eyebrow": "Generaattoria pidemmälle", "title": "Proformalaskusta lopulliseen laskuun", "body": "Kun ostaja maksaa tai vahvistaa, tarvitset oikean verolaskun kirjoittamatta kaikkea uudelleen. Täydessä Paper & Pen ERP:ssä proformalasku muuttuu lopulliseksi laskuksi, ja kaikki rivit, valuutta ja vero siirtyvät mukana, ja maksua seurataan alusta loppuun.", "items": ["Kirjaa talletukset proformalaskulle", "Muuta lopulliseksi ALV-laskuksi yhdellä klikkauksella", "Pidä rajat ylittävän kaupan asiakirjat yhdessä paikassa"] }
+  ],
+  "faqs": [
+    { "q": "Mikä on proformalasku?", "a": "Se on alustava myyntiasiakirja, joka lähetetään ennen tavaroiden tai palvelujen toimitusta. Se vahvistaa hinnan ja ehdot, mutta se ei ole lopullinen maksuvaatimus eikä veroasiakirja." },
+    { "q": "Milloin proformalaskua kannattaa käyttää?", "a": "Käytä sitä ennakkomaksun tai talletuksen pyytämiseen, tulli- ja tuontiasiakirjojen tueksi tai hinnan vahvistamiseen ennen lopullisen verolaskun laatimista." },
+    { "q": "Onko proformalaskugeneraattori todella ilmainen?", "a": "Kyllä. Se on täysin ilmainen, ilman rekisteröitymistä, ilman vesileimaa ja ilman rajoitusta tekemiesi laskujen määrälle." },
+    { "q": "Miten muutan proformalaskun lopulliseksi laskuksi?", "a": "Lataa PDF ilmaiseksi, tai luo ilmainen Paper & Pen -työtila, jossa proformalasku muuttuu lopulliseksi verolaskuksi ja maksua seurataan automaattisesti." }
+  ],
+  "related": ["/blog/what-is-a-proforma-invoice", "/tools/free-invoice-generator", "/tools/free-quotation-generator", "/invoicing/proforma-invoices", "/free-invoicing-software"],
+  "ctaTitle": "Proformalasku tänään, maksettu lasku huomenna",
+  "ctaSub": "Muuta proformalaskut lopullisiksi laskuiksi, ota vastaan talletuksia ja seuraa maksuja ilmaisella Paper & Pen -työtilalla."
+}

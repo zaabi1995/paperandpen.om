@@ -1,0 +1,35 @@
+{
+  "locale": "ms",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Perakaunan",
+  "metaTitle": "Perisian Perakaunan · Simpan Kira Automatik · Paper & Pen",
+  "metaDescription": "Perakaunan catatan bergu yang merekod sendiri. Untung rugi dan kunci kira-kira masa nyata, penyata cukai, penyesuaian bank, sebarang mata wang dan cukai.",
+  "keywords": "perisian perakaunan, simpan kira dalam talian, catatan bergu, kunci kira-kira, penyata untung rugi, penyata cukai, penyesuaian bank, lejar am",
+  "heroEyebrow": "Modul tambahan",
+  "heroTitle": "Buku akaun yang <em class=\"text-copper-400 not-italic\">seimbang sendiri</em>",
+  "heroSubtitle": "Setiap invois, bayaran dan pembelian direkodkan ke lejar catatan bergu yang betul secara automatik. Lihat untung, kunci kira-kira dan kedudukan cukai anda secara masa nyata tanpa menyentuh hamparan.",
+  "heroBullets": ["Catatan bergu automatik, tiada jurnal manual", "Untung rugi dan kunci kira-kira masa nyata", "Penyata SST/VAT dengan satu klik"],
+  "features": [
+    { "icon": "accounting", "title": "Simpan kira automatik", "desc": "Jualan, bayaran dan perbelanjaan direkodkan ke lejar sebaik sahaja ia berlaku." },
+    { "icon": "chart", "title": "Kewangan langsung", "desc": "Untung rugi, kunci kira-kira dan aliran tunai, sentiasa terkini." },
+    { "icon": "calc", "title": "Penyata SST & cukai", "desc": "Jejak cukai input dan output, dan hasilkan penyata sedia difailkan dengan satu klik." },
+    { "icon": "refresh", "title": "Penyesuaian bank", "desc": "Padankan baris bank dengan invois dan bayaran supaya buku akaun kekal bersih." },
+    { "icon": "doc", "title": "Lejar penuh", "desc": "Telusuri dari mana-mana laporan hingga ke dokumen sumber dan catatan jurnal." },
+    { "icon": "globe", "title": "Pelbagai mata wang", "desc": "Rekod dalam sebarang mata wang dengan untung dan rugi pertukaran automatik." }
+  ],
+  "sections": [
+    { "eyebrow": "Tidak perlu akauntan", "title": "Perakaunan yang berjalan di latar belakang", "body": "Anda tidak sepatutnya perlu menjadi penyimpan kira untuk tahu sama ada anda untung. Oleh kerana invois, bayaran dan inventori semuanya menyuap lejar yang sama, akaun anda betul tanpa jurnal manual. Buka papan pemuka dan untung, penghutang serta cukai anda sudah tersedia.", "items": ["Catatan bergu dibuat untuk anda", "Setiap laporan boleh ditelusuri ke sumber", "Jejak audit pada setiap catatan"] },
+    { "eyebrow": "Dibina untuk sebarang sistem cukai", "title": "Cukai dan pematuhan, di mana sahaja anda beroperasi", "body": "Tetapkan kadar cukai dan akaun untuk negara anda, termasuk VAT boleh laras untuk negara Teluk (GCC), dan Paper & Pen menjejak cukai input dan output untuk anda. Hasilkan penyata yang sedia difailkan, sesuaikan akaun bank anda, dan tutup tempoh dengan yakin, dalam sebarang mata wang.", "items": ["Cukai boleh laras untuk mana-mana negara", "Penyata SST/VAT sedia difailkan", "Penyesuaian bank dan penutupan tempoh"] }
+  ],
+  "faqs": [
+    { "q": "Adakah saya perlu pengetahuan perakaunan untuk menggunakannya?", "a": "Tidak. Catatan direkodkan secara automatik daripada invois, bayaran dan pembelian anda, jadi anda mendapat buku catatan bergu yang betul tanpa menulis jurnal." },
+    { "q": "Adakah perakaunan percuma?", "a": "Perakaunan ialah modul tambahan berbayar pilihan. Jualan & Invois percuma selamanya, dan anda hidupkan Perakaunan apabila anda mahukan penyata kewangan penuh." },
+    { "q": "Bolehkah ia menghasilkan penyata VAT atau SST?", "a": "Ya. Ia menjejak cukai input dan output (contohnya VAT GCC boleh laras, atau sebarang kadar yang anda tetapkan) dan menjana penyata yang sedia difailkan." },
+    { "q": "Adakah ia mengendalikan pelbagai mata wang?", "a": "Ya. Rekod dan lapor dalam sebarang mata wang, dengan untung dan rugi pertukaran asing secara automatik." },
+    { "q": "Bolehkah saya menyesuaikan akaun bank saya?", "a": "Ya. Import atau padankan baris bank dengan invois dan bayaran supaya lejar anda kekal sepadan." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Dapatkan buku akaun yang tepat, secara automatik",
+  "ctaSub": "Mula percuma dengan invois dan hidupkan Perakaunan untuk penyata kewangan dan penyata cukai masa nyata."
+}

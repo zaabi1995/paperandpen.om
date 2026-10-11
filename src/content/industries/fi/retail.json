@@ -1,0 +1,35 @@
+{
+  "locale": "fi",
+  "slug": "retail",
+  "order": 2,
+  "title": "Vähittäiskauppa ja myymälät",
+  "metaTitle": "Laskutus- ja varasto-ohjelma myymälöille · Paper & Pen",
+  "metaDescription": "Ilmainen laskutus sekä viivakoodivarasto, hälytykset vähäisestä saldosta ja ajantasainen arvostus myymälöille. Myy nopeasti, älä koskaan loppu tavarasta.",
+  "keywords": "vähittäiskaupan ohjelmisto, myymälän laskutusohjelma, viivakoodivarasto, kassalaskutus, hälytys vähäisestä saldosta, vähittäiskaupan erp, usean myymälän varasto",
+  "heroEyebrow": "Myymälöille ja vähittäiskauppiaille",
+  "heroTitle": "Myy nopeasti, <em class=\"text-copper-400 not-italic\">älä koskaan loppu tavarasta</em>",
+  "heroSubtitle": "Laskuta asiakkaita sekunneissa, skannaa viivakoodeja inventoidessasi ja anna varaston päivittyä itsestään. Paper & Pen pitää hyllysi, myyntisi ja kirjanpitosi tahdissa, joten käytät vähemmän aikaa laskemiseen ja enemmän myymiseen.",
+  "heroBullets": ["Ilmainen, nopea laskutus", "Viivakoodi- ja SKU-tuki", "Hälytykset ennen kuin tavara loppuu"],
+  "features": [
+    { "icon": "receipt", "title": "Nopea laskutus", "desc": "Kirjaa myynti ja tulosta tai jaa kuitti sekunneissa millä tahansa laitteella." },
+    { "icon": "inventory", "title": "Viivakoodivarasto", "desc": "Skannaa inventoidessasi tai siirtäessäsi tavaraa, järjestettynä SKU:n, erän ja yksikön mukaan." },
+    { "icon": "bell", "title": "Hälytys vähäisestä saldosta", "desc": "Aseta tilausrajat ja saat varoituksen ennen kuin myyntihitti loppuu." },
+    { "icon": "truck", "title": "Usean myymälän varasto", "desc": "Seuraa ja siirrä tavaraa toimipisteiden välillä ajantasaisin määrin kaikkialla." },
+    { "icon": "calc", "title": "Ajantasainen arvostus", "desc": "Keskihinta- tai FIFO-laskenta pitää varaston arvon taseessa oikeana." },
+    { "icon": "chart", "title": "Myyntihittiraportit", "desc": "Näe, mikä liikkuu ja mikä seisoo, tuotteittain, tuoteryhmittäin ja myymälöittäin." }
+  ],
+  "sections": [
+    { "eyebrow": "Nopeampi kassa", "title": "Laskutus kiireiselle tiskille", "body": "Asiakkaat eivät odota. Kokoa myynti hakemalla tuotteita, lisää alennus, ota maksu vastaan ja ojenna siisti kuitti sekunneissa. Kuitit voi jakaa WhatsAppissa tai tulostaa kassalla, ja jokainen myynti siirtyy suoraan varastoosi ja kirjanpitoosi ilman uudelleennäppäilyä.", "items": ["Lisää tuotteet nopeasti hakemalla", "Tulosta tai jaa kuitit heti", "Alennukset ja vero hoituvat automaattisesti"] },
+    { "eyebrow": "Varasto, joka hoitaa itsensä", "title": "Tiedä aina, mitä hyllyssä on", "body": "Käsin tehdyt inventaariot vanhenevat heti, kun teet myynnin. Paper & Penissä jokainen myynti ja toimitus päivittää varastoa reaaliajassa, joten ruudulla näkyvä luku vastaa hyllyä. Aseta tilausrajat, niin järjestelmä varoittaa hitaista täydennyksistä ennen kuin menetät myynnin. Tehty Omanissa valmiilla OMR-, AED- ja SAR-tuella ja 5 %:n ALV:llä, ja valmis USD-, EUR- tai minkä tahansa käyttämäsi verokannan käyttöön.", "items": ["Reaaliaikainen varasto jokaisessa myynnissä", "Tilausrajat ja hälytykset vähäisestä saldosta", "Mikä tahansa valuutta ja verokanta"] }
+  ],
+  "faqs": [
+    { "q": "Voinko myydä viivakoodinlukijalla?", "a": "Et kassalla. Kassalla lisäät tuotteita myyntiin hakemalla niitä. Viivakoodinlukija toimii varastossa: skannaa tuote inventoidaksesi sen tai siirtääksesi tavaraa sisään tai ulos. Tuotteet on järjestetty SKU:n, erän ja yksikön mukaan." },
+    { "q": "Päivittyykö varastoni, kun teen myynnin?", "a": "Kyllä. Jokainen myynti vähentää ja jokainen toimitus lisää varastoa reaaliajassa kaikissa myymälöissäsi, ilman käsin laskemista." },
+    { "q": "Voinko pyörittää useampaa myymälää?", "a": "Kyllä. Seuraa varastoa myymälöittäin, siirrä tavaraa toimipisteiden välillä ja näe ajantasaiset määrät kaikkialta yhdestä työtilasta." },
+    { "q": "Onko laskutus todella ilmaista?", "a": "Myynti ja laskutus, mukaan lukien kuitit, on ilmaista ikuisesti. Lisää Varastonhallinta-moduuli, kun haluat viivakoodipohjaisen varastonhallinnan ja hälytykset vähäisestä saldosta." },
+    { "q": "Toimiiko se Persianlahden maiden ulkopuolella?", "a": "Kyllä. Paper & Pen toimii millä tahansa valuutalla ja verokannalla, joten vähittäiskauppiaat missä tahansa voivat laskuttaa ja hallita varastoa, ja käytössä on arabia, englanti ja muita kieliä." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Pyöritä myymälääsi ilman arvailua",
+  "ctaSub": "Aloita ilmaiseksi laskutuksella ja kuiteilla ja lisää Varastonhallinta, niin saat viivakoodivaraston ja hälytykset vähäisestä saldosta."
+}

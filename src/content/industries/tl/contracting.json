@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "contracting",
+  "order": 4,
+  "title": "Contracting at Konstruksyon",
+  "metaTitle": "Invoicing at Project Billing para sa mga Contractor · Paper & Pen",
+  "metaDescription": "Libreng quotation kasama ang progress invoice, purchase order, payroll at project costing para sa contractor at builder. I-bill ang milestone, kontrolin ang cost.",
+  "keywords": "software para sa contractor, construction invoicing, progress billing, project costing, contractor erp, purchase order, payroll ng contractor, retention invoicing, construction software Pilipinas",
+  "heroEyebrow": "Para sa mga contractor at builder",
+  "heroTitle": "I-bill ang milestone, <em class=\"text-copper-400 not-italic\">kontrolin ang cost ng trabaho</em>",
+  "heroSubtitle": "Mag-quote ng proyekto, i-bill ito nang paunti-unti, subaybayan ang materyales at labor laban sa budget, at mabayaran nang walang paghahabol. Pinagsasama ng Paper & Pen ang mga estimate, cost at cash mo sa iisang lugar.",
+  "heroBullets": ["Libreng estimate at quotation", "Progress at milestone na invoice", "Materyales, labor at margin bawat trabaho"],
+  "features": [
+    { "icon": "quote", "title": "Detalyadong estimate", "desc": "Bumuo ng naka-itemize na quote na may materyales at labor, saka gawin itong proyekto." },
+    { "icon": "invoice", "title": "Progress billing", "desc": "Mag-invoice ayon sa milestone o porsiyento ng natapos, na maayos na hawak ang retention." },
+    { "icon": "truck", "title": "Purchase order", "desc": "Mag-order ng materyales para sa isang trabaho at i-post ang cost kung saan ito nararapat." },
+    { "icon": "hr", "title": "Labor at payroll", "desc": "Magpatakbo ng payroll at iugnay ang sahod sa tamang proyekto para sa totoong job cost." },
+    { "icon": "calc", "title": "Job costing", "desc": "Ihambing nang live ang aktwal na cost ng materyales at labor sa estimate mo." },
+    { "icon": "bell", "title": "Paalala sa bayad", "desc": "Awtomatiko at magalang na paalala ang humahabol sa overdue na certificate para hindi ikaw." }
+  ],
+  "sections": [
+    { "eyebrow": "Mula tender hanggang invoice", "title": "Estimate na nagiging trabaho", "body": "Makuha ang trabaho gamit ang malinaw at naka-itemize na estimate, saka gawing proyekto agad ang naaprubahang bersyon nang hindi tina-type ulit ang kahit isang linya. Mag-bill nang paunti-unti habang natatapos ang trabaho, ayon sa milestone o porsiyento, at hawakan ang retention para tumugma ang final account. Propesyonal na certificate ang natatanggap ng kliyente mo; iisang malinis na trail ang naiiwan sa iyo mula tender hanggang huling bayad.", "items": ["Naka-itemize na estimate na may materyales at labor", "Invoice ayon sa milestone o porsiyento ng natapos", "Sinusubaybayan ang retention hanggang final account"] },
+    { "eyebrow": "Alamin kung kumikita ang trabaho", "title": "Cost at margin, bawat trabaho", "body": "Kayang itago ng abalang site ang isang trabahong nalulugi. Iniuugnay ng Paper & Pen ang bawat purchase order, bill ng supplier at payroll run sa proyekto, saka ipinapakita ang aktwal na cost laban sa estimate mo habang umuusad ang trabaho. Makikita mo ang margin bago matapos ang trabaho, hindi pagkatapos. Gawa sa Oman na may native na OMR, AED at SAR at 5% VAT, at handa para sa USD, EUR o kahit anong merkado at tax rate.", "items": ["Cost ng materyales at labor bawat proyekto", "Live na margin ng aktwal laban sa estimate", "Kahit anong currency at tax rate, handa sa VAT"] }
+  ],
+  "faqs": [
+    { "q": "Puwede ko bang i-invoice ang proyekto nang paunti-unti?", "a": "Oo. Mag-bill ayon sa milestone o porsiyento ng natapos, na hawak ang retention, kaya malinis ang bawat certificate at nagre-reconcile ang final account." },
+    { "q": "Puwede ko bang subaybayan ang cost laban sa estimate ko?", "a": "Oo. Iniuugnay sa trabaho ang purchase order, bill ng supplier at payroll, at ipinapakita ng Paper & Pen ang aktwal na cost laban sa estimate mo habang umuusad ang trabaho." },
+    { "q": "Hawak ba nito ang retention?", "a": "Oo. Sinusubaybayan ang retention sa mga progress invoice at dinadala hanggang final account, kaya walang nakakaligtaan sa handover." },
+    { "q": "Puwede ba akong magpatakbo ng payroll para sa staff sa site?", "a": "Oo. Nagpapatakbo ng sahod ang module na HR at Payroll at kayang iugnay ang labor cost sa tamang proyekto para sa tumpak na job costing." },
+    { "q": "Libre ba ang quotation para sa contractor?", "a": "Libre habambuhay ang Benta at Invoicing, kasama ang estimate at progress invoice. Idagdag ang Imbentaryo, HR/Payroll at Accounting para sa buong kontrol sa project cost." }
+  ],
+  "related": ["/invoicing/estimates", "/invoicing/purchase-orders", "/features/hr-payroll", "/invoicing/payment-reminders", "/pricing"],
+  "ctaTitle": "Itayo, i-bill, mabayaran",
+  "ctaSub": "Magsimula nang libre sa estimate at progress invoice, saka idagdag ang Payroll at Accounting para sa buong job costing."
+}

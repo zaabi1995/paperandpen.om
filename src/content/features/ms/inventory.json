@@ -1,0 +1,35 @@
+{
+  "locale": "ms",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Inventori",
+  "metaTitle": "Perisian Pengurusan Inventori · Paper & Pen",
+  "metaDescription": "Jejak stok merentas gudang secara masa nyata, dengan amaran stok rendah, sokongan kelompok dan kod bar, serta penilaian langsung yang direkodkan ke buku akaun.",
+  "keywords": "pengurusan inventori, kawalan stok, perisian gudang, amaran stok rendah, inventori kod bar, penilaian stok, pelbagai gudang",
+  "heroEyebrow": "Modul tambahan",
+  "heroTitle": "Stok yang boleh anda <em class=\"text-copper-400 not-italic\">percayai</em>, secara masa nyata",
+  "heroSubtitle": "Ketahui dengan tepat apa yang anda ada, di mana ia berada dan berapa nilainya. Inventori dikemas kini sebaik sahaja anda membuat invois atau menerima barang, jadi angka anda sentiasa terkini.",
+  "heroBullets": ["Stok langsung merentas gudang", "Amaran stok rendah dan pesanan semula", "Penilaian direkodkan ke buku akaun"],
+  "features": [
+    { "icon": "inventory", "title": "Stok masa nyata", "desc": "Kuantiti dikemas kini sebaik sahaja anda menjual, membeli atau memindahkan barang." },
+    { "icon": "truck", "title": "Pelbagai gudang", "desc": "Jejak dan pindahkan stok merentas lokasi dan cawangan dengan keterlihatan penuh." },
+    { "icon": "bell", "title": "Amaran stok rendah", "desc": "Tetapkan paras pesanan semula dan terima amaran sebelum barang laris anda habis." },
+    { "icon": "receipt", "title": "Kod bar & SKU", "desc": "Imbas untuk mengira atau memindahkan stok, disusun mengikut SKU, kelompok dan unit ukuran." },
+    { "icon": "calc", "title": "Penilaian langsung", "desc": "Kos purata atau FIFO memastikan nilai inventori tepat pada kunci kira-kira anda." },
+    { "icon": "refresh", "title": "Dipautkan ke jualan", "desc": "Invois dan pesanan belian menggerakkan stok secara automatik, tanpa kemas kini manual." }
+  ],
+  "sections": [
+    { "eyebrow": "Sentiasa tepat", "title": "Inventori yang mengemas kini sendiri", "body": "Kiraan stok manual menjadi lapuk sebaik sahaja anda membuat jualan. Dalam Paper & Pen, setiap invois, pembelian dan pemindahan melaraskan stok dan kos secara masa nyata, jadi angka di skrin sama dengan angka di rak. Tetapkan paras pesanan semula dan biar sistem memberitahu bila perlu membeli.", "items": ["Laras automatik pada setiap transaksi", "Paras pesanan semula dan amaran", "Penjejakan kelompok, SKU dan unit ukuran"] },
+    { "eyebrow": "Stok bertemu buku akaun", "title": "Dari rak ke kunci kira-kira", "body": "Inventori bukan sekadar mengira kotak, ia wang sebenar pada kunci kira-kira anda. Paper & Pen menilai stok dengan kos purata atau FIFO dan merekodkan pergerakan ke perakaunan secara automatik, jadi kos barang dijual dan nilai stok anda sentiasa sepadan. Berfungsi dalam sebarang mata wang untuk sebarang pasaran.", "items": ["Kos purata atau FIFO", "Direkodkan ke perakaunan secara automatik", "Pembelian pelbagai mata wang"] }
+  ],
+  "faqs": [
+    { "q": "Adakah inventori disertakan secara percuma?", "a": "Inventori ialah modul tambahan berbayar pilihan. Modul teras Jualan & Invois percuma selamanya, dan anda menambah Inventori apabila memerlukan kawalan stok masa nyata." },
+    { "q": "Bolehkah saya mengurus beberapa gudang?", "a": "Ya. Jejak stok mengikut lokasi, pindahkan antara lokasi dan lihat kuantiti langsung di semua tempat." },
+    { "q": "Adakah ia menyokong kod bar?", "a": "Ya. Imbas kod bar pembekal, SKU atau label QR yang dicetak untuk mengira dan memindahkan stok dengan lebih pantas, dengan sokongan kelompok dan unit ukuran." },
+    { "q": "Bagaimanakah stok dinilai?", "a": "Pilih kos purata atau FIFO. Penilaian dikemas kini dengan setiap pergerakan dan direkodkan ke perakaunan anda secara automatik." },
+    { "q": "Adakah jualan mengemas kini stok secara automatik?", "a": "Ya. Invois mengurangkan stok dan pembelian menambahnya secara masa nyata, jadi anda tidak perlu mengemas kini kuantiti secara manual." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Kawal stok anda sepenuhnya",
+  "ctaSub": "Mula percuma dengan invois dan tambah Inventori apabila anda bersedia untuk stok masa nyata di setiap lokasi."
+}

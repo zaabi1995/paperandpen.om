@@ -1,0 +1,35 @@
+{
+  "locale": "sl",
+  "slug": "contracting",
+  "order": 4,
+  "title": "Gradbeništvo in izvajalci",
+  "metaTitle": "Računi in zaračunavanje projektov za izvajalce · Paper & Pen",
+  "metaDescription": "Brezplačne ponudbe ter situacije, naročilnice, plače in stroški projektov za izvajalce in gradbince. Zaračunajte mejnike, nadzorujte stroške, prejmite plačilo.",
+  "keywords": "program za izvajalce, računi v gradbeništvu, začasne situacije, stroški projekta, erp za izvajalce, naročilnice, plače za izvajalce, zadržani znesek",
+  "heroEyebrow": "Za izvajalce in gradbince",
+  "heroTitle": "Zaračunajte mejnik, <em class=\"text-copper-400 not-italic\">nadzorujte stroške projekta</em>",
+  "heroSubtitle": "Pripravite ponudbo za projekt, ga zaračunavajte po fazah, spremljajte material in delo glede na proračun ter prejmite plačilo brez terjanja. Paper & Pen združi vaše ocene stroškov, stroške in denar na enem mestu.",
+  "heroBullets": ["Brezplačne ocene stroškov in ponudbe", "Situacije in računi po mejnikih", "Material, delo in marža za vsak projekt"],
+  "features": [
+    { "icon": "quote", "title": "Podrobne ocene stroškov", "desc": "Sestavite razčlenjene ponudbe z materialom in delom, nato jih pretvorite v projekt." },
+    { "icon": "invoice", "title": "Zaračunavanje po napredku", "desc": "Zaračunajte po mejniku ali odstotku dokončanosti, z urejenim zadržanim zneskom." },
+    { "icon": "truck", "title": "Naročilnice", "desc": "Material naročite za določen projekt in strošek knjižite tja, kamor spada." },
+    { "icon": "hr", "title": "Delo in plače", "desc": "Obračunajte plače in jih pripišite pravemu projektu za pravi strošek projekta." },
+    { "icon": "calc", "title": "Stroški projekta", "desc": "Sproti primerjajte dejanske stroške materiala in dela z oceno." },
+    { "icon": "bell", "title": "Opomniki za plačilo", "desc": "Samodejni, vljudni opomniki terjajo zapadle situacije, da vam ni treba." }
+  ],
+  "sections": [
+    { "eyebrow": "Od razpisa do računa", "title": "Ocene stroškov, ki postanejo projekt", "body": "Posel pridobite z jasno, razčlenjeno oceno stroškov, nato odobreno različico neposredno pretvorite v projekt, ne da bi ponovno vtipkali eno samo vrstico. Zaračunavajte po fazah, ko je delo opravljeno, po mejniku ali odstotku, in uredite zadržani znesek, da se končni obračun izide. Stranka dobi profesionalno situacijo, vi pa ohranite eno čisto sled od razpisa do končnega plačila.", "items": ["Razčlenjene ocene stroškov z materialom in delom", "Računi po mejnikih ali odstotku dokončanosti", "Zadržani znesek spremljan do končnega obračuna"] },
+    { "eyebrow": "Vedite, da projekt prinaša denar", "title": "Stroški in marža, projekt za projektom", "body": "Zasedeno gradbišče lahko skrije projekt z izgubo. Paper & Pen vsako naročilnico, račun dobavitelja in obračun plač pripiše projektu ter med napredovanjem dela prikazuje dejanske stroške glede na oceno. Maržo vidite, preden je projekt končan, ne šele potem. Razvito v Omanu z vgrajenimi OMR, AED in SAR ter 5 % DDV, pripravljeno pa tudi za USD, EUR ali kateri koli trg in davčno stopnjo.", "items": ["Stroški materiala in dela za vsak projekt", "Sprotna marža, dejansko glede na oceno", "Katera koli valuta in davčna stopnja, pripravljeno za DDV"] }
+  ],
+  "faqs": [
+    { "q": "Ali lahko projekt zaračunavam po fazah?", "a": "Da. Zaračunajte po mejniku ali po odstotku dokončanosti, z urejenim zadržanim zneskom, da je vsaka situacija čista, končni obračun pa usklajen." },
+    { "q": "Ali lahko stroške spremljam glede na oceno?", "a": "Da. Naročilnice, računi dobaviteljev in plače se pripišejo projektu, Paper & Pen pa med napredovanjem dela prikazuje dejanske stroške glede na vašo oceno." },
+    { "q": "Ali podpira zadržani znesek?", "a": "Da. Zadržani znesek se spremlja prek situacij in prenese v končni obračun, zato ob predaji nič ne ostane spregledano." },
+    { "q": "Ali lahko obračunam plače za delavce na gradbišču?", "a": "Da. Modul Kadri in plače obračuna plače in lahko strošek dela pripiše pravemu projektu za točne stroške projekta." },
+    { "q": "Ali so ponudbe za izvajalce brezplačne?", "a": "Prodaja in računi, vključno z ocenami stroškov in situacijami, so brezplačni za vedno. Za popoln nadzor stroškov projekta dodajte Zaloge, Kadre in plače ter Računovodstvo." }
+  ],
+  "related": ["/invoicing/estimates", "/invoicing/purchase-orders", "/features/hr-payroll", "/invoicing/payment-reminders", "/pricing"],
+  "ctaTitle": "Zgradite, zaračunajte, prejmite plačilo",
+  "ctaSub": "Začnite brezplačno z ocenami stroškov in situacijami, nato dodajte Plače in Računovodstvo za popolne stroške projektov."
+}

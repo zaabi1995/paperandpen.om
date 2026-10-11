@@ -1,0 +1,38 @@
+{
+  "locale": "tl",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Libreng VAT at Tax Calculator",
+  "metaTitle": "Oman VAT Calculator: Magdagdag o Mag-alis ng 5% VAT",
+  "metaDescription": "Kuwentahin online ang 5% VAT ng Oman. Idagdag ang VAT sa net na halaga o alisin ito sa gross na total para makita agad ang net, VAT at total, walang signup.",
+  "keywords": "vat calculator, oman vat calculator, sales tax calculator, magdagdag ng vat, mag-alis ng vat, 5 porsiyentong vat calculator, kuwenta ng vat, reverse vat calculator",
+  "heroEyebrow": "Libre · Walang signup",
+  "heroTitle": "Libreng <em class=\"text-copper-400 not-italic\">VAT at Tax</em> Calculator",
+  "heroSubtitle": "Kuwentahin online ang 5% VAT ng Oman. Idagdag ang VAT sa net na halaga o alisin ito sa gross na total para makita agad ang net, VAT at total, walang signup.",
+  "heroBullets": ["Kahit anong rate, kahit anong currency", "Magdagdag o mag-reverse ng tax", "Libre habambuhay, walang signup"],
+  "howToSteps": [
+    { "name": "Ilagay ang halaga", "text": "I-type ang halagang gusto mong kuwentahin at piliin ang currency mo." },
+    { "name": "Itakda ang tax rate", "text": "Gamitin ang default na 5% rate ng Oman, o ilagay ang kasalukuyang rate na naaangkop sa transaksyon mo." },
+    { "name": "Piliin kung idadagdag o aalisin", "text": "Idagdag ang tax sa net na halaga, o alisin ang tax sa gross na halaga para makita ang net (reverse VAT)." },
+    { "name": "Basahin ang resulta", "text": "Makita agad ang hiwa-hiwalay na net, tax at gross, handang kopyahin sa invoice." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Magdagdag o mag-alis ng tax", "desc": "Kuwentahin ang tax pasulong sa net na halaga, o i-reverse ito mula sa gross na halaga sa isang click." },
+    { "icon": "globe", "title": "Kahit anong rate, kahit anong currency", "desc": "5% ng Oman bilang default, o itakda ang rate na naaangkop sa iyo, sa OMR, AED, SAR, USD, EUR at iba pa." },
+    { "icon": "bolt", "title": "Instant at libre", "desc": "Walang signup, walang limit. Makuha ang net, tax at gross sa sandaling mag-type ka." }
+  ],
+  "sections": [
+    { "title": "Bakit gamitin ang VAT calculator ng Paper & Pen?", "body": "Nagpe-presyo ka man ng quote, nagche-check ng invoice o nagfa-file ng return, kailangan mong magtugma ang net, tax at gross hanggang sa huling decimal. Kaya ng calculator na ito ang kahit anong rate sa kahit anong currency, gumagana sa dalawang direksyon (magdagdag ng tax o i-reverse ito mula sa total), at tunay na libre. Nagbubukas ito sa 5% rate ng Oman at buong naa-adjust para sa ibang hurisdiksyon." },
+    { "eyebrow": "Higit pa sa calculator", "title": "Hayaang ang software mo ang gumawa ng VAT", "body": "Mabagal at madaling magkamali ang mano-manong pagkuwenta ng tax sa bawat linya. Sa loob ng buong Paper & Pen ERP, kusang inilalapat ang VAT sa net pagkatapos ng discount ng bawat invoice, naitatala sa libro mo, at naiipon sa ulat na handa para sa return, kaya hindi mo na kailangang humawak ng calculator.", "items": ["Awtomatikong tax sa bawat invoice at quote", "Tax rate bawat item at bawat dokumento", "Buod na ulat ng VAT na handang i-file"] }
+  ],
+  "faqs": [
+    { "q": "Anong rate ang gamit ng Oman VAT calculator na ito?", "a": "Nagbubukas ang calculator sa 5% rate ng Oman. Puwedeng magbago ang patakaran sa tax, kaya kumpirmahin ang kasalukuyang rate sa Oman Tax Authority bago umasa sa isang kuwenta. Puwede kang maglagay ng kahit anong rate." },
+    { "q": "Paano ko aalisin ang VAT sa isang total?", "a": "Piliin ang opsyong alisin (reverse) at ilagay ang gross na halaga. Kukuwentahin ng calculator ang net at ang bahaging tax na kasama sa total." },
+    { "q": "Puwede ko ba itong gamitin para sa sales tax sa labas ng Oman?", "a": "Oo. Itakda ang rate na naaangkop sa transaksyon mo at pumili ng kahit anong currency. Gumagana ito para sa VAT, GST o sales tax saanman sa mundo." },
+    { "q": "Kinukuwenta ba nito ang tax sa halagang may discount?", "a": "Ilagay ang net na halaga pagkatapos ng discount at idagdag dito ang tax. Para sa awtomatikong VAT pagkatapos ng discount sa buong invoice, gumawa ng libreng Paper & Pen workspace kung saan hawak na ito para sa iyo." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Tigilan ang mano-manong pagkuwenta ng VAT",
+  "ctaSub": "Kusang ilapat ang tax sa bawat invoice at makakuha ng VAT report na handa para sa return gamit ang libreng Paper & Pen workspace."
+}

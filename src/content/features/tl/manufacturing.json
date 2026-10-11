@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Manufacturing at Produksyon",
+  "metaTitle": "Software sa Manufacturing at Produksyon · Paper & Pen",
+  "metaDescription": "Planuhin ang produksyon gamit ang bill of materials, work order at totoong costing. Gamitin ang raw stock, bumuo ng finished goods, alamin ang totoong margin.",
+  "keywords": "manufacturing software, pamamahala ng produksyon, bill of materials, bom, work order, production costing, finished goods, software para sa pabrika",
+  "heroEyebrow": "Add-on na module",
+  "heroTitle": "Gumawa ayon sa order, <em class=\"text-copper-400 not-italic\">kuwentado hanggang sa huling rial</em>",
+  "heroSubtitle": "Gawing finished goods ang raw materials gamit ang bill of materials at work order, habang sinusubaybayan ng Paper & Pen ang cost ng bawat component para lagi mong alam ang totoong margin mo.",
+  "heroBullets": ["Bill of materials at work order", "Awtomatikong paggamit ng stock", "Totoong production costing"],
+  "features": [
+    { "icon": "manufacturing", "title": "Bill of materials", "desc": "Itakda kung ano ang napupunta sa bawat produkto, kasama ang dami at sub-assembly." },
+    { "icon": "doc", "title": "Work order", "desc": "Planuhin at subaybayan ang production run mula raw materials hanggang finished stock." },
+    { "icon": "inventory", "title": "Awtomatikong galaw ng stock", "desc": "Nagagamit ang raw materials at nadadagdag ang finished goods habang bumubuo ka." },
+    { "icon": "calc", "title": "Production costing", "desc": "Pagsamahin ang cost ng materyales at overhead para sa tumpak na halaga ng finished goods." },
+    { "icon": "chart", "title": "Kita ang margin", "desc": "Ihambing ang production cost sa presyo ng benta at makita ang totoong margin bawat item." },
+    { "icon": "refresh", "title": "Konektado mula umpisa hanggang dulo", "desc": "Pagdugtungin ang pagbili, imbentaryo at benta sa iisang tuloy-tuloy na daloy." }
+  ],
+  "sections": [
+    { "eyebrow": "Magplano nang may kumpiyansa", "title": "Mula recipe hanggang finished goods", "body": "Itakda ang bill of materials nang isang beses at alam na ng Paper & Pen kung ano ang eksaktong nagagamit sa bawat build. Gumawa ng work order, at naka-reserve at nagagamit ang raw stock habang nadadagdag sa imbentaryo ang finished goods, at hawak na ang lahat ng costing para sa iyo.", "items": ["Magagamit ulit na bill of materials", "Work order na may reserbasyon ng stock", "Awtomatikong paggamit at pagtanggap ng finished goods"] },
+    { "eyebrow": "Alamin ang totoong margin", "title": "Costing na nagsasabi ng totoo", "body": "Ang panghuhula sa cost ay panghuhula sa kita. Pinagsasama ng Paper & Pen ang materyales at overhead sa totoong cost ng finished goods, ipinapasok ito sa libro mo, at ipinapakita ang margin sa bawat benta. Gumagana sa kahit anong currency, kaya puwede kang kumuha ng supply at magbenta sa ibang bansa.", "items": ["Costing ng materyales at overhead", "Kusang pumapasok sa accounting", "Margin bawat produkto, bawat order"] }
+  ],
+  "faqs": [
+    { "q": "Libre ba ang manufacturing?", "a": "Opsyonal na bayad na add-on ang Manufacturing. Libre habambuhay ang core na module na Benta at Invoicing, at idaragdag mo ang Manufacturing kapag gumagawa ka ng produkto." },
+    { "q": "Puwede ba akong magtakda ng bill of materials?", "a": "Oo. Bumuo ng BOM para sa bawat produkto, kasama ang sub-assembly, at gamitin ito ulit sa bawat production run." },
+    { "q": "Kusa ba nitong ginagamit ang stock?", "a": "Oo. Kapag pinroseso mo ang work order, kusang nagagamit ang raw materials at nadadagdag sa imbentaryo ang finished goods." },
+    { "q": "Paano kinukuwenta ang production cost?", "a": "Pinagsasama ang cost ng materyales at overhead sa halaga ng finished goods, na pumapasok sa accounting para tumpak ang margin mo." },
+    { "q": "Gumagana ba ito sa kahit anong currency?", "a": "Oo. Bumili ng materyales at magbenta ng finished goods sa kahit anong currency, na magkasabay ang costing at accounting." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Kuwentahin nang tumpak ang bawat build",
+  "ctaSub": "Magsimula nang libre sa invoicing at idagdag ang Manufacturing para planuhin ang produksyon at malaman ang totoong margin mo."
+}

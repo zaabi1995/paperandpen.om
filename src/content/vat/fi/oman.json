@@ -1,0 +1,159 @@
+{
+  "locale": "fi",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "title": "ALV Omanissa",
+  "metaTitle": "ALV Omanissa: kanta, rajat ja laskut · Paper & Pen",
+  "metaDescription": "Omanin 5 %:n ALV-kanta, OMR 38,500:n rekisteröintiraja ja kaksitoista tietoa, jotka verolaskussa on oltava, kukin lähteenä Oman Tax Authority.",
+  "keywords": "alv oman, omanin alv-kanta, omanin alv rekisteröintiraja, omanin verolaskun vaatimukset, fawtara verkkolaskutus, oman tax authority",
+  "heroEyebrow": "Oman",
+  "heroTitle": "Laskutus <em class=\"text-copper-400 not-italic\">Omanin ALV-sääntöjen</em> mukaan",
+  "heroSubtitle": "Verokanta, rekisteröintirajat, mitä verolaskussa on näyttävä ja missä verkkolaskutus on menossa. Jokaisen tällä sivulla olevan luvun lähteenä on Oman Tax Authorityn oma julkaistu teksti.",
+  "heroBullets": [
+    "Yleinen verokanta 5 %",
+    "Rekisteröinti OMR 38,500:sta",
+    "Fawtara ilmoitettu, ei vielä käytössä"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Yleinen ALV-kanta",
+      "value": "5%",
+      "note": "ALV-lain 36 artiklan mukaan verotettavien tavaroiden tai palvelujen tuonnista ja myynnistä peritään veroa viisi prosenttia verotettavasta arvosta.",
+      "source": 1
+    },
+    {
+      "label": "Pakollisen rekisteröinnin raja",
+      "value": "OMR 38,500",
+      "note": "Kun vuotuinen myynti on tämän verran tai enemmän, rekisteröityminen on pakollista. Laki jättää luvun puheenjohtajan päätöksen varaan sen sijaan, että se olisi kirjattu itse lakiin.",
+      "source": 2
+    },
+    {
+      "label": "Vapaaehtoisen rekisteröinnin raja",
+      "value": "OMR 19,250",
+      "note": "Tästä tasosta alkaen voit rekisteröityä, vaikka pakollinen raja ei täyttyisi.",
+      "source": 2
+    },
+    {
+      "label": "Laskun kieli",
+      "value": "Arabia",
+      "note": "Laskun voi antaa myös englanniksi, kunhan arabiankielinen käännös on pyynnöstä saatavilla.",
+      "source": 3
+    },
+    {
+      "label": "Yksinkertaistetun laskun yläraja",
+      "value": "OMR 500",
+      "note": "Tätä arvoa pienemmissä myynneissä voi käyttää yksinkertaistettua laskua Tax Authorityn hyväksynnällä.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Täytäntöönpanoasetuksen (Executive Regulations) 145 artikla luettelee, mitä verolaskussa on näyttävä. Artikla aloittaa luettelon sanoilla \"erityisesti\", joten pidä sitä vähimmäisvaatimuksena eikä tyhjentävänä luettelona.",
+    "items": [
+      "Sanat \"Tax Invoice\" (verolasku)",
+      "Laskun päivämäärä, toimituspäivä ja maksupäivä",
+      "Juokseva laskunumero",
+      "Myyjän koko nimi, osoite ja verotunniste",
+      "Ostajan koko nimi, osoite ja verotunniste tai sitä vastaava tunniste hänen asuinmaassaan",
+      "Kuvaus myydyistä tavaroista ja palveluista",
+      "Tavaroiden määrä",
+      "Mahdollisen ennakkomaksun päivämäärä",
+      "Kokonaisvastike ilman veroa",
+      "Sovellettu verokanta",
+      "Mahdollinen hinnanalennus tai annettu alennus sekä mahdollinen valtion tuki, jota ei ole jo sisällytetty",
+      "Verotettava arvo"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority julkaisee täytäntöönpanoasetuksen vain arabiaksi. Tämä luettelo on uskollinen tulkinta virallisesta arabiankielisestä tekstistä, ei virallinen englanninkielinen käännös, joten tarkista sanamuoto veroneuvojaltasi ennen kuin luotat siihen."
+  },
+  "einvoicing": {
+    "status": "Ilmoitettu ja vaiheistettu, ei vielä pakollinen",
+    "body": "Omanin verkkolaskutusohjelman nimi on Fawtara. Tax Authority kuvaa viiden osapuolen mallin, jossa laskut kulkevat sille akkreditoidun palveluntarjoajan kautta, ja esittää neljä vaihetta: pilotin, laajennuksen, pienempien yritysten mukaan ottamisen ja täyden käyttöönoton. Viranomainen ei ole julkaissut vaiheiden päivämääriä englanniksi, eikä lehdistössä kiertäviä päivämääriä löydy sen omilta sivuilta. Pidä mitä tahansa muualla lukemaasi Fawtaran määräaikaa vahvistamattomana, kunnes Tax Authority julkaisee sen.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Oikein tekeminen",
+      "title": "Missä yritykset kompastuvat Omanissa",
+      "body": "Kolme asiaa selittää suurimman osan täkäläisistä ALV-laskujen ongelmista. Ensimmäinen on asiakkaan verotunniste: jos se puuttuu, asiakkaasi ei ehkä voi vähentää ostoveroa, jolloin laskustasi tulee hänen kulunsa ja sinun ongelmasi. Toinen on laskujen numerointi. 145 artikla edellyttää juoksevaa numeroa, ja nopein tapa rikkoa se on poistaa tai numeroida uudelleen jo lähetetty lasku. Korjaa se sen sijaan hyvityslaskulla. Kolmas on kieli: laskun on oltava arabiaksi, ja jos annat sen vain englanniksi ilman pyynnöstä saatavaa arabiankielistä versiota, olet alttiina seuraamuksille.",
+      "items": [
+        "Hanki asiakkaan verotunniste ennen laskun antamista, ei jälkikäteen",
+        "Älä koskaan poista annettua laskua, vaan hyvitä se",
+        "Pidä arabiankielinen versio pyynnöstä saatavilla",
+        "Kirjaa toimituspäivä erikseen laskun päivämäärästä"
+      ]
+    },
+    {
+      "eyebrow": "Valmistautuminen",
+      "title": "Valmistaudu Fawtaraan arvaamatta päivämääriä",
+      "body": "Et tarvitse julkaistua määräaikaa ollaksesi valmis. Jokainen alueella käyttöön otettu verkkolaskutusjärjestelmä on edellyttänyt samaa perusjärjestystä: siistit ja täydelliset asiakastiedot verotunnisteineen, katkeamaton laskujen numerointi, verokohtelu kirjattuna riveittäin eikä laskuittain sekä asiakirjat tallennettuina niin, että ne löytyvät pyydettäessä. Yrityksellä, jonka tiedot jo täyttävät nämä neljä ehtoa, on edessään lyhyt käyttöönotto, kun päivämäärät aikanaan tulevat. Yritys, jonka tiedot eivät täytä niitä, käyttää ilmoitusajan tietojen siivoamiseen.",
+      "items": [
+        "Täydelliset asiakastiedot verotunnisteineen",
+        "Yksi katkeamaton laskujen numerointi sarjaa kohden",
+        "Verokohtelu kirjattuna rivi riviltä",
+        "Asiakirjat saatavilla pyydettäessä"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mikä on ALV-kanta Omanissa?",
+      "a": "Viisi prosenttia. Kuninkaallisella asetuksella 121/2020 annetun ALV-lain 36 artiklan mukaan verotettavien tavaroiden tai palvelujen tuonnista ja myynnistä lasketaan veroa viisi prosenttia verotettavasta arvosta. Osa myynneistä on nollaverokannan alaisia tai verosta vapautettuja, ja ne ovat eri asioita: nollaverokannalla myyvä voi silti vähentää ostoveron, verosta vapautettu ei voi."
+    },
+    {
+      "q": "Milloin minun on rekisteröidyttävä ALV-velvolliseksi Omanissa?",
+      "a": "Kun vuotuinen myyntisi saavuttaa tai sen odotetaan saavuttavan OMR 38,500. Voit rekisteröityä vapaaehtoisesti OMR 19,250:stä alkaen. Molemmat luvut tulevat puheenjohtajan rekisteröintirajoja koskevasta päätöksestä eivätkä itse ALV-laista, minkä vuoksi ne voivat muuttua ilman lain muuttamista."
+    },
+    {
+      "q": "Onko verkkolaskutus jo pakollista Omanissa?",
+      "a": "Ei vielä. Tax Authority on ilmoittanut Fawtarasta, vaiheittain käyttöön otettavasta viiden osapuolen verkkolaskutusmallista, joka käyttää akkreditoituja palveluntarjoajia, ja kuvaa neljä käyttöönottovaihetta. Se ei ole julkaissut vaiheiden päivämääriä englanniksi omilla sivuillaan, joten emme mainitse päivämäärää tässä. Tarkista nykytilanne Tax Authorityn verkkolaskutussivuilta."
+    },
+    {
+      "q": "Voinko antaa laskun englanniksi Omanissa?",
+      "a": "Voit antaa laskun englanniksi, mutta täytäntöönpanoasetus edellyttää verolaskun olevan arabiaksi ja sallii lisäksi muun kielen, kunhan arabiankielinen käännös on pyynnöstä saatavilla. Käytännössä tämä tarkoittaa kaksikielistä laskupohjaa pelkän englanninkielisen sijaan."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Laskuta oikein Omanissa, ilmaiseksi",
+  "ctaSub": "Aseta oma verokantasi, laskuta millä tahansa valuutalla ja pidä arabian- ja englanninkielinen lasku samasta tietueesta.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law (ALV-laki), Royal Decree 121/2020, 36 artikla",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Puheenjohtajan päätös pakollisen ja vapaaehtoisen rekisteröinnin rajoista",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law (täytäntöönpanoasetus), Decision 53/2021, artiklat 145–148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Verkkolaskutusohjelman (Fawtara) sivut",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

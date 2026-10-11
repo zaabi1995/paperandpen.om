@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "accountants",
+  "order": 4,
+  "title": "Mga Accountant at Bookkeeper",
+  "metaTitle": "Accounting Software para sa mga Accountant | Paper & Pen",
+  "metaDescription": "Double-entry na libro, VAT return, financial report at workspace para sa maraming kliyente ng accountant at bookkeeper. Malinis na ledger, kahit anong currency at tax.",
+  "keywords": "accounting software para sa accountant, bookkeeping software, double entry accounting, vat return software, financial report, bookkeeping para sa maraming kliyente, trial balance",
+  "heroEyebrow": "Para sa mga accountant at bookkeeper",
+  "heroTitle": "Malinis na libro na <em class=\"text-copper-400 not-italic\">laging nagre-reconcile</em>",
+  "heroSubtitle": "Tunay na double-entry accounting, awtomatikong posting mula sa bawat invoice at bayad, VAT return at ulat na mapagkakatiwalaan ng mga kliyente mo. Ang Paper & Pen ang gagawa ng bookkeeping para ikaw ang makapagbigay ng payo.",
+  "heroBullets": ["Tunay na double-entry na ledger", "Awtomatikong posting mula sa benta at pagbili", "VAT return at financial report"],
+  "features": [
+    { "icon": "accounting", "title": "Double-entry na libro", "desc": "Bawat transaksyon ay nagpo-post ng balanseng journal entry sa maayos na chart of accounts." },
+    { "icon": "refresh", "title": "Awtomatikong posting", "desc": "Kusang pumapasok sa ledger ang invoice, bayad at galaw ng stock." },
+    { "icon": "calc", "title": "VAT return", "desc": "Sinusubaybayan ang tax sa bawat dokumento, handang mag-file ng 5% VAT return o kahit anong rate." },
+    { "icon": "reports", "title": "Financial report", "desc": "Profit and loss, balance sheet, trial balance at ledger, kahit kailan kailangan." },
+    { "icon": "doc", "title": "Audit trail", "desc": "Bawat entry ay nasusundan pabalik sa source document para sa malinis na audit." },
+    { "icon": "globe", "title": "Kahit anong currency at tax", "desc": "Hawakan ang multi-currency na kliyente at kahit anong tax regime sa buong mundo." }
+  ],
+  "sections": [
+    { "eyebrow": "Wala nang ulit na pag-encode", "title": "Kusang nagsusulat ang ledger", "body": "Sa manual na journal pumapasok ang mga pagkakamali. Sa Paper & Pen, bawat invoice, bayad, pagbili at galaw ng stock ay nagpo-post ng balanseng double-entry na journal sa maayos na chart of accounts, kaya laging live at laging reconciled ang libro. Sa pagsusuri at pagpapayo mo ginugugol ang oras mo, hindi sa pag-type ng entry, at bawat numero ay diretsong nasusundan pabalik sa source document nito.", "items": ["Balanseng journal mula sa bawat transaksyon", "Maayos na chart of accounts", "Buong audit trail hanggang source document"] },
+    { "eyebrow": "Mag-ulat at mag-file nang may kumpiyansa", "title": "VAT, statement at ulat kahit kailan", "body": "Kumuha ng profit and loss, balance sheet, trial balance o general ledger tuwing hihingi ang kliyente, at gumawa ng VAT return na sinusubaybayan ang tax sa bawat dokumento. Handa na agad ang Paper & Pen sa naa-adjust na GCC VAT at sa kahit anong tax rate o currency para sa kliyente sa ibang lugar, kaya makakapagsilbi ka sa portfolio sa iba't ibang merkado. Gawa sa Oman, komportable saanman mula Muscat hanggang Manchester.", "items": ["P&L, balance sheet, trial balance, ledger", "VAT na sinusubaybayan bawat dokumento, handang i-file", "Multi-currency, kahit anong tax regime"] }
+  ],
+  "faqs": [
+    { "q": "Tunay ba itong double-entry accounting?", "a": "Oo. Bawat transaksyon ay nagpo-post ng balanseng journal entry sa maayos na chart of accounts, kaya laging balanse ang trial balance at nagre-reconcile ang libro." },
+    { "q": "Kusa bang pumapasok ang invoice at bayad?", "a": "Oo. Kusang pumapasok sa ledger ang benta, pagbili, bayad at galaw ng stock, kaya walang kailangang i-encode ulit at mas maliit ang puwang para sa pagkakamali." },
+    { "q": "Puwede ba akong gumawa ng VAT return?", "a": "Oo. Sinusubaybayan ang tax sa bawat dokumento, kaya makakagawa ka ng naa-adjust na GCC VAT return o return sa kahit anong rate para sa kliyente sa ibang tax regime." },
+    { "q": "Aling mga ulat ang puwede kong patakbuhin?", "a": "Profit and loss, balance sheet, trial balance, general ledger at statement ng customer o supplier, lahat kahit kailan at nasusundan pabalik sa source document." },
+    { "q": "Kaya ko bang hawakan ang kliyente sa iba't ibang currency?", "a": "Oo. Hawak ng Paper & Pen ang multi-currency na kliyente at kahit anong tax regime, kaya makakapagsilbi ka sa portfolio sa iba't ibang bansa mula sa iisang platform." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/invoicing/ledgers", "/use-cases/small-business", "/pricing"],
+  "ctaTitle": "Mas kaunting encoding, mas maraming pagpapayo",
+  "ctaSub": "Hayaang ang Paper & Pen ang kusang mag-post sa ledger para nagre-reconcile ang libro mo at handa ang mga ulat kahit kailan."
+}

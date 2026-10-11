@@ -1,0 +1,35 @@
+{
+  "locale": "tl",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Imbentaryo",
+  "metaTitle": "Software sa Pamamahala ng Imbentaryo · Paper & Pen",
+  "metaDescription": "Subaybayan ang stock sa mga bodega nang real time, may low-stock alert, batch at barcode, at live na valuation na pumapasok sa libro mo. Gumagana sa buong mundo.",
+  "keywords": "inventory management, stock control, warehouse software, low stock alert, barcode inventory, stock valuation, maraming bodega, inventory system Pilipinas",
+  "heroEyebrow": "Add-on na module",
+  "heroTitle": "Stock na <em class=\"text-copper-400 not-italic\">mapagkakatiwalaan</em>, real time",
+  "heroSubtitle": "Alamin nang eksakto kung ano ang meron ka, nasaan ito at magkano ang halaga nito. Nag-a-update ang imbentaryo sa sandaling mag-invoice ka o tumanggap ng paninda, kaya laging live ang mga numero mo.",
+  "heroBullets": ["Live na stock sa lahat ng bodega", "Alert sa low-stock at reorder", "Pumapasok sa libro ang valuation"],
+  "features": [
+    { "icon": "inventory", "title": "Real-time na stock", "desc": "Nag-a-update ang dami sa sandaling magbenta, bumili o maglipat ka ng paninda." },
+    { "icon": "truck", "title": "Maraming bodega", "desc": "Subaybayan at ilipat ang stock sa iba't ibang lokasyon at branch nang kita ang lahat." },
+    { "icon": "bell", "title": "Low-stock alert", "desc": "Magtakda ng reorder point at mababalaan ka bago maubos ang mabilis mabentang item." },
+    { "icon": "receipt", "title": "Barcode at SKU", "desc": "Mag-scan para magbilang o maglipat ng stock, nakaayos ayon sa SKU, batch at unit of measure." },
+    { "icon": "calc", "title": "Live na valuation", "desc": "Pinapanatiling tumpak ng average o FIFO costing ang halaga ng imbentaryo sa balance sheet mo." },
+    { "icon": "refresh", "title": "Konektado sa benta", "desc": "Kusang ginagalaw ng invoice at purchase order ang stock, walang manual na update." }
+  ],
+  "sections": [
+    { "eyebrow": "Laging tumpak", "title": "Imbentaryong kusang nag-a-update", "body": "Luma na agad ang manual na bilang ng stock sa sandaling may mabenta ka. Sa Paper & Pen, inaayos ng bawat invoice, purchase at transfer ang stock at cost nang real time, kaya ang numero sa screen ay ang numero sa estante. Magtakda ng reorder point at hayaang sabihin ng sistema kung kailan ka bibili.", "items": ["Kusang nag-a-adjust sa bawat transaksyon", "Reorder point at alert", "Pagsubaybay sa batch, SKU at unit of measure"] },
+    { "eyebrow": "Kung saan nagtatagpo ang stock at libro", "title": "Mula estante hanggang balance sheet", "body": "Hindi lang pagbilang ng kahon ang imbentaryo, totoong pera ito sa balance sheet mo. Binibigyang-halaga ng Paper & Pen ang stock gamit ang average o FIFO costing at kusang ipinapasok ang galaw sa accounting, kaya laging reconciled ang cost of goods sold at halaga ng stock mo. Gumagana sa kahit anong currency para sa kahit anong merkado.", "items": ["Average o FIFO costing", "Kusang pumapasok sa accounting", "Multi-currency na pagbili"] }
+  ],
+  "faqs": [
+    { "q": "Kasama ba nang libre ang imbentaryo?", "a": "Opsyonal na bayad na add-on ang Imbentaryo. Libre habambuhay ang core na module na Benta at Invoicing, at idaragdag mo ang Imbentaryo kapag kailangan mo na ng real-time na kontrol sa stock." },
+    { "q": "Puwede ba akong mamahala ng maraming bodega?", "a": "Oo. Subaybayan ang stock bawat lokasyon, maglipat sa pagitan ng mga ito at makita ang live na dami saanman." },
+    { "q": "Sinusuportahan ba nito ang barcode?", "a": "Oo. I-scan ang barcode ng supplier, ang SKU o ang naka-print na QR label para mas mabilis magbilang at maglipat ng stock, may suporta sa batch at unit of measure." },
+    { "q": "Paano binibigyang-halaga ang stock?", "a": "Pumili ng average cost o FIFO. Nag-a-update ang valuation sa bawat galaw at kusang pumapasok sa accounting mo." },
+    { "q": "Kusa bang ina-update ng pagbebenta ang stock?", "a": "Oo. Binabawasan ng invoice ang stock at dinadagdagan ito ng purchase nang real time, kaya hindi mo kailangang i-update ang dami nang mano-mano." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Kontrolin ang stock mo",
+  "ctaSub": "Magsimula nang libre sa invoicing at idagdag ang Imbentaryo kapag handa ka na sa real-time na stock sa bawat lokasyon."
+}
