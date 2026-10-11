@@ -71,6 +71,15 @@ const seoProps = { ...seo, jsonld: [...pageGraph, baseGraph] };
 const dir = isRTL(locale) ? 'rtl' : 'ltr';
 const htmlLang = LOCALE_META[locale].htmlLang;
 const t = useTranslations(locale);
+
+/* A script face only where the brand faces lack the script, and only on that
+   locale's pages, loaded the same non-render-blocking way as the brand faces.
+   Only Hebrew has one on fonts.bhd.om today (Rubik, OFL); every other script
+   the brand faces lack falls back to the system faces named in global.css. */
+const SCRIPT_FONTS: Partial<Record<Locale, string>> = {
+  he: 'https://fonts.bhd.om/css2?family=Rubik:wght@400;500;700&display=swap',
+};
+const scriptFont = SCRIPT_FONTS[locale];
 ---
 
 <!doctype html>
@@ -107,6 +116,13 @@ const t = useTranslations(locale);
           <link rel="preload" as="style" href={FONTS} />
           <link rel="stylesheet" href={FONTS} media="print" onload="this.media='all'" />
           <noscript><link rel="stylesheet" href={FONTS} /></noscript>
+          {scriptFont && (
+            <>
+              <link rel="preload" as="style" href={scriptFont} />
+              <link rel="stylesheet" href={scriptFont} media="print" onload="this.media='all'" />
+              <noscript><link rel="stylesheet" href={scriptFont} /></noscript>
+            </>
+          )}
         </>
       );
     })()}

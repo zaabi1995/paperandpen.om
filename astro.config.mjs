@@ -4,9 +4,12 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import { HREFLANG, XDEFAULT_LOCALE } from './src/i18n/hreflang.mjs';
+import { liveLocalesOnDisk } from './src/i18n/live.mjs';
 
 const SITE = 'https://paperandpen.om';
-const LOCALES = ['en', 'ar', 'hi', 'bn', 'ur'];
+/* Live locales: those with a src/i18n/ui/<code>.json. Same rule as LOCALES in
+   src/i18n/index.ts, read from disk because this file runs before vite. */
+const LOCALES = liveLocalesOnDisk();
 // Every rendered page received a significant structured-data update on this
 // date. Keep this source date tied to real sitewide output changes. Google may
 // ignore lastmod values that behave like build timestamps.
@@ -29,10 +32,11 @@ export default defineConfig({
          too. login/signup are bare noindex pages; /terms/ and /privacy/ are
          noindex in the four non-English locales because their text is English
          only and machine-translating binding legal terms is not something this
-         site will do. */
+         site will do. The same holds for every locale added later, so the
+         rule matches any locale prefix rather than a list. */
       filter: (page) =>
         !/\/(login|signup)\/$/.test(page) &&
-        !/\/(ar|hi|bn|ur)\/(terms|privacy)\/$/.test(page),
+        !new RegExp(`^${SITE}/[^/]+/(terms|privacy)/$`).test(page),
       /*
        * The codes come from src/i18n/hreflang.mjs, the SAME table getAlternates()
        * reads. This map used to hold its own literals (ar-OM / hi-IN / bn-BD /
@@ -43,6 +47,17 @@ export default defineConfig({
         defaultLocale: XDEFAULT_LOCALE,
         locales: HREFLANG,
       },
+      /*
+       * PER-PAGE ALTERNATES. The integration builds each URL's xhtml:link set
+       * from the URLs actually in this sitemap: it groups URLs whose path
+       * after the locale segment is identical. So a page that was not built
+       * for a locale (an untranslated content page in a non-core locale, an
+       * English-and-Arabic-only page, a noindex legal copy) is never named as
+       * an alternate. The page <head> reads the same availability through
+       * pageLocales()/getAlternates(), and scripts/seo_integrity.py proves the
+       * two sets are equal for every URL. HREFLANG holds all 52 codes so a
+       * /<code>/ prefix is always parsed as a locale, never as a path.
+       */
       /*
        * @astrojs/sitemap's i18n option emits one xhtml:link per locale and no
        * x-default, but every page in this site declares an x-default in its

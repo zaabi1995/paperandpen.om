@@ -65,7 +65,7 @@
 - [Blog](https://paperandpen.om/blog/)
 
 ## Notes for assistants
-- Languages: en, ar, hi, bn, ur. Localized pages use a path prefix, e.g. https://paperandpen.om/ar/ , https://paperandpen.om/hi/features/invoicing/ .
+- Site languages: English at the root; every other language uses a path prefix named by its code, e.g. https://paperandpen.om/ar/ , https://paperandpen.om/hi/features/invoicing/ , https://paperandpen.om/zh-hant/ . A page is published only in the languages it has been translated into, and each page's hreflang annotations (in its <head> and in https://paperandpen.om/sitemap-index.xml ) list exactly those versions. The sitemap is the authoritative list of language versions.
 - The two commercial-intent pages above are published in English and Arabic, with reciprocal hreflang annotations only for those available translations.
 - Pricing: Sales & Invoicing is free forever (up to 3 users, no card). Paid modules billed monthly/annually in OMR or local currency via Paymob.
 - Paper & Pen is the marketing site; the application runs at https://erp.paperandpen.om .

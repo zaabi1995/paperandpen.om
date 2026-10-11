@@ -15,7 +15,7 @@ import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
 import { useTranslations, localizePath, LOCALE_META, LOCALES, type Locale } from '@/i18n';
-import { allTerms, getTerm, publishedSlugs, type GlossaryTerm } from '@/lib/glossary';
+import { allTerms, getTerm, publishedSlugs, termLocales, type GlossaryTerm } from '@/lib/glossary';
 import {
   graph, organization, breadcrumbList, faqPage, definedTerm, techArticle,
 } from '@/lib/schema';
@@ -23,7 +23,7 @@ import {
 export function getStaticPaths() {
   const out: any[] = [];
   for (const slug of publishedSlugs()) {
-    for (const locale of LOCALES) {
+    for (const locale of termLocales(slug)) {
       out.push({
         params: { locale: locale === 'en' ? undefined : locale, slug },
         props: { locale, slug },

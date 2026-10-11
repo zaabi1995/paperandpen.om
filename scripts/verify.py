@@ -18,10 +18,14 @@ import json, pathlib, random, re, sys, collections
 
 sys.path.insert(0, 'scripts')
 from genlib import lint_text
+import locales as L  # the locale table, read from src/i18n/hreflang.mjs
 
 D = pathlib.Path('dist')
 fails, warns = [], []
-LOC = re.compile(r'^(ar|hi|bn|ur)(/|$)')
+# Live locales come from the build: en plus every table code whose root page exists.
+LIVE = ['en'] + [c for c in L.ALL if c != 'en' and (D / c / 'index.html').is_file()]
+NON_EN = [c for c in LIVE if c != 'en']
+LOC = re.compile(r'^(' + '|'.join(re.escape(c) for c in sorted(NON_EN, key=len, reverse=True)) + r')(/|$)') if NON_EN else re.compile(r'^$^')
 
 def rel(f):
     r = str(f.parent.relative_to(D))
@@ -33,7 +37,7 @@ DOC = {f: f.read_text(errors='ignore') for f in pages}
 REL = {f: rel(f) for f in pages}
 
 # The pages that must never be sampled out, whatever any future check does.
-ALWAYS = {D / 'index.html'} | {D / loc / 'index.html' for loc in ('ar', 'hi', 'bn', 'ur')}
+ALWAYS = {D / 'index.html'} | {D / loc / 'index.html' for loc in NON_EN}
 missing_always = [str(p) for p in ALWAYS if p not in DOC]
 if missing_always:
     fails.append(f'expected page not built: {missing_always}')
@@ -56,14 +60,17 @@ if no_h1: fails.append(f'{len(no_h1)} pages with no h1: {no_h1[:5]}')
 # A br element contributes no text node, so the source must serialize a real
 # space rather than relying on browser layout.
 bad_home_h1 = []
-for locale in ('en', 'ar', 'hi', 'bn', 'ur'):
+english_hero = json.loads(pathlib.Path('src/i18n/ui/en.json').read_text(encoding='utf-8'))['hero']
+for locale in LIVE:
     page = D / 'index.html' if locale == 'en' else D / locale / 'index.html'
     source = pathlib.Path(f'src/i18n/ui/{locale}.json')
     if page not in DOC or not source.is_file():
         bad_home_h1.append((locale, 'missing page or dictionary'))
         continue
     dictionary = json.loads(source.read_text(encoding='utf-8'))
-    expected = f"{dictionary['hero']['tagline_line1']} {dictionary['hero']['tagline_line2']}"
+    # useTranslations falls back to English per key, so the expected text does too.
+    hero = {**english_hero, **dictionary.get('hero', {})}
+    expected = f"{hero['tagline_line1']} {hero['tagline_line2']}"
     match = re.search(r'<h1\b[^>]*>(.*?)</h1>', DOC[page], re.S | re.I)
     extracted = '' if not match else htmlmod.unescape(re.sub(r'<[^>]+>', '', match.group(1)))
     extracted = ' '.join(extracted.split())
@@ -97,7 +104,7 @@ lang_mismatch = []
 for f, h in DOC.items():
     m = re.search(r'<html lang="([^"]+)"', h)
     want = REL[f].lstrip('/').split('/')[0]
-    want = want if want in ('ar', 'hi', 'bn', 'ur') else 'en'
+    want = L.HREFLANG[want if want in NON_EN else 'en']
     if m and m.group(1) != want: lang_mismatch.append((REL[f], m.group(1)))
 if lang_mismatch: fails.append(f'{len(lang_mismatch)} html lang mismatches: {lang_mismatch[:5]}')
 
@@ -127,6 +134,8 @@ def prose_ratio(h):
 english_fallback, lowest = [], (1.0, None)
 for f, h in DOC.items():
     if not LOC.match(REL[f].lstrip('/')): continue
+    # A script test: only meaningful where the locale's script is not Latin.
+    if REL[f].lstrip('/').split('/')[0] not in L.NON_LATIN: continue
     if 'noindex' in h: continue   # not indexed, not in the sitemap; reported separately
     r = prose_ratio(h)
     if r is None: continue
@@ -183,7 +192,7 @@ if bad_ld: fails.append(f'{len(bad_ld)} unparseable JSON-LD blocks: {bad_ld[:3]}
 
 noindexed = sum(1 for h in DOC.values() if 'noindex' in h)
 print(f'pages checked: {len(pages)} (ALL of them; {noindexed} noindex, excluded from the sitemap)')
-print(f'homepage in set: {(D / "index.html") in DOC}  locale roots: {sum(1 for p in ALWAYS if p in DOC) - 1}/4')
+print(f'homepage in set: {(D / "index.html") in DOC}  locale roots: {sum(1 for p in ALWAYS if p in DOC) - 1}/{len(NON_EN)}')
 print(f'sitemap urls: {len(re.findall("<loc>", sm))}')
 print(f'sitemap hreflang: {dict(sm_langs)}')
 print(f'lowest non-Latin ratio on an indexable localised page: {lowest[0]:.3f} at {lowest[1]}')

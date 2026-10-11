@@ -1,5 +1,5 @@
 ---
-import { useTranslations, localizePath, type Locale } from '@/i18n';
+import { useTranslations, localizePath, stripLocale, pageLocales, LOCALES, type Locale } from '@/i18n';
 import LangSwitcher from '@/components/islands/LangSwitcher.tsx';
 
 interface Props { locale: Locale }
@@ -53,7 +53,19 @@ const toolLinks = [
    still only ever marks something interactive. Locale prefix is stripped first
    so /ar/pricing/ lights the same link as /pricing/. */
 const rawPath = Astro.url.pathname;
-const path = rawPath.replace(/^\/(ar|hi|bn|ur)(?=\/|$)/, '') || '/';
+const path = stripLocale(rawPath);
+/* Language switcher data: the live locales in English-name order and the
+   locales in which THIS page exists. The island turns each into a link to the
+   same page, or to that language's home where the page does not exist. */
+const switcherPath = localizePath(path, 'en');
+/* Space-separated strings, not arrays: Astro serialises every array element
+   with a type tag, and this ships twice on every page. */
+const switcher = {
+  locale,
+  path: switcherPath,
+  live: LOCALES.join(' '),
+  available: pageLocales(path).join(' '),
+};
 const isActive = (prefix: string) => path === prefix || path.startsWith(prefix + '/');
 const sections = {
   features: isActive('/features') || isActive('/free-invoicing-software'),
@@ -174,7 +186,7 @@ const sections = {
 
     {/* Right actions — language, plain-text log in, one solid pill. No divider. */}
     <div class="hidden lg:flex items-center gap-3 xl:gap-6">
-      <LangSwitcher client:idle locale={locale} />
+      <LangSwitcher client:idle {...switcher} />
       <a href={lp('/login')} class="nv-link">{t('nav.login')}</a>
       <a href={lp('/signup')} class="nv-cta">{t('nav.startFree')}</a>
     </div>
@@ -231,7 +243,7 @@ const sections = {
         `-ms-2.5` cancels the switcher's own inline padding so its flag lines up
         with the start edge of every row above it. */}
     <div class="-ms-2.5 mt-6">
-      <LangSwitcher client:visible locale={locale} />
+      <LangSwitcher client:visible {...switcher} variant="inline" />
     </div>
   </div>
 </header>

@@ -20,7 +20,7 @@ import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import PricingTable from '@/components/blocks/PricingTable.astro';
 import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
-import { localizePath, useTranslations, tRaw, type Locale } from '@/i18n';
+import { localizePath, useTranslations, tRaw, type Locale, HREFLANG } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
 import { graph, organization, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
 
@@ -57,7 +57,7 @@ const jsonld = [
       name: 'Paper & Pen ERP',
       description: t('seo.pricingDesc'),
       url: pricingUrl,
-      inLanguage: locale,
+      inLanguage: HREFLANG[locale],
       mainEntityOfPage: { '@id': pricingUrl },
       featureList: undefined,
       offers,

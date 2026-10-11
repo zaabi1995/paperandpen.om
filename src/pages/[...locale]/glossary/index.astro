@@ -13,7 +13,7 @@ import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
 import { useTranslations, localizePath, LOCALE_META, type Locale } from '@/i18n';
 import { localeStaticPaths } from '@/lib/paths';
-import { allTerms, CATEGORIES } from '@/lib/glossary';
+import { indexTerms, CATEGORIES } from '@/lib/glossary';
 import { graph, organization, breadcrumbList, itemList } from '@/lib/schema';
 
 export const getStaticPaths = localeStaticPaths;
@@ -21,7 +21,7 @@ const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 
-const terms = allTerms(locale);
+const terms = indexTerms(locale);
 /* The result-count sentence is a translated template carried on the element as
    data-tpl, so the inline filter script never builds a sentence itself and no
    English string can leak onto an /ar/ page. */

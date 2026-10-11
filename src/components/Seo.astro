@@ -1,5 +1,5 @@
 ---
-import { getAlternates, localizePath, LOCALES, LOCALE_META, type Locale } from '@/i18n';
+import { getAlternates, localizePath, pageLocales, LOCALE_META, type Locale } from '@/i18n';
 
 export interface Props {
   title: string;
@@ -12,7 +12,11 @@ export interface Props {
   jsonld?: Record<string, unknown>[];
   noindex?: boolean;
   keywords?: string;
-  /** Restrict alternates when a page has a smaller, fully translated locale set. */
+  /**
+   * Override the locale set this page exists in. Normally omitted: the set is
+   * read from pageLocales(path), the same availability data that decides which
+   * pages are built and what the sitemap annotates.
+   */
   alternateLocales?: readonly Locale[];
   /**
    * Suppress the hreflang annotation set. Used by pages that exist in one
@@ -40,8 +44,9 @@ const {
 
 const canonical = SITE + localizePath(path, locale);
 const ogImage = image.startsWith('http') ? image : SITE + image;
-const alternates = noAlternates ? [] : getAlternates(path, alternateLocales);
-const alternateMetaLocales = alternateLocales ?? LOCALES;
+const availableLocales = alternateLocales ?? pageLocales(path);
+const alternates = noAlternates ? [] : getAlternates(path, availableLocales);
+const alternateMetaLocales = availableLocales;
 const meta = LOCALE_META[locale];
 ---
 

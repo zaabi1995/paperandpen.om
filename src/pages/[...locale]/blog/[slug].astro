@@ -4,28 +4,21 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
 import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
-import { useTranslations, localizePath, type Locale } from '@/i18n';
-import { LOCALES, DEFAULT_LOCALE } from '@/i18n';
+import { useTranslations, localizePath, type Locale, HREFLANG } from '@/i18n';
+import { LOCALE_META } from '@/i18n';
+import { contentStaticPaths } from '@/lib/paths';
 import { graph, organization, breadcrumbList, faqPage, howTo as howToSchema } from '@/lib/schema';
 import MdxLink from '@/components/blocks/MdxLink.astro';
 
 export async function getStaticPaths() {
+  /* Same contract as every other collection (see contentStaticPaths): core
+     locales get every post with the English body as fallback, other locales
+     get a post only when its translated MDX file exists. */
   const entries = await getCollection('blog');
-  const bySlug = new Map<string, Map<string, any>>();
-  for (const e of entries) {
-    const m = bySlug.get(e.data.slug) ?? new Map();
-    m.set(e.data.locale, e);
-    bySlug.set(e.data.slug, m);
-  }
-  const paths = [];
-  for (const [slug, byLocale] of bySlug) {
-    const fallback = byLocale.get(DEFAULT_LOCALE) ?? [...byLocale.values()][0];
-    for (const locale of LOCALES) {
-      const entry = byLocale.get(locale) ?? fallback;
-      paths.push({ params: { locale: locale === DEFAULT_LOCALE ? undefined : locale, slug }, props: { entry, locale } });
-    }
-  }
-  return paths;
+  return contentStaticPaths(entries.map((e) => ({ id: e.id, data: { ...e.data, entry: e } }))).map((p) => ({
+    params: p.params,
+    props: { entry: (p.props.data as any).entry, locale: p.props.locale },
+  }));
 }
 
 const { entry, locale } = Astro.props as { entry: any; locale: Locale };
@@ -54,50 +47,55 @@ const publishedDate = new Date(entry.data.pubDate);
 const modifiedDate = entry.data.updatedDate ? new Date(entry.data.updatedDate) : undefined;
 const faqs = (entry.data.faqs || []).map((item: any) => ({ q: item.q, a: item.a }));
 const sources = entry.data.sources || [];
-const answerLabels: Record<Locale, string> = {
+const answerLabels: Partial<Record<Locale, string>> = {
   en: 'Quick answer',
   ar: 'إجابة مختصرة',
   hi: 'संक्षिप्त उत्तर',
   bn: 'সংক্ষিপ্ত উত্তর',
   ur: 'مختصر جواب',
 };
-const updatedLabels: Record<Locale, string> = {
+const updatedLabels: Partial<Record<Locale, string>> = {
   en: 'Updated',
   ar: 'آخر تحديث',
   hi: 'अपडेट',
   bn: 'হালনাগাদ',
   ur: 'تازہ کاری',
 };
-const takeawayLabels: Record<Locale, string> = {
+const takeawayLabels: Partial<Record<Locale, string>> = {
   en: 'Key facts',
   ar: 'خلاصة سريعة',
   hi: 'मुख्य बातें',
   bn: 'মূল তথ্য',
   ur: 'اہم نکات',
 };
-const sourceLabels: Record<Locale, string> = {
+const sourceLabels: Partial<Record<Locale, string>> = {
   en: 'Primary sources',
   ar: 'المصادر الأصلية',
   hi: 'प्राथमिक स्रोत',
   bn: 'মূল উৎস',
   ur: 'بنیادی ماخذ',
 };
-const faqLabels: Record<Locale, string> = {
+const faqLabels: Partial<Record<Locale, string>> = {
   en: 'Proforma invoice questions',
   ar: 'أسئلة عن الفاتورة المبدئية',
   hi: 'प्रोफॉर्मा इनवॉइस के सवाल',
   bn: 'Proforma invoice প্রশ্ন',
   ur: 'پروفارما انوائس کے سوالات',
 };
-const dateLocales: Record<Locale, string> = {
+const dateLocales: Partial<Record<Locale, string>> = {
   en: 'en-GB',
   ar: 'ar-OM',
   hi: 'hi-IN',
   bn: 'bn-BD',
   ur: 'ur-PK',
 };
+/* The five launch locales carry reviewed labels. A later locale reads the
+   English label until its dictionary carries these keys, and formats dates with
+   its own BCP 47 code. */
+const pick = (labels: Partial<Record<Locale, string>>) => labels[locale] ?? labels.en!;
+const dateLocale = dateLocales[locale] ?? LOCALE_META[locale].htmlLang;
 const formattedModifiedDate = modifiedDate
-  ? new Intl.DateTimeFormat(dateLocales[locale], {
+  ? new Intl.DateTimeFormat(dateLocale, {
       day: 'numeric',
       month: 'long',
       year: 'numeric',
@@ -112,7 +110,7 @@ const blogPosting: Record<string, unknown> = {
   datePublished: publishedDate.toISOString(),
   url: articleUrl,
   mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
-  inLanguage: locale,
+  inLanguage: HREFLANG[locale],
   isAccessibleForFree: true,
   author: { '@id': 'https://paperandpen.om/#organization' },
   publisher: { '@id': 'https://paperandpen.om/#organization' },
@@ -147,7 +145,7 @@ const webPage: Record<string, unknown> = {
   url: articleUrl,
   name: entry.data.title,
   description: entry.data.description,
-  inLanguage: locale,
+  inLanguage: HREFLANG[locale],
   isPartOf: { '@id': 'https://paperandpen.om/#website' },
   publisher: { '@id': 'https://paperandpen.om/#organization' },
   breadcrumb: { '@id': `${articleUrl}#breadcrumb` },
@@ -170,7 +168,7 @@ if (entry.data.howTo) {
     ...howToSchema(entry.data.howTo),
     '@id': howToId,
     url: howToId,
-    inLanguage: locale,
+    inLanguage: HREFLANG[locale],
     isPartOf: { '@id': articleUrl },
   });
   parts.push({ '@id': howToId });
@@ -180,7 +178,7 @@ if (faqs.length) {
     ...faqPage(faqs),
     '@id': faqId,
     url: faqId,
-    inLanguage: locale,
+    inLanguage: HREFLANG[locale],
     isPartOf: { '@id': articleUrl },
   });
   parts.push({ '@id': faqId });
@@ -202,7 +200,7 @@ const jsonld = [
         <p class="text-ink-400 text-sm mb-8">
           {entry.data.author}
           <span aria-hidden="true"> · </span>
-          <span>{updatedLabels[locale]} <time datetime={modifiedDate.toISOString()}>{formattedModifiedDate}</time></span>
+          <span>{pick(updatedLabels)} <time datetime={modifiedDate.toISOString()}>{formattedModifiedDate}</time></span>
         </p>
       ) : (
         <p class="text-ink-400 text-sm mb-8">{entry.data.author}</p>
@@ -210,7 +208,7 @@ const jsonld = [
       {entry.data.shortAnswer && (
         <section class="mb-8" aria-labelledby={`quick-answer-${entry.data.slug}`}>
           <h2 id={`quick-answer-${entry.data.slug}`} class="font-display text-xl font-bold text-ink-500 mb-2">
-            {answerLabels[locale]}
+            {pick(answerLabels)}
           </h2>
           <p data-search-answer class="text-ink-500 leading-relaxed">{entry.data.shortAnswer}</p>
         </section>
@@ -222,7 +220,7 @@ const jsonld = [
           aria-labelledby={`key-facts-${entry.data.slug}`}
         >
           <h2 id={`key-facts-${entry.data.slug}`} class="font-display text-xl font-bold text-ink-500">
-            {takeawayLabels[locale]}
+            {pick(takeawayLabels)}
           </h2>
           <ul class="mt-4 list-disc space-y-2 ps-6 text-ink-500/80">
             {entry.data.keyTakeaways.map((item: string) => <li>{item}</li>)}
@@ -284,7 +282,7 @@ const jsonld = [
       {sources.length > 0 && (
         <section data-answer-sources class="mt-12 border-t border-ink-200 pt-8" aria-labelledby={`sources-${entry.data.slug}`}>
           <h2 id={`sources-${entry.data.slug}`} class="font-display text-2xl font-bold text-ink-500">
-            {sourceLabels[locale]}
+            {pick(sourceLabels)}
           </h2>
           <ol class="mt-4 list-decimal space-y-3 ps-6 text-sm text-ink-500/80">
             {sources.map((source: any) => (
@@ -301,7 +299,7 @@ const jsonld = [
     </div>
   </article>
   {faqs.length > 0 && (
-    <FaqAccordion title={faqLabels[locale]} faqs={faqs} band="paper" />
+    <FaqAccordion title={pick(faqLabels)} faqs={faqs} band="paper" />
   )}
   <CtaBand {locale} />
 </BaseLayout>

@@ -106,6 +106,50 @@
     font-style: normal;
   }
 
+  /* Scripts the brand faces do not carry (locales added in the 52-language
+     expansion; the five launch locales are untouched by every rule below).
+     fonts.bhd.om serves no Thai, CJK, Greek, Vietnamese or Indic face, so these
+     use named system faces, never fonts.googleapis.com.
+
+     Hebrew: Rubik, served by fonts.bhd.om (OFL) and loaded on /he/ only by
+     BaseLayout. It replaces the Arabic stack the rtl rule above applies. */
+  html[lang='he'] body,
+  html[lang='he'] :is(h1, h2, h3, h4, .font-display) {
+    font-family: 'Rubik', 'Segoe UI', Arial, sans-serif;
+  }
+
+  /* Cyrillic, Greek, Vietnamese body text. DM Sans has none of these glyphs,
+     and a per-glyph fallback would set the base letter and the accented letter
+     of one Vietnamese word in two faces. The system UI face carries all three.
+     Headings keep Source Serif 4, which covers Cyrillic, Greek and Vietnamese. */
+  html:is([lang='ru'], [lang='uk'], [lang='bg'], [lang='sr'], [lang='el'], [lang='vi']) body {
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  /* Chinese, Japanese, Korean, Thai. Latin runs keep DM Sans; the script runs
+     get the platform face for THAT script, named per language so Han
+     characters take their Simplified, Traditional, Japanese or Korean forms.
+     Headings use the same sans: a fallback serif CJK face beside a sans body
+     reads as two documents. */
+  html[lang='zh-Hans'] :is(body, h1, h2, h3, h4, .font-display) {
+    font-family: 'DM Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Noto Sans SC', sans-serif;
+  }
+  html[lang='zh-Hant'] :is(body, h1, h2, h3, h4, .font-display) {
+    font-family: 'DM Sans', 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans CJK TC', 'Noto Sans TC', sans-serif;
+  }
+  html[lang='ja'] :is(body, h1, h2, h3, h4, .font-display) {
+    font-family: 'DM Sans', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
+  }
+  html[lang='ko'] :is(body, h1, h2, h3, h4, .font-display) {
+    font-family: 'DM Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans CJK KR', 'Noto Sans KR', sans-serif;
+  }
+  html[lang='th'] :is(body, h1, h2, h3, h4, .font-display) {
+    font-family: 'DM Sans', 'Thonburi', 'Leelawadee UI', 'Noto Sans Thai', sans-serif;
+  }
+  html:is([lang='zh-Hans'], [lang='zh-Hant'], [lang='ja'], [lang='ko']) :is(h1, h2) {
+    letter-spacing: 0;
+  }
+
   h1,
   h2,
   h3,

@@ -5,7 +5,7 @@ import PageHero from '@/components/blocks/PageHero.astro';
 import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
 import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
-import { localizePath, type Locale } from '@/i18n';
+import { localizePath, type Locale, HREFLANG } from '@/i18n';
 import { englishArabicStaticPaths } from '@/lib/paths';
 import { graph, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
 
@@ -204,7 +204,7 @@ const appNode = softwareApplication({
   '@id': `${pageUrl}#software`,
   description: c.description,
   url: pageUrl,
-  inLanguage: locale,
+  inLanguage: HREFLANG[locale],
   featureList: c.schemaFeatures,
   publisher: { '@id': 'https://paperandpen.om/#organization' },
   provider: { '@id': 'https://paperandpen.om/#organization' },

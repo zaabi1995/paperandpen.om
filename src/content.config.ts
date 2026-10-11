@@ -1,5 +1,11 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { LOCALE_CODES } from './i18n/hreflang.mjs';
+
+/* Any code in the locale table is a valid `locale`. Whether a page is BUILT
+   for it is decided by src/lib/paths.ts (the locale must be live, and for a
+   non-core locale the translated entry must exist). */
+const localeEnum = z.enum(LOCALE_CODES as [string, ...string[]]);
 
 // Reusable sub-schemas
 const faq = z.object({ q: z.string(), a: z.string() });
@@ -30,7 +36,7 @@ const section = z.object({
 
 // Shared marketing-page schema (features / documents / industries / use-cases)
 const pageSchema = z.object({
-  locale: z.enum(['en', 'ar', 'hi', 'bn', 'ur']),
+  locale: localeEnum,
   slug: z.string(),
   title: z.string(),
   metaTitle: z.string(),
@@ -136,7 +142,7 @@ const tools = defineCollection({
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/blog', generateId: keepPathId }),
   schema: z.object({
-    locale: z.enum(['en', 'ar', 'hi', 'bn', 'ur']),
+    locale: localeEnum,
     slug: z.string(),
     title: z.string(),
     description: z.string(),

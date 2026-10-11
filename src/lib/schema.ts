@@ -1,4 +1,9 @@
-import { localizePath, stripLocale, type Locale } from '@/i18n';
+import { localizePath, stripLocale, HREFLANG, type Locale } from '@/i18n';
+
+/* schema.org inLanguage takes a BCP 47 tag. A locale code that is a URL
+   segment (zh-hant, no) is mapped to its tag (zh-Hant, nb) through the one
+   locale table; a value that is already a tag passes through unchanged. */
+const langTag = (code: string) => (HREFLANG as Record<string, string>)[code] ?? code;
 
 // JSON-LD structured-data builders for rich results.
 const SITE = 'https://paperandpen.om';
@@ -76,7 +81,7 @@ export function webApplication(opts: { name: string; description: string; url: s
     name: opts.name,
     description: opts.description,
     url,
-    inLanguage: opts.locale,
+    inLanguage: langTag(opts.locale),
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web',
     browserRequirements: 'Requires JavaScript.',
@@ -146,7 +151,7 @@ export function webSite(opts: { name: string; languages: readonly string[]; sear
     '@id': `${SITE}/#website`,
     name: opts.name,
     url: `${SITE}/`,
-    inLanguage: opts.languages,
+    inLanguage: opts.languages.map(langTag),
     publisher: { '@id': `${SITE}/#organization` },
   };
   if (opts.searchUrl) {
@@ -167,7 +172,7 @@ export function webPage(opts: { name: string; description: string; url: string; 
     url,
     name: opts.name,
     description: opts.description,
-    inLanguage: opts.locale,
+    inLanguage: langTag(opts.locale),
     isPartOf: { '@id': `${SITE}/#website` },
     publisher: { '@id': `${SITE}/#organization` },
   };
@@ -223,7 +228,7 @@ export function techArticle(opts: { headline: string; description: string; url: 
     headline: opts.headline,
     description: opts.description,
     url: `${SITE}${opts.url}`,
-    inLanguage: opts.locale,
+    inLanguage: langTag(opts.locale),
     isAccessibleForFree: true,
     publisher: { '@id': `${SITE}/#organization` },
     author: { '@id': `${SITE}/#organization` },

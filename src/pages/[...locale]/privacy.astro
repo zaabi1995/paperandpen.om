@@ -9,7 +9,7 @@ import { graph, organization, breadcrumbList } from '@/lib/schema';
 export const getStaticPaths = localeStaticPaths;
 const { locale } = Astro.props as { locale: Locale };
 const t = useTranslations(locale);
-const metaByLocale: Record<Locale, { title: string; description: string }> = {
+const metaByLocale: Partial<Record<Locale, { title: string; description: string }>> = {
   en: {
     title: 'Privacy Policy · Paper & Pen',
     description: 'How Paper & Pen collects, uses and protects your data.',
@@ -31,7 +31,13 @@ const metaByLocale: Record<Locale, { title: string; description: string }> = {
     description: 'Paper & Pen آپ کا ڈیٹا کیسے جمع، استعمال اور محفوظ کرتا ہے۔',
   },
 };
-const meta = metaByLocale[locale];
+/* The five launch locales carry a reviewed title. A later locale titles the
+   page from its own dictionary and keeps the English description: the page
+   is noindex outside English and its body is English by decision. */
+const meta = metaByLocale[locale] ?? {
+  title: `${t('footer.privacy')} · Paper & Pen`,
+  description: metaByLocale.en!.description,
+};
 const jsonld = [graph(organization(), breadcrumbList([{ name: t('nav.home'), url: '/' }, { name: t('footer.privacy'), url: '/privacy' }], locale))];
 ---
 <BaseLayout

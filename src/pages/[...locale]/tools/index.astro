@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
 import CtaBand from '@/components/blocks/CtaBand.astro';
 import { getCollection } from 'astro:content';
 import { useTranslations, localizePath, type Locale } from '@/i18n';
-import { localeStaticPaths } from '@/lib/paths';
+import { localeStaticPaths, hubEntries } from '@/lib/paths';
 import { graph, organization, breadcrumbList, itemList } from '@/lib/schema';
 import Icon from '@/components/blocks/Icon.astro';
 
@@ -14,9 +14,7 @@ const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 
 const all = await getCollection('tools');
-const tools = all.filter((e) => e.data.locale === locale);
-const fallback = all.filter((e) => e.data.locale === 'en');
-const list = (tools.length ? tools : fallback).sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+const list = hubEntries(all, locale).sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
 
 const ICONS: Record<string, string> = {
   invoice: 'invoice', quotation: 'quote', estimate: 'calc', proforma: 'doc', receipt: 'receipt',

@@ -9,8 +9,8 @@ import ModulePicker from '@/components/islands/ModulePicker.tsx';
 import LangMock from '@/components/blocks/AppMockup.astro';
 import Icon from '@/components/blocks/Icon.astro';
 import { getCollection } from 'astro:content';
-import { useTranslations, tRaw, localizePath, isRTL, type Locale } from '@/i18n';
-import { localeStaticPaths } from '@/lib/paths';
+import { useTranslations, tRaw, localizePath, isRTL, type Locale, HREFLANG } from '@/i18n';
+import { localeStaticPaths, hubEntries } from '@/lib/paths';
 import { faqPage, graph, softwareApplication, webPage } from '@/lib/schema';
 
 export const getStaticPaths = localeStaticPaths;
@@ -37,8 +37,7 @@ const compareRows = featKeys.map((k) => ({ feature: t(`compare.rows.${k}`), valu
 
 const h = (k: string) => t(`home2.${k}`);
 const INDUSTRIES = await getCollection('industries');
-const indLocal = INDUSTRIES.filter((e) => e.data.locale === locale);
-const industries = (indLocal.length ? indLocal : INDUSTRIES.filter((e) => e.data.locale === 'en'))
+const industries = hubEntries(INDUSTRIES, locale)
   .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99))
   .slice(0, 9);
 const integrations = (tRaw(locale, 'home2.sec.int') as string[]) ?? [];
@@ -224,7 +223,7 @@ const faqId = `${canonicalUrl}#faq`;
 const homeFaqNode = {
   ...faqPage(homeFaqs.map((f) => ({ q: f.q, a: f.a }))),
   '@id': faqId,
-  inLanguage: locale,
+  inLanguage: HREFLANG[locale],
   isPartOf: { '@id': canonicalUrl },
 };
 const homePageNode = {

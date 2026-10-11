@@ -11,14 +11,23 @@ import sys
 from collections import defaultdict
 from urllib.parse import urlsplit
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import locales as L  # noqa: E402  (the locale table, read from src/i18n/hreflang.mjs)
+
 
 DIST = pathlib.Path("dist")
 SITE = "https://paperandpen.om"
 ORG_ID = f"{SITE}/#organization"
-LOCALES = ("ar", "hi", "bn", "ur")
-EXPECTED_PAGES = 989
-EXPECTED_SITEMAP_URLS = 971
-EXPECTED_NOINDEX = 18
+
+# Live locales are read from the BUILD, not hardcoded: en plus every code in the
+# locale table whose root page was built. A locale is live when its dictionary
+# src/i18n/ui/<code>.json exists, so this equals the dictionary set at build time
+# even while translations are still landing on disk.
+LIVE = ["en"] + [code for code in L.ALL if code != "en" and (DIST / code / "index.html").is_file()]
+LOCALES = tuple(LIVE[1:])
+CORE_LIVE = tuple(code for code in LIVE if code in L.CORE)
+CORE_NON_DEFAULT = tuple(code for code in CORE_LIVE if code != "en")
+HREFLANG = L.HREFLANG
 SITEMAP_LASTMOD_DATE = "2026-08-23"
 SEARCH_UPDATED_DATE = "2026-08-21"
 PRIORITY_ARTICLES = ("what-is-a-proforma-invoice", "vat-invoicing-gcc-guide")
@@ -52,6 +61,11 @@ def page_path(path: pathlib.Path) -> str:
 def locale_for(path: str) -> str:
     first = path.strip("/").split("/", 1)[0]
     return first if first in LOCALES else "en"
+
+
+def lang_for(path: str) -> str:
+    """The BCP 47 tag a page in this locale declares (inLanguage, hreflang)."""
+    return HREFLANG[locale_for(path)]
 
 
 def json_type(node: dict, expected: str) -> bool:
@@ -169,11 +183,29 @@ def localized_path(path: str, locale: str) -> str:
     return path if locale == "en" else f"/{locale}{path}"
 
 
+# Every page the build produced, known before any page is checked.
+BUILT_PATHS = (
+    {page_path(page) for page in DIST.rglob("index.html")} if DIST.is_dir() else set()
+)
+
+
+def link_target(path: str, locale: str) -> str:
+    """Where a page in `locale` links for `path`: the localized page when it
+    was built, otherwise the English page. A content page that is not yet
+    translated into a non-core locale is linked in English, never as a URL
+    that does not exist (src/i18n/index.ts localizePath)."""
+    localized = localized_path(path, locale)
+    return localized if localized in BUILT_PATHS else path
+
+
 def check_priority_alternates(path: str, document: str, base_path: str) -> None:
+    """Exact and reciprocal: every core locale, plus each other live locale in
+    which this page was built (and is indexable), plus x-default."""
     alternates = hreflang_map(document)
     expected = {
-        locale: f"{SITE}{localized_path(base_path, locale)}"
-        for locale in ("en", *LOCALES)
+        HREFLANG[locale]: f"{SITE}{localized_path(base_path, locale)}"
+        for locale in LIVE
+        if locale in CORE_LIVE or localized_path(base_path, locale) in indexable_paths
     }
     expected["x-default"] = f"{SITE}{base_path}"
     if alternates != expected:
@@ -251,11 +283,20 @@ def check_priority_article(path: str, document: str, documents: list[dict]) -> N
     if article.get("description") != description:
         fail(f"{path}: BlogPosting description does not match the visible answer")
     expected_updated = "2026-08-22" if path in PROFORMA_ANSWER_PATHS else SEARCH_UPDATED_DATE
+    if locale_for(path) not in CORE_LIVE:
+        # A later locale's translation carries its English source's date.
+        english_path = path[len(locale_for(path)) + 1:]
+        english_articles = [
+            node for node in walk_json(jsonld_by_path.get(english_path, []))
+            if json_type(node, "BlogPosting")
+        ]
+        if english_articles:
+            expected_updated = str(english_articles[0].get("dateModified", ""))[:10]
     if not str(article.get("dateModified", "")).startswith(expected_updated):
         fail(f"{path}: BlogPosting dateModified is not {expected_updated}")
     if article.get("url") != f"{SITE}{path}":
         fail(f"{path}: BlogPosting URL does not match its canonical")
-    if article.get("inLanguage") != locale_for(path):
+    if article.get("inLanguage") != lang_for(path):
         fail(f"{path}: BlogPosting inLanguage does not match the page locale")
     entity_reference = {"@id": ORG_ID}
     if article.get("author") != entity_reference or article.get("publisher") != entity_reference:
@@ -268,7 +309,7 @@ def check_priority_article(path: str, document: str, documents: list[dict]) -> N
         if article.get("@id") != article_id:
             fail(f"{path}: BlogPosting does not use its canonical article ID")
         expected_about = {
-            "@id": f"{SITE}{localized_path('/glossary/proforma-invoice/', locale_for(path))}#term"
+            "@id": f"{SITE}{link_target('/glossary/proforma-invoice/', locale_for(path))}#term"
         }
         if article.get("about") != expected_about:
             fail(f"{path}: BlogPosting does not reference the localized proforma term")
@@ -323,10 +364,10 @@ def check_priority_article(path: str, document: str, documents: list[dict]) -> N
             fail(f"{path}: visible comparison table is missing")
         locale = locale_for(path)
         required_links = {
-            localized_path("/vat/oman/", locale),
-            localized_path("/tools/free-proforma-invoice-generator/", locale),
-            localized_path("/invoicing/proforma-invoices/", locale),
-            localized_path("/blog/quotation-vs-estimate-vs-proforma-invoice/", locale),
+            link_target("/vat/oman/", locale),
+            link_target("/tools/free-proforma-invoice-generator/", locale),
+            link_target("/invoicing/proforma-invoices/", locale),
+            link_target("/blog/quotation-vs-estimate-vs-proforma-invoice/", locale),
         }
         missing_links = sorted(required_links - internal_links(document))
         if missing_links:
@@ -334,7 +375,7 @@ def check_priority_article(path: str, document: str, documents: list[dict]) -> N
     if "/vat-invoicing-gcc-guide/" in path:
         locale = locale_for(path)
         required_sources = {
-            localized_path(f"/vat/{country}/", locale)
+            link_target(f"/vat/{country}/", locale)
             for country in ("oman", "uae", "saudi-arabia", "bahrain")
         }
         missing_sources = sorted(required_sources - internal_links(document))
@@ -410,6 +451,8 @@ def check_applications(path: str, documents: list[dict]) -> None:
                 fail(f"{path}: global SoftwareApplication URL is not the canonical homepage")
             if node.get("publisher") != entity_reference or node.get("provider") != entity_reference:
                 fail(f"{path}: global SoftwareApplication ownership is incomplete")
+            # The APP's interface languages, a product claim that changes with
+            # the app, not with how many languages this marketing site serves.
             if node.get("inLanguage") != ["en", "ar", "hi", "bn", "ur"]:
                 fail(f"{path}: global SoftwareApplication language set is not exact")
             if node.get("isAccessibleForFree") is not True:
@@ -429,7 +472,7 @@ def check_site_graph(path: str, document: str, nodes: list[dict]) -> None:
         website = websites[0]
         if website.get("url") != f"{SITE}/":
             fail(f"{path}: WebSite URL is not the canonical homepage")
-        if website.get("inLanguage") != ["en", "ar", "hi", "bn", "ur"]:
+        if website.get("inLanguage") != [HREFLANG[code] for code in LIVE]:
             fail(f"{path}: WebSite language set is not stable across locales")
         if website.get("publisher") != {"@id": ORG_ID}:
             fail(f"{path}: WebSite publisher does not reference the canonical organization")
@@ -446,7 +489,7 @@ def check_site_graph(path: str, document: str, nodes: list[dict]) -> None:
             fail(f"{path}: WebPage URL does not match its canonical")
         if page.get("description") != description_from(document):
             fail(f"{path}: WebPage description does not match page metadata")
-        if page.get("inLanguage") != locale_for(path):
+        if page.get("inLanguage") != lang_for(path):
             fail(f"{path}: WebPage language does not match its locale")
         if page.get("isPartOf") != {"@id": website_id}:
             fail(f"{path}: WebPage does not reference the canonical WebSite")
@@ -473,7 +516,7 @@ def check_article_graph(path: str, document: str, documents: list[dict]) -> None
         fail(f"{path}: BlogPosting URL does not match its canonical")
     if article.get("mainEntityOfPage") != {"@type": "WebPage", "@id": canonical}:
         fail(f"{path}: BlogPosting mainEntityOfPage is not canonical")
-    if article.get("inLanguage") != locale_for(path):
+    if article.get("inLanguage") != lang_for(path):
         fail(f"{path}: BlogPosting language does not match its locale")
     if article.get("author") != entity_reference or article.get("publisher") != entity_reference:
         fail(f"{path}: BlogPosting author and publisher are not canonical")
@@ -484,7 +527,7 @@ def check_article_graph(path: str, document: str, documents: list[dict]) -> None
     if article.get("image") != f"{SITE}/og-image.png":
         fail(f"{path}: BlogPosting image does not match the canonical social image")
     proforma_term = {
-        "@id": f"{SITE}{localized_path('/glossary/proforma-invoice/', locale_for(path))}#term"
+        "@id": f"{SITE}{link_target('/glossary/proforma-invoice/', locale_for(path))}#term"
     }
     if path.endswith("/what-is-a-proforma-invoice/"):
         if article.get("about") != proforma_term:
@@ -506,7 +549,7 @@ def check_tool_application(path: str, documents: list[dict]) -> None:
         fail(f"{path}: WebApplication ID is not canonical")
     if application.get("url") != canonical:
         fail(f"{path}: WebApplication URL does not match its canonical")
-    if application.get("inLanguage") != locale_for(path):
+    if application.get("inLanguage") != lang_for(path):
         fail(f"{path}: WebApplication language does not match its locale")
     if application.get("mainEntityOfPage") != {"@id": canonical}:
         fail(f"{path}: WebApplication mainEntityOfPage is not canonical")
@@ -803,6 +846,69 @@ def check_nginx_deployment_wrapper() -> None:
             fail("the nginx rollback test is not wired into the verification gate")
 
 
+def expected_counts() -> tuple[int, int, dict[str, set[str]]]:
+    """Derive the page and noindex totals from the SOURCE tree and the live
+    locale set, instead of hardcoding them, using the site's build rules:
+
+    - every top-level and hub route is built once per live locale, except the
+      routes on englishArabicStaticPaths (en and ar only);
+    - a content slug is built in every live core locale when any core entry
+      exists (English fallback), and in a live non-core locale only when that
+      locale's own source file exists;
+    - a glossary term is published only when every live core locale has it,
+      then built in every live core locale and in each non-core locale that
+      has its file;
+    - noindex: login and signup in every locale, terms and privacy in every
+      locale but English.
+
+    Returns (pages, noindex, {route path: set of locales built}).
+    """
+    routes = pathlib.Path("src/pages/[...locale]")
+    content_map = {
+        "features": "/features", "documents": "/invoicing", "industries": "/industries",
+        "usecases": "/use-cases", "comparisons": "/compare", "tools": "/tools",
+        "templates": "/invoice-templates", "alternatives": "/alternatives",
+        "vat": "/vat", "blog": "/blog",
+    }
+    built: dict[str, set[str]] = {}
+    for source in sorted(routes.rglob("*.astro")):
+        if source.name == "[slug].astro":
+            continue
+        text = source.read_text(encoding="utf-8")
+        relative = source.relative_to(routes).with_suffix("").as_posix()
+        route = "/" if relative == "index" else "/" + relative.removesuffix("/index")
+        locales_for_route = (
+            {code for code in LIVE if code in ("en", "ar")}
+            if "englishArabicStaticPaths" in text
+            else set(LIVE)
+        )
+        built[route] = locales_for_route
+    for collection, base in content_map.items():
+        root = pathlib.Path("src/content") / collection
+        by_slug: dict[str, set[str]] = defaultdict(set)
+        for entry in root.glob("*/*"):
+            if entry.suffix in (".json", ".md", ".mdx"):
+                by_slug[entry.stem].add(entry.parent.name)
+        for slug, have in by_slug.items():
+            core = set(CORE_LIVE) if have & set(L.CORE) else set()
+            built[f"{base}/{slug}"] = core | {code for code in LIVE if code not in L.CORE and code in have}
+    glossary_root = pathlib.Path("src/data/glossary")
+    by_term: dict[str, set[str]] = defaultdict(set)
+    for entry in glossary_root.glob("*/*.json"):
+        by_term[entry.stem].add(entry.parent.name)
+    for slug, have in by_term.items():
+        if "en" in have and set(CORE_LIVE) <= have:
+            built[f"/glossary/{slug}"] = set(CORE_LIVE) | {
+                code for code in LIVE if code not in L.CORE and code in have
+            }
+    total = sum(len(codes) for codes in built.values())
+    noindex = 2 * len(LIVE) + 2 * (len(LIVE) - 1)
+    return total, noindex, built
+
+
+EXPECTED_PAGES, EXPECTED_NOINDEX, EXPECTED_BUILT = expected_counts()
+EXPECTED_SITEMAP_URLS = EXPECTED_PAGES - EXPECTED_NOINDEX
+
 if not DIST.is_dir():
     fail("dist is missing, run npm run build first")
     pages: list[pathlib.Path] = []
@@ -811,6 +917,22 @@ else:
 
 if len(pages) != EXPECTED_PAGES:
     fail(f"expected {EXPECTED_PAGES} built pages, found {len(pages)}")
+
+# Every built page is one the rules above say exists, and the reverse. This is
+# what proves a non-core locale has no English fallback pages: a /de/ content
+# URL without a German source file is not in EXPECTED_BUILT.
+built_paths = {page_path(page) for page in pages}
+expected_paths = {
+    f"{localized_path(route if route == '/' else route + '/', code)}"
+    for route, codes in EXPECTED_BUILT.items()
+    for code in codes
+}
+unexpected = sorted(built_paths - expected_paths)
+not_built = sorted(expected_paths - built_paths)
+if unexpected:
+    fail(f"pages built that the locale rules do not allow (English fallback?): {unexpected[:8]} (total {len(unexpected)})")
+if not_built:
+    fail(f"pages the locale rules require but the build lacks: {not_built[:8]} (total {len(not_built)})")
 
 documents_by_path: dict[str, str] = {}
 jsonld_by_path: dict[str, list[dict]] = {}
@@ -850,20 +972,25 @@ for page in pages:
     if any(json_type(node, "Product") for node in walk_json(jsonld)):
         fail(f"{path}: merchant Product schema is not valid for the current SaaS and quote-based offers")
 
-for locale in ("en", *LOCALES):
+# Priority pages must exist in every live CORE locale. A non-core locale is
+# checked wherever its translation has been built.
+for locale in LIVE:
     prefix = "" if locale == "en" else f"/{locale}"
+    required = locale in CORE_LIVE
     for slug in PRIORITY_ARTICLES:
         path = f"{prefix}/blog/{slug}/"
         document = documents_by_path.get(path, "")
         if path not in indexable_paths:
-            fail(f"priority article is missing or not indexable: {path}")
+            if required:
+                fail(f"priority article is missing or not indexable: {path}")
             continue
         check_priority_article(path, document, jsonld_by_path[path])
         check_priority_alternates(path, document, f"/blog/{slug}/")
     calculator_path = f"{prefix}/tools/oman-vat-calculator/"
     calculator = documents_by_path.get(calculator_path, "")
     if calculator_path not in indexable_paths:
-        fail(f"priority calculator is missing or not indexable: {calculator_path}")
+        if required:
+            fail(f"priority calculator is missing or not indexable: {calculator_path}")
     else:
         check_priority_tool(calculator_path, calculator, jsonld_by_path[calculator_path])
         check_priority_alternates(calculator_path, calculator, "/tools/oman-vat-calculator/")
@@ -877,7 +1004,7 @@ for kind, (english_path, arabic_path) in INTENT_PAGE_PAIRS.items():
         check_intent_page(kind, path, document, jsonld_by_path[path])
         check_intent_alternates(path, document, english_path, arabic_path)
 
-for unavailable_locale in ("hi", "bn", "ur"):
+for unavailable_locale in (code for code in LOCALES if code != "ar"):
     for english_path, _ in INTENT_PAGE_PAIRS.values():
         unavailable_path = f"/{unavailable_locale}{english_path}"
         if unavailable_path in documents_by_path:
@@ -911,7 +1038,7 @@ for locale in ("en", "ar"):
         if target not in internal_links(documents_by_path.get(source, "")):
             fail(f"{source}: contextual link to the canonical proforma answer is missing")
 
-for legal_path in ("/ur/privacy/", "/ur/terms/"):
+for legal_path in (("/ur/privacy/", "/ur/terms/") if "ur" in LIVE else ()):
     description = description_from(documents_by_path.get(legal_path, ""))
     if not re.search(r"[\u0600-\u06ff]", description):
         fail(f"{legal_path}: Urdu meta description is missing Urdu text")
@@ -947,6 +1074,88 @@ else:
         if alias_locations != [f"{SITE}/sitemap-0.xml"]:
             fail("sitemap.xml must directly reference sitemap-0.xml")
 
+# Per-page hreflang, for EVERY indexable page: the <head> set, the set the
+# build's availability implies, and the sitemap's xhtml:link set must be the
+# same. Expected = every live locale in which this page was built and is
+# indexable, plus x-default to English; a page indexable in one locale only
+# carries no alternate set at all (neither in the head nor in the sitemap).
+sitemap_alternates: dict[str, dict[str, str]] = {}
+if sitemap_path.is_file():
+    for block in re.findall(r"<url>.*?</url>", sitemap_text, flags=re.DOTALL):
+        location = re.search(r"<loc>(.*?)</loc>", block, flags=re.DOTALL)
+        if not location:
+            continue
+        links = re.findall(
+            r'<xhtml:link\b[^>]*\bhreflang="([^"]+)"[^>]*\bhref="([^"]+)"', block
+        )
+        sitemap_alternates[html.unescape(location.group(1))] = {
+            lang: html.unescape(url) for lang, url in links
+        }
+
+
+def default_path(path: str) -> str:
+    locale = locale_for(path)
+    return path if locale == "en" else path[len(locale) + 1:]
+
+
+hreflang_head_mismatch: list[str] = []
+hreflang_sitemap_mismatch: list[str] = []
+for path in sorted(indexable_paths):
+    base = default_path(path)
+    present = [code for code in LIVE if localized_path(base, code) in indexable_paths]
+    expected: dict[str, str] = {}
+    if len(present) >= 2:
+        expected = {HREFLANG[code]: f"{SITE}{localized_path(base, code)}" for code in present}
+        expected["x-default"] = f"{SITE}{base}"
+    if hreflang_map(documents_by_path[path]) != expected:
+        hreflang_head_mismatch.append(path)
+    if sitemap_alternates.get(f"{SITE}{path}", {}) != expected:
+        hreflang_sitemap_mismatch.append(path)
+if hreflang_head_mismatch:
+    fail(
+        "page hreflang set does not match the locales the page is built in: "
+        f"{hreflang_head_mismatch[:8]} (total {len(hreflang_head_mismatch)})"
+    )
+if hreflang_sitemap_mismatch:
+    fail(
+        "sitemap alternates do not match the locales the page is built in: "
+        f"{hreflang_sitemap_mismatch[:8]} (total {len(hreflang_sitemap_mismatch)})"
+    )
+
+# html lang and dir on every page follow the locale table.
+for path, document in documents_by_path.items():
+    tag = re.search(r"<html\b([^>]*)>", document)
+    attrs = tag.group(1) if tag else ""
+    lang = re.search(r'\blang="([^"]+)"', attrs)
+    direction = re.search(r'\bdir="([^"]+)"', attrs)
+    locale = locale_for(path)
+    if not lang or lang.group(1) != HREFLANG[locale]:
+        fail(f"{path}: html lang is not {HREFLANG[locale]}")
+    want_dir = "rtl" if locale in L.RTL else "ltr"
+    if not direction or direction.group(1) != want_dir:
+        fail(f"{path}: html dir is not {want_dir}")
+
+# Every internal page link on every built page must land on a page that was
+# built. Content for later locales lands in waves, so a translated page's
+# related links, breadcrumbs, nav and footer can name a page that does not yet
+# exist in that locale; localizePath() then links the English page instead.
+# This proves it never emits a URL that was not built.
+ASSET_LINK = re.compile(r"\.(png|svg|ico|xml|txt|json|webmanifest|css|js|pdf|webp|jpe?g|woff2?)$")
+dead_links: dict[str, set[str]] = defaultdict(set)
+for path, document in documents_by_path.items():
+    for raw in re.findall(r'<a\b[^>]*\bhref="(/[^"#?]*)', document):
+        target = html.unescape(raw)
+        if target.startswith(("/_astro/", "//")) or ASSET_LINK.search(target):
+            continue
+        if target != "/" and not target.endswith("/"):
+            dead_links[target + " (no trailing slash)"].add(path)
+            continue
+        if target not in BUILT_PATHS and target != "/404/":
+            dead_links[target].add(path)
+if dead_links:
+    sample_links = [f"{t} <- {sorted(src)[0]} (+{len(src) - 1})" for t, src in sorted(dead_links.items())[:8]]
+    fail(f"internal links to pages that were not built: {sample_links} (total {len(dead_links)} targets)")
+
 indexable_canonicals = {
     canonical_by_path[path]
     for path in indexable_paths
@@ -959,32 +1168,40 @@ if missing_sitemap:
 if extra_sitemap:
     fail(f"sitemap URLs without indexable pages: {extra_sitemap[:8]}")
 
-for locale in ("en", *LOCALES):
+for locale in LIVE:
     prefix = "" if locale == "en" else f"/{locale}"
     compare_path = f"{prefix}/compare/"
     industries_path = f"{prefix}/industries/"
     for required in (compare_path, industries_path):
         if required not in indexable_paths:
             fail(f"required indexable hub is missing: {required}")
+    # Core locales list the whole set (7 comparisons, 15 industries). Any other
+    # locale lists only what has been translated into it.
+    def built_children(base: str, code: str) -> int:
+        return sum(1 for route, codes in EXPECTED_BUILT.items() if route.startswith(base + "/") and code in codes)
+    compare_items = 7 if locale in CORE_LIVE else built_children("/compare", locale)
+    industry_items = 15 if locale in CORE_LIVE else built_children("/industries", locale)
     if compare_path in jsonld_by_path:
-        check_hub(compare_path, jsonld_by_path[compare_path], 7)
+        check_hub(compare_path, jsonld_by_path[compare_path], compare_items)
     if industries_path in jsonld_by_path:
-        check_hub(industries_path, jsonld_by_path[industries_path], 15)
+        check_hub(industries_path, jsonld_by_path[industries_path], industry_items)
 
 inbound: dict[str, set[str]] = defaultdict(set)
 for source in sorted(indexable_paths):
     for target in internal_links(documents_by_path[source]):
         if target in indexable_paths and target != source:
             inbound[target].add(source)
-locale_roots = {"/", "/ar/", "/hi/", "/bn/", "/ur/"}
+locale_roots = {"/"} | {f"/{code}/" for code in LOCALES}
 orphans = sorted(path for path in indexable_paths - locale_roots if not inbound[path])
 if orphans:
     fail(f"visible indexable orphan pages: {orphans[:20]} (total {len(orphans)})")
 
-for locale in ("en", *LOCALES):
+for locale in LIVE:
     prefix = "" if locale == "en" else f"/{locale}"
     free_path = f"{prefix}/free-invoicing-software/"
     feature_path = f"{prefix}/features/invoicing/"
+    if locale not in CORE_LIVE and feature_path not in documents_by_path:
+        continue  # the feature page is not translated into this locale yet
     free_title = title_from(documents_by_path.get(free_path, ""))
     feature_title = title_from(documents_by_path.get(feature_path, ""))
     if not free_title or not feature_title:
@@ -1032,7 +1249,8 @@ check_retired_crm_policy()
 check_deployment_wrapper()
 check_nginx_deployment_wrapper()
 
-print(f"pages: {len(pages)}")
+print(f"live locales: {len(LIVE)} ({', '.join(LIVE)})")
+print(f"pages: {len(pages)} (expected {EXPECTED_PAGES})")
 print(f"indexable: {len(indexable_paths)}")
 print(f"noindex: {noindex_count}")
 print(f"sitemap urls: {len(sitemap_urls)}")
