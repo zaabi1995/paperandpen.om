@@ -287,7 +287,7 @@ export default {
          */
         display: ['"Source Serif 4"', 'Georgia', 'Cambria', 'serif'],
         sans: ['"DM Sans"', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif'],
-        arabic: ['"IBM Plex Arabic"', '"Noto Sans Arabic"', '"Segoe UI"', 'Tahoma', 'sans-serif'],
+        arabic: ['"IBM Plex Sans Arabic"', '"Noto Sans Arabic"', '"Segoe UI"', 'Tahoma', 'sans-serif'],
       },
 
       fontSize: {
