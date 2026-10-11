@@ -71,6 +71,9 @@ for locale in LIVE:
     # useTranslations falls back to English per key, so the expected text does too.
     hero = {**english_hero, **dictionary.get('hero', {})}
     expected = f"{hero['tagline_line1']} {hero['tagline_line2']}"
+    # Same whitespace rule on both sides: a no-break space that glues the accent words (id, ms, sw, vi)
+    # is a word boundary for a reader, like the space the extraction below normalises to.
+    expected = ' '.join(expected.split())
     match = re.search(r'<h1\b[^>]*>(.*?)</h1>', DOC[page], re.S | re.I)
     extracted = '' if not match else htmlmod.unescape(re.sub(r'<[^>]+>', '', match.group(1)))
     extracted = ' '.join(extracted.split())
