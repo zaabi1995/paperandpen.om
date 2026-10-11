@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "reports",
+  "order": 8,
+  "title": "Raporty",
+  "metaTitle": "Raporty i analizy biznesowe · Paper & Pen",
+  "metaDescription": "Pulpity i raporty na żywo o sprzedaży, gotówce, zysku, podatkach i stanach. Przejście do źródła, eksport do Excel lub PDF, w dowolnej walucie. Działa na całym świecie.",
+  "keywords": "raporty biznesowe, pulpit analityczny, raport sprzedaży, rachunek zysków i strat, raport vat, raporty finansowe, eksport do excela",
+  "heroEyebrow": "Moduł dodatkowy",
+  "heroTitle": "Decyzje oparte na <em class=\"text-copper-400 not-italic\">liczbach na żywo</em>",
+  "heroSubtitle": "Każda sprzedaż, płatność i ruch magazynowy składają się na czytelne pulpity i raporty na żywo. Zobacz, co się sprzedaje, kto Ci zalega i gdzie jest zysk, a potem eksportuj dane, dokąd chcesz.",
+  "heroBullets": ["Pulpity na żywo", "Przejście do dokumentu źródłowego", "Eksport do Excel lub PDF"],
+  "features": [
+    { "icon": "reports", "title": "Analiza sprzedaży", "desc": "Najlepsze produkty, najlepsi klienci i trendy w dowolnym okresie." },
+    { "icon": "chart", "title": "Raporty finansowe", "desc": "Rachunek zysków i strat, bilans, przepływy pieniężne i wiekowanie należności." },
+    { "icon": "calc", "title": "Raporty podatkowe", "desc": "Zestawienia podatku naliczonego i należnego gotowe do deklaracji VAT." },
+    { "icon": "inventory", "title": "Raporty magazynowe", "desc": "Wycena, ruchy i niskie stany we wszystkich magazynach." },
+    { "icon": "doc", "title": "Przejście do źródła", "desc": "Kliknij dowolną liczbę, by dotrzeć do dokumentu, z którego pochodzi." },
+    { "icon": "refresh", "title": "Zawsze aktualne", "desc": "Raporty zmieniają się na żywo wraz z transakcjami, bez nocnego przeliczania." }
+  ],
+  "sections": [
+    { "eyebrow": "Jasność na pierwszy rzut oka", "title": "Jeden pulpit dla całej firmy", "body": "Otwórz Paper & Pen i zobacz liczby, które mają znaczenie: gotówkę w banku, kto Ci zalega, co się sprzedaje i jaki jest zysk w tym miesiącu. Wszystko księguje się na żywo, więc pulpit pokazuje prawdę, a nie migawkę z zeszłego tygodnia.", "items": ["Gotówka, należności i zysk na wierzchu", "Filtr według okresu, klienta lub produktu", "Na żywo, nigdy nieaktualne"] },
+    { "eyebrow": "Udostępniaj i analizuj głębiej", "title": "Raporty, którym zaufa księgowy i zarząd", "body": "Przejdź z dowolnego raportu prosto do dokumentu źródłowego, a potem eksportuj do Excel lub PDF dla księgowego, banku lub zarządu. Raportuj w dowolnej walucie i przełączaj interfejs na arabski, angielski, hindi, bengalski lub urdu, by każdy czytał te same liczby we własnym języku.", "items": ["Przejście do każdej transakcji", "Eksport do Excel i PDF", "Wiele walut i wiele języków"] }
+  ],
+  "faqs": [
+    { "q": "Czy raporty są darmowe?", "a": "Raporty to opcjonalny, płatny moduł dodatkowy. Darmowy na zawsze rdzeń zawiera pulpity faktur, a pełny zestaw raportów jest dostępny, gdy potrzebujesz głębszych analiz." },
+    { "q": "Czy raporty są na żywo?", "a": "Tak. Każda transakcja księguje się na żywo, więc pulpity i raporty zawsze pokazują bieżący stan firmy." },
+    { "q": "Czy mogę eksportować raporty?", "a": "Tak. Eksportuj do Excel lub PDF, by udostępnić je księgowemu, bankowi lub zarządowi." },
+    { "q": "Czy mogę prześledzić liczbę do źródła?", "a": "Tak. Kliknij dowolną liczbę, by dotrzeć do konkretnej faktury, płatności lub zapisu księgowego." },
+    { "q": "Czy raporty obsługują wiele walut?", "a": "Tak. Raportuj w dowolnej walucie i korzystaj z interfejsu w pięciu językach." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Zobacz swoją firmę wyraźnie",
+  "ctaSub": "Zacznij za darmo od faktur i dodaj Raporty, by mieć pulpity na żywo i analizy gotowe do eksportu."
+}

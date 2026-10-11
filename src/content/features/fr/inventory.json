@@ -14,7 +14,7 @@
     { "icon": "inventory", "title": "Stock en temps réel", "desc": "Les quantités se mettent à jour dès que vous vendez, achetez ou transférez des marchandises." },
     { "icon": "truck", "title": "Multi-entrepôts", "desc": "Suivez et transférez le stock entre sites et agences en toute visibilité." },
     { "icon": "bell", "title": "Alertes de stock bas", "desc": "Fixez des seuils de réapprovisionnement et soyez prévenu avant la rupture d'un article qui part vite." },
-    { "icon": "receipt", "title": "Code-barres et SKU", "desc": "Scannez pour vendre ou réceptionner, avec un classement par SKU, lot et unité de mesure." },
+    { "icon": "receipt", "title": "Code-barres et SKU", "desc": "Scannez pour compter ou déplacer le stock, avec un classement par SKU, lot et unité de mesure." },
     { "icon": "calc", "title": "Valorisation en direct", "desc": "Le coût moyen ou le FIFO garde la valeur du stock exacte dans votre bilan." },
     { "icon": "refresh", "title": "Lié aux ventes", "desc": "Factures et bons de commande font bouger le stock automatiquement, sans mise à jour manuelle." }
   ],
@@ -25,7 +25,7 @@
   "faqs": [
     { "q": "La gestion des stocks est-elle incluse gratuitement ?", "a": "La gestion des stocks est un module complémentaire payant et optionnel. Le module de base Ventes et Facturation est gratuit pour toujours, et vous ajoutez les Stocks quand vous avez besoin d'un suivi en temps réel." },
     { "q": "Puis-je gérer plusieurs entrepôts ?", "a": "Oui. Suivez le stock par site, transférez entre eux et voyez les quantités en direct partout." },
-    { "q": "Les codes-barres sont-ils pris en charge ?", "a": "Oui. Utilisez codes-barres et SKU pour vendre et réceptionner plus vite, avec gestion des lots et des unités de mesure." },
+    { "q": "Les codes-barres sont-ils pris en charge ?", "a": "Oui. Scannez un code-barres fournisseur, un SKU ou une étiquette QR imprimée pour compter et déplacer le stock plus vite, avec gestion des lots et des unités de mesure." },
     { "q": "Comment le stock est-il valorisé ?", "a": "Choisissez le coût moyen ou le FIFO. La valorisation se met à jour à chaque mouvement et est comptabilisée automatiquement." },
     { "q": "Les ventes mettent-elles le stock à jour automatiquement ?", "a": "Oui. Les factures diminuent le stock et les achats l'augmentent en temps réel : vous ne mettez jamais les quantités à jour à la main." }
   ],

@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "payments",
+  "order": 10,
+  "title": "Betalningar",
+  "metaTitle": "Betalningar online för fakturor · Få betalt snabbare · Paper & Pen",
+  "metaDescription": "Lägg en betallänk på varje faktura och få betalt med kort. Paymob och globala betalningslösningar, valfri valuta, automatiskt avstämt i bokföringen.",
+  "keywords": "betalningar online, ta emot kortbetalningar, betala faktura online, paymob, betalningslösning, få betalt snabbare, betallänk",
+  "heroEyebrow": "Inbyggt",
+  "heroTitle": "Låt kunderna betala dig <em class=\"text-copper-400 not-italic\">med ett tryck</em>",
+  "heroSubtitle": "Lägg en säker betallänk på varje faktura så att kunderna kan betala med kort direkt. Betalningarna stäms av mot bokföringen automatiskt, i valfri valuta, var som helst.",
+  "heroBullets": ["Betallänk på varje faktura", "Automatiskt avstämt mot huvudboken", "Paymob och globala betalningslösningar"],
+  "features": [
+    { "icon": "card", "title": "Betala med kort", "desc": "Kunderna betalar valfri faktura online med kort, utan inloggning eller app." },
+    { "icon": "bolt", "title": "Betallänk direkt", "desc": "Varje faktura har en säker länk som kan delas via e-post eller WhatsApp." },
+    { "icon": "refresh", "title": "Automatisk avstämning", "desc": "Genomförda betalningar markerar fakturan som betald och bokförs." },
+    { "icon": "globe", "title": "Valfri valuta", "desc": "Ta betalt i OMR, AED, SAR, USD, EUR med flera via rätt betalningslösning." },
+    { "icon": "shield", "title": "Säkert och PCI", "desc": "Kortuppgifter hanteras av certifierade betalningslösningar och lagras aldrig hos dig." },
+    { "icon": "receipt", "title": "Kvitton skickas", "desc": "Kunden får ett automatiskt kvitto i samma stund som betalningen går igenom." }
+  ],
+  "sections": [
+    { "eyebrow": "Få betalt snabbare", "title": "Ta bort friktionen mellan faktura och pengar", "body": "Ju snabbare en kund kan betala, desto snabbare får du in pengarna. En betallänk på varje faktura betyder inga bankuppgifter att kopiera och ingen väntan på en överföring. Kunden trycker, betalar med kort och fakturan uppdateras av sig själv, med ett kvitto på väg.", "items": ["Kortbetalning med ett tryck", "Länk som kan delas på WhatsApp och e-post", "Automatiska kvitton"] },
+    { "eyebrow": "Lokalt och globalt", "title": "Rätt betalningslösning för din marknad", "body": "Paper & Pen kopplar Paymob för Gulfstaterna och andra globala betalningslösningar så att du kan ta emot de kort dina kunder faktiskt använder, i deras valuta. Varje utbetalning stäms av mot rätt faktura och bokförs, så att inbetalningar och bokföring går i takt.", "items": ["Paymob för Gulfstaterna, plus globala alternativ", "Inbetalningar i flera valutor", "Stäms av mot exakt rätt faktura"] }
+  ],
+  "faqs": [
+    { "q": "Är det gratis att slå på betalning online?", "a": "Ja, betallänkar är inbyggda. Betalningslösningen tar ut sin egen transaktionsavgift per betalning, som betalningslösningar alltid gör." },
+    { "q": "Vilka betalningslösningar stöds?", "a": "Paymob för Gulfstaterna plus andra globala betalningslösningar, så att du kan ta emot de kort dina kunder använder i deras valuta." },
+    { "q": "Uppdateras fakturan automatiskt vid betalning?", "a": "Ja. En genomförd betalning markerar fakturan som betald, skickar ett kvitto och bokför posten." },
+    { "q": "Kan kunderna betala i olika valutor?", "a": "Ja. Ta betalt i OMR, AED, SAR, USD, EUR med flera, via lämplig betalningslösning." },
+    { "q": "Är kortbetalning säker?", "a": "Ja. Kortuppgifter hanteras av PCI-certifierade betalningslösningar och lagras aldrig i Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Gör fakturor till pengar direkt",
+  "ctaSub": "Börja gratis och lägg en betallänk på varje faktura så att kunderna kan betala dig med ett tryck."
+}

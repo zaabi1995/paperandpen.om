@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "contracting",
+  "order": 4,
+  "title": "Entreprenad och bygg",
+  "metaTitle": "Fakturering och projektdebitering för entreprenörer · Paper & Pen",
+  "metaDescription": "Gratis offerter plus delfakturor, inköpsordrar, lön och projektkalkyl för entreprenörer och byggare. Fakturera etapper, styr kostnaden och få betalt.",
+  "keywords": "program för entreprenörer, byggfakturering, delfakturering, projektkalkyl, affärssystem bygg, inköpsordrar, lön byggföretag, fakturering med innehållen ersättning",
+  "heroEyebrow": "För entreprenörer och byggare",
+  "heroTitle": "Fakturera etappen, <em class=\"text-copper-400 not-italic\">styr projektkostnaden</em>",
+  "heroSubtitle": "Offerera ett projekt, fakturera det i etapper, följ material och arbete mot budget och få betalt utan att jaga. Paper & Pen samlar dina kostnadsförslag, kostnader och pengar på ett ställe.",
+  "heroBullets": ["Gratis kostnadsförslag och offerter", "Del- och etappfakturor", "Material, arbete och marginal per projekt"],
+  "features": [
+    { "icon": "quote", "title": "Detaljerade kostnadsförslag", "desc": "Bygg specificerade offerter med material och arbete och gör sedan om dem till ett projekt." },
+    { "icon": "invoice", "title": "Delfakturering", "desc": "Fakturera per etapp eller färdigställandegrad, med innehållen ersättning hanterad på ett rent sätt." },
+    { "icon": "truck", "title": "Inköpsordrar", "desc": "Beställ material mot ett projekt och bokför kostnaden där den hör hemma." },
+    { "icon": "hr", "title": "Arbete och lön", "desc": "Kör lönen och fördela löner på rätt projekt för en verklig projektkostnad." },
+    { "icon": "calc", "title": "Projektkalkyl", "desc": "Jämför verklig material- och arbetskostnad med ditt kostnadsförslag, löpande." },
+    { "icon": "bell", "title": "Betalningspåminnelser", "desc": "Automatiska, artiga påminnelser jagar förfallna delbetalningar så att du slipper." }
+  ],
+  "sections": [
+    { "eyebrow": "Från anbud till faktura", "title": "Kostnadsförslag som blir projektet", "body": "Vinn uppdraget med ett tydligt, specificerat kostnadsförslag och gör sedan om den godkända versionen direkt till ett projekt utan att skriva om en enda rad. Fakturera i etapper allteftersom arbetet blir klart, per delmål eller färdigställandegrad, och hantera innehållen ersättning så att slutavräkningen går ihop. Kunden får ett proffsigt underlag och du behåller ett rent spår från anbud till slutbetalning.", "items": ["Specificerade kostnadsförslag med material och arbete", "Fakturor per delmål eller färdigställandegrad", "Innehållen ersättning följs fram till slutavräkningen"] },
+    { "eyebrow": "Vet att projektet tjänar pengar", "title": "Kostnad och marginal, projekt för projekt", "body": "En fullt upptagen byggarbetsplats kan dölja ett förlustprojekt. Paper & Pen fördelar varje inköpsorder, leverantörsfaktura och lönekörning på projektet och visar sedan verklig kostnad mot ditt kostnadsförslag medan arbetet pågår. Du ser marginalen innan projektet är slut, inte efteråt. Byggt i Oman med inbyggt stöd för OMR, AED och SAR och 5 % moms, och redo för USD, EUR eller valfri marknad och skattesats.", "items": ["Material- och arbetskostnad per projekt", "Löpande marginal, utfall mot kostnadsförslag", "Valfri valuta, valfri skattesats, redo för moms"] }
+  ],
+  "faqs": [
+    { "q": "Kan jag fakturera ett projekt i etapper?", "a": "Ja. Fakturera per delmål eller efter färdigställandegrad, med innehållen ersättning hanterad, så att varje delfaktura blir ren och slutavräkningen stämmer." },
+    { "q": "Kan jag följa kostnaden mot mitt kostnadsförslag?", "a": "Ja. Inköpsordrar, leverantörsfakturor och löner fördelas på projektet, och Paper & Pen visar verklig kostnad mot ditt kostnadsförslag medan arbetet pågår." },
+    { "q": "Hanterar det innehållen ersättning?", "a": "Ja. Innehållen ersättning följs genom delfakturorna och förs vidare till slutavräkningen, så att inget missas vid överlämnandet." },
+    { "q": "Kan jag köra lön för personalen på bygget?", "a": "Ja. Modulen HR och lön kör lönerna och kan fördela arbetskostnaden på rätt projekt för en korrekt projektkalkyl." },
+    { "q": "Är offerter gratis för entreprenörer?", "a": "Försäljning och fakturering, inklusive kostnadsförslag och delfakturor, är gratis för alltid. Lägg till Lager, HR och lön och Redovisning för full kontroll över projektkostnaderna." }
+  ],
+  "related": ["/invoicing/estimates", "/invoicing/purchase-orders", "/features/hr-payroll", "/invoicing/payment-reminders", "/pricing"],
+  "ctaTitle": "Bygg det, fakturera det, få betalt",
+  "ctaSub": "Börja gratis med kostnadsförslag och delfakturor och lägg sedan till Lön och Redovisning för fullständig projektkalkyl."
+}

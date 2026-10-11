@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Fakturering",
+  "metaTitle": "Funktioner för fakturahantering | Paper & Pen ERP",
+  "metaDescription": "Utforska fakturauppföljning, betalningar online, påminnelser, konfigurerbar skatt, fem språk och flera valutor i Paper & Pen ERP.",
+  "keywords": "faktureringsprogram, gratis fakturering, fakturor online, skicka faktura, få betalt online, momsfaktura, återkommande fakturor, betalningspåminnelser",
+  "heroEyebrow": "Gratis för alltid",
+  "heroTitle": "Fakturering som ger dig <em class=\"text-copper-400 not-italic\">betalt snabbare</em>",
+  "heroSubtitle": "Skapa en snygg faktura på under en minut, skicka den via e-post eller WhatsApp och låt kunden betala online. Byggt för valfri valuta och valfri skattesats, används över hela världen.",
+  "heroBullets": ["Försäljning och fakturering gratis för alltid", "Valfri valuta, valfri skattesats", "Betallänk på varje faktura"],
+  "features": [
+    { "icon": "bolt", "title": "Faktura på sekunder", "desc": "Välj kund, lägg till artiklar och skicka. Summor och skatt räknas ut medan du skriver." },
+    { "icon": "globe", "title": "Valfri valuta", "desc": "Fakturera i OMR, AED, SAR, USD, EUR, GBP eller valfri valuta med rätt antal decimaler." },
+    { "icon": "card", "title": "Få betalt online", "desc": "Varje faktura har en säker betallänk så att kunden kan betala med kort med ett tryck." },
+    { "icon": "bell", "title": "Automatiska påminnelser", "desc": "Vänliga, schemalagda påminnelser jagar förfallna fakturor så att du slipper." },
+    { "icon": "refresh", "title": "Återkommande fakturor", "desc": "Låt avtal och abonnemang faktureras automatiskt, varje vecka eller månad." },
+    { "icon": "calc", "title": "Redo för moms och skatt", "desc": "Använd valfri moms- eller försäljningsskattesats, beräknad på nettot efter rabatter." }
+  ],
+  "sections": [
+    { "eyebrow": "Byggt för världen", "title": "Ett faktureringsverktyg för alla marknader", "body": "Oavsett om du fakturerar i dollar från New York eller i rial från Muscat sköter Paper & Pen valutan, decimalerna och skattereglerna åt dig. Växla gränssnittet mellan engelska, arabiska, hindi, bengali och urdu så att hela teamet arbetar på sitt eget språk.", "items": ["Flera valutor med korrekt formatering", "Konfigurerbar skatt för alla länder", "Arabiska först, fakturor helt från höger till vänster"] },
+    { "eyebrow": "Från offert till betalning", "title": "Fakturering i ett komplett ERP", "body": "Dina fakturor lever inte i en egen silo. Gör om en vunnen offert till en faktura med ett klick, registrera betalningen och se den bokföras automatiskt. När du växer finns lager, redovisning och lön redan i samma arbetsyta.", "items": ["Offert till faktura med ett klick", "Betalningar stäms av mot huvudboken", "Aldrig dubbelregistrering"] }
+  ],
+  "faqs": [
+    { "q": "Är faktureringen verkligen gratis?", "a": "Ja. Försäljning och fakturering är gratis för alltid, utan gräns för antal fakturor eller kunder. Du betalar bara om du lägger till valfria moduler som Lager eller Lön." },
+    { "q": "Kan kunderna betala fakturan online?", "a": "Ja. Varje faktura kan innehålla en säker betallänk via Paymob och andra betalningslösningar, så kunden betalar med kort och betalningen stäms av automatiskt." },
+    { "q": "Stöder det moms och andra skatter?", "a": "Ja. Ange valfri sats, inklusive konfigurerbar moms för Gulfstaterna, eller det som gäller i ditt land. Skatten beräknas på nettobeloppet efter eventuell rabatt." },
+    { "q": "Kan jag skicka fakturor på arabiska?", "a": "Ja. Hela gränssnittet och fakturans PDF kan vara på arabiska, helt från höger till vänster, vid sidan av engelska, hindi, bengali och urdu." },
+    { "q": "Kan jag automatisera återkommande fakturering?", "a": "Ja. Skapa en återkommande faktura för avtal eller abonnemang så utfärdar och skickar Paper & Pen den enligt schemat." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Skicka din första faktura gratis",
+  "ctaSub": "Skapa en gratis arbetsyta och fakturera din första kund på några minuter. Inget kort krävs, gratis för alltid."
+}

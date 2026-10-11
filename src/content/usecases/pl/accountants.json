@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "accountants",
+  "order": 4,
+  "title": "Księgowi i biura rachunkowe",
+  "metaTitle": "Program księgowy dla księgowych | Paper & Pen",
+  "metaDescription": "Księgi w podwójnym zapisie, deklaracje VAT, raporty finansowe i przestrzenie dla wielu klientów dla księgowych i biur rachunkowych. Dowolna waluta i stawka podatku.",
+  "keywords": "program dla księgowych, program dla biura rachunkowego, księgowość w podwójnym zapisie, program do deklaracji vat, raporty finansowe, obsługa wielu klientów, zestawienie obrotów i sald",
+  "heroEyebrow": "Dla księgowych i biur rachunkowych",
+  "heroTitle": "Czyste księgi, które <em class=\"text-copper-400 not-italic\">zawsze się zgadzają</em>",
+  "heroSubtitle": "Prawdziwa księgowość w podwójnym zapisie, automatyczne księgowanie każdej faktury i płatności, deklaracje VAT i raporty, którym ufają Twoi klienci. Paper & Pen prowadzi księgi, a Ty możesz doradzać.",
+  "heroBullets": ["Prawdziwe księgi w podwójnym zapisie", "Automatyczne księgowanie sprzedaży i zakupów", "Deklaracje VAT i raporty finansowe"],
+  "features": [
+    { "icon": "accounting", "title": "Księgi w podwójnym zapisie", "desc": "Każda transakcja tworzy zbilansowany zapis w prawidłowym planie kont." },
+    { "icon": "refresh", "title": "Automatyczne księgowanie", "desc": "Faktury, płatności i ruchy magazynowe trafiają do księgi automatycznie." },
+    { "icon": "calc", "title": "Deklaracje VAT", "desc": "Podatek jest śledzony na każdym dokumencie, gotowy do deklaracji VAT 5% lub w dowolnej stawce." },
+    { "icon": "reports", "title": "Raporty finansowe", "desc": "Rachunek zysków i strat, bilans, zestawienie obrotów i sald oraz księgi na żądanie." },
+    { "icon": "doc", "title": "Ślad audytowy", "desc": "Każdy zapis prowadzi do dokumentu źródłowego, co ułatwia kontrolę." },
+    { "icon": "globe", "title": "Dowolna waluta i podatek", "desc": "Obsługuj klientów w wielu walutach i w każdym systemie podatkowym na świecie." }
+  ],
+  "sections": [
+    { "eyebrow": "Koniec z przepisywaniem", "title": "Księga, która pisze się sama", "body": "Ręczne zapisy to miejsce, gdzie wkradają się błędy. W Paper & Pen każda faktura, płatność, zakup i ruch magazynowy tworzy zbilansowany zapis w podwójnym zapisie w prawidłowym planie kont, więc księgi są zawsze aktualne i uzgodnione. Czas poświęcasz na przegląd i doradztwo, a nie na wpisywanie, a każda liczba prowadzi prosto do dokumentu źródłowego.", "items": ["Zbilansowane zapisy z każdej transakcji", "Prawidłowy plan kont", "Pełny ślad audytowy do dokumentów źródłowych"] },
+    { "eyebrow": "Raportuj i składaj deklaracje pewnie", "title": "VAT, zestawienia i raporty na żądanie", "body": "Przygotuj rachunek zysków i strat, bilans, zestawienie obrotów i sald lub księgę główną, kiedy tylko klient poprosi, i złóż deklarację VAT z podatkiem śledzonym na każdym dokumencie. Paper & Pen od razu obsługuje konfigurowalny VAT w krajach Zatoki oraz dowolną stawkę i walutę dla klientów z innych miejsc, więc możesz obsługiwać klientów na wielu rynkach. Stworzony w Omanie, dobrze czuje się wszędzie, od Maskatu po Manchester.", "items": ["Rachunek zysków i strat, bilans, zestawienie obrotów i sald, księgi", "VAT śledzony na każdym dokumencie, gotowy do deklaracji", "Wiele walut, każdy system podatkowy"] }
+  ],
+  "faqs": [
+    { "q": "Czy to prawdziwa księgowość w podwójnym zapisie?", "a": "Tak. Każda transakcja tworzy zbilansowany zapis w prawidłowym planie kont, więc zestawienie obrotów i sald zawsze się bilansuje, a księgi są uzgodnione." },
+    { "q": "Czy faktury i płatności księgują się automatycznie?", "a": "Tak. Sprzedaż, zakupy, płatności i ruchy magazynowe trafiają do księgi automatycznie, więc nic nie trzeba przepisywać, a miejsca na błędy jest znacznie mniej." },
+    { "q": "Czy mogę przygotowywać deklaracje VAT?", "a": "Tak. Podatek jest śledzony na każdym dokumencie, więc przygotujesz deklarację z konfigurowalnym VAT dla krajów Zatoki lub w dowolnej stawce dla klientów w innych systemach podatkowych." },
+    { "q": "Jakie raporty mogę uruchomić?", "a": "Rachunek zysków i strat, bilans, zestawienie obrotów i sald, księgę główną oraz zestawienia dla klientów i dostawców, wszystko na żądanie i z odniesieniem do dokumentów źródłowych." },
+    { "q": "Czy mogę obsługiwać klientów w różnych walutach?", "a": "Tak. Paper & Pen obsługuje klientów w wielu walutach i w każdym systemie podatkowym, więc obsłużysz klientów z wielu krajów z jednej platformy." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/invoicing/ledgers", "/use-cases/small-business", "/pricing"],
+  "ctaTitle": "Mniej wpisywania, więcej doradzania",
+  "ctaSub": "Pozwól Paper & Pen automatycznie księgować zapisy, by księgi się zgadzały, a raporty były gotowe na żądanie."
+}

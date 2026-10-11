@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restauranger och kaféer",
+  "metaTitle": "Kassa och receptlager för restauranger | Paper & Pen",
+  "metaDescription": "Gratis fakturering plus råvarulager, receptkalkyl och inköpsordrar till leverantörer för restauranger och kaféer. Styr råvarukostnaden och ta betalt snabbt.",
+  "keywords": "program för restauranger, kassa kafé, receptkalkyl, råvarukostnad, restauranglager, inköpsordrar leverantör, affärssystem restaurang",
+  "heroEyebrow": "För restauranger och kaféer",
+  "heroTitle": "Ta betalt snabbt, <em class=\"text-copper-400 not-italic\">styr råvarukostnaden</em>",
+  "heroSubtitle": "Skriv ut kvitton på sekunder, följ råvarorna ner till grammet och vet den verkliga kostnaden för varje rätt. Paper & Pen får köket, kassan och bokföringen att arbeta tillsammans.",
+  "heroBullets": ["Gratis, snabba kvitton", "Råvaru- och receptkalkyl", "Inköpsordrar till leverantörer"],
+  "features": [
+    { "icon": "receipt", "title": "Snabba kvitton", "desc": "Ta en beställning, lägg på skatt och serviceavgift och skriv ut eller dela ett kvitto på sekunder." },
+    { "icon": "manufacturing", "title": "Receptkalkyl", "desc": "Bygg recept av råvaror så att du vet den verkliga kostnaden för varje rätt." },
+    { "icon": "inventory", "title": "Råvarulager", "desc": "Följ råvaror per enhet, batch och bäst före-datum, med varningar för lågt saldo." },
+    { "icon": "truck", "title": "Beställningar till leverantörer", "desc": "Skapa inköpsordrar till leverantörer och uppdatera lager och kostnad vid inleverans." },
+    { "icon": "calc", "title": "Råvarukostnad i procent", "desc": "Jämför rättens kostnad med menypriset så att marginalerna förblir sunda." },
+    { "icon": "chart", "title": "Försäljningsrapporter", "desc": "Se de populäraste rätterna, dagskassan och trender över dagar och filialer." }
+  ],
+  "sections": [
+    { "eyebrow": "Snabbare i matsalen", "title": "Kvitton som håller kön i rörelse", "body": "Lunchrusningen ger ingen tid för långsam betalning. Lägg till rätter, lägg på moms eller serviceavgift, ta betalt och lämna över ett rent kvitto på sekunder, och dela det på WhatsApp om en gäst vill. Varje försäljning bokförs automatiskt, så att stänga dagen tar ett ögonkast i stället för en kväll med inmatning.", "items": ["Lägg till rätter och ta betalt snabbt", "Moms och serviceavgift sköts åt dig", "Dagskassan stäms av automatiskt"] },
+    { "eyebrow": "Köket säger sanningen", "title": "Receptkalkyl som skyddar marginalen", "body": "En rätt är bara lönsam om du vet vad den kostar. Bygg recept av råvaror, låt Paper & Pen räkna ut kostnaden för varje tallrik utifrån aktuella inköpspriser och följ din råvarukostnad i procent när leverantörspriserna rör sig. Följ råvaror per batch och bäst före-datum, skapa inköpsordrar och håll svinnet i schack. Byggt i Oman med inbyggt stöd för OMR, AED och SAR och 5 % moms, och redo för USD, EUR eller valfri marknad.", "items": ["Recept kalkylerade från aktuella råvarupriser", "Spårning av batch och bäst före-datum för råvaror", "Inköpsordrar som uppdaterar kostnaden vid inleverans"] }
+  ],
+  "faqs": [
+    { "q": "Kan jag kalkylera menyn utifrån råvarupriser?", "a": "Ja. Lägg upp varje rätt som ett recept av råvaror så räknar Paper & Pen ut kostnaden från aktuella inköpspriser, och du kan sätta menypriser som skyddar marginalen." },
+    { "q": "Följer det råvaror och bäst före-datum?", "a": "Ja. Råvaror följs per enhet, batch och bäst före-datum, med varningar för lågt saldo så att du beställer innan det tar slut." },
+    { "q": "Kan jag lägga på moms och serviceavgift?", "a": "Ja. Använd konfigurerbar moms för Gulfstaterna, en serviceavgift eller valfri skattesats, allt beräknat automatiskt på notan." },
+    { "q": "Är faktureringen gratis för ett kafé?", "a": "Försäljning och fakturering, inklusive kvitton, är gratis för alltid. Lägg till Lager och Tillverkning när du vill följa råvaror och kalkylera recept." },
+    { "q": "Kan jag hantera mer än ett ställe?", "a": "Ja. Följ försäljning och lager per filial och se aktuella saldon och dagskassor för alla dina ställen från en arbetsyta." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Servera snabbt, räkna smart",
+  "ctaSub": "Börja gratis med kvitton och fakturering och lägg sedan till Lager och receptkalkyl för att ta kontroll över råvarukostnaden."
+}

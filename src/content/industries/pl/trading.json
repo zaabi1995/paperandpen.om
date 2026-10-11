@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "trading",
+  "order": 1,
+  "title": "Handel i hurt",
+  "metaTitle": "Program ERP dla firm handlowych i hurtowni | Paper & Pen",
+  "metaDescription": "Darmowe faktury oraz stany na żywo, zamówienia zakupu i wiele walut dla handlowców, importerów i hurtowników. Wyceniaj, sprzedawaj i uzgadniaj szybciej.",
+  "keywords": "program dla firmy handlowej, erp dla hurtowni, faktury dla dystrybutora, program do importu i eksportu, program do zamówień zakupu, handel w wielu walutach, kontrola magazynu dla handlowców",
+  "heroEyebrow": "Dla handlowców, importerów i hurtowników",
+  "heroTitle": "Kupuj, sprzedawaj i magazynuj w <em class=\"text-copper-400 not-italic\">jednej przejrzystej księdze</em>",
+  "heroSubtitle": "Od zamówienia zakupu po fakturę dla klienta Paper & Pen utrzymuje towary, koszty i gotówkę w zgodzie. Wyceniaj szybko, przesuwaj towar bez zgadywania i znaj marżę na każdej transakcji.",
+  "heroBullets": ["Darmowe oferty i faktury", "Stany na żywo i koszt z dostawą", "Kupuj w jednej walucie, sprzedawaj w innej"],
+  "features": [
+    { "icon": "cart", "title": "Od oferty do faktury", "desc": "Zamień ofertę w zamówienie sprzedaży i fakturę dwoma kliknięciami, bez przepisywania." },
+    { "icon": "inventory", "title": "Stany na żywo", "desc": "Każda sprzedaż i zakup od razu zmienia stany we wszystkich Twoich magazynach." },
+    { "icon": "truck", "title": "Zamówienia zakupu", "desc": "Wystawiaj zamówienia do dostawców, przyjmuj towar i aktualizuj stany oraz koszty w jednym procesie." },
+    { "icon": "globe", "title": "Wiele walut", "desc": "Kupuj w USD lub EUR, a sprzedawaj w OMR, AED lub SAR, z poprawną liczbą miejsc po przecinku wszędzie." },
+    { "icon": "calc", "title": "Marża na każdej transakcji", "desc": "Zobacz koszt, cenę i zysk na każdej pozycji, by nigdy nie sprzedać poniżej minimum." },
+    { "icon": "refresh", "title": "Automatyczne uzgadnianie", "desc": "Faktury, płatności i ruchy magazynowe trafiają do ksiąg automatycznie." }
+  ],
+  "sections": [
+    { "eyebrow": "Szybkość wygrywa transakcje", "title": "Oferta dziś, dostawa jutro", "body": "W handlu pierwsza porządna oferta często wygrywa zamówienie. Przygotuj profesjonalną ofertę w kilka minut, wyślij ją przez WhatsApp lub e-mail, a zaakceptowaną zamień w zamówienie sprzedaży, dokument dostawy i fakturę, nie wpisując niczego dwa razy. Klient dostaje dopracowany dokument, a Ty zachowujesz czysty ślad.", "items": ["Oferta, zamówienie sprzedaży i faktura w kilka kliknięć", "Wbudowane dokumenty dostawy i pakowanie", "Natychmiastowe udostępnianie przez WhatsApp lub e-mail"] },
+    { "eyebrow": "Znaj prawdziwy koszt", "title": "Stany i marża, które mówią prawdę", "body": "Importerzy i hurtownicy żyją z marży. Paper & Pen wycenia zapasy metodą średniej ceny lub FIFO i pokazuje zysk na każdej pozycji już podczas przygotowywania oferty, więc ustalasz ceny pewnie. Kupuj za granicą w jednej walucie, sprzedawaj w kraju w innej, a księgi pozostają uzgodnione. Stworzony w Omanie z natywną obsługą OMR, AED i SAR oraz konfigurowalnym VAT, równie dobrze radzi sobie z USD, EUR i każdą ustawioną stawką podatku.", "items": ["Średnia cena lub FIFO dla dokładnej wyceny", "Marża na pozycji już przy ofercie", "VAT dla krajów Zatoki lub dowolna stawka, dowolna waluta"] }
+  ],
+  "faqs": [
+    { "q": "Czy mogę ofertować w jednej walucie, a kupować towar w innej?", "a": "Tak. Kupuj w USD, EUR, CNY lub dowolnej walucie i sprzedawaj w OMR, AED, SAR lub tym, czego używają Twoi klienci. Miejsca po przecinku i sumy dopasowują się automatycznie, a księgi pozostają uzgodnione." },
+    { "q": "Czy faktury aktualizują stany magazynowe?", "a": "Tak. Każda faktura zmniejsza stan, a każde przyjęcie z zamówienia zakupu go zwiększa na żywo, w wielu magazynach, bez ręcznych spisów." },
+    { "q": "Czy widzę marżę na każdej pozycji?", "a": "Tak. Paper & Pen pokazuje koszt, cenę sprzedaży i marżę na każdej pozycji podczas tworzenia oferty lub faktury, więc chronisz swoje minimum przy każdej transakcji." },
+    { "q": "Czy jest naprawdę darmowy dla firmy handlowej?", "a": "Sprzedaż i faktury są bezpłatne na zawsze, w tym oferty, faktury i dokumenty dostawy. Dodaj moduł Magazyn, gdy potrzebujesz stanów na żywo i kosztu z dostawą." },
+    { "q": "Czy obsługuje VAT w krajach Zatoki i na innych rynkach?", "a": "Tak. Od razu stosuj konfigurowalny VAT dla krajów Zatoki albo ustaw dowolną stawkę podatku dla dowolnego kraju. Podatek zawsze liczony jest od kwoty netto po rabacie." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Prowadź handel w jednej czystej księdze",
+  "ctaSub": "Zacznij za darmo od ofert i faktur, a potem dodaj Magazyn i Księgowość, gdy Twój handel się rozwinie."
+}

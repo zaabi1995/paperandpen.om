@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "reports",
+  "order": 8,
+  "title": "Rapporter",
+  "metaTitle": "Affärsrapporter och analys · Paper & Pen",
+  "metaDescription": "Aktuella översikter och rapporter om försäljning, kassa, resultat, skatt och lager. Gå till underlaget, exportera till Excel eller PDF, i valfri valuta.",
+  "keywords": "affärsrapporter, analysöversikt, försäljningsrapport, resultatrapport, skatterapport, finansiella rapporter, exportera till excel",
+  "heroEyebrow": "Tilläggsmodul",
+  "heroTitle": "Beslut som bygger på <em class=\"text-copper-400 not-italic\">aktuella siffror</em>",
+  "heroSubtitle": "Varje försäljning, betalning och lagerrörelse summeras i tydliga översikter och rapporter, i realtid. Se vad som säljer, vem som är skyldig dig och var vinsten finns, och exportera sedan vart du vill.",
+  "heroBullets": ["Översikter i realtid", "Gå ner till underlaget", "Exportera till Excel eller PDF"],
+  "features": [
+    { "icon": "reports", "title": "Försäljningsanalys", "desc": "Se de bästa produkterna, de bästa kunderna och trender för valfri period." },
+    { "icon": "chart", "title": "Finansiella rapporter", "desc": "Resultaträkning, balansräkning, kassaflöde och åldersanalys av kundfordringar." },
+    { "icon": "calc", "title": "Skatterapporter", "desc": "Sammanställningar av ingående och utgående moms, klara för momsdeklarationen." },
+    { "icon": "inventory", "title": "Lagerrapporter", "desc": "Rapporter om värdering, rörelser och lågt saldo i alla lagerställen." },
+    { "icon": "doc", "title": "Gå till underlaget", "desc": "Klicka på valfri siffra för att spåra den till exakt det dokument som ligger bakom." },
+    { "icon": "refresh", "title": "Alltid aktuellt", "desc": "Rapporterna uppdateras direkt när transaktionerna sker, ingen nattlig körning." }
+  ],
+  "sections": [
+    { "eyebrow": "Klarhet på ett ögonblick", "title": "En översikt för hela företaget", "body": "Öppna Paper & Pen och se siffrorna som betyder något: pengar på banken, vem som är skyldig dig, vad som säljer och månadens resultat. Eftersom allt bokförs i realtid är översikten sanningen, inte förra veckans ögonblicksbild.", "items": ["Kassa, kundfordringar och resultat först", "Filtrera på period, kund eller produkt", "Aktuellt, aldrig inaktuellt"] },
+    { "eyebrow": "Dela och gräv djupare", "title": "Rapporter som din redovisningskonsult och styrelse litar på", "body": "Gå från valfri rapport direkt till underlaget och exportera sedan till Excel eller PDF för din redovisningskonsult, bank eller styrelse. Rapportera i valfri valuta och växla gränssnittet till arabiska, engelska, hindi, bengali eller urdu så att alla läser samma siffror på sitt eget språk.", "items": ["Gå ner till varje transaktion", "Export till Excel och PDF", "Flera valutor och flera språk"] }
+  ],
+  "faqs": [
+    { "q": "Är rapporterna gratis?", "a": "Rapporter är ett valfritt betalt tillägg. Kärnan som är gratis för alltid innehåller översikter för fakturering, och hela rapportpaketet finns när du behöver djupare analys." },
+    { "q": "Är rapporterna i realtid?", "a": "Ja. Varje transaktion bokförs direkt, så översikter och rapporter visar alltid företagets aktuella läge." },
+    { "q": "Kan jag exportera rapporter?", "a": "Ja. Exportera till Excel eller PDF för att dela med din redovisningskonsult, bank eller styrelse." },
+    { "q": "Kan jag spåra en siffra till underlaget?", "a": "Ja. Klicka på valfri siffra för att gå ner till exakt den faktura, betalning eller verifikation som ligger bakom." },
+    { "q": "Stöder rapporterna flera valutor?", "a": "Ja. Rapportera i valfri valuta och visa gränssnittet på fem språk." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Se ditt företag tydligt",
+  "ctaSub": "Börja gratis med fakturering och lägg till Rapporter för aktuella översikter och analyser klara att exportera."
+}

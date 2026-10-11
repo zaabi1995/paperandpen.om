@@ -1,0 +1,140 @@
+{
+  "locale": "pl",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrajn",
+  "title": "VAT w Bahrajnie",
+  "metaTitle": "VAT w Bahrajnie: stawka 10% i zasady faktur · Paper & Pen",
+  "metaDescription": "Stawka VAT 10% w Bahrajnie, próg rejestracji BHD 37,500 i wymogi NBR dotyczące faktury VAT, z odwołaniem do przewodnika samego urzędu.",
+  "keywords": "vat bahrajn, stawka vat bahrajn 10, próg rejestracji vat bahrajn, wymogi faktury vat bahrajn, national bureau for revenue",
+  "heroEyebrow": "Bahrajn",
+  "heroTitle": "Fakturowanie według <em class=\"text-copper-400 not-italic\">zasad VAT w Bahrajnie</em>",
+  "heroSubtitle": "Stawka 10%, progi rejestracji i to, czego National Bureau for Revenue wymaga na fakturze VAT, w tym jedno pole dotyczące wyłącznie budownictwa.",
+  "heroBullets": [
+    "Stawka podstawowa 10%",
+    "Rejestracja od BHD 37,500",
+    "Brak opublikowanego obowiązku e-faktur"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Podstawowa stawka VAT",
+      "value": "10%",
+      "note": "VAT wprowadzono 1 stycznia 2019 ze stawką 5%, a od 1 stycznia 2022 podniesiono ją do 10%. Porównania napisane przed 2022 rokiem są nieaktualne.",
+      "source": 1
+    },
+    {
+      "label": "Próg obowiązkowej rejestracji",
+      "value": "BHD 37,500",
+      "note": "Przekroczenie tej kwoty wymaga rejestracji.",
+      "source": 1
+    },
+    {
+      "label": "Próg dobrowolnej rejestracji",
+      "value": "BHD 18,750",
+      "note": "Liczony za poprzednie lub kolejne 12 miesięcy; może opierać się na wydatkach obciążonych VAT zamiast na dostawach.",
+      "source": 1
+    },
+    {
+      "label": "Termin wystawienia faktury",
+      "value": "15. dzień następnego miesiąca",
+      "note": "Faktury muszą być wystawione do piętnastego dnia miesiąca następującego po miesiącu, w którym powstał obowiązek podatkowy VAT.",
+      "source": 1
+    },
+    {
+      "label": "Waluta na fakturze",
+      "value": "BHD",
+      "note": "Wartości, kwoty VAT i sumy podaje się w dinarach bahrajńskich, z kursem wymiany, gdy używana jest waluta obca.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Sekcja 10.3 VAT General Guide wydanego przez NBR określa, co musi zawierać pełna faktura VAT. Uproszczona faktura VAT wymaga części tych elementów.",
+    "items": [
+      "Oznaczenie „Faktura VAT”",
+      "Nazwa, adres i numer konta VAT (VAT Account Number) dostawcy",
+      "Nazwa i adres klienta",
+      "Kolejny numer faktury VAT",
+      "Data wystawienia oraz data dostawy lub płatności, jeśli jest inna",
+      "Opis dostawy na tyle szczegółowy, by sposób opodatkowania VAT był jasny",
+      "Przy budowie nowego budynku: numer pozwolenia na budowę",
+      "Ilość dostarczonych towarów",
+      "Wartość dostawy i cena jednostkowa w dinarach, bez VAT",
+      "Ewentualny rabat i wartość netto w dinarach, bez VAT",
+      "Stawka VAT i należny VAT w dinarach, dla każdej pozycji, gdy stawki się różnią",
+      "Łączna kwota do zapłaty z VAT, w dinarach",
+      "Zastosowany kurs wymiany, gdy używana jest waluta obca",
+      "Wyraźna informacja, gdy transakcja jest zwolniona",
+      "Wzmianka o procedurze marży, gdy jest stosowana"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Brak opublikowanego obowiązku",
+    "body": "Nie znajdujemy żadnego programu, etapu ani daty e-faktur opublikowanych przez National Bureau for Revenue. Jego VAT General Guide, zaktualizowany w lipcu 2026, w ogóle nie wspomina o fakturach elektronicznych, a wykaz publikacji urzędu nie zawiera przewodnika o e-fakturach. Komentarze w innych miejscach opisują projektowany system dla transakcji między firmami z możliwym wdrożeniem etapami, ale nic na stronie samego urzędu nie potwierdza daty, więc jej nie publikujemy. Jeśli planujesz zmianę systemu, opieraj ją na powyższych zasadach treści faktury, które są aktualne i opublikowane, a nie na spodziewanym obowiązku.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Jak zrobić to dobrze",
+      "title": "Dwie pułapki typowe dla Bahrajnu",
+      "body": "Pierwsza to historia stawki. Bahrajn przeszedł z pięciu na dziesięć procent 1 stycznia 2022, więc każdy szablon, cennik czy artykuł porównawczy napisany wcześniej jest błędny, a pomyłka po cichu przetrwała w starych szablonach ofert. Druga to termin wystawienia. Bahrajn nie mówi tylko, że faktura musi zostać wystawiona, ale też do kiedy: do piętnastego dnia miesiąca następującego po miesiącu, w którym powstał obowiązek podatkowy VAT. Firma, która fakturuje, gdy dokumenty są gotowe, może się spóźniać, nawet tego nie zauważając.",
+      "items": [
+        "Sprawdź szablony sprzed 2022 roku pod kątem stawki 5%",
+        "Fakturuj do 15. dnia następnego miesiąca",
+        "Pokazuj VAT dla każdej pozycji, gdy stawki się różnią",
+        "Podawaj kurs wymiany na fakturach w walucie obcej"
+      ]
+    },
+    {
+      "eyebrow": "Szczegóły branżowe",
+      "title": "Pole budowlane, którego nikt się nie spodziewa",
+      "body": "Zasady treści faktury w Bahrajnie zawierają jeden wymóg, który nie ma odpowiednika nigdzie indziej w Zatoce: przy dostawach związanych z budową nowego budynku faktura musi zawierać numer pozwolenia na budowę. Łatwo go przeoczyć, bo kryje się w ogólnym wymogu opisu, a nie jest osobnym polem, i to taki rodzaj pominięcia, który wychodzi na jaw dopiero, gdy ktoś zakwestionuje fakturę kilka miesięcy później. Jeśli działasz w wykonawstwie, wpisz numer pozwolenia do szablonu opisu pozycji, zamiast liczyć, że ktoś o nim zapamięta.",
+      "items": [
+        "Dostawy przy nowej budowie wymagają numeru pozwolenia na budowę",
+        "Wpisz go do szablonu, a nie do czyjejś pamięci",
+        "Opisz dostawę na tyle, by pokazać jej opodatkowanie VAT",
+        "Miej gotowe brzmienie informacji o zwolnieniu"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Jaka jest stawka VAT w Bahrajnie?",
+      "a": "Dziesięć procent. Bahrajn wprowadził VAT ze stawką pięciu procent 1 stycznia 2019 i podniósł stawkę podstawową do dziesięciu procent od 1 stycznia 2022. Każdy przewodnik, szablon czy porównanie, które wciąż podaje dla Bahrajnu pięć procent, powstało przed tą zmianą."
+    },
+    {
+      "q": "Kiedy muszę zarejestrować się do VAT w Bahrajnie?",
+      "a": "Gdy Twoje dostawy przekroczą BHD 37,500. Dobrowolnie możesz zarejestrować się od BHD 18,750, liczonych za poprzednie lub kolejne dwanaście miesięcy, a Bahrajn dopuszcza dobrowolną rejestrację na podstawie wydatków obciążonych VAT, a nie tylko dostaw, co może odpowiadać firmie, która dopiero buduje sprzedaż."
+    },
+    {
+      "q": "Czy e-faktury są obowiązkowe w Bahrajnie?",
+      "a": "Nie według niczego, co publikuje National Bureau for Revenue. Jego VAT General Guide, zaktualizowany w lipcu 2026, nie wspomina o fakturach elektronicznych, a wśród jego publikacji nie ma przewodnika o e-fakturach. Nie powtarzamy dat z komentarzy, których urząd sam nie opublikował."
+    },
+    {
+      "q": "Do kiedy trzeba wystawić fakturę VAT w Bahrajnie?",
+      "a": "Do piętnastego dnia miesiąca następującego po miesiącu, w którym powstał obowiązek podatkowy VAT. To prawdziwy termin, a nie ogólne oczekiwanie, i zaskakuje firmy, które fakturują zbiorczo na koniec kwartału."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Fakturuj poprawnie w Bahrajnie, za darmo",
+  "ctaSub": "Ustaw stawkę samodzielnie, pokazuj VAT dla każdej pozycji i trzymaj pola wymagane przez urząd w szablonie, o którym nie musisz pamiętać.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, wersja 1.15, w tym sekcja 10.3 o wymogach dotyczących faktur",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

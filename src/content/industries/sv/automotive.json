@@ -1,0 +1,110 @@
+{
+  "locale": "sv",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Bilverkstäder",
+  "metaTitle": "Affärssystem för bilverkstäder och bilhandlare · Paper & Pen",
+  "metaDescription": "Hantera kostnadsförslag, reservdelslager och fakturering för din bilverkstad. Följ arbetstimmar och fakturera garantiärenden med vårt gratis ERP i molnet.",
+  "keywords": "program för bilverkstad, fakturering bilreparation, kostnadsförslag mekaniker, lagerhantering verkstad, affärssystem bilhandlare, fakturering garantiärenden, bokföring verkstad",
+  "heroEyebrow": "För verkstäder och bilhandlare",
+  "heroTitle": "Driv din verkstad med <em class=\"text-copper-400 not-italic\">tydliga kostnadsförslag</em> och korrekt fakturering av delar.",
+  "heroSubtitle": "Sluta förlora marginal på ofakturerade delar och arbetstid som inte följs upp. Paper & Pen hjälper bilverkstäder att utfärda detaljerade kostnadsförslag för reparationer, följa lagret ner till artikelnumret och göra om godkännanden direkt till slutfakturor.",
+  "heroBullets": [
+    "Följ delar och timpriser",
+    "Gör om kostnadsförslag till fakturor",
+    "Hantera fakturering av garantiärenden till tredje part"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Kostnadsförslag för reparationer",
+      "desc": "Bygg detaljerade kostnadsförslag som kunden godkänner. Ange arbetstimmar, felsökningsavgifter och nödvändiga delar innan reparationen börjar."
+    },
+    {
+      "icon": "inventory",
+      "title": "Delar och marginaler",
+      "desc": "Följ lagret med exakta artikelnummer. Håll koll på dina inköpspriser och sätt försäljningspriser som skyddar dina vinstmarginaler."
+    },
+    {
+      "icon": "clock",
+      "title": "Arbete till verkstadens timpris",
+      "desc": "Lägg till tjänsterader för mekanikernas tid. Multiplicera ditt ordinarie timpris med de arbetstimmar som jobbet kräver."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fakturering till tredje part",
+      "desc": "Fakturera bilägaren för självrisken och fakturera resterande belopp direkt till garantigivaren eller tillverkaren."
+    },
+    {
+      "icon": "receipt",
+      "title": "Kreditering av felsökningsavgift",
+      "desc": "Lägg en felsökningsavgift på det första kostnadsförslaget och kreditera den enkelt på slutfakturan om kunden går vidare med reparationen."
+    },
+    {
+      "icon": "truck",
+      "title": "Inköpsordrar",
+      "desc": "Skicka inköpsordrar till dina reservdelsleverantörer. Registrera inkommande leveranser så uppdateras lagersaldot automatiskt före nästa jobb."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Godkännande av reparationer",
+      "title": "Från första felsökning till slutlig reparationsfaktura",
+      "body": "Kunden vill veta kostnaden innan du sätter en nyckel i motorn. Paper & Pen hanterar exakt det arbetsflöde som dina servicetekniker använder varje dag. Du kan utfärda ett första kostnadsförslag som innehåller en felsökningsavgift. När felet är hittat uppdaterar du kostnadsförslaget med de aktuella delarna och arbetstimmarna. När kunden godkänner arbetet gör du om just det kostnadsförslaget till en slutfaktura. Om din policy är att stryka felsökningsavgiften när reparationen godkänns lägger du helt enkelt till en negativ rad som krediterar avgiften mot summan.",
+      "items": [
+        "Utfärda tydliga offerter för reparationer",
+        "Gör om godkända offerter till fakturor",
+        "Kreditera felsökningsavgifter enkelt",
+        "Registrera arbetstimmar och timpriser"
+      ]
+    },
+    {
+      "eyebrow": "Reservdelshantering",
+      "title": "Skydda marginalen på varje såld del",
+      "body": "En upptagen verkstad hanterar hundratals komponenter, från oljefilter till bromsok. Tappar du bort vad du betalade leverantören tappar du din vinstmarginal. Vårt lagersystem låter dig registrera varje artikel med sitt specifika artikelnummer. Du registrerar inköpspriset när du tar emot varor via inköpsordrar och sätter ett fast försäljningspris för dina fakturor. När en mekaniker tar en del från hyllan och du lägger till den på reparationsfakturan minskar lagersaldot automatiskt och vinsten räknas ut korrekt.",
+      "items": [
+        "Följ artiklar med exakta artikelnummer",
+        "Håll koll på leverantörernas inköpspriser",
+        "Sätt lönsamma försäljningspriser",
+        "Minska lagret automatiskt vid försäljning"
+      ]
+    },
+    {
+      "eyebrow": "Delad fakturering",
+      "title": "Hantera garantiärenden och betalare som är tredje part",
+      "body": "Alla reparationer betalas inte av den som kör bilen. Bilhandlare och auktoriserade verkstäder utför ofta garantiarbeten som ska faktureras tillverkaren eller ett bolag för förlängd garanti. Med Paper & Pen kan du ha separata kundprofiler för dessa företagsbetalare. Du kan skapa en faktura till bilägaren för självrisken eller slitdelar som inte täcks, och en separat detaljerad faktura till garantigivaren för godkända arbetskoder och utbytta delar.",
+      "items": [
+        "Ha profiler för företagsbetalare",
+        "Fakturera garantigivare direkt",
+        "Dela fakturan mellan ägare och garanti",
+        "Ha detaljerade reskontror för alla betalare"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan jag koppla ihop det med mitt tidrapporteringsprogram för mekaniker eller en VIN-avkodare?",
+      "a": "Nej. Paper & Pen är ett fristående ERP i molnet. Du kan lägga till arbetstimmar som rader på dina fakturor och använda vår HR-modul för enkel lönehantering, men vi erbjuder inga stämpelklockor för mekaniker i realtid, ingen inbyggd VIN-avkodning och inga direkta kopplingar till databaser för bilreparationer från tredje part."
+    },
+    {
+      "q": "Hur hanterar jag en felsökningsavgift som krediteras om kunden gör reparationen?",
+      "a": "Du lägger till felsökningsavgiften som en vanlig tjänsterad på den första offerten. När kunden godkänner hela reparationen gör du om offerten till en faktura, lägger till de delar och det arbete som behövs och lägger till en negativ rad som drar av det ursprungliga felsökningsbeloppet."
+    },
+    {
+      "q": "Kan jag följa reservdelslagret från olika leverantörer?",
+      "a": "Ja. Du kan skapa inköpsordrar till olika reservdelsleverantörer och registrera de inkommande följesedlarna. Systemet uppdaterar lagersaldona och följer dina inköpspriser, så att du vet exakt hur stor marginal du får när du fakturerar kunden."
+    },
+    {
+      "q": "Går det att fakturera ett garantibolag i stället för föraren?",
+      "a": "Ja. Du skapar helt enkelt en kundprofil för garantigivaren. Sedan kan du utfärda fakturan för de delar och det arbete till timpris som täcks direkt till dem, med deras utestående saldon åtskilda från dina privatkunder."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Få ordning på verkstadens fakturering i dag",
+  "ctaSub": "Skapa detaljerade kostnadsförslag, följ reservdelslagret och fakturera dina kunder gratis."
+}

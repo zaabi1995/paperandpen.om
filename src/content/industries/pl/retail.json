@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "retail",
+  "order": 2,
+  "title": "Handel detaliczny i sklepy",
+  "metaTitle": "Program do sprzedaży i magazynu dla sklepów · Paper & Pen",
+  "metaDescription": "Darmowe rozliczanie sprzedaży oraz magazyn z kodami kreskowymi, alerty o niskim stanie i wycena na żywo dla sklepów. Sprzedawaj szybko i trzymaj księgi w porządku.",
+  "keywords": "program dla sklepu, program do sprzedaży w sklepie, magazyn z kodami kreskowymi, faktury przy kasie, alerty niskiego stanu, erp dla handlu detalicznego, magazyn wielu sklepów",
+  "heroEyebrow": "Dla sklepów i sprzedawców detalicznych",
+  "heroTitle": "Sprzedawaj szybko, <em class=\"text-copper-400 not-italic\">nigdy nie zabraknie towaru</em>",
+  "heroSubtitle": "Rozliczaj klientów w kilka sekund, licz towar skanując kody kreskowe i pozwól stanom aktualizować się samym. Paper & Pen utrzymuje półki, sprzedaż i księgi w zgodzie, więc mniej czasu liczysz, a więcej sprzedajesz.",
+  "heroBullets": ["Darmowe, szybkie rozliczanie", "Obsługa kodów kreskowych i SKU", "Alerty, zanim zabraknie towaru"],
+  "features": [
+    { "icon": "receipt", "title": "Szybkie rozliczanie", "desc": "Nabij sprzedaż i wydrukuj lub udostępnij pokwitowanie w kilka sekund, na dowolnym urządzeniu." },
+    { "icon": "inventory", "title": "Magazyn z kodami kreskowymi", "desc": "Skanuj przy inwentaryzacji i przesunięciach, z podziałem na SKU, partie i jednostki miary." },
+    { "icon": "bell", "title": "Alerty o niskim stanie", "desc": "Ustaw progi zamówień i dostań ostrzeżenie, zanim bestseller się skończy." },
+    { "icon": "truck", "title": "Stany w wielu sklepach", "desc": "Śledź i przesuwaj towar między oddziałami, z aktualnymi ilościami wszędzie." },
+    { "icon": "calc", "title": "Wycena na żywo", "desc": "Średnia cena lub FIFO utrzymują poprawną wartość zapasów w bilansie." },
+    { "icon": "chart", "title": "Raporty bestsellerów", "desc": "Zobacz, co schodzi, a co leży, według produktu, kategorii i sklepu." }
+  ],
+  "sections": [
+    { "eyebrow": "Szybsza kasa", "title": "Rozliczanie stworzone dla ruchliwej lady", "body": "Klienci nie czekają. Zbuduj sprzedaż wyszukując pozycje, udziel rabatu, przyjmij płatność i wręcz przejrzyste pokwitowanie w kilka sekund. Pokwitowania udostępnisz przez WhatsApp lub wydrukujesz przy kasie, a każda sprzedaż trafia prosto do magazynu i ksiąg, bez przepisywania.", "items": ["Szybkie dodawanie pozycji wyszukiwarką", "Natychmiastowy wydruk lub udostępnienie pokwitowania", "Rabaty i podatek liczone automatycznie"] },
+    { "eyebrow": "Magazyn, który pilnuje się sam", "title": "Zawsze wiesz, co jest na półce", "body": "Ręczne spisy tracą aktualność przy pierwszej sprzedaży. W Paper & Pen każda sprzedaż i dostawa zmienia stan na żywo, więc liczba na ekranie zgadza się z półką. Ustaw progi zamówień, by system sygnalizował opóźnione uzupełnienia, zanim stracisz sprzedaż. Stworzony w Omanie z natywną obsługą OMR, AED i SAR oraz VAT 5%, gotowy na USD, EUR i każdą stawkę podatku, w której handlujesz.", "items": ["Stany na żywo przy każdej sprzedaży", "Progi zamówień i alerty o niskim stanie", "Dowolna waluta, dowolna stawka podatku"] }
+  ],
+  "faqs": [
+    { "q": "Czy mogę sprzedawać przy użyciu skanera kodów kreskowych?", "a": "Nie przy kasie. Przy kasie wyszukujesz pozycje i dodajesz je do sprzedaży. Skaner kodów kreskowych działa w magazynie: zeskanuj pozycję, by ją policzyć albo zapisać przyjęcie lub wydanie. Pozycje są uporządkowane według SKU, partii i jednostki miary." },
+    { "q": "Czy stany zaktualizują się przy sprzedaży?", "a": "Tak. Każda sprzedaż zmniejsza stan, a każda dostawa go zwiększa na żywo, we wszystkich Twoich sklepach, bez ręcznego liczenia." },
+    { "q": "Czy mogę prowadzić więcej niż jeden sklep?", "a": "Tak. Śledź stany w każdym sklepie, przesuwaj towar między oddziałami i widź aktualne ilości wszędzie w jednej przestrzeni roboczej." },
+    { "q": "Czy rozliczanie jest naprawdę darmowe?", "a": "Sprzedaż i faktury, w tym pokwitowania, są bezpłatne na zawsze. Dodaj moduł Magazyn, gdy zechcesz kontroli stanów z kodami kreskowymi i alertów o niskim stanie." },
+    { "q": "Czy działa poza krajami Zatoki?", "a": "Tak. Paper & Pen działa w każdej walucie i z każdą stawką podatku, więc sprzedawcy na całym świecie mogą wystawiać rachunki i zarządzać magazynem, z arabskim, angielskim i innymi językami pod ręką." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Prowadź sklep bez zgadywania",
+  "ctaSub": "Zacznij za darmo od rozliczania i pokwitowań, a potem dodaj Magazyn, by mieć kody kreskowe i alerty o niskim stanie."
+}

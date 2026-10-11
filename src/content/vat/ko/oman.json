@@ -1,0 +1,159 @@
+{
+  "locale": "ko",
+  "slug": "oman",
+  "order": 1,
+  "country": "오만",
+  "title": "오만 부가가치세",
+  "metaTitle": "오만 부가가치세: 세율, 등록 기준, 인보이스 · Paper & Pen",
+  "metaDescription": "오만 5% 부가가치세율, OMR 38,500 등록 기준, 세금 인보이스 필수 12개 항목을 Tax Authority 출처와 함께.",
+  "keywords": "오만 부가가치세, 오만 부가세율, 오만 부가가치세 등록 기준, 오만 세금 인보이스 요건, Fawtara 전자 인보이스, Oman Tax Authority, 오만 VAT",
+  "heroEyebrow": "오만",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">오만 부가가치세</em> 규정에 맞는 인보이스",
+  "heroSubtitle": "세율, 등록 기준, 세금 인보이스에 표시해야 할 내용, 그리고 전자 인보이스의 현황. 이 페이지의 모든 수치는 Oman Tax Authority가 직접 공표한 문서를 출처로 합니다.",
+  "heroBullets": [
+    "표준 세율 5%",
+    "OMR 38,500부터 등록",
+    "Fawtara 발표, 아직 시행 전"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "표준 부가가치세율",
+      "value": "5%",
+      "note": "VAT Law 제36조는 과세 대상 물품이나 서비스의 수입과 공급에 대한 세금을 과세가액의 5%로 정합니다.",
+      "source": 1
+    },
+    {
+      "label": "의무 등록 기준",
+      "value": "OMR 38,500",
+      "note": "연간 공급액이 이 금액 이상이면 등록해야 합니다. 이 금액은 법률 자체가 아니라 Chairman의 결정으로 정합니다.",
+      "source": 2
+    },
+    {
+      "label": "자발적 등록 기준",
+      "value": "OMR 19,250",
+      "note": "의무 등록 기준 미만이라도 이 금액부터 등록할 수 있습니다.",
+      "source": 2
+    },
+    {
+      "label": "인보이스 언어",
+      "value": "아랍어",
+      "note": "요청 시 아랍어 번역본을 제공할 수 있다면 영어로도 인보이스를 발행할 수 있습니다.",
+      "source": 3
+    },
+    {
+      "label": "간이 인보이스 상한",
+      "value": "OMR 500",
+      "note": "이 금액 미만의 공급은 Tax Authority의 승인을 받아 간이 인보이스를 쓸 수 있습니다.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Executive Regulations 제145조는 세금 인보이스에 표시해야 할 내용을 열거합니다. 이 조항은 목록을 \"특히\"라는 말로 시작하므로 전체 목록이 아니라 최소 요건으로 보세요.",
+    "items": [
+      "\"Tax Invoice\"(세금 인보이스)라는 문구",
+      "발행일, 공급일, 결제일",
+      "연속된 인보이스 번호",
+      "공급자의 전체 이름, 주소, 납세자 번호(TIN)",
+      "고객의 전체 이름, 주소, 납세자 번호(TIN) 또는 거주 국가의 그에 해당하는 번호",
+      "공급한 물품과 서비스의 설명",
+      "물품의 수량",
+      "선급금이 있다면 그 날짜",
+      "세금을 제외한 총 대가",
+      "적용한 세율",
+      "부여한 가격 인하나 할인, 그리고 이미 포함되지 않은 정부 보조금",
+      "과세가액"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority는 Executive Regulations를 아랍어로만 공표합니다. 이 목록은 공식 아랍어 원문을 충실하게 읽은 것이며 공식 영어 번역이 아니므로, 의존하기 전에 세무 자문가와 문구를 확인하세요."
+  },
+  "einvoicing": {
+    "status": "발표되었고 단계적 도입 예정, 아직 의무 아님",
+    "body": "오만의 전자 인보이스 프로그램 이름은 Fawtara입니다. Tax Authority는 인보이스가 인증된 서비스 제공자를 거쳐 당국에 도달하는 5코너 모델을 설명하고, 시범, 확대, 소규모 기업 참여, 전면 시행의 네 단계를 제시합니다. 당국은 단계별 날짜를 영어로 공표하지 않았으며, 언론에 돌아다니는 날짜는 당국 자체 페이지에 실려 있지 않습니다. 다른 곳에서 읽은 특정 Fawtara 기한은 Tax Authority가 공표하기 전까지 확인되지 않은 것으로 보세요.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "제대로 하기",
+      "title": "오만에서 기업들이 자주 걸리는 부분",
+      "body": "이곳 부가가치세 인보이스 문제의 대부분은 세 가지에서 나옵니다. 첫째는 고객의 납세자 번호(TIN)입니다. 빠뜨리면 고객이 매입세액을 공제받지 못할 수 있고, 그러면 인보이스가 고객의 비용이 되고 회사의 문제가 됩니다. 둘째는 인보이스 순번입니다. 제145조는 연속 번호를 요구하는데, 이를 가장 빨리 깨는 방법은 이미 보낸 인보이스를 삭제하거나 번호를 다시 매기는 것입니다. 대신 대변표로 정정하세요. 셋째는 언어입니다. 인보이스는 아랍어여야 하며, 요청 시 아랍어 버전을 제공할 수 없는데 영어로만 발행하면 위험에 노출됩니다.",
+      "items": [
+        "발행 후가 아니라 발행 전에 고객 TIN 확보",
+        "발행한 인보이스는 삭제하지 말고 대변 처리",
+        "요청 시 제공할 아랍어 버전 유지",
+        "공급일을 발행일과 따로 기록"
+      ]
+    },
+    {
+      "eyebrow": "준비하기",
+      "title": "날짜를 추측하지 않고 Fawtara 준비하기",
+      "body": "준비하는 데 공표된 기한이 필요하지는 않습니다. 이 지역에서 시행된 모든 전자 인보이스 제도는 같은 기본 원칙을 요구했습니다. 납세자 번호를 포함한 깔끔하고 완전한 고객 기록, 끊기지 않는 인보이스 순번, 인보이스 단위가 아닌 행 단위로 기록된 세금 처리, 그리고 요청 시 찾아낼 수 있게 보관된 문서입니다. 기록이 이미 이 네 가지 조건을 갖춘 회사는 날짜가 정해지면 짧은 구현만 남습니다. 그렇지 않은 회사는 공지 기간을 데이터 정리에 쓰게 됩니다.",
+      "items": [
+        "납세자 번호를 포함한 완전한 고객 기록",
+        "시리즈마다 끊기지 않는 하나의 인보이스 순번",
+        "행 단위로 기록한 세금 처리",
+        "요청 시 찾아낼 수 있는 문서"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "오만의 부가가치세율은 얼마인가요?",
+      "a": "5%입니다. Royal Decree 121/2020으로 공포된 VAT Law 제36조는 과세 대상 물품이나 서비스의 수입과 공급에 대한 세금을 과세가액의 5%로 계산합니다. 일부 공급은 영세율이거나 면세인데, 이 둘은 다릅니다. 영세율 공급자는 매입세액을 공제받을 수 있지만 면세 공급자는 그렇지 않습니다."
+    },
+    {
+      "q": "오만에서는 언제 부가가치세 등록을 해야 하나요?",
+      "a": "연간 공급액이 OMR 38,500에 도달하거나 도달할 것으로 예상될 때입니다. OMR 19,250부터 자발적으로 등록할 수 있습니다. 두 금액 모두 VAT Law 자체가 아니라 등록 기준에 관한 Chairman의 결정에서 나오므로, 법률이 바뀌지 않아도 금액이 바뀔 수 있습니다."
+    },
+    {
+      "q": "오만에서 전자 인보이스는 이미 의무인가요?",
+      "a": "아직 아닙니다. Tax Authority는 인증된 서비스 제공자를 이용하는 단계적 5코너 전자 인보이스 모델인 Fawtara를 발표했고 네 단계의 도입 과정을 설명합니다. 당국 자체 페이지에 단계별 날짜를 영어로 공표하지 않았으므로 여기서는 날짜를 밝히지 않습니다. 최신 상황은 Tax Authority의 전자 인보이스 페이지에서 확인하세요."
+    },
+    {
+      "q": "오만에서 영어로 인보이스를 발행할 수 있나요?",
+      "a": "영어로 발행할 수는 있지만, Executive Regulations는 세금 인보이스를 아랍어로 작성하도록 요구하며 요청 시 아랍어 번역본을 제공할 수 있다면 다른 언어를 추가로 허용합니다. 실무적으로는 영어 전용 템플릿이 아니라 2개 언어 템플릿을 유지해야 한다는 뜻입니다."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "오만에서 올바르게, 무료로 인보이스를 발행하세요",
+  "ctaSub": "세율은 직접 정하고, 모든 통화로 청구하고, 같은 기록에서 아랍어와 영어 인보이스를 함께 유지하세요.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, 제36조",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "의무 및 자발적 등록 기준을 정하는 Chairman의 결정",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Decision 53/2021, 제145조~제148조",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "전자 인보이스(Fawtara) 프로그램 페이지",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

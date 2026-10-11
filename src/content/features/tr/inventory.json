@@ -14,7 +14,7 @@
     { "icon": "inventory", "title": "Anlık stok", "desc": "Mal sattığınız, satın aldığınız veya transfer ettiğiniz anda miktarlar güncellenir." },
     { "icon": "truck", "title": "Çoklu depo", "desc": "Stoku lokasyonlar ve şubeler arasında tam görünürlükle takip edin ve transfer edin." },
     { "icon": "bell", "title": "Düşük stok uyarıları", "desc": "Yeniden sipariş noktaları belirleyin, hızlı satan bir ürün bitmeden uyarı alın." },
-    { "icon": "receipt", "title": "Barkod ve SKU", "desc": "Satmak veya teslim almak için okutun; SKU, parti ve ölçü birimine göre düzenli." },
+    { "icon": "receipt", "title": "Barkod ve SKU", "desc": "Stok saymak veya taşımak için okutun; SKU, parti ve ölçü birimine göre düzenli." },
     { "icon": "calc", "title": "Canlı değerleme", "desc": "Ortalama maliyet veya FIFO, bilançonuzdaki stok değerini doğru tutar." },
     { "icon": "refresh", "title": "Satışa bağlı", "desc": "Faturalar ve satın alma siparişleri stoku otomatik hareket ettirir, elle güncelleme yok." }
   ],
@@ -25,7 +25,7 @@
   "faqs": [
     { "q": "Stok ücretsiz olarak dahil mi?", "a": "Stok isteğe bağlı ücretli bir eklentidir. Çekirdek Satış ve Faturalama modülü sonsuza kadar ücretsizdir; anlık stok kontrolüne ihtiyaç duyduğunuzda Stok'u eklersiniz." },
     { "q": "Birden fazla depoyu yönetebilir miyim?", "a": "Evet. Stoku lokasyon bazında takip edin, aralarında transfer yapın ve her yerde canlı miktarları görün." },
-    { "q": "Barkodu destekliyor mu?", "a": "Evet. Parti ve ölçü birimi desteğiyle daha hızlı satmak ve teslim almak için barkod ve SKU kullanın." },
+    { "q": "Barkodu destekliyor mu?", "a": "Evet. Parti ve ölçü birimi desteğiyle stoku daha hızlı saymak ve taşımak için tedarikçi barkodunu, SKU'yu veya yazdırılmış QR etiketini okutun." },
     { "q": "Stok nasıl değerleniyor?", "a": "Ortalama maliyet veya FIFO seçin. Değerleme her harekette güncellenir ve muhasebenize otomatik işlenir." },
     { "q": "Satış yapmak stoku otomatik günceller mi?", "a": "Evet. Faturalar stoku azaltır, satın almalar anında artırır; miktarları asla elle güncellemezsiniz." }
   ],

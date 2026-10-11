@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "salons",
+  "order": 5,
+  "title": "Salonger och spa",
+  "metaTitle": "Program för salonger: kassa, personal och lager | Paper & Pen",
+  "metaDescription": "Gratis fakturering plus produktlager, personallöner och kundhistorik för salonger, spa och kliniker. Ta betalt snabbt, följ produkter och betala personalen.",
+  "keywords": "salongsprogram, kassa spa, affärssystem salong, program för skönhetsföretag, provision personal, produktlager salong, kundhistorik",
+  "heroEyebrow": "För salonger, spa och kliniker",
+  "heroTitle": "Ta betalt för tjänster snabbt, <em class=\"text-copper-400 not-italic\">håll kunderna nära</em>",
+  "heroSubtitle": "Slå in tjänster och produkter på sekunder, följ de produkter du använder och betala personalen med provisionen uträknad åt dig. Paper & Pen sköter receptionen, förrådet och bokföringen tillsammans.",
+  "heroBullets": ["Gratis, snabb fakturering av tjänster", "Lager för försäljningsprodukter", "Personallöner och provision"],
+  "features": [
+    { "icon": "receipt", "title": "Snabb fakturering", "desc": "Lägg till tjänster och produkter, ta betalt och dela ett kvitto på sekunder." },
+    { "icon": "users", "title": "Kundhistorik", "desc": "Spara kontaktuppgifter och tidigare besök så att varje kund känner sig ihågkommen." },
+    { "icon": "inventory", "title": "Produktlager", "desc": "Följ försäljnings- och behandlingsprodukter per enhet och batch, med varningar för lågt saldo." },
+    { "icon": "hr", "title": "Personal och provision", "desc": "Kör lönen och räkna ut personalens provision på tjänster och produktförsäljning." },
+    { "icon": "whatsapp", "title": "Kvitton på WhatsApp", "desc": "Skicka kvitton och uppföljningar till kunder på WhatsApp med ett tryck." },
+    { "icon": "chart", "title": "Tjänsterapporter", "desc": "Se populäraste tjänster, de mest belagda timmarna och intäkter per medarbetare eller filial." }
+  ],
+  "sections": [
+    { "eyebrow": "En smidigare reception", "title": "Fakturering som dina kunder uppskattar", "body": "Lägg till tjänsterna och eventuella produkter på notan, ge en rabatt eller ett paket, ta betalt och dela ett rent kvitto på WhatsApp innan kunden har lämnat stolen. Kunduppgifter och besökshistorik finns på samma skärm, så att teamet kan hälsa stamkunder vid namn och föreslå rätt uppföljning.", "items": ["Tjänster och produkter på samma nota", "Kvitton delas på WhatsApp direkt", "Kundens kontaktuppgifter och besökshistorik till hands"] },
+    { "eyebrow": "Lager och personal i ordning", "title": "Produkter som följs, personal som får rätt lön", "body": "Behandlingsprodukter försvinner ut genom dörren om ingen har koll. Paper & Pen följer försäljnings- och yrkesprodukter per enhet och batch, flaggar lågt saldo och kopplar förbrukningen till försäljningen. Kör lönen för teamet och låt systemet räkna ut provisionen på de tjänster och produkter de säljer. Byggt i Oman med inbyggt stöd för OMR, AED och SAR och 5 % moms, och redo för USD, EUR eller valfri marknad och skattesats.", "items": ["Lager för försäljnings- och behandlingsprodukter med varningar", "Lön med automatisk provision", "Valfri valuta, valfri skattesats, redo för moms"] }
+  ],
+  "faqs": [
+    { "q": "Kan jag fakturera tjänster och produkter tillsammans?", "a": "Ja. Lägg till valfri blandning av tjänster och produkter på en nota, ge rabatter eller paket, ta betalt och dela ett kvitto direkt." },
+    { "q": "Kan jag räkna ut personalens provision?", "a": "Ja. Modulen HR och lön kan räkna ut provisionen på de tjänster och produkter varje medarbetare säljer och köra deras lön." },
+    { "q": "Sparas kundhistoriken?", "a": "Ja. Spara kontaktuppgifter och tidigare besök så att teamet känner igen stamkunder och kan föreslå rätt uppföljande behandling." },
+    { "q": "Kan jag följa produktlagret?", "a": "Ja. Följ försäljnings- och behandlingsprodukter per enhet och batch, med varningar för lågt saldo, med modulen Lager." },
+    { "q": "Är faktureringen gratis för en salong?", "a": "Försäljning och fakturering, inklusive kvitton och kundregister, är gratis för alltid. Lägg till Lager och HR och lön för lager och provision." }
+  ],
+  "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
+  "ctaTitle": "Driv salongen, inte pappersarbetet",
+  "ctaSub": "Börja gratis med fakturering av tjänster och kundregister och lägg sedan till Lager och Lön för lager och provision."
+}

@@ -1,0 +1,37 @@
+{
+  "locale": "pl",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Darmowy generator zamówień zakupu",
+  "metaTitle": "Darmowy generator zamówień zakupu · Paper & Pen",
+  "metaDescription": "Twórz zamówienia zakupu online za darmo. Dodaj dostawcę i pozycje, wybierz dowolną walutę i podatek, a potem pobierz PDF gotowy do druku w kilka sekund.",
+  "keywords": "darmowy generator zamówień zakupu, zamówienie do dostawcy, wystaw zamówienie zakupu online, wzór zamówienia zakupu, zamówienie pdf, formularz zamówienia",
+  "heroEyebrow": "Za darmo · Bez rejestracji",
+  "heroTitle": "Darmowy generator zamówień zakupu",
+  "heroSubtitle": "Wyślij czytelne zamówienie zakupu do dowolnego dostawcy w kilka sekund. Dodaj pozycje, wybierz dowolną walutę, nalicz podatek i pobierz PDF gotowy do druku. Bez zakładania konta.",
+  "howToSteps": [
+    { "name": "Dodaj swoje dane", "text": "Wpisz nazwę firmy, dostawcę, numer zamówienia i datę." },
+    { "name": "Dodaj pozycje", "text": "Wypisz zamawiane towary lub usługi z ilością i stawką. Sumy liczą się automatycznie." },
+    { "name": "Ustaw walutę i podatek", "text": "Wybierz dowolną walutę i ustaw obowiązującą stawkę VAT lub podatku od sprzedaży." },
+    { "name": "Pobierz PDF", "text": "Kliknij pobierz, by wysłać zamówienie gotowe do druku, albo zarejestruj się, by śledzić dostawę i dopasować ją do faktury dostawcy." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Od razu i za darmo", "desc": "Bez rejestracji, bez znaku wodnego, bez limitów. Wystaw tyle zamówień zakupu, ile potrzebujesz." },
+    { "icon": "globe", "title": "Dowolna waluta", "desc": "Zamawiaj w OMR, AED, SAR, USD, EUR, GBP i innych, idealnie dla dostawców zagranicznych." },
+    { "icon": "cart", "title": "Jasne warunki zamówienia", "desc": "Podaj ilości, szczegóły dostawy i warunki płatności, by dostawca wysłał dokładnie to, czego potrzebujesz." }
+  ],
+  "sections": [
+    { "title": "Dlaczego warto korzystać z generatora zamówień zakupu Paper & Pen?", "body": "Zamówienie zakupu to Twoje formalne, możliwe do prześledzenia polecenie dla dostawcy i ochrona, gdy dostawa okaże się błędna. Nasz generator jest darmowy, obsługuje wiele walut i tworzy przejrzysty PDF, który rozpozna każdy dostawca. Bez arkusza, bez rejestracji." },
+    { "eyebrow": "Więcej niż generator", "title": "Od zamówienia przez magazyn do faktury dostawcy", "body": "PDF to dopiero początek. Prawdziwy proces zakupowy łączy zamówienie z przyjęciem towaru, fakturami dostawców i stanami magazynowymi. W pełnym systemie Paper & Pen ERP zamówienie zakupu pokazuje, co jest w drodze, aktualizuje magazyn po dostawie i dopasowuje fakturę dostawcy, więc nigdy nie przepłacasz.", "items": ["Śledź ilości zamówione, przyjęte i oczekujące", "Automatyczna aktualizacja stanów przy przyjęciu towaru", "Dopasowanie faktury dostawcy do pierwotnego zamówienia"] }
+  ],
+  "faqs": [
+    { "q": "Czym jest zamówienie zakupu?", "a": "Zamówienie zakupu to dokument wysyłany do dostawcy, by formalnie zamówić towary lub usługi po uzgodnionej cenie i w uzgodnionej ilości. Staje się wiążące, gdy dostawca je przyjmie." },
+    { "q": "Czy generator zamówień zakupu jest naprawdę darmowy?", "a": "Tak. Jest całkowicie darmowy, bez rejestracji, bez znaku wodnego i bez limitu liczby tworzonych zamówień zakupu." },
+    { "q": "Czy mogę zamawiać u dostawcy zagranicznego w jego walucie?", "a": "Tak. Wybierz dowolną walutę, w tym USD, EUR i GBP, z automatycznie dopasowaną liczbą miejsc po przecinku, by zamówienia zagraniczne były jasne." },
+    { "q": "Czy mogę śledzić dostawę i dopasować fakturę dostawcy?", "a": "Pobierz zamówienie za darmo albo załóż darmową przestrzeń roboczą Paper & Pen, by śledzić przyjęcia towaru, aktualizować stany i dopasowywać faktury dostawców do zamówień." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Zamawiaj pod kontrolą",
+  "ctaSub": "Śledź każde zamówienie, aktualizuj stany przy przyjęciu i dopasowuj faktury dostawców w darmowej przestrzeni roboczej Paper & Pen."
+}

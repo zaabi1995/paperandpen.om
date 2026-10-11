@@ -1,0 +1,38 @@
+{
+  "locale": "pl",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Darmowy kalkulator VAT i podatku",
+  "metaTitle": "Kalkulator VAT dla Omanu: dolicz lub odejmij 5% VAT",
+  "metaDescription": "Oblicz online 5% VAT w Omanie. Dolicz VAT do kwoty netto lub odejmij go od kwoty brutto i od razu zobacz netto, VAT i sumę, bez rejestracji.",
+  "keywords": "kalkulator vat, kalkulator vat oman, kalkulator podatku od sprzedaży, dolicz vat, odejmij vat, kalkulator vat 5 procent, kalkulator vat z własną stawką, kalkulator brutto netto",
+  "heroEyebrow": "Za darmo · Bez rejestracji",
+  "heroTitle": "Darmowy kalkulator <em class=\"text-copper-400 not-italic\">VAT i podatku</em>",
+  "heroSubtitle": "Oblicz online 5% VAT w Omanie. Dolicz VAT do kwoty netto lub odejmij go od kwoty brutto i od razu zobacz netto, VAT i sumę, bez rejestracji.",
+  "heroBullets": ["Dowolna stawka, dowolna waluta", "Doliczanie lub odejmowanie podatku", "Za darmo na zawsze, bez rejestracji"],
+  "howToSteps": [
+    { "name": "Wpisz kwotę", "text": "Wpisz kwotę, z którą chcesz pracować, i wybierz walutę." },
+    { "name": "Ustaw stawkę podatku", "text": "Użyj domyślnej stawki 5% obowiązującej w Omanie lub wpisz aktualną stawkę dla swojej transakcji." },
+    { "name": "Wybierz doliczanie lub odejmowanie", "text": "Dolicz podatek do kwoty netto lub odejmij go od kwoty brutto, by poznać netto (odwrotne liczenie VAT)." },
+    { "name": "Odczytaj wynik", "text": "Od razu zobacz rozbicie na netto, podatek i brutto, gotowe do przepisania na fakturę." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Doliczanie lub odejmowanie podatku", "desc": "Licz podatek od kwoty netto albo wyodrębnij go z kwoty brutto jednym kliknięciem." },
+    { "icon": "globe", "title": "Dowolna stawka, dowolna waluta", "desc": "Domyślnie 5% dla Omanu lub stawka, która dotyczy Ciebie, w OMR, AED, SAR, USD, EUR i innych." },
+    { "icon": "bolt", "title": "Od razu i za darmo", "desc": "Bez rejestracji, bez limitów. Netto, podatek i brutto widzisz w trakcie pisania." }
+  ],
+  "sections": [
+    { "title": "Dlaczego warto korzystać z kalkulatora VAT Paper & Pen?", "body": "Gdy wyceniasz ofertę, sprawdzasz fakturę lub składasz deklarację, netto, podatek i brutto muszą się zgadzać co do ostatniego miejsca po przecinku. Ten kalkulator obsługuje dowolną stawkę w dowolnej walucie, liczy w obie strony (dolicza podatek lub wyodrębnia go z sumy) i jest naprawdę darmowy. Otwiera się ze stawką 5% obowiązującą w Omanie i można go w pełni dostosować do innych jurysdykcji." },
+    { "eyebrow": "Więcej niż kalkulator", "title": "Niech program liczy VAT za Ciebie", "body": "Ręczne liczenie podatku w każdej pozycji jest powolne i podatne na błędy. W pełnym systemie Paper & Pen ERP VAT nalicza się automatycznie od kwoty netto po rabacie na każdej fakturze, trafia do ksiąg i składa się na raporty gotowe do deklaracji, więc w ogóle przestajesz sięgać po kalkulator.", "items": ["Automatyczny podatek na każdej fakturze i ofercie", "Stawki podatku dla pozycji i całego dokumentu", "Zestawienia VAT gotowe do złożenia deklaracji"] }
+  ],
+  "faqs": [
+    { "q": "Jakiej stawki używa ten kalkulator VAT dla Omanu?", "a": "Kalkulator otwiera się ze stawką 5% obowiązującą w Omanie. Przepisy podatkowe mogą się zmieniać, więc przed oparciem się na wyniku potwierdź aktualną stawkę w Oman Tax Authority. Możesz wpisać dowolną stawkę." },
+    { "q": "Jak odjąć VAT od kwoty brutto?", "a": "Wybierz opcję odejmowania (odwrotnego liczenia) i wpisz kwotę brutto. Kalkulator wyliczy netto i część podatku zawartą w sumie." },
+    { "q": "Czy mogę go używać do podatku od sprzedaży poza Omanem?", "a": "Tak. Ustaw stawkę dla swojej transakcji i wybierz dowolną walutę. Działa dla VAT, GST lub podatku od sprzedaży w dowolnym miejscu na świecie." },
+    { "q": "Czy liczy podatek od kwoty po rabacie?", "a": "Wpisz kwotę netto po rabacie i dolicz do niej podatek. Jeśli chcesz automatycznego VAT po rabacie na pełnych fakturach, załóż darmową przestrzeń roboczą Paper & Pen, która zrobi to za Ciebie." }
+  ],
+  "related": ["/vat/oman", "/tools/free-invoice-generator", "/tools/free-quotation-generator", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Przestań liczyć VAT ręcznie",
+  "ctaSub": "Naliczaj podatek automatycznie na każdej fakturze i miej raporty VAT gotowe do deklaracji w darmowej przestrzeni roboczej Paper & Pen."
+}

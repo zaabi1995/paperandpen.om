@@ -1,0 +1,159 @@
+{
+  "locale": "pl",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "title": "VAT w Omanie",
+  "metaTitle": "VAT w Omanie: stawka, progi, faktury · Paper & Pen",
+  "metaDescription": "Stawka VAT 5% w Omanie, próg rejestracji OMR 38,500 i dwanaście elementów, które musi zawierać faktura podatkowa, każdy z odwołaniem do Tax Authority.",
+  "keywords": "vat oman, stawka vat oman, próg rejestracji vat oman, wymogi faktury podatkowej oman, fawtara e-faktury, oman tax authority",
+  "heroEyebrow": "Oman",
+  "heroTitle": "Fakturowanie według <em class=\"text-copper-400 not-italic\">zasad VAT w Omanie</em>",
+  "heroSubtitle": "Stawka, progi rejestracji, co musi zawierać faktura podatkowa i na jakim etapie są e-faktury. Każda liczba na tej stronie ma odwołanie do tekstu opublikowanego przez Oman Tax Authority.",
+  "heroBullets": [
+    "Stawka podstawowa 5%",
+    "Rejestracja od OMR 38,500",
+    "Fawtara ogłoszona, jeszcze nie działa"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Podstawowa stawka VAT",
+      "value": "5%",
+      "note": "Artykuł 36 VAT Law ustala podatek od importu i dostaw towarów lub usług podlegających opodatkowaniu na pięć procent wartości podlegającej opodatkowaniu.",
+      "source": 1
+    },
+    {
+      "label": "Próg obowiązkowej rejestracji",
+      "value": "OMR 38,500",
+      "note": "Roczne dostawy w tej wysokości lub wyższe wymagają rejestracji. Ustawa pozostawia tę kwotę decyzji przewodniczącego (Chairman's Decision), zamiast ustalać ją w samej ustawie.",
+      "source": 2
+    },
+    {
+      "label": "Próg dobrowolnej rejestracji",
+      "value": "OMR 19,250",
+      "note": "Od tego poziomu możesz zarejestrować się poniżej progu obowiązkowego.",
+      "source": 2
+    },
+    {
+      "label": "Język faktury",
+      "value": "Arabski",
+      "note": "Fakturę można też wystawić po angielsku, pod warunkiem że na żądanie dostępne jest tłumaczenie na arabski.",
+      "source": 3
+    },
+    {
+      "label": "Limit faktury uproszczonej",
+      "value": "OMR 500",
+      "note": "Dostawy poniżej tej wartości mogą być dokumentowane fakturą uproszczoną za zgodą Tax Authority.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artykuł 145 Executive Regulations wymienia, co musi zawierać faktura podatkowa. Artykuł poprzedza listę słowami „w szczególności”, więc traktuj ją jako minimum, a nie pełny zestaw.",
+    "items": [
+      "Słowa „Faktura podatkowa”",
+      "Data wystawienia, data dostawy i data płatności",
+      "Kolejny numer faktury",
+      "Pełna nazwa, adres i numer identyfikacji podatkowej dostawcy",
+      "Pełna nazwa, adres i numer identyfikacji podatkowej klienta lub jego odpowiednik w kraju siedziby",
+      "Opis dostarczonych towarów i usług",
+      "Ilość towarów",
+      "Data ewentualnej zaliczki",
+      "Łączne wynagrodzenie bez podatku",
+      "Zastosowana stawka podatku",
+      "Udzielone obniżki ceny lub rabaty oraz dotacje państwowe, jeśli nie są już uwzględnione",
+      "Wartość podlegająca opodatkowaniu"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority publikuje Executive Regulations wyłącznie po arabsku. Ta lista to wierne odczytanie oficjalnego tekstu arabskiego, a nie oficjalne tłumaczenie, więc przed oparciem się na niej potwierdź brzmienie z doradcą podatkowym."
+  },
+  "einvoicing": {
+    "status": "Ogłoszone i wprowadzane etapami, jeszcze nieobowiązkowe",
+    "body": "Program e-faktur w Omanie nazywa się Fawtara. Tax Authority opisuje model pięciu stron, w którym faktury trafiają do urzędu przez akredytowanego dostawcę usług, i wyznacza cztery etapy: pilotaż, rozszerzenie, objęcie mniejszych firm i pełne wdrożenie. Urząd nie opublikował dat etapów po angielsku, a daty krążące w prasie nie pojawiają się na jego własnych stronach. Każdy konkretny termin Fawtara, o którym przeczytasz gdzie indziej, traktuj jako niepotwierdzony, dopóki nie opublikuje go Tax Authority.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Jak zrobić to dobrze",
+      "title": "Na czym firmy potykają się w Omanie",
+      "body": "Większość problemów z fakturami VAT ma tu trzy źródła. Pierwsze to numer identyfikacji podatkowej klienta: jeśli go pominiesz, klient może nie odzyskać podatku naliczonego, a Twoja faktura stanie się jego kosztem i Twoim problemem. Drugie to numeracja faktur. Artykuł 145 wymaga kolejnego numeru, a najszybszy sposób, by ją złamać, to usunięcie lub przenumerowanie już wysłanej faktury. Zamiast tego popraw ją fakturą korygującą. Trzecie to język: faktura musi być po arabsku, a wystawianie jej tylko po angielsku bez wersji arabskiej dostępnej na żądanie naraża Cię na ryzyko.",
+      "items": [
+        "Zbierz numer podatkowy klienta przed wystawieniem, nie po",
+        "Nigdy nie usuwaj wystawionej faktury, wystaw korektę",
+        "Miej wersję arabską dostępną na żądanie",
+        "Zapisuj datę dostawy oddzielnie od daty wystawienia"
+      ]
+    },
+    {
+      "eyebrow": "Przygotowanie",
+      "title": "Przygotuj się na Fawtara bez zgadywania dat",
+      "body": "Nie potrzebujesz opublikowanego terminu, by być gotowym. Każdy system e-faktur, który zaczął działać w regionie, wymagał tej samej podstawowej dyscypliny: czystych, kompletnych danych klientów z numerami podatkowymi, nieprzerwanej numeracji faktur, sposobu opodatkowania zapisanego dla każdej pozycji, a nie całej faktury, oraz dokumentów przechowywanych tak, by można je było wydobyć na żądanie. Firma, której ewidencja już spełnia te cztery warunki, ma przed sobą krótkie wdrożenie, kiedykolwiek pojawią się daty. Firma, która ich nie spełnia, spędzi okres przejściowy na porządkowaniu danych.",
+      "items": [
+        "Kompletne dane klientów, z numerami podatkowymi",
+        "Jedna nieprzerwana numeracja w każdej serii",
+        "Sposób opodatkowania zapisany dla każdej pozycji",
+        "Dokumenty dostępne na żądanie"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Jaka jest stawka VAT w Omanie?",
+      "a": "Pięć procent. Artykuł 36 VAT Law, wprowadzonej Royal Decree 121/2020, ustala podatek od importu i dostaw towarów lub usług podlegających opodatkowaniu na pięć procent wartości podlegającej opodatkowaniu. Niektóre dostawy mają stawkę zerową lub są zwolnione, a to nie to samo: dostawca ze stawką zerową nadal odzyskuje podatek naliczony, a zwolniony nie."
+    },
+    {
+      "q": "Kiedy muszę zarejestrować się do VAT w Omanie?",
+      "a": "Gdy Twoje roczne dostawy osiągną lub mają osiągnąć OMR 38,500. Dobrowolnie możesz zarejestrować się od OMR 19,250. Obie kwoty pochodzą z decyzji przewodniczącego w sprawie progów rejestracji (Chairman's Decision), a nie z samej VAT Law, dlatego mogą się zmienić bez zmiany ustawy."
+    },
+    {
+      "q": "Czy e-faktury są już obowiązkowe w Omanie?",
+      "a": "Jeszcze nie. Tax Authority ogłosił Fawtara, wprowadzany etapami model e-faktur pięciu stron z akredytowanymi dostawcami usług, i opisuje cztery etapy wdrożenia. Nie opublikował dat etapów po angielsku na własnych stronach, więc nie podajemy tu daty. Aktualną sytuację sprawdź na stronach Tax Authority poświęconych e-fakturom."
+    },
+    {
+      "q": "Czy mogę wystawić fakturę po angielsku w Omanie?",
+      "a": "Możesz wystawić ją po angielsku, ale Executive Regulations wymagają, by faktura podatkowa była po arabsku, i dopuszczają dodatkowo inny język, pod warunkiem że tłumaczenie na arabski jest dostępne na żądanie. W praktyce oznacza to korzystanie z dwujęzycznego szablonu zamiast wyłącznie angielskiego."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Fakturuj poprawnie w Omanie, za darmo",
+  "ctaSub": "Ustaw własną stawkę podatku, fakturuj w dowolnej walucie i miej fakturę po arabsku i angielsku z tego samego zapisu.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, artykuł 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Chairman's Decision w sprawie progów obowiązkowej i dobrowolnej rejestracji",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Decision 53/2021, artykuły 145 do 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Strony programu e-faktur (Fawtara)",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

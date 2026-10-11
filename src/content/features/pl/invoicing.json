@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Faktury",
+  "metaTitle": "Funkcje zarządzania fakturami | Paper & Pen ERP",
+  "metaDescription": "Poznaj śledzenie faktur, płatności online, przypomnienia, konfigurowalny podatek, pięć języków i pracę w wielu walutach w Paper & Pen ERP.",
+  "keywords": "program do faktur, darmowe fakturowanie, faktury online, wysyłanie faktur, płatności online, faktura vat, faktury cykliczne, przypomnienia o płatności",
+  "heroEyebrow": "Za darmo na zawsze",
+  "heroTitle": "Faktury, dzięki którym dostajesz <em class=\"text-copper-400 not-italic\">pieniądze szybciej</em>",
+  "heroSubtitle": "Przygotuj dopracowaną fakturę w niecałą minutę, wyślij ją e-mailem lub przez WhatsApp i pozwól klientowi zapłacić online. Dla każdej waluty i każdej stawki podatku, używane na całym świecie.",
+  "heroBullets": ["Sprzedaż i faktury za darmo na zawsze", "Dowolna waluta, dowolna stawka podatku", "Link do płatności online na każdej fakturze"],
+  "features": [
+    { "icon": "bolt", "title": "Faktura w kilka sekund", "desc": "Wybierz klienta, dodaj pozycje i wyślij. Sumy i podatek liczą się w trakcie pisania." },
+    { "icon": "globe", "title": "Dowolna waluta", "desc": "Wystawiaj w OMR, AED, SAR, USD, EUR, GBP lub dowolnej walucie z poprawną liczbą miejsc po przecinku." },
+    { "icon": "card", "title": "Płatności online", "desc": "Każda faktura ma bezpieczny link do płatności, więc klient płaci kartą jednym dotknięciem." },
+    { "icon": "bell", "title": "Automatyczne przypomnienia", "desc": "Uprzejme, zaplanowane przypomnienia upominają się o zaległe faktury za Ciebie." },
+    { "icon": "refresh", "title": "Faktury cykliczne", "desc": "Ustaw abonamenty i stałe zlecenia, by fakturowały się same, co tydzień lub co miesiąc." },
+    { "icon": "calc", "title": "Gotowe na VAT i podatki", "desc": "Stosuj dowolną stawkę VAT lub podatku od sprzedaży, liczoną od kwoty netto po rabatach." }
+  ],
+  "sections": [
+    { "eyebrow": "Stworzone dla całego świata", "title": "Jedno narzędzie do faktur na każdy rynek", "body": "Niezależnie od tego, czy wystawiasz faktury w dolarach z Nowego Jorku, czy w rialach z Maskatu, Paper & Pen zajmuje się walutą, miejscami po przecinku i zasadami podatkowymi. Przełączaj interfejs między angielskim, arabskim, hindi, bengalskim i urdu, by cały zespół pracował we własnym języku.", "items": ["Wiele walut z poprawnym formatowaniem", "Konfigurowalny podatek dla każdego kraju", "Faktury po arabsku, w pełni od prawej do lewej"] },
+    { "eyebrow": "Od oferty do gotówki", "title": "Faktury w pełnym systemie ERP", "body": "Twoje faktury nie żyją w oderwaniu od reszty. Zamień zaakceptowaną ofertę w fakturę jednym kliknięciem, zarejestruj płatność i zobacz, jak sama trafia do ksiąg. Gdy firma rośnie, magazyn, księgowość i płace czekają już w tej samej przestrzeni roboczej.", "items": ["Oferta w fakturę jednym kliknięciem", "Płatności uzgadniają się z księgą", "Nigdy nie wpisujesz niczego dwa razy"] }
+  ],
+  "faqs": [
+    { "q": "Czy faktury są naprawdę darmowe?", "a": "Tak. Sprzedaż i faktury są bezpłatne na zawsze, bez limitu liczby faktur i klientów. Płacisz tylko, gdy dodasz opcjonalne moduły, takie jak Magazyn czy Płace." },
+    { "q": "Czy klienci mogą zapłacić fakturę online?", "a": "Tak. Każda faktura może zawierać bezpieczny link do płatności online obsługiwany przez Paymob i inne bramki, więc klienci płacą kartą, a płatność uzgadnia się automatycznie." },
+    { "q": "Czy obsługuje VAT i inne podatki?", "a": "Tak. Ustaw dowolną stawkę, w tym konfigurowalny VAT dla krajów Zatoki lub to, co obowiązuje w Twoim kraju. Podatek liczony jest od kwoty netto po rabacie." },
+    { "q": "Czy mogę wysyłać faktury po arabsku?", "a": "Tak. Cały interfejs i plik PDF faktury mogą być po arabsku, w pełni od prawej do lewej, obok angielskiego, hindi, bengalskiego i urdu." },
+    { "q": "Czy mogę zautomatyzować fakturowanie cykliczne?", "a": "Tak. Utwórz fakturę cykliczną dla stałych zleceń lub abonamentów, a Paper & Pen wystawi ją i wyśle zgodnie z harmonogramem." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Wyślij pierwszą fakturę za darmo",
+  "ctaSub": "Załóż darmową przestrzeń roboczą i wystaw fakturę pierwszemu klientowi w kilka minut. Bez karty, za darmo na zawsze."
+}

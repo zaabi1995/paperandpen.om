@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "salons",
+  "order": 5,
+  "title": "Salony i spa",
+  "metaTitle": "Program do rozliczeń, personelu i magazynu dla salonów | Paper & Pen",
+  "metaDescription": "Darmowe rozliczanie oraz magazyn produktów, płace pracowników i historia klientów dla salonów, spa i gabinetów. Rozliczaj usługi szybko i płać zespołowi.",
+  "keywords": "program dla salonu, rozliczenia w spa, erp dla salonu, program dla salonu kosmetycznego, prowizje pracowników, magazyn produktów w salonie, historia klientów",
+  "heroEyebrow": "Dla salonów, spa i gabinetów",
+  "heroTitle": "Rozliczaj usługi szybko, <em class=\"text-copper-400 not-italic\">bądź blisko klientów</em>",
+  "heroSubtitle": "Nabijaj usługi i sprzedaż produktów w kilka sekund, śledź zużywane produkty i płać zespołowi z automatycznie wyliczoną prowizją. Paper & Pen obsługuje recepcję, magazyn i księgi naraz.",
+  "heroBullets": ["Darmowe, szybkie rozliczanie usług", "Magazyn produktów na sprzedaż", "Płace i prowizje pracowników"],
+  "features": [
+    { "icon": "receipt", "title": "Szybkie rozliczanie", "desc": "Dodaj usługi i produkty, przyjmij płatność i udostępnij pokwitowanie w kilka sekund." },
+    { "icon": "users", "title": "Historia klientów", "desc": "Przechowuj dane kontaktowe i poprzednie wizyty, by każdy klient czuł się zapamiętany." },
+    { "icon": "inventory", "title": "Magazyn produktów", "desc": "Śledź produkty na sprzedaż i do użytku w salonie według jednostki i partii, z alertami o niskim stanie." },
+    { "icon": "hr", "title": "Personel i prowizje", "desc": "Naliczaj płace i licz prowizje pracowników od usług i sprzedaży produktów." },
+    { "icon": "whatsapp", "title": "Pokwitowania przez WhatsApp", "desc": "Wysyłaj klientom pokwitowania i wiadomości po wizycie przez WhatsApp jednym dotknięciem." },
+    { "icon": "chart", "title": "Raporty usług", "desc": "Zobacz najpopularniejsze usługi, godziny szczytu i przychody według pracownika lub oddziału." }
+  ],
+  "sections": [
+    { "eyebrow": "Sprawniejsza recepcja", "title": "Rozliczanie, które docenią klienci", "body": "Dodaj do rachunku usługi i ewentualne produkty, zastosuj rabat lub pakiet, przyjmij płatność i udostępnij przejrzyste pokwitowanie przez WhatsApp, zanim klient wstanie z fotela. Dane klienta i historia wizyt są na tym samym ekranie, więc zespół wita stałych klientów po imieniu i poleca właściwą kolejną usługę.", "items": ["Usługi i produkty na jednym rachunku", "Pokwitowania od razu przez WhatsApp", "Kontakt i historia wizyt pod ręką"] },
+    { "eyebrow": "Magazyn i personel w porządku", "title": "Produkty pod kontrolą, zespół opłacony poprawnie", "body": "Produkty używane w salonie znikają, jeśli nikt ich nie pilnuje. Paper & Pen śledzi produkty na sprzedaż i profesjonalne według jednostki i partii, sygnalizuje niski stan i łączy zużycie ze sprzedażą. Naliczaj płace zespołu i pozwól systemowi wyliczyć prowizję od sprzedanych usług i produktów. Stworzony w Omanie z natywną obsługą OMR, AED i SAR oraz VAT 5%, gotowy na USD, EUR oraz każdy rynek i stawkę podatku.", "items": ["Produkty na sprzedaż i do salonu z alertami", "Płace z automatyczną prowizją", "Dowolna waluta i stawka podatku, gotowe na VAT"] }
+  ],
+  "faqs": [
+    { "q": "Czy mogę rozliczać usługi i produkty razem?", "a": "Tak. Dodaj dowolne połączenie usług i produktów do jednego rachunku, zastosuj rabaty lub pakiety, przyjmij płatność i od razu udostępnij pokwitowanie." },
+    { "q": "Czy mogę liczyć prowizje pracowników?", "a": "Tak. Moduł HR i płace wylicza prowizję od usług i produktów sprzedanych przez każdego pracownika i nalicza jego płace." },
+    { "q": "Czy przechowuje historię klientów?", "a": "Tak. Zapisuj dane kontaktowe i poprzednie wizyty, by zespół rozpoznawał stałych klientów i polecał właściwą kolejną usługę." },
+    { "q": "Czy mogę śledzić stany produktów?", "a": "Tak. Śledź produkty na sprzedaż i do użytku w salonie według jednostki i partii, z alertami o niskim stanie, w module Magazyn." },
+    { "q": "Czy rozliczanie jest darmowe dla salonu?", "a": "Sprzedaż i faktury, w tym pokwitowania i karty klientów, są bezpłatne na zawsze. Dodaj Magazyn oraz HR i płace, by obsłużyć zapasy i prowizje." }
+  ],
+  "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
+  "ctaTitle": "Prowadź salon, nie papiery",
+  "ctaSub": "Zacznij za darmo od rozliczania usług i kart klientów, a potem dodaj Magazyn i Płace, by obsłużyć zapasy i prowizje."
+}

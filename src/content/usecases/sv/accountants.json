@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "accountants",
+  "order": 4,
+  "title": "Redovisningskonsulter och bokförare",
+  "metaTitle": "Bokföringsprogram för redovisningskonsulter | Paper & Pen",
+  "metaDescription": "Dubbel bokföring, momsdeklarationer, finansiella rapporter och arbetsytor för flera klienter för redovisningskonsulter. Rena böcker, valfri valuta och skattesats.",
+  "keywords": "bokföringsprogram för redovisningsbyrå, bokföringsprogram, dubbel bokföring, program för momsdeklaration, finansiella rapporter, bokföring för flera klienter, råbalans",
+  "heroEyebrow": "För redovisningskonsulter och bokförare",
+  "heroTitle": "Rena böcker som <em class=\"text-copper-400 not-italic\">alltid stämmer</em>",
+  "heroSubtitle": "Riktig dubbel bokföring, automatisk bokföring från varje faktura och betalning, momsdeklarationer och rapporter som dina klienter kan lita på. Paper & Pen sköter bokföringen så att du kan ägna dig åt rådgivningen.",
+  "heroBullets": ["Äkta dubbel bokföring", "Bokförs automatiskt från försäljning och inköp", "Momsdeklarationer och finansiella rapporter"],
+  "features": [
+    { "icon": "accounting", "title": "Dubbel bokföring", "desc": "Varje transaktion bokför en balanserad verifikation i en riktig kontoplan." },
+    { "icon": "refresh", "title": "Automatisk bokföring", "desc": "Fakturor, betalningar och lagerrörelser bokförs i huvudboken automatiskt." },
+    { "icon": "calc", "title": "Momsdeklarationer", "desc": "Skatten följs på varje dokument, klar för en momsdeklaration på 5 % eller valfri sats." },
+    { "icon": "reports", "title": "Finansiella rapporter", "desc": "Resultaträkning, balansräkning, råbalans och huvudböcker när du vill." },
+    { "icon": "doc", "title": "Verifieringskedja", "desc": "Varje post kan spåras tillbaka till sitt underlag för en ren revision." },
+    { "icon": "globe", "title": "Valfri valuta och skatt", "desc": "Hantera klienter med flera valutor och alla skattesystem i världen." }
+  ],
+  "sections": [
+    { "eyebrow": "Slut på omskrivning", "title": "Huvudboken skriver sig själv", "body": "Det är i manuella verifikationer som felen smyger sig in. I Paper & Pen bokför varje faktura, betalning, inköp och lagerrörelse en balanserad verifikation med dubbel bokföring i en riktig kontoplan, så att böckerna alltid är aktuella och avstämda. Du lägger tiden på granskning och rådgivning, inte på att knappa in poster, och varje siffra går att spåra direkt tillbaka till sitt underlag.", "items": ["Balanserade verifikationer från varje transaktion", "Riktig kontoplan", "Fullständig verifieringskedja till underlagen"] },
+    { "eyebrow": "Rapportera och deklarera med trygghet", "title": "Moms, rapporter och bokslut när du behöver dem", "body": "Ta fram resultaträkning, balansräkning, råbalans eller huvudbok när en klient frågar, och gör en momsdeklaration med skatten följd på varje dokument. Paper & Pen hanterar konfigurerbar moms för Gulfstaterna direkt och valfri skattesats eller valuta för klienter på andra håll, så att du kan betjäna klienter på flera marknader. Byggt i Oman och lika hemma i Muscat som i Manchester.", "items": ["Resultaträkning, balansräkning, råbalans, huvudböcker", "Moms följd per dokument, klar att deklarera", "Flera valutor, alla skattesystem"] }
+  ],
+  "faqs": [
+    { "q": "Är det här riktig dubbel bokföring?", "a": "Ja. Varje transaktion bokför en balanserad verifikation i en riktig kontoplan, så att råbalansen alltid går jämnt ut och böckerna stämmer." },
+    { "q": "Bokförs fakturor och betalningar automatiskt?", "a": "Ja. Försäljning, inköp, betalningar och lagerrörelser bokförs i huvudboken automatiskt, så det finns inget att knappa in igen och betydligt mindre risk för fel." },
+    { "q": "Kan jag ta fram momsdeklarationer?", "a": "Ja. Skatten följs på varje dokument, så du kan ta fram en momsdeklaration med konfigurerbar moms för Gulfstaterna eller en deklaration med valfri sats för klienter i andra skattesystem." },
+    { "q": "Vilka rapporter kan jag ta fram?", "a": "Resultaträkning, balansräkning, råbalans, huvudbok och kontoutdrag för kunder eller leverantörer, alla när du vill och spårbara till underlagen." },
+    { "q": "Kan jag hantera klienter i olika valutor?", "a": "Ja. Paper & Pen hanterar klienter med flera valutor och alla skattesystem, så att du kan betjäna klienter i flera länder från en plattform." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/invoicing/ledgers", "/use-cases/small-business", "/pricing"],
+  "ctaTitle": "Mindre tid på inmatning, mer tid på rådgivning",
+  "ctaSub": "Låt Paper & Pen bokföra automatiskt så att böckerna stämmer och rapporterna är klara när du behöver dem."
+}

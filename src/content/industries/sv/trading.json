@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "trading",
+  "order": 1,
+  "title": "Handel och grossist",
+  "metaTitle": "Affärssystem för handels- och grossistföretag | Paper & Pen",
+  "metaDescription": "Gratis fakturering plus lager i realtid, inköpsordrar och flera valutor för handlare, importörer och grossister. Offerera, sälj och stäm av snabbare.",
+  "keywords": "program för handelsföretag, affärssystem grossist, fakturering distributör, program för import och export, inköpsordersystem, handel i flera valutor, lagerstyrning för handlare",
+  "heroEyebrow": "För handlare, importörer och grossister",
+  "heroTitle": "Köp, sälj och lagerför med <em class=\"text-copper-400 not-italic\">en tydlig huvudbok</em>",
+  "heroSubtitle": "Från inköpsorder till kundfaktura håller Paper & Pen dina varor, kostnader och pengar i takt. Offerera snabbt, flytta lager utan gissningar och känn din marginal på varje affär.",
+  "heroBullets": ["Gratis offerter och fakturering", "Lager och landad kostnad i realtid", "Köp i en valuta, sälj i en annan"],
+  "features": [
+    { "icon": "cart", "title": "Offert till faktura", "desc": "Gör om en offert till en säljorder och faktura med två klick, utan omskrivning." },
+    { "icon": "inventory", "title": "Lager i realtid", "desc": "Varje försäljning och inköp flyttar lagret direkt i alla dina lagerställen." },
+    { "icon": "truck", "title": "Inköpsordrar", "desc": "Skicka inköpsordrar till leverantörer, ta emot varor och uppdatera lager och kostnad i ett flöde." },
+    { "icon": "globe", "title": "Flera valutor", "desc": "Köp i USD eller EUR och sälj i OMR, AED eller SAR, med rätt decimaler hela vägen." },
+    { "icon": "calc", "title": "Marginal på varje affär", "desc": "Se kostnad, pris och vinst per rad så att du aldrig säljer under din lägstanivå." },
+    { "icon": "refresh", "title": "Automatisk avstämning", "desc": "Fakturor, betalningar och lagerrörelser bokförs automatiskt." }
+  ],
+  "sections": [
+    { "eyebrow": "Snabbhet vinner affärer", "title": "Offerera i dag, leverera i morgon", "body": "Inom handel vinner ofta den första rena offerten ordern. Bygg en proffsig offert på några minuter, skicka den på WhatsApp eller via e-post och gör om den godkända till en säljorder, följesedel och faktura utan att mata in något två gånger. Kunden får ett snyggt dokument och du behåller ett rent spår.", "items": ["Offert till säljorder till faktura med några klick", "Följesedlar och packning inbyggt", "Dela direkt på WhatsApp eller via e-post"] },
+    { "eyebrow": "Känn din verkliga kostnad", "title": "Lager och marginal som säger sanningen", "body": "Importörer och grossister lever och dör på marginalen. Paper & Pen värderar lagret med genomsnittspris eller FIFO och visar vinsten per rad medan du offererar, så att du prissätter med trygghet. Köp utomlands i en valuta och sälj hemma i en annan medan bokföringen förblir avstämd. Byggt i Oman med inbyggt stöd för OMR, AED och SAR plus konfigurerbar moms, och lika bekvämt med USD, EUR eller valfri skattesats du anger.", "items": ["Genomsnittspris eller FIFO för korrekt värde", "Marginal per rad medan du offererar", "Moms för Gulfstaterna eller valfri skattesats, valfri valuta"] }
+  ],
+  "faqs": [
+    { "q": "Kan jag offerera i en valuta och köpa in lager i en annan?", "a": "Ja. Köp in i USD, EUR, CNY eller valfri valuta och sälj i OMR, AED, SAR eller det dina kunder använder. Decimaler och summor anpassas automatiskt och bokföringen förblir avstämd." },
+    { "q": "Uppdaterar faktureringen mitt lager?", "a": "Ja. Varje faktura minskar lagret och varje inleverans på en inköpsorder ökar det i realtid, i flera lagerställen, utan manuell räkning." },
+    { "q": "Kan jag se vinstmarginalen per artikel?", "a": "Ja. Paper & Pen visar kostnad, försäljningspris och marginal på varje rad medan du bygger en offert eller faktura, så att du skyddar din lägstanivå i varje affär." },
+    { "q": "Är det verkligen gratis för ett handelsföretag?", "a": "Försäljning och fakturering är gratis för alltid, inklusive offerter, fakturor och följesedlar. Lägg till modulen Lager när du behöver lager och landad kostnad i realtid." },
+    { "q": "Hanterar det moms för Gulfstaterna och andra marknader?", "a": "Ja. Använd konfigurerbar moms för Gulfstaterna direkt, eller ställ in valfri skattesats för valfritt land. Skatten beräknas alltid på nettot efter rabatt." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Driv din handel med en ren huvudbok",
+  "ctaSub": "Börja gratis med offerter och fakturering och lägg sedan till Lager och Redovisning när din handel växer."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "retail",
+  "order": 2,
+  "title": "Detaljhandel och butiker",
+  "metaTitle": "Kassa och lagersystem för butiker och detaljhandel · Paper & Pen",
+  "metaDescription": "Gratis fakturering plus streckkodslager, varningar för lågt saldo och löpande lagervärde för butiker och handlare. Sälj snabbt och ta aldrig slut på varor.",
+  "keywords": "program för detaljhandel, kassasystem butik, streckkodslager, fakturering i kassan, varning lågt lager, affärssystem detaljhandel, lager för flera butiker",
+  "heroEyebrow": "För butiker och handlare",
+  "heroTitle": "Sälj snabbt, <em class=\"text-copper-400 not-italic\">ta aldrig slut</em>",
+  "heroSubtitle": "Ta betalt av kunderna på sekunder, skanna streckkoder för att inventera och låt lagret uppdatera sig självt. Paper & Pen håller hyllor, försäljning och bokföring i takt så att du räknar mindre och säljer mer.",
+  "heroBullets": ["Gratis, snabb fakturering", "Stöd för streckkoder och artikelnummer", "Varningar innan varorna tar slut"],
+  "features": [
+    { "icon": "receipt", "title": "Snabb fakturering", "desc": "Slå in en försäljning och skriv ut eller dela ett kvitto på sekunder, på valfri enhet." },
+    { "icon": "inventory", "title": "Streckkodslager", "desc": "Skanna för att inventera eller flytta lager, ordnat efter artikelnummer, batch och enhet." },
+    { "icon": "bell", "title": "Varningar för lågt saldo", "desc": "Ställ in beställningspunkter och få en varning innan en storsäljare når noll." },
+    { "icon": "truck", "title": "Lager i flera butiker", "desc": "Följ och flytta lager mellan filialer med aktuella saldon överallt." },
+    { "icon": "calc", "title": "Löpande värdering", "desc": "Genomsnittspris eller FIFO håller lagervärdet korrekt i balansräkningen." },
+    { "icon": "chart", "title": "Rapporter om storsäljare", "desc": "Se vad som säljer och vad som står still, per artikel, kategori och butik." }
+  ],
+  "sections": [
+    { "eyebrow": "Snabbare i kassan", "title": "Fakturering byggd för en fullsatt disk", "body": "Kunderna väntar inte. Bygg en försäljning genom att söka efter varor, ge en rabatt, ta betalt och lämna över ett rent kvitto på sekunder. Kvitton kan delas på WhatsApp eller skrivas ut i kassan, och varje försäljning flyter rakt in i lagret och bokföringen utan att något behöver knappas in igen.", "items": ["Sök för att lägga till varor snabbt", "Skriv ut eller dela kvitton direkt", "Rabatter och skatt sköts automatiskt"] },
+    { "eyebrow": "Ett lager som sköter sig självt", "title": "Vet alltid vad som finns på hyllan", "body": "Manuella inventeringar blir inaktuella i samma stund som du gör en försäljning. I Paper & Pen justerar varje försäljning och leverans lagret i realtid, så att siffran på skärmen stämmer med hyllan. Ställ in beställningspunkter så flaggar systemet sena påfyllningar innan du förlorar en försäljning. Byggt i Oman med inbyggt stöd för OMR, AED och SAR och 5 % moms, och redo för USD, EUR eller den skattesats du handlar med.", "items": ["Lager i realtid vid varje försäljning", "Beställningspunkter och varningar för lågt saldo", "Valfri valuta, valfri skattesats"] }
+  ],
+  "faqs": [
+    { "q": "Kan jag sälja med en streckkodsläsare?", "a": "Inte i kassan. I kassan söker du fram varor och lägger till dem i försäljningen. Streckkodsläsaren fungerar för lagret: skanna en vara för att inventera den eller registrera lager in eller ut. Varorna är ordnade efter artikelnummer, batch och enhet." },
+    { "q": "Uppdateras lagret när jag säljer?", "a": "Ja. Varje försäljning minskar lagret och varje leverans ökar det i realtid, i alla dina butiker, utan manuell räkning." },
+    { "q": "Kan jag driva mer än en butik?", "a": "Ja. Följ lagret per butik, flytta mellan filialer och se aktuella saldon överallt från en arbetsyta." },
+    { "q": "Är faktureringen verkligen gratis?", "a": "Försäljning och fakturering, inklusive kvitton, är gratis för alltid. Lägg till modulen Lager när du vill ha lagerstyrning med streckkoder och varningar för lågt saldo." },
+    { "q": "Fungerar det utanför Gulfstaterna?", "a": "Ja. Paper & Pen fungerar i valfri valuta med valfri skattesats, så att handlare var som helst kan fakturera och sköta lagret, med arabiska, engelska och fler språk till hands." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Driv din butik utan gissningar",
+  "ctaSub": "Börja gratis med fakturering och kvitton och lägg sedan till Lager för streckkodslager och varningar för lågt saldo."
+}

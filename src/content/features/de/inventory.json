@@ -14,7 +14,7 @@
     { "icon": "inventory", "title": "Bestand in Echtzeit", "desc": "Mengen ändern sich in dem Moment, in dem Sie Ware verkaufen, einkaufen oder umlagern." },
     { "icon": "truck", "title": "Mehrere Lager", "desc": "Bestände über Standorte und Filialen hinweg verfolgen und umlagern, mit vollem Überblick." },
     { "icon": "bell", "title": "Warnung bei niedrigem Bestand", "desc": "Meldebestände festlegen und gewarnt werden, bevor ein Schnelldreher ausgeht." },
-    { "icon": "receipt", "title": "Barcode & SKU", "desc": "Per Scan verkaufen oder einbuchen, geordnet nach SKU, Charge und Mengeneinheit." },
+    { "icon": "receipt", "title": "Barcode & SKU", "desc": "Per Scan zählen oder umbuchen, geordnet nach SKU, Charge und Mengeneinheit." },
     { "icon": "calc", "title": "Laufende Bewertung", "desc": "Durchschnittskosten oder FIFO halten den Lagerwert in Ihrer Bilanz genau." },
     { "icon": "refresh", "title": "Mit dem Verkauf verknüpft", "desc": "Rechnungen und Bestellungen bewegen den Bestand automatisch, ohne manuelle Updates." }
   ],
@@ -25,7 +25,7 @@
   "faqs": [
     { "q": "Ist das Lager kostenlos enthalten?", "a": "Das Lager ist ein optionales, kostenpflichtiges Zusatzmodul. Das Kernmodul Vertrieb & Rechnungen ist für immer kostenlos, und Sie fügen das Lager hinzu, wenn Sie eine Bestandsführung in Echtzeit brauchen." },
     { "q": "Kann ich mehrere Lager verwalten?", "a": "Ja. Verfolgen Sie den Bestand je Standort, lagern Sie zwischen Standorten um und sehen Sie überall die aktuellen Mengen." },
-    { "q": "Werden Barcodes unterstützt?", "a": "Ja. Nutzen Sie Barcodes und SKUs, um schneller zu verkaufen und einzubuchen, mit Unterstützung für Chargen und Mengeneinheiten." },
+    { "q": "Werden Barcodes unterstützt?", "a": "Ja. Scannen Sie einen Lieferanten-Barcode, eine SKU oder ein gedrucktes QR-Etikett, um schneller zu zählen und Bestand zu bewegen, mit Unterstützung für Chargen und Mengeneinheiten." },
     { "q": "Wie wird der Bestand bewertet?", "a": "Wählen Sie Durchschnittskosten oder FIFO. Die Bewertung aktualisiert sich bei jeder Bewegung und wird automatisch in Ihre Buchhaltung gebucht." },
     { "q": "Aktualisiert ein Verkauf den Bestand automatisch?", "a": "Ja. Rechnungen verringern den Bestand und Einkäufe erhöhen ihn in Echtzeit. Sie müssen Mengen nie von Hand ändern." }
   ],

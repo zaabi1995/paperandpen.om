@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "HR och lön",
+  "metaTitle": "HR- och lönesystem · Kör lönen enkelt · Paper & Pen",
+  "metaDescription": "Hantera anställda, närvaro, ledighet och lönebesked på ett ställe. Kör lönen i valfri valuta, bokför lönerna och var redo för avgångsvederlag.",
+  "keywords": "hr-system, lönesystem, lönebesked, närvaro, ledighetshantering, avgångsvederlag, wps, personaladministration",
+  "heroEyebrow": "Tilläggsmodul",
+  "heroTitle": "Betala ditt team <em class=\"text-copper-400 not-italic\">rätt</em>, varje gång",
+  "heroSubtitle": "Anställda, närvaro, ledighet och lön i en prydlig modul. Kör en lönekörning, skapa lönebesked och bokför lönerna på några minuter, inte dagar.",
+  "heroBullets": ["Kör lönen på några minuter", "Lönebesked och självservice för ledighet", "Bokförs direkt i redovisningen"],
+  "features": [
+    { "icon": "hr", "title": "Personalregister", "desc": "En profil per person: avtal, lön, dokument och historik." },
+    { "icon": "clock", "title": "Närvaro och övertid", "desc": "Registrera skift, övertid och frånvaro som flödar in i lönen." },
+    { "icon": "doc", "title": "Ledighetshantering", "desc": "Ställ in ledighetsregler, godkänn ansökningar och följ saldon automatiskt." },
+    { "icon": "receipt", "title": "Lönebesked", "desc": "Skapa tydliga, specificerade lönebesked och dela dem med varje anställd." },
+    { "icon": "calc", "title": "Avdrag och avgångsvederlag", "desc": "Hantera lån, avdrag och beräkning av avgångsvederlag på rätt sätt." },
+    { "icon": "accounting", "title": "Bokförs automatiskt", "desc": "Varje lönekörning bokför löner och periodiseringar i din redovisning automatiskt." }
+  ],
+  "sections": [
+    { "eyebrow": "Mindre administration", "title": "Från närvaro till lönebesked utan kalkylark", "body": "Närvaro, övertid, ledighet och lån matar alla lönekörningen, så du slipper sy ihop kalkylark vid månadsskiftet. Godkänn lönekörningen en gång så tar Paper & Pen fram alla lönebesked och lönebokföringen på en gång.", "items": ["Närvaro och övertid matar lönen", "Lån och avdrag hanteras", "Lönebesked skapas i en omgång"] },
+    { "eyebrow": "Var du än har anställda", "title": "Lön som passar ditt land och din valuta", "body": "Betala personalen i valfri valuta och ställ in de tillägg, avdrag och regler för avgångsvederlag som gäller där du verkar. Med gränssnitt på arabiska, engelska, hindi, bengali och urdu kan ditt team läsa sina egna lönebesked och ansöka om ledighet på sitt eget språk.", "items": ["Löner i valfri valuta", "Konfigurerbara tillägg och avdrag", "Redo för avgångsvederlag"] }
+  ],
+  "faqs": [
+    { "q": "Är HR och lön gratis?", "a": "Det är ett valfritt betalt tillägg. Kärnan som är gratis för alltid omfattar Försäljning och fakturering, och du lägger till HR och lön när du behöver hantera personal och löner." },
+    { "q": "Kan jag köra lönen i valfri valuta?", "a": "Ja. Betala ditt team i OMR, AED, SAR, USD, EUR eller valfri valuta, med tillägg och avdrag inställda enligt dina regler." },
+    { "q": "Hanterar det närvaro och ledighet?", "a": "Ja. Registrera närvaro och övertid, ställ in ledighetsregler, godkänn ansökningar och följ saldon, allt kopplat till lönen." },
+    { "q": "Bokförs lönen i redovisningen?", "a": "Ja. Varje körning bokför löner, tillägg och periodiseringar i huvudboken automatiskt när Redovisning är aktiverat." },
+    { "q": "Kan det beräkna avgångsvederlag?", "a": "Ja. Ställ in regler för avgångsvederlag och gratifikation för ditt land så att slutavräkningar beräknas korrekt." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Gör lönedagen smärtfri",
+  "ctaSub": "Börja gratis med fakturering och lägg till HR och lön för att hantera ditt team och köra lönen på några minuter."
+}

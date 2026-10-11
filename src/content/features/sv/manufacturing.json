@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Tillverkning",
+  "metaTitle": "Program för tillverkning och produktion · Paper & Pen",
+  "metaDescription": "Planera produktionen med strukturlistor, tillverkningsorder och verklig kalkyl. Förbruka råvaror, bygg färdiga varor och se din verkliga marginal.",
+  "keywords": "tillverkningssystem, produktionsplanering, strukturlista, bom, tillverkningsorder, produktkalkyl, färdiga varor",
+  "heroEyebrow": "Tilläggsmodul",
+  "heroTitle": "Tillverka mot order, <em class=\"text-copper-400 not-italic\">kalkylera på rialen</em>",
+  "heroSubtitle": "Förvandla råvaror till färdiga varor med strukturlistor och tillverkningsorder, medan Paper & Pen följer kostnaden för varje komponent så att du alltid vet din verkliga marginal.",
+  "heroBullets": ["Strukturlistor och tillverkningsorder", "Automatisk lagerförbrukning", "Verklig produktionskalkyl"],
+  "features": [
+    { "icon": "manufacturing", "title": "Strukturlistor", "desc": "Ange vad som ingår i varje produkt, med antal och delmonteringar." },
+    { "icon": "doc", "title": "Tillverkningsorder", "desc": "Planera och följ produktionen från råvaror till färdigt lager." },
+    { "icon": "inventory", "title": "Automatiska lagerrörelser", "desc": "Råvaror förbrukas och färdiga varor läggs till medan du tillverkar." },
+    { "icon": "calc", "title": "Produktionskalkyl", "desc": "Summera material- och omkostnader till ett korrekt värde på färdiga varor." },
+    { "icon": "chart", "title": "Överblick över marginalen", "desc": "Jämför produktionskostnaden med försäljningspriset och se den verkliga marginalen per artikel." },
+    { "icon": "refresh", "title": "Kopplat hela vägen", "desc": "Koppla ihop inköp, lager och försäljning i ett sammanhängande flöde." }
+  ],
+  "sections": [
+    { "eyebrow": "Planera med trygghet", "title": "Från recept till färdiga varor", "body": "Ange en strukturlista en gång så vet Paper & Pen exakt vad varje tillverkning förbrukar. Skapa en tillverkningsorder så reserveras och förbrukas råvarorna medan de färdiga varorna läggs till i lagret, och hela kalkylen sköts åt dig.", "items": ["Återanvändbara strukturlistor", "Tillverkningsorder med lagerreservation", "Automatisk förbrukning och inleverans av färdiga varor"] },
+    { "eyebrow": "Känn din verkliga marginal", "title": "En kalkyl som säger sanningen", "body": "Att gissa kostnaden är att gissa vinsten. Paper & Pen summerar material och omkostnader till en verklig kostnad för färdiga varor, bokför den och visar marginalen på varje försäljning. Fungerar i valfri valuta, så du kan köpa in och sälja över gränserna.", "items": ["Kalkyl med material och omkostnader", "Bokförs automatiskt i redovisningen", "Marginal per produkt och order"] }
+  ],
+  "faqs": [
+    { "q": "Är tillverkning gratis?", "a": "Tillverkning är ett valfritt betalt tillägg. Kärnmodulen Försäljning och fakturering är gratis för alltid, och du lägger till Tillverkning när du producerar varor." },
+    { "q": "Kan jag skapa strukturlistor?", "a": "Ja. Bygg en strukturlista (BOM) för varje produkt, inklusive delmonteringar, och återanvänd den i varje produktion." },
+    { "q": "Förbrukas lagret automatiskt?", "a": "Ja. När du genomför en tillverkningsorder förbrukas råvarorna och de färdiga varorna läggs till i lagret automatiskt." },
+    { "q": "Hur beräknas produktionskostnaden?", "a": "Material- och omkostnader summeras till värdet på de färdiga varorna, som bokförs i redovisningen så att dina marginaler blir korrekta." },
+    { "q": "Fungerar det i valfri valuta?", "a": "Ja. Köp in material och sälj färdiga varor i valfri valuta, med kalkyl och redovisning i takt." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Kalkylera varje tillverkning exakt",
+  "ctaSub": "Börja gratis med fakturering och lägg till Tillverkning för att planera produktionen och se din verkliga marginal."
+}

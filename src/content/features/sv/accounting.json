@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Redovisning",
+  "metaTitle": "Bokföringsprogram online · Automatisk bokföring · Paper & Pen",
+  "metaDescription": "Dubbel bokföring som sköter sig själv. Resultat- och balansräkning i realtid, momsdeklarationer, bankavstämning, valfri valuta och skatt. Fungerar överallt.",
+  "keywords": "bokföringsprogram, bokföring online, dubbel bokföring, balansräkning, resultaträkning, momsdeklaration, bankavstämning, huvudbok",
+  "heroEyebrow": "Tilläggsmodul",
+  "heroTitle": "Böcker som <em class=\"text-copper-400 not-italic\">stämmer av sig själva</em>",
+  "heroSubtitle": "Varje faktura, betalning och inköp bokförs automatiskt i en riktig huvudbok med dubbel bokföring. Se ditt resultat, din balansräkning och din skatteposition i realtid utan att röra ett kalkylark.",
+  "heroBullets": ["Automatisk dubbel bokföring, inga manuella verifikationer", "Resultat- och balansräkning i realtid", "Momsdeklarationer med ett klick"],
+  "features": [
+    { "icon": "accounting", "title": "Automatisk bokföring", "desc": "Försäljning, betalningar och utgifter bokförs i huvudboken direkt när de sker." },
+    { "icon": "chart", "title": "Aktuella rapporter", "desc": "Resultaträkning, balansräkning och kassaflöde, alltid uppdaterade." },
+    { "icon": "calc", "title": "Moms och skattedeklarationer", "desc": "Håll koll på ingående och utgående moms och ta fram en deklaration klar att lämna in med ett klick." },
+    { "icon": "refresh", "title": "Bankavstämning", "desc": "Matcha bankrader mot fakturor och betalningar så att böckerna hålls rena." },
+    { "icon": "doc", "title": "Kompletta huvudböcker", "desc": "Gå från valfri rapport ner till underlaget och verifikationen." },
+    { "icon": "globe", "title": "Flera valutor", "desc": "Bokför i valfri valuta med automatisk beräkning av kursvinster och kursförluster." }
+  ],
+  "sections": [
+    { "eyebrow": "Ingen redovisningskonsult krävs", "title": "Redovisning som sköts i bakgrunden", "body": "Du ska inte behöva vara bokförare för att veta om du går med vinst. Eftersom fakturering, betalningar och lager matar samma huvudbok blir din redovisning rätt utan manuella verifikationer. Öppna översikten så ser du resultat, kundfordringar och skatt direkt.", "items": ["Dubbel bokföring sköts åt dig", "Varje rapport leder till underlaget", "Verifieringskedja på varje post"] },
+    { "eyebrow": "Byggt för alla skattesystem", "title": "Skatt och regelefterlevnad, var du än verkar", "body": "Ställ in skattesatser och konton för ditt land, inklusive konfigurerbar moms för Gulfstaterna, så håller Paper & Pen koll på ingående och utgående moms åt dig. Ta fram en deklaration klar att lämna in, stäm av banken och stäng perioden med trygghet, i valfri valuta.", "items": ["Konfigurerbar skatt för alla länder", "Momsdeklarationer klara att lämna in", "Bankavstämning och periodstängning"] }
+  ],
+  "faqs": [
+    { "q": "Behöver jag kunna redovisning för att använda det?", "a": "Nej. Posterna bokförs automatiskt från dina fakturor, betalningar och inköp, så du får korrekt dubbel bokföring utan att skriva verifikationer." },
+    { "q": "Är redovisningen gratis?", "a": "Redovisning är ett valfritt betalt tillägg. Försäljning och fakturering är gratis för alltid, och du slår på Redovisning när du vill ha fullständiga finansiella rapporter." },
+    { "q": "Kan det ta fram momsdeklarationer?", "a": "Ja. Det håller koll på ingående och utgående moms (till exempel konfigurerbar moms i Gulfstaterna eller valfri sats du anger) och tar fram en deklaration klar att lämna in." },
+    { "q": "Hanterar det flera valutor?", "a": "Ja. Bokför och rapportera i valfri valuta, med automatiska kursvinster och kursförluster." },
+    { "q": "Kan jag stämma av mitt bankkonto?", "a": "Ja. Importera eller matcha bankrader mot fakturor och betalningar så att huvudboken alltid är avstämd." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Få korrekta böcker, automatiskt",
+  "ctaSub": "Börja gratis med fakturering och slå på Redovisning för finansiella rapporter och skattedeklarationer i realtid."
+}

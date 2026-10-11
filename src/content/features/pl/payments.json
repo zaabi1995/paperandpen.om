@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "payments",
+  "order": 10,
+  "title": "Płatności",
+  "metaTitle": "Płatności online za faktury · Szybsze wpływy · Paper & Pen",
+  "metaDescription": "Dodaj link do płatności online do każdej faktury i przyjmuj płatności kartą. Paymob i bramki globalne, dowolna waluta, automatyczne uzgadnianie w księgach.",
+  "keywords": "płatności online, przyjmowanie płatności kartą, zapłata za fakturę online, paymob, bramka płatnicza, szybsze płatności, link do płatności",
+  "heroEyebrow": "Wbudowane",
+  "heroTitle": "Pozwól klientom zapłacić <em class=\"text-copper-400 not-italic\">jednym dotknięciem</em>",
+  "heroSubtitle": "Umieść bezpieczny link do płatności online na każdej fakturze, by klienci płacili kartą od razu. Płatności same uzgadniają się w księgach, w dowolnej walucie i wszędzie.",
+  "heroBullets": ["Link do płatności online na każdej fakturze", "Automatyczne uzgadnianie z księgą", "Paymob i bramki globalne"],
+  "features": [
+    { "icon": "card", "title": "Płatność kartą", "desc": "Klienci płacą każdą fakturę online kartą, bez logowania i aplikacji." },
+    { "icon": "bolt", "title": "Natychmiastowy link do płatności", "desc": "Każda faktura ma bezpieczny link, który udostępnisz e-mailem lub przez WhatsApp." },
+    { "icon": "refresh", "title": "Automatyczne uzgadnianie", "desc": "Udana płatność oznacza fakturę jako opłaconą i trafia do ksiąg." },
+    { "icon": "globe", "title": "Dowolna waluta", "desc": "Pobieraj płatności w OMR, AED, SAR, USD, EUR i innych przez odpowiednią bramkę." },
+    { "icon": "shield", "title": "Bezpieczeństwo i PCI", "desc": "Dane kart obsługują certyfikowane bramki, nigdy nie przechowujesz ich sam." },
+    { "icon": "receipt", "title": "Wysyłane potwierdzenia", "desc": "Klient dostaje automatyczne potwierdzenie w chwili udanej płatności." }
+  ],
+  "sections": [
+    { "eyebrow": "Szybsze wpływy", "title": "Usuń przeszkody między fakturą a gotówką", "body": "Im szybciej klient może zapłacić, tym szybciej masz gotówkę. Link do płatności online na każdej fakturze oznacza brak przepisywania danych bankowych i czekania na przelew. Klient dotyka, płaci kartą, a faktura aktualizuje się sama, z potwierdzeniem w drodze.", "items": ["Płatność kartą jednym dotknięciem", "Link do udostępnienia przez WhatsApp i e-mail", "Automatyczne potwierdzenia"] },
+    { "eyebrow": "Lokalnie i globalnie", "title": "Właściwa bramka dla Twojego rynku", "body": "Paper & Pen łączy Paymob dla krajów Zatoki i inne bramki globalne, więc przyjmujesz karty, których naprawdę używają Twoi klienci, w ich walucie. Każde rozliczenie wraca do właściwej faktury i trafia do księgowości, więc ściąganie należności i księgowanie idą w parze.", "items": ["Paymob dla krajów Zatoki oraz opcje globalne", "Płatności w wielu walutach", "Uzgadnianie z konkretną fakturą"] }
+  ],
+  "faqs": [
+    { "q": "Czy włączenie płatności online jest darmowe?", "a": "Tak, dodawanie linków do płatności online jest wbudowane. Bramka płatnicza pobiera własną opłatę za każdą transakcję, jak zawsze robią to bramki." },
+    { "q": "Jakie bramki są obsługiwane?", "a": "Paymob dla krajów Zatoki oraz inne bramki globalne, więc przyjmujesz karty, których używają Twoi klienci, w ich walucie." },
+    { "q": "Czy płatność sama aktualizuje fakturę?", "a": "Tak. Udana płatność oznacza fakturę jako opłaconą, wysyła potwierdzenie i księguje zapis." },
+    { "q": "Czy klienci mogą płacić w różnych walutach?", "a": "Tak. Pobieraj płatności w OMR, AED, SAR, USD, EUR i innych, kierowane przez odpowiednią bramkę." },
+    { "q": "Czy płatność kartą jest bezpieczna?", "a": "Tak. Dane kart obsługują bramki z certyfikatem PCI i nigdy nie są przechowywane w Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Zamieniaj faktury w gotówkę od ręki",
+  "ctaSub": "Zacznij za darmo i dodaj link do płatności online do każdej faktury, by klienci płacili jednym dotknięciem."
+}

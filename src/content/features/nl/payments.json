@@ -1,0 +1,35 @@
+{
+  "locale": "nl",
+  "slug": "payments",
+  "order": 10,
+  "title": "Betalingen",
+  "metaTitle": "Online betalingen voor facturen · Sneller betaald · Paper & Pen",
+  "metaDescription": "Zet een link voor online betalen op elke factuur en word betaald per kaart. Paymob en wereldwijde betaalproviders, elke valuta, automatisch afgestemd met je boekhouding.",
+  "keywords": "online betalingen, kaartbetalingen accepteren, factuur online betalen, paymob, betaalprovider, sneller betaald worden, betaallink",
+  "heroEyebrow": "Standaard ingebouwd",
+  "heroTitle": "Laat klanten je betalen <em class=\"text-copper-400 not-italic\">met één tik</em>",
+  "heroSubtitle": "Zet een beveiligde link voor online betalen op elke factuur, zodat klanten direct met hun kaart afrekenen. Betalingen worden automatisch afgestemd met je boekhouding, in elke valuta, overal.",
+  "heroBullets": ["Online betaallink op elke factuur", "Automatisch afgestemd met je grootboek", "Paymob en wereldwijde betaalproviders"],
+  "features": [
+    { "icon": "card", "title": "Betalen met kaart", "desc": "Klanten betalen elke factuur online met hun kaart, zonder inloggen of app." },
+    { "icon": "bolt", "title": "Directe betaallink", "desc": "Elke factuur heeft een beveiligde link, te delen per e-mail of WhatsApp." },
+    { "icon": "refresh", "title": "Automatische afstemming", "desc": "Geslaagde betalingen zetten de factuur op betaald en worden in je boekhouding geboekt." },
+    { "icon": "globe", "title": "Elke valuta", "desc": "Ontvang in OMR, AED, SAR, USD, EUR en meer via de juiste betaalprovider." },
+    { "icon": "shield", "title": "Veilig en PCI", "desc": "Kaartgegevens worden verwerkt door gecertificeerde betaalproviders en nooit door jou opgeslagen." },
+    { "icon": "receipt", "title": "Kwitanties verstuurd", "desc": "Klanten krijgen automatisch een kwitantie zodra een betaling is gelukt." }
+  ],
+  "sections": [
+    { "eyebrow": "Sneller betaald", "title": "Haal de drempel weg tussen factuur en geld", "body": "Hoe sneller een klant kan betalen, hoe sneller je geld binnen is. Met een link voor online betalen op elke factuur hoeft niemand bankgegevens over te typen of op een overboeking te wachten. De klant tikt, betaalt met de kaart en de factuur werkt zichzelf bij, met een kwitantie onderweg.", "items": ["Kaartbetaling met één tik", "Link te delen via WhatsApp en e-mail", "Automatische kwitanties"] },
+    { "eyebrow": "Lokaal en wereldwijd", "title": "De juiste betaalprovider voor je markt", "body": "Paper & Pen koppelt Paymob voor de GCC en andere wereldwijde betaalproviders, zodat je de kaarten accepteert die je klanten echt gebruiken, in hun eigen valuta. Elke uitbetaling wordt afgestemd met de juiste factuur en geboekt in je administratie, zodat incasso en boekhouding gelijk oplopen.", "items": ["Paymob voor de GCC, plus wereldwijde opties", "Ontvangen in meerdere valuta", "Afgestemd met precies de juiste factuur"] }
+  ],
+  "faqs": [
+    { "q": "Is online betalen gratis aan te zetten?", "a": "Ja, links voor online betalen zijn standaard ingebouwd. De betaalprovider rekent zoals altijd zijn eigen transactiekosten per betaling." },
+    { "q": "Welke betaalproviders worden ondersteund?", "a": "Paymob voor de GCC en andere wereldwijde betaalproviders, zodat je de kaarten accepteert die je klanten gebruiken, in hun eigen valuta." },
+    { "q": "Werkt een betaling de factuur automatisch bij?", "a": "Ja. Een geslaagde betaling zet de factuur op betaald, verstuurt een kwitantie en boekt de post in je administratie." },
+    { "q": "Kunnen klanten in verschillende valuta betalen?", "a": "Ja. Ontvang in OMR, AED, SAR, USD, EUR en meer, via de passende betaalprovider." },
+    { "q": "Is betalen met de kaart veilig?", "a": "Ja. Kaartgegevens worden verwerkt door PCI-gecertificeerde betaalproviders en nooit opgeslagen in Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Maak van facturen direct geld",
+  "ctaSub": "Begin gratis en zet een link voor online betalen op elke factuur, zodat klanten je met één tik betalen."
+}

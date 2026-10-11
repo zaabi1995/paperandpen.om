@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Magazyn",
+  "metaTitle": "Program do zarządzania magazynem · Paper & Pen",
+  "metaDescription": "Śledź stany w wielu magazynach na żywo, z alertami o niskim stanie, partiami i kodami kreskowymi oraz wyceną księgowaną od razu. Działa na całym świecie.",
+  "keywords": "program magazynowy, zarządzanie magazynem, kontrola stanów magazynowych, alerty niskiego stanu, kody kreskowe, wycena zapasów, wiele magazynów",
+  "heroEyebrow": "Moduł dodatkowy",
+  "heroTitle": "Stany, którym możesz <em class=\"text-copper-400 not-italic\">ufać</em>, na żywo",
+  "heroSubtitle": "Wiesz dokładnie, co masz, gdzie to jest i ile jest warte. Magazyn aktualizuje się w chwili wystawienia faktury lub przyjęcia towaru, więc liczby są zawsze aktualne.",
+  "heroBullets": ["Stany na żywo we wszystkich magazynach", "Alerty o niskim stanie i zamówieniach", "Wycena księgowana w księgach"],
+  "features": [
+    { "icon": "inventory", "title": "Stany na żywo", "desc": "Ilości zmieniają się w chwili sprzedaży, zakupu lub przesunięcia towaru." },
+    { "icon": "truck", "title": "Wiele magazynów", "desc": "Śledź i przesuwaj towar między lokalizacjami i oddziałami z pełnym podglądem." },
+    { "icon": "bell", "title": "Alerty o niskim stanie", "desc": "Ustaw progi zamówień i dostań ostrzeżenie, zanim zabraknie rotującego towaru." },
+    { "icon": "receipt", "title": "Kody kreskowe i SKU", "desc": "Skanuj przy inwentaryzacji i przesunięciach, z podziałem na SKU, partie i jednostki miary." },
+    { "icon": "calc", "title": "Wycena na żywo", "desc": "Średnia cena lub FIFO utrzymują poprawną wartość zapasów w bilansie." },
+    { "icon": "refresh", "title": "Połączony ze sprzedażą", "desc": "Faktury i zamówienia zakupu same przesuwają stany, bez ręcznych zmian." }
+  ],
+  "sections": [
+    { "eyebrow": "Zawsze dokładnie", "title": "Magazyn, który aktualizuje się sam", "body": "Ręczne spisy tracą aktualność przy pierwszej sprzedaży. W Paper & Pen każda faktura, zakup i przesunięcie zmienia stan i koszt na żywo, więc liczba na ekranie to liczba na półce. Ustaw progi zamówień, a system powie Ci, kiedy kupić.", "items": ["Automatyczna korekta przy każdej transakcji", "Progi zamówień i alerty", "Partie, SKU i jednostki miary"] },
+    { "eyebrow": "Magazyn spotyka księgi", "title": "Od półki do bilansu", "body": "Magazyn to nie tylko liczenie kartonów, to prawdziwe pieniądze w bilansie. Paper & Pen wycenia zapasy metodą średniej ceny lub FIFO i automatycznie księguje ruchy w księgowości, więc koszt sprzedanych towarów i wartość zapasów są zawsze uzgodnione. Działa w dowolnej walucie na każdym rynku.", "items": ["Średnia cena lub FIFO", "Automatyczne księgowanie", "Zakupy w wielu walutach"] }
+  ],
+  "faqs": [
+    { "q": "Czy magazyn jest w cenie za darmo?", "a": "Magazyn to opcjonalny, płatny moduł dodatkowy. Podstawowy moduł Sprzedaż i faktury jest bezpłatny na zawsze, a Magazyn dodajesz, gdy potrzebujesz kontroli stanów na żywo." },
+    { "q": "Czy mogę zarządzać wieloma magazynami?", "a": "Tak. Śledź stany w każdej lokalizacji, przesuwaj towar między nimi i widź aktualne ilości wszędzie." },
+    { "q": "Czy obsługuje kody kreskowe?", "a": "Tak. Skanuj kod kreskowy dostawcy, SKU lub wydrukowaną etykietę QR, by szybciej liczyć i przesuwać towar, z obsługą partii i jednostek miary." },
+    { "q": "Jak wyceniane są zapasy?", "a": "Wybierz średnią cenę lub FIFO. Wycena zmienia się przy każdym ruchu i automatycznie trafia do księgowości." },
+    { "q": "Czy sprzedaż sama aktualizuje stany?", "a": "Tak. Faktury zmniejszają stan, a zakupy go zwiększają na żywo, więc nigdy nie poprawiasz ilości ręcznie." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Przejmij kontrolę nad magazynem",
+  "ctaSub": "Zacznij za darmo od faktur i dodaj Magazyn, gdy będziesz gotów na stany na żywo w każdej lokalizacji."
+}

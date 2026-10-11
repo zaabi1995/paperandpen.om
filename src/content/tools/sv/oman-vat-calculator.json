@@ -1,0 +1,38 @@
+{
+  "locale": "sv",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Gratis moms- och skattekalkylator",
+  "metaTitle": "Momskalkylator för Oman: lägg till eller dra av 5 % moms",
+  "metaDescription": "Räkna ut Omans 5 % moms online. Lägg till moms på ett nettobelopp eller dra av den från ett bruttobelopp och se netto, moms och summa direkt, utan registrering.",
+  "keywords": "momskalkylator, momskalkylator oman, räkna ut moms, lägga på moms, dra av moms, momskalkylator 5 procent, justerbar momskalkylator, räkna baklänges moms",
+  "heroEyebrow": "Gratis · Ingen registrering",
+  "heroTitle": "Gratis <em class=\"text-copper-400 not-italic\">moms- och skatte</em>kalkylator",
+  "heroSubtitle": "Räkna ut Omans 5 % moms online. Lägg till moms på ett nettobelopp eller dra av den från ett bruttobelopp och se netto, moms och summa direkt, utan registrering.",
+  "heroBullets": ["Valfri sats, valfri valuta", "Lägg till eller räkna ut skatt baklänges", "Gratis för alltid, ingen registrering"],
+  "howToSteps": [
+    { "name": "Ange beloppet", "text": "Skriv in beloppet du vill räkna med och välj valuta." },
+    { "name": "Ange skattesatsen", "text": "Använd Omans standardsats på 5 %, eller ange den aktuella sats som gäller för din transaktion." },
+    { "name": "Välj lägg till eller dra av", "text": "Lägg till skatt på ett nettobelopp, eller dra av skatt från ett bruttobelopp för att få fram nettot (omvänd momsberäkning)." },
+    { "name": "Läs av resultatet", "text": "Se netto, skatt och brutto uppdelat direkt, klart att kopiera in i en faktura." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Lägg till eller dra av skatt", "desc": "Räkna skatt framåt på ett nettobelopp, eller räkna ut den baklänges ur ett bruttobelopp med ett klick." },
+    { "icon": "globe", "title": "Valfri sats, valfri valuta", "desc": "Oman 5 % som standard, eller ange den sats som gäller för dig, i OMR, AED, SAR, USD, EUR med flera." },
+    { "icon": "bolt", "title": "Direkt och gratis", "desc": "Ingen registrering, inga gränser. Få netto, skatt och brutto i samma stund som du skriver." }
+  ],
+  "sections": [
+    { "title": "Varför använda momskalkylatorn från Paper & Pen?", "body": "Oavsett om du prissätter en offert, kontrollerar en faktura eller lämnar en deklaration behöver netto, skatt och brutto stämma in på sista decimalen. Kalkylatorn hanterar valfri sats i valfri valuta, fungerar åt båda hållen (lägg till skatt eller räkna ut den ur en summa) och är verkligen gratis. Den öppnar med Omans sats på 5 % och kan ställas in fullt ut för andra länder." },
+    { "eyebrow": "Mer än en kalkylator", "title": "Låt ditt program sköta momsen åt dig", "body": "Att räkna skatt för hand på varje rad är långsamt och lätt att göra fel. I det kompletta Paper & Pen ERP läggs moms automatiskt på nettot efter rabatt på varje faktura, bokförs och summeras i rapporter klara för deklarationen, så att du slipper ta fram kalkylatorn alls.", "items": ["Automatisk skatt på varje faktura och offert", "Skattesatser per artikel och per dokument", "Momssammanställningar klara att deklarera"] }
+  ],
+  "faqs": [
+    { "q": "Vilken sats använder momskalkylatorn för Oman?", "a": "Kalkylatorn öppnar med Omans sats på 5 %. Skatteregler kan ändras, så bekräfta den aktuella satsen hos Oman Tax Authority innan du förlitar dig på en beräkning. Du kan ange valfri sats." },
+    { "q": "Hur drar jag av moms från en summa?", "a": "Välj alternativet dra av (omvänd beräkning) och ange bruttobeloppet. Kalkylatorn räknar ut nettot och den skattedel som ingick i summan." },
+    { "q": "Kan jag använda den för försäljningsskatt utanför Oman?", "a": "Ja. Ange den sats som gäller för din transaktion och välj valfri valuta. Den fungerar för moms, GST eller försäljningsskatt var som helst i världen." },
+    { "q": "Räknar den skatt på ett rabatterat belopp?", "a": "Ange nettobeloppet efter rabatt och lägg till skatt på det. För automatisk moms efter rabatt på hela fakturor kan du skapa en gratis arbetsyta i Paper & Pen där det sköts åt dig." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Sluta räkna moms för hand",
+  "ctaSub": "Lägg på skatt automatiskt på varje faktura och få momsrapporter klara för deklarationen med en gratis arbetsyta i Paper & Pen."
+}

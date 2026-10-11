@@ -1,0 +1,35 @@
+{
+  "locale": "nl",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Voorraad",
+  "metaTitle": "Voorraadbeheer software · Paper & Pen",
+  "metaDescription": "Volg voorraad in realtime over al je magazijnen, met meldingen bij lage voorraad, batches en barcodes en een actuele waardering die in je boekhouding komt.",
+  "keywords": "voorraadbeheer, voorraadbeheer software, magazijnsoftware, melding lage voorraad, barcode voorraad, voorraadwaardering, meerdere magazijnen",
+  "heroEyebrow": "Extra module",
+  "heroTitle": "Voorraad die je <em class=\"text-copper-400 not-italic\">kunt vertrouwen</em>, in realtime",
+  "heroSubtitle": "Weet precies wat je hebt, waar het ligt en wat het waard is. De voorraad wordt bijgewerkt zodra je factureert of goederen ontvangt, dus je cijfers zijn altijd actueel.",
+  "heroBullets": ["Actuele voorraad over alle magazijnen", "Meldingen bij lage voorraad en bestelpunten", "Waardering wordt geboekt in je administratie"],
+  "features": [
+    { "icon": "inventory", "title": "Voorraad in realtime", "desc": "Aantallen worden bijgewerkt zodra je goederen verkoopt, inkoopt of verplaatst." },
+    { "icon": "truck", "title": "Meerdere magazijnen", "desc": "Volg en verplaats voorraad tussen locaties en vestigingen met volledig overzicht." },
+    { "icon": "bell", "title": "Meldingen bij lage voorraad", "desc": "Stel bestelpunten in en krijg een seintje voordat een snelloper op is." },
+    { "icon": "receipt", "title": "Barcode en SKU", "desc": "Scan om voorraad te tellen of te verplaatsen, geordend per SKU, batch en eenheid." },
+    { "icon": "calc", "title": "Actuele waardering", "desc": "Gemiddelde kostprijs of FIFO houdt de voorraadwaarde op je balans juist." },
+    { "icon": "refresh", "title": "Gekoppeld aan verkoop", "desc": "Facturen en inkooporders verplaatsen voorraad automatisch, zonder handmatige aanpassingen." }
+  ],
+  "sections": [
+    { "eyebrow": "Altijd juist", "title": "Voorraad die zichzelf bijwerkt", "body": "Een handmatige telling is verouderd zodra je iets verkoopt. In Paper & Pen past elke factuur, inkoop en verplaatsing de voorraad en de kostprijs in realtime aan, dus het getal op je scherm is het getal in het schap. Stel bestelpunten in en laat het systeem je vertellen wanneer je moet inkopen.", "items": ["Past zich aan bij elke transactie", "Bestelpunten en meldingen", "Registratie per batch, SKU en eenheid"] },
+    { "eyebrow": "Voorraad en boekhouding samen", "title": "Van schap tot balans", "body": "Voorraad is niet alleen dozen tellen, het is echt geld op je balans. Paper & Pen waardeert voorraad tegen gemiddelde kostprijs of FIFO en boekt mutaties automatisch in de boekhouding, zodat je kostprijs van de omzet en je voorraadwaarde altijd zijn afgestemd. Werkt in elke valuta, voor elke markt.", "items": ["Gemiddelde kostprijs of FIFO", "Boekt automatisch in de boekhouding", "Inkopen in meerdere valuta"] }
+  ],
+  "faqs": [
+    { "q": "Is voorraad gratis inbegrepen?", "a": "Voorraad is een optionele betaalde add-on. De kernmodule Verkoop en Facturatie is voor altijd gratis, en je voegt Voorraad toe wanneer je voorraadbeheer in realtime nodig hebt." },
+    { "q": "Kan ik meerdere magazijnen beheren?", "a": "Ja. Volg voorraad per locatie, verplaats tussen locaties en zie overal de actuele aantallen." },
+    { "q": "Ondersteunt het barcodes?", "a": "Ja. Scan een leveranciersbarcode, een SKU of een afgedrukt QR-label om sneller voorraad te tellen en te verplaatsen, met ondersteuning voor batches en eenheden." },
+    { "q": "Hoe wordt voorraad gewaardeerd?", "a": "Kies gemiddelde kostprijs of FIFO. De waardering wordt bij elke mutatie bijgewerkt en automatisch in je boekhouding geboekt." },
+    { "q": "Werkt verkopen de voorraad automatisch bij?", "a": "Ja. Facturen verlagen de voorraad en inkopen verhogen die in realtime, zodat je nooit met de hand aantallen hoeft aan te passen." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Neem je voorraad in eigen hand",
+  "ctaSub": "Begin gratis met facturatie en voeg Voorraad toe wanneer je klaar bent voor actuele voorraad op elke locatie."
+}

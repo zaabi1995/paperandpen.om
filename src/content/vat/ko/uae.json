@@ -1,0 +1,152 @@
+{
+  "locale": "ko",
+  "slug": "uae",
+  "order": 2,
+  "country": "아랍에미리트",
+  "title": "UAE 부가가치세",
+  "metaTitle": "UAE 부가가치세: 세율, 등록 기준, 전자 인보이스 · Paper & Pen",
+  "metaDescription": "UAE 5% 부가가치세율, AED 375,000 기준, 제59조 인보이스 내용, 확정된 전자 인보이스 일정을 출처와 함께.",
+  "keywords": "UAE 부가가치세, 두바이 부가세, UAE 부가세율, UAE 부가가치세 등록 기준, UAE 세금 인보이스 요건, UAE 전자 인보이스 2027, Federal Tax Authority",
+  "heroEyebrow": "아랍에미리트",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">UAE 부가가치세</em> 규정에 맞는 인보이스",
+  "heroSubtitle": "세율, 등록 기준, 제59조가 세금 인보이스에 요구하는 12개 항목, 그리고 Ministry of Finance가 실제로 공표한 전자 인보이스 일정.",
+  "heroBullets": [
+    "표준 세율 5%",
+    "AED 375,000부터 등록",
+    "2027년부터 전자 인보이스 단계적 시행"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "표준 부가가치세율",
+      "value": "5%",
+      "note": "Federal Decree-Law 8 of 2017 제3조는 모든 공급이나 수입에 5%의 표준 세율을 부과합니다. 2018년 1월 1일부터 시행되었습니다.",
+      "source": 1
+    },
+    {
+      "label": "의무 등록 기준",
+      "value": "AED 375,000",
+      "note": "Executive Regulation 제7조 제1항.",
+      "source": 2
+    },
+    {
+      "label": "자발적 등록 기준",
+      "value": "AED 187,500",
+      "note": "Executive Regulation 제8조 제1항.",
+      "source": 2
+    },
+    {
+      "label": "간이 인보이스 상한",
+      "value": "AED 10,000",
+      "note": "수령인이 미등록자이거나, 등록자이면서 대가가 이 금액을 넘지 않으면 간이 세금 인보이스를 쓸 수 있습니다.",
+      "source": 2
+    },
+    {
+      "label": "인보이스 통화",
+      "value": "AED",
+      "note": "세액은 디르함으로 표시하며, 인보이스가 다른 통화라면 적용한 환율을 표시해야 합니다.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Executive Regulation 제59조 제1항은 완전한 세금 인보이스에 담아야 할 내용을 열거합니다.",
+    "items": [
+      "눈에 잘 띄게 표시한 \"Tax Invoice\"(세금 인보이스)라는 문구",
+      "공급자의 이름, 주소, 세금 등록 번호(TRN)",
+      "수령인이 등록자인 경우 수령인의 이름, 주소, TRN",
+      "인보이스를 식별하고 순서를 정할 수 있는 연속 번호 또는 고유 번호",
+      "발행일",
+      "발행일과 다를 경우 공급일",
+      "물품이나 서비스의 설명",
+      "각 품목의 단가, 수량 또는 물량, 세율, AED 기준 납부 금액",
+      "제공한 할인 금액",
+      "AED 기준 총 납부 금액",
+      "AED 기준 부과 세액, 다른 통화에서 환산한 경우 환율 포함",
+      "역과세 공급의 경우 수령인이 세금을 신고해야 한다는 문구와 근거 조항"
+    ],
+    "source": 2,
+    "caveat": "이는 Federal Tax Authority가 2024년 10월 4일 자로 공표한 Executive Regulation 통합본입니다. 논평에서는 이후 개정을 언급하지만 FTA가 공표한 문서에서는 찾지 못했으므로, 의존하기 전에 현재 문구를 FTA에 확인하세요."
+  },
+  "einvoicing": {
+    "status": "의무이며 단계적 시행, 시범 운영 중",
+    "body": "UAE eInvoicing System은 인보이스가 Accredited Service Provider를 거쳐 전달되는 분산형 5코너 모델입니다. Ministry of Finance의 자체 지침이 일정을 정합니다. 2026년 7월 1일부터 시범 프로그램과 자발적 도입, 매출 AED 5천만 이상 기업은 2027년 1월 1일부터, 그 미만 기업은 2027년 7월 1일부터, 정부 기관은 2027년 10월 1일부터 시행합니다. Ministry는 Accredited Service Provider의 첫 지정 기한을 2026년 7월 31일에서 2026년 10월 30일로 연장했고 2027년 1월 시행일은 그대로 두었습니다. 그래서 공표된 지침 PDF와 Ministry의 보도자료가 이 날짜 하나에서 서로 다르며, 보도자료가 더 나중의 입장입니다.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "제대로 하기",
+      "title": "제59조에서 사람들이 걸리는 부분",
+      "body": "대부분의 인보이스 템플릿이 통과하지 못하는 것은 행별 요건입니다. 제59조 제1항 (h)호는 물품이나 서비스마다 단가, 수량, 세율, 납부 금액을 요구하므로, 행마다 처리가 다를 때 인보이스 하단의 합산 세액 하나로는 부족합니다. 두 번째는 수령인이 등록자일 때마다 필요한 수령인의 TRN이고, 세 번째는 환율입니다. 달러로 청구해도 세금은 디르함으로, 사용한 환율과 함께 표시해야 합니다.",
+      "items": [
+        "합계만이 아니라 행별 세율과 세액",
+        "수령인이 등록자라면 언제나 수령인의 TRN",
+        "AED가 아닌 인보이스에는 환율 표시",
+        "해당하면 역과세 문구"
+      ]
+    },
+    {
+      "eyebrow": "준비하기",
+      "title": "2027년 일정이 실제로 요구하는 것",
+      "body": "의무는 로고가 붙은 소프트웨어를 사는 것이 아니라, 매출 구간에 해당하는 날짜에 Accredited Service Provider를 통해 구조화된 인보이스를 발행할 수 있는 것입니다. 시범 운영이 아니라 자기 구간의 시행일부터 거꾸로 계산하세요. 서비스 제공자 지정 기한은 시행 몇 달 전에 있으며, 대부분의 기업이 놓치는 것은 시행이 아니라 지정입니다. 그동안 필요한 데이터는 제59조가 이미 요구하는 데이터와 같으므로, 이전 작업 중이 아니라 지금 인보이스 품질을 바로잡을 좋은 이유가 됩니다.",
+      "items": [
+        "어느 매출 구간에 속하는지 파악",
+        "시행일만이 아니라 서비스 제공자 지정일도 일정에 기록",
+        "기한 중이 아니라 기한 전에 고객 TRN 정리",
+        "오늘부터 행 단위 세금 내역 유지"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "UAE의 부가가치세율은 얼마인가요?",
+      "a": "5%입니다. Federal Decree-Law 8 of 2017 제3조는 모든 과세 공급이나 수입에 5%의 표준 세율을 부과하며 2018년 1월 1일부터 시행되었습니다. 일부 공급은 영세율이거나 면세이며 그 차이가 중요합니다. 영세율 공급자는 매입세액을 공제받을 수 있지만 면세 공급자는 그렇지 않습니다."
+    },
+    {
+      "q": "UAE에서 전자 인보이스는 언제 의무가 되나요?",
+      "a": "매출에 따라 다릅니다. Ministry of Finance가 공표한 지침에 따르면 매출 AED 5천만 이상 기업은 2027년 1월 1일부터, 그 미만 기업은 2027년 7월 1일부터, 정부 기관은 2027년 10월 1일부터 시행합니다. 시범 운영과 자발적 도입은 2026년 7월 1일에 시작되었습니다. Ministry가 이미 기한 하나를 개정했으므로 어떤 날짜에 맞춰 계획하기 전에 Ministry 페이지를 확인하세요."
+    },
+    {
+      "q": "UAE에서 간이 세금 인보이스는 언제 발행할 수 있나요?",
+      "a": "수령인이 부가가치세 미등록자이거나, 등록자이면서 대가가 AED 10,000을 넘지 않을 때입니다. 간이 인보이스에도 \"Tax Invoice\"라는 문구, 회사 이름, 주소, TRN, 발행일, 공급 내용 설명, 디르함 기준 총 대가와 세액이 필요합니다."
+    },
+    {
+      "q": "UAE 인보이스에 고객의 TRN이 필요한가요?",
+      "a": "네, 고객이 부가가치세 등록자일 때는 언제나 필요합니다. 그 경우 제59조 제1항 (c)호는 수령인의 이름, 주소, 세금 등록 번호를 요구합니다. 이것이 없으면 고객이 매입세액을 공제받기 어려울 수 있고, 보통 재발행 요청으로 회사에 돌아옵니다."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "UAE에서 올바르게, 무료로 인보이스를 발행하세요",
+  "ctaSub": "행 단위 세금, 문서에 환율이 표시되는 모든 통화, 하나의 기록에서 나오는 아랍어와 영어 인보이스.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, 제3조(개정 사항 포함 통합본)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, 제7조, 제8조, 제59조",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, 그리고 Ministry의 개정 보도자료",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

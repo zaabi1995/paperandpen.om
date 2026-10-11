@@ -1,0 +1,140 @@
+{
+  "locale": "nl",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrein",
+  "title": "Btw in Bahrein",
+  "metaTitle": "Btw in Bahrein: tarief van 10% en factuurregels · Paper & Pen",
+  "metaDescription": "Het btw-tarief van 10% in Bahrein, de registratiedrempel van BHD 37,500 en wat de NBR op een btw-factuur eist, met verwijzing naar de eigen gids van het Bureau.",
+  "keywords": "btw bahrein, btw tarief bahrein 10, registratiedrempel btw bahrein, eisen btw factuur bahrein, national bureau for revenue",
+  "heroEyebrow": "Bahrein",
+  "heroTitle": "Factureren volgens de <em class=\"text-copper-400 not-italic\">btw-regels van Bahrein</em>",
+  "heroSubtitle": "Het tarief van 10%, de registratiedrempels en wat het National Bureau for Revenue op een btw-factuur eist, inclusief het ene veld dat alleen voor de bouw geldt.",
+  "heroBullets": [
+    "Standaardtarief van 10%",
+    "Registratie vanaf BHD 37,500",
+    "Geen verplichting voor e-facturatie gepubliceerd"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Standaard btw-tarief",
+      "value": "10%",
+      "note": "De btw begon op 1 januari 2019 met 5% en is met ingang van 1 januari 2022 verhoogd naar 10%. Vergelijkingen van voor 2022 zijn verouderd.",
+      "source": 1
+    },
+    {
+      "label": "Drempel voor verplichte registratie",
+      "value": "BHD 37,500",
+      "note": "Wie boven dit bedrag uitkomt, moet zich registreren.",
+      "source": 1
+    },
+    {
+      "label": "Drempel voor vrijwillige registratie",
+      "value": "BHD 18,750",
+      "note": "Gemeten over de afgelopen 12 maanden of de komende 12 maanden, en mag gebaseerd zijn op kosten waarop btw drukt in plaats van op leveringen.",
+      "source": 1
+    },
+    {
+      "label": "Termijn voor het uitreiken van de factuur",
+      "value": "15e van de volgende maand",
+      "note": "Facturen moeten worden uitgereikt uiterlijk op de vijftiende van de maand na de maand waarin het btw-moment ontstond.",
+      "source": 1
+    },
+    {
+      "label": "Valuta op de factuur",
+      "value": "BHD",
+      "note": "Bedragen, btw-bedragen en totalen staan in Bahreinse dinar, met vermelding van de wisselkoers als een vreemde valuta wordt gebruikt.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Sectie 10.3 van de VAT General Guide van de NBR beschrijft wat een volledige btw-factuur moet bevatten. Een vereenvoudigde btw-factuur heeft een deel daarvan nodig.",
+    "items": [
+      "De vermelding \"VAT invoice\" (btw-factuur)",
+      "Naam, adres en VAT Account Number van de leverancier",
+      "Naam en adres van de klant",
+      "Een doorlopend btw-factuurnummer",
+      "De datum van uitreiking, en de datum van levering of betaling als die afwijkt",
+      "Een omschrijving van de levering die gedetailleerd genoeg is om de btw-behandeling duidelijk te maken",
+      "Bij de bouw van een nieuw gebouw: het nummer van de bouwvergunning",
+      "De hoeveelheid geleverde goederen",
+      "De waarde van de levering en de prijs per eenheid in dinar, exclusief btw",
+      "Eventuele korting, en de nettowaarde in dinar exclusief btw",
+      "Het btw-tarief en de verschuldigde btw in dinar, per regel als de tarieven verschillen",
+      "Het totaal verschuldigde bedrag inclusief btw, in dinar",
+      "De toegepaste wisselkoers als een vreemde valuta wordt gebruikt",
+      "Een duidelijke vermelding als een transactie is vrijgesteld",
+      "Een verwijzing naar de margeregeling als die wordt toegepast"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Geen verplichting gepubliceerd",
+    "body": "We vinden geen regeling, fase of datum voor e-facturatie die door het National Bureau for Revenue is gepubliceerd. De VAT General Guide, bijgewerkt in juli 2026, noemt elektronische facturatie helemaal niet, en het overzicht van publicaties bevat geen gids voor e-facturatie. Commentaren elders beschrijven een systeem voor bedrijven onderling dat wordt ontworpen voor een mogelijke gefaseerde invoering, maar niets op de eigen site van het Bureau onderbouwt een datum, dus publiceren wij er geen. Plan je een systeemwijziging, baseer die dan op de bovenstaande regels voor de inhoud van facturen, die actueel en gepubliceerd zijn, en niet op een verwachte verplichting.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Het goed doen",
+      "title": "De twee valkuilen die typisch zijn voor Bahrein",
+      "body": "De eerste is de geschiedenis van het tarief. Bahrein ging op 1 januari 2022 van vijf naar tien procent, dus elk sjabloon, elke prijslijst of elk vergelijkend artikel van daarvoor klopt niet, en die fout leeft stilletjes voort in oude offertesjablonen. De tweede is de termijn voor uitreiking. Bahrein zegt niet alleen dat een factuur moet worden uitgereikt, maar ook wanneer: uiterlijk op de vijftiende van de maand na de maand waarin het btw-moment ontstond. Een bedrijf dat factureert zodra het papierwerk klaar is, kan te laat zijn zonder het ooit te merken.",
+      "items": [
+        "Controleer sjablonen van voor 2022 op een tarief van 5%",
+        "Factureer uiterlijk op de 15e van de volgende maand",
+        "Toon btw per regel als de tarieven verschillen",
+        "Vermeld de wisselkoers op facturen in vreemde valuta"
+      ]
+    },
+    {
+      "eyebrow": "Detail per sector",
+      "title": "Het bouwveld dat niemand verwacht",
+      "body": "De regels van Bahrein voor de inhoud van facturen bevatten één eis die nergens anders in de Golf voorkomt: bij leveringen voor de bouw van een nieuw gebouw moet de factuur het nummer van de bouwvergunning vermelden. Het is makkelijk te missen, omdat het in de algemene eis voor de omschrijving zit en niet als apart veld wordt genoemd, en het is het soort weglating dat pas wordt ontdekt als er maanden later vragen over een factuur komen. Werk je in de bouw, zet het vergunningsnummer dan in je sjabloon voor de regelomschrijving in plaats van erop te vertrouwen dat iemand het onthoudt.",
+      "items": [
+        "Leveringen voor nieuwbouw hebben het nummer van de bouwvergunning nodig",
+        "Zet het in het sjabloon, niet in iemands geheugen",
+        "Omschrijf de levering goed genoeg om de btw-behandeling te tonen",
+        "Houd de tekst voor de vrijstellingsvermelding klaar"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wat is het btw-tarief in Bahrein?",
+      "a": "Tien procent. Bahrein voerde op 1 januari 2019 btw in tegen vijf procent en verhoogde het standaardtarief met ingang van 1 januari 2022 naar tien procent. Elke gids, elk sjabloon of elke vergelijking die voor Bahrein nog vijf procent toont, is van voor die wijziging."
+    },
+    {
+      "q": "Wanneer moet ik me in Bahrein registreren voor de btw?",
+      "a": "Wanneer je leveringen boven BHD 37,500 uitkomen. Vanaf BHD 18,750 mag je je vrijwillig registreren, gemeten over de afgelopen of de komende twaalf maanden, en Bahrein staat vrijwillige registratie toe op basis van kosten waarop btw drukt en op basis van leveringen, wat handig kan zijn voor een bedrijf dat zijn omzet nog opbouwt."
+    },
+    {
+      "q": "Is e-facturatie verplicht in Bahrein?",
+      "a": "Niet volgens wat het National Bureau for Revenue publiceert. De VAT General Guide, bijgewerkt in juli 2026, noemt elektronische facturatie niet, en er staat geen gids voor e-facturatie tussen de publicaties. We herhalen geen data uit commentaren die het Bureau zelf niet heeft gepubliceerd."
+    },
+    {
+      "q": "Wanneer moet een btw-factuur in Bahrein worden uitgereikt?",
+      "a": "Uiterlijk op de vijftiende van de maand na de maand waarin het btw-moment ontstond. Dit is een echte termijn en geen algemene verwachting, en bedrijven die hun facturen aan het eind van een kwartaal in één keer versturen, lopen er tegenaan."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Factureer correct in Bahrein, gratis",
+  "ctaSub": "Stel het tarief zelf in, toon btw per regel en bewaar de velden die het Bureau vraagt in een sjabloon dat je niet hoeft te onthouden.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, versie 1.15, inclusief sectie 10.3 over de eisen aan facturen",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

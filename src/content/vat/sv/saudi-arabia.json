@@ -1,0 +1,151 @@
+{
+  "locale": "sv",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saudiarabien",
+  "title": "Moms i Saudiarabien",
+  "metaTitle": "Moms i Saudiarabien: 15 % och Fatoora · Paper & Pen",
+  "metaDescription": "Saudiarabiens momssats på 15 %, gränsen på SAR 375,000, fakturainnehållet enligt artikel 53 och ZATCA:s etapper för e-fakturering i Fatoora, med källor.",
+  "keywords": "moms saudiarabien, momssats saudiarabien 15, zatca fatoora, e-fakturering saudiarabien etapp 2, krav på skattefaktura saudiarabien, zatca",
+  "heroEyebrow": "Saudiarabien",
+  "heroTitle": "Fakturering enligt <em class=\"text-copper-400 not-italic\">ZATCA:s</em> regler",
+  "heroSubtitle": "Satsen på 15 %, gränsvärdena för registrering, vad artikel 53 kräver på en skattefaktura och vad Fatoora lägger till när du väl är i integrationsetappen.",
+  "heroBullets": [
+    "Normalsats 15 %",
+    "SAR 375,000 för registrering",
+    "Fatoora infört sedan 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Normal momssats",
+      "value": "15 %",
+      "note": "Saudiarabien sticker ut i Gulfregionen: de andra länder som har infört moms ligger på 5 % eller 10 %. Förutsatt att normalsatsen gäller beskattas skattepliktiga leveranser med 15 %.",
+      "source": 1
+    },
+    {
+      "label": "Gräns för obligatorisk registrering",
+      "value": "SAR 375,000",
+      "note": "Skattepliktiga leveranser över detta belopp under en tolvmånadersperiod kräver registrering.",
+      "source": 1
+    },
+    {
+      "label": "Gräns för frivillig registrering",
+      "value": "SAR 187,500",
+      "note": "Baseras på skattepliktiga leveranser ELLER skattepliktiga kostnader under de senaste tolv månaderna.",
+      "source": 1
+    },
+    {
+      "label": "Utländska företag",
+      "value": "Ingen gräns",
+      "note": "Ett utländskt företag som är skyldigt att betala moms i kungariket måste registrera sig oavsett värdet på sina leveranser.",
+      "source": 1
+    },
+    {
+      "label": "Fakturaspråk",
+      "value": "Arabiska",
+      "note": "Det obligatoriska innehållet måste stå på arabiska. Ett annat språk får visas därutöver, som översättning.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artikel 53(5) i VAT Implementing Regulations (tillämpningsföreskrifterna) anger vad en skattefaktura måste innehålla och kräver att den är på arabiska utöver eventuellt annat språk som visas som översättning.",
+    "items": [
+      "Utfärdandedatum",
+      "Ett löpande nummer som unikt identifierar fakturan",
+      "Leverantörens skatteregistreringsnummer",
+      "När kunden själv ska redovisa skatten: kundens skatteregistreringsnummer och en upplysning om att kunden ska redovisa skatten",
+      "Namn och adress för både leverantör och kund",
+      "Antal och slag av varor, eller omfattning och slag av tjänster",
+      "Leveransdatum, om det skiljer sig från utfärdandedatum",
+      "Beskattningsunderlag per skattesats eller undantag, styckpris exklusive moms och eventuell rabatt som inte redan ingår i styckpriset",
+      "Tillämpad skattesats",
+      "Skattebeloppet att betala, angivet i saudiska rial",
+      "När skatten inte tas ut med grundsatsen: en förklaring av behandlingen",
+      "När vinstmarginalmetoden för berättigade begagnade varor tillämpas: en hänvisning till detta"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Obligatoriskt och infört, i omgångar",
+    "body": "Saudiarabien har det mest avancerade systemet för e-fakturering i Gulfregionen och det som andra länder tar efter. Etapp 1, genereringsetappen, har gällt alla skattskyldiga med hemvist i landet sedan 4 december 2021: fakturor måste utfärdas elektroniskt i strukturerad form. Etapp 2, integrationsetappen, började 1 januari 2023 och införs i omgångar efter skattebetalarnas storlek, och ZATCA meddelar varje grupp minst sex månader före integrationsdatumet. I etapp 2 innehåller en elektronisk faktura mer än det som artikel 53 kräver: den behöver också ett UUID, hashvärdet för föregående faktura, en QR-kod, en kryptografisk stämpel och en manipuleringssäker räknare. Vilken omgång du tillhör meddelas av ZATCA, så kontrollera dess sidor om e-fakturering i stället för att anta något.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Att göra rätt",
+      "title": "Fatoora ändrar vad en faktura ÄR",
+      "body": "I en värld av papper eller PDF är en faktura ett dokument som du tar fram och skickar. I etapp 2 är den en post i en kedja: varje faktura hänvisar till hashvärdet för den föregående, bär en kryptografisk stämpel och räknar upp en räknare som inte kan nollställas. Det är en medveten konstruktion, och den gör en vanlig vana omöjlig. Du kan inte i tysthet radera, numrera om eller utfärda en faktura på nytt i efterhand, eftersom kedjan då bryts och brottet går att upptäcka. Företag som brukade rätta fel genom att ändra i historiken måste gå över till kreditfakturor, vilket är vad redovisningsreglerna i resten av världen alltid har velat.",
+      "items": [
+        "Varje faktura är kopplad till den föregående via hashvärde",
+        "Räknaren kan inte nollställas eller rullas tillbaka",
+        "Rättelser görs med kredit- och debetfakturor",
+        "QR-koden är en del av fakturan, inte dekoration"
+      ]
+    },
+    {
+      "eyebrow": "Att göra rätt",
+      "title": "Satsen på 15 % får följdeffekter",
+      "body": "En sats på femton procent gör skillnaden mellan nollskattesatt och undantaget ekonomiskt allvarlig på ett sätt som en sats på fem procent inte gör. Om dina leveranser är undantagna kan du inte dra av den ingående moms du har betalat, så femton procent av dina inköpskostnader blir en verklig kostnad som inte går att återfå och som måste räknas in i priset. Om de är nollskattesatta tar du inte ut någon moms men får ändå dra av. Att klassificera fel är det enskilt dyraste misstaget som går att göra med saudisk moms, och det är en fråga om klassificering, inte om skattesats.",
+      "items": [
+        "Undantaget betyder ingen avdragsrätt, så skatten blir din kostnad",
+        "Nollskattesatt betyder ingen moms men full avdragsrätt",
+        "Klassificera efter typ av leverans, inte efter kund",
+        "Fatta beslutet om klassificering innan du sätter priset"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Vilken är momssatsen i Saudiarabien?",
+      "a": "Femton procent är normalsatsen. Det är den högsta i Gulfregionen, och ett vanligt misstag är att anta en gemensam sats för Gulfstaterna: Oman och Förenade Arabemiraten ligger på 5 %, Bahrain på 10 %, och Qatar och Kuwait har inte infört moms alls. Säljer du i hela regionen kan du inte använda en sats för allt."
+    },
+    {
+      "q": "Vad är Fatoora?",
+      "a": "Fatoora är ZATCA:s program för e-fakturering. Etapp 1, generering, har gällt alla skattskyldiga med hemvist i landet sedan 4 december 2021. Etapp 2, integration med ZATCA:s system, började 1 januari 2023 och införs i omgångar efter skattebetalarnas storlek, med minst sex månaders varsel till varje omgång."
+    },
+    {
+      "q": "Måste en saudisk skattefaktura vara på arabiska?",
+      "a": "Ja. Artikel 53(5) kräver fakturans innehåll på arabiska och tillåter att ett annat språk visas därutöver som översättning. En tvåspråkig faktura uppfyller kraven; en faktura bara på engelska gör det inte."
+    },
+    {
+      "q": "Vilka extra fält kräver etapp 2?",
+      "a": "Utöver innehållet enligt artikel 53 har en elektronisk faktura i integrationsetappen ett UUID, hashvärdet för föregående faktura, en QR-kod, en kryptografisk stämpel och en manipuleringssäker räknare. De skapas av program som uppfyller kraven, inte av en person som skriver in dem."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Fakturera rätt i Saudiarabien, gratis",
+  "ctaSub": "Ange satsen själv, ha arabiska och engelska på samma dokument och rätta misstag med kreditfakturor i stället för ändringar.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, tredje versionen, avsnitt 3.2 och 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, artikel 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Beslut om införande av e-fakturering, Governor's Decision 62738, samt ZATCA:s sidor om e-fakturering",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

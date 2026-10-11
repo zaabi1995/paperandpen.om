@@ -1,0 +1,152 @@
+{
+  "locale": "nl",
+  "slug": "uae",
+  "order": 2,
+  "country": "Verenigde Arabische Emiraten",
+  "title": "Btw in de VAE",
+  "metaTitle": "Btw in de VAE: tarief, drempels en e-facturatie · Paper & Pen",
+  "metaDescription": "Het btw-tarief van 5% in de VAE, de drempel van AED 375,000, de inhoud van de factuur volgens artikel 59 en het bevestigde tijdpad voor e-facturatie, met bronnen.",
+  "keywords": "btw vae, btw dubai, btw tarief vae, registratiedrempel btw vae, eisen belastingfactuur vae, e-facturatie vae 2027, federal tax authority",
+  "heroEyebrow": "Verenigde Arabische Emiraten",
+  "heroTitle": "Factureren volgens de <em class=\"text-copper-400 not-italic\">btw-regels van de VAE</em>",
+  "heroSubtitle": "Het tarief, de drempels, de twaalf gegevens die artikel 59 op een belastingfactuur eist, en de data voor e-facturatie die het Ministry of Finance echt heeft gepubliceerd.",
+  "heroBullets": [
+    "Standaardtarief van 5%",
+    "Registratie vanaf AED 375,000",
+    "E-facturatie gefaseerd vanaf 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Standaard btw-tarief",
+      "value": "5%",
+      "note": "Artikel 3 van Federal Decree-Law 8 of 2017 legt een standaardtarief van 5% op elke levering of invoer. Van kracht sinds 1 januari 2018.",
+      "source": 1
+    },
+    {
+      "label": "Drempel voor verplichte registratie",
+      "value": "AED 375,000",
+      "note": "Artikel 7(1) van de Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Drempel voor vrijwillige registratie",
+      "value": "AED 187,500",
+      "note": "Artikel 8(1) van de Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Grens voor vereenvoudigde factuur",
+      "value": "AED 10,000",
+      "note": "Een vereenvoudigde belastingfactuur is toegestaan als de ontvanger niet is geregistreerd, of wel is geregistreerd en de vergoeding niet boven dit bedrag uitkomt.",
+      "source": 2
+    },
+    {
+      "label": "Valuta op de factuur",
+      "value": "AED",
+      "note": "Belastingbedragen staan in dirham, en als de factuur in een andere valuta is, moet de toegepaste wisselkoers erop staan.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artikel 59(1) van de Executive Regulation somt op wat een volledige belastingfactuur moet bevatten.",
+    "items": [
+      "De woorden \"Tax Invoice\" (belastingfactuur), duidelijk zichtbaar",
+      "Naam, adres en Tax Registration Number van de leverancier",
+      "Naam, adres en TRN van de ontvanger, als de ontvanger is geregistreerd",
+      "Een doorlopend of uniek nummer waarmee de factuur te identificeren en te ordenen is",
+      "De datum van uitreiking",
+      "De datum van levering, als die afwijkt van de datum van uitreiking",
+      "Een omschrijving van de goederen of diensten",
+      "Per artikel: prijs per eenheid, hoeveelheid of volume, belastingtarief en verschuldigd bedrag in AED",
+      "Het bedrag van een eventueel verleende korting",
+      "Het totaal verschuldigde brutobedrag in AED",
+      "Het in rekening gebrachte belastingbedrag in AED, met de wisselkoers als het is omgerekend uit een andere valuta",
+      "Bij een levering met verleggingsregeling: een vermelding dat de ontvanger de belasting moet aangeven, en de bepaling waarop dat berust"
+    ],
+    "source": 2,
+    "caveat": "Dit is de geconsolideerde publicatie van de Executive Regulation door de Federal Tax Authority van 4 oktober 2024. Commentatoren verwijzen naar een latere wijziging; die hebben we niet gevonden in een tekst die de FTA heeft gepubliceerd, dus controleer de actuele bewoording bij de FTA voordat je erop vertrouwt."
+  },
+  "einvoicing": {
+    "status": "Verplicht en gefaseerd, pilot geopend",
+    "body": "Het UAE eInvoicing System is een gedecentraliseerd vijfhoeksmodel waarin facturen via geaccrediteerde dienstverleners (Accredited Service Providers) lopen. De eigen richtlijnen van het Ministry of Finance leggen het tijdpad vast: een pilotprogramma en vrijwillige invoering vanaf 1 juli 2026; bedrijven met een omzet van AED 50 miljoen of meer voeren het in vanaf 1 januari 2027; bedrijven onder die drempel vanaf 1 juli 2027; overheidsinstanties vanaf 1 oktober 2027. Het ministerie heeft de eerste termijn voor het aanstellen van een geaccrediteerde dienstverlener verlengd van 31 juli 2026 naar 30 oktober 2026, zonder de livegang van januari 2027 te wijzigen. De gepubliceerde PDF met richtlijnen en het persbericht van het ministerie spreken elkaar op die ene datum dus tegen, en het persbericht is het laatste woord.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Het goed doen",
+      "title": "Waar artikel 59 mensen op betrapt",
+      "body": "De eis per regel is de eis waar de meeste factuursjablonen op stuklopen. Artikel 59(1)(h) vraagt per goed of dienst om prijs per eenheid, hoeveelheid, belastingtarief en verschuldigd bedrag, wat betekent dat één samengevoegd belastingbedrag onderaan de factuur niet genoeg is als regels een verschillende behandeling hebben. Het tweede is het TRN van de ontvanger, verplicht zodra de ontvanger is geregistreerd, en het derde is de wisselkoers: factureer je in dollars, dan moet je de belasting toch in dirham tonen, samen met de koers die je hebt gebruikt.",
+      "items": [
+        "Belastingtarief en bedrag per regel, niet alleen een totaal",
+        "TRN van de ontvanger zodra die is geregistreerd",
+        "Wisselkoers vermeld op elke factuur die niet in AED is",
+        "Tekst over de verleggingsregeling waar die van toepassing is"
+      ]
+    },
+    {
+      "eyebrow": "Voorbereiden",
+      "title": "Wat de data van 2027 echt van je vragen",
+      "body": "De verplichting is niet om software met een logo erop te kopen, maar om op de datum die bij je omzetklasse hoort een gestructureerde factuur te kunnen uitreiken via een geaccrediteerde dienstverlener. Reken terug vanaf de invoeringsdatum van je omzetklasse in plaats van vanaf de pilot: de termijn voor het aanstellen van een dienstverlener valt maanden voor de livegang, en het is die aanstelling, niet de livegang, die de meeste bedrijven missen. Ondertussen zijn de gegevens die je nodig hebt dezelfde gegevens die artikel 59 al eist, en dat is een goede reden om de kwaliteit van je facturen nu op orde te brengen en niet tijdens een migratie.",
+      "items": [
+        "Weet in welke omzetklasse je valt",
+        "Zet de aanstelling van de dienstverlener in je agenda, niet alleen de livegang",
+        "Schoon de TRN's van klanten op voor de deadline, niet tijdens",
+        "Leg vanaf vandaag belastingdetails per regel vast"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wat is het btw-tarief in de VAE?",
+      "a": "Vijf procent. Artikel 3 van Federal Decree-Law 8 of 2017 legt een standaardtarief van 5% op elke belaste levering of invoer, van kracht sinds 1 januari 2018. Bepaalde leveringen hebben een nultarief of zijn vrijgesteld, en dat verschil telt: een leverancier met nultarief kan voorbelasting nog steeds terugvragen, een vrijgestelde leverancier niet."
+    },
+    {
+      "q": "Wanneer is e-facturatie verplicht in de VAE?",
+      "a": "Dat hangt af van je omzet. Volgens de gepubliceerde richtlijnen van het Ministry of Finance voeren bedrijven met een omzet van AED 50 miljoen of meer het in vanaf 1 januari 2027, bedrijven daaronder vanaf 1 juli 2027 en overheidsinstanties vanaf 1 oktober 2027. Een pilot en vrijwillige invoering zijn op 1 juli 2026 geopend. Kijk op de pagina's van het ministerie voordat je rond een datum plant, want het heeft al één termijn aangepast."
+    },
+    {
+      "q": "Wanneer mag ik in de VAE een vereenvoudigde belastingfactuur uitreiken?",
+      "a": "Als de ontvanger niet voor de btw is geregistreerd, of wel is geregistreerd en de vergoeding niet boven AED 10,000 uitkomt. Ook een vereenvoudigde factuur heeft de woorden \"Tax Invoice\" nodig, je naam, adres en TRN, de datum van uitreiking, een omschrijving van wat er is geleverd, en de totale vergoeding en het belastingbedrag in dirham."
+    },
+    {
+      "q": "Heb ik het TRN van de klant nodig op een factuur in de VAE?",
+      "a": "Ja, zodra de klant voor de btw is geregistreerd. Artikel 59(1)(c) eist in dat geval naam, adres en Tax Registration Number van de ontvanger. Zonder dat nummer kan je klant moeite hebben om de voorbelasting terug te vragen, en dat komt meestal bij jou terug als verzoek om de factuur opnieuw uit te reiken."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Factureer correct in de VAE, gratis",
+  "ctaSub": "Belasting per regel, elke valuta met de koers op het document, en een Arabische en Engelse factuur vanuit één record.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, artikel 3 (geconsolideerd, met wijzigingen)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, artikelen 7, 8 en 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, en het persbericht van het ministerie over de wijziging",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

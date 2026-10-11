@@ -14,7 +14,7 @@
     { "icon": "inventory", "title": "Stok real-time", "desc": "Jumlah barang diperbarui saat Anda menjual, membeli atau memindahkan barang." },
     { "icon": "truck", "title": "Multigudang", "desc": "Pantau dan pindahkan stok antarlokasi dan cabang dengan visibilitas penuh." },
     { "icon": "bell", "title": "Peringatan stok menipis", "desc": "Tetapkan titik pemesanan ulang dan dapatkan peringatan sebelum barang laris habis." },
-    { "icon": "receipt", "title": "Barcode & SKU", "desc": "Pindai untuk menjual atau menerima barang, tertata per SKU, batch dan satuan." },
+    { "icon": "receipt", "title": "Barcode & SKU", "desc": "Pindai untuk menghitung atau memindahkan stok, tertata per SKU, batch dan satuan." },
     { "icon": "calc", "title": "Valuasi langsung", "desc": "Metode rata-rata atau FIFO menjaga nilai persediaan tetap akurat di neraca Anda." },
     { "icon": "refresh", "title": "Terhubung ke penjualan", "desc": "Faktur dan purchase order menggerakkan stok otomatis, tanpa pembaruan manual." }
   ],
@@ -25,7 +25,7 @@
   "faqs": [
     { "q": "Apakah inventaris sudah termasuk gratis?", "a": "Inventaris adalah modul tambahan berbayar yang opsional. Modul inti Penjualan & Faktur gratis selamanya, dan Anda menambah Inventaris saat membutuhkan kontrol stok real-time." },
     { "q": "Bisakah saya mengelola beberapa gudang?", "a": "Bisa. Pantau stok per lokasi, pindahkan antarlokasi dan lihat jumlah terkini di mana saja." },
-    { "q": "Apakah mendukung barcode?", "a": "Ya. Gunakan barcode dan SKU untuk menjual dan menerima barang lebih cepat, dengan dukungan batch dan satuan." },
+    { "q": "Apakah mendukung barcode?", "a": "Ya. Pindai barcode pemasok, SKU, atau label QR yang dicetak untuk menghitung dan memindahkan stok lebih cepat, dengan dukungan batch dan satuan." },
     { "q": "Bagaimana stok dinilai?", "a": "Pilih biaya rata-rata atau FIFO. Valuasi diperbarui di setiap pergerakan dan tercatat ke akuntansi Anda secara otomatis." },
     { "q": "Apakah penjualan memperbarui stok otomatis?", "a": "Ya. Faktur mengurangi stok dan pembelian menambahnya secara real-time, jadi Anda tidak pernah memperbarui jumlah secara manual." }
   ],

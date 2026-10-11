@@ -1,0 +1,35 @@
+{
+  "locale": "nl",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Productie",
+  "metaTitle": "Productiesoftware en productiebeheer · Paper & Pen",
+  "metaDescription": "Plan productie met stuklijsten, werkorders en echte kostprijsberekening. Verbruik grondstoffen, maak eindproducten en ken je werkelijke marge. Werkt wereldwijd.",
+  "keywords": "productiesoftware, productiebeheer, stuklijst, bom, werkorders, kostprijsberekening productie, eindproducten",
+  "heroEyebrow": "Extra module",
+  "heroTitle": "Maken op order, <em class=\"text-copper-400 not-italic\">tot op de rial berekend</em>",
+  "heroSubtitle": "Maak van grondstoffen eindproducten met stuklijsten en werkorders, terwijl Paper & Pen de kosten van elk onderdeel bijhoudt, zodat je altijd je echte marge kent.",
+  "heroBullets": ["Stuklijsten en werkorders", "Automatisch voorraadverbruik", "Echte kostprijsberekening van productie"],
+  "features": [
+    { "icon": "manufacturing", "title": "Stuklijsten", "desc": "Leg vast wat er in elk product gaat, met aantallen en subassemblages." },
+    { "icon": "doc", "title": "Werkorders", "desc": "Plan en volg productieruns van grondstof tot eindvoorraad." },
+    { "icon": "inventory", "title": "Automatische voorraadmutaties", "desc": "Grondstoffen worden verbruikt en eindproducten toegevoegd terwijl je produceert." },
+    { "icon": "calc", "title": "Kostprijsberekening", "desc": "Tel materiaal- en overheadkosten op tot een juiste waarde van het eindproduct." },
+    { "icon": "chart", "title": "Inzicht in marge", "desc": "Vergelijk productiekosten met de verkoopprijs en zie de echte marge per artikel." },
+    { "icon": "refresh", "title": "Van begin tot eind gekoppeld", "desc": "Verbind inkoop, voorraad en verkoop in één doorlopende flow." }
+  ],
+  "sections": [
+    { "eyebrow": "Plan met vertrouwen", "title": "Van recept tot eindproduct", "body": "Leg een stuklijst één keer vast en Paper & Pen weet precies wat elke productierun verbruikt. Maak een werkorder aan en grondstoffen worden gereserveerd en verbruikt, terwijl eindproducten aan de voorraad worden toegevoegd, met alle kostprijsberekening voor je geregeld.", "items": ["Herbruikbare stuklijsten", "Werkorders met voorraadreservering", "Automatisch verbruik en ontvangst van eindproducten"] },
+    { "eyebrow": "Ken je echte marge", "title": "Kostprijsberekening die de waarheid vertelt", "body": "Je kostprijs gokken is je winst gokken. Paper & Pen telt materiaal en overhead op tot een echte kostprijs van het eindproduct, boekt die in je administratie en toont de marge op elke verkoop. Werkt in elke valuta, zodat je over de grens kunt inkopen en verkopen.", "items": ["Kostprijs van materiaal plus overhead", "Boekt automatisch in de boekhouding", "Marge per product, per order"] }
+  ],
+  "faqs": [
+    { "q": "Is productie gratis?", "a": "Productie is een optionele betaalde add-on. De kernmodule Verkoop en Facturatie is voor altijd gratis, en je voegt Productie toe wanneer je goederen maakt." },
+    { "q": "Kan ik stuklijsten vastleggen?", "a": "Ja. Maak voor elk product een stuklijst (BOM), inclusief subassemblages, en gebruik die opnieuw bij elke productierun." },
+    { "q": "Verbruikt het automatisch voorraad?", "a": "Ja. Wanneer je een werkorder verwerkt, worden grondstoffen verbruikt en eindproducten automatisch aan de voorraad toegevoegd." },
+    { "q": "Hoe worden productiekosten berekend?", "a": "Materiaal- en overheadkosten worden opgeteld tot de waarde van het eindproduct, die in de boekhouding wordt geboekt, zodat je marges kloppen." },
+    { "q": "Werkt het in elke valuta?", "a": "Ja. Koop materialen in en verkoop eindproducten in elke valuta, met kostprijsberekening en boekhouding die gelijk blijven lopen." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Bereken elke productierun nauwkeurig",
+  "ctaSub": "Begin gratis met facturatie en voeg Productie toe om je productie te plannen en je echte marge te kennen."
+}

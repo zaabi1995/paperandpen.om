@@ -1,0 +1,152 @@
+{
+  "locale": "sv",
+  "slug": "uae",
+  "order": 2,
+  "country": "Förenade Arabemiraten",
+  "title": "Moms i Förenade Arabemiraten",
+  "metaTitle": "Moms i Förenade Arabemiraten: sats, gränser, e-faktura · Paper & Pen",
+  "metaDescription": "Förenade Arabemiratens momssats på 5 %, gränsen på AED 375,000, fakturainnehållet enligt artikel 59 och den bekräftade tidplanen för e-fakturering, med källor.",
+  "keywords": "moms förenade arabemiraten, momssats dubai, gräns för momsregistrering uae, krav på skattefaktura uae, e-fakturering uae 2027, federal tax authority",
+  "heroEyebrow": "Förenade Arabemiraten",
+  "heroTitle": "Fakturering enligt <em class=\"text-copper-400 not-italic\">Förenade Arabemiratens momsregler</em>",
+  "heroSubtitle": "Momssatsen, gränsvärdena, de tolv uppgifter som artikel 59 kräver på en skattefaktura och de datum för e-fakturering som finansministeriet faktiskt har publicerat.",
+  "heroBullets": [
+    "Normalsats 5 %",
+    "AED 375,000 för registrering",
+    "E-fakturering i etapper från 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Normal momssats",
+      "value": "5 %",
+      "note": "Artikel 3 i Federal Decree-Law 8 of 2017 inför en normalsats på 5 % på varje leverans eller import. Gäller sedan 1 januari 2018.",
+      "source": 1
+    },
+    {
+      "label": "Gräns för obligatorisk registrering",
+      "value": "AED 375,000",
+      "note": "Artikel 7(1) i Executive Regulation (tillämpningsföreskrifterna).",
+      "source": 2
+    },
+    {
+      "label": "Gräns för frivillig registrering",
+      "value": "AED 187,500",
+      "note": "Artikel 8(1) i Executive Regulation (tillämpningsföreskrifterna).",
+      "source": 2
+    },
+    {
+      "label": "Tak för förenklad faktura",
+      "value": "AED 10,000",
+      "note": "En förenklad skattefaktura är tillåten när mottagaren inte är registrerad, eller är registrerad och ersättningen inte överstiger detta belopp.",
+      "source": 2
+    },
+    {
+      "label": "Valuta på fakturan",
+      "value": "AED",
+      "note": "Skattebelopp visas i dirham, och om fakturan är i en annan valuta måste den använda växelkursen anges.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artikel 59(1) i Executive Regulation (tillämpningsföreskrifterna) anger vad en fullständig skattefaktura måste innehålla.",
+    "items": [
+      "Orden \"Tax Invoice\" (skattefaktura), tydligt angivna",
+      "Leverantörens namn, adress och momsregistreringsnummer (TRN)",
+      "Mottagarens namn, adress och TRN, om mottagaren är registrerad",
+      "Ett löpande eller unikt nummer som gör att fakturan kan identifieras och ordnas",
+      "Utfärdandedatum",
+      "Leveransdatum, om det skiljer sig från utfärdandedatum",
+      "En beskrivning av varorna eller tjänsterna",
+      "För varje artikel: styckpris, antal eller volym, skattesats och belopp att betala i AED",
+      "Beloppet för eventuell rabatt",
+      "Bruttobeloppet att betala i AED",
+      "Debiterat skattebelopp i AED, med växelkursen om beloppet räknats om från en annan valuta",
+      "Vid omvänd skattskyldighet: en upplysning om att mottagaren ska redovisa skatten, och den bestämmelse som åberopas"
+    ],
+    "source": 2,
+    "caveat": "Detta är Federal Tax Authoritys konsoliderade publicering av Executive Regulation daterad 4 oktober 2024. Kommentatorer hänvisar till en senare ändring; vi har inte hittat den i någon text publicerad av FTA, så bekräfta den aktuella lydelsen med FTA innan du förlitar dig på den."
+  },
+  "einvoicing": {
+    "status": "Obligatoriskt och i etapper, pilot öppen",
+    "body": "UAE eInvoicing System är en decentraliserad femhörnsmodell där fakturorna går via ackrediterade tjänsteleverantörer (Accredited Service Providers). Finansministeriets egna riktlinjer anger tidplanen: ett pilotprogram och frivillig anslutning från 1 juli 2026; företag med en omsättning på AED 50 miljoner eller mer inför systemet från 1 januari 2027; företag under den gränsen från 1 juli 2027; myndigheter från 1 oktober 2027. Ministeriet förlängde den första tidsfristen för att utse en ackrediterad tjänsteleverantör från 31 juli 2026 till 30 oktober 2026 och lät införandet i januari 2027 stå kvar, så den publicerade PDF:en med riktlinjerna och ministeriets pressmeddelande skiljer sig åt på just det datumet, och pressmeddelandet är det senare beskedet.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Att göra rätt",
+      "title": "Det som artikel 59 oftast fäller företag på",
+      "body": "Kravet per rad är det som de flesta fakturamallar missar. Artikel 59(1)(h) kräver styckpris, antal, skattesats och belopp att betala för varje vara eller tjänst, vilket betyder att en enda sammanslagen skattesiffra längst ner på fakturan inte räcker när raderna har olika behandling. Det andra är mottagarens TRN, som krävs så snart mottagaren är registrerad, och det tredje är växelkursen: fakturerar du i dollar måste du ändå visa skatten i dirham och den kurs du har använt.",
+      "items": [
+        "Skattesats och belopp per rad, inte bara en summa",
+        "Mottagarens TRN så snart den är registrerad",
+        "Växelkurs angiven på varje faktura som inte är i AED",
+        "Formulering om omvänd skattskyldighet där den gäller"
+      ]
+    },
+    {
+      "eyebrow": "Förberedelser",
+      "title": "Vad datumen 2027 faktiskt kräver av dig",
+      "body": "Skyldigheten är inte att köpa ett program med en logotyp på, utan att kunna utfärda en strukturerad faktura via en ackrediterad tjänsteleverantör från det datum som gäller för din omsättningsnivå. Räkna baklänges från införandedatumet för din nivå i stället för från piloten: tidsfristen för att utse en tjänsteleverantör ligger flera månader före införandet, och det är utnämningen, inte införandet, som de flesta företag missar. Under tiden är de uppgifter du behöver samma uppgifter som artikel 59 redan kräver, vilket är ett bra skäl att förbättra fakturakvaliteten nu i stället för mitt i en migrering.",
+      "items": [
+        "Ta reda på vilken omsättningsnivå du tillhör",
+        "Boka in utnämningen av tjänsteleverantör, inte bara införandet",
+        "Rensa kundernas TRN före tidsfristen, inte under den",
+        "Spara skattedetaljer per rad redan från i dag"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Vilken är momssatsen i Förenade Arabemiraten?",
+      "a": "Fem procent. Artikel 3 i Federal Decree-Law 8 of 2017 inför en normalsats på 5 % på varje skattepliktig leverans eller import, och den gäller sedan 1 januari 2018. Vissa leveranser är nollskattesatta eller undantagna, och skillnaden spelar roll: en leverantör med nollskattesats kan ändå dra av ingående moms, en undantagen leverantör kan inte det."
+    },
+    {
+      "q": "När blir e-fakturering obligatorisk i Förenade Arabemiraten?",
+      "a": "Det beror på din omsättning. Enligt finansministeriets publicerade riktlinjer inför företag med en omsättning på AED 50 miljoner eller mer systemet från 1 januari 2027, företag under den gränsen från 1 juli 2027 och myndigheter från 1 oktober 2027. En pilot och frivillig anslutning öppnade 1 juli 2026. Kontrollera ministeriets sidor innan du planerar efter något datum, eftersom ministeriet redan har ändrat en tidsfrist."
+    },
+    {
+      "q": "När får jag utfärda en förenklad skattefaktura i Förenade Arabemiraten?",
+      "a": "När mottagaren inte är momsregistrerad, eller är registrerad och ersättningen inte överstiger AED 10,000. En förenklad faktura behöver ändå orden \"Tax Invoice\", ditt namn, din adress och ditt TRN, utfärdandedatum, en beskrivning av det som levererats samt den totala ersättningen och skattebeloppet i dirham."
+    },
+    {
+      "q": "Behöver jag kundens TRN på en faktura i Förenade Arabemiraten?",
+      "a": "Ja, så snart kunden är momsregistrerad. Artikel 59(1)(c) kräver i så fall mottagarens namn, adress och momsregistreringsnummer (TRN). Utan det kan kunden få svårt att dra av den ingående momsen, vilket oftast kommer tillbaka till dig som en begäran om att utfärda fakturan på nytt."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Fakturera rätt i Förenade Arabemiraten, gratis",
+  "ctaSub": "Skatt per rad, valfri valuta med kursen på dokumentet och en arabisk och en engelsk faktura från samma underlag.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, artikel 3 (konsoliderad, med ändringar)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, artiklarna 7, 8 och 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, samt ministeriets pressmeddelande om ändringen",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

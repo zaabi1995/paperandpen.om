@@ -1,0 +1,140 @@
+{
+  "locale": "sv",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrain",
+  "title": "Moms i Bahrain",
+  "metaTitle": "Moms i Bahrain: 10 % och regler för fakturor · Paper & Pen",
+  "metaDescription": "Bahrains momssats på 10 %, registreringsgränsen på BHD 37,500 och vad NBR kräver på en momsfaktura, med källa i myndighetens egen vägledning.",
+  "keywords": "moms bahrain, momssats bahrain 10, gräns för momsregistrering bahrain, krav på momsfaktura bahrain, national bureau for revenue",
+  "heroEyebrow": "Bahrain",
+  "heroTitle": "Fakturering enligt <em class=\"text-copper-400 not-italic\">Bahrains momsregler</em>",
+  "heroSubtitle": "Satsen på 10 %, gränsvärdena för registrering och vad National Bureau for Revenue kräver på en momsfaktura, inklusive det enda fält som är unikt för byggbranschen.",
+  "heroBullets": [
+    "Normalsats 10 %",
+    "BHD 37,500 för registrering",
+    "Inget krav på e-fakturering publicerat"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Normal momssats",
+      "value": "10 %",
+      "note": "Momsen infördes med 5 % den 1 januari 2019 och höjdes till 10 % från och med 1 januari 2022. Jämförelser skrivna före 2022 är inaktuella.",
+      "source": 1
+    },
+    {
+      "label": "Gräns för obligatorisk registrering",
+      "value": "BHD 37,500",
+      "note": "Överstiger du detta belopp måste du registrera dig.",
+      "source": 1
+    },
+    {
+      "label": "Gräns för frivillig registrering",
+      "value": "BHD 18,750",
+      "note": "Mäts över de föregående tolv månaderna eller de kommande tolv månaderna, och kan baseras på momsbelagda kostnader i stället för leveranser.",
+      "source": 1
+    },
+    {
+      "label": "Sista dag för att utfärda faktura",
+      "value": "Den 15:e följande månad",
+      "note": "Fakturor måste utfärdas senast den femtonde i månaden efter den månad då en momsskyldighet uppstod.",
+      "source": 1
+    },
+    {
+      "label": "Valuta på fakturan",
+      "value": "BHD",
+      "note": "Värden, momsbelopp och summor anges i bahrainska dinarer, med växelkursen angiven när en utländsk valuta används.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Avsnitt 10.3 i NBR:s VAT General Guide anger vad en fullständig momsfaktura måste visa. En förenklad momsfaktura behöver en del av uppgifterna.",
+    "items": [
+      "Beteckningen \"VAT invoice\" (momsfaktura)",
+      "Leverantörens namn, adress och momskontonummer (VAT Account Number)",
+      "Kundens namn och adress",
+      "Ett löpande momsfakturanummer",
+      "Utfärdandedatum, och leverans- eller betalningsdatum om det skiljer sig",
+      "En beskrivning av leveransen som är så detaljerad att momsbehandlingen framgår",
+      "Vid uppförande av en ny byggnad: bygglovets nummer",
+      "Antalet levererade varor",
+      "Leveransens värde och styckpriset i dinarer, exklusive moms",
+      "Eventuell rabatt och nettovärdet i dinarer exklusive moms",
+      "Momssats och moms att betala i dinarer, per rad när satserna skiljer sig",
+      "Totalt belopp att betala inklusive moms, i dinarer",
+      "Den tillämpade växelkursen när en utländsk valuta används",
+      "En tydlig upplysning när en transaktion är undantagen",
+      "En hänvisning till vinstmarginalsystemet när det används"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Inget krav publicerat",
+    "body": "Vi hittar inget system, ingen etapp och inget datum för e-fakturering som National Bureau for Revenue har publicerat. Dess VAT General Guide, uppdaterad i juli 2026, nämner inte elektronisk fakturering alls, och förteckningen över dess publikationer innehåller ingen vägledning om e-fakturering. Kommentarer på andra håll beskriver ett system för fakturering mellan företag som håller på att utformas för en möjlig lansering i etapper, men inget på myndighetens egen webbplats stöder ett datum, så vi publicerar inget. Om du planerar en systemändring, planera den utifrån reglerna för fakturainnehåll ovan, som är aktuella och publicerade, i stället för utifrån ett förväntat krav.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Att göra rätt",
+      "title": "De två fällorna som är unika för Bahrain",
+      "body": "Den första är satsens historik. Bahrain gick från fem till tio procent den 1 januari 2022, så varje mall, prislista eller jämförande artikel som skrevs före dess är fel, och felet lever tyst kvar i gamla offertmallar. Den andra är tidsfristen för att utfärda fakturan. Bahrain säger inte bara att en faktura ska utfärdas, utan också när: senast den femtonde i månaden efter den månad då momsskyldigheten uppstod. Ett företag som fakturerar när papperen råkar vara klara kan ligga efter utan att någonsin märka det.",
+      "items": [
+        "Kontrollera mallar från före 2022 efter en sats på 5 %",
+        "Fakturera senast den 15:e följande månad",
+        "Visa moms per rad när satserna skiljer sig",
+        "Ange växelkursen på fakturor i utländsk valuta"
+      ]
+    },
+    {
+      "eyebrow": "Branschdetalj",
+      "title": "Byggfältet som ingen räknar med",
+      "body": "Bahrains regler för fakturainnehåll har ett krav som saknar motsvarighet i resten av Gulfregionen: för leveranser som gäller uppförande av en ny byggnad måste fakturan visa bygglovets nummer. Det är lätt att missa eftersom det ligger inbakat i det allmänna kravet på beskrivning snarare än som ett eget fält, och det är den sortens utelämnande som upptäcks först när en faktura ifrågasätts flera månader senare. Arbetar du inom entreprenad, lägg bygglovsnumret i mallen för radbeskrivningen i stället för att lita på att någon kommer ihåg det.",
+      "items": [
+        "Leveranser till nybyggen behöver bygglovets nummer",
+        "Lägg det i mallen, inte i någons minne",
+        "Beskriv leveransen så att momsbehandlingen framgår",
+        "Ha formuleringen för undantag redo"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Vilken är momssatsen i Bahrain?",
+      "a": "Tio procent. Bahrain införde moms med fem procent den 1 januari 2019 och höjde normalsatsen till tio procent från och med 1 januari 2022. Varje vägledning, mall eller jämförelse som fortfarande visar fem procent för Bahrain är äldre än ändringen."
+    },
+    {
+      "q": "När måste jag registrera mig för moms i Bahrain?",
+      "a": "När dina leveranser överstiger BHD 37,500. Du får registrera dig frivilligt från BHD 18,750, mätt över de föregående eller de kommande tolv månaderna, och Bahrain tillåter frivillig registrering utifrån momsbelagda kostnader såväl som leveranser, vilket kan passa ett företag som fortfarande bygger upp sin försäljning."
+    },
+    {
+      "q": "Är e-fakturering obligatorisk i Bahrain?",
+      "a": "Inte enligt något som National Bureau for Revenue publicerar. Dess VAT General Guide, uppdaterad juli 2026, nämner inte elektronisk fakturering, och ingen vägledning om e-fakturering finns bland dess publikationer. Vi upprepar inte datum från kommentarer som myndigheten själv inte har publicerat."
+    },
+    {
+      "q": "När måste en momsfaktura i Bahrain senast utfärdas?",
+      "a": "Senast den femtonde i månaden efter den månad då momsskyldigheten uppstod. Det är en verklig tidsfrist och inte en allmän förväntan, och den fäller företag som samlar sin fakturering till slutet av ett kvartal."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Fakturera rätt i Bahrain, gratis",
+  "ctaSub": "Ange satsen själv, visa moms per rad och ha de fält som myndigheten kräver i en mall som du inte behöver komma ihåg.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, version 1.15, inklusive avsnitt 10.3 om krav på fakturor",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

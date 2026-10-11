@@ -14,7 +14,7 @@
     { "icon": "inventory", "title": "Stock en tiempo real", "desc": "Las cantidades se actualizan en cuanto vendes, compras o trasladas mercancía." },
     { "icon": "truck", "title": "Varios almacenes", "desc": "Controla y traslada stock entre ubicaciones y sucursales con visibilidad total." },
     { "icon": "bell", "title": "Alertas de stock bajo", "desc": "Define puntos de reposición y recibe un aviso antes de quedarte sin un producto de alta rotación." },
-    { "icon": "receipt", "title": "Código de barras y SKU", "desc": "Escanea para vender o recibir, organizado por SKU, lote y unidad de medida." },
+    { "icon": "receipt", "title": "Código de barras y SKU", "desc": "Escanea para contar o mover stock, organizado por SKU, lote y unidad de medida." },
     { "icon": "calc", "title": "Valoración al día", "desc": "El coste medio o FIFO mantiene exacto el valor del inventario en tu balance." },
     { "icon": "refresh", "title": "Conectado a las ventas", "desc": "Las facturas y las órdenes de compra mueven el stock solas, sin ajustes manuales." }
   ],
@@ -25,7 +25,7 @@
   "faqs": [
     { "q": "¿El inventario está incluido gratis?", "a": "Inventario es un complemento de pago opcional. El módulo principal de Ventas y Facturación es gratis para siempre, y añades Inventario cuando necesites controlar el stock en tiempo real." },
     { "q": "¿Puedo gestionar varios almacenes?", "a": "Sí. Controla el stock por ubicación, traslada entre ellas y ve las cantidades al día en todas partes." },
-    { "q": "¿Admite códigos de barras?", "a": "Sí. Usa códigos de barras y SKU para vender y recibir más rápido, con control de lotes y unidades de medida." },
+    { "q": "¿Admite códigos de barras?", "a": "Sí. Escanea el código de barras del proveedor, un SKU o una etiqueta QR impresa para contar y mover stock más rápido, con control de lotes y unidades de medida." },
     { "q": "¿Cómo se valora el stock?", "a": "Elige coste medio o FIFO. La valoración se actualiza con cada movimiento y se registra en tu contabilidad de forma automática." },
     { "q": "¿Vender actualiza el stock de forma automática?", "a": "Sí. Las facturas restan stock y las compras lo suman en tiempo real, así que nunca actualizas cantidades a mano." }
   ],

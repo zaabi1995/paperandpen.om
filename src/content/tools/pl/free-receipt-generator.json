@@ -1,0 +1,37 @@
+{
+  "locale": "pl",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Darmowy generator pokwitowań",
+  "metaTitle": "Darmowy generator pokwitowań wpłaty · Paper & Pen",
+  "metaDescription": "Twórz pokwitowania wpłat online za darmo. Podaj kwotę, walutę i formę płatności, a potem pobierz PDF gotowy do druku w kilka sekund. Bez rejestracji.",
+  "keywords": "darmowy generator pokwitowań, pokwitowanie wpłaty online, wystaw pokwitowanie, darmowy wzór pokwitowania, pokwitowanie pdf, potwierdzenie wpłaty gotówki",
+  "heroEyebrow": "Za darmo · Bez rejestracji",
+  "heroTitle": "Darmowy generator pokwitowań",
+  "heroSubtitle": "Daj każdemu klientowi przejrzyste pokwitowanie wpłaty w kilka sekund. Podaj kwotę, walutę i formę płatności, a potem pobierz PDF gotowy do druku. Bez zakładania konta.",
+  "howToSteps": [
+    { "name": "Dodaj swoje dane", "text": "Wpisz nazwę firmy, płatnika, numer pokwitowania i datę." },
+    { "name": "Wpisz płatność", "text": "Dodaj tytuł płatności, kwotę i formę płatności (gotówka, karta, przelew)." },
+    { "name": "Ustaw walutę i podatek", "text": "Wybierz dowolną walutę i w razie potrzeby pokaż część stanowiącą VAT lub podatek od sprzedaży." },
+    { "name": "Pobierz PDF", "text": "Kliknij pobierz, by zapisać pokwitowanie gotowe do druku, albo zarejestruj się, by wystawiać pokwitowania automatycznie do faktur." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Od razu i za darmo", "desc": "Bez rejestracji, bez znaku wodnego, bez limitów. Wystaw tyle pokwitowań, ile potrzebujesz." },
+    { "icon": "globe", "title": "Dowolna waluta", "desc": "Pokwitowania w OMR, AED, SAR, USD, EUR, GBP i innych, z poprawną liczbą miejsc po przecinku." },
+    { "icon": "card", "title": "Dowolna forma płatności", "desc": "Zapisz gotówkę, kartę, przelew lub płatność online, wyraźnie pokazane na pokwitowaniu." }
+  ],
+  "sections": [
+    { "title": "Dlaczego warto korzystać z generatora pokwitowań Paper & Pen?", "body": "Pokwitowanie to dowód zapłaty dla klienta i Twój zapis, że faktura została rozliczona. Nasz generator jest darmowy, działa w każdej walucie i tworzy przejrzysty PDF, który od razu wręczysz lub wyślesz e-mailem. Bez arkusza, bez rejestracji." },
+    { "eyebrow": "Więcej niż generator", "title": "Pokwitowania powiązane z fakturami", "body": "Pojedyncze pokwitowanie wystarczy przy jednorazowej sprzedaży, ale rosnąca firma potrzebuje pokwitowań powiązanych z fakturami i bieżącej księgi. W pełnym systemie Paper & Pen ERP zapisanie płatności tworzy pokwitowanie i jednocześnie aktualizuje saldo faktury oraz księgi.", "items": ["Automatyczne pokwitowanie po opłaceniu faktury", "Śledzenie płatności pełnych, częściowych i dzielonych", "Natychmiastowa wysyłka pokwitowań przez WhatsApp lub e-mail"] }
+  ],
+  "faqs": [
+    { "q": "Czym różni się faktura od pokwitowania?", "a": "Faktura jest wezwaniem do zapłaty przed jej dokonaniem. Pokwitowanie potwierdza, że płatność została otrzymana. Oba dokumenty utworzysz tu za darmo." },
+    { "q": "Czy generator pokwitowań jest naprawdę darmowy?", "a": "Tak. Jest całkowicie darmowy, bez rejestracji, bez znaku wodnego i bez limitu liczby tworzonych pokwitowań." },
+    { "q": "Czy mogę pokazać VAT lub podatek na pokwitowaniu?", "a": "Tak. Ustaw dowolną stawkę podatku, a pokwitowanie pokaże część zapłaconej kwoty stanowiącą podatek tam, gdzie tego potrzebujesz." },
+    { "q": "Czy pokwitowania mogą być powiązane z moimi fakturami?", "a": "Pobieraj pojedyncze pokwitowania za darmo albo załóż darmową przestrzeń roboczą Paper & Pen, w której każda płatność zapisana do faktury automatycznie tworzy powiązane pokwitowanie." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Dowód zapłaty bez kłopotu",
+  "ctaSub": "Twórz pokwitowania automatycznie, śledź każdą płatność i prowadź aktualną księgę w darmowej przestrzeni roboczej Paper & Pen."
+}

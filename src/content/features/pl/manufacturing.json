@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Produkcja",
+  "metaTitle": "Program do zarządzania produkcją · Paper & Pen",
+  "metaDescription": "Planuj produkcję z zestawieniami materiałów, zleceniami produkcyjnymi i rzetelną kalkulacją kosztów. Zużywaj surowce, twórz wyroby gotowe i znaj prawdziwą marżę.",
+  "keywords": "program do produkcji, zarządzanie produkcją, zestawienie materiałów, bom, zlecenia produkcyjne, kalkulacja kosztów produkcji, wyroby gotowe",
+  "heroEyebrow": "Moduł dodatkowy",
+  "heroTitle": "Produkuj na zamówienie, <em class=\"text-copper-400 not-italic\">licz koszt co do riala</em>",
+  "heroSubtitle": "Zamieniaj surowce w wyroby gotowe dzięki zestawieniom materiałów i zleceniom produkcyjnym, a Paper & Pen śledzi koszt każdego składnika, więc zawsze znasz prawdziwą marżę.",
+  "heroBullets": ["Zestawienia materiałów i zlecenia produkcyjne", "Automatyczne zużycie zapasów", "Prawdziwa kalkulacja kosztów produkcji"],
+  "features": [
+    { "icon": "manufacturing", "title": "Zestawienia materiałów", "desc": "Określ, z czego składa się każdy produkt, z ilościami i podzespołami." },
+    { "icon": "doc", "title": "Zlecenia produkcyjne", "desc": "Planuj i śledź serie produkcyjne od surowców do gotowego towaru." },
+    { "icon": "inventory", "title": "Automatyczne ruchy magazynowe", "desc": "Surowce są zużywane, a wyroby gotowe przybywają w trakcie produkcji." },
+    { "icon": "calc", "title": "Kalkulacja kosztów produkcji", "desc": "Zsumuj koszty materiałów i narzutów w rzetelną wartość wyrobów gotowych." },
+    { "icon": "chart", "title": "Widoczność marży", "desc": "Porównaj koszt produkcji z ceną sprzedaży i zobacz prawdziwą marżę na pozycji." },
+    { "icon": "refresh", "title": "Połączone od początku do końca", "desc": "Zakupy, magazyn i sprzedaż w jednym ciągłym procesie." }
+  ],
+  "sections": [
+    { "eyebrow": "Planuj pewnie", "title": "Od receptury do wyrobu gotowego", "body": "Zdefiniuj zestawienie materiałów raz, a Paper & Pen wie dokładnie, co zużywa każda produkcja. Utwórz zlecenie produkcyjne, a surowce zostaną zarezerwowane i zużyte, wyroby gotowe trafią do magazynu, a cała kalkulacja kosztów zrobi się za Ciebie.", "items": ["Zestawienia materiałów do wielokrotnego użytku", "Zlecenia produkcyjne z rezerwacją zapasów", "Automatyczne zużycie i przyjęcie wyrobów gotowych"] },
+    { "eyebrow": "Znaj prawdziwą marżę", "title": "Kalkulacja kosztów, która mówi prawdę", "body": "Zgadywanie kosztu to zgadywanie zysku. Paper & Pen sumuje materiały i narzuty w prawdziwy koszt wyrobu gotowego, księguje go i pokazuje marżę przy każdej sprzedaży. Działa w dowolnej walucie, więc możesz kupować i sprzedawać ponad granicami.", "items": ["Koszt materiałów i narzutów", "Automatyczne księgowanie", "Marża na produkt i na zamówienie"] }
+  ],
+  "faqs": [
+    { "q": "Czy produkcja jest darmowa?", "a": "Produkcja to opcjonalny, płatny moduł dodatkowy. Podstawowy moduł Sprzedaż i faktury jest bezpłatny na zawsze, a Produkcję dodajesz, gdy wytwarzasz towary." },
+    { "q": "Czy mogę definiować zestawienia materiałów?", "a": "Tak. Utwórz BOM dla każdego produktu, z podzespołami, i używaj go w każdej serii produkcyjnej." },
+    { "q": "Czy zapasy zużywają się automatycznie?", "a": "Tak. Gdy realizujesz zlecenie produkcyjne, surowce są zużywane, a wyroby gotowe automatycznie trafiają do magazynu." },
+    { "q": "Jak liczony jest koszt produkcji?", "a": "Koszty materiałów i narzutów składają się na wartość wyrobów gotowych, która trafia do księgowości, więc marże są dokładne." },
+    { "q": "Czy działa w każdej walucie?", "a": "Tak. Kupuj materiały i sprzedawaj wyroby gotowe w dowolnej walucie, a kalkulacja kosztów i księgowość pozostają zgodne." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Licz dokładnie koszt każdej produkcji",
+  "ctaSub": "Zacznij za darmo od faktur i dodaj Produkcję, by planować wytwarzanie i znać prawdziwą marżę."
+}

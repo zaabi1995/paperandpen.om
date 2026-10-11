@@ -1,0 +1,35 @@
+{
+  "locale": "nl",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Boekhouding",
+  "metaTitle": "Online boekhoudsoftware · Automatisch boekhouden · Paper & Pen",
+  "metaDescription": "Dubbel boekhouden dat zichzelf boekt. Winst-en-verliesrekening en balans in realtime, btw-aangiften, bankafstemming, elke valuta, elk belastingstelsel.",
+  "keywords": "boekhoudsoftware, online boekhouden, dubbel boekhouden, balans, winst-en-verliesrekening, btw-aangifte, bankafstemming, grootboek",
+  "heroEyebrow": "Extra module",
+  "heroTitle": "Een boekhouding die <em class=\"text-copper-400 not-italic\">vanzelf sluit</em>",
+  "heroSubtitle": "Elke factuur, betaling en inkoop wordt automatisch geboekt in een echt grootboek met dubbel boekhouden. Zie je winst, balans en belastingpositie in realtime, zonder een spreadsheet aan te raken.",
+  "heroBullets": ["Automatisch dubbel boekhouden, geen handmatige memoriaalboekingen", "Winst-en-verliesrekening en balans in realtime", "Btw-aangifte met één klik"],
+  "features": [
+    { "icon": "accounting", "title": "Automatisch boekhouden", "desc": "Verkopen, betalingen en uitgaven komen in het grootboek op het moment dat ze plaatsvinden." },
+    { "icon": "chart", "title": "Actuele financiële cijfers", "desc": "Winst-en-verliesrekening, balans en kasstroom, altijd bijgewerkt." },
+    { "icon": "calc", "title": "Btw en belastingaangiften", "desc": "Volg voorbelasting en af te dragen btw en maak met één klik een aangifte die klaar is om in te dienen." },
+    { "icon": "refresh", "title": "Bankafstemming", "desc": "Koppel bankregels aan facturen en betalingen en houd je administratie schoon." },
+    { "icon": "doc", "title": "Volledige grootboeken", "desc": "Klik vanuit elk rapport door naar het brondocument en de journaalpost." },
+    { "icon": "globe", "title": "Meerdere valuta", "desc": "Boek in elke valuta, met automatische koerswinst en koersverlies." }
+  ],
+  "sections": [
+    { "eyebrow": "Geen boekhouder nodig", "title": "Boekhouding die op de achtergrond draait", "body": "Je hoeft geen boekhouder te zijn om te weten of je winst maakt. Facturatie, betalingen en voorraad voeden allemaal hetzelfde grootboek, dus je administratie klopt zonder handmatige memoriaalboekingen. Open het dashboard en je winst, debiteuren en belasting staan direct voor je klaar.", "items": ["Dubbel boekhouden wordt voor je gedaan", "Elk rapport klikt door naar de bron", "Audittrail bij elke boeking"] },
+    { "eyebrow": "Voor elk belastingstelsel", "title": "Belasting en compliance, waar je ook werkt", "body": "Stel de belastingtarieven en rekeningen van je land in, inclusief configureerbare btw voor de GCC, en Paper & Pen houdt voorbelasting en af te dragen btw voor je bij. Maak een aangifte die klaar is om in te dienen, stem je bank af en sluit de periode met vertrouwen af, in elke valuta.", "items": ["Configureerbare belasting voor elk land", "Btw-aangiften klaar om in te dienen", "Bankafstemming en periodeafsluiting"] }
+  ],
+  "faqs": [
+    { "q": "Heb ik kennis van boekhouden nodig?", "a": "Nee. Boekingen worden automatisch gemaakt vanuit je facturen, betalingen en inkopen, zodat je een correcte dubbele boekhouding hebt zonder zelf memoriaalboekingen te schrijven." },
+    { "q": "Is boekhouding gratis?", "a": "Boekhouding is een optionele betaalde add-on. Verkoop en Facturatie is voor altijd gratis, en je zet Boekhouding aan wanneer je volledige jaarrekeningen wilt." },
+    { "q": "Kan het btw-aangiften maken?", "a": "Ja. Het houdt voorbelasting en af te dragen btw bij (bijvoorbeeld configureerbare btw in de GCC, of elk tarief dat je instelt) en maakt een aangifte die klaar is om in te dienen." },
+    { "q": "Werkt het met meerdere valuta?", "a": "Ja. Boek en rapporteer in elke valuta, met automatische koerswinst en koersverlies." },
+    { "q": "Kan ik mijn bank afstemmen?", "a": "Ja. Importeer bankregels of koppel ze aan facturen en betalingen, zodat je grootboek altijd is afgestemd." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Een kloppende boekhouding, automatisch",
+  "ctaSub": "Begin gratis met facturatie en zet Boekhouding aan voor financiële overzichten en belastingaangiften in realtime."
+}

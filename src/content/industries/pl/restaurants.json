@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restauracje i kawiarnie",
+  "metaTitle": "Rachunki i magazyn receptur dla restauracji | Paper & Pen",
+  "metaDescription": "Darmowe rachunki oraz magazyn składników, kalkulacja receptur i zamówienia u dostawców dla restauracji i kawiarni. Kontroluj koszt żywności i rozliczaj szybko.",
+  "keywords": "program dla restauracji, rachunki w kawiarni, kalkulacja receptur, kontrola kosztów żywności, magazyn restauracji, zamówienia u dostawców, erp dla restauracji",
+  "heroEyebrow": "Dla restauracji i kawiarni",
+  "heroTitle": "Rozliczaj szybko, <em class=\"text-copper-400 not-italic\">kontroluj koszt żywności</em>",
+  "heroSubtitle": "Drukuj paragony w kilka sekund, śledź składniki co do grama i znaj prawdziwy koszt każdego dania. Paper & Pen sprawia, że kuchnia, kasa i księgi działają razem.",
+  "heroBullets": ["Darmowe, szybkie pokwitowania", "Kalkulacja składników i receptur", "Zamówienia u dostawców"],
+  "features": [
+    { "icon": "receipt", "title": "Szybkie pokwitowania", "desc": "Przyjmij zamówienie, dolicz podatek i opłatę serwisową, a potem wydrukuj lub udostępnij pokwitowanie w kilka sekund." },
+    { "icon": "manufacturing", "title": "Kalkulacja receptur", "desc": "Twórz receptury ze składników, by znać prawdziwy koszt każdego dania." },
+    { "icon": "inventory", "title": "Magazyn składników", "desc": "Śledź surowce według jednostki, partii i daty ważności, z alertami o niskim stanie." },
+    { "icon": "truck", "title": "Zamówienia u dostawców", "desc": "Wystawiaj zamówienia zakupu do dostawców i aktualizuj stany oraz koszty przy przyjęciu." },
+    { "icon": "calc", "title": "Procent kosztu żywności", "desc": "Porównuj koszt dania z ceną w menu, by marże pozostały zdrowe." },
+    { "icon": "chart", "title": "Raporty sprzedaży", "desc": "Zobacz najpopularniejsze dania, dzienny utarg i trendy w kolejnych dniach i lokalach." }
+  ],
+  "sections": [
+    { "eyebrow": "Szybsza obsługa sali", "title": "Pokwitowania, które nie wstrzymują kolejki", "body": "W porze lunchu nie ma czasu na powolne rozliczanie. Dodaj pozycje, nalicz VAT lub opłatę serwisową, przyjmij płatność i wręcz przejrzyste pokwitowanie w kilka sekund, a jeśli gość poprosi, udostępnij je przez WhatsApp. Każda sprzedaż automatycznie trafia do ksiąg, więc zamknięcie dnia to rzut oka, a nie wieczór wpisywania.", "items": ["Szybkie dodawanie pozycji i przyjmowanie płatności", "VAT i opłata serwisowa liczone za Ciebie", "Dzienny utarg uzgadnia się automatycznie"] },
+    { "eyebrow": "Kuchnia mówi prawdę", "title": "Kalkulacja receptur, która chroni marżę", "body": "Danie jest opłacalne tylko wtedy, gdy wiesz, ile kosztuje. Twórz receptury ze składników, pozwól Paper & Pen wyliczać koszt każdego talerza z aktualnych cen zakupu i obserwuj procent kosztu żywności, gdy zmieniają się ceny dostawców. Śledź składniki według partii i daty ważności, wystawiaj zamówienia zakupu i trzymaj straty w ryzach. Stworzony w Omanie z natywną obsługą OMR, AED i SAR oraz VAT 5%, gotowy na USD, EUR i każdy rynek.", "items": ["Receptury liczone z aktualnych cen składników", "Partie i daty ważności surowców", "Zamówienia zakupu aktualizujące koszt przy przyjęciu"] }
+  ],
+  "faqs": [
+    { "q": "Czy mogę wyliczyć koszt menu z cen składników?", "a": "Tak. Zdefiniuj każde danie jako recepturę ze składników, a Paper & Pen policzy jego koszt z bieżących cen zakupu, dzięki czemu ustalisz ceny w menu, które chronią marżę." },
+    { "q": "Czy śledzi składniki i daty ważności?", "a": "Tak. Surowce są śledzone według jednostki miary, partii i daty ważności, z alertami o niskim stanie, więc zamawiasz, zanim czegoś zabraknie." },
+    { "q": "Czy mogę doliczyć VAT i opłatę serwisową?", "a": "Tak. Stosuj konfigurowalny VAT dla krajów Zatoki, opłatę serwisową lub dowolną stawkę podatku, wszystko liczone automatycznie na rachunku." },
+    { "q": "Czy rozliczanie jest darmowe dla kawiarni?", "a": "Sprzedaż i faktury, w tym pokwitowania, są bezpłatne na zawsze. Dodaj Magazyn i Produkcję, gdy zechcesz śledzić składniki i liczyć koszt receptur." },
+    { "q": "Czy mogę zarządzać więcej niż jednym lokalem?", "a": "Tak. Śledź sprzedaż i stany dla każdego lokalu i widź aktualne ilości oraz dzienny utarg ze wszystkich lokali w jednej przestrzeni roboczej." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Obsługuj szybko, licz mądrze",
+  "ctaSub": "Zacznij za darmo od pokwitowań i rachunków, a potem dodaj Magazyn i kalkulację receptur, by przejąć kontrolę nad kosztem żywności."
+}

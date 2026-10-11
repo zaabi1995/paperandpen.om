@@ -1,0 +1,151 @@
+{
+  "locale": "nl",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saudi-Arabië",
+  "title": "Btw in Saudi-Arabië",
+  "metaTitle": "Btw in Saudi-Arabië: tarief van 15% en Fatoora · Paper & Pen",
+  "metaDescription": "Het btw-tarief van 15% in Saudi-Arabië, de drempel van SAR 375,000, de inhoud van de factuur volgens artikel 53 en de fasen van Fatoora van ZATCA, met bronnen.",
+  "keywords": "btw saudi-arabië, btw tarief saudi-arabië 15, zatca fatoora, e-facturatie saudi-arabië fase 2, eisen belastingfactuur saudi-arabië, zatca",
+  "heroEyebrow": "Saudi-Arabië",
+  "heroTitle": "Factureren volgens de regels van <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "Het tarief van 15%, de registratiedrempels, wat artikel 53 op een belastingfactuur eist en wat Fatoora daaraan toevoegt zodra je in de integratiefase zit.",
+  "heroBullets": [
+    "Standaardtarief van 15%",
+    "Registratie vanaf SAR 375,000",
+    "Fatoora live sinds 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Standaard btw-tarief",
+      "value": "15%",
+      "note": "Saudi-Arabië is de uitschieter in de Golf: de andere landen die btw hebben ingevoerd, zitten op 5% of 10%. Uitgaande van het standaardtarief worden belaste leveringen belast tegen 15%.",
+      "source": 1
+    },
+    {
+      "label": "Drempel voor verplichte registratie",
+      "value": "SAR 375,000",
+      "note": "Bij belaste leveringen boven dit bedrag in een periode van 12 maanden is registratie verplicht.",
+      "source": 1
+    },
+    {
+      "label": "Drempel voor vrijwillige registratie",
+      "value": "SAR 187,500",
+      "note": "Gebaseerd op belaste leveringen OF belaste kosten in de afgelopen 12 maanden.",
+      "source": 1
+    },
+    {
+      "label": "Niet-ingezeten bedrijven",
+      "value": "Geen drempel",
+      "note": "Een niet-ingezetene die in het Koninkrijk btw moet betalen, moet zich registreren, ongeacht de waarde van de leveringen.",
+      "source": 1
+    },
+    {
+      "label": "Taal van de factuur",
+      "value": "Arabisch",
+      "note": "De verplichte gegevens moeten in het Arabisch staan. Een andere taal mag daarnaast worden getoond, als vertaling.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artikel 53(5) van de VAT Implementing Regulations somt op wat een belastingfactuur moet bevatten, en eist dat in het Arabisch, naast een eventuele andere taal die als vertaling wordt getoond.",
+    "items": [
+      "De datum van uitreiking",
+      "Een doorlopend nummer dat de factuur uniek identificeert",
+      "Het Tax Identification Number van de leverancier",
+      "Als de klant de belasting zelf moet verleggen: het TIN van de klant en een vermelding dat de klant de belasting moet aangeven",
+      "Naam en adres van zowel leverancier als klant",
+      "Hoeveelheid en aard van de goederen, of omvang en aard van de diensten",
+      "De datum van levering, als die afwijkt van de datum van uitreiking",
+      "Belastbaar bedrag per tarief of vrijstelling, prijs per eenheid exclusief btw en eventuele korting die nog niet in de prijs per eenheid zit",
+      "Het toegepaste belastingtarief",
+      "Het verschuldigde belastingbedrag, in Saudische riyal",
+      "Als de belasting niet tegen het basistarief wordt geheven: een toelichting op de behandeling",
+      "Als de margeregeling voor gebruikte goederen van toepassing is: een verwijzing daarnaar"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Verplicht en actief, in golven ingevoerd",
+    "body": "Saudi-Arabië heeft het meest geavanceerde stelsel voor e-facturatie in de Golf, en de andere landen gebruiken het als voorbeeld. Fase 1, de generatiefase, geldt sinds 4 december 2021 voor alle ingezeten belastingplichtigen: facturen moeten elektronisch in een gestructureerde vorm worden uitgereikt. Fase 2, de integratiefase, begon op 1 januari 2023 en wordt in golven ingevoerd op basis van de omvang van de belastingplichtige, waarbij ZATCA elke groep minstens zes maanden voor de integratiedatum op de hoogte brengt. In fase 2 bevat een elektronische factuur meer dan de gegevens van artikel 53: er zijn ook een UUID, de hash van de vorige factuur, een QR-code, een cryptografische stempel en een fraudebestendige teller nodig. In welke golf je valt, maakt ZATCA bekend, dus kijk op de pagina's over e-facturatie in plaats van het aan te nemen.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Het goed doen",
+      "title": "Fatoora verandert wat een factuur IS",
+      "body": "In een wereld van papier of PDF is een factuur een document dat je maakt en verstuurt. Onder fase 2 is het een record in een keten: elke factuur verwijst naar de hash van de vorige, draagt een cryptografische stempel en verhoogt een teller die niet terug te zetten is. Dat is een bewust ontwerp, en het maakt één veelvoorkomende gewoonte onmogelijk. Je kunt een factuur achteraf niet stilletjes verwijderen, opnieuw nummeren of opnieuw uitreiken, omdat de keten dan breekt en die breuk is op te sporen. Bedrijven die fouten herstelden door de geschiedenis aan te passen, moeten overstappen op creditnota's, en dat is wat de boekhoudregels in de rest van de wereld altijd al wilden.",
+      "items": [
+        "Elke factuur is via een hash gekoppeld aan de vorige",
+        "De teller kan niet worden teruggezet of teruggedraaid",
+        "Correcties gaan via credit- en debetnota's",
+        "De QR-code hoort bij de factuur, het is geen versiering"
+      ]
+    },
+    {
+      "eyebrow": "Het goed doen",
+      "title": "Het tarief van 15% heeft gevolgen",
+      "body": "Bij een tarief van vijftien procent wordt het onderscheid tussen nultarief en vrijstelling financieel serieus, op een manier die bij vijf procent niet speelt. Zijn je leveringen vrijgesteld, dan kun je de betaalde voorbelasting niet terugvragen, dus wordt vijftien procent van je inkoopkosten een echte kostenpost die je niet terugkrijgt en in je prijs moet verwerken. Hebben ze een nultarief, dan reken je niets maar vraag je wel terug. Die indeling fout maken is de duurste vergissing die je in de Saudische btw kunt maken, en het is een vraag van indeling, geen vraag van tarief.",
+      "items": [
+        "Vrijgesteld betekent geen teruggave van voorbelasting, dus de belasting is jouw kostenpost",
+        "Nultarief betekent geen heffing maar wel volledige teruggave",
+        "Deel in op soort levering, niet op klant",
+        "Neem de beslissing over de indeling voordat je prijst"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wat is het btw-tarief in Saudi-Arabië?",
+      "a": "Vijftien procent is het standaardtarief. Dat is het hoogste in de Golf, en een veelgemaakte fout is uitgaan van één GCC-tarief: Oman en de VAE zitten op 5%, Bahrein op 10%, en Qatar en Koeweit hebben helemaal geen btw ingevoerd. Verkoop je in de hele regio, dan kun je niet op alles één tarief toepassen."
+    },
+    {
+      "q": "Wat is Fatoora?",
+      "a": "Fatoora is het programma voor e-facturatie van ZATCA. Fase 1, de generatie, geldt sinds 4 december 2021 voor alle ingezeten belastingplichtigen. Fase 2, de integratie met de systemen van ZATCA, begon op 1 januari 2023 en wordt in golven ingevoerd op basis van de omvang van de belastingplichtige, met minstens zes maanden aankondiging voor elke golf."
+    },
+    {
+      "q": "Moet een Saudische belastingfactuur in het Arabisch zijn?",
+      "a": "Ja. Artikel 53(5) eist de gegevens van de factuur in het Arabisch en staat toe dat een andere taal daarnaast als vertaling wordt getoond. Een tweetalige factuur voldoet, een factuur alleen in het Engels niet."
+    },
+    {
+      "q": "Welke extra velden vereist fase 2?",
+      "a": "Naast de gegevens van artikel 53 bevat een elektronische factuur in de integratiefase een UUID, de hash van de vorige factuur, een QR-code, een cryptografische stempel en een fraudebestendige teller. Deze worden gemaakt door software die aan de eisen voldoet, niet door iemand ingetypt."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Factureer correct in Saudi-Arabië, gratis",
+  "ctaSub": "Stel het tarief zelf in, houd Arabisch en Engels op één document en herstel fouten met creditnota's in plaats van aanpassingen.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, derde versie, secties 3.2 en 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, artikel 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Besluit over de invoering van e-facturatie, Governor's Decision 62738, en de pagina's van ZATCA over e-facturatie",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "locale": "pl",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Arabia Saudyjska",
+  "title": "VAT w Arabii Saudyjskiej",
+  "metaTitle": "VAT w Arabii Saudyjskiej: stawka 15% i Fatoora · Paper & Pen",
+  "metaDescription": "Stawka VAT 15% w Arabii Saudyjskiej, próg SAR 375,000, elementy faktury z artykułu 53 i etapy e-faktur Fatoora od ZATCA, z odwołaniem do źródeł.",
+  "keywords": "vat arabia saudyjska, stawka vat arabia saudyjska 15, zatca fatoora, e-faktury arabia saudyjska etap 2, wymogi faktury podatkowej arabia saudyjska, zatca",
+  "heroEyebrow": "Arabia Saudyjska",
+  "heroTitle": "Fakturowanie według <em class=\"text-copper-400 not-italic\">zasad ZATCA</em>",
+  "heroSubtitle": "Stawka 15%, progi rejestracji, czego artykuł 53 wymaga na fakturze podatkowej i co dokłada do tego Fatoora, gdy wejdziesz w etap integracji.",
+  "heroBullets": [
+    "Stawka podstawowa 15%",
+    "Rejestracja od SAR 375,000",
+    "Fatoora działa od 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Podstawowa stawka VAT",
+      "value": "15%",
+      "note": "Arabia Saudyjska to wyjątek w Zatoce: pozostałe państwa stosujące VAT mają stawkę 5% lub 10%. Przy założeniu stawki podstawowej dostawy opodatkowane obciąża się stawką 15%.",
+      "source": 1
+    },
+    {
+      "label": "Próg obowiązkowej rejestracji",
+      "value": "SAR 375,000",
+      "note": "Dostawy opodatkowane powyżej tej kwoty w okresie 12 miesięcy wymagają rejestracji.",
+      "source": 1
+    },
+    {
+      "label": "Próg dobrowolnej rejestracji",
+      "value": "SAR 187,500",
+      "note": "Na podstawie dostaw opodatkowanych LUB wydatków opodatkowanych w ostatnich 12 miesiącach.",
+      "source": 1
+    },
+    {
+      "label": "Firmy niebędące rezydentami",
+      "value": "Bez progu",
+      "note": "Nierezydent zobowiązany do zapłaty VAT w Królestwie musi się zarejestrować bez względu na wartość dostaw.",
+      "source": 1
+    },
+    {
+      "label": "Język faktury",
+      "value": "Arabski",
+      "note": "Wymagane elementy muszą być po arabsku. Dodatkowo można pokazać inny język jako tłumaczenie.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artykuł 53(5) VAT Implementing Regulations wymienia, co musi zawierać faktura podatkowa, i wymaga jej po arabsku, obok ewentualnego innego języka pokazanego jako tłumaczenie.",
+    "items": [
+      "Data wystawienia",
+      "Kolejny numer, który jednoznacznie identyfikuje fakturę",
+      "Numer identyfikacji podatkowej (TIN) dostawcy",
+      "Gdy klient sam rozlicza podatek: TIN klienta i informacja, że to on rozlicza podatek",
+      "Nazwa i adres dostawcy oraz klienta",
+      "Ilość i rodzaj towarów albo zakres i rodzaj usług",
+      "Data dostawy, jeśli różni się od daty wystawienia",
+      "Kwota podlegająca opodatkowaniu dla każdej stawki lub zwolnienia, cena jednostkowa bez VAT i rabat, jeśli nie jest już w cenie jednostkowej",
+      "Zastosowana stawka podatku",
+      "Kwota podatku do zapłaty w rialach saudyjskich",
+      "Gdy podatek nie jest naliczany według stawki podstawowej: opis wyjaśniający sposób opodatkowania",
+      "Gdy stosuje się metodę marży dla kwalifikujących się towarów używanych: wzmianka o tym"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Obowiązkowe i działające, wdrażane falami",
+    "body": "Arabia Saudyjska ma najbardziej zaawansowany system e-faktur w Zatoce i to na nim wzorują się inni. Etap 1, etap generowania, obowiązuje wszystkich podatników będących rezydentami od 4 grudnia 2021: faktury muszą być wystawiane elektronicznie w ustrukturyzowanej formie. Etap 2, etap integracji, rozpoczął się 1 stycznia 2023 i jest wdrażany falami według wielkości podatnika, a ZATCA powiadamia każdą grupę co najmniej sześć miesięcy przed jej datą integracji. W etapie 2 faktura elektroniczna zawiera więcej niż elementy z artykułu 53: potrzebuje też UUID, skrótu (hash) poprzedniej faktury, kodu QR, pieczęci kryptograficznej i licznika odpornego na manipulacje. To, do której fali należysz, ogłasza ZATCA, więc sprawdzaj jego strony o e-fakturach, zamiast zakładać.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Jak zrobić to dobrze",
+      "title": "Fatoora zmienia to, czym JEST faktura",
+      "body": "W świecie papieru lub PDF faktura to dokument, który tworzysz i wysyłasz. W etapie 2 to zapis w łańcuchu: każda faktura odwołuje się do skrótu poprzedniej, ma pieczęć kryptograficzną i zwiększa licznik, którego nie da się wyzerować. To celowy projekt, który uniemożliwia jeden powszechny nawyk. Nie możesz po cichu usunąć, przenumerować ani ponownie wystawić faktury po fakcie, bo łańcuch by się zerwał, a zerwanie da się wykryć. Firmy, które poprawiały błędy, edytując historię, muszą przejść na faktury korygujące, czego zresztą zawsze wymagały zasady rachunkowości w reszcie świata.",
+      "items": [
+        "Każda faktura jest powiązana z poprzednią przez hash",
+        "Licznika nie da się wyzerować ani cofnąć",
+        "Poprawki tylko przez faktury korygujące i noty obciążeniowe",
+        "Kod QR to część faktury, a nie ozdoba"
+      ]
+    },
+    {
+      "eyebrow": "Jak zrobić to dobrze",
+      "title": "Stawka 15% pociąga za sobą skutki",
+      "body": "Przy stawce piętnastu procent rozróżnienie między stawką zerową a zwolnieniem ma poważne skutki finansowe, jakich nie ma przy pięciu procentach. Jeśli Twoje dostawy są zwolnione, nie odzyskasz zapłaconego podatku naliczonego, więc piętnaście procent kosztów zakupu staje się realnym, nieodzyskiwalnym wydatkiem, który trzeba wliczyć w cenę. Jeśli mają stawkę zerową, nie naliczasz nic, ale nadal odzyskujesz podatek. Błędna klasyfikacja to najdroższa pojedyncza pomyłka w saudyjskim VAT, a to pytanie o klasyfikację, a nie o stawkę.",
+      "items": [
+        "Zwolnienie oznacza brak odliczenia, więc podatek jest Twoim kosztem",
+        "Stawka zerowa oznacza brak podatku, ale pełne odliczenie",
+        "Klasyfikuj według rodzaju dostawy, nie klienta",
+        "Zdecyduj o klasyfikacji, zanim ustalisz cenę"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Jaka jest stawka VAT w Arabii Saudyjskiej?",
+      "a": "Stawka podstawowa wynosi piętnaście procent. To najwyższa stawka w Zatoce, a częsty błąd to zakładanie jednej stawki dla całego GCC: Oman i ZEA mają 5%, Bahrajn 10%, a Katar i Kuwejt w ogóle nie wprowadziły VAT. Jeśli sprzedajesz w całym regionie, nie możesz stosować jednej stawki do wszystkiego."
+    },
+    {
+      "q": "Czym jest Fatoora?",
+      "a": "Fatoora to program e-faktur ZATCA. Etap 1, generowanie, obowiązuje wszystkich podatników będących rezydentami od 4 grudnia 2021. Etap 2, integracja z systemami ZATCA, rozpoczął się 1 stycznia 2023 i jest wdrażany falami według wielkości podatnika, z co najmniej sześciomiesięcznym wyprzedzeniem dla każdej fali."
+    },
+    {
+      "q": "Czy saudyjska faktura podatkowa musi być po arabsku?",
+      "a": "Tak. Artykuł 53(5) wymaga elementów faktury po arabsku i dopuszcza dodatkowo inny język jako tłumaczenie. Faktura dwujęzyczna jest zgodna z przepisami, a wyłącznie angielska nie."
+    },
+    {
+      "q": "Jakich dodatkowych pól wymaga etap 2?",
+      "a": "Poza elementami z artykułu 53 faktura elektroniczna w etapie integracji zawiera UUID, skrót (hash) poprzedniej faktury, kod QR, pieczęć kryptograficzną i licznik odporny na manipulacje. Tworzy je zgodne oprogramowanie, a nie wpisuje człowiek."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Fakturuj poprawnie w Arabii Saudyjskiej, za darmo",
+  "ctaSub": "Ustaw stawkę samodzielnie, trzymaj arabski i angielski na jednym dokumencie i poprawiaj błędy fakturami korygującymi zamiast edycji.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, wersja trzecia, sekcje 3.2 i 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, artykuł 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Uchwała wdrażająca e-faktury, Governor's Decision 62738, oraz strony ZATCA o e-fakturach",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

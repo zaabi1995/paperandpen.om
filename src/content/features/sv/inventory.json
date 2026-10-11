@@ -1,0 +1,35 @@
+{
+  "locale": "sv",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Lager",
+  "metaTitle": "Lagerhanteringssystem · Lagerstyrning online · Paper & Pen",
+  "metaDescription": "Följ lagret i flera lagerställen i realtid, med varningar för lågt saldo, batch- och streckkodsstöd och löpande värdering som bokförs. Fungerar överallt.",
+  "keywords": "lagerhantering, lagerstyrning, lagersystem, varning lågt lagersaldo, streckkod lager, lagervärdering, flera lagerställen",
+  "heroEyebrow": "Tilläggsmodul",
+  "heroTitle": "Ett lager du kan <em class=\"text-copper-400 not-italic\">lita på</em>, i realtid",
+  "heroSubtitle": "Vet exakt vad du har, var det finns och vad det är värt. Lagret uppdateras i samma stund som du fakturerar eller tar emot varor, så dina siffror är alltid aktuella.",
+  "heroBullets": ["Aktuellt saldo i alla lagerställen", "Varningar för lågt saldo och beställningspunkter", "Lagervärdet bokförs i redovisningen"],
+  "features": [
+    { "icon": "inventory", "title": "Lager i realtid", "desc": "Antalen uppdateras i samma stund som du säljer, köper in eller flyttar varor." },
+    { "icon": "truck", "title": "Flera lagerställen", "desc": "Följ och flytta lager mellan platser och filialer med full överblick." },
+    { "icon": "bell", "title": "Varningar för lågt saldo", "desc": "Ställ in beställningspunkter och få en varning innan en snabbsäljare tar slut." },
+    { "icon": "receipt", "title": "Streckkod och artikelnummer", "desc": "Skanna för att inventera eller flytta lager, ordnat efter artikelnummer, batch och enhet." },
+    { "icon": "calc", "title": "Löpande värdering", "desc": "Genomsnittspris eller FIFO håller lagervärdet korrekt i balansräkningen." },
+    { "icon": "refresh", "title": "Kopplat till försäljningen", "desc": "Fakturor och inköpsordrar flyttar lagret automatiskt, utan manuella uppdateringar." }
+  ],
+  "sections": [
+    { "eyebrow": "Alltid korrekt", "title": "Ett lager som uppdaterar sig självt", "body": "Manuella inventeringar blir inaktuella i samma stund som du gör en försäljning. I Paper & Pen justerar varje faktura, inköp och flytt både saldo och kostnad i realtid, så siffran på skärmen är siffran på hyllan. Ställ in beställningspunkter och låt systemet säga till när du ska köpa.", "items": ["Justeras automatiskt vid varje transaktion", "Beställningspunkter och varningar", "Spårning av batch, artikelnummer och enhet"] },
+    { "eyebrow": "Lagret möter bokföringen", "title": "Från hyllan till balansräkningen", "body": "Lager handlar inte bara om att räkna lådor, det är riktiga pengar i din balansräkning. Paper & Pen värderar lagret med genomsnittspris eller FIFO och bokför rörelserna i redovisningen automatiskt, så att kostnaden för sålda varor och lagervärdet alltid stämmer. Fungerar i valfri valuta för alla marknader.", "items": ["Genomsnittspris eller FIFO", "Bokförs automatiskt i redovisningen", "Inköp i flera valutor"] }
+  ],
+  "faqs": [
+    { "q": "Ingår lagret gratis?", "a": "Lager är ett valfritt betalt tillägg. Kärnmodulen Försäljning och fakturering är gratis för alltid, och du lägger till Lager när du behöver lagerstyrning i realtid." },
+    { "q": "Kan jag hantera flera lagerställen?", "a": "Ja. Följ lagret per plats, flytta mellan dem och se aktuella antal överallt." },
+    { "q": "Stöder det streckkoder?", "a": "Ja. Skanna en leverantörsstreckkod, ett artikelnummer eller en utskriven QR-etikett för att inventera och flytta lager snabbare, med stöd för batch och enheter." },
+    { "q": "Hur värderas lagret?", "a": "Välj genomsnittspris eller FIFO. Värderingen uppdateras vid varje rörelse och bokförs i redovisningen automatiskt." },
+    { "q": "Uppdateras lagret automatiskt när jag säljer?", "a": "Ja. Fakturor minskar lagret och inköp ökar det i realtid, så du behöver aldrig uppdatera antal för hand." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Ta kontroll över ditt lager",
+  "ctaSub": "Börja gratis med fakturering och lägg till Lager när du är redo för saldo i realtid på alla platser."
+}

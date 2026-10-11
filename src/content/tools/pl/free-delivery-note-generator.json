@@ -1,0 +1,37 @@
+{
+  "locale": "pl",
+  "slug": "free-delivery-note-generator",
+  "toolType": "delivery-note",
+  "order": 6,
+  "title": "Darmowy generator dokumentów dostawy",
+  "metaTitle": "Darmowy generator dokumentów dostawy (WZ) · Paper & Pen",
+  "metaDescription": "Twórz dokumenty dostawy online za darmo. Wypisz wysłane pozycje, dodaj ilości i pobierz PDF gotowy do druku w kilka sekund.",
+  "keywords": "darmowy generator dokumentów dostawy, dokument wz online, wystaw dokument dostawy, wzór dokumentu dostawy, dokument dostawy pdf, dokument wydania, list przewozowy",
+  "heroEyebrow": "Za darmo · Bez rejestracji",
+  "heroTitle": "Darmowy generator dokumentów dostawy",
+  "heroSubtitle": "Wysyłaj towar z czytelnym dokumentem dostawy w kilka sekund. Wypisz wysłane pozycje i ilości, a potem pobierz PDF gotowy do druku, który klient podpisze przy odbiorze. Bez zakładania konta.",
+  "howToSteps": [
+    { "name": "Dodaj swoje dane", "text": "Wpisz nazwę firmy, klienta, numer dokumentu dostawy i datę." },
+    { "name": "Wypisz pozycje", "text": "Dodaj każdą dostarczaną pozycję z ilością. Ceny na dokumencie dostawy nie są potrzebne." },
+    { "name": "Dodaj szczegóły dostawy", "text": "Zapisz adres dostawy, pojazd lub kierowcę i ewentualne instrukcje obsługi." },
+    { "name": "Pobierz PDF", "text": "Kliknij pobierz, by wydrukować dokument do podpisu przez klienta, albo zarejestruj się, by tworzyć go prosto z zamówienia." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Od razu i za darmo", "desc": "Bez rejestracji, bez znaku wodnego, bez limitów. Wystaw tyle dokumentów dostawy, ile potrzebujesz." },
+    { "icon": "truck", "title": "Potwierdzenie dostawy", "desc": "Czytelny zapis tego, co wysłano i odebrano, z miejscem na podpis klienta." },
+    { "icon": "doc", "title": "Ilości, nie ceny", "desc": "Pokaż pozycje i ilości bez ujawniania cen, dokładnie tak, jak powinien dokument dostawy." }
+  ],
+  "sections": [
+    { "title": "Dlaczego warto korzystać z generatora dokumentów dostawy Paper & Pen?", "body": "Dokument dostawy (dokument wydania) jedzie razem z towarem i potwierdza, co wysłano i co odebrano, bez pokazywania cen. Nasz generator jest darmowy i tworzy przejrzysty PDF z miejscem na podpis, więc spory o niepełne lub błędne dostawy łatwo rozstrzygnąć." },
+    { "eyebrow": "Więcej niż generator", "title": "Dokumenty dostawy tworzone z zamówień", "body": "Ręczne wpisywanie dokumentu dostawy grozi niezgodnością z rzeczywistym zamówieniem. W pełnym systemie Paper & Pen ERP dokument dostawy powstaje bezpośrednio z zamówienia sprzedaży lub faktury, więc pozycje i ilości zawsze się zgadzają, stan magazynowy zmniejsza się przy wysyłce, a klient może potwierdzić odbiór.", "items": ["Dokument dostawy z dowolnego zamówienia sprzedaży", "Automatyczne zdjęcie ze stanu przy wysyłce", "Potwierdzenie dostawy zapisane przy zamówieniu"] }
+  ],
+  "faqs": [
+    { "q": "Czym jest dokument dostawy?", "a": "Dokument dostawy towarzyszy przesyłce i zawiera dostarczone pozycje oraz ilości. Klient podpisuje go jako potwierdzenie odbioru i zwykle nie ma na nim cen." },
+    { "q": "Czym dokument dostawy różni się od faktury?", "a": "Dokument dostawy potwierdza, co fizycznie dotarło, i nie zawiera cen. Faktura jest wezwaniem do zapłaty i pokazuje kwoty oraz podatek. Oba dokumenty utworzysz tu za darmo." },
+    { "q": "Czy generator dokumentów dostawy jest naprawdę darmowy?", "a": "Tak. Jest całkowicie darmowy, bez rejestracji, bez znaku wodnego i bez limitu liczby tworzonych dokumentów dostawy." },
+    { "q": "Czy dokumenty dostawy mogą powstawać z moich zamówień?", "a": "Pobieraj pojedyncze dokumenty za darmo albo załóż darmową przestrzeń roboczą Paper & Pen, by tworzyć dokumenty dostawy prosto z zamówień sprzedaży i automatycznie zdejmować towar ze stanu." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-purchase-order-generator", "/invoicing/delivery-notes", "/free-invoicing-software"],
+  "ctaTitle": "Dostarczaj z potwierdzeniem",
+  "ctaSub": "Twórz dokumenty dostawy z zamówień, zdejmuj towar ze stanu przy wysyłce i zbieraj potwierdzenia w darmowej przestrzeni roboczej Paper & Pen."
+}

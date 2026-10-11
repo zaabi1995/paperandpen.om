@@ -1,0 +1,35 @@
+{
+  "locale": "pl",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Księgowość",
+  "metaTitle": "Księgowość online z automatycznym księgowaniem · Paper & Pen",
+  "metaDescription": "Księgowość w podwójnym zapisie, która prowadzi się sama. Rachunek zysków i strat oraz bilans na żywo, deklaracje VAT, uzgadnianie bankowe, dowolna waluta i podatek.",
+  "keywords": "program księgowy, księgowość online, podwójny zapis, bilans, rachunek zysków i strat, deklaracja vat, uzgadnianie bankowe, księga główna",
+  "heroEyebrow": "Moduł dodatkowy",
+  "heroTitle": "Księgi, które <em class=\"text-copper-400 not-italic\">bilansują się same</em>",
+  "heroSubtitle": "Każda faktura, płatność i zakup trafia automatycznie do pełnej księgi w podwójnym zapisie. Widzisz zysk, bilans i sytuację podatkową na żywo, bez dotykania arkusza kalkulacyjnego.",
+  "heroBullets": ["Automatyczny podwójny zapis, bez ręcznych księgowań", "Rachunek zysków i strat oraz bilans na żywo", "Deklaracje VAT jednym kliknięciem"],
+  "features": [
+    { "icon": "accounting", "title": "Automatyczne księgowanie", "desc": "Sprzedaż, płatności i wydatki trafiają do księgi w chwili, gdy się dzieją." },
+    { "icon": "chart", "title": "Finanse na żywo", "desc": "Rachunek zysków i strat, bilans i przepływy pieniężne zawsze aktualne." },
+    { "icon": "calc", "title": "VAT i deklaracje podatkowe", "desc": "Śledź podatek naliczony i należny i przygotuj deklarację gotową do złożenia jednym kliknięciem." },
+    { "icon": "refresh", "title": "Uzgadnianie bankowe", "desc": "Dopasowuj pozycje z wyciągu do faktur i płatności, by księgi były czyste." },
+    { "icon": "doc", "title": "Pełne księgi", "desc": "Przejdź z dowolnego raportu do dokumentu źródłowego i zapisu księgowego." },
+    { "icon": "globe", "title": "Wiele walut", "desc": "Księguj w dowolnej walucie z automatycznymi zyskami i stratami kursowymi." }
+  ],
+  "sections": [
+    { "eyebrow": "Bez księgowego", "title": "Księgowość, która działa w tle", "body": "Nie musisz być księgowym, żeby wiedzieć, czy firma zarabia. Faktury, płatności i magazyn zasilają tę samą księgę, więc Twoje konta są poprawne bez ręcznych księgowań. Otwierasz pulpit i od razu widzisz zysk, należności i podatek.", "items": ["Podwójny zapis robi się sam", "Każdy raport prowadzi do źródła", "Ślad audytowy przy każdym zapisie"] },
+    { "eyebrow": "Dla każdego systemu podatkowego", "title": "Podatki i zgodność wszędzie, gdzie działasz", "body": "Ustaw stawki podatku i konta dla swojego kraju, w tym konfigurowalny VAT dla krajów Zatoki, a Paper & Pen będzie śledzić podatek naliczony i należny za Ciebie. Przygotuj deklarację gotową do złożenia, uzgodnij bank i zamknij okres bez obaw, w dowolnej walucie.", "items": ["Konfigurowalny podatek dla każdego kraju", "Deklaracje VAT gotowe do złożenia", "Uzgadnianie bankowe i zamknięcie okresu"] }
+  ],
+  "faqs": [
+    { "q": "Czy potrzebuję wiedzy księgowej?", "a": "Nie. Zapisy powstają automatycznie z Twoich faktur, płatności i zakupów, więc masz poprawne księgi w podwójnym zapisie bez pisania księgowań." },
+    { "q": "Czy księgowość jest darmowa?", "a": "Księgowość to opcjonalny, płatny moduł dodatkowy. Sprzedaż i faktury są bezpłatne na zawsze, a Księgowość włączasz, gdy potrzebujesz pełnych sprawozdań finansowych." },
+    { "q": "Czy przygotowuje deklaracje VAT?", "a": "Tak. Śledzi podatek naliczony i należny (na przykład konfigurowalny VAT w krajach Zatoki albo dowolną ustawioną stawkę) i tworzy deklarację gotową do złożenia." },
+    { "q": "Czy obsługuje wiele walut?", "a": "Tak. Księguj i raportuj w dowolnej walucie z automatycznymi zyskami i stratami kursowymi." },
+    { "q": "Czy mogę uzgadniać rachunek bankowy?", "a": "Tak. Importuj lub dopasowuj pozycje z wyciągu do faktur i płatności, by księga była zawsze uzgodniona." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Poprawne księgi, automatycznie",
+  "ctaSub": "Zacznij za darmo od faktur i włącz Księgowość, by mieć sprawozdania finansowe i deklaracje podatkowe na żywo."
+}
