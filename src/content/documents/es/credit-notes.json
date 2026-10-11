@@ -1,0 +1,36 @@
+{
+  "locale": "es",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Notas de crédito",
+  "metaTitle": "Programa de notas de crédito · Paper & Pen",
+  "metaDescription": "Emite notas de crédito profesionales online, gratis y en cualquier moneda. Ajusta una factura por devoluciones, reembolsos o correcciones con un documento en regla.",
+  "keywords": "nota de crédito, crear nota de crédito, factura rectificativa, abono, reembolso de factura, nota de crédito por devolución, programa de notas de crédito, nota de crédito con iva",
+  "heroEyebrow": "Notas de crédito",
+  "heroTitle": "Emite <em class=\"text-copper-400 not-italic\">notas de crédito</em> como debe ser",
+  "heroSubtitle": "Ajusta una factura por una devolución, un reembolso o una corrección con una nota de crédito en regla, un historial de auditoría claro y un asiento contable automático. En cualquier moneda.",
+  "heroBullets": ["Gratis para siempre", "Vinculada a la factura original", "Registra el asiento correcto"],
+  "features": [
+    { "icon": "doc", "title": "Documento de crédito en regla", "desc": "Una nota de crédito numerada y vinculada a la factura original, nunca una edición silenciosa." },
+    { "icon": "refresh", "title": "Ajusta el saldo", "desc": "Reduce el saldo del cliente y revierte correctamente el impuesto sobre el importe abonado." },
+    { "icon": "shield", "title": "Historial de auditoría completo", "desc": "Cada nota de crédito queda registrada con su motivo, para que tus libros sigan limpios y auditables." },
+    { "icon": "calc", "title": "Reversión de IVA correcta", "desc": "El impuesto se revierte sobre el importe neto abonado, y tus declaraciones de impuestos siguen exactas." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Abona en USD, EUR, AED, SAR, OMR, INR y más, en la misma moneda que la factura original." },
+    { "icon": "whatsapp", "title": "Envíala donde quieras", "desc": "Comparte la nota de crédito por WhatsApp o correo para que el cliente tenga el registro." }
+  ],
+  "sections": [
+    { "eyebrow": "Qué es una nota de crédito", "title": "¿Qué es una nota de crédito?", "body": "Una nota de crédito (o abono) es un documento que emite el vendedor para reducir el importe que un cliente debe en una factura ya emitida. Se usa para devoluciones, reembolsos, cobros de más, artículos cancelados o correcciones de precio. Una nota de crédito nunca borra la factura original: la compensa formalmente en parte o en su totalidad, y así queda un registro completo y auditable de qué cambió y por qué." },
+    { "eyebrow": "Cómo funciona", "title": "Abona, revierte, concilia", "body": "Paper & Pen emite la nota de crédito como un documento real, con su propio número y su asiento contable, nunca como una edición discreta de la factura.", "items": ["Abre la factura y emite una nota de crédito contra ella", "Abona la factura entera o solo líneas concretas", "Añade el motivo: devolución, reembolso, corrección o cancelación", "El impuesto se revierte automáticamente sobre el importe neto abonado", "El saldo del cliente y tus libros contables se actualizan a la vez"] },
+    { "eyebrow": "Por qué importa", "title": "Nunca edites una factura pagada", "body": "Editar o borrar una factura emitida rompe tu historial de auditoría y tu posición fiscal. La forma correcta de reducir una cuenta por cobrar es emitir una nota de crédito, que deja intacta la factura original, registra un asiento de reversión y revierte el importe correcto de impuesto. Es la práctica exigida en la mayoría de los regímenes de IVA y GST del mundo." }
+  ],
+  "faqs": [
+    { "q": "¿Para qué sirve una nota de crédito?", "a": "Para reducir o cancelar un importe que un cliente debe en una factura, normalmente por devoluciones, reembolsos, cobros de más o correcciones. Compensa la factura en lugar de borrarla." },
+    { "q": "¿Crear notas de crédito es gratis?", "a": "Sí. Emitir y controlar notas de crédito es gratis para siempre en Paper & Pen." },
+    { "q": "¿Una nota de crédito revierte el IVA?", "a": "Sí. Paper & Pen revierte automáticamente el impuesto sobre el importe neto abonado, así tu posición de IVA o GST sigue siendo correcta." },
+    { "q": "¿Puedo abonar solo una parte de una factura?", "a": "Sí. Abona la factura completa o solo líneas y cantidades concretas. El saldo del cliente se ajusta en consecuencia." },
+    { "q": "¿Qué diferencia hay entre una nota de crédito y una nota de débito?", "a": "La nota de crédito la emite el vendedor para reducir lo que debe un cliente. La nota de débito suele emitirla el comprador (o se usa para aumentar un importe adeudado), por ejemplo para reclamar un pago de más o cargar un importe adicional." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Emite una nota de crédito con total confianza",
+  "ctaSub": "Crea un espacio de trabajo gratis en Paper & Pen y ajusta cualquier factura en segundos con una nota de crédito en regla y auditable."
+}

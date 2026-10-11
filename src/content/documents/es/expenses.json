@@ -1,0 +1,36 @@
+{
+  "locale": "es",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Gastos",
+  "metaTitle": "Programa de control de gastos · Paper & Pen",
+  "metaDescription": "Controla los gastos de tu empresa online, gratis y en cualquier moneda. Guarda recibos, clasifica el gasto, recupera el IVA y ve tu beneficio real con gastos vinculados.",
+  "keywords": "control de gastos, registrar gastos, gastos de empresa, programa de gastos, control de gastos gratis, guardar recibos, iva de gastos",
+  "heroEyebrow": "Gastos",
+  "heroTitle": "Controla cada <em class=\"text-copper-400 not-italic\">gasto</em> de tu empresa en un solo lugar",
+  "heroSubtitle": "Guarda recibos, clasifica el gasto, recupera el IVA y ve tu beneficio real, en cualquier moneda. Los gastos pasan directamente a tus cuentas. Gratis para siempre.",
+  "heroBullets": ["Gratis para siempre", "Guarda tus recibos", "Ve tu beneficio real"],
+  "features": [
+    { "icon": "accounting", "title": "Registra cualquier gasto", "desc": "Anota una factura, un gasto en efectivo o un pago a proveedor en segundos, con su categoría e impuesto." },
+    { "icon": "doc", "title": "Adjunta recibos", "desc": "Haz una foto o sube el recibo y guárdalo con el gasto para tener registros limpios y listos para auditoría." },
+    { "icon": "calc", "title": "Recupera el IVA", "desc": "Registra el IVA o GST soportado en los gastos para que tu declaración refleje lo que puedes recuperar." },
+    { "icon": "chart", "title": "Ve tu beneficio real", "desc": "Los gastos se registran frente a los ingresos, así tu cuenta de resultados refleja la realidad y no suposiciones." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Registra gastos en USD, EUR, AED, SAR, OMR, INR y más, con los decimales correctos." },
+    { "icon": "refresh", "title": "Gastos recurrentes", "desc": "Programa el alquiler, las suscripciones y los suministros para que se registren solos en cada ciclo." }
+  ],
+  "sections": [
+    { "eyebrow": "Qué es el control de gastos", "title": "¿Qué es el control de gastos?", "body": "El control de gastos consiste en registrar cada coste de tu empresa con su categoría, fecha, impuesto y recibo justificante. Bien hecho, te dice exactamente adónde va el dinero, qué beneficio obtienes de verdad y cuánto impuesto soportado puedes recuperar. Mal hecho, el beneficio se vuelve una suposición y la temporada de impuestos, una carrera. Paper & Pen lo reduce a unos segundos por gasto." },
+    { "eyebrow": "Cómo funciona", "title": "Guarda, clasifica, recupera", "body": "Paper & Pen convierte recibos dispersos en registros limpios y clasificados que pasan directamente a tus cuentas.", "items": ["Registra un gasto con su categoría, proveedor e impuesto", "Adjunta la foto o el PDF del recibo para el historial de auditoría", "Recupera el IVA o GST soportado cuando proceda", "Programa gastos recurrentes para que se registren solos", "Ve el gasto por categoría y tu beneficio real en los informes"] },
+    { "eyebrow": "Por qué importa", "title": "Un beneficio en el que puedes confiar", "body": "No puedes gestionar lo que no mides. Cuando cada gasto se registra frente a los ingresos, tu cuenta de resultados es exacta, tu declaración de IVA es correcta y ves qué costes suben antes de que te hagan daño. Los gastos en Paper & Pen alimentan el mismo libro contable que tus ventas, así toda la imagen se mantiene coherente y conciliada." }
+  ],
+  "faqs": [
+    { "q": "¿El control de gastos es gratis?", "a": "Sí. Registrar y clasificar gastos y adjuntarles recibos es gratis para siempre en Paper & Pen." },
+    { "q": "¿Puedo adjuntar un recibo a un gasto?", "a": "Sí. Haz una foto o sube el recibo y quedará con el gasto, con un historial de auditoría limpio." },
+    { "q": "¿Puedo recuperar el IVA de los gastos?", "a": "Sí. Registra el IVA o GST soportado en cada gasto para que tu declaración refleje exactamente lo que puedes recuperar." },
+    { "q": "¿Puedo controlar gastos en distintas monedas?", "a": "Sí. Registra gastos en cualquier moneda, incluidas USD, EUR, AED, SAR y OMR, con los decimales correctos." },
+    { "q": "¿Se pueden automatizar los gastos recurrentes?", "a": "Sí. Programa el alquiler, las suscripciones y los suministros para que se registren solos en cada ciclo y no se te escape nada." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Sabe exactamente adónde va tu dinero",
+  "ctaSub": "Crea un espacio de trabajo gratis en Paper & Pen, registra cada gasto y ve un beneficio en el que de verdad puedes confiar."
+}

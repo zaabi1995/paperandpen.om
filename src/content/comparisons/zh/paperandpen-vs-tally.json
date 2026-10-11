@@ -1,0 +1,45 @@
+{
+  "locale": "zh",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen 与 Tally 对比",
+  "metaTitle": "Paper & Pen 与 Tally 对比 · 免费云端 Tally 替代方案",
+  "metaDescription": "从云端访问、免费方案、阿拉伯语从右到左、多币种和在线收款比较 Paper & Pen 与 Tally。一款现代、免费的替代方案。",
+  "keywords": "Paper & Pen 对比 Tally, Tally 替代方案, 云端 Tally 替代, 免费 Tally 替代, Tally Prime 在线, 阿拉伯语会计软件",
+  "heroEyebrow": "对比",
+  "heroTitle": "Paper & Pen 与 <em class=\"text-copper-400 not-italic\">Tally</em> 对比",
+  "heroSubtitle": "Tally 是一款根基深厚、值得信赖的会计主力工具。Paper & Pen 是一款免费的云原生 ERP，在浏览器中即可打开，支持阿拉伯语、在线收款和任意货币。以下是客观的对比。",
+  "heroBullets": ["云原生，任何浏览器都能打开", "销售与开票永久免费", "阿拉伯语从右到左，支持在线银行卡收款"],
+  "features": [
+    { "icon": "globe", "title": "真正的云端", "desc": "无需安装，没有许可证加密狗，也不用逐台电脑配置。在任何地方、任何设备上打开 Paper & Pen。" },
+    { "icon": "card", "title": "在线收款", "desc": "每张发票都可以附上 Paymob 付款链接，客户用银行卡付款后，款项会自动对账。" },
+    { "icon": "check", "title": "免费起步", "desc": "开票和销售永久免费，开具单据之前无需先购买许可证。" }
+  ],
+  "sections": [
+    { "eyebrow": "客观地说", "title": "Tally 的强项", "body": "Tally 拥有悠久的历史、深厚的法定会计功能，以及大量对它了如指掌的会计师用户。对于由训练有素的操作员离线完成的复杂记账，它快速而可靠。许多企业多年来一直满意地使用它。", "items": ["久经考验的深度会计引擎", "大批会计师都很熟悉", "安装后可离线工作"] },
+    { "eyebrow": "我们的优势", "title": "云端、阿拉伯语和收款", "body": "Paper & Pen 在浏览器中运行，您的团队和会计师在任何地方都能看到相同的实时数据，无需安装，也不会出现版本不一致。它阿拉伯语优先，拥有完整的从右到左界面，原生支持 OMR、AED、SAR 和任意货币开票，并在每张发票上附上在线付款链接。起点真正免费。", "items": ["无需安装，始终是最新版本", "阿拉伯语从右到左界面和单据", "发票附在线付款链接，核心免费"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "永久免费方案", "values": [true, false] },
+    { "feature": "起步价格", "values": ["免费", "付费许可证"] },
+    { "feature": "云端 / 浏览器访问", "values": [true, "附加组件"] },
+    { "feature": "阿拉伯语从右到左界面", "values": [true, "有限"] },
+    { "feature": "多币种", "values": [true, true] },
+    { "feature": "在线银行卡收款（Paymob）", "values": [true, false] },
+    { "feature": "多语言界面（5 种）", "values": [true, "有限"] },
+    { "feature": "上手速度", "values": ["几分钟", "安装并培训"] },
+    { "feature": "库存与人事模块", "values": [true, "有库存，人事有限"] }
+  ],
+  "faqs": [
+    { "q": "Paper & Pen 是好的 Tally 替代方案吗？", "a": "是的，如果您想要云端访问、在线收款和阿拉伯语界面，又不想购买许可证。对于由训练有素的操作员离线完成的法定记账，Tally 依然很强。" },
+    { "q": "可以不安装任何东西就使用 Paper & Pen 吗？", "a": "可以。它完全基于云端。您在任何设备的浏览器中打开它，所有人看到的都是相同的实时数据。" },
+    { "q": "Paper & Pen 像 Tally 一样支持多种货币吗？", "a": "支持。您可以用 OMR、AED、SAR、USD、EUR 等货币开票，每份单据的小数位都准确。" },
+    { "q": "客户可以在线支付我的发票吗？", "a": "可以。每张发票都可以包含 Paymob 付款链接，客户用银行卡付款后，款项会自动对账。" },
+    { "q": "有免费版本吗？", "a": "有。销售与开票永久免费。只有添加库存、人事或会计等模块时才需付费。" }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "免费迁移到云端",
+  "ctaSub": "在浏览器中打开免费的 Paper & Pen 工作区，几分钟内开出第一张发票。无需许可证，无需安装。"
+}

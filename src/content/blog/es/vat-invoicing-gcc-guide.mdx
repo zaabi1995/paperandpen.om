@@ -1,0 +1,60 @@
+---
+locale: "es"
+slug: "vat-invoicing-gcc-guide"
+title: "Guía de facturación con IVA en el CCG: reglas de la factura fiscal por país"
+description: "Las reglas de la factura con IVA en el CCG cambian según el país. Revisa los campos que suele exigir una factura fiscal, el orden de cálculo correcto y dónde verificar las reglas vigentes."
+shortAnswer: "Las reglas de la factura con IVA en el CCG cambian según el país. Revisa los campos que suele exigir una factura fiscal, el orden de cálculo correcto y dónde verificar las reglas vigentes."
+pubDate: 2026-06-04
+updatedDate: "2026-08-21"
+author: "Paper & Pen"
+tags: ["vat", "invoicing", "gcc", "guide"]
+---
+
+Si vendes en el Golfo, tus facturas tienen que satisfacer a las autoridades fiscales además de a tus clientes. Las reglas no son complicadas cuando las conoces, pero olvidar un campo obligatorio o calcular mal el impuesto puede costarte sanciones o la pérdida de deducciones del impuesto soportado. Esta guía explica qué necesita una factura conforme al IVA en el CCG, dónde se esconden los errores habituales y por qué nunca debes dar por hecho que el tipo de un país se aplica en todos.
+
+## El IVA en el CCG de un vistazo
+
+El IVA no es uniforme en el CCG. Cada país fija su propio tipo, su umbral de registro, sus reglas de facturación y su proceso de declaración, y algunos países no han implantado el IVA. Comprueba siempre la situación vigente con la autoridad fiscal en la que estás registrado.
+
+Un punto clave: **no existe un tipo de IVA único para el CCG.** Si facturas a clientes de otros países, fija el tipo vigente de cada jurisdicción en lugar de arrastrar la configuración de un país a otro.
+
+## Qué debe mostrar una factura con IVA (factura fiscal)
+
+Para cumplir la norma, una factura fiscal suele tener que incluir:
+
+- **Las palabras "Factura fiscal"** bien visibles en el documento.
+- **Tu nombre, tu dirección y tu número de registro de IVA.**
+- **El nombre y la dirección del cliente,** y su número de IVA si está registrado y deduce el impuesto.
+- **Un número de factura único y correlativo** y la fecha de emisión.
+- **Una descripción de cada artículo,** con cantidad y precio unitario.
+- **El importe neto (antes de impuestos), el tipo y el importe del IVA, y el total bruto.**
+- **La moneda,** indicada de forma explícita (OMR, AED, SAR, etc.).
+
+Varios estados del CCG permiten facturas fiscales simplificadas para importes pequeños de venta al por menor, pero el umbral y las reglas exactas cambian según el país, así que confírmalo a nivel local.
+
+## El error en el que cae todo el mundo: el impuesto sobre el neto
+
+El error de IVA más común es calcular el impuesto sobre el importe bruto o antes de aplicar un descuento. El orden correcto es:
+
+1. Suma las líneas de detalle para obtener el subtotal.
+2. Resta cualquier descuento.
+3. **Aplica el IVA a esa cifra neta ya descontada.**
+4. Suma el IVA al neto para llegar al total general.
+
+Por ejemplo, en una venta de OMR 1,000 con un descuento de OMR 100, el IVA al 5% se cobra sobre OMR 900, lo que da OMR 45 de impuesto y un total de OMR 945, no OMR 50 sobre los mil completos. Equivocarse aquí cobra de más al cliente y falsea tu declaración.
+
+## Tipo cero, exento y no sujeto
+
+No todas las líneas van al tipo general. Algunas operaciones están **a tipo cero** (gravadas al 0% pero igualmente declaradas), otras están **exentas** (sin IVA y con deducción limitada del soportado) y otras están directamente **no sujetas**. El tratamiento depende de qué vendes y dónde, así que, ante la duda, consulta las guías de tu autoridad o a tu contable. Tu herramienta de facturación debería dejarte fijar un 0% o un tipo personalizado por línea para resolver estos casos sin problemas.
+
+## Haz que el cumplimiento sea automático
+
+Las cuentas manuales del IVA son la puerta de entrada de los errores. Una buena herramienta aplica el tipo correcto, descuenta lo que corresponde y coloca por ti cada campo obligatorio. Nuestro [generador de facturas gratis](/tools/free-invoice-generator) crea una factura fiscal bien estructurada, y la [calculadora de IVA de Omán](/tools/oman-vat-calculator) resuelve en segundos las cuentas del 5%. Para facturar de forma continua en varias monedas y con varios tipos impositivos, un [programa de facturación gratis](/free-invoicing-software) mantiene cada documento conforme y archivado.
+
+Mira en nuestra página de [precios](/pricing) cómo los módulos completos de contabilidad e informes se apoyan en esto. Las normas fiscales cambian, así que toma esto como un resumen práctico y confirma las reglas vigentes con tu autoridad fiscal nacional.
+
+{/* search-authority-sources:start */}
+## Verifica las reglas vigentes en la fuente
+
+Usa nuestras guías por país de [Omán](/vat/oman), los [Emiratos Árabes Unidos](/vat/uae), [Arabia Saudí](/vat/saudi-arabia) y [Baréin](/vat/bahrain). Cada guía nombra y enlaza los documentos de la autoridad fiscal en los que se basan sus cifras. Vuelve a consultar la autoridad correspondiente antes de emitir una factura, porque las normas fiscales pueden cambiar.
+{/* search-authority-sources:end */}

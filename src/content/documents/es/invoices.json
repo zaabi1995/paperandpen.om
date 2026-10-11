@@ -1,0 +1,36 @@
+{
+  "locale": "es",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Facturas",
+  "metaTitle": "Facturación online · Crea y envía facturas gratis · Paper & Pen",
+  "metaDescription": "Crea facturas profesionales online, gratis y en cualquier moneda. Envíalas por WhatsApp o correo, acepta pagos online y controla qué está pagado y qué vencido.",
+  "keywords": "factura, factura online, crear factura, programa de facturación, factura gratis, factura con iva, factura gst, enviar factura por whatsapp",
+  "heroEyebrow": "Facturación",
+  "heroTitle": "Crea y envía <em class=\"text-copper-400 not-italic\">facturas</em> profesionales gratis",
+  "heroSubtitle": "Factura a cualquier cliente, en cualquier moneda y con el tipo de impuesto que elijas. Envía por WhatsApp o correo, cobra online y sabe siempre qué está pagado, pendiente y vencido.",
+  "heroBullets": ["Facturación gratis para siempre", "Cualquier moneda, cualquier tipo de impuesto", "Envío por WhatsApp o correo"],
+  "features": [
+    { "icon": "invoice", "title": "Facturas con tu marca", "desc": "Añade tu logotipo, tus colores y tus condiciones. Cada factura se ve profesional y se imprime limpia." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Factura en USD, EUR, GBP, INR, AED, SAR, OMR y más, con los decimales correctos." },
+    { "icon": "calc", "title": "Listo para IVA e impuestos", "desc": "Aplica cualquier tipo de IVA, GST o impuesto sobre ventas. El impuesto se calcula sobre el neto, después de descuentos." },
+    { "icon": "whatsapp", "title": "Envíala donde quieras", "desc": "Comparte un enlace o un PDF por WhatsApp, correo o descarga. El cliente puede pagar con un toque." },
+    { "icon": "card", "title": "Cobra online", "desc": "Acepta tarjetas y métodos de pago locales para que los clientes paguen la factura al momento." },
+    { "icon": "bell", "title": "Recordatorios automáticos", "desc": "Se envían recordatorios de pago amables de forma automática hasta que la factura se paga." }
+  ],
+  "sections": [
+    { "eyebrow": "Qué es una factura", "title": "¿Qué es una factura?", "body": "Una factura es un documento comercial que el vendedor emite al comprador para solicitar el pago de bienes o servicios entregados. Detalla los artículos, las cantidades, los precios unitarios, los impuestos y el importe total a pagar, junto con las condiciones de pago y una fecha de vencimiento. Una factura clara y numerada es el registro legal de una venta y lo que lleva a tu cliente a pagarte." },
+    { "eyebrow": "Cómo funciona", "title": "Del borrador al cobro en minutos", "body": "Crea la factura a partir de una cotización o desde cero, envíala y deja que Paper & Pen se encargue del resto. Los pagos, los recordatorios y tus libros se mantienen sincronizados automáticamente.", "items": ["Créala a partir de clientes y productos guardados, o empieza en blanco", "Define tu moneda, tu tipo de impuesto y tus condiciones de pago", "Envíala por WhatsApp o correo con un enlace de pago online", "Sigue su estado: borrador, enviada, pagada en parte, pagada, vencida", "Registra pagos manuales o deja que los pagos online se concilien solos"] },
+    { "eyebrow": "Pensado para el mundo", "title": "Fortaleza local, alcance global", "body": "Paper & Pen funciona para empresas de cualquier lugar. Si estás en el CCG, tienes desde el primer día facturas en árabe, formato nativo de OMR, AED y SAR, valores de IVA configurables y pagos con tarjeta por Paymob. En el resto del mundo, solo eliges tu moneda, tu tipo de impuesto y tu idioma." }
+  ],
+  "faqs": [
+    { "q": "¿La facturación es gratis de verdad?", "a": "Sí. Crear, enviar y controlar facturas es gratis para siempre en Paper & Pen. Solo pagas si añades módulos opcionales como Inventario, RR. HH. o Contabilidad." },
+    { "q": "¿Puedo facturar en cualquier moneda?", "a": "Sí. Elige cualquier moneda, incluidas USD, EUR, GBP, INR, AED, SAR y OMR. Los decimales se ajustan automáticamente (por ejemplo, tres decimales para OMR)." },
+    { "q": "¿Gestiona el IVA o el GST?", "a": "Sí. Define cualquier tipo de impuesto por factura o por línea. Los usuarios del CCG tienen un valor de IVA configurable, y el impuesto siempre se calcula sobre el importe después de descuentos." },
+    { "q": "¿Cómo me pagan los clientes?", "a": "Envía la factura con un enlace de pago online y tus clientes pueden pagar con tarjeta o un método local con un toque. También puedes registrar a mano pagos en efectivo, por transferencia o con cheque." },
+    { "q": "¿Puedo enviar facturas por WhatsApp?", "a": "Sí. Comparte la factura como enlace o PDF directamente por WhatsApp, o envíala por correo. En ambos casos se mantiene el botón de pago online para que cobres antes." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Envía tu primera factura en minutos",
+  "ctaSub": "Crea un espacio de trabajo gratis en Paper & Pen, añade tu logotipo y envía una factura profesional que se cobra online."
+}

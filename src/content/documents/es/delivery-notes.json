@@ -1,0 +1,36 @@
+{
+  "locale": "es",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Albaranes de entrega",
+  "metaTitle": "Creador de albaranes de entrega · Paper & Pen",
+  "metaDescription": "Crea albaranes de entrega profesionales online y gratis. Detalla la mercancía enviada, obtén la prueba de entrega y convierte el albarán en factura con un clic.",
+  "keywords": "albarán de entrega, nota de entrega, crear albarán, lista de embalaje, prueba de entrega, creador de albaranes, nota de despacho de mercancía",
+  "heroEyebrow": "Albaranes de entrega",
+  "heroTitle": "Envía siempre con un <em class=\"text-copper-400 not-italic\">albarán de entrega</em> claro",
+  "heroSubtitle": "Detalla la mercancía que entregas, obtén la prueba de entrega al recibirla y luego convierte el albarán en factura con un clic. Funciona en cualquier lugar.",
+  "heroBullets": ["Gratis para siempre", "Prueba de entrega", "Conviértelo en factura"],
+  "features": [
+    { "icon": "truck", "title": "Documento de despacho", "desc": "Detalla los artículos y cantidades enviados, con o sin precios, en un albarán limpio y con tu marca." },
+    { "icon": "check", "title": "Prueba de entrega", "desc": "Registra quién recibió la mercancía y cuándo, para que ninguna entrega se discuta." },
+    { "icon": "refresh", "title": "Conviértelo en factura", "desc": "Convierte el albarán en factura con un clic en cuanto se recibe la mercancía." },
+    { "icon": "inventory", "title": "Vinculado al stock", "desc": "Con el módulo de Inventario, un albarán puede descontar stock automáticamente." },
+    { "icon": "globe", "title": "Funciona en cualquier lugar", "desc": "Se usa en todo el mundo como albarán, nota de entrega o delivery challan, en tu idioma y tu moneda." },
+    { "icon": "whatsapp", "title": "Envíalo donde quieras", "desc": "Comparte el albarán por WhatsApp o correo para que el cliente tenga el registro." }
+  ],
+  "sections": [
+    { "eyebrow": "Qué es un albarán de entrega", "title": "¿Qué es un albarán de entrega?", "body": "Un albarán de entrega (también llamado nota de entrega, delivery challan o lista de embalaje) es un documento que acompaña un envío de mercancía y detalla lo que se entrega. El destinatario revisa la mercancía con él y firma para confirmar la recepción. Es la prueba de que la mercancía salió de tus instalaciones y llegó al cliente, y es el puente entre el pedido de venta y la factura que viene después." },
+    { "eyebrow": "Cómo funciona", "title": "Despacha, confirma, factura", "body": "Paper & Pen conecta el albarán con tu pedido de venta y tu factura para que el despacho y la facturación vayan al mismo paso.", "items": ["Crea un albarán desde un pedido de venta o desde cero", "Elige mostrar precios o solo cantidades", "Envíalo o imprímelo para que viaje con la mercancía", "Obtén la prueba de entrega cuando el cliente firme", "Convierte el albarán en factura con un clic"] },
+    { "eyebrow": "Albarán o factura", "title": "¿Albarán de entrega o factura?", "body": "Un albarán registra lo que se movió físicamente y confirma la recepción; no es una solicitud de pago. Una factura pide el pago de esa mercancía. Muchas empresas entregan primero con albarán y facturan después según las condiciones acordadas. Paper & Pen te permite hacer exactamente eso y convertir una entrega confirmada en factura sin volver a escribir nada." }
+  ],
+  "faqs": [
+    { "q": "¿Qué diferencia hay entre un albarán de entrega y una factura?", "a": "Un albarán detalla y confirma la mercancía entregada, sin pedir pago. Una factura solicita el pago. Puedes convertir un albarán en factura con un clic." },
+    { "q": "¿El creador de albaranes es gratis?", "a": "Sí. Crear, enviar y controlar albaranes de entrega es gratis para siempre en Paper & Pen." },
+    { "q": "¿Un albarán puede ocultar los precios?", "a": "Sí. Elige mostrar precios o solo cantidades, algo útil cuando el almacén o el mensajero no deben ver los precios." },
+    { "q": "¿Registra la prueba de entrega?", "a": "Sí. Registra quién recibió la mercancía y cuándo, para que nadie discuta la entrega más adelante." },
+    { "q": "¿Un albarán actualiza mi stock?", "a": "Con el módulo opcional de Inventario, un albarán puede reducir el stock automáticamente cuando sale la mercancía." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Envía siempre con prueba de entrega",
+  "ctaSub": "Crea un espacio de trabajo gratis en Paper & Pen, envía un albarán limpio, obtén la prueba de entrega y factura con un clic."
+}

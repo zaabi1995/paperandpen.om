@@ -1,0 +1,36 @@
+{
+  "locale": "es",
+  "slug": "payment-receipts",
+  "order": 10,
+  "title": "Recibos de pago",
+  "metaTitle": "Creador de recibos de pago · Crea recibos gratis · Paper & Pen",
+  "metaDescription": "Crea recibos de pago profesionales online, gratis y en cualquier moneda. Confirma el dinero recibido frente a una factura y envíalo por WhatsApp o correo.",
+  "keywords": "recibo de pago, crear recibo, creador de recibos, recibo gratis, recibo de efectivo, recibo de dinero, confirmación de pago, generador de recibos",
+  "heroEyebrow": "Recibos de pago",
+  "heroTitle": "Confirma el dinero recibido con un <em class=\"text-copper-400 not-italic\">recibo de pago</em> limpio",
+  "heroSubtitle": "Emite un recibo profesional en cuanto llega un pago, vincúlalo a la factura y envíalo por WhatsApp o correo. En cualquier moneda.",
+  "heroBullets": ["Gratis para siempre", "Vinculado a la factura", "Envío por WhatsApp o correo"],
+  "features": [
+    { "icon": "receipt", "title": "Recibos con tu marca", "desc": "Emite un recibo claro y numerado con tu logotipo por cada pago recibido." },
+    { "icon": "invoice", "title": "Vinculado a la factura", "desc": "Cada recibo se registra contra la factura y actualiza el saldo automáticamente." },
+    { "icon": "card", "title": "Cualquier método de pago", "desc": "Registra efectivo, tarjeta, transferencia, cheque o pago online, con el método indicado." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Emite recibos en USD, EUR, AED, SAR, OMR, INR y más, con los decimales correctos." },
+    { "icon": "whatsapp", "title": "Envíalo donde quieras", "desc": "Comparte el recibo por WhatsApp o correo para que el cliente tenga una confirmación al instante." },
+    { "icon": "shield", "title": "Registros limpios", "desc": "Cada recibo queda registrado, así conciliar pagos con facturas no cuesta nada." }
+  ],
+  "sections": [
+    { "eyebrow": "Qué es un recibo de pago", "title": "¿Qué es un recibo de pago?", "body": "Un recibo de pago es un documento que emite el vendedor para confirmar que ha recibido un pago contra una factura o una venta. Indica el importe pagado, la fecha, el método de pago y la factura a la que corresponde. A diferencia de una factura, que solicita el pago, un recibo reconoce que el pago se ha hecho, y da al cliente una prueba y a ti un registro limpio." },
+    { "eyebrow": "Cómo funciona", "title": "Cobra, emite el recibo, concilia", "body": "Paper & Pen emite recibos automáticamente al registrar los pagos, para que tus facturas y tus libros vayan al mismo paso.", "items": ["Registra un pago, total o parcial, contra una factura", "Se genera un recibo con el importe, la fecha y el método", "El saldo y el estado de la factura se actualizan automáticamente", "Envía el recibo por WhatsApp o correo al instante", "Los pagos online se registran y se concilian solos"] },
+    { "eyebrow": "Recibo o factura", "title": "¿Recibo o factura?", "body": "Una factura es una solicitud de pago que se emite antes de que cambie de manos el dinero. Un recibo es la confirmación del pago y se emite después. Una misma factura puede tener varios recibos si el cliente paga a plazos. Paper & Pen registra cada pago contra la factura y emite un recibo cada vez, para que ningún pago parcial se pierda." }
+  ],
+  "faqs": [
+    { "q": "¿Qué diferencia hay entre un recibo y una factura?", "a": "Una factura solicita el pago antes de que se pague. Un recibo confirma el pago una vez recibido. Una factura puede tener varios recibos si se paga a plazos." },
+    { "q": "¿El creador de recibos es gratis?", "a": "Sí. Crear, enviar y controlar recibos de pago es gratis para siempre en Paper & Pen." },
+    { "q": "¿Puedo emitir un recibo por un pago parcial?", "a": "Sí. Registra cualquier importe contra una factura y se emite un recibo por ese pago, con el saldo restante controlado automáticamente." },
+    { "q": "¿Un pago online genera un recibo?", "a": "Sí. Cuando un cliente paga online, el pago se registra contra la factura y se genera un recibo que puede enviarse automáticamente." },
+    { "q": "¿Puedo enviar un recibo por WhatsApp?", "a": "Sí. Comparte el recibo como enlace o PDF por WhatsApp o correo para que el cliente tenga al instante la prueba del pago." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/credit-notes", "/features/payments", "/tools/free-receipt-generator", "/free-invoicing-software"],
+  "ctaTitle": "Envía un recibo en cuanto te paguen",
+  "ctaSub": "Crea un espacio de trabajo gratis en Paper & Pen y confirma cada pago con un recibo limpio y profesional."
+}

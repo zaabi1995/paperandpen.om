@@ -1,0 +1,36 @@
+{
+  "locale": "es",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Libros de cuentas",
+  "metaTitle": "Libros de cuentas y extractos · Paper & Pen",
+  "metaDescription": "Consulta online, gratis y en cualquier moneda los libros de clientes y proveedores. Ve cada factura, pago y nota de crédito en un extracto con saldo acumulado.",
+  "keywords": "libro de cuentas, mayor de clientes, mayor de proveedores, extracto de cuenta, libro mayor, programa de libro mayor, estado de cuenta",
+  "heroEyebrow": "Libros de cuentas",
+  "heroTitle": "Cada transacción en un <em class=\"text-copper-400 not-italic\">libro de cuentas</em> claro",
+  "heroSubtitle": "Ve un extracto con saldo acumulado de cada factura, pago, nota de crédito y ajuste para cada cliente y proveedor, en cualquier moneda. Comparte un extracto con un toque. Gratis para siempre.",
+  "heroBullets": ["Gratis para siempre", "Saldos acumulados", "Comparte extractos al instante"],
+  "features": [
+    { "icon": "chart", "title": "Libros de clientes", "desc": "Un extracto acumulado por cliente: facturas, pagos y notas de crédito con un saldo en vivo." },
+    { "icon": "accounting", "title": "Libros de proveedores", "desc": "Controla facturas de proveedor, pagos y notas de débito por proveedor para saber siempre lo que debes." },
+    { "icon": "doc", "title": "Extracto de cuenta", "desc": "Genera y envía un extracto de cuenta para cualquier rango de fechas con un toque." },
+    { "icon": "shield", "title": "Siempre conciliados", "desc": "Los libros se actualizan con los mismos asientos que tus facturas y pagos, así que siempre cuadran." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Consulta saldos en USD, EUR, AED, SAR, OMR, INR y más, con los decimales correctos." },
+    { "icon": "whatsapp", "title": "Compártelos donde quieras", "desc": "Envía un extracto por WhatsApp o correo para que los clientes paguen sus saldos pendientes." }
+  ],
+  "sections": [
+    { "eyebrow": "Qué es un libro de cuentas", "title": "¿Qué es un libro de cuentas?", "body": "Un libro de cuentas es el registro acumulado de todas las transacciones que afectan a una cuenta, con un saldo arrastrado después de cada asiento. El libro de un cliente muestra cada factura que emitiste, cada pago recibido y cada nota de crédito, y termina en el saldo que te debe. Un extracto de cuenta es ese libro presentado al cliente para un periodo. Los libros de cuentas son la base para saber quién te debe qué, y a quién debes tú." },
+    { "eyebrow": "Cómo funciona", "title": "Una única fuente de verdad", "body": "En Paper & Pen, los libros de cuentas no son una hoja de cálculo aparte: se construyen con las mismas facturas, pagos y notas de crédito que ya creas.", "items": ["Abre cualquier cliente o proveedor para ver su libro completo", "Cada factura, pago, nota de crédito y de débito aparece con un saldo acumulado", "Filtra por rango de fechas para obtener un extracto de cuenta limpio", "Envía el extracto por WhatsApp o correo con un toque", "Los saldos siempre cuadran con tus facturas y tus cuentas"] },
+    { "eyebrow": "Por qué importa", "title": "Cobra antes y nunca pagues dos veces", "body": "Cuando un cliente cuestiona un saldo, un libro claro zanja la conversación en segundos. Cuando necesitas reclamar, un extracto de cuenta es el documento más convincente que puedes enviar. Y como los libros de proveedores controlan lo que debes, nunca pagas una factura dos veces ni pasas por alto una nota de débito. Un único registro conciliado, para los dos lados de tu negocio." }
+  ],
+  "faqs": [
+    { "q": "¿Qué es el libro de un cliente?", "a": "Un extracto acumulado de cada factura, pago y nota de crédito de un cliente, que termina en el saldo que te debe en ese momento." },
+    { "q": "¿Los libros de cuentas son gratis?", "a": "Sí. Los libros de clientes y proveedores y los extractos de cuenta son gratis para siempre en Paper & Pen." },
+    { "q": "¿Puedo enviar un extracto de cuenta?", "a": "Sí. Genera un extracto para cualquier rango de fechas y envíalo por WhatsApp o correo con un toque para que el cliente pague." },
+    { "q": "¿Los libros se mantienen conciliados?", "a": "Sí. Se construyen con los mismos asientos que tus facturas y pagos, así que los saldos siempre cuadran con tus cuentas." },
+    { "q": "¿Puedo ver lo que debo a mis proveedores?", "a": "Sí. Los libros de proveedores controlan facturas, pagos y notas de débito para que sepas siempre exactamente lo pendiente con cada proveedor." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Ve quién debe qué, al instante",
+  "ctaSub": "Crea un espacio de trabajo gratis en Paper & Pen y obtén un libro de cuentas limpio y conciliado para cada cliente y proveedor."
+}

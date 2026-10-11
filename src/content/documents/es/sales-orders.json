@@ -1,0 +1,36 @@
+{
+  "locale": "es",
+  "slug": "sales-orders",
+  "order": 9,
+  "title": "Pedidos de venta",
+  "metaTitle": "Programa de pedidos de venta · Paper & Pen",
+  "metaDescription": "Crea pedidos de venta profesionales online, gratis y en cualquier moneda. Confirma el pedido de un cliente y controla la preparación y los anticipos.",
+  "keywords": "pedido de venta, crear pedido de venta, programa de pedidos de venta, pedido de venta gratis, pedido de cliente, gestión de pedidos, de pedido de venta a factura",
+  "heroEyebrow": "Pedidos de venta",
+  "heroTitle": "Confirma y prepara los pedidos de tus clientes con un <em class=\"text-copper-400 not-italic\">pedido de venta</em>",
+  "heroSubtitle": "Fija lo que el cliente ha acordado, controla anticipos y preparación, y conviértelo en albarán o factura con un clic. En cualquier moneda y en cualquier lugar.",
+  "heroBullets": ["Gratis para siempre", "Control de anticipos y preparación", "Conviértelo en albarán o factura"],
+  "features": [
+    { "icon": "cart", "title": "Registro del pedido confirmado", "desc": "Un pedido de venta numerado que recoge exactamente lo que el cliente acordó comprar." },
+    { "icon": "card", "title": "Anticipos", "desc": "Cobra un anticipo contra el pedido y controla el saldo pendiente." },
+    { "icon": "truck", "title": "Control de la preparación", "desc": "Ve qué está pendiente, entregado en parte o completo en cada pedido." },
+    { "icon": "refresh", "title": "Conversión en un clic", "desc": "Convierte un pedido de venta en albarán o factura sin volver a escribir nada." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Registra pedidos en USD, EUR, AED, SAR, OMR, INR y más, con el impuesto y los decimales correctos." },
+    { "icon": "whatsapp", "title": "Envíalo donde quieras", "desc": "Comparte la confirmación del pedido por WhatsApp o correo para que el cliente la tenga registrada." }
+  ],
+  "sections": [
+    { "eyebrow": "Qué es un pedido de venta", "title": "¿Qué es un pedido de venta?", "body": "Un pedido de venta es un documento que crea el vendedor para confirmar el pedido de un cliente después de que este acepte una cotización. Registra los artículos, las cantidades, los precios, los impuestos y las condiciones de entrega acordados, y se convierte en la instrucción interna para preparar y después facturar el pedido. Se sitúa entre la cotización y la factura, y te da un registro limpio de lo prometido antes de enviar nada." },
+    { "eyebrow": "Cómo funciona", "title": "Confirma, prepara, factura", "body": "Paper & Pen conecta el pedido de venta con todo el flujo para que una cotización aceptada se convierta en un pedido preparado y facturado sin volver a teclear.", "items": ["Convierte una cotización aceptada en pedido de venta o crea uno directamente", "Cobra un anticipo y controla el saldo", "Prepara el pedido con un albarán de entrega", "Conviértelo en factura con un clic", "Ve el estado del pedido: pendiente, entregado en parte, completo, facturado"] },
+    { "eyebrow": "La cadena completa", "title": "De la cotización al cobro, todo conectado", "body": "Cotización, pedido de venta, albarán, factura, pago y, si hace falta, nota de crédito. Paper & Pen enlaza cada paso para que cada documento pase al siguiente, los totales siempre cuadren y tus cuentas se actualicen a medida que avanza el pedido. Nada se escribe dos veces y nada se pierde por el camino." }
+  ],
+  "faqs": [
+    { "q": "¿Qué diferencia hay entre un pedido de venta y una factura?", "a": "Un pedido de venta confirma lo que el cliente acordó comprar y es la instrucción para prepararlo. Una factura solicita el pago una vez entregados los bienes o servicios. Conviertes uno en la otra con un clic." },
+    { "q": "¿El programa de pedidos de venta es gratis?", "a": "Sí. Crear, controlar y preparar pedidos de venta es gratis para siempre en Paper & Pen." },
+    { "q": "¿Puedo cobrar un anticipo en un pedido de venta?", "a": "Sí. Cobra un anticipo contra el pedido y controla el saldo pendiente hasta que se facture y se liquide." },
+    { "q": "¿Puedo convertir una cotización en pedido de venta?", "a": "Sí. Una cotización aceptada se convierte en pedido de venta con un clic, con todas las líneas, descuentos e impuestos." },
+    { "q": "¿Cómo preparo un pedido de venta?", "a": "Crea un albarán de entrega desde el pedido de venta para enviar la mercancía y después conviértelo en factura. El estado de preparación se actualiza sobre la marcha." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/delivery-notes", "/invoicing/invoices", "/features/sales-crm", "/free-invoicing-software"],
+  "ctaTitle": "Gestiona de la cotización al cobro en un solo lugar",
+  "ctaSub": "Crea un espacio de trabajo gratis en Paper & Pen y convierte cotizaciones aceptadas en pedidos de venta preparados y facturados sin volver a escribir."
+}

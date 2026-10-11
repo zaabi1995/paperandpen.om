@@ -1,0 +1,36 @@
+{
+  "locale": "es",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Órdenes de compra",
+  "metaTitle": "Programa de órdenes de compra · Paper & Pen",
+  "metaDescription": "Crea órdenes de compra profesionales online, gratis y en cualquier moneda. Envía órdenes a tus proveedores y controla aprobaciones y entregas.",
+  "keywords": "orden de compra, crear orden de compra, oc, programa de órdenes de compra, orden de compra gratis, pedido a proveedor, de orden de compra a factura",
+  "heroEyebrow": "Órdenes de compra",
+  "heroTitle": "Pide a tus proveedores con <em class=\"text-copper-400 not-italic\">órdenes de compra</em> en regla",
+  "heroSubtitle": "Crea, aprueba y envía órdenes de compra a tus proveedores en cualquier moneda, y cuádralas con entregas y facturas de proveedor con un historial de auditoría limpio. Gratis para siempre.",
+  "heroBullets": ["Gratis para siempre", "Aprueba antes de enviar", "Cuadra con las facturas de proveedor"],
+  "features": [
+    { "icon": "cart", "title": "Órdenes de compra con tu marca", "desc": "Emite órdenes claras y numeradas a tus proveedores, con tus condiciones y los datos de entrega." },
+    { "icon": "check", "title": "Aprobación antes de enviar", "desc": "Envía las órdenes a aprobación interna para que nada se pida sin visto bueno." },
+    { "icon": "truck", "title": "Control de entregas", "desc": "Ve qué está pedido, recibido en parte o entregado por completo en cada orden." },
+    { "icon": "refresh", "title": "Cuadre con facturas", "desc": "Convierte una orden recibida en factura de proveedor y haz un cuadre a tres bandas para ganar exactitud." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Pide en USD, EUR, AED, SAR, OMR, INR y más, con el impuesto y los decimales correctos." },
+    { "icon": "whatsapp", "title": "Envíala donde quieras", "desc": "Comparte la orden con un proveedor por WhatsApp o correo con un toque." }
+  ],
+  "sections": [
+    { "eyebrow": "Qué es una orden de compra", "title": "¿Qué es una orden de compra?", "body": "Una orden de compra (OC) es un documento que el comprador envía al proveedor para solicitar formalmente bienes o servicios a un precio acordado. Detalla los artículos, las cantidades, los precios unitarios, los impuestos, las condiciones de entrega y un número de orden que el proveedor cita en su factura. La orden se convierte en un compromiso vinculante cuando el proveedor la acepta, y controla el gasto porque exige aprobación antes de que salga el dinero." },
+    { "eyebrow": "Cómo funciona", "title": "Crea, aprueba, recibe, cuadra", "body": "Paper & Pen gestiona todo el flujo de compra a pago para que cada pedido se apruebe, se controle y se cuadre.", "items": ["Crea una orden desde una alerta de stock bajo o desde cero", "Envíala a aprobación interna antes de mandarla", "Envíala al proveedor por WhatsApp o correo", "Recibe la mercancía contra la orden y actualiza el stock", "Conviértela en factura de proveedor y cuádrala con la orden y la entrega"] },
+    { "eyebrow": "Por qué importa", "title": "Controla el gasto antes de que ocurra", "body": "Las órdenes de compra llevan el control del gasto al momento anterior a la salida del dinero, no al posterior. Con aprobaciones, control de entregas y cuadre a tres bandas entre la orden, la mercancía recibida y la factura del proveedor, detectas cobros de más y entregas incompletas antes de pagar. Esa disciplina crece contigo, desde un solo comprador hasta un equipo de compras completo." }
+  ],
+  "faqs": [
+    { "q": "¿Para qué sirve una orden de compra?", "a": "Para solicitar formalmente bienes o servicios a un proveedor a un precio acordado, controlar el gasto mediante aprobación y dar al proveedor una referencia que citar en su factura." },
+    { "q": "¿El programa de órdenes de compra es gratis?", "a": "Sí. Crear, aprobar y controlar órdenes de compra es gratis para siempre en Paper & Pen." },
+    { "q": "¿Puedo aprobar una orden antes de enviarla?", "a": "Sí. Envía las órdenes de compra a aprobación interna para que nada se pida sin el visto bueno adecuado." },
+    { "q": "¿Puedo cuadrar una orden con una factura de proveedor?", "a": "Sí. Convierte una orden recibida en factura de proveedor y cuádrala a tres bandas con el pedido y la mercancía recibida para detectar diferencias." },
+    { "q": "¿Recibir una orden actualiza mi stock?", "a": "Con el módulo opcional de Inventario, recibir mercancía contra una orden aumenta el stock automáticamente." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Pide con control, no con caos",
+  "ctaSub": "Crea un espacio de trabajo gratis en Paper & Pen, emite órdenes de compra aprobadas y cuádralas con las facturas automáticamente."
+}

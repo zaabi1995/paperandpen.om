@@ -1,0 +1,36 @@
+{
+  "locale": "es",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Facturas recurrentes",
+  "metaTitle": "Facturas recurrentes · Automatiza tu facturación gratis · Paper & Pen",
+  "metaDescription": "Configura facturas recurrentes online, gratis y en cualquier moneda. Factura suscripciones e igualas automáticamente y envíalas por WhatsApp o correo.",
+  "keywords": "factura recurrente, factura automática, facturación de suscripciones, factura de iguala, facturación periódica, autofactura, factura programada",
+  "heroEyebrow": "Facturas recurrentes",
+  "heroTitle": "Factura suscripciones e igualas en <em class=\"text-copper-400 not-italic\">piloto automático</em>",
+  "heroSubtitle": "Define una vez el importe, la moneda y la periodicidad, y Paper & Pen emite y envía cada factura automáticamente. Cobra online en el mismo ciclo. Gratis para siempre.",
+  "heroBullets": ["Gratis para siempre", "Configúrala una vez, factura siempre", "Cobro online automático"],
+  "features": [
+    { "icon": "refresh", "title": "Configura y olvídate", "desc": "Define la periodicidad una vez y las facturas se generan y se envían solas a su hora." },
+    { "icon": "clock", "title": "Cualquier frecuencia", "desc": "Semanal, mensual, trimestral o anual, con fecha de inicio y fecha de fin opcional." },
+    { "icon": "card", "title": "Cobro automático", "desc": "Envía cada factura con un enlace de pago online o cobra automáticamente en cada ciclo." },
+    { "icon": "globe", "title": "Cualquier moneda", "desc": "Factura en USD, EUR, AED, SAR, OMR, INR y más, con el impuesto y los decimales correctos." },
+    { "icon": "whatsapp", "title": "Envíala donde quieras", "desc": "Cada factura recurrente sale automáticamente por WhatsApp o correo." },
+    { "icon": "bell", "title": "Recordatorios incluidos", "desc": "Los recordatorios de pago automáticos persiguen cualquier factura recurrente sin pagar." }
+  ],
+  "sections": [
+    { "eyebrow": "Qué es una factura recurrente", "title": "¿Qué es una factura recurrente?", "body": "Una factura recurrente es una factura que se emite automáticamente con una periodicidad fija para el mismo cliente y el mismo importe. Se usa para suscripciones, igualas, cuotas de socio, alquileres o contratos de mantenimiento. En lugar de rehacer la factura en cada ciclo, la defines una vez y el sistema la genera, la numera y la envía en cada fecha de vencimiento, con ingresos previsibles y cero trabajo administrativo." },
+    { "eyebrow": "Cómo funciona", "title": "Defínela una vez y funciona siempre", "body": "Paper & Pen se encarga de todo el ciclo para que los ingresos recurrentes se cobren solos.", "items": ["Crea una plantilla recurrente con artículos, moneda e impuesto", "Elige la frecuencia, la fecha de inicio y una fecha de fin opcional", "En cada ciclo se genera y se envía una factura automáticamente", "Los clientes pagan online y los pagos se concilian solos", "Los recordatorios persiguen automáticamente cualquier factura recurrente sin pagar"] },
+    { "eyebrow": "Para quién es", "title": "Perfecta para ingresos previsibles", "body": "Las facturas recurrentes encajan con cualquier negocio que factura de forma repetida: SaaS y suscripciones, agencias con iguala, gimnasios y cuotas de socio, alquileres de inmuebles, contratos de mantenimiento informático y de equipos, y servicios gestionados. Define la periodicidad una vez y tus ingresos recurrentes se facturan, se envían y se reclaman sin que nadie los toque cada mes." }
+  ],
+  "faqs": [
+    { "q": "¿Qué es una factura recurrente?", "a": "Una factura que se emite automáticamente con una periodicidad fija para el mismo cliente y el mismo importe, usada para suscripciones, igualas, alquileres y contratos de mantenimiento." },
+    { "q": "¿La facturación recurrente es gratis?", "a": "Sí. Configurar y gestionar facturas recurrentes es gratis para siempre en Paper & Pen." },
+    { "q": "¿Qué frecuencias admite?", "a": "Semanal, mensual, trimestral o anual, con fecha de inicio y una fecha de fin opcional para que la serie termine cuando quieras." },
+    { "q": "¿Se puede cobrar a los clientes automáticamente?", "a": "Sí. Envía cada factura con un enlace de pago online o configura el cobro automático para que cada ciclo cargue el método de pago guardado." },
+    { "q": "¿Qué pasa si una factura recurrente no se paga?", "a": "Los recordatorios de pago automáticos persiguen cualquier factura recurrente sin pagar hasta que se liquida, sin necesidad de seguimiento manual." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Pon tus ingresos recurrentes en piloto automático",
+  "ctaSub": "Crea un espacio de trabajo gratis en Paper & Pen, configura una factura recurrente una sola vez y deja que facture, envíe y cobre a su hora."
+}

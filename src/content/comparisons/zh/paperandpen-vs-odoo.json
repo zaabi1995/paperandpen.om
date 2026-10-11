@@ -1,0 +1,45 @@
+{
+  "locale": "zh",
+  "slug": "paperandpen-vs-odoo",
+  "order": 3,
+  "competitor": "Odoo",
+  "title": "Paper & Pen 与 Odoo 对比",
+  "metaTitle": "Paper & Pen 与 Odoo 对比 · 更简单的免费 ERP 替代方案",
+  "metaDescription": "从价格、免费方案、阿拉伯语从右到左、上线速度和海湾地区增值税比较 Paper & Pen 与 Odoo。一款更简单、免费、阿拉伯语优先的 Odoo 替代方案。",
+  "keywords": "Paper & Pen 对比 Odoo, Odoo 替代方案, 免费 Odoo 替代, 简单 ERP, 阿拉伯语 ERP 软件, Odoo 海湾地区价格",
+  "heroEyebrow": "对比",
+  "heroTitle": "Paper & Pen 与 <em class=\"text-copper-400 not-italic\">Odoo</em> 对比",
+  "heroSubtitle": "Odoo 是一款强大的模块化 ERP，几乎无所不能。Paper & Pen 则是更简单、免费、阿拉伯语优先的选择：开票永久免费，需要时再加模块，几分钟就能上线。这是一份客观的对比。",
+  "heroBullets": ["销售与开票永久免费", "几分钟上线，无需实施项目", "阿拉伯语优先，原生支持海湾地区货币"],
+  "features": [
+    { "icon": "bolt", "title": "几分钟上线", "desc": "无需合作伙伴，没有实施阶段。注册、设置税率和货币，今天就能发出发票。" },
+    { "icon": "check", "title": "核心免费", "desc": "销售与开票永久免费，只为真正启用的模块付费。" },
+    { "icon": "globe", "title": "阿拉伯语优先", "desc": "完整的从右到左阿拉伯语界面和单据，开箱即有五种界面语言。" }
+  ],
+  "sections": [
+    { "eyebrow": "客观地说", "title": "Odoo 的强项", "body": "Odoo 确实很强大。它拥有数十个应用、深度定制能力和强大的开发者生态，能为非常复杂的业务建模，从生产工艺路线到电子商务和现场服务。如果您有预算、有实施伙伴、有定制化的流程，Odoo 几乎可以被塑造成任何样子。", "items": ["庞大的模块和应用目录", "深度定制和开发者生态", "可扩展到非常复杂的运营"] },
+    { "eyebrow": "我们的优势", "title": "简单、价格和见效速度", "body": "大多数企业发一张发票并不需要一个实施项目。Paper & Pen 免费起步，阿拉伯语优先，几分钟即可就绪，并预设了海湾地区可配置增值税、原生 OMR、AED 和 SAR 以及 Paymob 收款。只有在业务发展到需要时，您才添加库存、人事或生产制造模块，所以永远不必为用不上的复杂功能付费。", "items": ["起步无需实施费用", "预设海湾地区增值税和货币", "随业务增长再添加模块"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Odoo"],
+  "matrix": [
+    { "feature": "永久免费方案", "values": [true, "单应用免费版"] },
+    { "feature": "起步价格", "values": ["免费", "按用户付费"] },
+    { "feature": "配置工作量", "values": ["几分钟", "需要实施"] },
+    { "feature": "阿拉伯语从右到左界面", "values": [true, "部分"] },
+    { "feature": "多币种", "values": [true, true] },
+    { "feature": "本地收款（Paymob）", "values": [true, "需通过配置"] },
+    { "feature": "海湾地区可配置增值税预设", "values": [true, "可配置"] },
+    { "feature": "完整 ERP 模块", "values": ["模块化附加组件", true] },
+    { "feature": "最适合", "values": ["想要简单和免费的中小企业", "复杂、定制化的运营"] }
+  ],
+  "faqs": [
+    { "q": "Paper & Pen 是好的 Odoo 替代方案吗？", "a": "是的，适合想免费起步、快速上线并用阿拉伯语工作的中小企业。对于高度复杂、大量定制且有实施预算的运营，Odoo 仍是更强的选择。" },
+    { "q": "Paper & Pen 比 Odoo 便宜吗？", "a": "无限开票免费起步，没有按用户收费，也没有实施成本。只为您启用的可选模块付费。" },
+    { "q": "与 Odoo 相比，配置需要多长时间？", "a": "几分钟。注册、设置货币和税率，当天就能发出发票，无需合作伙伴，也没有实施阶段。" },
+    { "q": "Paper & Pen 有像 Odoo 那样的库存和生产制造功能吗？", "a": "有，以可选模块的形式提供。您可以在业务发展到需要时再添加库存、人事、会计和生产制造，而不必一开始就为所有功能付费。" },
+    { "q": "阿拉伯语体验更好吗？", "a": "Paper & Pen 阿拉伯语优先，拥有完整的从右到左界面和阿拉伯语单据，而 Odoo 的阿拉伯语支持是部分的，而且常常取决于配置。" }
+  ],
+  "related": ["/compare/paperandpen-vs-tally", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "省掉实施项目",
+  "ctaSub": "用 Paper & Pen 免费起步，今天就发出发票，只在需要时添加模块。"
+}
