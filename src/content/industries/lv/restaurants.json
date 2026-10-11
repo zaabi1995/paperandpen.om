@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restorāni un kafejnīcas",
+  "metaTitle": "Restorānu norēķini un recepšu krājumi | Paper & Pen",
+  "metaDescription": "Bezmaksas norēķini, sastāvdaļu krājumi, recepšu izmaksas un pirkuma pasūtījumi restorāniem un kafejnīcām. Kontrolē pārtikas izmaksas, izraksti čekus ātri.",
+  "keywords": "restorāna programma, kafejnīcas norēķini, recepšu izmaksas, pārtikas izmaksu kontrole, restorāna krājumi, pirkuma pasūtījumi piegādātājiem, erp restorānam",
+  "heroEyebrow": "Restorāniem un kafejnīcām",
+  "heroTitle": "Ātri norēķini, <em class=\"text-copper-400 not-italic\">kontrolētas pārtikas izmaksas</em>",
+  "heroSubtitle": "Drukā čekus dažās sekundēs, seko sastāvdaļām līdz gramam un zini katra ēdiena īstās izmaksas. Paper & Pen liek virtuvei, kasei un grāmatvedībai strādāt kopā.",
+  "heroBullets": ["Bezmaksas, ātri čeki", "Sastāvdaļu un recepšu izmaksas", "Pirkuma pasūtījumi piegādātājiem"],
+  "features": [
+    { "icon": "receipt", "title": "Ātri čeki", "desc": "Pieņem pasūtījumu, piemēro nodokli un apkalpošanas maksu un drukā vai kopīgo čeku dažās sekundēs." },
+    { "icon": "manufacturing", "title": "Recepšu izmaksas", "desc": "Veido receptes no sastāvdaļām, lai zinātu katra ēdiena īstās izmaksas." },
+    { "icon": "inventory", "title": "Sastāvdaļu krājumi", "desc": "Seko izejvielām pēc mērvienības, partijas un derīguma termiņa, ar brīdinājumiem par zemiem atlikumiem." },
+    { "icon": "truck", "title": "Pasūtījumi piegādātājiem", "desc": "Izveido pirkuma pasūtījumus piegādātājiem un atjauno krājumus un izmaksas saņemšanas brīdī." },
+    { "icon": "calc", "title": "Pārtikas izmaksu procents", "desc": "Salīdzini ēdiena izmaksas ar ēdienkartes cenu, lai peļņas norma paliktu veselīga." },
+    { "icon": "chart", "title": "Pārdošanas atskaites", "desc": "Redzi populārākos ēdienus, dienas ieņēmumus un tendences pa dienām un filiālēm." }
+  ],
+  "sections": [
+    { "eyebrow": "Ātrāka apkalpošana zālē", "title": "Čeki, kas neaptur rindu", "body": "Pusdienu steigā nav laika lēniem norēķiniem. Pievieno pozīcijas, piemēro PVN vai apkalpošanas maksu, pieņem samaksu un izsniedz tīru čeku dažās sekundēs, un, ja viesis lūdz, kopīgo to WhatsApp. Katrs pārdevums automātiski nonāk tavās grāmatās, tāpēc dienas slēgšana ir viens skatiens, nevis vakars pie tastatūras.", "items": ["Ātri pievieno pozīcijas un pieņem samaksu", "PVN un apkalpošanas maksa aprēķināti tavā vietā", "Dienas ieņēmumi saskaņojas automātiski"] },
+    { "eyebrow": "Virtuve saka patiesību", "title": "Recepšu izmaksas, kas aizsargā peļņas normu", "body": "Ēdiens ir ienesīgs tikai tad, ja zini, cik tas maksā. Veido receptes no sastāvdaļām, ļauj Paper & Pen aprēķināt katra šķīvja izmaksas pēc aktuālajām iepirkuma cenām un vēro pārtikas izmaksu procentu, kad piegādātāju cenas mainās. Seko sastāvdaļām pēc partijas un derīguma termiņa, izveido pirkuma pasūtījumus un turi zudumus kontrolē. Radīts Omānā ar iebūvētiem OMR, AED un SAR un 5% PVN, un gatavs USD, EUR vai jebkuram tirgum.", "items": ["Receptes aprēķinātas pēc aktuālām sastāvdaļu cenām", "Izejvielu partiju un derīguma termiņu uzskaite", "Pirkuma pasūtījumi, kas atjauno izmaksas saņemšanas brīdī"] }
+  ],
+  "faqs": [
+    { "q": "Vai varu aprēķināt ēdienkartes izmaksas pēc sastāvdaļu cenām?", "a": "Jā. Nosaki katru ēdienu kā sastāvdaļu recepti, un Paper & Pen aprēķina tā izmaksas pēc pašreizējām iepirkuma cenām, lai tu varētu noteikt ēdienkartes cenas, kas aizsargā peļņas normu." },
+    { "q": "Vai tā uzskaita sastāvdaļas un derīguma termiņus?", "a": "Jā. Izejvielas tiek uzskaitītas pēc mērvienības, partijas un derīguma termiņa, ar brīdinājumiem par zemiem atlikumiem, lai pasūtītu, pirms tās beidzas." },
+    { "q": "Vai varu piemērot PVN un apkalpošanas maksu?", "a": "Jā. Piemēro pielāgojamu Persijas līča PVN, apkalpošanas maksu vai jebkuru nodokļa likmi, kas visi tiek automātiski aprēķināti rēķinā." },
+    { "q": "Vai kafejnīcai norēķini ir bez maksas?", "a": "Pārdošana un rēķini, ieskaitot čekus, ir bez maksas uz visiem laikiem. Pievieno Noliktavu un Ražošanu, kad vēlies sastāvdaļu uzskaiti un recepšu izmaksas." },
+    { "q": "Vai varu pārvaldīt vairāk nekā vienu iestādi?", "a": "Jā. Seko pārdošanai un krājumiem katrā filiālē un redzi aktuālos daudzumus un dienas ieņēmumus visās iestādēs no vienas darbvietas." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Apkalpo ātri, rēķini gudri",
+  "ctaSub": "Sāc bez maksas ar čekiem un norēķiniem, tad pievieno Noliktavu un recepšu izmaksas, lai pārņemtu kontroli pār pārtikas izmaksām."
+}

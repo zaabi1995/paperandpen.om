@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "payments",
+  "order": 10,
+  "title": "Maksājumi",
+  "metaTitle": "Rēķinu apmaksa tiešsaistē · Saņem samaksu ātrāk · Paper & Pen",
+  "metaDescription": "Pievieno tiešsaistes apmaksas saiti katram rēķinam un saņem samaksu ar karti. Paymob un globālas vārtejas, jebkura valūta, automātiska saskaņošana ar grāmatām.",
+  "keywords": "maksājumi tiešsaistē, pieņemt karšu maksājumus, apmaksāt rēķinu tiešsaistē, paymob, maksājumu vārteja, saņemt samaksu ātrāk, maksājuma saite",
+  "heroEyebrow": "Iebūvēts",
+  "heroTitle": "Ļauj klientiem samaksāt <em class=\"text-copper-400 not-italic\">vienā pieskārienā</em>",
+  "heroSubtitle": "Ievieto drošu tiešsaistes apmaksas saiti katrā rēķinā, lai klienti uzreiz samaksātu ar karti. Maksājumi automātiski saskaņojas ar tavām grāmatām, jebkurā valūtā un jebkur.",
+  "heroBullets": ["Tiešsaistes apmaksas saite katrā rēķinā", "Automātiska saskaņošana ar virsgrāmatu", "Paymob un globālas vārtejas"],
+  "features": [
+    { "icon": "card", "title": "Apmaksa ar karti", "desc": "Klienti samaksā jebkuru rēķinu tiešsaistē ar karti, bez pieslēgšanās vai lietotnes." },
+    { "icon": "bolt", "title": "Tūlītēja apmaksas saite", "desc": "Katrā rēķinā ir droša saite, ko var kopīgot pa e-pastu vai WhatsApp." },
+    { "icon": "refresh", "title": "Automātiska saskaņošana", "desc": "Veiksmīgi maksājumi atzīmē rēķinu kā apmaksātu un grāmatojas tavās grāmatās." },
+    { "icon": "globe", "title": "Jebkura valūta", "desc": "Iekasē OMR, AED, SAR, USD, EUR un citās valūtās caur piemērotu vārteju." },
+    { "icon": "shield", "title": "Drošība un PCI", "desc": "Karšu datus apstrādā sertificētas vārtejas, tu tos nekad neglabā." },
+    { "icon": "receipt", "title": "Kvītis nosūtītas", "desc": "Klienti saņem automātisku kvīti tajā brīdī, kad maksājums izdodas." }
+  ],
+  "sections": [
+    { "eyebrow": "Saņem samaksu ātrāk", "title": "Novērs šķēršļus starp rēķinu un naudu", "body": "Jo ātrāk klients var samaksāt, jo ātrāk tu saņem naudu. Tiešsaistes apmaksas saite katrā rēķinā nozīmē, ka nav jākopē bankas rekvizīti un nav jāgaida pārskaitījums. Klients pieskaras, samaksā ar karti, un rēķins atjaunojas pats, bet kvīts jau ir ceļā.", "items": ["Apmaksa ar karti vienā pieskārienā", "Saiti var kopīgot WhatsApp un e-pastā", "Automātiskas kvītis"] },
+    { "eyebrow": "Vietēji un globāli", "title": "Piemērota vārteja tavam tirgum", "body": "Paper & Pen savieno Paymob Persijas līča valstīm un citas globālas vārtejas, lai tu varētu pieņemt kartes, ko tavi klienti tiešām lieto, viņu valūtā. Katrs norēķins saskaņojas ar pareizo rēķinu un grāmatojas tavos kontos, tāpēc iekasēšana un uzskaite iet roku rokā.", "items": ["Paymob Persijas līča valstīm un globālas iespējas", "Iekasēšana vairākās valūtās", "Saskaņojas ar konkrēto rēķinu"] }
+  ],
+  "faqs": [
+    { "q": "Vai tiešsaistes maksājumu ieslēgšana ir bez maksas?", "a": "Jā, tiešsaistes apmaksas saišu pievienošana ir iebūvēta. Maksājumu vārteja ņem savu apstrādes komisiju par katru darījumu, kā vārtejas vienmēr dara." },
+    { "q": "Kuras vārtejas tiek atbalstītas?", "a": "Paymob Persijas līča valstīm un citas globālas vārtejas, lai tu varētu pieņemt kartes, ko tavi klienti lieto, viņu valūtā." },
+    { "q": "Vai maksājums automātiski atjauno rēķinu?", "a": "Jā. Veiksmīgs maksājums atzīmē rēķinu kā apmaksātu, nosūta kvīti un grāmato ierakstu tavās grāmatās." },
+    { "q": "Vai klienti var maksāt dažādās valūtās?", "a": "Jā. Iekasē OMR, AED, SAR, USD, EUR un citās valūtās caur atbilstošu vārteju." },
+    { "q": "Vai maksājums ar karti ir drošs?", "a": "Jā. Karšu datus apstrādā PCI sertificētas vārtejas, un tie nekad netiek glabāti Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Pārvērt rēķinus tūlītējā naudā",
+  "ctaSub": "Sāc bez maksas un pievieno tiešsaistes apmaksas saiti katram rēķinam, lai klienti varētu samaksāt vienā pieskārienā."
+}

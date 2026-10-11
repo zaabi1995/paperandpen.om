@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "retail",
+  "order": 2,
+  "title": "Mazumtirdzniecība un veikali",
+  "metaTitle": "Norēķinu un krājumu programma veikaliem · Paper & Pen",
+  "metaDescription": "Bezmaksas norēķini, svītrkodu krājumi, zemu atlikumu brīdinājumi un krājumu vērtība reāllaikā veikaliem un tirgotājiem. Pārdod ātri un nepaliec bez preces.",
+  "keywords": "mazumtirdzniecības programma, veikala norēķinu programma, svītrkodu krājumu uzskaite, kases rēķini, zemu atlikumu brīdinājumi, erp mazumtirdzniecībai, krājumi vairākos veikalos",
+  "heroEyebrow": "Veikaliem un tirgotājiem",
+  "heroTitle": "Pārdod ātri, <em class=\"text-copper-400 not-italic\">nekad nepaliec bez preces</em>",
+  "heroSubtitle": "Apkalpo klientus dažās sekundēs, skenē svītrkodus krājumu skaitīšanai un ļauj krājumiem atjaunoties pašiem. Paper & Pen uztur plauktus, pārdošanu un grāmatvedību saskaņā, lai tu mazāk skaitītu un vairāk pārdotu.",
+  "heroBullets": ["Bezmaksas, ātri norēķini", "Svītrkodu un SKU atbalsts", "Brīdinājumi par zemiem atlikumiem, pirms prece beidzas"],
+  "features": [
+    { "icon": "receipt", "title": "Ātri norēķini", "desc": "Noformē pārdevumu un drukā vai kopīgo čeku dažās sekundēs jebkurā ierīcē." },
+    { "icon": "inventory", "title": "Svītrkodu krājumi", "desc": "Skenē, lai skaitītu vai pārvietotu krājumus, ar kārtību pēc SKU, partijas un mērvienības." },
+    { "icon": "bell", "title": "Zemu atlikumu brīdinājumi", "desc": "Nosaki pasūtīšanas līmeņus un saņem brīdinājumu, pirms pieprasītākā prece beidzas." },
+    { "icon": "truck", "title": "Krājumi vairākos veikalos", "desc": "Seko krājumiem un pārvieto tos starp filiālēm ar aktuāliem daudzumiem visur." },
+    { "icon": "calc", "title": "Vērtība reāllaikā", "desc": "Vidējās izmaksas vai FIFO metode uztur precīzu krājumu vērtību tavā bilancē." },
+    { "icon": "chart", "title": "Pieprasītāko preču atskaites", "desc": "Redzi, kas pārdodas un kas stāv, pēc preces, kategorijas un veikala." }
+  ],
+  "sections": [
+    { "eyebrow": "Ātrāka apkalpošana kasē", "title": "Norēķini, kas radīti aizņemtai letei", "body": "Klienti negaida. Veido pārdevumu, meklējot preces, piemēro atlaidi, pieņem samaksu un izsniedz tīru čeku dažās sekundēs. Čekus var kopīgot WhatsApp vai izdrukāt kasei, un katrs pārdevums nonāk tieši tavos krājumos un grāmatās bez atkārtotas ievades.", "items": ["Ātri pievieno preces, tās meklējot", "Uzreiz drukā vai kopīgo čekus", "Atlaides un nodokļi aprēķināti automātiski"] },
+    { "eyebrow": "Krājumi, kas uzskaita sevi paši", "title": "Vienmēr zini, kas ir plauktā", "body": "Manuāla skaitīšana noveco jau pēc pirmā pārdevuma. Paper & Pen katrs pārdevums un piegāde koriģē krājumus reāllaikā, tāpēc skaitlis ekrānā sakrīt ar plauktu. Nosaki pasūtīšanas līmeņus, lai sistēma brīdinātu par lēnu papildināšanu, pirms zaudē pārdevumu. Radīts Omānā ar iebūvētiem OMR, AED un SAR un 5% PVN, un gatavs USD, EUR vai jebkurai nodokļa likmei, ar kuru tu tirgojies.", "items": ["Krājumi reāllaikā ar katru pārdevumu", "Pasūtīšanas līmeņi un zemu atlikumu brīdinājumi", "Jebkura valūta, jebkura nodokļa likme"] }
+  ],
+  "faqs": [
+    { "q": "Vai varu pārdot, izmantojot svītrkodu skeneri?", "a": "Ne kasē. Kasē preces pārdevumam pievieno, tās meklējot. Svītrkodu skeneris der krājumiem: noskenē preci, lai to saskaitītu vai pārvietotu krājumus iekšā vai ārā. Preces ir sakārtotas pēc SKU, partijas un mērvienības." },
+    { "q": "Vai krājumi atjaunosies, kad pārdošu?", "a": "Jā. Katrs pārdevums samazina krājumus un katra piegāde tos palielina reāllaikā visos tavos veikalos, bez manuālas skaitīšanas." },
+    { "q": "Vai varu vadīt vairāk nekā vienu veikalu?", "a": "Jā. Seko krājumiem katrā veikalā, pārvieto tos starp filiālēm un redzi aktuālos daudzumus visur no vienas darbvietas." },
+    { "q": "Vai norēķini tiešām ir bez maksas?", "a": "Pārdošana un rēķini, ieskaitot čekus, ir bez maksas uz visiem laikiem. Pievieno Noliktavas moduli, kad vēlies svītrkodu krājumu kontroli un brīdinājumus par zemiem atlikumiem." },
+    { "q": "Vai tā darbojas ārpus Persijas līča valstīm?", "a": "Jā. Paper & Pen darbojas jebkurā valūtā ar jebkuru nodokļa likmi, tāpēc tirgotāji jebkur var izrakstīt rēķinus un pārvaldīt krājumus, ar arābu, angļu un citām valodām." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Vadi savu veikalu bez minēšanas",
+  "ctaSub": "Sāc bez maksas ar norēķiniem un čekiem, tad pievieno Noliktavu svītrkodu krājumiem un brīdinājumiem par zemiem atlikumiem."
+}

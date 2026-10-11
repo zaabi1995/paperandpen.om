@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Rēķini",
+  "metaTitle": "Rēķinu pārvaldības funkcijas | Paper & Pen ERP",
+  "metaDescription": "Iepazīsti rēķinu uzraudzību, tiešsaistes maksājumus, atgādinājumus, pielāgojamus nodokļus, piecas valodas un darbu ar vairākām valūtām Paper & Pen ERP.",
+  "keywords": "rēķinu programma, bezmaksas rēķini, rēķini tiešsaistē, nosūtīt rēķinu, maksājumi tiešsaistē, pvn rēķins, periodiskie rēķini, maksājumu atgādinājumi",
+  "heroEyebrow": "Bez maksas uz visiem laikiem",
+  "heroTitle": "Rēķini, ar kuriem saņem samaksu <em class=\"text-copper-400 not-italic\">ātrāk</em>",
+  "heroSubtitle": "Izveido glītu rēķinu mazāk nekā minūtē, nosūti to pa e-pastu vai WhatsApp un ļauj klientam samaksāt tiešsaistē. Radīts jebkurai valūtai un jebkurai nodokļa likmei, lieto visā pasaulē.",
+  "heroBullets": ["Pārdošana un rēķini bez maksas uz visiem laikiem", "Jebkura valūta, jebkura nodokļa likme", "Tiešsaistes apmaksas saite katrā rēķinā"],
+  "features": [
+    { "icon": "bolt", "title": "Rēķins dažās sekundēs", "desc": "Izvēlies klientu, pievieno pozīcijas, nosūti. Summas un nodokļi tiek aprēķināti, kamēr raksti." },
+    { "icon": "globe", "title": "Jebkura valūta", "desc": "Izraksti rēķinus OMR, AED, SAR, USD, EUR, GBP vai jebkurā valūtā ar pareizu decimāldaļu skaitu." },
+    { "icon": "card", "title": "Samaksa tiešsaistē", "desc": "Katrā rēķinā ir droša apmaksas saite, tāpēc klienti samaksā ar karti vienā pieskārienā." },
+    { "icon": "bell", "title": "Automātiski atgādinājumi", "desc": "Pieklājīgi, ieplānoti atgādinājumi atgādina par kavētiem rēķiniem, lai tev tas nebūtu jādara." },
+    { "icon": "refresh", "title": "Periodiskie rēķini", "desc": "Iestati abonēšanas maksas un abonementus, lai rēķini tiktu izrakstīti automātiski katru nedēļu vai mēnesi." },
+    { "icon": "calc", "title": "Gatavs PVN un nodokļiem", "desc": "Piemēro jebkuru PVN vai tirdzniecības nodokļa likmi, aprēķinātu no neto summas pēc atlaidēm." }
+  ],
+  "sections": [
+    { "eyebrow": "Radīts pasaulei", "title": "Viens rēķinu rīks katram tirgum", "body": "Neatkarīgi no tā, vai izraksti rēķinus dolāros Ņujorkā vai riālos Maskatā, Paper & Pen parūpējas par valūtu, decimāldaļām un nodokļu noteikumiem. Pārslēdz saskarni starp angļu, arābu, hindi, bengāļu un urdu valodu, lai visa komanda strādātu savā valodā.", "items": ["Vairākas valūtas ar pareizu formatējumu", "Pielāgojami nodokļi jebkurai valstij", "Arābu valoda pirmajā vietā, rēķini pilnībā no labās uz kreiso"] },
+    { "eyebrow": "No piedāvājuma līdz naudai", "title": "Rēķini pilnvērtīgā ERP sistēmā", "body": "Tavi rēķini nedzīvo atsevišķi. Pārvērt pieņemtu piedāvājumu rēķinā ar vienu klikšķi, reģistrē maksājumu un vēro, kā tas automātiski nonāk tavās grāmatās. Kad augsi, noliktava, grāmatvedība un algas jau gaida tajā pašā darbvietā.", "items": ["Piedāvājums par rēķinu ar vienu klikšķi", "Maksājumi saskaņojas ar virsgrāmatu", "Nekādas dubultas ievades, nekad"] }
+  ],
+  "faqs": [
+    { "q": "Vai rēķini tiešām ir bez maksas?", "a": "Jā. Pārdošana un rēķini ir bez maksas uz visiem laikiem, bez ierobežojuma rēķinu vai klientu skaitam. Maksā tikai tad, ja pievieno izvēles moduļus, piemēram, Noliktavu vai Algas." },
+    { "q": "Vai klienti var samaksāt rēķinu tiešsaistē?", "a": "Jā. Katrā rēķinā var būt droša tiešsaistes apmaksas saite, ko nodrošina Paymob un citas maksājumu vārtejas, tāpēc klienti maksā ar karti, un maksājums saskaņojas automātiski." },
+    { "q": "Vai tā atbalsta PVN un citus nodokļus?", "a": "Jā. Iestati jebkuru likmi, tostarp pielāgojamu PVN Persijas līča valstīm vai to, kas attiecas uz tavu valsti. Nodoklis tiek aprēķināts no neto summas pēc jebkuras atlaides." },
+    { "q": "Vai varu sūtīt rēķinus arābu valodā?", "a": "Jā. Visa saskarne un rēķina PDF var būt arābu valodā, pilnībā no labās uz kreiso, kā arī angļu, hindi, bengāļu un urdu valodā." },
+    { "q": "Vai varu automatizēt periodiskus rēķinus?", "a": "Jā. Izveido periodisku rēķinu abonēšanas maksām vai abonementiem, un Paper & Pen to izraksta un nosūta pēc grafika." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Nosūti savu pirmo rēķinu bez maksas",
+  "ctaSub": "Izveido bezmaksas darbvietu un izraksti rēķinu pirmajam klientam dažās minūtēs. Bez kartes, bez maksas uz visiem laikiem."
+}

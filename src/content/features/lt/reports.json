@@ -1,0 +1,35 @@
+{
+  "locale": "lt",
+  "slug": "reports",
+  "order": 8,
+  "title": "Ataskaitos",
+  "metaTitle": "Verslo ataskaitos ir analitika · Paper & Pen",
+  "metaDescription": "Skydeliai ir ataskaitos realiuoju laiku apie pardavimus, pinigus, pelną, mokesčius ir atsargas. Pereikite iki šaltinio, eksportuokite į Excel ar PDF, bet kokia valiuta.",
+  "keywords": "verslo ataskaitos, analitikos skydelis, pardavimų ataskaita, pelno nuostolių ataskaita, mokesčių ataskaita, finansinės ataskaitos, eksportas į excel",
+  "heroEyebrow": "Papildomas modulis",
+  "heroTitle": "Sprendimai, paremti <em class=\"text-copper-400 not-italic\">aktualiais skaičiais</em>",
+  "heroSubtitle": "Kiekvienas pardavimas, mokėjimas ir judėjimas realiuoju laiku sudedamas į aiškius skydelius ir ataskaitas. Matykite, kas parduodama, kas jums skolingas ir kur jūsų pelnas, tada eksportuokite bet kur.",
+  "heroBullets": ["Skydeliai realiuoju laiku", "Perėjimas iki šaltinio dokumento", "Eksportas į Excel ar PDF"],
+  "features": [
+    { "icon": "reports", "title": "Pardavimų analitika", "desc": "Matykite populiariausias prekes, geriausius klientus ir tendencijas bet kuriuo laikotarpiu." },
+    { "icon": "chart", "title": "Finansinės ataskaitos", "desc": "Pelno (nuostolių) ataskaita, balansas, pinigų srautai ir gautinų sumų senėjimas." },
+    { "icon": "calc", "title": "Mokesčių ataskaitos", "desc": "Pirkimo ir pardavimo PVM suvestinės, paruoštos jūsų PVM deklaracijai." },
+    { "icon": "inventory", "title": "Atsargų ataskaitos", "desc": "Vertinimo, judėjimo ir mažų atsargų ataskaitos visuose sandėliuose." },
+    { "icon": "doc", "title": "Perėjimas iki šaltinio", "desc": "Spustelėkite bet kurį skaičių ir atsekite jį iki konkretaus dokumento." },
+    { "icon": "refresh", "title": "Visada aktualu", "desc": "Ataskaitos atsinaujina realiuoju laiku vykstant operacijoms, be naktinio apdorojimo." }
+  ],
+  "sections": [
+    { "eyebrow": "Aiškumas iš pirmo žvilgsnio", "title": "Vienas skydelis visam verslui", "body": "Atidarykite Paper & Pen ir matykite svarbiausius skaičius: pinigus banke, kas jums skolingas, kas parduodama ir šio mėnesio pelną. Kadangi viskas įrašoma realiuoju laiku, skydelis rodo tiesą, o ne praėjusios savaitės nuotrauką.", "items": ["Pinigai, skolininkai ir pelnas pirmoje vietoje", "Filtrai pagal laikotarpį, klientą ar prekę", "Aktualu, niekada nepasenę"] },
+    { "eyebrow": "Dalykitės ir gilinkitės", "title": "Ataskaitos, kuriomis pasitikės buhalteris ir valdyba", "body": "Iš bet kurios ataskaitos pereikite tiesiai prie šaltinio dokumento, tada eksportuokite į Excel ar PDF buhalteriui, bankui ar valdybai. Teikite ataskaitas bet kokia valiuta ir perjunkite sąsają į arabų, anglų, hindi, bengalų ar urdu kalbą, kad visi skaitytų tuos pačius skaičius savo kalba.", "items": ["Perėjimas iki kiekvienos operacijos", "Eksportas į Excel ir PDF", "Daug valiutų ir daug kalbų"] }
+  ],
+  "faqs": [
+    { "q": "Ar ataskaitos nemokamos?", "a": "Ataskaitos yra pasirenkamas mokamas priedas. Nemokamas visam laikui pagrindas apima sąskaitų skydelius, o pilnas ataskaitų rinkinys prieinamas, kai reikia gilesnės analitikos." },
+    { "q": "Ar ataskaitos rodomos realiuoju laiku?", "a": "Taip. Kiekviena operacija įrašoma iš karto, todėl skydeliai ir ataskaitos visada atspindi dabartinę jūsų verslo padėtį." },
+    { "q": "Ar galiu eksportuoti ataskaitas?", "a": "Taip. Eksportuokite į Excel ar PDF ir pasidalykite su buhalteriu, banku ar valdyba." },
+    { "q": "Ar galiu atsekti skaičių iki šaltinio?", "a": "Taip. Spustelėkite bet kurį skaičių ir pereikite iki konkrečios sąskaitos, mokėjimo ar žurnalo įrašo." },
+    { "q": "Ar ataskaitos palaiko kelias valiutas?", "a": "Taip. Teikite ataskaitas bet kokia valiuta ir naudokite sąsają penkiomis kalbomis." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Matykite savo verslą aiškiai",
+  "ctaSub": "Pradėkite nemokamai nuo sąskaitų ir pridėkite Ataskaitas, kad turėtumėte skydelius realiuoju laiku ir eksportui paruoštą analitiką."
+}

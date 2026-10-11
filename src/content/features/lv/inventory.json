@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Noliktava",
+  "metaTitle": "Noliktavas uzskaites programma · Paper & Pen",
+  "metaDescription": "Seko krājumiem vairākās noliktavās reāllaikā ar brīdinājumiem par zemiem atlikumiem, partijām, svītrkodiem un vērtību, kas grāmatojas uzskaitē. Visā pasaulē.",
+  "keywords": "noliktavas uzskaite, noliktavas programma, krājumu uzskaite, krājumu kontrole, svītrkodu uzskaite, krājumu novērtēšana, vairākas noliktavas",
+  "heroEyebrow": "Papildmodulis",
+  "heroTitle": "Krājumi, kam var <em class=\"text-copper-400 not-italic\">uzticēties</em>, reāllaikā",
+  "heroSubtitle": "Zini precīzi, kas tev ir, kur tas atrodas un cik tas ir vērts. Noliktava atjaunojas tajā brīdī, kad izraksti rēķinu vai saņem preces, tāpēc skaitļi vienmēr ir aktuāli.",
+  "heroBullets": ["Krājumi reāllaikā visās noliktavās", "Brīdinājumi par zemiem atlikumiem un pasūtīšanu", "Vērtība grāmatojas uzskaitē"],
+  "features": [
+    { "icon": "inventory", "title": "Krājumi reāllaikā", "desc": "Daudzumi atjaunojas tajā brīdī, kad pārdod, iepērc vai pārvieto preces." },
+    { "icon": "truck", "title": "Vairākas noliktavas", "desc": "Seko krājumiem un pārvieto tos starp vietām un filiālēm ar pilnu pārskatu." },
+    { "icon": "bell", "title": "Zemu atlikumu brīdinājumi", "desc": "Nosaki pasūtīšanas līmeņus un saņem brīdinājumu, pirms beidzas pieprasīta prece." },
+    { "icon": "receipt", "title": "Svītrkodi un SKU", "desc": "Skenē, lai inventarizētu vai pārvietotu krājumus, ar kārtību pēc SKU, partijas un mērvienības." },
+    { "icon": "calc", "title": "Vērtība reāllaikā", "desc": "Vidējās izmaksas vai FIFO metode uztur precīzu krājumu vērtību tavā bilancē." },
+    { "icon": "refresh", "title": "Saistīta ar pārdošanu", "desc": "Rēķini un pirkuma pasūtījumi kustina krājumus automātiski, bez manuāliem labojumiem." }
+  ],
+  "sections": [
+    { "eyebrow": "Vienmēr precīzi", "title": "Noliktava, kas atjaunojas pati", "body": "Manuāla krājumu skaitīšana noveco jau pēc pirmā pārdevuma. Paper & Pen katrs rēķins, pirkums un pārvietošana koriģē krājumus un izmaksas reāllaikā, tāpēc skaitlis ekrānā ir tas pats, kas plauktā. Nosaki pasūtīšanas līmeņus, un sistēma pateiks, kad jāiepērk.", "items": ["Automātiska korekcija katrā darījumā", "Pasūtīšanas līmeņi un brīdinājumi", "Partiju, SKU un mērvienību uzskaite"] },
+    { "eyebrow": "Krājumi satiekas ar grāmatvedību", "title": "No plaukta līdz bilancei", "body": "Noliktava nav tikai kastu skaitīšana, tā ir īsta nauda tavā bilancē. Paper & Pen novērtē krājumus pēc vidējām izmaksām vai FIFO un automātiski grāmato kustības grāmatvedībā, tāpēc pārdoto preču pašizmaksa un krājumu vērtība vienmēr ir saskaņotas. Darbojas jebkurā valūtā jebkurā tirgū.", "items": ["Vidējās izmaksas vai FIFO", "Automātiska grāmatošana grāmatvedībā", "Iepirkumi vairākās valūtās"] }
+  ],
+  "faqs": [
+    { "q": "Vai noliktava ir iekļauta bez maksas?", "a": "Noliktava ir izvēles maksas papildmodulis. Pamata modulis Pārdošana un rēķini ir bez maksas uz visiem laikiem, un Noliktavu tu pievieno, kad vajag krājumu kontroli reāllaikā." },
+    { "q": "Vai varu pārvaldīt vairākas noliktavas?", "a": "Jā. Seko krājumiem katrā vietā, pārvieto tos starp vietām un redzi aktuālos daudzumus visur." },
+    { "q": "Vai tā atbalsta svītrkodus?", "a": "Jā. Skenē piegādātāja svītrkodu, SKU vai izdrukātu QR etiķeti, lai ātrāk inventarizētu un pārvietotu krājumus, ar partiju un mērvienību atbalstu." },
+    { "q": "Kā tiek novērtēti krājumi?", "a": "Izvēlies vidējās izmaksas vai FIFO. Vērtība atjaunojas ar katru kustību un automātiski grāmatojas tavā grāmatvedībā." },
+    { "q": "Vai pārdošana automātiski atjauno krājumus?", "a": "Jā. Rēķini samazina krājumus un pirkumi tos palielina reāllaikā, tāpēc daudzumi nekad nav jālabo ar roku." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Pārņem kontroli pār krājumiem",
+  "ctaSub": "Sāc bez maksas ar rēķiniem un pievieno Noliktavu, kad esi gatavs krājumiem reāllaikā visās vietās."
+}

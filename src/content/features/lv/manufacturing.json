@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Ražošana",
+  "metaTitle": "Ražošanas pārvaldības programma · Paper & Pen",
+  "metaDescription": "Plāno ražošanu ar materiālu specifikācijām, darba uzdevumiem un īstu izmaksu aprēķinu. Patērē izejvielas, ražo gatavo produkciju un zini savu īsto peļņas normu.",
+  "keywords": "ražošanas programma, ražošanas pārvaldība, materiālu specifikācija, bom, darba uzdevumi, ražošanas izmaksas, gatavā produkcija",
+  "heroEyebrow": "Papildmodulis",
+  "heroTitle": "Ražo pēc pasūtījuma, <em class=\"text-copper-400 not-italic\">rēķini līdz pēdējam riālam</em>",
+  "heroSubtitle": "Pārvērt izejvielas gatavā produkcijā ar materiālu specifikācijām un darba uzdevumiem, kamēr Paper & Pen seko katras sastāvdaļas izmaksām, lai tu vienmēr zinātu savu īsto peļņas normu.",
+  "heroBullets": ["Materiālu specifikācijas un darba uzdevumi", "Automātisks krājumu patēriņš", "Īstas ražošanas izmaksas"],
+  "features": [
+    { "icon": "manufacturing", "title": "Materiālu specifikācijas", "desc": "Nosaki, kas ietilpst katrā produktā, ar daudzumiem un apakšmezgliem." },
+    { "icon": "doc", "title": "Darba uzdevumi", "desc": "Plāno un seko ražošanas partijām no izejvielām līdz gatavajai produkcijai." },
+    { "icon": "inventory", "title": "Automātiskas krājumu kustības", "desc": "Ražošanas gaitā izejvielas tiek patērētas un gatavā produkcija pievienota." },
+    { "icon": "calc", "title": "Ražošanas izmaksas", "desc": "Apkopo materiālu un pieskaitāmās izmaksas precīzā gatavās produkcijas vērtībā." },
+    { "icon": "chart", "title": "Peļņas normas pārskats", "desc": "Salīdzini ražošanas izmaksas ar pārdošanas cenu un redzi īsto peļņas normu katrai precei." },
+    { "icon": "refresh", "title": "Saistīts no sākuma līdz beigām", "desc": "Savieno iepirkumus, noliktavu un pārdošanu vienā nepārtrauktā plūsmā." }
+  ],
+  "sections": [
+    { "eyebrow": "Plāno ar pārliecību", "title": "No receptes līdz gatavai produkcijai", "body": "Nosaki materiālu specifikāciju vienreiz, un Paper & Pen precīzi zina, ko patērē katra ražošanas reize. Izveido darba uzdevumu, un izejvielas tiek rezervētas un patērētas, bet gatavā produkcija pievienota noliktavai, un visu izmaksu aprēķinu sistēma veic tavā vietā.", "items": ["Atkārtoti izmantojamas materiālu specifikācijas", "Darba uzdevumi ar krājumu rezervēšanu", "Automātisks patēriņš un gatavās produkcijas pieņemšana"] },
+    { "eyebrow": "Zini savu īsto peļņas normu", "title": "Izmaksu aprēķins, kas saka patiesību", "body": "Minēt izmaksas nozīmē minēt peļņu. Paper & Pen apvieno materiālu un pieskaitāmās izmaksas īstā gatavās produkcijas pašizmaksā, grāmato to tavās grāmatās un parāda peļņas normu katram pārdevumam. Darbojas jebkurā valūtā, tāpēc vari iepirkt un pārdot pāri robežām.", "items": ["Materiālu un pieskaitāmo izmaksu aprēķins", "Automātiska grāmatošana grāmatvedībā", "Peļņas norma katram produktam un pasūtījumam"] }
+  ],
+  "faqs": [
+    { "q": "Vai ražošana ir bez maksas?", "a": "Ražošana ir izvēles maksas papildmodulis. Pamata modulis Pārdošana un rēķini ir bez maksas uz visiem laikiem, un Ražošanu tu pievieno, kad ražo preces." },
+    { "q": "Vai varu veidot materiālu specifikācijas?", "a": "Jā. Izveido BOM katram produktam, ieskaitot apakšmezglus, un izmanto to atkārtoti katrā ražošanas reizē." },
+    { "q": "Vai tā automātiski patērē krājumus?", "a": "Jā. Kad apstrādā darba uzdevumu, izejvielas tiek patērētas un gatavā produkcija automātiski pievienota noliktavai." },
+    { "q": "Kā tiek aprēķinātas ražošanas izmaksas?", "a": "Materiālu un pieskaitāmās izmaksas tiek apkopotas gatavās produkcijas vērtībā, kas grāmatojas grāmatvedībā, tāpēc tavas peļņas normas ir precīzas." },
+    { "q": "Vai tā darbojas jebkurā valūtā?", "a": "Jā. Iepērc materiālus un pārdod gatavo produkciju jebkurā valūtā, ar saskaņotu izmaksu aprēķinu un grāmatvedību." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Aprēķini katras ražošanas izmaksas precīzi",
+  "ctaSub": "Sāc bez maksas ar rēķiniem un pievieno Ražošanu, lai plānotu ražošanu un zinātu savu īsto peļņas normu."
+}

@@ -1,0 +1,159 @@
+{
+  "locale": "lv",
+  "slug": "oman",
+  "order": 1,
+  "country": "Omāna",
+  "title": "PVN Omānā",
+  "metaTitle": "PVN Omānā: likme, sliekšņi, rēķini · Paper & Pen",
+  "metaDescription": "Omānas 5% PVN likme, OMR 38,500 reģistrācijas slieksnis un divpadsmit lietas, kas jānorāda nodokļu rēķinā, katra ar atsauci uz Oman Tax Authority.",
+  "keywords": "pvn omānā, omānas pvn likme, omānas pvn reģistrācijas slieksnis, omānas nodokļu rēķina prasības, fawtara e-rēķini, oman tax authority",
+  "heroEyebrow": "Omāna",
+  "heroTitle": "Rēķini saskaņā ar <em class=\"text-copper-400 not-italic\">Omānas PVN</em> noteikumiem",
+  "heroSubtitle": "Likme, reģistrācijas sliekšņi, kas jānorāda nodokļu rēķinā un kāds ir e-rēķinu statuss. Katram skaitlim šajā lapā ir atsauce uz paša Oman Tax Authority publicēto tekstu.",
+  "heroBullets": [
+    "5% standarta likme",
+    "Reģistrācija no OMR 38,500",
+    "Fawtara izziņota, vēl nedarbojas"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Standarta PVN likme",
+      "value": "5%",
+      "note": "PVN likuma 36. pants nosaka nodokli ar nodokli apliekamu preču vai pakalpojumu importam un piegādei piecu procentu apmērā no apliekamās vērtības.",
+      "source": 1
+    },
+    {
+      "label": "Obligātās reģistrācijas slieksnis",
+      "value": "OMR 38,500",
+      "note": "Ja gada piegādes sasniedz šo summu vai pārsniedz to, reģistrācija ir obligāta. Likums nenosaka šo skaitli pats, bet atstāj to priekšsēdētāja lēmumam.",
+      "source": 2
+    },
+    {
+      "label": "Brīvprātīgās reģistrācijas slieksnis",
+      "value": "OMR 19,250",
+      "note": "No šī līmeņa vari reģistrēties arī zem obligātā sliekšņa.",
+      "source": 2
+    },
+    {
+      "label": "Rēķina valoda",
+      "value": "Arābu",
+      "note": "Rēķinu var izrakstīt arī angļu valodā, ja pēc pieprasījuma ir pieejams tulkojums arābu valodā.",
+      "source": 3
+    },
+    {
+      "label": "Vienkāršotā rēķina robeža",
+      "value": "OMR 500",
+      "note": "Piegādēm, kuru vērtība ir zem šīs summas, ar Tax Authority apstiprinājumu var izmantot vienkāršotu rēķinu.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Izpildes noteikumu 145. pants uzskaita, kas jānorāda nodokļu rēķinā. Pants ievada sarakstu ar vārdiem \"jo īpaši\", tāpēc uztver to kā minimumu, nevis pilnu sarakstu.",
+    "items": [
+      "Vārdi \"Nodokļu rēķins\" (Tax Invoice)",
+      "Izrakstīšanas datums, piegādes datums un apmaksas datums",
+      "Secīgs rēķina numurs",
+      "Piegādātāja pilns nosaukums, adrese un nodokļu maksātāja identifikācijas numurs",
+      "Klienta pilns nosaukums, adrese un nodokļu maksātāja identifikācijas numurs vai tā ekvivalents viņa rezidences valstī",
+      "Piegādāto preču un pakalpojumu apraksts",
+      "Preču daudzums",
+      "Jebkura avansa maksājuma datums",
+      "Kopējā atlīdzība bez nodokļa",
+      "Piemērotā nodokļa likme",
+      "Jebkura piešķirtā cenas samazinājuma vai atlaides summa un jebkura valsts subsīdija, kas vēl nav iekļauta",
+      "Apliekamā vērtība"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority publicē izpildes noteikumus tikai arābu valodā. Šis saraksts ir precīzs oficiālā arābu teksta lasījums, nevis oficiāls tulkojums angļu valodā, tāpēc pirms paļaušanās uz to pārbaudi formulējumu ar savu nodokļu konsultantu."
+  },
+  "einvoicing": {
+    "status": "Izziņoti un ieviešami pa posmiem, vēl nav obligāti",
+    "body": "Omānas e-rēķinu programmu sauc Fawtara. Tax Authority apraksta piecu stūru modeli, kurā rēķini to sasniedz caur akreditētu pakalpojumu sniedzēju, un nosaka četrus posmus: pilotprojektu, paplašināšanu, mazāku uzņēmumu pievienošanu un pilnu ieviešanu. Iestāde nav publicējusi posmu datumus angļu valodā, un presē minētie datumi nav atrodami tās pašas lapās. Uztver jebkuru konkrētu Fawtara termiņu, ko lasi citur, kā neapstiprinātu, līdz Tax Authority to publicē.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Kā izdarīt pareizi",
+      "title": "Kur Omānā uzņēmumi visbiežāk kļūdās",
+      "body": "Trīs lietas izraisa lielāko daļu PVN rēķinu problēmu šeit. Pirmā ir klienta nodokļu maksātāja identifikācijas numurs: ja to neiekļauj, tavs klients var nevarēt atgūt priekšnodokli, un tad tavs rēķins kļūst par viņa izmaksām un tavu problēmu. Otrā ir rēķinu secība. 145. pants prasa secīgu numuru, un ātrākais veids, kā to sabojāt, ir izdzēst vai pārnumurēt jau nosūtītu rēķinu. Tā vietā labo to ar kredītrēķinu. Trešā ir valoda: rēķinam jābūt arābu valodā, un, ja izraksti tikai angļu valodā bez arābu versijas, kas pieejama pēc pieprasījuma, tu esi pakļauts riskam.",
+      "items": [
+        "Iegūsti klienta TIN pirms izrakstīšanas, nevis pēc tam",
+        "Nekad neizdzēs izrakstītu rēķinu, kreditē to",
+        "Turi arābu versiju pieejamu pēc pieprasījuma",
+        "Reģistrē piegādes datumu atsevišķi no izrakstīšanas datuma"
+      ]
+    },
+    {
+      "eyebrow": "Sagatavošanās",
+      "title": "Gatavošanās Fawtara, neminot datumus",
+      "body": "Lai būtu gatavs, publicēts termiņš nav vajadzīgs. Katra reģionā ieviestā e-rēķinu sistēma ir prasījusi vienu un to pašu pamata disciplīnu: tīrus, pilnīgus klientu ierakstus ar nodokļu numuriem, nepārtrauktu rēķinu secību, nodokļa piemērošanu katrai rindai, nevis visam rēķinam, un dokumentus, kas glabāti tā, lai tos varētu atrast pēc pieprasījuma. Uzņēmumam, kura ieraksti jau atbilst šiem četriem nosacījumiem, ieviešana būs īsa, lai kad arī datumi tiktu noteikti. Uzņēmums, kuram tā nav, paziņošanas periodu pavadīs, tīrot datus.",
+      "items": [
+        "Pilnīgi klientu ieraksti, ieskaitot nodokļu numurus",
+        "Viena nepārtraukta rēķinu secība katrai sērijai",
+        "Nodokļa piemērošana reģistrēta pa rindām",
+        "Dokumenti atrodami pēc pieprasījuma"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kāda ir PVN likme Omānā?",
+      "a": "Pieci procenti. PVN likuma, kas izsludināts ar Royal Decree 121/2020, 36. pants nosaka nodokli ar nodokli apliekamu preču vai pakalpojumu importam un piegādei piecu procentu apmērā no apliekamās vērtības. Dažām piegādēm piemēro nulles likmi, citas ir atbrīvotas, un tās ir dažādas lietas: piegādātājs ar nulles likmi joprojām var atgūt priekšnodokli, atbrīvots piegādātājs nevar."
+    },
+    {
+      "q": "Kad man jāreģistrējas PVN maksātāju reģistrā Omānā?",
+      "a": "Kad tavas gada piegādes sasniedz vai, kā sagaidāms, sasniegs OMR 38,500. Brīvprātīgi vari reģistrēties no OMR 19,250. Abi skaitļi nāk no priekšsēdētāja lēmuma par reģistrācijas sliekšņiem, nevis no paša PVN likuma, tāpēc tie var mainīties, nemainot likumu."
+    },
+    {
+      "q": "Vai e-rēķini Omānā jau ir obligāti?",
+      "a": "Vēl nē. Tax Authority ir izziņojusi Fawtara, pakāpeniski ieviešamu piecu stūru e-rēķinu modeli ar akreditētiem pakalpojumu sniedzējiem, un apraksta četrus ieviešanas posmus. Posmu datumus angļu valodā savās lapās tā nav publicējusi, tāpēc mēs šeit datumu nenorādām. Pašreizējo situāciju pārbaudi Tax Authority e-rēķinu lapās."
+    },
+    {
+      "q": "Vai Omānā varu izrakstīt rēķinu angļu valodā?",
+      "a": "Vari izrakstīt angļu valodā, bet izpildes noteikumi prasa, lai nodokļu rēķins būtu arābu valodā, un papildus atļauj citu valodu, ja pēc pieprasījuma ir pieejams tulkojums arābu valodā. Praksē tas nozīmē turēt divvalodu veidni, nevis tikai angļu."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Izraksti rēķinus Omānā pareizi un bez maksas",
+  "ctaSub": "Iestati savu nodokļa likmi, izraksti rēķinus jebkurā valūtā un turi rēķinu arābu un angļu valodā no viena un tā paša ieraksta.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, 36. pants",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Chairman's Decision par obligātās un brīvprātīgās reģistrācijas sliekšņu noteikšanu",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Decision 53/2021, 145.–148. pants",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "E-rēķinu (Fawtara) programmas lapas",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

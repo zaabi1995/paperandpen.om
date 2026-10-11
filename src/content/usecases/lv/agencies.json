@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "agencies",
+  "order": 2,
+  "title": "Aģentūras",
+  "metaTitle": "Rēķini un klientu norēķini aģentūrām | Paper & Pen",
+  "metaDescription": "Bezmaksas rēķini, abonēšanas maksas, projektu piedāvājumi, izdevumi un klientu CRM mārketinga, dizaina un digitālajām aģentūrām. Izraksti rēķinus visā pasaulē.",
+  "keywords": "rēķini aģentūrām, aģentūras norēķinu programma, abonēšanas maksas rēķini, klientu crm, projektu piedāvājumi, erp mārketinga aģentūrai, aģentūras izdevumu uzskaite",
+  "heroEyebrow": "Aģentūrām un studijām",
+  "heroTitle": "Izraksti rēķinus katram klientam kārtīgi un <em class=\"text-copper-400 not-italic\">laikā</em>",
+  "heroSubtitle": "Sūti projektu piedāvājumus, ļauj ikmēneša abonēšanas maksām darboties automātiski un glabā katru klientu un maksājumu vienuviet. Paper & Pen dod tavai aģentūrai kārtīgu biroja aizmuguri bez lielo uzņēmumu cenas.",
+  "heroBullets": ["Bezmaksas piedāvājumi un rēķini", "Abonēšanas maksas automātiski", "Klientu CRM un maksājumu uzskaite"],
+  "features": [
+    { "icon": "quote", "title": "Projektu piedāvājumi", "desc": "Sūti detalizētus piedāvājumus un uzreiz pārvērt apstiprināto rēķinā." },
+    { "icon": "refresh", "title": "Abonēšanas maksu rēķini", "desc": "Ieliec ikmēneša abonēšanas maksas periodiskos rēķinos, lai ieņēmumi nekad nepaslīdētu garām." },
+    { "icon": "users", "title": "Klientu CRM", "desc": "Glabā katru klientu, kontaktu un dokumentu vienā sakārtotā vietā." },
+    { "icon": "card", "title": "Maksājumi tiešsaistē", "desc": "Pievieno apmaksas saiti, lai klienti samaksātu rēķinus ar karti dažās sekundēs." },
+    { "icon": "doc", "title": "Izdevumu uzskaite", "desc": "Reģistrē klientam pārrēķināmās izmaksas un piegādātāju rēķinus, tad nodod tos klientam." },
+    { "icon": "bell", "title": "Automātiski atgādinājumi", "desc": "Pieklājīgi atgādinājumi atgādina par kavētiem rēķiniem, lai komanda varētu nodoties radošajam darbam." }
+  ],
+  "sections": [
+    { "eyebrow": "No piedāvājuma līdz samaksai", "title": "Piedāvājumi, abonēšanas maksas un rēķini vienā plūsmā", "body": "Nosūti precīzu, detalizētu piedāvājumu, iegūsti darbu un pārvērt apstiprināto piedāvājumu rēķinā bez atkārtotas ievades. Ieliec abonēšanas maksas periodiskos rēķinos, lai ikmēneša klientiem rēķini tiktu izrakstīti paši, un pievieno apmaksas saites, lai viņi samaksātu tiešsaistē tajā pašā dienā, kad atver e-pastu. Tavi klientu vadītāji paliek pie klientu darba, kamēr norēķini notiek fonā.", "items": ["Detalizēti piedāvājumi, kas pārvēršas rēķinos", "Periodiski abonēšanas maksu rēķini", "Tiešsaistes apmaksas saites un automātiski atgādinājumi"] },
+    { "eyebrow": "Viena kārtīga biroja aizmugure", "title": "Katrs klients, izmaksa un maksājums kārtībā", "body": "Glabā klientus, kontaktus, piedāvājumus, rēķinus un klientam pārrēķināmos izdevumus vienā darbvietā ar CRM, kas vienā skatienā parāda visu vēsturi. Izraksti rēķinus klientiem jebkur un jebkurā valūtā, piemēro jebkuru nodokļa likmi un pievieno Grāmatvedību, kad vēlies pilnas grāmatas. Radīts Omānā ar iebūvētiem OMR, AED un SAR un 5% PVN, un tikpat ērts klientu apkalpošanai USD, EUR vai GBP.", "items": ["Klientu CRM ar pilnu vēsturi", "Pārrēķināmie izdevumi nodoti klientiem", "Jebkura valūta un nodokļa likme, gatavs Grāmatvedībai"] }
+  ],
+  "faqs": [
+    { "q": "Vai varu izrakstīt abonēšanas maksu rēķinus automātiski?", "a": "Jā. Iestati periodiskus rēķinus ikmēneša abonēšanas maksām, lai tie tiktu izrakstīti paši pēc grafika, ar automātiskiem atgādinājumiem par visu kavēto." },
+    { "q": "Vai varu pārvērst piedāvājumu rēķinā?", "a": "Jā. Nosūti detalizētu piedāvājumu, un, kad klients to apstiprina, pārvērt to rēķinā ar vienu klikšķi bez pārrakstīšanas." },
+    { "q": "Vai tā glabā klienta vēsturi?", "a": "Jā. Iebūvētā CRM glabā katru klientu, kontaktu, piedāvājumu, rēķinu un dokumentu kopā, tāpēc vienā skatienā redzi visas attiecības." },
+    { "q": "Vai varu pārrēķināt izdevumus klientiem?", "a": "Jā. Reģistrē piegādātāju rēķinus un pārrēķināmās izmaksas, tad pievieno tās klienta rēķinam, lai nekas nepaslīdētu garām." },
+    { "q": "Vai mazai aģentūrai tas ir bez maksas?", "a": "Pārdošana un rēķini, ieskaitot piedāvājumus, rēķinus un CRM, ir bez maksas uz visiem laikiem. Pievieno Grāmatvedību, Noliktavu vai Personālu un algas tikai tad, ja tavai aģentūrai tie vajadzīgi." }
+  ],
+  "related": ["/features/sales-crm", "/invoicing/recurring-invoices", "/invoicing/quotations", "/use-cases/freelancers", "/pricing"],
+  "ctaTitle": "Dod savai aģentūrai kārtīgu biroja aizmuguri",
+  "ctaSub": "Sāc bez maksas ar piedāvājumiem, abonēšanas maksām un klientu CRM, tad pievieno Grāmatvedību, kad esi gatavs pilnām grāmatām."
+}

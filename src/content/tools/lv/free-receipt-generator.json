@@ -1,0 +1,37 @@
+{
+  "locale": "lv",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Bezmaksas kvīšu ģenerators",
+  "metaTitle": "Bezmaksas kvīšu ģenerators tiešsaistē · Paper & Pen",
+  "metaDescription": "Izveido maksājumu kvītis tiešsaistē bez maksas. Ievadi summu, valūtu un maksājuma veidu un dažās sekundēs lejupielādē drukai gatavu PDF. Bez reģistrācijas.",
+  "keywords": "bezmaksas kvīšu ģenerators, maksājuma kvīts sagatave, izveidot kvīti tiešsaistē, kvīts veidne bez maksas, lejupielādēt kvīti pdf, skaidras naudas kvīts",
+  "heroEyebrow": "Bez maksas · Bez reģistrācijas",
+  "heroTitle": "Bezmaksas kvīšu ģenerators",
+  "heroSubtitle": "Izsniedz katram klientam tīru maksājuma kvīti dažās sekundēs. Ievadi summu, valūtu un maksājuma veidu, tad lejupielādē drukai gatavu PDF. Konts nav vajadzīgs.",
+  "howToSteps": [
+    { "name": "Ievadi savus datus", "text": "Ievadi uzņēmuma nosaukumu, maksātāju, kvīts numuru un datumu." },
+    { "name": "Ievadi maksājumu", "text": "Norādi, par ko ir maksājums, summu un veidu (skaidra nauda, karte, pārskaitījums)." },
+    { "name": "Iestati valūtu un nodokli", "text": "Izvēlies jebkuru valūtu un, ja vajag, parādi PVN vai tirdzniecības nodokļa daļu." },
+    { "name": "Lejupielādē PDF", "text": "Noklikšķini uz lejupielādes, lai saglabātu drukai gatavu kvīti, vai reģistrējies, lai kvītis tiktu izsniegtas automātiski pie taviem rēķiniem." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Uzreiz un bez maksas", "desc": "Bez reģistrācijas, bez ūdenszīmes, bez ierobežojumiem. Izsniedz tik kvīšu, cik vajag." },
+    { "icon": "globe", "title": "Jebkura valūta", "desc": "Kvītis OMR, AED, SAR, USD, EUR, GBP un citās valūtās ar pareizām decimāldaļām." },
+    { "icon": "card", "title": "Jebkurš maksājuma veids", "desc": "Reģistrē skaidru naudu, karti, bankas pārskaitījumu vai tiešsaistes maksājumu, skaidri parādītu kvītī." }
+  ],
+  "sections": [
+    { "title": "Kāpēc izmantot Paper & Pen kvīšu ģeneratoru?", "body": "Kvīts ir tava klienta maksājuma apliecinājums un tavs ieraksts, ka rēķins ir apmaksāts. Mūsējais ir bez maksas, darbojas jebkurā valūtā un izveido tīru PDF, ko vari uzreiz izsniegt vai nosūtīt pa e-pastu. Bez izklājlapām, bez reģistrācijas." },
+    { "eyebrow": "Vairāk nekā ģenerators", "title": "Kvītis, kas saistītas ar taviem rēķiniem", "body": "Atsevišķa kvīts der vienreizējam gadījumam, bet augošam uzņēmumam vajag kvītis, kas saistītas ar rēķiniem un pastāvīgu virsgrāmatu. Pilnajā Paper & Pen ERP maksājuma reģistrēšana vienlaikus izveido kvīti un atjauno rēķina atlikumu un tavas grāmatas.", "items": ["Automātiski izveido kvīti, kad rēķins ir apmaksāts", "Seko pilniem, daļējiem un sadalītiem maksājumiem", "Uzreiz sūti kvītis pa WhatsApp vai e-pastu"] }
+  ],
+  "faqs": [
+    { "q": "Kāda ir atšķirība starp rēķinu un kvīti?", "a": "Rēķins pieprasa samaksu, pirms tā veikta. Kvīts pēc tam apstiprina, ka maksājums saņemts. Šeit vari izveidot abus bez maksas." },
+    { "q": "Vai kvīšu ģenerators tiešām ir bez maksas?", "a": "Jā. Tas ir pilnībā bez maksas, bez reģistrācijas, bez ūdenszīmes un bez ierobežojuma izveidoto kvīšu skaitam." },
+    { "q": "Vai kvītī var parādīt PVN vai nodokli?", "a": "Jā. Iestati jebkuru nodokļa likmi, un kvīts parādīs samaksātās summas nodokļa daļu, kur tas vajadzīgs." },
+    { "q": "Vai kvītis var sasaistīt ar maniem rēķiniem?", "a": "Lejupielādē atsevišķas kvītis bez maksas vai izveido bezmaksas Paper & Pen darbvietu, kur katrs pie rēķina reģistrēts maksājums automātiski izveido saistītu kvīti." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Maksājuma apliecinājums, sakārtots",
+  "ctaSub": "Automātiski veido kvītis, seko katram maksājumam un uzturi virsgrāmatu aktuālu ar bezmaksas Paper & Pen darbvietu."
+}

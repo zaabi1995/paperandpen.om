@@ -1,0 +1,152 @@
+{
+  "locale": "lt",
+  "slug": "uae",
+  "order": 2,
+  "country": "Jungtiniai Arabų Emyratai",
+  "title": "PVM JAE",
+  "metaTitle": "PVM JAE: tarifas, ribos, e. sąskaitos · Paper & Pen",
+  "metaDescription": "JAE 5 % PVM tarifas, AED 375,000 riba, 59 straipsnio sąskaitos turinys ir patvirtintas e. sąskaitų tvarkaraštis, kiekvienas su nuoroda į šaltinį.",
+  "keywords": "pvm jae, jae pvm tarifas, jae pvm registracijos riba, jae pvm sąskaitos faktūros reikalavimai, jae e. sąskaitos 2027, federal tax authority",
+  "heroEyebrow": "Jungtiniai Arabų Emyratai",
+  "heroTitle": "Sąskaitų išrašymas pagal <em class=\"text-copper-400 not-italic\">JAE PVM</em> taisykles",
+  "heroSubtitle": "Tarifas, ribos, dvylika elementų, kuriuos 59 straipsnis reikalauja PVM sąskaitoje faktūroje, ir e. sąskaitų datos, kurias Ministry of Finance iš tikrųjų paskelbė.",
+  "heroBullets": [
+    "5 % standartinis tarifas",
+    "Registracija nuo AED 375,000",
+    "E. sąskaitos etapais nuo 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Standartinis PVM tarifas",
+      "value": "5 %",
+      "note": "Federal Decree-Law 8 of 2017 3 straipsnis nustato 5 % standartinį tarifą bet kokiam tiekimui ar importui. Galioja nuo 2018 m. sausio 1 d.",
+      "source": 1
+    },
+    {
+      "label": "Privalomos registracijos riba",
+      "value": "AED 375,000",
+      "note": "Executive Regulation 7 straipsnio 1 dalis.",
+      "source": 2
+    },
+    {
+      "label": "Savanoriškos registracijos riba",
+      "value": "AED 187,500",
+      "note": "Executive Regulation 8 straipsnio 1 dalis.",
+      "source": 2
+    },
+    {
+      "label": "Supaprastintos sąskaitos riba",
+      "value": "AED 10,000",
+      "note": "Supaprastinta PVM sąskaita leidžiama, kai gavėjas neįregistruotas arba yra įregistruotas, o atlygis neviršija šios sumos.",
+      "source": 2
+    },
+    {
+      "label": "Valiuta sąskaitoje",
+      "value": "AED",
+      "note": "Mokesčių sumos rodomos dirhamais, o jei sąskaita išrašyta kita valiuta, turi būti nurodytas taikytas valiutos kursas.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Executive Regulation 59 straipsnio 1 dalis išvardija, ką turi turėti pilna PVM sąskaita faktūra.",
+    "items": [
+      "Aiškiai matomi žodžiai „PVM sąskaita faktūra“",
+      "Tiekėjo pavadinimas, adresas ir mokesčių registracijos numeris",
+      "Gavėjo pavadinimas, adresas ir TRN, jei gavėjas įregistruotas",
+      "Eilės tvarka einantis arba unikalus numeris, leidžiantis sąskaitą identifikuoti ir surikiuoti",
+      "Išrašymo data",
+      "Tiekimo data, jei ji skiriasi nuo išrašymo datos",
+      "Prekių ar paslaugų aprašymas",
+      "Kiekvienai prekei: vieneto kaina, kiekis ar apimtis, mokesčio tarifas ir mokėtina suma AED",
+      "Bet kokios pasiūlytos nuolaidos suma",
+      "Bendra mokėtina suma AED",
+      "Apskaičiuoto mokesčio suma AED, su valiutos kursu, jei perskaičiuota iš kitos valiutos",
+      "Atvirkštinio apmokestinimo tiekimui nuoroda, kad mokestį turi apskaityti gavėjas, ir taikoma nuostata"
+    ],
+    "source": 2,
+    "caveat": "Tai Federal Tax Authority konsoliduota Executive Regulation publikacija, datuota 2024 m. spalio 4 d. Komentatoriai mini vėlesnį pakeitimą; FTA paskelbtame tekste jo neradome, todėl prieš remdamiesi pasitikrinkite dabartines formuluotes su FTA."
+  },
+  "einvoicing": {
+    "status": "Privaloma ir diegiama etapais, bandomasis etapas atidarytas",
+    "body": "JAE e. sąskaitų sistema yra decentralizuotas penkių kampų modelis, kuriame sąskaitos keliauja per akredituotus paslaugų teikėjus (Accredited Service Providers). Tvarkaraštį nustato pačios Ministry of Finance gairės: bandomoji programa ir savanoriškas prisijungimas nuo 2026 m. liepos 1 d.; įmonės, kurių pajamos siekia AED 50 milijonų ar daugiau, diegia nuo 2027 m. sausio 1 d.; žemiau šios ribos esančios įmonės nuo 2027 m. liepos 1 d.; valstybės institucijos nuo 2027 m. spalio 1 d. Ministerija pirmąjį akredituoto paslaugų teikėjo paskyrimo terminą pratęsė nuo 2026 m. liepos 31 d. iki 2026 m. spalio 30 d., nekeisdama 2027 m. sausio paleidimo, todėl paskelbtas gairių PDF ir ministerijos pranešimas spaudai dėl šios vienos datos nesutampa, o pranešimas spaudai yra vėlesnis žodis.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Kad būtų teisingai",
+      "title": "Kur 59 straipsnis dažniausiai pagauna",
+      "body": "Daugumai sąskaitų šablonų nepavyksta įvykdyti reikalavimo kiekvienai eilutei. 59 straipsnio 1 dalies h punktas reikalauja kiekvienos prekės ar paslaugos vieneto kainos, kiekio, mokesčio tarifo ir mokėtinos sumos, todėl vienos bendros mokesčio sumos sąskaitos apačioje nepakanka, kai eilutėms taikomi skirtingi režimai. Antrasis yra gavėjo TRN, privalomas visada, kai gavėjas įregistruotas, o trečiasis yra valiutos kursas: išrašę sąskaitą doleriais, vis tiek turite parodyti mokestį dirhamais ir naudotą kursą.",
+      "items": [
+        "Mokesčio tarifas ir suma kiekvienai eilutei, ne tik bendra suma",
+        "Gavėjo TRN visada, kai jis įregistruotas",
+        "Valiutos kursas kiekvienoje ne AED sąskaitoje",
+        "Atvirkštinio apmokestinimo formuluotė, kai ji taikoma"
+      ]
+    },
+    {
+      "eyebrow": "Pasiruošimas",
+      "title": "Ko iš tikrųjų iš jūsų reikalauja 2027 m. datos",
+      "body": "Prievolė yra ne nusipirkti programą su logotipu, o gebėti išrašyti struktūrizuotą sąskaitą per akredituotą paslaugų teikėją jūsų pajamų grupei taikomą dieną. Skaičiuokite atgal nuo savo grupės diegimo datos, o ne nuo bandomojo etapo: paslaugų teikėjo paskyrimo terminas būna keliais mėnesiais anksčiau nei paleidimas, ir būtent paskyrimą, o ne paleidimą, praleidžia dauguma įmonių. Tuo tarpu jums reikės tų pačių duomenų, kurių 59 straipsnis reikalauja jau dabar, todėl verta pagerinti sąskaitų kokybę dabar, o ne per migraciją.",
+      "items": [
+        "Žinokite, kuriai pajamų grupei priklausote",
+        "Įsirašykite paslaugų teikėjo paskyrimo datą, ne tik paleidimą",
+        "Sutvarkykite klientų TRN prieš terminą, o ne jo metu",
+        "Jau nuo šiandien saugokite mokesčių duomenis kiekvienai eilutei"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Koks PVM tarifas JAE?",
+      "a": "Penki procentai. Federal Decree-Law 8 of 2017 3 straipsnis nustato 5 % standartinį tarifą bet kokiam apmokestinamam tiekimui ar importui, galiojantį nuo 2018 m. sausio 1 d. Kai kuriam tiekimui taikomas nulinis tarifas arba jis neapmokestinamas, ir skirtumas svarbus: nulinio tarifo tiekėjas vis tiek gali susigrąžinti pirkimo PVM, o neapmokestinamas negali."
+    },
+    {
+      "q": "Kada JAE e. sąskaitos tampa privalomos?",
+      "a": "Tai priklauso nuo jūsų pajamų. Pagal paskelbtas Ministry of Finance gaires įmonės, kurių pajamos siekia AED 50 milijonų ar daugiau, diegia nuo 2027 m. sausio 1 d., mažesnės įmonės nuo 2027 m. liepos 1 d., o valstybės institucijos nuo 2027 m. spalio 1 d. Bandomasis etapas ir savanoriškas prisijungimas prasidėjo 2026 m. liepos 1 d. Prieš planuodami pagal bet kurią datą, patikrinkite ministerijos puslapius, nes ji jau pakeitė vieną terminą."
+    },
+    {
+      "q": "Kada JAE galiu išrašyti supaprastintą PVM sąskaitą?",
+      "a": "Kai gavėjas neįregistruotas PVM mokėtoju arba yra įregistruotas, o atlygis neviršija AED 10,000. Supaprastintoje sąskaitoje vis tiek turi būti žodžiai „PVM sąskaita faktūra“, jūsų pavadinimas, adresas ir TRN, išrašymo data, to, kas patiekta, aprašymas ir bendras atlygis bei mokesčio suma dirhamais."
+    },
+    {
+      "q": "Ar JAE sąskaitoje reikia kliento TRN?",
+      "a": "Taip, visada, kai klientas įregistruotas PVM mokėtoju. Tokiu atveju 59 straipsnio 1 dalies c punktas reikalauja gavėjo pavadinimo, adreso ir mokesčių registracijos numerio. Be jo klientui gali būti sunku susigrąžinti pirkimo PVM, o tai paprastai grįžta pas jus kaip prašymas išrašyti sąskaitą iš naujo."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Išrašykite sąskaitas JAE teisingai ir nemokamai",
+  "ctaSub": "Mokesčiai kiekvienai eilutei, bet kokia valiuta su kursu dokumente ir sąskaita arabų bei anglų kalbomis iš vieno įrašo.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 dėl PVM, 3 straipsnis (konsoliduota redakcija su pakeitimais)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, 7, 8 ir 59 straipsniai",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1 ir ministerijos pranešimas spaudai apie pakeitimą",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "contracting",
+  "order": 4,
+  "title": "Būvniecība un līgumdarbi",
+  "metaTitle": "Rēķini un projektu norēķini būvniekiem · Paper & Pen",
+  "metaDescription": "Bezmaksas piedāvājumi, starpposma rēķini, pirkuma pasūtījumi, algas un projektu izmaksas būvniekiem un darbuzņēmējiem. Izraksti rēķinus pa posmiem, saņem samaksu.",
+  "keywords": "programma būvniekiem, būvniecības rēķini, starpposma rēķini, projektu izmaksu uzskaite, erp būvniecībai, pirkuma pasūtījumi, būvnieku algas, garantijas ieturējuma rēķini",
+  "heroEyebrow": "Būvniekiem un darbuzņēmējiem",
+  "heroTitle": "Izraksti rēķinu par posmu, <em class=\"text-copper-400 not-italic\">kontrolē objekta izmaksas</em>",
+  "heroSubtitle": "Sagatavo piedāvājumu projektam, izraksti rēķinus pa posmiem, seko materiāliem un darbam pret budžetu un saņem samaksu bez atgādināšanas. Paper & Pen apvieno tavas tāmes, izmaksas un naudu vienuviet.",
+  "heroBullets": ["Bezmaksas tāmes un piedāvājumi", "Starpposma un posmu rēķini", "Materiāli, darbs un peļņas norma katram objektam"],
+  "features": [
+    { "icon": "quote", "title": "Detalizētas tāmes", "desc": "Sagatavo detalizētus piedāvājumus ar materiāliem un darbu, tad pārvērt tos projektā." },
+    { "icon": "invoice", "title": "Starpposma rēķini", "desc": "Izraksti rēķinus pa posmiem vai pēc izpildes procenta, kārtīgi apstrādājot garantijas ieturējumu." },
+    { "icon": "truck", "title": "Pirkuma pasūtījumi", "desc": "Pasūti materiālus konkrētam objektam un grāmato izmaksas tur, kur tām jābūt." },
+    { "icon": "hr", "title": "Darbs un algas", "desc": "Aprēķini algas un piesaisti tās pareizajam projektam, lai zinātu īstās objekta izmaksas." },
+    { "icon": "calc", "title": "Objektu izmaksu uzskaite", "desc": "Salīdzini faktiskās materiālu un darba izmaksas ar savu tāmi reāllaikā." },
+    { "icon": "bell", "title": "Maksājumu atgādinājumi", "desc": "Automātiski, pieklājīgi atgādinājumi atgādina par kavētiem aktiem, lai tev tas nebūtu jādara." }
+  ],
+  "sections": [
+    { "eyebrow": "No konkursa līdz rēķinam", "title": "Tāmes, kas kļūst par objektu", "body": "Iegūsti darbu ar skaidru, detalizētu tāmi, tad pārvērt apstiprināto versiju tieši projektā, nepārrakstot nevienu rindu. Izraksti rēķinus pa posmiem, darbam virzoties uz priekšu, pēc posmiem vai procentiem, un apstrādā garantijas ieturējumu, lai gala norēķins sakristu. Tavs klients saņem profesionālu aktu, bet tev paliek viena tīra taka no konkursa līdz gala maksājumam.", "items": ["Detalizētas tāmes ar materiāliem un darbu", "Rēķini pēc posmiem vai izpildes procenta", "Garantijas ieturējums uzskaitīts līdz gala norēķinam"] },
+    { "eyebrow": "Zini, ka objekts pelna", "title": "Izmaksas un peļņas norma katram objektam", "body": "Noslogotā būvlaukumā var paslēpties zaudējumus nesošs objekts. Paper & Pen piesaista katru pirkuma pasūtījumu, piegādātāja rēķinu un algu aprēķinu projektam, tad darba gaitā parāda faktiskās izmaksas pret tavu tāmi. Tu redzi peļņas normu pirms objekta beigām, nevis pēc tām. Radīts Omānā ar iebūvētiem OMR, AED un SAR un 5% PVN, un gatavs USD, EUR vai jebkuram tirgum un nodokļa likmei.", "items": ["Materiālu un darba izmaksas katram projektam", "Faktiskā pret tāmes peļņas normu reāllaikā", "Jebkura valūta, jebkura nodokļa likme, gatavs PVN"] }
+  ],
+  "faqs": [
+    { "q": "Vai varu izrakstīt projekta rēķinus pa posmiem?", "a": "Jā. Izraksti rēķinus pēc posmiem vai izpildes procenta, apstrādājot garantijas ieturējumu, lai katrs akts būtu tīrs un gala norēķins saskanētu." },
+    { "q": "Vai varu sekot izmaksām pret savu tāmi?", "a": "Jā. Pirkuma pasūtījumi, piegādātāju rēķini un algas tiek piesaistīti objektam, un Paper & Pen darba gaitā parāda faktiskās izmaksas pret tavu tāmi." },
+    { "q": "Vai tā apstrādā garantijas ieturējumu?", "a": "Jā. Garantijas ieturējums tiek uzskaitīts starpposma rēķinos un pārnests uz gala norēķinu, tāpēc nodošanas brīdī nekas netiek palaists garām." },
+    { "q": "Vai varu aprēķināt algas būvlaukuma darbiniekiem?", "a": "Jā. Modulis Personāls un algas aprēķina algas un var piesaistīt darba izmaksas pareizajam projektam precīzai objekta izmaksu uzskaitei." },
+    { "q": "Vai piedāvājumi būvniekiem ir bez maksas?", "a": "Pārdošana un rēķini, ieskaitot tāmes un starpposma rēķinus, ir bez maksas uz visiem laikiem. Pievieno Noliktavu, Personālu un algas un Grāmatvedību pilnai projektu izmaksu kontrolei." }
+  ],
+  "related": ["/invoicing/estimates", "/invoicing/purchase-orders", "/features/hr-payroll", "/invoicing/payment-reminders", "/pricing"],
+  "ctaTitle": "Uzbūvē, izraksti rēķinu, saņem samaksu",
+  "ctaSub": "Sāc bez maksas ar tāmēm un starpposma rēķiniem, tad pievieno Algas un Grāmatvedību pilnai objektu izmaksu uzskaitei."
+}

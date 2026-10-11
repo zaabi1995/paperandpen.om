@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "reports",
+  "order": 8,
+  "title": "Atskaites",
+  "metaTitle": "Biznesa atskaites un analītika · Paper & Pen",
+  "metaDescription": "Paneļi un atskaites reāllaikā par pārdošanu, naudu, peļņu, nodokļiem un krājumiem. Nonāc līdz avotam, eksportē uz Excel vai PDF, jebkurā valūtā. Visā pasaulē.",
+  "keywords": "biznesa atskaites, analītikas panelis, pārdošanas atskaite, peļņas vai zaudējumu atskaite, nodokļu atskaite, finanšu atskaites, eksports uz excel",
+  "heroEyebrow": "Papildmodulis",
+  "heroTitle": "Lēmumi, kuru pamatā ir <em class=\"text-copper-400 not-italic\">aktuāli skaitļi</em>",
+  "heroSubtitle": "Katrs pārdevums, maksājums un kustība reāllaikā apkopojas skaidros paneļos un atskaitēs. Redzi, kas pārdodas, kas tev ir parādā un kur ir tava peļņa, un eksportē to jebkur.",
+  "heroBullets": ["Paneļi reāllaikā", "Nonāc līdz attaisnojuma dokumentam", "Eksports uz Excel vai PDF"],
+  "features": [
+    { "icon": "reports", "title": "Pārdošanas analītika", "desc": "Redzi populārākos produktus, labākos klientus un tendences jebkurā periodā." },
+    { "icon": "chart", "title": "Finanšu atskaites", "desc": "Peļņas vai zaudējumu aprēķins, bilance, naudas plūsma un debitoru novecošana." },
+    { "icon": "calc", "title": "Nodokļu atskaites", "desc": "Priekšnodokļa un aprēķinātā nodokļa kopsavilkumi, gatavi tavai PVN deklarācijai." },
+    { "icon": "inventory", "title": "Krājumu atskaites", "desc": "Vērtības, kustību un zemu atlikumu atskaites visās noliktavās." },
+    { "icon": "doc", "title": "Līdz avotam", "desc": "Noklikšķini uz jebkura skaitļa, lai izsekotu to līdz konkrētajam dokumentam." },
+    { "icon": "refresh", "title": "Vienmēr aktuāli", "desc": "Atskaites atjaunojas reāllaikā līdz ar darījumiem, bez nakts apstrādes." }
+  ],
+  "sections": [
+    { "eyebrow": "Skaidrība vienā skatienā", "title": "Viens panelis visam uzņēmumam", "body": "Atver Paper & Pen un redzi svarīgākos skaitļus: naudu bankā, kas tev ir parādā, kas pārdodas un šī mēneša peļņu. Tā kā viss tiek grāmatots reāllaikā, panelis rāda patiesību, nevis pagājušās nedēļas momentuzņēmumu.", "items": ["Nauda, debitori un peļņa pirmajā vietā", "Filtrē pēc perioda, klienta vai produkta", "Aktuāli, nekad novecojuši"] },
+    { "eyebrow": "Kopīgo un iedziļinies", "title": "Atskaites, kurām uzticēsies grāmatvedis un valde", "body": "No jebkuras atskaites nonāc tieši līdz attaisnojuma dokumentam, pēc tam eksportē uz Excel vai PDF savam grāmatvedim, bankai vai valdei. Veido atskaites jebkurā valūtā un pārslēdz saskarni uz arābu, angļu, hindi, bengāļu vai urdu valodu, lai visi lasītu tos pašus skaitļus savā valodā.", "items": ["Detalizācija līdz katram darījumam", "Eksports uz Excel un PDF", "Vairākas valūtas un valodas"] }
+  ],
+  "faqs": [
+    { "q": "Vai atskaites ir bez maksas?", "a": "Atskaites ir izvēles maksas papildmodulis. Bezmaksas pamatā uz visiem laikiem ietilpst rēķinu paneļi, bet pilns atskaišu komplekts ir pieejams, kad vajag dziļāku analītiku." },
+    { "q": "Vai atskaites ir reāllaikā?", "a": "Jā. Katrs darījums tiek grāmatots uzreiz, tāpēc paneļi un atskaites vienmēr atspoguļo tava uzņēmuma pašreizējo stāvokli." },
+    { "q": "Vai varu eksportēt atskaites?", "a": "Jā. Eksportē uz Excel vai PDF, lai kopīgotu ar grāmatvedi, banku vai valdi." },
+    { "q": "Vai varu izsekot skaitli līdz tā avotam?", "a": "Jā. Noklikšķini uz jebkura skaitļa, lai nonāktu līdz konkrētajam rēķinam, maksājumam vai kontējumam aiz tā." },
+    { "q": "Vai atskaites atbalsta vairākas valūtas?", "a": "Jā. Veido atskaites jebkurā valūtā un skati saskarni piecās valodās." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Redzi savu uzņēmumu skaidri",
+  "ctaSub": "Sāc bez maksas ar rēķiniem un pievieno Atskaites, lai iegūtu paneļus reāllaikā un eksportējamu analītiku."
+}

@@ -1,0 +1,38 @@
+{
+  "locale": "lv",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Bezmaksas PVN un nodokļu kalkulators",
+  "metaTitle": "Omānas PVN kalkulators: pieskaiti vai atņem 5% PVN",
+  "metaDescription": "Aprēķini Omānas 5% PVN tiešsaistē. Pieskaiti PVN neto summai vai atņem to no bruto summas un uzreiz redzi neto summu, PVN un kopsummu, bez reģistrācijas.",
+  "keywords": "pvn kalkulators, omānas pvn kalkulators, nodokļu kalkulators, pieskaitīt pvn, atņemt pvn, 5 procentu pvn kalkulators, pielāgojams pvn kalkulators, pvn aprēķins no bruto summas",
+  "heroEyebrow": "Bez maksas · Bez reģistrācijas",
+  "heroTitle": "Bezmaksas <em class=\"text-copper-400 not-italic\">PVN un nodokļu</em> kalkulators",
+  "heroSubtitle": "Aprēķini Omānas 5% PVN tiešsaistē. Pieskaiti PVN neto summai vai atņem to no bruto summas un uzreiz redzi neto summu, PVN un kopsummu, bez reģistrācijas.",
+  "heroBullets": ["Jebkura likme, jebkura valūta", "Pieskaiti vai atņem nodokli", "Bez maksas uz visiem laikiem, bez reģistrācijas"],
+  "howToSteps": [
+    { "name": "Ievadi summu", "text": "Ieraksti summu, ar kuru vēlies strādāt, un izvēlies valūtu." },
+    { "name": "Iestati nodokļa likmi", "text": "Izmanto Omānas noklusējuma 5% likmi vai ievadi pašreizējo likmi, kas attiecas uz tavu darījumu." },
+    { "name": "Izvēlies pieskaitīt vai atņemt", "text": "Pieskaiti nodokli neto summai vai atņem nodokli no bruto summas, lai atrastu neto summu (apgrieztais PVN)." },
+    { "name": "Nolasi rezultātu", "text": "Uzreiz redzi neto summu, nodokli un bruto summu atsevišķi, gatavas kopēšanai rēķinā." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Pieskaiti vai atņem nodokli", "desc": "Aprēķini nodokli no neto summas vai izdali to no bruto summas ar vienu klikšķi." },
+    { "icon": "globe", "title": "Jebkura likme, jebkura valūta", "desc": "Pēc noklusējuma Omānas 5% vai tava likme, OMR, AED, SAR, USD, EUR un citās valūtās." },
+    { "icon": "bolt", "title": "Uzreiz un bez maksas", "desc": "Bez reģistrācijas, bez ierobežojumiem. Neto summa, nodoklis un bruto summa parādās, tiklīdz raksti." }
+  ],
+  "sections": [
+    { "title": "Kāpēc izmantot Paper & Pen PVN kalkulatoru?", "body": "Neatkarīgi no tā, vai nosaki cenu piedāvājumā, pārbaudi rēķinu vai iesniedz deklarāciju, neto summai, nodoklim un bruto summai jāsakrīt līdz pēdējai decimāldaļai. Šis kalkulators strādā ar jebkuru likmi jebkurā valūtā, darbojas abos virzienos (pieskaita nodokli vai izdala to no kopsummas) un ir patiešām bez maksas. Tas atveras ar Omānas 5% likmi un ir pilnībā pielāgojams citām jurisdikcijām." },
+    { "eyebrow": "Vairāk nekā kalkulators", "title": "Ļauj programmai aprēķināt PVN tavā vietā", "body": "Aprēķināt nodokli ar roku katrā rindā ir lēni un kļūdaini. Pilnajā Paper & Pen ERP PVN tiek automātiski piemērots katra rēķina neto summai pēc atlaides, fiksēts tavās grāmatās un apkopots deklarācijai gatavās atskaitēs, tāpēc kalkulators tev vairs nebūs vajadzīgs.", "items": ["Automātisks nodoklis katrā rēķinā un piedāvājumā", "Nodokļa likmes katrai pozīcijai un dokumentam", "Iesniegšanai gatavas PVN kopsavilkuma atskaites"] }
+  ],
+  "faqs": [
+    { "q": "Kādu likmi izmanto šis Omānas PVN kalkulators?", "a": "Kalkulators atveras ar Omānas 5% likmi. Nodokļu noteikumi var mainīties, tāpēc pirms paļaušanās uz aprēķinu pārbaudi pašreizējo likmi Oman Tax Authority. Vari ievadīt jebkuru likmi." },
+    { "q": "Kā atņemt PVN no kopsummas?", "a": "Izvēlies atņemšanas (apgriezto) iespēju un ievadi bruto summu. Kalkulators aprēķina neto summu un kopsummā iekļauto nodokļa daļu." },
+    { "q": "Vai to var izmantot tirdzniecības nodoklim ārpus Omānas?", "a": "Jā. Iestati likmi, kas attiecas uz tavu darījumu, un izvēlies jebkuru valūtu. Tas der PVN, GST vai tirdzniecības nodoklim jebkur pasaulē." },
+    { "q": "Vai tas aprēķina nodokli summai ar atlaidi?", "a": "Ievadi neto summu pēc atlaides un pieskaiti tai nodokli. Lai PVN pēc atlaides pilnos rēķinos tiktu aprēķināts automātiski, izveido bezmaksas Paper & Pen darbvietu, kur tas notiek tavā vietā." }
+  ],
+  "related": ["/vat/oman", "/tools/free-invoice-generator", "/tools/free-quotation-generator", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Beidz rēķināt PVN ar roku",
+  "ctaSub": "Piemēro nodokli automātiski katrā rēķinā un saņem deklarācijai gatavas PVN atskaites ar bezmaksas Paper & Pen darbvietu."
+}

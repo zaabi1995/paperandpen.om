@@ -1,0 +1,151 @@
+{
+  "locale": "lv",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saūda Arābija",
+  "title": "PVN Saūda Arābijā",
+  "metaTitle": "PVN Saūda Arābijā: 15% likme un Fatoora · Paper & Pen",
+  "metaDescription": "Saūda Arābijas 15% PVN likme, SAR 375,000 slieksnis, 53. panta prasības rēķina saturam un ZATCA Fatoora e-rēķinu posmi, katrs ar atsauci uz avotu.",
+  "keywords": "pvn saūda arābijā, saūda arābijas pvn likme 15, zatca fatoora, saūda arābijas e-rēķinu 2. posms, saūda arābijas nodokļu rēķina prasības, zatca",
+  "heroEyebrow": "Saūda Arābija",
+  "heroTitle": "Rēķini saskaņā ar <em class=\"text-copper-400 not-italic\">ZATCA</em> noteikumiem",
+  "heroSubtitle": "15% likme, reģistrācijas sliekšņi, ko 53. pants prasa nodokļu rēķinā un ko Fatoora pievieno papildus, kad esi integrācijas posmā.",
+  "heroBullets": [
+    "15% standarta likme",
+    "Reģistrācija no SAR 375,000",
+    "Fatoora darbojas kopš 2021. gada"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Standarta PVN likme",
+      "value": "15%",
+      "note": "Saūda Arābija Persijas līča reģionā ir izņēmums: pārējās PVN ieviesušās valstis piemēro 5% vai 10%. Ja piemēro standarta likmi, ar nodokli apliekamām piegādēm nosaka 15%.",
+      "source": 1
+    },
+    {
+      "label": "Obligātās reģistrācijas slieksnis",
+      "value": "SAR 375,000",
+      "note": "Ja ar nodokli apliekamās piegādes 12 mēnešu periodā pārsniedz šo summu, reģistrācija ir obligāta.",
+      "source": 1
+    },
+    {
+      "label": "Brīvprātīgās reģistrācijas slieksnis",
+      "value": "SAR 187,500",
+      "note": "Pamatojoties uz ar nodokli apliekamām piegādēm VAI ar nodokli apliekamiem izdevumiem pēdējo 12 mēnešu laikā.",
+      "source": 1
+    },
+    {
+      "label": "Nerezidentu uzņēmumi",
+      "value": "Bez sliekšņa",
+      "note": "Nerezidentam, kuram Karalistē jāmaksā PVN, jāreģistrējas neatkarīgi no tā piegāžu vērtības.",
+      "source": 1
+    },
+    {
+      "label": "Rēķina valoda",
+      "value": "Arābu",
+      "note": "Obligātajam saturam jābūt arābu valodā. Papildus kā tulkojumu var norādīt citu valodu.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "PVN īstenošanas noteikumu 53. panta 5. punkts uzskaita, kas jāietver nodokļu rēķinā, un prasa to arābu valodā papildus jebkurai citai valodai, kas norādīta kā tulkojums.",
+    "items": [
+      "Izrakstīšanas datums",
+      "Secīgs numurs, kas unikāli identificē rēķinu",
+      "Piegādātāja nodokļu maksātāja identifikācijas numurs",
+      "Ja klientam nodoklis jāuzskaita pašam, klienta TIN un norāde, ka nodoklis jāuzskaita viņam",
+      "Gan piegādātāja, gan klienta nosaukums un adrese",
+      "Preču daudzums un veids vai pakalpojumu apjoms un veids",
+      "Piegādes datums, ja tas atšķiras no izrakstīšanas datuma",
+      "Apliekamā summa katrai likmei vai atbrīvojumam, vienības cena bez PVN un jebkura atlaide, kas vēl nav iekļauta vienības cenā",
+      "Piemērotā nodokļa likme",
+      "Maksājamā nodokļa summa, norādīta Saūda Arābijas riālos",
+      "Ja nodoklis netiek piemērots pamata likmē, paskaidrojums par piemēroto režīmu",
+      "Ja piemēro peļņas daļas režīmu atbilstošām lietotām precēm, norāde uz to"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Obligāti un darbojas, ieviešana viļņos",
+    "body": "Saūda Arābijā ir vismodernākā e-rēķinu sistēma Persijas līča reģionā, un citas tiek veidotas pēc tās parauga. 1. posms, izveides posms, attiecas uz visām rezidentu ar nodokli apliekamām personām kopš 2021. gada 4. decembra: rēķini jāizraksta elektroniski strukturētā formā. 2. posms, integrācijas posms, sākās 2023. gada 1. janvārī un tiek ieviests viļņos pēc nodokļu maksātāja lieluma, ZATCA paziņojot katrai grupai vismaz sešus mēnešus pirms tās integrācijas datuma. 2. posmā elektroniskajā rēķinā ir vairāk nekā 53. panta saturs: tam vajag arī UUID, iepriekšējā rēķina jaucējkodu (hash), QR kodu, kriptogrāfisko zīmogu un pret manipulācijām aizsargātu skaitītāju. To, kurā vilnī tu esi, paziņo ZATCA, tāpēc pārbaudi tās e-rēķinu lapas, nevis pieņem.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Kā izdarīt pareizi",
+      "title": "Fatoora maina to, kas IR rēķins",
+      "body": "Papīra vai PDF pasaulē rēķins ir dokuments, ko tu izveido un nosūti. 2. posmā tas ir ieraksts ķēdē: katrs rēķins atsaucas uz iepriekšējā jaucējkodu, tam ir kriptogrāfiskais zīmogs, un tas palielina skaitītāju, ko nevar atiestatīt. Tas ir apzināts dizains, un tas padara neiespējamu vienu izplatītu ieradumu. Tu nevari klusi izdzēst, pārnumurēt vai no jauna izrakstīt rēķinu pēc fakta, jo ķēde pārtrūktu un pārrāvums ir konstatējams. Uzņēmumiem, kas agrāk labojā kļūdas, rediģējot vēsturi, jāpāriet uz kredītrēķiniem, ko pārējās pasaules grāmatvedības noteikumi tāpat vienmēr ir gribējuši.",
+      "items": [
+        "Katrs rēķins ir sasaistīts ar iepriekšējo ar jaucējkodu",
+        "Skaitītāju nevar atiestatīt vai atgriezt atpakaļ",
+        "Labojumi notiek ar kredītrēķiniem un debetrēķiniem",
+        "QR kods ir daļa no rēķina, nevis rotājums"
+      ]
+    },
+    {
+      "eyebrow": "Kā izdarīt pareizi",
+      "title": "15% likmei ir blakusefekti",
+      "body": "Piecpadsmit procentu likme padara atšķirību starp nulles likmi un atbrīvojumu finansiāli nopietnu tādā veidā, kā to nedara piecu procentu likme. Ja tavas piegādes ir atbrīvotas, tu nevari atgūt samaksāto priekšnodokli, tāpēc piecpadsmit procenti no tavām ieejas izmaksām kļūst par īstu, neatgūstamu izdevumu, kas jāiekļauj cenā. Ja tām piemēro nulles likmi, tu neiekasē neko, bet joprojām atgūsti. Kļūda šajā klasifikācijā ir dārgākā iespējamā kļūda Saūda Arābijas PVN, un tas ir klasifikācijas, nevis likmes jautājums.",
+      "items": [
+        "Atbrīvojums nozīmē, ka priekšnodokli neatgūst, tāpēc nodoklis ir tavas izmaksas",
+        "Nulles likme nozīmē, ka neiekasē neko, bet atgūst visu",
+        "Klasificē pēc piegādes veida, nevis pēc klienta",
+        "Pieņem klasifikācijas lēmumu pirms cenas noteikšanas"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kāda ir PVN likme Saūda Arābijā?",
+      "a": "Standarta likme ir piecpadsmit procenti. Tā ir augstākā Persijas līča reģionā, un bieža kļūda ir pieņemt vienu kopīgu likmi visām Persijas līča valstīm: Omānā un AAE ir 5%, Bahreinā 10%, bet Katarā un Kuveitā PVN vispār nav ieviests. Ja pārdod visā reģionā, nevari visam piemērot vienu likmi."
+    },
+    {
+      "q": "Kas ir Fatoora?",
+      "a": "Fatoora ir ZATCA e-rēķinu programma. 1. posms, izveide, attiecas uz visām rezidentu ar nodokli apliekamām personām kopš 2021. gada 4. decembra. 2. posms, integrācija ar ZATCA sistēmām, sākās 2023. gada 1. janvārī un tiek ieviests viļņos pēc nodokļu maksātāja lieluma, katram vilnim paziņojot vismaz sešus mēnešus iepriekš."
+    },
+    {
+      "q": "Vai Saūda Arābijas nodokļu rēķinam jābūt arābu valodā?",
+      "a": "Jā. 53. panta 5. punkts prasa rēķina saturu arābu valodā un atļauj papildus kā tulkojumu norādīt citu valodu. Divvalodu rēķins atbilst prasībām, rēķins tikai angļu valodā neatbilst."
+    },
+    {
+      "q": "Kādus papildu laukus prasa 2. posms?",
+      "a": "Papildus 53. panta saturam elektroniskajā rēķinā integrācijas posmā ir UUID, iepriekšējā rēķina jaucējkods, QR kods, kriptogrāfiskais zīmogs un pret manipulācijām aizsargāts skaitītājs. Tos izveido prasībām atbilstoša programma, nevis ieraksta cilvēks."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Izraksti rēķinus Saūda Arābijā pareizi un bez maksas",
+  "ctaSub": "Iestati likmi pats, turi arābu un angļu valodu vienā dokumentā un labo kļūdas ar kredītrēķiniem, nevis rediģējot.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, trešā versija, 3.2. un 3.3. sadaļa",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, 53. pants",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Lēmums par e-rēķinu ieviešanu, Governor's Decision 62738, un ZATCA e-rēķinu lapas",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

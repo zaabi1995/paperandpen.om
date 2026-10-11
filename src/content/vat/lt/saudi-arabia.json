@@ -1,0 +1,151 @@
+{
+  "locale": "lt",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saudo Arabija",
+  "title": "PVM Saudo Arabijoje",
+  "metaTitle": "PVM Saudo Arabijoje: 15 % tarifas ir Fatoora · Paper & Pen",
+  "metaDescription": "Saudo Arabijos 15 % PVM tarifas, SAR 375,000 riba, 53 straipsnio sąskaitos turinys ir ZATCA Fatoora e. sąskaitų etapai, su nuorodomis į šaltinius.",
+  "keywords": "pvm saudo arabijoje, saudo arabijos pvm tarifas 15, zatca fatoora, saudo arabijos e. sąskaitos 2 etapas, saudo arabijos pvm sąskaitos reikalavimai, zatca",
+  "heroEyebrow": "Saudo Arabija",
+  "heroTitle": "Sąskaitų išrašymas pagal <em class=\"text-copper-400 not-italic\">ZATCA</em> taisykles",
+  "heroSubtitle": "15 % tarifas, registracijos ribos, ką 53 straipsnis reikalauja PVM sąskaitoje faktūroje ir ką Fatoora prideda papildomai, kai patenkate į integracijos etapą.",
+  "heroBullets": [
+    "15 % standartinis tarifas",
+    "Registracija nuo SAR 375,000",
+    "Fatoora veikia nuo 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Standartinis PVM tarifas",
+      "value": "15 %",
+      "note": "Saudo Arabija Persijos įlankoje išsiskiria: kitos PVM taikančios valstybės turi 5 % ar 10 % tarifą. Jei taikomas standartinis tarifas, apmokestinamam tiekimui taikomi 15 %.",
+      "source": 1
+    },
+    {
+      "label": "Privalomos registracijos riba",
+      "value": "SAR 375,000",
+      "note": "Kai apmokestinamas tiekimas per 12 mėnesių laikotarpį viršija šią sumą, privaloma registruotis.",
+      "source": 1
+    },
+    {
+      "label": "Savanoriškos registracijos riba",
+      "value": "SAR 187,500",
+      "note": "Skaičiuojama pagal apmokestinamą tiekimą ARBA apmokestinamas išlaidas per paskutinius 12 mėnesių.",
+      "source": 1
+    },
+    {
+      "label": "Užsienio įmonės",
+      "value": "Ribos nėra",
+      "note": "Nerezidentas, privalantis mokėti PVM Karalystėje, turi registruotis nepriklausomai nuo savo tiekimo vertės.",
+      "source": 1
+    },
+    {
+      "label": "Sąskaitos kalba",
+      "value": "Arabų",
+      "note": "Privalomas turinys turi būti arabų kalba. Papildomai kaip vertimas gali būti rodoma kita kalba.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "VAT Implementing Regulations 53 straipsnio 5 dalis išvardija, ką turi turėti PVM sąskaita faktūra, ir reikalauja, kad ji būtų arabų kalba, be bet kokios kitos kalbos, rodomos kaip vertimas.",
+    "items": [
+      "Išrašymo data",
+      "Eilės tvarka einantis numeris, unikaliai identifikuojantis sąskaitą",
+      "Tiekėjo mokesčių mokėtojo identifikacinis numeris",
+      "Kai klientas pats turi apskaityti mokestį, kliento TIN ir nuoroda, kad mokestį apskaito jis",
+      "Tiekėjo ir kliento pavadinimai ir adresai",
+      "Prekių kiekis ir pobūdis arba paslaugų apimtis ir pobūdis",
+      "Tiekimo data, jei ji skiriasi nuo išrašymo datos",
+      "Apmokestinamoji suma pagal tarifą ar išimtį, vieneto kaina be PVM ir bet kokia į vieneto kainą neįtraukta nuolaida",
+      "Taikomas mokesčio tarifas",
+      "Mokėtina mokesčio suma, nurodyta Saudo Arabijos rialais",
+      "Kai mokestis taikomas ne baziniu tarifu, paaiškinimas apie taikomą režimą",
+      "Kai taikomas maržos schemos metodas tinkamoms naudotoms prekėms, nuoroda į tai"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Privaloma ir veikia, diegiama bangomis",
+    "body": "Saudo Arabijos e. sąskaitų sistema yra pažangiausia Persijos įlankoje, ir kitos šalys kuria savo sistemas pagal ją. 1 etapas, generavimo etapas, nuo 2021 m. gruodžio 4 d. taikomas visiems apmokestinamiems asmenims rezidentams: sąskaitos turi būti išrašomos elektroniniu būdu struktūrizuota forma. 2 etapas, integracijos etapas, prasidėjo 2023 m. sausio 1 d. ir diegiamas bangomis pagal mokesčių mokėtojo dydį, o ZATCA kiekvieną grupę informuoja bent šešis mėnesius iki jos integracijos datos. 2 etape elektroninė sąskaita turi daugiau nei 53 straipsnio turinį: jai taip pat reikia UUID, ankstesnės sąskaitos maišos (hash), QR kodo, kriptografinio spaudo ir nuo klastojimo apsaugoto skaitiklio. Kuriai bangai priklausote, skelbia ZATCA, todėl tikrinkite jos e. sąskaitų puslapius, o ne spėliokite.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Kad būtų teisingai",
+      "title": "Fatoora keičia tai, kas YRA sąskaita",
+      "body": "Popieriaus ar PDF pasaulyje sąskaita yra dokumentas, kurį sukuriate ir išsiunčiate. 2 etape tai įrašas grandinėje: kiekviena sąskaita nurodo ankstesnės sąskaitos maišą, turi kriptografinį spaudą ir didina skaitiklį, kurio negalima atstatyti. Tai sąmoningas sprendimas, ir jis padaro vieną įprastą įprotį neįmanomą. Negalite tyliai ištrinti, pernumeruoti ar iš naujo išrašyti sąskaitos vėliau, nes grandinė nutrūktų, o tokį nutrūkimą galima aptikti. Įmonės, kurios klaidas taisydavo redaguodamos istoriją, turi pereiti prie kreditinių sąskaitų, ko visada ir norėjo likusio pasaulio apskaitos taisyklės.",
+      "items": [
+        "Kiekviena sąskaita maiša susieta su ankstesne",
+        "Skaitiklio negalima atstatyti ar grąžinti atgal",
+        "Taisymai atliekami kreditinėmis ir debetinėmis sąskaitomis",
+        "QR kodas yra sąskaitos dalis, o ne puošmena"
+      ]
+    },
+    {
+      "eyebrow": "Kad būtų teisingai",
+      "title": "15 % tarifas turi grandininių pasekmių",
+      "body": "Penkiolikos procentų tarifas skirtumą tarp nulinio tarifo ir neapmokestinamo tiekimo paverčia finansiškai rimtu taip, kaip penkių procentų tarifas nepadaro. Jei jūsų tiekimas neapmokestinamas, negalite susigrąžinti sumokėto pirkimo PVM, todėl penkiolika procentų jūsų pirkimo išlaidų tampa tikromis, nesusigrąžinamomis išlaidomis, kurias reikia įskaičiuoti į kainą. Jei taikomas nulinis tarifas, nieko neapmokestinate, bet vis tiek susigrąžinate. Neteisinga klasifikacija yra brangiausia atskira klaida Saudo Arabijos PVM sistemoje, ir tai klasifikavimo, o ne tarifo klausimas.",
+      "items": [
+        "Neapmokestinamas reiškia, kad pirkimo PVM nesusigrąžinamas, todėl mokestis tampa jūsų išlaidomis",
+        "Nulinis tarifas reiškia, kad mokesčio neimate, bet susigrąžinate visą",
+        "Klasifikuokite pagal tiekimo rūšį, o ne pagal klientą",
+        "Klasifikavimo sprendimą priimkite prieš nustatydami kainą"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Koks PVM tarifas Saudo Arabijoje?",
+      "a": "Standartinis tarifas yra penkiolika procentų. Tai didžiausias tarifas Persijos įlankoje, o dažna klaida yra manyti, kad visose Persijos įlankos šalyse tarifas vienodas: Omane ir JAE jis 5 %, Bahreine 10 %, o Kataras ir Kuveitas PVM visai neįvedė. Jei parduodate visame regione, negalite visur taikyti vieno tarifo."
+    },
+    {
+      "q": "Kas yra Fatoora?",
+      "a": "Fatoora yra ZATCA e. sąskaitų programa. 1 etapas, generavimas, nuo 2021 m. gruodžio 4 d. taikomas visiems apmokestinamiems asmenims rezidentams. 2 etapas, integracija su ZATCA sistemomis, prasidėjo 2023 m. sausio 1 d. ir diegiamas bangomis pagal mokesčių mokėtojo dydį, kiekvienai bangai pranešant bent prieš šešis mėnesius."
+    },
+    {
+      "q": "Ar Saudo Arabijos PVM sąskaita faktūra turi būti arabų kalba?",
+      "a": "Taip. 53 straipsnio 5 dalis reikalauja, kad sąskaitos turinys būtų arabų kalba, ir leidžia papildomai rodyti kitą kalbą kaip vertimą. Dvikalbė sąskaita atitinka reikalavimus, o tik angliška ne."
+    },
+    {
+      "q": "Kokių papildomų laukų reikalauja 2 etapas?",
+      "a": "Be 53 straipsnio turinio, integracijos etapo elektroninėje sąskaitoje yra UUID, ankstesnės sąskaitos maiša, QR kodas, kriptografinis spaudas ir nuo klastojimo apsaugotas skaitiklis. Juos sukuria reikalavimus atitinkanti programa, o ne įveda žmogus."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Išrašykite sąskaitas Saudo Arabijoje teisingai ir nemokamai",
+  "ctaSub": "Patys nustatykite tarifą, laikykite arabų ir anglų kalbas viename dokumente ir taisykite klaidas kreditinėmis sąskaitomis, o ne redaguodami.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, trečioji versija, 3.2 ir 3.3 skyriai",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, 53 straipsnis",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "E. sąskaitų diegimo nutarimas, Governor's Decision 62738, ir ZATCA e. sąskaitų puslapiai",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

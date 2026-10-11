@@ -1,0 +1,35 @@
+{
+  "locale": "lt",
+  "slug": "retail",
+  "order": 2,
+  "title": "Mažmeninė prekyba ir parduotuvės",
+  "metaTitle": "Sąskaitų ir atsargų programa parduotuvėms · Paper & Pen",
+  "metaDescription": "Nemokamos sąskaitos, atsargos su brūkšniniais kodais, įspėjimai apie mažas atsargas ir vertinimas realiuoju laiku parduotuvėms. Parduokite greitai, neišparduokite visko, tvarkinga apskaita.",
+  "keywords": "mažmeninės prekybos programa, parduotuvės sąskaitų programa, atsargos su brūkšniniais kodais, kasos sąskaitos, įspėjimai apie mažas atsargas, mažmeninės prekybos erp, kelių parduotuvių atsargos",
+  "heroEyebrow": "Parduotuvėms ir mažmenininkams",
+  "heroTitle": "Parduokite greitai, <em class=\"text-copper-400 not-italic\">niekada nepritrūkite</em>",
+  "heroSubtitle": "Aptarnaukite klientus per kelias sekundes, skenuokite brūkšninius kodus atsargoms skaičiuoti ir leiskite atsargoms atsinaujinti pačioms. Paper & Pen palaiko lentynas, pardavimus ir apskaitą vienodame ritme, todėl mažiau laiko skaičiuojate ir daugiau parduodate.",
+  "heroBullets": ["Nemokamos ir greitos sąskaitos", "Brūkšninių kodų ir SKU palaikymas", "Įspėjimai apie mažas atsargas laiku"],
+  "features": [
+    { "icon": "receipt", "title": "Greitos sąskaitos", "desc": "Užregistruokite pardavimą ir per kelias sekundes atspausdinkite ar pasidalykite kvitu bet kuriame įrenginyje." },
+    { "icon": "inventory", "title": "Atsargos su brūkšniniais kodais", "desc": "Skenuokite skaičiuodami ar perkeldami atsargas, sutvarkytas pagal SKU, partiją ir matavimo vienetą." },
+    { "icon": "bell", "title": "Įspėjimai apie mažas atsargas", "desc": "Nustatykite užsakymo ribas ir gaukite įspėjimą, kol perkamiausia prekė dar nesibaigė." },
+    { "icon": "truck", "title": "Kelių parduotuvių atsargos", "desc": "Sekite ir perkelkite atsargas tarp filialų, visur matydami aktualius kiekius." },
+    { "icon": "calc", "title": "Vertinimas realiuoju laiku", "desc": "Vidutinės savikainos arba FIFO metodas palaiko tikslią atsargų vertę balanse." },
+    { "icon": "chart", "title": "Perkamiausių prekių ataskaitos", "desc": "Matykite, kas juda, o kas guli, pagal prekę, kategoriją ir parduotuvę." }
+  ],
+  "sections": [
+    { "eyebrow": "Greitesnis atsiskaitymas", "title": "Sąskaitos, sukurtos užimtam prekystaliui", "body": "Klientai nelaukia. Sudarykite pardavimą ieškodami prekių, pritaikykite nuolaidą, priimkite mokėjimą ir per kelias sekundes įteikite tvarkingą kvitą. Kvitais galima pasidalyti per WhatsApp arba atspausdinti prie kasos, o kiekvienas pardavimas iš karto patenka į atsargas ir apskaitą, nieko neperrašant.", "items": ["Greitas prekių pridėjimas paieška", "Kvitai iš karto atspausdinami ar išsiunčiami", "Nuolaidos ir mokesčiai tvarkomi automatiškai"] },
+    { "eyebrow": "Atsargos, kurios tvarkosi pačios", "title": "Visada žinokite, kas yra lentynoje", "body": "Rankinė inventorizacija pasensta tą akimirką, kai ką nors parduodate. Paper & Pen kiekvienas pardavimas ir pristatymas koreguoja atsargas realiuoju laiku, todėl skaičius ekrane sutampa su lentyna. Nustatykite užsakymo ribas, kad sistema praneštų apie vėluojantį papildymą, kol dar neprarandate pardavimo. Sukurta Omane su vietiniais OMR, AED ir SAR bei 5 % PVM ir paruošta USD, EUR ar bet kokiam jūsų prekybos mokesčio tarifui.", "items": ["Atsargos realiuoju laiku po kiekvieno pardavimo", "Užsakymo ribos ir įspėjimai apie mažas atsargas", "Bet kokia valiuta, bet koks mokesčio tarifas"] }
+  ],
+  "faqs": [
+    { "q": "Ar galiu parduoti naudodamas brūkšninių kodų skaitytuvą?", "a": "Ne prie kasos. Prie kasos prekes į pardavimą pridedate ieškodami. Brūkšninių kodų skaitytuvas skirtas atsargoms: nuskenuokite prekę, kad ją suskaičiuotumėte ar perkeltumėte atsargas į vidų ar išorę. Prekės sutvarkytos pagal SKU, partiją ir matavimo vienetą." },
+    { "q": "Ar atsargos atsinaujins, kai ką nors parduosiu?", "a": "Taip. Kiekvienas pardavimas mažina atsargas, o kiekvienas pristatymas jas didina realiuoju laiku, visose jūsų parduotuvėse, be rankinio skaičiavimo." },
+    { "q": "Ar galiu valdyti daugiau nei vieną parduotuvę?", "a": "Taip. Sekite atsargas kiekvienoje parduotuvėje, perkelkite jas tarp filialų ir iš vienos darbo erdvės visur matykite aktualius kiekius." },
+    { "q": "Ar sąskaitos tikrai nemokamos?", "a": "Pardavimai ir sąskaitos, įskaitant kvitus, nemokami visam laikui. Pridėkite Atsargų modulį, kai norėsite atsargų kontrolės su brūkšniniais kodais ir įspėjimų apie mažas atsargas." },
+    { "q": "Ar tai veikia už Persijos įlankos šalių ribų?", "a": "Taip. Paper & Pen veikia su bet kokia valiuta ir bet kokiu mokesčio tarifu, todėl mažmenininkai bet kur gali išrašyti sąskaitas ir valdyti atsargas, o arabų, anglų ir kitos kalbos visada po ranka." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Valdykite parduotuvę be spėlionių",
+  "ctaSub": "Pradėkite nemokamai nuo sąskaitų ir kvitų, tada pridėkite Atsargas brūkšninių kodų apskaitai ir įspėjimams apie mažas atsargas."
+}

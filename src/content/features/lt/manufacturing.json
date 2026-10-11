@@ -1,0 +1,35 @@
+{
+  "locale": "lt",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Gamyba",
+  "metaTitle": "Gamybos valdymo programa · Paper & Pen",
+  "metaDescription": "Planuokite gamybą su medžiagų sąrašais, gamybos užsakymais ir tikra savikaina. Naudokite žaliavas, gaminkite produkciją, žinokite tikrąją maržą. Veikia visame pasaulyje.",
+  "keywords": "gamybos programa, gamybos valdymas, medžiagų sąrašas, bom, gamybos užsakymai, gamybos savikaina, gatava produkcija",
+  "heroEyebrow": "Papildomas modulis",
+  "heroTitle": "Gaminkite pagal užsakymą, <em class=\"text-copper-400 not-italic\">skaičiuokite iki rialo</em>",
+  "heroSubtitle": "Paverskite žaliavas gatava produkcija su medžiagų sąrašais ir gamybos užsakymais, o Paper & Pen seka kiekvieno komponento kainą, kad visada žinotumėte tikrąją maržą.",
+  "heroBullets": ["Medžiagų sąrašai ir gamybos užsakymai", "Automatinis atsargų sunaudojimas", "Tikra gamybos savikaina"],
+  "features": [
+    { "icon": "manufacturing", "title": "Medžiagų sąrašai", "desc": "Apibrėžkite, kas sudaro kiekvieną gaminį, su kiekiais ir surinkimo mazgais." },
+    { "icon": "doc", "title": "Gamybos užsakymai", "desc": "Planuokite ir sekite gamybos partijas nuo žaliavų iki gatavų atsargų." },
+    { "icon": "inventory", "title": "Automatiniai atsargų judėjimai", "desc": "Žaliavos sunaudojamos, o gatava produkcija pridedama jums gaminant." },
+    { "icon": "calc", "title": "Gamybos savikaina", "desc": "Sudėkite medžiagų ir pridėtines išlaidas į tikslią gatavos produkcijos vertę." },
+    { "icon": "chart", "title": "Matoma marža", "desc": "Palyginkite gamybos savikainą su pardavimo kaina ir matykite tikrąją kiekvienos prekės maržą." },
+    { "icon": "refresh", "title": "Susieta nuo pradžios iki galo", "desc": "Sujunkite pirkimus, atsargas ir pardavimus į vieną nenutrūkstamą srautą." }
+  ],
+  "sections": [
+    { "eyebrow": "Planuokite užtikrintai", "title": "Nuo receptūros iki gatavos produkcijos", "body": "Apibrėžkite medžiagų sąrašą vieną kartą, ir Paper & Pen tiksliai žinos, ką sunaudoja kiekviena gamyba. Sukurkite gamybos užsakymą, ir žaliavos bus rezervuotos bei sunaudotos, o gatava produkcija pridėta prie atsargų, su visais savikainos skaičiavimais už jus.", "items": ["Pakartotinai naudojami medžiagų sąrašai", "Gamybos užsakymai su atsargų rezervavimu", "Automatinis sunaudojimas ir gatavos produkcijos priėmimas"] },
+    { "eyebrow": "Žinokite tikrąją maržą", "title": "Savikaina, kuri sako tiesą", "body": "Spėlioti savikainą reiškia spėlioti pelną. Paper & Pen sudeda medžiagų ir pridėtines išlaidas į tikrą gatavos produkcijos savikainą, įrašo ją į apskaitą ir rodo maržą kiekviename pardavime. Veikia bet kokia valiuta, todėl galite pirkti ir parduoti per sienas.", "items": ["Medžiagų ir pridėtinių išlaidų savikaina", "Automatiškai įrašoma į apskaitą", "Marža kiekvienam gaminiui ir užsakymui"] }
+  ],
+  "faqs": [
+    { "q": "Ar gamyba nemokama?", "a": "Gamyba yra pasirenkamas mokamas priedas. Pagrindinis modulis Pardavimai ir sąskaitos nemokamas visam laikui, o Gamybą pridedate, kai gaminate prekes." },
+    { "q": "Ar galiu apibrėžti medžiagų sąrašus?", "a": "Taip. Sukurkite BOM kiekvienam gaminiui, įskaitant surinkimo mazgus, ir naudokite jį kiekvienoje gamybos partijoje." },
+    { "q": "Ar atsargos sunaudojamos automatiškai?", "a": "Taip. Kai vykdote gamybos užsakymą, žaliavos sunaudojamos, o gatava produkcija automatiškai pridedama prie atsargų." },
+    { "q": "Kaip apskaičiuojama gamybos savikaina?", "a": "Medžiagų ir pridėtinės išlaidos sudedamos į gatavos produkcijos vertę, kuri įrašoma į apskaitą, todėl jūsų maržos tikslios." },
+    { "q": "Ar tai veikia su bet kokia valiuta?", "a": "Taip. Pirkite medžiagas ir parduokite gatavą produkciją bet kokia valiuta, o savikaina ir apskaita lieka suderintos." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Tiksliai apskaičiuokite kiekvieną gamybą",
+  "ctaSub": "Pradėkite nemokamai nuo sąskaitų ir pridėkite Gamybą, kad planuotumėte gamybą ir žinotumėte tikrąją maržą."
+}

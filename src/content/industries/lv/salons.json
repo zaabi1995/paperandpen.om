@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "salons",
+  "order": 5,
+  "title": "Saloni un SPA",
+  "metaTitle": "Salonu norēķinu, personāla un krājumu programma | Paper & Pen",
+  "metaDescription": "Bezmaksas norēķini, produktu krājumi, personāla algas un klientu vēsture saloniem, SPA un klīnikām. Ātri izraksti rēķinus, seko produktiem, maksā personālam.",
+  "keywords": "salona programma, spa norēķini, erp salonam, skaistumkopšanas biznesa programma, personāla komisija, salona produktu krājumi, klientu vēsture",
+  "heroEyebrow": "Saloniem, SPA un klīnikām",
+  "heroTitle": "Ātri norēķini par pakalpojumiem, <em class=\"text-copper-400 not-italic\">tuvas attiecības ar klientiem</em>",
+  "heroSubtitle": "Noformē pakalpojumus un preces dažās sekundēs, seko izmantotajiem produktiem un maksā personālam ar automātiski aprēķinātu komisiju. Paper & Pen vada reģistratūru, noliktavu un grāmatvedību kopā.",
+  "heroBullets": ["Bezmaksas, ātri norēķini par pakalpojumiem", "Mazumtirdzniecības produktu krājumi", "Personāla algas un komisija"],
+  "features": [
+    { "icon": "receipt", "title": "Ātri norēķini", "desc": "Pievieno pakalpojumus un preces, pieņem samaksu un kopīgo čeku dažās sekundēs." },
+    { "icon": "users", "title": "Klientu vēsture", "desc": "Glabā kontaktinformāciju un iepriekšējos apmeklējumus, lai katrs klients justos atcerēts." },
+    { "icon": "inventory", "title": "Produktu krājumi", "desc": "Seko pārdošanas un darba produktiem pēc vienības un partijas, ar brīdinājumiem par zemiem atlikumiem." },
+    { "icon": "hr", "title": "Personāls un komisija", "desc": "Aprēķini algas un personāla komisiju par pakalpojumiem un preču pārdošanu." },
+    { "icon": "whatsapp", "title": "Čeki WhatsApp", "desc": "Sūti čekus un turpmākos ziņojumus klientiem WhatsApp vienā pieskārienā." },
+    { "icon": "chart", "title": "Pakalpojumu atskaites", "desc": "Redzi populārākos pakalpojumus, noslogotākās stundas un ieņēmumus pa darbiniekiem vai filiālēm." }
+  ],
+  "sections": [
+    { "eyebrow": "Raitāka reģistratūra", "title": "Norēķini, ko tavi klienti novērtēs", "body": "Pievieno rēķinam pakalpojumus un jebkādas preces, piemēro atlaidi vai paketi, pieņem samaksu un kopīgo tīru čeku WhatsApp, vēl pirms klients piecēlies no krēsla. Klienta dati un apmeklējumu vēsture ir tajā pašā ekrānā, tāpēc komanda var sveikt pastāvīgos klientus vārdā un ieteikt piemērotu nākamo pakalpojumu.", "items": ["Pakalpojumi un preces vienā rēķinā", "Čeki uzreiz kopīgoti WhatsApp", "Klienta kontakti un apmeklējumu vēsture pa rokai"] },
+    { "eyebrow": "Krājumi un personāls kārtībā", "title": "Produkti uzskaitīti, personālam samaksāts pareizi", "body": "Darba produkti aiziet pa durvīm, ja neviens neseko. Paper & Pen uzskaita pārdošanas un profesionālos produktus pēc vienības un partijas, brīdina par zemiem atlikumiem un sasaista patēriņu ar pārdošanu. Aprēķini algas savai komandai un ļauj sistēmai aprēķināt komisiju par pakalpojumiem un precēm, ko viņi pārdod. Radīts Omānā ar iebūvētiem OMR, AED un SAR un 5% PVN, un gatavs USD, EUR vai jebkuram tirgum un nodokļa likmei.", "items": ["Pārdošanas un darba produktu krājumi ar brīdinājumiem", "Algas ar automātisku komisiju", "Jebkura valūta, jebkura nodokļa likme, gatavs PVN"] }
+  ],
+  "faqs": [
+    { "q": "Vai varu vienā rēķinā iekļaut pakalpojumus un preces?", "a": "Jā. Pievieno vienam rēķinam jebkuru pakalpojumu un preču kombināciju, piemēro atlaides vai paketes, pieņem samaksu un uzreiz kopīgo čeku." },
+    { "q": "Vai varu aprēķināt personāla komisiju?", "a": "Jā. Modulis Personāls un algas var aprēķināt komisiju par pakalpojumiem un precēm, ko pārdod katrs darbinieks, un aprēķināt viņa algu." },
+    { "q": "Vai tā glabā klientu vēsturi?", "a": "Jā. Glabā kontaktinformāciju un iepriekšējos apmeklējumus, lai komanda atpazītu pastāvīgos klientus un ieteiktu piemērotu nākamo pakalpojumu." },
+    { "q": "Vai varu uzskaitīt produktu krājumus?", "a": "Jā. Ar Noliktavas moduli seko pārdošanas un darba produktiem pēc vienības un partijas, ar brīdinājumiem par zemiem atlikumiem." },
+    { "q": "Vai salonam norēķini ir bez maksas?", "a": "Pārdošana un rēķini, ieskaitot čekus un klientu kartītes, ir bez maksas uz visiem laikiem. Pievieno Noliktavu un Personālu un algas krājumiem un komisijai." }
+  ],
+  "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
+  "ctaTitle": "Vadi salonu, nevis dokumentus",
+  "ctaSub": "Sāc bez maksas ar norēķiniem par pakalpojumiem un klientu kartītēm, tad pievieno Noliktavu un Algas krājumiem un komisijai."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "lt",
+  "slug": "salons",
+  "order": 5,
+  "title": "Grožio salonai ir SPA",
+  "metaTitle": "Salonų sąskaitų, personalo ir atsargų programa | Paper & Pen",
+  "metaDescription": "Nemokamos sąskaitos, prekių atsargos, darbuotojų atlyginimai ir klientų istorija grožio salonams, SPA ir klinikoms. Greitai išrašykite sąskaitas už paslaugas, mokėkite darbuotojams.",
+  "keywords": "grožio salono programa, spa sąskaitos, salono erp, grožio verslo programa, darbuotojų komisiniai, salono prekių atsargos, klientų istorija",
+  "heroEyebrow": "Salonams, SPA ir klinikoms",
+  "heroTitle": "Greitai išrašykite sąskaitas už paslaugas, <em class=\"text-copper-400 not-italic\">išlaikykite klientus arti</em>",
+  "heroSubtitle": "Per kelias sekundes užregistruokite paslaugas ir prekes, sekite naudojamas priemones ir mokėkite darbuotojams su už jus apskaičiuotais komisiniais. Paper & Pen kartu valdo registratūrą, sandėliuką ir apskaitą.",
+  "heroBullets": ["Nemokamos ir greitos sąskaitos už paslaugas", "Parduodamų prekių atsargos", "Darbuotojų atlyginimai ir komisiniai"],
+  "features": [
+    { "icon": "receipt", "title": "Greitos sąskaitos", "desc": "Pridėkite paslaugas ir parduodamas prekes, priimkite mokėjimą ir per kelias sekundes pasidalykite kvitu." },
+    { "icon": "users", "title": "Klientų istorija", "desc": "Laikykite kontaktus ir ankstesnius vizitus, kad kiekvienas klientas jaustųsi prisimenamas." },
+    { "icon": "inventory", "title": "Prekių atsargos", "desc": "Sekite parduodamas ir darbui naudojamas priemones pagal vienetą ir partiją, su įspėjimais apie mažas atsargas." },
+    { "icon": "hr", "title": "Darbuotojai ir komisiniai", "desc": "Skaičiuokite darbo užmokestį ir darbuotojų komisinius už paslaugas bei prekių pardavimą." },
+    { "icon": "whatsapp", "title": "Kvitai per WhatsApp", "desc": "Vienu prisilietimu siųskite klientams kvitus ir priminimus per WhatsApp." },
+    { "icon": "chart", "title": "Paslaugų ataskaitos", "desc": "Matykite populiariausias paslaugas, užimtiausias valandas ir pajamas pagal darbuotoją ar filialą." }
+  ],
+  "sections": [
+    { "eyebrow": "Sklandesnė registratūra", "title": "Sąskaitos, kurias įvertins jūsų klientai", "body": "Pridėkite paslaugas ir parduodamas prekes į vieną sąskaitą, pritaikykite nuolaidą ar paketą, priimkite mokėjimą ir pasidalykite tvarkingu kvitu per WhatsApp dar klientui neatsikėlus iš kėdės. Kliento duomenys ir vizitų istorija tame pačiame ekrane, todėl komanda gali pasveikinti nuolatinius klientus vardu ir pasiūlyti tinkamą tolesnę paslaugą.", "items": ["Paslaugos ir prekės vienoje sąskaitoje", "Kvitai iš karto siunčiami per WhatsApp", "Kliento kontaktai ir vizitų istorija po ranka"] },
+    { "eyebrow": "Atsargos ir personalas sutvarkyti", "title": "Prekės sekamos, darbuotojams mokama teisingai", "body": "Darbui naudojamos priemonės išeina pro duris, jei niekas nestebi. Paper & Pen seka parduodamas ir profesionalias priemones pagal vienetą ir partiją, praneša apie mažas atsargas ir sieja sunaudojimą su pardavimais. Skaičiuokite komandos darbo užmokestį ir leiskite sistemai apskaičiuoti komisinius už jų parduotas paslaugas ir prekes. Sukurta Omane su vietiniais OMR, AED ir SAR bei 5 % PVM ir paruošta USD, EUR ar bet kuriai rinkai ir mokesčio tarifui.", "items": ["Parduodamų ir darbo priemonių atsargos su įspėjimais", "Darbo užmokestis su automatiniais komisiniais", "Bet kokia valiuta, bet koks mokesčio tarifas, paruošta PVM"] }
+  ],
+  "faqs": [
+    { "q": "Ar galiu išrašyti vieną sąskaitą už paslaugas ir prekes?", "a": "Taip. Pridėkite bet kokį paslaugų ir prekių derinį į vieną sąskaitą, pritaikykite nuolaidas ar paketus, priimkite mokėjimą ir iš karto pasidalykite kvitu." },
+    { "q": "Ar galiu apskaičiuoti darbuotojų komisinius?", "a": "Taip. Modulis Personalas ir darbo užmokestis gali apskaičiuoti komisinius už kiekvieno darbuotojo parduotas paslaugas ir prekes bei paskaičiuoti jų atlyginimus." },
+    { "q": "Ar saugoma klientų istorija?", "a": "Taip. Saugokite kontaktus ir ankstesnius vizitus, kad komanda atpažintų nuolatinius klientus ir pasiūlytų tinkamą tolesnę paslaugą." },
+    { "q": "Ar galiu sekti prekių atsargas?", "a": "Taip. Su Atsargų moduliu sekite parduodamas ir darbui naudojamas priemones pagal vienetą ir partiją, su įspėjimais apie mažas atsargas." },
+    { "q": "Ar sąskaitos salonui nemokamos?", "a": "Pardavimai ir sąskaitos, įskaitant kvitus ir klientų įrašus, nemokami visam laikui. Pridėkite Atsargas ir Personalą ir darbo užmokestį atsargoms ir komisiniams." }
+  ],
+  "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
+  "ctaTitle": "Valdykite saloną, o ne popierius",
+  "ctaSub": "Pradėkite nemokamai nuo sąskaitų už paslaugas ir klientų įrašų, tada pridėkite Atsargas ir Darbo užmokestį atsargoms ir komisiniams."
+}

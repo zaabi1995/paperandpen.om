@@ -1,0 +1,35 @@
+{
+  "locale": "lv",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Grāmatvedība",
+  "metaTitle": "Grāmatvedības programma tiešsaistē ar auto uzskaiti · Paper & Pen",
+  "metaDescription": "Divkāršā ieraksta grāmatvedība, kas grāmato pati. Peļņas vai zaudējumu aprēķins un bilance reāllaikā, PVN deklarācijas, bankas saskaņošana, jebkura valūta.",
+  "keywords": "grāmatvedības programma, grāmatvedība tiešsaistē, divkāršais ieraksts, bilance, peļņas vai zaudējumu aprēķins, pvn deklarācija, bankas saskaņošana, virsgrāmata",
+  "heroEyebrow": "Papildmodulis",
+  "heroTitle": "Grāmatas, kas <em class=\"text-copper-400 not-italic\">sabalansējas pašas</em>",
+  "heroSubtitle": "Katrs rēķins, maksājums un pirkums automātiski nonāk pilnvērtīgā divkāršā ieraksta virsgrāmatā. Redzi peļņu, bilanci un nodokļu stāvokli reāllaikā, neaizskarot nevienu izklājlapu.",
+  "heroBullets": ["Automātisks divkāršais ieraksts, bez manuāliem kontējumiem", "Peļņas vai zaudējumu aprēķins un bilance reāllaikā", "PVN deklarācijas ar vienu klikšķi"],
+  "features": [
+    { "icon": "accounting", "title": "Automātiska uzskaite", "desc": "Pārdošana, maksājumi un izdevumi tiek grāmatoti virsgrāmatā tajā brīdī, kad tie notiek." },
+    { "icon": "chart", "title": "Finanses reāllaikā", "desc": "Peļņas vai zaudējumu aprēķins, bilance un naudas plūsma, vienmēr aktuāli." },
+    { "icon": "calc", "title": "PVN un nodokļu deklarācijas", "desc": "Seko priekšnodoklim un aprēķinātajam nodoklim un sagatavo iesniegšanai gatavu deklarāciju ar vienu klikšķi." },
+    { "icon": "refresh", "title": "Bankas saskaņošana", "desc": "Sasaisti bankas izraksta rindas ar rēķiniem un maksājumiem, lai grāmatas būtu kārtībā." },
+    { "icon": "doc", "title": "Pilnas virsgrāmatas", "desc": "No jebkuras atskaites nonāc līdz attaisnojuma dokumentam un kontējumam." },
+    { "icon": "globe", "title": "Vairākas valūtas", "desc": "Grāmato jebkurā valūtā ar automātisku valūtas kursa peļņu un zaudējumiem." }
+  ],
+  "sections": [
+    { "eyebrow": "Grāmatvedis nav obligāts", "title": "Grāmatvedība, kas darbojas fonā", "body": "Tev nav jābūt grāmatvedim, lai zinātu, vai uzņēmums pelna. Rēķini, maksājumi un noliktava papildina vienu un to pašu virsgrāmatu, tāpēc tavi konti ir pareizi bez manuāliem kontējumiem. Atver paneli, un peļņa, debitori un nodokļi ir turpat.", "items": ["Divkāršais ieraksts notiek pats", "Katra atskaite ved līdz avotam", "Audita taka katram ierakstam"] },
+    { "eyebrow": "Jebkurai nodokļu sistēmai", "title": "Nodokļi un atbilstība visur, kur tu strādā", "body": "Iestati savas valsts nodokļu likmes un kontus, tostarp pielāgojamu PVN Persijas līča valstīm, un Paper & Pen sekos priekšnodoklim un aprēķinātajam nodoklim tavā vietā. Sagatavo iesniegšanai gatavu deklarāciju, saskaņo banku un droši slēdz periodu jebkurā valūtā.", "items": ["Pielāgojami nodokļi jebkurai valstij", "Iesniegšanai gatavas PVN deklarācijas", "Bankas saskaņošana un perioda slēgšana"] }
+  ],
+  "faqs": [
+    { "q": "Vai man vajag grāmatvedības zināšanas?", "a": "Nē. Ieraksti tiek grāmatoti automātiski no taviem rēķiniem, maksājumiem un pirkumiem, tāpēc tev ir pareizas divkāršā ieraksta grāmatas bez kontējumu rakstīšanas." },
+    { "q": "Vai grāmatvedība ir bez maksas?", "a": "Grāmatvedība ir izvēles maksas papildmodulis. Pārdošana un rēķini ir bez maksas uz visiem laikiem, un Grāmatvedību tu ieslēdz, kad vajag pilnus finanšu pārskatus." },
+    { "q": "Vai tā sagatavo PVN deklarācijas?", "a": "Jā. Tā seko priekšnodoklim un aprēķinātajam nodoklim (piemēram, pielāgojamam PVN Persijas līča valstīs vai jebkurai tevis noteiktai likmei) un izveido iesniegšanai gatavu deklarāciju." },
+    { "q": "Vai tā atbalsta vairākas valūtas?", "a": "Jā. Grāmato un veido atskaites jebkurā valūtā ar automātisku valūtas kursa peļņu un zaudējumiem." },
+    { "q": "Vai varu saskaņot banku?", "a": "Jā. Importē vai sasaisti bankas izraksta rindas ar rēķiniem un maksājumiem, lai virsgrāmata vienmēr būtu saskaņota." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Precīzas grāmatas, automātiski",
+  "ctaSub": "Sāc bez maksas ar rēķiniem un ieslēdz Grāmatvedību, lai iegūtu finanšu pārskatus un nodokļu deklarācijas reāllaikā."
+}

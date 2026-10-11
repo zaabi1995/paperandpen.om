@@ -1,0 +1,35 @@
+{
+  "locale": "lt",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Atsargų valdymas",
+  "metaTitle": "Atsargų valdymo programa · Sandėlio apskaita · Paper & Pen",
+  "metaDescription": "Sekite atsargas keliuose sandėliuose realiuoju laiku: įspėjimai apie mažas atsargas, partijos ir brūkšniniai kodai, vertinimas įrašomas į apskaitą. Veikia visame pasaulyje.",
+  "keywords": "atsargų valdymas, sandėlio apskaita, sandėlio programa, atsargų kontrolė, brūkšninių kodų skaitytuvas, atsargų vertinimas, keli sandėliai",
+  "heroEyebrow": "Papildomas modulis",
+  "heroTitle": "Atsargos, kuriomis galite <em class=\"text-copper-400 not-italic\">pasitikėti</em>, realiuoju laiku",
+  "heroSubtitle": "Tiksliai žinokite, ką turite, kur tai yra ir kiek tai vertas. Atsargos atnaujinamos tą akimirką, kai išrašote sąskaitą ar priimate prekes, todėl skaičiai visada aktualūs.",
+  "heroBullets": ["Aktualios atsargos visuose sandėliuose", "Įspėjimai apie mažas atsargas ir užsakymą", "Vertinimas įrašomas į apskaitą"],
+  "features": [
+    { "icon": "inventory", "title": "Atsargos realiuoju laiku", "desc": "Kiekiai atnaujinami tą akimirką, kai parduodate, perkate ar perkeliate prekes." },
+    { "icon": "truck", "title": "Keli sandėliai", "desc": "Sekite ir perkelkite atsargas tarp vietų ir filialų, viską matydami." },
+    { "icon": "bell", "title": "Įspėjimai apie mažas atsargas", "desc": "Nustatykite užsakymo ribas ir gaukite įspėjimą, kol paklausi prekė dar nesibaigė." },
+    { "icon": "receipt", "title": "Brūkšniniai kodai ir SKU", "desc": "Skenuokite inventorizuodami ar perkeldami atsargas, viskas sutvarkyta pagal SKU, partiją ir matavimo vienetą." },
+    { "icon": "calc", "title": "Vertinimas realiuoju laiku", "desc": "Vidutinės savikainos arba FIFO metodas palaiko tikslią atsargų vertę balanse." },
+    { "icon": "refresh", "title": "Susieta su pardavimais", "desc": "Sąskaitos ir pirkimo užsakymai keičia atsargas automatiškai, be rankinių pataisymų." }
+  ],
+  "sections": [
+    { "eyebrow": "Visada tikslu", "title": "Atsargos, kurios atsinaujina pačios", "body": "Rankinė inventorizacija pasensta tą akimirką, kai ką nors parduodate. Paper & Pen kiekviena sąskaita, pirkimas ir perkėlimas koreguoja atsargas ir savikainą realiuoju laiku, todėl skaičius ekrane sutampa su tuo, kas yra lentynoje. Nustatykite užsakymo ribas, ir sistema pasakys, kada pirkti.", "items": ["Automatiškai koreguojama po kiekvienos operacijos", "Užsakymo ribos ir įspėjimai", "Partijų, SKU ir matavimo vienetų sekimas"] },
+    { "eyebrow": "Atsargos susitinka su apskaita", "title": "Nuo lentynos iki balanso", "body": "Atsargos yra ne tik dėžių skaičiavimas, tai tikri pinigai jūsų balanse. Paper & Pen vertina atsargas vidutinės savikainos arba FIFO metodu ir automatiškai įrašo judėjimus į apskaitą, todėl parduotų prekių savikaina ir atsargų vertė visada suderintos. Veikia bet kokia valiuta ir bet kurioje rinkoje.", "items": ["Vidutinė savikaina arba FIFO", "Automatiškai įrašoma į apskaitą", "Pirkimai įvairiomis valiutomis"] }
+  ],
+  "faqs": [
+    { "q": "Ar atsargos įtrauktos nemokamai?", "a": "Atsargos yra pasirenkamas mokamas priedas. Pagrindinis modulis Pardavimai ir sąskaitos nemokamas visam laikui, o Atsargas pridedate, kai reikia atsargų kontrolės realiuoju laiku." },
+    { "q": "Ar galiu valdyti kelis sandėlius?", "a": "Taip. Sekite atsargas kiekvienoje vietoje, perkelkite tarp jų ir visur matykite aktualius kiekius." },
+    { "q": "Ar palaikomi brūkšniniai kodai?", "a": "Taip. Nuskenuokite tiekėjo brūkšninį kodą, SKU arba atspausdintą QR etiketę, kad greičiau inventorizuotumėte ir perkeltumėte atsargas, su partijų ir matavimo vienetų palaikymu." },
+    { "q": "Kaip vertinamos atsargos?", "a": "Pasirinkite vidutinę savikainą arba FIFO. Vertinimas atnaujinamas po kiekvieno judėjimo ir automatiškai įrašomas į apskaitą." },
+    { "q": "Ar pardavimas automatiškai atnaujina atsargas?", "a": "Taip. Sąskaitos mažina atsargas, o pirkimai jas didina realiuoju laiku, todėl niekada nekeičiate kiekių ranka." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Perimkite atsargų kontrolę",
+  "ctaSub": "Pradėkite nemokamai nuo sąskaitų ir pridėkite Atsargas, kai būsite pasiruošę matyti atsargas realiuoju laiku kiekvienoje vietoje."
+}

@@ -1,0 +1,38 @@
+{
+  "locale": "lt",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Nemokama PVM ir mokesčių skaičiuoklė",
+  "metaTitle": "Omano PVM skaičiuoklė: pridėkite arba išskaičiuokite 5 % PVM",
+  "metaDescription": "Apskaičiuokite Omano 5 % PVM internetu. Pridėkite PVM prie grynosios sumos arba išskaičiuokite jį iš bendros sumos ir iš karto matykite sumą be PVM, PVM ir bendrą sumą, be registracijos.",
+  "keywords": "pvm skaičiuoklė, omano pvm skaičiuoklė, mokesčių skaičiuoklė, pridėti pvm, išskaičiuoti pvm, 5 procentų pvm skaičiuoklė, pvm skaičiavimas, atvirkštinis pvm skaičiavimas",
+  "heroEyebrow": "Nemokamai · Be registracijos",
+  "heroTitle": "Nemokama <em class=\"text-copper-400 not-italic\">PVM ir mokesčių</em> skaičiuoklė",
+  "heroSubtitle": "Apskaičiuokite Omano 5 % PVM internetu. Pridėkite PVM prie grynosios sumos arba išskaičiuokite jį iš bendros sumos ir iš karto matykite sumą be PVM, PVM ir bendrą sumą, be registracijos.",
+  "heroBullets": ["Bet koks tarifas, bet kokia valiuta", "Pridėkite arba išskaičiuokite mokestį", "Nemokamai visam laikui, be registracijos"],
+  "howToSteps": [
+    { "name": "Įveskite sumą", "text": "Įrašykite sumą, su kuria norite dirbti, ir pasirinkite valiutą." },
+    { "name": "Nustatykite mokesčio tarifą", "text": "Naudokite numatytąjį Omano 5 % tarifą arba įveskite dabartinį tarifą, taikomą jūsų operacijai." },
+    { "name": "Pasirinkite pridėti ar išskaičiuoti", "text": "Pridėkite mokestį prie grynosios sumos arba išskaičiuokite jį iš bendros sumos, kad rastumėte sumą be mokesčio (atvirkštinis PVM)." },
+    { "name": "Perskaitykite rezultatą", "text": "Iš karto matykite išskaidytą sumą be mokesčio, mokestį ir bendrą sumą, paruoštas nukopijuoti į sąskaitą." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Pridėkite arba išskaičiuokite mokestį", "desc": "Apskaičiuokite mokestį nuo grynosios sumos arba vienu paspaudimu išskaičiuokite jį iš bendros sumos." },
+    { "icon": "globe", "title": "Bet koks tarifas, bet kokia valiuta", "desc": "Pagal nutylėjimą Omano 5 % arba jums taikomas tarifas, OMR, AED, SAR, USD, EUR ir kitomis valiutomis." },
+    { "icon": "bolt", "title": "Akimirksniu ir nemokamai", "desc": "Be registracijos, be apribojimų. Suma be mokesčio, mokestis ir bendra suma vos tik įvedate." }
+  ],
+  "sections": [
+    { "title": "Kodėl verta naudoti Paper & Pen PVM skaičiuoklę?", "body": "Nesvarbu, ar skaičiuojate pasiūlymo kainą, tikrinate sąskaitą ar teikiate deklaraciją, suma be mokesčio, mokestis ir bendra suma turi sutapti iki paskutinio skaitmens. Ši skaičiuoklė tvarko bet kokį tarifą bet kokia valiuta, veikia abiem kryptimis (prideda mokestį arba jį išskaičiuoja iš sumos) ir yra tikrai nemokama. Ji atsidaro su Omano 5 % tarifu ir visiškai pritaikoma kitoms jurisdikcijoms." },
+    { "eyebrow": "Daugiau nei skaičiuoklė", "title": "Leiskite programai skaičiuoti PVM už jus", "body": "Skaičiuoti mokestį ranka kiekvienoje eilutėje lėta ir lengva suklysti. Pilnoje Paper & Pen ERP sistemoje PVM automatiškai taikomas kiekvienos sąskaitos grynajai sumai po nuolaidų, įrašomas į apskaitą ir sudedamas į deklaracijai paruoštas ataskaitas, todėl skaičiuoklės nebereikia visai.", "items": ["Automatinis mokestis kiekvienoje sąskaitoje ir pasiūlyme", "Mokesčių tarifai kiekvienai prekei ir dokumentui", "PVM suvestinės ataskaitos, paruoštos deklaruoti"] }
+  ],
+  "faqs": [
+    { "q": "Kokį tarifą naudoja ši Omano PVM skaičiuoklė?", "a": "Skaičiuoklė atsidaro su Omano 5 % tarifu. Mokesčių taisyklės gali keistis, todėl prieš remdamiesi skaičiavimu pasitikrinkite dabartinį tarifą Oman Tax Authority. Galite įvesti bet kokį tarifą." },
+    { "q": "Kaip išskaičiuoti PVM iš bendros sumos?", "a": "Pasirinkite išskaičiavimo (atvirkštinio skaičiavimo) parinktį ir įveskite bendrą sumą. Skaičiuoklė apskaičiuos sumą be mokesčio ir į bendrą sumą įskaičiuotą mokesčio dalį." },
+    { "q": "Ar galiu ją naudoti pardavimo mokesčiui už Omano ribų?", "a": "Taip. Nustatykite jūsų operacijai taikomą tarifą ir pasirinkite bet kokią valiutą. Ji tinka PVM, GST ar pardavimo mokesčiui bet kurioje pasaulio vietoje." },
+    { "q": "Ar ji skaičiuoja mokestį nuo sumos su nuolaida?", "a": "Įveskite grynąją sumą po nuolaidos ir pridėkite prie jos mokestį. Automatiniam PVM po nuolaidų pilnose sąskaitose susikurkite nemokamą Paper & Pen darbo erdvę, kur tai sutvarkoma už jus." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Nebeskaičiuokite PVM ranka",
+  "ctaSub": "Taikykite mokestį automatiškai kiekvienoje sąskaitoje ir gaukite deklaracijai paruoštas PVM ataskaitas su nemokama Paper & Pen darbo erdve."
+}

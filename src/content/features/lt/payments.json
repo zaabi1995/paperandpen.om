@@ -1,0 +1,35 @@
+{
+  "locale": "lt",
+  "slug": "payments",
+  "order": 10,
+  "title": "Mokėjimai",
+  "metaTitle": "Sąskaitų apmokėjimas internetu · Gaukite pinigus greičiau · Paper & Pen",
+  "metaDescription": "Pridėkite mokėjimo internetu nuorodą prie kiekvienos sąskaitos ir gaukite apmokėjimą kortele. Paymob ir pasauliniai šliuzai, bet kokia valiuta, automatinis suderinimas.",
+  "keywords": "mokėjimai internetu, mokėjimai kortele, apmokėti sąskaitą internetu, paymob, mokėjimų šliuzas, greitesnis apmokėjimas, mokėjimo nuoroda",
+  "heroEyebrow": "Įdiegta",
+  "heroTitle": "Leiskite klientams sumokėti <em class=\"text-copper-400 not-italic\">vienu prisilietimu</em>",
+  "heroSubtitle": "Pridėkite saugią mokėjimo internetu nuorodą prie kiekvienos sąskaitos, kad klientai iš karto sumokėtų kortele. Mokėjimai automatiškai suderinami su apskaita, bet kokia valiuta, bet kur.",
+  "heroBullets": ["Mokėjimo nuoroda kiekvienoje sąskaitoje", "Automatiškai suderinama su didžiąja knyga", "Paymob ir pasauliniai šliuzai"],
+  "features": [
+    { "icon": "card", "title": "Mokėjimas kortele", "desc": "Klientai apmoka bet kurią sąskaitą internetu kortele, be prisijungimo ar programėlės." },
+    { "icon": "bolt", "title": "Akimirksniu mokėjimo nuoroda", "desc": "Kiekvienoje sąskaitoje yra saugi nuoroda, kurią galima siųsti el. paštu ar WhatsApp." },
+    { "icon": "refresh", "title": "Automatinis suderinimas", "desc": "Sėkmingas mokėjimas pažymi sąskaitą kaip apmokėtą ir įrašomas į apskaitą." },
+    { "icon": "globe", "title": "Bet kokia valiuta", "desc": "Surinkite OMR, AED, SAR, USD, EUR ir kitomis valiutomis per tinkamą šliuzą." },
+    { "icon": "shield", "title": "Saugu ir atitinka PCI", "desc": "Kortelių duomenis tvarko sertifikuoti šliuzai, jūs jų niekada nesaugote." },
+    { "icon": "receipt", "title": "Kvitai išsiunčiami", "desc": "Klientai gauna automatinį kvitą tą akimirką, kai mokėjimas pavyksta." }
+  ],
+  "sections": [
+    { "eyebrow": "Gaukite pinigus greičiau", "title": "Pašalinkite kliūtis tarp sąskaitos ir pinigų", "body": "Kuo greičiau klientas gali sumokėti, tuo greičiau gaunate pinigus. Mokėjimo internetu nuoroda kiekvienoje sąskaitoje reiškia, kad nereikia kopijuoti banko rekvizitų ir laukti pervedimo. Klientas paspaudžia, sumoka kortele, o sąskaita atsinaujina pati ir kvitas jau keliauja.", "items": ["Mokėjimas kortele vienu prisilietimu", "Nuorodą galima siųsti WhatsApp ir el. paštu", "Automatiniai kvitai"] },
+    { "eyebrow": "Vietiniai ir pasauliniai", "title": "Tinkamas šliuzas jūsų rinkai", "body": "Paper & Pen jungia Paymob Persijos įlankos šalims ir kitus pasaulinius šliuzus, kad galėtumėte priimti korteles, kuriomis klientai iš tikrųjų naudojasi, jų valiuta. Kiekvienas atsiskaitymas suderinamas su tinkama sąskaita ir įrašomas į apskaitą, todėl pinigų surinkimas ir buhalterija eina koja kojon.", "items": ["Paymob Persijos įlankos šalims ir pasauliniai variantai", "Surinkimas įvairiomis valiutomis", "Suderinama su konkrečia sąskaita"] }
+  ],
+  "faqs": [
+    { "q": "Ar mokėjimų internetu įjungimas nemokamas?", "a": "Taip, mokėjimo internetu nuorodos įdiegtos. Mokėjimų šliuzas už kiekvieną operaciją ima savo apdorojimo mokestį, kaip visada daro šliuzai." },
+    { "q": "Kokie šliuzai palaikomi?", "a": "Paymob Persijos įlankos šalims ir kiti pasauliniai šliuzai, todėl galite priimti korteles, kuriomis klientai naudojasi, jų valiuta." },
+    { "q": "Ar mokėjimas automatiškai atnaujina sąskaitą?", "a": "Taip. Sėkmingas mokėjimas pažymi sąskaitą kaip apmokėtą, išsiunčia kvitą ir įrašo įrašą į apskaitą." },
+    { "q": "Ar klientai gali mokėti skirtingomis valiutomis?", "a": "Taip. Surinkite OMR, AED, SAR, USD, EUR ir kitomis valiutomis per tinkamą šliuzą." },
+    { "q": "Ar mokėjimas kortele saugus?", "a": "Taip. Kortelių duomenis tvarko PCI sertifikuoti šliuzai, Paper & Pen jų niekada nesaugo." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Paverskite sąskaitas pinigais akimirksniu",
+  "ctaSub": "Pradėkite nemokamai ir pridėkite mokėjimo internetu nuorodą prie kiekvienos sąskaitos, kad klientai galėtų sumokėti vienu prisilietimu."
+}
