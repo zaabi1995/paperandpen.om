@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Siirry pääsisältöön",
+    "included": "Sisältyy",
+    "notIncluded": "Ei sisälly"
+  },
+  "nav": {
+    "features": "Ominaisuudet",
+    "solutions": "Ratkaisut",
+    "tools": "Ilmaiset työkalut",
+    "pricing": "Hinnat",
+    "compare": "Vertaa",
+    "login": "Kirjaudu",
+    "startFree": "Aloita ilmaiseksi",
+    "glossary": "Sanasto",
+    "home": "Etusivu",
+    "templates": "Laskupohjat",
+    "alternatives": "Vaihtoehdot",
+    "resources": "Resurssit",
+    "vat": "ALV maittain"
+  },
+  "mega": {
+    "invoicing": "Laskutus",
+    "quotations": "Tarjoukset ja arviot",
+    "inventory": "Varastonhallinta",
+    "accounting": "Kirjanpito",
+    "hr": "HR ja palkat",
+    "reports": "Raportit ja analytiikka",
+    "trading": "Kauppayritykset",
+    "retail": "Vähittäiskauppa ja myymälät",
+    "restaurants": "Ravintolat ja kahvilat",
+    "freelancers": "Freelancerit",
+    "accountants": "Tilitoimistot",
+    "invoiceGen": "Ilmainen laskugeneraattori",
+    "quotationGen": "Ilmainen tarjousgeneraattori",
+    "receiptGen": "Ilmainen kuittigeneraattori",
+    "vatCalc": "Omanin ALV-laskuri",
+    "allFeatures": "Tutustu kaikkiin ominaisuuksiin",
+    "allTools": "Kaikki ilmaiset työkalut",
+    "salescrm": "Myynti ja CRM",
+    "payments": "Maksut",
+    "manufacturing": "Tuotanto",
+    "multilang": "Monikielisyys",
+    "contracting": "Urakointi",
+    "manufacturingInd": "Valmistava teollisuus",
+    "wholesale": "Tukkukauppa ja jakelu",
+    "ecommerce": "Verkkokauppa",
+    "logistics": "Logistiikka ja kuljetus",
+    "estimateGen": "Ilmainen kustannusarviotyökalu",
+    "allIndustries": "Kaikki toimialat"
+  },
+  "sticky": {
+    "text": "Pyöritä yritystäsi ilmaiseksi. Aina."
+  },
+  "cta": {
+    "title": "Valmiina pyörittämään yritystäsi Paper & Penillä?",
+    "sub": "Luo ilmainen työtila alle 5 minuutissa. Myynti ja laskutus on ilmaista ikuisesti, eikä luottokorttia tarvita."
+  },
+  "proof": {
+    "builtInOman": "Tehty Omanissa · käytössä kaikkialla",
+    "free": "Myynti ja laskutus ilmaiseksi ikuisesti. Ei korttia.",
+    "languages": "5 kieltä, arabia ja urdu oikealta vasemmalle"
+  },
+  "hero": {
+    "badge": "Yrityksille kaikkialla",
+    "tagline_line1": "ERP, joka puhuu",
+    "tagline_line2": "sinun kieltäsi.",
+    "sub": "Hoida myynti, varasto, HR ja talous yhdellä pilvialustalla, 5 kielellä ja millä tahansa valuutalla.",
+    "cta": "Aloita ilmaiseksi",
+    "seeModules": "Katso moduulit",
+    "subdomainLabel": "Työtilasi osoite",
+    "subdomainPlaceholder": "yrityksesi",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "on vapaana",
+    "taken_short": "on jo varattu",
+    "checking": "Tarkistetaan saatavuutta...",
+    "subdomainError": "Saatavuutta ei voi tarkistaa juuri nyt. Voit silti jatkaa.",
+    "trialNote": "Ilmainen ikuisesti · Ei luottokorttia · Lisää moduuleja milloin vain",
+    "card_title": "Tämän päivän katsaus",
+    "stat1_label": "Liikevaihto tässä kuussa",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Avoimet laskut",
+    "stat2_value": "12",
+    "stat3_label": "Lomalla",
+    "stat3_value": "2",
+    "card_progress": "Kuukausitavoite: 75 % saavutettu",
+    "trust_count": "Tehty Omanissa",
+    "trust_label": "Persianlahden yrityksille"
+  },
+  "languages": {
+    "eyebrow": "Monikielinen · Monivaluuttainen",
+    "title": "Tehty jokaiselle tiimille, jokaisille markkinoille",
+    "sub": "Vaihda heti arabian, englannin, hindin, bengalin ja urdun välillä ja laskuta millä tahansa valuutalla. Tietosi pysyvät samoina, vain käyttöliittymän kieli vaihtuu."
+  },
+  "modules": {
+    "eyebrow": "Modulaarinen alusta asti",
+    "title": "Kaikki moduulit, joita yrityksesi tarvitsee",
+    "sub": "Aloita myynnistä ja laskutuksesta ja ota moduuleja käyttöön kasvaessasi: CRM:stä ja HR:stä tuotantoon, pankkiin ja AI:hin. Yksi järjestelmä koko yritykselle.",
+    "included": "Sisältyy",
+    "omrPerMonth": "OMR/kk",
+    "estimateLabel": "Arvioitu hintasi",
+    "omr_mo": "OMR/kk",
+    "base_label": "Perusosa",
+    "addons_label": "lisäosat",
+    "estimateNote": "Perustuu valittuihin moduuleihin. Käyttäjät laskutetaan erikseen.",
+    "startTrial": "Aloita ilmaiseksi",
+    "sales": {
+      "title": "Myynti ja CRM",
+      "desc": "Tarjoukset, laskut, asiakasputki, maksujen seuranta ja muistutukset."
+    },
+    "inventory": {
+      "title": "Varasto",
+      "desc": "Seuraa saldoja, sijainteja ja tilausrajoja reaaliajassa."
+    },
+    "hr": {
+      "title": "HR ja palkat",
+      "desc": "Läsnäolo, lomat ja poissaolot, palkanlaskenta ja työntekijäportaali."
+    },
+    "accounting": {
+      "title": "Kirjanpito",
+      "desc": "Kahdenkertainen kirjanpito, pankkitäsmäytys ja ALV-ilmoitukset."
+    },
+    "manufacturing": {
+      "title": "Tuotanto",
+      "desc": "Materiaaliluettelot, työtilaukset ja tuotannon suunnittelu."
+    },
+    "reports": {
+      "title": "Raportit ja analytiikka",
+      "desc": "Tuloslaskelma, kassavirta, myyntisaamisten ikäjakauma ja omat näkymät."
+    },
+    "pricePerMonth": "+{{price}} OMR/kk",
+    "ctaTitle": "Valmiina pyörittämään yritystäsi Paper & Penillä?",
+    "ctaSub": "Käyttöön minuuteissa. Ota käyttöön tarvitsemasi moduulit."
+  },
+  "pricing": {
+    "eyebrow": "Hinnat",
+    "title": "Selkeät ja rehelliset hinnat",
+    "sub": "Aloita ilmaiseksi: myynti ja laskutus maksaa aina nolla. Lisää moduuleja kasvaessasi.",
+    "monthly": "Kuukausittain",
+    "annual": "Vuosittain",
+    "perMonth": "/kk",
+    "perYear": "/v",
+    "annualSave": "Säästä 20 %",
+    "startTrial": "Aloita ilmaiseksi",
+    "mostPopular": "Suosituin",
+    "free_label": "Ilmainen",
+    "unlimited": "Rajaton",
+    "users": "käyttäjää",
+    "buildYourOwn": "Kokoa oma pakettisi",
+    "trialNote": "Ilmainen paketti ikuisesti · Ei luottokorttia · Päivitä milloin vain",
+    "addModules": "Lisää moduuleja",
+    "base": {
+      "title": "Myynti ja laskutus, ilmainen ikuisesti",
+      "desc": "Tarjoukset, laskut ja maksut enintään 3 käyttäjälle. Ei luottokorttia."
+    },
+    "free": {
+      "name": "Ilmainen",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Myynti ja laskutus, ilmainen ikuisesti",
+      "features": [
+        "Enintään 3 käyttäjää",
+        "Myynti ja laskutus",
+        "Tarjoukset ja maksut",
+        "Perusraportit",
+        "Ei luottokorttia"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "Kasvaville yrityksille, jotka tarvitsevat enemmän",
+      "features": [
+        "Enintään 20 käyttäjää",
+        "Kaikki Ilmaisen paketin ominaisuudet",
+        "Varastomoduuli",
+        "HR ja palkat",
+        "Monivaluuttaisuus",
+        "WhatsApp-ilmoitukset",
+        "Etusijatuki"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "Täysi ERP vakiintuneille yrityksille",
+      "features": [
+        "Rajaton määrä käyttäjiä",
+        "Kaikki Growth-paketin ominaisuudet",
+        "Kirjanpito ja pankkiyhteys",
+        "Tuotanto",
+        "Edistynyt analytiikka",
+        "API-pääsy",
+        "Oma tukihenkilö"
+      ]
+    },
+    "addons": {
+      "title": "Tarvitsetko jotain tiettyä?",
+      "subtitle": "Lisää yksittäisiä moduuleja mihin tahansa pakettiin. Maksa vain siitä, mitä tarvitset.",
+      "whatsapp_name": "WhatsApp-ilmoitukset",
+      "whatsapp_desc": "{{price}} OMR/kk",
+      "extraUsers_name": "Lisäkäyttäjät",
+      "extraUsers_desc": "Alkaen {{price}} OMR/käyttäjä/kk",
+      "extraStorage_name": "Lisätallennustila",
+      "extraStorage_desc": "{{price}} OMR per 5 Gt/kk"
+    },
+    "headLead": "Selkeät ja rehelliset",
+    "headAccent": "hinnat",
+    "planWord": "Paketti",
+    "billedMonthly": "Laskutetaan kuukausittain",
+    "billedAnnually": "Laskutetaan vuosittain",
+    "billingPeriod": "Laskutuskausi",
+    "worldwideNote": "Yksi maailmanlaajuinen hinnasto Omanin rialeina (OMR). Maksa kortilla mistä päin maailmaa tahansa.",
+    "compareTitle": "Vertaa pakettien kaikkia ominaisuuksia",
+    "compareFeature": "Ominaisuus",
+    "compareUsers": "Käyttäjät",
+    "compareGroupCore": "Kaikissa paketeissa",
+    "compareGroupAdded": "Lisätty paketissa {{plan}}",
+    "included": "Sisältyy",
+    "notIncluded": "Ei sisälly",
+    "scrollHint": "Pyyhkäise taulukkoa sivuttain vertaillaksesi paketteja",
+    "selectPlan": "Valitse paketti"
+  },
+  "compare": {
+    "eyebrow": "Miksi Paper & Pen",
+    "title": "Miten vertaudumme muihin",
+    "feature": "Ominaisuus",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Täysi arabiankielinen käyttöliittymä oikealta vasemmalle",
+      "gcc_pricing": "Persianlahden valuutat (OMR/BHD/AED)",
+      "free_trial": "Ikuisesti ilmainen paketti, ei korttia",
+      "local_support": "Paikallinen tuki Persianlahdella",
+      "multi_lang": "Käyttöliittymä 5 kielellä",
+      "paymob": "Paymob / paikalliset maksut",
+      "onboarding": "Itsepalvelukäyttöönotto < 5 min"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Kysymykset",
+    "title": "Kaikki, mitä sinun tarvitsee tietää"
+  },
+  "related": {
+    "title": "Tutustu lisää",
+    "termsTitle": "Tämän sivun käsitteet selitettynä",
+    "exploreTitle": "Tutustu Paper & Peniin"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | Ilmainen pilvi-ERP ja laskutusohjelma",
+    "homeDesc": "Ilmainen pilvi-ERP ja laskutus. Myynti, varasto, HR ja kirjanpito 5 kielellä ja millä tahansa valuutalla. Myynti ja laskutus ilmaiseksi ikuisesti.",
+    "fiTitle": "Ilmainen verkkolaskutusohjelma · Paper & Pen",
+    "fiDesc": "Luo ja lähetä ammattimaiset laskut yhdellä klikkauksella. Ilmainen verkkolaskutus: ALV, mikä tahansa valuutta, tarjoukset ja kuitit. Ilmainen ikuisesti.",
+    "pricingTitle": "Hinnat · Paper & Pen",
+    "pricingDesc": "Selkeät hinnat. Myynti ja laskutus ilmaiseksi ikuisesti. Lisää varasto, HR, kirjanpito ja muuta kasvaessasi. Ei luottokorttia. Säästä 20 % vuosittain.",
+    "faqTitle": "Usein kysytyt kysymykset · Paper & Pen ERP",
+    "faqDesc": "Vastauksia Paper & Penistä, ilmaisesta pilvi-ERP:stä ja laskutusohjelmasta: hinnat, ALV, arabia, moduulit, käyttöönotto ja muuta.",
+    "toolsTitle": "Ilmaiset liiketoimintatyökalut · Paper & Pen",
+    "toolsDesc": "Ilmaiset työkalut ilman rekisteröitymistä: laskugeneraattori, tarjoukset, kuitit, ostotilaukset, lähetteet ja säädettävä ALV-laskuri.",
+    "aboutTitle": "Tietoa Paper & Penistä · Ilmainen pilvi-ERP, BHD Group",
+    "aboutDesc": "Paper & Penin tekee Omanissa Paper and Pen Company LLC, osa BHD Groupia. Ilmainen pilvi-ERP yrityksille kaikkialla, arabia edellä ja monella valuutalla.",
+    "contactTitle": "Ota yhteyttä Paper & Peniin",
+    "contactDesc": "Ota yhteyttä Paper & Pen -tiimiin. WhatsApp +968 9889 9100 tai lähetä meille sähköpostia.",
+    "securityTitle": "Tietoturva ja tietosuoja · Paper & Pen",
+    "securityDesc": "Näin Paper & Pen suojaa yrityksesi tiedot: salaus, asiakaskohtainen eristys, varmuuskopiot, käyttöoikeudet ja PCI-DSS-maksut Paymobin kautta.",
+    "blogTitle": "Blogi · Paper & Pen ERP",
+    "signupTitle": "Luo ilmainen Paper & Pen -työtila",
+    "signupDesc": "Luo ilmainen Paper & Pen ERP -työtila alle 5 minuutissa. Myynti ja laskutus ilmaiseksi ikuisesti.",
+    "loginTitle": "Kirjaudu Paper & Peniin",
+    "loginDesc": "Kirjaudu Paper & Pen ERP -työtilaasi.",
+    "glossaryTitle": "Kirjanpidon sanasto · Paper & Pen",
+    "glossaryDesc": "Selkeät määritelmät kirjanpidon, laskutuksen, ALV:n ja varaston käsitteille, joita pienyritys kohtaa. Mukana kaavat ja laskuesimerkit.",
+    "templatesTitle": "Ilmaiset laskupohjat ammateittain · Paper & Pen",
+    "templatesDesc": "Laskupohjat ja laskutusohjeet urakoitsijoille, konsulteille, suunnittelijoille, käsityöläisille ja palveluille. Mitä laskuun kuuluu ja miten saat maksun.",
+    "altTitle": "Vaihtoehdot kirjanpito-ohjelmille · Paper & Pen",
+    "altDesc": "Harkitsetko kirjanpito-ohjelman vaihtamista? Mitä siirtyy, mitä ei, milloin vaihtaa ja kenen kannattaa pysyä nykyisessä.",
+    "compareTitle": "ERP- ja laskutusohjelmien vertailut | Paper & Pen",
+    "compareDesc": "Vertaa Paper & Peniä ERP-, kirjanpito- ja laskutusohjelmiin: hinnat, kielet, valuutat, veroasetukset, moduulit ja käytännön sopivuus.",
+    "industriesTitle": "ERP ja laskutusohjelma toimialoittain | Paper & Pen",
+    "industriesDesc": "Katso, miten Paper & Pen tukee laskutusta, varastoa, kirjanpitoa ja toimintaa 15 toimialalla, viidellä kielellä ja millä tahansa valuutalla.",
+    "vatTitle": "Persianlahden ALV ja verkkolaskutus maittain · Paper & Pen",
+    "vatDesc": "ALV-kannat, rekisteröintirajat, laskun vaatimukset ja verkkolaskutuksen tilanne Omanissa, Arabiemiirikunnissa, Saudi-Arabiassa ja Bahrainissa, lähteineen."
+  },
+  "toolsIndex": {
+    "title": "Ilmaiset liiketoimintatyökalut",
+    "sub": "Ei rekisteröitymistä, ei kustannuksia. Luo laskuja, tarjouksia, kuitteja ja muuta, ladattavissa PDF-muodossa, millä tahansa valuutalla ja säädettävällä ALV-kannalla."
+  },
+  "pages": {
+    "about": {
+      "title": "Tehty Omanissa Persianlahden yrityksille",
+      "lead": "Paper & Pen on pilvi-ERP, jota itse kaipasimme: niin yksinkertainen, että alkuun pääsee viidessä minuutissa, niin tehokas, että sillä pyörittää koko yrityksen, ja vihdoin tehty sitä varten, miten liiketoimintaa oikeasti tehdään Omanissa ja Persianlahdella.",
+      "body1": "Paper & Penin tekee Paper and Pen Company LLC, joka on osa Omanin Muscatissa toimivaa BHD Groupia. Teemme ohjelmistoja Omanissa, omanilaisten voimin, Persianlahden yrityksille. Arabia on täysivaltainen kieli, OMR-laskutus on rakennettu ytimeen ja paikalliset maksut toimivat valmiiksi.",
+      "body2": "Paper & Penin kautta kulkee tuhansia tarjouksia, laskuja ja maksuja. Myynti ja laskutus on ilmaista ikuisesti, koska jokainen yritys ansaitsee ammattimaiset työkalut. Maksat vasta, kun tarvitset varastoa, HR:ää, kirjanpitoa tai tuotantoa.",
+      "stat1": "Ilmainen ikuisesti",
+      "stat1l": "Myynti ja laskutus",
+      "stat2": "5",
+      "stat2l": "Kieltä",
+      "stat3": "< 5 min",
+      "stat3l": "Käyttöönottoon",
+      "stat4": "OMR",
+      "stat4l": "Sisäänrakennettu laskutus"
+    },
+    "contact": {
+      "title": "Ota yhteyttä",
+      "lead": "Kysymykset, esittelyt, kumppanuudet: vastaamme nopeasti. Nopeimmin tavoitat meidät WhatsAppissa.",
+      "whatsapp": "Keskustele WhatsAppissa",
+      "email": "Lähetä sähköpostia",
+      "hours": "Sunnuntai–torstai, 8.00–17.00 (GMT+4)"
+    },
+    "security": {
+      "title": "Tietosi ovat suojassa",
+      "lead": "Tietoturva ja yksityisyys on rakennettu Paper & Peniin alusta asti.",
+      "items": [
+        "Salattu siirrossa (TLS) ja levossa",
+        "Oma tietokanta jokaiselle asiakkaalle, tietojasi ei koskaan jaeta",
+        "Säännölliset automaattiset varmuuskopiot",
+        "Roolipohjaiset käyttöoikeudet ja lokitus",
+        "Maksut hoitaa Paymob, PCI-DSS-yhteensopiva maksupalvelu",
+        "Ylläpidetty suojatulla ja valvotulla infrastruktuurilla"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Paper & Pen -blogi",
+    "sub": "Oppaita laskutuksesta, ALV:stä, kirjanpidosta ja yrityksen pyörittämisestä Omanissa ja Persianlahdella.",
+    "readMore": "Lue lisää",
+    "empty": "Uusia artikkeleita on tulossa. Palaa pian.",
+    "backToBlog": "Kaikki artikkelit"
+  },
+  "fi": {
+    "crumb": "Ilmainen laskutusohjelma",
+    "eyebrow": "Ilmainen verkkolaskutus",
+    "title": "Ilmainen laskutusohjelma<br/>yrityksille <em class=\"text-copper-400 not-italic\">kaikkialla</em>",
+    "subtitle": "Luo ja lähetä ammattimaiset, verokelpoiset laskut yhdellä klikkauksella, millä tahansa valuutalla ja 5 kielellä. Tarjoukset, kuitit, maksumuistutukset ja täysi kirjanpito. Ilmainen ikuisesti.",
+    "b1": "Ilmainen ikuisesti, ei luottokorttia",
+    "b2": "Mikä tahansa valuutta ja säädettävä ALV",
+    "b3": "Lähetä WhatsAppilla tai sähköpostilla yhdellä klikkauksella",
+    "tryTool": "Kokeile ilmaista generaattoria",
+    "docsEyebrow": "Yksi alusta, kaikki asiakirjat",
+    "docsTitle": "Kaikki yrityksesi tarvitsemat asiakirjat",
+    "docsSub": "Ensimmäisestä tarjouksesta viimeiseen kuittiin Paper & Pen luo jokaisen asiakirjan, jonka yrityksesi lähettää, ja pitää ne järjestyksessä ja täsmäytettyinä automaattisesti.",
+    "docs": {
+      "invoices": {
+        "t": "Ammattimaiset laskut",
+        "d": "Muokattavat, ALV-valmiit laskut logollasi, lähetettynä sekunneissa."
+      },
+      "quotes": {
+        "t": "Tarjoukset ja arviot",
+        "d": "Voita kauppoja brändätyillä tarjouksilla, jotka muuttuvat laskuiksi yhdellä klikkauksella."
+      },
+      "proforma": {
+        "t": "Proformalaskut",
+        "d": "Laadi proformalaskuja ennakkomaksuja ja tullia varten."
+      },
+      "receipts": {
+        "t": "Maksukuitit",
+        "d": "Kuitit luodaan automaattisesti heti, kun maksu kirjataan."
+      },
+      "po": {
+        "t": "Ostotilaukset",
+        "d": "Laadi ja seuraa ostotilauksia toimittajillesi."
+      },
+      "delivery": {
+        "t": "Lähetteet",
+        "d": "Laadi lähetteet, jotka on linkitetty kuhunkin tilaukseen."
+      },
+      "recurring": {
+        "t": "Toistuvat laskut",
+        "d": "Automatisoi tilausten ja sopimusten toistuva laskutus."
+      },
+      "reminders": {
+        "t": "Maksumuistutukset",
+        "d": "Automaattiset, kohteliaat muistutukset, jotta saat rahasi ajallaan."
+      },
+      "share": {
+        "t": "Jako WhatsAppilla ja sähköpostilla",
+        "d": "Jaa mikä tahansa asiakirja WhatsAppilla tai sähköpostilla yhdellä napautuksella."
+      }
+    },
+    "s1": {
+      "eyebrow": "Saat rahat nopeammin",
+      "title": "Tarjouksesta maksuun ilman perintää",
+      "body": "Muuta tarjoukset laskuiksi, jaa WhatsAppilla ja anna automaattisten muistutusten hoitaa seuranta. Näet tarkasti, kuka on avannut laskun ja kuka maksanut.",
+      "i1": "Tarjous → lasku → kuitti yhdellä klikkauksella",
+      "i2": "Automaattiset maksumuistutukset",
+      "i3": "Verkkomaksu Paymobin kautta"
+    },
+    "s2": {
+      "eyebrow": "Säännöt kunnossa kaikkialla",
+      "title": "Mikä tahansa valuutta ja verokanta, hoidettuna puolestasi",
+      "body": "Laskuta millä tahansa valuutalla, aseta oma ALV- tai myyntiverokantasi ja työskentele arabiaksi tai englanniksi. Persianlahden yritykset saavat valmiina OMR/AED/SAR-laskutuksen, säädettävän ALV:n ja paikalliset maksut.",
+      "i1": "Säädettävä ALV tai myyntivero nettosummasta",
+      "i2": "Laskupohjat arabiaksi ja englanniksi",
+      "i3": "Veroilmoitukset ja raportit valmiina"
+    },
+    "cmpEyebrow": "Miksi vaihtaa",
+    "cmpTitle": "Ilmainen laskutusohjelma, joka on tehty juuri tähän",
+    "faq": {
+      "q1": "Onko laskutus todella ilmaista?",
+      "a1": "Kyllä. Laskutus, tarjoukset ja maksujen seuranta ovat ilmaisia ikuisesti enintään 3 käyttäjälle, eikä luottokorttia tarvita.",
+      "q2": "Toimiiko se Omanin 5 %:n ALV:n kanssa?",
+      "a2": "Kyllä. ALV lasketaan automaattisesti alennuksen jälkeisestä nettosummasta, ja voit tehdä määräysten mukaiset laskut ja ALV-ilmoitukset.",
+      "q3": "Voinko lähettää laskuja arabiaksi?",
+      "a3": "Kyllä. Laskut, tarjoukset ja kuitit näkyvät täysin arabiaksi (oikealta vasemmalle) tai englanniksi, ja kielen voi valita asiakirjakohtaisesti.",
+      "q4": "Voivatko asiakkaat maksaa verkossa?",
+      "a4": "Kyllä. Yhdistä Paymob, niin asiakkaat voivat maksaa laskut verkossa kortilla. Maksut täsmäytetään automaattisesti."
+    }
+  },
+  "pricingFaq": {
+    "q1": "Onko ilmainen paketti todella ilmainen ikuisesti?",
+    "a1": "Kyllä. Myynti ja laskutus on ilmaista ikuisesti enintään 3 käyttäjälle, ilman luottokorttia ja ilman päättymispäivää. Maksat vain, jos lisäät moduuleja, kuten varaston, HR:n tai kirjanpidon.",
+    "q2": "Voinko muuttaa tai lopettaa moduuleja myöhemmin?",
+    "a2": "Milloin vain. Lisää tai poista maksullisia moduuleja milloin haluat, ja laskutus mukautuu automaattisesti. Sitovaa sopimusta ei ole.",
+    "q3": "Miten minua laskutetaan ja missä valuutassa?",
+    "a3": "Laskutus tehdään Omanin rialeina (OMR) kolmen desimaalin tarkkuudella, kuukausittain tai vuosittain (vuosilaskutuksella säästät 20 %). Korttimaksut käsitellään turvallisesti Paymobin kautta."
+  },
+  "tool": {
+    "from": "Lähettäjä",
+    "billTo": "Laskutetaan",
+    "docNo": "Asiakirjan nro",
+    "date": "Päivämäärä",
+    "item": "Kuvaus",
+    "qty": "Määrä",
+    "rate": "À-hinta",
+    "amount": "Summa",
+    "addLine": "Lisää rivi",
+    "subtotal": "Välisumma",
+    "vat": "ALV",
+    "total": "Yhteensä",
+    "notes": "Lisätiedot",
+    "currency": "Valuutta",
+    "applyVat": "Lisää ALV / vero",
+    "print": "Lataa / tulosta PDF",
+    "yourCompany": "Yrityksesi Oy",
+    "clientName": "Asiakkaan nimi",
+    "signupCta": "Tallenna ja hallitse asiakirjojasi Paper & Penissä",
+    "labels": {
+      "invoice": "LASKU",
+      "quotation": "TARJOUS",
+      "proforma": "PROFORMALASKU",
+      "receipt": "KUITTI",
+      "purchase-order": "OSTOTILAUS",
+      "delivery-note": "LÄHETE",
+      "estimate": "KUSTANNUSARVIO",
+      "credit-note": "HYVITYSLASKU"
+    },
+    "vatCalc": {
+      "amount": "Summa",
+      "mode": "Laskutapa",
+      "addVat": "Lisää 5 % ALV",
+      "removeVat": "Poista ALV",
+      "net": "Veroton summa",
+      "vat": "ALV",
+      "gross": "Brutto (sis. ALV)"
+    },
+    "tryFull": "Kokeile koko ERP:tä",
+    "builderTitle": "Luo asiakirjasi",
+    "featuresHeading": "Miksi käyttää tätä ilmaista työkalua"
+  },
+  "homeFaq": {
+    "q1": "Onko Paper & Pen todella ilmainen?",
+    "a1": "Kyllä. Myynti ja laskutus -moduuli on ilmainen ikuisesti, ilman luottokorttia ja ilman aikarajaa. Voit luoda tarjouksia ja laskuja ja kirjata maksuja enintään 3 käyttäjälle. Lisää maksullisia moduuleja, kuten varasto, HR tai kirjanpito, vasta kun tarvitset niitä.",
+    "q2": "Toimiiko Paper & Pen arabiaksi?",
+    "a2": "Täysin. Koko käyttöliittymä on saatavilla arabiaksi oikealla oikealta vasemmalle -asettelulla, ja lisäksi englanniksi, hindiksi, bengaliksi ja urduksi. Vaihda kieltä milloin vain, tietosi pysyvät täsmälleen samoina.",
+    "q3": "Voinko käyttää Paper & Peniä Persianlahden ulkopuolella?",
+    "a3": "Kyllä. Paper & Penin tekee Omanissa Paper and Pen Company LLC (osa BHD Groupia), mutta se toimii yrityksille kaikkialla. Laskuta millä tahansa valuutalla, aseta oma verokantasi ja työskentele 5 kielellä. Persianlahden yritykset saavat lisäksi valmiina OMR/AED/SAR-laskutuksen, paikallisen ALV:n ja Paymob-maksut.",
+    "q4": "Kauanko käyttöönotto kestää?",
+    "a4": "Alle 5 minuuttia. Valitse työtilasi nimi, vahvista sähköpostisi, valitse moduulit, ja voit aloittaa laskutuksen. Ei asennusta, ei konsulttia, ei aloitusmaksua."
+  },
+  "trust": {
+    "eyebrow": "Miksi yritykset valitsevat meidät",
+    "title": "Tehty Omanissa. Yritysten luottama kaikkialla maailmassa.",
+    "sub": "Arabia edellä, monivaluuttainen ja verovalmis: Paper & Pen sopii yrityksille Persianlahdella ja kauempanakin. Samalla se säilyttää yksinkertaisuuden ja paikallisen tuen, jotka isommat alustat unohtivat.",
+    "cta": "Luo ilmainen työtilasi",
+    "stat1_value": "5",
+    "stat1_label": "Tuettua kieltä",
+    "stat2_value": "Ilmainen",
+    "stat2_label": "Ikuisesti, ei korttia",
+    "stat3_value": "RTL",
+    "stat3_label": "Arabia ja urdu tuettu",
+    "stat4_value": "Mikä vain",
+    "stat4_label": "Laskutusvaluutta"
+  },
+  "footer": {
+    "tagline": "Ilmainen pilvi-ERP kasvaville yrityksille kaikkialla. Tehty Omanissa.",
+    "product": "Tuote",
+    "tools": "Ilmaiset työkalut",
+    "company": "Yritys",
+    "about": "Tietoa meistä",
+    "blog": "Blogi",
+    "security": "Tietoturva",
+    "freeInvoicing": "Ilmainen laskutusohjelma",
+    "legal": "Juridiset tiedot",
+    "contact": "Yhteystiedot",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Käyttöehdot",
+    "privacy": "Tietosuojaseloste",
+    "status": "Kaikki järjestelmät toiminnassa",
+    "rights": "© {{year}} Paper and Pen Company LLC. Kaikki oikeudet pidätetään.",
+    "support": "Tuki",
+    "help": "Ohjekeskus",
+    "contactSupport": "Ota yhteyttä tukeen",
+    "statusPage": "Palvelun tila",
+    "resources": "Resurssit",
+    "faq": "UKK",
+    "invoices": "Laskut"
+  },
+  "signup": {
+    "title": "Luo työtilasi",
+    "step1": {
+      "title": "Mikä on yrityksesi nimi?",
+      "label": "Yrityksen nimi",
+      "placeholder": "Al Noor Trading LLC",
+      "subdomainLabel": "Työtilasi osoite on",
+      "next": "Jatka",
+      "subtitle": "Tästä tulee oma ERP-aliverkkotunnuksesi.",
+      "workspaceUrlLabel": "Työtilasi osoite:",
+      "available": "✓ Vapaana",
+      "taken": "✗ Varattu",
+      "checking": "tarkistetaan..."
+    },
+    "step2": {
+      "title": "Sähköpostisi",
+      "emailLabel": "Sähköpostiosoite",
+      "password": "Salasana",
+      "passwordHint": "Vähintään 8 merkkiä",
+      "language": "Ensisijainen kieli",
+      "currency": "Oletusvaluutta",
+      "next": "Jatka",
+      "subtitle": "Lähetämme kertakäyttöisen koodin aina kun kirjaudut. Ei salasanaa muistettavaksi.",
+      "emailPlaceholder": "nimi@yritys.fi",
+      "passwordLabel": "Salasana",
+      "passwordPlaceholder": "Väh. 8 merkkiä",
+      "back": "Takaisin",
+      "emailHint": "Saat tähän 6-numeroisen kirjautumiskoodin joka kerta."
+    },
+    "step3": {
+      "title": "Valitse moduulisi",
+      "next": "Jatka",
+      "trialNote": "14 päivän ilmainen kokeilu, peru milloin vain",
+      "subtitle": "Myynti ja laskutus on aina ilmaista. Lisää se, mitä tarvitset.",
+      "baseTitle": "Myynti ja laskutus",
+      "baseSub": "Tarjoukset, laskut, maksut · 3 käyttäjää",
+      "baseTag": "Ilmainen",
+      "workspaceLabel": "Työtila",
+      "baseRow": "Perusosa (myynti)",
+      "baseValue": "Ilmainen ikuisesti",
+      "addonsLabel": "Lisämoduulit",
+      "dueToday": "Maksettava tänään",
+      "freeNote": "Ilmainen ikuisesti. Ei luottokorttia. Lisää moduuleja milloin vain.",
+      "paidNote": "14 päivän kokeilun jälkeen: {{total}} OMR/kk. Kortti tallennetaan turvallisesti Paymobin kautta (0.100 OMR:n vahvistus palautetaan heti).",
+      "back": "Takaisin",
+      "btnFree": "Luo työtilani",
+      "btnPaid": "Aloita 14 päivän kokeilu",
+      "btnLoading": "Luodaan työtilaa...",
+      "footerFree": "Ei luottokorttia · Myynti ja laskutus ilmaiseksi ikuisesti",
+      "footerPaid": "Kortti suojattu Paymobilla · 0.100 OMR:n katevaraus palautetaan heti"
+    },
+    "step4": {
+      "title": "Työtilaasi valmistellaan...",
+      "steps": [
+        "Luodaan tietokantaa",
+        "Määritetään moduuleja",
+        "Otetaan verkkotunnus käyttöön",
+        "Melkein valmista!"
+      ],
+      "redirect": "Siirrytään työtilaasi..."
+    },
+    "progress": {
+      "workspace": "Työtila",
+      "account": "Tili",
+      "modulesPayment": "Moduulit ja maksu"
+    },
+    "errors": {
+      "gateway": "Maksupalvelun osoite oli virheellinen. Ota yhteyttä tukeen.",
+      "network": "Verkkovirhe. Tarkista yhteytesi ja yritä uudelleen.",
+      "generic": "Jokin meni vikaan. Yritä uudelleen.",
+      "companyRequired": "Kirjoita yrityksesi nimi jatkaaksesi. Siitä tulee työtilasi osoite.",
+      "companyLetters": "Nimessä ei ole kirjaimia tai numeroita, joista voisi muodostaa verkko-osoitteen. Lisää vähintään yksi.",
+      "subdomainTaken": "Tämä osoite on jo käytössä. Lisää sana, joka tekee siitä sinun, esimerkiksi kaupunkisi tai nimen lyhenne.",
+      "subdomainChecking": "Tarkistamme vielä, onko osoite vapaana. Paina Jatka uudelleen hetken kuluttua.",
+      "emailRequired": "Kirjoita sähköpostiosoite, jolla haluat kirjautua. Kertakäyttökoodit lähetetään sinne.",
+      "emailInvalid": "Osoitteesta puuttuu @ tai sen jälkeinen osa. Kirjoita se kokonaan, esimerkiksi nimi@yritys.fi."
+    },
+    "rail": {
+      "cardLabel": "Korttia tarvitaan tänään",
+      "cardValue": "Ei",
+      "dataLabel": "Tietosi, jos lähdet",
+      "dataValue": "Vietävissä sinulle",
+      "note": "Mitään ei lukita. Jos lopetat moduulin maksamisen, työtilasi pysyy auki ilmaisella paketilla, ja tietosi ovat juuri siellä, mihin ne jätit."
+    },
+    "securedBy": "Suojaa Paymob"
+  },
+  "login": {
+    "title": "Tervetuloa takaisin",
+    "subtitle": "Kirjaudu työtilaasi.",
+    "workspace": "Työtila",
+    "workspaceError": "Kirjoita työtilasi nimi (esim. ”yrityksesi”).",
+    "email": "Sähköposti",
+    "emailLabel": "Sähköposti",
+    "password": "Salasana",
+    "submit": "Jatka työtilaan",
+    "otpNote": "Lähetämme kertakäyttöisen koodin sähköpostiisi. Salasanaa ei tarvita.",
+    "forgotPassword": "Unohditko salasanan?",
+    "noAccount": "Eikö sinulla ole tiliä?",
+    "signUp": "Aloita ilmainen kokeilu"
+  },
+  "glossary": {
+    "title": "Kirjanpidon sanasto",
+    "eyebrow": "Selkeät määritelmät",
+    "sub": "{{count}} kirjanpidon, laskutuksen ja verotuksen käsitettä selkokielellä, kaavan ja laskuesimerkin kanssa aina, kun juuri laskutoimitus tuottaa ihmisille päänvaivaa.",
+    "filterLabel": "Suodata käsitteitä",
+    "filterPlaceholder": "Hae sanastosta",
+    "filterCount": "Näytetään {{shown}}/{{total}} käsitettä",
+    "definitionTitle": "Mikä on {{term}}?",
+    "mattersTitle": "Miksi tällä on merkitystä yrityksellesi",
+    "faqTitle": "Yleisiä kysymyksiä",
+    "relatedTerms": "Liittyvät käsitteet",
+    "seeAlso": "Katso myös",
+    "browseAll": "Selaa kaikkia sanaston käsitteitä",
+    "cat": {
+      "invoicing": "Laskutus ja asiakirjat",
+      "accounting": "Kirjanpito",
+      "tax": "Verot ja ALV",
+      "inventory": "Varasto ja kustannuslaskenta",
+      "metrics": "Talouden tunnusluvut"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Laskutusasiakirjat",
+    "eyebrow": "Myyntiasiakirjat",
+    "sub": "Laskut, tarjoukset, arviot, lähetteet, hyvityslaskut ja muut myynnin asiakirjat. Luo ja lähetä ne ilmaiseksi, millä tahansa valuutalla.",
+    "metaTitle": "Laskutusasiakirjat · Paper & Pen",
+    "metaDesc": "Luo laskut, tarjoukset, arviot, lähetteet ja hyvityslaskut verkossa, ilmaiseksi ja millä tahansa valuutalla. Lähetä WhatsAppilla tai sähköpostilla."
+  },
+  "featuresIndex": {
+    "title": "ERP-ominaisuudet",
+    "eyebrow": "Mitä ohjelmisto tekee",
+    "sub": "Laskutus, varasto, kirjanpito, HR ja Paper & Penin muut moduulit. Laskutus pysyy ilmaisena. Muut moduulit ovat valinnaisia.",
+    "metaTitle": "ERP-ominaisuudet · Paper & Pen",
+    "metaDesc": "Tutustu Paper & Penin moduuleihin: ilmainen laskutus, varasto, kirjanpito, HR ja muuta. Lue, mitä kukin tekee, ennen kuin otat sen käyttöön."
+  },
+  "useCasesIndex": {
+    "title": "Kenelle Paper & Pen on tehty",
+    "eyebrow": "Käyttötapaukset",
+    "sub": "Miten freelancerit, toimistot, tilitoimistot ja pienyritykset käyttävät samaa ilmaista laskutusydintä ja mitä lisämoduuleja ne ottavat käyttöön.",
+    "metaTitle": "ERP:n käyttötapaukset · Paper & Pen",
+    "metaDesc": "Katso, miten freelancerit, toimistot, tilitoimistot ja pienyritykset käyttävät Paper & Peniä ja mitä moduuleja kukin oikeasti tarvitsee."
+  },
+  "templatesIndex": {
+    "title": "Laskupohjat ammateittain",
+    "eyebrow": "Ilmaiset pohjat",
+    "sub": "Mitä laskussa pitää alallasi näkyä, miten tällainen työ yleensä hinnoitellaan ja miten saat maksun ilman perintää. Tee itse lasku ilmaisella generaattorilla, ilman rekisteröitymistä."
+  },
+  "altIndex": {
+    "title": "Vaihto toisesta kirjanpito-ohjelmasta",
+    "eyebrow": "Siirto-oppaat",
+    "sub": "Mitä siirtyy, mitä ei, järkevä vaihtohetki tilikaudella ja rehellinen sana siitä, kenen kannattaa pysyä nykyisessä."
+  },
+  "compareIndex": {
+    "title": "ERP- ja laskutusohjelmien vertailut",
+    "eyebrow": "Vertaa vaihtoehtoja",
+    "sub": "Rinnakkaiset vertailut yrityksille, jotka valitsevat laskutus-, kirjanpito- tai ERP-ohjelmaa. Katso hinnat, kielet, valuutat, veroasetukset ja se, missä kukin vaihtoehto on paras."
+  },
+  "industriesIndex": {
+    "title": "ERP ja laskutusohjelma toimialoittain",
+    "eyebrow": "Tehty työsi ympärille",
+    "sub": "Tutustu käytännön työnkulkuihin 15 toimialalla, kaupasta ja vähittäismyynnistä terveydenhuoltoon, koulutukseen, logistiikkaan ja asiantuntijapalveluihin."
+  },
+  "vat": {
+    "factsEyebrow": "Luvut",
+    "factsTitle": "ALV: {{country}} lyhyesti",
+    "colItem": "Kohta",
+    "colValue": "Arvo",
+    "colDetail": "Tiedot ja lähde",
+    "fieldsTitle": "Mitä verolaskussa pitää näkyä: {{country}}",
+    "einvEyebrow": "Verkkolaskutus",
+    "sourcesTitle": "Lähteet",
+    "sourcesNote": "Jokainen tämän sivun luku ja kenttäluettelo on otettu alla linkitetystä asiakirjasta, jonka veroviranomainen on itse julkaissut. Emme julkaise verokantaa, rajaa tai määräaikaa, jolle emme voi osoittaa lähdettä.",
+    "authorityNote": "Verosäännöt muuttuvat. Ennen kuin luotat mihinkään tässä, tarkista ajantasainen tilanne lähteestä "
+  },
+  "vatIndex": {
+    "title": "ALV ja verkkolaskutus maittain",
+    "eyebrow": "Persianlahden verosäännöt",
+    "sub": "Verokannat, rekisteröintirajat, mitä verolaskussa pitää näkyä ja missä verkkolaskutus oikeasti on menossa, maa kerrallaan, ja jokaisen luvun takana linkki veroviranomaisen tekstiin.",
+    "whatIsVat": "Mikä on ALV?",
+    "whatIsEinv": "Mitä on verkkolaskutus?"
+  },
+  "legal": {
+    "englishOnly": "Nämä ehdot julkaistaan vain englanniksi. Englanninkielinen teksti on pätevä versio, eikä mitään käännöstä tarjota sitovana asiakirjana. Jos haluat käydä ne läpi toisella kielellä, ota yhteyttä, niin autamme."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Moduulia otettavissa käyttöön",
+      "db_v": "1",
+      "db_l": "Oma tietokanta jokaiselle työtilalle"
+    },
+    "ai": {
+      "eyebrow": "AI valmiina",
+      "title": "AI, joka tekee tylsät työt",
+      "sub": "Paper & Pen AI toimii omien tietojesi pohjalta. Se vastaa kysymyksiin, lukee toimittajien sähköpostit ja vastaa asiakkaille WhatsAppissa. Sinä hyväksyt sen, millä on väliä.",
+      "c1t": "Kysy yritykseltäsi",
+      "c1d": "Kysy tavallisin sanoin, kuten \"kuka on meille eniten velkaa?\" Saat vastauksen ajantasaisista tiedoistasi.",
+      "c2t": "Magic Inbox",
+      "c2d": "Välitä toimittajan sähköposti. Paper & Pen lukee laskun ja laatii ostokirjauksesta luonnoksen hyväksyttäväksesi.",
+      "c3t": "WhatsApp-vastaukset",
+      "c3d": "Yhdistä WhatsApp-numerosi. AI vastaa hinta- ja tilauskysymyksiin ja lähettää tarjoukset ja laskut.",
+      "note": "AI-moduulit ovat valinnaisia lisäosia.",
+      "mockTitle": "Kysy Paper & Peniltä",
+      "q": "Kuka on meille eniten velkaa?",
+      "a": "Harbour Point Ltd on velkaa eniten. Lasku on erääntynyt:",
+      "overdue": "Erääntynyt",
+      "input": "Kysy jotain"
+    },
+    "how": {
+      "eyebrow": "Rekisteröitymisestä käyttöön",
+      "title": "Käytössä tänään, ei ensi neljänneksellä",
+      "s1t": "Valitse työtilasi nimi",
+      "s1d": "Valitse yrityksesi.paperandpen.om. Ei korttia eikä myyntipuhelua.",
+      "s2t": "Ota käyttöön se, mitä tarvitset",
+      "s2d": "Aloita ilmaisella laskutuksella. Lisää varasto, HR, kirjanpito tai AI, kun tarvitset niitä.",
+      "s3t": "Tuo tiimisi ja tietosi",
+      "s3d": "Tuo asiakkaat ja tuotteet taulukosta, kutsu tiimisi ja lähetä ensimmäinen laskusi."
+    },
+    "ind": {
+      "eyebrow": "Tehty toimialallesi",
+      "title": "Valmiina siihen, miten yrityksesi toimii",
+      "sub": "Asiakirjat, työnkulut ja raportit valmiiksi määritettyinä 15 toimialalle.",
+      "all": "Katso kaikki toimialat"
+    },
+    "sec": {
+      "eyebrow": "Tietoturva",
+      "title": "Tietosi pysyvät sinun",
+      "i1t": "Oma tietokanta",
+      "i1d": "Jokainen työtila toimii omalla tietokannallaan. Ei jaettuja tauluja.",
+      "i2t": "Salattu",
+      "i2d": "TLS siirrossa ja salaus levossa.",
+      "i3t": "Säännölliset varmuuskopiot",
+      "i3d": "Jokainen työtila varmuuskopioidaan automaattisesti.",
+      "i4t": "Turvalliset maksut",
+      "i4d": "Korttimaksut kulkevat Paymobin kautta, joka on PCI-DSS-maksupalvelu.",
+      "more": "Lue tietoturvasta",
+      "intTitle": "Toimii jo käyttämiesi työkalujen kanssa",
+      "int": [
+        "WhatsApp",
+        "Sähköposti",
+        "Paymob",
+        "Thawani",
+        "Excel- ja CSV-tuonti",
+        "Sovellus Windowsille ja macOSille"
+      ]
+    }
+  }
+}

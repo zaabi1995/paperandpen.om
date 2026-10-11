@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Liigu põhisisu juurde",
+    "included": "Sisaldub",
+    "notIncluded": "Ei sisaldu"
+  },
+  "nav": {
+    "features": "Funktsioonid",
+    "solutions": "Lahendused",
+    "tools": "Tasuta tööriistad",
+    "pricing": "Hinnad",
+    "compare": "Võrdle",
+    "login": "Logi sisse",
+    "startFree": "Alusta tasuta",
+    "glossary": "Sõnastik",
+    "home": "Avaleht",
+    "templates": "Arvemallid",
+    "alternatives": "Alternatiivid",
+    "resources": "Materjalid",
+    "vat": "Käibemaks riigiti"
+  },
+  "mega": {
+    "invoicing": "Arveldamine",
+    "quotations": "Hinnapakkumised ja eelarved",
+    "inventory": "Laohaldus",
+    "accounting": "Raamatupidamine",
+    "hr": "Personal ja palgad",
+    "reports": "Aruanded ja analüütika",
+    "trading": "Kaubandusettevõtted",
+    "retail": "Jaekaubandus ja poed",
+    "restaurants": "Restoranid ja kohvikud",
+    "freelancers": "Vabakutselised",
+    "accountants": "Raamatupidajad",
+    "invoiceGen": "Tasuta arvegeneraator",
+    "quotationGen": "Tasuta hinnapakkumise generaator",
+    "receiptGen": "Tasuta kviitungigeneraator",
+    "vatCalc": "Omaani käibemaksukalkulaator",
+    "allFeatures": "Vaata kõiki funktsioone",
+    "allTools": "Kõik tasuta tööriistad",
+    "salescrm": "Müük ja CRM",
+    "payments": "Maksed",
+    "manufacturing": "Tootmine",
+    "multilang": "Mitmekeelsus",
+    "contracting": "Ehitus ja töövõtt",
+    "manufacturingInd": "Tootmine",
+    "wholesale": "Hulgimüük ja turustus",
+    "ecommerce": "E-kaubandus",
+    "logistics": "Logistika ja transport",
+    "estimateGen": "Tasuta eelarve koostaja",
+    "allIndustries": "Kõik valdkonnad"
+  },
+  "sticky": {
+    "text": "Juhi oma äri tasuta. Igavesti."
+  },
+  "cta": {
+    "title": "Valmis juhtima oma äri Paper & Peniga?",
+    "sub": "Loo tasuta tööruum vähem kui 5 minutiga. Müük ja arveldamine on igavesti tasuta, krediitkaarti pole vaja."
+  },
+  "proof": {
+    "builtInOman": "Loodud Omaanis · kasutusel üle maailma",
+    "free": "Müük ja arveldamine igavesti tasuta. Kaarti pole vaja.",
+    "languages": "5 keelt, araabia ja urdu paremalt vasakule"
+  },
+  "hero": {
+    "badge": "Ettevõtetele kõikjal",
+    "tagline_line1": "ERP, mis räägib",
+    "tagline_line2": "sinu keelt.",
+    "sub": "Juhi müüki, ladu, personali ja rahandust ühelt pilveplatvormilt, 5 keeles ja mis tahes valuutas.",
+    "cta": "Alusta tasuta",
+    "seeModules": "Vaata mooduleid",
+    "subdomainLabel": "Sinu tööruumi aadress",
+    "subdomainPlaceholder": "sinufirma",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "on vaba",
+    "taken_short": "on juba võetud",
+    "checking": "Kontrollime saadavust...",
+    "subdomainError": "Saadavust ei saa praegu kontrollida. Võid siiski jätkata.",
+    "trialNote": "Igavesti tasuta · Krediitkaarti pole vaja · Lisa mooduleid millal tahes",
+    "card_title": "Tänane ülevaade",
+    "stat1_label": "Selle kuu käive",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Avatud arved",
+    "stat2_value": "12",
+    "stat3_label": "Puhkusel töötajaid",
+    "stat3_value": "2",
+    "card_progress": "Kuu eesmärk: 75% täidetud",
+    "trust_count": "Loodud Omaanis",
+    "trust_label": "Pärsia lahe riikide ettevõtetele"
+  },
+  "languages": {
+    "eyebrow": "Mitu keelt · Mitu valuutat",
+    "title": "Loodud igale meeskonnale, igal turul",
+    "sub": "Vaheta kohe araabia, inglise, hindi, bengali ja urdu keele vahel ning esita arveid mis tahes valuutas. Sinu andmed jäävad samaks, muutub ainult kasutajaliidese keel."
+  },
+  "modules": {
+    "eyebrow": "Mooduliline ülesehitus",
+    "title": "Kõik moodulid, mida su ettevõte vajab",
+    "sub": "Alusta müügi ja arveldamisega ning lülita kasvades sisse uusi mooduleid: CRM-ist ja personalist tootmise, panganduse ja AI-ni. Üks süsteem kogu ettevõttele.",
+    "included": "Sisaldub",
+    "omrPerMonth": "OMR/kuus",
+    "estimateLabel": "Sinu hinnanguline kulu",
+    "omr_mo": "OMR/kuus",
+    "base_label": "Põhipakett",
+    "addons_label": "lisamoodulid",
+    "estimateNote": "Põhineb valitud moodulitel. Kasutajad arveldatakse eraldi.",
+    "startTrial": "Alusta tasuta",
+    "sales": {
+      "title": "Müük ja CRM",
+      "desc": "Pakkumised, arved, kliendivoog, maksete jälgimine ja meeldetuletused."
+    },
+    "inventory": {
+      "title": "Ladu",
+      "desc": "Jälgi laoseisu, asukohti ja tellimispiire reaalajas."
+    },
+    "hr": {
+      "title": "Personal ja palgad",
+      "desc": "Tööaeg, puhkused, palgaarvestus ja töötajaportaal."
+    },
+    "accounting": {
+      "title": "Raamatupidamine",
+      "desc": "Kahekordne kirjendamine, pangakonto võrdlus ja käibedeklaratsioonid."
+    },
+    "manufacturing": {
+      "title": "Tootmine",
+      "desc": "Materjalide nimekirjad, töökäsud ja tootmise planeerimine."
+    },
+    "reports": {
+      "title": "Aruanded ja analüütika",
+      "desc": "Kasumiaruanne, rahavood, nõuete vanuseline jaotus ja oma töölauad."
+    },
+    "pricePerMonth": "+{{price}} OMR/kuus",
+    "ctaTitle": "Valmis juhtima oma äri Paper & Peniga?",
+    "ctaSub": "Seadista mõne minutiga. Lülita sisse moodulid, mida vajad."
+  },
+  "pricing": {
+    "eyebrow": "Hinnad",
+    "title": "Lihtsad ja ausad hinnad",
+    "sub": "Alusta tasuta: müük ja arveldamine on igavesti tasuta. Lisa mooduleid kasvades.",
+    "monthly": "Kuupõhine",
+    "annual": "Aastapõhine",
+    "perMonth": "/kuus",
+    "perYear": "/aastas",
+    "annualSave": "Säästa 20%",
+    "startTrial": "Alusta tasuta",
+    "mostPopular": "Populaarseim",
+    "free_label": "Tasuta",
+    "unlimited": "Piiramatu",
+    "users": "kasutajat",
+    "buildYourOwn": "Koosta oma pakett",
+    "trialNote": "Tasuta pakett igaveseks · Krediitkaarti pole vaja · Uuenda millal tahes",
+    "addModules": "Lisa mooduleid",
+    "base": {
+      "title": "Müük ja arveldamine, igavesti tasuta",
+      "desc": "Pakkumised, arved ja maksed kuni 3 kasutajale. Krediitkaarti pole vaja."
+    },
+    "free": {
+      "name": "Tasuta",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Müük ja arveldamine, igavesti tasuta",
+      "features": [
+        "Kuni 3 kasutajat",
+        "Müük ja arveldamine",
+        "Pakkumised ja maksed",
+        "Põhiaruanded",
+        "Krediitkaarti pole vaja"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "Kasvavatele ettevõtetele, kes vajavad rohkem",
+      "features": [
+        "Kuni 20 kasutajat",
+        "Kõik, mis on paketis Tasuta",
+        "Laomoodul",
+        "Personal ja palgad",
+        "Mitu valuutat",
+        "WhatsAppi teavitused",
+        "Eelistatud tugi"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "Täielik ERP väljakujunenud ettevõtetele",
+      "features": [
+        "Piiramatu arv kasutajaid",
+        "Kõik, mis on paketis Growth",
+        "Raamatupidamine ja pangaühendus",
+        "Tootmine",
+        "Täiustatud analüütika",
+        "API-ligipääs",
+        "Pühendatud tugi"
+      ]
+    },
+    "addons": {
+      "title": "Vajad midagi kindlat?",
+      "subtitle": "Lisa üksikuid mooduleid mis tahes paketile. Maksa ainult selle eest, mida vajad.",
+      "whatsapp_name": "WhatsAppi teavitused",
+      "whatsapp_desc": "{{price}} OMR/kuus",
+      "extraUsers_name": "Lisakasutajad",
+      "extraUsers_desc": "Alates {{price}} OMR kasutaja kohta kuus",
+      "extraStorage_name": "Lisamaht",
+      "extraStorage_desc": "{{price}} OMR iga 5 GB kohta kuus"
+    },
+    "headLead": "Lihtsad ja ausad",
+    "headAccent": "hinnad",
+    "planWord": "Pakett",
+    "billedMonthly": "Arveldatakse kord kuus",
+    "billedAnnually": "Arveldatakse kord aastas",
+    "billingPeriod": "Arveldusperiood",
+    "worldwideNote": "Üks ülemaailmne hinnakiri Omaani riaalides (OMR). Maksa kaardiga kõikjalt maailmast.",
+    "compareTitle": "Võrdle pakettide kõiki funktsioone",
+    "compareFeature": "Funktsioon",
+    "compareUsers": "Kasutajad",
+    "compareGroupCore": "Igas paketis",
+    "compareGroupAdded": "Lisandub paketis {{plan}}",
+    "included": "Sisaldub",
+    "notIncluded": "Ei sisaldu",
+    "scrollHint": "Pakettide võrdlemiseks libista tabelit küljele",
+    "selectPlan": "Vali pakett"
+  },
+  "compare": {
+    "eyebrow": "Miks Paper & Pen",
+    "title": "Kuidas me teistega võrdleme",
+    "feature": "Funktsioon",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Täielik araabiakeelne liides paremalt vasakule",
+      "gcc_pricing": "Hinnad Lahe riikide valuutades (OMR/BHD/AED)",
+      "free_trial": "Igavesti tasuta pakett, kaarti pole vaja",
+      "local_support": "Kohalik tugi Lahe riikides",
+      "multi_lang": "Liides 5 keeles",
+      "paymob": "Paymob / kohalikud maksed",
+      "onboarding": "Iseseisev kasutuselevõtt < 5 min"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Küsimused",
+    "title": "Kõik, mida pead teadma"
+  },
+  "related": {
+    "title": "Uuri lähemalt",
+    "termsTitle": "Selle lehe mõisted lahti seletatud",
+    "exploreTitle": "Avasta Paper & Pen"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | Tasuta pilve-ERP ja arvetarkvara",
+    "homeDesc": "Tasuta pilve-ERP ja arvetarkvara. Müük, ladu, personal ja raamatupidamine 5 keeles ja mis tahes valuutas. Müük ja arveldamine igavesti tasuta.",
+    "fiTitle": "Tasuta veebipõhine arvetarkvara · Paper & Pen",
+    "fiDesc": "Koosta ja saada professionaalseid arveid ühe klõpsuga. Tasuta arvetarkvara käibemaksu, iga valuuta, pakkumiste ja kviitungitega. Igavesti tasuta.",
+    "pricingTitle": "Hinnad · Paper & Pen",
+    "pricingDesc": "Lihtsad hinnad. Müük ja arveldamine igavesti tasuta. Lisa ladu, personal, raamatupidamine ja muu kasvades. Kaarti pole vaja. Säästa aastas 20%.",
+    "faqTitle": "Korduma kippuvad küsimused · Paper & Pen ERP",
+    "faqDesc": "Vastused Paper & Peni kohta, tasuta pilve-ERP ja arvetarkvara: hinnad, käibemaks, araabia keel, moodulid, seadistamine ja muu.",
+    "toolsTitle": "Tasuta äritööriistad · Paper & Pen",
+    "toolsDesc": "Tasuta tööriistad ilma registreerumiseta: arvegeneraator, pakkumised, kviitungid, ostutellimused, saatelehed ja seadistatav käibemaksukalkulaator.",
+    "aboutTitle": "Paper & Penist · Tasuta pilve-ERP, BHD Group",
+    "aboutDesc": "Paper & Peni loob Omaanis Paper and Pen Company LLC, mis kuulub BHD Groupi. Tasuta pilve-ERP ettevõtetele üle maailma, araabia keel esikohal, mitu valuutat.",
+    "contactTitle": "Võta Paper & Peniga ühendust",
+    "contactDesc": "Võta ühendust Paper & Peni meeskonnaga. WhatsApp +968 9889 9100 või kirjuta meile e-posti teel.",
+    "securityTitle": "Turvalisus ja andmekaitse · Paper & Pen",
+    "securityDesc": "Kuidas Paper & Pen kaitseb sinu äriandmeid: krüpteerimine, kliendipõhine eraldatus, varukoopiad, ligipääsu haldus ja PCI-DSS maksed Paymobi kaudu.",
+    "blogTitle": "Blogi · Paper & Pen ERP",
+    "signupTitle": "Loo oma tasuta Paper & Peni tööruum",
+    "signupDesc": "Loo oma tasuta Paper & Pen ERP tööruum vähem kui 5 minutiga. Müük ja arveldamine igavesti tasuta.",
+    "loginTitle": "Logi Paper & Peni sisse",
+    "loginDesc": "Logi sisse oma Paper & Pen ERP tööruumi.",
+    "glossaryTitle": "Raamatupidamise sõnastik · Paper & Pen",
+    "glossaryDesc": "Lihtsas keeles selgitused raamatupidamise, arveldamise, käibemaksu ja lao mõistetele, millega väikeettevõtted kokku puutuvad, koos valemite ja näidetega.",
+    "templatesTitle": "Tasuta arvemallid elukutse järgi · Paper & Pen",
+    "templatesDesc": "Arvemallid ja arveldusnõuanded töövõtjatele, konsultantidele, disaineritele, meistritele ja teenusepakkujatele. Mida näidata, kuidas hinnastada ja raha kätte saada.",
+    "altTitle": "Raamatupidamistarkvara alternatiivid · Paper & Pen",
+    "altDesc": "Mõtled raamatupidamistarkvara vahetamisele? Mis kolib üle, mis mitte, millal üle minna ja kellel tasub jääda sinna, kus ta on.",
+    "compareTitle": "ERP- ja arvetarkvara võrdlused | Paper & Pen",
+    "compareDesc": "Võrdle Paper & Peni ERP-, raamatupidamis- ja arvetarkvaraga: hinnad, keeled, valuutad, maksuseaded, moodulid ja sobivus praktikas.",
+    "industriesTitle": "ERP ja arvetarkvara valdkonniti | Paper & Pen",
+    "industriesDesc": "Vaata, kuidas Paper & Pen toetab arveldamist, ladu, raamatupidamist ja igapäevatööd 15 valdkonnas, viies keeles ja mis tahes valuutas.",
+    "vatTitle": "Lahe riikide käibemaks ja e-arved riigiti · Paper & Pen",
+    "vatDesc": "Käibemaksumäärad, registreerimispiirid, arve nõuded ja e-arvete olukord Omaanis, AÜE-s, Saudi Araabias ja Bahreinis, igaüks koos allikaga."
+  },
+  "toolsIndex": {
+    "title": "Tasuta äritööriistad",
+    "sub": "Ilma registreerumiseta ja tasuta. Koosta arveid, pakkumisi, kviitungeid ja muud, valmis PDF-ina allalaadimiseks, mis tahes valuutas ja seadistatava käibemaksumääraga."
+  },
+  "pages": {
+    "about": {
+      "title": "Loodud Omaanis Lahe riikide ettevõtetele",
+      "lead": "Paper & Pen on pilve-ERP, mida me ise igatsesime: piisavalt lihtne, et alustada viie minutiga, piisavalt võimas, et juhtida kogu ettevõtet, ja lõpuks loodud selle järgi, kuidas äri Omaanis ja Lahe piirkonnas päriselt käib.",
+      "body1": "Paper & Peni teeb Paper and Pen Company LLC, mis kuulub Omaanis Maskatis asuvasse BHD Groupi. Me loome tarkvara Omaanis, omaanlaste poolt, Lahe riikide ettevõtetele. Araabia keel on täisväärtuslik keel, OMR-is arveldamine on ehitatud süsteemi tuumikusse ja kohalikud maksed toimivad kohe.",
+      "body2": "Paper & Peni kaudu liigub tuhandeid pakkumisi, arveid ja makseid. Müük ja arveldamine on igavesti tasuta, sest iga ettevõte väärib professionaalseid tööriistu. Maksad alles siis, kui vajad ladu, personali, raamatupidamist või tootmist.",
+      "stat1": "Igavesti tasuta",
+      "stat1l": "Müük ja arveldamine",
+      "stat2": "5",
+      "stat2l": "Keelt",
+      "stat3": "< 5 min",
+      "stat3l": "Alustamiseks",
+      "stat4": "OMR",
+      "stat4l": "Sisseehitatud arveldus"
+    },
+    "contact": {
+      "title": "Räägi meiega",
+      "lead": "Küsimused, demod, koostöö: vastame kiiresti. Kiireim viis meieni jõuda on WhatsApp.",
+      "whatsapp": "Kirjuta WhatsAppis",
+      "email": "Saada e-kiri",
+      "hours": "Pühapäev–neljapäev, 8.00–17.00 (GMT+4)"
+    },
+    "security": {
+      "title": "Sinu andmed on kaitstud",
+      "lead": "Turvalisus ja privaatsus on Paper & Peni sisse ehitatud algusest peale.",
+      "items": [
+        "Krüpteeritud edastamisel (TLS) ja salvestatuna",
+        "Igal kliendil eraldi andmebaas, sinu andmeid ei jagata kunagi",
+        "Regulaarsed automaatsed varukoopiad",
+        "Rollipõhine ligipääs ja tegevuslogid",
+        "Makseid töötleb Paymob, PCI-DSS nõuetele vastav makselahendus",
+        "Majutatud turvatud ja jälgitud taristul"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Paper & Peni blogi",
+    "sub": "Juhendid arveldamise, käibemaksu, raamatupidamise ja ettevõtte juhtimise kohta Omaanis ja Lahe riikides.",
+    "readMore": "Loe edasi",
+    "empty": "Uued artiklid on tulekul. Vaata varsti uuesti.",
+    "backToBlog": "Kõik artiklid"
+  },
+  "fi": {
+    "crumb": "Tasuta arvetarkvara",
+    "eyebrow": "Tasuta veebiarveldus",
+    "title": "Tasuta arvetarkvara<br/>ettevõtetele <em class=\"text-copper-400 not-italic\">kõikjal</em>",
+    "subtitle": "Koosta ja saada professionaalseid, maksunõuetele vastavaid arveid ühe klõpsuga, mis tahes valuutas ja 5 keeles. Pakkumised, kviitungid, maksemeeldetuletused ja täielik raamatupidamine. Igavesti tasuta.",
+    "b1": "Igavesti tasuta, krediitkaarti pole vaja",
+    "b2": "Iga valuuta ja seadistatav käibemaks",
+    "b3": "Saada WhatsAppi või e-postiga ühe klõpsuga",
+    "tryTool": "Proovi tasuta generaatorit",
+    "docsEyebrow": "Üks platvorm, kõik dokumendid",
+    "docsTitle": "Kõik äridokumendid, mida vajad",
+    "docsSub": "Esimesest pakkumisest viimase kviitungini loob Paper & Pen iga dokumendi, mida su ettevõte saadab, ning hoiab need automaatselt korras ja kooskõlas.",
+    "docs": {
+      "invoices": {
+        "t": "Professionaalsed arved",
+        "d": "Kohandatavad, käibemaksuvalmis arved sinu logoga, saadetud sekunditega."
+      },
+      "quotes": {
+        "t": "Pakkumised ja eelarved",
+        "d": "Võida tellimusi oma brändiga pakkumistega, mis muutuvad ühe klõpsuga arveks."
+      },
+      "proforma": {
+        "t": "Proformaarved",
+        "d": "Väljasta proformaarveid ettemaksete ja tolli jaoks."
+      },
+      "receipts": {
+        "t": "Maksekviitungid",
+        "d": "Kviitung luuakse automaatselt kohe, kui makse on kirja pandud."
+      },
+      "po": {
+        "t": "Ostutellimused",
+        "d": "Koosta ja jälgi ostutellimusi oma tarnijatele."
+      },
+      "delivery": {
+        "t": "Saatelehed",
+        "d": "Väljasta saatelehed, mis on seotud iga tellimusega."
+      },
+      "recurring": {
+        "t": "Korduvarved",
+        "d": "Automatiseeri tellimuste ja püsilepingute korduv arveldamine."
+      },
+      "reminders": {
+        "t": "Maksemeeldetuletused",
+        "d": "Automaatsed ja viisakad meeldetuletused, et saaksid raha õigel ajal."
+      },
+      "share": {
+        "t": "Jagamine WhatsAppi ja e-postiga",
+        "d": "Jaga iga dokumenti WhatsAppi või e-postiga ühe puudutusega."
+      }
+    },
+    "s1": {
+      "eyebrow": "Saa raha kiiremini",
+      "title": "Pakkumisest laekumiseni ilma tagaajamiseta",
+      "body": "Muuda pakkumised arveteks, jaga neid WhatsAppis ja lase automaatsetel meeldetuletustel järeltegevus ära teha. Näed täpselt, kes on arve avanud ja kes maksnud.",
+      "i1": "Pakkumine → arve → kviitung ühe klõpsuga",
+      "i2": "Automaatsed maksemeeldetuletused",
+      "i3": "Veebimakse Paymobi kaudu"
+    },
+    "s2": {
+      "eyebrow": "Nõuetele vastav kõikjal",
+      "title": "Iga valuuta ja iga maksumäär, sinu eest korras",
+      "body": "Esita arveid mis tahes valuutas, määra oma käibemaksu- või müügimaksumäär ja tööta araabia või inglise keeles. Lahe riikide ettevõtted saavad kohe OMR/AED/SAR arvelduse, seadistatava käibemaksu ja kohalikud maksed.",
+      "i1": "Seadistatav käibemaks või müügimaks netosummalt",
+      "i2": "Araabia- ja ingliskeelsed arvemallid",
+      "i3": "Maksudeklaratsioonid ja aruanded sisse ehitatud"
+    },
+    "cmpEyebrow": "Miks üle minna",
+    "cmpTitle": "Tasuta arvetarkvara, mis on loodud just siia",
+    "faq": {
+      "q1": "Kas arveldamine on tõesti tasuta?",
+      "a1": "Jah. Arveldamine, pakkumised ja maksete jälgimine on igavesti tasuta kuni 3 kasutajale ning krediitkaarti pole vaja.",
+      "q2": "Kas see toetab Omaani 5% käibemaksu?",
+      "a2": "Jah. Käibemaks arvutatakse automaatselt allahindluse järgselt netosummalt ning saad koostada nõuetele vastavaid arveid ja käibedeklaratsioone.",
+      "q3": "Kas saan saata arveid araabia keeles?",
+      "a3": "Jah. Arved, pakkumised ja kviitungid kuvatakse täielikult araabia keeles (paremalt vasakule) või inglise keeles, valik iga dokumendi kaupa.",
+      "q4": "Kas kliendid saavad maksta veebis?",
+      "a4": "Jah. Ühenda Paymob ja kliendid saavad arveid veebis kaardiga tasuda. Maksed sobitatakse automaatselt."
+    }
+  },
+  "pricingFaq": {
+    "q1": "Kas tasuta pakett on tõesti igavesti tasuta?",
+    "a1": "Jah. Müük ja arveldamine on igavesti tasuta kuni 3 kasutajale, ilma krediitkaardi ja aegumiseta. Maksad ainult siis, kui lisad mooduleid nagu ladu, personal või raamatupidamine.",
+    "q2": "Kas saan mooduleid hiljem muuta või tühistada?",
+    "a2": "Millal tahes. Lisa või eemalda tasulisi mooduleid, millal soovid, ja arveldus kohandub automaatselt. Siduvat lepingut pole.",
+    "q3": "Kuidas mulle arveid esitatakse ja mis valuutas?",
+    "a3": "Arveldame Omaani riaalides (OMR) kolme kümnendkoha täpsusega, kord kuus või kord aastas (aastamaksega säästad 20%). Kaardimakseid töödeldakse turvaliselt Paymobi kaudu."
+  },
+  "tool": {
+    "from": "Saatja",
+    "billTo": "Arve saaja",
+    "docNo": "Dokumendi nr",
+    "date": "Kuupäev",
+    "item": "Kirjeldus",
+    "qty": "Kogus",
+    "rate": "Ühiku hind",
+    "amount": "Summa",
+    "addLine": "Lisa rida",
+    "subtotal": "Vahesumma",
+    "vat": "Käibemaks",
+    "total": "Kokku",
+    "notes": "Märkused",
+    "currency": "Valuuta",
+    "applyVat": "Lisa käibemaks / maks",
+    "print": "Laadi alla / prindi PDF",
+    "yourCompany": "Sinu Firma OÜ",
+    "clientName": "Kliendi nimi",
+    "signupCta": "Salvesta ja halda oma dokumente Paper & Penis",
+    "labels": {
+      "invoice": "ARVE",
+      "quotation": "HINNAPAKKUMINE",
+      "proforma": "PROFORMAARVE",
+      "receipt": "KVIITUNG",
+      "purchase-order": "OSTUTELLIMUS",
+      "delivery-note": "SAATELEHT",
+      "estimate": "EELARVE",
+      "credit-note": "KREEDITARVE"
+    },
+    "vatCalc": {
+      "amount": "Summa",
+      "mode": "Arvutusviis",
+      "addVat": "Lisa 5% käibemaks",
+      "removeVat": "Eemalda käibemaks",
+      "net": "Netosumma",
+      "vat": "Käibemaks",
+      "gross": "Brutosumma (koos käibemaksuga)"
+    },
+    "tryFull": "Proovi täielikku ERP-d",
+    "builderTitle": "Koosta oma dokument",
+    "featuresHeading": "Miks kasutada seda tasuta tööriista"
+  },
+  "homeFaq": {
+    "q1": "Kas Paper & Pen on tõesti tasuta?",
+    "a1": "Jah. Müügi ja arvelduse moodul on igavesti tasuta, ilma krediitkaardi ja ajapiiranguta. Saad koostada pakkumisi ja arveid ning registreerida makseid kuni 3 kasutajale. Lisa tasulisi mooduleid nagu ladu, personal või raamatupidamine alles siis, kui neid vajad.",
+    "q2": "Kas Paper & Pen töötab araabia keeles?",
+    "a2": "Täielikult. Kogu liides on saadaval araabia keeles õige paremalt vasakule paigutusega, lisaks inglise, hindi, bengali ja urdu keeles. Vaheta keelt millal tahes, sinu andmed jäävad täpselt samaks.",
+    "q3": "Kas saan Paper & Peni kasutada väljaspool Lahe riike?",
+    "a3": "Jah. Paper & Peni loob Omaanis Paper and Pen Company LLC (osa BHD Groupist), kuid see sobib ettevõtetele kõikjal. Esita arveid mis tahes valuutas, määra oma maksumäär ja tööta 5 keeles. Lahe riikide ettevõtted saavad lisaks kohe OMR/AED/SAR arvelduse, kohaliku käibemaksu ja Paymobi maksed.",
+    "q4": "Kui kaua seadistamine võtab?",
+    "a4": "Vähem kui 5 minutit. Vali tööruumi nimi, kinnita e-post, vali moodulid ja saad arveid esitama hakata. Pole paigaldust, konsultanti ega liitumistasu."
+  },
+  "trust": {
+    "eyebrow": "Miks ettevõtted meid valivad",
+    "title": "Loodud Omaanis. Ettevõtete usaldatud üle maailma.",
+    "sub": "Araabia keel esikohal, mitu valuutat ja maksuvalmidus: Paper & Pen sobib ettevõtetele Lahe riikides ja palju kaugemal, säilitades lihtsuse ja kohaliku toe, mille suured platvormid unustasid.",
+    "cta": "Loo oma tasuta tööruum",
+    "stat1_value": "5",
+    "stat1_label": "Toetatud keelt",
+    "stat2_value": "Tasuta",
+    "stat2_label": "Igavesti, kaarti pole vaja",
+    "stat3_value": "RTL",
+    "stat3_label": "Araabia ja urdu toetatud",
+    "stat4_value": "Iga",
+    "stat4_label": "Valuuta arveldamiseks"
+  },
+  "footer": {
+    "tagline": "Tasuta pilve-ERP kasvavatele ettevõtetele kõikjal. Loodud Omaanis.",
+    "product": "Toode",
+    "tools": "Tasuta tööriistad",
+    "company": "Ettevõte",
+    "about": "Meist",
+    "blog": "Blogi",
+    "security": "Turvalisus",
+    "freeInvoicing": "Tasuta arvetarkvara",
+    "legal": "Õiguslik teave",
+    "contact": "Kontakt",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Kasutustingimused",
+    "privacy": "Privaatsuspoliitika",
+    "status": "Kõik süsteemid töötavad",
+    "rights": "© {{year}} Paper and Pen Company LLC. Kõik õigused kaitstud.",
+    "support": "Tugi",
+    "help": "Abikeskus",
+    "contactSupport": "Võta toega ühendust",
+    "statusPage": "Teenuse olek",
+    "resources": "Materjalid",
+    "faq": "KKK",
+    "invoices": "Arved"
+  },
+  "signup": {
+    "title": "Loo oma tööruum",
+    "step1": {
+      "title": "Mis on sinu ettevõtte nimi?",
+      "label": "Ettevõtte nimi",
+      "placeholder": "Al Noor Trading LLC",
+      "subdomainLabel": "Sinu tööruumi aadress on",
+      "next": "Jätka",
+      "subtitle": "Sellest saab sinu oma ERP alamdomeen.",
+      "workspaceUrlLabel": "Sinu tööruumi aadress:",
+      "available": "✓ Vaba",
+      "taken": "✗ Võetud",
+      "checking": "kontrollime..."
+    },
+    "step2": {
+      "title": "Sinu e-post",
+      "emailLabel": "E-posti aadress",
+      "password": "Parool",
+      "passwordHint": "Vähemalt 8 märki",
+      "language": "Eelistatud keel",
+      "currency": "Vaikevaluuta",
+      "next": "Jätka",
+      "subtitle": "Saadame iga sisselogimise ajal ühekordse koodi. Parooli pole vaja meeles pidada.",
+      "emailPlaceholder": "nimi@firma.ee",
+      "passwordLabel": "Parool",
+      "passwordPlaceholder": "Vähemalt 8 märki",
+      "back": "Tagasi",
+      "emailHint": "Saad siia iga kord 6-kohalise sisselogimiskoodi."
+    },
+    "step3": {
+      "title": "Vali oma moodulid",
+      "next": "Jätka",
+      "trialNote": "14-päevane tasuta prooviperiood, tühista millal tahes",
+      "subtitle": "Müük ja arveldamine on alati tasuta. Lisa see, mida vajad.",
+      "baseTitle": "Müük ja arveldamine",
+      "baseSub": "Pakkumised, arved, maksed · 3 kasutajat",
+      "baseTag": "Tasuta",
+      "workspaceLabel": "Tööruum",
+      "baseRow": "Põhipakett (müük)",
+      "baseValue": "Igavesti tasuta",
+      "addonsLabel": "Lisamoodulid",
+      "dueToday": "Tasuda täna",
+      "freeNote": "Igavesti tasuta. Krediitkaarti pole vaja. Lisa mooduleid millal tahes.",
+      "paidNote": "Pärast 14-päevast prooviperioodi: {{total}} OMR/kuus. Kaart salvestatakse turvaliselt Paymobi kaudu (0.100 OMR kinnitus, tagastatakse kohe).",
+      "back": "Tagasi",
+      "btnFree": "Loo minu tööruum",
+      "btnPaid": "Alusta 14-päevast prooviperioodi",
+      "btnLoading": "Loome tööruumi...",
+      "footerFree": "Krediitkaarti pole vaja · Müük ja arveldamine igavesti tasuta",
+      "footerPaid": "Kaart kaitstud Paymobiga · 0.100 OMR broneering tagastatakse kohe"
+    },
+    "step4": {
+      "title": "Valmistame sinu tööruumi ette...",
+      "steps": [
+        "Loome sinu andmebaasi",
+        "Seadistame mooduleid",
+        "Seadistame sinu domeeni",
+        "Peaaegu valmis!"
+      ],
+      "redirect": "Suuname sind sinu tööruumi..."
+    },
+    "progress": {
+      "workspace": "Tööruum",
+      "account": "Konto",
+      "modulesPayment": "Moodulid ja makse"
+    },
+    "errors": {
+      "gateway": "Makselahenduse aadress oli vigane. Palun võta ühendust toega.",
+      "network": "Võrguviga. Kontrolli ühendust ja proovi uuesti.",
+      "generic": "Midagi läks valesti. Palun proovi uuesti.",
+      "companyRequired": "Jätkamiseks sisesta ettevõtte nimi. Sellest saab sinu tööruumi aadress.",
+      "companyLetters": "Selles nimes pole tähti ega numbreid, millest veebiaadressi teha. Lisa vähemalt üks.",
+      "subdomainTaken": "See tööruumi aadress on juba kasutusel. Lisa sõna, mis teeb selle sinu omaks, näiteks linna nimi või nime lühend.",
+      "subdomainChecking": "Kontrollime veel, kas aadress on vaba. Vajuta hetke pärast uuesti Jätka.",
+      "emailRequired": "Sisesta e-posti aadress, millega soovid sisse logida. Ühekordsed koodid saadetakse sinna.",
+      "emailInvalid": "Aadressist puudub @ või selle järel olev osa. Kirjuta see täielikult, näiteks nimi@firma.ee."
+    },
+    "rail": {
+      "cardLabel": "Kaarti on täna vaja",
+      "cardValue": "Ei",
+      "dataLabel": "Andmed, kui lahkud",
+      "dataValue": "Sinu omad, saad eksportida",
+      "note": "Midagi ei lukustata. Kui lõpetad mooduli eest maksmise, jääb tööruum tasuta paketil avatuks ja sinu andmed on täpselt seal, kuhu need jätsid."
+    },
+    "securedBy": "Turvab Paymob"
+  },
+  "login": {
+    "title": "Tere tulemast tagasi",
+    "subtitle": "Logi sisse oma tööruumi.",
+    "workspace": "Tööruum",
+    "workspaceError": "Palun sisesta oma tööruumi nimi (nt „sinufirma“).",
+    "email": "E-post",
+    "emailLabel": "E-post",
+    "password": "Parool",
+    "submit": "Jätka tööruumi",
+    "otpNote": "Saadame sinu e-postile ühekordse koodi. Parooli pole vaja.",
+    "forgotPassword": "Unustasid parooli?",
+    "noAccount": "Pole veel kontot?",
+    "signUp": "Alusta tasuta prooviperioodi"
+  },
+  "glossary": {
+    "title": "Raamatupidamise sõnastik",
+    "eyebrow": "Selgitused lihtsas keeles",
+    "sub": "{{count}} raamatupidamise, arveldamise ja maksude mõistet lihtsas keeles, koos valemi ja näitearvutusega kõikjal, kus just arvutus kipub inimesi segadusse ajama.",
+    "filterLabel": "Filtreeri mõisteid",
+    "filterPlaceholder": "Otsi sõnastikust",
+    "filterCount": "Kuvatakse {{shown}} mõistet {{total}}-st",
+    "definitionTitle": "Mis on {{term}}?",
+    "mattersTitle": "Miks see on sinu ettevõttele oluline",
+    "faqTitle": "Levinud küsimused",
+    "relatedTerms": "Seotud mõisted",
+    "seeAlso": "Vaata ka",
+    "browseAll": "Sirvi kõiki sõnastiku mõisteid",
+    "cat": {
+      "invoicing": "Arveldamine ja dokumendid",
+      "accounting": "Raamatupidamine",
+      "tax": "Maksud ja käibemaks",
+      "inventory": "Ladu ja kuluarvestus",
+      "metrics": "Finantsnäitajad"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Arveldusdokumendid",
+    "eyebrow": "Müügidokumendid",
+    "sub": "Arved, pakkumised, eelarved, saatelehed, kreeditarved ja muud müügidokumendid. Koosta ja saada neid tasuta, mis tahes valuutas.",
+    "metaTitle": "Arveldusdokumendid · Paper & Pen",
+    "metaDesc": "Koosta arveid, pakkumisi, eelarveid, saatelehti ja kreeditarveid veebis, tasuta ja mis tahes valuutas. Saada WhatsAppi või e-postiga."
+  },
+  "featuresIndex": {
+    "title": "ERP funktsioonid",
+    "eyebrow": "Mida tarkvara teeb",
+    "sub": "Arveldamine, ladu, raamatupidamine, personal ja teised Paper & Peni moodulid. Arveldamine jääb tasuta. Teised moodulid on valikulised.",
+    "metaTitle": "ERP funktsioonid · Paper & Pen",
+    "metaDesc": "Vaata Paper & Peni mooduleid: tasuta arveldamine, ladu, raamatupidamine, personal ja muu. Loe, mida igaüks teeb, enne kui selle sisse lülitad."
+  },
+  "useCasesIndex": {
+    "title": "Kellele Paper & Pen sobib",
+    "eyebrow": "Kasutusjuhud",
+    "sub": "Kuidas vabakutselised, agentuurid, raamatupidajad ja väikeettevõtted kasutavad sama tasuta arvelduse tuuma ning milliseid lisamooduleid nad lisavad.",
+    "metaTitle": "ERP kasutusjuhud · Paper & Pen",
+    "metaDesc": "Vaata, kuidas vabakutselised, agentuurid, raamatupidajad ja väikeettevõtted Paper & Peni kasutavad ja milliseid mooduleid igaüks päriselt vajab."
+  },
+  "templatesIndex": {
+    "title": "Arvemallid elukutse järgi",
+    "eyebrow": "Tasuta mallid",
+    "sub": "Mida arve sinu alal tegelikult näitama peab, kuidas sellist tööd tavaliselt hinnastatakse ja kuidas saada raha kätte ilma tagaajamiseta. Koosta arve ise tasuta generaatoris, registreerumata."
+  },
+  "altIndex": {
+    "title": "Üleminek teiselt raamatupidamistarkvaralt",
+    "eyebrow": "Üleminekujuhendid",
+    "sub": "Mis kolib üle, mis mitte, mõistlik üleminekuhetk majandusaastas ja aus sõna selle kohta, kellel tasub jääda sinna, kus ta on."
+  },
+  "compareIndex": {
+    "title": "ERP- ja arvetarkvara võrdlused",
+    "eyebrow": "Võrdle võimalusi",
+    "sub": "Kõrvutivõrdlused ettevõtetele, kes valivad arve-, raamatupidamis- või ERP-tarkvara. Vaata hindu, keeli, valuutasid, maksuseadeid ja seda, milles iga lahendus kõige parem on."
+  },
+  "industriesIndex": {
+    "title": "ERP ja arvetarkvara valdkonniti",
+    "eyebrow": "Loodud sinu töö ümber",
+    "sub": "Avasta praktilisi töövooge 15 valdkonnas, kaubandusest ja jaemüügist tervishoiu, hariduse, logistika ja erialateenusteni."
+  },
+  "vat": {
+    "factsEyebrow": "Arvud",
+    "factsTitle": "Käibemaks: {{country}} lühidalt",
+    "colItem": "Punkt",
+    "colValue": "Väärtus",
+    "colDetail": "Üksikasjad ja allikas",
+    "fieldsTitle": "Mida peab arve näitama: {{country}}",
+    "einvEyebrow": "E-arved",
+    "sourcesTitle": "Allikad",
+    "sourcesNote": "Iga selle lehe arv ja väljade loetelu on võetud allpool lingitud dokumendist, mille on avaldanud maksuamet ise. Me ei avalda määra, piiri ega tähtaega, millele me ei saa allikat näidata.",
+    "authorityNote": "Maksureeglid muutuvad. Enne kui siin toodule tugined, kontrolli kehtivat olukorda allikast "
+  },
+  "vatIndex": {
+    "title": "Käibemaks ja e-arved riigiti",
+    "eyebrow": "Lahe riikide maksureeglid",
+    "sub": "Määrad, registreerimispiirid, mida arve peab näitama ja kus e-arved tegelikult on, üks riik korraga, iga arvu taga link maksuameti tekstile.",
+    "whatIsVat": "Mis on käibemaks?",
+    "whatIsEinv": "Mis on e-arve?"
+  },
+  "legal": {
+    "englishOnly": "Need tingimused avaldatakse ainult inglise keeles. Ingliskeelne tekst on ainus kehtiv versioon ja ühtegi tõlget ei pakuta siduva dokumendina. Kui soovid neid teises keeles üle vaadata, võta meiega ühendust ja me aitame."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Moodulit, mida saad sisse lülitada",
+      "db_v": "1",
+      "db_l": "Privaatne andmebaas iga tööruumi jaoks"
+    },
+    "ai": {
+      "eyebrow": "AI sisse ehitatud",
+      "title": "AI, mis teeb igava töö ära",
+      "sub": "Paper & Pen AI töötab sinu enda andmetega. See vastab küsimustele, loeb tarnijate e-kirju ja vastab klientidele WhatsAppis. Sina kinnitad selle, mis on oluline.",
+      "c1t": "Küsi oma ettevõttelt",
+      "c1d": "Küsi lihtsate sõnadega, näiteks \"kes võlgneb meile kõige rohkem?\" Saad vastuse oma ajakohastest andmetest.",
+      "c2t": "Magic Inbox",
+      "c2d": "Edasta tarnija e-kiri. Paper & Pen loeb arve ja koostab ostukande mustandi, mille sina kinnitad.",
+      "c3t": "WhatsAppi vastused",
+      "c3d": "Ühenda oma WhatsAppi number. AI vastab hinna- ja tellimusküsimustele ning saadab pakkumisi ja arveid.",
+      "note": "AI moodulid on valikulised lisad.",
+      "mockTitle": "Küsi Paper & Penilt",
+      "q": "Kes võlgneb meile kõige rohkem raha?",
+      "a": "Kõige rohkem võlgneb Harbour Point Ltd. Arve on üle tähtaja:",
+      "overdue": "Üle tähtaja",
+      "input": "Esita küsimus"
+    },
+    "how": {
+      "eyebrow": "Registreerumisest kasutuseni",
+      "title": "Kasutusel täna, mitte järgmises kvartalis",
+      "s1t": "Vali oma tööruumi nimi",
+      "s1d": "Vali sinufirma.paperandpen.om. Pole kaarti ega müügikõnet.",
+      "s2t": "Lülita sisse, mida vajad",
+      "s2d": "Alusta tasuta arveldamisega. Lisa ladu, personal, raamatupidamine või AI siis, kui neid vajad.",
+      "s3t": "Too oma meeskond ja andmed",
+      "s3d": "Impordi kliendid ja tooted tabelist, kutsu meeskond ja saada oma esimene arve."
+    },
+    "ind": {
+      "eyebrow": "Loodud sinu valdkonnale",
+      "title": "Valmis selleks, kuidas sinu ettevõte töötab",
+      "sub": "Dokumendid, töövood ja aruanded seadistatud 15 valdkonnale.",
+      "all": "Vaata kõiki valdkondi"
+    },
+    "sec": {
+      "eyebrow": "Turvalisus",
+      "title": "Sinu andmed jäävad sinu omaks",
+      "i1t": "Privaatne andmebaas",
+      "i1d": "Iga tööruum töötab oma andmebaasil. Jagatud tabeleid pole.",
+      "i2t": "Krüpteeritud",
+      "i2d": "TLS edastamisel ja krüpteerimine salvestatuna.",
+      "i3t": "Regulaarsed varukoopiad",
+      "i3d": "Igast tööruumist tehakse automaatselt varukoopia.",
+      "i4t": "Turvalised maksed",
+      "i4d": "Kaardimaksed liiguvad läbi Paymobi, mis on PCI-DSS makselahendus.",
+      "more": "Loe turvalisusest",
+      "intTitle": "Töötab tööriistadega, mida juba kasutad",
+      "int": [
+        "WhatsApp",
+        "E-post",
+        "Paymob",
+        "Thawani",
+        "Excel ja CSV import",
+        "Rakendus Windowsile ja macOSile"
+      ]
+    }
+  }
+}

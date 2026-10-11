@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Ugrás a fő tartalomra",
+    "included": "Benne van",
+    "notIncluded": "Nincs benne"
+  },
+  "nav": {
+    "features": "Funkciók",
+    "solutions": "Megoldások",
+    "tools": "Ingyenes eszközök",
+    "pricing": "Árak",
+    "compare": "Összehasonlítás",
+    "login": "Belépés",
+    "startFree": "Kezdje ingyen",
+    "glossary": "Szótár",
+    "home": "Kezdőlap",
+    "templates": "Számlasablonok",
+    "alternatives": "Alternatívák",
+    "resources": "Források",
+    "vat": "ÁFA országonként"
+  },
+  "mega": {
+    "invoicing": "Számlázás",
+    "quotations": "Árajánlatok és becslések",
+    "inventory": "Készletkezelés",
+    "accounting": "Könyvelés",
+    "hr": "HR és bérszámfejtés",
+    "reports": "Jelentések és elemzések",
+    "trading": "Kereskedelmi cégek",
+    "retail": "Kiskereskedelem és üzletek",
+    "restaurants": "Éttermek és kávézók",
+    "freelancers": "Szabadúszók",
+    "accountants": "Könyvelők",
+    "invoiceGen": "Ingyenes számlakészítő",
+    "quotationGen": "Ingyenes árajánlat-készítő",
+    "receiptGen": "Ingyenes nyugtakészítő",
+    "vatCalc": "Ománi ÁFA-kalkulátor",
+    "allFeatures": "Az összes funkció",
+    "allTools": "Minden ingyenes eszköz",
+    "salescrm": "Értékesítés és CRM",
+    "payments": "Fizetések",
+    "manufacturing": "Gyártás",
+    "multilang": "Többnyelvű",
+    "contracting": "Építőipar és kivitelezés",
+    "manufacturingInd": "Gyártóipar",
+    "wholesale": "Nagykereskedelem és disztribúció",
+    "ecommerce": "Webáruház",
+    "logistics": "Logisztika és szállítás",
+    "estimateGen": "Ingyenes költségbecslő",
+    "allIndustries": "Minden iparág"
+  },
+  "sticky": {
+    "text": "Vezesse vállalkozását ingyen, örökre."
+  },
+  "cta": {
+    "title": "Készen áll, hogy a Paper & Pen segítségével vezesse a vállalkozását?",
+    "sub": "Hozza létre ingyenes munkaterületét kevesebb mint 5 perc alatt. Az Értékesítés és Számlázás örökre ingyenes, bankkártya nélkül."
+  },
+  "proof": {
+    "builtInOman": "Ománban készült · világszerte használják",
+    "free": "Értékesítés és Számlázás örökre ingyen. Kártya nem kell.",
+    "languages": "5 nyelv, az arab és az urdu jobbról balra"
+  },
+  "hero": {
+    "badge": "Vállalkozásoknak, bárhol",
+    "tagline_line1": "Az ERP, amely beszéli",
+    "tagline_line2": "az Ön nyelvét.",
+    "sub": "Kezelje az értékesítést, a készletet, a HR-t és a pénzügyeket egyetlen felhőplatformon, 5 nyelven és bármilyen pénznemben.",
+    "cta": "Kezdje ingyen",
+    "seeModules": "Modulok megtekintése",
+    "subdomainLabel": "Munkaterülete címe",
+    "subdomainPlaceholder": "cegnev",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "szabad",
+    "taken_short": "már foglalt",
+    "checking": "Elérhetőség ellenőrzése...",
+    "subdomainError": "Most nem tudjuk ellenőrizni az elérhetőséget. Ennek ellenére folytathatja.",
+    "trialNote": "Örökre ingyenes · Bankkártya nélkül · Modulok bármikor hozzáadhatók",
+    "card_title": "Mai áttekintés",
+    "stat1_label": "E havi bevétel",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Nyitott számlák",
+    "stat2_value": "12",
+    "stat3_label": "Szabadságon lévő munkatársak",
+    "stat3_value": "2",
+    "card_progress": "Havi cél: 75% teljesítve",
+    "trust_count": "Ománban készült",
+    "trust_label": "Öböl menti vállalkozásoknak"
+  },
+  "languages": {
+    "eyebrow": "Többnyelvű · Több pénznem",
+    "title": "Minden csapatnak, minden piacra",
+    "sub": "Váltson azonnal arab, angol, hindi, bengáli és urdu között, és számlázzon bármilyen pénznemben. Az adatai ugyanazok maradnak, csak a felület változik."
+  },
+  "modules": {
+    "eyebrow": "Moduláris felépítés",
+    "title": "Minden modul, amire vállalkozásának szüksége van",
+    "sub": "Kezdje az Értékesítés és Számlázás modullal, majd növekedésével kapcsoljon be további modulokat, a CRM-től és HR-től a gyártásig, banki kapcsolatig és AI-ig. Egy rendszer az egész cégnek.",
+    "included": "Benne van",
+    "omrPerMonth": "OMR/hó",
+    "estimateLabel": "Becsült költsége",
+    "omr_mo": "OMR/hó",
+    "base_label": "Alap",
+    "addons_label": "kiegészítők",
+    "estimateNote": "A kiválasztott modulok alapján. A felhasználókat külön számlázzuk.",
+    "startTrial": "Kezdje ingyen",
+    "sales": {
+      "title": "Értékesítés és CRM",
+      "desc": "Árajánlatok, számlák, ügyfél-folyamat, fizetéskövetés és emlékeztetők."
+    },
+    "inventory": {
+      "title": "Készlet",
+      "desc": "Készlet, raktárhelyek és újrarendelési szintek valós idejű követése."
+    },
+    "hr": {
+      "title": "HR és bérszámfejtés",
+      "desc": "Jelenlét, szabadságkezelés, bérszámfejtés és munkavállalói portál."
+    },
+    "accounting": {
+      "title": "Könyvelés",
+      "desc": "Kettős könyvvitel, banki egyeztetés és ÁFA-bevallások."
+    },
+    "manufacturing": {
+      "title": "Gyártás",
+      "desc": "Anyagjegyzékek, munkalapok és gyártástervezés."
+    },
+    "reports": {
+      "title": "Jelentések és elemzések",
+      "desc": "Eredménykimutatás, cash flow, kintlévőségek korosítása és egyedi irányítópultok."
+    },
+    "pricePerMonth": "+{{price}} OMR/hó",
+    "ctaTitle": "Készen áll, hogy a Paper & Pen segítségével vezesse a vállalkozását?",
+    "ctaSub": "Percek alatt beállítható. Kapcsolja be a szükséges modulokat."
+  },
+  "pricing": {
+    "eyebrow": "Árak",
+    "title": "Egyszerű, tisztességes árak",
+    "sub": "Kezdje ingyen, az Értékesítés és Számlázás örökre díjmentes. Növekedésével adjon hozzá modulokat.",
+    "monthly": "Havi",
+    "annual": "Éves",
+    "perMonth": "/hó",
+    "perYear": "/év",
+    "annualSave": "20% megtakarítás",
+    "startTrial": "Kezdje ingyen",
+    "mostPopular": "Legnépszerűbb",
+    "free_label": "Ingyenes",
+    "unlimited": "Korlátlan",
+    "users": "felhasználó",
+    "buildYourOwn": "Állítsa össze saját csomagját",
+    "trialNote": "Örökre ingyenes csomag · Bankkártya nélkül · Bármikor válthat nagyobbra",
+    "addModules": "Modulok hozzáadása",
+    "base": {
+      "title": "Értékesítés és Számlázás, örökre ingyen",
+      "desc": "Árajánlatok, számlák, fizetések, legfeljebb 3 felhasználó. Bankkártya nélkül."
+    },
+    "free": {
+      "name": "Ingyenes",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Értékesítés és Számlázás, örökre ingyen",
+      "features": [
+        "Legfeljebb 3 felhasználó",
+        "Értékesítés és számlázás",
+        "Árajánlatok és fizetések",
+        "Alapjelentések",
+        "Bankkártya nélkül"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "Növekvő vállalkozásoknak, amelyeknek több kell",
+      "features": [
+        "Legfeljebb 20 felhasználó",
+        "Minden, ami az Ingyenesben",
+        "Készletmodul",
+        "HR és bérszámfejtés",
+        "Több pénznem",
+        "WhatsApp-értesítések",
+        "Elsőbbségi támogatás"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "Teljes ERP megalapozott cégeknek",
+      "features": [
+        "Korlátlan felhasználó",
+        "Minden, ami a Growth csomagban",
+        "Könyvelés és banki szinkronizálás",
+        "Gyártás",
+        "Fejlett elemzések",
+        "API-hozzáférés",
+        "Dedikált támogatás"
+      ]
+    },
+    "addons": {
+      "title": "Valami különlegesre van szüksége?",
+      "subtitle": "Adjon egyes modulokat bármelyik csomaghoz. Csak azért fizet, amire szüksége van.",
+      "whatsapp_name": "WhatsApp-értesítések",
+      "whatsapp_desc": "{{price}} OMR/hó",
+      "extraUsers_name": "További felhasználók",
+      "extraUsers_desc": "{{price}} OMR/felhasználó/hó-tól",
+      "extraStorage_name": "További tárhely",
+      "extraStorage_desc": "{{price}} OMR 5GB-onként havonta"
+    },
+    "headLead": "Egyszerű, tisztességes",
+    "headAccent": "árak",
+    "planWord": "Csomag",
+    "billedMonthly": "Havi számlázás",
+    "billedAnnually": "Éves számlázás",
+    "billingPeriod": "Számlázási időszak",
+    "worldwideNote": "Egyetlen globális árlista, ománi riálban (OMR). Fizessen kártyával a világ bármely pontjáról.",
+    "compareTitle": "Hasonlítsa össze a csomagok összes funkcióját",
+    "compareFeature": "Funkció",
+    "compareUsers": "Felhasználók",
+    "compareGroupCore": "Minden csomagban",
+    "compareGroupAdded": "A {{plan}} csomagban kiegészítve",
+    "included": "Benne van",
+    "notIncluded": "Nincs benne",
+    "scrollHint": "Húzza oldalra a táblázatot a csomagok összehasonlításához",
+    "selectPlan": "Csomag kiválasztása"
+  },
+  "compare": {
+    "eyebrow": "Miért a Paper & Pen",
+    "title": "Hogyan teljesítünk a többiekhez képest",
+    "feature": "Funkció",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Teljes arab, jobbról balra író felület",
+      "gcc_pricing": "Öböl menti árazás (OMR/BHD/AED)",
+      "free_trial": "Örökre ingyenes csomag, kártya nélkül",
+      "local_support": "Helyi támogatás az Öböl térségében",
+      "multi_lang": "5 nyelvű felület",
+      "paymob": "Paymob / helyi fizetés",
+      "onboarding": "Önálló beállítás < 5 perc alatt"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Kérdések",
+    "title": "Minden, amit tudnia kell"
+  },
+  "related": {
+    "title": "Fedezzen fel többet",
+    "termsTitle": "Az oldal fogalmai, közérthetően",
+    "exploreTitle": "Ismerje meg a Paper & Pen-t"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | Ingyenes felhő ERP és számlázó szoftver",
+    "homeDesc": "Ingyenes felhő ERP és számlázó szoftver. Értékesítés, készlet, HR és könyvelés 5 nyelven, bármilyen pénznemben. Értékesítés és Számlázás örökre ingyen.",
+    "fiTitle": "Ingyenes online számlázó szoftver · Paper & Pen",
+    "fiDesc": "Készítsen és küldjön profi számlákat 1 kattintással. Ingyenes online számlázás ÁFA-val, bármilyen pénznemben, árajánlatokkal és nyugtákkal. Örökre ingyen.",
+    "pricingTitle": "Árak · Paper & Pen",
+    "pricingDesc": "Egyszerű árak. Értékesítés és Számlázás örökre ingyen. Növekedésével adjon hozzá Készletet, HR-t, Könyvelést és mást. Kártya nélkül. Évesen 20% kedvezmény.",
+    "faqTitle": "Gyakori kérdések · Paper & Pen ERP",
+    "faqDesc": "Válaszok a Paper & Pen ingyenes felhő ERP-ről és számlázó szoftverről: árak, ÁFA, arab nyelv, modulok, beállítás és még sok más.",
+    "toolsTitle": "Ingyenes üzleti eszközök · Paper & Pen",
+    "toolsDesc": "Ingyenes eszközök regisztráció nélkül: számla-, árajánlat- és nyugtakészítő, megrendelő, szállítólevél és beállítható ÁFA-kalkulátor.",
+    "aboutTitle": "A Paper & Pen-ről · Ingyenes felhő ERP a BHD Grouptól",
+    "aboutDesc": "A Paper & Pen-t Ománban fejleszti a Paper and Pen Company LLC, a BHD Group tagja. Ingyenes felhő ERP vállalkozásoknak világszerte, arab nyelvvel, bármilyen pénznemben.",
+    "contactTitle": "Kapcsolat a Paper & Pen-nel",
+    "contactDesc": "Vegye fel a kapcsolatot a Paper & Pen csapatával. WhatsApp +968 9889 9100 vagy írjon nekünk e-mailt.",
+    "securityTitle": "Biztonság és adatvédelem · Paper & Pen",
+    "securityDesc": "Így védi a Paper & Pen az adatait: titkosítás, ügyfelenkénti elkülönítés, biztonsági mentés, hozzáférés-szabályozás és PCI-DSS fizetés a Paymobon.",
+    "blogTitle": "Blog · Paper & Pen ERP",
+    "signupTitle": "Hozza létre ingyenes Paper & Pen munkaterületét",
+    "signupDesc": "Állítsa be ingyenes Paper & Pen ERP munkaterületét kevesebb mint 5 perc alatt. Értékesítés és Számlázás örökre ingyen.",
+    "loginTitle": "Belépés a Paper & Pen-be",
+    "loginDesc": "Lépjen be Paper & Pen ERP munkaterületére.",
+    "glossaryTitle": "Könyvelési szótár · Paper & Pen",
+    "glossaryDesc": "Közérthető meghatározások a kisvállalkozások könyvelési, számlázási, ÁFA- és készletfogalmaihoz, képletekkel és kidolgozott példákkal.",
+    "templatesTitle": "Ingyenes számlasablonok szakmák szerint · Paper & Pen",
+    "templatesDesc": "Számlasablonok és számlázási tanácsok kivitelezőknek, tanácsadóknak, tervezőknek, szakiknak és szolgáltatóknak. Mit tüntessen fel, hogyan árazzon, hogyan kapja meg a pénzét.",
+    "altTitle": "Könyvelőszoftver-alternatívák · Paper & Pen",
+    "altDesc": "Könyvelőszoftvert váltana? Mi vihető át, mi nem, mikor érdemes váltani, és kinek jobb maradnia.",
+    "compareTitle": "ERP és számlázó szoftverek összehasonlítása | Paper & Pen",
+    "compareDesc": "Hasonlítsa össze a Paper & Pen-t ERP, könyvelő és számlázó szoftverekkel: árak, nyelvek, pénznemek, adóbeállítások, modulok és gyakorlati használat.",
+    "industriesTitle": "ERP és számlázó szoftver iparáganként | Paper & Pen",
+    "industriesDesc": "Nézze meg, hogyan támogatja a Paper & Pen a számlázást, készletet, könyvelést és működést 15 iparágban, öt nyelven és bármilyen pénznemben.",
+    "vatTitle": "Öböl menti ÁFA és e-számla országonként · Paper & Pen",
+    "vatDesc": "ÁFA-kulcsok, regisztrációs értékhatárok, adószámla-követelmények és az e-számlázás állása Ománban, az EAE-ben, Szaúd-Arábiában és Bahreinben, forrásokkal."
+  },
+  "toolsIndex": {
+    "title": "Ingyenes üzleti eszközök",
+    "sub": "Regisztráció és díj nélkül. Készítsen számlát, árajánlatot, nyugtát és mást, PDF-ben letölthetően, bármilyen pénznemben és beállítható ÁFA-kulccsal."
+  },
+  "pages": {
+    "about": {
+      "title": "Ománban készült, az Öböl menti vállalkozásoknak",
+      "lead": "A Paper & Pen az a felhő ERP, amelyet mindig is szerettünk volna: elég egyszerű ahhoz, hogy öt perc alatt elinduljon, elég erős ahhoz, hogy az egész céget vezesse, és végre ahhoz igazodik, ahogyan Ománban és az Öböl térségében valóban működik az üzlet.",
+      "body1": "A Paper & Pen-t a Paper and Pen Company LLC fejleszti, amely az ománi Maszkatban működő BHD Group tagja. Ománban, ománi szakemberekkel, Öböl menti vállalkozásoknak készítünk szoftvert: az arab teljes értékű nyelv, az OMR-számlázás a rendszer magjában van, a helyi fizetés pedig beépített.",
+      "body2": "Több ezer árajánlat, számla és fizetés halad át a Paper & Pen-en. Az Értékesítés és Számlázás örökre ingyenes, mert minden vállalkozás megérdemli a profi eszközöket. Csak akkor fizet, amikor a növekedéshez készletre, HR-re, könyvelésre vagy gyártásra van szüksége.",
+      "stat1": "Örökre ingyen",
+      "stat1l": "Értékesítés és Számlázás",
+      "stat2": "5",
+      "stat2l": "Nyelv",
+      "stat3": "< 5 perc",
+      "stat3l": "Az induláshoz",
+      "stat4": "OMR",
+      "stat4l": "Beépített számlázás"
+    },
+    "contact": {
+      "title": "Beszéljen velünk",
+      "lead": "Kérdések, bemutatók, partnerség: gyorsan válaszolunk. A leggyorsabban WhatsAppon ér el minket.",
+      "whatsapp": "Írjon WhatsAppon",
+      "email": "Írjon e-mailt",
+      "hours": "Vasárnap–csütörtök, 8:00–17:00 (GMT+4)"
+    },
+    "security": {
+      "title": "Az adatai biztonságban",
+      "lead": "A biztonság és az adatvédelem az alapoktól be van építve a Paper & Pen-be.",
+      "items": [
+        "Titkosítás átvitel közben (TLS) és tároláskor",
+        "Elkülönített adatbázis minden ügyfélnek, adatait soha nem osztjuk meg",
+        "Automatikus, rendszeres biztonsági mentés",
+        "Szerepkör alapú hozzáférés-szabályozás és naplózás",
+        "A fizetéseket a PCI-DSS-megfelelő Paymob kezeli",
+        "Megerősített, folyamatosan figyelt infrastruktúra"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Paper & Pen blog",
+    "sub": "Útmutatók a számlázásról, az ÁFA-ról, a könyvelésről és a vállalkozás vezetéséről Ománban és az Öböl térségében.",
+    "readMore": "Tovább olvasom",
+    "empty": "Új cikkek érkeznek hamarosan. Nézzen vissza később.",
+    "backToBlog": "Minden cikk"
+  },
+  "fi": {
+    "crumb": "Ingyenes számlázó szoftver",
+    "eyebrow": "Ingyenes online számlázás",
+    "title": "Ingyenes számlázó szoftver,<br/>vállalkozásoknak <em class=\"text-copper-400 not-italic\">bárhol</em>",
+    "subtitle": "Készítsen és küldjön profi, adózásra kész számlákat egy kattintással, bármilyen pénznemben és 5 nyelven. Árajánlatok, nyugták, fizetési emlékeztetők és teljes könyvelés. Örökre ingyen.",
+    "b1": "Örökre ingyen, bankkártya nélkül",
+    "b2": "Bármilyen pénznem + beállítható ÁFA",
+    "b3": "Küldés WhatsAppon vagy e-mailben 1 kattintással",
+    "tryTool": "Próbálja ki az ingyenes számlakészítőt",
+    "docsEyebrow": "Egy platform, minden dokumentum",
+    "docsTitle": "Minden üzleti dokumentum, amire szüksége van",
+    "docsSub": "Az első árajánlattól az utolsó nyugtáig a Paper & Pen elkészít minden dokumentumot, amelyet vállalkozása kiküld, majd automatikusan rendben és egyeztetve tartja őket.",
+    "docs": {
+      "invoices": {
+        "t": "Profi számlák",
+        "d": "Testreszabható, ÁFA-kompatibilis számlák az Ön logójával, másodpercek alatt elküldve."
+      },
+      "quotes": {
+        "t": "Árajánlatok és becslések",
+        "d": "Nyerjen munkát saját arculatú árajánlatokkal, amelyek egy kattintással számlává alakulnak."
+      },
+      "proforma": {
+        "t": "Díjbekérők",
+        "d": "Állítson ki díjbekérőt előlegekhez és vámügyintézéshez."
+      },
+      "receipts": {
+        "t": "Fizetési nyugták",
+        "d": "A nyugta automatikusan elkészül, amint rögzít egy fizetést."
+      },
+      "po": {
+        "t": "Megrendelők",
+        "d": "Állítson ki és kövessen megrendelőket a beszállítóinak."
+      },
+      "delivery": {
+        "t": "Szállítólevelek",
+        "d": "Állítson ki minden rendeléshez kapcsolódó szállítólevelet."
+      },
+      "recurring": {
+        "t": "Ismétlődő számlák",
+        "d": "Automatizálja az előfizetések és átalánydíjas megbízások ismétlődő számlázását."
+      },
+      "reminders": {
+        "t": "Fizetési emlékeztetők",
+        "d": "Automatikus, udvarias emlékeztetők, hogy időben megkapja a pénzét."
+      },
+      "share": {
+        "t": "Megosztás WhatsAppon és e-mailben",
+        "d": "Bármely dokumentumot egy érintéssel elküldhet WhatsAppon vagy e-mailben."
+      }
+    },
+    "s1": {
+      "eyebrow": "Gyorsabban kapja meg a pénzét",
+      "title": "Az árajánlattól a befizetésig, utánajárás nélkül",
+      "body": "Alakítsa az árajánlatokat számlává, ossza meg WhatsAppon, és bízza a követést az automatikus emlékeztetőkre. Pontosan látja, ki nézte meg és ki fizetett.",
+      "i1": "Árajánlat → számla → nyugta 1 kattintással",
+      "i2": "Automatikus fizetési emlékeztetők",
+      "i3": "Online fizetés a Paymobon keresztül"
+    },
+    "s2": {
+      "eyebrow": "Bárhol megfelel az előírásoknak",
+      "title": "Bármilyen pénznem, bármilyen adókulcs, mi elintézzük",
+      "body": "Számlázzon bármilyen pénznemben, állítsa be saját ÁFA- vagy forgalmiadó-kulcsát, és dolgozzon arabul vagy angolul. Az Öböl menti vállalkozások beépített OMR/AED/SAR számlázást, beállítható ÁFA-t és helyi fizetést kapnak azonnal.",
+      "i1": "Beállítható ÁFA / forgalmi adó a nettó összegre",
+      "i2": "Arab és angol számlasablonok",
+      "i3": "Beépített adóbevallások és jelentések"
+    },
+    "cmpEyebrow": "Miért váltson",
+    "cmpTitle": "Az ingyenes számlázó szoftver, amely ide készült",
+    "faq": {
+      "q1": "Tényleg ingyenes a számlázás?",
+      "a1": "Igen. A számlázás, az árajánlatok és a fizetéskövetés legfeljebb 3 felhasználóig örökre ingyenes, bankkártya nélkül.",
+      "q2": "Kezeli az ománi 5%-os ÁFA-t?",
+      "a2": "Igen. Az ÁFA automatikusan a kedvezmény utáni nettó összegre számítódik, és ÁFA-szabályoknak megfelelő számlákat és bevallásokat készíthet.",
+      "q3": "Küldhetek számlát arabul?",
+      "a3": "Igen. A számlák, árajánlatok és nyugták teljesen arabul (jobbról balra) vagy angolul jelennek meg, dokumentumonként választhatóan.",
+      "q4": "Fizethetnek az ügyfelek online?",
+      "a4": "Igen. Kapcsolja be a Paymobot, és ügyfelei kártyával online fizethetik a számlákat. A fizetések automatikusan egyeztetődnek."
+    }
+  },
+  "pricingFaq": {
+    "q1": "Tényleg örökre ingyenes az ingyenes csomag?",
+    "a1": "Igen. Az Értékesítés és Számlázás legfeljebb 3 felhasználóig örökre ingyenes, bankkártya és lejárat nélkül. Csak akkor fizet, ha olyan modulokat ad hozzá, mint a Készlet, a HR vagy a Könyvelés.",
+    "q2": "Később módosíthatom vagy lemondhatom a modulokat?",
+    "a2": "Bármikor. Adjon hozzá vagy töröljön fizetős modulokat, amikor csak akar, a számlázás automatikusan igazodik. Nincs hűségszerződés.",
+    "q3": "Hogyan és milyen pénznemben számláznak?",
+    "a3": "A számlázás ománi riálban (OMR), 3 tizedesjegyre történik, havonta vagy évente (éves fizetésnél 20% megtakarítás). A kártyás fizetéseket biztonságosan a Paymob dolgozza fel."
+  },
+  "tool": {
+    "from": "Kiállító",
+    "billTo": "Vevő",
+    "docNo": "Bizonylatszám",
+    "date": "Dátum",
+    "item": "Megnevezés",
+    "qty": "Menny.",
+    "rate": "Egységár",
+    "amount": "Összeg",
+    "addLine": "Sor hozzáadása",
+    "subtotal": "Részösszeg",
+    "vat": "ÁFA",
+    "total": "Végösszeg",
+    "notes": "Megjegyzések",
+    "currency": "Pénznem",
+    "applyVat": "ÁFA / adó alkalmazása",
+    "print": "PDF letöltése / nyomtatása",
+    "yourCompany": "Az Ön Cége Kft.",
+    "clientName": "Ügyfél neve",
+    "signupCta": "Mentse és kezelje dokumentumait a Paper & Pen-ben",
+    "labels": {
+      "invoice": "SZÁMLA",
+      "quotation": "ÁRAJÁNLAT",
+      "proforma": "DÍJBEKÉRŐ",
+      "receipt": "NYUGTA",
+      "purchase-order": "MEGRENDELŐ",
+      "delivery-note": "SZÁLLÍTÓLEVÉL",
+      "estimate": "KÖLTSÉGBECSLÉS",
+      "credit-note": "JÓVÁÍRÓ SZÁMLA"
+    },
+    "vatCalc": {
+      "amount": "Összeg",
+      "mode": "Mód",
+      "addVat": "5% ÁFA hozzáadása",
+      "removeVat": "ÁFA levonása",
+      "net": "Nettó összeg",
+      "vat": "ÁFA",
+      "gross": "Bruttó (ÁFA-val)"
+    },
+    "tryFull": "Próbálja ki a teljes ERP-t",
+    "builderTitle": "Készítse el dokumentumát",
+    "featuresHeading": "Miért érdemes ezt az ingyenes eszközt használni"
+  },
+  "homeFaq": {
+    "q1": "Tényleg ingyenes a Paper & Pen?",
+    "a1": "Igen. Az Értékesítés és Számlázás modul örökre ingyenes, bankkártya és időkorlát nélkül. Legfeljebb 3 felhasználóval készíthet árajánlatot és számlát, és rögzíthet fizetéseket. Fizetős modulokat, például Készletet, HR-t vagy Könyvelést csak akkor adjon hozzá, amikor szüksége van rájuk.",
+    "q2": "Működik a Paper & Pen arabul?",
+    "a2": "Teljes mértékben. A teljes felület elérhető arabul, helyes jobbról balra elrendezéssel, valamint angolul, hindiül, bengáliul és urduul. Bármikor válthat nyelvet, az adatai pontosan ugyanazok maradnak.",
+    "q3": "Használhatom a Paper & Pen-t az Öböl térségén kívül?",
+    "a3": "Igen. A Paper & Pen-t Ománban fejleszti a Paper and Pen Company LLC (a BHD Group tagja), de bárhol működik. Számlázzon bármilyen pénznemben, állítsa be saját adókulcsát, és dolgozzon 5 nyelven. Az Öböl menti vállalkozások emellett beépített OMR/AED/SAR számlázást, helyi ÁFA-t és Paymob-fizetést is kapnak.",
+    "q4": "Mennyi ideig tart a beállítás?",
+    "a4": "Kevesebb mint 5 percig. Válasszon nevet a munkaterületnek, erősítse meg az e-mail-címét, válassza ki a modulokat, és már számlázhat is. Nincs telepítés, nincs tanácsadó, nincs beállítási díj."
+  },
+  "trust": {
+    "eyebrow": "Miért választanak minket a vállalkozások",
+    "title": "Ománban készült. Vállalkozások bíznak benne világszerte.",
+    "sub": "Arab nyelv elsőként, több pénznem és adózásra kész működés: a Paper & Pen illik az Öböl menti és sokkal távolabbi vállalkozásokhoz is, miközben megőrzi azt az egyszerűséget és helyi támogatást, amelyről a nagy platformok megfeledkeztek.",
+    "cta": "Hozza létre ingyenes munkaterületét",
+    "stat1_value": "5",
+    "stat1_label": "Támogatott nyelv",
+    "stat2_value": "Ingyen",
+    "stat2_label": "Örökre, kártya nélkül",
+    "stat3_value": "RTL",
+    "stat3_label": "Arab és urdu támogatás",
+    "stat4_value": "Bármely",
+    "stat4_label": "pénznemben számlázhat"
+  },
+  "footer": {
+    "tagline": "Az ingyenes felhő ERP növekvő vállalkozásoknak, bárhol. Ománban készült.",
+    "product": "Termék",
+    "tools": "Ingyenes eszközök",
+    "company": "Cég",
+    "about": "Rólunk",
+    "blog": "Blog",
+    "security": "Biztonság",
+    "freeInvoicing": "Ingyenes számlázó szoftver",
+    "legal": "Jogi információk",
+    "contact": "Kapcsolat",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Felhasználási feltételek",
+    "privacy": "Adatvédelmi irányelvek",
+    "status": "Minden rendszer működik",
+    "rights": "© {{year}} Paper and Pen Company LLC. Minden jog fenntartva.",
+    "support": "Támogatás",
+    "help": "Súgóközpont",
+    "contactSupport": "Kapcsolat a támogatással",
+    "statusPage": "Szolgáltatás állapota",
+    "resources": "Források",
+    "faq": "GYIK",
+    "invoices": "Számlák"
+  },
+  "signup": {
+    "title": "Hozza létre munkaterületét",
+    "step1": {
+      "title": "Mi a cége neve?",
+      "label": "Cégnév",
+      "placeholder": "Al Noor Kereskedelmi Kft.",
+      "subdomainLabel": "Munkaterülete címe ez lesz",
+      "next": "Tovább",
+      "subtitle": "Ez lesz az ERP egyedi aldomainje.",
+      "workspaceUrlLabel": "Munkaterülete címe:",
+      "available": "✓ Szabad",
+      "taken": "✗ Foglalt",
+      "checking": "ellenőrzés..."
+    },
+    "step2": {
+      "title": "Az Ön e-mail-címe",
+      "emailLabel": "E-mail-cím",
+      "password": "Jelszó",
+      "passwordHint": "Legalább 8 karakter",
+      "language": "Választott nyelv",
+      "currency": "Alapértelmezett pénznem",
+      "next": "Tovább",
+      "subtitle": "Minden belépéskor egyszer használatos kódot küldünk. Nincs megjegyzendő jelszó.",
+      "emailPlaceholder": "nev@ceg.hu",
+      "passwordLabel": "Jelszó",
+      "passwordPlaceholder": "Min. 8 karakter",
+      "back": "Vissza",
+      "emailHint": "Ide érkezik minden alkalommal egy 6 jegyű belépési kód."
+    },
+    "step3": {
+      "title": "Válassza ki a modulokat",
+      "next": "Tovább",
+      "trialNote": "14 napos ingyenes próba, bármikor lemondható",
+      "subtitle": "Az Értékesítés és Számlázás mindig ingyenes. Adja hozzá, amire szüksége van.",
+      "baseTitle": "Értékesítés és Számlázás",
+      "baseSub": "Árajánlatok, számlák, fizetések · 3 felhasználó",
+      "baseTag": "Ingyenes",
+      "workspaceLabel": "Munkaterület",
+      "baseRow": "Alap (Értékesítés)",
+      "baseValue": "Örökre ingyen",
+      "addonsLabel": "Kiegészítő modulok",
+      "dueToday": "Ma fizetendő",
+      "freeNote": "Örökre ingyen. Bankkártya nélkül. Modulok bármikor hozzáadhatók.",
+      "paidNote": "A 14 napos próba után: {{total}} OMR/hó. A kártyát biztonságosan a Paymob tárolja (0.100 OMR ellenőrző terhelés, azonnal visszatérítve).",
+      "back": "Vissza",
+      "btnFree": "Munkaterület létrehozása",
+      "btnPaid": "14 napos próba indítása",
+      "btnLoading": "Munkaterület létrehozása...",
+      "footerFree": "Bankkártya nélkül · Értékesítés és Számlázás örökre ingyen",
+      "footerPaid": "Kártya biztonságban a Paymobnál · A 0.100 OMR ellenőrzés azonnal visszajár"
+    },
+    "step4": {
+      "title": "Munkaterülete beállítása folyamatban...",
+      "steps": [
+        "Adatbázis létrehozása",
+        "Modulok beállítása",
+        "Domain beállítása",
+        "Mindjárt kész!"
+      ],
+      "redirect": "Átirányítjuk a munkaterületére..."
+    },
+    "progress": {
+      "workspace": "Munkaterület",
+      "account": "Fiók",
+      "modulesPayment": "Modulok és fizetés"
+    },
+    "errors": {
+      "gateway": "A fizetési szolgáltató címe érvénytelen volt. Kérjük, forduljon a támogatáshoz.",
+      "network": "Hálózati hiba. Ellenőrizze a kapcsolatot, és próbálja újra.",
+      "generic": "Valami hiba történt. Kérjük, próbálja újra.",
+      "companyRequired": "A folytatáshoz adja meg a cége nevét. Ebből lesz a munkaterülete címe.",
+      "companyLetters": "Ebben a névben nincs betű vagy szám, amiből webcímet lehetne képezni. Adjon hozzá legalább egyet.",
+      "subdomainTaken": "Ez a munkaterület-cím már foglalt. Tegyen hozzá egy szót, hogy a sajátja legyen, például a városát vagy a név rövid alakját.",
+      "subdomainChecking": "Még ellenőrizzük, hogy szabad-e a cím. Egy pillanat múlva nyomja meg újra a Tovább gombot.",
+      "emailRequired": "Adja meg az e-mail-címet, amellyel be szeretne lépni. Oda érkeznek az egyszer használatos kódok.",
+      "emailInvalid": "A címből hiányzik a @ vagy az utána következő rész. Írja ki teljesen, például you@company.com."
+    },
+    "rail": {
+      "cardLabel": "Ma szükséges kártya",
+      "cardValue": "Nincs",
+      "dataLabel": "Adatai, ha távozik",
+      "dataValue": "Az Öné, exportálhatja",
+      "note": "Semmi sincs lezárva. Ha nem fizet tovább egy modulért, a munkaterület nyitva marad az ingyenes csomagon, az adatai pontosan ott maradnak, ahol hagyta őket."
+    },
+    "securedBy": "A Paymob védelmével"
+  },
+  "login": {
+    "title": "Üdvözöljük újra",
+    "subtitle": "Lépjen be munkaterületére.",
+    "workspace": "Munkaterület",
+    "workspaceError": "Kérjük, adja meg munkaterülete nevét (pl. „cegnev”).",
+    "email": "E-mail",
+    "emailLabel": "E-mail",
+    "password": "Jelszó",
+    "submit": "Tovább a munkaterületre",
+    "otpNote": "Egyszer használatos kódot küldünk az e-mail-címére. Jelszó nem kell.",
+    "forgotPassword": "Elfelejtette a jelszavát?",
+    "noAccount": "Nincs még fiókja?",
+    "signUp": "Ingyenes próba indítása"
+  },
+  "glossary": {
+    "title": "Könyvelési szótár",
+    "eyebrow": "Közérthető meghatározások",
+    "sub": "{{count}} könyvelési, számlázási és adózási fogalom közérthetően, képlettel és kidolgozott példával ott, ahol a számítás okoz fejtörést.",
+    "filterLabel": "Fogalmak szűrése",
+    "filterPlaceholder": "Keresés a szótárban",
+    "filterCount": "{{shown}} / {{total}} fogalom látható",
+    "definitionTitle": "Mi az a {{term}}?",
+    "mattersTitle": "Miért fontos a vállalkozásának",
+    "faqTitle": "Gyakori kérdések",
+    "relatedTerms": "Kapcsolódó fogalmak",
+    "seeAlso": "Lásd még",
+    "browseAll": "A szótár összes fogalma",
+    "cat": {
+      "invoicing": "Számlázás és bizonylatok",
+      "accounting": "Könyvelés és nyilvántartás",
+      "tax": "Adó és ÁFA",
+      "inventory": "Készlet és költségszámítás",
+      "metrics": "Pénzügyi mutatók"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Számlázási bizonylatok",
+    "eyebrow": "Értékesítési bizonylatok",
+    "sub": "Számlák, árajánlatok, becslések, szállítólevelek, jóváíró számlák és az értékesítés többi bizonylata. Készítse el és küldje el őket ingyen, bármilyen pénznemben.",
+    "metaTitle": "Számlázási bizonylatok · Paper & Pen",
+    "metaDesc": "Készítsen online számlát, árajánlatot, becslést, szállítólevelet és jóváíró számlát ingyen, bármilyen pénznemben. Küldje WhatsAppon vagy e-mailben."
+  },
+  "featuresIndex": {
+    "title": "ERP-funkciók",
+    "eyebrow": "Mit tud a szoftver",
+    "sub": "Számlázás, készlet, könyvelés, HR és a Paper & Pen többi modulja. A számlázás ingyenes marad. A többi modul választható.",
+    "metaTitle": "ERP-funkciók · Paper & Pen",
+    "metaDesc": "Ismerje meg a Paper & Pen moduljait: ingyenes számlázás, készlet, könyvelés, HR és más. Olvassa el, mit tud mindegyik, mielőtt bekapcsolja."
+  },
+  "useCasesIndex": {
+    "title": "Kinek szól a Paper & Pen",
+    "eyebrow": "Felhasználási példák",
+    "sub": "Hogyan használják a szabadúszók, ügynökségek, könyvelők és kisvállalkozások ugyanazt az ingyenes számlázási alapot, és milyen modulokat adnak hozzá.",
+    "metaTitle": "ERP felhasználási példák · Paper & Pen",
+    "metaDesc": "Nézze meg, hogyan használják a Paper & Pen-t a szabadúszók, ügynökségek, könyvelők és kisvállalkozások, és melyik modulra van valóban szükségük."
+  },
+  "templatesIndex": {
+    "title": "Számlasablonok szakmák szerint",
+    "eyebrow": "Ingyenes sablonok",
+    "sub": "Mit kell valójában feltüntetnie egy számlának az Ön szakmájában, hogyan árazzák általában ezt a munkát, és hogyan kapja meg a pénzét utánajárás nélkül. Magát a számlát az ingyenes készítőben állíthatja össze, regisztráció nélkül."
+  },
+  "altIndex": {
+    "title": "Váltás más könyvelőszoftverről",
+    "eyebrow": "Átállási útmutatók",
+    "sub": "Mi vihető át, mi nem, mikor érdemes váltani az üzleti évben, és őszinte megjegyzés arról, kinek jobb maradnia a mostani rendszerénél."
+  },
+  "compareIndex": {
+    "title": "ERP és számlázó szoftverek összehasonlítása",
+    "eyebrow": "Hasonlítsa össze a lehetőségeket",
+    "sub": "Egymás melletti összehasonlítások vállalkozásoknak, amelyek számlázó, könyvelő vagy ERP szoftvert választanak. Nézze meg az árakat, nyelveket, pénznemeket, adóbeállításokat, és hogy melyik mire a legjobb."
+  },
+  "industriesIndex": {
+    "title": "ERP és számlázó szoftver iparáganként",
+    "eyebrow": "Az Ön munkájára szabva",
+    "sub": "Ismerjen meg gyakorlati munkafolyamatokat 15 iparágban, a kereskedelemtől és kiskereskedelemtől az egészségügyig, oktatásig, logisztikáig és szakmai szolgáltatásokig."
+  },
+  "vat": {
+    "factsEyebrow": "A számok",
+    "factsTitle": "ÁFA: {{country}}, dióhéjban",
+    "colItem": "Tétel",
+    "colValue": "Érték",
+    "colDetail": "Részletek és forrás",
+    "fieldsTitle": "Mit kell tartalmaznia egy adószámlának ({{country}})",
+    "einvEyebrow": "E-számlázás",
+    "sourcesTitle": "Források",
+    "sourcesNote": "Az oldalon szereplő minden szám és mezőlista az alább hivatkozott, magának az adóhatóságnak a kiadványából származik. Nem teszünk közzé olyan kulcsot, értékhatárt vagy határidőt, amelynek forrását nem tudjuk megmutatni.",
+    "authorityNote": "Az adószabályok változnak. Mielőtt bármire támaszkodna innen, ellenőrizze az aktuális helyzetet itt: "
+  },
+  "vatIndex": {
+    "title": "ÁFA és e-számlázás országonként",
+    "eyebrow": "Öböl menti adószabályok",
+    "sub": "Kulcsok, regisztrációs értékhatárok, mit kell tartalmaznia egy adószámlának, és hol tart valójában az e-számlázás, országról országra, minden szám mögött az adóhatóság szövegére mutató hivatkozással.",
+    "whatIsVat": "Mi az ÁFA?",
+    "whatIsEinv": "Mi az e-számlázás?"
+  },
+  "legal": {
+    "englishOnly": "Ezek a feltételek csak angolul jelennek meg. Az angol szöveg a hiteles változat, fordítását nem kínáljuk kötelező erejű dokumentumként. Ha más nyelven szeretné áttekinteni, vegye fel velünk a kapcsolatot, és segítünk."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Bekapcsolható modul",
+      "db_v": "1",
+      "db_l": "Saját adatbázis minden munkaterületnek"
+    },
+    "ai": {
+      "eyebrow": "Beépített AI",
+      "title": "AI, amely elvégzi az unalmas munkát",
+      "sub": "A Paper & Pen AI az Ön saját adataival dolgozik. Válaszol a kérdésekre, elolvassa a beszállítói e-maileket, és WhatsAppon válaszol az ügyfeleknek. A fontos dolgokat Ön hagyja jóvá.",
+      "c1t": "Kérdezze a vállalkozását",
+      "c1d": "Kérdezzen egyszerűen, például: „ki tartozik nekünk a legtöbbel?” A választ élő adataiból kapja.",
+      "c2t": "Okos postafiók",
+      "c2d": "Továbbítson egy beszállítói e-mailt. A Paper & Pen elolvassa a számlát, és elkészíti a beszerzési tétel tervezetét jóváhagyásra.",
+      "c3t": "Válaszok WhatsAppon",
+      "c3d": "Kapcsolja be WhatsApp-vonalát. Az AI válaszol az ár- és rendelési kérdésekre, és árajánlatot meg számlát küld.",
+      "note": "Az AI-modulok választható kiegészítők.",
+      "mockTitle": "Kérdezze a Paper & Pen-t",
+      "q": "Ki tartozik nekünk a legtöbb pénzzel?",
+      "a": "A Harbour Point Ltd tartozik a legtöbbel. A számla lejárt:",
+      "overdue": "Lejárt",
+      "input": "Tegyen fel egy kérdést"
+    },
+    "how": {
+      "eyebrow": "A regisztrációtól az indulásig",
+      "title": "Ma élesben, nem a következő negyedévben",
+      "s1t": "Válasszon nevet a munkaterületnek",
+      "s1d": "Válassza a cegnev.paperandpen.om címet. Kártya és értékesítési hívás nélkül.",
+      "s2t": "Kapcsolja be, amire szüksége van",
+      "s2d": "Kezdje az ingyenes számlázással. Adjon hozzá készletet, HR-t, könyvelést vagy AI-t, amikor szüksége lesz rá.",
+      "s3t": "Hozza a csapatát és az adatait",
+      "s3d": "Importálja az ügyfeleket és termékeket táblázatból, hívja meg a csapatát, és küldje el az első számláját."
+    },
+    "ind": {
+      "eyebrow": "Az Ön iparágára szabva",
+      "title": "Készen arra, ahogyan az Ön vállalkozása működik",
+      "sub": "Bizonylatok, munkafolyamatok és jelentések 15 iparágra beállítva.",
+      "all": "Az összes iparág"
+    },
+    "sec": {
+      "eyebrow": "Biztonság",
+      "title": "Az adatai az Önéi maradnak",
+      "i1t": "Saját adatbázis",
+      "i1d": "Minden munkaterület saját adatbázison fut. Nincsenek közös táblák.",
+      "i2t": "Titkosítva",
+      "i2d": "TLS átvitel közben, titkosítás tároláskor.",
+      "i3t": "Rendszeres mentés",
+      "i3d": "Minden munkaterületről automatikus biztonsági mentés készül.",
+      "i4t": "Biztonságos fizetés",
+      "i4d": "A kártyás fizetések a PCI-DSS-megfelelő Paymobon keresztül futnak.",
+      "more": "Olvasson a biztonságról",
+      "intTitle": "Együttműködik a már használt eszközeivel",
+      "int": [
+        "WhatsApp",
+        "E-mail",
+        "Paymob",
+        "Thawani",
+        "Excel- és CSV-import",
+        "Windows- és macOS-alkalmazás"
+      ]
+    }
+  }
+}

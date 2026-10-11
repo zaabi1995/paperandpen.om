@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Pāriet uz galveno saturu",
+    "included": "Iekļauts",
+    "notIncluded": "Nav iekļauts"
+  },
+  "nav": {
+    "features": "Funkcijas",
+    "solutions": "Risinājumi",
+    "tools": "Bezmaksas rīki",
+    "pricing": "Cenas",
+    "compare": "Salīdzināt",
+    "login": "Pieslēgties",
+    "startFree": "Sākt bez maksas",
+    "glossary": "Vārdnīca",
+    "home": "Sākums",
+    "templates": "Rēķinu veidnes",
+    "alternatives": "Alternatīvas",
+    "resources": "Resursi",
+    "vat": "PVN pa valstīm"
+  },
+  "mega": {
+    "invoicing": "Rēķini un norēķini",
+    "quotations": "Piedāvājumi un tāmes",
+    "inventory": "Noliktavas pārvaldība",
+    "accounting": "Grāmatvedība",
+    "hr": "Personāls un algas",
+    "reports": "Atskaites un analītika",
+    "trading": "Tirdzniecības uzņēmumi",
+    "retail": "Mazumtirdzniecība un veikali",
+    "restaurants": "Restorāni un kafejnīcas",
+    "freelancers": "Ārštata speciālisti",
+    "accountants": "Grāmatveži",
+    "invoiceGen": "Bezmaksas rēķinu ģenerators",
+    "quotationGen": "Bezmaksas piedāvājumu ģenerators",
+    "receiptGen": "Bezmaksas kvīšu ģenerators",
+    "vatCalc": "Omānas PVN kalkulators",
+    "allFeatures": "Apskatīt visas funkcijas",
+    "allTools": "Visi bezmaksas rīki",
+    "salescrm": "Pārdošana un CRM",
+    "payments": "Maksājumi",
+    "manufacturing": "Ražošana",
+    "multilang": "Daudzvalodu",
+    "contracting": "Būvniecība un līgumdarbi",
+    "manufacturingInd": "Ražošana",
+    "wholesale": "Vairumtirdzniecība un izplatīšana",
+    "ecommerce": "E-komercija",
+    "logistics": "Loģistika un transports",
+    "estimateGen": "Bezmaksas tāmju veidotājs",
+    "allIndustries": "Visas nozares"
+  },
+  "sticky": {
+    "text": "Vadi savu uzņēmumu bez maksas. Uz visiem laikiem."
+  },
+  "cta": {
+    "title": "Gatavs vadīt savu uzņēmumu ar Paper & Pen?",
+    "sub": "Izveido bezmaksas darbvietu mazāk nekā 5 minūtēs. Pārdošana un rēķini ir bez maksas uz visiem laikiem, kredītkarte nav vajadzīga."
+  },
+  "proof": {
+    "builtInOman": "Radīts Omānā · lieto visā pasaulē",
+    "free": "Pārdošana un rēķini bez maksas uz visiem laikiem. Bez kartes.",
+    "languages": "5 valodas, arābu un urdu no labās uz kreiso"
+  },
+  "hero": {
+    "badge": "Uzņēmumiem visur",
+    "tagline_line1": "ERP, kas runā",
+    "tagline_line2": "tavā valodā.",
+    "sub": "Pārvaldi pārdošanu, noliktavu, personālu un finanses vienā mākoņplatformā, 5 valodās un jebkurā valūtā.",
+    "cta": "Sākt bez maksas",
+    "seeModules": "Skatīt moduļus",
+    "subdomainLabel": "Tavas darbvietas adrese",
+    "subdomainPlaceholder": "tavsuznemums",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "ir brīva",
+    "taken_short": "jau ir aizņemta",
+    "checking": "Pārbaudām pieejamību...",
+    "subdomainError": "Pašlaik nevaram pārbaudīt pieejamību. Vari turpināt tāpat.",
+    "trialNote": "Bez maksas uz visiem laikiem · Bez kredītkartes · Pievieno moduļus jebkurā laikā",
+    "card_title": "Šodienas pārskats",
+    "stat1_label": "Ieņēmumi šomēnes",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Neapmaksāti rēķini",
+    "stat2_value": "12",
+    "stat3_label": "Darbinieki atvaļinājumā",
+    "stat3_value": "2",
+    "card_progress": "Mēneša mērķis: sasniegti 75%",
+    "trust_count": "Radīts Omānā",
+    "trust_label": "Persijas līča uzņēmumiem"
+  },
+  "languages": {
+    "eyebrow": "Vairākas valodas · Vairākas valūtas",
+    "title": "Radīts katrai komandai, katrā tirgū",
+    "sub": "Pārslēdzies uzreiz starp arābu, angļu, hindi, bengāļu un urdu valodu un izraksti rēķinus jebkurā valūtā. Tavi dati paliek tie paši, mainās tikai saskarnes valoda."
+  },
+  "modules": {
+    "eyebrow": "Modulārs pēc būtības",
+    "title": "Visi moduļi, kas vajadzīgi tavam uzņēmumam",
+    "sub": "Sāc ar pārdošanu un rēķiniem, tad ieslēdz moduļus, kad augi: no CRM un personāla līdz ražošanai, bankai un AI. Viena sistēma visam uzņēmumam.",
+    "included": "Iekļauts",
+    "omrPerMonth": "OMR/mēn.",
+    "estimateLabel": "Tavas aptuvenās izmaksas",
+    "omr_mo": "OMR/mēn.",
+    "base_label": "Pamata",
+    "addons_label": "papildmoduļi",
+    "estimateNote": "Aprēķināts pēc izvēlētajiem moduļiem. Lietotāji tiek apmaksāti atsevišķi.",
+    "startTrial": "Sākt bez maksas",
+    "sales": {
+      "title": "Pārdošana un CRM",
+      "desc": "Piedāvājumi, rēķini, klientu plūsma, maksājumu uzskaite un atgādinājumi."
+    },
+    "inventory": {
+      "title": "Noliktava",
+      "desc": "Seko krājumiem, atrašanās vietām un pasūtīšanas līmeņiem reāllaikā."
+    },
+    "hr": {
+      "title": "Personāls un algas",
+      "desc": "Darba laika uzskaite, atvaļinājumi, algas un darbinieku portāls."
+    },
+    "accounting": {
+      "title": "Grāmatvedība",
+      "desc": "Divkāršā ieraksta virsgrāmata, bankas saskaņošana un PVN deklarācijas."
+    },
+    "manufacturing": {
+      "title": "Ražošana",
+      "desc": "Materiālu specifikācijas, darba uzdevumi un ražošanas plānošana."
+    },
+    "reports": {
+      "title": "Atskaites un analītika",
+      "desc": "Peļņas vai zaudējumu aprēķins, naudas plūsma, debitoru novecošana un savi paneļi."
+    },
+    "pricePerMonth": "+{{price}} OMR/mēn.",
+    "ctaTitle": "Gatavs vadīt savu uzņēmumu ar Paper & Pen?",
+    "ctaSub": "Iestatīšana dažās minūtēs. Ieslēdz vajadzīgos moduļus."
+  },
+  "pricing": {
+    "eyebrow": "Cenas",
+    "title": "Vienkāršas un godīgas cenas",
+    "sub": "Sāc bez maksas: pārdošana un rēķini nemaksā neko uz visiem laikiem. Pievieno moduļus, kad augi.",
+    "monthly": "Mēneša",
+    "annual": "Gada",
+    "perMonth": "/mēn.",
+    "perYear": "/gadā",
+    "annualSave": "Ietaupi 20%",
+    "startTrial": "Sākt bez maksas",
+    "mostPopular": "Populārākais",
+    "free_label": "Bez maksas",
+    "unlimited": "Neierobežoti",
+    "users": "lietotāji",
+    "buildYourOwn": "Izveido savu plānu",
+    "trialNote": "Bezmaksas plāns uz visiem laikiem · Bez kredītkartes · Uzlabo jebkurā laikā",
+    "addModules": "Pievienot moduļus",
+    "base": {
+      "title": "Pārdošana un rēķini, bez maksas uz visiem laikiem",
+      "desc": "Piedāvājumi, rēķini un maksājumi līdz 3 lietotājiem. Bez kredītkartes."
+    },
+    "free": {
+      "name": "Bezmaksas",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Pārdošana un rēķini, bez maksas uz visiem laikiem",
+      "features": [
+        "Līdz 3 lietotājiem",
+        "Pārdošana un rēķini",
+        "Piedāvājumi un maksājumi",
+        "Pamata atskaites",
+        "Bez kredītkartes"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "Augošiem uzņēmumiem, kam vajag vairāk",
+      "features": [
+        "Līdz 20 lietotājiem",
+        "Viss no Bezmaksas plāna",
+        "Noliktavas modulis",
+        "Personāls un algas",
+        "Vairākas valūtas",
+        "WhatsApp paziņojumi",
+        "Prioritārs atbalsts"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "Pilns ERP nostabilizējušamies uzņēmumiem",
+      "features": [
+        "Neierobežots lietotāju skaits",
+        "Viss no Growth plāna",
+        "Grāmatvedība un bankas sinhronizācija",
+        "Ražošana",
+        "Padziļināta analītika",
+        "API piekļuve",
+        "Personīgs atbalsts"
+      ]
+    },
+    "addons": {
+      "title": "Vajag kaut ko konkrētu?",
+      "subtitle": "Pievieno atsevišķus moduļus jebkuram plānam. Maksā tikai par to, kas vajadzīgs.",
+      "whatsapp_name": "WhatsApp paziņojumi",
+      "whatsapp_desc": "{{price}} OMR mēnesī",
+      "extraUsers_name": "Papildu lietotāji",
+      "extraUsers_desc": "No {{price}} OMR par lietotāju mēnesī",
+      "extraStorage_name": "Papildu krātuve",
+      "extraStorage_desc": "{{price}} OMR par 5 GB mēnesī"
+    },
+    "headLead": "Vienkāršas un godīgas",
+    "headAccent": "cenas",
+    "planWord": "Plāns",
+    "billedMonthly": "Apmaksa reizi mēnesī",
+    "billedAnnually": "Apmaksa reizi gadā",
+    "billingPeriod": "Norēķinu periods",
+    "worldwideNote": "Viens globāls cenrādis Omānas riālos (OMR). Maksā ar karti no jebkuras vietas pasaulē.",
+    "compareTitle": "Salīdzini visas plānu funkcijas",
+    "compareFeature": "Funkcija",
+    "compareUsers": "Lietotāji",
+    "compareGroupCore": "Katrā plānā",
+    "compareGroupAdded": "Pievienots plānā {{plan}}",
+    "included": "Iekļauts",
+    "notIncluded": "Nav iekļauts",
+    "scrollHint": "Pavelc tabulu uz sāniem, lai salīdzinātu plānus",
+    "selectPlan": "Izvēlēties plānu"
+  },
+  "compare": {
+    "eyebrow": "Kāpēc Paper & Pen",
+    "title": "Kā mēs salīdzināmies",
+    "feature": "Funkcija",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Pilna arābu saskarne no labās uz kreiso",
+      "gcc_pricing": "Cenas Līča valstu valūtās (OMR/BHD/AED)",
+      "free_trial": "Bezmaksas plāns uz visiem laikiem, bez kartes",
+      "local_support": "Vietējais atbalsts Līča valstīs",
+      "multi_lang": "Saskarne 5 valodās",
+      "paymob": "Paymob / vietējie maksājumi",
+      "onboarding": "Patstāvīga uzsākšana < 5 min"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Jautājumi",
+    "title": "Viss, kas tev jāzina"
+  },
+  "related": {
+    "title": "Uzzini vairāk",
+    "termsTitle": "Šīs lapas termini, izskaidroti",
+    "exploreTitle": "Iepazīsti Paper & Pen"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | Bezmaksas mākoņa ERP un rēķinu programma",
+    "homeDesc": "Bezmaksas mākoņa ERP un rēķini. Pārdošana, noliktava, personāls un grāmatvedība 5 valodās un jebkurā valūtā. Pārdošana un rēķini bez maksas uz visiem laikiem.",
+    "fiTitle": "Bezmaksas tiešsaistes rēķinu programma · Paper & Pen",
+    "fiDesc": "Izveido un nosūti profesionālus rēķinus ar vienu klikšķi. Bezmaksas rēķini ar PVN, jebkuru valūtu, piedāvājumiem un kvītīm. Bez maksas uz visiem laikiem.",
+    "pricingTitle": "Cenas · Paper & Pen",
+    "pricingDesc": "Vienkāršas cenas. Pārdošana un rēķini bez maksas uz visiem laikiem. Pievieno noliktavu, personālu, grāmatvedību un vairāk. Bez kartes. Gadā ietaupi 20%.",
+    "faqTitle": "Biežāk uzdotie jautājumi · Paper & Pen ERP",
+    "faqDesc": "Atbildes par Paper & Pen, bezmaksas mākoņa ERP un rēķinu programmu: cenas, PVN, arābu valoda, moduļi, iestatīšana un vairāk.",
+    "toolsTitle": "Bezmaksas biznesa rīki · Paper & Pen",
+    "toolsDesc": "Bezmaksas rīki bez reģistrācijas: rēķinu ģenerators, piedāvājumi, kvītis, pirkuma pasūtījumi, pavadzīmes un pielāgojams PVN kalkulators.",
+    "aboutTitle": "Par Paper & Pen · Bezmaksas mākoņa ERP no BHD Group",
+    "aboutDesc": "Paper & Pen Omānā veido Paper and Pen Company LLC, kas ir daļa no BHD Group. Bezmaksas mākoņa ERP uzņēmumiem visā pasaulē, ar arābu valodu un daudzām valūtām.",
+    "contactTitle": "Sazinies ar Paper & Pen",
+    "contactDesc": "Sazinies ar Paper & Pen komandu. WhatsApp +968 9889 9100 vai raksti mums e-pastu.",
+    "securityTitle": "Drošība un datu aizsardzība · Paper & Pen",
+    "securityDesc": "Kā Paper & Pen aizsargā tavus datus: šifrēšana, atsevišķa datubāze katram klientam, rezerves kopijas, piekļuves kontrole un PCI-DSS maksājumi caur Paymob.",
+    "blogTitle": "Blogs · Paper & Pen ERP",
+    "signupTitle": "Izveido savu bezmaksas Paper & Pen darbvietu",
+    "signupDesc": "Izveido bezmaksas Paper & Pen ERP darbvietu mazāk nekā 5 minūtēs. Pārdošana un rēķini bez maksas uz visiem laikiem.",
+    "loginTitle": "Pieslēgties Paper & Pen",
+    "loginDesc": "Pieslēdzies savai Paper & Pen ERP darbvietai.",
+    "glossaryTitle": "Grāmatvedības vārdnīca · Paper & Pen",
+    "glossaryDesc": "Vienkāršas definīcijas grāmatvedības, rēķinu, PVN un noliktavas terminiem, ar kuriem saskaras mazie uzņēmumi, ar formulām un piemēriem.",
+    "templatesTitle": "Bezmaksas rēķinu veidnes pēc profesijas · Paper & Pen",
+    "templatesDesc": "Rēķinu veidnes un padomi darbuzņēmējiem, konsultantiem, dizaineriem, amatniekiem un pakalpojumu sniedzējiem. Ko norādīt, kā noteikt cenu un saņemt samaksu.",
+    "altTitle": "Grāmatvedības programmu alternatīvas · Paper & Pen",
+    "altDesc": "Domā mainīt grāmatvedības programmu? Kas pārceļas, kas ne, kad pāriet un kam labāk palikt pie esošās.",
+    "compareTitle": "ERP un rēķinu programmu salīdzinājumi | Paper & Pen",
+    "compareDesc": "Salīdzini Paper & Pen ar ERP, grāmatvedības un rēķinu programmām: cenas, valodas, valūtas, nodokļu iestatījumi, moduļi un praktiskā piemērotība.",
+    "industriesTitle": "ERP un rēķinu programma pa nozarēm | Paper & Pen",
+    "industriesDesc": "Uzzini, kā Paper & Pen atbalsta rēķinus, noliktavu, grāmatvedību un ikdienas darbu 15 nozarēs, piecās valodās un jebkurā valūtā.",
+    "vatTitle": "Līča valstu PVN un e-rēķini pa valstīm · Paper & Pen",
+    "vatDesc": "PVN likmes, reģistrācijas sliekšņi, rēķinu prasības un e-rēķinu statuss Omānā, AAE, Saūda Arābijā un Bahreinā, katram ar avotu."
+  },
+  "toolsIndex": {
+    "title": "Bezmaksas biznesa rīki",
+    "sub": "Bez reģistrācijas un bez maksas. Izveido rēķinus, piedāvājumus, kvītis un citus dokumentus, gatavus lejupielādei PDF formātā, jebkurā valūtā un ar pielāgojamu PVN likmi."
+  },
+  "pages": {
+    "about": {
+      "title": "Radīts Omānā Līča valstu uzņēmumiem",
+      "lead": "Paper & Pen ir mākoņa ERP, kāda mums pašiem pietrūka: pietiekami vienkārša, lai sāktu piecās minūtēs, pietiekami spēcīga, lai vadītu visu uzņēmumu, un beidzot radīta tam, kā bizness patiesībā notiek Omānā un Līča reģionā.",
+      "body1": "Paper & Pen veido Paper and Pen Company LLC, kas ir daļa no BHD Group Maskatā, Omānā. Mēs radām programmatūru Omānā, ko veido omānieši, Līča valstu uzņēmumiem. Arābu valoda ir pilnvērtīga valoda, norēķini OMR ir iebūvēti pašā kodolā, un vietējie maksājumi darbojas uzreiz.",
+      "body2": "Caur Paper & Pen plūst tūkstošiem piedāvājumu, rēķinu un maksājumu. Pārdošana un rēķini ir bez maksas uz visiem laikiem, jo katrs uzņēmums ir pelnījis profesionālus rīkus. Tu maksā tikai tad, kad tev vajag noliktavu, personālu, grāmatvedību vai ražošanu.",
+      "stat1": "Bez maksas uz visiem laikiem",
+      "stat1l": "Pārdošana un rēķini",
+      "stat2": "5",
+      "stat2l": "Valodas",
+      "stat3": "< 5 min",
+      "stat3l": "Lai sāktu",
+      "stat4": "OMR",
+      "stat4l": "Iebūvēti norēķini"
+    },
+    "contact": {
+      "title": "Runā ar mums",
+      "lead": "Jautājumi, demonstrācijas, sadarbība: mēs atbildam ātri. Ātrākais veids, kā ar mums sazināties, ir WhatsApp.",
+      "whatsapp": "Rakstīt WhatsApp",
+      "email": "Rakstīt e-pastu",
+      "hours": "Svētdiena–ceturtdiena, 8:00–17:00 (GMT+4)"
+    },
+    "security": {
+      "title": "Tavi dati ir aizsargāti",
+      "lead": "Drošība un privātums ir iebūvēti Paper & Pen jau no paša sākuma.",
+      "items": [
+        "Šifrēti pārsūtīšanas laikā (TLS) un glabāšanā",
+        "Atsevišķa datubāze katram klientam, tavi dati nekad netiek koplietoti",
+        "Regulāras automātiskas rezerves kopijas",
+        "Lomās balstīta piekļuves kontrole un darbību žurnāli",
+        "Maksājumus apstrādā Paymob, PCI-DSS prasībām atbilstoša maksājumu vārteja",
+        "Mitināts aizsargātā infrastruktūrā ar uzraudzību"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Paper & Pen blogs",
+    "sub": "Ceļveži par rēķiniem, PVN, grāmatvedību un uzņēmuma vadīšanu Omānā un Līča valstīs.",
+    "readMore": "Lasīt vairāk",
+    "empty": "Jauni raksti jau top. Ieskaties drīz atkal.",
+    "backToBlog": "Visi raksti"
+  },
+  "fi": {
+    "crumb": "Bezmaksas rēķinu programma",
+    "eyebrow": "Bezmaksas tiešsaistes rēķini",
+    "title": "Bezmaksas rēķinu programma<br/>uzņēmumiem <em class=\"text-copper-400 not-italic\">visur</em>",
+    "subtitle": "Izveido un nosūti profesionālus, nodokļu prasībām atbilstošus rēķinus ar vienu klikšķi, jebkurā valūtā un 5 valodās. Piedāvājumi, kvītis, maksājumu atgādinājumi un pilna grāmatvedība. Bez maksas uz visiem laikiem.",
+    "b1": "Bez maksas uz visiem laikiem, bez kredītkartes",
+    "b2": "Jebkura valūta un pielāgojams PVN",
+    "b3": "Nosūti pa WhatsApp vai e-pastu ar vienu klikšķi",
+    "tryTool": "Izmēģini bezmaksas ģeneratoru",
+    "docsEyebrow": "Viena platforma, visi dokumenti",
+    "docsTitle": "Visi biznesa dokumenti, kas tev vajadzīgi",
+    "docsSub": "No pirmā piedāvājuma līdz pēdējai kvītij Paper & Pen izveido katru dokumentu, ko sūta tavs uzņēmums, un automātiski uztur tos kārtībā un saskaņotus.",
+    "docs": {
+      "invoices": {
+        "t": "Profesionāli rēķini",
+        "d": "Pielāgojami rēķini ar PVN un tavu logo, nosūtīti dažās sekundēs."
+      },
+      "quotes": {
+        "t": "Piedāvājumi un tāmes",
+        "d": "Iegūsti pasūtījumus ar zīmolotiem piedāvājumiem, kas ar vienu klikšķi kļūst par rēķiniem."
+      },
+      "proforma": {
+        "t": "Proformas rēķini",
+        "d": "Izraksti proformas rēķinus priekšapmaksai un muitai."
+      },
+      "receipts": {
+        "t": "Maksājumu kvītis",
+        "d": "Kvītis tiek izveidotas automātiski, tiklīdz maksājums ir reģistrēts."
+      },
+      "po": {
+        "t": "Pirkuma pasūtījumi",
+        "d": "Izveido un seko pirkuma pasūtījumiem saviem piegādātājiem."
+      },
+      "delivery": {
+        "t": "Pavadzīmes",
+        "d": "Izraksti pavadzīmes, kas piesaistītas katram pasūtījumam."
+      },
+      "recurring": {
+        "t": "Periodiskie rēķini",
+        "d": "Automatizē regulāros rēķinus abonementiem un pastāvīgiem līgumiem."
+      },
+      "reminders": {
+        "t": "Maksājumu atgādinājumi",
+        "d": "Automātiski un pieklājīgi atgādinājumi, lai samaksu saņemtu laikā."
+      },
+      "share": {
+        "t": "Kopīgošana pa WhatsApp un e-pastu",
+        "d": "Kopīgo jebkuru dokumentu pa WhatsApp vai e-pastu ar vienu pieskārienu."
+      }
+    },
+    "s1": {
+      "eyebrow": "Saņem samaksu ātrāk",
+      "title": "No piedāvājuma līdz naudai bez atgādināšanas",
+      "body": "Pārvērt piedāvājumus rēķinos, kopīgo tos WhatsApp un ļauj automātiskiem atgādinājumiem parūpēties par pārējo. Redzi precīzi, kurš rēķinu ir atvēris un kurš samaksājis.",
+      "i1": "Piedāvājums → rēķins → kvīts ar vienu klikšķi",
+      "i2": "Automātiski maksājumu atgādinājumi",
+      "i3": "Tiešsaistes maksājumi caur Paymob"
+    },
+    "s2": {
+      "eyebrow": "Atbilstība visur",
+      "title": "Jebkura valūta un jebkura nodokļa likme, sakārtota tavā vietā",
+      "body": "Izraksti rēķinus jebkurā valūtā, nosaki savu PVN vai tirdzniecības nodokļa likmi un strādā arābu vai angļu valodā. Līča valstu uzņēmumi uzreiz saņem norēķinus OMR/AED/SAR, pielāgojamu PVN un vietējos maksājumus.",
+      "i1": "Pielāgojams PVN vai tirdzniecības nodoklis no neto summas",
+      "i2": "Rēķinu veidnes arābu un angļu valodā",
+      "i3": "Nodokļu deklarācijas un atskaites iebūvētas"
+    },
+    "cmpEyebrow": "Kāpēc pāriet",
+    "cmpTitle": "Bezmaksas rēķinu programma, kas radīta tieši šeit",
+    "faq": {
+      "q1": "Vai rēķini tiešām ir bez maksas?",
+      "a1": "Jā. Rēķini, piedāvājumi un maksājumu uzskaite ir bez maksas uz visiem laikiem līdz 3 lietotājiem, un kredītkarte nav vajadzīga.",
+      "q2": "Vai tā atbalsta Omānas 5% PVN?",
+      "a2": "Jā. PVN tiek aprēķināts automātiski no neto summas pēc atlaides, un vari sagatavot noteikumiem atbilstošus rēķinus un PVN deklarācijas.",
+      "q3": "Vai varu sūtīt rēķinus arābu valodā?",
+      "a3": "Jā. Rēķini, piedāvājumi un kvītis tiek attēloti pilnībā arābu valodā (no labās uz kreiso) vai angļu valodā, un valodu var izvēlēties katram dokumentam.",
+      "q4": "Vai klienti var maksāt tiešsaistē?",
+      "a4": "Jā. Pieslēdz Paymob, un klienti varēs apmaksāt rēķinus tiešsaistē ar karti. Maksājumi tiek saskaņoti automātiski."
+    }
+  },
+  "pricingFaq": {
+    "q1": "Vai bezmaksas plāns tiešām ir bez maksas uz visiem laikiem?",
+    "a1": "Jā. Pārdošana un rēķini ir bez maksas uz visiem laikiem līdz 3 lietotājiem, bez kredītkartes un bez termiņa. Tu maksā tikai tad, ja pievieno moduļus, piemēram, noliktavu, personālu vai grāmatvedību.",
+    "q2": "Vai vēlāk varu mainīt vai atteikt moduļus?",
+    "a2": "Jebkurā laikā. Pievieno vai noņem maksas moduļus, kad vien vēlies, un rēķins pielāgosies automātiski. Nav saistoša līguma.",
+    "q3": "Kā man tiek izrakstīti rēķini un kādā valūtā?",
+    "a3": "Rēķinus izrakstām Omānas riālos (OMR) ar 3 zīmēm aiz komata, reizi mēnesī vai reizi gadā (gada maksājumam ietaupi 20%). Karšu maksājumi tiek droši apstrādāti caur Paymob."
+  },
+  "tool": {
+    "from": "No",
+    "billTo": "Saņēmējs",
+    "docNo": "Dokumenta Nr.",
+    "date": "Datums",
+    "item": "Apraksts",
+    "qty": "Daudz.",
+    "rate": "Cena",
+    "amount": "Summa",
+    "addLine": "Pievienot rindu",
+    "subtotal": "Starpsumma",
+    "vat": "PVN",
+    "total": "Kopā",
+    "notes": "Piezīmes",
+    "currency": "Valūta",
+    "applyVat": "Piemērot PVN / nodokli",
+    "print": "Lejupielādēt / drukāt PDF",
+    "yourCompany": "Tavs Uzņēmums SIA",
+    "clientName": "Klienta vārds",
+    "signupCta": "Saglabā un pārvaldi savus dokumentus Paper & Pen",
+    "labels": {
+      "invoice": "RĒĶINS",
+      "quotation": "PIEDĀVĀJUMS",
+      "proforma": "PROFORMAS RĒĶINS",
+      "receipt": "KVĪTS",
+      "purchase-order": "PIRKUMA PASŪTĪJUMS",
+      "delivery-note": "PAVADZĪME",
+      "estimate": "TĀME",
+      "credit-note": "KREDĪTRĒĶINS"
+    },
+    "vatCalc": {
+      "amount": "Summa",
+      "mode": "Režīms",
+      "addVat": "Pieskaitīt 5% PVN",
+      "removeVat": "Atskaitīt PVN",
+      "net": "Neto summa",
+      "vat": "PVN",
+      "gross": "Bruto (ar PVN)"
+    },
+    "tryFull": "Izmēģini pilno ERP",
+    "builderTitle": "Izveido savu dokumentu",
+    "featuresHeading": "Kāpēc izmantot šo bezmaksas rīku"
+  },
+  "homeFaq": {
+    "q1": "Vai Paper & Pen tiešām ir bez maksas?",
+    "a1": "Jā. Pārdošanas un rēķinu modulis ir bez maksas uz visiem laikiem, bez kredītkartes un bez laika ierobežojuma. Vari veidot piedāvājumus un rēķinus un reģistrēt maksājumus līdz 3 lietotājiem. Pievieno maksas moduļus, piemēram, noliktavu, personālu vai grāmatvedību, tikai tad, kad tie vajadzīgi.",
+    "q2": "Vai Paper & Pen darbojas arābu valodā?",
+    "a2": "Pilnībā. Visa saskarne ir pieejama arābu valodā ar pareizu izkārtojumu no labās uz kreiso, kā arī angļu, hindi, bengāļu un urdu valodā. Maini valodu jebkurā laikā, tavi dati paliek tieši tādi paši.",
+    "q3": "Vai varu lietot Paper & Pen ārpus Līča valstīm?",
+    "a3": "Jā. Paper & Pen Omānā veido Paper and Pen Company LLC (daļa no BHD Group), taču tā der uzņēmumiem jebkur. Izraksti rēķinus jebkurā valūtā, nosaki savu nodokļa likmi un strādā 5 valodās. Līča valstu uzņēmumi turklāt uzreiz saņem norēķinus OMR/AED/SAR, vietējo PVN un Paymob maksājumus.",
+    "q4": "Cik ilgi aizņem iestatīšana?",
+    "a4": "Mazāk nekā 5 minūtes. Izvēlies darbvietas nosaukumu, apstiprini e-pastu, izvēlies moduļus, un vari sākt izrakstīt rēķinus. Bez instalēšanas, bez konsultanta, bez iestatīšanas maksas."
+  },
+  "trust": {
+    "eyebrow": "Kāpēc uzņēmumi izvēlas mūs",
+    "title": "Radīts Omānā. Uzņēmumu uzticēts visā pasaulē.",
+    "sub": "Ar arābu valodu priekšplānā, daudzām valūtām un gatavību nodokļiem Paper & Pen der uzņēmumiem Līča valstīs un tālu aiz tām, saglabājot vienkāršību un vietējo atbalstu, ko lielās platformas aizmirsa.",
+    "cta": "Izveido savu bezmaksas darbvietu",
+    "stat1_value": "5",
+    "stat1_label": "Atbalstītās valodas",
+    "stat2_value": "Bez maksas",
+    "stat2_label": "Uz visiem laikiem, bez kartes",
+    "stat3_value": "RTL",
+    "stat3_label": "Atbalsts arābu un urdu valodai",
+    "stat4_value": "Jebkura",
+    "stat4_label": "Valūta rēķiniem"
+  },
+  "footer": {
+    "tagline": "Bezmaksas mākoņa ERP augošiem uzņēmumiem visur. Radīts Omānā.",
+    "product": "Produkts",
+    "tools": "Bezmaksas rīki",
+    "company": "Uzņēmums",
+    "about": "Par mums",
+    "blog": "Blogs",
+    "security": "Drošība",
+    "freeInvoicing": "Bezmaksas rēķinu programma",
+    "legal": "Juridiskā informācija",
+    "contact": "Kontakti",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Lietošanas noteikumi",
+    "privacy": "Privātuma politika",
+    "status": "Visas sistēmas darbojas",
+    "rights": "© {{year}} Paper and Pen Company LLC. Visas tiesības aizsargātas.",
+    "support": "Atbalsts",
+    "help": "Palīdzības centrs",
+    "contactSupport": "Sazināties ar atbalstu",
+    "statusPage": "Pakalpojuma statuss",
+    "resources": "Resursi",
+    "faq": "BUJ",
+    "invoices": "Rēķini"
+  },
+  "signup": {
+    "title": "Izveido savu darbvietu",
+    "step1": {
+      "title": "Kā sauc tavu uzņēmumu?",
+      "label": "Uzņēmuma nosaukums",
+      "placeholder": "Al Noor Trading LLC",
+      "subdomainLabel": "Tavas darbvietas adrese būs",
+      "next": "Turpināt",
+      "subtitle": "Tas kļūs par tavu unikālo ERP apakšdomēnu.",
+      "workspaceUrlLabel": "Tavas darbvietas adrese:",
+      "available": "✓ Brīva",
+      "taken": "✗ Aizņemta",
+      "checking": "pārbaudām..."
+    },
+    "step2": {
+      "title": "Tavs e-pasts",
+      "emailLabel": "E-pasta adrese",
+      "password": "Parole",
+      "passwordHint": "Vismaz 8 rakstzīmes",
+      "language": "Vēlamā valoda",
+      "currency": "Noklusējuma valūta",
+      "next": "Turpināt",
+      "subtitle": "Katru reizi, kad pieslēdzies, nosūtīsim vienreizēju kodu. Nav jāatceras parole.",
+      "emailPlaceholder": "vards@uznemums.lv",
+      "passwordLabel": "Parole",
+      "passwordPlaceholder": "Vismaz 8 rakstzīmes",
+      "back": "Atpakaļ",
+      "emailHint": "Šeit katru reizi saņemsi 6 ciparu pieslēgšanās kodu."
+    },
+    "step3": {
+      "title": "Izvēlies moduļus",
+      "next": "Turpināt",
+      "trialNote": "14 dienu bezmaksas izmēģinājums, atsauc jebkurā laikā",
+      "subtitle": "Pārdošana un rēķini vienmēr ir bez maksas. Pievieno to, kas vajadzīgs.",
+      "baseTitle": "Pārdošana un rēķini",
+      "baseSub": "Piedāvājumi, rēķini, maksājumi · 3 lietotāji",
+      "baseTag": "Bez maksas",
+      "workspaceLabel": "Darbvieta",
+      "baseRow": "Pamata (pārdošana)",
+      "baseValue": "Bez maksas uz visiem laikiem",
+      "addonsLabel": "Papildmoduļi",
+      "dueToday": "Maksājams šodien",
+      "freeNote": "Bez maksas uz visiem laikiem. Bez kredītkartes. Pievieno moduļus jebkurā laikā.",
+      "paidNote": "Pēc 14 dienu izmēģinājuma: {{total}} OMR mēnesī. Karte tiek droši saglabāta caur Paymob (0.100 OMR verifikācija, atmaksāta uzreiz).",
+      "back": "Atpakaļ",
+      "btnFree": "Izveidot manu darbvietu",
+      "btnPaid": "Sākt 14 dienu izmēģinājumu",
+      "btnLoading": "Veidojam darbvietu...",
+      "footerFree": "Bez kredītkartes · Pārdošana un rēķini bez maksas uz visiem laikiem",
+      "footerPaid": "Karte aizsargāta ar Paymob · 0.100 OMR autorizācija atmaksāta uzreiz"
+    },
+    "step4": {
+      "title": "Sagatavojam tavu darbvietu...",
+      "steps": [
+        "Veidojam tavu datubāzi",
+        "Konfigurējam moduļus",
+        "Iestatām tavu domēnu",
+        "Gandrīz gatavs!"
+      ],
+      "redirect": "Novirzām tevi uz tavu darbvietu..."
+    },
+    "progress": {
+      "workspace": "Darbvieta",
+      "account": "Konts",
+      "modulesPayment": "Moduļi un maksājums"
+    },
+    "errors": {
+      "gateway": "Maksājumu vārtejas adrese bija nederīga. Lūdzu, sazinies ar atbalstu.",
+      "network": "Tīkla kļūda. Pārbaudi savienojumu un mēģini vēlreiz.",
+      "generic": "Kaut kas nogāja greizi. Lūdzu, mēģini vēlreiz.",
+      "companyRequired": "Lai turpinātu, ievadi uzņēmuma nosaukumu. Tas kļūs par tavas darbvietas adresi.",
+      "companyLetters": "Šajā nosaukumā nav burtu vai ciparu, no kuriem izveidot tīmekļa adresi. Pievieno vismaz vienu.",
+      "subdomainTaken": "Šī darbvietas adrese jau ir aizņemta. Pievieno vārdu, kas to padara par tavu, piemēram, pilsētu vai nosaukuma saīsinājumu.",
+      "subdomainChecking": "Vēl pārbaudām, vai adrese ir brīva. Pēc mirkļa vēlreiz nospied Turpināt.",
+      "emailRequired": "Ievadi e-pasta adresi, ar kuru vēlies pieslēgties. Vienreizējie kodi tiks sūtīti uz to.",
+      "emailInvalid": "Adresei trūkst @ vai daļas aiz tā. Uzraksti to pilnībā, piemēram, vards@uznemums.lv."
+    },
+    "rail": {
+      "cardLabel": "Karte vajadzīga šodien",
+      "cardValue": "Nē",
+      "dataLabel": "Dati, ja aiziesi",
+      "dataValue": "Tavi, vari eksportēt",
+      "note": "Nekas netiek bloķēts. Ja pārtrauc maksāt par moduli, darbvieta paliek atvērta bezmaksas plānā, un tavi dati ir tieši tur, kur tos atstāji."
+    },
+    "securedBy": "Aizsargā Paymob"
+  },
+  "login": {
+    "title": "Laipni lūdzam atpakaļ",
+    "subtitle": "Pieslēdzies savai darbvietai.",
+    "workspace": "Darbvieta",
+    "workspaceError": "Lūdzu, ievadi savas darbvietas nosaukumu (piem., “tavsuznemums”).",
+    "email": "E-pasts",
+    "emailLabel": "E-pasts",
+    "password": "Parole",
+    "submit": "Turpināt uz darbvietu",
+    "otpNote": "Nosūtīsim vienreizēju kodu uz tavu e-pastu. Parole nav vajadzīga.",
+    "forgotPassword": "Aizmirsi paroli?",
+    "noAccount": "Vēl nav konta?",
+    "signUp": "Sākt bezmaksas izmēģinājumu"
+  },
+  "glossary": {
+    "title": "Grāmatvedības vārdnīca",
+    "eyebrow": "Skaidrojumi vienkāršā valodā",
+    "sub": "{{count}} grāmatvedības, rēķinu un nodokļu termini, izskaidroti vienkāršā valodā, ar formulu un aprēķina piemēru visur, kur tieši aprēķins cilvēkiem sagādā grūtības.",
+    "filterLabel": "Filtrēt terminus",
+    "filterPlaceholder": "Meklēt vārdnīcā",
+    "filterCount": "Rāda {{shown}} no {{total}} terminiem",
+    "definitionTitle": "Kas ir {{term}}?",
+    "mattersTitle": "Kāpēc tas ir svarīgi tavam uzņēmumam",
+    "faqTitle": "Biežāk uzdotie jautājumi",
+    "relatedTerms": "Saistītie termini",
+    "seeAlso": "Skatīt arī",
+    "browseAll": "Pārlūkot visus vārdnīcas terminus",
+    "cat": {
+      "invoicing": "Rēķini un dokumenti",
+      "accounting": "Grāmatvedība",
+      "tax": "Nodokļi un PVN",
+      "inventory": "Noliktava un pašizmaksa",
+      "metrics": "Finanšu rādītāji"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Rēķinu dokumenti",
+    "eyebrow": "Pārdošanas dokumenti",
+    "sub": "Rēķini, piedāvājumi, tāmes, pavadzīmes, kredītrēķini un pārējie pārdošanas dokumenti. Izveido un nosūti tos bez maksas, jebkurā valūtā.",
+    "metaTitle": "Rēķinu dokumenti · Paper & Pen",
+    "metaDesc": "Izveido rēķinus, piedāvājumus, tāmes, pavadzīmes un kredītrēķinus tiešsaistē, bez maksas un jebkurā valūtā. Nosūti pa WhatsApp vai e-pastu."
+  },
+  "featuresIndex": {
+    "title": "ERP funkcijas",
+    "eyebrow": "Ko programma dara",
+    "sub": "Rēķini, noliktava, grāmatvedība, personāls un citi Paper & Pen moduļi. Rēķini paliek bez maksas. Pārējie moduļi ir pēc izvēles.",
+    "metaTitle": "ERP funkcijas · Paper & Pen",
+    "metaDesc": "Apskati Paper & Pen moduļus: bezmaksas rēķini, noliktava, grāmatvedība, personāls un citi. Izlasi, ko katrs dara, pirms to ieslēdz."
+  },
+  "useCasesIndex": {
+    "title": "Kam domāts Paper & Pen",
+    "eyebrow": "Lietošanas piemēri",
+    "sub": "Kā ārštata speciālisti, aģentūras, grāmatveži un mazie uzņēmumi izmanto to pašu bezmaksas rēķinu kodolu un kādus papildmoduļus tie pievieno.",
+    "metaTitle": "ERP lietošanas piemēri · Paper & Pen",
+    "metaDesc": "Uzzini, kā ārštata speciālisti, aģentūras, grāmatveži un mazie uzņēmumi lieto Paper & Pen un kādi moduļi katram patiešām vajadzīgi."
+  },
+  "templatesIndex": {
+    "title": "Rēķinu veidnes pēc profesijas",
+    "eyebrow": "Bezmaksas veidnes",
+    "sub": "Kas rēķinā patiešām jānorāda tavā nozarē, kā šāds darbs parasti tiek novērtēts un kā saņemt samaksu bez atgādināšanas. Pašu rēķinu izveido bezmaksas ģeneratorā, bez reģistrācijas."
+  },
+  "altIndex": {
+    "title": "Pāreja no citas grāmatvedības programmas",
+    "eyebrow": "Pārejas ceļveži",
+    "sub": "Kas pārceļas, kas ne, saprātīgākais pārejas brīdis finanšu gadā un godīgs vārds par to, kam labāk palikt pie esošā."
+  },
+  "compareIndex": {
+    "title": "ERP un rēķinu programmu salīdzinājumi",
+    "eyebrow": "Salīdzini iespējas",
+    "sub": "Salīdzinājumi blakus uzņēmumiem, kas izvēlas rēķinu, grāmatvedības vai ERP programmu. Apskati cenas, valodas, valūtas, nodokļu iestatījumus un to, kas katram risinājumam padodas vislabāk."
+  },
+  "industriesIndex": {
+    "title": "ERP un rēķinu programma pa nozarēm",
+    "eyebrow": "Radīts ap tavu darbu",
+    "sub": "Iepazīsti praktiskas darba plūsmas 15 nozarēs, no tirdzniecības un mazumtirdzniecības līdz veselības aprūpei, izglītībai, loģistikai un profesionāliem pakalpojumiem."
+  },
+  "vat": {
+    "factsEyebrow": "Skaitļi",
+    "factsTitle": "PVN: {{country}} īsumā",
+    "colItem": "Pozīcija",
+    "colValue": "Vērtība",
+    "colDetail": "Sīkāka informācija un avots",
+    "fieldsTitle": "Kas jānorāda nodokļu rēķinā: {{country}}",
+    "einvEyebrow": "E-rēķini",
+    "sourcesTitle": "Avoti",
+    "sourcesNote": "Katrs skaitlis un lauku saraksts šajā lapā ir ņemts no zemāk norādītā dokumenta, ko publicējusi pati nodokļu iestāde. Mēs nepublicējam likmi, slieksni vai termiņu, kuram nevaram norādīt avotu.",
+    "authorityNote": "Nodokļu noteikumi mainās. Pirms paļaujies uz šeit rakstīto, pārbaudi aktuālo situāciju pie "
+  },
+  "vatIndex": {
+    "title": "PVN un e-rēķini pa valstīm",
+    "eyebrow": "Līča valstu nodokļu noteikumi",
+    "sub": "Likmes, reģistrācijas sliekšņi, kas jānorāda nodokļu rēķinā un kur e-rēķini patiesībā ir, pa vienai valstij, ar saiti uz nodokļu iestādes tekstu aiz katra skaitļa.",
+    "whatIsVat": "Kas ir PVN?",
+    "whatIsEinv": "Kas ir e-rēķini?"
+  },
+  "legal": {
+    "englishOnly": "Šie noteikumi tiek publicēti tikai angļu valodā. Angļu teksts ir noteicošā versija, un neviens tulkojums netiek piedāvāts kā saistošs dokuments. Ja vēlies tos pārskatīt citā valodā, sazinies ar mums, un mēs palīdzēsim."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Moduļi, ko vari ieslēgt",
+      "db_v": "1",
+      "db_l": "Privāta datubāze katrai darbvietai"
+    },
+    "ai": {
+      "eyebrow": "AI iebūvēts",
+      "title": "AI, kas paveic garlaicīgo darbu",
+      "sub": "Paper & Pen AI strādā ar taviem datiem. Tas atbild uz jautājumiem, lasa piegādātāju e-pastus un atbild klientiem WhatsApp. Tu apstiprini to, kas ir svarīgs.",
+      "c1t": "Pajautā savam uzņēmumam",
+      "c1d": "Jautā vienkāršiem vārdiem, piemēram, \"kurš mums ir parādā visvairāk?\" Saņem atbildi no saviem aktuālajiem datiem.",
+      "c2t": "Magic Inbox",
+      "c2d": "Pārsūti piegādātāja e-pastu. Paper & Pen nolasa rēķinu un sagatavo pirkuma ieraksta melnrakstu tavam apstiprinājumam.",
+      "c3t": "Atbildes WhatsApp",
+      "c3d": "Pieslēdz savu WhatsApp numuru. AI atbild uz jautājumiem par cenām un pasūtījumiem un sūta piedāvājumus un rēķinus.",
+      "note": "AI moduļi ir papildinājumi pēc izvēles.",
+      "mockTitle": "Pajautā Paper & Pen",
+      "q": "Kurš mums ir parādā visvairāk naudas?",
+      "a": "Visvairāk parādā ir Harbour Point Ltd. Rēķins ir kavēts:",
+      "overdue": "Kavēts",
+      "input": "Uzdod jautājumu"
+    },
+    "how": {
+      "eyebrow": "No reģistrācijas līdz darbam",
+      "title": "Darbā jau šodien, nevis nākamajā ceturksnī",
+      "s1t": "Izvēlies darbvietas nosaukumu",
+      "s1d": "Izvēlies tavsuznemums.paperandpen.om. Bez kartes un bez pārdošanas zvana.",
+      "s2t": "Ieslēdz to, kas vajadzīgs",
+      "s2d": "Sāc ar bezmaksas rēķiniem. Pievieno noliktavu, personālu, grāmatvedību vai AI, kad tie vajadzīgi.",
+      "s3t": "Pievieno komandu un datus",
+      "s3d": "Importē klientus un produktus no izklājlapas, uzaicini komandu un nosūti savu pirmo rēķinu."
+    },
+    "ind": {
+      "eyebrow": "Radīts tavai nozarei",
+      "title": "Gatavs tam, kā strādā tavs uzņēmums",
+      "sub": "Dokumenti, darba plūsmas un atskaites, iestatītas 15 nozarēm.",
+      "all": "Skatīt visas nozares"
+    },
+    "sec": {
+      "eyebrow": "Drošība",
+      "title": "Tavi dati paliek tavi",
+      "i1t": "Privāta datubāze",
+      "i1d": "Katra darbvieta darbojas savā datubāzē. Nav koplietotu tabulu.",
+      "i2t": "Šifrēti",
+      "i2d": "TLS pārsūtīšanā un šifrēšana glabāšanā.",
+      "i3t": "Regulāras rezerves kopijas",
+      "i3d": "Katrai darbvietai automātiski tiek veidotas rezerves kopijas.",
+      "i4t": "Droši maksājumi",
+      "i4d": "Karšu maksājumi notiek caur Paymob, PCI-DSS maksājumu vārteju.",
+      "more": "Lasīt par drošību",
+      "intTitle": "Darbojas ar rīkiem, ko jau lieto",
+      "int": [
+        "WhatsApp",
+        "E-pasts",
+        "Paymob",
+        "Thawani",
+        "Excel un CSV imports",
+        "Lietotne Windows un macOS"
+      ]
+    }
+  }
+}

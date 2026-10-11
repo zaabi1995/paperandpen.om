@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "跳到主要内容",
+    "included": "已包含",
+    "notIncluded": "未包含"
+  },
+  "nav": {
+    "features": "功能",
+    "solutions": "解决方案",
+    "tools": "免费工具",
+    "pricing": "价格",
+    "compare": "对比",
+    "login": "登录",
+    "startFree": "免费开始",
+    "glossary": "术语表",
+    "home": "首页",
+    "templates": "发票模板",
+    "alternatives": "替代方案",
+    "resources": "资源",
+    "vat": "各国增值税"
+  },
+  "mega": {
+    "invoicing": "开票与账单",
+    "quotations": "报价与估价",
+    "inventory": "库存管理",
+    "accounting": "会计与记账",
+    "hr": "人事与薪资",
+    "reports": "报表与分析",
+    "trading": "贸易公司",
+    "retail": "零售与门店",
+    "restaurants": "餐厅与咖啡馆",
+    "freelancers": "自由职业者",
+    "accountants": "会计师",
+    "invoiceGen": "免费发票生成器",
+    "quotationGen": "免费报价单生成器",
+    "receiptGen": "免费收据生成器",
+    "vatCalc": "阿曼增值税计算器",
+    "allFeatures": "查看全部功能",
+    "allTools": "全部免费工具",
+    "salescrm": "销售与 CRM",
+    "payments": "收款",
+    "manufacturing": "生产制造",
+    "multilang": "多语言",
+    "contracting": "工程承包",
+    "manufacturingInd": "制造业",
+    "wholesale": "批发与分销",
+    "ecommerce": "电子商务",
+    "logistics": "物流与运输",
+    "estimateGen": "免费估价单工具",
+    "allIndustries": "全部行业"
+  },
+  "sticky": {
+    "text": "免费经营您的业务，永久有效。"
+  },
+  "cta": {
+    "title": "准备好用 Paper & Pen 经营您的业务了吗？",
+    "sub": "5 分钟内创建您的免费工作区。销售与开票永久免费，无需信用卡。"
+  },
+  "proof": {
+    "builtInOman": "阿曼打造 · 全球使用",
+    "free": "销售与开票永久免费。无需银行卡。",
+    "languages": "5 种语言，阿拉伯语和乌尔都语从右到左显示"
+  },
+  "hero": {
+    "badge": "服务全球企业",
+    "tagline_line1": "这款 ERP，说的是",
+    "tagline_line2": "您的语言。",
+    "sub": "在一个云平台上管理销售、库存、人事和财务，支持 5 种语言和任意货币。",
+    "cta": "免费开始",
+    "seeModules": "查看模块",
+    "subdomainLabel": "您的工作区网址",
+    "subdomainPlaceholder": "yourcompany",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "可以使用",
+    "taken_short": "已被占用",
+    "checking": "正在检查是否可用...",
+    "subdomainError": "暂时无法确认是否可用。您可以继续操作。",
+    "trialNote": "永久免费 · 无需信用卡 · 随时添加模块",
+    "card_title": "今日概览",
+    "stat1_label": "本月收入",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "未结发票",
+    "stat2_value": "12",
+    "stat3_label": "休假员工",
+    "stat3_value": "2",
+    "card_progress": "月度目标：已完成 75%",
+    "trust_count": "阿曼打造",
+    "trust_label": "服务海湾地区企业"
+  },
+  "languages": {
+    "eyebrow": "多语言 · 多币种",
+    "title": "为每个团队、每个市场而建",
+    "sub": "在阿拉伯语、英语、印地语、孟加拉语和乌尔都语之间即时切换，并以任意货币开票。数据保持不变，只有界面随之改变。"
+  },
+  "modules": {
+    "eyebrow": "模块化设计",
+    "title": "满足业务所需的每个模块",
+    "sub": "从销售与开票开始，随着业务增长再开启更多模块，涵盖 CRM、人事、生产、银行和 AI。一个系统管理整个公司。",
+    "included": "已包含",
+    "omrPerMonth": "OMR/月",
+    "estimateLabel": "预估费用",
+    "omr_mo": "OMR/月",
+    "base_label": "基础版",
+    "addons_label": "附加模块",
+    "estimateNote": "按所选模块计算。用户另行计费。",
+    "startTrial": "免费开始",
+    "sales": {
+      "title": "销售与 CRM",
+      "desc": "报价、发票、客户管道、收款跟踪和跟进。"
+    },
+    "inventory": {
+      "title": "库存",
+      "desc": "实时跟踪库存、库位和补货水平。"
+    },
+    "hr": {
+      "title": "人事与薪资",
+      "desc": "考勤、请假管理、薪资和员工门户。"
+    },
+    "accounting": {
+      "title": "会计",
+      "desc": "复式记账总账、银行对账和增值税申报。"
+    },
+    "manufacturing": {
+      "title": "生产制造",
+      "desc": "物料清单、工单和生产计划。"
+    },
+    "reports": {
+      "title": "报表与分析",
+      "desc": "损益表、现金流、应收账龄和自定义仪表板。"
+    },
+    "pricePerMonth": "+{{price}} OMR/月",
+    "ctaTitle": "准备好用 Paper & Pen 经营您的业务了吗？",
+    "ctaSub": "几分钟即可完成设置。按需开启模块。"
+  },
+  "pricing": {
+    "eyebrow": "价格",
+    "title": "简单透明的价格",
+    "sub": "免费开始，销售与开票永久免费。业务增长时再添加模块。",
+    "monthly": "按月",
+    "annual": "按年",
+    "perMonth": "/月",
+    "perYear": "/年",
+    "annualSave": "节省 20%",
+    "startTrial": "免费开始",
+    "mostPopular": "最受欢迎",
+    "free_label": "免费",
+    "unlimited": "不限",
+    "users": "位用户",
+    "buildYourOwn": "自选方案",
+    "trialNote": "免费方案永久有效 · 无需信用卡 · 随时升级",
+    "addModules": "添加模块",
+    "base": {
+      "title": "销售与开票，永久免费",
+      "desc": "报价、发票、收款，最多 3 位用户。无需信用卡。"
+    },
+    "free": {
+      "name": "免费版",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "销售与开票，永久免费",
+      "features": [
+        "最多 3 位用户",
+        "销售与开票",
+        "报价与收款",
+        "基础报表",
+        "无需信用卡"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "适合需要更多功能的成长型企业",
+      "features": [
+        "最多 20 位用户",
+        "包含免费版全部功能",
+        "库存模块",
+        "人事与薪资",
+        "多币种",
+        "WhatsApp 通知",
+        "优先支持"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "面向成熟企业的完整 ERP",
+      "features": [
+        "不限用户数",
+        "包含 Growth 全部功能",
+        "会计与银行同步",
+        "生产制造",
+        "高级分析",
+        "API 访问",
+        "专属支持"
+      ]
+    },
+    "addons": {
+      "title": "有特定需求？",
+      "subtitle": "任何方案都可单独添加模块。只为所需付费。",
+      "whatsapp_name": "WhatsApp 通知",
+      "whatsapp_desc": "{{price}} OMR/月",
+      "extraUsers_name": "额外用户",
+      "extraUsers_desc": "每位用户每月 {{price}} OMR 起",
+      "extraStorage_name": "额外存储",
+      "extraStorage_desc": "每 5GB 每月 {{price}} OMR"
+    },
+    "headLead": "简单透明的",
+    "headAccent": "价格",
+    "planWord": "方案",
+    "billedMonthly": "按月计费",
+    "billedAnnually": "按年计费",
+    "billingPeriod": "计费周期",
+    "worldwideNote": "全球统一价格表，以阿曼里亚尔 (OMR) 显示。世界各地均可刷卡支付。",
+    "compareTitle": "对比方案全部功能",
+    "compareFeature": "功能",
+    "compareUsers": "用户",
+    "compareGroupCore": "所有方案均包含",
+    "compareGroupAdded": "{{plan}} 新增",
+    "included": "已包含",
+    "notIncluded": "未包含",
+    "scrollHint": "左右滑动表格以对比方案",
+    "selectPlan": "选择方案"
+  },
+  "compare": {
+    "eyebrow": "为什么选择 Paper & Pen",
+    "title": "我们如何对比",
+    "feature": "功能",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "完整阿拉伯语从右到左界面",
+      "gcc_pricing": "海湾地区定价 (OMR/BHD/AED)",
+      "free_trial": "永久免费方案，无需银行卡",
+      "local_support": "海湾地区本地支持",
+      "multi_lang": "5 种语言界面",
+      "paymob": "Paymob / 本地支付",
+      "onboarding": "自助上手不到 5 分钟"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "常见问题",
+    "title": "您需要了解的一切"
+  },
+  "related": {
+    "title": "了解更多",
+    "termsTitle": "本页术语解释",
+    "exploreTitle": "探索 Paper & Pen"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | 免费云端 ERP 与开票软件",
+    "homeDesc": "免费云端 ERP 与开票软件。销售、库存、人事和会计，支持 5 种语言和任意货币。销售与开票永久免费。",
+    "fiTitle": "免费在线开票软件 · Paper & Pen",
+    "fiDesc": "一键创建并发送专业发票。免费在线开票，支持增值税/税费、任意货币、报价单和收据。永久免费。",
+    "pricingTitle": "价格 · Paper & Pen",
+    "pricingDesc": "简单定价。销售与开票永久免费。按需添加库存、人事、会计等模块。无需信用卡。按年付费节省 20%。",
+    "faqTitle": "常见问题 · Paper & Pen ERP",
+    "faqDesc": "关于 Paper & Pen 免费云端 ERP 与开票软件的解答：价格、增值税、阿拉伯语、模块、设置等。",
+    "toolsTitle": "免费商务工具 · Paper & Pen",
+    "toolsDesc": "免注册的免费商务工具：发票生成器、报价单工具、收据生成器、采购订单、送货单和可配置的增值税计算器。",
+    "aboutTitle": "关于 Paper & Pen · 免费云端 ERP，BHD Group 出品",
+    "aboutDesc": "Paper & Pen 由 BHD Group 旗下的 Paper and Pen Company LLC 在阿曼打造。面向全球企业的免费云端 ERP，阿拉伯语优先，支持多币种。",
+    "contactTitle": "联系 Paper & Pen",
+    "contactDesc": "联系 Paper & Pen 团队。WhatsApp +968 9889 9100，或发送电子邮件。",
+    "securityTitle": "安全与数据保护 · Paper & Pen",
+    "securityDesc": "Paper & Pen 如何保护您的业务数据：加密、租户隔离、备份、访问控制，以及通过 Paymob 实现的 PCI-DSS 支付。",
+    "blogTitle": "博客 · Paper & Pen ERP",
+    "signupTitle": "创建免费的 Paper & Pen 工作区",
+    "signupDesc": "5 分钟内设置您的免费 Paper & Pen ERP 工作区。销售与开票永久免费。",
+    "loginTitle": "登录 Paper & Pen",
+    "loginDesc": "登录您的 Paper & Pen ERP 工作区。",
+    "glossaryTitle": "会计术语表 · Paper & Pen",
+    "glossaryDesc": "用通俗语言解释小企业常见的会计、开票、增值税和库存术语，附公式和计算示例。",
+    "templatesTitle": "按职业分类的免费发票模板 · Paper & Pen",
+    "templatesDesc": "为承包商、顾问、设计师、技工和服务行业提供发票模板和开票指南。写什么、怎么定价、如何收款。",
+    "altTitle": "会计软件替代方案 · Paper & Pen",
+    "altDesc": "考虑更换会计软件？哪些数据可以迁移、哪些不能、何时切换，以及谁更适合留在原地。",
+    "compareTitle": "ERP 与开票软件对比 | Paper & Pen",
+    "compareDesc": "从价格、语言、货币、税务设置、模块和实际适用性等方面，对比 Paper & Pen 与其他 ERP、会计和开票软件。",
+    "industriesTitle": "按行业划分的 ERP 与开票软件 | Paper & Pen",
+    "industriesDesc": "了解 Paper & Pen 如何在 15 个行业中支持开票、库存、会计和运营，支持五种语言和任意货币。",
+    "vatTitle": "海湾国家增值税与电子发票 · Paper & Pen",
+    "vatDesc": "阿曼、阿联酋、沙特阿拉伯和巴林的增值税税率、注册门槛、税务发票要求和电子发票进展，均注明来源。"
+  },
+  "toolsIndex": {
+    "title": "免费商务工具",
+    "sub": "无需注册，完全免费。生成发票、报价单、收据等，可下载为 PDF，支持任意货币和可配置的增值税/税率。"
+  },
+  "pages": {
+    "about": {
+      "title": "阿曼打造，服务海湾地区企业",
+      "lead": "Paper & Pen 是我们一直想要的云端 ERP：简单到五分钟就能上手，强大到足以管理整个公司，而且真正贴合阿曼和海湾地区的经营方式。",
+      "body1": "Paper & Pen 由 Paper and Pen Company LLC 开发，它隶属于阿曼马斯喀特的 BHD Group。我们在阿曼开发软件，由阿曼人打造，服务海湾地区企业。阿拉伯语是一等语言，核心原生支持 OMR 计费，并内置本地支付。",
+      "body2": "成千上万的报价、发票和付款在 Paper & Pen 中流转。销售与开票永久免费，因为每家企业都值得拥有专业工具。只有当您需要库存、人事、会计或生产模块时才需付费。",
+      "stat1": "永久免费",
+      "stat1l": "销售与开票",
+      "stat2": "5",
+      "stat2l": "种语言",
+      "stat3": "< 5 分钟",
+      "stat3l": "即可开始",
+      "stat4": "OMR",
+      "stat4l": "原生计费"
+    },
+    "contact": {
+      "title": "联系我们",
+      "lead": "咨询、演示、合作，我们都会尽快回复。最快的联系方式是 WhatsApp。",
+      "whatsapp": "通过 WhatsApp 聊天",
+      "email": "发送电子邮件",
+      "hours": "周日至周四，8:00–17:00 (GMT+4)"
+    },
+    "security": {
+      "title": "您的数据，安全受保护",
+      "lead": "安全和隐私从一开始就融入 Paper & Pen。",
+      "items": [
+        "传输中 (TLS) 和静态存储均加密",
+        "每个租户独立数据库，数据绝不共享",
+        "定期自动备份",
+        "基于角色的访问控制和审计记录",
+        "付款由符合 PCI-DSS 标准的支付网关 Paymob 处理",
+        "托管在经过加固并持续监控的基础设施上"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Paper & Pen 博客",
+    "sub": "关于开票、增值税、会计以及在阿曼和海湾地区经营企业的指南。",
+    "readMore": "阅读全文",
+    "empty": "新文章即将上线，敬请期待。",
+    "backToBlog": "全部文章"
+  },
+  "fi": {
+    "crumb": "免费开票软件",
+    "eyebrow": "免费在线开票",
+    "title": "免费开票软件，<br/>服务<em class=\"text-copper-400 not-italic\">全球</em>企业",
+    "subtitle": "一键创建并发送专业、合规的发票，支持任意货币和 5 种语言。报价单、收据、付款提醒和完整会计功能。永久免费。",
+    "b1": "永久免费，无需信用卡",
+    "b2": "任意货币，增值税/税率可配置",
+    "b3": "一键通过 WhatsApp 或电子邮件发送",
+    "tryTool": "试用免费生成器",
+    "docsEyebrow": "一个平台，所有单据",
+    "docsTitle": "企业所需的每一种单据",
+    "docsSub": "从第一份报价到最后一张收据，Paper & Pen 生成您企业发出的每一种单据，并自动整理和对账。",
+    "docs": {
+      "invoices": {
+        "t": "专业发票",
+        "d": "可自定义、符合增值税要求的发票，带上您的标志，几秒即可发出。"
+      },
+      "quotes": {
+        "t": "报价与估价",
+        "d": "用品牌报价单赢得订单，一键转为发票。"
+      },
+      "proforma": {
+        "t": "形式发票",
+        "d": "为预付款和报关开具形式发票。"
+      },
+      "receipts": {
+        "t": "付款收据",
+        "d": "记录付款后立即自动生成收据。"
+      },
+      "po": {
+        "t": "采购订单",
+        "d": "向供应商下达并跟踪采购订单。"
+      },
+      "delivery": {
+        "t": "送货单",
+        "d": "开具与每笔订单关联的送货单。"
+      },
+      "recurring": {
+        "t": "定期发票",
+        "d": "为订阅和长期服务自动执行重复计费。"
+      },
+      "reminders": {
+        "t": "付款提醒",
+        "d": "自动发送礼貌的提醒，帮您按时收款。"
+      },
+      "share": {
+        "t": "WhatsApp 和电子邮件分享",
+        "d": "轻点一下，即可通过 WhatsApp 或电子邮件分享任何单据。"
+      }
+    },
+    "s1": {
+      "eyebrow": "更快收款",
+      "title": "从报价到收款，无需反复催款",
+      "body": "将报价转为发票，通过 WhatsApp 分享，让自动提醒负责跟进。清楚看到谁已查看、谁已付款。",
+      "i1": "一键完成报价 → 发票 → 收据",
+      "i2": "自动付款提醒",
+      "i3": "通过 Paymob 在线收款"
+    },
+    "s2": {
+      "eyebrow": "处处合规",
+      "title": "任意货币、任意税率，系统帮您处理",
+      "body": "以任意货币开票，自行设置增值税或销售税税率，使用阿拉伯语或英语工作。海湾地区企业开箱即享原生 OMR/AED/SAR 计费、可配置的增值税和本地支付。",
+      "i1": "按净额计算的可配置增值税/销售税",
+      "i2": "阿拉伯语和英语发票模板",
+      "i3": "内置税务申报和报表"
+    },
+    "cmpEyebrow": "为什么要更换",
+    "cmpTitle": "为本地市场打造的免费开票软件",
+    "faq": {
+      "q1": "开票真的免费吗？",
+      "a1": "是的。开票、报价和收款跟踪对最多 3 位用户永久免费，无需信用卡。",
+      "q2": "支持阿曼 5% 增值税吗？",
+      "a2": "支持。增值税按折扣后的净额自动计算，您可以生成符合增值税要求的发票和申报表。",
+      "q3": "可以用阿拉伯语开具发票吗？",
+      "a3": "可以。发票、报价单和收据可以完整的阿拉伯语（从右到左）或英语显示，每份单据可单独切换。",
+      "q4": "客户可以在线付款吗？",
+      "a4": "可以。连接 Paymob 后，客户可以用银行卡在线支付发票，付款会自动对账。"
+    }
+  },
+  "pricingFaq": {
+    "q1": "免费方案真的永久免费吗？",
+    "a1": "是的。销售与开票对最多 3 位用户永久免费，无需信用卡，也没有到期日。只有添加库存、人事或会计等模块时才需付费。",
+    "q2": "以后可以更改或取消模块吗？",
+    "a2": "随时可以。您可以随时添加或移除付费模块，费用会自动调整。没有绑定合同。",
+    "q3": "如何计费？使用哪种货币？",
+    "a3": "以阿曼里亚尔 (OMR) 计费，保留 3 位小数，可按月或按年支付（按年节省 20%）。银行卡付款通过 Paymob 安全处理。"
+  },
+  "tool": {
+    "from": "开票方",
+    "billTo": "收票方",
+    "docNo": "单据编号",
+    "date": "日期",
+    "item": "描述",
+    "qty": "数量",
+    "rate": "单价",
+    "amount": "金额",
+    "addLine": "添加行",
+    "subtotal": "小计",
+    "vat": "增值税",
+    "total": "合计",
+    "notes": "备注",
+    "currency": "货币",
+    "applyVat": "计算增值税/税费",
+    "print": "下载/打印 PDF",
+    "yourCompany": "您的公司有限公司",
+    "clientName": "客户名称",
+    "signupCta": "在 Paper & Pen 中保存和管理您的单据",
+    "labels": {
+      "invoice": "发票",
+      "quotation": "报价单",
+      "proforma": "形式发票",
+      "receipt": "收据",
+      "purchase-order": "采购订单",
+      "delivery-note": "送货单",
+      "estimate": "估价单",
+      "credit-note": "贷项通知单"
+    },
+    "vatCalc": {
+      "amount": "金额",
+      "mode": "模式",
+      "addVat": "加上 5% 增值税",
+      "removeVat": "扣除增值税",
+      "net": "净额",
+      "vat": "增值税",
+      "gross": "总额（含增值税）"
+    },
+    "tryFull": "试用完整 ERP",
+    "builderTitle": "创建您的单据",
+    "featuresHeading": "为什么使用这个免费工具"
+  },
+  "homeFaq": {
+    "q1": "Paper & Pen 真的免费吗？",
+    "a1": "是的。销售与开票模块永久免费，无需信用卡，也没有时间限制。最多 3 位用户可以创建报价、发票并记录收款。只有在需要时才添加库存、人事或会计等付费模块。",
+    "q2": "Paper & Pen 支持阿拉伯语吗？",
+    "a2": "完全支持。整个界面都提供阿拉伯语，并采用正确的从右到左布局，同时支持英语、印地语、孟加拉语和乌尔都语。随时切换语言，您的数据完全不变。",
+    "q3": "可以在海湾地区以外使用 Paper & Pen 吗？",
+    "a3": "可以。Paper & Pen 由 Paper and Pen Company LLC（BHD Group 旗下）在阿曼打造，但适用于世界各地的企业。以任意货币开票，自行设置税率，并使用 5 种语言。海湾地区企业还可开箱即享原生 OMR/AED/SAR 计费、本地增值税和 Paymob 支付。",
+    "q4": "设置需要多长时间？",
+    "a4": "不到 5 分钟。选择工作区名称，确认电子邮件，选择模块，就可以开票了。无需安装，无需顾问，没有设置费。"
+  },
+  "trust": {
+    "eyebrow": "企业为何选择我们",
+    "title": "阿曼打造，全球企业信赖。",
+    "sub": "Paper & Pen 阿拉伯语优先、支持多币种、税务就绪，适合海湾地区乃至更远地方的企业，同时保留了大型平台早已忽视的简洁和本地支持。",
+    "cta": "创建免费工作区",
+    "stat1_value": "5",
+    "stat1_label": "种支持语言",
+    "stat2_value": "免费",
+    "stat2_label": "永久有效，无需银行卡",
+    "stat3_value": "RTL",
+    "stat3_label": "支持阿拉伯语和乌尔都语",
+    "stat4_value": "任意",
+    "stat4_label": "货币计费"
+  },
+  "footer": {
+    "tagline": "面向全球成长型企业的免费云端 ERP。阿曼打造。",
+    "product": "产品",
+    "tools": "免费工具",
+    "company": "公司",
+    "about": "关于我们",
+    "blog": "博客",
+    "security": "安全",
+    "freeInvoicing": "免费开票软件",
+    "legal": "法律",
+    "contact": "联系",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "status": "所有系统运行正常",
+    "rights": "© {{year}} Paper and Pen Company LLC。保留所有权利。",
+    "support": "支持",
+    "help": "帮助中心",
+    "contactSupport": "联系支持",
+    "statusPage": "服务状态",
+    "resources": "资源",
+    "faq": "常见问题",
+    "invoices": "发票"
+  },
+  "signup": {
+    "title": "创建您的工作区",
+    "step1": {
+      "title": "您的公司名称是什么？",
+      "label": "公司名称",
+      "placeholder": "华通贸易有限公司",
+      "subdomainLabel": "您的工作区网址将是",
+      "next": "继续",
+      "subtitle": "这将成为您专属的 ERP 子域名。",
+      "workspaceUrlLabel": "您的工作区网址：",
+      "available": "✓ 可用",
+      "taken": "✗ 已占用",
+      "checking": "检查中..."
+    },
+    "step2": {
+      "title": "您的电子邮件",
+      "emailLabel": "电子邮件地址",
+      "password": "密码",
+      "passwordHint": "至少 8 个字符",
+      "language": "首选语言",
+      "currency": "默认货币",
+      "next": "继续",
+      "subtitle": "每次登录时我们都会发送一次性验证码。无需记住密码。",
+      "emailPlaceholder": "you@company.com",
+      "passwordLabel": "密码",
+      "passwordPlaceholder": "至少 8 个字符",
+      "back": "返回",
+      "emailHint": "每次登录时，您都会在这里收到 6 位登录验证码。"
+    },
+    "step3": {
+      "title": "选择您的模块",
+      "next": "继续",
+      "trialNote": "14 天免费试用，可随时取消",
+      "subtitle": "销售与开票始终免费。按需添加。",
+      "baseTitle": "销售与开票",
+      "baseSub": "报价、发票、收款 · 3 位用户",
+      "baseTag": "免费",
+      "workspaceLabel": "工作区",
+      "baseRow": "基础版（销售）",
+      "baseValue": "永久免费",
+      "addonsLabel": "附加模块",
+      "dueToday": "今日应付",
+      "freeNote": "永久免费。无需信用卡。随时添加模块。",
+      "paidNote": "14 天试用结束后：每月 {{total}} OMR。银行卡通过 Paymob 安全保存（验证扣款 0.100 OMR，立即退还）。",
+      "back": "返回",
+      "btnFree": "创建我的工作区",
+      "btnPaid": "开始 14 天试用",
+      "btnLoading": "正在创建工作区...",
+      "footerFree": "无需信用卡 · 销售与开票永久免费",
+      "footerPaid": "银行卡由 Paymob 保护 · 0.100 OMR 验证款立即退还"
+    },
+    "step4": {
+      "title": "正在设置您的工作区...",
+      "steps": [
+        "正在创建数据库",
+        "正在配置模块",
+        "正在设置域名",
+        "马上就好！"
+      ],
+      "redirect": "正在跳转到您的工作区..."
+    },
+    "progress": {
+      "workspace": "工作区",
+      "account": "账户",
+      "modulesPayment": "模块与付款"
+    },
+    "errors": {
+      "gateway": "支付网关网址无效。请联系支持团队。",
+      "network": "网络错误。请检查网络连接后重试。",
+      "generic": "出现问题。请重试。",
+      "companyRequired": "请输入公司名称以继续。它将成为您工作区的地址。",
+      "companyLetters": "这个名称中没有可用于生成网址的字母或数字。请至少添加一个。",
+      "subdomainTaken": "这个工作区地址已被使用。请加一个词让它独一无二，比如您所在的城市或名称的简写。",
+      "subdomainChecking": "仍在检查该地址是否可用。请稍后再点击“继续”。",
+      "emailRequired": "请输入用于登录的电子邮件地址。一次性验证码会发送到这里。",
+      "emailInvalid": "该地址缺少 @ 或 @ 后面的部分。请完整填写，例如 you@company.com。"
+    },
+    "rail": {
+      "cardLabel": "今日需要银行卡",
+      "cardValue": "不需要",
+      "dataLabel": "离开时的数据",
+      "dataValue": "归您所有，可随时导出",
+      "note": "没有任何绑定。停止为某个模块付费后，工作区会继续以免费方案开放，您的记录原样保留。"
+    },
+    "securedBy": "由 Paymob 提供安全保障"
+  },
+  "login": {
+    "title": "欢迎回来",
+    "subtitle": "登录您的工作区。",
+    "workspace": "工作区",
+    "workspaceError": "请输入您的工作区名称（例如“yourcompany”）。",
+    "email": "电子邮件",
+    "emailLabel": "电子邮件",
+    "password": "密码",
+    "submit": "进入工作区",
+    "otpNote": "我们会向您的电子邮件发送一次性验证码。无需密码。",
+    "forgotPassword": "忘记密码？",
+    "noAccount": "还没有账户？",
+    "signUp": "开始免费试用"
+  },
+  "glossary": {
+    "title": "会计术语表",
+    "eyebrow": "通俗易懂的定义",
+    "sub": "用通俗语言解释 {{count}} 个会计、开票和税务术语。凡是计算容易出错的地方，都附有公式和计算示例。",
+    "filterLabel": "筛选术语",
+    "filterPlaceholder": "搜索术语表",
+    "filterCount": "显示 {{total}} 个术语中的 {{shown}} 个",
+    "definitionTitle": "什么是{{term}}？",
+    "mattersTitle": "为什么它对您的企业很重要",
+    "faqTitle": "常见问题",
+    "relatedTerms": "相关术语",
+    "seeAlso": "另请参阅",
+    "browseAll": "浏览全部术语",
+    "cat": {
+      "invoicing": "开票与单据",
+      "accounting": "会计与记账",
+      "tax": "税务与增值税",
+      "inventory": "库存与成本",
+      "metrics": "财务指标"
+    }
+  },
+  "invoicingIndex": {
+    "title": "开票单据",
+    "eyebrow": "销售单据",
+    "sub": "发票、报价单、估价单、送货单、贷项通知单等全部销售单据。免费创建和发送，支持任意货币。",
+    "metaTitle": "开票单据 · Paper & Pen",
+    "metaDesc": "在线免费创建发票、报价单、估价单、送货单和贷项通知单，支持任意货币。通过 WhatsApp 或电子邮件发送。"
+  },
+  "featuresIndex": {
+    "title": "ERP 功能",
+    "eyebrow": "软件能做什么",
+    "sub": "Paper & Pen 中的开票、库存、会计、人事等模块。开票始终免费，其他模块可选。",
+    "metaTitle": "ERP 功能 · Paper & Pen",
+    "metaDesc": "了解 Paper & Pen 的各个模块：免费开票、库存、会计、人事等。开启前先看看每个模块能做什么。"
+  },
+  "useCasesIndex": {
+    "title": "Paper & Pen 适合谁",
+    "eyebrow": "使用场景",
+    "sub": "自由职业者、代理机构、会计师和小企业如何使用同一个免费开票核心，以及他们会添加哪些额外模块。",
+    "metaTitle": "ERP 使用场景 · Paper & Pen",
+    "metaDesc": "了解自由职业者、代理机构、会计师和小企业如何使用 Paper & Pen，以及各自真正需要哪些模块。"
+  },
+  "templatesIndex": {
+    "title": "按职业分类的发票模板",
+    "eyebrow": "免费模板",
+    "sub": "您所在行业的发票必须包含哪些内容，这类工作通常如何定价，以及如何不必催款就能收到钱。使用免费生成器制作发票，无需注册。"
+  },
+  "altIndex": {
+    "title": "从其他会计软件迁移",
+    "eyebrow": "迁移指南",
+    "sub": "哪些数据可以迁移、哪些不能，财年中合适的切换时间点，以及关于谁应该留在原系统的坦诚建议。"
+  },
+  "compareIndex": {
+    "title": "ERP 与开票软件对比",
+    "eyebrow": "对比您的选择",
+    "sub": "为正在选择开票、会计或 ERP 软件的企业提供并排对比。查看价格、语言、货币、税务设置，以及每个方案最擅长的工作。"
+  },
+  "industriesIndex": {
+    "title": "按行业划分的 ERP 与开票软件",
+    "eyebrow": "围绕您的工作打造",
+    "sub": "探索 15 个行业的实用工作流程，从贸易、零售到医疗、教育、物流和专业服务。"
+  },
+  "vat": {
+    "factsEyebrow": "关键数据",
+    "factsTitle": "{{country}}增值税一览",
+    "colItem": "项目",
+    "colValue": "数值",
+    "colDetail": "详情与来源",
+    "fieldsTitle": "{{country}}税务发票必须包含的内容",
+    "einvEyebrow": "电子发票",
+    "sourcesTitle": "来源",
+    "sourcesNote": "本页的每个数字和字段清单都取自下方链接的文件，由税务机关本身发布。我们不会发布无法指明出处的税率、门槛或截止日期。",
+    "authorityNote": "税务规则会变化。在依赖本页任何内容之前，请向以下机构核实最新规定："
+  },
+  "vatIndex": {
+    "title": "各国增值税与电子发票",
+    "eyebrow": "海湾地区税务规则",
+    "sub": "逐个国家介绍税率、注册门槛、税务发票必须包含的内容以及电子发票的实际进展，每个数字都链接到税务机关的原文。",
+    "whatIsVat": "什么是增值税？",
+    "whatIsEinv": "什么是电子发票？"
+  },
+  "legal": {
+    "englishOnly": "本条款仅以英语发布。英语文本为权威版本，任何译文均不作为具有约束力的文件提供。如需以其他语言审阅，请联系我们，我们会协助您。"
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "可随时开启的模块",
+      "db_v": "1",
+      "db_l": "每个工作区独立的私有数据库"
+    },
+    "ai": {
+      "eyebrow": "内置 AI",
+      "title": "让 AI 处理繁琐工作",
+      "sub": "Paper & Pen AI 基于您自己的记录工作。它能回答问题、读取供应商邮件，并在 WhatsApp 上回复客户。重要的事由您批准。",
+      "c1t": "向您的业务提问",
+      "c1d": "用日常语言提问，比如“谁欠我们最多钱？”答案直接来自您的实时记录。",
+      "c2t": "智能收件箱",
+      "c2d": "转发一封供应商邮件。Paper & Pen 会读取账单，并起草采购记录供您批准。",
+      "c3t": "WhatsApp 回复",
+      "c3d": "连接您的 WhatsApp 号码。AI 会回答价格和订单问题，并发送报价单和发票。",
+      "note": "AI 模块为可选附加模块。",
+      "mockTitle": "问问 Paper & Pen",
+      "q": "谁欠我们最多钱？",
+      "a": "Harbour Point Ltd 欠款最多。这张发票已逾期：",
+      "overdue": "已逾期",
+      "input": "输入问题"
+    },
+    "how": {
+      "eyebrow": "从注册到上线",
+      "title": "今天就上线，不用等到下个季度",
+      "s1t": "选择工作区名称",
+      "s1d": "选择 yourcompany.paperandpen.om。无需银行卡，也无需销售电话。",
+      "s2t": "开启所需模块",
+      "s2d": "从免费开票开始。需要时再添加库存、人事、会计或 AI。",
+      "s3t": "带上团队和数据",
+      "s3d": "从电子表格导入客户和产品，邀请团队成员，然后发出第一张发票。"
+    },
+    "ind": {
+      "eyebrow": "为您的行业打造",
+      "title": "贴合您的经营方式",
+      "sub": "为 15 个行业预设的单据、工作流程和报表。",
+      "all": "查看全部行业"
+    },
+    "sec": {
+      "eyebrow": "安全",
+      "title": "您的数据始终归您所有",
+      "i1t": "私有数据库",
+      "i1d": "每个工作区都运行在独立的数据库上。没有共享表。",
+      "i2t": "加密",
+      "i2d": "传输中使用 TLS，静态存储同样加密。",
+      "i3t": "定期备份",
+      "i3d": "每个工作区都会自动备份。",
+      "i4t": "安全支付",
+      "i4d": "银行卡付款通过 PCI-DSS 支付网关 Paymob 处理。",
+      "more": "了解安全措施",
+      "intTitle": "与您现有的工具协同工作",
+      "int": [
+        "WhatsApp",
+        "电子邮件",
+        "Paymob",
+        "Thawani",
+        "Excel 和 CSV 导入",
+        "Windows 和 macOS 应用"
+      ]
+    }
+  }
+}

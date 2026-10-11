@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Preskoči na glavno vsebino",
+    "included": "Vključeno",
+    "notIncluded": "Ni vključeno"
+  },
+  "nav": {
+    "features": "Funkcije",
+    "solutions": "Rešitve",
+    "tools": "Brezplačna orodja",
+    "pricing": "Cene",
+    "compare": "Primerjaj",
+    "login": "Prijava",
+    "startFree": "Začni brezplačno",
+    "glossary": "Slovar",
+    "home": "Domov",
+    "templates": "Predloge računov",
+    "alternatives": "Alternative",
+    "resources": "Viri",
+    "vat": "DDV po državah"
+  },
+  "mega": {
+    "invoicing": "Izdajanje računov",
+    "quotations": "Ponudbe in predračuni",
+    "inventory": "Upravljanje zalog",
+    "accounting": "Računovodstvo in knjigovodstvo",
+    "hr": "Kadri in plače",
+    "reports": "Poročila in analitika",
+    "trading": "Trgovska podjetja",
+    "retail": "Maloprodaja in trgovine",
+    "restaurants": "Restavracije in kavarne",
+    "freelancers": "Samostojni podjetniki",
+    "accountants": "Računovodje",
+    "invoiceGen": "Brezplačni generator računov",
+    "quotationGen": "Brezplačni generator ponudb",
+    "receiptGen": "Brezplačni generator potrdil",
+    "vatCalc": "Kalkulator DDV za Oman",
+    "allFeatures": "Oglej si vse funkcije",
+    "allTools": "Vsa brezplačna orodja",
+    "salescrm": "Prodaja in CRM",
+    "payments": "Plačila",
+    "manufacturing": "Proizvodnja",
+    "multilang": "Več jezikov",
+    "contracting": "Gradbeništvo in izvajalci",
+    "manufacturingInd": "Proizvodnja",
+    "wholesale": "Veleprodaja in distribucija",
+    "ecommerce": "Spletna trgovina",
+    "logistics": "Logistika in prevoz",
+    "estimateGen": "Brezplačni izdelovalec ocen stroškov",
+    "allIndustries": "Vse panoge"
+  },
+  "sticky": {
+    "text": "Vodite podjetje brezplačno. Za vedno."
+  },
+  "cta": {
+    "title": "Ste pripravljeni voditi podjetje s Paper & Pen?",
+    "sub": "Ustvarite brezplačen delovni prostor v manj kot 5 minutah. Prodaja in računi so brezplačni za vedno, kreditna kartica ni potrebna."
+  },
+  "proof": {
+    "builtInOman": "Razvito v Omanu · v uporabi po vsem svetu",
+    "free": "Prodaja in računi brezplačno za vedno. Brez kartice.",
+    "languages": "5 jezikov, arabščina in urdu od desne proti levi"
+  },
+  "hero": {
+    "badge": "Za podjetja povsod",
+    "tagline_line1": "ERP, ki govori",
+    "tagline_line2": "vaš jezik.",
+    "sub": "Vodite prodajo, zaloge, kadre in finance na eni oblačni platformi, v 5 jezikih in v kateri koli valuti.",
+    "cta": "Začni brezplačno",
+    "seeModules": "Oglej si module",
+    "subdomainLabel": "Naslov vašega delovnega prostora",
+    "subdomainPlaceholder": "vasepodjetje",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "je prost",
+    "taken_short": "je že zaseden",
+    "checking": "Preverjamo razpoložljivost...",
+    "subdomainError": "Razpoložljivosti trenutno ne moremo preveriti. Vseeno lahko nadaljujete.",
+    "trialNote": "Brezplačno za vedno · Brez kreditne kartice · Module dodajte kadar koli",
+    "card_title": "Današnji pregled",
+    "stat1_label": "Prihodki ta mesec",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Odprti računi",
+    "stat2_value": "12",
+    "stat3_label": "Zaposleni na dopustu",
+    "stat3_value": "2",
+    "card_progress": "Mesečni cilj: doseženo 75 %",
+    "trust_count": "Razvito v Omanu",
+    "trust_label": "za podjetja v Zalivu"
+  },
+  "languages": {
+    "eyebrow": "Več jezikov · Več valut",
+    "title": "Ustvarjeno za vsako ekipo, na vsakem trgu",
+    "sub": "Takoj preklopite med arabščino, angleščino, hindijščino, bengalščino in urdujem ter izdajajte račune v kateri koli valuti. Vaši podatki ostanejo enaki, spremeni se le jezik vmesnika."
+  },
+  "modules": {
+    "eyebrow": "Modularno po zasnovi",
+    "title": "Vsi moduli, ki jih potrebuje vaše podjetje",
+    "sub": "Začnite s prodajo in računi, nato pa z rastjo vklopite nove module: od CRM in kadrov do proizvodnje, bančništva in AI. En sistem za celotno podjetje.",
+    "included": "Vključeno",
+    "omrPerMonth": "OMR/mes.",
+    "estimateLabel": "Vaš ocenjeni strošek",
+    "omr_mo": "OMR/mes.",
+    "base_label": "Osnova",
+    "addons_label": "dodatki",
+    "estimateNote": "Glede na izbrane module. Uporabniki se zaračunajo ločeno.",
+    "startTrial": "Začni brezplačno",
+    "sales": {
+      "title": "Prodaja in CRM",
+      "desc": "Ponudbe, računi, prodajni lijak, spremljanje plačil in opomniki."
+    },
+    "inventory": {
+      "title": "Zaloge",
+      "desc": "Spremljajte zaloge, lokacije in ravni za ponovno naročilo v realnem času."
+    },
+    "hr": {
+      "title": "Kadri in plače",
+      "desc": "Evidenca prisotnosti, dopusti, plače in portal za zaposlene."
+    },
+    "accounting": {
+      "title": "Računovodstvo",
+      "desc": "Dvostavno knjigovodstvo, bančno usklajevanje in obračuni DDV."
+    },
+    "manufacturing": {
+      "title": "Proizvodnja",
+      "desc": "Kosovnice, delovni nalogi in načrtovanje proizvodnje."
+    },
+    "reports": {
+      "title": "Poročila in analitika",
+      "desc": "Izkaz poslovnega izida, denarni tok, starostna struktura terjatev in lastne nadzorne plošče."
+    },
+    "pricePerMonth": "+{{price}} OMR/mes.",
+    "ctaTitle": "Ste pripravljeni voditi podjetje s Paper & Pen?",
+    "ctaSub": "Nastavitev v nekaj minutah. Vklopite module, ki jih potrebujete."
+  },
+  "pricing": {
+    "eyebrow": "Cene",
+    "title": "Preproste in poštene cene",
+    "sub": "Začnite brezplačno: prodaja in računi so za vedno brez stroškov. Module dodajajte, ko rastete.",
+    "monthly": "Mesečno",
+    "annual": "Letno",
+    "perMonth": "/mes.",
+    "perYear": "/leto",
+    "annualSave": "Prihranite 20 %",
+    "startTrial": "Začni brezplačno",
+    "mostPopular": "Najbolj priljubljen",
+    "free_label": "Brezplačno",
+    "unlimited": "Neomejeno",
+    "users": "uporabnikov",
+    "buildYourOwn": "Sestavite svoj paket",
+    "trialNote": "Brezplačen paket za vedno · Brez kreditne kartice · Nadgradite kadar koli",
+    "addModules": "Dodaj module",
+    "base": {
+      "title": "Prodaja in računi, brezplačno za vedno",
+      "desc": "Ponudbe, računi in plačila za do 3 uporabnike. Brez kreditne kartice."
+    },
+    "free": {
+      "name": "Brezplačni",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Prodaja in računi, brezplačno za vedno",
+      "features": [
+        "Do 3 uporabniki",
+        "Prodaja in računi",
+        "Ponudbe in plačila",
+        "Osnovna poročila",
+        "Brez kreditne kartice"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "Za rastoča podjetja, ki potrebujejo več",
+      "features": [
+        "Do 20 uporabnikov",
+        "Vse iz Brezplačnega paketa",
+        "Modul za zaloge",
+        "Kadri in plače",
+        "Več valut",
+        "Obvestila prek WhatsApp",
+        "Prednostna podpora"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "Celovit ERP za uveljavljena podjetja",
+      "features": [
+        "Neomejeno uporabnikov",
+        "Vse iz paketa Growth",
+        "Računovodstvo in bančna sinhronizacija",
+        "Proizvodnja",
+        "Napredna analitika",
+        "Dostop do API",
+        "Namenska podpora"
+      ]
+    },
+    "addons": {
+      "title": "Potrebujete nekaj posebnega?",
+      "subtitle": "Dodajte posamezne module kateremu koli paketu. Plačate le tisto, kar potrebujete.",
+      "whatsapp_name": "Obvestila prek WhatsApp",
+      "whatsapp_desc": "{{price}} OMR na mesec",
+      "extraUsers_name": "Dodatni uporabniki",
+      "extraUsers_desc": "Od {{price}} OMR na uporabnika na mesec",
+      "extraStorage_name": "Dodatni prostor",
+      "extraStorage_desc": "{{price}} OMR za 5 GB na mesec"
+    },
+    "headLead": "Preproste in poštene",
+    "headAccent": "cene",
+    "planWord": "Paket",
+    "billedMonthly": "Obračun mesečno",
+    "billedAnnually": "Obračun letno",
+    "billingPeriod": "Obračunsko obdobje",
+    "worldwideNote": "En globalni cenik v omanskih rialih (OMR). Plačajte s kartico od koder koli na svetu.",
+    "compareTitle": "Primerjajte vse funkcije paketov",
+    "compareFeature": "Funkcija",
+    "compareUsers": "Uporabniki",
+    "compareGroupCore": "V vsakem paketu",
+    "compareGroupAdded": "Dodano v paketu {{plan}}",
+    "included": "Vključeno",
+    "notIncluded": "Ni vključeno",
+    "scrollHint": "Povlecite tabelo vstran za primerjavo paketov",
+    "selectPlan": "Izberi paket"
+  },
+  "compare": {
+    "eyebrow": "Zakaj Paper & Pen",
+    "title": "Kako se primerjamo",
+    "feature": "Funkcija",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Celoten arabski vmesnik od desne proti levi",
+      "gcc_pricing": "Cene v valutah Zaliva (OMR/BHD/AED)",
+      "free_trial": "Brezplačen paket za vedno, brez kartice",
+      "local_support": "Lokalna podpora v Zalivu",
+      "multi_lang": "Vmesnik v 5 jezikih",
+      "paymob": "Paymob / lokalna plačila",
+      "onboarding": "Samostojna uvedba < 5 min"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Vprašanja",
+    "title": "Vse, kar morate vedeti"
+  },
+  "related": {
+    "title": "Raziščite več",
+    "termsTitle": "Pojmi na tej strani, razloženi",
+    "exploreTitle": "Spoznajte Paper & Pen"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | Brezplačen oblačni ERP in program za račune",
+    "homeDesc": "Brezplačen oblačni ERP in računi. Prodaja, zaloge, kadri in računovodstvo v 5 jezikih in kateri koli valuti. Prodaja in računi brezplačno za vedno.",
+    "fiTitle": "Brezplačen spletni program za račune · Paper & Pen",
+    "fiDesc": "Ustvarite in pošljite profesionalne račune z enim klikom. Brezplačni spletni računi z DDV, katero koli valuto, ponudbami in potrdili. Brezplačno za vedno.",
+    "pricingTitle": "Cene · Paper & Pen",
+    "pricingDesc": "Preproste cene. Prodaja in računi brezplačno za vedno. Ob rasti dodajte zaloge, kadre, računovodstvo in več. Brez kartice. Letno prihranite 20 %.",
+    "faqTitle": "Pogosta vprašanja · Paper & Pen ERP",
+    "faqDesc": "Odgovori o Paper & Pen, brezplačnem oblačnem ERP in programu za račune: cene, DDV, arabščina, moduli, nastavitev in več.",
+    "toolsTitle": "Brezplačna poslovna orodja · Paper & Pen",
+    "toolsDesc": "Brezplačna orodja brez registracije: generator računov, ponudbe, potrdila, naročilnice, dobavnice in nastavljiv kalkulator DDV.",
+    "aboutTitle": "O Paper & Pen · Brezplačen oblačni ERP, BHD Group",
+    "aboutDesc": "Paper & Pen v Omanu razvija Paper and Pen Company LLC, del BHD Group. Brezplačen oblačni ERP za podjetja po vsem svetu, z arabščino na prvem mestu in več valutami.",
+    "contactTitle": "Kontaktirajte Paper & Pen",
+    "contactDesc": "Stopite v stik z ekipo Paper & Pen. WhatsApp +968 9889 9100 ali nam pišite po e-pošti.",
+    "securityTitle": "Varnost in varstvo podatkov · Paper & Pen",
+    "securityDesc": "Kako Paper & Pen varuje vaše poslovne podatke: šifriranje, ločena baza za vsako stranko, varnostne kopije, nadzor dostopa in plačila PCI-DSS prek Paymob.",
+    "blogTitle": "Blog · Paper & Pen ERP",
+    "signupTitle": "Ustvarite brezplačen delovni prostor Paper & Pen",
+    "signupDesc": "Ustvarite brezplačen delovni prostor Paper & Pen ERP v manj kot 5 minutah. Prodaja in računi brezplačno za vedno.",
+    "loginTitle": "Prijava v Paper & Pen",
+    "loginDesc": "Prijavite se v svoj delovni prostor Paper & Pen ERP.",
+    "glossaryTitle": "Računovodski slovar · Paper & Pen",
+    "glossaryDesc": "Razumljive razlage pojmov iz računovodstva, računov, DDV in zalog, s katerimi se srečujejo mala podjetja, s formulami in primeri izračunov.",
+    "templatesTitle": "Brezplačne predloge računov po poklicih · Paper & Pen",
+    "templatesDesc": "Predloge računov in nasveti za izvajalce, svetovalce, oblikovalce, obrtnike in storitve. Kaj prikazati, kako določiti ceno in kako priti do plačila.",
+    "altTitle": "Alternative računovodskim programom · Paper & Pen",
+    "altDesc": "Razmišljate o menjavi računovodskega programa? Kaj se prenese, kaj ne, kdaj preklopiti in komu je bolje ostati, kjer je.",
+    "compareTitle": "Primerjave programov ERP in za račune | Paper & Pen",
+    "compareDesc": "Primerjajte Paper & Pen s programi ERP, računovodstvo in račune: cene, jeziki, valute, davčne nastavitve, moduli in praktična primernost.",
+    "industriesTitle": "ERP in program za račune po panogah | Paper & Pen",
+    "industriesDesc": "Oglejte si, kako Paper & Pen podpira račune, zaloge, računovodstvo in poslovanje v 15 panogah, v petih jezikih in kateri koli valuti.",
+    "vatTitle": "DDV in e-računi v Zalivu po državah · Paper & Pen",
+    "vatDesc": "Stopnje DDV, pragovi za registracijo, zahteve za račune in stanje e-računov v Omanu, ZAE, Savdski Arabiji in Bahrajnu, vsako z navedenim virom."
+  },
+  "toolsIndex": {
+    "title": "Brezplačna poslovna orodja",
+    "sub": "Brez registracije in brez stroškov. Ustvarite račune, ponudbe, potrdila in več, pripravljene za prenos v PDF, v kateri koli valuti in z nastavljivo stopnjo DDV."
+  },
+  "pages": {
+    "about": {
+      "title": "Razvito v Omanu za podjetja v Zalivu",
+      "lead": "Paper & Pen je oblačni ERP, ki smo ga sami pogrešali: dovolj preprost, da začnete v petih minutah, dovolj zmogljiv, da vodite celotno podjetje, in končno narejen za to, kako poslovanje v Omanu in Zalivu dejansko poteka.",
+      "body1": "Paper & Pen razvija Paper and Pen Company LLC, del BHD Group iz Maskata v Omanu. Programsko opremo razvijamo v Omanu, Omanci, za podjetja v Zalivu. Arabščina je polnovreden jezik, obračun v OMR je vgrajen v jedro, lokalna plačila pa delujejo takoj.",
+      "body2": "Skozi Paper & Pen gredo tisoči ponudb, računov in plačil. Prodaja in računi so brezplačni za vedno, ker si vsako podjetje zasluži profesionalna orodja. Plačate šele, ko potrebujete zaloge, kadre, računovodstvo ali proizvodnjo.",
+      "stat1": "Brezplačno za vedno",
+      "stat1l": "Prodaja in računi",
+      "stat2": "5",
+      "stat2l": "Jezikov",
+      "stat3": "< 5 min",
+      "stat3l": "Do začetka",
+      "stat4": "OMR",
+      "stat4l": "Vgrajen obračun"
+    },
+    "contact": {
+      "title": "Pogovorimo se",
+      "lead": "Vprašanja, predstavitve, partnerstva: odgovorimo hitro. Najhitreje nas dosežete prek WhatsApp.",
+      "whatsapp": "Klepetajte na WhatsApp",
+      "email": "Pišite nam",
+      "hours": "Nedelja–četrtek, 8.00–17.00 (GMT+4)"
+    },
+    "security": {
+      "title": "Vaši podatki so zaščiteni",
+      "lead": "Varnost in zasebnost sta v Paper & Pen vgrajeni od samega začetka.",
+      "items": [
+        "Šifrirano med prenosom (TLS) in v mirovanju",
+        "Ločena baza podatkov za vsako stranko, vaši podatki se nikoli ne delijo",
+        "Redne samodejne varnostne kopije",
+        "Nadzor dostopa po vlogah in revizijske sledi",
+        "Plačila obdeluje Paymob, plačilni prehod, skladen s PCI-DSS",
+        "Gostovanje na utrjeni in nadzorovani infrastrukturi"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog Paper & Pen",
+    "sub": "Vodniki o računih, DDV, računovodstvu in vodenju podjetja v Omanu in Zalivu.",
+    "readMore": "Preberi več",
+    "empty": "Novi članki so na poti. Kmalu se vrnite.",
+    "backToBlog": "Vsi članki"
+  },
+  "fi": {
+    "crumb": "Brezplačen program za račune",
+    "eyebrow": "Brezplačni spletni računi",
+    "title": "Brezplačen program za račune<br/>za podjetja <em class=\"text-copper-400 not-italic\">povsod</em>",
+    "subtitle": "Ustvarite in pošljite profesionalne, davčno skladne račune z enim klikom, v kateri koli valuti in 5 jezikih. Ponudbe, potrdila, opomniki za plačilo in celotno računovodstvo. Brezplačno za vedno.",
+    "b1": "Brezplačno za vedno, brez kreditne kartice",
+    "b2": "Katera koli valuta in nastavljiv DDV",
+    "b3": "Pošljite prek WhatsApp ali e-pošte z enim klikom",
+    "tryTool": "Preizkusite brezplačni generator",
+    "docsEyebrow": "Ena platforma, vsi dokumenti",
+    "docsTitle": "Vsi poslovni dokumenti, ki jih potrebujete",
+    "docsSub": "Od prve ponudbe do zadnjega potrdila Paper & Pen ustvari vsak dokument, ki ga pošlje vaše podjetje, in jih samodejno ohranja urejene in usklajene.",
+    "docs": {
+      "invoices": {
+        "t": "Profesionalni računi",
+        "d": "Prilagodljivi računi z DDV in vašim logotipom, poslani v nekaj sekundah."
+      },
+      "quotes": {
+        "t": "Ponudbe in predračuni",
+        "d": "Pridobite posle z ponudbami v vaši podobi, ki z enim klikom postanejo računi."
+      },
+      "proforma": {
+        "t": "Predračuni",
+        "d": "Izdajte predračune za predplačila in carino."
+      },
+      "receipts": {
+        "t": "Potrdila o plačilu",
+        "d": "Potrdila se ustvarijo samodejno, takoj ko je plačilo zabeleženo."
+      },
+      "po": {
+        "t": "Naročilnice",
+        "d": "Ustvarite in spremljajte naročilnice za svoje dobavitelje."
+      },
+      "delivery": {
+        "t": "Dobavnice",
+        "d": "Izdajte dobavnice, povezane z vsakim naročilom."
+      },
+      "recurring": {
+        "t": "Ponavljajoči se računi",
+        "d": "Avtomatizirajte redno zaračunavanje naročnin in stalnih pogodb."
+      },
+      "reminders": {
+        "t": "Opomniki za plačilo",
+        "d": "Samodejni, vljudni opomniki, da denar dobite pravočasno."
+      },
+      "share": {
+        "t": "Deljenje prek WhatsApp in e-pošte",
+        "d": "Delite kateri koli dokument prek WhatsApp ali e-pošte z enim dotikom."
+      }
+    },
+    "s1": {
+      "eyebrow": "Hitreje do plačila",
+      "title": "Od ponudbe do denarja brez izterjevanja",
+      "body": "Ponudbe spremenite v račune, jih delite prek WhatsApp in prepustite samodejnim opomnikom, da poskrbijo za ostalo. Natančno vidite, kdo je račun odprl in kdo plačal.",
+      "i1": "Ponudba → račun → potrdilo z enim klikom",
+      "i2": "Samodejni opomniki za plačilo",
+      "i3": "Spletno plačilo prek Paymob"
+    },
+    "s2": {
+      "eyebrow": "Skladno povsod",
+      "title": "Katera koli valuta in davčna stopnja, urejeno namesto vas",
+      "body": "Izdajajte račune v kateri koli valuti, nastavite svojo stopnjo DDV ali prometnega davka in delajte v arabščini ali angleščini. Podjetja v Zalivu takoj dobijo obračun v OMR/AED/SAR, nastavljiv DDV in lokalna plačila.",
+      "i1": "Nastavljiv DDV ali prometni davek na neto znesek",
+      "i2": "Predloge računov v arabščini in angleščini",
+      "i3": "Davčni obračuni in poročila vgrajeni"
+    },
+    "cmpEyebrow": "Zakaj preklopiti",
+    "cmpTitle": "Brezplačen program za račune, narejen prav za tukaj",
+    "faq": {
+      "q1": "So računi res brezplačni?",
+      "a1": "Da. Računi, ponudbe in spremljanje plačil so brezplačni za vedno za do 3 uporabnike, kreditna kartica pa ni potrebna.",
+      "q2": "Ali podpira omanski 5-odstotni DDV?",
+      "a2": "Da. DDV se samodejno izračuna na neto znesek po popustu, vi pa lahko pripravite skladne račune in obračune DDV.",
+      "q3": "Ali lahko pošiljam račune v arabščini?",
+      "a3": "Da. Računi, ponudbe in potrdila so v celoti prikazani v arabščini (od desne proti levi) ali angleščini, jezik pa izberete za vsak dokument posebej.",
+      "q4": "Ali lahko stranke plačajo prek spleta?",
+      "a4": "Da. Povežite Paymob in stranke bodo lahko račune plačale prek spleta s kartico. Plačila se usklajujejo samodejno."
+    }
+  },
+  "pricingFaq": {
+    "q1": "Je brezplačni paket res brezplačen za vedno?",
+    "a1": "Da. Prodaja in računi so brezplačni za vedno za do 3 uporabnike, brez kreditne kartice in brez poteka. Plačate le, če dodate module, kot so zaloge, kadri ali računovodstvo.",
+    "q2": "Ali lahko module pozneje spremenim ali odpovem?",
+    "a2": "Kadar koli. Plačljive module dodajte ali odstranite, kadar želite, obračun pa se samodejno prilagodi. Brez vezave s pogodbo.",
+    "q3": "Kako se mi zaračunava in v kateri valuti?",
+    "a3": "Zaračunavamo v omanskih rialih (OMR) na 3 decimalke, mesečno ali letno (pri letnem plačilu prihranite 20 %). Plačila s kartico se varno obdelajo prek Paymob."
+  },
+  "tool": {
+    "from": "Od",
+    "billTo": "Prejemnik računa",
+    "docNo": "Št. dokumenta",
+    "date": "Datum",
+    "item": "Opis",
+    "qty": "Kol.",
+    "rate": "Cena",
+    "amount": "Znesek",
+    "addLine": "Dodaj vrstico",
+    "subtotal": "Vmesni seštevek",
+    "vat": "DDV",
+    "total": "Skupaj",
+    "notes": "Opombe",
+    "currency": "Valuta",
+    "applyVat": "Obračunaj DDV / davek",
+    "print": "Prenesi / natisni PDF",
+    "yourCompany": "Vaše podjetje d.o.o.",
+    "clientName": "Ime stranke",
+    "signupCta": "Shranite in upravljajte dokumente v Paper & Pen",
+    "labels": {
+      "invoice": "RAČUN",
+      "quotation": "PONUDBA",
+      "proforma": "PREDRAČUN",
+      "receipt": "POTRDILO",
+      "purchase-order": "NAROČILNICA",
+      "delivery-note": "DOBAVNICA",
+      "estimate": "OCENA STROŠKOV",
+      "credit-note": "DOBROPIS"
+    },
+    "vatCalc": {
+      "amount": "Znesek",
+      "mode": "Način",
+      "addVat": "Prištej 5 % DDV",
+      "removeVat": "Odštej DDV",
+      "net": "Neto znesek",
+      "vat": "DDV",
+      "gross": "Bruto (z DDV)"
+    },
+    "tryFull": "Preizkusite celoten ERP",
+    "builderTitle": "Ustvarite svoj dokument",
+    "featuresHeading": "Zakaj uporabiti to brezplačno orodje"
+  },
+  "homeFaq": {
+    "q1": "Je Paper & Pen res brezplačen?",
+    "a1": "Da. Modul Prodaja in računi je brezplačen za vedno, brez kreditne kartice in brez časovne omejitve. Ustvarjate lahko ponudbe in račune ter beležite plačila za do 3 uporabnike. Plačljive module, kot so zaloge, kadri ali računovodstvo, dodajte šele, ko jih potrebujete.",
+    "q2": "Ali Paper & Pen deluje v arabščini?",
+    "a2": "V celoti. Celoten vmesnik je na voljo v arabščini s pravilno postavitvijo od desne proti levi, poleg tega pa v angleščini, hindijščini, bengalščini in urduju. Jezik zamenjajte kadar koli, vaši podatki ostanejo popolnoma enaki.",
+    "q3": "Ali lahko Paper & Pen uporabljam zunaj Zaliva?",
+    "a3": "Da. Paper & Pen v Omanu razvija Paper and Pen Company LLC (del BHD Group), vendar deluje za podjetja povsod. Izdajajte račune v kateri koli valuti, nastavite svojo davčno stopnjo in delajte v 5 jezikih. Podjetja v Zalivu poleg tega takoj dobijo obračun v OMR/AED/SAR, lokalni DDV in plačila Paymob.",
+    "q4": "Koliko časa traja nastavitev?",
+    "a4": "Manj kot 5 minut. Izberite ime delovnega prostora, potrdite e-pošto, izberite module in lahko začnete izdajati račune. Brez namestitve, brez svetovalca, brez pristojbine za vzpostavitev."
+  },
+  "trust": {
+    "eyebrow": "Zakaj nas podjetja izberejo",
+    "title": "Razvito v Omanu. Zaupajo nam podjetja po vsem svetu.",
+    "sub": "Z arabščino na prvem mestu, več valutami in davčno pripravljenostjo Paper & Pen ustreza podjetjem v Zalivu in daleč naprej, hkrati pa ohranja preprostost in lokalno podporo, ki so ju velike platforme pozabile.",
+    "cta": "Ustvarite brezplačen delovni prostor",
+    "stat1_value": "5",
+    "stat1_label": "Podprtih jezikov",
+    "stat2_value": "Brezplačno",
+    "stat2_label": "Za vedno, brez kartice",
+    "stat3_value": "RTL",
+    "stat3_label": "Podpora za arabščino in urdu",
+    "stat4_value": "Katera koli",
+    "stat4_label": "Valuta za račune"
+  },
+  "footer": {
+    "tagline": "Brezplačen oblačni ERP za rastoča podjetja povsod. Razvito v Omanu.",
+    "product": "Izdelek",
+    "tools": "Brezplačna orodja",
+    "company": "Podjetje",
+    "about": "O nas",
+    "blog": "Blog",
+    "security": "Varnost",
+    "freeInvoicing": "Brezplačen program za račune",
+    "legal": "Pravno",
+    "contact": "Kontakt",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Pogoji uporabe",
+    "privacy": "Politika zasebnosti",
+    "status": "Vsi sistemi delujejo",
+    "rights": "© {{year}} Paper and Pen Company LLC. Vse pravice pridržane.",
+    "support": "Podpora",
+    "help": "Center za pomoč",
+    "contactSupport": "Kontaktirajte podporo",
+    "statusPage": "Stanje storitve",
+    "resources": "Viri",
+    "faq": "Pogosta vprašanja",
+    "invoices": "Računi"
+  },
+  "signup": {
+    "title": "Ustvarite delovni prostor",
+    "step1": {
+      "title": "Kako se imenuje vaše podjetje?",
+      "label": "Ime podjetja",
+      "placeholder": "Al Noor Trading LLC",
+      "subdomainLabel": "Naslov vašega delovnega prostora bo",
+      "next": "Nadaljuj",
+      "subtitle": "To postane vaša edinstvena poddomena ERP.",
+      "workspaceUrlLabel": "Naslov vašega delovnega prostora:",
+      "available": "✓ Prosto",
+      "taken": "✗ Zasedeno",
+      "checking": "preverjamo..."
+    },
+    "step2": {
+      "title": "Vaša e-pošta",
+      "emailLabel": "E-poštni naslov",
+      "password": "Geslo",
+      "passwordHint": "Vsaj 8 znakov",
+      "language": "Želeni jezik",
+      "currency": "Privzeta valuta",
+      "next": "Nadaljuj",
+      "subtitle": "Ob vsaki prijavi vam pošljemo enkratno kodo. Nobenega gesla si ni treba zapomniti.",
+      "emailPlaceholder": "ime@podjetje.si",
+      "passwordLabel": "Geslo",
+      "passwordPlaceholder": "Najmanj 8 znakov",
+      "back": "Nazaj",
+      "emailHint": "Sem boste vsakič prejeli 6-mestno kodo za prijavo."
+    },
+    "step3": {
+      "title": "Izberite module",
+      "next": "Nadaljuj",
+      "trialNote": "14-dnevni brezplačni preizkus, prekličete kadar koli",
+      "subtitle": "Prodaja in računi so vedno brezplačni. Dodajte, kar potrebujete.",
+      "baseTitle": "Prodaja in računi",
+      "baseSub": "Ponudbe, računi, plačila · 3 uporabniki",
+      "baseTag": "Brezplačno",
+      "workspaceLabel": "Delovni prostor",
+      "baseRow": "Osnova (prodaja)",
+      "baseValue": "Brezplačno za vedno",
+      "addonsLabel": "Dodatni moduli",
+      "dueToday": "Za plačilo danes",
+      "freeNote": "Brezplačno za vedno. Brez kreditne kartice. Module dodajte kadar koli.",
+      "paidNote": "Po 14-dnevnem preizkusu: {{total}} OMR na mesec. Kartica je varno shranjena prek Paymob (preverjanje 0.100 OMR, takoj vrnjeno).",
+      "back": "Nazaj",
+      "btnFree": "Ustvari moj delovni prostor",
+      "btnPaid": "Začni 14-dnevni preizkus",
+      "btnLoading": "Ustvarjamo delovni prostor...",
+      "footerFree": "Brez kreditne kartice · Prodaja in računi brezplačno za vedno",
+      "footerPaid": "Kartica zaščitena s Paymob · rezervacija 0.100 OMR takoj vrnjena"
+    },
+    "step4": {
+      "title": "Pripravljamo vaš delovni prostor...",
+      "steps": [
+        "Ustvarjamo vašo bazo podatkov",
+        "Nastavljamo module",
+        "Nastavljamo vašo domeno",
+        "Skoraj končano!"
+      ],
+      "redirect": "Preusmerjamo vas v vaš delovni prostor..."
+    },
+    "progress": {
+      "workspace": "Delovni prostor",
+      "account": "Račun",
+      "modulesPayment": "Moduli in plačilo"
+    },
+    "errors": {
+      "gateway": "Naslov plačilnega prehoda ni bil veljaven. Obrnite se na podporo.",
+      "network": "Napaka omrežja. Preverite povezavo in poskusite znova.",
+      "generic": "Nekaj je šlo narobe. Poskusite znova.",
+      "companyRequired": "Za nadaljevanje vnesite ime podjetja. Postalo bo naslov vašega delovnega prostora.",
+      "companyLetters": "To ime nima črk ali številk, iz katerih bi lahko sestavili spletni naslov. Dodajte vsaj eno.",
+      "subdomainTaken": "Ta naslov delovnega prostora je že v uporabi. Dodajte besedo, da bo vaš, na primer kraj ali okrajšavo imena.",
+      "subdomainChecking": "Še preverjamo, ali je naslov prost. Čez trenutek znova pritisnite Nadaljuj.",
+      "emailRequired": "Vnesite e-poštni naslov, s katerim se želite prijavljati. Tja bodo poslane enkratne kode.",
+      "emailInvalid": "Naslovu manjka @ ali del za njim. Napišite ga v celoti, na primer ime@podjetje.si."
+    },
+    "rail": {
+      "cardLabel": "Kartica potrebna danes",
+      "cardValue": "Ne",
+      "dataLabel": "Podatki, če odidete",
+      "dataValue": "Vaši, za izvoz",
+      "note": "Nič ni zaklenjeno. Če prenehate plačevati modul, delovni prostor ostane odprt v brezplačnem paketu, vaši zapisi pa točno tam, kjer ste jih pustili."
+    },
+    "securedBy": "Zaščito zagotavlja Paymob"
+  },
+  "login": {
+    "title": "Dobrodošli nazaj",
+    "subtitle": "Prijavite se v svoj delovni prostor.",
+    "workspace": "Delovni prostor",
+    "workspaceError": "Vnesite ime svojega delovnega prostora (npr. »vasepodjetje«).",
+    "email": "E-pošta",
+    "emailLabel": "E-pošta",
+    "password": "Geslo",
+    "submit": "Nadaljuj v delovni prostor",
+    "otpNote": "Na vašo e-pošto pošljemo enkratno kodo. Geslo ni potrebno.",
+    "forgotPassword": "Ste pozabili geslo?",
+    "noAccount": "Še nimate računa?",
+    "signUp": "Začni brezplačni preizkus"
+  },
+  "glossary": {
+    "title": "Računovodski slovar",
+    "eyebrow": "Razumljive razlage",
+    "sub": "{{count}} pojmov iz računovodstva, računov in davkov, razloženih v preprostem jeziku, s formulo in primerom izračuna povsod, kjer se ljudem zatakne prav pri računanju.",
+    "filterLabel": "Filtriraj pojme",
+    "filterPlaceholder": "Iščite po slovarju",
+    "filterCount": "Prikazanih {{shown}} od {{total}} pojmov",
+    "definitionTitle": "Kaj je {{term}}?",
+    "mattersTitle": "Zakaj je to pomembno za vaše podjetje",
+    "faqTitle": "Pogosta vprašanja",
+    "relatedTerms": "Sorodni pojmi",
+    "seeAlso": "Glejte tudi",
+    "browseAll": "Prebrskajte vse pojme v slovarju",
+    "cat": {
+      "invoicing": "Računi in dokumenti",
+      "accounting": "Računovodstvo in knjigovodstvo",
+      "tax": "Davki in DDV",
+      "inventory": "Zaloge in stroški",
+      "metrics": "Finančni kazalniki"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Dokumenti za račune",
+    "eyebrow": "Prodajni dokumenti",
+    "sub": "Računi, ponudbe, ocene stroškov, dobavnice, dobropisi in drugi prodajni dokumenti. Ustvarite in pošljite jih brezplačno, v kateri koli valuti.",
+    "metaTitle": "Dokumenti za račune · Paper & Pen",
+    "metaDesc": "Ustvarite račune, ponudbe, ocene stroškov, dobavnice in dobropise na spletu, brezplačno in v kateri koli valuti. Pošljite prek WhatsApp ali e-pošte."
+  },
+  "featuresIndex": {
+    "title": "Funkcije ERP",
+    "eyebrow": "Kaj program počne",
+    "sub": "Računi, zaloge, računovodstvo, kadri in drugi moduli v Paper & Pen. Računi ostajajo brezplačni. Drugi moduli so izbirni.",
+    "metaTitle": "Funkcije ERP · Paper & Pen",
+    "metaDesc": "Oglejte si module Paper & Pen: brezplačni računi, zaloge, računovodstvo, kadri in več. Preberite, kaj vsak počne, preden ga vklopite."
+  },
+  "useCasesIndex": {
+    "title": "Za koga je Paper & Pen",
+    "eyebrow": "Primeri uporabe",
+    "sub": "Kako samostojni podjetniki, agencije, računovodje in mala podjetja uporabljajo isto brezplačno jedro za račune in katere dodatne module dodajo.",
+    "metaTitle": "Primeri uporabe ERP · Paper & Pen",
+    "metaDesc": "Oglejte si, kako samostojni podjetniki, agencije, računovodje in mala podjetja uporabljajo Paper & Pen in katere module vsak dejansko potrebuje."
+  },
+  "templatesIndex": {
+    "title": "Predloge računov po poklicih",
+    "eyebrow": "Brezplačne predloge",
+    "sub": "Kaj mora račun v vaši stroki dejansko prikazati, kako se takšno delo običajno vrednoti in kako priti do plačila brez izterjevanja. Sam račun ustvarite v brezplačnem generatorju, brez registracije."
+  },
+  "altIndex": {
+    "title": "Prehod z drugega računovodskega programa",
+    "eyebrow": "Vodniki za prehod",
+    "sub": "Kaj se prenese, kaj ne, smiseln trenutek prehoda v poslovnem letu in iskrena beseda o tem, komu je bolje ostati, kjer je."
+  },
+  "compareIndex": {
+    "title": "Primerjave programov ERP in za račune",
+    "eyebrow": "Primerjajte možnosti",
+    "sub": "Primerjave drug ob drugem za podjetja, ki izbirajo program za račune, računovodstvo ali ERP. Preglejte cene, jezike, valute, davčne nastavitve in to, v čem je vsaka možnost najboljša."
+  },
+  "industriesIndex": {
+    "title": "ERP in program za račune po panogah",
+    "eyebrow": "Narejeno okoli vašega dela",
+    "sub": "Raziščite praktične delovne procese za 15 panog, od trgovine in maloprodaje do zdravstva, izobraževanja, logistike in strokovnih storitev."
+  },
+  "vat": {
+    "factsEyebrow": "Številke",
+    "factsTitle": "DDV: {{country}} na kratko",
+    "colItem": "Postavka",
+    "colValue": "Vrednost",
+    "colDetail": "Podrobnosti in vir",
+    "fieldsTitle": "Kaj mora prikazati davčni račun: {{country}}",
+    "einvEyebrow": "E-računi",
+    "sourcesTitle": "Viri",
+    "sourcesNote": "Vsaka številka in seznam polj na tej strani sta vzeta iz spodaj povezanega dokumenta, ki ga je objavil davčni organ sam. Ne objavimo stopnje, praga ali roka, za katerega ne moremo pokazati vira.",
+    "authorityNote": "Davčna pravila se spreminjajo. Preden se zanesete na karkoli tukaj, preverite trenutno stanje pri "
+  },
+  "vatIndex": {
+    "title": "DDV in e-računi po državah",
+    "eyebrow": "Davčna pravila v Zalivu",
+    "sub": "Stopnje, pragovi za registracijo, kaj mora prikazati davčni račun in kje so e-računi dejansko, država za državo, s povezavo na besedilo davčnega organa za vsako številko.",
+    "whatIsVat": "Kaj je DDV?",
+    "whatIsEinv": "Kaj so e-računi?"
+  },
+  "legal": {
+    "englishOnly": "Ti pogoji so objavljeni samo v angleščini. Angleško besedilo je veljavna različica in noben prevod ni ponujen kot zavezujoč dokument. Če jih želite pregledati v drugem jeziku, nam pišite in pomagali vam bomo."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Modulov, ki jih lahko vklopite",
+      "db_v": "1",
+      "db_l": "Zasebna baza podatkov za vsak delovni prostor"
+    },
+    "ai": {
+      "eyebrow": "AI vgrajen",
+      "title": "AI, ki opravi dolgočasno delo",
+      "sub": "Paper & Pen AI dela z vašimi lastnimi zapisi. Odgovarja na vprašanja, bere e-pošto dobaviteljev in odgovarja strankam na WhatsApp. Vi potrdite tisto, kar je pomembno.",
+      "c1t": "Vprašajte svoje podjetje",
+      "c1d": "Vprašajte z navadnimi besedami, na primer \"kdo nam dolguje največ?\" Odgovor dobite iz svojih sprotnih podatkov.",
+      "c2t": "Magic Inbox",
+      "c2d": "Posredujte e-pošto dobavitelja. Paper & Pen prebere račun in pripravi osnutek knjiženja nabave, ki ga potrdite.",
+      "c3t": "Odgovori na WhatsApp",
+      "c3d": "Povežite svojo številko WhatsApp. AI odgovarja na vprašanja o cenah in naročilih ter pošilja ponudbe in račune.",
+      "note": "Moduli AI so izbirni dodatki.",
+      "mockTitle": "Vprašajte Paper & Pen",
+      "q": "Kdo nam dolguje največ denarja?",
+      "a": "Največ dolguje Harbour Point Ltd. Račun je zapadel:",
+      "overdue": "Zapadlo",
+      "input": "Postavite vprašanje"
+    },
+    "how": {
+      "eyebrow": "Od registracije do dela",
+      "title": "V uporabi danes, ne v naslednjem četrtletju",
+      "s1t": "Izberite ime delovnega prostora",
+      "s1d": "Izberite vasepodjetje.paperandpen.om. Brez kartice in brez prodajnega klica.",
+      "s2t": "Vklopite, kar potrebujete",
+      "s2d": "Začnite z brezplačnimi računi. Zaloge, kadre, računovodstvo ali AI dodajte, ko jih potrebujete.",
+      "s3t": "Pripeljite ekipo in podatke",
+      "s3d": "Uvozite stranke in izdelke iz preglednice, povabite ekipo in pošljite prvi račun."
+    },
+    "ind": {
+      "eyebrow": "Narejeno za vašo panogo",
+      "title": "Pripravljeno na to, kako dela vaše podjetje",
+      "sub": "Dokumenti, delovni procesi in poročila, nastavljeni za 15 panog.",
+      "all": "Oglejte si vse panoge"
+    },
+    "sec": {
+      "eyebrow": "Varnost",
+      "title": "Vaši podatki ostanejo vaši",
+      "i1t": "Zasebna baza podatkov",
+      "i1d": "Vsak delovni prostor deluje na svoji bazi podatkov. Brez skupnih tabel.",
+      "i2t": "Šifrirano",
+      "i2d": "TLS med prenosom in šifriranje v mirovanju.",
+      "i3t": "Redne varnostne kopije",
+      "i3d": "Vsak delovni prostor se samodejno varnostno kopira.",
+      "i4t": "Varna plačila",
+      "i4d": "Plačila s kartico potekajo prek Paymob, plačilnega prehoda PCI-DSS.",
+      "more": "Preberite o varnosti",
+      "intTitle": "Deluje z orodji, ki jih že uporabljate",
+      "int": [
+        "WhatsApp",
+        "E-pošta",
+        "Paymob",
+        "Thawani",
+        "Uvoz iz Excel in CSV",
+        "Aplikacija za Windows in macOS"
+      ]
+    }
+  }
+}

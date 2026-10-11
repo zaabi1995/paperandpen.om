@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Hoppa till huvudinnehållet",
+    "included": "Ingår",
+    "notIncluded": "Ingår inte"
+  },
+  "nav": {
+    "features": "Funktioner",
+    "solutions": "Lösningar",
+    "tools": "Gratis verktyg",
+    "pricing": "Priser",
+    "compare": "Jämför",
+    "login": "Logga in",
+    "startFree": "Kom igång gratis",
+    "glossary": "Ordlista",
+    "home": "Hem",
+    "templates": "Fakturamallar",
+    "alternatives": "Alternativ",
+    "resources": "Resurser",
+    "vat": "Moms per land"
+  },
+  "mega": {
+    "invoicing": "Fakturering",
+    "quotations": "Offerter och kostnadsförslag",
+    "inventory": "Lagerhantering",
+    "accounting": "Redovisning och bokföring",
+    "hr": "HR och lön",
+    "reports": "Rapporter och analys",
+    "trading": "Handelsföretag",
+    "retail": "Detaljhandel och butiker",
+    "restaurants": "Restauranger och kaféer",
+    "freelancers": "Frilansare",
+    "accountants": "Redovisningskonsulter",
+    "invoiceGen": "Gratis fakturagenerator",
+    "quotationGen": "Gratis offertgenerator",
+    "receiptGen": "Gratis kvittogenerator",
+    "vatCalc": "Momskalkylator för Oman",
+    "allFeatures": "Utforska alla funktioner",
+    "allTools": "Alla gratis verktyg",
+    "salescrm": "Försäljning och CRM",
+    "payments": "Betalningar",
+    "manufacturing": "Tillverkning",
+    "multilang": "Flera språk",
+    "contracting": "Entreprenad",
+    "manufacturingInd": "Tillverkning",
+    "wholesale": "Grossist och distribution",
+    "ecommerce": "E-handel",
+    "logistics": "Logistik och transport",
+    "estimateGen": "Gratis kostnadsförslag",
+    "allIndustries": "Alla branscher"
+  },
+  "sticky": {
+    "text": "Driv ditt företag gratis, för alltid."
+  },
+  "cta": {
+    "title": "Redo att driva ditt företag med Paper & Pen?",
+    "sub": "Skapa din gratis arbetsyta på under 5 minuter. Försäljning och fakturering är gratis för alltid, inget kreditkort krävs."
+  },
+  "proof": {
+    "builtInOman": "Byggt i Oman · används över hela världen",
+    "free": "Försäljning och fakturering gratis för alltid. Inget kort behövs.",
+    "languages": "5 språk, arabiska och urdu från höger till vänster"
+  },
+  "hero": {
+    "badge": "För företag överallt",
+    "tagline_line1": "Affärssystemet som talar",
+    "tagline_line2": "ditt språk.",
+    "sub": "Sköt försäljning, lager, HR och ekonomi i en molnplattform, på 5 språk och i valfri valuta.",
+    "cta": "Kom igång gratis",
+    "seeModules": "Se moduler",
+    "subdomainLabel": "Din arbetsytas adress",
+    "subdomainPlaceholder": "yourcompany",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "är ledig",
+    "taken_short": "är redan upptagen",
+    "checking": "Kontrollerar tillgänglighet...",
+    "subdomainError": "Det går inte att kontrollera tillgängligheten just nu. Du kan fortsätta ändå.",
+    "trialNote": "Gratis för alltid · Inget kreditkort · Lägg till moduler när du vill",
+    "card_title": "Dagens översikt",
+    "stat1_label": "Intäkter denna månad",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Obetalda fakturor",
+    "stat2_value": "12",
+    "stat3_label": "Personal lediga",
+    "stat3_value": "2",
+    "card_progress": "Månadsmål: 75 % uppnått",
+    "trust_count": "Byggt i Oman",
+    "trust_label": "för företag i Gulfstaterna"
+  },
+  "languages": {
+    "eyebrow": "Flera språk · Flera valutor",
+    "title": "Byggt för varje team, på varje marknad",
+    "sub": "Byt direkt mellan arabiska, engelska, hindi, bengali och urdu, och fakturera i valfri valuta. Dina data är desamma, bara gränssnittet ändras."
+  },
+  "modules": {
+    "eyebrow": "Modulärt från grunden",
+    "title": "Alla moduler ditt företag behöver",
+    "sub": "Börja med försäljning och fakturering och slå sedan på fler moduler när du växer, från CRM och HR till tillverkning, bank och AI. Ett system för hela företaget.",
+    "included": "Ingår",
+    "omrPerMonth": "OMR/mån",
+    "estimateLabel": "Din uppskattade kostnad",
+    "omr_mo": "OMR/mån",
+    "base_label": "Bas",
+    "addons_label": "tillägg",
+    "estimateNote": "Baserat på valda moduler. Användare faktureras separat.",
+    "startTrial": "Kom igång gratis",
+    "sales": {
+      "title": "Försäljning och CRM",
+      "desc": "Offerter, fakturor, kundpipeline, betalningsuppföljning och påminnelser."
+    },
+    "inventory": {
+      "title": "Lager",
+      "desc": "Följ lagersaldo, lagerplatser och beställningspunkter i realtid."
+    },
+    "hr": {
+      "title": "HR och lön",
+      "desc": "Närvaro, ledighetshantering, lön och personalportal."
+    },
+    "accounting": {
+      "title": "Redovisning",
+      "desc": "Dubbel bokföring, bankavstämning och momsdeklarationer."
+    },
+    "manufacturing": {
+      "title": "Tillverkning",
+      "desc": "Strukturlistor, arbetsordrar och produktionsplanering."
+    },
+    "reports": {
+      "title": "Rapporter och analys",
+      "desc": "Resultaträkning, kassaflöde, åldersanalys av kundfordringar och egna dashboards."
+    },
+    "pricePerMonth": "+{{price}} OMR/mån",
+    "ctaTitle": "Redo att driva ditt företag med Paper & Pen?",
+    "ctaSub": "Igång på några minuter. Slå på de moduler du behöver."
+  },
+  "pricing": {
+    "eyebrow": "Priser",
+    "title": "Enkla, ärliga priser",
+    "sub": "Börja gratis, försäljning och fakturering kostar aldrig något. Lägg till moduler när du växer.",
+    "monthly": "Månadsvis",
+    "annual": "Årsvis",
+    "perMonth": "/mån",
+    "perYear": "/år",
+    "annualSave": "Spara 20 %",
+    "startTrial": "Kom igång gratis",
+    "mostPopular": "Populärast",
+    "free_label": "Gratis",
+    "unlimited": "Obegränsat",
+    "users": "användare",
+    "buildYourOwn": "Sätt ihop din egen plan",
+    "trialNote": "Gratisplan för alltid · Inget kreditkort · Uppgradera när du vill",
+    "addModules": "Lägg till moduler",
+    "base": {
+      "title": "Försäljning och fakturering, gratis för alltid",
+      "desc": "Offerter, fakturor, betalningar, upp till 3 användare. Inget kreditkort behövs."
+    },
+    "free": {
+      "name": "Gratis",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Försäljning och fakturering, gratis för alltid",
+      "features": [
+        "Upp till 3 användare",
+        "Försäljning och fakturering",
+        "Offerter och betalningar",
+        "Grundläggande rapporter",
+        "Inget kreditkort behövs"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "För växande företag som behöver mer",
+      "features": [
+        "Upp till 20 användare",
+        "Allt i Gratis",
+        "Lagermodul",
+        "HR och lön",
+        "Flera valutor",
+        "WhatsApp-aviseringar",
+        "Prioriterad support"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "Komplett affärssystem för etablerade företag",
+      "features": [
+        "Obegränsat antal användare",
+        "Allt i Growth",
+        "Redovisning och banksynk",
+        "Tillverkning",
+        "Avancerad analys",
+        "API-åtkomst",
+        "Dedikerad support"
+      ]
+    },
+    "addons": {
+      "title": "Behöver du något särskilt?",
+      "subtitle": "Lägg till enskilda moduler i valfri plan. Betala bara för det du behöver.",
+      "whatsapp_name": "WhatsApp-aviseringar",
+      "whatsapp_desc": "{{price}} OMR/månad",
+      "extraUsers_name": "Extra användare",
+      "extraUsers_desc": "Från {{price}} OMR/användare/månad",
+      "extraStorage_name": "Extra lagring",
+      "extraStorage_desc": "{{price}} OMR per 5GB/månad"
+    },
+    "headLead": "Enkla, ärliga",
+    "headAccent": "priser",
+    "planWord": "Plan",
+    "billedMonthly": "Faktureras månadsvis",
+    "billedAnnually": "Faktureras årsvis",
+    "billingPeriod": "Faktureringsperiod",
+    "worldwideNote": "En global prislista, visad i omanska rial (OMR). Betala med kort var du än befinner dig i världen.",
+    "compareTitle": "Jämför alla funktioner i planerna",
+    "compareFeature": "Funktion",
+    "compareUsers": "Användare",
+    "compareGroupCore": "I alla planer",
+    "compareGroupAdded": "Tillkommer i {{plan}}",
+    "included": "Ingår",
+    "notIncluded": "Ingår inte",
+    "scrollHint": "Svep tabellen i sidled för att jämföra planerna",
+    "selectPlan": "Välj plan"
+  },
+  "compare": {
+    "eyebrow": "Varför Paper & Pen",
+    "title": "Så står vi oss",
+    "feature": "Funktion",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Fullt arabiskt RTL-gränssnitt",
+      "gcc_pricing": "Priser för Gulfstaterna (OMR/BHD/AED)",
+      "free_trial": "Gratisplan för alltid, inget kort",
+      "local_support": "Lokal support i Gulfstaterna",
+      "multi_lang": "Gränssnitt på 5 språk",
+      "paymob": "Paymob / lokal betalning",
+      "onboarding": "Kom igång själv på < 5 min"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Frågor",
+    "title": "Allt du behöver veta"
+  },
+  "related": {
+    "title": "Utforska mer",
+    "termsTitle": "Begrepp på den här sidan, förklarade",
+    "exploreTitle": "Utforska Paper & Pen"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | Gratis molnbaserat affärssystem och fakturering",
+    "homeDesc": "Gratis molnbaserat affärssystem och faktureringsprogram. Försäljning, lager, HR och redovisning på 5 språk och i valfri valuta. Fakturering gratis för alltid.",
+    "fiTitle": "Gratis faktureringsprogram online · Paper & Pen",
+    "fiDesc": "Skapa och skicka proffsiga fakturor med 1 klick. Gratis faktureringsprogram med moms/skatt, valfri valuta, offerter och kvitton. Gratis för alltid.",
+    "pricingTitle": "Priser · Paper & Pen",
+    "pricingDesc": "Enkla priser. Försäljning och fakturering gratis för alltid. Lägg till lager, HR, redovisning med mera när du växer. Inget kort. Spara 20 % årsvis.",
+    "faqTitle": "Vanliga frågor · Paper & Pen ERP",
+    "faqDesc": "Svar om Paper & Pen, det gratis molnbaserade affärssystemet och faktureringsprogrammet: priser, moms, arabiska, moduler, uppstart och mer.",
+    "toolsTitle": "Gratis affärsverktyg · Paper & Pen",
+    "toolsDesc": "Gratis affärsverktyg utan registrering: fakturagenerator, offerter, kvitton, inköpsordrar, följesedlar och en justerbar momskalkylator.",
+    "aboutTitle": "Om Paper & Pen · Gratis affärssystem i molnet, av BHD Group",
+    "aboutDesc": "Paper & Pen byggs i Oman av Paper and Pen Company LLC, en del av BHD Group. Ett gratis affärssystem i molnet för företag i hela världen, arabiska först.",
+    "contactTitle": "Kontakta Paper & Pen",
+    "contactDesc": "Hör av dig till Paper & Pen-teamet. WhatsApp +968 9889 9100 eller mejla oss.",
+    "securityTitle": "Säkerhet och dataskydd · Paper & Pen",
+    "securityDesc": "Så skyddar Paper & Pen dina affärsdata: kryptering, separat databas per kund, säkerhetskopior, behörighetsstyrning och PCI-DSS-betalningar via Paymob.",
+    "blogTitle": "Blogg · Paper & Pen ERP",
+    "signupTitle": "Skapa din gratis arbetsyta i Paper & Pen",
+    "signupDesc": "Skapa din gratis arbetsyta i Paper & Pen ERP på under 5 minuter. Försäljning och fakturering gratis för alltid.",
+    "loginTitle": "Logga in på Paper & Pen",
+    "loginDesc": "Logga in på din arbetsyta i Paper & Pen ERP.",
+    "glossaryTitle": "Ordlista för redovisning · Paper & Pen",
+    "glossaryDesc": "Enkla förklaringar av begrepp inom redovisning, fakturering, moms och lager som småföretag stöter på, med formler och räkneexempel.",
+    "templatesTitle": "Gratis fakturamallar per yrke · Paper & Pen",
+    "templatesDesc": "Fakturamallar och faktureringsråd för entreprenörer, konsulter, designers, hantverkare och tjänsteföretag. Vad som ska stå, hur du prissätter, hur du får betalt.",
+    "altTitle": "Alternativ till redovisningsprogram · Paper & Pen",
+    "altDesc": "Funderar du på att byta redovisningsprogram? Vad som följer med, vad som inte gör det, när du ska byta och vem som gör bäst i att stanna.",
+    "compareTitle": "Jämförelser av affärssystem och faktureringsprogram | Paper & Pen",
+    "compareDesc": "Jämför Paper & Pen med affärssystem, redovisnings- och faktureringsprogram när det gäller pris, språk, valutor, skatteinställningar, moduler och passform.",
+    "industriesTitle": "Affärssystem och fakturering per bransch | Paper & Pen",
+    "industriesDesc": "Se hur Paper & Pen stödjer fakturering, lager, redovisning och drift i 15 branscher, på fem språk och i valfri valuta.",
+    "vatTitle": "Moms och e-fakturering i Gulfstaterna per land · Paper & Pen",
+    "vatDesc": "Momssatser, registreringsgränser, krav på skattefakturor och läget för e-fakturering i Oman, Förenade Arabemiraten, Saudiarabien och Bahrain, med källor."
+  },
+  "toolsIndex": {
+    "title": "Gratis affärsverktyg",
+    "sub": "Ingen registrering, ingen kostnad. Skapa fakturor, offerter, kvitton och mer, klara att ladda ner som PDF, i valfri valuta med justerbar moms/skattesats."
+  },
+  "pages": {
+    "about": {
+      "title": "Byggt i Oman, för företagen i Gulfstaterna",
+      "lead": "Paper & Pen är det molnbaserade affärssystem vi önskade fanns: så enkelt att du kommer igång på fem minuter, så kraftfullt att det kan driva hela företaget, och byggt för hur affärer faktiskt fungerar i Oman och Gulfregionen.",
+      "body1": "Paper & Pen utvecklas av Paper and Pen Company LLC, en del av BHD Group i Muscat, Oman. Vi bygger mjukvara i Oman, av omanier, för företag i Gulfstaterna, med arabiska som förstaspråk, fakturering i OMR i själva kärnan och lokal betalning inbyggd.",
+      "body2": "Tusentals offerter, fakturor och betalningar går genom Paper & Pen. Försäljning och fakturering är gratis för alltid, eftersom varje företag förtjänar professionella verktyg. Du betalar bara när du växer in i lager, HR, redovisning eller tillverkning.",
+      "stat1": "Gratis för alltid",
+      "stat1l": "Försäljning och fakturering",
+      "stat2": "5",
+      "stat2l": "Språk",
+      "stat3": "< 5 min",
+      "stat3l": "För att komma igång",
+      "stat4": "OMR",
+      "stat4l": "Inbyggd fakturering"
+    },
+    "contact": {
+      "title": "Prata med oss",
+      "lead": "Frågor, demo, partnerskap, vi svarar snabbt. Snabbast når du oss på WhatsApp.",
+      "whatsapp": "Chatta på WhatsApp",
+      "email": "Mejla oss",
+      "hours": "Söndag–torsdag, 8:00–17:00 (GMT+4)"
+    },
+    "security": {
+      "title": "Dina data, skyddade",
+      "lead": "Säkerhet och integritet är inbyggt i Paper & Pen från grunden.",
+      "items": [
+        "Krypterat under överföring (TLS) och i vila",
+        "Egen databas per kund, dina data delas aldrig",
+        "Automatiska, regelbundna säkerhetskopior",
+        "Rollbaserad behörighet och granskningsloggar",
+        "Betalningar hanteras av Paymob, en PCI-DSS-certifierad betaltjänst",
+        "Drift på härdad infrastruktur med övervakning"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Paper & Pen-bloggen",
+    "sub": "Guider om fakturering, moms, redovisning och att driva företag i Oman och Gulfstaterna.",
+    "readMore": "Läs mer",
+    "empty": "Nya artiklar är på väg. Titta in snart igen.",
+    "backToBlog": "Alla artiklar"
+  },
+  "fi": {
+    "crumb": "Gratis faktureringsprogram",
+    "eyebrow": "Gratis fakturering online",
+    "title": "Gratis faktureringsprogram,<br/>för företag <em class=\"text-copper-400 not-italic\">överallt</em>",
+    "subtitle": "Skapa och skicka proffsiga, skatteklara fakturor med ett klick, i valfri valuta och på 5 språk. Offerter, kvitton, betalningspåminnelser och full redovisning. Gratis för alltid.",
+    "b1": "Gratis för alltid, inget kreditkort",
+    "b2": "Valfri valuta + justerbar moms/skatt",
+    "b3": "Skicka via WhatsApp eller e-post med 1 klick",
+    "tryTool": "Testa gratisgeneratorn",
+    "docsEyebrow": "En plattform, alla dokument",
+    "docsTitle": "Alla affärsdokument du behöver",
+    "docsSub": "Från första offerten till sista kvittot skapar Paper & Pen alla dokument ditt företag skickar, och håller dem sedan ordnade och avstämda automatiskt.",
+    "docs": {
+      "invoices": {
+        "t": "Proffsiga fakturor",
+        "d": "Anpassningsbara, momsklara fakturor med din logga, skickade på några sekunder."
+      },
+      "quotes": {
+        "t": "Offerter och kostnadsförslag",
+        "d": "Vinn uppdrag med offerter i din profil som blir fakturor med ett klick."
+      },
+      "proforma": {
+        "t": "Proformafakturor",
+        "d": "Utfärda proformafakturor för förskottsbetalningar och tull."
+      },
+      "receipts": {
+        "t": "Betalningskvitton",
+        "d": "Kvitton skapas automatiskt i samma stund som en betalning registreras."
+      },
+      "po": {
+        "t": "Inköpsordrar",
+        "d": "Skapa och följ upp inköpsordrar till dina leverantörer."
+      },
+      "delivery": {
+        "t": "Följesedlar",
+        "d": "Utfärda följesedlar kopplade till varje order."
+      },
+      "recurring": {
+        "t": "Återkommande fakturor",
+        "d": "Automatisera återkommande fakturering för abonnemang och löpande avtal."
+      },
+      "reminders": {
+        "t": "Betalningspåminnelser",
+        "d": "Automatiska, vänliga påminnelser så att du får betalt i tid."
+      },
+      "share": {
+        "t": "Dela via WhatsApp och e-post",
+        "d": "Dela vilket dokument som helst via WhatsApp eller e-post med ett tryck."
+      }
+    },
+    "s1": {
+      "eyebrow": "Få betalt snabbare",
+      "title": "Från offert till pengar, utan att jaga",
+      "body": "Gör om offerter till fakturor, dela via WhatsApp och låt automatiska påminnelser sköta uppföljningen. Se exakt vem som har öppnat och betalat.",
+      "i1": "1 klick: offert → faktura → kvitto",
+      "i2": "Automatiska betalningspåminnelser",
+      "i3": "Onlinebetalning via Paymob"
+    },
+    "s2": {
+      "eyebrow": "Regelrätt överallt",
+      "title": "Valfri valuta, valfri skattesats, vi sköter det",
+      "body": "Fakturera i valfri valuta, ange din egen moms- eller försäljningsskattesats och arbeta på arabiska eller engelska. Företag i Gulfstaterna får fakturering i OMR/AED/SAR, justerbar moms och lokal betalning direkt.",
+      "i1": "Justerbar moms/försäljningsskatt på nettobeloppet",
+      "i2": "Fakturamallar på arabiska och engelska",
+      "i3": "Deklarationer och skatterapporter inbyggda"
+    },
+    "cmpEyebrow": "Varför byta",
+    "cmpTitle": "Det gratis faktureringsprogrammet som är byggt för regionen",
+    "faq": {
+      "q1": "Är faktureringen verkligen gratis?",
+      "a1": "Ja. Fakturering, offerter och betalningsuppföljning är gratis för alltid för upp till 3 användare, utan kreditkort.",
+      "q2": "Hanterar det Omans moms på 5 %?",
+      "a2": "Ja. Momsen räknas automatiskt på nettobeloppet efter rabatt, och du kan ta fram fakturor och momsdeklarationer som uppfyller kraven.",
+      "q3": "Kan jag skicka fakturor på arabiska?",
+      "a3": "Ja. Fakturor, offerter och kvitton visas helt på arabiska (RTL) eller engelska, och du väljer per dokument.",
+      "q4": "Kan kunderna betala online?",
+      "a4": "Ja. Koppla in Paymob så kan kunderna betala fakturor online med kort. Betalningarna stäms av automatiskt."
+    }
+  },
+  "pricingFaq": {
+    "q1": "Är gratisplanen verkligen gratis för alltid?",
+    "a1": "Ja. Försäljning och fakturering är gratis för alltid för upp till 3 användare, utan kreditkort och utan slutdatum. Du betalar bara om du lägger till moduler som lager, HR eller redovisning.",
+    "q2": "Kan jag ändra eller säga upp moduler senare?",
+    "a2": "När som helst. Lägg till eller ta bort betalmoduler när du vill, faktureringen justeras automatiskt. Det finns inget bindande avtal.",
+    "q3": "Hur faktureras jag och i vilken valuta?",
+    "a3": "Faktureringen sker i omanska rial (OMR) med 3 decimaler, månadsvis eller årsvis (spara 20 % årsvis). Kortbetalningar hanteras säkert via Paymob."
+  },
+  "tool": {
+    "from": "Från",
+    "billTo": "Faktureras till",
+    "docNo": "Dokumentnr",
+    "date": "Datum",
+    "item": "Beskrivning",
+    "qty": "Antal",
+    "rate": "À-pris",
+    "amount": "Belopp",
+    "addLine": "Lägg till rad",
+    "subtotal": "Delsumma",
+    "vat": "Moms",
+    "total": "Totalt",
+    "notes": "Anteckningar",
+    "currency": "Valuta",
+    "applyVat": "Lägg på moms / skatt",
+    "print": "Ladda ner / skriv ut PDF",
+    "yourCompany": "Ditt Företag AB",
+    "clientName": "Kundens namn",
+    "signupCta": "Spara och hantera dina dokument i Paper & Pen",
+    "labels": {
+      "invoice": "FAKTURA",
+      "quotation": "OFFERT",
+      "proforma": "PROFORMAFAKTURA",
+      "receipt": "KVITTO",
+      "purchase-order": "INKÖPSORDER",
+      "delivery-note": "FÖLJESEDEL",
+      "estimate": "KOSTNADSFÖRSLAG",
+      "credit-note": "KREDITFAKTURA"
+    },
+    "vatCalc": {
+      "amount": "Belopp",
+      "mode": "Läge",
+      "addVat": "Lägg till 5 % moms",
+      "removeVat": "Räkna bort moms",
+      "net": "Nettobelopp",
+      "vat": "Moms",
+      "gross": "Brutto (inkl. moms)"
+    },
+    "tryFull": "Testa hela affärssystemet",
+    "builderTitle": "Skapa ditt dokument",
+    "featuresHeading": "Därför ska du använda det här gratisverktyget"
+  },
+  "homeFaq": {
+    "q1": "Är Paper & Pen verkligen gratis?",
+    "a1": "Ja. Modulen för försäljning och fakturering är gratis för alltid, utan kreditkort och utan tidsgräns. Du kan skapa offerter, fakturor och registrera betalningar för upp till 3 användare. Lägg till betalmoduler som lager, HR eller redovisning först när du behöver dem.",
+    "q2": "Fungerar Paper & Pen på arabiska?",
+    "a2": "Fullt ut. Hela gränssnittet finns på arabiska med korrekt layout från höger till vänster, liksom på engelska, hindi, bengali och urdu. Byt språk när du vill, dina data förblir exakt desamma.",
+    "q3": "Kan jag använda Paper & Pen utanför Gulfstaterna?",
+    "a3": "Ja. Paper & Pen byggs i Oman av Paper and Pen Company LLC (en del av BHD Group) men fungerar för företag var som helst. Fakturera i valfri valuta, ange din egen skattesats och arbeta på 5 språk. Företag i Gulfstaterna får dessutom fakturering i OMR/AED/SAR, lokal moms och betalning via Paymob direkt.",
+    "q4": "Hur lång tid tar det att komma igång?",
+    "a4": "Under 5 minuter. Välj namn på arbetsytan, bekräfta din e-post, välj moduler och börja fakturera. Ingen installation, ingen konsult, ingen startavgift."
+  },
+  "trust": {
+    "eyebrow": "Därför väljer företag oss",
+    "title": "Byggt i Oman. Betrott av företag världen över.",
+    "sub": "Arabiska först, flera valutor och skatteklart. Paper & Pen passar företag i Gulfstaterna och långt utanför, med den enkelhet och lokala support som större plattformar har glömt.",
+    "cta": "Skapa din gratis arbetsyta",
+    "stat1_value": "5",
+    "stat1_label": "Språk som stöds",
+    "stat2_value": "Gratis",
+    "stat2_label": "För alltid, inget kort",
+    "stat3_value": "RTL",
+    "stat3_label": "Arabiska och urdu stöds",
+    "stat4_value": "Valfri",
+    "stat4_label": "Valuta för fakturering"
+  },
+  "footer": {
+    "tagline": "Det gratis molnbaserade affärssystemet för växande företag överallt. Byggt i Oman.",
+    "product": "Produkt",
+    "tools": "Gratis verktyg",
+    "company": "Företaget",
+    "about": "Om oss",
+    "blog": "Blogg",
+    "security": "Säkerhet",
+    "freeInvoicing": "Gratis faktureringsprogram",
+    "legal": "Juridik",
+    "contact": "Kontakt",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Användarvillkor",
+    "privacy": "Integritetspolicy",
+    "status": "Alla system fungerar",
+    "rights": "© {{year}} Paper and Pen Company LLC. Med ensamrätt.",
+    "support": "Support",
+    "help": "Hjälpcenter",
+    "contactSupport": "Kontakta support",
+    "statusPage": "Driftstatus",
+    "resources": "Resurser",
+    "faq": "Vanliga frågor",
+    "invoices": "Fakturor"
+  },
+  "signup": {
+    "title": "Skapa din arbetsyta",
+    "step1": {
+      "title": "Vad heter ditt företag?",
+      "label": "Företagsnamn",
+      "placeholder": "Al Noor Trading AB",
+      "subdomainLabel": "Adressen till din arbetsyta blir",
+      "next": "Fortsätt",
+      "subtitle": "Det här blir din unika underdomän i affärssystemet.",
+      "workspaceUrlLabel": "Din arbetsytas adress:",
+      "available": "✓ Ledig",
+      "taken": "✗ Upptagen",
+      "checking": "kontrollerar..."
+    },
+    "step2": {
+      "title": "Din e-post",
+      "emailLabel": "E-postadress",
+      "password": "Lösenord",
+      "passwordHint": "Minst 8 tecken",
+      "language": "Önskat språk",
+      "currency": "Standardvaluta",
+      "next": "Fortsätt",
+      "subtitle": "Vi skickar en engångskod varje gång du loggar in. Inget lösenord att komma ihåg.",
+      "emailPlaceholder": "du@foretag.se",
+      "passwordLabel": "Lösenord",
+      "passwordPlaceholder": "Minst 8 tecken",
+      "back": "Tillbaka",
+      "emailHint": "Hit får du en 6-siffrig inloggningskod varje gång."
+    },
+    "step3": {
+      "title": "Välj dina moduler",
+      "next": "Fortsätt",
+      "trialNote": "14 dagars gratis provperiod, avsluta när du vill",
+      "subtitle": "Försäljning och fakturering är alltid gratis. Lägg till det du behöver.",
+      "baseTitle": "Försäljning och fakturering",
+      "baseSub": "Offerter, fakturor, betalningar · 3 användare",
+      "baseTag": "Gratis",
+      "workspaceLabel": "Arbetsyta",
+      "baseRow": "Bas (försäljning)",
+      "baseValue": "Gratis för alltid",
+      "addonsLabel": "Tilläggsmoduler",
+      "dueToday": "Att betala i dag",
+      "freeNote": "Gratis för alltid. Inget kreditkort. Lägg till moduler när du vill.",
+      "paidNote": "Efter 14 dagars provperiod: {{total}} OMR/månad. Kortet sparas säkert via Paymob (verifiering på 0.100 OMR, återbetalas direkt).",
+      "back": "Tillbaka",
+      "btnFree": "Skapa min arbetsyta",
+      "btnPaid": "Starta 14 dagars provperiod",
+      "btnLoading": "Skapar arbetsytan...",
+      "footerFree": "Inget kreditkort · Försäljning och fakturering gratis för alltid",
+      "footerPaid": "Kortet skyddas av Paymob · reservation på 0.100 OMR återbetalas direkt"
+    },
+    "step4": {
+      "title": "Förbereder din arbetsyta...",
+      "steps": [
+        "Skapar din databas",
+        "Konfigurerar moduler",
+        "Ställer in din domän",
+        "Nästan klart!"
+      ],
+      "redirect": "Skickar dig vidare till din arbetsyta..."
+    },
+    "progress": {
+      "workspace": "Arbetsyta",
+      "account": "Konto",
+      "modulesPayment": "Moduler och betalning"
+    },
+    "errors": {
+      "gateway": "Betaltjänstens adress var ogiltig. Kontakta support.",
+      "network": "Nätverksfel. Kontrollera din anslutning och försök igen.",
+      "generic": "Något gick fel. Försök igen.",
+      "companyRequired": "Ange ditt företagsnamn för att fortsätta. Det blir adressen till din arbetsyta.",
+      "companyLetters": "Namnet saknar bokstäver eller siffror att bygga en webbadress av. Lägg till minst en.",
+      "subdomainTaken": "Den adressen används redan. Lägg till ett ord för att göra den till din, till exempel din stad eller en förkortning av namnet.",
+      "subdomainChecking": "Vi kontrollerar fortfarande om adressen är ledig. Tryck på Fortsätt igen om en stund.",
+      "emailRequired": "Ange den e-postadress du vill logga in med. Dit skickas dina engångskoder.",
+      "emailInvalid": "Adressen saknar @ eller delen efter. Skriv den i sin helhet, till exempel du@foretag.se."
+    },
+    "rail": {
+      "cardLabel": "Kort som krävs i dag",
+      "cardValue": "Inget",
+      "dataLabel": "Dina data om du slutar",
+      "dataValue": "Dina att exportera",
+      "note": "Inget är inlåst. Slutar du betala för en modul ligger arbetsytan kvar på gratisplanen, med dina uppgifter precis där du lämnade dem."
+    },
+    "securedBy": "Skyddas av Paymob"
+  },
+  "login": {
+    "title": "Välkommen tillbaka",
+    "subtitle": "Logga in på din arbetsyta.",
+    "workspace": "Arbetsyta",
+    "workspaceError": "Ange namnet på din arbetsyta (t.ex. ”yourcompany”).",
+    "email": "E-post",
+    "emailLabel": "E-post",
+    "password": "Lösenord",
+    "submit": "Fortsätt till arbetsytan",
+    "otpNote": "Vi skickar en engångskod till din e-post. Inget lösenord behövs.",
+    "forgotPassword": "Glömt lösenordet?",
+    "noAccount": "Har du inget konto?",
+    "signUp": "Starta gratis provperiod"
+  },
+  "glossary": {
+    "title": "Ordlista för redovisning",
+    "eyebrow": "Förklaringar på vanlig svenska",
+    "sub": "{{count}} begrepp inom redovisning, fakturering och skatt förklarade på vanlig svenska, med formel och räkneexempel där det är just räkningen som folk fastnar på.",
+    "filterLabel": "Filtrera begrepp",
+    "filterPlaceholder": "Sök i ordlistan",
+    "filterCount": "Visar {{shown}} av {{total}} begrepp",
+    "definitionTitle": "Vad är {{term}}?",
+    "mattersTitle": "Därför spelar det roll för ditt företag",
+    "faqTitle": "Vanliga frågor",
+    "relatedTerms": "Relaterade begrepp",
+    "seeAlso": "Se även",
+    "browseAll": "Bläddra bland alla begrepp",
+    "cat": {
+      "invoicing": "Fakturering och dokument",
+      "accounting": "Redovisning och bokföring",
+      "tax": "Skatt och moms",
+      "inventory": "Lager och kalkyl",
+      "metrics": "Finansiella nyckeltal"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Faktureringsdokument",
+    "eyebrow": "Försäljningsdokument",
+    "sub": "Fakturor, offerter, kostnadsförslag, följesedlar, kreditfakturor och resten av försäljningsunderlaget. Skapa och skicka dem gratis, i valfri valuta.",
+    "metaTitle": "Faktureringsdokument · Paper & Pen",
+    "metaDesc": "Skapa fakturor, offerter, kostnadsförslag, följesedlar och kreditfakturor online, gratis, i valfri valuta. Skicka via WhatsApp eller e-post."
+  },
+  "featuresIndex": {
+    "title": "Funktioner i affärssystemet",
+    "eyebrow": "Vad programmet gör",
+    "sub": "Fakturering, lager, redovisning, HR och övriga moduler i Paper & Pen. Faktureringen är fortsatt gratis. Övriga moduler är valfria.",
+    "metaTitle": "Funktioner i affärssystemet · Paper & Pen",
+    "metaDesc": "Se modulerna i Paper & Pen: gratis fakturering, lager, redovisning, HR och mer. Läs vad varje modul gör innan du slår på den."
+  },
+  "useCasesIndex": {
+    "title": "Vem Paper & Pen är till för",
+    "eyebrow": "Användningsområden",
+    "sub": "Så använder frilansare, byråer, redovisningskonsulter och småföretag samma gratis faktureringskärna, och vilka tilläggsmoduler de väljer.",
+    "metaTitle": "Användningsområden för affärssystemet · Paper & Pen",
+    "metaDesc": "Se hur frilansare, byråer, redovisningskonsulter och småföretag använder Paper & Pen, och vilka moduler var och en faktiskt behöver."
+  },
+  "templatesIndex": {
+    "title": "Fakturamallar per yrke",
+    "eyebrow": "Gratis mallar",
+    "sub": "Vad en faktura faktiskt måste visa i din bransch, hur sådant arbete brukar prissättas och hur du får betalt utan att jaga. Skapa själva fakturan i gratisgeneratorn, utan registrering."
+  },
+  "altIndex": {
+    "title": "Byt från andra redovisningsprogram",
+    "eyebrow": "Flyttguider",
+    "sub": "Vad som följer med, vad som inte gör det, en rimlig tidpunkt att byta under räkenskapsåret och ett ärligt besked om vem som gör bäst i att stanna kvar."
+  },
+  "compareIndex": {
+    "title": "Jämförelser av affärssystem och faktureringsprogram",
+    "eyebrow": "Jämför dina alternativ",
+    "sub": "Jämförelser sida vid sida för företag som väljer fakturerings-, redovisnings- eller affärssystem. Granska priser, språk, valutor, skatteinställningar och vad varje alternativ gör bäst."
+  },
+  "industriesIndex": {
+    "title": "Affärssystem och fakturering per bransch",
+    "eyebrow": "Byggt kring ditt arbete",
+    "sub": "Utforska praktiska arbetsflöden för 15 branscher, från handel och detaljhandel till vård, utbildning, logistik och professionella tjänster."
+  },
+  "vat": {
+    "factsEyebrow": "Siffrorna",
+    "factsTitle": "Moms i {{country}}, i korthet",
+    "colItem": "Post",
+    "colValue": "Värde",
+    "colDetail": "Detaljer och källa",
+    "fieldsTitle": "Vad en skattefaktura i {{country}} måste innehålla",
+    "einvEyebrow": "E-fakturering",
+    "sourcesTitle": "Källor",
+    "sourcesNote": "Varje siffra och fältlista på sidan är hämtad från dokumentet som länkas nedan, publicerat av skattemyndigheten själv. Vi publicerar ingen skattesats, gräns eller tidsfrist som vi inte kan peka på.",
+    "authorityNote": "Skatteregler ändras. Innan du förlitar dig på något här, kontrollera det aktuella läget hos "
+  },
+  "vatIndex": {
+    "title": "Moms och e-fakturering per land",
+    "eyebrow": "Skatteregler i Gulfstaterna",
+    "sub": "Skattesatser, registreringsgränser, vad en skattefaktura måste innehålla och var e-faktureringen faktiskt står, ett land i taget, med länk till skattemyndighetens text bakom varje siffra.",
+    "whatIsVat": "Vad är moms?",
+    "whatIsEinv": "Vad är e-fakturering?"
+  },
+  "legal": {
+    "englishOnly": "Villkoren publiceras endast på engelska. Den engelska texten är den gällande versionen, och ingen översättning erbjuds som bindande dokument. Om du behöver gå igenom dem på ett annat språk kan du kontakta oss, så hjälper vi dig."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Moduler du kan slå på",
+      "db_v": "1",
+      "db_l": "Egen databas per arbetsyta"
+    },
+    "ai": {
+      "eyebrow": "AI, inbyggt",
+      "title": "AI som gör det tråkiga jobbet",
+      "sub": "Paper & Pens AI arbetar med dina egna uppgifter. Den svarar på frågor, läser leverantörsmejl och svarar kunder på WhatsApp. Du godkänner det som är viktigt.",
+      "c1t": "Fråga ditt företag",
+      "c1d": "Fråga med vanliga ord, till exempel \"vem är skyldig oss mest?\" Få svaret direkt från dina aktuella uppgifter.",
+      "c2t": "Magic Inbox",
+      "c2d": "Vidarebefordra ett leverantörsmejl. Paper & Pen läser fakturan och förbereder inköpsposten åt dig att godkänna.",
+      "c3t": "Svar på WhatsApp",
+      "c3d": "Koppla in ditt WhatsApp-nummer. AI svarar på frågor om pris och order och skickar offerter och fakturor.",
+      "note": "AI-modulerna är valfria tillägg.",
+      "mockTitle": "Fråga Paper & Pen",
+      "q": "Vem är skyldig oss mest pengar?",
+      "a": "Harbour Point Ltd är skyldig mest. Fakturan är förfallen:",
+      "overdue": "Förfallen",
+      "input": "Ställ en fråga"
+    },
+    "how": {
+      "eyebrow": "Från registrering till drift",
+      "title": "I gång i dag, inte nästa kvartal",
+      "s1t": "Välj namn på arbetsytan",
+      "s1d": "Välj yourcompany.paperandpen.om. Inget kort och inget säljsamtal.",
+      "s2t": "Slå på det du behöver",
+      "s2d": "Börja med gratis fakturering. Lägg till lager, HR, redovisning eller AI när du behöver det.",
+      "s3t": "Ta med team och data",
+      "s3d": "Importera kunder och produkter från ett kalkylark, bjud in teamet och skicka din första faktura."
+    },
+    "ind": {
+      "eyebrow": "Byggt för din bransch",
+      "title": "Redo för hur ditt företag fungerar",
+      "sub": "Dokument, arbetsflöden och rapporter förberedda för 15 branscher.",
+      "all": "Se alla branscher"
+    },
+    "sec": {
+      "eyebrow": "Säkerhet",
+      "title": "Dina data förblir dina",
+      "i1t": "Egen databas",
+      "i1d": "Varje arbetsyta har en egen databas. Inga delade tabeller.",
+      "i2t": "Krypterat",
+      "i2d": "TLS under överföring och kryptering i vila.",
+      "i3t": "Regelbundna säkerhetskopior",
+      "i3d": "Varje arbetsyta säkerhetskopieras automatiskt.",
+      "i4t": "Säkra betalningar",
+      "i4d": "Kortbetalningar går via Paymob, en PCI-DSS-certifierad betaltjänst.",
+      "more": "Läs om säkerhet",
+      "intTitle": "Fungerar med verktygen du redan använder",
+      "int": [
+        "WhatsApp",
+        "E-post",
+        "Paymob",
+        "Thawani",
+        "Import från Excel och CSV",
+        "App för Windows och macOS"
+      ]
+    }
+  }
+}

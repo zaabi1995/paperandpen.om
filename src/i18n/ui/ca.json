@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Ves al contingut principal",
+    "included": "Inclòs",
+    "notIncluded": "No inclòs"
+  },
+  "nav": {
+    "features": "Funcions",
+    "solutions": "Solucions",
+    "tools": "Eines gratuïtes",
+    "pricing": "Preus",
+    "compare": "Comparativa",
+    "login": "Inicia la sessió",
+    "startFree": "Comença gratis",
+    "glossary": "Glossari",
+    "home": "Inici",
+    "templates": "Plantilles de factura",
+    "alternatives": "Alternatives",
+    "resources": "Recursos",
+    "vat": "IVA per país"
+  },
+  "mega": {
+    "invoicing": "Facturació i cobrament",
+    "quotations": "Pressupostos i estimacions",
+    "inventory": "Gestió d'inventari",
+    "accounting": "Comptabilitat",
+    "hr": "RH i nòmines",
+    "reports": "Informes i analítica",
+    "trading": "Empreses comercials",
+    "retail": "Comerç i botigues",
+    "restaurants": "Restaurants i cafeteries",
+    "freelancers": "Autònoms",
+    "accountants": "Comptables",
+    "invoiceGen": "Generador de factures gratuït",
+    "quotationGen": "Generador de pressupostos gratuït",
+    "receiptGen": "Generador de rebuts gratuït",
+    "vatCalc": "Calculadora de l'IVA d'Oman",
+    "allFeatures": "Descobreix totes les funcions",
+    "allTools": "Totes les eines gratuïtes",
+    "salescrm": "Vendes i CRM",
+    "payments": "Pagaments",
+    "manufacturing": "Producció",
+    "multilang": "Multilingüe",
+    "contracting": "Construcció i obres",
+    "manufacturingInd": "Indústria",
+    "wholesale": "Majorista i distribució",
+    "ecommerce": "Comerç electrònic",
+    "logistics": "Logística i transport",
+    "estimateGen": "Creador d'estimacions gratuït",
+    "allIndustries": "Tots els sectors"
+  },
+  "sticky": {
+    "text": "Gestiona el teu negoci gratis, per sempre."
+  },
+  "cta": {
+    "title": "A punt per gestionar el teu negoci amb Paper & Pen?",
+    "sub": "Crea el teu espai de treball gratuït en menys de 5 minuts. Vendes i Facturació és gratis per sempre, sense targeta de crèdit."
+  },
+  "proof": {
+    "builtInOman": "Creat a Oman · utilitzat arreu del món",
+    "free": "Vendes i Facturació gratis per sempre. Sense targeta.",
+    "languages": "5 idiomes, àrab i urdú de dreta a esquerra"
+  },
+  "hero": {
+    "badge": "Per a empreses de tot arreu",
+    "tagline_line1": "L'ERP que parla",
+    "tagline_line2": "el teu idioma.",
+    "sub": "Gestiona vendes, inventari, RH i finances des d'una sola plataforma al núvol, en 5 idiomes i en qualsevol moneda.",
+    "cta": "Comença gratis",
+    "seeModules": "Mira els mòduls",
+    "subdomainLabel": "L'URL del teu espai de treball",
+    "subdomainPlaceholder": "yourcompany",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "està disponible",
+    "taken_short": "ja està agafat",
+    "checking": "Comprovant la disponibilitat...",
+    "subdomainError": "Ara mateix no podem comprovar la disponibilitat. Pots continuar igualment.",
+    "trialNote": "Gratis per sempre · Sense targeta de crèdit · Afegeix mòduls quan vulguis",
+    "card_title": "Resum d'avui",
+    "stat1_label": "Ingressos d'aquest mes",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Factures pendents",
+    "stat2_value": "12",
+    "stat3_label": "Personal de permís",
+    "stat3_value": "2",
+    "card_progress": "Objectiu mensual: 75% assolit",
+    "trust_count": "Creat a Oman",
+    "trust_label": "per a empreses del GCC"
+  },
+  "languages": {
+    "eyebrow": "Multilingüe · Multimoneda",
+    "title": "Fet per a cada equip, a cada mercat",
+    "sub": "Canvia a l'instant entre àrab, anglès, hindi, bengalí i urdú, i factura en qualsevol moneda. Les teves dades no canvien, només canvia la interfície."
+  },
+  "modules": {
+    "eyebrow": "Modular per disseny",
+    "title": "Tots els mòduls que el teu negoci necessita",
+    "sub": "Comença amb Vendes i Facturació i activa mòduls a mesura que creixes, del CRM i RH a la producció, la banca i la IA. Un sol sistema per a tota l'empresa.",
+    "included": "Inclòs",
+    "omrPerMonth": "OMR/mes",
+    "estimateLabel": "El teu cost estimat",
+    "omr_mo": "OMR/mes",
+    "base_label": "Base",
+    "addons_label": "complements",
+    "estimateNote": "Segons els mòduls seleccionats. Els usuaris es facturen a part.",
+    "startTrial": "Comença gratis",
+    "sales": {
+      "title": "Vendes i CRM",
+      "desc": "Pressupostos, factures, embut de clients, seguiment de cobraments i recordatoris."
+    },
+    "inventory": {
+      "title": "Inventari",
+      "desc": "Controla l'estoc, les ubicacions i els nivells de reposició en temps real."
+    },
+    "hr": {
+      "title": "RH i nòmines",
+      "desc": "Assistència, gestió de permisos, nòmines i portal de l'empleat."
+    },
+    "accounting": {
+      "title": "Comptabilitat",
+      "desc": "Llibre major de partida doble, conciliació bancària i declaracions d'IVA."
+    },
+    "manufacturing": {
+      "title": "Producció",
+      "desc": "Llistes de materials, ordres de treball i planificació de la producció."
+    },
+    "reports": {
+      "title": "Informes i analítica",
+      "desc": "Compte de resultats, flux de caixa, antiguitat de cobraments i taulers personalitzats."
+    },
+    "pricePerMonth": "+{{price}} OMR/mes",
+    "ctaTitle": "A punt per gestionar el teu negoci amb Paper & Pen?",
+    "ctaSub": "Configura-ho en minuts. Activa els mòduls que necessitis."
+  },
+  "pricing": {
+    "eyebrow": "Preus",
+    "title": "Preus senzills i honestos",
+    "sub": "Comença gratis: Vendes i Facturació sense cost per sempre. Afegeix mòduls a mesura que creixes.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "perMonth": "/mes",
+    "perYear": "/any",
+    "annualSave": "Estalvia un 20%",
+    "startTrial": "Comença gratis",
+    "mostPopular": "El més popular",
+    "free_label": "Gratis",
+    "unlimited": "Il·limitat",
+    "users": "usuaris",
+    "buildYourOwn": "Crea el teu propi pla",
+    "trialNote": "Pla gratuït per sempre · Sense targeta de crèdit · Millora el pla quan vulguis",
+    "addModules": "Afegeix mòduls",
+    "base": {
+      "title": "Vendes i Facturació, gratis per sempre",
+      "desc": "Pressupostos, factures, cobraments, fins a 3 usuaris. Sense targeta de crèdit."
+    },
+    "free": {
+      "name": "Gratuït",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Vendes i Facturació, gratis per sempre",
+      "features": [
+        "Fins a 3 usuaris",
+        "Vendes i facturació",
+        "Pressupostos i cobraments",
+        "Informes bàsics",
+        "Sense targeta de crèdit"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "Per a empreses en creixement que necessiten més",
+      "features": [
+        "Fins a 20 usuaris",
+        "Tot el que inclou Gratuït",
+        "Mòdul d'inventari",
+        "RH i nòmines",
+        "Multimoneda",
+        "Notificacions per WhatsApp",
+        "Suport prioritari"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "ERP complet per a empreses consolidades",
+      "features": [
+        "Usuaris il·limitats",
+        "Tot el que inclou Growth",
+        "Comptabilitat i sincronització bancària",
+        "Producció",
+        "Analítica avançada",
+        "Accés a l'API",
+        "Suport dedicat"
+      ]
+    },
+    "addons": {
+      "title": "Necessites alguna cosa concreta?",
+      "subtitle": "Afegeix mòduls individuals a qualsevol pla. Paga només pel que necessites.",
+      "whatsapp_name": "Notificacions per WhatsApp",
+      "whatsapp_desc": "{{price}} OMR al mes",
+      "extraUsers_name": "Usuaris addicionals",
+      "extraUsers_desc": "Des de {{price}} OMR per usuari al mes",
+      "extraStorage_name": "Emmagatzematge addicional",
+      "extraStorage_desc": "{{price}} OMR per cada 5 GB al mes"
+    },
+    "headLead": "Preus senzills",
+    "headAccent": "i honestos",
+    "planWord": "Pla",
+    "billedMonthly": "Facturació mensual",
+    "billedAnnually": "Facturació anual",
+    "billingPeriod": "Període de facturació",
+    "worldwideNote": "Una sola tarifa per a tot el món, en rials omanites (OMR). Paga amb targeta des de qualsevol lloc del món.",
+    "compareTitle": "Compara totes les funcions dels plans",
+    "compareFeature": "Funció",
+    "compareUsers": "Usuaris",
+    "compareGroupCore": "En tots els plans",
+    "compareGroupAdded": "Afegit a {{plan}}",
+    "included": "Inclòs",
+    "notIncluded": "No inclòs",
+    "scrollHint": "Fes lliscar la taula de costat per comparar els plans",
+    "selectPlan": "Tria el pla"
+  },
+  "compare": {
+    "eyebrow": "Per què Paper & Pen",
+    "title": "Com ens comparem",
+    "feature": "Funció",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Interfície completa en àrab (RTL)",
+      "gcc_pricing": "Preus per al GCC (OMR/BHD/AED)",
+      "free_trial": "Pla gratuït per sempre, sense targeta",
+      "local_support": "Suport local al GCC",
+      "multi_lang": "Interfície en 5 idiomes",
+      "paymob": "Paymob / pagament local",
+      "onboarding": "Alta autònoma en < 5 min"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Preguntes",
+    "title": "Tot el que has de saber"
+  },
+  "related": {
+    "title": "Descobreix-ne més",
+    "termsTitle": "Els termes d'aquesta pàgina, explicats",
+    "exploreTitle": "Descobreix Paper & Pen"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | ERP al núvol i programari de facturació gratuïts",
+    "homeDesc": "ERP al núvol i programari de facturació gratuïts. Vendes, inventari, RH i comptabilitat en 5 idiomes i qualsevol moneda. Vendes i Facturació, gratis per sempre.",
+    "fiTitle": "Programari de facturació en línia gratuït · Paper & Pen",
+    "fiDesc": "Crea i envia factures professionals amb 1 clic. Facturació en línia gratuïta amb IVA o impostos, qualsevol moneda, pressupostos i rebuts. Gratis per sempre.",
+    "pricingTitle": "Preus · Paper & Pen",
+    "pricingDesc": "Preus senzills. Vendes i Facturació gratis per sempre. Afegeix inventari, RH, comptabilitat i més quan creixis. Sense targeta. Estalvia un 20% a l'any.",
+    "faqTitle": "Preguntes freqüents · Paper & Pen ERP",
+    "faqDesc": "Respostes sobre Paper & Pen, l'ERP al núvol i programari de facturació gratuït: preus, IVA, àrab, mòduls, configuració i més.",
+    "toolsTitle": "Eines empresarials gratuïtes · Paper & Pen",
+    "toolsDesc": "Eines gratuïtes sense registre: generador de factures, pressupostos i rebuts, ordres de compra, albarans i una calculadora d'IVA configurable.",
+    "aboutTitle": "Qui som · Paper & Pen, ERP al núvol gratuït, de BHD Group",
+    "aboutDesc": "Paper & Pen el crea a Oman Paper and Pen Company LLC, de BHD Group. Un ERP al núvol gratuït per a empreses de tot el món, amb l'àrab primer i multimoneda.",
+    "contactTitle": "Contacta amb Paper & Pen",
+    "contactDesc": "Posa't en contacte amb l'equip de Paper & Pen. WhatsApp +968 9889 9100 o envia'ns un correu.",
+    "securityTitle": "Seguretat i protecció de dades · Paper & Pen",
+    "securityDesc": "Com protegeix Paper & Pen les dades del teu negoci: xifratge, aïllament per client, còpies de seguretat, control d'accés i pagaments PCI-DSS amb Paymob.",
+    "blogTitle": "Blog · Paper & Pen ERP",
+    "signupTitle": "Crea el teu espai de treball gratuït a Paper & Pen",
+    "signupDesc": "Configura el teu espai de treball gratuït de Paper & Pen ERP en menys de 5 minuts. Vendes i Facturació, gratis per sempre.",
+    "loginTitle": "Inicia la sessió a Paper & Pen",
+    "loginDesc": "Accedeix al teu espai de treball de Paper & Pen ERP.",
+    "glossaryTitle": "Glossari de comptabilitat · Paper & Pen",
+    "glossaryDesc": "Definicions clares dels termes de comptabilitat, facturació, IVA i inventari que troben les petites empreses, amb fórmules i exemples resolts.",
+    "templatesTitle": "Plantilles de factura gratuïtes per professió · Paper & Pen",
+    "templatesDesc": "Plantilles de factura i consells de cobrament per a contractistes, consultors, dissenyadors, oficis i serveis. Què mostrar, com fixar preus, com cobrar.",
+    "altTitle": "Alternatives al programari de comptabilitat · Paper & Pen",
+    "altDesc": "Penses canviar de programari de comptabilitat? Què es traspassa, què no, quan fer el canvi i a qui li convé quedar-se on és.",
+    "compareTitle": "Comparatives de programari ERP i de facturació | Paper & Pen",
+    "compareDesc": "Compara Paper & Pen amb programari ERP, de comptabilitat i de facturació: preus, idiomes, monedes, impostos, mòduls i encaix pràctic.",
+    "industriesTitle": "Programari ERP i de facturació per sectors | Paper & Pen",
+    "industriesDesc": "Descobreix com Paper & Pen dona suport a la facturació, l'inventari, la comptabilitat i les operacions en 15 sectors, en cinc idiomes i qualsevol moneda.",
+    "vatTitle": "IVA i factura electrònica als països del GCC · Paper & Pen",
+    "vatDesc": "Tipus d'IVA, llindars de registre, requisits de la factura i estat de la factura electrònica a Oman, els EAU, l'Aràbia Saudita i Bahrain, amb fonts citades."
+  },
+  "toolsIndex": {
+    "title": "Eines empresarials gratuïtes",
+    "sub": "Sense registre i sense cost. Genera factures, pressupostos, rebuts i més, a punt per descarregar en PDF, en qualsevol moneda i amb un tipus d'IVA o impost configurable."
+  },
+  "pages": {
+    "about": {
+      "title": "Creat a Oman, per a les empreses del GCC",
+      "lead": "Paper & Pen és l'ERP al núvol que ens hauria agradat tenir: prou senzill per començar en cinc minuts, prou potent per gestionar tota l'empresa i, per fi, pensat per a com funcionen de debò els negocis a Oman i al Golf.",
+      "body1": "Paper & Pen el crea Paper and Pen Company LLC, part de BHD Group a Mascat, Oman. Fem programari a Oman, des d'Oman, per a empreses del GCC, amb l'àrab com a idioma de primer nivell, la facturació en OMR integrada al nucli i el pagament local inclòs.",
+      "body2": "Milers de pressupostos, factures i cobraments passen per Paper & Pen. Vendes i Facturació és gratis per sempre perquè tota empresa mereix eines professionals, i només pagues quan necessites inventari, RH, comptabilitat o producció.",
+      "stat1": "Gratis per sempre",
+      "stat1l": "Vendes i Facturació",
+      "stat2": "5",
+      "stat2l": "Idiomes",
+      "stat3": "< 5 min",
+      "stat3l": "Per començar",
+      "stat4": "OMR",
+      "stat4l": "Facturació nativa"
+    },
+    "contact": {
+      "title": "Parla amb nosaltres",
+      "lead": "Preguntes, demostracions, col·laboracions: responem de pressa. La via més ràpida és WhatsApp.",
+      "whatsapp": "Escriu-nos per WhatsApp",
+      "email": "Envia'ns un correu",
+      "hours": "De diumenge a dijous, 8:00–17:00 (GMT+4)"
+    },
+    "security": {
+      "title": "Les teves dades, protegides",
+      "lead": "La seguretat i la privadesa formen part de Paper & Pen des de la base.",
+      "items": [
+        "Xifrades en trànsit (TLS) i en repòs",
+        "Base de dades aïllada per a cada client, les teves dades mai es comparteixen",
+        "Còpies de seguretat automàtiques i periòdiques",
+        "Control d'accés per rols i registres d'auditoria",
+        "Pagaments gestionats per Paymob, una passarel·la que compleix PCI-DSS",
+        "Allotjat en una infraestructura reforçada i supervisada"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog de Paper & Pen",
+    "sub": "Guies sobre facturació, IVA, comptabilitat i com gestionar un negoci a Oman i al GCC.",
+    "readMore": "Llegeix-ne més",
+    "empty": "Aviat hi haurà articles nous. Torna-hi d'aquí a poc.",
+    "backToBlog": "Tots els articles"
+  },
+  "fi": {
+    "crumb": "Programari de facturació gratuït",
+    "eyebrow": "Facturació en línia gratuïta",
+    "title": "Programari de facturació gratuït,<br/>per a empreses <em class=\"text-copper-400 not-italic\">de tot arreu</em>",
+    "subtitle": "Crea i envia factures professionals i a punt per als impostos amb un clic, en qualsevol moneda i en 5 idiomes. Pressupostos, rebuts, recordatoris de pagament i comptabilitat completa. Gratis per sempre.",
+    "b1": "Gratis per sempre, sense targeta de crèdit",
+    "b2": "Qualsevol moneda + IVA o impost configurable",
+    "b3": "Envia per WhatsApp o correu amb 1 clic",
+    "tryTool": "Prova el generador gratuït",
+    "docsEyebrow": "Una plataforma, tots els documents",
+    "docsTitle": "Tots els documents que el teu negoci necessita",
+    "docsSub": "Del primer pressupost a l'últim rebut, Paper & Pen crea tots els documents que envia el teu negoci i els manté ordenats i conciliats automàticament.",
+    "docs": {
+      "invoices": {
+        "t": "Factures professionals",
+        "d": "Factures personalitzables i a punt per a l'IVA, amb el teu logotip, enviades en segons."
+      },
+      "quotes": {
+        "t": "Pressupostos i estimacions",
+        "d": "Guanya feina amb pressupostos amb la teva marca que es converteixen en factura amb un clic."
+      },
+      "proforma": {
+        "t": "Factures proforma",
+        "d": "Emet factures proforma per a pagaments avançats i duanes."
+      },
+      "receipts": {
+        "t": "Rebuts de pagament",
+        "d": "Genera rebuts automàticament en el moment que es registra un pagament."
+      },
+      "po": {
+        "t": "Ordres de compra",
+        "d": "Emet i segueix les ordres de compra als teus proveïdors."
+      },
+      "delivery": {
+        "t": "Albarans",
+        "d": "Emet albarans d'entrega vinculats a cada comanda."
+      },
+      "recurring": {
+        "t": "Factures recurrents",
+        "d": "Automatitza la facturació periòdica de subscripcions i quotes fixes."
+      },
+      "reminders": {
+        "t": "Recordatoris de pagament",
+        "d": "Recordatoris automàtics i amables perquè cobris a temps."
+      },
+      "share": {
+        "t": "Enviament per WhatsApp i correu",
+        "d": "Comparteix qualsevol document per WhatsApp o correu amb un toc."
+      }
+    },
+    "s1": {
+      "eyebrow": "Cobra més de pressa",
+      "title": "Del pressupost al cobrament, sense perseguir ningú",
+      "body": "Converteix pressupostos en factures, comparteix-los per WhatsApp i deixa que els recordatoris automàtics facin el seguiment. Mira exactament qui ho ha vist i qui ha pagat.",
+      "i1": "1 clic: pressupost → factura → rebut",
+      "i2": "Recordatoris de pagament automàtics",
+      "i3": "Pagament en línia amb Paymob"
+    },
+    "s2": {
+      "eyebrow": "Compleix la normativa a tot arreu",
+      "title": "Qualsevol moneda, qualsevol tipus d'impost, tot resolt",
+      "body": "Factura en qualsevol moneda, fixa el teu propi tipus d'IVA o d'impost sobre vendes i treballa en àrab o anglès. Les empreses del GCC tenen facturació nativa en OMR/AED/SAR, IVA configurable i pagament local des del primer dia.",
+      "i1": "IVA o impost sobre vendes configurable sobre el net",
+      "i2": "Plantilles de factura en àrab i anglès",
+      "i3": "Declaracions d'impostos i informes integrats"
+    },
+    "cmpEyebrow": "Per què canviar",
+    "cmpTitle": "El programari de facturació gratuït fet per a aquí",
+    "faq": {
+      "q1": "La facturació és realment gratuïta?",
+      "a1": "Sí. La facturació, els pressupostos i el seguiment de cobraments són gratis per sempre per a fins a 3 usuaris, sense targeta de crèdit.",
+      "q2": "Gestiona l'IVA del 5% d'Oman?",
+      "a2": "Sí. L'IVA es calcula automàticament sobre el net després del descompte, i pots emetre factures i declaracions que compleixen la normativa de l'IVA.",
+      "q3": "Puc enviar factures en àrab?",
+      "a3": "Sí. Les factures, els pressupostos i els rebuts es mostren completament en àrab (RTL) o en anglès, i pots triar per a cada document.",
+      "q4": "Els clients poden pagar en línia?",
+      "a4": "Sí. Connecta Paymob i els clients podran pagar les factures en línia amb targeta. Els pagaments es concilien automàticament."
+    }
+  },
+  "pricingFaq": {
+    "q1": "El pla gratuït és realment gratis per sempre?",
+    "a1": "Sí. Vendes i Facturació és gratis per sempre per a fins a 3 usuaris, sense targeta de crèdit i sense caducitat. Només pagues si afegeixes mòduls com Inventari, RH o Comptabilitat.",
+    "q2": "Puc canviar o cancel·lar mòduls més endavant?",
+    "a2": "Quan vulguis. Afegeix o treu mòduls de pagament sempre que vulguis i la facturació s'ajusta automàticament. No hi ha cap contracte de permanència.",
+    "q3": "Com es factura i en quina moneda?",
+    "a3": "La facturació és en rials omanites (OMR) amb 3 decimals, mensual o anual (amb un 20% d'estalvi l'anual). Els pagaments amb targeta es processen de manera segura amb Paymob."
+  },
+  "tool": {
+    "from": "De",
+    "billTo": "Facturar a",
+    "docNo": "Núm. de document",
+    "date": "Data",
+    "item": "Descripció",
+    "qty": "Quant.",
+    "rate": "Preu",
+    "amount": "Import",
+    "addLine": "Afegeix una línia",
+    "subtotal": "Subtotal",
+    "vat": "IVA",
+    "total": "Total",
+    "notes": "Notes",
+    "currency": "Moneda",
+    "applyVat": "Aplica IVA / impost",
+    "print": "Descarrega / imprimeix el PDF",
+    "yourCompany": "La teva empresa, SL",
+    "clientName": "Nom del client",
+    "signupCta": "Desa i gestiona els teus documents a Paper & Pen",
+    "labels": {
+      "invoice": "FACTURA",
+      "quotation": "PRESSUPOST",
+      "proforma": "FACTURA PROFORMA",
+      "receipt": "REBUT",
+      "purchase-order": "ORDRE DE COMPRA",
+      "delivery-note": "ALBARÀ",
+      "estimate": "ESTIMACIÓ",
+      "credit-note": "FACTURA RECTIFICATIVA"
+    },
+    "vatCalc": {
+      "amount": "Import",
+      "mode": "Mode",
+      "addVat": "Afegeix un 5% d'IVA",
+      "removeVat": "Treu l'IVA",
+      "net": "Import net",
+      "vat": "IVA",
+      "gross": "Brut (IVA inclòs)"
+    },
+    "tryFull": "Prova l'ERP complet",
+    "builderTitle": "Crea el teu document",
+    "featuresHeading": "Per què fer servir aquesta eina gratuïta"
+  },
+  "homeFaq": {
+    "q1": "Paper & Pen és realment gratuït?",
+    "a1": "Sí. El mòdul de Vendes i Facturació és gratis per sempre, sense targeta de crèdit i sense límit de temps. Pots crear pressupostos i factures i registrar cobraments per a fins a 3 usuaris. Afegeix mòduls de pagament com Inventari, RH o Comptabilitat només quan els necessitis.",
+    "q2": "Paper & Pen funciona en àrab?",
+    "a2": "Completament. Tota la interfície està disponible en àrab amb disposició correcta de dreta a esquerra, a més d'anglès, hindi, bengalí i urdú. Canvia d'idioma quan vulguis: les teves dades es mantenen exactament igual.",
+    "q3": "Puc fer servir Paper & Pen fora del GCC?",
+    "a3": "Sí. Paper & Pen el crea a Oman Paper and Pen Company LLC (part de BHD Group), però funciona per a empreses de qualsevol lloc. Factura en qualsevol moneda, fixa el teu propi tipus d'impost i treballa en 5 idiomes. Les empreses del GCC també tenen facturació nativa en OMR/AED/SAR, IVA local i pagaments amb Paymob des del primer dia.",
+    "q4": "Quant de temps es triga a configurar?",
+    "a4": "Menys de 5 minuts. Tria el nom del teu espai de treball, confirma el correu, escull els mòduls i ja pots facturar. Sense instal·lació, sense consultors i sense cost d'alta."
+  },
+  "trust": {
+    "eyebrow": "Per què ens trien les empreses",
+    "title": "Creat a Oman. Empreses de tot el món hi confien.",
+    "sub": "Amb l'àrab primer, multimoneda i a punt per als impostos, Paper & Pen s'adapta a empreses del GCC i de molt més enllà, amb la senzillesa i el suport proper que les grans plataformes han oblidat.",
+    "cta": "Crea el teu espai de treball gratuït",
+    "stat1_value": "5",
+    "stat1_label": "Idiomes disponibles",
+    "stat2_value": "Gratis",
+    "stat2_label": "Per sempre, sense targeta",
+    "stat3_value": "RTL",
+    "stat3_label": "Àrab i urdú inclosos",
+    "stat4_value": "Qualsevol",
+    "stat4_label": "Moneda de facturació"
+  },
+  "footer": {
+    "tagline": "L'ERP al núvol gratuït per a empreses que creixen, arreu del món. Creat a Oman.",
+    "product": "Producte",
+    "tools": "Eines gratuïtes",
+    "company": "Empresa",
+    "about": "Qui som",
+    "blog": "Blog",
+    "security": "Seguretat",
+    "freeInvoicing": "Programari de facturació gratuït",
+    "legal": "Avís legal",
+    "contact": "Contacte",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Condicions del servei",
+    "privacy": "Política de privadesa",
+    "status": "Tots els sistemes funcionen",
+    "rights": "© {{year}} Paper and Pen Company LLC. Tots els drets reservats.",
+    "support": "Suport",
+    "help": "Centre d'ajuda",
+    "contactSupport": "Contacta amb el suport",
+    "statusPage": "Estat del servei",
+    "resources": "Recursos",
+    "faq": "Preguntes freqüents",
+    "invoices": "Factures"
+  },
+  "signup": {
+    "title": "Crea el teu espai de treball",
+    "step1": {
+      "title": "Com es diu la teva empresa?",
+      "label": "Nom de l'empresa",
+      "placeholder": "Al Noor Trading LLC",
+      "subdomainLabel": "L'URL del teu espai de treball serà",
+      "next": "Continua",
+      "subtitle": "Aquest serà el teu subdomini ERP únic.",
+      "workspaceUrlLabel": "L'URL del teu espai de treball:",
+      "available": "✓ Disponible",
+      "taken": "✗ Agafat",
+      "checking": "comprovant..."
+    },
+    "step2": {
+      "title": "El teu correu",
+      "emailLabel": "Adreça de correu electrònic",
+      "password": "Contrasenya",
+      "passwordHint": "Com a mínim 8 caràcters",
+      "language": "Idioma preferit",
+      "currency": "Moneda predeterminada",
+      "next": "Continua",
+      "subtitle": "Cada vegada que iniciïs la sessió t'enviarem un codi d'un sol ús. Cap contrasenya per recordar.",
+      "emailPlaceholder": "you@company.com",
+      "passwordLabel": "Contrasenya",
+      "passwordPlaceholder": "Mín. 8 caràcters",
+      "back": "Enrere",
+      "emailHint": "Aquí rebràs un codi d'accés de 6 dígits cada vegada."
+    },
+    "step3": {
+      "title": "Tria els teus mòduls",
+      "next": "Continua",
+      "trialNote": "14 dies de prova gratuïta, cancel·la quan vulguis",
+      "subtitle": "Vendes i Facturació sempre és gratis. Afegeix el que necessitis.",
+      "baseTitle": "Vendes i Facturació",
+      "baseSub": "Pressupostos, factures, cobraments · 3 usuaris",
+      "baseTag": "Gratis",
+      "workspaceLabel": "Espai de treball",
+      "baseRow": "Base (Vendes)",
+      "baseValue": "Gratis per sempre",
+      "addonsLabel": "Mòduls addicionals",
+      "dueToday": "A pagar avui",
+      "freeNote": "Gratis per sempre. Sense targeta de crèdit. Afegeix mòduls quan vulguis.",
+      "paidNote": "Després de la prova de 14 dies: {{total}} OMR al mes. Targeta desada de manera segura amb Paymob (verificació de 0.100 OMR, retornada a l'instant).",
+      "back": "Enrere",
+      "btnFree": "Crea el meu espai de treball",
+      "btnPaid": "Comença la prova de 14 dies",
+      "btnLoading": "Creant l'espai de treball...",
+      "footerFree": "Sense targeta de crèdit · Vendes i Facturació gratis per sempre",
+      "footerPaid": "Targeta protegida amb Paymob · autorització de 0.100 OMR retornada a l'instant"
+    },
+    "step4": {
+      "title": "Configurant el teu espai de treball...",
+      "steps": [
+        "Creant la teva base de dades",
+        "Configurant els mòduls",
+        "Configurant el teu domini",
+        "Gairebé a punt!"
+      ],
+      "redirect": "Et portem al teu espai de treball..."
+    },
+    "progress": {
+      "workspace": "Espai de treball",
+      "account": "Compte",
+      "modulesPayment": "Mòduls i pagament"
+    },
+    "errors": {
+      "gateway": "L'URL de la passarel·la de pagament no és vàlid. Contacta amb el suport.",
+      "network": "Error de xarxa. Comprova la connexió i torna-ho a provar.",
+      "generic": "Alguna cosa ha fallat. Torna-ho a provar.",
+      "companyRequired": "Escriu el nom de l'empresa per continuar. Serà l'adreça del teu espai de treball.",
+      "companyLetters": "Aquest nom no té lletres ni números per crear una adreça web. Afegeix-n'hi almenys un.",
+      "subdomainTaken": "Aquesta adreça ja està en ús. Afegeix-hi una paraula perquè sigui teva, com la ciutat o una forma curta del nom.",
+      "subdomainChecking": "Encara estem comprovant si l'adreça està lliure. Torna a prémer Continua d'aquí a un moment.",
+      "emailRequired": "Escriu el correu amb què vols iniciar la sessió. Els codis d'un sol ús hi arribaran.",
+      "emailInvalid": "A l'adreça li falta l'@ o la part que hi va després. Escriu-la sencera, com ara you@company.com."
+    },
+    "rail": {
+      "cardLabel": "Targeta necessària avui",
+      "cardValue": "Cap",
+      "dataLabel": "Les dades si te'n vas",
+      "dataValue": "Teves, per exportar",
+      "note": "No hi ha cap permanència. Si deixes de pagar un mòdul, l'espai de treball continua obert amb el pla gratuït i els teus registres es queden exactament on els vas deixar."
+    },
+    "securedBy": "Protegit per Paymob"
+  },
+  "login": {
+    "title": "Hola de nou",
+    "subtitle": "Inicia la sessió al teu espai de treball.",
+    "workspace": "Espai de treball",
+    "workspaceError": "Escriu el nom del teu espai de treball (p. ex. «yourcompany»).",
+    "email": "Correu electrònic",
+    "emailLabel": "Correu electrònic",
+    "password": "Contrasenya",
+    "submit": "Continua a l'espai de treball",
+    "otpNote": "T'enviarem un codi d'un sol ús al correu. No cal contrasenya.",
+    "forgotPassword": "Has oblidat la contrasenya?",
+    "noAccount": "No tens compte?",
+    "signUp": "Comença la prova gratuïta"
+  },
+  "glossary": {
+    "title": "Glossari de comptabilitat",
+    "eyebrow": "Definicions clares",
+    "sub": "{{count}} termes de comptabilitat, facturació i impostos explicats amb paraules senzilles, amb la fórmula i un exemple resolt allà on el càlcul és el que costa de debò.",
+    "filterLabel": "Filtra els termes",
+    "filterPlaceholder": "Cerca al glossari",
+    "filterCount": "Es mostren {{shown}} de {{total}} termes",
+    "definitionTitle": "Què és {{term}}?",
+    "mattersTitle": "Per què és important per al teu negoci",
+    "faqTitle": "Preguntes habituals",
+    "relatedTerms": "Termes relacionats",
+    "seeAlso": "Vegeu també",
+    "browseAll": "Mira tots els termes del glossari",
+    "cat": {
+      "invoicing": "Facturació i documents",
+      "accounting": "Comptabilitat",
+      "tax": "Impostos i IVA",
+      "inventory": "Inventari i costos",
+      "metrics": "Indicadors financers"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Documents de facturació",
+    "eyebrow": "Documents de venda",
+    "sub": "Factures, pressupostos, estimacions, albarans, factures rectificatives i la resta de documents de venda. Crea'ls i envia'ls gratis, en qualsevol moneda.",
+    "metaTitle": "Documents de facturació · Paper & Pen",
+    "metaDesc": "Crea factures, pressupostos, estimacions, albarans i factures rectificatives en línia, gratis, en qualsevol moneda. Envia'ls per WhatsApp o correu."
+  },
+  "featuresIndex": {
+    "title": "Funcions de l'ERP",
+    "eyebrow": "Què fa el programari",
+    "sub": "Facturació, inventari, comptabilitat, RH i la resta de mòduls de Paper & Pen. La facturació continua sent gratuïta. Els altres mòduls són opcionals.",
+    "metaTitle": "Funcions de l'ERP · Paper & Pen",
+    "metaDesc": "Descobreix els mòduls de Paper & Pen: facturació gratuïta, inventari, comptabilitat, RH i més. Llegeix què fa cadascun abans d'activar-lo."
+  },
+  "useCasesIndex": {
+    "title": "Per a qui és Paper & Pen",
+    "eyebrow": "Casos d'ús",
+    "sub": "Com fan servir autònoms, agències, comptables i petites empreses el mateix nucli de facturació gratuït, i quins mòduls hi afegeixen.",
+    "metaTitle": "Casos d'ús de l'ERP · Paper & Pen",
+    "metaDesc": "Descobreix com autònoms, agències, comptables i petites empreses fan servir Paper & Pen, i quins mòduls necessita realment cadascú."
+  },
+  "templatesIndex": {
+    "title": "Plantilles de factura per professió",
+    "eyebrow": "Plantilles gratuïtes",
+    "sub": "Què ha de mostrar realment una factura del teu ofici, com se sol cobrar aquesta feina i com cobrar sense haver de perseguir ningú. Crea la factura al generador gratuït, sense registre."
+  },
+  "altIndex": {
+    "title": "Canvia des d'un altre programari de comptabilitat",
+    "eyebrow": "Guies de migració",
+    "sub": "Què es traspassa, què no, el moment més sensat de l'exercici per fer el canvi i una nota honesta sobre qui hauria de quedar-se on és."
+  },
+  "compareIndex": {
+    "title": "Comparatives de programari ERP i de facturació",
+    "eyebrow": "Compara les opcions",
+    "sub": "Comparatives cara a cara per a empreses que trien programari de facturació, comptabilitat o ERP. Revisa preus, idiomes, monedes, configuració d'impostos i les tasques que cada opció fa millor."
+  },
+  "industriesIndex": {
+    "title": "Programari ERP i de facturació per sectors",
+    "eyebrow": "Pensat per a la teva feina",
+    "sub": "Descobreix fluxos de treball pràctics per a 15 sectors, del comerç i la venda al detall a la salut, l'educació, la logística i els serveis professionals."
+  },
+  "vat": {
+    "factsEyebrow": "Les xifres",
+    "factsTitle": "L'IVA a {{country}}, d'un cop d'ull",
+    "colItem": "Concepte",
+    "colValue": "Valor",
+    "colDetail": "Detall i font",
+    "fieldsTitle": "Què ha de mostrar una factura a {{country}}",
+    "einvEyebrow": "Factura electrònica",
+    "sourcesTitle": "Fonts",
+    "sourcesNote": "Cada xifra i llista de camps d'aquesta pàgina prové del document enllaçat a continuació, publicat per la mateixa autoritat tributària. No publiquem cap tipus, llindar ni termini que no puguem documentar.",
+    "authorityNote": "Les normes fiscals canvien. Abans de confiar en res d'aquesta pàgina, comprova la situació actual amb "
+  },
+  "vatIndex": {
+    "title": "IVA i factura electrònica per país",
+    "eyebrow": "Normes fiscals del Golf",
+    "sub": "Tipus, llindars de registre, què ha de mostrar una factura i en quin punt es troba realment la factura electrònica, país per país, amb un enllaç al text de l'autoritat tributària darrere de cada xifra.",
+    "whatIsVat": "Què és l'IVA?",
+    "whatIsEinv": "Què és la factura electrònica?"
+  },
+  "legal": {
+    "englishOnly": "Aquestes condicions només es publiquen en anglès. El text en anglès és la versió vàlida i no se n'ofereix cap traducció com a document vinculant. Si vols revisar-les en un altre idioma, contacta amb nosaltres i t'ajudarem."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Mòduls que pots activar",
+      "db_v": "1",
+      "db_l": "Base de dades privada per espai de treball"
+    },
+    "ai": {
+      "eyebrow": "IA integrada",
+      "title": "IA que fa la feina avorrida",
+      "sub": "La IA de Paper & Pen treballa amb els teus propis registres. Respon preguntes, llegeix correus de proveïdors i respon clients per WhatsApp. Tu aproves el que importa.",
+      "c1t": "Pregunta al teu negoci",
+      "c1d": "Pregunta amb paraules senzilles, com ara \"qui ens deu més diners?\" Obtens la resposta a partir dels teus registres en temps real.",
+      "c2t": "Magic Inbox",
+      "c2d": "Reenvia un correu d'un proveïdor. Paper & Pen llegeix la factura i prepara l'esborrany de l'assentament de compra perquè l'aprovis.",
+      "c3t": "Respostes per WhatsApp",
+      "c3d": "Connecta la teva línia de WhatsApp. La IA respon preguntes sobre preus i comandes i envia pressupostos i factures.",
+      "note": "Els mòduls d'IA són complements opcionals.",
+      "mockTitle": "Pregunta a Paper & Pen",
+      "q": "Qui ens deu més diners?",
+      "a": "Harbour Point Ltd és qui més deu. La factura està vençuda:",
+      "overdue": "Vençuda",
+      "input": "Fes una pregunta"
+    },
+    "how": {
+      "eyebrow": "Del registre a funcionar",
+      "title": "En marxa avui, no el trimestre vinent",
+      "s1t": "Tria el nom del teu espai de treball",
+      "s1d": "Tria yourcompany.paperandpen.om. Sense targeta i sense trucades comercials.",
+      "s2t": "Activa el que necessitis",
+      "s2d": "Comença amb la facturació gratuïta. Afegeix inventari, RH, comptabilitat o IA quan els necessitis.",
+      "s3t": "Porta-hi l'equip i les dades",
+      "s3d": "Importa clients i productes des d'un full de càlcul, convida l'equip i envia la primera factura."
+    },
+    "ind": {
+      "eyebrow": "Pensat per al teu sector",
+      "title": "A punt per a com treballa el teu negoci",
+      "sub": "Documents, fluxos de treball i informes preparats per a 15 sectors.",
+      "all": "Mira tots els sectors"
+    },
+    "sec": {
+      "eyebrow": "Seguretat",
+      "title": "Les teves dades són teves",
+      "i1t": "Base de dades privada",
+      "i1d": "Cada espai de treball funciona amb la seva pròpia base de dades. Sense taules compartides.",
+      "i2t": "Xifrat",
+      "i2d": "TLS en trànsit i xifratge en repòs.",
+      "i3t": "Còpies periòdiques",
+      "i3d": "Es fa còpia de seguretat de cada espai de treball automàticament.",
+      "i4t": "Pagaments segurs",
+      "i4d": "Els pagaments amb targeta passen per Paymob, una passarel·la PCI-DSS.",
+      "more": "Llegeix sobre la seguretat",
+      "intTitle": "Funciona amb les eines que ja fas servir",
+      "int": [
+        "WhatsApp",
+        "Correu electrònic",
+        "Paymob",
+        "Thawani",
+        "Importació d'Excel i CSV",
+        "App per a Windows i macOS"
+      ]
+    }
+  }
+}

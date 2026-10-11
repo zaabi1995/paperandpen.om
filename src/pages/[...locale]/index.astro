@@ -119,7 +119,9 @@ function splitAccentWord(line: string) {
     tail = core[core.length - 1] + tail;
     core = core.slice(0, -1);
   }
-  const words = core.split(/\s+/);
+  // ASCII whitespace only: a NO-BREAK SPACE (U+00A0) glues two words into one accent, for languages where
+  // "your" follows "language" (id "bahasa Anda", ms, sw "lugha yako") or a word is two syllables (vi "ngôn ngữ").
+  const words = core.split(/[ \t\r\n]+/);
   const accent = words.pop() ?? '';
   return { lead: words.join(' '), accent, tail };
 }

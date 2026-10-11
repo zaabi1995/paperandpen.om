@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Prejsť na hlavný obsah",
+    "included": "Zahrnuté",
+    "notIncluded": "Nezahrnuté"
+  },
+  "nav": {
+    "features": "Funkcie",
+    "solutions": "Riešenia",
+    "tools": "Nástroje zadarmo",
+    "pricing": "Cenník",
+    "compare": "Porovnanie",
+    "login": "Prihlásiť sa",
+    "startFree": "Začať zadarmo",
+    "glossary": "Slovník",
+    "home": "Domov",
+    "templates": "Šablóny faktúr",
+    "alternatives": "Alternatívy",
+    "resources": "Zdroje",
+    "vat": "DPH podľa krajín"
+  },
+  "mega": {
+    "invoicing": "Fakturácia a vyúčtovanie",
+    "quotations": "Ponuky a rozpočty",
+    "inventory": "Riadenie skladu",
+    "accounting": "Účtovníctvo",
+    "hr": "HR a mzdy",
+    "reports": "Prehľady a analýzy",
+    "trading": "Obchodné spoločnosti",
+    "retail": "Maloobchod a predajne",
+    "restaurants": "Reštaurácie a kaviarne",
+    "freelancers": "Živnostníci a freelanceri",
+    "accountants": "Účtovníci",
+    "invoiceGen": "Generátor faktúr zadarmo",
+    "quotationGen": "Generátor ponúk zadarmo",
+    "receiptGen": "Generátor príjmových dokladov zadarmo",
+    "vatCalc": "Kalkulačka DPH pre Omán",
+    "allFeatures": "Všetky funkcie",
+    "allTools": "Všetky nástroje zadarmo",
+    "salescrm": "Predaj a CRM",
+    "payments": "Platby",
+    "manufacturing": "Výroba",
+    "multilang": "Viacjazyčnosť",
+    "contracting": "Stavebníctvo a zákazky",
+    "manufacturingInd": "Výroba",
+    "wholesale": "Veľkoobchod a distribúcia",
+    "ecommerce": "E-commerce",
+    "logistics": "Logistika a doprava",
+    "estimateGen": "Tvorba rozpočtov zadarmo",
+    "allIndustries": "Všetky odvetvia"
+  },
+  "sticky": {
+    "text": "Veďte firmu zadarmo, navždy."
+  },
+  "cta": {
+    "title": "Ste pripravení viesť firmu v Paper & Pen?",
+    "sub": "Vytvorte si bezplatný pracovný priestor za menej ako 5 minút. Predaj a fakturácia sú navždy zadarmo, bez platobnej karty."
+  },
+  "proof": {
+    "builtInOman": "Vytvorené v Ománe · používané po celom svete",
+    "free": "Predaj a fakturácia navždy zadarmo. Bez karty.",
+    "languages": "5 jazykov, arabčina a urdčina sprava doľava"
+  },
+  "hero": {
+    "badge": "Pre firmy na celom svete",
+    "tagline_line1": "ERP, ktoré hovorí",
+    "tagline_line2": "vaším jazykom.",
+    "sub": "Predaj, sklad, HR a financie na jednej cloudovej platforme, v 5 jazykoch a v akejkoľvek mene.",
+    "cta": "Začať zadarmo",
+    "seeModules": "Zobraziť moduly",
+    "subdomainLabel": "Adresa vášho pracovného priestoru",
+    "subdomainPlaceholder": "yourcompany",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "je voľná",
+    "taken_short": "je už obsadená",
+    "checking": "Overujeme dostupnosť...",
+    "subdomainError": "Dostupnosť teraz nevieme overiť. Napriek tomu môžete pokračovať.",
+    "trialNote": "Navždy zadarmo · Bez platobnej karty · Moduly pridáte kedykoľvek",
+    "card_title": "Dnešný prehľad",
+    "stat1_label": "Tržby tento mesiac",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Neuhradené faktúry",
+    "stat2_value": "12",
+    "stat3_label": "Zamestnanci na dovolenke",
+    "stat3_value": "2",
+    "card_progress": "Mesačný cieľ: splnené na 75 %",
+    "trust_count": "Vytvorené v Ománe",
+    "trust_label": "pre firmy z krajín Perzského zálivu"
+  },
+  "languages": {
+    "eyebrow": "Viac jazykov · Viac mien",
+    "title": "Pre každý tím na každom trhu",
+    "sub": "Prepínajte okamžite medzi arabčinou, angličtinou, hindčinou, bengálčinou a urdčinou a fakturujte v akejkoľvek mene. Údaje zostávajú rovnaké, mení sa len rozhranie."
+  },
+  "modules": {
+    "eyebrow": "Modulárne riešenie",
+    "title": "Všetky moduly, ktoré vaša firma potrebuje",
+    "sub": "Začnite predajom a fakturáciou a ďalšie moduly zapínajte, ako budete rásť: od CRM a HR po výrobu, bankovníctvo a AI. Jeden systém pre celú firmu.",
+    "included": "Zahrnuté",
+    "omrPerMonth": "OMR/mes.",
+    "estimateLabel": "Odhad vašich nákladov",
+    "omr_mo": "OMR/mes.",
+    "base_label": "Základ",
+    "addons_label": "doplnky",
+    "estimateNote": "Podľa vybraných modulov. Používatelia sa účtujú zvlášť.",
+    "startTrial": "Začať zadarmo",
+    "sales": {
+      "title": "Predaj a CRM",
+      "desc": "Ponuky, faktúry, obchodné príležitosti, sledovanie platieb a pripomienky."
+    },
+    "inventory": {
+      "title": "Sklad",
+      "desc": "Zásoby, umiestnenia a minimálne stavy v reálnom čase."
+    },
+    "hr": {
+      "title": "HR a mzdy",
+      "desc": "Dochádzka, dovolenky, mzdy a zamestnanecký portál."
+    },
+    "accounting": {
+      "title": "Účtovníctvo",
+      "desc": "Podvojné účtovníctvo, párovanie s bankou a priznania k DPH."
+    },
+    "manufacturing": {
+      "title": "Výroba",
+      "desc": "Kusovníky, výrobné príkazy a plánovanie výroby."
+    },
+    "reports": {
+      "title": "Prehľady a analýzy",
+      "desc": "Výkaz ziskov a strát, peňažné toky, vek pohľadávok a vlastné dashboardy."
+    },
+    "pricePerMonth": "+{{price}} OMR/mes.",
+    "ctaTitle": "Ste pripravení viesť firmu v Paper & Pen?",
+    "ctaSub": "Nastavenie za pár minút. Zapnite len moduly, ktoré potrebujete."
+  },
+  "pricing": {
+    "eyebrow": "Cenník",
+    "title": "Jednoduché a férové ceny",
+    "sub": "Začnite zadarmo, predaj a fakturácia navždy bez poplatkov. Moduly pridáte, ako budete rásť.",
+    "monthly": "Mesačne",
+    "annual": "Ročne",
+    "perMonth": "/mes.",
+    "perYear": "/rok",
+    "annualSave": "Ušetríte 20 %",
+    "startTrial": "Začať zadarmo",
+    "mostPopular": "Najobľúbenejší",
+    "free_label": "Zadarmo",
+    "unlimited": "Neobmedzene",
+    "users": "používateľov",
+    "buildYourOwn": "Zostavte si vlastný balík",
+    "trialNote": "Bezplatný balík navždy · Bez platobnej karty · Zmena balíka kedykoľvek",
+    "addModules": "Pridať moduly",
+    "base": {
+      "title": "Predaj a fakturácia, navždy zadarmo",
+      "desc": "Ponuky, faktúry, platby, až 3 používatelia. Bez platobnej karty."
+    },
+    "free": {
+      "name": "Zadarmo",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Predaj a fakturácia, navždy zadarmo",
+      "features": [
+        "Až 3 používatelia",
+        "Predaj a fakturácia",
+        "Ponuky a platby",
+        "Základné prehľady",
+        "Bez platobnej karty"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "Pre rastúce firmy, ktoré potrebujú viac",
+      "features": [
+        "Až 20 používateľov",
+        "Všetko z balíka Zadarmo",
+        "Modul skladu",
+        "HR a mzdy",
+        "Viac mien",
+        "Upozornenia cez WhatsApp",
+        "Prednostná podpora"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "Plnohodnotné ERP pre zavedené firmy",
+      "features": [
+        "Neobmedzene používateľov",
+        "Všetko z balíka Growth",
+        "Účtovníctvo a prepojenie s bankou",
+        "Výroba",
+        "Pokročilé analýzy",
+        "Prístup k API",
+        "Vyhradená podpora"
+      ]
+    },
+    "addons": {
+      "title": "Potrebujete niečo konkrétne?",
+      "subtitle": "Jednotlivé moduly pridáte k akémukoľvek balíku. Platíte len za to, čo potrebujete.",
+      "whatsapp_name": "Upozornenia cez WhatsApp",
+      "whatsapp_desc": "{{price}} OMR/mesiac",
+      "extraUsers_name": "Ďalší používatelia",
+      "extraUsers_desc": "Od {{price}} OMR za používateľa a mesiac",
+      "extraStorage_name": "Ďalšie úložisko",
+      "extraStorage_desc": "{{price}} OMR za 5 GB mesačne"
+    },
+    "headLead": "Jednoduché a férové",
+    "headAccent": "ceny",
+    "planWord": "Balík",
+    "billedMonthly": "Platba mesačne",
+    "billedAnnually": "Platba ročne",
+    "billingPeriod": "Fakturačné obdobie",
+    "worldwideNote": "Jeden cenník pre celý svet, v ománskych riáloch (OMR). Plaťte kartou odkiaľkoľvek.",
+    "compareTitle": "Porovnať všetky funkcie balíkov",
+    "compareFeature": "Funkcia",
+    "compareUsers": "Používatelia",
+    "compareGroupCore": "V každom balíku",
+    "compareGroupAdded": "Pridané v balíku {{plan}}",
+    "included": "Zahrnuté",
+    "notIncluded": "Nezahrnuté",
+    "scrollHint": "Posuňte tabuľku do strany a porovnajte balíky",
+    "selectPlan": "Vybrať balík"
+  },
+  "compare": {
+    "eyebrow": "Prečo Paper & Pen",
+    "title": "Ako obstojíme v porovnaní",
+    "feature": "Funkcia",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Plné arabské rozhranie RTL",
+      "gcc_pricing": "Ceny pre krajiny Zálivu (OMR/BHD/AED)",
+      "free_trial": "Balík navždy zadarmo, bez karty",
+      "local_support": "Miestna podpora v krajinách Zálivu",
+      "multi_lang": "Rozhranie v 5 jazykoch",
+      "paymob": "Paymob / miestne platby",
+      "onboarding": "Samoobslužné spustenie < 5 min"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Otázky",
+    "title": "Všetko, čo potrebujete vedieť"
+  },
+  "related": {
+    "title": "Ďalšie informácie",
+    "termsTitle": "Pojmy z tejto stránky zrozumiteľne",
+    "exploreTitle": "Spoznajte Paper & Pen"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | Cloudové ERP a fakturačný softvér zadarmo",
+    "homeDesc": "Cloudové ERP a fakturácia zadarmo. Predaj, sklad, HR a účtovníctvo v 5 jazykoch a akejkoľvek mene. Predaj a fakturácia navždy zadarmo.",
+    "fiTitle": "Online fakturačný softvér zadarmo · Paper & Pen",
+    "fiDesc": "Vytvárajte a posielajte profesionálne faktúry jedným kliknutím. Fakturácia zadarmo s DPH, akoukoľvek menou, ponukami a dokladmi. Navždy zadarmo.",
+    "pricingTitle": "Cenník · Paper & Pen",
+    "pricingDesc": "Jednoduchý cenník. Predaj a fakturácia navždy zadarmo. Sklad, HR, účtovníctvo a ďalšie pridáte, ako budete rásť. Bez karty. Ročne ušetríte 20 %.",
+    "faqTitle": "Časté otázky · Paper & Pen ERP",
+    "faqDesc": "Odpovede o Paper & Pen, bezplatnom cloudovom ERP a fakturačnom softvéri: ceny, DPH, arabčina, moduly, nastavenie a ďalšie.",
+    "toolsTitle": "Nástroje pre firmy zadarmo · Paper & Pen",
+    "toolsDesc": "Nástroje zadarmo bez registrácie: faktúry, ponuky, príjmové doklady, objednávky, dodacie listy a kalkulačka DPH s vlastnou sadzbou.",
+    "aboutTitle": "O Paper & Pen · Cloudové ERP zadarmo od BHD Group",
+    "aboutDesc": "Paper & Pen vyvíja v Ománe Paper and Pen Company LLC, súčasť BHD Group. Cloudové ERP zadarmo pre firmy na celom svete, s arabčinou a viacerými menami.",
+    "contactTitle": "Kontaktujte Paper & Pen",
+    "contactDesc": "Spojte sa s tímom Paper & Pen. WhatsApp +968 9889 9100 alebo nám napíšte e-mail.",
+    "securityTitle": "Bezpečnosť a ochrana údajov · Paper & Pen",
+    "securityDesc": "Ako Paper & Pen chráni údaje vašej firmy: šifrovanie, oddelenie každého zákazníka, zálohy, riadenie prístupu a platby PCI-DSS cez Paymob.",
+    "blogTitle": "Blog · Paper & Pen ERP",
+    "signupTitle": "Vytvorte si bezplatný pracovný priestor Paper & Pen",
+    "signupDesc": "Nastavte si bezplatný pracovný priestor Paper & Pen ERP za menej ako 5 minút. Predaj a fakturácia navždy zadarmo.",
+    "loginTitle": "Prihlásenie do Paper & Pen",
+    "loginDesc": "Prihláste sa do svojho pracovného priestoru Paper & Pen ERP.",
+    "glossaryTitle": "Účtovný slovník · Paper & Pen",
+    "glossaryDesc": "Zrozumiteľné definície pojmov z účtovníctva, fakturácie, DPH a skladu, s ktorými sa malé firmy stretávajú, so vzorcami a príkladmi.",
+    "templatesTitle": "Šablóny faktúr zadarmo podľa profesie · Paper & Pen",
+    "templatesDesc": "Šablóny faktúr a rady pre dodávateľov, konzultantov, dizajnérov, remeselníkov a služby. Čo uviesť, ako naceniť a ako dostať zaplatené.",
+    "altTitle": "Alternatívy účtovných programov · Paper & Pen",
+    "altDesc": "Zvažujete zmenu účtovného programu? Čo sa prenesie, čo nie, kedy prejsť a komu sa oplatí zostať pri súčasnom.",
+    "compareTitle": "Porovnania ERP a fakturačných programov | Paper & Pen",
+    "compareDesc": "Porovnajte Paper & Pen s ERP, účtovnými a fakturačnými programami: ceny, jazyky, meny, daňové nastavenia, moduly a praktické využitie.",
+    "industriesTitle": "ERP a fakturácia podľa odvetvia | Paper & Pen",
+    "industriesDesc": "Ako Paper & Pen pomáha s fakturáciou, skladom, účtovníctvom a prevádzkou v 15 odvetviach, v piatich jazykoch a akejkoľvek mene.",
+    "vatTitle": "DPH a e-fakturácia v krajinách Zálivu · Paper & Pen",
+    "vatDesc": "Sadzby DPH, registračné limity, náležitosti daňového dokladu a stav e-fakturácie v Ománe, SAE, Saudskej Arábii a Bahrajne, s odkazmi na zdroje."
+  },
+  "toolsIndex": {
+    "title": "Nástroje pre firmy zadarmo",
+    "sub": "Bez registrácie a bez poplatkov. Vytvorte faktúry, ponuky, príjmové doklady a ďalšie dokumenty na stiahnutie v PDF, v akejkoľvek mene a s vlastnou sadzbou DPH."
+  },
+  "pages": {
+    "about": {
+      "title": "Vytvorené v Ománe pre firmy z krajín Zálivu",
+      "lead": "Paper & Pen je cloudové ERP, aké sme si sami priali: dosť jednoduché, aby ste začali za päť minút, dosť silné, aby riadilo celú firmu, a postavené podľa toho, ako podnikanie v Ománe a Zálive naozaj funguje.",
+      "body1": "Paper & Pen vyvíja Paper and Pen Company LLC, súčasť BHD Group v Maskate v Ománe. Softvér tvoríme v Ománe, s ománskym tímom, pre firmy z krajín Zálivu: s arabčinou ako plnohodnotným jazykom, fakturáciou v OMR priamo v jadre a zabudovanými miestnymi platbami.",
+      "body2": "Cez Paper & Pen prechádzajú tisíce ponúk, faktúr a platieb. Predaj a fakturácia sú navždy zadarmo, pretože si každá firma zaslúži profesionálne nástroje. Platíte až vtedy, keď potrebujete sklad, HR, účtovníctvo alebo výrobu.",
+      "stat1": "Navždy zadarmo",
+      "stat1l": "Predaj a fakturácia",
+      "stat2": "5",
+      "stat2l": "Jazykov",
+      "stat3": "< 5 min",
+      "stat3l": "Do spustenia",
+      "stat4": "OMR",
+      "stat4l": "Natívna fakturácia"
+    },
+    "contact": {
+      "title": "Ozvite sa nám",
+      "lead": "Otázky, ukážky, partnerstvá: odpovedáme rýchlo. Najrýchlejšie nás zastihnete cez WhatsApp.",
+      "whatsapp": "Napísať na WhatsApp",
+      "email": "Napísať e-mail",
+      "hours": "Nedeľa–štvrtok, 8:00–17:00 (GMT+4)"
+    },
+    "security": {
+      "title": "Vaše údaje v bezpečí",
+      "lead": "Bezpečnosť a súkromie sú súčasťou Paper & Pen od samého základu.",
+      "items": [
+        "Šifrovanie pri prenose (TLS) aj pri uložení",
+        "Samostatná databáza pre každého zákazníka, vaše údaje sa nikdy nezdieľajú",
+        "Pravidelné automatické zálohy",
+        "Prístup podľa rolí a auditné záznamy",
+        "Platby spracúva Paymob, brána spĺňajúca PCI-DSS",
+        "Zabezpečená infraštruktúra s nepretržitým monitoringom"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog Paper & Pen",
+    "sub": "Návody k fakturácii, DPH, účtovníctvu a podnikaniu v Ománe a krajinách Zálivu.",
+    "readMore": "Čítať ďalej",
+    "empty": "Nové články sú už na ceste. Čoskoro sa vráťte.",
+    "backToBlog": "Všetky články"
+  },
+  "fi": {
+    "crumb": "Fakturačný softvér zadarmo",
+    "eyebrow": "Online fakturácia zadarmo",
+    "title": "Fakturačný softvér zadarmo<br/>pre firmy <em class=\"text-copper-400 not-italic\">všade na svete</em>",
+    "subtitle": "Vytvárajte a posielajte profesionálne faktúry s daňou jedným kliknutím, v akejkoľvek mene a v 5 jazykoch. Ponuky, doklady, upomienky a plné účtovníctvo. Navždy zadarmo.",
+    "b1": "Navždy zadarmo, bez karty",
+    "b2": "Akákoľvek mena a vlastná sadzba DPH",
+    "b3": "Odoslanie cez WhatsApp alebo e-mail jedným kliknutím",
+    "tryTool": "Vyskúšať generátor zadarmo",
+    "docsEyebrow": "Jedna platforma, všetky doklady",
+    "docsTitle": "Všetky doklady, ktoré firma potrebuje",
+    "docsSub": "Od prvej ponuky po posledný príjmový doklad: Paper & Pen vytvorí každý dokument vašej firmy a potom ho automaticky usporiada a spáruje.",
+    "docs": {
+      "invoices": {
+        "t": "Profesionálne faktúry",
+        "d": "Upraviteľné faktúry s DPH a vaším logom, odoslané za pár sekúnd."
+      },
+      "quotes": {
+        "t": "Ponuky a rozpočty",
+        "d": "Získajte zákazky s ponukami vo firemnom štýle, ktoré jedným kliknutím prevediete na faktúru."
+      },
+      "proforma": {
+        "t": "Zálohové faktúry",
+        "d": "Proforma faktúry pre zálohy a colné konanie."
+      },
+      "receipts": {
+        "t": "Príjmové doklady",
+        "d": "Doklad sa vytvorí automaticky, hneď ako zaznamenáte platbu."
+      },
+      "po": {
+        "t": "Objednávky",
+        "d": "Vystavujte a sledujte objednávky u dodávateľov."
+      },
+      "delivery": {
+        "t": "Dodacie listy",
+        "d": "Dodacie listy prepojené s každou objednávkou."
+      },
+      "recurring": {
+        "t": "Opakované faktúry",
+        "d": "Automatická fakturácia predplatného a paušálnych služieb."
+      },
+      "reminders": {
+        "t": "Upomienky",
+        "d": "Automatické, zdvorilé upomienky, aby ste dostali zaplatené načas."
+      },
+      "share": {
+        "t": "Zdieľanie cez WhatsApp a e-mail",
+        "d": "Akýkoľvek doklad odošlete cez WhatsApp alebo e-mail jedným ťuknutím."
+      }
+    },
+    "s1": {
+      "eyebrow": "Rýchlejšie platby",
+      "title": "Od ponuky k peniazom bez urgovania",
+      "body": "Preveďte ponuku na faktúru, pošlite ju cez WhatsApp a zvyšok zariadia automatické upomienky. Presne uvidíte, kto doklad otvoril a kto zaplatil.",
+      "i1": "Ponuka → faktúra → doklad jedným kliknutím",
+      "i2": "Automatické upomienky platieb",
+      "i3": "Online platby cez Paymob"
+    },
+    "s2": {
+      "eyebrow": "V súlade s predpismi kdekoľvek",
+      "title": "Akákoľvek mena a akákoľvek sadzba dane",
+      "body": "Fakturujte v akejkoľvek mene, nastavte si vlastnú sadzbu DPH alebo dane z predaja a pracujte v arabčine či angličtine. Firmy z krajín Zálivu majú hneď k dispozícii fakturáciu v OMR/AED/SAR, nastaviteľnú DPH a miestne platby.",
+      "i1": "Nastaviteľná DPH alebo daň z predaja zo základu",
+      "i2": "Šablóny faktúr v arabčine a angličtine",
+      "i3": "Zabudované daňové priznania a prehľady"
+    },
+    "cmpEyebrow": "Prečo prejsť",
+    "cmpTitle": "Fakturačný softvér zadarmo, vytvorený pre náš región",
+    "faq": {
+      "q1": "Je fakturácia naozaj zadarmo?",
+      "a1": "Áno. Fakturácia, ponuky a sledovanie platieb sú navždy zadarmo až pre 3 používateľov, bez platobnej karty.",
+      "q2": "Zvládne ománsku 5 % DPH?",
+      "a2": "Áno. DPH sa počíta automaticky zo základu po zľave a môžete vystavovať faktúry a priznania k DPH podľa predpisov.",
+      "q3": "Môžem posielať faktúry v arabčine?",
+      "a3": "Áno. Faktúry, ponuky a doklady sa zobrazia plne v arabčine (RTL) alebo v angličtine, jazyk zvolíte pri každom doklade.",
+      "q4": "Môžu zákazníci platiť online?",
+      "a4": "Áno. Pripojte Paymob a zákazníci zaplatia faktúry kartou online. Platby sa párujú automaticky."
+    }
+  },
+  "pricingFaq": {
+    "q1": "Je bezplatný balík naozaj navždy zadarmo?",
+    "a1": "Áno. Predaj a fakturácia sú navždy zadarmo až pre 3 používateľov, bez karty a bez obmedzenia platnosti. Platíte, len keď pridáte moduly, napríklad sklad, HR alebo účtovníctvo.",
+    "q2": "Môžem moduly neskôr zmeniť alebo zrušiť?",
+    "a2": "Kedykoľvek. Platené moduly pridáte alebo odoberiete, kedy chcete, a vyúčtovanie sa upraví samo. Žiadna dlhodobá zmluva.",
+    "q3": "Ako a v akej mene sa platí?",
+    "a3": "Fakturujeme v ománskych riáloch (OMR) na 3 desatinné miesta, mesačne alebo ročne (pri ročnej platbe ušetríte 20 %). Platby kartou bezpečne spracúva Paymob."
+  },
+  "tool": {
+    "from": "Dodávateľ",
+    "billTo": "Odberateľ",
+    "docNo": "Číslo dokladu",
+    "date": "Dátum",
+    "item": "Popis",
+    "qty": "Množstvo",
+    "rate": "Cena",
+    "amount": "Suma",
+    "addLine": "Pridať riadok",
+    "subtotal": "Medzisúčet",
+    "vat": "DPH",
+    "total": "Spolu",
+    "notes": "Poznámky",
+    "currency": "Mena",
+    "applyVat": "Uplatniť DPH / daň",
+    "print": "Stiahnuť / Tlač PDF",
+    "yourCompany": "Vaša firma LLC",
+    "clientName": "Meno zákazníka",
+    "signupCta": "Ukladajte a spravujte svoje doklady v Paper & Pen",
+    "labels": {
+      "invoice": "FAKTÚRA",
+      "quotation": "PONUKA",
+      "proforma": "ZÁLOHOVÁ FAKTÚRA",
+      "receipt": "PRÍJMOVÝ DOKLAD",
+      "purchase-order": "OBJEDNÁVKA",
+      "delivery-note": "DODACÍ LIST",
+      "estimate": "ROZPOČET",
+      "credit-note": "DOBROPIS"
+    },
+    "vatCalc": {
+      "amount": "Suma",
+      "mode": "Režim",
+      "addVat": "Pripočítať 5 % DPH",
+      "removeVat": "Odpočítať DPH",
+      "net": "Suma bez DPH",
+      "vat": "DPH",
+      "gross": "Spolu (vrát. DPH)"
+    },
+    "tryFull": "Vyskúšať celé ERP",
+    "builderTitle": "Vytvorte doklad",
+    "featuresHeading": "Prečo použiť tento nástroj zadarmo"
+  },
+  "homeFaq": {
+    "q1": "Je Paper & Pen naozaj zadarmo?",
+    "a1": "Áno. Modul Predaj a fakturácia je navždy zadarmo, bez platobnej karty a bez časového obmedzenia. Môžete vytvárať ponuky a faktúry a zaznamenávať platby až pre 3 používateľov. Platené moduly ako sklad, HR alebo účtovníctvo pridáte, keď ich budete potrebovať.",
+    "q2": "Funguje Paper & Pen v arabčine?",
+    "a2": "Úplne. Celé rozhranie je v arabčine so správnym rozložením sprava doľava a tiež v angličtine, hindčine, bengálčine a urdčine. Jazyk môžete kedykoľvek zmeniť, údaje zostanú rovnaké.",
+    "q3": "Môžem Paper & Pen používať mimo krajín Zálivu?",
+    "a3": "Áno. Paper & Pen vyvíja v Ománe Paper and Pen Company LLC (súčasť BHD Group), ale funguje pre firmy kdekoľvek. Fakturujte v akejkoľvek mene, nastavte si vlastnú sadzbu dane a pracujte v 5 jazykoch. Firmy z krajín Zálivu majú navyše hneď fakturáciu v OMR/AED/SAR, miestnu DPH a platby cez Paymob.",
+    "q4": "Ako dlho trvá nastavenie?",
+    "a4": "Menej ako 5 minút. Zvoľte názov pracovného priestoru, potvrďte e-mail, vyberte moduly a môžete fakturovať. Bez inštalácie, bez konzultanta a bez poplatku za zriadenie."
+  },
+  "trust": {
+    "eyebrow": "Prečo si nás firmy vyberajú",
+    "title": "Vytvorené v Ománe. Dôverujú nám firmy po celom svete.",
+    "sub": "Arabčina na prvom mieste, viac mien a pripravenosť na dane: Paper & Pen sa hodí firmám v krajinách Zálivu aj ďaleko za nimi a pritom si drží jednoduchosť a miestnu podporu, na ktoré veľké platformy zabudli.",
+    "cta": "Vytvoriť pracovný priestor zadarmo",
+    "stat1_value": "5",
+    "stat1_label": "Podporovaných jazykov",
+    "stat2_value": "Zadarmo",
+    "stat2_label": "Navždy, bez karty",
+    "stat3_value": "RTL",
+    "stat3_label": "Podpora arabčiny a urdčiny",
+    "stat4_value": "Akákoľvek",
+    "stat4_label": "Mena fakturácie"
+  },
+  "footer": {
+    "tagline": "Cloudové ERP zadarmo pre rastúce firmy na celom svete. Vytvorené v Ománe.",
+    "product": "Produkt",
+    "tools": "Nástroje zadarmo",
+    "company": "Spoločnosť",
+    "about": "O nás",
+    "blog": "Blog",
+    "security": "Bezpečnosť",
+    "freeInvoicing": "Fakturačný softvér zadarmo",
+    "legal": "Právne informácie",
+    "contact": "Kontakt",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Podmienky služby",
+    "privacy": "Zásady ochrany osobných údajov",
+    "status": "Všetky systémy v prevádzke",
+    "rights": "© {{year}} Paper and Pen Company LLC. Všetky práva vyhradené.",
+    "support": "Podpora",
+    "help": "Centrum pomoci",
+    "contactSupport": "Kontaktovať podporu",
+    "statusPage": "Stav služby",
+    "resources": "Zdroje",
+    "faq": "Časté otázky",
+    "invoices": "Faktúry"
+  },
+  "signup": {
+    "title": "Vytvorte si pracovný priestor",
+    "step1": {
+      "title": "Ako sa volá vaša firma?",
+      "label": "Názov firmy",
+      "placeholder": "Al Noor Trading LLC",
+      "subdomainLabel": "Adresa vášho pracovného priestoru bude",
+      "next": "Pokračovať",
+      "subtitle": "Z toho vznikne vaša jedinečná subdoména ERP.",
+      "workspaceUrlLabel": "Adresa pracovného priestoru:",
+      "available": "✓ Voľné",
+      "taken": "✗ Obsadené",
+      "checking": "overujeme..."
+    },
+    "step2": {
+      "title": "Váš e-mail",
+      "emailLabel": "E-mailová adresa",
+      "password": "Heslo",
+      "passwordHint": "Aspoň 8 znakov",
+      "language": "Preferovaný jazyk",
+      "currency": "Predvolená mena",
+      "next": "Pokračovať",
+      "subtitle": "Pri každom prihlásení vám pošleme jednorazový kód. Žiadne heslo si nemusíte pamätať.",
+      "emailPlaceholder": "you@company.com",
+      "passwordLabel": "Heslo",
+      "passwordPlaceholder": "Min. 8 znakov",
+      "back": "Späť",
+      "emailHint": "Sem vám pri každom prihlásení príde 6-miestny kód."
+    },
+    "step3": {
+      "title": "Vyberte moduly",
+      "next": "Pokračovať",
+      "trialNote": "14 dní zadarmo, zrušenie kedykoľvek",
+      "subtitle": "Predaj a fakturácia sú vždy zadarmo. Pridajte, čo potrebujete.",
+      "baseTitle": "Predaj a fakturácia",
+      "baseSub": "Ponuky, faktúry, platby · 3 používatelia",
+      "baseTag": "Zadarmo",
+      "workspaceLabel": "Pracovný priestor",
+      "baseRow": "Základ (predaj)",
+      "baseValue": "Navždy zadarmo",
+      "addonsLabel": "Doplnkové moduly",
+      "dueToday": "Na úhradu dnes",
+      "freeNote": "Navždy zadarmo. Bez platobnej karty. Moduly pridáte kedykoľvek.",
+      "paidNote": "Po 14-dňovej skúšobnej dobe: {{total}} OMR/mesiac. Karta bezpečne uložená cez Paymob (overovacia platba 0.100 OMR sa hneď vracia).",
+      "back": "Späť",
+      "btnFree": "Vytvoriť pracovný priestor",
+      "btnPaid": "Spustiť 14 dní zadarmo",
+      "btnLoading": "Vytvárame pracovný priestor...",
+      "footerFree": "Bez platobnej karty · Predaj a fakturácia navždy zadarmo",
+      "footerPaid": "Karta zabezpečená cez Paymob · Overenie 0.100 OMR sa hneď vracia"
+    },
+    "step4": {
+      "title": "Nastavujeme váš pracovný priestor...",
+      "steps": [
+        "Vytvárame databázu",
+        "Nastavujeme moduly",
+        "Nastavujeme doménu",
+        "Takmer hotovo!"
+      ],
+      "redirect": "Presmerúvame vás do pracovného priestoru..."
+    },
+    "progress": {
+      "workspace": "Pracovný priestor",
+      "account": "Účet",
+      "modulesPayment": "Moduly a platba"
+    },
+    "errors": {
+      "gateway": "Adresa platobnej brány je neplatná. Obráťte sa prosím na podporu.",
+      "network": "Chyba siete. Skontrolujte pripojenie a skúste to znova.",
+      "generic": "Niečo sa pokazilo. Skúste to prosím znova.",
+      "companyRequired": "Zadajte názov firmy, aby ste mohli pokračovať. Z neho vznikne adresa pracovného priestoru.",
+      "companyLetters": "Názov neobsahuje latinské písmená ani číslice, z ktorých by sa dala zostaviť webová adresa. Pridajte aspoň jedno.",
+      "subdomainTaken": "Táto adresa je už obsadená. Pridajte slovo, napríklad mesto alebo skratku názvu, aby bola vaša.",
+      "subdomainChecking": "Ešte overujeme, či je adresa voľná. O chvíľu znova kliknite na Pokračovať.",
+      "emailRequired": "Zadajte e-mail, ktorým sa budete prihlasovať. Prídu naň jednorazové kódy.",
+      "emailInvalid": "V adrese chýba @ alebo časť za ním. Napíšte ju celú, napríklad you@company.com."
+    },
+    "rail": {
+      "cardLabel": "Karta potrebná dnes",
+      "cardValue": "Žiadna",
+      "dataLabel": "Údaje, ak odídete",
+      "dataValue": "Vaše, na export",
+      "note": "Nič vás neviaže. Keď prestanete platiť za modul, pracovný priestor zostane otvorený v bezplatnom balíku a záznamy nájdete presne tam, kde ste ich nechali."
+    },
+    "securedBy": "Zabezpečené cez Paymob"
+  },
+  "login": {
+    "title": "Vitajte späť",
+    "subtitle": "Prihláste sa do svojho pracovného priestoru.",
+    "workspace": "Pracovný priestor",
+    "workspaceError": "Zadajte prosím názov pracovného priestoru (napr. „yourcompany“).",
+    "email": "E-mail",
+    "emailLabel": "E-mail",
+    "password": "Heslo",
+    "submit": "Pokračovať do pracovného priestoru",
+    "otpNote": "Na váš e-mail pošleme jednorazový kód. Heslo nie je potrebné.",
+    "forgotPassword": "Zabudli ste heslo?",
+    "noAccount": "Ešte nemáte účet?",
+    "signUp": "Vyskúšať zadarmo"
+  },
+  "glossary": {
+    "title": "Účtovný slovník",
+    "eyebrow": "Definície zrozumiteľne",
+    "sub": "{{count}} pojmov z účtovníctva, fakturácie a daní vysvetlených zrozumiteľne, so vzorcom a príkladom všade tam, kde sa ľudia pri počítaní najčastejšie zaseknú.",
+    "filterLabel": "Filtrovať pojmy",
+    "filterPlaceholder": "Hľadať v slovníku",
+    "filterCount": "Zobrazené {{shown}} z {{total}} pojmov",
+    "definitionTitle": "Čo je {{term}}?",
+    "mattersTitle": "Prečo je to dôležité pre vašu firmu",
+    "faqTitle": "Časté otázky",
+    "relatedTerms": "Súvisiace pojmy",
+    "seeAlso": "Pozri tiež",
+    "browseAll": "Všetky pojmy v slovníku",
+    "cat": {
+      "invoicing": "Fakturácia a doklady",
+      "accounting": "Účtovníctvo a evidencia",
+      "tax": "Dane a DPH",
+      "inventory": "Sklad a kalkulácie",
+      "metrics": "Finančné ukazovatele"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Fakturačné doklady",
+    "eyebrow": "Predajné doklady",
+    "sub": "Faktúry, ponuky, rozpočty, dodacie listy, dobropisy a ďalšie predajné doklady. Vytvárajte ich a posielajte zadarmo, v akejkoľvek mene.",
+    "metaTitle": "Fakturačné doklady · Paper & Pen",
+    "metaDesc": "Vytvárajte faktúry, ponuky, rozpočty, dodacie listy a dobropisy online, zadarmo a v akejkoľvek mene. Posielajte cez WhatsApp alebo e-mail."
+  },
+  "featuresIndex": {
+    "title": "Funkcie ERP",
+    "eyebrow": "Čo softvér dokáže",
+    "sub": "Fakturácia, sklad, účtovníctvo, HR a ďalšie moduly Paper & Pen. Fakturácia zostáva zadarmo. Ostatné moduly sú voliteľné.",
+    "metaTitle": "Funkcie ERP · Paper & Pen",
+    "metaDesc": "Pozrite si moduly Paper & Pen: fakturácia zadarmo, sklad, účtovníctvo, HR a ďalšie. Zistite, čo každý dokáže, skôr než ho zapnete."
+  },
+  "useCasesIndex": {
+    "title": "Pre koho je Paper & Pen",
+    "eyebrow": "Príklady použitia",
+    "sub": "Ako živnostníci, agentúry, účtovníci a malé firmy využívajú rovnaký bezplatný fakturačný základ a aké moduly si pridávajú.",
+    "metaTitle": "Príklady použitia ERP · Paper & Pen",
+    "metaDesc": "Pozrite sa, ako živnostníci, agentúry, účtovníci a malé firmy používajú Paper & Pen a ktoré moduly naozaj potrebujú."
+  },
+  "templatesIndex": {
+    "title": "Šablóny faktúr podľa profesie",
+    "eyebrow": "Šablóny zadarmo",
+    "sub": "Čo musí faktúra vo vašom odbore obsahovať, ako sa taká práca zvyčajne nacenuje a ako dostať zaplatené bez urgovania. Samotnú faktúru vytvoríte v bezplatnom generátore, bez registrácie."
+  },
+  "altIndex": {
+    "title": "Prechod z iného účtovného programu",
+    "eyebrow": "Sprievodcovia prechodom",
+    "sub": "Čo sa prenesie, čo nie, kedy počas účtovného roka dáva prechod zmysel a úprimná poznámka, komu sa oplatí zostať tam, kde je."
+  },
+  "compareIndex": {
+    "title": "Porovnania ERP a fakturačných programov",
+    "eyebrow": "Porovnajte možnosti",
+    "sub": "Porovnania vedľa seba pre firmy, ktoré vyberajú fakturačný, účtovný alebo ERP softvér. Ceny, jazyky, meny, daňové nastavenia a úlohy, ktoré jednotlivé možnosti zvládajú najlepšie."
+  },
+  "industriesIndex": {
+    "title": "ERP a fakturácia podľa odvetvia",
+    "eyebrow": "Postavené okolo vašej práce",
+    "sub": "Praktické postupy pre 15 odvetví, od obchodu a maloobchodu po zdravotníctvo, vzdelávanie, logistiku a odborné služby."
+  },
+  "vat": {
+    "factsEyebrow": "Čísla",
+    "factsTitle": "DPH v krajine {{country}} v skratke",
+    "colItem": "Položka",
+    "colValue": "Hodnota",
+    "colDetail": "Podrobnosti a zdroj",
+    "fieldsTitle": "Čo musí obsahovať daňový doklad ({{country}})",
+    "einvEyebrow": "E-fakturácia",
+    "sourcesTitle": "Zdroje",
+    "sourcesNote": "Každé číslo a zoznam údajov na tejto stránke pochádza z dokumentu odkazovaného nižšie, ktorý zverejnil priamo daňový úrad. Nezverejňujeme sadzbu, limit ani lehotu, pre ktorú nemáme zdroj.",
+    "authorityNote": "Daňové pravidlá sa menia. Skôr než sa na niečo spoľahnete, overte si aktuálny stav u "
+  },
+  "vatIndex": {
+    "title": "DPH a e-fakturácia podľa krajín",
+    "eyebrow": "Dane v krajinách Zálivu",
+    "sub": "Sadzby, registračné limity, náležitosti daňového dokladu a skutočný stav e-fakturácie, krajina po krajine, s odkazom na text daňového úradu pri každom čísle.",
+    "whatIsVat": "Čo je DPH?",
+    "whatIsEinv": "Čo je e-fakturácia?"
+  },
+  "legal": {
+    "englishOnly": "Tieto podmienky sú zverejnené len v angličtine. Záväzná je anglická verzia a žiadny preklad sa neponúka ako záväzný dokument. Ak ich potrebujete prejsť v inom jazyku, kontaktujte nás a radi pomôžeme."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Modulov, ktoré môžete zapnúť",
+      "db_v": "1",
+      "db_l": "Súkromná databáza pre každý pracovný priestor"
+    },
+    "ai": {
+      "eyebrow": "AI v základe",
+      "title": "AI, ktorá urobí nudnú prácu",
+      "sub": "AI v Paper & Pen pracuje s vašimi vlastnými záznamami. Odpovedá na otázky, číta e-maily od dodávateľov a odpovedá zákazníkom na WhatsAppe. Dôležité veci schvaľujete vy.",
+      "c1t": "Opýtajte sa svojej firmy",
+      "c1d": "Opýtajte sa bežnými slovami, napríklad „kto nám dlhuje najviac?“, a dostanete odpoveď z aktuálnych záznamov.",
+      "c2t": "Inteligentná schránka",
+      "c2d": "Prepošlite e-mail od dodávateľa. Paper & Pen prečíta faktúru a pripraví nákupný záznam na schválenie.",
+      "c3t": "Odpovede na WhatsAppe",
+      "c3d": "Pripojte svoju linku WhatsApp. AI odpovedá na otázky o cenách a objednávkach a posiela ponuky a faktúry.",
+      "note": "Moduly AI sú voliteľné doplnky.",
+      "mockTitle": "Opýtajte sa Paper & Pen",
+      "q": "Kto nám dlhuje najviac peňazí?",
+      "a": "Najviac dlhuje Harbour Point Ltd. Faktúra je po splatnosti:",
+      "overdue": "Po splatnosti",
+      "input": "Položte otázku"
+    },
+    "how": {
+      "eyebrow": "Od registrácie k spusteniu",
+      "title": "V prevádzke ešte dnes, nie až budúci štvrťrok",
+      "s1t": "Zvoľte názov priestoru",
+      "s1d": "Napríklad yourcompany.paperandpen.om. Bez karty a bez stretnutia s obchodníkom.",
+      "s2t": "Zapnite, čo potrebujete",
+      "s2d": "Začnite bezplatnou fakturáciou. Sklad, HR, účtovníctvo alebo AI pridáte, keď ich budete potrebovať.",
+      "s3t": "Priveďte tím a údaje",
+      "s3d": "Importujte zákazníkov a produkty z tabuľky, pozvite tím a pošlite prvú faktúru."
+    },
+    "ind": {
+      "eyebrow": "Pre vaše odvetvie",
+      "title": "Pripravené na to, ako vaša firma funguje",
+      "sub": "Doklady, postupy a prehľady nastavené pre 15 odvetví.",
+      "all": "Všetky odvetvia"
+    },
+    "sec": {
+      "eyebrow": "Bezpečnosť",
+      "title": "Vaše údaje zostávajú vaše",
+      "i1t": "Súkromná databáza",
+      "i1d": "Každý pracovný priestor má vlastnú databázu. Žiadne zdieľané tabuľky.",
+      "i2t": "Šifrovanie",
+      "i2d": "TLS pri prenose a šifrovanie pri uložení.",
+      "i3t": "Pravidelné zálohy",
+      "i3d": "Každý pracovný priestor sa zálohuje automaticky.",
+      "i4t": "Bezpečné platby",
+      "i4d": "Platby kartou idú cez Paymob, bránu s PCI-DSS.",
+      "more": "Viac o bezpečnosti",
+      "intTitle": "Funguje s nástrojmi, ktoré už používate",
+      "int": [
+        "WhatsApp",
+        "E-mail",
+        "Paymob",
+        "Thawani",
+        "Import z Excel a CSV",
+        "Aplikácia pre Windows a macOS"
+      ]
+    }
+  }
+}

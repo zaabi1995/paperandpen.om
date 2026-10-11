@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Ir para o conteúdo principal",
+    "included": "Incluído",
+    "notIncluded": "Não incluído"
+  },
+  "nav": {
+    "features": "Funcionalidades",
+    "solutions": "Soluções",
+    "tools": "Ferramentas grátis",
+    "pricing": "Preços",
+    "compare": "Comparar",
+    "login": "Entrar",
+    "startFree": "Comece grátis",
+    "glossary": "Glossário",
+    "home": "Início",
+    "templates": "Modelos de fatura",
+    "alternatives": "Alternativas",
+    "resources": "Recursos",
+    "vat": "IVA por país"
+  },
+  "mega": {
+    "invoicing": "Faturamento e cobrança",
+    "quotations": "Orçamentos e estimativas",
+    "inventory": "Gestão de estoque",
+    "accounting": "Contabilidade",
+    "hr": "RH e folha de pagamento",
+    "reports": "Relatórios e análises",
+    "trading": "Empresas comerciais",
+    "retail": "Varejo e lojas",
+    "restaurants": "Restaurantes e cafés",
+    "freelancers": "Freelancers",
+    "accountants": "Contadores",
+    "invoiceGen": "Gerador de faturas grátis",
+    "quotationGen": "Gerador de orçamentos grátis",
+    "receiptGen": "Gerador de recibos grátis",
+    "vatCalc": "Calculadora de IVA de Omã",
+    "allFeatures": "Ver todas as funcionalidades",
+    "allTools": "Todas as ferramentas grátis",
+    "salescrm": "Vendas e CRM",
+    "payments": "Pagamentos",
+    "manufacturing": "Produção",
+    "multilang": "Multilíngue",
+    "contracting": "Construção e empreitadas",
+    "manufacturingInd": "Indústria",
+    "wholesale": "Atacado e distribuição",
+    "ecommerce": "E-commerce",
+    "logistics": "Logística e transporte",
+    "estimateGen": "Criador de estimativas grátis",
+    "allIndustries": "Todos os setores"
+  },
+  "sticky": {
+    "text": "Gerencie seu negócio grátis, para sempre."
+  },
+  "cta": {
+    "title": "Pronto para gerenciar seu negócio com o Paper & Pen?",
+    "sub": "Crie seu espaço de trabalho grátis em menos de 5 minutos. Vendas e Faturamento é grátis para sempre, sem cartão de crédito."
+  },
+  "proof": {
+    "builtInOman": "Feito em Omã · usado no mundo todo",
+    "free": "Vendas e Faturamento grátis para sempre. Sem cartão.",
+    "languages": "5 idiomas, árabe e urdu da direita para a esquerda"
+  },
+  "hero": {
+    "badge": "Para empresas de todo o mundo",
+    "tagline_line1": "O ERP que fala",
+    "tagline_line2": "a sua língua.",
+    "sub": "Gerencie vendas, estoque, RH e finanças em uma única plataforma na nuvem, em 5 idiomas e em qualquer moeda.",
+    "cta": "Comece grátis",
+    "seeModules": "Ver módulos",
+    "subdomainLabel": "URL do seu espaço",
+    "subdomainPlaceholder": "yourcompany",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "está disponível",
+    "taken_short": "já está em uso",
+    "checking": "Verificando disponibilidade...",
+    "subdomainError": "Não foi possível verificar a disponibilidade agora. Você pode continuar mesmo assim.",
+    "trialNote": "Grátis para sempre · Sem cartão de crédito · Adicione módulos quando quiser",
+    "card_title": "Resumo de hoje",
+    "stat1_label": "Receita deste mês",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Faturas em aberto",
+    "stat2_value": "12",
+    "stat3_label": "Funcionários de folga",
+    "stat3_value": "2",
+    "card_progress": "Meta mensal: 75% atingida",
+    "trust_count": "Feito em Omã",
+    "trust_label": "para empresas do Golfo"
+  },
+  "languages": {
+    "eyebrow": "Multilíngue · Multimoeda",
+    "title": "Feito para cada equipe, em cada mercado",
+    "sub": "Alterne na hora entre árabe, inglês, hindi, bengali e urdu, e fature em qualquer moeda. Seus dados continuam os mesmos, só a interface muda."
+  },
+  "modules": {
+    "eyebrow": "Modular por natureza",
+    "title": "Todos os módulos de que seu negócio precisa",
+    "sub": "Comece com Vendas e Faturamento e ative módulos conforme cresce: de CRM e RH a produção, bancos e IA. Um só sistema para toda a sua empresa.",
+    "included": "Incluído",
+    "omrPerMonth": "OMR/mês",
+    "estimateLabel": "Seu custo estimado",
+    "omr_mo": "OMR/mês",
+    "base_label": "Base",
+    "addons_label": "complementos",
+    "estimateNote": "Com base nos módulos escolhidos. Usuários cobrados à parte.",
+    "startTrial": "Comece grátis",
+    "sales": {
+      "title": "Vendas e CRM",
+      "desc": "Orçamentos, faturas, funil de clientes, controle de pagamentos e acompanhamentos."
+    },
+    "inventory": {
+      "title": "Estoque",
+      "desc": "Acompanhe estoque, locais e pontos de reposição em tempo real."
+    },
+    "hr": {
+      "title": "RH e folha de pagamento",
+      "desc": "Ponto, gestão de férias e ausências, folha de pagamento e portal do funcionário."
+    },
+    "accounting": {
+      "title": "Contabilidade",
+      "desc": "Partidas dobradas, conciliação bancária e declarações de IVA."
+    },
+    "manufacturing": {
+      "title": "Produção",
+      "desc": "Lista de materiais, ordens de produção e planejamento da produção."
+    },
+    "reports": {
+      "title": "Relatórios e análises",
+      "desc": "DRE, fluxo de caixa, contas a receber por vencimento e painéis personalizados."
+    },
+    "pricePerMonth": "+{{price}} OMR/mês",
+    "ctaTitle": "Pronto para gerenciar seu negócio com o Paper & Pen?",
+    "ctaSub": "Configure em minutos. Ative os módulos de que você precisa."
+  },
+  "pricing": {
+    "eyebrow": "Preços",
+    "title": "Preços simples e honestos",
+    "sub": "Comece grátis: Vendas e Faturamento sem custo, para sempre. Adicione módulos conforme cresce.",
+    "monthly": "Mensal",
+    "annual": "Anual",
+    "perMonth": "/mês",
+    "perYear": "/ano",
+    "annualSave": "Economize 20%",
+    "startTrial": "Comece grátis",
+    "mostPopular": "Mais popular",
+    "free_label": "Grátis",
+    "unlimited": "Ilimitados",
+    "users": "usuários",
+    "buildYourOwn": "Monte seu plano",
+    "trialNote": "Plano grátis para sempre · Sem cartão de crédito · Faça upgrade quando quiser",
+    "addModules": "Adicionar módulos",
+    "base": {
+      "title": "Vendas e Faturamento, grátis para sempre",
+      "desc": "Orçamentos, faturas e pagamentos, até 3 usuários. Sem cartão de crédito."
+    },
+    "free": {
+      "name": "Grátis",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Vendas e Faturamento, grátis para sempre",
+      "features": [
+        "Até 3 usuários",
+        "Vendas e faturamento",
+        "Orçamentos e pagamentos",
+        "Relatórios básicos",
+        "Sem cartão de crédito"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "Para empresas em crescimento que precisam de mais",
+      "features": [
+        "Até 20 usuários",
+        "Tudo do plano Grátis",
+        "Módulo de estoque",
+        "RH e folha de pagamento",
+        "Multimoeda",
+        "Notificações por WhatsApp",
+        "Suporte prioritário"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "ERP completo para empresas consolidadas",
+      "features": [
+        "Usuários ilimitados",
+        "Tudo do plano Growth",
+        "Contabilidade e sincronização bancária",
+        "Produção",
+        "Análises avançadas",
+        "Acesso à API",
+        "Suporte dedicado"
+      ]
+    },
+    "addons": {
+      "title": "Precisa de algo específico?",
+      "subtitle": "Adicione módulos avulsos a qualquer plano. Pague só pelo que precisa.",
+      "whatsapp_name": "Notificações por WhatsApp",
+      "whatsapp_desc": "{{price}} OMR/mês",
+      "extraUsers_name": "Usuários extras",
+      "extraUsers_desc": "A partir de {{price}} OMR por usuário por mês",
+      "extraStorage_name": "Armazenamento extra",
+      "extraStorage_desc": "{{price}} OMR por 5 GB por mês"
+    },
+    "headLead": "Preços simples",
+    "headAccent": "e honestos",
+    "planWord": "Plano",
+    "billedMonthly": "Cobrança mensal",
+    "billedAnnually": "Cobrança anual",
+    "billingPeriod": "Período de cobrança",
+    "worldwideNote": "Uma única tabela de preços global, em rial omanense (OMR). Pague com cartão de qualquer lugar do mundo.",
+    "compareTitle": "Compare todos os recursos dos planos",
+    "compareFeature": "Recurso",
+    "compareUsers": "Usuários",
+    "compareGroupCore": "Em todos os planos",
+    "compareGroupAdded": "Adicionado no {{plan}}",
+    "included": "Incluído",
+    "notIncluded": "Não incluído",
+    "scrollHint": "Deslize a tabela para o lado para comparar os planos",
+    "selectPlan": "Escolher plano"
+  },
+  "compare": {
+    "eyebrow": "Por que o Paper & Pen",
+    "title": "Como nos comparamos",
+    "feature": "Recurso",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Interface completa em árabe (RTL)",
+      "gcc_pricing": "Preços para o Golfo (OMR/BHD/AED)",
+      "free_trial": "Plano grátis para sempre, sem cartão",
+      "local_support": "Suporte local no Golfo",
+      "multi_lang": "Interface em 5 idiomas",
+      "paymob": "Paymob / pagamento local",
+      "onboarding": "Cadastro autônomo em < 5 min"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Dúvidas",
+    "title": "Tudo o que você precisa saber"
+  },
+  "related": {
+    "title": "Explore mais",
+    "termsTitle": "Termos desta página, explicados",
+    "exploreTitle": "Conheça o Paper & Pen"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | ERP na nuvem e software de faturamento grátis",
+    "homeDesc": "ERP na nuvem e software de faturamento grátis. Vendas, estoque, RH e contabilidade em 5 idiomas e qualquer moeda. Vendas e Faturamento grátis para sempre.",
+    "fiTitle": "Software de faturamento online grátis · Paper & Pen",
+    "fiDesc": "Crie e envie faturas profissionais em 1 clique. Faturamento online grátis com IVA, qualquer moeda, orçamentos e recibos. Grátis para sempre.",
+    "pricingTitle": "Preços · Paper & Pen",
+    "pricingDesc": "Preços simples. Vendas e Faturamento grátis para sempre. Adicione estoque, RH ou contabilidade conforme cresce. Sem cartão. Economize 20% no anual.",
+    "faqTitle": "Perguntas frequentes · Paper & Pen ERP",
+    "faqDesc": "Respostas sobre o Paper & Pen, o ERP na nuvem e software de faturamento grátis: preços, IVA, árabe, módulos, configuração e mais.",
+    "toolsTitle": "Ferramentas grátis para empresas · Paper & Pen",
+    "toolsDesc": "Ferramentas grátis e sem cadastro: faturas, orçamentos, recibos, pedidos de compra, guias de remessa e uma calculadora de IVA configurável.",
+    "aboutTitle": "Sobre o Paper & Pen · ERP na nuvem grátis, da BHD Group",
+    "aboutDesc": "O Paper & Pen é feito em Omã pela Paper and Pen Company LLC, parte da BHD Group. Um ERP na nuvem grátis para empresas do mundo todo, multimoeda.",
+    "contactTitle": "Fale com o Paper & Pen",
+    "contactDesc": "Entre em contato com a equipe do Paper & Pen. WhatsApp +968 9889 9100 ou por e-mail.",
+    "securityTitle": "Segurança e proteção de dados · Paper & Pen",
+    "securityDesc": "Como o Paper & Pen protege seus dados: criptografia, isolamento por cliente, backups, controle de acesso e pagamentos PCI-DSS via Paymob.",
+    "blogTitle": "Blog · Paper & Pen ERP",
+    "signupTitle": "Crie seu espaço grátis no Paper & Pen",
+    "signupDesc": "Configure seu espaço grátis no Paper & Pen ERP em menos de 5 minutos. Vendas e Faturamento grátis para sempre.",
+    "loginTitle": "Entrar no Paper & Pen",
+    "loginDesc": "Acesse seu espaço no Paper & Pen ERP.",
+    "glossaryTitle": "Glossário contábil · Paper & Pen",
+    "glossaryDesc": "Definições claras dos termos de contabilidade, faturamento, IVA e estoque que pequenas empresas encontram, com fórmulas e exemplos resolvidos.",
+    "templatesTitle": "Modelos de fatura grátis por profissão · Paper & Pen",
+    "templatesDesc": "Modelos de fatura e dicas de cobrança para empreiteiros, consultores, designers e serviços. O que mostrar, como precificar e como receber.",
+    "altTitle": "Alternativas de software contábil · Paper & Pen",
+    "altDesc": "Pensando em trocar de software contábil? O que migra, o que não migra, quando fazer a troca e quem faz melhor em ficar onde está.",
+    "compareTitle": "Comparativos de ERP e software de faturamento | Paper & Pen",
+    "compareDesc": "Compare o Paper & Pen com ERPs e softwares de contabilidade e faturamento: preços, idiomas, moedas, impostos, módulos e adequação prática.",
+    "industriesTitle": "ERP e software de faturamento por setor | Paper & Pen",
+    "industriesDesc": "Veja como o Paper & Pen apoia faturamento, estoque, contabilidade e operações em 15 setores, em cinco idiomas e qualquer moeda.",
+    "vatTitle": "IVA e fatura eletrônica no Golfo por país · Paper & Pen",
+    "vatDesc": "Alíquotas de IVA, limites de registro, requisitos da fatura e situação da fatura eletrônica em Omã, EAU, Arábia Saudita e Bahrein, com fontes."
+  },
+  "toolsIndex": {
+    "title": "Ferramentas grátis para empresas",
+    "sub": "Sem cadastro, sem custo. Gere faturas, orçamentos, recibos e mais, prontos para baixar em PDF, em qualquer moeda e com alíquota de IVA configurável."
+  },
+  "pages": {
+    "about": {
+      "title": "Feito em Omã, para as empresas do Golfo",
+      "lead": "O Paper & Pen é o ERP na nuvem que gostaríamos de ter tido: simples para começar em cinco minutos, poderoso para gerir a empresa inteira e, finalmente, pensado para como os negócios funcionam de verdade em Omã e no Golfo.",
+      "body1": "O Paper & Pen é feito pela Paper and Pen Company LLC, parte da BHD Group em Mascate, Omã. Criamos software em Omã, por omanenses, para empresas do Golfo, com o árabe como idioma de primeira classe, cobrança em OMR no núcleo do produto e pagamento local integrado.",
+      "body2": "Milhares de orçamentos, faturas e pagamentos passam pelo Paper & Pen. Vendas e Faturamento é grátis para sempre porque toda empresa merece ferramentas profissionais, e você só paga quando cresce para estoque, RH, contabilidade ou produção.",
+      "stat1": "Grátis para sempre",
+      "stat1l": "Vendas e Faturamento",
+      "stat2": "5",
+      "stat2l": "Idiomas",
+      "stat3": "< 5 min",
+      "stat3l": "Para começar",
+      "stat4": "OMR",
+      "stat4l": "Cobrança nativa"
+    },
+    "contact": {
+      "title": "Fale conosco",
+      "lead": "Dúvidas, demonstrações, parcerias: respondemos rápido. O jeito mais rápido de falar com a gente é pelo WhatsApp.",
+      "whatsapp": "Conversar no WhatsApp",
+      "email": "Enviar e-mail",
+      "hours": "De domingo a quinta, 8:00–17:00 (GMT+4)"
+    },
+    "security": {
+      "title": "Seus dados, protegidos",
+      "lead": "Segurança e privacidade fazem parte do Paper & Pen desde a base.",
+      "items": [
+        "Criptografia em trânsito (TLS) e em repouso",
+        "Banco de dados isolado por cliente, seus dados nunca são compartilhados",
+        "Backups automáticos e regulares",
+        "Controle de acesso por função e trilhas de auditoria",
+        "Pagamentos processados pela Paymob, um gateway em conformidade com PCI-DSS",
+        "Hospedado em infraestrutura reforçada e monitorada"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog do Paper & Pen",
+    "sub": "Guias sobre faturamento, IVA, contabilidade e gestão de negócios em Omã e no Golfo.",
+    "readMore": "Ler mais",
+    "empty": "Novos artigos estão a caminho. Volte em breve.",
+    "backToBlog": "Todos os artigos"
+  },
+  "fi": {
+    "crumb": "Software de faturamento grátis",
+    "eyebrow": "Faturamento online grátis",
+    "title": "Software de faturamento grátis,<br/>para empresas <em class=\"text-copper-400 not-italic\">de todo lugar</em>",
+    "subtitle": "Crie e envie faturas profissionais e prontas para impostos em um clique, em qualquer moeda e em 5 idiomas. Orçamentos, recibos, lembretes de pagamento e contabilidade completa. Grátis para sempre.",
+    "b1": "Grátis para sempre, sem cartão de crédito",
+    "b2": "Qualquer moeda + IVA configurável",
+    "b3": "Envie por WhatsApp ou e-mail em 1 clique",
+    "tryTool": "Experimente o gerador grátis",
+    "docsEyebrow": "Uma plataforma, todos os documentos",
+    "docsTitle": "Todos os documentos de que sua empresa precisa",
+    "docsSub": "Do primeiro orçamento ao último recibo, o Paper & Pen cria cada documento que sua empresa envia e os mantém organizados e conciliados automaticamente.",
+    "docs": {
+      "invoices": {
+        "t": "Faturas profissionais",
+        "d": "Faturas personalizáveis, com IVA e o seu logotipo, enviadas em segundos."
+      },
+      "quotes": {
+        "t": "Orçamentos e estimativas",
+        "d": "Feche negócios com orçamentos com a sua marca que viram fatura em um clique."
+      },
+      "proforma": {
+        "t": "Faturas pró-forma",
+        "d": "Emita faturas pró-forma para adiantamentos e alfândega."
+      },
+      "receipts": {
+        "t": "Recibos de pagamento",
+        "d": "Recibos gerados automaticamente assim que um pagamento é registrado."
+      },
+      "po": {
+        "t": "Pedidos de compra",
+        "d": "Emita e acompanhe pedidos de compra aos seus fornecedores."
+      },
+      "delivery": {
+        "t": "Guias de remessa",
+        "d": "Emita guias de remessa vinculadas a cada pedido."
+      },
+      "recurring": {
+        "t": "Faturas recorrentes",
+        "d": "Automatize a cobrança recorrente de assinaturas e mensalidades."
+      },
+      "reminders": {
+        "t": "Lembretes de pagamento",
+        "d": "Lembretes automáticos e educados para você receber em dia."
+      },
+      "share": {
+        "t": "Envio por WhatsApp e e-mail",
+        "d": "Compartilhe qualquer documento por WhatsApp ou e-mail com um toque."
+      }
+    },
+    "s1": {
+      "eyebrow": "Receba mais rápido",
+      "title": "Do orçamento ao recebimento, sem correr atrás",
+      "body": "Converta orçamentos em faturas, compartilhe pelo WhatsApp e deixe os lembretes automáticos cuidarem do acompanhamento. Veja exatamente quem abriu e quem pagou.",
+      "i1": "Orçamento → fatura → recibo em 1 clique",
+      "i2": "Lembretes de pagamento automáticos",
+      "i3": "Pagamento online via Paymob"
+    },
+    "s2": {
+      "eyebrow": "Em conformidade em qualquer lugar",
+      "title": "Qualquer moeda, qualquer alíquota, resolvido para você",
+      "body": "Fature em qualquer moeda, defina sua própria alíquota de IVA ou imposto sobre vendas e trabalhe em árabe ou inglês. Empresas do Golfo têm cobrança nativa em OMR/AED/SAR, IVA configurável e pagamento local prontos para usar.",
+      "i1": "IVA ou imposto sobre vendas configurável sobre o líquido",
+      "i2": "Modelos de fatura em árabe e inglês",
+      "i3": "Declarações e relatórios fiscais integrados"
+    },
+    "cmpEyebrow": "Por que mudar",
+    "cmpTitle": "O software de faturamento grátis feito para a região",
+    "faq": {
+      "q1": "O faturamento é mesmo grátis?",
+      "a1": "Sim. Faturamento, orçamentos e controle de pagamentos são grátis para sempre para até 3 usuários, sem cartão de crédito.",
+      "q2": "Ele trata o IVA de 5% de Omã?",
+      "a2": "Sim. O IVA é calculado automaticamente sobre o valor líquido após descontos, e você emite faturas e declarações de IVA em conformidade.",
+      "q3": "Posso enviar faturas em árabe?",
+      "a3": "Sim. Faturas, orçamentos e recibos aparecem totalmente em árabe (RTL) ou em inglês, à escolha em cada documento.",
+      "q4": "Os clientes podem pagar online?",
+      "a4": "Sim. Conecte a Paymob e seus clientes pagam as faturas online com cartão. Os pagamentos são conciliados automaticamente."
+    }
+  },
+  "pricingFaq": {
+    "q1": "O plano grátis é mesmo grátis para sempre?",
+    "a1": "Sim. Vendas e Faturamento é grátis para sempre para até 3 usuários, sem cartão de crédito e sem prazo de validade. Você só paga se adicionar módulos como Estoque, RH ou Contabilidade.",
+    "q2": "Posso alterar ou cancelar módulos depois?",
+    "a2": "Quando quiser. Adicione ou remova módulos pagos a qualquer momento, e a cobrança se ajusta automaticamente. Não há contrato de fidelidade.",
+    "q3": "Como sou cobrado e em qual moeda?",
+    "a3": "A cobrança é em rial omanense (OMR) com 3 casas decimais, mensal ou anual (economize 20% no anual). Os pagamentos com cartão são processados com segurança pela Paymob."
+  },
+  "tool": {
+    "from": "De",
+    "billTo": "Faturar para",
+    "docNo": "N.º do documento",
+    "date": "Data",
+    "item": "Descrição",
+    "qty": "Qtd.",
+    "rate": "Preço",
+    "amount": "Valor",
+    "addLine": "Adicionar linha",
+    "subtotal": "Subtotal",
+    "vat": "IVA",
+    "total": "Total",
+    "notes": "Observações",
+    "currency": "Moeda",
+    "applyVat": "Aplicar IVA / imposto",
+    "print": "Baixar / imprimir PDF",
+    "yourCompany": "Sua Empresa Ltda.",
+    "clientName": "Nome do cliente",
+    "signupCta": "Salve e gerencie seus documentos no Paper & Pen",
+    "labels": {
+      "invoice": "FATURA",
+      "quotation": "ORÇAMENTO",
+      "proforma": "FATURA PRÓ-FORMA",
+      "receipt": "RECIBO",
+      "purchase-order": "PEDIDO DE COMPRA",
+      "delivery-note": "GUIA DE REMESSA",
+      "estimate": "ESTIMATIVA",
+      "credit-note": "NOTA DE CRÉDITO"
+    },
+    "vatCalc": {
+      "amount": "Valor",
+      "mode": "Modo",
+      "addVat": "Adicionar IVA de 5%",
+      "removeVat": "Remover IVA",
+      "net": "Valor líquido",
+      "vat": "IVA",
+      "gross": "Bruto (com IVA)"
+    },
+    "tryFull": "Experimente o ERP completo",
+    "builderTitle": "Crie seu documento",
+    "featuresHeading": "Por que usar esta ferramenta grátis"
+  },
+  "homeFaq": {
+    "q1": "O Paper & Pen é mesmo grátis?",
+    "a1": "Sim. O módulo Vendas e Faturamento é grátis para sempre, sem cartão de crédito e sem limite de tempo. Você pode criar orçamentos e faturas e registrar pagamentos com até 3 usuários. Adicione módulos pagos como Estoque, RH ou Contabilidade só quando precisar.",
+    "q2": "O Paper & Pen funciona em árabe?",
+    "a2": "Totalmente. Toda a interface está disponível em árabe com layout correto da direita para a esquerda, além de inglês, hindi, bengali e urdu. Troque de idioma quando quiser, seus dados continuam exatamente iguais.",
+    "q3": "Posso usar o Paper & Pen fora do Golfo?",
+    "a3": "Sim. O Paper & Pen é feito em Omã pela Paper and Pen Company LLC (parte da BHD Group), mas funciona para empresas de qualquer lugar. Fature em qualquer moeda, defina sua própria alíquota de imposto e trabalhe em 5 idiomas. Empresas do Golfo também têm cobrança nativa em OMR/AED/SAR, IVA local e pagamentos via Paymob prontos para usar.",
+    "q4": "Quanto tempo leva a configuração?",
+    "a4": "Menos de 5 minutos. Escolha o nome do seu espaço, confirme seu e-mail, selecione seus módulos e pronto para faturar. Sem instalação, sem consultor, sem taxa de implantação."
+  },
+  "trust": {
+    "eyebrow": "Por que as empresas nos escolhem",
+    "title": "Feito em Omã. Usado por empresas do mundo todo.",
+    "sub": "Árabe em primeiro lugar, multimoeda e pronto para impostos, o Paper & Pen atende empresas do Golfo e muito além, com a simplicidade e o suporte próximo que as grandes plataformas esqueceram.",
+    "cta": "Crie seu espaço grátis",
+    "stat1_value": "5",
+    "stat1_label": "Idiomas disponíveis",
+    "stat2_value": "Grátis",
+    "stat2_label": "Para sempre, sem cartão",
+    "stat3_value": "RTL",
+    "stat3_label": "Árabe e urdu suportados",
+    "stat4_value": "Qualquer",
+    "stat4_label": "Moeda de cobrança"
+  },
+  "footer": {
+    "tagline": "O ERP na nuvem grátis para empresas em crescimento em todo lugar. Feito em Omã.",
+    "product": "Produto",
+    "tools": "Ferramentas grátis",
+    "company": "Empresa",
+    "about": "Sobre",
+    "blog": "Blog",
+    "security": "Segurança",
+    "freeInvoicing": "Software de faturamento grátis",
+    "legal": "Jurídico",
+    "contact": "Contato",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Termos de serviço",
+    "privacy": "Política de privacidade",
+    "status": "Todos os sistemas operacionais",
+    "rights": "© {{year}} Paper and Pen Company LLC. Todos os direitos reservados.",
+    "support": "Suporte",
+    "help": "Central de ajuda",
+    "contactSupport": "Falar com o suporte",
+    "statusPage": "Status do serviço",
+    "resources": "Recursos",
+    "faq": "Perguntas frequentes",
+    "invoices": "Faturas"
+  },
+  "signup": {
+    "title": "Crie seu espaço de trabalho",
+    "step1": {
+      "title": "Qual é o nome da sua empresa?",
+      "label": "Nome da empresa",
+      "placeholder": "Al Noor Trading LLC",
+      "subdomainLabel": "A URL do seu espaço será",
+      "next": "Continuar",
+      "subtitle": "Este será o seu subdomínio exclusivo do ERP.",
+      "workspaceUrlLabel": "URL do seu espaço:",
+      "available": "✓ Disponível",
+      "taken": "✗ Em uso",
+      "checking": "verificando..."
+    },
+    "step2": {
+      "title": "Seu e-mail",
+      "emailLabel": "Endereço de e-mail",
+      "password": "Senha",
+      "passwordHint": "Pelo menos 8 caracteres",
+      "language": "Idioma preferido",
+      "currency": "Moeda padrão",
+      "next": "Continuar",
+      "subtitle": "Enviaremos um código de uso único sempre que você entrar. Nenhuma senha para lembrar.",
+      "emailPlaceholder": "you@company.com",
+      "passwordLabel": "Senha",
+      "passwordPlaceholder": "Mín. 8 caracteres",
+      "back": "Voltar",
+      "emailHint": "Você receberá aqui um código de acesso de 6 dígitos a cada vez."
+    },
+    "step3": {
+      "title": "Escolha seus módulos",
+      "next": "Continuar",
+      "trialNote": "Teste grátis de 14 dias, cancele quando quiser",
+      "subtitle": "Vendas e Faturamento é sempre grátis. Adicione o que precisar.",
+      "baseTitle": "Vendas e Faturamento",
+      "baseSub": "Orçamentos, faturas, pagamentos · 3 usuários",
+      "baseTag": "Grátis",
+      "workspaceLabel": "Espaço",
+      "baseRow": "Base (Vendas)",
+      "baseValue": "Grátis para sempre",
+      "addonsLabel": "Módulos adicionais",
+      "dueToday": "A pagar hoje",
+      "freeNote": "Grátis para sempre. Sem cartão de crédito. Adicione módulos quando quiser.",
+      "paidNote": "Após o teste de 14 dias: {{total}} OMR/mês. Cartão salvo com segurança pela Paymob (verificação de 0.100 OMR, estornada na hora).",
+      "back": "Voltar",
+      "btnFree": "Criar meu espaço",
+      "btnPaid": "Iniciar teste de 14 dias",
+      "btnLoading": "Criando o espaço...",
+      "footerFree": "Sem cartão de crédito · Vendas e Faturamento grátis para sempre",
+      "footerPaid": "Cartão protegido pela Paymob · autorização de 0.100 OMR estornada na hora"
+    },
+    "step4": {
+      "title": "Preparando seu espaço...",
+      "steps": [
+        "Criando seu banco de dados",
+        "Configurando os módulos",
+        "Configurando seu domínio",
+        "Quase pronto!"
+      ],
+      "redirect": "Levando você ao seu espaço..."
+    },
+    "progress": {
+      "workspace": "Espaço",
+      "account": "Conta",
+      "modulesPayment": "Módulos e pagamento"
+    },
+    "errors": {
+      "gateway": "A URL do gateway de pagamento é inválida. Entre em contato com o suporte.",
+      "network": "Erro de rede. Verifique sua conexão e tente novamente.",
+      "generic": "Algo deu errado. Tente novamente.",
+      "companyRequired": "Digite o nome da sua empresa para continuar. Ele vira o endereço do seu espaço.",
+      "companyLetters": "Esse nome não tem letras nem números para formar um endereço web. Adicione pelo menos um.",
+      "subdomainTaken": "Esse endereço já está em uso. Acrescente uma palavra para torná-lo seu, como sua cidade ou uma abreviação do nome.",
+      "subdomainChecking": "Ainda estamos verificando se esse endereço está livre. Clique em Continuar de novo em instantes.",
+      "emailRequired": "Digite o e-mail com que você quer entrar. Seus códigos de uso único vão para lá.",
+      "emailInvalid": "Falta o @ ou a parte depois dele. Escreva o endereço completo, como you@company.com."
+    },
+    "rail": {
+      "cardLabel": "Cartão exigido hoje",
+      "cardValue": "Nenhum",
+      "dataLabel": "Seus dados se você sair",
+      "dataValue": "Seus para exportar",
+      "note": "Nada fica preso. Se parar de pagar um módulo, o espaço continua aberto no plano grátis, com seus registros exatamente onde você os deixou."
+    },
+    "securedBy": "Protegido pela Paymob"
+  },
+  "login": {
+    "title": "Bem-vindo de volta",
+    "subtitle": "Entre no seu espaço.",
+    "workspace": "Espaço",
+    "workspaceError": "Digite o nome do seu espaço (ex.: “yourcompany”).",
+    "email": "E-mail",
+    "emailLabel": "E-mail",
+    "password": "Senha",
+    "submit": "Continuar para o espaço",
+    "otpNote": "Enviaremos um código de uso único para o seu e-mail. Sem senha.",
+    "forgotPassword": "Esqueceu a senha?",
+    "noAccount": "Ainda não tem conta?",
+    "signUp": "Começar teste grátis"
+  },
+  "glossary": {
+    "title": "Glossário contábil",
+    "eyebrow": "Definições claras",
+    "sub": "{{count}} termos de contabilidade, faturamento e impostos explicados de forma simples, com a fórmula e um exemplo resolvido sempre que a conta é o que realmente complica.",
+    "filterLabel": "Filtrar termos",
+    "filterPlaceholder": "Pesquisar no glossário",
+    "filterCount": "Mostrando {{shown}} de {{total}} termos",
+    "definitionTitle": "O que é {{term}}?",
+    "mattersTitle": "Por que isso importa para o seu negócio",
+    "faqTitle": "Dúvidas comuns",
+    "relatedTerms": "Termos relacionados",
+    "seeAlso": "Veja também",
+    "browseAll": "Ver todos os termos do glossário",
+    "cat": {
+      "invoicing": "Faturamento e documentos",
+      "accounting": "Contabilidade e escrituração",
+      "tax": "Impostos e IVA",
+      "inventory": "Estoque e custos",
+      "metrics": "Indicadores financeiros"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Documentos de faturamento",
+    "eyebrow": "Documentos de venda",
+    "sub": "Faturas, orçamentos, estimativas, guias de remessa, notas de crédito e o resto do processo de vendas. Crie e envie grátis, em qualquer moeda.",
+    "metaTitle": "Documentos de faturamento · Paper & Pen",
+    "metaDesc": "Crie faturas, orçamentos, estimativas, guias de remessa e notas de crédito online, grátis e em qualquer moeda. Envie por WhatsApp ou e-mail."
+  },
+  "featuresIndex": {
+    "title": "Funcionalidades do ERP",
+    "eyebrow": "O que o software faz",
+    "sub": "Faturamento, estoque, contabilidade, RH e os outros módulos do Paper & Pen. O faturamento continua grátis. Os demais módulos são opcionais.",
+    "metaTitle": "Funcionalidades do ERP · Paper & Pen",
+    "metaDesc": "Conheça os módulos do Paper & Pen: faturamento grátis, estoque, contabilidade, RH e mais. Veja o que cada um faz antes de ativar."
+  },
+  "useCasesIndex": {
+    "title": "Para quem é o Paper & Pen",
+    "eyebrow": "Casos de uso",
+    "sub": "Como freelancers, agências, contadores e pequenas empresas usam o mesmo núcleo de faturamento grátis, e quais módulos extras adicionam.",
+    "metaTitle": "Casos de uso do ERP · Paper & Pen",
+    "metaDesc": "Veja como freelancers, agências, contadores e pequenas empresas usam o Paper & Pen, e quais módulos cada um realmente precisa."
+  },
+  "templatesIndex": {
+    "title": "Modelos de fatura por profissão",
+    "eyebrow": "Modelos grátis",
+    "sub": "O que uma fatura realmente precisa mostrar no seu ramo, como esse tipo de trabalho costuma ser cobrado e como receber sem correr atrás. Monte a fatura no gerador grátis, sem cadastro."
+  },
+  "altIndex": {
+    "title": "Migrando de outro software contábil",
+    "eyebrow": "Guias de migração",
+    "sub": "O que migra, o que não migra, o momento sensato do ano fiscal para fazer a troca e uma nota honesta sobre quem deveria ficar onde está."
+  },
+  "compareIndex": {
+    "title": "Comparativos de ERP e software de faturamento",
+    "eyebrow": "Compare suas opções",
+    "sub": "Comparações lado a lado para empresas que escolhem software de faturamento, contabilidade ou ERP. Analise preços, idiomas, moedas, configurações fiscais e no que cada opção se sai melhor."
+  },
+  "industriesIndex": {
+    "title": "ERP e software de faturamento por setor",
+    "eyebrow": "Feito para o seu trabalho",
+    "sub": "Conheça fluxos práticos para 15 setores, do comércio e varejo à saúde, educação, logística e serviços profissionais."
+  },
+  "vat": {
+    "factsEyebrow": "Os números",
+    "factsTitle": "IVA em {{country}}, num relance",
+    "colItem": "Item",
+    "colValue": "Valor",
+    "colDetail": "Detalhe e fonte",
+    "fieldsTitle": "O que uma fatura fiscal em {{country}} deve mostrar",
+    "einvEyebrow": "Fatura eletrônica",
+    "sourcesTitle": "Fontes",
+    "sourcesNote": "Cada número e lista de campos desta página vem do documento indicado abaixo, publicado pela própria autoridade fiscal. Não publicamos alíquota, limite ou prazo que não possamos comprovar.",
+    "authorityNote": "As regras fiscais mudam. Antes de confiar em algo daqui, confirme a situação atual com "
+  },
+  "vatIndex": {
+    "title": "IVA e fatura eletrônica por país",
+    "eyebrow": "Regras fiscais do Golfo",
+    "sub": "Alíquotas, limites de registro, o que uma fatura fiscal deve mostrar e onde a fatura eletrônica realmente está, país por país, com um link para o texto da autoridade fiscal por trás de cada número.",
+    "whatIsVat": "O que é o IVA?",
+    "whatIsEinv": "O que é a fatura eletrônica?"
+  },
+  "legal": {
+    "englishOnly": "Estes termos são publicados apenas em inglês. O texto em inglês é a versão válida, e nenhuma tradução é oferecida como documento vinculativo. Se precisar analisá-los em outro idioma, fale conosco e ajudaremos."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Módulos que você pode ativar",
+      "db_v": "1",
+      "db_l": "Banco de dados privado por espaço"
+    },
+    "ai": {
+      "eyebrow": "IA integrada",
+      "title": "IA que faz o trabalho chato",
+      "sub": "A IA do Paper & Pen trabalha com os seus próprios registros. Ela responde perguntas, lê e-mails de fornecedores e responde clientes no WhatsApp. Você aprova o que importa.",
+      "c1t": "Pergunte ao seu negócio",
+      "c1d": "Pergunte com palavras simples, como \"quem nos deve mais?\". A resposta vem dos seus registros em tempo real.",
+      "c2t": "Caixa mágica",
+      "c2d": "Encaminhe o e-mail de um fornecedor. O Paper & Pen lê a conta e prepara o lançamento de compra para você aprovar.",
+      "c3t": "Respostas no WhatsApp",
+      "c3d": "Conecte sua linha de WhatsApp. A IA responde dúvidas sobre preços e pedidos e envia orçamentos e faturas.",
+      "note": "Os módulos de IA são complementos opcionais.",
+      "mockTitle": "Pergunte ao Paper & Pen",
+      "q": "Quem nos deve mais dinheiro?",
+      "a": "A Harbour Point Ltd é quem mais deve. A fatura está vencida:",
+      "overdue": "Vencida",
+      "input": "Faça uma pergunta"
+    },
+    "how": {
+      "eyebrow": "Do cadastro ao uso",
+      "title": "Funcionando hoje, não no próximo trimestre",
+      "s1t": "Escolha o nome do seu espaço",
+      "s1d": "Escolha yourcompany.paperandpen.om. Sem cartão e sem ligação de vendas.",
+      "s2t": "Ative o que você precisa",
+      "s2d": "Comece com o faturamento grátis. Adicione estoque, RH, contabilidade ou IA quando precisar.",
+      "s3t": "Traga sua equipe e seus dados",
+      "s3d": "Importe clientes e produtos de uma planilha, convide sua equipe e envie sua primeira fatura."
+    },
+    "ind": {
+      "eyebrow": "Feito para o seu setor",
+      "title": "Pronto para o jeito como seu negócio funciona",
+      "sub": "Documentos, fluxos e relatórios configurados para 15 setores.",
+      "all": "Ver todos os setores"
+    },
+    "sec": {
+      "eyebrow": "Segurança",
+      "title": "Seus dados continuam seus",
+      "i1t": "Banco de dados privado",
+      "i1d": "Cada espaço roda em seu próprio banco de dados. Sem tabelas compartilhadas.",
+      "i2t": "Criptografado",
+      "i2d": "TLS em trânsito e criptografia em repouso.",
+      "i3t": "Backups regulares",
+      "i3d": "Cada espaço tem backup automático.",
+      "i4t": "Pagamentos seguros",
+      "i4d": "Os pagamentos com cartão passam pela Paymob, um gateway PCI-DSS.",
+      "more": "Saiba mais sobre segurança",
+      "intTitle": "Funciona com as ferramentas que você já usa",
+      "int": [
+        "WhatsApp",
+        "E-mail",
+        "Paymob",
+        "Thawani",
+        "Importação de Excel e CSV",
+        "App para Windows e macOS"
+      ]
+    }
+  }
+}

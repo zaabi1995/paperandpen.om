@@ -1,0 +1,760 @@
+{
+  "a11y": {
+    "skipToContent": "Przejdź do treści głównej",
+    "included": "W cenie",
+    "notIncluded": "Brak"
+  },
+  "nav": {
+    "features": "Funkcje",
+    "solutions": "Rozwiązania",
+    "tools": "Darmowe narzędzia",
+    "pricing": "Cennik",
+    "compare": "Porównanie",
+    "login": "Zaloguj się",
+    "startFree": "Zacznij za darmo",
+    "glossary": "Słownik",
+    "home": "Strona główna",
+    "templates": "Szablony faktur",
+    "alternatives": "Alternatywy",
+    "resources": "Zasoby",
+    "vat": "VAT w poszczególnych krajach"
+  },
+  "mega": {
+    "invoicing": "Faktury i rozliczenia",
+    "quotations": "Oferty i kosztorysy",
+    "inventory": "Gospodarka magazynowa",
+    "accounting": "Księgowość",
+    "hr": "HR i płace",
+    "reports": "Raporty i analizy",
+    "trading": "Firmy handlowe",
+    "retail": "Handel detaliczny i sklepy",
+    "restaurants": "Restauracje i kawiarnie",
+    "freelancers": "Freelancerzy",
+    "accountants": "Księgowi",
+    "invoiceGen": "Darmowy generator faktur",
+    "quotationGen": "Darmowy generator ofert",
+    "receiptGen": "Darmowy generator pokwitowań",
+    "vatCalc": "Kalkulator VAT dla Omanu",
+    "allFeatures": "Wszystkie funkcje",
+    "allTools": "Wszystkie darmowe narzędzia",
+    "salescrm": "Sprzedaż i CRM",
+    "payments": "Płatności",
+    "manufacturing": "Produkcja",
+    "multilang": "Wielojęzyczność",
+    "contracting": "Wykonawstwo i budownictwo",
+    "manufacturingInd": "Produkcja",
+    "wholesale": "Hurt i dystrybucja",
+    "ecommerce": "E-commerce",
+    "logistics": "Logistyka i transport",
+    "estimateGen": "Darmowy generator kosztorysów",
+    "allIndustries": "Wszystkie branże"
+  },
+  "sticky": {
+    "text": "Prowadź firmę za darmo, na zawsze."
+  },
+  "cta": {
+    "title": "Gotowy, by prowadzić firmę w Paper & Pen?",
+    "sub": "Darmowe konto firmowe w mniej niż 5 minut. Sprzedaż i faktury są bezpłatne na zawsze, bez karty kredytowej."
+  },
+  "proof": {
+    "builtInOman": "Stworzone w Omanie · używane na całym świecie",
+    "free": "Sprzedaż i faktury bezpłatnie na zawsze. Bez karty.",
+    "languages": "5 języków, arabski i urdu od prawej do lewej"
+  },
+  "hero": {
+    "badge": "Dla firm na całym świecie",
+    "tagline_line1": "ERP, który mówi",
+    "tagline_line2": "Twoim językiem.",
+    "sub": "Sprzedaż, magazyn, HR i finanse na jednej platformie w chmurze, w 5 językach i dowolnej walucie.",
+    "cta": "Zacznij za darmo",
+    "seeModules": "Zobacz moduły",
+    "subdomainLabel": "Adres przestrzeni roboczej",
+    "subdomainPlaceholder": "yourcompany",
+    "subdomainSuffix": ".paperandpen.om",
+    "available_short": "jest wolny",
+    "taken_short": "jest już zajęty",
+    "checking": "Sprawdzanie dostępności...",
+    "subdomainError": "Nie można teraz sprawdzić dostępności. Można mimo to kontynuować.",
+    "trialNote": "Za darmo na zawsze · Bez karty kredytowej · Moduły w dowolnym momencie",
+    "card_title": "Podsumowanie dnia",
+    "stat1_label": "Przychód w tym miesiącu",
+    "stat1_value": "2,840 OMR",
+    "stat2_label": "Otwarte faktury",
+    "stat2_value": "12",
+    "stat3_label": "Pracownicy na urlopie",
+    "stat3_value": "2",
+    "card_progress": "Cel miesięczny: 75% osiągnięte",
+    "trust_count": "Stworzone w Omanie",
+    "trust_label": "dla firm z krajów Zatoki"
+  },
+  "languages": {
+    "eyebrow": "Wiele języków · Wiele walut",
+    "title": "Dla każdego zespołu, na każdym rynku",
+    "sub": "Przełączaj się między arabskim, angielskim, hindi, bengalskim i urdu w jednej chwili i wystawiaj faktury w dowolnej walucie. Dane pozostają te same, zmienia się tylko interfejs."
+  },
+  "modules": {
+    "eyebrow": "Budowa modułowa",
+    "title": "Wszystkie moduły potrzebne firmie",
+    "sub": "Zacznij od sprzedaży i faktur, a potem włączaj kolejne moduły w miarę rozwoju: od CRM i HR po produkcję, bankowość i AI. Jeden system dla całej firmy.",
+    "included": "W cenie",
+    "omrPerMonth": "OMR/mies.",
+    "estimateLabel": "Szacowany koszt",
+    "omr_mo": "OMR/mies.",
+    "base_label": "Podstawa",
+    "addons_label": "dodatki",
+    "estimateNote": "Na podstawie wybranych modułów. Użytkownicy rozliczani osobno.",
+    "startTrial": "Zacznij za darmo",
+    "sales": {
+      "title": "Sprzedaż i CRM",
+      "desc": "Oferty, faktury, lejek klientów, kontrola płatności i przypomnienia."
+    },
+    "inventory": {
+      "title": "Magazyn",
+      "desc": "Stany, lokalizacje i progi zamówień w czasie rzeczywistym."
+    },
+    "hr": {
+      "title": "HR i płace",
+      "desc": "Obecności, urlopy, płace i portal pracownika."
+    },
+    "accounting": {
+      "title": "Księgowość",
+      "desc": "Księga podwójnego zapisu, uzgadnianie bankowe i deklaracje VAT."
+    },
+    "manufacturing": {
+      "title": "Produkcja",
+      "desc": "Zestawienia materiałów, zlecenia produkcyjne i planowanie."
+    },
+    "reports": {
+      "title": "Raporty i analizy",
+      "desc": "Rachunek zysków i strat, przepływy pieniężne, należności i własne pulpity."
+    },
+    "pricePerMonth": "+{{price}} OMR/mies.",
+    "ctaTitle": "Gotowy, by prowadzić firmę w Paper & Pen?",
+    "ctaSub": "Konfiguracja w kilka minut. Włącz tylko potrzebne moduły."
+  },
+  "pricing": {
+    "eyebrow": "Cennik",
+    "title": "Prosty, uczciwy cennik",
+    "sub": "Na start za darmo: sprzedaż i faktury bez opłat na zawsze. Moduły dodajesz w miarę rozwoju.",
+    "monthly": "Miesięcznie",
+    "annual": "Rocznie",
+    "perMonth": "/mies.",
+    "perYear": "/rok",
+    "annualSave": "Oszczędność 20%",
+    "startTrial": "Zacznij za darmo",
+    "mostPopular": "Najpopularniejszy",
+    "free_label": "Za darmo",
+    "unlimited": "Bez limitu",
+    "users": "użytkowników",
+    "buildYourOwn": "Zbuduj własny plan",
+    "trialNote": "Darmowy plan na zawsze · Bez karty kredytowej · Zmiana planu w dowolnym momencie",
+    "addModules": "Dodaj moduły",
+    "base": {
+      "title": "Sprzedaż i faktury, za darmo na zawsze",
+      "desc": "Oferty, faktury, płatności, do 3 użytkowników. Bez karty."
+    },
+    "free": {
+      "name": "Darmowy",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "description": "Sprzedaż i faktury, za darmo na zawsze",
+      "features": [
+        "Do 3 użytkowników",
+        "Sprzedaż i faktury",
+        "Oferty i płatności",
+        "Podstawowe raporty",
+        "Bez karty kredytowej"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "price_monthly": 25,
+      "price_annual": 240,
+      "description": "Dla rosnących firm, które potrzebują więcej",
+      "features": [
+        "Do 20 użytkowników",
+        "Wszystko z planu Darmowy",
+        "Moduł magazynu",
+        "HR i płace",
+        "Wiele walut",
+        "Powiadomienia WhatsApp",
+        "Wsparcie priorytetowe"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price_monthly": 49,
+      "price_annual": 470,
+      "description": "Pełny ERP dla dojrzałych firm",
+      "features": [
+        "Bez limitu użytkowników",
+        "Wszystko z planu Growth",
+        "Księgowość i synchronizacja z bankiem",
+        "Produkcja",
+        "Zaawansowana analityka",
+        "Dostęp do API",
+        "Dedykowane wsparcie"
+      ]
+    },
+    "addons": {
+      "title": "Potrzeba czegoś konkretnego?",
+      "subtitle": "Pojedyncze moduły można dodać do każdego planu. Płacisz tylko za to, czego używasz.",
+      "whatsapp_name": "Powiadomienia WhatsApp",
+      "whatsapp_desc": "{{price}} OMR/miesiąc",
+      "extraUsers_name": "Dodatkowi użytkownicy",
+      "extraUsers_desc": "Od {{price}} OMR za użytkownika miesięcznie",
+      "extraStorage_name": "Dodatkowe miejsce",
+      "extraStorage_desc": "{{price}} OMR za 5 GB miesięcznie"
+    },
+    "headLead": "Prosty, uczciwy",
+    "headAccent": "cennik",
+    "planWord": "Plan",
+    "billedMonthly": "Płatność miesięczna",
+    "billedAnnually": "Płatność roczna",
+    "billingPeriod": "Okres rozliczeniowy",
+    "worldwideNote": "Jeden cennik dla całego świata, w rialach omańskich (OMR). Płatność kartą z każdego kraju.",
+    "compareTitle": "Porównaj wszystkie funkcje planów",
+    "compareFeature": "Funkcja",
+    "compareUsers": "Użytkownicy",
+    "compareGroupCore": "W każdym planie",
+    "compareGroupAdded": "Dodane w planie {{plan}}",
+    "included": "W cenie",
+    "notIncluded": "Brak",
+    "scrollHint": "Przesuń tabelę w bok, aby porównać plany",
+    "selectPlan": "Wybierz plan"
+  },
+  "compare": {
+    "eyebrow": "Dlaczego Paper & Pen",
+    "title": "Jak wypadamy na tle innych",
+    "feature": "Funkcja",
+    "pp": "Paper & Pen",
+    "zoho": "Zoho",
+    "odoo": "Odoo",
+    "tally": "Tally",
+    "sowaan": "SowaanERP",
+    "rows": {
+      "arabic": "Pełny arabski interfejs RTL",
+      "gcc_pricing": "Ceny dla krajów Zatoki (OMR/BHD/AED)",
+      "free_trial": "Darmowy plan na zawsze, bez karty",
+      "local_support": "Lokalne wsparcie w krajach Zatoki",
+      "multi_lang": "Interfejs w 5 językach",
+      "paymob": "Paymob / lokalne płatności",
+      "onboarding": "Samodzielne wdrożenie < 5 min"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "Pytania",
+    "title": "Wszystko, co warto wiedzieć"
+  },
+  "related": {
+    "title": "Zobacz także",
+    "termsTitle": "Pojęcia z tej strony w prostych słowach",
+    "exploreTitle": "Poznaj Paper & Pen"
+  },
+  "seo": {
+    "homeTitle": "Paper & Pen | Darmowy ERP w chmurze i program do faktur",
+    "homeDesc": "Darmowy ERP w chmurze i program do faktur. Sprzedaż, magazyn, HR i księgowość w 5 językach i dowolnej walucie. Sprzedaż i faktury za darmo na zawsze.",
+    "fiTitle": "Darmowy program do faktur online · Paper & Pen",
+    "fiDesc": "Twórz i wysyłaj profesjonalne faktury jednym kliknięciem. Darmowy program z VAT, dowolną walutą, ofertami i pokwitowaniami. Za darmo na zawsze.",
+    "pricingTitle": "Cennik · Paper & Pen",
+    "pricingDesc": "Prosty cennik. Sprzedaż i faktury za darmo na zawsze. Magazyn, HR, księgowość i więcej w miarę rozwoju. Bez karty na start. 20% taniej rocznie.",
+    "faqTitle": "Najczęstsze pytania · Paper & Pen ERP",
+    "faqDesc": "Odpowiedzi o Paper & Pen, darmowym ERP w chmurze i programie do faktur: cennik, VAT, język arabski, moduły, konfiguracja i więcej.",
+    "toolsTitle": "Darmowe narzędzia dla firm · Paper & Pen",
+    "toolsDesc": "Darmowe narzędzia bez rejestracji: faktury, oferty, pokwitowania, zamówienia zakupu, dokumenty dostawy i kalkulator VAT z własną stawką.",
+    "aboutTitle": "O Paper & Pen · Darmowy ERP w chmurze od BHD Group",
+    "aboutDesc": "Paper & Pen tworzy w Omanie Paper and Pen Company LLC, część BHD Group. Darmowy ERP w chmurze dla firm na całym świecie, z arabskim i wieloma walutami.",
+    "contactTitle": "Kontakt z Paper & Pen",
+    "contactDesc": "Skontaktuj się z zespołem Paper & Pen. WhatsApp +968 9889 9100 lub e-mail.",
+    "securityTitle": "Bezpieczeństwo i ochrona danych · Paper & Pen",
+    "securityDesc": "Jak Paper & Pen chroni dane firmy: szyfrowanie, izolacja każdego klienta, kopie zapasowe, kontrola dostępu i płatności PCI-DSS przez Paymob.",
+    "blogTitle": "Blog · Paper & Pen ERP",
+    "signupTitle": "Załóż darmową przestrzeń roboczą Paper & Pen",
+    "signupDesc": "Darmowa przestrzeń robocza Paper & Pen ERP w mniej niż 5 minut. Sprzedaż i faktury za darmo na zawsze.",
+    "loginTitle": "Logowanie do Paper & Pen",
+    "loginDesc": "Zaloguj się do swojej przestrzeni roboczej Paper & Pen ERP.",
+    "glossaryTitle": "Słownik księgowy · Paper & Pen",
+    "glossaryDesc": "Proste definicje pojęć z księgowości, fakturowania, VAT i magazynu, z którymi spotykają się małe firmy, z wzorami i przykładami.",
+    "templatesTitle": "Darmowe szablony faktur według zawodu · Paper & Pen",
+    "templatesDesc": "Szablony faktur i wskazówki dla wykonawców, konsultantów, projektantów, rzemieślników i usług. Co pokazać, jak wycenić i jak dostać zapłatę.",
+    "altTitle": "Alternatywy dla programów księgowych · Paper & Pen",
+    "altDesc": "Planujesz zmianę programu księgowego? Co da się przenieść, czego nie, kiedy przejść i komu lepiej zostać przy obecnym.",
+    "compareTitle": "Porównania ERP i programów do faktur | Paper & Pen",
+    "compareDesc": "Porównaj Paper & Pen z ERP, programami księgowymi i do faktur: ceny, języki, waluty, ustawienia podatkowe, moduły i praktyczne dopasowanie.",
+    "industriesTitle": "ERP i program do faktur według branży | Paper & Pen",
+    "industriesDesc": "Jak Paper & Pen wspiera faktury, magazyn, księgowość i operacje w 15 branżach, w pięciu językach i dowolnej walucie.",
+    "vatTitle": "VAT i e-faktury w krajach Zatoki · Paper & Pen",
+    "vatDesc": "Stawki VAT, progi rejestracji, wymogi faktury VAT i status e-faktur w Omanie, ZEA, Arabii Saudyjskiej i Bahrajnie, z odnośnikami do źródeł."
+  },
+  "toolsIndex": {
+    "title": "Darmowe narzędzia dla firm",
+    "sub": "Bez rejestracji i bez opłat. Faktury, oferty, pokwitowania i inne dokumenty gotowe do pobrania w PDF, w dowolnej walucie i z własną stawką VAT."
+  },
+  "pages": {
+    "about": {
+      "title": "Stworzone w Omanie dla firm z krajów Zatoki",
+      "lead": "Paper & Pen to ERP w chmurze, o jakim sami marzyliśmy: na tyle prosty, by zacząć w pięć minut, na tyle mocny, by prowadzić całą firmę, i zbudowany pod to, jak naprawdę działa biznes w Omanie i krajach Zatoki.",
+      "body1": "Paper & Pen tworzy Paper and Pen Company LLC, część BHD Group z Maskatu w Omanie. Budujemy oprogramowanie w Omanie, rękami Omańczyków, dla firm z krajów Zatoki: z arabskim jako pełnoprawnym językiem, rozliczeniami w OMR w samym rdzeniu i wbudowanymi lokalnymi płatnościami.",
+      "body2": "Przez Paper & Pen przechodzą tysiące ofert, faktur i płatności. Sprzedaż i faktury są darmowe na zawsze, bo każda firma zasługuje na profesjonalne narzędzia. Płacisz dopiero wtedy, gdy potrzebujesz magazynu, HR, księgowości lub produkcji.",
+      "stat1": "Za darmo na zawsze",
+      "stat1l": "Sprzedaż i faktury",
+      "stat2": "5",
+      "stat2l": "Języków",
+      "stat3": "< 5 min",
+      "stat3l": "Na start",
+      "stat4": "OMR",
+      "stat4l": "Natywne rozliczenia"
+    },
+    "contact": {
+      "title": "Porozmawiajmy",
+      "lead": "Pytania, prezentacje, partnerstwo: odpowiadamy szybko. Najszybciej skontaktujesz się z nami przez WhatsApp.",
+      "whatsapp": "Napisz na WhatsApp",
+      "email": "Napisz e-mail",
+      "hours": "Niedziela–czwartek, 8:00–17:00 (GMT+4)"
+    },
+    "security": {
+      "title": "Dane pod ochroną",
+      "lead": "Bezpieczeństwo i prywatność są wbudowane w Paper & Pen od podstaw.",
+      "items": [
+        "Szyfrowanie w transmisji (TLS) i w spoczynku",
+        "Osobna baza danych dla każdego klienta, dane nigdy nie są współdzielone",
+        "Regularne automatyczne kopie zapasowe",
+        "Dostęp oparty na rolach i dziennik zdarzeń",
+        "Płatności obsługuje Paymob, bramka zgodna z PCI-DSS",
+        "Zabezpieczona infrastruktura ze stałym monitoringiem"
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog Paper & Pen",
+    "sub": "Poradniki o fakturach, VAT, księgowości i prowadzeniu firmy w Omanie i krajach Zatoki.",
+    "readMore": "Czytaj dalej",
+    "empty": "Nowe artykuły są w drodze. Zajrzyj wkrótce.",
+    "backToBlog": "Wszystkie artykuły"
+  },
+  "fi": {
+    "crumb": "Darmowy program do faktur",
+    "eyebrow": "Darmowe faktury online",
+    "title": "Darmowy program do faktur<br/>dla firm <em class=\"text-copper-400 not-italic\">na całym świecie</em>",
+    "subtitle": "Twórz i wysyłaj profesjonalne faktury z podatkiem jednym kliknięciem, w dowolnej walucie i 5 językach. Oferty, pokwitowania, przypomnienia o płatności i pełna księgowość. Za darmo na zawsze.",
+    "b1": "Za darmo na zawsze, bez karty",
+    "b2": "Dowolna waluta i własna stawka VAT",
+    "b3": "Wysyłka przez WhatsApp lub e-mail jednym kliknięciem",
+    "tryTool": "Wypróbuj darmowy generator",
+    "docsEyebrow": "Jedna platforma, wszystkie dokumenty",
+    "docsTitle": "Wszystkie dokumenty, których potrzebuje firma",
+    "docsSub": "Od pierwszej oferty po ostatnie pokwitowanie Paper & Pen tworzy każdy dokument firmy, a potem sam porządkuje i uzgadnia wszystko automatycznie.",
+    "docs": {
+      "invoices": {
+        "t": "Profesjonalne faktury",
+        "d": "Konfigurowalne faktury z VAT i logo firmy, wysłane w kilka sekund."
+      },
+      "quotes": {
+        "t": "Oferty i kosztorysy",
+        "d": "Zdobywaj zlecenia dzięki ofertom z logo, które jednym kliknięciem stają się fakturą."
+      },
+      "proforma": {
+        "t": "Faktury pro forma",
+        "d": "Faktury pro forma do przedpłat i odpraw celnych."
+      },
+      "receipts": {
+        "t": "Pokwitowania wpłat",
+        "d": "Pokwitowanie powstaje automatycznie, gdy tylko płatność zostanie zapisana."
+      },
+      "po": {
+        "t": "Zamówienia zakupu",
+        "d": "Wystawiaj i śledź zamówienia u dostawców."
+      },
+      "delivery": {
+        "t": "Dokumenty dostawy",
+        "d": "Dokumenty WZ powiązane z każdym zamówieniem."
+      },
+      "recurring": {
+        "t": "Faktury cykliczne",
+        "d": "Automatyczne faktury za subskrypcje i stałą obsługę."
+      },
+      "reminders": {
+        "t": "Przypomnienia o płatności",
+        "d": "Automatyczne, uprzejme przypomnienia, by płatności wpływały na czas."
+      },
+      "share": {
+        "t": "Wysyłka przez WhatsApp i e-mail",
+        "d": "Każdy dokument można wysłać przez WhatsApp lub e-mail jednym dotknięciem."
+      }
+    },
+    "s1": {
+      "eyebrow": "Szybsze płatności",
+      "title": "Od oferty do zapłaty bez ponaglania",
+      "body": "Zamieniaj oferty w faktury, wysyłaj je przez WhatsApp, a automatyczne przypomnienia zajmą się resztą. Widać dokładnie, kto otworzył dokument i kto zapłacił.",
+      "i1": "Oferta → faktura → pokwitowanie jednym kliknięciem",
+      "i2": "Automatyczne przypomnienia o płatności",
+      "i3": "Płatności online przez Paymob"
+    },
+    "s2": {
+      "eyebrow": "Zgodność w każdym kraju",
+      "title": "Dowolna waluta i dowolna stawka podatku",
+      "body": "Wystawiaj faktury w dowolnej walucie, ustaw własną stawkę VAT lub podatku od sprzedaży i pracuj po arabsku lub angielsku. Firmy z krajów Zatoki mają od razu rozliczenia w OMR/AED/SAR, konfigurowalny VAT i lokalne płatności.",
+      "i1": "Konfigurowalny VAT lub podatek od sprzedaży od kwoty netto",
+      "i2": "Szablony faktur po arabsku i angielsku",
+      "i3": "Wbudowane deklaracje i raporty podatkowe"
+    },
+    "cmpEyebrow": "Dlaczego warto przejść",
+    "cmpTitle": "Darmowy program do faktur stworzony dla naszego regionu",
+    "faq": {
+      "q1": "Czy fakturowanie jest naprawdę darmowe?",
+      "a1": "Tak. Faktury, oferty i kontrola płatności są darmowe na zawsze dla maksymalnie 3 użytkowników, bez karty kredytowej.",
+      "q2": "Czy program obsługuje 5% VAT w Omanie?",
+      "a2": "Tak. VAT liczy się automatycznie od kwoty netto po rabacie, a faktury i deklaracje VAT są zgodne z przepisami.",
+      "q3": "Czy można wysyłać faktury po arabsku?",
+      "a3": "Tak. Faktury, oferty i pokwitowania wyświetlają się w pełni po arabsku (RTL) lub po angielsku, z wyborem języka dla każdego dokumentu.",
+      "q4": "Czy klienci mogą płacić online?",
+      "a4": "Tak. Po podłączeniu Paymob klienci płacą faktury kartą online. Płatności uzgadniają się automatycznie."
+    }
+  },
+  "pricingFaq": {
+    "q1": "Czy darmowy plan jest naprawdę darmowy na zawsze?",
+    "a1": "Tak. Sprzedaż i faktury są darmowe na zawsze dla maksymalnie 3 użytkowników, bez karty i bez daty ważności. Płacisz tylko wtedy, gdy dodasz moduły, na przykład magazyn, HR lub księgowość.",
+    "q2": "Czy można później zmienić lub wyłączyć moduły?",
+    "a2": "W każdej chwili. Płatne moduły można dodawać i usuwać, kiedy chcesz, a rozliczenie dostosuje się samo. Nie ma umowy wiążącej.",
+    "q3": "Jak wygląda rozliczenie i w jakiej walucie?",
+    "a3": "Rozliczenie jest w rialach omańskich (OMR) z dokładnością do 3 miejsc po przecinku, miesięcznie lub rocznie (rocznie 20% taniej). Płatności kartą są bezpiecznie obsługiwane przez Paymob."
+  },
+  "tool": {
+    "from": "Sprzedawca",
+    "billTo": "Nabywca",
+    "docNo": "Nr dokumentu",
+    "date": "Data",
+    "item": "Opis",
+    "qty": "Ilość",
+    "rate": "Cena",
+    "amount": "Kwota",
+    "addLine": "Dodaj pozycję",
+    "subtotal": "Suma częściowa",
+    "vat": "VAT",
+    "total": "Razem",
+    "notes": "Uwagi",
+    "currency": "Waluta",
+    "applyVat": "Dolicz VAT / podatek",
+    "print": "Pobierz / Drukuj PDF",
+    "yourCompany": "Twoja Firma LLC",
+    "clientName": "Nazwa klienta",
+    "signupCta": "Zapisuj dokumenty i zarządzaj nimi w Paper & Pen",
+    "labels": {
+      "invoice": "FAKTURA",
+      "quotation": "OFERTA",
+      "proforma": "FAKTURA PRO FORMA",
+      "receipt": "POKWITOWANIE",
+      "purchase-order": "ZAMÓWIENIE ZAKUPU",
+      "delivery-note": "DOKUMENT DOSTAWY",
+      "estimate": "KOSZTORYS",
+      "credit-note": "FAKTURA KORYGUJĄCA"
+    },
+    "vatCalc": {
+      "amount": "Kwota",
+      "mode": "Tryb",
+      "addVat": "Dolicz 5% VAT",
+      "removeVat": "Wyodrębnij VAT",
+      "net": "Kwota netto",
+      "vat": "VAT",
+      "gross": "Brutto (z VAT)"
+    },
+    "tryFull": "Wypróbuj pełny ERP",
+    "builderTitle": "Utwórz dokument",
+    "featuresHeading": "Dlaczego warto użyć tego darmowego narzędzia"
+  },
+  "homeFaq": {
+    "q1": "Czy Paper & Pen jest naprawdę darmowy?",
+    "a1": "Tak. Moduł Sprzedaż i faktury jest darmowy na zawsze, bez karty kredytowej i bez limitu czasu. Można tworzyć oferty, faktury i rejestrować płatności dla maksymalnie 3 użytkowników. Płatne moduły, takie jak magazyn, HR czy księgowość, dodajesz dopiero, gdy są potrzebne.",
+    "q2": "Czy Paper & Pen działa po arabsku?",
+    "a2": "W pełni. Cały interfejs jest dostępny po arabsku z prawidłowym układem od prawej do lewej, a także po angielsku, w hindi, bengalskim i urdu. Język można zmienić w każdej chwili, dane pozostają dokładnie takie same.",
+    "q3": "Czy Paper & Pen działa poza krajami Zatoki?",
+    "a3": "Tak. Paper & Pen powstaje w Omanie w Paper and Pen Company LLC (część BHD Group), ale sprawdza się w firmach na całym świecie. Faktury w dowolnej walucie, własna stawka podatku i praca w 5 językach. Firmy z krajów Zatoki mają też od razu rozliczenia w OMR/AED/SAR, lokalny VAT i płatności Paymob.",
+    "q4": "Ile trwa konfiguracja?",
+    "a4": "Mniej niż 5 minut. Wybierz nazwę przestrzeni roboczej, potwierdź e-mail, zaznacz moduły i można wystawiać faktury. Bez instalacji, bez konsultanta i bez opłaty za wdrożenie."
+  },
+  "trust": {
+    "eyebrow": "Dlaczego firmy nas wybierają",
+    "title": "Stworzone w Omanie. Zaufały nam firmy na całym świecie.",
+    "sub": "Arabski na pierwszym miejscu, wiele walut i gotowość podatkowa: Paper & Pen pasuje do firm w krajach Zatoki i daleko poza nimi, zachowując prostotę i lokalne wsparcie, o których zapomniały duże platformy.",
+    "cta": "Załóż darmową przestrzeń roboczą",
+    "stat1_value": "5",
+    "stat1_label": "Obsługiwanych języków",
+    "stat2_value": "Za darmo",
+    "stat2_label": "Na zawsze, bez karty",
+    "stat3_value": "RTL",
+    "stat3_label": "Obsługa arabskiego i urdu",
+    "stat4_value": "Dowolna",
+    "stat4_label": "Waluta rozliczeń"
+  },
+  "footer": {
+    "tagline": "Darmowy ERP w chmurze dla rozwijających się firm na całym świecie. Stworzony w Omanie.",
+    "product": "Produkt",
+    "tools": "Darmowe narzędzia",
+    "company": "Firma",
+    "about": "O nas",
+    "blog": "Blog",
+    "security": "Bezpieczeństwo",
+    "freeInvoicing": "Darmowy program do faktur",
+    "legal": "Informacje prawne",
+    "contact": "Kontakt",
+    "emailLabel": "WhatsApp +968 9889 9100",
+    "terms": "Regulamin",
+    "privacy": "Polityka prywatności",
+    "status": "Wszystkie systemy działają",
+    "rights": "© {{year}} Paper and Pen Company LLC. Wszelkie prawa zastrzeżone.",
+    "support": "Wsparcie",
+    "help": "Centrum pomocy",
+    "contactSupport": "Kontakt ze wsparciem",
+    "statusPage": "Status usług",
+    "resources": "Zasoby",
+    "faq": "FAQ",
+    "invoices": "Faktury"
+  },
+  "signup": {
+    "title": "Załóż przestrzeń roboczą",
+    "step1": {
+      "title": "Jak nazywa się firma?",
+      "label": "Nazwa firmy",
+      "placeholder": "Al Noor Trading LLC",
+      "subdomainLabel": "Adres przestrzeni roboczej to",
+      "next": "Dalej",
+      "subtitle": "To będzie unikalna subdomena ERP.",
+      "workspaceUrlLabel": "Adres przestrzeni roboczej:",
+      "available": "✓ Wolny",
+      "taken": "✗ Zajęty",
+      "checking": "sprawdzanie..."
+    },
+    "step2": {
+      "title": "Adres e-mail",
+      "emailLabel": "Adres e-mail",
+      "password": "Hasło",
+      "passwordHint": "Co najmniej 8 znaków",
+      "language": "Preferowany język",
+      "currency": "Waluta domyślna",
+      "next": "Dalej",
+      "subtitle": "Przy każdym logowaniu wyślemy jednorazowy kod. Bez hasła do zapamiętania.",
+      "emailPlaceholder": "you@company.com",
+      "passwordLabel": "Hasło",
+      "passwordPlaceholder": "Min. 8 znaków",
+      "back": "Wstecz",
+      "emailHint": "Na ten adres przy każdym logowaniu przyjdzie 6-cyfrowy kod."
+    },
+    "step3": {
+      "title": "Wybierz moduły",
+      "next": "Dalej",
+      "trialNote": "14 dni za darmo, rezygnacja w każdej chwili",
+      "subtitle": "Sprzedaż i faktury są zawsze darmowe. Dodaj to, czego potrzebujesz.",
+      "baseTitle": "Sprzedaż i faktury",
+      "baseSub": "Oferty, faktury, płatności · 3 użytkowników",
+      "baseTag": "Za darmo",
+      "workspaceLabel": "Przestrzeń robocza",
+      "baseRow": "Podstawa (sprzedaż)",
+      "baseValue": "Za darmo na zawsze",
+      "addonsLabel": "Moduły dodatkowe",
+      "dueToday": "Do zapłaty dziś",
+      "freeNote": "Za darmo na zawsze. Bez karty kredytowej. Moduły w dowolnym momencie.",
+      "paidNote": "Po 14 dniach próbnych: {{total}} OMR/miesiąc. Karta zapisana bezpiecznie przez Paymob (weryfikacja 0.100 OMR, zwrot od razu).",
+      "back": "Wstecz",
+      "btnFree": "Utwórz przestrzeń roboczą",
+      "btnPaid": "Zacznij 14 dni próbnych",
+      "btnLoading": "Tworzenie przestrzeni roboczej...",
+      "footerFree": "Bez karty kredytowej · Sprzedaż i faktury za darmo na zawsze",
+      "footerPaid": "Karta chroniona przez Paymob · Autoryzacja 0.100 OMR zwracana od razu"
+    },
+    "step4": {
+      "title": "Konfigurujemy przestrzeń roboczą...",
+      "steps": [
+        "Tworzymy bazę danych",
+        "Konfigurujemy moduły",
+        "Ustawiamy domenę",
+        "Prawie gotowe!"
+      ],
+      "redirect": "Przekierowujemy do przestrzeni roboczej..."
+    },
+    "progress": {
+      "workspace": "Przestrzeń",
+      "account": "Konto",
+      "modulesPayment": "Moduły i płatność"
+    },
+    "errors": {
+      "gateway": "Adres bramki płatniczej jest nieprawidłowy. Prosimy o kontakt ze wsparciem.",
+      "network": "Błąd sieci. Sprawdź połączenie i spróbuj ponownie.",
+      "generic": "Coś poszło nie tak. Spróbuj ponownie.",
+      "companyRequired": "Wpisz nazwę firmy, aby kontynuować. Na jej podstawie powstanie adres przestrzeni roboczej.",
+      "companyLetters": "Ta nazwa nie zawiera liter łacińskich ani cyfr, z których można zbudować adres. Dodaj przynajmniej jedną.",
+      "subdomainTaken": "Ten adres jest już zajęty. Dodaj słowo, na przykład miasto lub skrót nazwy, aby był unikalny.",
+      "subdomainChecking": "Wciąż sprawdzamy, czy adres jest wolny. Za chwilę kliknij Dalej jeszcze raz.",
+      "emailRequired": "Wpisz adres e-mail do logowania. Na niego trafią jednorazowe kody.",
+      "emailInvalid": "W adresie brakuje znaku @ lub części po nim. Wpisz go w całości, np. you@company.com."
+    },
+    "rail": {
+      "cardLabel": "Karta potrzebna dziś",
+      "cardValue": "Nie",
+      "dataLabel": "Dane po rezygnacji",
+      "dataValue": "Do pobrania",
+      "note": "Nic nie wiąże. Po rezygnacji z modułu przestrzeń działa dalej w darmowym planie, a wszystkie zapisy zostają tam, gdzie były."
+    },
+    "securedBy": "Zabezpieczone przez Paymob"
+  },
+  "login": {
+    "title": "Witamy ponownie",
+    "subtitle": "Zaloguj się do przestrzeni roboczej.",
+    "workspace": "Przestrzeń robocza",
+    "workspaceError": "Wpisz nazwę przestrzeni roboczej (np. „yourcompany”).",
+    "email": "E-mail",
+    "emailLabel": "E-mail",
+    "password": "Hasło",
+    "submit": "Przejdź do przestrzeni roboczej",
+    "otpNote": "Wyślemy jednorazowy kod na podany e-mail. Hasło nie jest potrzebne.",
+    "forgotPassword": "Nie pamiętasz hasła?",
+    "noAccount": "Nie masz jeszcze konta?",
+    "signUp": "Wypróbuj za darmo"
+  },
+  "glossary": {
+    "title": "Słownik księgowy",
+    "eyebrow": "Definicje prostym językiem",
+    "sub": "{{count}} pojęć z księgowości, fakturowania i podatków wyjaśnionych prostym językiem, ze wzorem i przykładem wszędzie tam, gdzie obliczenia sprawiają najwięcej kłopotu.",
+    "filterLabel": "Filtruj pojęcia",
+    "filterPlaceholder": "Szukaj w słowniku",
+    "filterCount": "Wyświetlono {{shown}} z {{total}} pojęć",
+    "definitionTitle": "Co to jest {{term}}?",
+    "mattersTitle": "Dlaczego to ważne dla firmy",
+    "faqTitle": "Częste pytania",
+    "relatedTerms": "Powiązane pojęcia",
+    "seeAlso": "Zobacz też",
+    "browseAll": "Wszystkie pojęcia w słowniku",
+    "cat": {
+      "invoicing": "Faktury i dokumenty",
+      "accounting": "Księgowość i ewidencja",
+      "tax": "Podatki i VAT",
+      "inventory": "Magazyn i koszty",
+      "metrics": "Wskaźniki finansowe"
+    }
+  },
+  "invoicingIndex": {
+    "title": "Dokumenty sprzedaży",
+    "eyebrow": "Dokumenty sprzedażowe",
+    "sub": "Faktury, oferty, kosztorysy, dokumenty dostawy, faktury korygujące i reszta dokumentów sprzedaży. Twórz je i wysyłaj za darmo, w dowolnej walucie.",
+    "metaTitle": "Dokumenty sprzedaży · Paper & Pen",
+    "metaDesc": "Twórz faktury, oferty, kosztorysy, dokumenty dostawy i faktury korygujące online, za darmo, w dowolnej walucie. Wysyłka przez WhatsApp lub e-mail."
+  },
+  "featuresIndex": {
+    "title": "Funkcje ERP",
+    "eyebrow": "Co potrafi program",
+    "sub": "Faktury, magazyn, księgowość, HR i inne moduły Paper & Pen. Fakturowanie pozostaje darmowe. Pozostałe moduły są opcjonalne.",
+    "metaTitle": "Funkcje ERP · Paper & Pen",
+    "metaDesc": "Poznaj moduły Paper & Pen: darmowe faktury, magazyn, księgowość, HR i więcej. Sprawdź, co robi każdy z nich, zanim go włączysz."
+  },
+  "useCasesIndex": {
+    "title": "Dla kogo jest Paper & Pen",
+    "eyebrow": "Zastosowania",
+    "sub": "Jak freelancerzy, agencje, księgowi i małe firmy korzystają z tego samego darmowego modułu faktur i jakie moduły dodają.",
+    "metaTitle": "Zastosowania ERP · Paper & Pen",
+    "metaDesc": "Zobacz, jak freelancerzy, agencje, księgowi i małe firmy korzystają z Paper & Pen i jakich modułów naprawdę potrzebują."
+  },
+  "templatesIndex": {
+    "title": "Szablony faktur według zawodu",
+    "eyebrow": "Darmowe szablony",
+    "sub": "Co faktura musi zawierać w danej branży, jak zwykle wycenia się taką pracę i jak dostać zapłatę bez ponaglania. Samą fakturę utworzysz w darmowym generatorze, bez rejestracji."
+  },
+  "altIndex": {
+    "title": "Przejście z innego programu księgowego",
+    "eyebrow": "Poradniki migracji",
+    "sub": "Co da się przenieść, czego nie, kiedy w roku obrachunkowym najlepiej przejść i szczera uwaga, komu lepiej zostać przy obecnym rozwiązaniu."
+  },
+  "compareIndex": {
+    "title": "Porównania ERP i programów do faktur",
+    "eyebrow": "Porównaj opcje",
+    "sub": "Porównania dla firm, które wybierają program do faktur, księgowości lub ERP. Ceny, języki, waluty, ustawienia podatkowe i zadania, w których każda opcja sprawdza się najlepiej."
+  },
+  "industriesIndex": {
+    "title": "ERP i program do faktur według branży",
+    "eyebrow": "Dopasowane do Twojej pracy",
+    "sub": "Praktyczne procesy dla 15 branż, od handlu i sprzedaży detalicznej po ochronę zdrowia, edukację, logistykę i usługi profesjonalne."
+  },
+  "vat": {
+    "factsEyebrow": "Liczby",
+    "factsTitle": "VAT w kraju {{country}} w skrócie",
+    "colItem": "Pozycja",
+    "colValue": "Wartość",
+    "colDetail": "Szczegóły i źródło",
+    "fieldsTitle": "Co musi zawierać faktura VAT ({{country}})",
+    "einvEyebrow": "E-faktury",
+    "sourcesTitle": "Źródła",
+    "sourcesNote": "Każda liczba i lista pól na tej stronie pochodzi z dokumentu podlinkowanego poniżej, opublikowanego przez sam urząd skarbowy. Nie publikujemy stawki, progu ani terminu, którego źródła nie możemy wskazać.",
+    "authorityNote": "Przepisy podatkowe się zmieniają. Zanim na czymś się oprzesz, sprawdź aktualny stan w "
+  },
+  "vatIndex": {
+    "title": "VAT i e-faktury według krajów",
+    "eyebrow": "Podatki w krajach Zatoki",
+    "sub": "Stawki, progi rejestracji, wymagane elementy faktury VAT i rzeczywisty stan e-faktur, kraj po kraju, z odnośnikiem do tekstu urzędu skarbowego przy każdej liczbie.",
+    "whatIsVat": "Czym jest VAT?",
+    "whatIsEinv": "Czym są e-faktury?"
+  },
+  "legal": {
+    "englishOnly": "Te warunki są publikowane wyłącznie po angielsku. Tekst angielski jest wersją wiążącą i żadne tłumaczenie nie jest oferowane jako dokument wiążący. Jeśli potrzebna jest pomoc w innym języku, prosimy o kontakt."
+  },
+  "home2": {
+    "stats": {
+      "modules_v": "40+",
+      "modules_l": "Modułów do włączenia",
+      "db_v": "1",
+      "db_l": "Prywatna baza danych dla każdej przestrzeni"
+    },
+    "ai": {
+      "eyebrow": "AI w standardzie",
+      "title": "AI, które robi nudną robotę",
+      "sub": "AI w Paper & Pen pracuje na danych firmy. Odpowiada na pytania, czyta e-maile od dostawców i odpowiada klientom na WhatsApp. Ważne decyzje zatwierdzasz sam.",
+      "c1t": "Zapytaj swoją firmę",
+      "c1d": "Zapytaj zwykłymi słowami, np. „kto jest nam winien najwięcej?”, i dostań odpowiedź z bieżących danych.",
+      "c2t": "Magiczna skrzynka",
+      "c2d": "Przekaż e-mail od dostawcy. Paper & Pen odczyta fakturę i przygotuje zapis zakupu do zatwierdzenia.",
+      "c3t": "Odpowiedzi na WhatsApp",
+      "c3d": "Podłącz swój numer WhatsApp. AI odpowiada na pytania o ceny i zamówienia oraz wysyła oferty i faktury.",
+      "note": "Moduły AI to opcjonalne dodatki.",
+      "mockTitle": "Zapytaj Paper & Pen",
+      "q": "Kto jest nam winien najwięcej pieniędzy?",
+      "a": "Najwięcej jest winna firma Harbour Point Ltd. Faktura jest przeterminowana:",
+      "overdue": "Po terminie",
+      "input": "Zadaj pytanie"
+    },
+    "how": {
+      "eyebrow": "Od rejestracji do pracy",
+      "title": "Działasz już dziś, nie w następnym kwartale",
+      "s1t": "Wybierz nazwę przestrzeni",
+      "s1d": "Na przykład yourcompany.paperandpen.om. Bez karty i bez rozmowy z handlowcem.",
+      "s2t": "Włącz to, czego potrzebujesz",
+      "s2d": "Zacznij od darmowych faktur. Magazyn, HR, księgowość lub AI dodasz, gdy będą potrzebne.",
+      "s3t": "Dodaj zespół i dane",
+      "s3d": "Zaimportuj klientów i produkty z arkusza, zaproś zespół i wyślij pierwszą fakturę."
+    },
+    "ind": {
+      "eyebrow": "Dla Twojej branży",
+      "title": "Gotowe na to, jak działa Twoja firma",
+      "sub": "Dokumenty, procesy i raporty przygotowane dla 15 branż.",
+      "all": "Zobacz wszystkie branże"
+    },
+    "sec": {
+      "eyebrow": "Bezpieczeństwo",
+      "title": "Dane zostają Twoje",
+      "i1t": "Prywatna baza danych",
+      "i1d": "Każda przestrzeń działa na własnej bazie danych. Żadnych wspólnych tabel.",
+      "i2t": "Szyfrowanie",
+      "i2d": "TLS w transmisji i szyfrowanie w spoczynku.",
+      "i3t": "Regularne kopie zapasowe",
+      "i3d": "Każda przestrzeń ma automatyczną kopię zapasową.",
+      "i4t": "Bezpieczne płatności",
+      "i4d": "Płatności kartą przechodzą przez Paymob, bramkę PCI-DSS.",
+      "more": "Więcej o bezpieczeństwie",
+      "intTitle": "Działa z narzędziami, których już używasz",
+      "int": [
+        "WhatsApp",
+        "E-mail",
+        "Paymob",
+        "Thawani",
+        "Import z Excel i CSV",
+        "Aplikacja na Windows i macOS"
+      ]
+    }
+  }
+}
