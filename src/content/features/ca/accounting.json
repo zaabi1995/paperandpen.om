@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Comptabilitat",
+  "metaTitle": "Programari de comptabilitat en línia automàtica · Paper & Pen",
+  "metaDescription": "Comptabilitat de partida doble que es registra sola. Compte de resultats i balanç en temps real, declaracions d'IVA, conciliació bancària, qualsevol moneda i impost.",
+  "keywords": "programari de comptabilitat, comptabilitat en línia, partida doble, balanç de situació, compte de resultats, declaració d'IVA, conciliació bancària, llibre major",
+  "heroEyebrow": "Mòdul complementari",
+  "heroTitle": "Uns llibres que <em class=\"text-copper-400 not-italic\">quadren sols</em>",
+  "heroSubtitle": "Cada factura, cobrament i compra es registra automàticament en un llibre major de partida doble. Consulta el benefici, el balanç i la posició fiscal en temps real sense obrir cap full de càlcul.",
+  "heroBullets": ["Partida doble automàtica, sense assentaments manuals", "Compte de resultats i balanç en temps real", "Declaracions d'IVA amb un clic"],
+  "features": [
+    { "icon": "accounting", "title": "Comptabilitat automàtica", "desc": "Les vendes, els cobraments i les despeses es registren al llibre major en el moment que passen." },
+    { "icon": "chart", "title": "Estats financers en directe", "desc": "Compte de resultats, balanç i flux de caixa, sempre al dia." },
+    { "icon": "calc", "title": "IVA i declaracions fiscals", "desc": "Controla l'IVA suportat i repercutit i genera una declaració a punt per presentar amb un clic." },
+    { "icon": "refresh", "title": "Conciliació bancària", "desc": "Relaciona els moviments del banc amb factures i cobraments per mantenir els llibres nets." },
+    { "icon": "doc", "title": "Llibres complets", "desc": "Des de qualsevol informe, arriba fins al document d'origen i l'assentament." },
+    { "icon": "globe", "title": "Multimoneda", "desc": "Registra en qualsevol moneda amb càlcul automàtic de guanys i pèrdues de canvi." }
+  ],
+  "sections": [
+    { "eyebrow": "No cal ser comptable", "title": "Una comptabilitat que treballa en segon pla", "body": "No hauries de ser comptable per saber si guanyes diners. Com que la facturació, els cobraments i l'inventari alimenten el mateix llibre major, els comptes són correctes sense assentaments manuals. Obre el tauler i hi trobaràs el benefici, els deutors i els impostos.", "items": ["La partida doble es fa sola", "Cada informe arriba fins a l'origen", "Traçabilitat a cada assentament"] },
+    { "eyebrow": "Per a qualsevol règim fiscal", "title": "Impostos i compliment, allà on treballis", "body": "Configura els tipus impositius i els comptes del teu país, inclòs l'IVA configurable per al GCC, i Paper & Pen controla l'IVA suportat i repercutit per tu. Prepara una declaració a punt per presentar, concilia el banc i tanca el període amb confiança, en qualsevol moneda.", "items": ["Impostos configurables per a qualsevol país", "Declaracions d'IVA a punt per presentar", "Conciliació bancària i tancament de període"] }
+  ],
+  "faqs": [
+    { "q": "Necessito coneixements de comptabilitat per fer-lo servir?", "a": "No. Els assentaments es registren automàticament a partir de les factures, els cobraments i les compres, de manera que tens uns llibres de partida doble correctes sense escriure assentaments." },
+    { "q": "La comptabilitat és gratuïta?", "a": "Comptabilitat és un complement opcional de pagament. Vendes i Facturació és gratis per sempre, i actives Comptabilitat quan vols estats financers complets." },
+    { "q": "Pot generar declaracions d'IVA?", "a": "Sí. Controla l'IVA suportat i repercutit (per exemple, l'IVA configurable del GCC o qualsevol tipus que defineixis) i genera una declaració a punt per presentar." },
+    { "q": "Admet diverses monedes?", "a": "Sí. Registra i fes informes en qualsevol moneda, amb guanys i pèrdues de canvi automàtics." },
+    { "q": "Puc conciliar el banc?", "a": "Sí. Importa o relaciona els moviments bancaris amb factures i cobraments per mantenir el llibre major conciliat." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Uns llibres correctes, automàticament",
+  "ctaSub": "Comença gratis amb la facturació i activa Comptabilitat per tenir estats financers i declaracions d'impostos en temps real."
+}

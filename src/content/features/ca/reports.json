@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "reports",
+  "order": 8,
+  "title": "Informes",
+  "metaTitle": "Informes i analítica empresarial · Paper & Pen",
+  "metaDescription": "Taulers i informes en directe de vendes, tresoreria, benefici, impostos i estoc. Arriba fins a l'origen i exporta a Excel o PDF, en qualsevol moneda, arreu del món.",
+  "keywords": "informes empresarials, tauler d'analítica, informe de vendes, informe de pèrdues i guanys, informe d'impostos, informes financers, exportar a excel",
+  "heroEyebrow": "Mòdul complementari",
+  "heroTitle": "Decisions basades en <em class=\"text-copper-400 not-italic\">xifres en directe</em>",
+  "heroSubtitle": "Cada venda, cobrament i moviment s'agrupa en taulers i informes clars, en temps real. Mira què es ven, qui et deu diners i on és el teu benefici, i després exporta-ho on vulguis.",
+  "heroBullets": ["Taulers en temps real", "Arriba fins al document d'origen", "Exporta a Excel o PDF"],
+  "features": [
+    { "icon": "reports", "title": "Analítica de vendes", "desc": "Mira els productes més venuts, els millors clients i les tendències de qualsevol període." },
+    { "icon": "chart", "title": "Informes financers", "desc": "Compte de resultats, balanç, flux de caixa i antiguitat de cobraments." },
+    { "icon": "calc", "title": "Informes d'impostos", "desc": "Resums d'IVA suportat i repercutit a punt per a la teva declaració d'IVA." },
+    { "icon": "inventory", "title": "Informes d'estoc", "desc": "Informes de valoració, moviments i estoc baix de tots els magatzems." },
+    { "icon": "doc", "title": "Fins a l'origen", "desc": "Fes clic a qualsevol xifra per seguir-la fins al document exacte que hi ha al darrere." },
+    { "icon": "refresh", "title": "Sempre al dia", "desc": "Els informes s'actualitzen en directe amb cada operació, sense processos nocturns." }
+  ],
+  "sections": [
+    { "eyebrow": "Claredat d'un cop d'ull", "title": "Un sol tauler per a tot el negoci", "body": "Obre Paper & Pen i mira les xifres que importen: els diners al banc, qui et deu, què es ven i el benefici d'aquest mes. Com que tot es registra en temps real, el tauler és la realitat, no la foto de la setmana passada.", "items": ["Tresoreria, deutors i benefici a primera vista", "Filtra per període, client o producte", "En directe, mai desfasat"] },
+    { "eyebrow": "Comparteix i aprofundeix", "title": "Informes en què confiaran el teu comptable i el teu consell", "body": "Des de qualsevol informe, arriba directament al document d'origen i exporta a Excel o PDF per al teu comptable, el banc o el consell d'administració. Fes informes en qualsevol moneda i canvia la interfície a àrab, anglès, hindi, bengalí o urdú perquè tothom llegeixi les mateixes xifres en el seu idioma.", "items": ["Detall fins a cada operació", "Exportació a Excel i PDF", "Multimoneda i multilingüe"] }
+  ],
+  "faqs": [
+    { "q": "Els informes són gratuïts?", "a": "Informes és un complement opcional de pagament. El nucli gratuït per sempre inclou taulers de facturació, i el paquet complet d'informes està disponible quan necessites una analítica més detallada." },
+    { "q": "Els informes són en temps real?", "a": "Sí. Cada operació es registra en directe, de manera que els taulers i els informes sempre mostren l'estat actual del negoci." },
+    { "q": "Puc exportar els informes?", "a": "Sí. Exporta a Excel o PDF per compartir-los amb el teu comptable, el banc o el consell d'administració." },
+    { "q": "Puc seguir una xifra fins a l'origen?", "a": "Sí. Fes clic a qualsevol xifra per arribar a la factura, el cobrament o l'assentament exacte que hi ha al darrere." },
+    { "q": "Els informes admeten diverses monedes?", "a": "Sí. Fes informes en qualsevol moneda i consulta la interfície en cinc idiomes." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Veu el teu negoci amb claredat",
+  "ctaSub": "Comença gratis amb la facturació i afegeix Informes per tenir taulers en directe i analítica a punt per exportar."
+}

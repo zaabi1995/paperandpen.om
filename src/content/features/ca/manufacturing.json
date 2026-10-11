@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Producció",
+  "metaTitle": "Programari de fabricació i producció · Paper & Pen",
+  "metaDescription": "Planifica la producció amb llistes de materials, ordres de treball i costos reals. Consumeix matèria primera, fabrica producte acabat i coneix el teu marge real.",
+  "keywords": "programari de fabricació, gestió de la producció, llista de materials, escandall, ordres de treball, costos de producció, producte acabat",
+  "heroEyebrow": "Mòdul complementari",
+  "heroTitle": "Fabrica per encàrrec, <em class=\"text-copper-400 not-italic\">amb el cost fins a l'últim rial</em>",
+  "heroSubtitle": "Converteix la matèria primera en producte acabat amb llistes de materials i ordres de treball, mentre Paper & Pen controla el cost de cada component perquè sempre sàpigues el teu marge real.",
+  "heroBullets": ["Llistes de materials i ordres de treball", "Consum d'estoc automàtic", "Costos de producció reals"],
+  "features": [
+    { "icon": "manufacturing", "title": "Llistes de materials", "desc": "Defineix què porta cada producte, amb quantitats i subconjunts." },
+    { "icon": "doc", "title": "Ordres de treball", "desc": "Planifica i segueix les tandes de producció, de la matèria primera a l'estoc acabat." },
+    { "icon": "inventory", "title": "Moviments d'estoc automàtics", "desc": "La matèria primera es consumeix i el producte acabat s'afegeix a mesura que fabriques." },
+    { "icon": "calc", "title": "Costos de producció", "desc": "Suma el cost de materials i despeses generals en un valor exacte del producte acabat." },
+    { "icon": "chart", "title": "Visibilitat del marge", "desc": "Compara el cost de producció amb el preu de venda i veu el marge real de cada article." },
+    { "icon": "refresh", "title": "Connectat de punta a punta", "desc": "Uneix compres, inventari i vendes en un sol flux continu." }
+  ],
+  "sections": [
+    { "eyebrow": "Planifica amb confiança", "title": "De la recepta al producte acabat", "body": "Defineix una llista de materials una vegada i Paper & Pen sap exactament què consumeix cada fabricació. Crea una ordre de treball i la matèria primera es reserva i es consumeix mentre el producte acabat s'afegeix a l'inventari, amb tots els costos calculats per tu.", "items": ["Llistes de materials reutilitzables", "Ordres de treball amb reserva d'estoc", "Consum automàtic i entrada de producte acabat"] },
+    { "eyebrow": "Coneix el teu marge real", "title": "Uns costos que diuen la veritat", "body": "Endevinar el cost és endevinar el benefici. Paper & Pen suma materials i despeses generals en un cost real del producte acabat, el registra als llibres i mostra el marge de cada venda. Funciona en qualsevol moneda, perquè puguis comprar i vendre a altres països.", "items": ["Cost de materials més despeses generals", "Es registra sol a la comptabilitat", "Marge per producte i per comanda"] }
+  ],
+  "faqs": [
+    { "q": "La producció és gratuïta?", "a": "Producció és un complement opcional de pagament. El mòdul principal de Vendes i Facturació és gratis per sempre, i afegeixes Producció quan fabriques productes." },
+    { "q": "Puc definir llistes de materials?", "a": "Sí. Crea una llista de materials (BOM) per a cada producte, amb subconjunts, i reutilitza-la a cada tanda de producció." },
+    { "q": "Consumeix l'estoc automàticament?", "a": "Sí. Quan processes una ordre de treball, la matèria primera es consumeix i el producte acabat s'afegeix a l'inventari automàticament." },
+    { "q": "Com es calcula el cost de producció?", "a": "Els costos de materials i de despeses generals se sumen al valor del producte acabat, que es registra a la comptabilitat perquè els marges siguin exactes." },
+    { "q": "Funciona amb qualsevol moneda?", "a": "Sí. Compra materials i ven producte acabat en qualsevol moneda, amb els costos i la comptabilitat sincronitzats." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Calcula bé el cost de cada fabricació",
+  "ctaSub": "Comença gratis amb la facturació i afegeix Producció per planificar la fabricació i conèixer el teu marge real."
+}

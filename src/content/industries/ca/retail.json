@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "retail",
+  "order": 2,
+  "title": "Comerç i botigues",
+  "metaTitle": "Programari de facturació i inventari per a botigues · Paper & Pen",
+  "metaDescription": "Facturació gratuïta amb inventari per codi de barres, avisos d'estoc baix i valoració en directe per a botigues i comerços. Ven ràpid, no et quedis sense estoc.",
+  "keywords": "programari per a botigues, facturació per a botigues, inventari amb codi de barres, facturació de punt de venda, avisos d'estoc baix, erp per al comerç, inventari de diverses botigues",
+  "heroEyebrow": "Per a botigues i comerços",
+  "heroTitle": "Ven ràpid, <em class=\"text-copper-400 not-italic\">no et quedis mai sense estoc</em>",
+  "heroSubtitle": "Factura als clients en segons, escaneja codis de barres per comptar l'estoc i deixa que l'estoc s'actualitzi sol. Paper & Pen manté els prestatges, les vendes i els llibres a la par perquè dediquis menys temps a comptar i més a vendre.",
+  "heroBullets": ["Facturació ràpida i gratuïta", "Codis de barres i SKU", "Avisos d'estoc baix abans que s'esgoti"],
+  "features": [
+    { "icon": "receipt", "title": "Facturació ràpida", "desc": "Registra una venda i imprimeix o comparteix un tiquet en segons, des de qualsevol dispositiu." },
+    { "icon": "inventory", "title": "Inventari amb codi de barres", "desc": "Escaneja per comptar o moure estoc, organitzat per SKU, lot i unitat de mesura." },
+    { "icon": "bell", "title": "Avisos d'estoc baix", "desc": "Defineix punts de reposició i rep un avís abans que un producte estrella arribi a zero." },
+    { "icon": "truck", "title": "Estoc de diverses botigues", "desc": "Controla i traspassa estoc entre sucursals amb les quantitats en directe a tot arreu." },
+    { "icon": "calc", "title": "Valoració en directe", "desc": "El cost mitjà o FIFO manté el valor de l'estoc exacte al balanç." },
+    { "icon": "chart", "title": "Informes dels més venuts", "desc": "Mira què es mou i què es queda al prestatge, per article, categoria i botiga." }
+  ],
+  "sections": [
+    { "eyebrow": "Cobrament més àgil", "title": "Una facturació pensada per a un taulell amb molta feina", "body": "Els clients no esperen. Fes una venda buscant els articles, aplica un descompte, cobra i lliura un tiquet net en segons. Els tiquets es comparteixen per WhatsApp o s'imprimeixen a la caixa, i cada venda passa directament a l'estoc i als llibres sense tornar a teclejar res.", "items": ["Cerca per afegir articles ràpidament", "Imprimeix o comparteix tiquets a l'instant", "Descomptes i impostos calculats sols"] },
+    { "eyebrow": "Un estoc que es controla sol", "title": "Sàpigues sempre què hi ha al prestatge", "body": "Els recomptes manuals queden desfasats en el moment que fas una venda. A Paper & Pen, cada venda i cada entrega ajusten l'estoc en temps real, de manera que la xifra de la pantalla coincideix amb el prestatge. Defineix punts de reposició perquè el sistema t'avisi de les reposicions lentes abans de perdre una venda. Creat a Oman amb OMR, AED i SAR natius i IVA del 5%, i a punt per a USD, EUR o qualsevol tipus impositiu amb què treballis.", "items": ["Estoc en temps real a cada venda", "Punts de reposició i avisos d'estoc baix", "Qualsevol moneda, qualsevol tipus impositiu"] }
+  ],
+  "faqs": [
+    { "q": "Puc vendre amb un lector de codis de barres?", "a": "A la caixa, no. A la caixa busques els articles per afegir-los a la venda. El lector de codis de barres serveix per a l'estoc: escaneja un article per comptar-lo o per registrar-ne entrades i sortides. Els articles s'organitzen per SKU, lot i unitat de mesura." },
+    { "q": "L'estoc s'actualitzarà quan faci una venda?", "a": "Sí. Cada venda redueix l'estoc i cada entrega l'augmenta en temps real, a totes les botigues, sense recomptes manuals." },
+    { "q": "Puc portar més d'una botiga?", "a": "Sí. Controla l'estoc per botiga, fes traspassos entre sucursals i consulta les quantitats en directe a tot arreu des d'un sol espai de treball." },
+    { "q": "La facturació és realment gratuïta?", "a": "Vendes i Facturació, tiquets inclosos, és gratis per sempre. Afegeix el mòdul d'Inventari quan vulguis control d'estoc amb codi de barres i avisos d'estoc baix." },
+    { "q": "Funciona fora del GCC?", "a": "Sí. Paper & Pen funciona en qualsevol moneda i amb qualsevol tipus impositiu, perquè comerços de qualsevol lloc puguin facturar i gestionar l'estoc, amb àrab, anglès i altres idiomes disponibles." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Porta la botiga sense anar a cegues",
+  "ctaSub": "Comença gratis amb la facturació i els tiquets, i després afegeix Inventari per tenir estoc amb codi de barres i avisos d'estoc baix."
+}

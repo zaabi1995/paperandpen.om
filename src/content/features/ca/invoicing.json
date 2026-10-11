@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Facturació",
+  "metaTitle": "Funcions de gestió de factures | Paper & Pen ERP",
+  "metaDescription": "Descobreix el seguiment de factures, els pagaments en línia, els recordatoris, l'impost configurable, els cinc idiomes i el treball en diverses monedes a Paper & Pen ERP.",
+  "keywords": "programari de facturació, facturació gratuïta, factures en línia, enviar factura, cobrar en línia, factura amb iva, factures recurrents, recordatoris de pagament",
+  "heroEyebrow": "Gratis per sempre",
+  "heroTitle": "Una facturació que et fa <em class=\"text-copper-400 not-italic\">cobrar abans</em>",
+  "heroSubtitle": "Crea una factura ben presentada en menys d'un minut, envia-la per correu electrònic o WhatsApp i deixa que el client pagui en línia. Pensada per a qualsevol moneda i qualsevol tipus impositiu, i utilitzada arreu del món.",
+  "heroBullets": ["Vendes i Facturació gratis per sempre", "Qualsevol moneda, qualsevol tipus impositiu", "Enllaç de pagament en línia a cada factura"],
+  "features": [
+    { "icon": "bolt", "title": "Factura en segons", "desc": "Tria un client, afegeix articles i envia. Els totals i l'impost es calculen mentre escrius." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Factura en OMR, AED, SAR, USD, EUR, GBP o qualsevol moneda amb els decimals correctes." },
+    { "icon": "card", "title": "Cobra en línia", "desc": "Cada factura porta un enllaç de pagament segur perquè el client pagui amb targeta amb un toc." },
+    { "icon": "bell", "title": "Recordatoris automàtics", "desc": "Recordatoris amables i programats reclamen les factures vençudes perquè no ho hagis de fer tu." },
+    { "icon": "refresh", "title": "Factures recurrents", "desc": "Configura quotes i subscripcions perquè es facturin soles, cada setmana o cada mes." },
+    { "icon": "calc", "title": "A punt per a l'IVA i els impostos", "desc": "Aplica qualsevol tipus d'IVA o impost sobre les vendes, calculat sobre la base després de descomptes." }
+  ],
+  "sections": [
+    { "eyebrow": "Fet per a tot el món", "title": "Una eina de facturació per a cada mercat", "body": "Tant si factures en dòlars des de Nova York com en rials des de Mascat, Paper & Pen s'encarrega de la moneda, els decimals i les regles fiscals. Canvia la interfície entre anglès, àrab, hindi, bengalí i urdú perquè tot l'equip treballi en el seu idioma.", "items": ["Multimoneda amb format en directe", "Impostos configurables per a qualsevol país", "Factures en àrab, completament de dreta a esquerra"] },
+    { "eyebrow": "Del pressupost al cobrament", "title": "La facturació dins d'un ERP complet", "body": "Les teves factures no viuen aïllades. Converteix un pressupost guanyador en factura amb un clic, registra el cobrament i mira com es comptabilitza sol. Quan creixis, l'inventari, la comptabilitat i les nòmines ja t'esperen al mateix espai de treball.", "items": ["Del pressupost a la factura amb un clic", "Els cobraments es concilien amb el llibre major", "Mai més dades entrades dues vegades"] }
+  ],
+  "faqs": [
+    { "q": "La facturació és realment gratuïta?", "a": "Sí. Vendes i Facturació és gratis per sempre, sense límit de factures ni de clients. Només pagues si afegeixes mòduls opcionals com Inventari o Nòmines." },
+    { "q": "Els clients poden pagar la factura en línia?", "a": "Sí. Cada factura pot incloure un enllaç segur de pagament en línia amb Paymob i altres passarel·les, perquè el client pagui amb targeta i el cobrament es conciliï automàticament." },
+    { "q": "Admet l'IVA i altres impostos?", "a": "Sí. Defineix qualsevol tipus, inclòs l'IVA configurable per al GCC, o el que s'apliqui al teu país. L'impost es calcula sobre l'import net després de qualsevol descompte." },
+    { "q": "Puc enviar factures en àrab?", "a": "Sí. Tota la interfície i el PDF de la factura poden ser en àrab, completament de dreta a esquerra, a més d'anglès, hindi, bengalí i urdú." },
+    { "q": "Puc automatitzar la facturació recurrent?", "a": "Sí. Crea una factura recurrent per a quotes o subscripcions i Paper & Pen l'emet i l'envia segons el calendari." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Envia la teva primera factura gratis",
+  "ctaSub": "Crea un espai de treball gratuït i factura al teu primer client en minuts. Sense targeta, gratis per sempre."
+}

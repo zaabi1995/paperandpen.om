@@ -1,0 +1,152 @@
+{
+  "locale": "ca",
+  "slug": "uae",
+  "order": 2,
+  "country": "Emirats Àrabs Units",
+  "title": "L'IVA als EAU",
+  "metaTitle": "L'IVA als EAU: tipus, llindars i factura electrònica · Paper & Pen",
+  "metaDescription": "El tipus d'IVA del 5% dels EAU, el llindar d'AED 375,000, el contingut de factura de l'article 59 i el calendari confirmat de factura electrònica, tot amb fonts.",
+  "keywords": "iva eau, tipus d'iva als emirats, llindar de registre de l'iva als eau, requisits de la factura als eau, factura electrònica eau 2027, federal tax authority",
+  "heroEyebrow": "Emirats Àrabs Units",
+  "heroTitle": "Facturar segons les normes de l'<em class=\"text-copper-400 not-italic\">IVA dels EAU</em>",
+  "heroSubtitle": "El tipus, els llindars, els dotze elements que l'article 59 exigeix en una factura i les dates de factura electrònica que el Ministeri de Finances ha publicat de veritat.",
+  "heroBullets": [
+    "Tipus general del 5%",
+    "AED 375,000 per registrar-se",
+    "Factura electrònica per fases des del 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Tipus general d'IVA",
+      "value": "5%",
+      "note": "L'article 3 del Decret llei federal 8 de 2017 imposa un tipus general del 5% sobre qualsevol subministrament o importació. En vigor des de l'1 de gener de 2018.",
+      "source": 1
+    },
+    {
+      "label": "Llindar de registre obligatori",
+      "value": "AED 375,000",
+      "note": "Article 7(1) del Reglament Executiu.",
+      "source": 2
+    },
+    {
+      "label": "Llindar de registre voluntari",
+      "value": "AED 187,500",
+      "note": "Article 8(1) del Reglament Executiu.",
+      "source": 2
+    },
+    {
+      "label": "Límit de la factura simplificada",
+      "value": "AED 10,000",
+      "note": "Es permet una factura simplificada quan el destinatari no està registrat, o quan està registrat i la contraprestació no supera aquest import.",
+      "source": 2
+    },
+    {
+      "label": "Moneda a la factura",
+      "value": "AED",
+      "note": "Els imports de l'impost es mostren en dírhams, i quan la factura és en una altra moneda hi ha de constar el tipus de canvi aplicat.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "L'article 59(1) del Reglament Executiu enumera què ha de contenir una factura completa.",
+    "items": [
+      "Les paraules \"Factura fiscal\", ben visibles",
+      "Nom, adreça i número de registre fiscal (TRN) del proveïdor",
+      "Nom, adreça i TRN del destinatari, quan el destinatari està registrat",
+      "Un número correlatiu o únic que permeti identificar i ordenar la factura",
+      "La data d'emissió",
+      "La data del subministrament, quan és diferent de la data d'emissió",
+      "Una descripció dels béns o serveis",
+      "Per a cada article: preu unitari, quantitat o volum, tipus impositiu i import a pagar en AED",
+      "L'import de qualsevol descompte ofert",
+      "L'import brut a pagar en AED",
+      "L'import de l'impost repercutit en AED, amb el tipus de canvi quan s'ha convertit d'una altra moneda",
+      "En un subministrament amb inversió del subjecte passiu, una indicació que el destinatari ha de liquidar l'impost i la disposició en què es basa"
+    ],
+    "source": 2,
+    "caveat": "Aquesta és la publicació consolidada del Reglament Executiu de la Federal Tax Authority amb data del 4 d'octubre de 2024. Alguns comentaristes esmenten una modificació posterior; no l'hem trobada en cap text publicat per la FTA, així que confirma el text vigent amb la FTA abans de basar-t'hi."
+  },
+  "einvoicing": {
+    "status": "Obligatòria i per fases, prova pilot oberta",
+    "body": "El sistema de factura electrònica dels EAU és un model descentralitzat de cinc vèrtexs en què les factures passen per proveïdors de serveis acreditats. Les directrius del mateix Ministeri de Finances fixen el calendari: una prova pilot i adopció voluntària des de l'1 de juliol de 2026; les empreses amb ingressos d'AED 50 milions o més l'implanten des de l'1 de gener de 2027; les empreses per sota d'aquest llindar, des de l'1 de juliol de 2027; i les entitats públiques, des de l'1 d'octubre de 2027. El Ministeri va ampliar el primer termini per designar un proveïdor de serveis acreditat del 31 de juliol de 2026 al 30 d'octubre de 2026, sense canviar l'entrada en vigor de gener de 2027, de manera que el PDF de les directrius publicat i el comunicat de premsa del Ministeri no coincideixen en aquesta data, i el comunicat és el text més recent.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Fer-ho bé",
+      "title": "On s'equivoca la gent amb l'article 59",
+      "body": "El requisit per línia és el que més plantilles de factura incompleixen. L'article 59(1)(h) demana preu unitari, quantitat, tipus impositiu i import a pagar per a cada bé o servei, i això vol dir que una sola xifra d'impost global al peu de la factura no n'hi ha prou quan les línies tenen tractaments diferents. El segon és el TRN del destinatari, obligatori sempre que el destinatari estigui registrat, i el tercer és el tipus de canvi: si factures en dòlars, igualment has de mostrar l'impost en dírhams i el tipus que has fet servir.",
+      "items": [
+        "Tipus i import de l'impost per línia, no només un total",
+        "TRN del destinatari sempre que estigui registrat",
+        "Tipus de canvi visible a qualsevol factura que no sigui en AED",
+        "Menció d'inversió del subjecte passiu quan s'apliqui"
+      ]
+    },
+    {
+      "eyebrow": "Preparar-se",
+      "title": "Què et demanen realment les dates del 2027",
+      "body": "L'obligació no és comprar un programari amb un logotip, és poder emetre una factura estructurada a través d'un proveïdor de serveis acreditat en la data que correspon al teu tram d'ingressos. Compta enrere des de la data d'implantació del teu tram, no des de la prova pilot: el termini per designar un proveïdor de serveis cau mesos abans de l'entrada en vigor, i és la designació, no l'entrada en vigor, el que la majoria d'empreses es deixen. Mentrestant, les dades que necessitaràs són les mateixes que ja exigeix l'article 59, i aquesta és una bona raó per millorar ara la qualitat de les factures en lloc de fer-ho durant una migració.",
+      "items": [
+        "Sàpigues en quin tram d'ingressos ets",
+        "Apunta a l'agenda la designació del proveïdor, no només l'entrada en vigor",
+        "Neteja els TRN dels clients abans del termini, no durant",
+        "Guarda el detall de l'impost per línia des d'avui"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quin és el tipus d'IVA als EAU?",
+      "a": "El cinc per cent. L'article 3 del Decret llei federal 8 de 2017 imposa un tipus general del 5% sobre qualsevol subministrament o importació gravats, en vigor des de l'1 de gener de 2018. Alguns subministraments estan gravats al tipus zero o exempts, i la diferència importa: un proveïdor amb tipus zero pot recuperar l'IVA suportat, un d'exempt no."
+    },
+    {
+      "q": "Quan és obligatòria la factura electrònica als EAU?",
+      "a": "Depèn dels teus ingressos. Segons les directrius publicades pel Ministeri de Finances, les empreses amb ingressos d'AED 50 milions o més l'implanten des de l'1 de gener de 2027, les que estan per sota des de l'1 de juliol de 2027, i les entitats públiques des de l'1 d'octubre de 2027. La prova pilot i l'adopció voluntària van començar l'1 de juliol de 2026. Consulta les pàgines del Ministeri abans de planificar res al voltant d'una data, perquè ja n'ha modificat un termini."
+    },
+    {
+      "q": "Quan puc emetre una factura simplificada als EAU?",
+      "a": "Quan el destinatari no està registrat a l'IVA, o quan està registrat i la contraprestació no supera AED 10,000. Una factura simplificada igualment ha de portar les paraules \"Factura fiscal\", el teu nom, l'adreça i el TRN, la data d'emissió, una descripció del que s'ha subministrat, i la contraprestació total i l'import de l'impost en dírhams."
+    },
+    {
+      "q": "Necessito el TRN del client en una factura dels EAU?",
+      "a": "Sí, sempre que el client estigui registrat a l'IVA. En aquest cas, l'article 59(1)(c) exigeix el nom, l'adreça i el número de registre fiscal del destinatari. Sense això, el client pot tenir problemes per recuperar l'IVA suportat, i normalment et tornarà amb la petició que tornis a emetre la factura."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Factura correctament als EAU, gratis",
+  "ctaSub": "Impost per línia, qualsevol moneda amb el tipus de canvi al document, i la factura en àrab i en anglès a partir d'un sol registre.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decret llei federal 8 de 2017 sobre l'IVA, article 3 (consolidat, amb modificacions)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Decisió del Gabinet 52 de 2017, Reglament Executiu, articles 7, 8 i 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, i el comunicat de premsa del Ministeri sobre la modificació",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

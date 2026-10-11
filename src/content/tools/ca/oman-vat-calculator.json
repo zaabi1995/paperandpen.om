@@ -1,0 +1,38 @@
+{
+  "locale": "ca",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Calculadora d'IVA i impostos gratuïta",
+  "metaTitle": "Calculadora de l'IVA d'Oman: afegeix o treu el 5% d'IVA",
+  "metaDescription": "Calcula en línia l'IVA del 5% d'Oman. Afegeix l'IVA a un import net o treu-lo d'un total brut per veure al moment la base, l'IVA i el total, sense registre.",
+  "keywords": "calculadora d'iva, calculadora iva oman, calculadora d'impost sobre les vendes, afegir iva, treure iva, calculadora iva 5 per cent, calculadora d'iva configurable, calculadora d'iva inversa",
+  "heroEyebrow": "Gratis · Sense registre",
+  "heroTitle": "Calculadora d'<em class=\"text-copper-400 not-italic\">IVA i impostos</em> gratuïta",
+  "heroSubtitle": "Calcula en línia l'IVA del 5% d'Oman. Afegeix l'IVA a un import net o treu-lo d'un total brut per veure al moment la base, l'IVA i el total, sense registre.",
+  "heroBullets": ["Qualsevol tipus, qualsevol moneda", "Afegeix o treu l'impost", "Gratis per sempre, sense registre"],
+  "howToSteps": [
+    { "name": "Escriu l'import", "text": "Escriu l'import amb què vols treballar i tria la moneda." },
+    { "name": "Defineix el tipus impositiu", "text": "Fes servir el tipus del 5% d'Oman per defecte, o escriu el tipus vigent que s'aplica a la teva operació." },
+    { "name": "Tria afegir o treure", "text": "Afegeix l'impost a un import net, o treu-lo d'un import brut per trobar la base (IVA invers)." },
+    { "name": "Llegeix el resultat", "text": "Veu al moment la base, l'impost i el total desglossats, a punt per copiar en una factura." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Afegeix o treu l'impost", "desc": "Calcula l'impost cap endavant sobre un import net, o treu-lo d'un import brut amb un clic." },
+    { "icon": "globe", "title": "Qualsevol tipus, qualsevol moneda", "desc": "El 5% d'Oman per defecte, o el tipus que t'apliqui, en OMR, AED, SAR, USD, EUR i més." },
+    { "icon": "bolt", "title": "Instantani i gratuït", "desc": "Sense registre i sense límits. Obtens la base, l'impost i el total mentre escrius." }
+  ],
+  "sections": [
+    { "title": "Per què fer servir la calculadora d'IVA de Paper & Pen?", "body": "Tant si prepares un pressupost, com si revises una factura o presentes una declaració, necessites que la base, l'impost i el total quadrin fins a l'últim decimal. Aquesta calculadora admet qualsevol tipus en qualsevol moneda, funciona en tots dos sentits (afegir l'impost o treure'l d'un total) i és gratuïta de debò. S'obre amb el tipus del 5% d'Oman i es pot configurar del tot per a altres jurisdiccions." },
+    { "eyebrow": "Més enllà de la calculadora", "title": "Deixa que el programari calculi l'IVA per tu", "body": "Calcular l'impost a mà a cada línia és lent i porta a errors. Dins de l'ERP complet de Paper & Pen, l'IVA s'aplica automàticament sobre la base de cada factura després de descomptes, es registra als llibres i s'agrupa en informes a punt per a la declaració, així que deixes de necessitar la calculadora.", "items": ["Impost automàtic a cada factura i pressupost", "Tipus impositius per article i per document", "Informes resum d'IVA a punt per presentar"] }
+  ],
+  "faqs": [
+    { "q": "Quin tipus fa servir aquesta calculadora de l'IVA d'Oman?", "a": "La calculadora s'obre amb el tipus del 5% d'Oman. Les normes fiscals poden canviar, així que confirma el tipus vigent amb la Oman Tax Authority abans de basar-te en un càlcul. Pots escriure qualsevol tipus." },
+    { "q": "Com trec l'IVA d'un total?", "a": "Tria l'opció de treure (invers) i escriu l'import brut. La calculadora obté la base i la part d'impost inclosa al total." },
+    { "q": "Puc fer-la servir per a l'impost sobre les vendes fora d'Oman?", "a": "Sí. Defineix el tipus que s'aplica a la teva operació i tria qualsevol moneda. Funciona per a l'IVA, el GST o l'impost sobre les vendes de qualsevol lloc del món." },
+    { "q": "Calcula l'impost sobre un import amb descompte?", "a": "Escriu l'import net després del descompte i afegeix-hi l'impost. Per tenir l'IVA calculat automàticament després de descomptes en factures completes, crea un espai de treball gratuït de Paper & Pen, on es fa per tu." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Deixa de calcular l'IVA a mà",
+  "ctaSub": "Aplica l'impost automàticament a cada factura i obtén informes d'IVA a punt per a la declaració amb un espai de treball gratuït de Paper & Pen."
+}

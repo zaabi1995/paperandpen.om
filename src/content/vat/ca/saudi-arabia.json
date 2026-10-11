@@ -1,0 +1,151 @@
+{
+  "locale": "ca",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Aràbia Saudita",
+  "title": "L'IVA a l'Aràbia Saudita",
+  "metaTitle": "L'IVA a l'Aràbia Saudita: tipus del 15% i Fatoora · Paper & Pen",
+  "metaDescription": "El tipus d'IVA del 15% de l'Aràbia Saudita, el llindar de SAR 375,000, el contingut de factura de l'article 53 i les fases de Fatoora de la ZATCA, amb fonts.",
+  "keywords": "iva aràbia saudita, tipus d'iva saudita 15, zatca fatoora, factura electrònica saudita fase 2, requisits de la factura a l'aràbia saudita, zatca",
+  "heroEyebrow": "Aràbia Saudita",
+  "heroTitle": "Facturar segons les normes de la <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "El tipus del 15%, els llindars de registre, què exigeix l'article 53 en una factura i què hi afegeix Fatoora quan ets a la fase d'integració.",
+  "heroBullets": [
+    "Tipus general del 15%",
+    "SAR 375,000 per registrar-se",
+    "Fatoora en vigor des del 2021"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Tipus general d'IVA",
+      "value": "15%",
+      "note": "L'Aràbia Saudita és l'excepció al Golf: els altres estats que l'apliquen són al 5% o al 10%. Si s'aplica el tipus general, els subministraments gravats tributen al 15%.",
+      "source": 1
+    },
+    {
+      "label": "Llindar de registre obligatori",
+      "value": "SAR 375,000",
+      "note": "Uns subministraments gravats superiors a aquesta xifra en un període de 12 mesos obliguen a registrar-se.",
+      "source": 1
+    },
+    {
+      "label": "Llindar de registre voluntari",
+      "value": "SAR 187,500",
+      "note": "Segons els subministraments gravats O les despeses gravades dels últims 12 mesos.",
+      "source": 1
+    },
+    {
+      "label": "Empreses no residents",
+      "value": "Sense llindar",
+      "note": "Un no resident que hagi de pagar IVA al Regne s'ha de registrar sigui quin sigui el valor dels seus subministraments.",
+      "source": 1
+    },
+    {
+      "label": "Idioma de la factura",
+      "value": "Àrab",
+      "note": "El contingut obligatori ha de figurar en àrab. Es pot mostrar un altre idioma a més, com a traducció.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "L'article 53(5) del Reglament d'Aplicació de l'IVA enumera què ha de contenir una factura, i l'exigeix en àrab a més de qualsevol altre idioma que s'hi mostri com a traducció.",
+    "items": [
+      "La data d'emissió",
+      "Un número correlatiu que identifiqui la factura de manera única",
+      "El número d'identificació fiscal del proveïdor",
+      "Quan el client ha d'autoliquidar, el número d'identificació fiscal del client i una indicació que ha de liquidar l'impost",
+      "Nom i adreça del proveïdor i del client",
+      "Quantitat i naturalesa dels béns, o abast i naturalesa dels serveis",
+      "La data del subministrament, quan és diferent de la data d'emissió",
+      "Base imposable per tipus o exempció, preu unitari sense IVA i qualsevol descompte que no estigui inclòs al preu unitari",
+      "El tipus impositiu aplicat",
+      "L'import de l'impost a pagar, en riyals saudites",
+      "Quan l'impost no es cobra al tipus bàsic, una explicació del tractament aplicat",
+      "Quan s'aplica el règim del marge de benefici per a béns usats que hi poden optar, una referència a aquest fet"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Obligatòria i en vigor, desplegament per onades",
+    "body": "L'Aràbia Saudita té el règim de factura electrònica més avançat del Golf, i el que serveix de model als altres. La fase 1, la fase de generació, s'aplica des del 4 de desembre de 2021 a tots els subjectes passius residents: les factures s'han d'emetre electrònicament en un format estructurat. La fase 2, la fase d'integració, va començar l'1 de gener de 2023 i es desplega per onades segons la mida del contribuent, i la ZATCA avisa cada grup almenys sis mesos abans de la seva data d'integració. A la fase 2, una factura electrònica porta més que el contingut de l'article 53: també necessita un UUID, el hash de la factura anterior, un codi QR, un segell criptogràfic i un comptador inalterable. La ZATCA anuncia en quina onada entra cada empresa, així que consulta les seves pàgines de factura electrònica en lloc de suposar-ho.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Fer-ho bé",
+      "title": "Fatoora canvia què ÉS una factura",
+      "body": "En un món de paper o de PDF, una factura és un document que generes i envies. A la fase 2 és un registre dins d'una cadena: cada factura fa referència al hash de l'anterior, porta un segell criptogràfic i incrementa un comptador que no es pot reiniciar. És un disseny deliberat, i fa impossible un costum molt habitual. No pots esborrar, renumerar ni tornar a emetre una factura discretament a posteriori, perquè la cadena es trencaria i el trencament es pot detectar. Les empreses que corregien errors modificant l'historial han de passar a les factures rectificatives, que és el que sempre han volgut les normes comptables de la resta del món.",
+      "items": [
+        "Cada factura està lligada a l'anterior per hash",
+        "El comptador no es pot reiniciar ni tirar enrere",
+        "Les correccions es fan amb factures rectificatives i notes de càrrec",
+        "El codi QR forma part de la factura, no és decoració"
+      ]
+    },
+    {
+      "eyebrow": "Fer-ho bé",
+      "title": "El tipus del 15% té efectes en cadena",
+      "body": "Un tipus del quinze per cent fa que la diferència entre tipus zero i exempt tingui un pes econòmic que un tipus del cinc per cent no té. Si els teus subministraments estan exempts, no pots recuperar l'IVA suportat que has pagat, així que el quinze per cent del teu cost d'entrada es converteix en una despesa real i irrecuperable que has d'incloure al preu. Si estan gravats al tipus zero, no cobres res però igualment recuperes. Classificar-ho malament és l'error més car que pots cometre amb l'IVA saudita, i és una qüestió de classificació, no de tipus.",
+      "items": [
+        "Exempt vol dir que no recuperes l'IVA suportat, així que l'impost és un cost teu",
+        "Tipus zero vol dir que no cobres impost però el recuperes tot",
+        "Classifica per tipus de subministrament, no per client",
+        "Decideix la classificació abans de fixar el preu"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quin és el tipus d'IVA a l'Aràbia Saudita?",
+      "a": "El tipus general és del quinze per cent. És el més alt del Golf, i un error habitual és suposar que hi ha un sol tipus per a tot el GCC: Oman i els EAU són al 5%, Bahrain al 10%, i Qatar i Kuwait no han implantat l'IVA. Si vens a tota la regió, no pots aplicar un sol tipus a tot."
+    },
+    {
+      "q": "Què és Fatoora?",
+      "a": "Fatoora és el programa de factura electrònica de la ZATCA. La fase 1, la generació, s'aplica des del 4 de desembre de 2021 a tots els subjectes passius residents. La fase 2, la integració amb els sistemes de la ZATCA, va començar l'1 de gener de 2023 i es desplega per onades segons la mida del contribuent, amb un avís d'almenys sis mesos per a cada onada."
+    },
+    {
+      "q": "Una factura saudita ha de ser en àrab?",
+      "a": "Sí. L'article 53(5) exigeix el contingut de la factura en àrab, i permet mostrar a més un altre idioma com a traducció. Una factura bilingüe compleix la norma; una només en anglès, no."
+    },
+    {
+      "q": "Quins camps addicionals exigeix la fase 2?",
+      "a": "A més del contingut de l'article 53, una factura electrònica a la fase d'integració porta un UUID, el hash de la factura anterior, un codi QR, un segell criptogràfic i un comptador inalterable. Els genera un programari homologat, no els escriu una persona."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Factura correctament a l'Aràbia Saudita, gratis",
+  "ctaSub": "Defineix tu mateix el tipus, tingues l'àrab i l'anglès en un sol document i corregeix els errors amb factures rectificatives en lloc de modificacions.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guia sobre els grups fiscals segons les disposicions de l'IVA, tercera versió, apartats 3.2 i 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Reglament d'Aplicació de l'IVA, article 53",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Resolució d'implantació de la factura electrònica, Decisió del Governador 62738, i les pàgines de factura electrònica de la ZATCA",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "locale": "ca",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Tallers mecànics",
+  "metaTitle": "ERP per a tallers mecànics i concessionaris · Paper & Pen",
+  "metaDescription": "Gestiona pressupostos, inventari de recanvis i facturació del teu taller. Controla les hores de mà d'obra i factura les garanties amb el nostre ERP gratuït al núvol.",
+  "keywords": "programari per a tallers mecànics, facturació de reparacions de cotxes, programari de pressupostos per a mecànics, gestió d'inventari del taller, ERP per a concessionaris, facturació de garanties, comptabilitat per a tallers",
+  "heroEyebrow": "Per a tallers i concessionaris",
+  "heroTitle": "Porta el taller amb <em class=\"text-copper-400 not-italic\">pressupostos clars</em> i una facturació de recanvis exacta.",
+  "heroSubtitle": "Deixa de perdre marge per recanvis sense facturar i mà d'obra sense controlar. Paper & Pen ajuda els tallers a emetre pressupostos de reparació detallats, controlar l'inventari fins al número de referència i convertir les aprovacions directament en factures definitives.",
+  "heroBullets": [
+    "Controla recanvis i tarifes horàries",
+    "Converteix pressupostos en factures",
+    "Gestiona la facturació de garanties a tercers"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Pressupostos de reparació",
+      "desc": "Prepara pressupostos detallats perquè el client els autoritzi. Indica les hores de mà d'obra, el cost del diagnòstic i els recanvis necessaris abans de començar la reparació."
+    },
+    {
+      "icon": "inventory",
+      "title": "Recanvis i marges",
+      "desc": "Controla l'estoc amb els números de referència exactes. Segueix els costos de compra i fixa preus de venda que protegeixin els teus marges."
+    },
+    {
+      "icon": "clock",
+      "title": "Mà d'obra a tarifa del taller",
+      "desc": "Afegeix línies de servei per al temps dels mecànics. Multiplica la tarifa horària estàndard del taller per les hores de feina necessàries."
+    },
+    {
+      "icon": "invoice",
+      "title": "Facturació a tercers",
+      "desc": "Factura al propietari del vehicle la franquícia i factura la resta directament a l'empresa de garantia o al fabricant."
+    },
+    {
+      "icon": "receipt",
+      "title": "Abonament del diagnòstic",
+      "desc": "Aplica el cost del diagnòstic al pressupost inicial i abona'l fàcilment a la factura final si el client tira endavant la reparació."
+    },
+    {
+      "icon": "truck",
+      "title": "Ordres de compra",
+      "desc": "Envia ordres de compra als proveïdors de recanvis. Registra les entregues que arriben per actualitzar l'estoc automàticament abans de la pròxima feina."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Aprovació de reparacions",
+      "title": "Del diagnòstic inicial a la factura de la reparació",
+      "body": "Els clients han de saber el cost abans que toquis el motor. Paper & Pen segueix exactament la seqüència que fan servir cada dia els teus assessors de servei. Pots emetre un pressupost inicial que inclogui el cost del diagnòstic. Quan trobes l'avaria, actualitzes el pressupost amb els recanvis i les hores de mà d'obra concretes. Quan el client autoritza la feina, converteixes aquest mateix pressupost en factura definitiva. Si la teva política és no cobrar el diagnòstic quan s'aprova la reparació, només cal afegir una línia negativa per abonar-lo del total.",
+      "items": [
+        "Emet pressupostos de reparació clars",
+        "Converteix els pressupostos aprovats en factures",
+        "Abona el cost del diagnòstic fàcilment",
+        "Registra les hores de mà d'obra i les tarifes del taller"
+      ]
+    },
+    {
+      "eyebrow": "Gestió de recanvis",
+      "title": "Protegeix el marge de cada recanvi que vens",
+      "body": "Un taller amb molta feina mou centenars de components, dels filtres d'oli a les pinces de fre. Si perds de vista què has pagat al proveïdor, perds el marge. El nostre sistema d'inventari et permet registrar cada article pel seu número de referència. Registres el preu de cost quan reps la mercaderia amb les ordres de compra i fixes un preu de venda per a les factures. Quan un mecànic agafa una peça del prestatge i l'afegeixes a la factura de la reparació, l'estoc baixa sol i el benefici es calcula correctament.",
+      "items": [
+        "Controla els articles pel número de referència exacte",
+        "Segueix els preus de cost dels proveïdors",
+        "Fixa preus de venda rendibles",
+        "Redueix l'estoc automàticament en vendre"
+      ]
+    },
+    {
+      "eyebrow": "Facturació dividida",
+      "title": "Gestiona garanties i pagadors tercers",
+      "body": "No totes les reparacions les paga la persona que condueix el cotxe. Els concessionaris i els tallers oficials fan sovint feines en garantia que s'han de facturar al fabricant o a una empresa de garantia ampliada. Paper & Pen et permet mantenir fitxes de client separades per a aquests pagadors corporatius. Pots generar una factura per al propietari del vehicle amb la franquícia o les peces de desgast no cobertes, i una altra factura detallada per a l'empresa de garantia amb els codis de mà d'obra aprovats i els recanvis.",
+      "items": [
+        "Mantén fitxes de pagadors corporatius",
+        "Factura directament a les empreses de garantia",
+        "Divideix la factura entre propietari i garantia",
+        "Llibres detallats per a tots els pagadors"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ho puc integrar amb el meu programari de control horari dels mecànics o amb un descodificador de VIN?",
+      "a": "No. Paper & Pen és un ERP al núvol independent. Pots afegir hores de mà d'obra com a línies a les factures i fer servir el nostre mòdul de RH per a les nòmines bàsiques, però no oferim fitxatges en directe per als mecànics, descodificació de VIN integrada ni integracions directes amb bases de dades de reparació d'automòbils de tercers."
+    },
+    {
+      "q": "Com gestiono un cost de diagnòstic que s'abona si fan la reparació?",
+      "a": "Afegeixes el cost del diagnòstic com un servei normal al pressupost inicial. Quan el client aprova la reparació completa, converteixes el pressupost en factura, hi afegeixes els recanvis i la mà d'obra necessaris i afegeixes una línia negativa per descomptar l'import del diagnòstic original."
+    },
+    {
+      "q": "Puc controlar l'inventari de recanvis de diversos proveïdors?",
+      "a": "Sí. Pots crear ordres de compra per a diferents proveïdors de recanvis i registrar els albarans que arriben. El sistema actualitza les quantitats d'inventari i controla els preus de cost, perquè sàpigues exactament quin marge treus quan factures al client."
+    },
+    {
+      "q": "Puc facturar a una empresa de garantia en lloc del conductor?",
+      "a": "Sí. Només has de crear una fitxa de client per a l'empresa de garantia. Després li pots emetre directament la factura dels recanvis coberts i de la mà d'obra a tarifa del taller, amb el seu saldo pendent separat del dels clients particulars."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Posa ordre avui a la facturació del teu taller",
+  "ctaSub": "Crea pressupostos detallats, controla l'inventari de recanvis i factura als teus clients, gratis."
+}

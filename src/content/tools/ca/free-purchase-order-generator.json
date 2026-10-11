@@ -1,0 +1,37 @@
+{
+  "locale": "ca",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Generador d'ordres de compra gratuït",
+  "metaTitle": "Generador d'ordres de compra gratuït · Paper & Pen",
+  "metaDescription": "Crea ordres de compra en línia gratis. Afegeix el proveïdor i els articles, tria qualsevol moneda i impost, i descarrega un PDF a punt per imprimir en segons.",
+  "keywords": "generador d'ordres de compra gratis, fer ordres de compra, crear ordre de compra en línia, plantilla d'ordre de compra gratis, descarregar ordre de compra en pdf, full de comanda a proveïdor",
+  "heroEyebrow": "Gratis · Sense registre",
+  "heroTitle": "Generador d'ordres de compra gratuït",
+  "heroSubtitle": "Envia una ordre de compra clara a qualsevol proveïdor en segons. Afegeix les línies, tria qualsevol moneda, aplica l'impost i descarrega un PDF a punt per imprimir. No cal cap compte.",
+  "howToSteps": [
+    { "name": "Afegeix les teves dades", "text": "Escriu el nom de la teva empresa, el proveïdor, un número d'ordre de compra i la data." },
+    { "name": "Afegeix les línies", "text": "Detalla els productes o serveis que demanes, amb quantitat i preu. Els totals es calculen sols." },
+    { "name": "Tria la moneda i l'impost", "text": "Tria qualsevol moneda i defineix el tipus d'IVA o d'impost sobre les vendes que s'apliqui." },
+    { "name": "Descarrega el PDF", "text": "Fes clic a descarregar per enviar una ordre de compra a punt per imprimir, o registra't per seguir l'entrega i quadrar-la amb la factura del proveïdor." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Instantani i gratuït", "desc": "Sense registre, sense marca d'aigua i sense límits. Fes totes les ordres de compra que necessitis." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Fes comandes en OMR, AED, SAR, USD, EUR, GBP i més, ideal per a proveïdors estrangers." },
+    { "icon": "cart", "title": "Condicions de comanda clares", "desc": "Indica quantitats, dades d'entrega i condicions de pagament perquè el proveïdor enviï exactament el que necessites." }
+  ],
+  "sections": [
+    { "title": "Per què fer servir el generador d'ordres de compra de Paper & Pen?", "body": "Una ordre de compra és la teva instrucció formal i traçable a un proveïdor, i la teva protecció si una entrega arriba malament. La nostra és gratuïta, multimoneda i genera un PDF net que qualsevol proveïdor reconeixerà. Sense fulls de càlcul i sense registre." },
+    { "eyebrow": "Més enllà del generador", "title": "De l'ordre de compra a l'estoc i a la factura del proveïdor", "body": "Un PDF és el començament. Un flux de compres de debò lliga la comanda amb la mercaderia rebuda, les factures del proveïdor i els nivells d'estoc. Dins de l'ERP complet de Paper & Pen, una ordre de compra controla què hi ha demanat, actualitza l'inventari quan arriba la mercaderia i es quadra amb la factura del proveïdor perquè mai paguis de més.", "items": ["Controla les quantitats demanades, rebudes i pendents", "Actualitza l'estoc automàticament en rebre la mercaderia", "Quadra la factura del proveïdor amb l'ordre de compra original"] }
+  ],
+  "faqs": [
+    { "q": "Què és una ordre de compra?", "a": "Una ordre de compra és un document que envies a un proveïdor per demanar formalment productes o serveis a un preu i una quantitat acordats. Es converteix en una comanda vinculant quan el proveïdor l'accepta." },
+    { "q": "El generador d'ordres de compra és realment gratuït?", "a": "Sí. És totalment gratuït, sense registre, sense marca d'aigua i sense límit d'ordres de compra." },
+    { "q": "Puc fer una comanda a un proveïdor estranger en la seva moneda?", "a": "Sí. Tria qualsevol moneda, com USD, EUR i GBP, amb els decimals ajustats sols, perquè les comandes internacionals siguin clares." },
+    { "q": "Puc seguir l'entrega i quadrar la factura del proveïdor?", "a": "Descarrega l'ordre de compra gratis, o crea un espai de treball gratuït de Paper & Pen per controlar la mercaderia rebuda, actualitzar l'estoc i quadrar les factures dels proveïdors amb les ordres de compra." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Compra amb control",
+  "ctaSub": "Segueix cada ordre de compra, actualitza l'estoc en rebre la mercaderia i quadra les factures dels proveïdors amb un espai de treball gratuït de Paper & Pen."
+}

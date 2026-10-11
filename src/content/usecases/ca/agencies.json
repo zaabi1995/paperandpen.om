@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "agencies",
+  "order": 2,
+  "title": "Agències",
+  "metaTitle": "Facturació per a agències i clients | Paper & Pen",
+  "metaDescription": "Facturació gratuïta amb quotes mensuals, pressupostos de projectes, despeses i CRM de clients per a agències de màrqueting, disseny i digitals. Factura arreu i cobra.",
+  "keywords": "facturació per a agències, programari de facturació per a agències, facturar quotes mensuals, crm de clients, pressupostos de projectes, erp per a agències de màrqueting, control de despeses d'agència",
+  "heroEyebrow": "Per a agències i estudis",
+  "heroTitle": "Factura cada client sense complicacions, <em class=\"text-copper-400 not-italic\">a temps</em>",
+  "heroSubtitle": "Envia pressupostos de projectes, factura les quotes mensuals en pilot automàtic i guarda cada client i cobrament en un sol lloc. Paper & Pen dona a la teva agència una administració endreçada sense el preu d'un programari corporatiu.",
+  "heroBullets": ["Pressupostos i facturació gratuïts", "Quotes mensuals en pilot automàtic", "CRM de clients i control de cobraments"],
+  "features": [
+    { "icon": "quote", "title": "Pressupostos de projectes", "desc": "Envia propostes detallades i converteix l'aprovada en factura a l'instant." },
+    { "icon": "refresh", "title": "Facturació de quotes", "desc": "Posa les quotes mensuals en factures recurrents perquè els ingressos no se t'escapin." },
+    { "icon": "users", "title": "CRM de clients", "desc": "Guarda cada client, contacte i document en un lloc ben organitzat." },
+    { "icon": "card", "title": "Pagaments en línia", "desc": "Afegeix un enllaç de pagament perquè els clients paguin les factures amb targeta en segons." },
+    { "icon": "doc", "title": "Control de despeses", "desc": "Registra els costos repercutibles i les factures de proveïdors i passa'ls al client." },
+    { "icon": "bell", "title": "Recordatoris automàtics", "desc": "Recordatoris amables reclamen les factures vençudes perquè l'equip es quedi a la feina creativa." }
+  ],
+  "sections": [
+    { "eyebrow": "De la proposta al cobrament", "title": "Pressupostos, quotes i factures en un sol flux", "body": "Envia una proposta detallada i ben feta, guanya la feina i converteix el pressupost aprovat en factura sense tornar a teclejar. Posa les quotes en factures recurrents perquè els clients mensuals es facturin sols, i afegeix enllaços de pagament perquè paguin en línia el mateix dia que obren el correu. Els teus gestors de compte es queden amb els clients mentre la facturació funciona en segon pla.", "items": ["Propostes detallades que es converteixen en factures", "Facturació recurrent de quotes", "Enllaços de pagament en línia i recordatoris automàtics"] },
+    { "eyebrow": "Una administració endreçada", "title": "Cada client, cost i cobrament en ordre", "body": "Guarda clients, contactes, pressupostos, factures i despeses repercutibles en un sol espai de treball, amb un CRM que mostra tot l'historial d'un cop d'ull. Factura clients de qualsevol lloc en qualsevol moneda, aplica qualsevol tipus impositiu i afegeix Comptabilitat quan vulguis tenir els llibres complets. Creat a Oman amb OMR, AED i SAR natius i IVA del 5%, i igual de còmode amb clients en USD, EUR o GBP.", "items": ["CRM de clients amb tot l'historial", "Despeses repercutides als clients", "Qualsevol moneda i tipus impositiu, a punt per a Comptabilitat"] }
+  ],
+  "faqs": [
+    { "q": "Puc facturar les quotes mensuals automàticament?", "a": "Sí. Configura factures recurrents per a les quotes mensuals perquè es facturin soles segons el calendari, amb recordatoris automàtics per a tot el que venci." },
+    { "q": "Puc convertir una proposta en factura?", "a": "Sí. Envia un pressupost detallat i, quan el client l'aprovi, converteix-lo en factura amb un clic sense tornar a escriure res." },
+    { "q": "Guarda l'historial de cada client?", "a": "Sí. El CRM integrat guarda junts cada client, contacte, pressupost, factura i document, perquè vegis tota la relació d'un cop d'ull." },
+    { "q": "Puc repercutir despeses als clients?", "a": "Sí. Registra les factures de proveïdors i els costos repercutibles i afegeix-los a la factura del client perquè no se t'escapi res." },
+    { "q": "És gratuït per a una agència petita?", "a": "Vendes i Facturació, amb pressupostos, factures i el CRM, és gratis per sempre. Afegeix Comptabilitat, Inventari o RH i nòmines només si la teva agència els necessita." }
+  ],
+  "related": ["/features/sales-crm", "/invoicing/recurring-invoices", "/invoicing/quotations", "/use-cases/freelancers", "/pricing"],
+  "ctaTitle": "Dona a la teva agència una administració endreçada",
+  "ctaSub": "Comença gratis amb pressupostos, quotes mensuals i un CRM de clients, i afegeix Comptabilitat quan vulguis tenir els llibres complets."
+}

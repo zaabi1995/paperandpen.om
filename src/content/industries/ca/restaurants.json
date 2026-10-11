@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restaurants i cafeteries",
+  "metaTitle": "Facturació per a restaurants i inventari d'escandalls | Paper & Pen",
+  "metaDescription": "Facturació gratuïta amb inventari d'ingredients, escandalls i ordres de compra a proveïdors per a restaurants i cafeteries. Controla el cost dels aliments i factura ràpid.",
+  "keywords": "programari per a restaurants, facturació per a cafeteries, escandalls, control del cost dels aliments, inventari de restaurant, ordres de compra a proveïdors, erp per a restaurants",
+  "heroEyebrow": "Per a restaurants i cafeteries",
+  "heroTitle": "Factura ràpid, <em class=\"text-copper-400 not-italic\">controla el cost dels aliments</em>",
+  "heroSubtitle": "Imprimeix tiquets en segons, controla els ingredients fins al gram i coneix el cost real de cada plat. Paper & Pen fa que la cuina, la caixa i els llibres treballin junts.",
+  "heroBullets": ["Tiquets ràpids i gratuïts", "Cost d'ingredients i escandalls", "Ordres de compra a proveïdors"],
+  "features": [
+    { "icon": "receipt", "title": "Tiquets ràpids", "desc": "Pren nota de la comanda, aplica l'impost i el servei, i imprimeix o comparteix un tiquet en segons." },
+    { "icon": "manufacturing", "title": "Escandalls", "desc": "Defineix les receptes a partir dels ingredients per saber el cost real de cada plat." },
+    { "icon": "inventory", "title": "Estoc d'ingredients", "desc": "Controla les matèries primeres per unitat, lot i caducitat, amb avisos d'estoc baix." },
+    { "icon": "truck", "title": "Comandes a proveïdors", "desc": "Fes ordres de compra als proveïdors i actualitza l'estoc i el cost en rebre la mercaderia." },
+    { "icon": "calc", "title": "Percentatge de cost dels aliments", "desc": "Compara el cost del plat amb el preu de la carta perquè els marges es mantinguin sans." },
+    { "icon": "chart", "title": "Informes de vendes", "desc": "Mira els plats més venuts, la caixa diària i les tendències per dies i sucursals." }
+  ],
+  "sections": [
+    { "eyebrow": "Una sala més àgil", "title": "Tiquets que fan avançar la cua", "body": "A l'hora punta del migdia no hi ha temps per a una facturació lenta. Afegeix els plats, aplica l'IVA o el servei, cobra i lliura un tiquet net en segons, i comparteix-lo per WhatsApp si un client ho demana. Cada venda es registra sola als llibres, així que tancar el dia és qüestió d'una ullada, no d'un vespre teclejant.", "items": ["Afegeix plats i cobra ràpidament", "IVA i servei calculats per tu", "La caixa diària es concilia sola"] },
+    { "eyebrow": "La cuina diu la veritat", "title": "Escandalls que protegeixen el teu marge", "body": "Un plat només és rendible si saps quant costa. Crea receptes a partir dels ingredients, deixa que Paper & Pen calculi el cost de cada plat amb els preus de compra actuals i segueix el percentatge de cost dels aliments a mesura que canvien els preus dels proveïdors. Controla els ingredients per lot i caducitat, fes ordres de compra i mantén el malbaratament a ratlla. Creat a Oman amb OMR, AED i SAR natius i IVA del 5%, i a punt per a USD, EUR o qualsevol mercat.", "items": ["Receptes amb el cost dels ingredients en directe", "Control de lot i caducitat de les matèries primeres", "Ordres de compra que actualitzen el cost en rebre-les"] }
+  ],
+  "faqs": [
+    { "q": "Puc calcular el cost de la carta a partir dels preus dels ingredients?", "a": "Sí. Defineix cada plat com una recepta d'ingredients i Paper & Pen en calcula el cost amb els preus de compra actuals, perquè puguis fixar preus de carta que protegeixin el teu marge." },
+    { "q": "Controla els ingredients i la caducitat?", "a": "Sí. Les matèries primeres es controlen per unitat de mesura, lot i data de caducitat, amb avisos d'estoc baix perquè tornis a demanar abans de quedar-te sense." },
+    { "q": "Puc aplicar l'IVA i un recàrrec per servei?", "a": "Sí. Aplica l'IVA configurable del GCC, un recàrrec per servei o qualsevol tipus impositiu, tot calculat automàticament al compte." },
+    { "q": "La facturació és gratuïta per a una cafeteria?", "a": "Vendes i Facturació, tiquets inclosos, és gratis per sempre. Afegeix Inventari i Producció quan vulguis controlar ingredients i escandalls." },
+    { "q": "Puc gestionar més d'un local?", "a": "Sí. Controla les vendes i l'estoc per sucursal i consulta les quantitats en directe i la caixa diària de tots els locals des d'un sol espai de treball." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Serveix ràpid, calcula bé els costos",
+  "ctaSub": "Comença gratis amb els tiquets i la facturació, i després afegeix Inventari i escandalls per controlar el cost dels aliments."
+}

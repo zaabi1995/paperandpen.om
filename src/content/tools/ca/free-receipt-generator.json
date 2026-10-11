@@ -1,0 +1,37 @@
+{
+  "locale": "ca",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Generador de rebuts gratuït",
+  "metaTitle": "Generador de rebuts gratuït · Paper & Pen",
+  "metaDescription": "Crea rebuts de pagament en línia gratis. Afegeix l'import, la moneda i la forma de pagament, i descarrega un PDF a punt per imprimir en segons. Sense registre.",
+  "keywords": "generador de rebuts gratis, fer rebuts de pagament, crear rebut en línia, plantilla de rebut gratis, descarregar rebut en pdf, rebut de pagament en efectiu",
+  "heroEyebrow": "Gratis · Sense registre",
+  "heroTitle": "Generador de rebuts gratuït",
+  "heroSubtitle": "Dona a cada client un rebut de pagament net en segons. Escriu l'import, la moneda i la forma de pagament, i descarrega un PDF a punt per imprimir. No cal cap compte.",
+  "howToSteps": [
+    { "name": "Afegeix les teves dades", "text": "Escriu el nom de la teva empresa, qui paga, un número de rebut i la data." },
+    { "name": "Escriu el pagament", "text": "Afegeix el concepte del pagament, l'import i la forma de pagament (efectiu, targeta, transferència)." },
+    { "name": "Tria la moneda i l'impost", "text": "Tria qualsevol moneda i, si cal, mostra la part d'IVA o d'impost sobre les vendes." },
+    { "name": "Descarrega el PDF", "text": "Fes clic a descarregar per desar un rebut a punt per imprimir, o registra't per emetre rebuts automàticament a partir de les factures." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Instantani i gratuït", "desc": "Sense registre, sense marca d'aigua i sense límits. Emet tots els rebuts que necessitis." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Fes rebuts en OMR, AED, SAR, USD, EUR, GBP i més, amb els decimals correctes." },
+    { "icon": "card", "title": "Qualsevol forma de pagament", "desc": "Registra efectiu, targeta, transferència bancària o pagament en línia, ben indicat al rebut." }
+  ],
+  "sections": [
+    { "title": "Per què fer servir el generador de rebuts de Paper & Pen?", "body": "Un rebut és el justificant de pagament del client i el teu registre que una factura s'ha pagat. El nostre és gratuït, funciona en qualsevol moneda i genera un PDF net que pots lliurar o enviar per correu electrònic a l'instant. Sense fulls de càlcul i sense registre." },
+    { "eyebrow": "Més enllà del generador", "title": "Rebuts lligats a les teves factures", "body": "Un rebut solt va bé per a un cas puntual, però un negoci que creix necessita rebuts lligats a les factures i un llibre major al dia. Dins de l'ERP complet de Paper & Pen, registrar un cobrament genera el rebut i actualitza alhora el saldo de la factura i la comptabilitat.", "items": ["Rebut automàtic quan es paga una factura", "Seguiment de pagaments complets, parcials i dividits", "Envia rebuts per WhatsApp o correu electrònic a l'instant"] }
+  ],
+  "faqs": [
+    { "q": "Quina diferència hi ha entre una factura i un rebut?", "a": "Una factura demana el pagament abans que es faci. Un rebut confirma després que s'ha rebut el pagament. Aquí pots crear tots dos gratis." },
+    { "q": "El generador de rebuts és realment gratuït?", "a": "Sí. És totalment gratuït, sense registre, sense marca d'aigua i sense límit de rebuts." },
+    { "q": "Puc mostrar l'IVA o l'impost en un rebut?", "a": "Sí. Defineix qualsevol tipus impositiu i el rebut mostrarà la part d'impost de l'import pagat on la necessitis." },
+    { "q": "Es poden lligar els rebuts a les meves factures?", "a": "Descarrega rebuts solts gratis, o crea un espai de treball gratuït de Paper & Pen on cada cobrament registrat contra una factura genera automàticament un rebut lligat." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Justificant de pagament, resolt",
+  "ctaSub": "Genera rebuts automàticament, segueix cada cobrament i mantén el llibre major al dia amb un espai de treball gratuït de Paper & Pen."
+}

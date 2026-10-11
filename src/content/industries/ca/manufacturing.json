@@ -1,0 +1,110 @@
+{
+  "locale": "ca",
+  "slug": "manufacturing",
+  "order": 10,
+  "title": "Indústria i producció",
+  "metaTitle": "ERP per a la indústria i la producció · Paper & Pen",
+  "metaDescription": "Controla la matèria primera, gestiona les llistes de materials i calcula el cost unitari real del teu negoci de fabricació o de producció lleugera amb Paper & Pen.",
+  "keywords": "programari ERP per a la indústria, programari de llistes de materials, inventari per a producció lleugera, programari de costos per comanda, control de matèria primera, gestió d'ordres de treball, facturació per a fabricants",
+  "heroEyebrow": "ERP per a producció lleugera",
+  "heroTitle": "Controla la matèria primera i <em class=\"text-copper-400 not-italic\">calcula el cost real</em> de cada tanda de producció.",
+  "heroSubtitle": "Deixa d'endevinar els marges. Paper & Pen ajuda els negocis de fabricació lleugera a gestionar llistes de materials, consumir matèria primera, controlar el rebuig i saber exactament quant costa un producte acabat abans de pressupostar.",
+  "heroBullets": [
+    "Crea llistes de materials exactes.",
+    "Consumeix matèria primera per fer producte acabat.",
+    "Controla els costos per comanda i el rebuig de producció."
+  ],
+  "features": [
+    {
+      "icon": "manufacturing",
+      "title": "Llistes de materials",
+      "desc": "Defineix els components exactes que necessites per fabricar els productes acabats. Actualitza les receptes quan canviï la disponibilitat dels materials perquè la producció no s'aturi."
+    },
+    {
+      "icon": "inventory",
+      "title": "Control de matèria primera",
+      "desc": "Sàpigues exactament quant estoc tens abans d'acceptar una comanda gran. Segueix la matèria primera quan arriba i consumeix-la durant la producció."
+    },
+    {
+      "icon": "calc",
+      "title": "Cost unitari real",
+      "desc": "Calcula el cost real d'un article acabat combinant el preu de compra de la matèria primera i tenint en compte el rebuig de producció."
+    },
+    {
+      "icon": "quote",
+      "title": "Pressupostos rendibles",
+      "desc": "Pressuposta feines noves amb confiança. Quan saps el cost unitari exacte, pots fixar preus que garanteixen un marge en comptes d'endevinar."
+    },
+    {
+      "icon": "doc",
+      "title": "Gestió d'ordres de treball",
+      "desc": "Dona instruccions clares a la planta de producció. Segueix l'avanç de les feines en curs i registra el rendiment final quan el producte acabat entra a l'inventari."
+    },
+    {
+      "icon": "accounting",
+      "title": "Llibres financers integrats",
+      "desc": "La planta de producció està connectada directament amb els comptes. Les compres de materials, el consum d'estoc i les vendes de producte acabat actualitzen sols el compte de resultats."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Controla els materials",
+      "title": "Gestiona les llistes de materials i la matèria primera",
+      "body": "La producció lleugera depèn de tenir els materials adequats en el moment adequat. Si et quedes sense un component clau, tota la planta s'atura. Paper & Pen et permet crear llistes de materials detallades per a cada producte que fabriques. Quan reps una comanda nova, pots consultar a l'instant l'inventari de matèria primera per veure si la pots servir. A mesura que compres subministraments, el sistema registra el preu de compra exacte. Així la valoració de l'inventari sempre reflecteix la realitat i tens una imatge clara del capital immobilitzat al magatzem.",
+      "items": [
+        "Defineix receptes estàndard per a tots els productes acabats.",
+        "Controla les quantitats de matèria primera a diverses ubicacions.",
+        "Genera ordres de compra quan l'estoc de components baixa.",
+        "Valora l'inventari segons els preus de compra reals."
+      ]
+    },
+    {
+      "eyebrow": "Segueix la fabricació",
+      "title": "Consumeix l'estoc i controla el rebuig de producció",
+      "body": "Convertir matèria primera en producte acabat rarament surt perfecte. Es trenquen peces, es llencen retalls i el rendiment varia. Amb el mòdul de producció, pots emetre ordres de treball que indiquen a l'equip què ha de fabricar. Quan acaba la feina, registres la quantitat real de matèria primera consumida i el nombre final d'articles acabats. Aquest procés treu automàticament els components de l'inventari i hi afegeix el producte acabat. Si registres el material exacte que s'ha fet servir, rebuig inclòs, captures la realitat de la planta de producció en lloc d'una estimació ideal.",
+      "items": [
+        "Emet ordres de treball detallades a la planta de producció.",
+        "Consumeix la matèria primera directament cap a l'inventari acabat.",
+        "Registra el rebuig de material perquè els recomptes siguin exactes.",
+        "Afegeix el producte acabat a l'inventari a punt per enviar."
+      ]
+    },
+    {
+      "eyebrow": "Protegeix els marges",
+      "title": "Calcula el cost unitari real abans de pressupostar",
+      "body": "No pots fixar un preu rendible si no saps quant costa fabricar un article. Com que Paper & Pen controla el preu de compra de la matèria primera i les quantitats exactes consumides durant la producció, calcula el cost real de cada producte acabat. Això inclou el cost del material rebutjat. Quan un client et demana pressupost per a una tanda a mida, pots consultar els costos històrics de feines anteriors. Sabràs exactament on és el teu punt mort i podràs pressupostar preus competitius que continuïn protegint el teu marge de benefici.",
+      "items": [
+        "Calcula el cost del producte acabat segons els materials consumits.",
+        "Inclou el cost del rebuig de producció als preus unitaris.",
+        "Revisa els costos històrics de les feines per fixar preus futurs.",
+        "Envia pressupostos exactes directament als clients."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "El programari gestiona llistes de materials?",
+      "a": "Sí, les llistes de materials són una part central del nostre mòdul de producció de pagament. Pots definir la matèria primera i les quantitats exactes que calen per produir un article acabat. Quan fas una tanda de producció, el sistema fa servir aquesta llista de materials per calcular quanta matèria primera s'ha de consumir, perquè els nivells d'inventari es mantinguin exactes mentre fabriques."
+    },
+    {
+      "q": "Puc controlar el rebuig d'una tanda de producció?",
+      "a": "I tant. Sabem que la fabricació real comporta retalls, errors i materials malmesos. Quan acabes una ordre de treball, pots registrar la quantitat real de matèria primera consumida, encara que superi la llista de materials estàndard. Així l'inventari de matèria primera és correcte i el cost d'aquest material rebutjat s'aplica al producte acabat."
+    },
+    {
+      "q": "Com calcula el sistema el cost d'un producte acabat?",
+      "a": "El sistema calcula el cost unitari a partir del preu de compra real de la matèria primera que has fet servir. Quan converteixes matèria primera en producte acabat, el programari suma el cost de tots els components consumits, inclòs el rebuig registrat. Aquest cost total es divideix pel nombre d'articles acabats produïts, i així obtens un cost unitari molt exacte."
+    },
+    {
+      "q": "La funció de producció està inclosa a la versió gratuïta?",
+      "a": "Les funcions principals de vendes i facturació són gratis per sempre, però les eines de producció i de llistes de materials formen part d'un mòdul complementari de pagament. Aquest mòdul de pagament et dona accés complet al control de matèria primera, les ordres de treball, el consum d'estoc i els costos per comanda. Pots activar-lo quan les teves necessitats de producció vagin més enllà d'un simple control d'inventari."
+    }
+  ],
+  "related": [
+    "/features/manufacturing",
+    "/features/inventory",
+    "/features/quotations",
+    "/invoicing/purchase-orders"
+  ],
+  "ctaTitle": "Pren avui el control dels costos de producció i de l'inventari.",
+  "ctaSub": "Comença a controlar la matèria primera, gestionar llistes de materials i pressupostar feines rendibles amb Paper & Pen."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Inventari",
+  "metaTitle": "Programari de gestió d'inventari i estoc · Paper & Pen",
+  "metaDescription": "Controla l'estoc de tots els magatzems en temps real, amb avisos d'estoc baix, lots i codis de barres, i una valoració que es registra a la comptabilitat. Arreu del món.",
+  "keywords": "gestió d'inventari, control d'estoc, programari de magatzem, avisos d'estoc baix, inventari amb codi de barres, valoració d'existències, multimagatzem",
+  "heroEyebrow": "Mòdul complementari",
+  "heroTitle": "Un estoc <em class=\"text-copper-400 not-italic\">fiable</em>, en temps real",
+  "heroSubtitle": "Sàpigues exactament què tens, on és i quant val. L'inventari s'actualitza a l'instant quan factures o reps mercaderia, així que les xifres sempre són al dia.",
+  "heroBullets": ["Estoc en directe a tots els magatzems", "Avisos d'estoc baix i de reposició", "La valoració es registra a la comptabilitat"],
+  "features": [
+    { "icon": "inventory", "title": "Estoc en temps real", "desc": "Les quantitats s'actualitzen quan vens, compres o traspasses mercaderia." },
+    { "icon": "truck", "title": "Multimagatzem", "desc": "Controla i traspassa estoc entre ubicacions i sucursals amb visibilitat total." },
+    { "icon": "bell", "title": "Avisos d'estoc baix", "desc": "Defineix punts de reposició i rep un avís abans que s'esgoti un producte que es ven molt." },
+    { "icon": "receipt", "title": "Codi de barres i SKU", "desc": "Escaneja per comptar o moure estoc, organitzat per SKU, lot i unitat de mesura." },
+    { "icon": "calc", "title": "Valoració en directe", "desc": "El cost mitjà o FIFO manté el valor de l'inventari exacte al balanç." },
+    { "icon": "refresh", "title": "Connectat a les vendes", "desc": "Les factures i les ordres de compra mouen l'estoc automàticament, sense actualitzacions manuals." }
+  ],
+  "sections": [
+    { "eyebrow": "Sempre exacte", "title": "Un inventari que s'actualitza sol", "body": "Els recomptes manuals queden desfasats en el moment que fas una venda. A Paper & Pen, cada factura, compra i traspàs ajusta l'estoc i el cost en temps real, de manera que la xifra de la pantalla és la xifra del prestatge. Defineix punts de reposició i deixa que el sistema t'avisi quan has de comprar.", "items": ["S'ajusta sol a cada operació", "Punts de reposició i avisos", "Control per lot, SKU i unitat de mesura"] },
+    { "eyebrow": "L'estoc i els llibres, junts", "title": "Del prestatge al balanç", "body": "L'inventari no és només comptar caixes, són diners reals al balanç. Paper & Pen valora l'estoc amb cost mitjà o FIFO i registra els moviments a la comptabilitat automàticament, així que el cost de les vendes i el valor de l'estoc sempre quadren. Funciona en qualsevol moneda i per a qualsevol mercat.", "items": ["Cost mitjà o FIFO", "Es registra sol a la comptabilitat", "Compres en diverses monedes"] }
+  ],
+  "faqs": [
+    { "q": "L'inventari està inclòs gratis?", "a": "Inventari és un complement opcional de pagament. El mòdul principal de Vendes i Facturació és gratis per sempre, i afegeixes Inventari quan necessites controlar l'estoc en temps real." },
+    { "q": "Puc gestionar diversos magatzems?", "a": "Sí. Controla l'estoc per ubicació, fes traspassos entre ubicacions i consulta les quantitats en directe a tot arreu." },
+    { "q": "Admet codis de barres?", "a": "Sí. Escaneja el codi de barres d'un proveïdor, un SKU o una etiqueta QR impresa per comptar i moure estoc més ràpid, amb lots i unitats de mesura." },
+    { "q": "Com es valora l'estoc?", "a": "Tria cost mitjà o FIFO. La valoració s'actualitza a cada moviment i es registra a la comptabilitat automàticament." },
+    { "q": "Vendre actualitza l'estoc automàticament?", "a": "Sí. Les factures redueixen l'estoc i les compres l'augmenten en temps real, així que mai has d'actualitzar quantitats a mà." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Pren el control del teu estoc",
+  "ctaSub": "Comença gratis amb la facturació i afegeix Inventari quan vulguis tenir l'estoc en temps real a cada ubicació."
+}

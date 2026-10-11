@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "RH i nòmines",
+  "metaTitle": "Programari de RH i nòmines · Nòmines fàcils · Paper & Pen",
+  "metaDescription": "Gestiona empleats, assistència, permisos i rebuts de nòmina en un sol lloc. Paga nòmines en qualsevol moneda, registra els sous i calcula el final de servei.",
+  "keywords": "programari de RH, programari de nòmines, rebuts de nòmina, control d'assistència, gestió de permisos, final de servei, wps, gestió d'empleats",
+  "heroEyebrow": "Mòdul complementari",
+  "heroTitle": "Paga el teu equip <em class=\"text-copper-400 not-italic\">correctament</em>, cada vegada",
+  "heroSubtitle": "Empleats, assistència, permisos i nòmines en un mòdul endreçat. Fes un cicle de nòmines, genera els rebuts i registra els sous a la comptabilitat en minuts, no en dies.",
+  "heroBullets": ["Nòmines en minuts", "Rebuts i permisos en autoservei", "Es registra directament a comptabilitat"],
+  "features": [
+    { "icon": "hr", "title": "Fitxes d'empleats", "desc": "Un perfil per persona: contracte, sou, documents i historial." },
+    { "icon": "clock", "title": "Assistència i hores extres", "desc": "Registra torns, hores extres i absències que passen a la nòmina." },
+    { "icon": "doc", "title": "Gestió de permisos", "desc": "Defineix polítiques de permisos, aprova sol·licituds i controla els saldos automàticament." },
+    { "icon": "receipt", "title": "Rebuts de nòmina", "desc": "Genera rebuts clars i detallats i comparteix-los amb cada empleat." },
+    { "icon": "calc", "title": "Deduccions i final de servei", "desc": "Gestiona préstecs, deduccions i càlculs de final de servei correctament." },
+    { "icon": "accounting", "title": "Es registra als llibres", "desc": "Cada nòmina registra els sous i les provisions a la comptabilitat automàticament." }
+  ],
+  "sections": [
+    { "eyebrow": "Menys feina administrativa", "title": "De l'assistència al rebut de nòmina sense fulls de càlcul", "body": "L'assistència, les hores extres, els permisos i els préstecs alimenten la nòmina, així que deixes d'enganxar fulls de càlcul a final de mes. Aprova el cicle una vegada i Paper & Pen genera tots els rebuts i l'assentament de sous de cop.", "items": ["L'assistència i les hores extres passen a la nòmina", "Préstecs i deduccions gestionats", "Rebuts de nòmina generats en bloc"] },
+    { "eyebrow": "Allà on contractis", "title": "Nòmines adaptades al teu país i a la teva moneda", "body": "Paga el personal en qualsevol moneda i configura els complements, les deduccions i les regles de final de servei que s'apliquen allà on treballes. Amb la interfície en àrab, anglès, hindi, bengalí i urdú, el teu equip pot llegir el seu rebut i demanar permisos en el seu idioma.", "items": ["Sous en qualsevol moneda", "Complements i deduccions configurables", "A punt per al final de servei"] }
+  ],
+  "faqs": [
+    { "q": "RH i nòmines és gratuït?", "a": "És un complement opcional de pagament. El nucli gratuït per sempre inclou Vendes i Facturació, i afegeixes RH i nòmines quan necessites gestionar personal i sous." },
+    { "q": "Puc pagar nòmines en qualsevol moneda?", "a": "Sí. Paga el teu equip en OMR, AED, SAR, USD, EUR o qualsevol moneda, amb complements i deduccions configurats segons les teves regles." },
+    { "q": "Gestiona l'assistència i els permisos?", "a": "Sí. Registra l'assistència i les hores extres, defineix polítiques de permisos, aprova sol·licituds i controla els saldos, tot connectat a la nòmina." },
+    { "q": "La nòmina es registra a la comptabilitat?", "a": "Sí. Cada nòmina registra sous, complements i provisions al llibre major automàticament quan tens Comptabilitat activada." },
+    { "q": "Pot calcular el final de servei?", "a": "Sí. Configura les regles de final de servei i d'indemnització del teu país perquè les liquidacions finals es calculin correctament." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Fes que el dia de cobrament sigui fàcil",
+  "ctaSub": "Comença gratis amb la facturació i afegeix RH i nòmines per gestionar el teu equip i fer les nòmines en minuts."
+}

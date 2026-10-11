@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "contracting",
+  "order": 4,
+  "title": "Construcció i obres",
+  "metaTitle": "Facturació i certificacions d'obra per a contractistes · Paper & Pen",
+  "metaDescription": "Pressupostos gratuïts amb certificacions d'obra, ordres de compra, nòmines i costos per projecte per a contractistes i constructors. Factura fites i controla el cost.",
+  "keywords": "programari per a contractistes, facturació per a la construcció, certificacions d'obra, costos per projecte, erp per a constructores, ordres de compra, nòmines per a contractistes, facturació amb retencions",
+  "heroEyebrow": "Per a contractistes i constructors",
+  "heroTitle": "Factura cada fita, <em class=\"text-copper-400 not-italic\">controla el cost de l'obra</em>",
+  "heroSubtitle": "Pressuposta un projecte, factura'l per fases, controla els materials i la mà d'obra respecte al pressupost i cobra sense haver de reclamar. Paper & Pen reuneix les estimacions, els costos i la tresoreria en un sol lloc.",
+  "heroBullets": ["Estimacions i pressupostos gratuïts", "Factures per fites i per avanç d'obra", "Materials, mà d'obra i marge per obra"],
+  "features": [
+    { "icon": "quote", "title": "Estimacions detallades", "desc": "Crea pressupostos detallats amb materials i mà d'obra i converteix-los en projecte." },
+    { "icon": "invoice", "title": "Certificacions d'obra", "desc": "Factura per fita o per percentatge executat, amb les retencions ben gestionades." },
+    { "icon": "truck", "title": "Ordres de compra", "desc": "Demana materials per a una obra i imputa'n el cost on correspon." },
+    { "icon": "hr", "title": "Mà d'obra i nòmines", "desc": "Fes les nòmines i imputa els sous al projecte correcte per tenir el cost real de l'obra." },
+    { "icon": "calc", "title": "Costos per obra", "desc": "Compara en directe el cost real de materials i mà d'obra amb la teva estimació." },
+    { "icon": "bell", "title": "Recordatoris de pagament", "desc": "Recordatoris automàtics i amables reclamen les certificacions vençudes perquè no ho hagis de fer tu." }
+  ],
+  "sections": [
+    { "eyebrow": "De la licitació a la factura", "title": "Estimacions que es converteixen en l'obra", "body": "Guanya la feina amb una estimació clara i detallada i converteix la versió aprovada directament en un projecte sense tornar a escriure ni una línia. Factura per fases a mesura que avança la feina, per fita o per percentatge, i gestiona les retencions perquè la liquidació final quadri. El client rep una certificació professional i tu tens un sol rastre net de la licitació al pagament final.", "items": ["Estimacions detallades amb materials i mà d'obra", "Factures per fita o per percentatge executat", "Retencions controlades fins a la liquidació final"] },
+    { "eyebrow": "Sàpigues que l'obra dona diners", "title": "Cost i marge, obra per obra", "body": "Una obra amb molta activitat pot amagar pèrdues. Paper & Pen imputa cada ordre de compra, factura de proveïdor i nòmina al projecte i mostra el cost real respecte a l'estimació a mesura que avança la feina. Veus el marge abans que acabi l'obra, no després. Creat a Oman amb OMR, AED i SAR natius i IVA del 5%, i a punt per a USD, EUR o qualsevol mercat i tipus impositiu.", "items": ["Cost de materials i mà d'obra per projecte", "Marge real respecte a l'estimació, en directe", "Qualsevol moneda i tipus impositiu, a punt per a l'IVA"] }
+  ],
+  "faqs": [
+    { "q": "Puc facturar un projecte per fases?", "a": "Sí. Factura per fita o per percentatge executat, amb les retencions gestionades, perquè cada certificació sigui neta i la liquidació final quadri." },
+    { "q": "Puc controlar el cost respecte a l'estimació?", "a": "Sí. Les ordres de compra, les factures de proveïdors i les nòmines s'imputen a l'obra, i Paper & Pen mostra el cost real respecte a l'estimació a mesura que avança la feina." },
+    { "q": "Gestiona les retencions?", "a": "Sí. Les retencions es controlen a les certificacions d'obra i passen a la liquidació final, perquè no es perdi res en el lliurament." },
+    { "q": "Puc fer les nòmines del personal d'obra?", "a": "Sí. El mòdul de RH i nòmines paga els sous i pot imputar el cost de la mà d'obra al projecte correcte per tenir uns costos d'obra exactes." },
+    { "q": "Els pressupostos són gratuïts per als contractistes?", "a": "Vendes i Facturació, amb estimacions i certificacions d'obra, és gratis per sempre. Afegeix Inventari, RH i nòmines i Comptabilitat per controlar del tot el cost dels projectes." }
+  ],
+  "related": ["/invoicing/estimates", "/invoicing/purchase-orders", "/features/hr-payroll", "/invoicing/payment-reminders", "/pricing"],
+  "ctaTitle": "Construeix, factura i cobra",
+  "ctaSub": "Comença gratis amb estimacions i certificacions d'obra, i després afegeix Nòmines i Comptabilitat per controlar el cost de cada obra."
+}

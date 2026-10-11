@@ -1,0 +1,110 @@
+{
+  "locale": "ca",
+  "slug": "ecommerce",
+  "order": 16,
+  "title": "Venedors en línia i comerç electrònic",
+  "metaTitle": "ERP i facturació per al comerç electrònic · Paper & Pen",
+  "metaDescription": "Gestiona grans volums de comandes, controla l'estoc de tots els canals, tramita devolucions i concilia les liquidacions de les passarel·les amb el nostre ERP gratuït.",
+  "keywords": "ERP per al comerç electrònic, facturació per a botigues en línia, control de nivells d'estoc, conciliar passarel·les de pagament, cost de les vendes, comptabilitat per al comerç electrònic, factures rectificatives per devolucions",
+  "heroEyebrow": "Per a venedors en línia",
+  "heroTitle": "Gestiona grans volums de comandes i <em class=\"text-copper-400 not-italic\">controla els marges exactes</em>.",
+  "heroSubtitle": "Vendre en línia vol dir molts moviments, estoc que no para i calendaris de liquidació complicats. Controla el cost de les vendes, emet factures rectificatives per a les devolucions i concilia les liquidacions de les passarel·les sense perdre de vista el teu benefici real.",
+  "heroBullets": [
+    "Controla l'estoc de tots els canals",
+    "Emet factures rectificatives a l'instant",
+    "Concilia les liquidacions de les passarel·les"
+  ],
+  "features": [
+    {
+      "icon": "cart",
+      "title": "Comandes de venda",
+      "desc": "Registra grans volums de comandes de clients. Converteix-les en albarans i factures a mesura que prepares i envies la mercaderia."
+    },
+    {
+      "icon": "inventory",
+      "title": "Control d'estoc",
+      "desc": "Segueix els nivells d'inventari a mesura que surten les comandes. Sàpigues exactament què tens disponible per no vendre més del que tens a la botiga en línia."
+    },
+    {
+      "icon": "refresh",
+      "title": "Devolucions i reemborsaments",
+      "desc": "Tramita ràpidament les devolucions dels clients. Genera factures rectificatives per ajustar els saldos dels clients i actualitzar amb exactitud els llibres de vendes."
+    },
+    {
+      "icon": "truck",
+      "title": "Costos d'enviament",
+      "desc": "Registra les despeses d'enviament, tant si les assumeixes tu com si les repercuteixes al comprador a la factura final."
+    },
+    {
+      "icon": "bank",
+      "title": "Conciliació de liquidacions",
+      "desc": "Relaciona les transferències agrupades de la passarel·la de pagament amb cada comanda de venda. Mantén el balanç exacte i al dia."
+    },
+    {
+      "icon": "chart",
+      "title": "Pèrdues i guanys",
+      "desc": "Calcula el cost real de les vendes de cada comanda. Mira els marges reals després de l'enviament, l'embalatge i el cost de compra als proveïdors."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Preparació de comandes",
+      "title": "Converteix les comandes diàries en mercaderia enviada",
+      "body": "El comerç electrònic va de pressa. Quan arriba una tanda de comandes de la botiga en línia, les has de tramitar sense demora. Paper & Pen et permet registrar comandes de venda i generar albarans per a la taula d'embalatge. A mesura que les caixes surten del magatzem, pots convertir aquestes comandes en factures definitives. Pots indicar si l'enviament és una línia a part que paga el client o un cost que assumeix el teu negoci. Si registres cada enviament, els nivells d'inventari s'actualitzen a l'instant i saps exactament quan has de tornar a demanar estoc als proveïdors.",
+      "items": [
+        "Converteix comandes de venda en factures",
+        "Genera albarans exactes",
+        "Controla l'enviament assumit o repercutit",
+        "Actualitza l'estoc en cada enviament"
+      ]
+    },
+    {
+      "eyebrow": "Gestió de devolucions",
+      "title": "Gestiona devolucions i ajustos d'estoc",
+      "body": "La venda en línia comporta devolucions. Un client demana una talla equivocada o un missatger fa malbé un paquet. Necessites un procés clar per gestionar la reversió econòmica i l'estoc físic. Quan torna un producte, pots emetre una factura rectificativa per anul·lar el càrrec de la factura original. Així els registres de l'impost sobre les vendes són exactes i les xifres d'ingressos reflecteixen les vendes que realment es mantenen. Després pots ajustar l'inventari per donar de baixa l'article malmès o tornar-lo a l'estoc disponible per al pròxim comprador.",
+      "items": [
+        "Emet factures rectificatives per devolucions",
+        "Reverteix els ingressos per vendes amb exactitud",
+        "Torna els articles a l'estoc disponible",
+        "Dona de baixa l'inventari malmès"
+      ]
+    },
+    {
+      "eyebrow": "Control financer",
+      "title": "Concilia les liquidacions i coneix els marges reals",
+      "body": "Les passarel·les de pagament no ingressen els diners comanda per comanda. Envien liquidacions agrupades, sovint amb les comissions ja descomptades. Pots fer servir assentaments per conciliar aquests imports globals amb cada factura de venda, perquè el saldo de clients pendents de cobrament sigui correcte. A més dels ingressos, necessites saber el cost de les vendes. Si controles les ordres de compra als proveïdors i el cost de l'inventari que entra, l'informe de pèrdues i guanys mostra el marge real del teu comerç electrònic, tenint en compte el cost real dels articles que has enviat.",
+      "items": [
+        "Concilia les liquidacions agrupades de les passarel·les",
+        "Comptabilitza les comissions de pagament",
+        "Controla el cost de les vendes",
+        "Genera informes de pèrdues i guanys"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "S'integra directament amb la meva botiga de Shopify o WooCommerce?",
+      "a": "Paper & Pen no té integracions directes i automàtiques amb mercats d'aplicacions de tercers ni amb plataformes de comerç electrònic. Hauràs d'introduir a mà els resums de vendes diaris o cada comanda per mantenir exactes els registres d'inventari i de comptabilitat."
+    },
+    {
+      "q": "Com gestiono les comissions de la passarel·la de pagament?",
+      "a": "Quan un proveïdor de pagaments fa una liquidació agrupada, normalment és inferior al total de les factures per les seves comissions. Pots fer servir assentaments per saldar els imports complets de les factures als comptes de clients, registrar els diners rebuts i anotar la diferència com a despesa de comissions bancàries."
+    },
+    {
+      "q": "Puc gestionar l'inventari de diversos canals de venda?",
+      "a": "Pots controlar l'estoc total disponible dins del sistema. Quan fas una venda en qualsevol plataforma, registrar la factura a Paper & Pen descompta els articles de l'inventari central, perquè vegis què et queda per vendre."
+    },
+    {
+      "q": "Com tramito el reemborsament d'un client?",
+      "a": "Si un client retorna un article, crees una factura rectificativa lligada a la factura original. Això reverteix la venda als llibres. Després pots registrar el pagament de sortida si retornes els diners, i ajustar els nivells d'estoc si l'article es pot tornar a vendre."
+    }
+  ],
+  "related": [
+    "/industries/retail",
+    "/features/inventory",
+    "/invoicing/credit-notes",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Posa ordre avui a les finances del teu comerç electrònic",
+  "ctaSub": "Controla l'estoc, emet factures rectificatives i calcula els teus marges reals, gratis."
+}

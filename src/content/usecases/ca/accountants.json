@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "accountants",
+  "order": 4,
+  "title": "Comptables i gestors",
+  "metaTitle": "Programari de comptabilitat per a comptables | Paper & Pen",
+  "metaDescription": "Llibres de partida doble, declaracions d'IVA, informes financers i espais per a diversos clients per a comptables i gestors. Llibres nets, qualsevol moneda i impost.",
+  "keywords": "programari de comptabilitat per a comptables, programari per a gestories, comptabilitat de partida doble, programari de declaracions d'iva, informes financers, comptabilitat de diversos clients, balanç de comprovació",
+  "heroEyebrow": "Per a comptables i gestors",
+  "heroTitle": "Llibres nets que <em class=\"text-copper-400 not-italic\">sempre quadren</em>",
+  "heroSubtitle": "Comptabilitat de partida doble de veritat, assentaments automàtics a partir de cada factura i cobrament, declaracions d'IVA i informes en què els teus clients poden confiar. Paper & Pen porta els llibres perquè tu puguis assessorar.",
+  "heroBullets": ["Llibres de partida doble de veritat", "Registrats sols a partir de vendes i compres", "Declaracions d'IVA i informes financers"],
+  "features": [
+    { "icon": "accounting", "title": "Llibres de partida doble", "desc": "Cada operació registra un assentament quadrat en un pla de comptes en regla." },
+    { "icon": "refresh", "title": "Registre automàtic", "desc": "Les factures, els cobraments i els moviments d'estoc es registren sols al llibre major." },
+    { "icon": "calc", "title": "Declaracions d'IVA", "desc": "L'impost es controla a cada document, a punt per presentar una declaració d'IVA del 5% o de qualsevol tipus." },
+    { "icon": "reports", "title": "Informes financers", "desc": "Compte de resultats, balanç, balanç de comprovació i llibres, quan els necessitis." },
+    { "icon": "doc", "title": "Traçabilitat", "desc": "Cada assentament porta fins al seu document d'origen per a una auditoria neta." },
+    { "icon": "globe", "title": "Qualsevol moneda i impost", "desc": "Gestiona clients en diverses monedes i qualsevol règim fiscal del món." }
+  ],
+  "sections": [
+    { "eyebrow": "Prou de tornar a teclejar", "title": "El llibre major s'escriu sol", "body": "Els assentaments manuals són on s'hi colen els errors. A Paper & Pen, cada factura, cobrament, compra i moviment d'estoc registra un assentament quadrat de partida doble en un pla de comptes en regla, així que els llibres sempre estan al dia i sempre quadren. Dediques el temps a revisar i assessorar, no a teclejar assentaments, i cada xifra porta directament al seu document d'origen.", "items": ["Assentaments quadrats a partir de cada operació", "Pla de comptes en regla", "Traçabilitat completa fins als documents d'origen"] },
+    { "eyebrow": "Informa i presenta amb confiança", "title": "IVA, extractes i informes quan calgui", "body": "Treu un compte de resultats, un balanç, un balanç de comprovació o el llibre major quan un client t'ho demani, i prepara una declaració d'IVA amb l'impost controlat a cada document. Paper & Pen gestiona l'IVA configurable del GCC des del primer dia i qualsevol tipus impositiu o moneda per a clients d'altres llocs, perquè puguis atendre una cartera en diversos mercats. Creat a Oman, còmode a tot arreu, de Mascat a Manchester.", "items": ["Compte de resultats, balanç, balanç de comprovació, llibres", "IVA controlat per document, a punt per presentar", "Multimoneda, qualsevol règim fiscal"] }
+  ],
+  "faqs": [
+    { "q": "És comptabilitat de partida doble de veritat?", "a": "Sí. Cada operació registra un assentament quadrat en un pla de comptes en regla, de manera que el balanç de comprovació sempre quadra i els llibres concilien." },
+    { "q": "Les factures i els cobraments es registren sols?", "a": "Sí. Les vendes, les compres, els cobraments i els moviments d'estoc es registren sols al llibre major, així que no cal tornar a teclejar res i hi ha molt menys marge d'error." },
+    { "q": "Puc preparar declaracions d'IVA?", "a": "Sí. L'impost es controla a cada document, així que pots preparar una declaració d'IVA configurable del GCC o una declaració de qualsevol tipus per a clients d'altres règims fiscals." },
+    { "q": "Quins informes puc treure?", "a": "Compte de resultats, balanç, balanç de comprovació, llibre major i extractes de clients o proveïdors, tots quan vulguis i traçables fins als documents d'origen." },
+    { "q": "Puc portar clients en monedes diferents?", "a": "Sí. Paper & Pen gestiona clients en diverses monedes i qualsevol règim fiscal, perquè puguis atendre una cartera de diversos països des d'una sola plataforma." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/invoicing/ledgers", "/use-cases/small-business", "/pricing"],
+  "ctaTitle": "Menys temps teclejant, més temps assessorant",
+  "ctaSub": "Deixa que Paper & Pen registri els llibres automàticament perquè els comptes quadrin i els informes estiguin a punt quan els necessitis."
+}

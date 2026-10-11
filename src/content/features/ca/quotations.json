@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "quotations",
+  "order": 2,
+  "title": "Pressupostos",
+  "metaTitle": "Programari gratuït de pressupostos i estimacions · Paper & Pen",
+  "metaDescription": "Envia pressupostos i estimacions professionals en qualsevol moneda, gratis per sempre. Mira quan s'obren, converteix-los en factura amb un clic i signa en línia.",
+  "keywords": "programari de pressupostos, pressupost gratis, fer pressupostos, pressupost de venda, proposta comercial, convertir pressupost en factura, signatura electrònica de pressupostos",
+  "heroEyebrow": "Gratis per sempre",
+  "heroTitle": "Pressupostos que <em class=\"text-copper-400 not-italic\">tanquen vendes</em>",
+  "heroSubtitle": "Crea un pressupost net i amb la teva marca en minuts, envia'l perquè l'aprovin i converteix els acceptats en factures amb un sol clic. En qualsevol moneda i en qualsevol idioma.",
+  "heroBullets": ["Converteix el pressupost en factura a l'instant", "Acceptació i signatura en línia", "Gratis per sempre"],
+  "features": [
+    { "icon": "quote", "title": "Pressupostos professionals", "desc": "Pressupostos detallats i amb la teva marca, amb logotip, condicions i data de validesa." },
+    { "icon": "check", "title": "Aprovació en línia", "desc": "Els clients accepten i signen des d'un enllaç segur, sense imprimir ni escanejar res." },
+    { "icon": "refresh", "title": "Del pressupost a la factura", "desc": "Converteix un pressupost acceptat en factura amb un clic, amb els totals traspassats." },
+    { "icon": "chart", "title": "Visibilitat de l'embut", "desc": "Mira d'un cop d'ull quins pressupostos s'han enviat, vist, acceptat o caducat." },
+    { "icon": "globe", "title": "Qualsevol moneda i impost", "desc": "Pressuposta en qualsevol moneda amb el tipus impositiu correcte inclòs als totals." },
+    { "icon": "doc", "title": "Plantilles reutilitzables", "desc": "Desa les línies i condicions habituals perquè el pròxim pressupost et porti segons." }
+  ],
+  "sections": [
+    { "eyebrow": "Un sí més ràpid", "title": "Fes que aprovar sigui facilíssim per als clients", "body": "Un pressupost fàcil de llegir i fàcil d'acceptar guanya més sovint. Paper & Pen envia un PDF endreçat i un enllaç segur on el client pot revisar, acceptar i fins i tot signar des del mòbil. Reps un avís en el moment que ho fa.", "items": ["Enviament per correu electrònic i WhatsApp", "Acceptació i signatura adaptades al mòbil", "Avís a l'instant quan l'accepten"] },
+    { "eyebrow": "Sense tornar a teclejar", "title": "Del pressupost al cobrament sense reescriure res", "body": "Quan s'accepta un pressupost, converteix-lo directament en factura o en comanda de venda. Les línies, els descomptes, la moneda i l'impost es traspassen, així que no es perd res ni hi ha errors de tecleig. L'operació passa neta a la comptabilitat.", "items": ["Conversió amb un clic", "Es mantenen descomptes i impostos", "Traçabilitat del pressupost al cobrament"] }
+  ],
+  "faqs": [
+    { "q": "L'eina de pressupostos és gratuïta?", "a": "Sí. Crear i enviar pressupostos forma part del mòdul de Vendes i Facturació gratuït per sempre, sense límit de pressupostos ni de clients." },
+    { "q": "Els clients poden acceptar un pressupost en línia?", "a": "Sí. Envia un enllaç segur on el client pot revisar, acceptar i signar des de qualsevol dispositiu. Reps l'avís a l'instant." },
+    { "q": "Com converteixo un pressupost en factura?", "a": "Obre el pressupost acceptat i fes clic a convertir. La factura es crea amb totes les línies, la moneda i l'impost traspassats." },
+    { "q": "Puc fer pressupostos en monedes diferents?", "a": "Sí. Pressuposta en OMR, AED, SAR, USD, EUR o qualsevol moneda, amb els decimals i l'impost correctes." },
+    { "q": "Puc reutilitzar plantilles de pressupost?", "a": "Sí. Desa els articles, les condicions i les notes habituals com a plantilles perquè els pressupostos repetits et portin segons." }
+  ],
+  "related": ["/features/invoicing", "/features/sales-crm", "/invoicing/quotations", "/invoicing/estimates", "/pricing"],
+  "ctaTitle": "Envia avui un pressupost guanyador",
+  "ctaSub": "Comença gratis i crea el teu primer pressupost en minuts. Converteix-lo en factura en el moment que l'acceptin."
+}

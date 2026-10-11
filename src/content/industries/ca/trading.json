@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "trading",
+  "order": 1,
+  "title": "Empreses comercials i majoristes",
+  "metaTitle": "Programari ERP per a empreses comercials i majoristes | Paper & Pen",
+  "metaDescription": "Facturació gratuïta amb estoc en temps real, ordres de compra i multimoneda per a comerciants, importadors i majoristes. Pressuposta, ven i concilia més ràpid.",
+  "keywords": "programari per a empreses comercials, erp per a majoristes, facturació per a distribuïdors, programari d'importació i exportació, programari d'ordres de compra, comerç multimoneda, control d'estoc per a comerciants",
+  "heroEyebrow": "Per a comerciants, importadors i majoristes",
+  "heroTitle": "Compra, ven i controla l'estoc amb <em class=\"text-copper-400 not-italic\">un sol llibre clar</em>",
+  "heroSubtitle": "De l'ordre de compra a la factura del client, Paper & Pen manté sincronitzats la mercaderia, els costos i la tresoreria. Pressuposta ràpid, mou l'estoc sense endevinar i coneix el marge de cada operació.",
+  "heroBullets": ["Pressupostos i facturació gratuïts", "Estoc en directe i cost en destinació", "Compra en una moneda i ven en una altra"],
+  "features": [
+    { "icon": "cart", "title": "Del pressupost a la factura", "desc": "Converteix un pressupost en comanda de venda i factura amb dos clics, sense tornar a teclejar." },
+    { "icon": "inventory", "title": "Estoc en temps real", "desc": "Cada venda i compra mou l'estoc a l'instant a tots els magatzems." },
+    { "icon": "truck", "title": "Ordres de compra", "desc": "Fes ordres de compra als proveïdors, rep la mercaderia i actualitza l'estoc i el cost en un sol flux." },
+    { "icon": "globe", "title": "Multimoneda", "desc": "Compra en USD o EUR i ven en OMR, AED o SAR, amb els decimals correctes a tot arreu." },
+    { "icon": "calc", "title": "Marge a cada operació", "desc": "Mira el cost, el preu i el benefici per línia perquè mai vengis per sota del teu mínim." },
+    { "icon": "refresh", "title": "Conciliació automàtica", "desc": "Les factures, els cobraments i els moviments d'estoc es registren sols als llibres." }
+  ],
+  "sections": [
+    { "eyebrow": "La rapidesa guanya vendes", "title": "Pressuposta avui, lliura demà", "body": "En el comerç, sovint el primer pressupost ben fet s'endú la comanda. Crea un pressupost professional en minuts, envia'l per WhatsApp o correu electrònic i converteix l'aprovat en comanda de venda, albarà i factura sense entrar res dues vegades. El client rep un document ben presentat i tu tens un rastre net.", "items": ["Del pressupost a la comanda i a la factura en uns clics", "Albarans i preparació de comandes integrats", "Comparteix a l'instant per WhatsApp o correu electrònic"] },
+    { "eyebrow": "Coneix el teu cost real", "title": "Un estoc i un marge que diuen la veritat", "body": "Els importadors i els majoristes viuen del marge. Paper & Pen valora l'estoc amb cost mitjà o FIFO i mostra el benefici per línia mentre pressuposes, perquè fixis preus amb confiança. Compra a l'estranger en una moneda i ven aquí en una altra mentre els llibres es mantenen conciliats. Creat a Oman amb OMR, AED i SAR natius i IVA configurable, i igual de còmode amb USD, EUR o qualsevol tipus impositiu que defineixis.", "items": ["Cost mitjà o FIFO per a una valoració exacta", "Marge per línia mentre pressuposes", "IVA del GCC o qualsevol tipus impositiu, qualsevol moneda"] }
+  ],
+  "faqs": [
+    { "q": "Puc pressupostar en una moneda i comprar estoc en una altra?", "a": "Sí. Compra en USD, EUR, CNY o qualsevol moneda i ven en OMR, AED, SAR o la moneda que facin servir els teus clients. Els decimals i els totals s'ajusten sols i els llibres es mantenen conciliats." },
+    { "q": "La facturació actualitza l'estoc?", "a": "Sí. Cada factura redueix l'estoc i cada recepció d'una ordre de compra l'augmenta en temps real, en diversos magatzems, sense recomptes manuals." },
+    { "q": "Puc veure el marge de benefici de cada article?", "a": "Sí. Paper & Pen mostra el cost, el preu de venda i el marge de cada línia mentre prepares un pressupost o una factura, perquè protegeixis el teu mínim a cada operació." },
+    { "q": "És realment gratuït per a una empresa comercial?", "a": "Vendes i Facturació és gratis per sempre, amb pressupostos, factures i albarans. Afegeix el mòdul d'Inventari quan necessitis estoc en temps real i cost en destinació." },
+    { "q": "Gestiona l'IVA del GCC i d'altres mercats?", "a": "Sí. Aplica l'IVA configurable del GCC des del primer dia, o configura qualsevol tipus impositiu per a qualsevol país. L'impost sempre es calcula sobre la base després del descompte." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Porta el teu negoci amb un sol llibre net",
+  "ctaSub": "Comença gratis amb pressupostos i facturació, i afegeix Inventari i Comptabilitat a mesura que creix el teu negoci."
+}

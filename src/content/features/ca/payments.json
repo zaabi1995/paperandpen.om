@@ -1,0 +1,35 @@
+{
+  "locale": "ca",
+  "slug": "payments",
+  "order": 10,
+  "title": "Pagaments",
+  "metaTitle": "Pagaments en línia de factures · Cobra abans · Paper & Pen",
+  "metaDescription": "Afegeix un enllaç de pagament en línia a cada factura i cobra amb targeta. Paymob i passarel·les globals, qualsevol moneda, conciliat sol amb la comptabilitat.",
+  "keywords": "pagaments en línia, acceptar pagaments amb targeta, pagar factura en línia, paymob, passarel·la de pagament, cobrar més ràpid, enllaç de pagament",
+  "heroEyebrow": "Inclòs de sèrie",
+  "heroTitle": "Que els clients et paguin <em class=\"text-copper-400 not-italic\">amb un toc</em>",
+  "heroSubtitle": "Posa un enllaç segur de pagament en línia a cada factura perquè els clients paguin amb targeta a l'instant. Els cobraments es concilien sols amb la comptabilitat, en qualsevol moneda i des de qualsevol lloc.",
+  "heroBullets": ["Enllaç de pagament a cada factura", "Conciliat sol amb el llibre major", "Paymob i passarel·les globals"],
+  "features": [
+    { "icon": "card", "title": "Pagament amb targeta", "desc": "Els clients paguen qualsevol factura en línia amb targeta, sense iniciar sessió ni instal·lar cap aplicació." },
+    { "icon": "bolt", "title": "Enllaç de pagament instantani", "desc": "Cada factura porta un enllaç segur que es pot compartir per correu electrònic o WhatsApp." },
+    { "icon": "refresh", "title": "Conciliació automàtica", "desc": "Els pagaments correctes marquen la factura com a pagada i es registren als llibres." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Cobra en OMR, AED, SAR, USD, EUR i més a través de la passarel·la adequada." },
+    { "icon": "shield", "title": "Segur i PCI", "desc": "Les dades de la targeta les gestionen passarel·les certificades, mai les guardes tu." },
+    { "icon": "receipt", "title": "Rebuts enviats", "desc": "Els clients reben un rebut automàtic en el moment que el pagament es completa." }
+  ],
+  "sections": [
+    { "eyebrow": "Cobra abans", "title": "Treu els obstacles entre la factura i els diners", "body": "Com més fàcil li sigui pagar al client, abans tindràs els diners. Amb un enllaç de pagament a cada factura no cal copiar dades bancàries ni esperar una transferència. El client toca, paga amb targeta i la factura s'actualitza sola, amb el rebut de camí.", "items": ["Pagament amb targeta amb un toc", "Enllaç per compartir per WhatsApp i correu electrònic", "Rebuts automàtics"] },
+    { "eyebrow": "Local i global", "title": "La passarel·la adequada per al teu mercat", "body": "Paper & Pen connecta Paymob per al GCC i altres passarel·les globals perquè acceptis les targetes que els teus clients fan servir de debò, en la seva moneda. Cada liquidació es concilia amb la factura corresponent i es registra a la comptabilitat, així que el cobrament i els llibres van sempre a la par.", "items": ["Paymob per al GCC, i opcions globals", "Cobrament en diverses monedes", "Es concilia amb la factura exacta"] }
+  ],
+  "faqs": [
+    { "q": "Activar els pagaments en línia és gratuït?", "a": "Sí, afegir enllaços de pagament en línia ja hi és inclòs. La passarel·la de pagament cobra la seva pròpia comissió per operació, com fan sempre les passarel·les." },
+    { "q": "Quines passarel·les admet?", "a": "Paymob per al GCC i altres passarel·les globals, perquè acceptis les targetes que fan servir els teus clients en la seva moneda." },
+    { "q": "Un pagament actualitza la factura automàticament?", "a": "Sí. Un pagament correcte marca la factura com a pagada, envia un rebut i registra l'assentament als llibres." },
+    { "q": "Els clients poden pagar en monedes diferents?", "a": "Sí. Cobra en OMR, AED, SAR, USD, EUR i més, a través de la passarel·la adequada." },
+    { "q": "El pagament amb targeta és segur?", "a": "Sí. Les dades de la targeta les gestionen passarel·les amb certificació PCI i mai es guarden a Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Converteix les factures en diners a l'instant",
+  "ctaSub": "Comença gratis i afegeix un enllaç de pagament a cada factura perquè els clients et paguin amb un toc."
+}

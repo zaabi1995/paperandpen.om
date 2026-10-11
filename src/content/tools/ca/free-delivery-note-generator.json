@@ -1,0 +1,37 @@
+{
+  "locale": "ca",
+  "slug": "free-delivery-note-generator",
+  "toolType": "delivery-note",
+  "order": 6,
+  "title": "Generador d'albarans gratuït",
+  "metaTitle": "Generador d'albarans gratuït · Paper & Pen",
+  "metaDescription": "Crea albarans d'entrega en línia gratis. Detalla els articles enviats, afegeix les quantitats i descarrega un PDF a punt per imprimir en segons.",
+  "keywords": "generador d'albarans gratis, fer albarans, crear albarà en línia, plantilla d'albarà gratis, descarregar albarà en pdf, albarà d'entrega, nota d'enviament",
+  "heroEyebrow": "Gratis · Sense registre",
+  "heroTitle": "Generador d'albarans gratuït",
+  "heroSubtitle": "Envia la mercaderia amb un albarà clar en segons. Detalla els articles i les quantitats enviades i descarrega un PDF a punt per imprimir perquè el client el signi en rebre-la. No cal cap compte.",
+  "howToSteps": [
+    { "name": "Afegeix les teves dades", "text": "Escriu el nom de la teva empresa, el client, un número d'albarà i la data." },
+    { "name": "Detalla els articles", "text": "Afegeix cada article que lliures amb la seva quantitat. Un albarà no necessita preus." },
+    { "name": "Afegeix les dades d'entrega", "text": "Indica l'adreça d'entrega, el vehicle o el conductor i qualsevol instrucció de manipulació." },
+    { "name": "Descarrega el PDF", "text": "Fes clic a descarregar per imprimir un albarà perquè el client el signi, o registra't per generar-lo directament des d'una comanda." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Instantani i gratuït", "desc": "Sense registre, sense marca d'aigua i sense límits. Emet tots els albarans que necessitis." },
+    { "icon": "truck", "title": "Justificant d'entrega", "desc": "Un registre clar i signable del que s'ha enviat i rebut, amb espai per a la signatura del client." },
+    { "icon": "doc", "title": "Quantitats, no preus", "desc": "Mostra articles i quantitats sense revelar els preus, que és exactament el que ha de fer un albarà." }
+  ],
+  "sections": [
+    { "title": "Per què fer servir el generador d'albarans de Paper & Pen?", "body": "Un albarà (o nota d'enviament) viatja amb la mercaderia i demostra què s'ha enviat i rebut, sense mostrar preus. El nostre és gratuït i genera un PDF net amb espai per signar, de manera que les discussions per entregues incompletes o equivocades es resolen fàcilment." },
+    { "eyebrow": "Més enllà del generador", "title": "Albarans que surten de les teves comandes", "body": "Escriure un albarà a mà pot fer que no coincideixi amb la comanda real. Dins de l'ERP complet de Paper & Pen, l'albarà es genera directament des d'una comanda de venda o una factura, així que els articles i les quantitats sempre coincideixen, l'estoc es descompta en l'enviament i el client pot confirmar la recepció.", "items": ["Genera un albarà des de qualsevol comanda de venda", "Descompta l'estoc automàticament en l'enviament", "Registra la confirmació d'entrega a la comanda"] }
+  ],
+  "faqs": [
+    { "q": "Què és un albarà?", "a": "Un albarà és un document que acompanya un enviament i detalla els articles i les quantitats lliurades. El client el signa com a justificant de recepció i normalment no mostra preus." },
+    { "q": "En què es diferencia un albarà d'una factura?", "a": "Un albarà confirma què ha arribat físicament i no porta preus. Una factura demana el pagament i mostra imports i impostos. Aquí pots crear tots dos gratis." },
+    { "q": "El generador d'albarans és realment gratuït?", "a": "Sí. És totalment gratuït, sense registre, sense marca d'aigua i sense límit d'albarans." },
+    { "q": "Es poden generar albarans des de les meves comandes?", "a": "Descarrega albarans solts gratis, o crea un espai de treball gratuït de Paper & Pen per generar albarans directament des de les comandes de venda i descomptar l'estoc automàticament." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-purchase-order-generator", "/invoicing/delivery-notes", "/free-invoicing-software"],
+  "ctaTitle": "Entrega amb justificant",
+  "ctaSub": "Genera albarans des de les comandes, descompta l'estoc en l'enviament i registra la confirmació amb un espai de treball gratuït de Paper & Pen."
+}
