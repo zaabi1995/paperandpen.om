@@ -1,0 +1,38 @@
+{
+  "locale": "hr",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Besplatni kalkulator PDV-a i poreza",
+  "metaTitle": "Kalkulator PDV-a za Oman: dodajte ili uklonite 5% PDV-a",
+  "metaDescription": "Izračunajte omanski PDV od 5% online. Dodajte PDV neto iznosu ili ga uklonite iz bruto iznosa i odmah vidite neto, PDV i ukupno, bez registracije.",
+  "keywords": "kalkulator pdv-a, kalkulator pdv-a oman, kalkulator poreza na promet, dodavanje pdv-a, izračun pdv-a iz bruto iznosa, kalkulator pdv-a 5 posto, podesivi kalkulator pdv-a, obrnuti izračun pdv-a",
+  "heroEyebrow": "Besplatno · Bez registracije",
+  "heroTitle": "Besplatni kalkulator <em class=\"text-copper-400 not-italic\">PDV-a i poreza</em>",
+  "heroSubtitle": "Izračunajte omanski PDV od 5% online. Dodajte PDV neto iznosu ili ga uklonite iz bruto iznosa i odmah vidite neto, PDV i ukupno, bez registracije.",
+  "heroBullets": ["Bilo koja stopa, bilo koja valuta", "Dodajte ili izdvojite porez", "Zauvijek besplatno, bez registracije"],
+  "howToSteps": [
+    { "name": "Unesite iznos", "text": "Upišite iznos s kojim želite raditi i odaberite valutu." },
+    { "name": "Postavite poreznu stopu", "text": "Koristite zadanu omansku stopu od 5% ili unesite važeću stopu koja se primjenjuje na vašu transakciju." },
+    { "name": "Odaberite dodavanje ili uklanjanje", "text": "Dodajte porez neto iznosu ili uklonite porez iz bruto iznosa kako biste dobili neto (obrnuti izračun PDV-a)." },
+    { "name": "Pročitajte rezultat", "text": "Odmah vidite raščlanjene neto, porez i bruto iznos, spremne za upis u račun." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Dodajte ili uklonite porez", "desc": "Izračunajte porez na neto iznos ili ga jednim klikom izdvojite iz bruto iznosa." },
+    { "icon": "globe", "title": "Bilo koja stopa, bilo koja valuta", "desc": "Zadano omanskih 5% ili stopa koja vrijedi za vas, u OMR, AED, SAR, USD, EUR i drugim valutama." },
+    { "icon": "bolt", "title": "Odmah i besplatno", "desc": "Bez registracije, bez ograničenja. Neto, porez i bruto dobivate čim počnete tipkati." }
+  ],
+  "sections": [
+    { "title": "Zašto koristiti kalkulator PDV-a Paper & Pen?", "body": "Bilo da određujete cijenu u ponudi, provjeravate račun ili predajete prijavu, neto, porez i bruto moraju se slagati do zadnje decimale. Ovaj kalkulator radi s bilo kojom stopom u bilo kojoj valuti, računa u oba smjera (dodaje porez ili ga izdvaja iz ukupnog iznosa) i stvarno je besplatan. Otvara se s omanskom stopom od 5% i potpuno se može prilagoditi drugim jurisdikcijama." },
+    { "eyebrow": "Više od kalkulatora", "title": "Neka vaš softver obračunava PDV umjesto vas", "body": "Ručno računanje poreza na svakoj stavci sporo je i podložno pogreškama. U potpunom Paper & Pen ERP-u PDV se automatski primjenjuje na neto iznos nakon popusta na svakom računu, bilježi u vašim knjigama i zbraja u izvješća spremna za prijavu, pa kalkulator više uopće ne trebate.", "items": ["Automatski porez na svakom računu i ponudi", "Porezne stope po stavci i po dokumentu", "Sažeta PDV izvješća spremna za predaju"] }
+  ],
+  "faqs": [
+    { "q": "Koju stopu koristi ovaj kalkulator PDV-a za Oman?", "a": "Kalkulator se otvara s omanskom stopom od 5%. Porezna pravila se mogu mijenjati, pa prije oslanjanja na izračun provjerite važeću stopu kod Oman Tax Authority. Možete unijeti bilo koju stopu." },
+    { "q": "Kako ukloniti PDV iz ukupnog iznosa?", "a": "Odaberite mogućnost uklanjanja (obrnuti izračun) i unesite bruto iznos. Kalkulator izračunava neto i porezni dio koji je bio uključen u ukupni iznos." },
+    { "q": "Mogu li ga koristiti za porez na promet izvan Omana?", "a": "Da. Postavite stopu koja vrijedi za vašu transakciju i odaberite bilo koju valutu. Radi za PDV, GST ili porez na promet bilo gdje u svijetu." },
+    { "q": "Računa li porez na iznos s popustom?", "a": "Unesite neto iznos nakon popusta i dodajte mu porez. Za automatski PDV nakon popusta na cijelim računima otvorite besplatan Paper & Pen radni prostor u kojem se to radi umjesto vas." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Prestanite ručno računati PDV",
+  "ctaSub": "Automatski primijenite porez na svaki račun i dobijte PDV izvješća spremna za prijavu uz besplatan Paper & Pen radni prostor."
+}

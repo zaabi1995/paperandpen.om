@@ -1,0 +1,140 @@
+{
+  "locale": "hr",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrein",
+  "title": "PDV u Bahreinu",
+  "metaTitle": "PDV u Bahreinu: stopa 10% i pravila za račune · Paper & Pen",
+  "metaDescription": "Stopa PDV-a od 10% u Bahreinu, prag za registraciju od BHD 37,500 i što NBR traži na PDV računu, uz izvor u službenom vodiču samog tijela.",
+  "keywords": "pdv bahrein, stopa pdv-a u bahreinu 10, prag za registraciju pdv-a bahrein, zahtjevi za pdv račun bahrein, national bureau for revenue",
+  "heroEyebrow": "Bahrein",
+  "heroTitle": "Fakturiranje prema <em class=\"text-copper-400 not-italic\">bahreinskim pravilima o PDV-u</em>",
+  "heroSubtitle": "Stopa od 10%, pragovi za registraciju i što National Bureau for Revenue traži na PDV računu, uključujući jedno polje svojstveno samo graditeljstvu.",
+  "heroBullets": [
+    "Opća stopa 10%",
+    "Registracija od BHD 37,500",
+    "Obveza e-računa nije objavljena"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Opća stopa PDV-a",
+      "value": "10%",
+      "note": "PDV je uveden po stopi od 5% 1. siječnja 2019., a stopa je povećana na 10% s učinkom od 1. siječnja 2022. Usporedbe napisane prije 2022. su zastarjele.",
+      "source": 1
+    },
+    {
+      "label": "Prag za obveznu registraciju",
+      "value": "BHD 37,500",
+      "note": "Prelazak tog iznosa zahtijeva registraciju.",
+      "source": 1
+    },
+    {
+      "label": "Prag za dobrovoljnu registraciju",
+      "value": "BHD 18,750",
+      "note": "Mjeri se za prethodnih 12 mjeseci ili za sljedećih 12 mjeseci i može se temeljiti na troškovima s PDV-om umjesto na isporukama.",
+      "source": 1
+    },
+    {
+      "label": "Rok za izdavanje računa",
+      "value": "15. u idućem mjesecu",
+      "note": "Računi se moraju izdati do petnaestog dana u mjesecu koji slijedi nakon mjeseca u kojem je nastao datum dospijeća PDV-a.",
+      "source": 1
+    },
+    {
+      "label": "Valuta na računu",
+      "value": "BHD",
+      "note": "Vrijednosti, iznosi PDV-a i ukupni iznosi iskazuju se u bahreinskim dinarima, uz navedeni tečaj ako se koristi strana valuta.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Odjeljak 10.3 Općeg vodiča za PDV koji objavljuje NBR navodi što potpuni PDV račun mora prikazivati. Pojednostavnjeni PDV račun treba samo dio tih podataka.",
+    "items": [
+      "Oznaka „PDV račun”",
+      "Naziv, adresa i PDV broj računa (VAT Account Number) dobavljača",
+      "Naziv i adresa kupca",
+      "Redni broj PDV računa",
+      "Datum izdavanja te datum isporuke ili plaćanja ako se razlikuje",
+      "Opis isporuke dovoljno detaljan da porezni tretman bude jasan",
+      "Za gradnju nove zgrade, broj građevinske dozvole",
+      "Količina isporučenih dobara",
+      "Vrijednost isporuke i jedinična cijena u dinarima, bez PDV-a",
+      "Svaki popust i neto vrijednost u dinarima bez PDV-a",
+      "Stopa PDV-a i dugovani PDV u dinarima, po stavci ako se stope razlikuju",
+      "Ukupan iznos za plaćanje s PDV-om, u dinarima",
+      "Primijenjeni tečaj ako se koristi strana valuta",
+      "Jasna izjava ako je transakcija oslobođena",
+      "Napomena o postupku oporezivanja marže ako se primjenjuje"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Obveza nije objavljena",
+    "body": "Ne nalazimo nikakav sustav e-računa, fazu ni datum koje je objavio National Bureau for Revenue. Njegov Opći vodič za PDV, ažuriran u srpnju 2026., uopće ne spominje elektroničko fakturiranje, a u popisu publikacija nema vodiča za e-račune. Komentari drugdje opisuju sustav za poslovanje između poduzeća koji je u izradi za moguće fazno uvođenje, no ništa na stranicama samog tijela ne potvrđuje datum, pa ga ne objavljujemo. Ako planirate promjenu sustava, planirajte je prema gore navedenim pravilima o sadržaju računa, koja su aktualna i objavljena, a ne prema očekivanoj obvezi.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Kako to napraviti ispravno",
+      "title": "Dvije zamke svojstvene Bahreinu",
+      "body": "Prva je povijest stope. Bahrein je 1. siječnja 2022. prešao s pet na deset posto, pa je svaki predložak, cjenik ili usporedni članak napisan prije toga pogrešan, a pogreška tiho opstaje u starim predlošcima ponuda. Druga je rok za izdavanje. Bahrein ne kaže samo da se račun mora izdati, nego i do kada: do petnaestog dana u mjesecu koji slijedi nakon mjeseca u kojem je nastao datum dospijeća PDV-a. Poduzeće koje fakturira kad god su papiri spremni može kasniti, a da to nikad ne primijeti.",
+      "items": [
+        "Provjerite ima li ijedan predložak iz razdoblja prije 2022. stopu od 5%",
+        "Fakturirajte do 15. u idućem mjesecu",
+        "Iskažite PDV po stavci ako se stope razlikuju",
+        "Navedite tečaj na računima u stranoj valuti"
+      ]
+    },
+    {
+      "eyebrow": "Pojedinosti po djelatnosti",
+      "title": "Polje za graditeljstvo koje nitko ne očekuje",
+      "body": "Bahreinska pravila o sadržaju računa sadrže jedan zahtjev koji nema pandana drugdje u Zaljevu: za isporuke povezane s gradnjom nove zgrade račun mora prikazivati broj građevinske dozvole. Lako ga je propustiti jer se nalazi unutar općeg zahtjeva za opis, a ne kao zasebno istaknuto polje, i upravo je to propust koji se otkrije tek kad se račun mjesecima kasnije dovede u pitanje. Ako radite u izvođenju radova, upišite broj dozvole u predložak opisa stavke umjesto da se oslanjate na nečije pamćenje.",
+      "items": [
+        "Isporuke za novogradnju trebaju broj građevinske dozvole",
+        "Upišite ga u predložak, a ne u nečije pamćenje",
+        "Opišite isporuku dovoljno da se vidi njezin porezni tretman",
+        "Pripremite formulaciju izjave o oslobođenju"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kolika je stopa PDV-a u Bahreinu?",
+      "a": "Deset posto. Bahrein je uveo PDV po stopi od pet posto 1. siječnja 2019., a opću stopu povećao na deset posto s učinkom od 1. siječnja 2022. Svaki vodič, predložak ili usporedba koja za Bahrein još navodi pet posto starija je od te promjene."
+    },
+    {
+      "q": "Kada se moram registrirati za PDV u Bahreinu?",
+      "a": "Kad vaše isporuke premaše BHD 37,500. Dobrovoljno se možete registrirati od BHD 18,750, mjereno za prethodnih ili sljedećih dvanaest mjeseci, a Bahrein dopušta dobrovoljnu registraciju i na temelju troškova s PDV-om, ne samo isporuka, što može odgovarati poduzeću koje tek gradi prodaju."
+    },
+    {
+      "q": "Jesu li e-računi u Bahreinu obvezni?",
+      "a": "Ne prema ičemu što objavljuje National Bureau for Revenue. Njegov Opći vodič za PDV, ažuriran u srpnju 2026., ne spominje elektroničko fakturiranje, a među njegovim publikacijama nema vodiča za e-račune. Ne ponavljamo datume iz komentara koje samo tijelo nije objavilo."
+    },
+    {
+      "q": "Do kada se mora izdati PDV račun u Bahreinu?",
+      "a": "Do petnaestog dana u mjesecu koji slijedi nakon mjeseca u kojem je nastao datum dospijeća PDV-a. To je stvaran rok, a ne opće očekivanje, i iznenadi poduzeća koja fakturiraju skupno na kraju tromjesečja."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Ispravno fakturirajte u Bahreinu, besplatno",
+  "ctaSub": "Sami postavite stopu, iskažite PDV po stavci i držite polja koja tijelo traži u predlošku koji ne morate pamtiti.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, verzija 1.15, uključujući odjeljak 10.3 o zahtjevima za račune",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

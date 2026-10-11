@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Fakturiranje",
+  "metaTitle": "Značajke za upravljanje računima | Paper & Pen ERP",
+  "metaDescription": "Upoznajte praćenje računa, online plaćanja, podsjetnike, podesivi porez, pet jezika i rad u više valuta unutar Paper & Pen ERP-a.",
+  "keywords": "softver za fakturiranje, besplatno fakturiranje, online računi, slanje računa, online naplata, račun s pdv-om, ponavljajući računi, podsjetnici za plaćanje",
+  "heroEyebrow": "Zauvijek besplatno",
+  "heroTitle": "Fakturiranje uz koje ste <em class=\"text-copper-400 not-italic\">brže plaćeni</em>",
+  "heroSubtitle": "Izradite uredan račun za manje od minute, pošaljite ga e-poštom ili WhatsAppom i omogućite klijentu da plati online. Za bilo koju valutu i bilo koju poreznu stopu, u upotrebi diljem svijeta.",
+  "heroBullets": ["Prodaja i fakturiranje zauvijek besplatno", "Bilo koja valuta, bilo koja porezna stopa", "Poveznica za online plaćanje na svakom računu"],
+  "features": [
+    { "icon": "bolt", "title": "Račun u nekoliko sekundi", "desc": "Odaberite klijenta, dodajte stavke i pošaljite. Iznosi i porez računaju se dok tipkate." },
+    { "icon": "globe", "title": "Bilo koja valuta", "desc": "Naplaćujte u OMR, AED, SAR, USD, EUR, GBP ili bilo kojoj valuti s ispravnim brojem decimala." },
+    { "icon": "card", "title": "Online naplata", "desc": "Svaki račun ima sigurnu poveznicu za plaćanje, pa klijenti plaćaju karticom jednim dodirom." },
+    { "icon": "bell", "title": "Automatski podsjetnici", "desc": "Ljubazni, zakazani podsjetnici traže naplatu dospjelih računa umjesto vas." },
+    { "icon": "refresh", "title": "Ponavljajući računi", "desc": "Postavite paušale i pretplate da se naplaćuju sami, tjedno ili mjesečno." },
+    { "icon": "calc", "title": "Spremno za PDV i porez", "desc": "Primijenite bilo koju stopu PDV-a ili poreza na promet, obračunatu na neto iznos nakon popusta." }
+  ],
+  "sections": [
+    { "eyebrow": "Za cijeli svijet", "title": "Jedan alat za fakturiranje za svako tržište", "body": "Bilo da naplaćujete u dolarima iz New Yorka ili u rijalima iz Muscata, Paper & Pen umjesto vas rješava valutu, decimale i porezna pravila. Prebacite sučelje između engleskog, arapskog, hindskog, bengalskog i urdua kako bi cijeli tim radio na svom jeziku.", "items": ["Više valuta s ispravnim oblikovanjem", "Podesivi porez za svaku zemlju", "Računi s arapskim na prvom mjestu, potpuno zdesna nalijevo"] },
+    { "eyebrow": "Od ponude do naplate", "title": "Fakturiranje unutar potpunog ERP-a", "body": "Vaši računi nisu izolirani. Prihvaćenu ponudu jednim klikom pretvorite u račun, evidentirajte plaćanje i gledajte kako se automatski knjiži u vaše knjige. Kad porastete, zalihe, računovodstvo i plaće već vas čekaju u istom radnom prostoru.", "items": ["Od ponude do računa jednim klikom", "Plaćanja se usklađuju s glavnom knjigom", "Nikad dvostruki unos"] }
+  ],
+  "faqs": [
+    { "q": "Je li fakturiranje stvarno besplatno?", "a": "Da. Prodaja i fakturiranje zauvijek su besplatni, bez ograničenja broja računa ili klijenata. Plaćate samo ako dodate neobavezne module poput Zaliha ili Plaća." },
+    { "q": "Mogu li klijenti platiti račun online?", "a": "Da. Svaki račun može imati sigurnu poveznicu za online plaćanje koju pokreću Paymob i drugi pružatelji, pa klijenti plaćaju karticom, a plaćanje se automatski usklađuje." },
+    { "q": "Podržava li PDV i druge poreze?", "a": "Da. Postavite bilo koju stopu, uključujući podesivi PDV za zemlje GCC-a ili ono što vrijedi u vašoj zemlji. Porez se obračunava na neto iznos nakon popusta." },
+    { "q": "Mogu li slati račune na arapskom?", "a": "Da. Cijelo sučelje i PDF računa mogu biti na arapskom, potpuno zdesna nalijevo, uz engleski, hindski, bengalski i urdu." },
+    { "q": "Mogu li automatizirati ponavljajuću naplatu?", "a": "Da. Izradite ponavljajući račun za paušale ili pretplate, a Paper & Pen ga izdaje i šalje prema rasporedu." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Pošaljite prvi račun besplatno",
+  "ctaSub": "Otvorite besplatan radni prostor i naplatite prvom klijentu za nekoliko minuta. Bez kartice, zauvijek besplatno."
+}

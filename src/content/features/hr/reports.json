@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "reports",
+  "order": 8,
+  "title": "Izvješća",
+  "metaTitle": "Poslovna izvješća i analitika · Paper & Pen",
+  "metaDescription": "Nadzorne ploče i izvješća uživo o prodaji, novcu, dobiti, porezu i zalihama. Dođite do izvora, izvezite u Excel ili PDF, u bilo kojoj valuti, bilo gdje.",
+  "keywords": "poslovna izvješća, analitička nadzorna ploča, izvješće o prodaji, račun dobiti i gubitka, porezno izvješće, financijska izvješća, izvoz u excel",
+  "heroEyebrow": "Dodatni modul",
+  "heroTitle": "Odluke potkrijepljene <em class=\"text-copper-400 not-italic\">brojevima uživo</em>",
+  "heroSubtitle": "Svaka prodaja, plaćanje i kretanje uživo se slijevaju u jasne nadzorne ploče i izvješća. Vidite što se prodaje, tko vam duguje i gdje je vaša dobit, a zatim to izvezite kamo god želite.",
+  "heroBullets": ["Nadzorne ploče uživo", "Do izvornog dokumenta jednim klikom", "Izvoz u Excel ili PDF"],
+  "features": [
+    { "icon": "reports", "title": "Analitika prodaje", "desc": "Vidite najprodavanije proizvode, najbolje klijente i trendove za bilo koje razdoblje." },
+    { "icon": "chart", "title": "Financijska izvješća", "desc": "Račun dobiti i gubitka, bilanca, novčani tok i starosna struktura potraživanja." },
+    { "icon": "calc", "title": "Porezna izvješća", "desc": "Sažeci pretporeza i izlaznog PDV-a spremni za vašu PDV prijavu." },
+    { "icon": "inventory", "title": "Izvješća o zalihama", "desc": "Izvješća o vrijednosti, kretanju i niskom stanju zaliha u svim skladištima." },
+    { "icon": "doc", "title": "Do izvora", "desc": "Kliknite bilo koji iznos i pratite ga do točnog dokumenta iz kojeg potječe." },
+    { "icon": "refresh", "title": "Uvijek ažurno", "desc": "Izvješća se ažuriraju uživo kako transakcije nastaju, bez noćne obrade." }
+  ],
+  "sections": [
+    { "eyebrow": "Jasno na prvi pogled", "title": "Jedna nadzorna ploča za cijelo poslovanje", "body": "Otvorite Paper & Pen i vidite brojeve koji su važni: novac na računu, tko vam duguje, što se prodaje i vašu dobit ovog mjeseca. Budući da se sve knjiži uživo, nadzorna ploča prikazuje stvarno stanje, a ne snimku od prošlog tjedna.", "items": ["Novac, dužnici i dobit na prvom mjestu", "Filtriranje po razdoblju, klijentu ili proizvodu", "Uživo, nikad zastarjelo"] },
+    { "eyebrow": "Podijelite i istražite dublje", "title": "Izvješća kojima će vjerovati vaš računovođa i uprava", "body": "Iz bilo kojeg izvješća dođite izravno do izvornog dokumenta, a zatim izvezite u Excel ili PDF za računovođu, banku ili upravu. Izvještavajte u bilo kojoj valuti i prebacite sučelje na arapski, engleski, hindski, bengalski ili urdu kako bi svi čitali iste brojeve na svom jeziku.", "items": ["Detaljan prikaz do svake transakcije", "Izvoz u Excel i PDF", "Više valuta i više jezika"] }
+  ],
+  "faqs": [
+    { "q": "Jesu li izvješća besplatna?", "a": "Izvješća su neobavezan, plaćeni dodatni modul. Zauvijek besplatna osnova uključuje nadzorne ploče za fakturiranje, a cijeli paket izvješća dostupan je kad vam zatreba dublja analitika." },
+    { "q": "Jesu li izvješća u stvarnom vremenu?", "a": "Da. Svaka se transakcija knjiži uživo, pa nadzorne ploče i izvješća uvijek prikazuju trenutačno stanje vašeg poslovanja." },
+    { "q": "Mogu li izvoziti izvješća?", "a": "Da. Izvezite u Excel ili PDF i podijelite s računovođom, bankom ili upravom." },
+    { "q": "Mogu li pratiti iznos do izvora?", "a": "Da. Kliknite bilo koji iznos i dođite do točnog računa, plaćanja ili temeljnice iz kojih potječe." },
+    { "q": "Podržavaju li izvješća više valuta?", "a": "Da. Izvještavajte u bilo kojoj valuti i koristite sučelje na pet jezika." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Jasno vidite svoje poslovanje",
+  "ctaSub": "Počnite besplatno s fakturiranjem i dodajte Izvješća za nadzorne ploče uživo i analitiku spremnu za izvoz."
+}

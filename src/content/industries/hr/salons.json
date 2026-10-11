@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "salons",
+  "order": 5,
+  "title": "Saloni i spa centri",
+  "metaTitle": "Softver za naplatu, osoblje i zalihe u salonu | Paper & Pen",
+  "metaDescription": "Besplatna naplata uz zalihe proizvoda, plaće osoblja i povijest klijenata za salone, spa centre i klinike. Brzo naplatite usluge, pratite proizvode, isplatite tim.",
+  "keywords": "softver za frizerski salon, naplata u spa centru, erp za salon, softver za kozmetički salon, provizija za osoblje, zalihe proizvoda u salonu, povijest klijenata",
+  "heroEyebrow": "Za salone, spa centre i klinike",
+  "heroTitle": "Brzo naplatite usluge, <em class=\"text-copper-400 not-italic\">zadržite klijente blizu</em>",
+  "heroSubtitle": "Naplatite usluge i proizvode za nekoliko sekundi, pratite proizvode koje koristite i isplatite osoblje uz automatski izračunatu proviziju. Paper & Pen zajedno vodi recepciju, skladište i knjige.",
+  "heroBullets": ["Besplatna, brza naplata usluga", "Zalihe proizvoda za prodaju", "Plaće i provizije osoblja"],
+  "features": [
+    { "icon": "receipt", "title": "Brza naplata", "desc": "Dodajte usluge i proizvode za prodaju, naplatite i podijelite račun za nekoliko sekundi." },
+    { "icon": "users", "title": "Povijest klijenata", "desc": "Čuvajte kontakt podatke i prošle posjete kako bi se svaki klijent osjećao zapamćeno." },
+    { "icon": "inventory", "title": "Zalihe proizvoda", "desc": "Pratite proizvode za prodaju i za rad u salonu po jedinici i seriji, uz upozorenja o niskom stanju." },
+    { "icon": "hr", "title": "Osoblje i provizije", "desc": "Obračunajte plaće i provizije osoblja na usluge i prodaju proizvoda." },
+    { "icon": "whatsapp", "title": "Računi putem WhatsAppa", "desc": "Šaljite klijentima račune i podsjetnike na WhatsApp jednim dodirom." },
+    { "icon": "chart", "title": "Izvješća o uslugama", "desc": "Vidite najtraženije usluge, najprometnije sate i prihod po zaposleniku ili poslovnici." }
+  ],
+  "sections": [
+    { "eyebrow": "Glađa recepcija", "title": "Naplata koju će vaši klijenti cijeniti", "body": "Dodajte usluge i proizvode za prodaju na račun, primijenite popust ili paket, naplatite i podijelite uredan račun na WhatsAppu prije nego što klijent ustane iz stolice. Podaci o klijentu i povijest posjeta nalaze se na istom zaslonu, pa tim može stalne klijente pozdraviti imenom i preporučiti pravi sljedeći tretman.", "items": ["Usluge i proizvodi na jednom računu", "Računi odmah podijeljeni na WhatsAppu", "Kontakt i povijest posjeta klijenta pri ruci"] },
+    { "eyebrow": "Zalihe i osoblje pod kontrolom", "title": "Proizvodi praćeni, osoblje ispravno plaćeno", "body": "Proizvodi za rad u salonu nestaju ako ih nitko ne prati. Paper & Pen prati proizvode za prodaju i profesionalne proizvode po jedinici i seriji, upozorava na nisko stanje i povezuje potrošnju s prodajom. Obračunajte plaće za tim i neka sustav izračuna proviziju na usluge i proizvode koje prodaju. Izrađeno u Omanu, s izvornom podrškom za OMR, AED i SAR te PDV od 5%, a spremno za USD, EUR ili bilo koje tržište i poreznu stopu.", "items": ["Zalihe za prodaju i rad u salonu s upozorenjima", "Plaće s automatskom provizijom", "Bilo koja valuta i porezna stopa, spremno za PDV"] }
+  ],
+  "faqs": [
+    { "q": "Mogu li zajedno naplatiti usluge i proizvode?", "a": "Da. Na jedan račun dodajte bilo koju kombinaciju usluga i proizvoda, primijenite popuste ili pakete, naplatite i odmah podijelite račun." },
+    { "q": "Mogu li izračunati proviziju osoblja?", "a": "Da. Modul HR i plaće može izračunati proviziju na usluge i proizvode koje svaki zaposlenik proda te obračunati njegovu plaću." },
+    { "q": "Čuva li povijest klijenata?", "a": "Da. Spremite kontakt podatke i prošle posjete kako bi vaš tim prepoznao stalne klijente i preporučio pravu sljedeću uslugu." },
+    { "q": "Mogu li pratiti zalihe proizvoda?", "a": "Da. Modulom Zalihe pratite proizvode za prodaju i za rad u salonu po jedinici i seriji, uz upozorenja o niskom stanju." },
+    { "q": "Je li naplata besplatna za salon?", "a": "Prodaja i fakturiranje, uključujući račune i evidenciju klijenata, zauvijek su besplatni. Dodajte Zalihe te HR i plaće za praćenje zaliha i provizija." }
+  ],
+  "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
+  "ctaTitle": "Vodite salon, a ne papirologiju",
+  "ctaSub": "Počnite besplatno s naplatom usluga i evidencijom klijenata, a zatim dodajte Zalihe i Plaće za zalihe i provizije."
+}

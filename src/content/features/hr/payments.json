@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "payments",
+  "order": 10,
+  "title": "Plaćanja",
+  "metaTitle": "Online plaćanje računa · brža naplata · Paper & Pen",
+  "metaDescription": "Dodajte poveznicu za online plaćanje na svaki račun i primajte uplate karticom. Paymob i globalni pružatelji, bilo koja valuta, automatsko usklađivanje s knjigama.",
+  "keywords": "online plaćanja, primanje plaćanja karticom, plaćanje računa online, paymob, payment gateway, brža naplata, poveznica za plaćanje",
+  "heroEyebrow": "Ugrađeno",
+  "heroTitle": "Neka vam klijenti plate <em class=\"text-copper-400 not-italic\">jednim dodirom</em>",
+  "heroSubtitle": "Stavite sigurnu poveznicu za online plaćanje na svaki račun kako bi klijenti odmah platili karticom. Plaćanja se automatski usklađuju s vašim knjigama, u bilo kojoj valuti, bilo gdje.",
+  "heroBullets": ["Poveznica za online plaćanje na svakom računu", "Automatsko usklađivanje s glavnom knjigom", "Paymob i globalni pružatelji plaćanja"],
+  "features": [
+    { "icon": "card", "title": "Plaćanje karticom", "desc": "Klijenti plaćaju bilo koji račun online karticom, bez prijave i bez aplikacije." },
+    { "icon": "bolt", "title": "Trenutačna poveznica za plaćanje", "desc": "Svaki račun ima sigurnu poveznicu koju možete podijeliti e-poštom ili WhatsAppom." },
+    { "icon": "refresh", "title": "Automatsko usklađivanje", "desc": "Uspješna plaćanja označavaju račun plaćenim i knjiže se u vaše knjige." },
+    { "icon": "globe", "title": "Bilo koja valuta", "desc": "Naplaćujte u OMR, AED, SAR, USD, EUR i drugim valutama putem odgovarajućeg pružatelja." },
+    { "icon": "shield", "title": "Sigurno i u skladu s PCI", "desc": "Podacima o kartici upravljaju certificirani pružatelji plaćanja, vi ih nikada ne pohranjujete." },
+    { "icon": "receipt", "title": "Slanje potvrda", "desc": "Klijenti dobivaju automatsku potvrdu u trenutku uspješnog plaćanja." }
+  ],
+  "sections": [
+    { "eyebrow": "Brža naplata", "title": "Uklonite prepreke između računa i novca", "body": "Što klijent brže može platiti, to brže dobivate novac. Poveznica za online plaćanje na svakom računu znači da nema prepisivanja bankovnih podataka ni čekanja na uplatu. Klijent dodirne, plati karticom i račun se sam ažurira, a potvrda je već na putu.", "items": ["Plaćanje karticom jednim dodirom", "Poveznica za dijeljenje na WhatsAppu i e-poštom", "Automatske potvrde"] },
+    { "eyebrow": "Lokalno i globalno", "title": "Pravi pružatelj plaćanja za vaše tržište", "body": "Paper & Pen povezuje Paymob za zemlje GCC-a i druge globalne pružatelje plaćanja kako biste mogli primati kartice koje vaši klijenti stvarno koriste, u njihovoj valuti. Svaka uplata usklađuje se s pravim računom i knjiži u vaša konta, pa naplata i knjigovodstvo idu ukorak.", "items": ["Paymob za zemlje GCC-a i globalne mogućnosti", "Naplata u više valuta", "Usklađivanje s točno određenim računom"] }
+  ],
+  "faqs": [
+    { "q": "Je li uključivanje online plaćanja besplatno?", "a": "Da, dodavanje poveznica za online plaćanje je ugrađeno. Pružatelj plaćanja naplaćuje vlastitu naknadu za obradu po transakciji, kao i uvijek." },
+    { "q": "Koji su pružatelji plaćanja podržani?", "a": "Paymob za zemlje GCC-a i drugi globalni pružatelji, kako biste mogli primati kartice koje vaši klijenti koriste, u njihovoj valuti." },
+    { "q": "Ažurira li plaćanje račun automatski?", "a": "Da. Uspješno plaćanje označava račun plaćenim, šalje potvrdu i knjiži stavku u vaše knjige." },
+    { "q": "Mogu li klijenti plaćati u različitim valutama?", "a": "Da. Naplaćujte u OMR, AED, SAR, USD, EUR i drugim valutama, putem odgovarajućeg pružatelja plaćanja." },
+    { "q": "Je li plaćanje karticom sigurno?", "a": "Da. Podacima o kartici upravljaju pružatelji plaćanja s PCI certifikatom, a nikada se ne pohranjuju u Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Pretvorite račune u trenutačnu naplatu",
+  "ctaSub": "Počnite besplatno i dodajte poveznicu za online plaćanje na svaki račun kako bi vam klijenti platili jednim dodirom."
+}

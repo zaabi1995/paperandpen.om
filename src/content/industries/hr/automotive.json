@@ -1,0 +1,110 @@
+{
+  "locale": "hr",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Autoservisi",
+  "metaTitle": "ERP za autoservise i auto salone · Paper & Pen",
+  "metaDescription": "Upravljajte procjenama, zalihama dijelova i fakturiranjem u svom autoservisu. Pratite sate rada i naplatu jamstvenih popravaka uz naš besplatni ERP u oblaku.",
+  "keywords": "softver za autoservis, računi za popravak automobila, procjena troškova za mehaničare, zalihe autodijelova, erp za auto salon, naplata jamstvenih popravaka, računovodstvo autoservisa",
+  "heroEyebrow": "Za autoservise i auto salone",
+  "heroTitle": "Vodite servis uz <em class=\"text-copper-400 not-italic\">jasne procjene</em> i točnu naplatu dijelova.",
+  "heroSubtitle": "Prestanite gubiti maržu na nenaplaćenim dijelovima i nepraćenom radu. Paper & Pen pomaže autoservisima izdavati detaljne procjene popravaka, pratiti zalihe do kataloškog broja dijela i odobrenja izravno pretvarati u konačne račune.",
+  "heroBullets": [
+    "Praćenje dijelova i cijene radnog sata",
+    "Pretvaranje procjena u račune",
+    "Naplata jamstvenih popravaka trećim stranama"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Procjene popravaka",
+      "desc": "Izradite detaljne procjene koje kupac odobrava. Navedite sate rada, naknade za dijagnostiku i potrebne dijelove prije početka popravka."
+    },
+    {
+      "icon": "inventory",
+      "title": "Dijelovi i marže",
+      "desc": "Pratite zalihe po točnim kataloškim brojevima dijelova. Pratite nabavne cijene i postavite prodajne cijene kako biste zaštitili maržu."
+    },
+    {
+      "icon": "clock",
+      "title": "Rad po cijeni radnog sata",
+      "desc": "Dodajte stavke usluga za vrijeme svojih mehaničara. Pomnožite standardnu cijenu radnog sata s brojem sati potrebnih za posao."
+    },
+    {
+      "icon": "invoice",
+      "title": "Naplata trećim stranama",
+      "desc": "Vlasniku vozila naplatite njegovo sudjelovanje, a preostali iznos izravno naplatite pružatelju jamstva ili proizvođaču."
+    },
+    {
+      "icon": "receipt",
+      "title": "Odobrenje naknade za dijagnostiku",
+      "desc": "Obračunajte naknadu za dijagnostiku na prvoj procjeni, a zatim je jednostavno odobrite na konačnom računu ako kupac nastavi s popravkom."
+    },
+    {
+      "icon": "truck",
+      "title": "Narudžbenice",
+      "desc": "Šaljite narudžbenice dobavljačima dijelova. Evidentirajte pristigle isporuke kako bi se zalihe automatski ažurirale prije sljedećeg posla."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Odobrenja popravaka",
+      "title": "Od prve dijagnoze do konačnog računa za popravak",
+      "body": "Kupci moraju znati cijenu prije nego što ključem dotaknete motor. Paper & Pen prati upravo onaj redoslijed koji vaši servisni savjetnici svakodnevno koriste. Možete izdati prvu procjenu koja uključuje naknadu za dijagnostiku. Kad se kvar pronađe, ažurirajte procjenu s konkretnim dijelovima i satima rada. Kad kupac odobri radove, upravo tu procjenu pretvarate u konačni račun. Ako po vašim pravilima naknada za dijagnostiku otpada kad se popravak odobri, jednostavno dodajte negativnu stavku kojom tu naknadu odbijate od ukupnog iznosa.",
+      "items": [
+        "Izdajte jasne ponude za popravak",
+        "Pretvorite odobrene ponude u račune",
+        "Jednostavno odobrite naknade za dijagnostiku",
+        "Bilježite sate rada i cijenu radnog sata"
+      ]
+    },
+    {
+      "eyebrow": "Upravljanje dijelovima",
+      "title": "Zaštitite maržu na svakom prodanom dijelu",
+      "body": "Užurban servis radi sa stotinama dijelova, od filtara ulja do kočionih čeljusti. Ako izgubite pregled nad onim što ste platili dobavljaču, gubite i maržu. Naš sustav zaliha omogućuje vam da svaki artikl evidentirate po njegovu kataloškom broju. Nabavnu cijenu bilježite pri zaprimanju robe putem narudžbenica, a za račune postavljate fiksnu prodajnu cijenu. Kad mehaničar uzme dio s police i vi ga dodate na račun za popravak, zalihe se automatski smanjuju, a dobit se ispravno izračunava.",
+      "items": [
+        "Praćenje artikala po točnim kataloškim brojevima",
+        "Praćenje nabavnih cijena dobavljača",
+        "Postavljanje isplativih prodajnih cijena",
+        "Automatsko smanjenje zaliha pri prodaji"
+      ]
+    },
+    {
+      "eyebrow": "Podijeljena naplata",
+      "title": "Jamstveni zahtjevi i plaćanje preko trećih strana",
+      "body": "Ne plaća svaki popravak osoba koja vozi automobil. Auto saloni i ovlašteni servisi često obavljaju jamstvene radove koji se moraju naplatiti proizvođaču ili tvrtki za produljeno jamstvo. Paper & Pen vam omogućuje vođenje zasebnih profila kupaca za te pravne osobe koje plaćaju. Možete izraditi račun za vlasnika vozila koji pokriva njegovo sudjelovanje ili dijelove podložne trošenju koji nisu pokriveni, te zaseban detaljan račun za pružatelja jamstva koji pokriva odobrene šifre rada i zamjenske dijelove.",
+      "items": [
+        "Profili pravnih osoba koje plaćaju",
+        "Izravno fakturiranje pružateljima jamstva",
+        "Podjela računa između vlasnika i jamstva",
+        "Detaljne knjige za sve platitelje"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mogu li ovo povezati sa softverom za praćenje vremena mehaničara ili dekoderom VIN-a?",
+      "a": "Ne. Paper & Pen je samostalan ERP u oblaku. Iako sate rada možete dodati kao stavke na računima i koristiti naš HR modul za osnovni obračun plaća, ne nudimo evidenciju radnog vremena mehaničara uživo, ugrađeno dekodiranje VIN-a ni izravne integracije s vanjskim bazama podataka za popravak vozila."
+    },
+    {
+      "q": "Kako postupiti s naknadom za dijagnostiku koja se odobrava ako kupac obavi popravak?",
+      "a": "Naknadu za dijagnostiku dodajete kao standardnu uslužnu stavku na prvoj ponudi. Kad kupac odobri cijeli popravak, pretvorite ponudu u račun, dodajte potrebne dijelove i rad te dodajte negativnu stavku kojom odbijate izvorni iznos dijagnostike."
+    },
+    {
+      "q": "Mogu li pratiti zalihe dijelova od različitih dobavljača?",
+      "a": "Da. Možete izrađivati narudžbenice za različite dobavljače dijelova i evidentirati pristigle otpremnice. Sustav ažurira količine na zalihi i prati nabavne cijene, pa točno znate koliku maržu ostvarujete kad naplaćujete kupcu."
+    },
+    {
+      "q": "Je li moguće naplatiti jamstvenoj tvrtki umjesto vozaču?",
+      "a": "Da. Jednostavno izradite profil kupca za pružatelja jamstva. Zatim mu izravno izdate račun za pokrivene dijelove i rad po cijeni radnog sata, a njegova otvorena dugovanja ostaju odvojena od vaših maloprodajnih kupaca."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Uredite naplatu u svom servisu već danas",
+  "ctaSub": "Izrađujte detaljne procjene, pratite zalihe dijelova i besplatno izdajte račune kupcima."
+}

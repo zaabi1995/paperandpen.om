@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Zalihe",
+  "metaTitle": "Softver za upravljanje zalihama · Paper & Pen",
+  "metaDescription": "Pratite zalihe u više skladišta uživo, uz upozorenja o niskom stanju, serije i barkodove te vrednovanje koje se knjiži u vaše knjige. Radi u cijelom svijetu.",
+  "keywords": "upravljanje zalihama, kontrola zaliha, skladišni program, upozorenje o niskim zalihama, barkod zalihe, vrednovanje zaliha, više skladišta",
+  "heroEyebrow": "Dodatni modul",
+  "heroTitle": "Zalihe kojima možete <em class=\"text-copper-400 not-italic\">vjerovati</em>, uživo",
+  "heroSubtitle": "Znajte točno što imate, gdje se nalazi i koliko vrijedi. Zalihe se ažuriraju u trenutku kad izdate račun ili zaprimite robu, pa su vaši brojevi uvijek aktualni.",
+  "heroBullets": ["Stanje uživo u svim skladištima", "Upozorenja o niskom stanju i ponovnoj narudžbi", "Vrednovanje se knjiži u vaše knjige"],
+  "features": [
+    { "icon": "inventory", "title": "Zalihe uživo", "desc": "Količine se ažuriraju čim prodate, nabavite ili premjestite robu." },
+    { "icon": "truck", "title": "Više skladišta", "desc": "Pratite i premještajte zalihe između lokacija i poslovnica uz potpun pregled." },
+    { "icon": "bell", "title": "Upozorenja o niskom stanju", "desc": "Postavite točke ponovne narudžbe i primite upozorenje prije nego što ostanete bez traženog artikla." },
+    { "icon": "receipt", "title": "Barkod i šifra artikla", "desc": "Skenirajte za brojanje ili premještanje zaliha, organizirano po šifri artikla, seriji i mjernoj jedinici." },
+    { "icon": "calc", "title": "Vrednovanje uživo", "desc": "Metoda prosječnog troška ili FIFO drži vrijednost zaliha u bilanci točnom." },
+    { "icon": "refresh", "title": "Povezano s prodajom", "desc": "Računi i narudžbenice automatski pomiču zalihe, bez ručnog ažuriranja." }
+  ],
+  "sections": [
+    { "eyebrow": "Uvijek točno", "title": "Zalihe koje se same ažuriraju", "body": "Ručno prebrojavanje zastari u trenutku kad nešto prodate. U Paper & Pen svaki račun, nabava i premještanje uživo usklađuju količinu i trošak, pa je broj na zaslonu isti kao broj na polici. Postavite točke ponovne narudžbe i neka vam sustav kaže kada kupiti.", "items": ["Automatski se usklađuje pri svakoj transakciji", "Točke ponovne narudžbe i upozorenja", "Praćenje serija, šifri artikala i mjernih jedinica"] },
+    { "eyebrow": "Zalihe u knjigama", "title": "Od police do bilance", "body": "Zalihe nisu samo brojanje kutija, to je pravi novac u vašoj bilanci. Paper & Pen vrednuje zalihe metodom prosječnog troška ili FIFO i automatski knjiži kretanja u računovodstvo, pa su trošak prodane robe i vrijednost zaliha uvijek usklađeni. Radi u bilo kojoj valuti, na bilo kojem tržištu.", "items": ["Prosječni trošak ili FIFO", "Automatsko knjiženje u računovodstvo", "Nabava u više valuta"] }
+  ],
+  "faqs": [
+    { "q": "Jesu li zalihe uključene besplatno?", "a": "Zalihe su neobavezan, plaćeni dodatni modul. Osnovni modul Prodaja i fakturiranje zauvijek je besplatan, a Zalihe dodajete kad vam zatreba kontrola zaliha uživo." },
+    { "q": "Mogu li upravljati s više skladišta?", "a": "Da. Pratite zalihe po lokaciji, premještajte ih između lokacija i posvuda vidite količine uživo." },
+    { "q": "Podržava li barkodove?", "a": "Da. Skenirajte dobavljačev barkod, šifru artikla ili ispisanu QR naljepnicu kako biste brže brojali i premještali zalihe, uz podršku za serije i mjerne jedinice." },
+    { "q": "Kako se vrednuju zalihe?", "a": "Odaberite prosječni trošak ili FIFO. Vrednovanje se ažurira pri svakom kretanju i automatski knjiži u vaše računovodstvo." },
+    { "q": "Ažurira li prodaja zalihe automatski?", "a": "Da. Računi smanjuju zalihe, a nabave ih povećavaju uživo, pa količine nikada ne ažurirate ručno." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Preuzmite kontrolu nad zalihama",
+  "ctaSub": "Počnite besplatno s fakturiranjem i dodajte Zalihe kad budete spremni za stanje uživo na svakoj lokaciji."
+}

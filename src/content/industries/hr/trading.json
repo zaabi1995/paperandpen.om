@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "trading",
+  "order": 1,
+  "title": "Trgovina i veleprodaja",
+  "metaTitle": "ERP softver za trgovinu i veleprodaju | Paper & Pen",
+  "metaDescription": "Besplatno fakturiranje uz zalihe uživo, narudžbenice i više valuta za trgovce, uvoznike i veletrgovce. Brže dajte ponude, prodajte i usklađujte.",
+  "keywords": "softver za trgovačka poduzeća, erp za veleprodaju, fakturiranje za distributere, softver za uvoz i izvoz, softver za narudžbenice, trgovina u više valuta, kontrola zaliha za trgovce",
+  "heroEyebrow": "Za trgovce, uvoznike i veletrgovce",
+  "heroTitle": "Kupujte, prodajte i skladištite uz <em class=\"text-copper-400 not-italic\">jednu jasnu glavnu knjigu</em>",
+  "heroSubtitle": "Od narudžbenice do računa kupcu, Paper & Pen drži robu, troškove i novac usklađenima. Brzo dajte ponude, premještajte zalihe bez nagađanja i znajte svoju maržu na svakom poslu.",
+  "heroBullets": ["Besplatne ponude i fakturiranje", "Zalihe uživo i nabavni trošak s pristojbama", "Kupujte u jednoj valuti, prodajite u drugoj"],
+  "features": [
+    { "icon": "cart", "title": "Od ponude do računa", "desc": "Pretvorite ponudu u prodajni nalog i račun s dva klika, bez ponovnog upisivanja." },
+    { "icon": "inventory", "title": "Zalihe uživo", "desc": "Svaka prodaja i nabava odmah pomiču zalihe u svim vašim skladištima." },
+    { "icon": "truck", "title": "Narudžbenice", "desc": "Izdajte narudžbenice dobavljačima, zaprimite robu i ažurirajte zalihe i trošak u jednom tijeku." },
+    { "icon": "globe", "title": "Više valuta", "desc": "Kupujte u USD ili EUR i prodajite u OMR, AED ili SAR, s ispravnim decimalama posvuda." },
+    { "icon": "calc", "title": "Marža na svakom poslu", "desc": "Vidite trošak, cijenu i dobit po stavci kako nikad ne biste prodali ispod svoje granice." },
+    { "icon": "refresh", "title": "Automatsko usklađivanje", "desc": "Računi, plaćanja i kretanja zaliha automatski se knjiže u vaše knjige." }
+  ],
+  "sections": [
+    { "eyebrow": "Brzina donosi poslove", "title": "Ponuda danas, isporuka sutra", "body": "U trgovini prva uredna ponuda često dobiva narudžbu. Izradite profesionalnu ponudu za nekoliko minuta, pošaljite je WhatsAppom ili e-poštom i odobrenu pretvorite u prodajni nalog, otpremnicu i račun bez dvostrukog unosa. Kupac dobiva uredan dokument, a vi zadržavate čist trag.", "items": ["Od ponude do prodajnog naloga i računa u nekoliko klikova", "Ugrađene otpremnice i pakiranje", "Trenutačno dijeljenje WhatsAppom ili e-poštom"] },
+    { "eyebrow": "Znajte stvarni trošak", "title": "Zalihe i marža koje govore istinu", "body": "Uvoznici i veletrgovci žive od marže. Paper & Pen vrednuje vaše zalihe metodom prosječnog troška ili FIFO i prikazuje dobit po stavci dok sastavljate ponudu, pa cijene određujete sigurno. Kupujte u inozemstvu u jednoj valuti i prodajite u zemlji u drugoj, a knjige ostaju usklađene. Izrađeno u Omanu, s izvornom podrškom za OMR, AED i SAR te podesivim PDV-om, a jednako dobro radi s USD, EUR ili bilo kojom poreznom stopom koju postavite.", "items": ["Prosječni trošak ili FIFO za točnu vrijednost", "Marža po stavci dok sastavljate ponudu", "PDV za zemlje GCC-a ili bilo koja porezna stopa, bilo koja valuta"] }
+  ],
+  "faqs": [
+    { "q": "Mogu li dati ponudu u jednoj valuti, a robu kupovati u drugoj?", "a": "Da. Nabavljajte u USD, EUR, CNY ili bilo kojoj valuti i prodajite u OMR, AED, SAR ili valuti koju koriste vaši kupci. Decimale i iznosi prilagođavaju se automatski, a knjige ostaju usklađene." },
+    { "q": "Ažurira li fakturiranje moje zalihe?", "a": "Da. Svaki račun smanjuje zalihe, a svaki primitak po narudžbenici ih povećava uživo, u više skladišta, bez ručnog brojanja." },
+    { "q": "Mogu li vidjeti maržu po artiklu?", "a": "Da. Paper & Pen prikazuje trošak, prodajnu cijenu i maržu na svakoj stavci dok sastavljate ponudu ili račun, pa na svakom poslu štitite svoju granicu." },
+    { "q": "Je li stvarno besplatno za trgovačko poduzeće?", "a": "Prodaja i fakturiranje zauvijek su besplatni, uključujući ponude, račune i otpremnice. Modul Zalihe dodajte kad vam zatrebaju zalihe uživo i nabavni trošak s pristojbama." },
+    { "q": "Podržava li PDV za zemlje GCC-a i druga tržišta?", "a": "Da. Odmah primijenite podesivi PDV za zemlje GCC-a ili postavite bilo koju poreznu stopu za bilo koju zemlju. Porez se uvijek obračunava na neto iznos nakon popusta." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Vodite trgovinu uz jednu urednu glavnu knjigu",
+  "ctaSub": "Počnite besplatno s ponudama i fakturiranjem, a zatim dodajte Zalihe i Računovodstvo kako vaše poslovanje raste."
+}

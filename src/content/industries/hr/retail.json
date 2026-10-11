@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "retail",
+  "order": 2,
+  "title": "Maloprodaja i trgovine",
+  "metaTitle": "Softver za naplatu i zalihe za trgovine · Paper & Pen",
+  "metaDescription": "Besplatna naplata uz barkod zalihe, upozorenja o niskom stanju i vrednovanje uživo za trgovine i trgovce na malo. Prodajte brzo, ne ostanite bez robe, uredne knjige.",
+  "keywords": "softver za maloprodaju, program za naplatu u trgovini, barkod zalihe, računi na blagajni, upozorenja o niskim zalihama, erp za maloprodaju, zalihe za više trgovina",
+  "heroEyebrow": "Za trgovine i trgovce na malo",
+  "heroTitle": "Prodajte brzo, <em class=\"text-copper-400 not-italic\">nikad ne ostanite bez robe</em>",
+  "heroSubtitle": "Naplatite kupcima za nekoliko sekundi, skenirajte barkodove za brojanje zaliha i pustite da se zalihe ažuriraju same. Paper & Pen drži police, prodaju i knjige ukorak, pa manje vremena trošite na brojanje, a više na prodaju.",
+  "heroBullets": ["Besplatna, brza naplata", "Podrška za barkodove i šifre artikala", "Upozorenja o niskom stanju prije nego što ponestane"],
+  "features": [
+    { "icon": "receipt", "title": "Brza naplata", "desc": "Zaključite prodaju i ispišite ili podijelite račun za nekoliko sekundi, na bilo kojem uređaju." },
+    { "icon": "inventory", "title": "Barkod zalihe", "desc": "Skenirajte za brojanje ili premještanje zaliha, organizirano po šifri artikla, seriji i mjernoj jedinici." },
+    { "icon": "bell", "title": "Upozorenja o niskom stanju", "desc": "Postavite točke ponovne narudžbe i primite upozorenje prije nego što najprodavaniji artikl padne na nulu." },
+    { "icon": "truck", "title": "Zalihe za više trgovina", "desc": "Pratite i premještajte zalihe između poslovnica uz količine uživo posvuda." },
+    { "icon": "calc", "title": "Vrednovanje uživo", "desc": "Metoda prosječnog troška ili FIFO drži vrijednost zaliha u bilanci točnom." },
+    { "icon": "chart", "title": "Izvješća o najprodavanijim artiklima", "desc": "Vidite što se prodaje, a što stoji, po artiklu, kategoriji i trgovini." }
+  ],
+  "sections": [
+    { "eyebrow": "Brža naplata", "title": "Naplata izrađena za užurbanu blagajnu", "body": "Kupci ne čekaju. Složite prodaju pretraživanjem artikala, primijenite popust, naplatite i za nekoliko sekundi predajte uredan račun. Račune dijelite na WhatsAppu ili ispisujete za blagajnu, a svaka prodaja ide izravno u vaše zalihe i knjige, bez ponovnog upisivanja.", "items": ["Brzo dodavanje artikala pretraživanjem", "Trenutačni ispis ili dijeljenje računa", "Popusti i porez obračunavaju se automatski"] },
+    { "eyebrow": "Zalihe koje se vode same", "title": "Uvijek znajte što je na polici", "body": "Ručno prebrojavanje zastari u trenutku kad nešto prodate. U Paper & Pen svaka prodaja i isporuka uživo usklađuju zalihe, pa se broj na zaslonu podudara s policom. Postavite točke ponovne narudžbe kako bi sustav označio sporu nabavu prije nego što izgubite prodaju. Izrađeno u Omanu, s izvornom podrškom za OMR, AED i SAR te PDV od 5%, a spremno za USD, EUR ili bilo koju poreznu stopu s kojom poslujete.", "items": ["Zalihe uživo pri svakoj prodaji", "Točke ponovne narudžbe i upozorenja o niskom stanju", "Bilo koja valuta, bilo koja porezna stopa"] }
+  ],
+  "faqs": [
+    { "q": "Mogu li prodavati pomoću čitača barkoda?", "a": "Ne na blagajni. Na blagajni artikle dodajete u prodaju pretraživanjem. Čitač barkoda služi za zalihe: skenirajte artikl da ga prebrojite ili da evidentirate ulaz ili izlaz robe. Artikli su organizirani po šifri artikla, seriji i mjernoj jedinici." },
+    { "q": "Hoće li se zalihe ažurirati kad nešto prodam?", "a": "Da. Svaka prodaja smanjuje zalihe, a svaka isporuka ih povećava uživo, u svim vašim trgovinama, bez ručnog brojanja." },
+    { "q": "Mogu li voditi više od jedne trgovine?", "a": "Da. Pratite zalihe po trgovini, premještajte robu između poslovnica i iz jednog radnog prostora posvuda vidite količine uživo." },
+    { "q": "Je li naplata stvarno besplatna?", "a": "Prodaja i fakturiranje, uključujući račune, zauvijek su besplatni. Modul Zalihe dodajte kad poželite kontrolu zaliha s barkodovima i upozorenja o niskom stanju." },
+    { "q": "Radi li izvan zemalja GCC-a?", "a": "Da. Paper & Pen radi u bilo kojoj valuti i s bilo kojom poreznom stopom, pa trgovci bilo gdje mogu naplaćivati i upravljati zalihama, uz arapski, engleski i druge jezike na raspolaganju." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Vodite trgovinu bez nagađanja",
+  "ctaSub": "Počnite besplatno s naplatom i računima, a zatim dodajte Zalihe za barkod zalihe i upozorenja o niskom stanju."
+}

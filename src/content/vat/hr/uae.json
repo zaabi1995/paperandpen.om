@@ -1,0 +1,152 @@
+{
+  "locale": "hr",
+  "slug": "uae",
+  "order": 2,
+  "country": "Ujedinjeni Arapski Emirati",
+  "title": "PDV u UAE-u",
+  "metaTitle": "PDV u UAE-u: stopa, pragovi i e-računi · Paper & Pen",
+  "metaDescription": "Stopa PDV-a od 5% u UAE-u, prag od AED 375,000, sadržaj računa prema članku 59. i potvrđeni raspored uvođenja e-računa, svaki podatak s navedenim izvorom.",
+  "keywords": "pdv uae, stopa pdv-a u uae, prag za registraciju pdv-a uae, zahtjevi za porezni račun uae, e-računi uae 2027, federal tax authority",
+  "heroEyebrow": "Ujedinjeni Arapski Emirati",
+  "heroTitle": "Fakturiranje prema <em class=\"text-copper-400 not-italic\">pravilima o PDV-u u UAE-u</em>",
+  "heroSubtitle": "Stopa, pragovi, dvanaest podataka koje članak 59. traži na poreznom računu i datumi uvođenja e-računa koje je Ministarstvo financija stvarno objavilo.",
+  "heroBullets": [
+    "Opća stopa 5%",
+    "Registracija od AED 375,000",
+    "E-računi u fazama od 2027."
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Opća stopa PDV-a",
+      "value": "5%",
+      "note": "Članak 3. Saveznog dekreta-zakona br. 8 iz 2017. propisuje opću stopu od 5% na svaku isporuku ili uvoz. Na snazi od 1. siječnja 2018.",
+      "source": 1
+    },
+    {
+      "label": "Prag za obveznu registraciju",
+      "value": "AED 375,000",
+      "note": "Članak 7. stavak 1. Provedbene uredbe.",
+      "source": 2
+    },
+    {
+      "label": "Prag za dobrovoljnu registraciju",
+      "value": "AED 187,500",
+      "note": "Članak 8. stavak 1. Provedbene uredbe.",
+      "source": 2
+    },
+    {
+      "label": "Gornja granica za pojednostavnjeni račun",
+      "value": "AED 10,000",
+      "note": "Pojednostavnjeni porezni račun dopušten je ako primatelj nije registriran ili je registriran, a naknada ne prelazi taj iznos.",
+      "source": 2
+    },
+    {
+      "label": "Valuta na računu",
+      "value": "AED",
+      "note": "Iznosi poreza iskazuju se u dirhamima, a ako je račun u drugoj valuti, mora biti naveden primijenjeni tečaj.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Članak 59. stavak 1. Provedbene uredbe navodi što potpuni porezni račun mora sadržavati.",
+    "items": [
+      "Riječi „Porezni račun”, jasno istaknute",
+      "Naziv, adresa i porezni registracijski broj (TRN) dobavljača",
+      "Naziv, adresa i TRN primatelja, ako je primatelj registriran",
+      "Redni ili jedinstveni broj koji omogućuje prepoznavanje i redoslijed računa",
+      "Datum izdavanja",
+      "Datum isporuke, ako se razlikuje od datuma izdavanja",
+      "Opis dobara ili usluga",
+      "Za svaku stavku: jedinična cijena, količina ili obujam, porezna stopa i iznos za plaćanje u AED",
+      "Iznos svakog odobrenog popusta",
+      "Bruto iznos za plaćanje u AED",
+      "Obračunati iznos poreza u AED, uz tečaj ako je preračunat iz druge valute",
+      "Za isporuku s prijenosom porezne obveze, izjava da porez obračunava primatelj i odredba na koju se poziva"
+    ],
+    "source": 2,
+    "caveat": "Ovo je pročišćeni tekst Provedbene uredbe koji je Federal Tax Authority objavila 4. listopada 2024. Komentatori spominju kasniju izmjenu, no nismo je pronašli u tekstu koji je objavila FTA, pa prije oslanjanja trenutačnu formulaciju provjerite kod FTA."
+  },
+  "einvoicing": {
+    "status": "Obvezno i u fazama, pilot otvoren",
+    "body": "Sustav e-računa u UAE-u decentralizirani je model s pet točaka u kojem računi prolaze kroz akreditirane pružatelje usluga. Smjernice samog Ministarstva financija određuju raspored: pilot program i dobrovoljno uvođenje od 1. srpnja 2026.; poduzeća s prihodom od AED 50 milijuna ili više uvode sustav od 1. siječnja 2027.; poduzeća ispod tog praga od 1. srpnja 2027.; državna tijela od 1. listopada 2027. Ministarstvo je prvi rok za imenovanje akreditiranog pružatelja usluga produljilo s 31. srpnja 2026. na 30. listopada 2026., a početak primjene u siječnju 2027. ostao je nepromijenjen, pa se objavljeni PDF smjernica i priopćenje Ministarstva razlikuju u tom jednom datumu, a priopćenje je novije.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Kako to napraviti ispravno",
+      "title": "Gdje ljudi griješe kod članka 59.",
+      "body": "Zahtjev po stavci onaj je na kojem pada većina predložaka računa. Članak 59. stavak 1. točka (h) traži jediničnu cijenu, količinu, poreznu stopu i iznos za plaćanje za svako dobro ili uslugu, što znači da jedan zbirni iznos poreza na dnu računa nije dovoljan kad stavke imaju različit porezni tretman. Drugi je TRN primatelja, obvezan kad god je primatelj registriran, a treći je tečaj: ako naplaćujete u dolarima, i dalje morate iskazati porez u dirhamima i tečaj koji ste koristili.",
+      "items": [
+        "Porezna stopa i iznos po stavci, ne samo ukupno",
+        "TRN primatelja kad god je registriran",
+        "Tečaj iskazan na svakom računu koji nije u AED",
+        "Napomena o prijenosu porezne obveze gdje se primjenjuje"
+      ]
+    },
+    {
+      "eyebrow": "Priprema",
+      "title": "Što datumi za 2027. stvarno traže od vas",
+      "body": "Obveza nije kupiti softver s nekim logotipom, nego moći izdati strukturirani račun preko akreditiranog pružatelja usluga na datum koji vrijedi za vaš razred prihoda. Računajte unatrag od datuma uvođenja za svoj razred, a ne od pilota: rok za imenovanje pružatelja usluga pada mjesecima prije početka primjene, a upravo imenovanje, a ne početak primjene, propušta većina poduzeća. U međuvremenu su podaci koji će vam trebati isti oni koje članak 59. već traži, što je dobar razlog da kvalitetu računa popravite sada, a ne tijekom prelaska.",
+      "items": [
+        "Znajte u koji razred prihoda spadate",
+        "Zabilježite rok za imenovanje pružatelja usluga, ne samo početak primjene",
+        "Uredite TRN-ove kupaca prije roka, ne tijekom",
+        "Od danas vodite porezne podatke po stavci"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kolika je stopa PDV-a u UAE-u?",
+      "a": "Pet posto. Članak 3. Saveznog dekreta-zakona br. 8 iz 2017. propisuje opću stopu od 5% na svaku oporezivu isporuku ili uvoz, a na snazi je od 1. siječnja 2018. Neke su isporuke oporezive nultom stopom ili oslobođene, a razlika je važna: dobavljač s nultom stopom i dalje može odbiti pretporez, a oslobođeni ne može."
+    },
+    {
+      "q": "Kada e-računi u UAE-u postaju obvezni?",
+      "a": "Ovisi o vašem prihodu. Prema objavljenim smjernicama Ministarstva financija, poduzeća s prihodom od AED 50 milijuna ili više uvode sustav od 1. siječnja 2027., poduzeća ispod toga od 1. srpnja 2027., a državna tijela od 1. listopada 2027. Pilot i dobrovoljno uvođenje otvoreni su 1. srpnja 2026. Prije nego što planirate prema bilo kojem datumu, provjerite stranice Ministarstva, jer je jedan rok već izmijenjen."
+    },
+    {
+      "q": "Kada u UAE-u mogu izdati pojednostavnjeni porezni račun?",
+      "a": "Kad primatelj nije registriran za PDV ili je registriran, a naknada ne prelazi AED 10,000. Pojednostavnjeni račun i dalje mora sadržavati riječi „Porezni račun”, vaš naziv, adresu i TRN, datum izdavanja, opis isporučenog te ukupnu naknadu i iznos poreza u dirhamima."
+    },
+    {
+      "q": "Trebam li TRN kupca na računu u UAE-u?",
+      "a": "Da, kad god je kupac registriran za PDV. Članak 59. stavak 1. točka (c) u tom slučaju traži naziv, adresu i porezni registracijski broj primatelja. Bez njega kupac može teško odbiti pretporez, što vam se obično vrati kao zahtjev za ponovnim izdavanjem računa."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Ispravno fakturirajte u UAE-u, besplatno",
+  "ctaSub": "Porez po stavci, bilo koja valuta s tečajem na dokumentu i račun na arapskom i engleskom iz jednog zapisa.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, članak 3. (pročišćeni tekst s izmjenama)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, članci 7., 8. i 59.",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1 i priopćenje Ministarstva o izmjeni",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

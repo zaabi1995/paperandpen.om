@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Računovodstvo",
+  "metaTitle": "Računovodstvo online s automatskim knjiženjem · Paper & Pen",
+  "metaDescription": "Dvojno knjigovodstvo koje se vodi samo. Račun dobiti i gubitka i bilanca uživo, PDV prijave, usklađivanje s bankom, bilo koja valuta i porez, u cijelom svijetu.",
+  "keywords": "računovodstveni program, knjigovodstvo online, dvojno knjigovodstvo, bilanca, račun dobiti i gubitka, pdv prijava, usklađivanje s bankom, glavna knjiga",
+  "heroEyebrow": "Dodatni modul",
+  "heroTitle": "Knjige koje se <em class=\"text-copper-400 not-italic\">same uravnotežuju</em>",
+  "heroSubtitle": "Svaki račun, plaćanje i nabava automatski se knjiže u pravu dvojnu glavnu knjigu. Pratite dobit, bilancu i poreznu poziciju uživo, bez ijedne proračunske tablice.",
+  "heroBullets": ["Automatsko dvojno knjiženje, bez ručnih temeljnica", "Račun dobiti i gubitka i bilanca uživo", "PDV prijave jednim klikom"],
+  "features": [
+    { "icon": "accounting", "title": "Automatsko knjigovodstvo", "desc": "Prodaja, plaćanja i troškovi knjiže se u glavnu knjigu u trenutku kad nastanu." },
+    { "icon": "chart", "title": "Financije uživo", "desc": "Račun dobiti i gubitka, bilanca i novčani tok, uvijek ažurni." },
+    { "icon": "calc", "title": "PDV i porezne prijave", "desc": "Pratite pretporez i izlazni PDV te jednim klikom izradite prijavu spremnu za predaju." },
+    { "icon": "refresh", "title": "Usklađivanje s bankom", "desc": "Povežite stavke s izvatka s računima i plaćanjima kako bi knjige ostale uredne." },
+    { "icon": "doc", "title": "Potpune knjige", "desc": "Iz bilo kojeg izvješća dođite do izvornog dokumenta i temeljnice." },
+    { "icon": "globe", "title": "Više valuta", "desc": "Knjižite u bilo kojoj valuti uz automatske tečajne dobitke i gubitke." }
+  ],
+  "sections": [
+    { "eyebrow": "Bez računovođe", "title": "Računovodstvo koje radi u pozadini", "body": "Ne morate biti knjigovođa da biste znali posluje li vaša tvrtka s dobiti. Računi, plaćanja i zalihe pune istu glavnu knjigu, pa su vaša konta točna bez ručnih temeljnica. Otvorite nadzornu ploču i odmah vidite dobit, dužnike i porez.", "items": ["Dvojno knjiženje radi se samo", "Svako izvješće vodi do izvora", "Revizijski trag na svakom knjiženju"] },
+    { "eyebrow": "Za svaki porezni sustav", "title": "Porezi i usklađenost gdje god poslujete", "body": "Postavite porezne stope i konta za svoju zemlju, uključujući podesivi PDV za zemlje GCC-a, a Paper & Pen umjesto vas prati pretporez i izlazni PDV. Izradite prijavu spremnu za predaju, uskladite banku i mirno zatvorite razdoblje, u bilo kojoj valuti.", "items": ["Podesivi porez za svaku zemlju", "PDV prijave spremne za predaju", "Usklađivanje s bankom i zatvaranje razdoblja"] }
+  ],
+  "faqs": [
+    { "q": "Trebam li znanje iz računovodstva?", "a": "Ne. Knjiženja nastaju automatski iz vaših računa, plaćanja i nabava, pa imate točne dvojne knjige bez pisanja temeljnica." },
+    { "q": "Je li računovodstvo besplatno?", "a": "Računovodstvo je neobavezan, plaćeni dodatni modul. Prodaja i fakturiranje zauvijek su besplatni, a Računovodstvo uključujete kad vam zatrebaju potpuni financijski izvještaji." },
+    { "q": "Može li izrađivati PDV prijave?", "a": "Da. Prati pretporez i izlazni PDV (na primjer podesivi PDV u zemljama GCC-a ili bilo koju stopu koju postavite) i izrađuje prijavu spremnu za predaju." },
+    { "q": "Podržava li više valuta?", "a": "Da. Knjižite i izvještavajte u bilo kojoj valuti uz automatske tečajne dobitke i gubitke." },
+    { "q": "Mogu li usklađivati bankovni račun?", "a": "Da. Uvezite ili povežite stavke s izvatka s računima i plaćanjima kako bi glavna knjiga uvijek bila usklađena." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Točne knjige, automatski",
+  "ctaSub": "Počnite besplatno s fakturiranjem i uključite Računovodstvo za financijske izvještaje i porezne prijave uživo."
+}

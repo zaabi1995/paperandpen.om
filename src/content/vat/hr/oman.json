@@ -1,0 +1,159 @@
+{
+  "locale": "hr",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "title": "PDV u Omanu",
+  "metaTitle": "PDV u Omanu: stopa, pragovi i računi · Paper & Pen",
+  "metaDescription": "Omanska stopa PDV-a od 5%, prag za registraciju od OMR 38,500 i dvanaest podataka koje porezni račun mora sadržavati, svaki s izvorom kod Tax Authority.",
+  "keywords": "pdv oman, stopa pdv-a u omanu, prag za registraciju pdv-a oman, zahtjevi za porezni račun oman, fawtara e-računi, oman tax authority",
+  "heroEyebrow": "Oman",
+  "heroTitle": "Fakturiranje prema <em class=\"text-copper-400 not-italic\">omanskim pravilima o PDV-u</em>",
+  "heroSubtitle": "Stopa, pragovi za registraciju, što porezni račun mora prikazivati i dokle se stiglo s e-računima. Svaki podatak na ovoj stranici potkrijepljen je službenim tekstom koji je objavila Oman Tax Authority.",
+  "heroBullets": [
+    "Opća stopa 5%",
+    "Registracija od OMR 38,500",
+    "Fawtara najavljena, još nije u primjeni"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Opća stopa PDV-a",
+      "value": "5%",
+      "note": "Članak 36. Zakona o PDV-u propisuje porez na uvoz i isporuku oporezivih dobara ili usluga po stopi od pet posto oporezive vrijednosti.",
+      "source": 1
+    },
+    {
+      "label": "Prag za obveznu registraciju",
+      "value": "OMR 38,500",
+      "note": "Godišnje isporuke jednake ili veće od tog iznosa zahtijevaju registraciju. Zakon taj iznos prepušta odluci predsjednika, umjesto da ga utvrđuje u samom Zakonu.",
+      "source": 2
+    },
+    {
+      "label": "Prag za dobrovoljnu registraciju",
+      "value": "OMR 19,250",
+      "note": "Od ove razine možete se registrirati i ispod praga za obveznu registraciju.",
+      "source": 2
+    },
+    {
+      "label": "Jezik računa",
+      "value": "Arapski",
+      "note": "Račun se može izdati i na engleskom, pod uvjetom da je na zahtjev dostupan arapski prijevod.",
+      "source": 3
+    },
+    {
+      "label": "Gornja granica za pojednostavnjeni račun",
+      "value": "OMR 500",
+      "note": "Za isporuke ispod te vrijednosti može se koristiti pojednostavnjeni račun, uz odobrenje Tax Authority.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Članak 145. Provedbenog pravilnika navodi što porezni račun mora prikazivati. Članak popis uvodi riječima „osobito”, pa ga shvatite kao minimum, a ne kao potpun popis.",
+    "items": [
+      "Riječi „Porezni račun”",
+      "Datum izdavanja, datum isporuke i datum plaćanja",
+      "Redni broj računa",
+      "Puni naziv, adresa i porezni identifikacijski broj dobavljača",
+      "Puni naziv, adresa i porezni identifikacijski broj kupca ili odgovarajući broj u zemlji njegova sjedišta",
+      "Opis isporučenih dobara i usluga",
+      "Količina dobara",
+      "Datum svakog plaćanja unaprijed",
+      "Ukupna naknada bez poreza",
+      "Primijenjena porezna stopa",
+      "Svako odobreno sniženje cijene ili popust te svaka državna subvencija koja već nije uključena",
+      "Oporeziva vrijednost"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority objavljuje Provedbeni pravilnik samo na arapskom. Ovaj je popis vjerno tumačenje službenog arapskog teksta, a ne službeni prijevod, pa formulaciju provjerite sa svojim poreznim savjetnikom prije nego što se na nju oslonite."
+  },
+  "einvoicing": {
+    "status": "Najavljeno i uvodi se u fazama, još nije obvezno",
+    "body": "Omanski program e-računa zove se Fawtara. Tax Authority opisuje model s pet točaka u kojem računi do nje stižu preko akreditiranog pružatelja usluga i navodi četiri faze: pilot, proširenje, uključivanje manjih poduzeća i potpuno uvođenje. Tijelo nije objavilo datume faza na engleskom, a datumi koji kruže u medijima ne nalaze se na njegovim stranicama. Svaki određeni rok za Fawtaru koji pročitate negdje drugdje smatrajte nepotvrđenim dok ga Tax Authority ne objavi.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Kako to napraviti ispravno",
+      "title": "Na čemu poduzeća u Omanu najčešće griješe",
+      "body": "Tri stvari uzrokuju većinu problema s PDV računima ovdje. Prva je porezni identifikacijski broj kupca: ako ga izostavite, kupac možda neće moći odbiti pretporez, pa vaš račun postaje njegov trošak i vaš problem. Druga je redoslijed brojeva računa. Članak 145. traži redni broj, a najbrži način da ga prekinete jest da obrišete ili prenumerirate račun koji je već poslan. Umjesto toga ga ispravite knjižnim odobrenjem. Treća je jezik: račun mora biti na arapskom, a izdavanje samo na engleskom bez arapske verzije dostupne na zahtjev izlaže vas riziku.",
+      "items": [
+        "Porezni broj kupca upišite prije izdavanja, ne poslije",
+        "Izdani račun nikad ne brišite, stornirajte ga odobrenjem",
+        "Arapska verzija dostupna na zahtjev",
+        "Datum isporuke evidentiran odvojeno od datuma izdavanja"
+      ]
+    },
+    {
+      "eyebrow": "Priprema",
+      "title": "Pripremite se za Fawtaru bez nagađanja datuma",
+      "body": "Ne treba vam objavljeni rok da biste bili spremni. Svaki sustav e-računa koji je u regiji krenuo tražio je istu temeljnu disciplinu: uredne i potpune podatke o kupcima, uključujući porezne brojeve, neprekinut niz brojeva računa, porezni tretman evidentiran po stavci, a ne po računu, te dokumente pohranjene tako da ih možete dohvatiti na zahtjev. Poduzeće čija evidencija već ispunjava ta četiri uvjeta čeka kratka provedba kad god datumi stignu. Poduzeće koje ih ne ispunjava provest će otkazni rok čisteći podatke.",
+      "items": [
+        "Potpuni podaci o kupcima, uključujući porezne brojeve",
+        "Jedan neprekinut niz računa po seriji",
+        "Porezni tretman evidentiran po stavci",
+        "Dokumenti dostupni na zahtjev"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kolika je stopa PDV-a u Omanu?",
+      "a": "Pet posto. Članak 36. Zakona o PDV-u, proglašenog Kraljevskim dekretom 121/2020, obračunava porez na uvoz i isporuku oporezivih dobara ili usluga po stopi od pet posto oporezive vrijednosti. Neke su isporuke oporezive nultom stopom ili oslobođene, a to nije isto: dobavljač s nultom stopom i dalje može odbiti pretporez, a oslobođeni ne može."
+    },
+    {
+      "q": "Kada se moram registrirati za PDV u Omanu?",
+      "a": "Kad vaše godišnje isporuke dosegnu ili se očekuje da će dosegnuti OMR 38,500. Dobrovoljno se možete registrirati od OMR 19,250. Oba iznosa proizlaze iz odluke predsjednika o pragovima za registraciju, a ne iz samog Zakona o PDV-u, zato se mogu promijeniti bez izmjene Zakona."
+    },
+    {
+      "q": "Jesu li e-računi u Omanu već obvezni?",
+      "a": "Još nisu. Tax Authority je najavila Fawtaru, fazni model e-računa s pet točaka koji koristi akreditirane pružatelje usluga, i opisuje četiri faze uvođenja. Datume faza nije objavila na engleskom na svojim stranicama, pa ovdje ne navodimo datum. Trenutačno stanje provjerite na stranicama Tax Authority o e-računima."
+    },
+    {
+      "q": "Mogu li u Omanu izdati račun na engleskom?",
+      "a": "Možete izdati račun na engleskom, ali Provedbeni pravilnik traži da porezni račun bude na arapskom i dopušta dodatni jezik, pod uvjetom da je arapski prijevod dostupan na zahtjev. U praksi to znači da trebate dvojezični predložak, a ne samo engleski."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Ispravno fakturirajte u Omanu, besplatno",
+  "ctaSub": "Postavite vlastitu poreznu stopu, naplaćujte u bilo kojoj valuti i iz istog zapisa izdajte račun na arapskom i engleskom.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, članak 36.",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Chairman's Decision o pragovima za obveznu i dobrovoljnu registraciju",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Decision 53/2021, članci 145. do 148.",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Stranice programa e-računa (Fawtara)",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

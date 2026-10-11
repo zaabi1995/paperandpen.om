@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "HR i plaće",
+  "metaTitle": "Softver za HR i obračun plaća bez muke · Paper & Pen",
+  "metaDescription": "Zaposlenici, evidencija prisutnosti, godišnji odmori i platne liste na jednom mjestu. Obračun plaća u bilo kojoj valuti, knjiženje u knjige i otpremnine.",
+  "keywords": "hr softver, program za obračun plaća, platne liste, evidencija radnog vremena, godišnji odmori, otpremnina, wps, upravljanje zaposlenicima",
+  "heroEyebrow": "Dodatni modul",
+  "heroTitle": "Isplatite tim <em class=\"text-copper-400 not-italic\">točno</em>, svaki put",
+  "heroSubtitle": "Zaposlenici, prisutnost, godišnji odmori i plaće u jednom urednom modulu. Pokrenite obračun plaća, izradite platne liste i proknjižite plaće u svoja konta za nekoliko minuta, a ne dana.",
+  "heroBullets": ["Obračun plaća za nekoliko minuta", "Platne liste i samoposluga za godišnje odmore", "Knjiži se izravno u računovodstvo"],
+  "features": [
+    { "icon": "hr", "title": "Evidencija zaposlenika", "desc": "Jedan profil po osobi: ugovor, plaća, dokumenti i povijest." },
+    { "icon": "clock", "title": "Prisutnost i prekovremeni rad", "desc": "Bilježite smjene, prekovremene sate i izostanke koji idu izravno u obračun plaća." },
+    { "icon": "doc", "title": "Upravljanje godišnjim odmorima", "desc": "Postavite pravila za odmore, odobravajte zahtjeve i automatski pratite preostale dane." },
+    { "icon": "receipt", "title": "Platne liste", "desc": "Izradite jasne, raščlanjene platne liste i podijelite ih sa svakim zaposlenikom." },
+    { "icon": "calc", "title": "Odbici i otpremnine", "desc": "Ispravno obračunajte zajmove, odbitke i otpremnine na kraju radnog odnosa." },
+    { "icon": "accounting", "title": "Knjiži se u knjige", "desc": "Svaki obračun automatski knjiži plaće i razgraničenja u vaša konta." }
+  ],
+  "sections": [
+    { "eyebrow": "Manje administracije", "title": "Od prisutnosti do platne liste bez proračunskih tablica", "body": "Prisutnost, prekovremeni rad, godišnji odmori i zajmovi pune obračun plaća, pa na kraju mjeseca više ne spajate proračunske tablice. Jednom odobrite ciklus i Paper & Pen odjednom izradi sve platne liste i temeljnicu plaća.", "items": ["Prisutnost i prekovremeni sati idu u obračun", "Zajmovi i odbici riješeni", "Skupna izrada platnih lista"] },
+    { "eyebrow": "Gdje god zapošljavate", "title": "Obračun plaća prilagođen vašoj zemlji i valuti", "body": "Isplaćujte zaposlenike u bilo kojoj valuti i postavite dodatke, odbitke i pravila o otpremnini koja vrijede ondje gdje poslujete. Uz sučelje na arapskom, engleskom, hindskom, bengalskom i urduu, vaš tim može čitati vlastite platne liste i tražiti godišnji odmor na svom jeziku.", "items": ["Plaće u bilo kojoj valuti", "Podesivi dodaci i odbici", "Spremno za otpremnine"] }
+  ],
+  "faqs": [
+    { "q": "Je li modul HR i plaće besplatan?", "a": "To je neobavezan, plaćeni dodatni modul. Zauvijek besplatna osnova pokriva prodaju i fakturiranje, a HR i plaće dodajete kad trebate upravljati zaposlenicima i plaćama." },
+    { "q": "Mogu li obračunavati plaće u bilo kojoj valuti?", "a": "Da. Isplaćujte tim u OMR, AED, SAR, USD, EUR ili bilo kojoj valuti, uz dodatke i odbitke postavljene prema vašim pravilima." },
+    { "q": "Pokriva li prisutnost i godišnje odmore?", "a": "Da. Bilježite prisutnost i prekovremeni rad, postavite pravila za odmore, odobravajte zahtjeve i pratite preostale dane, a sve to ide u obračun plaća." },
+    { "q": "Knjiži li se obračun plaća u računovodstvo?", "a": "Da. Kad je Računovodstvo uključeno, svaki obračun automatski knjiži plaće, dodatke i razgraničenja u glavnu knjigu." },
+    { "q": "Može li obračunati otpremninu?", "a": "Da. Postavite pravila o otpremnini i nagradi za kraj radnog odnosa za svoju zemlju kako bi konačni obračuni bili točni." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Isplata plaća bez stresa",
+  "ctaSub": "Počnite besplatno s fakturiranjem i dodajte HR i plaće kako biste upravljali timom i obračunali plaće za nekoliko minuta."
+}

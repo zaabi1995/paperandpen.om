@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restorani i kafići",
+  "metaTitle": "Naplata i zalihe namirnica za restorane | Paper & Pen",
+  "metaDescription": "Besplatna naplata uz zalihe namirnica, normative jela i narudžbenice dobavljačima za restorane i kafiće. Kontrolirajte trošak hrane i brzo naplaćujte.",
+  "keywords": "softver za restorane, naplata u kafiću, normativi jela, kontrola troška hrane, zalihe u restoranu, narudžbenice dobavljačima, erp za restorane",
+  "heroEyebrow": "Za restorane i kafiće",
+  "heroTitle": "Naplaćujte brzo, <em class=\"text-copper-400 not-italic\">kontrolirajte trošak hrane</em>",
+  "heroSubtitle": "Ispišite račune za nekoliko sekundi, pratite namirnice do grama i znajte stvarni trošak svakog jela. Paper & Pen drži kuhinju, blagajnu i knjige usklađenima.",
+  "heroBullets": ["Besplatni, brzi računi", "Kalkulacija namirnica i normativa", "Narudžbenice dobavljačima"],
+  "features": [
+    { "icon": "receipt", "title": "Brzi računi", "desc": "Primite narudžbu, primijenite porez i naknadu za uslugu te ispišite ili podijelite račun za nekoliko sekundi." },
+    { "icon": "manufacturing", "title": "Kalkulacija jela", "desc": "Definirajte recepture od namirnica kako biste znali stvarni trošak svakog jela." },
+    { "icon": "inventory", "title": "Zalihe namirnica", "desc": "Pratite sirovine po jedinici, seriji i roku trajanja, uz upozorenja o niskom stanju." },
+    { "icon": "truck", "title": "Narudžbe dobavljačima", "desc": "Izdajte narudžbenice dobavljačima i ažurirajte zalihe i trošak pri primitku." },
+    { "icon": "calc", "title": "Postotak troška hrane", "desc": "Usporedite trošak jela s cijenom na jelovniku kako bi marže ostale zdrave." },
+    { "icon": "chart", "title": "Izvješća o prodaji", "desc": "Vidite najprodavanija jela, dnevni utržak i trendove po danima i poslovnicama." }
+  ],
+  "sections": [
+    { "eyebrow": "Brža usluga gostima", "title": "Računi koji drže red u pokretu", "body": "U podnevnoj gužvi nema vremena za sporu naplatu. Dodajte stavke, primijenite PDV ili naknadu za uslugu, naplatite i za nekoliko sekundi predajte uredan račun, a zatim ga podijelite na WhatsAppu ako gost zatraži. Svaka prodaja automatski se knjiži u vaše knjige, pa je zatvaranje dana pitanje jednog pogleda, a ne večeri tipkanja.", "items": ["Brzo dodavanje stavki i naplata", "PDV i naknada za uslugu obračunavaju se umjesto vas", "Dnevni utržak usklađuje se automatski"] },
+    { "eyebrow": "Kuhinja govori istinu", "title": "Kalkulacija jela koja štiti vašu maržu", "body": "Jelo je isplativo samo ako znate koliko košta. Izradite recepture od namirnica, neka Paper & Pen izračuna trošak svakog tanjura prema aktualnim nabavnim cijenama i pratite postotak troška hrane kako se cijene dobavljača mijenjaju. Pratite namirnice po seriji i roku trajanja, izdajte narudžbenice i držite otpad pod kontrolom. Izrađeno u Omanu, s izvornom podrškom za OMR, AED i SAR te PDV od 5%, a spremno za USD, EUR ili bilo koje tržište.", "items": ["Recepture kalkulirane prema aktualnim cijenama namirnica", "Praćenje serija i rokova trajanja sirovina", "Narudžbenice koje ažuriraju trošak pri primitku"] }
+  ],
+  "faqs": [
+    { "q": "Mogu li izračunati trošak jelovnika prema cijenama namirnica?", "a": "Da. Svako jelo definirajte kao recepturu od namirnica, a Paper & Pen izračunava njegov trošak prema trenutačnim nabavnim cijenama, pa možete postaviti cijene na jelovniku koje štite vašu maržu." },
+    { "q": "Prati li namirnice i rokove trajanja?", "a": "Da. Sirovine se prate po mjernoj jedinici, seriji i roku trajanja, uz upozorenja o niskom stanju kako biste naručili prije nego što ponestane." },
+    { "q": "Mogu li primijeniti PDV i naknadu za uslugu?", "a": "Da. Primijenite podesivi PDV za zemlje GCC-a, naknadu za uslugu ili bilo koju poreznu stopu, a sve se automatski obračunava na računu." },
+    { "q": "Je li naplata besplatna za kafić?", "a": "Prodaja i fakturiranje, uključujući račune, zauvijek su besplatni. Zalihe i Proizvodnju dodajte kad poželite praćenje namirnica i kalkulaciju jela." },
+    { "q": "Mogu li upravljati s više objekata?", "a": "Da. Pratite prodaju i zalihe po poslovnici i iz jednog radnog prostora vidite količine uživo i dnevni utržak svih svojih objekata." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Poslužujte brzo, računajte pametno",
+  "ctaSub": "Počnite besplatno s računima i naplatom, a zatim dodajte Zalihe i kalkulaciju jela kako biste preuzeli kontrolu nad troškom hrane."
+}

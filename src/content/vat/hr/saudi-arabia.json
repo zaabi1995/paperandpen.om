@@ -1,0 +1,151 @@
+{
+  "locale": "hr",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Saudijska Arabija",
+  "title": "PDV u Saudijskoj Arabiji",
+  "metaTitle": "PDV u Saudijskoj Arabiji: stopa 15% i Fatoora · Paper & Pen",
+  "metaDescription": "Saudijska stopa PDV-a od 15%, prag od SAR 375,000, sadržaj računa prema članku 53. i faze e-računa Fatoora koje provodi ZATCA, uz navedene izvore.",
+  "keywords": "pdv saudijska arabija, saudijska stopa pdv-a 15, zatca fatoora, saudijski e-računi faza 2, zahtjevi za porezni račun saudijska arabija, zatca",
+  "heroEyebrow": "Saudijska Arabija",
+  "heroTitle": "Fakturiranje prema pravilima koja provodi <em class=\"text-copper-400 not-italic\">ZATCA</em>",
+  "heroSubtitle": "Stopa od 15%, pragovi za registraciju, što članak 53. traži na poreznom računu i što Fatoora dodaje kad uđete u fazu integracije.",
+  "heroBullets": [
+    "Opća stopa 15%",
+    "Registracija od SAR 375,000",
+    "Fatoora u primjeni od 2021."
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Opća stopa PDV-a",
+      "value": "15%",
+      "note": "Saudijska Arabija je iznimka u Zaljevu: ostale države koje primjenjuju PDV imaju stopu od 5% ili 10%. Ako se primjenjuje opća stopa, oporezive isporuke oporezuju se po stopi od 15%.",
+      "source": 1
+    },
+    {
+      "label": "Prag za obveznu registraciju",
+      "value": "SAR 375,000",
+      "note": "Oporezive isporuke veće od tog iznosa u razdoblju od 12 mjeseci zahtijevaju registraciju.",
+      "source": 1
+    },
+    {
+      "label": "Prag za dobrovoljnu registraciju",
+      "value": "SAR 187,500",
+      "note": "Na temelju oporezivih isporuka ILI oporezivih troškova u posljednjih 12 mjeseci.",
+      "source": 1
+    },
+    {
+      "label": "Poduzeća nerezidenti",
+      "value": "Bez praga",
+      "note": "Nerezident koji je dužan plaćati PDV u Kraljevini mora se registrirati bez obzira na vrijednost svojih isporuka.",
+      "source": 1
+    },
+    {
+      "label": "Jezik računa",
+      "value": "Arapski",
+      "note": "Obvezni sadržaj mora biti na arapskom. Dodatno se može prikazati i drugi jezik, kao prijevod.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Članak 53. stavak 5. Provedbenog pravilnika o PDV-u navodi što porezni račun mora sadržavati i traži da bude na arapskom, uz bilo koji drugi jezik prikazan kao prijevod.",
+    "items": [
+      "Datum izdavanja",
+      "Redni broj koji jedinstveno označava račun",
+      "Porezni identifikacijski broj dobavljača",
+      "Ako kupac sam obračunava porez, porezni broj kupca i izjava da on mora obračunati porez",
+      "Naziv i adresa dobavljača i kupca",
+      "Količina i vrsta dobara ili opseg i vrsta usluga",
+      "Datum isporuke, ako se razlikuje od datuma izdavanja",
+      "Oporezivi iznos po stopi ili oslobođenju, jedinična cijena bez PDV-a i svaki popust koji već nije u jediničnoj cijeni",
+      "Primijenjena porezna stopa",
+      "Iznos poreza za plaćanje, iskazan u saudijskim rijalima",
+      "Ako se porez ne obračunava po osnovnoj stopi, napomena koja objašnjava porezni tretman",
+      "Ako se primjenjuje postupak oporezivanja marže za prihvatljiva rabljena dobra, napomena o tome"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Obvezno i u primjeni, uvodi se u valovima",
+    "body": "Saudijska Arabija ima najnapredniji sustav e-računa u Zaljevu i onaj po kojem se oblikuju ostali. Faza 1, faza izrade, primjenjuje se na sve porezne obveznike rezidente od 4. prosinca 2021.: računi se moraju izdavati elektronički u strukturiranom obliku. Faza 2, faza integracije, počela je 1. siječnja 2023. i uvodi se u valovima prema veličini poreznog obveznika, a ZATCA svaku skupinu obavještava najmanje šest mjeseci prije datuma integracije. U fazi 2 elektronički račun sadrži više od sadržaja iz članka 53.: treba mu i UUID, hash prethodnog računa, QR kôd, kriptografski pečat i brojač otporan na neovlaštene izmjene. U koji val spadate, objavljuje ZATCA, pa provjerite njezine stranice o e-računima umjesto da pretpostavljate.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Kako to napraviti ispravno",
+      "title": "Fatoora mijenja ono što račun JEST",
+      "body": "U svijetu papira ili PDF-a račun je dokument koji izradite i pošaljete. U fazi 2 on je zapis u lancu: svaki račun upućuje na hash prethodnog, nosi kriptografski pečat i povećava brojač koji se ne može vratiti na nulu. To je namjerno rješenje i onemogućuje jednu čestu naviku. Račun ne možete naknadno potiho obrisati, prenumerirati ili ponovno izdati, jer bi se lanac prekinuo, a prekid se može otkriti. Poduzeća koja su pogreške ispravljala mijenjanjem povijesti moraju prijeći na knjižna odobrenja, što su računovodstvena pravila ostatka svijeta oduvijek i tražila.",
+      "items": [
+        "Svaki je račun hashom povezan s prethodnim",
+        "Brojač se ne može vratiti na nulu ni unatrag",
+        "Ispravci se rade knjižnim odobrenjima i terećenjima",
+        "QR kôd je dio računa, a ne ukras"
+      ]
+    },
+    {
+      "eyebrow": "Kako to napraviti ispravno",
+      "title": "Stopa od 15% ima posljedice",
+      "body": "Stopa od petnaest posto razliku između nulte stope i oslobođenja čini financijski ozbiljnom na način na koji to stopa od pet posto ne čini. Ako su vaše isporuke oslobođene, ne možete odbiti pretporez koji ste platili, pa petnaest posto vaših ulaznih troškova postaje stvaran, nepovratan trošak koji morate uračunati u cijenu. Ako su oporezive nultom stopom, ne obračunavate ništa, a pretporez i dalje odbijate. Pogrešna klasifikacija najskuplja je pojedinačna pogreška u saudijskom PDV-u, a riječ je o pitanju klasifikacije, a ne stope.",
+      "items": [
+        "Oslobođenje znači bez odbitka pretporeza, pa je porez vaš trošak",
+        "Nulta stopa znači bez obračuna, ali uz puni odbitak",
+        "Klasificirajte prema vrsti isporuke, a ne prema kupcu",
+        "Odluku o klasifikaciji donesite prije određivanja cijene"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kolika je stopa PDV-a u Saudijskoj Arabiji?",
+      "a": "Opća stopa je petnaest posto. To je najviša stopa u Zaljevu, a česta je pogreška pretpostaviti jednu stopu za cijeli GCC: Oman i UAE imaju 5%, Bahrein 10%, a Katar i Kuvajt PDV uopće nisu uveli. Ako prodajete u cijeloj regiji, ne možete na sve primijeniti jednu stopu."
+    },
+    {
+      "q": "Što je Fatoora?",
+      "a": "Fatoora je program e-računa koji provodi ZATCA. Faza 1, izrada, primjenjuje se na sve porezne obveznike rezidente od 4. prosinca 2021. Faza 2, integracija sa sustavima ZATCA-e, počela je 1. siječnja 2023. i uvodi se u valovima prema veličini poreznog obveznika, uz najmanje šest mjeseci najave za svaki val."
+    },
+    {
+      "q": "Mora li saudijski porezni račun biti na arapskom?",
+      "a": "Da. Članak 53. stavak 5. traži sadržaj računa na arapskom i dopušta da se dodatno prikaže drugi jezik kao prijevod. Dvojezični račun je usklađen s propisima, a račun samo na engleskom nije."
+    },
+    {
+      "q": "Koja dodatna polja traži faza 2?",
+      "a": "Osim sadržaja iz članka 53., elektronički račun u fazi integracije sadrži UUID, hash prethodnog računa, QR kôd, kriptografski pečat i brojač otporan na neovlaštene izmjene. Njih izrađuje usklađeni softver, a ne upisuje ih osoba."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Ispravno fakturirajte u Saudijskoj Arabiji, besplatno",
+  "ctaSub": "Sami postavite stopu, držite arapski i engleski na jednom dokumentu i ispravljajte pogreške knjižnim odobrenjima umjesto izmjenama.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, treća verzija, odjeljci 3.2 i 3.3",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, članak 53.",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Odluka o provedbi e-računa, Governor's Decision 62738, i stranice ZATCA-e o e-računima",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "hr",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Proizvodnja",
+  "metaTitle": "Softver za proizvodnju i upravljanje pogonom · Paper & Pen",
+  "metaDescription": "Planirajte proizvodnju sastavnicama, radnim nalozima i stvarnim troškovima. Trošite sirovine, izrađujte gotove proizvode i znajte pravu maržu, bilo gdje.",
+  "keywords": "softver za proizvodnju, upravljanje proizvodnjom, sastavnica, bom, radni nalozi, kalkulacija proizvodnje, gotovi proizvodi",
+  "heroEyebrow": "Dodatni modul",
+  "heroTitle": "Proizvodite po narudžbi, <em class=\"text-copper-400 not-italic\">s troškom do rijala</em>",
+  "heroSubtitle": "Pretvorite sirovine u gotove proizvode pomoću sastavnica i radnih naloga, dok Paper & Pen prati trošak svake komponente kako biste uvijek znali stvarnu maržu.",
+  "heroBullets": ["Sastavnice i radni nalozi", "Automatsko trošenje zaliha", "Stvarna kalkulacija proizvodnje"],
+  "features": [
+    { "icon": "manufacturing", "title": "Sastavnice", "desc": "Odredite što ulazi u svaki proizvod, s količinama i podsklopovima." },
+    { "icon": "doc", "title": "Radni nalozi", "desc": "Planirajte i pratite proizvodne serije od sirovina do gotove robe na zalihi." },
+    { "icon": "inventory", "title": "Automatska kretanja zaliha", "desc": "Sirovine se troše, a gotovi proizvodi dodaju dok proizvodite." },
+    { "icon": "calc", "title": "Kalkulacija proizvodnje", "desc": "Zbrojite trošak materijala i režija u točnu vrijednost gotovih proizvoda." },
+    { "icon": "chart", "title": "Pregled marže", "desc": "Usporedite trošak proizvodnje s prodajnom cijenom i vidite stvarnu maržu po artiklu." },
+    { "icon": "refresh", "title": "Povezano od početka do kraja", "desc": "Povežite nabavu, zalihe i prodaju u jedan neprekinut tijek." }
+  ],
+  "sections": [
+    { "eyebrow": "Planirajte sigurno", "title": "Od recepture do gotovog proizvoda", "body": "Jednom definirajte sastavnicu i Paper & Pen točno zna što svaka izrada troši. Otvorite radni nalog i sirovine se rezerviraju i troše, a gotovi proizvodi dodaju u zalihe, dok se cijela kalkulacija radi umjesto vas.", "items": ["Sastavnice za višekratnu upotrebu", "Radni nalozi s rezervacijom zaliha", "Automatsko trošenje i zaprimanje gotovih proizvoda"] },
+    { "eyebrow": "Znajte stvarnu maržu", "title": "Kalkulacija koja govori istinu", "body": "Nagađati trošak znači nagađati dobit. Paper & Pen zbraja materijal i režije u stvarni trošak gotovog proizvoda, knjiži ga u vaše knjige i prikazuje maržu na svakoj prodaji. Radi u bilo kojoj valuti, pa možete nabavljati i prodavati preko granica.", "items": ["Kalkulacija materijala i režija", "Automatsko knjiženje u računovodstvo", "Marža po proizvodu i po narudžbi"] }
+  ],
+  "faqs": [
+    { "q": "Je li proizvodnja besplatna?", "a": "Proizvodnja je neobavezan, plaćeni dodatni modul. Osnovni modul Prodaja i fakturiranje zauvijek je besplatan, a Proizvodnju dodajete kad proizvodite robu." },
+    { "q": "Mogu li definirati sastavnice?", "a": "Da. Izradite sastavnicu (BOM) za svaki proizvod, uključujući podsklopove, i koristite je u svakoj proizvodnoj seriji." },
+    { "q": "Troši li zalihe automatski?", "a": "Da. Kad obradite radni nalog, sirovine se troše, a gotovi proizvodi automatski dodaju u zalihe." },
+    { "q": "Kako se računa trošak proizvodnje?", "a": "Troškovi materijala i režija zbrajaju se u vrijednost gotovih proizvoda, koja se knjiži u računovodstvo kako bi vaše marže bile točne." },
+    { "q": "Radi li s bilo kojom valutom?", "a": "Da. Nabavljajte materijale i prodajite gotove proizvode u bilo kojoj valuti, uz usklađenu kalkulaciju i računovodstvo." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Točan trošak svake izrade",
+  "ctaSub": "Počnite besplatno s fakturiranjem i dodajte Proizvodnju kako biste planirali proizvodnju i znali stvarnu maržu."
+}
