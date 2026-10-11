@@ -2,34 +2,101 @@
   "locale": "de",
   "slug": "salons",
   "order": 5,
-  "title": "Salons & Spas",
+  "title": "Friseure, Salons & Spas",
   "metaTitle": "Software für Salons: Abrechnung, Personal, Lager | Paper & Pen",
   "metaDescription": "Kostenlose Abrechnung plus Produktlager, Lohnabrechnung und Kundenhistorie für Salons, Spas und Kliniken. Leistungen schnell abrechnen, Personal bezahlen.",
   "keywords": "Salonsoftware, Friseursoftware, Kassensystem Friseur, Software für Kosmetikstudio, Spa Abrechnung, Provision Mitarbeiter, Produktlager Salon, Kundenkartei",
   "heroEyebrow": "Für Salons, Spas & Kliniken",
   "heroTitle": "Leistungen schnell abrechnen, <em class=\"text-copper-400 not-italic\">Kunden nah bleiben</em>",
   "heroSubtitle": "Rechnen Sie Leistungen und Verkaufsprodukte in Sekunden ab, verfolgen Sie die verwendeten Produkte und bezahlen Sie Ihr Personal, mit automatisch berechneter Provision. Paper & Pen führt Empfang, Lager und Bücher zusammen.",
-  "heroBullets": ["Kostenlose, schnelle Abrechnung von Leistungen", "Lager für Verkaufsprodukte", "Lohnabrechnung und Provision für Mitarbeitende"],
+  "heroBullets": [
+    "Kostenlose, schnelle Abrechnung von Leistungen",
+    "Lager für Verkaufsprodukte",
+    "Lohnabrechnung und Provision für Mitarbeitende"
+  ],
   "features": [
-    { "icon": "receipt", "title": "Schnelle Abrechnung", "desc": "Leistungen und Verkaufsprodukte hinzufügen, Zahlung annehmen und in Sekunden eine Quittung teilen." },
-    { "icon": "users", "title": "Kundenhistorie", "desc": "Kontaktdaten und frühere Besuche speichern, damit sich jeder Kunde erinnert fühlt." },
-    { "icon": "inventory", "title": "Produktbestand", "desc": "Verkaufs- und Behandlungsprodukte nach Einheit und Charge verfolgen, mit Warnungen bei niedrigem Bestand." },
-    { "icon": "hr", "title": "Personal & Provision", "desc": "Lohn abrechnen und die Provision des Personals auf Leistungen und Produktverkäufe berechnen." },
-    { "icon": "whatsapp", "title": "Quittungen per WhatsApp", "desc": "Quittungen und Nachrichten zum Nachfassen mit einem Tippen per WhatsApp an Kunden senden." },
-    { "icon": "chart", "title": "Leistungsberichte", "desc": "Top-Leistungen, Stoßzeiten und Umsatz nach Mitarbeitendem oder Filiale sehen." }
+    {
+      "icon": "receipt",
+      "title": "Schnelle Abrechnung",
+      "desc": "Leistungen und Verkaufsprodukte hinzufügen, Zahlung annehmen und in Sekunden eine Quittung teilen."
+    },
+    {
+      "icon": "users",
+      "title": "Kundenhistorie",
+      "desc": "Kontaktdaten und frühere Besuche speichern, damit sich jeder Kunde erinnert fühlt."
+    },
+    {
+      "icon": "inventory",
+      "title": "Produktbestand",
+      "desc": "Verkaufs- und Behandlungsprodukte nach Einheit und Charge verfolgen, mit Warnungen bei niedrigem Bestand."
+    },
+    {
+      "icon": "hr",
+      "title": "Personal & Provision",
+      "desc": "Lohn abrechnen und die Provision des Personals auf Leistungen und Produktverkäufe berechnen."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Quittungen per WhatsApp",
+      "desc": "Quittungen und Nachrichten zum Nachfassen mit einem Tippen per WhatsApp an Kunden senden."
+    },
+    {
+      "icon": "chart",
+      "title": "Leistungsberichte",
+      "desc": "Top-Leistungen, Stoßzeiten und Umsatz nach Mitarbeitendem oder Filiale sehen."
+    }
   ],
   "sections": [
-    { "eyebrow": "Ein reibungsloser Empfang", "title": "Eine Abrechnung, die Ihre Kunden schätzen", "body": "Fügen Sie die Leistungen und eventuelle Verkaufsprodukte einer Rechnung hinzu, gewähren Sie einen Rabatt oder ein Paket, nehmen Sie die Zahlung an und teilen Sie eine saubere Quittung per WhatsApp, bevor der Kunde den Stuhl verlassen hat. Kundendaten und Besuchshistorie stehen auf demselben Bildschirm, damit das Team Stammkunden mit Namen begrüßen und die passende Folgebehandlung empfehlen kann.", "items": ["Leistungen und Verkaufsprodukte auf einer Rechnung", "Quittungen sofort per WhatsApp geteilt", "Kontaktdaten und Besuchshistorie griffbereit"] },
-    { "eyebrow": "Lager und Personal geregelt", "title": "Produkte verfolgt, Personal richtig bezahlt", "body": "Behandlungsprodukte verschwinden, wenn niemand hinsieht. Paper & Pen verfolgt Verkaufs- und Profiprodukte nach Einheit und Charge, meldet niedrige Bestände und verknüpft den Verbrauch mit dem Verkauf. Rechnen Sie den Lohn für Ihr Team ab und lassen Sie das System die Provision auf die Leistungen und Produkte berechnen, die jeder verkauft. Entwickelt in Oman mit nativer Unterstützung für OMR, AED und SAR sowie 5% MwSt., und bereit für USD, EUR oder jeden Markt und Steuersatz.", "items": ["Verkaufs- und Behandlungsprodukte mit Warnungen", "Lohnabrechnung mit automatischer Provision", "Jede Währung, jeder Steuersatz, bereit für MwSt."] }
+    {
+      "eyebrow": "Ein reibungsloser Empfang",
+      "title": "Eine Abrechnung, die Ihre Kunden schätzen",
+      "body": "Fügen Sie die Leistungen und eventuelle Verkaufsprodukte einer Rechnung hinzu, gewähren Sie einen Rabatt oder ein Paket, nehmen Sie die Zahlung an und teilen Sie eine saubere Quittung per WhatsApp, bevor der Kunde den Stuhl verlassen hat. Kundendaten und Besuchshistorie stehen auf demselben Bildschirm, damit das Team Stammkunden mit Namen begrüßen und die passende Folgebehandlung empfehlen kann.",
+      "items": [
+        "Leistungen und Verkaufsprodukte auf einer Rechnung",
+        "Quittungen sofort per WhatsApp geteilt",
+        "Kontaktdaten und Besuchshistorie griffbereit"
+      ]
+    },
+    {
+      "eyebrow": "Lager und Personal geregelt",
+      "title": "Produkte verfolgt, Personal richtig bezahlt",
+      "body": "Behandlungsprodukte verschwinden, wenn niemand hinsieht. Paper & Pen verfolgt Verkaufs- und Profiprodukte nach Einheit und Charge, meldet niedrige Bestände und verknüpft den Verbrauch mit dem Verkauf. Rechnen Sie den Lohn für Ihr Team ab und lassen Sie das System die Provision auf die Leistungen und Produkte berechnen, die jeder verkauft. Entwickelt in Oman mit nativer Unterstützung für OMR, AED und SAR sowie 5% MwSt., und bereit für USD, EUR oder jeden Markt und Steuersatz.",
+      "items": [
+        "Verkaufs- und Behandlungsprodukte mit Warnungen",
+        "Lohnabrechnung mit automatischer Provision",
+        "Jede Währung, jeder Steuersatz, bereit für MwSt."
+      ]
+    }
   ],
   "faqs": [
-    { "q": "Kann ich Leistungen und Verkaufsprodukte zusammen abrechnen?", "a": "Ja. Fügen Sie einer Rechnung jede Mischung aus Leistungen und Verkaufsprodukten hinzu, gewähren Sie Rabatte oder Pakete, nehmen Sie die Zahlung an und teilen Sie sofort eine Quittung." },
-    { "q": "Kann ich die Provision für das Personal berechnen?", "a": "Ja. Das Modul Personal & Lohn berechnet die Provision auf die Leistungen und Produkte, die jede Person verkauft, und rechnet ihren Lohn ab." },
-    { "q": "Wird die Kundenhistorie gespeichert?", "a": "Ja. Speichern Sie Kontaktdaten und frühere Besuche, damit Ihr Team Stammkunden erkennt und die passende Folgeleistung empfiehlt." },
-    { "q": "Kann ich den Produktbestand verfolgen?", "a": "Ja. Verfolgen Sie mit dem Modul Lager Verkaufs- und Behandlungsprodukte nach Einheit und Charge, mit Warnungen bei niedrigem Bestand." },
-    { "q": "Ist die Abrechnung für einen Salon kostenlos?", "a": "Vertrieb & Rechnungen, einschließlich Quittungen und Kundendaten, ist für immer kostenlos. Fügen Sie Lager und Personal & Lohn für Bestand und Provision hinzu." }
+    {
+      "q": "Kann ich Leistungen und Verkaufsprodukte zusammen abrechnen?",
+      "a": "Ja. Fügen Sie einer Rechnung jede Mischung aus Leistungen und Verkaufsprodukten hinzu, gewähren Sie Rabatte oder Pakete, nehmen Sie die Zahlung an und teilen Sie sofort eine Quittung."
+    },
+    {
+      "q": "Kann ich die Provision für das Personal berechnen?",
+      "a": "Ja. Das Modul Personal & Lohn berechnet die Provision auf die Leistungen und Produkte, die jede Person verkauft, und rechnet ihren Lohn ab."
+    },
+    {
+      "q": "Wird die Kundenhistorie gespeichert?",
+      "a": "Ja. Speichern Sie Kontaktdaten und frühere Besuche, damit Ihr Team Stammkunden erkennt und die passende Folgeleistung empfiehlt."
+    },
+    {
+      "q": "Kann ich den Produktbestand verfolgen?",
+      "a": "Ja. Verfolgen Sie mit dem Modul Lager Verkaufs- und Behandlungsprodukte nach Einheit und Charge, mit Warnungen bei niedrigem Bestand."
+    },
+    {
+      "q": "Ist die Abrechnung für einen Salon kostenlos?",
+      "a": "Vertrieb & Rechnungen, einschließlich Quittungen und Kundendaten, ist für immer kostenlos. Fügen Sie Lager und Personal & Lohn für Bestand und Provision hinzu."
+    }
   ],
-  "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
+  "related": [
+    "/features/hr-payroll",
+    "/features/inventory",
+    "/invoicing/payment-receipts",
+    "/invoicing/share-whatsapp-email",
+    "/pricing"
+  ],
   "ctaTitle": "Führen Sie den Salon, nicht den Papierkram",
   "ctaSub": "Starten Sie kostenlos mit der Abrechnung von Leistungen und Kundendaten und fügen Sie dann Lager und Lohn für Bestand und Provision hinzu."
 }

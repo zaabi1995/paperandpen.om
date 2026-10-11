@@ -2,34 +2,101 @@
   "locale": "pt",
   "slug": "freelancers",
   "order": 1,
-  "title": "Freelancers",
+  "title": "Profissionais autônomos",
   "metaTitle": "Software de faturamento grátis para freelancers · Paper & Pen",
   "metaDescription": "Faturas, orçamentos e links de pagamento profissionais e grátis para freelancers do mundo todo. Fature em qualquer moeda, controle despesas e receba online.",
   "keywords": "fatura para freelancer, software de faturamento grátis para freelancers, cobrança para autônomos, receber pagamento online, fatura em dólar, controle de despesas de freelancer",
   "heroEyebrow": "Para freelancers e profissionais autônomos",
   "heroTitle": "Passe uma imagem profissional e <em class=\"text-copper-400 not-italic\">receba mais rápido</em>",
   "heroSubtitle": "Envie faturas e orçamentos caprichados, receba online e mantenha seus números em ordem sem contador. O Paper & Pen dá a quem trabalha sozinho as ferramentas que as grandes empresas usam, grátis para sempre.",
-  "heroBullets": ["Faturas profissionais grátis", "Receba online", "Qualquer moeda, qualquer cliente"],
+  "heroBullets": [
+    "Faturas profissionais grátis",
+    "Receba online",
+    "Qualquer moeda, qualquer cliente"
+  ],
   "features": [
-    { "icon": "invoice", "title": "Faturas profissionais", "desc": "Envie faturas limpas e com a sua marca, que fazem você ser levado a sério e receber antes." },
-    { "icon": "quote", "title": "Orçamentos que fecham", "desc": "Envie um orçamento organizado e transforme o aprovado em fatura com um clique." },
-    { "icon": "card", "title": "Receba online", "desc": "Adicione um link de pagamento para o cliente pagar com cartão assim que abrir a fatura." },
-    { "icon": "refresh", "title": "Faturas recorrentes", "desc": "Coloque fees e clientes mensais no piloto automático para a cobrança nunca atrasar." },
-    { "icon": "bell", "title": "Lembretes de pagamento", "desc": "Lembretes automáticos e educados cobram quem atrasa para você não precisar." },
-    { "icon": "globe", "title": "Qualquer moeda", "desc": "Fature clientes no exterior em USD, EUR, GBP, AED ou SAR, com as casas decimais corretas." }
+    {
+      "icon": "invoice",
+      "title": "Faturas profissionais",
+      "desc": "Envie faturas limpas e com a sua marca, que fazem você ser levado a sério e receber antes."
+    },
+    {
+      "icon": "quote",
+      "title": "Orçamentos que fecham",
+      "desc": "Envie um orçamento organizado e transforme o aprovado em fatura com um clique."
+    },
+    {
+      "icon": "card",
+      "title": "Receba online",
+      "desc": "Adicione um link de pagamento para o cliente pagar com cartão assim que abrir a fatura."
+    },
+    {
+      "icon": "refresh",
+      "title": "Faturas recorrentes",
+      "desc": "Coloque fees e clientes mensais no piloto automático para a cobrança nunca atrasar."
+    },
+    {
+      "icon": "bell",
+      "title": "Lembretes de pagamento",
+      "desc": "Lembretes automáticos e educados cobram quem atrasa para você não precisar."
+    },
+    {
+      "icon": "globe",
+      "title": "Qualquer moeda",
+      "desc": "Fature clientes no exterior em USD, EUR, GBP, AED ou SAR, com as casas decimais corretas."
+    }
   ],
   "sections": [
-    { "eyebrow": "Conquiste o trabalho", "title": "Do orçamento ao pagamento, tudo em um só lugar", "body": "Um orçamento claro conquista confiança, e uma fatura limpa faz você receber. Envie um orçamento com a sua marca, converta o aprovado em fatura sem redigitar e inclua um link de pagamento para o cliente pagar online em segundos. Configure faturas recorrentes para os fees e deixe lembretes educados cobrarem quem esquecer. Você gasta seu tempo no trabalho, não na burocracia.", "items": ["Orçamentos e faturas com a sua marca em minutos", "Links de pagamento online já incluídos", "Faturas recorrentes e lembretes automáticos"] },
-    { "eyebrow": "Sempre em dia com os impostos", "title": "Números que se cuidam sozinhos", "body": "Controle despesas, registre pagamentos e mantenha cada documento em um só lugar, para que na hora dos impostos não haja nada para procurar. O Paper & Pen funciona em qualquer moeda para clientes em qualquer lugar, aplica qualquer alíquota que você precisar e foi feito em Omã, com OMR, AED e SAR nativos e IVA configurável para freelancers do GCC. O faturamento é grátis para sempre, então um negócio de uma pessoa só não paga nada para ter uma imagem profissional.", "items": ["Controle de despesas e pagamentos", "Qualquer alíquota, qualquer moeda", "Faturamento grátis para sempre"] }
+    {
+      "eyebrow": "Conquiste o trabalho",
+      "title": "Do orçamento ao pagamento, tudo em um só lugar",
+      "body": "Um orçamento claro conquista confiança, e uma fatura limpa faz você receber. Envie um orçamento com a sua marca, converta o aprovado em fatura sem redigitar e inclua um link de pagamento para o cliente pagar online em segundos. Configure faturas recorrentes para os fees e deixe lembretes educados cobrarem quem esquecer. Você gasta seu tempo no trabalho, não na burocracia.",
+      "items": [
+        "Orçamentos e faturas com a sua marca em minutos",
+        "Links de pagamento online já incluídos",
+        "Faturas recorrentes e lembretes automáticos"
+      ]
+    },
+    {
+      "eyebrow": "Sempre em dia com os impostos",
+      "title": "Números que se cuidam sozinhos",
+      "body": "Controle despesas, registre pagamentos e mantenha cada documento em um só lugar, para que na hora dos impostos não haja nada para procurar. O Paper & Pen funciona em qualquer moeda para clientes em qualquer lugar, aplica qualquer alíquota que você precisar e foi feito em Omã, com OMR, AED e SAR nativos e IVA configurável para freelancers do GCC. O faturamento é grátis para sempre, então um negócio de uma pessoa só não paga nada para ter uma imagem profissional.",
+      "items": [
+        "Controle de despesas e pagamentos",
+        "Qualquer alíquota, qualquer moeda",
+        "Faturamento grátis para sempre"
+      ]
+    }
   ],
   "faqs": [
-    { "q": "É grátis mesmo para freelancers?", "a": "Sim. Faturas, orçamentos, recibos e controle de pagamentos são grátis para sempre, sem marca d'água e sem limite. Você só paga se adicionar módulos como Contabilidade ou Estoque, que a maioria dos freelancers nunca precisa." },
-    { "q": "Posso faturar clientes do exterior?", "a": "Sim. Fature em USD, EUR, GBP, AED, SAR ou qualquer moeda, com as casas decimais corretas e qualquer alíquota, para trabalhar com clientes em qualquer lugar do mundo." },
-    { "q": "Como os clientes me pagam?", "a": "Adicione um link de pagamento à sua fatura e o cliente pode pagar com cartão online assim que abrir. Você também pode registrar transferências bancárias e dinheiro." },
-    { "q": "Posso automatizar os fees mensais?", "a": "Sim. Configure faturas recorrentes para clientes mensais e fees, e deixe lembretes automáticos cobrarem os pagamentos atrasados para você." },
-    { "q": "Preciso saber contabilidade?", "a": "Não. O faturamento é simples o bastante para começar em minutos. Suas despesas e pagamentos são registrados para você, que fica em dia com os impostos sem precisar de contador." }
+    {
+      "q": "É grátis mesmo para freelancers?",
+      "a": "Sim. Faturas, orçamentos, recibos e controle de pagamentos são grátis para sempre, sem marca d'água e sem limite. Você só paga se adicionar módulos como Contabilidade ou Estoque, que a maioria dos freelancers nunca precisa."
+    },
+    {
+      "q": "Posso faturar clientes do exterior?",
+      "a": "Sim. Fature em USD, EUR, GBP, AED, SAR ou qualquer moeda, com as casas decimais corretas e qualquer alíquota, para trabalhar com clientes em qualquer lugar do mundo."
+    },
+    {
+      "q": "Como os clientes me pagam?",
+      "a": "Adicione um link de pagamento à sua fatura e o cliente pode pagar com cartão online assim que abrir. Você também pode registrar transferências bancárias e dinheiro."
+    },
+    {
+      "q": "Posso automatizar os fees mensais?",
+      "a": "Sim. Configure faturas recorrentes para clientes mensais e fees, e deixe lembretes automáticos cobrarem os pagamentos atrasados para você."
+    },
+    {
+      "q": "Preciso saber contabilidade?",
+      "a": "Não. O faturamento é simples o bastante para começar em minutos. Suas despesas e pagamentos são registrados para você, que fica em dia com os impostos sem precisar de contador."
+    }
   ],
-  "related": ["/invoicing/invoices", "/invoicing/recurring-invoices", "/free-invoicing-software", "/use-cases/agencies", "/pricing"],
+  "related": [
+    "/invoicing/invoices",
+    "/invoicing/recurring-invoices",
+    "/free-invoicing-software",
+    "/use-cases/agencies",
+    "/pricing"
+  ],
   "ctaTitle": "Comece a faturar em minutos",
   "ctaSub": "Crie um espaço de trabalho grátis, envie hoje sua primeira fatura profissional e receba online."
 }
