@@ -1,0 +1,35 @@
+{
+  "locale": "no",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Regnskap",
+  "metaTitle": "Regnskapsprogram på nett · Automatisk bokføring · Paper & Pen",
+  "metaDescription": "Dobbelt bokføring som fører seg selv. Resultat og balanse i sanntid, MVA-meldinger, bankavstemming, alle valutaer og skatter. Fungerer over hele verden.",
+  "keywords": "regnskapsprogram, bokføring på nett, dobbelt bokføring, balanse, resultatregnskap, mva-melding, bankavstemming, hovedbok",
+  "heroEyebrow": "Tilleggsmodul",
+  "heroTitle": "Et regnskap som <em class=\"text-copper-400 not-italic\">går opp av seg selv</em>",
+  "heroSubtitle": "Hver faktura, betaling og innkjøp føres automatisk i en ordentlig hovedbok med dobbelt bokføring. Se resultat, balanse og skatteposisjon i sanntid uten å åpne et regneark.",
+  "heroBullets": ["Automatisk dobbelt bokføring, ingen manuelle bilag", "Resultat og balanse i sanntid", "MVA-meldinger med ett klikk"],
+  "features": [
+    { "icon": "accounting", "title": "Automatisk bokføring", "desc": "Salg, betalinger og utgifter føres i hovedboken i det de skjer." },
+    { "icon": "chart", "title": "Oppdaterte regnskapstall", "desc": "Resultatregnskap, balanse og kontantstrøm, alltid oppdatert." },
+    { "icon": "calc", "title": "MVA- og skattemeldinger", "desc": "Følg inngående og utgående MVA og lag en melding klar til innsending med ett klikk." },
+    { "icon": "refresh", "title": "Bankavstemming", "desc": "Koble banklinjer mot fakturaer og betalinger så regnskapet holdes ryddig." },
+    { "icon": "doc", "title": "Komplette hovedbøker", "desc": "Gå fra hvilken som helst rapport ned til kildedokumentet og bilaget." },
+    { "icon": "globe", "title": "Flere valutaer", "desc": "Bokfør i hvilken som helst valuta med automatisk beregning av valutagevinst og valutatap." }
+  ],
+  "sections": [
+    { "eyebrow": "Ingen regnskapsfører nødvendig", "title": "Regnskap som går i bakgrunnen", "body": "Du skal ikke måtte være regnskapsfører for å vite om du går med overskudd. Fordi fakturering, betalinger og lager mater den samme hovedboken, blir regnskapet riktig uten manuelle bilag. Åpne dashbordet, så ser du resultat, kundefordringer og skatt med en gang.", "items": ["Dobbelt bokføring ordnes for deg", "Hver rapport leder til kildedokumentet", "Revisjonsspor på hver postering"] },
+    { "eyebrow": "Laget for alle skattesystemer", "title": "Skatt og regeletterlevelse, uansett hvor du driver", "body": "Sett opp skattesatser og kontoer for ditt land, også justerbar MVA for Gulfstatene, så følger Paper & Pen inngående og utgående MVA for deg. Lag en melding klar til innsending, avstem banken og lukk perioden med trygghet, i hvilken som helst valuta.", "items": ["Justerbar skatt for alle land", "MVA-meldinger klare til innsending", "Bankavstemming og periodeavslutning"] }
+  ],
+  "faqs": [
+    { "q": "Må jeg kunne regnskap for å bruke det?", "a": "Nei. Posteringene føres automatisk fra fakturaene, betalingene og innkjøpene dine, så du får et korrekt regnskap med dobbelt bokføring uten å føre bilag selv." },
+    { "q": "Er regnskapet gratis?", "a": "Regnskap er et valgfritt betalt tillegg. Salg og fakturering er gratis for alltid, og du slår på Regnskap når du vil ha fullstendige regnskapsrapporter." },
+    { "q": "Kan det lage MVA-meldinger?", "a": "Ja. Det følger inngående og utgående MVA (for eksempel justerbar MVA i Gulfstatene, eller hvilken som helst sats du setter) og lager en melding klar til innsending." },
+    { "q": "Håndterer det flere valutaer?", "a": "Ja. Bokfør og rapporter i hvilken som helst valuta, med automatisk valutagevinst og valutatap." },
+    { "q": "Kan jeg avstemme banken?", "a": "Ja. Importer eller koble banklinjer mot fakturaer og betalinger, så hovedboken alltid er avstemt." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Få et korrekt regnskap, automatisk",
+  "ctaSub": "Start gratis med fakturering og slå på Regnskap for regnskapsrapporter og skattemeldinger i sanntid."
+}

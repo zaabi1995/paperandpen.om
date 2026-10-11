@@ -1,0 +1,35 @@
+{
+  "locale": "no",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Fakturering",
+  "metaTitle": "Funksjoner for fakturahåndtering | Paper & Pen ERP",
+  "metaDescription": "Utforsk fakturaoppfølging, nettbetaling, påminnelser, justerbar skatt, fem språk og arbeidsflyter i flere valutaer i Paper & Pen ERP.",
+  "keywords": "faktureringsprogram, gratis fakturering, faktura på nett, sende faktura, nettbetaling, mva-faktura, gjentakende faktura, betalingspåminnelse",
+  "heroEyebrow": "Gratis for alltid",
+  "heroTitle": "Fakturering som gir deg <em class=\"text-copper-400 not-italic\">betalt raskere</em>",
+  "heroSubtitle": "Lag en pen faktura på under ett minutt, send den på e-post eller WhatsApp og la kunden betale på nett. Laget for alle valutaer og alle skattesatser, brukt over hele verden.",
+  "heroBullets": ["Salg og fakturering gratis for alltid", "Alle valutaer, alle skattesatser", "Betalingslenke på hver faktura"],
+  "features": [
+    { "icon": "bolt", "title": "Faktura på sekunder", "desc": "Velg en kunde, legg til varer og trykk send. Summer og skatt regnes ut mens du skriver." },
+    { "icon": "globe", "title": "Alle valutaer", "desc": "Fakturer i OMR, AED, SAR, USD, EUR, GBP eller hvilken som helst valuta med riktige desimaler." },
+    { "icon": "card", "title": "Få betalt på nett", "desc": "Hver faktura har en sikker betalingslenke, så kundene betaler med kort med ett trykk." },
+    { "icon": "bell", "title": "Automatiske påminnelser", "desc": "Vennlige, planlagte påminnelser følger opp forfalte fakturaer, så du slipper." },
+    { "icon": "refresh", "title": "Gjentakende fakturaer", "desc": "Sett opp faste avtaler og abonnementer som faktureres automatisk, ukentlig eller månedlig." },
+    { "icon": "calc", "title": "Klar for MVA og skatt", "desc": "Bruk hvilken som helst MVA- eller omsetningsavgiftssats, beregnet på nettobeløpet etter rabatt." }
+  ],
+  "sections": [
+    { "eyebrow": "Laget for hele verden", "title": "Ett faktureringsverktøy for alle markeder", "body": "Enten du fakturerer i dollar fra New York eller i rial fra Muscat, håndterer Paper & Pen valutaen, desimalene og skattereglene for deg. Bytt grensesnittet mellom engelsk, arabisk, hindi, bengali og urdu, så hele teamet jobber på sitt eget språk.", "items": ["Flere valutaer med riktig formatering", "Justerbar skatt for alle land", "Arabisk først, fakturaer fullt ut fra høyre mot venstre"] },
+    { "eyebrow": "Fra tilbud til penger", "title": "Fakturering i et komplett ERP-system", "body": "Fakturaene dine lever ikke i en egen boble. Gjør et vunnet tilbud om til faktura med ett klikk, registrer betalingen og se den føres i regnskapet automatisk. Når du vokser, venter lager, regnskap og lønn allerede i det samme arbeidsområdet.", "items": ["Tilbud til faktura med ett klikk", "Betalinger avstemmes mot hovedboken", "Aldri dobbeltregistrering"] }
+  ],
+  "faqs": [
+    { "q": "Er faktureringen virkelig gratis?", "a": "Ja. Salg og fakturering er gratis for alltid, uten grense på antall fakturaer eller kunder. Du betaler bare hvis du legger til valgfrie moduler som Lager eller Lønn." },
+    { "q": "Kan kundene betale fakturaen på nett?", "a": "Ja. Hver faktura kan ha en sikker betalingslenke drevet av Paymob og andre betalingsløsninger, så kundene betaler med kort og betalingen avstemmes automatisk." },
+    { "q": "Støtter det MVA og andre skatter?", "a": "Ja. Sett hvilken som helst sats, også justerbar MVA for Gulfstatene, eller det som gjelder i ditt land. Skatten beregnes på nettobeløpet etter eventuell rabatt." },
+    { "q": "Kan jeg sende fakturaer på arabisk?", "a": "Ja. Hele grensesnittet og faktura-PDF-en kan være på arabisk, fullt ut fra høyre mot venstre, i tillegg til engelsk, hindi, bengali og urdu." },
+    { "q": "Kan jeg automatisere gjentakende fakturering?", "a": "Ja. Lag en gjentakende faktura for faste avtaler eller abonnementer, så utsteder og sender Paper & Pen den etter planen." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Send din første faktura gratis",
+  "ctaSub": "Opprett et gratis arbeidsområde og fakturer din første kunde på få minutter. Ikke noe kort, gratis for alltid."
+}

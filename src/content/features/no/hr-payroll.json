@@ -1,0 +1,35 @@
+{
+  "locale": "no",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "HR og lønn",
+  "metaTitle": "HR- og lønnssystem · Kjør lønn enkelt · Paper & Pen",
+  "metaDescription": "Håndter ansatte, fremmøte, fravær og lønnsslipper på ett sted. Kjør lønn i alle valutaer, før lønn i regnskapet og vær klar for sluttoppgjør.",
+  "keywords": "hr-system, lønnssystem, lønnsslipp, fremmøte, fraværsstyring, sluttoppgjør, lønnskjøring, personalsystem",
+  "heroEyebrow": "Tilleggsmodul",
+  "heroTitle": "Betal teamet ditt <em class=\"text-copper-400 not-italic\">riktig</em>, hver gang",
+  "heroSubtitle": "Ansatte, fremmøte, fravær og lønn i én ryddig modul. Kjør en lønnsperiode, lag lønnsslipper og før lønn i regnskapet på minutter, ikke dager.",
+  "heroBullets": ["Kjør lønn på minutter", "Lønnsslipper og fravær på selvbetjening", "Føres rett i regnskapet"],
+  "features": [
+    { "icon": "hr", "title": "Ansattregister", "desc": "Én profil per person: kontrakt, lønn, dokumenter og historikk." },
+    { "icon": "clock", "title": "Fremmøte og overtid", "desc": "Registrer skift, overtid og fravær som går rett inn i lønnen." },
+    { "icon": "doc", "title": "Fraværsstyring", "desc": "Sett fraværsregler, godkjenn søknader og følg saldoer automatisk." },
+    { "icon": "receipt", "title": "Lønnsslipper", "desc": "Lag tydelige, spesifiserte lønnsslipper og del dem med hver ansatt." },
+    { "icon": "calc", "title": "Trekk og sluttoppgjør", "desc": "Håndter lån, trekk og beregning av sluttoppgjør riktig." },
+    { "icon": "accounting", "title": "Føres i regnskapet", "desc": "Hver lønnskjøring fører lønn og avsetninger i regnskapet automatisk." }
+  ],
+  "sections": [
+    { "eyebrow": "Mindre administrasjon", "title": "Fra fremmøte til lønnsslipp uten regneark", "body": "Fremmøte, overtid, fravær og lån går rett inn i lønnskjøringen, så du slipper å lappe sammen regneark ved månedsslutt. Godkjenn perioden én gang, så lager Paper & Pen alle lønnsslippene og lønnsbilaget på en gang.", "items": ["Fremmøte og overtid går inn i lønnen", "Lån og trekk håndteres", "Lønnsslipper lages samlet"] },
+    { "eyebrow": "Uansett hvor du har ansatte", "title": "Lønn som passer ditt land og din valuta", "body": "Betal ansatte i hvilken som helst valuta, og sett opp tillegg, trekk og regler for sluttoppgjør som gjelder der du driver. Med grensesnitt på arabisk, engelsk, hindi, bengali og urdu kan teamet lese sine egne lønnsslipper og søke om fri på sitt eget språk.", "items": ["Lønn i alle valutaer", "Justerbare tillegg og trekk", "Klar for sluttoppgjør"] }
+  ],
+  "faqs": [
+    { "q": "Er HR og lønn gratis?", "a": "Det er et valgfritt betalt tillegg. Kjernen som er gratis for alltid dekker Salg og fakturering, og du legger til HR og lønn når du trenger å håndtere ansatte og lønn." },
+    { "q": "Kan jeg kjøre lønn i hvilken som helst valuta?", "a": "Ja. Betal teamet i OMR, AED, SAR, USD, EUR eller hvilken som helst valuta, med tillegg og trekk satt opp etter dine regler." },
+    { "q": "Håndterer det fremmøte og fravær?", "a": "Ja. Registrer fremmøte og overtid, sett fraværsregler, godkjenn søknader og følg saldoer, og alt går inn i lønnen." },
+    { "q": "Føres lønnen i regnskapet?", "a": "Ja. Hver kjøring fører lønn, tillegg og avsetninger i hovedboken automatisk når Regnskap er slått på." },
+    { "q": "Kan det beregne sluttoppgjør?", "a": "Ja. Sett opp regler for sluttoppgjør og fratredelsesgodtgjørelse for ditt land, så blir sluttoppgjørene beregnet riktig." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Gjør lønningsdagen smertefri",
+  "ctaSub": "Start gratis med fakturering og legg til HR og lønn for å håndtere teamet og kjøre lønn på minutter."
+}

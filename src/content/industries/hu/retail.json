@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "retail",
+  "order": 2,
+  "title": "Kiskereskedelem és üzletek",
+  "metaTitle": "Kiskereskedelmi számlázó és készletkezelő program · Paper & Pen",
+  "metaDescription": "Ingyenes számlázás, vonalkódos készlet, alacsony készlet riasztások és élő értékelés üzleteknek és kiskereskedőknek. Adjon el gyorsan, sose fogyjon ki.",
+  "keywords": "kiskereskedelmi szoftver, bolti számlázó program, vonalkódos készletkezelés, pénztári számlázás, alacsony készlet riasztás, kiskereskedelmi erp, több bolt készletkezelése",
+  "heroEyebrow": "Üzleteknek és kiskereskedőknek",
+  "heroTitle": "Adjon el gyorsan, <em class=\"text-copper-400 not-italic\">sose fogyjon ki</em>",
+  "heroSubtitle": "Számlázzon a vevőknek másodpercek alatt, szkennelje a vonalkódokat a leltározáshoz, és hagyja, hogy a készlet magától frissüljön. A Paper & Pen összhangban tartja a polcait, az eladásait és a könyveit, így kevesebbet számol és többet ad el.",
+  "heroBullets": ["Ingyenes, gyors számlázás", "Vonalkód- és cikkszám-támogatás", "Alacsony készlet riasztás, mielőtt kifogyna"],
+  "features": [
+    { "icon": "receipt", "title": "Gyors számlázás", "desc": "Üssön be egy eladást, és nyomtasson vagy osszon meg nyugtát másodpercek alatt, bármilyen eszközön." },
+    { "icon": "inventory", "title": "Vonalkódos készlet", "desc": "Szkenneljen a leltározáshoz vagy a készletmozgatáshoz, cikkszám, tétel és mértékegység szerint rendezve." },
+    { "icon": "bell", "title": "Alacsony készlet riasztások", "desc": "Állítson be újrarendelési szinteket, és kapjon figyelmeztetést, mielőtt egy sláger termék nullára fogy." },
+    { "icon": "truck", "title": "Több bolt készlete", "desc": "Kövesse és helyezze át a készletet üzletek között, mindenhol élő mennyiségekkel." },
+    { "icon": "calc", "title": "Élő értékelés", "desc": "Az átlagáras vagy FIFO bekerülési érték pontosan tartja a készlet értékét a mérlegben." },
+    { "icon": "chart", "title": "Slágertermék-jelentések", "desc": "Lássa, mi fogy és mi áll, tételenként, kategóriánként és üzletenként." }
+  ],
+  "sections": [
+    { "eyebrow": "Gyorsabb pénztár", "title": "Számlázás egy forgalmas pulthoz", "body": "A vevők nem várnak. Állítson össze egy eladást a tételek keresésével, adjon kedvezményt, vegye át a fizetést, és adjon át letisztult nyugtát másodpercek alatt. A nyugták WhatsAppon megoszthatók vagy a kasszánál kinyomtathatók, és minden eladás egyenesen a készletébe és a könyveibe fut, újragépelés nélkül.", "items": ["Keresés a tételek gyors hozzáadásához", "Nyugták azonnali nyomtatása vagy megosztása", "Kedvezmények és adó automatikusan kezelve"] },
+    { "eyebrow": "Készlet, amely magát vezeti", "title": "Mindig tudja, mi van a polcon", "body": "A kézi leltár az első eladás pillanatában elavul. A Paper & Pen-ben minden eladás és beérkező szállítás valós időben módosítja a készletet, így a képernyőn látott szám megegyezik a polcon lévővel. Állítson be újrarendelési szinteket, hogy a rendszer jelezze a lassú utánpótlást, mielőtt elveszítene egy eladást. Ománban készült natív OMR, AED és SAR támogatással és 5%-os ÁFA-val, és felkészült USD-re, EUR-ra vagy bármilyen adókulcsra, amellyel kereskedik.", "items": ["Valós idejű készlet minden eladásnál", "Újrarendelési szintek és alacsony készlet riasztások", "Bármilyen pénznem, bármilyen adókulcs"] }
+  ],
+  "faqs": [
+    { "q": "Árusíthatok vonalkód-olvasóval?", "a": "A kasszánál nem. A kasszánál a tételeket kereséssel adja hozzá egy eladáshoz. A vonalkód-olvasó a készlethez használható: szkenneljen be egy tételt a leltározáshoz vagy a készlet be- és kimozgatásához. A tételek cikkszám, tétel és mértékegység szerint rendezettek." },
+    { "q": "Frissül a készletem, amikor eladok valamit?", "a": "Igen. Minden eladás csökkenti, minden beérkező szállítás növeli a készletet valós időben, az összes üzletében, kézi leltár nélkül." },
+    { "q": "Működtethetek több üzletet?", "a": "Igen. Kövesse a készletet üzletenként, helyezzen át az egységek között, és lássa az élő mennyiségeket mindenhol, egyetlen munkaterületről." },
+    { "q": "Tényleg ingyenes a számlázás?", "a": "Az Értékesítés és Számlázás, a nyugtákkal együtt, örökre ingyenes. Adja hozzá a Készlet modult, amikor vonalkódos készletkezelést és alacsony készlet riasztásokat szeretne." },
+    { "q": "Működik az Öböl térségén kívül is?", "a": "Igen. A Paper & Pen bármilyen pénznemben és adókulccsal működik, így a kiskereskedők bárhol számlázhatnak és kezelhetik a készletüket, arab, angol és további nyelvekkel." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Vezesse üzletét találgatás nélkül",
+  "ctaSub": "Kezdje ingyen számlázással és nyugtákkal, majd adja hozzá a Készletet a vonalkódos készlethez és az alacsony készlet riasztásokhoz."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "HR és bérszámfejtés",
+  "metaTitle": "HR- és bérszámfejtő szoftver · Egyszerű bérszámfejtés · Paper & Pen",
+  "metaDescription": "Kezelje egy helyen a munkavállalókat, a jelenlétet, a szabadságot és a bérjegyzékeket. Bérszámfejtés bármilyen pénznemben, könyvelésbe kerülő bérekkel.",
+  "keywords": "hr szoftver, bérszámfejtő program, bérjegyzék, jelenléti ív, szabadságkezelés, végkielégítés, wps, munkavállalói nyilvántartás",
+  "heroEyebrow": "Kiegészítő modul",
+  "heroTitle": "Fizesse csapatát <em class=\"text-copper-400 not-italic\">pontosan</em>, minden alkalommal",
+  "heroSubtitle": "Munkavállalók, jelenlét, szabadság és bérszámfejtés egyetlen rendezett modulban. Futtasson le egy bérszámfejtési ciklust, készítse el a bérjegyzékeket és könyvelje a béreket percek alatt, nem napok alatt.",
+  "heroBullets": ["Bérszámfejtés percek alatt", "Önkiszolgáló bérjegyzék és szabadság", "Egyenesen a könyvelésbe kerül"],
+  "features": [
+    { "icon": "hr", "title": "Munkavállalói adatlapok", "desc": "Egy profil személyenként: szerződés, fizetés, dokumentumok és előzmények." },
+    { "icon": "clock", "title": "Jelenlét és túlóra", "desc": "Rögzítse a műszakokat, túlórákat és távolléteket, amelyek a bérszámfejtésbe futnak." },
+    { "icon": "doc", "title": "Szabadságkezelés", "desc": "Állítson be szabadságszabályokat, hagyja jóvá a kérelmeket, és kövesse automatikusan az egyenlegeket." },
+    { "icon": "receipt", "title": "Bérjegyzékek", "desc": "Készítsen áttekinthető, tételes bérjegyzékeket, és ossza meg őket minden munkavállalóval." },
+    { "icon": "calc", "title": "Levonások és végkielégítés", "desc": "Kezelje helyesen a kölcsönöket, a levonásokat és a munkaviszony végi juttatások számítását." },
+    { "icon": "accounting", "title": "Könyvelésbe kerül", "desc": "Minden bérszámfejtési futás automatikusan könyveli a béreket és az elhatárolásokat." }
+  ],
+  "sections": [
+    { "eyebrow": "Kevesebb adminisztráció", "title": "A jelenléttől a bérjegyzékig, táblázatok nélkül", "body": "A jelenlét, a túlóra, a szabadság és a kölcsönök mind a bérszámfejtésbe futnak, így hónap végén nem kell táblázatokat összefoltoznia. Hagyja jóvá egyszer a ciklust, és a Paper & Pen egy lépésben elkészíti az összes bérjegyzéket és a bérfeladást.", "items": ["A jelenlét és a túlóra a bérszámfejtésbe fut", "Kölcsönök és levonások kezelése", "Bérjegyzékek tömeges előállítása"] },
+    { "eyebrow": "Bárhol foglalkoztat", "title": "Bérszámfejtés az Ön országához és pénzneméhez", "body": "Fizesse munkatársait bármilyen pénznemben, és állítsa be az ott érvényes pótlékokat, levonásokat és végkielégítési szabályokat, ahol működik. Arab, angol, hindi, bengáli és urdu felülettel csapata a saját nyelvén olvashatja a bérjegyzékét és kérhet szabadságot.", "items": ["Bérek bármilyen pénznemben", "Beállítható pótlékok és levonások", "Felkészítve a végkielégítésre"] }
+  ],
+  "faqs": [
+    { "q": "Ingyenes a HR és bérszámfejtés?", "a": "Ez egy választható, fizetős kiegészítő modul. Az örökre ingyenes alap az Értékesítést és Számlázást fedi le, a HR és bérszámfejtést pedig akkor adja hozzá, amikor munkatársakat és béreket kell kezelnie." },
+    { "q": "Futtathatok bérszámfejtést bármilyen pénznemben?", "a": "Igen. Fizesse csapatát OMR, AED, SAR, USD, EUR vagy bármilyen más pénznemben, a saját szabályai szerint beállított pótlékokkal és levonásokkal." },
+    { "q": "Kezeli a jelenlétet és a szabadságot?", "a": "Igen. Rögzítse a jelenlétet és a túlórát, állítson be szabadságszabályokat, hagyja jóvá a kérelmeket és kövesse az egyenlegeket, mindezt a bérszámfejtésbe vezetve." },
+    { "q": "A bérszámfejtés bekerül a könyvelésbe?", "a": "Igen. Ha a Könyvelés be van kapcsolva, minden futás automatikusan könyveli a béreket, pótlékokat és elhatárolásokat a főkönyvbe." },
+    { "q": "Ki tudja számolni a végkielégítést?", "a": "Igen. Állítsa be országa végkielégítési és juttatási szabályait, hogy a végelszámolások helyesen készüljenek el." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Fájdalommentes fizetésnap",
+  "ctaSub": "Kezdje ingyen a számlázással, és adja hozzá a HR és bérszámfejtést, hogy percek alatt kezelje csapatát és futtassa a bérszámfejtést."
+}

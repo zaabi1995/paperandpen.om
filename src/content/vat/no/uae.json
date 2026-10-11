@@ -1,0 +1,152 @@
+{
+  "locale": "no",
+  "slug": "uae",
+  "order": 2,
+  "country": "De forente arabiske emirater",
+  "title": "MVA i De forente arabiske emirater",
+  "metaTitle": "MVA i De forente arabiske emirater: sats, grenser, e-faktura · Paper & Pen",
+  "metaDescription": "Emiratenes MVA-sats på 5 %, grensen på AED 375,000, innholdet i en faktura etter artikkel 59 og den bekreftede tidsplanen for e-faktura, alt med kilder.",
+  "keywords": "mva emiratene, mva-sats uae, registreringsgrense mva uae, krav til skattefaktura uae, e-faktura uae 2027, federal tax authority, mva dubai",
+  "heroEyebrow": "De forente arabiske emirater",
+  "heroTitle": "Fakturering etter <em class=\"text-copper-400 not-italic\">MVA-reglene i Emiratene</em>",
+  "heroSubtitle": "Satsen, grensene, de tolv opplysningene artikkel 59 krever på en skattefaktura, og datoene for e-faktura som Ministry of Finance faktisk har publisert.",
+  "heroBullets": [
+    "Standardsats 5 %",
+    "AED 375,000 for registrering",
+    "E-faktura innføres i faser fra 2027"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Standard MVA-sats",
+      "value": "5 %",
+      "note": "Artikkel 3 i Federal Decree-Law 8 of 2017 innfører en standardsats på 5 % på enhver levering eller import. Gjeldende siden 1. januar 2018.",
+      "source": 1
+    },
+    {
+      "label": "Grense for pliktig registrering",
+      "value": "AED 375,000",
+      "note": "Artikkel 7(1) i Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Grense for frivillig registrering",
+      "value": "AED 187,500",
+      "note": "Artikkel 8(1) i Executive Regulation.",
+      "source": 2
+    },
+    {
+      "label": "Øvre grense for forenklet faktura",
+      "value": "AED 10,000",
+      "note": "En forenklet skattefaktura er tillatt når mottakeren ikke er registrert, eller er registrert og vederlaget ikke overstiger dette beløpet.",
+      "source": 2
+    },
+    {
+      "label": "Valuta på fakturaen",
+      "value": "AED",
+      "note": "Skattebeløpene vises i dirham, og når fakturaen er i en annen valuta, må valutakursen som er brukt, stå på fakturaen.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artikkel 59(1) i Executive Regulation lister opp hva en fullstendig skattefaktura må inneholde.",
+    "items": [
+      "Ordene \"Tax Invoice\" (skattefaktura), tydelig vist",
+      "Leverandørens navn, adresse og Tax Registration Number",
+      "Mottakerens navn, adresse og TRN, når mottakeren er registrert",
+      "Et fortløpende eller unikt nummer som gjør at fakturaen kan identifiseres og ordnes",
+      "Utstedelsesdatoen",
+      "Leveringsdatoen, når den er en annen enn utstedelsesdatoen",
+      "En beskrivelse av varene eller tjenestene",
+      "For hver vare: enhetspris, antall eller mengde, skattesats og beløp å betale i AED",
+      "Beløpet for eventuell rabatt som er gitt",
+      "Bruttobeløpet å betale i AED",
+      "Skattebeløpet som er beregnet i AED, med valutakursen når det er regnet om fra en annen valuta",
+      "Ved levering med omvendt avgiftsplikt: en opplysning om at mottakeren skal beregne skatten, og hvilken bestemmelse det bygger på"
+    ],
+    "source": 2,
+    "caveat": "Dette er Federal Tax Authoritys konsoliderte utgave av Executive Regulation datert 4. oktober 2024. Kommentatorer viser til en senere endring, men vi har ikke funnet den i en tekst publisert av FTA, så bekreft gjeldende ordlyd med FTA før du stoler på den."
+  },
+  "einvoicing": {
+    "status": "Påbudt og innføres i faser, pilot åpnet",
+    "body": "UAE eInvoicing System er en desentralisert femhjørnemodell der fakturaene går gjennom Accredited Service Providers. Ministry of Finance sine egne retningslinjer setter tidsplanen: et pilotprogram og frivillig bruk fra 1. juli 2026, bedrifter med omsetning på AED 50 millioner eller mer innfører fra 1. januar 2027, bedrifter under denne grensen fra 1. juli 2027 og offentlige virksomheter fra 1. oktober 2027. Departementet utsatte den første fristen for å utnevne en Accredited Service Provider fra 31. juli 2026 til 30. oktober 2026, mens oppstarten i januar 2027 står fast. Den publiserte PDF-en med retningslinjer og departementets pressemelding er derfor uenige om akkurat den datoen, og pressemeldingen er det seneste ordet.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Slik gjør du det riktig",
+      "title": "Det folk oftest snubler i med artikkel 59",
+      "body": "Kravet per linje er det de fleste fakturamaler ikke oppfyller. Artikkel 59(1)(h) krever enhetspris, antall, skattesats og beløp å betale for hver vare eller tjeneste, og det betyr at ett samlet skattebeløp nederst på fakturaen ikke er nok når linjene har ulik behandling. Det andre er mottakerens TRN, som kreves når mottakeren er registrert, og det tredje er valutakursen: fakturerer du i dollar, må du likevel vise skatten i dirham og kursen du brukte.",
+      "items": [
+        "Skattesats og skattebeløp per linje, ikke bare en total",
+        "Mottakerens TRN når mottakeren er registrert",
+        "Valutakursen vist på alle fakturaer som ikke er i AED",
+        "Tekst om omvendt avgiftsplikt der det gjelder"
+      ]
+    },
+    {
+      "eyebrow": "Forberedelser",
+      "title": "Hva datoene i 2027 faktisk krever av deg",
+      "body": "Plikten er ikke å kjøpe programvare med en logo på, men å kunne utstede en strukturert faktura gjennom en Accredited Service Provider på den datoen som gjelder for din omsetningsgruppe. Regn baklengs fra innføringsdatoen for din gruppe, ikke fra piloten: fristen for å utnevne en tjenesteleverandør kommer flere måneder før oppstarten, og det er utnevnelsen, ikke oppstarten, de fleste bedrifter går glipp av. I mellomtiden er dataene du trenger, de samme som artikkel 59 allerede krever, og det er en god grunn til å rette opp fakturakvaliteten nå i stedet for midt i en overgang.",
+      "items": [
+        "Vit hvilken omsetningsgruppe du hører til",
+        "Før opp utnevnelsen av tjenesteleverandør i kalenderen, ikke bare oppstarten",
+        "Rydd i kundenes TRN før fristen, ikke underveis",
+        "Ha skatteopplysninger per linje fra i dag"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hva er MVA-satsen i De forente arabiske emirater?",
+      "a": "Fem prosent. Artikkel 3 i Federal Decree-Law 8 of 2017 innfører en standardsats på 5 % på enhver avgiftspliktig levering eller import, gjeldende siden 1. januar 2018. Enkelte leveranser har nullsats eller er unntatt, og forskjellen betyr noe: en leverandør med nullsats kan fortsatt få fradrag for inngående MVA, mens en unntatt leverandør ikke kan det."
+    },
+    {
+      "q": "Når blir e-faktura påbudt i De forente arabiske emirater?",
+      "a": "Det avhenger av omsetningen. Etter retningslinjene som Ministry of Finance har publisert, innfører bedrifter med omsetning på AED 50 millioner eller mer fra 1. januar 2027, bedrifter under det fra 1. juli 2027 og offentlige virksomheter fra 1. oktober 2027. En pilot og frivillig bruk åpnet 1. juli 2026. Sjekk departementets sider før du planlegger etter en dato, for det har allerede endret én frist."
+    },
+    {
+      "q": "Når kan jeg utstede en forenklet skattefaktura i De forente arabiske emirater?",
+      "a": "Når mottakeren ikke er registrert for MVA, eller er registrert og vederlaget ikke overstiger AED 10,000. En forenklet faktura må likevel ha ordene \"Tax Invoice\", ditt navn, adresse og TRN, utstedelsesdatoen, en beskrivelse av det som er levert, og samlet vederlag og skattebeløp i dirham."
+    },
+    {
+      "q": "Må kundens TRN stå på en faktura i Emiratene?",
+      "a": "Ja, når kunden er registrert for MVA. Artikkel 59(1)(c) krever da mottakerens navn, adresse og Tax Registration Number. Uten det kan kunden få problemer med å få fradrag for inngående MVA, og det kommer som regel tilbake til deg som en forespørsel om å utstede fakturaen på nytt."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Fakturer riktig i Emiratene, gratis",
+  "ctaSub": "Skatt per linje, alle valutaer med kursen på dokumentet, og en arabisk og en engelsk faktura fra én registrering.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, artikkel 3 (konsolidert, med endringer)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, artikkel 7, 8 og 59",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, og departementets pressemelding om endringen",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

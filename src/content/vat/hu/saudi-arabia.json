@@ -1,0 +1,151 @@
+{
+  "locale": "hu",
+  "slug": "saudi-arabia",
+  "order": 3,
+  "country": "Szaúd-Arábia",
+  "title": "ÁFA Szaúd-Arábiában",
+  "metaTitle": "ÁFA Szaúd-Arábiában: 15%-os kulcs és Fatoora · Paper & Pen",
+  "metaDescription": "Szaúd-Arábia 15%-os ÁFA-kulcsa, a SAR 375,000 értékhatár, az 53. cikk szerinti számlatartalom és a ZATCA Fatoora e-számlázási szakaszai, forrásokkal.",
+  "keywords": "áfa szaúd-arábia, szaúdi áfakulcs 15, zatca fatoora, szaúdi e-számla második szakasz, szaúdi adószámla követelmények, zatca",
+  "heroEyebrow": "Szaúd-Arábia",
+  "heroTitle": "Számlázás a <em class=\"text-copper-400 not-italic\">ZATCA</em> szabályai szerint",
+  "heroSubtitle": "A 15%-os kulcs, a regisztrációs értékhatárok, mit ír elő az 53. cikk egy adószámlán, és mit tesz ehhez hozzá a Fatoora, amint az integrációs szakaszba lép.",
+  "heroBullets": [
+    "15% általános kulcs",
+    "SAR 375,000 a regisztrációhoz",
+    "A Fatoora 2021 óta él"
+  ],
+  "authority": {
+    "name": "Zakat, Tax and Customs Authority (ZATCA)",
+    "url": "https://zatca.gov.sa"
+  },
+  "facts": [
+    {
+      "label": "Általános ÁFA-kulcs",
+      "value": "15%",
+      "note": "Szaúd-Arábia kilóg az Öböl-térségből: a többi ÁFA-t bevezető állam 5%-os vagy 10%-os kulccsal dolgozik. Ha az általános kulcs alkalmazandó, az adóköteles értékesítéseket 15% terheli.",
+      "source": 1
+    },
+    {
+      "label": "Kötelező regisztrációs értékhatár",
+      "value": "SAR 375,000",
+      "note": "Ha az adóköteles értékesítés egy 12 hónapos időszakban meghaladja ezt az összeget, regisztrálni kell.",
+      "source": 1
+    },
+    {
+      "label": "Önkéntes regisztrációs értékhatár",
+      "value": "SAR 187,500",
+      "note": "Az elmúlt 12 hónap adóköteles értékesítése VAGY adóköteles kiadásai alapján.",
+      "source": 1
+    },
+    {
+      "label": "Nem honos vállalkozások",
+      "value": "Nincs értékhatár",
+      "note": "A Királyságban ÁFA fizetésére kötelezett nem honos vállalkozásnak értékesítései értékétől függetlenül regisztrálnia kell.",
+      "source": 1
+    },
+    {
+      "label": "A számla nyelve",
+      "value": "Arab",
+      "note": "A kötelező tartalomnak arabul kell szerepelnie. Fordításként emellett más nyelv is feltüntethető.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Az ÁFA végrehajtási rendelet 53. cikkének (5) bekezdése sorolja fel, mit kell tartalmaznia egy adószámlának, és arab nyelvet ír elő, emellett bármely más, fordításként feltüntetett nyelvvel.",
+    "items": [
+      "A kiállítás dátuma",
+      "Folyamatos sorszám, amely egyedileg azonosítja a számlát",
+      "Az eladó adóazonosító száma",
+      "Ha a vevőnek kell önadóznia, a vevő adóazonosító száma és nyilatkozat arról, hogy az adót neki kell elszámolnia",
+      "Az eladó és a vevő neve és címe",
+      "Az áruk mennyisége és jellege, vagy a szolgáltatások terjedelme és jellege",
+      "A teljesítés dátuma, ha eltér a kiállítás dátumától",
+      "Az adóalap kulcsonként vagy mentességenként, az ÁFA nélküli egységár és minden, az egységárban még nem szereplő kedvezmény",
+      "Az alkalmazott adókulcs",
+      "A fizetendő adó összege szaúdi riálban",
+      "Ha az adó nem az alapkulccsal kerül felszámításra, az adókezelést magyarázó szöveg",
+      "Ha a jogosult használt cikkekre a különbözeti adózás alkalmazandó, erre utaló hivatkozás"
+    ],
+    "source": 2
+  },
+  "einvoicing": {
+    "status": "Kötelező és él, hullámokban bővül",
+    "body": "Szaúd-Arábiában működik az Öböl-térség legfejlettebb e-számlázási rendszere, és a többiek is ezt veszik mintául. Az 1. szakasz, a generálási szakasz, 2021. december 4. óta minden honos adóalanyra vonatkozik: a számlákat elektronikusan, strukturált formában kell kiállítani. A 2. szakasz, az integrációs szakasz, 2023. január 1-jén indult, és az adózók mérete szerint hullámokban vezetik be, a ZATCA pedig minden csoportot legalább hat hónappal az integrációs dátuma előtt értesít. A 2. szakaszban egy elektronikus számla többet tartalmaz, mint az 53. cikk szerinti tartalom: UUID-ra, az előző számla hash-ére, QR-kódra, kriptográfiai bélyegzőre és manipulációbiztos számlálóra is szükség van. Hogy melyik hullámba tartozik, azt a ZATCA jelenti be, ezért feltételezés helyett nézze meg az e-számlázási oldalait.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Hogy jól csinálja",
+      "title": "A Fatoora megváltoztatja, mi a számla",
+      "body": "A papír- vagy PDF-világban a számla egy bizonylat, amelyet elkészít és elküld. A 2. szakaszban egy lánc eleme: minden számla hivatkozik az előző hash-ére, kriptográfiai bélyegzőt visel, és egy vissza nem állítható számlálót léptet. Ez szándékos kialakítás, és egy gyakori szokást lehetetlenné tesz. Utólag nem törölhet, számozhat át vagy állíthat ki újra csendben egy számlát, mert a lánc megszakadna, és a szakadás kimutatható. Azoknak a vállalkozásoknak, amelyek eddig az előzmények szerkesztésével javították a hibákat, át kell térniük a jóváíró számlákra, amit a világ többi részének számviteli szabályai mindig is elvártak.",
+      "items": [
+        "Minden számla hash-sel kapcsolódik az előzőhöz",
+        "A számláló nem állítható vissza és nem görgethető vissza",
+        "A javítások jóváíró és terhelési számlákkal történnek",
+        "A QR-kód a számla része, nem díszítés"
+      ]
+    },
+    {
+      "eyebrow": "Hogy jól csinálja",
+      "title": "A 15%-os kulcsnak továbbgyűrűző hatásai vannak",
+      "body": "A tizenöt százalékos kulcs a nulla kulcsos és az adómentes megkülönböztetést olyan komoly pénzügyi kérdéssé teszi, amilyenné egy öt százalékos kulcs nem. Ha az értékesítései adómentesek, nem vonhatja le a megfizetett előzetesen felszámított adót, így a beszerzési költségének tizenöt százaléka valódi, vissza nem igényelhető kiadássá válik, amelyet be kell áraznia. Ha nulla kulcsosak, semmit nem számít fel, de mégis levonhat. Ennek a besorolásnak az elhibázása a legdrágább egyedi hiba, amit a szaúdi ÁFA-ban elkövethet, és ez besorolási kérdés, nem kulcskérdés.",
+      "items": [
+        "Az adómentesség azt jelenti, hogy nincs levonás, az adó az Ön költsége",
+        "A nulla kulcs azt jelenti, hogy nincs felszámítás, de teljes a levonás",
+        "Az értékesítés típusa szerint sorolja be, ne a vevő szerint",
+        "A besorolásról az árazás előtt döntsön"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mennyi az ÁFA-kulcs Szaúd-Arábiában?",
+      "a": "Tizenöt százalék az általános kulcs. Ez a legmagasabb az Öböl-térségben, és gyakori hiba egyetlen közös öbölbeli kulcsot feltételezni: Omán és az Emírségek 5%-on, Bahrein 10%-on van, Katar és Kuvait pedig egyáltalán nem vezette be az ÁFA-t. Ha a térségben több országba értékesít, nem alkalmazhat mindenre egyetlen kulcsot."
+    },
+    {
+      "q": "Mi az a Fatoora?",
+      "a": "A Fatoora a ZATCA e-számlázási programja. Az 1. szakasz, a generálás, 2021. december 4. óta minden honos adóalanyra vonatkozik. A 2. szakasz, az integráció a ZATCA rendszereivel, 2023. január 1-jén indult, és az adózók mérete szerint hullámokban vezetik be, minden hullámot legalább hat hónappal előre értesítve."
+    },
+    {
+      "q": "Arabul kell készülnie egy szaúdi adószámlának?",
+      "a": "Igen. Az 53. cikk (5) bekezdése arab nyelvű számlatartalmat ír elő, és emellett más nyelvet is megenged fordításként. Egy kétnyelvű számla megfelel az előírásoknak, egy csak angol nyelvű nem."
+    },
+    {
+      "q": "Milyen további mezőket ír elő a 2. szakasz?",
+      "a": "Az 53. cikk szerinti tartalmon túl az integrációs szakaszban egy elektronikus számla UUID-t, az előző számla hash-ét, QR-kódot, kriptográfiai bélyegzőt és manipulációbiztos számlálót tartalmaz. Ezeket megfelelő szoftver állítja elő, nem ember gépeli be."
+    }
+  ],
+  "related": [
+    "/glossary/e-invoicing",
+    "/glossary/zero-rated-supply",
+    "/glossary/exempt-supply",
+    "/glossary/tax-invoice",
+    "/glossary/value-added-tax"
+  ],
+  "ctaTitle": "Számlázzon helyesen Szaúd-Arábiában, ingyen",
+  "ctaSub": "Állítsa be saját maga a kulcsot, tartsa az arabot és az angolt egy bizonylaton, és szerkesztés helyett jóváíró számlákkal javítsa a hibákat.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Guideline on Tax Groups under VAT Provisions, harmadik változat, 3.2. és 3.3. szakasz",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-on-Tax-Groups-under-VAT-Provisions.pdf"
+    },
+    {
+      "n": 2,
+      "label": "VAT Implementing Regulations, 53. cikk",
+      "publisher": "ZATCA",
+      "year": "2025",
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/Implmenting%20Regulations%20of%20the%20VAT%20Law_EN.pdf"
+    },
+    {
+      "n": 3,
+      "label": "Az e-számlázás bevezetéséről szóló határozat, Governor's Decision 62738, és a ZATCA e-számlázási oldalai",
+      "publisher": "ZATCA",
+      "year": "2026",
+      "url": "https://zatca.gov.sa/en/E-Invoicing/Pages/default.aspx"
+    }
+  ]
+}

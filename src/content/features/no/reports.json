@@ -1,0 +1,35 @@
+{
+  "locale": "no",
+  "slug": "reports",
+  "order": 8,
+  "title": "Rapporter",
+  "metaTitle": "Rapporter og analyse for bedriften · Paper & Pen",
+  "metaDescription": "Oppdaterte dashbord og rapporter om salg, kontanter, resultat, skatt og lager. Gå ned til kilden, eksporter til Excel eller PDF, i alle valutaer.",
+  "keywords": "rapporter for bedrifter, analysedashbord, salgsrapport, resultatrapport, mva-rapport, regnskapsrapporter, eksport til excel",
+  "heroEyebrow": "Tilleggsmodul",
+  "heroTitle": "Beslutninger basert på <em class=\"text-copper-400 not-italic\">oppdaterte tall</em>",
+  "heroSubtitle": "Hvert salg, hver betaling og hver bevegelse samles i tydelige dashbord og rapporter i sanntid. Se hva som selger, hvem som skylder deg og hvor fortjenesten er, og eksporter det hvor du vil.",
+  "heroBullets": ["Dashbord i sanntid", "Gå ned til kildedokumentet", "Eksport til Excel eller PDF"],
+  "features": [
+    { "icon": "reports", "title": "Salgsanalyse", "desc": "Se de mest solgte produktene, de beste kundene og trender for hvilken som helst periode." },
+    { "icon": "chart", "title": "Regnskapsrapporter", "desc": "Resultatregnskap, balanse, kontantstrøm og aldersfordelte kundefordringer." },
+    { "icon": "calc", "title": "Skatterapporter", "desc": "Oversikter over inngående og utgående MVA, klare for MVA-meldingen." },
+    { "icon": "inventory", "title": "Lagerrapporter", "desc": "Rapporter om verdsettelse, bevegelser og lav beholdning på tvers av lagre." },
+    { "icon": "doc", "title": "Gå ned til kilden", "desc": "Klikk på et tall for å spore det tilbake til dokumentet bak." },
+    { "icon": "refresh", "title": "Alltid oppdatert", "desc": "Rapportene oppdateres mens transaksjonene skjer, uten nattlig kjøring." }
+  ],
+  "sections": [
+    { "eyebrow": "Oversikt med ett blikk", "title": "Ett dashbord for hele bedriften", "body": "Åpne Paper & Pen og se tallene som betyr noe: penger i banken, hvem som skylder deg, hva som selger og fortjenesten denne måneden. Fordi alt føres i sanntid, er dashbordet sannheten, ikke et bilde fra forrige uke.", "items": ["Kontanter, kundefordringer og resultat øverst", "Filtrer på periode, kunde eller produkt", "Oppdatert, aldri utdatert"] },
+    { "eyebrow": "Del og grav dypere", "title": "Rapporter regnskapsføreren og styret stoler på", "body": "Gå fra hvilken som helst rapport rett til kildedokumentet, og eksporter til Excel eller PDF for regnskapsføreren, banken eller styret. Rapporter i hvilken som helst valuta, og bytt grensesnittet til arabisk, engelsk, hindi, bengali eller urdu, så alle leser de samme tallene på sitt eget språk.", "items": ["Gå ned til hver transaksjon", "Eksport til Excel og PDF", "Flere valutaer og flere språk"] }
+  ],
+  "faqs": [
+    { "q": "Er rapportene gratis?", "a": "Rapporter er et valgfritt betalt tillegg. Kjernen som er gratis for alltid har dashbord for fakturering, og hele rapportpakken er tilgjengelig når du trenger dypere analyse." },
+    { "q": "Er rapportene i sanntid?", "a": "Ja. Hver transaksjon føres med en gang, så dashbord og rapporter alltid viser hvordan bedriften står nå." },
+    { "q": "Kan jeg eksportere rapporter?", "a": "Ja. Eksporter til Excel eller PDF for å dele med regnskapsføreren, banken eller styret." },
+    { "q": "Kan jeg spore et tall tilbake til kilden?", "a": "Ja. Klikk på et tall for å gå ned til nøyaktig den fakturaen, betalingen eller posteringen som ligger bak." },
+    { "q": "Støtter rapportene flere valutaer?", "a": "Ja. Rapporter i hvilken som helst valuta og se grensesnittet på fem språk." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Se bedriften din tydelig",
+  "ctaSub": "Start gratis med fakturering og legg til Rapporter for oppdaterte dashbord og analyse klar til eksport."
+}

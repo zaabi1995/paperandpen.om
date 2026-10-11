@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Regnskab",
+  "metaTitle": "Online regnskabsprogram · Automatisk bogføring · Paper & Pen",
+  "metaDescription": "Dobbelt bogføring, der bogfører sig selv. Resultatopgørelse og balance i realtid, momsangivelser, bankafstemning, enhver valuta og enhver afgift. Virker overalt.",
+  "keywords": "regnskabsprogram, online bogføring, dobbelt bogføring, balance, resultatopgørelse, momsangivelse, bankafstemning, hovedbog",
+  "heroEyebrow": "Tilvalgsmodul",
+  "heroTitle": "Et regnskab, der <em class=\"text-copper-400 not-italic\">stemmer af sig selv</em>",
+  "heroSubtitle": "Hver faktura, betaling og hvert køb bogføres automatisk i en rigtig dobbelt bogføring. Se dit resultat, din balance og din momsstilling i realtid uden at røre et regneark.",
+  "heroBullets": ["Automatisk dobbelt bogføring, ingen manuelle posteringer", "Resultatopgørelse og balance i realtid", "Momsangivelser med ét klik"],
+  "features": [
+    { "icon": "accounting", "title": "Automatisk bogføring", "desc": "Salg, betalinger og udgifter bogføres i hovedbogen, i det øjeblik de sker." },
+    { "icon": "chart", "title": "Regnskabstal i realtid", "desc": "Resultatopgørelse, balance og pengestrøm, altid opdateret." },
+    { "icon": "calc", "title": "Moms og afgiftsangivelser", "desc": "Følg købs- og salgsmoms, og lav en angivelse klar til indberetning med ét klik." },
+    { "icon": "refresh", "title": "Bankafstemning", "desc": "Match banklinjer med fakturaer og betalinger, så regnskabet holdes rent." },
+    { "icon": "doc", "title": "Komplette konti", "desc": "Gå fra enhver rapport ned til bilaget og posteringen bag." },
+    { "icon": "globe", "title": "Flere valutaer", "desc": "Bogfør i enhver valuta med automatisk kursgevinst og kurstab." }
+  ],
+  "sections": [
+    { "eyebrow": "Ingen bogholder nødvendig", "title": "Regnskab, der kører i baggrunden", "body": "Du skal ikke være bogholder for at vide, om du tjener penge. Fordi fakturering, betalinger og lager alle fører ind i samme hovedbog, er dit regnskab korrekt uden manuelle posteringer. Åbn dashboardet, og dit resultat, dine debitorer og din moms står lige der.", "items": ["Dobbelt bogføring klaret for dig", "Hver rapport fører til bilaget", "Revisionsspor på hver postering"] },
+    { "eyebrow": "Bygget til alle afgiftsregler", "title": "Moms og regler, uanset hvor du driver forretning", "body": "Indstil momssatser og konti for dit land, også valgfri moms for Golfstaterne, og Paper & Pen følger købs- og salgsmoms for dig. Lav en angivelse klar til indberetning, afstem banken, og luk perioden med ro i maven, i enhver valuta.", "items": ["Valgfri moms for ethvert land", "Momsangivelser klar til indberetning", "Bankafstemning og periodeafslutning"] }
+  ],
+  "faqs": [
+    { "q": "Skal jeg kunne regnskab for at bruge det?", "a": "Nej. Posteringer bogføres automatisk fra dine fakturaer, betalinger og køb, så du får et korrekt dobbelt bogholderi uden at skrive posteringer." },
+    { "q": "Er regnskab gratis?", "a": "Regnskab er et valgfrit betalt tilvalg. Salg og fakturering er gratis for altid, og du slår Regnskab til, når du vil have komplette regnskaber." },
+    { "q": "Kan det lave momsangivelser?", "a": "Ja. Det følger købs- og salgsmoms (for eksempel valgfri moms i Golfstaterne eller enhver sats, du angiver) og laver en angivelse klar til indberetning." },
+    { "q": "Håndterer det flere valutaer?", "a": "Ja. Bogfør og rapportér i enhver valuta med automatisk kursgevinst og kurstab." },
+    { "q": "Kan jeg afstemme min bank?", "a": "Ja. Importér eller match banklinjer mod fakturaer og betalinger, så din hovedbog er afstemt." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Få et korrekt regnskab helt automatisk",
+  "ctaSub": "Start gratis med fakturering, og slå Regnskab til for regnskabstal og momsangivelser i realtid."
+}

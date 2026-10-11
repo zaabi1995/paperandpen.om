@@ -1,0 +1,37 @@
+{
+  "locale": "no",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Gratis kvitteringsgenerator",
+  "metaTitle": "Gratis kvitteringsgenerator · Lag kvittering på nett · Paper & Pen",
+  "metaDescription": "Lag betalingskvitteringer gratis på nett. Legg inn beløp, valuta og betalingsmåte, og last ned en PDF klar til utskrift på sekunder. Ingen registrering.",
+  "keywords": "gratis kvitteringsgenerator, lage kvittering, lage kvittering på nett, gratis kvitteringsmal, last ned kvittering pdf, betalingskvittering, kontantkvittering",
+  "heroEyebrow": "Gratis · Ingen registrering",
+  "heroTitle": "Gratis kvitteringsgenerator",
+  "heroSubtitle": "Gi hver kunde en ryddig betalingskvittering på sekunder. Legg inn beløp, valuta og betalingsmåte, og last ned en PDF klar til utskrift. Ingen konto nødvendig.",
+  "howToSteps": [
+    { "name": "Legg inn opplysningene dine", "text": "Skriv inn firmanavnet ditt, betaleren, et kvitteringsnummer og en dato." },
+    { "name": "Legg inn betalingen", "text": "Skriv hva betalingen gjaldt, beløpet og betalingsmåten (kontant, kort, overføring)." },
+    { "name": "Velg valuta og skatt", "text": "Velg hvilken som helst valuta og vis eventuelt MVA- eller omsetningsavgiftsdelen." },
+    { "name": "Last ned PDF", "text": "Klikk på last ned for å lagre en kvittering klar til utskrift, eller registrer deg for å utstede kvitteringer automatisk mot fakturaene dine." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Med en gang og gratis", "desc": "Ingen registrering, ingen vannmerke, ingen grenser. Utsted så mange kvitteringer du trenger." },
+    { "icon": "globe", "title": "Alle valutaer", "desc": "Kvitter i OMR, AED, SAR, USD, EUR, GBP og flere, med riktige desimaler." },
+    { "icon": "card", "title": "Alle betalingsmåter", "desc": "Registrer kontant, kort, bankoverføring eller nettbetaling, tydelig vist på kvitteringen." }
+  ],
+  "sections": [
+    { "title": "Hvorfor bruke kvitteringsgeneratoren fra Paper & Pen?", "body": "En kvittering er kundens bevis på betaling og din dokumentasjon på at en faktura er gjort opp. Vår er gratis, fungerer i alle valutaer og lager en ryddig PDF du kan gi fra deg eller sende på e-post med en gang. Ingen regneark, ingen registrering." },
+    { "eyebrow": "Mer enn generatoren", "title": "Kvitteringer koblet til fakturaene dine", "body": "En frittstående kvittering holder for en enkeltstående betaling, men en bedrift i vekst trenger kvitteringer knyttet til fakturaer og en løpende hovedbok. I hele Paper & Pen ERP lager en registrert betaling kvitteringen og oppdaterer fakturasaldoen og regnskapet samtidig.", "items": ["Kvittering lages automatisk når en faktura betales", "Følg hele, delvise og delte betalinger", "Send kvitteringer på WhatsApp eller e-post med en gang"] }
+  ],
+  "faqs": [
+    { "q": "Hva er forskjellen på en faktura og en kvittering?", "a": "En faktura ber om betaling før den skjer. En kvittering bekrefter etterpå at betalingen er mottatt. Du kan lage begge her gratis." },
+    { "q": "Er kvitteringsgeneratoren virkelig gratis?", "a": "Ja. Den er helt gratis, uten registrering, uten vannmerke og uten grense på hvor mange kvitteringer du lager." },
+    { "q": "Kan jeg vise MVA eller skatt på en kvittering?", "a": "Ja. Angi hvilken som helst skattesats, så viser kvitteringen skattedelen av det betalte beløpet der du trenger det." },
+    { "q": "Kan kvitteringer kobles til fakturaene mine?", "a": "Last ned frittstående kvitteringer gratis, eller opprett et gratis Paper & Pen-arbeidsområde der hver betaling registrert mot en faktura automatisk lager en tilknyttet kvittering." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Betalingsbevis, ordnet",
+  "ctaSub": "Lag kvitteringer automatisk, følg hver betaling og hold hovedboken oppdatert med et gratis Paper & Pen-arbeidsområde."
+}

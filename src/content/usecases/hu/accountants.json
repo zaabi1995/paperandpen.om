@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "accountants",
+  "order": 4,
+  "title": "Könyvelők és könyvelőirodák",
+  "metaTitle": "Könyvelőprogram könyvelőknek | Paper & Pen",
+  "metaDescription": "Kettős könyvvitel, ÁFA-bevallás, pénzügyi kimutatások és több ügyfél kezelése könyvelőknek. Tiszta főkönyvek, bármilyen pénznem és adókulcs.",
+  "keywords": "könyvelőprogram könyvelőknek, könyvelő szoftver, kettős könyvvitel, áfabevallás szoftver, pénzügyi kimutatások, több ügyfél könyvelése, főkönyvi kivonat",
+  "heroEyebrow": "Könyvelőknek és könyvelőirodáknak",
+  "heroTitle": "Tiszta könyvek, amelyek <em class=\"text-copper-400 not-italic\">mindig egyeznek</em>",
+  "heroSubtitle": "Valódi kettős könyvvitel, automatikus könyvelés minden számlából és fizetésből, ÁFA-bevallások és jelentések, amelyekben ügyfelei megbízhatnak. A Paper & Pen elvégzi a könyvelést, így Ön a tanácsadásra koncentrálhat.",
+  "heroBullets": ["Valódi kettős könyvvitelű főkönyvek", "Automatikus könyvelés az értékesítésből és beszerzésből", "ÁFA-bevallások és pénzügyi kimutatások"],
+  "features": [
+    { "icon": "accounting", "title": "Kettős könyvvitel", "desc": "Minden tranzakció kiegyensúlyozott könyvelési tételt rögzít egy szabályos számlatükörben." },
+    { "icon": "refresh", "title": "Automatikus könyvelés", "desc": "A számlák, fizetések és készletmozgások automatikusan a főkönyvbe kerülnek." },
+    { "icon": "calc", "title": "ÁFA-bevallások", "desc": "Az adót minden bizonylaton követi a rendszer, készen egy 5%-os vagy bármilyen kulcsú ÁFA-bevallásra." },
+    { "icon": "reports", "title": "Pénzügyi kimutatások", "desc": "Eredménykimutatás, mérleg, főkönyvi kivonat és főkönyvi kartonok, igény szerint." },
+    { "icon": "doc", "title": "Ellenőrzési nyomvonal", "desc": "Minden tétel visszakövethető a forrásbizonylatáig a tiszta ellenőrzéshez." },
+    { "icon": "globe", "title": "Bármilyen pénznem és adó", "desc": "Kezeljen több pénznemes ügyfeleket és bármilyen adórendszert világszerte." }
+  ],
+  "sections": [
+    { "eyebrow": "Nincs több újragépelés", "title": "A főkönyv magától íródik", "body": "A kézi vegyes naplóban csúsznak be a hibák. A Paper & Pen-ben minden számla, fizetés, beszerzés és készletmozgás kiegyensúlyozott, kettős könyvvitelű tételt könyvel egy szabályos számlatükörbe, így a könyvek mindig élők és mindig egyeztetettek. Az idejét átnézésre és tanácsadásra fordítja, nem tételek begépelésére, és minden szám egyenesen visszakövethető a forrásbizonylatáig.", "items": ["Kiegyensúlyozott tételek minden tranzakcióból", "Szabályos számlatükör", "Teljes ellenőrzési nyomvonal a forrásbizonylatokig"] },
+    { "eyebrow": "Jelentés és bevallás magabiztosan", "title": "ÁFA, kimutatások és jelentések igény szerint", "body": "Készítsen eredménykimutatást, mérleget, főkönyvi kivonatot vagy főkönyvet, amikor csak egy ügyfél kéri, és állítson össze ÁFA-bevallást a minden bizonylaton követett adóval. A Paper & Pen alapból kezeli az Öböl menti országok beállítható ÁFA-ját, máshol működő ügyfeleknél pedig bármilyen adókulcsot és pénznemet, így több piacon átívelő ügyfélkört is kiszolgálhat. Ománban készült, és Maszkattól Manchesterig mindenhol otthon van.", "items": ["Eredménykimutatás, mérleg, főkönyvi kivonat, főkönyvek", "Bizonylatonként követett ÁFA, bevallásra készen", "Több pénznem, bármilyen adórendszer"] }
+  ],
+  "faqs": [
+    { "q": "Ez valódi kettős könyvvitel?", "a": "Igen. Minden tranzakció kiegyensúlyozott könyvelési tételt rögzít egy szabályos számlatükörben, így a főkönyvi kivonat mindig egyezik, és a könyvek egyeztetettek." },
+    { "q": "A számlák és fizetések automatikusan könyvelődnek?", "a": "Igen. Az értékesítések, beszerzések, fizetések és készletmozgások automatikusan a főkönyvbe kerülnek, így nincs mit újragépelni, és sokkal kisebb a hiba lehetősége." },
+    { "q": "Készíthetek ÁFA-bevallást?", "a": "Igen. Az adót minden bizonylaton követi a rendszer, így elkészítheti az Öböl menti országok beállítható ÁFA-bevallását, vagy bármilyen kulcsú bevallást más adórendszerekben működő ügyfeleknek." },
+    { "q": "Milyen jelentéseket futtathatok?", "a": "Eredménykimutatást, mérleget, főkönyvi kivonatot, főkönyvet, valamint vevői és szállítói folyószámla-kivonatokat, mindet igény szerint és a forrásbizonylatokig visszakövethetően." },
+    { "q": "Kezelhetek különböző pénznemű ügyfeleket?", "a": "Igen. A Paper & Pen kezeli a több pénznemes ügyfeleket és bármilyen adórendszert, így egyetlen platformról szolgálhat ki több országra kiterjedő ügyfélkört." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/invoicing/ledgers", "/use-cases/small-business", "/pricing"],
+  "ctaTitle": "Kevesebb gépelés, több tanácsadás",
+  "ctaSub": "Hagyja, hogy a Paper & Pen automatikusan könyvelje a főkönyveket, hogy a könyvei egyezzenek, és a jelentései igény szerint elkészüljenek."
+}

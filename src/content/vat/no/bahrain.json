@@ -1,0 +1,140 @@
+{
+  "locale": "no",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrain",
+  "title": "MVA i Bahrain",
+  "metaTitle": "MVA i Bahrain: 10 % sats og fakturaregler · Paper & Pen",
+  "metaDescription": "Bahrains MVA-sats på 10 %, registreringsgrensen på BHD 37,500 og hva NBR krever på en MVA-faktura, med kilde i myndighetens egen veiledning.",
+  "keywords": "mva bahrain, mva-sats bahrain 10, registreringsgrense mva bahrain, krav til mva-faktura bahrain, national bureau for revenue",
+  "heroEyebrow": "Bahrain",
+  "heroTitle": "Fakturering etter <em class=\"text-copper-400 not-italic\">MVA-reglene i Bahrain</em>",
+  "heroSubtitle": "Satsen på 10 %, registreringsgrensene og hva National Bureau for Revenue krever på en MVA-faktura, også det ene feltet som bare gjelder bygg.",
+  "heroBullets": [
+    "Standardsats 10 %",
+    "BHD 37,500 for registrering",
+    "Ingen påbud om e-faktura publisert"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Standard MVA-sats",
+      "value": "10 %",
+      "note": "MVA startet på 5 % 1. januar 2019 og ble endret til 10 % med virkning fra 1. januar 2022. Sammenligninger skrevet før 2022 er utdaterte.",
+      "source": 1
+    },
+    {
+      "label": "Grense for pliktig registrering",
+      "value": "BHD 37,500",
+      "note": "Går du over dette beløpet, må du registrere deg.",
+      "source": 1
+    },
+    {
+      "label": "Grense for frivillig registrering",
+      "value": "BHD 18,750",
+      "note": "Måles over de siste 12 månedene eller de neste 12 månedene, og kan bygge på kostnader med MVA i stedet for leveranser.",
+      "source": 1
+    },
+    {
+      "label": "Frist for å utstede faktura",
+      "value": "Den 15. i måneden etter",
+      "note": "Fakturaer må utstedes innen den femtende i måneden etter måneden da MVA-plikten inntrådte.",
+      "source": 1
+    },
+    {
+      "label": "Valuta på fakturaen",
+      "value": "BHD",
+      "note": "Verdier, MVA-beløp og summer vises i bahrainske dinarer, med valutakursen oppgitt når en utenlandsk valuta brukes.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Punkt 10.3 i NBRs VAT General Guide beskriver hva en fullstendig MVA-faktura må vise. En forenklet MVA-faktura trenger bare en del av disse.",
+    "items": [
+      "Betegnelsen \"VAT invoice\" (MVA-faktura)",
+      "Leverandørens navn, adresse og VAT Account Number",
+      "Kundens navn og adresse",
+      "Et fortløpende nummer på MVA-fakturaen",
+      "Utstedelsesdatoen, og leverings- eller betalingsdatoen når den er en annen",
+      "En beskrivelse av leveransen som er detaljert nok til at MVA-behandlingen blir tydelig",
+      "Ved oppføring av et nytt bygg: byggetillatelsens nummer",
+      "Antall varer som er levert",
+      "Verdien av leveransen og enhetsprisen i dinarer, uten MVA",
+      "Eventuell rabatt, og nettoverdien i dinarer uten MVA",
+      "MVA-satsen og MVA-beløpet i dinarer, per linje der satsene er ulike",
+      "Totalbeløpet å betale med MVA, i dinarer",
+      "Valutakursen som er brukt når en utenlandsk valuta brukes",
+      "En tydelig opplysning når en transaksjon er unntatt",
+      "En henvisning til marginordningen når den brukes"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Ingen påbud publisert",
+    "body": "Vi finner ingen ordning, fase eller dato for e-faktura publisert av National Bureau for Revenue. Myndighetens VAT General Guide, oppdatert i juli 2026, nevner ikke elektronisk fakturering i det hele tatt, og publikasjonsoversikten viser ingen veiledning om e-faktura. Kommentarer andre steder beskriver et system for handel mellom bedrifter som er under utforming med mulig innføring i faser, men ingenting på myndighetens egen nettside støtter en dato, så vi publiserer ingen. Planlegger du en systemendring, bør du bygge den på reglene for fakturainnhold ovenfor, som er gjeldende og publiserte, i stedet for på et påbud du venter på.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Slik gjør du det riktig",
+      "title": "De to fellene som er særegne for Bahrain",
+      "body": "Den første er satshistorikken. Bahrain gikk fra fem prosent til ti prosent 1. januar 2022, så alle maler, prislister og sammenligninger skrevet før det er feil, og feilen lever stille videre i gamle tilbudsmaler. Den andre er fristen for å utstede faktura. Bahrain sier ikke bare at en faktura må utstedes, men innen når: den femtende i måneden etter måneden da MVA-plikten inntrådte. En bedrift som fakturerer når papirene er klare, kan komme for sent uten noen gang å merke det.",
+      "items": [
+        "Sjekk alle maler fra før 2022 for en sats på 5 %",
+        "Fakturer innen den 15. i måneden etter",
+        "Vis MVA per linje der satsene er ulike",
+        "Oppgi valutakursen på fakturaer i utenlandsk valuta"
+      ]
+    },
+    {
+      "eyebrow": "Bransjedetaljer",
+      "title": "Byggfeltet ingen venter",
+      "body": "Bahrains regler for fakturainnhold har ett krav som ikke finnes noe annet sted i Gulfen: ved leveranser som gjelder oppføring av et nytt bygg, må fakturaen vise byggetillatelsens nummer. Det er lett å overse fordi det ligger inne i det generelle kravet om beskrivelse og ikke er et eget hovedfelt, og det er den typen mangel som først oppdages når en faktura blir etterspurt måneder senere. Jobber du som entreprenør, bør du legge tillatelsesnummeret inn i malen for linjebeskrivelser i stedet for å stole på at noen husker det.",
+      "items": [
+        "Leveranser til nybygg trenger byggetillatelsens nummer",
+        "Legg det i malen, ikke i noens hukommelse",
+        "Beskriv leveransen godt nok til å vise MVA-behandlingen",
+        "Ha teksten for unntak klar"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hva er MVA-satsen i Bahrain?",
+      "a": "Ti prosent. Bahrain innførte MVA med fem prosent 1. januar 2019 og endret standardsatsen til ti prosent med virkning fra 1. januar 2022. Alle veiledninger, maler og sammenligninger som fortsatt viser fem prosent for Bahrain, er eldre enn den endringen."
+    },
+    {
+      "q": "Når må jeg registrere meg for MVA i Bahrain?",
+      "a": "Når leveransene dine overstiger BHD 37,500. Du kan registrere deg frivillig fra BHD 18,750, målt over de siste eller de neste tolv månedene, og Bahrain tillater frivillig registrering på grunnlag av kostnader med MVA i tillegg til leveranser, noe som kan passe for en bedrift som fortsatt bygger opp salget."
+    },
+    {
+      "q": "Er e-faktura påbudt i Bahrain?",
+      "a": "Ikke etter noe National Bureau for Revenue har publisert. Myndighetens VAT General Guide, oppdatert juli 2026, nevner ikke elektronisk fakturering, og ingen veiledning om e-faktura finnes blant publikasjonene. Vi gjentar ikke datoer fra kommentarer som myndigheten selv ikke har publisert."
+    },
+    {
+      "q": "Innen når må en MVA-faktura i Bahrain utstedes?",
+      "a": "Innen den femtende i måneden etter måneden da MVA-plikten inntrådte. Dette er en reell frist og ikke bare en generell forventning, og den rammer bedrifter som samler faktureringen til slutten av et kvartal."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Fakturer riktig i Bahrain, gratis",
+  "ctaSub": "Sett satsen selv, vis MVA per linje, og ha feltene myndigheten ber om i en mal du ikke trenger å huske.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, versjon 1.15, med punkt 10.3 om krav til fakturaer",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

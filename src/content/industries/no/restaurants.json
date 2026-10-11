@@ -1,0 +1,35 @@
+{
+  "locale": "no",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restauranter og kafeer",
+  "metaTitle": "Fakturering og råvarelager for restauranter | Paper & Pen",
+  "metaDescription": "Gratis fakturering pluss råvarelager, oppskriftskalkyle og innkjøpsordrer til leverandører for restauranter og kafeer. Styr råvarekostnaden, fakturer raskt.",
+  "keywords": "restaurantprogram, kassesystem kafe, oppskriftskalkyle, kontroll på råvarekostnad, lager restaurant, innkjøpsordre leverandør, erp for restaurant",
+  "heroEyebrow": "For restauranter og kafeer",
+  "heroTitle": "Fakturer raskt, <em class=\"text-copper-400 not-italic\">styr råvarekostnaden</em>",
+  "heroSubtitle": "Skriv ut kvitteringer på sekunder, følg råvarene ned til grammet og kjenn den reelle kostnaden for hver rett. Paper & Pen får kjøkkenet, kassen og regnskapet til å jobbe sammen.",
+  "heroBullets": ["Gratis, raske kvitteringer", "Kalkyle for råvarer og oppskrifter", "Innkjøpsordrer til leverandører"],
+  "features": [
+    { "icon": "receipt", "title": "Raske kvitteringer", "desc": "Ta imot en bestilling, legg på skatt og serviceavgift, og skriv ut eller del en kvittering på sekunder." },
+    { "icon": "manufacturing", "title": "Oppskriftskalkyle", "desc": "Bygg opp oppskrifter av råvarer, så du kjenner den reelle kostnaden for hver rett." },
+    { "icon": "inventory", "title": "Råvarelager", "desc": "Følg råvarer per enhet, parti og holdbarhetsdato, med varsel om lav beholdning." },
+    { "icon": "truck", "title": "Bestillinger til leverandører", "desc": "Opprett innkjøpsordrer til leverandører og oppdater lager og kostnad ved mottak." },
+    { "icon": "calc", "title": "Råvareprosent", "desc": "Sammenlign kostnaden på rettene med menyprisen, så marginene holder seg sunne." },
+    { "icon": "chart", "title": "Salgsrapporter", "desc": "Se de mest solgte rettene, dagens inntekter og trender på tvers av dager og avdelinger." }
+  ],
+  "sections": [
+    { "eyebrow": "Raskere i salen", "title": "Kvitteringer som holder køen i gang", "body": "Lunsjrushet gir ikke rom for treg fakturering. Legg til varer, legg på MVA eller serviceavgift, ta betalt og gi en ryddig kvittering på sekunder, og del den på WhatsApp hvis en gjest ber om det. Hvert salg føres i regnskapet automatisk, så dagsavslutningen tar et blikk, ikke en kveld med tasting.", "items": ["Legg til varer og ta betalt raskt", "MVA og serviceavgift ordnes for deg", "Dagens inntekter avstemmes automatisk"] },
+    { "eyebrow": "Kjøkkenet forteller sannheten", "title": "Oppskriftskalkyle som beskytter marginen", "body": "En rett er bare lønnsom hvis du vet hva den koster. Bygg oppskrifter av råvarer, la Paper & Pen kalkulere hver tallerken ut fra oppdaterte innkjøpspriser, og følg råvareprosenten når leverandørprisene endrer seg. Følg råvarer per parti og holdbarhetsdato, opprett innkjøpsordrer og hold svinnet nede. Laget i Oman med innebygd OMR, AED og SAR og 5 % MVA, og klar for USD, EUR eller hvilket som helst marked.", "items": ["Oppskrifter kalkulert ut fra oppdaterte råvarepriser", "Sporing av parti og holdbarhet på råvarer", "Innkjøpsordrer som oppdaterer kostnaden ved mottak"] }
+  ],
+  "faqs": [
+    { "q": "Kan jeg kalkulere menyen ut fra råvareprisene?", "a": "Ja. Angi hver rett som en oppskrift med råvarer, så regner Paper & Pen ut kostnaden ut fra gjeldende innkjøpspriser, og du kan sette menypriser som beskytter marginen." },
+    { "q": "Følger det råvarer og holdbarhet?", "a": "Ja. Råvarer følges per enhet, parti og holdbarhetsdato, med varsel om lav beholdning, så du bestiller før det går tomt." },
+    { "q": "Kan jeg legge på MVA og serviceavgift?", "a": "Ja. Bruk justerbar MVA for Gulfstatene, en serviceavgift eller hvilken som helst skattesats, alt regnet ut automatisk på regningen." },
+    { "q": "Er faktureringen gratis for en kafe?", "a": "Salg og fakturering, med kvitteringer, er gratis for alltid. Legg til Lager og Produksjon når du vil følge råvarer og kalkulere oppskrifter." },
+    { "q": "Kan jeg drive mer enn ett utsalgssted?", "a": "Ja. Følg salg og lager per avdeling, og se oppdatert antall og dagens inntekter for alle utsalgsstedene fra ett arbeidsområde." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Server raskt, kalkuler smart",
+  "ctaSub": "Start gratis med kvitteringer og fakturering, og legg så til Lager og oppskriftskalkyle for å ta kontroll over råvarekostnaden."
+}

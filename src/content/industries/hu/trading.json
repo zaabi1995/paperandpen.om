@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "trading",
+  "order": 1,
+  "title": "Kereskedelem és nagykereskedelem",
+  "metaTitle": "ERP szoftver kereskedőknek és nagykereskedőknek | Paper & Pen",
+  "metaDescription": "Ingyenes számlázás, valós idejű készlet, megrendelők és több pénznem kereskedőknek, importőröknek és nagykereskedőknek. Ajánljon, adjon el gyorsabban.",
+  "keywords": "kereskedelmi szoftver, nagykereskedelmi erp, disztribútor számlázás, import export szoftver, megrendelő kezelő program, több pénznemes kereskedelem, készletkezelés kereskedőknek",
+  "heroEyebrow": "Kereskedőknek, importőröknek és nagykereskedőknek",
+  "heroTitle": "Vásároljon, adjon el és készletezzen <em class=\"text-copper-400 not-italic\">egy átlátható főkönyvvel</em>",
+  "heroSubtitle": "A megrendelőtől a vevői számláig a Paper & Pen összhangban tartja az áruit, a költségeit és a pénzét. Adjon gyorsan ajánlatot, mozgassa a készletet találgatás nélkül, és ismerje az árrését minden ügyletnél.",
+  "heroBullets": ["Ingyenes árajánlat és számlázás", "Élő készlet és beszerzési bekerülési érték", "Vásároljon egy pénznemben, adjon el egy másikban"],
+  "features": [
+    { "icon": "cart", "title": "Árajánlatból számla", "desc": "Alakítson egy árajánlatot két kattintással vevői rendeléssé és számlává, újragépelés nélkül." },
+    { "icon": "inventory", "title": "Valós idejű készlet", "desc": "Minden eladás és beszerzés azonnal mozgatja a készletet az összes raktárában." },
+    { "icon": "truck", "title": "Megrendelők", "desc": "Állítson ki megrendelőket a beszállítóknak, vegye át az árut, és frissítse a készletet és a költséget egy folyamatban." },
+    { "icon": "globe", "title": "Több pénznem", "desc": "Vásároljon USD-ben vagy EUR-ban, és adjon el OMR-ben, AED-ben vagy SAR-ban, mindvégig a helyes tizedesjegyekkel." },
+    { "icon": "calc", "title": "Árrés minden ügyletnél", "desc": "Lássa a költséget, az árat és a nyereséget soronként, hogy soha ne adjon el az alsó határ alatt." },
+    { "icon": "refresh", "title": "Automatikus egyeztetés", "desc": "A számlák, fizetések és készletmozgások automatikusan a könyveibe kerülnek." }
+  ],
+  "sections": [
+    { "eyebrow": "A gyorsaság nyer", "title": "Ma ajánlat, holnap szállítás", "body": "A kereskedelemben gyakran az első rendezett árajánlat nyeri a rendelést. Készítsen profi árajánlatot percek alatt, küldje el WhatsAppon vagy e-mailben, és a jóváhagyottat alakítsa vevői rendeléssé, szállítólevéllé és számlává anélkül, hogy bármit kétszer rögzítene. Vevője igényes bizonylatot kap, Ön pedig tiszta nyomvonalat tart meg.", "items": ["Árajánlatból vevői rendelés, majd számla, néhány kattintással", "Beépített szállítólevelek és csomagolás", "Azonnali megosztás WhatsAppon vagy e-mailben"] },
+    { "eyebrow": "Ismerje a valódi költségét", "title": "Készlet és árrés, amely az igazat mutatja", "body": "Az importőrök és nagykereskedők az árrésből élnek. A Paper & Pen átlagáras vagy FIFO módszerrel értékeli a készletét, és ajánlatadás közben soronként mutatja a nyereséget, így magabiztosan áraz. Vásároljon külföldön egy pénznemben, és adjon el itthon egy másikban, miközben a könyvek egyeztetettek maradnak. Ománban készült natív OMR, AED és SAR támogatással és beállítható ÁFA-val, és ugyanilyen otthonos USD-ben, EUR-ban vagy bármilyen Ön által megadott adókulccsal.", "items": ["Átlagáras vagy FIFO értékelés a pontos értékért", "Soronkénti árrés ajánlatadás közben", "Öböl menti ÁFA vagy bármilyen adókulcs, bármilyen pénznem"] }
+  ],
+  "faqs": [
+    { "q": "Adhatok ajánlatot egy pénznemben, és vásárolhatok készletet egy másikban?", "a": "Igen. Vásároljon USD, EUR, CNY vagy bármilyen pénznemben, és adjon el OMR, AED, SAR vagy bármely olyan pénznemben, amelyet a vevői használnak. A tizedesjegyek és a végösszegek automatikusan igazodnak, a könyvek pedig egyeztetettek maradnak." },
+    { "q": "A számlázás frissíti a készletemet?", "a": "Igen. Minden számla csökkenti, minden megrendelő szerinti átvétel növeli a készletet valós időben, több raktárban is, kézi leltár nélkül." },
+    { "q": "Láthatom az árrésemet tételenként?", "a": "Igen. A Paper & Pen árajánlat vagy számla készítése közben minden soron mutatja a költséget, az eladási árat és az árrést, így minden ügyletnél megvédi az alsó határát." },
+    { "q": "Tényleg ingyenes egy kereskedelmi vállalkozásnak?", "a": "Az Értékesítés és Számlázás örökre ingyenes, az árajánlatokkal, számlákkal és szállítólevelekkel együtt. Adja hozzá a Készlet modult, amikor valós idejű készletre és beszerzési bekerülési értékre van szüksége." },
+    { "q": "Kezeli az Öböl menti és más piacok ÁFA-ját?", "a": "Igen. Alapból alkalmazza az Öböl menti országok beállítható ÁFA-ját, vagy állítson be bármilyen adókulcsot bármely országhoz. Az adó mindig a kedvezmény utáni nettó összegre számolódik." }
+  ],
+  "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
+  "ctaTitle": "Vezesse kereskedését egy tiszta főkönyvvel",
+  "ctaSub": "Kezdje ingyen árajánlatokkal és számlázással, majd adja hozzá a Készletet és a Könyvelést, ahogy kereskedése növekszik."
+}

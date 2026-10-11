@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "retail",
+  "order": 2,
+  "title": "Detailhandel og butikker",
+  "metaTitle": "Afregning og lagerstyring til butikker · Paper & Pen",
+  "metaDescription": "Gratis afregning plus stregkodelager, varsler om lav beholdning og løbende lagerværdi for butikker og detailhandlere. Sælg hurtigt, løb aldrig tør, hold regnskabet rent.",
+  "keywords": "program til detailhandel, kasseprogram butik, stregkode lager, fakturering i butik, varsel om lav beholdning, erp til detailhandel, lager i flere butikker",
+  "heroEyebrow": "Til butikker og detailhandlere",
+  "heroTitle": "Sælg hurtigt, <em class=\"text-copper-400 not-italic\">løb aldrig tør</em>",
+  "heroSubtitle": "Afregn kunder på sekunder, scan stregkoder for at tælle lager, og lad beholdningen opdatere sig selv. Paper & Pen holder hylder, salg og regnskab i takt, så du bruger mindre tid på at tælle og mere tid på at sælge.",
+  "heroBullets": ["Gratis, hurtig afregning", "Stregkoder og varenumre", "Varsel om lav beholdning, før du løber tør"],
+  "features": [
+    { "icon": "receipt", "title": "Hurtig afregning", "desc": "Slå et salg ind, og print eller del en kvittering på sekunder, på enhver enhed." },
+    { "icon": "inventory", "title": "Stregkodelager", "desc": "Scan for at tælle eller flytte varer, ordnet efter varenummer, batch og enhed." },
+    { "icon": "bell", "title": "Varsel om lav beholdning", "desc": "Sæt genbestillingspunkter, og få besked, før en bestseller rammer nul." },
+    { "icon": "truck", "title": "Lager i flere butikker", "desc": "Følg og flyt varer mellem afdelinger med aktuelle mængder overalt." },
+    { "icon": "calc", "title": "Løbende lagerværdi", "desc": "Gennemsnitspris eller FIFO holder lagerværdien korrekt på din balance." },
+    { "icon": "chart", "title": "Rapporter over bestsellere", "desc": "Se hvad der sælger, og hvad der står stille, pr. vare, kategori og butik." }
+  ],
+  "sections": [
+    { "eyebrow": "Hurtigere ved kassen", "title": "Afregning bygget til en travl disk", "body": "Kunderne venter ikke. Opbyg et salg ved at søge efter varer, giv en rabat, tag imod betaling, og giv en pæn kvittering på sekunder. Kvitteringer kan deles på WhatsApp eller printes ved kassen, og hvert salg går direkte videre til lager og regnskab, uden at noget skal tastes igen.", "items": ["Søg for at tilføje varer hurtigt", "Print eller del kvitteringer med det samme", "Rabatter og moms klaret automatisk"] },
+    { "eyebrow": "Et lager, der passer sig selv", "title": "Vid altid, hvad der står på hylden", "body": "Manuelle optællinger er forældede, i det øjeblik du sælger noget. I Paper & Pen justerer hvert salg og hver levering beholdningen i realtid, så tallet på skærmen passer med hylden. Sæt genbestillingspunkter, så systemet markerer langsomme genopfyldninger, før du mister et salg. Udviklet i Oman med OMR, AED og SAR og 5 % moms indbygget og klar til USD, EUR eller enhver momssats, du handler med.", "items": ["Beholdning i realtid ved hvert salg", "Genbestillingspunkter og varsler om lav beholdning", "Enhver valuta, enhver momssats"] }
+  ],
+  "faqs": [
+    { "q": "Kan jeg sælge med en stregkodescanner?", "a": "Ikke ved kassen. Ved kassen søger du efter varer for at føje dem til et salg. En stregkodescanner bruges til lageret: scan en vare for at tælle den eller flytte varer ind eller ud. Varer er ordnet efter varenummer, batch og enhed." },
+    { "q": "Opdateres min beholdning, når jeg sælger?", "a": "Ja. Hvert salg trækker fra lageret, og hver levering lægger til i realtid, i alle dine butikker, uden manuel optælling." },
+    { "q": "Kan jeg drive mere end én butik?", "a": "Ja. Følg lageret pr. butik, flyt varer mellem afdelinger, og se aktuelle mængder overalt fra ét workspace." },
+    { "q": "Er afregningen virkelig gratis?", "a": "Salg og fakturering, med kvitteringer, er gratis for altid. Tilføj modulet Lager, når du vil have lagerstyring med stregkoder og varsler om lav beholdning." },
+    { "q": "Virker det uden for Golfstaterne?", "a": "Ja. Paper & Pen virker i enhver valuta med enhver momssats, så detailhandlere overalt kan afregne og styre lager, med arabisk, engelsk og flere sprog lige ved hånden." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Driv din butik uden gætværk",
+  "ctaSub": "Start gratis med afregning og kvitteringer, og tilføj Lager for stregkodelager og varsler om lav beholdning."
+}

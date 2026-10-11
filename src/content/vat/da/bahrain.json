@@ -1,0 +1,140 @@
+{
+  "locale": "da",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrain",
+  "title": "Moms i Bahrain",
+  "metaTitle": "Moms i Bahrain: sats på 10 % og fakturaregler · Paper & Pen",
+  "metaDescription": "Bahrains momssats på 10 %, registreringsgrænsen på BHD 37,500 og hvad NBR kræver på en momsfaktura, med kilde i myndighedens egen vejledning.",
+  "keywords": "moms bahrain, momssats bahrain 10, grænse for momsregistrering bahrain, krav til momsfaktura bahrain, national bureau for revenue",
+  "heroEyebrow": "Bahrain",
+  "heroTitle": "Fakturering efter <em class=\"text-copper-400 not-italic\">Bahrains momsregler</em>",
+  "heroSubtitle": "Satsen på 10 %, grænserne for registrering og hvad National Bureau for Revenue kræver på en momsfaktura, inklusive det ene felt, der kun gælder for byggeri.",
+  "heroBullets": [
+    "Standardsats på 10 %",
+    "BHD 37,500 for registrering",
+    "Intet krav om e-fakturering offentliggjort"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Standardmomssats",
+      "value": "10 %",
+      "note": "Momsen startede på 5 % den 1. januar 2019 og blev hævet til 10 % med virkning fra 1. januar 2022. Sammenligninger skrevet før 2022 er forældede.",
+      "source": 1
+    },
+    {
+      "label": "Grænse for tvungen registrering",
+      "value": "BHD 37,500",
+      "note": "Overskrides dette beløb, kræves registrering.",
+      "source": 1
+    },
+    {
+      "label": "Grænse for frivillig registrering",
+      "value": "BHD 18,750",
+      "note": "Måles over de foregående 12 måneder eller de næste 12 måneder og kan baseres på momsbelagte udgifter i stedet for salg.",
+      "source": 1
+    },
+    {
+      "label": "Frist for udstedelse af faktura",
+      "value": "Den 15. i den følgende måned",
+      "note": "Fakturaer skal udstedes senest den femtende i måneden efter den måned, hvor et momstidspunkt blev udløst.",
+      "source": 1
+    },
+    {
+      "label": "Valuta på fakturaen",
+      "value": "BHD",
+      "note": "Beløb, moms og totaler vises i bahrainske dinarer, med vekselkursen angivet, når der bruges en udenlandsk valuta.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Afsnit 10.3 i NBR's VAT General Guide angiver, hvad en fuld momsfaktura skal vise. En forenklet momsfaktura kræver kun en del af oplysningerne.",
+    "items": [
+      "Betegnelsen \"VAT invoice\" (momsfaktura)",
+      "Leverandørens navn, adresse og momskontonummer",
+      "Kundens navn og adresse",
+      "Et fortløbende momsfakturanummer",
+      "Udstedelsesdatoen og leverings- eller betalingsdatoen, hvis den er en anden",
+      "En beskrivelse af leverancen, der er detaljeret nok til at gøre momsbehandlingen klar",
+      "Ved opførelse af en ny bygning: byggetilladelsens nummer",
+      "Antallet af leverede varer",
+      "Leverancens værdi og stykprisen i dinarer uden moms",
+      "Enhver rabat og nettoværdien i dinarer uden moms",
+      "Momssatsen og momsbeløbet i dinarer, pr. linje hvor satserne er forskellige",
+      "Det samlede skyldige beløb inklusive moms i dinarer",
+      "Den anvendte vekselkurs, når der bruges en udenlandsk valuta",
+      "En klar angivelse, når en transaktion er fritaget",
+      "En henvisning til avanceordningen, når den bruges"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Intet krav offentliggjort",
+    "body": "Vi kan ikke finde nogen ordning, fase eller dato for e-fakturering offentliggjort af National Bureau for Revenue. Myndighedens VAT General Guide, opdateret i juli 2026, nævner slet ikke elektronisk fakturering, og dens oversigt over publikationer indeholder ingen vejledning om e-fakturering. Kommentarer andre steder beskriver et system mellem virksomheder, der er under udformning med henblik på en mulig indførelse i faser, men intet på myndighedens egen hjemmeside understøtter en dato, så vi offentliggør ingen. Planlægger du en systemændring, så byg den på reglerne for fakturaens indhold ovenfor, som er gældende og offentliggjorte, i stedet for på et forventet krav.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Gør det rigtigt",
+      "title": "De to faldgruber, der er særlige for Bahrain",
+      "body": "Den første er satsens historik. Bahrain gik fra fem procent til ti procent den 1. januar 2022, så enhver skabelon, prisliste eller sammenlignende artikel skrevet før det er forkert, og fejlen lever stille videre i gamle tilbudsskabeloner. Den anden er fristen for udstedelse. Bahrain siger ikke bare, at en faktura skal udstedes, men også hvornår: senest den femtende i måneden efter den måned, hvor momstidspunktet blev udløst. En virksomhed, der fakturerer, når papirerne er klar, kan komme for sent uden nogensinde at opdage det.",
+      "items": [
+        "Tjek alle skabeloner fra før 2022 for en sats på 5 %",
+        "Fakturér senest den 15. i den følgende måned",
+        "Vis momsen pr. linje, hvor satserne er forskellige",
+        "Angiv vekselkursen på fakturaer i udenlandsk valuta"
+      ]
+    },
+    {
+      "eyebrow": "Branchedetaljer",
+      "title": "Byggefeltet, som ingen forventer",
+      "body": "Bahrains regler for fakturaens indhold rummer ét krav, der ikke findes andre steder i Golfstaterne: for leverancer, der vedrører opførelse af en ny bygning, skal fakturaen vise byggetilladelsens nummer. Det er let at overse, fordi det står inde i det generelle krav om beskrivelse og ikke som et selvstændigt felt, og det er den slags udeladelse, der først opdages, når en faktura bliver efterprøvet måneder senere. Arbejder du i entreprisebranchen, så sæt tilladelsesnummeret ind i din skabelon for linjebeskrivelser i stedet for at regne med, at nogen husker det.",
+      "items": [
+        "Leverancer til nybyggeri kræver byggetilladelsens nummer",
+        "Sæt det i skabelonen, ikke i nogens hukommelse",
+        "Beskriv leverancen godt nok til at vise momsbehandlingen",
+        "Hav ordlyden til angivelse af fritagelse klar"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hvad er momssatsen i Bahrain?",
+      "a": "Ti procent. Bahrain indførte moms på fem procent den 1. januar 2019 og hævede standardsatsen til ti procent med virkning fra 1. januar 2022. Enhver vejledning, skabelon eller sammenligning, der stadig viser fem procent for Bahrain, er ældre end den ændring."
+    },
+    {
+      "q": "Hvornår skal jeg momsregistreres i Bahrain?",
+      "a": "Når dit salg overstiger BHD 37,500. Du kan lade dig registrere frivilligt fra BHD 18,750, målt over de foregående eller de næste tolv måneder, og Bahrain tillader frivillig registrering ud fra momsbelagte udgifter såvel som salg, hvilket kan passe en virksomhed, der stadig er ved at opbygge sit salg."
+    },
+    {
+      "q": "Er e-fakturering obligatorisk i Bahrain?",
+      "a": "Ikke ifølge noget, National Bureau for Revenue har offentliggjort. Myndighedens VAT General Guide, opdateret i juli 2026, nævner ikke elektronisk fakturering, og der findes ingen vejledning om e-fakturering blandt dens publikationer. Vi gentager ikke datoer fra kommentarer, som myndigheden ikke selv har offentliggjort."
+    },
+    {
+      "q": "Hvornår skal en momsfaktura i Bahrain senest udstedes?",
+      "a": "Senest den femtende i måneden efter den måned, hvor momstidspunktet blev udløst. Det er en reel frist og ikke blot en generel forventning, og den rammer virksomheder, der samler deres fakturering ved udgangen af et kvartal."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Fakturér korrekt i Bahrain, gratis",
+  "ctaSub": "Angiv selv satsen, vis momsen pr. linje, og hav de felter, myndigheden kræver, i en skabelon, du ikke skal huske.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, version 1.15, inklusive afsnit 10.3 om krav til fakturaer",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

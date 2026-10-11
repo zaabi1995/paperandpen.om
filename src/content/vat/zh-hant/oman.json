@@ -1,0 +1,159 @@
+{
+  "locale": "zh-hant",
+  "slug": "oman",
+  "order": 1,
+  "country": "阿曼",
+  "title": "阿曼營業稅",
+  "metaTitle": "阿曼營業稅：稅率、門檻與發票 · Paper & Pen",
+  "metaDescription": "阿曼 5% 營業稅率、OMR 38,500 登記門檻，以及稅務發票必須載明的十二項內容，皆註明 Tax Authority 出處。",
+  "keywords": "阿曼營業稅, 阿曼加值稅稅率, 阿曼營業稅登記門檻, 阿曼稅務發票規定, Fawtara 電子發票, Oman Tax Authority",
+  "heroEyebrow": "阿曼",
+  "heroTitle": "依<em class=\"text-copper-400 not-italic\">阿曼營業稅</em>規定開立發票",
+  "heroSubtitle": "稅率、登記門檻、稅務發票必須載明的內容，以及電子發票的現況。本頁每個數字都註明出自 Oman Tax Authority 自行公布的文本。",
+  "heroBullets": [
+    "5% 標準稅率",
+    "OMR 38,500 起須登記",
+    "Fawtara 已宣布，尚未上線"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "營業稅標準稅率",
+      "value": "5%",
+      "note": "VAT Law 第 36 條規定，應稅貨物或服務的進口與供應，按應稅價值的百分之五課稅。",
+      "source": 1
+    },
+    {
+      "label": "強制登記門檻",
+      "value": "OMR 38,500",
+      "note": "年度供應額達到或超過此數字者須登記。法律本身並未固定這個數字，而是交由主席決定訂定。",
+      "source": 2
+    },
+    {
+      "label": "自願登記門檻",
+      "value": "OMR 19,250",
+      "note": "低於強制門檻時，自此金額起即可自願登記。",
+      "source": 2
+    },
+    {
+      "label": "發票語言",
+      "value": "阿拉伯語",
+      "note": "發票也可以英文開立，但須能依要求提供阿拉伯語譯本。",
+      "source": 3
+    },
+    {
+      "label": "簡式發票上限",
+      "value": "OMR 500",
+      "note": "低於此金額的供應，經 Tax Authority 核准後可使用簡式發票。",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Executive Regulations 第 145 條列出稅務發票必須載明的內容。該條文以「特別是」引出清單，因此應將它視為最低要求，而非完整項目。",
+    "items": [
+      "「Tax Invoice」（稅務發票）字樣",
+      "開立日期、供應日期和付款日期",
+      "連續的發票號碼",
+      "供應商的全名、地址和稅籍編號",
+      "客戶的全名、地址和稅籍編號，或其居住國的同等編號",
+      "所供應貨物和服務的說明",
+      "貨物數量",
+      "任何預付款的日期",
+      "未稅對價總額",
+      "適用的稅率",
+      "給予的任何降價或折扣，以及任何尚未計入的政府補貼",
+      "應稅價值"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority 僅以阿拉伯語公布 Executive Regulations。此清單是依官方阿拉伯語文本忠實解讀而成，並非官方英文譯本，請在依賴之前向您的稅務顧問確認措辭。"
+  },
+  "einvoicing": {
+    "status": "已宣布並分階段實施，尚未強制",
+    "body": "阿曼的電子發票計畫名為 Fawtara。Tax Authority 描述了一種五角模式，發票透過經認證的服務供應商送達該機關，並規劃四個階段：試行、擴大、小型企業加入，以及全面實施。該機關尚未以英文公布各階段日期，媒體流傳的日期也未見於其官方網頁。在 Tax Authority 公布之前，您在其他地方看到的任何 Fawtara 具體期限都應視為未經證實。",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "做對這件事",
+      "title": "在阿曼讓企業出錯的地方",
+      "body": "這裡大多數的營業稅發票問題來自三件事。第一是客戶的稅籍編號：漏填的話，您的客戶可能無法扣抵進項稅額，您的發票就變成他們的成本和您的麻煩。第二是發票編號順序。第 145 條要求連續編號，而最快破壞它的方式，就是刪除或重新編號一張已經寄出的發票。請改用折讓單更正。第三是語言：發票必須使用阿拉伯語，只以英文開立而無法依要求提供阿拉伯語版本，會讓您承擔風險。",
+      "items": [
+        "在開立前取得客戶的稅籍編號，而不是事後補",
+        "絕對不要刪除已開立的發票，改開折讓單",
+        "隨時能依要求提供阿拉伯語版本",
+        "將供應日期與開立日期分開記錄"
+      ]
+    },
+    {
+      "eyebrow": "事前準備",
+      "title": "不靠猜日期，也能為 Fawtara 做好準備",
+      "body": "不需要等公布期限才準備。該地區每個已上線的電子發票制度，要求的基本紀律都一樣：乾淨完整、包含稅籍編號的客戶資料，不中斷的發票編號，依每一行而非每張發票記錄稅務處理，以及能依要求調閱的文件保存方式。紀錄已符合這四項條件的企業，不論日期何時公布，導入都很快。不符合的企業，則會把通知期間都花在清理資料上。",
+      "items": [
+        "完整的客戶資料，包括稅籍編號",
+        "每個系列一組不中斷的發票編號",
+        "逐行記錄稅務處理",
+        "文件可依要求調閱"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "阿曼的營業稅稅率是多少？",
+      "a": "百分之五。依 Royal Decree 121/2020 公布的 VAT Law 第 36 條，應稅貨物或服務的進口與供應，按應稅價值的百分之五計算稅額。部分供應適用零稅率或免稅，兩者並不相同：適用零稅率的供應商仍可扣抵進項稅額，免稅的則不行。"
+    },
+    {
+      "q": "在阿曼什麼時候必須辦理營業稅登記？",
+      "a": "當您的年度供應額達到或預期達到 OMR 38,500 時。自 OMR 19,250 起即可自願登記。這兩個數字都來自主席關於登記門檻的決定，而非 VAT Law 本身，因此可能在法律不變的情況下調整。"
+    },
+    {
+      "q": "阿曼的電子發票已經強制實施了嗎？",
+      "a": "還沒有。Tax Authority 已宣布 Fawtara，這是一種透過經認證服務供應商、分階段實施的五角電子發票模式，並描述了四個實施階段。該機關尚未在其官方網頁以英文公布各階段日期，因此我們在此不列出日期。請查看 Tax Authority 的電子發票網頁以了解最新狀況。"
+    },
+    {
+      "q": "在阿曼可以用英文開立發票嗎？",
+      "a": "可以用英文開立，但 Executive Regulations 要求稅務發票使用阿拉伯語，並允許另外附加其他語言，前提是能依要求提供阿拉伯語譯本。實務上，這代表要使用雙語範本，而不是只有英文的範本。"
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "在阿曼正確開立發票，免費",
+  "ctaSub": "自行設定稅率、以任何幣別請款，並從同一筆紀錄產生阿拉伯語和英語發票。",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law，Royal Decree 121/2020，第 36 條",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "關於訂定強制與自願登記門檻的主席決定",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law，Decision 53/2021，第 145 至 148 條",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "電子發票 (Fawtara) 計畫網頁",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

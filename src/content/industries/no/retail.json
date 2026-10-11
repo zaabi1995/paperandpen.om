@@ -1,0 +1,35 @@
+{
+  "locale": "no",
+  "slug": "retail",
+  "order": 2,
+  "title": "Detaljhandel og butikker",
+  "metaTitle": "Fakturering og lagerprogram for butikker · Paper & Pen",
+  "metaDescription": "Gratis fakturering pluss strekkodelager, varsel om lav beholdning og oppdatert lagerverdi for butikker og detaljister. Selg raskt, gå aldri tom, hold regnskapet ryddig.",
+  "keywords": "butikkprogram, faktureringsprogram butikk, strekkode lager, kassefakturering, varsel lav beholdning, erp for detaljhandel, lager for flere butikker",
+  "heroEyebrow": "For butikker og detaljister",
+  "heroTitle": "Selg raskt, <em class=\"text-copper-400 not-italic\">gå aldri tom</em>",
+  "heroSubtitle": "Fakturer kundene på sekunder, skann strekkoder for å telle varer og la lageret oppdatere seg selv. Paper & Pen holder hyllene, salget og regnskapet i takt, så du bruker mindre tid på å telle og mer tid på å selge.",
+  "heroBullets": ["Gratis, rask fakturering", "Støtte for strekkoder og varenumre", "Varsel om lav beholdning før du går tom"],
+  "features": [
+    { "icon": "receipt", "title": "Rask fakturering", "desc": "Slå inn et salg og skriv ut eller del en kvittering på sekunder, på hvilken som helst enhet." },
+    { "icon": "inventory", "title": "Strekkodelager", "desc": "Skann for å telle eller flytte varer, ordnet etter varenummer, parti og enhet." },
+    { "icon": "bell", "title": "Varsel om lav beholdning", "desc": "Sett bestillingspunkter og bli varslet før en bestselger går tom." },
+    { "icon": "truck", "title": "Lager i flere butikker", "desc": "Følg og flytt varer mellom avdelinger med oppdatert antall overalt." },
+    { "icon": "calc", "title": "Oppdatert verdsettelse", "desc": "Gjennomsnittskost eller FIFO holder lagerverdien riktig i balansen." },
+    { "icon": "chart", "title": "Rapporter over bestselgere", "desc": "Se hva som selger og hva som blir liggende, per vare, kategori og butikk." }
+  ],
+  "sections": [
+    { "eyebrow": "Raskere i kassen", "title": "Fakturering laget for en travel disk", "body": "Kundene venter ikke. Lag et salg ved å søke opp varer, gi en rabatt, ta betalt og gi en ryddig kvittering på sekunder. Kvitteringer kan deles på WhatsApp eller skrives ut i kassen, og hvert salg går rett inn i lageret og regnskapet uten at noe må tastes inn på nytt.", "items": ["Søk for å legge til varer raskt", "Skriv ut eller del kvitteringer med en gang", "Rabatter og skatt ordnes automatisk"] },
+    { "eyebrow": "Et lager som passer på seg selv", "title": "Vit alltid hva som står på hylla", "body": "Manuelle varetellinger er utdaterte i det du gjør et salg. I Paper & Pen justerer hvert salg og hver leveranse lageret i sanntid, så tallet på skjermen stemmer med hylla. Sett bestillingspunkter, så sier systemet fra om trege påfyll før du mister et salg. Laget i Oman med innebygd OMR, AED og SAR og 5 % MVA, og klar for USD, EUR eller hvilken som helst skattesats du handler med.", "items": ["Lager i sanntid ved hvert salg", "Bestillingspunkter og varsel om lav beholdning", "Alle valutaer, alle skattesatser"] }
+  ],
+  "faqs": [
+    { "q": "Kan jeg selge med en strekkodeleser?", "a": "Ikke i kassen. I kassen søker du opp varer for å legge dem til i et salg. En strekkodeleser fungerer for lageret: skann en vare for å telle den eller flytte varer inn eller ut. Varene er ordnet etter varenummer, parti og enhet." },
+    { "q": "Oppdateres lageret når jeg gjør et salg?", "a": "Ja. Hvert salg trekker ned beholdningen og hver leveranse øker den i sanntid, i alle butikkene dine, uten manuell telling." },
+    { "q": "Kan jeg drive mer enn én butikk?", "a": "Ja. Følg lageret per butikk, flytt varer mellom avdelinger og se oppdatert antall overalt fra ett arbeidsområde." },
+    { "q": "Er faktureringen virkelig gratis?", "a": "Salg og fakturering, med kvitteringer, er gratis for alltid. Legg til Lager-modulen når du vil ha lagerstyring med strekkode og varsel om lav beholdning." },
+    { "q": "Fungerer det utenfor Gulfstatene?", "a": "Ja. Paper & Pen fungerer i alle valutaer med alle skattesatser, så butikker hvor som helst kan fakturere og styre lageret, med arabisk, engelsk og flere språk tilgjengelig." }
+  ],
+  "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
+  "ctaTitle": "Driv butikken uten gjetting",
+  "ctaSub": "Start gratis med fakturering og kvitteringer, og legg så til Lager for strekkodelager og varsel om lav beholdning."
+}

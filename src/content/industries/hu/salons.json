@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "salons",
+  "order": 5,
+  "title": "Szalonok és wellnessközpontok",
+  "metaTitle": "Szalon számlázás, munkatársak és készlet | Paper & Pen",
+  "metaDescription": "Ingyenes számlázás, termékkészlet, bérszámfejtés és vendégelőzmények szalonoknak, spáknak és klinikáknak. Számlázza gyorsan a szolgáltatásokat.",
+  "keywords": "szalon szoftver, szépségszalon számlázás, fodrászszalon program, szépségipari szoftver, munkatársi jutalék, szalon termékkészlet, vendégnyilvántartás",
+  "heroEyebrow": "Szalonoknak, spáknak és klinikáknak",
+  "heroTitle": "Gyors számlázás, <em class=\"text-copper-400 not-italic\">közeli vendégkapcsolat</em>",
+  "heroSubtitle": "Számlázza a szolgáltatásokat és a termékeladást másodpercek alatt, kövesse a felhasznált termékeket, és fizesse munkatársait a rendszer által kiszámolt jutalékkal. A Paper & Pen együtt viszi a recepciót, a raktárat és a könyveket.",
+  "heroBullets": ["Ingyenes, gyors szolgáltatásszámlázás", "Kiskereskedelmi termékkészlet", "Bérszámfejtés és jutalék"],
+  "features": [
+    { "icon": "receipt", "title": "Gyors számlázás", "desc": "Adjon hozzá szolgáltatásokat és termékeket, vegye át a fizetést, és ossza meg a nyugtát másodpercek alatt." },
+    { "icon": "users", "title": "Vendégelőzmények", "desc": "Őrizze meg az elérhetőségeket és a korábbi látogatásokat, hogy minden vendég úgy érezze, emlékeznek rá." },
+    { "icon": "inventory", "title": "Termékkészlet", "desc": "Kövesse az eladásra szánt és a szalonban használt termékeket mértékegység és tétel szerint, alacsony készlet riasztásokkal." },
+    { "icon": "hr", "title": "Munkatársak és jutalék", "desc": "Futtassa a bérszámfejtést, és számolja ki a munkatársak jutalékát a szolgáltatások és termékeladások után." },
+    { "icon": "whatsapp", "title": "WhatsApp-nyugták", "desc": "Küldjön nyugtákat és utókövető üzeneteket a vendégeknek WhatsAppon, egy koppintással." },
+    { "icon": "chart", "title": "Szolgáltatási jelentések", "desc": "Lássa a legnépszerűbb szolgáltatásokat, a csúcsidőket és a bevételt munkatársanként vagy egységenként." }
+  ],
+  "sections": [
+    { "eyebrow": "Gördülékenyebb recepció", "title": "Számlázás, amelyet a vendégei értékelni fognak", "body": "Adja hozzá a számlához a szolgáltatásokat és az esetleges termékeket, alkalmazzon kedvezményt vagy csomagot, vegye át a fizetést, és ossza meg a letisztult nyugtát WhatsAppon, mielőtt a vendég felállna a székből. A vendég adatai és látogatási előzményei ugyanazon a képernyőn vannak, így a csapat név szerint köszöntheti a törzsvendégeket, és a megfelelő következő kezelést ajánlhatja.", "items": ["Szolgáltatások és termékek egy számlán", "Nyugták azonnali megosztása WhatsAppon", "A vendég elérhetősége és látogatási előzményei kéznél"] },
+    { "eyebrow": "Készlet és munkatársak rendben", "title": "Követett termékek, helyesen fizetett munkatársak", "body": "A szalonban használt termék kisétál az ajtón, ha senki nem figyel rá. A Paper & Pen mértékegység és tétel szerint követi az eladásra szánt és a professzionális termékeket, jelzi az alacsony készletet, és a felhasználást az eladásokhoz köti. Futtassa csapata bérszámfejtését, és hagyja, hogy a rendszer kiszámolja a jutalékot az általuk eladott szolgáltatások és termékek után. Ománban készült natív OMR, AED és SAR támogatással és 5%-os ÁFA-val, és felkészült USD-re, EUR-ra vagy bármely piacra és adókulcsra.", "items": ["Eladásra szánt és szalonban használt készlet riasztásokkal", "Bérszámfejtés automatikus jutalékkal", "Bármilyen pénznem, bármilyen adókulcs, ÁFA-kész"] }
+  ],
+  "faqs": [
+    { "q": "Számlázhatok együtt szolgáltatásokat és termékeket?", "a": "Igen. Adjon hozzá szolgáltatásokat és termékeket bármilyen kombinációban egy számlához, alkalmazzon kedvezményeket vagy csomagokat, vegye át a fizetést, és ossza meg azonnal a nyugtát." },
+    { "q": "Kiszámolhatom a munkatársak jutalékát?", "a": "Igen. A HR és bérszámfejtés modul kiszámolja a jutalékot az egyes munkatársak által eladott szolgáltatások és termékek után, és számfejti a bérüket." },
+    { "q": "Megőrzi a vendégelőzményeket?", "a": "Igen. Tárolja az elérhetőségeket és a korábbi látogatásokat, hogy csapata felismerje a törzsvendégeket, és a megfelelő következő szolgáltatást ajánlja." },
+    { "q": "Követhetem a termékkészletet?", "a": "Igen. A Készlet modullal mértékegység és tétel szerint követheti az eladásra szánt és a szalonban használt termékeket, alacsony készlet riasztásokkal." },
+    { "q": "Ingyenes a számlázás egy szalonnak?", "a": "Az Értékesítés és Számlázás, a nyugtákkal és vendégadatlapokkal együtt, örökre ingyenes. A készlethez és a jutalékhoz adja hozzá a Készletet és a HR és bérszámfejtést." }
+  ],
+  "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
+  "ctaTitle": "A szalont vezesse, ne a papírmunkát",
+  "ctaSub": "Kezdje ingyen szolgáltatásszámlázással és vendégadatlapokkal, majd adja hozzá a Készletet és a Bérszámfejtést a készlethez és a jutalékhoz."
+}

@@ -1,0 +1,159 @@
+{
+  "locale": "no",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "title": "MVA i Oman",
+  "metaTitle": "MVA i Oman: sats, registreringsgrenser, fakturaer · Paper & Pen",
+  "metaDescription": "Omans MVA-sats på 5 %, registreringsgrensen på OMR 38,500 og de tolv opplysningene en skattefaktura må ha, hver med kilde hos Tax Authority.",
+  "keywords": "mva oman, mva-sats oman, registreringsgrense mva oman, krav til skattefaktura oman, fawtara e-faktura, oman tax authority",
+  "heroEyebrow": "Oman",
+  "heroTitle": "Fakturering etter <em class=\"text-copper-400 not-italic\">MVA-reglene i Oman</em>",
+  "heroSubtitle": "Satsen, registreringsgrensene, hva en skattefaktura må vise og hvor e-faktura står. Hvert tall på denne siden har kilde i teksten Oman Tax Authority selv har publisert.",
+  "heroBullets": [
+    "Standardsats 5 %",
+    "OMR 38,500 for registrering",
+    "Fawtara varslet, ikke innført ennå"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Standard MVA-sats",
+      "value": "5 %",
+      "note": "Artikkel 36 i MVA-loven setter skatten på import og levering av avgiftspliktige varer eller tjenester til fem prosent av avgiftsgrunnlaget.",
+      "source": 1
+    },
+    {
+      "label": "Grense for pliktig registrering",
+      "value": "OMR 38,500",
+      "note": "Årlig omsetning på eller over dette beløpet krever registrering. Loven overlater beløpet til en beslutning fra styrelederen i stedet for å fastsette det i selve loven.",
+      "source": 2
+    },
+    {
+      "label": "Grense for frivillig registrering",
+      "value": "OMR 19,250",
+      "note": "Fra dette nivået kan du registrere deg under grensen for pliktig registrering.",
+      "source": 2
+    },
+    {
+      "label": "Fakturaspråk",
+      "value": "Arabisk",
+      "note": "En faktura kan også utstedes på engelsk, forutsatt at en arabisk oversettelse er tilgjengelig på forespørsel.",
+      "source": 3
+    },
+    {
+      "label": "Øvre grense for forenklet faktura",
+      "value": "OMR 500",
+      "note": "Leveranser under denne verdien kan bruke forenklet faktura, med godkjenning fra Tax Authority.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Artikkel 145 i Executive Regulations lister opp hva en skattefaktura må vise. Artikkelen innleder listen med \"særlig\", så se på den som et minimum og ikke som en fullstendig liste.",
+    "items": [
+      "Ordene \"Tax Invoice\" (skattefaktura)",
+      "Utstedelsesdato, leveringsdato og betalingsdato",
+      "Et fortløpende fakturanummer",
+      "Leverandørens fulle navn, adresse og Tax Identification Number",
+      "Kundens fulle navn, adresse og Tax Identification Number, eller tilsvarende i landet der kunden hører hjemme",
+      "En beskrivelse av varene og tjenestene som leveres",
+      "Antall varer",
+      "Datoen for eventuell forskuddsbetaling",
+      "Samlet vederlag uten skatt",
+      "Skattesatsen som er brukt",
+      "Eventuell prisreduksjon eller rabatt som er gitt, og eventuell statsstøtte som ikke allerede er med",
+      "Avgiftsgrunnlaget"
+    ],
+    "source": 3,
+    "caveat": "Tax Authority publiserer Executive Regulations bare på arabisk. Denne listen er en nøyaktig gjengivelse av den offisielle arabiske teksten, ikke en offisiell engelsk oversettelse, så bekreft ordlyden med skatterådgiveren din før du stoler på den."
+  },
+  "einvoicing": {
+    "status": "Varslet og innføres i faser, ikke påbudt ennå",
+    "body": "Omans program for e-faktura heter Fawtara. Tax Authority beskriver en femhjørnemodell der fakturaene når fram til myndigheten gjennom en godkjent tjenesteleverandør, og legger opp til fire faser: en pilot, en utvidelse, innfasing av mindre bedrifter og full utrulling. Myndigheten har ikke publisert datoene for fasene på engelsk, og datoer som sirkulerer i pressen, står ikke på myndighetens egne sider. Se på enhver bestemt Fawtara-frist du leser andre steder som ubekreftet til Tax Authority publiserer den.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Slik gjør du det riktig",
+      "title": "Hva bedrifter i Oman ofte snubler i",
+      "body": "Tre ting står for de fleste problemene med MVA-fakturaer her. Det første er kundens Tax Identification Number: utelater du det, kan kunden kanskje ikke få fradrag for inngående MVA, og da blir fakturaen din deres kostnad og ditt problem. Det andre er nummerrekkefølgen. Artikkel 145 krever et fortløpende nummer, og den raskeste måten å bryte den på er å slette eller nummerere om en faktura som allerede er sendt. Rett den med en kreditnota i stedet. Det tredje er språket: fakturaen må være på arabisk, og utsteder du bare på engelsk uten en arabisk versjon tilgjengelig på forespørsel, står du utsatt.",
+      "items": [
+        "Få kundens TIN før du utsteder, ikke etterpå",
+        "Slett aldri en utstedt faktura, krediter den",
+        "Ha en arabisk versjon tilgjengelig på forespørsel",
+        "Registrer leveringsdatoen atskilt fra utstedelsesdatoen"
+      ]
+    },
+    {
+      "eyebrow": "Forberedelser",
+      "title": "Bli klar for Fawtara uten å gjette på datoer",
+      "body": "Du trenger ingen publisert frist for å være klar. Alle ordninger for e-faktura som er innført i regionen, har krevd den samme grunnleggende disiplinen: ryddige og komplette kunderegistre med skattenumre, en ubrutt fakturarekke, skattebehandling registrert per linje i stedet for per faktura, og dokumenter lagret slik at du kan hente dem fram på forespørsel. En bedrift der registrene allerede oppfyller disse fire kravene, har en kort innføring foran seg uansett når datoene kommer. En bedrift som ikke gjør det, vil bruke varslingstiden på å rydde i data i stedet.",
+      "items": [
+        "Komplette kunderegistre, med skattenumre",
+        "Én ubrutt fakturarekke per serie",
+        "Skattebehandling registrert linje for linje",
+        "Dokumenter som kan hentes fram på forespørsel"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hva er MVA-satsen i Oman?",
+      "a": "Fem prosent. Artikkel 36 i MVA-loven, kunngjort ved Royal Decree 121/2020, beregner skatten på import og levering av avgiftspliktige varer eller tjenester til fem prosent av avgiftsgrunnlaget. Noen leveranser har nullsats eller er unntatt, og det er to forskjellige ting: en leverandør med nullsats kan fortsatt få fradrag for inngående MVA, mens en unntatt leverandør ikke kan det."
+    },
+    {
+      "q": "Når må jeg registrere meg for MVA i Oman?",
+      "a": "Når den årlige omsetningen når eller ventes å nå OMR 38,500. Du kan registrere deg frivillig fra OMR 19,250. Begge beløpene kommer fra styrelederens beslutning om registreringsgrenser og ikke fra selve MVA-loven, og derfor kan de endres uten at loven endres."
+    },
+    {
+      "q": "Er e-faktura påbudt i Oman ennå?",
+      "a": "Ikke ennå. Tax Authority har varslet Fawtara, en femhjørnemodell for e-faktura som innføres i faser og bruker godkjente tjenesteleverandører, og beskriver fire faser for utrullingen. Myndigheten har ikke publisert datoene for fasene på engelsk på sine egne sider, så vi oppgir ingen dato her. Sjekk sidene om e-faktura hos Tax Authority for gjeldende status."
+    },
+    {
+      "q": "Kan jeg utstede en faktura på engelsk i Oman?",
+      "a": "Du kan utstede på engelsk, men Executive Regulations krever at skattefakturaen er på arabisk og tillater et annet språk i tillegg, forutsatt at en arabisk oversettelse er tilgjengelig på forespørsel. I praksis betyr det at du bør ha en tospråklig mal i stedet for en som bare er på engelsk."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Fakturer riktig i Oman, gratis",
+  "ctaSub": "Sett din egen skattesats, fakturer i hvilken som helst valuta og ha en arabisk og en engelsk faktura fra den samme registreringen.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law (MVA-loven), Royal Decree 121/2020, artikkel 36",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Styrelederens beslutning om grensene for pliktig og frivillig registrering",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law (forskrifter til MVA-loven), Decision 53/2021, artikkel 145 til 148",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Sider om programmet for e-faktura (Fawtara)",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

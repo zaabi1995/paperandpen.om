@@ -1,0 +1,38 @@
+{
+  "locale": "da",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Gratis moms- og afgiftsberegner",
+  "metaTitle": "Momsberegner for Oman: Læg 5 % moms til eller træk den fra",
+  "metaDescription": "Beregn Omans moms på 5 % online. Læg moms til et nettobeløb, eller træk den fra et bruttobeløb, og se netto, moms og total med det samme, uden tilmelding.",
+  "keywords": "momsberegner, momsberegner oman, afgiftsberegner, læg moms til, træk moms fra, 5 procent moms beregner, beregn moms, omvendt momsberegning",
+  "heroEyebrow": "Gratis · Ingen tilmelding",
+  "heroTitle": "Gratis <em class=\"text-copper-400 not-italic\">moms- og afgiftsberegner</em>",
+  "heroSubtitle": "Beregn Omans moms på 5 % online. Læg moms til et nettobeløb, eller træk den fra et bruttobeløb, og se netto, moms og total med det samme, uden tilmelding.",
+  "heroBullets": ["Enhver sats, enhver valuta", "Læg moms til eller træk den fra", "Gratis for altid, ingen tilmelding"],
+  "howToSteps": [
+    { "name": "Indtast beløbet", "text": "Skriv det beløb, du vil regne på, og vælg din valuta." },
+    { "name": "Angiv momssatsen", "text": "Brug Omans standardsats på 5 %, eller indtast den aktuelle sats, der gælder for din transaktion." },
+    { "name": "Vælg læg til eller træk fra", "text": "Læg moms til et nettobeløb, eller træk moms fra et bruttobeløb for at finde nettoen (omvendt moms)." },
+    { "name": "Læs resultatet", "text": "Se netto, moms og brutto opdelt med det samme, klar til at kopiere ind i en faktura." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Læg moms til eller træk den fra", "desc": "Beregn moms fremad af et nettobeløb, eller træk den ud af et bruttobeløb med ét klik." },
+    { "icon": "globe", "title": "Enhver sats, enhver valuta", "desc": "Omans 5 % som standard, eller angiv den sats, der gælder for dig, i OMR, AED, SAR, USD, EUR og flere." },
+    { "icon": "bolt", "title": "Med det samme og gratis", "desc": "Ingen tilmelding, ingen grænser. Få netto, moms og brutto, så snart du skriver." }
+  ],
+  "sections": [
+    { "title": "Hvorfor bruge momsberegneren fra Paper & Pen?", "body": "Uanset om du prissætter et tilbud, tjekker en faktura eller laver en angivelse, skal netto, moms og brutto stemme ned til sidste decimal. Denne beregner håndterer enhver sats i enhver valuta, virker begge veje (læg moms til, eller træk den ud af en total) og er helt gratis. Den åbner med Omans sats på 5 % og kan indstilles fuldt ud til andre lande." },
+    { "eyebrow": "Mere end en beregner", "title": "Lad dit program klare momsen for dig", "body": "At regne moms i hånden på hver linje er langsomt og giver fejl. I det fulde Paper & Pen ERP lægges moms automatisk på nettobeløbet efter rabat på hver faktura, registreres i regnskabet og samles i rapporter klar til angivelse, så du helt holder op med at tage lommeregneren frem.", "items": ["Automatisk moms på hver faktura og hvert tilbud", "Momssatser pr. vare og pr. dokument", "Momsoversigter klar til indberetning"] }
+  ],
+  "faqs": [
+    { "q": "Hvilken sats bruger denne momsberegner for Oman?", "a": "Beregneren åbner med Omans sats på 5 %. Reglerne kan ændre sig, så bekræft den aktuelle sats hos Oman Tax Authority, før du stoler på en beregning. Du kan indtaste enhver sats." },
+    { "q": "Hvordan trækker jeg moms fra en total?", "a": "Vælg muligheden træk fra (omvendt), og indtast bruttobeløbet. Beregneren finder nettoen og den momsandel, der var med i totalen." },
+    { "q": "Kan jeg bruge den til salgsafgift uden for Oman?", "a": "Ja. Angiv den sats, der gælder for din transaktion, og vælg enhver valuta. Den virker til moms, GST eller salgsafgift overalt i verden." },
+    { "q": "Beregner den moms af et beløb med rabat?", "a": "Indtast nettobeløbet efter rabat, og læg moms til. Vil du have automatisk moms efter rabat på hele fakturaer, så opret et gratis workspace i Paper & Pen, hvor det klares for dig." }
+  ],
+  "related": ["/vat/oman", "/tools/free-invoice-generator", "/tools/free-quotation-generator", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Hold op med at regne moms i hånden",
+  "ctaSub": "Læg moms på automatisk på hver faktura, og få momsrapporter klar til angivelse med et gratis workspace i Paper & Pen."
+}

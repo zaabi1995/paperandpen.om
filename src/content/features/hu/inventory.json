@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Készletkezelés",
+  "metaTitle": "Készletkezelő szoftver · Raktárkezelés · Paper & Pen",
+  "metaDescription": "Kövesse valós időben a készletet raktárak között, alacsony készlet riasztással, tétel- és vonalkód-támogatással és a könyvelésbe kerülő élő értékeléssel.",
+  "keywords": "készletkezelés, készletnyilvántartás, raktárkezelő program, alacsony készlet riasztás, vonalkódos készletkezelés, készletértékelés, több raktár",
+  "heroEyebrow": "Kiegészítő modul",
+  "heroTitle": "Készlet, amelyben <em class=\"text-copper-400 not-italic\">megbízhat</em>, valós időben",
+  "heroSubtitle": "Tudja pontosan, mi van raktáron, hol van és mennyit ér. A készlet abban a pillanatban frissül, amikor számlát állít ki vagy árut vesz át, így a számai mindig élők.",
+  "heroBullets": ["Élő készlet raktárak között", "Alacsony készlet és újrarendelési riasztások", "Az értékelés a könyvelésbe kerül"],
+  "features": [
+    { "icon": "inventory", "title": "Valós idejű készlet", "desc": "A mennyiségek abban a pillanatban frissülnek, amikor elad, beszerez vagy áthelyez árut." },
+    { "icon": "truck", "title": "Több raktár", "desc": "Kövesse és helyezze át a készletet telephelyek és fióktelepek között, teljes rálátással." },
+    { "icon": "bell", "title": "Alacsony készlet riasztások", "desc": "Állítson be újrarendelési szinteket, és kapjon figyelmeztetést, mielőtt egy gyorsan fogyó cikk elfogy." },
+    { "icon": "receipt", "title": "Vonalkód és cikkszám", "desc": "Szkenneljen a leltározáshoz vagy a készletmozgatáshoz, cikkszám, tétel és mértékegység szerint rendezve." },
+    { "icon": "calc", "title": "Élő értékelés", "desc": "Az átlagáras vagy FIFO bekerülési érték pontosan tartja a készlet értékét a mérlegben." },
+    { "icon": "refresh", "title": "Összekapcsolva az értékesítéssel", "desc": "A számlák és megrendelők automatikusan mozgatják a készletet, kézi frissítés nélkül." }
+  ],
+  "sections": [
+    { "eyebrow": "Mindig pontos", "title": "Készlet, amely magától frissül", "body": "A kézi leltár az első eladás pillanatában elavul. A Paper & Pen-ben minden számla, beszerzés és áthelyezés valós időben módosítja a készletet és a bekerülési értéket, így a képernyőn látott szám megegyezik a polcon lévővel. Állítson be újrarendelési szinteket, és a rendszer szól, mikor kell vásárolnia.", "items": ["Minden tranzakciónál automatikusan igazodik", "Újrarendelési szintek és riasztások", "Tétel, cikkszám és mértékegység szerinti követés"] },
+    { "eyebrow": "A készlet és a könyvek egyben", "title": "A polctól a mérlegig", "body": "A készletkezelés nem csupán dobozok számolása, hanem valódi pénz a mérlegében. A Paper & Pen átlagáras vagy FIFO módszerrel értékeli a készletet, és a mozgásokat automatikusan a könyvelésbe könyveli, így az eladott áruk beszerzési értéke és a készletérték mindig egyeztetett. Bármilyen pénznemben, bármely piacon működik.", "items": ["Átlagáras vagy FIFO értékelés", "Automatikus könyvelés", "Beszerzés több pénznemben"] }
+  ],
+  "faqs": [
+    { "q": "Ingyenesen benne van a készletkezelés?", "a": "A Készlet választható, fizetős kiegészítő modul. Az alap Értékesítés és Számlázás modul örökre ingyenes, a Készletet pedig akkor adja hozzá, amikor valós idejű készletkezelésre van szüksége." },
+    { "q": "Kezelhetek több raktárt?", "a": "Igen. Kövesse a készletet telephelyenként, helyezzen át közöttük, és lássa mindenhol az élő mennyiségeket." },
+    { "q": "Támogatja a vonalkódokat?", "a": "Igen. Szkennelje be a beszállítói vonalkódot, a cikkszámot vagy a nyomtatott QR-címkét a gyorsabb leltározáshoz és készletmozgatáshoz, tétel- és mértékegység-támogatással." },
+    { "q": "Hogyan értékeli a készletet?", "a": "Válasszon átlagár vagy FIFO között. Az értékelés minden mozgással frissül, és automatikusan a könyvelésbe kerül." },
+    { "q": "Az eladás automatikusan frissíti a készletet?", "a": "Igen. A számlák valós időben csökkentik, a beszerzések növelik a készletet, így soha nem kell kézzel módosítania a mennyiségeket." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Vegye kézbe a készletét",
+  "ctaSub": "Kezdje ingyen a számlázással, és adja hozzá a Készletet, amikor készen áll a valós idejű készletre minden telephelyen."
+}

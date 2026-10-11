@@ -1,0 +1,35 @@
+{
+  "locale": "no",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Lagerstyring",
+  "metaTitle": "Lagerstyringsprogram · Lager i sanntid · Paper & Pen",
+  "metaDescription": "Følg lagerbeholdningen på tvers av lagre i sanntid, med varsel om lav beholdning, parti og strekkode, og verdsettelse som føres i regnskapet. Fungerer overalt.",
+  "keywords": "lagerstyring, lagerprogram, lagersystem, varelager, strekkode lager, lagerverdi, flere lagre, bestillingspunkt",
+  "heroEyebrow": "Tilleggsmodul",
+  "heroTitle": "Et lager du kan <em class=\"text-copper-400 not-italic\">stole på</em>, i sanntid",
+  "heroSubtitle": "Vit nøyaktig hva du har, hvor det er og hva det er verdt. Lageret oppdateres i det du fakturerer eller tar imot varer, så tallene dine alltid er oppdaterte.",
+  "heroBullets": ["Oppdatert beholdning på tvers av lagre", "Varsler om lav beholdning og bestilling", "Verdsettelsen føres i regnskapet"],
+  "features": [
+    { "icon": "inventory", "title": "Lager i sanntid", "desc": "Antallet oppdateres i det du selger, kjøper inn eller flytter varer." },
+    { "icon": "truck", "title": "Flere lagre", "desc": "Følg og flytt varer mellom lagersteder og avdelinger med full oversikt." },
+    { "icon": "bell", "title": "Varsel om lav beholdning", "desc": "Sett bestillingspunkter og bli varslet før en populær vare går tom." },
+    { "icon": "receipt", "title": "Strekkode og varenummer", "desc": "Skann for å telle eller flytte varer, ordnet etter varenummer, parti og enhet." },
+    { "icon": "calc", "title": "Oppdatert verdsettelse", "desc": "Gjennomsnittskost eller FIFO holder lagerverdien riktig i balansen." },
+    { "icon": "refresh", "title": "Koblet til salget", "desc": "Fakturaer og innkjøpsordrer flytter varer automatisk, uten manuelle oppdateringer." }
+  ],
+  "sections": [
+    { "eyebrow": "Alltid riktig", "title": "Et lager som oppdaterer seg selv", "body": "Manuelle varetellinger er utdaterte i det du gjør et salg. I Paper & Pen justerer hver faktura, hvert innkjøp og hver flytting beholdning og kostnad i sanntid, så tallet på skjermen er tallet på hylla. Sett bestillingspunkter og la systemet si fra når du bør kjøpe inn.", "items": ["Justeres automatisk ved hver transaksjon", "Bestillingspunkter og varsler", "Sporing av parti, varenummer og enhet"] },
+    { "eyebrow": "Lageret møter regnskapet", "title": "Fra hylla til balansen", "body": "Lager handler ikke bare om å telle esker, det er ekte penger i balansen. Paper & Pen verdsetter lageret med gjennomsnittskost eller FIFO og fører bevegelsene i regnskapet automatisk, så varekostnaden og lagerverdien alltid er avstemt. Fungerer i alle valutaer, i alle markeder.", "items": ["Gjennomsnittskost eller FIFO", "Føres automatisk i regnskapet", "Innkjøp i flere valutaer"] }
+  ],
+  "faqs": [
+    { "q": "Er lager inkludert gratis?", "a": "Lager er et valgfritt betalt tillegg. Kjernemodulen Salg og fakturering er gratis for alltid, og du legger til Lager når du trenger lagerstyring i sanntid." },
+    { "q": "Kan jeg håndtere flere lagre?", "a": "Ja. Følg beholdningen per lagersted, flytt varer mellom dem og se oppdatert antall overalt." },
+    { "q": "Støtter det strekkoder?", "a": "Ja. Skann leverandørens strekkode, et varenummer eller en utskrevet QR-etikett for å telle og flytte varer raskere, med støtte for parti og enhet." },
+    { "q": "Hvordan verdsettes lageret?", "a": "Velg gjennomsnittskost eller FIFO. Verdsettelsen oppdateres ved hver bevegelse og føres automatisk i regnskapet." },
+    { "q": "Oppdaterer salg lageret automatisk?", "a": "Ja. Fakturaer trekker ned beholdningen og innkjøp øker den i sanntid, så du aldri oppdaterer antall for hånd." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Ta kontroll over lageret",
+  "ctaSub": "Start gratis med fakturering og legg til Lager når du er klar for lagerstyring i sanntid på alle lagersteder."
+}

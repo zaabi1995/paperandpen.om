@@ -1,0 +1,37 @@
+{
+  "locale": "da",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Gratis indkøbsordregenerator",
+  "metaTitle": "Gratis indkøbsordregenerator · Paper & Pen",
+  "metaDescription": "Lav indkøbsordrer online gratis. Tilføj leverandør og varer, vælg enhver valuta og moms, og download en PDF klar til print på sekunder.",
+  "keywords": "gratis indkøbsordre, lav indkøbsordre, indkøbsordre online, gratis indkøbsordre skabelon, download indkøbsordre pdf, bestillingsformular til leverandør",
+  "heroEyebrow": "Gratis · Ingen tilmelding",
+  "heroTitle": "Gratis indkøbsordregenerator",
+  "heroSubtitle": "Send en klar indkøbsordre til enhver leverandør på sekunder. Tilføj dine varelinjer, vælg enhver valuta, læg moms på, og download en PDF klar til print. Ingen konto nødvendig.",
+  "howToSteps": [
+    { "name": "Tilføj dine oplysninger", "text": "Skriv dit firmanavn, leverandøren, et ordrenummer og en dato." },
+    { "name": "Tilføj varelinjer", "text": "Angiv de varer eller ydelser, du bestiller, med antal og pris. Totalerne beregnes automatisk." },
+    { "name": "Vælg valuta og moms", "text": "Vælg enhver valuta, og angiv den moms- eller salgsafgiftssats, der gælder." },
+    { "name": "Download PDF", "text": "Klik på download for at sende en indkøbsordre klar til print, eller tilmeld dig for at følge leveringen og matche den med leverandørens regning." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Med det samme og gratis", "desc": "Ingen tilmelding, intet vandmærke, ingen grænser. Opret så mange indkøbsordrer, du har brug for." },
+    { "icon": "globe", "title": "Enhver valuta", "desc": "Bestil i OMR, AED, SAR, USD, EUR, GBP og flere, ideelt til udenlandske leverandører." },
+    { "icon": "cart", "title": "Klare ordrebetingelser", "desc": "Angiv antal, leveringsoplysninger og betalingsbetingelser, så leverandøren sender præcis det, du har brug for." }
+  ],
+  "sections": [
+    { "title": "Hvorfor bruge indkøbsordregeneratoren fra Paper & Pen?", "body": "En indkøbsordre er din formelle, sporbare instruks til en leverandør og din beskyttelse, hvis en levering er forkert. Vores er gratis, virker i flere valutaer og laver en pæn PDF, som enhver leverandør vil genkende. Intet regneark, ingen tilmelding." },
+    { "eyebrow": "Mere end en generator", "title": "Fra indkøbsordre til lager til leverandørregning", "body": "En PDF er starten. Et rigtigt indkøbsflow kobler ordren til modtagne varer, leverandørregninger og din lagerbeholdning. I det fulde Paper & Pen ERP følger en indkøbsordre, hvad der er bestilt, opdaterer lageret, når varerne ankommer, og matcher leverandørens regning, så du aldrig betaler for meget.", "items": ["Følg bestilte, modtagne og udestående antal", "Opdatér lageret automatisk ved varemodtagelse", "Match leverandørens regning med den oprindelige indkøbsordre"] }
+  ],
+  "faqs": [
+    { "q": "Hvad er en indkøbsordre?", "a": "En indkøbsordre er et dokument, du sender til en leverandør for formelt at bestille varer eller ydelser til en aftalt pris og et aftalt antal. Den bliver en bindende ordre, når leverandøren accepterer." },
+    { "q": "Er indkøbsordregeneratoren virkelig gratis?", "a": "Ja. Den er helt gratis uden tilmelding, uden vandmærke og uden grænse for, hvor mange indkøbsordrer du laver." },
+    { "q": "Kan jeg bestille hos en udenlandsk leverandør i dennes valuta?", "a": "Ja. Vælg enhver valuta, blandt andet USD, EUR og GBP, med automatisk tilpassede decimaler, så ordrer på tværs af grænser er klare." },
+    { "q": "Kan jeg følge leveringen og matche leverandørens regning?", "a": "Download indkøbsordren gratis, eller opret et gratis workspace i Paper & Pen for at følge modtagne varer, opdatere lageret og matche leverandørregninger med dine indkøbsordrer." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Bestil med kontrol",
+  "ctaSub": "Følg hver indkøbsordre, opdatér lageret ved modtagelse, og match leverandørregninger med et gratis workspace i Paper & Pen."
+}

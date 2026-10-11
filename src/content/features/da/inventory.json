@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "inventory",
+  "order": 4,
+  "title": "Lager",
+  "metaTitle": "Lagerstyringsprogram · Paper & Pen",
+  "metaDescription": "Følg lageret på tværs af lagre i realtid med varsler om lav beholdning, batch og stregkoder, og en løbende værdiansættelse, der bogføres. Virker overalt.",
+  "keywords": "lagerstyring, lagerkontrol, lagerprogram, varsel om lav beholdning, stregkode lager, lagerværdi, flere lagre",
+  "heroEyebrow": "Tilvalgsmodul",
+  "heroTitle": "Et lager, du kan <em class=\"text-copper-400 not-italic\">stole på</em>, i realtid",
+  "heroSubtitle": "Vid præcis, hvad du har, hvor det er, og hvad det er værd. Lageret opdateres, i det øjeblik du fakturerer eller modtager varer, så dine tal altid er aktuelle.",
+  "heroBullets": ["Aktuel beholdning på tværs af lagre", "Varsler om lav beholdning og genbestilling", "Lagerværdien bogføres i regnskabet"],
+  "features": [
+    { "icon": "inventory", "title": "Beholdning i realtid", "desc": "Antal opdateres, i det øjeblik du sælger, køber eller flytter varer." },
+    { "icon": "truck", "title": "Flere lagre", "desc": "Følg og flyt varer mellem lokationer og afdelinger med fuldt overblik." },
+    { "icon": "bell", "title": "Varsel om lav beholdning", "desc": "Sæt genbestillingspunkter, og få besked, før en populær vare slipper op." },
+    { "icon": "receipt", "title": "Stregkode og varenummer", "desc": "Scan for at tælle eller flytte varer, ordnet efter varenummer, batch og enhed." },
+    { "icon": "calc", "title": "Løbende værdiansættelse", "desc": "Gennemsnitspris eller FIFO holder lagerværdien korrekt på balancen." },
+    { "icon": "refresh", "title": "Koblet til salget", "desc": "Fakturaer og indkøbsordrer flytter varer automatisk, uden manuel opdatering." }
+  ],
+  "sections": [
+    { "eyebrow": "Altid korrekt", "title": "Et lager, der opdaterer sig selv", "body": "Manuelle optællinger er forældede, i det øjeblik du sælger noget. I Paper & Pen justerer hver faktura, hvert køb og hver flytning beholdning og kostpris i realtid, så tallet på skærmen er tallet på hylden. Sæt genbestillingspunkter, og lad systemet sige til, når du skal købe ind.", "items": ["Justeres ved hver transaktion", "Genbestillingspunkter og varsler", "Batch, varenummer og enhed"] },
+    { "eyebrow": "Lageret møder regnskabet", "title": "Fra hylde til balance", "body": "Lager er ikke bare at tælle kasser, det er rigtige penge på din balance. Paper & Pen værdiansætter lageret med gennemsnitspris eller FIFO og bogfører bevægelser automatisk, så vareforbrug og lagerværdi altid er afstemt. Virker i enhver valuta på ethvert marked.", "items": ["Gennemsnitspris eller FIFO", "Bogføres automatisk i regnskabet", "Indkøb i flere valutaer"] }
+  ],
+  "faqs": [
+    { "q": "Er lager med gratis?", "a": "Lager er et valgfrit betalt tilvalg. Kernemodulet Salg og fakturering er gratis for altid, og du tilføjer Lager, når du har brug for lagerstyring i realtid." },
+    { "q": "Kan jeg styre flere lagre?", "a": "Ja. Følg beholdningen pr. lokation, flyt mellem dem, og se aktuelle antal overalt." },
+    { "q": "Understøtter det stregkoder?", "a": "Ja. Scan en leverandørstregkode, et varenummer eller en printet QR-etiket for at tælle og flytte varer hurtigere, med understøttelse af batch og enheder." },
+    { "q": "Hvordan værdiansættes lageret?", "a": "Vælg gennemsnitspris eller FIFO. Værdien opdateres ved hver bevægelse og bogføres automatisk i regnskabet." },
+    { "q": "Opdaterer salg beholdningen automatisk?", "a": "Ja. Fakturaer trækker fra lageret, og køb lægger til i realtid, så du aldrig retter antal i hånden." }
+  ],
+  "related": ["/features/accounting", "/features/manufacturing", "/industries/trading", "/industries/retail", "/pricing"],
+  "ctaTitle": "Få styr på dit lager",
+  "ctaSub": "Start gratis med fakturering, og tilføj Lager, når du er klar til beholdning i realtid på alle lokationer."
+}

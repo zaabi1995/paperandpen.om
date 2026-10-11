@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "reports",
+  "order": 8,
+  "title": "Jelentések",
+  "metaTitle": "Üzleti jelentések és elemzések · Paper & Pen",
+  "metaDescription": "Élő irányítópultok és jelentések az értékesítésről, a pénzről, a nyereségről, az adóról és a készletről. Lefúrás a forrásig, export Excelbe vagy PDF-be.",
+  "keywords": "üzleti jelentések, elemző irányítópult, értékesítési jelentés, eredménykimutatás, adójelentés, pénzügyi kimutatások, exportálás excelbe",
+  "heroEyebrow": "Kiegészítő modul",
+  "heroTitle": "Döntések <em class=\"text-copper-400 not-italic\">élő számokra</em> építve",
+  "heroSubtitle": "Minden eladás, fizetés és mozgás áttekinthető irányítópultokba és jelentésekbe összesül, valós időben. Lássa, mi fogy, ki tartozik Önnek és hol a nyereség, majd exportálja bárhová.",
+  "heroBullets": ["Valós idejű irányítópultok", "Lefúrás a forrásbizonylatig", "Export Excelbe vagy PDF-be"],
+  "features": [
+    { "icon": "reports", "title": "Értékesítési elemzések", "desc": "Lássa a legkelendőbb termékeket, a legjobb ügyfeleket és a trendeket bármely időszakra." },
+    { "icon": "chart", "title": "Pénzügyi kimutatások", "desc": "Eredménykimutatás, mérleg, cash flow és korosított kintlévőségek." },
+    { "icon": "calc", "title": "Adójelentések", "desc": "Az előzetesen felszámított és a fizetendő adó összesítései, ÁFA-bevallásra készen." },
+    { "icon": "inventory", "title": "Készletjelentések", "desc": "Értékelési, mozgási és alacsony készlet jelentések raktárak között." },
+    { "icon": "doc", "title": "Lefúrás a forrásig", "desc": "Kattintson bármely számra, és kövesse vissza a pontos bizonylatig, amely mögötte áll." },
+    { "icon": "refresh", "title": "Mindig naprakész", "desc": "A jelentések élőben frissülnek a tranzakciókkal, éjszakai feldolgozás nélkül." }
+  ],
+  "sections": [
+    { "eyebrow": "Átláthatóság egy pillantással", "title": "Egy irányítópult az egész vállalkozásnak", "body": "Nyissa meg a Paper & Pen-t, és lássa a fontos számokat: a pénzt a bankban, ki tartozik Önnek, mi fogy, és mennyi a nyeresége ebben a hónapban. Mivel minden valós időben könyvelődik, az irányítópult maga a valóság, nem a múlt heti pillanatkép.", "items": ["Pénz, kintlévőségek és nyereség elöl", "Szűrés időszak, ügyfél vagy termék szerint", "Élő, sosem elavult"] },
+    { "eyebrow": "Megosztás és mélyebb elemzés", "title": "Jelentések, amelyekben könyvelője és igazgatósága megbízik", "body": "Bármely jelentésből lefúrhat egyenesen a forrásbizonylatig, majd exportálhat Excelbe vagy PDF-be a könyvelőjének, a bankjának vagy az igazgatóságnak. Készítsen jelentést bármilyen pénznemben, és váltsa a felületet arab, angol, hindi, bengáli vagy urdu nyelvre, hogy mindenki ugyanazokat a számokat olvassa a saját nyelvén.", "items": ["Lefúrás minden tranzakcióig", "Export Excelbe és PDF-be", "Több pénznem és több nyelv"] }
+  ],
+  "faqs": [
+    { "q": "Ingyenesek a jelentések?", "a": "A Jelentések választható, fizetős kiegészítő modul. Az örökre ingyenes alap tartalmazza a számlázási irányítópultokat, a teljes jelentéscsomag pedig akkor érhető el, amikor mélyebb elemzésekre van szüksége." },
+    { "q": "Valós idejűek a jelentések?", "a": "Igen. Minden tranzakció élőben könyvelődik, így az irányítópultok és a jelentések mindig vállalkozása aktuális állapotát mutatják." },
+    { "q": "Exportálhatom a jelentéseket?", "a": "Igen. Exportáljon Excelbe vagy PDF-be, hogy megossza könyvelőjével, bankjával vagy az igazgatósággal." },
+    { "q": "Visszakövethetek egy számot a forrásáig?", "a": "Igen. Kattintson bármely számra, és fúrjon le a pontos számláig, fizetésig vagy könyvelési tételig, amely mögötte áll." },
+    { "q": "Támogatják a jelentések a több pénznemet?", "a": "Igen. Készítsen jelentést bármilyen pénznemben, és használja a felületet öt nyelven." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Lássa tisztán a vállalkozását",
+  "ctaSub": "Kezdje ingyen a számlázással, és adja hozzá a Jelentéseket az élő irányítópultokhoz és az exportra kész elemzésekhez."
+}

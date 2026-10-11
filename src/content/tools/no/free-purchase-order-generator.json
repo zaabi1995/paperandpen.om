@@ -1,0 +1,37 @@
+{
+  "locale": "no",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Gratis generator for innkjøpsordrer",
+  "metaTitle": "Gratis generator for innkjøpsordrer · Paper & Pen",
+  "metaDescription": "Lag innkjøpsordrer gratis på nett. Legg til leverandøren og varene, velg valuta og skatt, og last ned en PDF klar til utskrift på sekunder.",
+  "keywords": "gratis innkjøpsordre, lage innkjøpsordre, innkjøpsordre på nett, mal for innkjøpsordre, last ned innkjøpsordre pdf, bestillingsskjema leverandør",
+  "heroEyebrow": "Gratis · Ingen registrering",
+  "heroTitle": "Gratis generator for innkjøpsordrer",
+  "heroSubtitle": "Send en tydelig innkjøpsordre til hvilken som helst leverandør på sekunder. Legg til linjene, velg hvilken som helst valuta, legg på skatt og last ned en PDF klar til utskrift. Ingen konto nødvendig.",
+  "howToSteps": [
+    { "name": "Legg inn opplysningene dine", "text": "Skriv inn firmanavnet ditt, leverandøren, et ordrenummer og en dato." },
+    { "name": "Legg til linjer", "text": "List opp varene eller tjenestene du bestiller, med antall og enhetspris. Summene regnes ut automatisk." },
+    { "name": "Velg valuta og skatt", "text": "Velg hvilken som helst valuta og angi MVA- eller omsetningsavgiftssatsen som gjelder." },
+    { "name": "Last ned PDF", "text": "Klikk på last ned for å sende en innkjøpsordre klar til utskrift, eller registrer deg for å følge leveransen og avstemme den mot leverandørfakturaen." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Med en gang og gratis", "desc": "Ingen registrering, ingen vannmerke, ingen grenser. Opprett så mange innkjøpsordrer du trenger." },
+    { "icon": "globe", "title": "Alle valutaer", "desc": "Bestill i OMR, AED, SAR, USD, EUR, GBP og flere, ideelt for leverandører i utlandet." },
+    { "icon": "cart", "title": "Tydelige ordrevilkår", "desc": "Oppgi antall, leveringsdetaljer og betalingsvilkår, så leverandørene sender nøyaktig det du trenger." }
+  ],
+  "sections": [
+    { "title": "Hvorfor bruke generatoren for innkjøpsordrer fra Paper & Pen?", "body": "En innkjøpsordre er din formelle, sporbare bestilling til en leverandør og din beskyttelse hvis en leveranse er feil. Vår er gratis, fungerer i flere valutaer og lager en ryddig PDF som alle leverandører kjenner igjen. Ingen regneark, ingen registrering." },
+    { "eyebrow": "Mer enn generatoren", "title": "Fra innkjøpsordre til lager til leverandørfaktura", "body": "En PDF er bare starten. En ekte innkjøpsflyt kobler ordren til mottatte varer, leverandørfakturaer og lagerbeholdningen. I hele Paper & Pen ERP følger en innkjøpsordre med på hva som er bestilt, oppdaterer lageret når varene kommer, og avstemmes mot leverandørfakturaen, så du aldri betaler for mye.", "items": ["Følg bestilte, mottatte og utestående antall", "Oppdater lageret automatisk ved varemottak", "Avstem leverandørfakturaen mot den opprinnelige innkjøpsordren"] }
+  ],
+  "faqs": [
+    { "q": "Hva er en innkjøpsordre?", "a": "En innkjøpsordre er et dokument du sender til en leverandør for formelt å bestille varer eller tjenester til en avtalt pris og et avtalt antall. Den blir en bindende ordre når leverandøren aksepterer." },
+    { "q": "Er generatoren for innkjøpsordrer virkelig gratis?", "a": "Ja. Den er helt gratis, uten registrering, uten vannmerke og uten grense på hvor mange innkjøpsordrer du lager." },
+    { "q": "Kan jeg bestille fra en leverandør i utlandet i deres valuta?", "a": "Ja. Velg hvilken som helst valuta, blant annet USD, EUR og GBP, med desimalene tilpasset automatisk, så bestillinger over landegrensene blir tydelige." },
+    { "q": "Kan jeg følge leveransen og avstemme leverandørfakturaen?", "a": "Last ned innkjøpsordren gratis, eller opprett et gratis Paper & Pen-arbeidsområde for å følge mottatte varer, oppdatere lageret og avstemme leverandørfakturaer mot innkjøpsordrene dine." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Bestill med kontroll",
+  "ctaSub": "Følg hver innkjøpsordre, oppdater lageret ved mottak og avstem leverandørfakturaer med et gratis Paper & Pen-arbeidsområde."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "no",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Produksjon",
+  "metaTitle": "Produksjonsstyring og produksjonsprogram · Paper & Pen",
+  "metaDescription": "Planlegg produksjonen med stykklister, arbeidsordrer og ekte kalkyle. Trekk råvarer, lag ferdigvarer og kjenn din reelle margin. Fungerer over hele verden.",
+  "keywords": "produksjonsprogram, produksjonsstyring, stykkliste, bom, arbeidsordre, produksjonskalkyle, ferdigvarer",
+  "heroEyebrow": "Tilleggsmodul",
+  "heroTitle": "Produser på bestilling, <em class=\"text-copper-400 not-italic\">kalkuler på rialen</em>",
+  "heroSubtitle": "Gjør råvarer om til ferdigvarer med stykklister og arbeidsordrer, mens Paper & Pen følger kostnaden for hver komponent, så du alltid kjenner din reelle margin.",
+  "heroBullets": ["Stykklister og arbeidsordrer", "Automatisk lagertrekk", "Ekte produksjonskalkyle"],
+  "features": [
+    { "icon": "manufacturing", "title": "Stykklister", "desc": "Angi hva som går inn i hvert produkt, med antall og underenheter." },
+    { "icon": "doc", "title": "Arbeidsordrer", "desc": "Planlegg og følg produksjonsserier fra råvarer til ferdig lager." },
+    { "icon": "inventory", "title": "Automatiske lagerbevegelser", "desc": "Råvarer trekkes og ferdigvarer legges til mens du produserer." },
+    { "icon": "calc", "title": "Produksjonskalkyle", "desc": "Samle material- og indirekte kostnader til en riktig verdi på ferdigvarene." },
+    { "icon": "chart", "title": "Oversikt over marginen", "desc": "Sammenlign produksjonskostnad med salgspris og se reell margin per vare." },
+    { "icon": "refresh", "title": "Koblet fra start til slutt", "desc": "Knytt sammen innkjøp, lager og salg i én sammenhengende flyt." }
+  ],
+  "sections": [
+    { "eyebrow": "Planlegg med trygghet", "title": "Fra oppskrift til ferdigvarer", "body": "Angi en stykkliste én gang, så vet Paper & Pen nøyaktig hva hver produksjon bruker. Opprett en arbeidsordre, så reserveres og trekkes råvarene mens ferdigvarene legges til på lager, og hele kalkylen ordnes for deg.", "items": ["Stykklister du kan bruke om igjen", "Arbeidsordrer med lagerreservasjon", "Automatisk trekk og mottak av ferdigvarer"] },
+    { "eyebrow": "Kjenn din reelle margin", "title": "En kalkyle som forteller sannheten", "body": "Å gjette kostnaden er å gjette fortjenesten. Paper & Pen samler material- og indirekte kostnader til en ekte kostnad for ferdigvarene, fører den i regnskapet og viser marginen på hvert salg. Fungerer i alle valutaer, så du kan kjøpe inn og selge på tvers av landegrenser.", "items": ["Kalkyle med material og indirekte kostnader", "Føres automatisk i regnskapet", "Margin per produkt og per ordre"] }
+  ],
+  "faqs": [
+    { "q": "Er produksjon gratis?", "a": "Produksjon er et valgfritt betalt tillegg. Kjernemodulen Salg og fakturering er gratis for alltid, og du legger til Produksjon når du lager varer." },
+    { "q": "Kan jeg lage stykklister?", "a": "Ja. Lag en stykkliste (BOM) for hvert produkt, også med underenheter, og bruk den om igjen i hver produksjonsserie." },
+    { "q": "Trekker det lager automatisk?", "a": "Ja. Når du behandler en arbeidsordre, trekkes råvarene og ferdigvarene legges til på lager automatisk." },
+    { "q": "Hvordan beregnes produksjonskostnaden?", "a": "Material- og indirekte kostnader samles i verdien på ferdigvarene, som føres i regnskapet så marginene dine blir riktige." },
+    { "q": "Fungerer det i alle valutaer?", "a": "Ja. Kjøp inn materialer og selg ferdigvarer i hvilken som helst valuta, med kalkyle og regnskap holdt i takt." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Kalkuler hver produksjon riktig",
+  "ctaSub": "Start gratis med fakturering og legg til Produksjon for å planlegge produksjonen og kjenne din reelle margin."
+}

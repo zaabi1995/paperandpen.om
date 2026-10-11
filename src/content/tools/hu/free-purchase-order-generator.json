@@ -1,0 +1,37 @@
+{
+  "locale": "hu",
+  "slug": "free-purchase-order-generator",
+  "toolType": "purchase-order",
+  "order": 5,
+  "title": "Ingyenes megrendelő-készítő",
+  "metaTitle": "Ingyenes online megrendelő-készítő · Paper & Pen",
+  "metaDescription": "Készítsen beszerzési megrendelőket online, ingyen. Adja meg a beszállítót és a tételeket, válasszon pénznemet és adót, és töltsön le nyomtatásra kész PDF-et.",
+  "keywords": "ingyenes megrendelő készítő, megrendelő minta, beszerzési megrendelő készítése online, ingyenes megrendelőlap sablon, megrendelő letöltése pdf, beszállítói rendelőlap",
+  "heroEyebrow": "Ingyenes · Regisztráció nélkül",
+  "heroTitle": "Ingyenes megrendelő-készítő",
+  "heroSubtitle": "Küldjön áttekinthető megrendelőt bármely beszállítónak másodpercek alatt. Adja meg a tételeket, válasszon bármilyen pénznemet, alkalmazza az adót, majd töltsön le nyomtatásra kész PDF-et. Fiók nélkül.",
+  "howToSteps": [
+    { "name": "Adja meg az adatait", "text": "Írja be a cége nevét, a beszállítót, a megrendelő számát és a dátumot." },
+    { "name": "Adja hozzá a tételeket", "text": "Sorolja fel a megrendelt árukat vagy szolgáltatásokat, mennyiséggel és egységárral. A végösszegek automatikusan számolódnak." },
+    { "name": "Pénznem és adó", "text": "Válasszon bármilyen pénznemet, és állítsa be az érvényes ÁFA- vagy forgalmiadó-kulcsot." },
+    { "name": "PDF letöltése", "text": "Kattintson a letöltésre, és küldjön nyomtatásra kész megrendelőt, vagy regisztráljon, hogy kövesse a szállítást és összevesse a beszállítói számlával." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Azonnali és ingyenes", "desc": "Regisztráció, vízjel és korlát nélkül. Annyi megrendelőt állít ki, amennyire szüksége van." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Rendeljen OMR, AED, SAR, USD, EUR, GBP és más pénznemben, ideális külföldi beszállítókhoz." },
+    { "icon": "cart", "title": "Egyértelmű rendelési feltételek", "desc": "Adja meg a mennyiségeket, a szállítási adatokat és a fizetési feltételeket, hogy a beszállítók pontosan azt küldjék, amire szüksége van." }
+  ],
+  "sections": [
+    { "title": "Miért érdemes a Paper & Pen megrendelő-készítőjét használni?", "body": "A megrendelő az Ön hivatalos, visszakövethető utasítása egy beszállítónak, és a védelme, ha egy szállítás hibás. A miénk ingyenes, több pénznemet kezel, és letisztult PDF-et készít, amelyet bármely beszállító felismer. Táblázat és regisztráció nélkül." },
+    { "eyebrow": "Több mint egy készítő", "title": "A megrendelőtől a készleten át a beszállítói számláig", "body": "A PDF csak a kezdet. Egy valódi beszerzési folyamat összeköti a rendelést az átvett árukkal, a beszállítói számlákkal és a készletszintekkel. A teljes Paper & Pen ERP-ben a megrendelő követi, mi van megrendelve, az áru érkezésekor frissíti a készletet, és összeveti a beszállítói számlával, így soha nem fizet túl.", "items": ["Megrendelt, átvett és hátralévő mennyiségek követése", "Automatikus készletfrissítés áruátvételkor", "A beszállítói számla összevetése az eredeti megrendelővel"] }
+  ],
+  "faqs": [
+    { "q": "Mi az a megrendelő?", "a": "A megrendelő egy bizonylat, amelyet a beszállítónak küld, hogy hivatalosan árukat vagy szolgáltatásokat kérjen egyeztetett áron és mennyiségben. Amint a beszállító elfogadja, kötelező erejű rendeléssé válik." },
+    { "q": "Tényleg ingyenes a megrendelő-készítő?", "a": "Igen. Teljesen ingyenes, regisztráció és vízjel nélkül, és nincs korlátja a készített megrendelők számának." },
+    { "q": "Rendelhetek külföldi beszállítótól az ő pénznemében?", "a": "Igen. Válasszon bármilyen pénznemet, például USD, EUR vagy GBP, automatikusan igazított tizedesjegyekkel, hogy a határokon átnyúló rendelések egyértelműek legyenek." },
+    { "q": "Követhetem a szállítást és összevethetem a beszállítói számlát?", "a": "Töltse le ingyen a megrendelőt, vagy hozzon létre ingyenes Paper & Pen munkaterületet, hogy kövesse az átvett árukat, frissítse a készletet, és összevesse a beszállítói számlákat a megrendelőivel." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/purchase-orders", "/features/inventory"],
+  "ctaTitle": "Rendeljen kézben tartott folyamattal",
+  "ctaSub": "Kövessen minden megrendelőt, frissítse a készletet átvételkor, és vesse össze a beszállítói számlákat egy ingyenes Paper & Pen munkaterülettel."
+}

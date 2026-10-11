@@ -1,0 +1,110 @@
+{
+  "locale": "da",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Autoværksteder",
+  "metaTitle": "ERP til autoværksteder og bilforhandlere · Paper & Pen",
+  "metaDescription": "Styr overslag, reservedelslager og fakturering på dit autoværksted. Følg arbejdstimer, og håndtér fakturering af garantiarbejde med vores gratis cloud-ERP.",
+  "keywords": "program til autoværksted, fakturering autoreparation, overslag mekaniker, lagerstyring værksted, erp til bilforhandler, fakturering af garanti, regnskab for værksted",
+  "heroEyebrow": "Til værksteder og forhandlere",
+  "heroTitle": "Driv dit værksted med <em class=\"text-copper-400 not-italic\">klare overslag</em> og korrekt fakturering af reservedele.",
+  "heroSubtitle": "Hold op med at miste avance på reservedele, der ikke bliver faktureret, og arbejdstid, der ikke bliver registreret. Paper & Pen hjælper autoværksteder med at udstede detaljerede reparationsoverslag, følge lageret ned til varenummeret og gøre godkendelser direkte til endelige fakturaer.",
+  "heroBullets": [
+    "Følg reservedele og timepriser",
+    "Gør overslag til fakturaer",
+    "Fakturér garantiarbejde til tredjepart"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Reparationsoverslag",
+      "desc": "Lav detaljerede overslag, som kunden skal godkende. Angiv arbejdstimer, fejlfindingsgebyr og nødvendige reservedele, før reparationen går i gang."
+    },
+    {
+      "icon": "inventory",
+      "title": "Reservedele og avance",
+      "desc": "Følg dit lager med præcise varenumre. Hold øje med dine indkøbspriser, og sæt salgspriser, der beskytter din avance."
+    },
+    {
+      "icon": "clock",
+      "title": "Arbejdsløn til værkstedets timepris",
+      "desc": "Tilføj ydelseslinjer for mekanikernes tid. Gang din faste timepris med de arbejdstimer, opgaven kræver."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fakturering til tredjepart",
+      "desc": "Fakturér bilens ejer for selvrisikoen, og fakturér resten direkte til garantigiveren eller producenten."
+    },
+    {
+      "icon": "receipt",
+      "title": "Modregning af fejlfindingsgebyr",
+      "desc": "Læg et fejlfindingsgebyr på det første overslag, og kreditér det nemt på den endelige faktura, hvis kunden vælger reparationen."
+    },
+    {
+      "icon": "truck",
+      "title": "Indkøbsordrer",
+      "desc": "Send indkøbsordrer til dine reservedelsleverandører. Registrér indgående leverancer, så lageret opdateres automatisk før næste opgave."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Godkendelse af reparationer",
+      "title": "Fra første fejlfinding til den endelige reparationsregning",
+      "body": "Kunderne skal kende prisen, før du sætter en skruenøgle til motoren. Paper & Pen følger præcis den rækkefølge, dine serviceassistenter bruger hver dag. Du kan udstede et første overslag med et fejlfindingsgebyr. Når fejlen er fundet, opdaterer du overslaget med konkrete reservedele og arbejdstimer. Når kunden godkender arbejdet, gør du præcis det overslag til en endelig faktura. Hvis din politik er at frafalde fejlfindingsgebyret, når reparationen godkendes, tilføjer du blot en negativ linje, der modregner gebyret i totalen.",
+      "items": [
+        "Udsted klare reparationstilbud",
+        "Gør godkendte tilbud til fakturaer",
+        "Kreditér fejlfindingsgebyrer nemt",
+        "Registrér arbejdstimer og timepriser"
+      ]
+    },
+    {
+      "eyebrow": "Styring af reservedele",
+      "title": "Beskyt din avance på hver solgt reservedel",
+      "body": "Et travlt værksted håndterer hundredvis af komponenter, fra oliefiltre til bremsekalibre. Mister du overblikket over, hvad du betalte leverandøren, mister du din avance. Vores lagersystem lader dig registrere hver vare med dens præcise varenummer. Du registrerer kostprisen, når du modtager varer via indkøbsordrer, og sætter en fast salgspris til dine fakturaer. Når en mekaniker tager en del fra hylden, og du føjer den til reparationsregningen, falder lagerbeholdningen automatisk, og din fortjeneste beregnes korrekt.",
+      "items": [
+        "Følg varer med præcise varenumre",
+        "Hold øje med leverandørernes kostpriser",
+        "Sæt salgspriser, der giver fortjeneste",
+        "Træk automatisk fra lageret ved salg"
+      ]
+    },
+    {
+      "eyebrow": "Delt fakturering",
+      "title": "Håndtér garantikrav og betalende tredjeparter",
+      "body": "Ikke alle reparationer betales af den, der kører bilen. Forhandlere og autoriserede værksteder udfører ofte garantiarbejde, der skal faktureres til producenten eller et selskab med udvidet garanti. Med Paper & Pen kan du have separate kundekort for disse virksomhedsbetalere. Du kan lave en faktura til bilens ejer, der dækker selvrisikoen eller sliddele uden for dækningen, og en separat, detaljeret faktura til garantigiveren for de godkendte arbejdskoder og reservedele.",
+      "items": [
+        "Hav kundekort for virksomhedsbetalere",
+        "Fakturér garantigivere direkte",
+        "Del regninger mellem ejer og garanti",
+        "Hold detaljerede konti for alle betalere"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan jeg koble det til mit program til tidsregistrering for mekanikere eller en VIN-dekoder?",
+      "a": "Nej. Paper & Pen er et selvstændigt cloud-ERP. Du kan tilføje arbejdstimer som linjer på dine fakturaer og bruge vores HR-modul til almindelig løn, men vi tilbyder ikke stempelur til mekanikere, indbygget VIN-dekodning eller direkte integration med eksterne databaser til autoreparation."
+    },
+    {
+      "q": "Hvordan håndterer jeg et fejlfindingsgebyr, der krediteres, hvis kunden vælger reparationen?",
+      "a": "Du tilføjer fejlfindingsgebyret som en almindelig ydelse på det første tilbud. Når kunden godkender hele reparationen, gør du tilbuddet til en faktura, tilføjer de nødvendige reservedele og arbejdstimer og tilføjer en negativ linje, der trækker det oprindelige fejlfindingsbeløb fra."
+    },
+    {
+      "q": "Kan jeg følge mit reservedelslager på tværs af forskellige leverandører?",
+      "a": "Ja. Du kan oprette indkøbsordrer til forskellige reservedelsleverandører og registrere de indgående følgesedler. Systemet opdaterer dine lagermængder og følger dine kostpriser, så du ved præcis, hvor stor en avance du tjener, når du fakturerer kunden."
+    },
+    {
+      "q": "Er det muligt at fakturere et garantiselskab i stedet for bilisten?",
+      "a": "Ja. Du opretter blot et kundekort for garantigiveren. Derefter kan du udstede fakturaen for de dækkede reservedele og arbejdslønnen til værkstedets timepris direkte til dem og holde deres udestående adskilt fra dine privatkunder."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Få styr på værkstedets fakturering i dag",
+  "ctaSub": "Lav detaljerede overslag, følg dit reservedelslager, og fakturér dine kunder gratis."
+}

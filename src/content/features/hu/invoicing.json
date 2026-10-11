@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Számlázás",
+  "metaTitle": "Számlakezelési funkciók | Paper & Pen ERP",
+  "metaDescription": "Ismerje meg a számlakövetést, az online fizetést, az emlékeztetőket, a beállítható adót, az öt nyelvet és a több pénznemes munkafolyamatokat a Paper & Pen ERP-ben.",
+  "keywords": "számlázó program, ingyenes számlázás, online számla, számla küldése, online fizetés, áfás számla, ismétlődő számla, fizetési emlékeztető",
+  "heroEyebrow": "Örökre ingyenes",
+  "heroTitle": "Számlázás, amellyel <em class=\"text-copper-400 not-italic\">gyorsabban fizetnek</em>",
+  "heroSubtitle": "Készítsen igényes számlát egy percen belül, küldje el e-mailben vagy WhatsAppon, és ügyfele fizessen online. Bármilyen pénznemhez és adókulcshoz készült, világszerte használják.",
+  "heroBullets": ["Az Értékesítés és Számlázás örökre ingyenes", "Bármilyen pénznem, bármilyen adókulcs", "Online fizetési link minden számlán"],
+  "features": [
+    { "icon": "bolt", "title": "Számla másodpercek alatt", "desc": "Válasszon ügyfelet, adjon hozzá tételeket, és küldje el. A végösszeg és az adó gépelés közben számolódik." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Számlázzon OMR, AED, SAR, USD, EUR, GBP vagy bármilyen pénznemben, a helyes tizedesjegyekkel." },
+    { "icon": "card", "title": "Online fizetés", "desc": "Minden számlán biztonságos fizetési link van, így az ügyfelek egy koppintással fizetnek kártyával." },
+    { "icon": "bell", "title": "Automatikus emlékeztetők", "desc": "Udvarias, ütemezett emlékeztetők sürgetik a lejárt számlákat, hogy Önnek ne kelljen." },
+    { "icon": "refresh", "title": "Ismétlődő számlák", "desc": "Állítsa be az átalánydíjakat és előfizetéseket automatikus számlázásra, hetente vagy havonta." },
+    { "icon": "calc", "title": "ÁFA- és adókész", "desc": "Alkalmazzon bármilyen ÁFA- vagy forgalmiadó-kulcsot, a kedvezmények utáni nettó összegre számolva." }
+  ],
+  "sections": [
+    { "eyebrow": "Az egész világnak", "title": "Egy számlázó eszköz minden piacra", "body": "Akár dollárban számláz New Yorkból, akár riálban Maszkatból, a Paper & Pen kezeli Ön helyett a pénznemet, a tizedesjegyeket és az adószabályokat. Váltsa a felületet angol, arab, hindi, bengáli és urdu között, hogy az egész csapata a saját nyelvén dolgozhasson.", "items": ["Több pénznem élő formázással", "Beállítható adó bármely országhoz", "Arab elsőként, teljesen jobbról balra író számlák"] },
+    { "eyebrow": "Az ajánlattól a befizetésig", "title": "Számlázás egy teljes ERP-n belül", "body": "A számlái nem elszigetelten élnek. Alakítsa át egy kattintással a nyertes árajánlatot számlává, rögzítse a fizetést, és nézze, ahogy automatikusan a könyvekbe kerül. Amikor növekszik, a készlet, a könyvelés és a bérszámfejtés már ugyanabban a munkaterületben várja.", "items": ["Árajánlatból számla egy kattintással", "A fizetések egyeztetődnek a főkönyvvel", "Soha nincs kétszeres adatrögzítés"] }
+  ],
+  "faqs": [
+    { "q": "Tényleg ingyenes a számlázás?", "a": "Igen. Az Értékesítés és Számlázás örökre ingyenes, a számlák és ügyfelek száma korlátlan. Csak akkor fizet, ha választható modulokat ad hozzá, például Készletet vagy Bérszámfejtést." },
+    { "q": "Fizethetnek az ügyfelek online a számlára?", "a": "Igen. Minden számlán lehet biztonságos online fizetési link, amelyet a Paymob és más fizetési szolgáltatók működtetnek, így az ügyfelek kártyával fizetnek, a fizetés pedig automatikusan egyeztetődik." },
+    { "q": "Támogatja az ÁFA-t és más adókat?", "a": "Igen. Állítson be bármilyen kulcsot, az Öböl menti országok beállítható ÁFA-ját is, vagy amit az Ön országában alkalmazni kell. Az adó a kedvezmények utáni nettó összegre számolódik." },
+    { "q": "Küldhetek számlát arabul?", "a": "Igen. A teljes felület és a számla PDF-je is lehet arab, teljesen jobbról balra írva, az angol, hindi, bengáli és urdu mellett." },
+    { "q": "Automatizálhatom az ismétlődő számlázást?", "a": "Igen. Hozzon létre ismétlődő számlát átalánydíjakhoz vagy előfizetésekhez, és a Paper & Pen ütemezetten kiállítja és elküldi." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Küldje el első számláját ingyen",
+  "ctaSub": "Hozzon létre ingyenes munkaterületet, és számlázzon első ügyfelének percek alatt. Bankkártya nélkül, örökre ingyen."
+}

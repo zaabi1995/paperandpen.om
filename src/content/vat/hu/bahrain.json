@@ -1,0 +1,140 @@
+{
+  "locale": "hu",
+  "slug": "bahrain",
+  "order": 4,
+  "country": "Bahrein",
+  "title": "ÁFA Bahreinben",
+  "metaTitle": "ÁFA Bahreinben: 10%-os kulcs és számlaszabályok · Paper & Pen",
+  "metaDescription": "Bahrein 10%-os ÁFA-kulcsa, a BHD 37,500 regisztrációs értékhatár és amit az NBR egy ÁFA-számlán előír, a hivatal saját útmutatója alapján.",
+  "keywords": "áfa bahrein, bahreini áfakulcs 10, bahreini áfa regisztrációs értékhatár, bahreini áfás számla követelmények, national bureau for revenue",
+  "heroEyebrow": "Bahrein",
+  "heroTitle": "Számlázás a <em class=\"text-copper-400 not-italic\">bahreini ÁFA</em> szabályai szerint",
+  "heroSubtitle": "A 10%-os kulcs, a regisztrációs értékhatárok és amit a National Bureau for Revenue egy ÁFA-számlán előír, köztük az egyetlen, csak az építőiparra jellemző mezőt.",
+  "heroBullets": [
+    "10% általános kulcs",
+    "BHD 37,500 a regisztrációhoz",
+    "Nincs közzétett e-számlázási kötelezettség"
+  ],
+  "authority": {
+    "name": "National Bureau for Revenue (NBR)",
+    "url": "https://www.nbr.gov.bh"
+  },
+  "facts": [
+    {
+      "label": "Általános ÁFA-kulcs",
+      "value": "10%",
+      "note": "Az ÁFA 2019. január 1-jén 5%-kal indult, és 2022. január 1-jei hatállyal 10%-ra emelték. A 2022 előtt írt összehasonlítások elavultak.",
+      "source": 1
+    },
+    {
+      "label": "Kötelező regisztrációs értékhatár",
+      "value": "BHD 37,500",
+      "note": "Ennek az összegnek a túllépése regisztrációt tesz kötelezővé.",
+      "source": 1
+    },
+    {
+      "label": "Önkéntes regisztrációs értékhatár",
+      "value": "BHD 18,750",
+      "note": "Az előző vagy a következő 12 hónapra számítva, és értékesítések helyett ÁFA-t tartalmazó kiadásokon is alapulhat.",
+      "source": 1
+    },
+    {
+      "label": "A számla kiállításának határideje",
+      "value": "A következő hónap 15. napja",
+      "note": "A számlát annak a hónapnak a tizenötödik napjáig kell kiállítani, amely azt a hónapot követi, amelyben az ÁFA esedékessége keletkezett.",
+      "source": 1
+    },
+    {
+      "label": "Pénznem a számlán",
+      "value": "BHD",
+      "note": "Az értékeket, az ÁFA-összegeket és a végösszegeket bahreini dinárban kell feltüntetni, külföldi pénznem használatakor az árfolyammal együtt.",
+      "source": 1
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Az NBR általános ÁFA-útmutatójának (VAT General Guide) 10.3. szakasza rögzíti, mit kell tartalmaznia egy teljes ÁFA-számlának. Egy egyszerűsített ÁFA-számlához ezeknek csak egy része kell.",
+    "items": [
+      "Az „ÁFA-számla” (VAT invoice) megjelölés",
+      "Az eladó neve, címe és ÁFA-számlaszáma (VAT Account Number)",
+      "A vevő neve és címe",
+      "Folyamatos ÁFA-számlaszám",
+      "A kiállítás dátuma, és ha eltér, a teljesítés vagy a fizetés dátuma",
+      "Az értékesítés olyan részletes leírása, amelyből az ÁFA-kezelés egyértelmű",
+      "Új épület építésénél az építési engedély száma",
+      "Az átadott áruk mennyisége",
+      "Az értékesítés értéke és az egységár dinárban, ÁFA nélkül",
+      "Minden kedvezmény, és a nettó érték dinárban, ÁFA nélkül",
+      "Az ÁFA-kulcs és a fizetendő ÁFA dinárban, soronként, ha a kulcsok eltérnek",
+      "A fizetendő végösszeg ÁFA-val együtt, dinárban",
+      "Az alkalmazott árfolyam, ha külföldi pénznemet használnak",
+      "Egyértelmű nyilatkozat, ha egy ügylet adómentes",
+      "Hivatkozás a különbözeti adózásra, ha azt alkalmazzák"
+    ],
+    "source": 1
+  },
+  "einvoicing": {
+    "status": "Nincs közzétett kötelezettség",
+    "body": "A National Bureau for Revenue által közzétett e-számlázási rendszert, szakaszt vagy dátumot nem találtunk. A 2026 júliusában frissített általános ÁFA-útmutatója egyáltalán nem említi az elektronikus számlázást, és a kiadványjegyzéke sem tartalmaz e-számlázási útmutatót. Máshol megjelent elemzések egy tervezés alatt álló, vállalkozások közötti rendszerről írnak, amely esetleg szakaszosan indulhat, de a hivatal saját oldalán semmi nem támaszt alá dátumot, ezért mi sem közlünk ilyet. Ha rendszerváltást tervez, a fenti, hatályos és közzétett számlatartalmi szabályokra építsen, ne egy várt kötelezettségre.",
+    "source": 1
+  },
+  "sections": [
+    {
+      "eyebrow": "Hogy jól csinálja",
+      "title": "A két bahreini csapda",
+      "body": "Az első a kulcs története. Bahrein 2022. január 1-jén öt százalékról tíz százalékra váltott, így minden ezelőtt írt sablon, árlista vagy összehasonlító cikk hibás, és a tévedés csendben tovább él a régi árajánlatsablonokban. A második a kiállítási határidő. Bahrein nem csak azt mondja ki, hogy a számlát ki kell állítani, hanem azt is, hogy meddig: annak a hónapnak a tizenötödik napjáig, amely azt a hónapot követi, amelyben az ÁFA esedékessége keletkezett. Az a vállalkozás, amely akkor számláz, amikor a papírok elkészülnek, késésben lehet anélkül, hogy valaha észrevenné.",
+      "items": [
+        "Ellenőrizze, nincs-e 5%-os kulcs egy 2022 előtti sablonban",
+        "Számlázzon a következő hónap 15. napjáig",
+        "Tüntesse fel az ÁFA-t soronként, ha a kulcsok eltérnek",
+        "Adja meg az árfolyamot a külföldi pénznemű számlákon"
+      ]
+    },
+    {
+      "eyebrow": "Ágazati részlet",
+      "title": "Az építőipari mező, amire senki nem számít",
+      "body": "Bahrein számlatartalmi szabályai egy olyan követelményt is tartalmaznak, amelynek nincs megfelelője máshol az Öböl-térségben: új épület építéséhez kapcsolódó értékesítésnél a számlán fel kell tüntetni az építési engedély számát. Könnyű elsiklani felette, mert az általános leírási követelményen belül szerepel, nem önálló mezőként, és az a fajta hiányosság, amely csak akkor derül ki, amikor egy számlát hónapokkal később kifogásolnak. Ha kivitelezéssel foglalkozik, tegye az engedélyszámot a tételleírás sablonjába, ahelyett hogy arra bízná, hogy valaki emlékezni fog rá.",
+      "items": [
+        "Új építésű értékesítéshez kell az építési engedély száma",
+        "Tegye a sablonba, ne valakinek az emlékezetébe",
+        "Olyan részletesen írja le az értékesítést, hogy látsszon az ÁFA-kezelése",
+        "Tartsa készenlétben az adómentességi nyilatkozat szövegét"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mennyi az ÁFA-kulcs Bahreinben?",
+      "a": "Tíz százalék. Bahrein 2019. január 1-jén öt százalékkal vezette be az ÁFA-t, és 2022. január 1-jei hatállyal tíz százalékra emelte az általános kulcsot. Minden útmutató, sablon vagy összehasonlítás, amely Bahreinre még öt százalékot mutat, a változás előtti."
+    },
+    {
+      "q": "Mikor kell regisztrálnom ÁFA-ra Bahreinben?",
+      "a": "Amikor az értékesítései meghaladják a BHD 37,500 összeget. Önkéntesen BHD 18,750 összegtől regisztrálhat, az előző vagy a következő tizenkét hónapra számítva, és Bahrein az értékesítések mellett az ÁFA-t tartalmazó kiadások alapján is lehetővé teszi az önkéntes regisztrációt, ami egy még épülő árbevételű vállalkozásnak kedvező lehet."
+    },
+    {
+      "q": "Kötelező az e-számlázás Bahreinben?",
+      "a": "A National Bureau for Revenue közzétett anyagai szerint nem. A 2026 júliusában frissített általános ÁFA-útmutatója nem említi az elektronikus számlázást, és kiadványai között nem szerepel e-számlázási útmutató. Nem ismételünk meg olyan dátumokat elemzésekből, amelyeket maga a hivatal nem tett közzé."
+    },
+    {
+      "q": "Meddig kell kiállítani egy bahreini ÁFA-számlát?",
+      "a": "Annak a hónapnak a tizenötödik napjáig, amely azt a hónapot követi, amelyben az ÁFA esedékessége keletkezett. Ez valódi határidő, nem általános elvárás, és azokat a vállalkozásokat éri váratlanul, amelyek a negyedév végén egyben számláznak."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/exempt-supply",
+    "/invoicing/invoices",
+    "/industries/contracting"
+  ],
+  "ctaTitle": "Számlázzon helyesen Bahreinben, ingyen",
+  "ctaSub": "Állítsa be saját maga a kulcsot, mutassa az ÁFA-t soronként, és tartsa a hivatal által kért mezőket egy sablonban, amelyre nem kell emlékeznie.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT General Guide, 1.15-ös változat, a számlakövetelményekről szóló 10.3. szakasszal együtt",
+      "publisher": "National Bureau for Revenue",
+      "year": "2026",
+      "url": "https://www.nbr.gov.bh/publications/view/VAT_General_guide"
+    }
+  ]
+}

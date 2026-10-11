@@ -1,0 +1,152 @@
+{
+  "locale": "hu",
+  "slug": "uae",
+  "order": 2,
+  "country": "Egyesült Arab Emírségek",
+  "title": "ÁFA az Egyesült Arab Emírségekben",
+  "metaTitle": "ÁFA az Emírségekben: kulcs, értékhatárok, e-számla · Paper & Pen",
+  "metaDescription": "Az Emírségek 5%-os ÁFA-kulcsa, az AED 375,000 értékhatár, az 59. cikk szerinti számlatartalom és a megerősített e-számlázási ütemterv, forrásokkal.",
+  "keywords": "áfa egyesült arab emírségek, emírségek áfakulcs, emírségek áfa regisztrációs értékhatár, emírségek adószámla követelmények, emírségek e-számla 2027, federal tax authority",
+  "heroEyebrow": "Egyesült Arab Emírségek",
+  "heroTitle": "Számlázás az <em class=\"text-copper-400 not-italic\">Emírségek ÁFA</em>-szabályai szerint",
+  "heroSubtitle": "A kulcs, az értékhatárok, az a tizenkét elem, amelyet az 59. cikk egy adószámlán előír, és azok az e-számlázási dátumok, amelyeket a pénzügyminisztérium ténylegesen közzétett.",
+  "heroBullets": [
+    "5% általános kulcs",
+    "AED 375,000 a regisztrációhoz",
+    "Szakaszos e-számlázás 2027-től"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "Általános ÁFA-kulcs",
+      "value": "5%",
+      "note": "A 2017. évi 8. számú szövetségi törvényerejű rendelet 3. cikke minden értékesítésre vagy importra 5%-os általános kulcsot ír elő. 2018. január 1. óta hatályos.",
+      "source": 1
+    },
+    {
+      "label": "Kötelező regisztrációs értékhatár",
+      "value": "AED 375,000",
+      "note": "A Végrehajtási Rendelet 7. cikkének (1) bekezdése.",
+      "source": 2
+    },
+    {
+      "label": "Önkéntes regisztrációs értékhatár",
+      "value": "AED 187,500",
+      "note": "A Végrehajtási Rendelet 8. cikkének (1) bekezdése.",
+      "source": 2
+    },
+    {
+      "label": "Egyszerűsített számla felső határa",
+      "value": "AED 10,000",
+      "note": "Egyszerűsített adószámla akkor megengedett, ha a vevő nincs regisztrálva, vagy regisztrálva van, és az ellenérték nem haladja meg ezt az összeget.",
+      "source": 2
+    },
+    {
+      "label": "Pénznem a számlán",
+      "value": "AED",
+      "note": "Az adóösszegeket dirhamban kell feltüntetni, és ha a számla más pénznemben készül, az alkalmazott árfolyamnak is szerepelnie kell.",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "A Végrehajtási Rendelet 59. cikkének (1) bekezdése sorolja fel, mit kell tartalmaznia egy teljes adószámlának.",
+    "items": [
+      "Az „Adószámla” (Tax Invoice) megjelölés, jól láthatóan",
+      "Az eladó neve, címe és adóregisztrációs száma (TRN)",
+      "A vevő neve, címe és TRN-je, ha a vevő regisztrálva van",
+      "Folyamatos vagy egyedi szám, amely lehetővé teszi a számla azonosítását és sorba rendezését",
+      "A kiállítás dátuma",
+      "A teljesítés dátuma, ha eltér a kiállítás dátumától",
+      "Az áruk vagy szolgáltatások leírása",
+      "Tételenként: egységár, mennyiség vagy térfogat, adókulcs és fizetendő összeg AED-ben",
+      "A nyújtott kedvezmény összege",
+      "A fizetendő bruttó összeg AED-ben",
+      "A felszámított adó összege AED-ben, más pénznemből való átváltás esetén az árfolyammal",
+      "Fordított adózású értékesítésnél nyilatkozat arról, hogy az adót a vevőnek kell elszámolnia, és a hivatkozott rendelkezés"
+    ],
+    "source": 2,
+    "caveat": "Ez a Federal Tax Authority által 2024. október 4-i dátummal közzétett, egységes szerkezetű Végrehajtási Rendelet. Szakértők egy későbbi módosításra is hivatkoznak; ezt az FTA által közzétett szövegben nem találtuk, ezért mielőtt hagyatkozna rá, egyeztesse az aktuális megfogalmazást az FTA-val."
+  },
+  "einvoicing": {
+    "status": "Kötelező és szakaszos, a próbaszakasz nyitott",
+    "body": "Az Emírségek e-számlázási rendszere decentralizált, ötsarkú modell, amelyben a számlák akkreditált szolgáltatókon keresztül haladnak. A pénzügyminisztérium saját irányelvei határozzák meg az ütemtervet: próbaprogram és önkéntes bevezetés 2026. július 1-jétől; az AED 50 milliós vagy azt meghaladó árbevételű vállalkozások 2027. január 1-jétől vezetik be; az e határ alattiak 2027. július 1-jétől; a kormányzati szervek 2027. október 1-jétől. A minisztérium az akkreditált szolgáltató kijelölésének első határidejét 2026. július 31-ről 2026. október 30-ra hosszabbította meg, a 2027. januári élesítést változatlanul hagyva, így a közzétett irányelvek PDF-je és a minisztérium sajtóközleménye ebben az egy dátumban eltér, és a sajtóközlemény a későbbi álláspont.",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "Hogy jól csinálja",
+      "title": "Amin az 59. cikknél elcsúsznak",
+      "body": "A soronkénti követelmény az, amelyen a legtöbb számlasablon elbukik. Az 59. cikk (1) bekezdésének h) pontja minden áruhoz vagy szolgáltatáshoz egységárat, mennyiséget, adókulcsot és fizetendő összeget kér, vagyis a számla alján egyetlen összevont adóösszeg nem elég, ha a sorok eltérő adókezelésűek. A második a vevő TRN-je, amely mindig kötelező, ha a vevő regisztrálva van, a harmadik pedig az árfolyam: ha dollárban számláz, az adót akkor is dirhamban kell feltüntetnie, az alkalmazott árfolyammal együtt.",
+      "items": [
+        "Adókulcs és adóösszeg soronként, nem csak végösszegként",
+        "A vevő TRN-je, ha regisztrálva van",
+        "Árfolyam minden nem AED-ben kiállított számlán",
+        "Fordított adózásra utaló szöveg, ahol alkalmazandó"
+      ]
+    },
+    {
+      "eyebrow": "Felkészülés",
+      "title": "Mit várnak el Öntől valójában a 2027-es dátumok",
+      "body": "A kötelezettség nem az, hogy logós szoftvert vásároljon, hanem hogy az árbevételi sávjára vonatkozó dátumtól strukturált számlát tudjon kiállítani egy akkreditált szolgáltatón keresztül. A sávja bevezetési dátumától számoljon visszafelé, ne a próbaszakasztól: a szolgáltató kijelölésének határideje hónapokkal az élesítés előtt jár le, és a legtöbb vállalkozás a kijelölést, nem az élesítést mulasztja el. Addig is ugyanazokra az adatokra lesz szüksége, amelyeket az 59. cikk már most előír, ami jó ok arra, hogy a számlák minőségét most javítsa, ne egy átállás közben.",
+      "items": [
+        "Tudja, melyik árbevételi sávba tartozik",
+        "Jegyezze fel a szolgáltató kijelölésének határidejét, ne csak az élesítést",
+        "Tisztítsa meg a vevői TRN-eket a határidő előtt, ne közben",
+        "Már ma vezessen soronkénti adóadatokat"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mennyi az ÁFA-kulcs az Egyesült Arab Emírségekben?",
+      "a": "Öt százalék. A 2017. évi 8. számú szövetségi törvényerejű rendelet 3. cikke minden adóköteles értékesítésre vagy importra 5%-os általános kulcsot ír elő, 2018. január 1. óta hatályosan. Bizonyos értékesítések nulla kulcsosak vagy adómentesek, és a különbség számít: a nulla kulcsos értékesítő továbbra is levonhatja az előzetesen felszámított adót, az adómentes nem."
+    },
+    {
+      "q": "Mikortól kötelező az e-számlázás az Emírségekben?",
+      "a": "Az árbevételétől függ. A pénzügyminisztérium közzétett irányelvei szerint az AED 50 milliós vagy azt meghaladó árbevételű vállalkozások 2027. január 1-jétől, az ez alattiak 2027. július 1-jétől, a kormányzati szervek pedig 2027. október 1-jétől vezetik be. A próbaszakasz és az önkéntes bevezetés 2026. július 1-jén indult. Mielőtt bármely dátumra tervezne, nézze meg a minisztérium oldalait, mert egy határidőt már módosított."
+    },
+    {
+      "q": "Mikor állíthatok ki egyszerűsített adószámlát az Emírségekben?",
+      "a": "Ha a vevő nincs ÁFA-regisztrálva, vagy regisztrálva van, és az ellenérték nem haladja meg az AED 10,000 összeget. Az egyszerűsített számlán is szerepelnie kell az „Adószámla” (Tax Invoice) megjelölésnek, az Ön nevének, címének és TRN-jének, a kiállítás dátumának, a teljesítés leírásának, valamint a teljes ellenértéknek és az adó összegének dirhamban."
+    },
+    {
+      "q": "Szükségem van a vevő TRN-jére egy emírségekbeli számlán?",
+      "a": "Igen, ha a vevő ÁFA-regisztrált. Az 59. cikk (1) bekezdésének c) pontja ebben az esetben előírja a vevő nevét, címét és adóregisztrációs számát. Enélkül a vevője nehezen tudja levonni az előzetesen felszámított adót, ami általában újbóli kiállítási kérésként tér vissza Önhöz."
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "Számlázzon helyesen az Emírségekben, ingyen",
+  "ctaSub": "Soronkénti adó, bármilyen pénznem az árfolyammal a bizonylaton, és arab és angol számla egyetlen nyilvántartásból.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT, 3. cikk (egységes szerkezetben, a módosításokkal)",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017, Executive Regulation, 7., 8. és 59. cikk",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1, valamint a minisztérium módosításról szóló sajtóközleménye",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

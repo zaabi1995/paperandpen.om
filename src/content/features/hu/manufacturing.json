@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Gyártás",
+  "metaTitle": "Gyártás- és termeléskezelő szoftver · Paper & Pen",
+  "metaDescription": "Tervezze a gyártást anyagjegyzékekkel, munkalapokkal és valós önköltséggel. Fogyassza a nyersanyagot, gyártson késztermékeket, és ismerje a valódi árrést.",
+  "keywords": "gyártásirányítási szoftver, termeléskezelés, anyagjegyzék, bom, munkalap, gyártási önköltség, késztermék",
+  "heroEyebrow": "Kiegészítő modul",
+  "heroTitle": "Rendelésre gyártás, <em class=\"text-copper-400 not-italic\">riálra pontos önköltség</em>",
+  "heroSubtitle": "Alakítsa a nyersanyagokat késztermékké anyagjegyzékekkel és munkalapokkal, miközben a Paper & Pen minden alkatrész költségét követi, így mindig ismeri a valódi árrését.",
+  "heroBullets": ["Anyagjegyzékek és munkalapok", "Automatikus készletfelhasználás", "Valós gyártási önköltség"],
+  "features": [
+    { "icon": "manufacturing", "title": "Anyagjegyzékek", "desc": "Határozza meg, mi kerül az egyes termékekbe, mennyiségekkel és részegységekkel." },
+    { "icon": "doc", "title": "Munkalapok", "desc": "Tervezze és kövesse a gyártási sorozatokat a nyersanyagtól a késztermékig." },
+    { "icon": "inventory", "title": "Automatikus készletmozgás", "desc": "Gyártás közben a nyersanyagok felhasználódnak, a késztermékek pedig a készletbe kerülnek." },
+    { "icon": "calc", "title": "Gyártási önköltség", "desc": "Az anyag- és rezsiköltséget pontos késztermékértékké összesíti." },
+    { "icon": "chart", "title": "Átlátható árrés", "desc": "Vesse össze a gyártási költséget az eladási árral, és lássa a valódi árrést tételenként." },
+    { "icon": "refresh", "title": "Elejétől a végéig összekötve", "desc": "Kapcsolja össze a beszerzést, a készletet és az értékesítést egyetlen folyamatban." }
+  ],
+  "sections": [
+    { "eyebrow": "Magabiztos tervezés", "title": "A recepttől a késztermékig", "body": "Határozza meg egyszer az anyagjegyzéket, és a Paper & Pen pontosan tudja, mit használ fel egy-egy gyártás. Nyisson munkalapot, és a nyersanyag lefoglalódik és felhasználódik, a késztermék pedig a készletbe kerül, az önköltség-számítást pedig mi intézzük.", "items": ["Újrahasználható anyagjegyzékek", "Munkalapok készletfoglalással", "Automatikus felhasználás és késztermék-bevételezés"] },
+    { "eyebrow": "Ismerje a valódi árrést", "title": "Önköltség, amely az igazat mutatja", "body": "Aki a költségét találgatja, a nyereségét is találgatja. A Paper & Pen az anyag- és rezsiköltséget valós késztermék-önköltséggé összesíti, a könyvekbe könyveli, és minden eladásnál megmutatja az árrést. Bármilyen pénznemben működik, így határokon át is beszerezhet és értékesíthet.", "items": ["Anyag- és rezsiköltség-számítás", "Automatikus könyvelés", "Árrés termékenként és rendelésenként"] }
+  ],
+  "faqs": [
+    { "q": "Ingyenes a gyártás modul?", "a": "A Gyártás választható, fizetős kiegészítő modul. Az alap Értékesítés és Számlázás modul örökre ingyenes, a Gyártást pedig akkor adja hozzá, amikor termékeket állít elő." },
+    { "q": "Meghatározhatok anyagjegyzékeket?", "a": "Igen. Készítsen anyagjegyzéket (BOM) minden termékhez, részegységekkel együtt, és használja újra minden gyártási sorozatnál." },
+    { "q": "Automatikusan felhasználja a készletet?", "a": "Igen. Amikor feldolgoz egy munkalapot, a nyersanyagok automatikusan felhasználódnak, a késztermékek pedig a készletbe kerülnek." },
+    { "q": "Hogyan számolja a gyártási költséget?", "a": "Az anyag- és rezsiköltségek a késztermék értékébe összesítődnek, amely a könyvelésbe kerül, így az árrései pontosak." },
+    { "q": "Bármilyen pénznemmel működik?", "a": "Igen. Szerezzen be anyagokat és értékesítsen késztermékeket bármilyen pénznemben, összehangolt önköltség-számítással és könyveléssel." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Pontos önköltség minden gyártásnál",
+  "ctaSub": "Kezdje ingyen a számlázással, és adja hozzá a Gyártást, hogy megtervezze a termelést és ismerje a valódi árrését."
+}

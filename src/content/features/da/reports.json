@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "reports",
+  "order": 8,
+  "title": "Rapporter",
+  "metaTitle": "Rapporter og analyser for virksomheden · Paper & Pen",
+  "metaDescription": "Dashboards og rapporter i realtid om salg, likviditet, overskud, moms og lager. Gå til bilaget, eksportér til Excel eller PDF, i enhver valuta. Virker overalt.",
+  "keywords": "virksomhedsrapporter, analysedashboard, salgsrapport, resultatopgørelse rapport, momsrapport, regnskabsrapporter, eksport til excel",
+  "heroEyebrow": "Tilvalgsmodul",
+  "heroTitle": "Beslutninger bygget på <em class=\"text-copper-400 not-italic\">tal i realtid</em>",
+  "heroSubtitle": "Hvert salg, hver betaling og hver bevægelse samles i klare dashboards og rapporter i realtid. Se hvad der sælger, hvem der skylder dig, og hvor overskuddet er, og eksportér det, hvorhen du vil.",
+  "heroBullets": ["Dashboards i realtid", "Gå helt ned til bilaget", "Eksport til Excel eller PDF"],
+  "features": [
+    { "icon": "reports", "title": "Salgsanalyse", "desc": "Se de bedste produkter, de bedste kunder og tendenser over enhver periode." },
+    { "icon": "chart", "title": "Regnskabsrapporter", "desc": "Resultatopgørelse, balance, pengestrøm og aldersfordelte debitorer." },
+    { "icon": "calc", "title": "Momsrapporter", "desc": "Oversigter over købs- og salgsmoms klar til din momsangivelse." },
+    { "icon": "inventory", "title": "Lagerrapporter", "desc": "Rapporter om lagerværdi, bevægelser og lav beholdning på tværs af lagre." },
+    { "icon": "doc", "title": "Gå til bilaget", "desc": "Klik på ethvert tal for at følge det tilbage til præcis det dokument, der ligger bag." },
+    { "icon": "refresh", "title": "Altid aktuelt", "desc": "Rapporterne opdateres løbende, når transaktionerne sker, uden natlig kørsel." }
+  ],
+  "sections": [
+    { "eyebrow": "Klarhed med et blik", "title": "Ét dashboard til hele virksomheden", "body": "Åbn Paper & Pen, og se de tal, der betyder noget: penge i banken, hvem der skylder dig, hvad der sælger, og dit overskud denne måned. Fordi alt bogføres i realtid, er dashboardet sandheden og ikke et øjebliksbillede fra sidste uge.", "items": ["Likviditet, debitorer og overskud forrest", "Filtrér efter periode, kunde eller produkt", "Altid aktuelt"] },
+    { "eyebrow": "Del og grav dybere", "title": "Rapporter, din revisor og din bestyrelse stoler på", "body": "Gå fra enhver rapport direkte til bilaget, og eksportér til Excel eller PDF til din revisor, bank eller bestyrelse. Rapportér i enhver valuta, og skift brugerfladen til arabisk, engelsk, hindi, bengali eller urdu, så alle læser de samme tal på deres eget sprog.", "items": ["Gå ned i hver transaktion", "Eksport til Excel og PDF", "Flere valutaer og flere sprog"] }
+  ],
+  "faqs": [
+    { "q": "Er rapporter gratis?", "a": "Rapporter er et valgfrit betalt tilvalg. Den gratis kerne omfatter dashboards til fakturering, og den fulde rapportpakke er klar, når du har brug for dybere analyser." },
+    { "q": "Er rapporterne i realtid?", "a": "Ja. Hver transaktion bogføres med det samme, så dashboards og rapporter altid viser, hvordan virksomheden står lige nu." },
+    { "q": "Kan jeg eksportere rapporter?", "a": "Ja. Eksportér til Excel eller PDF, og del dem med din revisor, bank eller bestyrelse." },
+    { "q": "Kan jeg følge et tal tilbage til kilden?", "a": "Ja. Klik på ethvert tal for at gå ned til præcis den faktura, betaling eller postering, der ligger bag." },
+    { "q": "Understøtter rapporterne flere valutaer?", "a": "Ja. Rapportér i enhver valuta, og brug brugerfladen på fem sprog." }
+  ],
+  "related": ["/features/accounting", "/features/inventory", "/use-cases/accountants", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Se din virksomhed klart",
+  "ctaSub": "Start gratis med fakturering, og tilføj Rapporter for dashboards i realtid og analyser klar til eksport."
+}

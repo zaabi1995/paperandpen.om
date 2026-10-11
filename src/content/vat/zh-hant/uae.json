@@ -1,0 +1,152 @@
+{
+  "locale": "zh-hant",
+  "slug": "uae",
+  "order": 2,
+  "country": "阿拉伯聯合大公國",
+  "title": "阿聯營業稅",
+  "metaTitle": "阿聯營業稅：稅率、門檻與電子發票 · Paper & Pen",
+  "metaDescription": "阿聯 5% 營業稅率、AED 375,000 門檻、第 59 條發票內容，以及已確認的電子發票時程，皆註明出處。",
+  "keywords": "阿聯營業稅, 杜拜營業稅稅率, 阿聯營業稅登記門檻, 阿聯稅務發票規定, 阿聯電子發票 2027, Federal Tax Authority",
+  "heroEyebrow": "阿拉伯聯合大公國",
+  "heroTitle": "依<em class=\"text-copper-400 not-italic\">阿聯營業稅</em>規定開立發票",
+  "heroSubtitle": "稅率、門檻、第 59 條要求稅務發票載明的十二項內容，以及 Ministry of Finance 實際公布的電子發票日期。",
+  "heroBullets": [
+    "5% 標準稅率",
+    "AED 375,000 起須登記",
+    "電子發票自 2027 年分階段實施"
+  ],
+  "authority": {
+    "name": "Federal Tax Authority (FTA)",
+    "url": "https://tax.gov.ae"
+  },
+  "facts": [
+    {
+      "label": "營業稅標準稅率",
+      "value": "5%",
+      "note": "Federal Decree-Law 8 of 2017 第 3 條對任何供應或進口課徵 5% 的標準稅率，自 2018 年 1 月 1 日起生效。",
+      "source": 1
+    },
+    {
+      "label": "強制登記門檻",
+      "value": "AED 375,000",
+      "note": "Executive Regulation 第 7(1) 條。",
+      "source": 2
+    },
+    {
+      "label": "自願登記門檻",
+      "value": "AED 187,500",
+      "note": "Executive Regulation 第 8(1) 條。",
+      "source": 2
+    },
+    {
+      "label": "簡式發票上限",
+      "value": "AED 10,000",
+      "note": "當收受方未登記，或已登記但對價不超過此金額時，可使用簡式稅務發票。",
+      "source": 2
+    },
+    {
+      "label": "發票幣別",
+      "value": "AED",
+      "note": "稅額以迪拉姆顯示；若發票使用其他幣別，必須列出所適用的匯率。",
+      "source": 2
+    }
+  ],
+  "invoiceFields": {
+    "intro": "Executive Regulation 第 59(1) 條列出完整稅務發票必須包含的內容。",
+    "items": [
+      "清楚顯示「Tax Invoice」（稅務發票）字樣",
+      "供應商的名稱、地址和稅籍登記號碼 (TRN)",
+      "收受方已登記時，其名稱、地址和 TRN",
+      "可識別並排序發票的連續或唯一號碼",
+      "開立日期",
+      "供應日期（若與開立日期不同）",
+      "貨物或服務的說明",
+      "每一項的單價、數量或體積、稅率，以及以 AED 計的應付金額",
+      "提供的任何折扣金額",
+      "以 AED 計的應付總額",
+      "以 AED 計的稅額；若由其他幣別換算，須列出匯率",
+      "反向課稅的供應，須聲明由收受方申報稅額，並註明所依據的條文"
+    ],
+    "source": 2,
+    "caveat": "此內容依據 Federal Tax Authority 於 2024 年 10 月 4 日發布的 Executive Regulation 彙編版。評論者提到後續還有一次修訂，但我們未在 FTA 公布的文本中找到，請在依賴之前向 FTA 確認現行措辭。"
+  },
+  "einvoicing": {
+    "status": "強制且分階段實施，試行已開放",
+    "body": "阿聯電子發票系統採分散式五角模式，發票經由 Accredited Service Providers（經認證服務供應商）傳遞。Ministry of Finance 自己的指引訂定了時程：自 2026 年 7 月 1 日起開放試行計畫與自願採用；營收達 AED 5,000 萬或以上的企業自 2027 年 1 月 1 日起實施；低於該門檻的企業自 2027 年 7 月 1 日起；政府機關自 2027 年 10 月 1 日起。Ministry 已將首次指定經認證服務供應商的期限從 2026 年 7 月 31 日延至 2026 年 10 月 30 日，2027 年 1 月的上線日則維持不變。因此，已公布的指引 PDF 與 Ministry 的新聞稿在這一個日期上不一致，而新聞稿是較新的說法。",
+    "source": 3
+  },
+  "sections": [
+    {
+      "eyebrow": "做對這件事",
+      "title": "第 59 條最常讓人出錯的地方",
+      "body": "逐行要求是大多數發票範本做不到的地方。第 59(1)(h) 條要求每項貨物或服務都列出單價、數量、稅率和應付金額，這代表當各行適用不同的稅務處理時，只在發票底部列一個合併稅額是不夠的。第二是收受方的 TRN，只要收受方已登記就必須列出；第三是匯率：以美元請款，仍須以迪拉姆顯示稅額，並列出所用的匯率。",
+      "items": [
+        "每一行都列出稅率和稅額，而非只有總額",
+        "收受方已登記時列出其 TRN",
+        "任何非 AED 發票都要顯示匯率",
+        "適用時加上反向課稅的說明文字"
+      ]
+    },
+    {
+      "eyebrow": "事前準備",
+      "title": "2027 年的日期實際要求您做什麼",
+      "body": "義務並不是去買一套印有標誌的軟體，而是在適用您營收級距的日期，能夠透過經認證服務供應商開立結構化發票。請從您所屬級距的實施日期倒推，而不是從試行開始算：指定服務供應商的期限比上線日早了好幾個月，而大多數企業錯過的正是指定期限，而不是上線日。在此之前，您需要的資料與第 59 條已經要求的資料相同，這正是現在就改善發票品質、而不是在系統轉換時才處理的好理由。",
+      "items": [
+        "了解自己屬於哪個營收級距",
+        "把指定服務供應商的期限記在行事曆上，不只是上線日",
+        "在期限之前而不是期間清理客戶 TRN",
+        "從今天起保留逐行的稅務明細"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "阿聯的營業稅稅率是多少？",
+      "a": "百分之五。Federal Decree-Law 8 of 2017 第 3 條對任何應稅供應或進口課徵 5% 的標準稅率，自 2018 年 1 月 1 日起生效。部分供應適用零稅率或免稅，兩者的差別很重要：適用零稅率的供應商仍可扣抵進項稅額，免稅的則不行。"
+    },
+    {
+      "q": "阿聯的電子發票何時強制實施？",
+      "a": "取決於您的營收。依 Ministry of Finance 公布的指引，營收達 AED 5,000 萬或以上的企業自 2027 年 1 月 1 日起實施，低於該金額的企業自 2027 年 7 月 1 日起，政府機關自 2027 年 10 月 1 日起。試行與自願採用已於 2026 年 7 月 1 日開放。在依任何日期做規劃之前，請先查看 Ministry 的網頁，因為它已經修改過一次期限。"
+    },
+    {
+      "q": "在阿聯什麼時候可以開立簡式稅務發票？",
+      "a": "當收受方未登記營業稅，或已登記但對價不超過 AED 10,000 時。簡式發票仍須載明「Tax Invoice」字樣、您的名稱、地址和 TRN、開立日期、所供應內容的說明，以及以迪拉姆計的對價總額和稅額。"
+    },
+    {
+      "q": "阿聯發票上需要列出客戶的 TRN 嗎？",
+      "a": "需要，只要客戶已登記營業稅就必須列出。在這種情況下，第 59(1)(c) 條要求列出收受方的名稱、地址和稅籍登記號碼。缺少它，您的客戶可能難以扣抵進項稅額，通常最後會回過頭來要求您重新開立。"
+    }
+  ],
+  "related": [
+    "/glossary/tax-invoice",
+    "/glossary/e-invoicing",
+    "/glossary/reverse-charge",
+    "/invoicing/invoices",
+    "/glossary/input-vat"
+  ],
+  "ctaTitle": "在阿聯正確開立發票，免費",
+  "ctaSub": "逐行稅額、任何幣別並在單據上列出匯率，從同一筆紀錄產生阿拉伯語和英語發票。",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Federal Decree-Law 8 of 2017 on VAT，第 3 條（彙編版，含修訂）",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/DataFolder/Files/Legislation/Federal%20Decree-Law%20No.%208%20of%202017%20and%20amendments%20-%20For%20Publishing.pdf"
+    },
+    {
+      "n": 2,
+      "label": "Cabinet Decision 52 of 2017，Executive Regulation，第 7、8 和 59 條",
+      "publisher": "Federal Tax Authority",
+      "year": "2024",
+      "url": "https://tax.gov.ae/Datafolder/Files/Legislation/Executive%20Regulation%20of%20Federal%20Decree%20Law%20No%208%20of%202017%20-%20Publish%20-%2004%2010%202024.pdf"
+    },
+    {
+      "n": 3,
+      "label": "UAE Electronic Invoicing Guidelines v1.1，以及 Ministry 的修訂新聞稿",
+      "publisher": "UAE Ministry of Finance",
+      "year": "2026",
+      "url": "https://mof.gov.ae/wp-content/uploads/2026/06/UAE-Electronic-Invoicing-Guidelines_V-1.1-01June2026.pdf"
+    }
+  ]
+}

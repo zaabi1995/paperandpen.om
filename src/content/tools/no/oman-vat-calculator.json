@@ -1,0 +1,38 @@
+{
+  "locale": "no",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Gratis MVA- og skattekalkulator",
+  "metaTitle": "MVA-kalkulator for Oman: legg til eller trekk fra 5 % MVA",
+  "metaDescription": "Regn ut MVA på 5 % i Oman på nett. Legg MVA til et nettobeløp eller trekk den ut av et bruttobeløp og se netto, MVA og totalt med en gang, uten registrering.",
+  "keywords": "mva-kalkulator, mva-kalkulator oman, kalkulator for omsetningsavgift, legge til mva, trekke fra mva, 5 prosent mva, beregne mva, regne ut mva baklengs",
+  "heroEyebrow": "Gratis · Ingen registrering",
+  "heroTitle": "Gratis <em class=\"text-copper-400 not-italic\">MVA- og skatte</em>kalkulator",
+  "heroSubtitle": "Regn ut MVA på 5 % i Oman på nett. Legg MVA til et nettobeløp eller trekk den ut av et bruttobeløp og se netto, MVA og totalt med en gang, uten registrering.",
+  "heroBullets": ["Alle satser, alle valutaer", "Legg til eller trekk ut skatt", "Gratis for alltid, uten registrering"],
+  "howToSteps": [
+    { "name": "Skriv inn beløpet", "text": "Skriv beløpet du vil regne med, og velg valuta." },
+    { "name": "Angi skattesatsen", "text": "Bruk standardsatsen på 5 % i Oman, eller skriv inn den gjeldende satsen for transaksjonen din." },
+    { "name": "Velg legg til eller trekk fra", "text": "Legg skatt til et nettobeløp, eller trekk skatt ut av et bruttobeløp for å finne nettobeløpet (MVA baklengs)." },
+    { "name": "Les av resultatet", "text": "Se netto, skatt og brutto delt opp med en gang, klart til å kopieres inn i en faktura." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Legg til eller trekk fra skatt", "desc": "Regn skatt forover på et nettobeløp, eller trekk den ut av et bruttobeløp med ett klikk." },
+    { "icon": "globe", "title": "Alle satser, alle valutaer", "desc": "Omans 5 % som standard, eller satsen som gjelder for deg, i OMR, AED, SAR, USD, EUR og flere." },
+    { "icon": "bolt", "title": "Med en gang og gratis", "desc": "Ingen registrering, ingen grenser. Få netto, skatt og brutto i det du skriver." }
+  ],
+  "sections": [
+    { "title": "Hvorfor bruke MVA-kalkulatoren fra Paper & Pen?", "body": "Enten du priser et tilbud, sjekker en faktura eller leverer en melding, må netto, skatt og brutto stemme helt ned til siste desimal. Denne kalkulatoren håndterer alle satser i alle valutaer, fungerer begge veier (legg til skatt eller trekk den ut av en total) og er helt gratis. Den åpner med Omans sats på 5 % og kan justeres fullt ut for andre land." },
+    { "eyebrow": "Mer enn kalkulatoren", "title": "La programmet ordne MVA-en for deg", "body": "Å regne skatt for hånd på hver linje er tregt og gir lett feil. I hele Paper & Pen ERP legges MVA automatisk på nettobeløpet etter rabatt på hver faktura, føres i regnskapet og samles i rapporter klare for innsending, så du slipper å gripe etter kalkulatoren i det hele tatt.", "items": ["Automatisk skatt på hver faktura og hvert tilbud", "Skattesatser per vare og per dokument", "MVA-oversikter klare for innsending"] }
+  ],
+  "faqs": [
+    { "q": "Hvilken sats bruker denne MVA-kalkulatoren for Oman?", "a": "Kalkulatoren åpner med Omans sats på 5 %. Skatteregler kan endres, så bekreft gjeldende sats hos Oman Tax Authority før du stoler på en beregning. Du kan skrive inn hvilken som helst sats." },
+    { "q": "Hvordan trekker jeg MVA ut av et totalbeløp?", "a": "Velg alternativet trekk fra (baklengs) og skriv inn bruttobeløpet. Kalkulatoren regner ut nettobeløpet og skattedelen som var med i totalen." },
+    { "q": "Kan jeg bruke den for omsetningsavgift utenfor Oman?", "a": "Ja. Angi satsen som gjelder for transaksjonen din, og velg hvilken som helst valuta. Den fungerer for MVA, GST eller omsetningsavgift hvor som helst i verden." },
+    { "q": "Regner den skatt på et rabattert beløp?", "a": "Skriv inn nettobeløpet etter rabatt og legg skatt til det. For automatisk MVA etter rabatt på hele fakturaer kan du opprette et gratis Paper & Pen-arbeidsområde der det ordnes for deg." }
+  ],
+  "related": ["/vat/oman", "/tools/free-invoice-generator", "/tools/free-quotation-generator", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Slutt å regne ut MVA for hånd",
+  "ctaSub": "Legg på skatt automatisk på hver faktura og få MVA-rapporter klare for innsending med et gratis Paper & Pen-arbeidsområde."
+}

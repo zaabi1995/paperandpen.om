@@ -1,0 +1,159 @@
+{
+  "locale": "hu",
+  "slug": "oman",
+  "order": 1,
+  "country": "Omán",
+  "title": "ÁFA Ománban",
+  "metaTitle": "ÁFA Ománban: kulcs, értékhatárok, számlák · Paper & Pen",
+  "metaDescription": "Omán 5%-os ÁFA-kulcsa, az OMR 38,500 összegű regisztrációs értékhatár és az adószámla tizenkét kötelező eleme, mindegyik az adóhatóság forrásával.",
+  "keywords": "áfa omán, ománi áfakulcs, ománi áfa regisztrációs értékhatár, ománi adószámla követelmények, fawtara e-számla, oman tax authority",
+  "heroEyebrow": "Omán",
+  "heroTitle": "Számlázás az <em class=\"text-copper-400 not-italic\">ománi ÁFA</em> szabályai szerint",
+  "heroSubtitle": "A kulcs, a regisztrációs értékhatárok, mit kell tartalmaznia egy adószámlának, és hol tart az e-számlázás. Az oldalon szereplő minden adat az Oman Tax Authority saját közzétett szövegére hivatkozik.",
+  "heroBullets": [
+    "5% általános kulcs",
+    "OMR 38,500 a regisztrációhoz",
+    "A Fawtarát bejelentették, még nem él"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://taxoman.gov.om"
+  },
+  "facts": [
+    {
+      "label": "Általános ÁFA-kulcs",
+      "value": "5%",
+      "note": "Az ÁFA-törvény 36. cikke az adóköteles áruk vagy szolgáltatások importjára és értékesítésére az adóalap öt százalékában határozza meg az adót.",
+      "source": 1
+    },
+    {
+      "label": "Kötelező regisztrációs értékhatár",
+      "value": "OMR 38,500",
+      "note": "Az ezt elérő vagy meghaladó éves értékesítés regisztrációt tesz kötelezővé. A törvény az összeget nem maga rögzíti, hanem az Elnök határozatára bízza.",
+      "source": 2
+    },
+    {
+      "label": "Önkéntes regisztrációs értékhatár",
+      "value": "OMR 19,250",
+      "note": "Ettől a szinttől a kötelező értékhatár alatt is regisztrálhat.",
+      "source": 2
+    },
+    {
+      "label": "A számla nyelve",
+      "value": "Arab",
+      "note": "A számla angolul is kiállítható, feltéve hogy kérésre arab fordítás rendelkezésre áll.",
+      "source": 3
+    },
+    {
+      "label": "Egyszerűsített számla felső határa",
+      "value": "OMR 500",
+      "note": "Az ennél kisebb értékű értékesítésekhez egyszerűsített számla is használható, az adóhatóság jóváhagyásával.",
+      "source": 3
+    }
+  ],
+  "invoiceFields": {
+    "intro": "A Végrehajtási Rendelet 145. cikke sorolja fel, mit kell tartalmaznia egy adószámlának. A cikk a felsorolást a „különösen” szóval vezeti be, ezért tekintse minimumnak, ne teljes listának.",
+    "items": [
+      "Az „Adószámla” (Tax Invoice) megjelölés",
+      "A kiállítás, a teljesítés és a fizetés dátuma",
+      "Folyamatos számlaszám",
+      "Az eladó teljes neve, címe és adóazonosító száma",
+      "A vevő teljes neve, címe és adóazonosító száma, vagy ennek megfelelője az illetősége szerinti országban",
+      "Az értékesített áruk és szolgáltatások leírása",
+      "Az áruk mennyisége",
+      "Az esetleges előleg fizetésének dátuma",
+      "Az adó nélküli teljes ellenérték",
+      "Az alkalmazott adókulcs",
+      "Minden nyújtott árcsökkentés vagy kedvezmény, és minden, még nem szereplő állami támogatás",
+      "Az adóalap"
+    ],
+    "source": 3,
+    "caveat": "Az adóhatóság a Végrehajtási Rendeletet csak arabul teszi közzé. Ez a lista a hivatalos arab szöveg hű olvasata, nem hivatalos angol fordítás, ezért mielőtt hagyatkozna rá, egyeztesse a megfogalmazást adótanácsadójával."
+  },
+  "einvoicing": {
+    "status": "Bejelentve és szakaszolva, még nem kötelező",
+    "body": "Omán e-számlázási programjának neve Fawtara. Az adóhatóság egy ötsarkú modellt ír le, amelyben a számlák egy akkreditált szolgáltatón keresztül jutnak el hozzá, és négy szakaszt határoz meg: egy próbaszakaszt, egy bővítést, a kisebb vállalkozások bevonását és a teljes bevezetést. A hatóság a szakaszok dátumait angolul nem tette közzé, és a sajtóban keringő dátumok nem szerepelnek a saját oldalain. Minden máshol olvasott konkrét Fawtara-határidőt tekintsen megerősítetlennek, amíg az adóhatóság közzé nem teszi.",
+    "source": 4
+  },
+  "sections": [
+    {
+      "eyebrow": "Hogy jól csinálja",
+      "title": "Mi okoz gondot a vállalkozásoknak Ománban",
+      "body": "Itt három dolog felel az ÁFA-számlákkal kapcsolatos problémák többségéért. Az első a vevő adóazonosító száma: ha lemarad, a vevője esetleg nem tudja levonni az előzetesen felszámított adót, így az Ön számlája az ő költsége, és az Ön problémája lesz. A második a számlák sorszámozása. A 145. cikk folyamatos sorszámot ír elő, és ezt a leggyorsabban úgy töri meg, ha egy már kiküldött számlát töröl vagy átszámoz. Helyette jóváíró számlával javítsa. A harmadik a nyelv: a számlának arabul kell készülnie, és ha csak angolul állítja ki, kérésre elérhető arab változat nélkül, kiszolgáltatottá válik.",
+      "items": [
+        "A vevő adóazonosító számát a kiállítás előtt rögzítse, ne utána",
+        "Kiállított számlát soha ne töröljön, hanem írja jóvá",
+        "Tartson kérésre elérhető arab változatot",
+        "A teljesítés dátumát a kiállítás dátumától külön rögzítse"
+      ]
+    },
+    {
+      "eyebrow": "Felkészülés",
+      "title": "Felkészülés a Fawtarára dátumok találgatása nélkül",
+      "body": "A felkészüléshez nincs szüksége közzétett határidőre. A térségben eddig élesedett minden e-számlázási rendszer ugyanazt az alapvető fegyelmet követelte meg: tiszta, teljes vevői nyilvántartást az adószámokkal együtt, megszakítás nélküli számlasorszámozást, soronként és nem számlánként rögzített adókezelést, valamint olyan dokumentumtárolást, amelyből kérésre elő lehet venni a bizonylatokat. Annak a vállalkozásnak, amelynek nyilvántartása már megfelel ennek a négy feltételnek, rövid bevezetés vár, bármikor érkeznek is a dátumok. Amelyiknek nem, az a felkészülési időt adattisztítással tölti.",
+      "items": [
+        "Teljes vevői nyilvántartás, adószámokkal együtt",
+        "Sorozatonként egy megszakítás nélküli számlasorszámozás",
+        "Soronként rögzített adókezelés",
+        "Kérésre előkereshető dokumentumok"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mennyi az ÁFA-kulcs Ománban?",
+      "a": "Öt százalék. A 121/2020. számú királyi rendelettel kihirdetett ÁFA-törvény 36. cikke az adóköteles áruk vagy szolgáltatások importjára és értékesítésére az adóalap öt százalékában számítja az adót. Egyes értékesítések nulla kulcsosak vagy adómentesek, ami két különböző dolog: a nulla kulcsos értékesítő továbbra is levonhatja az előzetesen felszámított adót, az adómentes nem."
+    },
+    {
+      "q": "Mikor kell regisztrálnom ÁFA-ra Ománban?",
+      "a": "Amikor az éves értékesítése eléri vagy várhatóan eléri az OMR 38,500 összeget. Önkéntesen OMR 19,250 összegtől regisztrálhat. Mindkét összeg az Elnök regisztrációs értékhatárokról szóló határozatából származik, nem magából az ÁFA-törvényből, ezért változhatnak anélkül, hogy a törvény változna."
+    },
+    {
+      "q": "Kötelező már az e-számlázás Ománban?",
+      "a": "Még nem. Az adóhatóság bejelentette a Fawtarát, egy szakaszos, ötsarkú, akkreditált szolgáltatókat használó e-számlázási modellt, és négy bevezetési szakaszt ír le. A szakaszok dátumait saját oldalain angolul nem tette közzé, ezért itt nem adunk meg dátumot. Az aktuális helyzetért nézze meg az adóhatóság e-számlázási oldalait."
+    },
+    {
+      "q": "Kiállíthatok angol nyelvű számlát Ománban?",
+      "a": "Kiállíthat angolul, de a Végrehajtási Rendelet előírja, hogy az adószámla arabul készüljön, és emellett más nyelvet is megenged, feltéve hogy kérésre arab fordítás rendelkezésre áll. A gyakorlatban ez azt jelenti, hogy kétnyelvű sablont érdemes használni, nem csak angolt."
+    }
+  ],
+  "related": [
+    "/glossary/value-added-tax",
+    "/glossary/tax-invoice",
+    "/glossary/input-vat",
+    "/invoicing/invoices",
+    "/tools/oman-vat-calculator"
+  ],
+  "ctaTitle": "Számlázzon helyesen Ománban, ingyen",
+  "ctaSub": "Állítsa be a saját adókulcsát, számlázzon bármilyen pénznemben, és készítsen arab és angol számlát ugyanabból a nyilvántartásból.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "VAT Law, Royal Decree 121/2020, 36. cikk",
+      "publisher": "Oman Tax Authority",
+      "year": "2020",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344"
+    },
+    {
+      "n": 2,
+      "label": "Az Elnök határozata a kötelező és az önkéntes regisztrációs értékhatárok megállapításáról",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/Determining+the+Mandatory+and+Voluntary+Registration+Thresholds.pdf/4c5d8dcb-5b81-34ae-a1d2-e3c6d8431988?t=1733169610184"
+    },
+    {
+      "n": 3,
+      "label": "Executive Regulations of the VAT Law, Decision 53/2021, 145–148. cikk",
+      "publisher": "Oman Tax Authority",
+      "year": "2021",
+      "url": "https://tms.taxoman.gov.om/portal/documents/20126/0/Decision+No.+53-2021+Issuing+the+Executive+Regulations+of+the+Value+Added+Tax+%28VAT%29+Law.pdf/6150f022-0d7f-4f9b-831f-8b50c69af118?t=1748250290518"
+    },
+    {
+      "n": 4,
+      "label": "Az e-számlázási (Fawtara) program oldalai",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "zh-hant",
+  "slug": "free-invoice-generator",
+  "toolType": "invoice",
+  "order": 1,
+  "title": "免費發票產生器",
+  "metaTitle": "免費發票產生器 · Paper & Pen",
+  "metaDescription": "免費線上製作專業發票。加入品項、設定任何幣別與營業稅率，幾秒下載可列印的 PDF。不需註冊。",
+  "keywords": "免費發票產生器, 發票製作, 線上開發票, 免費發票範本, 發票 PDF 下載, 營業稅發票產生器",
+  "heroEyebrow": "免費 · 不需註冊",
+  "heroTitle": "免費發票產生器",
+  "heroSubtitle": "幾秒內建立一張專業發票。加入明細項目、選擇任何幣別、套用營業稅或銷售稅，再下載整潔的 PDF。不需要帳號。",
+  "howToSteps": [
+    { "name": "填寫您的資料", "text": "輸入您的公司名稱、客戶、發票號碼和日期。" },
+    { "name": "加入明細項目", "text": "列出要請款的項目，包含數量和單價。合計會自動計算。" },
+    { "name": "設定幣別與稅率", "text": "選擇任何幣別，並設定營業稅或銷售稅稅率。" },
+    { "name": "下載 PDF", "text": "按下下載儲存可列印的 PDF，或註冊後儲存並寄出。" }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "即時又免費", "desc": "不需註冊、沒有浮水印、沒有數量限制。需要多少發票就開多少。" },
+    { "icon": "globe", "title": "任何幣別", "desc": "以 OMR、AED、SAR、USD、EUR、GBP 等幣別開立發票，小數位數正確。" },
+    { "icon": "calc", "title": "支援營業稅與各類稅費", "desc": "套用任何營業稅或銷售稅稅率，依淨額自動計算。" }
+  ],
+  "sections": [
+    { "title": "為什麼要使用 Paper & Pen 發票產生器？", "body": "它真正免費、支援任何幣別，並能產生整潔、專業的 PDF，可直接寄給客戶。當您準備好追蹤收款、寄送提醒並自動對帳時，您的發票可以延續到完整的 Paper & Pen ERP 中。" }
+  ],
+  "faqs": [
+    { "q": "發票產生器真的免費嗎？", "a": "是的。完全免費，不需註冊、沒有浮水印，建立發票的數量也沒有限制。" },
+    { "q": "可以用我自己的幣別開立發票嗎？", "a": "可以。可從 OMR、AED、SAR、USD、EUR 和 GBP 等主要幣別中選擇。小數位數會自動調整。" },
+    { "q": "支援營業稅或銷售稅嗎？", "a": "支援。開啟稅額並設定任何稅率（例如波斯灣地區可設定的稅率）。系統會依小計自動計算。" },
+    { "q": "如何儲存和寄送發票？", "a": "您可以免費下載 PDF，或建立免費的 Paper & Pen 工作區，儲存、寄送並追蹤每張發票，還能線上收款。" }
+  ],
+  "related": ["/tools/free-quotation-generator", "/tools/free-receipt-generator", "/features/invoicing", "/free-invoicing-software"],
+  "ctaTitle": "不只是一個產生器",
+  "ctaSub": "使用免費的 Paper & Pen 工作區，儲存、寄送並追蹤每張發票，線上收款並自動對帳。"
+}

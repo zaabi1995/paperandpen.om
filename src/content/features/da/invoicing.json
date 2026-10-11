@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "invoicing",
+  "order": 1,
+  "title": "Fakturering",
+  "metaTitle": "Funktioner til fakturahåndtering | Paper & Pen ERP",
+  "metaDescription": "Se fakturaopfølgning, onlinebetaling, påmindelser, valgfri moms, fem sprog og flere valutaer samlet i Paper & Pen ERP.",
+  "keywords": "faktureringsprogram, gratis fakturering, online faktura, send faktura, få betaling online, momsfaktura, gentagne fakturaer, betalingspåmindelser",
+  "heroEyebrow": "Gratis for altid",
+  "heroTitle": "Fakturering, der giver dig <em class=\"text-copper-400 not-italic\">pengene hurtigere</em>",
+  "heroSubtitle": "Lav en flot faktura på under et minut, send den på e-mail eller WhatsApp, og lad kunden betale online. Bygget til enhver valuta og enhver momssats, brugt i hele verden.",
+  "heroBullets": ["Salg og fakturering gratis for altid", "Enhver valuta, enhver momssats", "Betalingslink på hver faktura"],
+  "features": [
+    { "icon": "bolt", "title": "Faktura på sekunder", "desc": "Vælg en kunde, tilføj varer, og tryk send. Totaler og moms beregnes, mens du skriver." },
+    { "icon": "globe", "title": "Enhver valuta", "desc": "Fakturér i OMR, AED, SAR, USD, EUR, GBP eller enhver anden valuta med de rigtige decimaler." },
+    { "icon": "card", "title": "Få betaling online", "desc": "Hver faktura har et sikkert betalingslink, så kunden betaler med kort med ét tryk." },
+    { "icon": "bell", "title": "Automatiske påmindelser", "desc": "Venlige, planlagte påmindelser følger op på forfaldne fakturaer, så du ikke skal." },
+    { "icon": "refresh", "title": "Gentagne fakturaer", "desc": "Lad faste aftaler og abonnementer faktureres automatisk, ugentligt eller månedligt." },
+    { "icon": "calc", "title": "Klar til moms og afgifter", "desc": "Brug enhver moms- eller salgsafgiftssats, beregnet af nettobeløbet efter rabat." }
+  ],
+  "sections": [
+    { "eyebrow": "Bygget til hele verden", "title": "Ét faktureringsværktøj til alle markeder", "body": "Uanset om du fakturerer i dollar fra New York eller i rial fra Muscat, klarer Paper & Pen valutaen, decimalerne og momsreglerne for dig. Skift brugerfladen mellem engelsk, arabisk, hindi, bengali og urdu, så hele teamet arbejder på sit eget sprog.", "items": ["Flere valutaer med korrekt formatering", "Valgfri moms for ethvert land", "Arabisk først, fakturaer helt fra højre mod venstre"] },
+    { "eyebrow": "Fra tilbud til betaling", "title": "Fakturering i et komplet ERP", "body": "Dine fakturaer lever ikke for sig selv. Gør et vundet tilbud til en faktura med ét klik, registrér betalingen, og se den blive bogført automatisk. Når du vokser, venter lager, regnskab og løn allerede i samme workspace.", "items": ["Tilbud til faktura med ét klik", "Betalinger afstemmes mod hovedbogen", "Aldrig dobbelt indtastning"] }
+  ],
+  "faqs": [
+    { "q": "Er fakturering virkelig gratis?", "a": "Ja. Salg og fakturering er gratis for altid uden grænse for antal fakturaer eller kunder. Du betaler kun, hvis du tilføjer valgfrie moduler som Lager eller HR og løn." },
+    { "q": "Kan kunderne betale fakturaen online?", "a": "Ja. Hver faktura kan have et sikkert betalingslink via Paymob og andre betalingsløsninger, så kunden betaler med kort, og betalingen afstemmes automatisk." },
+    { "q": "Understøtter det moms og andre afgifter?", "a": "Ja. Angiv enhver sats, også valgfri moms for Golfstaterne, eller det, der gælder i dit land. Momsen beregnes af nettobeløbet efter eventuel rabat." },
+    { "q": "Kan jeg sende fakturaer på arabisk?", "a": "Ja. Hele brugerfladen og fakturaens PDF kan være på arabisk, helt fra højre mod venstre, ved siden af engelsk, hindi, bengali og urdu." },
+    { "q": "Kan jeg automatisere gentagen fakturering?", "a": "Ja. Opret en gentagen faktura til faste aftaler eller abonnementer, så udsteder og sender Paper & Pen den efter planen." }
+  ],
+  "related": ["/features/quotations", "/features/payments", "/invoicing/invoices", "/invoicing/recurring-invoices", "/pricing"],
+  "ctaTitle": "Send din første faktura gratis",
+  "ctaSub": "Opret et gratis workspace, og fakturér din første kunde på få minutter. Intet kort, gratis for altid."
+}

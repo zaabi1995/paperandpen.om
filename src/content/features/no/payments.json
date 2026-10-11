@@ -1,0 +1,35 @@
+{
+  "locale": "no",
+  "slug": "payments",
+  "order": 10,
+  "title": "Betalinger",
+  "metaTitle": "Nettbetaling av fakturaer · Få betalt raskere · Paper & Pen",
+  "metaDescription": "Legg en betalingslenke på hver faktura og få betalt med kort. Paymob og globale betalingsløsninger, alle valutaer, avstemt automatisk i regnskapet.",
+  "keywords": "nettbetaling, ta imot kortbetaling, betale faktura på nett, paymob, betalingsløsning, få betalt raskere, betalingslenke",
+  "heroEyebrow": "Innebygd",
+  "heroTitle": "La kundene betale deg <em class=\"text-copper-400 not-italic\">med ett trykk</em>",
+  "heroSubtitle": "Legg en sikker betalingslenke på hver faktura, så kundene betaler med kort med en gang. Betalingene avstemmes automatisk i regnskapet, i alle valutaer, hvor som helst.",
+  "heroBullets": ["Betalingslenke på hver faktura", "Avstemt automatisk mot hovedboken", "Paymob og globale betalingsløsninger"],
+  "features": [
+    { "icon": "card", "title": "Betal med kort", "desc": "Kundene betaler hvilken som helst faktura på nett med kort, uten innlogging eller app." },
+    { "icon": "bolt", "title": "Betalingslenke med en gang", "desc": "Hver faktura har en sikker lenke som kan deles på e-post eller WhatsApp." },
+    { "icon": "refresh", "title": "Automatisk avstemming", "desc": "Vellykkede betalinger markerer fakturaen som betalt og føres i regnskapet." },
+    { "icon": "globe", "title": "Alle valutaer", "desc": "Ta imot betaling i OMR, AED, SAR, USD, EUR og flere via riktig betalingsløsning." },
+    { "icon": "shield", "title": "Sikkert og PCI", "desc": "Kortdata håndteres av sertifiserte betalingsløsninger og lagres aldri hos deg." },
+    { "icon": "receipt", "title": "Kvitteringer sendes", "desc": "Kundene får en automatisk kvittering i det betalingen går gjennom." }
+  ],
+  "sections": [
+    { "eyebrow": "Få betalt raskere", "title": "Fjern hindringene mellom faktura og penger", "body": "Jo raskere en kunde kan betale, desto raskere får du pengene. En betalingslenke på hver faktura betyr ingen kontonummer å kopiere og ingen venting på en overføring. Kunden trykker, betaler med kort, og fakturaen oppdaterer seg selv, med kvittering på vei.", "items": ["Kortbetaling med ett trykk", "Lenke som kan deles på WhatsApp og e-post", "Automatiske kvitteringer"] },
+    { "eyebrow": "Lokalt og globalt", "title": "Riktig betalingsløsning for ditt marked", "body": "Paper & Pen kobler til Paymob for Gulfstatene og andre globale betalingsløsninger, så du kan ta imot kortene kundene faktisk bruker, i deres valuta. Hvert oppgjør avstemmes mot riktig faktura og føres i regnskapet, så innkreving og bokføring går i takt.", "items": ["Paymob for Gulfstatene, pluss globale alternativer", "Innbetaling i flere valutaer", "Avstemmes mot nøyaktig riktig faktura"] }
+  ],
+  "faqs": [
+    { "q": "Er det gratis å slå på nettbetaling?", "a": "Ja, betalingslenker er innebygd. Betalingsløsningen tar sitt eget gebyr per transaksjon, slik betalingsløsninger alltid gjør." },
+    { "q": "Hvilke betalingsløsninger støttes?", "a": "Paymob for Gulfstatene og andre globale betalingsløsninger, så du kan ta imot kortene kundene bruker, i deres valuta." },
+    { "q": "Oppdaterer en betaling fakturaen automatisk?", "a": "Ja. En vellykket betaling markerer fakturaen som betalt, sender en kvittering og fører posteringen i regnskapet." },
+    { "q": "Kan kundene betale i ulike valutaer?", "a": "Ja. Ta imot betaling i OMR, AED, SAR, USD, EUR og flere, sendt gjennom riktig betalingsløsning." },
+    { "q": "Er kortbetaling sikkert?", "a": "Ja. Kortopplysninger håndteres av PCI-sertifiserte betalingsløsninger og lagres aldri i Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Gjør fakturaer om til penger med en gang",
+  "ctaSub": "Start gratis og legg en betalingslenke på hver faktura, så kundene kan betale deg med ett trykk."
+}

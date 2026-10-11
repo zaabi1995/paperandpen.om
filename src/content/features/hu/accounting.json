@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "accounting",
+  "order": 5,
+  "title": "Könyvelés",
+  "metaTitle": "Online könyvelőprogram · Automatikus könyvelés · Paper & Pen",
+  "metaDescription": "Kettős könyvvitel, amely magától könyvel. Valós idejű eredménykimutatás és mérleg, ÁFA-bevallás, banki egyeztetés, bármilyen pénznem és adó, világszerte.",
+  "keywords": "könyvelőprogram, online könyvelés, kettős könyvvitel, mérleg, eredménykimutatás, áfabevallás, banki egyeztetés, főkönyv",
+  "heroEyebrow": "Kiegészítő modul",
+  "heroTitle": "Könyvek, amelyek <em class=\"text-copper-400 not-italic\">maguktól egyeznek</em>",
+  "heroSubtitle": "Minden számla, fizetés és beszerzés automatikusan egy szabályos, kettős könyvvitelű főkönyvbe kerül. Lássa valós időben a nyereségét, a mérlegét és az adópozícióját, táblázatkezelő nélkül.",
+  "heroBullets": ["Automatikus kettős könyvvitel, kézi vegyes napló nélkül", "Valós idejű eredménykimutatás és mérleg", "ÁFA-bevallás egy kattintással"],
+  "features": [
+    { "icon": "accounting", "title": "Automatikus könyvelés", "desc": "Az értékesítések, fizetések és kiadások abban a pillanatban a főkönyvbe kerülnek, amikor megtörténnek." },
+    { "icon": "chart", "title": "Élő pénzügyi kimutatások", "desc": "Eredménykimutatás, mérleg és cash flow, mindig naprakészen." },
+    { "icon": "calc", "title": "ÁFA- és adóbevallások", "desc": "Kövesse az előzetesen felszámított és a fizetendő adót, és készítsen beadásra kész bevallást egy kattintással." },
+    { "icon": "refresh", "title": "Banki egyeztetés", "desc": "Párosítsa a banki tételeket a számlákkal és fizetésekkel, hogy a könyvek rendben maradjanak." },
+    { "icon": "doc", "title": "Teljes főkönyvi kartonok", "desc": "Bármely jelentésből lefúrhat a forrásbizonylatig és a könyvelési tételig." },
+    { "icon": "globe", "title": "Több pénznem", "desc": "Könyveljen bármilyen pénznemben, automatikus árfolyamnyereséggel és -veszteséggel." }
+  ],
+  "sections": [
+    { "eyebrow": "Könyvelő nélkül is", "title": "Könyvelés, amely a háttérben fut", "body": "Nem kell könyvelőnek lennie ahhoz, hogy tudja, nyereséges-e. Mivel a számlázás, a fizetések és a készlet ugyanabba a főkönyvbe fut, a számlái kézi vegyes napló nélkül is helyesek. Nyissa meg az irányítópultot, és ott látja a nyereségét, a kintlévőségeit és az adóját.", "items": ["A kettős könyvvitelt elvégezzük Ön helyett", "Minden jelentés a forrásig lefúrható", "Ellenőrzési napló minden tételhez"] },
+    { "eyebrow": "Bármely adórendszerhez", "title": "Adó és megfelelés, bárhol is működik", "body": "Állítsa be országa adókulcsait és számláit, az Öböl menti országok beállítható ÁFA-ját is, és a Paper & Pen követi Ön helyett az előzetesen felszámított és a fizetendő adót. Készítsen beadásra kész bevallást, egyeztesse a bankszámláját, és zárja le az időszakot magabiztosan, bármilyen pénznemben.", "items": ["Beállítható adó bármely országhoz", "Beadásra kész ÁFA-bevallások", "Banki egyeztetés és időszakzárás"] }
+  ],
+  "faqs": [
+    { "q": "Kell könyvelési tudás a használatához?", "a": "Nem. A tételek automatikusan keletkeznek a számláiból, fizetéseiből és beszerzéseiből, így helyes kettős könyvvitelt kap anélkül, hogy vegyes naplót kellene írnia." },
+    { "q": "Ingyenes a könyvelés?", "a": "A Könyvelés választható, fizetős kiegészítő modul. Az Értékesítés és Számlázás örökre ingyenes, a Könyvelést pedig akkor kapcsolja be, amikor teljes pénzügyi kimutatásokra van szüksége." },
+    { "q": "Tud ÁFA-bevallást készíteni?", "a": "Igen. Követi az előzetesen felszámított és a fizetendő adót (például az Öböl menti országok beállítható ÁFA-ját vagy bármely Ön által megadott kulcsot), és beadásra kész bevallást készít." },
+    { "q": "Kezel több pénznemet?", "a": "Igen. Könyveljen és készítsen jelentést bármilyen pénznemben, automatikus árfolyamnyereséggel és -veszteséggel." },
+    { "q": "Egyeztethetem a bankszámlámat?", "a": "Igen. Importálja a banki tételeket, vagy párosítsa őket a számlákkal és fizetésekkel, hogy a főkönyve egyeztetett maradjon." }
+  ],
+  "related": ["/features/invoicing", "/features/reports", "/features/inventory", "/invoicing/ledgers", "/pricing"],
+  "ctaTitle": "Pontos könyvek, automatikusan",
+  "ctaSub": "Kezdje ingyen a számlázással, és kapcsolja be a Könyvelést a valós idejű pénzügyi kimutatásokhoz és adóbevallásokhoz."
+}

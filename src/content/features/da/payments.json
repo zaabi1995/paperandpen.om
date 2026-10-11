@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "payments",
+  "order": 10,
+  "title": "Betalinger",
+  "metaTitle": "Onlinebetaling af fakturaer · Få pengene hurtigere · Paper & Pen",
+  "metaDescription": "Sæt et betalingslink på hver faktura, og få betaling med kort. Paymob og globale betalingsløsninger, enhver valuta, automatisk afstemt i regnskabet. Virker overalt.",
+  "keywords": "onlinebetaling, modtag kortbetaling, betal faktura online, paymob, betalingsløsning, få betaling hurtigere, betalingslink",
+  "heroEyebrow": "Indbygget",
+  "heroTitle": "Lad kunderne betale dig <em class=\"text-copper-400 not-italic\">med ét tryk</em>",
+  "heroSubtitle": "Sæt et sikkert betalingslink på hver faktura, så kunderne betaler med kort med det samme. Betalingerne afstemmes automatisk i regnskabet, i enhver valuta og overalt.",
+  "heroBullets": ["Betalingslink på hver faktura", "Automatisk afstemt i hovedbogen", "Paymob og globale betalingsløsninger"],
+  "features": [
+    { "icon": "card", "title": "Betal med kort", "desc": "Kunderne betaler enhver faktura online med kort, uden login eller app." },
+    { "icon": "bolt", "title": "Betalingslink med det samme", "desc": "Hver faktura har et sikkert link, som kan deles på e-mail eller WhatsApp." },
+    { "icon": "refresh", "title": "Automatisk afstemning", "desc": "Gennemførte betalinger markerer fakturaen som betalt og bogføres i regnskabet." },
+    { "icon": "globe", "title": "Enhver valuta", "desc": "Modtag betaling i OMR, AED, SAR, USD, EUR og flere via den rette betalingsløsning." },
+    { "icon": "shield", "title": "Sikkert og PCI", "desc": "Kortdata håndteres af certificerede betalingsløsninger og gemmes aldrig hos dig." },
+    { "icon": "receipt", "title": "Kvitteringer sendes", "desc": "Kunden får automatisk en kvittering, i det øjeblik betalingen går igennem." }
+  ],
+  "sections": [
+    { "eyebrow": "Få pengene hurtigere", "title": "Fjern besværet mellem faktura og betaling", "body": "Jo hurtigere en kunde kan betale, jo hurtigere får du pengene. Et betalingslink på hver faktura betyder ingen bankoplysninger at kopiere og ingen ventetid på en overførsel. Kunden trykker, betaler med kort, og fakturaen opdaterer sig selv, mens kvitteringen er på vej.", "items": ["Kortbetaling med ét tryk", "Link, der kan deles på WhatsApp og e-mail", "Automatiske kvitteringer"] },
+    { "eyebrow": "Lokalt og globalt", "title": "Den rette betalingsløsning til dit marked", "body": "Paper & Pen forbinder Paymob til Golfstaterne og andre globale betalingsløsninger, så du kan modtage de kort, dine kunder faktisk bruger, i deres valuta. Hver afregning afstemmes mod den rigtige faktura og bogføres i regnskabet, så opkrævning og bogføring går hånd i hånd.", "items": ["Paymob til Golfstaterne plus globale muligheder", "Betaling i flere valutaer", "Afstemmes mod præcis den rigtige faktura"] }
+  ],
+  "faqs": [
+    { "q": "Er det gratis at slå onlinebetaling til?", "a": "Ja, betalingslinks er indbygget. Betalingsløsningen tager sit eget transaktionsgebyr pr. betaling, sådan som betalingsløsninger altid gør." },
+    { "q": "Hvilke betalingsløsninger understøttes?", "a": "Paymob til Golfstaterne plus andre globale betalingsløsninger, så du kan modtage de kort, dine kunder bruger, i deres valuta." },
+    { "q": "Opdaterer en betaling fakturaen automatisk?", "a": "Ja. En gennemført betaling markerer fakturaen som betalt, sender en kvittering og bogfører posteringen i regnskabet." },
+    { "q": "Kan kunderne betale i forskellige valutaer?", "a": "Ja. Modtag betaling i OMR, AED, SAR, USD, EUR og flere, sendt gennem den passende betalingsløsning." },
+    { "q": "Er kortbetaling sikker?", "a": "Ja. Kortoplysninger håndteres af PCI-certificerede betalingsløsninger og gemmes aldrig i Paper & Pen." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Gør fakturaer til penge med det samme",
+  "ctaSub": "Start gratis, og sæt et betalingslink på hver faktura, så kunderne kan betale dig med ét tryk."
+}

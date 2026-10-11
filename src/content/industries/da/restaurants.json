@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Restauranter og caféer",
+  "metaTitle": "Afregning og opskriftslager til restauranter | Paper & Pen",
+  "metaDescription": "Gratis afregning plus råvarelager, opskriftskalkulation og indkøbsordrer til leverandører for restauranter og caféer. Styr råvareforbruget, og afregn hurtigt.",
+  "keywords": "restaurantprogram, afregning café, opskriftskalkulation, råvareforbrug, lager til restaurant, indkøbsordrer til leverandører, erp til restauranter",
+  "heroEyebrow": "Til restauranter og caféer",
+  "heroTitle": "Afregn hurtigt, <em class=\"text-copper-400 not-italic\">styr råvareforbruget</em>",
+  "heroSubtitle": "Print kvitteringer på sekunder, følg råvarer ned til grammet, og kend den reelle kostpris på hver ret. Paper & Pen får køkkenet, kassen og regnskabet til at arbejde sammen.",
+  "heroBullets": ["Gratis, hurtige kvitteringer", "Kalkulation af råvarer og opskrifter", "Indkøbsordrer til leverandører"],
+  "features": [
+    { "icon": "receipt", "title": "Hurtige kvitteringer", "desc": "Tag en bestilling, læg moms og service på, og print eller del en kvittering på sekunder." },
+    { "icon": "manufacturing", "title": "Opskriftskalkulation", "desc": "Opbyg opskrifter af råvarer, så du kender den reelle kostpris på hver ret." },
+    { "icon": "inventory", "title": "Råvarelager", "desc": "Følg råvarer pr. enhed, batch og holdbarhed med varsler om lav beholdning." },
+    { "icon": "truck", "title": "Leverandørordrer", "desc": "Send indkøbsordrer til leverandører, og opdatér lager og kostpris ved modtagelsen." },
+    { "icon": "calc", "title": "Råvareprocent", "desc": "Sammenlign retternes kostpris med menuprisen, så dine avancer forbliver sunde." },
+    { "icon": "chart", "title": "Salgsrapporter", "desc": "Se de mest solgte retter, dagens omsætning og tendenser på tværs af dage og afdelinger." }
+  ],
+  "sections": [
+    { "eyebrow": "Hurtigere i restauranten", "title": "Kvitteringer, der holder køen i gang", "body": "Frokosttravlheden giver ingen tid til langsom afregning. Tilføj varer, læg moms eller servicegebyr på, tag imod betaling, og giv en pæn kvittering på sekunder, og del den på WhatsApp, hvis gæsten ønsker det. Hvert salg bogføres automatisk i regnskabet, så dagsafslutningen er et hurtigt blik og ikke en aften med tastearbejde.", "items": ["Tilføj varer, og tag imod betaling hurtigt", "Moms og servicegebyr klaret for dig", "Dagens omsætning afstemmes automatisk"] },
+    { "eyebrow": "Køkkenet fortæller sandheden", "title": "Opskriftskalkulation, der beskytter din avance", "body": "En ret er kun rentabel, hvis du ved, hvad den koster. Opbyg opskrifter af råvarer, lad Paper & Pen beregne kostprisen på hver tallerken ud fra de aktuelle indkøbspriser, og følg din råvareprocent, når leverandørpriserne ændrer sig. Følg råvarer pr. batch og holdbarhed, send indkøbsordrer, og hold spildet nede. Udviklet i Oman med OMR, AED og SAR og 5 % moms indbygget og klar til USD, EUR eller ethvert marked.", "items": ["Opskrifter kalkuleret ud fra aktuelle råvarepriser", "Batch og holdbarhed på råvarer", "Indkøbsordrer, der opdaterer kostprisen ved modtagelsen"] }
+  ],
+  "faqs": [
+    { "q": "Kan jeg kalkulere min menu ud fra råvarepriser?", "a": "Ja. Opbyg hver ret som en opskrift af råvarer, så beregner Paper & Pen dens kostpris ud fra de aktuelle indkøbspriser, og du kan sætte menupriser, der beskytter din avance." },
+    { "q": "Følger det råvarer og holdbarhed?", "a": "Ja. Råvarer følges pr. enhed, batch og holdbarhedsdato med varsler om lav beholdning, så du genbestiller, før de slipper op." },
+    { "q": "Kan jeg lægge moms og servicegebyr på?", "a": "Ja. Brug valgfri moms for Golfstaterne, et servicegebyr eller enhver anden sats, alt beregnet automatisk på regningen." },
+    { "q": "Er afregning gratis for en café?", "a": "Salg og fakturering, med kvitteringer, er gratis for altid. Tilføj Lager og Produktion, når du vil følge råvarer og kalkulere opskrifter." },
+    { "q": "Kan jeg styre mere end ét spisested?", "a": "Ja. Følg salg og lager pr. afdeling, og se aktuelle mængder og dagens omsætning for alle dine spisesteder fra ét workspace." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Server hurtigt, kalkulér klogt",
+  "ctaSub": "Start gratis med kvitteringer og afregning, og tilføj Lager og opskriftskalkulation for at få styr på råvareforbruget."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "hr-payroll",
+  "order": 6,
+  "title": "HR og løn",
+  "metaTitle": "HR- og lønprogram · Kør lønnen nemt · Paper & Pen",
+  "metaDescription": "Styr medarbejdere, fremmøde, ferie og lønsedler ét sted. Kør løn i enhver valuta, bogfør lønninger i regnskabet, og vær klar til fratrædelsesgodtgørelse.",
+  "keywords": "hr-system, lønsystem, lønsedler, fremmøde, ferieregistrering, fratrædelsesgodtgørelse, wps, medarbejderstyring",
+  "heroEyebrow": "Tilvalgsmodul",
+  "heroTitle": "Betal dit team <em class=\"text-copper-400 not-italic\">rigtigt</em>, hver gang",
+  "heroSubtitle": "Medarbejdere, fremmøde, ferie og løn i ét overskueligt modul. Kør en lønkørsel, lav lønsedler, og bogfør lønningerne på få minutter i stedet for dage.",
+  "heroBullets": ["Kør løn på få minutter", "Lønsedler og ferie som selvbetjening", "Bogføres direkte i regnskabet"],
+  "features": [
+    { "icon": "hr", "title": "Medarbejderkort", "desc": "Én profil pr. person: kontrakt, løn, dokumenter og historik." },
+    { "icon": "clock", "title": "Fremmøde og overarbejde", "desc": "Registrér vagter, overarbejde og fravær, der føres direkte ind i lønnen." },
+    { "icon": "doc", "title": "Ferie og fravær", "desc": "Fastsæt ferieregler, godkend anmodninger, og følg saldi automatisk." },
+    { "icon": "receipt", "title": "Lønsedler", "desc": "Lav klare, specificerede lønsedler, og del dem med hver medarbejder." },
+    { "icon": "calc", "title": "Fradrag og fratrædelse", "desc": "Håndtér lån, fradrag og beregning af fratrædelsesgodtgørelse korrekt." },
+    { "icon": "accounting", "title": "Bogføres i regnskabet", "desc": "Hver lønkørsel bogfører lønninger og periodiseringer automatisk." }
+  ],
+  "sections": [
+    { "eyebrow": "Mindre administration", "title": "Fra fremmøde til lønseddel uden regneark", "body": "Fremmøde, overarbejde, ferie og lån føres alle ind i lønkørslen, så du holder op med at lappe regneark sammen ved månedens udgang. Godkend kørslen én gang, så laver Paper & Pen alle lønsedler og lønposteringen i ét hug.", "items": ["Fremmøde og overarbejde føres ind i lønnen", "Lån og fradrag håndteres", "Lønsedler lavet samlet"] },
+    { "eyebrow": "Uanset hvor du har ansatte", "title": "Løn, der passer til dit land og din valuta", "body": "Betal medarbejdere i enhver valuta, og indstil de tillæg, fradrag og regler for fratrædelsesgodtgørelse, der gælder, hvor du driver forretning. Med brugerflader på arabisk, engelsk, hindi, bengali og urdu kan dit team læse sine egne lønsedler og søge ferie på sit eget sprog.", "items": ["Løn i enhver valuta", "Valgfrie tillæg og fradrag", "Klar til fratrædelsesgodtgørelse"] }
+  ],
+  "faqs": [
+    { "q": "Er HR og løn gratis?", "a": "Det er et valgfrit betalt tilvalg. Den gratis kerne dækker Salg og fakturering, og du tilføjer HR og løn, når du skal styre medarbejdere og lønninger." },
+    { "q": "Kan jeg køre løn i enhver valuta?", "a": "Ja. Betal dit team i OMR, AED, SAR, USD, EUR eller enhver anden valuta med tillæg og fradrag indstillet efter dine regler." },
+    { "q": "Håndterer det fremmøde og ferie?", "a": "Ja. Registrér fremmøde og overarbejde, fastsæt ferieregler, godkend anmodninger, og følg saldi, som alle føres ind i lønnen." },
+    { "q": "Bogføres lønnen i regnskabet?", "a": "Ja. Hver kørsel bogfører lønninger, tillæg og periodiseringer automatisk i hovedbogen, når Regnskab er slået til." },
+    { "q": "Kan det beregne fratrædelsesgodtgørelse?", "a": "Ja. Indstil reglerne for fratrædelsesgodtgørelse i dit land, så den endelige afregning beregnes korrekt." }
+  ],
+  "related": ["/features/accounting", "/features/reports", "/use-cases/small-business", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Gør lønningsdagen nem",
+  "ctaSub": "Start gratis med fakturering, og tilføj HR og løn for at styre dit team og køre løn på få minutter."
+}

@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "manufacturing",
+  "order": 7,
+  "title": "Produktion",
+  "metaTitle": "Program til produktion og fremstilling · Paper & Pen",
+  "metaDescription": "Planlæg produktionen med styklister, arbejdsordrer og ægte kostpriser. Forbrug råvarer, byg færdigvarer, og kend din reelle avance. Virker overalt.",
+  "keywords": "produktionsprogram, produktionsstyring, stykliste, bom, arbejdsordrer, produktionskalkulation, færdigvarer",
+  "heroEyebrow": "Tilvalgsmodul",
+  "heroTitle": "Producér på ordre, <em class=\"text-copper-400 not-italic\">kalkulér ned til sidste rial</em>",
+  "heroSubtitle": "Gør råvarer til færdigvarer med styklister og arbejdsordrer, mens Paper & Pen følger kostprisen på hver komponent, så du altid kender din reelle avance.",
+  "heroBullets": ["Styklister og arbejdsordrer", "Automatisk lagerforbrug", "Ægte produktionskalkulation"],
+  "features": [
+    { "icon": "manufacturing", "title": "Styklister", "desc": "Angiv, hvad hvert produkt består af, med antal og underkomponenter." },
+    { "icon": "doc", "title": "Arbejdsordrer", "desc": "Planlæg og følg produktionen fra råvarer til færdigt lager." },
+    { "icon": "inventory", "title": "Automatiske lagerbevægelser", "desc": "Råvarer forbruges, og færdigvarer lægges på lager, mens du producerer." },
+    { "icon": "calc", "title": "Produktionskalkulation", "desc": "Saml materiale- og omkostningsandele i en korrekt værdi for færdigvarer." },
+    { "icon": "chart", "title": "Overblik over avance", "desc": "Sammenlign produktionsomkostning med salgspris, og se den reelle avance pr. vare." },
+    { "icon": "refresh", "title": "Koblet hele vejen", "desc": "Forbind indkøb, lager og salg i ét sammenhængende flow." }
+  ],
+  "sections": [
+    { "eyebrow": "Planlæg med ro", "title": "Fra opskrift til færdigvare", "body": "Angiv en stykliste én gang, så ved Paper & Pen præcis, hvad hver produktion forbruger. Opret en arbejdsordre, så reserveres og forbruges råvarerne, mens færdigvarerne lægges på lager, og hele kalkulationen klares for dig.", "items": ["Genbrugelige styklister", "Arbejdsordrer med lagerreservation", "Automatisk forbrug og modtagelse af færdigvarer"] },
+    { "eyebrow": "Kend din reelle avance", "title": "Kalkulation, der fortæller sandheden", "body": "At gætte på kostprisen er at gætte på overskuddet. Paper & Pen samler materialer og indirekte omkostninger i en reel kostpris for færdigvarer, bogfører den i regnskabet og viser avancen på hvert salg. Virker i enhver valuta, så du kan købe og sælge på tværs af grænser.", "items": ["Kalkulation af materialer plus indirekte omkostninger", "Bogføres automatisk i regnskabet", "Avance pr. produkt og pr. ordre"] }
+  ],
+  "faqs": [
+    { "q": "Er produktion gratis?", "a": "Produktion er et valgfrit betalt tilvalg. Kernemodulet Salg og fakturering er gratis for altid, og du tilføjer Produktion, når du fremstiller varer." },
+    { "q": "Kan jeg oprette styklister?", "a": "Ja. Lav en stykliste til hvert produkt, også med underkomponenter, og genbrug den i hver produktion." },
+    { "q": "Forbruger det lageret automatisk?", "a": "Ja. Når du behandler en arbejdsordre, forbruges råvarerne, og færdigvarerne lægges automatisk på lager." },
+    { "q": "Hvordan beregnes produktionsomkostningen?", "a": "Materialer og indirekte omkostninger samles i værdien af færdigvarerne, som bogføres i regnskabet, så dine avancer er korrekte." },
+    { "q": "Virker det i enhver valuta?", "a": "Ja. Køb materialer og sælg færdigvarer i enhver valuta, med kalkulation og regnskab holdt i takt." }
+  ],
+  "related": ["/features/inventory", "/features/accounting", "/industries/contracting", "/industries/trading", "/pricing"],
+  "ctaTitle": "Kalkulér hver produktion præcist",
+  "ctaSub": "Start gratis med fakturering, og tilføj Produktion for at planlægge produktionen og kende din reelle avance."
+}

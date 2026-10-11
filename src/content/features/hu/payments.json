@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "payments",
+  "order": 10,
+  "title": "Fizetések",
+  "metaTitle": "Online számlafizetés · Gyorsabb befizetés · Paper & Pen",
+  "metaDescription": "Tegyen online fizetési linket minden számlára, és fogadjon kártyás fizetést. Paymob és globális szolgáltatók, bármilyen pénznem, automatikus egyeztetés.",
+  "keywords": "online fizetés, bankkártyás fizetés elfogadása, számla online fizetése, paymob, fizetési szolgáltató, gyorsabb befizetés, fizetési link",
+  "heroEyebrow": "Beépítve",
+  "heroTitle": "Ügyfelei <em class=\"text-copper-400 not-italic\">egy koppintással</em> fizethetnek",
+  "heroSubtitle": "Tegyen biztonságos online fizetési linket minden számlára, hogy ügyfelei azonnal fizethessenek kártyával. A fizetések automatikusan egyeztetődnek a könyveivel, bármilyen pénznemben, bárhol.",
+  "heroBullets": ["Online fizetési link minden számlán", "Automatikus egyeztetés a főkönyvvel", "Paymob és globális szolgáltatók"],
+  "features": [
+    { "icon": "card", "title": "Kártyás fizetés", "desc": "Az ügyfelek bármely számlát online, kártyával fizethetnek, belépés vagy alkalmazás nélkül." },
+    { "icon": "bolt", "title": "Azonnali fizetési link", "desc": "Minden számlán biztonságos link van, amely e-mailben vagy WhatsAppon megosztható." },
+    { "icon": "refresh", "title": "Automatikus egyeztetés", "desc": "A sikeres fizetés kifizetettnek jelöli a számlát, és a könyvekbe kerül." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Szedje be OMR, AED, SAR, USD, EUR és más pénznemben, a megfelelő szolgáltatón keresztül." },
+    { "icon": "shield", "title": "Biztonságos és PCI", "desc": "A kártyaadatokat tanúsított szolgáltatók kezelik, Ön soha nem tárolja őket." },
+    { "icon": "receipt", "title": "Nyugta kiküldve", "desc": "Az ügyfelek automatikus nyugtát kapnak, amint egy fizetés sikeres." }
+  ],
+  "sections": [
+    { "eyebrow": "Gyorsabban kapja meg a pénzét", "title": "Szüntesse meg a súrlódást a számla és a pénz között", "body": "Minél gyorsabban fizethet egy ügyfél, annál hamarabb jut Ön pénzhez. Az online fizetési link minden számlán azt jelenti, hogy nem kell banki adatokat másolni és átutalásra várni. Az ügyfél koppint, kártyával fizet, a számla pedig magától frissül, a nyugta már úton van.", "items": ["Kártyás fizetés egy koppintással", "WhatsAppon és e-mailben megosztható link", "Automatikus nyugták"] },
+    { "eyebrow": "Helyben és globálisan", "title": "A megfelelő fizetési szolgáltató az Ön piacához", "body": "A Paper & Pen az Öböl térségében a Paymobot, máshol más globális szolgáltatókat kapcsol be, így elfogadhatja azokat a kártyákat, amelyeket ügyfelei ténylegesen használnak, az ő pénznemükben. Minden jóváírás a megfelelő számlához egyeztetődik és a könyveibe kerül, így a beszedés és a könyvelés egy ütemben halad.", "items": ["Paymob az Öböl térségében, plusz globális lehetőségek", "Beszedés több pénznemben", "Egyeztetés a pontos számlához"] }
+  ],
+  "faqs": [
+    { "q": "Ingyenes az online fizetés bekapcsolása?", "a": "Igen, az online fizetési linkek hozzáadása beépített funkció. A fizetési szolgáltató tranzakciónként saját feldolgozási díjat számít fel, ahogy a szolgáltatók mindig." },
+    { "q": "Mely fizetési szolgáltatókat támogatja?", "a": "Az Öböl térségében a Paymobot, valamint más globális szolgáltatókat, így elfogadhatja azokat a kártyákat, amelyeket ügyfelei használnak, az ő pénznemükben." },
+    { "q": "A fizetés automatikusan frissíti a számlát?", "a": "Igen. A sikeres fizetés kifizetettnek jelöli a számlát, nyugtát küld, és a tételt a könyveibe könyveli." },
+    { "q": "Fizethetnek az ügyfelek különböző pénznemekben?", "a": "Igen. Szedje be OMR, AED, SAR, USD, EUR és más pénznemben, a megfelelő szolgáltatón keresztül." },
+    { "q": "Biztonságos a kártyás fizetés?", "a": "Igen. A kártyaadatokat PCI-tanúsított szolgáltatók kezelik, a Paper & Pen soha nem tárolja őket." }
+  ],
+  "related": ["/features/invoicing", "/features/accounting", "/invoicing/payment-receipts", "/pricing", "/free-invoicing-software"],
+  "ctaTitle": "Váltsa számláit azonnali pénzre",
+  "ctaSub": "Kezdje ingyen, és tegyen online fizetési linket minden számlára, hogy ügyfelei egy koppintással fizethessenek."
+}

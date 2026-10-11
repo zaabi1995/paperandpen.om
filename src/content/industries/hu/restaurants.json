@@ -1,0 +1,35 @@
+{
+  "locale": "hu",
+  "slug": "restaurants",
+  "order": 3,
+  "title": "Éttermek és kávézók",
+  "metaTitle": "Éttermi számlázás és receptúra alapú készlet | Paper & Pen",
+  "metaDescription": "Ingyenes számlázás, alapanyag-készlet, receptúra-kalkuláció és beszállítói megrendelők éttermeknek és kávézóknak. Tartsa kézben az élelmiszerköltséget.",
+  "keywords": "éttermi szoftver, kávézó számlázás, receptúra kalkuláció, élelmiszerköltség kontroll, éttermi készletkezelés, beszállítói megrendelés, éttermi erp",
+  "heroEyebrow": "Éttermeknek és kávézóknak",
+  "heroTitle": "Gyors számlázás, <em class=\"text-copper-400 not-italic\">kézben tartott élelmiszerköltség</em>",
+  "heroSubtitle": "Nyomtasson nyugtát másodpercek alatt, kövesse az alapanyagokat grammra pontosan, és ismerje minden étel valódi költségét. A Paper & Pen összehangolja a konyhát, a kasszát és a könyveket.",
+  "heroBullets": ["Ingyenes, gyors nyugták", "Alapanyag- és receptúra-kalkuláció", "Beszállítói megrendelők"],
+  "features": [
+    { "icon": "receipt", "title": "Gyors nyugták", "desc": "Vegye fel a rendelést, alkalmazza az adót és a szervizdíjat, majd nyomtassa vagy ossza meg a nyugtát másodpercek alatt." },
+    { "icon": "manufacturing", "title": "Receptúra-kalkuláció", "desc": "Határozza meg a recepteket alapanyagokból, hogy ismerje minden étel valódi költségét." },
+    { "icon": "inventory", "title": "Alapanyag-készlet", "desc": "Kövesse a nyersanyagokat mértékegység, tétel és lejárat szerint, alacsony készlet riasztásokkal." },
+    { "icon": "truck", "title": "Beszállítói rendelések", "desc": "Állítson ki megrendelőket a beszállítóknak, és frissítse a készletet és a költséget átvételkor." },
+    { "icon": "calc", "title": "Élelmiszerköltség-arány", "desc": "Vesse össze az ételek költségét a menüárral, hogy az árrései egészségesek maradjanak." },
+    { "icon": "chart", "title": "Értékesítési jelentések", "desc": "Lássa a legnépszerűbb ételeket, a napi bevételt és a trendeket napokra és egységekre bontva." }
+  ],
+  "sections": [
+    { "eyebrow": "Gyorsabb vendégtér", "title": "Nyugták, amelyekkel halad a sor", "body": "Az ebédidős csúcsban nincs idő lassú számlázásra. Adja hozzá a tételeket, alkalmazza az ÁFA-t vagy a szervizdíjat, vegye át a fizetést, és adjon át letisztult nyugtát másodpercek alatt, majd ossza meg WhatsAppon, ha egy vendég kéri. Minden eladás automatikusan a könyveibe kerül, így a napzárás egy pillantás, nem egy egész estényi gépelés.", "items": ["Tételek hozzáadása és gyors fizetés", "Az ÁFA-t és a szervizdíjat a rendszer kezeli", "A napi bevétel automatikusan egyeztetődik"] },
+    { "eyebrow": "A konyha nem hazudik", "title": "Receptúra-kalkuláció, amely védi az árrést", "body": "Egy étel csak akkor nyereséges, ha tudja, mennyibe kerül. Állítsa össze a recepteket alapanyagokból, hagyja, hogy a Paper & Pen az aktuális beszerzési árakból kalkulálja minden tányér költségét, és figyelje az élelmiszerköltség-arányát, ahogy a beszállítói árak változnak. Kövesse az alapanyagokat tétel és lejárat szerint, állítson ki megrendelőket, és tartsa kordában a pazarlást. Ománban készült natív OMR, AED és SAR támogatással és 5%-os ÁFA-val, és felkészült USD-re, EUR-ra vagy bármely piacra.", "items": ["Az aktuális alapanyagárakból kalkulált receptek", "Tétel- és lejáratkövetés a nyersanyagokon", "Megrendelők, amelyek átvételkor frissítik a költséget"] }
+  ],
+  "faqs": [
+    { "q": "Kalkulálhatom a menüm költségét az alapanyagárakból?", "a": "Igen. Határozza meg minden ételt alapanyagokból álló receptként, és a Paper & Pen az aktuális beszerzési árakból kiszámolja a költségét, így olyan menüárakat állíthat be, amelyek védik az árrését." },
+    { "q": "Követi az alapanyagokat és a lejáratot?", "a": "Igen. A nyersanyagokat mértékegység, tétel és lejárati dátum szerint követi, alacsony készlet riasztásokkal, hogy még azelőtt rendeljen újra, hogy kifogyna." },
+    { "q": "Alkalmazhatok ÁFA-t és szervizdíjat?", "a": "Igen. Alkalmazza az Öböl menti országok beállítható ÁFA-ját, szervizdíjat vagy bármilyen adókulcsot, mindet automatikusan a számlán számolva." },
+    { "q": "Ingyenes a számlázás egy kávézónak?", "a": "Az Értékesítés és Számlázás, a nyugtákkal együtt, örökre ingyenes. Adja hozzá a Készletet és a Gyártást, amikor alapanyag-követést és receptúra-kalkulációt szeretne." },
+    { "q": "Kezelhetek több egységet?", "a": "Igen. Kövesse az értékesítést és a készletet egységenként, és lássa az élő mennyiségeket és a napi bevételt minden egységében egyetlen munkaterületről." }
+  ],
+  "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
+  "ctaTitle": "Szolgáljon ki gyorsan, kalkuláljon okosan",
+  "ctaSub": "Kezdje ingyen nyugtákkal és számlázással, majd adja hozzá a Készletet és a receptúra-kalkulációt, hogy kézbe vegye az élelmiszerköltséget."
+}

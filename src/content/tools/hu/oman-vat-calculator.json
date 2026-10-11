@@ -1,0 +1,38 @@
+{
+  "locale": "hu",
+  "slug": "oman-vat-calculator",
+  "toolType": "vat-calculator",
+  "order": 7,
+  "title": "Ingyenes ÁFA- és adókalkulátor",
+  "metaTitle": "Ománi ÁFA-kalkulátor: 5% ÁFA hozzáadása vagy levonása",
+  "metaDescription": "Számolja ki online az ománi 5%-os ÁFA-t. Adja hozzá a nettó összeghez, vagy vonja le a bruttóból, és azonnal látja a nettót, az ÁFA-t és a végösszeget, regisztráció nélkül.",
+  "keywords": "áfa kalkulátor, ománi áfa kalkulátor, forgalmi adó kalkulátor, áfa hozzáadása, áfa levonása, 5 százalékos áfa számítás, beállítható áfa kalkulátor, bruttóból nettó számítás",
+  "heroEyebrow": "Ingyenes · Regisztráció nélkül",
+  "heroTitle": "Ingyenes <em class=\"text-copper-400 not-italic\">ÁFA- és adó</em>kalkulátor",
+  "heroSubtitle": "Számolja ki online az ománi 5%-os ÁFA-t. Adja hozzá a nettó összeghez, vagy vonja le a bruttóból, és azonnal látja a nettót, az ÁFA-t és a végösszeget, regisztráció nélkül.",
+  "heroBullets": ["Bármilyen kulcs, bármilyen pénznem", "Adó hozzáadása vagy visszaszámítása", "Örökre ingyenes, regisztráció nélkül"],
+  "howToSteps": [
+    { "name": "Adja meg az összeget", "text": "Írja be az összeget, amellyel számolni szeretne, és válassza ki a pénznemet." },
+    { "name": "Állítsa be az adókulcsot", "text": "Használja Omán alapértelmezett 5%-os kulcsát, vagy adja meg a tranzakciójára érvényes aktuális kulcsot." },
+    { "name": "Hozzáadás vagy levonás", "text": "Adjon adót a nettó összeghez, vagy vonja le a bruttó összegből, hogy megkapja a nettót (fordított ÁFA-számítás)." },
+    { "name": "Olvassa le az eredményt", "text": "Azonnal látja a nettót, az adót és a bruttót külön, számlába másolásra készen." }
+  ],
+  "features": [
+    { "icon": "calc", "title": "Adó hozzáadása vagy levonása", "desc": "Számolja az adót előre a nettó összegre, vagy számolja vissza a bruttóból, egy kattintással." },
+    { "icon": "globe", "title": "Bármilyen kulcs, bármilyen pénznem", "desc": "Alapértelmezésben Omán 5%-a, vagy az Önre érvényes kulcs, OMR, AED, SAR, USD, EUR és más pénznemben." },
+    { "icon": "bolt", "title": "Azonnali és ingyenes", "desc": "Regisztráció és korlát nélkül. Gépelés közben megkapja a nettót, az adót és a bruttót." }
+  ],
+  "sections": [
+    { "title": "Miért érdemes a Paper & Pen ÁFA-kalkulátorát használni?", "body": "Akár árajánlatot áraz, számlát ellenőriz vagy bevallást ad be, a nettónak, az adónak és a bruttónak az utolsó tizedesjegyig egyeznie kell. Ez a kalkulátor bármilyen kulcsot kezel bármilyen pénznemben, mindkét irányban működik (adó hozzáadása vagy visszaszámítása a végösszegből), és valóban ingyenes. Omán 5%-os kulcsával nyílik meg, és más joghatóságokhoz is teljesen beállítható." },
+    { "eyebrow": "Több mint egy kalkulátor", "title": "Hagyja, hogy a szoftvere számolja az ÁFA-t", "body": "Az adót minden sorra kézzel számolni lassú és hibalehetőségekkel teli. A teljes Paper & Pen ERP-ben az ÁFA automatikusan a kedvezmény utáni nettó összegre számolódik minden számlán, bekerül a könyveibe, és bevallásra kész jelentésekbe összesül, így többé nem kell kalkulátorhoz nyúlnia.", "items": ["Automatikus adó minden számlán és árajánlaton", "Tételenkénti és bizonylatonkénti adókulcsok", "Beadásra kész ÁFA-összesítő jelentések"] }
+  ],
+  "faqs": [
+    { "q": "Milyen kulcsot használ ez az ománi ÁFA-kalkulátor?", "a": "A kalkulátor Omán 5%-os kulcsával nyílik meg. Az adószabályok változhatnak, ezért mielőtt egy számításra hagyatkozna, ellenőrizze az aktuális kulcsot az Oman Tax Authority-nél. Bármilyen kulcsot megadhat." },
+    { "q": "Hogyan vonhatom le az ÁFA-t egy végösszegből?", "a": "Válassza a levonás (visszaszámítás) lehetőséget, és adja meg a bruttó összeget. A kalkulátor kiszámolja a nettót és a végösszegben foglalt adórészt." },
+    { "q": "Használhatom Ománon kívüli forgalmi adóhoz?", "a": "Igen. Állítsa be a tranzakciójára érvényes kulcsot, és válasszon bármilyen pénznemet. Működik ÁFA-hoz, GST-hez vagy forgalmi adóhoz a világon bárhol." },
+    { "q": "Kiszámolja az adót kedvezményes összegre?", "a": "Adja meg a kedvezmény utáni nettó összeget, és adja hozzá az adót. Teljes számlák automatikus, kedvezmény utáni ÁFA-jához hozzon létre ingyenes Paper & Pen munkaterületet, ahol ezt elintézzük Ön helyett." }
+  ],
+  "related": ["/vat/oman","/tools/free-invoice-generator","/tools/free-quotation-generator","/features/accounting","/free-invoicing-software"],
+  "ctaTitle": "Ne számolja többé kézzel az ÁFA-t",
+  "ctaSub": "Alkalmazza automatikusan az adót minden számlán, és kapjon bevallásra kész ÁFA-jelentéseket egy ingyenes Paper & Pen munkaterülettel."
+}

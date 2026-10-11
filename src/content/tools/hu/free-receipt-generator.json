@@ -1,0 +1,37 @@
+{
+  "locale": "hu",
+  "slug": "free-receipt-generator",
+  "toolType": "receipt",
+  "order": 4,
+  "title": "Ingyenes nyugtakészítő",
+  "metaTitle": "Ingyenes online nyugtakészítő · Paper & Pen",
+  "metaDescription": "Készítsen fizetési nyugtákat online, ingyen. Adja meg az összeget, a pénznemet és a fizetési módot, és töltsön le nyomtatásra kész PDF-et. Regisztráció nélkül.",
+  "keywords": "ingyenes nyugtakészítő, fizetési nyugta készítése, nyugta készítése online, ingyenes nyugta sablon, nyugta letöltése pdf, készpénzes nyugta",
+  "heroEyebrow": "Ingyenes · Regisztráció nélkül",
+  "heroTitle": "Ingyenes nyugtakészítő",
+  "heroSubtitle": "Adjon minden vásárlónak letisztult fizetési nyugtát másodpercek alatt. Adja meg az összeget, a pénznemet és a fizetési módot, majd töltsön le nyomtatásra kész PDF-et. Fiók nélkül.",
+  "howToSteps": [
+    { "name": "Adja meg az adatait", "text": "Írja be a cége nevét, a befizetőt, a nyugta számát és a dátumot." },
+    { "name": "Adja meg a fizetést", "text": "Írja be, mire szólt a fizetés, az összeget és a módját (készpénz, kártya, átutalás)." },
+    { "name": "Pénznem és adó", "text": "Válasszon bármilyen pénznemet, és szükség esetén mutassa az ÁFA- vagy forgalmiadó-részt." },
+    { "name": "PDF letöltése", "text": "Kattintson a letöltésre, és mentsen nyomtatásra kész nyugtát, vagy regisztráljon, hogy a nyugták automatikusan a számláihoz készüljenek." }
+  ],
+  "features": [
+    { "icon": "bolt", "title": "Azonnali és ingyenes", "desc": "Regisztráció, vízjel és korlát nélkül. Annyi nyugtát állít ki, amennyire szüksége van." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Nyugta OMR, AED, SAR, USD, EUR, GBP és más pénznemben, a helyes tizedesjegyekkel." },
+    { "icon": "card", "title": "Bármilyen fizetési mód", "desc": "Rögzítse a készpénzes, kártyás, banki átutalásos vagy online fizetést, jól láthatóan a nyugtán." }
+  ],
+  "sections": [
+    { "title": "Miért érdemes a Paper & Pen nyugtakészítőjét használni?", "body": "A nyugta a vásárló bizonyítéka a fizetésről, és az Ön nyilvántartása arról, hogy egy számlát kiegyenlítettek. A miénk ingyenes, bármilyen pénznemben működik, és letisztult PDF-et készít, amelyet azonnal átadhat vagy elküldhet e-mailben. Táblázat és regisztráció nélkül." },
+    { "eyebrow": "Több mint egy készítő", "title": "Nyugták, amelyek a számláihoz kapcsolódnak", "body": "Egy önálló nyugta megfelel egy-egy alkalomra, de egy növekvő vállalkozásnak számlákhoz kötött nyugtákra és folyamatosan vezetett főkönyvre van szüksége. A teljes Paper & Pen ERP-ben egy fizetés rögzítése egyszerre elkészíti a nyugtát, és frissíti a számla egyenlegét és a könyveit.", "items": ["Automatikus nyugta, amikor egy számlát kifizetnek", "Teljes, részleges és megosztott fizetések követése", "Nyugták azonnali küldése WhatsAppon vagy e-mailben"] }
+  ],
+  "faqs": [
+    { "q": "Mi a különbség a számla és a nyugta között?", "a": "A számla a fizetés előtt kéri a fizetést. A nyugta utólag igazolja, hogy a fizetés megérkezett. Itt mindkettőt ingyen elkészítheti." },
+    { "q": "Tényleg ingyenes a nyugtakészítő?", "a": "Igen. Teljesen ingyenes, regisztráció és vízjel nélkül, és nincs korlátja a készített nyugták számának." },
+    { "q": "Feltüntethetem az ÁFA-t vagy az adót a nyugtán?", "a": "Igen. Állítson be bármilyen adókulcsot, és a nyugta ott mutatja a befizetett összeg adórészét, ahol szüksége van rá." },
+    { "q": "Összekapcsolhatók a nyugták a számláimmal?", "a": "Töltsön le önálló nyugtákat ingyen, vagy hozzon létre ingyenes Paper & Pen munkaterületet, ahol minden számlához rögzített fizetés automatikusan kapcsolódó nyugtát készít." }
+  ],
+  "related": ["/tools/free-invoice-generator", "/tools/free-delivery-note-generator", "/invoicing/payment-receipts", "/free-invoicing-software"],
+  "ctaTitle": "Fizetési igazolás, elintézve",
+  "ctaSub": "Készítsen automatikus nyugtákat, kövessen minden fizetést, és tartsa naprakészen a főkönyvét egy ingyenes Paper & Pen munkaterülettel."
+}

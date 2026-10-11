@@ -1,0 +1,110 @@
+{
+  "locale": "no",
+  "slug": "automotive",
+  "order": 15,
+  "title": "Bilverksteder",
+  "metaTitle": "ERP for bilverksteder og bilforhandlere · Paper & Pen",
+  "metaDescription": "Håndter overslag, delelager og fakturering på bilverkstedet. Følg arbeidstimer og håndter garantifakturering med vårt gratis ERP i skyen.",
+  "keywords": "program for bilverksted, faktura bilverksted, verkstedsprogram, overslag bilreparasjon, delelager verksted, erp for bilforhandler, garantifakturering, regnskap bilverksted",
+  "heroEyebrow": "For verksteder og forhandlere",
+  "heroTitle": "Driv verkstedet med <em class=\"text-copper-400 not-italic\">tydelige overslag</em> og riktig fakturering av deler.",
+  "heroSubtitle": "Slutt å tape margin på deler som ikke faktureres og arbeid som ikke registreres. Paper & Pen hjelper bilverksteder med å utstede detaljerte reparasjonsoverslag, følge lageret helt ned til delenummer og gjøre godkjenninger rett om til endelige fakturaer.",
+  "heroBullets": [
+    "Følg deler og timepriser",
+    "Gjør overslag om til fakturaer",
+    "Håndter garantifakturering til tredjepart"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Reparasjonsoverslag",
+      "desc": "Lag detaljerte overslag som kunden godkjenner. List opp arbeidstimer, diagnosegebyr og nødvendige deler før reparasjonen starter."
+    },
+    {
+      "icon": "inventory",
+      "title": "Deler og marginer",
+      "desc": "Følg lageret med nøyaktige delenumre. Hold øye med innkjøpsprisene og sett salgspriser som beskytter fortjenestemarginen."
+    },
+    {
+      "icon": "clock",
+      "title": "Arbeid til verkstedets timepris",
+      "desc": "Legg til tjenestelinjer for mekanikernes tid. Gang verkstedets vanlige timepris med timene jobben krever."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fakturering til tredjepart",
+      "desc": "Fakturer bileieren for egenandelen og send resten av beløpet rett til garantigiveren eller produsenten."
+    },
+    {
+      "icon": "receipt",
+      "title": "Kreditering av diagnosegebyr",
+      "desc": "Legg et diagnosegebyr på det første overslaget, og krediter det enkelt tilbake på den endelige fakturaen hvis kunden går videre med reparasjonen."
+    },
+    {
+      "icon": "truck",
+      "title": "Innkjøpsordrer",
+      "desc": "Send innkjøpsordrer til deleleverandørene. Registrer innkommende leveranser, så lagerbeholdningen oppdateres automatisk før neste jobb."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Godkjenning av reparasjoner",
+      "title": "Fra første diagnose til endelig reparasjonsfaktura",
+      "body": "Kundene må vite hva det koster før du setter en skiftenøkkel på motoren. Paper & Pen håndterer akkurat den rekkefølgen servicerådgiverne dine bruker hver dag. Du kan utstede et første overslag med diagnosegebyr. Når feilen er funnet, oppdaterer du overslaget med bestemte deler og arbeidstimer. Når kunden godkjenner arbeidet, gjør du nettopp det overslaget om til en endelig faktura. Hvis det er din praksis å frafalle diagnosegebyret når reparasjonen godkjennes, legger du bare til en negativ linje som krediterer gebyret mot totalen.",
+      "items": [
+        "Utsted tydelige reparasjonstilbud",
+        "Gjør godkjente tilbud om til fakturaer",
+        "Krediter diagnosegebyr enkelt",
+        "Registrer arbeidstimer og timepriser"
+      ]
+    },
+    {
+      "eyebrow": "Delehåndtering",
+      "title": "Beskytt marginen på hver del du selger",
+      "body": "Et travelt verksted håndterer hundrevis av komponenter, fra oljefiltre til bremsekalipere. Mister du oversikten over hva du betalte leverandøren, mister du fortjenestemarginen. Lagersystemet vårt lar deg registrere hver vare med sitt eget delenummer. Du registrerer kostprisen når du tar imot varer via innkjøpsordrer, og setter en fast salgspris for fakturaene. Når en mekaniker tar en del fra hylla og du legger den på reparasjonsfakturaen, går lagerbeholdningen ned automatisk og fortjenesten regnes ut riktig.",
+      "items": [
+        "Følg varer med nøyaktige delenumre",
+        "Hold øye med leverandørenes kostpriser",
+        "Sett lønnsomme salgspriser",
+        "Trekk lageret automatisk ved salg"
+      ]
+    },
+    {
+      "eyebrow": "Delt fakturering",
+      "title": "Håndter garantikrav og andre betalere",
+      "body": "Ikke alle reparasjoner betales av den som kjører bilen. Forhandlere og autoriserte verksteder gjør ofte garantiarbeid som må faktureres til produsenten eller et selskap med utvidet garanti. Paper & Pen lar deg ha egne kundeprofiler for disse bedriftsbetalerne. Du kan lage én faktura til bileieren for egenandelen eller slitedeler som ikke dekkes, og en egen detaljert faktura til garantigiveren for godkjente arbeidskoder og reservedeler.",
+      "items": [
+        "Ha egne profiler for bedriftsbetalere",
+        "Fakturer garantigivere direkte",
+        "Del fakturaen mellom eier og garanti",
+        "Hold detaljerte kontoer for alle betalere"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan jeg koble dette til timeregistreringen for mekanikere eller en VIN-dekoder?",
+      "a": "Nei. Paper & Pen er et frittstående ERP i skyen. Du kan legge arbeidstimer inn som linjer på fakturaene og bruke HR-modulen til enkel lønn, men vi tilbyr ikke stemplingsur for mekanikere, innebygd VIN-dekoding eller direkte integrasjoner med databaser for bilreparasjon fra tredjeparter."
+    },
+    {
+      "q": "Hvordan håndterer jeg et diagnosegebyr som krediteres hvis kunden tar reparasjonen?",
+      "a": "Du legger diagnosegebyret inn som en vanlig tjenestelinje på det første tilbudet. Når kunden godkjenner hele reparasjonen, gjør du tilbudet om til en faktura, legger til delene og arbeidet som trengs, og legger til en negativ linje som trekker fra det opprinnelige diagnosebeløpet."
+    },
+    {
+      "q": "Kan jeg følge delelageret på tvers av ulike leverandører?",
+      "a": "Ja. Du kan lage innkjøpsordrer til ulike deleleverandører og registrere de innkommende følgesedlene. Systemet oppdaterer lagerantallet og følger kostprisene, så du vet nøyaktig hvor stor margin du får når du fakturerer kunden."
+    },
+    {
+      "q": "Er det mulig å fakturere et garantiselskap i stedet for sjåføren?",
+      "a": "Ja. Du oppretter rett og slett en kundeprofil for garantigiveren. Så kan du utstede fakturaen for dekkede deler og arbeid til verkstedets timepris direkte til dem, og holde deres utestående saldo atskilt fra privatkundene dine."
+    }
+  ],
+  "related": [
+    "/features/inventory",
+    "/invoicing/estimates",
+    "/invoicing/purchase-orders",
+    "/features/accounting"
+  ],
+  "ctaTitle": "Få orden på faktureringen på verkstedet i dag",
+  "ctaSub": "Lag detaljerte overslag, følg delelageret og fakturer kundene dine gratis."
+}

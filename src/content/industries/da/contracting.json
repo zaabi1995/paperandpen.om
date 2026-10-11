@@ -1,0 +1,35 @@
+{
+  "locale": "da",
+  "slug": "contracting",
+  "order": 4,
+  "title": "Entreprise og byggeri",
+  "metaTitle": "Fakturering og projektafregning for entreprenører · Paper & Pen",
+  "metaDescription": "Gratis tilbud plus acontofakturaer, indkøbsordrer, løn og projektkalkulation for entreprenører og håndværkere. Fakturér etaper, styr omkostningerne, få betaling.",
+  "keywords": "program til entreprenører, fakturering i byggeriet, acontofakturering, projektkalkulation, erp til entreprenører, indkøbsordrer, løn til håndværkere, tilbageholdelse",
+  "heroEyebrow": "Til entreprenører og byggefirmaer",
+  "heroTitle": "Fakturér etapen, <em class=\"text-copper-400 not-italic\">styr sagens omkostninger</em>",
+  "heroSubtitle": "Giv tilbud på et projekt, fakturér det i etaper, følg materialer og arbejdsløn mod budgettet, og få betaling uden at rykke. Paper & Pen samler dine overslag, omkostninger og penge ét sted.",
+  "heroBullets": ["Gratis overslag og tilbud", "Aconto- og etapefakturaer", "Materialer, løn og avance pr. sag"],
+  "features": [
+    { "icon": "quote", "title": "Detaljerede overslag", "desc": "Lav specificerede tilbud med materialer og arbejdsløn, og gør dem til et projekt." },
+    { "icon": "invoice", "title": "Acontofakturering", "desc": "Fakturér pr. etape eller færdiggørelsesgrad, med tilbageholdelse håndteret rent." },
+    { "icon": "truck", "title": "Indkøbsordrer", "desc": "Bestil materialer til en sag, og bogfør omkostningen, hvor den hører hjemme." },
+    { "icon": "hr", "title": "Arbejdsløn og lønkørsel", "desc": "Kør løn, og fordel lønninger på det rigtige projekt for den reelle sagsomkostning." },
+    { "icon": "calc", "title": "Sagskalkulation", "desc": "Sammenlign faktiske materiale- og lønomkostninger med dit overslag løbende." },
+    { "icon": "bell", "title": "Betalingspåmindelser", "desc": "Automatiske, høflige påmindelser følger op på forfaldne acontoopgørelser, så du slipper." }
+  ],
+  "sections": [
+    { "eyebrow": "Fra udbud til faktura", "title": "Overslag, der bliver til sagen", "body": "Vind opgaven med et klart, specificeret overslag, og gør den godkendte version direkte til et projekt uden at skrive en eneste linje om. Fakturér i etaper, efterhånden som arbejdet bliver færdigt, pr. etape eller færdiggørelsesgrad, og håndtér tilbageholdelse, så slutopgørelsen stemmer. Din kunde får en professionel opgørelse, og du har ét rent spor fra udbud til slutbetaling.", "items": ["Specificerede overslag med materialer og arbejdsløn", "Fakturaer pr. etape eller færdiggørelsesgrad", "Tilbageholdelse fulgt til slutopgørelsen"] },
+    { "eyebrow": "Vid, at sagen tjener penge", "title": "Omkostning og avance, sag for sag", "body": "En travl byggeplads kan skjule en sag, der giver underskud. Paper & Pen fordeler hver indkøbsordre, leverandørregning og lønkørsel på projektet og viser den faktiske omkostning mod dit overslag, mens arbejdet skrider frem. Du ser avancen, før sagen er slut, ikke bagefter. Udviklet i Oman med OMR, AED og SAR og 5 % moms indbygget og klar til USD, EUR eller ethvert marked og enhver momssats.", "items": ["Materiale- og lønomkostning pr. projekt", "Løbende avance, faktisk mod overslag", "Enhver valuta, enhver momssats, klar til moms"] }
+  ],
+  "faqs": [
+    { "q": "Kan jeg fakturere et projekt i etaper?", "a": "Ja. Fakturér pr. etape eller færdiggørelsesgrad med tilbageholdelse håndteret, så hver opgørelse er ren, og slutopgørelsen stemmer." },
+    { "q": "Kan jeg følge omkostninger mod mit overslag?", "a": "Ja. Indkøbsordrer, leverandørregninger og løn fordeles på sagen, og Paper & Pen viser den faktiske omkostning mod dit overslag, mens arbejdet skrider frem." },
+    { "q": "Håndterer det tilbageholdelse?", "a": "Ja. Tilbageholdelse følges gennem acontofakturaerne og føres med til slutopgørelsen, så intet bliver glemt ved afleveringen." },
+    { "q": "Kan jeg køre løn for medarbejdere på pladsen?", "a": "Ja. Modulet HR og løn kører lønninger og kan fordele lønomkostningen på det rigtige projekt for en korrekt sagskalkulation." },
+    { "q": "Er tilbud gratis for entreprenører?", "a": "Salg og fakturering, med overslag og acontofakturaer, er gratis for altid. Tilføj Lager, HR og løn samt Regnskab for fuld styring af projektomkostningerne." }
+  ],
+  "related": ["/invoicing/estimates", "/invoicing/purchase-orders", "/features/hr-payroll", "/invoicing/payment-reminders", "/pricing"],
+  "ctaTitle": "Byg det, fakturér det, få betaling",
+  "ctaSub": "Start gratis med overslag og acontofakturaer, og tilføj HR og løn samt Regnskab for fuld sagskalkulation."
+}
