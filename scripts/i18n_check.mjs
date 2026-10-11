@@ -80,6 +80,10 @@ function checkContent(code) {
       const un = [];
       const tr = read(path.join(dir, file)); if (tr) walk(read(enf), tr, `${coll}/${code}/${file}`, code, un, true);
       if (un.length > 2) errors.push(`${coll}/${code}/${file}: ${un.length} strings still English`);
+      // Two seo_integrity.py rules, checked here so a translator sees them before the build does.
+      const enData = read(enf);
+      if (tr && enData && typeof tr.title === 'string' && tr.title === enData.title) errors.push(`${coll}/${code}/${file}: title is identical to English`);
+      if (tr && coll === 'tools' && file === 'oman-vat-calculator.json' && tr.heroSubtitle !== tr.metaDescription) errors.push(`${coll}/${code}/${file}: heroSubtitle must equal metaDescription`);
       n++;
     }
   }
