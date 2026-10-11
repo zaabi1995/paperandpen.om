@@ -1,0 +1,45 @@
+{
+  "locale": "fr",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen face à Tally",
+  "metaTitle": "Paper & Pen face à Tally · L'alternative cloud gratuite",
+  "metaDescription": "Comparez Paper & Pen et Tally : accès cloud, offre gratuite, arabe RTL, multidevise et paiement en ligne. Une alternative moderne et gratuite.",
+  "keywords": "paper and pen ou tally, alternative à tally, alternative cloud à tally, alternative gratuite à tally, tally prime en ligne, logiciel de comptabilité en arabe",
+  "heroEyebrow": "Comparatif",
+  "heroTitle": "Paper & Pen face à <em class=\"text-copper-400 not-italic\">Tally</em>",
+  "heroSubtitle": "Tally est un outil comptable de confiance, solidement établi. Paper & Pen est un ERP gratuit, conçu pour le cloud, que vous ouvrez dans un navigateur, avec l'arabe, le paiement en ligne et toutes les devises. Voici le comparatif honnête.",
+  "heroBullets": ["Conçu pour le cloud, ouvert depuis n'importe quel navigateur", "Ventes et Facturation gratuit pour toujours", "Arabe RTL et paiement en ligne par carte"],
+  "features": [
+    { "icon": "globe", "title": "Un vrai cloud", "desc": "Pas d'installation, pas de clé de licence, pas de paramétrage par poste. Ouvrez Paper & Pen partout, sur n'importe quel appareil." },
+    { "icon": "card", "title": "Paiement en ligne", "desc": "Chaque facture peut porter un lien de paiement Paymob : vos clients paient par carte et le paiement se rapproche tout seul." },
+    { "icon": "check", "title": "Gratuit pour commencer", "desc": "La facturation et les ventes sont gratuites pour toujours, sans licence à acheter avant d'émettre un document." }
+  ],
+  "sections": [
+    { "eyebrow": "En toute honnêteté", "title": "Les points forts de Tally", "body": "Tally a de longues années d'expérience, une comptabilité réglementaire poussée et une immense base d'experts-comptables qui le connaissent par cœur. Pour une comptabilité complexe tenue hors ligne par un opérateur formé, il est rapide et fiable. Beaucoup d'entreprises l'utilisent avec satisfaction pendant des années.", "items": ["Moteur comptable poussé, éprouvé sur le terrain", "Connu d'un large vivier d'experts-comptables", "Fonctionne hors ligne une fois installé"] },
+    { "eyebrow": "Là où nous gagnons", "title": "Le cloud, l'arabe et l'encaissement", "body": "Paper & Pen fonctionne dans le navigateur : votre équipe et votre expert-comptable voient les mêmes données en temps réel, de partout, sans installation ni décalage de versions. Il est pensé d'abord pour l'arabe, avec une interface entièrement de droite à gauche, facture nativement en OMR, AED, SAR et dans toutes les devises, et place un lien de paiement en ligne sur chaque facture. Le point de départ est vraiment gratuit.", "items": ["Aucune installation, toujours la dernière version", "Interface et documents en arabe RTL", "Liens de paiement en ligne sur les factures, socle gratuit"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "Offre gratuite pour toujours", "values": [true, false] },
+    { "feature": "Prix de départ", "values": ["Gratuit", "Licence payante"] },
+    { "feature": "Accès cloud / navigateur", "values": [true, "Module complémentaire"] },
+    { "feature": "Interface en arabe RTL", "values": [true, "Limitée"] },
+    { "feature": "Multidevise", "values": [true, true] },
+    { "feature": "Paiement en ligne par carte (Paymob)", "values": [true, false] },
+    { "feature": "Interface multilingue (5)", "values": [true, "Limitée"] },
+    { "feature": "Rapidité de prise en main", "values": ["Quelques minutes", "Installation et formation"] },
+    { "feature": "Modules Stocks et RH", "values": [true, "Stocks oui, RH limités"] }
+  ],
+  "faqs": [
+    { "q": "Paper & Pen est-il une bonne alternative à Tally ?", "a": "Oui, si vous voulez l'accès cloud, le paiement en ligne et une interface en arabe sans acheter de licence. Tally reste solide pour une comptabilité réglementaire tenue hors ligne par un opérateur formé." },
+    { "q": "Puis-je utiliser Paper & Pen sans rien installer ?", "a": "Oui. Il est entièrement dans le cloud. Vous l'ouvrez dans un navigateur, sur n'importe quel appareil, et tout le monde voit les mêmes données en temps réel." },
+    { "q": "Paper & Pen gère-t-il plusieurs devises comme Tally ?", "a": "Oui. Vous pouvez facturer en OMR, AED, SAR, USD, EUR et bien d'autres, avec les bonnes décimales sur chaque document." },
+    { "q": "Mes clients peuvent-ils payer mes factures en ligne ?", "a": "Oui. Chaque facture peut inclure un lien de paiement Paymob : vos clients paient par carte et le paiement se rapproche automatiquement." },
+    { "q": "Existe-t-il une version gratuite ?", "a": "Oui. Les ventes et la facturation sont gratuites pour toujours. Vous ne payez que si vous ajoutez des modules comme les Stocks, les RH ou la Comptabilité." }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Passez au cloud, gratuitement",
+  "ctaSub": "Ouvrez un espace Paper & Pen gratuit dans votre navigateur et émettez votre première facture en quelques minutes. Sans licence, sans installation."
+}

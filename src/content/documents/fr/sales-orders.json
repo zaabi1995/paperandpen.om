@@ -1,0 +1,36 @@
+{
+  "locale": "fr",
+  "slug": "sales-orders",
+  "order": 9,
+  "title": "Commandes clients",
+  "metaTitle": "Logiciel de commandes clients · Paper & Pen",
+  "metaDescription": "Créez gratuitement des commandes clients professionnelles en ligne, dans toutes les devises. Confirmez une commande, suivez acomptes et exécution.",
+  "keywords": "commande client, créer une commande client, logiciel de commandes clients, commande client gratuite, gestion des commandes, commande en facture",
+  "heroEyebrow": "Commandes clients",
+  "heroTitle": "Confirmez et exécutez les commandes avec une <em class=\"text-copper-400 not-italic\">commande client</em>",
+  "heroSubtitle": "Figez ce que le client a accepté, suivez acomptes et exécution, puis transformez la commande en bon de livraison ou en facture en un clic. Dans toutes les devises, partout.",
+  "heroBullets": ["Gratuit pour toujours", "Suivi des acomptes et de l'exécution", "Transformation en bon de livraison ou facture"],
+  "features": [
+    { "icon": "cart", "title": "Commande confirmée", "desc": "Une commande client numérotée qui reprend exactement ce que le client a accepté d'acheter." },
+    { "icon": "card", "title": "Acomptes", "desc": "Encaissez un acompte sur la commande et suivez le solde restant." },
+    { "icon": "truck", "title": "Suivi de l'exécution", "desc": "Voyez ce qui est en attente, partiellement livré et terminé pour chaque commande." },
+    { "icon": "refresh", "title": "Transformation en un clic", "desc": "Transformez une commande client en bon de livraison ou en facture sans rien ressaisir." },
+    { "icon": "globe", "title": "Toutes les devises", "desc": "Commandez en USD, EUR, AED, SAR, OMR, INR et bien d'autres, avec la bonne taxe et les bonnes décimales." },
+    { "icon": "whatsapp", "title": "Envoi partout", "desc": "Partagez la confirmation de commande par WhatsApp ou e-mail pour que le client en garde la trace." }
+  ],
+  "sections": [
+    { "eyebrow": "Qu'est-ce qu'une commande client", "title": "Qu'est-ce qu'une commande client ?", "body": "Une commande client est un document que le vendeur crée pour confirmer la commande d'un client après l'acceptation d'un devis. Elle enregistre les articles, quantités, prix, taxes et conditions de livraison convenus, et devient l'instruction interne pour exécuter puis facturer la commande. Elle se place entre le devis et la facture et vous donne une trace propre de ce qui a été promis avant toute expédition." },
+    { "eyebrow": "Comment ça marche", "title": "Confirmer, exécuter, facturer", "body": "Paper & Pen relie la commande client à tout le cycle, pour qu'un devis accepté devienne une commande exécutée et facturée sans ressaisie.", "items": ["Transformez un devis accepté en commande client, ou créez-en une directement", "Encaissez un acompte et suivez le solde", "Exécutez la commande avec un bon de livraison", "Transformez-la en facture en un clic", "Voyez le statut : en attente, partiellement livrée, terminée, facturée"] },
+    { "eyebrow": "Toute la chaîne", "title": "Du devis à l'encaissement, tout est relié", "body": "Devis, commande client, bon de livraison, facture, paiement, et avoir si besoin. Paper & Pen relie chaque étape : chaque document passe à l'étape suivante, les totaux se rapprochent toujours et vos comptes se mettent à jour au fil de la commande. Rien n'est saisi deux fois et rien ne passe entre les mailles du filet." }
+  ],
+  "faqs": [
+    { "q": "Quelle différence entre une commande client et une facture ?", "a": "La commande client confirme ce que le client a accepté d'acheter et sert d'instruction pour l'exécuter. La facture demande le paiement une fois les biens ou services livrés. Vous passez de l'une à l'autre en un clic." },
+    { "q": "Le logiciel de commandes clients est-il gratuit ?", "a": "Oui. Créer, suivre et exécuter des commandes clients est gratuit pour toujours sur Paper & Pen." },
+    { "q": "Puis-je prendre un acompte sur une commande client ?", "a": "Oui. Encaissez un acompte sur la commande et suivez le solde restant jusqu'à sa facturation et son règlement." },
+    { "q": "Puis-je transformer un devis en commande client ?", "a": "Oui. Un devis accepté devient une commande client en un clic, en reprenant chaque ligne, remise et taxe." },
+    { "q": "Comment exécuter une commande client ?", "a": "Créez un bon de livraison à partir de la commande client pour expédier les marchandises, puis transformez-la en facture. Le statut d'exécution se met à jour au fur et à mesure." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/delivery-notes", "/invoicing/invoices", "/features/sales-crm", "/free-invoicing-software"],
+  "ctaTitle": "Gérez tout, du devis à l'encaissement, au même endroit",
+  "ctaSub": "Créez un espace Paper & Pen gratuit et transformez vos devis acceptés en commandes exécutées et facturées, sans ressaisie."
+}

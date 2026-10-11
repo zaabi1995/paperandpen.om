@@ -1,0 +1,36 @@
+{
+  "locale": "fr",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Avoirs",
+  "metaTitle": "Logiciel d'avoirs · Paper & Pen",
+  "metaDescription": "Émettez gratuitement des avoirs professionnels en ligne, dans toutes les devises. Corrigez une facture pour un retour, un remboursement ou une erreur avec un vrai document.",
+  "keywords": "avoir, créer un avoir, note de crédit, facture d'avoir, avoir pour retour, logiciel d'avoirs, avoir avec TVA",
+  "heroEyebrow": "Avoirs",
+  "heroTitle": "Émettez vos <em class=\"text-copper-400 not-italic\">avoirs</em> dans les règles",
+  "heroSubtitle": "Corrigez une facture pour un retour, un remboursement ou une erreur avec un vrai avoir, une piste d'audit claire et une écriture comptable automatique. Dans toutes les devises.",
+  "heroBullets": ["Gratuit pour toujours", "Lié à la facture d'origine", "Passe la bonne écriture"],
+  "features": [
+    { "icon": "doc", "title": "Un vrai document d'avoir", "desc": "Un avoir numéroté et lié à la facture d'origine, jamais une modification discrète." },
+    { "icon": "refresh", "title": "Ajuste le solde", "desc": "Réduit le solde du client et annule correctement la taxe sur le montant crédité." },
+    { "icon": "shield", "title": "Piste d'audit complète", "desc": "Chaque avoir est enregistré avec son motif : votre comptabilité reste propre et vérifiable." },
+    { "icon": "calc", "title": "Annulation de TVA exacte", "desc": "La taxe est annulée sur le montant net crédité, ce qui garde vos déclarations fiscales justes." },
+    { "icon": "globe", "title": "Toutes les devises", "desc": "Créditez en USD, EUR, AED, SAR, OMR, INR et bien d'autres, comme la facture d'origine." },
+    { "icon": "whatsapp", "title": "Envoi partout", "desc": "Partagez l'avoir par WhatsApp ou e-mail pour que le client en garde la trace." }
+  ],
+  "sections": [
+    { "eyebrow": "Qu'est-ce qu'un avoir", "title": "Qu'est-ce qu'un avoir ?", "body": "Un avoir (ou note de crédit) est un document qu'un vendeur émet pour réduire le montant qu'un client doit sur une facture déjà émise. Il sert pour les retours, les remboursements, les surfacturations, les articles annulés ou les corrections de prix. Un avoir ne supprime jamais la facture d'origine : il en compense officiellement tout ou partie, ce qui conserve une trace complète et vérifiable de ce qui a changé et pourquoi." },
+    { "eyebrow": "Comment ça marche", "title": "Créditer, annuler, rapprocher", "body": "Paper & Pen émet l'avoir comme un vrai document, avec son propre numéro et sa propre écriture comptable, jamais comme une retouche discrète de la facture.", "items": ["Ouvrez la facture et créez un avoir sur celle-ci", "Créditez toute la facture ou certaines lignes", "Indiquez le motif : retour, remboursement, correction ou annulation", "La taxe est annulée automatiquement sur le montant net crédité", "Le solde du client et vos grands livres se mettent à jour ensemble"] },
+    { "eyebrow": "Pourquoi c'est important", "title": "Ne modifiez jamais une facture payée", "body": "Modifier ou supprimer une facture émise casse votre piste d'audit et fausse votre position fiscale. La bonne façon de réduire une créance est d'émettre un avoir : la facture d'origine reste intacte, une écriture d'annulation est passée et le bon montant de taxe est annulé. C'est la pratique exigée par la plupart des régimes de TVA et de GST dans le monde." }
+  ],
+  "faqs": [
+    { "q": "À quoi sert un avoir ?", "a": "À réduire ou annuler un montant qu'un client doit sur une facture, en général pour un retour, un remboursement, une surfacturation ou une correction. Il compense la facture au lieu de la supprimer." },
+    { "q": "La création d'avoirs est-elle gratuite ?", "a": "Oui. Émettre et suivre des avoirs est gratuit pour toujours sur Paper & Pen." },
+    { "q": "Un avoir annule-t-il la TVA ?", "a": "Oui. Paper & Pen annule automatiquement la taxe sur le montant net crédité, pour que votre position de TVA ou de GST reste exacte." },
+    { "q": "Puis-je créditer une partie seulement d'une facture ?", "a": "Oui. Créditez toute la facture ou seulement certaines lignes et quantités. Le solde du client s'ajuste en conséquence." },
+    { "q": "Quelle différence entre un avoir et une note de débit ?", "a": "Un avoir est émis par le vendeur pour réduire ce que doit un client. Une note de débit est en général émise par l'acheteur (ou pour augmenter un montant dû), par exemple pour réclamer un trop-perçu ou facturer un supplément." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Émettez un avoir en toute confiance",
+  "ctaSub": "Créez un espace Paper & Pen gratuit et corrigez n'importe quelle facture avec un avoir en bonne et due forme, en quelques secondes."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "fr",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Factures",
+  "metaTitle": "Facturation en ligne · Créez et envoyez vos factures gratuitement",
+  "metaDescription": "Créez gratuitement des factures professionnelles en ligne, dans toutes les devises. Envoyez-les par WhatsApp ou e-mail, encaissez en ligne et suivez les retards.",
+  "keywords": "facture, facture en ligne, créer une facture, logiciel de facturation, facture gratuite, facture avec TVA, facture GST, envoyer une facture par WhatsApp",
+  "heroEyebrow": "Facturation",
+  "heroTitle": "Créez et envoyez des <em class=\"text-copper-400 not-italic\">factures</em> professionnelles gratuitement",
+  "heroSubtitle": "Facturez n'importe quel client, dans n'importe quelle devise, avec le taux de taxe de votre choix. Envoyez par WhatsApp ou e-mail, encaissez en ligne et sachez toujours ce qui est payé, dû ou en retard.",
+  "heroBullets": ["Facturation gratuite pour toujours", "Toutes devises, tous taux de taxe", "Envoi par WhatsApp ou e-mail"],
+  "features": [
+    { "icon": "invoice", "title": "Factures à vos couleurs", "desc": "Ajoutez votre logo, vos couleurs et vos conditions. Chaque facture a un aspect professionnel et s'imprime proprement." },
+    { "icon": "globe", "title": "Toutes les devises", "desc": "Facturez en USD, EUR, GBP, INR, AED, SAR, OMR et bien d'autres, avec les bonnes décimales." },
+    { "icon": "calc", "title": "TVA et taxes prêtes", "desc": "Appliquez n'importe quel taux de TVA, de GST ou de taxe sur les ventes. La taxe est calculée sur le net, après remise." },
+    { "icon": "whatsapp", "title": "Envoi partout", "desc": "Partagez un lien ou un PDF par WhatsApp, par e-mail ou en téléchargement. Le client paie en un geste." },
+    { "icon": "card", "title": "Paiement en ligne", "desc": "Acceptez les cartes et les moyens de paiement locaux pour que vos clients règlent la facture immédiatement." },
+    { "icon": "bell", "title": "Relances automatiques", "desc": "Des relances de paiement courtoises partent automatiquement jusqu'au règlement de la facture." }
+  ],
+  "sections": [
+    { "eyebrow": "Qu'est-ce qu'une facture", "title": "Qu'est-ce qu'une facture ?", "body": "Une facture est un document commercial qu'un vendeur adresse à un acheteur pour demander le paiement de biens ou de services livrés. Elle indique les articles, les quantités, les prix unitaires, les taxes et le montant total dû, avec les conditions de paiement et une date d'échéance. Une facture claire et numérotée est la trace légale d'une vente et le signal qui pousse votre client à vous payer." },
+    { "eyebrow": "Comment ça marche", "title": "Du brouillon au paiement en quelques minutes", "body": "Créez la facture à partir d'un devis ou de zéro, envoyez-la et laissez Paper & Pen s'occuper du reste. Paiements, relances et comptabilité restent synchronisés automatiquement.", "items": ["Partez d'un client et d'une liste de produits enregistrés, ou d'une page vierge", "Choisissez la devise, le taux de taxe et les conditions de paiement", "Envoyez par WhatsApp ou e-mail avec un lien de paiement en ligne", "Suivez le statut : brouillon, envoyée, partiellement payée, payée, en retard", "Enregistrez les paiements manuels ou laissez les paiements en ligne se rapprocher seuls"] },
+    { "eyebrow": "Pensé pour le monde entier", "title": "Des atouts locaux, une portée mondiale", "body": "Paper & Pen fonctionne pour les entreprises partout dans le monde. Dans le Golfe, vous disposez dès le départ de factures en arabe, du format natif OMR, AED et SAR, de préréglages de TVA configurables et du paiement par carte via Paymob. Ailleurs, il vous suffit de choisir votre devise, votre taux de taxe et votre langue." }
+  ],
+  "faqs": [
+    { "q": "La facturation est-elle vraiment gratuite ?", "a": "Oui. Créer, envoyer et suivre des factures est gratuit pour toujours sur Paper & Pen. Vous ne payez que si vous ajoutez des modules optionnels comme les Stocks, les RH ou la Comptabilité." },
+    { "q": "Puis-je facturer dans n'importe quelle devise ?", "a": "Oui. Choisissez n'importe quelle devise, dont USD, EUR, GBP, INR, AED, SAR et OMR. Le nombre de décimales s'ajuste automatiquement (par exemple trois décimales pour l'OMR)." },
+    { "q": "La TVA ou la GST sont-elles gérées ?", "a": "Oui. Définissez n'importe quel taux par facture ou par ligne. Dans le Golfe, un préréglage de TVA configurable est disponible, et la taxe est toujours calculée sur le montant après remise." },
+    { "q": "Comment mes clients me paient-ils ?", "a": "Envoyez la facture avec un lien de paiement en ligne : vos clients paient par carte ou par un moyen local en un geste. Vous pouvez aussi enregistrer à la main les paiements en espèces, par virement ou par chèque." },
+    { "q": "Puis-je envoyer mes factures par WhatsApp ?", "a": "Oui. Partagez la facture sous forme de lien ou de PDF directement sur WhatsApp, ou envoyez-la par e-mail. Les deux conservent le bouton de paiement en ligne pour être payé plus vite." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Envoyez votre première facture en quelques minutes",
+  "ctaSub": "Créez un espace Paper & Pen gratuit, ajoutez votre logo et envoyez une facture professionnelle payable en ligne."
+}

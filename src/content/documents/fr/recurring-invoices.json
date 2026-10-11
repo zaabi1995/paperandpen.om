@@ -1,0 +1,36 @@
+{
+  "locale": "fr",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Factures récurrentes",
+  "metaTitle": "Factures récurrentes · Facturation automatique gratuite",
+  "metaDescription": "Mettez en place gratuitement des factures récurrentes en ligne, dans toutes les devises. Facturez abonnements et forfaits automatiquement, par WhatsApp ou e-mail.",
+  "keywords": "facture récurrente, facture automatique, facturation d'abonnement, facture de forfait, facturation récurrente, facturation programmée",
+  "heroEyebrow": "Factures récurrentes",
+  "heroTitle": "Facturez abonnements et forfaits en <em class=\"text-copper-400 not-italic\">pilote automatique</em>",
+  "heroSubtitle": "Fixez une fois le montant, la devise et le calendrier, et Paper & Pen émet et envoie chaque facture automatiquement. Encaissez en ligne au même rythme. Gratuit pour toujours.",
+  "heroBullets": ["Gratuit pour toujours", "Réglé une fois, facturé pour toujours", "Encaissement en ligne automatique"],
+  "features": [
+    { "icon": "refresh", "title": "Réglez et oubliez", "desc": "Définissez le calendrier une fois : les factures se génèrent et partent seules, à l'heure." },
+    { "icon": "clock", "title": "Toutes les fréquences", "desc": "Hebdomadaire, mensuelle, trimestrielle ou annuelle, avec une date de début et une date de fin facultative." },
+    { "icon": "card", "title": "Encaissement automatique", "desc": "Envoyez chaque facture avec un lien de paiement en ligne, ou prélevez automatiquement à chaque échéance." },
+    { "icon": "globe", "title": "Toutes les devises", "desc": "Facturez en USD, EUR, AED, SAR, OMR, INR et bien d'autres, avec la bonne taxe et les bonnes décimales." },
+    { "icon": "whatsapp", "title": "Envoi partout", "desc": "Chaque facture récurrente part automatiquement par WhatsApp ou e-mail." },
+    { "icon": "bell", "title": "Relances incluses", "desc": "Des relances de paiement automatiques suivent toute facture récurrente impayée." }
+  ],
+  "sections": [
+    { "eyebrow": "Qu'est-ce qu'une facture récurrente", "title": "Qu'est-ce qu'une facture récurrente ?", "body": "Une facture récurrente est une facture émise automatiquement selon un calendrier fixe, pour le même client et le même montant. On l'utilise pour les abonnements, les forfaits, les adhésions, les loyers ou les contrats de maintenance. Au lieu de recréer la facture à chaque échéance, vous la définissez une fois et le système la génère, la numérote et l'envoie à chaque date prévue : vos revenus restent prévisibles et la charge administrative tombe à zéro." },
+    { "eyebrow": "Comment ça marche", "title": "Définir une fois, tourner pour toujours", "body": "Paper & Pen gère tout le cycle pour que vos revenus récurrents s'encaissent tout seuls.", "items": ["Créez un modèle récurrent avec les articles, la devise et la taxe", "Choisissez la fréquence, la date de début et une date de fin facultative", "À chaque échéance, une facture est générée et envoyée automatiquement", "Les clients paient en ligne et les paiements se rapprochent seuls", "Les relances suivent automatiquement toute facture récurrente impayée"] },
+    { "eyebrow": "Pour qui", "title": "Idéal pour des revenus prévisibles", "body": "Les factures récurrentes conviennent à toute activité qui facture de façon répétée : SaaS et abonnements, agences au forfait, salles de sport et adhésions, loyers, contrats de maintenance informatique et matérielle, services gérés. Réglez le calendrier une fois et vos revenus récurrents sont facturés, envoyés et relancés sans que personne n'y touche chaque mois." }
+  ],
+  "faqs": [
+    { "q": "Qu'est-ce qu'une facture récurrente ?", "a": "Une facture émise automatiquement selon un calendrier fixe, pour le même client et le même montant, utilisée pour les abonnements, les forfaits, les loyers et les contrats de maintenance." },
+    { "q": "La facturation récurrente est-elle gratuite ?", "a": "Oui. Mettre en place et faire tourner des factures récurrentes est gratuit pour toujours sur Paper & Pen." },
+    { "q": "Quelles fréquences sont proposées ?", "a": "Hebdomadaire, mensuelle, trimestrielle ou annuelle, avec une date de début et une date de fin facultative pour arrêter la série quand vous le souhaitez." },
+    { "q": "Les clients peuvent-ils être prélevés automatiquement ?", "a": "Oui. Envoyez chaque facture avec un lien de paiement en ligne, ou mettez en place un encaissement automatique qui débite le moyen de paiement enregistré à chaque échéance." },
+    { "q": "Et si une facture récurrente n'est pas payée ?", "a": "Des relances de paiement automatiques suivent toute facture récurrente impayée jusqu'à son règlement, sans aucune relance manuelle." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Passez vos revenus récurrents en pilote automatique",
+  "ctaSub": "Créez un espace Paper & Pen gratuit, réglez une facture récurrente une fois et laissez-la facturer, envoyer et encaisser à l'heure."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "it",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Fatture ricorrenti",
+  "metaTitle": "Fatture ricorrenti · Automatizza la fatturazione · Paper & Pen",
+  "metaDescription": "Imposta fatture ricorrenti online, gratis e in qualsiasi valuta. Fattura abbonamenti e canoni in automatico e inviali via WhatsApp o email.",
+  "keywords": "fattura ricorrente, fattura automatica, fatturazione abbonamenti, fattura canone, fatturazione ricorrente, fatturazione automatica, fattura programmata",
+  "heroEyebrow": "Fatture ricorrenti",
+  "heroTitle": "Fattura abbonamenti e canoni con il <em class=\"text-copper-400 not-italic\">pilota automatico</em>",
+  "heroSubtitle": "Imposta una volta importo, valuta e calendario: Paper & Pen emette e invia ogni fattura in automatico. Incassa online con lo stesso ritmo. Gratis per sempre.",
+  "heroBullets": ["Gratis per sempre", "Imposti una volta, fattura per sempre", "Incasso online automatico"],
+  "features": [
+    { "icon": "refresh", "title": "Imposta e dimentica", "desc": "Definisci il calendario una volta e le fatture si generano e si inviano da sole, puntuali." },
+    { "icon": "clock", "title": "Qualsiasi frequenza", "desc": "Settimanale, mensile, trimestrale o annuale, con data di inizio e data di fine facoltativa." },
+    { "icon": "card", "title": "Incasso automatico", "desc": "Invia ogni fattura con un link per pagare online, oppure addebita in automatico a ogni ciclo." },
+    { "icon": "globe", "title": "Qualsiasi valuta", "desc": "Fattura in USD, EUR, AED, SAR, OMR, INR e altre valute, con imposte e decimali corretti." },
+    { "icon": "whatsapp", "title": "Inviala ovunque", "desc": "Ogni fattura ricorrente parte in automatico via WhatsApp o email." },
+    { "icon": "bell", "title": "Solleciti inclusi", "desc": "I solleciti di pagamento automatici rincorrono ogni fattura ricorrente non pagata." }
+  ],
+  "sections": [
+    { "eyebrow": "Cos'è una fattura ricorrente", "title": "Che cos'è una fattura ricorrente?", "body": "Una fattura ricorrente è una fattura emessa in automatico secondo un calendario fisso, per lo stesso cliente e lo stesso importo. Si usa per abbonamenti, canoni, quote associative, affitti o contratti di manutenzione. Invece di rifare la fattura a ogni ciclo, la definisci una volta e il sistema la genera, la numera e la invia a ogni scadenza: i ricavi restano prevedibili e il lavoro amministrativo scende a zero." },
+    { "eyebrow": "Come funziona", "title": "La definisci una volta, va per sempre", "body": "Paper & Pen gestisce l'intero ciclo, così i ricavi ricorrenti si incassano da soli.", "items": ["Crea un modello ricorrente con articoli, valuta e imposta", "Scegli frequenza, data di inizio e data di fine facoltativa", "A ogni ciclo si genera e si invia una fattura in automatico", "I clienti pagano online e i pagamenti si riconciliano da soli", "I solleciti rincorrono in automatico ogni fattura ricorrente non pagata"] },
+    { "eyebrow": "Per chi è", "title": "Perfetta per ricavi prevedibili", "body": "Le fatture ricorrenti sono adatte a qualsiasi attività con fatturazione ripetuta: SaaS e abbonamenti, agenzie a canone, palestre e quote associative, affitti di immobili, contratti di manutenzione IT e di attrezzature, servizi gestiti. Imposta il calendario una volta e i ricavi ricorrenti vengono fatturati, inviati e sollecitati senza che nessuno ci metta mano ogni mese." }
+  ],
+  "faqs": [
+    { "q": "Che cos'è una fattura ricorrente?", "a": "Una fattura emessa in automatico secondo un calendario fisso, per lo stesso cliente e lo stesso importo, usata per abbonamenti, canoni, affitti e contratti di manutenzione." },
+    { "q": "La fatturazione ricorrente è gratis?", "a": "Sì. Impostare e gestire fatture ricorrenti è gratis per sempre su Paper & Pen." },
+    { "q": "Quali frequenze sono supportate?", "a": "Settimanale, mensile, trimestrale o annuale, con una data di inizio e una data di fine facoltativa, così la serie si ferma quando vuoi tu." },
+    { "q": "Si possono addebitare i clienti in automatico?", "a": "Sì. Invia ogni fattura con un link per pagare online, oppure imposta l'incasso automatico così il ciclo addebita il metodo di pagamento salvato." },
+    { "q": "E se una fattura ricorrente non viene pagata?", "a": "I solleciti di pagamento automatici rincorrono ogni fattura ricorrente non pagata finché non è saldata, senza bisogno di seguirla a mano." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Metti i ricavi ricorrenti in automatico",
+  "ctaSub": "Crea uno spazio di lavoro Paper & Pen gratuito, imposta una volta la fattura ricorrente e lasciala fatturare, inviare e incassare secondo il calendario."
+}

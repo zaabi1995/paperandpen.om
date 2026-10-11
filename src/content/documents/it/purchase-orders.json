@@ -1,0 +1,36 @@
+{
+  "locale": "it",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Ordini di acquisto",
+  "metaTitle": "Software per ordini di acquisto · Paper & Pen",
+  "metaDescription": "Crea ordini di acquisto professionali online, gratis e in qualsiasi valuta. Invia gli ordini ai fornitori, segui approvazioni e consegne.",
+  "keywords": "ordine di acquisto, creare ordine di acquisto, oda, software ordini di acquisto, ordine di acquisto gratis, ordine a fornitore, da ordine a fattura fornitore",
+  "heroEyebrow": "Ordini di acquisto",
+  "heroTitle": "Ordina ai fornitori con veri <em class=\"text-copper-400 not-italic\">ordini di acquisto</em>",
+  "heroSubtitle": "Crea, approva e invia ordini di acquisto ai fornitori in qualsiasi valuta, poi abbinali a consegne e fatture passive con una traccia di controllo pulita. Gratis per sempre.",
+  "heroBullets": ["Gratis per sempre", "Approvazione prima dell'invio", "Abbinamento alle fatture fornitore"],
+  "features": [
+    { "icon": "cart", "title": "Ordini con il tuo marchio", "desc": "Emetti ordini chiari e numerati ai fornitori, con le tue condizioni e i dettagli di consegna." },
+    { "icon": "check", "title": "Approvazione prima dell'invio", "desc": "Fai approvare gli ordini internamente, così nulla viene ordinato senza autorizzazione." },
+    { "icon": "truck", "title": "Segui le consegne", "desc": "Vedi cosa è ordinato, ricevuto in parte e consegnato del tutto per ogni ordine." },
+    { "icon": "refresh", "title": "Abbina alle fatture", "desc": "Trasforma un ordine ricevuto in fattura fornitore e fai un abbinamento a tre vie per la massima precisione." },
+    { "icon": "globe", "title": "Qualsiasi valuta", "desc": "Ordina in USD, EUR, AED, SAR, OMR, INR e altre valute, con imposte e decimali corretti." },
+    { "icon": "whatsapp", "title": "Invialo ovunque", "desc": "Condividi l'ordine con un fornitore via WhatsApp o email con un tocco." }
+  ],
+  "sections": [
+    { "eyebrow": "Cos'è un ordine di acquisto", "title": "Che cos'è un ordine di acquisto?", "body": "Un ordine di acquisto è un documento che l'acquirente invia a un fornitore per richiedere formalmente beni o servizi a un prezzo concordato. Elenca articoli, quantità, prezzi unitari, imposte, condizioni di consegna e un numero d'ordine che il fornitore riporta sulla sua fattura. L'ordine diventa un impegno vincolante quando il fornitore lo accetta e tiene sotto controllo la spesa, perché richiede un'approvazione prima che il denaro esca." },
+    { "eyebrow": "Come funziona", "title": "Crea, approva, ricevi, abbina", "body": "Paper & Pen gestisce l'intero ciclo dall'acquisto al pagamento, così ogni ordine è approvato, seguito e abbinato.", "items": ["Crea un ordine da un avviso di scorta bassa o da zero", "Mandalo in approvazione interna prima dell'invio", "Invialo al fornitore via WhatsApp o email", "Ricevi la merce sull'ordine e aggiorna il magazzino", "Trasformalo in fattura fornitore e abbinalo a ordine e consegna"] },
+    { "eyebrow": "Perché conta", "title": "Controlla la spesa prima che avvenga", "body": "Gli ordini di acquisto spostano il controllo della spesa a prima che il denaro esca, non a dopo. Con approvazioni, monitoraggio delle consegne e abbinamento a tre vie tra ordine, merce ricevuta e fattura fornitore, scopri addebiti in eccesso e consegne incomplete prima di pagare. Questa disciplina funziona per un singolo acquirente come per un intero ufficio acquisti." }
+  ],
+  "faqs": [
+    { "q": "A cosa serve un ordine di acquisto?", "a": "A richiedere formalmente beni o servizi a un fornitore a un prezzo concordato, a controllare la spesa con un'approvazione e a dare al fornitore un riferimento da riportare sulla sua fattura." },
+    { "q": "Il software per ordini di acquisto è gratis?", "a": "Sì. Creare, approvare e monitorare ordini di acquisto è gratis per sempre su Paper & Pen." },
+    { "q": "Posso approvare un ordine prima di inviarlo?", "a": "Sì. Manda gli ordini di acquisto in approvazione interna, così nulla viene ordinato senza l'autorizzazione giusta." },
+    { "q": "Posso abbinare un ordine a una fattura fornitore?", "a": "Sì. Trasforma un ordine ricevuto in fattura fornitore e fai l'abbinamento a tre vie con l'ordine e la merce ricevuta per scoprire le differenze." },
+    { "q": "Ricevere un ordine aggiorna il magazzino?", "a": "Con il modulo facoltativo Magazzino, ricevere merce su un ordine di acquisto aumenta le giacenze in automatico." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Ordina con controllo, non nel caos",
+  "ctaSub": "Crea uno spazio di lavoro Paper & Pen gratuito, emetti ordini di acquisto approvati e abbinali in automatico alle fatture fornitore."
+}
