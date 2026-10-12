@@ -1,0 +1,36 @@
+{
+  "locale": "lt",
+  "slug": "debit-notes",
+  "order": 6,
+  "title": "Debetinės sąskaitos",
+  "metaTitle": "Debetinių sąskaitų programa · Kurkite nemokamai · Paper & Pen",
+  "metaDescription": "Nemokamai kurkite tvarkingas debetines sąskaitas internetu bet kokia valiuta. Užfiksuokite papildomus mokesčius ar tiekėjų korekcijas tinkamu dokumentu.",
+  "keywords": "debetinė sąskaita, išrašyti debetinę sąskaitą, debetinė pažyma, tiekėjo debetinė sąskaita, pirkimo grąžinimas, debetinių sąskaitų programa, pvm debetinė sąskaita",
+  "heroEyebrow": "Debetinės sąskaitos",
+  "heroTitle": "Užfiksuokite papildomus mokesčius tinkama <em class=\"text-copper-400 not-italic\">debetine sąskaita</em>",
+  "heroSubtitle": "Išrašykite debetinę sąskaitą, kad padidintumėte skolą ar pareikštumėte reikalavimą tiekėjui, su aiškiu audito pėdsaku ir teisingu apskaitos įrašu. Bet kokia valiuta.",
+  "heroBullets": ["Nemokamai visam laikui", "Susieta su pradiniu dokumentu", "Užregistruoja teisingą įrašą"],
+  "features": [
+    { "icon": "doc", "title": "Tinkamas debetinis dokumentas", "desc": "Sunumeruota debetinė sąskaita, susieta su pradine sąskaita ar tiekėjo sąskaita, pilnai dokumentuota." },
+    { "icon": "refresh", "title": "Pakoreguoja likutį", "desc": "Teisingai padidina skolą arba užfiksuoja reikalavimą tiekėjui." },
+    { "icon": "shield", "title": "Pilnas audito pėdsakas", "desc": "Kiekviena debetinė sąskaita turi savo priežastį, todėl apskaita lieka tvarkinga ir patikrinama." },
+    { "icon": "calc", "title": "Teisingas mokesčių tvarkymas", "desc": "Mokestis taikomas ar susigrąžinamas nuo teisingos grynosios sumos, kad deklaracijos būtų tikslios." },
+    { "icon": "globe", "title": "Bet kokia valiuta", "desc": "Išrašykite USD, EUR, AED, SAR, OMR, INR ir kitomis valiutomis, kaip pradiniame dokumente." },
+    { "icon": "whatsapp", "title": "Siųskite bet kur", "desc": "Pasidalykite debetine sąskaita per WhatsApp ar el. paštu, kad kita šalis turėtų įrašą." }
+  ],
+  "sections": [
+    { "eyebrow": "Kas yra debetinė sąskaita", "title": "Kas yra debetinė sąskaita?", "body": "Debetinė sąskaita (arba debetinė pažyma) yra dokumentas, kuriuo užfiksuojamas dviejų šalių tarpusavio skolos padidėjimas. Pirkėjas dažnai išrašo debetinę sąskaitą tiekėjui dėl grąžintų prekių ar permokos, o pardavėjas gali ją išrašyti, kad pridėtų mokestį prie anksčiau išrašytos sąskaitos. Kaip ir kreditinė sąskaita, ji koreguoja likutį oficialiu, sunumeruotu dokumentu, o ne taisant pradinį." },
+    { "eyebrow": "Kaip tai veikia", "title": "Debetuokite, koreguokite, suderinkite", "body": "Paper & Pen išrašo debetinę sąskaitą kaip tikrą dokumentą su savo numeriu ir apskaitos įrašu, todėl abi pusės lieka suderintos.", "items": ["Išrašykite debetinę sąskaitą pagal sąskaitą ar tiekėjo sąskaitą", "Nurodykite mokestį ar reikalavimą ir jo priežastį", "Mokestis automatiškai skaičiuojamas nuo teisingos grynosios sumos", "Atitinkamas likutis atsinaujina su apskaitos įrašu", "Išsiųskite per WhatsApp ar el. paštu kitos šalies įrašams"] },
+    { "eyebrow": "Kreditas ar debetas", "title": "Kreditinė ar debetinė sąskaita?", "body": "Naudokite kreditinę sąskaitą, kai mažinate kliento jums skolingą sumą, pavyzdžiui, dėl grąžinimo ar kompensacijos. Naudokite debetinę sąskaitą, kai didinate skolą ar pareiškiate reikalavimą tiekėjui, pavyzdžiui, grąžinant sugadintas prekes ar taisant per mažą kainą. Paper & Pen palaiko abi, su teisinga apskaita kiekviena kryptimi." }
+  ],
+  "faqs": [
+    { "q": "Kam naudojama debetinė sąskaita?", "a": "Skolos padidėjimui užfiksuoti, pavyzdžiui, papildomam mokesčiui sąskaitoje arba pirkėjo reikalavimui tiekėjui dėl grąžinimų ar permokų." },
+    { "q": "Ar debetinių sąskaitų kūrimas nemokamas?", "a": "Taip. Debetinių sąskaitų išrašymas ir sekimas Paper & Pen sistemoje nemokamas visam laikui." },
+    { "q": "Kuo skiriasi debetinė ir kreditinė sąskaita?", "a": "Debetinė sąskaita padidina skolą arba užfiksuoja reikalavimą, dažnai ją išrašo pirkėjas. Kreditinė sąskaita sumažina kliento skolą, ją išrašo pardavėjas." },
+    { "q": "Ar debetinė sąskaita turi įtakos mokesčiams?", "a": "Taip. Paper & Pen automatiškai taiko ar susigrąžina mokestį nuo teisingos grynosios sumos, todėl jūsų PVM ar GST įrašai lieka tikslūs." },
+    { "q": "Ar galiu susieti debetinę sąskaitą su tiekėjo sąskaita?", "a": "Taip. Išrašykite debetinę sąskaitą pagal pradinę sąskaitą ar tiekėjo sąskaitą, kad abu likučiai susiderintų su aiškiu audito pėdsaku." }
+  ],
+  "related": ["/invoicing/credit-notes", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Išrašykite debetinę sąskaitą per kelias sekundes",
+  "ctaSub": "Susikurkite nemokamą Paper & Pen darbo erdvę ir koreguokite bet kokį likutį tinkama, patikrinama debetine sąskaita."
+}

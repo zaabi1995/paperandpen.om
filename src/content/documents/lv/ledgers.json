@@ -1,0 +1,36 @@
+{
+  "locale": "lv",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Virsgrāmatas",
+  "metaTitle": "Virsgrāmatas un konta izraksti · Paper & Pen",
+  "metaDescription": "Skati klientu un piegādātāju virsgrāmatas tiešsaistē bez maksas jebkurā valūtā. Redzi katru rēķinu, maksājumu un kredītrēķinu vienā izrakstā.",
+  "keywords": "virsgrāmata, klientu virsgrāmata, piegādātāju virsgrāmata, konta izraksts, galvenā virsgrāmata, virsgrāmatas programma, savstarpējo norēķinu izraksts",
+  "heroEyebrow": "Virsgrāmatas",
+  "heroTitle": "Katrs darījums vienā skaidrā <em class=\"text-copper-400 not-italic\">virsgrāmatā</em>",
+  "heroSubtitle": "Redzi nepārtrauktu izrakstu ar katru rēķinu, maksājumu, kredītrēķinu un korekciju katram klientam un piegādātājam jebkurā valūtā. Kopīgo izrakstu ar vienu pieskārienu. Bez maksas uz visiem laikiem.",
+  "heroBullets": ["Bez maksas uz visiem laikiem", "Aktuāli atlikumi", "Kopīgo izrakstus uzreiz"],
+  "features": [
+    { "icon": "chart", "title": "Klientu virsgrāmatas", "desc": "Nepārtraukts izraksts katram klientam: rēķini, maksājumi un kredītrēķini ar aktuālu atlikumu." },
+    { "icon": "accounting", "title": "Piegādātāju virsgrāmatas", "desc": "Seko piegādātāju rēķiniem, maksājumiem un debetrēķiniem, lai vienmēr zinātu, cik esi parādā." },
+    { "icon": "doc", "title": "Konta izraksts", "desc": "Izveido un nosūti konta izrakstu par jebkuru periodu ar vienu pieskārienu." },
+    { "icon": "shield", "title": "Vienmēr saskaņots", "desc": "Virsgrāmatas atjaunojas no tiem pašiem ierakstiem, kas tavi rēķini un maksājumi, tāpēc tās vienmēr sakrīt." },
+    { "icon": "globe", "title": "Jebkura valūta", "desc": "Skati atlikumus USD, EUR, AED, SAR, OMR, INR un citās valūtās ar pareizām decimālzīmēm." },
+    { "icon": "whatsapp", "title": "Kopīgo jebkur", "desc": "Nosūti izrakstu caur WhatsApp vai e-pastu, lai klienti varētu nokārtot neapmaksātos atlikumus." }
+  ],
+  "sections": [
+    { "eyebrow": "Kas ir virsgrāmata", "title": "Kas ir virsgrāmata?", "body": "Virsgrāmata ir nepārtraukts visu darījumu ieraksts, kas ietekmē kontu, ar atlikumu pēc katra ieraksta. Klienta virsgrāmata parāda katru tevis izrakstīto rēķinu, katru saņemto maksājumu un katru kredītrēķinu, un beigās atlikumu, ko klients ir parādā. Konta izraksts ir šī virsgrāmata, kas klientam parādīta par noteiktu periodu. Virsgrāmatas ir pamats, lai zinātu, kas kam ir parādā un kam esi parādā tu." },
+    { "eyebrow": "Kā tas darbojas", "title": "Viens patiesības avots", "body": "Paper & Pen virsgrāmatas nav atsevišķa izklājlapa, tās veidojas no tiem pašiem rēķiniem, maksājumiem un kredītrēķiniem, ko tu jau veido.", "items": ["Atver jebkuru klientu vai piegādātāju, lai redzētu pilnu virsgrāmatu", "Katrs rēķins, maksājums, kredītrēķins un debetrēķins parādās ar aktuālu atlikumu", "Filtrē pēc perioda, lai iegūtu tīru konta izrakstu", "Nosūti izrakstu caur WhatsApp vai e-pastu ar vienu pieskārienu", "Atlikumi vienmēr sakrīt ar taviem rēķiniem un kontiem"] },
+    { "eyebrow": "Kāpēc tas ir svarīgi", "title": "Iekasē ātrāk, nemaksā divreiz", "body": "Kad klients apšauba atlikumu, skaidra virsgrāmata noslēdz sarunu dažās sekundēs. Kad jāatgādina par parādu, konta izraksts ir pats pārliecinošākais dokuments, ko vari nosūtīt. Un, tā kā piegādātāju virsgrāmatas seko tam, ko esi parādā, tu nekad nesamaksāsi rēķinu divreiz un nepalaidīsi garām debetrēķinu. Viens saskaņots ieraksts abām tava uzņēmuma pusēm." }
+  ],
+  "faqs": [
+    { "q": "Kas ir klienta virsgrāmata?", "a": "Nepārtraukts izraksts ar katru klienta rēķinu, maksājumu un kredītrēķinu, kas beidzas ar atlikumu, ko klients tev pašlaik ir parādā." },
+    { "q": "Vai virsgrāmatas ir bez maksas?", "a": "Jā. Klientu un piegādātāju virsgrāmatas un konta izraksti Paper & Pen ir bez maksas uz visiem laikiem." },
+    { "q": "Vai varu nosūtīt konta izrakstu?", "a": "Jā. Izveido izrakstu par jebkuru periodu un nosūti to caur WhatsApp vai e-pastu ar vienu pieskārienu, lai klients varētu norēķināties." },
+    { "q": "Vai virsgrāmatas paliek saskaņotas?", "a": "Jā. Virsgrāmatas veidojas no tiem pašiem ierakstiem, kas tavi rēķini un maksājumi, tāpēc atlikumi vienmēr sakrīt ar taviem kontiem." },
+    { "q": "Vai varu redzēt, cik esmu parādā piegādātājiem?", "a": "Jā. Piegādātāju virsgrāmatas seko rēķiniem, maksājumiem un debetrēķiniem, lai tu vienmēr precīzi zinātu, kas jāmaksā katram piegādātājam." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Redzi uzreiz, kas kam ir parādā",
+  "ctaSub": "Izveido bezmaksas Paper & Pen darbvietu un saņem tīru, saskaņotu virsgrāmatu katram klientam un piegādātājam."
+}

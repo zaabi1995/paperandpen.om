@@ -21,7 +21,7 @@ const KEEP = new Set(['slug', 'order', 'icon', 'toolType', 'href', 'url', 'path'
 const errors = [];
 const VARS = (s) => [...s.matchAll(/\{\{\s*\w+\s*\}\}/g)].map((m) => m[0].replace(/\s/g, '')).sort().join(',');
 const URLS = (s) => [...s.matchAll(/https?:\/\/[^\s"'<)]+|(?<![\w])\/[a-z0-9-]+(?:\/[a-z0-9-]*)*\/(?=["'\s)<]|$)/g)].map((m) => m[0]).sort().join(',');
-const GULF_NAMED = /Persian Gulf|Arabian Gulf|Persische[nr]? Golf|Arabische[nr]? Golf|golfe (Persique|arabique)|Golfo (P[ée]rsico|Persico|Ar[áa]bigo|Arabico)|Persianlah|Persiska viken|Persiske Golf|Perzische Golf|Persk(ý|ého|ém) záliv|Zatok[ai] Persk|Basra Körfezi|Перс(идск|ьк)|Περσικ|波斯[湾灣]|ペルシャ湾|페르시아만|Vịnh Ba Tư|อ่าวเปอร์เซีย|อ่าวอาหรับ|Teluk Arab|Arap Körfezi|Арабск(ий|ого) залив|Αραβικ(ός|ού) Κόλπ|アラビア湾|아라비아만|阿拉伯[湾灣]|Vịnh Ả Rập|Teluk Persia|Ghuba la Uajemi|خلیج[ ‌]?فارس|الخليج الفارسي/;
+const GULF_NAMED = /Persian Gulf|Arabian Gulf|Persische[nr]? Golf|Arabische[nr]? Golf|golfe (Persique|arabique)|Golfo (P[ée]rsico|Persico|Ar[áa]bigo|Arabico)|Persianlah|Persijos |Persijas |Perzsk(ý|ého|om) záliv|Perzijsk|Perzsa-öböl|Golful Persic|Персийск|Teluk Parsi|Ghuba ya Uajemi|फ़ारस की खाड़ी|फारस की खाड़ी|পারস্য উপসাগর|பாரசீக வளைகுடா|Persiska viken|Persiske Golf|Perzische Golf|Persk(ý|ého|ém) záliv|Zatok[ai] Persk|Basra Körfezi|Перс(идск|ьк)|Περσικ|波斯[湾灣]|ペルシャ湾|페르시아만|Vịnh Ba Tư|อ่าวเปอร์เซีย|อ่าวอาหรับ|Teluk Arab|Arap Körfezi|Арабск(ий|ого) залив|Αραβικ(ός|ού) Κόλπ|アラビア湾|아라비아만|阿拉伯[湾灣]|Vịnh Ả Rập|Teluk Persia|Ghuba la Uajemi|خلیج[ ‌]?فارس|الخليج الفارسي/;
 const TAGS = (s) => [...s.matchAll(/<\/?([a-z][a-z0-9]*)\b/gi)].map((m) => m[1].toLowerCase()).sort().join(',');
 
 function walk(en, tr, where, code, untranslated, top = false) {

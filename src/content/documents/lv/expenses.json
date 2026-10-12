@@ -1,0 +1,36 @@
+{
+  "locale": "lv",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Izdevumi",
+  "metaTitle": "Izdevumu uzskaites programma · Paper & Pen",
+  "metaDescription": "Uzskaiti uzņēmuma izdevumus tiešsaistē bez maksas jebkurā valūtā. Saglabā čekus, sadali tēriņus pa kategorijām, atgūsti PVN un redzi īsto peļņu.",
+  "keywords": "izdevumu uzskaite, reģistrēt izdevumus, uzņēmuma izdevumi, izdevumu programma, bezmaksas izdevumu uzskaite, čeku saglabāšana, pvn par izdevumiem",
+  "heroEyebrow": "Izdevumi",
+  "heroTitle": "Uzskaiti katru uzņēmuma <em class=\"text-copper-400 not-italic\">izdevumu</em> vienuviet",
+  "heroSubtitle": "Saglabā čekus, sadali tēriņus pa kategorijām, atgūsti PVN un redzi īsto peļņu, un to visu jebkurā valūtā. Izdevumi nonāk tieši tavos kontos. Bez maksas uz visiem laikiem.",
+  "heroBullets": ["Bez maksas uz visiem laikiem", "Saglabā čekus", "Redzi īsto peļņu"],
+  "features": [
+    { "icon": "accounting", "title": "Reģistrē jebkuru izdevumu", "desc": "Ieraksti rēķinu, skaidras naudas tēriņu vai maksājumu piegādātājam dažās sekundēs ar kategoriju un nodokli." },
+    { "icon": "doc", "title": "Pievieno čekus", "desc": "Nofotografē vai augšupielādē čeku un glabā to pie izdevuma, lai ieraksti un auditi būtu kārtībā." },
+    { "icon": "calc", "title": "Atgūsti PVN", "desc": "Reģistrē priekšnodokli (PVN vai GST) par izdevumiem, lai deklarācija atspoguļotu, ko vari atgūt." },
+    { "icon": "chart", "title": "Redzi īsto peļņu", "desc": "Izdevumi tiek grāmatoti pret ieņēmumiem, tāpēc peļņas vai zaudējumu aprēķins rāda realitāti, nevis minējumus." },
+    { "icon": "globe", "title": "Jebkura valūta", "desc": "Reģistrē tēriņus USD, EUR, AED, SAR, OMR, INR un citās valūtās ar pareizām decimālzīmēm." },
+    { "icon": "refresh", "title": "Periodiski izdevumi", "desc": "Iestati īri, abonementus un komunālos maksājumus, lai tie tiktu reģistrēti automātiski katrā periodā." }
+  ],
+  "sections": [
+    { "eyebrow": "Kas ir izdevumu uzskaite", "title": "Kas ir izdevumu uzskaite?", "body": "Izdevumu uzskaite nozīmē reģistrēt katru izmaksu, kas rodas tavam uzņēmumam, ar tās kategoriju, datumu, nodokli un attaisnojošo čeku. Labi veikta, tā precīzi parāda, kur aiziet nauda, kādu peļņu tu patiešām gūsti un cik daudz priekšnodokļa vari atgūt. Slikti veikta, peļņa kļūst par minējumu un nodokļu sezona par steigu. Paper & Pen to padara par dažām sekundēm uz vienu izdevumu." },
+    { "eyebrow": "Kā tas darbojas", "title": "Saglabā, sakārto, atgūsti", "body": "Paper & Pen pārvērš izmētātus čekus tīros, sakārtotos ierakstos, kas nonāk tieši tavos kontos.", "items": ["Reģistrē izdevumu ar kategoriju, piegādātāju un nodokli", "Pievieno čeka fotoattēlu vai PDF audita takai", "Atgūsti priekšnodokli (PVN vai GST), kur tas attiecas", "Iestati periodiskus izdevumus, lai tie tiktu reģistrēti automātiski", "Redzi tēriņus pa kategorijām un īsto peļņu savās atskaitēs"] },
+    { "eyebrow": "Kāpēc tas ir svarīgi", "title": "Peļņa, kurai vari uzticēties", "body": "Nevar pārvaldīt to, ko nemēri. Kad katrs izdevums ir reģistrēts pret ieņēmumiem, tavs peļņas vai zaudējumu aprēķins ir precīzs, PVN deklarācija ir pareiza, un tu redzi, kuras izmaksas lēnām aug, pirms tās sāk sāpēt. Izdevumi Paper & Pen nonāk tajā pašā virsgrāmatā, kur pārdošana, tāpēc kopaina paliek saskaņota." }
+  ],
+  "faqs": [
+    { "q": "Vai izdevumu uzskaite ir bez maksas?", "a": "Jā. Izdevumu reģistrēšana, sakārtošana un čeku pievienošana Paper & Pen ir bez maksas uz visiem laikiem." },
+    { "q": "Vai varu pievienot čeku izdevumam?", "a": "Jā. Nofotografē vai augšupielādē čeku, un tas paliek pie izdevuma, dodot tev tīru audita taku." },
+    { "q": "Vai varu atgūt PVN par izdevumiem?", "a": "Jā. Reģistrē priekšnodokli (PVN vai GST) katram izdevumam, lai deklarācija precīzi atspoguļotu, ko vari atgūt." },
+    { "q": "Vai varu uzskaitīt izdevumus dažādās valūtās?", "a": "Jā. Reģistrē tēriņus jebkurā valūtā, tostarp USD, EUR, AED, SAR un OMR, ar pareizām decimālzīmēm." },
+    { "q": "Vai periodiskus izdevumus var automatizēt?", "a": "Jā. Iestati īri, abonementus un komunālos maksājumus, lai tie tiktu reģistrēti automātiski katrā periodā un nekas netiktu aizmirsts." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Zini precīzi, kur aiziet tava nauda",
+  "ctaSub": "Izveido bezmaksas Paper & Pen darbvietu, reģistrē katru izdevumu un redzi peļņu, kurai patiešām vari uzticēties."
+}

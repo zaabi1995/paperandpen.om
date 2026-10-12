@@ -1,0 +1,36 @@
+{
+  "locale": "lt",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Išlaidos",
+  "metaTitle": "Išlaidų apskaitos programa · Paper & Pen",
+  "metaDescription": "Nemokamai sekite verslo išlaidas internetu bet kokia valiuta. Fiksuokite kvitus, skirstykite išlaidas, susigrąžinkite PVM ir matykite tikrąjį pelną.",
+  "keywords": "išlaidų apskaita, išlaidų registravimas, verslo išlaidos, išlaidų programa, nemokamas išlaidų sekimas, kvitų fiksavimas, pvm nuo išlaidų",
+  "heroEyebrow": "Išlaidos",
+  "heroTitle": "Sekite kiekvieną verslo <em class=\"text-copper-400 not-italic\">išlaidą</em> vienoje vietoje",
+  "heroSubtitle": "Fiksuokite kvitus, skirstykite išlaidas, susigrąžinkite PVM ir matykite tikrąjį pelną, bet kokia valiuta. Išlaidos iš karto patenka į jūsų apskaitą. Nemokamai visam laikui.",
+  "heroBullets": ["Nemokamai visam laikui", "Kvitų fiksavimas", "Tikrasis pelnas"],
+  "features": [
+    { "icon": "accounting", "title": "Užregistruokite bet kokią išlaidą", "desc": "Per kelias sekundes užregistruokite sąskaitą, grynųjų išlaidą ar mokėjimą tiekėjui su kategorija ir mokesčiu." },
+    { "icon": "doc", "title": "Pridėkite kvitus", "desc": "Nufotografuokite ar įkelkite kvitą ir laikykite jį prie išlaidos tvarkingiems įrašams ir auditams." },
+    { "icon": "calc", "title": "Susigrąžinkite PVM", "desc": "Fiksuokite pirkimo PVM ar GST nuo išlaidų, kad deklaracija atspindėtų, ką galite susigrąžinti." },
+    { "icon": "chart", "title": "Matykite tikrąjį pelną", "desc": "Išlaidos registruojamos prieš pajamas, todėl pelno ir nuostolių ataskaita atspindi tikrovę, o ne spėliones." },
+    { "icon": "globe", "title": "Bet kokia valiuta", "desc": "Registruokite išlaidas USD, EUR, AED, SAR, OMR, INR ir kitomis valiutomis su teisingais skaitmenimis po kablelio." },
+    { "icon": "refresh", "title": "Periodinės išlaidos", "desc": "Nustatykite nuomą, prenumeratas ir komunalines paslaugas, kad būtų registruojamos automatiškai kiekvieną ciklą." }
+  ],
+  "sections": [
+    { "eyebrow": "Kas yra išlaidų apskaita", "title": "Kas yra išlaidų apskaita?", "body": "Išlaidų apskaita yra kiekvienos jūsų verslo patiriamos išlaidos registravimas su jos kategorija, data, mokesčiu ir pagrindžiančiu kvitu. Gerai tvarkoma, ji tiksliai parodo, kur keliauja pinigai, kokį pelną iš tikrųjų uždirbate ir kiek pirkimo mokesčio galite susigrąžinti. Prastai tvarkoma, pelnas tampa spėjimu, o mokesčių sezonas virsta skubėjimu. Paper & Pen kiekvienai išlaidai skiria vos kelias sekundes." },
+    { "eyebrow": "Kaip tai veikia", "title": "Fiksuokite, skirstykite, susigrąžinkite", "body": "Paper & Pen paverčia išmėtytus kvitus tvarkingais, suskirstytais įrašais, kurie iš karto patenka į jūsų apskaitą.", "items": ["Užregistruokite išlaidą su kategorija, tiekėju ir mokesčiu", "Pridėkite kvito nuotrauką ar PDF audito pėdsakui", "Susigrąžinkite pirkimo PVM ar GST, kai taikoma", "Nustatykite periodines išlaidas, kad būtų registruojamos automatiškai", "Ataskaitose matykite išlaidas pagal kategoriją ir tikrąjį pelną"] },
+    { "eyebrow": "Kodėl tai svarbu", "title": "Pelnas, kuriuo galite pasitikėti", "body": "Negalite valdyti to, ko nematuojate. Kai kiekviena išlaida užfiksuota prieš pajamas, pelno ir nuostolių ataskaita tiksli, PVM deklaracija teisinga, ir matote, kurios išlaidos auga, dar prieš joms pakenkiant. Išlaidos Paper & Pen sistemoje patenka į tą pačią didžiąją knygą kaip ir pardavimai, todėl visas vaizdas lieka nuoseklus ir suderintas." }
+  ],
+  "faqs": [
+    { "q": "Ar išlaidų apskaita nemokama?", "a": "Taip. Išlaidų registravimas, skirstymas ir kvitų pridėjimas Paper & Pen sistemoje nemokamas visam laikui." },
+    { "q": "Ar galiu prie išlaidos pridėti kvitą?", "a": "Taip. Nufotografuokite ar įkelkite kvitą ir jis liks prie išlaidos, suteikdamas tvarkingą audito pėdsaką." },
+    { "q": "Ar galiu susigrąžinti PVM nuo išlaidų?", "a": "Taip. Prie kiekvienos išlaidos užfiksuokite pirkimo PVM ar GST, kad deklaracija tiksliai atspindėtų, ką galite susigrąžinti." },
+    { "q": "Ar galiu sekti išlaidas skirtingomis valiutomis?", "a": "Taip. Registruokite išlaidas bet kokia valiuta, įskaitant USD, EUR, AED, SAR ir OMR, su teisingais skaitmenimis po kablelio." },
+    { "q": "Ar galima automatizuoti periodines išlaidas?", "a": "Taip. Nustatykite nuomą, prenumeratas ir komunalines paslaugas, kad būtų registruojamos automatiškai kiekvieną ciklą ir niekas nebūtų praleista." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Žinokite tiksliai, kur keliauja jūsų pinigai",
+  "ctaSub": "Susikurkite nemokamą Paper & Pen darbo erdvę, fiksuokite kiekvieną išlaidą ir matykite pelną, kuriuo tikrai galite pasitikėti."
+}

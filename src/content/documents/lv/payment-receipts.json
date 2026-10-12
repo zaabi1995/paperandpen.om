@@ -1,0 +1,36 @@
+{
+  "locale": "lv",
+  "slug": "payment-receipts",
+  "order": 10,
+  "title": "Maksājuma kvītis",
+  "metaTitle": "Maksājuma kvīšu veidotājs · Veido kvītis bez maksas · Paper & Pen",
+  "metaDescription": "Veido profesionālas maksājuma kvītis tiešsaistē bez maksas jebkurā valūtā. Apstiprini saņemto naudu pret rēķinu un sūti caur WhatsApp vai e-pastu.",
+  "keywords": "maksājuma kvīts, izveidot kvīti, kvīšu veidotājs, bezmaksas kvīts, skaidras naudas kvīts, naudas saņemšanas kvīts, maksājuma apstiprinājums, kvīšu ģenerators",
+  "heroEyebrow": "Maksājuma kvītis",
+  "heroTitle": "Apstiprini saņemto naudu ar tīru <em class=\"text-copper-400 not-italic\">maksājuma kvīti</em>",
+  "heroSubtitle": "Izraksti profesionālu kvīti brīdī, kad pienāk maksājums, sasaisti to ar rēķinu un nosūti caur WhatsApp vai e-pastu. Jebkurā valūtā.",
+  "heroBullets": ["Bez maksas uz visiem laikiem", "Sasaistīta ar rēķinu", "Sūti caur WhatsApp vai e-pastu"],
+  "features": [
+    { "icon": "receipt", "title": "Kvītis ar tavu zīmolu", "desc": "Izraksti skaidru, numurētu kvīti ar savu logo par katru saņemto maksājumu." },
+    { "icon": "invoice", "title": "Sasaistīta ar rēķinu", "desc": "Katra kvīts tiek reģistrēta pret rēķinu un automātiski atjaunina atlikumu." },
+    { "icon": "card", "title": "Jebkura maksājuma metode", "desc": "Reģistrē skaidru naudu, karti, bankas pārskaitījumu, čeku vai tiešsaistes maksājumu, norādot metodi." },
+    { "icon": "globe", "title": "Jebkura valūta", "desc": "Kvītis USD, EUR, AED, SAR, OMR, INR un citās valūtās ar pareizām decimālzīmēm." },
+    { "icon": "whatsapp", "title": "Sūti jebkur", "desc": "Kopīgo kvīti caur WhatsApp vai e-pastu, lai klients uzreiz saņemtu apstiprinājumu." },
+    { "icon": "shield", "title": "Kārtīgi ieraksti", "desc": "Katra kvīts tiek reģistrēta, tāpēc maksājumu saskaņošana ar rēķiniem ir vienkārša." }
+  ],
+  "sections": [
+    { "eyebrow": "Kas ir maksājuma kvīts", "title": "Kas ir maksājuma kvīts?", "body": "Maksājuma kvīts ir dokuments, ko pārdevējs izraksta, lai apstiprinātu, ka maksājums par rēķinu vai pārdošanu ir saņemts. Tajā norādīta samaksātā summa, datums, maksājuma metode un rēķins, uz kuru tas attiecas. Atšķirībā no rēķina, kas pieprasa samaksu, kvīts apliecina, ka samaksa ir veikta, dodot klientam pierādījumu un tev kārtīgu ierakstu." },
+    { "eyebrow": "Kā tas darbojas", "title": "Saņem, izraksti kvīti, saskaņo", "body": "Paper & Pen izraksta kvītis automātiski, kad maksājumi tiek reģistrēti, tāpēc tavi rēķini un grāmatas iet roku rokā.", "items": ["Reģistrē pilnu vai daļēju maksājumu pret rēķinu", "Tiek izveidota kvīts ar summu, datumu un metodi", "Rēķina atlikums un statuss atjaunojas automātiski", "Nosūti kvīti uzreiz caur WhatsApp vai e-pastu", "Tiešsaistes maksājumi reģistrējas un saskaņojas paši"] },
+    { "eyebrow": "Kvīts vai rēķins", "title": "Kvīts vai rēķins?", "body": "Rēķins ir maksājuma pieprasījums, ko izraksta, pirms nauda mainījusi īpašnieku. Kvīts ir maksājuma apstiprinājums, ko izraksta pēc tam. Vienam rēķinam var būt vairākas kvītis, ja klients maksā pa daļām. Paper & Pen seko katram maksājumam pret rēķinu un katru reizi izraksta kvīti, tāpēc daļēji maksājumi nekad nepazūd." }
+  ],
+  "faqs": [
+    { "q": "Kāda ir atšķirība starp kvīti un rēķinu?", "a": "Rēķins pieprasa samaksu, pirms nauda ir samaksāta. Kvīts apstiprina samaksu pēc tās saņemšanas. Vienam rēķinam var būt vairākas kvītis, ja maksā pa daļām." },
+    { "q": "Vai kvīšu veidotājs ir bez maksas?", "a": "Jā. Maksājuma kvīšu veidošana, sūtīšana un uzskaite Paper & Pen ir bez maksas uz visiem laikiem." },
+    { "q": "Vai varu izrakstīt kvīti par daļēju maksājumu?", "a": "Jā. Reģistrē jebkuru summu pret rēķinu, un par šo maksājumu tiek izrakstīta kvīts, bet atlikušajai summai seko automātiski." },
+    { "q": "Vai tiešsaistes maksājums izveido kvīti?", "a": "Jā. Kad klients maksā tiešsaistē, maksājums tiek reģistrēts pret rēķinu, un kvīts tiek izveidota un var tikt nosūtīta automātiski." },
+    { "q": "Vai varu nosūtīt kvīti caur WhatsApp?", "a": "Jā. Kopīgo kvīti kā saiti vai PDF caur WhatsApp vai e-pastu, lai klientam uzreiz būtu maksājuma pierādījums." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/credit-notes", "/features/payments", "/tools/free-receipt-generator", "/free-invoicing-software"],
+  "ctaTitle": "Nosūti kvīti brīdī, kad saņem samaksu",
+  "ctaSub": "Izveido bezmaksas Paper & Pen darbvietu un apstiprini katru maksājumu ar tīru, profesionālu kvīti."
+}
