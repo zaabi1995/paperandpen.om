@@ -1,0 +1,36 @@
+{
+  "locale": "da",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Konti og kontoudtog",
+  "metaTitle": "Konti og kontoudtog · Paper & Pen",
+  "metaDescription": "Se kunde- og leverandørkonti online gratis i enhver valuta. Se hver faktura, betaling og kreditnota i ét løbende kontoudtog.",
+  "keywords": "konto, debitorkonto, kreditorkonto, kontoudtog, hovedbog, kontoprogram, saldoopgørelse",
+  "heroEyebrow": "Konti",
+  "heroTitle": "Hver transaktion på én tydelig <em class=\"text-copper-400 not-italic\">konto</em>",
+  "heroSubtitle": "Se et løbende udtog af hver faktura, betaling, kreditnota og justering for hver kunde og leverandør, i enhver valuta. Del et kontoudtog med ét tryk. Gratis for altid.",
+  "heroBullets": ["Gratis for altid", "Løbende saldi", "Del kontoudtog med det samme"],
+  "features": [
+    { "icon": "chart", "title": "Debitorkonti", "desc": "Et løbende udtog pr. kunde: fakturaer, betalinger og kreditnotaer med en aktuel saldo." },
+    { "icon": "accounting", "title": "Kreditorkonti", "desc": "Følg regninger, betalinger og debetnotaer pr. leverandør, så du altid ved, hvad du skylder." },
+    { "icon": "doc", "title": "Kontoudtog", "desc": "Lav og send et kontoudtog for enhver periode med ét tryk." },
+    { "icon": "shield", "title": "Altid afstemt", "desc": "Konti opdateres ud fra de samme posteringer som dine fakturaer og betalinger, så de altid stemmer." },
+    { "icon": "globe", "title": "Enhver valuta", "desc": "Se saldi i USD, EUR, AED, SAR, OMR, INR og flere, med de rigtige decimaler." },
+    { "icon": "whatsapp", "title": "Del hvor som helst", "desc": "Send et kontoudtog på WhatsApp eller e-mail, så kunderne kan betale udestående saldi." }
+  ],
+  "sections": [
+    { "eyebrow": "Hvad er en konto", "title": "Hvad er en konto?", "body": "En konto er den løbende registrering af alle transaktioner, der påvirker den, med en saldo, der føres videre efter hver postering. En debitorkonto viser hver faktura, du har udstedt, hver modtaget betaling og hver kreditnota og ender i den saldo, kunden skylder. Et kontoudtog er den konto vist til kunden for en periode. Konti er rygraden i at vide, hvem der skylder hvad, og hvem du selv skylder." },
+    { "eyebrow": "Sådan virker det", "title": "Én kilde til sandheden", "body": "I Paper & Pen er konti ikke et separat regneark, de bygges ud fra de samme fakturaer, betalinger og kreditnotaer, som du allerede laver.", "items": ["Åbn en kunde eller leverandør, og se hele kontoen", "Hver faktura, betaling, kredit- og debetnota vises med løbende saldo", "Filtrér på periode for et rent kontoudtog", "Send kontoudtoget på WhatsApp eller e-mail med ét tryk", "Saldierne stemmer altid med dine fakturaer og dit regnskab"] },
+    { "eyebrow": "Hvorfor det betyder noget", "title": "Få pengene hurtigere, betal aldrig to gange", "body": "Når en kunde spørger til en saldo, afslutter en tydelig konto samtalen på få sekunder. Når du skal rykke, er et kontoudtog det mest overbevisende dokument, du kan sende. Og fordi kreditorkonti følger, hvad du skylder, betaler du aldrig en regning to gange eller overser en debetnota. Én afstemt registrering for begge sider af din virksomhed." }
+  ],
+  "faqs": [
+    { "q": "Hvad er en debitorkonto?", "a": "Et løbende udtog af hver faktura, betaling og kreditnota for en kunde, der ender i den saldo, kunden skylder dig lige nu." },
+    { "q": "Er konti gratis?", "a": "Ja. Debitor- og kreditorkonti og kontoudtog er gratis for altid i Paper & Pen." },
+    { "q": "Kan jeg sende et kontoudtog?", "a": "Ja. Lav et udtog for enhver periode, og send det på WhatsApp eller e-mail med ét tryk, så kunden kan betale." },
+    { "q": "Forbliver konti afstemt?", "a": "Ja. Konti bygges ud fra de samme posteringer som dine fakturaer og betalinger, så saldierne altid stemmer med dit regnskab." },
+    { "q": "Kan jeg se, hvad jeg skylder leverandører?", "a": "Ja. Kreditorkonti følger regninger, betalinger og debetnotaer, så du altid ved præcis, hvad der er udestående hos hver leverandør." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Se med det samme, hvem der skylder hvad",
+  "ctaSub": "Opret et gratis Paper & Pen workspace, og få en ren, afstemt konto for hver kunde og leverandør."
+}

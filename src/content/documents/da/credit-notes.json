@@ -1,0 +1,36 @@
+{
+  "locale": "da",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Kreditnotaer",
+  "metaTitle": "Program til kreditnotaer · Paper & Pen",
+  "metaDescription": "Udsted professionelle kreditnotaer online gratis i enhver valuta. Justér en faktura for returvarer, refusioner eller rettelser med et ordentligt dokument.",
+  "keywords": "kreditnota, lav kreditnota, kreditmemo, refusion af faktura, kreditnota ved returvarer, program til kreditnotaer, kreditnota med moms",
+  "heroEyebrow": "Kreditnotaer",
+  "heroTitle": "Udsted <em class=\"text-copper-400 not-italic\">kreditnotaer</em> på den rigtige måde",
+  "heroSubtitle": "Justér en faktura for en returvare, en refusion eller en rettelse med en ordentlig kreditnota, et tydeligt revisionsspor og en automatisk postering. I enhver valuta.",
+  "heroBullets": ["Gratis for altid", "Knyttet til den oprindelige faktura", "Bogfører den rigtige postering"],
+  "features": [
+    { "icon": "doc", "title": "Et rigtigt kreditdokument", "desc": "En nummereret kreditnota knyttet til den oprindelige faktura, aldrig en stille rettelse." },
+    { "icon": "refresh", "title": "Justerer saldoen", "desc": "Nedsætter kundens saldo og tilbagefører afgiften korrekt af det krediterede beløb." },
+    { "icon": "shield", "title": "Fuldt revisionsspor", "desc": "Hver kreditnota registreres med sin årsag, så regnskabet forbliver rent og kan revideres." },
+    { "icon": "calc", "title": "Korrekt tilbageførsel af moms", "desc": "Afgiften tilbageføres af det krediterede nettobeløb, så dine momsangivelser er præcise." },
+    { "icon": "globe", "title": "Enhver valuta", "desc": "Kreditér i USD, EUR, AED, SAR, OMR, INR og flere, så det passer til den oprindelige faktura." },
+    { "icon": "whatsapp", "title": "Send hvor som helst", "desc": "Del kreditnotaen på WhatsApp eller e-mail, så kunden har dokumentationen." }
+  ],
+  "sections": [
+    { "eyebrow": "Hvad er en kreditnota", "title": "Hvad er en kreditnota?", "body": "En kreditnota (eller kreditmemo) er et dokument, som en sælger udsteder for at nedsætte det beløb, en kunde skylder på en tidligere udstedt faktura. Den bruges ved returvarer, refusioner, overfakturering, annullerede varer eller prisrettelser. En kreditnota sletter aldrig den oprindelige faktura, den modregner formelt en del af den eller hele den, så der er et fuldstændigt og reviderbart spor af, hvad der ændrede sig og hvorfor." },
+    { "eyebrow": "Sådan virker det", "title": "Kreditér, tilbagefør, afstem", "body": "Paper & Pen udsteder en kreditnota som et rigtigt dokument med sit eget nummer og sin egen postering, aldrig som en stille rettelse af fakturaen.", "items": ["Åbn fakturaen, og opret en kreditnota til den", "Kreditér hele fakturaen eller bestemte linjer", "Angiv årsagen: returvare, refusion, rettelse eller annullering", "Afgiften tilbageføres automatisk af det krediterede nettobeløb", "Kundens saldo og dine konti opdateres samtidig"] },
+    { "eyebrow": "Hvorfor det betyder noget", "title": "Ret aldrig i en betalt faktura", "body": "Hvis du retter eller sletter en udstedt faktura, bryder du dit revisionsspor og din afgiftsposition. Den rigtige måde at nedsætte et tilgodehavende på er at udstede en kreditnota, der lader den oprindelige faktura stå urørt, bogfører en modpostering og tilbagefører det rigtige afgiftsbeløb. Det er krævet praksis under de fleste moms- og GST-ordninger i verden." }
+  ],
+  "faqs": [
+    { "q": "Hvad bruges en kreditnota til?", "a": "Til at nedsætte eller annullere et beløb, en kunde skylder på en faktura, typisk ved returvarer, refusioner, overfakturering eller rettelser. Den modregner fakturaen i stedet for at slette den." },
+    { "q": "Er det gratis at lave kreditnotaer?", "a": "Ja. Det er gratis for altid at udstede og følge kreditnotaer i Paper & Pen." },
+    { "q": "Tilbagefører en kreditnota momsen?", "a": "Ja. Paper & Pen tilbagefører automatisk afgiften af det krediterede nettobeløb, så din moms- eller GST-position forbliver korrekt." },
+    { "q": "Kan jeg kun kreditere en del af en faktura?", "a": "Ja. Kreditér hele fakturaen eller kun bestemte linjer og antal. Kundens saldo tilpasses derefter." },
+    { "q": "Hvad er forskellen på en kreditnota og en debetnota?", "a": "En kreditnota udstedes af sælgeren for at nedsætte, hvad en kunde skylder. En debetnota udstedes typisk af køberen (eller for at forhøje et skyldigt beløb), for eksempel for at kræve en overbetaling tilbage eller opkræve et ekstra beløb." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Udsted en kreditnota med ro i maven",
+  "ctaSub": "Opret et gratis Paper & Pen workspace, og justér enhver faktura med en ordentlig, reviderbar kreditnota på få sekunder."
+}

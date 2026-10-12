@@ -1,0 +1,36 @@
+{
+  "locale": "da",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Udgifter",
+  "metaTitle": "Program til udgiftsstyring · Paper & Pen",
+  "metaDescription": "Følg virksomhedens udgifter online gratis i enhver valuta. Gem kvitteringer, kategorisér forbruget, få momsen tilbage, og se dit reelle overskud.",
+  "keywords": "udgiftsstyring, registrér udgifter, virksomhedsudgifter, udgiftsprogram, gratis udgiftsregistrering, gem kvitteringer, moms på udgifter",
+  "heroEyebrow": "Udgifter",
+  "heroTitle": "Hold styr på alle virksomhedens <em class=\"text-copper-400 not-italic\">udgifter</em> ét sted",
+  "heroSubtitle": "Gem kvitteringer, kategorisér forbruget, få momsen tilbage, og se dit reelle overskud, alt sammen i enhver valuta. Udgifterne går direkte ind i dit regnskab. Gratis for altid.",
+  "heroBullets": ["Gratis for altid", "Gem kvitteringer", "Se det reelle overskud"],
+  "features": [
+    { "icon": "accounting", "title": "Registrér enhver udgift", "desc": "Notér en regning, et kontantkøb eller en leverandørbetaling på få sekunder, med kategori og afgift." },
+    { "icon": "doc", "title": "Vedhæft kvitteringer", "desc": "Tag et billede af kvitteringen, eller upload den, og gem den ved udgiften til rene bilag og revision." },
+    { "icon": "calc", "title": "Få momsen tilbage", "desc": "Registrér købsmoms eller GST på udgifter, så din momsangivelse viser, hvad du kan få tilbage." },
+    { "icon": "chart", "title": "Se det reelle overskud", "desc": "Udgifterne bogføres mod indtægterne, så din resultatopgørelse viser virkeligheden, ikke gætværk." },
+    { "icon": "globe", "title": "Enhver valuta", "desc": "Registrér forbrug i USD, EUR, AED, SAR, OMR, INR og flere, med de rigtige decimaler." },
+    { "icon": "refresh", "title": "Faste udgifter", "desc": "Lad husleje, abonnementer og forsyning registreres automatisk i hver periode." }
+  ],
+  "sections": [
+    { "eyebrow": "Hvad er udgiftsstyring", "title": "Hvad er udgiftsstyring?", "body": "Udgiftsstyring betyder, at du registrerer hver omkostning i virksomheden med kategori, dato, afgift og den tilhørende kvittering. Gøres det godt, viser det præcis, hvor pengene går hen, hvilket overskud du reelt har, og hvor meget købsmoms du kan få tilbage. Gøres det dårligt, bliver overskuddet et gæt og momsperioden et kapløb. Paper & Pen gør det til få sekunder pr. udgift." },
+    { "eyebrow": "Sådan virker det", "title": "Gem, kategorisér, få tilbage", "body": "Paper & Pen gør spredte kvitteringer til rene, kategoriserede posteringer, der går direkte ind i dit regnskab.", "items": ["Registrér en udgift med kategori, leverandør og afgift", "Vedhæft billede eller PDF af kvitteringen til revisionssporet", "Få købsmoms eller GST tilbage, hvor det gælder", "Lad faste udgifter registreres automatisk", "Se forbrug pr. kategori og det reelle overskud i dine rapporter"] },
+    { "eyebrow": "Hvorfor det betyder noget", "title": "Et overskud, du kan stole på", "body": "Du kan ikke styre det, du ikke måler. Når hver udgift registreres mod indtægterne, er din resultatopgørelse præcis, din momsangivelse korrekt, og du kan se, hvilke omkostninger der langsomt stiger, før de gør ondt. Udgifterne i Paper & Pen går ind i samme hovedbog som dit salg, så hele billedet forbliver ensartet og afstemt." }
+  ],
+  "faqs": [
+    { "q": "Er udgiftsstyring gratis?", "a": "Ja. Det er gratis for altid at registrere og kategorisere udgifter og vedhæfte kvitteringer i Paper & Pen." },
+    { "q": "Kan jeg vedhæfte en kvittering til en udgift?", "a": "Ja. Tag et billede af kvitteringen, eller upload den, så bliver den ved udgiften og giver dig et rent revisionsspor." },
+    { "q": "Kan jeg få moms tilbage på udgifter?", "a": "Ja. Registrér købsmoms eller GST på hver udgift, så din momsangivelse viser præcis, hvad du kan få tilbage." },
+    { "q": "Kan jeg følge udgifter i forskellige valutaer?", "a": "Ja. Registrér forbrug i enhver valuta, blandt andet USD, EUR, AED, SAR og OMR, med de rigtige decimaler." },
+    { "q": "Kan faste udgifter automatiseres?", "a": "Ja. Lad husleje, abonnementer og forsyning registreres automatisk i hver periode, så intet bliver glemt." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Ved præcis, hvor dine penge går hen",
+  "ctaSub": "Opret et gratis Paper & Pen workspace, registrér hver udgift, og se et overskud, du faktisk kan stole på."
+}
