@@ -1,0 +1,36 @@
+{
+  "locale": "no",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Utgifter",
+  "metaTitle": "Program for utgiftsoppfølging · Paper & Pen",
+  "metaDescription": "Følg opp bedriftens utgifter gratis på nett i hvilken som helst valuta. Ta vare på kvitteringer, kategoriser kostnader, få fradrag for MVA og se reell fortjeneste.",
+  "keywords": "utgiftsoppfølging, registrere utgifter, bedriftsutgifter, utgiftsprogram, gratis utgiftsoversikt, lagre kvitteringer, inngående mva",
+  "heroEyebrow": "Utgifter",
+  "heroTitle": "Følg opp alle bedriftens <em class=\"text-copper-400 not-italic\">utgifter</em> på ett sted",
+  "heroSubtitle": "Ta vare på kvitteringer, kategoriser kostnader, få fradrag for MVA og se reell fortjeneste, i hvilken som helst valuta. Utgiftene går rett inn i regnskapet. Gratis for alltid.",
+  "heroBullets": ["Gratis for alltid", "Ta vare på kvitteringer", "Se reell fortjeneste"],
+  "features": [
+    { "icon": "accounting", "title": "Registrer alle utgifter", "desc": "Før en regning, et kontantkjøp eller en leverandørbetaling på sekunder, med kategori og skatt." },
+    { "icon": "doc", "title": "Legg ved kvitteringer", "desc": "Ta bilde av eller last opp kvitteringen og hold den sammen med utgiften, for ryddige bilag og revisjon." },
+    { "icon": "calc", "title": "Fradrag for MVA", "desc": "Registrer inngående MVA eller GST på utgifter, så skattemeldingen viser det du kan kreve fradrag for." },
+    { "icon": "chart", "title": "Se reell fortjeneste", "desc": "Utgiftene føres mot inntektene, så resultatregnskapet viser virkeligheten, ikke gjetning." },
+    { "icon": "globe", "title": "Alle valutaer", "desc": "Registrer kostnader i USD, EUR, AED, SAR, OMR, INR og flere, med riktige desimaler." },
+    { "icon": "refresh", "title": "Faste utgifter", "desc": "Sett husleie, abonnementer og strøm til å registreres automatisk hver periode." }
+  ],
+  "sections": [
+    { "eyebrow": "Hva er utgiftsoppfølging", "title": "Hva er utgiftsoppfølging?", "body": "Utgiftsoppfølging betyr å registrere hver kostnad bedriften har, med kategori, dato, skatt og kvittering som bilag. Gjort godt viser det nøyaktig hvor pengene går, hvilken fortjeneste du faktisk har og hvor mye inngående skatt du kan kreve fradrag for. Gjort dårlig blir fortjenesten en gjetning og skattesesongen et kaos. Paper & Pen gjør det til noen sekunder per utgift." },
+    { "eyebrow": "Slik fungerer det", "title": "Registrer, kategoriser, få fradrag", "body": "Paper & Pen gjør spredte kvitteringer om til ryddige, kategoriserte bilag som går rett inn i regnskapet.", "items": ["Registrer en utgift med kategori, leverandør og skatt", "Legg ved bilde eller PDF av kvitteringen som revisjonsspor", "Krev fradrag for inngående MVA eller GST der det gjelder", "Sett faste utgifter til å registreres automatisk", "Se kostnader per kategori og reell fortjeneste i rapportene"] },
+    { "eyebrow": "Hvorfor det betyr noe", "title": "Fortjeneste du kan stole på", "body": "Du kan ikke styre det du ikke måler. Når hver utgift er registrert mot inntektene, blir resultatregnskapet riktig, MVA-meldingen blir korrekt, og du ser hvilke kostnader som sniker seg opp før de gjør vondt. Utgiftene i Paper & Pen føres i den samme hovedboken som salget ditt, så hele bildet henger sammen og er avstemt." }
+  ],
+  "faqs": [
+    { "q": "Er utgiftsoppfølging gratis?", "a": "Ja. Å registrere og kategorisere utgifter og legge ved kvitteringer er gratis for alltid i Paper & Pen." },
+    { "q": "Kan jeg legge ved en kvittering til en utgift?", "a": "Ja. Ta bilde av eller last opp kvitteringen, så blir den liggende sammen med utgiften og gir deg et ryddig revisjonsspor." },
+    { "q": "Kan jeg kreve fradrag for MVA på utgifter?", "a": "Ja. Registrer inngående MVA eller GST på hver utgift, så skattemeldingen viser nøyaktig det du kan kreve fradrag for." },
+    { "q": "Kan jeg følge opp utgifter i ulike valutaer?", "a": "Ja. Registrer kostnader i hvilken som helst valuta, blant annet USD, EUR, AED, SAR og OMR, med riktige desimaler." },
+    { "q": "Kan faste utgifter automatiseres?", "a": "Ja. Sett husleie, abonnementer og strøm til å registreres automatisk hver periode, så ingenting blir glemt." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Vit nøyaktig hvor pengene går",
+  "ctaSub": "Opprett et gratis Paper & Pen-arbeidsområde, registrer hver utgift og se en fortjeneste du faktisk kan stole på."
+}

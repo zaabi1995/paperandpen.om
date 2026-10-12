@@ -1,0 +1,36 @@
+{
+  "locale": "no",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Følgesedler",
+  "metaTitle": "Lag følgeseddel · Paper & Pen",
+  "metaDescription": "Lag profesjonelle følgesedler gratis på nett. List opp varene som sendes, få leveringsbekreftelse og gjør følgeseddelen om til faktura med ett klikk.",
+  "keywords": "følgeseddel, pakkseddel, lage følgeseddel, leveringsbekreftelse, leveringsseddel, følgeseddel mal, utleveringsdokument",
+  "heroEyebrow": "Følgesedler",
+  "heroTitle": "Send varer med en tydelig <em class=\"text-copper-400 not-italic\">følgeseddel</em> hver gang",
+  "heroSubtitle": "List opp varene du leverer, få leveringsbekreftelse ved mottak og gjør følgeseddelen om til faktura med ett klikk. Fungerer overalt.",
+  "heroBullets": ["Gratis for alltid", "Leveringsbekreftelse", "Gjør om til faktura"],
+  "features": [
+    { "icon": "truck", "title": "Dokument for utsendelse", "desc": "List opp varer og antall som sendes, med eller uten priser, på en ryddig seddel med din logo." },
+    { "icon": "check", "title": "Leveringsbekreftelse", "desc": "Registrer hvem som tok imot varene og når, så leveringer aldri blir omstridt." },
+    { "icon": "refresh", "title": "Gjør om til faktura", "desc": "Gjør en følgeseddel om til faktura med ett klikk når varene er mottatt." },
+    { "icon": "inventory", "title": "Knyttet til lageret", "desc": "Med Lager-modulen kan en følgeseddel redusere lagerbeholdningen automatisk." },
+    { "icon": "globe", "title": "Fungerer overalt", "desc": "Brukes over hele verden som følgeseddel eller delivery challan, på ditt språk og i din valuta." },
+    { "icon": "whatsapp", "title": "Send hvor som helst", "desc": "Del følgeseddelen på WhatsApp eller e-post, så kunden har dokumentasjonen." }
+  ],
+  "sections": [
+    { "eyebrow": "Hva er en følgeseddel", "title": "Hva er en følgeseddel?", "body": "En følgeseddel (også kalt pakkseddel eller delivery challan) er et dokument som følger med en vareforsendelse og lister opp hva som leveres. Mottakeren kontrollerer varene mot den og signerer for å bekrefte mottak. Den viser at varene forlot lokalene dine og nådde kunden, og den er broen mellom en salgsordre og fakturaen som kommer etterpå." },
+    { "eyebrow": "Slik fungerer det", "title": "Send, bekreft, fakturer", "body": "Paper & Pen kobler følgeseddelen til salgsordren og fakturaen, så utsendelse og fakturering går i takt.", "items": ["Lag en følgeseddel fra en salgsordre eller fra bunnen av", "Velg om priser vises eller bare antall", "Send eller skriv den ut, så den følger med varene", "Få leveringsbekreftelse når kunden signerer", "Gjør følgeseddelen om til faktura med ett klikk"] },
+    { "eyebrow": "Følgeseddel eller faktura", "title": "Følgeseddel eller faktura?", "body": "En følgeseddel registrerer hva som fysisk ble flyttet og bekrefter mottak. Den er ikke et krav om betaling. En faktura ber om betaling for varene. Mange bedrifter leverer først mot en følgeseddel og fakturerer deretter etter avtalte vilkår. Paper & Pen lar deg gjøre akkurat det, og gjør en bekreftet levering om til faktura uten at du skriver noe på nytt." }
+  ],
+  "faqs": [
+    { "q": "Hva er forskjellen på en følgeseddel og en faktura?", "a": "En følgeseddel lister opp og bekrefter leverte varer, uten krav om betaling. En faktura ber om betaling. Du kan gjøre en følgeseddel om til faktura med ett klikk." },
+    { "q": "Er det gratis å lage følgesedler?", "a": "Ja. Å lage, sende og følge opp følgesedler er gratis for alltid i Paper & Pen." },
+    { "q": "Kan en følgeseddel skjule priser?", "a": "Ja. Velg om priser vises eller bare antall. Det er nyttig når lageret eller budet ikke skal se prisene." },
+    { "q": "Får jeg leveringsbekreftelse?", "a": "Ja. Registrer hvem som tok imot varene og når, så en levering aldri blir omstridt senere." },
+    { "q": "Oppdaterer en følgeseddel lagerbeholdningen?", "a": "Med den valgfrie Lager-modulen kan en følgeseddel redusere lagerbeholdningen automatisk når varene sendes ut." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Send varer med bekreftelse hver gang",
+  "ctaSub": "Opprett et gratis Paper & Pen-arbeidsområde, send en ryddig følgeseddel, få leveringsbekreftelse og fakturer med ett klikk."
+}

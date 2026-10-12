@@ -1,0 +1,45 @@
+{
+  "locale": "no",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen mot Tally",
+  "metaTitle": "Paper & Pen mot Tally · Gratis skyalternativ til Tally",
+  "metaDescription": "Sammenlign Paper & Pen og Tally på tilgang i skyen, gratisplan, arabisk fra høyre mot venstre, flere valutaer og nettbetaling. Et moderne, gratis alternativ i skyen.",
+  "keywords": "paper and pen mot tally, tally alternativ, tally alternativ i skyen, gratis tally alternativ, tally prime på nett, arabisk regnskapsprogram",
+  "heroEyebrow": "Sammenligning",
+  "heroTitle": "Paper & Pen mot <em class=\"text-copper-400 not-italic\">Tally</em>",
+  "heroSubtitle": "Tally er en pålitelig arbeidshest for regnskap med lang historie. Paper & Pen er et gratis ERP-system bygd for skyen som du åpner i nettleseren, med arabisk, nettbetaling og alle valutaer. Her er den ærlige sammenligningen.",
+  "heroBullets": ["Bygd for skyen, åpnes fra hvilken som helst nettleser", "Salg og fakturering gratis for alltid", "Arabisk fra høyre mot venstre pluss kortbetaling på nett"],
+  "features": [
+    { "icon": "globe", "title": "Ekte sky", "desc": "Ingen installasjon, ingen lisensnøkkel, intet oppsett per maskin. Åpne Paper & Pen hvor som helst, på hvilken som helst enhet." },
+    { "icon": "card", "title": "Få betalt på nett", "desc": "Hver faktura kan ha en betalingslenke fra Paymob, så kundene betaler med kort og betalingen avstemmes av seg selv." },
+    { "icon": "check", "title": "Gratis å starte", "desc": "Fakturering og salg er gratis for alltid, uten lisens du må kjøpe på forhånd før du kan utstede et dokument." }
+  ],
+  "sections": [
+    { "eyebrow": "Den ærlige vurderingen", "title": "Der Tally er sterkt", "body": "Tally har lang fartstid, grundig lovpålagt regnskap og en stor base av regnskapsførere som kan det ut og inn. For komplisert bokføring som gjøres frakoblet av en opplært bruker, er det raskt og pålitelig. Mange bedrifter bruker det fornøyd i årevis.", "items": ["Grundig, velprøvd regnskapsmotor", "Kjent for en stor gruppe regnskapsførere", "Fungerer frakoblet når det er installert"] },
+    { "eyebrow": "Der vi vinner", "title": "Sky, arabisk og å få betalt", "body": "Paper & Pen kjører i nettleseren, så teamet og regnskapsføreren ser de samme oppdaterte dataene fra hvor som helst, uten installasjoner eller ulike versjoner. Det er arabisk først med et fullt grensesnitt fra høyre mot venstre, fakturerer innebygd i OMR, AED, SAR og alle valutaer, og legger en betalingslenke på hver faktura. Utgangspunktet er virkelig gratis.", "items": ["Ingen installasjon, alltid siste versjon", "Arabisk grensesnitt og dokumenter fra høyre mot venstre", "Betalingslenker på fakturaer, gratis kjerne"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "Plan som er gratis for alltid", "values": [true, false] },
+    { "feature": "Startpris", "values": ["Gratis", "Betalt lisens"] },
+    { "feature": "Tilgang i skyen / nettleseren", "values": [true, "Tillegg"] },
+    { "feature": "Arabisk grensesnitt fra høyre mot venstre", "values": [true, "Begrenset"] },
+    { "feature": "Flere valutaer", "values": [true, true] },
+    { "feature": "Kortbetaling på nett (Paymob)", "values": [true, false] },
+    { "feature": "Grensesnitt på flere språk (5)", "values": [true, "Begrenset"] },
+    { "feature": "Tid til oppstart", "values": ["Minutter", "Installasjon og opplæring"] },
+    { "feature": "Moduler for lager og HR", "values": [true, "Lager ja, HR begrenset"] }
+  ],
+  "faqs": [
+    { "q": "Er Paper & Pen et godt alternativ til Tally?", "a": "Ja, hvis du vil ha tilgang i skyen, nettbetaling og et arabisk grensesnitt uten å kjøpe lisens. Tally er fortsatt sterkt for lovpålagt bokføring som gjøres frakoblet av en opplært bruker." },
+    { "q": "Kan jeg bruke Paper & Pen uten å installere noe?", "a": "Ja. Det er helt skybasert. Du åpner det i nettleseren på hvilken som helst enhet, og alle ser de samme oppdaterte dataene." },
+    { "q": "Støtter Paper & Pen flere valutaer slik som Tally?", "a": "Ja. Du kan fakturere i OMR, AED, SAR, USD, EUR og flere, med riktige desimaler per dokument." },
+    { "q": "Kan kundene betale fakturaene mine på nett?", "a": "Ja. Hver faktura kan ha en betalingslenke fra Paymob, så kundene betaler med kort og betalingen avstemmes automatisk." },
+    { "q": "Finnes det en gratisversjon?", "a": "Ja. Salg og fakturering er gratis for alltid. Du betaler bare hvis du legger til moduler som Lager, HR eller Regnskap." }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Flytt til skyen, gratis",
+  "ctaSub": "Åpne et gratis Paper & Pen-arbeidsområde i nettleseren og utsted din første faktura på minutter. Ingen lisens, ingen installasjon."
+}

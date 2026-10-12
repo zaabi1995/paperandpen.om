@@ -1,0 +1,36 @@
+{
+  "locale": "no",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Innkjøpsordrer",
+  "metaTitle": "Program for innkjøpsordrer · Paper & Pen",
+  "metaDescription": "Lag profesjonelle innkjøpsordrer gratis på nett i hvilken som helst valuta. Send ordrer til leverandører og følg godkjenninger og leveranser.",
+  "keywords": "innkjøpsordre, lage innkjøpsordre, bestilling, program for innkjøpsordre, gratis innkjøpsordre, leverandørbestilling, innkjøpsordre til faktura",
+  "heroEyebrow": "Innkjøpsordrer",
+  "heroTitle": "Bestill fra leverandører med ordentlige <em class=\"text-copper-400 not-italic\">innkjøpsordrer</em>",
+  "heroSubtitle": "Opprett, godkjenn og send innkjøpsordrer til leverandører i hvilken som helst valuta, og match dem mot leveranser og leverandørfakturaer med et ryddig revisjonsspor. Gratis for alltid.",
+  "heroBullets": ["Gratis for alltid", "Godkjenn før du sender", "Match mot leverandørfakturaer"],
+  "features": [
+    { "icon": "cart", "title": "Innkjøpsordrer med din profil", "desc": "Utsted tydelige, nummererte innkjøpsordrer til leverandører med dine vilkår og leveringsdetaljer." },
+    { "icon": "check", "title": "Godkjenning før sending", "desc": "Send innkjøpsordrer til intern godkjenning, så ingenting bestilles uten klarsignal." },
+    { "icon": "truck", "title": "Følg leveranser", "desc": "Se hva som er bestilt, delvis mottatt og fullt levert for hver innkjøpsordre." },
+    { "icon": "refresh", "title": "Match mot fakturaer", "desc": "Gjør en mottatt innkjøpsordre om til en leverandørfaktura og gjør en treveis kontroll for nøyaktighet." },
+    { "icon": "globe", "title": "Alle valutaer", "desc": "Bestill i USD, EUR, AED, SAR, OMR, INR og flere, med riktig skatt og riktige desimaler." },
+    { "icon": "whatsapp", "title": "Send hvor som helst", "desc": "Del innkjøpsordren med en leverandør på WhatsApp eller e-post med ett trykk." }
+  ],
+  "sections": [
+    { "eyebrow": "Hva er en innkjøpsordre", "title": "Hva er en innkjøpsordre?", "body": "En innkjøpsordre er et dokument en kjøper sender til en leverandør for formelt å bestille varer eller tjenester til en avtalt pris. Den viser varer, antall, enhetspriser, skatter, leveringsvilkår og et ordrenummer leverandøren oppgir på sin faktura. Innkjøpsordren blir en bindende forpliktelse når leverandøren godtar den, og den styrer kostnadene ved å kreve godkjenning før pengene går ut." },
+    { "eyebrow": "Slik fungerer det", "title": "Opprett, godkjenn, motta, match", "body": "Paper & Pen kjører hele flyten fra innkjøp til betaling, så hver ordre godkjennes, følges og matches.", "items": ["Opprett en innkjøpsordre fra et varsel om lav beholdning eller fra bunnen av", "Send den til intern godkjenning før den sendes ut", "Send til leverandøren på WhatsApp eller e-post", "Ta imot varer mot innkjøpsordren og oppdater lageret", "Gjør den om til en leverandørfaktura og match mot ordren og leveransen"] },
+    { "eyebrow": "Hvorfor det betyr noe", "title": "Styr kostnadene før de oppstår", "body": "Innkjøpsordrer flytter kostnadskontrollen til før pengene går ut, ikke etterpå. Med godkjenninger, leveringsoppfølging og treveis kontroll mellom innkjøpsordren, mottatte varer og leverandørfakturaen fanger du opp for høy fakturering og mangelfulle leveranser før du betaler. Den disiplinen fungerer like godt for én innkjøper som for en hel innkjøpsavdeling." }
+  ],
+  "faqs": [
+    { "q": "Hva brukes en innkjøpsordre til?", "a": "Den bestiller formelt varer eller tjenester fra en leverandør til en avtalt pris, styrer kostnadene gjennom godkjenning og gir leverandøren en referanse å oppgi på fakturaen." },
+    { "q": "Er programmet for innkjøpsordrer gratis?", "a": "Ja. Å lage, godkjenne og følge opp innkjøpsordrer er gratis for alltid i Paper & Pen." },
+    { "q": "Kan jeg godkjenne en innkjøpsordre før den sendes?", "a": "Ja. Send innkjøpsordrer til intern godkjenning, så ingenting bestilles uten riktig klarsignal." },
+    { "q": "Kan jeg matche en innkjøpsordre mot en leverandørfaktura?", "a": "Ja. Gjør en mottatt innkjøpsordre om til en leverandørfaktura og gjør en treveis kontroll mot ordren og mottatte varer for å fange opp avvik." },
+    { "q": "Oppdaterer mottak på en innkjøpsordre lageret?", "a": "Med den valgfrie Lager-modulen øker lagerbeholdningen automatisk når du tar imot varer mot en innkjøpsordre." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Bestill med kontroll, ikke kaos",
+  "ctaSub": "Opprett et gratis Paper & Pen-arbeidsområde, lag godkjente innkjøpsordrer og match dem automatisk mot leverandørfakturaer."
+}

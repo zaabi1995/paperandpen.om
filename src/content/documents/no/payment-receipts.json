@@ -1,0 +1,36 @@
+{
+  "locale": "no",
+  "slug": "payment-receipts",
+  "order": 10,
+  "title": "Betalingskvitteringer",
+  "metaTitle": "Lag betalingskvittering · Lag kvitteringer gratis · Paper & Pen",
+  "metaDescription": "Lag profesjonelle betalingskvitteringer gratis på nett i hvilken som helst valuta. Bekreft mottatt betaling mot en faktura og send på WhatsApp eller e-post.",
+  "keywords": "betalingskvittering, lage kvittering, kvittering mal, gratis kvittering, kontantkvittering, kvittering for betaling, betalingsbekreftelse, kvitteringsgenerator",
+  "heroEyebrow": "Betalingskvitteringer",
+  "heroTitle": "Bekreft mottatt betaling med en ryddig <em class=\"text-copper-400 not-italic\">betalingskvittering</em>",
+  "heroSubtitle": "Utsted en profesjonell kvittering i det øyeblikket betalingen kommer inn, knytt den til fakturaen og send den på WhatsApp eller e-post. I hvilken som helst valuta.",
+  "heroBullets": ["Gratis for alltid", "Knyttet til fakturaen", "Send på WhatsApp eller e-post"],
+  "features": [
+    { "icon": "receipt", "title": "Kvitteringer med din logo", "desc": "Utsted en tydelig, nummerert kvittering med logoen din for hver betaling du mottar." },
+    { "icon": "invoice", "title": "Knyttet til fakturaen", "desc": "Hver kvittering registreres mot fakturaen og oppdaterer saldoen automatisk." },
+    { "icon": "card", "title": "Alle betalingsmåter", "desc": "Registrer kontanter, kort, bankoverføring, sjekk eller nettbetaling, med betalingsmåten synlig." },
+    { "icon": "globe", "title": "Alle valutaer", "desc": "Lag kvitteringer i USD, EUR, AED, SAR, OMR, INR og flere, med riktige desimaler." },
+    { "icon": "whatsapp", "title": "Send hvor som helst", "desc": "Del kvitteringen på WhatsApp eller e-post, så kunden får bekreftelse med en gang." },
+    { "icon": "shield", "title": "Ryddige bilag", "desc": "Hver kvittering lagres, så det er enkelt å avstemme betalinger mot fakturaer." }
+  ],
+  "sections": [
+    { "eyebrow": "Hva er en betalingskvittering", "title": "Hva er en betalingskvittering?", "body": "En betalingskvittering er et dokument selgeren utsteder for å bekrefte at en betaling er mottatt mot en faktura eller et salg. Den viser beløpet som er betalt, datoen, betalingsmåten og hvilken faktura den gjelder. I motsetning til en faktura, som ber om betaling, bekrefter en kvittering at betalingen er gjort. Kunden får et bevis, og du får et ryddig bilag." },
+    { "eyebrow": "Slik fungerer det", "title": "Motta, kvitter, avstem", "body": "Paper & Pen utsteder kvitteringer automatisk når betalinger registreres, så fakturaene og regnskapet går i takt.", "items": ["Registrer en betaling mot en faktura, hel eller delvis", "En kvittering lages med beløp, dato og betalingsmåte", "Fakturaens saldo og status oppdateres automatisk", "Send kvitteringen på WhatsApp eller e-post med en gang", "Nettbetalinger registreres og avstemmes av seg selv"] },
+    { "eyebrow": "Kvittering eller faktura", "title": "Kvittering eller faktura?", "body": "En faktura er en forespørsel om betaling, utstedt før pengene skifter hender. En kvittering er en bekreftelse på betaling, utstedt etterpå. Én faktura kan ha flere kvitteringer hvis kunden betaler i avdrag. Paper & Pen følger hver betaling mot fakturaen og utsteder en kvittering hver gang, så delbetalinger aldri forsvinner." }
+  ],
+  "faqs": [
+    { "q": "Hva er forskjellen på en kvittering og en faktura?", "a": "En faktura ber om betaling før pengene er betalt. En kvittering bekrefter betalingen etter at den er mottatt. Én faktura kan ha flere kvitteringer ved avdragsbetaling." },
+    { "q": "Er det gratis å lage kvitteringer?", "a": "Ja. Å lage, sende og følge opp betalingskvitteringer er gratis for alltid i Paper & Pen." },
+    { "q": "Kan jeg utstede en kvittering for en delbetaling?", "a": "Ja. Registrer hvilket som helst beløp mot en faktura, så utstedes en kvittering for den betalingen, og restbeløpet følges automatisk." },
+    { "q": "Lager en nettbetaling en kvittering?", "a": "Ja. Når en kunde betaler på nett, registreres betalingen mot fakturaen, og en kvittering lages og kan sendes automatisk." },
+    { "q": "Kan jeg sende en kvittering på WhatsApp?", "a": "Ja. Del kvitteringen som lenke eller PDF på WhatsApp eller e-post, så kunden får bevis på betalingen med en gang." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/credit-notes", "/features/payments", "/tools/free-receipt-generator", "/free-invoicing-software"],
+  "ctaTitle": "Send en kvittering i det øyeblikket du får betalt",
+  "ctaSub": "Opprett et gratis Paper & Pen-arbeidsområde og bekreft hver betaling med en ryddig, profesjonell kvittering."
+}
