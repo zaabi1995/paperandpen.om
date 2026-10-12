@@ -1,0 +1,36 @@
+{
+  "locale": "sk",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Opakované faktúry",
+  "metaTitle": "Opakované faktúry · Automatická fakturácia zadarmo",
+  "metaDescription": "Nastavte si opakované faktúry online zadarmo v akejkoľvek mene. Fakturujte predplatné a paušály automaticky a posielajte ich cez WhatsApp alebo e-mailom.",
+  "keywords": "opakovaná faktúra, automatická faktúra, fakturácia predplatného, paušálna faktúra, pravidelná fakturácia, automatická fakturácia, plánovaná faktúra",
+  "heroEyebrow": "Opakované faktúry",
+  "heroTitle": "Fakturujte predplatné a paušály <em class=\"text-copper-400 not-italic\">na autopilota</em>",
+  "heroSubtitle": "Raz nastavte sumu, menu a plán a Paper & Pen bude každú faktúru vystavovať a posielať automaticky. Platby online prichádzajú v tom istom cykle. Navždy zadarmo.",
+  "heroBullets": ["Navždy zadarmo", "Raz nastavíte, fakturuje navždy", "Automatický výber online"],
+  "features": [
+    { "icon": "refresh", "title": "Nastavte a zabudnite", "desc": "Plán určíte raz a faktúry sa vytvoria a odošlú samé načas." },
+    { "icon": "clock", "title": "Akákoľvek frekvencia", "desc": "Týždenne, mesačne, štvrťročne alebo ročne, s dátumom začiatku a voliteľným dátumom konca." },
+    { "icon": "card", "title": "Automatický výber", "desc": "Pošlite každú faktúru s odkazom na platbu online, alebo účtujte automaticky v každom cykle." },
+    { "icon": "globe", "title": "Akákoľvek mena", "desc": "Fakturujte v USD, EUR, AED, SAR, OMR, INR a ďalších menách so správnou daňou a desatinnými miestami." },
+    { "icon": "whatsapp", "title": "Pošlite kamkoľvek", "desc": "Každá opakovaná faktúra odíde automaticky cez WhatsApp alebo e-mailom." },
+    { "icon": "bell", "title": "Pripomienky v cene", "desc": "Automatické pripomienky platby upomínajú každú nezaplatenú opakovanú faktúru." }
+  ],
+  "sections": [
+    { "eyebrow": "Čo je opakovaná faktúra", "title": "Čo je opakovaná faktúra?", "body": "Opakovaná faktúra sa vystavuje automaticky podľa nastaveného plánu pre toho istého zákazníka a na tú istú sumu. Používa sa pri predplatnom, paušáloch, členstvách, nájme alebo servisných zmluvách. Namiesto toho, aby ste faktúru vytvárali v každom cykle znova, definujete ju raz a systém ju v každý dátum splatnosti vytvorí, očísluje a pošle, takže príjmy sú predvídateľné a administratíva nulová." },
+    { "eyebrow": "Ako to funguje", "title": "Raz definujete, beží navždy", "body": "Paper & Pen zvládne celý cyklus, takže opakované príjmy sa inkasujú samé.", "items": ["Vytvorte opakovanú šablónu s položkami, menou a daňou", "Zvoľte frekvenciu, dátum začiatku a voliteľný dátum konca", "V každom cykle sa faktúra vytvorí a odošle automaticky", "Zákazníci platia online a platby sa spárujú samé", "Pripomienky automaticky upomínajú každú nezaplatenú opakovanú faktúru"] },
+    { "eyebrow": "Pre koho je to", "title": "Ideálne pre predvídateľné príjmy", "body": "Opakované faktúry sa hodia každej firme, ktorá fakturuje pravidelne: SaaS a predplatné, agentúry na paušál, posilňovne a členstvá, nájom nehnuteľností, servisné zmluvy na IT a zariadenia a spravované služby. Raz nastavíte plán a vaše opakované príjmy sa každý mesiac vyfakturujú, odošlú a upomenú bez toho, aby sa ich ktokoľvek dotkol." }
+  ],
+  "faqs": [
+    { "q": "Čo je opakovaná faktúra?", "a": "Faktúra vystavovaná automaticky podľa nastaveného plánu pre toho istého zákazníka a na tú istú sumu, používaná pri predplatnom, paušáloch, nájme a servisných zmluvách." },
+    { "q": "Je opakovaná fakturácia zadarmo?", "a": "Áno. Nastavenie a prevádzka opakovaných faktúr je v Paper & Pen navždy zadarmo." },
+    { "q": "Aké frekvencie sú podporované?", "a": "Týždenne, mesačne, štvrťročne alebo ročne, s dátumom začiatku a voliteľným dátumom konca, aby sa séria zastavila, kedy chcete." },
+    { "q": "Môžu byť zákazníci zaťažení automaticky?", "a": "Áno. Pošlite každú faktúru s odkazom na platbu online, alebo nastavte automatický výber, aby sa v každom cykle zaťažila uložená platobná metóda." },
+    { "q": "Čo ak opakovaná faktúra nie je zaplatená?", "a": "Automatické pripomienky platby upomínajú každú nezaplatenú opakovanú faktúru, kým nie je uhradená, bez potreby ručného naháňania." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Dajte opakované príjmy na autopilota",
+  "ctaSub": "Vytvorte si bezplatný pracovný priestor Paper & Pen, raz nastavte opakovanú faktúru a nechajte ju fakturovať, posielať a inkasovať podľa plánu."
+}

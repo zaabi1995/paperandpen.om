@@ -1,0 +1,36 @@
+{
+  "locale": "sk",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Výdavky",
+  "metaTitle": "Softvér na sledovanie výdavkov · Paper & Pen",
+  "metaDescription": "Sledujte firemné výdavky online zadarmo v akejkoľvek mene. Ukladajte bločky, triedte výdavky do kategórií, uplatnite si DPH a vidzte skutočný zisk.",
+  "keywords": "sledovanie výdavkov, evidencia výdavkov, firemné výdavky, softvér na výdavky, evidencia výdavkov zadarmo, ukladanie bločkov, dph z výdavkov",
+  "heroEyebrow": "Výdavky",
+  "heroTitle": "Všetky firemné <em class=\"text-copper-400 not-italic\">výdavky</em> na jednom mieste",
+  "heroSubtitle": "Ukladajte bločky, triedte výdavky, uplatnite si DPH a vidzte skutočný zisk, a to v akejkoľvek mene. Výdavky sa prepoja priamo s vaším účtovníctvom. Navždy zadarmo.",
+  "heroBullets": ["Navždy zadarmo", "Ukladanie bločkov", "Skutočný zisk"],
+  "features": [
+    { "icon": "accounting", "title": "Zaznamenajte akýkoľvek výdavok", "desc": "Zapíšte faktúru, hotovostný výdavok alebo platbu dodávateľovi za pár sekúnd, aj s kategóriou a daňou." },
+    { "icon": "doc", "title": "Priložte bločky", "desc": "Odfoťte alebo nahrajte bloček a nechajte ho pri výdavku pre čisté záznamy a audity." },
+    { "icon": "calc", "title": "Uplatnite si DPH", "desc": "Zaznamenajte DPH alebo GST na vstupe, aby daňové priznanie zohľadnilo, čo si môžete odpočítať." },
+    { "icon": "chart", "title": "Skutočný zisk", "desc": "Výdavky sa účtujú oproti príjmom, takže výsledovka ukazuje realitu, nie odhad." },
+    { "icon": "globe", "title": "Akákoľvek mena", "desc": "Zaznamenajte výdavky v USD, EUR, AED, SAR, OMR, INR a ďalších menách so správnymi desatinnými miestami." },
+    { "icon": "refresh", "title": "Opakované výdavky", "desc": "Nájom, predplatné a energie sa môžu zaznamenať automaticky v každom období." }
+  ],
+  "sections": [
+    { "eyebrow": "Čo je sledovanie výdavkov", "title": "Čo je sledovanie výdavkov?", "body": "Sledovanie výdavkov znamená zaznamenať každý náklad firmy aj s kategóriou, dátumom, daňou a podporným dokladom. Ak to robíte dobre, presne viete, kam idú peniaze, aký zisk naozaj máte a koľko dane na vstupe si môžete odpočítať. Ak to robíte zle, zisk je len odhad a daňové obdobie sa zmení na zhon. Paper & Pen z toho robí pár sekúnd na jeden výdavok." },
+    { "eyebrow": "Ako to funguje", "title": "Uložiť, zatriediť, odpočítať", "body": "Paper & Pen zmení roztrúsené bločky na čisté, zatriedené záznamy, ktoré idú rovno do účtovníctva.", "items": ["Zaznamenajte výdavok s kategóriou, dodávateľom a daňou", "Priložte fotku bločku alebo PDF pre auditnú stopu", "Uplatnite si DPH alebo GST na vstupe, kde to platí", "Nastavte opakované výdavky na automatický zápis", "V prehľadoch vidzte výdavky podľa kategórií a skutočný zisk"] },
+    { "eyebrow": "Prečo na tom záleží", "title": "Zisk, ktorému môžete veriť", "body": "Čo nemeriate, to neriadite. Keď je každý výdavok zaznamenaný oproti príjmom, výsledovka je presná, priznanie k DPH správne a vidíte, ktoré náklady rastú, skôr ako začnú bolieť. Výdavky v Paper & Pen idú do tej istej hlavnej knihy ako predaj, takže celý obraz zostáva konzistentný a spárovaný." }
+  ],
+  "faqs": [
+    { "q": "Je sledovanie výdavkov zadarmo?", "a": "Áno. Zaznamenávanie a triedenie výdavkov aj prikladanie bločkov je v Paper & Pen navždy zadarmo." },
+    { "q": "Môžem k výdavku priložiť bloček?", "a": "Áno. Odfoťte alebo nahrajte bloček a zostane pri výdavku, takže máte čistú auditnú stopu." },
+    { "q": "Môžem si z výdavkov uplatniť DPH?", "a": "Áno. Pri každom výdavku zaznamenajte DPH alebo GST na vstupe, aby daňové priznanie presne zohľadnilo, čo si môžete odpočítať." },
+    { "q": "Môžem sledovať výdavky v rôznych menách?", "a": "Áno. Zaznamenajte výdavky v akejkoľvek mene vrátane USD, EUR, AED, SAR a OMR so správnymi desatinnými miestami." },
+    { "q": "Dajú sa opakované výdavky automatizovať?", "a": "Áno. Nájom, predplatné a energie sa môžu zaznamenať automaticky v každom období, aby vám nič neuniklo." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Vedzte presne, kam idú vaše peniaze",
+  "ctaSub": "Vytvorte si bezplatný pracovný priestor Paper & Pen, zaznamenajte každý výdavok a vidzte zisk, ktorému naozaj môžete veriť."
+}

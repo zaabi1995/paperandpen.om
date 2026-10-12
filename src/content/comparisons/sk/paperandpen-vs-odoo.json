@@ -1,0 +1,45 @@
+{
+  "locale": "sk",
+  "slug": "paperandpen-vs-odoo",
+  "order": 3,
+  "competitor": "Odoo",
+  "title": "Paper & Pen alebo Odoo",
+  "metaTitle": "Paper & Pen alebo Odoo · Jednoduchšie ERP zadarmo",
+  "metaDescription": "Porovnajte Paper & Pen a Odoo podľa ceny, bezplatného plánu, arabčiny sprava doľava, rýchlosti spustenia a DPH v Zálive. Jednoduchšia a bezplatná alternatíva k Odoo.",
+  "keywords": "paper and pen alebo odoo, alternatíva k odoo, bezplatná alternatíva k odoo, jednoduché erp, erp softvér v arabčine, ceny odoo v zálive",
+  "heroEyebrow": "Porovnanie",
+  "heroTitle": "Paper & Pen alebo <em class=\"text-copper-400 not-italic\">Odoo</em>",
+  "heroSubtitle": "Odoo je výkonné, modulárne ERP, ktoré dokáže takmer všetko. Paper & Pen je jednoduchšia, bezplatná cesta stavaná najmä pre arabčinu: fakturácia navždy zadarmo, moduly vtedy, keď ich potrebujete, spustenie za pár minút. Úprimné porovnanie.",
+  "heroBullets": ["Predaj a fakturácia navždy zadarmo", "Spustenie za minúty, nie implementácia", "Najmä pre arabčinu, s natívnymi menami Zálivu"],
+  "features": [
+    { "icon": "bolt", "title": "Spustenie za minúty", "desc": "Žiadny partner, žiadna implementačná fáza. Zaregistrujte sa, nastavte daň a menu a pošlite faktúru ešte dnes." },
+    { "icon": "check", "title": "Bezplatný základ", "desc": "Predaj a fakturácia sú navždy zadarmo. Platíte len za moduly, ktoré naozaj zapnete." },
+    { "icon": "globe", "title": "Najmä pre arabčinu", "desc": "Plne arabské rozhranie a doklady sprava doľava, s piatimi jazykmi rozhrania hneď v základe." }
+  ],
+  "sections": [
+    { "eyebrow": "Úprimný pohľad", "title": "V čom je Odoo silné", "body": "Odoo je naozaj výkonné. S desiatkami aplikácií, hlbokými možnosťami prispôsobenia a silnou komunitou vývojárov dokáže zachytiť veľmi zložité firmy, od výrobných postupov po e-commerce a servis v teréne. Ak máte rozpočet, implementačného partnera a procesy na mieru, Odoo sa dá prispôsobiť takmer čomukoľvek.", "items": ["Obrovský katalóg modulov a aplikácií", "Hlboké prispôsobenie a komunita vývojárov", "Zvládne aj veľmi zložité prevádzky"] },
+    { "eyebrow": "Kde vyhrávame my", "title": "Jednoduchosť, cena a rýchly prínos", "body": "Väčšina firiem nepotrebuje implementačný projekt, aby mohla poslať faktúru. Paper & Pen je na začiatok zadarmo, stavaný najmä pre arabčinu a pripravený za pár minút, s nastaviteľnou DPH pre krajiny Zálivu, natívnym OMR, AED a SAR a prednastavenými platbami cez Paymob. Sklad, HR alebo Výrobu pridáte, až keď do nich dorastiete, takže nikdy neplatíte za zložitosť, ktorú nepoužívate.", "items": ["Žiadne náklady na implementáciu na začiatok", "DPH pre Záliv a meny Zálivu prednastavené", "Moduly pridávate, až keď rastiete"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Odoo"],
+  "matrix": [
+    { "feature": "Plán navždy zadarmo", "values": [true, "Bezplatná úroveň pre jednu aplikáciu"] },
+    { "feature": "Počiatočná cena", "values": ["Zadarmo", "Platené za používateľa"] },
+    { "feature": "Náročnosť nastavenia", "values": ["Minúty", "Implementácia"] },
+    { "feature": "Arabské rozhranie sprava doľava", "values": [true, "Čiastočne"] },
+    { "feature": "Viac mien", "values": [true, true] },
+    { "feature": "Miestne platby (Paymob)", "values": [true, "Cez konfiguráciu"] },
+    { "feature": "Predvoľba nastaviteľnej DPH pre Záliv", "values": [true, "Nastaviteľné"] },
+    { "feature": "Kompletné moduly ERP", "values": ["Modulárne doplnky", true] },
+    { "feature": "Najvhodnejšie pre", "values": ["Malé a stredné firmy, ktoré chcú jednoduchosť a nulovú cenu", "Zložité prevádzky na mieru"] }
+  ],
+  "faqs": [
+    { "q": "Je Paper & Pen dobrou alternatívou k Odoo?", "a": "Áno, pre malé a stredné firmy, ktoré chcú začať zadarmo, rýchlo sa spustiť a pracovať v arabčine. Odoo zostáva silnejšou voľbou pre veľmi zložité, výrazne prispôsobené prevádzky s rozpočtom na implementáciu." },
+    { "q": "Je Paper & Pen lacnejší ako Odoo?", "a": "Na začiatok je zadarmo s neobmedzenou fakturáciou, bez poplatku za používateľa a bez nákladov na implementáciu. Platíte len za voliteľné moduly, ktoré zapnete." },
+    { "q": "Ako dlho trvá nastavenie v porovnaní s Odoo?", "a": "Pár minút. Zaregistrujete sa, nastavíte menu a daň a v ten istý deň pošlete faktúru, bez partnera a bez implementačnej fázy." },
+    { "q": "Má Paper & Pen sklad a výrobu ako Odoo?", "a": "Áno, ako voliteľné moduly. Sklad, HR, Účtovníctvo a Výrobu môžete pridať, keď do nich dorastiete, namiesto toho, aby ste za všetko platili vopred." },
+    { "q": "Je práca v arabčine lepšia?", "a": "Paper & Pen je stavaný najmä pre arabčinu, s plne arabským rozhraním sprava doľava a arabskými dokladmi, kým podpora arabčiny v Odoo je čiastočná a často závisí od konfigurácie." }
+  ],
+  "related": ["/compare/paperandpen-vs-tally", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Preskočte implementáciu",
+  "ctaSub": "Začnite s Paper & Pen zadarmo, pošlite faktúru ešte dnes a moduly pridávajte, až keď ich budete potrebovať."
+}

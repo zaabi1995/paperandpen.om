@@ -1,0 +1,36 @@
+{
+  "locale": "sk",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Dobropisy",
+  "metaTitle": "Softvér na dobropisy · Paper & Pen",
+  "metaDescription": "Vystavujte profesionálne dobropisy online zadarmo v akejkoľvek mene. Upravte faktúru pri vrátení tovaru, refundácii alebo oprave riadnym dokladom.",
+  "keywords": "dobropis, vytvoriť dobropis, opravný daňový doklad, refundácia faktúry, dobropis pri vrátení tovaru, softvér na dobropisy, dobropis s dph",
+  "heroEyebrow": "Dobropisy",
+  "heroTitle": "Vystavujte <em class=\"text-copper-400 not-italic\">dobropisy</em> správne",
+  "heroSubtitle": "Upravte faktúru pri vrátení tovaru, refundácii alebo oprave riadnym dobropisom, s jasnou auditnou stopou a automatickým účtovným zápisom. V akejkoľvek mene.",
+  "heroBullets": ["Navždy zadarmo", "Prepojený s pôvodnou faktúrou", "Zaúčtuje správny zápis"],
+  "features": [
+    { "icon": "doc", "title": "Riadny opravný doklad", "desc": "Očíslovaný dobropis prepojený s pôvodnou faktúrou, nikdy nie tichá úprava." },
+    { "icon": "refresh", "title": "Upraví zostatok", "desc": "Zníži zostatok zákazníka a správne stornuje daň z dobropisovanej sumy." },
+    { "icon": "shield", "title": "Úplná auditná stopa", "desc": "Každý dobropis sa zaznamená aj s dôvodom, takže vaše knihy zostanú čisté a overiteľné." },
+    { "icon": "calc", "title": "Správne storno DPH", "desc": "Daň sa stornuje zo sumy bez dane, ktorú dobropisujete, takže daňové priznania sedia." },
+    { "icon": "globe", "title": "Akákoľvek mena", "desc": "Dobropisujte v USD, EUR, AED, SAR, OMR, INR a ďalších menách, rovnako ako pôvodná faktúra." },
+    { "icon": "whatsapp", "title": "Pošlite kamkoľvek", "desc": "Pošlite dobropis cez WhatsApp alebo e-mailom, aby mal zákazník záznam." }
+  ],
+  "sections": [
+    { "eyebrow": "Čo je dobropis", "title": "Čo je dobropis?", "body": "Dobropis je doklad, ktorým predávajúci znižuje sumu, ktorú zákazník dlhuje na skôr vystavenej faktúre. Používa sa pri vrátení tovaru, refundácii, preplatení, zrušených položkách alebo oprave ceny. Dobropis nikdy nemaže pôvodnú faktúru, formálne ju čiastočne alebo úplne vyrovná, takže zostane úplný a overiteľný záznam o tom, čo sa zmenilo a prečo." },
+    { "eyebrow": "Ako to funguje", "title": "Dobropis, storno, párovanie", "body": "Paper & Pen vystaví dobropis ako skutočný doklad s vlastným číslom a účtovným zápisom, nikdy nie ako tichú úpravu faktúry.", "items": ["Otvorte faktúru a vystavte k nej dobropis", "Dobropisujte celú faktúru alebo len vybrané riadky", "Uveďte dôvod: vrátenie, refundácia, oprava alebo zrušenie", "Daň sa automaticky stornuje zo sumy bez dane", "Zostatok zákazníka aj vaše knihy sa aktualizujú spolu"] },
+    { "eyebrow": "Prečo na tom záleží", "title": "Nikdy neupravujte zaplatenú faktúru", "body": "Úprava alebo zmazanie vystavenej faktúry naruší auditnú stopu aj vašu daňovú pozíciu. Správny spôsob, ako znížiť pohľadávku, je vystaviť dobropis. Pôvodná faktúra zostane nedotknutá, zaúčtuje sa stornovací zápis a stornuje sa správna výška dane. V systémoch DPH a GST na celom svete je to bežne vyžadovaná prax." }
+  ],
+  "faqs": [
+    { "q": "Na čo sa dobropis používa?", "a": "Na zníženie alebo zrušenie sumy, ktorú zákazník dlhuje na faktúre, typicky pri vrátení tovaru, refundácii, preplatení alebo oprave. Faktúru vyrovná, nemaže ju." },
+    { "q": "Je vystavovanie dobropisov zadarmo?", "a": "Áno. Vystavovanie a sledovanie dobropisov je v Paper & Pen navždy zadarmo." },
+    { "q": "Stornuje dobropis DPH?", "a": "Áno. Paper & Pen automaticky stornuje daň zo sumy bez dane, ktorú dobropisujete, takže vaša pozícia DPH alebo GST zostane správna." },
+    { "q": "Môžem dobropisovať len časť faktúry?", "a": "Áno. Dobropisujte celú faktúru alebo len vybrané riadky a množstvá. Zostatok zákazníka sa tomu prispôsobí." },
+    { "q": "Aký je rozdiel medzi dobropisom a ťarchopisom?", "a": "Dobropis vystavuje predávajúci, aby znížil dlh zákazníka. Ťarchopis zvyčajne vystavuje kupujúci (alebo slúži na zvýšenie dlžnej sumy), napríklad na vymáhanie preplatku alebo doúčtovanie sumy navyše." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Vystavte dobropis s istotou",
+  "ctaSub": "Vytvorte si bezplatný pracovný priestor Paper & Pen a upravte akúkoľvek faktúru riadnym, overiteľným dobropisom za pár sekúnd."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "sk",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Saldokontá",
+  "metaTitle": "Saldokontá a výpisy · Paper & Pen",
+  "metaDescription": "Prezerajte saldokontá zákazníkov a dodávateľov online zadarmo v akejkoľvek mene. Každá faktúra, platba a dobropis v jednom priebežnom výpise.",
+  "keywords": "saldokonto, saldokonto odberateľov, saldokonto dodávateľov, výpis z účtu, hlavná kniha, softvér na saldokontá, výpis salda",
+  "heroEyebrow": "Saldokontá",
+  "heroTitle": "Všetky transakcie v jednom prehľadnom <em class=\"text-copper-400 not-italic\">saldokonte</em>",
+  "heroSubtitle": "Vidzte priebežný výpis každej faktúry, platby, dobropisu a úpravy pre každého zákazníka a dodávateľa, v akejkoľvek mene. Výpis pošlete jedným ťuknutím. Navždy zadarmo.",
+  "heroBullets": ["Navždy zadarmo", "Priebežné zostatky", "Okamžité zdieľanie výpisov"],
+  "features": [
+    { "icon": "chart", "title": "Saldokontá zákazníkov", "desc": "Priebežný výpis pre každého zákazníka: faktúry, platby a dobropisy so živým zostatkom." },
+    { "icon": "accounting", "title": "Saldokontá dodávateľov", "desc": "Sledujte faktúry, platby a ťarchopisy pre každého dodávateľa, aby ste vždy vedeli, koľko dlhujete." },
+    { "icon": "doc", "title": "Výpis z účtu", "desc": "Vytvorte a pošlite výpis z účtu za akékoľvek obdobie jedným ťuknutím." },
+    { "icon": "shield", "title": "Vždy spárované", "desc": "Saldokontá sa aktualizujú z tých istých zápisov ako faktúry a platby, takže vždy sedia." },
+    { "icon": "globe", "title": "Akákoľvek mena", "desc": "Zostatky v USD, EUR, AED, SAR, OMR, INR a ďalších menách so správnymi desatinnými miestami." },
+    { "icon": "whatsapp", "title": "Zdieľajte kamkoľvek", "desc": "Pošlite výpis cez WhatsApp alebo e-mailom, aby zákazníci mohli uhradiť nezaplatené zostatky." }
+  ],
+  "sections": [
+    { "eyebrow": "Čo je saldokonto", "title": "Čo je saldokonto?", "body": "Saldokonto je priebežný záznam všetkých transakcií, ktoré ovplyvňujú účet, so zostatkom prenášaným po každom zápise. Saldokonto zákazníka ukazuje každú vystavenú faktúru, každú prijatú platbu a každý dobropis a končí sumou, ktorú zákazník dlhuje. Výpis z účtu je toto saldokonto predložené zákazníkovi za určité obdobie. Saldokontá sú základom toho, aby ste vedeli, kto komu čo dlhuje." },
+    { "eyebrow": "Ako to funguje", "title": "Jeden zdroj pravdy", "body": "V Paper & Pen nie sú saldokontá samostatná tabuľka, vznikajú z tých istých faktúr, platieb a dobropisov, ktoré už vytvárate.", "items": ["Otvorte ktoréhokoľvek zákazníka alebo dodávateľa a uvidíte celé saldokonto", "Každá faktúra, platba, dobropis a ťarchopis sa zobrazí s priebežným zostatkom", "Filtrujte podľa obdobia pre čistý výpis z účtu", "Pošlite výpis cez WhatsApp alebo e-mailom jedným ťuknutím", "Zostatky vždy sedia s faktúrami aj účtovníctvom"] },
+    { "eyebrow": "Prečo na tom záleží", "title": "Inkasujte rýchlejšie, nič neplaťte dvakrát", "body": "Keď sa zákazník pýta na zostatok, jasné saldokonto ukončí debatu za pár sekúnd. Keď treba upomínať, výpis z účtu je najpresvedčivejší doklad, aký môžete poslať. A keďže saldokontá dodávateľov sledujú, čo dlhujete, nikdy nezaplatíte faktúru dvakrát ani neprehliadnete ťarchopis. Jeden spárovaný záznam pre obe strany vášho podnikania." }
+  ],
+  "faqs": [
+    { "q": "Čo je saldokonto zákazníka?", "a": "Priebežný výpis každej faktúry, platby a dobropisu pre zákazníka, ktorý končí sumou, ktorú vám momentálne dlhuje." },
+    { "q": "Sú saldokontá zadarmo?", "a": "Áno. Saldokontá zákazníkov a dodávateľov aj výpisy z účtu sú v Paper & Pen navždy zadarmo." },
+    { "q": "Môžem poslať výpis z účtu?", "a": "Áno. Vytvorte výpis za akékoľvek obdobie a pošlite ho cez WhatsApp alebo e-mailom jedným ťuknutím, aby ho zákazník mohol uhradiť." },
+    { "q": "Zostávajú saldokontá spárované?", "a": "Áno. Saldokontá vznikajú z tých istých zápisov ako faktúry a platby, takže zostatky vždy sedia s účtovníctvom." },
+    { "q": "Vidím, koľko dlhujem dodávateľom?", "a": "Áno. Saldokontá dodávateľov sledujú faktúry, platby a ťarchopisy, takže vždy presne viete, čo je voči každému dodávateľovi nezaplatené." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Vidzte okamžite, kto čo dlhuje",
+  "ctaSub": "Vytvorte si bezplatný pracovný priestor Paper & Pen a získajte čisté, spárované saldokonto pre každého zákazníka a dodávateľa."
+}

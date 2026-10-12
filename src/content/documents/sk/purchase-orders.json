@@ -1,0 +1,36 @@
+{
+  "locale": "sk",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Nákupné objednávky",
+  "metaTitle": "Softvér na nákupné objednávky · Paper & Pen",
+  "metaDescription": "Vytvárajte profesionálne nákupné objednávky online zadarmo v akejkoľvek mene. Posielajte ich dodávateľom a sledujte schválenia aj dodávky.",
+  "keywords": "nákupná objednávka, vytvoriť objednávku, objednávka dodávateľovi, softvér na nákupné objednávky, objednávka zadarmo, objednávka u dodávateľa, z objednávky faktúra",
+  "heroEyebrow": "Nákupné objednávky",
+  "heroTitle": "Objednávajte u dodávateľov riadnymi <em class=\"text-copper-400 not-italic\">nákupnými objednávkami</em>",
+  "heroSubtitle": "Vytvárajte, schvaľujte a posielajte nákupné objednávky dodávateľom v akejkoľvek mene a potom ich spárujte s dodávkami a faktúrami s čistou auditnou stopou. Navždy zadarmo.",
+  "heroBullets": ["Navždy zadarmo", "Schválenie pred odoslaním", "Párovanie s dodávateľskými faktúrami"],
+  "features": [
+    { "icon": "cart", "title": "Objednávky s vaším logom", "desc": "Vystavujte dodávateľom jasné, očíslované objednávky s vašimi podmienkami a údajmi o dodaní." },
+    { "icon": "check", "title": "Schválenie pred odoslaním", "desc": "Pošlite objednávky na interné schválenie, aby sa nič neobjednalo bez súhlasu." },
+    { "icon": "truck", "title": "Sledovanie dodávok", "desc": "Vidzte, čo je objednané, čiastočne prijaté a úplne dodané pri každej objednávke." },
+    { "icon": "refresh", "title": "Párovanie s faktúrami", "desc": "Prijatú objednávku zmeňte na dodávateľskú faktúru a spárujte trojcestne pre presnosť." },
+    { "icon": "globe", "title": "Akákoľvek mena", "desc": "Objednávajte v USD, EUR, AED, SAR, OMR, INR a ďalších menách so správnou daňou a desatinnými miestami." },
+    { "icon": "whatsapp", "title": "Pošlite kamkoľvek", "desc": "Pošlite objednávku dodávateľovi cez WhatsApp alebo e-mailom jedným ťuknutím." }
+  ],
+  "sections": [
+    { "eyebrow": "Čo je nákupná objednávka", "title": "Čo je nákupná objednávka?", "body": "Nákupná objednávka je doklad, ktorým kupujúci formálne žiada dodávateľa o tovar alebo služby za dohodnutú cenu. Uvádza položky, množstvá, jednotkové ceny, dane, dodacie podmienky a číslo objednávky, ktoré dodávateľ uvedie na svojej faktúre. Keď ju dodávateľ prijme, stáva sa záväzkom, a keďže vyžaduje schválenie skôr, ako peniaze odídu, kontroluje výdavky." },
+    { "eyebrow": "Ako to funguje", "title": "Vytvoriť, schváliť, prijať, spárovať", "body": "Paper & Pen pokrýva celý proces od objednávky po platbu, takže každá objednávka je schválená, sledovaná a spárovaná.", "items": ["Vytvorte objednávku z upozornenia na nízke zásoby alebo od začiatku", "Pred odoslaním ju pošlite na interné schválenie", "Pošlite ju dodávateľovi cez WhatsApp alebo e-mailom", "Prijmite tovar k objednávke a aktualizujte zásoby", "Zmeňte ju na dodávateľskú faktúru a spárujte s objednávkou aj dodávkou"] },
+    { "eyebrow": "Prečo na tom záleží", "title": "Kontrolujte výdavky skôr, než vzniknú", "body": "Nákupné objednávky presúvajú kontrolu výdavkov pred odchod peňazí, nie až po ňom. So schvaľovaním, sledovaním dodávok a trojcestným párovaním medzi objednávkou, prijatým tovarom a dodávateľskou faktúrou zachytíte nadfakturáciu aj neúplné dodávky skôr, ako zaplatíte. Táto disciplína funguje od jedného nákupcu až po celé oddelenie nákupu." }
+  ],
+  "faqs": [
+    { "q": "Na čo slúži nákupná objednávka?", "a": "Formálne žiada dodávateľa o tovar alebo služby za dohodnutú cenu, kontroluje výdavky cez schválenie a dáva dodávateľovi referenciu, ktorú uvedie na faktúre." },
+    { "q": "Je softvér na nákupné objednávky zadarmo?", "a": "Áno. Vytváranie, schvaľovanie a sledovanie nákupných objednávok je v Paper & Pen navždy zadarmo." },
+    { "q": "Môžem objednávku schváliť pred odoslaním?", "a": "Áno. Pošlite nákupné objednávky na interné schválenie, aby sa nič neobjednalo bez správneho súhlasu." },
+    { "q": "Môžem objednávku spárovať s dodávateľskou faktúrou?", "a": "Áno. Prijatú objednávku zmeňte na dodávateľskú faktúru a spárujte ju trojcestne s objednávkou a prijatým tovarom, aby ste zachytili nezrovnalosti." },
+    { "q": "Aktualizuje príjem objednávky moje zásoby?", "a": "S voliteľným modulom Sklad sa pri príjme tovaru k objednávke stav zásob automaticky zvýši." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Objednávajte s kontrolou, nie v chaose",
+  "ctaSub": "Vytvorte si bezplatný pracovný priestor Paper & Pen, vytvárajte schválené nákupné objednávky a párujte ich s faktúrami automaticky."
+}
