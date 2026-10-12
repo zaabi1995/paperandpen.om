@@ -1,0 +1,36 @@
+{
+  "locale": "tl",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Mga Delivery Note",
+  "metaTitle": "Gawaan ng Delivery Note · Paper & Pen",
+  "metaDescription": "Gumawa ng maayos na delivery note online nang libre. Ilista ang ipinadalang produkto, kunin ang proof of delivery, at gawin itong invoice sa isang click.",
+  "keywords": "delivery note, delivery challan, gumawa ng delivery note, packing slip, proof of delivery, gawaan ng delivery note, dispatch note ng produkto",
+  "heroEyebrow": "Mga delivery note",
+  "heroTitle": "Magpadala na may malinaw na <em class=\"text-copper-400 not-italic\">delivery note</em> sa bawat pagkakataon",
+  "heroSubtitle": "Ilista ang mga produktong ide-deliver, kunin ang proof of delivery pagkatanggap, at gawing invoice ang delivery note sa isang click. Gumagana kahit saan.",
+  "heroBullets": ["Libre habambuhay", "Proof of delivery", "Gawing invoice"],
+  "features": [
+    { "icon": "truck", "title": "Dokumento ng dispatch", "desc": "Ilista ang mga item at dami na ipinadala, may presyo man o wala, sa malinis na branded na note." },
+    { "icon": "check", "title": "Proof of delivery", "desc": "Itala kung sino ang tumanggap ng produkto at kailan, para hindi na pagtalunan ang delivery." },
+    { "icon": "refresh", "title": "Gawing invoice", "desc": "Gawing invoice ang delivery note sa isang click kapag natanggap na ang produkto." },
+    { "icon": "inventory", "title": "Konektado sa stock", "desc": "Gamit ang Inventory module, puwedeng kusang bawasan ng delivery note ang stock." },
+    { "icon": "globe", "title": "Gumagana kahit saan", "desc": "Ginagamit sa buong mundo bilang delivery note o delivery challan, sa wika at currency mo." },
+    { "icon": "whatsapp", "title": "Ipadala kahit saan", "desc": "Ibahagi ang delivery note sa WhatsApp o email para may kopya ang customer." }
+  ],
+  "sections": [
+    { "eyebrow": "Ano ang delivery note", "title": "Ano ang delivery note?", "body": "Ang delivery note (tinatawag ding delivery challan o packing slip) ay dokumentong kasama ng padalang produkto at naglilista ng kung ano ang dine-deliver. Sinusuri ito ng tumatanggap laban sa produkto at pumipirma para kumpirmahin ang pagtanggap. Patunay ito na umalis ang produkto sa lugar mo at nakarating sa customer, at ito ang tulay sa pagitan ng sales order at ng kasunod na invoice." },
+    { "eyebrow": "Paano ito gumagana", "title": "I-dispatch, kumpirmahin, i-invoice", "body": "Ikinokonekta ng Paper & Pen ang delivery note sa sales order at invoice mo para magkasabay ang dispatch at billing.", "items": ["Gumawa ng delivery note mula sa sales order o mula sa simula", "Piliing ipakita ang presyo o dami lang", "Ipadala o i-print ito para sumama sa produkto", "Kunin ang proof of delivery kapag pumirma ang customer", "Gawing invoice ang delivery note sa isang click"] },
+    { "eyebrow": "Delivery note laban sa invoice", "title": "Delivery note ba o invoice?", "body": "Itinatala ng delivery note kung ano ang aktwal na naipadala at kinukumpirma ang pagtanggap. Hindi ito paniningil. Ang invoice ang humihingi ng bayad para sa mga produktong iyon. Maraming negosyo ang nagde-deliver muna gamit ang delivery note, saka nag-i-invoice ayon sa napagkasunduang terms. Ganoon mismo ang kaya ng Paper & Pen: ginagawang invoice ang kumpirmadong delivery nang hindi na nagta-type ulit." }
+  ],
+  "faqs": [
+    { "q": "Ano ang pagkakaiba ng delivery note at invoice?", "a": "Inililista at kinukumpirma ng delivery note ang naihatid na produkto, walang paniningil. Ang invoice ang humihingi ng bayad. Puwede mong gawing invoice ang delivery note sa isang click." },
+    { "q": "Libre ba ang gawaan ng delivery note?", "a": "Oo. Libre habambuhay sa Paper & Pen ang paggawa, pagpapadala at pagsubaybay ng mga delivery note." },
+    { "q": "Puwede bang itago ang presyo sa delivery note?", "a": "Oo. Piliing ipakita ang presyo o dami lang, na kapaki-pakinabang kapag hindi dapat makita ng warehouse o courier ang presyo." },
+    { "q": "Nakukuha ba nito ang proof of delivery?", "a": "Oo. Itala kung sino ang tumanggap ng produkto at kailan, para hindi na mapagtalunan ang delivery sa ibang araw." },
+    { "q": "Ina-update ba ng delivery note ang stock ko?", "a": "Gamit ang opsyonal na Inventory module, puwedeng kusang bawasan ng delivery note ang stock habang umaalis ang produkto." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Magpadala na may patunay sa bawat pagkakataon",
+  "ctaSub": "Gumawa ng libreng Paper & Pen workspace, magpadala ng malinis na delivery note, kunin ang proof of delivery, at mag-invoice sa isang click."
+}

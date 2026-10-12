@@ -1,0 +1,36 @@
+{
+  "locale": "tl",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Mga Gastos",
+  "metaTitle": "Software para sa Pagsubaybay ng Gastos · Paper & Pen",
+  "metaDescription": "Subaybayan ang gastos ng negosyo online nang libre, sa kahit anong currency. Kunin ang resibo, i-kategorya ang gastos, bawiin ang VAT at makita ang tunay na kita.",
+  "keywords": "pagsubaybay ng gastos, itala ang gastos, gastos ng negosyo, expense software, libreng expense tracker, kunin ang resibo, VAT sa gastos",
+  "heroEyebrow": "Mga gastos",
+  "heroTitle": "Subaybayan ang bawat <em class=\"text-copper-400 not-italic\">gastos</em> ng negosyo sa iisang lugar",
+  "heroSubtitle": "Kunin ang resibo, i-kategorya ang gastos, bawiin ang VAT at makita ang tunay na kita, sa kahit anong currency. Diretsong naka-link sa accounts mo ang mga gastos. Libre habambuhay.",
+  "heroBullets": ["Libre habambuhay", "Kunin ang resibo", "Makita ang tunay na kita"],
+  "features": [
+    { "icon": "accounting", "title": "Itala ang kahit anong gastos", "desc": "Itala ang bill, cash na gastos o bayad sa supplier sa loob ng ilang segundo, kasama ang kategorya at tax." },
+    { "icon": "doc", "title": "Ilakip ang resibo", "desc": "Kunan ng litrato o i-upload ang resibo at itago ito kasama ng gastos para sa malinis na tala at audit." },
+    { "icon": "calc", "title": "Bawiin ang VAT", "desc": "Itala ang input VAT o GST sa mga gastos para makita sa tax return mo ang mababawi mo." },
+    { "icon": "chart", "title": "Makita ang tunay na kita", "desc": "Ipo-post ang gastos laban sa kita, kaya totoo ang profit and loss mo, hindi hula." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Itala ang gastos sa USD, EUR, AED, SAR, OMR, INR at iba pa, may tamang decimal." },
+    { "icon": "refresh", "title": "Paulit-ulit na gastos", "desc": "Itakda ang upa, subscription at utilities para kusang maitala bawat cycle." }
+  ],
+  "sections": [
+    { "eyebrow": "Ano ang pagsubaybay ng gastos", "title": "Ano ang pagsubaybay ng gastos?", "body": "Ang pagsubaybay ng gastos ay ang pagtatala ng bawat gastusin ng negosyo mo, kasama ang kategorya, petsa, tax at resibo. Kapag maayos ito, alam mo kung saan napupunta ang pera, gaano kalaki ang tunay mong kita, at magkano ang input tax na mababawi mo. Kapag pabaya, nagiging hula ang kita at nagiging gulo ang tax season. Ilang segundo lang bawat gastos sa Paper & Pen." },
+    { "eyebrow": "Paano ito gumagana", "title": "Kunin, i-kategorya, bawiin", "body": "Ginagawang malinis at naka-kategoryang tala ng Paper & Pen ang mga nakakalat na resibo, at diretso itong pumapasok sa accounts mo.", "items": ["Itala ang gastos kasama ang kategorya, supplier at tax", "Ilakip ang litrato o PDF ng resibo para sa audit trail", "Bawiin ang input VAT o GST kung naaangkop", "Itakda ang paulit-ulit na gastos para kusang maitala", "Makita ang gastos ayon sa kategorya at ang tunay na kita sa mga ulat mo"] },
+    { "eyebrow": "Bakit ito mahalaga", "title": "Kitang mapagkakatiwalaan mo", "body": "Hindi mo mapapamahalaan ang hindi mo sinusukat. Kapag naitala ang bawat gastos laban sa kita, tama ang profit and loss mo, tama ang VAT return mo, at nakikita mo kung aling gastos ang dahan-dahang tumataas bago pa ito makasakit. Pumapasok ang mga gastos sa Paper & Pen sa parehong ledger ng benta mo, kaya buo, pare-pareho at reconciled ang larawan." }
+  ],
+  "faqs": [
+    { "q": "Libre ba ang pagsubaybay ng gastos?", "a": "Oo. Libre habambuhay sa Paper & Pen ang pagtatala, pag-kategorya at paglakip ng resibo sa mga gastos." },
+    { "q": "Puwede ko bang ilakip ang resibo sa gastos?", "a": "Oo. Kunan ng litrato o i-upload ang resibo at mananatili ito kasama ng gastos, kaya malinis ang audit trail mo." },
+    { "q": "Puwede ko bang bawiin ang VAT sa mga gastos?", "a": "Oo. Itala ang input VAT o GST sa bawat gastos para eksaktong makita sa tax return mo ang mababawi mo." },
+    { "q": "Puwede ko bang subaybayan ang gastos sa iba't ibang currency?", "a": "Oo. Itala ang gastos sa kahit anong currency, kasama ang USD, EUR, AED, SAR at OMR, may tamang decimal." },
+    { "q": "Puwede bang i-automate ang paulit-ulit na gastos?", "a": "Oo. Itakda ang upa, subscription at utilities para kusang maitala bawat cycle at walang makaligtaan." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Alamin kung saan eksaktong napupunta ang pera mo",
+  "ctaSub": "Gumawa ng libreng Paper & Pen workspace, itala ang bawat gastos, at makita ang kitang tunay mong mapagkakatiwalaan."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "tl",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Mga Credit Note",
+  "metaTitle": "Software para sa Credit Note · Paper & Pen",
+  "metaDescription": "Gumawa ng maayos na credit note online nang libre, sa kahit anong currency. I-adjust ang invoice para sa return, refund o koreksyon gamit ang tamang dokumento.",
+  "keywords": "credit note, gumawa ng credit note, credit memo, refund sa invoice, credit note para sa return, credit note software, VAT credit note",
+  "heroEyebrow": "Mga credit note",
+  "heroTitle": "Mag-isyu ng <em class=\"text-copper-400 not-italic\">credit note</em> sa tamang paraan",
+  "heroSubtitle": "I-adjust ang invoice para sa return, refund o koreksyon gamit ang tamang credit note, malinaw na audit trail at kusang accounting entry. Sa kahit anong currency.",
+  "heroBullets": ["Libre habambuhay", "Naka-link sa orihinal na invoice", "Tamang entry ang naipo-post"],
+  "features": [
+    { "icon": "doc", "title": "Tamang dokumento ng credit", "desc": "May numerong credit note na naka-link sa orihinal na invoice, hindi tahimik na pag-edit." },
+    { "icon": "refresh", "title": "Inaayos ang balanse", "desc": "Binabawasan ang balanse ng customer at tamang ibinabalik ang tax sa halagang na-credit." },
+    { "icon": "shield", "title": "Buong audit trail", "desc": "Nakatala ang bawat credit note kasama ang dahilan, kaya malinis at madaling i-audit ang libro mo." },
+    { "icon": "calc", "title": "Tamang pagbabalik ng VAT", "desc": "Ibinabalik ang tax sa net na halagang na-credit, kaya tama ang mga tax return mo." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Mag-credit sa USD, EUR, AED, SAR, OMR, INR at iba pa, kapareho ng orihinal na invoice." },
+    { "icon": "whatsapp", "title": "Ipadala kahit saan", "desc": "Ibahagi ang credit note sa WhatsApp o email para may kopya ang customer." }
+  ],
+  "sections": [
+    { "eyebrow": "Ano ang credit note", "title": "Ano ang credit note?", "body": "Ang credit note (o credit memo) ay dokumentong inilalabas ng nagbebenta para bawasan ang utang ng customer sa isang invoice na naibigay na. Ginagamit ito sa return, refund, sobrang singil, kinanselang item o koreksyon sa presyo. Hindi binubura ng credit note ang orihinal na invoice. Pormal nitong binabawasan ang bahagi o kabuuan nito, kaya may kumpleto at nai-audit na tala ng kung ano ang nagbago at bakit." },
+    { "eyebrow": "Paano ito gumagana", "title": "I-credit, ibalik, i-reconcile", "body": "Sa Paper & Pen, ang credit note ay totoong dokumento na may sariling numero at accounting entry, hindi tahimik na pag-edit sa invoice.", "items": ["Buksan ang invoice at gumawa ng credit note laban dito", "I-credit ang buong invoice o mga piling linya lang", "Ilagay ang dahilan: return, refund, koreksyon o pagkansela", "Kusang ibinabalik ang tax sa net na halagang na-credit", "Sabay na nag-a-update ang balanse ng customer at ang mga ledger mo"] },
+    { "eyebrow": "Bakit ito mahalaga", "title": "Huwag kailanman i-edit ang bayad nang invoice", "body": "Kapag in-edit o binura mo ang naisyu nang invoice, nasisira ang audit trail at ang tax position mo. Ang tamang paraan para bawasan ang receivable ay mag-isyu ng credit note. Buo pa rin ang orihinal na invoice, may reversing entry na naipo-post, at tamang halaga ng tax ang naibabalik. Ito ang hinihinging gawi sa karamihan ng VAT at GST system sa buong mundo." }
+  ],
+  "faqs": [
+    { "q": "Para saan ginagamit ang credit note?", "a": "Para bawasan o kanselahin ang halagang utang ng customer sa isang invoice, kadalasan dahil sa return, refund, sobrang singil o koreksyon. Binabawasan nito ang invoice sa halip na burahin ito." },
+    { "q": "Libre ba ang paggawa ng credit note?", "a": "Oo. Libre habambuhay sa Paper & Pen ang pag-isyu at pagsubaybay ng mga credit note." },
+    { "q": "Ibinabalik ba ng credit note ang VAT?", "a": "Oo. Kusang ibinabalik ng Paper & Pen ang tax sa net na halagang na-credit, kaya tama pa rin ang VAT o GST position mo." },
+    { "q": "Puwede ko bang i-credit ang bahagi lang ng invoice?", "a": "Oo. I-credit ang buong invoice o mga piling linya at dami lang. Kusang inaayos ang balanse ng customer para tumugma." },
+    { "q": "Ano ang pagkakaiba ng credit note at debit note?", "a": "Ang credit note ay inilalabas ng nagbebenta para bawasan ang utang ng customer. Ang debit note ay kadalasang inilalabas ng bumibili (o para dagdagan ang utang), halimbawa para bawiin ang sobrang bayad o maningil ng dagdag na halaga." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Mag-isyu ng credit note nang may kumpiyansa",
+  "ctaSub": "Gumawa ng libreng Paper & Pen workspace at i-adjust ang kahit anong invoice gamit ang tamang credit note na madaling i-audit, sa loob ng ilang segundo."
+}

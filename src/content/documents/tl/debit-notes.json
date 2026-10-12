@@ -1,0 +1,36 @@
+{
+  "locale": "tl",
+  "slug": "debit-notes",
+  "order": 6,
+  "title": "Mga Debit Note",
+  "metaTitle": "Software para sa Debit Note · Gumawa nang Libre · Paper & Pen",
+  "metaDescription": "Gumawa ng maayos na debit note online nang libre, sa kahit anong currency. Itala ang dagdag na singil o adjustment sa supplier gamit ang tamang dokumento.",
+  "keywords": "debit note, gumawa ng debit note, debit memo, debit note sa supplier, purchase return, debit note software, VAT debit note",
+  "heroEyebrow": "Mga debit note",
+  "heroTitle": "Itala ang dagdag na singil gamit ang tamang <em class=\"text-copper-400 not-italic\">debit note</em>",
+  "heroSubtitle": "Gumawa ng debit note para dagdagan ang utang o maningil pabalik sa supplier, may malinaw na audit trail at tamang accounting entry. Sa kahit anong currency.",
+  "heroBullets": ["Libre habambuhay", "Naka-link sa orihinal na dokumento", "Tamang entry ang naipo-post"],
+  "features": [
+    { "icon": "doc", "title": "Tamang dokumento ng debit", "desc": "May numerong debit note na naka-link sa orihinal na invoice o bill, kumpleto ang dokumentasyon." },
+    { "icon": "refresh", "title": "Inaayos ang balanse", "desc": "Tamang dinadagdagan ang utang o itinatala ang claim laban sa supplier." },
+    { "icon": "shield", "title": "Buong audit trail", "desc": "May dahilan ang bawat debit note, kaya malinis at madaling i-audit ang libro mo." },
+    { "icon": "calc", "title": "Tamang paghawak ng tax", "desc": "Inilalapat o binabawi ang tax sa tamang net na halaga para tama ang mga tax return." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Mag-isyu sa USD, EUR, AED, SAR, OMR, INR at iba pa, kapareho ng orihinal na dokumento." },
+    { "icon": "whatsapp", "title": "Ipadala kahit saan", "desc": "Ibahagi ang debit note sa WhatsApp o email para may kopya ang kabilang panig." }
+  ],
+  "sections": [
+    { "eyebrow": "Ano ang debit note", "title": "Ano ang debit note?", "body": "Ang debit note (o debit memo) ay dokumentong ginagamit para itala ang pagtaas ng utang sa pagitan ng dalawang partido. Madalas mag-isyu ang bumibili ng debit note sa supplier para sa ibinalik na produkto o sobrang singil, at puwede ring mag-isyu ang nagbebenta para magdagdag ng singil sa invoice na naibigay na. Tulad ng credit note, inaayos nito ang balanse gamit ang pormal at may numerong dokumento sa halip na i-edit ang orihinal." },
+    { "eyebrow": "Paano ito gumagana", "title": "I-debit, i-adjust, i-reconcile", "body": "Sa Paper & Pen, ang debit note ay totoong dokumento na may sariling numero at accounting entry, kaya reconciled ang magkabilang panig.", "items": ["Gumawa ng debit note laban sa invoice o bill ng supplier", "Ilagay ang singil o claim at ang dahilan nito", "Kusang hinahawakan ang tax sa tamang net na halaga", "Nag-a-update ang kaukulang balanse sa pamamagitan ng posting entry", "Ipadala ito sa WhatsApp o email para sa tala ng kabilang panig"] },
+    { "eyebrow": "Credit laban sa debit", "title": "Credit note ba o debit note?", "body": "Gumamit ng credit note kapag binabawasan mo ang utang sa iyo ng customer, halimbawa sa return o refund. Gumamit ng debit note kapag dinadagdagan mo ang utang o naniningil ka pabalik sa supplier, halimbawa sa sirang stock na ibinalik sa vendor o kulang na singil na kailangang itama. Sinusuportahan ng Paper & Pen ang dalawa, na may tamang accounting sa bawat direksyon." }
+  ],
+  "faqs": [
+    { "q": "Para saan ginagamit ang debit note?", "a": "Para itala ang pagtaas ng utang, tulad ng dagdag na singil sa invoice o claim ng bumibili laban sa supplier para sa return o sobrang singil." },
+    { "q": "Libre ba ang paggawa ng debit note?", "a": "Oo. Libre habambuhay sa Paper & Pen ang pag-isyu at pagsubaybay ng mga debit note." },
+    { "q": "Ano ang pagkakaiba ng debit note at credit note?", "a": "Dinadagdagan ng debit note ang utang o nagtatala ito ng claim, kadalasang mula sa bumibili. Binabawasan ng credit note ang utang ng customer, at mula ito sa nagbebenta." },
+    { "q": "Naaapektuhan ba ng debit note ang tax?", "a": "Oo. Kusang inilalapat o binabawi ng Paper & Pen ang tax sa tamang net na halaga, kaya tama pa rin ang VAT o GST records mo." },
+    { "q": "Puwede ko bang i-link ang debit note sa bill ng supplier?", "a": "Oo. Gawin ang debit note laban sa orihinal na invoice o bill ng supplier para mag-reconcile ang dalawang balanse na may malinaw na audit trail." }
+  ],
+  "related": ["/invoicing/credit-notes", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Gumawa ng debit note sa loob ng ilang segundo",
+  "ctaSub": "Gumawa ng libreng Paper & Pen workspace at i-adjust ang kahit anong balanse gamit ang tamang debit note na madaling i-audit."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "tl",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Mga Purchase Order",
+  "metaTitle": "Software para sa Purchase Order · Paper & Pen",
+  "metaDescription": "Gumawa ng maayos na purchase order online nang libre, sa kahit anong currency. Ipadala ang PO sa supplier, subaybayan ang pag-apruba at delivery.",
+  "keywords": "purchase order, gumawa ng purchase order, PO, purchase order software, libreng purchase order, order sa supplier, PO papuntang bill",
+  "heroEyebrow": "Mga purchase order",
+  "heroTitle": "Umorder sa supplier gamit ang tamang <em class=\"text-copper-400 not-italic\">purchase order</em>",
+  "heroSubtitle": "Gumawa, aprubahan at ipadala ang purchase order sa supplier sa kahit anong currency, saka itugma ito sa delivery at bill na may malinis na audit trail. Libre habambuhay.",
+  "heroBullets": ["Libre habambuhay", "Aprubahan bago ipadala", "Itugma sa bill ng supplier"],
+  "features": [
+    { "icon": "cart", "title": "Branded na purchase order", "desc": "Mag-isyu ng malinaw at may numerong PO sa supplier kasama ang terms at detalye ng delivery mo." },
+    { "icon": "check", "title": "Pag-apruba bago ipadala", "desc": "Ipadaan ang PO sa internal na pag-apruba para walang maorder nang walang pirma." },
+    { "icon": "truck", "title": "Subaybayan ang delivery", "desc": "Makita kung ano ang naorder, bahagyang natanggap at buong naihatid sa bawat PO." },
+    { "icon": "refresh", "title": "Itugma sa bill", "desc": "Gawing bill ng supplier ang natanggap na PO at itugma nang three-way para sa katumpakan." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Umorder sa USD, EUR, AED, SAR, OMR, INR at iba pa, may tamang tax at decimal." },
+    { "icon": "whatsapp", "title": "Ipadala kahit saan", "desc": "Ibahagi ang PO sa supplier sa WhatsApp o email sa isang tap." }
+  ],
+  "sections": [
+    { "eyebrow": "Ano ang purchase order", "title": "Ano ang purchase order?", "body": "Ang purchase order (PO) ay dokumentong ipinapadala ng bumibili sa supplier para pormal na humiling ng produkto o serbisyo sa napagkasunduang presyo. Nakalista rito ang mga item, dami, presyo bawat isa, tax, terms ng delivery at PO number na babanggitin ng supplier sa kanilang invoice. Nagiging bindeng pangako ang PO kapag tinanggap ito ng supplier, at kinokontrol nito ang gastos dahil kailangan munang maaprubahan bago lumabas ang pera." },
+    { "eyebrow": "Paano ito gumagana", "title": "Gumawa, aprubahan, tanggapin, itugma", "body": "Pinapatakbo ng Paper & Pen ang buong procure-to-pay na daloy, kaya naaaprubahan, nasusubaybayan at naitutugma ang bawat order.", "items": ["Gumawa ng PO mula sa low-stock alert o mula sa simula", "Ipadaan ito sa internal na pag-apruba bago ipadala", "Ipadala sa supplier sa WhatsApp o email", "Tanggapin ang produkto laban sa PO at i-update ang stock", "Gawing bill ng supplier at itugma sa PO at delivery"] },
+    { "eyebrow": "Bakit ito mahalaga", "title": "Kontrolin ang gastos bago ito mangyari", "body": "Inililipat ng purchase order ang kontrol sa gastos bago lumabas ang pera, hindi pagkatapos. Dahil sa pag-apruba, pagsubaybay ng delivery at three-way matching sa pagitan ng PO, natanggap na produkto at bill ng supplier, nahuhuli mo ang sobrang singil at kulang na delivery bago ka magbayad. Ang disiplinang ito ay kayang lumaki mula sa iisang buyer hanggang sa buong procurement team." }
+  ],
+  "faqs": [
+    { "q": "Para saan ang purchase order?", "a": "Pormal itong humihiling ng produkto o serbisyo sa supplier sa napagkasunduang presyo, kinokontrol ang gastos sa pamamagitan ng pag-apruba, at nagbibigay sa supplier ng reference na babanggitin sa invoice nila." },
+    { "q": "Libre ba ang purchase order software?", "a": "Oo. Libre habambuhay sa Paper & Pen ang paggawa, pag-apruba at pagsubaybay ng mga purchase order." },
+    { "q": "Puwede ko bang aprubahan ang PO bago ito ipadala?", "a": "Oo. Ipadaan ang purchase order sa internal na pag-apruba para walang maorder nang walang tamang pirma." },
+    { "q": "Puwede ko bang itugma ang PO sa bill ng supplier?", "a": "Oo. Gawing bill ng supplier ang natanggap na PO at itugma ito nang three-way laban sa order at sa natanggap na produkto para mahuli ang mga hindi pagkakatugma." },
+    { "q": "Ina-update ba ng pagtanggap ng PO ang stock ko?", "a": "Gamit ang opsyonal na Inventory module, kusang tumataas ang stock kapag tinanggap ang produkto laban sa PO." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Umorder nang may kontrol, hindi gulo",
+  "ctaSub": "Gumawa ng libreng Paper & Pen workspace, gumawa ng aprubadong purchase order, at kusang itugma ito sa mga bill."
+}

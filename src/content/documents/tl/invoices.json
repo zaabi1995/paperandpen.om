@@ -1,0 +1,36 @@
+{
+  "locale": "tl",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Mga Invoice",
+  "metaTitle": "Online na Invoicing · Gumawa at Magpadala nang Libre · Paper & Pen",
+  "metaDescription": "Gumawa ng maayos na invoice online nang libre, sa kahit anong currency. Ipadala sa WhatsApp o email, tumanggap ng online na bayad, at subaybayan ang bayad at overdue.",
+  "keywords": "invoice, online invoice, gumawa ng invoice, invoicing software, libreng invoice, VAT invoice, GST invoice, ipadala ang invoice sa WhatsApp",
+  "heroEyebrow": "Invoicing",
+  "heroTitle": "Gumawa at magpadala ng maayos na <em class=\"text-copper-400 not-italic\">invoice</em> nang libre",
+  "heroSubtitle": "Singilin ang kahit anong kliyente, sa kahit anong currency, gamit ang tax rate na pipiliin mo. Ipadala sa WhatsApp o email, mabayaran online, at laging alam kung ano ang bayad, due at overdue.",
+  "heroBullets": ["Libre habambuhay ang invoicing", "Kahit anong currency, kahit anong tax rate", "Ipadala sa WhatsApp o email"],
+  "features": [
+    { "icon": "invoice", "title": "Branded na invoice", "desc": "Idagdag ang logo, kulay at terms mo. Maayos tingnan ang bawat invoice at malinis kapag na-print." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Mag-invoice sa USD, EUR, GBP, INR, AED, SAR, OMR at iba pa, may tamang decimal." },
+    { "icon": "calc", "title": "Handa sa VAT at tax", "desc": "Gamitin ang kahit anong VAT, GST o sales-tax rate. Kinukuwenta ang tax sa net, pagkatapos ng discount." },
+    { "icon": "whatsapp", "title": "Ipadala kahit saan", "desc": "Magbahagi ng link o PDF sa WhatsApp, email o i-download. Isang tap lang ang bayad ng kliyente." },
+    { "icon": "card", "title": "Mabayaran online", "desc": "Tumanggap ng card at lokal na paraan ng bayad para agad mabayaran ng kliyente ang invoice." },
+    { "icon": "bell", "title": "Awtomatikong paalala", "desc": "Kusang lumalabas ang magalang na paalala sa bayad hanggang mabayaran ang invoice." }
+  ],
+  "sections": [
+    { "eyebrow": "Ano ang invoice", "title": "Ano ang invoice?", "body": "Ang invoice ay komersyal na dokumentong inilalabas ng nagbebenta sa bumibili para humingi ng bayad sa produkto o serbisyong naibigay. Nakalista rito ang mga item, dami, presyo bawat isa, tax at kabuuang halagang babayaran, kasama ang terms at due date. Ang malinaw at may numerong invoice ang legal na tala ng benta at ang hudyat para bayaran ka ng customer." },
+    { "eyebrow": "Paano ito gumagana", "title": "Mula draft hanggang bayad sa ilang minuto", "body": "Buuin ang invoice mula sa quotation o mula sa simula, ipadala, at hayaan ang Paper & Pen sa iba pa. Kusang magkakasabay ang bayad, paalala at libro mo.", "items": ["Gumawa mula sa naka-save na listahan ng kliyente at produkto, o magsimula sa blangko", "Itakda ang currency, tax rate at terms ng bayad", "Ipadala sa WhatsApp o email na may pay-online link", "Subaybayan ang status: draft, naipadala, bahagyang bayad, bayad, overdue", "Itala ang manu-manong bayad o hayaang kusang mag-reconcile ang online na bayad"] },
+    { "eyebrow": "Gawa para sa buong mundo", "title": "Lokal na lakas, pandaigdigang abot", "body": "Gumagana ang Paper & Pen para sa negosyo saanman. Kung nasa GCC ka, makakakuha ka agad ng Arabic na invoice, native na formatting ng OMR, AED at SAR, naa-adjust na VAT preset at card payment sa Paymob. Sa ibang lugar, piliin mo lang ang currency, tax rate at wika mo." }
+  ],
+  "faqs": [
+    { "q": "Libre ba talaga ang invoicing?", "a": "Oo. Libre habambuhay sa Paper & Pen ang paggawa, pagpapadala at pagsubaybay ng mga invoice. Magbabayad ka lang kung magdadagdag ka ng opsyonal na module tulad ng Imbentaryo, HR o Accounting." },
+    { "q": "Puwede ba akong mag-invoice sa kahit anong currency?", "a": "Oo. Pumili ng kahit anong currency, kasama ang USD, EUR, GBP, INR, AED, SAR at OMR. Kusang nag-a-adjust ang decimal (halimbawa, tatlong decimal para sa OMR)." },
+    { "q": "Kaya ba nito ang VAT o GST?", "a": "Oo. Magtakda ng kahit anong tax rate bawat invoice o bawat linya. May naa-adjust na VAT preset ang mga user sa GCC, at laging kinukuwenta ang tax sa halaga pagkatapos ng discount." },
+    { "q": "Paano ako binabayaran ng kliyente?", "a": "Ipadala ang invoice na may pay-online link at makakabayad ang kliyente gamit ang card o lokal na paraan sa isang tap. Puwede mo ring manu-manong itala ang cash, bank transfer o tseke." },
+    { "q": "Puwede ba akong magpadala ng invoice sa WhatsApp?", "a": "Oo. Ibahagi ang invoice bilang link o PDF diretso sa WhatsApp, o ipadala sa email. Pareho nilang dala ang pay-online button para mas mabilis kang mabayaran." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Ipadala ang una mong invoice sa loob ng ilang minuto",
+  "ctaSub": "Gumawa ng libreng Paper & Pen workspace, idagdag ang logo mo, at magpadala ng maayos na invoice na nababayaran online."
+}

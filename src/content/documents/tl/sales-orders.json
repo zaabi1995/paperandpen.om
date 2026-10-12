@@ -1,0 +1,36 @@
+{
+  "locale": "tl",
+  "slug": "sales-orders",
+  "order": 9,
+  "title": "Mga Sales Order",
+  "metaTitle": "Software para sa Sales Order · Paper & Pen",
+  "metaDescription": "Gumawa ng maayos na sales order online nang libre, sa kahit anong currency. Kumpirmahin ang order ng customer, subaybayan ang fulfilment at deposito.",
+  "keywords": "sales order, gumawa ng sales order, sales order software, libreng sales order, order ng customer, pamamahala ng order, sales order papuntang invoice",
+  "heroEyebrow": "Mga sales order",
+  "heroTitle": "Kumpirmahin at tuparin ang order ng customer gamit ang <em class=\"text-copper-400 not-italic\">sales order</em>",
+  "heroSubtitle": "Itala ang napagkasunduan ng customer, subaybayan ang deposito at fulfilment, saka gawing delivery note o invoice sa isang click. Sa kahit anong currency, kahit saan.",
+  "heroBullets": ["Libre habambuhay", "Subaybayan ang deposito at fulfilment", "Gawing delivery note o invoice"],
+  "features": [
+    { "icon": "cart", "title": "Tala ng kumpirmadong order", "desc": "May numerong sales order na eksaktong nagtatala ng napagkasunduang bilhin ng customer." },
+    { "icon": "card", "title": "Mga deposito", "desc": "Maningil ng deposito laban sa order at subaybayan ang natitirang balanse." },
+    { "icon": "truck", "title": "Pagsubaybay ng fulfilment", "desc": "Makita kung ano ang pending, bahagyang naihatid at kumpleto na sa bawat order." },
+    { "icon": "refresh", "title": "I-convert sa isang click", "desc": "Gawing delivery note o invoice ang sales order nang hindi nagta-type ulit." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Mag-order sa USD, EUR, AED, SAR, OMR, INR at iba pa, may tamang tax at decimal." },
+    { "icon": "whatsapp", "title": "Ipadala kahit saan", "desc": "Ibahagi ang kumpirmasyon ng order sa WhatsApp o email para may tala ang customer." }
+  ],
+  "sections": [
+    { "eyebrow": "Ano ang sales order", "title": "Ano ang sales order?", "body": "Ang sales order ay dokumentong ginagawa ng nagbebenta para kumpirmahin ang order ng customer pagkatapos tanggapin ang quotation. Itinatala nito ang napagkasunduang item, dami, presyo, tax at terms ng delivery, at ito ang nagiging internal na utos para tuparin at saka i-bill ang order. Nasa pagitan ito ng quotation at invoice, kaya may malinis kang tala ng ipinangako bago pa may maipadala." },
+    { "eyebrow": "Paano ito gumagana", "title": "Kumpirmahin, tuparin, i-invoice", "body": "Ikinokonekta ng Paper & Pen ang sales order sa buong daloy, kaya nagiging natupad at na-invoice na order ang tinanggap na quote nang walang pagta-type ulit.", "items": ["Gawing sales order ang tinanggap na quotation, o gumawa nang direkta", "Maningil ng deposito at subaybayan ang balanse", "Tuparin ang order gamit ang delivery note", "Gawing invoice sa isang click", "Makita ang status ng order: pending, bahagyang naihatid, kumpleto, na-invoice"] },
+    { "eyebrow": "Ang buong kadena", "title": "Mula quote hanggang cash, konektado", "body": "Quotation, sales order, delivery note, invoice, bayad, at credit note kung kailangan. Iniuugnay ng Paper & Pen ang bawat hakbang, kaya dala ng bawat dokumento ang laman nito papunta sa susunod, laging tugma ang mga total, at nag-a-update ang accounts mo habang umuusad ang order. Walang tina-type nang dalawang beses at walang nakakaligtaan." }
+  ],
+  "faqs": [
+    { "q": "Ano ang pagkakaiba ng sales order at invoice?", "a": "Kinukumpirma ng sales order kung ano ang napagkasunduang bilhin ng customer at ito ang utos para tuparin ito. Humihingi ng bayad ang invoice kapag naihatid na ang produkto o serbisyo. Ginagawa mong isa ang isa pa sa isang click." },
+    { "q": "Libre ba ang sales order software?", "a": "Oo. Libre habambuhay sa Paper & Pen ang paggawa, pagsubaybay at pagtupad ng mga sales order." },
+    { "q": "Puwede ba akong kumuha ng deposito sa sales order?", "a": "Oo. Maningil ng deposito laban sa order at subaybayan ang natitirang balanse hanggang ma-invoice at mabayaran ito." },
+    { "q": "Puwede ko bang gawing sales order ang quote?", "a": "Oo. Nagiging sales order ang tinanggap na quotation sa isang click, dala ang bawat linya, discount at tax." },
+    { "q": "Paano ko tutuparin ang sales order?", "a": "Gumawa ng delivery note mula sa sales order para ipadala ang produkto, saka gawin itong invoice. Nag-a-update ang status ng fulfilment habang umuusad ka." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/delivery-notes", "/invoicing/invoices", "/features/sales-crm", "/free-invoicing-software"],
+  "ctaTitle": "Patakbuhin ang quote to cash sa iisang lugar",
+  "ctaSub": "Gumawa ng libreng Paper & Pen workspace at gawing natupad at na-invoice na sales order ang mga tinanggap na quote nang walang pagta-type ulit."
+}

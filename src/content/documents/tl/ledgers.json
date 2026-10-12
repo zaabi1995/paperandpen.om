@@ -1,0 +1,36 @@
+{
+  "locale": "tl",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Mga Ledger",
+  "metaTitle": "Mga Ledger at Statement · Paper & Pen",
+  "metaDescription": "Tingnan ang ledger ng customer at supplier online nang libre, sa kahit anong currency. Makita ang bawat invoice, bayad at credit note sa iisang tuloy-tuloy na statement.",
+  "keywords": "ledger, ledger ng customer, ledger ng supplier, account statement, general ledger, ledger software, statement of account",
+  "heroEyebrow": "Mga ledger",
+  "heroTitle": "Bawat transaksyon sa iisang malinaw na <em class=\"text-copper-400 not-italic\">ledger</em>",
+  "heroSubtitle": "Makita ang tuloy-tuloy na statement ng bawat invoice, bayad, credit note at adjustment para sa bawat customer at supplier, sa kahit anong currency. Magbahagi ng statement sa isang tap. Libre habambuhay.",
+  "heroBullets": ["Libre habambuhay", "Tuloy-tuloy na balanse", "Ibahagi agad ang statement"],
+  "features": [
+    { "icon": "chart", "title": "Ledger ng customer", "desc": "Tuloy-tuloy na statement bawat customer: invoice, bayad at credit note na may live na balanse." },
+    { "icon": "accounting", "title": "Ledger ng supplier", "desc": "Subaybayan ang bill, bayad at debit note bawat supplier para laging alam mo ang utang mo." },
+    { "icon": "doc", "title": "Statement of account", "desc": "Gumawa at magpadala ng statement of account para sa kahit anong date range sa isang tap." },
+    { "icon": "shield", "title": "Laging reconciled", "desc": "Nag-a-update ang ledger mula sa parehong entry ng invoice at bayad mo, kaya laging tugma." },
+    { "icon": "globe", "title": "Kahit anong currency", "desc": "Tingnan ang balanse sa USD, EUR, AED, SAR, OMR, INR at iba pa, may tamang decimal." },
+    { "icon": "whatsapp", "title": "Ibahagi kahit saan", "desc": "Ipadala ang statement sa WhatsApp o email para mabayaran ng customer ang natitirang balanse." }
+  ],
+  "sections": [
+    { "eyebrow": "Ano ang ledger", "title": "Ano ang ledger?", "body": "Ang ledger ay tuloy-tuloy na tala ng lahat ng transaksyong may epekto sa isang account, na may balanseng dala-dala pagkatapos ng bawat entry. Ipinapakita ng ledger ng customer ang bawat invoice na ginawa mo, bawat bayad na natanggap at bawat credit note, hanggang sa balanseng utang nila. Ang statement of account ay ang ledger na iyon na ipinapakita sa customer para sa isang panahon. Ang mga ledger ang gulugod para malaman kung sino ang may utang at kanino ka may utang." },
+    { "eyebrow": "Paano ito gumagana", "title": "Iisang pinagmumulan ng katotohanan", "body": "Sa Paper & Pen, hindi hiwalay na spreadsheet ang ledger. Binubuo ito mula sa parehong invoice, bayad at credit note na ginagawa mo na.", "items": ["Buksan ang kahit anong customer o supplier para makita ang buong ledger nila", "Lumalabas ang bawat invoice, bayad, credit at debit note na may tuloy-tuloy na balanse", "I-filter ayon sa date range para sa malinis na statement of account", "Ipadala ang statement sa WhatsApp o email sa isang tap", "Laging tugma ang balanse sa mga invoice at accounts mo"] },
+    { "eyebrow": "Bakit ito mahalaga", "title": "Mas mabilis maningil, walang dobleng bayad", "body": "Kapag nagtanong ang customer tungkol sa balanse, tapos ang usapan sa ilang segundo dahil sa malinaw na ledger. Kapag kailangan mong maningil, ang statement of account ang pinakamabisang dokumentong maipapadala mo. At dahil sinusubaybayan ng ledger ng supplier ang utang mo, hindi ka magbabayad ng bill nang dalawang beses o makakaligtaan ang debit note. Iisang reconciled na tala, para sa magkabilang panig ng negosyo mo." }
+  ],
+  "faqs": [
+    { "q": "Ano ang ledger ng customer?", "a": "Tuloy-tuloy na statement ng bawat invoice, bayad at credit note para sa isang customer, hanggang sa balanseng utang niya sa iyo ngayon." },
+    { "q": "Libre ba ang mga ledger?", "a": "Oo. Libre habambuhay sa Paper & Pen ang ledger ng customer at supplier at ang statement of account." },
+    { "q": "Puwede ba akong magpadala ng statement of account?", "a": "Oo. Gumawa ng statement para sa kahit anong date range at ipadala ito sa WhatsApp o email sa isang tap para makapagbayad ang customer." },
+    { "q": "Nananatili bang reconciled ang mga ledger?", "a": "Oo. Binubuo ang ledger mula sa parehong entry ng invoice at bayad mo, kaya laging tugma ang balanse sa accounts mo." },
+    { "q": "Makikita ko ba ang utang ko sa mga supplier?", "a": "Oo. Sinusubaybayan ng ledger ng supplier ang bill, bayad at debit note para laging alam mo kung magkano eksakto ang natitira sa bawat supplier." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Makita agad kung sino ang may utang at magkano",
+  "ctaSub": "Gumawa ng libreng Paper & Pen workspace at magkaroon ng malinis at reconciled na ledger para sa bawat customer at supplier."
+}
