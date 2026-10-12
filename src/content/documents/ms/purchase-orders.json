@@ -1,0 +1,36 @@
+{
+  "locale": "ms",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Pesanan Belian",
+  "metaTitle": "Perisian Pesanan Belian · Paper & Pen",
+  "metaDescription": "Cipta pesanan belian profesional dalam talian secara percuma dalam sebarang mata wang. Hantar PO kepada pembekal, jejak kelulusan dan penghantaran.",
+  "keywords": "pesanan belian, cipta pesanan belian, po, perisian pesanan belian, pesanan belian percuma, pesanan pembekal, po ke bil",
+  "heroEyebrow": "Pesanan belian",
+  "heroTitle": "Buat pesanan daripada pembekal dengan <em class=\"text-copper-400 not-italic\">pesanan belian</em> yang sah",
+  "heroSubtitle": "Keluarkan, luluskan dan hantar pesanan belian kepada pembekal dalam sebarang mata wang, kemudian padankan dengan penghantaran dan bil bersama jejak audit yang jelas. Percuma selamanya.",
+  "heroBullets": ["Percuma selamanya", "Luluskan sebelum dihantar", "Padankan dengan bil pembekal"],
+  "features": [
+    { "icon": "cart", "title": "Pesanan belian berjenama", "desc": "Keluarkan PO bernombor yang jelas kepada pembekal dengan terma dan butiran penghantaran anda." },
+    { "icon": "check", "title": "Kelulusan sebelum dihantar", "desc": "Hantar PO untuk kelulusan dalaman supaya tiada apa dipesan tanpa kebenaran." },
+    { "icon": "truck", "title": "Jejak penghantaran", "desc": "Lihat apa yang dipesan, diterima sebahagian dan diterima sepenuhnya bagi setiap PO." },
+    { "icon": "refresh", "title": "Padankan dengan bil", "desc": "Tukar PO yang diterima kepada bil pembekal dan buat padanan tiga hala untuk ketepatan." },
+    { "icon": "globe", "title": "Sebarang mata wang", "desc": "Buat pesanan dalam USD, EUR, AED, SAR, OMR, INR dan banyak lagi, dengan cukai dan titik perpuluhan yang betul." },
+    { "icon": "whatsapp", "title": "Hantar ke mana-mana", "desc": "Kongsi PO dengan pembekal melalui WhatsApp atau e-mel dengan satu ketikan." }
+  ],
+  "sections": [
+    { "eyebrow": "Apakah pesanan belian", "title": "Apakah itu pesanan belian?", "body": "Pesanan belian (PO) ialah dokumen yang dihantar oleh pembeli kepada pembekal untuk meminta barang atau perkhidmatan secara rasmi pada harga yang dipersetujui. Ia menyenaraikan item, kuantiti, harga seunit, cukai, terma penghantaran dan nombor PO yang akan dinyatakan semula oleh pembekal pada invois mereka. PO menjadi komitmen yang mengikat sebaik sahaja pembekal menerimanya, dan ia mengawal perbelanjaan dengan mewajibkan kelulusan sebelum wang dikeluarkan." },
+    { "eyebrow": "Cara ia berfungsi", "title": "Keluarkan, luluskan, terima, padankan", "body": "Paper & Pen menjalankan aliran perolehan hingga bayaran sepenuhnya supaya setiap pesanan diluluskan, dijejak dan dipadankan.", "items": ["Keluarkan PO daripada amaran stok rendah atau dari awal", "Hantar untuk kelulusan dalaman sebelum ia dihantar", "Hantar kepada pembekal melalui WhatsApp atau e-mel", "Terima barang terhadap PO dan kemas kini stok", "Tukar kepada bil pembekal dan padankan dengan PO serta penghantaran"] },
+    { "eyebrow": "Mengapa ia penting", "title": "Kawal perbelanjaan sebelum ia berlaku", "body": "Pesanan belian memindahkan kawalan perbelanjaan ke sebelum wang keluar, bukan selepasnya. Dengan kelulusan, penjejakan penghantaran dan padanan tiga hala antara PO, barang yang diterima dan bil pembekal, anda dapat mengesan caj berlebihan dan penghantaran tidak cukup sebelum membayar. Disiplin ini boleh berkembang daripada seorang pembeli hingga satu pasukan perolehan penuh." }
+  ],
+  "faqs": [
+    { "q": "Untuk apa pesanan belian digunakan?", "a": "Ia meminta barang atau perkhidmatan daripada pembekal secara rasmi pada harga yang dipersetujui, mengawal perbelanjaan melalui kelulusan dan memberi pembekal rujukan untuk dinyatakan pada invois mereka." },
+    { "q": "Adakah perisian pesanan belian ini percuma?", "a": "Ya. Mencipta, meluluskan dan menjejak pesanan belian adalah percuma selamanya di Paper & Pen." },
+    { "q": "Bolehkah saya luluskan PO sebelum ia dihantar?", "a": "Ya. Hantar pesanan belian untuk kelulusan dalaman supaya tiada apa dipesan tanpa kebenaran yang betul." },
+    { "q": "Bolehkah saya padankan PO dengan bil pembekal?", "a": "Ya. Tukar PO yang diterima kepada bil pembekal dan padankan secara tiga hala dengan pesanan dan barang yang diterima untuk mengesan percanggahan." },
+    { "q": "Adakah penerimaan PO mengemas kini stok saya?", "a": "Dengan modul Inventori pilihan, penerimaan barang terhadap PO menambah paras stok secara automatik." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Buat pesanan dengan kawalan, bukan kekalutan",
+  "ctaSub": "Cipta ruang kerja Paper & Pen percuma, keluarkan pesanan belian yang diluluskan dan padankan dengan bil secara automatik."
+}
