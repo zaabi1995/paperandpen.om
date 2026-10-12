@@ -1,0 +1,45 @@
+{
+  "locale": "cs",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen oproti Tally",
+  "metaTitle": "Paper & Pen oproti Tally · Cloudová alternativa zdarma",
+  "metaDescription": "Porovnejte Paper & Pen a Tally podle přístupu z cloudu, bezplatného tarifu, arabštiny zprava doleva, více měn a plateb online. Moderní alternativa zdarma v cloudu.",
+  "keywords": "paper and pen vs tally, alternativa k tally, cloudová alternativa k tally, bezplatná alternativa k tally, tally prime online, arabský účetní software",
+  "heroEyebrow": "Srovnání",
+  "heroTitle": "Paper & Pen oproti <em class=\"text-copper-400 not-italic\">Tally</em>",
+  "heroSubtitle": "Tally je osvědčený účetní pracovní kůň s hlubokými kořeny. Paper & Pen je cloudové ERP zdarma, které otevřete v prohlížeči, s arabštinou, platbami online a jakoukoli měnou. Tady je upřímné srovnání.",
+  "heroBullets": ["Cloud, otevřete z jakéhokoli prohlížeče", "Prodej a fakturace navždy zdarma", "Arabština zprava doleva plus platby kartou online"],
+  "features": [
+    { "icon": "globe", "title": "Opravdový cloud", "desc": "Žádná instalace, žádný licenční klíč, žádné nastavení na každém počítači. Paper & Pen otevřete kdekoli, na jakémkoli zařízení." },
+    { "icon": "card", "title": "Platby online", "desc": "Každá faktura může nést odkaz pro platbu přes Paymob, takže zákazníci platí kartou a platba se spáruje sama." },
+    { "icon": "check", "title": "Zdarma na začátek", "desc": "Fakturace a prodej jsou navždy zdarma, bez nutnosti kupovat licenci, než vystavíte první doklad." }
+  ],
+  "sections": [
+    { "eyebrow": "Upřímný pohled", "title": "V čem je Tally silný", "body": "Tally má dlouhou historii, hluboké zákonné účetnictví a obrovskou základnu účetních, kteří ho znají do detailu. Pro složité vedení účetnictví offline školeným operátorem je rychlý a spolehlivý. Mnoho firem na něm spokojeně běží roky.", "items": ["Hluboký, ve válce prověřený účetní engine", "Známý velkému okruhu účetních", "Po instalaci funguje offline"] },
+    { "eyebrow": "V čem vyhráváme", "title": "Cloud, arabština a placení", "body": "Paper & Pen běží v prohlížeči, takže váš tým i účetní vidí stejná živá data odkudkoli, bez instalací a rozdílů ve verzích. Je na prvním místě arabský, s plným rozhraním zprava doleva, fakturuje nativně v OMR, AED, SAR i jakékoli měně a na každou fakturu dává odkaz pro platbu online. Výchozí bod je opravdu zdarma.", "items": ["Žádné instalace, vždy nejnovější verze", "Arabské rozhraní zprava doleva i doklady", "Odkazy pro platbu online na fakturách, bezplatné jádro"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "Tarif navždy zdarma", "values": [true, false] },
+    { "feature": "Cena od", "values": ["Zdarma", "Placená licence"] },
+    { "feature": "Přístup z cloudu / prohlížeče", "values": [true, "Doplněk"] },
+    { "feature": "Arabské rozhraní zprava doleva", "values": [true, "Omezené"] },
+    { "feature": "Více měn", "values": [true, true] },
+    { "feature": "Platby kartou online (Paymob)", "values": [true, false] },
+    { "feature": "Vícejazyčné rozhraní (5)", "values": [true, "Omezené"] },
+    { "feature": "Rychlost zahájení", "values": ["Minuty", "Instalace a školení"] },
+    { "feature": "Moduly Sklad a HR", "values": [true, "Sklad ano, HR omezené"] }
+  ],
+  "faqs": [
+    { "q": "Je Paper & Pen dobrá alternativa k Tally?", "a": "Ano, pokud chcete přístup z cloudu, platby online a arabské rozhraní bez nákupu licence. Tally zůstává silný pro zákonné vedení účetnictví offline školeným operátorem." },
+    { "q": "Mohu používat Paper & Pen bez instalace?", "a": "Ano. Je plně cloudové. Otevřete ho v prohlížeči na jakémkoli zařízení a všichni vidí stejná živá data." },
+    { "q": "Podporuje Paper & Pen více měn jako Tally?", "a": "Ano. Můžete fakturovat v OMR, AED, SAR, USD, EUR a dalších, se správnými desetinnými místy u každého dokladu." },
+    { "q": "Mohou zákazníci platit moje faktury online?", "a": "Ano. Každá faktura může obsahovat odkaz pro platbu přes Paymob, takže zákazníci platí kartou a platba se spáruje automaticky." },
+    { "q": "Existuje bezplatná verze?", "a": "Ano. Prodej a fakturace jsou navždy zdarma. Platíte jen tehdy, když přidáte moduly, jako je Sklad, HR nebo Účetnictví." }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Přejděte do cloudu zdarma",
+  "ctaSub": "Otevřete bezplatný pracovní prostor Paper & Pen v prohlížeči a vystavte první fakturu za pár minut. Bez licence, bez instalace."
+}

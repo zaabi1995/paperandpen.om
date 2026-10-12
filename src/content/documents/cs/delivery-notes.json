@@ -1,0 +1,36 @@
+{
+  "locale": "cs",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Dodací listy",
+  "metaTitle": "Tvorba dodacích listů online zdarma · Paper & Pen",
+  "metaDescription": "Vytvářejte profesionální dodací listy online zdarma. Vypište odeslané zboží, zaznamenejte potvrzení převzetí a dodací list jedním kliknutím převeďte na fakturu.",
+  "keywords": "dodací list, vytvořit dodací list, tvorba dodacích listů, potvrzení převzetí, dodací list zdarma, expediční list, doklad o dodání zboží",
+  "heroEyebrow": "Dodací listy",
+  "heroTitle": "Zboží vždy odešlete s přehledným <em class=\"text-copper-400 not-italic\">dodacím listem</em>",
+  "heroSubtitle": "Vypište dodávané zboží, při převzetí zaznamenejte potvrzení a dodací list jedním kliknutím převeďte na fakturu. Funguje kdekoli.",
+  "heroBullets": ["Navždy zdarma", "Potvrzení převzetí", "Převod na fakturu"],
+  "features": [
+    { "icon": "truck", "title": "Doklad o expedici zboží", "desc": "Vypište odeslané položky a množství, s cenami nebo bez nich, na přehledném firemním dokladu." },
+    { "icon": "check", "title": "Potvrzení převzetí", "desc": "Zaznamenejte, kdo zboží převzal a kdy, aby se o dodávkách nikdy nevedly spory." },
+    { "icon": "refresh", "title": "Převod na fakturu", "desc": "Po převzetí zboží změňte dodací list na fakturu jedním kliknutím." },
+    { "icon": "inventory", "title": "Napojeno na sklad", "desc": "S modulem Sklad může dodací list automaticky snižovat stav zásob." },
+    { "icon": "globe", "title": "Funguje kdekoli", "desc": "Používá se po celém světě jako dodací list, ve vašem jazyce a měně." },
+    { "icon": "whatsapp", "title": "Odešlete kamkoli", "desc": "Sdílejte dodací list přes WhatsApp nebo e-mail, aby měl zákazník doklad v ruce." }
+  ],
+  "sections": [
+    { "eyebrow": "Co je dodací list", "title": "Co je dodací list?", "body": "Dodací list (anglicky delivery note, delivery challan nebo packing slip) je doklad, který doprovází zásilku zboží a uvádí, co se dodává. Příjemce zboží podle něj zkontroluje a podpisem potvrdí převzetí. Je to důkaz, že zboží opustilo vaše prostory a dorazilo k zákazníkovi, a také most mezi objednávkou a navazující fakturou." },
+    { "eyebrow": "Jak to funguje", "title": "Expedice, potvrzení, faktura", "body": "Paper & Pen propojí dodací list s vaší objednávkou a fakturou, takže expedice a fakturace jdou ruku v ruce.", "items": ["Vytvořte dodací list z objednávky nebo od nuly", "Zvolte, zda se zobrazí ceny, nebo jen množství", "Odešlete nebo vytiskněte, aby putoval se zbožím", "Při podpisu zákazníka zaznamenejte potvrzení převzetí", "Dodací list jedním kliknutím převeďte na fakturu"] },
+    { "eyebrow": "Dodací list a faktura", "title": "Dodací list, nebo faktura?", "body": "Dodací list zaznamenává, co se fyzicky přesunulo, a potvrzuje převzetí, není to výzva k platbě. Faktura žádá o zaplacení tohoto zboží. Mnoho firem nejdřív dodává na dodací list a fakturuje až podle dohodnutých podmínek. Paper & Pen to umožňuje přesně tak: potvrzenou dodávku převede na fakturu bez opětovného přepisování." }
+  ],
+  "faqs": [
+    { "q": "Jaký je rozdíl mezi dodacím listem a fakturou?", "a": "Dodací list uvádí a potvrzuje dodané zboží, bez výzvy k platbě. Faktura žádá o zaplacení. Dodací list můžete jedním kliknutím převést na fakturu." },
+    { "q": "Je tvorba dodacích listů zdarma?", "a": "Ano. Vytváření, odesílání a sledování dodacích listů je v Paper & Pen navždy zdarma." },
+    { "q": "Může dodací list skrýt ceny?", "a": "Ano. Zvolte, zda se zobrazí ceny, nebo jen množství, což se hodí, když sklad nebo kurýr nemá ceny vidět." },
+    { "q": "Zaznamená i potvrzení převzetí?", "a": "Ano. Zapište, kdo zboží převzal a kdy, aby se dodávka později nikdy nezpochybňovala." },
+    { "q": "Aktualizuje dodací list můj sklad?", "a": "S volitelným modulem Sklad může dodací list při odchodu zboží automaticky snižovat stav zásob." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Posílejte zboží vždy s potvrzením",
+  "ctaSub": "Vytvořte si bezplatný pracovní prostor Paper & Pen, odešlete přehledný dodací list, zaznamenejte potvrzení převzetí a jedním kliknutím fakturujte."
+}

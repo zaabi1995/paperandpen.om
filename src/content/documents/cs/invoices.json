@@ -1,0 +1,36 @@
+{
+  "locale": "cs",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Faktury",
+  "metaTitle": "Online fakturace · Vytvářejte a odesílejte faktury zdarma · Paper & Pen",
+  "metaDescription": "Vytvářejte profesionální faktury online zdarma v jakékoli měně. Odesílejte je přes WhatsApp nebo e-mail, přijímejte platby online a sledujte, co je zaplaceno a po splatnosti.",
+  "keywords": "faktura, online faktura, vytvořit fakturu, fakturační software, faktura zdarma, faktura s dph, faktura s gst, poslat fakturu přes whatsapp",
+  "heroEyebrow": "Fakturace",
+  "heroTitle": "Vytvářejte a odesílejte profesionální <em class=\"text-copper-400 not-italic\">faktury</em> zdarma",
+  "heroSubtitle": "Fakturujte kterémukoli klientovi, v jakékoli měně a s daní, kterou zvolíte. Odesílejte přes WhatsApp nebo e-mail, nechte si platit online a vždy víte, co je zaplaceno, splatné a po splatnosti.",
+  "heroBullets": ["Fakturace navždy zdarma", "Jakákoli měna, jakákoli sazba daně", "Odeslání přes WhatsApp nebo e-mail"],
+  "features": [
+    { "icon": "invoice", "title": "Faktury s vaší značkou", "desc": "Přidejte logo, barvy a podmínky. Každá faktura vypadá profesionálně a čistě se tiskne." },
+    { "icon": "globe", "title": "Jakákoli měna", "desc": "Fakturujte v USD, EUR, GBP, INR, AED, SAR, OMR a dalších měnách se správnými desetinnými místy." },
+    { "icon": "calc", "title": "Připraveno na DPH a daně", "desc": "Uplatněte libovolnou sazbu DPH, GST nebo prodejní daně. Daň se počítá z čisté částky po slevách." },
+    { "icon": "whatsapp", "title": "Odešlete kamkoli", "desc": "Sdílejte odkaz nebo PDF přes WhatsApp, e-mail, nebo si fakturu stáhněte. Klient může zaplatit jedním klepnutím." },
+    { "icon": "card", "title": "Platby online", "desc": "Přijímejte karty a místní platební metody, aby klienti fakturu uhradili okamžitě." },
+    { "icon": "bell", "title": "Automatické upomínky", "desc": "Zdvořilé upomínky k platbě odcházejí automaticky, dokud faktura není zaplacena." }
+  ],
+  "sections": [
+    { "eyebrow": "Co je faktura", "title": "Co je faktura?", "body": "Faktura je obchodní doklad, kterým prodávající žádá kupujícího o zaplacení dodaného zboží nebo služeb. Uvádí položky, množství, jednotkové ceny, daně a celkovou částku k úhradě spolu s platebními podmínkami a datem splatnosti. Přehledná, číslovaná faktura je právním záznamem o prodeji a podnětem, aby vám zákazník zaplatil." },
+    { "eyebrow": "Jak to funguje", "title": "Od konceptu k zaplacení během minut", "body": "Sestavte fakturu z nabídky nebo od nuly, odešlete ji a zbytek nechte na Paper & Pen. Platby, upomínky i vaše účetnictví se synchronizují automaticky.", "items": ["Vytvořte ji z uloženého seznamu klientů a produktů, nebo začněte prázdnou", "Nastavte měnu, sazbu daně a platební podmínky", "Odešlete přes WhatsApp nebo e-mail s odkazem pro platbu online", "Sledujte stav: koncept, odesláno, částečně uhrazeno, uhrazeno, po splatnosti", "Zaznamenejte ruční platby, nebo nechte online platby spárovat samy"] },
+    { "eyebrow": "Stvořeno pro svět", "title": "Místní silné stránky, globální dosah", "body": "Paper & Pen funguje firmám kdekoli. Pokud podnikáte ve státech Zálivu, máte rovnou arabské faktury, nativní formátování OMR, AED a SAR, nastavitelné předvolby DPH a platby kartou přes Paymob. Všude jinde si prostě zvolíte měnu, sazbu daně a jazyk." }
+  ],
+  "faqs": [
+    { "q": "Je fakturace opravdu zdarma?", "a": "Ano. Vytváření, odesílání a sledování faktur je v Paper & Pen navždy zdarma. Platíte jen tehdy, když přidáte volitelné moduly, například Sklad, HR nebo Účetnictví." },
+    { "q": "Mohu fakturovat v jakékoli měně?", "a": "Ano. Zvolte libovolnou měnu, včetně USD, EUR, GBP, INR, AED, SAR a OMR. Desetinná místa se upraví automaticky (například tři desetinná místa u OMR)." },
+    { "q": "Zvládá DPH nebo GST?", "a": "Ano. Nastavte libovolnou sazbu daně na fakturu nebo na řádek. Uživatelé ve státech Zálivu mají nastavitelnou předvolbu DPH a daň se vždy počítá z částky po slevách." },
+    { "q": "Jak mi klienti platí?", "a": "Odešlete fakturu s odkazem pro platbu online a klienti zaplatí kartou nebo místní metodou jedním klepnutím. Hotovost, bankovní převod nebo šek můžete také zapsat ručně." },
+    { "q": "Mohu posílat faktury přes WhatsApp?", "a": "Ano. Sdílejte fakturu jako odkaz nebo PDF rovnou na WhatsApp, nebo ji odešlete e-mailem. Obě cesty zachovají tlačítko pro platbu online, takže dostanete zaplaceno rychleji." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Odešlete první fakturu během pár minut",
+  "ctaSub": "Vytvořte si bezplatný pracovní prostor Paper & Pen, přidejte logo a odešlete profesionální fakturu, která se zaplatí online."
+}

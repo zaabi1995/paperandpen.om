@@ -1,0 +1,36 @@
+{
+  "locale": "cs",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Opakované faktury",
+  "metaTitle": "Opakované faktury · Automatická fakturace zdarma · Paper & Pen",
+  "metaDescription": "Nastavte opakované faktury online zdarma v jakékoli měně. Fakturujte předplatné a paušály automaticky a odesílejte je přes WhatsApp nebo e-mail.",
+  "keywords": "opakovaná faktura, automatická faktura, fakturace předplatného, paušální faktura, opakovaná fakturace, automatické vystavení faktury, plánovaná faktura",
+  "heroEyebrow": "Opakované faktury",
+  "heroTitle": "Fakturujte předplatné a paušály na <em class=\"text-copper-400 not-italic\">autopilota</em>",
+  "heroSubtitle": "Nastavte částku, měnu a rozvrh jednou a Paper & Pen vystaví a odešle každou fakturu automaticky. Vybírejte online ve stejném cyklu. Navždy zdarma.",
+  "heroBullets": ["Navždy zdarma", "Nastavíte jednou, fakturuje stále", "Automatický výběr online"],
+  "features": [
+    { "icon": "refresh", "title": "Nastavit a zapomenout", "desc": "Rozvrh definujete jednou a faktury se vystavují a odesílají samy včas." },
+    { "icon": "clock", "title": "Jakákoli frekvence", "desc": "Týdně, měsíčně, čtvrtletně nebo ročně, s datem zahájení a volitelným datem ukončení." },
+    { "icon": "card", "title": "Automatický výběr", "desc": "Odešlete každou fakturu s odkazem pro platbu online, nebo strhněte platbu automaticky v daném cyklu." },
+    { "icon": "globe", "title": "Jakákoli měna", "desc": "Fakturujte v USD, EUR, AED, SAR, OMR, INR a dalších měnách se správnou daní a desetinnými místy." },
+    { "icon": "whatsapp", "title": "Odešlete kamkoli", "desc": "Každá opakovaná faktura odchází automaticky přes WhatsApp nebo e-mail." },
+    { "icon": "bell", "title": "Upomínky v ceně", "desc": "Automatické upomínky k platbě urgují každou nezaplacenou opakovanou fakturu." }
+  ],
+  "sections": [
+    { "eyebrow": "Co je opakovaná faktura", "title": "Co je opakovaná faktura?", "body": "Opakovaná faktura je faktura, která se automaticky vystavuje podle pevného rozvrhu pro stejného zákazníka a ve stejné výši, používá se u předplatného, paušálů, členství, nájmu nebo servisních smluv. Místo vytváření faktury v každém cyklu ji definujete jednou a systém ji v každý termín vytvoří, očísluje a odešle, takže příjmy jsou předvídatelné a administrativa nulová." },
+    { "eyebrow": "Jak to funguje", "title": "Definujte jednou, běží navždy", "body": "Paper & Pen obstará celý cyklus, takže se opakované příjmy vybírají samy.", "items": ["Vytvořte opakovanou šablonu s položkami, měnou a daní", "Zvolte frekvenci, datum zahájení a volitelné datum ukončení", "V každém cyklu se faktura vystaví a odešle automaticky", "Zákazníci platí online a platby se spárují samy", "Upomínky automaticky urgují každou nezaplacenou opakovanou fakturu"] },
+    { "eyebrow": "Pro koho je", "title": "Ideální pro předvídatelné příjmy", "body": "Opakované faktury se hodí každé firmě s pravidelným fakturováním: SaaS a předplatné, agentury na paušál, posilovny a členství, nájem nemovitostí, smlouvy o servisu IT a zařízení a spravované služby. Nastavte rozvrh jednou a vaše opakované příjmy se fakturují, odesílají i urgují, aniž by se jich každý měsíc kdokoli dotkl." }
+  ],
+  "faqs": [
+    { "q": "Co je opakovaná faktura?", "a": "Faktura vystavovaná automaticky podle pevného rozvrhu pro stejného zákazníka a ve stejné výši, používaná u předplatného, paušálů, nájmu a servisních smluv." },
+    { "q": "Je opakovaná fakturace zdarma?", "a": "Ano. Nastavení a provoz opakovaných faktur je v Paper & Pen navždy zdarma." },
+    { "q": "Jaké frekvence jsou podporovány?", "a": "Týdně, měsíčně, čtvrtletně nebo ročně, s datem zahájení a volitelným datem ukončení, aby se série zastavila, kdy chcete." },
+    { "q": "Lze zákazníkům strhávat platby automaticky?", "a": "Ano. Odešlete každou fakturu s odkazem pro platbu online, nebo nastavte automatický výběr, aby se v každém cyklu strhla platba z uložené platební metody." },
+    { "q": "Co když se opakovaná faktura nezaplatí?", "a": "Automatické upomínky k platbě urgují každou nezaplacenou opakovanou fakturu, dokud není vyrovnána, bez nutnosti ručního připomínání." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Dejte opakované příjmy na autopilota",
+  "ctaSub": "Vytvořte si bezplatný pracovní prostor Paper & Pen, nastavte opakovanou fakturu jednou a nechte ji fakturovat, odesílat i vybírat podle rozvrhu."
+}

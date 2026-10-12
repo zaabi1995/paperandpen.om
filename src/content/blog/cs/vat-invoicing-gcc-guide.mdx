@@ -1,0 +1,60 @@
+---
+locale: "cs"
+slug: "vat-invoicing-gcc-guide"
+title: "Fakturace s DPH v zemích Zálivu: pravidla podle zemí"
+description: "Pravidla pro faktury s DPH se v zemích Zálivu liší. Jaké údaje daňová faktura obvykle potřebuje, správné pořadí výpočtu a kde ověřit aktuální pravidla."
+shortAnswer: "Pravidla pro faktury s DPH se v zemích Zálivu liší. Jaké údaje daňová faktura obvykle potřebuje, správné pořadí výpočtu a kde ověřit aktuální pravidla."
+pubDate: 2026-06-04
+updatedDate: "2026-08-21"
+author: "Paper & Pen"
+tags: ["vat", "invoicing", "gcc", "guide"]
+---
+
+Pokud prodáváte v Zálivu, vaše faktury musí uspokojit nejen zákazníky, ale i daňové úřady. Pravidla nejsou složitá, jakmile je znáte, ale chybějící povinný údaj nebo špatně spočítaná daň vás může stát pokutu nebo ztrátu odpočtu daně. Tento průvodce popisuje, co potřebuje faktura s DPH v zemích Zálivu, kde se skrývají běžné chyby a proč nikdy nepředpokládat, že sazba jedné země platí všude.
+
+## DPH v zemích Zálivu v kostce
+
+DPH není v regionu jednotná. Každá země si stanovuje vlastní sazbu, registrační limit, pravidla pro faktury i postup podávání přiznání a některé země DPH vůbec nezavedly. Aktuální stav si vždy ověřte u daňového úřadu, kde jste registrováni.
+
+Zásadní bod: **neexistuje jedna společná sazba DPH pro celý region.** Pokud fakturujete klientům přes hranice, nastavte aktuální sazbu pro každou jurisdikci, místo abyste přenášeli nastavení jedné země do jiné.
+
+## Co musí obsahovat faktura s DPH (daňová faktura)
+
+Aby byla v pořádku, daňová faktura obvykle musí obsahovat:
+
+- **Slova „Daňová faktura“** jasně uvedená na dokladu.
+- **Vaše jméno, adresu a DIČ pro DPH.**
+- **Jméno a adresu zákazníka,** a jeho DIČ pro DPH, pokud je registrován a uplatňuje odpočet.
+- **Jedinečné pořadové číslo faktury** a datum vystavení.
+- **Popis každé položky** s množstvím a jednotkovou cenou.
+- **Základ daně, sazbu a výši DPH a celkovou částku.**
+- **Měnu,** výslovně uvedenou (OMR, AED, SAR a další).
+
+Zjednodušené daňové faktury jsou v několika státech regionu povoleny pro menší maloobchodní částky, ale limit i přesná pravidla se liší podle země, proto si je ověřte na místě.
+
+## Chyba, která potká každého: daň ze základu
+
+Nejčastější chybou v DPH je výpočet daně z celkové částky nebo před odečtením slevy. Správné pořadí je:
+
+1. Sečtěte položky a získáte mezisoučet.
+2. Odečtěte případnou slevu.
+3. **DPH uplatněte na tento základ po slevě.**
+4. Přičtěte DPH k základu a získáte celkovou částku.
+
+Například u prodeje za OMR 1,000 se slevou OMR 100 se DPH ve výši 5% počítá z OMR 900, tedy daň OMR 45 a celkem OMR 945, ne OMR 50 z celé tisícovky. Chyba v tomto kroku znamená, že zákazníkům účtujete víc a vaše daňové přiznání je nesprávné.
+
+## Nulová sazba, osvobození a plnění mimo předmět daně
+
+Ne každá položka má základní sazbu. Některá plnění mají **nulovou sazbu** (zdaněná 0 %, ale přesto vykazovaná), některá jsou **osvobozená** (bez DPH a s omezeným nárokem na odpočet) a některá jsou zcela **mimo předmět daně**. Zacházení závisí na tom, co a kde prodáváte, proto se v případě pochybností řiďte pokyny svého úřadu nebo se poraďte s účetním. Váš fakturační nástroj by měl umožnit nastavit 0 % nebo vlastní sazbu pro každou položku, aby tyto případy zvládl čistě.
+
+## Ať se o soulad s pravidly postará systém
+
+Ruční výpočty DPH jsou místem, kde vznikají chyby. Dobrý nástroj použije správnou sazbu, odečte slevy a rozvrhne za vás všechny povinné údaje. Náš [generátor faktur zdarma](/tools/free-invoice-generator) vytvoří správně sestavenou daňovou fakturu a [kalkulačka DPH pro Omán](/tools/oman-vat-calculator) spočítá 5% daň během pár sekund. Pro průběžnou fakturaci ve více měnách a sazbách udrží [fakturační software zdarma](/free-invoicing-software) každý doklad v souladu s pravidly a uložený.
+
+Jak na to navazují plné moduly účetnictví a přehledů, uvidíte na stránce [ceník](/pricing). Daňová pravidla se mění, proto berte tento text jako praktický přehled a aktuální pravidla si ověřte u národního daňového úřadu.
+
+{/* search-authority-sources:start */}
+## Ověřte aktuální pravidla u zdroje
+
+Využijte naše průvodce pro [Omán](/vat/oman), [Spojené arabské emiráty](/vat/uae), [Saúdskou Arábii](/vat/saudi-arabia) a [Bahrajn](/vat/bahrain). Každý průvodce uvádí a odkazuje dokumenty daňového úřadu, ze kterých vychází jeho údaje. Před vystavením faktury příslušný úřad zkontrolujte znovu, protože daňová pravidla se mohou změnit.
+{/* search-authority-sources:end */}
