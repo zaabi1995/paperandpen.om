@@ -1,0 +1,74 @@
+{
+  "locale": "hr",
+  "slug": "auto-repair-invoice-template",
+  "order": 10,
+  "title": "Predložak računa za autoservis",
+  "metaTitle": "Predložak računa za autoservis · Paper & Pen",
+  "metaDescription": "Izradite profesionalne račune za autoservis. Naplatite radne sate, navedite dijelove i vodite naknade za dijagnostiku uz besplatan generator računa za mehaničare.",
+  "keywords": "predložak računa za autoservis, račun za mehaničara, generator računa za radionicu, naplata autoservisa, račun za popravak automobila, softver za naplatu mehaničara, predložak procjene za autoservis",
+  "heroEyebrow": "Za mehaničare i radionice",
+  "heroTitle": "Izradite račun za autoservis koji <em class=\"text-copper-400 not-italic\">prikazuje svaki detalj</em>.",
+  "heroSubtitle": "Prestanite koristiti općenite predloške koji zanemaruju kako autoservisi stvarno rade. Jasno naplatite dijelove, sate rada i dijagnostiku, uz evidenciju podataka o vozilu poput kilometraže i registracije.",
+  "heroBullets": [
+    "Dijelovi s točnim kataloškim brojevima",
+    "Obračun rada po satnici radionice",
+    "Praćenje kilometraže i registracije"
+  ],
+  "features": [
+    { "icon": "truck", "title": "Podaci o vozilu", "desc": "Upišite registarsku oznaku, marku, model i trenutačnu kilometražu izravno na dokument kako biste vodili jasnu servisnu povijest svakog vozila." },
+    { "icon": "clock", "title": "Radni sati i satnice", "desc": "Pomnožite standardnu satnicu radionice s brojem sati potrebnih za posao. Prikažite točno vrijeme utrošeno na popravak kako biste opravdali ukupnu cijenu rada." },
+    { "icon": "inventory", "title": "Jasan popis dijelova", "desc": "Dodajte zasebnu stavku za svaki filtar, remen ili kočionu pločicu. Navedite kataloške brojeve proizvođača kako bi kupci točno znali što je ugrađeno u njihov automobil." },
+    { "icon": "calc", "title": "Odbitak naknade za dijagnostiku", "desc": "Jednostavno dodajte stavku kojom se početna naknada za dijagnostiku odbija od konačnog računa kad kupac odobri cijeli popravak." },
+    { "icon": "quote", "title": "Od procjene do računa", "desc": "Najprije pošaljite detaljnu procjenu predloženog posla. Kad kupac odobri popravak, tu procjenu odmah pretvorite u konačni račun." },
+    { "icon": "whatsapp", "title": "Slanje WhatsAppom", "desc": "Podijelite gotov račun izravno na telefon kupca jednostavnom poveznicom. Odmah može vidjeti razradu dijelova i rada." }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Bitni podaci na računu",
+      "title": "Što račun za autoservis mora sadržavati",
+      "body": "Standardni predložak računa ne odgovara radionici jer nema mjesta za podatke o vozilu. Na svakom dokumentu morate zabilježiti registraciju, marku, model i trenutačnu kilometražu vozila. To vas štiti od sporova i pomaže graditi pouzdanu servisnu povijest. Stavke moraju strogo odvajati dijelove i rad. Svaki dio navedite s točnim kataloškim brojem i jediničnom cijenom. Za rad prikažite ukupne radne sate pomnožene sa standardnom satnicom radionice. Ako naplaćujete ekološku naknadu za zbrinjavanje ulja, navedite je kao zasebnu stavku umjesto da je skrivate u cijeni rada.",
+      "items": [
+        "Registracija vozila i trenutačno stanje kilometraže",
+        "Kataloški brojevi proizvođača za sve zamjenske dijelove",
+        "Radni sati pomnoženi sa satnicom radionice",
+        "Zasebne stavke za naknade za zbrinjavanje otpada"
+      ]
+    },
+    {
+      "eyebrow": "Cijene i naplata",
+      "title": "Kako se obično naplaćuje popravak vozila",
+      "body": "Mehaničari rijetko počinju raditi bez odobrenja. Uobičajeni slijed počinje dijagnostikom. Naplatite fiksnu naknadu za pronalazak kvara, a zatim dajte detaljnu procjenu cijelog popravka. Kad kupac odobri posao, nastavljate. Mnoge radionice potom iz ljubaznosti odbiju početnu naknadu za dijagnostiku od konačnog računa. Cijeli taj tijek možete voditi našim besplatnim generatorom računa na /tools/free-invoice-generator bez otvaranja računa. Izradite procjenu, pričekajte da kupac odobri dijelove i rad, a zatim izradite konačni račun s negativnom stavkom za odbitak dijagnostike.",
+      "items": [
+        "Počnite fiksnom naknadom za dijagnostiku",
+        "Dajte potpunu procjenu prije početka popravka",
+        "Pričekajte izričito odobrenje kupca",
+        "Odbijte naknadu za dijagnostiku na konačnom računu"
+      ]
+    },
+    {
+      "eyebrow": "Plaćanje i uvjeti",
+      "title": "Kako dobiti plaćeno za usluge radionice",
+      "body": "Autoservis uvelike ovisi o novčanom toku kojim pokriva skupe dijelove. Za velike poslove poput remonta motora ili zamjene mjenjača trebali biste unaprijed tražiti predujam za pokriće troška dijelova. Ostatak obično dospijeva pri preuzimanju vozila. Uvjeti na računu moraju jasno navesti da se automobil ne izdaje dok račun nije podmiren. Ako kupac ostavi vozilo u radionici danima nakon završetka popravka, možda ćete morati obračunati i dnevnu naknadu za smještaj. Pobrinite se da uvjeti plaćanja jasno navode te uvjete smještaja prije početka rada.",
+      "items": [
+        "Predujam za skupe zamjenske dijelove",
+        "Puno plaćanje prije izdavanja vozila",
+        "Dnevne naknade za smještaj u uvjetima",
+        "Prihvaćeni načini plaćanja navedeni na dokumentu"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Kako navesti cijenu rada na računu mehaničara?", "a": "Rad u potpunosti odvojite od dijelova. Izradite posebnu stavku za zadatak popravka. Kao jediničnu cijenu upišite standardnu satnicu radionice, a kao količinu broj sati koliko je posao trajao. Tako kupac točno vidi kako ste izračunali konačni iznos, što smanjuje rasprave o ukupnom računu." },
+    { "q": "Trebam li navesti broj šasije (VIN) na računima za popravak?", "a": "Navođenje identifikacijskog broja vozila dobra je praksa, iako su registracijska oznaka i kilometraža obično dovoljni za standardne popravke. VIN pomaže ako trebate naručiti vrlo specifične originalne dijelove ili vodite službenu servisnu povijest radi jamstva. Također osigurava da nema zabune oko toga koje je vozilo servisirano." },
+    { "q": "Što s naknadom za dijagnostiku ako kupac odbije popravak?", "a": "Ako kupac odluči ne nastaviti s popravkom nakon što pronađete kvar, jednostavno mu fakturirate samo naknadu za dijagnostiku. Odbitak te naknade primjenjujete samo ako odobri cijeli posao. Pobrinite se da početna procjena jasno navodi da se naknada za dijagnostiku plaća bez obzira na konačnu odluku." },
+    { "q": "Mogu li ovaj predložak koristiti za limarske radove?", "a": "Da, limarske radionice mogu koristiti istu strukturu naplate. I dalje trebate navesti dijelove poput limova ili kopči s kataloškim brojevima i obračunati rad na limariji ili lakiranju prema satnici. Možete dodati i posebne stavke za boje i lakove, odvojene od fizičkih zamjenskih dijelova." }
+  ],
+  "related": [
+    "/invoicing/estimates",
+    "/tools/free-invoice-generator",
+    "/tools/free-quotation-generator",
+    "/invoicing/invoices"
+  ],
+  "ctaTitle": "Izradite račun za autoservis već danas",
+  "ctaSub": "Izradite detaljne procjene, jasno navedite dijelove i rad te ih odmah pretvorite u konačne račune uz naše besplatne alate za mehaničare i autoservise."
+}

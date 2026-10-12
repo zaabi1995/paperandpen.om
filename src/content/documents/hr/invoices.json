@@ -1,0 +1,36 @@
+{
+  "locale": "hr",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Računi",
+  "metaTitle": "Online računi · Izradite i pošaljite račune besplatno · Paper & Pen",
+  "metaDescription": "Izradite profesionalne račune online besplatno, u bilo kojoj valuti. Pošaljite ih WhatsAppom ili e-poštom, primajte online plaćanja i pratite što je plaćeno i dospjelo.",
+  "keywords": "račun, online račun, izrada računa, softver za fakturiranje, besplatni račun, račun s pdv-om, gst račun, slanje računa whatsappom",
+  "heroEyebrow": "Fakturiranje",
+  "heroTitle": "Izradite i pošaljite profesionalne <em class=\"text-copper-400 not-italic\">račune</em> besplatno",
+  "heroSubtitle": "Naplatite bilo kojem klijentu, u bilo kojoj valuti, uz poreznu stopu koju sami odaberete. Pošaljite WhatsAppom ili e-poštom, primite plaćanje online i uvijek znajte što je plaćeno, što dospijeva, a što kasni.",
+  "heroBullets": ["Fakturiranje zauvijek besplatno", "Bilo koja valuta, bilo koja porezna stopa", "Slanje WhatsAppom ili e-poštom"],
+  "features": [
+    { "icon": "invoice", "title": "Računi s vašim brendom", "desc": "Dodajte logotip, boje i uvjete. Svaki račun izgleda profesionalno i uredno se ispisuje." },
+    { "icon": "globe", "title": "Bilo koja valuta", "desc": "Izdajte račun u USD, EUR, GBP, INR, AED, SAR, OMR i drugim valutama, s ispravnim brojem decimala." },
+    { "icon": "calc", "title": "Spremno za PDV i porez", "desc": "Primijenite bilo koju stopu PDV-a, GST-a ili poreza na promet. Porez se obračunava na neto iznos, nakon popusta." },
+    { "icon": "whatsapp", "title": "Slanje bilo kamo", "desc": "Podijelite poveznicu ili PDF putem WhatsAppa, e-pošte ili preuzimanjem. Klijent može platiti jednim dodirom." },
+    { "icon": "card", "title": "Online naplata", "desc": "Primajte kartice i lokalne načine plaćanja kako bi klijenti odmah podmirili račun." },
+    { "icon": "bell", "title": "Automatski podsjetnici", "desc": "Ljubazni podsjetnici za plaćanje šalju se automatski sve dok račun nije plaćen." }
+  ],
+  "sections": [
+    { "eyebrow": "Što je račun", "title": "Što je račun?", "body": "Račun je poslovni dokument koji prodavatelj izdaje kupcu kako bi zatražio plaćanje za isporučenu robu ili usluge. Navodi stavke, količine, jedinične cijene, poreze i ukupan iznos za plaćanje, uz uvjete plaćanja i datum dospijeća. Jasan, numeriran račun pravni je zapis prodaje i poticaj vašem kupcu da vam plati." },
+    { "eyebrow": "Kako funkcionira", "title": "Od nacrta do naplate za nekoliko minuta", "body": "Izradite račun iz ponude ili od početka, pošaljite ga, a ostalo prepustite Paper & Pen. Plaćanja, podsjetnici i vaše knjige automatski ostaju usklađeni.", "items": ["Izradite ga iz spremljenog popisa klijenata i proizvoda ili krenite od praznog", "Postavite valutu, poreznu stopu i uvjete plaćanja", "Pošaljite WhatsAppom ili e-poštom s poveznicom za online plaćanje", "Pratite status: nacrt, poslan, djelomično plaćen, plaćen, dospio", "Ručno evidentirajte plaćanja ili pustite da se online plaćanja sama usklade"] },
+    { "eyebrow": "Za cijeli svijet", "title": "Lokalna snaga, globalni doseg", "body": "Paper & Pen radi za tvrtke bilo gdje. Ako ste u zemljama GCC-a, odmah dobivate račune na arapskom, izvorno oblikovanje za OMR, AED i SAR, podesive predloške PDV-a i kartična plaćanja putem Paymoba. Svugdje drugdje jednostavno odaberete svoju valutu, poreznu stopu i jezik." }
+  ],
+  "faqs": [
+    { "q": "Je li fakturiranje stvarno besplatno?", "a": "Da. Izrada, slanje i praćenje računa zauvijek je besplatno u Paper & Pen. Plaćate samo ako dodate neobavezne module poput Zaliha, HR-a ili Računovodstva." },
+    { "q": "Mogu li izdavati račune u bilo kojoj valuti?", "a": "Da. Odaberite bilo koju valutu, uključujući USD, EUR, GBP, INR, AED, SAR i OMR. Broj decimala prilagođava se automatski (na primjer tri decimale za OMR)." },
+    { "q": "Podržava li PDV ili GST?", "a": "Da. Postavite bilo koju poreznu stopu po računu ili po stavci. Korisnici u zemljama GCC-a dobivaju podesivi predložak PDV-a, a porez se uvijek obračunava na iznos nakon popusta." },
+    { "q": "Kako mi klijenti plaćaju?", "a": "Pošaljite račun s poveznicom za online plaćanje i klijenti mogu platiti karticom ili lokalnim načinom jednim dodirom. Možete i ručno evidentirati gotovinu, bankovni prijenos ili ček." },
+    { "q": "Mogu li slati račune putem WhatsAppa?", "a": "Da. Podijelite račun kao poveznicu ili PDF izravno u WhatsApp ili ga pošaljite e-poštom. Oba načina zadržavaju gumb za online plaćanje pa brže dolazite do novca." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Pošaljite prvi račun za nekoliko minuta",
+  "ctaSub": "Otvorite besplatan Paper & Pen radni prostor, dodajte logotip i pošaljite profesionalan račun koji se plaća online."
+}

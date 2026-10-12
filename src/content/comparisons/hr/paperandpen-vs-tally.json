@@ -1,0 +1,45 @@
+{
+  "locale": "hr",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen ili Tally",
+  "metaTitle": "Paper & Pen ili Tally · Besplatna alternativa za Tally u oblaku",
+  "metaDescription": "Usporedite Paper & Pen i Tally po pristupu u oblaku, besplatnom paketu, arapskom zdesna nalijevo, više valuta i online plaćanjima. Moderna, besplatna alternativa u oblaku.",
+  "keywords": "paper and pen ili tally, alternativa za tally, alternativa za tally u oblaku, besplatna alternativa za tally, tally prime online, računovodstveni softver na arapskom",
+  "heroEyebrow": "Usporedba",
+  "heroTitle": "Paper & Pen ili <em class=\"text-copper-400 not-italic\">Tally</em>",
+  "heroSubtitle": "Tally je pouzdan računovodstveni radni konj s dubokim korijenima. Paper & Pen je besplatan ERP izrađen za oblak koji otvarate u pregledniku, s arapskim, online plaćanjima i bilo kojom valutom. Evo iskrene usporedbe.",
+  "heroBullets": ["Izrađen za oblak, otvara se u bilo kojem pregledniku", "Prodaja i fakturiranje zauvijek besplatno", "Arapski zdesna nalijevo i online kartična plaćanja"],
+  "features": [
+    { "icon": "globe", "title": "Pravi oblak", "desc": "Bez instalacije, bez licencnog ključa, bez postavljanja na svakom računalu. Otvorite Paper & Pen bilo gdje, na bilo kojem uređaju." },
+    { "icon": "card", "title": "Online naplata", "desc": "Svaki račun može imati poveznicu za plaćanje putem Paymoba, pa kupci plaćaju karticom, a plaćanje se samo usklađuje." },
+    { "icon": "check", "title": "Besplatno za početak", "desc": "Fakturiranje i prodaja zauvijek su besplatni, bez licence koju morate kupiti prije izdavanja dokumenta." }
+  ],
+  "sections": [
+    { "eyebrow": "Iskreno", "title": "U čemu je Tally jak", "body": "Tally ima dugu povijest, duboko zakonsko računovodstvo i golemu bazu računovođa koji ga poznaju u dušu. Za složeno knjigovodstvo koje izvanmrežno vodi obučeni djelatnik brz je i pouzdan. Mnoge tvrtke godinama na njemu rade zadovoljno.", "items": ["Dubok, provjeren računovodstveni sustav", "Poznat velikom broju računovođa", "Radi izvanmrežno nakon instalacije"] },
+    { "eyebrow": "Gdje smo bolji", "title": "Oblak, arapski i naplata", "body": "Paper & Pen radi u pregledniku, pa vaš tim i računovođa vide iste podatke u stvarnom vremenu s bilo kojeg mjesta, bez instalacija i neusklađenih verzija. Stavlja arapski na prvo mjesto s potpunim sučeljem zdesna nalijevo, izvorno naplaćuje u OMR, AED, SAR i bilo kojoj valuti te na svaki račun stavlja poveznicu za online plaćanje. Početak je stvarno besplatan.", "items": ["Bez instalacija, uvijek najnovija verzija", "Arapsko sučelje i dokumenti zdesna nalijevo", "Poveznice za online plaćanje na računima, besplatna osnova"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "Paket zauvijek besplatno", "values": [true, false] },
+    { "feature": "Početna cijena", "values": ["Besplatno", "Plaćena licenca"] },
+    { "feature": "Pristup u oblaku / pregledniku", "values": [true, "Dodatak"] },
+    { "feature": "Arapsko sučelje zdesna nalijevo", "values": [true, "Ograničeno"] },
+    { "feature": "Više valuta", "values": [true, true] },
+    { "feature": "Online kartična plaćanja (Paymob)", "values": [true, false] },
+    { "feature": "Sučelje na više jezika (5)", "values": [true, "Ograničeno"] },
+    { "feature": "Brzina uvođenja", "values": ["Minute", "Instalacija i obuka"] },
+    { "feature": "Moduli za zalihe i HR", "values": [true, "Zalihe da, HR ograničeno"] }
+  ],
+  "faqs": [
+    { "q": "Je li Paper & Pen dobra alternativa za Tally?", "a": "Da, ako želite pristup u oblaku, online plaćanja i arapsko sučelje bez kupnje licence. Tally ostaje jak za izvanmrežno zakonsko knjigovodstvo koje vodi obučeni djelatnik." },
+    { "q": "Mogu li koristiti Paper & Pen bez instaliranja ičega?", "a": "Da. Potpuno je u oblaku. Otvarate ga u pregledniku na bilo kojem uređaju i svi vide iste podatke u stvarnom vremenu." },
+    { "q": "Podržava li Paper & Pen više valuta kao Tally?", "a": "Da. Možete fakturirati u OMR, AED, SAR, USD, EUR i drugim valutama, s ispravnim decimalama na svakom dokumentu." },
+    { "q": "Mogu li kupci plaćati moje račune online?", "a": "Da. Svaki račun može sadržavati poveznicu za plaćanje putem Paymoba, pa kupci plaćaju karticom, a plaćanje se automatski usklađuje." },
+    { "q": "Postoji li besplatna verzija?", "a": "Da. Prodaja i fakturiranje zauvijek su besplatni. Plaćate samo ako dodate module poput Zaliha, HR-a ili Računovodstva." }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Prijeđite u oblak, besplatno",
+  "ctaSub": "Otvorite besplatan Paper & Pen radni prostor u pregledniku i izdajte prvi račun za nekoliko minuta. Bez licence, bez instalacije."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "hr",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Kartice i knjige",
+  "metaTitle": "Kartice kupaca i izvodi otvorenih stavki · Paper & Pen",
+  "metaDescription": "Pregledajte kartice kupaca i dobavljača online besplatno, u bilo kojoj valuti. Svaki račun, plaćanje i odobrenje na jednom tekućem izvodu.",
+  "keywords": "kartica kupca, kartica dobavljača, izvod otvorenih stavki, glavna knjiga, analitička knjiga, softver za knjige, izvod stanja",
+  "heroEyebrow": "Kartice",
+  "heroTitle": "Svaka transakcija na jednoj jasnoj <em class=\"text-copper-400 not-italic\">kartici</em>",
+  "heroSubtitle": "Pregledajte tekući izvod svakog računa, plaćanja, odobrenja i ispravka za svakog kupca i dobavljača, u bilo kojoj valuti. Podijelite izvod jednim dodirom. Zauvijek besplatno.",
+  "heroBullets": ["Zauvijek besplatno", "Tekući salda", "Trenutačno dijeljenje izvoda"],
+  "features": [
+    { "icon": "chart", "title": "Kartice kupaca", "desc": "Tekući izvod po kupcu: računi, plaćanja i odobrenja sa saldom u stvarnom vremenu." },
+    { "icon": "accounting", "title": "Kartice dobavljača", "desc": "Pratite ulazne račune, plaćanja i terećenja po dobavljaču, pa uvijek znate koliko dugujete." },
+    { "icon": "doc", "title": "Izvod otvorenih stavki", "desc": "Izradite i pošaljite izvod stanja za bilo koje razdoblje jednim dodirom." },
+    { "icon": "shield", "title": "Uvijek usklađeno", "desc": "Kartice se ažuriraju iz istih knjiženja kao vaši računi i plaćanja, pa se uvijek slažu." },
+    { "icon": "globe", "title": "Bilo koja valuta", "desc": "Pregledajte salda u USD, EUR, AED, SAR, OMR, INR i drugim valutama, s ispravnim decimalama." },
+    { "icon": "whatsapp", "title": "Dijeljenje bilo kamo", "desc": "Pošaljite izvod WhatsAppom ili e-poštom kako bi kupci podmirili otvorene iznose." }
+  ],
+  "sections": [
+    { "eyebrow": "Što je kartica", "title": "Što je kartica konta?", "body": "Kartica (analitička knjiga) tekući je zapis svih transakcija koje utječu na neki račun, sa saldom prenesenim nakon svake stavke. Kartica kupca prikazuje svaki račun koji ste izdali, svako primljeno plaćanje i svako odobrenje, a završava saldom koji kupac duguje. Izvod otvorenih stavki ta je kartica predočena kupcu za određeno razdoblje. Kartice su temelj znanja o tome tko koliko duguje i kome dugujete vi." },
+    { "eyebrow": "Kako funkcionira", "title": "Jedan izvor istine", "body": "U Paper & Pen kartice nisu zasebna proračunska tablica, nego se grade iz istih računa, plaćanja i odobrenja koje već izrađujete.", "items": ["Otvorite bilo kojeg kupca ili dobavljača i vidite njegovu cijelu karticu", "Svaki račun, plaćanje, odobrenje i terećenje prikazan je s tekućim saldom", "Filtrirajte po razdoblju za uredan izvod otvorenih stavki", "Pošaljite izvod WhatsAppom ili e-poštom jednim dodirom", "Salda se uvijek slažu s vašim računima i knjigama"] },
+    { "eyebrow": "Zašto je važno", "title": "Brža naplata, nikad dvostruko plaćanje", "body": "Kad kupac propituje saldo, jasna kartica završava razgovor za nekoliko sekundi. Kad trebate požuriti naplatu, izvod otvorenih stavki najuvjerljiviji je dokument koji možete poslati. A budući da kartice dobavljača prate što dugujete, nikad ne platite ulazni račun dvaput niti propustite terećenje. Jedan usklađen zapis za obje strane vašeg poslovanja." }
+  ],
+  "faqs": [
+    { "q": "Što je kartica kupca?", "a": "Tekući izvod svakog računa, plaćanja i odobrenja za kupca, koji završava saldom koji vam taj kupac trenutačno duguje." },
+    { "q": "Jesu li kartice besplatne?", "a": "Da. Kartice kupaca i dobavljača te izvodi otvorenih stavki zauvijek su besplatni u Paper & Pen." },
+    { "q": "Mogu li poslati izvod otvorenih stavki?", "a": "Da. Izradite izvod za bilo koje razdoblje i pošaljite ga WhatsAppom ili e-poštom jednim dodirom kako bi kupac podmirio dug." },
+    { "q": "Ostaju li kartice usklađene?", "a": "Da. Kartice se grade iz istih knjiženja kao vaši računi i plaćanja, pa se salda uvijek slažu s vašim knjigama." },
+    { "q": "Mogu li vidjeti koliko dugujem dobavljačima?", "a": "Da. Kartice dobavljača prate ulazne račune, plaćanja i terećenja, pa uvijek točno znate koliko je otvoreno prema svakom dobavljaču." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Odmah vidite tko koliko duguje",
+  "ctaSub": "Otvorite besplatan Paper & Pen radni prostor i dobijte urednu, usklađenu karticu za svakog kupca i dobavljača."
+}

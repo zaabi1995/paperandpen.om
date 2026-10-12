@@ -1,0 +1,36 @@
+{
+  "locale": "hr",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Odobrenja",
+  "metaTitle": "Softver za odobrenja (knjižne obavijesti) · Paper & Pen",
+  "metaDescription": "Izdajte profesionalna odobrenja online besplatno, u bilo kojoj valuti. Ispravite račun zbog povrata robe, povrata novca ili korekcije uz pravi dokument.",
+  "keywords": "odobrenje, knjižno odobrenje, izrada odobrenja, credit note, storno računa, odobrenje za povrat, softver za odobrenja, odobrenje s pdv-om",
+  "heroEyebrow": "Odobrenja",
+  "heroTitle": "Izdajte <em class=\"text-copper-400 not-italic\">odobrenja</em> na ispravan način",
+  "heroSubtitle": "Ispravite račun zbog povrata robe, povrata novca ili korekcije pravim odobrenjem, jasnim revizijskim tragom i automatskim knjiženjem. U bilo kojoj valuti.",
+  "heroBullets": ["Zauvijek besplatno", "Povezano s izvornim računom", "Knjiži ispravnu stavku"],
+  "features": [
+    { "icon": "doc", "title": "Pravi dokument odobrenja", "desc": "Numerirano odobrenje povezano s izvornim računom, nikad tiha izmjena." },
+    { "icon": "refresh", "title": "Ispravlja saldo", "desc": "Smanjuje saldo kupca i ispravno stornira porez na odobreni iznos." },
+    { "icon": "shield", "title": "Potpuni revizijski trag", "desc": "Svako odobrenje bilježi se s razlogom, pa vaše knjige ostaju čiste i provjerljive." },
+    { "icon": "calc", "title": "Ispravan storno PDV-a", "desc": "Porez se stornira na odobreni neto iznos, pa su vaše porezne prijave točne." },
+    { "icon": "globe", "title": "Bilo koja valuta", "desc": "Odobrenje u USD, EUR, AED, SAR, OMR, INR i drugim valutama, u skladu s izvornim računom." },
+    { "icon": "whatsapp", "title": "Slanje bilo kamo", "desc": "Podijelite odobrenje WhatsAppom ili e-poštom kako bi kupac imao zapis." }
+  ],
+  "sections": [
+    { "eyebrow": "Što je odobrenje", "title": "Što je odobrenje?", "body": "Odobrenje (knjižna obavijest o odobrenju, eng. credit note) dokument je koji prodavatelj izdaje kako bi smanjio iznos koji kupac duguje po ranije izdanom računu. Koristi se za povrate robe, povrate novca, preplate, otkazane stavke ili ispravke cijena. Odobrenje nikad ne briše izvorni račun, nego ga službeno umanjuje djelomično ili u cijelosti, čime ostaje potpun i provjerljiv zapis o tome što se promijenilo i zašto." },
+    { "eyebrow": "Kako funkcionira", "title": "Odobri, storniraj, uskladi", "body": "Paper & Pen izdaje odobrenje kao pravi dokument s vlastitim brojem i knjiženjem, nikad kao tihu izmjenu računa.", "items": ["Otvorite račun i izdajte odobrenje na njega", "Odobrite cijeli račun ili samo određene stavke", "Dodajte razlog: povrat robe, povrat novca, ispravak ili otkazivanje", "Porez se automatski stornira na odobreni neto iznos", "Saldo kupca i vaše knjige ažuriraju se zajedno"] },
+    { "eyebrow": "Zašto je važno", "title": "Nikad ne mijenjajte plaćeni račun", "body": "Izmjena ili brisanje izdanog računa narušava revizijski trag i vašu poreznu poziciju. Ispravan način smanjenja potraživanja je izdavanje odobrenja, koje ostavlja izvorni račun netaknutim, knjiži stornu stavku i stornira točan iznos poreza. To je obavezna praksa u većini sustava PDV-a i GST-a u svijetu." }
+  ],
+  "faqs": [
+    { "q": "Za što se koristi odobrenje?", "a": "Za smanjenje ili poništenje iznosa koji kupac duguje po računu, najčešće zbog povrata robe, povrata novca, preplate ili ispravka. Odobrenje umanjuje račun, a ne briše ga." },
+    { "q": "Je li izrada odobrenja besplatna?", "a": "Da. Izdavanje i praćenje odobrenja zauvijek je besplatno u Paper & Pen." },
+    { "q": "Stornira li odobrenje PDV?", "a": "Da. Paper & Pen automatski stornira porez na odobreni neto iznos, pa vaša pozicija PDV-a ili GST-a ostaje točna." },
+    { "q": "Mogu li odobriti samo dio računa?", "a": "Da. Odobrite cijeli račun ili samo određene stavke i količine. Saldo kupca prilagođava se tome." },
+    { "q": "Koja je razlika između odobrenja i terećenja?", "a": "Odobrenje izdaje prodavatelj kako bi smanjio ono što kupac duguje. Terećenje obično izdaje kupac (ili se izdaje radi povećanja duga), na primjer da bi se potraživala preplata ili naplatio dodatni iznos." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Izdajte odobrenje bez brige",
+  "ctaSub": "Otvorite besplatan Paper & Pen radni prostor i ispravite bilo koji račun pravim, provjerljivim odobrenjem za nekoliko sekundi."
+}

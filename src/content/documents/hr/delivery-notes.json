@@ -1,0 +1,36 @@
+{
+  "locale": "hr",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Otpremnice",
+  "metaTitle": "Izrada otpremnica · Paper & Pen",
+  "metaDescription": "Izradite profesionalne otpremnice online besplatno. Navedite isporučenu robu, zabilježite dokaz isporuke i jednim klikom pretvorite otpremnicu u račun.",
+  "keywords": "otpremnica, dostavnica, izrada otpremnice, popis pakiranja, dokaz isporuke, izrada dostavnice, dokument o otpremi robe",
+  "heroEyebrow": "Otpremnice",
+  "heroTitle": "Svaku pošiljku pošaljite s jasnom <em class=\"text-copper-400 not-italic\">otpremnicom</em>",
+  "heroSubtitle": "Navedite robu koju isporučujete, zabilježite dokaz isporuke pri primitku, a zatim otpremnicu jednim klikom pretvorite u račun. Radi bilo gdje.",
+  "heroBullets": ["Zauvijek besplatno", "Dokaz isporuke", "Pretvaranje u račun"],
+  "features": [
+    { "icon": "truck", "title": "Dokument o otpremi robe", "desc": "Navedite isporučene stavke i količine, sa cijenama ili bez njih, na urednoj otpremnici s vašim brendom." },
+    { "icon": "check", "title": "Dokaz isporuke", "desc": "Zabilježite tko je i kada primio robu, pa isporuke nikad nisu sporne." },
+    { "icon": "refresh", "title": "Pretvaranje u račun", "desc": "Pretvorite otpremnicu u račun jednim klikom nakon što je roba primljena." },
+    { "icon": "inventory", "title": "Povezano sa zalihama", "desc": "Uz modul Zalihe, otpremnica može automatski smanjiti stanje zaliha." },
+    { "icon": "globe", "title": "Radi bilo gdje", "desc": "Koristi se diljem svijeta kao otpremnica ili dostavnica, na vašem jeziku i u vašoj valuti." },
+    { "icon": "whatsapp", "title": "Slanje bilo kamo", "desc": "Podijelite otpremnicu WhatsAppom ili e-poštom kako bi kupac imao zapis." }
+  ],
+  "sections": [
+    { "eyebrow": "Što je otpremnica", "title": "Što je otpremnica?", "body": "Otpremnica (zove se i dostavnica, delivery challan ili popis pakiranja) dokument je koji prati pošiljku robe i navodi što se isporučuje. Primatelj usporedi robu s njom i potpisom potvrdi primitak. Ona dokazuje da je roba napustila vaše prostore i stigla do kupca te je most između prodajne narudžbe i računa koji slijedi." },
+    { "eyebrow": "Kako funkcionira", "title": "Otpremi, potvrdi, fakturiraj", "body": "Paper & Pen povezuje otpremnicu s vašom prodajnom narudžbom i računom, pa otprema i naplata idu ukorak.", "items": ["Izradite otpremnicu iz prodajne narudžbe ili od početka", "Odaberite prikaz cijena ili samo količina", "Pošaljite je ili ispišite da putuje s robom", "Zabilježite dokaz isporuke kad kupac potpiše", "Pretvorite otpremnicu u račun jednim klikom"] },
+    { "eyebrow": "Otpremnica ili račun", "title": "Otpremnica ili račun?", "body": "Otpremnica bilježi što je fizički otpremljeno i potvrđuje primitak, ona nije zahtjev za plaćanje. Račun traži plaćanje za tu robu. Mnoge tvrtke najprije isporučuju uz otpremnicu, a zatim fakturiraju prema dogovorenim uvjetima. Paper & Pen omogućuje upravo to i pretvara potvrđenu isporuku u račun bez ponovnog upisivanja." }
+  ],
+  "faqs": [
+    { "q": "Koja je razlika između otpremnice i računa?", "a": "Otpremnica navodi i potvrđuje isporučenu robu, bez zahtjeva za plaćanje. Račun traži plaćanje. Otpremnicu možete pretvoriti u račun jednim klikom." },
+    { "q": "Je li izrada otpremnica besplatna?", "a": "Da. Izrada, slanje i praćenje otpremnica zauvijek je besplatno u Paper & Pen." },
+    { "q": "Može li otpremnica sakriti cijene?", "a": "Da. Odaberite prikaz cijena ili samo količina, što je korisno kad skladište ili dostavljač ne bi trebali vidjeti cijene." },
+    { "q": "Bilježi li dokaz isporuke?", "a": "Da. Zabilježite tko je i kada primio robu, pa isporuka kasnije nikad nije sporna." },
+    { "q": "Ažurira li otpremnica moje zalihe?", "a": "Uz neobavezni modul Zalihe, otpremnica može automatski smanjiti stanje zaliha kad roba izlazi." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Svaka pošiljka s dokazom",
+  "ctaSub": "Otvorite besplatan Paper & Pen radni prostor, pošaljite urednu otpremnicu, zabilježite dokaz isporuke i fakturirajte jednim klikom."
+}

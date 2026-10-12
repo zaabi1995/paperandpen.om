@@ -1,0 +1,36 @@
+{
+  "locale": "hr",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Troškovi",
+  "metaTitle": "Softver za praćenje troškova · Paper & Pen",
+  "metaDescription": "Pratite poslovne troškove online besplatno, u bilo kojoj valuti. Spremite račune, razvrstajte potrošnju, ostvarite povrat PDV-a i vidite stvarnu dobit.",
+  "keywords": "praćenje troškova, evidencija troškova, poslovni troškovi, softver za troškove, besplatno praćenje troškova, spremanje računa, pdv na troškove",
+  "heroEyebrow": "Troškovi",
+  "heroTitle": "Pratite svaki poslovni <em class=\"text-copper-400 not-italic\">trošak</em> na jednom mjestu",
+  "heroSubtitle": "Spremite račune, razvrstajte potrošnju, ostvarite povrat PDV-a i vidite stvarnu dobit, sve u bilo kojoj valuti. Troškovi se izravno povezuju s vašim knjigama. Zauvijek besplatno.",
+  "heroBullets": ["Zauvijek besplatno", "Spremanje računa", "Stvarna dobit"],
+  "features": [
+    { "icon": "accounting", "title": "Evidentirajte bilo koji trošak", "desc": "Upišite ulazni račun, gotovinski izdatak ili plaćanje dobavljaču za nekoliko sekundi, s kategorijom i porezom." },
+    { "icon": "doc", "title": "Priložite račune", "desc": "Fotografirajte ili učitajte račun i čuvajte ga uz trošak za urednu evidenciju i revizije." },
+    { "icon": "calc", "title": "Povrat PDV-a", "desc": "Evidentirajte pretporez (ulazni PDV ili GST) na troškovima kako bi porezna prijava odražavala ono što možete vratiti." },
+    { "icon": "chart", "title": "Stvarna dobit", "desc": "Troškovi se knjiže naspram prihoda, pa račun dobiti i gubitka odražava stvarnost, a ne nagađanje." },
+    { "icon": "globe", "title": "Bilo koja valuta", "desc": "Evidentirajte potrošnju u USD, EUR, AED, SAR, OMR, INR i drugim valutama, s ispravnim decimalama." },
+    { "icon": "refresh", "title": "Ponavljajući troškovi", "desc": "Postavite najam, pretplate i režije da se automatski evidentiraju u svakom razdoblju." }
+  ],
+  "sections": [
+    { "eyebrow": "Što je praćenje troškova", "title": "Što je praćenje troškova?", "body": "Praćenje troškova praksa je evidentiranja svakog troška koji vaša tvrtka ima, s kategorijom, datumom, porezom i pripadajućim računom. Kad se radi dobro, točno pokazuje kamo novac odlazi, kolika je vaša stvarna dobit i koliko pretporeza možete vratiti. Kad se radi loše, dobit postaje nagađanje, a porezna sezona panika. Paper & Pen to svodi na nekoliko sekundi po trošku." },
+    { "eyebrow": "Kako funkcionira", "title": "Spremi, razvrstaj, vrati", "body": "Paper & Pen pretvara razbacane račune u uredne, razvrstane zapise koji idu ravno u vaše knjige.", "items": ["Evidentirajte trošak s kategorijom, dobavljačem i porezom", "Priložite fotografiju ili PDF računa za revizijski trag", "Ostvarite povrat ulaznog PDV-a ili GST-a gdje je primjenjivo", "Postavite ponavljajuće troškove da se automatski evidentiraju", "U izvješćima pratite potrošnju po kategoriji i stvarnu dobit"] },
+    { "eyebrow": "Zašto je važno", "title": "Dobit kojoj možete vjerovati", "body": "Ne možete upravljati onim što ne mjerite. Kad je svaki trošak evidentiran naspram prihoda, račun dobiti i gubitka je točan, prijava PDV-a ispravna, a vi vidite koji troškovi rastu prije nego što postanu problem. Troškovi u Paper & Pen idu u istu glavnu knjigu kao i vaša prodaja, pa cijela slika ostaje dosljedna i usklađena." }
+  ],
+  "faqs": [
+    { "q": "Je li praćenje troškova besplatno?", "a": "Da. Evidentiranje i razvrstavanje troškova te prilaganje računa zauvijek je besplatno u Paper & Pen." },
+    { "q": "Mogu li priložiti račun uz trošak?", "a": "Da. Fotografirajte ili učitajte račun i on ostaje uz trošak, što vam daje uredan revizijski trag." },
+    { "q": "Mogu li ostvariti povrat PDV-a na troškove?", "a": "Da. Evidentirajte ulazni PDV ili GST na svakom trošku kako bi porezna prijava točno odražavala ono što možete vratiti." },
+    { "q": "Mogu li pratiti troškove u različitim valutama?", "a": "Da. Evidentirajte potrošnju u bilo kojoj valuti, uključujući USD, EUR, AED, SAR i OMR, s ispravnim decimalama." },
+    { "q": "Mogu li se ponavljajući troškovi automatizirati?", "a": "Da. Postavite najam, pretplate i režije da se automatski evidentiraju u svakom razdoblju, pa ništa ne propustite." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Znajte točno kamo vam odlazi novac",
+  "ctaSub": "Otvorite besplatan Paper & Pen radni prostor, evidentirajte svaki trošak i gledajte dobit kojoj stvarno možete vjerovati."
+}

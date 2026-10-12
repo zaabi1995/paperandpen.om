@@ -1,0 +1,36 @@
+{
+  "locale": "hr",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Narudžbenice",
+  "metaTitle": "Softver za narudžbenice · Paper & Pen",
+  "metaDescription": "Izradite profesionalne narudžbenice online besplatno, u bilo kojoj valuti. Šaljite narudžbenice dobavljačima, pratite odobrenja i isporuke.",
+  "keywords": "narudžbenica, izrada narudžbenice, nabavna narudžba, softver za narudžbenice, besplatna narudžbenica, narudžba dobavljaču, narudžbenica u ulazni račun",
+  "heroEyebrow": "Narudžbenice",
+  "heroTitle": "Naručujte od dobavljača pravim <em class=\"text-copper-400 not-italic\">narudžbenicama</em>",
+  "heroSubtitle": "Izradite, odobrite i pošaljite narudžbenice dobavljačima u bilo kojoj valuti, a zatim ih uparite s isporukama i ulaznim računima uz jasan revizijski trag. Zauvijek besplatno.",
+  "heroBullets": ["Zauvijek besplatno", "Odobrenje prije slanja", "Uparivanje s ulaznim računima"],
+  "features": [
+    { "icon": "cart", "title": "Narudžbenice s vašim brendom", "desc": "Izdajte jasne, numerirane narudžbenice dobavljačima s vašim uvjetima i podacima o isporuci." },
+    { "icon": "check", "title": "Odobrenje prije slanja", "desc": "Pošaljite narudžbenice na interno odobrenje, pa se ništa ne naručuje bez potpisa." },
+    { "icon": "truck", "title": "Praćenje isporuka", "desc": "Vidite što je naručeno, djelomično primljeno i potpuno isporučeno po svakoj narudžbenici." },
+    { "icon": "refresh", "title": "Uparivanje s računima", "desc": "Pretvorite primljenu narudžbenicu u ulazni račun i trostruko je uparite radi točnosti." },
+    { "icon": "globe", "title": "Bilo koja valuta", "desc": "Naručujte u USD, EUR, AED, SAR, OMR, INR i drugim valutama, s ispravnim porezom i decimalama." },
+    { "icon": "whatsapp", "title": "Slanje bilo kamo", "desc": "Podijelite narudžbenicu s dobavljačem WhatsAppom ili e-poštom jednim dodirom." }
+  ],
+  "sections": [
+    { "eyebrow": "Što je narudžbenica", "title": "Što je narudžbenica?", "body": "Narudžbenica dokument je koji kupac šalje dobavljaču kako bi službeno zatražio robu ili usluge po dogovorenoj cijeni. Navodi stavke, količine, jedinične cijene, poreze, uvjete isporuke i broj narudžbenice koji dobavljač navodi na svom računu. Narudžbenica postaje obvezujuća kad je dobavljač prihvati, a troškove kontrolira tako što traži odobrenje prije nego što novac ode." },
+    { "eyebrow": "Kako funkcionira", "title": "Izradi, odobri, primi, upari", "body": "Paper & Pen vodi cijeli proces od nabave do plaćanja, pa je svaka narudžba odobrena, praćena i uparena.", "items": ["Izradite narudžbenicu iz upozorenja o niskoj zalihi ili od početka", "Pošaljite je na interno odobrenje prije slanja", "Pošaljite je dobavljaču WhatsAppom ili e-poštom", "Primite robu po narudžbenici i ažurirajte zalihe", "Pretvorite je u ulazni račun i uparite s narudžbenicom i isporukom"] },
+    { "eyebrow": "Zašto je važno", "title": "Kontrolirajte troškove prije nego što nastanu", "body": "Narudžbenice premještaju kontrolu troškova na trenutak prije nego što novac ode, a ne nakon toga. Uz odobrenja, praćenje isporuka i trostruko uparivanje narudžbenice, primljene robe i ulaznog računa, otkrivate preveliku naplatu i manjkave isporuke prije plaćanja. Ta disciplina raste s vama, od jednog nabavljača do cijelog tima nabave." }
+  ],
+  "faqs": [
+    { "q": "Čemu služi narudžbenica?", "a": "Službeno traži robu ili usluge od dobavljača po dogovorenoj cijeni, kontrolira troškove kroz odobrenje i daje dobavljaču broj koji navodi na svom računu." },
+    { "q": "Je li softver za narudžbenice besplatan?", "a": "Da. Izrada, odobravanje i praćenje narudžbenica zauvijek je besplatno u Paper & Pen." },
+    { "q": "Mogu li odobriti narudžbenicu prije slanja?", "a": "Da. Pošaljite narudžbenice na interno odobrenje, pa se ništa ne naručuje bez odgovarajućeg potpisa." },
+    { "q": "Mogu li upariti narudžbenicu s ulaznim računom dobavljača?", "a": "Da. Pretvorite primljenu narudžbenicu u ulazni račun i trostruko je uparite s narudžbom i primljenom robom kako biste otkrili odstupanja." },
+    { "q": "Ažurira li primitak po narudžbenici moje zalihe?", "a": "Uz neobavezni modul Zalihe, primitak robe po narudžbenici automatski povećava stanje zaliha." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Naručujte s kontrolom, a ne u kaosu",
+  "ctaSub": "Otvorite besplatan Paper & Pen radni prostor, izdajte odobrene narudžbenice i automatski ih uparite s ulaznim računima."
+}
