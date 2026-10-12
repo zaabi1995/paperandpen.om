@@ -1,0 +1,36 @@
+{
+  "locale": "id",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Buku Besar",
+  "metaTitle": "Buku Besar & Laporan Rekening · Paper & Pen",
+  "metaDescription": "Lihat buku besar pelanggan dan pemasok secara online, gratis, dalam mata uang apa pun. Lihat setiap faktur, pembayaran dan nota kredit dalam satu laporan berjalan.",
+  "keywords": "buku besar, buku besar pelanggan, buku besar pemasok, laporan rekening, buku besar umum, software buku besar, statement of account",
+  "heroEyebrow": "Buku besar",
+  "heroTitle": "Setiap transaksi dalam satu <em class=\"text-copper-400 not-italic\">buku besar</em> yang jelas",
+  "heroSubtitle": "Lihat laporan berjalan dari setiap faktur, pembayaran, nota kredit dan penyesuaian untuk tiap pelanggan dan pemasok, dalam mata uang apa pun. Bagikan laporan rekening dalam satu ketukan. Gratis selamanya.",
+  "heroBullets": ["Gratis selamanya", "Saldo berjalan", "Bagikan laporan rekening seketika"],
+  "features": [
+    { "icon": "chart", "title": "Buku besar pelanggan", "desc": "Laporan berjalan per pelanggan: faktur, pembayaran dan nota kredit dengan saldo terkini." },
+    { "icon": "accounting", "title": "Buku besar pemasok", "desc": "Pantau tagihan, pembayaran dan nota debit per pemasok agar Anda selalu tahu berapa utang Anda." },
+    { "icon": "doc", "title": "Laporan rekening", "desc": "Buat dan kirim laporan rekening untuk rentang tanggal apa pun dalam satu ketukan." },
+    { "icon": "shield", "title": "Selalu terekonsiliasi", "desc": "Buku besar diperbarui dari entri yang sama dengan faktur dan pembayaran, jadi selalu cocok." },
+    { "icon": "globe", "title": "Mata uang apa pun", "desc": "Lihat saldo dalam USD, EUR, AED, SAR, OMR, INR dan lainnya, dengan desimal yang benar." },
+    { "icon": "whatsapp", "title": "Bagikan ke mana saja", "desc": "Kirim laporan rekening lewat WhatsApp atau email agar pelanggan bisa melunasi saldo yang tertunggak." }
+  ],
+  "sections": [
+    { "eyebrow": "Apa itu buku besar", "title": "Apa itu buku besar?", "body": "Buku besar adalah catatan berjalan dari semua transaksi yang memengaruhi sebuah akun, dengan saldo yang dibawa ke depan setelah setiap entri. Buku besar pelanggan menampilkan setiap faktur yang Anda terbitkan, setiap pembayaran yang diterima dan setiap nota kredit, dan berakhir pada saldo yang mereka utangkan. Laporan rekening adalah buku besar itu yang disajikan kepada pelanggan untuk satu periode. Buku besar adalah tulang punggung untuk mengetahui siapa berutang apa, dan kepada siapa Anda berutang." },
+    { "eyebrow": "Cara kerjanya", "title": "Satu sumber kebenaran", "body": "Di Paper & Pen, buku besar bukan spreadsheet terpisah. Buku besar disusun dari faktur, pembayaran dan nota kredit yang sudah Anda buat.", "items": ["Buka pelanggan atau pemasok mana pun untuk melihat buku besarnya secara lengkap", "Setiap faktur, pembayaran, nota kredit dan nota debit muncul dengan saldo berjalan", "Saring per rentang tanggal untuk laporan rekening yang rapi", "Kirim laporan rekening lewat WhatsApp atau email dalam satu ketukan", "Saldo selalu cocok dengan faktur dan akun Anda"] },
+    { "eyebrow": "Mengapa ini penting", "title": "Tagih lebih cepat, jangan bayar dua kali", "body": "Saat pelanggan mempertanyakan saldo, buku besar yang jelas menyelesaikan pembicaraan dalam hitungan detik. Saat Anda perlu menagih, laporan rekening adalah dokumen paling meyakinkan yang bisa Anda kirim. Dan karena buku besar pemasok memantau utang Anda, Anda tidak pernah membayar tagihan dua kali atau melewatkan nota debit. Satu catatan yang terekonsiliasi, untuk kedua sisi bisnis Anda." }
+  ],
+  "faqs": [
+    { "q": "Apa itu buku besar pelanggan?", "a": "Laporan berjalan dari setiap faktur, pembayaran dan nota kredit untuk seorang pelanggan, yang berakhir pada saldo yang saat ini mereka utangkan kepada Anda." },
+    { "q": "Apakah buku besar gratis?", "a": "Ya. Buku besar pelanggan dan pemasok serta laporan rekening gratis selamanya di Paper & Pen." },
+    { "q": "Bisakah saya mengirim laporan rekening?", "a": "Bisa. Buat laporan rekening untuk rentang tanggal apa pun dan kirim lewat WhatsApp atau email dalam satu ketukan agar pelanggan bisa melunasi." },
+    { "q": "Apakah buku besar tetap terekonsiliasi?", "a": "Ya. Buku besar disusun dari entri yang sama dengan faktur dan pembayaran Anda, jadi saldonya selalu cocok dengan akun Anda." },
+    { "q": "Bisakah saya melihat utang saya kepada pemasok?", "a": "Bisa. Buku besar pemasok memantau tagihan, pembayaran dan nota debit agar Anda selalu tahu persis berapa yang belum dibayar ke setiap pemasok." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Lihat siapa berutang apa, seketika",
+  "ctaSub": "Buat ruang kerja Paper & Pen gratis dan dapatkan buku besar yang rapi dan terekonsiliasi untuk setiap pelanggan dan pemasok."
+}

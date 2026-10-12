@@ -1,0 +1,36 @@
+{
+  "locale": "id",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Purchase Order",
+  "metaTitle": "Software Purchase Order · Paper & Pen",
+  "metaDescription": "Buat purchase order profesional secara online, gratis, dalam mata uang apa pun. Kirim PO ke pemasok, pantau persetujuan dan pengiriman.",
+  "keywords": "purchase order, pesanan pembelian, buat purchase order, PO, software purchase order, purchase order gratis, pesanan ke pemasok, PO ke tagihan",
+  "heroEyebrow": "Purchase order",
+  "heroTitle": "Pesan dari pemasok dengan <em class=\"text-copper-400 not-italic\">purchase order</em> yang benar",
+  "heroSubtitle": "Buat, setujui dan kirim purchase order ke pemasok dalam mata uang apa pun, lalu cocokkan dengan penerimaan barang dan tagihan dengan jejak audit yang rapi. Gratis selamanya.",
+  "heroBullets": ["Gratis selamanya", "Setujui sebelum dikirim", "Cocokkan dengan tagihan pemasok"],
+  "features": [
+    { "icon": "cart", "title": "Purchase order bermerek", "desc": "Terbitkan PO bernomor yang jelas ke pemasok dengan ketentuan dan detail pengiriman Anda." },
+    { "icon": "check", "title": "Persetujuan sebelum dikirim", "desc": "Alirkan PO untuk persetujuan internal agar tidak ada yang dipesan tanpa izin." },
+    { "icon": "truck", "title": "Pantau pengiriman", "desc": "Lihat apa yang dipesan, diterima sebagian dan diterima penuh untuk setiap PO." },
+    { "icon": "refresh", "title": "Cocokkan dengan tagihan", "desc": "Ubah PO yang sudah diterima menjadi tagihan pemasok dan lakukan pencocokan tiga arah demi akurasi." },
+    { "icon": "globe", "title": "Mata uang apa pun", "desc": "Pesan dalam USD, EUR, AED, SAR, OMR, INR dan lainnya, dengan pajak dan desimal yang benar." },
+    { "icon": "whatsapp", "title": "Kirim ke mana saja", "desc": "Bagikan PO ke pemasok lewat WhatsApp atau email dalam satu ketukan." }
+  ],
+  "sections": [
+    { "eyebrow": "Apa itu purchase order", "title": "Apa itu purchase order?", "body": "Purchase order (PO) adalah dokumen yang dikirim pembeli kepada pemasok untuk secara resmi meminta barang atau jasa dengan harga yang disepakati. PO mencantumkan item, kuantitas, harga satuan, pajak, ketentuan pengiriman dan nomor PO yang dicantumkan kembali oleh pemasok di fakturnya. PO menjadi komitmen yang mengikat setelah pemasok menerimanya, dan PO mengendalikan belanja karena mewajibkan persetujuan sebelum uang keluar." },
+    { "eyebrow": "Cara kerjanya", "title": "Buat, setujui, terima, cocokkan", "body": "Paper & Pen menjalankan seluruh alur dari pembelian hingga pembayaran, sehingga setiap pesanan disetujui, dipantau dan dicocokkan.", "items": ["Buat PO dari peringatan stok menipis atau dari awal", "Alirkan untuk persetujuan internal sebelum dikirim", "Kirim ke pemasok lewat WhatsApp atau email", "Terima barang terhadap PO dan perbarui stok", "Ubah menjadi tagihan pemasok dan cocokkan dengan PO dan penerimaan barang"] },
+    { "eyebrow": "Mengapa ini penting", "title": "Kendalikan belanja sebelum terjadi", "body": "Purchase order memindahkan kendali belanja ke sebelum uang keluar, bukan sesudahnya. Dengan persetujuan, pemantauan pengiriman dan pencocokan tiga arah antara PO, barang yang diterima dan tagihan pemasok, Anda menemukan kelebihan tagih dan kekurangan kirim sebelum membayar. Disiplin itu bisa berkembang dari satu pembeli hingga tim pengadaan penuh." }
+  ],
+  "faqs": [
+    { "q": "Untuk apa purchase order?", "a": "Untuk secara resmi meminta barang atau jasa dari pemasok dengan harga yang disepakati, mengendalikan belanja lewat persetujuan, dan memberi pemasok referensi untuk dicantumkan di fakturnya." },
+    { "q": "Apakah software purchase order ini gratis?", "a": "Ya. Membuat, menyetujui dan memantau purchase order gratis selamanya di Paper & Pen." },
+    { "q": "Bisakah saya menyetujui PO sebelum dikirim?", "a": "Bisa. Alirkan purchase order untuk persetujuan internal agar tidak ada yang dipesan tanpa izin yang tepat." },
+    { "q": "Bisakah saya mencocokkan PO dengan tagihan pemasok?", "a": "Bisa. Ubah PO yang sudah diterima menjadi tagihan pemasok dan cocokkan tiga arah dengan pesanan dan barang yang diterima untuk menemukan selisih." },
+    { "q": "Apakah penerimaan PO memperbarui stok saya?", "a": "Dengan modul Inventaris opsional, penerimaan barang terhadap PO menambah tingkat stok secara otomatis." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Pesan dengan kendali, bukan kekacauan",
+  "ctaSub": "Buat ruang kerja Paper & Pen gratis, terbitkan purchase order yang disetujui, dan cocokkan dengan tagihan secara otomatis."
+}
