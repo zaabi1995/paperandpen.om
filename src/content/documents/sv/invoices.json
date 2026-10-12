@@ -1,0 +1,36 @@
+{
+  "locale": "sv",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Fakturor",
+  "metaTitle": "Fakturera online · Skapa och skicka fakturor gratis · Paper & Pen",
+  "metaDescription": "Skapa proffsiga fakturor online gratis i valfri valuta. Skicka via WhatsApp eller e-post, ta emot betalningar online och se vad som är betalt och förfallet.",
+  "keywords": "faktura, faktura online, skapa faktura, faktureringsprogram, gratis faktura, momsfaktura, GST-faktura, skicka faktura via whatsapp",
+  "heroEyebrow": "Fakturering",
+  "heroTitle": "Skapa och skicka proffsiga <em class=\"text-copper-400 not-italic\">fakturor</em> gratis",
+  "heroSubtitle": "Fakturera valfri kund, i valfri valuta, med den skattesats du väljer. Skicka via WhatsApp eller e-post, få betalt online och vet alltid vad som är betalt, att betala och förfallet.",
+  "heroBullets": ["Fakturering gratis för alltid", "Valfri valuta, valfri skattesats", "Skicka via WhatsApp eller e-post"],
+  "features": [
+    { "icon": "invoice", "title": "Fakturor med din profil", "desc": "Lägg till logotyp, färger och villkor. Varje faktura ser proffsig ut och skrivs ut snyggt." },
+    { "icon": "globe", "title": "Valfri valuta", "desc": "Fakturera i USD, EUR, GBP, INR, AED, SAR, OMR med flera, med rätt antal decimaler." },
+    { "icon": "calc", "title": "Redo för moms och skatt", "desc": "Använd valfri sats för moms, GST eller försäljningsskatt. Skatten beräknas på nettot efter rabatter." },
+    { "icon": "whatsapp", "title": "Skicka var som helst", "desc": "Dela en länk eller PDF via WhatsApp, e-post eller nedladdning. Kunden kan betala med ett tryck." },
+    { "icon": "card", "title": "Få betalt online", "desc": "Ta emot kort och lokala betalsätt så att kunden betalar fakturan direkt." },
+    { "icon": "bell", "title": "Automatiska påminnelser", "desc": "Vänliga betalningspåminnelser skickas automatiskt tills fakturan är betald." }
+  ],
+  "sections": [
+    { "eyebrow": "Vad är en faktura", "title": "Vad är en faktura?", "body": "En faktura är ett affärsdokument som säljaren utfärdar till köparen för att begära betalning för levererade varor eller tjänster. Den listar artiklar, kvantiteter, styckpriser, skatter och totalbeloppet att betala, tillsammans med betalningsvillkor och förfallodatum. En tydlig, numrerad faktura är det juridiska underlaget för en försäljning och signalen till kunden att betala dig." },
+    { "eyebrow": "Så fungerar det", "title": "Från utkast till betald på några minuter", "body": "Bygg fakturan från en offert eller från början, skicka den och låt Paper & Pen sköta resten. Betalningar, påminnelser och dina böcker hålls i synk automatiskt.", "items": ["Skapa från sparade kunder och produkter, eller börja med en tom faktura", "Ange valuta, skattesats och betalningsvillkor", "Skicka via WhatsApp eller e-post med en länk för betalning online", "Följ status: utkast, skickad, delvis betald, betald, förfallen", "Registrera manuella betalningar eller låt onlinebetalningar stämmas av automatiskt"] },
+    { "eyebrow": "Byggt för världen", "title": "Lokala styrkor, global räckvidd", "body": "Paper & Pen fungerar för företag överallt. Finns du i Gulfstaterna får du arabiska fakturor, inbyggd formatering för OMR, AED och SAR, konfigurerbara momsinställningar och kortbetalningar via Paymob direkt. Överallt annars väljer du helt enkelt valuta, skattesats och språk." }
+  ],
+  "faqs": [
+    { "q": "Är faktureringen verkligen gratis?", "a": "Ja. Att skapa, skicka och följa upp fakturor är gratis för alltid i Paper & Pen. Du betalar bara om du lägger till valfria moduler som Lager, HR eller Redovisning." },
+    { "q": "Kan jag fakturera i valfri valuta?", "a": "Ja. Välj valfri valuta, bland annat USD, EUR, GBP, INR, AED, SAR och OMR. Antalet decimaler anpassas automatiskt (till exempel tre decimaler för OMR)." },
+    { "q": "Hanterar det moms eller GST?", "a": "Ja. Ange valfri skattesats per faktura eller per rad. Användare i Gulfstaterna får en konfigurerbar momsinställning, och skatten beräknas alltid på beloppet efter rabatter." },
+    { "q": "Hur betalar kunderna mig?", "a": "Skicka fakturan med en länk för betalning online så kan kunden betala med kort eller ett lokalt betalsätt med ett tryck. Du kan också registrera kontant-, bank- eller checkbetalningar manuellt." },
+    { "q": "Kan jag skicka fakturor via WhatsApp?", "a": "Ja. Dela fakturan som länk eller PDF direkt i WhatsApp, eller skicka den via e-post. Båda behåller betalknappen så att du får betalt snabbare." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Skicka din första faktura på några minuter",
+  "ctaSub": "Skapa en gratis arbetsyta i Paper & Pen, lägg till din logotyp och skicka en proffsig faktura som betalas online."
+}

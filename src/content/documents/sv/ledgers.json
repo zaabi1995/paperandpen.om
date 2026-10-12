@@ -1,0 +1,36 @@
+{
+  "locale": "sv",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Reskontra",
+  "metaTitle": "Reskontra och kontoutdrag · Paper & Pen",
+  "metaDescription": "Se kund- och leverantörsreskontra online gratis i valfri valuta. Se varje faktura, betalning och kreditfaktura i ett löpande kontoutdrag.",
+  "keywords": "reskontra, kundreskontra, leverantörsreskontra, kontoutdrag, huvudbok, reskontraprogram, kundutdrag",
+  "heroEyebrow": "Reskontra",
+  "heroTitle": "Varje transaktion i en tydlig <em class=\"text-copper-400 not-italic\">reskontra</em>",
+  "heroSubtitle": "Se ett löpande kontoutdrag med varje faktura, betalning, kreditfaktura och justering för varje kund och leverantör, i valfri valuta. Dela ett kontoutdrag med ett tryck. Gratis för alltid.",
+  "heroBullets": ["Gratis för alltid", "Löpande saldon", "Dela kontoutdrag direkt"],
+  "features": [
+    { "icon": "chart", "title": "Kundreskontra", "desc": "Ett löpande kontoutdrag per kund: fakturor, betalningar och kreditfakturor med ett aktuellt saldo." },
+    { "icon": "accounting", "title": "Leverantörsreskontra", "desc": "Följ leverantörsfakturor, betalningar och debetnotor per leverantör så att du alltid vet vad du är skyldig." },
+    { "icon": "doc", "title": "Kontoutdrag", "desc": "Ta fram och skicka ett kontoutdrag för valfri period med ett tryck." },
+    { "icon": "shield", "title": "Alltid avstämt", "desc": "Reskontran uppdateras från samma poster som dina fakturor och betalningar, så att de alltid stämmer överens." },
+    { "icon": "globe", "title": "Valfri valuta", "desc": "Se saldon i USD, EUR, AED, SAR, OMR, INR med flera, med rätt antal decimaler." },
+    { "icon": "whatsapp", "title": "Dela var som helst", "desc": "Skicka ett kontoutdrag via WhatsApp eller e-post så att kunden kan betala utestående saldon." }
+  ],
+  "sections": [
+    { "eyebrow": "Vad är en reskontra", "title": "Vad är en reskontra?", "body": "En reskontra är den löpande förteckningen över alla transaktioner som påverkar ett konto, med ett saldo som förs vidare efter varje post. En kundreskontra visar varje faktura du har utfärdat, varje betalning du har fått och varje kreditfaktura, och slutar i det saldo kunden är skyldig. Ett kontoutdrag är den reskontran presenterad för kunden för en viss period. Reskontran är grunden för att veta vem som är skyldig vad, och vem du själv är skyldig." },
+    { "eyebrow": "Så fungerar det", "title": "En enda sanning", "body": "I Paper & Pen är reskontran inget separat kalkylark, den byggs av samma fakturor, betalningar och kreditfakturor som du redan skapar.", "items": ["Öppna valfri kund eller leverantör för att se hela reskontran", "Varje faktura, betalning, kreditfaktura och debetnota visas med ett löpande saldo", "Filtrera på period för ett rent kontoutdrag", "Skicka kontoutdraget via WhatsApp eller e-post med ett tryck", "Saldona stämmer alltid med dina fakturor och din redovisning"] },
+    { "eyebrow": "Varför det spelar roll", "title": "Få betalt snabbare, betala aldrig två gånger", "body": "När en kund ifrågasätter ett saldo avslutar en tydlig reskontra diskussionen på några sekunder. När du behöver driva in pengar är ett kontoutdrag det mest övertygande dokument du kan skicka. Och eftersom leverantörsreskontran följer vad du är skyldig betalar du aldrig en faktura två gånger och missar aldrig en debetnota. Ett avstämt underlag för båda sidor av ditt företag." }
+  ],
+  "faqs": [
+    { "q": "Vad är en kundreskontra?", "a": "Ett löpande kontoutdrag med varje faktura, betalning och kreditfaktura för en kund, som slutar i det saldo kunden just nu är skyldig dig." },
+    { "q": "Är reskontran gratis?", "a": "Ja. Kund- och leverantörsreskontra samt kontoutdrag är gratis för alltid i Paper & Pen." },
+    { "q": "Kan jag skicka ett kontoutdrag?", "a": "Ja. Ta fram ett kontoutdrag för valfri period och skicka det via WhatsApp eller e-post med ett tryck så att kunden kan betala." },
+    { "q": "Förblir reskontran avstämd?", "a": "Ja. Reskontran byggs av samma poster som dina fakturor och betalningar, så att saldona alltid stämmer med din redovisning." },
+    { "q": "Kan jag se vad jag är skyldig leverantörer?", "a": "Ja. Leverantörsreskontran följer leverantörsfakturor, betalningar och debetnotor så att du alltid vet exakt vad som är obetalt till varje leverantör." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Se direkt vem som är skyldig vad",
+  "ctaSub": "Skapa en gratis arbetsyta i Paper & Pen och få en ren, avstämd reskontra för varje kund och leverantör."
+}

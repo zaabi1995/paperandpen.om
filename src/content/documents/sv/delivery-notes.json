@@ -1,0 +1,36 @@
+{
+  "locale": "sv",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Följesedlar",
+  "metaTitle": "Skapa följesedlar · Paper & Pen",
+  "metaDescription": "Skapa proffsiga följesedlar online gratis. Lista levererade varor, registrera leveransbevis och gör om en följesedel till en faktura med ett klick.",
+  "keywords": "följesedel, skapa följesedel, packsedel, leveransbevis, leveranskvitto, följesedelsmall, utleveransdokument",
+  "heroEyebrow": "Följesedlar",
+  "heroTitle": "Leverera med en tydlig <em class=\"text-copper-400 not-italic\">följesedel</em> varje gång",
+  "heroSubtitle": "Lista varorna du levererar, registrera leveransbevis vid mottagandet och gör sedan om följesedeln till en faktura med ett klick. Fungerar överallt.",
+  "heroBullets": ["Gratis för alltid", "Leveransbevis", "Gör om till faktura"],
+  "features": [
+    { "icon": "truck", "title": "Dokument för utleverans", "desc": "Lista artiklar och levererade kvantiteter, med eller utan priser, på en ren följesedel med din logotyp." },
+    { "icon": "check", "title": "Leveransbevis", "desc": "Registrera vem som tog emot varorna och när, så att leveranser aldrig ifrågasätts." },
+    { "icon": "refresh", "title": "Gör om till faktura", "desc": "Gör om en följesedel till en faktura med ett klick när varorna har tagits emot." },
+    { "icon": "inventory", "title": "Kopplad till lagret", "desc": "Med lagermodulen kan en följesedel minska lagersaldot automatiskt." },
+    { "icon": "globe", "title": "Fungerar överallt", "desc": "Används över hela världen som följesedel eller leveransdokument, på ditt språk och i din valuta." },
+    { "icon": "whatsapp", "title": "Skicka var som helst", "desc": "Dela följesedeln via WhatsApp eller e-post så att kunden har underlaget." }
+  ],
+  "sections": [
+    { "eyebrow": "Vad är en följesedel", "title": "Vad är en följesedel?", "body": "En följesedel (även kallad packsedel eller leveranssedel) är ett dokument som följer med en varuleverans och listar vad som levereras. Mottagaren kontrollerar varorna mot den och skriver under för att bekräfta mottagandet. Den bevisar att varorna lämnade dina lokaler och nådde kunden, och den är länken mellan en försäljningsorder och fakturan som följer." },
+    { "eyebrow": "Så fungerar det", "title": "Skicka, bekräfta, fakturera", "body": "Paper & Pen kopplar följesedeln till din försäljningsorder och faktura, så att utleverans och fakturering går i takt.", "items": ["Skapa en följesedel från en försäljningsorder eller från början", "Välj att visa priser eller bara kvantiteter", "Skicka eller skriv ut den så att den följer med varorna", "Registrera leveransbevis när kunden skriver under", "Gör om följesedeln till en faktura med ett klick"] },
+    { "eyebrow": "Följesedel eller faktura", "title": "Följesedel eller faktura?", "body": "En följesedel visar vad som fysiskt har flyttats och bekräftar mottagandet, den är inget betalningskrav. En faktura begär betalning för varorna. Många företag levererar först mot en följesedel och fakturerar sedan enligt överenskomna villkor. Paper & Pen låter dig göra precis så och gör om en bekräftad leverans till en faktura utan att du skriver in något igen." }
+  ],
+  "faqs": [
+    { "q": "Vad är skillnaden mellan en följesedel och en faktura?", "a": "En följesedel listar och bekräftar levererade varor, utan något betalningskrav. En faktura begär betalning. Du kan göra om en följesedel till en faktura med ett klick." },
+    { "q": "Är verktyget för följesedlar gratis?", "a": "Ja. Att skapa, skicka och följa upp följesedlar är gratis för alltid i Paper & Pen." },
+    { "q": "Kan en följesedel dölja priser?", "a": "Ja. Välj att visa priser eller bara kvantiteter, vilket är praktiskt när lagret eller budfirman inte ska se prissättningen." },
+    { "q": "Registrerar den leveransbevis?", "a": "Ja. Registrera vem som tog emot varorna och när, så att en leverans aldrig ifrågasätts i efterhand." },
+    { "q": "Uppdaterar en följesedel mitt lager?", "a": "Med den valfria lagermodulen kan en följesedel minska lagersaldot automatiskt när varorna lämnar lagret." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Leverera med bevis varje gång",
+  "ctaSub": "Skapa en gratis arbetsyta i Paper & Pen, skicka en ren följesedel, registrera leveransbevis och fakturera med ett klick."
+}

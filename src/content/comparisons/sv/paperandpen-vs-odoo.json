@@ -1,0 +1,45 @@
+{
+  "locale": "sv",
+  "slug": "paperandpen-vs-odoo",
+  "order": 3,
+  "competitor": "Odoo",
+  "title": "Paper & Pen eller Odoo",
+  "metaTitle": "Paper & Pen mot Odoo · Enklare gratis ERP-alternativ",
+  "metaDescription": "Jämför Paper & Pen och Odoo på pris, gratisplan, arabiska RTL, installationstid och moms i Gulfen. Ett enklare, gratis ERP-alternativ till Odoo med arabiskt fokus.",
+  "keywords": "paper and pen mot odoo, odoo alternativ, gratis odoo alternativ, enkelt erp, arabiskt erp-program, odoo pris Gulfen",
+  "heroEyebrow": "Jämförelse",
+  "heroTitle": "Paper & Pen mot <em class=\"text-copper-400 not-italic\">Odoo</em>",
+  "heroSubtitle": "Odoo är ett kraftfullt, modulärt ERP som klarar nästan allt. Paper & Pen är den enklare, gratis vägen med arabiskt fokus: fakturering gratis för alltid, moduler när du behöver dem, igång på minuter. En ärlig jämförelse.",
+  "heroBullets": ["Gratis för alltid för försäljning och fakturering", "Igång på minuter, inget implementeringsprojekt", "Arabiskt först med inbyggda valutor för Gulfen"],
+  "features": [
+    { "icon": "bolt", "title": "Igång på minuter", "desc": "Ingen partner, ingen implementeringsfas. Registrera dig, ställ in skatt och valuta och skicka en faktura i dag." },
+    { "icon": "check", "title": "Gratis kärna", "desc": "Försäljning och fakturering är gratis för alltid. Du betalar bara för de moduler du faktiskt slår på." },
+    { "icon": "globe", "title": "Arabiskt först", "desc": "Fullständigt arabiskt gränssnitt och dokument från höger till vänster, med fem gränssnittsspråk från start." }
+  ],
+  "sections": [
+    { "eyebrow": "Det ärliga omdömet", "title": "Där Odoo är starkt", "body": "Odoo är verkligen kraftfullt. Med dussintals appar, djup anpassning och ett starkt ekosystem av utvecklare kan det modellera mycket komplexa verksamheter, från tillverkningsrutter till e-handel och fältservice. Har du budgeten, en implementeringspartner och egna processer kan Odoo formas efter nästan vad som helst.", "items": ["Enorm katalog med moduler och appar", "Djup anpassning och ekosystem av utvecklare", "Skalar till mycket komplexa verksamheter"] },
+    { "eyebrow": "Där vi vinner", "title": "Enkelhet, pris och tid till nytta", "body": "De flesta företag behöver inget implementeringsprojekt för att skicka en faktura. Paper & Pen är gratis att börja med, arabiskt först och klart på minuter med inställbar moms för Gulfen, OMR, AED och SAR som standard och Paymob-betalningar förberedda. Du lägger till Lager, HR eller Tillverkning först när du växer in i dem, så du betalar aldrig för komplexitet du inte använder.", "items": ["Ingen implementeringskostnad för att komma igång", "Moms och valutor för Gulfen förberedda", "Lägg till moduler först när du växer"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Odoo"],
+  "matrix": [
+    { "feature": "Gratisplan för alltid", "values": [true, "Gratis nivå med en app"] },
+    { "feature": "Startpris", "values": ["Gratis", "Betalt per användare"] },
+    { "feature": "Arbetsinsats vid uppsättning", "values": ["Minuter", "Implementering"] },
+    { "feature": "Arabiskt gränssnitt (RTL)", "values": [true, "Delvis"] },
+    { "feature": "Flera valutor", "values": [true, true] },
+    { "feature": "Lokala betalningar (Paymob)", "values": [true, "Via konfiguration"] },
+    { "feature": "Inställbar moms för Gulfen som standard", "values": [true, "Går att ställa in"] },
+    { "feature": "Fullständiga ERP-moduler", "values": ["Modulära tillägg", true] },
+    { "feature": "Passar bäst för", "values": ["Småföretag som vill ha enkelt och gratis", "Komplex, anpassad verksamhet"] }
+  ],
+  "faqs": [
+    { "q": "Är Paper & Pen ett bra alternativ till Odoo?", "a": "Ja, för små och medelstora företag som vill börja gratis, komma igång snabbt och arbeta på arabiska. Odoo är fortsatt det starkare valet för mycket komplex, starkt anpassad verksamhet med en implementeringsbudget." },
+    { "q": "Är Paper & Pen billigare än Odoo?", "a": "Startpunkten är gratis med obegränsad fakturering, utan avgift per användare och utan implementeringskostnad. Du betalar bara för valfria moduler som du slår på." },
+    { "q": "Hur lång tid tar uppsättningen jämfört med Odoo?", "a": "Minuter. Du registrerar dig, ställer in valuta och skatt och skickar en faktura samma dag, utan partner eller implementeringsfas." },
+    { "q": "Har Paper & Pen lager och tillverkning som Odoo?", "a": "Ja, som valfria moduler. Du kan lägga till Lager, HR, Redovisning och Tillverkning när du växer in i dem, i stället för att betala för allt på en gång." },
+    { "q": "Är den arabiska upplevelsen bättre?", "a": "Paper & Pen är arabiskt först med ett fullständigt gränssnitt från höger till vänster och arabiska dokument, medan Odoos arabiska stöd är delvis och ofta beror på konfiguration." }
+  ],
+  "related": ["/compare/paperandpen-vs-tally", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Hoppa över implementeringen",
+  "ctaSub": "Börja gratis med Paper & Pen, skicka en faktura i dag och lägg till moduler först när du behöver dem."
+}

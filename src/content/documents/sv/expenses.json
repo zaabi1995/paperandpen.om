@@ -1,0 +1,36 @@
+{
+  "locale": "sv",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Utgifter",
+  "metaTitle": "Program för utgiftsuppföljning · Paper & Pen",
+  "metaDescription": "Följ företagets utgifter online gratis i valfri valuta. Spara kvitton, kategorisera kostnader, återvinn moms och se vinsten tydligt i dina böcker.",
+  "keywords": "utgiftsuppföljning, registrera utgifter, företagets utgifter, utgiftsprogram, gratis utgiftsapp, spara kvitton, moms på utgifter",
+  "heroEyebrow": "Utgifter",
+  "heroTitle": "Följ alla företagets <em class=\"text-copper-400 not-italic\">utgifter</em> på ett ställe",
+  "heroSubtitle": "Spara kvitton, kategorisera kostnader, återvinn moms och se den verkliga vinsten, i valfri valuta. Utgifterna kopplas direkt till din redovisning. Gratis för alltid.",
+  "heroBullets": ["Gratis för alltid", "Spara kvitton", "Se den verkliga vinsten"],
+  "features": [
+    { "icon": "accounting", "title": "Registrera alla utgifter", "desc": "Lägg in en räkning, ett kontantköp eller en leverantörsbetalning på några sekunder, med kategori och skatt." },
+    { "icon": "doc", "title": "Bifoga kvitton", "desc": "Fota eller ladda upp kvittot och spara det med utgiften för rena underlag och revisioner." },
+    { "icon": "calc", "title": "Återvinn moms", "desc": "Registrera ingående moms eller GST på utgifter så att skattedeklarationen visar vad du kan återvinna." },
+    { "icon": "chart", "title": "Se den verkliga vinsten", "desc": "Utgifterna bokförs mot intäkterna, så att resultaträkningen visar verkligheten och inte en gissning." },
+    { "icon": "globe", "title": "Valfri valuta", "desc": "Registrera kostnader i USD, EUR, AED, SAR, OMR, INR med flera, med rätt antal decimaler." },
+    { "icon": "refresh", "title": "Återkommande utgifter", "desc": "Låt hyra, abonnemang och el och vatten registreras automatiskt varje period." }
+  ],
+  "sections": [
+    { "eyebrow": "Vad är utgiftsuppföljning", "title": "Vad är utgiftsuppföljning?", "body": "Utgiftsuppföljning innebär att du registrerar varje kostnad företaget har, med kategori, datum, skatt och kvitto som underlag. Görs det väl vet du exakt vart pengarna tar vägen, vilken vinst du verkligen gör och hur mycket ingående skatt du kan återvinna. Görs det slarvigt blir vinsten en gissning och deklarationstiden en stressig jakt. Med Paper & Pen tar det några sekunder per utgift." },
+    { "eyebrow": "Så fungerar det", "title": "Spara, kategorisera, återvinn", "body": "Paper & Pen gör utspridda kvitton till rena, kategoriserade poster som går direkt in i din redovisning.", "items": ["Registrera en utgift med kategori, leverantör och skatt", "Bifoga kvittot som foto eller PDF för verifieringskedjan", "Återvinn ingående moms eller GST där det är tillämpligt", "Låt återkommande utgifter registreras automatiskt", "Se kostnader per kategori och den verkliga vinsten i dina rapporter"] },
+    { "eyebrow": "Varför det spelar roll", "title": "En vinst du kan lita på", "body": "Det du inte mäter kan du inte styra. När varje utgift registreras mot intäkterna blir resultaträkningen korrekt, momsdeklarationen blir rätt och du ser vilka kostnader som smyger uppåt innan de gör ont. Utgifterna i Paper & Pen går in i samma huvudbok som din försäljning, så att helheten förblir enhetlig och avstämd." }
+  ],
+  "faqs": [
+    { "q": "Är utgiftsuppföljningen gratis?", "a": "Ja. Att registrera och kategorisera utgifter och bifoga kvitton är gratis för alltid i Paper & Pen." },
+    { "q": "Kan jag bifoga ett kvitto till en utgift?", "a": "Ja. Fota eller ladda upp kvittot så sparas det med utgiften, vilket ger dig en ren verifieringskedja." },
+    { "q": "Kan jag återvinna moms på utgifter?", "a": "Ja. Registrera ingående moms eller GST på varje utgift så att skattedeklarationen visar exakt vad du kan återvinna." },
+    { "q": "Kan jag följa utgifter i olika valutor?", "a": "Ja. Registrera kostnader i valfri valuta, bland annat USD, EUR, AED, SAR och OMR, med rätt antal decimaler." },
+    { "q": "Kan återkommande utgifter automatiseras?", "a": "Ja. Låt hyra, abonnemang och el och vatten registreras automatiskt varje period så att inget missas." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Vet exakt vart pengarna tar vägen",
+  "ctaSub": "Skapa en gratis arbetsyta i Paper & Pen, registrera varje utgift och se en vinst du faktiskt kan lita på."
+}

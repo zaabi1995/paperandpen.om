@@ -1,0 +1,36 @@
+{
+  "locale": "sv",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Inköpsorder",
+  "metaTitle": "Program för inköpsorder · Paper & Pen",
+  "metaDescription": "Skapa proffsiga inköpsorder online gratis i valfri valuta. Skicka inköpsorder till leverantörer och följ godkännanden och leveranser.",
+  "keywords": "inköpsorder, skapa inköpsorder, beställning, program för inköpsorder, gratis inköpsorder, leverantörsorder, inköpsorder till leverantörsfaktura",
+  "heroEyebrow": "Inköpsorder",
+  "heroTitle": "Beställ från leverantörer med riktiga <em class=\"text-copper-400 not-italic\">inköpsorder</em>",
+  "heroSubtitle": "Skapa, godkänn och skicka inköpsorder till leverantörer i valfri valuta, och matcha dem sedan mot leveranser och leverantörsfakturor med en tydlig verifieringskedja. Gratis för alltid.",
+  "heroBullets": ["Gratis för alltid", "Godkänn innan du skickar", "Matcha mot leverantörsfakturor"],
+  "features": [
+    { "icon": "cart", "title": "Inköpsorder med din profil", "desc": "Utfärda tydliga, numrerade inköpsorder till leverantörer med dina villkor och leveransuppgifter." },
+    { "icon": "check", "title": "Godkännande före utskick", "desc": "Skicka inköpsorder för internt godkännande så att inget beställs utan klartecken." },
+    { "icon": "truck", "title": "Följ leveranser", "desc": "Se vad som är beställt, delvis mottaget och helt levererat för varje inköpsorder." },
+    { "icon": "refresh", "title": "Matcha mot leverantörsfakturor", "desc": "Gör om en mottagen inköpsorder till en leverantörsfaktura och gör en trevägsmatchning för att få det rätt." },
+    { "icon": "globe", "title": "Valfri valuta", "desc": "Beställ i USD, EUR, AED, SAR, OMR, INR med flera, med rätt skatt och antal decimaler." },
+    { "icon": "whatsapp", "title": "Skicka var som helst", "desc": "Dela inköpsordern med en leverantör via WhatsApp eller e-post med ett tryck." }
+  ],
+  "sections": [
+    { "eyebrow": "Vad är en inköpsorder", "title": "Vad är en inköpsorder?", "body": "En inköpsorder är ett dokument som en köpare skickar till en leverantör för att formellt beställa varor eller tjänster till ett överenskommet pris. Den listar artiklar, kvantiteter, styckpriser, skatter, leveransvillkor och ett ordernummer som leverantören anger på sin faktura. Inköpsordern blir ett bindande åtagande när leverantören accepterar den, och den styr kostnaderna genom att kräva godkännande innan pengarna går ut." },
+    { "eyebrow": "Så fungerar det", "title": "Skapa, godkänn, ta emot, matcha", "body": "Paper & Pen hanterar hela flödet från inköp till betalning, så att varje order godkänns, följs upp och matchas.", "items": ["Skapa en inköpsorder från en varning om lågt lagersaldo eller från början", "Skicka den för internt godkännande innan den går iväg", "Skicka till leverantören via WhatsApp eller e-post", "Ta emot varor mot inköpsordern och uppdatera lagret", "Gör om den till en leverantörsfaktura och matcha mot inköpsordern och leveransen"] },
+    { "eyebrow": "Varför det spelar roll", "title": "Styr kostnaderna innan de uppstår", "body": "Med inköpsorder flyttas kostnadskontrollen till innan pengarna lämnar företaget, inte efteråt. Med godkännanden, leveransuppföljning och trevägsmatchning mellan inköpsorder, mottagna varor och leverantörsfaktura upptäcker du överdebitering och ofullständiga leveranser innan du betalar. Den disciplinen fungerar lika bra för en enskild inköpare som för en hel inköpsavdelning." }
+  ],
+  "faqs": [
+    { "q": "Vad används en inköpsorder till?", "a": "Den beställer formellt varor eller tjänster från en leverantör till ett överenskommet pris, styr kostnaderna genom godkännande och ger leverantören en referens att ange på sin faktura." },
+    { "q": "Är programmet för inköpsorder gratis?", "a": "Ja. Att skapa, godkänna och följa upp inköpsorder är gratis för alltid i Paper & Pen." },
+    { "q": "Kan jag godkänna en inköpsorder innan den skickas?", "a": "Ja. Skicka inköpsorder för internt godkännande så att inget beställs utan rätt klartecken." },
+    { "q": "Kan jag matcha en inköpsorder mot en leverantörsfaktura?", "a": "Ja. Gör om en mottagen inköpsorder till en leverantörsfaktura och gör en trevägsmatchning mot ordern och de mottagna varorna för att hitta avvikelser." },
+    { "q": "Uppdaterar mottagandet av en inköpsorder mitt lager?", "a": "Med den valfria lagermodulen ökar lagersaldot automatiskt när du tar emot varor mot en inköpsorder." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Beställ med kontroll, inte kaos",
+  "ctaSub": "Skapa en gratis arbetsyta i Paper & Pen, skapa godkända inköpsorder och matcha dem mot leverantörsfakturor automatiskt."
+}

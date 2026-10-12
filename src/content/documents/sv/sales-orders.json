@@ -1,0 +1,36 @@
+{
+  "locale": "sv",
+  "slug": "sales-orders",
+  "order": 9,
+  "title": "Försäljningsorder",
+  "metaTitle": "Program för försäljningsorder · Paper & Pen",
+  "metaDescription": "Skapa proffsiga försäljningsorder online gratis i valfri valuta. Bekräfta en kundorder och följ leverans och handpenning.",
+  "keywords": "försäljningsorder, skapa försäljningsorder, program för försäljningsorder, gratis försäljningsorder, kundorder, orderhantering, försäljningsorder till faktura",
+  "heroEyebrow": "Försäljningsorder",
+  "heroTitle": "Bekräfta och leverera kundorder med en <em class=\"text-copper-400 not-italic\">försäljningsorder</em>",
+  "heroSubtitle": "Lås det kunden har gått med på, följ handpenning och leverans, och gör sedan om ordern till en följesedel eller faktura med ett klick. I valfri valuta, var som helst.",
+  "heroBullets": ["Gratis för alltid", "Följ handpenning och leverans", "Gör om till följesedel eller faktura"],
+  "features": [
+    { "icon": "cart", "title": "Bekräftad order", "desc": "En numrerad försäljningsorder som visar exakt vad kunden har gått med på att köpa." },
+    { "icon": "card", "title": "Handpenning", "desc": "Ta in en handpenning mot ordern och följ det utestående saldot." },
+    { "icon": "truck", "title": "Leveransuppföljning", "desc": "Se vad som väntar, är delvis levererat och klart för varje order." },
+    { "icon": "refresh", "title": "Gör om med ett klick", "desc": "Gör om en försäljningsorder till en följesedel eller faktura utan att skriva in något igen." },
+    { "icon": "globe", "title": "Valfri valuta", "desc": "Ta order i USD, EUR, AED, SAR, OMR, INR med flera, med rätt skatt och antal decimaler." },
+    { "icon": "whatsapp", "title": "Skicka var som helst", "desc": "Dela orderbekräftelsen via WhatsApp eller e-post så att kunden har den sparad." }
+  ],
+  "sections": [
+    { "eyebrow": "Vad är en försäljningsorder", "title": "Vad är en försäljningsorder?", "body": "En försäljningsorder är ett dokument som säljaren skapar för att bekräfta en kunds beställning efter att en offert har accepterats. Den visar överenskomna artiklar, kvantiteter, priser, skatter och leveransvillkor, och den blir den interna instruktionen att leverera och sedan fakturera ordern. Den ligger mellan offerten och fakturan och ger dig ett rent underlag för vad som utlovats innan något skickas." },
+    { "eyebrow": "Så fungerar det", "title": "Bekräfta, leverera, fakturera", "body": "Paper & Pen kopplar försäljningsordern till hela flödet, så att en accepterad offert blir en levererad och fakturerad order utan att något skrivs in igen.", "items": ["Gör om en accepterad offert till en försäljningsorder, eller skapa en direkt", "Ta in en handpenning och följ saldot", "Leverera ordern med en följesedel", "Gör om den till en faktura med ett klick", "Se orderstatus: väntar, delvis levererad, klar, fakturerad"] },
+    { "eyebrow": "Hela kedjan", "title": "Från offert till betalning, sammankopplat", "body": "Offert, försäljningsorder, följesedel, faktura, betalning och vid behov kreditfaktura. Paper & Pen kopplar ihop varje steg så att varje dokument förs vidare till nästa, summorna alltid stämmer och din redovisning uppdateras när ordern går framåt. Inget skrivs in två gånger och inget faller mellan stolarna." }
+  ],
+  "faqs": [
+    { "q": "Vad är skillnaden mellan en försäljningsorder och en faktura?", "a": "En försäljningsorder bekräftar vad kunden har gått med på att köpa och är instruktionen att leverera. En faktura begär betalning när varorna eller tjänsterna har levererats. Du gör om den ena till den andra med ett klick." },
+    { "q": "Är programmet för försäljningsorder gratis?", "a": "Ja. Att skapa, följa upp och leverera försäljningsorder är gratis för alltid i Paper & Pen." },
+    { "q": "Kan jag ta handpenning på en försäljningsorder?", "a": "Ja. Ta in en handpenning mot ordern och följ det utestående saldot tills det är fakturerat och betalt." },
+    { "q": "Kan jag göra om en offert till en försäljningsorder?", "a": "Ja. En accepterad offert blir en försäljningsorder med ett klick, med alla rader, rabatter och all skatt överförda." },
+    { "q": "Hur levererar jag en försäljningsorder?", "a": "Skapa en följesedel från försäljningsordern för att skicka varorna och gör sedan om den till en faktura. Leveransstatusen uppdateras allt eftersom." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/delivery-notes", "/invoicing/invoices", "/features/sales-crm", "/free-invoicing-software"],
+  "ctaTitle": "Hela vägen från offert till betalning på ett ställe",
+  "ctaSub": "Skapa en gratis arbetsyta i Paper & Pen och gör om accepterade offerter till levererade och fakturerade försäljningsorder utan att skriva in något igen."
+}

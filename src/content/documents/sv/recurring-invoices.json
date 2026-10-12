@@ -1,0 +1,36 @@
+{
+  "locale": "sv",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Återkommande fakturor",
+  "metaTitle": "Återkommande fakturor · Automatisera faktureringen gratis",
+  "metaDescription": "Ställ in återkommande fakturor online gratis i valfri valuta. Fakturera abonnemang och löpande avtal automatiskt och skicka via WhatsApp eller e-post.",
+  "keywords": "återkommande faktura, automatisk faktura, abonnemangsfakturering, faktura för löpande avtal, återkommande fakturering, autofaktura, schemalagd faktura",
+  "heroEyebrow": "Återkommande fakturor",
+  "heroTitle": "Fakturera abonnemang och löpande avtal på <em class=\"text-copper-400 not-italic\">autopilot</em>",
+  "heroSubtitle": "Ange belopp, valuta och schema en gång, så utfärdar och skickar Paper & Pen varje faktura automatiskt. Ta betalt online i samma takt. Gratis för alltid.",
+  "heroBullets": ["Gratis för alltid", "Ställ in en gång, fakturera för alltid", "Automatisk betalning online"],
+  "features": [
+    { "icon": "refresh", "title": "Ställ in och glöm", "desc": "Bestäm schemat en gång så skapas och skickas fakturorna i tid av sig själva." },
+    { "icon": "clock", "title": "Valfri frekvens", "desc": "Varje vecka, månad, kvartal eller år, med startdatum och valfritt slutdatum." },
+    { "icon": "card", "title": "Automatisk betalning", "desc": "Skicka varje faktura med en länk för betalning online, eller debitera automatiskt varje period." },
+    { "icon": "globe", "title": "Valfri valuta", "desc": "Fakturera i USD, EUR, AED, SAR, OMR, INR med flera, med rätt skatt och antal decimaler." },
+    { "icon": "whatsapp", "title": "Skicka var som helst", "desc": "Varje återkommande faktura skickas automatiskt via WhatsApp eller e-post." },
+    { "icon": "bell", "title": "Påminnelser ingår", "desc": "Automatiska betalningspåminnelser jagar varje återkommande faktura som inte är betald." }
+  ],
+  "sections": [
+    { "eyebrow": "Vad är en återkommande faktura", "title": "Vad är en återkommande faktura?", "body": "En återkommande faktura är en faktura som utfärdas automatiskt enligt ett fast schema för samma kund och belopp. Den används för abonnemang, löpande avtal, medlemskap, hyra eller serviceavtal. I stället för att skapa fakturan på nytt varje period bestämmer du den en gång, så skapar, numrerar och skickar systemet den på varje förfallodag. Intäkterna blir förutsägbara och administrationen försvinner." },
+    { "eyebrow": "Så fungerar det", "title": "Bestäm en gång, kör för alltid", "body": "Paper & Pen sköter hela perioden, så att de återkommande intäkterna kommer in av sig själva.", "items": ["Skapa en återkommande mall med artiklar, valuta och skatt", "Välj frekvens, startdatum och valfritt slutdatum", "Varje period skapas en faktura som skickas automatiskt", "Kunderna betalar online och betalningarna stäms av automatiskt", "Påminnelser jagar automatiskt varje obetald återkommande faktura"] },
+    { "eyebrow": "Vem det passar", "title": "Perfekt för förutsägbara intäkter", "body": "Återkommande fakturor passar alla företag som fakturerar samma sak gång på gång: SaaS och abonnemang, byråer med löpande avtal, gym och medlemskap, lokalhyra, serviceavtal för IT och utrustning samt förvaltade tjänster. Ställ in schemat en gång så faktureras, skickas och följs dina återkommande intäkter upp utan att någon rör dem varje månad." }
+  ],
+  "faqs": [
+    { "q": "Vad är en återkommande faktura?", "a": "En faktura som utfärdas automatiskt enligt ett fast schema för samma kund och belopp, för abonnemang, löpande avtal, hyra och serviceavtal." },
+    { "q": "Är återkommande fakturering gratis?", "a": "Ja. Att ställa in och köra återkommande fakturor är gratis för alltid i Paper & Pen." },
+    { "q": "Vilka frekvenser stöds?", "a": "Varje vecka, månad, kvartal eller år, med startdatum och ett valfritt slutdatum så att serien slutar när du vill." },
+    { "q": "Kan kunderna debiteras automatiskt?", "a": "Ja. Skicka varje faktura med en länk för betalning online, eller ställ in automatisk betalning så att det sparade betalsättet debiteras varje period." },
+    { "q": "Vad händer om en återkommande faktura inte betalas?", "a": "Automatiska betalningspåminnelser jagar varje obetald återkommande faktura tills den är betald, utan att du behöver följa upp manuellt." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Sätt de återkommande intäkterna på autopilot",
+  "ctaSub": "Skapa en gratis arbetsyta i Paper & Pen, ställ in en återkommande faktura en gång och låt den fakturera, skicka och ta betalt enligt schemat."
+}
