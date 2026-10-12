@@ -173,3 +173,14 @@ Whichever you choose, the error text must still say what went wrong AND how to f
 A builder edits only its own file set. Then the whole site is built once. Then a fresh critic
 screenshots the result, puts it beside the Wave capture **blind**, picks a winner, and names the
 single biggest remaining gap. The piece is done only when the critic picks ours.
+
+<!-- Figure from bhd-doc-figures (mdxcn), src/pages/pnp-gauntlet-round.mdx. Edit the page and run pnpm fences; do not hand-edit the frame. -->
+
+```
++-------------------------------------------------- [ ROUND ] --------------------------------------------------+
+|                                                                                                               |
+| builder edits its files → one site build → critic screenshots → blind compare with wave → winner, biggest gap |
+| critic picks ours → piece done                                                                                |
+|                                                                                                               |
++---------------------------------------------------------------------------------------------------------------+
+```
