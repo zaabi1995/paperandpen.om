@@ -1,0 +1,36 @@
+{
+  "locale": "ro",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Facturi recurente",
+  "metaTitle": "Facturi recurente · Facturare automată gratuită · Paper & Pen",
+  "metaDescription": "Configurează gratuit online facturi recurente, în orice monedă. Facturează automat abonamentele și onorariile fixe și trimite-le pe WhatsApp sau pe email.",
+  "keywords": "factură recurentă, factură automată, facturare abonamente, factură onorariu fix, facturare recurentă, facturare automată, factură programată",
+  "heroEyebrow": "Facturi recurente",
+  "heroTitle": "Facturează abonamente și onorarii fixe pe <em class=\"text-copper-400 not-italic\">pilot automat</em>",
+  "heroSubtitle": "Setezi o singură dată suma, moneda și programul, iar Paper & Pen emite și trimite automat fiecare factură. Încasezi online în același ritm. Gratuit pentru totdeauna.",
+  "heroBullets": ["Gratuit pentru totdeauna", "Setezi o dată, facturează mereu", "Încasare online automată"],
+  "features": [
+    { "icon": "refresh", "title": "Setezi și uiți", "desc": "Definești programul o singură dată, iar facturile se generează și pleacă singure, la timp." },
+    { "icon": "clock", "title": "Orice frecvență", "desc": "Săptămânal, lunar, trimestrial sau anual, cu dată de început și, opțional, dată de sfârșit." },
+    { "icon": "card", "title": "Încasare automată", "desc": "Trimiți fiecare factură cu un link de plată online sau încasezi automat la fiecare ciclu." },
+    { "icon": "globe", "title": "Orice monedă", "desc": "Facturezi în USD, EUR, AED, SAR, OMR, INR și altele, cu taxa și zecimalele corecte." },
+    { "icon": "whatsapp", "title": "Trimite oriunde", "desc": "Fiecare factură recurentă pleacă automat pe WhatsApp sau pe email." },
+    { "icon": "bell", "title": "Mementouri incluse", "desc": "Mementouri automate de plată urmăresc orice factură recurentă neplătită." }
+  ],
+  "sections": [
+    { "eyebrow": "Ce este o factură recurentă", "title": "Ce este o factură recurentă?", "body": "Factura recurentă este o factură emisă automat, după un program stabilit, pentru același client și aceeași sumă. Se folosește pentru abonamente, onorarii fixe, membrii, chirii sau contracte de mentenanță. În loc să refaci factura la fiecare ciclu, o definești o dată, iar sistemul o generează, o numerotează și o trimite la fiecare scadență: veniturile rămân previzibile, iar munca administrativă ajunge la zero." },
+    { "eyebrow": "Cum funcționează", "title": "Definești o dată, merge mereu", "body": "Paper & Pen se ocupă de tot ciclul, așa că veniturile recurente se încasează singure.", "items": ["Creezi un șablon recurent cu articole, monedă și taxă", "Alegi frecvența, data de început și, opțional, data de sfârșit", "La fiecare ciclu, o factură se generează și pleacă automat", "Clienții plătesc online, iar plățile se reconciliază singure", "Mementourile urmăresc automat orice factură recurentă neplătită"] },
+    { "eyebrow": "Pentru cine este", "title": "Perfectă pentru venituri previzibile", "body": "Facturile recurente se potrivesc oricărei afaceri cu facturare repetată: SaaS și abonamente, agenții cu onorariu fix, săli de sport și membrii, chirii, contracte de mentenanță IT și de echipamente, servicii administrate. Setezi programul o dată, iar veniturile recurente se facturează, se trimit și se urmăresc fără ca cineva să se ocupe de ele în fiecare lună." }
+  ],
+  "faqs": [
+    { "q": "Ce este o factură recurentă?", "a": "O factură emisă automat, după un program stabilit, pentru același client și aceeași sumă, folosită pentru abonamente, onorarii fixe, chirii și contracte de mentenanță." },
+    { "q": "Facturarea recurentă este gratuită?", "a": "Da. Configurarea și rularea facturilor recurente sunt gratuite pentru totdeauna în Paper & Pen." },
+    { "q": "Ce frecvențe sunt disponibile?", "a": "Săptămânal, lunar, trimestrial sau anual, cu dată de început și, opțional, dată de sfârșit, ca seria să se oprească atunci când vrei." },
+    { "q": "Clienții pot fi debitați automat?", "a": "Da. Trimiți fiecare factură cu un link de plată online sau configurezi încasarea automată, ca la fiecare ciclu să fie debitată metoda de plată salvată." },
+    { "q": "Ce se întâmplă dacă o factură recurentă nu este plătită?", "a": "Mementouri automate de plată urmăresc orice factură recurentă neplătită până la achitare, fără nicio urmărire manuală." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Pune veniturile recurente pe pilot automat",
+  "ctaSub": "Creează un spațiu de lucru gratuit Paper & Pen, configurează o dată o factură recurentă și las-o să factureze, să trimită și să încaseze la timp."
+}

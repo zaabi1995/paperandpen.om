@@ -1,0 +1,36 @@
+{
+  "locale": "ro",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Facturi",
+  "metaTitle": "Facturare online · Creează și trimite gratuit · Paper & Pen",
+  "metaDescription": "Creează gratuit online facturi profesionale, în orice monedă. Trimite-le pe WhatsApp sau pe email, primește plăți online și vezi ce e plătit și ce e restant.",
+  "keywords": "factură, factură online, creare factură, program de facturare, factură gratuită, factură cu TVA, factură GST, trimitere factură pe WhatsApp",
+  "heroEyebrow": "Facturare",
+  "heroTitle": "Creează și trimite gratuit <em class=\"text-copper-400 not-italic\">facturi</em> profesionale",
+  "heroSubtitle": "Facturează orice client, în orice monedă, cu cota de taxă pe care o alegi. Trimite pe WhatsApp sau pe email, primește plata online și știi mereu ce e plătit, ce urmează și ce e restant.",
+  "heroBullets": ["Facturare gratuită pentru totdeauna", "Orice monedă, orice cotă de taxă", "Trimitere pe WhatsApp sau pe email"],
+  "features": [
+    { "icon": "invoice", "title": "Facturi cu marca ta", "desc": "Adaugă logo-ul, culorile și condițiile. Fiecare factură arată profesionist și se tipărește curat." },
+    { "icon": "globe", "title": "Orice monedă", "desc": "Facturezi în USD, EUR, GBP, INR, AED, SAR, OMR și altele, cu zecimalele corecte." },
+    { "icon": "calc", "title": "Pregătită pentru TVA și taxe", "desc": "Aplici orice cotă de TVA, GST sau taxă pe vânzări. Taxa se calculează pe valoarea netă, după reduceri." },
+    { "icon": "whatsapp", "title": "Trimite oriunde", "desc": "Trimite un link sau un PDF pe WhatsApp, pe email sau descarcă-l. Clientul plătește dintr-o atingere." },
+    { "icon": "card", "title": "Plăți online", "desc": "Accepți carduri și metode locale de plată, ca clienții să achite factura pe loc." },
+    { "icon": "bell", "title": "Mementouri automate", "desc": "Mementouri politicoase de plată pleacă automat până când factura este achitată." }
+  ],
+  "sections": [
+    { "eyebrow": "Ce este o factură", "title": "Ce este o factură?", "body": "Factura este un document comercial pe care vânzătorul îl emite cumpărătorului, prin care cere plata pentru bunurile sau serviciile livrate. Cuprinde articolele, cantitățile, prețurile unitare, taxele și totalul de plată, împreună cu condițiile de plată și scadența. O factură clară și numerotată este evidența legală a vânzării și semnalul pentru client să te plătească." },
+    { "eyebrow": "Cum funcționează", "title": "De la ciornă la încasare în câteva minute", "body": "Construiești factura dintr-o ofertă sau de la zero, o trimiți, iar Paper & Pen se ocupă de rest. Plățile, mementourile și contabilitatea rămân sincronizate automat.", "items": ["Creezi din lista salvată de clienți și produse sau pornești de la zero", "Setezi moneda, cota de taxă și condițiile de plată", "Trimiți pe WhatsApp sau pe email cu un link de plată online", "Urmărești starea: ciornă, trimisă, plătită parțial, plătită, restantă", "Înregistrezi plățile manuale sau lași plățile online să se reconcilieze singure"] },
+    { "eyebrow": "Creat pentru toată lumea", "title": "Puncte forte locale, acoperire globală", "body": "Paper & Pen funcționează pentru afaceri de oriunde. Dacă ești în țările din Golf, primești de la început facturi în arabă, formatare nativă pentru OMR, AED și SAR, presetări configurabile de TVA și plăți cu cardul prin Paymob. În rest, îți alegi pur și simplu moneda, cota de taxă și limba." }
+  ],
+  "faqs": [
+    { "q": "Facturarea este chiar gratuită?", "a": "Da. Crearea, trimiterea și urmărirea facturilor sunt gratuite pentru totdeauna în Paper & Pen. Plătești doar dacă adaugi module opționale, cum ar fi Stocuri, HR sau Contabilitate." },
+    { "q": "Pot factura în orice monedă?", "a": "Da. Alegi orice monedă, inclusiv USD, EUR, GBP, INR, AED, SAR și OMR. Numărul de zecimale se ajustează automat (de exemplu trei zecimale pentru OMR)." },
+    { "q": "Se ocupă de TVA sau GST?", "a": "Da. Setezi orice cotă de taxă pe factură sau pe rând. Utilizatorii din țările din Golf au o presetare de TVA configurabilă, iar taxa se calculează mereu pe suma de după reduceri." },
+    { "q": "Cum mă plătesc clienții?", "a": "Trimiți factura cu un link de plată online, iar clienții plătesc cu cardul sau printr-o metodă locală dintr-o atingere. Poți înregistra și manual plăți în numerar, prin transfer bancar sau cu cec." },
+    { "q": "Pot trimite facturi pe WhatsApp?", "a": "Da. Trimiți factura ca link sau PDF direct pe WhatsApp, sau o trimiți pe email. În ambele cazuri butonul de plată online rămâne, așa că ești plătit mai repede." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Trimite prima factură în câteva minute",
+  "ctaSub": "Creează un spațiu de lucru gratuit Paper & Pen, adaugă logo-ul și trimite o factură profesională care se plătește online."
+}

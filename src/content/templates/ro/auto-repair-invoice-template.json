@@ -1,0 +1,110 @@
+{
+  "locale": "ro",
+  "slug": "auto-repair-invoice-template",
+  "order": 10,
+  "title": "Șablon de factură pentru service auto",
+  "metaTitle": "Șablon de factură pentru service auto · Paper & Pen",
+  "metaDescription": "Creează facturi profesionale de service auto. Facturează orele de manoperă, listează piesele și gestionează taxele de diagnoză cu generatorul nostru gratuit.",
+  "keywords": "șablon factură service auto, șablon factură mecanic, generator facturi service, facturare atelier auto, factură reparații auto, program facturare mecanici, șablon estimare service auto",
+  "heroEyebrow": "Pentru mecanici și service-uri auto",
+  "heroTitle": "Creează o factură de service auto care <em class=\"text-copper-400 not-italic\">arată fiecare detaliu</em>.",
+  "heroSubtitle": "Renunță la șabloanele generice care ignoră felul în care lucrează un service. Facturează clar piesele, orele de atelier și taxele de diagnoză și păstrează detaliile vehiculului, cum ar fi kilometrajul și numărul de înmatriculare.",
+  "heroBullets": [
+    "Listezi piesele cu codurile exacte",
+    "Calculezi manopera la tariful atelierului",
+    "Notezi kilometrajul și numărul de înmatriculare"
+  ],
+  "features": [
+    {
+      "icon": "truck",
+      "title": "Detaliile vehiculului incluse",
+      "desc": "Notează numărul de înmatriculare, marca, modelul și kilometrajul actual direct pe document, ca să păstrezi un istoric clar de service pentru fiecare vehicul."
+    },
+    {
+      "icon": "clock",
+      "title": "Ore și tarife de manoperă",
+      "desc": "Înmulțește tariful standard al atelierului cu orele necesare lucrării. Arată timpul exact petrecut pe reparații, ca să justifici totalul manoperei."
+    },
+    {
+      "icon": "inventory",
+      "title": "Listă clară de piese",
+      "desc": "Adaugă câte un rând pentru fiecare filtru, curea sau plăcuță de frână. Include codurile pieselor de la producător, ca clienții să știe exact ce s-a montat pe mașină."
+    },
+    {
+      "icon": "calc",
+      "title": "Creditarea taxei de diagnoză",
+      "desc": "Adaugi ușor un rând care scade taxa inițială de diagnoză din factura finală, după ce clientul aprobă toată reparația."
+    },
+    {
+      "icon": "quote",
+      "title": "Din estimare în factură",
+      "desc": "Trimite mai întâi o estimare detaliată pentru lucrarea propusă. După ce clientul aprobă reparația, transformi imediat exact acea estimare în factură finală."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Trimitere pe WhatsApp",
+      "desc": "Trimite factura finală direct pe telefonul clientului, printr-un link simplu. Vede imediat defalcarea pieselor și a manoperei."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Detalii esențiale",
+      "title": "Ce trebuie să arate o factură de service auto",
+      "body": "Un șablon obișnuit de factură nu funcționează într-un service, pentru că nu are loc pentru detaliile vehiculului. Pe fiecare document trebuie să notezi numărul de înmatriculare, marca, modelul și kilometrajul actual. Asta te protejează de dispute și construiește un istoric de service de încredere. Rândurile facturii trebuie să separe strict piesele de manoperă. Listează fiecare piesă cu codul exact și prețul unitar. Pentru manoperă, arată orele lucrate înmulțite cu tariful standard al atelierului. Dacă percepi o taxă de mediu pentru eliminarea uleiului uzat, trece-o pe un rând separat, nu o ascunde în manoperă.",
+      "items": [
+        "Numărul de înmatriculare și kilometrajul actual",
+        "Codurile de la producător pentru toate piesele înlocuite",
+        "Orele de manoperă înmulțite cu tariful atelierului",
+        "Rânduri separate pentru taxele de eliminare a deșeurilor"
+      ]
+    },
+    {
+      "eyebrow": "Prețuri și facturare",
+      "title": "Cum se facturează de obicei reparațiile auto",
+      "body": "Mecanicii rareori încep lucrul fără aprobare. Secvența obișnuită începe cu o diagnoză. Percepi o taxă fixă de diagnoză ca să găsești defectul, apoi dai o estimare detaliată pentru toată reparația. Când clientul aprobă lucrarea, mergi mai departe. Multe service-uri scad apoi, din amabilitate, taxa de diagnoză din factura finală. Poți gestiona tot acest flux cu generatorul nostru gratuit de facturi de la /tools/free-invoice-generator, fără cont. Creezi estimarea, aștepți ca clientul să aprobe piesele și manopera, apoi generezi factura finală cu un rând negativ pentru creditarea diagnozei.",
+      "items": [
+        "Începi cu o taxă fixă pentru diagnoză",
+        "Dai o estimare completă înainte de reparație",
+        "Aștepți aprobarea explicită a clientului",
+        "Scazi taxa de diagnoză pe factura finală"
+      ]
+    },
+    {
+      "eyebrow": "Plată și condiții",
+      "title": "Cum încasezi pentru serviciile de service",
+      "body": "Un service auto depinde mult de fluxul de numerar, ca să acopere piesele scumpe. Pentru lucrări mari, cum ar fi refacerea motorului sau înlocuirea cutiei de viteze, cere un avans care să acopere costul pieselor. Restul se plătește de obicei la ridicarea vehiculului. Condițiile de pe factură trebuie să spună clar că mașina nu se eliberează până la achitarea facturii. Dacă un client își lasă mașina în service zile întregi după terminarea reparației, poate fi nevoie să aplici și taxe zilnice de parcare. Asigură-te că aceste condiții apar clar în condițiile de plată înainte să începi lucrul.",
+      "items": [
+        "Ceri avans pentru piesele de schimb scumpe",
+        "Ceri plata integrală înainte de eliberarea vehiculului",
+        "Incluzi taxele zilnice de parcare în condiții",
+        "Menționezi pe document metodele de plată acceptate"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Cum trec manopera pe o factură de service?",
+      "a": "Separă complet manopera de piese. Creează un rând anume pentru lucrarea de reparație. Trece tariful orar standard al atelierului ca preț unitar și numărul de ore lucrate ca și cantitate. Clientul vede exact cum ai calculat costul final, iar disputele pe total se reduc."
+    },
+    {
+      "q": "Ar trebui să includ seria de șasiu pe facturile de reparații?",
+      "a": "Includerea seriei de șasiu (VIN) este o practică bună, deși pentru reparațiile obișnuite numărul de înmatriculare și kilometrajul sunt de obicei suficiente. Seria de șasiu ajută când comanzi piese foarte specifice de la dealer sau când ții un istoric formal de service pentru garanție. Elimină și orice confuzie despre vehiculul pe care s-a lucrat."
+    },
+    {
+      "q": "Ce fac cu taxa de diagnoză dacă clientul refuză reparația?",
+      "a": "Dacă, după ce ai găsit defectul, clientul decide să nu facă reparația, îi facturezi doar taxa de diagnoză. Scazi această taxă doar dacă aprobă toată lucrarea. Asigură-te că estimarea inițială spune clar că taxa de diagnoză se aplică indiferent de decizia finală."
+    },
+    {
+      "q": "Pot folosi acest șablon pentru tinichigerie?",
+      "a": "Da, atelierele de tinichigerie pot folosi aceeași structură de facturare. Tot trebuie să listezi piesele, cum ar fi panourile sau clipsurile, cu codurile lor și să calculezi manopera pentru tinichigerie sau vopsitorie după tariful orar. Poți adăuga și rânduri separate pentru materialele de vopsire și lac, distinct de piesele de schimb."
+    }
+  ],
+  "related": [
+    "/invoicing/estimates",
+    "/tools/free-invoice-generator",
+    "/tools/free-quotation-generator",
+    "/invoicing/invoices"
+  ],
+  "ctaTitle": "Creează azi factura de service auto",
+  "ctaSub": "Pregătește estimări detaliate, listează clar piesele și manopera și transformă-le imediat în facturi finale, cu instrumentele noastre gratuite pentru mecanici și service-uri auto."
+}
