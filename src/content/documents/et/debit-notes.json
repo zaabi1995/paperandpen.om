@@ -1,0 +1,36 @@
+{
+  "locale": "et",
+  "slug": "debit-notes",
+  "order": 6,
+  "title": "Deebetarved",
+  "metaTitle": "Deebetarvete tarkvara · Koosta deebetarveid tasuta · Paper & Pen",
+  "metaDescription": "Koosta korrektseid deebetarveid veebis tasuta ja mis tahes valuutas. Salvesta lisatasud või tarnija korrigeerimised õige dokumendiga.",
+  "keywords": "deebetarve, deebetarve koostamine, deebetteatis, tarnija deebetarve, ostu tagastus, deebetarvete tarkvara, käibemaksu deebetarve",
+  "heroEyebrow": "Deebetarved",
+  "heroTitle": "Salvesta lisatasud korraliku <em class=\"text-copper-400 not-italic\">deebetarvega</em>",
+  "heroSubtitle": "Koosta deebetarve, et suurendada võlgnetavat summat või nõuda tarnijalt raha tagasi, selge muudatuste ajaloo ja õige raamatupidamiskandega. Mis tahes valuutas.",
+  "heroBullets": ["Igavesti tasuta", "Seotud algse dokumendiga", "Teeb õige kande"],
+  "features": [
+    { "icon": "doc", "title": "Korralik deebetdokument", "desc": "Nummerdatud deebetarve, mis on seotud algse arve või ostuarvega ja täielikult dokumenteeritud." },
+    { "icon": "refresh", "title": "Korrigeerib saldot", "desc": "Suurendab võlgnetavat summat või salvestab nõude tarnija vastu, õigesti." },
+    { "icon": "shield", "title": "Täielik muudatuste ajalugu", "desc": "Igal deebetarvel on oma põhjus, nii et raamatud jäävad korras ja auditeeritavaks." },
+    { "icon": "calc", "title": "Õige maksukäsitlus", "desc": "Maks lisatakse või tagastatakse õigelt netosummalt, et maksudeklaratsioonid oleksid täpsed." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Koosta USD-des, EUR-ides, AED-des, SAR-ides, OMR-ides, INR-ides ja muus valuutas, samas valuutas kui algne dokument." },
+    { "icon": "whatsapp", "title": "Saada kuhu iganes", "desc": "Jaga deebetarvet WhatsAppi või e-postiga, et teisel poolel oleks see olemas." }
+  ],
+  "sections": [
+    { "eyebrow": "Mis on deebetarve", "title": "Mis on deebetarve?", "body": "Deebetarve (ehk deebetteatis) on dokument, millega salvestatakse kahe osapoole vahel võlgnetava summa suurenemine. Ostja koostab tarnijale deebetarve sageli tagastatud kauba või ülearvelduse korral, müüja aga saab sellega lisada tasu varem väljastatud arvele. Nagu kreeditarvegi, korrigeerib see saldot ametliku, nummerdatud dokumendiga, mitte algse dokumendi muutmisega." },
+    { "eyebrow": "Kuidas see töötab", "title": "Debiteeri, korrigeeri, võrdle", "body": "Paper & Pen koostab deebetarve päris dokumendina, millel on oma number ja raamatupidamiskanne, nii et mõlemad pooled on kooskõlas.", "items": ["Koosta deebetarve arve või tarnija ostuarve alusel", "Lisa tasu või nõue ja selle põhjus", "Maks arvestatakse automaatselt õigelt netosummalt", "Vastav saldo uueneb raamatupidamiskandega", "Saada see WhatsAppi või e-postiga teise poole arhiivi"] },
+    { "eyebrow": "Kreedit või deebet", "title": "Kreeditarve või deebetarve?", "body": "Kasuta kreeditarvet, kui vähendad summat, mida klient sulle võlgneb, näiteks tagastuse või raha tagasimakse korral. Kasuta deebetarvet, kui suurendad võlgnetavat summat või nõuad tarnijalt tagasi, näiteks kui tagastad tarnijale kahjustatud kauba või parandad liiga väikest arvet. Paper & Pen toetab mõlemat ja teeb mõlemas suunas õiged kanded." }
+  ],
+  "faqs": [
+    { "q": "Milleks deebetarvet kasutatakse?", "a": "Et salvestada võlgnetava summa suurenemine, näiteks lisatasu arvel või ostja nõue tarnija vastu tagastuste või ülearvelduste tõttu." },
+    { "q": "Kas deebetarvete koostamine on tasuta?", "a": "Jah. Deebetarvete koostamine ja jälgimine on Paper & Penis igavesti tasuta." },
+    { "q": "Mis vahe on deebetarvel ja kreeditarvel?", "a": "Deebetarve suurendab võlgnetavat summat või salvestab nõude ja selle koostab sageli ostja. Kreeditarve vähendab kliendi võlga ja selle koostab müüja." },
+    { "q": "Kas deebetarve mõjutab maksu?", "a": "Jah. Paper & Pen lisab või tagastab maksu õigelt netosummalt automaatselt, nii et sinu käibemaksu või GST andmed jäävad täpseks." },
+    { "q": "Kas saan siduda deebetarve tarnija ostuarvega?", "a": "Jah. Koosta deebetarve algse arve või tarnija ostuarve alusel, nii et mõlemad saldod on selge muudatuste ajalooga kooskõlas." }
+  ],
+  "related": ["/invoicing/credit-notes", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Koosta deebetarve sekunditega",
+  "ctaSub": "Loo tasuta Paper & Peni tööruum ja korrigeeri mis tahes saldot korraliku, auditeeritava deebetarvega."
+}

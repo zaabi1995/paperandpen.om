@@ -1,0 +1,36 @@
+{
+  "locale": "et",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Korduvad arved",
+  "metaTitle": "Korduvad arved · Automatiseeri arveldus tasuta · Paper & Pen",
+  "metaDescription": "Seadista korduvad arved veebis tasuta ja mis tahes valuutas. Arvelda tellimusi ja püsitasusid automaatselt ning saada need WhatsAppi või e-postiga.",
+  "keywords": "korduv arve, automaatne arve, tellimuste arveldus, püsitasu arve, korduv arveldus, automaatarve, ajastatud arve",
+  "heroEyebrow": "Korduvad arved",
+  "heroTitle": "Arvelda tellimusi ja püsitasusid <em class=\"text-copper-400 not-italic\">autopiloodil</em>",
+  "heroSubtitle": "Määra summa, valuuta ja ajakava üks kord ning Paper & Pen koostab ja saadab iga arve automaatselt. Kogu makseid veebis samas rütmis. Igavesti tasuta.",
+  "heroBullets": ["Igavesti tasuta", "Seadista üks kord, arveldab alati", "Automaatne veebimaksete kogumine"],
+  "features": [
+    { "icon": "refresh", "title": "Seadista ja unusta", "desc": "Määra ajakava üks kord ning arved koostatakse ja saadetakse ise õigel ajal." },
+    { "icon": "clock", "title": "Iga sagedus", "desc": "Iga nädal, kuu, kvartal või aasta, koos alguskuupäeva ja valikulise lõppkuupäevaga." },
+    { "icon": "card", "title": "Automaatne kogumine", "desc": "Saada iga arve koos veebimakse lingiga või võta makse igal perioodil automaatselt." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Arvelda USD-des, EUR-ides, AED-des, SAR-ides, OMR-ides, INR-ides ja muus valuutas õige maksu ja kümnendkohtadega." },
+    { "icon": "whatsapp", "title": "Saada kuhu iganes", "desc": "Iga korduv arve läheb automaatselt välja WhatsAppi või e-postiga." },
+    { "icon": "bell", "title": "Meeldetuletused kaasas", "desc": "Automaatsed maksemeeldetuletused tuletavad meelde iga korduvat arvet, mis on tasumata." }
+  ],
+  "sections": [
+    { "eyebrow": "Mis on korduv arve", "title": "Mis on korduv arve?", "body": "Korduv arve on arve, mis väljastatakse automaatselt kindla ajakava järgi samale kliendile ja sama summa eest. Seda kasutatakse tellimuste, püsitasude, liikmemaksude, üüri või hoolduslepingute puhul. Selle asemel et arvet igal perioodil uuesti koostada, määrad selle üks kord ning süsteem koostab, nummerdab ja saadab selle igal tähtpäeval, hoides tulud ettearvatavana ja halduse nullis." },
+    { "eyebrow": "Kuidas see töötab", "title": "Määra üks kord, töötab alati", "body": "Paper & Pen hoolitseb kogu tsükli eest, nii et korduv tulu laekub ise.", "items": ["Loo korduv mall koos kaupade, valuuta ja maksuga", "Vali sagedus, alguskuupäev ja valikuline lõppkuupäev", "Igal perioodil koostatakse ja saadetakse arve automaatselt", "Kliendid maksavad veebis ja maksed seotakse ise", "Meeldetuletused tuletavad iga tasumata korduvat arvet automaatselt meelde"] },
+    { "eyebrow": "Kellele see sobib", "title": "Ideaalne ettearvatava tulu jaoks", "body": "Korduvad arved sobivad igale ettevõttele, kellel on korduv arveldus: SaaS ja tellimused, püsitasuga agentuurid, spordiklubid ja liikmesused, kinnisvara üür, IT- ja seadmete hoolduslepingud ning hallatud teenused. Seadista ajakava üks kord ja sinu korduv tulu arveldatakse, saadetakse ja tuletatakse meelde ilma, et keegi peaks igal kuul midagi tegema." }
+  ],
+  "faqs": [
+    { "q": "Mis on korduv arve?", "a": "Arve, mis väljastatakse automaatselt kindla ajakava järgi samale kliendile ja sama summa eest. Seda kasutatakse tellimuste, püsitasude, üüri ja hoolduslepingute puhul." },
+    { "q": "Kas korduv arveldus on tasuta?", "a": "Jah. Korduvate arvete seadistamine ja kasutamine on Paper & Penis igavesti tasuta." },
+    { "q": "Milliseid sagedusi toetatakse?", "a": "Iga nädal, kuu, kvartal või aasta, koos alguskuupäeva ja valikulise lõppkuupäevaga, nii et seeria peatub siis, kui sa soovid." },
+    { "q": "Kas kliendilt saab makse automaatselt võtta?", "a": "Jah. Saada iga arve koos veebimakse lingiga või seadista automaatne kogumine, nii et iga periood võtab makse salvestatud makseviisilt." },
+    { "q": "Mis juhtub, kui korduv arve jääb tasumata?", "a": "Automaatsed maksemeeldetuletused tuletavad iga tasumata korduvat arvet meelde, kuni see on tasutud, ilma käsitsi järelkontrollita." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Pane korduv tulu autopiloodile",
+  "ctaSub": "Loo tasuta Paper & Peni tööruum, seadista korduv arve üks kord ja lase sellel ajakava järgi arveldada, saata ja raha koguda."
+}

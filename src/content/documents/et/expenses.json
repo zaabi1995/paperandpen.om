@@ -1,0 +1,36 @@
+{
+  "locale": "et",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Kulud",
+  "metaTitle": "Kulude jälgimise tarkvara · Paper & Pen",
+  "metaDescription": "Jälgi ettevõtte kulusid veebis tasuta ja mis tahes valuutas. Salvesta tšekid, liigita kulutused, nõua käibemaks tagasi ja näe oma tegelikku kasumit.",
+  "keywords": "kulude jälgimine, kulude salvestamine, ettevõtte kulud, kulude tarkvara, tasuta kulude jälgija, tšekkide salvestamine, kulude käibemaks",
+  "heroEyebrow": "Kulud",
+  "heroTitle": "Jälgi kõiki ettevõtte <em class=\"text-copper-400 not-italic\">kulusid</em> ühes kohas",
+  "heroSubtitle": "Salvesta tšekid, liigita kulutused, nõua käibemaks tagasi ja näe tegelikku kasumit, kõik mis tahes valuutas. Kulud seotakse otse sinu raamatupidamisega. Igavesti tasuta.",
+  "heroBullets": ["Igavesti tasuta", "Salvesta tšekid", "Näe tegelikku kasumit"],
+  "features": [
+    { "icon": "accounting", "title": "Salvesta iga kulu", "desc": "Sisesta ostuarve, sularahakulu või tarnija makse sekunditega koos kategooria ja maksuga." },
+    { "icon": "doc", "title": "Lisa tšekid", "desc": "Pildista või laadi tšekk üles ja hoia see kuluga koos, et andmed ja audit oleksid korras." },
+    { "icon": "calc", "title": "Nõua käibemaks tagasi", "desc": "Salvesta kuludelt sisendkäibemaks või GST, et maksudeklaratsioon näitaks, mida saad tagasi nõuda." },
+    { "icon": "chart", "title": "Näe tegelikku kasumit", "desc": "Kulud kirjendatakse tulude vastu, nii et kasumiaruanne peegeldab tegelikkust, mitte oletusi." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Salvesta kulutused USD-des, EUR-ides, AED-des, SAR-ides, OMR-ides, INR-ides ja muus valuutas õigete kümnendkohtadega." },
+    { "icon": "refresh", "title": "Korduvad kulud", "desc": "Seadista üür, tellimused ja kommunaalkulud igal perioodil automaatselt salvestuma." }
+  ],
+  "sections": [
+    { "eyebrow": "Mis on kulude jälgimine", "title": "Mis on kulude jälgimine?", "body": "Kulude jälgimine tähendab, et salvestad iga ettevõtte kulu koos kategooria, kuupäeva, maksu ja seda tõendava tšekiga. Hästi tehtuna näitab see täpselt, kuhu raha läheb, milline on tegelik kasum ja kui palju sisendkäibemaksu saad tagasi nõuda. Halvasti tehtuna muutub kasum oletuseks ja maksuhooaeg kiirustamiseks. Paper & Peniga võtab see iga kulu kohta vaid mõne sekundi." },
+    { "eyebrow": "Kuidas see töötab", "title": "Salvesta, liigita, nõua tagasi", "body": "Paper & Pen muudab laiali olevad tšekid korrastatud ja liigitatud andmeteks, mis liiguvad otse sinu raamatupidamisse.", "items": ["Salvesta kulu koos kategooria, tarnija ja maksuga", "Lisa muudatuste ajaloo jaoks tšeki foto või PDF", "Nõua sisendkäibemaks või GST tagasi, kui see on lubatud", "Seadista korduvad kulud automaatselt salvestuma", "Vaata aruannetes kulutusi kategooriate kaupa ja tegelikku kasumit"] },
+    { "eyebrow": "Miks see on oluline", "title": "Kasum, mida saad usaldada", "body": "Sa ei saa juhtida seda, mida sa ei mõõda. Kui iga kulu on tulude vastu salvestatud, on kasumiaruanne täpne, käibedeklaratsioon õige ja näed, millised kulud kasvavad, enne kui need haiget teevad. Paper & Penis toidavad kulud sama pearaamatut nagu müük, nii et kogu pilt jääb ühtseks ja kooskõlas." }
+  ],
+  "faqs": [
+    { "q": "Kas kulude jälgimine on tasuta?", "a": "Jah. Kulude salvestamine, liigitamine ja tšekkide lisamine on Paper & Penis igavesti tasuta." },
+    { "q": "Kas saan kulule tšeki lisada?", "a": "Jah. Pildista või laadi tšekk üles ja see jääb kuluga kokku, andes sulle selge muudatuste ajaloo." },
+    { "q": "Kas saan kuludelt käibemaksu tagasi nõuda?", "a": "Jah. Salvesta igalt kulult sisendkäibemaks või GST, et maksudeklaratsioon näitaks täpselt, mida saad tagasi nõuda." },
+    { "q": "Kas saan jälgida kulusid eri valuutades?", "a": "Jah. Salvesta kulutused mis tahes valuutas, sealhulgas USD, EUR, AED, SAR ja OMR, õigete kümnendkohtadega." },
+    { "q": "Kas korduvaid kulusid saab automatiseerida?", "a": "Jah. Seadista üür, tellimused ja kommunaalkulud igal perioodil automaatselt salvestuma, et midagi ei jääks vahele." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Tea täpselt, kuhu su raha läheb",
+  "ctaSub": "Loo tasuta Paper & Peni tööruum, salvesta iga kulu ja näe kasumit, mida saad päriselt usaldada."
+}

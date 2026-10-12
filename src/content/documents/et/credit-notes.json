@@ -1,0 +1,36 @@
+{
+  "locale": "et",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Kreeditarved",
+  "metaTitle": "Kreeditarvete tarkvara · Paper & Pen",
+  "metaDescription": "Koosta korrektseid kreeditarveid veebis tasuta ja mis tahes valuutas. Paranda arvet tagastuse, raha tagasimakse või vea korral õige dokumendiga.",
+  "keywords": "kreeditarve, kreeditarve koostamine, kreeditteatis, raha tagastamine, tagastuse kreeditarve, kreeditarvete tarkvara, käibemaksu kreeditarve",
+  "heroEyebrow": "Kreeditarved",
+  "heroTitle": "Koosta <em class=\"text-copper-400 not-italic\">kreeditarveid</em> õigesti",
+  "heroSubtitle": "Paranda arvet tagastuse, raha tagasimakse või vea korral korraliku kreeditarvega, selge muudatuste ajaloo ja automaatse raamatupidamiskandega. Mis tahes valuutas.",
+  "heroBullets": ["Igavesti tasuta", "Seotud algse arvega", "Teeb õige kande"],
+  "features": [
+    { "icon": "doc", "title": "Korralik kreeditdokument", "desc": "Nummerdatud kreeditarve, mis on seotud algse arvega, mitte vaikne muudatus." },
+    { "icon": "refresh", "title": "Korrigeerib saldot", "desc": "Vähendab kliendi saldot ja tühistab kreeditsummalt maksu õigesti." },
+    { "icon": "shield", "title": "Täielik muudatuste ajalugu", "desc": "Iga kreeditarve salvestatakse koos põhjusega, nii et raamatud jäävad korras ja auditeeritavaks." },
+    { "icon": "calc", "title": "Õige käibemaksu tühistamine", "desc": "Maks tühistatakse krediteeritud netosummalt, nii et maksudeklaratsioonid jäävad täpseks." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Krediteeri USD-des, EUR-ides, AED-des, SAR-ides, OMR-ides, INR-ides ja muus valuutas, samas valuutas kui algne arve." },
+    { "icon": "whatsapp", "title": "Saada kuhu iganes", "desc": "Jaga kreeditarvet WhatsAppi või e-postiga, et kliendil oleks see olemas." }
+  ],
+  "sections": [
+    { "eyebrow": "Mis on kreeditarve", "title": "Mis on kreeditarve?", "body": "Kreeditarve (ehk kreeditteatis) on dokument, millega müüja vähendab summat, mida klient varem väljastatud arve alusel võlgneb. Seda kasutatakse tagastuste, raha tagasimaksete, ülearvelduste, tühistatud kaupade või hinnavigade korral. Kreeditarve ei kustuta kunagi algset arvet, vaid tasaarveldab ametlikult selle osa või kogu summa, nii et alles jääb täielik ja auditeeritav ülevaade sellest, mis muutus ja miks." },
+    { "eyebrow": "Kuidas see töötab", "title": "Krediteeri, tühista, võrdle", "body": "Paper & Pen koostab kreeditarve päris dokumendina, millel on oma number ja raamatupidamiskanne, mitte kui vaikse muudatuse arves.", "items": ["Ava arve ja koosta selle alusel kreeditarve", "Krediteeri kogu arve või ainult valitud read", "Lisa põhjus: tagastus, raha tagasimakse, parandus või tühistamine", "Maks tühistatakse krediteeritud netosummalt automaatselt", "Kliendi saldo ja pearaamatud uuenevad koos"] },
+    { "eyebrow": "Miks see on oluline", "title": "Ära kunagi muuda makstud arvet", "body": "Väljastatud arve muutmine või kustutamine lõhub muudatuste ajaloo ja sinu maksuseisu. Õige viis nõuet vähendada on koostada kreeditarve: algne arve jääb puutumata, tehakse tühistav kanne ja tühistatakse õige summa maksu. Enamikus käibemaksu- ja GST-süsteemides üle maailma on see nõutav tava." }
+  ],
+  "faqs": [
+    { "q": "Milleks kreeditarvet kasutatakse?", "a": "Et vähendada või tühistada summat, mida klient arve alusel võlgneb, tavaliselt tagastuste, raha tagasimaksete, ülearvelduste või paranduste korral. See tasaarveldab arve, mitte ei kustuta seda." },
+    { "q": "Kas kreeditarvete koostamine on tasuta?", "a": "Jah. Kreeditarvete koostamine ja jälgimine on Paper & Penis igavesti tasuta." },
+    { "q": "Kas kreeditarve tühistab käibemaksu?", "a": "Jah. Paper & Pen tühistab maksu krediteeritud netosummalt automaatselt, nii et sinu käibemaksu või GST seis jääb õigeks." },
+    { "q": "Kas saan krediteerida ainult osa arvest?", "a": "Jah. Krediteeri kogu arve või ainult valitud read ja kogused. Kliendi saldo korrigeeritakse vastavalt." },
+    { "q": "Mis vahe on kreeditarvel ja deebetarvel?", "a": "Kreeditarve koostab müüja, et vähendada kliendi võlga. Deebetarve koostab tavaliselt ostja (või see suurendab võlgnetavat summat), näiteks ülemakse tagasinõudmiseks või lisatasu esitamiseks." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Koosta kreeditarve enesekindlalt",
+  "ctaSub": "Loo tasuta Paper & Peni tööruum ja korrigeeri mis tahes arvet korraliku, auditeeritava kreeditarvega sekunditega."
+}

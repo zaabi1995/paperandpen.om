@@ -1,0 +1,36 @@
+{
+  "locale": "et",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Saatelehed",
+  "metaTitle": "Saatelehe koostaja · Paper & Pen",
+  "metaDescription": "Koosta korrektseid saatelehti veebis tasuta. Loetle saadetud kaup, salvesta üleandmise tõend ja muuda saateleht ühe klõpsuga arveks.",
+  "keywords": "saateleht, veoseleht, saatelehe koostamine, pakkeleht, üleandmise tõend, saatelehe koostaja, kauba väljastamise dokument",
+  "heroEyebrow": "Saatelehed",
+  "heroTitle": "Saada kaup alati selge <em class=\"text-copper-400 not-italic\">saatelehega</em>",
+  "heroSubtitle": "Loetle tarnitav kaup, salvesta vastuvõtmisel üleandmise tõend ja muuda saateleht ühe klõpsuga arveks. Töötab kõikjal.",
+  "heroBullets": ["Igavesti tasuta", "Üleandmise tõend", "Muuda arveks"],
+  "features": [
+    { "icon": "truck", "title": "Kauba väljastamise dokument", "desc": "Loetle saadetud kaubad ja kogused, hindadega või ilma, selgel ja brändiga saatelehel." },
+    { "icon": "check", "title": "Üleandmise tõend", "desc": "Salvesta, kes kauba vastu võttis ja millal, et tarnete üle ei tekiks kunagi vaidlust." },
+    { "icon": "refresh", "title": "Muuda arveks", "desc": "Muuda saateleht ühe klõpsuga arveks, kui kaup on kätte saadud." },
+    { "icon": "inventory", "title": "Seotud laoga", "desc": "Laohalduse mooduliga saab saateleht laoseisu automaatselt vähendada." },
+    { "icon": "globe", "title": "Töötab kõikjal", "desc": "Kasutusel üle maailma saatelehe või veoselehena, sinu keeles ja valuutas." },
+    { "icon": "whatsapp", "title": "Saada kuhu iganes", "desc": "Jaga saatelehte WhatsAppi või e-postiga, et kliendil oleks see olemas." }
+  ],
+  "sections": [
+    { "eyebrow": "Mis on saateleht", "title": "Mis on saateleht?", "body": "Saateleht (ka veoseleht või pakkeleht) on dokument, mis on kaasas kaubasaadetisega ja loetleb tarnitava kauba. Vastuvõtja kontrollib kaupa selle järgi ja allkirjastab, et kinnitada kättesaamist. See tõendab, et kaup lahkus sinu juurest ja jõudis kliendini, ning on sild müügitellimuse ja sellele järgneva arve vahel." },
+    { "eyebrow": "Kuidas see töötab", "title": "Väljasta, kinnita, arvelda", "body": "Paper & Pen seob saatelehe sinu müügitellimuse ja arvega, nii et kauba väljastamine ja arveldamine käivad käsikäes.", "items": ["Koosta saateleht müügitellimusest või nullist", "Vali, kas näidata hindu või ainult koguseid", "Saada või prindi see kaubaga kaasa", "Salvesta üleandmise tõend, kui klient allkirjastab", "Muuda saateleht ühe klõpsuga arveks"] },
+    { "eyebrow": "Saateleht või arve", "title": "Saateleht või arve?", "body": "Saateleht salvestab, mis füüsiliselt liikus, ja kinnitab kättesaamist, see ei ole maksenõue. Arve küsib selle kauba eest makset. Paljud ettevõtted tarnivad kõigepealt saatelehega ja esitavad arve hiljem kokkulepitud tingimustel. Paper & Peniga saad teha täpselt nii ja muuta kinnitatud tarne arveks ilma midagi uuesti sisestamata." }
+  ],
+  "faqs": [
+    { "q": "Mis vahe on saatelehel ja arvel?", "a": "Saateleht loetleb ja kinnitab tarnitud kauba ilma maksenõudeta. Arve küsib makset. Saatelehe saad ühe klõpsuga arveks muuta." },
+    { "q": "Kas saatelehe koostaja on tasuta?", "a": "Jah. Saatelehtede koostamine, saatmine ja jälgimine on Paper & Penis igavesti tasuta." },
+    { "q": "Kas saatelehel saab hinnad peita?", "a": "Jah. Vali, kas näidata hindu või ainult koguseid. See on kasulik, kui ladu või kuller ei tohiks hindu näha." },
+    { "q": "Kas see salvestab üleandmise tõendi?", "a": "Jah. Salvesta, kes kauba vastu võttis ja millal, et tarne üle ei tekiks hiljem vaidlust." },
+    { "q": "Kas saateleht uuendab mu laoseisu?", "a": "Valikulise laohalduse mooduliga saab saateleht laoseisu automaatselt vähendada, kui kaup lahkub." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Saada kaup alati tõendiga",
+  "ctaSub": "Loo tasuta Paper & Peni tööruum, saada selge saateleht, salvesta üleandmise tõend ja arvelda ühe klõpsuga."
+}

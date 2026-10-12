@@ -1,0 +1,36 @@
+{
+  "locale": "et",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Ostutellimused",
+  "metaTitle": "Ostutellimuste tarkvara · Paper & Pen",
+  "metaDescription": "Koosta korrektseid ostutellimusi veebis tasuta ja mis tahes valuutas. Saada tellimused tarnijatele ning jälgi kinnitusi ja tarneid.",
+  "keywords": "ostutellimus, ostutellimuse koostamine, PO, ostutellimuste tarkvara, tasuta ostutellimus, tarnija tellimus, tellimusest ostuarve",
+  "heroEyebrow": "Ostutellimused",
+  "heroTitle": "Telli tarnijatelt korralike <em class=\"text-copper-400 not-italic\">ostutellimustega</em>",
+  "heroSubtitle": "Koosta, kinnita ja saada ostutellimusi tarnijatele mis tahes valuutas, seejärel seo need tarnete ja ostuarvetega selge muudatuste ajalooga. Igavesti tasuta.",
+  "heroBullets": ["Igavesti tasuta", "Kinnita enne saatmist", "Seo tarnija ostuarvetega"],
+  "features": [
+    { "icon": "cart", "title": "Brändiga ostutellimused", "desc": "Väljasta tarnijatele selged, nummerdatud tellimused oma tingimuste ja tarneandmetega." },
+    { "icon": "check", "title": "Kinnitus enne saatmist", "desc": "Suuna tellimused sisemisele kinnitamisele, et midagi ei tellitaks ilma heakskiiduta." },
+    { "icon": "truck", "title": "Jälgi tarneid", "desc": "Näe iga tellimuse puhul, mis on tellitud, osaliselt vastu võetud ja täielikult tarnitud." },
+    { "icon": "refresh", "title": "Seo ostuarvetega", "desc": "Muuda vastu võetud tellimus tarnija ostuarveks ja tee täpsuse huvides kolmepoolne võrdlus." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Telli USD-des, EUR-ides, AED-des, SAR-ides, OMR-ides, INR-ides ja muus valuutas õige maksu ja kümnendkohtadega." },
+    { "icon": "whatsapp", "title": "Saada kuhu iganes", "desc": "Jaga tellimust tarnijaga WhatsAppi või e-postiga ühe puudutusega." }
+  ],
+  "sections": [
+    { "eyebrow": "Mis on ostutellimus", "title": "Mis on ostutellimus?", "body": "Ostutellimus (PO) on dokument, mille ostja saadab tarnijale, et ametlikult tellida kaupu või teenuseid kokkulepitud hinnaga. See loetleb kaubad, kogused, ühikuhinnad, maksud, tarnetingimused ja tellimuse numbri, mille tarnija oma arvel viitena kasutab. Kui tarnija tellimuse aktsepteerib, muutub see siduvaks kohustuseks ja see kontrollib kulutusi, nõudes kinnitust enne, kui raha välja läheb." },
+    { "eyebrow": "Kuidas see töötab", "title": "Koosta, kinnita, võta vastu, seo", "body": "Paper & Pen juhib kogu ostust maksmiseni protsessi, nii et iga tellimus on kinnitatud, jälgitud ja seotud.", "items": ["Koosta tellimus madala laoseisu hoiatusest või nullist", "Suuna see enne saatmist sisemisele kinnitamisele", "Saada tarnijale WhatsAppi või e-postiga", "Võta kaup tellimuse alusel vastu ja uuenda laoseisu", "Muuda tarnija ostuarveks ning seo tellimuse ja tarnega"] },
+    { "eyebrow": "Miks see on oluline", "title": "Kontrolli kulutusi enne, kui need tekivad", "body": "Ostutellimused toovad kulutuste kontrolli aega enne, kui raha lahkub, mitte pärast. Kinnituste, tarnete jälgimise ja kolmepoolse võrdlusega tellimuse, vastu võetud kauba ja tarnija ostuarve vahel avastad liigse arveldamise ja puudulikud tarned enne maksmist. See distsipliin sobib nii üksikule ostjale kui ka tervele hankemeeskonnale." }
+  ],
+  "faqs": [
+    { "q": "Milleks ostutellimus on?", "a": "See tellib tarnijalt ametlikult kaupu või teenuseid kokkulepitud hinnaga, kontrollib kulutusi kinnituse kaudu ja annab tarnijale viite, mida oma arvel kasutada." },
+    { "q": "Kas ostutellimuste tarkvara on tasuta?", "a": "Jah. Ostutellimuste koostamine, kinnitamine ja jälgimine on Paper & Penis igavesti tasuta." },
+    { "q": "Kas saan tellimuse enne saatmist kinnitada?", "a": "Jah. Suuna ostutellimused sisemisele kinnitamisele, et midagi ei tellitaks ilma õige heakskiiduta." },
+    { "q": "Kas saan siduda tellimuse tarnija ostuarvega?", "a": "Jah. Muuda vastu võetud tellimus tarnija ostuarveks ja võrdle seda kolmepoolselt tellimuse ja vastu võetud kaubaga, et erinevused välja tulla." },
+    { "q": "Kas tellimuse vastuvõtmine uuendab mu laoseisu?", "a": "Valikulise laohalduse mooduliga suurendab kauba vastuvõtmine tellimuse alusel laoseisu automaatselt." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Telli kontrolliga, mitte kaosega",
+  "ctaSub": "Loo tasuta Paper & Peni tööruum, koosta kinnitatud ostutellimusi ja seo need ostuarvetega automaatselt."
+}

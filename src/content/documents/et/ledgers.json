@@ -1,0 +1,36 @@
+{
+  "locale": "et",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Pearaamatud",
+  "metaTitle": "Pearaamatud ja konto väljavõtted · Paper & Pen",
+  "metaDescription": "Vaata klientide ja tarnijate pearaamatuid veebis tasuta ja mis tahes valuutas. Näe kõiki arveid, makseid ja kreeditarveid ühel jooksval väljavõttel.",
+  "keywords": "pearaamat, kliendi pearaamat, tarnija pearaamat, konto väljavõte, üldpearaamat, pearaamatu tarkvara, saldoteatis",
+  "heroEyebrow": "Pearaamatud",
+  "heroTitle": "Iga tehing ühes selges <em class=\"text-copper-400 not-italic\">pearaamatus</em>",
+  "heroSubtitle": "Näe iga kliendi ja tarnija kohta jooksvat väljavõtet kõigist arvetest, maksetest, kreeditarvetest ja korrigeerimistest, mis tahes valuutas. Jaga väljavõtet ühe puudutusega. Igavesti tasuta.",
+  "heroBullets": ["Igavesti tasuta", "Jooksvad saldod", "Jaga väljavõtteid kohe"],
+  "features": [
+    { "icon": "chart", "title": "Klientide pearaamatud", "desc": "Jooksev väljavõte iga kliendi kohta: arved, maksed ja kreeditarved koos reaalajas saldoga." },
+    { "icon": "accounting", "title": "Tarnijate pearaamatud", "desc": "Jälgi iga tarnija ostuarveid, makseid ja deebetarveid, et teaksid alati, kui palju võlgned." },
+    { "icon": "doc", "title": "Konto väljavõte", "desc": "Koosta ja saada konto väljavõte mis tahes perioodi kohta ühe puudutusega." },
+    { "icon": "shield", "title": "Alati kooskõlas", "desc": "Pearaamatud uuenevad samadest kannetest nagu arved ja maksed, nii et need on alati kooskõlas." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Vaata saldosid USD-des, EUR-ides, AED-des, SAR-ides, OMR-ides, INR-ides ja muus valuutas õigete kümnendkohtadega." },
+    { "icon": "whatsapp", "title": "Jaga kuhu iganes", "desc": "Saada väljavõte WhatsAppi või e-postiga, et kliendid saaksid tasumata saldod ära maksta." }
+  ],
+  "sections": [
+    { "eyebrow": "Mis on pearaamat", "title": "Mis on pearaamat?", "body": "Pearaamat on kõigi kontot mõjutavate tehingute jooksev register, kus pärast iga kannet kantakse saldo edasi. Kliendi pearaamat näitab iga sinu esitatud arvet, iga saadud makset ja iga kreeditarvet ning lõpeb summaga, mida klient võlgneb. Konto väljavõte on see pearaamat, mis esitatakse kliendile teatud perioodi kohta. Pearaamatud on alus teadmisele, kes kellele mida võlgneb." },
+    { "eyebrow": "Kuidas see töötab", "title": "Üks tõeallikas", "body": "Paper & Penis ei ole pearaamatud eraldi tabel, vaid need koostatakse samadest arvetest, maksetest ja kreeditarvetest, mida sa niikuinii koostad.", "items": ["Ava mis tahes klient või tarnija, et näha tema täielikku pearaamatut", "Iga arve, makse, kreedit- ja deebetarve on näha koos jooksva saldoga", "Filtreeri perioodi järgi, et saada selge konto väljavõte", "Saada väljavõte WhatsAppi või e-postiga ühe puudutusega", "Saldod on alati kooskõlas sinu arvete ja raamatupidamisega"] },
+    { "eyebrow": "Miks see on oluline", "title": "Kogu raha kiiremini, ära maksa midagi kaks korda", "body": "Kui klient küsib saldo kohta, lõpetab selge pearaamat vestluse sekunditega. Kui pead võlga meelde tuletama, on konto väljavõte kõige veenvam dokument, mida saata. Ja kuna tarnijate pearaamatud jälgivad, mida sa võlgned, ei maksa sa kunagi ühtki arvet kaks korda ega jäta deebetarvet märkamata. Üks kooskõlas register mõlemale poolele sinu ärist." }
+  ],
+  "faqs": [
+    { "q": "Mis on kliendi pearaamat?", "a": "Jooksev väljavõte kõigist kliendi arvetest, maksetest ja kreeditarvetest, mis lõpeb summaga, mida ta sulle praegu võlgneb." },
+    { "q": "Kas pearaamatud on tasuta?", "a": "Jah. Klientide ja tarnijate pearaamatud ning konto väljavõtted on Paper & Penis igavesti tasuta." },
+    { "q": "Kas saan saata konto väljavõtte?", "a": "Jah. Koosta väljavõte mis tahes perioodi kohta ja saada see WhatsAppi või e-postiga ühe puudutusega, et klient saaks võla tasuda." },
+    { "q": "Kas pearaamatud jäävad kooskõlla?", "a": "Jah. Pearaamatud koostatakse samadest kannetest nagu arved ja maksed, nii et saldod on alati kooskõlas sinu raamatupidamisega." },
+    { "q": "Kas näen, kui palju tarnijatele võlgnen?", "a": "Jah. Tarnijate pearaamatud jälgivad ostuarveid, makseid ja deebetarveid, et teaksid alati täpselt, mis on iga tarnija ees tasumata." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Näe kohe, kes mida võlgneb",
+  "ctaSub": "Loo tasuta Paper & Peni tööruum ja saa selge, kooskõlas pearaamat iga kliendi ja tarnija kohta."
+}

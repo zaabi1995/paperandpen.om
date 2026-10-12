@@ -1,0 +1,36 @@
+{
+  "locale": "et",
+  "slug": "sales-orders",
+  "order": 9,
+  "title": "Müügitellimused",
+  "metaTitle": "Müügitellimuste tarkvara · Paper & Pen",
+  "metaDescription": "Koosta korrektseid müügitellimusi veebis tasuta ja mis tahes valuutas. Kinnita kliendi tellimus ning jälgi selle täitmist ja tagatisraha.",
+  "keywords": "müügitellimus, müügitellimuse koostamine, müügitellimuste tarkvara, tasuta müügitellimus, kliendi tellimus, tellimuste haldus, müügitellimusest arve",
+  "heroEyebrow": "Müügitellimused",
+  "heroTitle": "Kinnita ja täida kliendi tellimused <em class=\"text-copper-400 not-italic\">müügitellimusega</em>",
+  "heroSubtitle": "Kinnita, milles klient kokku leppis, jälgi tagatisraha ja täitmist ning muuda tellimus ühe klõpsuga saateleheks või arveks. Mis tahes valuutas ja kõikjal.",
+  "heroBullets": ["Igavesti tasuta", "Jälgi tagatisraha ja täitmist", "Muuda saateleheks või arveks"],
+  "features": [
+    { "icon": "cart", "title": "Kinnitatud tellimuse kirje", "desc": "Nummerdatud müügitellimus, mis salvestab täpselt selle, mida klient nõustus ostma." },
+    { "icon": "card", "title": "Tagatisraha", "desc": "Kogu tellimuse alusel tagatisraha ja jälgi tasumata jääki." },
+    { "icon": "truck", "title": "Täitmise jälgimine", "desc": "Näe iga tellimuse puhul, mis on ootel, osaliselt tarnitud ja valmis." },
+    { "icon": "refresh", "title": "Muuda ühe klõpsuga", "desc": "Muuda müügitellimus saateleheks või arveks ilma midagi uuesti sisestamata." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Tellimused USD-des, EUR-ides, AED-des, SAR-ides, OMR-ides, INR-ides ja muus valuutas õige maksu ja kümnendkohtadega." },
+    { "icon": "whatsapp", "title": "Saada kuhu iganes", "desc": "Jaga tellimuse kinnitust WhatsAppi või e-postiga, et see oleks kliendil olemas." }
+  ],
+  "sections": [
+    { "eyebrow": "Mis on müügitellimus", "title": "Mis on müügitellimus?", "body": "Müügitellimus on dokument, mille müüja koostab kliendi tellimuse kinnitamiseks pärast hinnapakkumise kinnitamist. See salvestab kokkulepitud kaubad, kogused, hinnad, maksud ja tarnetingimused ning muutub sisemiseks juhiseks tellimus täita ja seejärel arveldada. See asub hinnapakkumise ja arve vahel ning annab sulle selge ülevaate sellest, mis lubati, enne kui midagi teele läheb." },
+    { "eyebrow": "Kuidas see töötab", "title": "Kinnita, täida, arvelda", "body": "Paper & Pen seob müügitellimuse kogu protsessiga, nii et kinnitatud pakkumisest saab täidetud ja arveldatud tellimus ilma uuesti sisestamata.", "items": ["Muuda kinnitatud hinnapakkumine müügitellimuseks või koosta see otse", "Kogu tagatisraha ja jälgi jääki", "Täida tellimus saatelehega", "Muuda ühe klõpsuga arveks", "Vaata tellimuse olekut: ootel, osaliselt tarnitud, valmis, arveldatud"] },
+    { "eyebrow": "Kogu ahel", "title": "Pakkumisest rahani, ühendatult", "body": "Hinnapakkumine, müügitellimus, saateleht, arve, makse ja vajadusel kreeditarve. Paper & Pen seob iga sammu, nii et iga dokument kandub järgmisse, summad on alati kooskõlas ja raamatupidamine uueneb tellimuse edenedes. Midagi ei sisestata kaks korda ja midagi ei kuku vahele." }
+  ],
+  "faqs": [
+    { "q": "Mis vahe on müügitellimusel ja arvel?", "a": "Müügitellimus kinnitab, mida klient nõustus ostma, ja on juhis selle täitmiseks. Arve küsib makset, kui kaubad või teenused on üle antud. Ühe saad teiseks muuta ühe klõpsuga." },
+    { "q": "Kas müügitellimuste tarkvara on tasuta?", "a": "Jah. Müügitellimuste koostamine, jälgimine ja täitmine on Paper & Penis igavesti tasuta." },
+    { "q": "Kas saan müügitellimuse alusel tagatisraha võtta?", "a": "Jah. Kogu tellimuse alusel tagatisraha ja jälgi tasumata jääki, kuni see on arveldatud ja tasutud." },
+    { "q": "Kas saan pakkumise müügitellimuseks muuta?", "a": "Jah. Kinnitatud hinnapakkumine muutub ühe klõpsuga müügitellimuseks, kandes üle kõik read, allahindlused ja maksud." },
+    { "q": "Kuidas müügitellimust täita?", "a": "Koosta müügitellimusest saateleht kauba saatmiseks ja muuda see seejärel arveks. Täitmise olek uueneb jooksvalt." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/delivery-notes", "/invoicing/invoices", "/features/sales-crm", "/free-invoicing-software"],
+  "ctaTitle": "Halda kogu teed pakkumisest rahani ühes kohas",
+  "ctaSub": "Loo tasuta Paper & Peni tööruum ja muuda kinnitatud pakkumised täidetud ja arveldatud müügitellimusteks ilma uuesti sisestamata."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "et",
+  "slug": "payment-receipts",
+  "order": 10,
+  "title": "Maksekviitungid",
+  "metaTitle": "Maksekviitungi koostaja · Koosta kviitungeid tasuta · Paper & Pen",
+  "metaDescription": "Koosta korrektseid maksekviitungeid veebis tasuta ja mis tahes valuutas. Kinnita arve alusel saadud raha ja saada kviitung WhatsAppi või e-postiga.",
+  "keywords": "maksekviitung, kviitungi koostamine, kviitungi koostaja, tasuta kviitung, sularahakviitung, rahakviitung, maksekinnitus, kviitungigeneraator",
+  "heroEyebrow": "Maksekviitungid",
+  "heroTitle": "Kinnita saadud raha selge <em class=\"text-copper-400 not-italic\">maksekviitungiga</em>",
+  "heroSubtitle": "Väljasta korrektne kviitung kohe, kui makse laekub, seo see arvega ja saada WhatsAppi või e-postiga. Mis tahes valuutas.",
+  "heroBullets": ["Igavesti tasuta", "Seotud arvega", "Saada WhatsAppi või e-postiga"],
+  "features": [
+    { "icon": "receipt", "title": "Brändiga kviitungid", "desc": "Väljasta iga saadud makse kohta selge ja nummerdatud kviitung oma logoga." },
+    { "icon": "invoice", "title": "Seotud arvega", "desc": "Iga kviitung kirjendatakse arve vastu ja uuendab saldot automaatselt." },
+    { "icon": "card", "title": "Iga makseviis", "desc": "Salvesta sularaha-, kaardi-, pangaülekande-, tšeki- või veebimakse koos makseviisiga." },
+    { "icon": "globe", "title": "Iga valuuta", "desc": "Kviitungid USD-des, EUR-ides, AED-des, SAR-ides, OMR-ides, INR-ides ja muus valuutas õigete kümnendkohtadega." },
+    { "icon": "whatsapp", "title": "Saada kuhu iganes", "desc": "Jaga kviitungit WhatsAppi või e-postiga, et klient saaks kohe kinnituse." },
+    { "icon": "shield", "title": "Korras andmed", "desc": "Iga kviitung salvestatakse, nii et maksete sidumine arvetega on vaevatu." }
+  ],
+  "sections": [
+    { "eyebrow": "Mis on maksekviitung", "title": "Mis on maksekviitung?", "body": "Maksekviitung on dokument, millega müüja kinnitab, et arve või müügi eest on makse kätte saadud. See näitab makstud summat, kuupäeva, makseviisi ja arvet, mille kohta makse käib. Erinevalt arvest, mis küsib makset, kinnitab kviitung, et makse on tehtud, andes kliendile tõendi ja sulle korras andmed." },
+    { "eyebrow": "Kuidas see töötab", "title": "Võta vastu, väljasta kviitung, seo", "body": "Paper & Pen väljastab kviitungid automaatselt, kui maksed salvestatakse, nii et arved ja raamatud püsivad kooskõlas.", "items": ["Salvesta makse arve vastu, täies ulatuses või osaliselt", "Koostatakse kviitung koos summa, kuupäeva ja makseviisiga", "Arve saldo ja olek uuenevad automaatselt", "Saada kviitung kohe WhatsAppi või e-postiga", "Veebimaksed salvestuvad ja seotakse ise"] },
+    { "eyebrow": "Kviitung või arve", "title": "Kviitung või arve?", "body": "Arve on maksenõue, mis väljastatakse enne raha liikumist. Kviitung on maksekinnitus, mis väljastatakse pärast seda. Ühel arvel võib olla mitu kviitungit, kui klient maksab osamaksetena. Paper & Pen jälgib iga makset arve vastu ja väljastab iga kord kviitungi, nii et osamaksed ei lähe kunagi kaduma." }
+  ],
+  "faqs": [
+    { "q": "Mis vahe on kviitungil ja arvel?", "a": "Arve küsib makset enne, kui raha on makstud. Kviitung kinnitab makse pärast selle laekumist. Ühel arvel võib osamaksete puhul olla mitu kviitungit." },
+    { "q": "Kas kviitungi koostaja on tasuta?", "a": "Jah. Maksekviitungite koostamine, saatmine ja jälgimine on Paper & Penis igavesti tasuta." },
+    { "q": "Kas saan väljastada kviitungi osamakse kohta?", "a": "Jah. Salvesta arve vastu mis tahes summa ja selle makse kohta väljastatakse kviitung, ülejäänud saldot jälgitakse automaatselt." },
+    { "q": "Kas veebimakse loob kviitungi?", "a": "Jah. Kui klient maksab veebis, salvestub makse arve vastu ning kviitung koostatakse ja seda saab automaatselt saata." },
+    { "q": "Kas saan saata kviitungi WhatsAppi kaudu?", "a": "Jah. Jaga kviitungit lingi või PDF-ina WhatsAppi või e-postiga, et kliendil oleks kohe maksetõend." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/credit-notes", "/features/payments", "/tools/free-receipt-generator", "/free-invoicing-software"],
+  "ctaTitle": "Saada kviitung kohe, kui raha laekub",
+  "ctaSub": "Loo tasuta Paper & Peni tööruum ja kinnita iga makse selge ja korrektse kviitungiga."
+}
