@@ -118,6 +118,8 @@ function checkContent(code) {
       if (t.meta.locale !== `"${code}"`) errors.push(`${where}: locale must be "${code}"`);
       for (const k of ['slug', 'pubDate', 'tags', 'updatedDate']) if (k in e.meta && e.meta[k] !== t.meta[k]) errors.push(`${where}: ${k} must stay as English`);
       if (t.meta.title === e.meta.title) errors.push(`${where}: title is identical to English`);
+      // seo_integrity.py: where English description equals shortAnswer, the page shows one as the other; keep them equal.
+      if (e.meta.shortAnswer && e.meta.shortAnswer === e.meta.description && t.meta.shortAnswer !== t.meta.description) errors.push(`${where}: description must equal shortAnswer (as in English)`);
       if (links(e.body) !== links(t.body)) errors.push(`${where}: internal links differ from English`);
       if (heads(e.body) !== heads(t.body)) errors.push(`${where}: heading count ${heads(t.body)}, English has ${heads(e.body)}`);
       if (/\u2014/.test(fs.readFileSync(path.join(blogDir, file), 'utf8'))) errors.push(`${where}: em dash`);
