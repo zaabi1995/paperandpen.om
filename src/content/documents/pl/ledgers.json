@@ -1,0 +1,36 @@
+{
+  "locale": "pl",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Księgi i kartoteki",
+  "metaTitle": "Kartoteki kontrahentów i wyciągi · Paper & Pen",
+  "metaDescription": "Przeglądaj kartoteki klientów i dostawców online za darmo, w dowolnej walucie. Każda faktura, płatność i faktura korygująca w jednym bieżącym zestawieniu.",
+  "keywords": "księga, kartoteka klienta, kartoteka dostawcy, wyciąg z konta, księga główna, program do ksiąg, zestawienie rozrachunków",
+  "heroEyebrow": "Księgi",
+  "heroTitle": "Każda transakcja w jednej czytelnej <em class=\"text-copper-400 not-italic\">księdze</em>",
+  "heroSubtitle": "Zobacz bieżące zestawienie każdej faktury, płatności, faktury korygującej i korekty dla każdego klienta i dostawcy, w dowolnej walucie. Udostępnij wyciąg jednym dotknięciem. Za darmo na zawsze.",
+  "heroBullets": ["Za darmo na zawsze", "Bieżące salda", "Natychmiastowe udostępnianie wyciągów"],
+  "features": [
+    { "icon": "chart", "title": "Kartoteki klientów", "desc": "Bieżące zestawienie dla każdego klienta: faktury, płatności i faktury korygujące z aktualnym saldem." },
+    { "icon": "accounting", "title": "Kartoteki dostawców", "desc": "Śledź rachunki, płatności i noty obciążeniowe dla każdego dostawcy, by zawsze wiedzieć, ile jesteś winien." },
+    { "icon": "doc", "title": "Wyciąg z konta", "desc": "Utwórz i wyślij wyciąg z konta za dowolny okres jednym dotknięciem." },
+    { "icon": "shield", "title": "Zawsze uzgodnione", "desc": "Księgi aktualizują się z tych samych zapisów co faktury i płatności, więc zawsze się zgadzają." },
+    { "icon": "globe", "title": "Dowolna waluta", "desc": "Przeglądaj salda w USD, EUR, AED, SAR, OMR, INR i innych, z poprawną liczbą miejsc po przecinku." },
+    { "icon": "whatsapp", "title": "Udostępnianie gdziekolwiek", "desc": "Wyślij wyciąg przez WhatsApp lub e-mail, by klienci uregulowali zaległe salda." }
+  ],
+  "sections": [
+    { "eyebrow": "Czym jest księga", "title": "Czym jest księga?", "body": "Księga to bieżący zapis wszystkich transakcji wpływających na konto, z saldem przenoszonym po każdym wpisie. Kartoteka klienta pokazuje każdą wystawioną fakturę, każdą otrzymaną płatność i każdą fakturę korygującą, kończąc się saldem, które klient jest winien. Wyciąg z konta to ta sama kartoteka przedstawiona klientowi za dany okres. Księgi są podstawą wiedzy o tym, kto ile jest winien i komu Ty jesteś winien." },
+    { "eyebrow": "Jak to działa", "title": "Jedno źródło prawdy", "body": "W Paper & Pen księgi nie są osobnym arkuszem, tylko powstają z tych samych faktur, płatności i faktur korygujących, które już tworzysz.", "items": ["Otwórz dowolnego klienta lub dostawcę, by zobaczyć jego pełną kartotekę", "Każda faktura, płatność, faktura korygująca i nota obciążeniowa pojawia się z bieżącym saldem", "Filtruj według okresu, by uzyskać czysty wyciąg z konta", "Wyślij wyciąg przez WhatsApp lub e-mail jednym dotknięciem", "Salda zawsze zgadzają się z fakturami i kontami"] },
+    { "eyebrow": "Dlaczego to ważne", "title": "Szybsza windykacja, żadnych podwójnych płatności", "body": "Gdy klient pyta o saldo, czytelna kartoteka kończy rozmowę w kilka sekund. Gdy trzeba upomnieć się o zapłatę, wyciąg z konta jest najbardziej przekonującym dokumentem, jaki możesz wysłać. A ponieważ kartoteki dostawców śledzą, ile jesteś winien, nigdy nie zapłacisz rachunku dwa razy ani nie przeoczysz noty obciążeniowej. Jeden uzgodniony zapis dla obu stron Twojej firmy." }
+  ],
+  "faqs": [
+    { "q": "Czym jest kartoteka klienta?", "a": "To bieżące zestawienie każdej faktury, płatności i faktury korygującej dla klienta, kończące się saldem, które obecnie jest Ci winien." },
+    { "q": "Czy księgi są darmowe?", "a": "Tak. Kartoteki klientów i dostawców oraz wyciągi z konta są w Paper & Pen bezpłatne na zawsze." },
+    { "q": "Czy mogę wysłać wyciąg z konta?", "a": "Tak. Utwórz wyciąg za dowolny okres i wyślij go przez WhatsApp lub e-mail jednym dotknięciem, by klient mógł uregulować należność." },
+    { "q": "Czy księgi pozostają uzgodnione?", "a": "Tak. Księgi powstają z tych samych zapisów co faktury i płatności, więc salda zawsze zgadzają się z Twoimi kontami." },
+    { "q": "Czy widzę, ile jestem winien dostawcom?", "a": "Tak. Kartoteki dostawców śledzą rachunki, płatności i noty obciążeniowe, więc zawsze wiesz dokładnie, ile pozostało do zapłaty każdemu dostawcy." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Zobacz od razu, kto ile jest winien",
+  "ctaSub": "Załóż darmową przestrzeń roboczą Paper & Pen i miej czystą, uzgodnioną kartotekę dla każdego klienta i dostawcy."
+}

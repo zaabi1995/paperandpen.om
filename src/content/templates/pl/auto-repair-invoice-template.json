@@ -1,0 +1,110 @@
+{
+  "locale": "pl",
+  "slug": "auto-repair-invoice-template",
+  "order": 10,
+  "title": "Szablon faktury dla warsztatu samochodowego",
+  "metaTitle": "Szablon faktury dla warsztatu samochodowego · Paper & Pen",
+  "metaDescription": "Twórz profesjonalne faktury za naprawy aut. Fakturuj roboczogodziny, wypisuj części i rozliczaj diagnostykę w darmowym generatorze faktur dla mechaników.",
+  "keywords": "szablon faktury warsztat samochodowy, szablon faktury dla mechanika, generator faktur warsztat, rozliczenia warsztatu, faktura za naprawę auta, program dla mechanika, szablon kosztorysu naprawy",
+  "heroEyebrow": "Dla mechaników i warsztatów",
+  "heroTitle": "Twórz faktury za naprawy, które <em class=\"text-copper-400 not-italic\">pokazują każdy szczegół</em>.",
+  "heroSubtitle": "Przestań używać ogólnych szablonów, które ignorują to, jak naprawdę działa warsztat. Fakturuj czytelnie części, roboczogodziny i diagnostykę, zapisując dane pojazdu, takie jak przebieg i numer rejestracyjny.",
+  "heroBullets": [
+    "Części z dokładnymi numerami",
+    "Robocizna według stawki warsztatu",
+    "Przebieg i numer rejestracyjny pojazdu"
+  ],
+  "features": [
+    {
+      "icon": "truck",
+      "title": "Dane pojazdu na dokumencie",
+      "desc": "Zapisz numer rejestracyjny, markę, model i aktualny przebieg bezpośrednio na dokumencie, by prowadzić czytelną historię serwisową każdego pojazdu."
+    },
+    {
+      "icon": "clock",
+      "title": "Roboczogodziny i stawki",
+      "desc": "Pomnóż standardową stawkę warsztatu przez liczbę godzin potrzebnych do zlecenia. Pokaż dokładny czas napraw, by uzasadnić łączny koszt robocizny."
+    },
+    {
+      "icon": "inventory",
+      "title": "Czytelna lista części",
+      "desc": "Dodaj osobną pozycję dla każdego filtra, paska czy klocka hamulcowego. Podaj numery katalogowe producenta, by klient wiedział dokładnie, co trafiło do jego auta."
+    },
+    {
+      "icon": "calc",
+      "title": "Zaliczenie opłaty za diagnostykę",
+      "desc": "Łatwo dodaj pozycję zaliczającą początkową opłatę za diagnostykę na poczet rachunku końcowego, gdy klient zatwierdzi całą naprawę."
+    },
+    {
+      "icon": "quote",
+      "title": "Od kosztorysu do faktury",
+      "desc": "Najpierw wyślij szczegółowy kosztorys proponowanych prac. Gdy klient zatwierdzi naprawę, od razu zamień ten sam kosztorys w fakturę końcową."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Wysyłka przez WhatsApp",
+      "desc": "Udostępnij gotową fakturę na telefon klienta prostym linkiem. Od razu zobaczy rozbicie na części i robociznę."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Niezbędne dane faktury",
+      "title": "Co musi zawierać faktura za naprawę auta",
+      "body": "Standardowy szablon faktury nie sprawdza się w warsztacie, bo brakuje w nim miejsca na dane pojazdu. Na każdym dokumencie musisz zapisać numer rejestracyjny, markę, model i aktualny przebieg. Chroni Cię to przed sporami i pomaga budować wiarygodną historię serwisową. Pozycje muszą ściśle oddzielać części od robocizny. Wypisz każdą część z dokładnym numerem katalogowym i ceną jednostkową. Przy robociźnie pokaż łączną liczbę godzin pomnożoną przez standardową stawkę warsztatu. Jeśli pobierasz opłatę środowiskową za utylizację oleju, wykaż ją jako osobną pozycję, zamiast ukrywać w kosztach robocizny.",
+      "items": [
+        "Numer rejestracyjny i aktualny przebieg pojazdu",
+        "Numery katalogowe producenta dla wszystkich części zamiennych",
+        "Roboczogodziny pomnożone przez stawkę warsztatu",
+        "Osobne pozycje za utylizację odpadów"
+      ]
+    },
+    {
+      "eyebrow": "Ceny i rozliczenia",
+      "title": "Jak zwykle fakturuje się naprawy samochodów",
+      "body": "Mechanicy rzadko zaczynają pracę bez zgody. Standardowa kolejność zaczyna się od diagnostyki. Pobierasz stałą opłatę za znalezienie usterki, a potem przedstawiasz szczegółowy kosztorys całej naprawy. Gdy klient zatwierdzi prace, przystępujesz do nich. Wiele warsztatów zalicza potem początkową opłatę za diagnostykę na poczet rachunku końcowego w ramach uprzejmości. Cały ten proces obsłużysz w naszym darmowym generatorze faktur pod adresem /tools/free-invoice-generator bez zakładania konta. Utwórz kosztorys, poczekaj, aż klient zatwierdzi części i robociznę, a potem wystaw fakturę końcową z ujemną pozycją zaliczenia diagnostyki.",
+      "items": [
+        "Zacznij od stałej opłaty za diagnostykę",
+        "Przedstaw pełny kosztorys przed rozpoczęciem napraw",
+        "Poczekaj na wyraźną zgodę klienta",
+        "Zalicz opłatę za diagnostykę na fakturze końcowej"
+      ]
+    },
+    {
+      "eyebrow": "Płatność i warunki",
+      "title": "Jak dostać zapłatę za usługi warsztatu",
+      "body": "Warsztaty mocno zależą od płynności, bo części są drogie. Przy dużych zleceniach, takich jak remont silnika czy wymiana skrzyni biegów, poproś o zaliczkę z góry na pokrycie kosztów części. Pozostała kwota jest zwykle płatna przy odbiorze pojazdu. Warunki na fakturze muszą jasno mówić, że auto nie zostanie wydane przed uregulowaniem rachunku. Jeśli klient zostawia pojazd w warsztacie na kilka dni po zakończeniu naprawy, może być potrzebna także dzienna opłata za postój. Upewnij się, że warunki płatności jasno opisują zasady postoju, zanim zaczniesz pracę.",
+      "items": [
+        "Zaliczki z góry na drogie części zamienne",
+        "Pełna zapłata przed wydaniem pojazdu",
+        "Dzienne opłaty za postój w warunkach",
+        "Akceptowane metody płatności na dokumencie"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Jak wykazać robociznę na fakturze mechanika?",
+      "a": "Całkowicie oddziel robociznę od części. Utwórz osobną pozycję dla danej czynności naprawczej. Jako cenę jednostkową wpisz standardową stawkę godzinową warsztatu, a jako ilość liczbę godzin pracy. Klient widzi dokładnie, jak policzyłeś koszt końcowy, co ogranicza spory o rachunek."
+    },
+    {
+      "q": "Czy podawać numer VIN na fakturach za naprawy?",
+      "a": "Podanie numeru VIN to dobra praktyka, choć przy standardowych naprawach zwykle wystarcza numer rejestracyjny i przebieg. Zapis VIN pomaga, gdy trzeba zamówić bardzo konkretne części u dealera lub prowadzić formalną historię serwisową na potrzeby gwarancji. Gwarantuje też, że nie ma wątpliwości, który pojazd był serwisowany."
+    },
+    {
+      "q": "Co z opłatą za diagnostykę, gdy klient rezygnuje z naprawy?",
+      "a": "Jeśli po znalezieniu usterki klient zdecyduje się nie wykonywać pełnej naprawy, po prostu fakturujesz samą opłatę za diagnostykę. Zaliczasz ją na poczet naprawy tylko wtedy, gdy klient zatwierdzi całe zlecenie. Upewnij się, że początkowy kosztorys jasno mówi, że opłata za diagnostykę obowiązuje niezależnie od ostatecznej decyzji."
+    },
+    {
+      "q": "Czy mogę użyć tego szablonu w warsztacie blacharsko-lakierniczym?",
+      "a": "Tak, warsztaty blacharsko-lakiernicze mogą stosować ten sam układ rozliczeń. Nadal wypisujesz części, takie jak panele czy spinki, z numerami katalogowymi, a robociznę blacharską lub lakierniczą liczysz według stawki godzinowej. Możesz też dodać osobne pozycje za lakier i lakier bezbarwny, oddzielając je od fizycznych części zamiennych."
+    }
+  ],
+  "related": [
+    "/invoicing/estimates",
+    "/tools/free-invoice-generator",
+    "/tools/free-quotation-generator",
+    "/invoicing/invoices"
+  ],
+  "ctaTitle": "Utwórz fakturę za naprawę auta już dziś",
+  "ctaSub": "Przygotowuj szczegółowe kosztorysy, czytelnie wypisuj części i robociznę i od razu zamieniaj je w faktury końcowe dzięki naszym darmowym narzędziom dla mechaników i warsztatów."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "pl",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Faktury online",
+  "metaTitle": "Faktury online · Twórz i wysyłaj za darmo · Paper & Pen",
+  "metaDescription": "Twórz profesjonalne faktury online za darmo, w dowolnej walucie. Wysyłaj przez WhatsApp lub e-mail, przyjmuj płatności online i śledź, co opłacone, a co zaległe.",
+  "keywords": "faktura, faktura online, wystawić fakturę, program do faktur, darmowa faktura, faktura vat, faktura gst, faktura przez whatsapp",
+  "heroEyebrow": "Fakturowanie",
+  "heroTitle": "Twórz i wysyłaj profesjonalne <em class=\"text-copper-400 not-italic\">faktury</em> za darmo",
+  "heroSubtitle": "Fakturuj każdego klienta, w każdej walucie, z wybraną stawką podatku. Wysyłaj przez WhatsApp lub e-mail, przyjmuj płatności online i zawsze wiedz, co opłacone, co do zapłaty, a co zaległe.",
+  "heroBullets": ["Fakturowanie za darmo na zawsze", "Dowolna waluta, dowolna stawka podatku", "Wysyłka przez WhatsApp lub e-mail"],
+  "features": [
+    { "icon": "invoice", "title": "Faktury z Twoim logo", "desc": "Dodaj logo, kolory i warunki. Każda faktura wygląda profesjonalnie i czysto się drukuje." },
+    { "icon": "globe", "title": "Dowolna waluta", "desc": "Fakturuj w USD, EUR, GBP, INR, AED, SAR, OMR i innych, z poprawną liczbą miejsc po przecinku." },
+    { "icon": "calc", "title": "Gotowe na VAT i podatki", "desc": "Stosuj dowolną stawkę VAT, GST lub podatku od sprzedaży. Podatek liczy się od kwoty netto, po rabatach." },
+    { "icon": "whatsapp", "title": "Wysyłka gdziekolwiek", "desc": "Udostępnij link lub PDF przez WhatsApp, e-mail albo pobierz. Klient zapłaci jednym dotknięciem." },
+    { "icon": "card", "title": "Płatności online", "desc": "Przyjmuj karty i lokalne metody płatności, by klienci od razu regulowali faktury." },
+    { "icon": "bell", "title": "Automatyczne przypomnienia", "desc": "Uprzejme przypomnienia o płatności wychodzą automatycznie, aż faktura zostanie opłacona." }
+  ],
+  "sections": [
+    { "eyebrow": "Czym jest faktura", "title": "Czym jest faktura?", "body": "Faktura to dokument handlowy, który sprzedawca wystawia kupującemu, żądając zapłaty za dostarczone towary lub usługi. Wymienia pozycje, ilości, ceny jednostkowe, podatki i łączną kwotę do zapłaty, wraz z warunkami płatności i terminem. Czytelna, numerowana faktura jest prawnym zapisem sprzedaży i sygnałem dla klienta, że czas zapłacić." },
+    { "eyebrow": "Jak to działa", "title": "Od szkicu do zapłaty w kilka minut", "body": "Zbuduj fakturę z oferty lub od zera, wyślij ją i pozwól Paper & Pen zająć się resztą. Płatności, przypomnienia i Twoje księgi synchronizują się automatycznie.", "items": ["Utwórz z zapisanej listy klientów i produktów lub zacznij od pustej", "Ustaw walutę, stawkę podatku i warunki płatności", "Wyślij przez WhatsApp lub e-mail z linkiem do płatności online", "Śledź status: szkic, wysłana, częściowo opłacona, opłacona, zaległa", "Zapisuj płatności ręcznie lub pozwól płatnościom online uzgodnić się samym"] },
+    { "eyebrow": "Stworzone dla całego świata", "title": "Lokalne atuty, globalny zasięg", "body": "Paper & Pen działa dla firm w każdym miejscu. W krajach Zatoki dostajesz od razu faktury po arabsku, natywne formatowanie OMR, AED i SAR, konfigurowalne ustawienia VAT i płatności kartą przez Paymob. Wszędzie indziej po prostu wybierasz walutę, stawkę podatku i język." }
+  ],
+  "faqs": [
+    { "q": "Czy fakturowanie jest naprawdę darmowe?", "a": "Tak. Tworzenie, wysyłanie i śledzenie faktur jest w Paper & Pen bezpłatne na zawsze. Płacisz tylko, gdy dodasz opcjonalne moduły, takie jak Magazyn, HR czy Księgowość." },
+    { "q": "Czy mogę fakturować w dowolnej walucie?", "a": "Tak. Wybierz dowolną walutę, w tym USD, EUR, GBP, INR, AED, SAR i OMR. Liczba miejsc po przecinku dostosowuje się automatycznie (na przykład trzy dla OMR)." },
+    { "q": "Czy obsługuje VAT lub GST?", "a": "Tak. Ustaw dowolną stawkę podatku dla całej faktury lub pojedynczej pozycji. Użytkownicy z krajów Zatoki mają konfigurowalne ustawienie VAT, a podatek zawsze liczy się od kwoty po rabatach." },
+    { "q": "Jak klienci mi płacą?", "a": "Wyślij fakturę z linkiem do płatności online, a klienci zapłacą kartą lub lokalną metodą jednym dotknięciem. Możesz też ręcznie zapisywać gotówkę, przelewy i czeki." },
+    { "q": "Czy mogę wysyłać faktury przez WhatsApp?", "a": "Tak. Udostępnij fakturę jako link lub PDF prosto na WhatsApp albo wyślij ją e-mailem. W obu przypadkach zostaje przycisk płatności online, więc dostajesz pieniądze szybciej." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Wyślij pierwszą fakturę w kilka minut",
+  "ctaSub": "Załóż darmową przestrzeń roboczą Paper & Pen, dodaj logo i wyślij profesjonalną fakturę, którą klient opłaci online."
+}

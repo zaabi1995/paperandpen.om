@@ -1,0 +1,36 @@
+{
+  "locale": "pl",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Dokumenty dostawy",
+  "metaTitle": "Kreator dokumentów dostawy · Paper & Pen",
+  "metaDescription": "Twórz profesjonalne dokumenty dostawy online za darmo. Wypisz wysłany towar, zapisz potwierdzenie odbioru i zamień dokument dostawy w fakturę jednym kliknięciem.",
+  "keywords": "dokument dostawy, dokument wydania, wz, list przewozowy, potwierdzenie odbioru, kreator dokumentów dostawy, dowód wysyłki",
+  "heroEyebrow": "Dokumenty dostawy",
+  "heroTitle": "Wysyłaj z czytelnym <em class=\"text-copper-400 not-italic\">dokumentem dostawy</em> za każdym razem",
+  "heroSubtitle": "Wypisz dostarczany towar, zapisz potwierdzenie odbioru, a potem zamień dokument dostawy w fakturę jednym kliknięciem. Działa wszędzie.",
+  "heroBullets": ["Za darmo na zawsze", "Potwierdzenie odbioru", "Zamiana w fakturę"],
+  "features": [
+    { "icon": "truck", "title": "Dokument wysyłki towaru", "desc": "Wypisz wysłane pozycje i ilości, z cenami lub bez, na czystym dokumencie z Twoim logo." },
+    { "icon": "check", "title": "Potwierdzenie odbioru", "desc": "Zapisz, kto i kiedy odebrał towar, by żadna dostawa nie była kwestionowana." },
+    { "icon": "refresh", "title": "Zamiana w fakturę", "desc": "Zamień dokument dostawy w fakturę jednym kliknięciem, gdy towar zostanie odebrany." },
+    { "icon": "inventory", "title": "Powiązany z magazynem", "desc": "Z modułem Magazyn dokument dostawy może automatycznie zmniejszać stany." },
+    { "icon": "globe", "title": "Działa wszędzie", "desc": "Używany na całym świecie jako dokument dostawy lub dokument wydania, w Twoim języku i walucie." },
+    { "icon": "whatsapp", "title": "Wysyłka gdziekolwiek", "desc": "Udostępnij dokument dostawy przez WhatsApp lub e-mail, by klient miał go u siebie." }
+  ],
+  "sections": [
+    { "eyebrow": "Czym jest dokument dostawy", "title": "Czym jest dokument dostawy?", "body": "Dokument dostawy (nazywany też dokumentem wydania, WZ lub listem przewozowym) towarzyszy wysyłce i wymienia, co jest dostarczane. Odbiorca sprawdza z nim towar i podpisuje, potwierdzając odbiór. To dowód, że towar opuścił Twoją firmę i dotarł do klienta, a także pomost między zamówieniem sprzedaży a fakturą, która po nim następuje." },
+    { "eyebrow": "Jak to działa", "title": "Wyślij, potwierdź, zafakturuj", "body": "Paper & Pen łączy dokument dostawy z zamówieniem sprzedaży i fakturą, więc wysyłka i rozliczenie idą w parze.", "items": ["Utwórz dokument dostawy z zamówienia sprzedaży lub od zera", "Zdecyduj, czy pokazać ceny, czy tylko ilości", "Wyślij go lub wydrukuj, by jechał z towarem", "Zapisz potwierdzenie odbioru, gdy klient podpisze", "Zamień dokument dostawy w fakturę jednym kliknięciem"] },
+    { "eyebrow": "Dokument dostawy a faktura", "title": "Dokument dostawy czy faktura?", "body": "Dokument dostawy zapisuje, co fizycznie zostało przekazane, i potwierdza odbiór, ale nie jest wezwaniem do zapłaty. Faktura żąda zapłaty za ten towar. Wiele firm najpierw dostarcza na podstawie dokumentu dostawy, a potem fakturuje na uzgodnionych warunkach. Paper & Pen pozwala robić dokładnie to, zamieniając potwierdzoną dostawę w fakturę bez przepisywania czegokolwiek." }
+  ],
+  "faqs": [
+    { "q": "Czym różni się dokument dostawy od faktury?", "a": "Dokument dostawy wymienia i potwierdza dostarczony towar, bez żądania zapłaty. Faktura żąda zapłaty. Dokument dostawy zamienisz w fakturę jednym kliknięciem." },
+    { "q": "Czy kreator dokumentów dostawy jest darmowy?", "a": "Tak. Tworzenie, wysyłanie i śledzenie dokumentów dostawy jest w Paper & Pen bezpłatne na zawsze." },
+    { "q": "Czy dokument dostawy może ukryć ceny?", "a": "Tak. Wybierz, czy pokazać ceny, czy tylko ilości, co przydaje się, gdy magazyn lub kurier nie powinien widzieć cen." },
+    { "q": "Czy zapisuje potwierdzenie odbioru?", "a": "Tak. Zapisz, kto i kiedy odebrał towar, by później nikt nie kwestionował dostawy." },
+    { "q": "Czy dokument dostawy aktualizuje mój magazyn?", "a": "Z opcjonalnym modułem Magazyn dokument dostawy może automatycznie zmniejszać stany, gdy towar wyjeżdża." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Wysyłaj z potwierdzeniem za każdym razem",
+  "ctaSub": "Załóż darmową przestrzeń roboczą Paper & Pen, wyślij czytelny dokument dostawy, zapisz potwierdzenie odbioru i zafakturuj jednym kliknięciem."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "pl",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Faktury korygujące",
+  "metaTitle": "Program do faktur korygujących · Paper & Pen",
+  "metaDescription": "Wystawiaj profesjonalne faktury korygujące online za darmo, w dowolnej walucie. Skoryguj fakturę przy zwrocie, refundacji lub błędzie właściwym dokumentem.",
+  "keywords": "faktura korygująca, nota kredytowa, wystawić fakturę korygującą, korekta faktury, zwrot towaru, program do faktur korygujących, korekta vat",
+  "heroEyebrow": "Faktury korygujące",
+  "heroTitle": "Wystawiaj <em class=\"text-copper-400 not-italic\">faktury korygujące</em> tak, jak trzeba",
+  "heroSubtitle": "Skoryguj fakturę przy zwrocie, refundacji lub błędzie właściwą fakturą korygującą, z czytelnym śladem audytowym i automatycznym zapisem księgowym. W dowolnej walucie.",
+  "heroBullets": ["Za darmo na zawsze", "Powiązana z fakturą pierwotną", "Tworzy właściwy zapis księgowy"],
+  "features": [
+    { "icon": "doc", "title": "Właściwy dokument korygujący", "desc": "Numerowana faktura korygująca powiązana z fakturą pierwotną, nigdy cicha edycja." },
+    { "icon": "refresh", "title": "Koryguje saldo", "desc": "Zmniejsza saldo klienta i prawidłowo odwraca podatek od skorygowanej kwoty." },
+    { "icon": "shield", "title": "Pełny ślad audytowy", "desc": "Każda faktura korygująca zapisuje się z powodem, więc Twoje księgi są czyste i gotowe do kontroli." },
+    { "icon": "calc", "title": "Prawidłowa korekta VAT", "desc": "Podatek odwraca się od skorygowanej kwoty netto, więc Twoje deklaracje podatkowe się zgadzają." },
+    { "icon": "globe", "title": "Dowolna waluta", "desc": "Koryguj w USD, EUR, AED, SAR, OMR, INR i innych, zgodnie z fakturą pierwotną." },
+    { "icon": "whatsapp", "title": "Wysyłka gdziekolwiek", "desc": "Udostępnij fakturę korygującą przez WhatsApp lub e-mail, by klient miał ją u siebie." }
+  ],
+  "sections": [
+    { "eyebrow": "Czym jest faktura korygująca", "title": "Czym jest faktura korygująca?", "body": "Faktura korygująca (w wielu krajach zwana notą kredytową, ang. credit note) to dokument, który sprzedawca wystawia, by zmniejszyć kwotę należną od klienta z wcześniej wystawionej faktury. Stosuje się ją przy zwrotach, refundacjach, zawyżonych kwotach, anulowanych pozycjach i korektach cen. Faktura korygująca nigdy nie usuwa faktury pierwotnej, tylko formalnie kompensuje jej część lub całość, dzięki czemu zostaje pełny, sprawdzalny zapis tego, co się zmieniło i dlaczego." },
+    { "eyebrow": "Jak to działa", "title": "Koryguj, odwracaj, uzgadniaj", "body": "Paper & Pen wystawia fakturę korygującą jako prawdziwy dokument z własnym numerem i zapisem księgowym, nigdy jako cichą zmianę faktury.", "items": ["Otwórz fakturę i wystaw do niej fakturę korygującą", "Skoryguj całą fakturę lub wybrane pozycje", "Dodaj powód: zwrot, refundacja, korekta lub anulowanie", "Podatek odwraca się automatycznie od skorygowanej kwoty netto", "Saldo klienta i Twoje księgi aktualizują się razem"] },
+    { "eyebrow": "Dlaczego to ważne", "title": "Nigdy nie edytuj opłaconej faktury", "body": "Edycja lub usunięcie wystawionej faktury niszczy ślad audytowy i Twoją sytuację podatkową. Właściwy sposób na zmniejszenie należności to wystawienie faktury korygującej, która zostawia fakturę pierwotną bez zmian, tworzy zapis odwracający i koryguje właściwą kwotę podatku. Tego wymaga praktyka w większości systemów VAT i GST na świecie." }
+  ],
+  "faqs": [
+    { "q": "Do czego służy faktura korygująca?", "a": "Do zmniejszenia lub anulowania kwoty, którą klient jest winien z faktury, zwykle przy zwrotach, refundacjach, zawyżonych kwotach lub korektach. Kompensuje fakturę, zamiast ją usuwać." },
+    { "q": "Czy wystawianie faktur korygujących jest darmowe?", "a": "Tak. Wystawianie i śledzenie faktur korygujących jest w Paper & Pen bezpłatne na zawsze." },
+    { "q": "Czy faktura korygująca odwraca VAT?", "a": "Tak. Paper & Pen automatycznie odwraca podatek od skorygowanej kwoty netto, więc Twoje rozliczenie VAT lub GST pozostaje poprawne." },
+    { "q": "Czy mogę skorygować tylko część faktury?", "a": "Tak. Skoryguj całą fakturę albo tylko wybrane pozycje i ilości. Saldo klienta dostosuje się odpowiednio." },
+    { "q": "Czym różni się faktura korygująca od noty obciążeniowej?", "a": "Fakturę korygującą wystawia sprzedawca, by zmniejszyć kwotę należną od klienta. Notę obciążeniową zwykle wystawia kupujący (lub służy ona do zwiększenia należnej kwoty), na przykład by odzyskać nadpłatę lub doliczyć dodatkową opłatę." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Wystawiaj faktury korygujące bez obaw",
+  "ctaSub": "Załóż darmową przestrzeń roboczą Paper & Pen i skoryguj dowolną fakturę właściwą, sprawdzalną fakturą korygującą w kilka sekund."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "pl",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Wydatki",
+  "metaTitle": "Program do śledzenia wydatków · Paper & Pen",
+  "metaDescription": "Śledź wydatki firmy online za darmo, w dowolnej walucie. Zapisuj paragony, kategoryzuj koszty, odzyskuj VAT i zobacz prawdziwy zysk dzięki wydatkom w księgach.",
+  "keywords": "śledzenie wydatków, ewidencja kosztów, wydatki firmowe, program do wydatków, darmowa ewidencja wydatków, skanowanie paragonów, vat od zakupów",
+  "heroEyebrow": "Wydatki",
+  "heroTitle": "Śledź każdy <em class=\"text-copper-400 not-italic\">wydatek</em> firmy w jednym miejscu",
+  "heroSubtitle": "Zapisuj paragony, kategoryzuj koszty, odzyskuj VAT i zobacz prawdziwy zysk, w dowolnej walucie. Wydatki trafiają prosto do Twoich kont. Za darmo na zawsze.",
+  "heroBullets": ["Za darmo na zawsze", "Zapis paragonów", "Prawdziwy zysk"],
+  "features": [
+    { "icon": "accounting", "title": "Zapisz każdy wydatek", "desc": "Zapisz rachunek, wydatek gotówkowy lub płatność dla dostawcy w kilka sekund, z kategorią i podatkiem." },
+    { "icon": "doc", "title": "Załączaj paragony", "desc": "Zrób zdjęcie lub wgraj paragon i trzymaj go przy wydatku, dla porządku w dokumentach i kontroli." },
+    { "icon": "calc", "title": "Odzyskuj VAT", "desc": "Zapisuj VAT naliczony lub GST od wydatków, by deklaracja pokazywała, co możesz odzyskać." },
+    { "icon": "chart", "title": "Prawdziwy zysk", "desc": "Wydatki księgują się wobec przychodów, więc rachunek zysków i strat pokazuje rzeczywistość, nie domysły." },
+    { "icon": "globe", "title": "Dowolna waluta", "desc": "Zapisuj koszty w USD, EUR, AED, SAR, OMR, INR i innych, z poprawną liczbą miejsc po przecinku." },
+    { "icon": "refresh", "title": "Wydatki cykliczne", "desc": "Ustaw czynsz, abonamenty i media, by zapisywały się automatycznie w każdym okresie." }
+  ],
+  "sections": [
+    { "eyebrow": "Czym jest śledzenie wydatków", "title": "Czym jest śledzenie wydatków?", "body": "Śledzenie wydatków to zapisywanie każdego kosztu, jaki ponosi firma, z kategorią, datą, podatkiem i paragonem. Dobrze prowadzone mówi Ci dokładnie, dokąd idą pieniądze, jaki zysk naprawdę osiągasz i ile podatku naliczonego możesz odzyskać. Źle prowadzone sprawia, że zysk staje się zgadywaniem, a rozliczenie podatkowe gorączkową bieganiną. Paper & Pen sprowadza to do kilku sekund na wydatek." },
+    { "eyebrow": "Jak to działa", "title": "Zapisz, skategoryzuj, odzyskaj", "body": "Paper & Pen zamienia rozrzucone paragony w czyste, skategoryzowane zapisy, które trafiają prosto do Twoich kont.", "items": ["Zapisz wydatek z kategorią, dostawcą i podatkiem", "Załącz zdjęcie lub PDF paragonu do śladu audytowego", "Odzyskuj VAT naliczony lub GST tam, gdzie to możliwe", "Ustaw wydatki cykliczne, by zapisywały się automatycznie", "Zobacz koszty według kategorii i prawdziwy zysk w raportach"] },
+    { "eyebrow": "Dlaczego to ważne", "title": "Zysk, któremu możesz ufać", "body": "Nie zarządzisz tym, czego nie mierzysz. Gdy każdy wydatek jest zapisany wobec przychodów, rachunek zysków i strat jest dokładny, deklaracja VAT poprawna, a Ty widzisz, które koszty rosną, zanim zaczną boleć. Wydatki w Paper & Pen trafiają do tej samej księgi co sprzedaż, więc cały obraz pozostaje spójny i uzgodniony." }
+  ],
+  "faqs": [
+    { "q": "Czy śledzenie wydatków jest darmowe?", "a": "Tak. Zapisywanie, kategoryzowanie i załączanie paragonów do wydatków jest w Paper & Pen bezpłatne na zawsze." },
+    { "q": "Czy mogę załączyć paragon do wydatku?", "a": "Tak. Zrób zdjęcie lub wgraj paragon, a zostanie przy wydatku, dając Ci czysty ślad audytowy." },
+    { "q": "Czy mogę odzyskać VAT od wydatków?", "a": "Tak. Zapisuj VAT naliczony lub GST przy każdym wydatku, by deklaracja pokazywała dokładnie, co możesz odzyskać." },
+    { "q": "Czy mogę śledzić wydatki w różnych walutach?", "a": "Tak. Zapisuj koszty w dowolnej walucie, w tym USD, EUR, AED, SAR i OMR, z poprawną liczbą miejsc po przecinku." },
+    { "q": "Czy wydatki cykliczne można zautomatyzować?", "a": "Tak. Ustaw czynsz, abonamenty i media, by zapisywały się automatycznie w każdym okresie i nic nie umknęło." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Wiedz dokładnie, dokąd idą Twoje pieniądze",
+  "ctaSub": "Załóż darmową przestrzeń roboczą Paper & Pen, zapisuj każdy wydatek i zobacz zysk, któremu naprawdę możesz ufać."
+}

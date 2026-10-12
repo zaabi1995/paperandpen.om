@@ -1,0 +1,36 @@
+{
+  "locale": "pl",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Zamówienia zakupu",
+  "metaTitle": "Program do zamówień zakupu · Paper & Pen",
+  "metaDescription": "Twórz profesjonalne zamówienia zakupu online za darmo, w dowolnej walucie. Wysyłaj zamówienia do dostawców, śledź akceptacje i dostawy.",
+  "keywords": "zamówienie zakupu, utworzyć zamówienie zakupu, zamówienie do dostawcy, program do zamówień zakupu, darmowe zamówienie zakupu, zakupy, zamówienie w rachunek",
+  "heroEyebrow": "Zamówienia zakupu",
+  "heroTitle": "Zamawiaj u dostawców właściwymi <em class=\"text-copper-400 not-italic\">zamówieniami zakupu</em>",
+  "heroSubtitle": "Twórz, akceptuj i wysyłaj zamówienia zakupu do dostawców w dowolnej walucie, a potem dopasowuj je do dostaw i rachunków z czytelnym śladem audytowym. Za darmo na zawsze.",
+  "heroBullets": ["Za darmo na zawsze", "Akceptacja przed wysłaniem", "Dopasowanie do rachunków dostawców"],
+  "features": [
+    { "icon": "cart", "title": "Zamówienia z Twoim logo", "desc": "Wysyłaj dostawcom czytelne, numerowane zamówienia z Twoimi warunkami i szczegółami dostawy." },
+    { "icon": "check", "title": "Akceptacja przed wysłaniem", "desc": "Kieruj zamówienia do wewnętrznej akceptacji, by nic nie zostało zamówione bez zgody." },
+    { "icon": "truck", "title": "Śledzenie dostaw", "desc": "Zobacz, co zamówiono, co przyjęto częściowo, a co dostarczono w całości przy każdym zamówieniu." },
+    { "icon": "refresh", "title": "Dopasowanie do rachunków", "desc": "Zamień przyjęte zamówienie w rachunek dostawcy i dopasuj trójstronnie dla dokładności." },
+    { "icon": "globe", "title": "Dowolna waluta", "desc": "Zamawiaj w USD, EUR, AED, SAR, OMR, INR i innych, z właściwym podatkiem i miejscami po przecinku." },
+    { "icon": "whatsapp", "title": "Wysyłka gdziekolwiek", "desc": "Udostępnij zamówienie dostawcy przez WhatsApp lub e-mail jednym dotknięciem." }
+  ],
+  "sections": [
+    { "eyebrow": "Czym jest zamówienie zakupu", "title": "Czym jest zamówienie zakupu?", "body": "Zamówienie zakupu (ang. purchase order, PO) to dokument, który kupujący wysyła dostawcy, by formalnie zamówić towary lub usługi po uzgodnionej cenie. Wymienia pozycje, ilości, ceny jednostkowe, podatki, warunki dostawy i numer zamówienia, który dostawca podaje potem na swojej fakturze. Po przyjęciu przez dostawcę zamówienie staje się wiążącym zobowiązaniem, a dzięki wymogowi akceptacji kontroluje wydatki, zanim pieniądze wyjdą z firmy." },
+    { "eyebrow": "Jak to działa", "title": "Utwórz, zaakceptuj, przyjmij, dopasuj", "body": "Paper & Pen prowadzi pełny proces od zamówienia do zapłaty, więc każde zamówienie jest zaakceptowane, śledzone i dopasowane.", "items": ["Utwórz zamówienie z alertu o niskim stanie lub od zera", "Skieruj je do wewnętrznej akceptacji przed wysłaniem", "Wyślij do dostawcy przez WhatsApp lub e-mail", "Przyjmij towar do zamówienia i zaktualizuj magazyn", "Zamień w rachunek dostawcy i dopasuj do zamówienia i dostawy"] },
+    { "eyebrow": "Dlaczego to ważne", "title": "Kontroluj wydatki, zanim powstaną", "body": "Zamówienia zakupu przenoszą kontrolę wydatków na moment przed wyjściem pieniędzy, a nie po nim. Dzięki akceptacjom, śledzeniu dostaw i trójstronnemu dopasowaniu zamówienia, przyjętego towaru i rachunku dostawcy wyłapujesz zawyżone rachunki i niepełne dostawy, zanim zapłacisz. Ta dyscyplina sprawdza się zarówno przy jednym kupującym, jak i przy całym dziale zakupów." }
+  ],
+  "faqs": [
+    { "q": "Do czego służy zamówienie zakupu?", "a": "Formalnie zamawia towary lub usługi u dostawcy po uzgodnionej cenie, kontroluje wydatki przez akceptację i daje dostawcy numer do podania na fakturze." },
+    { "q": "Czy program do zamówień zakupu jest darmowy?", "a": "Tak. Tworzenie, akceptowanie i śledzenie zamówień zakupu jest w Paper & Pen bezpłatne na zawsze." },
+    { "q": "Czy mogę zaakceptować zamówienie przed wysłaniem?", "a": "Tak. Kieruj zamówienia zakupu do wewnętrznej akceptacji, by nic nie zostało zamówione bez właściwej zgody." },
+    { "q": "Czy mogę dopasować zamówienie do rachunku dostawcy?", "a": "Tak. Zamień przyjęte zamówienie w rachunek dostawcy i dopasuj go trójstronnie do zamówienia i przyjętego towaru, by wyłapać rozbieżności." },
+    { "q": "Czy przyjęcie zamówienia aktualizuje mój magazyn?", "a": "Z opcjonalnym modułem Magazyn przyjęcie towaru do zamówienia automatycznie zwiększa stany." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Zamawiaj z kontrolą, nie w chaosie",
+  "ctaSub": "Załóż darmową przestrzeń roboczą Paper & Pen, twórz zaakceptowane zamówienia zakupu i automatycznie dopasowuj je do rachunków."
+}

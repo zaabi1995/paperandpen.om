@@ -1,0 +1,45 @@
+{
+  "locale": "pl",
+  "slug": "paperandpen-vs-odoo",
+  "order": 3,
+  "competitor": "Odoo",
+  "title": "Paper & Pen kontra Odoo",
+  "metaTitle": "Paper & Pen kontra Odoo · prostszy darmowy ERP zamiast Odoo",
+  "metaDescription": "Porównaj Paper & Pen i Odoo pod kątem ceny, planu darmowego, arabskiego RTL, szybkości wdrożenia i VAT w krajach Zatoki. Prostsza, darmowa, arabska alternatywa ERP.",
+  "keywords": "paper and pen kontra odoo, alternatywa dla odoo, darmowa alternatywa dla odoo, prosty erp, arabski program erp, cennik odoo kraje zatoki",
+  "heroEyebrow": "Porównanie",
+  "heroTitle": "Paper & Pen kontra <em class=\"text-copper-400 not-italic\">Odoo</em>",
+  "heroSubtitle": "Odoo to potężny, modułowy ERP, który potrafi niemal wszystko. Paper & Pen to prostsza, darmowa droga z arabskim na pierwszym miejscu: fakturowanie za darmo na zawsze, moduły gdy ich potrzebujesz, start w kilka minut. Uczciwe porównanie.",
+  "heroBullets": ["Sprzedaż i fakturowanie za darmo na zawsze", "Start w kilka minut, bez wdrożenia", "Arabski na pierwszym miejscu i natywne waluty Zatoki"],
+  "features": [
+    { "icon": "bolt", "title": "Start w kilka minut", "desc": "Bez partnera i bez fazy wdrożenia. Zarejestruj się, ustaw podatek i walutę, a fakturę wyślesz jeszcze dziś." },
+    { "icon": "check", "title": "Darmowy rdzeń", "desc": "Sprzedaż i fakturowanie są darmowe na zawsze. Płacisz tylko za moduły, które naprawdę włączysz." },
+    { "icon": "globe", "title": "Arabski na pierwszym miejscu", "desc": "Pełny interfejs i dokumenty arabskie od prawej do lewej, z pięcioma językami interfejsu w standardzie." }
+  ],
+  "sections": [
+    { "eyebrow": "Uczciwa ocena", "title": "Gdzie Odoo jest mocne", "body": "Odoo jest naprawdę potężne. Dzięki dziesiątkom aplikacji, głębokiej personalizacji i silnemu ekosystemowi deweloperów potrafi odwzorować bardzo złożone firmy, od tras produkcyjnych po e-commerce i obsługę serwisową w terenie. Jeśli masz budżet, partnera wdrożeniowego i niestandardowe procesy, Odoo można dopasować niemal do wszystkiego.", "items": ["Ogromny katalog modułów i aplikacji", "Głęboka personalizacja i ekosystem deweloperów", "Skaluje się do bardzo złożonych operacji"] },
+    { "eyebrow": "Gdzie wygrywamy", "title": "Prostota, cena i czas do pierwszej wartości", "body": "Większość firm nie potrzebuje projektu wdrożeniowego, żeby wysłać fakturę. Paper & Pen można zacząć za darmo, ma arabski na pierwszym miejscu i jest gotowy w kilka minut: z konfigurowalnym VAT dla krajów Zatoki, natywnym OMR, AED i SAR oraz gotowymi płatnościami Paymob. Magazyn, HR czy Produkcję dodajesz dopiero, gdy do nich dorośniesz, więc nigdy nie płacisz za złożoność, której nie używasz.", "items": ["Brak kosztów wdrożenia na start", "Gotowy VAT i waluty Zatoki", "Dodawaj moduły dopiero wraz ze wzrostem"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Odoo"],
+  "matrix": [
+    { "feature": "Plan darmowy na zawsze", "values": [true, "Darmowy poziom z jedną aplikacją"] },
+    { "feature": "Cena początkowa", "values": ["Za darmo", "Płatne za użytkownika"] },
+    { "feature": "Nakład pracy na wdrożenie", "values": ["Minuty", "Wdrożenie"] },
+    { "feature": "Interfejs arabski RTL", "values": [true, "Częściowy"] },
+    { "feature": "Wiele walut", "values": [true, true] },
+    { "feature": "Płatności lokalne (Paymob)", "values": [true, "Przez konfigurację"] },
+    { "feature": "Gotowy konfigurowalny VAT dla krajów Zatoki", "values": [true, "Do skonfigurowania"] },
+    { "feature": "Pełne moduły ERP", "values": ["Modułowe dodatki", true] },
+    { "feature": "Najlepiej pasuje do", "values": ["Małych i średnich firm szukających prostoty i darmowego startu", "Złożonych, dopasowanych operacji"] }
+  ],
+  "faqs": [
+    { "q": "Czy Paper & Pen to dobra alternatywa dla Odoo?", "a": "Tak, dla małych i średnich firm, które chcą zacząć za darmo, szybko ruszyć i pracować po arabsku. Odoo pozostaje mocniejszym wyborem dla bardzo złożonych, mocno dopasowanych operacji z budżetem na wdrożenie." },
+    { "q": "Czy Paper & Pen jest tańszy niż Odoo?", "a": "Punkt startowy jest darmowy dla nieograniczonego fakturowania, bez opłaty za użytkownika i bez kosztów wdrożenia. Płacisz tylko za opcjonalne moduły, które włączysz." },
+    { "q": "Ile trwa wdrożenie w porównaniu z Odoo?", "a": "Minuty. Rejestrujesz się, ustawiasz walutę i podatek, a fakturę wysyłasz tego samego dnia, bez partnera i bez fazy wdrożenia." },
+    { "q": "Czy Paper & Pen ma magazyn i produkcję jak Odoo?", "a": "Tak, jako moduły opcjonalne. Magazyn, HR, Księgowość i Produkcję możesz dodać, gdy do nich dorośniesz, zamiast płacić za wszystko z góry." },
+    { "q": "Czy obsługa arabskiego jest lepsza?", "a": "Paper & Pen ma arabski na pierwszym miejscu: pełny interfejs i dokumenty od prawej do lewej, podczas gdy w Odoo wsparcie arabskiego jest częściowe i często zależy od konfiguracji." }
+  ],
+  "related": ["/compare/paperandpen-vs-tally", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Pomiń wdrożenie",
+  "ctaSub": "Zacznij za darmo z Paper & Pen, wyślij fakturę już dziś i dodawaj moduły dopiero wtedy, gdy ich potrzebujesz."
+}
