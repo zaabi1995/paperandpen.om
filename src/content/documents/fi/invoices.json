@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Laskut",
+  "metaTitle": "Laskutus verkossa · Laadi ja lähetä laskut ilmaiseksi · Paper & Pen",
+  "metaDescription": "Laadi ammattimaisia laskuja verkossa ilmaiseksi millä tahansa valuutalla. Lähetä WhatsAppilla tai sähköpostilla, ota vastaan verkkomaksuja ja seuraa maksettuja ja erääntyneitä.",
+  "keywords": "lasku, verkkolasku, laskun tekeminen, laskutusohjelma, ilmainen lasku, alv-lasku, gst-lasku, lähetä lasku whatsappilla",
+  "heroEyebrow": "Laskutus",
+  "heroTitle": "Laadi ja lähetä ammattimaisia <em class=\"text-copper-400 not-italic\">laskuja</em> ilmaiseksi",
+  "heroSubtitle": "Laskuta ketä tahansa asiakasta millä tahansa valuutalla ja valitsemallasi verokannalla. Lähetä WhatsAppilla tai sähköpostilla, saa maksu verkossa ja tiedä aina, mikä on maksettu, erääntymässä ja erääntynyt.",
+  "heroBullets": ["Laskutus ilmaiseksi ikuisesti", "Mikä tahansa valuutta ja verokanta", "Lähetä WhatsAppilla tai sähköpostilla"],
+  "features": [
+    { "icon": "invoice", "title": "Brändätyt laskut", "desc": "Lisää logosi, värisi ja ehtosi. Jokainen lasku näyttää ammattimaiselta ja tulostuu siististi." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Laskuta USD-, EUR-, GBP-, INR-, AED-, SAR-, OMR-valuutassa ja muissa oikeilla desimaaleilla." },
+    { "icon": "calc", "title": "Valmis ALV:lle ja veroille", "desc": "Käytä mitä tahansa ALV-, GST- tai myyntiverokantaa. Vero lasketaan verottomasta summasta alennusten jälkeen." },
+    { "icon": "whatsapp", "title": "Lähetä minne vain", "desc": "Jaa linkki tai PDF WhatsAppilla, sähköpostilla tai ladattuna. Asiakas voi maksaa yhdellä napautuksella." },
+    { "icon": "card", "title": "Saa maksu verkossa", "desc": "Ota vastaan kortteja ja paikallisia maksutapoja, niin asiakkaat maksavat laskun heti." },
+    { "icon": "bell", "title": "Automaattiset muistutukset", "desc": "Kohteliaat maksumuistutukset lähtevät automaattisesti, kunnes lasku on maksettu." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on lasku", "title": "Mikä lasku on?", "body": "Lasku on kaupallinen tosite, jonka myyjä lähettää ostajalle ja jolla pyydetään maksua toimitetuista tavaroista tai palveluista. Siinä listataan tuotteet, määrät, yksikköhinnat, verot ja maksettava kokonaissumma sekä maksuehdot ja eräpäivä. Selkeä, numeroitu lasku on myynnin oikeudellinen tosite ja asiakkaasi peruste maksaa sinulle." },
+    { "eyebrow": "Näin se toimii", "title": "Luonnoksesta maksetuksi minuuteissa", "body": "Laadi lasku tarjouksesta tai tyhjästä, lähetä se ja anna Paper & Penin hoitaa loput. Maksut, muistutukset ja kirjanpitosi pysyvät automaattisesti ajan tasalla.", "items": ["Luo tallennetuista asiakkaista ja tuotteista tai aloita tyhjästä", "Aseta valuutta, verokanta ja maksuehdot", "Lähetä WhatsAppilla tai sähköpostilla verkkomaksulinkin kanssa", "Seuraa tilaa: luonnos, lähetetty, osittain maksettu, maksettu, erääntynyt", "Kirjaa käsin tehdyt maksut tai anna verkkomaksujen täsmäytyä itsestään"] },
+    { "eyebrow": "Tehty koko maailmalle", "title": "Paikalliset vahvuudet, maailmanlaajuinen ulottuvuus", "body": "Paper & Pen toimii yrityksille missä tahansa. GCC-maissa saat heti käyttöön arabiankieliset laskut, OMR-, AED- ja SAR-valuuttojen oikean muotoilun, säädettävät ALV-esiasetukset ja Paymob-korttimaksut. Muualla valitset yksinkertaisesti valuuttasi, verokantasi ja kielesi." }
+  ],
+  "faqs": [
+    { "q": "Onko laskutus todella ilmaista?", "a": "Kyllä. Laskujen laatiminen, lähettäminen ja seuranta on Paper & Penissä ilmaista ikuisesti. Maksat vain, jos lisäät valinnaisia moduuleja, kuten Varastonhallinta, HR tai Kirjanpito." },
+    { "q": "Voinko laskuttaa millä tahansa valuutalla?", "a": "Kyllä. Valitse mikä tahansa valuutta, kuten USD, EUR, GBP, INR, AED, SAR tai OMR. Desimaalit mukautuvat automaattisesti (esimerkiksi kolme desimaalia OMR:lle)." },
+    { "q": "Käsitteleekö se ALV:n tai GST:n?", "a": "Kyllä. Aseta mikä tahansa verokanta laskukohtaisesti tai rivikohtaisesti. GCC-maiden käyttäjät saavat säädettävän ALV-esiasetuksen, ja vero lasketaan aina alennusten jälkeisestä summasta." },
+    { "q": "Miten asiakkaat maksavat minulle?", "a": "Lähetä lasku verkkomaksulinkin kanssa, niin asiakkaat voivat maksaa kortilla tai paikallisella maksutavalla yhdellä napautuksella. Voit myös kirjata käteis-, tilisiirto- tai shekkimaksut käsin." },
+    { "q": "Voinko lähettää laskuja WhatsAppilla?", "a": "Kyllä. Jaa lasku linkkinä tai PDF:nä suoraan WhatsAppiin tai lähetä se sähköpostilla. Molemmissa säilyy verkkomaksupainike, joten saat maksun nopeammin." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Lähetä ensimmäinen laskusi minuuteissa",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila, lisää logosi ja lähetä ammattimainen lasku, joka maksetaan verkossa."
+}

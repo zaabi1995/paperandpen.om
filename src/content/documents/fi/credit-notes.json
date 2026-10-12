@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Hyvityslaskut",
+  "metaTitle": "Hyvityslasku-ohjelma · Paper & Pen",
+  "metaDescription": "Laadi ammattimaisia hyvityslaskuja verkossa ilmaiseksi millä tahansa valuutalla. Oikaise laskua palautuksen, hyvityksen tai korjauksen vuoksi oikealla tositteella.",
+  "keywords": "hyvityslasku, hyvityslaskun tekeminen, hyvitystosite, laskun hyvitys, palautuksen hyvityslasku, hyvityslasku-ohjelma, alv hyvityslasku",
+  "heroEyebrow": "Hyvityslaskut",
+  "heroTitle": "Laadi <em class=\"text-copper-400 not-italic\">hyvityslaskut</em> oikein",
+  "heroSubtitle": "Oikaise laskua palautuksen, hyvityksen tai korjauksen vuoksi oikealla hyvityslaskulla, selkeällä kirjausketjulla ja automaattisella kirjanpitoviennillä. Millä tahansa valuutalla.",
+  "heroBullets": ["Ilmainen ikuisesti", "Linkitetty alkuperäiseen laskuun", "Kirjaa oikean viennin"],
+  "features": [
+    { "icon": "doc", "title": "Oikea hyvitystosite", "desc": "Numeroitu hyvityslasku, joka on linkitetty alkuperäiseen laskuun, ei koskaan huomaamaton muokkaus." },
+    { "icon": "refresh", "title": "Oikaisee saldon", "desc": "Pienentää asiakkaan saldoa ja peruu veron oikein hyvitetystä summasta." },
+    { "icon": "shield", "title": "Täydellinen kirjausketju", "desc": "Jokainen hyvityslasku tallentuu syineen, joten kirjanpitosi pysyy siistinä ja tarkastettavana." },
+    { "icon": "calc", "title": "Oikea ALV:n peruutus", "desc": "Vero peruutetaan hyvitetystä verottomasta summasta, joten veroilmoituksesi pysyvät oikeina." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Hyvitä USD-, EUR-, AED-, SAR-, OMR-, INR-valuutassa ja muissa, alkuperäisen laskun mukaisesti." },
+    { "icon": "whatsapp", "title": "Lähetä minne vain", "desc": "Jaa hyvityslasku WhatsAppilla tai sähköpostilla, niin asiakkaalla on tosite tallessa." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on hyvityslasku", "title": "Mikä hyvityslasku on?", "body": "Hyvityslasku on myyjän laatima tosite, joka pienentää asiakkaan velkaa aiemmin lähetetyllä laskulla. Sitä käytetään palautuksissa, hyvityksissä, ylilaskutuksissa, peruutetuissa tuotteissa ja hintakorjauksissa. Hyvityslasku ei koskaan poista alkuperäistä laskua, vaan kumoaa virallisesti sen osan tai koko summan. Näin säilyy täydellinen ja tarkastettava tieto siitä, mikä muuttui ja miksi." },
+    { "eyebrow": "Näin se toimii", "title": "Hyvitä, peru, täsmäytä", "body": "Paper & Pen laatii hyvityslaskun oikeana tositteena omalla numerollaan ja kirjanpitoviennillään, ei koskaan hiljaisena laskun muokkauksena.", "items": ["Avaa lasku ja laadi sille hyvityslasku", "Hyvitä koko lasku tai valitut rivit", "Lisää syy: palautus, hyvitys, korjaus tai peruutus", "Vero peruutetaan automaattisesti hyvitetystä verottomasta summasta", "Asiakkaan saldo ja pääkirjasi päivittyvät yhdessä"] },
+    { "eyebrow": "Miksi sillä on väliä", "title": "Älä koskaan muokkaa maksettua laskua", "body": "Lähetetyn laskun muokkaaminen tai poistaminen rikkoo kirjausketjun ja veroasemasi. Oikea tapa pienentää saatavaa on laatia hyvityslasku. Se jättää alkuperäisen laskun ennalleen, kirjaa vastaviennin ja peruu oikean määrän veroa. Tämä on vaadittu käytäntö useimmissa ALV- ja GST-järjestelmissä maailmanlaajuisesti." }
+  ],
+  "faqs": [
+    { "q": "Mihin hyvityslaskua käytetään?", "a": "Asiakkaan laskulla olevan velan pienentämiseen tai mitätöimiseen, tyypillisesti palautuksissa, hyvityksissä, ylilaskutuksissa tai korjauksissa. Se kumoaa laskun sen sijaan, että poistaisi sen." },
+    { "q": "Onko hyvityslaskujen tekeminen ilmaista?", "a": "Kyllä. Hyvityslaskujen laatiminen ja seuranta on Paper & Penissä ilmaista ikuisesti." },
+    { "q": "Peruuttaako hyvityslasku ALV:n?", "a": "Kyllä. Paper & Pen peruu veron hyvitetystä verottomasta summasta automaattisesti, joten ALV- tai GST-asemasi pysyy oikeana." },
+    { "q": "Voinko hyvittää vain osan laskusta?", "a": "Kyllä. Hyvitä koko lasku tai vain valitut rivit ja määrät. Asiakkaan saldo oikaistaan vastaavasti." },
+    { "q": "Mitä eroa on hyvityslaskulla ja veloituslaskulla?", "a": "Myyjä laatii hyvityslaskun pienentääkseen asiakkaan velkaa. Veloituslaskun laatii tyypillisesti ostaja (tai sillä kasvatetaan velkaa), esimerkiksi liikamaksun takaisinperintään tai lisäsumman veloittamiseen." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Laadi hyvityslasku luottavaisin mielin",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila ja oikaise mikä tahansa lasku oikealla, tarkastettavalla hyvityslaskulla sekunneissa."
+}

@@ -21,6 +21,7 @@ const KEEP = new Set(['slug', 'order', 'icon', 'toolType', 'href', 'url', 'path'
 const errors = [];
 const VARS = (s) => [...s.matchAll(/\{\{\s*\w+\s*\}\}/g)].map((m) => m[0].replace(/\s/g, '')).sort().join(',');
 const URLS = (s) => [...s.matchAll(/https?:\/\/[^\s"'<)]+|(?<![\w])\/[a-z0-9-]+(?:\/[a-z0-9-]*)*\/(?=["'\s)<]|$)/g)].map((m) => m[0]).sort().join(',');
+const GULF_NAMED = /Persian Gulf|Arabian Gulf|Persische[nr]? Golf|Arabische[nr]? Golf|golfe (Persique|arabique)|Golfo (P[ée]rsico|Persico|Ar[áa]bigo|Arabico)|Persianlah|Persiska viken|Persiske Golf|Perzische Golf|Persk(ý|ého|ém) záliv|Zatok[ai] Persk|Basra Körfezi|Перс(идск|ьк)|Περσικ|波斯[湾灣]|ペルシャ湾|페르시아만|Vịnh Ba Tư|อ่าวเปอร์เซีย|Teluk Persia|Ghuba la Uajemi|خلیج[ ‌]?فارس|الخليج الفارسي/;
 const TAGS = (s) => [...s.matchAll(/<\/?([a-z][a-z0-9]*)\b/gi)].map((m) => m[1].toLowerCase()).sort().join(',');
 
 function walk(en, tr, where, code, untranslated, top = false) {
@@ -50,6 +51,8 @@ function walk(en, tr, where, code, untranslated, top = false) {
     if (TAGS(en) !== TAGS(tr)) errors.push(`${where}: HTML tags differ`);
     if (URLS(en) !== URLS(tr)) errors.push(`${where}: links differ`);
     if (tr.includes('—')) errors.push(`${where}: em dash`);
+    // The brand is Omani: the Gulf is named neutrally, never "Persian Gulf" or "Arabian Gulf" in any language (12 Oct 2026).
+    if (GULF_NAMED.test(tr)) errors.push(`${where}: names the Gulf as Persian or Arabian; write plain "Gulf"`);
     if (code !== 'en' && en.length > 40 && tr === en && /[a-z]{4,} [a-z]{4,} [a-z]{4,}/.test(en)) untranslated.push(where);
     return;
   }
@@ -123,6 +126,7 @@ function checkContent(code) {
       if (links(e.body) !== links(t.body)) errors.push(`${where}: internal links differ from English`);
       if (heads(e.body) !== heads(t.body)) errors.push(`${where}: heading count ${heads(t.body)}, English has ${heads(e.body)}`);
       if (/\u2014/.test(fs.readFileSync(path.join(blogDir, file), 'utf8'))) errors.push(`${where}: em dash`);
+      if (GULF_NAMED.test(fs.readFileSync(path.join(blogDir, file), 'utf8'))) errors.push(`${where}: names the Gulf as Persian or Arabian; write plain "Gulf"`);
       n++;
     }
     if (LEGACY.has(code)) for (const w of errors.splice(before)) console.log(`WARN (refresh) ${w}`);

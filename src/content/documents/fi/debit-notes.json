@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "debit-notes",
+  "order": 6,
+  "title": "Veloituslaskut",
+  "metaTitle": "Veloituslasku-ohjelma · Tee veloituslaskut ilmaiseksi · Paper & Pen",
+  "metaDescription": "Laadi ammattimaisia veloituslaskuja verkossa ilmaiseksi millä tahansa valuutalla. Kirjaa lisäveloitukset tai toimittajaoikaisut oikealla tositteella.",
+  "keywords": "veloituslasku, veloituslaskun tekeminen, veloitustosite, toimittajan veloituslasku, ostopalautus, veloituslasku-ohjelma, alv veloituslasku",
+  "heroEyebrow": "Veloituslaskut",
+  "heroTitle": "Kirjaa lisäveloitukset oikealla <em class=\"text-copper-400 not-italic\">veloituslaskulla</em>",
+  "heroSubtitle": "Laadi veloituslasku kasvattaaksesi velkaa tai periäksesi takaisin toimittajalta, selkeällä kirjausketjulla ja oikealla kirjanpitoviennillä. Millä tahansa valuutalla.",
+  "heroBullets": ["Ilmainen ikuisesti", "Linkitetty alkuperäiseen tositteeseen", "Kirjaa oikean viennin"],
+  "features": [
+    { "icon": "doc", "title": "Oikea veloitustosite", "desc": "Numeroitu veloituslasku, joka on linkitetty alkuperäiseen myynti- tai ostolaskuun ja täysin dokumentoitu." },
+    { "icon": "refresh", "title": "Oikaisee saldon", "desc": "Kasvattaa velkaa tai kirjaa vaateen toimittajaa kohtaan oikein." },
+    { "icon": "shield", "title": "Täydellinen kirjausketju", "desc": "Jokaisessa veloituslaskussa on syy, joten kirjanpitosi pysyy siistinä ja tarkastettavana." },
+    { "icon": "calc", "title": "Oikea verokäsittely", "desc": "Vero lisätään tai palautetaan oikeasta verottomasta summasta, joten veroilmoitukset pysyvät tarkkoina." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Laadi USD-, EUR-, AED-, SAR-, OMR-, INR-valuutassa ja muissa, alkuperäisen tositteen mukaisesti." },
+    { "icon": "whatsapp", "title": "Lähetä minne vain", "desc": "Jaa veloituslasku WhatsAppilla tai sähköpostilla, niin toisella osapuolella on tosite tallessa." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on veloituslasku", "title": "Mikä veloituslasku on?", "body": "Veloituslasku on tosite, jolla kirjataan kahden osapuolen välisen velan kasvu. Ostaja laatii usein veloituslaskun toimittajalle palautetuista tavaroista tai ylilaskutuksesta, ja myyjä voi laatia sellaisen lisätäkseen veloituksen aiemmin lähetettyyn laskuun. Hyvityslaskun tavoin se oikaisee saldoa virallisella, numeroidulla tositteella sen sijaan, että alkuperäistä muokattaisiin." },
+    { "eyebrow": "Näin se toimii", "title": "Veloita, oikaise, täsmäytä", "body": "Paper & Pen laatii veloituslaskun oikeana tositteena omalla numerollaan ja kirjanpitoviennillään, joten molemmat osapuolet pysyvät täsmäytettyinä.", "items": ["Laadi veloituslasku myynti- tai ostolaskulle", "Lisää veloitus tai vaade ja sen syy", "Vero käsitellään automaattisesti oikeasta verottomasta summasta", "Saldo päivittyy kirjanpitoviennillä", "Lähetä se WhatsAppilla tai sähköpostilla toisen osapuolen kirjanpitoon"] },
+    { "eyebrow": "Hyvitys vai veloitus", "title": "Hyvityslasku vai veloituslasku?", "body": "Käytä hyvityslaskua, kun pienennät asiakkaasi velkaa sinulle, esimerkiksi palautuksessa tai hyvityksessä. Käytä veloituslaskua, kun kasvatat velkaa tai perit takaisin toimittajalta, esimerkiksi toimittajalle palautetusta vaurioituneesta varastosta tai korjattavasta alilaskutuksesta. Paper & Pen tukee molempia oikealla kirjanpidolla kumpaankin suuntaan." }
+  ],
+  "faqs": [
+    { "q": "Mihin veloituslaskua käytetään?", "a": "Velan kasvun kirjaamiseen, kuten laskun lisäveloitukseen tai ostajan vaateeseen toimittajaa kohtaan palautusten tai ylilaskutuksen vuoksi." },
+    { "q": "Onko veloituslaskujen tekeminen ilmaista?", "a": "Kyllä. Veloituslaskujen laatiminen ja seuranta on Paper & Penissä ilmaista ikuisesti." },
+    { "q": "Mitä eroa on veloituslaskulla ja hyvityslaskulla?", "a": "Veloituslasku kasvattaa velkaa tai kirjaa vaateen, ja sen laatii usein ostaja. Hyvityslasku pienentää asiakkaan velkaa, ja sen laatii myyjä." },
+    { "q": "Vaikuttaako veloituslasku veroon?", "a": "Kyllä. Paper & Pen lisää tai palauttaa veron oikeasta verottomasta summasta automaattisesti, joten ALV- tai GST-tietosi pysyvät tarkkoina." },
+    { "q": "Voinko linkittää veloituslaskun ostolaskuun?", "a": "Kyllä. Laadi veloituslasku alkuperäiselle myynti- tai ostolaskulle, niin molemmat saldot täsmäävät selkeällä kirjausketjulla." }
+  ],
+  "related": ["/invoicing/credit-notes", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Laadi veloituslasku sekunneissa",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila ja oikaise mikä tahansa saldo oikealla, tarkastettavalla veloituslaskulla."
+}

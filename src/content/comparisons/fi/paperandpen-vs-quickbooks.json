@@ -1,0 +1,45 @@
+{
+  "locale": "fi",
+  "slug": "paperandpen-vs-quickbooks",
+  "order": 4,
+  "competitor": "QuickBooks",
+  "title": "Paper & Pen vai QuickBooks",
+  "metaTitle": "Paper & Pen vai QuickBooks · Ilmainen QuickBooks-vaihtoehto",
+  "metaDescription": "Vertaa Paper & Peniä ja QuickBooksia hinnan, ilmaisen paketin, arabian RTL-tuen, monivaluuttaisuuden ja GCC-maiden ALV:n osalta. Ilmainen, arabia edellä tehty QuickBooks-vaihtoehto, joka toimii.",
+  "keywords": "paper and pen vai quickbooks, quickbooks-vaihtoehto, ilmainen quickbooks-vaihtoehto, quickbooks hinnoittelu, arabiankielinen kirjanpito-ohjelma, gcc laskutusohjelma",
+  "heroEyebrow": "Vertailu",
+  "heroTitle": "Paper & Pen vai <em class=\"text-copper-400 not-italic\">QuickBooks</em>",
+  "heroSubtitle": "QuickBooks on viimeistelty, suosittu kirjanpitotuote. Paper & Pen on ilmainen, arabia edellä tehty ERP, joka laskuttaa millä tahansa valuutalla, ottaa vastaan paikallisia maksuja ja sopii GCC-maihin heti. Rehellinen vertailu.",
+  "heroBullets": ["Myynti ja laskutus ilmaiseksi ikuisesti", "Arabian RTL ja neljä muuta kieltä", "OMR, AED, SAR ja GCC-maiden säädettävä ALV valmiina"],
+  "features": [
+    { "icon": "check", "title": "Ilmainen ydin", "desc": "Laskutus ja myynti ovat ilmaisia ikuisesti, eikä laskujen lähettäminen vaadi kuukausitilausta." },
+    { "icon": "globe", "title": "Arabia edellä", "desc": "Täysi oikealta vasemmalle kirjoitettava arabiankielinen käyttöliittymä ja tositteet sekä englanti, hindi, bengali ja urdu." },
+    { "icon": "card", "title": "Paikalliset maksut", "desc": "Paymob ja alueelliset maksunvälittäjät ovat sisäänrakennettuina, joten Lahden alueen asiakkaat maksavat kortilla ilman lisämäärityksiä." }
+  ],
+  "sections": [
+    { "eyebrow": "Rehellinen näkemys", "title": "Missä QuickBooks on vahva", "body": "QuickBooks on hiottu, laajalti käytetty tuote, jossa on selkeä käyttöliittymä, vahvat pankkiyhteydet sen päämarkkinoilla ja suuri kirjanpitäjäverkosto, joka tuntee sen. Yhdysvalloissa, Isossa-Britanniassa ja vastaavilla markkinoilla se on mukava ja pätevä valinta, jolla on laaja kumppaniekosysteemi.", "items": ["Hiottu, tunnettu käyttöliittymä", "Vahvat pankkiyhteydet päämarkkinoilla", "Suuri kirjanpitäjä- ja neuvonantajaverkosto"] },
+    { "eyebrow": "Missä me voitamme", "title": "Ilmainen, arabiankielinen ja tehty alueelle", "body": "Paper & Pen alkaa aidosti ilmaisena rajattomalle laskutukselle, siinä on aito oikealta vasemmalle kirjoitettava arabiankielinen käyttöliittymä, ja se laskuttaa OMR-, AED- ja SAR-valuutoissa oikeilla desimaaleilla. GCC-maiden säädettävä ALV ja Paymob-korttimaksut ovat valmiiksi asetettuina, ja saat täyden ERP-polun (Varastonhallinta, HR, Kirjanpito, Tuotanto), kun tarvitset sitä, kaikki yhdestä ilmaisesta lähtöpisteestä.", "items": ["Ikuisesti ilmainen ydin, ei kuukausimaksun alarajaa", "Aito arabian RTL alusta loppuun", "Lahden alueen valuutat, säädettävä ALV ja Paymob valmiina"] }
+  ],
+  "matrixCols": ["Paper & Pen", "QuickBooks"],
+  "matrix": [
+    { "feature": "Ikuisesti ilmainen paketti", "values": [true, false] },
+    { "feature": "Aloitushinta", "values": ["Ilmainen", "Kuukausitilaus"] },
+    { "feature": "Arabian RTL-käyttöliittymä", "values": [true, "Rajoitettu"] },
+    { "feature": "Monivaluuttaisuus", "values": [true, "Ylemmät tasot"] },
+    { "feature": "Monikielinen käyttöliittymä (5)", "values": [true, "Rajoitettu"] },
+    { "feature": "Paikalliset maksut (Paymob)", "values": [true, false] },
+    { "feature": "GCC-maiden säädettävä ALV-esiasetus", "values": [true, "Määritettävissä"] },
+    { "feature": "Käyttöönoton nopeus", "values": ["Minuutteja", "Tilaa ja määritä"] },
+    { "feature": "Varasto, HR ja tuotanto", "values": [true, "Lisäosat / ylemmät tasot"] }
+  ],
+  "faqs": [
+    { "q": "Onko Paper & Pen hyvä vaihtoehto QuickBooksille?", "a": "Kyllä, erityisesti GCC-maissa ja arabiankielisille tiimeille, jotka haluavat ilmaisen laskutusytimen ja Lahden alueen valuutat valmiina. QuickBooks on erinomainen päämarkkinoillaan, mutta siinä ei ole ikuisesti ilmaista pakettia ja sen arabian tuki on rajallinen." },
+    { "q": "Onko Paper & Pen ilmainen toisin kuin QuickBooks?", "a": "Myynti ja laskutus ovat ilmaisia ikuisesti ilman kuukausitilausta. Maksat vain valinnaisista moduuleista, kuten Varastonhallinta, HR tai Kirjanpito." },
+    { "q": "Tukeeko Paper & Pen useita valuuttoja?", "a": "Kyllä, ilmaisessa ytimessä. Voit laskuttaa OMR-, AED-, SAR-, USD-, EUR-valuutassa ja muissa oikeilla desimaaleilla tositekohtaisesti." },
+    { "q": "Voivatko asiakkaat maksaa laskuja kortilla?", "a": "Kyllä. Paymob ja alueelliset maksunvälittäjät ovat sisäänrakennettuina, joten asiakkaat GCC-maissa ja muualla maksavat laskulinkistä." },
+    { "q": "Onko se valmis GCC-maiden ALV:lle?", "a": "Kyllä. GCC-maiden säädettävä ALV-kanta on valmiiksi asetettu, ja vero on täysin määritettävissä mille tahansa muulle maalle." }
+  ],
+  "related": ["/compare/paperandpen-vs-zoho", "/compare/paperandpen-vs-wafeq", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Kokeile ilmaista QuickBooks-vaihtoehtoa",
+  "ctaSub": "Luo ilmainen työtila ja lähetä ensimmäinen laskusi minuuteissa. Valmis arabiaksi, monivaluuttainen, ilmainen ikuisesti."
+}

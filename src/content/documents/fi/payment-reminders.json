@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "payment-reminders",
+  "order": 12,
+  "title": "Maksumuistutukset",
+  "metaTitle": "Maksumuistutukset · Paper & Pen",
+  "metaDescription": "Lähetä erääntyneistä laskuista automaattiset maksumuistutukset ilmaiseksi. Kohteliaat WhatsApp- ja sähköpostimuistutukset aikataulullasi verkkomaksulinkin kanssa.",
+  "keywords": "maksumuistutus, laskumuistutus, erääntynyt lasku, automaattinen maksumuistutus, perintä, laskun periminen, maksun seuranta",
+  "heroEyebrow": "Maksumuistutukset",
+  "heroTitle": "Saa maksut nopeammin automaattisilla <em class=\"text-copper-400 not-italic\">maksumuistutuksilla</em>",
+  "heroSubtitle": "Kohteliaat, automaattiset muistutukset perivät jokaista erääntynyttä laskua WhatsAppilla ja sähköpostilla, ja jokaisessa on verkkomaksulinkki. Saat rahasi ilman kiusallista karhuamista. Ilmainen ikuisesti.",
+  "heroBullets": ["Ilmainen ikuisesti", "Automaattinen omalla aikataulullasi", "Verkkomaksulinkki jokaisessa muistutuksessa"],
+  "features": [
+    { "icon": "bell", "title": "Automaattinen perintä", "desc": "Muistutukset lähtevät aikataulusi mukaan, kunnes lasku on maksettu, ilman käsityötä." },
+    { "icon": "whatsapp", "title": "WhatsApp ja sähköposti", "desc": "Tavoita asiakkaat siellä, missä he vastaavat nopeimmin, kohteliaalla brändätyllä viestillä." },
+    { "icon": "card", "title": "Verkkomaksulinkki", "desc": "Jokaisessa muistutuksessa on linkki, jonka kautta asiakas maksaa laskun yhdellä napautuksella." },
+    { "icon": "clock", "title": "Oma aikataulu", "desc": "Valitse, milloin muistutukset lähtevät: ennen eräpäivää, eräpäivänä ja sen jälkeen, omaan tahtiisi." },
+    { "icon": "shield", "title": "Loppuu, kun maksettu", "desc": "Muistutukset perivät vain avointa saldoa ja loppuvat automaattisesti, kun lasku on maksettu." },
+    { "icon": "globe", "title": "Mikä tahansa kieli", "desc": "Lähetä muistutukset asiakkaan kielellä, kuten arabiaksi, englanniksi, hindiksi ja muilla kielillä." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on maksumuistutus", "title": "Mikä maksumuistutus on?", "body": "Maksumuistutus on kohtelias viesti, joka kehottaa asiakasta maksamaan erääntymässä olevan tai erääntyneen laskun. Oikeaan aikaan lähetettynä se on yksi tehokkaimmista tavoista parantaa kassavirtaa vahingoittamatta asiakassuhdetta. Paper & Pen automatisoi koko sarjan, joten muistutukset lähtevät aikataulussa ja loppuvat heti, kun lasku on maksettu." },
+    { "eyebrow": "Näin se toimii", "title": "Aseta tahti, saa maksut", "body": "Paper & Pen perii erääntyneet laskut puolestasi tarkasti ja kohteliaasti, joten sinun ei tarvitse koskaan kysyä kahdesti.", "items": ["Aseta muistutusaikataulu: ennen eräpäivää, eräpäivänä ja sen jälkeen", "Muistutukset lähtevät automaattisesti WhatsAppilla ja sähköpostilla", "Jokaisessa viestissä on avoin saldo ja maksulinkki", "Muistutukset perivät vain sen, mikä on todella maksamatta alennusten ja osamaksujen jälkeen", "Ne loppuvat automaattisesti heti, kun lasku on maksettu"] },
+    { "eyebrow": "Tarkkuus ratkaisee", "title": "Peri oikea summa, älä koskaan karhua liikaa", "body": "Muistutus on vain yhtä hyvä kuin siinä oleva luku. Paper & Pen perii aina todellista avointa saldoa ottaen huomioon alennukset, hyvityslaskut ja osamaksut, joten jo kokonaan maksanutta asiakasta ei koskaan muistuteta. Kun tämä menee oikein, asiakassuhde säilyy ja saat silti sen, mitä sinulle kuuluu." }
+  ],
+  "faqs": [
+    { "q": "Ovatko maksumuistutukset ilmaisia?", "a": "Kyllä. Automaattiset maksumuistutukset ovat Paper & Penissä ilmaisia ikuisesti jokaisessa lähettämässäsi laskussa." },
+    { "q": "Kuinka usein muistutukset lähtevät?", "a": "Itse määrittämäsi aikataulun mukaan: ennen eräpäivää, eräpäivänä ja väliajoin sen jälkeen. Ne loppuvat heti, kun lasku on maksettu." },
+    { "q": "Sisältävätkö muistutukset tavan maksaa?", "a": "Kyllä. Jokaisessa muistutuksessa on verkkomaksulinkki, joten asiakas voi maksaa yhdellä napautuksella kortilla tai paikallisella maksutavalla." },
+    { "q": "Saako jo maksanut asiakas muistutuksen vahingossa?", "a": "Ei. Muistutukset perivät vain todellista avointa saldoa ottaen huomioon alennukset, hyvityslaskut ja osamaksut, ja ne loppuvat automaattisesti, kun lasku on maksettu." },
+    { "q": "Voinko lähettää muistutukset arabiaksi?", "a": "Kyllä. Lähetä muistutukset asiakkaan kielellä, kuten arabiaksi, englanniksi, hindiksi, bengaliksi ja urduksi." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/recurring-invoices", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Lopeta karhuaminen, ala periä",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila ja anna automaattisten muistutusten periä erääntyneet laskusi puolestasi."
+}

@@ -1,0 +1,110 @@
+{
+  "locale": "fi",
+  "slug": "auto-repair-invoice-template",
+  "order": 10,
+  "title": "Laskupohja autokorjaamolle",
+  "metaTitle": "Laskupohja autokorjaamolle · Paper & Pen",
+  "metaDescription": "Laadi ammattimaisia autokorjaamon laskuja. Laskuta työtunnit, listaa osat ja hallitse vianmääritysmaksut ilmaisella laskugeneraattorillamme mekaanikoille.",
+  "keywords": "laskupohja autokorjaamolle, mekaanikon laskupohja, korjaamon laskugeneraattori, autokorjaamon laskutus, auton korjauslasku, mekaanikon laskutusohjelma, autokorjauksen kustannusarvio",
+  "heroEyebrow": "Mekaanikoille ja korjaamoille",
+  "heroTitle": "Laadi autokorjaamon lasku, joka <em class=\"text-copper-400 not-italic\">näyttää jokaisen yksityiskohdan</em>.",
+  "heroSubtitle": "Lopeta yleispohjien käyttö, jotka eivät huomioi, miten korjaamot todella toimivat. Laskuta selkeästi osat, korjaamon työtunnit ja vianmääritysmaksut ja pidä kirjaa ajoneuvon tiedoista, kuten mittarilukemasta ja rekisterinumerosta.",
+  "heroBullets": [
+    "Listaa osat tarkoilla numeroilla",
+    "Laske työ korjaamon tuntihinnalla",
+    "Seuraa mittarilukemaa ja rekisterinumeroa"
+  ],
+  "features": [
+    {
+      "icon": "truck",
+      "title": "Ajoneuvon tiedot mukana",
+      "desc": "Kirjaa rekisterinumero, merkki, malli ja nykyinen mittarilukema suoraan tositteeseen, niin jokaisella ajoneuvolla on selkeä huoltohistoria."
+    },
+    {
+      "icon": "clock",
+      "title": "Työtunnit ja tuntihinnat",
+      "desc": "Kerro korjaamosi vakiotuntihinta työhön tarvituilla tunneilla. Näytä korjauksiin käytetty tarkka aika perustellaksesi työveloituksesi."
+    },
+    {
+      "icon": "inventory",
+      "title": "Selkeä osaluettelo",
+      "desc": "Lisää oma rivi jokaiselle suodattimelle, hihnalle tai jarrupalalle. Lisää valmistajan osanumerot, niin asiakas tietää tarkalleen, mitä autoon asennettiin."
+    },
+    {
+      "icon": "calc",
+      "title": "Vianmääritysmaksun hyvitys",
+      "desc": "Lisää helposti rivi, joka hyvittää alkuperäisen vianmääritysmaksun lopullisesta korjauslaskusta, kun asiakas hyväksyy koko työn."
+    },
+    {
+      "icon": "quote",
+      "title": "Kustannusarvioista laskuiksi",
+      "desc": "Lähetä ensin yksityiskohtainen kustannusarvio ehdotetusta työstä. Kun asiakas hyväksyy korjauksen, muuta juuri tuo arvio lopulliseksi laskuksi heti."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Lähetä WhatsAppilla",
+      "desc": "Jaa valmis lasku suoraan asiakkaasi puhelimeen yksinkertaisella linkillä. Hän näkee osien ja työn erittelyn heti."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Laskun olennaiset tiedot",
+      "title": "Mitä autokorjaamon laskussa on oltava",
+      "body": "Tavallinen laskupohja ei toimi korjaamossa, koska siinä ei ole tilaa ajoneuvon tiedoille. Sinun on kirjattava ajoneuvon rekisterinumero, merkki, malli ja nykyinen mittarilukema jokaiseen tositteeseen. Tämä suojaa sinua kiistoilta ja auttaa rakentamaan luotettavan huoltohistorian. Laskurivien on erotettava osat ja työ tiukasti. Listaa jokainen osa tarkalla osanumerolla ja yksikköhinnalla. Työstä näytä tehdyt tunnit kerrottuna korjaamon vakiotuntihinnalla. Jos veloitat ympäristömaksun öljyn hävityksestä, listaa se omana rivinään sen sijaan, että piilottaisit sen työkuluihin.",
+      "items": [
+        "Ajoneuvon rekisterinumero ja nykyinen mittarilukema",
+        "Valmistajan osanumerot kaikille vaihto-osille",
+        "Työtunnit kerrottuna korjaamon tuntihinnalla",
+        "Omat rivit jätteiden hävitysmaksuille"
+      ]
+    },
+    {
+      "eyebrow": "Hinnoittelu ja laskutus",
+      "title": "Miten autokorjaukset yleensä laskutetaan",
+      "body": "Mekaanikot aloittavat työn harvoin ilman hyväksyntää. Tavallinen järjestys alkaa vianmäärityksestä. Veloitat kiinteän vianmääritysmaksun vian löytämisestä ja annat sitten yksityiskohtaisen kustannusarvion koko korjauksesta. Kun asiakas hyväksyy työn, jatkat. Monet korjaamot hyvittävät alkuperäisen vianmääritysmaksun lopullisesta laskusta kohteliaisuutena. Voit hoitaa koko tämän työnkulun ilmaisella laskugeneraattorillamme osoitteessa /tools/free-invoice-generator ilman tiliä. Laadi kustannusarvio, odota, että asiakas hyväksyy osat ja työn, ja luo sitten lopullinen lasku, jossa vianmääritysmaksun hyvitys on negatiivisena rivinä.",
+      "items": [
+        "Aloita kiinteällä vianmääritysmaksulla",
+        "Anna täysi kustannusarvio ennen korjausten aloittamista",
+        "Odota asiakkaan nimenomaista hyväksyntää",
+        "Hyvitä vianmääritysmaksu lopullisessa laskussa"
+      ]
+    },
+    {
+      "eyebrow": "Maksu ja ehdot",
+      "title": "Näin saat maksun korjaamopalveluistasi",
+      "body": "Autokorjaamo on vahvasti riippuvainen kassavirrasta kalliiden osien kattamiseksi. Suurissa töissä, kuten moottorin kunnostuksessa tai vaihteiston vaihdossa, pyydä ennakkomaksu osien kustannusten kattamiseksi. Loppusumma erääntyy yleensä, kun ajoneuvo noudetaan. Laskusi ehdoissa on todettava selvästi, että autoa ei luovuteta ennen kuin lasku on maksettu. Jos asiakas jättää ajoneuvonsa korjaamollesi päiviksi korjauksen valmistumisen jälkeen, saatat joutua veloittamaan myös päivittäisiä säilytysmaksuja. Varmista, että maksuehtosi kertovat nämä säilytysehdot selvästi ennen työn aloittamista.",
+      "items": [
+        "Pyydä ennakkomaksu kalliista vaihto-osista",
+        "Vaadi täysi maksu ennen ajoneuvon luovutusta",
+        "Sisällytä päivittäiset säilytysmaksut ehtoihisi",
+        "Ilmoita hyväksytyt maksutavat tositteessa"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Miten listaan työveloitukset mekaanikon laskuun?",
+      "a": "Erota työ osista kokonaan. Luo korjaustehtävälle oma rivi. Merkitse korjaamosi vakiotuntihinta yksikköhinnaksi ja työhön kuluneet tunnit määräksi. Näin asiakas näkee tarkalleen, miten laskit lopullisen hinnan, mikä vähentää kiistoja loppusummasta."
+    },
+    {
+      "q": "Pitäisikö korjauslaskuihin lisätä valmistenumero (VIN)?",
+      "a": "Valmistenumeron lisääminen on hyvä käytäntö, vaikka rekisterinumero ja mittarilukema yleensä riittävät tavallisissa korjauksissa. VIN-tunnuksen kirjaaminen auttaa, jos sinun on tilattava hyvin tarkkoja merkkiliikkeen osia tai ylläpidät virallista huoltohistoriaa takuuta varten. Se myös varmistaa, ettei ole epäselvyyttä siitä, mikä ajoneuvo huollettiin."
+    },
+    {
+      "q": "Miten käsittelen vianmääritysmaksut, jos asiakas kieltäytyy korjauksesta?",
+      "a": "Jos asiakas päättää olla jatkamatta koko korjausta vian löytymisen jälkeen, laskutat häneltä pelkän vianmääritysmaksun. Hyvität maksun vain, jos hän hyväksyy koko työn. Varmista, että alkuperäisessä kustannusarviossasi todetaan selvästi, että vianmääritysmaksu peritään lopullisesta päätöksestä riippumatta."
+    },
+    {
+      "q": "Voinko käyttää tätä pohjaa korikorjaamon töihin?",
+      "a": "Kyllä, korikorjaamot voivat käyttää samaa laskutusrakennetta. Sinun on edelleen listattava osat, kuten paneelit tai kiinnikkeet, osanumeroineen ja laskettava oikaisu- tai maalaustyö tuntihintasi perusteella. Voit myös lisätä omat rivit maalimateriaaleille ja kirkkaille lakoille erotettuina fyysisistä vaihto-osista."
+    }
+  ],
+  "related": [
+    "/invoicing/estimates",
+    "/tools/free-invoice-generator",
+    "/tools/free-quotation-generator",
+    "/invoicing/invoices"
+  ],
+  "ctaTitle": "Laadi autokorjaamosi lasku jo tänään",
+  "ctaSub": "Laadi yksityiskohtaiset kustannusarviot, listaa osat ja työ selkeästi ja muuta ne lopullisiksi laskuiksi heti ilmaisilla työkaluillamme mekaanikoille ja korjaamoille."
+}

@@ -1,0 +1,45 @@
+{
+  "locale": "fi",
+  "slug": "paperandpen-vs-odoo",
+  "order": 3,
+  "competitor": "Odoo",
+  "title": "Paper & Pen vai Odoo",
+  "metaTitle": "Paper & Pen vai Odoo · Yksinkertaisempi ilmainen ERP-vaihtoehto",
+  "metaDescription": "Vertaa Paper & Peniä ja Odoota hinnan, ilmaisen paketin, arabian RTL-tuen, käyttöönoton nopeuden ja GCC-maiden ALV:n osalta. Yksinkertaisempi, ilmainen, arabia edellä tehty vaihtoehto Odoolle.",
+  "keywords": "paper and pen vai odoo, odoo-vaihtoehto, ilmainen odoo-vaihtoehto, yksinkertainen erp, arabiankielinen erp-ohjelma, odoo hinnoittelu gcc",
+  "heroEyebrow": "Vertailu",
+  "heroTitle": "Paper & Pen vai <em class=\"text-copper-400 not-italic\">Odoo</em>",
+  "heroSubtitle": "Odoo on tehokas, modulaarinen ERP, joka taipuu lähes mihin tahansa. Paper & Pen on yksinkertaisempi, ilmainen ja arabia edellä tehty polku: laskutus ilmaiseksi ikuisesti, moduulit kun tarvitset niitä, käytössä minuuteissa. Rehellinen vertailu.",
+  "heroBullets": ["Myynti ja laskutus ilmaiseksi ikuisesti", "Käytössä minuuteissa, ei käyttöönottoprojektia", "Arabia edellä, Lahden alueen valuutat valmiina"],
+  "features": [
+    { "icon": "bolt", "title": "Käytössä minuuteissa", "desc": "Ei kumppania, ei käyttöönottovaihetta. Rekisteröidy, aseta vero ja valuutta ja lähetä lasku jo tänään." },
+    { "icon": "check", "title": "Ilmainen ydin", "desc": "Myynti ja laskutus ovat ilmaisia ikuisesti. Maksa vain niistä moduuleista, jotka todella otat käyttöön." },
+    { "icon": "globe", "title": "Arabia edellä", "desc": "Täysi oikealta vasemmalle kirjoitettava arabiankielinen käyttöliittymä ja tositteet sekä viisi käyttöliittymäkieltä valmiina." }
+  ],
+  "sections": [
+    { "eyebrow": "Rehellinen näkemys", "title": "Missä Odoo on vahva", "body": "Odoo on aidosti tehokas. Kymmenien sovellusten, syvän muokattavuuden ja vahvan kehittäjäekosysteemin ansiosta sillä voi mallintaa hyvin monimutkaisia yrityksiä tuotannon reitityksistä verkkokauppaan ja kenttähuoltoon. Jos sinulla on budjetti, käyttöönottokumppani ja räätälöidyt prosessit, Odoon voi muokata sopimaan lähes mihin tahansa.", "items": ["Valtava moduuli- ja sovellusvalikoima", "Syvä muokattavuus ja kehittäjäekosysteemi", "Skaalautuu hyvin monimutkaiseen toimintaan"] },
+    { "eyebrow": "Missä me voitamme", "title": "Yksinkertaisuus, hinta ja nopea hyöty", "body": "Useimmat yritykset eivät tarvitse käyttöönottoprojektia lähettääkseen laskun. Paper & Pen on ilmainen aloittaa, arabia edellä tehty ja valmis minuuteissa: GCC-maiden säädettävä ALV, OMR, AED ja SAR sekä Paymob-maksut ovat valmiiksi asetettuina. Lisäät Varastonhallinnan, HR:n tai Tuotannon vasta, kun kasvat niihin, joten et koskaan maksa monimutkaisuudesta, jota et käytä.", "items": ["Ei käyttöönottokustannuksia alkuun", "GCC-maiden ALV ja Lahden alueen valuutat valmiina", "Lisää moduuleja vasta kasvaessasi"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Odoo"],
+  "matrix": [
+    { "feature": "Ikuisesti ilmainen paketti", "values": [true, "Yhden sovelluksen ilmaistaso"] },
+    { "feature": "Aloitushinta", "values": ["Ilmainen", "Maksullinen käyttäjäkohtaisesti"] },
+    { "feature": "Käyttöönoton työmäärä", "values": ["Minuutteja", "Käyttöönottoprojekti"] },
+    { "feature": "Arabian RTL-käyttöliittymä", "values": [true, "Osittainen"] },
+    { "feature": "Monivaluuttaisuus", "values": [true, true] },
+    { "feature": "Paikalliset maksut (Paymob)", "values": [true, "Määrityksen kautta"] },
+    { "feature": "GCC-maiden säädettävä ALV-esiasetus", "values": [true, "Määritettävissä"] },
+    { "feature": "Täydet ERP-moduulit", "values": ["Modulaariset lisäosat", true] },
+    { "feature": "Sopii parhaiten", "values": ["Pk-yrityksille, jotka haluavat yksinkertaista ja ilmaista", "Monimutkaiseen, räätälöityyn toimintaan"] }
+  ],
+  "faqs": [
+    { "q": "Onko Paper & Pen hyvä vaihtoehto Odoolle?", "a": "Kyllä, pienille ja keskisuurille yrityksille, jotka haluavat aloittaa ilmaiseksi, päästä käyttöön nopeasti ja työskennellä arabiaksi. Odoo on edelleen vahvempi valinta hyvin monimutkaiseen, voimakkaasti räätälöityyn toimintaan, jolla on käyttöönottobudjetti." },
+    { "q": "Onko Paper & Pen edullisempi kuin Odoo?", "a": "Lähtötaso on ilmainen rajattomalle laskutukselle, ilman käyttäjäkohtaista maksua ja ilman käyttöönottokustannuksia. Maksat vain valinnaisista moduuleista, jotka otat käyttöön." },
+    { "q": "Kauanko käyttöönotto kestää verrattuna Odoohon?", "a": "Minuutteja. Rekisteröidyt, asetat valuutan ja veron ja lähetät laskun samana päivänä ilman kumppania tai käyttöönottovaihetta." },
+    { "q": "Onko Paper & Penissä varasto ja tuotanto kuten Odoossa?", "a": "Kyllä, valinnaisina moduuleina. Voit lisätä Varastonhallinnan, HR:n, Kirjanpidon ja Tuotannon, kun kasvat niihin, sen sijaan että maksaisit kaikesta etukäteen." },
+    { "q": "Onko arabiankielinen kokemus parempi?", "a": "Paper & Pen on tehty arabia edellä, ja siinä on täysi oikealta vasemmalle kirjoitettava käyttöliittymä ja arabiankieliset tositteet, kun taas Odoon arabian tuki on osittainen ja riippuu usein määrityksistä." }
+  ],
+  "related": ["/compare/paperandpen-vs-tally", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Ohita käyttöönottoprojekti",
+  "ctaSub": "Aloita ilmaiseksi Paper & Penillä, lähetä lasku jo tänään ja lisää moduuleja vasta, kun tarvitset niitä."
+}

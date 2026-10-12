@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Toistuvat laskut",
+  "metaTitle": "Toistuvat laskut · Automatisoi laskutus ilmaiseksi · Paper & Pen",
+  "metaDescription": "Ota toistuvat laskut käyttöön verkossa ilmaiseksi millä tahansa valuutalla. Laskuta tilaukset ja kuukausisopimukset automaattisesti WhatsAppilla tai sähköpostilla.",
+  "keywords": "toistuva lasku, automaattinen lasku, tilauslaskutus, kuukausisopimuksen lasku, jatkuva laskutus, automaattilaskutus, ajastettu lasku",
+  "heroEyebrow": "Toistuvat laskut",
+  "heroTitle": "Laskuta tilaukset ja kuukausisopimukset <em class=\"text-copper-400 not-italic\">autopilotilla</em>",
+  "heroSubtitle": "Aseta summa, valuutta ja aikataulu kerran, niin Paper & Pen laatii ja lähettää jokaisen laskun automaattisesti. Peri maksut verkossa samassa jaksossa. Ilmainen ikuisesti.",
+  "heroBullets": ["Ilmainen ikuisesti", "Aseta kerran, laskuttaa aina", "Automaattinen perintä verkossa"],
+  "features": [
+    { "icon": "refresh", "title": "Aseta ja unohda", "desc": "Määritä aikataulu kerran, niin laskut syntyvät ja lähtevät itsestään ajallaan." },
+    { "icon": "clock", "title": "Mikä tahansa tiheys", "desc": "Viikoittain, kuukausittain, neljännesvuosittain tai vuosittain, aloituspäivällä ja valinnaisella päättymispäivällä." },
+    { "icon": "card", "title": "Automaattinen perintä", "desc": "Lähetä jokainen lasku verkkomaksulinkin kanssa tai veloita automaattisesti joka jaksolla." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Laskuta USD-, EUR-, AED-, SAR-, OMR-, INR-valuutassa ja muissa oikealla verolla ja desimaaleilla." },
+    { "icon": "whatsapp", "title": "Lähetä minne vain", "desc": "Jokainen toistuva lasku lähtee automaattisesti WhatsAppilla tai sähköpostilla." },
+    { "icon": "bell", "title": "Muistutukset mukana", "desc": "Automaattiset maksumuistutukset perivät jokaista maksamatonta toistuvaa laskua." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on toistuva lasku", "title": "Mikä toistuva lasku on?", "body": "Toistuva lasku on lasku, joka laaditaan automaattisesti määräaikataulussa samalle asiakkaalle samalla summalla. Sitä käytetään tilauksissa, kuukausisopimuksissa, jäsenyyksissä, vuokrissa ja huoltosopimuksissa. Sen sijaan, että loisit laskun joka jaksolla uudelleen, määrität sen kerran, ja järjestelmä luo, numeroi ja lähettää sen jokaisena eräpäivänä. Tulot pysyvät ennustettavina ja hallintotyö nollassa." },
+    { "eyebrow": "Näin se toimii", "title": "Määritä kerran, toimii aina", "body": "Paper & Pen hoitaa koko jakson, joten toistuvat tulot kertyvät itsestään.", "items": ["Luo toistuva pohja tuotteilla, valuutalla ja verolla", "Valitse tiheys, aloituspäivä ja valinnainen päättymispäivä", "Joka jaksolla lasku luodaan ja lähetetään automaattisesti", "Asiakkaat maksavat verkossa, ja maksut täsmäytyvät itsestään", "Muistutukset perivät jokaista maksamatonta toistuvaa laskua automaattisesti"] },
+    { "eyebrow": "Kenelle se sopii", "title": "Täydellinen ennustettaviin tuloihin", "body": "Toistuvat laskut sopivat jokaiselle yritykselle, jolla on toistuvaa laskutusta: SaaS ja tilaukset, kuukausisopimuksella toimivat toimistot, kuntosalit ja jäsenyydet, kiinteistöjen vuokrat, IT- ja laitehuoltosopimukset sekä hallinnoidut palvelut. Aseta aikataulu kerran, niin toistuvat tulosi laskutetaan, lähetetään ja peritään ilman, että kenenkään tarvitsee koskea niihin joka kuukausi." }
+  ],
+  "faqs": [
+    { "q": "Mikä on toistuva lasku?", "a": "Lasku, joka laaditaan automaattisesti määräaikataulussa samalle asiakkaalle samalla summalla. Sitä käytetään tilauksissa, kuukausisopimuksissa, vuokrissa ja huoltosopimuksissa." },
+    { "q": "Onko toistuva laskutus ilmaista?", "a": "Kyllä. Toistuvien laskujen käyttöönotto ja ajaminen on Paper & Penissä ilmaista ikuisesti." },
+    { "q": "Mitä tiheyksiä tuetaan?", "a": "Viikoittain, kuukausittain, neljännesvuosittain tai vuosittain, aloituspäivällä ja valinnaisella päättymispäivällä, jotta sarja päättyy haluamanasi hetkenä." },
+    { "q": "Voiko asiakkaita veloittaa automaattisesti?", "a": "Kyllä. Lähetä jokainen lasku verkkomaksulinkin kanssa tai ota käyttöön automaattinen perintä, jolloin tallennettua maksutapaa veloitetaan joka jaksolla." },
+    { "q": "Entä jos toistuvaa laskua ei makseta?", "a": "Automaattiset maksumuistutukset perivät jokaista maksamatonta toistuvaa laskua, kunnes se on maksettu, ilman käsin tehtävää seurantaa." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Laita toistuvat tulot autopilotille",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila, ota toistuva lasku käyttöön kerran ja anna sen laskuttaa, lähettää ja periä aikataulussa."
+}

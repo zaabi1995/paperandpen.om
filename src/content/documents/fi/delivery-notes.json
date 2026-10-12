@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Lähetteet",
+  "metaTitle": "Lähetteiden tekijä · Paper & Pen",
+  "metaDescription": "Laadi ammattimaisia lähetteitä verkossa ilmaiseksi. Listaa toimitetut tavarat, tallenna toimitusvahvistus ja muuta lähete laskuksi yhdellä klikkauksella.",
+  "keywords": "lähete, toimituslähete, lähetteen tekeminen, pakkauslista, toimitusvahvistus, lähetteiden tekijä, tavaran lähetysluettelo",
+  "heroEyebrow": "Lähetteet",
+  "heroTitle": "Toimita joka kerta selkeän <em class=\"text-copper-400 not-italic\">lähetteen</em> kanssa",
+  "heroSubtitle": "Listaa toimittamasi tavarat, tallenna toimitusvahvistus vastaanotettaessa ja muuta lähete laskuksi yhdellä klikkauksella. Toimii kaikkialla.",
+  "heroBullets": ["Ilmainen ikuisesti", "Toimitusvahvistus", "Muuta laskuksi"],
+  "features": [
+    { "icon": "truck", "title": "Tavaran lähetystosite", "desc": "Listaa toimitetut tuotteet ja määrät hintojen kanssa tai ilman siistille, brändätylle lähetteelle." },
+    { "icon": "check", "title": "Toimitusvahvistus", "desc": "Tallenna, kuka tavarat vastaanotti ja milloin, niin toimituksista ei synny kiistoja." },
+    { "icon": "refresh", "title": "Muuta laskuksi", "desc": "Muuta lähete laskuksi yhdellä klikkauksella, kun tavarat on vastaanotettu." },
+    { "icon": "inventory", "title": "Linkitetty varastoon", "desc": "Varastonhallinta-moduulin kanssa lähete voi vähentää varastoa automaattisesti." },
+    { "icon": "globe", "title": "Toimii kaikkialla", "desc": "Käytössä maailmanlaajuisesti lähetteenä tai toimituslähetteenä, omalla kielelläsi ja valuutallasi." },
+    { "icon": "whatsapp", "title": "Lähetä minne vain", "desc": "Jaa lähete WhatsAppilla tai sähköpostilla, niin asiakkaalla on tosite tallessa." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on lähete", "title": "Mikä lähete on?", "body": "Lähete (myös toimituslähete tai pakkauslista) on tosite, joka kulkee tavaralähetyksen mukana ja listaa, mitä toimitetaan. Vastaanottaja tarkistaa tavarat sitä vasten ja vahvistaa vastaanoton allekirjoituksellaan. Se todistaa, että tavarat lähtivät tiloistasi ja saapuivat asiakkaalle, ja se on silta myyntitilauksen ja sitä seuraavan laskun välillä." },
+    { "eyebrow": "Näin se toimii", "title": "Lähetä, vahvista, laskuta", "body": "Paper & Pen yhdistää lähetteen myyntitilaukseesi ja laskuusi, joten toimitus ja laskutus pysyvät tahdissa.", "items": ["Luo lähete myyntitilauksesta tai tyhjästä", "Valitse, näytetäänkö hinnat vai vain määrät", "Lähetä tai tulosta se kulkemaan tavaroiden mukana", "Tallenna toimitusvahvistus, kun asiakas allekirjoittaa", "Muuta lähete laskuksi yhdellä klikkauksella"] },
+    { "eyebrow": "Lähete vai lasku", "title": "Lähete vai lasku?", "body": "Lähete kirjaa, mitä fyysisesti siirtyi, ja vahvistaa vastaanoton. Se ei ole maksuvaatimus. Lasku pyytää maksua noista tavaroista. Monet yritykset toimittavat ensin lähetteellä ja laskuttavat sitten sovituin ehdoin. Paper & Pen antaa tehdä juuri niin ja muuttaa vahvistetun toimituksen laskuksi ilman uudelleennäppäilyä." }
+  ],
+  "faqs": [
+    { "q": "Mitä eroa on lähetteellä ja laskulla?", "a": "Lähete listaa ja vahvistaa toimitetut tavarat ilman maksuvaatimusta. Lasku pyytää maksua. Voit muuttaa lähetteen laskuksi yhdellä klikkauksella." },
+    { "q": "Onko lähetteiden tekijä ilmainen?", "a": "Kyllä. Lähetteiden laatiminen, lähettäminen ja seuranta on Paper & Penissä ilmaista ikuisesti." },
+    { "q": "Voiko lähetteestä piilottaa hinnat?", "a": "Kyllä. Valitse, näytetäänkö hinnat vai vain määrät. Tämä on hyödyllistä, kun varaston tai kuriirin ei pidä nähdä hinnoittelua." },
+    { "q": "Tallentaako se toimitusvahvistuksen?", "a": "Kyllä. Kirjaa, kuka tavarat vastaanotti ja milloin, niin toimituksesta ei synny kiistaa myöhemmin." },
+    { "q": "Päivittääkö lähete varastoani?", "a": "Valinnaisen Varastonhallinta-moduulin kanssa lähete voi vähentää varastosaldoja automaattisesti tavaroiden lähtiessä." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Toimita joka kerta todisteen kanssa",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila, lähetä siisti lähete, tallenna toimitusvahvistus ja laskuta yhdellä klikkauksella."
+}

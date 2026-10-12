@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "sales-orders",
+  "order": 9,
+  "title": "Myyntitilaukset",
+  "metaTitle": "Myyntitilausohjelma · Paper & Pen",
+  "metaDescription": "Laadi ammattimaisia myyntitilauksia verkossa ilmaiseksi millä tahansa valuutalla. Vahvista asiakkaan tilaus ja seuraa toimitusta ja talletuksia.",
+  "keywords": "myyntitilaus, myyntitilauksen tekeminen, myyntitilausohjelma, ilmainen myyntitilaus, asiakastilaus, tilausten hallinta, myyntitilauksesta lasku",
+  "heroEyebrow": "Myyntitilaukset",
+  "heroTitle": "Vahvista ja toimita asiakastilaukset <em class=\"text-copper-400 not-italic\">myyntitilauksella</em>",
+  "heroSubtitle": "Lukitse se, mistä asiakas sopi, seuraa talletuksia ja toimitusta ja muuta lähetteeksi tai laskuksi yhdellä klikkauksella. Millä tahansa valuutalla, missä tahansa.",
+  "heroBullets": ["Ilmainen ikuisesti", "Seuraa talletuksia ja toimitusta", "Muuta lähetteeksi tai laskuksi"],
+  "features": [
+    { "icon": "cart", "title": "Vahvistettu tilaustieto", "desc": "Numeroitu myyntitilaus, joka tallentaa tarkalleen sen, mitä asiakas sopi ostavansa." },
+    { "icon": "card", "title": "Talletukset", "desc": "Peri talletus tilausta vasten ja seuraa avointa saldoa." },
+    { "icon": "truck", "title": "Toimituksen seuranta", "desc": "Näe jokaisen tilauksen kohdalla, mikä on odottamassa, osittain toimitettu ja valmis." },
+    { "icon": "refresh", "title": "Muunnos yhdellä klikkauksella", "desc": "Muuta myyntitilaus lähetteeksi tai laskuksi ilman uudelleennäppäilyä." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Tilaa USD-, EUR-, AED-, SAR-, OMR-, INR-valuutassa ja muissa oikealla verolla ja desimaaleilla." },
+    { "icon": "whatsapp", "title": "Lähetä minne vain", "desc": "Jaa tilausvahvistus WhatsAppilla tai sähköpostilla, niin asiakkaalla on se tallessa." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on myyntitilaus", "title": "Mikä myyntitilaus on?", "body": "Myyntitilaus on myyjän laatima tosite, joka vahvistaa asiakkaan tilauksen sen jälkeen, kun tarjous on hyväksytty. Siihen kirjataan sovitut tuotteet, määrät, hinnat, verot ja toimitusehdot, ja siitä tulee sisäinen ohje tilauksen toimittamiseen ja sitten laskuttamiseen. Se sijoittuu tarjouksen ja laskun väliin ja antaa siistin tiedon siitä, mitä luvattiin ennen kuin mitään lähetetään." },
+    { "eyebrow": "Näin se toimii", "title": "Vahvista, toimita, laskuta", "body": "Paper & Pen yhdistää myyntitilauksen koko prosessiin, joten hyväksytystä tarjouksesta tulee toimitettu ja laskutettu tilaus ilman uudelleennäppäilyä.", "items": ["Muuta hyväksytty tarjous myyntitilaukseksi tai luo tilaus suoraan", "Peri talletus ja seuraa saldoa", "Toimita tilaus lähetteellä", "Muuta laskuksi yhdellä klikkauksella", "Näe tilauksen tila: odottaa, osittain toimitettu, valmis, laskutettu"] },
+    { "eyebrow": "Koko ketju", "title": "Tarjouksesta maksuun, yhdessä", "body": "Tarjous, myyntitilaus, lähete, lasku, maksu ja tarvittaessa hyvityslasku. Paper & Pen linkittää jokaisen vaiheen, joten jokainen tosite siirtyy seuraavaan, summat täsmäävät aina ja kirjanpitosi päivittyy tilauksen edetessä. Mitään ei näppäillä kahdesti eikä mikään putoa väliin." }
+  ],
+  "faqs": [
+    { "q": "Mitä eroa on myyntitilauksella ja laskulla?", "a": "Myyntitilaus vahvistaa, mitä asiakas sopi ostavansa, ja on ohje sen toimittamiseen. Lasku pyytää maksua, kun tavarat tai palvelut on toimitettu. Muutat toisen toiseksi yhdellä klikkauksella." },
+    { "q": "Onko myyntitilausohjelma ilmainen?", "a": "Kyllä. Myyntitilausten laatiminen, seuranta ja toimittaminen on Paper & Penissä ilmaista ikuisesti." },
+    { "q": "Voinko ottaa talletuksen myyntitilaukselle?", "a": "Kyllä. Peri talletus tilausta vasten ja seuraa avointa saldoa, kunnes se on laskutettu ja maksettu." },
+    { "q": "Voinko muuttaa tarjouksen myyntitilaukseksi?", "a": "Kyllä. Hyväksytty tarjous muuttuu myyntitilaukseksi yhdellä klikkauksella, ja jokainen rivi, alennus ja vero siirtyvät mukana." },
+    { "q": "Miten toimitan myyntitilauksen?", "a": "Luo myyntitilauksesta lähete tavaroiden toimittamista varten ja muuta se sitten laskuksi. Toimituksen tila päivittyy samalla." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/delivery-notes", "/invoicing/invoices", "/features/sales-crm", "/free-invoicing-software"],
+  "ctaTitle": "Hoida tarjouksesta maksuun yhdessä paikassa",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila ja muuta hyväksytyt tarjoukset toimitetuiksi ja laskutetuiksi myyntitilauksiksi ilman uudelleennäppäilyä."
+}

@@ -23,7 +23,7 @@
     {
       "label": "Yleinen ALV-kanta",
       "value": "15%",
-      "note": "Saudi-Arabia on Persianlahden poikkeus: muissa ALV:n käyttöön ottaneissa valtioissa kanta on 5 % tai 10 %. Kun yleistä verokantaa sovelletaan, verollisesta myynnistä peritään 15 %.",
+      "note": "Saudi-Arabia on Lahden poikkeus: muissa ALV:n käyttöön ottaneissa valtioissa kanta on 5 % tai 10 %. Kun yleistä verokantaa sovelletaan, verollisesta myynnistä peritään 15 %.",
       "source": 1
     },
     {
@@ -71,7 +71,7 @@
   },
   "einvoicing": {
     "status": "Pakollinen ja käytössä, otetaan käyttöön aalloittain",
-    "body": "Saudi-Arabian verkkolaskutusjärjestelmä on Persianlahden edistynein, ja muut mallintavat omansa sen mukaan. Vaihe 1, luontivaihe (Generation Phase), on koskenut kaikkia kotimaisia verovelvollisia 4. joulukuuta 2021 alkaen: laskut on annettava sähköisesti rakenteisessa muodossa. Vaihe 2, integraatiovaihe (Integration Phase), alkoi 1. tammikuuta 2023, ja se otetaan käyttöön aalloittain verovelvollisten koon mukaan niin, että ZATCA ilmoittaa kullekin ryhmälle vähintään kuusi kuukautta ennen sen integraatiopäivää. Vaiheessa 2 sähköisessä laskussa on enemmän kuin 53 artiklan sisältö: siinä tarvitaan myös UUID, edellisen laskun tiiviste, QR-koodi, kryptografinen leima ja peukaloinnin estävä laskuri. ZATCA ilmoittaa, mihin aaltoon kuulut, joten tarkista asia sen verkkolaskutussivuilta äläkä oleta.",
+    "body": "Saudi-Arabian verkkolaskutusjärjestelmä on Lahden edistynein, ja muut mallintavat omansa sen mukaan. Vaihe 1, luontivaihe (Generation Phase), on koskenut kaikkia kotimaisia verovelvollisia 4. joulukuuta 2021 alkaen: laskut on annettava sähköisesti rakenteisessa muodossa. Vaihe 2, integraatiovaihe (Integration Phase), alkoi 1. tammikuuta 2023, ja se otetaan käyttöön aalloittain verovelvollisten koon mukaan niin, että ZATCA ilmoittaa kullekin ryhmälle vähintään kuusi kuukautta ennen sen integraatiopäivää. Vaiheessa 2 sähköisessä laskussa on enemmän kuin 53 artiklan sisältö: siinä tarvitaan myös UUID, edellisen laskun tiiviste, QR-koodi, kryptografinen leima ja peukaloinnin estävä laskuri. ZATCA ilmoittaa, mihin aaltoon kuulut, joten tarkista asia sen verkkolaskutussivuilta äläkä oleta.",
     "source": 3
   },
   "sections": [
@@ -101,7 +101,7 @@
   "faqs": [
     {
       "q": "Mikä on ALV-kanta Saudi-Arabiassa?",
-      "a": "Viisitoista prosenttia on yleinen verokanta. Se on Persianlahden korkein, ja yleinen virhe on olettaa, että Persianlahden mailla on yksi yhteinen kanta: Omanissa ja Arabiemiirikunnissa kanta on 5 %, Bahrainissa 10 %, eivätkä Qatar ja Kuwait ole ottaneet ALV:tä käyttöön lainkaan. Jos myyt koko alueelle, et voi soveltaa yhtä kantaa kaikkeen."
+      "a": "Viisitoista prosenttia on yleinen verokanta. Se on Lahden korkein, ja yleinen virhe on olettaa, että Lahden mailla on yksi yhteinen kanta: Omanissa ja Arabiemiirikunnissa kanta on 5 %, Bahrainissa 10 %, eivätkä Qatar ja Kuwait ole ottaneet ALV:tä käyttöön lainkaan. Jos myyt koko alueelle, et voi soveltaa yhtä kantaa kaikkeen."
     },
     {
       "q": "Mikä on Fatoora?",

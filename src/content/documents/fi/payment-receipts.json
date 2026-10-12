@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "payment-receipts",
+  "order": 10,
+  "title": "Maksukuitit",
+  "metaTitle": "Maksukuittien tekijä · Laadi kuitit ilmaiseksi · Paper & Pen",
+  "metaDescription": "Laadi ammattimaisia maksukuitteja verkossa ilmaiseksi millä tahansa valuutalla. Vahvista laskulle saatu maksu ja lähetä kuitti WhatsAppilla tai sähköpostilla.",
+  "keywords": "maksukuitti, kuitin tekeminen, kuittien tekijä, ilmainen kuitti, käteiskuitti, rahakuitti, maksuvahvistus, kuittigeneraattori",
+  "heroEyebrow": "Maksukuitit",
+  "heroTitle": "Vahvista saatu maksu siistillä <em class=\"text-copper-400 not-italic\">maksukuitilla</em>",
+  "heroSubtitle": "Laadi ammattimainen kuitti heti, kun maksu saapuu, linkitä se laskuun ja lähetä WhatsAppilla tai sähköpostilla. Millä tahansa valuutalla.",
+  "heroBullets": ["Ilmainen ikuisesti", "Linkitetty laskuun", "Lähetä WhatsAppilla tai sähköpostilla"],
+  "features": [
+    { "icon": "receipt", "title": "Brändätyt kuitit", "desc": "Laadi selkeä, numeroitu kuitti logollasi jokaisesta saadusta maksusta." },
+    { "icon": "invoice", "title": "Linkitetty laskuun", "desc": "Jokainen kuitti kirjautuu laskulle ja päivittää saldon automaattisesti." },
+    { "icon": "card", "title": "Mikä tahansa maksutapa", "desc": "Kirjaa käteis-, kortti-, tilisiirto-, shekki- tai verkkomaksu, ja maksutapa näkyy kuitissa." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Laadi kuitti USD-, EUR-, AED-, SAR-, OMR-, INR-valuutassa ja muissa oikeilla desimaaleilla." },
+    { "icon": "whatsapp", "title": "Lähetä minne vain", "desc": "Jaa kuitti WhatsAppilla tai sähköpostilla, niin asiakas saa vahvistuksen heti." },
+    { "icon": "shield", "title": "Siistit tiedot", "desc": "Jokainen kuitti tallentuu, joten maksujen täsmäyttäminen laskuihin on vaivatonta." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on maksukuitti", "title": "Mikä maksukuitti on?", "body": "Maksukuitti on myyjän laatima tosite, joka vahvistaa, että laskulle tai myynnille on saatu maksu. Siinä ilmoitetaan maksettu summa, päivämäärä, maksutapa ja lasku, jota maksu koskee. Toisin kuin lasku, joka pyytää maksua, kuitti kuittaa maksun tehdyksi. Asiakas saa todisteen ja sinä siistin tiedon." },
+    { "eyebrow": "Näin se toimii", "title": "Vastaanota, kuittaa, täsmäytä", "body": "Paper & Pen laatii kuitit automaattisesti, kun maksut kirjataan, joten laskusi ja kirjanpitosi pysyvät tahdissa.", "items": ["Kirjaa maksu laskulle kokonaan tai osittain", "Kuitti luodaan summan, päivämäärän ja maksutavan kanssa", "Laskun saldo ja tila päivittyvät automaattisesti", "Lähetä kuitti WhatsAppilla tai sähköpostilla heti", "Verkkomaksut kirjautuvat ja täsmäytyvät itsestään"] },
+    { "eyebrow": "Kuitti vai lasku", "title": "Kuitti vai lasku?", "body": "Lasku on maksupyyntö, joka lähetetään ennen kuin rahaa siirtyy. Kuitti on maksun vahvistus, joka annetaan sen jälkeen. Yhdellä laskulla voi olla useita kuitteja, jos asiakas maksaa erissä. Paper & Pen seuraa jokaista maksua laskua vasten ja laatii kuitin joka kerta, joten osamaksut eivät koskaan katoa." }
+  ],
+  "faqs": [
+    { "q": "Mitä eroa on kuitilla ja laskulla?", "a": "Lasku pyytää maksua ennen kuin raha maksetaan. Kuitti vahvistaa maksun sen saapumisen jälkeen. Yhdellä laskulla voi olla useita kuitteja erissä maksettaessa." },
+    { "q": "Onko kuittien tekijä ilmainen?", "a": "Kyllä. Maksukuittien laatiminen, lähettäminen ja seuranta on Paper & Penissä ilmaista ikuisesti." },
+    { "q": "Voinko laatia kuitin osamaksusta?", "a": "Kyllä. Kirjaa mikä tahansa summa laskulle, niin maksusta laaditaan kuitti ja jäljellä olevaa saldoa seurataan automaattisesti." },
+    { "q": "Luoko verkkomaksu kuitin?", "a": "Kyllä. Kun asiakas maksaa verkossa, maksu kirjautuu laskulle ja kuitti luodaan ja voidaan lähettää automaattisesti." },
+    { "q": "Voinko lähettää kuitin WhatsAppilla?", "a": "Kyllä. Jaa kuitti linkkinä tai PDF:nä WhatsAppilla tai sähköpostilla, niin asiakas saa heti todisteen maksusta." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/credit-notes", "/features/payments", "/tools/free-receipt-generator", "/free-invoicing-software"],
+  "ctaTitle": "Lähetä kuitti heti, kun saat maksun",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila ja vahvista jokainen maksu siistillä, ammattimaisella kuitilla."
+}

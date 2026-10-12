@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Reskontrat",
+  "metaTitle": "Reskontrat ja tiliotteet · Paper & Pen",
+  "metaDescription": "Näe asiakas- ja toimittajareskontrat verkossa ilmaiseksi millä tahansa valuutalla. Jokainen lasku, maksu ja hyvityslasku yhdellä juoksevalla tiliotteella.",
+  "keywords": "reskontra, myyntireskontra, ostoreskontra, tiliote, pääkirja, reskontraohjelma, asiakkaan tiliote",
+  "heroEyebrow": "Reskontrat",
+  "heroTitle": "Jokainen tapahtuma yhdellä selkeällä <em class=\"text-copper-400 not-italic\">reskontralla</em>",
+  "heroSubtitle": "Näe juokseva tiliote jokaisesta laskusta, maksusta, hyvityslaskusta ja oikaisusta jokaiselle asiakkaalle ja toimittajalle millä tahansa valuutalla. Jaa tiliote yhdellä napautuksella. Ilmainen ikuisesti.",
+  "heroBullets": ["Ilmainen ikuisesti", "Juoksevat saldot", "Jaa tiliotteet heti"],
+  "features": [
+    { "icon": "chart", "title": "Myyntireskontra", "desc": "Juokseva tiliote asiakaskohtaisesti: laskut, maksut ja hyvityslaskut ajantasaisella saldolla." },
+    { "icon": "accounting", "title": "Ostoreskontra", "desc": "Seuraa ostolaskuja, maksuja ja veloituslaskuja toimittajakohtaisesti, niin tiedät aina, mitä olet velkaa." },
+    { "icon": "doc", "title": "Tiliote", "desc": "Luo ja lähetä tiliote mille tahansa ajanjaksolle yhdellä napautuksella." },
+    { "icon": "shield", "title": "Aina täsmäytetty", "desc": "Reskontrat päivittyvät samoista vienneistä kuin laskusi ja maksusi, joten ne täsmäävät aina." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Näe saldot USD-, EUR-, AED-, SAR-, OMR-, INR-valuutassa ja muissa oikeilla desimaaleilla." },
+    { "icon": "whatsapp", "title": "Jaa minne vain", "desc": "Lähetä tiliote WhatsAppilla tai sähköpostilla, niin asiakkaat voivat maksaa avoimet saldot." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on reskontra", "title": "Mikä reskontra on?", "body": "Reskontra on juokseva tieto kaikista tiliin vaikuttavista tapahtumista, ja saldo siirtyy eteenpäin jokaisen viennin jälkeen. Myyntireskontra näyttää jokaisen laatimasi laskun, jokaisen saadun maksun ja jokaisen hyvityslaskun, ja lopussa on asiakkaan velka. Tiliote on tuo reskontra esitettynä asiakkaalle tietyltä jaksolta. Reskontrat ovat perusta sille, että tiedät, kuka on velkaa mitäkin ja kenelle sinä olet velkaa." },
+    { "eyebrow": "Näin se toimii", "title": "Yksi totuuden lähde", "body": "Paper & Penissä reskontrat eivät ole erillinen taulukko, vaan ne muodostuvat samoista laskuista, maksuista ja hyvityslaskuista, joita jo laadit.", "items": ["Avaa mikä tahansa asiakas tai toimittaja nähdäksesi koko reskontran", "Jokainen lasku, maksu, hyvitys- ja veloituslasku näkyy juoksevan saldon kanssa", "Rajaa ajanjaksolla saadaksesi siistin tiliotteen", "Lähetä tiliote WhatsAppilla tai sähköpostilla yhdellä napautuksella", "Saldot täsmäävät aina laskujesi ja kirjanpitosi kanssa"] },
+    { "eyebrow": "Miksi sillä on väliä", "title": "Peri nopeammin, älä maksa mitään kahdesti", "body": "Kun asiakas kyseenalaistaa saldon, selkeä reskontra päättää keskustelun sekunneissa. Kun sinun pitää periä, tiliote on vakuuttavin yksittäinen tosite, jonka voit lähettää. Ja koska ostoreskontra seuraa, mitä olet velkaa, et koskaan maksa laskua kahdesti etkä ohita veloituslaskua. Yksi täsmäytetty tieto liiketoimintasi molemmille puolille." }
+  ],
+  "faqs": [
+    { "q": "Mikä on myyntireskontra?", "a": "Juokseva tiliote asiakkaan jokaisesta laskusta, maksusta ja hyvityslaskusta, ja lopussa saldo, jonka hän on sinulle tällä hetkellä velkaa." },
+    { "q": "Ovatko reskontrat ilmaisia?", "a": "Kyllä. Myynti- ja ostoreskontrat sekä tiliotteet ovat Paper & Penissä ilmaisia ikuisesti." },
+    { "q": "Voinko lähettää tiliotteen?", "a": "Kyllä. Luo tiliote mille tahansa ajanjaksolle ja lähetä se WhatsAppilla tai sähköpostilla yhdellä napautuksella, niin asiakas voi maksaa." },
+    { "q": "Pysyvätkö reskontrat täsmäytettyinä?", "a": "Kyllä. Reskontrat muodostuvat samoista vienneistä kuin laskusi ja maksusi, joten saldot täsmäävät aina kirjanpitosi kanssa." },
+    { "q": "Näenkö, mitä olen velkaa toimittajille?", "a": "Kyllä. Ostoreskontra seuraa ostolaskuja, maksuja ja veloituslaskuja, joten tiedät aina tarkalleen, mitä kullekin toimittajalle on maksamatta." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Näe heti, kuka on velkaa mitäkin",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila ja saat siistin, täsmäytetyn reskontran jokaiselle asiakkaalle ja toimittajalle."
+}

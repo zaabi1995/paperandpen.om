@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Ostotilaukset",
+  "metaTitle": "Ostotilausohjelma · Paper & Pen",
+  "metaDescription": "Laadi ammattimaisia ostotilauksia verkossa ilmaiseksi millä tahansa valuutalla. Lähetä ostotilaukset toimittajille ja seuraa hyväksyntöjä ja toimituksia.",
+  "keywords": "ostotilaus, ostotilauksen tekeminen, po, ostotilausohjelma, ilmainen ostotilaus, toimittajatilaus, ostotilauksesta ostolasku",
+  "heroEyebrow": "Ostotilaukset",
+  "heroTitle": "Tilaa toimittajilta oikeilla <em class=\"text-copper-400 not-italic\">ostotilauksilla</em>",
+  "heroSubtitle": "Laadi, hyväksy ja lähetä ostotilaukset toimittajille millä tahansa valuutalla ja täsmäytä ne toimituksiin ja ostolaskuihin selkeällä kirjausketjulla. Ilmainen ikuisesti.",
+  "heroBullets": ["Ilmainen ikuisesti", "Hyväksy ennen lähettämistä", "Täsmäytä ostolaskuihin"],
+  "features": [
+    { "icon": "cart", "title": "Brändätyt ostotilaukset", "desc": "Laadi toimittajille selkeitä, numeroituja ostotilauksia ehdoillasi ja toimitustiedoillasi." },
+    { "icon": "check", "title": "Hyväksyntä ennen lähetystä", "desc": "Ohjaa ostotilaukset sisäiseen hyväksyntään, niin mitään ei tilata ilman lupaa." },
+    { "icon": "truck", "title": "Seuraa toimituksia", "desc": "Näe jokaisen ostotilauksen kohdalla, mitä on tilattu, osittain vastaanotettu ja kokonaan toimitettu." },
+    { "icon": "refresh", "title": "Täsmäytä ostolaskuihin", "desc": "Muuta vastaanotettu ostotilaus ostolaskuksi ja tee kolmisuuntainen täsmäytys tarkkuuden takaamiseksi." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Tilaa USD-, EUR-, AED-, SAR-, OMR-, INR-valuutassa ja muissa oikealla verolla ja desimaaleilla." },
+    { "icon": "whatsapp", "title": "Lähetä minne vain", "desc": "Jaa ostotilaus toimittajalle WhatsAppilla tai sähköpostilla yhdellä napautuksella." }
+  ],
+  "sections": [
+    { "eyebrow": "Mikä on ostotilaus", "title": "Mikä ostotilaus on?", "body": "Ostotilaus on tosite, jonka ostaja lähettää toimittajalle pyytääkseen virallisesti tavaroita tai palveluita sovittuun hintaan. Siinä listataan tuotteet, määrät, yksikköhinnat, verot, toimitusehdot ja ostotilausnumero, jonka toimittaja mainitsee laskullaan. Ostotilauksesta tulee sitova sitoumus, kun toimittaja hyväksyy sen, ja se hallitsee menoja vaatimalla hyväksynnän ennen kuin rahaa lähtee." },
+    { "eyebrow": "Näin se toimii", "title": "Laadi, hyväksy, vastaanota, täsmäytä", "body": "Paper & Pen hoitaa koko hankinnasta maksuun -prosessin, joten jokainen tilaus hyväksytään, seurataan ja täsmäytetään.", "items": ["Laadi ostotilaus vähäisen varaston hälytyksestä tai tyhjästä", "Ohjaa se sisäiseen hyväksyntään ennen lähettämistä", "Lähetä toimittajalle WhatsAppilla tai sähköpostilla", "Vastaanota tavarat ostotilausta vasten ja päivitä varasto", "Muuta ostolaskuksi ja täsmäytä ostotilaukseen ja toimitukseen"] },
+    { "eyebrow": "Miksi sillä on väliä", "title": "Hallitse menoja ennen kuin ne syntyvät", "body": "Ostotilaukset siirtävät menojen hallinnan aikaan ennen kuin rahat lähtevät, ei jälkikäteen. Hyväksyntöjen, toimitusten seurannan ja ostotilauksen, vastaanotettujen tavaroiden ja ostolaskun välisen kolmisuuntaisen täsmäytyksen avulla huomaat ylilaskutuksen ja vajaat toimitukset ennen kuin maksat. Tämä kurinalaisuus skaalautuu yhdestä ostajasta koko hankintatiimiin." }
+  ],
+  "faqs": [
+    { "q": "Mihin ostotilausta käytetään?", "a": "Sillä pyydetään virallisesti tavaroita tai palveluita toimittajalta sovittuun hintaan, hallitaan menoja hyväksynnän kautta ja annetaan toimittajalle viite, jonka hän mainitsee laskullaan." },
+    { "q": "Onko ostotilausohjelma ilmainen?", "a": "Kyllä. Ostotilausten laatiminen, hyväksyminen ja seuranta on Paper & Penissä ilmaista ikuisesti." },
+    { "q": "Voinko hyväksyä ostotilauksen ennen lähettämistä?", "a": "Kyllä. Ohjaa ostotilaukset sisäiseen hyväksyntään, niin mitään ei tilata ilman oikeaa lupaa." },
+    { "q": "Voinko täsmäyttää ostotilauksen ostolaskuun?", "a": "Kyllä. Muuta vastaanotettu ostotilaus ostolaskuksi ja täsmäytä se kolmisuuntaisesti tilaukseen ja vastaanotettuihin tavaroihin poikkeamien löytämiseksi." },
+    { "q": "Päivittääkö ostotilauksen vastaanotto varastoani?", "a": "Valinnaisen Varastonhallinta-moduulin kanssa tavaroiden vastaanotto ostotilausta vasten kasvattaa varastosaldoja automaattisesti." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Tilaa hallitusti, ei kaaoksessa",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila, laadi hyväksyttyjä ostotilauksia ja täsmäytä ne ostolaskuihin automaattisesti."
+}

@@ -1,0 +1,45 @@
+{
+  "locale": "fi",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen vai Tally",
+  "metaTitle": "Paper & Pen vai Tally · Ilmainen pilvivaihtoehto Tallylle",
+  "metaDescription": "Vertaa Paper & Peniä ja Tallya pilvikäytön, ilmaisen paketin, arabian RTL-tuen, monivaluuttaisuuden ja verkkomaksujen osalta. Moderni, ilmainen vaihtoehto pilvessä.",
+  "keywords": "paper and pen vai tally, tally-vaihtoehto, tally-vaihtoehto pilvessä, ilmainen tally-vaihtoehto, tally prime verkossa, arabiankielinen kirjanpito-ohjelma",
+  "heroEyebrow": "Vertailu",
+  "heroTitle": "Paper & Pen vai <em class=\"text-copper-400 not-italic\">Tally</em>",
+  "heroSubtitle": "Tally on luotettu kirjanpidon työjuhta, jolla on syvät juuret. Paper & Pen on ilmainen, pilveen rakennettu ERP, jonka avaat selaimessa, ja siinä on arabia, verkkomaksut ja mikä tahansa valuutta. Tässä rehellinen vertailu.",
+  "heroBullets": ["Pilvipohjainen, avaa mistä tahansa selaimesta", "Myynti ja laskutus ilmaiseksi ikuisesti", "Arabian RTL ja korttimaksut verkossa"],
+  "features": [
+    { "icon": "globe", "title": "Aito pilvi", "desc": "Ei asennusta, ei lisenssiavainta, ei konekohtaisia määrityksiä. Avaa Paper & Pen missä tahansa, millä tahansa laitteella." },
+    { "icon": "card", "title": "Saa maksu verkossa", "desc": "Jokaisessa laskussa voi olla Paymob-maksulinkki, joten asiakkaat maksavat kortilla ja maksu täsmäytyy itsestään." },
+    { "icon": "check", "title": "Ilmainen aloittaa", "desc": "Laskutus ja myynti ovat ilmaisia ikuisesti, eikä lisenssiä tarvitse ostaa etukäteen ennen ensimmäistä tositetta." }
+  ],
+  "sections": [
+    { "eyebrow": "Rehellinen näkemys", "title": "Missä Tally on vahva", "body": "Tallylla on pitkä historia, syvä lakisääteinen kirjanpito ja valtava käyttäjäkunta kirjanpitäjiä, jotka tuntevat sen läpikotaisin. Koulutetun käyttäjän offline-tilassa tekemässä monimutkaisessa kirjanpidossa se on nopea ja luotettava. Monet yritykset käyttävät sitä tyytyväisinä vuosia.", "items": ["Syvä, koeteltu kirjanpitomoottori", "Tuttu suurelle joukolle kirjanpitäjiä", "Toimii asennuksen jälkeen ilman verkkoyhteyttä"] },
+    { "eyebrow": "Missä me voitamme", "title": "Pilvi, arabia ja maksujen saaminen", "body": "Paper & Pen toimii selaimessa, joten tiimisi ja kirjanpitäjäsi näkevät samat ajantasaiset tiedot mistä tahansa ilman asennuksia tai versioristiriitoja. Se on tehty arabia edellä täydellä oikealta vasemmalle kirjoitettavalla käyttöliittymällä, laskuttaa OMR-, AED-, SAR-valuutoissa ja millä tahansa valuutalla ja lisää verkkomaksulinkin jokaiseen laskuun. Lähtötaso on aidosti ilmainen.", "items": ["Ei asennuksia, aina uusin versio", "Arabian RTL-käyttöliittymä ja tositteet", "Verkkomaksulinkit laskuissa, ilmainen ydin"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "Ikuisesti ilmainen paketti", "values": [true, false] },
+    { "feature": "Aloitushinta", "values": ["Ilmainen", "Maksullinen lisenssi"] },
+    { "feature": "Pilvi- / selainkäyttö", "values": [true, "Lisäosa"] },
+    { "feature": "Arabian RTL-käyttöliittymä", "values": [true, "Rajoitettu"] },
+    { "feature": "Monivaluuttaisuus", "values": [true, true] },
+    { "feature": "Korttimaksut verkossa (Paymob)", "values": [true, false] },
+    { "feature": "Monikielinen käyttöliittymä (5)", "values": [true, "Rajoitettu"] },
+    { "feature": "Käyttöönoton nopeus", "values": ["Minuutteja", "Asennus ja koulutus"] },
+    { "feature": "Varasto- ja HR-moduulit", "values": [true, "Varasto kyllä, HR rajoitettu"] }
+  ],
+  "faqs": [
+    { "q": "Onko Paper & Pen hyvä vaihtoehto Tallylle?", "a": "Kyllä, jos haluat pilvikäytön, verkkomaksut ja arabiankielisen käyttöliittymän ostamatta lisenssiä. Tally on edelleen vahva koulutetun käyttäjän offline-tilassa tekemässä lakisääteisessä kirjanpidossa." },
+    { "q": "Voinko käyttää Paper & Peniä asentamatta mitään?", "a": "Kyllä. Se on täysin pilvipohjainen. Avaat sen selaimessa millä tahansa laitteella, ja kaikki näkevät samat ajantasaiset tiedot." },
+    { "q": "Tukeeko Paper & Pen useita valuuttoja kuten Tally?", "a": "Kyllä. Voit laskuttaa OMR-, AED-, SAR-, USD-, EUR-valuutassa ja muissa oikeilla desimaaleilla tositekohtaisesti." },
+    { "q": "Voivatko asiakkaat maksaa laskuni verkossa?", "a": "Kyllä. Jokaisessa laskussa voi olla Paymob-maksulinkki, joten asiakkaat maksavat kortilla ja maksu täsmäytyy automaattisesti." },
+    { "q": "Onko olemassa ilmainen versio?", "a": "Kyllä. Myynti ja laskutus ovat ilmaisia ikuisesti. Maksat vain, jos lisäät moduuleja, kuten Varastonhallinta, HR tai Kirjanpito." }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Siirry pilveen ilmaiseksi",
+  "ctaSub": "Avaa ilmainen Paper & Pen -työtila selaimessasi ja laadi ensimmäinen laskusi minuuteissa. Ei lisenssiä, ei asennusta."
+}

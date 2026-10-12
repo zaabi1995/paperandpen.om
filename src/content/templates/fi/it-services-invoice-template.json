@@ -1,0 +1,75 @@
+{
+  "locale": "fi",
+  "slug": "it-services-invoice-template",
+  "order": 17,
+  "title": "Laskupohja IT-palveluille",
+  "metaTitle": "Laskupohja IT-palveluille · Paper & Pen",
+  "metaDescription": "Laadi ammattimaisia IT-palveluiden laskuja. Laskuta ylläpitopalvelut, laitteet, ohjelmistolisenssit ja projektin välitavoitteet ilmaisella laskugeneraattorillamme.",
+  "keywords": "laskupohja IT-palveluille, palveluntarjoajan lasku, IT-tuen laskutus, ohjelmistolisenssin lasku, laitteiden jälleenmyynnin lasku, IT-konsultoinnin lasku, MSP-laskutuspohja",
+  "heroEyebrow": "Ilmainen IT-laskutuspohja",
+  "heroTitle": "Laskuta IT-tuki ja <em class=\"text-copper-400 not-italic\">ylläpitopalvelut</em> tarkasti",
+  "heroSubtitle": "Lopeta yleispohjien käyttö monimutkaisessa IT-laskutuksessa. Laadi selkeitä laskuja, jotka erottavat laitemyynnit, edelleenveloitettavat ohjelmistolisenssit, projektin välitavoitteet ja toistuvat ylläpitosopimukset.",
+  "heroBullets": [
+    "Laskuta käyttäjä- tai laitekohtaisesti",
+    "Erota laite- ja ohjelmistorivit",
+    "Laskuta sopimuksen ulkopuoliset häiriöt"
+  ],
+  "features": [
+    { "icon": "users", "title": "Käyttäjäkohtaiset palvelusopimukset", "desc": "Laskuta ylläpitoasiakkaitasi aktiivisten käyttäjien määrän mukaan. Päivitä määrät helposti jokaisella laskutusjaksolla uusien ja lähtevien työntekijöiden mukaan." },
+    { "icon": "inventory", "title": "Laitteiden jälleenmyyntirivit", "desc": "Listaa palvelimet, kannettavat ja verkkolaitteet omina riveinään. Pidä laitekulut erillään palvelutyöstä, niin katteesi pysyvät selkeinä." },
+    { "icon": "lock", "title": "Ohjelmistolisenssien uusinnat", "desc": "Edelleenveloita virustorjunta-, varmuuskopio- ja pilvitallennuslisenssien kulut. Ryhmittele nämä uusinnat yhteen, niin asiakkaat ymmärtävät toistuvat ohjelmistokulunsa." },
+    { "icon": "bolt", "title": "Häiriö- ja korjaustyöt", "desc": "Veloita hätäkäynnit ja sopimuksen ulkopuoliset korjaukset. Erittele ratkaistu ongelma ja tehdyt tunnit perustellaksesi sopimuksen ulkopuolisen lisälaskutuksen." },
+    { "icon": "chart", "title": "Projektin välitavoitelaskutus", "desc": "Jaa suuret verkkoasennukset tai palvelinsiirrot hallittaviin vaiheisiin. Laskuta asiakkaitasi, kun tietyt vaiheet on valmistunut ja hyväksytty." },
+    { "icon": "invoice", "title": "Toistuvien laskujen ajastus", "desc": "Määritä kuukausittaiset ylläpitosopimuksesi kerran ja anna järjestelmän luoda lasku automaattisesti. Säästä tunteja käsin tehtävää tiedonsyöttöä joka kuukausi." }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Laskun vaatimukset",
+      "title": "Mitä IT-palveluiden laskussa on oltava",
+      "body": "Yleinen lasku ei toimi, kun sinun on laskutettava laitteiden, ohjelmistojen ja työn yhdistelmä. IT-palveluiden laskusi on erotettava nämä luokat selvästi. Asiakkaiden on nähtävä tarkalleen, mistä he maksavat, jotta he voivat hyväksyä maksun nopeasti. Laitemyynnit vaativat sarjanumerot ja takuuajat. Ohjelmistolisensseistä tarvitaan uusintapäivät ja käyttäjämäärät. Palvelusopimuksissa on ilmoitettava kattavuusjakso ja tuettujen laitteiden tai käyttäjien määrä. Jos teit sopimuksen ulkopuolista työtä, sinun on kuvattava häiriö ja ratkaisu. Voit rakentaa juuri tämän asettelun ilmaisella laskugeneraattorillamme osoitteessa /tools/free-invoice-generator luomatta tiliä.",
+      "items": [
+        "Laiterivit sarjanumeroineen",
+        "Ohjelmistolisenssien nimet ja uusintapäivät",
+        "Ylläpitosopimusten kattavuusjaksot",
+        "Selkeät kuvaukset sopimuksen ulkopuolisesta häiriötyöstä"
+      ]
+    },
+    {
+      "eyebrow": "Laskutusmallit",
+      "title": "Miten IT-palvelutyö hinnoitellaan ja laskutetaan",
+      "body": "IT-palveluntarjoajat yhdistävät yleensä useita hinnoittelumalleja samaan laskuun. Ylläpitopalvelut laskutetaan tyypillisesti kiinteällä kuukausihinnalla käyttäjää tai laitetta kohden. Tämä kattaa tavallisen tuen ja ylläpidon. Laitteet ja ohjelmistot laskutetaan kertaostoina tai vuosittain edelleenveloitettavina kuluina. Projektityö, kuten koko toimiston verkkoasennus, hinnoitellaan yleensä kiinteänä palkkiona ja laskutetaan tietyissä välitavoitteissa. Lopuksi korjaustyö tai hätätuki pääsopimuksen ulkopuolella laskutetaan tuntihinnalla. Laskusi on hoidettava kaikki nämä laskutustavat samanaikaisesti hämmentämättä asiakasta.",
+      "items": [
+        "Kiinteät kuukausihinnat käyttäjää tai laitetta kohden",
+        "Laitteiden ja varusteiden kertamyynnit",
+        "Vuosittain edelleenveloitettavat ohjelmistolisenssit",
+        "Kiinteät palkkiot projektin välitavoitteiden valmistumisesta",
+        "Tuntihinnat hätäkorjaustuelle"
+      ]
+    },
+    {
+      "eyebrow": "Maksuehdot",
+      "title": "Näin saat maksun IT-palveluistasi",
+      "body": "Kassavirran hallinta on ratkaisevaa, kun ostat laitteita asiakkaiden puolesta. Ota aina ennakkomaksu ennen kalliiden palvelimien tai verkkolaitteiden tilaamista. Aseta kuukausittaisille ylläpitopalveluille tiukat seitsemän tai neljäntoista päivän maksuehdot. Ilmoita nämä ehdot selvästi jokaisessa tositteessa. Jos asiakas jättää maksun huomiotta, lähetä kohtelias muistutus heti. Älä anna maksamattomien laskujen kasautua samalla kun jatkat päivittäistä teknistä tukea. Voit lähettää maksumuistutukset suoraan laskutusohjelmastasi ja periä myöhässä olevia maksajia kirjoittamatta kiusallisia sähköposteja itse.",
+      "items": [
+        "Vaadi ennakkomaksut ennen kalliiden laitteiden ostamista",
+        "Aseta tiukat ehdot kuukausittaisille palvelusopimuksille",
+        "Ilmoita maksun määräajat selvästi laskussa",
+        "Lähetä muistutukset heti erääntyneistä laskuista"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Miten laskutan laiteostot?", "a": "Listaa laitteet aina omina riveinään laskussasi. Lisää merkki, malli ja sarjanumero takuuta varten. Koska laitteet vaativat pääomaa etukäteen, pyydä ennakkomaksu ennen tilauksen tekemistä jakelijallesi. Tämä suojaa kassavirtaasi ja varmistaa, että asiakas on sitoutunut ostoon ennen kuin otat laitteet vastaan." },
+    { "q": "Voinko laskuttaa ohjelmistolisenssejä?", "a": "Kyllä, voit edelleenveloittaa ohjelmistolisenssien kulut asiakkaillesi. Ryhmittele nämä tuotteet yhteen laskussa. Muista lisätä ohjelmiston nimi, käyttäjäpaikkojen tai käyttäjien määrä ja kattavuusjakson tarkat päivät. Tämä auttaa asiakkaita ymmärtämään toistuvat ohjelmistokulunsa ja valmistautumaan seuraavaan uusintakierrokseen." },
+    { "q": "Miten käsittelen sopimuksen ulkopuoliset tukipyynnöt?", "a": "Kun asiakas pyytää apua ongelmaan, jota hänen ylläpitosopimuksensa ei kata, laskuta se omana rivinään. Kuvaa häiriö, sen ratkaisemiseksi tehdyt toimet ja tehdyt tunnit yhteensä. Selkeä dokumentointi estää kiistat ja auttaa asiakasta ymmärtämään, miksi häneltä veloitetaan tuntihinta kuukausimaksun lisäksi." },
+    { "q": "Mikä on paras tapa laskuttaa suuret IT-projektit?", "a": "Suuret projektit, kuten palvelinsiirrot, laskutetaan vaiheittain. Sovi kiinteä kokonaishinta ja jaa se välitavoitteisiin. Voit laskuttaa ennakkomaksun etukäteen, toisen maksun laitteiden asennuksen jälkeen ja loppusumman testauksen ja luovutuksen yhteydessä. Välitavoitelaskutus pitää kassavirtasi tasaisena, kun teet pitkiä ja monimutkaisia teknisiä asennuksia." }
+  ],
+  "related": [
+    "/use-cases/agencies",
+    "/invoicing/recurring-invoices",
+    "/invoicing/invoices",
+    "/features/invoicing"
+  ],
+  "ctaTitle": "Laadi ammattimainen IT-palveluiden laskusi jo tänään",
+  "ctaSub": "Laadi selkeät laskut ylläpitopalveluista, laitteista ja ohjelmistoista minuuteissa. Saa maksut teknisestä tuesta ja projektityöstä nopeammin."
+}

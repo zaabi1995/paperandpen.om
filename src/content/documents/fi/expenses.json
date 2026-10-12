@@ -1,0 +1,36 @@
+{
+  "locale": "fi",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Kulut",
+  "metaTitle": "Kuluseurantaohjelma · Paper & Pen",
+  "metaDescription": "Seuraa yrityksen kuluja verkossa ilmaiseksi millä tahansa valuutalla. Tallenna kuitit, luokittele menot, vähennä ALV ja näe todellinen tuloksesi.",
+  "keywords": "kuluseuranta, kulujen kirjaaminen, yrityksen kulut, kuluohjelma, ilmainen kuluseuranta, kuittien tallennus, kulujen alv",
+  "heroEyebrow": "Kulut",
+  "heroTitle": "Seuraa jokaista yrityksen <em class=\"text-copper-400 not-italic\">kulua</em> yhdessä paikassa",
+  "heroSubtitle": "Tallenna kuitit, luokittele menot, vähennä ALV ja näe todellinen tulos, millä tahansa valuutalla. Kulut linkittyvät suoraan kirjanpitoosi. Ilmainen ikuisesti.",
+  "heroBullets": ["Ilmainen ikuisesti", "Tallenna kuitit", "Näe todellinen tulos"],
+  "features": [
+    { "icon": "accounting", "title": "Kirjaa mikä tahansa kulu", "desc": "Kirjaa lasku, käteismeno tai toimittajamaksu sekunneissa luokan ja veron kanssa." },
+    { "icon": "doc", "title": "Liitä kuitit", "desc": "Kuvaa tai lataa kuitti ja säilytä se kulun yhteydessä siistiä kirjanpitoa ja tarkastuksia varten." },
+    { "icon": "calc", "title": "Vähennä ALV", "desc": "Kirjaa kulujen ostojen ALV tai GST, niin veroilmoitus näyttää, mitä voit vähentää." },
+    { "icon": "chart", "title": "Näe todellinen tulos", "desc": "Kulut kirjautuvat tuloja vasten, joten tuloslaskelmasi kuvaa todellisuutta eikä arvailua." },
+    { "icon": "globe", "title": "Mikä tahansa valuutta", "desc": "Kirjaa menot USD-, EUR-, AED-, SAR-, OMR-, INR-valuutassa ja muissa oikeilla desimaaleilla." },
+    { "icon": "refresh", "title": "Toistuvat kulut", "desc": "Aseta vuokra, tilaukset ja käyttömaksut kirjautumaan automaattisesti joka jaksolla." }
+  ],
+  "sections": [
+    { "eyebrow": "Mitä on kuluseuranta", "title": "Mitä kuluseuranta on?", "body": "Kuluseuranta tarkoittaa jokaisen yrityksellesi syntyvän kulun kirjaamista luokan, päivämäärän, veron ja tositteena olevan kuitin kanssa. Hyvin tehtynä se kertoo tarkalleen, mihin rahat menevät, minkä tuloksen todella teet ja paljonko ostojen veroa voit vähentää. Huonosti tehtynä tulos on arvaus ja verokausi on kiirettä. Paper & Penissä yksi kulu vie muutaman sekunnin." },
+    { "eyebrow": "Näin se toimii", "title": "Tallenna, luokittele, vähennä", "body": "Paper & Pen muuttaa hajallaan olevat kuitit siisteiksi, luokitelluiksi tiedoiksi, jotka siirtyvät suoraan kirjanpitoosi.", "items": ["Kirjaa kulu luokan, toimittajan ja veron kanssa", "Liitä kuitin kuva tai PDF kirjausketjua varten", "Vähennä ostojen ALV tai GST, kun se on mahdollista", "Aseta toistuvat kulut kirjautumaan automaattisesti", "Näe menot luokittain ja todellinen tulos raporteissasi"] },
+    { "eyebrow": "Miksi sillä on väliä", "title": "Tulos, johon voit luottaa", "body": "Et voi johtaa sitä, mitä et mittaa. Kun jokainen kulu kirjataan tuloja vasten, tuloslaskelmasi on tarkka, ALV-ilmoituksesi oikein ja näet, mitkä kulut hiipivät ylöspäin ennen kuin ne alkavat haitata. Paper & Penissä kulut syöttävät samaa pääkirjaa kuin myyntisi, joten kokonaiskuva pysyy yhtenäisenä ja täsmäytettynä." }
+  ],
+  "faqs": [
+    { "q": "Onko kuluseuranta ilmaista?", "a": "Kyllä. Kulujen kirjaaminen, luokittelu ja kuittien liittäminen on Paper & Penissä ilmaista ikuisesti." },
+    { "q": "Voinko liittää kuitin kuluun?", "a": "Kyllä. Kuvaa tai lataa kuitti, niin se pysyy kulun yhteydessä ja saat siistin kirjausketjun." },
+    { "q": "Voinko vähentää kulujen ALV:n?", "a": "Kyllä. Kirjaa jokaisen kulun ostojen ALV tai GST, niin veroilmoituksesi näyttää tarkalleen, mitä voit vähentää." },
+    { "q": "Voinko seurata kuluja eri valuutoissa?", "a": "Kyllä. Kirjaa menot millä tahansa valuutalla, kuten USD, EUR, AED, SAR ja OMR, oikeilla desimaaleilla." },
+    { "q": "Voiko toistuvat kulut automatisoida?", "a": "Kyllä. Aseta vuokra, tilaukset ja käyttömaksut kirjautumaan automaattisesti joka jaksolla, niin mikään ei unohdu." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Tiedä tarkalleen, mihin rahasi menevät",
+  "ctaSub": "Luo ilmainen Paper & Pen -työtila, tallenna jokainen kulu ja näe tulos, johon voit todella luottaa."
+}
