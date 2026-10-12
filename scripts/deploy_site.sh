@@ -72,9 +72,10 @@ rsync -a dist/ "$stage/"
 printf '%s\n' "$head_revision" > "$stage/.deploy-revision"
 (
   cd "$stage"
-  find . -type f ! -name '.deploy-manifest.sha256' -print \
-    | LC_ALL=C sort \
-    | while IFS= read -r file; do shasum -a 256 "$file"; done \
+  # Batched: one shasum per file took over 10 minutes at 5,500 pages (12 Oct 2026). Same lines, same order.
+  find . -type f ! -name '.deploy-manifest.sha256' -print0 \
+    | LC_ALL=C sort -z \
+    | xargs -0 shasum -a 256 \
     > .deploy-manifest.sha256
 )
 
