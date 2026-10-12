@@ -1,0 +1,36 @@
+{
+  "locale": "hu",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Jóváíró számlák",
+  "metaTitle": "Jóváíró számla program · Paper & Pen",
+  "metaDescription": "Állítson ki igényes jóváíró számlát online, ingyen, bármilyen pénznemben. Módosítsa a számlát visszáru, visszatérítés vagy javítás miatt, szabályos bizonylattal.",
+  "keywords": "jóváíró számla, jóváírás készítése, helyesbítő számla, visszatérítés, visszáru jóváírás, jóváíró számla program, áfás jóváírás",
+  "heroEyebrow": "Jóváíró számlák",
+  "heroTitle": "Állítson ki <em class=\"text-copper-400 not-italic\">jóváíró számlát</em> szabályosan",
+  "heroSubtitle": "Módosítsa a számlát visszáru, visszatérítés vagy javítás miatt szabályos jóváíró számlával, átlátható ellenőrzési nyomvonallal és automatikus könyvelési tétellel. Bármilyen pénznemben.",
+  "heroBullets": ["Örökre ingyenes", "Az eredeti számlához kapcsolva", "A helyes tételt könyveli"],
+  "features": [
+    { "icon": "doc", "title": "Szabályos jóváíró bizonylat", "desc": "Sorszámozott jóváíró számla, amely az eredeti számlához kapcsolódik, soha nem csendes módosítás." },
+    { "icon": "refresh", "title": "Módosítja az egyenleget", "desc": "Csökkenti az ügyfél egyenlegét, és helyesen fordítja vissza az adót a jóváírt összegen." },
+    { "icon": "shield", "title": "Teljes ellenőrzési nyomvonal", "desc": "Minden jóváíró számla az indoklásával együtt rögzül, így a könyvei tiszták és ellenőrizhetők maradnak." },
+    { "icon": "calc", "title": "Helyes ÁFA-visszafordítás", "desc": "Az adó a jóváírt nettó összegen fordul vissza, így az adóbevallásai pontosak maradnak." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Jóváírás USD, EUR, AED, SAR, OMR, INR és más pénznemekben, az eredeti számlához igazodva." },
+    { "icon": "whatsapp", "title": "Küldje bárhová", "desc": "Ossza meg a jóváíró számlát WhatsAppon vagy e-mailben, hogy az ügyfélnél is meglegyen." }
+  ],
+  "sections": [
+    { "eyebrow": "Mi a jóváíró számla", "title": "Mi az a jóváíró számla?", "body": "A jóváíró számla (vagy jóváírási értesítő) olyan bizonylat, amelyet az eladó állít ki, hogy csökkentse az ügyfél tartozását egy korábban kiállított számlán. Visszáru, visszatérítés, túlszámlázás, törölt tételek vagy árkorrekció esetén használják. A jóváíró számla soha nem törli az eredeti számlát, hanem hivatalosan ellentételezi annak egy részét vagy egészét, így teljes, ellenőrizhető nyilvántartás marad arról, mi változott és miért." },
+    { "eyebrow": "Hogyan működik", "title": "Jóváírás, visszafordítás, egyeztetés", "body": "A Paper & Pen a jóváíró számlát valódi bizonylatként állítja ki, saját sorszámmal és könyvelési tétellel, soha nem a számla csendes módosításával.", "items": ["Nyissa meg a számlát, és állítson ki hozzá jóváíró számlát", "Írja jóvá a teljes számlát vagy csak egyes sorokat", "Adja meg az okot: visszáru, visszatérítés, javítás vagy törlés", "Az adó automatikusan visszafordul a jóváírt nettó összegen", "Az ügyfél egyenlege és a főkönyvei együtt frissülnek"] },
+    { "eyebrow": "Miért fontos", "title": "Kifizetett számlát soha ne módosítson", "body": "Egy kiállított számla módosítása vagy törlése megtöri az ellenőrzési nyomvonalat és az adópozícióját. A követelés csökkentésének helyes módja a jóváíró számla, amely érintetlenül hagyja az eredeti számlát, ellentétes tételt könyvel, és a megfelelő adóösszeget fordítja vissza. A legtöbb ÁFA- és GST-rendszerben világszerte ez az előírt gyakorlat." }
+  ],
+  "faqs": [
+    { "q": "Mire használják a jóváíró számlát?", "a": "Arra, hogy csökkentse vagy törölje az ügyfél tartozását egy számlán, jellemzően visszáru, visszatérítés, túlszámlázás vagy javítás miatt. Ellentételezi a számlát, nem törli." },
+    { "q": "Ingyenes a jóváíró számlák készítése?", "a": "Igen. A jóváíró számlák kiállítása és követése örökre ingyenes a Paper & Pen-ben." },
+    { "q": "Visszafordítja a jóváíró számla az ÁFA-t?", "a": "Igen. A Paper & Pen automatikusan visszafordítja az adót a jóváírt nettó összegen, így az ÁFA- vagy GST-pozíciója helyes marad." },
+    { "q": "Jóváírhatom a számlának csak egy részét?", "a": "Igen. Írja jóvá a teljes számlát vagy csak bizonyos sorokat és mennyiségeket. Az ügyfél egyenlege ehhez igazodik." },
+    { "q": "Mi a különbség a jóváíró és a terhelési értesítő között?", "a": "A jóváíró számlát az eladó állítja ki, hogy csökkentse az ügyfél tartozását. A terhelési értesítőt jellemzően a vevő állítja ki (vagy egy tartozás növelésére szolgál), például túlfizetés visszakövetelésére vagy pótlólagos összeg felszámítására." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Állítson ki jóváíró számlát magabiztosan",
+  "ctaSub": "Hozzon létre ingyenes Paper & Pen munkaterületet, és módosítson bármely számlát szabályos, ellenőrizhető jóváíró számlával másodpercek alatt."
+}

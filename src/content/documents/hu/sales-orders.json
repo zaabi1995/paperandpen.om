@@ -1,0 +1,36 @@
+{
+  "locale": "hu",
+  "slug": "sales-orders",
+  "order": 9,
+  "title": "Vevői rendelések",
+  "metaTitle": "Vevői rendelés program · Paper & Pen",
+  "metaDescription": "Készítsen igényes vevői rendelést online, ingyen, bármilyen pénznemben. Erősítse meg az ügyfél rendelését, és kövesse a teljesítést és az előlegeket.",
+  "keywords": "vevői rendelés, vevői rendelés készítése, rendeléskezelő program, ingyenes vevői rendelés, ügyfélrendelés, rendeléskezelés, rendelésből számla",
+  "heroEyebrow": "Vevői rendelések",
+  "heroTitle": "Erősítse meg és teljesítse az ügyfélrendeléseket <em class=\"text-copper-400 not-italic\">vevői rendeléssel</em>",
+  "heroSubtitle": "Rögzítse, miben állapodott meg az ügyfél, kövesse az előlegeket és a teljesítést, majd egy kattintással alakítsa szállítólevéllé vagy számlává. Bármilyen pénznemben, bárhol.",
+  "heroBullets": ["Örökre ingyenes", "Előlegek és teljesítés követése", "Átalakítás szállítólevéllé vagy számlává"],
+  "features": [
+    { "icon": "cart", "title": "Megerősített rendelés", "desc": "Sorszámozott vevői rendelés, amely pontosan rögzíti, mit vállalt megvenni az ügyfél." },
+    { "icon": "card", "title": "Előlegek", "desc": "Szedjen be előleget a rendelésre, és kövesse a fennmaradó egyenleget." },
+    { "icon": "truck", "title": "Teljesítés követése", "desc": "Lássa, mi függőben lévő, részben leszállított és teljesített az egyes rendeléseknél." },
+    { "icon": "refresh", "title": "Átalakítás egy kattintással", "desc": "Alakítsa a vevői rendelést szállítólevéllé vagy számlává újragépelés nélkül." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Rendelés USD, EUR, AED, SAR, OMR, INR és más pénznemekben, a helyes adóval és tizedesjegyekkel." },
+    { "icon": "whatsapp", "title": "Küldje bárhová", "desc": "Ossza meg a rendelés-visszaigazolást WhatsAppon vagy e-mailben, hogy az ügyfélnél is meglegyen." }
+  ],
+  "sections": [
+    { "eyebrow": "Mi a vevői rendelés", "title": "Mi az a vevői rendelés?", "body": "A vevői rendelés olyan bizonylat, amelyet az eladó készít, hogy az árajánlat elfogadása után megerősítse az ügyfél rendelését. Rögzíti a megállapodott tételeket, mennyiségeket, árakat, adókat és szállítási feltételeket, és ez lesz a belső utasítás a rendelés teljesítésére, majd számlázására. Az árajánlat és a számla között helyezkedik el, és rendezett nyilvántartást ad arról, mit ígért, mielőtt bármi elindulna." },
+    { "eyebrow": "Hogyan működik", "title": "Megerősítés, teljesítés, számlázás", "body": "A Paper & Pen a vevői rendelést a teljes folyamathoz kapcsolja, így az elfogadott ajánlatból újragépelés nélkül lesz teljesített, kiszámlázott rendelés.", "items": ["Alakítsa az elfogadott árajánlatot vevői rendeléssé, vagy hozzon létre egyet közvetlenül", "Szedjen be előleget, és kövesse az egyenleget", "Teljesítse a rendelést szállítólevéllel", "Alakítsa számlává egy kattintással", "Lássa a rendelés állapotát: függőben, részben leszállítva, teljesítve, kiszámlázva"] },
+    { "eyebrow": "A teljes lánc", "title": "Ajánlattól a befizetésig, összekapcsolva", "body": "Árajánlat, vevői rendelés, szállítólevél, számla, fizetés, és szükség esetén jóváíró számla. A Paper & Pen minden lépést összeköt, így minden bizonylat továbbviszi adatait a következőbe, a végösszegek mindig egyeznek, és a könyvei a rendelés előrehaladásával frissülnek. Semmit nem kell kétszer begépelni, és semmi nem vész el." }
+  ],
+  "faqs": [
+    { "q": "Mi a különbség a vevői rendelés és a számla között?", "a": "A vevői rendelés megerősíti, mit vállalt megvenni az ügyfél, és ez az utasítás a teljesítésre. A számla az áruk vagy szolgáltatások teljesítése után kér fizetést. Az egyiket egy kattintással alakítja a másikká." },
+    { "q": "Ingyenes a vevői rendelés program?", "a": "Igen. A vevői rendelések készítése, követése és teljesítése örökre ingyenes a Paper & Pen-ben." },
+    { "q": "Kérhetek előleget egy vevői rendelésre?", "a": "Igen. Szedjen be előleget a rendelésre, és kövesse a fennmaradó egyenleget, amíg ki nem számlázzák és nem rendezik." },
+    { "q": "Alakíthatok árajánlatot vevői rendeléssé?", "a": "Igen. Az elfogadott árajánlat egy kattintással vevői rendeléssé alakul, minden sorral, kedvezménnyel és adóval együtt." },
+    { "q": "Hogyan teljesítek egy vevői rendelést?", "a": "Készítsen szállítólevelet a vevői rendelésből az áru kiszállításához, majd alakítsa számlává. A teljesítés állapota menet közben frissül." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/delivery-notes", "/invoicing/invoices", "/features/sales-crm", "/free-invoicing-software"],
+  "ctaTitle": "Ajánlattól a befizetésig, egy helyen",
+  "ctaSub": "Hozzon létre ingyenes Paper & Pen munkaterületet, és alakítsa az elfogadott ajánlatokat újragépelés nélkül teljesített, kiszámlázott vevői rendelésekké."
+}

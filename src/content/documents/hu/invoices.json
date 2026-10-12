@@ -1,0 +1,36 @@
+{
+  "locale": "hu",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Számlák",
+  "metaTitle": "Online számlázás · Számla készítése ingyen · Paper & Pen",
+  "metaDescription": "Készítsen igényes számlát online, ingyen, bármilyen pénznemben. Küldje el WhatsAppon vagy e-mailben, fogadjon online fizetést, és kövesse, mi fizetett és mi lejárt.",
+  "keywords": "számla, online számla, számla készítése, számlázó program, ingyenes számla, áfás számla, gst számla, számla küldése whatsappon",
+  "heroEyebrow": "Számlázás",
+  "heroTitle": "Készítsen és küldjön igényes <em class=\"text-copper-400 not-italic\">számlákat</em> ingyen",
+  "heroSubtitle": "Számlázzon bármely ügyfélnek, bármilyen pénznemben, az Ön által választott adókulccsal. Küldje el WhatsAppon vagy e-mailben, fogadjon online fizetést, és mindig tudja, mi fizetett, mi esedékes és mi lejárt.",
+  "heroBullets": ["A számlázás örökre ingyenes", "Bármilyen pénznem, bármilyen adókulcs", "Küldés WhatsAppon vagy e-mailben"],
+  "features": [
+    { "icon": "invoice", "title": "Saját arculatú számlák", "desc": "Adja hozzá logóját, színeit és feltételeit. Minden számla igényes, és tisztán nyomtatható." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Számlázzon USD, EUR, GBP, INR, AED, SAR, OMR és más pénznemekben, helyes tizedesjegyekkel." },
+    { "icon": "calc", "title": "ÁFA- és adókész", "desc": "Alkalmazzon bármilyen ÁFA-, GST- vagy forgalmiadó-kulcsot. Az adó a kedvezmények utáni nettó összegre számolódik." },
+    { "icon": "whatsapp", "title": "Küldje bárhová", "desc": "Ossza meg a linket vagy a PDF-et WhatsAppon, e-mailben vagy letöltéssel. Az ügyfél egy koppintással fizethet." },
+    { "icon": "card", "title": "Online fizetés", "desc": "Fogadjon kártyás és helyi fizetési módokat, hogy az ügyfelek azonnal rendezzék a számlát." },
+    { "icon": "bell", "title": "Automatikus emlékeztetők", "desc": "Udvarias fizetési emlékeztetők mennek ki automatikusan, amíg a számlát ki nem fizetik." }
+  ],
+  "sections": [
+    { "eyebrow": "Mi a számla", "title": "Mi az a számla?", "body": "A számla olyan kereskedelmi bizonylat, amelyet az eladó állít ki a vevőnek, és amellyel a leszállított áruk vagy szolgáltatások ellenértékét kéri. Felsorolja a tételeket, mennyiségeket, egységárakat, adókat és a fizetendő végösszeget, a fizetési feltételekkel és a határidővel együtt. Egy átlátható, sorszámozott számla az értékesítés jogi bizonyítéka, és ez indítja el, hogy az ügyfél kifizesse Önt." },
+    { "eyebrow": "Hogyan működik", "title": "Piszkozattól a kifizetésig percek alatt", "body": "Állítsa össze a számlát árajánlatból vagy az alapoktól, küldje el, a többit pedig bízza a Paper & Pen-re. A fizetések, az emlékeztetők és a könyvei automatikusan összhangban maradnak.", "items": ["Készítse el mentett ügyfél- és terméklistából, vagy kezdje üresen", "Állítsa be a pénznemet, az adókulcsot és a fizetési feltételeket", "Küldje el WhatsAppon vagy e-mailben online fizetési linkkel", "Kövesse az állapotot: piszkozat, elküldve, részben fizetve, fizetve, lejárt", "Rögzítse a kézi fizetéseket, vagy hagyja, hogy az online fizetések maguktól egyeztetődjenek"] },
+    { "eyebrow": "Az egész világnak", "title": "Helyi erősségek, globális elérés", "body": "A Paper & Pen bárhol működik a vállalkozások számára. Ha az Öböl menti országokban működik, arab nyelvű számlákat, natív OMR, AED és SAR formázást, beállítható ÁFA-sablonokat és Paymob kártyás fizetést kap azonnal. Máshol egyszerűen kiválasztja a pénznemét, az adókulcsát és a nyelvét." }
+  ],
+  "faqs": [
+    { "q": "Tényleg ingyenes a számlázás?", "a": "Igen. A számlák készítése, küldése és követése örökre ingyenes a Paper & Pen-ben. Csak akkor fizet, ha választható modulokat ad hozzá, például Készletet, HR-t vagy Könyvelést." },
+    { "q": "Számlázhatok bármilyen pénznemben?", "a": "Igen. Válasszon bármilyen pénznemet, többek között USD, EUR, GBP, INR, AED, SAR és OMR pénznemet. A tizedesjegyek automatikusan igazodnak (például OMR esetén három tizedesjegy)." },
+    { "q": "Kezeli az ÁFA-t vagy a GST-t?", "a": "Igen. Állítson be bármilyen adókulcsot számlánként vagy soronként. Az Öböl menti országok felhasználói beállítható ÁFA-sablont kapnak, és az adó mindig a kedvezmények utáni összegre számolódik." },
+    { "q": "Hogyan fizetnek nekem az ügyfelek?", "a": "Küldje el a számlát online fizetési linkkel, és az ügyfelek egy koppintással fizethetnek kártyával vagy helyi fizetési móddal. A készpénzes, átutalásos vagy csekkes fizetéseket kézzel is rögzítheti." },
+    { "q": "Küldhetek számlát WhatsAppon?", "a": "Igen. Ossza meg a számlát linkként vagy PDF-ként közvetlenül WhatsAppon, vagy küldje el e-mailben. Mindkettőn megmarad az online fizetés gomb, így gyorsabban kap pénzt." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Küldje el első számláját percek alatt",
+  "ctaSub": "Hozzon létre ingyenes Paper & Pen munkaterületet, adja hozzá logóját, és küldjön igényes számlát, amelyet online fizetnek ki."
+}

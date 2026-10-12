@@ -1,0 +1,36 @@
+{
+  "locale": "hu",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Szállítólevelek",
+  "metaTitle": "Szállítólevél-készítő · Paper & Pen",
+  "metaDescription": "Készítsen igényes szállítólevelet online, ingyen. Sorolja fel a kiszállított árut, rögzítse az átvételt, és alakítsa a szállítólevelet egy kattintással számlává.",
+  "keywords": "szállítólevél, szállítólevél készítése, csomagjegyzék, átvételi igazolás, szállítólevél-készítő, áruküldési jegyzék, kiszállítási bizonylat",
+  "heroEyebrow": "Szállítólevelek",
+  "heroTitle": "Szállítson minden alkalommal átlátható <em class=\"text-copper-400 not-italic\">szállítólevéllel</em>",
+  "heroSubtitle": "Sorolja fel a kiszállított árut, rögzítse az átvételt, majd alakítsa a szállítólevelet egy kattintással számlává. Bárhol működik.",
+  "heroBullets": ["Örökre ingyenes", "Átvételi igazolás", "Átalakítás számlává"],
+  "features": [
+    { "icon": "truck", "title": "Áruküldési bizonylat", "desc": "Sorolja fel a kiszállított tételeket és mennyiségeket, árral vagy anélkül, letisztult, saját arculatú bizonylaton." },
+    { "icon": "check", "title": "Átvételi igazolás", "desc": "Rögzítse, ki és mikor vette át az árut, így a szállítás soha nem lesz vitatott." },
+    { "icon": "refresh", "title": "Átalakítás számlává", "desc": "Az áru átvétele után egy kattintással számlává alakíthatja a szállítólevelet." },
+    { "icon": "inventory", "title": "Készlethez kapcsolva", "desc": "A Készlet modullal a szállítólevél automatikusan csökkentheti a készletet." },
+    { "icon": "globe", "title": "Bárhol működik", "desc": "Világszerte szállítólevélként vagy kiszállítási bizonylatként használják, az Ön nyelvén és pénznemében." },
+    { "icon": "whatsapp", "title": "Küldje bárhová", "desc": "Ossza meg a szállítólevelet WhatsAppon vagy e-mailben, hogy az ügyfélnél is meglegyen." }
+  ],
+  "sections": [
+    { "eyebrow": "Mi a szállítólevél", "title": "Mi az a szállítólevél?", "body": "A szállítólevél (más néven kiszállítási bizonylat vagy csomagjegyzék) olyan bizonylat, amely az áruszállítmányt kíséri, és felsorolja, mit szállítanak. Az átvevő ez alapján ellenőrzi az árut, és aláírásával igazolja az átvételt. Ez bizonyítja, hogy az áru elhagyta a telephelyét és megérkezett az ügyfélhez, és ez a híd a vevői rendelés és az azt követő számla között." },
+    { "eyebrow": "Hogyan működik", "title": "Kiszállítás, igazolás, számlázás", "body": "A Paper & Pen összekapcsolja a szállítólevelet a vevői rendeléssel és a számlával, így a kiszállítás és a számlázás lépést tart egymással.", "items": ["Készítsen szállítólevelet vevői rendelésből vagy az alapoktól", "Döntse el, hogy árakat vagy csak mennyiségeket mutat", "Küldje el vagy nyomtassa ki, hogy az áruval együtt utazzon", "Rögzítse az átvételt, amikor az ügyfél aláír", "Alakítsa a szállítólevelet egy kattintással számlává"] },
+    { "eyebrow": "Szállítólevél vagy számla", "title": "Szállítólevél vagy számla?", "body": "A szállítólevél azt rögzíti, mi mozdult el fizikailag, és igazolja az átvételt, nem fizetési felszólítás. A számla kéri az áru kifizetését. Sok vállalkozás először szállítólevéllel szállít, majd a megállapodott feltételek szerint számláz. A Paper & Pen pontosan ezt teszi lehetővé: az igazolt szállítást újragépelés nélkül alakítja számlává." }
+  ],
+  "faqs": [
+    { "q": "Mi a különbség a szállítólevél és a számla között?", "a": "A szállítólevél felsorolja és igazolja a kiszállított árut, fizetési felszólítás nélkül. A számla fizetést kér. A szállítólevelet egy kattintással számlává alakíthatja." },
+    { "q": "Ingyenes a szállítólevél-készítő?", "a": "Igen. A szállítólevelek készítése, küldése és követése örökre ingyenes a Paper & Pen-ben." },
+    { "q": "Elrejtheti a szállítólevél az árakat?", "a": "Igen. Választhatja, hogy árakat vagy csak mennyiségeket mutat, ami hasznos, ha a raktár vagy a futár nem láthatja az árazást." },
+    { "q": "Rögzíti az átvételi igazolást?", "a": "Igen. Rögzítse, ki és mikor vette át az árut, így egy szállítás később sem lesz vitatott." },
+    { "q": "Frissíti a szállítólevél a készletemet?", "a": "A választható Készlet modullal a szállítólevél automatikusan csökkentheti a készletszintet, amikor az áru kimegy." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Szállítson minden alkalommal igazolással",
+  "ctaSub": "Hozzon létre ingyenes Paper & Pen munkaterületet, küldjön letisztult szállítólevelet, rögzítse az átvételt, és számlázzon egy kattintással."
+}

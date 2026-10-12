@@ -1,0 +1,36 @@
+{
+  "locale": "hu",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Kiadások",
+  "metaTitle": "Kiadáskövető program · Paper & Pen",
+  "metaDescription": "Kövesse vállalkozása kiadásait online, ingyen, bármilyen pénznemben. Rögzítse a bizonylatokat, kategorizálja a költéseket, igényelje vissza az ÁFA-t, és lássa a valódi nyereséget.",
+  "keywords": "kiadáskövetés, kiadások rögzítése, üzleti kiadások, kiadáskezelő program, ingyenes kiadáskövető, bizonylatok rögzítése, áfa a kiadásokon",
+  "heroEyebrow": "Kiadások",
+  "heroTitle": "Kövessen minden üzleti <em class=\"text-copper-400 not-italic\">kiadást</em> egy helyen",
+  "heroSubtitle": "Rögzítse a bizonylatokat, kategorizálja a költéseket, igényelje vissza az ÁFA-t, és lássa a valódi nyereséget, bármilyen pénznemben. A kiadások közvetlenül a könyveibe kerülnek. Örökre ingyenes.",
+  "heroBullets": ["Örökre ingyenes", "Bizonylatok rögzítése", "Valódi nyereség"],
+  "features": [
+    { "icon": "accounting", "title": "Bármilyen kiadás rögzítése", "desc": "Rögzítsen egy számlát, készpénzes költést vagy szállítói kifizetést másodpercek alatt, kategóriával és adóval." },
+    { "icon": "doc", "title": "Bizonylatok csatolása", "desc": "Fényképezze le vagy töltse fel a bizonylatot, és tartsa a kiadás mellett a rendezett nyilvántartásért és az ellenőrzésekért." },
+    { "icon": "calc", "title": "ÁFA visszaigénylése", "desc": "Rögzítse a kiadásokon az előzetesen felszámított ÁFA-t vagy GST-t, hogy a bevallása tükrözze, mit igényelhet vissza." },
+    { "icon": "chart", "title": "Valódi nyereség", "desc": "A kiadások a bevételekkel szemben könyvelődnek, így az eredménykimutatása a valóságot mutatja, nem találgatást." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Rögzítse a költéseket USD, EUR, AED, SAR, OMR, INR és más pénznemekben, helyes tizedesjegyekkel." },
+    { "icon": "refresh", "title": "Ismétlődő kiadások", "desc": "Állítsa be a bérleti díjat, az előfizetéseket és a közüzemi díjakat, hogy minden ciklusban automatikusan rögzüljenek." }
+  ],
+  "sections": [
+    { "eyebrow": "Mi a kiadáskövetés", "title": "Mi az a kiadáskövetés?", "body": "A kiadáskövetés azt jelenti, hogy vállalkozása minden költségét rögzíti a kategóriájával, dátumával, adójával és az alátámasztó bizonylattal. Jól csinálva pontosan megmutatja, hová megy a pénz, mekkora a valódi nyereség, és mennyi előzetesen felszámított adót igényelhet vissza. Rosszul csinálva a nyereség találgatássá, az adószezon pedig kapkodássá válik. A Paper & Pen-ben ez kiadásonként néhány másodperc." },
+    { "eyebrow": "Hogyan működik", "title": "Rögzítés, kategorizálás, visszaigénylés", "body": "A Paper & Pen a szétszórt bizonylatokból rendezett, kategorizált tételeket készít, amelyek közvetlenül a könyveibe kerülnek.", "items": ["Rögzítse a kiadást kategóriával, szállítóval és adóval", "Csatolja a bizonylat fotóját vagy PDF-jét az ellenőrzési nyomvonalhoz", "Igényelje vissza az előzetesen felszámított ÁFA-t vagy GST-t, ahol lehet", "Állítsa be az ismétlődő kiadások automatikus rögzítését", "Lássa a költéseket kategóriánként és a valódi nyereséget a jelentésekben"] },
+    { "eyebrow": "Miért fontos", "title": "Nyereség, amelyben megbízhat", "body": "Amit nem mér, azt nem tudja irányítani. Ha minden kiadás a bevételekkel szemben rögzül, az eredménykimutatása pontos, az ÁFA-bevallása helyes, és még azelőtt látja, mely költségek kúsznak felfelé, mielőtt fájnának. A Paper & Pen-ben a kiadások ugyanabba a főkönyvbe kerülnek, mint az értékesítései, így a teljes kép következetes és egyeztetett marad." }
+  ],
+  "faqs": [
+    { "q": "Ingyenes a kiadáskövetés?", "a": "Igen. A kiadások rögzítése, kategorizálása és a bizonylatok csatolása örökre ingyenes a Paper & Pen-ben." },
+    { "q": "Csatolhatok bizonylatot egy kiadáshoz?", "a": "Igen. Fényképezze le vagy töltse fel a bizonylatot, és az a kiadás mellett marad, rendezett ellenőrzési nyomvonalat adva." },
+    { "q": "Visszaigényelhetem az ÁFA-t a kiadásokon?", "a": "Igen. Rögzítse minden kiadáson az előzetesen felszámított ÁFA-t vagy GST-t, hogy a bevallása pontosan tükrözze, mit igényelhet vissza." },
+    { "q": "Követhetem a kiadásokat különböző pénznemekben?", "a": "Igen. Rögzítse a költéseket bármilyen pénznemben, többek között USD, EUR, AED, SAR és OMR pénznemben, helyes tizedesjegyekkel." },
+    { "q": "Automatizálhatók az ismétlődő kiadások?", "a": "Igen. Állítsa be a bérleti díjat, az előfizetéseket és a közüzemi díjakat, hogy minden ciklusban automatikusan rögzüljenek, és semmi ne maradjon ki." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Tudja pontosan, hová megy a pénze",
+  "ctaSub": "Hozzon létre ingyenes Paper & Pen munkaterületet, rögzítsen minden kiadást, és lásson olyan nyereséget, amelyben tényleg megbízhat."
+}

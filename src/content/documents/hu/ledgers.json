@@ -1,0 +1,36 @@
+{
+  "locale": "hu",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Folyószámlák",
+  "metaTitle": "Folyószámlák és egyenlegközlők · Paper & Pen",
+  "metaDescription": "Nézze meg vevői és szállítói folyószámláit online, ingyen, bármilyen pénznemben. Minden számla, fizetés és jóváíró számla egyetlen folyamatos kivonatban.",
+  "keywords": "folyószámla, vevői folyószámla, szállítói folyószámla, folyószámla-kivonat, főkönyv, folyószámla program, egyenlegközlő",
+  "heroEyebrow": "Folyószámlák",
+  "heroTitle": "Minden tranzakció egyetlen átlátható <em class=\"text-copper-400 not-italic\">folyószámlán</em>",
+  "heroSubtitle": "Lásson folyamatos kivonatot minden számláról, fizetésről, jóváíró számláról és módosításról ügyfelenként és szállítónként, bármilyen pénznemben. Ossza meg az egyenlegközlőt egy koppintással. Örökre ingyenes.",
+  "heroBullets": ["Örökre ingyenes", "Folyamatos egyenlegek", "Egyenlegközlők azonnali megosztása"],
+  "features": [
+    { "icon": "chart", "title": "Vevői folyószámlák", "desc": "Folyamatos kivonat ügyfelenként: számlák, fizetések és jóváíró számlák élő egyenleggel." },
+    { "icon": "accounting", "title": "Szállítói folyószámlák", "desc": "Kövesse a szállítói számlákat, fizetéseket és terhelési értesítőket szállítónként, így mindig tudja, mivel tartozik." },
+    { "icon": "doc", "title": "Egyenlegközlő", "desc": "Készítsen és küldjön egyenlegközlőt bármely időszakra egy koppintással." },
+    { "icon": "shield", "title": "Mindig egyeztetve", "desc": "A folyószámlák ugyanazokból a tételekből frissülnek, mint a számlái és fizetései, így mindig egyeznek." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Lássa az egyenlegeket USD, EUR, AED, SAR, OMR, INR és más pénznemekben, helyes tizedesjegyekkel." },
+    { "icon": "whatsapp", "title": "Ossza meg bárhol", "desc": "Küldje el az egyenlegközlőt WhatsAppon vagy e-mailben, hogy az ügyfelek rendezhessék a nyitott tartozásukat." }
+  ],
+  "sections": [
+    { "eyebrow": "Mi a folyószámla", "title": "Mi az a folyószámla?", "body": "A folyószámla egy számlát érintő összes tranzakció folyamatos nyilvántartása, minden tétel után továbbvitt egyenleggel. A vevői folyószámla mutat minden kiállított számlát, minden beérkezett fizetést és minden jóváíró számlát, és azzal az egyenleggel zárul, amellyel az ügyfél tartozik. Az egyenlegközlő ugyanez a folyószámla, egy időszakra az ügyfélnek bemutatva. A folyószámlák jelentik az alapot ahhoz, hogy tudja, ki mivel tartozik, és Ön kinek tartozik." },
+    { "eyebrow": "Hogyan működik", "title": "Egyetlen hiteles forrás", "body": "A Paper & Pen-ben a folyószámla nem külön táblázat, hanem ugyanazokból a számlákból, fizetésekből és jóváíró számlákból épül fel, amelyeket már most is készít.", "items": ["Nyisson meg bármely ügyfelet vagy szállítót, és lássa a teljes folyószámláját", "Minden számla, fizetés, jóváíró számla és terhelési értesítő folyamatos egyenleggel jelenik meg", "Szűrjön időszakra egy rendezett egyenlegközlőért", "Küldje el az egyenlegközlőt WhatsAppon vagy e-mailben egy koppintással", "Az egyenlegek mindig egyeznek a számláival és a könyveivel"] },
+    { "eyebrow": "Miért fontos", "title": "Gyorsabb behajtás, soha nem fizet kétszer", "body": "Ha egy ügyfél rákérdez az egyenlegére, egy átlátható folyószámla másodpercek alatt lezárja a beszélgetést. Ha sürgetnie kell, az egyenlegközlő a legmeggyőzőbb bizonylat, amelyet küldhet. Mivel pedig a szállítói folyószámlák követik, mivel tartozik, soha nem fizet ki kétszer egy számlát, és nem marad ki terhelési értesítő. Egyetlen egyeztetett nyilvántartás, vállalkozása mindkét oldalára." }
+  ],
+  "faqs": [
+    { "q": "Mi az a vevői folyószámla?", "a": "Egy ügyfél minden számlájának, fizetésének és jóváíró számlájának folyamatos kivonata, amely azzal az egyenleggel zárul, amellyel jelenleg tartozik Önnek." },
+    { "q": "Ingyenesek a folyószámlák?", "a": "Igen. A vevői és szállítói folyószámlák és az egyenlegközlők örökre ingyenesek a Paper & Pen-ben." },
+    { "q": "Küldhetek egyenlegközlőt?", "a": "Igen. Készítsen egyenlegközlőt bármely időszakra, és küldje el WhatsAppon vagy e-mailben egy koppintással, hogy az ügyfél rendezhesse." },
+    { "q": "Egyeztetettek maradnak a folyószámlák?", "a": "Igen. A folyószámlák ugyanazokból a tételekből épülnek, mint a számlái és fizetései, így az egyenlegek mindig egyeznek a könyveivel." },
+    { "q": "Láthatom, mivel tartozom a szállítóknak?", "a": "Igen. A szállítói folyószámlák követik a szállítói számlákat, fizetéseket és terhelési értesítőket, így mindig pontosan tudja, mi nyitott az egyes szállítók felé." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Lássa azonnal, ki mivel tartozik",
+  "ctaSub": "Hozzon létre ingyenes Paper & Pen munkaterületet, és kapjon rendezett, egyeztetett folyószámlát minden ügyfeléhez és szállítójához."
+}

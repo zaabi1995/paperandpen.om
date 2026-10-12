@@ -1,0 +1,36 @@
+{
+  "locale": "hu",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Ismétlődő számlák",
+  "metaTitle": "Ismétlődő számlák · Automatikus számlázás ingyen · Paper & Pen",
+  "metaDescription": "Állítson be ismétlődő számlákat online, ingyen, bármilyen pénznemben. Számlázza automatikusan az előfizetéseket és átalánydíjakat, és küldje el WhatsAppon vagy e-mailben.",
+  "keywords": "ismétlődő számla, automatikus számla, előfizetéses számlázás, átalánydíjas számla, rendszeres számlázás, automatikus számlázás, ütemezett számla",
+  "heroEyebrow": "Ismétlődő számlák",
+  "heroTitle": "Számlázza az előfizetéseket és átalánydíjakat <em class=\"text-copper-400 not-italic\">robotpilótán</em>",
+  "heroSubtitle": "Egyszer állítsa be az összeget, a pénznemet és az ütemezést, és a Paper & Pen automatikusan kiállít és elküld minden számlát. Ugyanabban a ciklusban online szedje be a pénzt. Örökre ingyenes.",
+  "heroBullets": ["Örökre ingyenes", "Egyszer beállítja, mindig számláz", "Automatikus online beszedés"],
+  "features": [
+    { "icon": "refresh", "title": "Beállítja és elfelejti", "desc": "Egyszer határozza meg az ütemezést, és a számlák maguktól, időben készülnek el és mennek ki." },
+    { "icon": "clock", "title": "Bármilyen gyakoriság", "desc": "Hetente, havonta, negyedévente vagy évente, kezdő dátummal és választható záró dátummal." },
+    { "icon": "card", "title": "Automatikus beszedés", "desc": "Küldjön minden számlát online fizetési linkkel, vagy terhelje automatikusan minden ciklusban." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Számlázzon USD, EUR, AED, SAR, OMR, INR és más pénznemekben, a helyes adóval és tizedesjegyekkel." },
+    { "icon": "whatsapp", "title": "Küldje bárhová", "desc": "Minden ismétlődő számla automatikusan megy ki WhatsAppon vagy e-mailben." },
+    { "icon": "bell", "title": "Emlékeztetőkkel együtt", "desc": "Automatikus fizetési emlékeztetők sürgetnek minden ki nem fizetett ismétlődő számlát." }
+  ],
+  "sections": [
+    { "eyebrow": "Mi az ismétlődő számla", "title": "Mi az az ismétlődő számla?", "body": "Az ismétlődő számla olyan számla, amelyet meghatározott ütemezés szerint, ugyanannak az ügyfélnek, ugyanarra az összegre automatikusan állítanak ki. Előfizetésekhez, átalánydíjakhoz, tagságokhoz, bérleti díjhoz vagy karbantartási szerződésekhez használják. Ahelyett, hogy minden ciklusban újra elkészítené a számlát, egyszer határozza meg, és a rendszer minden esedékességkor elkészíti, sorszámozza és elküldi, így a bevétel kiszámítható, az adminisztráció pedig nulla." },
+    { "eyebrow": "Hogyan működik", "title": "Egyszer meghatározza, örökké fut", "body": "A Paper & Pen kezeli a teljes ciklust, így az ismétlődő bevétel magától folyik be.", "items": ["Hozzon létre ismétlődő sablont tételekkel, pénznemmel és adóval", "Válassza ki a gyakoriságot, a kezdő dátumot és a választható záró dátumot", "Minden ciklusban automatikusan elkészül és kimegy egy számla", "Az ügyfelek online fizetnek, és a fizetések maguktól egyeztetődnek", "Az emlékeztetők automatikusan sürgetnek minden ki nem fizetett ismétlődő számlát"] },
+    { "eyebrow": "Kinek szól", "title": "Tökéletes a kiszámítható bevételhez", "body": "Az ismétlődő számlák minden olyan vállalkozásnak valók, amely rendszeresen számláz: SaaS és előfizetések, átalánydíjas ügynökségek, edzőtermek és tagságok, ingatlanbérlet, IT- és berendezés-karbantartási szerződések, valamint menedzselt szolgáltatások. Állítsa be egyszer az ütemezést, és az ismétlődő bevétele kiszámlázódik, kimegy és sürgetődik anélkül, hogy bárkinek havonta hozzá kellene nyúlnia." }
+  ],
+  "faqs": [
+    { "q": "Mi az az ismétlődő számla?", "a": "Olyan számla, amelyet meghatározott ütemezés szerint, ugyanannak az ügyfélnek, ugyanarra az összegre automatikusan állítanak ki, előfizetésekhez, átalánydíjakhoz, bérleti díjhoz és karbantartási szerződésekhez." },
+    { "q": "Ingyenes az ismétlődő számlázás?", "a": "Igen. Az ismétlődő számlák beállítása és futtatása örökre ingyenes a Paper & Pen-ben." },
+    { "q": "Milyen gyakoriságok támogatottak?", "a": "Heti, havi, negyedéves vagy éves, kezdő dátummal és választható záró dátummal, így a sorozat akkor áll le, amikor Ön szeretné." },
+    { "q": "Terhelhetők az ügyfelek automatikusan?", "a": "Igen. Küldjön minden számlát online fizetési linkkel, vagy állítson be automatikus beszedést, hogy minden ciklus a mentett fizetési módot terhelje." },
+    { "q": "Mi történik, ha egy ismétlődő számlát nem fizetnek ki?", "a": "Az automatikus fizetési emlékeztetők sürgetnek minden ki nem fizetett ismétlődő számlát, amíg rendezik, kézi utánkövetés nélkül." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Tegye robotpilótára az ismétlődő bevételt",
+  "ctaSub": "Hozzon létre ingyenes Paper & Pen munkaterületet, állítson be egyszer egy ismétlődő számlát, és hagyja, hogy ütemezetten számlázzon, küldjön és beszedjen."
+}

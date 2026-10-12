@@ -1,0 +1,111 @@
+{
+  "locale": "hu",
+  "slug": "it-services-invoice-template",
+  "order": 17,
+  "title": "Számlasablon IT-szolgáltatóknak",
+  "metaTitle": "IT-szolgáltatás számlasablon · Paper & Pen",
+  "metaDescription": "Készítsen igényes IT-szolgáltatási számlát. Számlázza a menedzselt szolgáltatásokat, a hardvert, a szoftverlicenceket és a projekt-mérföldköveket ingyenes számlakészítőnkkel.",
+  "keywords": "IT-szolgáltatás számlasablon, menedzselt szolgáltató számla, IT-támogatás számlázás, szoftverlicenc számla, hardver-továbbértékesítés számla, IT-tanácsadói számla, MSP számlázási sablon",
+  "heroEyebrow": "Ingyenes IT-számlázási sablon",
+  "heroTitle": "Számlázza pontosan az IT-támogatást és a <em class=\"text-copper-400 not-italic\">menedzselt szolgáltatásokat</em>",
+  "heroSubtitle": "Ne használjon általános sablonokat az összetett IT-számlázáshoz. Készítsen átlátható számlákat, amelyek elválasztják a hardvereladást, a továbbszámlázott szoftverlicenceket, a projekt-mérföldköveket és az ismétlődő menedzselt szolgáltatási szerződéseket.",
+  "heroBullets": [
+    "Számlázás felhasználónként vagy eszközönként",
+    "Külön tételek a hardvernek és a szoftvernek",
+    "Számlázás a szerződésen kívüli incidensekért"
+  ],
+  "features": [
+    {
+      "icon": "users",
+      "title": "Felhasználónkénti szolgáltatási szerződések",
+      "desc": "Számlázza menedzselt szolgáltatási ügyfeleit az aktív létszámuk alapján. Minden számlázási ciklusban egyszerűen frissítse a mennyiségeket az új belépők és a távozó munkatársak szerint."
+    },
+    {
+      "icon": "inventory",
+      "title": "Hardver-továbbértékesítési tételek",
+      "desc": "Sorolja fel a szervereket, laptopokat és hálózati eszközöket külön tételként. Tartsa a hardverköltséget külön a szolgáltatási munkadíjtól, hogy átlátható maradjon az árrése."
+    },
+    {
+      "icon": "lock",
+      "title": "Szoftverlicenc-megújítások",
+      "desc": "Számlázza tovább a vírusvédelmi, mentési és felhőtárhely-licencek költségét. Csoportosítsa együtt ezeket a megújításokat, hogy az ügyfelek értsék ismétlődő szoftverköltségeiket."
+    },
+    {
+      "icon": "bolt",
+      "title": "Incidensek és hibaelhárítás",
+      "desc": "Számlázza a sürgősségi kiszállásokat és a szerződésen kívüli javításokat. Részletezze a megoldott konkrét problémát és a ledolgozott órákat, hogy alátámassza a szerződésen felüli számlázást."
+    },
+    {
+      "icon": "chart",
+      "title": "Projekt-mérföldkövek számlázása",
+      "desc": "Bontsa a nagy hálózattelepítéseket vagy szervermigrációkat kezelhető szakaszokra. Számlázzon ügyfeleinek, amikor egy-egy fázis elkészül és jóváhagyják."
+    },
+    {
+      "icon": "invoice",
+      "title": "Ismétlődő számlák ütemezése",
+      "desc": "Állítsa be egyszer havi menedzselt szolgáltatási megállapodásait, és hagyja, hogy a rendszer automatikusan elkészítse a számlát. Havonta órákat spórol meg a kézi adatrögzítésen."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "A számla követelményei",
+      "title": "Mit kell tartalmaznia egy IT-szolgáltatási számlának",
+      "body": "Egy általános számla kudarcot vall, ha hardver, szoftver és munkadíj keverékét kell számláznia. Az IT-szolgáltatási számlának egyértelműen el kell választania ezeket a kategóriákat. Az ügyfeleknek pontosan látniuk kell, miért fizetnek, hogy gyorsan jóváhagyhassák a fizetést. A hardvereladáshoz sorozatszám és garanciaidő kell. A szoftverlicencekhez megújítási dátum és felhasználószám. A szolgáltatási szerződéseknek rögzíteniük kell a lefedett időszakot és a támogatott eszközök vagy felhasználók számát. Ha szerződésen kívüli munkát végzett, le kell írnia az incidenst és a megoldást. Pontosan ezt az elrendezést elkészítheti ingyenes számlakészítőnkkel a /tools/free-invoice-generator oldalon, fiók létrehozása nélkül.",
+      "items": [
+        "Hardvertételek sorozatszámmal",
+        "Szoftverlicencek neve és megújítási dátuma",
+        "A menedzselt szolgáltatási szerződések lefedett időszaka",
+        "A szerződésen kívüli incidensmunka egyértelmű leírása"
+      ]
+    },
+    {
+      "eyebrow": "Számlázási modellek",
+      "title": "Hogyan árazzák és számlázzák az IT-szolgáltatásokat",
+      "body": "Az IT-szolgáltatók általában több árazási modellt kevernek egyetlen számlán. A menedzselt szolgáltatásokat jellemzően fix havi díjjal számlázzák, felhasználónként vagy eszközönként. Ez fedezi a szokásos támogatást és karbantartást. A hardvert és a szoftvert egyszeri vásárlásként vagy éves továbbszámlázott költségként számlázzák. A projektmunkát, például egy teljes irodai hálózat kiépítését, általában fix díjjal árazzák, és meghatározott mérföldköveknél számlázzák. Végül a fő szerződésen kívüli hibaelhárítást vagy sürgősségi támogatást óradíjjal számlázzák. A számlának mindezeket a számlázási módokat egyszerre kell kezelnie, anélkül hogy összezavarná az ügyfelet.",
+      "items": [
+        "Fix havi díj felhasználónként vagy eszközönként",
+        "Egyszeri hardver- és eszközeladás",
+        "Éves továbbszámlázott szoftverlicenc-költségek",
+        "Fix díj a projekt-mérföldkövek teljesítésekor",
+        "Óradíj a sürgősségi hibaelhárításért"
+      ]
+    },
+    {
+      "eyebrow": "Fizetési feltételek",
+      "title": "Hogyan kapja meg a pénzét az IT-szolgáltatásaiért",
+      "body": "A pénzforgalom kezelése kulcsfontosságú, ha ügyfelei nevében hardvert vásárol. Mindig kérjen előleget, mielőtt drága szervereket vagy hálózati eszközöket rendel. A havi menedzselt szolgáltatásokhoz állítson be szigorú, hét- vagy tizennégy napos fizetési határidőt. Ezeket a feltételeket minden bizonylaton tüntesse fel egyértelműen. Ha egy ügyfél figyelmen kívül hagy egy fizetést, azonnal küldjön udvarias emlékeztetőt. Ne hagyja, hogy a kifizetetlen számlák felhalmozódjanak, miközben továbbra is napi műszaki támogatást nyújt. Fizetési emlékeztetőket közvetlenül a számlázó programjából küldhet a késlekedőknek, anélkül hogy kínos e-maileket kellene magának írnia.",
+      "items": [
+        "Kérjen előleget a drága hardverek beszerzése előtt",
+        "Állítson be szigorú feltételeket a havi szolgáltatási szerződésekhez",
+        "Tüntesse fel egyértelműen a fizetési határidőt a számlán",
+        "Küldjön azonnali emlékeztetőt a lejárt tartozásokra"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hogyan számlázzam a hardverbeszerzést?",
+      "a": "A hardvert mindig külön tételként sorolja fel a számlán. Garanciális célból adja meg a gyártmányt, a típust és a sorozatszámot. Mivel a hardver előzetes tőkét igényel, kérjen előleget, mielőtt leadja a rendelést a disztribútorának. Ez védi a pénzforgalmát, és biztosítja, hogy az ügyfél elkötelezett legyen a vásárlás mellett, mielőtt Ön átveszi az eszközöket."
+    },
+    {
+      "q": "Számlázhatok szoftverlicenceket?",
+      "a": "Igen, a szoftverlicencek költségét továbbszámlázhatja ügyfeleinek. Csoportosítsa ezeket a tételeket a számlán. Mindenképp adja meg a szoftver nevét, a licencek vagy felhasználók számát és a lefedett időszak pontos dátumait. Ez segít az ügyfeleknek megérteni ismétlődő szoftverköltségeiket, és felkészíti őket a következő megújítási ciklusra."
+    },
+    {
+      "q": "Hogyan kezeljem a szerződésen kívüli támogatási kéréseket?",
+      "a": "Ha egy ügyfél olyan problémában kér segítséget, amelyre a menedzselt szolgáltatási szerződése nem terjed ki, számlázza külön tételként. Írja le a konkrét incidenst, a megoldás lépéseit és a ledolgozott órák számát. Az átlátható dokumentáció megelőzi a vitákat, és segít az ügyfélnek megérteni, miért számláz neki óradíjat a havi díján felül."
+    },
+    {
+      "q": "Hogyan számlázzam legjobban a nagy IT-projekteket?",
+      "a": "A nagy projekteket, például a szervermigrációt, szakaszokban számlázza. Állapodjon meg egy fix végösszegben, és ossza mérföldkövekre. Előre számlázhat egy előleget, egy következő részletet az eszközök telepítésekor, a végső egyenleget pedig a tesztelés és az átadás után. A mérföldkövekhez kötött számlázás egyenletesen tartja a pénzforgalmát, miközben hosszú és összetett műszaki telepítéseken dolgozik."
+    }
+  ],
+  "related": [
+    "/use-cases/agencies",
+    "/invoicing/recurring-invoices",
+    "/invoicing/invoices",
+    "/features/invoicing"
+  ],
+  "ctaTitle": "Készítse el igényes IT-szolgáltatási számláját még ma",
+  "ctaSub": "Készítsen átlátható számlákat menedzselt szolgáltatásokról, hardverről és szoftverről percek alatt. Kapja meg gyorsabban a pénzét műszaki támogatásáért és projektmunkájáért."
+}

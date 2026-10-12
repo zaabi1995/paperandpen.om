@@ -1,0 +1,36 @@
+{
+  "locale": "hu",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Beszerzési rendelések",
+  "metaTitle": "Beszerzési rendelés program · Paper & Pen",
+  "metaDescription": "Készítsen igényes beszerzési rendelést online, ingyen, bármilyen pénznemben. Küldje el a rendeléseket a szállítóknak, és kövesse a jóváhagyásokat és a szállításokat.",
+  "keywords": "beszerzési rendelés, beszerzési rendelés készítése, megrendelő, beszerzési program, ingyenes beszerzési rendelés, szállítói rendelés, rendelésből szállítói számla",
+  "heroEyebrow": "Beszerzési rendelések",
+  "heroTitle": "Rendeljen a szállítóktól szabályos <em class=\"text-copper-400 not-italic\">beszerzési rendelésekkel</em>",
+  "heroSubtitle": "Készítsen, hagyjon jóvá és küldjön beszerzési rendeléseket a szállítóknak bármilyen pénznemben, majd párosítsa őket a szállításokkal és a szállítói számlákkal, átlátható ellenőrzési nyomvonallal. Örökre ingyenes.",
+  "heroBullets": ["Örökre ingyenes", "Jóváhagyás küldés előtt", "Párosítás a szállítói számlákkal"],
+  "features": [
+    { "icon": "cart", "title": "Saját arculatú beszerzési rendelések", "desc": "Állítson ki átlátható, sorszámozott rendeléseket a szállítóknak, az Ön feltételeivel és szállítási adataival." },
+    { "icon": "check", "title": "Jóváhagyás küldés előtt", "desc": "Küldje a rendeléseket belső jóváhagyásra, így semmit nem rendelnek meg jóváhagyás nélkül." },
+    { "icon": "truck", "title": "Szállítások követése", "desc": "Lássa, mi van megrendelve, részben beérkezve és teljesen leszállítva az egyes rendeléseknél." },
+    { "icon": "refresh", "title": "Párosítás a számlákkal", "desc": "Alakítsa a beérkezett rendelést szállítói számlává, és párosítsa háromirányúan a pontosságért." },
+    { "icon": "globe", "title": "Bármilyen pénznem", "desc": "Rendeljen USD, EUR, AED, SAR, OMR, INR és más pénznemekben, a helyes adóval és tizedesjegyekkel." },
+    { "icon": "whatsapp", "title": "Küldje bárhová", "desc": "Ossza meg a rendelést a szállítóval WhatsAppon vagy e-mailben egy koppintással." }
+  ],
+  "sections": [
+    { "eyebrow": "Mi a beszerzési rendelés", "title": "Mi az a beszerzési rendelés?", "body": "A beszerzési rendelés olyan bizonylat, amelyet a vevő küld a szállítónak, hogy hivatalosan, megállapodott áron árut vagy szolgáltatást kérjen. Felsorolja a tételeket, a mennyiségeket, az egységárakat, az adókat, a szállítási feltételeket, valamint egy rendelésszámot, amelyet a szállító a számláján visszahivatkoz. A rendelés a szállító elfogadásával kötelező érvényűvé válik, és a kiadásokat azzal szabályozza, hogy jóváhagyást kér, mielőtt pénz megy ki." },
+    { "eyebrow": "Hogyan működik", "title": "Készítés, jóváhagyás, átvétel, párosítás", "body": "A Paper & Pen a teljes beszerzéstől kifizetésig tartó folyamatot kezeli, így minden rendelés jóváhagyott, követett és párosított.", "items": ["Készítsen rendelést alacsony készlet riasztásából vagy az alapoktól", "Küldje belső jóváhagyásra, mielőtt elmegy", "Küldje el a szállítónak WhatsAppon vagy e-mailben", "Vegye át az árut a rendelés alapján, és frissítse a készletet", "Alakítsa szállítói számlává, és párosítsa a rendeléssel és a szállítással"] },
+    { "eyebrow": "Miért fontos", "title": "Szabályozza a kiadást, mielőtt megtörténik", "body": "A beszerzési rendelések a kiadások ellenőrzését a pénz kifizetése elé hozzák, nem utána. Jóváhagyásokkal, szállításkövetéssel és a rendelés, az átvett áru és a szállítói számla háromirányú párosításával még a fizetés előtt kiszűri a túlszámlázást és a hiányos szállítást. Ez a fegyelem egyetlen beszerzőtől egy teljes beszerzési csapatig skálázható." }
+  ],
+  "faqs": [
+    { "q": "Mire való a beszerzési rendelés?", "a": "Hivatalosan, megállapodott áron kér árut vagy szolgáltatást a szállítótól, jóváhagyással szabályozza a kiadást, és hivatkozási számot ad a szállítónak a számlájához." },
+    { "q": "Ingyenes a beszerzési rendelés program?", "a": "Igen. A beszerzési rendelések készítése, jóváhagyása és követése örökre ingyenes a Paper & Pen-ben." },
+    { "q": "Jóváhagyhatok egy rendelést elküldés előtt?", "a": "Igen. Küldje a beszerzési rendeléseket belső jóváhagyásra, így semmit nem rendelnek meg a megfelelő jóváhagyás nélkül." },
+    { "q": "Párosíthatok egy rendelést szállítói számlával?", "a": "Igen. Alakítsa a beérkezett rendelést szállítói számlává, és párosítsa háromirányúan a rendeléssel és az átvett áruval, hogy kiszűrje az eltéréseket." },
+    { "q": "Frissíti a rendelés átvétele a készletemet?", "a": "A választható Készlet modullal az áru rendelés alapján történő átvétele automatikusan növeli a készletszintet." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Rendeljen kontrollal, nem káoszban",
+  "ctaSub": "Hozzon létre ingyenes Paper & Pen munkaterületet, készítsen jóváhagyott beszerzési rendeléseket, és párosítsa őket automatikusan a számlákkal."
+}

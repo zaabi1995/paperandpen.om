@@ -1,0 +1,45 @@
+{
+  "locale": "hu",
+  "slug": "paperandpen-vs-odoo",
+  "order": 3,
+  "competitor": "Odoo",
+  "title": "Paper & Pen vagy Odoo",
+  "metaTitle": "Paper & Pen vagy Odoo · Egyszerűbb, ingyenes ERP-alternatíva",
+  "metaDescription": "Hasonlítsa össze a Paper & Pen-t és az Odoo-t ár, ingyenes csomag, arab nyelv, bevezetési idő és Öböl menti ÁFA szerint. Egyszerűbb, ingyenes, arab nyelvre épülő ERP-alternatíva.",
+  "keywords": "paper and pen vagy odoo, odoo alternatíva, ingyenes odoo alternatíva, egyszerű erp, arab nyelvű erp program, odoo árak öböl menti országok",
+  "heroEyebrow": "Összehasonlítás",
+  "heroTitle": "Paper & Pen vagy <em class=\"text-copper-400 not-italic\">Odoo</em>",
+  "heroSubtitle": "Az Odoo erőteljes, moduláris ERP, amely szinte bármire képes. A Paper & Pen az egyszerűbb, ingyenes, arab nyelvre épülő út: a számlázás örökre ingyenes, a modulokat akkor kapcsolja be, amikor szüksége van rájuk, és percek alatt élesben van. Őszinte összehasonlítás.",
+  "heroBullets": ["Az Értékesítés és Számlázás örökre ingyenes", "Percek alatt élesben, bevezetési projekt nélkül", "Arab nyelvre épül, natív Öböl menti pénznemekkel"],
+  "features": [
+    { "icon": "bolt", "title": "Percek alatt élesben", "desc": "Nincs partner, nincs bevezetési szakasz. Regisztráljon, állítsa be az adót és a pénznemet, és küldjön számlát még ma." },
+    { "icon": "check", "title": "Ingyenes alap", "desc": "Az értékesítés és a számlázás örökre ingyenes. Csak azokért a modulokért fizet, amelyeket ténylegesen bekapcsol." },
+    { "icon": "globe", "title": "Arab nyelvre épül", "desc": "Teljes, jobbról balra író arab felület és bizonylatok, öt felületi nyelvvel már az első naptól." }
+  ],
+  "sections": [
+    { "eyebrow": "Őszintén", "title": "Miben erős az Odoo", "body": "Az Odoo valóban erőteljes. Több tucat alkalmazásával, mély testreszabhatóságával és erős fejlesztői ökoszisztémájával nagyon összetett vállalkozásokat is modellezhet, a gyártási műveletsoroktól a webáruházig és a helyszíni szervizig. Ha van rá kerete, bevezetési partnere és egyedi folyamatai, az Odoo szinte bármihez igazítható.", "items": ["Hatalmas modul- és alkalmazáskínálat", "Mély testreszabhatóság és fejlesztői ökoszisztéma", "Nagyon összetett működéshez is skálázható"] },
+    { "eyebrow": "Miben vagyunk jobbak", "title": "Egyszerűség, ár és gyors megtérülés", "body": "A legtöbb vállalkozásnak nincs szüksége bevezetési projektre ahhoz, hogy számlát küldjön. A Paper & Pen ingyenesen indítható, arab nyelvre épül, és percek alatt kész, előre beállított, testre szabható Öböl menti ÁFA-val, natív OMR, AED és SAR pénznemmel és Paymob fizetéssel. A Készletet, a HR-t vagy a Gyártást csak akkor adja hozzá, amikor kinövi az alapot, így soha nem fizet olyan összetettségért, amelyet nem használ.", "items": ["Nincs bevezetési költség az induláshoz", "Előre beállított Öböl menti ÁFA és pénznemek", "Modulok csak a növekedéssel párhuzamosan"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Odoo"],
+  "matrix": [
+    { "feature": "Örökre ingyenes csomag", "values": [true, "Egyalkalmazásos ingyenes szint"] },
+    { "feature": "Kezdő ár", "values": ["Ingyenes", "Felhasználónként fizetős"] },
+    { "feature": "Bevezetési ráfordítás", "values": ["Percek", "Bevezetési projekt"] },
+    { "feature": "Arab, jobbról balra író felület", "values": [true, "Részleges"] },
+    { "feature": "Több pénznem", "values": [true, true] },
+    { "feature": "Helyi fizetés (Paymob)", "values": [true, "Beállítással"] },
+    { "feature": "Előre beállított, testre szabható Öböl menti ÁFA", "values": [true, "Beállítható"] },
+    { "feature": "Teljes ERP-modulok", "values": ["Moduláris kiegészítők", true] },
+    { "feature": "Kinek ideális", "values": ["Egyszerűséget és ingyenességet kereső kkv-knak", "Összetett, testreszabott működéshez"] }
+  ],
+  "faqs": [
+    { "q": "Jó Odoo-alternatíva a Paper & Pen?", "a": "Igen, azoknak a kis- és középvállalkozásoknak, amelyek ingyen szeretnének kezdeni, gyorsan élesbe állni és arabul dolgozni. A nagyon összetett, erősen testreszabott, bevezetési kerettel rendelkező működéshez az Odoo marad az erősebb választás." },
+    { "q": "Olcsóbb a Paper & Pen, mint az Odoo?", "a": "A kezdés ingyenes, korlátlan számlázással, felhasználónkénti díj és bevezetési költség nélkül. Csak a bekapcsolt választható modulokért fizet." },
+    { "q": "Mennyi ideig tart a bevezetés az Odoo-hoz képest?", "a": "Perceket. Regisztrál, beállítja a pénznemet és az adót, és még aznap számlát küld, partner és bevezetési szakasz nélkül." },
+    { "q": "Van a Paper & Pen-ben készlet és gyártás, mint az Odoo-ban?", "a": "Igen, választható modulokként. A Készletet, a HR-t, a Könyvelést és a Gyártást akkor adhatja hozzá, amikor szüksége lesz rájuk, ahelyett hogy mindenért előre fizetne." },
+    { "q": "Jobb az arab nyelvű élmény?", "a": "A Paper & Pen arab nyelvre épül, teljes, jobbról balra író felülettel és arab nyelvű bizonylatokkal, míg az Odoo arab támogatása részleges, és gyakran a beállításoktól függ." }
+  ],
+  "related": ["/compare/paperandpen-vs-tally", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Hagyja ki a bevezetési projektet",
+  "ctaSub": "Kezdjen ingyen a Paper & Pen-nel, küldjön számlát még ma, és csak akkor adjon hozzá modulokat, amikor szüksége van rájuk."
+}
