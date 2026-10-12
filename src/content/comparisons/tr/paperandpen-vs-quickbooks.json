@@ -1,0 +1,45 @@
+{
+  "locale": "tr",
+  "slug": "paperandpen-vs-quickbooks",
+  "order": 4,
+  "competitor": "QuickBooks",
+  "title": "Paper & Pen ve QuickBooks Karşılaştırması",
+  "metaTitle": "Paper & Pen ve QuickBooks · Ücretsiz QuickBooks Alternatifi",
+  "metaDescription": "Paper & Pen ile QuickBooks'u fiyat, ücretsiz plan, Arapça sağdan sola arayüz, çoklu para birimi ve Körfez KDV'si açısından karşılaştırın. İşe yarayan, ücretsiz bir alternatif.",
+  "keywords": "paper and pen quickbooks karşılaştırma, quickbooks alternatifi, ücretsiz quickbooks alternatifi, quickbooks fiyatları, arapça muhasebe yazılımı, körfez faturalama yazılımı",
+  "heroEyebrow": "Karşılaştırma",
+  "heroTitle": "Paper & Pen ve <em class=\"text-copper-400 not-italic\">QuickBooks</em>",
+  "heroSubtitle": "QuickBooks cilalı ve popüler bir muhasebe ürünüdür. Paper & Pen ise her para biriminde fatura kesen, yerel ödemeleri kabul eden ve Körfez'e kutudan çıktığı gibi uyan, ücretsiz ve önce Arapçayı düşünen bir ERP'dir. Dürüst bir karşılaştırma.",
+  "heroBullets": ["Satış ve Faturalama sonsuza dek ücretsiz", "Arapça sağdan sola arayüz ve dört dil daha", "Yerel OMR, AED, SAR ve yapılandırılabilir Körfez KDV'si"],
+  "features": [
+    { "icon": "check", "title": "Ücretsiz çekirdek", "desc": "Faturalama ve satış sonsuza dek ücretsizdir. Fatura göndermek için aylık abonelik gerekmez." },
+    { "icon": "globe", "title": "Önce Arapça", "desc": "Tam sağdan sola Arapça arayüz ve belgeler, ayrıca İngilizce, Hintçe, Bengalce ve Urduca." },
+    { "icon": "card", "title": "Yerel ödemeler", "desc": "Paymob ve bölgesel ödeme geçitleri hazır gelir. Körfez müşterileri ek kurulum olmadan kartla öder." }
+  ],
+  "sections": [
+    { "eyebrow": "Dürüst değerlendirme", "title": "QuickBooks nerede güçlü", "body": "QuickBooks, sade arayüzü, ana pazarlarında güçlü banka bağlantı entegrasyonları ve kendisini tanıyan geniş bir muhasebeci ağıyla rafine ve yaygın biçimde benimsenmiş bir üründür. ABD, Birleşik Krallık ve benzeri pazarlarda, derin bir iş ortağı ekosistemiyle rahat ve yetkin bir seçimdir.", "items": ["Cilalı, tanınmış arayüz", "Ana pazarlarda güçlü banka bağlantıları", "Geniş muhasebeci ve danışman ağı"] },
+    { "eyebrow": "Güçlü olduğumuz yer", "title": "Ücretsiz, Arapça ve bölge için tasarlanmış", "body": "Paper & Pen sınırsız faturalama için gerçekten ücretsiz başlar, gerçek bir Arapça sağdan sola arayüz sunar ve OMR, AED ve SAR cinsinden doğru ondalıklarla yerel olarak fatura keser. Yapılandırılabilir Körfez KDV'si ve Paymob kart ödemeleri hazırdır. İhtiyaç duyduğunuzda tam ERP yolu da (Stok, İK, Muhasebe, Üretim) hep tek bir ücretsiz başlangıç noktasından açılır.", "items": ["Sonsuza dek ücretsiz çekirdek, aylık taban ücret yok", "Baştan sona gerçek Arapça sağdan sola", "Körfez para birimleri, yapılandırılabilir KDV ve Paymob hazır"] }
+  ],
+  "matrixCols": ["Paper & Pen", "QuickBooks"],
+  "matrix": [
+    { "feature": "Sonsuza dek ücretsiz plan", "values": [true, false] },
+    { "feature": "Başlangıç fiyatı", "values": ["Ücretsiz", "Aylık abonelik"] },
+    { "feature": "Arapça sağdan sola arayüz", "values": [true, "Sınırlı"] },
+    { "feature": "Çoklu para birimi", "values": [true, "Üst planlar"] },
+    { "feature": "Çok dilli arayüz (5)", "values": [true, "Sınırlı"] },
+    { "feature": "Yerel ödemeler (Paymob)", "values": [true, false] },
+    { "feature": "Yapılandırılabilir Körfez KDV ön ayarı", "values": [true, "Yapılandırılabilir"] },
+    { "feature": "Kurulum hızı", "values": ["Dakikalar", "Abone ol ve kur"] },
+    { "feature": "Stok, İK ve üretim", "values": [true, "Eklentiler / üst planlar"] }
+  ],
+  "faqs": [
+    { "q": "Paper & Pen iyi bir QuickBooks alternatifi mi?", "a": "Evet, özellikle Körfez'de ve ücretsiz bir faturalama çekirdeği ile yerel Körfez para birimleri isteyen Arapça konuşan ekipler için. QuickBooks ana pazarlarında mükemmeldir ama sonsuza dek ücretsiz planı yoktur ve Arapça desteği sınırlıdır." },
+    { "q": "QuickBooks'un aksine Paper & Pen ücretsiz mi?", "a": "Satış ve faturalama sonsuza dek ücretsizdir, aylık abonelik yoktur. Yalnızca Stok, İK veya Muhasebe gibi isteğe bağlı modüller için ödersiniz." },
+    { "q": "Paper & Pen çoklu para birimini destekliyor mu?", "a": "Evet, ücretsiz çekirdekte. OMR, AED, SAR, USD, EUR ve daha fazlası cinsinden, belge başına doğru ondalıklarla fatura kesebilirsiniz." },
+    { "q": "Müşteriler faturaları kartla ödeyebilir mi?", "a": "Evet. Paymob ve bölgesel ödeme geçitleri hazır gelir. Körfez'deki ve ötesindeki müşteriler fatura bağlantısından öder." },
+    { "q": "Körfez KDV'sine hazır mı?", "a": "Evet. Yapılandırılabilir Körfez KDV oranı hazırdır, vergi ise başka herhangi bir ülke için tamamen yapılandırılabilir." }
+  ],
+  "related": ["/compare/paperandpen-vs-zoho", "/compare/paperandpen-vs-wafeq", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Ücretsiz QuickBooks alternatifini deneyin",
+  "ctaSub": "Ücretsiz bir çalışma alanı oluşturun ve ilk faturanızı dakikalar içinde gönderin. Arapçaya hazır, çoklu para birimli, sonsuza dek ücretsiz."
+}

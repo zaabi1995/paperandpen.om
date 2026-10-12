@@ -1,0 +1,36 @@
+{
+  "locale": "tr",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Giderler",
+  "metaTitle": "Gider Takip Programı · Paper & Pen",
+  "metaDescription": "İşletme giderlerini her para biriminde online ve ücretsiz takip edin. Fişleri kaydedin, harcamaları sınıflandırın, KDV'yi geri alın ve kârınızı net görün.",
+  "keywords": "gider takibi, gider kaydı, işletme giderleri, gider programı, ücretsiz gider takibi, fiş kaydetme, giderlerde kdv",
+  "heroEyebrow": "Giderler",
+  "heroTitle": "İşletmenizin her <em class=\"text-copper-400 not-italic\">giderini</em> tek yerde takip edin",
+  "heroSubtitle": "Fişleri kaydedin, harcamaları sınıflandırın, KDV'yi geri alın ve gerçek kârınızı görün, hepsi her para biriminde. Giderler doğrudan hesaplarınıza bağlanır. Sonsuza kadar ücretsiz.",
+  "heroBullets": ["Sonsuza kadar ücretsiz", "Fişleri kaydedin", "Gerçek kârı görün"],
+  "features": [
+    { "icon": "accounting", "title": "Her gideri kaydedin", "desc": "Bir faturayı, nakit harcamayı veya tedarikçi ödemesini kategorisi ve vergisiyle saniyeler içinde girin." },
+    { "icon": "doc", "title": "Fiş ekleyin", "desc": "Fişin fotoğrafını çekin veya yükleyin, temiz kayıtlar ve denetimler için giderle birlikte saklayın." },
+    { "icon": "calc", "title": "KDV'yi geri alın", "desc": "Giderlerdeki indirilecek KDV'yi veya GST'yi kaydedin, vergi beyannameniz geri alabileceğiniz tutarı yansıtsın." },
+    { "icon": "chart", "title": "Gerçek kârı görün", "desc": "Giderler gelirle karşılaştırılarak işlenir, kâr ve zarar tablonuz tahmini değil gerçeği yansıtır." },
+    { "icon": "globe", "title": "Her para birimi", "desc": "Harcamaları doğru ondalıklarla USD, EUR, AED, SAR, OMR, INR ve daha fazlasında kaydedin." },
+    { "icon": "refresh", "title": "Tekrarlayan giderler", "desc": "Kira, abonelikler ve faturalar her dönem otomatik olarak kaydedilsin." }
+  ],
+  "sections": [
+    { "eyebrow": "Gider takibi nedir", "title": "Gider takibi nedir?", "body": "Gider takibi, işletmenizin yaptığı her harcamayı kategorisi, tarihi, vergisi ve destekleyici fişiyle kaydetme uygulamasıdır. İyi yapıldığında paranın tam olarak nereye gittiğini, gerçekte ne kadar kâr ettiğinizi ve ne kadar indirilecek vergiyi geri alabileceğinizi gösterir. Kötü yapıldığında kâr bir tahmine, vergi dönemi de bir koşuşturmaya dönüşür. Paper & Pen bunu gider başına birkaç saniyelik bir işe dönüştürür." },
+    { "eyebrow": "Nasıl çalışır", "title": "Kaydedin, sınıflandırın, geri alın", "body": "Paper & Pen dağınık fişleri, doğrudan hesaplarınıza akan temiz ve sınıflandırılmış kayıtlara dönüştürür.", "items": ["Bir gideri kategorisi, tedarikçisi ve vergisiyle kaydedin", "Denetim izi için fişin fotoğrafını veya PDF'ini ekleyin", "Uygun olduğunda indirilecek KDV'yi veya GST'yi geri alın", "Tekrarlayan giderlerin otomatik kaydedilmesini ayarlayın", "Raporlarınızda kategoriye göre harcamaları ve gerçek kârı görün"] },
+    { "eyebrow": "Neden önemli", "title": "Güvenebileceğiniz bir kâr", "body": "Ölçmediğiniz şeyi yönetemezsiniz. Her gider gelirle birlikte kaydedildiğinde kâr ve zarar tablonuz doğru olur, KDV beyannameniz doğru çıkar ve hangi maliyetlerin zarar vermeden önce sinsice arttığını görürsünüz. Paper & Pen'deki giderler satışlarınızla aynı deftere akar, böylece tüm tablo tutarlı ve mutabık kalır." }
+  ],
+  "faqs": [
+    { "q": "Gider takibi ücretsiz mi?", "a": "Evet. Paper & Pen'de giderleri kaydetmek, sınıflandırmak ve onlara fiş eklemek sonsuza kadar ücretsizdir." },
+    { "q": "Bir gidere fiş ekleyebilir miyim?", "a": "Evet. Fişin fotoğrafını çekin veya yükleyin, giderle birlikte kalır ve size temiz bir denetim izi verir." },
+    { "q": "Giderlerdeki KDV'yi geri alabilir miyim?", "a": "Evet. Her giderde indirilecek KDV'yi veya GST'yi kaydedin, vergi beyannameniz geri alabileceğiniz tutarı tam olarak yansıtsın." },
+    { "q": "Giderleri farklı para birimlerinde takip edebilir miyim?", "a": "Evet. Harcamaları USD, EUR, AED, SAR ve OMR dahil her para biriminde doğru ondalıklarla kaydedin." },
+    { "q": "Tekrarlayan giderler otomatikleştirilebilir mi?", "a": "Evet. Kira, abonelikler ve faturaların her dönem otomatik kaydedilmesini ayarlayın, hiçbir şey atlanmasın." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Paranızın nereye gittiğini tam olarak bilin",
+  "ctaSub": "Ücretsiz bir Paper & Pen çalışma alanı oluşturun, her gideri kaydedin ve gerçekten güvenebileceğiniz kârı görün."
+}

@@ -1,0 +1,45 @@
+{
+  "locale": "tr",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen ve Tally Karşılaştırması",
+  "metaTitle": "Paper & Pen ve Tally · Ücretsiz Bulut Tally Alternatifi",
+  "metaDescription": "Paper & Pen ile Tally'yi bulut erişimi, ücretsiz plan, Arapça sağdan sola arayüz, çoklu para birimi ve çevrimiçi ödemeler açısından karşılaştırın. Bulutta modern, ücretsiz alternatif.",
+  "keywords": "paper and pen tally karşılaştırma, tally alternatifi, bulut tally alternatifi, ücretsiz tally alternatifi, tally prime online, arapça muhasebe yazılımı",
+  "heroEyebrow": "Karşılaştırma",
+  "heroTitle": "Paper & Pen ve <em class=\"text-copper-400 not-italic\">Tally</em>",
+  "heroSubtitle": "Tally köklü, güvenilir bir muhasebe aracıdır. Paper & Pen ise tarayıcıda açtığınız, Arapça, çevrimiçi ödemeler ve her para birimini destekleyen, ücretsiz ve bulut tabanlı bir ERP'dir. İşte dürüst karşılaştırma.",
+  "heroBullets": ["Bulut tabanlı, her tarayıcıdan açılır", "Satış ve Faturalama sonsuza dek ücretsiz", "Arapça sağdan sola ve çevrimiçi kart ödemeleri"],
+  "features": [
+    { "icon": "globe", "title": "Gerçek bulut", "desc": "Kurulum yok, lisans anahtarı yok, makine başına ayar yok. Paper & Pen'i her yerde, her cihazda açın." },
+    { "icon": "card", "title": "Çevrimiçi ödeme alın", "desc": "Her fatura bir Paymob ödeme bağlantısı taşıyabilir. Müşteriler kartla öder ve ödeme kendiliğinden eşleşir." },
+    { "icon": "check", "title": "Ücretsiz başlangıç", "desc": "Faturalama ve satış sonsuza dek ücretsizdir. Belge düzenlemeden önce satın alınacak bir lisans yoktur." }
+  ],
+  "sections": [
+    { "eyebrow": "Dürüst değerlendirme", "title": "Tally nerede güçlü", "body": "Tally'nin uzun bir geçmişi, derin yasal muhasebe altyapısı ve onu çok iyi bilen büyük bir muhasebeci kitlesi vardır. Eğitimli bir operatörün çevrimdışı yürüttüğü karmaşık defter tutma işlerinde hızlı ve güvenilirdir. Birçok işletme yıllarca memnuniyetle onunla çalışır.", "items": ["Derin, denenmiş muhasebe motoru", "Geniş bir muhasebeci kitlesine tanıdık", "Kurulduktan sonra çevrimdışı çalışır"] },
+    { "eyebrow": "Güçlü olduğumuz yer", "title": "Bulut, Arapça ve tahsilat", "body": "Paper & Pen tarayıcıda çalışır. Ekibiniz ve muhasebeciniz kurulum veya sürüm uyuşmazlığı olmadan her yerden aynı canlı veriyi görür. Önce Arapçayı düşünür, tam sağdan sola arayüz sunar, OMR, AED, SAR ve her para biriminde yerel olarak fatura keser ve her faturaya çevrimiçi ödeme bağlantısı koyar. Başlangıç noktası gerçekten ücretsizdir.", "items": ["Kurulum yok, hep en son sürüm", "Arapça sağdan sola arayüz ve belgeler", "Faturalarda çevrimiçi ödeme bağlantıları, ücretsiz çekirdek"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "Sonsuza dek ücretsiz plan", "values": [true, false] },
+    { "feature": "Başlangıç fiyatı", "values": ["Ücretsiz", "Ücretli lisans"] },
+    { "feature": "Bulut / tarayıcı erişimi", "values": [true, "Eklenti"] },
+    { "feature": "Arapça sağdan sola arayüz", "values": [true, "Sınırlı"] },
+    { "feature": "Çoklu para birimi", "values": [true, true] },
+    { "feature": "Çevrimiçi kart ödemeleri (Paymob)", "values": [true, false] },
+    { "feature": "Çok dilli arayüz (5)", "values": [true, "Sınırlı"] },
+    { "feature": "Kurulum hızı", "values": ["Dakikalar", "Kurulum ve eğitim"] },
+    { "feature": "Stok ve İK modülleri", "values": [true, "Stok var, İK sınırlı"] }
+  ],
+  "faqs": [
+    { "q": "Paper & Pen iyi bir Tally alternatifi mi?", "a": "Evet, lisans satın almadan bulut erişimi, çevrimiçi ödemeler ve Arapça arayüz istiyorsanız. Tally, eğitimli bir operatörün çevrimdışı yasal defter tutması için güçlü kalmaya devam eder." },
+    { "q": "Paper & Pen'i hiçbir şey kurmadan kullanabilir miyim?", "a": "Evet. Tamamen bulut tabanlıdır. Her cihazda tarayıcıdan açarsınız ve herkes aynı canlı veriyi görür." },
+    { "q": "Paper & Pen, Tally gibi birden fazla para birimini destekliyor mu?", "a": "Evet. OMR, AED, SAR, USD, EUR ve daha fazlası cinsinden, belge başına doğru ondalıklarla fatura kesebilirsiniz." },
+    { "q": "Müşteriler faturalarımı çevrimiçi ödeyebilir mi?", "a": "Evet. Her fatura bir Paymob ödeme bağlantısı içerebilir. Müşteriler kartla öder ve ödeme otomatik eşleşir." },
+    { "q": "Ücretsiz sürüm var mı?", "a": "Evet. Satış ve faturalama sonsuza dek ücretsizdir. Yalnızca Stok, İK veya Muhasebe gibi modüller eklerseniz ödeme yaparsınız." }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Ücretsiz olarak buluta geçin",
+  "ctaSub": "Tarayıcınızda ücretsiz bir Paper & Pen çalışma alanı açın ve ilk faturanızı dakikalar içinde düzenleyin. Lisans yok, kurulum yok."
+}

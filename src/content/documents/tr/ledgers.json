@@ -1,0 +1,36 @@
+{
+  "locale": "tr",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Defterler",
+  "metaTitle": "Cari Hesap Defterleri ve Ekstreler · Paper & Pen",
+  "metaDescription": "Müşteri ve tedarikçi defterlerini her para biriminde online ve ücretsiz görün. Her fatura, ödeme ve alacak dekontu tek bir güncel ekstrede.",
+  "keywords": "defter, müşteri cari hesabı, tedarikçi cari hesabı, hesap ekstresi, büyük defter, cari hesap programı, hesap özeti",
+  "heroEyebrow": "Defterler",
+  "heroTitle": "Her işlem tek ve net bir <em class=\"text-copper-400 not-italic\">defterde</em>",
+  "heroSubtitle": "Her müşteri ve tedarikçi için her faturanın, ödemenin, alacak dekontunun ve düzeltmenin güncel ekstresini her para biriminde görün. Ekstreyi tek dokunuşla paylaşın. Sonsuza kadar ücretsiz.",
+  "heroBullets": ["Sonsuza kadar ücretsiz", "Güncel bakiyeler", "Ekstreleri anında paylaşın"],
+  "features": [
+    { "icon": "chart", "title": "Müşteri defterleri", "desc": "Müşteri başına güncel bir ekstre: canlı bakiyeyle faturalar, ödemeler ve alacak dekontları." },
+    { "icon": "accounting", "title": "Tedarikçi defterleri", "desc": "Tedarikçi başına faturaları, ödemeleri ve borç dekontlarını takip edin, ne kadar borçlu olduğunuzu her zaman bilin." },
+    { "icon": "doc", "title": "Hesap ekstresi", "desc": "Herhangi bir tarih aralığı için hesap ekstresini tek dokunuşla oluşturun ve gönderin." },
+    { "icon": "shield", "title": "Her zaman mutabık", "desc": "Defterler faturalarınız ve ödemelerinizle aynı kayıtlardan güncellenir, bu yüzden her zaman tutarlıdır." },
+    { "icon": "globe", "title": "Her para birimi", "desc": "Bakiyeleri doğru ondalıklarla USD, EUR, AED, SAR, OMR, INR ve daha fazlasında görün." },
+    { "icon": "whatsapp", "title": "Her yerde paylaşın", "desc": "Ekstreyi WhatsApp veya e-posta ile gönderin, müşteriler açık bakiyelerini kapatsın." }
+  ],
+  "sections": [
+    { "eyebrow": "Defter nedir", "title": "Defter nedir?", "body": "Defter, bir hesabı etkileyen tüm işlemlerin, her kayıttan sonra devreden bakiyeyle tutulduğu güncel kayıttır. Müşteri defteri, kestiğiniz her faturayı, aldığınız her ödemeyi ve her alacak dekontunu gösterir ve müşterinin borçlu olduğu bakiyeyle sona erer. Hesap ekstresi ise bu defterin bir dönem için müşteriye sunulmuş hâlidir. Defterler, kimin neyi borçlu olduğunu ve sizin kime borçlu olduğunuzu bilmenin temelidir." },
+    { "eyebrow": "Nasıl çalışır", "title": "Tek doğru kaynak", "body": "Paper & Pen'de defterler ayrı bir tablo değildir, zaten oluşturduğunuz faturalar, ödemeler ve alacak dekontlarından oluşur.", "items": ["Tam defterini görmek için herhangi bir müşteriyi veya tedarikçiyi açın", "Her fatura, ödeme, alacak ve borç dekontu güncel bakiyeyle görünür", "Temiz bir hesap ekstresi için tarih aralığına göre filtreleyin", "Ekstreyi tek dokunuşla WhatsApp veya e-posta ile gönderin", "Bakiyeler her zaman faturalarınız ve hesaplarınızla tutarlıdır"] },
+    { "eyebrow": "Neden önemli", "title": "Daha hızlı tahsil edin, hiçbir borcu iki kez ödemeyin", "body": "Bir müşteri bakiyeyi sorguladığında net bir defter konuşmayı saniyeler içinde bitirir. Takip etmeniz gerektiğinde hesap ekstresi gönderebileceğiniz en ikna edici belgedir. Tedarikçi defterleri borçlarınızı takip ettiği için bir faturayı asla iki kez ödemez veya bir borç dekontunu kaçırmazsınız. İşletmenizin iki tarafı için de tek ve mutabık bir kayıt." }
+  ],
+  "faqs": [
+    { "q": "Müşteri defteri nedir?", "a": "Bir müşteri için her faturanın, ödemenin ve alacak dekontunun güncel ekstresidir ve müşterinin şu anda size borçlu olduğu bakiyeyle sona erer." },
+    { "q": "Defterler ücretsiz mi?", "a": "Evet. Paper & Pen'de müşteri ve tedarikçi defterleri ile hesap ekstreleri sonsuza kadar ücretsizdir." },
+    { "q": "Hesap ekstresi gönderebilir miyim?", "a": "Evet. Herhangi bir tarih aralığı için ekstre oluşturun ve tek dokunuşla WhatsApp veya e-posta ile gönderin, müşteri borcunu kapatsın." },
+    { "q": "Defterler mutabık kalıyor mu?", "a": "Evet. Defterler faturalarınız ve ödemelerinizle aynı kayıtlardan oluşur, bu yüzden bakiyeler her zaman hesaplarınızla tutarlıdır." },
+    { "q": "Tedarikçilere ne kadar borçlu olduğumu görebilir miyim?", "a": "Evet. Tedarikçi defterleri faturaları, ödemeleri ve borç dekontlarını takip eder, her tedarikçiye tam olarak ne kadar açık borcunuz olduğunu her zaman bilirsiniz." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Kimin neyi borçlu olduğunu anında görün",
+  "ctaSub": "Ücretsiz bir Paper & Pen çalışma alanı oluşturun ve her müşteri ile tedarikçi için temiz, mutabık bir defter edinin."
+}

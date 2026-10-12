@@ -1,0 +1,36 @@
+{
+  "locale": "tr",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "İrsaliyeler",
+  "metaTitle": "İrsaliye Oluşturucu · Paper & Pen",
+  "metaDescription": "Profesyonel irsaliyeleri online ve ücretsiz oluşturun. Gönderilen malları listeleyin, teslim kanıtı alın ve irsaliyeyi tek tıkla faturaya dönüştürün.",
+  "keywords": "irsaliye, sevk irsaliyesi, irsaliye oluşturma, ambalaj listesi, teslim kanıtı, irsaliye programı, mal sevk belgesi",
+  "heroEyebrow": "İrsaliyeler",
+  "heroTitle": "Her seferinde net bir <em class=\"text-copper-400 not-italic\">irsaliyeyle</em> gönderin",
+  "heroSubtitle": "Teslim ettiğiniz malları listeleyin, teslimde teslim kanıtını alın, ardından irsaliyeyi tek tıkla faturaya dönüştürün. Her yerde çalışır.",
+  "heroBullets": ["Sonsuza kadar ücretsiz", "Teslim kanıtı", "Faturaya dönüştürün"],
+  "features": [
+    { "icon": "truck", "title": "Mal sevk belgesi", "desc": "Gönderilen kalemleri ve miktarları, fiyatlı veya fiyatsız, temiz ve markalı bir belgede listeleyin." },
+    { "icon": "check", "title": "Teslim kanıtı", "desc": "Malları kimin ve ne zaman teslim aldığını kaydedin, teslimatlar asla tartışma konusu olmasın." },
+    { "icon": "refresh", "title": "Faturaya dönüştürün", "desc": "Mallar teslim alındığında irsaliyeyi tek tıkla faturaya dönüştürün." },
+    { "icon": "inventory", "title": "Stokla bağlantılı", "desc": "Stok modülüyle bir irsaliye stoğu otomatik olarak düşürebilir." },
+    { "icon": "globe", "title": "Her yerde çalışır", "desc": "Dünya genelinde irsaliye veya sevk belgesi olarak, kendi dilinizde ve para biriminizde kullanılır." },
+    { "icon": "whatsapp", "title": "Her yere gönderin", "desc": "Müşterinin kaydı olsun diye irsaliyeyi WhatsApp veya e-posta ile paylaşın." }
+  ],
+  "sections": [
+    { "eyebrow": "İrsaliye nedir", "title": "İrsaliye nedir?", "body": "İrsaliye (sevk irsaliyesi veya ambalaj listesi olarak da bilinir), bir mal sevkiyatına eşlik eden ve neyin teslim edildiğini listeleyen belgedir. Alıcı malları bu belgeye göre kontrol eder ve teslim aldığını onaylamak için imzalar. Malların tesisinizden çıkıp müşteriye ulaştığının kanıtıdır ve bir satış siparişi ile ardından gelen fatura arasındaki köprüdür." },
+    { "eyebrow": "Nasıl çalışır", "title": "Sevk edin, onaylatın, faturalayın", "body": "Paper & Pen irsaliyeyi satış siparişinize ve faturanıza bağlar, sevkiyat ve faturalama uyum içinde ilerler.", "items": ["Bir satış siparişinden veya sıfırdan irsaliye oluşturun", "Fiyatları göstermeyi veya yalnızca miktarları seçin", "Mallarla birlikte gitmesi için gönderin veya yazdırın", "Müşteri imzaladığında teslim kanıtını kaydedin", "İrsaliyeyi tek tıkla faturaya dönüştürün"] },
+    { "eyebrow": "İrsaliye ve fatura", "title": "İrsaliye mi, fatura mı?", "body": "İrsaliye fiziksel olarak neyin taşındığını kaydeder ve teslimi onaylar, bir ödeme talebi değildir. Fatura ise bu mallar için ödeme talep eder. Birçok işletme önce irsaliyeyle teslim eder, ardından anlaşılan vadelerle faturalar. Paper & Pen tam olarak bunu yapmanızı sağlar ve onaylanmış bir teslimatı hiçbir şeyi yeniden yazmadan faturaya dönüştürür." }
+  ],
+  "faqs": [
+    { "q": "İrsaliye ile fatura arasındaki fark nedir?", "a": "İrsaliye teslim edilen malları listeler ve onaylar, ödeme talebi içermez. Fatura ödeme talep eder. Bir irsaliyeyi tek tıkla faturaya dönüştürebilirsiniz." },
+    { "q": "İrsaliye oluşturucu ücretsiz mi?", "a": "Evet. Paper & Pen'de irsaliye oluşturmak, göndermek ve takip etmek sonsuza kadar ücretsizdir." },
+    { "q": "İrsaliyede fiyatlar gizlenebilir mi?", "a": "Evet. Fiyatları göstermeyi veya yalnızca miktarları seçin. Depo veya kurye fiyatları görmemesi gerektiğinde işe yarar." },
+    { "q": "Teslim kanıtı alınıyor mu?", "a": "Evet. Malları kimin ve ne zaman teslim aldığını kaydedin, böylece bir teslimat daha sonra asla tartışılmaz." },
+    { "q": "İrsaliye stoğumu günceller mi?", "a": "İsteğe bağlı Stok modülüyle, mallar çıktıkça irsaliye stok seviyelerini otomatik olarak düşürebilir." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Her seferinde kanıtla gönderin",
+  "ctaSub": "Ücretsiz bir Paper & Pen çalışma alanı oluşturun, temiz bir irsaliye gönderin, teslim kanıtını alın ve tek tıkla faturalayın."
+}

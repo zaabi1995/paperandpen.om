@@ -1,0 +1,36 @@
+{
+  "locale": "tr",
+  "slug": "sales-orders",
+  "order": 9,
+  "title": "Satış Siparişleri",
+  "metaTitle": "Satış Siparişi Programı · Paper & Pen",
+  "metaDescription": "Her para biriminde profesyonel satış siparişlerini online ve ücretsiz oluşturun. Müşteri siparişini onaylayın, sevkiyatı ve kaparoları takip edin.",
+  "keywords": "satış siparişi, satış siparişi oluşturma, satış siparişi programı, ücretsiz satış siparişi, müşteri siparişi, sipariş yönetimi, siparişten faturaya",
+  "heroEyebrow": "Satış siparişleri",
+  "heroTitle": "Müşteri siparişlerini bir <em class=\"text-copper-400 not-italic\">satış siparişiyle</em> onaylayın ve karşılayın",
+  "heroSubtitle": "Müşterinin kabul ettiklerini kesinleştirin, kaparoları ve sevkiyatı takip edin, ardından tek tıkla irsaliyeye veya faturaya dönüştürün. Her para biriminde, her yerde.",
+  "heroBullets": ["Sonsuza kadar ücretsiz", "Kaparo ve sevkiyat takibi", "İrsaliyeye veya faturaya dönüştürün"],
+  "features": [
+    { "icon": "cart", "title": "Onaylı sipariş kaydı", "desc": "Müşterinin satın almayı kabul ettiği şeyi tam olarak kaydeden numaralı bir satış siparişi." },
+    { "icon": "card", "title": "Kaparolar", "desc": "Siparişe karşı kaparo tahsil edin ve kalan bakiyeyi takip edin." },
+    { "icon": "truck", "title": "Sevkiyat takibi", "desc": "Her siparişte neyin beklediğini, kısmen teslim edildiğini ve tamamlandığını görün." },
+    { "icon": "refresh", "title": "Tek tıkla dönüştürün", "desc": "Bir satış siparişini yeniden yazmadan irsaliyeye veya faturaya dönüştürün." },
+    { "icon": "globe", "title": "Her para birimi", "desc": "Doğru vergi ve ondalıklarla USD, EUR, AED, SAR, OMR, INR ve daha fazlasında sipariş alın." },
+    { "icon": "whatsapp", "title": "Her yere gönderin", "desc": "Sipariş onayını WhatsApp veya e-posta ile paylaşın, müşterinin kaydında olsun." }
+  ],
+  "sections": [
+    { "eyebrow": "Satış siparişi nedir", "title": "Satış siparişi nedir?", "body": "Satış siparişi, bir teklif kabul edildikten sonra satıcının müşteri siparişini onaylamak için oluşturduğu belgedir. Anlaşılan kalemleri, miktarları, fiyatları, vergileri ve teslimat koşullarını kaydeder ve siparişi karşılamak, ardından faturalamak için iç talimat olur. Teklif ile fatura arasında yer alır ve hiçbir şey gönderilmeden önce neyin vaat edildiğine dair temiz bir kayıt sağlar." },
+    { "eyebrow": "Nasıl çalışır", "title": "Onaylayın, karşılayın, faturalayın", "body": "Paper & Pen satış siparişini tüm akışa bağlar, kabul edilen bir teklif yeniden giriş yapılmadan karşılanmış ve faturalanmış bir siparişe dönüşür.", "items": ["Kabul edilen bir teklifi satış siparişine dönüştürün veya doğrudan oluşturun", "Kaparo tahsil edin ve bakiyeyi takip edin", "Siparişi bir irsaliyeyle karşılayın", "Tek tıkla faturaya dönüştürün", "Sipariş durumunu görün: bekliyor, kısmen teslim edildi, tamamlandı, faturalandı"] },
+    { "eyebrow": "Tam zincir", "title": "Tekliften tahsilata, birbirine bağlı", "body": "Teklif, satış siparişi, irsaliye, fatura, ödeme ve gerekirse alacak dekontu. Paper & Pen her adımı birbirine bağlar, her belge bir sonrakine aktarılır, toplamlar her zaman mutabık olur ve sipariş ilerledikçe hesaplarınız güncellenir. Hiçbir şey iki kez yazılmaz, hiçbir şey arada kaybolmaz." }
+  ],
+  "faqs": [
+    { "q": "Satış siparişi ile fatura arasındaki fark nedir?", "a": "Satış siparişi müşterinin satın almayı kabul ettiği şeyi onaylar ve onu karşılama talimatıdır. Fatura ise mal veya hizmetler teslim edildikten sonra ödeme talep eder. Birini diğerine tek tıkla dönüştürürsünüz." },
+    { "q": "Satış siparişi programı ücretsiz mi?", "a": "Evet. Paper & Pen'de satış siparişi oluşturmak, takip etmek ve karşılamak sonsuza kadar ücretsizdir." },
+    { "q": "Bir satış siparişinde kaparo alabilir miyim?", "a": "Evet. Siparişe karşı kaparo tahsil edin ve faturalanıp kapanana kadar kalan bakiyeyi takip edin." },
+    { "q": "Bir teklifi satış siparişine dönüştürebilir miyim?", "a": "Evet. Kabul edilen bir teklif; her satırı, indirimi ve vergiyi taşıyarak tek tıkla satış siparişine dönüşür." },
+    { "q": "Bir satış siparişini nasıl karşılarım?", "a": "Malları göndermek için satış siparişinden bir irsaliye oluşturun, ardından faturaya dönüştürün. Sevkiyat durumu siz ilerledikçe güncellenir." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/delivery-notes", "/invoicing/invoices", "/features/sales-crm", "/free-invoicing-software"],
+  "ctaTitle": "Tekliften tahsilata her şeyi tek yerde yürütün",
+  "ctaSub": "Ücretsiz bir Paper & Pen çalışma alanı oluşturun ve kabul edilen teklifleri yeniden yazmadan karşılanmış, faturalanmış satış siparişlerine dönüştürün."
+}

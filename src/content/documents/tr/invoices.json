@@ -1,0 +1,36 @@
+{
+  "locale": "tr",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Faturalar",
+  "metaTitle": "Online Faturalama · Ücretsiz Fatura Kesin · Paper & Pen",
+  "metaDescription": "Her para biriminde profesyonel faturaları online ve ücretsiz oluşturun. WhatsApp veya e-posta ile gönderin, online ödeme alın, ödenen ve geciken faturaları izleyin.",
+  "keywords": "fatura, online fatura, fatura oluşturma, fatura programı, ücretsiz fatura, kdv faturası, gst faturası, whatsapp ile fatura gönderme",
+  "heroEyebrow": "Faturalama",
+  "heroTitle": "Profesyonel <em class=\"text-copper-400 not-italic\">faturaları</em> ücretsiz oluşturun ve gönderin",
+  "heroSubtitle": "Her müşteriye, her para biriminde, seçtiğiniz vergi oranıyla fatura kesin. WhatsApp veya e-posta ile gönderin, online ödeme alın ve neyin ödendiğini, vadesinin geldiğini ve geciktiğini her zaman bilin.",
+  "heroBullets": ["Faturalama sonsuza kadar ücretsiz", "Her para birimi, her vergi oranı", "WhatsApp veya e-posta ile gönderin"],
+  "features": [
+    { "icon": "invoice", "title": "Markalı faturalar", "desc": "Logonuzu, renklerinizi ve koşullarınızı ekleyin. Her fatura profesyonel görünür ve temiz yazdırılır." },
+    { "icon": "globe", "title": "Her para birimi", "desc": "Doğru ondalıklarla USD, EUR, GBP, INR, AED, SAR, OMR ve daha fazlasında fatura kesin." },
+    { "icon": "calc", "title": "KDV ve vergiye hazır", "desc": "Herhangi bir KDV, GST veya satış vergisi oranını uygulayın. Vergi indirimler sonrası net tutar üzerinden hesaplanır." },
+    { "icon": "whatsapp", "title": "Her yere gönderin", "desc": "WhatsApp, e-posta veya indirme ile bir bağlantı ya da PDF paylaşın. Müşteri tek dokunuşla ödeyebilir." },
+    { "icon": "card", "title": "Online ödeme alın", "desc": "Kartları ve yerel ödeme yöntemlerini kabul edin, müşteriler faturayı anında kapatsın." },
+    { "icon": "bell", "title": "Otomatik hatırlatmalar", "desc": "Nazik ödeme hatırlatmaları fatura ödenene kadar otomatik olarak gider." }
+  ],
+  "sections": [
+    { "eyebrow": "Fatura nedir", "title": "Fatura nedir?", "body": "Fatura, satıcının teslim edilen mal veya hizmetler için ödeme talep etmek üzere alıcıya düzenlediği ticari belgedir. Kalemleri, miktarları, birim fiyatları, vergileri ve ödenecek toplam tutarı, ödeme koşulları ve vade tarihiyle birlikte listeler. Net ve numaralı bir fatura, satışın yasal kaydıdır ve müşterinizin size ödeme yapmasını başlatan belgedir." },
+    { "eyebrow": "Nasıl çalışır", "title": "Taslaktan ödemeye dakikalar içinde", "body": "Faturayı bir tekliften veya sıfırdan oluşturun, gönderin ve gerisini Paper & Pen'e bırakın. Ödemeler, hatırlatmalar ve defterleriniz otomatik olarak senkronize kalır.", "items": ["Kayıtlı müşteri ve ürün listesinden oluşturun veya boş başlayın", "Para biriminizi, vergi oranınızı ve ödeme koşullarınızı belirleyin", "Online ödeme bağlantısıyla WhatsApp veya e-posta ile gönderin", "Durumu takip edin: taslak, gönderildi, kısmen ödendi, ödendi, gecikti", "Manuel ödemeleri kaydedin veya online ödemelerin kendiliğinden mutabık olmasına izin verin"] },
+    { "eyebrow": "Dünya için tasarlandı", "title": "Yerel güçler, küresel erişim", "body": "Paper & Pen her yerdeki işletmeler için çalışır. Körfez ülkelerindeyseniz Arapça faturalar, yerleşik OMR, AED ve SAR biçimlendirmesi, yapılandırılabilir KDV ön ayarları ve Paymob kart ödemeleri kutudan çıktığı gibi gelir. Başka her yerde para biriminizi, vergi oranınızı ve dilinizi seçmeniz yeterlidir." }
+  ],
+  "faqs": [
+    { "q": "Faturalama gerçekten ücretsiz mi?", "a": "Evet. Paper & Pen'de fatura oluşturmak, göndermek ve takip etmek sonsuza kadar ücretsizdir. Yalnızca Stok, İK veya Muhasebe gibi isteğe bağlı modüller eklerseniz ödeme yaparsınız." },
+    { "q": "Her para biriminde fatura kesebilir miyim?", "a": "Evet. USD, EUR, GBP, INR, AED, SAR ve OMR dahil her para birimini seçin. Ondalık basamaklar otomatik ayarlanır (örneğin OMR için üç ondalık)." },
+    { "q": "KDV'yi veya GST'yi destekliyor mu?", "a": "Evet. Fatura başına veya satır başına herhangi bir vergi oranı belirleyin. Körfez kullanıcıları yapılandırılabilir bir KDV ön ayarı alır ve vergi her zaman indirimler sonrası tutar üzerinden hesaplanır." },
+    { "q": "Müşteriler bana nasıl ödeme yapar?", "a": "Faturayı online ödeme bağlantısıyla gönderin, müşteriler kartla veya yerel bir yöntemle tek dokunuşla ödesin. Nakit, banka havalesi veya çek ödemelerini de manuel olarak kaydedebilirsiniz." },
+    { "q": "Faturaları WhatsApp ile gönderebilir miyim?", "a": "Evet. Faturayı bir bağlantı veya PDF olarak doğrudan WhatsApp'a paylaşın ya da e-posta ile gönderin. İkisi de online ödeme düğmesini korur, böylece daha hızlı ödeme alırsınız." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "İlk faturanızı dakikalar içinde gönderin",
+  "ctaSub": "Ücretsiz bir Paper & Pen çalışma alanı oluşturun, logonuzu ekleyin ve online ödenen profesyonel bir fatura gönderin."
+}

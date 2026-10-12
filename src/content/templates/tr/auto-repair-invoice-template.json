@@ -1,0 +1,110 @@
+{
+  "locale": "tr",
+  "slug": "auto-repair-invoice-template",
+  "order": 10,
+  "title": "Oto Tamir Fatura Şablonu",
+  "metaTitle": "Oto Tamir Fatura Şablonu · Paper & Pen",
+  "metaDescription": "Profesyonel oto tamir faturaları oluşturun. İşçilik saatlerini faturalayın, parçaları listeleyin ve arıza tespit ücretlerini ücretsiz tamirci fatura oluşturucumuzla yönetin.",
+  "keywords": "oto tamir fatura şablonu, tamirci fatura şablonu, oto servis fatura oluşturucu, oto servis faturalama, araç tamir faturası, tamirci faturalama programı, oto tamir tahmin şablonu",
+  "heroEyebrow": "Tamirciler ve Oto Servisler İçin",
+  "heroTitle": "<em class=\"text-copper-400 not-italic\">Her ayrıntıyı gösteren</em> bir oto tamir faturası oluşturun.",
+  "heroSubtitle": "Oto servislerin gerçekte nasıl çalıştığını görmezden gelen genel şablonları bırakın. Parçaları, atölye saatlerini ve arıza tespit ücretlerini net şekilde faturalayın, kilometre ve plaka gibi araç bilgilerini de kaydedin.",
+  "heroBullets": [
+    "Parçaları tam numaralarıyla listeleyin",
+    "İşçiliği atölye ücretinden hesaplayın",
+    "Araç kilometresini ve plakasını kaydedin"
+  ],
+  "features": [
+    {
+      "icon": "truck",
+      "title": "Araç bilgileri dahil",
+      "desc": "Her araç için net bir servis geçmişi tutmak üzere plakayı, markayı, modeli ve güncel kilometreyi doğrudan belgeye kaydedin."
+    },
+    {
+      "icon": "clock",
+      "title": "İşçilik saatleri ve ücretleri",
+      "desc": "Standart atölye ücretinizi işin gerektirdiği saatle çarpın. Toplam işçilik ücretinizi gerekçelendirmek için onarıma harcanan süreyi tam olarak gösterin."
+    },
+    {
+      "icon": "inventory",
+      "title": "Net parça listesi",
+      "desc": "Her filtre, kayış veya fren balatası için ayrı satır ekleyin. Müşteriler araçlarına tam olarak neyin takıldığını bilsin diye üretici parça numaralarını yazın."
+    },
+    {
+      "icon": "calc",
+      "title": "Arıza tespit ücreti mahsubu",
+      "desc": "Müşteri işin tamamını onayladığında, ilk arıza tespit ücretini son tamir faturasından düşmek için kolayca bir satır ekleyin."
+    },
+    {
+      "icon": "quote",
+      "title": "Tahminden faturaya",
+      "desc": "Önce önerilen iş için ayrıntılı bir tahmin gönderin. Müşteri onarımı onayladığında o tahmini anında son faturaya dönüştürün."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "WhatsApp ile gönderin",
+      "desc": "Hazır faturayı basit bir bağlantıyla doğrudan müşterinizin telefonuna paylaşın. Parça ve işçilik dökümünü hemen görebilirler."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Temel fatura bilgileri",
+      "title": "Bir oto tamir faturasında neler bulunmalı",
+      "body": "Standart bir fatura şablonu oto serviste işe yaramaz, çünkü araca özel bilgiler için yer yoktur. Her belgeye aracın plakasını, markasını, modelini ve güncel kilometresini kaydetmelisiniz. Bu sizi anlaşmazlıklardan korur ve güvenilir bir servis geçmişi oluşturmaya yardım eder. Satırlarınızda parça ve işçilik kesin olarak ayrılmalıdır. Her parçayı tam parça numarası ve birim fiyatıyla listeleyin. İşçilik için çalışılan toplam saati standart atölye ücretinizle çarparak gösterin. Atık yağ bertarafı için çevre ücreti alıyorsanız, bunu işçilik maliyetine gizlemek yerine ayrı bir satır olarak listeleyin.",
+      "items": [
+        "Araç plakası ve güncel kilometre okuması",
+        "Tüm yedek parçalar için üretici parça numaraları",
+        "Atölye ücretinizle çarpılan işçilik saatleri",
+        "Atık bertaraf ücretleri için ayrı satırlar"
+      ]
+    },
+    {
+      "eyebrow": "Fiyatlandırma ve faturalama",
+      "title": "Oto tamir işleri genellikle nasıl faturalanır",
+      "body": "Tamirciler onay almadan nadiren işe başlar. Standart sıra arıza tespitiyle başlar. Arızayı bulmak için sabit bir tespit ücreti alırsınız, ardından tüm onarım için ayrıntılı bir tahmin verirsiniz. Müşteri işi onayladığında devam edersiniz. Birçok servis daha sonra ilk tespit ücretini bir jest olarak son faturadan düşer. Bu iş akışının tamamını hesap açmaya gerek kalmadan /tools/free-invoice-generator adresindeki ücretsiz fatura oluşturucumuzla yürütebilirsiniz. Tahmini oluşturun, müşterinin parçaları ve işçiliği onaylamasını bekleyin, ardından tespit mahsubu için eksi bir satırla son faturayı oluşturun.",
+      "items": [
+        "Arıza tespiti için sabit bir ücretle başlayın",
+        "Onarıma başlamadan önce tam bir tahmin verin",
+        "Devam etmek için müşterinin açık onayını bekleyin",
+        "Tespit ücretini son faturada mahsup edin"
+      ]
+    },
+    {
+      "eyebrow": "Ödeme ve koşullar",
+      "title": "Servis hizmetleriniz için ödeme almak",
+      "body": "Oto tamir, pahalı parçaları karşılamak için büyük ölçüde nakit akışına dayanır. Motor revizyonu veya şanzıman değişimi gibi büyük işlerde parça maliyetlerini karşılamak için peşin kaparo istemelisiniz. Kalan bakiye genellikle araç teslim alınırken ödenir. Fatura koşullarınız, bakiye kapanmadan aracın teslim edilmeyeceğini açıkça belirtmelidir. Müşteri onarım bittikten sonra aracını günlerce servisinizde bırakırsa günlük otopark ücreti de uygulamanız gerekebilir. Ödeme koşullarınızın bu bekletme şartlarını iş başlamadan önce net şekilde açıkladığından emin olun.",
+      "items": [
+        "Yüksek maliyetli yedek parçalar için peşin kaparo isteyin",
+        "Aracı teslim etmeden önce tam ödeme isteyin",
+        "Koşullarınıza günlük otopark ücretlerini ekleyin",
+        "Kabul edilen ödeme yöntemlerini belgede belirtin"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tamirci faturasında işçilik ücretlerini nasıl listelerim?",
+      "a": "İşçiliği parçalardan tamamen ayırmalısınız. Onarım işi için ayrı bir satır oluşturun. Standart saatlik atölye ücretinizi birim fiyat, işin sürdüğü saat sayısını da miktar olarak girin. Bu, müşteriye son maliyeti nasıl hesapladığınızı tam olarak gösterir ve toplam fatura üzerindeki tartışmaları azaltır."
+    },
+    {
+      "q": "Tamir faturalarıma şasi numarasını eklemeli miyim?",
+      "a": "Şasi numarasını eklemek iyi bir uygulamadır, ancak standart onarımlarda plaka ve kilometre genellikle yeterlidir. Şasi numarasını kaydetmek, çok özel yetkili servis parçaları sipariş etmeniz gerektiğinde veya garanti amacıyla resmi bir servis geçmişi tutuyorsanız işe yarar. Ayrıca servisin hangi araca yapıldığı konusunda karışıklık olmamasını sağlar."
+    },
+    {
+      "q": "Müşteri onarımı reddederse arıza tespit ücretini nasıl ele alırım?",
+      "a": "Arızayı bulduktan sonra müşteri onarımın tamamına devam etmemeye karar verirse, ona yalnızca tespit ücretini faturalarsınız. Bu ücreti yalnızca işin tamamını onaylarlarsa mahsup edersiniz. İlk tahmininizin, tespit ücretinin son kararlarından bağımsız olarak uygulanacağını açıkça belirttiğinden emin olun."
+    },
+    {
+      "q": "Bu şablonu kaporta işleri için kullanabilir miyim?",
+      "a": "Evet, kaporta atölyeleri aynı faturalama yapısını kullanabilir. Paneller veya klipsler gibi parçaları yine parça numaralarıyla listelemeniz ve kaporta düzeltme ya da boya işçiliğini saatlik ücretinize göre hesaplamanız gerekir. Boya malzemeleri ve vernik için de fiziksel yedek parçalardan ayrı satırlar ekleyebilirsiniz."
+    }
+  ],
+  "related": [
+    "/invoicing/estimates",
+    "/tools/free-invoice-generator",
+    "/tools/free-quotation-generator",
+    "/invoicing/invoices"
+  ],
+  "ctaTitle": "Oto tamir faturanızı bugün oluşturun",
+  "ctaSub": "Tamirciler ve oto servisler için ücretsiz araçlarımızla ayrıntılı tahminler hazırlayın, parça ve işçiliği net listeleyin ve onları anında son faturaya dönüştürün."
+}

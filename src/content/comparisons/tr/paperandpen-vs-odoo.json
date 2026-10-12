@@ -1,0 +1,45 @@
+{
+  "locale": "tr",
+  "slug": "paperandpen-vs-odoo",
+  "order": 3,
+  "competitor": "Odoo",
+  "title": "Paper & Pen ve Odoo Karşılaştırması",
+  "metaTitle": "Paper & Pen ve Odoo · Daha Basit Ücretsiz ERP Alternatifi",
+  "metaDescription": "Paper & Pen ile Odoo'yu fiyat, ücretsiz plan, Arapça sağdan sola arayüz, kurulum hızı ve Körfez KDV'si açısından karşılaştırın. Odoo'ya daha basit, ücretsiz bir alternatif.",
+  "keywords": "paper and pen odoo karşılaştırma, odoo alternatifi, ücretsiz odoo alternatifi, basit erp, arapça erp yazılımı, odoo fiyatları körfez",
+  "heroEyebrow": "Karşılaştırma",
+  "heroTitle": "Paper & Pen ve <em class=\"text-copper-400 not-italic\">Odoo</em>",
+  "heroSubtitle": "Odoo neredeyse her şeyi yapabilen güçlü, modüler bir ERP'dir. Paper & Pen ise daha basit, ücretsiz ve önce Arapçayı düşünen yoldur: faturalama sonsuza dek ücretsiz, modüller ihtiyaç duyduğunuzda, dakikalar içinde yayında. Dürüst bir karşılaştırma.",
+  "heroBullets": ["Satış ve Faturalama sonsuza dek ücretsiz", "Uygulama projesi değil, dakikalar içinde yayında", "Önce Arapça, yerel Körfez para birimleriyle"],
+  "features": [
+    { "icon": "bolt", "title": "Dakikalar içinde yayında", "desc": "İş ortağı yok, uygulama aşaması yok. Kaydolun, vergi ve para biriminizi ayarlayın, bugün fatura gönderin." },
+    { "icon": "check", "title": "Ücretsiz çekirdek", "desc": "Satış ve faturalama sonsuza dek ücretsizdir. Yalnızca gerçekten açtığınız modüller için ödersiniz." },
+    { "icon": "globe", "title": "Önce Arapça", "desc": "Tam sağdan sola Arapça arayüz ve belgeler, kutudan çıktığı gibi beş arayüz diliyle." }
+  ],
+  "sections": [
+    { "eyebrow": "Dürüst değerlendirme", "title": "Odoo nerede güçlü", "body": "Odoo gerçekten güçlüdür. Düzinelerce uygulaması, derin özelleştirme imkânı ve güçlü geliştirici ekosistemiyle üretim rotalarından e-ticarete ve saha hizmetine kadar çok karmaşık işletmeleri modelleyebilir. Bütçeniz, bir uygulama iş ortağınız ve özel süreçleriniz varsa Odoo neredeyse her şeye uyacak biçimde şekillendirilebilir.", "items": ["Çok geniş modül ve uygulama kataloğu", "Derin özelleştirme ve geliştirici ekosistemi", "Çok karmaşık operasyonlara ölçeklenir"] },
+    { "eyebrow": "Güçlü olduğumuz yer", "title": "Basitlik, fiyat ve değere ulaşma süresi", "body": "Çoğu işletmenin fatura göndermek için bir uygulama projesine ihtiyacı yoktur. Paper & Pen ücretsiz başlar, önce Arapçayı düşünür ve yapılandırılabilir Körfez KDV'si, yerel OMR, AED ve SAR ile hazır Paymob ödemeleriyle dakikalar içinde hazır olur. Stok, İK veya Üretimi yalnızca büyüdükçe eklersiniz. Kullanmadığınız karmaşıklık için asla ödeme yapmazsınız.", "items": ["Başlamak için uygulama maliyeti yok", "Körfez KDV'si ve para birimleri hazır", "Modülleri yalnızca büyüdükçe ekleyin"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Odoo"],
+  "matrix": [
+    { "feature": "Sonsuza dek ücretsiz plan", "values": [true, "Tek uygulamalık ücretsiz plan"] },
+    { "feature": "Başlangıç fiyatı", "values": ["Ücretsiz", "Kullanıcı başına ücretli"] },
+    { "feature": "Kurulum emeği", "values": ["Dakikalar", "Uygulama projesi"] },
+    { "feature": "Arapça sağdan sola arayüz", "values": [true, "Kısmi"] },
+    { "feature": "Çoklu para birimi", "values": [true, true] },
+    { "feature": "Yerel ödemeler (Paymob)", "values": [true, "Yapılandırma ile"] },
+    { "feature": "Yapılandırılabilir Körfez KDV ön ayarı", "values": [true, "Yapılandırılabilir"] },
+    { "feature": "Tam ERP modülleri", "values": ["Modüler eklentiler", true] },
+    { "feature": "En uygun kullanım", "values": ["Basit ve ücretsiz isteyen KOBİ'ler", "Karmaşık, özelleştirilmiş operasyonlar"] }
+  ],
+  "faqs": [
+    { "q": "Paper & Pen iyi bir Odoo alternatifi mi?", "a": "Evet, ücretsiz başlamak, hızla yayına girmek ve Arapça çalışmak isteyen küçük ve orta ölçekli işletmeler için. Uygulama bütçesi olan, çok karmaşık ve yoğun biçimde özelleştirilmiş operasyonlar için Odoo daha güçlü seçim olmaya devam eder." },
+    { "q": "Paper & Pen, Odoo'dan daha mı ucuz?", "a": "Başlangıç noktası sınırsız faturalama için ücretsizdir. Kullanıcı başına ücret ve uygulama maliyeti yoktur. Yalnızca açtığınız isteğe bağlı modüller için ödersiniz." },
+    { "q": "Odoo'ya kıyasla kurulum ne kadar sürer?", "a": "Dakikalar. Kaydolur, para birimi ve vergiyi ayarlar, aynı gün fatura gönderirsiniz. İş ortağı veya uygulama aşaması yoktur." },
+    { "q": "Paper & Pen'de Odoo'daki gibi stok ve üretim var mı?", "a": "Evet, isteğe bağlı modüller olarak. Her şey için baştan ödeme yapmak yerine büyüdükçe Stok, İK, Muhasebe ve Üretim ekleyebilirsiniz." },
+    { "q": "Arapça deneyimi daha mı iyi?", "a": "Paper & Pen önce Arapçayı düşünür, tam sağdan sola arayüz ve Arapça belgeler sunar. Odoo'nun Arapça desteği kısmidir ve çoğunlukla yapılandırmaya bağlıdır." }
+  ],
+  "related": ["/compare/paperandpen-vs-tally", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Uygulama sürecini atlayın",
+  "ctaSub": "Paper & Pen ile ücretsiz başlayın, bugün fatura gönderin ve modülleri yalnızca ihtiyaç duyduğunuzda ekleyin."
+}
