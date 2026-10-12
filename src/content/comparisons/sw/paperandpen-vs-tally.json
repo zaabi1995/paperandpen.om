@@ -1,0 +1,45 @@
+{
+  "locale": "sw",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen dhidi ya Tally",
+  "metaTitle": "Paper & Pen dhidi ya Tally · Mbadala wa Tally wa Wingu Bure",
+  "metaDescription": "Linganisha Paper & Pen na Tally kwa ufikiaji wa wingu, mpango wa bure, Kiarabu RTL, sarafu nyingi na malipo mtandaoni. Mbadala wa kisasa wa bure kwenye wingu.",
+  "keywords": "paper and pen dhidi ya tally, mbadala wa tally, mbadala wa tally wa wingu, mbadala wa tally bure, tally prime mtandaoni, programu ya uhasibu ya Kiarabu",
+  "heroEyebrow": "Ulinganisho",
+  "heroTitle": "Paper & Pen dhidi ya <em class=\"text-copper-400 not-italic\">Tally</em>",
+  "heroSubtitle": "Tally ni chombo cha uhasibu kinachoaminika chenye mizizi mirefu. Paper & Pen ni ERP ya bure ya wingu unayoifungua kwenye kivinjari, ikiwa na Kiarabu, malipo mtandaoni na sarafu yoyote. Huu hapa ulinganisho wa kweli.",
+  "heroBullets": ["Ya wingu tangu msingi, fungua kutoka kivinjari chochote", "Mauzo na Ankara bure milele", "Kiarabu RTL pamoja na malipo ya kadi mtandaoni"],
+  "features": [
+    { "icon": "globe", "title": "Wingu halisi", "desc": "Hakuna kusakinisha, hakuna kifaa cha leseni, hakuna usanidi kwa kila kompyuta. Fungua Paper & Pen popote, kwenye kifaa chochote." },
+    { "icon": "card", "title": "Lipwa mtandaoni", "desc": "Kila ankara inaweza kuwa na kiungo cha malipo cha Paymob ili wateja walipe kwa kadi na malipo yajipatanishe yenyewe." },
+    { "icon": "check", "title": "Bure kuanza", "desc": "Ankara na mauzo ni bure milele, bila leseni ya kununua mapema kabla ya kutoa hati." }
+  ],
+  "sections": [
+    { "eyebrow": "Maoni ya kweli", "title": "Mahali Tally ina nguvu", "body": "Tally ina historia ndefu, uhasibu wa kina wa kisheria na idadi kubwa ya wahasibu wanaoijua ndani na nje. Kwa utunzaji tata wa vitabu unaofanywa nje ya mtandao na mtumiaji aliyefunzwa, ni ya haraka na inayoaminika. Biashara nyingi huitumia kwa furaha kwa miaka mingi.", "items": ["Injini ya uhasibu ya kina iliyojaribiwa vya kutosha", "Inajulikana na wahasibu wengi", "Inafanya kazi nje ya mtandao ikishasakinishwa"] },
+    { "eyebrow": "Mahali tunashinda", "title": "Wingu, Kiarabu na kulipwa", "body": "Paper & Pen inaendeshwa kwenye kivinjari, kwa hivyo timu yako na mhasibu wako wanaona data ile ile ya moja kwa moja kutoka popote, bila kusakinisha wala kutofautiana kwa matoleo. Ni ya Kiarabu kwanza ikiwa na kiolesura kamili kutoka kulia kwenda kushoto, inatoza kiasili kwa OMR, AED, SAR na sarafu yoyote, na inaweka kiungo cha malipo mtandaoni kwenye kila ankara. Mwanzo ni bure kweli.", "items": ["Hakuna kusakinisha, daima toleo jipya zaidi", "Kiolesura na hati za Kiarabu RTL", "Viungo vya malipo mtandaoni kwenye ankara, msingi wa bure"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "Mpango wa bure milele", "values": [true, false] },
+    { "feature": "Bei ya kuanzia", "values": ["Bure", "Leseni ya kulipia"] },
+    { "feature": "Ufikiaji wa wingu / kivinjari", "values": [true, "Nyongeza"] },
+    { "feature": "Kiolesura cha Kiarabu RTL", "values": [true, "Kidogo"] },
+    { "feature": "Sarafu nyingi", "values": [true, true] },
+    { "feature": "Malipo ya kadi mtandaoni (Paymob)", "values": [true, false] },
+    { "feature": "Kiolesura cha lugha nyingi (5)", "values": [true, "Kidogo"] },
+    { "feature": "Kasi ya kuanza", "values": ["Dakika", "Kusakinisha na mafunzo"] },
+    { "feature": "Moduli za hesabu ya bidhaa na rasilimali watu", "values": [true, "Hesabu ya bidhaa ndiyo, rasilimali watu kidogo"] }
+  ],
+  "faqs": [
+    { "q": "Je, Paper & Pen ni mbadala mzuri wa Tally?", "a": "Ndiyo, ikiwa unataka ufikiaji wa wingu, malipo mtandaoni na kiolesura cha Kiarabu bila kununua leseni. Tally inabaki imara kwa utunzaji wa vitabu wa kisheria nje ya mtandao unaofanywa na mtumiaji aliyefunzwa." },
+    { "q": "Je, naweza kutumia Paper & Pen bila kusakinisha chochote?", "a": "Ndiyo. Ni ya wingu kikamilifu. Unaifungua kwenye kivinjari kwenye kifaa chochote, na kila mtu anaona data ile ile ya moja kwa moja." },
+    { "q": "Je, Paper & Pen inasaidia sarafu nyingi kama Tally?", "a": "Ndiyo. Unaweza kutoa ankara kwa OMR, AED, SAR, USD, EUR na zaidi, zenye desimali sahihi kwa kila hati." },
+    { "q": "Je, wateja wanaweza kulipa ankara zangu mtandaoni?", "a": "Ndiyo. Kila ankara inaweza kujumuisha kiungo cha malipo cha Paymob, ili wateja walipe kwa kadi na malipo yapatanishwe kiotomatiki." },
+    { "q": "Je, kuna toleo la bure?", "a": "Ndiyo. Mauzo na ankara ni bure milele. Unalipa tu ukiongeza moduli kama Hesabu ya Bidhaa, Rasilimali Watu au Uhasibu." }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Hamia kwenye wingu, bure",
+  "ctaSub": "Fungua eneo la kazi la Paper & Pen bure kwenye kivinjari chako na utoe ankara yako ya kwanza kwa dakika. Bila leseni, bila kusakinisha."
+}

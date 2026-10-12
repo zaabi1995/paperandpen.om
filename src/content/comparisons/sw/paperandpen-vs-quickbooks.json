@@ -1,0 +1,45 @@
+{
+  "locale": "sw",
+  "slug": "paperandpen-vs-quickbooks",
+  "order": 4,
+  "competitor": "QuickBooks",
+  "title": "Paper & Pen dhidi ya QuickBooks",
+  "metaTitle": "Paper & Pen dhidi ya QuickBooks · Mbadala wa QuickBooks Bure",
+  "metaDescription": "Linganisha Paper & Pen na QuickBooks kwa bei, mpango wa bure, Kiarabu RTL, sarafu nyingi na VAT ya Ghuba. Mbadala wa bure, wa Kiarabu kwanza wa QuickBooks unaofanya kazi.",
+  "keywords": "paper and pen dhidi ya quickbooks, mbadala wa quickbooks, mbadala wa quickbooks bure, bei za quickbooks, programu ya uhasibu ya Kiarabu, programu ya ankara Ghuba",
+  "heroEyebrow": "Ulinganisho",
+  "heroTitle": "Paper & Pen dhidi ya <em class=\"text-copper-400 not-italic\">QuickBooks</em>",
+  "heroSubtitle": "QuickBooks ni bidhaa ya uhasibu iliyoboreshwa na maarufu. Paper & Pen ni ERP ya bure, ya Kiarabu kwanza inayotoza kwa sarafu yoyote, inapokea malipo ya ndani na inafaa nchi za Ghuba tangu mwanzo. Ulinganisho wa kweli.",
+  "heroBullets": ["Mauzo na Ankara bure milele", "Kiarabu RTL pamoja na lugha nne zaidi", "OMR, AED, SAR asilia na VAT ya Ghuba inayorekebishwa"],
+  "features": [
+    { "icon": "check", "title": "Msingi wa bure", "desc": "Ankara na mauzo ni bure milele, bila usajili wa kila mwezi unaohitajika kutuma ankara." },
+    { "icon": "globe", "title": "Kiarabu kwanza", "desc": "Kiolesura na hati kamili za Kiarabu kutoka kulia kwenda kushoto, pamoja na Kiingereza, Kihindi, Kibengali na Kiurdu pia." },
+    { "icon": "card", "title": "Malipo ya ndani", "desc": "Paymob na lango za malipo za kikanda zimejengwa ndani, ili wateja wa Ghuba walipe kwa kadi bila usanidi wa ziada." }
+  ],
+  "sections": [
+    { "eyebrow": "Maoni ya kweli", "title": "Mahali QuickBooks ina nguvu", "body": "QuickBooks ni bidhaa iliyoboreshwa na inayotumika sana yenye kiolesura safi, miunganisho imara ya taarifa za benki katika masoko yake makuu, na mtandao mkubwa wa wahasibu wanaoifahamu. Kwa masoko ya Marekani, Uingereza na yanayofanana nayo, ni chaguo la starehe na lenye uwezo likiwa na jamii pana ya washirika.", "items": ["Kiolesura kilichoboreshwa na kinachojulikana", "Taarifa imara za benki katika masoko makuu", "Mtandao mkubwa wa wahasibu na washauri"] },
+    { "eyebrow": "Mahali tunashinda", "title": "Bure, Kiarabu na imejengwa kwa ajili ya kanda", "body": "Paper & Pen inaanza bure kweli kwa ankara bila kikomo, inaendesha kiolesura halisi cha Kiarabu kutoka kulia kwenda kushoto, na inatoza kiasili kwa OMR, AED na SAR zenye desimali sahihi. VAT ya Ghuba inayorekebishwa na malipo ya kadi ya Paymob vimewekwa tayari, na unapata njia kamili ya ERP (Hesabu ya Bidhaa, Rasilimali Watu, Uhasibu, Uzalishaji) unapoihitaji, yote kutoka mahali pamoja pa kuanzia bure.", "items": ["Msingi bure milele, bila kiwango cha chini cha kila mwezi", "Kiarabu RTL halisi, mwanzo hadi mwisho", "Sarafu za Ghuba, VAT inayorekebishwa na Paymob vimewekwa tayari"] }
+  ],
+  "matrixCols": ["Paper & Pen", "QuickBooks"],
+  "matrix": [
+    { "feature": "Mpango wa bure milele", "values": [true, false] },
+    { "feature": "Bei ya kuanzia", "values": ["Bure", "Usajili wa kila mwezi"] },
+    { "feature": "Kiolesura cha Kiarabu RTL", "values": [true, "Kidogo"] },
+    { "feature": "Sarafu nyingi", "values": [true, "Viwango vya juu"] },
+    { "feature": "Kiolesura cha lugha nyingi (5)", "values": [true, "Kidogo"] },
+    { "feature": "Malipo ya ndani (Paymob)", "values": [true, false] },
+    { "feature": "Mpangilio wa VAT ya Ghuba unaorekebishwa", "values": [true, "Inarekebishwa"] },
+    { "feature": "Kasi ya kuanza", "values": ["Dakika", "Jisajili na usanidi"] },
+    { "feature": "Hesabu ya bidhaa, rasilimali watu na uzalishaji", "values": [true, "Nyongeza / viwango vya juu"] }
+  ],
+  "faqs": [
+    { "q": "Je, Paper & Pen ni mbadala mzuri wa QuickBooks?", "a": "Ndiyo, hasa katika nchi za Ghuba na kwa timu zinazozungumza Kiarabu zinazotaka msingi wa ankara wa bure na sarafu asilia za Ghuba. QuickBooks ni bora sana katika masoko yake makuu, lakini haina mpango wa bure milele na msaada wake wa Kiarabu ni mdogo." },
+    { "q": "Je, Paper & Pen ni bure tofauti na QuickBooks?", "a": "Mauzo na ankara ni bure milele bila usajili wa kila mwezi. Unalipia tu moduli za hiari kama Hesabu ya Bidhaa, Rasilimali Watu au Uhasibu." },
+    { "q": "Je, Paper & Pen inashughulikia sarafu nyingi?", "a": "Ndiyo, kwenye msingi wa bure. Unaweza kutoa ankara kwa OMR, AED, SAR, USD, EUR na zaidi, zenye desimali sahihi kwa kila hati." },
+    { "q": "Je, wateja wanaweza kulipa ankara kwa kadi?", "a": "Ndiyo. Paymob na lango za malipo za kikanda zimejengwa ndani, ili wateja katika nchi za Ghuba na kwingineko walipe kutoka kiungo cha ankara." },
+    { "q": "Je, iko tayari kwa VAT ya Ghuba?", "a": "Ndiyo. Kiwango cha VAT ya Ghuba kinachorekebishwa kimewekwa tayari, na kodi inarekebishwa kikamilifu kwa nchi nyingine yoyote." }
+  ],
+  "related": ["/compare/paperandpen-vs-zoho", "/compare/paperandpen-vs-wafeq", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Jaribu mbadala wa QuickBooks wa bure",
+  "ctaSub": "Unda eneo la kazi bure na utume ankara yako ya kwanza kwa dakika. Tayari kwa Kiarabu, sarafu nyingi, bure milele."
+}
