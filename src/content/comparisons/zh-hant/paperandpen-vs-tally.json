@@ -1,0 +1,45 @@
+{
+  "locale": "zh-hant",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen 與 Tally 比較",
+  "metaTitle": "Paper & Pen 與 Tally 比較 · 免費雲端 Tally 替代方案",
+  "metaDescription": "從雲端存取、免費方案、阿拉伯語由右至左、多幣別和線上收款比較 Paper & Pen 與 Tally。一款現代、免費的雲端替代方案。",
+  "keywords": "Paper & Pen 比較 Tally, Tally 替代方案, 雲端 Tally 替代, 免費 Tally 替代, Tally Prime 線上, 阿拉伯語會計軟體",
+  "heroEyebrow": "比較",
+  "heroTitle": "Paper & Pen 與 <em class=\"text-copper-400 not-italic\">Tally</em> 比較",
+  "heroSubtitle": "Tally 是一款根基深厚、值得信賴的會計主力工具。Paper & Pen 是一款免費的雲端原生 ERP，在瀏覽器中就能打開，支援阿拉伯語、線上收款和任何幣別。以下是客觀的比較。",
+  "heroBullets": ["雲端原生，任何瀏覽器都能打開", "銷售與開立發票永久免費", "阿拉伯語由右至左，支援線上刷卡收款"],
+  "features": [
+    { "icon": "globe", "title": "真正的雲端", "desc": "不需安裝，沒有授權硬體鎖，也不用逐台電腦設定。在任何地方、任何裝置上打開 Paper & Pen。" },
+    { "icon": "card", "title": "線上收款", "desc": "每張發票都能附上 Paymob 付款連結，客戶刷卡付款後，款項會自動對帳。" },
+    { "icon": "check", "title": "免費起步", "desc": "開立發票和銷售永久免費，開立單據之前不需要先購買授權。" }
+  ],
+  "sections": [
+    { "eyebrow": "客觀地說", "title": "Tally 的強項", "body": "Tally 擁有悠久的歷史、深厚的法定會計功能，以及大批對它瞭若指掌的會計師使用者。對於由訓練有素的操作人員離線完成的複雜記帳，它快速又可靠。許多企業多年來一直滿意地使用它。", "items": ["久經考驗的深度會計引擎", "大批會計師都很熟悉", "安裝後可離線工作"] },
+    { "eyebrow": "我們的優勢", "title": "雲端、阿拉伯語和收款", "body": "Paper & Pen 在瀏覽器中執行，您的團隊和會計師在任何地方都能看到相同的即時資料，不需安裝，也不會出現版本不一致。它阿拉伯語優先，擁有完整的由右至左介面，原生支援以 OMR、AED、SAR 和任何幣別開立發票，並在每張發票附上線上付款連結。起點真正免費。", "items": ["不需安裝，永遠是最新版本", "阿拉伯語由右至左介面和單據", "發票附線上付款連結，核心免費"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "永久免費方案", "values": [true, false] },
+    { "feature": "起始價格", "values": ["免費", "付費授權"] },
+    { "feature": "雲端 / 瀏覽器存取", "values": [true, "附加元件"] },
+    { "feature": "阿拉伯語由右至左介面", "values": [true, "有限"] },
+    { "feature": "多幣別", "values": [true, true] },
+    { "feature": "線上刷卡收款（Paymob）", "values": [true, false] },
+    { "feature": "多語言介面（5 種）", "values": [true, "有限"] },
+    { "feature": "上手速度", "values": ["幾分鐘", "安裝並訓練"] },
+    { "feature": "庫存與人資模組", "values": [true, "有庫存，人資有限"] }
+  ],
+  "faqs": [
+    { "q": "Paper & Pen 是好的 Tally 替代方案嗎？", "a": "是的，如果您想要雲端存取、線上收款和阿拉伯語介面，又不想購買授權。對於由訓練有素的操作人員離線完成的法定記帳，Tally 依然很強。" },
+    { "q": "可以不安裝任何東西就使用 Paper & Pen 嗎？", "a": "可以。它完全以雲端為基礎。您在任何裝置的瀏覽器中打開它，所有人看到的都是相同的即時資料。" },
+    { "q": "Paper & Pen 像 Tally 一樣支援多種幣別嗎？", "a": "支援。您可以用 OMR、AED、SAR、USD、EUR 等幣別開立發票，每張單據的小數位數都正確。" },
+    { "q": "客戶可以線上支付我的發票嗎？", "a": "可以。每張發票都能包含 Paymob 付款連結，客戶刷卡付款後，款項會自動對帳。" },
+    { "q": "有免費版本嗎？", "a": "有。銷售與開立發票永久免費。只有加入庫存、人資或會計等模組時才需付費。" }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "免費轉移到雲端",
+  "ctaSub": "在瀏覽器中打開免費的 Paper & Pen 工作區，幾分鐘內開出第一張發票。不需授權，不需安裝。"
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "zh-hant",
+  "slug": "payment-receipts",
+  "order": 10,
+  "title": "付款收據",
+  "metaTitle": "付款收據製作工具 · 免費開立收據 · Paper & Pen",
+  "metaDescription": "免費線上開立專業付款收據，支援任何幣別。針對發票確認已收款項，再透過 WhatsApp 或電子郵件寄出。",
+  "keywords": "付款收據, 開立收據, 收據製作, 免費收據, 現金收據, 收款證明, 付款確認, 收據產生器",
+  "heroEyebrow": "付款收據",
+  "heroTitle": "用整齊的<em class=\"text-copper-400 not-italic\">付款收據</em>確認已收款項",
+  "heroSubtitle": "款項一入帳就開立專業收據，連結到發票，並透過 WhatsApp 或電子郵件寄出。支援任何幣別。",
+  "heroBullets": ["永久免費", "與發票連結", "透過 WhatsApp 或電子郵件寄送"],
+  "features": [
+    { "icon": "receipt", "title": "品牌收據", "desc": "為每筆收款開立有您標誌、清楚且有編號的收據。" },
+    { "icon": "invoice", "title": "與發票連結", "desc": "每張收據都記在對應的發票上，並自動更新餘額。" },
+    { "icon": "card", "title": "任何付款方式", "desc": "記錄現金、刷卡、銀行轉帳、支票或線上付款，並顯示付款方式。" },
+    { "icon": "globe", "title": "任何幣別", "desc": "以 USD、EUR、AED、SAR、OMR、INR 等幣別開立收據，小數位數正確。" },
+    { "icon": "whatsapp", "title": "隨處寄送", "desc": "透過 WhatsApp 或電子郵件寄出收據，讓客戶立即收到確認。" },
+    { "icon": "shield", "title": "紀錄整齊", "desc": "每張收據都有紀錄，讓收款和發票對帳毫不費力。" }
+  ],
+  "sections": [
+    { "eyebrow": "什麼是付款收據", "title": "什麼是付款收據？", "body": "付款收據是賣方開立的單據，用來確認已針對某張發票或某筆銷售收到款項。它註明付款金額、日期、付款方式和對應的發票。發票是要求付款，收據則是確認款項已付，既給客戶一份證明，也為您留下整齊的紀錄。" },
+    { "eyebrow": "運作方式", "title": "收款、開立收據、對帳", "body": "記錄收款時，Paper & Pen 會自動開立收據，讓您的發票和帳簿保持同步。", "items": ["針對發票記錄全額或部分收款", "產生附有金額、日期和付款方式的收據", "發票餘額和狀態自動更新", "立即透過 WhatsApp 或電子郵件寄出收據", "線上付款自動記錄並對帳"] },
+    { "eyebrow": "收據與發票", "title": "收據還是發票？", "body": "發票是付款要求，在錢易手之前開立。收據是付款確認，在收到款項之後開立。如果客戶分期付款，一張發票可以對應多張收據。Paper & Pen 針對發票追蹤每一筆收款，每次都開立收據，部分付款永遠不會漏掉。" }
+  ],
+  "faqs": [
+    { "q": "收據和發票有什麼不同？", "a": "發票在付款前要求付款，收據在收款後確認付款。分期付款時，一張發票可以對應多張收據。" },
+    { "q": "收據製作工具免費嗎？", "a": "免費。在 Paper & Pen 建立、寄送和追蹤付款收據永久免費。" },
+    { "q": "可以為部分付款開立收據嗎？", "a": "可以。針對發票記錄任何金額，系統會為這筆付款開立收據，並自動追蹤剩餘餘額。" },
+    { "q": "線上付款會產生收據嗎？", "a": "會。客戶線上付款時，款項會記到發票上，系統產生收據，也可以自動寄出。" },
+    { "q": "可以透過 WhatsApp 寄送收據嗎？", "a": "可以。透過 WhatsApp 或電子郵件以連結或 PDF 分享收據，讓客戶立即取得付款證明。" }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/credit-notes", "/features/payments", "/tools/free-receipt-generator", "/free-invoicing-software"],
+  "ctaTitle": "一收到款就寄出收據",
+  "ctaSub": "建立免費的 Paper & Pen 工作區，用整齊、專業的收據確認每一筆收款。"
+}
