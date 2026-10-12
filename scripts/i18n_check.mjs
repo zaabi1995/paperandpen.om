@@ -84,6 +84,9 @@ function checkContent(code) {
       const enData = read(enf);
       if (tr && enData && typeof tr.title === 'string' && tr.title === enData.title) errors.push(`${coll}/${code}/${file}: title is identical to English`);
       if (tr && coll === 'tools' && file === 'oman-vat-calculator.json' && tr.heroSubtitle !== tr.metaDescription) errors.push(`${coll}/${code}/${file}: heroSubtitle must equal metaDescription`);
+      // seo_integrity.py check_source_truth: "GCC" within 260 characters of "5%" reads as "5% VAT across the GCC" (false).
+      // Compact scripts (CJK) trip it from a keyword alone: write "Gulf" in the language instead of GCC there.
+      if (coll !== 'vat' && /GCC[\s\S]{0,260}(?<![0-9])5%|(?<![0-9])5%[\s\S]{0,260}GCC/i.test(fs.readFileSync(path.join(dir, file), 'utf8'))) errors.push(`${coll}/${code}/${file}: "GCC" within 260 characters of "5%" (seo_integrity GCC rule)`);
       n++;
     }
   }
