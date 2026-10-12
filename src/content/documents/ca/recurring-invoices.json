@@ -1,0 +1,36 @@
+{
+  "locale": "ca",
+  "slug": "recurring-invoices",
+  "order": 11,
+  "title": "Factures recurrents",
+  "metaTitle": "Factures recurrents · Automatitza la facturació gratis · Paper & Pen",
+  "metaDescription": "Configura factures recurrents en línia gratis i en qualsevol moneda. Factura subscripcions i quotes fixes automàticament i envia-les per WhatsApp o correu.",
+  "keywords": "factura recurrent, factura automàtica, facturació de subscripcions, factura de quota fixa, facturació recurrent, autofactura, factura programada",
+  "heroEyebrow": "Factures recurrents",
+  "heroTitle": "Factura subscripcions i quotes en <em class=\"text-copper-400 not-italic\">pilot automàtic</em>",
+  "heroSubtitle": "Defineix una vegada l'import, la moneda i el calendari, i Paper & Pen emet i envia cada factura automàticament. Cobra en línia amb el mateix cicle. Gratis per sempre.",
+  "heroBullets": ["Gratis per sempre", "Ho configures un cop i factura sempre", "Cobrament en línia automàtic"],
+  "features": [
+    { "icon": "refresh", "title": "Configura-ho i oblida-te'n", "desc": "Defineix el calendari un cop i les factures es generen i s'envien soles a temps." },
+    { "icon": "clock", "title": "Qualsevol freqüència", "desc": "Setmanal, mensual, trimestral o anual, amb data d'inici i data de fi opcional." },
+    { "icon": "card", "title": "Cobrament automàtic", "desc": "Envia cada factura amb un enllaç per pagar en línia o fes el càrrec automàtic a cada cicle." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Factura en USD, EUR, AED, SAR, OMR, INR i més, amb l'impost i els decimals correctes." },
+    { "icon": "whatsapp", "title": "Envia-les on vulguis", "desc": "Cada factura recurrent surt sola per WhatsApp o correu." },
+    { "icon": "bell", "title": "Recordatoris inclosos", "desc": "Recordatoris de pagament automàtics reclamen qualsevol factura recurrent que no s'hagi pagat." }
+  ],
+  "sections": [
+    { "eyebrow": "Què és una factura recurrent", "title": "Què és una factura recurrent?", "body": "Una factura recurrent és una factura que s'emet automàticament amb un calendari fix per al mateix client i el mateix import, i es fa servir per a subscripcions, quotes de servei, abonaments, lloguers o contractes de manteniment. En lloc de tornar a crear la factura a cada cicle, la defineixes una vegada i el sistema la genera, la numera i l'envia en cada data de venciment, amb uns ingressos previsibles i zero feina administrativa." },
+    { "eyebrow": "Com funciona", "title": "Defineix-la una vegada, funciona sempre", "body": "Paper & Pen s'encarrega de tot el cicle perquè els ingressos recurrents es cobrin sols.", "items": ["Crea una plantilla recurrent amb articles, moneda i impost", "Tria la freqüència, la data d'inici i una data de fi opcional", "A cada cicle es genera i s'envia una factura automàticament", "Els clients paguen en línia i els pagaments es concilien sols", "Els recordatoris reclamen sols qualsevol factura recurrent pendent"] },
+    { "eyebrow": "Per a qui és", "title": "Perfecte per a uns ingressos previsibles", "body": "Les factures recurrents van bé a qualsevol negoci que factura de manera repetida: SaaS i subscripcions, agències amb quota fixa, gimnasos i abonaments, lloguers d'immobles, contractes de manteniment informàtic i d'equips, i serveis gestionats. Defineix el calendari una vegada i els ingressos recurrents es facturen, s'envien i es reclamen sense que ningú hi hagi de tocar cada mes." }
+  ],
+  "faqs": [
+    { "q": "Què és una factura recurrent?", "a": "Una factura que s'emet automàticament amb un calendari fix per al mateix client i import, per a subscripcions, quotes de servei, lloguers i contractes de manteniment." },
+    { "q": "La facturació recurrent és gratuïta?", "a": "Sí. Configurar i gestionar factures recurrents és gratis per sempre a Paper & Pen." },
+    { "q": "Quines freqüències s'admeten?", "a": "Setmanal, mensual, trimestral o anual, amb una data d'inici i una data de fi opcional perquè la sèrie s'aturi quan vulguis." },
+    { "q": "Es pot cobrar els clients automàticament?", "a": "Sí. Envia cada factura amb un enllaç per pagar en línia o configura el cobrament automàtic perquè cada cicle faci el càrrec al mètode de pagament desat." },
+    { "q": "I si una factura recurrent no es paga?", "a": "Els recordatoris de pagament automàtics reclamen qualsevol factura recurrent pendent fins que es liquida, sense cap seguiment manual." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-reminders", "/invoicing/payment-receipts", "/features/payments", "/free-invoicing-software"],
+  "ctaTitle": "Posa els ingressos recurrents en pilot automàtic",
+  "ctaSub": "Crea un espai de treball gratuït de Paper & Pen, configura una factura recurrent una vegada i deixa que facturi, enviï i cobri segons el calendari."
+}

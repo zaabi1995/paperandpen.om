@@ -1,0 +1,110 @@
+{
+  "locale": "ca",
+  "slug": "auto-repair-invoice-template",
+  "order": 10,
+  "title": "Plantilla de factura per a tallers mecànics",
+  "metaTitle": "Plantilla de factura per a tallers mecànics · Paper & Pen",
+  "metaDescription": "Crea factures de taller professionals. Factura les hores de mà d'obra, detalla les peces i gestiona les tarifes de diagnosi amb el nostre generador gratuït.",
+  "keywords": "plantilla de factura de taller mecànic, plantilla de factura per a mecànics, generador de factures de taller, facturació de taller, factura de reparació de cotxes, programari de facturació per a mecànics, plantilla de pressupost de taller",
+  "heroEyebrow": "Per a mecànics i tallers",
+  "heroTitle": "Crea una factura de taller que <em class=\"text-copper-400 not-italic\">mostri cada detall</em>.",
+  "heroSubtitle": "Deixa les plantilles genèriques que no tenen en compte com funciona de debò un taller. Factura amb claredat les peces, les hores de taller i les tarifes de diagnosi, i registra dades del vehicle com el quilometratge i la matrícula.",
+  "heroBullets": [
+    "Detalla les peces amb la referència exacta",
+    "Calcula la mà d'obra a la tarifa del taller",
+    "Registra el quilometratge i la matrícula"
+  ],
+  "features": [
+    {
+      "icon": "truck",
+      "title": "Dades del vehicle incloses",
+      "desc": "Anota la matrícula, la marca, el model i el quilometratge actual al mateix document per mantenir un historial de servei clar de cada vehicle."
+    },
+    {
+      "icon": "clock",
+      "title": "Hores i tarifes de mà d'obra",
+      "desc": "Multiplica la tarifa estàndard del taller per les hores que requereix la feina. Mostra el temps exacte de reparació per justificar el total de mà d'obra."
+    },
+    {
+      "icon": "inventory",
+      "title": "Llista de peces clara",
+      "desc": "Afegeix una línia per a cada filtre, corretja o pastilla de fre. Inclou les referències del fabricant perquè el client sàpiga exactament què s'ha posat al cotxe."
+    },
+    {
+      "icon": "calc",
+      "title": "Descompte de la diagnosi",
+      "desc": "Afegeix fàcilment una línia per descomptar la tarifa de diagnosi inicial de la factura final de la reparació un cop el client autoritza tota la feina."
+    },
+    {
+      "icon": "quote",
+      "title": "Del pressupost a la factura",
+      "desc": "Envia primer un pressupost detallat de la feina proposada. Quan el client aprova la reparació, converteix aquest mateix pressupost en factura final a l'instant."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Envia per WhatsApp",
+      "desc": "Comparteix la factura acabada directament al mòbil del client amb un simple enllaç. Pot veure de seguida el desglossament de peces i mà d'obra."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Dades imprescindibles de la factura",
+      "title": "Què ha de mostrar una factura de taller",
+      "body": "Una plantilla de factura estàndard no serveix en un taller perquè no té espai per a les dades del vehicle. Has d'anotar la matrícula, la marca, el model i el quilometratge actual en cada document. Això et protegeix de reclamacions i ajuda a crear un historial de servei fiable. Les línies han de separar estrictament les peces de la mà d'obra. Detalla cada peça amb la seva referència exacta i el preu unitari. Per a la mà d'obra, mostra el total d'hores treballades multiplicat per la tarifa estàndard del taller. Si cobres una taxa mediambiental per l'eliminació de l'oli, posa-la en una línia a part en lloc d'amagar-la dins la mà d'obra.",
+      "items": [
+        "Matrícula i lectura actual del quilometratge",
+        "Referències del fabricant de totes les peces de recanvi",
+        "Hores de mà d'obra multiplicades per la tarifa del taller",
+        "Línies separades per a les taxes d'eliminació de residus"
+      ]
+    },
+    {
+      "eyebrow": "Preus i facturació",
+      "title": "Com es factura habitualment una reparació",
+      "body": "Els mecànics rarament comencen una feina sense aprovació. La seqüència habitual comença amb una diagnosi. Cobres una tarifa fixa per trobar l'avaria i després dones un pressupost detallat de tota la reparació. Quan el client autoritza la feina, la fas. Molts tallers, per cortesia, descompten la tarifa de diagnosi inicial de la factura final. Pots gestionar tot aquest flux amb el nostre generador de factures gratuït a /tools/free-invoice-generator sense necessitat de compte. Crea el pressupost, espera que el client aprovi les peces i la mà d'obra i genera la factura final amb una línia en negatiu per al descompte de la diagnosi.",
+      "items": [
+        "Comença amb una tarifa fixa de diagnosi",
+        "Dona un pressupost complet abans de reparar",
+        "Espera l'autorització explícita del client per continuar",
+        "Descompta la tarifa de diagnosi a la factura final"
+      ]
+    },
+    {
+      "eyebrow": "Pagament i condicions",
+      "title": "Cobrar els serveis del teu taller",
+      "body": "Un taller depèn molt de la tresoreria per cobrir peces cares. Per a feines grans, com reconstruir un motor o canviar una caixa de canvis, has de demanar un dipòsit per avançat que cobreixi el cost de les peces. La resta del saldo normalment es paga quan es recull el vehicle. Les condicions de la factura han de dir clarament que el cotxe no es lliurarà fins que es liquidi la factura. Si un client deixa el vehicle al taller durant dies un cop acabada la reparació, potser també hauràs d'aplicar una tarifa diària d'estada. Assegura't que les condicions de pagament expliquen bé aquestes condicions d'estada abans de començar la feina.",
+      "items": [
+        "Demana dipòsits per avançat per a peces cares",
+        "Exigeix el pagament complet abans de lliurar el vehicle",
+        "Inclou tarifes diàries d'estada a les condicions",
+        "Indica al document els mètodes de pagament acceptats"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Com poso la mà d'obra en una factura de mecànic?",
+      "a": "Has de separar del tot la mà d'obra de les peces. Crea una línia específica per a la tasca de reparació. Posa la tarifa estàndard del taller per hora com a preu unitari i les hores que ha durat la feina com a quantitat. Així el client veu exactament com has calculat el cost final i hi ha menys discussions sobre el total."
+    },
+    {
+      "q": "He d'incloure el número de bastidor a les factures de reparació?",
+      "a": "Incloure el número de bastidor (VIN) és una bona pràctica, tot i que per a reparacions normals sol bastar amb la matrícula i el quilometratge. Anotar el VIN ajuda si has de demanar peces molt específiques al concessionari o si mantens un historial de servei formal per a la garantia. També evita qualsevol confusió sobre quin vehicle ha rebut el servei."
+    },
+    {
+      "q": "Com gestiono la tarifa de diagnosi si el client rebutja la reparació?",
+      "a": "Si el client decideix no fer la reparació completa després que hagis trobat l'avaria, només li factures la tarifa de diagnosi. Només descomptes aquesta tarifa si autoritza tota la feina. Assegura't que el pressupost inicial diu clarament que el càrrec de diagnosi s'aplica sigui quina sigui la decisió final."
+    },
+    {
+      "q": "Puc fer servir aquesta plantilla per a un taller de carrosseria?",
+      "a": "Sí, els tallers de carrosseria poden fer servir la mateixa estructura de facturació. Igualment hauràs de detallar peces com panells o grapes amb les referències, i calcular la mà d'obra de xapa o pintura segons la tarifa per hora. També pots afegir línies específiques per a materials de pintura i vernissos, separades de les peces de recanvi físiques."
+    }
+  ],
+  "related": [
+    "/invoicing/estimates",
+    "/tools/free-invoice-generator",
+    "/tools/free-quotation-generator",
+    "/invoicing/invoices"
+  ],
+  "ctaTitle": "Crea avui la teva factura de taller",
+  "ctaSub": "Prepara pressupostos detallats, detalla clarament les peces i la mà d'obra i converteix-los en factures finals a l'instant amb les nostres eines gratuïtes per a mecànics i tallers."
+}

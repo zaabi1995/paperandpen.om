@@ -1,0 +1,36 @@
+{
+  "locale": "ca",
+  "slug": "sales-orders",
+  "order": 9,
+  "title": "Comandes de venda",
+  "metaTitle": "Programari de comandes de venda · Paper & Pen",
+  "metaDescription": "Crea comandes de venda professionals en línia gratis i en qualsevol moneda. Confirma la comanda d'un client i segueix-ne el lliurament i els dipòsits.",
+  "keywords": "comanda de venda, crear comanda de venda, programari de comandes de venda, comanda de venda gratis, comanda de client, gestió de comandes, de la comanda a la factura",
+  "heroEyebrow": "Comandes de venda",
+  "heroTitle": "Confirma i serveix les comandes dels clients amb una <em class=\"text-copper-400 not-italic\">comanda de venda</em>",
+  "heroSubtitle": "Deixa fixat el que el client ha acordat, segueix els dipòsits i el lliurament, i converteix-la en albarà o factura amb un clic. En qualsevol moneda, a qualsevol lloc.",
+  "heroBullets": ["Gratis per sempre", "Segueix dipòsits i lliuraments", "Converteix-la en albarà o factura"],
+  "features": [
+    { "icon": "cart", "title": "Registre de comanda confirmada", "desc": "Una comanda de venda numerada que recull exactament el que el client ha acordat comprar." },
+    { "icon": "card", "title": "Dipòsits", "desc": "Cobra un dipòsit contra la comanda i segueix el saldo pendent." },
+    { "icon": "truck", "title": "Seguiment del lliurament", "desc": "Mira què està pendent, què s'ha lliurat en part i què està complet per a cada comanda." },
+    { "icon": "refresh", "title": "Converteix amb un clic", "desc": "Transforma una comanda de venda en albarà o factura sense tornar a escriure res." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Fes comandes en USD, EUR, AED, SAR, OMR, INR i més, amb l'impost i els decimals correctes." },
+    { "icon": "whatsapp", "title": "Envia-la on vulguis", "desc": "Comparteix la confirmació de comanda per WhatsApp o correu perquè el client la tingui registrada." }
+  ],
+  "sections": [
+    { "eyebrow": "Què és una comanda de venda", "title": "Què és una comanda de venda?", "body": "Una comanda de venda és un document que el venedor crea per confirmar la comanda d'un client un cop acceptat un pressupost. Recull els articles, les quantitats, els preus, els impostos i les condicions de lliurament acordats, i esdevé la instrucció interna per servir la comanda i després facturar-la. Se situa entre el pressupost i la factura, i et dona un registre net del que s'ha promès abans que s'enviï res." },
+    { "eyebrow": "Com funciona", "title": "Confirma, serveix, factura", "body": "Paper & Pen connecta la comanda de venda amb tot el circuit perquè un pressupost acceptat esdevingui una comanda servida i facturada sense tornar a teclejar res.", "items": ["Converteix un pressupost acceptat en comanda de venda, o crea-la directament", "Cobra un dipòsit i segueix el saldo", "Serveix la comanda amb un albarà", "Converteix-la en factura amb un clic", "Mira l'estat de la comanda: pendent, lliurada en part, completa, facturada"] },
+    { "eyebrow": "Tota la cadena", "title": "Del pressupost al cobrament, tot connectat", "body": "Pressupost, comanda de venda, albarà, factura, pagament i, si cal, factura rectificativa. Paper & Pen enllaça cada pas perquè cada document passi al següent, els totals sempre quadrin i la comptabilitat s'actualitzi a mesura que avança la comanda. No s'escriu res dues vegades i no s'escapa res." }
+  ],
+  "faqs": [
+    { "q": "Quina diferència hi ha entre una comanda de venda i una factura?", "a": "La comanda de venda confirma el que el client ha acordat comprar i és la instrucció per servir-ho. La factura demana el pagament un cop lliurats els béns o serveis. Passes de l'una a l'altra amb un clic." },
+    { "q": "El programari de comandes de venda és gratuït?", "a": "Sí. Crear, seguir i servir comandes de venda és gratis per sempre a Paper & Pen." },
+    { "q": "Puc cobrar un dipòsit en una comanda de venda?", "a": "Sí. Cobra un dipòsit contra la comanda i segueix el saldo pendent fins que es factura i es liquida." },
+    { "q": "Puc convertir un pressupost en comanda de venda?", "a": "Sí. Un pressupost acceptat es converteix en comanda de venda amb un clic, amb totes les línies, descomptes i impostos." },
+    { "q": "Com serveixo una comanda de venda?", "a": "Crea un albarà a partir de la comanda per enviar la mercaderia i després converteix-la en factura. L'estat del lliurament s'actualitza sobre la marxa." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/delivery-notes", "/invoicing/invoices", "/features/sales-crm", "/free-invoicing-software"],
+  "ctaTitle": "Gestiona del pressupost al cobrament en un sol lloc",
+  "ctaSub": "Crea un espai de treball gratuït de Paper & Pen i converteix els pressupostos acceptats en comandes servides i facturades sense tornar a escriure res."
+}

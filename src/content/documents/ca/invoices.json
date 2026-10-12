@@ -1,0 +1,36 @@
+{
+  "locale": "ca",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Factures",
+  "metaTitle": "Facturació en línia · Crea i envia factures gratis · Paper & Pen",
+  "metaDescription": "Crea factures professionals en línia gratis i en qualsevol moneda. Envia-les per WhatsApp o correu, accepta pagaments en línia i controla què està pagat i què ha vençut.",
+  "keywords": "factura, factura en línia, crear factura, programari de facturació, factura gratis, factura amb iva, factura amb gst, enviar factura per whatsapp",
+  "heroEyebrow": "Facturació",
+  "heroTitle": "Crea i envia <em class=\"text-copper-400 not-italic\">factures</em> professionals gratis",
+  "heroSubtitle": "Factura a qualsevol client, en qualsevol moneda i amb el tipus impositiu que triïs. Envia per WhatsApp o correu, cobra en línia i sàpigues sempre què està pagat, pendent i vençut.",
+  "heroBullets": ["Facturació gratis per sempre", "Qualsevol moneda, qualsevol tipus impositiu", "Envia per WhatsApp o correu"],
+  "features": [
+    { "icon": "invoice", "title": "Factures amb la teva marca", "desc": "Afegeix el logotip, els colors i les condicions. Cada factura té un aspecte professional i s'imprimeix neta." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Factura en USD, EUR, GBP, INR, AED, SAR, OMR i més, amb els decimals correctes." },
+    { "icon": "calc", "title": "A punt per a l'IVA i els impostos", "desc": "Aplica qualsevol tipus d'IVA, GST o impost sobre les vendes. L'impost es calcula sobre la base, després dels descomptes." },
+    { "icon": "whatsapp", "title": "Envia-la on vulguis", "desc": "Comparteix un enllaç o un PDF per WhatsApp, correu o descàrrega. El client pot pagar amb un toc." },
+    { "icon": "card", "title": "Cobra en línia", "desc": "Accepta targetes i mètodes de pagament locals perquè els clients liquidin la factura a l'instant." },
+    { "icon": "bell", "title": "Recordatoris automàtics", "desc": "Recordatoris de pagament amables s'envien sols fins que la factura queda pagada." }
+  ],
+  "sections": [
+    { "eyebrow": "Què és una factura", "title": "Què és una factura?", "body": "Una factura és un document comercial que un venedor emet a un comprador per demanar el pagament de béns o serveis lliurats. Hi consten els articles, les quantitats, els preus unitaris, els impostos i l'import total a pagar, amb les condicions de pagament i la data de venciment. Una factura clara i numerada és el registre legal d'una venda i el que fa que el client et pagui." },
+    { "eyebrow": "Com funciona", "title": "De l'esborrany al cobrament en minuts", "body": "Crea la factura a partir d'un pressupost o des de zero, envia-la i deixa que Paper & Pen s'encarregui de la resta. Els pagaments, els recordatoris i la comptabilitat es mantenen sincronitzats sols.", "items": ["Crea-la a partir d'un client i una llista de productes desats, o comença en blanc", "Defineix la moneda, el tipus impositiu i les condicions de pagament", "Envia-la per WhatsApp o correu amb un enllaç per pagar en línia", "Segueix-ne l'estat: esborrany, enviada, pagada en part, pagada, vençuda", "Registra pagaments manuals o deixa que els pagaments en línia es concilien sols"] },
+    { "eyebrow": "Fet per a tot el món", "title": "Fortaleses locals, abast global", "body": "Paper & Pen funciona per a empreses de qualsevol lloc. Si ets al GCC, tens de sèrie factures en àrab, format natiu per a OMR, AED i SAR, plantilles d'IVA configurables i pagaments amb targeta per Paymob. A la resta del món, només has de triar la moneda, el tipus impositiu i l'idioma." }
+  ],
+  "faqs": [
+    { "q": "La facturació és realment gratuïta?", "a": "Sí. Crear, enviar i seguir factures és gratis per sempre a Paper & Pen. Només pagues si afegeixes mòduls opcionals com Inventari, RH o Comptabilitat." },
+    { "q": "Puc facturar en qualsevol moneda?", "a": "Sí. Tria qualsevol moneda, com USD, EUR, GBP, INR, AED, SAR i OMR. Els decimals s'ajusten sols (per exemple, tres decimals per a l'OMR)." },
+    { "q": "Gestiona l'IVA o el GST?", "a": "Sí. Defineix qualsevol tipus impositiu per factura o per línia. Els usuaris del GCC tenen una plantilla d'IVA configurable, i l'impost sempre es calcula sobre l'import després dels descomptes." },
+    { "q": "Com em paguen els clients?", "a": "Envia la factura amb un enllaç per pagar en línia i els clients poden pagar amb targeta o un mètode local amb un toc. També pots registrar a mà pagaments en efectiu, per transferència o amb xec." },
+    { "q": "Puc enviar factures per WhatsApp?", "a": "Sí. Comparteix la factura com a enllaç o PDF directament a WhatsApp, o envia-la per correu. Totes dues opcions mantenen el botó de pagar en línia perquè cobris abans." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Envia la teva primera factura en minuts",
+  "ctaSub": "Crea un espai de treball gratuït de Paper & Pen, afegeix el logotip i envia una factura professional que es cobra en línia."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "ca",
+  "slug": "expenses",
+  "order": 13,
+  "title": "Despeses",
+  "metaTitle": "Programari de control de despeses · Paper & Pen",
+  "metaDescription": "Controla les despeses del negoci en línia gratis i en qualsevol moneda. Desa els tiquets, classifica la despesa, recupera l'IVA i mira el benefici real.",
+  "keywords": "control de despeses, registrar despeses, despeses del negoci, programari de despeses, control de despeses gratis, desar tiquets, iva de les despeses",
+  "heroEyebrow": "Despeses",
+  "heroTitle": "Controla cada <em class=\"text-copper-400 not-italic\">despesa</em> del negoci en un sol lloc",
+  "heroSubtitle": "Desa els tiquets, classifica la despesa, recupera l'IVA i mira el benefici real, tot en qualsevol moneda. Les despeses van directes als comptes. Gratis per sempre.",
+  "heroBullets": ["Gratis per sempre", "Desa els tiquets", "Mira el benefici real"],
+  "features": [
+    { "icon": "accounting", "title": "Registra qualsevol despesa", "desc": "Anota una factura, una despesa en efectiu o un pagament a proveïdor en segons, amb la categoria i l'impost." },
+    { "icon": "doc", "title": "Adjunta els tiquets", "desc": "Fes una foto o puja el tiquet i guarda'l amb la despesa per tenir registres i auditories nets." },
+    { "icon": "calc", "title": "Recupera l'IVA", "desc": "Registra l'IVA o el GST suportat de les despeses perquè la declaració reflecteixi el que pots recuperar." },
+    { "icon": "chart", "title": "Mira el benefici real", "desc": "Les despeses es comptabilitzen contra els ingressos i el compte de resultats reflecteix la realitat, no suposicions." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Registra la despesa en USD, EUR, AED, SAR, OMR, INR i més, amb els decimals correctes." },
+    { "icon": "refresh", "title": "Despeses recurrents", "desc": "Fes que el lloguer, les subscripcions i els subministraments es registrin sols cada període." }
+  ],
+  "sections": [
+    { "eyebrow": "Què és el control de despeses", "title": "Què és el control de despeses?", "body": "El control de despeses consisteix a registrar cada cost del negoci amb la categoria, la data, l'impost i el tiquet justificant. Ben fet, et diu exactament on van els diners, quin benefici fas de debò i quant impost suportat pots recuperar. Mal fet, el benefici es converteix en una suposició i la temporada d'impostos en una cursa contra rellotge. Amb Paper & Pen, cada despesa és qüestió de segons." },
+    { "eyebrow": "Com funciona", "title": "Desa, classifica, recupera", "body": "Paper & Pen converteix tiquets dispersos en registres nets i classificats que van directament als comptes.", "items": ["Registra una despesa amb la categoria, el proveïdor i l'impost", "Adjunta la foto o el PDF del tiquet per a la traçabilitat", "Recupera l'IVA o el GST suportat quan correspongui", "Fes que les despeses recurrents es registrin soles", "Mira la despesa per categoria i el benefici real als informes"] },
+    { "eyebrow": "Per què és important", "title": "Un benefici del qual et pots refiar", "body": "No pots gestionar el que no mesures. Quan cada despesa es registra contra els ingressos, el compte de resultats és exacte, la declaració d'IVA és correcta i veus quins costos s'enfilen abans que facin mal. A Paper & Pen, les despeses alimenten el mateix llibre major que les vendes, i tota la imatge es manté coherent i conciliada." }
+  ],
+  "faqs": [
+    { "q": "El control de despeses és gratuït?", "a": "Sí. Registrar i classificar despeses i adjuntar-hi tiquets és gratis per sempre a Paper & Pen." },
+    { "q": "Puc adjuntar un tiquet a una despesa?", "a": "Sí. Fes una foto o puja el tiquet i quedarà amb la despesa, amb una traçabilitat neta." },
+    { "q": "Puc recuperar l'IVA de les despeses?", "a": "Sí. Registra l'IVA o el GST suportat de cada despesa perquè la declaració reflecteixi exactament el que pots recuperar." },
+    { "q": "Puc controlar despeses en monedes diferents?", "a": "Sí. Registra la despesa en qualsevol moneda, com USD, EUR, AED, SAR i OMR, amb els decimals correctes." },
+    { "q": "Es poden automatitzar les despeses recurrents?", "a": "Sí. Fes que el lloguer, les subscripcions i els subministraments es registrin sols cada període perquè no se n'escapi cap." }
+  ],
+  "related": ["/invoicing/ledgers", "/invoicing/purchase-orders", "/invoicing/debit-notes", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Sàpigues exactament on van els teus diners",
+  "ctaSub": "Crea un espai de treball gratuït de Paper & Pen, registra cada despesa i mira un benefici del qual et pots refiar de debò."
+}

@@ -1,0 +1,60 @@
+---
+locale: "ca"
+slug: "vat-invoicing-gcc-guide"
+title: "Guia de facturació amb IVA al GCC: normes de la factura fiscal per país"
+description: "Les normes de la factura amb IVA al GCC varien segons el país. Comprova quins camps sol necessitar una factura fiscal, l'ordre de càlcul correcte i on verificar les normes vigents."
+shortAnswer: "Les normes de la factura amb IVA al GCC varien segons el país. Comprova quins camps sol necessitar una factura fiscal, l'ordre de càlcul correcte i on verificar les normes vigents."
+pubDate: 2026-06-04
+updatedDate: "2026-08-21"
+author: "Paper & Pen"
+tags: ["vat", "invoicing", "gcc", "guide"]
+---
+
+Si vens al Golf, les factures han de satisfer les autoritats tributàries a més dels clients. Les normes no són complicades un cop les coneixes, però oblidar un camp obligatori o calcular malament l'impost et pot costar sancions o la pèrdua de deduccions de l'impost suportat. Aquesta guia explica què necessita una factura amb IVA conforme al GCC, on s'amaguen els errors habituals i per què no has de donar mai per fet que el tipus d'un país s'aplica a tot arreu.
+
+## L'IVA al GCC d'un cop d'ull
+
+L'IVA no és uniforme al GCC. Cada país fixa el seu tipus, el llindar de registre, les normes de facturació i el procés de declaració, i alguns països no han implantat l'IVA. Comprova sempre la situació vigent amb l'autoritat tributària on estàs registrat.
+
+Un punt clau: **no hi ha un tipus d'IVA únic per a tot el GCC.** Si factures a clients d'altres països, fixa el tipus vigent de cada jurisdicció en lloc d'arrossegar la configuració d'un país a un altre.
+
+## Què ha de mostrar una factura amb IVA (fiscal)
+
+Per ser conforme, una factura fiscal en general ha de portar:
+
+- **Les paraules "Tax Invoice"** (factura fiscal) ben visibles al document.
+- **El teu nom, l'adreça i el número de registre de l'IVA.**
+- **El nom i l'adreça del client,** i el seu número d'IVA si està registrat i es dedueix l'impost.
+- **Un número de factura correlatiu i únic** i la data d'emissió.
+- **Una descripció de cada article,** amb la quantitat i el preu unitari.
+- **La base (import abans d'impostos), el tipus i l'import de l'IVA, i el total.**
+- **La moneda,** indicada explícitament (OMR, AED, SAR, etc.).
+
+Diversos estats del GCC admeten factures fiscals simplificades per a imports petits de venda al detall, però el llindar i les normes exactes varien segons el país, així que confirma-ho localment.
+
+## L'error que enxampa tothom: l'impost sobre la base
+
+L'error d'IVA més habitual és calcular l'impost sobre l'import brut o abans d'aplicar un descompte. L'ordre correcte és:
+
+1. Suma les línies per obtenir el subtotal.
+2. Resta-hi qualsevol descompte.
+3. **Aplica l'IVA a aquesta base ja descomptada.**
+4. Suma l'IVA a la base per arribar al total.
+
+Per exemple, en una venda de OMR 1,000 amb un descompte de OMR 100, l'IVA al 5% s'aplica sobre OMR 900, i dona OMR 45 d'impost i un total de OMR 945, no OMR 50 sobre els mil sencers. Si t'equivoques, cobres de més als clients i declares malament l'impost.
+
+## Tipus zero, exempcions i operacions no subjectes
+
+No totes les línies tributen al tipus general. Alguns lliuraments tenen **tipus zero** (tributen al 0% però igualment es declaren), alguns estan **exempts** (sense IVA i amb una recuperació limitada de l'impost suportat) i alguns queden del tot **fora de l'àmbit** de l'impost. El tractament depèn de què vens i on, així que, si tens dubtes, consulta la guia de la teva autoritat o el teu comptable. L'eina de facturació t'ha de deixar fixar el 0% o un tipus personalitzat per línia perquè aquests casos es gestionin bé.
+
+## Fes que el compliment sigui automàtic
+
+Els càlculs manuals de l'IVA són on s'hi colen els errors. Una bona eina aplica el tipus correcte, descompta els descomptes de la base i et disposa tots els camps obligatoris. El nostre [generador de factures gratuït](/tools/free-invoice-generator) crea una factura fiscal ben estructurada, i la [calculadora de l'IVA d'Oman](/tools/oman-vat-calculator) fa els càlculs del 5% en segons. Per facturar de manera continuada en diverses monedes i tipus impositius, un [programari de facturació gratuït](/free-invoicing-software) manté cada document conforme i arxivat.
+
+Mira com s'hi construeixen al damunt els mòduls complets de comptabilitat i informes a la pàgina de [preus](/pricing). Les normes fiscals canvien, així que pren això com una visió general pràctica i confirma les normes vigents amb la teva autoritat tributària nacional.
+
+{/* search-authority-sources:start */}
+## Verifica les normes vigents a la font
+
+Fes servir les nostres guies per país d'[Oman](/vat/oman), els [Emirats Àrabs Units](/vat/uae), l'[Aràbia Saudita](/vat/saudi-arabia) i [Bahrain](/vat/bahrain). Cada guia cita i enllaça els documents de l'autoritat tributària que hi ha darrere de les xifres. Torna a consultar l'autoritat corresponent abans d'emetre una factura, perquè les normes fiscals poden canviar.
+{/* search-authority-sources:end */}

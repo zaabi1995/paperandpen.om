@@ -1,0 +1,45 @@
+{
+  "locale": "ca",
+  "slug": "paperandpen-vs-tally",
+  "order": 2,
+  "competitor": "Tally",
+  "title": "Paper & Pen o Tally",
+  "metaTitle": "Paper & Pen o Tally · Alternativa gratuïta a Tally al núvol",
+  "metaDescription": "Compara Paper & Pen i Tally per accés al núvol, pla gratuït, àrab de dreta a esquerra, multimoneda i pagaments en línia. Una alternativa moderna i gratuïta al núvol.",
+  "keywords": "paper and pen o tally, alternativa a tally, alternativa a tally al núvol, alternativa gratuïta a tally, tally prime en línia, programari de comptabilitat en àrab",
+  "heroEyebrow": "Comparativa",
+  "heroTitle": "Paper & Pen o <em class=\"text-copper-400 not-italic\">Tally</em>",
+  "heroSubtitle": "Tally és una eina de comptabilitat fiable i amb molta trajectòria. Paper & Pen és un ERP gratuït nascut al núvol que obres al navegador, amb àrab, pagaments en línia i qualsevol moneda. Aquí tens la comparativa honesta.",
+  "heroBullets": ["Nascut al núvol, s'obre des de qualsevol navegador", "Vendes i Facturació gratis per sempre", "Àrab de dreta a esquerra i pagaments en línia amb targeta"],
+  "features": [
+    { "icon": "globe", "title": "Núvol de veritat", "desc": "Sense instal·lacions, sense mosca de llicència, sense configuració per ordinador. Obre Paper & Pen a qualsevol lloc i dispositiu." },
+    { "icon": "card", "title": "Cobra en línia", "desc": "Cada factura pot portar un enllaç de pagament de Paymob perquè el client pagui amb targeta i el pagament es concilïi sol." },
+    { "icon": "check", "title": "Gratuït per començar", "desc": "La facturació i les vendes són gratis per sempre, sense haver de comprar cap llicència abans d'emetre un document." }
+  ],
+  "sections": [
+    { "eyebrow": "La visió honesta", "title": "On destaca Tally", "body": "Tally té una llarga trajectòria, una comptabilitat legal molt completa i una enorme base de comptables que el coneixen de dalt a baix. Per a una comptabilitat complexa feta fora de línia per un operador format, és ràpid i fiable. Moltes empreses hi treballen contentes durant anys.", "items": ["Un motor comptable complet i provat", "Conegut per un gran nombre de comptables", "Funciona fora de línia un cop instal·lat"] },
+    { "eyebrow": "On guanyem", "title": "Núvol, àrab i cobrar", "body": "Paper & Pen funciona al navegador, de manera que l'equip i el comptable veuen les mateixes dades en directe des de qualsevol lloc, sense instal·lacions ni versions diferents. Està pensat primer per a l'àrab amb una interfície completament de dreta a esquerra, factura de manera nativa en OMR, AED, SAR i qualsevol moneda, i posa un enllaç de pagament en línia a cada factura. El punt de partida és gratuït de veritat.", "items": ["Sense instal·lacions, sempre l'última versió", "Interfície i documents en àrab de dreta a esquerra", "Enllaços de pagament en línia a les factures, nucli gratuït"] }
+  ],
+  "matrixCols": ["Paper & Pen", "Tally"],
+  "matrix": [
+    { "feature": "Pla gratuït per sempre", "values": [true, false] },
+    { "feature": "Preu inicial", "values": ["Gratis", "Llicència de pagament"] },
+    { "feature": "Accés al núvol / navegador", "values": [true, "Complement"] },
+    { "feature": "Interfície en àrab de dreta a esquerra", "values": [true, "Limitada"] },
+    { "feature": "Multimoneda", "values": [true, true] },
+    { "feature": "Pagaments en línia amb targeta (Paymob)", "values": [true, false] },
+    { "feature": "Interfície multilingüe (5)", "values": [true, "Limitada"] },
+    { "feature": "Rapidesa d'arrencada", "values": ["Minuts", "Instal·lació i formació"] },
+    { "feature": "Mòduls d'inventari i RH", "values": [true, "Inventari sí, RH limitat"] }
+  ],
+  "faqs": [
+    { "q": "Paper & Pen és una bona alternativa a Tally?", "a": "Sí, si vols accés al núvol, pagaments en línia i una interfície en àrab sense comprar cap llicència. Tally continua sent fort per a la comptabilitat legal fora de línia feta per un operador format." },
+    { "q": "Puc fer servir Paper & Pen sense instal·lar res?", "a": "Sí. Funciona completament al núvol. L'obres al navegador de qualsevol dispositiu i tothom veu les mateixes dades en directe." },
+    { "q": "Paper & Pen admet diverses monedes com Tally?", "a": "Sí. Pots facturar en OMR, AED, SAR, USD, EUR i més, amb els decimals correctes a cada document." },
+    { "q": "Els clients poden pagar les meves factures en línia?", "a": "Sí. Cada factura pot incloure un enllaç de pagament de Paymob, perquè el client pagui amb targeta i el pagament es concilïi automàticament." },
+    { "q": "Hi ha una versió gratuïta?", "a": "Sí. Les vendes i la facturació són gratis per sempre. Només pagues si afegeixes mòduls com Inventari, RH o Comptabilitat." }
+  ],
+  "related": ["/compare/paperandpen-vs-odoo", "/compare/paperandpen-vs-zoho", "/free-invoicing-software", "/pricing", "/features/invoicing"],
+  "ctaTitle": "Passa't al núvol, gratis",
+  "ctaSub": "Obre al navegador un espai de treball gratuït de Paper & Pen i emet la teva primera factura en minuts. Sense llicència, sense instal·lació."
+}

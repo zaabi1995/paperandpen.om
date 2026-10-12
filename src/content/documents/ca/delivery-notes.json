@@ -1,0 +1,36 @@
+{
+  "locale": "ca",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Albarans",
+  "metaTitle": "Creador d'albarans · Paper & Pen",
+  "metaDescription": "Crea albarans professionals en línia gratis. Llista la mercaderia enviada, registra la prova de lliurament i converteix l'albarà en factura amb un clic.",
+  "keywords": "albarà, albarà de lliurament, crear albarà, full d'embalatge, prova de lliurament, creador d'albarans, nota d'expedició de mercaderia",
+  "heroEyebrow": "Albarans",
+  "heroTitle": "Envia cada comanda amb un <em class=\"text-copper-400 not-italic\">albarà</em> clar",
+  "heroSubtitle": "Llista la mercaderia que lliures, registra la prova de lliurament quan arriba i converteix l'albarà en factura amb un clic. Funciona a tot arreu.",
+  "heroBullets": ["Gratis per sempre", "Prova de lliurament", "Converteix-lo en factura"],
+  "features": [
+    { "icon": "truck", "title": "Document d'expedició", "desc": "Llista els articles i les quantitats enviades, amb preus o sense, en un albarà net i amb la teva marca." },
+    { "icon": "check", "title": "Prova de lliurament", "desc": "Registra qui ha rebut la mercaderia i quan, perquè cap lliurament quedi en dubte." },
+    { "icon": "refresh", "title": "Converteix-lo en factura", "desc": "Transforma un albarà en factura amb un clic un cop rebuda la mercaderia." },
+    { "icon": "inventory", "title": "Vinculat a l'estoc", "desc": "Amb el mòdul d'Inventari, un albarà pot descomptar l'estoc automàticament." },
+    { "icon": "globe", "title": "Funciona a tot arreu", "desc": "Es fa servir arreu del món com a albarà o delivery challan, en el teu idioma i la teva moneda." },
+    { "icon": "whatsapp", "title": "Envia'l on vulguis", "desc": "Comparteix l'albarà per WhatsApp o correu perquè el client en tingui el registre." }
+  ],
+  "sections": [
+    { "eyebrow": "Què és un albarà", "title": "Què és un albarà?", "body": "Un albarà (també anomenat delivery challan o full d'embalatge) és un document que acompanya un enviament de mercaderia i llista què es lliura. El destinatari comprova la mercaderia amb l'albarà i el signa per confirmar-ne la recepció. És la prova que la mercaderia ha sortit de les teves instal·lacions i ha arribat al client, i fa de pont entre la comanda de venda i la factura que ve després." },
+    { "eyebrow": "Com funciona", "title": "Expedeix, confirma, factura", "body": "Paper & Pen vincula l'albarà a la comanda de venda i a la factura perquè l'expedició i la facturació vagin al mateix pas.", "items": ["Crea un albarà a partir d'una comanda de venda o des de zero", "Tria si mostres preus o només quantitats", "Envia'l o imprimeix-lo perquè viatgi amb la mercaderia", "Registra la prova de lliurament quan el client signa", "Converteix l'albarà en factura amb un clic"] },
+    { "eyebrow": "Albarà o factura", "title": "Albarà o factura?", "body": "Un albarà registra què s'ha mogut físicament i en confirma la recepció; no és una petició de pagament. La factura demana el pagament d'aquesta mercaderia. Moltes empreses primer lliuren amb albarà i després facturen segons les condicions pactades. Paper & Pen et permet fer exactament això: converteix un lliurament confirmat en factura sense tornar a escriure res." }
+  ],
+  "faqs": [
+    { "q": "Quina diferència hi ha entre un albarà i una factura?", "a": "Un albarà llista i confirma la mercaderia lliurada, sense demanar cap pagament. Una factura demana el pagament. Pots convertir un albarà en factura amb un clic." },
+    { "q": "El creador d'albarans és gratuït?", "a": "Sí. Crear, enviar i seguir albarans és gratis per sempre a Paper & Pen." },
+    { "q": "Un albarà pot amagar els preus?", "a": "Sí. Tria si mostres preus o només quantitats, cosa útil quan el magatzem o el transportista no han de veure els preus." },
+    { "q": "Registra la prova de lliurament?", "a": "Sí. Registra qui ha rebut la mercaderia i quan, perquè un lliurament no es pugui discutir més endavant." },
+    { "q": "Un albarà actualitza l'estoc?", "a": "Amb el mòdul opcional d'Inventari, un albarà pot reduir els nivells d'estoc automàticament a mesura que surt la mercaderia." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Envia sempre amb prova de lliurament",
+  "ctaSub": "Crea un espai de treball gratuït de Paper & Pen, envia un albarà net, registra la prova de lliurament i factura amb un clic."
+}

@@ -1,0 +1,36 @@
+{
+  "locale": "ca",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Ordres de compra",
+  "metaTitle": "Programari d'ordres de compra · Paper & Pen",
+  "metaDescription": "Crea ordres de compra professionals en línia gratis i en qualsevol moneda. Envia-les als proveïdors i segueix-ne les aprovacions i els lliuraments.",
+  "keywords": "ordre de compra, crear ordre de compra, oc, programari d'ordres de compra, ordre de compra gratis, comanda a proveïdor, de l'ordre de compra a la factura",
+  "heroEyebrow": "Ordres de compra",
+  "heroTitle": "Compra als proveïdors amb <em class=\"text-copper-400 not-italic\">ordres de compra</em> com cal",
+  "heroSubtitle": "Crea, aprova i envia ordres de compra als proveïdors en qualsevol moneda, i després quadra-les amb els lliuraments i les factures amb una traçabilitat neta. Gratis per sempre.",
+  "heroBullets": ["Gratis per sempre", "Aprova abans d'enviar", "Quadra-les amb les factures dels proveïdors"],
+  "features": [
+    { "icon": "cart", "title": "Ordres de compra amb la teva marca", "desc": "Emet als proveïdors ordres de compra clares i numerades, amb les teves condicions i les dades de lliurament." },
+    { "icon": "check", "title": "Aprovació abans d'enviar", "desc": "Fes passar les ordres per una aprovació interna perquè no es compri res sense vistiplau." },
+    { "icon": "truck", "title": "Segueix els lliuraments", "desc": "Mira què s'ha demanat, què s'ha rebut en part i què s'ha lliurat del tot per a cada ordre." },
+    { "icon": "refresh", "title": "Quadra-les amb les factures", "desc": "Converteix una ordre rebuda en factura de proveïdor i fes una conciliació a tres bandes per evitar errors." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Compra en USD, EUR, AED, SAR, OMR, INR i més, amb l'impost i els decimals correctes." },
+    { "icon": "whatsapp", "title": "Envia-la on vulguis", "desc": "Comparteix l'ordre de compra amb un proveïdor per WhatsApp o correu amb un toc." }
+  ],
+  "sections": [
+    { "eyebrow": "Què és una ordre de compra", "title": "Què és una ordre de compra?", "body": "Una ordre de compra (OC) és un document que el comprador envia a un proveïdor per demanar formalment béns o serveis a un preu pactat. Hi consten els articles, les quantitats, els preus unitaris, els impostos, les condicions de lliurament i un número d'ordre que el proveïdor indica a la seva factura. L'ordre esdevé un compromís vinculant quan el proveïdor l'accepta, i controla la despesa perquè exigeix aprovació abans que surtin els diners." },
+    { "eyebrow": "Com funciona", "title": "Crea, aprova, rep, quadra", "body": "Paper & Pen gestiona tot el circuit de compra a pagament perquè cada ordre estigui aprovada, seguida i quadrada.", "items": ["Crea una ordre a partir d'un avís d'estoc baix o des de zero", "Fes-la passar per una aprovació interna abans d'enviar-la", "Envia-la al proveïdor per WhatsApp o correu", "Rep la mercaderia contra l'ordre i actualitza l'estoc", "Converteix-la en factura de proveïdor i quadra-la amb l'ordre i el lliurament"] },
+    { "eyebrow": "Per què és important", "title": "Controla la despesa abans que es produeixi", "body": "Les ordres de compra porten el control de la despesa a abans que surtin els diners, no després. Amb aprovacions, seguiment de lliuraments i conciliació a tres bandes entre l'ordre, la mercaderia rebuda i la factura del proveïdor, detectes sobrefacturacions i lliuraments incomplets abans de pagar. Aquesta disciplina serveix tant per a un sol comprador com per a tot un equip de compres." }
+  ],
+  "faqs": [
+    { "q": "Per a què serveix una ordre de compra?", "a": "Per demanar formalment béns o serveis a un proveïdor a un preu pactat, controlar la despesa amb aprovacions i donar al proveïdor una referència per indicar a la factura." },
+    { "q": "El programari d'ordres de compra és gratuït?", "a": "Sí. Crear, aprovar i seguir ordres de compra és gratis per sempre a Paper & Pen." },
+    { "q": "Puc aprovar una ordre de compra abans d'enviar-la?", "a": "Sí. Fes passar les ordres de compra per una aprovació interna perquè no es demani res sense el vistiplau adequat." },
+    { "q": "Puc quadrar una ordre de compra amb la factura del proveïdor?", "a": "Sí. Converteix una ordre rebuda en factura de proveïdor i quadra-la a tres bandes amb l'ordre i la mercaderia rebuda per detectar diferències." },
+    { "q": "Rebre una ordre de compra actualitza l'estoc?", "a": "Amb el mòdul opcional d'Inventari, rebre mercaderia contra una ordre augmenta els nivells d'estoc automàticament." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Compra amb control, no amb caos",
+  "ctaSub": "Crea un espai de treball gratuït de Paper & Pen, emet ordres de compra aprovades i quadra-les amb les factures automàticament."
+}

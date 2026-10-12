@@ -1,0 +1,36 @@
+{
+  "locale": "ca",
+  "slug": "ledgers",
+  "order": 14,
+  "title": "Llibres de comptes",
+  "metaTitle": "Llibres de comptes i extractes · Paper & Pen",
+  "metaDescription": "Consulta en línia i gratis els comptes de clients i proveïdors en qualsevol moneda. Mira cada factura, pagament i rectificativa en un sol extracte amb saldo.",
+  "keywords": "llibre de comptes, compte de client, compte de proveïdor, extracte de compte, llibre major, programari de comptabilitat, estat de compte",
+  "heroEyebrow": "Llibres de comptes",
+  "heroTitle": "Cada operació en un <em class=\"text-copper-400 not-italic\">llibre de comptes</em> clar",
+  "heroSubtitle": "Mira un extracte amb saldo de cada factura, pagament, rectificativa i ajust per a cada client i proveïdor, en qualsevol moneda. Comparteix un extracte amb un toc. Gratis per sempre.",
+  "heroBullets": ["Gratis per sempre", "Saldos en temps real", "Comparteix extractes a l'instant"],
+  "features": [
+    { "icon": "chart", "title": "Comptes de clients", "desc": "Un extracte per client: factures, pagaments i rectificatives amb el saldo actualitzat." },
+    { "icon": "accounting", "title": "Comptes de proveïdors", "desc": "Segueix factures, pagaments i notes de càrrec per proveïdor i sàpigues sempre què deus." },
+    { "icon": "doc", "title": "Extracte de compte", "desc": "Genera i envia un extracte de compte de qualsevol període amb un toc." },
+    { "icon": "shield", "title": "Sempre conciliats", "desc": "Els comptes s'actualitzen amb els mateixos assentaments que les factures i els pagaments, i sempre quadren." },
+    { "icon": "globe", "title": "Qualsevol moneda", "desc": "Consulta els saldos en USD, EUR, AED, SAR, OMR, INR i més, amb els decimals correctes." },
+    { "icon": "whatsapp", "title": "Comparteix-los on vulguis", "desc": "Envia un extracte per WhatsApp o correu perquè els clients liquidin els saldos pendents." }
+  ],
+  "sections": [
+    { "eyebrow": "Què és un llibre de comptes", "title": "Què és un llibre de comptes?", "body": "Un llibre de comptes és el registre continu de totes les operacions que afecten un compte, amb el saldo arrossegat després de cada apunt. El compte d'un client mostra cada factura que has emès, cada pagament rebut i cada rectificativa, i acaba amb el saldo que et deu. Un extracte de compte és aquest mateix compte presentat al client per a un període. Els llibres de comptes són la base per saber qui et deu què i a qui deus tu." },
+    { "eyebrow": "Com funciona", "title": "Una sola font de veritat", "body": "A Paper & Pen, els llibres de comptes no són un full de càlcul a part: es construeixen amb les mateixes factures, pagaments i rectificatives que ja crees.", "items": ["Obre qualsevol client o proveïdor per veure'n el compte complet", "Cada factura, pagament, rectificativa i nota de càrrec apareix amb el saldo acumulat", "Filtra per dates per obtenir un extracte de compte net", "Envia l'extracte per WhatsApp o correu amb un toc", "Els saldos sempre quadren amb les factures i la comptabilitat"] },
+    { "eyebrow": "Per què és important", "title": "Cobra abans i no paguis mai dues vegades", "body": "Quan un client pregunta per un saldo, un compte clar tanca la conversa en segons. Quan has de reclamar, un extracte de compte és el document més convincent que pots enviar. I com que els comptes de proveïdors registren el que deus, mai pagues una factura dues vegades ni se t'escapa una nota de càrrec. Un sol registre conciliat, per a totes dues bandes del negoci." }
+  ],
+  "faqs": [
+    { "q": "Què és el compte d'un client?", "a": "Un extracte continu de cada factura, pagament i rectificativa d'un client, que acaba amb el saldo que et deu ara mateix." },
+    { "q": "Els llibres de comptes són gratuïts?", "a": "Sí. Els comptes de clients i proveïdors i els extractes de compte són gratis per sempre a Paper & Pen." },
+    { "q": "Puc enviar un extracte de compte?", "a": "Sí. Genera un extracte de qualsevol període i envia'l per WhatsApp o correu amb un toc perquè el client pugui liquidar." },
+    { "q": "Els comptes es mantenen conciliats?", "a": "Sí. Es construeixen amb els mateixos assentaments que les factures i els pagaments, i els saldos sempre quadren amb la comptabilitat." },
+    { "q": "Puc veure què dec als proveïdors?", "a": "Sí. Els comptes de proveïdors registren factures, pagaments i notes de càrrec i saps exactament què tens pendent amb cada proveïdor." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/payment-receipts", "/invoicing/expenses", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Mira a l'instant qui deu què",
+  "ctaSub": "Crea un espai de treball gratuït de Paper & Pen i tingues un compte net i conciliat per a cada client i proveïdor."
+}
