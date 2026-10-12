@@ -1,0 +1,36 @@
+{
+  "locale": "sl",
+  "slug": "purchase-orders",
+  "order": 8,
+  "title": "Naročilnice",
+  "metaTitle": "Program za naročilnice · Paper & Pen",
+  "metaDescription": "Brezplačno ustvarjajte urejene naročilnice prek spleta v kateri koli valuti. Pošiljajte naročilnice dobaviteljem, spremljajte odobritve in dobave.",
+  "keywords": "naročilnica, ustvari naročilnico, nabavno naročilo, program za naročilnice, brezplačna naročilnica, naročilo dobavitelju, naročilnica v prejeti račun",
+  "heroEyebrow": "Naročilnice",
+  "heroTitle": "Pri dobaviteljih naročajte s pravimi <em class=\"text-copper-400 not-italic\">naročilnicami</em>",
+  "heroSubtitle": "Ustvarite, odobrite in pošljite naročilnice dobaviteljem v kateri koli valuti, nato pa jih z jasno revizijsko sledjo povežite z dobavami in prejetimi računi. Brezplačno za vedno.",
+  "heroBullets": ["Brezplačno za vedno", "Odobritev pred pošiljanjem", "Povezava s prejetimi računi"],
+  "features": [
+    { "icon": "cart", "title": "Naročilnice z vašo znamko", "desc": "Dobaviteljem izdajte jasne, oštevilčene naročilnice z vašimi pogoji in podatki o dostavi." },
+    { "icon": "check", "title": "Odobritev pred pošiljanjem", "desc": "Naročilnice pošljite v notranjo odobritev, da se nič ne naroči brez podpisa." },
+    { "icon": "truck", "title": "Spremljanje dobav", "desc": "Pri vsaki naročilnici vidite, kaj je naročeno, delno prejeto in v celoti dobavljeno." },
+    { "icon": "refresh", "title": "Povezava s prejetimi računi", "desc": "Prejeto naročilnico pretvorite v prejeti račun dobavitelja in jih za natančnost tristransko uskladite." },
+    { "icon": "globe", "title": "Katera koli valuta", "desc": "Naročajte v USD, EUR, AED, SAR, OMR, INR in drugih valutah, s pravim davkom in decimalkami." },
+    { "icon": "whatsapp", "title": "Pošljite kamor koli", "desc": "Naročilnico z enim dotikom delite z dobaviteljem prek WhatsApp ali e-pošte." }
+  ],
+  "sections": [
+    { "eyebrow": "Kaj je naročilnica", "title": "Kaj je naročilnica?", "body": "Naročilnica je dokument, ki ga kupec pošlje dobavitelju, da formalno naroči blago ali storitve po dogovorjeni ceni. Navaja artikle, količine, cene na enoto, davke, dobavne pogoje in številko naročilnice, ki jo dobavitelj navede na svojem računu. Ko jo dobavitelj sprejme, postane zavezujoča obveza, porabo pa nadzoruje tako, da zahteva odobritev, preden denar odide." },
+    { "eyebrow": "Kako deluje", "title": "Ustvari, odobri, prejmi, uskladi", "body": "Paper & Pen vodi celoten tok od naročila do plačila, zato je vsako naročilo odobreno, spremljano in usklajeno.", "items": ["Ustvarite naročilnico iz opozorila o nizki zalogi ali na novo", "Pred pošiljanjem jo pošljite v notranjo odobritev", "Pošljite jo dobavitelju prek WhatsApp ali e-pošte", "Prevzemite blago po naročilnici in posodobite zaloge", "Pretvorite jo v prejeti račun in ga uskladite z naročilnico in dobavo"] },
+    { "eyebrow": "Zakaj je pomembno", "title": "Nadzirajte porabo, še preden nastane", "body": "Naročilnice nadzor nad porabo premaknejo na čas, preden denar odide, ne pozneje. Z odobritvami, spremljanjem dobav in tristranskim usklajevanjem med naročilnico, prejetim blagom in računom dobavitelja odkrijete preveč zaračunane zneske in nepopolne dobave, še preden plačate. Ta disciplina deluje tako pri enem nabavniku kot pri celotni nabavni ekipi." }
+  ],
+  "faqs": [
+    { "q": "Čemu služi naročilnica?", "a": "Z njo formalno naročite blago ali storitve pri dobavitelju po dogovorjeni ceni, prek odobritve nadzorujete porabo, dobavitelj pa dobi sklic, ki ga navede na svojem računu." },
+    { "q": "Ali je program za naročilnice brezplačen?", "a": "Da. Ustvarjanje, odobravanje in spremljanje naročilnic je v Paper & Pen brezplačno za vedno." },
+    { "q": "Ali lahko naročilnico odobrim pred pošiljanjem?", "a": "Da. Naročilnice pošljite v notranjo odobritev, da se nič ne naroči brez ustreznega podpisa." },
+    { "q": "Ali lahko naročilnico povežem s prejetim računom dobavitelja?", "a": "Da. Prejeto naročilnico pretvorite v prejeti račun dobavitelja in ga tristransko uskladite z naročilom in prejetim blagom, da odkrijete razlike." },
+    { "q": "Ali prevzem po naročilnici posodobi moje zaloge?", "a": "Z izbirnim modulom Zaloge prevzem blaga po naročilnici samodejno poveča stanje zalog." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/delivery-notes", "/invoicing/debit-notes", "/features/inventory", "/tools/free-purchase-order-generator", "/free-invoicing-software"],
+  "ctaTitle": "Naročajte z nadzorom, ne v kaosu",
+  "ctaSub": "Ustvarite brezplačen delovni prostor Paper & Pen, izdajajte odobrene naročilnice in jih samodejno povežite s prejetimi računi."
+}

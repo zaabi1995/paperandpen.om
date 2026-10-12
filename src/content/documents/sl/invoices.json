@@ -1,0 +1,36 @@
+{
+  "locale": "sl",
+  "slug": "invoices",
+  "order": 1,
+  "title": "Računi",
+  "metaTitle": "Spletno izdajanje računov · Brezplačni računi · Paper & Pen",
+  "metaDescription": "Brezplačno ustvarjajte urejene račune prek spleta v kateri koli valuti. Pošljite prek WhatsApp ali e-pošte, sprejemajte spletna plačila in spremljajte, kaj je plačano.",
+  "keywords": "račun, spletni račun, ustvari račun, program za račune, brezplačni račun, račun z ddv, račun z gst, pošlji račun prek whatsapp",
+  "heroEyebrow": "Izdajanje računov",
+  "heroTitle": "Brezplačno ustvarjajte in pošiljajte urejene <em class=\"text-copper-400 not-italic\">račune</em>",
+  "heroSubtitle": "Zaračunajte kateri koli stranki, v kateri koli valuti, z davčno stopnjo po vaši izbiri. Pošljite prek WhatsApp ali e-pošte, prejmite plačilo prek spleta in vedno vedite, kaj je plačano, zapadlo in v zamudi.",
+  "heroBullets": ["Računi brezplačno za vedno", "Katera koli valuta in davčna stopnja", "Pošiljanje prek WhatsApp ali e-pošte"],
+  "features": [
+    { "icon": "invoice", "title": "Računi z vašo znamko", "desc": "Dodajte logotip, barve in pogoje. Vsak račun je videti strokovno in se čisto natisne." },
+    { "icon": "globe", "title": "Katera koli valuta", "desc": "Zaračunajte v USD, EUR, GBP, INR, AED, SAR, OMR in drugih valutah, s pravilnimi decimalkami." },
+    { "icon": "calc", "title": "Pripravljeno za DDV in davke", "desc": "Uporabite katero koli stopnjo DDV, GST ali prometnega davka. Davek se izračuna na neto znesek po popustih." },
+    { "icon": "whatsapp", "title": "Pošljite kamor koli", "desc": "Povezavo ali PDF delite prek WhatsApp, e-pošte ali prenosa. Stranka plača z enim dotikom." },
+    { "icon": "card", "title": "Plačilo prek spleta", "desc": "Sprejemajte kartice in lokalne načine plačila, da stranke račun poravnajo takoj." },
+    { "icon": "bell", "title": "Samodejni opomniki", "desc": "Vljudni opomniki za plačilo se pošiljajo samodejno, dokler račun ni plačan." }
+  ],
+  "sections": [
+    { "eyebrow": "Kaj je račun", "title": "Kaj je račun?", "body": "Račun je poslovni dokument, ki ga prodajalec izda kupcu in z njim zahteva plačilo za dobavljeno blago ali storitve. Navaja artikle, količine, cene na enoto, davke in skupni znesek za plačilo, skupaj s plačilnimi pogoji in datumom zapadlosti. Jasen, oštevilčen račun je pravni zapis prodaje in sprožilec, da vam stranka plača." },
+    { "eyebrow": "Kako deluje", "title": "Od osnutka do plačila v nekaj minutah", "body": "Račun sestavite iz ponudbe ali na novo, ga pošljite, za ostalo pa poskrbi Paper & Pen. Plačila, opomniki in vaše knjige ostanejo samodejno usklajeni.", "items": ["Ustvarite ga iz shranjenega seznama strank in izdelkov ali začnite s praznim", "Nastavite valuto, davčno stopnjo in plačilne pogoje", "Pošljite prek WhatsApp ali e-pošte s povezavo za spletno plačilo", "Spremljajte stanje: osnutek, poslano, delno plačano, plačano, v zamudi", "Ročno zabeležite plačila ali pustite, da se spletna plačila uskladijo sama"] },
+    { "eyebrow": "Narejeno za ves svet", "title": "Lokalne prednosti, svetovni doseg", "body": "Paper & Pen deluje za podjetja kjer koli. V državah Zaliva takoj dobite račune v arabščini, izvorno oblikovanje OMR, AED in SAR, nastavljive predloge za DDV in kartična plačila prek Paymob. Povsod drugod preprosto izberete svojo valuto, davčno stopnjo in jezik." }
+  ],
+  "faqs": [
+    { "q": "Ali so računi res brezplačni?", "a": "Da. Ustvarjanje, pošiljanje in spremljanje računov je v Paper & Pen brezplačno za vedno. Plačate le, če dodate izbirne module, kot so Zaloge, Kadri ali Računovodstvo." },
+    { "q": "Ali lahko zaračunavam v kateri koli valuti?", "a": "Da. Izberite katero koli valuto, vključno z USD, EUR, GBP, INR, AED, SAR in OMR. Število decimalk se prilagodi samodejno (na primer tri decimalke za OMR)." },
+    { "q": "Ali obravnava DDV ali GST?", "a": "Da. Nastavite katero koli davčno stopnjo za račun ali za posamezno postavko. Uporabniki v Zalivu dobijo nastavljivo predlogo za DDV, davek pa se vedno izračuna na znesek po popustih." },
+    { "q": "Kako mi stranke plačajo?", "a": "Račun pošljite s povezavo za spletno plačilo in stranke plačajo s kartico ali lokalnim načinom z enim dotikom. Gotovinska plačila, bančna nakazila ali čeke lahko zabeležite tudi ročno." },
+    { "q": "Ali lahko račune pošiljam prek WhatsApp?", "a": "Da. Račun delite kot povezavo ali PDF neposredno v WhatsApp ali ga pošljite po e-pošti. Oboje ohrani gumb za spletno plačilo, zato ste plačani hitreje." }
+  ],
+  "related": ["/invoicing/quotations", "/invoicing/recurring-invoices", "/invoicing/payment-reminders", "/features/invoicing", "/tools/free-invoice-generator", "/free-invoicing-software"],
+  "ctaTitle": "Pošljite prvi račun v nekaj minutah",
+  "ctaSub": "Ustvarite brezplačen delovni prostor Paper & Pen, dodajte logotip in pošljite urejen račun, ki bo plačan prek spleta."
+}

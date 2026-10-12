@@ -1,0 +1,36 @@
+{
+  "locale": "sl",
+  "slug": "delivery-notes",
+  "order": 7,
+  "title": "Dobavnice",
+  "metaTitle": "Izdelovalec dobavnic · Paper & Pen",
+  "metaDescription": "Brezplačno ustvarjajte urejene dobavnice prek spleta. Navedite poslano blago, zabeležite potrdilo o prevzemu in dobavnico z enim klikom pretvorite v račun.",
+  "keywords": "dobavnica, izdaja dobavnice, ustvari dobavnico, pakirni list, potrdilo o prevzemu, izdelovalec dobavnic, odpremnica blaga",
+  "heroEyebrow": "Dobavnice",
+  "heroTitle": "Vsakič pošljite blago z jasno <em class=\"text-copper-400 not-italic\">dobavnico</em>",
+  "heroSubtitle": "Navedite blago, ki ga dostavljate, ob prevzemu zabeležite potrdilo o dostavi, nato pa dobavnico z enim klikom pretvorite v račun. Deluje povsod.",
+  "heroBullets": ["Brezplačno za vedno", "Potrdilo o prevzemu", "Pretvorba v račun"],
+  "features": [
+    { "icon": "truck", "title": "Dokument za odpremo blaga", "desc": "Na čisti dobavnici z vašo blagovno znamko navedite poslane artikle in količine, s cenami ali brez." },
+    { "icon": "check", "title": "Potrdilo o prevzemu", "desc": "Zabeležite, kdo je blago prevzel in kdaj, da dostave nikoli niso sporne." },
+    { "icon": "refresh", "title": "Pretvorba v račun", "desc": "Ko je blago prevzeto, dobavnico z enim klikom pretvorite v račun." },
+    { "icon": "inventory", "title": "Povezano z zalogami", "desc": "Z modulom Zaloge lahko dobavnica samodejno zmanjša zalogo." },
+    { "icon": "globe", "title": "Deluje povsod", "desc": "Po vsem svetu se uporablja kot dobavnica ali odpremnica, v vašem jeziku in valuti." },
+    { "icon": "whatsapp", "title": "Pošljite kamor koli", "desc": "Dobavnico delite prek WhatsApp ali e-pošte, da ima stranka zapis." }
+  ],
+  "sections": [
+    { "eyebrow": "Kaj je dobavnica", "title": "Kaj je dobavnica?", "body": "Dobavnica (imenovana tudi odpremnica ali pakirni list) je dokument, ki spremlja pošiljko blaga in navaja, kaj se dostavlja. Prejemnik blago preveri glede na dobavnico in s podpisom potrdi prevzem. Je dokaz, da je blago zapustilo vaše prostore in prispelo do stranke, ter most med prodajnim naročilom in računom, ki sledi." },
+    { "eyebrow": "Kako deluje", "title": "Odpremi, potrdi, zaračunaj", "body": "Paper & Pen poveže dobavnico s prodajnim naročilom in računom, zato odprema in zaračunavanje tečeta usklajeno.", "items": ["Ustvarite dobavnico iz prodajnega naročila ali na novo", "Izberite prikaz cen ali le količin", "Pošljite ali natisnite jo, da potuje z blagom", "Ko stranka podpiše, zabeležite potrdilo o prevzemu", "Dobavnico z enim klikom pretvorite v račun"] },
+    { "eyebrow": "Dobavnica ali račun", "title": "Dobavnica ali račun?", "body": "Dobavnica beleži, kaj se je fizično premaknilo, in potrjuje prevzem, ni pa zahteva za plačilo. Račun zahteva plačilo za to blago. Mnoga podjetja najprej dostavijo z dobavnico, nato pa zaračunajo po dogovorjenih pogojih. Paper & Pen omogoča prav to: potrjeno dostavo pretvori v račun brez ponovnega tipkanja." }
+  ],
+  "faqs": [
+    { "q": "Kakšna je razlika med dobavnico in računom?", "a": "Dobavnica navaja in potrjuje dostavljeno blago brez zahteve za plačilo. Račun zahteva plačilo. Dobavnico lahko z enim klikom pretvorite v račun." },
+    { "q": "Ali je izdelovalec dobavnic brezplačen?", "a": "Da. Ustvarjanje, pošiljanje in spremljanje dobavnic je v Paper & Pen brezplačno za vedno." },
+    { "q": "Ali lahko dobavnica skrije cene?", "a": "Da. Izberite prikaz cen ali le količin, kar je koristno, kadar skladišče ali kurir ne sme videti cen." },
+    { "q": "Ali beleži potrdilo o prevzemu?", "a": "Da. Zabeležite, kdo je blago prevzel in kdaj, da dostava pozneje nikoli ni sporna." },
+    { "q": "Ali dobavnica posodobi moje zaloge?", "a": "Z izbirnim modulom Zaloge lahko dobavnica samodejno zmanjša stanje zalog, ko blago odide." }
+  ],
+  "related": ["/invoicing/sales-orders", "/invoicing/invoices", "/invoicing/purchase-orders", "/features/inventory", "/tools/free-delivery-note-generator", "/free-invoicing-software"],
+  "ctaTitle": "Vsakič pošiljajte z dokazom",
+  "ctaSub": "Ustvarite brezplačen delovni prostor Paper & Pen, pošljite čisto dobavnico, zabeležite potrdilo o prevzemu in zaračunajte z enim klikom."
+}

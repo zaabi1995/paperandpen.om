@@ -1,0 +1,36 @@
+{
+  "locale": "sl",
+  "slug": "credit-notes",
+  "order": 5,
+  "title": "Dobropisi",
+  "metaTitle": "Program za dobropise · Paper & Pen",
+  "metaDescription": "Brezplačno izdajajte urejene dobropise prek spleta v kateri koli valuti. Račun popravite zaradi vračila, povračila ali napake s pravim dokumentom.",
+  "keywords": "dobropis, ustvari dobropis, knjižno odobrenje, vračilo denarja, dobropis za vračilo blaga, program za dobropise, dobropis z ddv",
+  "heroEyebrow": "Dobropisi",
+  "heroTitle": "Izdajajte <em class=\"text-copper-400 not-italic\">dobropise</em> na pravi način",
+  "heroSubtitle": "Račun popravite zaradi vračila blaga, povračila denarja ali napake s pravim dobropisom, jasno revizijsko sledjo in samodejnim knjiženjem. V kateri koli valuti.",
+  "heroBullets": ["Brezplačno za vedno", "Povezan z izvirnim računom", "Knjiži pravilno postavko"],
+  "features": [
+    { "icon": "doc", "title": "Pravi dokument o odobritvi", "desc": "Oštevilčen dobropis, povezan z izvirnim računom, nikoli tiho popravljanje." },
+    { "icon": "refresh", "title": "Popravi stanje", "desc": "Zmanjša dolg stranke in pravilno stornira davek na odobreni znesek." },
+    { "icon": "shield", "title": "Popolna revizijska sled", "desc": "Vsak dobropis se zabeleži z razlogom, zato so vaše knjige čiste in preverljive." },
+    { "icon": "calc", "title": "Pravilno storno DDV", "desc": "Davek se stornira na odobreni neto znesek, zato so vaši davčni obračuni točni." },
+    { "icon": "globe", "title": "Katera koli valuta", "desc": "Odobritev v USD, EUR, AED, SAR, OMR, INR in drugih valutah, enako kot izvirni račun." },
+    { "icon": "whatsapp", "title": "Pošljite kamor koli", "desc": "Dobropis delite prek WhatsApp ali e-pošte, da ima stranka zapis." }
+  ],
+  "sections": [
+    { "eyebrow": "Kaj je dobropis", "title": "Kaj je dobropis?", "body": "Dobropis (ali knjižno odobrenje) je dokument, s katerim prodajalec zmanjša znesek, ki ga stranka dolguje po že izdanem računu. Uporablja se pri vračilu blaga, povračilu denarja, preveč zaračunanem znesku, preklicanih postavkah ali popravkih cen. Dobropis izvirnega računa nikoli ne izbriše, temveč ga formalno pobota v celoti ali delno, zato ostane popoln in preverljiv zapis, kaj se je spremenilo in zakaj." },
+    { "eyebrow": "Kako deluje", "title": "Odobri, storniraj, uskladi", "body": "Paper & Pen izda dobropis kot pravi dokument z lastno številko in knjižbo, nikoli kot tih popravek računa.", "items": ["Odprite račun in na njegovi podlagi izdajte dobropis", "Odobrite celoten račun ali posamezne postavke", "Dodajte razlog: vračilo blaga, povračilo, popravek ali preklic", "Davek se samodejno stornira na odobreni neto znesek", "Stanje stranke in vaše knjige se posodobijo hkrati"] },
+    { "eyebrow": "Zakaj je pomembno", "title": "Plačanega računa nikoli ne popravljajte", "body": "Popravljanje ali brisanje izdanega računa poruši revizijsko sled in vaš davčni položaj. Pravilen način za zmanjšanje terjatve je izdaja dobropisa, ki pusti izvirni račun nedotaknjen, knjiži storno postavko in stornira pravi znesek davka. To je zahtevana praksa v večini sistemov DDV in GST po svetu." }
+  ],
+  "faqs": [
+    { "q": "Za kaj se uporablja dobropis?", "a": "Za zmanjšanje ali preklic zneska, ki ga stranka dolguje po računu, običajno pri vračilu blaga, povračilu, preveč zaračunanem znesku ali popravkih. Račun pobota, ne izbriše ga." },
+    { "q": "Ali je izdajanje dobropisov brezplačno?", "a": "Da. Izdajanje in spremljanje dobropisov je v Paper & Pen brezplačno za vedno." },
+    { "q": "Ali dobropis stornira DDV?", "a": "Da. Paper & Pen samodejno stornira davek na odobreni neto znesek, zato vaš položaj glede DDV ali GST ostane pravilen." },
+    { "q": "Ali lahko odobrim le del računa?", "a": "Da. Odobrite celoten račun ali le posamezne postavke in količine. Stanje stranke se ustrezno prilagodi." },
+    { "q": "Kakšna je razlika med dobropisom in bremepisom?", "a": "Dobropis izda prodajalec, da zmanjša znesek, ki ga stranka dolguje. Bremepis običajno izda kupec (ali se izda za povečanje dolgovanega zneska), na primer za vračilo preplačila ali zaračunanje dodatnega zneska." }
+  ],
+  "related": ["/invoicing/invoices", "/invoicing/debit-notes", "/invoicing/payment-receipts", "/features/accounting", "/free-invoicing-software"],
+  "ctaTitle": "Izdajte dobropis brez skrbi",
+  "ctaSub": "Ustvarite brezplačen delovni prostor Paper & Pen in vsak račun v nekaj sekundah popravite s pravim, preverljivim dobropisom."
+}
