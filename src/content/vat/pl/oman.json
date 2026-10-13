@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "VAT w Omanie",
   "metaTitle": "VAT w Omanie: stawka, progi, faktury · Paper & Pen",
-  "metaDescription": "Stawka VAT 5% w Omanie, próg rejestracji OMR 38,500 i dwanaście elementów, które musi zawierać faktura podatkowa, każdy z odwołaniem do Tax Authority.",
-  "keywords": "vat oman, stawka vat oman, próg rejestracji vat oman, wymogi faktury podatkowej oman, fawtara e-faktury, oman tax authority",
+  "metaDescription": "Stawka VAT 5% w Omanie, próg OMR 38,500, co musi zawierać faktura podatkowa i daty e-faktur Fawtara, każde z odwołaniem do oficjalnego tekstu.",
+  "keywords": "vat oman, stawka vat oman, próg rejestracji vat oman, wymogi faktury podatkowej oman, fawtara e-faktury, e-faktury oman 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Oman",
   "heroTitle": "Fakturowanie według <em class=\"text-copper-400 not-italic\">zasad VAT w Omanie</em>",
-  "heroSubtitle": "Stawka, progi rejestracji, co musi zawierać faktura podatkowa i na jakim etapie są e-faktury. Każda liczba na tej stronie ma odwołanie do tekstu opublikowanego przez Oman Tax Authority.",
+  "heroSubtitle": "Stawka, progi rejestracji, co musi zawierać faktura podatkowa i kiedy zaczynają obowiązywać e-faktury. Każda liczba na tej stronie ma odwołanie do oficjalnego opublikowanego tekstu.",
   "heroBullets": [
     "Stawka podstawowa 5%",
     "Rejestracja od OMR 38,500",
-    "Fawtara ogłoszona, jeszcze nie działa"
+    "Fawtara od 1 kwietnia 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Dostawy poniżej tej wartości mogą być dokumentowane fakturą uproszczoną za zgodą Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "E-faktury (Fawtara)",
+      "value": "1.04.2027 / 1.10.2027",
+      "note": "Decision 189/2026 wprowadza obowiązek e-faktur od 1 kwietnia 2027 dla rocznych dostaw powyżej OMR 5,000,000 i od 1 października 2027 dla dostaw w wysokości OMR 5,000,000 lub niższej. Wcześniej są one dobrowolne.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority publikuje Executive Regulations wyłącznie po arabsku. Ta lista to wierne odczytanie oficjalnego tekstu arabskiego, a nie oficjalne tłumaczenie, więc przed oparciem się na niej potwierdź brzmienie z doradcą podatkowym."
   },
   "einvoicing": {
-    "status": "Ogłoszone i wprowadzane etapami, jeszcze nieobowiązkowe",
-    "body": "Program e-faktur w Omanie nazywa się Fawtara. Tax Authority opisuje model pięciu stron, w którym faktury trafiają do urzędu przez akredytowanego dostawcę usług, i wyznacza cztery etapy: pilotaż, rozszerzenie, objęcie mniejszych firm i pełne wdrożenie. Urząd nie opublikował dat etapów po angielsku, a daty krążące w prasie nie pojawiają się na jego własnych stronach. Każdy konkretny termin Fawtara, o którym przeczytasz gdzie indziej, traktuj jako niepotwierdzony, dopóki nie opublikuje go Tax Authority.",
-    "source": 4
+    "status": "Obowiązkowe od 1 kwietnia 2027, obecnie dobrowolne",
+    "body": "Program e-faktur w Omanie nazywa się Fawtara. Decision 189/2026, opublikowana w dzienniku urzędowym (Official Gazette) nr 1660 z 9 sierpnia 2026, ustala dwie daty: 1 kwietnia 2027 dla podatników, których roczne dostawy przekraczają OMR 5,000,000, oraz 1 października 2027 dla podatników z dostawami w wysokości OMR 5,000,000 lub niższej. Do Twojej daty e-faktury są dobrowolne, a Tax Authority zachęca do wcześniejszego startu. Faktury są przesyłane w formacie PINT OM XML przez akredytowanego dostawcę usług, który doręcza je nabywcy i raportuje je do Tax Authority. Nasz przewodnik po e-fakturach w Omanie wyjaśnia test progu i zasady.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Przygotowanie",
-      "title": "Przygotuj się na Fawtara bez zgadywania dat",
-      "body": "Nie potrzebujesz opublikowanego terminu, by być gotowym. Każdy system e-faktur, który zaczął działać w regionie, wymagał tej samej podstawowej dyscypliny: czystych, kompletnych danych klientów z numerami podatkowymi, nieprzerwanej numeracji faktur, sposobu opodatkowania zapisanego dla każdej pozycji, a nie całej faktury, oraz dokumentów przechowywanych tak, by można je było wydobyć na żądanie. Firma, której ewidencja już spełnia te cztery warunki, ma przed sobą krótkie wdrożenie, kiedykolwiek pojawią się daty. Firma, która ich nie spełnia, spędzi okres przejściowy na porządkowaniu danych.",
+      "title": "Przygotuj się na Fawtara przed swoją datą",
+      "body": "Daty są już ustalone, więc teraz trzeba przygotować ewidencję. Fawtara wymaga czystych, kompletnych danych klientów z numerami podatkowymi w formacie OM plus 10 cyfr, nieprzerwanej numeracji faktur, sposobu opodatkowania zapisanego dla każdej pozycji, kodu HS przy każdym towarze i kodu działalności przy każdej pozycji oraz dokumentów, które można wydobyć na żądanie. Firma, której ewidencja już spełnia te warunki, ma przed sobą krótkie wdrożenie. Firma, która ich nie spełnia, spędzi okres przejściowy na porządkowaniu danych.",
       "items": [
         "Kompletne dane klientów, z numerami podatkowymi",
         "Jedna nieprzerwana numeracja w każdej serii",
         "Sposób opodatkowania zapisany dla każdej pozycji",
-        "Dokumenty dostępne na żądanie"
+        "Kody HS i kody działalności przy Twoich pozycjach"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Gdy Twoje roczne dostawy osiągną lub mają osiągnąć OMR 38,500. Dobrowolnie możesz zarejestrować się od OMR 19,250. Obie kwoty pochodzą z decyzji przewodniczącego w sprawie progów rejestracji (Chairman's Decision), a nie z samej VAT Law, dlatego mogą się zmienić bez zmiany ustawy."
     },
     {
-      "q": "Czy e-faktury są już obowiązkowe w Omanie?",
-      "a": "Jeszcze nie. Tax Authority ogłosił Fawtara, wprowadzany etapami model e-faktur pięciu stron z akredytowanymi dostawcami usług, i opisuje cztery etapy wdrożenia. Nie opublikował dat etapów po angielsku na własnych stronach, więc nie podajemy tu daty. Aktualną sytuację sprawdź na stronach Tax Authority poświęconych e-fakturom."
+      "q": "Od kiedy e-faktury są obowiązkowe w Omanie?",
+      "a": "Od 1 kwietnia 2027, jeśli Twoje roczne dostawy przekraczają OMR 5,000,000, i od 1 października 2027, jeśli wynoszą OMR 5,000,000 lub mniej. Obie daty ustala Decision 189/2026. Możesz zacząć dobrowolnie przed swoją datą. FAQ Tax Authority wyjaśnia, jak liczyć dostawy na potrzeby progu."
     },
     {
       "q": "Czy mogę wystawić fakturę po angielsku w Omanie?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Fakturuj poprawnie w Omanie, za darmo",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 zmieniająca Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, tekst w serwisie Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "FAQ e-faktur Fawtara, ostatnia aktualizacja 30 września 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

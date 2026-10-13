@@ -1,0 +1,113 @@
+{
+  "locale": "lt",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E. sąskaitos Omanui",
+  "metaTitle": "Omano e. sąskaitų programa (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen sudaro PINT OM XML, tikrina jį oficialiu Omano schematron, išrašo vieną kartą su UUID v5 ir užšaldo sąskaitą. Skirta Fawtara.",
+  "keywords": "e. sąskaitų programa omanas, fawtara programa, pint om xml, omano e. sąskaita, omano schematron tikrinimas, kreditinė sąskaita omanas e. sąskaitos, debetinė sąskaita omanas",
+  "heroEyebrow": "Omanas · Fawtara",
+  "heroTitle": "E. sąskaitos, kurios atitinka <em class=\"text-copper-400 not-italic\">Omano taisykles</em> dar prieš išsiunčiant",
+  "heroSubtitle": "Paper & Pen paverčia jūsų sąskaitas faktūras, kreditines ir debetines sąskaitas faktūras PINT OM XML ir kiekvieną patikrina pagal oficialų Omano schematron. Pasirengimo patikra išvardija, ką reikia pataisyti jūsų įrašuose. Patikrą išlaikiusi sąskaita išrašoma vieną kartą, su savo UUID, ir lieka užšaldyta.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Patikra oficialiu Omano schematron",
+    "Išrašoma vieną kartą, tada užšaldoma"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Kiekviena sąskaita tampa PINT OM e. sąskaita faktūra: UBL 2.1 XML formatu, kurį naudoja Omano Fawtara."
+    },
+    {
+      "icon": "shield",
+      "title": "Oficialus Omano schematron",
+      "desc": "XML tikrinamas pagal oficialias OpenPeppol PINT OM schematron taisykles, 1.0.1 versiją."
+    },
+    {
+      "icon": "check",
+      "title": "Pasirengimo patikra su pataisymais",
+      "desc": "Jūsų įmonės, klientų ir pozicijų įrašų peržiūra išvardija kiekvieną trūkumą ir vietą, kur jį pataisyti."
+    },
+    {
+      "icon": "lock",
+      "title": "Vienkartinis išrašymas, UUID v5",
+      "desc": "Sąskaita išrašoma vieną kartą su UUID 5 versija. Pakartotinis bandymas ar dvigubas spustelėjimas niekada nesukuria antros."
+    },
+    {
+      "icon": "invoice",
+      "title": "Užšaldoma išrašius",
+      "desc": "Išrašius niekas negali pakeisti sumų, anuliuoti sąskaitos ar jos ištrinti."
+    },
+    {
+      "icon": "receipt",
+      "title": "Kreditinės ir debetinės sąskaitos",
+      "desc": "Sukurkite dokumentą iš pradinės sąskaitos. Jame yra numeris, data, UUID ir priežasties kodas."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Prieš išrašant",
+      "title": "Raskite trūkumus, kol dar galite juos pataisyti",
+      "body": "Dauguma e. sąskaitų atmetimų kyla dėl pagrindinių duomenų, o ne dėl sumų: kliento PVM numeris neteisingu formatu, trūkstamas pardavėjo adresas, pozicija be HS kodo ar veiklos kodo. Pasirengimo patikra peržiūri jūsų įrašus pagal PINT OM taisykles ir sugrupuoja kiekvieną trūkumą pagal įrašą, kurį reikia pataisyti, todėl prekę pataisote vieną kartą ir kiekviena sąskaitos eilutė su ja tampa tvarkinga. Patikros neišlaikiusi sąskaita neišrašoma. Jos trūkumai išlieka, ir ją vis dar galite redaguoti.",
+      "items": [
+        "Trūkumai sugrupuoti pagal įmonę, klientą ir poziciją",
+        "Prie kiekvieno trūkumo nurodytas taisytinas įrašas",
+        "Neišlaikiusi sąskaita lieka juodraščiu, kurį galite pataisyti"
+      ]
+    },
+    {
+      "eyebrow": "Išrašant",
+      "title": "Viena sąskaita, vienas UUID, jokių vėlesnių pakeitimų",
+      "body": "Pagal Fawtara išrašytos sąskaitos negalima anuliuoti ar redaguoti. Paper & Pen laikosi tos pačios taisyklės. Kai sąskaita išlaiko patikrą, ji išrašoma su UUID 5 versija, o jos XML saugomas kartu su ja. Nuo tada sumos, eilutės ir klientas yra užrakinti, o sąskaitos negalima anuliuoti ar ištrinti. Mokėjimai ir toliau registruojami įprastai.",
+      "items": [
+        "UUID 5 versija saugoma sąskaitoje",
+        "XML saugomas kartu su išrašyta sąskaita",
+        "Sumos užrakintos, be anuliavimo, be trynimo"
+      ]
+    },
+    {
+      "eyebrow": "Kai kas nors pasikeičia",
+      "title": "Taisykite kreditine arba debetine sąskaita faktūra",
+      "body": "Norėdami sumažinti išrašytą sąskaitą, sukurkite iš jos kreditinę sąskaitą faktūrą. Norėdami ją padidinti, sukurkite iš jos debetinę sąskaitą faktūrą. Paper & Pen užpildo dokumentą pagal pradinę sąskaitą: numerį, datą ir UUID, kurių reikalauja PINT OM. Jūs pasirenkate priežasties kodą: CAN anuliavimui ar grąžinimui, VAT PVM režimo pasikeitimui, VAL vertės pasikeitimui, QTY kiekio pasikeitimui arba OTH. Dokumentui taikoma ta pati patikra ir ta pati vienkartinio išrašymo taisyklė.",
+      "items": [
+        "Kreditinė sąskaita faktūra (381) ir debetinė sąskaita faktūra (383)",
+        "Pradinis numeris, data ir UUID užpildyti",
+        "Priežasčių kodai CAN, VAT, VAL, QTY, OTH anglų ir arabų kalbomis"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ar Paper & Pen siunčia mano sąskaitas Omano mokesčių institucijai?",
+      "a": "Jokia programinė įranga nesiunčia tiesiai mokesčių institucijai. Pagal Fawtara akredituotas paslaugų teikėjas gauna jūsų e. sąskaitą faktūrą, ją pristato ir praneša apie ją mokesčių institucijai. Paper & Pen sudaro ir patikrina PINT OM XML, kurį gauna teikėjas. Akredituotų teikėjų sąrašą skelbia mokesčių institucija."
+    },
+    {
+      "q": "Kokius dokumentus tai apima?",
+      "a": "Sąskaitas faktūras, kreditines sąskaitas faktūras ir debetines sąskaitas faktūras. Kiekviena sudaroma kaip PINT OM XML, patikrinama pagal oficialų Omano schematron ir išrašoma vieną kartą su savo UUID 5 versija."
+    },
+    {
+      "q": "Kas nutinka mano senesnėms sąskaitoms?",
+      "a": "E. sąskaitos Paper & Pen prasideda nuo jūsų darbo vietai nustatytos paleidimo datos. Iki tos datos išrašytos sąskaitos neliečiamos ir nesiunčiamos, o tai atitinka mokesčių institucijos taisyklę, kad ankstesnės sąskaitos neteikiamos."
+    },
+    {
+      "q": "Ar galiu redaguoti sąskaitą ją išrašęs?",
+      "a": "Ne. Išrašyta e. sąskaita faktūra yra užšaldyta: jos sumos ir eilutės užrakintos, o jos negalima anuliuoti ar ištrinti. Norėdami ją pataisyti, sukurkite iš jos kreditinę arba debetinę sąskaitą faktūrą. Sąskaita, kuri dar neišlaikė patikros, lieka redaguojama."
+    },
+    {
+      "q": "Nuo kada e. sąskaitos Omane tampa privalomos?",
+      "a": "Nuo 2027 m. balandžio 1 d. įmonėms, kurių metinis tiekimas viršija OMR 5,000,000, ir nuo 2027 m. spalio 1 d. kitoms, pagal sprendimą 189/2026. Mūsų Omano e. sąskaitų vadovas paaiškina ribos testą ir pateikia nuorodas į oficialius tekstus."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Sukurkite nemokamą darbo vietą",
+  "ctaSub": "Pardavimai ir sąskaitų išrašymas nemokami visam laikui. Patikrinkite savo įrašus pagal PINT OM taisykles iki savo Fawtara datos."
+}

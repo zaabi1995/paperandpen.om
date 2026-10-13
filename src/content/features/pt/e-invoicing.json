@@ -1,0 +1,113 @@
+{
+  "locale": "pt",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "Fatura eletrônica para Omã",
+  "metaTitle": "Software de fatura eletrônica (PINT OM) Omã · Paper & Pen",
+  "metaDescription": "O Paper & Pen gera XML PINT OM, verifica com o schematron oficial de Omã, emite uma vez com UUID v5 e congela a fatura emitida. Para a Fawtara.",
+  "keywords": "software de fatura eletrônica Omã, software fawtara, xml pint om, fatura eletrônica Omã, validação schematron Omã, nota de crédito fatura eletrônica Omã, nota de débito Omã",
+  "heroEyebrow": "Omã · Fawtara",
+  "heroTitle": "Faturas eletrônicas que passam nas <em class=\"text-copper-400 not-italic\">regras de Omã</em> antes de sair",
+  "heroSubtitle": "O Paper & Pen transforma suas faturas, notas de crédito e notas de débito em XML PINT OM e verifica cada uma com o schematron oficial de Omã. Uma verificação de prontidão lista o que corrigir nos seus registros. Uma fatura aprovada é emitida uma única vez, com seu próprio UUID, e permanece congelada.",
+  "heroBullets": [
+    "XML PINT OM 1.0.1",
+    "Verificação com o schematron oficial de Omã",
+    "Emitida uma vez, depois congelada"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Cada fatura vira uma fatura eletrônica PINT OM: o formato XML UBL 2.1 que a Fawtara de Omã usa."
+    },
+    {
+      "icon": "shield",
+      "title": "Schematron oficial de Omã",
+      "desc": "O XML é verificado com as regras oficiais de schematron PINT OM da OpenPeppol, versão 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Verificação de prontidão com correções",
+      "desc": "Uma varredura dos cadastros da empresa, dos clientes e dos itens lista cada lacuna e onde corrigi-la."
+    },
+    {
+      "icon": "lock",
+      "title": "Emissão única, UUID v5",
+      "desc": "Uma fatura é emitida uma única vez, com um UUID versão 5. Uma nova tentativa ou um clique duplo nunca gera uma segunda."
+    },
+    {
+      "icon": "invoice",
+      "title": "Congelada ao ser emitida",
+      "desc": "Depois da emissão, ninguém pode alterar os valores, cancelar a fatura nem apagá-la."
+    },
+    {
+      "icon": "receipt",
+      "title": "Notas de crédito e de débito",
+      "desc": "Gere uma nota a partir da fatura original. Ela traz o número, a data, o UUID e um código de motivo."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Antes de emitir",
+      "title": "Encontre as lacunas enquanto ainda dá para corrigir",
+      "body": "A maioria das rejeições de faturas eletrônicas vem dos dados cadastrais, não dos totais: um número de IVA do cliente no formato errado, um endereço do vendedor faltando, um item sem código HS ou código de atividade. A verificação de prontidão compara seus registros com as regras PINT OM e agrupa cada lacuna pelo cadastro que precisa da correção, então você corrige um produto uma vez e todas as linhas de fatura com ele ficam resolvidas. Uma fatura que não passa na verificação não é emitida. Ela mantém suas lacunas e você ainda pode editá-la.",
+      "items": [
+        "Lacunas agrupadas por empresa, cliente e item",
+        "Cada lacuna indica o cadastro a corrigir",
+        "Uma fatura reprovada continua como rascunho que você pode corrigir"
+      ]
+    },
+    {
+      "eyebrow": "Ao emitir",
+      "title": "Uma fatura, um UUID, nenhuma edição posterior",
+      "body": "Na Fawtara, uma fatura emitida não pode ser cancelada nem editada. O Paper & Pen segue a mesma regra. Quando uma fatura passa na verificação, ela é emitida com um UUID versão 5, e seu XML é armazenado junto com ela. A partir daí, os valores, as linhas e o cliente ficam bloqueados, e a fatura não pode ser cancelada nem apagada. Os pagamentos continuam sendo lançados normalmente.",
+      "items": [
+        "UUID versão 5 armazenado na fatura",
+        "O XML é armazenado junto com a fatura emitida",
+        "Valores bloqueados, sem cancelar, sem apagar"
+      ]
+    },
+    {
+      "eyebrow": "Quando algo muda",
+      "title": "Corrija com uma nota de crédito ou uma nota de débito",
+      "body": "Para reduzir uma fatura emitida, gere uma nota de crédito a partir dela. Para aumentá-la, gere uma nota de débito a partir dela. O Paper & Pen preenche a nota com os dados da fatura original: o número, a data e o UUID que a PINT OM exige. Você escolhe o código de motivo: CAN para cancelamento ou devolução, VAT para mudança no tratamento do IVA, VAL para mudança de valor, QTY para mudança de quantidade, ou OTH. A nota passa pela mesma verificação e segue a mesma regra de emissão única.",
+      "items": [
+        "Nota de crédito (381) e nota de débito (383)",
+        "Número, data e UUID originais preenchidos",
+        "Códigos de motivo CAN, VAT, VAL, QTY, OTH em inglês e árabe"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O Paper & Pen envia minhas faturas para a Oman Tax Authority?",
+      "a": "Nenhum software envia diretamente à Tax Authority. Na Fawtara, um provedor de serviços credenciado recebe sua fatura eletrônica, a entrega e a informa à Tax Authority. O Paper & Pen gera e verifica o XML PINT OM que o provedor recebe. A Tax Authority publica a lista de provedores credenciados."
+    },
+    {
+      "q": "Quais documentos ele cobre?",
+      "a": "Faturas, notas de crédito e notas de débito. Cada um é gerado como XML PINT OM, verificado com o schematron oficial de Omã e emitido uma única vez, com seu próprio UUID versão 5."
+    },
+    {
+      "q": "O que acontece com minhas faturas antigas?",
+      "a": "A fatura eletrônica no Paper & Pen começa na data de entrada em produção definida para o seu espaço de trabalho. As faturas emitidas antes dessa data não são alteradas nem enviadas, o que está de acordo com a regra da Tax Authority de que faturas históricas não são enviadas."
+    },
+    {
+      "q": "Ainda posso editar uma fatura depois de emiti-la?",
+      "a": "Não. Uma fatura eletrônica emitida fica congelada: seus valores e linhas ficam bloqueados, e ela não pode ser cancelada nem apagada. Para corrigi-la, gere uma nota de crédito ou uma nota de débito a partir dela. Uma fatura que ainda não passou na verificação continua editável."
+    },
+    {
+      "q": "Quando a fatura eletrônica passa a ser obrigatória em Omã?",
+      "a": "Em 1º de abril de 2027 para empresas com fornecimentos anuais acima de OMR 5,000,000, e em 1º de outubro de 2027 para as demais, conforme a Decisão 189/2026. Nosso guia de fatura eletrônica em Omã explica o teste do limite e traz links para os textos oficiais."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Crie seu espaço de trabalho grátis",
+  "ctaSub": "Vendas e faturamento são grátis para sempre. Verifique seus registros com as regras PINT OM antes da sua data na Fawtara."
+}

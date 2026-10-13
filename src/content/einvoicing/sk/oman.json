@@ -1,0 +1,319 @@
+{
+  "locale": "sk",
+  "slug": "oman",
+  "order": 1,
+  "country": "Omán",
+  "updated": "Skontrolované podľa textov daňového úradu dňa 14. októbra 2026.",
+  "title": "E-fakturácia v Ománe (Fawtara)",
+  "metaTitle": "E-fakturácia Omán: termíny a pravidlá Fawtara · Paper & Pen",
+  "metaDescription": "Fawtara začína 1. 4. 2027 nad OMR 5 miliónov a 1. 10. 2027 pre ostatných. Test limitu, polia a dobropisy PINT OM, s odkazmi na daňový úrad.",
+  "keywords": "e-fakturácia omán, fawtara, fawtara omán, e-fakturácia omán 2027, pint om, e-fakturácia daňový úrad omán, akreditovaný poskytovateľ služieb omán, peppol omán, decision 189/2026",
+  "heroEyebrow": "Omán · Fawtara",
+  "heroTitle": "E-fakturácia v Ománe: <em class=\"text-copper-400 not-italic\">čo začína v roku 2027</em>",
+  "heroSubtitle": "Decision 189/2026 zavádza povinnú e-fakturáciu pre platiteľov DPH v dvoch skupinách, od 1. apríla 2027 a od 1. októbra 2027. Tento sprievodca vysvetľuje, ktorý termín platí pre vás, ako sa faktúra dostane k daňovému úradu, čo musí e-faktúra PINT OM obsahovať a čo vo svojich záznamoch opraviť už teraz. Každé pravidlo odkazuje na oficiálny text.",
+  "heroBullets": [
+    "1. 4. 2027: plnenia nad OMR 5 miliónov",
+    "1. 10. 2027: OMR 5 miliónov alebo menej",
+    "Dobrovoľný štart je možný už teraz"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara v skratke",
+  "facts": [
+    {
+      "label": "Právny základ",
+      "value": "Decision 189/2026",
+      "note": "Mení Executive Regulations of the VAT Law. Daňový úrad ho vydal 3. augusta 2026 a Official Gazette ho zverejnil v čísle 1660 dňa 9. augusta 2026. Nový článok 143 vyžaduje daňovú faktúru v schválenom, zabezpečenom elektronickom formáte s jedinečným číslom.",
+      "source": 1
+    },
+    {
+      "label": "Prvá skupina",
+      "value": "1. apríla 2027",
+      "note": "Zdaniteľné osoby, ktorých ročné plnenia presahujú OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Druhá skupina",
+      "value": "1. októbra 2027",
+      "note": "Zdaniteľné osoby, ktorých ročné plnenia sú OMR 5,000,000 alebo menej.",
+      "source": 1
+    },
+    {
+      "label": "Pred vaším termínom",
+      "value": "Dobrovoľne",
+      "note": "Daňový úrad odporúča firmám otestovať svoje systémy a vystavovať e-faktúry ešte pred povinným termínom.",
+      "source": 2
+    },
+    {
+      "label": "Formát",
+      "value": "XML, PINT OM",
+      "note": "XML je povinný štruktúrovaný formát. Ománskou špecifikáciou je PINT OM verzia 1.0.1, formát Peppol, ktorý spravuje daňový úrad.",
+      "source": 4
+    },
+    {
+      "label": "Načasovanie B2B",
+      "value": "V reálnom čase",
+      "note": "E-faktúra medzi firmami prejde sieťou v okamihu, keď ju vystavíte.",
+      "source": 2
+    },
+    {
+      "label": "Načasovanie B2C",
+      "value": "24 hodín",
+      "note": "Faktúra spotrebiteľovi alebo odberateľovi, ktorý nie je platiteľom DPH, sa hlási do 24 hodín.",
+      "source": 2
+    },
+    {
+      "label": "Staršie faktúry",
+      "value": "Neodosielajú sa",
+      "note": "Faktúry vystavené pred vaším štartom sa do daňového úradu nenahrávajú.",
+      "source": 2
+    },
+    {
+      "label": "Opravy",
+      "value": "Dobropis alebo ťarchopis",
+      "note": "Vystavenú e-faktúru nemožno zrušiť ani upraviť. Opravíte ju elektronickým dobropisom alebo ťarchopisom.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Ktorý termín platí pre vás",
+      "body": "Test vychádza z vašich ročných plnení k 31. marcu 2027. Spočítajte svoje zdaniteľné plnenia (bez dodania dlhodobého majetku), pripočítajte tovar a služby v režime prenesenia daňovej povinnosti a pripočítajte svoje plnenia v rámci GCC.\n\nZačínate 1. apríla 2027, ak ktorýkoľvek z týchto súčtov presahuje OMR 5,000,000: vaše plnenia od 1. apríla 2026 do 31. marca 2027, alebo vaše očakávané plnenia od 1. apríla 2027 do 31. marca 2028. Ak ani jeden súčet nepresahuje OMR 5,000,000, začínate 1. októbra 2027. Nerezident započítava iba svoje plnenia v Ománe. Skupina pre DPH sa testuje ako celok, nie po jednotlivých členoch. Daňový úrad má aj online kontrolu zaradenia: zadáte svoje IČ DPH a pásma svojich plnení.",
+      "items": [
+        "Započítať: zdaniteľné plnenia, plnenia v režime prenesenia daňovej povinnosti, plnenia v rámci GCC",
+        "Vynechať: dodania dlhodobého majetku",
+        "Dve obdobia: 12 mesiacov do 31. marca 2027 a 12 mesiacov od 1. apríla 2027",
+        "Ktorékoľvek obdobie nad OMR 5,000,000 znamená 1. apríla 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Ako sa faktúra dostane k daňovému úradu",
+      "body": "Fawtara používa model piatich strán (five-corner). Strana 1 ste vy, dodávateľ. Strana 2 je váš akreditovaný poskytovateľ služieb. Strana 3 je poskytovateľ služieb vášho odberateľa, strana 4 je váš odberateľ a strana 5 je daňový úrad. Váš softvér nikdy neposiela priamo daňovému úradu. Posiela e-faktúru vášmu poskytovateľovi.\n\nVáš poskytovateľ skontroluje faktúru podľa oficiálnych ománskych pravidiel schematron, doručí ju poskytovateľovi odberateľa v sieti Peppol a odošle daňovému úradu dokument s daňovými údajmi. Na portáli Fawtara ste napojení vždy na jedného poskytovateľa a neskôr ho môžete zmeniť. Za správnosť faktúry zodpovedáte naďalej vy.",
+      "items": [
+        "C1 dodávateľ, C2 poskytovateľ dodávateľa, C3 poskytovateľ odberateľa, C4 odberateľ, C5 daňový úrad",
+        "Faktúru overuje poskytovateľ, nie daňový úrad",
+        "Vždy jeden poskytovateľ, napojený na portáli Fawtara",
+        "Zodpovednosť za správnu faktúru zostáva na vás"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Čo musí e-faktúra PINT OM obsahovať",
+      "body": "PINT OM pridáva k faktúre Peppol ománske pravidlá. Väčšina zamietnutí vzniká pre chýbajúce kmeňové údaje, nie pre celkovú sumu faktúry. Tieto polia vo svojich záznamoch skontrolujte ako prvé.",
+      "items": [
+        "Jedinečné UUID faktúry, verzia 5, a čas vystavenia",
+        "Dátum vystavenia, ktorý podľa maskatského času nie je v budúcnosti",
+        "IČ DPH dodávateľa v tvare OM plus 10 číslic, adresa a telefón dodávateľa",
+        "Pri úplnej daňovej faktúre IČ DPH alebo identifikátor a adresa odberateľa",
+        "DPH pri každom riadku a daňová kategória pri každom riadku (S, E, O alebo Z)",
+        "Základná sadzba 5 %; oslobodené riadky a riadky s nulovou sadzbou potrebujú kód dôvodu",
+        "Pri tovare 12-miestny ománsky HS kód a pri každom riadku príznak tovaru alebo služby",
+        "Kód činnosti ISIC pri každej položke",
+        "Sumy najviac na 3 desatinné miesta, súčty DPH v OMR"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Dobropisy a ťarchopisy",
+      "body": "Keď e-faktúru vystavíte, nerušíte ju, nemažete ani neupravujete. Vystavíte elektronický dobropis (na zníženie) alebo ťarchopis (na zvýšenie). Doklad uvádza pôvodnú faktúru číslom, dátumom a UUID a nesie kód dôvodu: CAN pre zrušenie alebo vrátenie, VAT pre zmenu režimu DPH, VAL pre zmenu hodnoty, QTY pre zmenu množstva alebo OTH pre iný dôvod. Ak ste fakturovali nesprávnemu odberateľovi, vystavte tomuto odberateľovi dobropis a správnemu novú faktúru.",
+      "items": [
+        "Dobropis: typ dokladu 381",
+        "Ťarchopis: typ dokladu 383",
+        "Číslo, dátum a UUID pôvodnej faktúry na každom doklade",
+        "Kódy dôvodu: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Výber akreditovaného poskytovateľa služieb",
+      "body": "Daňový úrad zverejňuje aktuálny zoznam akreditovaných poskytovateľov služieb. K 13. októbru 2026 mal zoznam 36 položiek a stále rastie. Daňový úrad daňovníkom neúčtuje žiadny poplatok a ceny poskytovateľov nestanovuje, takže každý poskytovateľ si volí vlastný model: predplatné, platbu za faktúru alebo iný. Porovnávajte poskytovateľov podľa toho, na čo sa napájajú, kde uchovávajú vaše údaje, podpory arabčiny a toho, ako od nich odídete. Každý poskytovateľ uvádza na zozname vlastné umiestnenie údajov a daňový úrad to neoveruje.",
+      "items": [
+        "Používajte len poskytovateľa zo zoznamu daňového úradu",
+        "Opýtajte sa, ako sa váš softvér napojí: API, nahratie súboru alebo hotový konektor",
+        "Opýtajte sa, kde sú vaše údaje uložené a ako dlho sa archivujú",
+        "Pred podpisom si overte postup pri odchode"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Predaj B2C a QR kód",
+      "body": "Predaj spotrebiteľovi alebo akémukoľvek odberateľovi, ktorý nie je platiteľom DPH, sa hlási daňovému úradu do 24 hodín. Odberateľovi odovzdáte čitateľnú faktúru ľubovoľným kanálom. Táto tlačená alebo PDF kópia musí niesť QR kód, ktorý ako dodávateľ vygenerujete vy. QR kód nie je súčasťou XML e-faktúry. Pre obsah QR kódu odkazuje daňový úrad na prílohu D dokumentu Peppol Oman Architecture. Táto príloha zatiaľ nie je verejná, takže akékoľvek rozloženie QR kódu, ktoré teraz uvidíte, považujte za nepotvrdené.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Čo urobiť teraz",
+      "body": "S prípravou nemusíte čakať na svoj termín. Najdlhšie trvá práca s kmeňovými údajmi a môžete ju začať ešte dnes.",
+      "items": [
+        "Urobte test limitu a zapíšte si svoj termín štartu",
+        "Skontrolujte IČ DPH každého zákazníka: OM plus 10 číslic",
+        "Doplňte 12-miestny HS kód ku každej položke tovaru a kód ISIC ku každej položke",
+        "Priraďte svoje jednotky ku kódom jednotiek UN/ECE (napríklad kus je H87)",
+        "Prestaňte mazať alebo prečíslovávať vystavené faktúry: používajte dobropisy",
+        "Vyberte poskytovateľa zo zoznamu daňového úradu a testujte včas",
+        "Veďte si vlastný archív: daňový úrad údaje faktúr nevracia"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Kto čo posiela, prípad po prípade",
+    "intro": "Cesta faktúry závisí od toho, kto je odberateľ. Tabuľka ukazuje strany pre každý prípad z FAQ daňového úradu.",
+    "columns": [
+      "Prípad",
+      "Tok",
+      "Čo sa stane"
+    ],
+    "rows": [
+      {
+        "label": "Tuzemské B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "V reálnom čase. Váš poskytovateľ doručí faktúru poskytovateľovi odberateľa a nahlási daňové údaje daňovému úradu.",
+        "source": 2
+      },
+      {
+        "label": "B2C alebo odberateľ, ktorý nie je platiteľom DPH",
+        "flow": "C1 → C2 → C5",
+        "detail": "Hlási sa do 24 hodín. Odberateľ dostane čitateľnú faktúru s QR kódom.",
+        "source": 2
+      },
+      {
+        "label": "Odberateľ zatiaľ nie je v žiadnej fáze zavádzania",
+        "flow": "C1 → C2 → C5",
+        "detail": "Váš poskytovateľ nahlási daňové údaje. Faktúru odberateľovi pošlete tak ako dnes.",
+        "source": 2
+      },
+      {
+        "label": "Dodávateľ zatiaľ nie je v žiadnej fáze zavádzania",
+        "flow": "C1 → C4",
+        "detail": "Platiteľ DPH mimo aktuálnych fáz zavádzania fakturuje ako dnes. Odberateľ si uplatňuje odpočet DPH ako dnes.",
+        "source": 2
+      },
+      {
+        "label": "Vývoz",
+        "flow": "C1 → C2 → C5",
+        "detail": "Faktúru zahraničnému zákazníkovi odovzdáte ako dnes. Daňové údaje idú cez sieť.",
+        "source": 2
+      },
+      {
+        "label": "Oprava",
+        "flow": "381 / 383",
+        "detail": "Dobropis alebo ťarchopis ide rovnakou cestou ako faktúra, ktorú opravuje.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Kedy bude e-fakturácia v Ománe povinná?",
+      "a": "Dňa 1. apríla 2027 pre zdaniteľné osoby s ročnými plneniami nad OMR 5,000,000 a dňa 1. októbra 2027 pre tie s OMR 5,000,000 alebo menej. Oba termíny stanovuje Decision 189/2026. Pred vaším termínom je e-fakturácia dobrovoľná a daňový úrad odporúča začať skôr."
+    },
+    {
+      "q": "Ako zistím, či moja firma patrí do skupiny od apríla 2027?",
+      "a": "Spočítajte svoje zdaniteľné plnenia (bez dlhodobého majetku), plnenia v režime prenesenia daňovej povinnosti a plnenia v rámci GCC. Ak súčet od 1. apríla 2026 do 31. marca 2027 presahuje OMR 5,000,000, alebo očakávate, že ho prekročí od 1. apríla 2027 do 31. marca 2028, začínate 1. apríla 2027. Inak začínate 1. októbra 2027."
+    },
+    {
+      "q": "Je faktúra v PDF v Ománe e-faktúrou?",
+      "a": "Nie. E-faktúra je štruktúrovaný súbor XML vo formáte PINT OM, ktorý prechádza cez akreditovaného poskytovateľa služieb. Kópiu v PDF môžete naďalej tlačiť alebo posielať, ale od vášho termínu platí ako platná daňová faktúra iba e-faktúra."
+    },
+    {
+      "q": "Musím nahrať svoje staršie faktúry?",
+      "a": "Nie. Faktúry, ktoré ste vystavili pred začatím e-fakturácie, sa daňovému úradu neodosielajú. Uchovávajte ich vo vlastnej evidencii, ako to vyžaduje zákon o DPH."
+    },
+    {
+      "q": "Čo ak môj zákazník ešte nie je na Fawtara?",
+      "a": "Faktúru aj tak odošlete svojmu poskytovateľovi služieb a ten pošle daňovému úradu dokument s daňovými údajmi. Zákazníkovi faktúru pošlete tak ako dnes."
+    },
+    {
+      "q": "Účtuje si daňový úrad za Fawtara poplatky?",
+      "a": "Nie. Daňový úrad daňovníkom neúčtuje žiadny poplatok a nestanovuje, koľko si účtujú poskytovatelia služieb. Každý akreditovaný poskytovateľ si stanovuje vlastnú cenu."
+    },
+    {
+      "q": "Hrozia sankcie?",
+      "a": "Daňový úrad uvádza, že po začatí povinnosti sa uplatnia sankcie podľa právnych predpisov o DPH. Samostatnú tabuľku sankcií za e-fakturáciu nezverejnil, takže akúkoľvek konkrétnu sumu, ktorú si prečítate inde, považujte za nepotvrdenú."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Pripravte svoje záznamy na Fawtara",
+  "ctaSub": "Paper & Pen vytvára e-faktúry PINT OM a kontroluje ich podľa oficiálnych ománskych pravidiel. Začnite s pracovným priestorom zadarmo.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026, ktorým sa menia Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, text na Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "FAQ k e-fakturácii Fawtara, posledná aktualizácia 30. septembra 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Akreditovaní poskytovatelia služieb (aktuálny zoznam)",
+      "publisher": "Oman Tax Authority, portál Fawtara",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Špecifikácie PINT OM, verzia 1.0.1",
+      "publisher": "OpenPeppol, spravuje Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Pravidlá jurisdikcie PINT OM (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, spravuje Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Kontrola možného zaradenia do zavádzania",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Poznámky k vydaniu PINT OM 1.0.1",
+      "publisher": "OpenPeppol, spravuje Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

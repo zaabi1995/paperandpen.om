@@ -5,15 +5,15 @@
   "country": "阿曼",
   "title": "阿曼營業稅",
   "metaTitle": "阿曼營業稅：稅率、門檻與發票 · Paper & Pen",
-  "metaDescription": "阿曼 5% 營業稅率、OMR 38,500 登記門檻，以及稅務發票必須載明的十二項內容，皆註明 Tax Authority 出處。",
-  "keywords": "阿曼營業稅, 阿曼加值稅稅率, 阿曼營業稅登記門檻, 阿曼稅務發票規定, Fawtara 電子發票, Oman Tax Authority",
+  "metaDescription": "阿曼 5% 營業稅率、OMR 38,500 登記門檻、稅務發票必須載明的內容以及 Fawtara 電子發票日期，皆註明官方文本出處。",
+  "keywords": "阿曼營業稅, 阿曼加值稅稅率, 阿曼營業稅登記門檻, 阿曼稅務發票規定, fawtara 電子發票, 阿曼電子發票 2027, decision 189/2026, Oman Tax Authority",
   "heroEyebrow": "阿曼",
   "heroTitle": "依<em class=\"text-copper-400 not-italic\">阿曼營業稅</em>規定開立發票",
-  "heroSubtitle": "稅率、登記門檻、稅務發票必須載明的內容，以及電子發票的現況。本頁每個數字都註明出自 Oman Tax Authority 自行公布的文本。",
+  "heroSubtitle": "稅率、登記門檻、稅務發票必須載明的內容，以及電子發票何時開始實施。本頁每個數字都註明出自官方公布的文本。",
   "heroBullets": [
     "5% 標準稅率",
     "OMR 38,500 起須登記",
-    "Fawtara 已宣布，尚未上線"
+    "Fawtara 自 2027年4月1日起"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "低於此金額的供應，經 Tax Authority 核准後可使用簡式發票。",
       "source": 3
+    },
+    {
+      "label": "電子發票 (Fawtara)",
+      "value": "2027年4月1日 / 2027年10月1日",
+      "note": "Decision 189/2026 規定，年度供應額超過 OMR 5,000,000 者，自 2027年4月1日起強制使用電子發票；OMR 5,000,000 或以下者，自 2027年10月1日起強制使用。在此之前為自願採用。",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority 僅以阿拉伯語公布 Executive Regulations。此清單是依官方阿拉伯語文本忠實解讀而成，並非官方英文譯本，請在依賴之前向您的稅務顧問確認措辭。"
   },
   "einvoicing": {
-    "status": "已宣布並分階段實施，尚未強制",
-    "body": "阿曼的電子發票計畫名為 Fawtara。Tax Authority 描述了一種五角模式，發票透過經認證的服務供應商送達該機關，並規劃四個階段：試行、擴大、小型企業加入，以及全面實施。該機關尚未以英文公布各階段日期，媒體流傳的日期也未見於其官方網頁。在 Tax Authority 公布之前，您在其他地方看到的任何 Fawtara 具體期限都應視為未經證實。",
-    "source": 4
+    "status": "自 2027年4月1日起強制，目前為自願",
+    "body": "阿曼的電子發票計畫名為 Fawtara。Decision 189/2026 於 2026年8月9日刊登於第 1660 期政府公報，訂定兩個日期：年度供應額超過 OMR 5,000,000 的納稅人為 2027年4月1日，OMR 5,000,000 或以下者為 2027年10月1日。在您的日期到來之前，電子發票為自願採用，Tax Authority 鼓勵及早開始。發票以 PINT OM XML 格式透過經認證的服務供應商傳送，由服務供應商交付給買方並向 Tax Authority 申報。我們的阿曼電子發票指南說明門檻測試與相關規則。",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "事前準備",
-      "title": "不靠猜日期，也能為 Fawtara 做好準備",
-      "body": "不需要等公布期限才準備。該地區每個已上線的電子發票制度，要求的基本紀律都一樣：乾淨完整、包含稅籍編號的客戶資料，不中斷的發票編號，依每一行而非每張發票記錄稅務處理，以及能依要求調閱的文件保存方式。紀錄已符合這四項條件的企業，不論日期何時公布，導入都很快。不符合的企業，則會把通知期間都花在清理資料上。",
+      "title": "在您的日期之前為 Fawtara 做好準備",
+      "body": "日期現已確定，所以要做的是把紀錄整理好。Fawtara 要求：乾淨完整的客戶資料，包括 OM 加 10 位數字形式的稅籍編號；不中斷的發票編號；逐行記錄稅務處理；每個貨品項目附 HS 編碼，每個項目附營業活動代碼；以及能依要求調閱的文件。紀錄已符合這些條件的企業，導入會很快。不符合的企業，則會把通知期間花在清理資料上。",
       "items": [
         "完整的客戶資料，包括稅籍編號",
         "每個系列一組不中斷的發票編號",
         "逐行記錄稅務處理",
-        "文件可依要求調閱"
+        "項目上附 HS 編碼與營業活動代碼"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "當您的年度供應額達到或預期達到 OMR 38,500 時。自 OMR 19,250 起即可自願登記。這兩個數字都來自主席關於登記門檻的決定，而非 VAT Law 本身，因此可能在法律不變的情況下調整。"
     },
     {
-      "q": "阿曼的電子發票已經強制實施了嗎？",
-      "a": "還沒有。Tax Authority 已宣布 Fawtara，這是一種透過經認證服務供應商、分階段實施的五角電子發票模式，並描述了四個實施階段。該機關尚未在其官方網頁以英文公布各階段日期，因此我們在此不列出日期。請查看 Tax Authority 的電子發票網頁以了解最新狀況。"
+      "q": "阿曼何時強制實施電子發票？",
+      "a": "年度供應額超過 OMR 5,000,000 者，自 2027年4月1日起；OMR 5,000,000 或以下者，自 2027年10月1日起。這兩個日期都由 Decision 189/2026 訂定。您可以在自己的日期之前自願開始。Tax Authority 的常見問題說明如何計算供應額以判斷是否達到門檻。"
     },
     {
       "q": "在阿曼可以用英文開立發票嗎？",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "在阿曼正確開立發票，免費",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026，修正營業稅法施行細則（政府公報第 1660 期）",
+      "publisher": "Oman Tax Authority，文本刊於 Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Fawtara 電子發票常見問題，最後更新於 2026年9月30日",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

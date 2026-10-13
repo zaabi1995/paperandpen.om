@@ -1,0 +1,319 @@
+{
+  "locale": "tl",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Sinuri ayon sa mga teksto ng Tax Authority noong 14 Oktubre 2026.",
+  "title": "E-invoicing sa Oman (Fawtara)",
+  "metaTitle": "Fawtara sa Oman: Mga Petsa at Patakaran · Paper & Pen",
+  "metaDescription": "Fawtara: 1 Abril 2027 kung lampas OMR 5 milyon, 1 Oktubre 2027 sa iba. Ang threshold test, PINT OM field at note, may sanggunian sa Tax Authority.",
+  "keywords": "e-invoicing oman, fawtara, fawtara oman, e-invoicing sa oman 2027, pint om, e-invoicing ng oman tax authority, accredited service provider sa oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-invoicing sa Oman: <em class=\"text-copper-400 not-italic\">ang magsisimula sa 2027</em>",
+  "heroSubtitle": "Ginagawang mandatory ng Decision 189/2026 ang e-invoicing para sa mga negosyong VAT-registered sa dalawang grupo, simula 1 Abril 2027 at simula 1 Oktubre 2027. Ipinapaliwanag ng gabay na ito kung aling petsa ang para sa iyo, paano nakakarating ang invoice sa Tax Authority, ano ang dapat taglay ng PINT OM e-invoice, at ano ang dapat mong ayusin sa mga record mo ngayon. Naka-link sa opisyal na teksto ang bawat patakaran.",
+  "heroBullets": [
+    "1 Abr 2027: supply na lampas OMR 5 milyon",
+    "1 Okt 2027: OMR 5 milyon o mas mababa",
+    "Puwede nang magsimula nang boluntaryo ngayon"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Ang Fawtara sa isang tingin",
+  "facts": [
+    {
+      "label": "Legal na batayan",
+      "value": "Decision 189/2026",
+      "note": "Inaamyendahan nito ang Executive Regulations of the VAT Law. Inilabas ito ng Tax Authority noong 3 Agosto 2026, at inilathala ito ng Official Gazette sa isyu 1660 noong 9 Agosto 2026. Hinihingi ng bagong Artikulo 143 ang tax invoice sa isang aprubado at secured na electronic format na may natatanging numero.",
+      "source": 1
+    },
+    {
+      "label": "Unang grupo",
+      "value": "1 Abril 2027",
+      "note": "Mga taxable person na lampas OMR 5,000,000 ang taunang supply.",
+      "source": 1
+    },
+    {
+      "label": "Ikalawang grupo",
+      "value": "1 Oktubre 2027",
+      "note": "Mga taxable person na OMR 5,000,000 o mas mababa ang taunang supply.",
+      "source": 1
+    },
+    {
+      "label": "Bago ang petsa mo",
+      "value": "Boluntaryo",
+      "note": "Hinihikayat ng Tax Authority ang mga negosyo na i-test ang kanilang sistema at mag-isyu ng e-invoice bago ang kanilang mandatory na petsa.",
+      "source": 2
+    },
+    {
+      "label": "Format",
+      "value": "XML, PINT OM",
+      "note": "XML ang mandatory na structured format. Ang specification ng Oman ay PINT OM version 1.0.1, isang Peppol format na pinapanatili ng Tax Authority.",
+      "source": 4
+    },
+    {
+      "label": "Timing ng B2B",
+      "value": "Real time",
+      "note": "Dumadaan sa network ang business-to-business na e-invoice sa sandaling i-isyu mo ito.",
+      "source": 2
+    },
+    {
+      "label": "Timing ng B2C",
+      "value": "24 oras",
+      "note": "Iniuulat sa loob ng 24 oras ang invoice sa isang consumer, o sa buyer na hindi VAT-registered.",
+      "source": 2
+    },
+    {
+      "label": "Mga lumang invoice",
+      "value": "Hindi isinusumite",
+      "note": "Hindi ina-upload sa Tax Authority ang mga invoice na inisyu bago ka magsimula.",
+      "source": 2
+    },
+    {
+      "label": "Mga pagwawasto",
+      "value": "Credit o debit note",
+      "note": "Hindi mo puwedeng i-cancel o i-edit ang inisyung e-invoice. Inaayos mo ito gamit ang electronic credit note o debit note.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Aling petsa ang para sa iyo",
+      "body": "Ginagamit ng test ang taunang supply mo hanggang 31 Marso 2027. Bilangin ang mga taxable supply mo (huwag isama ang supply ng capital assets), idagdag ang goods at services sa ilalim ng reverse charge mechanism, at idagdag ang mga intra-GCC supply mo.\n\nMagsisimula ka sa 1 Abril 2027 kung lampas OMR 5,000,000 ang alinman sa dalawang total: ang supply mo mula 1 Abril 2026 hanggang 31 Marso 2027, o ang inaasahang supply mo mula 1 Abril 2027 hanggang 31 Marso 2028. Kung walang lampas OMR 5,000,000, magsisimula ka sa 1 Oktubre 2027. Ang non-resident ay supply lang nito sa Oman ang binibilang. Sinusuri ang VAT group bilang iisang grupo, hindi isa-isang miyembro. May online rollout check din ang Tax Authority: ilalagay mo ang VAT number mo at ang mga supply band mo.",
+      "items": [
+        "Isama: taxable supply, reverse charge supply, intra-GCC supply",
+        "Huwag isama: supply ng capital assets",
+        "Dalawang window: ang 12 buwan hanggang 31 Marso 2027, at ang 12 buwan mula 1 Abril 2027",
+        "Kapag lampas OMR 5,000,000 ang alinmang window, 1 Abril 2027 ang petsa mo"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Paano nakakarating ang invoice sa Tax Authority",
+      "body": "Gumagamit ang Fawtara ng five-corner model. Ikaw, ang seller, ang corner 1. Ang accredited service provider mo ang corner 2. Ang service provider ng buyer mo ang corner 3, ang buyer mo ang corner 4, at ang Tax Authority ang corner 5. Hindi kailanman direktang nagpapadala ang software mo sa Tax Authority. Ipinapadala nito ang e-invoice sa provider mo.\n\nSinusuri ng provider mo ang invoice ayon sa opisyal na schematron rules ng Oman, inihahatid ito sa provider ng buyer sa Peppol network, at nagpapadala ng tax data document sa Tax Authority. Naka-link ka sa iisang provider lang sa bawat pagkakataon sa pamamagitan ng Fawtara portal, at puwede kang magpalit ng provider sa ibang pagkakataon. Ikaw pa rin ang responsable sa pagsunod ng invoice sa patakaran.",
+      "items": [
+        "C1 seller, C2 provider ng seller, C3 provider ng buyer, C4 buyer, C5 Tax Authority",
+        "Ang provider ang nagva-validate ng invoice, hindi ang Tax Authority",
+        "Iisang provider sa bawat pagkakataon, naka-link sa Fawtara portal",
+        "Nasa iyo pa rin ang responsibilidad sa tamang invoice"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Ano ang dapat taglay ng PINT OM e-invoice",
+      "body": "Nagdadagdag ang PINT OM ng mga patakaran ng Oman sa ibabaw ng Peppol invoice. Karamihan sa mga rejection ay galing sa kulang na master data, hindi sa total ng invoice. Suriin muna ang mga field na ito sa mga record mo.",
+      "items": [
+        "Natatanging UUID ng invoice, version 5, at ang oras ng pag-isyu",
+        "Petsa ng pag-isyu na hindi nasa hinaharap ayon sa oras sa Muscat",
+        "VAT number ng seller sa anyong OM at 10 digit, address at telepono ng seller",
+        "Para sa buong tax invoice, ang VAT number o identifier at address ng buyer",
+        "VAT bawat linya, at tax category bawat linya (S, E, O o Z)",
+        "Standard rate na 5%; kailangan ng reason code ang mga exempt at zero-rated na linya",
+        "Para sa goods, 12-digit na Oman HS code at goods o services flag bawat linya",
+        "ISIC activity code bawat item",
+        "Mga halagang hanggang 3 decimal lang, sa OMR para sa mga VAT total"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Mga credit note at debit note",
+      "body": "Pagkatapos mong mag-isyu ng e-invoice, hindi mo ito kinakansela, binubura o ine-edit. Nag-iisyu ka ng electronic credit note (para bawasan ito) o debit note (para dagdagan ito). Pinapangalanan ng note ang orihinal na invoice ayon sa numero, petsa at UUID, at may dala itong reason code: CAN para sa cancellation o return, VAT para sa pagbabago sa VAT treatment, VAL para sa pagbabago sa halaga, QTY para sa pagbabago sa dami, o OTH para sa ibang dahilan. Kung maling buyer ang na-invoice mo, mag-isyu ng credit note sa buyer na iyon at bagong invoice sa tamang buyer.",
+      "items": [
+        "Credit note: document type 381",
+        "Debit note: document type 383",
+        "Numero, petsa at UUID ng orihinal na invoice sa bawat note",
+        "Mga reason code: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Pagpili ng accredited service provider",
+      "body": "Inilalathala ng Tax Authority ang live na listahan ng mga accredited service provider. Noong 13 Oktubre 2026, may 36 na entry ang listahan, at patuloy pa itong lumalaki. Walang sinisingil na bayad ang Tax Authority sa mga taxpayer at hindi nito itinatakda ang presyo ng mga provider, kaya bawat provider ang nagtatakda ng sarili nitong modelo: subscription, bawat invoice o iba pa. Ikumpara ang mga provider ayon sa kung saan sila kumokonekta, saan nila iniimbak ang data mo, suporta sa Arabic, at paano ka makakalipat palayo sa kanila. Bawat provider ang nagsasaad ng sarili nitong data residency sa listahan, at hindi ito bine-verify ng Tax Authority.",
+      "items": [
+        "Gumamit lang ng provider na nasa listahan ng Tax Authority",
+        "Itanong kung paano kumokonekta ang software mo: API, file upload o handang connector",
+        "Itanong kung saan iniimbak ang data mo at gaano katagal ito naka-archive",
+        "Alamin ang mga hakbang sa paglipat palabas bago ka pumirma"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Mga B2C na benta at ang QR code",
+      "body": "Iniuulat sa Tax Authority sa loob ng 24 oras ang benta sa isang consumer, o sa kahit sinong buyer na hindi VAT-registered. Binibigyan mo ang buyer ng invoice na nababasa ng tao sa kahit anong channel. Dapat may QR code ang printed o PDF na kopyang iyon, na ikaw bilang seller ang gumagawa. Hindi bahagi ng XML e-invoice ang QR code. Itinuturo ng Tax Authority ang Appendix D ng Peppol Oman Architecture para sa laman ng QR. Hindi pa pampubliko ang appendix na iyon, kaya ituring na hindi pa kumpirmado ang anumang QR layout na nakikita mo ngayon.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Ano ang gagawin ngayon",
+      "body": "Hindi mo kailangang hintayin ang petsa mo para maghanda. Master data ang trabahong pinakamatagal, at puwede mo itong simulan ngayon.",
+      "items": [
+        "Gawin ang threshold test at isulat ang petsa ng pagsisimula mo",
+        "Suriin ang bawat VAT number ng customer: OM at 10 digit",
+        "Idagdag ang 12-digit na HS code sa bawat goods item at ISIC code sa bawat item",
+        "I-map ang mga unit mo sa UN/ECE unit code (halimbawa, H87 ang isang piraso)",
+        "Itigil ang pagbura o pag-renumber ng mga inisyung invoice: gumamit ng credit note",
+        "Pumili ng provider mula sa listahan ng Tax Authority at mag-test nang maaga",
+        "Magtabi ng sarili mong archive: hindi ibinabalik ng Tax Authority ang invoice data"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Sino ang nagpapadala ng ano, bawat kaso",
+    "intro": "Nakadepende ang daan ng invoice sa kung sino ang buyer. Ipinapakita ng table ang mga corner para sa bawat kaso sa FAQ ng Tax Authority.",
+    "columns": [
+      "Kaso",
+      "Daloy",
+      "Ano ang nangyayari"
+    ],
+    "rows": [
+      {
+        "label": "Domestic na B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Real time. Inihahatid ng provider mo sa provider ng buyer at iniuulat ang tax data sa Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C, o buyer na hindi VAT-registered",
+        "flow": "C1 → C2 → C5",
+        "detail": "Iniuulat sa loob ng 24 oras. Tumatanggap ang buyer ng invoice na nababasa ng tao at may QR code.",
+        "source": 2
+      },
+      {
+        "label": "Buyer na wala pa sa isang rollout",
+        "flow": "C1 → C2 → C5",
+        "detail": "Ang provider mo ang nag-uulat ng tax data. Ipinapadala mo ang invoice sa buyer gaya ng ginagawa mo ngayon.",
+        "source": 2
+      },
+      {
+        "label": "Seller na wala pa sa isang rollout",
+        "flow": "C1 → C4",
+        "detail": "Ang VAT-registered na seller na wala sa kasalukuyang mga rollout ay nag-i-invoice gaya ngayon. Kini-claim ng buyer ang input VAT gaya ngayon.",
+        "source": 2
+      },
+      {
+        "label": "Export",
+        "flow": "C1 → C2 → C5",
+        "detail": "Ibinabahagi mo ang invoice sa dayuhang customer gaya ngayon. Dumadaan sa network ang tax data.",
+        "source": 2
+      },
+      {
+        "label": "Pagwawasto",
+        "flow": "381 / 383",
+        "detail": "Sinusundan ng note ang parehong daan ng invoice na itinatama nito.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Kailan nagiging mandatory ang e-invoicing sa Oman?",
+      "a": "Sa 1 Abril 2027 para sa mga taxable person na lampas OMR 5,000,000 ang taunang supply, at sa 1 Oktubre 2027 para sa mga OMR 5,000,000 o mas mababa. Ang Decision 189/2026 ang nagtatakda ng dalawang petsa. Bago ang petsa mo, boluntaryo ang e-invoicing at hinihikayat ng Tax Authority ang maagang pagsisimula."
+    },
+    {
+      "q": "Paano ko malalaman kung kasama ang negosyo ko sa grupong Abril 2027?",
+      "a": "Pagsamahin ang mga taxable supply mo (walang capital assets), ang mga reverse charge supply mo at ang mga intra-GCC supply mo. Kung lampas OMR 5,000,000 ang total mula 1 Abril 2026 hanggang 31 Marso 2027, o inaasahan mong lalampas ito roon mula 1 Abril 2027 hanggang 31 Marso 2028, magsisimula ka sa 1 Abril 2027. Kung hindi, magsisimula ka sa 1 Oktubre 2027."
+    },
+    {
+      "q": "E-invoice ba ang PDF na invoice sa Oman?",
+      "a": "Hindi. Ang e-invoice ay isang structured XML file sa PINT OM format na dumadaan sa isang accredited service provider. Puwede ka pa ring mag-print o magpadala ng PDF na kopya, pero ang e-invoice lang ang itinuturing na valid na tax invoice kapag nagsimula na ang petsa mo."
+    },
+    {
+      "q": "Kailangan ko bang i-upload ang mga luma kong invoice?",
+      "a": "Hindi. Hindi isinusumite sa Tax Authority ang mga invoice na inisyu mo bago ka nagsimula sa e-invoicing. Itago ang mga ito sa sarili mong record gaya ng hinihingi ng VAT law."
+    },
+    {
+      "q": "Paano kung wala pa sa Fawtara ang customer ko?",
+      "a": "Isusumite mo pa rin ang invoice sa service provider mo, at ipapadala ng provider ang tax data document sa Tax Authority. Ipapadala mo ang invoice sa customer gaya ng ginagawa mo ngayon."
+    },
+    {
+      "q": "Naniningil ba ang Tax Authority para sa Fawtara?",
+      "a": "Hindi. Walang sinisingil na bayad ang Tax Authority sa mga taxpayer at hindi nito itinatakda kung magkano ang singil ng mga service provider. Bawat accredited provider ang nagtatakda ng sarili nitong presyo."
+    },
+    {
+      "q": "May mga multa ba?",
+      "a": "Sinasabi ng Tax Authority na may multa sa ilalim ng VAT legislation pagkatapos magsimula ang mandato. Hindi pa ito naglalathala ng hiwalay na talaan ng multa para sa e-invoicing, kaya ituring na hindi pa kumpirmado ang anumang partikular na halagang mababasa mo sa ibang lugar."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Ihanda ang mga record mo para sa Fawtara",
+  "ctaSub": "Gumagawa ang Paper & Pen ng PINT OM e-invoice at sinusuri ang mga ito ayon sa opisyal na mga patakaran ng Oman. Magsimula sa isang libreng workspace.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 na nag-aamyenda sa Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, teksto sa Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "FAQ ng Fawtara e-invoicing, huling na-update noong 30 Setyembre 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Mga accredited service provider (live na listahan)",
+      "publisher": "Oman Tax Authority, Fawtara portal",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Mga specification ng PINT OM, version 1.0.1",
+      "publisher": "OpenPeppol, pinapanatili ng Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Mga jurisdiction rule ng PINT OM (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, pinapanatili ng Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Pagsusuri ng posibleng rollout",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Mga release note ng PINT OM 1.0.1",
+      "publisher": "OpenPeppol, pinapanatili ng Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

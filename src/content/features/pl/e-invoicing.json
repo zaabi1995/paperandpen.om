@@ -1,0 +1,113 @@
+{
+  "locale": "pl",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-faktury dla Omanu",
+  "metaTitle": "Program do e-faktur w Omanie (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen tworzy XML PINT OM, sprawdza go oficjalnym schematronem Omanu, wystawia raz z UUID v5 i zamraża wystawioną fakturę. Dla Fawtara.",
+  "keywords": "program do e-faktur oman, oprogramowanie fawtara, pint om xml, e-faktura oman, walidacja schematron oman, nota kredytowa e-faktury oman, nota debetowa oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-faktury, które spełniają <em class=\"text-copper-400 not-italic\">zasady Omanu</em>, zanim zostaną wysłane",
+  "heroSubtitle": "Paper & Pen zamienia Twoje faktury, noty kredytowe i noty debetowe w XML PINT OM i sprawdza każdy dokument oficjalnym schematronem Omanu. Kontrola gotowości wskazuje, co poprawić w Twojej ewidencji. Faktura, która przejdzie kontrolę, jest wystawiana raz, z własnym UUID, i pozostaje zamrożona.",
+  "heroBullets": [
+    "XML PINT OM 1.0.1",
+    "Kontrola oficjalnym schematronem Omanu",
+    "Wystawiona raz, potem zamrożona"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "XML PINT OM",
+      "desc": "Każda faktura staje się e-fakturą PINT OM: w formacie XML UBL 2.1, którego używa omańska Fawtara."
+    },
+    {
+      "icon": "shield",
+      "title": "Oficjalny schematron Omanu",
+      "desc": "XML jest sprawdzany według oficjalnych reguł schematron PINT OM od OpenPeppol, wersja 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Kontrola gotowości z poprawkami",
+      "desc": "Skan danych Twojej firmy, klientów i pozycji wskazuje każdą lukę i miejsce, w którym ją poprawić."
+    },
+    {
+      "icon": "lock",
+      "title": "Wystawienie raz, UUID v5",
+      "desc": "Faktura jest wystawiana jeden raz z UUID w wersji 5. Ponowna próba ani podwójne kliknięcie nigdy nie tworzą drugiej."
+    },
+    {
+      "icon": "invoice",
+      "title": "Zamrożona po wystawieniu",
+      "desc": "Po wystawieniu nikt nie może zmienić kwot, anulować faktury ani jej usunąć."
+    },
+    {
+      "icon": "receipt",
+      "title": "Noty kredytowe i debetowe",
+      "desc": "Utwórz notę z pierwotnej faktury. Zawiera numer, datę, UUID i kod przyczyny."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Przed wystawieniem",
+      "title": "Znajdź luki, póki możesz je jeszcze poprawić",
+      "body": "Większość odrzuceń e-faktur wynika z danych podstawowych, a nie z sum: numer VAT klienta w złym formacie, brak adresu sprzedawcy, pozycja bez kodu HS lub kodu działalności. Kontrola gotowości sprawdza Twoją ewidencję według reguł PINT OM i grupuje każdą lukę według rekordu, który wymaga poprawki, więc poprawiasz produkt raz i każda pozycja faktury z tym produktem jest w porządku. Faktura, która nie przejdzie kontroli, nie zostaje wystawiona. Zachowuje swoje luki i nadal możesz ją edytować.",
+      "items": [
+        "Luki pogrupowane według firmy, klienta i pozycji",
+        "Każda luka wskazuje rekord do poprawienia",
+        "Faktura, która nie przeszła kontroli, pozostaje szkicem, który możesz poprawić"
+      ]
+    },
+    {
+      "eyebrow": "Przy wystawieniu",
+      "title": "Jedna faktura, jeden UUID, bez późniejszych zmian",
+      "body": "W Fawtara wystawionej faktury nie można anulować ani edytować. Paper & Pen stosuje tę samą zasadę. Gdy faktura przejdzie kontrolę, jest wystawiana z UUID w wersji 5, a jej XML jest zapisywany razem z nią. Od tej chwili kwoty, pozycje i klient są zablokowane, a faktury nie można anulować ani usunąć. Płatności nadal księgują się normalnie.",
+      "items": [
+        "UUID w wersji 5 zapisany na fakturze",
+        "XML zapisany razem z wystawioną fakturą",
+        "Kwoty zablokowane, bez anulowania, bez usuwania"
+      ]
+    },
+    {
+      "eyebrow": "Gdy coś się zmienia",
+      "title": "Koryguj notą kredytową lub notą debetową",
+      "body": "Aby zmniejszyć wystawioną fakturę, utwórz z niej notę kredytową. Aby ją zwiększyć, utwórz z niej notę debetową. Paper & Pen wypełnia notę danymi z pierwotnej faktury: numerem, datą i UUID, których wymaga PINT OM. Ty wybierasz kod przyczyny: CAN przy anulowaniu lub zwrocie, VAT przy zmianie sposobu opodatkowania VAT, VAL przy zmianie wartości, QTY przy zmianie ilości lub OTH. Nota przechodzi tę samą kontrolę i podlega tej samej zasadzie jednokrotnego wystawienia.",
+      "items": [
+        "Nota kredytowa (381) i nota debetowa (383)",
+        "Pierwotny numer, data i UUID wypełnione automatycznie",
+        "Kody przyczyny CAN, VAT, VAL, QTY, OTH po angielsku i arabsku"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy Paper & Pen wysyła moje faktury do Oman Tax Authority?",
+      "a": "Żadne oprogramowanie nie wysyła faktur bezpośrednio do Tax Authority. W Fawtara Twoją e-fakturę odbiera akredytowany dostawca usług, który ją doręcza i raportuje do Tax Authority. Paper & Pen tworzy i sprawdza XML PINT OM, który otrzymuje dostawca. Tax Authority publikuje listę akredytowanych dostawców."
+    },
+    {
+      "q": "Jakie dokumenty obejmuje?",
+      "a": "Faktury, noty kredytowe i noty debetowe. Każdy dokument jest tworzony jako XML PINT OM, sprawdzany oficjalnym schematronem Omanu i wystawiany raz z własnym UUID w wersji 5."
+    },
+    {
+      "q": "Co dzieje się z moimi starszymi fakturami?",
+      "a": "E-faktury w Paper & Pen zaczynają się od daty uruchomienia ustawionej dla Twojej przestrzeni roboczej. Faktury wystawione przed tą datą pozostają nietknięte i nie są wysyłane, co odpowiada zasadzie Tax Authority, że faktur historycznych się nie przesyła."
+    },
+    {
+      "q": "Czy mogę edytować fakturę po jej wystawieniu?",
+      "a": "Nie. Wystawiona e-faktura jest zamrożona: jej kwoty i pozycje są zablokowane i nie można jej anulować ani usunąć. Aby ją skorygować, utwórz z niej notę kredytową lub notę debetową. Faktura, która jeszcze nie przeszła kontroli, pozostaje edytowalna."
+    },
+    {
+      "q": "Od kiedy e-faktury są obowiązkowe w Omanie?",
+      "a": "Od 1 kwietnia 2027 dla firm z rocznymi dostawami powyżej OMR 5,000,000 i od 1 października 2027 dla pozostałych, zgodnie z Decision 189/2026. Nasz przewodnik po e-fakturach w Omanie wyjaśnia test progu i zawiera linki do oficjalnych tekstów."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Załóż darmową przestrzeń roboczą",
+  "ctaSub": "Sprzedaż i faktury są za darmo na zawsze. Sprawdź swoją ewidencję według reguł PINT OM przed swoją datą Fawtara."
+}

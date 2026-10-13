@@ -1,0 +1,113 @@
+{
+  "locale": "vi",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "Hóa đơn điện tử cho Oman",
+  "metaTitle": "Phần mềm hóa đơn điện tử Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen tạo XML PINT OM, kiểm tra bằng schematron chính thức của Oman, phát hành một lần với UUID v5 và đóng băng hóa đơn đã phát hành. Cho Fawtara.",
+  "keywords": "phần mềm hóa đơn điện tử oman, phần mềm fawtara, xml pint om, hóa đơn điện tử oman, kiểm tra schematron oman, giấy báo có hóa đơn điện tử oman, giấy báo nợ oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "Hóa đơn điện tử đạt <em class=\"text-copper-400 not-italic\">quy tắc của Oman</em> trước khi được gửi đi",
+  "heroSubtitle": "Paper & Pen chuyển hóa đơn, giấy báo có và giấy báo nợ của bạn thành XML PINT OM và kiểm tra từng chứng từ theo schematron chính thức của Oman. Công cụ kiểm tra mức sẵn sàng liệt kê những gì cần sửa trong hồ sơ của bạn. Hóa đơn đạt yêu cầu được phát hành một lần, với UUID riêng, và được đóng băng.",
+  "heroBullets": [
+    "XML PINT OM 1.0.1",
+    "Kiểm tra bằng schematron chính thức của Oman",
+    "Phát hành một lần, sau đó đóng băng"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "XML PINT OM",
+      "desc": "Mỗi hóa đơn trở thành một hóa đơn điện tử PINT OM: định dạng XML UBL 2.1 mà Fawtara của Oman sử dụng."
+    },
+    {
+      "icon": "shield",
+      "title": "Schematron chính thức của Oman",
+      "desc": "XML được kiểm tra theo các quy tắc schematron PINT OM chính thức của OpenPeppol, phiên bản 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Kiểm tra mức sẵn sàng kèm cách sửa",
+      "desc": "Quét hồ sơ công ty, khách hàng và mặt hàng của bạn để liệt kê mọi chỗ thiếu và nơi cần sửa."
+    },
+    {
+      "icon": "lock",
+      "title": "Phát hành một lần, UUID v5",
+      "desc": "Hóa đơn được phát hành một lần với UUID phiên bản 5. Thử lại hay bấm hai lần cũng không bao giờ tạo ra hóa đơn thứ hai."
+    },
+    {
+      "icon": "invoice",
+      "title": "Đóng băng khi phát hành",
+      "desc": "Sau khi phát hành, không ai có thể thay đổi số tiền, hủy hóa đơn hoặc xóa hóa đơn."
+    },
+    {
+      "icon": "receipt",
+      "title": "Giấy báo có và giấy báo nợ",
+      "desc": "Lập giấy báo từ hóa đơn gốc. Giấy báo mang số, ngày, UUID và mã lý do."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Trước khi phát hành",
+      "title": "Tìm chỗ thiếu khi bạn vẫn còn sửa được",
+      "body": "Phần lớn trường hợp hóa đơn điện tử bị từ chối là do dữ liệu gốc, không phải do tổng tiền: mã số thuế GTGT của khách hàng sai dạng, thiếu địa chỉ người bán, mặt hàng không có mã HS hoặc mã hoạt động. Công cụ kiểm tra mức sẵn sàng quét hồ sơ của bạn theo các quy tắc PINT OM và nhóm từng chỗ thiếu theo hồ sơ cần sửa, nên bạn sửa một sản phẩm một lần là mọi dòng hóa đơn có sản phẩm đó đều hết lỗi. Hóa đơn không đạt kiểm tra sẽ không được phát hành. Hóa đơn đó vẫn giữ các chỗ thiếu và bạn vẫn có thể sửa.",
+      "items": [
+        "Chỗ thiếu được nhóm theo công ty, khách hàng và mặt hàng",
+        "Mỗi chỗ thiếu nêu rõ hồ sơ cần sửa",
+        "Hóa đơn không đạt vẫn là bản nháp bạn có thể sửa"
+      ]
+    },
+    {
+      "eyebrow": "Khi phát hành",
+      "title": "Một hóa đơn, một UUID, không sửa sau đó",
+      "body": "Theo Fawtara, hóa đơn đã phát hành không thể bị hủy hoặc sửa. Paper & Pen tuân theo cùng quy tắc này. Khi hóa đơn đạt kiểm tra, hóa đơn được phát hành với UUID phiên bản 5, và XML được lưu cùng hóa đơn. Từ đó, số tiền, các dòng và khách hàng bị khóa, và hóa đơn không thể bị hủy hoặc xóa. Các khoản thanh toán vẫn được ghi nhận như bình thường.",
+      "items": [
+        "UUID phiên bản 5 được lưu trên hóa đơn",
+        "XML được lưu cùng hóa đơn đã phát hành",
+        "Số tiền bị khóa, không hủy, không xóa"
+      ]
+    },
+    {
+      "eyebrow": "Khi có thay đổi",
+      "title": "Điều chỉnh bằng giấy báo có hoặc giấy báo nợ",
+      "body": "Để giảm một hóa đơn đã phát hành, hãy lập giấy báo có từ hóa đơn đó. Để tăng, hãy lập giấy báo nợ từ hóa đơn đó. Paper & Pen điền giấy báo từ hóa đơn gốc: số, ngày và UUID mà PINT OM yêu cầu. Bạn chọn mã lý do: CAN khi hủy hoặc trả hàng, VAT khi thay đổi cách xử lý thuế GTGT, VAL khi thay đổi giá trị, QTY khi thay đổi số lượng, hoặc OTH. Giấy báo cũng qua cùng bước kiểm tra và cùng quy tắc phát hành một lần.",
+      "items": [
+        "Giấy báo có (381) và giấy báo nợ (383)",
+        "Số, ngày và UUID gốc được điền sẵn",
+        "Mã lý do CAN, VAT, VAL, QTY, OTH bằng tiếng Anh và tiếng Ả Rập"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Paper & Pen có gửi hóa đơn của tôi đến Oman Tax Authority không?",
+      "a": "Không phần mềm nào gửi thẳng đến Tax Authority. Theo Fawtara, một nhà cung cấp dịch vụ được công nhận nhận hóa đơn điện tử của bạn, chuyển hóa đơn đi và báo cáo cho Tax Authority. Paper & Pen tạo và kiểm tra XML PINT OM mà nhà cung cấp nhận. Tax Authority công bố danh sách các nhà cung cấp được công nhận."
+    },
+    {
+      "q": "Phần mềm bao gồm những chứng từ nào?",
+      "a": "Hóa đơn, giấy báo có và giấy báo nợ. Mỗi chứng từ được tạo dưới dạng XML PINT OM, kiểm tra theo schematron chính thức của Oman và phát hành một lần với UUID phiên bản 5 riêng."
+    },
+    {
+      "q": "Các hóa đơn cũ của tôi sẽ ra sao?",
+      "a": "Hóa đơn điện tử trong Paper & Pen bắt đầu từ ngày áp dụng được đặt cho không gian làm việc của bạn. Hóa đơn phát hành trước ngày đó không bị tác động và không được gửi đi, phù hợp với quy định của Tax Authority rằng hóa đơn cũ không phải nộp."
+    },
+    {
+      "q": "Tôi có thể sửa hóa đơn sau khi phát hành không?",
+      "a": "Không. Hóa đơn điện tử đã phát hành được đóng băng: số tiền và các dòng bị khóa, và hóa đơn không thể bị hủy hoặc xóa. Để điều chỉnh, hãy lập giấy báo có hoặc giấy báo nợ từ hóa đơn đó. Hóa đơn chưa đạt kiểm tra vẫn có thể sửa."
+    },
+    {
+      "q": "Khi nào hóa đơn điện tử trở thành bắt buộc ở Oman?",
+      "a": "Từ ngày 1/4/2027 đối với doanh nghiệp có doanh số cung cấp hằng năm trên OMR 5,000,000, và từ ngày 1/10/2027 đối với các doanh nghiệp còn lại, theo Decision 189/2026. Hướng dẫn hóa đơn điện tử Oman của chúng tôi giải thích cách xác định ngưỡng và dẫn liên kết đến các văn bản chính thức."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Bắt đầu không gian làm việc miễn phí",
+  "ctaSub": "Bán hàng và hóa đơn miễn phí mãi mãi. Kiểm tra hồ sơ của bạn theo các quy tắc PINT OM trước mốc Fawtara của bạn."
+}

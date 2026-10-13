@@ -5,15 +5,15 @@
   "country": "Omán",
   "title": "ÁFA Ománban",
   "metaTitle": "ÁFA Ománban: kulcs, értékhatárok, számlák · Paper & Pen",
-  "metaDescription": "Omán 5%-os ÁFA-kulcsa, az OMR 38,500 összegű regisztrációs értékhatár és az adószámla tizenkét kötelező eleme, mindegyik az adóhatóság forrásával.",
-  "keywords": "áfa omán, ománi áfakulcs, ománi áfa regisztrációs értékhatár, ománi adószámla követelmények, fawtara e-számla, oman tax authority",
+  "metaDescription": "Omán 5%-os ÁFA-kulcsa, az OMR 38,500 értékhatár, az adószámla kötelező elemei és a Fawtara e-számlázás dátumai, mindegyik a hivatalos szövegre hivatkozva.",
+  "keywords": "áfa omán, ománi áfakulcs, ománi áfa regisztrációs értékhatár, ománi adószámla követelmények, fawtara e-számla, ománi e-számlázás 2027, decision 189/2026, ománi adóhatóság",
   "heroEyebrow": "Omán",
   "heroTitle": "Számlázás az <em class=\"text-copper-400 not-italic\">ománi ÁFA</em> szabályai szerint",
-  "heroSubtitle": "A kulcs, a regisztrációs értékhatárok, mit kell tartalmaznia egy adószámlának, és hol tart az e-számlázás. Az oldalon szereplő minden adat az Oman Tax Authority saját közzétett szövegére hivatkozik.",
+  "heroSubtitle": "A kulcs, a regisztrációs értékhatárok, mit kell tartalmaznia egy adószámlának, és mikor indul az e-számlázás. Az oldalon szereplő minden adat a hivatalosan közzétett szövegre hivatkozik.",
   "heroBullets": [
     "5% általános kulcs",
     "OMR 38,500 a regisztrációhoz",
-    "A Fawtarát bejelentették, még nem él"
+    "Fawtara 2027. április 1-től"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Az ennél kisebb értékű értékesítésekhez egyszerűsített számla is használható, az adóhatóság jóváhagyásával.",
       "source": 3
+    },
+    {
+      "label": "E-számlázás (Fawtara)",
+      "value": "2027. ápr. 1. / 2027. okt. 1.",
+      "note": "A 189/2026. számú határozat (Decision 189/2026) 2027. április 1-től kötelezővé teszi az e-számlázást az OMR 5,000,000 feletti éves értékesítés esetén, 2027. október 1-től pedig az OMR 5,000,000 vagy annál kisebb értékesítés esetén. Addig önkéntes.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Az adóhatóság a Végrehajtási Rendeletet csak arabul teszi közzé. Ez a lista a hivatalos arab szöveg hű olvasata, nem hivatalos angol fordítás, ezért mielőtt hagyatkozna rá, egyeztesse a megfogalmazást adótanácsadójával."
   },
   "einvoicing": {
-    "status": "Bejelentve és szakaszolva, még nem kötelező",
-    "body": "Omán e-számlázási programjának neve Fawtara. Az adóhatóság egy ötsarkú modellt ír le, amelyben a számlák egy akkreditált szolgáltatón keresztül jutnak el hozzá, és négy szakaszt határoz meg: egy próbaszakaszt, egy bővítést, a kisebb vállalkozások bevonását és a teljes bevezetést. A hatóság a szakaszok dátumait angolul nem tette közzé, és a sajtóban keringő dátumok nem szerepelnek a saját oldalain. Minden máshol olvasott konkrét Fawtara-határidőt tekintsen megerősítetlennek, amíg az adóhatóság közzé nem teszi.",
-    "source": 4
+    "status": "2027. április 1-től kötelező, most önkéntes",
+    "body": "Omán e-számlázási programjának neve Fawtara. A 189/2026. számú határozat, amely a Hivatalos Közlöny 1660. számában jelent meg 2026. augusztus 9-én, két dátumot állapít meg: 2027. április 1-jét azoknak az adóalanyoknak, akiknek éves értékesítése meghaladja az OMR 5,000,000 összeget, és 2027. október 1-jét azoknak, akiknél ez OMR 5,000,000 vagy kevesebb. Az Önre vonatkozó dátumig az e-számlázás önkéntes, és az adóhatóság a korai kezdést ösztönzi. A számlák PINT OM XML formátumban, egy akkreditált szolgáltatón keresztül mennek, amely kézbesíti őket a vevőnek, és jelenti őket az adóhatóságnak. Ománi e-számlázási útmutatónk elmagyarázza az értékhatár-vizsgálatot és a szabályokat.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Felkészülés",
-      "title": "Felkészülés a Fawtarára dátumok találgatása nélkül",
-      "body": "A felkészüléshez nincs szüksége közzétett határidőre. A térségben eddig élesedett minden e-számlázási rendszer ugyanazt az alapvető fegyelmet követelte meg: tiszta, teljes vevői nyilvántartást az adószámokkal együtt, megszakítás nélküli számlasorszámozást, soronként és nem számlánként rögzített adókezelést, valamint olyan dokumentumtárolást, amelyből kérésre elő lehet venni a bizonylatokat. Annak a vállalkozásnak, amelynek nyilvántartása már megfelel ennek a négy feltételnek, rövid bevezetés vár, bármikor érkeznek is a dátumok. Amelyiknek nem, az a felkészülési időt adattisztítással tölti.",
+      "title": "Felkészülés a Fawtarára az Önre vonatkozó dátum előtt",
+      "body": "A dátumok már rögzítettek, így a feladat a nyilvántartás felkészítése. A Fawtara tiszta, teljes vevői nyilvántartást kér az adószámokkal együtt, OM plusz 10 számjegy formában, megszakítás nélküli számlasorszámozást, soronként rögzített adókezelést, minden árutételen HS-kódot és minden tételen tevékenységi kódot, valamint kérésre előkereshető dokumentumokat. Annak a vállalkozásnak, amelynek nyilvántartása már megfelel ezeknek a feltételeknek, rövid bevezetés vár. Amelyiknek nem, az a felkészülési időt adattisztítással tölti.",
       "items": [
         "Teljes vevői nyilvántartás, adószámokkal együtt",
         "Sorozatonként egy megszakítás nélküli számlasorszámozás",
         "Soronként rögzített adókezelés",
-        "Kérésre előkereshető dokumentumok"
+        "HS- és tevékenységi kódok a tételein"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Amikor az éves értékesítése eléri vagy várhatóan eléri az OMR 38,500 összeget. Önkéntesen OMR 19,250 összegtől regisztrálhat. Mindkét összeg az Elnök regisztrációs értékhatárokról szóló határozatából származik, nem magából az ÁFA-törvényből, ezért változhatnak anélkül, hogy a törvény változna."
     },
     {
-      "q": "Kötelező már az e-számlázás Ománban?",
-      "a": "Még nem. Az adóhatóság bejelentette a Fawtarát, egy szakaszos, ötsarkú, akkreditált szolgáltatókat használó e-számlázási modellt, és négy bevezetési szakaszt ír le. A szakaszok dátumait saját oldalain angolul nem tette közzé, ezért itt nem adunk meg dátumot. Az aktuális helyzetért nézze meg az adóhatóság e-számlázási oldalait."
+      "q": "Mikortól kötelező az e-számlázás Ománban?",
+      "a": "2027. április 1-től, ha az éves értékesítése meghaladja az OMR 5,000,000 összeget, és 2027. október 1-től, ha OMR 5,000,000 vagy kevesebb. Mindkét dátumot a 189/2026. számú határozat állapítja meg. Az Önre vonatkozó dátum előtt önkéntesen is elkezdheti. Az adóhatóság GYIK-je elmagyarázza, hogyan kell az értékhatárhoz számolni az értékesítéseket."
     },
     {
       "q": "Kiállíthatok angol nyelvű számlát Ománban?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Számlázzon helyesen Ománban, ingyen",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "189/2026. számú határozat az ÁFA-törvény Végrehajtási Rendeletének módosításáról (Hivatalos Közlöny 1660)",
+      "publisher": "Oman Tax Authority, szöveg a Qanoon.om oldalon",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Fawtara e-számlázási GYIK, utoljára frissítve 2026. szeptember 30-án",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

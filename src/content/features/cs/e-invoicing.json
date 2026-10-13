@@ -1,0 +1,113 @@
+{
+  "locale": "cs",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-fakturace pro Omán",
+  "metaTitle": "Software pro e-fakturaci v Ománu (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen vytváří PINT OM XML, kontroluje ho oficiálním ománským schematronem, vystaví jednou s UUID v5 a vystavenou fakturu zmrazí. Pro Fawtara.",
+  "keywords": "software pro e-fakturaci omán, software fawtara, pint om xml, ománská e-faktura, ománská validace schematron, dobropis e-fakturace omán, vrubopis omán",
+  "heroEyebrow": "Omán · Fawtara",
+  "heroTitle": "E-faktury, které splní <em class=\"text-copper-400 not-italic\">ománská pravidla</em> dřív, než odejdou",
+  "heroSubtitle": "Paper & Pen převádí vaše faktury, dobropisy a vrubopisy do PINT OM XML a každý doklad kontroluje podle oficiálního ománského schematronu. Kontrola připravenosti vypíše, co ve svých záznamech opravit. Faktura, která kontrolou projde, se vystaví jednou, s vlastním UUID, a zůstane zmrazená.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Kontrola oficiálním ománským schematronem",
+    "Vystaveno jednou, pak zmrazeno"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Z každé faktury vznikne e-faktura PINT OM: formát XML UBL 2.1, který používá ománská Fawtara."
+    },
+    {
+      "icon": "shield",
+      "title": "Oficiální ománský schematron",
+      "desc": "XML se kontroluje podle oficiálních pravidel schematron OpenPeppol PINT OM, verze 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Kontrola připravenosti s opravami",
+      "desc": "Prověří záznamy o firmě, zákaznících a položkách a vypíše každou mezeru i místo, kde ji opravit."
+    },
+    {
+      "icon": "lock",
+      "title": "Vystavení jednou, UUID v5",
+      "desc": "Faktura se vystaví jedinkrát s UUID verze 5. Opakovaný pokus ani dvojklik nikdy nevytvoří druhou."
+    },
+    {
+      "icon": "invoice",
+      "title": "Po vystavení zmrazeno",
+      "desc": "Po vystavení nikdo nemůže změnit částky, fakturu zrušit ani ji smazat."
+    },
+    {
+      "icon": "receipt",
+      "title": "Dobropisy a vrubopisy",
+      "desc": "Vytvořte doklad z původní faktury. Nese číslo, datum, UUID a kód důvodu."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Před vystavením",
+      "title": "Najděte mezery, dokud je ještě můžete opravit",
+      "body": "Většina zamítnutí e-faktur vzniká kvůli kmenovým datům, ne kvůli součtům: DIČ zákazníka k DPH ve špatném tvaru, chybějící adresa dodavatele, položka bez HS kódu nebo kódu činnosti. Kontrola připravenosti prověří vaše záznamy podle pravidel PINT OM a seskupí každou mezeru podle záznamu, který potřebuje opravu, takže produkt opravíte jednou a všechny řádky faktur s ním jsou v pořádku. Faktura, která kontrolou neprojde, se nevystaví. Mezery jí zůstanou a můžete ji dál upravovat.",
+      "items": [
+        "Mezery seskupené podle firmy, zákazníka a položky",
+        "Každá mezera uvádí záznam, který je třeba opravit",
+        "Neúspěšná faktura zůstane konceptem, který můžete opravit"
+      ]
+    },
+    {
+      "eyebrow": "Při vystavení",
+      "title": "Jedna faktura, jedno UUID, žádné pozdější úpravy",
+      "body": "Podle Fawtara nelze vystavenou fakturu zrušit ani upravit. Paper & Pen se řídí stejným pravidlem. Když faktura projde kontrolou, vystaví se s UUID verze 5 a uloží se s ní její XML. Od té chvíle jsou částky, řádky i zákazník uzamčené a fakturu nelze zrušit ani smazat. Platby se dál účtují jako obvykle.",
+      "items": [
+        "UUID verze 5 uložené u faktury",
+        "XML uložené s vystavenou fakturou",
+        "Částky uzamčené, bez zrušení, bez smazání"
+      ]
+    },
+    {
+      "eyebrow": "Když se něco změní",
+      "title": "Opravte dobropisem nebo vrubopisem",
+      "body": "Chcete-li vystavenou fakturu snížit, vytvořte z ní dobropis. Chcete-li ji zvýšit, vytvořte z ní vrubopis. Paper & Pen vyplní doklad z původní faktury: číslo, datum a UUID, které PINT OM vyžaduje. Kód důvodu vyberete vy: CAN pro zrušení nebo vrácení, VAT pro změnu režimu DPH, VAL pro změnu hodnoty, QTY pro změnu množství nebo OTH. Doklad projde stejnou kontrolou a platí pro něj stejné pravidlo jediného vystavení.",
+      "items": [
+        "Dobropis (381) a vrubopis (383)",
+        "Původní číslo, datum a UUID vyplněné automaticky",
+        "Kódy důvodu CAN, VAT, VAL, QTY, OTH v angličtině a arabštině"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posílá Paper & Pen moje faktury ománské Tax Authority?",
+      "a": "Žádný software neposílá přímo Tax Authority. Podle Fawtara vaši e-fakturu přijme akreditovaný poskytovatel služeb, doručí ji a nahlásí Tax Authority. Paper & Pen vytváří a kontroluje PINT OM XML, které poskytovatel přijímá. Seznam akreditovaných poskytovatelů zveřejňuje Tax Authority."
+    },
+    {
+      "q": "Na které doklady se vztahuje?",
+      "a": "Na faktury, dobropisy a vrubopisy. Každý z nich se vytvoří jako PINT OM XML, zkontroluje podle oficiálního ománského schematronu a vystaví jednou s vlastním UUID verze 5."
+    },
+    {
+      "q": "Co se stane s mými staršími fakturami?",
+      "a": "E-fakturace v Paper & Pen začíná od data spuštění nastaveného pro váš pracovní prostor. Faktur vystavených před tímto datem se nic nedotkne a neodesílají se, což odpovídá pravidlu Tax Authority, že historické faktury se neodesílají."
+    },
+    {
+      "q": "Mohu fakturu upravit i po vystavení?",
+      "a": "Ne. Vystavená e-faktura je zmrazená: její částky a řádky jsou uzamčené a nelze ji zrušit ani smazat. K opravě z ní vytvořte dobropis nebo vrubopis. Faktura, která kontrolou ještě neprošla, zůstává upravitelná."
+    },
+    {
+      "q": "Kdy bude e-fakturace v Ománu povinná?",
+      "a": "Dne 1. dubna 2027 pro firmy s ročními dodáními nad OMR 5,000,000 a dne 1. října 2027 pro ostatní, podle Decision 189/2026. Náš průvodce ománskou e-fakturací vysvětluje test limitu a odkazuje na oficiální texty."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Založte si pracovní prostor zdarma",
+  "ctaSub": "Prodej a fakturace jsou navždy zdarma. Zkontrolujte své záznamy podle pravidel PINT OM ještě před svým termínem Fawtara."
+}

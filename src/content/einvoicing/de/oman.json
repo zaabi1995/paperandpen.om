@@ -1,0 +1,319 @@
+{
+  "locale": "de",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Am 14. Oktober 2026 mit den Texten der Steuerbehörde abgeglichen.",
+  "title": "E-Rechnung in Oman (Fawtara)",
+  "metaTitle": "E-Rechnung in Oman: Fawtara-Termine, Regeln · Paper & Pen",
+  "metaDescription": "Fawtara startet am 1. April 2027 über OMR 5 Mio. und am 1. Oktober 2027 für alle anderen. Schwellentest, PINT OM Felder und Korrekturbelege mit Quellen.",
+  "keywords": "E-Rechnung Oman, elektronische Rechnung Oman, fawtara, fawtara Oman, E-Rechnung Oman 2027, pint om, Oman Steuerbehörde E-Rechnung, akkreditierter Dienstleister Oman, peppol Oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-Rechnung in Oman: <em class=\"text-copper-400 not-italic\">was 2027 beginnt</em>",
+  "heroSubtitle": "Decision 189/2026 macht die E-Rechnung für MwSt.-registrierte Unternehmen in zwei Gruppen verpflichtend, ab dem 1. April 2027 und ab dem 1. Oktober 2027. Dieser Leitfaden erklärt, welcher Termin für Sie gilt, wie eine Rechnung zur Steuerbehörde gelangt, was eine PINT OM E-Rechnung enthalten muss und was Sie jetzt in Ihren Daten korrigieren sollten. Jede Regel verweist auf den amtlichen Text.",
+  "heroBullets": [
+    "1. Apr. 2027: Umsätze über OMR 5 Millionen",
+    "1. Okt. 2027: OMR 5 Millionen oder weniger",
+    "Freiwilliger Start schon jetzt möglich"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara auf einen Blick",
+  "facts": [
+    {
+      "label": "Rechtsgrundlage",
+      "value": "Decision 189/2026",
+      "note": "Sie ändert die Executive Regulations des VAT Law. Die Steuerbehörde erließ sie am 3. August 2026, und das Amtsblatt veröffentlichte sie in Ausgabe 1660 am 9. August 2026. Der neue Artikel 143 verlangt eine Steuerrechnung in einem zugelassenen, gesicherten elektronischen Format mit einer eindeutigen Nummer.",
+      "source": 1
+    },
+    {
+      "label": "Erste Gruppe",
+      "value": "1. April 2027",
+      "note": "Steuerpflichtige, deren jährliche Umsätze über OMR 5,000,000 liegen.",
+      "source": 1
+    },
+    {
+      "label": "Zweite Gruppe",
+      "value": "1. Oktober 2027",
+      "note": "Steuerpflichtige, deren jährliche Umsätze OMR 5,000,000 oder weniger betragen.",
+      "source": 1
+    },
+    {
+      "label": "Vor Ihrem Termin",
+      "value": "Freiwillig",
+      "note": "Die Steuerbehörde ermutigt Unternehmen, ihre Systeme zu testen und E-Rechnungen schon vor ihrem Pflichttermin auszustellen.",
+      "source": 2
+    },
+    {
+      "label": "Format",
+      "value": "XML, PINT OM",
+      "note": "XML ist das verpflichtende strukturierte Format. Die omanische Spezifikation ist PINT OM Version 1.0.1, ein Peppol-Format, das die Steuerbehörde pflegt.",
+      "source": 4
+    },
+    {
+      "label": "Zeitpunkt B2B",
+      "value": "Echtzeit",
+      "note": "Eine E-Rechnung zwischen Unternehmen läuft in dem Moment durch das Netzwerk, in dem Sie sie ausstellen.",
+      "source": 2
+    },
+    {
+      "label": "Zeitpunkt B2C",
+      "value": "24 Stunden",
+      "note": "Eine Rechnung an einen Verbraucher oder an einen nicht MwSt.-registrierten Käufer wird innerhalb von 24 Stunden gemeldet.",
+      "source": 2
+    },
+    {
+      "label": "Alte Rechnungen",
+      "value": "Nicht übermittelt",
+      "note": "Rechnungen, die vor Ihrem Start ausgestellt wurden, werden nicht an die Steuerbehörde hochgeladen.",
+      "source": 2
+    },
+    {
+      "label": "Korrekturen",
+      "value": "Gutschrift oder Belastungsanzeige",
+      "note": "Eine ausgestellte E-Rechnung können Sie weder stornieren noch bearbeiten. Sie korrigieren sie mit einer elektronischen Gutschrift oder Belastungsanzeige.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Welcher Termin für Sie gilt",
+      "body": "Der Test stellt auf Ihre jährlichen Umsätze zum 31. März 2027 ab. Zählen Sie Ihre steuerpflichtigen Umsätze (ohne Lieferungen von Anlagevermögen), addieren Sie die Waren und Leistungen im Reverse-Charge-Verfahren und addieren Sie Ihre Umsätze innerhalb des GCC.\n\nSie starten am 1. April 2027, wenn eine der beiden Summen über OMR 5,000,000 liegt: Ihre Umsätze vom 1. April 2026 bis 31. März 2027 oder Ihre erwarteten Umsätze vom 1. April 2027 bis 31. März 2028. Liegt keine der beiden Summen über OMR 5,000,000, starten Sie am 1. Oktober 2027. Ein Nichtansässiger zählt nur seine Umsätze in Oman. Eine MwSt.-Gruppe wird als eine Gruppe geprüft, nicht Mitglied für Mitglied. Die Steuerbehörde bietet außerdem eine Online-Prüfung zur Einführung an: Sie geben Ihre MwSt.-Nummer und Ihre Umsatzspannen ein.",
+      "items": [
+        "Einbeziehen: steuerpflichtige Umsätze, Reverse-Charge-Umsätze, Umsätze innerhalb des GCC",
+        "Weglassen: Lieferungen von Anlagevermögen",
+        "Zwei Zeiträume: die 12 Monate bis 31. März 2027 und die 12 Monate ab 1. April 2027",
+        "Liegt einer der Zeiträume über OMR 5,000,000, gilt der 1. April 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Wie eine Rechnung zur Steuerbehörde gelangt",
+      "body": "Fawtara nutzt ein Fünf-Ecken-Modell. Ecke 1 sind Sie, der Verkäufer. Ecke 2 ist Ihr akkreditierter Dienstleister. Ecke 3 ist der Dienstleister Ihres Käufers, Ecke 4 ist Ihr Käufer und Ecke 5 ist die Steuerbehörde. Ihre Software sendet nie direkt an die Steuerbehörde. Sie sendet die E-Rechnung an Ihren Dienstleister.\n\nIhr Dienstleister prüft die Rechnung anhand der offiziellen omanischen Schematron-Regeln, stellt sie über das Peppol-Netzwerk dem Dienstleister des Käufers zu und sendet ein Steuerdatendokument an die Steuerbehörde. Sie verknüpfen sich über das Fawtara-Portal mit jeweils einem Dienstleister und können den Dienstleister später wechseln. Die Verantwortung für die Ordnungsmäßigkeit der Rechnung bleibt bei Ihnen.",
+      "items": [
+        "C1 Verkäufer, C2 Dienstleister des Verkäufers, C3 Dienstleister des Käufers, C4 Käufer, C5 Steuerbehörde",
+        "Der Dienstleister validiert die Rechnung, nicht die Steuerbehörde",
+        "Jeweils ein Dienstleister, verknüpft im Fawtara-Portal",
+        "Die Verantwortung für eine korrekte Rechnung bleibt bei Ihnen"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Was eine PINT OM E-Rechnung enthalten muss",
+      "body": "PINT OM ergänzt die Peppol-Rechnung um omanische Regeln. Die meisten Ablehnungen entstehen durch fehlende Stammdaten, nicht durch den Rechnungsbetrag. Prüfen Sie diese Felder zuerst in Ihren Daten.",
+      "items": [
+        "Eine eindeutige Rechnungs-UUID, Version 5, und der Zeitpunkt der Ausstellung",
+        "Ein Ausstellungsdatum, das nach Maskat-Zeit nicht in der Zukunft liegt",
+        "MwSt.-Nummer des Verkäufers im Format OM plus 10 Ziffern, Adresse und Telefonnummer des Verkäufers",
+        "Bei einer vollständigen Steuerrechnung die MwSt.-Nummer oder Kennung und die Adresse des Käufers",
+        "MwSt. pro Zeile und eine Steuerkategorie pro Zeile (S, E, O oder Z)",
+        "Regelsatz 5%; steuerbefreite und nullbesteuerte Zeilen brauchen einen Begründungscode",
+        "Bei Waren ein 12-stelliger omanischer HS-Code und pro Zeile eine Kennzeichnung als Ware oder Leistung",
+        "Ein ISIC-Tätigkeitscode pro Artikel",
+        "Beträge mit höchstens 3 Dezimalstellen, die MwSt.-Summen in OMR"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Gutschriften und Belastungsanzeigen",
+      "body": "Nachdem Sie eine E-Rechnung ausgestellt haben, stornieren, löschen oder bearbeiten Sie sie nicht. Sie stellen eine elektronische Gutschrift (zur Minderung) oder Belastungsanzeige (zur Erhöhung) aus. Der Beleg nennt die ursprüngliche Rechnung mit Nummer, Datum und UUID und trägt einen Begründungscode: CAN für eine Stornierung oder Rückgabe, VAT für eine geänderte MwSt.-Behandlung, VAL für eine Wertänderung, QTY für eine Mengenänderung oder OTH für einen anderen Grund. Haben Sie den falschen Käufer angegeben, stellen Sie diesem Käufer eine Gutschrift und dem richtigen eine neue Rechnung aus.",
+      "items": [
+        "Gutschrift: Dokumenttyp 381",
+        "Belastungsanzeige: Dokumenttyp 383",
+        "Nummer, Datum und UUID der ursprünglichen Rechnung auf jedem Beleg",
+        "Begründungscodes: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Einen akkreditierten Dienstleister wählen",
+      "body": "Die Steuerbehörde veröffentlicht die aktuelle Liste der akkreditierten Dienstleister. Am 13. Oktober 2026 enthielt die Liste 36 Einträge, und sie wächst weiter. Die Steuerbehörde erhebt von Steuerpflichtigen keine Gebühr und legt keine Preise für Dienstleister fest, daher bestimmt jeder Dienstleister sein eigenes Modell: Abonnement, pro Rechnung oder ein anderes. Vergleichen Sie Dienstleister danach, womit sie sich verbinden, wo sie Ihre Daten speichern, ob es Support auf Arabisch gibt und wie Sie wieder wechseln können. Jeder Dienstleister gibt seinen eigenen Datenspeicherort auf der Liste an, und die Steuerbehörde überprüft das nicht.",
+      "items": [
+        "Nur einen Dienstleister von der Liste der Steuerbehörde nutzen",
+        "Fragen, wie Ihre Software angebunden wird: API, Datei-Upload oder ein fertiger Konnektor",
+        "Fragen, wo Ihre Daten gespeichert werden und wie lange sie archiviert werden",
+        "Die Schritte für einen Wechsel prüfen, bevor Sie unterschreiben"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C-Verkäufe und der QR-Code",
+      "body": "Ein Verkauf an einen Verbraucher oder an einen Käufer, der nicht MwSt.-registriert ist, wird innerhalb von 24 Stunden an die Steuerbehörde gemeldet. Sie geben dem Käufer über einen beliebigen Kanal eine menschenlesbare Rechnung. Diese gedruckte oder PDF-Fassung muss einen QR-Code tragen, den Sie als Verkäufer erzeugen. Der QR-Code ist nicht Teil der XML-E-Rechnung. Für den Inhalt des QR-Codes verweist die Steuerbehörde auf Anhang D der Peppol Oman Architecture. Dieser Anhang ist noch nicht öffentlich, betrachten Sie jedes QR-Layout, das Sie jetzt sehen, daher als unbestätigt.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Was Sie jetzt tun sollten",
+      "body": "Sie müssen nicht auf Ihren Termin warten, um sich vorzubereiten. Am längsten dauert die Arbeit an den Stammdaten, und damit können Sie heute beginnen.",
+      "items": [
+        "Den Schwellentest durchführen und Ihr Startdatum notieren",
+        "Jede MwSt.-Nummer Ihrer Kunden prüfen: OM plus 10 Ziffern",
+        "Jedem Warenartikel den 12-stelligen HS-Code und jedem Artikel einen ISIC-Code hinzufügen",
+        "Ihre Einheiten den UN/ECE-Einheitencodes zuordnen (zum Beispiel ist ein Stück H87)",
+        "Ausgestellte Rechnungen nicht mehr löschen oder neu nummerieren: Gutschriften verwenden",
+        "Einen Dienstleister von der Liste der Steuerbehörde wählen und früh testen",
+        "Ein eigenes Archiv führen: Die Steuerbehörde gibt keine Rechnungsdaten zurück"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Wer was sendet, Fall für Fall",
+    "intro": "Der Weg einer Rechnung hängt davon ab, wer der Käufer ist. Die Tabelle zeigt die Ecken für jeden Fall aus der FAQ der Steuerbehörde.",
+    "columns": [
+      "Fall",
+      "Ablauf",
+      "Was passiert"
+    ],
+    "rows": [
+      {
+        "label": "Inländisches B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Echtzeit. Ihr Dienstleister stellt dem Dienstleister des Käufers zu und meldet die Steuerdaten an die Steuerbehörde.",
+        "source": 2
+      },
+      {
+        "label": "B2C oder Käufer nicht MwSt.-registriert",
+        "flow": "C1 → C2 → C5",
+        "detail": "Meldung innerhalb von 24 Stunden. Der Käufer erhält eine menschenlesbare Rechnung mit QR-Code.",
+        "source": 2
+      },
+      {
+        "label": "Käufer noch in keiner Einführungsphase",
+        "flow": "C1 → C2 → C5",
+        "detail": "Ihr Dienstleister meldet die Steuerdaten. Sie senden die Rechnung so an den Käufer, wie Sie es heute tun.",
+        "source": 2
+      },
+      {
+        "label": "Verkäufer noch in keiner Einführungsphase",
+        "flow": "C1 → C4",
+        "detail": "Ein MwSt.-registrierter Verkäufer außerhalb der laufenden Einführungsphasen stellt Rechnungen wie heute aus. Der Käufer macht die Vorsteuer wie heute geltend.",
+        "source": 2
+      },
+      {
+        "label": "Export",
+        "flow": "C1 → C2 → C5",
+        "detail": "Sie teilen die Rechnung wie heute mit dem ausländischen Kunden. Die Steuerdaten laufen über das Netzwerk.",
+        "source": 2
+      },
+      {
+        "label": "Korrektur",
+        "flow": "381 / 383",
+        "detail": "Der Beleg nimmt denselben Weg wie die Rechnung, die er korrigiert.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Ab wann ist die E-Rechnung in Oman Pflicht?",
+      "a": "Am 1. April 2027 für Steuerpflichtige mit jährlichen Umsätzen über OMR 5,000,000 und am 1. Oktober 2027 für diejenigen mit OMR 5,000,000 oder weniger. Decision 189/2026 legt beide Termine fest. Vor Ihrem Termin ist die E-Rechnung freiwillig, und die Steuerbehörde ermutigt zu einem frühen Start."
+    },
+    {
+      "q": "Woher weiß ich, ob mein Unternehmen zur Gruppe ab April 2027 gehört?",
+      "a": "Addieren Sie Ihre steuerpflichtigen Umsätze (ohne Anlagevermögen), Ihre Reverse-Charge-Umsätze und Ihre Umsätze innerhalb des GCC. Liegt die Summe vom 1. April 2026 bis 31. März 2027 über OMR 5,000,000 oder erwarten Sie, dass sie vom 1. April 2027 bis 31. März 2028 darüber liegt, starten Sie am 1. April 2027. Andernfalls starten Sie am 1. Oktober 2027."
+    },
+    {
+      "q": "Ist eine PDF-Rechnung in Oman eine E-Rechnung?",
+      "a": "Nein. Die E-Rechnung ist eine strukturierte XML-Datei im PINT OM Format, die über einen akkreditierten Dienstleister läuft. Sie können weiterhin eine PDF-Kopie drucken oder senden, aber ab Ihrem Termin gilt nur die E-Rechnung als gültige Steuerrechnung."
+    },
+    {
+      "q": "Muss ich meine alten Rechnungen hochladen?",
+      "a": "Nein. Rechnungen, die Sie ausgestellt haben, bevor Sie mit der E-Rechnung beginnen, werden nicht an die Steuerbehörde übermittelt. Bewahren Sie sie in Ihren eigenen Unterlagen auf, wie es das MwSt.-Gesetz verlangt."
+    },
+    {
+      "q": "Was ist, wenn mein Kunde noch nicht bei Fawtara ist?",
+      "a": "Sie übermitteln die Rechnung trotzdem an Ihren Dienstleister, und der Dienstleister sendet das Steuerdatendokument an die Steuerbehörde. Die Rechnung senden Sie so an den Kunden, wie Sie es heute tun."
+    },
+    {
+      "q": "Verlangt die Steuerbehörde Gebühren für Fawtara?",
+      "a": "Nein. Die Steuerbehörde erhebt von Steuerpflichtigen keine Gebühr und legt nicht fest, was Dienstleister verlangen. Jeder akkreditierte Dienstleister bestimmt seinen eigenen Preis."
+    },
+    {
+      "q": "Gibt es Sanktionen?",
+      "a": "Die Steuerbehörde gibt an, dass nach Beginn der Pflicht Sanktionen nach dem MwSt.-Recht gelten. Eine eigene Sanktionstabelle für die E-Rechnung hat sie nicht veröffentlicht, betrachten Sie daher jeden konkreten Betrag, den Sie anderswo lesen, als unbestätigt."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Bereiten Sie Ihre Daten auf Fawtara vor",
+  "ctaSub": "Paper & Pen erstellt PINT OM E-Rechnungen und prüft sie anhand der offiziellen omanischen Regeln. Starten Sie mit einem kostenlosen Workspace.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 zur Änderung der Executive Regulations des VAT Law (Amtsblatt 1660)",
+      "publisher": "Oman Tax Authority, Text auf Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "FAQ zur E-Rechnung Fawtara, zuletzt aktualisiert am 30. September 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Akkreditierte Dienstleister (aktuelle Liste)",
+      "publisher": "Oman Tax Authority, Fawtara-Portal",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM Spezifikationen, Version 1.0.1",
+      "publisher": "OpenPeppol, gepflegt von der Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM Regeln für Oman (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, gepflegt von der Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Prüfung der möglichen Einführungsphase",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Versionshinweise zu PINT OM 1.0.1",
+      "publisher": "OpenPeppol, gepflegt von der Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

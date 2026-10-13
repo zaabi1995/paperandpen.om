@@ -1,0 +1,319 @@
+{
+  "locale": "lt",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Patikrinta pagal mokesčių institucijos tekstus 2026 m. spalio 14 d.",
+  "title": "E. sąskaitos Omane (Fawtara)",
+  "metaTitle": "E. sąskaitos Omane: Fawtara datos ir taisyklės · Paper & Pen",
+  "metaDescription": "Fawtara: 2027-04-01 virš OMR 5 mln., 2027-10-01 kitiems. Ribos testas, PINT OM laukai, koregavimai, su nuorodomis į mokesčių instituciją.",
+  "keywords": "e. sąskaitos omane, fawtara, fawtara omanas, omano e. sąskaitos 2027, pint om, omano mokesčių institucija e. sąskaitos, akredituotas paslaugų teikėjas omanas, peppol omanas, decision 189/2026",
+  "heroEyebrow": "Omanas · Fawtara",
+  "heroTitle": "E. sąskaitos Omane: <em class=\"text-copper-400 not-italic\">kas prasideda 2027 m.</em>",
+  "heroSubtitle": "Sprendimu 189/2026 e. sąskaitos tampa privalomos PVM mokėtojais įregistruotoms įmonėms dviem grupėmis: nuo 2027 m. balandžio 1 d. ir nuo 2027 m. spalio 1 d. Šis vadovas paaiškina, kuri data taikoma jums, kaip sąskaita pasiekia mokesčių instituciją, ką turi turėti PINT OM e. sąskaita faktūra ir ką dabar sutvarkyti savo įrašuose. Kiekviena taisyklė turi nuorodą į oficialų tekstą.",
+  "heroBullets": [
+    "2027-04-01: tiekimas virš OMR 5 mln.",
+    "2027-10-01: OMR 5 mln. ar mažiau",
+    "Savanoriškai pradėti galima jau dabar"
+  ],
+  "authority": {
+    "name": "Omano mokesčių institucija (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara trumpai",
+  "facts": [
+    {
+      "label": "Teisinis pagrindas",
+      "value": "Sprendimas 189/2026",
+      "note": "Juo keičiamos PVM įstatymo įgyvendinimo taisyklės. Mokesčių institucija jį priėmė 2026 m. rugpjūčio 3 d., o Oficialusis leidinys paskelbė 1660 numeryje 2026 m. rugpjūčio 9 d. Naujasis 143 straipsnis reikalauja PVM sąskaitos faktūros patvirtintu, saugiu elektroniniu formatu su unikaliu numeriu.",
+      "source": 1
+    },
+    {
+      "label": "Pirmoji grupė",
+      "value": "2027 m. balandžio 1 d.",
+      "note": "Apmokestinamieji asmenys, kurių metinis tiekimas viršija OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Antroji grupė",
+      "value": "2027 m. spalio 1 d.",
+      "note": "Apmokestinamieji asmenys, kurių metinis tiekimas yra OMR 5,000,000 ar mažesnis.",
+      "source": 1
+    },
+    {
+      "label": "Iki jūsų datos",
+      "value": "Savanoriškai",
+      "note": "Mokesčių institucija skatina įmones išbandyti savo sistemas ir išrašyti e. sąskaitas faktūras iki privalomos datos.",
+      "source": 2
+    },
+    {
+      "label": "Formatas",
+      "value": "XML, PINT OM",
+      "note": "XML yra privalomas struktūrizuotas formatas. Omano specifikacija yra PINT OM 1.0.1 versija, Peppol formatas, kurį prižiūri mokesčių institucija.",
+      "source": 4
+    },
+    {
+      "label": "B2B terminas",
+      "value": "Realiuoju laiku",
+      "note": "Įmonių tarpusavio e. sąskaita faktūra keliauja per tinklą tuo metu, kai ją išrašote.",
+      "source": 2
+    },
+    {
+      "label": "B2C terminas",
+      "value": "24 valandos",
+      "note": "Apie sąskaitą vartotojui arba PVM mokėtoju neįregistruotam pirkėjui pranešama per 24 valandas.",
+      "source": 2
+    },
+    {
+      "label": "Senos sąskaitos",
+      "value": "Neteikiamos",
+      "note": "Sąskaitos, išrašytos prieš jums pradedant, į mokesčių instituciją neįkeliamos.",
+      "source": 2
+    },
+    {
+      "label": "Taisymai",
+      "value": "Kreditinė ar debetinė sąskaita",
+      "note": "Išrašytos e. sąskaitos faktūros negalima anuliuoti ar redaguoti. Ją koreguojate elektronine kreditine arba debetine sąskaita faktūra.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Kuri data taikoma jums",
+      "body": "Testas remiasi jūsų metiniu tiekimu 2027 m. kovo 31 d. būklei. Suskaičiuokite apmokestinamąjį tiekimą (neįskaitykite ilgalaikio turto tiekimo), pridėkite prekes ir paslaugas, kurioms taikomas atvirkštinis apmokestinimas, ir pridėkite tiekimą GCC viduje.\n\nPradedate 2027 m. balandžio 1 d., jei bet kuri suma viršija OMR 5,000,000: jūsų tiekimas nuo 2026 m. balandžio 1 d. iki 2027 m. kovo 31 d. arba numatomas tiekimas nuo 2027 m. balandžio 1 d. iki 2028 m. kovo 31 d. Jei nė viena suma neviršija OMR 5,000,000, pradedate 2027 m. spalio 1 d. Nerezidentas skaičiuoja tik tiekimą Omane. PVM grupė tikrinama kaip viena grupė, o ne pagal atskirus narius. Mokesčių institucija taip pat turi internetinį diegimo etapo patikrinimą: įvedate savo PVM numerį ir tiekimo intervalus.",
+      "items": [
+        "Įskaitoma: apmokestinamasis tiekimas, atvirkštinio apmokestinimo tiekimas, tiekimas GCC viduje",
+        "Neįskaitoma: ilgalaikio turto tiekimas",
+        "Du laikotarpiai: 12 mėnesių iki 2027 m. kovo 31 d. ir 12 mėnesių nuo 2027 m. balandžio 1 d.",
+        "Jei bet kuris laikotarpis viršija OMR 5,000,000, data yra 2027 m. balandžio 1 d."
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Kaip sąskaita pasiekia mokesčių instituciją",
+      "body": "Fawtara naudoja penkių kampų modelį. 1 kampas esate jūs, pardavėjas. 2 kampas yra jūsų akredituotas paslaugų teikėjas. 3 kampas yra pirkėjo paslaugų teikėjas, 4 kampas yra pirkėjas, o 5 kampas yra mokesčių institucija. Jūsų programinė įranga niekada nesiunčia tiesiai mokesčių institucijai. Ji siunčia e. sąskaitą faktūrą jūsų paslaugų teikėjui.\n\nPaslaugų teikėjas patikrina sąskaitą pagal oficialias Omano schematron taisykles, pristato ją pirkėjo paslaugų teikėjui per Peppol tinklą ir siunčia mokesčių institucijai mokestinių duomenų dokumentą. Vienu metu esate susieti su vienu paslaugų teikėju per Fawtara portalą ir vėliau galite jį pakeisti. Už sąskaitos atitiktį ir toliau atsakote jūs.",
+      "items": [
+        "C1 pardavėjas, C2 pardavėjo paslaugų teikėjas, C3 pirkėjo paslaugų teikėjas, C4 pirkėjas, C5 mokesčių institucija",
+        "Sąskaitą tikrina paslaugų teikėjas, o ne mokesčių institucija",
+        "Vienu metu vienas paslaugų teikėjas, susietas Fawtara portale",
+        "Atsakomybė už teisingą sąskaitą lieka jums"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Ką turi turėti PINT OM e. sąskaita faktūra",
+      "body": "PINT OM prideda Omano taisykles prie Peppol sąskaitos. Dauguma atmetimų kyla dėl trūkstamų pagrindinių duomenų, o ne dėl sąskaitos sumos. Pirmiausia patikrinkite šiuos laukus savo įrašuose.",
+      "items": [
+        "Unikalus sąskaitos UUID, 5 versija, ir išrašymo laikas",
+        "Išrašymo data, kuri pagal Maskato laiką nėra ateityje",
+        "Pardavėjo PVM numeris formatu OM ir 10 skaitmenų, pardavėjo adresas ir telefonas",
+        "Visai PVM sąskaitai faktūrai pirkėjo PVM numeris ar identifikatorius ir adresas",
+        "PVM kiekvienoje eilutėje ir mokesčio kategorija kiekvienoje eilutėje (S, E, O arba Z)",
+        "Standartinis tarifas 5 %; neapmokestinamoms ir nulinio tarifo eilutėms reikia priežasties kodo",
+        "Prekėms 12 skaitmenų Omano HS kodas ir prekės ar paslaugos požymis kiekvienoje eilutėje",
+        "ISIC veiklos kodas kiekvienai pozicijai",
+        "Sumos ne daugiau kaip 3 dešimtainių skaitmenų tikslumu, PVM sumos OMR"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Kreditinės ir debetinės sąskaitos faktūros",
+      "body": "Išrašę e. sąskaitą faktūrą, jūs jos neanuliuojate, netrinate ir neredaguojate. Išrašote elektroninę kreditinę sąskaitą faktūrą (jai sumažinti) arba debetinę sąskaitą faktūrą (jai padidinti). Dokumente nurodoma pradinė sąskaita pagal numerį, datą ir UUID, ir jame yra priežasties kodas: CAN anuliavimui ar grąžinimui, VAT PVM režimo pasikeitimui, VAL vertės pasikeitimui, QTY kiekio pasikeitimui arba OTH kitai priežasčiai. Jei išrašėte sąskaitą ne tam pirkėjui, išrašykite tam pirkėjui kreditinę sąskaitą faktūrą ir naują sąskaitą teisingam pirkėjui.",
+      "items": [
+        "Kreditinė sąskaita faktūra: dokumento tipas 381",
+        "Debetinė sąskaita faktūra: dokumento tipas 383",
+        "Pradinės sąskaitos numeris, data ir UUID kiekviename dokumente",
+        "Priežasčių kodai: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Kaip pasirinkti akredituotą paslaugų teikėją",
+      "body": "Mokesčių institucija skelbia nuolat atnaujinamą akredituotų paslaugų teikėjų sąrašą. 2026 m. spalio 13 d. sąraše buvo 36 įrašai, ir jis vis dar pildosi. Mokesčių institucija neima iš mokesčių mokėtojų jokio mokesčio ir nenustato paslaugų teikėjų kainų, todėl kiekvienas teikėjas pats pasirenka savo modelį: prenumerata, mokestis už sąskaitą ar kitas. Lyginkite teikėjus pagal tai, su kuo jie jungiasi, kur saugo jūsų duomenis, ar yra pagalba arabų kalba ir kaip nuo jų pereiti prie kito. Kiekvienas teikėjas sąraše pats nurodo savo duomenų saugojimo vietą, o mokesčių institucija to netikrina.",
+      "items": [
+        "Naudokite tik mokesčių institucijos sąraše esantį paslaugų teikėją",
+        "Paklauskite, kaip jungiasi jūsų programinė įranga: API, failų įkėlimas ar paruošta jungtis",
+        "Paklauskite, kur saugomi jūsų duomenys ir kiek laiko jie archyvuojami",
+        "Prieš pasirašydami patikrinkite perėjimo pas kitą teikėją žingsnius"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C pardavimai ir QR kodas",
+      "body": "Apie pardavimą vartotojui ar bet kuriam PVM mokėtoju neįregistruotam pirkėjui mokesčių institucijai pranešama per 24 valandas. Pirkėjui bet kuriuo kanalu pateikiate žmogui skaitomą sąskaitą. Šioje spausdintoje ar PDF kopijoje turi būti QR kodas, kurį sugeneruojate jūs kaip pardavėjas. QR kodas nėra XML e. sąskaitos faktūros dalis. Dėl QR kodo turinio mokesčių institucija nurodo Peppol Oman Architecture D priedą. Šis priedas dar nėra viešas, todėl bet kokį dabar matomą QR išdėstymą laikykite nepatvirtintu.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Ką daryti dabar",
+      "body": "Norint pasiruošti, nereikia laukti savo datos. Daugiausia laiko užima pagrindinių duomenų tvarkymas, ir jį galite pradėti jau šiandien.",
+      "items": [
+        "Atlikite ribos testą ir užsirašykite savo pradžios datą",
+        "Patikrinkite kiekvieno kliento PVM numerį: OM ir 10 skaitmenų",
+        "Kiekvienai prekei pridėkite 12 skaitmenų HS kodą, o kiekvienai pozicijai ISIC kodą",
+        "Susiekite savo matavimo vienetus su UN/ECE vienetų kodais (pavyzdžiui, vienetas yra H87)",
+        "Nustokite trinti ar pernumeruoti išrašytas sąskaitas: naudokite kreditines sąskaitas faktūras",
+        "Pasirinkite paslaugų teikėją iš mokesčių institucijos sąrašo ir išbandykite anksti",
+        "Saugokite savo archyvą: mokesčių institucija sąskaitų duomenų negrąžina"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Kas ką siunčia, kiekvienu atveju",
+    "intro": "Sąskaitos kelias priklauso nuo to, kas yra pirkėjas. Lentelėje parodyti kampai kiekvienam mokesčių institucijos DUK aprašytam atvejui.",
+    "columns": [
+      "Atvejis",
+      "Srautas",
+      "Kas vyksta"
+    ],
+    "rows": [
+      {
+        "label": "Vidaus B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Realiuoju laiku. Jūsų paslaugų teikėjas pristato pirkėjo paslaugų teikėjui ir praneša mokestinius duomenis mokesčių institucijai.",
+        "source": 2
+      },
+      {
+        "label": "B2C arba PVM mokėtoju neįregistruotas pirkėjas",
+        "flow": "C1 → C2 → C5",
+        "detail": "Pranešama per 24 valandas. Pirkėjas gauna žmogui skaitomą sąskaitą su QR kodu.",
+        "source": 2
+      },
+      {
+        "label": "Pirkėjas dar nėra diegimo etape",
+        "flow": "C1 → C2 → C5",
+        "detail": "Jūsų paslaugų teikėjas praneša mokestinius duomenis. Sąskaitą pirkėjui siunčiate taip, kaip ir šiandien.",
+        "source": 2
+      },
+      {
+        "label": "Pardavėjas dar nėra diegimo etape",
+        "flow": "C1 → C4",
+        "detail": "PVM mokėtoju įregistruotas pardavėjas, nepatenkantis į dabartinius diegimo etapus, išrašo sąskaitas kaip šiandien. Pirkėjas atskaito pirkimo PVM kaip šiandien.",
+        "source": 2
+      },
+      {
+        "label": "Eksportas",
+        "flow": "C1 → C2 → C5",
+        "detail": "Sąskaitą užsienio klientui pateikiate kaip šiandien. Mokestiniai duomenys keliauja per tinklą.",
+        "source": 2
+      },
+      {
+        "label": "Taisymas",
+        "flow": "381 / 383",
+        "detail": "Dokumentas keliauja tuo pačiu keliu kaip ir sąskaita, kurią jis taiso.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Nuo kada e. sąskaitos Omane tampa privalomos?",
+      "a": "Nuo 2027 m. balandžio 1 d. apmokestinamiesiems asmenims, kurių metinis tiekimas viršija OMR 5,000,000, ir nuo 2027 m. spalio 1 d. tiems, kurių tiekimas yra OMR 5,000,000 ar mažesnis. Abi datas nustato sprendimas 189/2026. Iki jūsų datos e. sąskaitos yra savanoriškos, o mokesčių institucija skatina pradėti anksčiau."
+    },
+    {
+      "q": "Kaip sužinoti, ar mano įmonė yra 2027 m. balandžio grupėje?",
+      "a": "Sudėkite apmokestinamąjį tiekimą (be ilgalaikio turto), atvirkštinio apmokestinimo tiekimą ir tiekimą GCC viduje. Jei suma nuo 2026 m. balandžio 1 d. iki 2027 m. kovo 31 d. viršija OMR 5,000,000 arba tikitės, kad ją viršys nuo 2027 m. balandžio 1 d. iki 2028 m. kovo 31 d., pradedate 2027 m. balandžio 1 d. Kitu atveju pradedate 2027 m. spalio 1 d."
+    },
+    {
+      "q": "Ar PDF sąskaita Omane yra e. sąskaita faktūra?",
+      "a": "Ne. E. sąskaita faktūra yra struktūrizuotas PINT OM formato XML failas, keliaujantis per akredituotą paslaugų teikėją. Vis dar galite spausdinti ar siųsti PDF kopiją, tačiau nuo jūsų datos galiojančia PVM sąskaita faktūra laikoma tik e. sąskaita faktūra."
+    },
+    {
+      "q": "Ar turiu įkelti senas sąskaitas?",
+      "a": "Ne. Sąskaitos, išrašytos prieš pradedant naudoti e. sąskaitas, mokesčių institucijai neteikiamos. Saugokite jas savo apskaitoje, kaip reikalauja PVM įstatymas."
+    },
+    {
+      "q": "O jei mano klientas dar nėra Fawtara sistemoje?",
+      "a": "Sąskaitą vis tiek pateikiate savo paslaugų teikėjui, o teikėjas siunčia mokestinių duomenų dokumentą mokesčių institucijai. Sąskaitą klientui siunčiate taip, kaip ir šiandien."
+    },
+    {
+      "q": "Ar mokesčių institucija ima mokestį už Fawtara?",
+      "a": "Ne. Mokesčių institucija neima iš mokesčių mokėtojų jokio mokesčio ir nenustato, kiek ima paslaugų teikėjai. Kiekvienas akredituotas teikėjas pats nustato savo kainą."
+    },
+    {
+      "q": "Ar yra baudų?",
+      "a": "Mokesčių institucija nurodo, kad prasidėjus prievolei taikomos baudos pagal PVM teisės aktus. Atskiros e. sąskaitų baudų lentelės ji nepaskelbė, todėl bet kokią kitur perskaitytą konkrečią sumą laikykite nepatvirtinta."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Paruoškite savo įrašus Fawtara",
+  "ctaSub": "Paper & Pen sudaro PINT OM e. sąskaitas faktūras ir tikrina jas pagal oficialias Omano taisykles. Pradėkite nuo nemokamos darbo vietos.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Sprendimas 189/2026, kuriuo keičiamos PVM įstatymo įgyvendinimo taisyklės (Oficialusis leidinys 1660)",
+      "publisher": "Omano mokesčių institucija, tekstas Qanoon.om svetainėje",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Fawtara e. sąskaitų DUK, paskutinį kartą atnaujinta 2026 m. rugsėjo 30 d.",
+      "publisher": "Omano mokesčių institucija",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Akredituoti paslaugų teikėjai (nuolat atnaujinamas sąrašas)",
+      "publisher": "Omano mokesčių institucija, Fawtara portalas",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM specifikacijos, 1.0.1 versija",
+      "publisher": "OpenPeppol, prižiūri Omano mokesčių institucija",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM jurisdikcijos taisyklės (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, prižiūri Omano mokesčių institucija",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Galimo diegimo etapo patikrinimas",
+      "publisher": "Omano mokesčių institucija",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "PINT OM 1.0.1 leidimo pastabos",
+      "publisher": "OpenPeppol, prižiūri Omano mokesčių institucija",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

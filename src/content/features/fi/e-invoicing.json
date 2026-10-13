@@ -1,0 +1,113 @@
+{
+  "locale": "fi",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "Verkkolaskutus Omaniin",
+  "metaTitle": "Omanin verkkolaskutusohjelmisto (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen muodostaa PINT OM XML:n, tarkistaa sen Omanin virallisella schematronilla, laatii kerran UUID v5:llä ja lukitsee laskun. Fawtaraa varten.",
+  "keywords": "verkkolaskutusohjelmisto oman, fawtara ohjelmisto, pint om xml, omanin verkkolasku, omanin schematron validointi, hyvityslasku oman verkkolaskutus, veloituslasku oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "Verkkolaskut, jotka läpäisevät <em class=\"text-copper-400 not-italic\">Omanin säännöt</em> ennen lähtöään",
+  "heroSubtitle": "Paper & Pen muuntaa laskusi, hyvityslaskusi ja veloituslaskusi PINT OM XML:ksi ja tarkistaa jokaisen Omanin virallisen schematronin mukaan. Valmiustarkistus luettelee, mitä tiedoissasi pitää korjata. Tarkistuksen läpäisevä lasku laaditaan kerran, omalla UUID:llään, ja se pysyy lukittuna.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Tarkistus Omanin virallisella schematronilla",
+    "Laaditaan kerran, sitten lukitaan"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Jokaisesta laskusta tulee PINT OM -verkkolasku: UBL 2.1 XML -muoto, jota Omanin Fawtara käyttää."
+    },
+    {
+      "icon": "shield",
+      "title": "Omanin virallinen schematron",
+      "desc": "XML tarkistetaan virallisten OpenPeppol PINT OM -schematron-sääntöjen version 1.0.1 mukaan."
+    },
+    {
+      "icon": "check",
+      "title": "Valmiustarkistus korjausohjeineen",
+      "desc": "Yritys-, asiakas- ja nimiketietojesi läpikäynti luettelee jokaisen puutteen ja kertoo, missä sen voi korjata."
+    },
+    {
+      "icon": "lock",
+      "title": "Laaditaan kerran, UUID v5",
+      "desc": "Lasku laaditaan yhden kerran UUID-version 5 kanssa. Uusintayritys tai tuplanapsautus ei koskaan luo toista."
+    },
+    {
+      "icon": "invoice",
+      "title": "Lukittu laadittaessa",
+      "desc": "Laatimisen jälkeen kukaan ei voi muuttaa summia, mitätöidä laskua tai poistaa sitä."
+    },
+    {
+      "icon": "receipt",
+      "title": "Hyvitys- ja veloituslaskut",
+      "desc": "Tee asiakirja alkuperäisestä laskusta. Siinä on numero, päivä, UUID ja syykoodi."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Ennen laatimista",
+      "title": "Löydä puutteet, kun ne voi vielä korjata",
+      "body": "Useimmat verkkolaskujen hylkäykset johtuvat perustiedoista, eivät summista: asiakkaan ALV-numero väärässä muodossa, puuttuva myyjän osoite, nimike ilman HS-koodia tai toimialakoodia. Valmiustarkistus käy tietosi läpi PINT OM -sääntöjen mukaan ja ryhmittelee jokaisen puutteen sen tietueen mukaan, joka pitää korjata, joten korjaat tuotteen kerran ja jokainen laskurivi, jolla se on, on kunnossa. Lasku, joka ei läpäise tarkistusta, ei tule laadituksi. Sen puutteet säilyvät, ja voit yhä muokata sitä.",
+      "items": [
+        "Puutteet ryhmiteltyinä yrityksen, asiakkaan ja nimikkeen mukaan",
+        "Jokainen puute nimeää korjattavan tietueen",
+        "Hylätty lasku jää luonnokseksi, jonka voit korjata"
+      ]
+    },
+    {
+      "eyebrow": "Laadittaessa",
+      "title": "Yksi lasku, yksi UUID, ei jälkikäteisiä muutoksia",
+      "body": "Fawtarassa laadittua laskua ei voi mitätöidä eikä muokata. Paper & Pen noudattaa samaa sääntöä. Kun lasku läpäisee tarkistuksen, se laaditaan UUID-version 5 kanssa, ja sen XML tallennetaan sen yhteyteen. Siitä eteenpäin summat, rivit ja asiakas ovat lukittuja, eikä laskua voi mitätöidä tai poistaa. Maksut kirjautuvat edelleen normaalisti.",
+      "items": [
+        "UUID-versio 5 tallennettuna laskuun",
+        "XML tallennetaan laaditun laskun yhteyteen",
+        "Summat lukittu, ei mitätöintiä, ei poistoa"
+      ]
+    },
+    {
+      "eyebrow": "Kun jokin muuttuu",
+      "title": "Korjaa hyvityslaskulla tai veloituslaskulla",
+      "body": "Pienentääksesi laadittua laskua tee siitä hyvityslasku. Suurentaaksesi sitä tee siitä veloituslasku. Paper & Pen täyttää asiakirjan alkuperäisen laskun tiedoilla: numeron, päivän ja UUID:n, joita PINT OM edellyttää. Sinä valitset syykoodin: CAN mitätöinnille tai palautukselle, VAT ALV-kohtelun muutokselle, VAL arvon muutokselle, QTY määrän muutokselle tai OTH. Asiakirjaan sovelletaan samaa tarkistusta ja samaa kerran laatimisen sääntöä.",
+      "items": [
+        "Hyvityslasku (381) ja veloituslasku (383)",
+        "Alkuperäinen numero, päivä ja UUID täytettyinä",
+        "Syykoodit CAN, VAT, VAL, QTY, OTH englanniksi ja arabiaksi"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Lähettääkö Paper & Pen laskuni Omanin veroviranomaiselle?",
+      "a": "Mikään ohjelmisto ei lähetä suoraan veroviranomaiselle. Fawtarassa akkreditoitu palveluntarjoaja vastaanottaa verkkolaskusi, toimittaa sen ja raportoi sen veroviranomaiselle. Paper & Pen muodostaa ja tarkistaa PINT OM XML:n, jonka palveluntarjoaja vastaanottaa. Veroviranomainen julkaisee luettelon akkreditoiduista palveluntarjoajista."
+    },
+    {
+      "q": "Mitä asiakirjoja se kattaa?",
+      "a": "Laskut, hyvityslaskut ja veloituslaskut. Jokainen muodostetaan PINT OM XML:ksi, tarkistetaan Omanin virallisen schematronin mukaan ja laaditaan kerran omalla UUID-version 5 tunnisteellaan."
+    },
+    {
+      "q": "Mitä vanhemmille laskuilleni tapahtuu?",
+      "a": "Verkkolaskutus Paper & Penissä alkaa työtilallesi asetetusta käyttöönottopäivästä. Ennen sitä laadittuihin laskuihin ei kosketa eikä niitä lähetetä, mikä vastaa veroviranomaisen sääntöä, jonka mukaan aiempia laskuja ei lähetetä."
+    },
+    {
+      "q": "Voinko vielä muokata laskua sen laatimisen jälkeen?",
+      "a": "Et. Laadittu verkkolasku on lukittu: sen summat ja rivit on lukittu, eikä sitä voi mitätöidä tai poistaa. Korjataksesi sen tee siitä hyvityslasku tai veloituslasku. Lasku, joka ei vielä ole läpäissyt tarkistusta, on edelleen muokattavissa."
+    },
+    {
+      "q": "Milloin verkkolaskutuksesta tulee pakollista Omanissa?",
+      "a": "1.4.2027 yrityksille, joiden vuotuinen myynti ylittää OMR 5,000,000, ja 1.10.2027 muille, päätöksen 189/2026 mukaisesti. Omanin verkkolaskutusoppaamme selittää rajatestin ja linkittää virallisiin teksteihin."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Aloita maksuton työtilasi",
+  "ctaSub": "Myynti ja laskutus ovat ikuisesti maksuttomia. Tarkista tietosi PINT OM -sääntöjen mukaan ennen Fawtara-päivääsi."
+}

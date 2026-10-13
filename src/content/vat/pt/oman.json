@@ -5,15 +5,15 @@
   "country": "Omã",
   "title": "IVA em Omã",
   "metaTitle": "IVA em Omã: alíquota, limites e faturas · Paper & Pen",
-  "metaDescription": "A alíquota de IVA de 5% de Omã, o limite de registro de OMR 38,500 e os doze itens que uma fatura fiscal deve trazer, cada um com fonte na Tax Authority.",
-  "keywords": "IVA Omã, alíquota de IVA em Omã, limite de registro de IVA em Omã, requisitos da fatura fiscal em Omã, fatura eletrônica Fawtara, Oman Tax Authority",
+  "metaDescription": "IVA de 5% em Omã, limite de OMR 38,500, o que a fatura fiscal deve trazer e as datas da fatura eletrônica Fawtara, com fonte no texto oficial.",
+  "keywords": "IVA Omã, alíquota de IVA em Omã, limite de registro de IVA em Omã, requisitos da fatura fiscal em Omã, fatura eletrônica fawtara, fatura eletrônica Omã 2027, decision 189/2026, Oman Tax Authority",
   "heroEyebrow": "Omã",
   "heroTitle": "Faturamento sob as regras do <em class=\"text-copper-400 not-italic\">IVA de Omã</em>",
-  "heroSubtitle": "A alíquota, os limites de registro, o que uma fatura fiscal precisa mostrar e em que pé está a fatura eletrônica. Cada número desta página tem como fonte o texto publicado pela própria Oman Tax Authority.",
+  "heroSubtitle": "A alíquota, os limites de registro, o que uma fatura fiscal precisa mostrar e quando começa a fatura eletrônica. Cada número desta página tem como fonte o texto oficial publicado.",
   "heroBullets": [
     "Alíquota padrão de 5%",
     "OMR 38,500 para registro",
-    "Fawtara anunciada, ainda não em vigor"
+    "Fawtara a partir de 1º de abril de 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Fornecimentos abaixo deste valor podem usar fatura simplificada, com aprovação da Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "Fatura eletrônica (Fawtara)",
+      "value": "1º/4/2027 / 1º/10/2027",
+      "note": "A Decisão 189/2026 torna a fatura eletrônica obrigatória em 1º de abril de 2027 para fornecimentos anuais acima de OMR 5,000,000, e em 1º de outubro de 2027 para OMR 5,000,000 ou menos. Antes disso, ela é voluntária.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "A Tax Authority publica o Regulamento Executivo apenas em árabe. Esta lista é uma leitura fiel do texto oficial em árabe, não uma tradução oficial, então confirme a redação com seu consultor tributário antes de confiar nela."
   },
   "einvoicing": {
-    "status": "Anunciada e em fases, ainda não obrigatória",
-    "body": "O programa de fatura eletrônica de Omã se chama Fawtara. A Tax Authority descreve um modelo de cinco cantos, em que as faturas chegam a ela por meio de um provedor de serviços credenciado, e define quatro fases: um piloto, uma expansão, a inclusão de empresas menores e a implantação completa. A Authority não publicou as datas das fases em inglês, e as datas que circulam na imprensa não constam nas páginas dela. Trate qualquer prazo específico da Fawtara que você ler em outro lugar como não confirmado até que a Tax Authority o publique.",
-    "source": 4
+    "status": "Obrigatória a partir de 1º de abril de 2027, voluntária agora",
+    "body": "O programa de fatura eletrônica de Omã se chama Fawtara. A Decisão 189/2026, publicada no Diário Oficial número 1660 em 9 de agosto de 2026, define duas datas: 1º de abril de 2027 para contribuintes cujos fornecimentos anuais estão acima de OMR 5,000,000, e 1º de outubro de 2027 para os que estão em OMR 5,000,000 ou menos. Até a sua data, a fatura eletrônica é voluntária, e a Tax Authority incentiva um início antecipado. As faturas seguem em XML PINT OM por meio de um provedor de serviços credenciado, que as entrega ao comprador e as informa à Tax Authority. Nosso guia de fatura eletrônica em Omã explica o teste do limite e as regras.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Preparação",
-      "title": "Preparando-se para a Fawtara sem adivinhar datas",
-      "body": "Você não precisa de um prazo publicado para estar pronto. Todo regime de fatura eletrônica que entrou em vigor na região exigiu a mesma disciplina de base: cadastros de clientes limpos e completos, incluindo números fiscais, uma sequência de faturas sem falhas, o tratamento fiscal registrado por linha e não por fatura, e documentos guardados de forma que possam ser recuperados quando solicitados. Uma empresa cujos registros já cumprem essas quatro condições terá uma implantação curta pela frente quando as datas chegarem. Uma empresa que não cumpre vai passar o período de aviso limpando dados.",
+      "title": "Preparando-se para a Fawtara antes da sua data",
+      "body": "As datas agora estão definidas, então o trabalho é deixar seus registros prontos. A Fawtara exige cadastros de clientes limpos e completos, incluindo números fiscais no formato OM mais 10 dígitos, uma sequência de faturas sem falhas, o tratamento fiscal registrado por linha, um código HS em cada item de mercadoria e um código de atividade em cada item, e documentos que possam ser recuperados quando solicitados. Uma empresa cujos registros já cumprem essas condições terá uma implantação curta pela frente. Uma empresa que não cumpre vai passar o período de aviso limpando dados.",
       "items": [
         "Cadastros de clientes completos, com números fiscais",
         "Uma sequência de faturas sem falhas por série",
         "Tratamento fiscal registrado linha a linha",
-        "Documentos recuperáveis quando solicitados"
+        "Códigos HS e de atividade nos seus itens"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Quando seus fornecimentos anuais atingem ou devem atingir OMR 38,500. Você pode se registrar voluntariamente a partir de OMR 19,250. Os dois valores vêm da decisão do Presidente sobre limites de registro, e não da própria Lei do IVA, por isso podem mudar sem que a Lei mude."
     },
     {
-      "q": "A fatura eletrônica já é obrigatória em Omã?",
-      "a": "Ainda não. A Tax Authority anunciou a Fawtara, um modelo de fatura eletrônica de cinco cantos em fases, com provedores de serviços credenciados, e descreve quatro fases de implantação. Ela não publicou as datas das fases em inglês nas próprias páginas, então não informamos uma data aqui. Consulte as páginas de fatura eletrônica da Tax Authority para ver a situação atual."
+      "q": "Quando a fatura eletrônica passa a ser obrigatória em Omã?",
+      "a": "A partir de 1º de abril de 2027, se seus fornecimentos anuais estão acima de OMR 5,000,000, e a partir de 1º de outubro de 2027, se são de OMR 5,000,000 ou menos. A Decisão 189/2026 define as duas datas. Você pode começar voluntariamente antes da sua data. O FAQ da Tax Authority explica como contar seus fornecimentos para o limite."
     },
     {
       "q": "Posso emitir fatura em inglês em Omã?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Fature corretamente em Omã, de graça",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decisão 189/2026 que altera o Regulamento Executivo da Lei do IVA (Diário Oficial 1660)",
+      "publisher": "Oman Tax Authority, texto no Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "FAQ de fatura eletrônica da Fawtara, atualizado em 30 de setembro de 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

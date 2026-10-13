@@ -1,0 +1,319 @@
+{
+  "locale": "ca",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Comprovat amb els textos de la Tax Authority el 14 d'octubre de 2026.",
+  "title": "La factura electrònica a Oman (Fawtara)",
+  "metaTitle": "Factura electrònica a Oman: dates i normes · Paper & Pen",
+  "metaDescription": "Fawtara comença l'1 d'abril de 2027 sobre OMR 5 milions i l'1 d'octubre de 2027 per a la resta. Llindar, camps PINT OM i notes, citats a la Tax Authority.",
+  "keywords": "factura electrònica oman, facturació electrònica oman, fawtara, fawtara oman, factura electrònica oman 2027, pint om, oman tax authority factura electrònica, proveïdor de serveis acreditat oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "La factura electrònica a Oman: <em class=\"text-copper-400 not-italic\">què comença el 2027</em>",
+  "heroSubtitle": "La Decisió 189/2026 fa obligatòria la factura electrònica per a les empreses registrades a l'IVA en dos grups, a partir de l'1 d'abril de 2027 i a partir de l'1 d'octubre de 2027. Aquesta guia explica quina data t'afecta, com arriba una factura a la Tax Authority, què ha de contenir una factura electrònica PINT OM i què has de corregir ara als teus registres. Cada norma enllaça amb el text oficial.",
+  "heroBullets": [
+    "1 d'abr. 2027: subministraments de més d'OMR 5 milions",
+    "1 d'oct. 2027: OMR 5 milions o menys",
+    "Ja es pot començar voluntàriament"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara d'un cop d'ull",
+  "facts": [
+    {
+      "label": "Base jurídica",
+      "value": "Decisió 189/2026",
+      "note": "Modifica el Reglament Executiu de la Llei de l'IVA. La Tax Authority la va dictar el 3 d'agost de 2026, i el Butlletí Oficial la va publicar al número 1660 el 9 d'agost de 2026. El nou article 143 exigeix una factura fiscal en un format electrònic aprovat i segur, amb un número únic.",
+      "source": 1
+    },
+    {
+      "label": "Primer grup",
+      "value": "1 d'abril de 2027",
+      "note": "Subjectes passius amb subministraments anuals de més d'OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Segon grup",
+      "value": "1 d'octubre de 2027",
+      "note": "Subjectes passius amb subministraments anuals d'OMR 5,000,000 o menys.",
+      "source": 1
+    },
+    {
+      "label": "Abans de la teva data",
+      "value": "Voluntària",
+      "note": "La Tax Authority anima les empreses a provar els seus sistemes i a emetre factures electròniques abans de la data obligatòria.",
+      "source": 2
+    },
+    {
+      "label": "Format",
+      "value": "XML, PINT OM",
+      "note": "L'XML és el format estructurat obligatori. L'especificació d'Oman és PINT OM versió 1.0.1, un format Peppol que manté la Tax Authority.",
+      "source": 4
+    },
+    {
+      "label": "Termini B2B",
+      "value": "Temps real",
+      "note": "Una factura electrònica entre empreses passa per la xarxa en el moment que l'emets.",
+      "source": 2
+    },
+    {
+      "label": "Termini B2C",
+      "value": "24 hores",
+      "note": "Una factura a un consumidor, o a un comprador que no està registrat a l'IVA, es comunica en un termini de 24 hores.",
+      "source": 2
+    },
+    {
+      "label": "Factures antigues",
+      "value": "No es presenten",
+      "note": "Les factures emeses abans de començar no es pugen a la Tax Authority.",
+      "source": 2
+    },
+    {
+      "label": "Correccions",
+      "value": "Nota de crèdit o de dèbit",
+      "note": "No pots anul·lar ni modificar una factura electrònica emesa. L'ajustes amb una nota de crèdit o una nota de dèbit electròniques.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Quina data t'afecta",
+      "body": "La prova fa servir els teus subministraments anuals a 31 de març de 2027. Compta els subministraments gravats (deixa fora els subministraments de béns d'inversió), suma-hi els béns i serveis sotmesos a inversió del subjecte passiu i suma-hi els subministraments intra-GCC.\n\nComences l'1 d'abril de 2027 si qualsevol dels dos totals supera OMR 5,000,000: els teus subministraments de l'1 d'abril de 2026 al 31 de març de 2027, o els subministraments previstos de l'1 d'abril de 2027 al 31 de març de 2028. Si cap dels dos totals no supera OMR 5,000,000, comences l'1 d'octubre de 2027. Un no resident només compta els seus subministraments a Oman. Un grup d'IVA s'avalua com un sol grup, no membre per membre. La Tax Authority també té una comprovació en línia del desplegament: hi introdueixes el teu número d'IVA i les teves franges de subministraments.",
+      "items": [
+        "Inclou: subministraments gravats, subministraments amb inversió del subjecte passiu, subministraments intra-GCC",
+        "Deixa fora: subministraments de béns d'inversió",
+        "Dos períodes: els 12 mesos fins al 31 de març de 2027 i els 12 mesos des de l'1 d'abril de 2027",
+        "Si qualsevol dels dos supera OMR 5,000,000, comences l'1 d'abril de 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Com arriba una factura a la Tax Authority",
+      "body": "Fawtara fa servir un model de cinc vèrtexs. El vèrtex 1 ets tu, el venedor. El vèrtex 2 és el teu proveïdor de serveis acreditat. El vèrtex 3 és el proveïdor de serveis del teu comprador, el vèrtex 4 és el teu comprador i el vèrtex 5 és la Tax Authority. El teu programari no envia mai res directament a la Tax Authority. Envia la factura electrònica al teu proveïdor.\n\nEl teu proveïdor comprova la factura amb les regles schematron oficials d'Oman, la lliura al proveïdor del comprador a la xarxa Peppol i envia un document de dades fiscals a la Tax Authority. Et vincules a un sol proveïdor alhora a través del portal Fawtara, i pots canviar de proveïdor més endavant. La conformitat de la factura continua sent responsabilitat teva.",
+      "items": [
+        "C1 venedor, C2 proveïdor del venedor, C3 proveïdor del comprador, C4 comprador, C5 Tax Authority",
+        "Qui valida la factura és el proveïdor, no la Tax Authority",
+        "Un sol proveïdor alhora, vinculat al portal Fawtara",
+        "La responsabilitat d'una factura correcta continua sent teva"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Què ha de contenir una factura electrònica PINT OM",
+      "body": "PINT OM afegeix normes d'Oman a la factura Peppol. La majoria de rebuigs vénen de dades mestres que falten, no del total de la factura. Comprova primer aquests camps als teus registres.",
+      "items": [
+        "Un UUID de factura únic, versió 5, i l'hora d'emissió",
+        "Una data d'emissió que no sigui futura segons l'hora de Mascat",
+        "Número d'IVA del venedor en el format OM més 10 dígits, adreça i telèfon del venedor",
+        "En una factura fiscal completa, el número d'IVA o identificador del comprador i la seva adreça",
+        "IVA per línia i una categoria fiscal per línia (S, E, O o Z)",
+        "Tipus general del 5%; les línies exemptes i a tipus zero necessiten un codi de motiu",
+        "En els béns, un codi HS d'Oman de 12 dígits i un indicador de béns o serveis per línia",
+        "Un codi d'activitat ISIC per article",
+        "Imports amb 3 decimals com a màxim, en OMR per als totals d'IVA"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Notes de crèdit i notes de dèbit",
+      "body": "Un cop emesa una factura electrònica, no l'anul·les, no l'esborres ni la modifiques. Emets una nota de crèdit electrònica (per reduir-la) o una nota de dèbit (per augmentar-la). La nota identifica la factura original pel número, la data i l'UUID, i porta un codi de motiu: CAN per a una anul·lació o devolució, VAT per a un canvi en el tractament de l'IVA, VAL per a un canvi de valor, QTY per a un canvi de quantitat o OTH per a un altre motiu. Si has facturat al comprador equivocat, emet una nota de crèdit a aquell comprador i una factura nova al correcte.",
+      "items": [
+        "Nota de crèdit: tipus de document 381",
+        "Nota de dèbit: tipus de document 383",
+        "Número, data i UUID de la factura original a cada nota",
+        "Codis de motiu: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Com triar un proveïdor de serveis acreditat",
+      "body": "La Tax Authority publica la llista actualitzada de proveïdors de serveis acreditats. El 13 d'octubre de 2026 la llista tenia 36 entrades, i continua creixent. La Tax Authority no cobra cap tarifa als contribuents i no fixa els preus dels proveïdors, així que cada proveïdor decideix el seu model: subscripció, per factura o un altre. Compara els proveïdors segons amb què es connecten, on guarden les teves dades, el suport en àrab i com pots canviar de proveïdor. Cada proveïdor declara a la llista on resideixen les dades, i la Tax Authority no ho verifica.",
+      "items": [
+        "Fes servir només un proveïdor de la llista de la Tax Authority",
+        "Pregunta com es connecta el teu programari: API, pujada de fitxers o un connector ja fet",
+        "Pregunta on es guarden les teves dades i quant de temps s'arxiven",
+        "Comprova els passos per canviar de proveïdor abans de signar"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Vendes B2C i el codi QR",
+      "body": "Una venda a un consumidor, o a qualsevol comprador que no estigui registrat a l'IVA, es comunica a la Tax Authority en un termini de 24 hores. Dones al comprador una factura llegible per qualsevol canal. Aquesta còpia impresa o en PDF ha de portar un codi QR, que generes tu com a venedor. El codi QR no forma part de la factura electrònica XML. La Tax Authority remet a l'Apèndix D de la Peppol Oman Architecture per al contingut del QR. Aquest apèndix encara no és públic, així que considera no confirmat qualsevol disseny de QR que vegis ara.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Què has de fer ara",
+      "body": "No cal que esperis la teva data per preparar-te. La feina que porta més temps són les dades mestres, i la pots començar avui.",
+      "items": [
+        "Fes la prova del llindar i anota la teva data d'inici",
+        "Comprova cada número d'IVA dels clients: OM més 10 dígits",
+        "Afegeix el codi HS de 12 dígits a cada article de béns i un codi ISIC a cada article",
+        "Fes correspondre les teves unitats amb els codis d'unitat UN/ECE (per exemple, una peça és H87)",
+        "Deixa d'esborrar o renumerar factures emeses: fes servir notes de crèdit",
+        "Tria un proveïdor de la llista de la Tax Authority i fes proves aviat",
+        "Guarda el teu propi arxiu: la Tax Authority no retorna les dades de les factures"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Qui envia què, cas per cas",
+    "intro": "El recorregut d'una factura depèn de qui és el comprador. La taula mostra els vèrtexs de cada cas de les preguntes freqüents de la Tax Authority.",
+    "columns": [
+      "Cas",
+      "Flux",
+      "Què passa"
+    ],
+    "rows": [
+      {
+        "label": "B2B nacional",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Temps real. El teu proveïdor la lliura al proveïdor del comprador i comunica les dades fiscals a la Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C, o comprador no registrat a l'IVA",
+        "flow": "C1 → C2 → C5",
+        "detail": "Es comunica en un termini de 24 hores. El comprador rep una factura llegible amb un codi QR.",
+        "source": 2
+      },
+      {
+        "label": "Comprador que encara no és en cap fase",
+        "flow": "C1 → C2 → C5",
+        "detail": "El teu proveïdor comunica les dades fiscals. Envies la factura al comprador com ho fas avui.",
+        "source": 2
+      },
+      {
+        "label": "Venedor que encara no és en cap fase",
+        "flow": "C1 → C4",
+        "detail": "Un venedor registrat a l'IVA que és fora de les fases actuals factura com avui. El comprador dedueix l'IVA suportat com avui.",
+        "source": 2
+      },
+      {
+        "label": "Exportació",
+        "flow": "C1 → C2 → C5",
+        "detail": "Comparteixes la factura amb el client estranger com avui. Les dades fiscals passen per la xarxa.",
+        "source": 2
+      },
+      {
+        "label": "Correcció",
+        "flow": "381 / 383",
+        "detail": "La nota segueix el mateix recorregut que la factura que corregeix.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Quan serà obligatòria la factura electrònica a Oman?",
+      "a": "L'1 d'abril de 2027 per als subjectes passius amb subministraments anuals de més d'OMR 5,000,000, i l'1 d'octubre de 2027 per als que tenen OMR 5,000,000 o menys. La Decisió 189/2026 fixa les dues dates. Abans de la teva data, la factura electrònica és voluntària i la Tax Authority anima a començar aviat."
+    },
+    {
+      "q": "Com sé si la meva empresa és al grup d'abril de 2027?",
+      "a": "Suma els teus subministraments gravats (sense els béns d'inversió), els subministraments amb inversió del subjecte passiu i els subministraments intra-GCC. Si el total de l'1 d'abril de 2026 al 31 de març de 2027 supera OMR 5,000,000, o preveus que el superarà de l'1 d'abril de 2027 al 31 de març de 2028, comences l'1 d'abril de 2027. Si no, comences l'1 d'octubre de 2027."
+    },
+    {
+      "q": "Una factura en PDF és una factura electrònica a Oman?",
+      "a": "No. La factura electrònica és un fitxer XML estructurat en format PINT OM que passa per un proveïdor de serveis acreditat. Pots continuar imprimint o enviant una còpia en PDF, però un cop arriba la teva data només la factura electrònica compta com a factura fiscal vàlida."
+    },
+    {
+      "q": "He de pujar les meves factures antigues?",
+      "a": "No. Les factures que vas emetre abans de començar amb la factura electrònica no es presenten a la Tax Authority. Guarda-les als teus registres com exigeix la llei de l'IVA."
+    },
+    {
+      "q": "I si el meu client encara no és a Fawtara?",
+      "a": "Igualment presentes la factura al teu proveïdor de serveis, i el proveïdor envia el document de dades fiscals a la Tax Authority. Envies la factura al client com ho fas avui."
+    },
+    {
+      "q": "La Tax Authority cobra per Fawtara?",
+      "a": "No. La Tax Authority no cobra cap tarifa als contribuents i no fixa el que cobren els proveïdors de serveis. Cada proveïdor acreditat fixa el seu preu."
+    },
+    {
+      "q": "Hi ha sancions?",
+      "a": "La Tax Authority diu que, un cop comenci l'obligació, s'apliquen les sancions previstes a la legislació de l'IVA. No ha publicat una taula de sancions pròpia per a la factura electrònica, així que considera no confirmat qualsevol import concret que llegeixis en altres llocs."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Prepara els teus registres per a Fawtara",
+  "ctaSub": "Paper & Pen genera factures electròniques PINT OM i les comprova amb les normes oficials d'Oman. Comença amb un espai de treball gratuït.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decisió 189/2026 que modifica el Reglament Executiu de la Llei de l'IVA (Butlletí Oficial 1660)",
+      "publisher": "Oman Tax Authority, text a Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Preguntes freqüents sobre la factura electrònica Fawtara, actualitzades el 30 de setembre de 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Proveïdors de serveis acreditats (llista actualitzada)",
+      "publisher": "Oman Tax Authority, portal Fawtara",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Especificacions PINT OM, versió 1.0.1",
+      "publisher": "OpenPeppol, mantingut per la Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Regles de jurisdicció PINT OM (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, mantingut per la Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Comprovació del possible desplegament",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Notes de la versió PINT OM 1.0.1",
+      "publisher": "OpenPeppol, mantingut per la Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

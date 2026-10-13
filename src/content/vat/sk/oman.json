@@ -5,15 +5,15 @@
   "country": "Omán",
   "title": "DPH v Ománe",
   "metaTitle": "DPH v Ománe: sadzba, limity, faktúry · Paper & Pen",
-  "metaDescription": "Sadzba DPH 5 % v Ománe, registračný limit OMR 38,500 a dvanásť náležitostí daňovej faktúry, každá s odkazom na zdroj od daňového úradu Ománu.",
-  "keywords": "dph omán, sadzba dph omán, registračný limit dph omán, náležitosti daňovej faktúry omán, e-fakturácia fawtara, oman tax authority",
+  "metaDescription": "Sadzba DPH 5 % v Ománe, limit OMR 38,500, náležitosti daňovej faktúry a termíny e-fakturácie Fawtara, všetko s odkazom na oficiálny text.",
+  "keywords": "dph omán, sadzba dph omán, registračný limit dph omán, náležitosti daňovej faktúry omán, e-fakturácia fawtara, e-fakturácia omán 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Omán",
   "heroTitle": "Fakturácia podľa <em class=\"text-copper-400 not-italic\">pravidiel DPH v Ománe</em>",
-  "heroSubtitle": "Sadzba, registračné limity, čo musí obsahovať daňová faktúra a ako je na tom e-fakturácia. Každý údaj na tejto stránke má odkaz na text, ktorý zverejnil samotný Oman Tax Authority.",
+  "heroSubtitle": "Sadzba, registračné limity, čo musí obsahovať daňová faktúra a kedy začína e-fakturácia. Každý údaj na tejto stránke má odkaz na oficiálny zverejnený text.",
   "heroBullets": [
     "Základná sadzba 5 %",
     "Registrácia od OMR 38,500",
-    "Fawtara ohlásená, zatiaľ nespustená"
+    "Fawtara od 1. apríla 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Pri plneniach pod touto hodnotou možno so súhlasom daňového úradu použiť zjednodušenú faktúru.",
       "source": 3
+    },
+    {
+      "label": "E-fakturácia (Fawtara)",
+      "value": "1. 4. 2027 / 1. 10. 2027",
+      "note": "Decision 189/2026 zavádza povinnú e-fakturáciu od 1. apríla 2027 pri ročných plneniach nad OMR 5,000,000 a od 1. októbra 2027 pri plneniach vo výške OMR 5,000,000 alebo menej. Dovtedy je dobrovoľná.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Daňový úrad zverejňuje vykonávací predpis len v arabčine. Tento zoznam je verným výkladom oficiálneho arabského textu, nie oficiálnym anglickým prekladom, preto si znenie pred použitím overte u svojho daňového poradcu."
   },
   "einvoicing": {
-    "status": "Ohlásená a rozdelená do fáz, zatiaľ nie povinná",
-    "body": "Program e-fakturácie v Ománe sa volá Fawtara. Daňový úrad opisuje model piatich strán (five-corner), v ktorom k nemu faktúry prichádzajú cez akreditovaného poskytovateľa služieb, a stanovuje štyri fázy: pilot, rozšírenie, zapojenie menších firiem a úplné spustenie. Úrad nezverejnil dátumy fáz v angličtine a dátumy, ktoré kolujú v tlači, sa na jeho vlastných stránkach neuvádzajú. Akýkoľvek konkrétny termín pre Fawtara, ktorý si prečítate inde, považujte za nepotvrdený, kým ho nezverejní daňový úrad.",
-    "source": 4
+    "status": "Povinná od 1. apríla 2027, teraz dobrovoľná",
+    "body": "Program e-fakturácie v Ománe sa volá Fawtara. Decision 189/2026, zverejnené v Official Gazette č. 1660 dňa 9. augusta 2026, stanovuje dva termíny: 1. apríla 2027 pre zdaniteľné osoby, ktorých ročné plnenia presahujú OMR 5,000,000, a 1. októbra 2027 pre tie, ktorých plnenia sú OMR 5,000,000 alebo menej. Do vášho termínu je e-fakturácia dobrovoľná a daňový úrad odporúča začať skôr. Faktúry sa posielajú v PINT OM XML cez akreditovaného poskytovateľa služieb, ktorý ich doručí odberateľovi a nahlási daňovému úradu. Náš sprievodca ománskou e-fakturáciou vysvetľuje test limitu a pravidlá.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Príprava",
-      "title": "Pripravte sa na Fawtara bez hádania termínov",
-      "body": "Na to, aby ste boli pripravení, nepotrebujete zverejnený termín. Každý systém e-fakturácie, ktorý v regióne začal fungovať, vyžadoval tú istú základnú disciplínu: čisté a úplné záznamy o zákazníkoch vrátane daňových čísel, neprerušený číselný rad faktúr, daňové zaobchádzanie evidované po riadkoch, nie po faktúrach, a doklady uložené tak, aby ste ich na požiadanie vedeli nájsť. Firmu, ktorej záznamy už tieto štyri podmienky spĺňajú, čaká krátke zavedenie, nech už termíny prídu kedykoľvek. Firma, ktorá ich nespĺňa, strávi výpovednú lehotu čistením údajov.",
+      "title": "Pripravte sa na Fawtara pred vaším termínom",
+      "body": "Termíny sú už stanovené, takže úlohou je pripraviť vaše záznamy. Fawtara vyžaduje čisté a úplné záznamy o zákazníkoch vrátane daňových čísel v tvare OM plus 10 číslic, neprerušený číselný rad faktúr, daňové zaobchádzanie evidované po riadkoch, HS kód pri každej položke tovaru a kód činnosti pri každej položke a doklady, ktoré na požiadanie viete nájsť. Firmu, ktorej záznamy už tieto podmienky spĺňajú, čaká krátke zavedenie. Firma, ktorá ich nespĺňa, strávi výpovednú lehotu čistením údajov.",
       "items": [
         "Úplné záznamy o zákazníkoch vrátane daňových čísel",
         "Jeden neprerušený číselný rad faktúr pre každú sériu",
         "Daňové zaobchádzanie evidované riadok po riadku",
-        "Doklady dohľadateľné na požiadanie"
+        "HS kódy a kódy činnosti pri vašich položkách"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Keď vaše ročné plnenia dosiahnu alebo sa očakáva, že dosiahnu OMR 38,500. Dobrovoľne sa môžete zaregistrovať od OMR 19,250. Obe sumy pochádzajú z rozhodnutia predsedu o registračných limitoch, nie zo samotného zákona o DPH, a preto sa môžu zmeniť bez zmeny zákona."
     },
     {
-      "q": "Je e-fakturácia v Ománe už povinná?",
-      "a": "Zatiaľ nie. Daňový úrad ohlásil Fawtara, model e-fakturácie piatich strán rozdelený do fáz, ktorý využíva akreditovaných poskytovateľov služieb, a opisuje štyri fázy zavádzania. Dátumy fáz nezverejnil v angličtine na vlastných stránkach, preto tu žiadny dátum neuvádzame. Aktuálny stav si overte na stránkach daňového úradu o e-fakturácii."
+      "q": "Kedy je e-fakturácia v Ománe povinná?",
+      "a": "Od 1. apríla 2027, ak vaše ročné plnenia presahujú OMR 5,000,000, a od 1. októbra 2027, ak sú OMR 5,000,000 alebo menej. Oba termíny stanovuje Decision 189/2026. Pred svojím termínom môžete začať dobrovoľne. FAQ daňového úradu vysvetľuje, ako plnenia pre limit započítať."
     },
     {
       "q": "Môžem v Ománe vystaviť faktúru v angličtine?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Fakturujte v Ománe správne a zadarmo",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026, ktorým sa menia Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, text na Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "FAQ k e-fakturácii Fawtara, posledná aktualizácia 30. septembra 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

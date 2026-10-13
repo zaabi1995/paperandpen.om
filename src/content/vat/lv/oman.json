@@ -5,15 +5,15 @@
   "country": "Omāna",
   "title": "PVN Omānā",
   "metaTitle": "PVN Omānā: likme, sliekšņi, rēķini · Paper & Pen",
-  "metaDescription": "Omānas 5% PVN likme, OMR 38,500 reģistrācijas slieksnis un divpadsmit lietas, kas jānorāda nodokļu rēķinā, katra ar atsauci uz Oman Tax Authority.",
-  "keywords": "pvn omānā, omānas pvn likme, omānas pvn reģistrācijas slieksnis, omānas nodokļu rēķina prasības, fawtara e-rēķini, oman tax authority",
+  "metaDescription": "Omānas 5% PVN likme, OMR 38,500 slieksnis, kas jānorāda nodokļu rēķinā un Fawtara e-rēķinu datumi, katrs ar atsauci uz oficiālo tekstu.",
+  "keywords": "pvn omānā, omānas pvn likme, omānas pvn reģistrācijas slieksnis, omānas nodokļu rēķina prasības, fawtara e-rēķini, omānas e-rēķini 2027, decision 189/2026, omānas nodokļu iestāde",
   "heroEyebrow": "Omāna",
   "heroTitle": "Rēķini saskaņā ar <em class=\"text-copper-400 not-italic\">Omānas PVN</em> noteikumiem",
-  "heroSubtitle": "Likme, reģistrācijas sliekšņi, kas jānorāda nodokļu rēķinā un kāds ir e-rēķinu statuss. Katram skaitlim šajā lapā ir atsauce uz paša Oman Tax Authority publicēto tekstu.",
+  "heroSubtitle": "Likme, reģistrācijas sliekšņi, kas jānorāda nodokļu rēķinā un kad sākas e-rēķini. Katram skaitlim šajā lapā ir atsauce uz oficiāli publicēto tekstu.",
   "heroBullets": [
     "5% standarta likme",
     "Reģistrācija no OMR 38,500",
-    "Fawtara izziņota, vēl nedarbojas"
+    "Fawtara no 2027. gada 1. aprīļa"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Piegādēm, kuru vērtība ir zem šīs summas, ar Tax Authority apstiprinājumu var izmantot vienkāršotu rēķinu.",
       "source": 3
+    },
+    {
+      "label": "E-rēķini (Fawtara)",
+      "value": "2027. g. 1. apr. / 2027. g. 1. okt.",
+      "note": "Lēmums 189/2026 padara e-rēķinus obligātus 2027. gada 1. aprīlī, ja gada piegādes pārsniedz OMR 5,000,000, un 2027. gada 1. oktobrī, ja tās ir OMR 5,000,000 vai mazāk. Līdz tam tie ir brīvprātīgi.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority publicē izpildes noteikumus tikai arābu valodā. Šis saraksts ir precīzs oficiālā arābu teksta lasījums, nevis oficiāls tulkojums angļu valodā, tāpēc pirms paļaušanās uz to pārbaudi formulējumu ar savu nodokļu konsultantu."
   },
   "einvoicing": {
-    "status": "Izziņoti un ieviešami pa posmiem, vēl nav obligāti",
-    "body": "Omānas e-rēķinu programmu sauc Fawtara. Tax Authority apraksta piecu stūru modeli, kurā rēķini to sasniedz caur akreditētu pakalpojumu sniedzēju, un nosaka četrus posmus: pilotprojektu, paplašināšanu, mazāku uzņēmumu pievienošanu un pilnu ieviešanu. Iestāde nav publicējusi posmu datumus angļu valodā, un presē minētie datumi nav atrodami tās pašas lapās. Uztver jebkuru konkrētu Fawtara termiņu, ko lasi citur, kā neapstiprinātu, līdz Tax Authority to publicē.",
-    "source": 4
+    "status": "Obligāti no 2027. gada 1. aprīļa, pašlaik brīvprātīgi",
+    "body": "Omānas e-rēķinu programmu sauc Fawtara. Lēmums 189/2026, kas publicēts Oficiālā vēstneša 1660. numurā 2026. gada 9. augustā, nosaka divus datumus: 2027. gada 1. aprīli nodokļu maksātājiem, kuru gada piegādes pārsniedz OMR 5,000,000, un 2027. gada 1. oktobri tiem, kuru piegādes ir OMR 5,000,000 vai mazāk. Līdz tavam datumam e-rēķini ir brīvprātīgi, un Nodokļu iestāde mudina sākt agri. Rēķini tiek sūtīti PINT OM XML formātā caur akreditētu pakalpojumu sniedzēju, kas tos piegādā pircējam un ziņo par tiem Nodokļu iestādei. Mūsu Omānas e-rēķinu ceļvedis izskaidro sliekšņa pārbaudi un noteikumus.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Sagatavošanās",
-      "title": "Gatavošanās Fawtara, neminot datumus",
-      "body": "Lai būtu gatavs, publicēts termiņš nav vajadzīgs. Katra reģionā ieviestā e-rēķinu sistēma ir prasījusi vienu un to pašu pamata disciplīnu: tīrus, pilnīgus klientu ierakstus ar nodokļu numuriem, nepārtrauktu rēķinu secību, nodokļa piemērošanu katrai rindai, nevis visam rēķinam, un dokumentus, kas glabāti tā, lai tos varētu atrast pēc pieprasījuma. Uzņēmumam, kura ieraksti jau atbilst šiem četriem nosacījumiem, ieviešana būs īsa, lai kad arī datumi tiktu noteikti. Uzņēmums, kuram tā nav, paziņošanas periodu pavadīs, tīrot datus.",
+      "title": "Gatavošanās Fawtara pirms tava datuma",
+      "body": "Datumi tagad ir noteikti, tāpēc darbs ir sakārtot savus ierakstus. Fawtara prasa tīrus, pilnīgus klientu ierakstus, ieskaitot nodokļu numurus formā OM plus 10 cipari, nepārtrauktu rēķinu secību, nodokļa piemērošanu, kas reģistrēta katrai rindai, HS kodu katrai preču pozīcijai un darbības kodu katrai pozīcijai, kā arī dokumentus, kurus vari atrast pēc pieprasījuma. Uzņēmumam, kura ieraksti jau atbilst šiem nosacījumiem, priekšā ir īsa ieviešana. Uzņēmums, kura ieraksti neatbilst, sagatavošanās laiku pavadīs, tīrot datus.",
       "items": [
         "Pilnīgi klientu ieraksti, ieskaitot nodokļu numurus",
         "Viena nepārtraukta rēķinu secība katrai sērijai",
         "Nodokļa piemērošana reģistrēta pa rindām",
-        "Dokumenti atrodami pēc pieprasījuma"
+        "HS un darbības kodi tavām pozīcijām"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Kad tavas gada piegādes sasniedz vai, kā sagaidāms, sasniegs OMR 38,500. Brīvprātīgi vari reģistrēties no OMR 19,250. Abi skaitļi nāk no priekšsēdētāja lēmuma par reģistrācijas sliekšņiem, nevis no paša PVN likuma, tāpēc tie var mainīties, nemainot likumu."
     },
     {
-      "q": "Vai e-rēķini Omānā jau ir obligāti?",
-      "a": "Vēl nē. Tax Authority ir izziņojusi Fawtara, pakāpeniski ieviešamu piecu stūru e-rēķinu modeli ar akreditētiem pakalpojumu sniedzējiem, un apraksta četrus ieviešanas posmus. Posmu datumus angļu valodā savās lapās tā nav publicējusi, tāpēc mēs šeit datumu nenorādām. Pašreizējo situāciju pārbaudi Tax Authority e-rēķinu lapās."
+      "q": "Kad e-rēķini Omānā kļūst obligāti?",
+      "a": "No 2027. gada 1. aprīļa, ja tavas gada piegādes pārsniedz OMR 5,000,000, un no 2027. gada 1. oktobra, ja tās ir OMR 5,000,000 vai mazāk. Abus datumus nosaka lēmums 189/2026. Pirms sava datuma vari sākt brīvprātīgi. Nodokļu iestādes BUJ izskaidro, kā aprēķināt piegādes sliekšņa noteikšanai."
     },
     {
       "q": "Vai Omānā varu izrakstīt rēķinu angļu valodā?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Izraksti rēķinus Omānā pareizi un bez maksas",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Lēmums 189/2026 par grozījumiem Executive Regulations of the VAT Law (Oficiālais vēstnesis 1660)",
+      "publisher": "Oman Tax Authority, teksts vietnē Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Fawtara e-rēķinu BUJ, pēdējoreiz atjaunināts 2026. gada 30. septembrī",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

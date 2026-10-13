@@ -1,0 +1,319 @@
+{
+  "locale": "et",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Kontrollitud maksuameti tekstide alusel 14. oktoobril 2026.",
+  "title": "E-arveldus Omaanis (Fawtara)",
+  "metaTitle": "E-arveldus Omaanis: Fawtara kuupäevad, reeglid · Paper & Pen",
+  "metaDescription": "Fawtara algab 1. aprillil 2027 üle OMR 5 miljoni ja 1. oktoobril 2027 ülejäänutele. Piirmäära test, PINT OM väljad ja parandusarved, viitega maksuametile.",
+  "keywords": "e-arveldus omaan, fawtara, fawtara omaan, omaani e-arveldus 2027, pint om, omaani maksuamet e-arveldus, akrediteeritud teenusepakkuja omaan, peppol omaan, decision 189/2026",
+  "heroEyebrow": "Omaan · Fawtara",
+  "heroTitle": "E-arveldus Omaanis: <em class=\"text-copper-400 not-italic\">mis algab 2027. aastal</em>",
+  "heroSubtitle": "Otsus 189/2026 muudab e-arveldamise käibemaksukohustuslaseks registreeritud ettevõtetele kohustuslikuks kahes rühmas, alates 1. aprillist 2027 ja alates 1. oktoobrist 2027. See juhend selgitab, milline kuupäev sinu kohta kehtib, kuidas arve jõuab maksuametini, mida PINT OM e-arve peab sisaldama ja mida oma andmetes kohe parandada. Iga reegel viitab ametlikule tekstile.",
+  "heroBullets": [
+    "1. apr 2027: käive üle OMR 5 miljoni",
+    "1. okt 2027: OMR 5 miljonit või vähem",
+    "Vabatahtlik alustamine on juba lubatud"
+  ],
+  "authority": {
+    "name": "Omaani maksuamet (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara lühidalt",
+  "facts": [
+    {
+      "label": "Õiguslik alus",
+      "value": "Otsus 189/2026",
+      "note": "See muudab käibemaksuseaduse rakendusmäärusi. Maksuamet andis selle välja 3. augustil 2026 ja Ametlik Teataja avaldas selle numbris 1660 9. augustil 2026. Uus artikkel 143 nõuab maksuarvet heakskiidetud, turvalises elektroonilises vormingus ja unikaalse numbriga.",
+      "source": 1
+    },
+    {
+      "label": "Esimene rühm",
+      "value": "1. aprill 2027",
+      "note": "Maksukohustuslased, kelle aastakäive on üle OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Teine rühm",
+      "value": "1. oktoober 2027",
+      "note": "Maksukohustuslased, kelle aastakäive on OMR 5,000,000 või vähem.",
+      "source": 1
+    },
+    {
+      "label": "Enne sinu kuupäeva",
+      "value": "Vabatahtlik",
+      "note": "Maksuamet julgustab ettevõtteid enne kohustuslikku kuupäeva oma süsteeme testima ja e-arveid väljastama.",
+      "source": 2
+    },
+    {
+      "label": "Vorming",
+      "value": "XML, PINT OM",
+      "note": "XML on kohustuslik struktureeritud vorming. Omaani spetsifikatsioon on PINT OM versioon 1.0.1, Peppoli vorming, mida haldab maksuamet.",
+      "source": 4
+    },
+    {
+      "label": "B2B ajastus",
+      "value": "Reaalajas",
+      "note": "Ettevõtetevaheline e-arve liigub võrgu kaudu väljastamise hetkel.",
+      "source": 2
+    },
+    {
+      "label": "B2C ajastus",
+      "value": "24 tundi",
+      "note": "Arvest tarbijale või ostjale, kes ei ole käibemaksukohustuslasena registreeritud, teatatakse 24 tunni jooksul.",
+      "source": 2
+    },
+    {
+      "label": "Vanad arved",
+      "value": "Ei esitata",
+      "note": "Enne alustamist väljastatud arveid maksuametile üles ei laadita.",
+      "source": 2
+    },
+    {
+      "label": "Parandused",
+      "value": "Kreedit- või deebetarve",
+      "note": "Väljastatud e-arvet ei saa tühistada ega muuta. Korrigeerid seda elektroonilise kreeditarve või deebetarvega.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Milline kuupäev sinu kohta kehtib",
+      "body": "Test kasutab sinu aastakäivet seisuga 31. märts 2027. Arvesta kokku oma maksustatav käive (jäta välja põhivara võõrandamine), lisa pöördmaksustatavad kaubad ja teenused ning lisa oma GCC-sisene käive.\n\nAlustad 1. aprillil 2027, kui kumbki summa on üle OMR 5,000,000: sinu käive 1. aprillist 2026 kuni 31. märtsini 2027 või sinu eeldatav käive 1. aprillist 2027 kuni 31. märtsini 2028. Kui kumbki summa ei ületa OMR 5,000,000, alustad 1. oktoobril 2027. Mitteresident arvestab ainult oma käivet Omaanis. Käibemaksugruppi testitakse ühe grupina, mitte liikme kaupa. Maksuametil on ka veebipõhine juurutuse kontroll: sisestad oma käibemaksunumbri ja käibevahemikud.",
+      "items": [
+        "Arvesse: maksustatav käive, pöördmaksustatav käive, GCC-sisene käive",
+        "Välja: põhivara võõrandamine",
+        "Kaks perioodi: 12 kuud kuni 31. märtsini 2027 ja 12 kuud alates 1. aprillist 2027",
+        "Kumbki periood üle OMR 5,000,000 tähendab 1. aprilli 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Kuidas arve jõuab maksuametini",
+      "body": "Fawtara kasutab viie nurga mudelit. Nurk 1 oled sina, müüja. Nurk 2 on sinu akrediteeritud teenusepakkuja. Nurk 3 on ostja teenusepakkuja, nurk 4 on ostja ja nurk 5 on maksuamet. Sinu tarkvara ei saada kunagi otse maksuametile. See saadab e-arve sinu teenusepakkujale.\n\nTeenusepakkuja kontrollib arvet Omaani ametlike schematron-reeglite järgi, toimetab selle Peppoli võrgu kaudu ostja teenusepakkujale ja saadab maksuametile maksuandmete dokumendi. Ühendud korraga ühe teenusepakkujaga Fawtara portaali kaudu ja saad teenusepakkujat hiljem vahetada. Arve nõuetele vastavus jääb sinu vastutusele.",
+      "items": [
+        "C1 müüja, C2 müüja teenusepakkuja, C3 ostja teenusepakkuja, C4 ostja, C5 maksuamet",
+        "Arvet valideerib teenusepakkuja, mitte maksuamet",
+        "Korraga üks teenusepakkuja, ühendatud Fawtara portaalis",
+        "Vastutus õige arve eest jääb sinule"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Mida PINT OM e-arve peab sisaldama",
+      "body": "PINT OM lisab Peppoli arvele Omaani reeglid. Enamik tagasilükkamisi tuleb puuduvatest põhiandmetest, mitte arve kogusummast. Kontrolli kõigepealt neid välju oma andmetes.",
+      "items": [
+        "Arve unikaalne UUID, versioon 5, ja väljastamise kellaaeg",
+        "Väljastamise kuupäev, mis ei ole Maskati aja järgi tulevikus",
+        "Müüja käibemaksunumber kujul OM pluss 10 numbrit, müüja aadress ja telefon",
+        "Täieliku maksuarve puhul ostja käibemaksunumber või identifikaator ja aadress",
+        "Käibemaks rea kaupa ja maksukategooria rea kaupa (S, E, O või Z)",
+        "Standardmäär 5%; maksuvabad ja nullmääraga read vajavad põhjuse koodi",
+        "Kaupade puhul 12-kohaline Omaani HS-kood ning kauba või teenuse tunnus rea kaupa",
+        "ISIC tegevusala kood igal artiklil",
+        "Summad kuni 3 komakohaga, käibemaksu kogusummad OMR-is"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Kreeditarved ja deebetarved",
+      "body": "Pärast e-arve väljastamist sa ei tühista, kustuta ega muuda seda. Väljastad elektroonilise kreeditarve (selle vähendamiseks) või deebetarve (selle suurendamiseks). Dokument viitab algsele arvele numbri, kuupäeva ja UUID-ga ning sisaldab põhjuse koodi: CAN tühistamise või tagastuse korral, VAT käibemaksukäsitluse muutuse korral, VAL väärtuse muutuse korral, QTY koguse muutuse korral või OTH muu põhjuse korral. Kui esitasid arve valele ostjale, väljasta sellele ostjale kreeditarve ja õigele ostjale uus arve.",
+      "items": [
+        "Kreeditarve: dokumendi tüüp 381",
+        "Deebetarve: dokumendi tüüp 383",
+        "Algse arve number, kuupäev ja UUID igal dokumendil",
+        "Põhjuse koodid: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Akrediteeritud teenusepakkuja valimine",
+      "body": "Maksuamet avaldab akrediteeritud teenusepakkujate ajakohase nimekirja. 13. oktoobril 2026 oli nimekirjas 36 kirjet ja see kasvab edasi. Maksuamet ei võta maksumaksjatelt tasu ega määra teenusepakkujate hindu, nii et iga teenusepakkuja valib oma mudeli: tellimus, tasu arve kohta või muu. Võrdle teenusepakkujaid selle järgi, millega nad ühenduvad, kus nad sinu andmeid hoiavad, kas on araabiakeelne tugi ja kuidas neist lahkuda. Iga teenusepakkuja märgib nimekirjas ise oma andmete asukoha ja maksuamet seda ei kontrolli.",
+      "items": [
+        "Kasuta ainult maksuameti nimekirjas olevat teenusepakkujat",
+        "Küsi, kuidas sinu tarkvara ühendub: API, faili üleslaadimine või valmis liides",
+        "Küsi, kus sinu andmeid hoitakse ja kui kaua neid arhiveeritakse",
+        "Kontrolli lahkumise samme enne lepingu allkirjastamist"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C müük ja QR-kood",
+      "body": "Müügist tarbijale või mis tahes ostjale, kes ei ole käibemaksukohustuslasena registreeritud, teatatakse maksuametile 24 tunni jooksul. Annad ostjale inimloetava arve mis tahes kanali kaudu. Sellel trükitud või PDF-koopial peab olema QR-kood, mille koostad sina kui müüja. QR-kood ei ole osa XML e-arvest. QR-koodi sisu osas viitab maksuamet Peppol Oman Architecture lisale D. See lisa ei ole veel avalik, nii et pea iga praegu nähtud QR-paigutust kinnitamata.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Mida praegu teha",
+      "body": "Valmistumiseks ei pea ootama oma kuupäeva. Kõige kauem võtab aega põhiandmetega töö ja selle saad alustada juba täna.",
+      "items": [
+        "Tee piirmäära test ja pane oma alguskuupäev kirja",
+        "Kontrolli iga kliendi käibemaksunumbrit: OM pluss 10 numbrit",
+        "Lisa igale kaubaartiklile 12-kohaline HS-kood ja igale artiklile ISIC-kood",
+        "Seo oma mõõtühikud UN/ECE ühikukoodidega (näiteks tükk on H87)",
+        "Lõpeta väljastatud arvete kustutamine ja ümbernummerdamine: kasuta kreeditarveid",
+        "Vali teenusepakkuja maksuameti nimekirjast ja testi varakult",
+        "Hoia oma arhiivi: maksuamet ei tagasta arveandmeid"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Kes mida saadab, juhtum juhtumi kaupa",
+    "intro": "Arve teekond sõltub sellest, kes on ostja. Tabel näitab iga maksuameti KKK juhtumi nurki.",
+    "columns": [
+      "Juhtum",
+      "Teekond",
+      "Mis juhtub"
+    ],
+    "rows": [
+      {
+        "label": "Kodumaine B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Reaalajas. Sinu teenusepakkuja toimetab arve ostja teenusepakkujale ja teatab maksuandmed maksuametile.",
+        "source": 2
+      },
+      {
+        "label": "B2C või ostja, kes ei ole käibemaksukohustuslasena registreeritud",
+        "flow": "C1 → C2 → C5",
+        "detail": "Teatatakse 24 tunni jooksul. Ostja saab inimloetava arve QR-koodiga.",
+        "source": 2
+      },
+      {
+        "label": "Ostja ei ole veel juurutuse etapis",
+        "flow": "C1 → C2 → C5",
+        "detail": "Sinu teenusepakkuja teatab maksuandmed. Saadad arve ostjale samamoodi nagu praegu.",
+        "source": 2
+      },
+      {
+        "label": "Müüja ei ole veel juurutuse etapis",
+        "flow": "C1 → C4",
+        "detail": "Käibemaksukohustuslasena registreeritud müüja, kes on praegustest juurutuse etappidest väljas, esitab arveid nagu praegu. Ostja arvab sisendkäibemaksu maha nagu praegu.",
+        "source": 2
+      },
+      {
+        "label": "Eksport",
+        "flow": "C1 → C2 → C5",
+        "detail": "Jagad arvet välismaise kliendiga nagu praegu. Maksuandmed liiguvad võrgu kaudu.",
+        "source": 2
+      },
+      {
+        "label": "Parandus",
+        "flow": "381 / 383",
+        "detail": "Dokument liigub sama teed nagu arve, mida see parandab.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Millal muutub e-arveldus Omaanis kohustuslikuks?",
+      "a": "1. aprillil 2027 maksukohustuslastele, kelle aastakäive on üle OMR 5,000,000, ja 1. oktoobril 2027 neile, kelle käive on OMR 5,000,000 või vähem. Mõlemad kuupäevad määrab otsus 189/2026. Enne sinu kuupäeva on e-arveldus vabatahtlik ja maksuamet julgustab varakult alustama."
+    },
+    {
+      "q": "Kuidas ma tean, kas minu ettevõte on 2027. aasta aprilli rühmas?",
+      "a": "Liida kokku oma maksustatav käive (ilma põhivarata), pöördmaksustatav käive ja GCC-sisene käive. Kui summa ajavahemikul 1. aprillist 2026 kuni 31. märtsini 2027 on üle OMR 5,000,000 või eeldad, et see ületab selle ajavahemikul 1. aprillist 2027 kuni 31. märtsini 2028, alustad 1. aprillil 2027. Muul juhul alustad 1. oktoobril 2027."
+    },
+    {
+      "q": "Kas PDF-arve on Omaanis e-arve?",
+      "a": "Ei. E-arve on PINT OM vormingus struktureeritud XML-fail, mis liigub akrediteeritud teenusepakkuja kaudu. Võid endiselt PDF-koopiat printida või saata, kuid sinu kuupäevast alates loetakse kehtivaks maksuarveks ainult e-arvet."
+    },
+    {
+      "q": "Kas pean oma vanad arved üles laadima?",
+      "a": "Ei. Enne e-arveldusega alustamist väljastatud arveid maksuametile ei esitata. Hoia neid oma raamatupidamises, nagu käibemaksuseadus nõuab."
+    },
+    {
+      "q": "Mis siis, kui minu klient ei ole veel Fawtaras?",
+      "a": "Esitad arve ikkagi oma teenusepakkujale ja teenusepakkuja saadab maksuandmete dokumendi maksuametile. Saadad arve kliendile samamoodi nagu praegu."
+    },
+    {
+      "q": "Kas maksuamet võtab Fawtara eest tasu?",
+      "a": "Ei. Maksuamet ei võta maksumaksjatelt tasu ega määra, kui palju teenusepakkujad küsivad. Iga akrediteeritud teenusepakkuja määrab ise oma hinna."
+    },
+    {
+      "q": "Kas on karistusi?",
+      "a": "Maksuameti sõnul kohaldatakse pärast kohustuse algust käibemaksualaste õigusaktide kohaseid karistusi. Eraldi e-arvelduse karistuste tabelit ei ole ta avaldanud, nii et pea iga mujal loetud konkreetset summat kinnitamata."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Valmista oma andmed Fawtaraks ette",
+  "ctaSub": "Paper & Pen koostab PINT OM e-arveid ja kontrollib neid Omaani ametlike reeglite järgi. Alusta tasuta tööruumiga.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Otsus 189/2026 käibemaksuseaduse rakendusmääruste muutmise kohta (Ametlik Teataja 1660)",
+      "publisher": "Omaani maksuamet, tekst Qanoon.om lehel",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Fawtara e-arvelduse KKK, viimati uuendatud 30. septembril 2026",
+      "publisher": "Omaani maksuamet",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Akrediteeritud teenusepakkujad (ajakohane nimekiri)",
+      "publisher": "Omaani maksuamet, Fawtara portaal",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM spetsifikatsioonid, versioon 1.0.1",
+      "publisher": "OpenPeppol, haldab Omaani maksuamet",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM jurisdiktsioonireeglid (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, haldab Omaani maksuamet",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Võimaliku juurutuse kontroll",
+      "publisher": "Omaani maksuamet",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "PINT OM 1.0.1 väljalaskemärkmed",
+      "publisher": "OpenPeppol, haldab Omaani maksuamet",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

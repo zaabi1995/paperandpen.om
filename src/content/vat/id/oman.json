@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "PPN di Oman",
   "metaTitle": "PPN di Oman: Tarif, Batas Registrasi, Faktur · Paper & Pen",
-  "metaDescription": "Tarif PPN 5% Oman, batas registrasi OMR 38,500 dan dua belas unsur wajib faktur pajak, masing-masing dengan rujukan ke Tax Authority.",
-  "keywords": "PPN Oman, tarif PPN Oman, pajak Oman, batas registrasi PPN Oman, syarat faktur pajak Oman, e-faktur Oman, Fawtara, Oman Tax Authority",
+  "metaDescription": "Tarif PPN 5% Oman, batas OMR 38,500, isi wajib faktur pajak dan tanggal e-faktur Fawtara, masing-masing merujuk pada teks resmi.",
+  "keywords": "ppn oman, tarif ppn oman, batas registrasi ppn oman, syarat faktur pajak oman, e-faktur fawtara, e-faktur oman 2027, decision 189/2026, otoritas pajak oman",
   "heroEyebrow": "Oman",
   "heroTitle": "Membuat faktur sesuai aturan <em class=\"text-copper-400 not-italic\">PPN Oman</em>",
-  "heroSubtitle": "Tarif, batas registrasi, isi wajib faktur pajak dan status e-faktur. Setiap angka di halaman ini merujuk pada teks resmi yang diterbitkan Oman Tax Authority sendiri.",
+  "heroSubtitle": "Tarif, batas registrasi, isi wajib faktur pajak dan kapan e-faktur dimulai. Setiap angka di halaman ini merujuk pada teks resmi yang diterbitkan.",
   "heroBullets": [
     "Tarif standar 5%",
     "Registrasi mulai OMR 38,500",
-    "Fawtara diumumkan, belum berlaku"
+    "Fawtara mulai 1 April 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Penyerahan di bawah nilai ini boleh memakai faktur pajak sederhana, dengan persetujuan Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "E-faktur (Fawtara)",
+      "value": "1 Apr 2027 / 1 Okt 2027",
+      "note": "Decision 189/2026 mewajibkan e-faktur pada 1 April 2027 untuk penyerahan tahunan di atas OMR 5,000,000, dan pada 1 Oktober 2027 untuk OMR 5,000,000 atau kurang. Sebelum itu sifatnya sukarela.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority menerbitkan Executive Regulations hanya dalam bahasa Arab. Daftar ini adalah pembacaan yang setia atas teks resmi berbahasa Arab, bukan terjemahan resmi, jadi pastikan rumusannya dengan konsultan pajak Anda sebelum mengandalkannya."
   },
   "einvoicing": {
-    "status": "Diumumkan dan bertahap, belum wajib",
-    "body": "Program e-faktur Oman bernama Fawtara. Tax Authority menjelaskan model lima sudut, di mana faktur sampai ke Tax Authority melalui penyedia layanan terakreditasi, dan menetapkan empat tahap: uji coba, perluasan, pendaftaran bisnis yang lebih kecil, dan peluncuran penuh. Tax Authority belum menerbitkan tanggal tiap tahap dalam bahasa Inggris, dan tanggal yang beredar di media tidak tercantum di halaman resminya. Anggap setiap tenggat Fawtara yang Anda baca di tempat lain belum terkonfirmasi sampai Tax Authority menerbitkannya.",
-    "source": 4
+    "status": "Wajib mulai 1 April 2027, sukarela saat ini",
+    "body": "Program e-faktur Oman bernama Fawtara. Decision 189/2026, yang diterbitkan dalam Lembaran Negara (Official Gazette) edisi 1660 pada 9 Agustus 2026, menetapkan dua tanggal: 1 April 2027 untuk wajib pajak dengan penyerahan tahunan di atas OMR 5,000,000, dan 1 Oktober 2027 untuk yang OMR 5,000,000 atau kurang. Sampai tanggal Anda tiba, e-faktur bersifat sukarela, dan Tax Authority menganjurkan untuk mulai lebih awal. Faktur dikirim dalam format PINT OM XML melalui penyedia layanan terakreditasi, yang menyampaikannya kepada pembeli dan melaporkannya ke Tax Authority. Panduan e-faktur Oman kami menjelaskan uji batas dan aturannya.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Persiapan",
-      "title": "Bersiap untuk Fawtara tanpa menebak tanggal",
-      "body": "Anda tidak perlu menunggu tenggat resmi untuk bersiap. Setiap aturan e-faktur yang sudah berlaku di kawasan ini menuntut disiplin dasar yang sama: data pelanggan yang bersih dan lengkap termasuk nomor pajak, urutan faktur yang tidak terputus, perlakuan pajak yang dicatat per baris dan bukan per faktur, serta dokumen yang tersimpan sehingga bisa diambil kembali bila diminta. Bisnis yang datanya sudah memenuhi empat syarat itu hanya butuh implementasi singkat kapan pun tanggalnya ditetapkan. Bisnis yang belum akan menghabiskan masa pemberitahuan untuk membersihkan data.",
+      "title": "Bersiap untuk Fawtara sebelum tanggal Anda",
+      "body": "Tanggalnya kini sudah ditetapkan, jadi pekerjaannya adalah menyiapkan catatan Anda. Fawtara meminta data pelanggan yang bersih dan lengkap termasuk nomor pajak dalam format OM ditambah 10 digit, urutan faktur yang tidak terputus, perlakuan pajak yang dicatat per baris, kode HS pada setiap item barang dan kode kegiatan usaha pada setiap item, serta dokumen yang bisa diambil kembali bila diminta. Bisnis yang catatannya sudah memenuhi syarat ini hanya menghadapi implementasi singkat. Bisnis yang belum akan menghabiskan masa pemberitahuannya untuk membersihkan data.",
       "items": [
         "Data pelanggan lengkap, termasuk nomor pajak",
         "Satu urutan faktur yang tidak terputus per seri",
         "Perlakuan pajak dicatat baris demi baris",
-        "Dokumen bisa diambil kembali bila diminta"
+        "Kode HS dan kode kegiatan pada item Anda"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Saat penyerahan tahunan Anda mencapai atau diperkirakan mencapai OMR 38,500. Anda boleh registrasi secara sukarela mulai OMR 19,250. Kedua angka ini berasal dari keputusan Ketua tentang batas registrasi, bukan dari VAT Law itu sendiri, sehingga angkanya bisa berubah tanpa undang-undangnya berubah."
     },
     {
-      "q": "Apakah e-faktur sudah wajib di Oman?",
-      "a": "Belum. Tax Authority telah mengumumkan Fawtara, model e-faktur lima sudut yang bertahap dengan penyedia layanan terakreditasi, dan menjelaskan empat tahap peluncuran. Tanggal tiap tahap belum diterbitkan dalam bahasa Inggris di halaman resminya, jadi kami tidak mencantumkan tanggal di sini. Periksa halaman e-faktur Tax Authority untuk posisi terkini."
+      "q": "Kapan e-faktur wajib di Oman?",
+      "a": "Mulai 1 April 2027 jika penyerahan tahunan Anda di atas OMR 5,000,000, dan mulai 1 Oktober 2027 jika OMR 5,000,000 atau kurang. Decision 189/2026 menetapkan kedua tanggal tersebut. Anda boleh mulai secara sukarela sebelum tanggal Anda. FAQ Tax Authority menjelaskan cara menghitung penyerahan Anda untuk batas tersebut."
     },
     {
       "q": "Bolehkah saya menerbitkan faktur dalam bahasa Inggris di Oman?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Buat faktur yang benar di Oman, gratis",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 yang mengubah Executive Regulations of the VAT Law (Lembaran Negara 1660)",
+      "publisher": "Oman Tax Authority, teks di Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "FAQ e-faktur Fawtara, terakhir diperbarui 30 September 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

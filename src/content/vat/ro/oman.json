@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "TVA în Oman",
   "metaTitle": "TVA în Oman: cotă, praguri, facturi · Paper & Pen",
-  "metaDescription": "Cota de TVA de 5% din Oman, pragul de înregistrare de OMR 38,500 și cele douăsprezece elemente ale unei facturi fiscale, fiecare cu sursă la Tax Authority.",
-  "keywords": "TVA Oman, cota TVA Oman, prag înregistrare TVA Oman, cerințe factură fiscală Oman, facturare electronică Fawtara, Oman Tax Authority",
+  "metaDescription": "Cota de TVA de 5% din Oman, pragul de OMR 38,500, ce trebuie să conțină o factură fiscală și datele Fawtara, fiecare cu sursă în textul oficial.",
+  "keywords": "TVA Oman, cota TVA Oman, prag înregistrare TVA Oman, cerințe factură fiscală Oman, facturare electronică Fawtara, facturare electronică Oman 2027, decision 189/2026, autoritatea fiscală Oman",
   "heroEyebrow": "Oman",
   "heroTitle": "Facturarea după regulile de <em class=\"text-copper-400 not-italic\">TVA din Oman</em>",
-  "heroSubtitle": "Cota, pragurile de înregistrare, ce trebuie să conțină o factură fiscală și stadiul facturării electronice. Fiecare cifră de pe această pagină are ca sursă textele publicate chiar de Oman Tax Authority.",
+  "heroSubtitle": "Cota, pragurile de înregistrare, ce trebuie să conțină o factură fiscală și când începe facturarea electronică. Fiecare cifră de pe această pagină are ca sursă textul oficial publicat.",
   "heroBullets": [
     "Cotă standard de 5%",
     "OMR 38,500 pentru înregistrare",
-    "Fawtara anunțat, încă neaplicat"
+    "Fawtara de la 1 aprilie 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Livrările sub această valoare pot folosi o factură simplificată, cu aprobarea Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "Facturare electronică (Fawtara)",
+      "value": "1 apr. 2027 / 1 oct. 2027",
+      "note": "Decizia 189/2026 face facturarea electronică obligatorie la 1 aprilie 2027 pentru livrări anuale de peste OMR 5,000,000 și la 1 octombrie 2027 pentru OMR 5,000,000 sau mai puțin. Până atunci este voluntară.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority publică Normele de aplicare doar în arabă. Această listă este o lectură fidelă a textului oficial în arabă, nu o traducere oficială, așa că verifică formularea cu consultantul tău fiscal înainte să te bazezi pe ea."
   },
   "einvoicing": {
-    "status": "Anunțată și etapizată, încă neobligatorie",
-    "body": "Programul de facturare electronică din Oman se numește Fawtara. Tax Authority descrie un model cu cinci colțuri, în care facturile ajung la ea printr-un furnizor de servicii acreditat, și stabilește patru etape: un pilot, o extindere, includerea firmelor mai mici și aplicarea completă. Autoritatea nu a publicat în engleză datele etapelor, iar datele care circulă în presă nu apar pe propriile ei pagini. Consideră neconfirmat orice termen Fawtara citit în altă parte până când îl publică Tax Authority.",
-    "source": 4
+    "status": "Obligatorie de la 1 aprilie 2027, voluntară acum",
+    "body": "Programul de facturare electronică din Oman se numește Fawtara. Decizia 189/2026, publicată în Monitorul Oficial nr. 1660 din 9 august 2026, stabilește două date: 1 aprilie 2027 pentru persoanele impozabile cu livrări anuale de peste OMR 5,000,000 și 1 octombrie 2027 pentru cele cu OMR 5,000,000 sau mai puțin. Până la data ta, facturarea electronică este voluntară, iar Tax Authority încurajează un start timpuriu. Facturile se transmit în format PINT OM XML printr-un furnizor de servicii acreditat, care le livrează cumpărătorului și le raportează la Tax Authority. Ghidul nostru de facturare electronică pentru Oman explică testul de prag și regulile.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Pregătirea",
-      "title": "Cum te pregătești pentru Fawtara fără să ghicești date",
-      "body": "Nu ai nevoie de un termen publicat ca să fii pregătit. Fiecare regim de facturare electronică intrat în vigoare în regiune a cerut aceeași disciplină de bază: fișe de client curate și complete, inclusiv codurile fiscale, o numerotare a facturilor fără întreruperi, tratamentul fiscal înregistrat pe linie, nu pe factură, și documente păstrate astfel încât să le poți scoate la cerere. O firmă ale cărei evidențe îndeplinesc deja aceste patru condiții va avea o implementare scurtă, oricând ar apărea datele. O firmă care nu le îndeplinește își va petrece perioada de preaviz curățând date.",
+      "title": "Cum te pregătești pentru Fawtara înainte de data ta",
+      "body": "Datele sunt acum stabilite, așa că rămâne de pregătit evidențele. Fawtara cere fișe de client curate și complete, inclusiv codurile fiscale în forma OM plus 10 cifre, o numerotare a facturilor fără întreruperi, tratamentul fiscal înregistrat pe fiecare linie, un cod HS pe fiecare articol de tip bun și un cod de activitate pe fiecare articol, precum și documente pe care le poți prezenta la cerere. O afacere ale cărei evidențe îndeplinesc deja aceste condiții are o implementare scurtă în față. Una care nu le îndeplinește își va petrece perioada de pregătire curățând date.",
       "items": [
         "Fișe de client complete, inclusiv codurile fiscale",
         "O singură numerotare fără întreruperi pentru fiecare serie",
         "Tratamentul fiscal înregistrat linie cu linie",
-        "Documente care pot fi prezentate la cerere"
+        "Coduri HS și de activitate pe articolele tale"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Când livrările tale anuale ating sau se estimează că vor atinge OMR 38,500. Te poți înregistra voluntar de la OMR 19,250. Ambele cifre provin din decizia președintelui privind pragurile de înregistrare, nu din Legea TVA, de aceea se pot schimba fără ca legea să se schimbe."
     },
     {
-      "q": "Facturarea electronică este deja obligatorie în Oman?",
-      "a": "Încă nu. Tax Authority a anunțat Fawtara, un model etapizat de facturare electronică cu cinci colțuri, prin furnizori de servicii acreditați, și descrie patru etape de implementare. Nu a publicat în engleză, pe propriile pagini, datele etapelor, așa că nu indicăm aici nicio dată. Verifică paginile de facturare electronică ale Tax Authority pentru situația actuală."
+      "q": "Când devine obligatorie facturarea electronică în Oman?",
+      "a": "De la 1 aprilie 2027 dacă livrările tale anuale depășesc OMR 5,000,000 și de la 1 octombrie 2027 dacă sunt de OMR 5,000,000 sau mai puțin. Decizia 189/2026 stabilește ambele date. Poți începe voluntar înainte de data ta. Întrebările frecvente ale Tax Authority explică cum îți calculezi livrările pentru prag."
     },
     {
       "q": "Pot emite o factură în engleză în Oman?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Facturează corect în Oman, gratuit",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decizia 189/2026 de modificare a Executive Regulations of the VAT Law (Monitorul Oficial nr. 1660)",
+      "publisher": "Oman Tax Authority, text pe Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Întrebări frecvente despre facturarea electronică Fawtara, actualizate ultima dată la 30 septembrie 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

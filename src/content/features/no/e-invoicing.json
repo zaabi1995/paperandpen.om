@@ -1,0 +1,113 @@
+{
+  "locale": "no",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-faktura for Oman",
+  "metaTitle": "Programvare for e-faktura i Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen lager PINT OM XML, kontrollerer det med Omans offisielle schematron, utsteder én gang med UUID v5 og fryser fakturaen. For Fawtara.",
+  "keywords": "programvare for e-faktura oman, fawtara programvare, pint om xml, e-faktura oman, schematron-validering oman, kreditnota e-faktura oman, debetnota oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-fakturaer som består <em class=\"text-copper-400 not-italic\">Omans regler</em> før de sendes",
+  "heroSubtitle": "Paper & Pen gjør fakturaene, kreditnotaene og debetnotaene dine om til PINT OM XML og kontrollerer hver av dem mot Omans offisielle schematron. En klarsjekk viser hva du må rette i registrene dine. En faktura som består, utstedes én gang, med sin egen UUID, og forblir fryst.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Kontroll mot Omans offisielle schematron",
+    "Utstedt én gang, deretter fryst"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Hver faktura blir en PINT OM-e-faktura: UBL 2.1 XML-formatet som Omans Fawtara bruker."
+    },
+    {
+      "icon": "shield",
+      "title": "Omans offisielle schematron",
+      "desc": "XML-en kontrolleres mot de offisielle OpenPeppol PINT OM schematron-reglene, versjon 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Klarsjekk med rettinger",
+      "desc": "En gjennomgang av firma-, kunde- og artikkelregistrene dine viser hvert hull og hvor du retter det."
+    },
+    {
+      "icon": "lock",
+      "title": "Utsted én gang, UUID v5",
+      "desc": "En faktura utstedes én gang med en UUID versjon 5. Et nytt forsøk eller et dobbeltklikk lager aldri en til."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fryst ved utstedelse",
+      "desc": "Etter utstedelse kan ingen endre beløpene, kansellere fakturaen eller slette den."
+    },
+    {
+      "icon": "receipt",
+      "title": "Kredit- og debetnotaer",
+      "desc": "Lag en nota fra den opprinnelige fakturaen. Den har nummer, dato, UUID og en årsakskode."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Før du utsteder",
+      "title": "Finn hullene mens du fortsatt kan rette dem",
+      "body": "De fleste avvisninger av e-fakturaer skyldes grunndata, ikke summer: et MVA-nummer for kunden på feil form, en manglende selgeradresse, en artikkel uten HS-kode eller næringskode. Klarsjekken går gjennom registrene dine mot PINT OM-reglene og grupperer hvert hull etter registeret som må rettes, slik at du retter et produkt én gang og hver fakturalinje med det blir i orden. En faktura som ikke består sjekken, blir ikke utstedt. Den beholder hullene sine, og du kan fortsatt redigere den.",
+      "items": [
+        "Hull gruppert etter firma, kunde og artikkel",
+        "Hvert hull viser hvilket register som må rettes",
+        "En faktura som ikke består, forblir et utkast du kan rette"
+      ]
+    },
+    {
+      "eyebrow": "Når du utsteder",
+      "title": "Én faktura, én UUID, ingen senere endringer",
+      "body": "Under Fawtara kan en utstedt faktura ikke kanselleres eller endres. Paper & Pen følger samme regel. Når en faktura består sjekken, utstedes den med en UUID versjon 5, og XML-en lagres sammen med den. Fra da av er beløpene, linjene og kunden låst, og fakturaen kan ikke kanselleres eller slettes. Betalinger bokføres som vanlig.",
+      "items": [
+        "UUID versjon 5 lagret på fakturaen",
+        "XML-en lagres med den utstedte fakturaen",
+        "Beløp låst, ingen kansellering, ingen sletting"
+      ]
+    },
+    {
+      "eyebrow": "Når noe endres",
+      "title": "Rett med en kreditnota eller en debetnota",
+      "body": "For å redusere en utstedt faktura lager du en kreditnota fra den. For å øke den lager du en debetnota fra den. Paper & Pen fyller ut notaen fra den opprinnelige fakturaen: nummeret, datoen og UUID-en som PINT OM krever. Du velger årsakskoden: CAN for kansellering eller retur, VAT for endret MVA-behandling, VAL for endret verdi, QTY for endret antall, eller OTH. Notaen får samme sjekk og samme regel om utstedelse én gang.",
+      "items": [
+        "Kreditnota (381) og debetnota (383)",
+        "Opprinnelig nummer, dato og UUID fylt ut",
+        "Årsakskodene CAN, VAT, VAL, QTY, OTH på engelsk og arabisk"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Sender Paper & Pen fakturaene mine til Oman Tax Authority?",
+      "a": "Ingen programvare sender direkte til Tax Authority. Under Fawtara mottar en godkjent tjenesteleverandør e-fakturaen din, leverer den og rapporterer den til Tax Authority. Paper & Pen lager og kontrollerer PINT OM XML-en som leverandøren mottar. Tax Authority publiserer listen over godkjente leverandører."
+    },
+    {
+      "q": "Hvilke dokumenter dekkes?",
+      "a": "Fakturaer, kreditnotaer og debetnotaer. Hvert dokument lages som PINT OM XML, kontrolleres mot Omans offisielle schematron og utstedes én gang med sin egen UUID versjon 5."
+    },
+    {
+      "q": "Hva skjer med de eldre fakturaene mine?",
+      "a": "E-faktura i Paper & Pen starter fra oppstartsdatoen som er satt for arbeidsområdet ditt. Fakturaer som er utstedt før den datoen, blir ikke rørt og blir ikke sendt, noe som samsvarer med regelen fra Tax Authority om at historiske fakturaer ikke sendes inn."
+    },
+    {
+      "q": "Kan jeg fortsatt endre en faktura etter at jeg har utstedt den?",
+      "a": "Nei. En utstedt e-faktura er fryst: beløpene og linjene er låst, og den kan ikke kanselleres eller slettes. For å rette den lager du en kreditnota eller en debetnota fra den. En faktura som ennå ikke har bestått sjekken, kan fortsatt redigeres."
+    },
+    {
+      "q": "Når blir e-faktura påbudt i Oman?",
+      "a": "1. april 2027 for bedrifter med årlig omsetning over OMR 5,000,000, og 1. oktober 2027 for resten, etter Decision 189/2026. Vår veiledning om e-faktura i Oman forklarer terskeltesten og lenker til de offisielle tekstene."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Opprett ditt gratis arbeidsområde",
+  "ctaSub": "Salg og fakturering er gratis for alltid. Sjekk registrene dine mot PINT OM-reglene før din Fawtara-dato."
+}

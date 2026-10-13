@@ -1,0 +1,319 @@
+{
+  "locale": "tr",
+  "slug": "oman",
+  "order": 1,
+  "country": "Umman",
+  "updated": "Vergi İdaresi metinleriyle 14 Ekim 2026'da kontrol edildi.",
+  "title": "Umman'da e-fatura (Fawtara)",
+  "metaTitle": "Umman E-fatura: Fawtara Tarihleri ve Kuralları · Paper & Pen",
+  "metaDescription": "Fawtara, OMR 5 milyon üstü için 1 Nisan 2027'de, diğerleri için 1 Ekim 2027'de başlar. Eşik testi, PINT OM alanları ve dekontlar, kaynaklı.",
+  "keywords": "umman e-fatura, fawtara, fawtara umman, umman e-fatura 2027, pint om, umman vergi idaresi e-fatura, umman yetkili hizmet sağlayıcı, peppol umman, decision 189/2026",
+  "heroEyebrow": "Umman · Fawtara",
+  "heroTitle": "Umman'da e-fatura: <em class=\"text-copper-400 not-italic\">2027'de neler başlıyor</em>",
+  "heroSubtitle": "Decision 189/2026, KDV mükellefi işletmeler için e-faturayı iki grupta zorunlu kılar: 1 Nisan 2027'den ve 1 Ekim 2027'den itibaren. Bu rehber hangi tarihin size uygulandığını, bir faturanın Vergi İdaresi'ne nasıl ulaştığını, bir PINT OM e-faturasının neleri taşıması gerektiğini ve kayıtlarınızda şimdi neyi düzeltmeniz gerektiğini açıklar. Her kural resmi metne bağlanır.",
+  "heroBullets": [
+    "1 Nis 2027: OMR 5 milyonun üzerindeki teslimler",
+    "1 Eki 2027: OMR 5 milyon veya altı",
+    "İsteğe bağlı başlangıç şimdi mümkün"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Bir bakışta Fawtara",
+  "facts": [
+    {
+      "label": "Yasal dayanak",
+      "value": "Decision 189/2026",
+      "note": "KDV Kanunu Uygulama Yönetmeliği'ni değiştirir. Vergi İdaresi bunu 3 Ağustos 2026'da çıkardı ve Resmi Gazete 9 Ağustos 2026'da 1660 sayılı nüshada yayımladı. Yeni Madde 143, onaylı ve güvenli bir elektronik biçimde, benzersiz numaralı bir vergi faturası ister.",
+      "source": 1
+    },
+    {
+      "label": "Birinci grup",
+      "value": "1 Nisan 2027",
+      "note": "Yıllık teslimleri OMR 5,000,000'u aşan vergi mükellefleri.",
+      "source": 1
+    },
+    {
+      "label": "İkinci grup",
+      "value": "1 Ekim 2027",
+      "note": "Yıllık teslimleri OMR 5,000,000 veya altında olan vergi mükellefleri.",
+      "source": 1
+    },
+    {
+      "label": "Tarihinizden önce",
+      "value": "İsteğe bağlı",
+      "note": "Vergi İdaresi, işletmeleri zorunlu tarihlerinden önce sistemlerini test etmeye ve e-fatura düzenlemeye teşvik eder.",
+      "source": 2
+    },
+    {
+      "label": "Biçim",
+      "value": "XML, PINT OM",
+      "note": "Zorunlu yapılandırılmış biçim XML'dir. Umman spesifikasyonu, Vergi İdaresi'nin sürdürdüğü bir Peppol biçimi olan PINT OM sürüm 1.0.1'dir.",
+      "source": 4
+    },
+    {
+      "label": "B2B zamanlaması",
+      "value": "Gerçek zamanlı",
+      "note": "İşletmeden işletmeye bir e-fatura, siz düzenlediğiniz anda ağ üzerinden gider.",
+      "source": 2
+    },
+    {
+      "label": "B2C zamanlaması",
+      "value": "24 saat",
+      "note": "Bir tüketiciye veya KDV mükellefi olmayan bir alıcıya kesilen fatura 24 saat içinde bildirilir.",
+      "source": 2
+    },
+    {
+      "label": "Eski faturalar",
+      "value": "Gönderilmez",
+      "note": "Başlamadan önce düzenlediğiniz faturalar Vergi İdaresi'ne yüklenmez.",
+      "source": 2
+    },
+    {
+      "label": "Düzeltmeler",
+      "value": "Alacak veya borç dekontu",
+      "note": "Düzenlenmiş bir e-faturayı iptal edemez veya değiştiremezsiniz. Onu elektronik bir alacak dekontu veya borç dekontu ile düzeltirsiniz.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Hangi tarih size uygulanır",
+      "body": "Test, 31 Mart 2027 itibarıyla yıllık teslimlerinizi kullanır. Vergiye tabi teslimlerinizi sayın (sabit kıymet teslimlerini dışarıda bırakın), sorumlu sıfatıyla (reverse charge) beyan edilen mal ve hizmetleri ekleyin ve GCC içi teslimlerinizi ekleyin.\n\nŞu iki toplamdan biri OMR 5,000,000'u aşıyorsa 1 Nisan 2027'de başlarsınız: 1 Nisan 2026 ile 31 Mart 2027 arasındaki teslimleriniz veya 1 Nisan 2027 ile 31 Mart 2028 arasında beklenen teslimleriniz. İkisi de OMR 5,000,000'u aşmıyorsa 1 Ekim 2027'de başlarsınız. Yerleşik olmayan bir kişi yalnızca Umman'daki teslimlerini sayar. Bir KDV grubu üye üye değil, tek bir grup olarak test edilir. Vergi İdaresi'nin ayrıca çevrimiçi bir geçiş kontrolü vardır: KDV numaranızı ve teslim aralıklarınızı girersiniz.",
+      "items": [
+        "Dahil edin: vergiye tabi teslimler, reverse charge teslimleri, GCC içi teslimler",
+        "Dışarıda bırakın: sabit kıymet teslimleri",
+        "İki dönem: 31 Mart 2027'ye kadarki 12 ay ve 1 Nisan 2027'den itibaren 12 ay",
+        "Dönemlerden biri OMR 5,000,000'u aşarsa tarih 1 Nisan 2027'dir"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Bir fatura Vergi İdaresi'ne nasıl ulaşır",
+      "body": "Fawtara beş köşeli bir model kullanır. 1. köşe sizsiniz, yani satıcı. 2. köşe yetkili hizmet sağlayıcınızdır. 3. köşe alıcınızın hizmet sağlayıcısı, 4. köşe alıcınız ve 5. köşe Vergi İdaresi'dir. Yazılımınız hiçbir zaman doğrudan Vergi İdaresi'ne göndermez. E-faturayı sağlayıcınıza gönderir.\n\nSağlayıcınız faturayı resmi Umman schematron kurallarına göre kontrol eder, Peppol ağı üzerinden alıcının sağlayıcısına iletir ve Vergi İdaresi'ne bir vergi veri belgesi gönderir. Fawtara portalı üzerinden aynı anda tek bir sağlayıcıya bağlanırsınız ve sağlayıcınızı daha sonra değiştirebilirsiniz. Faturanın uygunluğu sizin sorumluluğunuzda kalır.",
+      "items": [
+        "C1 satıcı, C2 satıcının sağlayıcısı, C3 alıcının sağlayıcısı, C4 alıcı, C5 Vergi İdaresi",
+        "Faturayı Vergi İdaresi değil, sağlayıcı doğrular",
+        "Aynı anda tek sağlayıcı, Fawtara portalında bağlanır",
+        "Doğru bir faturanın sorumluluğu sizde kalır"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Bir PINT OM e-faturası neleri taşımalı",
+      "body": "PINT OM, Peppol faturasının üzerine Umman kurallarını ekler. Retlerin çoğu fatura toplamından değil, eksik ana verilerden kaynaklanır. Önce kayıtlarınızdaki bu alanları kontrol edin.",
+      "items": [
+        "Benzersiz bir fatura UUID'si, sürüm 5, ve düzenleme saati",
+        "Maskat saatine göre gelecekte olmayan bir düzenleme tarihi",
+        "OM artı 10 hane biçiminde satıcı KDV numarası, satıcı adresi ve telefonu",
+        "Tam vergi faturası için alıcının KDV numarası veya tanımlayıcısı ve adresi",
+        "Satır başına KDV ve satır başına bir vergi kategorisi (S, E, O veya Z)",
+        "Standart oran %5; istisna ve sıfır oranlı satırlar bir gerekçe kodu ister",
+        "Mallar için 12 haneli bir Umman HS kodu ve satır başına mal veya hizmet işareti",
+        "Her kalem için bir ISIC faaliyet kodu",
+        "Tutarlar en fazla 3 ondalık basamaklı, KDV toplamları OMR cinsinden"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Alacak dekontları ve borç dekontları",
+      "body": "Bir e-faturayı düzenledikten sonra onu iptal etmez, silmez veya değiştirmezsiniz. Elektronik bir alacak dekontu (azaltmak için) veya borç dekontu (artırmak için) düzenlersiniz. Dekont, asıl faturayı numarası, tarihi ve UUID'si ile belirtir ve bir gerekçe kodu taşır: iptal veya iade için CAN, KDV uygulamasındaki değişiklik için VAT, değerdeki değişiklik için VAL, miktardaki değişiklik için QTY veya başka bir neden için OTH. Faturayı yanlış alıcıya kestiyseniz, o alıcıya bir alacak dekontu ve doğru alıcıya yeni bir fatura düzenleyin.",
+      "items": [
+        "Alacak dekontu: belge türü 381",
+        "Borç dekontu: belge türü 383",
+        "Her dekontta asıl fatura numarası, tarihi ve UUID'si",
+        "Gerekçe kodları: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Yetkili bir hizmet sağlayıcı seçmek",
+      "body": "Vergi İdaresi, yetkili hizmet sağlayıcıların güncel listesini yayımlar. 13 Ekim 2026'da listede 36 kayıt vardı ve liste hâlâ büyüyor. Vergi İdaresi mükelleflerden ücret almaz ve sağlayıcı fiyatlarını belirlemez; bu yüzden her sağlayıcı kendi modelini belirler: abonelik, fatura başına veya başka bir model. Sağlayıcıları neye bağlandıkları, verilerinizi nerede tuttukları, Arapça destek ve onlardan nasıl ayrılabileceğiniz açısından karşılaştırın. Her sağlayıcı kendi veri konumunu listede beyan eder ve Vergi İdaresi bunu doğrulamaz.",
+      "items": [
+        "Yalnızca Vergi İdaresi listesindeki bir sağlayıcıyı kullanın",
+        "Yazılımınızın nasıl bağlandığını sorun: API, dosya yükleme veya hazır bir bağlayıcı",
+        "Verilerinizin nerede tutulduğunu ve ne kadar süre arşivlendiğini sorun",
+        "İmzalamadan önce ayrılma adımlarını kontrol edin"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C satışlar ve QR kodu",
+      "body": "Bir tüketiciye veya KDV mükellefi olmayan herhangi bir alıcıya yapılan satış, 24 saat içinde Vergi İdaresi'ne bildirilir. Alıcıya herhangi bir kanaldan insan tarafından okunabilir bir fatura verirsiniz. Bu basılı veya PDF kopya, satıcı olarak sizin oluşturduğunuz bir QR kodu taşımalıdır. QR kodu XML e-faturanın bir parçası değildir. Vergi İdaresi, QR içeriği için Peppol Oman Architecture'ın Ek D'sine atıf yapar. Bu ek henüz kamuya açık değildir; bu yüzden şu anda gördüğünüz her QR düzenini teyit edilmemiş kabul edin.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Şimdi ne yapmalı",
+      "body": "Hazırlanmak için tarihinizi beklemeniz gerekmez. En uzun süren iş ana verilerdir ve buna bugün başlayabilirsiniz.",
+      "items": [
+        "Eşik testini yapın ve başlangıç tarihinizi not edin",
+        "Her müşteri KDV numarasını kontrol edin: OM artı 10 hane",
+        "Her mal kalemine 12 haneli HS kodunu ve her kaleme bir ISIC kodu ekleyin",
+        "Birimlerinizi UN/ECE birim kodlarıyla eşleştirin (örneğin adet H87'dir)",
+        "Düzenlenmiş faturaları silmeyi veya yeniden numaralandırmayı bırakın: alacak dekontu kullanın",
+        "Vergi İdaresi listesinden bir sağlayıcı seçin ve erken test edin",
+        "Kendi arşivinizi tutun: Vergi İdaresi fatura verilerini geri vermez"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Kim neyi gönderir, durum durum",
+    "intro": "Bir faturanın yolu, alıcının kim olduğuna bağlıdır. Tablo, Vergi İdaresi SSS'sindeki her durum için köşeleri gösterir.",
+    "columns": [
+      "Durum",
+      "Akış",
+      "Ne olur"
+    ],
+    "rows": [
+      {
+        "label": "Yurt içi B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Gerçek zamanlı. Sağlayıcınız alıcının sağlayıcısına iletir ve vergi verilerini Vergi İdaresi'ne bildirir.",
+        "source": 2
+      },
+      {
+        "label": "B2C veya KDV mükellefi olmayan alıcı",
+        "flow": "C1 → C2 → C5",
+        "detail": "24 saat içinde bildirilir. Alıcı, QR kodlu ve insan tarafından okunabilir bir fatura alır.",
+        "source": 2
+      },
+      {
+        "label": "Alıcı henüz bir geçiş aşamasında değil",
+        "flow": "C1 → C2 → C5",
+        "detail": "Vergi verilerini sağlayıcınız bildirir. Faturayı alıcıya bugün yaptığınız gibi gönderirsiniz.",
+        "source": 2
+      },
+      {
+        "label": "Satıcı henüz bir geçiş aşamasında değil",
+        "flow": "C1 → C4",
+        "detail": "Mevcut geçiş aşamalarının dışındaki KDV mükellefi bir satıcı bugünkü gibi fatura keser. Alıcı indirilecek KDV'yi bugünkü gibi talep eder.",
+        "source": 2
+      },
+      {
+        "label": "İhracat",
+        "flow": "C1 → C2 → C5",
+        "detail": "Faturayı yabancı müşteriyle bugünkü gibi paylaşırsınız. Vergi verileri ağ üzerinden gider.",
+        "source": 2
+      },
+      {
+        "label": "Düzeltme",
+        "flow": "381 / 383",
+        "detail": "Dekont, düzelttiği faturayla aynı yolu izler.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Umman'da e-fatura ne zaman zorunlu hale geliyor?",
+      "a": "Yıllık teslimleri OMR 5,000,000'u aşan vergi mükellefleri için 1 Nisan 2027'de, OMR 5,000,000 veya altında olanlar için 1 Ekim 2027'de. Her iki tarihi de Decision 189/2026 belirler. Tarihinizden önce e-fatura isteğe bağlıdır ve Vergi İdaresi erken başlamayı teşvik eder."
+    },
+    {
+      "q": "İşletmemin Nisan 2027 grubunda olup olmadığını nasıl anlarım?",
+      "a": "Vergiye tabi teslimlerinizi (sabit kıymetler hariç), reverse charge teslimlerinizi ve GCC içi teslimlerinizi toplayın. 1 Nisan 2026 ile 31 Mart 2027 arasındaki toplam OMR 5,000,000'u aşıyorsa veya 1 Nisan 2027 ile 31 Mart 2028 arasında bunu aşmasını bekliyorsanız, 1 Nisan 2027'de başlarsınız. Aksi halde 1 Ekim 2027'de başlarsınız."
+    },
+    {
+      "q": "Umman'da PDF fatura bir e-fatura mıdır?",
+      "a": "Hayır. E-fatura, PINT OM biçiminde, yetkili bir hizmet sağlayıcı üzerinden giden yapılandırılmış bir XML dosyasıdır. Yine de PDF kopya basabilir veya gönderebilirsiniz, ancak tarihiniz başladıktan sonra geçerli vergi faturası yalnızca e-faturadır."
+    },
+    {
+      "q": "Eski faturalarımı yüklemem gerekiyor mu?",
+      "a": "Hayır. E-faturaya başlamadan önce düzenlediğiniz faturalar Vergi İdaresi'ne gönderilmez. KDV mevzuatının gerektirdiği şekilde bunları kendi kayıtlarınızda saklayın."
+    },
+    {
+      "q": "Müşterim henüz Fawtara'da değilse ne olur?",
+      "a": "Faturayı yine hizmet sağlayıcınıza gönderirsiniz ve sağlayıcı vergi veri belgesini Vergi İdaresi'ne iletir. Faturayı müşteriye bugün yaptığınız gibi gönderirsiniz."
+    },
+    {
+      "q": "Vergi İdaresi Fawtara için ücret alıyor mu?",
+      "a": "Hayır. Vergi İdaresi mükelleflerden ücret almaz ve hizmet sağlayıcıların ne ücret alacağını belirlemez. Her yetkili sağlayıcı kendi fiyatını belirler."
+    },
+    {
+      "q": "Cezalar var mı?",
+      "a": "Vergi İdaresi, zorunluluk başladıktan sonra KDV mevzuatı kapsamında cezaların uygulanacağını söylüyor. Ayrı bir e-fatura ceza tablosu yayımlamadı; bu yüzden başka bir yerde okuduğunuz herhangi bir tutarı teyit edilmemiş kabul edin."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Kayıtlarınızı Fawtara'ya hazırlayın",
+  "ctaSub": "Paper & Pen, PINT OM e-faturaları oluşturur ve bunları resmi Umman kurallarına göre kontrol eder. Ücretsiz bir çalışma alanıyla başlayın.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "KDV Kanunu Uygulama Yönetmeliği'ni değiştiren Decision 189/2026 (Resmi Gazete 1660)",
+      "publisher": "Oman Tax Authority, metin Qanoon.om'da",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Fawtara e-fatura SSS, son güncelleme 30 Eylül 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Yetkili hizmet sağlayıcılar (güncel liste)",
+      "publisher": "Oman Tax Authority, Fawtara portalı",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM spesifikasyonları, sürüm 1.0.1",
+      "publisher": "OpenPeppol, Oman Tax Authority tarafından sürdürülür",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM yetki alanı kuralları (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, Oman Tax Authority tarafından sürdürülür",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Olası geçiş kontrolü",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "PINT OM 1.0.1 sürüm notları",
+      "publisher": "OpenPeppol, Oman Tax Authority tarafından sürdürülür",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

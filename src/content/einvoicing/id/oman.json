@@ -1,0 +1,319 @@
+{
+  "locale": "id",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Diperiksa terhadap teks Tax Authority pada 14 Oktober 2026.",
+  "title": "E-faktur di Oman (Fawtara)",
+  "metaTitle": "E-faktur di Oman: Tanggal dan Aturan Fawtara · Paper & Pen",
+  "metaDescription": "Fawtara mulai 1 April 2027 di atas OMR 5 juta dan 1 Oktober 2027 untuk sisanya. Uji batas, kolom PINT OM dan nota, merujuk pada Tax Authority.",
+  "keywords": "e-faktur oman, fawtara, fawtara oman, e-faktur oman 2027, pint om, e-faktur otoritas pajak oman, penyedia layanan terakreditasi oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-faktur di Oman: <em class=\"text-copper-400 not-italic\">apa yang dimulai pada 2027</em>",
+  "heroSubtitle": "Decision 189/2026 mewajibkan e-faktur bagi bisnis terdaftar PPN dalam dua kelompok, mulai 1 April 2027 dan mulai 1 Oktober 2027. Panduan ini menjelaskan tanggal mana yang berlaku bagi Anda, bagaimana faktur sampai ke Tax Authority, apa yang wajib dimuat e-faktur PINT OM, dan apa yang perlu diperbaiki dalam catatan Anda sekarang. Setiap aturan tertaut ke teks resmi.",
+  "heroBullets": [
+    "1 Apr 2027: penyerahan di atas OMR 5 juta",
+    "1 Okt 2027: OMR 5 juta atau kurang",
+    "Mulai sukarela sudah boleh sekarang"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Sekilas tentang Fawtara",
+  "facts": [
+    {
+      "label": "Dasar hukum",
+      "value": "Decision 189/2026",
+      "note": "Keputusan ini mengubah Executive Regulations of the VAT Law. Tax Authority menerbitkannya pada 3 Agustus 2026, dan Lembaran Negara memuatnya dalam edisi 1660 pada 9 Agustus 2026. Pasal 143 yang baru mewajibkan faktur pajak dalam format elektronik yang disetujui dan aman, dengan nomor unik.",
+      "source": 1
+    },
+    {
+      "label": "Kelompok pertama",
+      "value": "1 April 2027",
+      "note": "Wajib pajak dengan penyerahan tahunan di atas OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Kelompok kedua",
+      "value": "1 Oktober 2027",
+      "note": "Wajib pajak dengan penyerahan tahunan OMR 5,000,000 atau kurang.",
+      "source": 1
+    },
+    {
+      "label": "Sebelum tanggal Anda",
+      "value": "Sukarela",
+      "note": "Tax Authority menganjurkan bisnis untuk menguji sistemnya dan menerbitkan e-faktur sebelum tanggal wajibnya.",
+      "source": 2
+    },
+    {
+      "label": "Format",
+      "value": "XML, PINT OM",
+      "note": "XML adalah format terstruktur yang wajib. Spesifikasi Oman adalah PINT OM versi 1.0.1, format Peppol yang dikelola oleh Tax Authority.",
+      "source": 4
+    },
+    {
+      "label": "Waktu B2B",
+      "value": "Real time",
+      "note": "E-faktur antarbisnis dikirim melalui jaringan saat Anda menerbitkannya.",
+      "source": 2
+    },
+    {
+      "label": "Waktu B2C",
+      "value": "24 jam",
+      "note": "Faktur kepada konsumen, atau kepada pembeli yang tidak terdaftar PPN, dilaporkan dalam 24 jam.",
+      "source": 2
+    },
+    {
+      "label": "Faktur lama",
+      "value": "Tidak dikirim",
+      "note": "Faktur yang diterbitkan sebelum Anda mulai tidak diunggah ke Tax Authority.",
+      "source": 2
+    },
+    {
+      "label": "Koreksi",
+      "value": "Nota kredit atau debit",
+      "note": "Anda tidak bisa membatalkan atau mengubah e-faktur yang sudah diterbitkan. Anda menyesuaikannya dengan nota kredit atau nota debit elektronik.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Tanggal mana yang berlaku bagi Anda",
+      "body": "Uji ini memakai penyerahan tahunan Anda per 31 Maret 2027. Hitung penyerahan kena pajak Anda (kecualikan penyerahan aset modal), tambahkan barang dan jasa yang dikenai mekanisme reverse charge, dan tambahkan penyerahan antar-GCC Anda.\n\nAnda mulai pada 1 April 2027 jika salah satu total berikut di atas OMR 5,000,000: penyerahan Anda dari 1 April 2026 sampai 31 Maret 2027, atau perkiraan penyerahan Anda dari 1 April 2027 sampai 31 Maret 2028. Jika tidak ada yang di atas OMR 5,000,000, Anda mulai pada 1 Oktober 2027. Bukan penduduk hanya menghitung penyerahannya di Oman. Grup PPN diuji sebagai satu grup, bukan per anggota. Tax Authority juga menyediakan pemeriksaan tahap penerapan secara online: Anda memasukkan nomor PPN dan rentang nilai penyerahan Anda.",
+      "items": [
+        "Masukkan: penyerahan kena pajak, penyerahan reverse charge, penyerahan antar-GCC",
+        "Kecualikan: penyerahan aset modal",
+        "Dua periode: 12 bulan sampai 31 Maret 2027, dan 12 bulan mulai 1 April 2027",
+        "Salah satu periode di atas OMR 5,000,000 berarti 1 April 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Bagaimana faktur sampai ke Tax Authority",
+      "body": "Fawtara memakai model lima sudut. Sudut 1 adalah Anda, penjual. Sudut 2 adalah penyedia layanan terakreditasi Anda. Sudut 3 adalah penyedia layanan pembeli Anda, sudut 4 adalah pembeli Anda, dan sudut 5 adalah Tax Authority. Perangkat lunak Anda tidak pernah mengirim langsung ke Tax Authority. Perangkat lunak mengirim e-faktur ke penyedia Anda.\n\nPenyedia Anda memeriksa faktur terhadap aturan schematron resmi Oman, menyampaikannya ke penyedia pembeli di jaringan Peppol, dan mengirim dokumen data pajak ke Tax Authority. Anda terhubung ke satu penyedia dalam satu waktu melalui portal Fawtara, dan Anda bisa berganti penyedia kemudian. Kepatuhan faktur tetap menjadi tanggung jawab Anda.",
+      "items": [
+        "C1 penjual, C2 penyedia penjual, C3 penyedia pembeli, C4 pembeli, C5 Tax Authority",
+        "Penyedia yang memvalidasi faktur, bukan Tax Authority",
+        "Satu penyedia dalam satu waktu, dihubungkan di portal Fawtara",
+        "Tanggung jawab atas faktur yang benar tetap ada pada Anda"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Apa yang wajib dimuat e-faktur PINT OM",
+      "body": "PINT OM menambahkan aturan Oman di atas faktur Peppol. Sebagian besar penolakan berasal dari data induk yang kurang, bukan dari total faktur. Periksa kolom-kolom ini dalam catatan Anda terlebih dahulu.",
+      "items": [
+        "UUID faktur yang unik, versi 5, dan waktu penerbitan",
+        "Tanggal penerbitan yang tidak di masa depan menurut waktu Muscat",
+        "Nomor PPN penjual dalam format OM ditambah 10 digit, alamat dan telepon penjual",
+        "Untuk faktur pajak lengkap, nomor PPN atau identitas pembeli dan alamatnya",
+        "PPN per baris, dan kategori pajak per baris (S, E, O atau Z)",
+        "Tarif standar 5%; baris dibebaskan dan tarif nol memerlukan kode alasan",
+        "Untuk barang, kode HS Oman 12 digit dan penanda barang atau jasa per baris",
+        "Kode kegiatan ISIC per item",
+        "Jumlah paling banyak 3 desimal, dalam OMR untuk total PPN"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Nota kredit dan nota debit",
+      "body": "Setelah Anda menerbitkan e-faktur, Anda tidak membatalkan, menghapus atau mengubahnya. Anda menerbitkan nota kredit elektronik (untuk mengurangi) atau nota debit (untuk menambah). Nota menyebut faktur asli berdasarkan nomor, tanggal dan UUID-nya, dan memuat kode alasan: CAN untuk pembatalan atau retur, VAT untuk perubahan perlakuan PPN, VAL untuk perubahan nilai, QTY untuk perubahan kuantitas, atau OTH untuk alasan lain. Jika Anda menagih pembeli yang salah, terbitkan nota kredit kepada pembeli itu dan faktur baru kepada pembeli yang benar.",
+      "items": [
+        "Nota kredit: jenis dokumen 381",
+        "Nota debit: jenis dokumen 383",
+        "Nomor, tanggal dan UUID faktur asli pada setiap nota",
+        "Kode alasan: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Memilih penyedia layanan terakreditasi",
+      "body": "Tax Authority menerbitkan daftar terkini penyedia layanan terakreditasi. Pada 13 Oktober 2026 daftar itu berisi 36 entri, dan terus bertambah. Tax Authority tidak memungut biaya dari wajib pajak dan tidak menetapkan harga penyedia, jadi setiap penyedia menentukan modelnya sendiri: langganan, per faktur atau lainnya. Bandingkan penyedia dari sisi apa yang mereka hubungkan, di mana mereka menyimpan data Anda, dukungan bahasa Arab, dan cara Anda pindah dari mereka. Setiap penyedia menyatakan lokasi penyimpanan datanya sendiri di daftar, dan Tax Authority tidak memverifikasinya.",
+      "items": [
+        "Gunakan hanya penyedia yang ada di daftar Tax Authority",
+        "Tanyakan cara perangkat lunak Anda terhubung: API, unggah file atau konektor siap pakai",
+        "Tanyakan di mana data Anda disimpan dan berapa lama diarsipkan",
+        "Periksa langkah-langkah pindah penyedia sebelum Anda menandatangani"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Penjualan B2C dan kode QR",
+      "body": "Penjualan kepada konsumen, atau kepada pembeli mana pun yang tidak terdaftar PPN, dilaporkan ke Tax Authority dalam 24 jam. Anda memberi pembeli faktur yang dapat dibaca manusia melalui saluran apa pun. Salinan cetak atau PDF itu wajib memuat kode QR, yang Anda buat sebagai penjual. Kode QR bukan bagian dari e-faktur XML. Tax Authority merujuk Lampiran D dari Peppol Oman Architecture untuk isi QR. Lampiran itu belum dipublikasikan, jadi anggap tata letak QR apa pun yang Anda lihat sekarang belum terkonfirmasi.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Apa yang perlu dilakukan sekarang",
+      "body": "Anda tidak perlu menunggu tanggal Anda untuk bersiap. Pekerjaan yang paling lama adalah data induk, dan Anda bisa memulainya hari ini.",
+      "items": [
+        "Lakukan uji batas dan catat tanggal mulai Anda",
+        "Periksa setiap nomor PPN pelanggan: OM ditambah 10 digit",
+        "Tambahkan kode HS 12 digit ke setiap item barang dan kode ISIC ke setiap item",
+        "Petakan satuan Anda ke kode satuan UN/ECE (misalnya, satu buah adalah H87)",
+        "Berhenti menghapus atau menomori ulang faktur yang sudah terbit: gunakan nota kredit",
+        "Pilih penyedia dari daftar Tax Authority dan uji sejak awal",
+        "Simpan arsip Anda sendiri: Tax Authority tidak mengembalikan data faktur"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Siapa mengirim apa, kasus per kasus",
+    "intro": "Jalur sebuah faktur bergantung pada siapa pembelinya. Tabel ini menunjukkan sudut-sudut untuk setiap kasus dalam FAQ Tax Authority.",
+    "columns": [
+      "Kasus",
+      "Alur",
+      "Apa yang terjadi"
+    ],
+    "rows": [
+      {
+        "label": "B2B dalam negeri",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Real time. Penyedia Anda menyampaikan ke penyedia pembeli dan melaporkan data pajak ke Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C, atau pembeli tidak terdaftar PPN",
+        "flow": "C1 → C2 → C5",
+        "detail": "Dilaporkan dalam 24 jam. Pembeli menerima faktur yang dapat dibaca manusia dengan kode QR.",
+        "source": 2
+      },
+      {
+        "label": "Pembeli belum masuk tahap penerapan",
+        "flow": "C1 → C2 → C5",
+        "detail": "Penyedia Anda melaporkan data pajak. Anda mengirim faktur kepada pembeli seperti yang Anda lakukan sekarang.",
+        "source": 2
+      },
+      {
+        "label": "Penjual belum masuk tahap penerapan",
+        "flow": "C1 → C4",
+        "detail": "Penjual terdaftar PPN di luar tahap penerapan saat ini membuat faktur seperti sekarang. Pembeli mengkreditkan PPN masukan seperti sekarang.",
+        "source": 2
+      },
+      {
+        "label": "Ekspor",
+        "flow": "C1 → C2 → C5",
+        "detail": "Anda membagikan faktur kepada pelanggan asing seperti sekarang. Data pajak dikirim melalui jaringan.",
+        "source": 2
+      },
+      {
+        "label": "Koreksi",
+        "flow": "381 / 383",
+        "detail": "Nota mengikuti jalur yang sama dengan faktur yang dikoreksinya.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Kapan e-faktur menjadi wajib di Oman?",
+      "a": "Pada 1 April 2027 untuk wajib pajak dengan penyerahan tahunan di atas OMR 5,000,000, dan pada 1 Oktober 2027 untuk yang OMR 5,000,000 atau kurang. Decision 189/2026 menetapkan kedua tanggal tersebut. Sebelum tanggal Anda, e-faktur bersifat sukarela dan Tax Authority menganjurkan untuk mulai lebih awal."
+    },
+    {
+      "q": "Bagaimana saya tahu apakah bisnis saya termasuk kelompok April 2027?",
+      "a": "Jumlahkan penyerahan kena pajak Anda (tanpa aset modal), penyerahan reverse charge Anda dan penyerahan antar-GCC Anda. Jika total dari 1 April 2026 sampai 31 Maret 2027 di atas OMR 5,000,000, atau Anda memperkirakan total itu di atas angka tersebut dari 1 April 2027 sampai 31 Maret 2028, Anda mulai pada 1 April 2027. Jika tidak, Anda mulai pada 1 Oktober 2027."
+    },
+    {
+      "q": "Apakah faktur PDF termasuk e-faktur di Oman?",
+      "a": "Tidak. E-faktur adalah file XML terstruktur dalam format PINT OM yang dikirim melalui penyedia layanan terakreditasi. Anda tetap bisa mencetak atau mengirim salinan PDF, tetapi hanya e-faktur yang berlaku sebagai faktur pajak yang sah setelah tanggal Anda dimulai."
+    },
+    {
+      "q": "Apakah saya harus mengunggah faktur lama saya?",
+      "a": "Tidak. Faktur yang Anda terbitkan sebelum mulai memakai e-faktur tidak dikirim ke Tax Authority. Simpan faktur tersebut dalam catatan Anda sendiri sebagaimana diwajibkan undang-undang PPN."
+    },
+    {
+      "q": "Bagaimana jika pelanggan saya belum memakai Fawtara?",
+      "a": "Anda tetap mengirim faktur ke penyedia layanan Anda, dan penyedia mengirim dokumen data pajak ke Tax Authority. Anda mengirim faktur kepada pelanggan seperti yang Anda lakukan sekarang."
+    },
+    {
+      "q": "Apakah Tax Authority memungut biaya untuk Fawtara?",
+      "a": "Tidak. Tax Authority tidak memungut biaya dari wajib pajak dan tidak menetapkan tarif penyedia layanan. Setiap penyedia terakreditasi menetapkan harganya sendiri."
+    },
+    {
+      "q": "Apakah ada sanksi?",
+      "a": "Tax Authority menyatakan bahwa sanksi berlaku berdasarkan peraturan PPN setelah kewajiban dimulai. Tax Authority belum menerbitkan tabel sanksi e-faktur tersendiri, jadi anggap jumlah tertentu yang Anda baca di tempat lain belum terkonfirmasi."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Siapkan catatan Anda untuk Fawtara",
+  "ctaSub": "Paper & Pen membuat e-faktur PINT OM dan memeriksanya terhadap aturan resmi Oman. Mulai dengan ruang kerja gratis.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 yang mengubah Executive Regulations of the VAT Law (Lembaran Negara 1660)",
+      "publisher": "Oman Tax Authority, teks di Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "FAQ e-faktur Fawtara, terakhir diperbarui 30 September 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Penyedia layanan terakreditasi (daftar terkini)",
+      "publisher": "Oman Tax Authority, portal Fawtara",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Spesifikasi PINT OM, versi 1.0.1",
+      "publisher": "OpenPeppol, dikelola oleh Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Aturan yurisdiksi PINT OM (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, dikelola oleh Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Pemeriksaan potensi tahap penerapan",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Catatan rilis PINT OM 1.0.1",
+      "publisher": "OpenPeppol, dikelola oleh Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

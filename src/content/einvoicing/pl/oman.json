@@ -1,0 +1,319 @@
+{
+  "locale": "pl",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Sprawdzono z tekstami Tax Authority 14 października 2026.",
+  "title": "E-faktury w Omanie (Fawtara)",
+  "metaTitle": "E-faktury w Omanie: daty i zasady Fawtara · Paper & Pen",
+  "metaDescription": "Fawtara od 1 kwietnia 2027 powyżej OMR 5 mln i od 1 października 2027 dla reszty. Test progu, pola PINT OM i noty, ze źródłami Tax Authority.",
+  "keywords": "e-faktury oman, fawtara, fawtara oman, e-faktury oman 2027, pint om, oman tax authority e-faktury, akredytowany dostawca usług oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-faktury w Omanie: <em class=\"text-copper-400 not-italic\">co zaczyna się w 2027</em>",
+  "heroSubtitle": "Decision 189/2026 wprowadza obowiązek e-faktur dla firm zarejestrowanych do VAT w dwóch grupach: od 1 kwietnia 2027 i od 1 października 2027. Ten przewodnik wyjaśnia, która data dotyczy Ciebie, jak faktura trafia do Tax Authority, co musi zawierać e-faktura PINT OM i co poprawić w ewidencji już teraz. Każda zasada ma link do oficjalnego tekstu.",
+  "heroBullets": [
+    "1.04.2027: dostawy powyżej OMR 5 mln",
+    "1.10.2027: OMR 5 mln lub mniej",
+    "Dobrowolny start możliwy już teraz"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara w skrócie",
+  "facts": [
+    {
+      "label": "Podstawa prawna",
+      "value": "Decision 189/2026",
+      "note": "Zmienia Executive Regulations of the VAT Law. Tax Authority wydał ją 3 sierpnia 2026, a dziennik urzędowy (Official Gazette) opublikował ją w numerze 1660 z 9 sierpnia 2026. Nowy artykuł 143 wymaga faktury podatkowej w zatwierdzonym, zabezpieczonym formacie elektronicznym z unikalnym numerem.",
+      "source": 1
+    },
+    {
+      "label": "Pierwsza grupa",
+      "value": "1 kwietnia 2027",
+      "note": "Podatnicy, których roczne dostawy przekraczają OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Druga grupa",
+      "value": "1 października 2027",
+      "note": "Podatnicy, których roczne dostawy wynoszą OMR 5,000,000 lub mniej.",
+      "source": 1
+    },
+    {
+      "label": "Przed Twoją datą",
+      "value": "Dobrowolnie",
+      "note": "Tax Authority zachęca firmy, by przetestowały swoje systemy i wystawiały e-faktury przed obowiązkową datą.",
+      "source": 2
+    },
+    {
+      "label": "Format",
+      "value": "XML, PINT OM",
+      "note": "XML to obowiązkowy format ustrukturyzowany. Omańska specyfikacja to PINT OM w wersji 1.0.1, format Peppol utrzymywany przez Tax Authority.",
+      "source": 4
+    },
+    {
+      "label": "Termin B2B",
+      "value": "W czasie rzeczywistym",
+      "note": "E-faktura między firmami przechodzi przez sieć w chwili jej wystawienia.",
+      "source": 2
+    },
+    {
+      "label": "Termin B2C",
+      "value": "24 godziny",
+      "note": "Faktura dla konsumenta lub nabywcy niezarejestrowanego do VAT jest raportowana w ciągu 24 godzin.",
+      "source": 2
+    },
+    {
+      "label": "Stare faktury",
+      "value": "Nie są przesyłane",
+      "note": "Faktury wystawione przed Twoim startem nie są przesyłane do Tax Authority.",
+      "source": 2
+    },
+    {
+      "label": "Korekty",
+      "value": "Nota kredytowa lub debetowa",
+      "note": "Wystawionej e-faktury nie można anulować ani edytować. Korygujesz ją elektroniczną notą kredytową lub debetową.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Która data dotyczy Ciebie",
+      "body": "Test opiera się na Twoich rocznych dostawach według stanu na 31 marca 2027. Policz swoje dostawy opodatkowane (pomiń dostawy środków trwałych), dodaj towary i usługi objęte mechanizmem odwrotnego obciążenia oraz dodaj dostawy wewnątrz krajów Zatoki.\n\nZaczynasz 1 kwietnia 2027, jeśli którakolwiek z sum przekracza OMR 5,000,000: Twoje dostawy od 1 kwietnia 2026 do 31 marca 2027 albo przewidywane dostawy od 1 kwietnia 2027 do 31 marca 2028. Jeśli żadna z sum nie przekracza OMR 5,000,000, zaczynasz 1 października 2027. Podmiot zagraniczny liczy tylko swoje dostawy w Omanie. Grupa VAT jest badana jako jedna grupa, a nie członek po członku. Tax Authority ma też internetowe narzędzie do sprawdzenia wdrożenia: wpisujesz numer VAT i przedziały swoich dostaw.",
+      "items": [
+        "Uwzględnij: dostawy opodatkowane, dostawy z odwrotnym obciążeniem, dostawy wewnątrz krajów Zatoki",
+        "Pomiń: dostawy środków trwałych",
+        "Dwa okresy: 12 miesięcy do 31 marca 2027 i 12 miesięcy od 1 kwietnia 2027",
+        "Którykolwiek okres powyżej OMR 5,000,000 oznacza 1 kwietnia 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Jak faktura trafia do Tax Authority",
+      "body": "Fawtara korzysta z modelu pięciu stron. Strona 1 to Ty, sprzedawca. Strona 2 to Twój akredytowany dostawca usług. Strona 3 to dostawca usług Twojego nabywcy, strona 4 to Twój nabywca, a strona 5 to Tax Authority. Twoje oprogramowanie nigdy nie wysyła niczego bezpośrednio do Tax Authority. Wysyła e-fakturę do Twojego dostawcy.\n\nTwój dostawca sprawdza fakturę według oficjalnych reguł schematron dla Omanu, doręcza ją dostawcy nabywcy w sieci Peppol i wysyła dokument z danymi podatkowymi do Tax Authority. Łączysz się z jednym dostawcą naraz przez portal Fawtara i możesz później zmienić dostawcę. Odpowiedzialność za zgodność faktury pozostaje po Twojej stronie.",
+      "items": [
+        "C1 sprzedawca, C2 dostawca sprzedawcy, C3 dostawca nabywcy, C4 nabywca, C5 Tax Authority",
+        "Fakturę weryfikuje dostawca, a nie Tax Authority",
+        "Jeden dostawca naraz, połączony w portalu Fawtara",
+        "Odpowiedzialność za poprawną fakturę pozostaje po Twojej stronie"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Co musi zawierać e-faktura PINT OM",
+      "body": "PINT OM dodaje omańskie reguły do faktury Peppol. Większość odrzuceń wynika z brakujących danych podstawowych, a nie z sumy faktury. Najpierw sprawdź te pola w swojej ewidencji.",
+      "items": [
+        "Unikalny UUID faktury w wersji 5 i czas wystawienia",
+        "Data wystawienia, która nie jest przyszła według czasu w Maskacie",
+        "Numer VAT sprzedawcy w formacie OM plus 10 cyfr, adres i telefon sprzedawcy",
+        "Przy pełnej fakturze podatkowej numer VAT lub identyfikator nabywcy i jego adres",
+        "VAT dla każdej pozycji i kategoria podatkowa dla każdej pozycji (S, E, O lub Z)",
+        "Stawka podstawowa 5%; pozycje zwolnione i ze stawką zerową wymagają kodu przyczyny",
+        "Przy towarach 12-cyfrowy omański kod HS i oznaczenie towar lub usługa dla każdej pozycji",
+        "Kod działalności ISIC dla każdej pozycji",
+        "Kwoty z najwyżej 3 miejscami po przecinku, sumy VAT w OMR"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Noty kredytowe i noty debetowe",
+      "body": "Po wystawieniu e-faktury nie anulujesz jej, nie usuwasz ani nie edytujesz. Wystawiasz elektroniczną notę kredytową (aby ją zmniejszyć) lub notę debetową (aby ją zwiększyć). Nota wskazuje pierwotną fakturę przez numer, datę i UUID oraz zawiera kod przyczyny: CAN przy anulowaniu lub zwrocie, VAT przy zmianie sposobu opodatkowania VAT, VAL przy zmianie wartości, QTY przy zmianie ilości lub OTH z innej przyczyny. Jeśli wystawiłeś fakturę na niewłaściwego nabywcę, wystaw temu nabywcy notę kredytową, a właściwemu nową fakturę.",
+      "items": [
+        "Nota kredytowa: typ dokumentu 381",
+        "Nota debetowa: typ dokumentu 383",
+        "Numer, data i UUID pierwotnej faktury na każdej nocie",
+        "Kody przyczyny: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Wybór akredytowanego dostawcy usług",
+      "body": "Tax Authority publikuje aktualną listę akredytowanych dostawców usług. 13 października 2026 lista miała 36 pozycji i nadal się wydłuża. Tax Authority nie pobiera od podatników opłat i nie ustala cen dostawców, więc każdy dostawca ma własny model: abonament, opłatę za fakturę lub inny. Porównuj dostawców pod kątem tego, z czym się łączą, gdzie przechowują Twoje dane, obsługi po arabsku i sposobu rezygnacji. Każdy dostawca sam deklaruje na liście, gdzie przechowuje dane, a Tax Authority tego nie weryfikuje.",
+      "items": [
+        "Korzystaj tylko z dostawcy z listy Tax Authority",
+        "Zapytaj, jak łączy się Twoje oprogramowanie: API, przesyłanie plików czy gotowy konektor",
+        "Zapytaj, gdzie przechowywane są Twoje dane i jak długo są archiwizowane",
+        "Przed podpisaniem umowy sprawdź kroki rezygnacji"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Sprzedaż B2C i kod QR",
+      "body": "Sprzedaż konsumentowi lub każdemu nabywcy niezarejestrowanemu do VAT jest raportowana do Tax Authority w ciągu 24 godzin. Nabywcy przekazujesz czytelną fakturę dowolnym kanałem. Ta drukowana lub PDF kopia musi zawierać kod QR, który generujesz jako sprzedawca. Kod QR nie jest częścią e-faktury XML. Tax Authority odsyła do załącznika D Peppol Oman Architecture w sprawie zawartości kodu QR. Ten załącznik nie jest jeszcze publiczny, więc każdy układ kodu QR, który widzisz teraz, traktuj jako niepotwierdzony.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Co zrobić teraz",
+      "body": "Nie musisz czekać na swoją datę, żeby się przygotować. Najwięcej czasu zajmują dane podstawowe, a tę pracę możesz zacząć już dziś.",
+      "items": [
+        "Przeprowadź test progu i zapisz swoją datę startu",
+        "Sprawdź numer VAT każdego klienta: OM plus 10 cyfr",
+        "Dodaj 12-cyfrowy kod HS do każdego towaru i kod ISIC do każdej pozycji",
+        "Przypisz swoje jednostki do kodów jednostek UN/ECE (na przykład sztuka to H87)",
+        "Przestań usuwać lub przenumerowywać wystawione faktury: używaj not kredytowych",
+        "Wybierz dostawcę z listy Tax Authority i testuj wcześnie",
+        "Prowadź własne archiwum: Tax Authority nie zwraca danych faktur"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Kto co wysyła, przypadek po przypadku",
+    "intro": "Droga faktury zależy od tego, kim jest nabywca. Tabela pokazuje strony dla każdego przypadku z FAQ Tax Authority.",
+    "columns": [
+      "Przypadek",
+      "Przepływ",
+      "Co się dzieje"
+    ],
+    "rows": [
+      {
+        "label": "Krajowe B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "W czasie rzeczywistym. Twój dostawca doręcza fakturę dostawcy nabywcy i raportuje dane podatkowe do Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C lub nabywca niezarejestrowany do VAT",
+        "flow": "C1 → C2 → C5",
+        "detail": "Raportowane w ciągu 24 godzin. Nabywca dostaje czytelną fakturę z kodem QR.",
+        "source": 2
+      },
+      {
+        "label": "Nabywca jeszcze nieobjęty wdrożeniem",
+        "flow": "C1 → C2 → C5",
+        "detail": "Twój dostawca raportuje dane podatkowe. Fakturę wysyłasz nabywcy tak jak dziś.",
+        "source": 2
+      },
+      {
+        "label": "Sprzedawca jeszcze nieobjęty wdrożeniem",
+        "flow": "C1 → C4",
+        "detail": "Sprzedawca zarejestrowany do VAT spoza bieżących etapów wdrożenia fakturuje tak jak dziś. Nabywca odlicza VAT naliczony tak jak dziś.",
+        "source": 2
+      },
+      {
+        "label": "Eksport",
+        "flow": "C1 → C2 → C5",
+        "detail": "Fakturę udostępniasz zagranicznemu klientowi tak jak dziś. Dane podatkowe przechodzą przez sieć.",
+        "source": 2
+      },
+      {
+        "label": "Korekta",
+        "flow": "381 / 383",
+        "detail": "Nota przechodzi tą samą drogą co faktura, którą koryguje.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Od kiedy e-faktury są obowiązkowe w Omanie?",
+      "a": "Od 1 kwietnia 2027 dla podatników z rocznymi dostawami powyżej OMR 5,000,000 i od 1 października 2027 dla podatników z dostawami w wysokości OMR 5,000,000 lub niższej. Obie daty ustala Decision 189/2026. Przed Twoją datą e-faktury są dobrowolne, a Tax Authority zachęca do wcześniejszego startu."
+    },
+    {
+      "q": "Skąd mam wiedzieć, czy moja firma jest w grupie z kwietnia 2027?",
+      "a": "Zsumuj swoje dostawy opodatkowane (bez środków trwałych), dostawy z odwrotnym obciążeniem i dostawy wewnątrz krajów Zatoki. Jeśli suma od 1 kwietnia 2026 do 31 marca 2027 przekracza OMR 5,000,000 albo spodziewasz się, że przekroczy tę kwotę od 1 kwietnia 2027 do 31 marca 2028, zaczynasz 1 kwietnia 2027. W przeciwnym razie zaczynasz 1 października 2027."
+    },
+    {
+      "q": "Czy faktura PDF jest e-fakturą w Omanie?",
+      "a": "Nie. E-faktura to ustrukturyzowany plik XML w formacie PINT OM, który przechodzi przez akredytowanego dostawcę usług. Nadal możesz wydrukować lub wysłać kopię PDF, ale od Twojej daty tylko e-faktura liczy się jako ważna faktura podatkowa."
+    },
+    {
+      "q": "Czy muszę przesłać swoje stare faktury?",
+      "a": "Nie. Faktury wystawione przed rozpoczęciem e-fakturowania nie są przesyłane do Tax Authority. Przechowuj je we własnej ewidencji, tak jak wymaga ustawa o VAT."
+    },
+    {
+      "q": "Co, jeśli mój klient nie korzysta jeszcze z Fawtara?",
+      "a": "Nadal przesyłasz fakturę do swojego dostawcy usług, a dostawca wysyła dokument z danymi podatkowymi do Tax Authority. Fakturę wysyłasz klientowi tak jak dziś."
+    },
+    {
+      "q": "Czy Tax Authority pobiera opłaty za Fawtara?",
+      "a": "Nie. Tax Authority nie pobiera od podatników opłat i nie ustala, ile pobierają dostawcy usług. Każdy akredytowany dostawca ustala własną cenę."
+    },
+    {
+      "q": "Czy są kary?",
+      "a": "Tax Authority podaje, że po wejściu obowiązku w życie stosuje się kary przewidziane w przepisach o VAT. Nie opublikował osobnej tabeli kar za e-faktury, więc każdą konkretną kwotę, o której przeczytasz gdzie indziej, traktuj jako niepotwierdzoną."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Przygotuj swoją ewidencję na Fawtara",
+  "ctaSub": "Paper & Pen tworzy e-faktury PINT OM i sprawdza je pod kątem oficjalnych zasad Omanu. Zacznij od darmowej przestrzeni roboczej.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 zmieniająca Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, tekst w serwisie Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "FAQ e-faktur Fawtara, ostatnia aktualizacja 30 września 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Akredytowani dostawcy usług (aktualna lista)",
+      "publisher": "Oman Tax Authority, portal Fawtara",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Specyfikacje PINT OM, wersja 1.0.1",
+      "publisher": "OpenPeppol, utrzymywane przez Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Reguły jurysdykcyjne PINT OM (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, utrzymywane przez Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Sprawdzenie potencjalnego wdrożenia",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Informacje o wydaniu PINT OM 1.0.1",
+      "publisher": "OpenPeppol, utrzymywane przez Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

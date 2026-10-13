@@ -5,15 +5,15 @@
   "country": "Omán",
   "title": "IVA en Omán",
   "metaTitle": "IVA en Omán: tipo, umbrales y facturas · Paper & Pen",
-  "metaDescription": "El tipo de IVA del 5% de Omán, el umbral de registro de OMR 38,500 y los doce datos que debe llevar una factura con IVA, cada uno citado a la Tax Authority.",
-  "keywords": "iva omán, tipo de iva en omán, umbral de registro de iva omán, requisitos de factura con iva omán, factura electrónica fawtara, autoridad fiscal de omán",
+  "metaDescription": "El IVA del 5% de Omán, el umbral de OMR 38,500, lo que debe llevar una factura con IVA y las fechas de Fawtara, cada dato citado al texto oficial.",
+  "keywords": "iva omán, tipo de iva en omán, umbral de registro de iva omán, requisitos de factura con iva omán, factura electrónica fawtara, factura electrónica omán 2027, decision 189/2026, autoridad fiscal de omán",
   "heroEyebrow": "Omán",
   "heroTitle": "Facturar con las normas del <em class=\"text-copper-400 not-italic\">IVA de Omán</em>",
-  "heroSubtitle": "El tipo, los umbrales de registro, lo que debe mostrar una factura con IVA y en qué punto está la factura electrónica. Cada cifra de esta página está citada al texto publicado por la propia Oman Tax Authority.",
+  "heroSubtitle": "El tipo, los umbrales de registro, lo que debe mostrar una factura con IVA y cuándo empieza la factura electrónica. Cada cifra de esta página está citada al texto oficial publicado.",
   "heroBullets": [
     "Tipo general del 5%",
     "OMR 38,500 para registrarse",
-    "Fawtara anunciada, aún no en vigor"
+    "Fawtara desde el 1 de abril de 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Los suministros por debajo de este valor pueden usar una factura simplificada, con la aprobación de la Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "Factura electrónica (Fawtara)",
+      "value": "1 abr 2027 / 1 oct 2027",
+      "note": "La Decisión 189/2026 hace obligatoria la factura electrónica el 1 de abril de 2027 para suministros anuales superiores a OMR 5,000,000, y el 1 de octubre de 2027 para OMR 5,000,000 o menos. Antes de esas fechas es voluntaria.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "La Tax Authority publica el Reglamento Ejecutivo solo en árabe. Esta lista es una lectura fiel del texto oficial en árabe, no una traducción oficial, así que confirma la redacción con tu asesor fiscal antes de basarte en ella."
   },
   "einvoicing": {
-    "status": "Anunciada y por fases, aún no obligatoria",
-    "body": "El programa de factura electrónica de Omán se llama Fawtara. La Tax Authority describe un modelo de cinco esquinas en el que las facturas le llegan a través de un proveedor de servicios acreditado, y establece cuatro fases: un piloto, una ampliación, la incorporación de las empresas más pequeñas y la implantación completa. La Autoridad no ha publicado en inglés las fechas de las fases, y las fechas que circulan en la prensa no aparecen en sus propias páginas. Considera sin confirmar cualquier plazo concreto de Fawtara que leas en otro sitio hasta que lo publique la Tax Authority.",
-    "source": 4
+    "status": "Obligatoria desde el 1 de abril de 2027, voluntaria ahora",
+    "body": "El programa de factura electrónica de Omán se llama Fawtara. La Decisión 189/2026, publicada en el número 1660 del Boletín Oficial el 9 de agosto de 2026, fija dos fechas: el 1 de abril de 2027 para los sujetos pasivos cuyos suministros anuales superan OMR 5,000,000, y el 1 de octubre de 2027 para los que están en OMR 5,000,000 o menos. Hasta tu fecha, la factura electrónica es voluntaria, y la Tax Authority anima a empezar pronto. Las facturas se envían en XML PINT OM a través de un proveedor de servicios acreditado, que las entrega al comprador y las comunica a la Tax Authority. Nuestra guía de factura electrónica en Omán explica la prueba del umbral y las normas.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Prepararse",
-      "title": "Prepararse para Fawtara sin adivinar fechas",
-      "body": "No necesitas un plazo publicado para estar preparado. Todos los sistemas de factura electrónica que han entrado en vigor en la región han pedido la misma disciplina de base: fichas de cliente limpias y completas con los números fiscales, una numeración de facturas sin huecos, el tratamiento fiscal registrado por línea y no por factura, y documentos guardados de forma que puedas recuperarlos si te los piden. Una empresa cuyos registros ya cumplen esas cuatro condiciones tendrá una implantación corta cuando lleguen las fechas. Una que no las cumple pasará el periodo de aviso limpiando datos.",
+      "title": "Prepararse para Fawtara antes de tu fecha",
+      "body": "Las fechas ya están fijadas, así que el trabajo consiste en preparar tus registros. Fawtara pide fichas de cliente limpias y completas con los números fiscales en el formato OM más 10 dígitos, una numeración de facturas sin huecos, el tratamiento fiscal registrado por línea, un código HS en cada artículo de bienes y un código de actividad en cada artículo, y documentos que puedas recuperar si te los piden. Una empresa cuyos registros ya cumplen estas condiciones tiene por delante una implantación corta. Una que no las cumple pasará su periodo de aviso limpiando datos.",
       "items": [
         "Fichas de cliente completas, con números fiscales",
         "Una numeración sin huecos por cada serie",
         "Tratamiento fiscal registrado línea a línea",
-        "Documentos recuperables cuando se soliciten"
+        "Códigos HS y de actividad en tus artículos"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Cuando tus suministros anuales alcancen o se prevea que alcancen OMR 38,500. Puedes registrarte de forma voluntaria a partir de OMR 19,250. Ambas cifras proceden de la decisión del Presidente sobre los umbrales de registro y no de la propia Ley del IVA, por eso pueden cambiar sin que cambie la Ley."
     },
     {
-      "q": "¿La factura electrónica ya es obligatoria en Omán?",
-      "a": "Todavía no. La Tax Authority ha anunciado Fawtara, un modelo de factura electrónica de cinco esquinas por fases con proveedores de servicios acreditados, y describe cuatro fases de implantación. No ha publicado en inglés las fechas de las fases en sus propias páginas, así que aquí no indicamos ninguna fecha. Consulta las páginas de factura electrónica de la Tax Authority para conocer la situación actual."
+      "q": "¿Cuándo es obligatoria la factura electrónica en Omán?",
+      "a": "Desde el 1 de abril de 2027 si tus suministros anuales superan OMR 5,000,000, y desde el 1 de octubre de 2027 si son de OMR 5,000,000 o menos. La Decisión 189/2026 fija ambas fechas. Puedes empezar de forma voluntaria antes de tu fecha. Las preguntas frecuentes de la Tax Authority explican cómo contar tus suministros para el umbral."
     },
     {
       "q": "¿Puedo emitir una factura en inglés en Omán?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Factura correctamente en Omán, gratis",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decisión 189/2026 que modifica el Reglamento Ejecutivo de la Ley del IVA (Boletín Oficial 1660)",
+      "publisher": "Oman Tax Authority, texto en Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Preguntas frecuentes sobre la factura electrónica Fawtara, última actualización 30 de septiembre de 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

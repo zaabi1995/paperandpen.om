@@ -1,0 +1,113 @@
+{
+  "locale": "nl",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-facturatie voor Oman",
+  "metaTitle": "Software voor e-facturatie in Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen maakt PINT OM XML, controleert het met de officiële schematron voor Oman, reikt één keer uit met UUID v5 en bevriest de factuur. Voor Fawtara.",
+  "keywords": "e-facturatie software oman, fawtara software, pint om xml, e-factuur oman, schematron validatie oman, creditnota e-facturatie oman, debetnota oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-facturen die aan de <em class=\"text-copper-400 not-italic\">Omaanse regels</em> voldoen voordat ze vertrekken",
+  "heroSubtitle": "Paper & Pen zet je facturen, creditnota's en debetnota's om in PINT OM XML en controleert elk document aan de hand van de officiële schematron voor Oman. Een gereedheidscheck toont wat je in je administratie moet rechtzetten. Een factuur die slaagt, wordt één keer uitgereikt, met een eigen UUID, en blijft bevroren.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Controle met de officiële schematron voor Oman",
+    "Eén keer uitgereikt, daarna bevroren"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Elke factuur wordt een PINT OM e-factuur: het UBL 2.1 XML-formaat dat Fawtara in Oman gebruikt."
+    },
+    {
+      "icon": "shield",
+      "title": "Officiële schematron voor Oman",
+      "desc": "De XML wordt gecontroleerd aan de hand van de officiële OpenPeppol PINT OM schematron-regels, versie 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Gereedheidscheck met oplossingen",
+      "desc": "Een scan van je bedrijfs-, klant- en artikelgegevens toont elk gat en waar je het oplost."
+    },
+    {
+      "icon": "lock",
+      "title": "Eén keer uitreiken, UUID v5",
+      "desc": "Een factuur wordt één keer uitgereikt met een UUID versie 5. Een nieuwe poging of een dubbelklik maakt nooit een tweede."
+    },
+    {
+      "icon": "invoice",
+      "title": "Bevroren bij uitreiking",
+      "desc": "Na uitreiking kan niemand de bedragen wijzigen, de factuur annuleren of verwijderen."
+    },
+    {
+      "icon": "receipt",
+      "title": "Creditnota's en debetnota's",
+      "desc": "Maak een nota vanuit de oorspronkelijke factuur. Die bevat het nummer, de datum, de UUID en een redencode."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Vóór uitreiking",
+      "title": "Vind de gaten terwijl je ze nog kunt oplossen",
+      "body": "De meeste afwijzingen van e-facturen komen door stamgegevens, niet door totalen: een btw-nummer van een klant in de verkeerde vorm, een ontbrekend adres van de verkoper, een artikel zonder HS-code of activiteitscode. De gereedheidscheck toetst je administratie aan de PINT OM-regels en groepeert elk gat per record dat moet worden aangepast. Zo pas je een product één keer aan en is elke factuurregel met dat product in orde. Een factuur die niet door de check komt, wordt niet uitgereikt. Ze houdt haar gaten en je kunt haar nog bewerken.",
+      "items": [
+        "Gaten gegroepeerd per bedrijf, klant en artikel",
+        "Elk gat noemt het record dat moet worden aangepast",
+        "Een afgekeurde factuur blijft een concept dat je kunt corrigeren"
+      ]
+    },
+    {
+      "eyebrow": "Bij uitreiking",
+      "title": "Eén factuur, één UUID, geen latere wijzigingen",
+      "body": "Onder Fawtara kan een uitgereikte factuur niet worden geannuleerd of bewerkt. Paper & Pen volgt dezelfde regel. Als een factuur door de check komt, wordt ze uitgereikt met een UUID versie 5, en haar XML wordt erbij opgeslagen. Vanaf dat moment zijn de bedragen, de regels en de klant vergrendeld, en kan de factuur niet worden geannuleerd of verwijderd. Betalingen worden gewoon geboekt.",
+      "items": [
+        "UUID versie 5 opgeslagen bij de factuur",
+        "De XML wordt opgeslagen bij de uitgereikte factuur",
+        "Bedragen vergrendeld, niet annuleren, niet verwijderen"
+      ]
+    },
+    {
+      "eyebrow": "Als er iets verandert",
+      "title": "Corrigeer met een creditnota of een debetnota",
+      "body": "Om een uitgereikte factuur te verlagen, maak je er een creditnota van. Om haar te verhogen, maak je er een debetnota van. Paper & Pen vult de nota in vanuit de oorspronkelijke factuur: het nummer, de datum en de UUID die PINT OM vereist. Jij kiest de redencode: CAN voor een annulering of retour, VAT voor een wijziging in de btw-behandeling, VAL voor een wijziging in waarde, QTY voor een wijziging in hoeveelheid, of OTH. De nota krijgt dezelfde check en dezelfde regel van één keer uitreiken.",
+      "items": [
+        "Creditnota (381) en debetnota (383)",
+        "Oorspronkelijk nummer, datum en UUID ingevuld",
+        "Redencodes CAN, VAT, VAL, QTY, OTH in het Engels en Arabisch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Verstuurt Paper & Pen mijn facturen naar de Oman Tax Authority?",
+      "a": "Geen enkele software verstuurt rechtstreeks naar de Tax Authority. Onder Fawtara ontvangt een geaccrediteerde dienstverlener je e-factuur, levert die af en meldt die aan de Tax Authority. Paper & Pen maakt en controleert de PINT OM XML die de dienstverlener ontvangt. De Tax Authority publiceert de lijst van geaccrediteerde dienstverleners."
+    },
+    {
+      "q": "Welke documenten vallen eronder?",
+      "a": "Facturen, creditnota's en debetnota's. Elk document wordt als PINT OM XML gemaakt, gecontroleerd aan de hand van de officiële schematron voor Oman en één keer uitgereikt met een eigen UUID versie 5."
+    },
+    {
+      "q": "Wat gebeurt er met mijn oudere facturen?",
+      "a": "E-facturatie in Paper & Pen begint vanaf de go-livedatum die voor je werkomgeving is ingesteld. Facturen die vóór die datum zijn uitgereikt, worden niet aangeraakt en niet verstuurd. Dat sluit aan bij de regel van de Tax Authority dat historische facturen niet worden aangeleverd."
+    },
+    {
+      "q": "Kan ik een factuur nog bewerken nadat ik die heb uitgereikt?",
+      "a": "Nee. Een uitgereikte e-factuur is bevroren: de bedragen en regels zijn vergrendeld, en ze kan niet worden geannuleerd of verwijderd. Om haar te corrigeren, maak je er een creditnota of debetnota van. Een factuur die nog niet door de check is gekomen, blijft bewerkbaar."
+    },
+    {
+      "q": "Wanneer wordt e-facturatie verplicht in Oman?",
+      "a": "Op 1 april 2027 voor bedrijven met een jaaromzet boven OMR 5,000,000, en op 1 oktober 2027 voor de rest, op grond van Decision 189/2026. Onze gids over e-facturatie in Oman legt de drempeltoets uit en verwijst naar de officiële teksten."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Start je gratis werkomgeving",
+  "ctaSub": "Verkoop en facturatie zijn voor altijd gratis. Controleer je administratie aan de hand van de PINT OM-regels vóór jouw Fawtara-datum."
+}

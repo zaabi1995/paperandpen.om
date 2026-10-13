@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "L'IVA a Oman",
   "metaTitle": "L'IVA a Oman: tipus, llindars i factures · Paper & Pen",
-  "metaDescription": "El tipus d'IVA del 5% d'Oman, el llindar de registre d'OMR 38,500 i els dotze elements que ha de portar una factura, cadascun citat de la Oman Tax Authority.",
-  "keywords": "iva oman, tipus d'iva a oman, llindar de registre de l'iva a oman, requisits de la factura a oman, factura electrònica fawtara, oman tax authority",
+  "metaDescription": "El tipus d'IVA del 5% a Oman, el llindar d'OMR 38,500, què ha de portar una factura fiscal i les dates de Fawtara, tot citat al text oficial.",
+  "keywords": "iva oman, tipus iva oman, llindar registre iva oman, requisits factura fiscal oman, factura electrònica fawtara, factura electrònica oman 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Oman",
   "heroTitle": "Facturar segons les normes de l'<em class=\"text-copper-400 not-italic\">IVA d'Oman</em>",
-  "heroSubtitle": "El tipus, els llindars de registre, què ha de mostrar una factura i en quin punt és la factura electrònica. Cada xifra d'aquesta pàgina està citada del text publicat per la mateixa Oman Tax Authority.",
+  "heroSubtitle": "El tipus, els llindars de registre, què ha de mostrar una factura fiscal i quan comença la factura electrònica. Cada xifra d'aquesta pàgina està citada al text oficial publicat.",
   "heroBullets": [
     "Tipus general del 5%",
     "OMR 38,500 per registrar-se",
-    "Fawtara anunciada, encara no en vigor"
+    "Fawtara a partir de l'1 d'abril de 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Els subministraments per sota d'aquest valor poden fer servir una factura simplificada, amb l'aprovació de la Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "Factura electrònica (Fawtara)",
+      "value": "1 d'abr. 2027 / 1 d'oct. 2027",
+      "note": "La Decisió 189/2026 fa obligatòria la factura electrònica l'1 d'abril de 2027 per a subministraments anuals de més d'OMR 5,000,000, i l'1 d'octubre de 2027 per a OMR 5,000,000 o menys. Abans d'això és voluntària.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "La Tax Authority publica el Reglament Executiu només en àrab. Aquesta llista és una lectura fidel del text oficial en àrab, no una traducció oficial, així que confirma'n el text amb el teu assessor fiscal abans de basar-t'hi."
   },
   "einvoicing": {
-    "status": "Anunciada i per fases, encara no obligatòria",
-    "body": "El programa de factura electrònica d'Oman es diu Fawtara. La Tax Authority descriu un model de cinc vèrtexs en què les factures li arriben a través d'un proveïdor de serveis acreditat, i estableix quatre fases: una prova pilot, una ampliació, la incorporació de les empreses més petites i el desplegament complet. L'Autoritat no ha publicat en anglès les dates de les fases, i les dates que circulen a la premsa no surten a les seves pàgines. Considera no confirmada qualsevol data límit de Fawtara que llegeixis en altres llocs fins que la Tax Authority la publiqui.",
-    "source": 4
+    "status": "Obligatòria a partir de l'1 d'abril de 2027, voluntària ara",
+    "body": "El programa de factura electrònica d'Oman es diu Fawtara. La Decisió 189/2026, publicada al Butlletí Oficial número 1660 el 9 d'agost de 2026, fixa dues dates: l'1 d'abril de 2027 per als subjectes passius amb subministraments anuals de més d'OMR 5,000,000, i l'1 d'octubre de 2027 per als que tenen OMR 5,000,000 o menys. Fins a la teva data, la factura electrònica és voluntària, i la Tax Authority anima a començar aviat. Les factures circulen en XML PINT OM a través d'un proveïdor de serveis acreditat, que les lliura al comprador i les comunica a la Tax Authority. La nostra guia de factura electrònica a Oman explica la prova del llindar i les normes.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Preparar-se",
-      "title": "Preparar-se per a Fawtara sense endevinar dates",
-      "body": "No necessites una data límit publicada per estar a punt. Tots els règims de factura electrònica que han entrat en vigor a la regió han demanat la mateixa disciplina de base: fitxes de clients netes i completes, números fiscals inclosos, una numeració de factures sense salts, el tractament fiscal registrat per línia en lloc de per factura, i documents guardats de manera que els puguis recuperar quan te'ls demanin. Una empresa amb registres que ja compleixen aquestes quatre condicions tindrà una implantació curta quan arribin les dates. Una que no, passarà el període d'avís netejant dades.",
+      "title": "Preparar-se per a Fawtara abans de la teva data",
+      "body": "Les dates ja estan fixades, així que la feina és tenir els registres a punt. Fawtara demana fitxes de clients netes i completes, amb els números fiscals en el format OM més 10 dígits, una numeració de factures sense salts, el tractament fiscal registrat per línia, un codi HS a cada article de béns i un codi d'activitat a cada article, i documents que puguis recuperar quan te'ls demanin. Una empresa amb registres que ja compleixen aquestes condicions té una implantació curta per endavant. Una que no, passarà el període d'avís netejant dades.",
       "items": [
         "Fitxes de clients completes, números fiscals inclosos",
         "Una sola numeració sense salts per sèrie",
         "Tractament fiscal registrat línia per línia",
-        "Documents recuperables quan es demanin"
+        "Codis HS i d'activitat als teus articles"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Quan els teus subministraments anuals arribin o es prevegi que arribin a OMR 38,500. Et pots registrar voluntàriament a partir d'OMR 19,250. Totes dues xifres surten de la decisió del President sobre els llindars de registre i no de la mateixa Llei de l'IVA, i per això poden canviar sense que canviï la Llei."
     },
     {
-      "q": "La factura electrònica ja és obligatòria a Oman?",
-      "a": "Encara no. La Tax Authority ha anunciat Fawtara, un model de factura electrònica de cinc vèrtexs per fases amb proveïdors de serveis acreditats, i descriu quatre fases de desplegament. No ha publicat en anglès les dates de les fases a les seves pàgines, així que aquí no donem cap data. Consulta les pàgines de factura electrònica de la Tax Authority per conèixer la situació actual."
+      "q": "Quan és obligatòria la factura electrònica a Oman?",
+      "a": "A partir de l'1 d'abril de 2027 si els teus subministraments anuals superen OMR 5,000,000, i a partir de l'1 d'octubre de 2027 si són d'OMR 5,000,000 o menys. La Decisió 189/2026 fixa les dues dates. Pots començar voluntàriament abans de la teva data. Les preguntes freqüents de la Tax Authority expliquen com comptar els subministraments per al llindar."
     },
     {
       "q": "Puc emetre una factura en anglès a Oman?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Factura correctament a Oman, gratis",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decisió 189/2026 que modifica el Reglament Executiu de la Llei de l'IVA (Butlletí Oficial 1660)",
+      "publisher": "Oman Tax Authority, text a Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Preguntes freqüents sobre la factura electrònica Fawtara, actualitzades el 30 de setembre de 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

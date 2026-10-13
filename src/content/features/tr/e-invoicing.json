@@ -1,0 +1,113 @@
+{
+  "locale": "tr",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "Umman için e-fatura",
+  "metaTitle": "Umman E-fatura (PINT OM) Yazılımı · Paper & Pen",
+  "metaDescription": "Paper & Pen PINT OM XML oluşturur, resmi Umman schematron ile kontrol eder, UUID v5 ile bir kez düzenler ve faturayı dondurur. Fawtara için.",
+  "keywords": "umman e-fatura yazılımı, fawtara yazılımı, pint om xml, umman e-fatura, umman schematron doğrulama, umman alacak dekontu e-fatura, umman borç dekontu",
+  "heroEyebrow": "Umman · Fawtara",
+  "heroTitle": "Çıkmadan önce <em class=\"text-copper-400 not-italic\">Umman kurallarından</em> geçen e-faturalar",
+  "heroSubtitle": "Paper & Pen faturalarınızı, alacak dekontlarınızı ve borç dekontlarınızı PINT OM XML'e dönüştürür ve her birini resmi Umman schematron'una göre kontrol eder. Bir hazırlık kontrolü, kayıtlarınızda neyin düzeltilmesi gerektiğini listeler. Kontrolden geçen bir fatura kendi UUID'si ile bir kez düzenlenir ve dondurulmuş kalır.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Resmi Umman schematron kontrolü",
+    "Bir kez düzenlenir, sonra dondurulur"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Her fatura bir PINT OM e-faturasına dönüşür: Umman'ın Fawtara sisteminin kullandığı UBL 2.1 XML biçimi."
+    },
+    {
+      "icon": "shield",
+      "title": "Resmi Umman schematron",
+      "desc": "XML, resmi OpenPeppol PINT OM schematron kurallarına (sürüm 1.0.1) göre kontrol edilir."
+    },
+    {
+      "icon": "check",
+      "title": "Düzeltmelerle hazırlık kontrolü",
+      "desc": "Şirket, müşteri ve kalem kayıtlarınızın taranması her eksiği ve nerede düzeltileceğini listeler."
+    },
+    {
+      "icon": "lock",
+      "title": "Bir kez düzenle, UUID v5",
+      "desc": "Bir fatura UUID sürüm 5 ile tek bir kez düzenlenir. Yeniden deneme veya çift tıklama asla ikincisini oluşturmaz."
+    },
+    {
+      "icon": "invoice",
+      "title": "Düzenlenince dondurulur",
+      "desc": "Düzenlendikten sonra kimse tutarları değiştiremez, faturayı iptal edemez veya silemez."
+    },
+    {
+      "icon": "receipt",
+      "title": "Alacak ve borç dekontları",
+      "desc": "Asıl faturadan bir dekont oluşturun. Dekont numarayı, tarihi, UUID'yi ve bir gerekçe kodunu taşır."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Düzenlemeden önce",
+      "title": "Eksikleri hâlâ düzeltebilecekken bulun",
+      "body": "E-fatura retlerinin çoğu toplamlardan değil, ana verilerden kaynaklanır: yanlış biçimde bir müşteri KDV numarası, eksik bir satıcı adresi, HS kodu veya faaliyet kodu olmayan bir kalem. Hazırlık kontrolü kayıtlarınızı PINT OM kurallarına göre tarar ve her eksiği düzeltilmesi gereken kayda göre gruplar; böylece bir ürünü bir kez düzeltirsiniz ve o ürünün geçtiği her fatura satırı temizlenir. Kontrolden geçemeyen bir fatura düzenlenmez. Eksikleri yerinde kalır ve onu hâlâ düzenleyebilirsiniz.",
+      "items": [
+        "Şirkete, müşteriye ve kaleme göre gruplanan eksikler",
+        "Her eksik, düzeltilecek kaydı belirtir",
+        "Başarısız bir fatura, düzeltebileceğiniz bir taslak olarak kalır"
+      ]
+    },
+    {
+      "eyebrow": "Düzenlediğinizde",
+      "title": "Bir fatura, bir UUID, sonradan değişiklik yok",
+      "body": "Fawtara kapsamında düzenlenmiş bir fatura iptal edilemez veya değiştirilemez. Paper & Pen de aynı kuralı izler. Bir fatura kontrolden geçtiğinde UUID sürüm 5 ile düzenlenir ve XML'i onunla birlikte saklanır. Bundan sonra tutarlar, satırlar ve müşteri kilitlenir; fatura iptal edilemez veya silinemez. Ödemeler yine normal şekilde kaydedilir.",
+      "items": [
+        "Faturada saklanan UUID sürüm 5",
+        "XML, düzenlenen faturayla birlikte saklanır",
+        "Tutarlar kilitli, iptal yok, silme yok"
+      ]
+    },
+    {
+      "eyebrow": "Bir şey değiştiğinde",
+      "title": "Alacak dekontu veya borç dekontu ile düzeltin",
+      "body": "Düzenlenmiş bir faturayı azaltmak için ondan bir alacak dekontu oluşturun. Artırmak için ondan bir borç dekontu oluşturun. Paper & Pen dekontu asıl faturadan doldurur: PINT OM'un istediği numara, tarih ve UUID. Gerekçe kodunu siz seçersiniz: iptal veya iade için CAN, KDV uygulamasındaki değişiklik için VAT, değerdeki değişiklik için VAL, miktardaki değişiklik için QTY veya OTH. Dekont da aynı kontrolden geçer ve aynı bir kez düzenleme kuralına tabidir.",
+      "items": [
+        "Alacak dekontu (381) ve borç dekontu (383)",
+        "Asıl numara, tarih ve UUID doldurulur",
+        "CAN, VAT, VAL, QTY, OTH gerekçe kodları, İngilizce ve Arapça"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Paper & Pen faturalarımı Oman Tax Authority'ye gönderiyor mu?",
+      "a": "Hiçbir yazılım doğrudan Vergi İdaresi'ne göndermez. Fawtara kapsamında e-faturanızı yetkili bir hizmet sağlayıcı alır, iletir ve Vergi İdaresi'ne bildirir. Paper & Pen, sağlayıcının aldığı PINT OM XML'i oluşturur ve kontrol eder. Yetkili sağlayıcıların listesini Vergi İdaresi yayımlar."
+    },
+    {
+      "q": "Hangi belgeleri kapsıyor?",
+      "a": "Faturalar, alacak dekontları ve borç dekontları. Her biri PINT OM XML olarak oluşturulur, resmi Umman schematron'una göre kontrol edilir ve kendi UUID sürüm 5'i ile bir kez düzenlenir."
+    },
+    {
+      "q": "Eski faturalarıma ne olur?",
+      "a": "Paper & Pen'de e-fatura, çalışma alanınız için belirlenen geçiş tarihinden itibaren başlar. Bu tarihten önce düzenlenen faturalara dokunulmaz ve gönderilmezler; bu da geçmiş faturaların gönderilmediğine dair Vergi İdaresi kuralıyla örtüşür."
+    },
+    {
+      "q": "Bir faturayı düzenledikten sonra hâlâ değiştirebilir miyim?",
+      "a": "Hayır. Düzenlenmiş bir e-fatura dondurulur: tutarları ve satırları kilitlenir, iptal edilemez veya silinemez. Düzeltmek için ondan bir alacak dekontu veya borç dekontu oluşturun. Henüz kontrolden geçmemiş bir fatura düzenlenebilir kalır."
+    },
+    {
+      "q": "Umman'da e-fatura ne zaman zorunlu hale geliyor?",
+      "a": "Decision 189/2026 uyarınca, yıllık teslimleri OMR 5,000,000'u aşan işletmeler için 1 Nisan 2027'de, diğerleri için 1 Ekim 2027'de. Umman e-fatura rehberimiz eşik testini açıklar ve resmi metinlere bağlantı verir."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Ücretsiz çalışma alanınızı başlatın",
+  "ctaSub": "Satış ve faturalama sonsuza kadar ücretsiz. Fawtara tarihinizden önce kayıtlarınızı PINT OM kurallarına göre kontrol edin."
+}

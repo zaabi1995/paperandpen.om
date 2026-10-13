@@ -1,0 +1,113 @@
+{
+  "locale": "fr",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "La facturation électronique pour Oman",
+  "metaTitle": "Logiciel de facture électronique Oman · Paper & Pen",
+  "metaDescription": "Paper & Pen génère le XML PINT OM, le contrôle avec le schematron officiel d'Oman, émet une fois avec un UUID v5 et fige la facture émise. Pour Fawtara.",
+  "keywords": "logiciel de facturation électronique oman, logiciel fawtara, xml pint om, facture électronique oman, validation schematron oman, avoir facturation électronique oman, note de débit oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "Des factures électroniques conformes aux <em class=\"text-copper-400 not-italic\">règles d'Oman</em> avant leur envoi",
+  "heroSubtitle": "Paper & Pen transforme vos factures, avoirs et notes de débit en XML PINT OM et contrôle chacun d'eux au regard du schematron officiel d'Oman. Une vérification de conformité liste ce qu'il faut corriger dans vos données. Une facture qui passe le contrôle est émise une seule fois, avec son propre UUID, puis reste figée.",
+  "heroBullets": [
+    "XML PINT OM 1.0.1",
+    "Contrôle par le schematron officiel d'Oman",
+    "Émise une fois, puis figée"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "XML PINT OM",
+      "desc": "Chaque facture devient une facture électronique PINT OM : le format XML UBL 2.1 utilisé par Fawtara à Oman."
+    },
+    {
+      "icon": "shield",
+      "title": "Schematron officiel d'Oman",
+      "desc": "Le XML est contrôlé au regard des règles schematron PINT OM officielles d'OpenPeppol, version 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Vérification de conformité avec corrections",
+      "desc": "Une analyse de vos fiches société, clients et articles liste chaque lacune et l'endroit où la corriger."
+    },
+    {
+      "icon": "lock",
+      "title": "Émission unique, UUID v5",
+      "desc": "Une facture est émise une seule fois avec un UUID version 5. Une nouvelle tentative ou un double clic n'en crée jamais une seconde."
+    },
+    {
+      "icon": "invoice",
+      "title": "Figée à l'émission",
+      "desc": "Après l'émission, personne ne peut modifier les montants, annuler la facture ni la supprimer."
+    },
+    {
+      "icon": "receipt",
+      "title": "Avoirs et notes de débit",
+      "desc": "Créez une note à partir de la facture d'origine. Elle reprend le numéro, la date, l'UUID et un code motif."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Avant d'émettre",
+      "title": "Repérez les lacunes tant que vous pouvez encore les corriger",
+      "body": "La plupart des rejets de factures électroniques viennent des données de référence, pas des totaux : un numéro de TVA client au mauvais format, une adresse du vendeur manquante, un article sans code HS ni code d'activité. La vérification de conformité analyse vos données au regard des règles PINT OM et regroupe chaque lacune selon la fiche à corriger : vous corrigez un produit une fois, et toutes les lignes de facture qui le contiennent sont en règle. Une facture qui échoue au contrôle n'est pas émise. Elle garde ses lacunes et vous pouvez encore la modifier.",
+      "items": [
+        "Lacunes regroupées par société, client et article",
+        "Chaque lacune indique la fiche à corriger",
+        "Une facture refusée reste un brouillon que vous pouvez corriger"
+      ]
+    },
+    {
+      "eyebrow": "À l'émission",
+      "title": "Une facture, un UUID, aucune modification ultérieure",
+      "body": "Avec Fawtara, une facture émise ne peut être ni annulée ni modifiée. Paper & Pen applique la même règle. Lorsqu'une facture passe le contrôle, elle est émise avec un UUID version 5, et son XML est enregistré avec elle. Dès lors, les montants, les lignes et le client sont verrouillés, et la facture ne peut être ni annulée ni supprimée. Les paiements s'enregistrent toujours normalement.",
+      "items": [
+        "UUID version 5 enregistré sur la facture",
+        "Le XML est enregistré avec la facture émise",
+        "Montants verrouillés, ni annulation ni suppression"
+      ]
+    },
+    {
+      "eyebrow": "Quand quelque chose change",
+      "title": "Corriger par un avoir ou une note de débit",
+      "body": "Pour réduire une facture émise, créez un avoir à partir de celle-ci. Pour l'augmenter, créez une note de débit à partir de celle-ci. Paper & Pen remplit la note à partir de la facture d'origine : le numéro, la date et l'UUID exigés par PINT OM. Vous choisissez le code motif : CAN pour une annulation ou un retour, VAT pour un changement de traitement TVA, VAL pour un changement de valeur, QTY pour un changement de quantité, ou OTH. La note passe par le même contrôle et suit la même règle d'émission unique.",
+      "items": [
+        "Avoir (381) et note de débit (383)",
+        "Numéro, date et UUID d'origine remplis",
+        "Codes motif CAN, VAT, VAL, QTY, OTH en anglais et en arabe"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Paper & Pen envoie-t-il mes factures à l'Oman Tax Authority ?",
+      "a": "Aucun logiciel n'envoie directement à la Tax Authority. Avec Fawtara, un prestataire de services agréé reçoit votre facture électronique, la remet au destinataire et la déclare à la Tax Authority. Paper & Pen génère et contrôle le XML PINT OM que reçoit le prestataire. La Tax Authority publie la liste des prestataires agréés."
+    },
+    {
+      "q": "Quels documents sont couverts ?",
+      "a": "Les factures, les avoirs et les notes de débit. Chacun est généré en XML PINT OM, contrôlé au regard du schematron officiel d'Oman et émis une seule fois avec son propre UUID version 5."
+    },
+    {
+      "q": "Que deviennent mes anciennes factures ?",
+      "a": "Dans Paper & Pen, la facturation électronique commence à la date de mise en service définie pour votre espace. Les factures émises avant cette date ne sont ni modifiées ni envoyées, conformément à la règle de la Tax Authority selon laquelle les factures historiques ne sont pas transmises."
+    },
+    {
+      "q": "Puis-je encore modifier une facture après l'avoir émise ?",
+      "a": "Non. Une facture électronique émise est figée : ses montants et ses lignes sont verrouillés, et elle ne peut être ni annulée ni supprimée. Pour la corriger, créez un avoir ou une note de débit à partir de celle-ci. Une facture qui n'a pas encore passé le contrôle reste modifiable."
+    },
+    {
+      "q": "Quand la facturation électronique devient-elle obligatoire à Oman ?",
+      "a": "Le 1er avril 2027 pour les entreprises dont les livraisons annuelles dépassent OMR 5,000,000, et le 1er octobre 2027 pour les autres, en vertu de la Decision 189/2026. Notre guide de la facturation électronique à Oman explique le test du seuil et renvoie aux textes officiels."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Créez votre espace gratuit",
+  "ctaSub": "Les ventes et la facturation sont gratuites pour toujours. Vérifiez vos données au regard des règles PINT OM avant votre date Fawtara."
+}

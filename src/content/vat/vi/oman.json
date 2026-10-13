@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "Thuế GTGT tại Oman",
   "metaTitle": "Thuế GTGT tại Oman: thuế suất, ngưỡng, hóa đơn · Paper & Pen",
-  "metaDescription": "Thuế suất GTGT 5% của Oman, ngưỡng đăng ký OMR 38,500 và mười hai nội dung hóa đơn thuế phải có, mỗi điểm đều trích dẫn từ Oman Tax Authority.",
-  "keywords": "thuế gtgt oman, thuế suất gtgt oman, ngưỡng đăng ký thuế gtgt oman, yêu cầu hóa đơn thuế oman, hóa đơn điện tử fawtara, oman tax authority",
+  "metaDescription": "Thuế GTGT 5% của Oman, ngưỡng OMR 38,500, nội dung hóa đơn thuế phải có và các mốc hóa đơn điện tử Fawtara, đều trích dẫn văn bản chính thức.",
+  "keywords": "thuế gtgt oman, thuế suất gtgt oman, ngưỡng đăng ký thuế gtgt oman, yêu cầu hóa đơn thuế oman, hóa đơn điện tử fawtara, hóa đơn điện tử oman 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Oman",
   "heroTitle": "Lập hóa đơn theo quy định <em class=\"text-copper-400 not-italic\">thuế GTGT của Oman</em>",
-  "heroSubtitle": "Thuế suất, các ngưỡng đăng ký, những gì hóa đơn thuế phải thể hiện và tình hình hóa đơn điện tử hiện nay. Mọi con số trên trang này đều trích dẫn từ văn bản chính thức do Oman Tax Authority công bố.",
+  "heroSubtitle": "Thuế suất, các ngưỡng đăng ký, những gì hóa đơn thuế phải thể hiện và thời điểm hóa đơn điện tử bắt đầu. Mọi con số trên trang này đều trích dẫn từ văn bản chính thức đã công bố.",
   "heroBullets": [
     "Thuế suất tiêu chuẩn 5%",
     "Đăng ký từ OMR 38,500",
-    "Fawtara đã công bố, chưa áp dụng"
+    "Fawtara từ ngày 1/4/2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Giao dịch dưới giá trị này có thể dùng hóa đơn giản lược, khi được Tax Authority chấp thuận.",
       "source": 3
+    },
+    {
+      "label": "Hóa đơn điện tử (Fawtara)",
+      "value": "1/4/2027 / 1/10/2027",
+      "note": "Decision 189/2026 quy định hóa đơn điện tử bắt buộc từ ngày 1/4/2027 đối với doanh số cung cấp hằng năm trên OMR 5,000,000, và từ ngày 1/10/2027 đối với mức OMR 5,000,000 trở xuống. Trước đó, việc áp dụng là tự nguyện.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority chỉ công bố Executive Regulations bằng tiếng Ả Rập. Danh sách này là cách đọc trung thực từ văn bản tiếng Ả Rập chính thức, không phải bản dịch tiếng Anh chính thức, vì vậy hãy xác nhận câu chữ với cố vấn thuế trước khi dựa vào đó."
   },
   "einvoicing": {
-    "status": "Đã công bố và triển khai theo giai đoạn, chưa bắt buộc",
-    "body": "Chương trình hóa đơn điện tử của Oman có tên là Fawtara. Tax Authority mô tả một mô hình năm góc, trong đó hóa đơn đến cơ quan thuế qua một nhà cung cấp dịch vụ được công nhận, và đưa ra bốn giai đoạn: thí điểm, mở rộng, đưa các doanh nghiệp nhỏ hơn vào hệ thống và triển khai toàn diện. Cơ quan này chưa công bố mốc thời gian của các giai đoạn bằng tiếng Anh, và các mốc thời gian lan truyền trên báo chí không có trên các trang của chính cơ quan này. Hãy coi mọi hạn chót Fawtara cụ thể mà bạn đọc ở nơi khác là chưa được xác nhận cho đến khi Tax Authority công bố.",
-    "source": 4
+    "status": "Bắt buộc từ ngày 1/4/2027, hiện là tự nguyện",
+    "body": "Chương trình hóa đơn điện tử của Oman có tên là Fawtara. Decision 189/2026, đăng trên Công báo số 1660 ngày 9/8/2026, đặt ra hai mốc: ngày 1/4/2027 cho người nộp thuế có doanh số cung cấp hằng năm trên OMR 5,000,000, và ngày 1/10/2027 cho người nộp thuế ở mức OMR 5,000,000 trở xuống. Cho đến mốc của bạn, hóa đơn điện tử là tự nguyện, và Tax Authority khuyến khích bắt đầu sớm. Hóa đơn được gửi dưới dạng XML PINT OM qua một nhà cung cấp dịch vụ được công nhận, nhà cung cấp này chuyển hóa đơn đến người mua và báo cáo cho Tax Authority. Hướng dẫn hóa đơn điện tử Oman của chúng tôi giải thích cách xác định ngưỡng và các quy định.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Chuẩn bị",
-      "title": "Sẵn sàng cho Fawtara mà không cần đoán mốc thời gian",
-      "body": "Bạn không cần chờ hạn chót được công bố mới sẵn sàng. Mọi chế độ hóa đơn điện tử đã triển khai trong khu vực đều đòi hỏi cùng một nền nếp: hồ sơ khách hàng sạch, đầy đủ kể cả mã số thuế, dãy số hóa đơn không gián đoạn, cách xử lý thuế ghi theo từng dòng thay vì theo cả hóa đơn, và chứng từ được lưu trữ sao cho truy xuất được khi có yêu cầu. Doanh nghiệp có hồ sơ đã đáp ứng bốn điều kiện đó sẽ chỉ cần một đợt triển khai ngắn bất cứ khi nào có mốc thời gian. Doanh nghiệp chưa đáp ứng sẽ phải dành thời gian báo trước để dọn dẹp dữ liệu.",
+      "title": "Sẵn sàng cho Fawtara trước mốc của bạn",
+      "body": "Các mốc thời gian nay đã được ấn định, nên việc cần làm là chuẩn bị hồ sơ. Fawtara đòi hỏi hồ sơ khách hàng sạch, đầy đủ, kể cả mã số thuế theo dạng OM cộng 10 chữ số, dãy số hóa đơn không gián đoạn, cách xử lý thuế ghi theo từng dòng, mã HS cho mỗi mặt hàng hóa và mã hoạt động cho mỗi mặt hàng, cùng chứng từ truy xuất được khi có yêu cầu. Doanh nghiệp có hồ sơ đã đáp ứng các điều kiện này sẽ chỉ cần một đợt triển khai ngắn. Doanh nghiệp chưa đáp ứng sẽ phải dành thời gian báo trước để dọn dẹp dữ liệu.",
       "items": [
         "Hồ sơ khách hàng đầy đủ, kể cả mã số thuế",
         "Một dãy số hóa đơn không gián đoạn cho mỗi loạt",
         "Cách xử lý thuế ghi theo từng dòng",
-        "Chứng từ truy xuất được khi có yêu cầu"
+        "Mã HS và mã hoạt động trên các mặt hàng của bạn"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Khi doanh số cung cấp hằng năm của bạn đạt hoặc dự kiến đạt OMR 38,500. Bạn có thể đăng ký tự nguyện từ OMR 19,250. Cả hai con số đều đến từ quyết định của Chủ tịch về ngưỡng đăng ký chứ không phải từ chính VAT Law, vì vậy chúng có thể thay đổi mà Luật không cần thay đổi."
     },
     {
-      "q": "Hóa đơn điện tử đã bắt buộc ở Oman chưa?",
-      "a": "Chưa. Tax Authority đã công bố Fawtara, một mô hình hóa đơn điện tử năm góc triển khai theo giai đoạn, sử dụng các nhà cung cấp dịch vụ được công nhận, và mô tả bốn giai đoạn triển khai. Cơ quan này chưa công bố mốc thời gian các giai đoạn bằng tiếng Anh trên các trang của mình, nên chúng tôi không nêu mốc thời gian nào ở đây. Hãy xem các trang hóa đơn điện tử của Tax Authority để biết tình hình hiện tại."
+      "q": "Khi nào hóa đơn điện tử bắt buộc ở Oman?",
+      "a": "Từ ngày 1/4/2027 nếu doanh số cung cấp hằng năm của bạn trên OMR 5,000,000, và từ ngày 1/10/2027 nếu ở mức OMR 5,000,000 trở xuống. Decision 189/2026 quy định cả hai mốc. Bạn có thể bắt đầu tự nguyện trước mốc của mình. Phần câu hỏi thường gặp của Tax Authority giải thích cách tính doanh số cung cấp để xác định ngưỡng."
     },
     {
       "q": "Tôi có thể phát hành hóa đơn bằng tiếng Anh ở Oman không?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Lập hóa đơn đúng quy định ở Oman, miễn phí",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 sửa đổi Executive Regulations of the VAT Law (Công báo số 1660)",
+      "publisher": "Oman Tax Authority, văn bản trên Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Câu hỏi thường gặp về hóa đơn điện tử Fawtara, cập nhật lần cuối ngày 30/9/2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

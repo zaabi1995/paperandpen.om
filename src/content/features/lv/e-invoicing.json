@@ -1,0 +1,113 @@
+{
+  "locale": "lv",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-rēķini Omānai",
+  "metaTitle": "Omānas e-rēķinu programmatūra (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen sagatavo PINT OM XML, pārbauda to ar oficiālo Omānas schematron, izraksta vienreiz ar UUID v5 un iesaldē rēķinu. Fawtara vajadzībām.",
+  "keywords": "e-rēķinu programmatūra omāna, fawtara programmatūra, pint om xml, omānas e-rēķins, omānas schematron validācija, kredītrēķins omāna e-rēķini, debetrēķins omāna",
+  "heroEyebrow": "Omāna · Fawtara",
+  "heroTitle": "E-rēķini, kas izpilda <em class=\"text-copper-400 not-italic\">Omānas noteikumus</em>, pirms tie tiek nosūtīti",
+  "heroSubtitle": "Paper & Pen pārvērš tavus rēķinus, kredītrēķinus un debetrēķinus PINT OM XML un pārbauda katru pēc oficiālā Omānas schematron. Gatavības pārbaude uzskaita, kas jāizlabo tavos ierakstos. Rēķins, kas iztur pārbaudi, tiek izrakstīts vienreiz, ar savu UUID, un paliek iesaldēts.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Pārbaude ar oficiālo Omānas schematron",
+    "Izrakstīts vienreiz, pēc tam iesaldēts"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Katrs rēķins kļūst par PINT OM e-rēķinu: UBL 2.1 XML formātu, ko izmanto Omānas Fawtara."
+    },
+    {
+      "icon": "shield",
+      "title": "Oficiālais Omānas schematron",
+      "desc": "XML tiek pārbaudīts pēc oficiālajiem OpenPeppol PINT OM schematron noteikumiem, versija 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Gatavības pārbaude ar labojumiem",
+      "desc": "Tava uzņēmuma, klientu un pozīciju ierakstu skenēšana uzskaita katru trūkumu un vietu, kur to izlabot."
+    },
+    {
+      "icon": "lock",
+      "title": "Izraksta vienreiz, UUID v5",
+      "desc": "Rēķins tiek izrakstīts vienu reizi ar UUID 5. versiju. Atkārtots mēģinājums vai dubultklikšķis nekad neizveido otru."
+    },
+    {
+      "icon": "invoice",
+      "title": "Iesaldēts pēc izrakstīšanas",
+      "desc": "Pēc izrakstīšanas neviens nevar mainīt summas, anulēt rēķinu vai to dzēst."
+    },
+    {
+      "icon": "receipt",
+      "title": "Kredītrēķini un debetrēķini",
+      "desc": "Izveido dokumentu no sākotnējā rēķina. Tajā ir numurs, datums, UUID un iemesla kods."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Pirms izrakstīšanas",
+      "title": "Atrodi trūkumus, kamēr tos vēl var izlabot",
+      "body": "Lielākā daļa e-rēķinu noraidījumu rodas no pamatdatiem, nevis no summām: klienta PVN numurs nepareizā formā, trūkstoša pārdevēja adrese, pozīcija bez HS koda vai darbības koda. Gatavības pārbaude skenē tavus ierakstus pēc PINT OM noteikumiem un grupē katru trūkumu pēc ieraksta, kas jāizlabo, tāpēc tu izlabo produktu vienreiz, un katra rēķina rinda ar to ir kārtībā. Rēķins, kas neiztur pārbaudi, netiek izrakstīts. Tā trūkumi saglabājas, un tu joprojām vari to rediģēt.",
+      "items": [
+        "Trūkumi sagrupēti pēc uzņēmuma, klienta un pozīcijas",
+        "Katrs trūkums nosauc ierakstu, kas jāizlabo",
+        "Neizturējis rēķins paliek melnraksts, ko vari izlabot"
+      ]
+    },
+    {
+      "eyebrow": "Izrakstot",
+      "title": "Viens rēķins, viens UUID, nekādu vēlāku labojumu",
+      "body": "Fawtara ietvaros izrakstītu rēķinu nevar anulēt vai labot. Paper & Pen ievēro to pašu noteikumu. Kad rēķins iztur pārbaudi, tas tiek izrakstīts ar UUID 5. versiju, un tā XML tiek saglabāts kopā ar to. No tā brīža summas, rindas un klients ir bloķēti, un rēķinu nevar anulēt vai dzēst. Maksājumi joprojām tiek grāmatoti kā parasti.",
+      "items": [
+        "UUID 5. versija saglabāta rēķinā",
+        "XML tiek saglabāts kopā ar izrakstīto rēķinu",
+        "Summas bloķētas, bez anulēšanas, bez dzēšanas"
+      ]
+    },
+    {
+      "eyebrow": "Kad kaut kas mainās",
+      "title": "Labo ar kredītrēķinu vai debetrēķinu",
+      "body": "Lai samazinātu izrakstītu rēķinu, izveido no tā kredītrēķinu. Lai to palielinātu, izveido no tā debetrēķinu. Paper & Pen aizpilda dokumentu no sākotnējā rēķina: numuru, datumu un UUID, ko prasa PINT OM. Tu izvēlies iemesla kodu: CAN anulēšanai vai atgriešanai, VAT PVN piemērošanas izmaiņām, VAL vērtības izmaiņām, QTY daudzuma izmaiņām vai OTH. Dokumentam piemēro to pašu pārbaudi un to pašu vienreizējas izrakstīšanas noteikumu.",
+      "items": [
+        "Kredītrēķins (381) un debetrēķins (383)",
+        "Sākotnējais numurs, datums un UUID aizpildīti",
+        "Iemeslu kodi CAN, VAT, VAL, QTY, OTH angļu un arābu valodā"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Vai Paper & Pen sūta manus rēķinus Omānas Nodokļu iestādei?",
+      "a": "Neviena programmatūra nesūta tieši Nodokļu iestādei. Fawtara ietvaros akreditēts pakalpojumu sniedzējs saņem tavu e-rēķinu, piegādā to un ziņo par to Nodokļu iestādei. Paper & Pen sagatavo un pārbauda PINT OM XML, ko saņem pakalpojumu sniedzējs. Akreditēto pakalpojumu sniedzēju sarakstu publicē Nodokļu iestāde."
+    },
+    {
+      "q": "Kurus dokumentus tas aptver?",
+      "a": "Rēķinus, kredītrēķinus un debetrēķinus. Katrs tiek sagatavots kā PINT OM XML, pārbaudīts pēc oficiālā Omānas schematron un izrakstīts vienreiz ar savu UUID 5. versiju."
+    },
+    {
+      "q": "Kas notiek ar maniem vecākajiem rēķiniem?",
+      "a": "E-rēķini Paper & Pen sākas no tavai darba vietai iestatītā palaišanas datuma. Rēķini, kas izrakstīti pirms šī datuma, netiek skarti un netiek nosūtīti, kas atbilst Nodokļu iestādes noteikumam, ka vēsturiskie rēķini netiek iesniegti."
+    },
+    {
+      "q": "Vai es vēl varu labot rēķinu pēc tā izrakstīšanas?",
+      "a": "Nē. Izrakstīts e-rēķins ir iesaldēts: tā summas un rindas ir bloķētas, un to nevar anulēt vai dzēst. Lai to izlabotu, izveido no tā kredītrēķinu vai debetrēķinu. Rēķins, kas vēl nav izturējis pārbaudi, paliek rediģējams."
+    },
+    {
+      "q": "Kad e-rēķini Omānā kļūst obligāti?",
+      "a": "2027. gada 1. aprīlī uzņēmumiem, kuru gada piegādes pārsniedz OMR 5,000,000, un 2027. gada 1. oktobrī pārējiem, saskaņā ar lēmumu 189/2026. Mūsu Omānas e-rēķinu ceļvedis izskaidro sliekšņa pārbaudi un sniedz saites uz oficiālajiem tekstiem."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Izveido savu bezmaksas darba vietu",
+  "ctaSub": "Pārdošana un rēķini ir bez maksas uz visiem laikiem. Pārbaudi savus ierakstus pēc PINT OM noteikumiem pirms sava Fawtara datuma."
+}

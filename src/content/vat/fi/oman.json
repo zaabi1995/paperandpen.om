@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "ALV Omanissa",
   "metaTitle": "ALV Omanissa: kanta, rajat ja laskut · Paper & Pen",
-  "metaDescription": "Omanin 5 %:n ALV-kanta, OMR 38,500:n rekisteröintiraja ja kaksitoista tietoa, jotka verolaskussa on oltava, kukin lähteenä Oman Tax Authority.",
-  "keywords": "alv oman, omanin alv-kanta, omanin alv rekisteröintiraja, omanin verolaskun vaatimukset, fawtara verkkolaskutus, oman tax authority",
+  "metaDescription": "Omanin 5 %:n ALV-kanta, OMR 38,500:n raja, mitä verolaskussa on oltava ja Fawtara-verkkolaskutuksen päivät, kukin lähteenä virallinen teksti.",
+  "keywords": "alv oman, omanin alv-kanta, omanin alv rekisteröintiraja, omanin verolaskun vaatimukset, fawtara verkkolaskutus, omanin verkkolaskutus 2027, decision 189/2026, omanin veroviranomainen",
   "heroEyebrow": "Oman",
   "heroTitle": "Laskutus <em class=\"text-copper-400 not-italic\">Omanin ALV-sääntöjen</em> mukaan",
-  "heroSubtitle": "Verokanta, rekisteröintirajat, mitä verolaskussa on näyttävä ja missä verkkolaskutus on menossa. Jokaisen tällä sivulla olevan luvun lähteenä on Oman Tax Authorityn oma julkaistu teksti.",
+  "heroSubtitle": "Verokanta, rekisteröintirajat, mitä verolaskussa on näyttävä ja milloin verkkolaskutus alkaa. Jokaisen tällä sivulla olevan luvun lähteenä on virallinen julkaistu teksti.",
   "heroBullets": [
     "Yleinen verokanta 5 %",
     "Rekisteröinti OMR 38,500:sta",
-    "Fawtara ilmoitettu, ei vielä käytössä"
+    "Fawtara 1.4.2027 alkaen"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Tätä arvoa pienemmissä myynneissä voi käyttää yksinkertaistettua laskua Tax Authorityn hyväksynnällä.",
       "source": 3
+    },
+    {
+      "label": "Verkkolaskutus (Fawtara)",
+      "value": "1.4.2027 / 1.10.2027",
+      "note": "Päätös 189/2026 tekee verkkolaskutuksesta pakollista 1.4.2027, kun vuotuinen myynti ylittää OMR 5,000,000, ja 1.10.2027, kun se on OMR 5,000,000 tai vähemmän. Sitä ennen se on vapaaehtoista.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority julkaisee täytäntöönpanoasetuksen vain arabiaksi. Tämä luettelo on uskollinen tulkinta virallisesta arabiankielisestä tekstistä, ei virallinen englanninkielinen käännös, joten tarkista sanamuoto veroneuvojaltasi ennen kuin luotat siihen."
   },
   "einvoicing": {
-    "status": "Ilmoitettu ja vaiheistettu, ei vielä pakollinen",
-    "body": "Omanin verkkolaskutusohjelman nimi on Fawtara. Tax Authority kuvaa viiden osapuolen mallin, jossa laskut kulkevat sille akkreditoidun palveluntarjoajan kautta, ja esittää neljä vaihetta: pilotin, laajennuksen, pienempien yritysten mukaan ottamisen ja täyden käyttöönoton. Viranomainen ei ole julkaissut vaiheiden päivämääriä englanniksi, eikä lehdistössä kiertäviä päivämääriä löydy sen omilta sivuilta. Pidä mitä tahansa muualla lukemaasi Fawtaran määräaikaa vahvistamattomana, kunnes Tax Authority julkaisee sen.",
-    "source": 4
+    "status": "Pakollinen 1.4.2027 alkaen, nyt vapaaehtoinen",
+    "body": "Omanin verkkolaskutusohjelman nimi on Fawtara. Päätös 189/2026, joka julkaistiin virallisen lehden numerossa 1660 9.8.2026, asettaa kaksi päivää: 1.4.2027 verovelvollisille, joiden vuotuinen myynti ylittää OMR 5,000,000, ja 1.10.2027 niille, joiden myynti on OMR 5,000,000 tai vähemmän. Omaan päivääsi asti verkkolaskutus on vapaaehtoista, ja veroviranomainen kannustaa aloittamaan aikaisin. Laskut lähetetään PINT OM XML -muodossa akkreditoidun palveluntarjoajan kautta, joka toimittaa ne ostajalle ja raportoi ne veroviranomaiselle. Omanin verkkolaskutusoppaamme selittää rajatestin ja säännöt.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Valmistautuminen",
-      "title": "Valmistaudu Fawtaraan arvaamatta päivämääriä",
-      "body": "Et tarvitse julkaistua määräaikaa ollaksesi valmis. Jokainen alueella käyttöön otettu verkkolaskutusjärjestelmä on edellyttänyt samaa perusjärjestystä: siistit ja täydelliset asiakastiedot verotunnisteineen, katkeamaton laskujen numerointi, verokohtelu kirjattuna riveittäin eikä laskuittain sekä asiakirjat tallennettuina niin, että ne löytyvät pyydettäessä. Yrityksellä, jonka tiedot jo täyttävät nämä neljä ehtoa, on edessään lyhyt käyttöönotto, kun päivämäärät aikanaan tulevat. Yritys, jonka tiedot eivät täytä niitä, käyttää ilmoitusajan tietojen siivoamiseen.",
+      "title": "Valmistaudu Fawtaraan ennen omaa päivääsi",
+      "body": "Päivät on nyt vahvistettu, joten tehtävänä on saada tietosi kuntoon. Fawtara edellyttää siistejä ja täydellisiä asiakastietoja verotunnisteineen muodossa OM ja 10 numeroa, katkeamatonta laskujen numerointia, rivikohtaisesti kirjattua verokohtelua, HS-koodia jokaisessa tavaranimikkeessä ja toimialakoodia jokaisessa nimikkeessä sekä asiakirjoja, jotka saat esiin pyydettäessä. Yrityksellä, jonka tiedot jo täyttävät nämä ehdot, on edessään lyhyt käyttöönotto. Yritys, jonka tiedot eivät täytä niitä, käyttää valmistautumisaikansa tietojen siivoamiseen.",
       "items": [
         "Täydelliset asiakastiedot verotunnisteineen",
         "Yksi katkeamaton laskujen numerointi sarjaa kohden",
         "Verokohtelu kirjattuna rivi riviltä",
-        "Asiakirjat saatavilla pyydettäessä"
+        "HS- ja toimialakoodit nimikkeissäsi"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Kun vuotuinen myyntisi saavuttaa tai sen odotetaan saavuttavan OMR 38,500. Voit rekisteröityä vapaaehtoisesti OMR 19,250:stä alkaen. Molemmat luvut tulevat puheenjohtajan rekisteröintirajoja koskevasta päätöksestä eivätkä itse ALV-laista, minkä vuoksi ne voivat muuttua ilman lain muuttamista."
     },
     {
-      "q": "Onko verkkolaskutus jo pakollista Omanissa?",
-      "a": "Ei vielä. Tax Authority on ilmoittanut Fawtarasta, vaiheittain käyttöön otettavasta viiden osapuolen verkkolaskutusmallista, joka käyttää akkreditoituja palveluntarjoajia, ja kuvaa neljä käyttöönottovaihetta. Se ei ole julkaissut vaiheiden päivämääriä englanniksi omilla sivuillaan, joten emme mainitse päivämäärää tässä. Tarkista nykytilanne Tax Authorityn verkkolaskutussivuilta."
+      "q": "Milloin verkkolaskutus on pakollista Omanissa?",
+      "a": "1.4.2027 alkaen, jos vuotuinen myyntisi ylittää OMR 5,000,000, ja 1.10.2027 alkaen, jos se on OMR 5,000,000 tai vähemmän. Päätös 189/2026 asettaa molemmat päivät. Voit aloittaa vapaaehtoisesti ennen omaa päivääsi. Veroviranomaisen usein kysytyt kysymykset selittävät, miten myynti lasketaan rajaa varten."
     },
     {
       "q": "Voinko antaa laskun englanniksi Omanissa?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Laskuta oikein Omanissa, ilmaiseksi",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Päätös 189/2026 ALV-lain täytäntöönpanoasetuksen (Executive Regulations of the VAT Law) muuttamisesta (virallinen lehti 1660)",
+      "publisher": "Oman Tax Authority, teksti Qanoon.om-palvelussa",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Fawtara-verkkolaskutuksen usein kysytyt kysymykset, päivitetty viimeksi 30.9.2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

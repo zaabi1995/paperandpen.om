@@ -1,0 +1,113 @@
+{
+  "locale": "hu",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-számlázás Ománhoz",
+  "metaTitle": "Ománi e-számlázó szoftver (PINT OM) · Paper & Pen",
+  "metaDescription": "A Paper & Pen PINT OM XML-t készít, a hivatalos ománi schematronnal ellenőrzi, egyszer állítja ki UUID v5-tel, és befagyasztja. A Fawtarához.",
+  "keywords": "e-számlázó szoftver omán, fawtara szoftver, pint om xml, ománi e-számla, ománi schematron validálás, jóváíró számla omán e-számlázás, terhelő számla omán",
+  "heroEyebrow": "Omán · Fawtara",
+  "heroTitle": "E-számlák, amelyek megfelelnek az <em class=\"text-copper-400 not-italic\">ománi szabályoknak</em>, mielőtt elmennek",
+  "heroSubtitle": "A Paper & Pen a számláit, jóváíró és terhelő számláit PINT OM XML-lé alakítja, és mindegyiket ellenőrzi a hivatalos ománi schematron szerint. Egy felkészültségi ellenőrzés felsorolja, mit kell javítania a nyilvántartásában. A megfelelő számlát egyszer állítja ki, saját UUID-vel, és az befagyasztva marad.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Hivatalos ománi schematron-ellenőrzés",
+    "Egyszer kiállítva, aztán befagyasztva"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Minden számlából PINT OM e-számla lesz: az az UBL 2.1 XML formátum, amelyet az ománi Fawtara használ."
+    },
+    {
+      "icon": "shield",
+      "title": "Hivatalos ománi schematron",
+      "desc": "Az XML-t a hivatalos OpenPeppol PINT OM schematron-szabályok 1.0.1-es verziója szerint ellenőrzi."
+    },
+    {
+      "icon": "check",
+      "title": "Felkészültségi ellenőrzés javításokkal",
+      "desc": "A cég-, vevő- és tételadatok átvizsgálása felsorol minden hiányt, és megmutatja, hol javítható."
+    },
+    {
+      "icon": "lock",
+      "title": "Egyszeri kiállítás, UUID v5",
+      "desc": "A számlát egyetlen alkalommal állítja ki, 5-ös verziójú UUID-vel. Egy újrapróbálás vagy dupla kattintás soha nem hoz létre másodikat."
+    },
+    {
+      "icon": "invoice",
+      "title": "Kiállításkor befagyasztva",
+      "desc": "Kiállítás után senki nem módosíthatja az összegeket, nem sztornózhatja és nem törölheti a számlát."
+    },
+    {
+      "icon": "receipt",
+      "title": "Jóváíró és terhelő számlák",
+      "desc": "A bizonylatot az eredeti számlából készíti. Tartalmazza a sorszámot, a dátumot, az UUID-t és egy indokkódot."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Kiállítás előtt",
+      "title": "Találja meg a hiányokat, amíg még javíthatók",
+      "body": "Az e-számlák elutasításának többsége a törzsadatokból ered, nem a végösszegekből: rossz formátumú vevői ÁFA-szám, hiányzó eladói cím, HS-kód vagy tevékenységi kód nélküli tétel. A felkészültségi ellenőrzés a PINT OM szabályok szerint átvizsgálja a nyilvántartását, és minden hiányt aszerint csoportosít, melyik rekordot kell javítani, így egy terméket egyszer javít ki, és minden számlasor rendben lesz, amelyen szerepel. Az ellenőrzésen elbukó számla nem kerül kiállításra. Megtartja a hiányait, és továbbra is szerkesztheti.",
+      "items": [
+        "Hiányok cég, vevő és tétel szerint csoportosítva",
+        "Minden hiánynál látszik, melyik rekordot kell javítani",
+        "Az elbukott számla javítható piszkozat marad"
+      ]
+    },
+    {
+      "eyebrow": "Kiállításkor",
+      "title": "Egy számla, egy UUID, nincs utólagos módosítás",
+      "body": "A Fawtara szerint kiállított számlát nem lehet sztornózni vagy módosítani. A Paper & Pen ugyanezt a szabályt követi. Ha a számla megfelel az ellenőrzésen, 5-ös verziójú UUID-vel kerül kiállításra, és az XML-je vele együtt tárolódik. Ettől kezdve az összegek, a sorok és a vevő zárolva vannak, a számla nem sztornózható és nem törölhető. A kifizetések a szokásos módon könyvelhetők.",
+      "items": [
+        "5-ös verziójú UUID a számlán tárolva",
+        "Az XML a kiállított számlával együtt tárolva",
+        "Zárolt összegek, nincs sztornó, nincs törlés"
+      ]
+    },
+    {
+      "eyebrow": "Ha valami változik",
+      "title": "Javítás jóváíró vagy terhelő számlával",
+      "body": "Kiállított számla csökkentéséhez készítsen belőle jóváíró számlát. Növeléséhez készítsen belőle terhelő számlát. A Paper & Pen az eredeti számlából tölti ki a bizonylatot: a sorszámot, a dátumot és az UUID-t, amelyet a PINT OM megkövetel. Ön választja ki az indokkódot: CAN sztornó vagy visszáru esetén, VAT az ÁFA-kezelés változásakor, VAL az érték változásakor, QTY a mennyiség változásakor, vagy OTH. A bizonylatra ugyanaz az ellenőrzés és ugyanaz az egyszeri kiállítási szabály vonatkozik.",
+      "items": [
+        "Jóváíró számla (381) és terhelő számla (383)",
+        "Eredeti sorszám, dátum és UUID kitöltve",
+        "CAN, VAT, VAL, QTY, OTH indokkódok angolul és arabul"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "A Paper & Pen elküldi a számláimat az Ománi Adóhatóságnak?",
+      "a": "Egyetlen szoftver sem küld közvetlenül az adóhatóságnak. A Fawtara szerint egy akkreditált szolgáltató fogadja az e-számláját, kézbesíti, és jelenti az adóhatóságnak. A Paper & Pen elkészíti és ellenőrzi azt a PINT OM XML-t, amelyet a szolgáltató megkap. Az akkreditált szolgáltatók listáját az adóhatóság teszi közzé."
+    },
+    {
+      "q": "Mely bizonylatokra terjed ki?",
+      "a": "Számlákra, jóváíró számlákra és terhelő számlákra. Mindegyik PINT OM XML-ként készül, a hivatalos ománi schematron szerint ellenőrizve, és egyszer kerül kiállításra, saját 5-ös verziójú UUID-vel."
+    },
+    {
+      "q": "Mi lesz a régebbi számláimmal?",
+      "a": "Az e-számlázás a Paper & Penben a munkaterületére beállított élesítési dátumtól indul. Az e dátum előtt kiállított számlákhoz nem nyúl, és nem küldi el őket, ami megfelel az adóhatóság szabályának, hogy a korábbi számlákat nem kell beküldeni."
+    },
+    {
+      "q": "Módosíthatok még egy számlát a kiállítása után?",
+      "a": "Nem. A kiállított e-számla befagyasztva van: összegei és sorai zárolva vannak, és nem sztornózható vagy törölhető. A javításhoz készítsen belőle jóváíró vagy terhelő számlát. Az a számla, amely még nem felelt meg az ellenőrzésen, szerkeszthető marad."
+    },
+    {
+      "q": "Mikortól kötelező az e-számlázás Ománban?",
+      "a": "A 189/2026. számú határozat szerint 2027. április 1-től az OMR 5,000,000 feletti éves értékesítésű vállalkozásoknak, és 2027. október 1-től a többieknek. Ománi e-számlázási útmutatónk elmagyarázza az értékhatár-vizsgálatot, és a hivatalos szövegekre hivatkozik."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Indítsa el ingyenes munkaterületét",
+  "ctaSub": "Az értékesítés és a számlázás örökre ingyenes. Ellenőrizze nyilvántartását a PINT OM szabályok szerint a Fawtara-dátuma előtt."
+}

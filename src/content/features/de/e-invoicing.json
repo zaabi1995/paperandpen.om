@@ -1,0 +1,113 @@
+{
+  "locale": "de",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-Rechnung für Oman",
+  "metaTitle": "Software für E-Rechnungen in Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen erstellt PINT OM XML, prüft es mit dem offiziellen Schematron für Oman, stellt einmal mit UUID v5 aus und friert die Rechnung ein. Für Fawtara.",
+  "keywords": "E-Rechnung Software Oman, fawtara Software, pint om xml, E-Rechnung Oman, Schematron-Validierung Oman, Gutschrift E-Rechnung Oman, Belastungsanzeige Oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-Rechnungen, die die <em class=\"text-copper-400 not-italic\">omanischen Regeln</em> erfüllen, bevor sie rausgehen",
+  "heroSubtitle": "Paper & Pen macht aus Ihren Rechnungen, Gutschriften und Belastungsanzeigen PINT OM XML und prüft jede einzelne anhand des offiziellen omanischen Schematrons. Eine Bereitschaftsprüfung listet auf, was Sie in Ihren Daten korrigieren müssen. Eine Rechnung, die die Prüfung besteht, wird einmal ausgestellt, mit ihrer eigenen UUID, und bleibt eingefroren.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Prüfung mit dem offiziellen Schematron für Oman",
+    "Einmal ausgestellt, dann eingefroren"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Jede Rechnung wird zu einer PINT OM E-Rechnung: dem UBL 2.1 XML-Format, das Omans Fawtara verwendet."
+    },
+    {
+      "icon": "shield",
+      "title": "Offizielles Schematron für Oman",
+      "desc": "Das XML wird anhand der offiziellen OpenPeppol PINT OM Schematron-Regeln, Version 1.0.1, geprüft."
+    },
+    {
+      "icon": "check",
+      "title": "Bereitschaftsprüfung mit Korrekturen",
+      "desc": "Ein Scan Ihrer Firmen-, Kunden- und Artikeldaten listet jede Lücke auf und zeigt, wo Sie sie beheben."
+    },
+    {
+      "icon": "lock",
+      "title": "Einmal ausstellen, UUID v5",
+      "desc": "Eine Rechnung wird ein einziges Mal mit einer UUID Version 5 ausgestellt. Ein erneuter Versuch oder ein Doppelklick erzeugt nie eine zweite."
+    },
+    {
+      "icon": "invoice",
+      "title": "Bei Ausstellung eingefroren",
+      "desc": "Nach der Ausstellung kann niemand die Beträge ändern, die Rechnung stornieren oder sie löschen."
+    },
+    {
+      "icon": "receipt",
+      "title": "Gutschriften und Belastungsanzeigen",
+      "desc": "Erstellen Sie einen Beleg aus der ursprünglichen Rechnung. Er trägt Nummer, Datum, UUID und einen Begründungscode."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Vor der Ausstellung",
+      "title": "Finden Sie die Lücken, solange Sie sie noch beheben können",
+      "body": "Die meisten Ablehnungen von E-Rechnungen entstehen durch Stammdaten, nicht durch Summen: eine MwSt.-Nummer des Kunden im falschen Format, eine fehlende Adresse des Verkäufers, ein Artikel ohne HS-Code oder Tätigkeitscode. Die Bereitschaftsprüfung gleicht Ihre Daten mit den PINT OM Regeln ab und gruppiert jede Lücke nach dem Datensatz, der korrigiert werden muss. So korrigieren Sie ein Produkt einmal, und jede Rechnungszeile damit ist in Ordnung. Eine Rechnung, die die Prüfung nicht besteht, wird nicht ausgestellt. Sie behält ihre Lücken, und Sie können sie weiter bearbeiten.",
+      "items": [
+        "Lücken nach Firma, Kunde und Artikel gruppiert",
+        "Jede Lücke nennt den Datensatz, der zu korrigieren ist",
+        "Eine nicht bestandene Rechnung bleibt ein Entwurf, den Sie korrigieren können"
+      ]
+    },
+    {
+      "eyebrow": "Bei der Ausstellung",
+      "title": "Eine Rechnung, eine UUID, keine späteren Änderungen",
+      "body": "Unter Fawtara kann eine ausgestellte Rechnung weder storniert noch bearbeitet werden. Paper & Pen folgt derselben Regel. Besteht eine Rechnung die Prüfung, wird sie mit einer UUID Version 5 ausgestellt, und ihr XML wird mit ihr gespeichert. Ab dann sind die Beträge, die Zeilen und der Kunde gesperrt, und die Rechnung kann weder storniert noch gelöscht werden. Zahlungen werden weiterhin normal gebucht.",
+      "items": [
+        "UUID Version 5 an der Rechnung gespeichert",
+        "Das XML wird mit der ausgestellten Rechnung gespeichert",
+        "Beträge gesperrt, kein Stornieren, kein Löschen"
+      ]
+    },
+    {
+      "eyebrow": "Wenn sich etwas ändert",
+      "title": "Korrigieren mit einer Gutschrift oder einer Belastungsanzeige",
+      "body": "Um eine ausgestellte Rechnung zu mindern, erstellen Sie daraus eine Gutschrift. Um sie zu erhöhen, erstellen Sie daraus eine Belastungsanzeige. Paper & Pen füllt den Beleg aus der ursprünglichen Rechnung: die Nummer, das Datum und die UUID, die PINT OM verlangt. Sie wählen den Begründungscode: CAN für eine Stornierung oder Rückgabe, VAT für eine geänderte MwSt.-Behandlung, VAL für eine Wertänderung, QTY für eine Mengenänderung oder OTH. Der Beleg durchläuft dieselbe Prüfung und dieselbe Regel der einmaligen Ausstellung.",
+      "items": [
+        "Gutschrift (381) und Belastungsanzeige (383)",
+        "Ursprüngliche Nummer, Datum und UUID ausgefüllt",
+        "Begründungscodes CAN, VAT, VAL, QTY, OTH auf Englisch und Arabisch"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Sendet Paper & Pen meine Rechnungen an die omanische Steuerbehörde?",
+      "a": "Keine Software sendet direkt an die Steuerbehörde. Unter Fawtara empfängt ein akkreditierter Dienstleister Ihre E-Rechnung, stellt sie zu und meldet sie an die Steuerbehörde. Paper & Pen erstellt und prüft das PINT OM XML, das der Dienstleister empfängt. Die Steuerbehörde veröffentlicht die Liste der akkreditierten Dienstleister."
+    },
+    {
+      "q": "Welche Dokumente werden abgedeckt?",
+      "a": "Rechnungen, Gutschriften und Belastungsanzeigen. Jedes Dokument wird als PINT OM XML erstellt, anhand des offiziellen omanischen Schematrons geprüft und einmal mit seiner eigenen UUID Version 5 ausgestellt."
+    },
+    {
+      "q": "Was passiert mit meinen älteren Rechnungen?",
+      "a": "Die E-Rechnung in Paper & Pen beginnt ab dem Go-live-Datum, das für Ihren Workspace festgelegt ist. Rechnungen, die vor diesem Datum ausgestellt wurden, bleiben unberührt und werden nicht gesendet. Das entspricht der Regel der Steuerbehörde, dass historische Rechnungen nicht übermittelt werden."
+    },
+    {
+      "q": "Kann ich eine Rechnung nach der Ausstellung noch bearbeiten?",
+      "a": "Nein. Eine ausgestellte E-Rechnung ist eingefroren: Ihre Beträge und Zeilen sind gesperrt, und sie kann weder storniert noch gelöscht werden. Um sie zu korrigieren, erstellen Sie daraus eine Gutschrift oder eine Belastungsanzeige. Eine Rechnung, die die Prüfung noch nicht bestanden hat, bleibt bearbeitbar."
+    },
+    {
+      "q": "Ab wann ist die E-Rechnung in Oman Pflicht?",
+      "a": "Am 1. April 2027 für Unternehmen mit jährlichen Umsätzen über OMR 5,000,000 und am 1. Oktober 2027 für alle anderen, nach Decision 189/2026. Unser Leitfaden zur E-Rechnung in Oman erklärt den Schwellentest und verweist auf die amtlichen Texte."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Starten Sie Ihren kostenlosen Workspace",
+  "ctaSub": "Verkauf und Rechnungen sind für immer kostenlos. Prüfen Sie Ihre Daten anhand der PINT OM Regeln vor Ihrem Fawtara-Termin."
+}

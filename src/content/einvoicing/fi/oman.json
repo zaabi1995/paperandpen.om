@@ -1,0 +1,319 @@
+{
+  "locale": "fi",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Tarkistettu veroviranomaisen tekstejä vasten 14.10.2026.",
+  "title": "Verkkolaskutus Omanissa (Fawtara)",
+  "metaTitle": "Omanin verkkolasku: Fawtaran päivät ja säännöt · Paper & Pen",
+  "metaDescription": "Fawtara alkaa 1.4.2027 yli OMR 5 miljoonan myynnille ja 1.10.2027 muille. Rajatesti, PINT OM -kentät ja hyvitykset, lähteenä veroviranomainen.",
+  "keywords": "verkkolaskutus oman, fawtara, fawtara oman, omanin verkkolaskutus 2027, pint om, omanin veroviranomainen verkkolaskutus, akkreditoitu palveluntarjoaja oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "Verkkolaskutus Omanissa: <em class=\"text-copper-400 not-italic\">mitä alkaa vuonna 2027</em>",
+  "heroSubtitle": "Päätös 189/2026 tekee verkkolaskutuksesta pakollista ALV-rekisteröidyille yrityksille kahdessa ryhmässä, 1.4.2027 ja 1.10.2027 alkaen. Tämä opas selittää, mikä päivä koskee sinua, miten lasku päätyy veroviranomaiselle, mitä PINT OM -verkkolaskussa on oltava ja mitä tiedoissasi kannattaa korjata nyt. Jokainen sääntö linkittää viralliseen tekstiin.",
+  "heroBullets": [
+    "1.4.2027: myynti yli OMR 5 miljoonaa",
+    "1.10.2027: OMR 5 miljoonaa tai vähemmän",
+    "Vapaaehtoinen aloitus sallittu jo nyt"
+  ],
+  "authority": {
+    "name": "Omanin veroviranomainen (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara lyhyesti",
+  "facts": [
+    {
+      "label": "Oikeusperusta",
+      "value": "Päätös 189/2026",
+      "note": "Se muuttaa ALV-lain täytäntöönpanoasetusta. Veroviranomainen antoi sen 3.8.2026, ja virallinen lehti julkaisi sen numerossa 1660 9.8.2026. Uusi 143 artikla edellyttää verolaskua hyväksytyssä, suojatussa sähköisessä muodossa yksilöllisellä numerolla.",
+      "source": 1
+    },
+    {
+      "label": "Ensimmäinen ryhmä",
+      "value": "1.4.2027",
+      "note": "Verovelvolliset, joiden vuotuinen myynti ylittää OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Toinen ryhmä",
+      "value": "1.10.2027",
+      "note": "Verovelvolliset, joiden vuotuinen myynti on OMR 5,000,000 tai vähemmän.",
+      "source": 1
+    },
+    {
+      "label": "Ennen omaa päivääsi",
+      "value": "Vapaaehtoinen",
+      "note": "Veroviranomainen kannustaa yrityksiä testaamaan järjestelmänsä ja laatimaan verkkolaskuja ennen pakollista päivää.",
+      "source": 2
+    },
+    {
+      "label": "Muoto",
+      "value": "XML, PINT OM",
+      "note": "XML on pakollinen rakenteinen muoto. Omanin määrittely on PINT OM -versio 1.0.1, Peppol-muoto, jota veroviranomainen ylläpitää.",
+      "source": 4
+    },
+    {
+      "label": "B2B-aikataulu",
+      "value": "Reaaliaikainen",
+      "note": "Yritysten välinen verkkolasku kulkee verkon läpi, kun laadit sen.",
+      "source": 2
+    },
+    {
+      "label": "B2C-aikataulu",
+      "value": "24 tuntia",
+      "note": "Lasku kuluttajalle tai ostajalle, joka ei ole ALV-rekisterissä, raportoidaan 24 tunnin kuluessa.",
+      "source": 2
+    },
+    {
+      "label": "Vanhat laskut",
+      "value": "Ei lähetetä",
+      "note": "Ennen aloitustasi laadittuja laskuja ei ladata veroviranomaiselle.",
+      "source": 2
+    },
+    {
+      "label": "Korjaukset",
+      "value": "Hyvitys- tai veloituslasku",
+      "note": "Laadittua verkkolaskua ei voi mitätöidä eikä muokata. Oikaiset sen sähköisellä hyvityslaskulla tai veloituslaskulla.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Mikä päivä koskee sinua",
+      "body": "Testi perustuu vuotuiseen myyntiisi 31.3.2027 tilanteen mukaan. Laske verolliset myyntisi (jätä käyttöomaisuuden myynnit pois), lisää käännetyn verovelvollisuuden piiriin kuuluvat tavarat ja palvelut ja lisää GCC-maiden sisäiset myyntisi.\n\nAloitat 1.4.2027, jos jompikumpi summa ylittää OMR 5,000,000: myyntisi ajalta 1.4.2026 ja 31.3.2027 välillä tai odotettu myyntisi ajalta 1.4.2027 ja 31.3.2028 välillä. Jos kumpikaan summa ei ylitä OMR 5,000,000, aloitat 1.10.2027. Ulkomainen yritys laskee vain Omanissa tapahtuvat myyntinsä. ALV-ryhmä testataan yhtenä ryhmänä, ei jäsen kerrallaan. Veroviranomaisella on myös verkossa käyttöönoton tarkistus: syötät ALV-numerosi ja myyntiluokkasi.",
+      "items": [
+        "Mukaan: verolliset myynnit, käännetyn verovelvollisuuden myynnit, GCC-maiden sisäiset myynnit",
+        "Pois: käyttöomaisuuden myynnit",
+        "Kaksi jaksoa: 31.3.2027 päättyvät 12 kuukautta ja 1.4.2027 alkavat 12 kuukautta",
+        "Kumpi tahansa jakso yli OMR 5,000,000 tarkoittaa 1.4.2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Miten lasku päätyy veroviranomaiselle",
+      "body": "Fawtara käyttää viiden kulman mallia. Kulma 1 olet sinä, myyjä. Kulma 2 on akkreditoitu palveluntarjoajasi. Kulma 3 on ostajasi palveluntarjoaja, kulma 4 on ostajasi ja kulma 5 on veroviranomainen. Ohjelmistosi ei koskaan lähetä suoraan veroviranomaiselle. Se lähettää verkkolaskun palveluntarjoajallesi.\n\nPalveluntarjoajasi tarkistaa laskun Omanin virallisten schematron-sääntöjen mukaan, toimittaa sen ostajan palveluntarjoajalle Peppol-verkossa ja lähettää verotietoasiakirjan veroviranomaiselle. Liityt yhteen palveluntarjoajaan kerrallaan Fawtara-portaalin kautta, ja voit vaihtaa palveluntarjoajaa myöhemmin. Laskun vaatimustenmukaisuus on edelleen sinun vastuullasi.",
+      "items": [
+        "C1 myyjä, C2 myyjän palveluntarjoaja, C3 ostajan palveluntarjoaja, C4 ostaja, C5 veroviranomainen",
+        "Palveluntarjoaja validoi laskun, ei veroviranomainen",
+        "Yksi palveluntarjoaja kerrallaan, liitettynä Fawtara-portaalissa",
+        "Vastuu oikeasta laskusta säilyy sinulla"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Mitä PINT OM -verkkolaskussa on oltava",
+      "body": "PINT OM lisää Omanin säännöt Peppol-laskun päälle. Useimmat hylkäykset johtuvat puuttuvista perustiedoista, eivät laskun loppusummasta. Tarkista ensin nämä kentät tiedoistasi.",
+      "items": [
+        "Laskun yksilöllinen UUID, versio 5, ja laatimisaika",
+        "Laatimispäivä, joka ei ole Muscatin ajassa tulevaisuudessa",
+        "Myyjän ALV-numero muodossa OM ja 10 numeroa, myyjän osoite ja puhelinnumero",
+        "Täydessä verolaskussa ostajan ALV-numero tai tunniste ja osoite",
+        "ALV rivikohtaisesti ja veroluokka rivikohtaisesti (S, E, O tai Z)",
+        "Yleinen verokanta 5 %; verottomat ja nollaverokannan rivit tarvitsevat syykoodin",
+        "Tavaroille 12-numeroinen Omanin HS-koodi ja tavara- tai palvelutunnus rivikohtaisesti",
+        "ISIC-toimialakoodi jokaiselle nimikkeelle",
+        "Summat enintään 3 desimaalilla, ALV-summat OMR:nä"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Hyvityslaskut ja veloituslaskut",
+      "body": "Kun olet laatinut verkkolaskun, et mitätöi, poista tai muokkaa sitä. Laadit sähköisen hyvityslaskun (pienentämään sitä) tai veloituslaskun (suurentamaan sitä). Asiakirja yksilöi alkuperäisen laskun numerolla, päivällä ja UUID:llä, ja siinä on syykoodi: CAN mitätöinnille tai palautukselle, VAT ALV-kohtelun muutokselle, VAL arvon muutokselle, QTY määrän muutokselle tai OTH muulle syylle. Jos laskutit väärää ostajaa, laadi hyvityslasku tälle ostajalle ja uusi lasku oikealle.",
+      "items": [
+        "Hyvityslasku: asiakirjatyyppi 381",
+        "Veloituslasku: asiakirjatyyppi 383",
+        "Alkuperäisen laskun numero, päivä ja UUID jokaisessa asiakirjassa",
+        "Syykoodit: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Akkreditoidun palveluntarjoajan valinta",
+      "body": "Veroviranomainen julkaisee ajantasaisen luettelon akkreditoiduista palveluntarjoajista. 13.10.2026 luettelossa oli 36 nimeä, ja se kasvaa edelleen. Veroviranomainen ei peri verovelvollisilta maksua eikä määrää palveluntarjoajien hintoja, joten kukin palveluntarjoaja päättää oman mallinsa: tilaus, laskukohtainen hinta tai jokin muu. Vertaa palveluntarjoajia sen mukaan, mihin ne liittyvät, missä ne säilyttävät tietojasi, onko arabiankielistä tukea ja miten niistä pääsee irti. Kukin palveluntarjoaja ilmoittaa luettelossa itse tietojensa sijainnin, eikä veroviranomainen tarkista sitä.",
+      "items": [
+        "Käytä vain veroviranomaisen luettelossa olevaa palveluntarjoajaa",
+        "Kysy, miten ohjelmistosi liittyy: API, tiedostojen lataus tai valmis liitäntä",
+        "Kysy, missä tietojasi säilytetään ja kuinka kauan ne arkistoidaan",
+        "Tarkista vaihtamisen vaiheet ennen kuin allekirjoitat"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C-myynti ja QR-koodi",
+      "body": "Myynti kuluttajalle tai kenelle tahansa ostajalle, joka ei ole ALV-rekisterissä, raportoidaan veroviranomaiselle 24 tunnin kuluessa. Annat ostajalle ihmisen luettavan laskun missä tahansa kanavassa. Tulostetussa tai PDF-kopiossa on oltava QR-koodi, jonka sinä myyjänä muodostat. QR-koodi ei ole osa XML-verkkolaskua. QR-koodin sisällön osalta veroviranomainen viittaa Peppol Oman Architecture -dokumentin liitteeseen D. Liite ei ole vielä julkinen, joten pidä kaikkia nyt näkemiäsi QR-asetteluja vahvistamattomina.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Mitä tehdä nyt",
+      "body": "Sinun ei tarvitse odottaa omaa päivääsi valmistautuaksesi. Eniten aikaa vievä työ on perustiedot, ja sen voit aloittaa tänään.",
+      "items": [
+        "Tee rajatesti ja kirjaa aloituspäiväsi muistiin",
+        "Tarkista jokaisen asiakkaan ALV-numero: OM ja 10 numeroa",
+        "Lisää 12-numeroinen HS-koodi jokaiseen tavaranimikkeeseen ja ISIC-koodi jokaiseen nimikkeeseen",
+        "Kohdista yksikkösi UN/ECE-yksikkökoodeihin (esimerkiksi kappale on H87)",
+        "Lopeta laadittujen laskujen poistaminen ja uudelleennumerointi: käytä hyvityslaskuja",
+        "Valitse palveluntarjoaja veroviranomaisen luettelosta ja testaa ajoissa",
+        "Pidä oma arkisto: veroviranomainen ei palauta laskutietoja"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Kuka lähettää mitä, tapaus kerrallaan",
+    "intro": "Laskun reitti riippuu siitä, kuka ostaja on. Taulukko näyttää kulmat jokaisessa veroviranomaisen usein kysyttyjen kysymysten tapauksessa.",
+    "columns": [
+      "Tapaus",
+      "Kulku",
+      "Mitä tapahtuu"
+    ],
+    "rows": [
+      {
+        "label": "Kotimainen B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Reaaliaikaisesti. Palveluntarjoajasi toimittaa ostajan palveluntarjoajalle ja raportoi verotiedot veroviranomaiselle.",
+        "source": 2
+      },
+      {
+        "label": "B2C tai ostaja, joka ei ole ALV-rekisterissä",
+        "flow": "C1 → C2 → C5",
+        "detail": "Raportoidaan 24 tunnin kuluessa. Ostaja saa ihmisen luettavan laskun, jossa on QR-koodi.",
+        "source": 2
+      },
+      {
+        "label": "Ostaja ei vielä ole käyttöönottovaiheessa",
+        "flow": "C1 → C2 → C5",
+        "detail": "Palveluntarjoajasi raportoi verotiedot. Lähetät laskun ostajalle samoin kuin nykyään.",
+        "source": 2
+      },
+      {
+        "label": "Myyjä ei vielä ole käyttöönottovaiheessa",
+        "flow": "C1 → C4",
+        "detail": "ALV-rekisteröity myyjä nykyisten käyttöönottovaiheiden ulkopuolella laskuttaa kuten nykyään. Ostaja vähentää ostojen ALV:n kuten nykyään.",
+        "source": 2
+      },
+      {
+        "label": "Vienti",
+        "flow": "C1 → C2 → C5",
+        "detail": "Jaat laskun ulkomaiselle asiakkaalle kuten nykyään. Verotiedot kulkevat verkon kautta.",
+        "source": 2
+      },
+      {
+        "label": "Korjaus",
+        "flow": "381 / 383",
+        "detail": "Asiakirja kulkee samaa reittiä kuin lasku, jota se korjaa.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Milloin verkkolaskutuksesta tulee pakollista Omanissa?",
+      "a": "1.4.2027 verovelvollisille, joiden vuotuinen myynti ylittää OMR 5,000,000, ja 1.10.2027 niille, joiden myynti on OMR 5,000,000 tai vähemmän. Päätös 189/2026 asettaa molemmat päivät. Ennen omaa päivääsi verkkolaskutus on vapaaehtoista, ja veroviranomainen kannustaa aloittamaan aikaisin."
+    },
+    {
+      "q": "Mistä tiedän, kuuluuko yritykseni huhtikuun 2027 ryhmään?",
+      "a": "Laske yhteen verolliset myyntisi (ilman käyttöomaisuutta), käännetyn verovelvollisuuden myyntisi ja GCC-maiden sisäiset myyntisi. Jos summa ajalta 1.4.2026 ja 31.3.2027 välillä ylittää OMR 5,000,000 tai odotat sen ylittävän sen ajalla 1.4.2027 ja 31.3.2028 välillä, aloitat 1.4.2027. Muuten aloitat 1.10.2027."
+    },
+    {
+      "q": "Onko PDF-lasku verkkolasku Omanissa?",
+      "a": "Ei. Verkkolasku on PINT OM -muotoinen rakenteinen XML-tiedosto, joka kulkee akkreditoidun palveluntarjoajan kautta. Voit edelleen tulostaa tai lähettää PDF-kopion, mutta omasta päivästäsi alkaen vain verkkolasku on pätevä verolasku."
+    },
+    {
+      "q": "Pitääkö minun ladata vanhat laskuni?",
+      "a": "Ei. Ennen verkkolaskutuksen aloittamista laadittuja laskuja ei lähetetä veroviranomaiselle. Säilytä ne omassa kirjanpidossasi ALV-lain edellyttämällä tavalla."
+    },
+    {
+      "q": "Entä jos asiakkaani ei vielä ole Fawtarassa?",
+      "a": "Lähetät laskun silti palveluntarjoajallesi, ja palveluntarjoaja lähettää verotietoasiakirjan veroviranomaiselle. Lähetät laskun asiakkaalle samoin kuin nykyään."
+    },
+    {
+      "q": "Periikö veroviranomainen maksua Fawtarasta?",
+      "a": "Ei. Veroviranomainen ei peri verovelvollisilta maksua eikä määrää, mitä palveluntarjoajat veloittavat. Kukin akkreditoitu palveluntarjoaja päättää oman hintansa."
+    },
+    {
+      "q": "Onko seuraamuksia?",
+      "a": "Veroviranomaisen mukaan ALV-lainsäädännön mukaiset seuraamukset ovat voimassa velvoitteen alkamisen jälkeen. Se ei ole julkaissut erillistä verkkolaskutuksen seuraamustaulukkoa, joten pidä kaikkia muualla lukemiasi tarkkoja summia vahvistamattomina."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Valmistele tietosi Fawtaraa varten",
+  "ctaSub": "Paper & Pen muodostaa PINT OM -verkkolaskut ja tarkistaa ne Omanin virallisten sääntöjen mukaan. Aloita maksuttomalla työtilalla.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Päätös 189/2026 ALV-lain täytäntöönpanoasetuksen muuttamisesta (virallinen lehti 1660)",
+      "publisher": "Omanin veroviranomainen, teksti Qanoon.om-palvelussa",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Fawtara-verkkolaskutuksen usein kysytyt kysymykset, päivitetty viimeksi 30.9.2026",
+      "publisher": "Omanin veroviranomainen",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Akkreditoidut palveluntarjoajat (ajantasainen luettelo)",
+      "publisher": "Omanin veroviranomainen, Fawtara-portaali",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM -määrittelyt, versio 1.0.1",
+      "publisher": "OpenPeppol, ylläpitäjänä Omanin veroviranomainen",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM -lainkäyttöaluesäännöt (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, ylläpitäjänä Omanin veroviranomainen",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Käyttöönottovaiheen tarkistus",
+      "publisher": "Omanin veroviranomainen",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "PINT OM 1.0.1 -julkaisutiedot",
+      "publisher": "OpenPeppol, ylläpitäjänä Omanin veroviranomainen",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

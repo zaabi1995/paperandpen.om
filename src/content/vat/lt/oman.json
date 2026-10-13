@@ -5,15 +5,15 @@
   "country": "Omanas",
   "title": "PVM Omane",
   "metaTitle": "PVM Omane: tarifas, ribos, sąskaitos faktūros · Paper & Pen",
-  "metaDescription": "Omano 5 % PVM tarifas, OMR 38,500 registracijos riba ir dvylika elementų, kuriuos turi turėti PVM sąskaita faktūra, kiekvienas su nuoroda į Tax Authority.",
-  "keywords": "pvm omane, omano pvm tarifas, omano pvm registracijos riba, omano pvm sąskaitos faktūros reikalavimai, fawtara e. sąskaitos, oman tax authority",
+  "metaDescription": "Omano 5 % PVM tarifas, OMR 38,500 riba, ką turi turėti PVM sąskaita faktūra ir Fawtara e. sąskaitų datos, kiekvienas su nuoroda į oficialų tekstą.",
+  "keywords": "pvm omane, omano pvm tarifas, omano pvm registracijos riba, omano pvm sąskaitos faktūros reikalavimai, fawtara e. sąskaitos, omano e. sąskaitos 2027, decision 189/2026, omano mokesčių institucija",
   "heroEyebrow": "Omanas",
   "heroTitle": "Sąskaitų išrašymas pagal <em class=\"text-copper-400 not-italic\">Omano PVM</em> taisykles",
-  "heroSubtitle": "Tarifas, registracijos ribos, ką turi rodyti PVM sąskaita faktūra ir kur yra e. sąskaitos. Kiekvienas šio puslapio skaičius pagrįstas paties Oman Tax Authority paskelbtu tekstu.",
+  "heroSubtitle": "Tarifas, registracijos ribos, ką turi rodyti PVM sąskaita faktūra ir kada prasideda e. sąskaitos. Kiekvienas šio puslapio skaičius pagrįstas oficialiai paskelbtu tekstu.",
   "heroBullets": [
     "5 % standartinis tarifas",
     "Registracija nuo OMR 38,500",
-    "Fawtara paskelbta, bet dar neveikia"
+    "Fawtara nuo 2027 m. balandžio 1 d."
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Tiekimui, kurio vertė mažesnė, gavus Tax Authority sutikimą galima naudoti supaprastintą sąskaitą.",
       "source": 3
+    },
+    {
+      "label": "E. sąskaitos (Fawtara)",
+      "value": "2027-04-01 / 2027-10-01",
+      "note": "Sprendimu 189/2026 e. sąskaitos tampa privalomos nuo 2027 m. balandžio 1 d., kai metinis tiekimas viršija OMR 5,000,000, ir nuo 2027 m. spalio 1 d., kai jis yra OMR 5,000,000 ar mažesnis. Iki tol jos savanoriškos.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority Executive Regulations skelbia tik arabų kalba. Šis sąrašas yra tikslus oficialaus arabiško teksto perskaitymas, o ne oficialus vertimas, todėl prieš juo remdamiesi pasitikrinkite formuluotes su savo mokesčių konsultantu."
   },
   "einvoicing": {
-    "status": "Paskelbta ir diegiama etapais, dar neprivaloma",
-    "body": "Omano e. sąskaitų programa vadinasi Fawtara. Tax Authority aprašo penkių kampų modelį, kuriame sąskaitos jai pasiekiamos per akredituotą paslaugų teikėją, ir nurodo keturis etapus: bandomąjį, išplėtimo, mažesnių įmonių prijungimo ir pilno įdiegimo. Institucija etapų datų anglų kalba nepaskelbė, o spaudoje minimos datos jos pačios puslapiuose nepateikiamos. Bet kokį kitur perskaitytą konkretų Fawtara terminą laikykite nepatvirtintu, kol jo nepaskelbs Tax Authority.",
-    "source": 4
+    "status": "Privaloma nuo 2027 m. balandžio 1 d., dabar savanoriška",
+    "body": "Omano e. sąskaitų programa vadinasi Fawtara. Sprendimas 189/2026, paskelbtas Oficialiojo leidinio 1660 numeryje 2026 m. rugpjūčio 9 d., nustato dvi datas: 2027 m. balandžio 1 d. apmokestinamiesiems asmenims, kurių metinis tiekimas viršija OMR 5,000,000, ir 2027 m. spalio 1 d. tiems, kurių tiekimas yra OMR 5,000,000 ar mažesnis. Iki jūsų datos e. sąskaitos yra savanoriškos, o mokesčių institucija skatina pradėti anksčiau. Sąskaitos siunčiamos PINT OM XML formatu per akredituotą paslaugų teikėją, kuris jas pristato pirkėjui ir praneša apie jas mokesčių institucijai. Mūsų Omano e. sąskaitų vadovas paaiškina ribos testą ir taisykles.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Pasiruošimas",
-      "title": "Kaip pasiruošti Fawtara nespėliojant datų",
-      "body": "Kad būtumėte pasiruošę, paskelbto termino nereikia. Kiekviena regione pradėjusi veikti e. sąskaitų sistema reikalavo tos pačios pagrindinės tvarkos: švarių ir pilnų klientų įrašų su mokesčių numeriais, nenutrūkstamos sąskaitų numeracijos, mokesčių režimo, nurodyto kiekvienai eilutei, o ne visai sąskaitai, ir dokumentų, saugomų taip, kad juos būtų galima pateikti paprašius. Įmonė, kurios įrašai jau atitinka šias keturias sąlygas, kai tik paaiškės datos, susidurs su trumpu diegimu. Įmonė, kurios įrašai neatitinka, įspėjimo laikotarpį praleis valydama duomenis.",
+      "title": "Kaip pasiruošti Fawtara iki jūsų datos",
+      "body": "Datos jau nustatytos, todėl užduotis yra paruošti savo įrašus. Fawtara reikalauja tvarkingų, pilnų klientų įrašų, įskaitant mokesčių numerius formatu OM ir 10 skaitmenų, nenutrūkstamos sąskaitų numeracijos, kiekvienai eilutei nurodyto mokesčių režimo, HS kodo kiekvienai prekei ir veiklos kodo kiekvienai pozicijai, taip pat dokumentų, kuriuos galite pateikti paprašius. Verslo, kurio įrašai jau atitinka šias sąlygas, laukia trumpas diegimas. Tas, kurio neatitinka, pasiruošimo laiką praleis valydamas duomenis.",
       "items": [
         "Pilni klientų įrašai, įskaitant mokesčių numerius",
         "Viena nenutrūkstama sąskaitų numeracija kiekvienai serijai",
         "Mokesčių režimas nurodomas kiekvienai eilutei",
-        "Dokumentai pateikiami paprašius"
+        "HS ir veiklos kodai jūsų pozicijose"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Kai jūsų metinis tiekimas pasiekia arba tikimasi, kad pasieks OMR 38,500. Savanoriškai galite registruotis nuo OMR 19,250. Abu skaičiai nustatyti pirmininko sprendimu dėl registracijos ribų, o ne pačiu VAT Law, todėl jie gali keistis nekeičiant įstatymo."
     },
     {
-      "q": "Ar e. sąskaitos Omane jau privalomos?",
-      "a": "Dar ne. Tax Authority paskelbė Fawtara, etapais diegiamą penkių kampų e. sąskaitų modelį su akredituotais paslaugų teikėjais, ir aprašo keturis diegimo etapus. Etapų datų anglų kalba savo puslapiuose ji nepaskelbė, todėl mes čia datos nenurodome. Dabartinę padėtį tikrinkite Tax Authority e. sąskaitų puslapiuose."
+      "q": "Nuo kada e. sąskaitos Omane privalomos?",
+      "a": "Nuo 2027 m. balandžio 1 d., jei jūsų metinis tiekimas viršija OMR 5,000,000, ir nuo 2027 m. spalio 1 d., jei jis yra OMR 5,000,000 ar mažesnis. Abi datas nustato sprendimas 189/2026. Iki savo datos galite pradėti savanoriškai. Mokesčių institucijos DUK paaiškina, kaip skaičiuoti tiekimą ribai nustatyti."
     },
     {
       "q": "Ar Omane galiu išrašyti sąskaitą anglų kalba?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Išrašykite sąskaitas Omane teisingai ir nemokamai",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Sprendimas 189/2026, kuriuo keičiami Executive Regulations of the VAT Law (Oficialusis leidinys 1660)",
+      "publisher": "Oman Tax Authority, tekstas Qanoon.om svetainėje",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Fawtara e. sąskaitų DUK, paskutinį kartą atnaujinta 2026 m. rugsėjo 30 d.",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

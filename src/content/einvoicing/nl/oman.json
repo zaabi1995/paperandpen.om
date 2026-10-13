@@ -1,0 +1,319 @@
+{
+  "locale": "nl",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Gecontroleerd aan de hand van de teksten van de Tax Authority op 14 oktober 2026.",
+  "title": "E-facturatie in Oman (Fawtara)",
+  "metaTitle": "E-facturatie in Oman: Fawtara-data en regels · Paper & Pen",
+  "metaDescription": "Fawtara start op 1 april 2027 boven OMR 5 miljoen en op 1 oktober 2027 voor de rest. Drempeltoets, PINT OM-velden en nota's, met de Tax Authority als bron.",
+  "keywords": "e-facturatie oman, e-factuur oman, fawtara, fawtara oman, e-facturatie oman 2027, pint om, oman tax authority e-facturatie, geaccrediteerde dienstverlener oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-facturatie in Oman: <em class=\"text-copper-400 not-italic\">wat er in 2027 begint</em>",
+  "heroSubtitle": "Decision 189/2026 maakt e-facturatie verplicht voor btw-geregistreerde bedrijven in twee groepen, vanaf 1 april 2027 en vanaf 1 oktober 2027. Deze gids legt uit welke datum voor jou geldt, hoe een factuur bij de Tax Authority komt, wat een PINT OM e-factuur moet bevatten en wat je nu in je administratie moet rechtzetten. Elke regel verwijst naar de officiële tekst.",
+  "heroBullets": [
+    "1 apr. 2027: omzet boven OMR 5 miljoen",
+    "1 okt. 2027: OMR 5 miljoen of minder",
+    "Vrijwillig starten kan nu al"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara in één oogopslag",
+  "facts": [
+    {
+      "label": "Wettelijke basis",
+      "value": "Decision 189/2026",
+      "note": "Dit besluit wijzigt de Executive Regulations of the VAT Law. De Tax Authority vaardigde het uit op 3 augustus 2026, en het Staatsblad publiceerde het in nummer 1660 op 9 augustus 2026. Het nieuwe artikel 143 vereist een belastingfactuur in een goedgekeurd, beveiligd elektronisch formaat met een uniek nummer.",
+      "source": 1
+    },
+    {
+      "label": "Eerste groep",
+      "value": "1 april 2027",
+      "note": "Belastingplichtigen met een jaaromzet boven OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Tweede groep",
+      "value": "1 oktober 2027",
+      "note": "Belastingplichtigen met een jaaromzet van OMR 5,000,000 of minder.",
+      "source": 1
+    },
+    {
+      "label": "Vóór jouw datum",
+      "value": "Vrijwillig",
+      "note": "De Tax Authority moedigt bedrijven aan hun systemen te testen en e-facturen uit te reiken vóór hun verplichte datum.",
+      "source": 2
+    },
+    {
+      "label": "Formaat",
+      "value": "XML, PINT OM",
+      "note": "XML is het verplichte gestructureerde formaat. De specificatie voor Oman is PINT OM versie 1.0.1, een Peppol-formaat dat de Tax Authority beheert.",
+      "source": 4
+    },
+    {
+      "label": "Timing B2B",
+      "value": "Realtime",
+      "note": "Een e-factuur tussen bedrijven gaat door het netwerk op het moment dat je hem uitreikt.",
+      "source": 2
+    },
+    {
+      "label": "Timing B2C",
+      "value": "24 uur",
+      "note": "Een factuur aan een consument, of aan een koper die niet btw-geregistreerd is, wordt binnen 24 uur gemeld.",
+      "source": 2
+    },
+    {
+      "label": "Oude facturen",
+      "value": "Niet aangeleverd",
+      "note": "Facturen die je hebt uitgereikt voordat je start, worden niet bij de Tax Authority geüpload.",
+      "source": 2
+    },
+    {
+      "label": "Correcties",
+      "value": "Creditnota of debetnota",
+      "note": "Een uitgereikte e-factuur kun je niet annuleren of bewerken. Je past hem aan met een elektronische creditnota of debetnota.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Welke datum voor jou geldt",
+      "body": "De toets gaat uit van je jaaromzet per 31 maart 2027. Tel je belaste leveringen op (zonder leveringen van investeringsgoederen), tel de goederen en diensten onder de verleggingsregeling erbij op, en tel je leveringen binnen de GCC erbij op.\n\nJe start op 1 april 2027 als een van beide totalen boven OMR 5,000,000 ligt: je omzet van 1 april 2026 tot en met 31 maart 2027, of je verwachte omzet van 1 april 2027 tot en met 31 maart 2028. Ligt geen van beide totalen boven OMR 5,000,000, dan start je op 1 oktober 2027. Een niet-ingezetene telt alleen zijn leveringen in Oman. Een btw-groep wordt als één groep getoetst, niet per lid. De Tax Authority heeft ook een online invoeringscheck: je vult je btw-nummer en je omzetklassen in.",
+      "items": [
+        "Meetellen: belaste leveringen, leveringen onder de verleggingsregeling, leveringen binnen de GCC",
+        "Weglaten: leveringen van investeringsgoederen",
+        "Twee periodes: de 12 maanden tot en met 31 maart 2027, en de 12 maanden vanaf 1 april 2027",
+        "Ligt een van beide periodes boven OMR 5,000,000, dan geldt 1 april 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Hoe een factuur bij de Tax Authority komt",
+      "body": "Fawtara werkt met een vijfhoeksmodel. Hoek 1 ben jij, de verkoper. Hoek 2 is je geaccrediteerde dienstverlener. Hoek 3 is de dienstverlener van je koper, hoek 4 is je koper en hoek 5 is de Tax Authority. Je software verstuurt nooit rechtstreeks naar de Tax Authority. Hij stuurt de e-factuur naar je dienstverlener.\n\nJe dienstverlener controleert de factuur aan de hand van de officiële schematron-regels voor Oman, levert hem via het Peppol-netwerk af bij de dienstverlener van de koper en stuurt een document met belastinggegevens naar de Tax Authority. Je koppelt via het Fawtara-portaal aan één dienstverlener tegelijk, en je kunt later van dienstverlener wisselen. De naleving van de factuur blijft jouw verantwoordelijkheid.",
+      "items": [
+        "C1 verkoper, C2 dienstverlener van de verkoper, C3 dienstverlener van de koper, C4 koper, C5 Tax Authority",
+        "De dienstverlener valideert de factuur, niet de Tax Authority",
+        "Eén dienstverlener tegelijk, gekoppeld in het Fawtara-portaal",
+        "De verantwoordelijkheid voor een correcte factuur blijft bij jou"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Wat een PINT OM e-factuur moet bevatten",
+      "body": "PINT OM voegt Omaanse regels toe aan de Peppol-factuur. De meeste afwijzingen komen door ontbrekende stamgegevens, niet door het factuurtotaal. Controleer eerst deze velden in je administratie.",
+      "items": [
+        "Een unieke factuur-UUID, versie 5, en het tijdstip van uitreiking",
+        "Een factuurdatum die in de tijd van Muscat niet in de toekomst ligt",
+        "Btw-nummer van de verkoper in de vorm OM plus 10 cijfers, adres en telefoonnummer van de verkoper",
+        "Bij een volledige belastingfactuur het btw-nummer of de identificatie en het adres van de koper",
+        "Btw per regel, en een belastingcategorie per regel (S, E, O of Z)",
+        "Standaardtarief 5%; vrijgestelde regels en regels tegen het nultarief hebben een redencode nodig",
+        "Voor goederen een 12-cijferige Omaanse HS-code en per regel een aanduiding goederen of diensten",
+        "Een ISIC-activiteitscode per artikel",
+        "Bedragen met maximaal 3 decimalen, in OMR voor de btw-totalen"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Creditnota's en debetnota's",
+      "body": "Nadat je een e-factuur hebt uitgereikt, annuleer, verwijder of bewerk je hem niet. Je reikt een elektronische creditnota uit (om te verlagen) of een debetnota (om te verhogen). De nota noemt de oorspronkelijke factuur met nummer, datum en UUID, en bevat een redencode: CAN voor een annulering of retour, VAT voor een wijziging in de btw-behandeling, VAL voor een wijziging in waarde, QTY voor een wijziging in hoeveelheid, of OTH voor een andere reden. Heb je de verkeerde koper gefactureerd, reik dan een creditnota uit aan die koper en een nieuwe factuur aan de juiste.",
+      "items": [
+        "Creditnota: documenttype 381",
+        "Debetnota: documenttype 383",
+        "Nummer, datum en UUID van de oorspronkelijke factuur op elke nota",
+        "Redencodes: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Een geaccrediteerde dienstverlener kiezen",
+      "body": "De Tax Authority publiceert de actuele lijst van geaccrediteerde dienstverleners. Op 13 oktober 2026 stonden er 36 namen op de lijst, en die groeit nog. De Tax Authority rekent belastingplichtigen geen kosten aan en stelt geen prijzen voor dienstverleners vast, dus elke dienstverlener kiest zijn eigen model: abonnement, per factuur of iets anders. Vergelijk dienstverleners op waarmee ze koppelen, waar ze je gegevens bewaren, ondersteuning in het Arabisch en hoe je weer overstapt. Elke dienstverlener vermeldt op de lijst zelf waar zijn gegevens worden opgeslagen, en de Tax Authority controleert dat niet.",
+      "items": [
+        "Gebruik alleen een dienstverlener van de lijst van de Tax Authority",
+        "Vraag hoe je software koppelt: API, bestandsupload of een kant-en-klare connector",
+        "Vraag waar je gegevens worden bewaard en hoe lang ze worden gearchiveerd",
+        "Controleer de stappen om over te stappen voordat je tekent"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C-verkopen en de QR-code",
+      "body": "Een verkoop aan een consument, of aan een koper die niet btw-geregistreerd is, wordt binnen 24 uur bij de Tax Authority gemeld. Je geeft de koper via elk kanaal een voor mensen leesbare factuur. Die afgedrukte of PDF-versie moet een QR-code bevatten, die je als verkoper zelf aanmaakt. De QR-code maakt geen deel uit van de XML-e-factuur. Voor de inhoud van de QR-code verwijst de Tax Authority naar bijlage D van de Peppol Oman Architecture. Die bijlage is nog niet openbaar, dus beschouw elke QR-indeling die je nu ziet als onbevestigd.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Wat je nu moet doen",
+      "body": "Je hoeft niet op je datum te wachten om je voor te bereiden. Het werk dat het langst duurt, zijn de stamgegevens, en daarmee kun je vandaag beginnen.",
+      "items": [
+        "Doe de drempeltoets en noteer je startdatum",
+        "Controleer elk btw-nummer van je klanten: OM plus 10 cijfers",
+        "Voeg de 12-cijferige HS-code toe aan elk goederenartikel en een ISIC-code aan elk artikel",
+        "Koppel je eenheden aan UN/ECE-eenheidscodes (een stuk is bijvoorbeeld H87)",
+        "Stop met het verwijderen of hernummeren van uitgereikte facturen: gebruik creditnota's",
+        "Kies een dienstverlener van de lijst van de Tax Authority en test vroeg",
+        "Houd je eigen archief bij: de Tax Authority geeft geen factuurgegevens terug"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Wie wat verstuurt, per situatie",
+    "intro": "De route van een factuur hangt af van wie de koper is. De tabel toont de hoeken voor elke situatie uit de FAQ van de Tax Authority.",
+    "columns": [
+      "Situatie",
+      "Route",
+      "Wat er gebeurt"
+    ],
+    "rows": [
+      {
+        "label": "Binnenlands B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Realtime. Je dienstverlener levert af bij de dienstverlener van de koper en meldt de belastinggegevens aan de Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C, of koper niet btw-geregistreerd",
+        "flow": "C1 → C2 → C5",
+        "detail": "Gemeld binnen 24 uur. De koper krijgt een voor mensen leesbare factuur met een QR-code.",
+        "source": 2
+      },
+      {
+        "label": "Koper nog niet in een invoeringsfase",
+        "flow": "C1 → C2 → C5",
+        "detail": "Je dienstverlener meldt de belastinggegevens. Je stuurt de factuur naar de koper zoals je dat nu doet.",
+        "source": 2
+      },
+      {
+        "label": "Verkoper nog niet in een invoeringsfase",
+        "flow": "C1 → C4",
+        "detail": "Een btw-geregistreerde verkoper buiten de lopende invoeringsfasen factureert zoals nu. De koper trekt de voorbelasting af zoals nu.",
+        "source": 2
+      },
+      {
+        "label": "Export",
+        "flow": "C1 → C2 → C5",
+        "detail": "Je deelt de factuur zoals nu met de buitenlandse klant. De belastinggegevens gaan via het netwerk.",
+        "source": 2
+      },
+      {
+        "label": "Correctie",
+        "flow": "381 / 383",
+        "detail": "De nota volgt dezelfde route als de factuur die hij corrigeert.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Wanneer wordt e-facturatie verplicht in Oman?",
+      "a": "Op 1 april 2027 voor belastingplichtigen met een jaaromzet boven OMR 5,000,000, en op 1 oktober 2027 voor wie OMR 5,000,000 of minder heeft. Decision 189/2026 legt beide data vast. Vóór jouw datum is e-facturatie vrijwillig en moedigt de Tax Authority een vroege start aan."
+    },
+    {
+      "q": "Hoe weet ik of mijn bedrijf in de groep van april 2027 valt?",
+      "a": "Tel je belaste leveringen op (zonder investeringsgoederen), je leveringen onder de verleggingsregeling en je leveringen binnen de GCC. Ligt het totaal van 1 april 2026 tot en met 31 maart 2027 boven OMR 5,000,000, of verwacht je dat het van 1 april 2027 tot en met 31 maart 2028 daarboven ligt, dan start je op 1 april 2027. Anders start je op 1 oktober 2027."
+    },
+    {
+      "q": "Is een PDF-factuur in Oman een e-factuur?",
+      "a": "Nee. De e-factuur is een gestructureerd XML-bestand in het PINT OM-formaat dat via een geaccrediteerde dienstverlener gaat. Je kunt nog steeds een PDF-kopie afdrukken of versturen, maar zodra jouw datum ingaat, telt alleen de e-factuur als geldige belastingfactuur."
+    },
+    {
+      "q": "Moet ik mijn oude facturen uploaden?",
+      "a": "Nee. Facturen die je hebt uitgereikt voordat je met e-facturatie begint, worden niet bij de Tax Authority aangeleverd. Bewaar ze in je eigen administratie, zoals de btw-wet vereist."
+    },
+    {
+      "q": "Wat als mijn klant nog niet op Fawtara zit?",
+      "a": "Je levert de factuur toch aan bij je dienstverlener, en de dienstverlener stuurt het document met belastinggegevens naar de Tax Authority. Je stuurt de factuur naar de klant zoals je dat nu doet."
+    },
+    {
+      "q": "Rekent de Tax Authority kosten voor Fawtara?",
+      "a": "Nee. De Tax Authority rekent belastingplichtigen geen kosten aan en bepaalt niet wat dienstverleners rekenen. Elke geaccrediteerde dienstverlener stelt zijn eigen prijs vast."
+    },
+    {
+      "q": "Zijn er boetes?",
+      "a": "De Tax Authority zegt dat na de start van de verplichting boetes gelden op grond van de btw-wetgeving. Ze heeft geen aparte boetetabel voor e-facturatie gepubliceerd, dus beschouw elk specifiek bedrag dat je elders leest als onbevestigd."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Maak je administratie klaar voor Fawtara",
+  "ctaSub": "Paper & Pen maakt PINT OM e-facturen en controleert ze aan de hand van de officiële Omaanse regels. Begin met een gratis werkomgeving.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 tot wijziging van de Executive Regulations of the VAT Law (Staatsblad 1660)",
+      "publisher": "Oman Tax Authority, tekst op Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "FAQ over e-facturatie met Fawtara, laatst bijgewerkt op 30 september 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Geaccrediteerde dienstverleners (actuele lijst)",
+      "publisher": "Oman Tax Authority, Fawtara-portaal",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM-specificaties, versie 1.0.1",
+      "publisher": "OpenPeppol, beheerd door de Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM-regels voor Oman (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, beheerd door de Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Check van de mogelijke invoeringsfase",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Releasenotes van PINT OM 1.0.1",
+      "publisher": "OpenPeppol, beheerd door de Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

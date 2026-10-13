@@ -5,15 +5,15 @@
   "country": "Umman",
   "title": "Umman'da KDV",
   "metaTitle": "Umman'da KDV: Oran, Eşikler, Faturalar · Paper & Pen",
-  "metaDescription": "Umman'ın %5 KDV oranı, 38,500 OMR kayıt eşiği ve bir vergi faturasında bulunması gereken on iki unsur; her biri Oman Tax Authority kaynaklı.",
-  "keywords": "umman kdv, umman kdv oranı, umman kdv kayıt eşiği, umman vergi faturası şartları, fawtara e-fatura, oman tax authority, umman'da şirket vergisi",
+  "metaDescription": "Umman'da %5 KDV oranı, OMR 38,500 eşiği, vergi faturasında olması gerekenler ve Fawtara e-fatura tarihleri, her biri resmi metne dayalı.",
+  "keywords": "umman kdv, umman kdv oranı, umman kdv kayıt eşiği, umman vergi faturası gereklilikleri, fawtara e-fatura, umman e-fatura 2027, decision 189/2026, umman vergi idaresi",
   "heroEyebrow": "Umman",
   "heroTitle": "<em class=\"text-copper-400 not-italic\">Umman KDV</em> kurallarına göre faturalama",
-  "heroSubtitle": "Oran, kayıt eşikleri, bir vergi faturasında nelerin yer alması gerektiği ve e-faturanın ne durumda olduğu. Bu sayfadaki her rakam, Oman Tax Authority'nin kendi yayımladığı metne dayanır.",
+  "heroSubtitle": "Oran, kayıt eşikleri, bir vergi faturasında nelerin yer alması gerektiği ve e-faturanın ne zaman başladığı. Bu sayfadaki her rakam resmi yayımlanmış metne dayanır.",
   "heroBullets": [
     "%5 standart oran",
     "Kayıt için 38,500 OMR",
-    "Fawtara duyuruldu, henüz yürürlükte değil"
+    "1 Nisan 2027'den itibaren Fawtara"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "500 OMR",
       "note": "Bu değerin altındaki teslimlerde, Oman Tax Authority'nin onayıyla basitleştirilmiş fatura kullanılabilir.",
       "source": 3
+    },
+    {
+      "label": "E-fatura (Fawtara)",
+      "value": "1 Nis 2027 / 1 Eki 2027",
+      "note": "Decision 189/2026, e-faturayı yıllık teslimleri OMR 5,000,000'u aşanlar için 1 Nisan 2027'de, OMR 5,000,000 veya altında olanlar için 1 Ekim 2027'de zorunlu kılar. Bundan önce isteğe bağlıdır.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Oman Tax Authority, Uygulama Yönetmeliği'ni yalnızca Arapça yayımlar. Bu liste resmi bir İngilizce çeviri değil, resmi Arapça metnin sadık bir okumasıdır; bu nedenle güvenmeden önce ifadeleri vergi danışmanınızla teyit edin."
   },
   "einvoicing": {
-    "status": "Duyuruldu ve aşamalı, henüz zorunlu değil",
-    "body": "Umman'ın e-fatura programının adı Fawtara'dır. Oman Tax Authority, faturaların kendisine akredite bir hizmet sağlayıcı üzerinden ulaştığı beş köşeli bir model tanımlar ve dört aşama belirler: pilot, genişleme, küçük işletmelerin dahil edilmesi ve tam yaygınlaştırma. Kurum aşama tarihlerini İngilizce olarak yayımlamamıştır ve basında dolaşan tarihler kendi sayfalarında yer almaz. Başka bir yerde okuduğunuz belirli bir Fawtara son tarihini, Oman Tax Authority yayımlayana kadar teyit edilmemiş kabul edin.",
-    "source": 4
+    "status": "1 Nisan 2027'den itibaren zorunlu, şimdilik isteğe bağlı",
+    "body": "Umman'ın e-fatura programının adı Fawtara'dır. 9 Ağustos 2026'da 1660 sayılı Resmi Gazete'de yayımlanan Decision 189/2026 iki tarih belirler: yıllık teslimleri OMR 5,000,000'u aşan vergi mükellefleri için 1 Nisan 2027, OMR 5,000,000 veya altında olanlar için 1 Ekim 2027. Sizin tarihinize kadar e-fatura isteğe bağlıdır ve Vergi İdaresi erken başlamayı teşvik eder. Faturalar PINT OM XML biçiminde yetkili bir hizmet sağlayıcı üzerinden gider; sağlayıcı bunları alıcıya iletir ve Vergi İdaresi'ne bildirir. Umman e-fatura rehberimiz eşik testini ve kuralları açıklar.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Hazırlık",
-      "title": "Tarih tahmin etmeden Fawtara'ya hazırlanmak",
-      "body": "Hazır olmak için yayımlanmış bir son tarihe ihtiyacınız yok. Bölgede yürürlüğe giren her e-fatura sistemi aynı temel disiplini istemiştir: vergi numaraları dahil temiz ve eksiksiz müşteri kayıtları, kesintisiz bir fatura sırası, fatura bazında değil satır bazında kaydedilen vergi uygulaması ve talep halinde erişilebilecek şekilde saklanan belgeler. Kayıtları bu dört koşulu zaten karşılayan bir işletmeyi, tarihler ne zaman açıklanırsa açıklansın kısa bir uygulama süreci bekler. Karşılamayan bir işletme ise bildirim süresini veri temizleyerek geçirir.",
+      "title": "Tarihiniz gelmeden Fawtara'ya hazırlanmak",
+      "body": "Tarihler artık belli, dolayısıyla yapılacak iş kayıtlarınızı hazırlamaktır. Fawtara şunları ister: OM artı 10 hane biçiminde vergi numaraları dahil temiz ve eksiksiz müşteri kayıtları, kesintisiz bir fatura sırası, satır bazında kaydedilen vergi uygulaması, her mal kaleminde bir HS kodu ve her kalemde bir faaliyet kodu, ve talep halinde erişilebilen belgeler. Kayıtları bu koşulları zaten karşılayan bir işletmeyi kısa bir uygulama süreci bekler. Karşılamayan bir işletme ise bildirim süresini veri temizleyerek geçirir.",
       "items": [
         "Vergi numaraları dahil eksiksiz müşteri kayıtları",
         "Her seri için tek, kesintisiz fatura sırası",
         "Satır satır kaydedilen vergi uygulaması",
-        "Talep halinde erişilebilen belgeler"
+        "Kalemlerinizde HS ve faaliyet kodları"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Yıllık teslimleriniz 38,500 OMR'ye ulaştığında veya ulaşması beklendiğinde. 19,250 OMR'den itibaren isteğe bağlı kayıt olabilirsiniz. Her iki rakam da KDV Kanunu'nun kendisinden değil, kayıt eşiklerine ilişkin Başkanlık kararından gelir; bu yüzden Kanun değişmeden de değişebilirler."
     },
     {
-      "q": "Umman'da e-fatura artık zorunlu mu?",
-      "a": "Henüz değil. Oman Tax Authority, akredite hizmet sağlayıcıları kullanan aşamalı, beş köşeli bir e-fatura modeli olan Fawtara'yı duyurmuş ve dört yaygınlaştırma aşaması tanımlamıştır. Aşama tarihlerini kendi sayfalarında İngilizce olarak yayımlamadığı için burada bir tarih belirtmiyoruz. Güncel durum için Oman Tax Authority'nin e-fatura sayfalarını kontrol edin."
+      "q": "Umman'da e-fatura ne zaman zorunlu?",
+      "a": "Yıllık teslimleriniz OMR 5,000,000'u aşıyorsa 1 Nisan 2027'den, OMR 5,000,000 veya altındaysa 1 Ekim 2027'den itibaren. Her iki tarihi de Decision 189/2026 belirler. Tarihinizden önce isteğe bağlı olarak başlayabilirsiniz. Vergi İdaresi'nin SSS belgesi, eşik için teslimlerinizi nasıl sayacağınızı açıklar."
     },
     {
       "q": "Umman'da İngilizce fatura düzenleyebilir miyim?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Umman'da doğru fatura kesin, ücretsiz",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "KDV Kanunu Uygulama Yönetmeliği'ni değiştiren Decision 189/2026 (Resmi Gazete 1660)",
+      "publisher": "Oman Tax Authority, metin Qanoon.om'da",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Fawtara e-fatura SSS, son güncelleme 30 Eylül 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "VAT di Oman",
   "metaTitle": "VAT di Oman: Kadar, Ambang, Invois · Paper & Pen",
-  "metaDescription": "Kadar VAT 5% Oman, ambang pendaftaran OMR 38,500 dan dua belas butiran yang mesti ada pada invois cukai, setiap satu dengan rujukan kepada Tax Authority.",
-  "keywords": "vat oman, kadar vat oman, cukai nilai tambah oman, ambang pendaftaran vat oman, syarat invois cukai oman, e-invois fawtara, oman tax authority",
+  "metaDescription": "Kadar VAT 5% Oman, ambang OMR 38,500, apa yang mesti ada pada invois cukai dan tarikh e-invois Fawtara, setiap satu merujuk teks rasmi.",
+  "keywords": "vat oman, kadar vat oman, ambang pendaftaran vat oman, keperluan invois cukai oman, e-invois fawtara, e-invois oman 2027, decision 189/2026, pihak berkuasa cukai oman",
   "heroEyebrow": "Oman",
   "heroTitle": "Membuat invois mengikut peraturan <em class=\"text-copper-400 not-italic\">VAT Oman</em>",
-  "heroSubtitle": "Kadar, ambang pendaftaran, apa yang mesti ditunjukkan oleh invois cukai dan status e-invois bagi VAT Oman (cukai nilai tambah Teluk, bukan SST Malaysia). Setiap angka di halaman ini merujuk kepada teks yang diterbitkan sendiri oleh Oman Tax Authority.",
+  "heroSubtitle": "Kadar, ambang pendaftaran, apa yang mesti ditunjukkan oleh invois cukai dan bila e-invois bermula. Setiap angka di halaman ini merujuk kepada teks rasmi yang diterbitkan.",
   "heroBullets": [
     "Kadar standard 5%",
     "OMR 38,500 untuk mendaftar",
-    "Fawtara diumumkan, belum berkuat kuasa"
+    "Fawtara mulai 1 April 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Pembekalan di bawah nilai ini boleh menggunakan invois ringkas, dengan kelulusan Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "E-invois (Fawtara)",
+      "value": "1 Apr 2027 / 1 Okt 2027",
+      "note": "Decision 189/2026 mewajibkan e-invois pada 1 April 2027 bagi pembekalan tahunan melebihi OMR 5,000,000, dan pada 1 Oktober 2027 bagi OMR 5,000,000 atau kurang. Sebelum itu ia secara sukarela.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority menerbitkan Peraturan Pelaksanaan dalam bahasa Arab sahaja. Senarai ini ialah bacaan yang setia terhadap teks rasmi bahasa Arab, bukan terjemahan rasmi, jadi sahkan perkataannya dengan penasihat cukai anda sebelum bergantung padanya."
   },
   "einvoicing": {
-    "status": "Diumumkan dan berperingkat, belum diwajibkan",
-    "body": "Program e-invois Oman dinamakan Fawtara. Tax Authority menerangkan model lima penjuru di mana invois sampai kepadanya melalui penyedia perkhidmatan yang diakreditasi, dan menggariskan empat fasa: perintis, perluasan, kemasukan perniagaan yang lebih kecil, dan pelaksanaan penuh. Pihak berkuasa belum menerbitkan tarikh fasa dalam bahasa Inggeris, dan tarikh yang tersebar dalam akhbar tidak terdapat pada halamannya sendiri. Anggaplah sebarang tarikh akhir Fawtara yang anda baca di tempat lain sebagai belum disahkan sehingga Tax Authority menerbitkannya.",
-    "source": 4
+    "status": "Wajib mulai 1 April 2027, sukarela sekarang",
+    "body": "Program e-invois Oman dinamakan Fawtara. Decision 189/2026, yang diterbitkan dalam Warta Rasmi (Official Gazette) keluaran 1660 pada 9 Ogos 2026, menetapkan dua tarikh: 1 April 2027 bagi orang bercukai yang pembekalan tahunannya melebihi OMR 5,000,000, dan 1 Oktober 2027 bagi mereka yang OMR 5,000,000 atau kurang. Sehingga tarikh anda, e-invois adalah sukarela, dan Tax Authority menggalakkan permulaan awal. Invois dihantar dalam PINT OM XML melalui penyedia perkhidmatan bertauliah, yang menyampaikannya kepada pembeli dan melaporkannya kepada Tax Authority. Panduan e-invois Oman kami menerangkan ujian ambang dan peraturannya.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Membuat persediaan",
-      "title": "Bersedia untuk Fawtara tanpa meneka tarikh",
-      "body": "Anda tidak memerlukan tarikh akhir yang diterbitkan untuk bersedia. Setiap sistem e-invois yang telah berkuat kuasa di rantau ini menuntut disiplin asas yang sama: rekod pelanggan yang bersih dan lengkap termasuk nombor cukai, urutan invois yang tidak terputus, layanan cukai direkodkan bagi setiap baris dan bukan bagi setiap invois, dan dokumen disimpan dengan cara yang boleh diambil semula apabila diminta. Perniagaan yang rekodnya sudah memenuhi empat syarat itu akan menghadapi pelaksanaan yang singkat bila-bila tarikhnya ditetapkan. Perniagaan yang tidak, akan menghabiskan tempoh notis untuk membersihkan data.",
+      "title": "Bersedia untuk Fawtara sebelum tarikh anda",
+      "body": "Tarikh kini telah ditetapkan, jadi kerjanya ialah menyediakan rekod anda. Fawtara memerlukan rekod pelanggan yang bersih dan lengkap termasuk nombor cukai dalam bentuk OM diikuti 10 digit, urutan invois yang tidak terputus, layanan cukai direkodkan bagi setiap baris, kod HS pada setiap item barangan dan kod aktiviti pada setiap item, serta dokumen yang boleh diambil semula apabila diminta. Perniagaan yang rekodnya sudah memenuhi syarat ini hanya menghadapi pelaksanaan yang singkat. Perniagaan yang belum akan menghabiskan tempoh notisnya untuk membersihkan data.",
       "items": [
         "Rekod pelanggan yang lengkap, termasuk nombor cukai",
         "Satu urutan invois yang tidak terputus bagi setiap siri",
         "Layanan cukai direkodkan baris demi baris",
-        "Dokumen boleh diambil semula apabila diminta"
+        "Kod HS dan kod aktiviti pada item anda"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Apabila pembekalan tahunan anda mencapai atau dijangka mencapai OMR 38,500. Anda boleh mendaftar secara sukarela bermula dari OMR 19,250. Kedua-dua angka ini datang daripada keputusan Pengerusi tentang ambang pendaftaran dan bukan daripada VAT Law itu sendiri, sebab itu ia boleh berubah tanpa Undang-undang berubah."
     },
     {
-      "q": "Adakah e-invois sudah diwajibkan di Oman?",
-      "a": "Belum. Tax Authority telah mengumumkan Fawtara, model e-invois lima penjuru berperingkat yang menggunakan penyedia perkhidmatan yang diakreditasi, dan menerangkan empat fasa pelaksanaan. Ia belum menerbitkan tarikh fasa dalam bahasa Inggeris pada halamannya sendiri, jadi kami tidak menyatakan tarikh di sini. Semak halaman e-invois Tax Authority untuk kedudukan semasa."
+      "q": "Bilakah e-invois wajib di Oman?",
+      "a": "Mulai 1 April 2027 jika pembekalan tahunan anda melebihi OMR 5,000,000, dan mulai 1 Oktober 2027 jika OMR 5,000,000 atau kurang. Decision 189/2026 menetapkan kedua-dua tarikh. Anda boleh bermula secara sukarela sebelum tarikh anda. Soalan Lazim Tax Authority menerangkan cara mengira pembekalan anda untuk ambang tersebut."
     },
     {
       "q": "Bolehkah saya mengeluarkan invois dalam bahasa Inggeris di Oman?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Buat invois dengan betul di Oman, percuma",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 yang meminda Executive Regulations of the VAT Law (Warta Rasmi 1660)",
+      "publisher": "Oman Tax Authority, teks di Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Soalan Lazim e-invois Fawtara, kemas kini terakhir 30 September 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

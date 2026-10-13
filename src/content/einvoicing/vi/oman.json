@@ -1,0 +1,319 @@
+{
+  "locale": "vi",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Đã đối chiếu với các văn bản của Tax Authority ngày 14/10/2026.",
+  "title": "Hóa đơn điện tử tại Oman (Fawtara)",
+  "metaTitle": "Hóa đơn điện tử Oman: mốc và quy định Fawtara · Paper & Pen",
+  "metaDescription": "Fawtara bắt đầu ngày 1/4/2027 với mức trên OMR 5 triệu và ngày 1/10/2027 với phần còn lại. Cách xác định ngưỡng, trường PINT OM, theo Tax Authority.",
+  "keywords": "hóa đơn điện tử oman, fawtara, fawtara oman, hóa đơn điện tử oman 2027, pint om, hóa đơn điện tử oman tax authority, nhà cung cấp dịch vụ được công nhận oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "Hóa đơn điện tử tại Oman: <em class=\"text-copper-400 not-italic\">những gì bắt đầu từ năm 2027</em>",
+  "heroSubtitle": "Decision 189/2026 quy định hóa đơn điện tử bắt buộc đối với doanh nghiệp đã đăng ký thuế GTGT theo hai nhóm, từ ngày 1/4/2027 và từ ngày 1/10/2027. Hướng dẫn này giải thích mốc nào áp dụng cho bạn, hóa đơn đến Tax Authority bằng cách nào, hóa đơn điện tử PINT OM phải có những gì, và những gì cần sửa trong hồ sơ của bạn ngay bây giờ. Mọi quy định đều dẫn liên kết đến văn bản chính thức.",
+  "heroBullets": [
+    "1/4/2027: doanh số cung cấp trên OMR 5 triệu",
+    "1/10/2027: OMR 5 triệu trở xuống",
+    "Được phép bắt đầu tự nguyện ngay bây giờ"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Tổng quan về Fawtara",
+  "facts": [
+    {
+      "label": "Cơ sở pháp lý",
+      "value": "Decision 189/2026",
+      "note": "Quyết định này sửa đổi Executive Regulations of the VAT Law. Tax Authority ban hành ngày 3/8/2026, và Công báo đăng tải trong số 1660 ngày 9/8/2026. Điều 143 mới yêu cầu hóa đơn thuế ở định dạng điện tử được phê duyệt, bảo mật và có số duy nhất.",
+      "source": 1
+    },
+    {
+      "label": "Nhóm thứ nhất",
+      "value": "1/4/2027",
+      "note": "Người nộp thuế có doanh số cung cấp hằng năm trên OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Nhóm thứ hai",
+      "value": "1/10/2027",
+      "note": "Người nộp thuế có doanh số cung cấp hằng năm từ OMR 5,000,000 trở xuống.",
+      "source": 1
+    },
+    {
+      "label": "Trước mốc của bạn",
+      "value": "Tự nguyện",
+      "note": "Tax Authority khuyến khích doanh nghiệp thử nghiệm hệ thống và phát hành hóa đơn điện tử trước mốc bắt buộc của mình.",
+      "source": 2
+    },
+    {
+      "label": "Định dạng",
+      "value": "XML, PINT OM",
+      "note": "XML là định dạng có cấu trúc bắt buộc. Đặc tả của Oman là PINT OM phiên bản 1.0.1, một định dạng Peppol do Tax Authority duy trì.",
+      "source": 4
+    },
+    {
+      "label": "Thời điểm B2B",
+      "value": "Theo thời gian thực",
+      "note": "Hóa đơn điện tử giữa doanh nghiệp với doanh nghiệp đi qua mạng lưới ngay khi bạn phát hành.",
+      "source": 2
+    },
+    {
+      "label": "Thời điểm B2C",
+      "value": "24 giờ",
+      "note": "Hóa đơn cho người tiêu dùng, hoặc cho người mua chưa đăng ký thuế GTGT, được báo cáo trong vòng 24 giờ.",
+      "source": 2
+    },
+    {
+      "label": "Hóa đơn cũ",
+      "value": "Không phải nộp",
+      "note": "Hóa đơn phát hành trước khi bạn bắt đầu không được tải lên Tax Authority.",
+      "source": 2
+    },
+    {
+      "label": "Điều chỉnh",
+      "value": "Giấy báo có hoặc giấy báo nợ",
+      "note": "Bạn không thể hủy hoặc sửa hóa đơn điện tử đã phát hành. Bạn điều chỉnh bằng giấy báo có hoặc giấy báo nợ điện tử.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Mốc nào áp dụng cho bạn",
+      "body": "Việc xác định dựa trên doanh số cung cấp hằng năm của bạn tính đến ngày 31/3/2027. Hãy tính doanh số cung cấp chịu thuế (không tính việc cung cấp tài sản cố định), cộng thêm hàng hóa và dịch vụ theo cơ chế tự tính thuế (reverse charge), và cộng doanh số cung cấp nội khối GCC.\n\nBạn bắt đầu từ ngày 1/4/2027 nếu một trong hai tổng sau trên OMR 5,000,000: doanh số cung cấp từ ngày 1/4/2026 đến 31/3/2027, hoặc doanh số cung cấp dự kiến từ ngày 1/4/2027 đến 31/3/2028. Nếu không tổng nào trên OMR 5,000,000, bạn bắt đầu từ ngày 1/10/2027. Doanh nghiệp không cư trú chỉ tính doanh số cung cấp tại Oman. Nhóm thuế GTGT được xác định như một nhóm, không xét từng thành viên. Tax Authority còn có công cụ kiểm tra trực tuyến về đợt triển khai: bạn nhập mã số thuế GTGT và các khoảng doanh số cung cấp của mình.",
+      "items": [
+        "Tính: doanh số cung cấp chịu thuế, doanh số theo cơ chế tự tính thuế, doanh số cung cấp nội khối GCC",
+        "Không tính: việc cung cấp tài sản cố định",
+        "Hai giai đoạn: 12 tháng đến ngày 31/3/2027, và 12 tháng từ ngày 1/4/2027",
+        "Bất kỳ giai đoạn nào trên OMR 5,000,000 thì áp dụng mốc 1/4/2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Hóa đơn đến Tax Authority bằng cách nào",
+      "body": "Fawtara dùng mô hình năm góc. Góc 1 là bạn, người bán. Góc 2 là nhà cung cấp dịch vụ được công nhận của bạn. Góc 3 là nhà cung cấp dịch vụ của người mua, góc 4 là người mua, và góc 5 là Tax Authority. Phần mềm của bạn không bao giờ gửi trực tiếp đến Tax Authority. Phần mềm gửi hóa đơn điện tử đến nhà cung cấp của bạn.\n\nNhà cung cấp của bạn kiểm tra hóa đơn theo các quy tắc schematron chính thức của Oman, chuyển hóa đơn đến nhà cung cấp của người mua trên mạng lưới Peppol, và gửi một chứng từ dữ liệu thuế đến Tax Authority. Mỗi lúc bạn liên kết với một nhà cung cấp qua cổng Fawtara, và bạn có thể đổi nhà cung cấp sau này. Việc hóa đơn tuân thủ quy định vẫn là trách nhiệm của bạn.",
+      "items": [
+        "C1 người bán, C2 nhà cung cấp của người bán, C3 nhà cung cấp của người mua, C4 người mua, C5 Tax Authority",
+        "Nhà cung cấp xác thực hóa đơn, không phải Tax Authority",
+        "Mỗi lúc một nhà cung cấp, liên kết trên cổng Fawtara",
+        "Trách nhiệm về một hóa đơn đúng vẫn thuộc về bạn"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Hóa đơn điện tử PINT OM phải có những gì",
+      "body": "PINT OM bổ sung các quy tắc của Oman lên trên hóa đơn Peppol. Phần lớn trường hợp bị từ chối là do thiếu dữ liệu gốc, không phải do tổng tiền hóa đơn. Hãy kiểm tra các trường này trong hồ sơ của bạn trước.",
+      "items": [
+        "UUID hóa đơn duy nhất, phiên bản 5, và thời điểm phát hành",
+        "Ngày phát hành không nằm trong tương lai theo giờ Muscat",
+        "Mã số thuế GTGT của người bán theo dạng OM cộng 10 chữ số, địa chỉ và số điện thoại của người bán",
+        "Với hóa đơn thuế đầy đủ, mã số thuế GTGT hoặc mã định danh và địa chỉ của người mua",
+        "Thuế GTGT theo từng dòng, và loại thuế theo từng dòng (S, E, O hoặc Z)",
+        "Thuế suất tiêu chuẩn 5%; dòng được miễn thuế và dòng thuế suất 0% cần mã lý do",
+        "Với hàng hóa, mã HS Oman 12 chữ số và cờ hàng hóa hoặc dịch vụ trên mỗi dòng",
+        "Mã hoạt động ISIC cho mỗi mặt hàng",
+        "Số tiền tối đa 3 chữ số thập phân, tổng thuế GTGT tính bằng OMR"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Giấy báo có và giấy báo nợ",
+      "body": "Sau khi phát hành hóa đơn điện tử, bạn không hủy, không xóa và không sửa nó. Bạn phát hành giấy báo có điện tử (để giảm) hoặc giấy báo nợ điện tử (để tăng). Giấy báo nêu hóa đơn gốc theo số, ngày và UUID, và có mã lý do: CAN khi hủy hoặc trả hàng, VAT khi thay đổi cách xử lý thuế GTGT, VAL khi thay đổi giá trị, QTY khi thay đổi số lượng, hoặc OTH cho lý do khác. Nếu bạn lập hóa đơn nhầm người mua, hãy phát hành giấy báo có cho người mua đó và một hóa đơn mới cho đúng người mua.",
+      "items": [
+        "Giấy báo có: loại chứng từ 381",
+        "Giấy báo nợ: loại chứng từ 383",
+        "Số, ngày và UUID của hóa đơn gốc trên mọi giấy báo",
+        "Mã lý do: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Chọn nhà cung cấp dịch vụ được công nhận",
+      "body": "Tax Authority công bố danh sách cập nhật các nhà cung cấp dịch vụ được công nhận. Ngày 13/10/2026, danh sách có 36 mục, và vẫn đang tăng. Tax Authority không thu phí người nộp thuế và không ấn định giá của nhà cung cấp, nên mỗi nhà cung cấp tự đặt mô hình riêng: thuê bao, tính theo hóa đơn hoặc hình thức khác. Hãy so sánh các nhà cung cấp về những gì họ kết nối được, nơi họ lưu dữ liệu của bạn, hỗ trợ tiếng Ả Rập, và cách bạn chuyển sang nơi khác. Mỗi nhà cung cấp tự nêu nơi lưu trữ dữ liệu của mình trên danh sách, và Tax Authority không xác minh điều đó.",
+      "items": [
+        "Chỉ dùng nhà cung cấp có trong danh sách của Tax Authority",
+        "Hỏi phần mềm của bạn kết nối bằng cách nào: API, tải tệp lên hay bộ kết nối có sẵn",
+        "Hỏi dữ liệu của bạn được lưu ở đâu và lưu trữ trong bao lâu",
+        "Kiểm tra các bước chuyển sang nhà cung cấp khác trước khi ký"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Bán hàng B2C và mã QR",
+      "body": "Giao dịch bán cho người tiêu dùng, hoặc cho bất kỳ người mua nào chưa đăng ký thuế GTGT, được báo cáo cho Tax Authority trong vòng 24 giờ. Bạn đưa cho người mua một hóa đơn dạng người đọc được qua bất kỳ kênh nào. Bản in hoặc bản PDF đó phải có mã QR, do bạn với tư cách người bán tạo ra. Mã QR không thuộc hóa đơn điện tử XML. Tax Authority dẫn chiếu Phụ lục D của Peppol Oman Architecture về nội dung mã QR. Phụ lục đó chưa được công khai, vì vậy hãy coi mọi bố cục mã QR bạn thấy lúc này là chưa được xác nhận.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Việc cần làm ngay",
+      "body": "Bạn không cần chờ đến mốc của mình mới chuẩn bị. Phần việc tốn nhiều thời gian nhất là dữ liệu gốc, và bạn có thể bắt đầu ngay hôm nay.",
+      "items": [
+        "Xác định ngưỡng và ghi lại ngày bắt đầu của bạn",
+        "Kiểm tra mọi mã số thuế GTGT của khách hàng: OM cộng 10 chữ số",
+        "Thêm mã HS 12 chữ số cho mỗi mặt hàng hóa và mã ISIC cho mỗi mặt hàng",
+        "Ánh xạ đơn vị tính sang mã đơn vị UN/ECE (ví dụ, cái/chiếc là H87)",
+        "Ngừng xóa hoặc đánh số lại hóa đơn đã phát hành: hãy dùng giấy báo có",
+        "Chọn một nhà cung cấp trong danh sách của Tax Authority và thử nghiệm sớm",
+        "Tự lưu trữ hồ sơ của bạn: Tax Authority không trả lại dữ liệu hóa đơn"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Ai gửi gì, theo từng trường hợp",
+    "intro": "Đường đi của hóa đơn phụ thuộc vào người mua là ai. Bảng cho thấy các góc trong từng trường hợp theo phần câu hỏi thường gặp của Tax Authority.",
+    "columns": [
+      "Trường hợp",
+      "Luồng",
+      "Điều gì xảy ra"
+    ],
+    "rows": [
+      {
+        "label": "B2B trong nước",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Theo thời gian thực. Nhà cung cấp của bạn chuyển hóa đơn đến nhà cung cấp của người mua và báo cáo dữ liệu thuế cho Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C, hoặc người mua chưa đăng ký thuế GTGT",
+        "flow": "C1 → C2 → C5",
+        "detail": "Báo cáo trong vòng 24 giờ. Người mua nhận hóa đơn dạng người đọc được có mã QR.",
+        "source": 2
+      },
+      {
+        "label": "Người mua chưa thuộc đợt triển khai nào",
+        "flow": "C1 → C2 → C5",
+        "detail": "Nhà cung cấp của bạn báo cáo dữ liệu thuế. Bạn gửi hóa đơn cho người mua như cách bạn làm hiện nay.",
+        "source": 2
+      },
+      {
+        "label": "Người bán chưa thuộc đợt triển khai nào",
+        "flow": "C1 → C4",
+        "detail": "Người bán đã đăng ký thuế GTGT nằm ngoài các đợt triển khai hiện tại lập hóa đơn như hiện nay. Người mua khấu trừ thuế GTGT đầu vào như hiện nay.",
+        "source": 2
+      },
+      {
+        "label": "Xuất khẩu",
+        "flow": "C1 → C2 → C5",
+        "detail": "Bạn chia sẻ hóa đơn với khách hàng nước ngoài như hiện nay. Dữ liệu thuế đi qua mạng lưới.",
+        "source": 2
+      },
+      {
+        "label": "Điều chỉnh",
+        "flow": "381 / 383",
+        "detail": "Giấy báo đi theo cùng đường đi với hóa đơn mà nó điều chỉnh.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Khi nào hóa đơn điện tử trở thành bắt buộc ở Oman?",
+      "a": "Từ ngày 1/4/2027 đối với người nộp thuế có doanh số cung cấp hằng năm trên OMR 5,000,000, và từ ngày 1/10/2027 đối với người nộp thuế ở mức OMR 5,000,000 trở xuống. Decision 189/2026 quy định cả hai mốc. Trước mốc của bạn, hóa đơn điện tử là tự nguyện và Tax Authority khuyến khích bắt đầu sớm."
+    },
+    {
+      "q": "Làm sao biết doanh nghiệp của tôi thuộc nhóm tháng 4/2027?",
+      "a": "Cộng doanh số cung cấp chịu thuế (không tính tài sản cố định), doanh số theo cơ chế tự tính thuế và doanh số cung cấp nội khối GCC. Nếu tổng từ ngày 1/4/2026 đến 31/3/2027 trên OMR 5,000,000, hoặc bạn dự kiến tổng từ ngày 1/4/2027 đến 31/3/2028 sẽ trên mức đó, bạn bắt đầu từ ngày 1/4/2027. Nếu không, bạn bắt đầu từ ngày 1/10/2027."
+    },
+    {
+      "q": "Hóa đơn PDF có phải là hóa đơn điện tử ở Oman không?",
+      "a": "Không. Hóa đơn điện tử là một tệp XML có cấu trúc theo định dạng PINT OM, đi qua một nhà cung cấp dịch vụ được công nhận. Bạn vẫn có thể in hoặc gửi bản PDF, nhưng khi đến mốc của bạn, chỉ hóa đơn điện tử mới được tính là hóa đơn thuế hợp lệ."
+    },
+    {
+      "q": "Tôi có phải tải lên các hóa đơn cũ không?",
+      "a": "Không. Hóa đơn bạn phát hành trước khi bắt đầu dùng hóa đơn điện tử không phải nộp cho Tax Authority. Hãy lưu chúng trong hồ sơ của bạn theo yêu cầu của luật thuế GTGT."
+    },
+    {
+      "q": "Nếu khách hàng của tôi chưa tham gia Fawtara thì sao?",
+      "a": "Bạn vẫn nộp hóa đơn cho nhà cung cấp dịch vụ của mình, và nhà cung cấp gửi chứng từ dữ liệu thuế đến Tax Authority. Bạn gửi hóa đơn cho khách hàng như cách bạn làm hiện nay."
+    },
+    {
+      "q": "Tax Authority có thu phí Fawtara không?",
+      "a": "Không. Tax Authority không thu phí người nộp thuế và không ấn định mức phí của các nhà cung cấp dịch vụ. Mỗi nhà cung cấp được công nhận tự đặt giá riêng."
+    },
+    {
+      "q": "Có bị phạt không?",
+      "a": "Tax Authority cho biết các khoản phạt theo pháp luật thuế GTGT sẽ áp dụng sau khi quy định bắt buộc có hiệu lực. Cơ quan này chưa công bố bảng phạt riêng cho hóa đơn điện tử, vì vậy hãy coi mọi số tiền cụ thể bạn đọc ở nơi khác là chưa được xác nhận."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Chuẩn bị hồ sơ của bạn cho Fawtara",
+  "ctaSub": "Paper & Pen tạo hóa đơn điện tử PINT OM và kiểm tra chúng theo các quy tắc chính thức của Oman. Hãy bắt đầu với một không gian làm việc miễn phí.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 sửa đổi Executive Regulations of the VAT Law (Công báo số 1660)",
+      "publisher": "Oman Tax Authority, văn bản trên Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Câu hỏi thường gặp về hóa đơn điện tử Fawtara, cập nhật lần cuối ngày 30/9/2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Các nhà cung cấp dịch vụ được công nhận (danh sách cập nhật)",
+      "publisher": "Oman Tax Authority, cổng Fawtara",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Đặc tả PINT OM, phiên bản 1.0.1",
+      "publisher": "OpenPeppol, do Oman Tax Authority duy trì",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Quy tắc PINT OM theo khu vực pháp lý (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, do Oman Tax Authority duy trì",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Kiểm tra đợt triển khai dự kiến",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Ghi chú phát hành PINT OM 1.0.1",
+      "publisher": "OpenPeppol, do Oman Tax Authority duy trì",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

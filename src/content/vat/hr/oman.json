@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "PDV u Omanu",
   "metaTitle": "PDV u Omanu: stopa, pragovi i računi · Paper & Pen",
-  "metaDescription": "Omanska stopa PDV-a od 5%, prag za registraciju od OMR 38,500 i dvanaest podataka koje porezni račun mora sadržavati, svaki s izvorom kod Tax Authority.",
-  "keywords": "pdv oman, stopa pdv-a u omanu, prag za registraciju pdv-a oman, zahtjevi za porezni račun oman, fawtara e-računi, oman tax authority",
+  "metaDescription": "Omanska stopa PDV-a od 5%, prag od OMR 38,500, što porezni račun mora sadržavati i datumi e-računa Fawtara, sve uz službeni tekst.",
+  "keywords": "pdv oman, stopa pdv-a u omanu, prag za registraciju pdv-a oman, zahtjevi za porezni račun oman, fawtara e-računi, e-računi oman 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Oman",
   "heroTitle": "Fakturiranje prema <em class=\"text-copper-400 not-italic\">omanskim pravilima o PDV-u</em>",
-  "heroSubtitle": "Stopa, pragovi za registraciju, što porezni račun mora prikazivati i dokle se stiglo s e-računima. Svaki podatak na ovoj stranici potkrijepljen je službenim tekstom koji je objavila Oman Tax Authority.",
+  "heroSubtitle": "Stopa, pragovi za registraciju, što porezni račun mora prikazivati i kada počinju e-računi. Svaki podatak na ovoj stranici potkrijepljen je službeno objavljenim tekstom.",
   "heroBullets": [
     "Opća stopa 5%",
     "Registracija od OMR 38,500",
-    "Fawtara najavljena, još nije u primjeni"
+    "Fawtara od 1. travnja 2027."
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Za isporuke ispod te vrijednosti može se koristiti pojednostavnjeni račun, uz odobrenje Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "E-računi (Fawtara)",
+      "value": "1. 4. 2027. / 1. 10. 2027.",
+      "note": "Decision 189/2026 uvodi obvezne e-račune 1. travnja 2027. za godišnje isporuke iznad OMR 5,000,000 i 1. listopada 2027. za isporuke od OMR 5,000,000 ili manje. Do tada su dobrovoljni.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Tax Authority objavljuje Provedbeni pravilnik samo na arapskom. Ovaj je popis vjerno tumačenje službenog arapskog teksta, a ne službeni prijevod, pa formulaciju provjerite sa svojim poreznim savjetnikom prije nego što se na nju oslonite."
   },
   "einvoicing": {
-    "status": "Najavljeno i uvodi se u fazama, još nije obvezno",
-    "body": "Omanski program e-računa zove se Fawtara. Tax Authority opisuje model s pet točaka u kojem računi do nje stižu preko akreditiranog pružatelja usluga i navodi četiri faze: pilot, proširenje, uključivanje manjih poduzeća i potpuno uvođenje. Tijelo nije objavilo datume faza na engleskom, a datumi koji kruže u medijima ne nalaze se na njegovim stranicama. Svaki određeni rok za Fawtaru koji pročitate negdje drugdje smatrajte nepotvrđenim dok ga Tax Authority ne objavi.",
-    "source": 4
+    "status": "Obvezno od 1. travnja 2027., zasad dobrovoljno",
+    "body": "Omanski program e-računa zove se Fawtara. Decision 189/2026, objavljena u Official Gazette br. 1660 dana 9. kolovoza 2026., određuje dva datuma: 1. travnja 2027. za porezne obveznike čije godišnje isporuke prelaze OMR 5,000,000 i 1. listopada 2027. za one s isporukama od OMR 5,000,000 ili manje. Do vašeg datuma e-računi su dobrovoljni, a porezna uprava potiče raniji početak. Računi se šalju u formatu PINT OM XML preko akreditiranog pružatelja usluga, koji ih dostavlja kupcu i prijavljuje poreznoj upravi. Naš vodič kroz omanske e-račune objašnjava test praga i pravila.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Priprema",
-      "title": "Pripremite se za Fawtaru bez nagađanja datuma",
-      "body": "Ne treba vam objavljeni rok da biste bili spremni. Svaki sustav e-računa koji je u regiji krenuo tražio je istu temeljnu disciplinu: uredne i potpune podatke o kupcima, uključujući porezne brojeve, neprekinut niz brojeva računa, porezni tretman evidentiran po stavci, a ne po računu, te dokumente pohranjene tako da ih možete dohvatiti na zahtjev. Poduzeće čija evidencija već ispunjava ta četiri uvjeta čeka kratka provedba kad god datumi stignu. Poduzeće koje ih ne ispunjava provest će otkazni rok čisteći podatke.",
+      "title": "Pripremite se za Fawtaru prije svog datuma",
+      "body": "Datumi su sada određeni, pa je zadatak pripremiti vašu evidenciju. Fawtara traži uredne i potpune podatke o kupcima, uključujući porezne brojeve u obliku OM i 10 znamenki, neprekinut niz brojeva računa, porezni tretman evidentiran po stavci, HS oznaku na svakoj stavci robe i šifru djelatnosti na svakoj stavci te dokumente koje možete dohvatiti na zahtjev. Poduzeće čija evidencija već ispunjava te uvjete čeka kratka provedba. Poduzeće koje ih ne ispunjava provest će otkazni rok čisteći podatke.",
       "items": [
         "Potpuni podaci o kupcima, uključujući porezne brojeve",
         "Jedan neprekinut niz računa po seriji",
         "Porezni tretman evidentiran po stavci",
-        "Dokumenti dostupni na zahtjev"
+        "HS oznake i šifre djelatnosti na vašim artiklima"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Kad vaše godišnje isporuke dosegnu ili se očekuje da će dosegnuti OMR 38,500. Dobrovoljno se možete registrirati od OMR 19,250. Oba iznosa proizlaze iz odluke predsjednika o pragovima za registraciju, a ne iz samog Zakona o PDV-u, zato se mogu promijeniti bez izmjene Zakona."
     },
     {
-      "q": "Jesu li e-računi u Omanu već obvezni?",
-      "a": "Još nisu. Tax Authority je najavila Fawtaru, fazni model e-računa s pet točaka koji koristi akreditirane pružatelje usluga, i opisuje četiri faze uvođenja. Datume faza nije objavila na engleskom na svojim stranicama, pa ovdje ne navodimo datum. Trenutačno stanje provjerite na stranicama Tax Authority o e-računima."
+      "q": "Od kada su e-računi u Omanu obvezni?",
+      "a": "Od 1. travnja 2027. ako vaše godišnje isporuke prelaze OMR 5,000,000 i od 1. listopada 2027. ako iznose OMR 5,000,000 ili manje. Oba datuma određuje Decision 189/2026. Prije svog datuma možete početi dobrovoljno. Česta pitanja porezne uprave objašnjavaju kako računati isporuke za prag."
     },
     {
       "q": "Mogu li u Omanu izdati račun na engleskom?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Ispravno fakturirajte u Omanu, besplatno",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 o izmjeni Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, tekst na Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Česta pitanja o e-računima Fawtara, zadnje ažuriranje 30. rujna 2026.",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

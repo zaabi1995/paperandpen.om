@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "Moms i Oman",
   "metaTitle": "Moms i Oman: momssats, gränsvärden, fakturor · Paper & Pen",
-  "metaDescription": "Omans momssats på 5 %, registreringsgränsen på OMR 38,500 och de tolv uppgifter en skattefaktura måste innehålla, alla med källa hos skattemyndigheten.",
-  "keywords": "moms oman, momssats oman, gräns för momsregistrering oman, krav på skattefaktura oman, fawtara e-faktura, oman tax authority",
+  "metaDescription": "Omans momssats på 5 %, gränsen på OMR 38,500, vad en skattefaktura måste innehålla och datumen för Fawtara, alla med källa i den officiella texten.",
+  "keywords": "moms oman, momssats oman, gräns för momsregistrering oman, krav på skattefaktura oman, fawtara e-faktura, e-fakturering oman 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Oman",
   "heroTitle": "Fakturering enligt <em class=\"text-copper-400 not-italic\">Omans momsregler</em>",
-  "heroSubtitle": "Momssatsen, gränsvärdena för registrering, vad en skattefaktura måste visa och var e-fakturering står i dag. Varje siffra på sidan har en källa i den text som Oman Tax Authority själv har publicerat.",
+  "heroSubtitle": "Momssatsen, gränsvärdena för registrering, vad en skattefaktura måste visa och när e-fakturering börjar. Varje siffra på sidan har en källa i den officiellt publicerade texten.",
   "heroBullets": [
     "Normalsats 5 %",
     "OMR 38,500 för registrering",
-    "Fawtara aviserat, ännu inte infört"
+    "Fawtara från 1 april 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Leveranser under detta värde får använda en förenklad faktura, med skattemyndighetens godkännande.",
       "source": 3
+    },
+    {
+      "label": "E-fakturering (Fawtara)",
+      "value": "1 apr 2027 / 1 okt 2027",
+      "note": "Decision 189/2026 gör e-fakturering obligatorisk den 1 april 2027 vid en årlig omsättning över OMR 5,000,000 och den 1 oktober 2027 vid OMR 5,000,000 eller mindre. Dessförinnan är den frivillig.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Skattemyndigheten publicerar tillämpningsföreskrifterna endast på arabiska. Listan är en trogen läsning av den officiella arabiska texten, inte en officiell engelsk översättning, så bekräfta formuleringen med din skatterådgivare innan du förlitar dig på den."
   },
   "einvoicing": {
-    "status": "Aviserat och i etapper, ännu inte obligatoriskt",
-    "body": "Omans program för e-fakturering heter Fawtara. Skattemyndigheten beskriver en femhörnsmodell där fakturorna når myndigheten via en ackrediterad tjänsteleverantör, och anger fyra etapper: ett pilotprojekt, en utvidgning, anslutning av mindre företag och fullt införande. Myndigheten har inte publicerat datumen för etapperna på engelska, och datum som cirkulerar i pressen finns inte på dess egna sidor. Se varje specifikt Fawtara-datum som du läser någon annanstans som obekräftat tills skattemyndigheten publicerar det.",
-    "source": 4
+    "status": "Obligatorisk från 1 april 2027, frivillig nu",
+    "body": "Omans program för e-fakturering heter Fawtara. Decision 189/2026, publicerat i den officiella tidningen nr 1660 den 9 augusti 2026, anger två datum: 1 april 2027 för skattskyldiga vars årliga omsättning överstiger OMR 5,000,000 och 1 oktober 2027 för dem med OMR 5,000,000 eller mindre. Fram till ditt datum är e-fakturering frivillig, och skattemyndigheten uppmuntrar en tidig start. Fakturorna skickas i PINT OM XML via en ackrediterad tjänsteleverantör, som levererar dem till köparen och rapporterar dem till skattemyndigheten. Vår guide om e-fakturering i Oman förklarar tröskeltestet och reglerna.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Förberedelser",
-      "title": "Bli redo för Fawtara utan att gissa datum",
-      "body": "Du behöver inget publicerat datum för att vara redo. Alla system för e-fakturering som har införts i regionen har krävt samma grundläggande ordning: rena och fullständiga kunduppgifter inklusive skattenummer, en obruten fakturaserie, skattebehandling angiven per rad i stället för per faktura och dokument som sparas så att de kan tas fram på begäran. Ett företag vars uppgifter redan uppfyller de fyra villkoren har ett kort införande framför sig, när datumen än kommer. Ett företag som inte gör det får lägga varseltiden på att städa data i stället.",
+      "title": "Bli redo för Fawtara före ditt datum",
+      "body": "Datumen är nu fastställda, så arbetet består i att få ordning på dina uppgifter. Fawtara kräver rena och fullständiga kunduppgifter inklusive skattenummer i formen OM plus 10 siffror, en obruten fakturaserie, skattebehandling angiven per rad, en HS-kod på varje vara och en verksamhetskod på varje artikel samt dokument som kan tas fram på begäran. Ett företag vars uppgifter redan uppfyller dessa villkor har ett kort införande framför sig. Ett företag som inte gör det får lägga sin varseltid på att städa data.",
       "items": [
         "Fullständiga kunduppgifter, skattenummer inräknade",
         "En obruten fakturaserie per nummerserie",
         "Skattebehandling angiven rad för rad",
-        "Dokument som kan tas fram på begäran"
+        "HS-koder och verksamhetskoder på dina artiklar"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "När din årliga försäljning når eller väntas nå OMR 38,500. Du får registrera dig frivilligt från OMR 19,250. Båda beloppen kommer från ordförandens beslut om registreringsgränser och inte från själva momslagen, och därför kan de ändras utan att lagen ändras."
     },
     {
-      "q": "Är e-fakturering obligatorisk i Oman än?",
-      "a": "Inte än. Skattemyndigheten har aviserat Fawtara, en femhörnsmodell för e-fakturering i etapper med ackrediterade tjänsteleverantörer, och beskriver fyra etapper för införandet. Den har inte publicerat datumen för etapperna på engelska på sina egna sidor, så vi anger inget datum här. Se skattemyndighetens sidor om e-fakturering för det aktuella läget."
+      "q": "När blir e-fakturering obligatorisk i Oman?",
+      "a": "Från den 1 april 2027 om din årliga omsättning överstiger OMR 5,000,000 och från den 1 oktober 2027 om den är OMR 5,000,000 eller mindre. Decision 189/2026 anger båda datumen. Du får börja frivilligt före ditt datum. Skattemyndighetens FAQ förklarar hur du räknar din omsättning för gränsen."
     },
     {
       "q": "Kan jag utfärda en faktura på engelska i Oman?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Fakturera rätt i Oman, gratis",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 om ändring av Executive Regulations of the VAT Law (officiella tidningen nr 1660)",
+      "publisher": "Oman Tax Authority, text på Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "FAQ om e-fakturering i Fawtara, senast uppdaterad 30 september 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

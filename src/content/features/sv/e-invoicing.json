@@ -1,0 +1,113 @@
+{
+  "locale": "sv",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-fakturering för Oman",
+  "metaTitle": "Program för e-fakturering i Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen skapar PINT OM XML, kontrollerar det med Omans officiella schematron, utfärdar en gång med UUID v5 och fryser fakturan. För Fawtara.",
+  "keywords": "program för e-fakturering oman, fawtara program, pint om xml, e-faktura oman, schematron-validering oman, kreditfaktura e-fakturering oman, debetfaktura oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-fakturor som klarar <em class=\"text-copper-400 not-italic\">Omans regler</em> innan de skickas",
+  "heroSubtitle": "Paper & Pen gör om dina fakturor, kreditfakturor och debetfakturor till PINT OM XML och kontrollerar var och en mot Omans officiella schematron. En beredskapskontroll listar vad du ska rätta i dina uppgifter. En faktura som klarar kontrollen utfärdas en gång, med ett eget UUID, och förblir fryst.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Kontroll mot Omans officiella schematron",
+    "Utfärdas en gång, sedan fryst"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Varje faktura blir en PINT OM-e-faktura: det UBL 2.1 XML-format som Omans Fawtara använder."
+    },
+    {
+      "icon": "shield",
+      "title": "Omans officiella schematron",
+      "desc": "XML-filen kontrolleras mot de officiella OpenPeppol PINT OM schematron-reglerna, version 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Beredskapskontroll med åtgärder",
+      "desc": "En genomgång av dina företags-, kund- och artikeluppgifter listar varje brist och var du åtgärdar den."
+    },
+    {
+      "icon": "lock",
+      "title": "Utfärda en gång, UUID v5",
+      "desc": "En faktura utfärdas en enda gång med ett UUID version 5. Ett nytt försök eller ett dubbelklick skapar aldrig en andra."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fryst när den utfärdas",
+      "desc": "Efter utfärdandet kan ingen ändra beloppen, makulera fakturan eller radera den."
+    },
+    {
+      "icon": "receipt",
+      "title": "Kredit- och debetfakturor",
+      "desc": "Skapa en nota från originalfakturan. Den har nummer, datum, UUID och en orsakskod."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Innan du utfärdar",
+      "title": "Hitta bristerna medan du fortfarande kan rätta dem",
+      "body": "De flesta avvisningar av e-fakturor beror på grunddata, inte på summor: ett kundmomsnummer i fel form, en saknad säljaradress, en artikel utan HS-kod eller verksamhetskod. Beredskapskontrollen går igenom dina uppgifter mot PINT OM-reglerna och grupperar varje brist efter den post som behöver rättas, så att du rättar en produkt en gång och varje fakturarad med den blir korrekt. En faktura som inte klarar kontrollen utfärdas inte. Den behåller sina brister och du kan fortfarande redigera den.",
+      "items": [
+        "Brister grupperade efter företag, kund och artikel",
+        "Varje brist anger vilken post som ska rättas",
+        "En underkänd faktura förblir ett utkast som du kan rätta"
+      ]
+    },
+    {
+      "eyebrow": "När du utfärdar",
+      "title": "En faktura, ett UUID, inga senare ändringar",
+      "body": "Enligt Fawtara kan en utfärdad faktura inte makuleras eller ändras. Paper & Pen följer samma regel. När en faktura klarar kontrollen utfärdas den med ett UUID version 5, och dess XML sparas tillsammans med den. Därefter är beloppen, raderna och kunden låsta, och fakturan kan inte makuleras eller raderas. Betalningar bokförs som vanligt.",
+      "items": [
+        "UUID version 5 sparat på fakturan",
+        "XML-filen sparas med den utfärdade fakturan",
+        "Belopp låsta, ingen makulering, ingen radering"
+      ]
+    },
+    {
+      "eyebrow": "När något ändras",
+      "title": "Rätta med en kreditfaktura eller en debetfaktura",
+      "body": "För att minska en utfärdad faktura skapar du en kreditfaktura från den. För att öka den skapar du en debetfaktura från den. Paper & Pen fyller i notan från originalfakturan: numret, datumet och det UUID som PINT OM kräver. Du väljer orsakskoden: CAN för en makulering eller retur, VAT för en ändrad momsbehandling, VAL för en ändring av värdet, QTY för en ändring av antalet, eller OTH. Notan får samma kontroll och samma regel om att utfärdas en gång.",
+      "items": [
+        "Kreditfaktura (381) och debetfaktura (383)",
+        "Ursprungligt nummer, datum och UUID ifyllda",
+        "Orsakskoderna CAN, VAT, VAL, QTY, OTH på engelska och arabiska"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Skickar Paper & Pen mina fakturor till Omans skattemyndighet?",
+      "a": "Inget program skickar direkt till skattemyndigheten. Enligt Fawtara tar en ackrediterad tjänsteleverantör emot din e-faktura, levererar den och rapporterar den till skattemyndigheten. Paper & Pen skapar och kontrollerar den PINT OM XML som leverantören tar emot. Skattemyndigheten publicerar listan över ackrediterade leverantörer."
+    },
+    {
+      "q": "Vilka dokument omfattas?",
+      "a": "Fakturor, kreditfakturor och debetfakturor. Var och en skapas som PINT OM XML, kontrolleras mot Omans officiella schematron och utfärdas en gång med ett eget UUID version 5."
+    },
+    {
+      "q": "Vad händer med mina äldre fakturor?",
+      "a": "E-fakturering i Paper & Pen börjar från det startdatum som har angetts för din arbetsyta. Fakturor som utfärdats före det datumet rörs inte och skickas inte, vilket stämmer med skattemyndighetens regel att historiska fakturor inte skickas in."
+    },
+    {
+      "q": "Kan jag fortfarande ändra en faktura efter att jag har utfärdat den?",
+      "a": "Nej. En utfärdad e-faktura är fryst: dess belopp och rader är låsta, och den kan inte makuleras eller raderas. För att rätta den skapar du en kreditfaktura eller en debetfaktura från den. En faktura som ännu inte har klarat kontrollen går fortfarande att redigera."
+    },
+    {
+      "q": "När blir e-fakturering obligatorisk i Oman?",
+      "a": "Den 1 april 2027 för företag med en årlig omsättning över OMR 5,000,000 och den 1 oktober 2027 för övriga, enligt Decision 189/2026. Vår guide om e-fakturering i Oman förklarar tröskeltestet och länkar till de officiella texterna."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Skapa din gratis arbetsyta",
+  "ctaSub": "Försäljning och fakturering är gratis för alltid. Kontrollera dina uppgifter mot PINT OM-reglerna före ditt Fawtara-datum."
+}

@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "Btw in Oman",
   "metaTitle": "Btw in Oman: tarief, drempels en facturen · Paper & Pen",
-  "metaDescription": "Het btw-tarief van 5% in Oman, de registratiedrempel van OMR 38,500 en de twaalf gegevens die een belastingfactuur moet bevatten, elk met bron bij de Tax Authority.",
-  "keywords": "btw oman, btw tarief oman, registratiedrempel btw oman, eisen belastingfactuur oman, fawtara e-facturatie, oman tax authority",
+  "metaDescription": "Het btw-tarief van 5% in Oman, de drempel van OMR 38,500, wat een belastingfactuur moet bevatten en de Fawtara-data, elk met de officiële tekst als bron.",
+  "keywords": "btw oman, btw tarief oman, registratiedrempel btw oman, eisen belastingfactuur oman, fawtara e-facturatie, e-facturatie oman 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Oman",
   "heroTitle": "Factureren volgens de <em class=\"text-copper-400 not-italic\">btw-regels van Oman</em>",
-  "heroSubtitle": "Het tarief, de registratiedrempels, wat een belastingfactuur moet tonen en hoe het staat met e-facturatie. Elk cijfer op deze pagina verwijst naar de eigen gepubliceerde tekst van de Oman Tax Authority.",
+  "heroSubtitle": "Het tarief, de registratiedrempels, wat een belastingfactuur moet tonen en wanneer e-facturatie begint. Elk cijfer op deze pagina verwijst naar de officieel gepubliceerde tekst.",
   "heroBullets": [
     "Standaardtarief van 5%",
     "Registratie vanaf OMR 38,500",
-    "Fawtara aangekondigd, nog niet live"
+    "Fawtara vanaf 1 april 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Voor leveringen onder deze waarde mag een vereenvoudigde factuur worden gebruikt, met goedkeuring van de Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "E-facturatie (Fawtara)",
+      "value": "1 apr. 2027 / 1 okt. 2027",
+      "note": "Decision 189/2026 maakt e-facturatie verplicht op 1 april 2027 bij een jaaromzet boven OMR 5,000,000, en op 1 oktober 2027 bij OMR 5,000,000 of minder. Daarvoor is het vrijwillig.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "De Tax Authority publiceert de Executive Regulations alleen in het Arabisch. Deze lijst is een getrouwe lezing van de officiële Arabische tekst, geen officiële Engelse vertaling, dus controleer de bewoording met je belastingadviseur voordat je erop vertrouwt."
   },
   "einvoicing": {
-    "status": "Aangekondigd en gefaseerd, nog niet verplicht",
-    "body": "Het programma voor e-facturatie in Oman heet Fawtara. De Tax Authority beschrijft een vijfhoeksmodel waarin facturen via een geaccrediteerde dienstverlener bij de Authority terechtkomen, en noemt vier fasen: een pilot, een uitbreiding, de aansluiting van kleinere bedrijven en de volledige invoering. De Authority heeft de data van de fasen niet in het Engels gepubliceerd, en data die in de pers rondgaan staan niet op haar eigen pagina's. Beschouw een specifieke Fawtara-deadline die je elders leest als onbevestigd totdat de Tax Authority die publiceert.",
-    "source": 4
+    "status": "Verplicht vanaf 1 april 2027, nu vrijwillig",
+    "body": "Het programma voor e-facturatie in Oman heet Fawtara. Decision 189/2026, gepubliceerd in het Staatsblad nr. 1660 op 9 augustus 2026, legt twee data vast: 1 april 2027 voor belastingplichtigen met een jaaromzet boven OMR 5,000,000, en 1 oktober 2027 voor belastingplichtigen met OMR 5,000,000 of minder. Tot jouw datum is e-facturatie vrijwillig, en de Tax Authority moedigt een vroege start aan. Facturen gaan als PINT OM XML via een geaccrediteerde dienstverlener, die ze aan de koper levert en aan de Tax Authority meldt. Onze gids over e-facturatie in Oman legt de drempeltoets en de regels uit.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Voorbereiden",
-      "title": "Klaar voor Fawtara zonder naar data te raden",
-      "body": "Je hebt geen gepubliceerde deadline nodig om klaar te zijn. Elk stelsel voor e-facturatie dat in de regio live is gegaan, vroeg om dezelfde onderliggende discipline: schone, volledige klantgegevens inclusief belastingnummers, een ononderbroken factuurreeks, de belastingbehandeling per regel vastgelegd in plaats van per factuur, en documenten die zo zijn opgeslagen dat je ze op verzoek kunt terugvinden. Een bedrijf waarvan de administratie al aan die vier voorwaarden voldoet, heeft een korte invoering voor de boeg zodra de data bekend zijn. Een bedrijf dat dat niet doet, besteedt de aanlooptijd aan het opschonen van gegevens.",
+      "title": "Klaar voor Fawtara vóór jouw datum",
+      "body": "De data staan nu vast, dus het werk is je administratie op orde brengen. Fawtara vraagt om schone, volledige klantgegevens inclusief belastingnummers in de vorm OM plus 10 cijfers, een ononderbroken factuurreeks, de belastingbehandeling per regel vastgelegd, een HS-code bij elk goederenartikel en een activiteitscode bij elk artikel, en documenten die je op verzoek kunt terugvinden. Een bedrijf waarvan de administratie al aan deze voorwaarden voldoet, heeft een korte invoering voor de boeg. Een bedrijf dat dat niet doet, besteedt zijn aanlooptijd aan het opschonen van gegevens.",
       "items": [
         "Volledige klantgegevens, inclusief belastingnummers",
         "Eén ononderbroken factuurreeks per serie",
         "Belastingbehandeling per regel vastgelegd",
-        "Documenten op verzoek terug te vinden"
+        "HS- en activiteitscodes bij je artikelen"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Wanneer je jaarlijkse leveringen OMR 38,500 bereiken of naar verwachting zullen bereiken. Vanaf OMR 19,250 mag je je vrijwillig registreren. Beide bedragen komen uit het besluit van de voorzitter over de registratiedrempels en niet uit de VAT Law zelf, en daarom kunnen ze veranderen zonder dat de wet verandert."
     },
     {
-      "q": "Is e-facturatie al verplicht in Oman?",
-      "a": "Nog niet. De Tax Authority heeft Fawtara aangekondigd, een gefaseerd vijfhoeksmodel voor e-facturatie met geaccrediteerde dienstverleners, en beschrijft vier fasen voor de invoering. De data van de fasen zijn niet in het Engels op haar eigen pagina's gepubliceerd, dus noemen we hier geen datum. Kijk op de pagina's over e-facturatie van de Tax Authority voor de actuele stand."
+      "q": "Wanneer is e-facturatie verplicht in Oman?",
+      "a": "Vanaf 1 april 2027 als je jaaromzet boven OMR 5,000,000 ligt, en vanaf 1 oktober 2027 als die OMR 5,000,000 of minder is. Decision 189/2026 legt beide data vast. Je mag vóór jouw datum vrijwillig beginnen. De FAQ van de Tax Authority legt uit hoe je je omzet voor de drempel telt."
     },
     {
       "q": "Mag ik in Oman een factuur in het Engels uitreiken?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Factureer correct in Oman, gratis",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 tot wijziging van de Executive Regulations of the VAT Law (Staatsblad 1660)",
+      "publisher": "Oman Tax Authority, tekst op Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "FAQ over e-facturatie met Fawtara, laatst bijgewerkt op 30 september 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

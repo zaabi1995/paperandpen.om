@@ -1,0 +1,319 @@
+{
+  "locale": "hu",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Az adóhatóság szövegeivel 2026. október 14-én egyeztetve.",
+  "title": "E-számlázás Ománban (Fawtara)",
+  "metaTitle": "Ománi e-számlázás: Fawtara dátumok, szabályok · Paper & Pen",
+  "metaDescription": "A Fawtara 2027. ápr. 1-jén indul OMR 5 millió felett, a többieknek 2027. okt. 1-jén. Értékhatár-vizsgálat, PINT OM mezők, az adóhatóságra hivatkozva.",
+  "keywords": "e-számlázás omán, fawtara, fawtara omán, ománi e-számlázás 2027, pint om, ománi adóhatóság e-számlázás, akkreditált szolgáltató omán, peppol omán, decision 189/2026",
+  "heroEyebrow": "Omán · Fawtara",
+  "heroTitle": "E-számlázás Ománban: <em class=\"text-copper-400 not-italic\">ami 2027-ben indul</em>",
+  "heroSubtitle": "A 189/2026. számú határozat két csoportban teszi kötelezővé az e-számlázást az ÁFA-regisztrált vállalkozások számára: 2027. április 1-től és 2027. október 1-től. Ez az útmutató elmagyarázza, melyik dátum vonatkozik Önre, hogyan jut el egy számla az adóhatósághoz, mit kell tartalmaznia egy PINT OM e-számlának, és mit kell most rendbe tennie a nyilvántartásában. Minden szabály a hivatalos szövegre hivatkozik.",
+  "heroBullets": [
+    "2027. ápr. 1.: OMR 5 millió feletti értékesítés",
+    "2027. okt. 1.: OMR 5 millió vagy kevesebb",
+    "Önkéntes kezdés már most lehetséges"
+  ],
+  "authority": {
+    "name": "Ománi Adóhatóság (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "A Fawtara röviden",
+  "facts": [
+    {
+      "label": "Jogalap",
+      "value": "189/2026. számú határozat",
+      "note": "Az ÁFA-törvény Végrehajtási Rendeletét módosítja. Az adóhatóság 2026. augusztus 3-án adta ki, a Hivatalos Közlöny pedig 1660. számában, 2026. augusztus 9-én tette közzé. Az új 143. cikk jóváhagyott, biztonságos elektronikus formátumú, egyedi sorszámmal ellátott adószámlát ír elő.",
+      "source": 1
+    },
+    {
+      "label": "Első csoport",
+      "value": "2027. április 1.",
+      "note": "Azok az adóalanyok, akiknek éves értékesítése meghaladja az OMR 5,000,000 összeget.",
+      "source": 1
+    },
+    {
+      "label": "Második csoport",
+      "value": "2027. október 1.",
+      "note": "Azok az adóalanyok, akiknek éves értékesítése OMR 5,000,000 vagy kevesebb.",
+      "source": 1
+    },
+    {
+      "label": "Az Ön dátuma előtt",
+      "value": "Önkéntes",
+      "note": "Az adóhatóság arra ösztönzi a vállalkozásokat, hogy a kötelező dátum előtt teszteljék rendszereiket és állítsanak ki e-számlákat.",
+      "source": 2
+    },
+    {
+      "label": "Formátum",
+      "value": "XML, PINT OM",
+      "note": "Az XML a kötelező strukturált formátum. Az ománi specifikáció a PINT OM 1.0.1-es verziója, egy Peppol-formátum, amelyet az adóhatóság gondoz.",
+      "source": 4
+    },
+    {
+      "label": "B2B időzítés",
+      "value": "Valós idejű",
+      "note": "A vállalkozások közötti e-számla a kiállításkor megy át a hálózaton.",
+      "source": 2
+    },
+    {
+      "label": "B2C időzítés",
+      "value": "24 óra",
+      "note": "A fogyasztónak vagy ÁFA-regisztrációval nem rendelkező vevőnek szóló számlát 24 órán belül kell jelenteni.",
+      "source": 2
+    },
+    {
+      "label": "Régi számlák",
+      "value": "Nem kell beküldeni",
+      "note": "A kezdés előtt kiállított számlákat nem kell feltölteni az adóhatósághoz.",
+      "source": 2
+    },
+    {
+      "label": "Javítások",
+      "value": "Jóváíró vagy terhelő számla",
+      "note": "Kiállított e-számlát nem lehet sztornózni vagy módosítani. Elektronikus jóváíró vagy terhelő számlával korrigálja.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Melyik dátum vonatkozik Önre",
+      "body": "A vizsgálat a 2027. március 31-i állapot szerinti éves értékesítést veszi alapul. Számolja össze az adóköteles értékesítéseit (a tárgyi eszközök értékesítését hagyja ki), adja hozzá a fordított adózás alá eső árukat és szolgáltatásokat, valamint a GCC-n belüli értékesítéseit.\n\n2027. április 1-jén kezd, ha a két összeg bármelyike meghaladja az OMR 5,000,000 összeget: a 2026. április 1. és 2027. március 31. közötti értékesítése, vagy a 2027. április 1. és 2028. március 31. közötti várható értékesítése. Ha egyik összeg sem haladja meg az OMR 5,000,000 összeget, 2027. október 1-jén kezd. A külföldi illetőségű vállalkozás csak az ománi értékesítéseit számolja. Az ÁFA-csoportot egy csoportként vizsgálják, nem tagonként. Az adóhatóságnak online bevezetési ellenőrzője is van: megadja az ÁFA-számát és az értékesítési sávjait.",
+      "items": [
+        "Beleszámít: adóköteles értékesítés, fordított adózású értékesítés, GCC-n belüli értékesítés",
+        "Kimarad: tárgyi eszközök értékesítése",
+        "Két időszak: a 2027. március 31-ig tartó 12 hónap és a 2027. április 1-től kezdődő 12 hónap",
+        "Ha bármelyik időszak OMR 5,000,000 feletti, a dátum 2027. április 1."
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Hogyan jut el egy számla az adóhatósághoz",
+      "body": "A Fawtara ötsarkú modellt használ. Az 1. sarok Ön, az eladó. A 2. sarok az Ön akkreditált szolgáltatója. A 3. sarok a vevő szolgáltatója, a 4. sarok a vevő, az 5. sarok pedig az adóhatóság. Az Ön szoftvere soha nem küld közvetlenül az adóhatóságnak. Az e-számlát a szolgáltatójának küldi.\n\nA szolgáltató ellenőrzi a számlát a hivatalos ománi schematron-szabályok szerint, a Peppol-hálózaton kézbesíti a vevő szolgáltatójának, és egy adatszolgáltatási dokumentumot küld az adóhatóságnak. Egyszerre egy szolgáltatóhoz kapcsolódhat a Fawtara-portálon keresztül, és később szolgáltatót válthat. A számla megfelelőségéért továbbra is Ön felel.",
+      "items": [
+        "C1 eladó, C2 az eladó szolgáltatója, C3 a vevő szolgáltatója, C4 vevő, C5 adóhatóság",
+        "A számlát a szolgáltató validálja, nem az adóhatóság",
+        "Egyszerre egy szolgáltató, a Fawtara-portálon kapcsolva",
+        "A helyes számláért Ön felel"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Mit kell tartalmaznia egy PINT OM e-számlának",
+      "body": "A PINT OM ománi szabályokat tesz a Peppol-számla fölé. Az elutasítások többsége hiányzó törzsadatokból ered, nem a számla végösszegéből. Először ezeket a mezőket ellenőrizze a nyilvántartásában.",
+      "items": [
+        "Egyedi számla-UUID (5-ös verzió) és a kiállítás időpontja",
+        "Olyan kiállítási dátum, amely muscati idő szerint nem a jövőben van",
+        "Az eladó ÁFA-száma OM plusz 10 számjegy formában, az eladó címe és telefonszáma",
+        "Teljes adószámlánál a vevő ÁFA-száma vagy azonosítója és címe",
+        "Soronkénti ÁFA és soronkénti adókategória (S, E, O vagy Z)",
+        "Általános kulcs 5%; az adómentes és nulla kulcsos soroknak indokkód kell",
+        "Áruknál 12 jegyű ománi HS-kód, és soronként áru- vagy szolgáltatásjelző",
+        "Tételenként egy ISIC tevékenységi kód",
+        "Összegek legfeljebb 3 tizedesjegyre, az ÁFA-összesítők OMR-ben"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Jóváíró és terhelő számlák",
+      "body": "Az e-számla kiállítása után nem sztornózza, nem törli és nem módosítja. Elektronikus jóváíró számlát (csökkentéshez) vagy terhelő számlát (növeléshez) állít ki. A bizonylat sorszámmal, dátummal és UUID-vel hivatkozik az eredeti számlára, és indokkódot tartalmaz: CAN sztornó vagy visszáru esetén, VAT az ÁFA-kezelés változásakor, VAL az érték változásakor, QTY a mennyiség változásakor, OTH egyéb okból. Ha rossz vevőnek számlázott, állítson ki jóváíró számlát annak a vevőnek, és új számlát a helyesnek.",
+      "items": [
+        "Jóváíró számla: 381-es bizonylattípus",
+        "Terhelő számla: 383-as bizonylattípus",
+        "Az eredeti számla sorszáma, dátuma és UUID-je minden bizonylaton",
+        "Indokkódok: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Akkreditált szolgáltató kiválasztása",
+      "body": "Az adóhatóság közzéteszi az akkreditált szolgáltatók élő listáját. 2026. október 13-án a lista 36 tételből állt, és még bővül. Az adóhatóság nem számít fel díjat az adózóknak, és nem szabja meg a szolgáltatók árait, így minden szolgáltató maga határozza meg a modelljét: előfizetés, számlánkénti díj vagy más. A szolgáltatókat aszerint hasonlítsa össze, mihez kapcsolódnak, hol tárolják az adatait, van-e arab nyelvű támogatás, és hogyan lehet tőlük továbblépni. Minden szolgáltató maga adja meg a listán az adattárolás helyét, és az adóhatóság ezt nem ellenőrzi.",
+      "items": [
+        "Csak az adóhatóság listáján szereplő szolgáltatót válasszon",
+        "Kérdezze meg, hogyan kapcsolódik a szoftvere: API, fájlfeltöltés vagy kész csatoló",
+        "Kérdezze meg, hol tárolják az adatait és mennyi ideig archiválják",
+        "Szerződés előtt nézze meg a váltás lépéseit"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C értékesítés és a QR-kód",
+      "body": "A fogyasztónak vagy bármely, ÁFA-regisztrációval nem rendelkező vevőnek történő értékesítést 24 órán belül jelenteni kell az adóhatóságnak. A vevőnek bármilyen csatornán ember által olvasható számlát ad. Ennek a nyomtatott vagy PDF-példánynak QR-kódot kell tartalmaznia, amelyet Ön mint eladó állít elő. A QR-kód nem része az XML e-számlának. A QR-kód tartalmát illetően az adóhatóság a Peppol Oman Architecture D függelékére utal. Ez a függelék még nem nyilvános, ezért minden most látott QR-elrendezést tekintsen megerősítetlennek.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Mi a teendő most",
+      "body": "A felkészüléssel nem kell megvárnia az Önre vonatkozó dátumot. A legtöbb időt a törzsadatok rendbetétele veszi igénybe, és ezt már ma elkezdheti.",
+      "items": [
+        "Végezze el az értékhatár-vizsgálatot, és jegyezze fel a kezdő dátumát",
+        "Ellenőrizzen minden vevői ÁFA-számot: OM plusz 10 számjegy",
+        "Adja meg a 12 jegyű HS-kódot minden árutételnél, és ISIC-kódot minden tételnél",
+        "Feleltesse meg mértékegységeit az UN/ECE egységkódoknak (például a darab H87)",
+        "Ne töröljön és ne számozzon át kiállított számlákat: használjon jóváíró számlát",
+        "Válasszon szolgáltatót az adóhatóság listájáról, és teszteljen korán",
+        "Vezessen saját archívumot: az adóhatóság nem adja vissza a számlaadatokat"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Ki mit küld, esetről esetre",
+    "intro": "A számla útja attól függ, ki a vevő. A táblázat az adóhatóság GYIK-jében szereplő esetek sarkait mutatja.",
+    "columns": [
+      "Eset",
+      "Folyamat",
+      "Mi történik"
+    ],
+    "rows": [
+      {
+        "label": "Belföldi B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Valós időben. A szolgáltatója kézbesít a vevő szolgáltatójának, és jelenti az adóadatokat az adóhatóságnak.",
+        "source": 2
+      },
+      {
+        "label": "B2C, vagy ÁFA-regisztrációval nem rendelkező vevő",
+        "flow": "C1 → C2 → C5",
+        "detail": "24 órán belül jelentve. A vevő QR-kóddal ellátott, ember által olvasható számlát kap.",
+        "source": 2
+      },
+      {
+        "label": "A vevő még nincs bevezetési szakaszban",
+        "flow": "C1 → C2 → C5",
+        "detail": "A szolgáltatója jelenti az adóadatokat. A számlát úgy küldi a vevőnek, ahogy ma.",
+        "source": 2
+      },
+      {
+        "label": "Az eladó még nincs bevezetési szakaszban",
+        "flow": "C1 → C4",
+        "detail": "Az aktuális bevezetési szakaszokon kívül eső ÁFA-regisztrált eladó úgy számláz, mint ma. A vevő úgy vonja le az előzetesen felszámított ÁFA-t, mint ma.",
+        "source": 2
+      },
+      {
+        "label": "Export",
+        "flow": "C1 → C2 → C5",
+        "detail": "A számlát úgy osztja meg a külföldi vevővel, mint ma. Az adóadatok a hálózaton mennek át.",
+        "source": 2
+      },
+      {
+        "label": "Javítás",
+        "flow": "381 / 383",
+        "detail": "A bizonylat ugyanazt az utat járja be, mint az általa javított számla.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Mikortól kötelező az e-számlázás Ománban?",
+      "a": "2027. április 1-től az OMR 5,000,000 feletti éves értékesítésű adóalanyoknak, és 2027. október 1-től az OMR 5,000,000 vagy kevesebb értékesítésűeknek. Mindkét dátumot a 189/2026. számú határozat állapítja meg. Az Önre vonatkozó dátum előtt az e-számlázás önkéntes, és az adóhatóság a korai kezdést ösztönzi."
+    },
+    {
+      "q": "Honnan tudom, hogy a vállalkozásom a 2027. áprilisi csoportba tartozik-e?",
+      "a": "Adja össze az adóköteles értékesítéseit (tárgyi eszközök nélkül), a fordított adózású értékesítéseit és a GCC-n belüli értékesítéseit. Ha a 2026. április 1. és 2027. március 31. közötti összeg meghaladja az OMR 5,000,000 összeget, vagy arra számít, hogy a 2027. április 1. és 2028. március 31. közötti időszakban meghaladja, 2027. április 1-jén kezd. Ellenkező esetben 2027. október 1-jén kezd."
+    },
+    {
+      "q": "E-számla Ománban a PDF-számla?",
+      "a": "Nem. Az e-számla PINT OM formátumú strukturált XML-fájl, amely egy akkreditált szolgáltatón keresztül megy. Továbbra is nyomtathat vagy küldhet PDF-példányt, de az Önre vonatkozó dátumtól csak az e-számla számít érvényes adószámlának."
+    },
+    {
+      "q": "Fel kell töltenem a régi számláimat?",
+      "a": "Nem. Az e-számlázás megkezdése előtt kiállított számlákat nem kell beküldeni az adóhatósághoz. Őrizze meg őket a saját nyilvántartásában, ahogy az ÁFA-törvény előírja."
+    },
+    {
+      "q": "Mi van, ha a vevőm még nincs a Fawtarán?",
+      "a": "A számlát ugyanúgy beküldi a szolgáltatójának, és a szolgáltató elküldi az adatszolgáltatási dokumentumot az adóhatóságnak. A számlát úgy küldi a vevőnek, ahogy ma."
+    },
+    {
+      "q": "Kér díjat az adóhatóság a Fawtaráért?",
+      "a": "Nem. Az adóhatóság nem számít fel díjat az adózóknak, és nem szabja meg, mennyit kérnek a szolgáltatók. Minden akkreditált szolgáltató maga határozza meg az árát."
+    },
+    {
+      "q": "Vannak bírságok?",
+      "a": "Az adóhatóság szerint a megbízatás kezdete után az ÁFA-jogszabályok szerinti bírságok alkalmazandók. Külön e-számlázási bírságtáblát nem tett közzé, ezért minden máshol olvasott konkrét összeget tekintsen megerősítetlennek."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Készítse fel nyilvántartását a Fawtarára",
+  "ctaSub": "A Paper & Pen PINT OM e-számlákat készít, és ellenőrzi őket a hivatalos ománi szabályok szerint. Kezdje egy ingyenes munkaterülettel.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "189/2026. számú határozat az ÁFA-törvény Végrehajtási Rendeletének módosításáról (Hivatalos Közlöny 1660)",
+      "publisher": "Ománi Adóhatóság, szöveg a Qanoon.om oldalon",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Fawtara e-számlázási GYIK, utoljára frissítve 2026. szeptember 30-án",
+      "publisher": "Ománi Adóhatóság",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Akkreditált szolgáltatók (élő lista)",
+      "publisher": "Ománi Adóhatóság, Fawtara-portál",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM specifikációk, 1.0.1-es verzió",
+      "publisher": "OpenPeppol, az Ománi Adóhatóság gondozásában",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM joghatósági szabályok (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, az Ománi Adóhatóság gondozásában",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Bevezetési besorolás ellenőrzése",
+      "publisher": "Ománi Adóhatóság",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "PINT OM 1.0.1 kiadási megjegyzések",
+      "publisher": "OpenPeppol, az Ománi Adóhatóság gondozásában",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

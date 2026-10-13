@@ -1,0 +1,113 @@
+{
+  "locale": "tl",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-invoicing para sa Oman",
+  "metaTitle": "Software sa E-invoicing ng Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Gumagawa ang Paper & Pen ng PINT OM XML, sinusuri ito gamit ang opisyal na Oman schematron, isang beses nag-iisyu na may UUID v5 at fino-freeze ito.",
+  "keywords": "e-invoicing software sa oman, fawtara software, pint om xml, e-invoice sa oman, oman schematron validation, credit note sa e-invoicing ng oman, debit note sa oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "Mga e-invoice na pumapasa sa <em class=\"text-copper-400 not-italic\">mga patakaran ng Oman</em> bago ipadala",
+  "heroSubtitle": "Ginagawang PINT OM XML ng Paper & Pen ang mga invoice, credit note at debit note mo at sinusuri ang bawat isa ayon sa opisyal na Oman schematron. Inililista ng isang readiness check ang dapat ayusin sa mga record mo. Ang invoice na pumasa ay isang beses lang inii-isyu, may sarili nitong UUID, at nananatiling naka-freeze.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Opisyal na Oman schematron check",
+    "Isang beses inii-isyu, saka naka-freeze"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Nagiging PINT OM e-invoice ang bawat invoice: ang UBL 2.1 XML format na ginagamit ng Fawtara ng Oman."
+    },
+    {
+      "icon": "shield",
+      "title": "Opisyal na Oman schematron",
+      "desc": "Sinusuri ang XML ayon sa opisyal na OpenPeppol PINT OM schematron rules, version 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Readiness check na may mga ayos",
+      "desc": "Inililista ng pag-scan sa mga record ng kumpanya, customer at item mo ang bawat kulang at kung saan ito aayusin."
+    },
+    {
+      "icon": "lock",
+      "title": "Isang beses na pag-isyu, UUID v5",
+      "desc": "Isang beses lang inii-isyu ang invoice na may UUID version 5. Hindi kailanman nakakagawa ng pangalawa ang retry o double click."
+    },
+    {
+      "icon": "invoice",
+      "title": "Naka-freeze pag inisyu",
+      "desc": "Pagkatapos ng pag-isyu, walang makakapagbago ng mga halaga, makakapag-cancel ng invoice o makakapagbura nito."
+    },
+    {
+      "icon": "receipt",
+      "title": "Mga credit at debit note",
+      "desc": "Gumawa ng note mula sa orihinal na invoice. Dala nito ang numero, petsa, UUID at isang reason code."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Bago ka mag-isyu",
+      "title": "Hanapin ang mga kulang habang naaayos mo pa",
+      "body": "Karamihan sa mga rejection ng e-invoice ay galing sa master data, hindi sa mga total: VAT number ng customer na mali ang anyo, kulang na address ng seller, item na walang HS code o activity code. Sina-scan ng readiness check ang mga record mo ayon sa mga patakaran ng PINT OM at pinapangkat ang bawat kulang ayon sa record na kailangang ayusin, kaya isang beses mo lang aayusin ang isang produkto at malilinis ang bawat linya ng invoice na may produktong iyon. Hindi inii-isyu ang invoice na bumagsak sa check. Nananatili ang mga kulang nito at puwede mo pa itong i-edit.",
+      "items": [
+        "Mga kulang na nakapangkat ayon sa kumpanya, customer at item",
+        "Pinapangalanan ng bawat kulang ang record na aayusin",
+        "Nananatiling draft na puwede mong itama ang bumagsak na invoice"
+      ]
+    },
+    {
+      "eyebrow": "Kapag nag-isyu ka",
+      "title": "Isang invoice, isang UUID, walang edit pagkatapos",
+      "body": "Sa ilalim ng Fawtara, hindi puwedeng i-cancel o i-edit ang inisyung invoice. Ganoon din ang patakaran ng Paper & Pen. Kapag pumasa sa check ang invoice, inii-isyu ito na may UUID version 5, at iniimbak kasama nito ang XML nito. Mula noon, naka-lock ang mga halaga, ang mga linya at ang customer, at hindi na puwedeng i-cancel o burahin ang invoice. Normal pa ring naipo-post ang mga bayad.",
+      "items": [
+        "UUID version 5 na nakaimbak sa invoice",
+        "Nakaimbak ang XML kasama ng inisyung invoice",
+        "Naka-lock ang mga halaga, walang cancel, walang delete"
+      ]
+    },
+    {
+      "eyebrow": "Kapag may nagbago",
+      "title": "Itama gamit ang credit note o debit note",
+      "body": "Para bawasan ang inisyung invoice, gumawa ng credit note mula rito. Para dagdagan ito, gumawa ng debit note mula rito. Pinupunan ng Paper & Pen ang note mula sa orihinal na invoice: ang numero, ang petsa at ang UUID na hinihingi ng PINT OM. Ikaw ang pipili ng reason code: CAN para sa cancellation o return, VAT para sa pagbabago sa VAT treatment, VAL para sa pagbabago sa halaga, QTY para sa pagbabago sa dami, o OTH. Dumadaan ang note sa parehong check at parehong patakarang isang beses na pag-isyu.",
+      "items": [
+        "Credit note (381) at debit note (383)",
+        "Napupunan ang orihinal na numero, petsa at UUID",
+        "Mga reason code na CAN, VAT, VAL, QTY, OTH sa English at Arabic"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ipinapadala ba ng Paper & Pen ang mga invoice ko sa Oman Tax Authority?",
+      "a": "Walang software na direktang nagpapadala sa Tax Authority. Sa ilalim ng Fawtara, isang accredited service provider ang tumatanggap ng e-invoice mo, naghahatid nito at nag-uulat nito sa Tax Authority. Ginagawa at sinusuri ng Paper & Pen ang PINT OM XML na tinatanggap ng provider. Inilalathala ng Tax Authority ang listahan ng mga accredited provider."
+    },
+    {
+      "q": "Aling mga dokumento ang saklaw nito?",
+      "a": "Mga invoice, credit note at debit note. Bawat isa ay ginagawa bilang PINT OM XML, sinusuri ayon sa opisyal na Oman schematron at isang beses inii-isyu na may sarili nitong UUID version 5."
+    },
+    {
+      "q": "Ano ang mangyayari sa mga luma kong invoice?",
+      "a": "Nagsisimula ang e-invoicing sa Paper & Pen mula sa go-live date na itinakda para sa workspace mo. Hindi ginagalaw at hindi ipinapadala ang mga invoice na inisyu bago ang petsang iyon, na tugma sa patakaran ng Tax Authority na hindi isinusumite ang mga lumang invoice."
+    },
+    {
+      "q": "Puwede ko pa bang i-edit ang invoice pagkatapos ko itong i-isyu?",
+      "a": "Hindi. Naka-freeze ang inisyung e-invoice: naka-lock ang mga halaga at linya nito, at hindi ito puwedeng i-cancel o burahin. Para itama ito, gumawa ng credit note o debit note mula rito. Nananatiling nae-edit ang invoice na hindi pa pumapasa sa check."
+    },
+    {
+      "q": "Kailan nagiging mandatory ang e-invoicing sa Oman?",
+      "a": "Sa 1 Abril 2027 para sa mga negosyong lampas OMR 5,000,000 ang taunang supply, at sa 1 Oktubre 2027 para sa iba, sa ilalim ng Decision 189/2026. Ipinapaliwanag ng aming gabay sa e-invoicing sa Oman ang threshold test at may link ito sa mga opisyal na teksto."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Simulan ang libre mong workspace",
+  "ctaSub": "Libre habambuhay ang sales at invoicing. Suriin ang mga record mo ayon sa mga patakaran ng PINT OM bago ang petsa mo sa Fawtara."
+}

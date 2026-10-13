@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "La TVA à Oman",
   "metaTitle": "TVA à Oman : taux, seuils et factures · Paper & Pen",
-  "metaDescription": "Le taux de TVA de 5% à Oman, le seuil d'immatriculation de OMR 38,500 et les douze mentions d'une facture fiscale, chacune sourcée auprès de la Tax Authority.",
-  "keywords": "tva oman, taux de tva oman, seuil immatriculation tva oman, mentions facture fiscale oman, facturation électronique fawtara, oman tax authority",
+  "metaDescription": "TVA de 5% à Oman, seuil de OMR 38,500, mentions de la facture fiscale et dates de la facturation électronique Fawtara, avec sources officielles.",
+  "keywords": "tva oman, taux de tva oman, seuil immatriculation tva oman, mentions facture fiscale oman, facturation électronique fawtara, facturation électronique oman 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Oman",
   "heroTitle": "Facturer selon les règles de <em class=\"text-copper-400 not-italic\">TVA d'Oman</em>",
-  "heroSubtitle": "Le taux, les seuils d'immatriculation, ce que doit indiquer une facture fiscale et où en est la facturation électronique. Chaque chiffre de cette page renvoie aux textes publiés par l'Oman Tax Authority elle-même.",
+  "heroSubtitle": "Le taux, les seuils d'immatriculation, ce que doit indiquer une facture fiscale et quand commence la facturation électronique. Chaque chiffre de cette page renvoie au texte officiel publié.",
   "heroBullets": [
     "Taux normal de 5%",
     "Immatriculation à partir de OMR 38,500",
-    "Fawtara annoncé, pas encore en vigueur"
+    "Fawtara à partir du 1er avril 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Les livraisons inférieures à ce montant peuvent faire l'objet d'une facture simplifiée, avec l'accord de la Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "Facturation électronique (Fawtara)",
+      "value": "1er avr. 2027 / 1er oct. 2027",
+      "note": "La Decision 189/2026 rend la facturation électronique obligatoire le 1er avril 2027 pour les livraisons annuelles supérieures à OMR 5,000,000, et le 1er octobre 2027 pour celles de OMR 5,000,000 ou moins. D'ici là, elle est facultative.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "La Tax Authority publie les Executive Regulations en arabe uniquement. Cette liste est une lecture fidèle du texte arabe officiel, pas une traduction officielle : confirmez la formulation avec votre conseiller fiscal avant de vous y fier."
   },
   "einvoicing": {
-    "status": "Annoncée et progressive, pas encore obligatoire",
-    "body": "Le programme de facturation électronique d'Oman s'appelle Fawtara. La Tax Authority décrit un modèle à cinq coins dans lequel les factures lui parviennent par l'intermédiaire d'un prestataire de services agréé, et prévoit quatre phases : un pilote, une extension, l'intégration des petites entreprises, puis le déploiement complet. L'Authority n'a pas publié les dates des phases en anglais, et les dates qui circulent dans la presse ne figurent pas sur ses propres pages. Considérez toute échéance Fawtara précise lue ailleurs comme non confirmée tant que la Tax Authority ne l'a pas publiée.",
-    "source": 4
+    "status": "Obligatoire à partir du 1er avril 2027, facultative dès maintenant",
+    "body": "Le programme de facturation électronique d'Oman s'appelle Fawtara. La Decision 189/2026, publiée au Journal officiel n° 1660 le 9 août 2026, fixe deux dates : le 1er avril 2027 pour les assujettis dont les livraisons annuelles dépassent OMR 5,000,000, et le 1er octobre 2027 pour ceux à OMR 5,000,000 ou moins. Jusqu'à votre date, la facturation électronique est facultative, et la Tax Authority encourage à commencer tôt. Les factures sont transmises en XML PINT OM par l'intermédiaire d'un prestataire de services agréé, qui les remet à l'acheteur et les déclare à la Tax Authority. Notre guide de la facturation électronique à Oman explique le test du seuil et les règles.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Se préparer",
-      "title": "Se préparer à Fawtara sans deviner les dates",
-      "body": "Pas besoin d'une échéance publiée pour être prêt. Chaque régime de facturation électronique entré en vigueur dans la région a demandé la même discipline de fond : des fiches clients propres et complètes, numéros fiscaux compris, une séquence de factures ininterrompue, un traitement fiscal enregistré par ligne plutôt que par facture, et des documents conservés de façon à pouvoir les retrouver sur demande. Une entreprise dont les données remplissent déjà ces quatre conditions aura une mise en œuvre courte, quelle que soit la date retenue. Une entreprise qui ne les remplit pas passera son préavis à nettoyer ses données.",
+      "title": "Se préparer à Fawtara avant votre date",
+      "body": "Les dates sont désormais fixées : le travail consiste à préparer vos données. Fawtara demande des fiches clients propres et complètes, numéros fiscaux compris au format OM suivi de 10 chiffres, une séquence de factures ininterrompue, un traitement fiscal enregistré par ligne, un code HS sur chaque article de marchandise et un code d'activité sur chaque article, ainsi que des documents retrouvables sur demande. Une entreprise dont les données remplissent déjà ces conditions aura une mise en œuvre courte. Une entreprise qui ne les remplit pas passera son préavis à nettoyer ses données.",
       "items": [
         "Des fiches clients complètes, numéros fiscaux compris",
         "Une séquence de factures ininterrompue par série",
         "Un traitement fiscal enregistré ligne par ligne",
-        "Des documents retrouvables sur demande"
+        "Des codes HS et d'activité sur vos articles"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Lorsque vos livraisons annuelles atteignent, ou devraient atteindre, OMR 38,500. Vous pouvez vous immatriculer volontairement à partir de OMR 19,250. Ces deux chiffres proviennent de la décision du Chairman sur les seuils d'immatriculation et non de la VAT Law elle-même : ils peuvent donc changer sans que la loi change."
     },
     {
-      "q": "La facturation électronique est-elle déjà obligatoire à Oman ?",
-      "a": "Pas encore. La Tax Authority a annoncé Fawtara, un modèle progressif de facturation électronique à cinq coins s'appuyant sur des prestataires de services agréés, et décrit quatre phases de déploiement. Elle n'a pas publié les dates des phases en anglais sur ses propres pages : nous n'indiquons donc aucune date ici. Consultez les pages de la Tax Authority sur la facturation électronique pour connaître la situation actuelle."
+      "q": "Quand la facturation électronique devient-elle obligatoire à Oman ?",
+      "a": "À partir du 1er avril 2027 si vos livraisons annuelles dépassent OMR 5,000,000, et à partir du 1er octobre 2027 si elles sont de OMR 5,000,000 ou moins. La Decision 189/2026 fixe ces deux dates. Vous pouvez commencer volontairement avant votre date. La FAQ de la Tax Authority explique comment compter vos livraisons pour le seuil."
     },
     {
       "q": "Puis-je émettre une facture en anglais à Oman ?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Facturez correctement à Oman, gratuitement",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 modifiant les Executive Regulations de la VAT Law (Journal officiel n° 1660)",
+      "publisher": "Oman Tax Authority, texte sur Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "FAQ sur la facturation électronique Fawtara, mise à jour le 30 septembre 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

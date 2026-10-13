@@ -1,0 +1,319 @@
+{
+  "locale": "sv",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Kontrollerad mot skattemyndighetens texter den 14 oktober 2026.",
+  "title": "E-fakturering i Oman (Fawtara)",
+  "metaTitle": "E-fakturering i Oman: Fawtara-datum och regler · Paper & Pen",
+  "metaDescription": "Fawtara börjar 1 april 2027 över OMR 5 miljoner och 1 oktober 2027 för övriga. Tröskeltestet, PINT OM-fälten och notorna, med källa hos skattemyndigheten.",
+  "keywords": "e-fakturering oman, e-faktura oman, fawtara, fawtara oman, e-fakturering oman 2027, pint om, oman skattemyndighet e-fakturering, ackrediterad tjänsteleverantör oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-fakturering i Oman: <em class=\"text-copper-400 not-italic\">det här börjar 2027</em>",
+  "heroSubtitle": "Decision 189/2026 gör e-fakturering obligatorisk för momsregistrerade företag i två grupper, från 1 april 2027 och från 1 oktober 2027. Den här guiden förklarar vilket datum som gäller för dig, hur en faktura når skattemyndigheten, vad en PINT OM-e-faktura måste innehålla och vad du ska rätta i dina uppgifter nu. Varje regel länkar till den officiella texten.",
+  "heroBullets": [
+    "1 apr 2027: omsättning över OMR 5 miljoner",
+    "1 okt 2027: OMR 5 miljoner eller mindre",
+    "Frivillig start tillåten redan nu"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara i korthet",
+  "facts": [
+    {
+      "label": "Rättslig grund",
+      "value": "Decision 189/2026",
+      "note": "Beslutet ändrar Executive Regulations of the VAT Law. Skattemyndigheten utfärdade det den 3 augusti 2026, och den officiella tidningen publicerade det i nummer 1660 den 9 augusti 2026. Den nya artikel 143 kräver en skattefaktura i ett godkänt, säkrat elektroniskt format med ett unikt nummer.",
+      "source": 1
+    },
+    {
+      "label": "Första gruppen",
+      "value": "1 april 2027",
+      "note": "Skattskyldiga vars årliga omsättning överstiger OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Andra gruppen",
+      "value": "1 oktober 2027",
+      "note": "Skattskyldiga vars årliga omsättning är OMR 5,000,000 eller mindre.",
+      "source": 1
+    },
+    {
+      "label": "Före ditt datum",
+      "value": "Frivilligt",
+      "note": "Skattemyndigheten uppmuntrar företag att testa sina system och utfärda e-fakturor före sitt obligatoriska datum.",
+      "source": 2
+    },
+    {
+      "label": "Format",
+      "value": "XML, PINT OM",
+      "note": "XML är det obligatoriska strukturerade formatet. Omans specifikation är PINT OM version 1.0.1, ett Peppol-format som skattemyndigheten förvaltar.",
+      "source": 4
+    },
+    {
+      "label": "Tidpunkt B2B",
+      "value": "Realtid",
+      "note": "En e-faktura mellan företag går genom nätverket när du utfärdar den.",
+      "source": 2
+    },
+    {
+      "label": "Tidpunkt B2C",
+      "value": "24 timmar",
+      "note": "En faktura till en konsument, eller till en köpare som inte är momsregistrerad, rapporteras inom 24 timmar.",
+      "source": 2
+    },
+    {
+      "label": "Gamla fakturor",
+      "value": "Skickas inte in",
+      "note": "Fakturor som utfärdats innan du börjar laddas inte upp till skattemyndigheten.",
+      "source": 2
+    },
+    {
+      "label": "Rättelser",
+      "value": "Kredit- eller debetfaktura",
+      "note": "Du kan inte makulera eller ändra en utfärdad e-faktura. Du justerar den med en elektronisk kreditfaktura eller debetfaktura.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Vilket datum som gäller för dig",
+      "body": "Testet utgår från din årliga omsättning per den 31 mars 2027. Räkna dina skattepliktiga leveranser (utan leveranser av anläggningstillgångar), lägg till varor och tjänster med omvänd skattskyldighet och lägg till dina leveranser inom GCC.\n\nDu börjar den 1 april 2027 om någon av två summor överstiger OMR 5,000,000: din omsättning från 1 april 2026 till 31 mars 2027, eller din förväntade omsättning från 1 april 2027 till 31 mars 2028. Om ingen av summorna överstiger OMR 5,000,000 börjar du den 1 oktober 2027. Ett utländskt företag räknar bara sina leveranser i Oman. En momsgrupp prövas som en grupp, inte medlem för medlem. Skattemyndigheten har också en kontroll på nätet för införandet: du anger ditt momsnummer och dina omsättningsintervall.",
+      "items": [
+        "Ta med: skattepliktiga leveranser, leveranser med omvänd skattskyldighet, leveranser inom GCC",
+        "Utelämna: leveranser av anläggningstillgångar",
+        "Två perioder: de 12 månaderna fram till 31 mars 2027 och de 12 månaderna från 1 april 2027",
+        "Om någon av perioderna överstiger OMR 5,000,000 gäller 1 april 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Hur en faktura når skattemyndigheten",
+      "body": "Fawtara använder en femhörnsmodell. Hörn 1 är du, säljaren. Hörn 2 är din ackrediterade tjänsteleverantör. Hörn 3 är köparens tjänsteleverantör, hörn 4 är din köpare och hörn 5 är skattemyndigheten. Ditt program skickar aldrig direkt till skattemyndigheten. Det skickar e-fakturan till din leverantör.\n\nDin leverantör kontrollerar fakturan mot de officiella schematron-reglerna för Oman, levererar den till köparens leverantör i Peppol-nätverket och skickar ett skattedatadokument till skattemyndigheten. Du kopplar dig till en leverantör i taget via Fawtara-portalen, och du kan byta leverantör senare. Ansvaret för att fakturan uppfyller kraven ligger kvar hos dig.",
+      "items": [
+        "C1 säljare, C2 säljarens leverantör, C3 köparens leverantör, C4 köpare, C5 skattemyndigheten",
+        "Leverantören validerar fakturan, inte skattemyndigheten",
+        "En leverantör i taget, kopplad i Fawtara-portalen",
+        "Ansvaret för en korrekt faktura ligger kvar hos dig"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Vad en PINT OM-e-faktura måste innehålla",
+      "body": "PINT OM lägger till omanska regler ovanpå Peppol-fakturan. De flesta avvisningar beror på saknade grunddata, inte på fakturans belopp. Kontrollera de här fälten i dina uppgifter först.",
+      "items": [
+        "Ett unikt faktura-UUID, version 5, och tidpunkten för utfärdandet",
+        "Ett fakturadatum som inte ligger i framtiden enligt Muscat-tid",
+        "Säljarens momsnummer i formen OM plus 10 siffror, säljarens adress och telefonnummer",
+        "För en fullständig skattefaktura köparens momsnummer eller identifierare och adress",
+        "Moms per rad och en skattekategori per rad (S, E, O eller Z)",
+        "Normalsats 5 %; momsfria och nollskattade rader behöver en orsakskod",
+        "För varor en 12-siffrig omansk HS-kod och en markering för vara eller tjänst per rad",
+        "En ISIC-verksamhetskod per artikel",
+        "Belopp med högst 3 decimaler, i OMR för momssummorna"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Kreditfakturor och debetfakturor",
+      "body": "När du har utfärdat en e-faktura makulerar, raderar eller ändrar du den inte. Du utfärdar en elektronisk kreditfaktura (för att minska den) eller debetfaktura (för att öka den). Notan anger originalfakturan med nummer, datum och UUID och har en orsakskod: CAN för en makulering eller retur, VAT för en ändrad momsbehandling, VAL för en ändring av värdet, QTY för en ändring av antalet eller OTH för ett annat skäl. Om du fakturerade fel köpare utfärdar du en kreditfaktura till den köparen och en ny faktura till rätt köpare.",
+      "items": [
+        "Kreditfaktura: dokumenttyp 381",
+        "Debetfaktura: dokumenttyp 383",
+        "Originalfakturans nummer, datum och UUID på varje nota",
+        "Orsakskoder: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Välja en ackrediterad tjänsteleverantör",
+      "body": "Skattemyndigheten publicerar den aktuella listan över ackrediterade tjänsteleverantörer. Den 13 oktober 2026 hade listan 36 poster, och den växer fortfarande. Skattemyndigheten tar inte ut någon avgift av skattebetalarna och sätter inte leverantörernas priser, så varje leverantör väljer sin egen modell: abonnemang, per faktura eller något annat. Jämför leverantörer utifrån vad de kopplar till, var de lagrar dina uppgifter, support på arabiska och hur du byter bort dem. Varje leverantör anger själv på listan var uppgifterna lagras, och skattemyndigheten kontrollerar inte det.",
+      "items": [
+        "Använd bara en leverantör från skattemyndighetens lista",
+        "Fråga hur ditt program kopplas: API, filuppladdning eller en färdig koppling",
+        "Fråga var dina uppgifter lagras och hur länge de arkiveras",
+        "Kontrollera stegen för att byta innan du skriver på"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C-försäljning och QR-koden",
+      "body": "En försäljning till en konsument, eller till en köpare som inte är momsregistrerad, rapporteras till skattemyndigheten inom 24 timmar. Du ger köparen en läsbar faktura via valfri kanal. Den utskrivna kopian eller PDF-kopian måste ha en QR-kod, som du som säljare skapar. QR-koden ingår inte i XML-e-fakturan. Skattemyndigheten hänvisar till bilaga D i Peppol Oman Architecture för QR-kodens innehåll. Den bilagan är inte offentlig än, så se varje QR-layout du ser nu som obekräftad.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Vad du ska göra nu",
+      "body": "Du behöver inte vänta på ditt datum för att förbereda dig. Det arbete som tar längst tid är grunddata, och det kan du börja med i dag.",
+      "items": [
+        "Gör tröskeltestet och skriv ner ditt startdatum",
+        "Kontrollera varje kunds momsnummer: OM plus 10 siffror",
+        "Lägg till den 12-siffriga HS-koden på varje vara och en ISIC-kod på varje artikel",
+        "Koppla dina enheter till UN/ECE-enhetskoder (till exempel är en styck H87)",
+        "Sluta radera eller numrera om utfärdade fakturor: använd kreditfakturor",
+        "Välj en leverantör från skattemyndighetens lista och testa tidigt",
+        "Håll ditt eget arkiv: skattemyndigheten lämnar inte tillbaka fakturadata"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Vem som skickar vad, fall för fall",
+    "intro": "Fakturans väg beror på vem köparen är. Tabellen visar hörnen för varje fall i skattemyndighetens FAQ.",
+    "columns": [
+      "Fall",
+      "Flöde",
+      "Vad som händer"
+    ],
+    "rows": [
+      {
+        "label": "Inhemsk B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Realtid. Din leverantör levererar till köparens leverantör och rapporterar skattedata till skattemyndigheten.",
+        "source": 2
+      },
+      {
+        "label": "B2C, eller köpare som inte är momsregistrerad",
+        "flow": "C1 → C2 → C5",
+        "detail": "Rapporteras inom 24 timmar. Köparen får en läsbar faktura med en QR-kod.",
+        "source": 2
+      },
+      {
+        "label": "Köparen ännu inte i en etapp",
+        "flow": "C1 → C2 → C5",
+        "detail": "Din leverantör rapporterar skattedata. Du skickar fakturan till köparen på samma sätt som i dag.",
+        "source": 2
+      },
+      {
+        "label": "Säljaren ännu inte i en etapp",
+        "flow": "C1 → C4",
+        "detail": "En momsregistrerad säljare utanför de pågående etapperna fakturerar som i dag. Köparen gör avdrag för ingående moms som i dag.",
+        "source": 2
+      },
+      {
+        "label": "Export",
+        "flow": "C1 → C2 → C5",
+        "detail": "Du delar fakturan med den utländska kunden som i dag. Skattedata går genom nätverket.",
+        "source": 2
+      },
+      {
+        "label": "Rättelse",
+        "flow": "381 / 383",
+        "detail": "Notan följer samma väg som fakturan den rättar.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "När blir e-fakturering obligatorisk i Oman?",
+      "a": "Den 1 april 2027 för skattskyldiga med en årlig omsättning över OMR 5,000,000 och den 1 oktober 2027 för dem med OMR 5,000,000 eller mindre. Decision 189/2026 anger båda datumen. Före ditt datum är e-fakturering frivillig, och skattemyndigheten uppmuntrar en tidig start."
+    },
+    {
+      "q": "Hur vet jag om mitt företag hör till gruppen från april 2027?",
+      "a": "Lägg ihop dina skattepliktiga leveranser (utan anläggningstillgångar), dina leveranser med omvänd skattskyldighet och dina leveranser inom GCC. Om summan från 1 april 2026 till 31 mars 2027 överstiger OMR 5,000,000, eller om du förväntar dig att den överstiger det från 1 april 2027 till 31 mars 2028, börjar du den 1 april 2027. Annars börjar du den 1 oktober 2027."
+    },
+    {
+      "q": "Är en PDF-faktura en e-faktura i Oman?",
+      "a": "Nej. E-fakturan är en strukturerad XML-fil i PINT OM-formatet som går via en ackrediterad tjänsteleverantör. Du kan fortfarande skriva ut eller skicka en PDF-kopia, men när ditt datum har börjat är det bara e-fakturan som räknas som en giltig skattefaktura."
+    },
+    {
+      "q": "Måste jag ladda upp mina gamla fakturor?",
+      "a": "Nej. Fakturor som du utfärdade innan du började med e-fakturering skickas inte in till skattemyndigheten. Spara dem i din egen bokföring som momslagen kräver."
+    },
+    {
+      "q": "Vad händer om min kund inte är med i Fawtara än?",
+      "a": "Du skickar ändå fakturan till din tjänsteleverantör, och leverantören skickar skattedatadokumentet till skattemyndigheten. Du skickar fakturan till kunden på samma sätt som i dag."
+    },
+    {
+      "q": "Tar skattemyndigheten betalt för Fawtara?",
+      "a": "Nej. Skattemyndigheten tar inte ut någon avgift av skattebetalarna och bestämmer inte vad tjänsteleverantörerna tar betalt. Varje ackrediterad leverantör sätter sitt eget pris."
+    },
+    {
+      "q": "Finns det sanktioner?",
+      "a": "Skattemyndigheten säger att sanktioner enligt momslagstiftningen gäller när kravet har börjat gälla. Den har inte publicerat någon separat sanktionstabell för e-fakturering, så se varje specifikt belopp du läser någon annanstans som obekräftat."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Gör dina uppgifter redo för Fawtara",
+  "ctaSub": "Paper & Pen skapar PINT OM-e-fakturor och kontrollerar dem mot de officiella omanska reglerna. Börja med en gratis arbetsyta.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 om ändring av Executive Regulations of the VAT Law (officiella tidningen nr 1660)",
+      "publisher": "Oman Tax Authority, text på Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "FAQ om e-fakturering i Fawtara, senast uppdaterad 30 september 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Ackrediterade tjänsteleverantörer (aktuell lista)",
+      "publisher": "Oman Tax Authority, Fawtara-portalen",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM-specifikationer, version 1.0.1",
+      "publisher": "OpenPeppol, förvaltas av Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM-regler för Oman (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, förvaltas av Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Kontroll av möjlig etapp för införandet",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Versionsinformation för PINT OM 1.0.1",
+      "publisher": "OpenPeppol, förvaltas av Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

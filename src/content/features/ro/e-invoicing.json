@@ -1,0 +1,113 @@
+{
+  "locale": "ro",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "Facturare electronică pentru Oman",
+  "metaTitle": "Facturare electronică Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen generează PINT OM XML, îl verifică cu schematronul oficial din Oman, emite o dată cu UUID v5 și blochează factura emisă. Pentru Fawtara.",
+  "keywords": "program facturare electronică oman, program fawtara, pint om xml, factură electronică oman, validare schematron oman, notă de credit oman facturare electronică, notă de debit oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "Facturi electronice care trec de <em class=\"text-copper-400 not-italic\">regulile din Oman</em> înainte să plece",
+  "heroSubtitle": "Paper & Pen transformă facturile, notele de credit și notele de debit în PINT OM XML și verifică fiecare document după schematronul oficial din Oman. O verificare de pregătire arată ce trebuie corectat în evidențele tale. O factură care trece verificarea este emisă o singură dată, cu propriul UUID, și rămâne blocată.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Verificare cu schematronul oficial din Oman",
+    "Emisă o dată, apoi blocată"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Fiecare factură devine o factură electronică PINT OM: formatul XML UBL 2.1 pe care îl folosește Fawtara din Oman."
+    },
+    {
+      "icon": "shield",
+      "title": "Schematronul oficial din Oman",
+      "desc": "XML-ul este verificat după regulile schematron oficiale OpenPeppol PINT OM, versiunea 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Verificare de pregătire cu corecturi",
+      "desc": "O scanare a datelor firmei, clienților și articolelor listează fiecare lipsă și locul unde o corectezi."
+    },
+    {
+      "icon": "lock",
+      "title": "Emisă o dată, UUID v5",
+      "desc": "O factură este emisă o singură dată, cu un UUID versiunea 5. O reîncercare sau un dublu clic nu creează niciodată una a doua."
+    },
+    {
+      "icon": "invoice",
+      "title": "Blocată la emitere",
+      "desc": "După emitere, nimeni nu mai poate schimba sumele, anula factura sau șterge factura."
+    },
+    {
+      "icon": "receipt",
+      "title": "Note de credit și de debit",
+      "desc": "Creezi nota din factura inițială. Ea conține numărul, data, UUID-ul și un cod de motiv."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Înainte să emiți",
+      "title": "Găsește lipsurile cât încă le poți corecta",
+      "body": "Cele mai multe respingeri ale facturilor electronice vin din datele de bază, nu din totaluri: un cod de TVA al clientului în forma greșită, o adresă a vânzătorului lipsă, un articol fără cod HS sau cod de activitate. Verificarea de pregătire îți scanează evidențele după regulile PINT OM și grupează fiecare lipsă după înregistrarea care trebuie corectată, așa că repari un produs o singură dată și fiecare linie de factură care îl conține este în regulă. O factură care nu trece verificarea nu este emisă. Își păstrează lipsurile și o poți modifica în continuare.",
+      "items": [
+        "Lipsuri grupate pe firmă, client și articol",
+        "Fiecare lipsă indică înregistrarea de corectat",
+        "O factură respinsă rămâne o ciornă pe care o poți corecta"
+      ]
+    },
+    {
+      "eyebrow": "Când emiți",
+      "title": "O factură, un UUID, fără modificări ulterioare",
+      "body": "În Fawtara o factură emisă nu poate fi anulată sau modificată. Paper & Pen urmează aceeași regulă. Când o factură trece verificarea, este emisă cu un UUID versiunea 5, iar XML-ul ei este stocat împreună cu ea. De atunci sumele, liniile și clientul sunt blocate, iar factura nu mai poate fi anulată sau ștearsă. Plățile se înregistrează în continuare normal.",
+      "items": [
+        "UUID versiunea 5 stocat pe factură",
+        "XML-ul este stocat împreună cu factura emisă",
+        "Sume blocate, fără anulare, fără ștergere"
+      ]
+    },
+    {
+      "eyebrow": "Când se schimbă ceva",
+      "title": "Corectezi cu o notă de credit sau o notă de debit",
+      "body": "Ca să reduci o factură emisă, creezi din ea o notă de credit. Ca să o majorezi, creezi din ea o notă de debit. Paper & Pen completează nota din factura inițială: numărul, data și UUID-ul cerute de PINT OM. Tu alegi codul de motiv: CAN pentru anulare sau retur, VAT pentru o schimbare a tratamentului TVA, VAL pentru o schimbare a valorii, QTY pentru o schimbare a cantității sau OTH. Nota trece prin aceeași verificare și respectă aceeași regulă a emiterii unice.",
+      "items": [
+        "Notă de credit (381) și notă de debit (383)",
+        "Numărul, data și UUID-ul inițiale completate",
+        "Coduri de motiv CAN, VAT, VAL, QTY, OTH în engleză și arabă"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Paper & Pen îmi trimite facturile la Autoritatea Fiscală din Oman?",
+      "a": "Niciun program nu trimite direct la Tax Authority. În Fawtara, un furnizor de servicii acreditat primește factura ta electronică, o livrează și o raportează la Tax Authority. Paper & Pen generează și verifică PINT OM XML-ul pe care îl primește furnizorul. Tax Authority publică lista furnizorilor acreditați."
+    },
+    {
+      "q": "Ce documente acoperă?",
+      "a": "Facturi, note de credit și note de debit. Fiecare este generat ca PINT OM XML, verificat după schematronul oficial din Oman și emis o singură dată, cu propriul UUID versiunea 5."
+    },
+    {
+      "q": "Ce se întâmplă cu facturile mele mai vechi?",
+      "a": "Facturarea electronică în Paper & Pen începe de la data de pornire setată pentru spațiul tău de lucru. Facturile emise înainte de această dată nu sunt atinse și nu sunt trimise, ceea ce corespunde regulii Tax Authority potrivit căreia facturile istorice nu se transmit."
+    },
+    {
+      "q": "Mai pot modifica o factură după ce o emit?",
+      "a": "Nu. O factură electronică emisă este blocată: sumele și liniile ei sunt blocate și nu poate fi anulată sau ștearsă. Ca să o corectezi, creezi din ea o notă de credit sau o notă de debit. O factură care nu a trecut încă verificarea rămâne editabilă."
+    },
+    {
+      "q": "Când devine obligatorie facturarea electronică în Oman?",
+      "a": "La 1 aprilie 2027 pentru afacerile cu livrări anuale de peste OMR 5,000,000 și la 1 octombrie 2027 pentru restul, conform Deciziei 189/2026. Ghidul nostru de facturare electronică pentru Oman explică testul de prag și are linkuri către textele oficiale."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Creează-ți spațiul de lucru gratuit",
+  "ctaSub": "Vânzările și facturarea sunt gratuite pentru totdeauna. Verifică-ți evidențele după regulile PINT OM înainte de data ta Fawtara."
+}

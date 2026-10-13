@@ -1,0 +1,319 @@
+{
+  "locale": "ms",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Disemak berdasarkan teks Tax Authority pada 14 Oktober 2026.",
+  "title": "E-invois di Oman (Fawtara)",
+  "metaTitle": "E-invois di Oman: Tarikh dan Peraturan Fawtara · Paper & Pen",
+  "metaDescription": "Fawtara bermula 1 April 2027 melebihi OMR 5 juta dan 1 Oktober 2027 bagi yang lain. Ujian ambang, medan PINT OM dan nota, merujuk Tax Authority.",
+  "keywords": "e-invois oman, fawtara, fawtara oman, e-invois oman 2027, pint om, e-invois pihak berkuasa cukai oman, penyedia perkhidmatan bertauliah oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-invois di Oman: <em class=\"text-copper-400 not-italic\">apa yang bermula pada 2027</em>",
+  "heroSubtitle": "Decision 189/2026 mewajibkan e-invois bagi perniagaan berdaftar VAT dalam dua kumpulan, mulai 1 April 2027 dan mulai 1 Oktober 2027. Panduan ini menerangkan tarikh yang terpakai kepada anda, bagaimana invois sampai kepada Tax Authority, apa yang mesti ada pada e-invois PINT OM, dan apa yang perlu dibetulkan dalam rekod anda sekarang. Setiap peraturan dipautkan kepada teks rasmi.",
+  "heroBullets": [
+    "1 Apr 2027: pembekalan melebihi OMR 5 juta",
+    "1 Okt 2027: OMR 5 juta atau kurang",
+    "Permulaan sukarela dibenarkan sekarang"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara secara ringkas",
+  "facts": [
+    {
+      "label": "Asas undang-undang",
+      "value": "Decision 189/2026",
+      "note": "Ia meminda Executive Regulations of the VAT Law. Tax Authority mengeluarkannya pada 3 Ogos 2026, dan Warta Rasmi menerbitkannya dalam keluaran 1660 pada 9 Ogos 2026. Perkara 143 yang baharu mewajibkan invois cukai dalam format elektronik yang diluluskan dan selamat, dengan nombor unik.",
+      "source": 1
+    },
+    {
+      "label": "Kumpulan pertama",
+      "value": "1 April 2027",
+      "note": "Orang bercukai yang pembekalan tahunannya melebihi OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Kumpulan kedua",
+      "value": "1 Oktober 2027",
+      "note": "Orang bercukai yang pembekalan tahunannya OMR 5,000,000 atau kurang.",
+      "source": 1
+    },
+    {
+      "label": "Sebelum tarikh anda",
+      "value": "Sukarela",
+      "note": "Tax Authority menggalakkan perniagaan menguji sistem mereka dan mengeluarkan e-invois sebelum tarikh wajib mereka.",
+      "source": 2
+    },
+    {
+      "label": "Format",
+      "value": "XML, PINT OM",
+      "note": "XML ialah format berstruktur yang wajib. Spesifikasi Oman ialah PINT OM versi 1.0.1, format Peppol yang diselenggara oleh Tax Authority.",
+      "source": 4
+    },
+    {
+      "label": "Masa B2B",
+      "value": "Masa nyata",
+      "note": "E-invois antara perniagaan dihantar melalui rangkaian apabila anda mengeluarkannya.",
+      "source": 2
+    },
+    {
+      "label": "Masa B2C",
+      "value": "24 jam",
+      "note": "Invois kepada pengguna, atau kepada pembeli yang tidak berdaftar VAT, dilaporkan dalam tempoh 24 jam.",
+      "source": 2
+    },
+    {
+      "label": "Invois lama",
+      "value": "Tidak dihantar",
+      "note": "Invois yang dikeluarkan sebelum anda bermula tidak dimuat naik kepada Tax Authority.",
+      "source": 2
+    },
+    {
+      "label": "Pembetulan",
+      "value": "Nota kredit atau debit",
+      "note": "Anda tidak boleh membatalkan atau mengedit e-invois yang telah dikeluarkan. Anda melaraskannya dengan nota kredit atau nota debit elektronik.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Tarikh mana yang terpakai kepada anda",
+      "body": "Ujian ini menggunakan pembekalan tahunan anda setakat 31 Mac 2027. Kira pembekalan bercukai anda (kecualikan pembekalan aset modal), tambah barangan dan perkhidmatan di bawah mekanisme caj balikan (reverse charge), dan tambah pembekalan intra-GCC anda.\n\nAnda bermula pada 1 April 2027 jika mana-mana satu jumlah melebihi OMR 5,000,000: pembekalan anda dari 1 April 2026 hingga 31 Mac 2027, atau jangkaan pembekalan anda dari 1 April 2027 hingga 31 Mac 2028. Jika kedua-duanya tidak melebihi OMR 5,000,000, anda bermula pada 1 Oktober 2027. Bukan pemastautin hanya mengira pembekalannya di Oman. Kumpulan VAT diuji sebagai satu kumpulan, bukan ahli demi ahli. Tax Authority juga menyediakan semakan pelaksanaan dalam talian: anda memasukkan nombor VAT dan julat pembekalan anda.",
+      "items": [
+        "Masukkan: pembekalan bercukai, pembekalan caj balikan, pembekalan intra-GCC",
+        "Kecualikan: pembekalan aset modal",
+        "Dua tempoh: 12 bulan hingga 31 Mac 2027, dan 12 bulan dari 1 April 2027",
+        "Mana-mana tempoh melebihi OMR 5,000,000 bermakna 1 April 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Bagaimana invois sampai kepada Tax Authority",
+      "body": "Fawtara menggunakan model lima penjuru. Penjuru 1 ialah anda, penjual. Penjuru 2 ialah penyedia perkhidmatan bertauliah anda. Penjuru 3 ialah penyedia perkhidmatan pembeli anda, penjuru 4 ialah pembeli anda, dan penjuru 5 ialah Tax Authority. Perisian anda tidak pernah menghantar terus kepada Tax Authority. Ia menghantar e-invois kepada penyedia anda.\n\nPenyedia anda menyemak invois berdasarkan peraturan schematron rasmi Oman, menyampaikannya kepada penyedia pembeli dalam rangkaian Peppol, dan menghantar dokumen data cukai kepada Tax Authority. Anda dipautkan kepada satu penyedia pada satu masa melalui portal Fawtara, dan anda boleh menukar penyedia kemudian. Pematuhan invois kekal menjadi tanggungjawab anda.",
+      "items": [
+        "C1 penjual, C2 penyedia penjual, C3 penyedia pembeli, C4 pembeli, C5 Tax Authority",
+        "Penyedia yang mengesahkan invois, bukan Tax Authority",
+        "Satu penyedia pada satu masa, dipautkan di portal Fawtara",
+        "Tanggungjawab bagi invois yang betul kekal pada anda"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Apa yang mesti ada pada e-invois PINT OM",
+      "body": "PINT OM menambah peraturan Oman di atas invois Peppol. Kebanyakan penolakan berpunca daripada data induk yang tiada, bukan daripada jumlah invois. Semak medan ini dalam rekod anda dahulu.",
+      "items": [
+        "UUID invois yang unik, versi 5, dan masa pengeluaran",
+        "Tarikh pengeluaran yang bukan pada masa hadapan mengikut waktu Muscat",
+        "Nombor VAT penjual dalam bentuk OM diikuti 10 digit, alamat dan telefon penjual",
+        "Bagi invois cukai penuh, nombor VAT atau pengenal pembeli dan alamatnya",
+        "VAT bagi setiap baris, dan kategori cukai bagi setiap baris (S, E, O atau Z)",
+        "Kadar standard 5%; baris dikecualikan dan berkadar sifar memerlukan kod sebab",
+        "Bagi barangan, kod HS Oman 12 digit dan penanda barangan atau perkhidmatan bagi setiap baris",
+        "Kod aktiviti ISIC bagi setiap item",
+        "Amaun paling banyak 3 titik perpuluhan, dalam OMR bagi jumlah VAT"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Nota kredit dan nota debit",
+      "body": "Selepas anda mengeluarkan e-invois, anda tidak membatalkan, memadam atau mengeditnya. Anda mengeluarkan nota kredit elektronik (untuk mengurangkannya) atau nota debit (untuk menambahnya). Nota itu menamakan invois asal mengikut nombor, tarikh dan UUID, dan membawa kod sebab: CAN untuk pembatalan atau pemulangan, VAT untuk perubahan layanan VAT, VAL untuk perubahan nilai, QTY untuk perubahan kuantiti, atau OTH untuk sebab lain. Jika anda mengeluarkan invois kepada pembeli yang salah, keluarkan nota kredit kepada pembeli itu dan invois baharu kepada pembeli yang betul.",
+      "items": [
+        "Nota kredit: jenis dokumen 381",
+        "Nota debit: jenis dokumen 383",
+        "Nombor, tarikh dan UUID invois asal pada setiap nota",
+        "Kod sebab: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Memilih penyedia perkhidmatan bertauliah",
+      "body": "Tax Authority menerbitkan senarai semasa penyedia perkhidmatan bertauliah. Pada 13 Oktober 2026 senarai itu mempunyai 36 entri, dan ia masih bertambah. Tax Authority tidak mengenakan sebarang yuran kepada pembayar cukai dan tidak menetapkan harga penyedia, jadi setiap penyedia menetapkan modelnya sendiri: langganan, setiap invois atau yang lain. Bandingkan penyedia dari segi apa yang mereka sambungkan, di mana mereka menyimpan data anda, sokongan bahasa Arab, dan cara anda beralih daripada mereka. Setiap penyedia menyatakan lokasi data mereka sendiri dalam senarai, dan Tax Authority tidak mengesahkannya.",
+      "items": [
+        "Gunakan hanya penyedia dalam senarai Tax Authority",
+        "Tanya bagaimana perisian anda bersambung: API, muat naik fail atau penyambung sedia ada",
+        "Tanya di mana data anda disimpan dan berapa lama ia diarkibkan",
+        "Semak langkah untuk beralih keluar sebelum anda menandatangani"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Jualan B2C dan kod QR",
+      "body": "Jualan kepada pengguna, atau kepada mana-mana pembeli yang tidak berdaftar VAT, dilaporkan kepada Tax Authority dalam tempoh 24 jam. Anda memberikan pembeli invois yang boleh dibaca manusia melalui apa-apa saluran. Salinan bercetak atau PDF itu mesti membawa kod QR, yang anda jana sebagai penjual. Kod QR bukan sebahagian daripada e-invois XML. Tax Authority merujuk kepada Lampiran D Peppol Oman Architecture untuk kandungan QR. Lampiran itu belum didedahkan kepada umum, jadi anggap apa-apa susun atur QR yang anda lihat sekarang sebagai belum disahkan.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Apa yang perlu dilakukan sekarang",
+      "body": "Anda tidak perlu menunggu tarikh anda untuk bersedia. Kerja yang paling lama ialah data induk, dan anda boleh memulakannya hari ini.",
+      "items": [
+        "Jalankan ujian ambang dan catat tarikh permulaan anda",
+        "Semak setiap nombor VAT pelanggan: OM diikuti 10 digit",
+        "Tambah kod HS 12 digit pada setiap item barangan dan kod ISIC pada setiap item",
+        "Petakan unit anda kepada kod unit UN/ECE (contohnya, satu unit biji ialah H87)",
+        "Berhenti memadam atau menomborkan semula invois yang telah dikeluarkan: gunakan nota kredit",
+        "Pilih penyedia daripada senarai Tax Authority dan uji awal",
+        "Simpan arkib anda sendiri: Tax Authority tidak memulangkan data invois"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Siapa menghantar apa, kes demi kes",
+    "intro": "Laluan invois bergantung pada siapa pembelinya. Jadual ini menunjukkan penjuru bagi setiap kes dalam Soalan Lazim Tax Authority.",
+    "columns": [
+      "Kes",
+      "Aliran",
+      "Apa yang berlaku"
+    ],
+    "rows": [
+      {
+        "label": "B2B domestik",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Masa nyata. Penyedia anda menyampaikan kepada penyedia pembeli dan melaporkan data cukai kepada Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C, atau pembeli tidak berdaftar VAT",
+        "flow": "C1 → C2 → C5",
+        "detail": "Dilaporkan dalam tempoh 24 jam. Pembeli menerima invois yang boleh dibaca manusia dengan kod QR.",
+        "source": 2
+      },
+      {
+        "label": "Pembeli belum dalam fasa pelaksanaan",
+        "flow": "C1 → C2 → C5",
+        "detail": "Penyedia anda melaporkan data cukai. Anda menghantar invois kepada pembeli seperti yang anda lakukan hari ini.",
+        "source": 2
+      },
+      {
+        "label": "Penjual belum dalam fasa pelaksanaan",
+        "flow": "C1 → C4",
+        "detail": "Penjual berdaftar VAT di luar fasa pelaksanaan semasa mengeluarkan invois seperti hari ini. Pembeli menuntut VAT input seperti hari ini.",
+        "source": 2
+      },
+      {
+        "label": "Eksport",
+        "flow": "C1 → C2 → C5",
+        "detail": "Anda berkongsi invois dengan pelanggan asing seperti hari ini. Data cukai dihantar melalui rangkaian.",
+        "source": 2
+      },
+      {
+        "label": "Pembetulan",
+        "flow": "381 / 383",
+        "detail": "Nota mengikut laluan yang sama dengan invois yang dibetulkannya.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Bilakah e-invois menjadi wajib di Oman?",
+      "a": "Pada 1 April 2027 bagi orang bercukai dengan pembekalan tahunan melebihi OMR 5,000,000, dan pada 1 Oktober 2027 bagi mereka dengan OMR 5,000,000 atau kurang. Decision 189/2026 menetapkan kedua-dua tarikh. Sebelum tarikh anda, e-invois adalah sukarela dan Tax Authority menggalakkan permulaan awal."
+    },
+    {
+      "q": "Bagaimana saya tahu sama ada perniagaan saya dalam kumpulan April 2027?",
+      "a": "Jumlahkan pembekalan bercukai anda (tanpa aset modal), pembekalan caj balikan anda dan pembekalan intra-GCC anda. Jika jumlah dari 1 April 2026 hingga 31 Mac 2027 melebihi OMR 5,000,000, atau anda menjangka ia melebihi angka itu dari 1 April 2027 hingga 31 Mac 2028, anda bermula pada 1 April 2027. Jika tidak, anda bermula pada 1 Oktober 2027."
+    },
+    {
+      "q": "Adakah invois PDF dikira sebagai e-invois di Oman?",
+      "a": "Tidak. E-invois ialah fail XML berstruktur dalam format PINT OM yang dihantar melalui penyedia perkhidmatan bertauliah. Anda masih boleh mencetak atau menghantar salinan PDF, tetapi hanya e-invois yang dikira sebagai invois cukai yang sah sebaik sahaja tarikh anda bermula."
+    },
+    {
+      "q": "Adakah saya perlu memuat naik invois lama saya?",
+      "a": "Tidak. Invois yang anda keluarkan sebelum anda memulakan e-invois tidak dihantar kepada Tax Authority. Simpan invois itu dalam rekod anda sendiri seperti yang dikehendaki oleh undang-undang VAT."
+    },
+    {
+      "q": "Bagaimana jika pelanggan saya belum menggunakan Fawtara?",
+      "a": "Anda tetap menghantar invois kepada penyedia perkhidmatan anda, dan penyedia menghantar dokumen data cukai kepada Tax Authority. Anda menghantar invois kepada pelanggan seperti yang anda lakukan hari ini."
+    },
+    {
+      "q": "Adakah Tax Authority mengenakan bayaran untuk Fawtara?",
+      "a": "Tidak. Tax Authority tidak mengenakan sebarang yuran kepada pembayar cukai dan tidak menetapkan caj penyedia perkhidmatan. Setiap penyedia bertauliah menetapkan harganya sendiri."
+    },
+    {
+      "q": "Adakah terdapat penalti?",
+      "a": "Tax Authority menyatakan bahawa penalti terpakai di bawah perundangan VAT selepas mandat bermula. Ia belum menerbitkan jadual penalti e-invois yang berasingan, jadi anggap apa-apa amaun tertentu yang anda baca di tempat lain sebagai belum disahkan."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Sediakan rekod anda untuk Fawtara",
+  "ctaSub": "Paper & Pen membina e-invois PINT OM dan menyemaknya berdasarkan peraturan rasmi Oman. Mulakan dengan ruang kerja percuma.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 yang meminda Executive Regulations of the VAT Law (Warta Rasmi 1660)",
+      "publisher": "Oman Tax Authority, teks di Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Soalan Lazim e-invois Fawtara, kemas kini terakhir 30 September 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Penyedia perkhidmatan bertauliah (senarai semasa)",
+      "publisher": "Oman Tax Authority, portal Fawtara",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Spesifikasi PINT OM, versi 1.0.1",
+      "publisher": "OpenPeppol, diselenggara oleh Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Peraturan bidang kuasa PINT OM (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, diselenggara oleh Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Semakan potensi fasa pelaksanaan",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Nota keluaran PINT OM 1.0.1",
+      "publisher": "OpenPeppol, diselenggara oleh Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

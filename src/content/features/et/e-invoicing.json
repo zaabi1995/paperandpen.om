@@ -1,0 +1,113 @@
+{
+  "locale": "et",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-arveldus Omaani jaoks",
+  "metaTitle": "Omaani e-arvelduse tarkvara (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen koostab PINT OM XML-i, kontrollib seda Omaani ametliku schematroniga, väljastab ühe korra UUID v5-ga ja lukustab arve. Fawtara jaoks.",
+  "keywords": "e-arvelduse tarkvara omaan, fawtara tarkvara, pint om xml, omaani e-arve, omaani schematron valideerimine, kreeditarve omaan e-arveldus, deebetarve omaan",
+  "heroEyebrow": "Omaan · Fawtara",
+  "heroTitle": "E-arved, mis läbivad <em class=\"text-copper-400 not-italic\">Omaani reeglid</em> enne teele minekut",
+  "heroSubtitle": "Paper & Pen muudab sinu arved, kreeditarved ja deebetarved PINT OM XML-iks ja kontrollib igaüht Omaani ametliku schematroni järgi. Valmisoleku kontroll loetleb, mida oma andmetes parandada. Kontrolli läbinud arve väljastatakse üks kord, oma UUID-ga, ja see jääb lukustatuks.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Kontroll Omaani ametliku schematroniga",
+    "Väljastatakse üks kord, seejärel lukustatakse"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Igast arvest saab PINT OM e-arve: UBL 2.1 XML vorming, mida kasutab Omaani Fawtara."
+    },
+    {
+      "icon": "shield",
+      "title": "Omaani ametlik schematron",
+      "desc": "XML-i kontrollitakse ametlike OpenPeppol PINT OM schematron-reeglite versiooni 1.0.1 järgi."
+    },
+    {
+      "icon": "check",
+      "title": "Valmisoleku kontroll koos parandustega",
+      "desc": "Ettevõtte, kliendi- ja artikliandmete läbivaatus loetleb iga puudujäägi ja näitab, kus seda parandada."
+    },
+    {
+      "icon": "lock",
+      "title": "Üks väljastamine, UUID v5",
+      "desc": "Arve väljastatakse üks kord UUID versiooniga 5. Uus katse või topeltklõps ei loo kunagi teist."
+    },
+    {
+      "icon": "invoice",
+      "title": "Väljastamisel lukustatud",
+      "desc": "Pärast väljastamist ei saa keegi summasid muuta, arvet tühistada ega seda kustutada."
+    },
+    {
+      "icon": "receipt",
+      "title": "Kreedit- ja deebetarved",
+      "desc": "Koosta dokument algse arve põhjal. See sisaldab numbrit, kuupäeva, UUID-d ja põhjuse koodi."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Enne väljastamist",
+      "title": "Leia puudujäägid, kui neid veel saab parandada",
+      "body": "Enamik e-arvete tagasilükkamisi tuleb põhiandmetest, mitte summadest: kliendi käibemaksunumber vales vormis, puuduv müüja aadress, artikkel ilma HS-koodi või tegevusala koodita. Valmisoleku kontroll vaatab sinu andmed läbi PINT OM reeglite järgi ja rühmitab iga puudujäägi kirje järgi, mida tuleb parandada, nii et parandad toote ühe korra ja iga arverida, millel see on, on korras. Kontrolli mitteläbinud arvet ei väljastata. Selle puudujäägid jäävad alles ja saad seda endiselt muuta.",
+      "items": [
+        "Puudujäägid rühmitatud ettevõtte, kliendi ja artikli järgi",
+        "Iga puudujääk nimetab parandatava kirje",
+        "Kontrolli mitteläbinud arve jääb parandatavaks mustandiks"
+      ]
+    },
+    {
+      "eyebrow": "Väljastamisel",
+      "title": "Üks arve, üks UUID, hilisemaid muudatusi pole",
+      "body": "Fawtara järgi ei saa väljastatud arvet tühistada ega muuta. Paper & Pen järgib sama reeglit. Kui arve läbib kontrolli, väljastatakse see UUID versiooniga 5 ja selle XML salvestatakse koos sellega. Sellest hetkest on summad, read ja klient lukustatud ning arvet ei saa tühistada ega kustutada. Maksed kirjenduvad endiselt tavapäraselt.",
+      "items": [
+        "UUID versioon 5 salvestatud arvele",
+        "XML salvestatakse koos väljastatud arvega",
+        "Summad lukustatud, tühistamist ega kustutamist pole"
+      ]
+    },
+    {
+      "eyebrow": "Kui midagi muutub",
+      "title": "Paranda kreeditarve või deebetarvega",
+      "body": "Väljastatud arve vähendamiseks koosta selle põhjal kreeditarve. Suurendamiseks koosta selle põhjal deebetarve. Paper & Pen täidab dokumendi algse arve põhjal: numbri, kuupäeva ja UUID, mida PINT OM nõuab. Sina valid põhjuse koodi: CAN tühistamise või tagastuse korral, VAT käibemaksukäsitluse muutuse korral, VAL väärtuse muutuse korral, QTY koguse muutuse korral või OTH. Dokumendile kehtib sama kontroll ja sama ühe väljastamise reegel.",
+      "items": [
+        "Kreeditarve (381) ja deebetarve (383)",
+        "Algne number, kuupäev ja UUID täidetud",
+        "Põhjuse koodid CAN, VAT, VAL, QTY, OTH inglise ja araabia keeles"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kas Paper & Pen saadab minu arved Omaani maksuametile?",
+      "a": "Ükski tarkvara ei saada otse maksuametile. Fawtara järgi võtab sinu e-arve vastu akrediteeritud teenusepakkuja, kes selle edastab ja maksuametile teatab. Paper & Pen koostab ja kontrollib PINT OM XML-i, mille teenusepakkuja vastu võtab. Akrediteeritud teenusepakkujate nimekirja avaldab maksuamet."
+    },
+    {
+      "q": "Milliseid dokumente see hõlmab?",
+      "a": "Arveid, kreeditarveid ja deebetarveid. Igaüks koostatakse PINT OM XML-ina, kontrollitakse Omaani ametliku schematroni järgi ja väljastatakse üks kord oma UUID versiooniga 5."
+    },
+    {
+      "q": "Mis saab minu vanematest arvetest?",
+      "a": "E-arveldus algab Paper & Penis sinu tööruumi jaoks määratud käivituskuupäevast. Enne seda kuupäeva väljastatud arveid ei puudutata ega saadeta, mis vastab maksuameti reeglile, et varasemaid arveid ei esitata."
+    },
+    {
+      "q": "Kas saan arvet pärast väljastamist veel muuta?",
+      "a": "Ei. Väljastatud e-arve on lukustatud: selle summad ja read on lukus ning seda ei saa tühistada ega kustutada. Parandamiseks koosta selle põhjal kreeditarve või deebetarve. Arve, mis ei ole veel kontrolli läbinud, jääb muudetavaks."
+    },
+    {
+      "q": "Millal muutub e-arveldus Omaanis kohustuslikuks?",
+      "a": "1. aprillil 2027 ettevõtetele, kelle aastakäive on üle OMR 5,000,000, ja 1. oktoobril 2027 ülejäänutele, otsuse 189/2026 alusel. Meie Omaani e-arvelduse juhend selgitab piirmäära testi ja viitab ametlikele tekstidele."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Loo oma tasuta tööruum",
+  "ctaSub": "Müük ja arveldus on igavesti tasuta. Kontrolli oma andmeid PINT OM reeglite järgi enne oma Fawtara kuupäeva."
+}

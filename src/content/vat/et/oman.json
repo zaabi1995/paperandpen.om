@@ -5,15 +5,15 @@
   "country": "Omaan",
   "title": "Käibemaks Omaanis",
   "metaTitle": "Käibemaks Omaanis: määr, piirmäärad, arved · Paper & Pen",
-  "metaDescription": "Omaani 5% käibemaksumäär, OMR 38,500 registreerimispiir ja kaksteist kohustuslikku maksuarve rekvisiiti, igaüks viitega Oman Tax Authority allikale.",
-  "keywords": "käibemaks omaan, omaani käibemaksumäär, omaani käibemaksukohustuslaseks registreerimise piir, omaani maksuarve nõuded, fawtara e-arve, oman tax authority",
+  "metaDescription": "Omaani 5% käibemaksumäär, OMR 38,500 piir, mida maksuarve peab sisaldama ja Fawtara e-arvete kuupäevad, igaüks viitega ametlikule tekstile.",
+  "keywords": "käibemaks omaan, omaani käibemaksumäär, omaani käibemaksukohustuslaseks registreerimise piir, omaani maksuarve nõuded, fawtara e-arve, omaani e-arveldus 2027, decision 189/2026, omaani maksuamet",
   "heroEyebrow": "Omaan",
   "heroTitle": "Arveldamine <em class=\"text-copper-400 not-italic\">Omaani käibemaksu</em> reeglite järgi",
-  "heroSubtitle": "Määr, registreerimise piirmäärad, mida maksuarve peab näitama ja kus e-arveldus seisab. Iga number sellel lehel on viidatud Oman Tax Authority enda avaldatud tekstile.",
+  "heroSubtitle": "Määr, registreerimise piirmäärad, mida maksuarve peab näitama ja millal e-arveldus algab. Iga number sellel lehel on viidatud ametlikule avaldatud tekstile.",
   "heroBullets": [
     "5% standardmäär",
     "Registreerimine alates OMR 38,500",
-    "Fawtara välja kuulutatud, kuid veel mitte kasutusel"
+    "Fawtara alates 1. aprillist 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Sellest väärtusest väiksema käibe puhul võib maksuameti loal kasutada lihtsustatud arvet.",
       "source": 3
+    },
+    {
+      "label": "E-arveldus (Fawtara)",
+      "value": "1. apr 2027 / 1. okt 2027",
+      "note": "Otsus 189/2026 muudab e-arveldamise kohustuslikuks 1. aprillil 2027 aastakäibe puhul üle OMR 5,000,000 ja 1. oktoobril 2027 käibe puhul OMR 5,000,000 või vähem. Enne seda on see vabatahtlik.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Maksuamet avaldab rakendusmäärused ainult araabia keeles. See loetelu on ametliku araabiakeelse teksti täpne lugemine, mitte ametlik tõlge, seega kontrolli sõnastust enne sellele tuginemist oma maksunõustajaga."
   },
   "einvoicing": {
-    "status": "Välja kuulutatud ja etapiviisiline, veel mitte kohustuslik",
-    "body": "Omaani e-arvelduse programmi nimi on Fawtara. Maksuamet kirjeldab viienurgalist mudelit, kus arved jõuavad temani akrediteeritud teenusepakkuja kaudu, ning näeb ette neli etappi: pilootprojekt, laiendamine, väiksemate ettevõtete liitmine ja täielik kasutuselevõtt. Amet ei ole etappide kuupäevi inglise keeles avaldanud ning ajakirjanduses ringlevaid kuupäevi tema enda lehtedel ei ole. Käsitle iga mujalt loetud Fawtara tähtaega kinnitamata infona, kuni maksuamet selle avaldab.",
-    "source": 4
+    "status": "Kohustuslik alates 1. aprillist 2027, praegu vabatahtlik",
+    "body": "Omaani e-arvelduse programmi nimi on Fawtara. Otsus 189/2026, mis avaldati Ametliku Teataja numbris 1660 9. augustil 2026, määrab kaks kuupäeva: 1. aprill 2027 maksukohustuslastele, kelle aastakäive on üle OMR 5,000,000, ja 1. oktoober 2027 neile, kelle käive on OMR 5,000,000 või vähem. Kuni sinu kuupäevani on e-arveldus vabatahtlik ja maksuamet julgustab varakult alustama. Arved liiguvad PINT OM XML vormingus akrediteeritud teenusepakkuja kaudu, kes toimetab need ostjale ja teatab neist maksuametile. Meie Omaani e-arvelduse juhend selgitab piirmäära testi ja reegleid.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Ettevalmistus",
-      "title": "Valmistu Fawtaraks kuupäevi oletamata",
-      "body": "Valmis olemiseks ei ole avaldatud tähtaega vaja. Iga piirkonnas käivitunud e-arvelduse süsteem on nõudnud sama põhilist distsipliini: puhtad ja täielikud kliendiandmed koos maksunumbritega, katkematu arvete järjestus, maksukäsitlus salvestatud rea, mitte arve kaupa, ning dokumendid hoitud nii, et neid saab nõudmisel kätte. Ettevõttel, kelle andmed juba vastavad neile neljale tingimusele, on ees lühike juurutus, ükskõik millal kuupäevad saabuvad. Ettevõte, kelle andmed ei vasta, kulutab etteteatamisaja andmete korrastamisele.",
+      "title": "Valmistu Fawtaraks enne oma kuupäeva",
+      "body": "Kuupäevad on nüüd paigas, nii et ülesanne on andmed korda saada. Fawtara nõuab puhtaid ja täielikke kliendiandmeid koos maksunumbritega kujul OM pluss 10 numbrit, katkematut arvete järjestust, rea kaupa salvestatud maksukäsitlust, HS-koodi igal kaubaartiklil ja tegevusala koodi igal artiklil ning dokumente, mille saad nõudmisel kätte. Ettevõttel, mille andmed juba vastavad neile tingimustele, on ees lühike juurutus. Ettevõte, mille andmed ei vasta, kulutab oma etteteatamisaja andmete puhastamisele.",
       "items": [
         "Täielikud kliendiandmed koos maksunumbritega",
         "Üks katkematu arvete järjestus seeria kohta",
         "Maksukäsitlus salvestatud rea kaupa",
-        "Dokumendid nõudmisel kättesaadavad"
+        "HS- ja tegevusala koodid sinu artiklitel"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Kui su aastakäive jõuab või eeldatavasti jõuab OMR 38,500-ni. Vabatahtlikult võid registreeruda alates OMR 19,250-st. Mõlemad numbrid tulenevad esimehe otsusest registreerimise piirmäärade kohta, mitte käibemaksuseadusest endast, mistõttu võivad need muutuda ilma seadust muutmata."
     },
     {
-      "q": "Kas e-arveldus on Omaanis juba kohustuslik?",
-      "a": "Veel mitte. Maksuamet on välja kuulutanud Fawtara, etapiviisilise viienurgalise e-arvelduse mudeli, mis kasutab akrediteeritud teenusepakkujaid, ja kirjeldab nelja juurutusetappi. Etappide kuupäevi ei ole ta oma lehtedel inglise keeles avaldanud, seega me siin kuupäeva ei nimeta. Kontrolli kehtivat seisu maksuameti e-arvelduse lehtedelt."
+      "q": "Millal muutub e-arveldus Omaanis kohustuslikuks?",
+      "a": "Alates 1. aprillist 2027, kui sinu aastakäive on üle OMR 5,000,000, ja alates 1. oktoobrist 2027, kui see on OMR 5,000,000 või vähem. Mõlemad kuupäevad määrab otsus 189/2026. Võid enne oma kuupäeva vabatahtlikult alustada. Maksuameti KKK selgitab, kuidas käivet piirmäära jaoks arvestada."
     },
     {
       "q": "Kas saan Omaanis väljastada arve inglise keeles?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Arvelda Omaanis õigesti, tasuta",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Otsus 189/2026 käibemaksuseaduse rakendusmääruste (Executive Regulations of the VAT Law) muutmise kohta (Ametlik Teataja 1660)",
+      "publisher": "Oman Tax Authority, tekst Qanoon.om lehel",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Fawtara e-arvelduse KKK, viimati uuendatud 30. septembril 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

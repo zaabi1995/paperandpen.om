@@ -1,0 +1,113 @@
+{
+  "locale": "sl",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-računi za Oman",
+  "metaTitle": "Program za e-račune v Omanu (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen ustvari PINT OM XML, ga preveri z uradnim omanskim schematronom, izda enkrat z UUID v5 in izdani račun zamrzne. Za Fawtara.",
+  "keywords": "programska oprema za e-račune oman, programska oprema fawtara, pint om xml, omanski e-račun, omanska validacija schematron, dobropis e-računi oman, bremepis oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-računi, ki izpolnijo <em class=\"text-copper-400 not-italic\">omanska pravila</em>, preden odidejo",
+  "heroSubtitle": "Paper & Pen vaše račune, dobropise in bremepise pretvori v PINT OM XML in vsakega preveri po uradnem omanskem schematronu. Preverjanje pripravljenosti navede, kaj popraviti v evidencah. Račun, ki preverjanje prestane, se izda enkrat, z lastnim UUID, in ostane zamrznjen.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Preverjanje z uradnim omanskim schematronom",
+    "Izdano enkrat, nato zamrznjeno"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Vsak račun postane e-račun PINT OM: oblika XML UBL 2.1, ki jo uporablja omanska Fawtara."
+    },
+    {
+      "icon": "shield",
+      "title": "Uradni omanski schematron",
+      "desc": "XML se preveri po uradnih pravilih schematron OpenPeppol PINT OM, različica 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Preverjanje pripravljenosti s popravki",
+      "desc": "Pregled podatkov o podjetju, kupcih in artiklih navede vsako vrzel in kje jo popraviti."
+    },
+    {
+      "icon": "lock",
+      "title": "Enkratna izdaja, UUID v5",
+      "desc": "Račun se izda enkrat z UUID različice 5. Ponovni poskus ali dvojni klik nikoli ne ustvari drugega."
+    },
+    {
+      "icon": "invoice",
+      "title": "Zamrznjeno ob izdaji",
+      "desc": "Po izdaji nihče ne more spremeniti zneskov, preklicati računa ali ga izbrisati."
+    },
+    {
+      "icon": "receipt",
+      "title": "Dobropisi in bremepisi",
+      "desc": "Dokument ustvarite iz izvirnega računa. Nosi številko, datum, UUID in šifro razloga."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Pred izdajo",
+      "title": "Poiščite vrzeli, dokler jih še lahko popravite",
+      "body": "Večina zavrnitev e-računov izhaja iz matičnih podatkov, ne iz seštevkov: identifikacijska številka kupca za DDV v napačni obliki, manjkajoč naslov prodajalca, artikel brez oznake HS ali šifre dejavnosti. Preverjanje pripravljenosti pregleda vaše evidence glede na pravila PINT OM in vsako vrzel razvrsti po zapisu, ki ga je treba popraviti, tako da izdelek popravite enkrat in so vse postavke računov z njim v redu. Račun, ki preverjanja ne prestane, se ne izda. Vrzeli ostanejo in ga lahko še urejate.",
+      "items": [
+        "Vrzeli, razvrščene po podjetju, kupcu in artiklu",
+        "Vsaka vrzel navede zapis, ki ga je treba popraviti",
+        "Neuspešen račun ostane osnutek, ki ga lahko popravite"
+      ]
+    },
+    {
+      "eyebrow": "Ob izdaji",
+      "title": "En račun, en UUID, brez poznejših sprememb",
+      "body": "Po pravilih Fawtara izdanega računa ni mogoče preklicati ali urediti. Paper & Pen sledi istemu pravilu. Ko račun prestane preverjanje, se izda z UUID različice 5, z njim pa se shrani njegov XML. Od takrat so zneski, postavke in kupec zaklenjeni, računa pa ni mogoče preklicati ali izbrisati. Plačila se še naprej knjižijo kot običajno.",
+      "items": [
+        "UUID različice 5, shranjen pri računu",
+        "XML, shranjen z izdanim računom",
+        "Zneski zaklenjeni, brez preklica, brez brisanja"
+      ]
+    },
+    {
+      "eyebrow": "Ko se kaj spremeni",
+      "title": "Popravite z dobropisom ali bremepisom",
+      "body": "Če želite izdani račun znižati, iz njega ustvarite dobropis. Če ga želite zvišati, iz njega ustvarite bremepis. Paper & Pen dokument izpolni iz izvirnega računa: številko, datum in UUID, ki jih zahteva PINT OM. Šifro razloga izberete vi: CAN za preklic ali vračilo, VAT za spremembo obravnave DDV, VAL za spremembo vrednosti, QTY za spremembo količine ali OTH. Dokument prestane isto preverjanje in zanj velja isto pravilo enkratne izdaje.",
+      "items": [
+        "Dobropis (381) in bremepis (383)",
+        "Izvirna številka, datum in UUID izpolnjeni",
+        "Šifre razloga CAN, VAT, VAL, QTY, OTH v angleščini in arabščini"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ali Paper & Pen pošilja moje račune omanskemu davčnemu organu?",
+      "a": "Nobena programska oprema ne pošilja neposredno davčnemu organu. Po pravilih Fawtara vaš e-račun prejme akreditirani ponudnik storitev, ga dostavi in sporoči davčnemu organu. Paper & Pen ustvari in preveri PINT OM XML, ki ga ponudnik prejme. Seznam akreditiranih ponudnikov objavlja davčni organ."
+    },
+    {
+      "q": "Katere dokumente pokriva?",
+      "a": "Račune, dobropise in bremepise. Vsak se ustvari kot PINT OM XML, preveri po uradnem omanskem schematronu in izda enkrat z lastnim UUID različice 5."
+    },
+    {
+      "q": "Kaj se zgodi z mojimi starejšimi računi?",
+      "a": "E-računi v Paper & Pen se začnejo z datumom začetka, nastavljenim za vaš delovni prostor. Računi, izdani pred tem datumom, ostanejo nedotaknjeni in se ne pošljejo, kar ustreza pravilu davčnega organa, da se pretekli računi ne oddajo."
+    },
+    {
+      "q": "Ali lahko račun uredim tudi po izdaji?",
+      "a": "Ne. Izdani e-račun je zamrznjen: njegovi zneski in postavke so zaklenjeni, ni ga mogoče preklicati ali izbrisati. Za popravek iz njega ustvarite dobropis ali bremepis. Račun, ki preverjanja še ni prestal, ostane mogoče urejati."
+    },
+    {
+      "q": "Kdaj bodo e-računi v Omanu obvezni?",
+      "a": "1. aprila 2027 za podjetja z letnimi dobavami nad OMR 5,000,000 in 1. oktobra 2027 za ostala, po Decision 189/2026. Naš vodnik po omanskih e-računih pojasnjuje preizkus praga in ima povezave na uradna besedila."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Začnite z brezplačnim delovnim prostorom",
+  "ctaSub": "Prodaja in izdajanje računov sta za vedno brezplačna. Preverite evidence po pravilih PINT OM pred svojim datumom za Fawtara."
+}

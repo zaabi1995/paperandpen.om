@@ -1,0 +1,113 @@
+{
+  "locale": "id",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-faktur untuk Oman",
+  "metaTitle": "Software E-faktur Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen membuat PINT OM XML, memeriksanya dengan schematron resmi Oman, menerbitkan sekali dengan UUID v5 dan membekukannya. Untuk Fawtara.",
+  "keywords": "software e-faktur oman, software fawtara, pint om xml, e-faktur oman, validasi schematron oman, nota kredit e-faktur oman, nota debit oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-faktur yang lolos <em class=\"text-copper-400 not-italic\">aturan Oman</em> sebelum dikirim",
+  "heroSubtitle": "Paper & Pen mengubah faktur, nota kredit dan nota debit Anda menjadi PINT OM XML dan memeriksa masing-masing terhadap schematron resmi Oman. Pemeriksaan kesiapan mendaftar apa yang perlu diperbaiki dalam catatan Anda. Faktur yang lolos diterbitkan sekali, dengan UUID-nya sendiri, dan tetap dibekukan.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Pemeriksaan schematron resmi Oman",
+    "Diterbitkan sekali, lalu dibekukan"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Setiap faktur menjadi e-faktur PINT OM: format XML UBL 2.1 yang dipakai Fawtara Oman."
+    },
+    {
+      "icon": "shield",
+      "title": "Schematron resmi Oman",
+      "desc": "XML diperiksa terhadap aturan schematron PINT OM resmi dari OpenPeppol, versi 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Pemeriksaan kesiapan dengan perbaikan",
+      "desc": "Pemindaian data perusahaan, pelanggan dan item Anda mendaftar setiap kekurangan dan tempat memperbaikinya."
+    },
+    {
+      "icon": "lock",
+      "title": "Terbit sekali, UUID v5",
+      "desc": "Faktur diterbitkan satu kali dengan UUID versi 5. Percobaan ulang atau klik ganda tidak pernah membuat faktur kedua."
+    },
+    {
+      "icon": "invoice",
+      "title": "Dibekukan saat terbit",
+      "desc": "Setelah terbit, tidak ada yang bisa mengubah jumlahnya, membatalkan faktur atau menghapusnya."
+    },
+    {
+      "icon": "receipt",
+      "title": "Nota kredit dan debit",
+      "desc": "Buat nota dari faktur asli. Nota memuat nomor, tanggal, UUID dan kode alasan."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Sebelum Anda menerbitkan",
+      "title": "Temukan kekurangan selagi masih bisa diperbaiki",
+      "body": "Sebagian besar penolakan e-faktur berasal dari data induk, bukan dari total: nomor PPN pelanggan dalam format yang salah, alamat penjual yang tidak ada, item tanpa kode HS atau kode kegiatan. Pemeriksaan kesiapan memindai catatan Anda terhadap aturan PINT OM dan mengelompokkan setiap kekurangan menurut catatan yang perlu diperbaiki, sehingga Anda memperbaiki satu produk sekali dan setiap baris faktur yang memuatnya menjadi beres. Faktur yang gagal pemeriksaan tidak diterbitkan. Kekurangannya tetap ada dan Anda masih bisa mengeditnya.",
+      "items": [
+        "Kekurangan dikelompokkan per perusahaan, pelanggan dan item",
+        "Setiap kekurangan menyebut catatan yang harus diperbaiki",
+        "Faktur yang gagal tetap menjadi draf yang bisa Anda koreksi"
+      ]
+    },
+    {
+      "eyebrow": "Saat Anda menerbitkan",
+      "title": "Satu faktur, satu UUID, tanpa edit kemudian",
+      "body": "Di bawah Fawtara, faktur yang sudah terbit tidak bisa dibatalkan atau diedit. Paper & Pen mengikuti aturan yang sama. Saat faktur lolos pemeriksaan, faktur diterbitkan dengan UUID versi 5, dan XML-nya disimpan bersamanya. Sejak saat itu jumlah, baris dan pelanggan dikunci, dan faktur tidak bisa dibatalkan atau dihapus. Pembayaran tetap dicatat seperti biasa.",
+      "items": [
+        "UUID versi 5 tersimpan pada faktur",
+        "XML disimpan bersama faktur yang terbit",
+        "Jumlah dikunci, tidak bisa dibatalkan, tidak bisa dihapus"
+      ]
+    },
+    {
+      "eyebrow": "Saat ada perubahan",
+      "title": "Koreksi dengan nota kredit atau nota debit",
+      "body": "Untuk mengurangi faktur yang sudah terbit, buat nota kredit darinya. Untuk menambahnya, buat nota debit darinya. Paper & Pen mengisi nota dari faktur asli: nomor, tanggal dan UUID yang diwajibkan PINT OM. Anda memilih kode alasan: CAN untuk pembatalan atau retur, VAT untuk perubahan perlakuan PPN, VAL untuk perubahan nilai, QTY untuk perubahan kuantitas, atau OTH. Nota mendapat pemeriksaan yang sama dan aturan terbit sekali yang sama.",
+      "items": [
+        "Nota kredit (381) dan nota debit (383)",
+        "Nomor, tanggal dan UUID asli terisi otomatis",
+        "Kode alasan CAN, VAT, VAL, QTY, OTH dalam bahasa Inggris dan Arab"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah Paper & Pen mengirim faktur saya ke Oman Tax Authority?",
+      "a": "Tidak ada perangkat lunak yang mengirim langsung ke Tax Authority. Di bawah Fawtara, penyedia layanan terakreditasi menerima e-faktur Anda, menyampaikannya dan melaporkannya ke Tax Authority. Paper & Pen membuat dan memeriksa PINT OM XML yang diterima penyedia. Tax Authority menerbitkan daftar penyedia terakreditasi."
+    },
+    {
+      "q": "Dokumen apa saja yang dicakup?",
+      "a": "Faktur, nota kredit dan nota debit. Masing-masing dibuat sebagai PINT OM XML, diperiksa terhadap schematron resmi Oman dan diterbitkan sekali dengan UUID versi 5 miliknya sendiri."
+    },
+    {
+      "q": "Apa yang terjadi pada faktur lama saya?",
+      "a": "E-faktur di Paper & Pen dimulai dari tanggal go-live yang ditetapkan untuk ruang kerja Anda. Faktur yang diterbitkan sebelum tanggal itu tidak diubah dan tidak dikirim, sesuai dengan aturan Tax Authority bahwa faktur historis tidak dikirimkan."
+    },
+    {
+      "q": "Apakah saya masih bisa mengedit faktur setelah menerbitkannya?",
+      "a": "Tidak. E-faktur yang sudah terbit dibekukan: jumlah dan barisnya dikunci, dan faktur tidak bisa dibatalkan atau dihapus. Untuk mengoreksinya, buat nota kredit atau nota debit darinya. Faktur yang belum lolos pemeriksaan tetap bisa diedit."
+    },
+    {
+      "q": "Kapan e-faktur menjadi wajib di Oman?",
+      "a": "Pada 1 April 2027 untuk bisnis dengan penyerahan tahunan di atas OMR 5,000,000, dan pada 1 Oktober 2027 untuk yang lainnya, berdasarkan Decision 189/2026. Panduan e-faktur Oman kami menjelaskan uji batas dan menautkan ke teks resmi."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Mulai ruang kerja gratis Anda",
+  "ctaSub": "Penjualan dan faktur gratis selamanya. Periksa catatan Anda terhadap aturan PINT OM sebelum tanggal Fawtara Anda."
+}

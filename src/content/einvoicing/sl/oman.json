@@ -1,0 +1,319 @@
+{
+  "locale": "sl",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Preverjeno glede na besedila davčnega organa 14. oktobra 2026.",
+  "title": "E-računi v Omanu (Fawtara)",
+  "metaTitle": "E-računi v Omanu: datumi in pravila Fawtara · Paper & Pen",
+  "metaDescription": "Fawtara se začne 1. 4. 2027 nad OMR 5 milijonov in 1. 10. 2027 za ostale. Preizkus praga, polja in dobropisi PINT OM, z viri pri davčnem organu.",
+  "keywords": "e-računi oman, fawtara, fawtara oman, e-računi oman 2027, pint om, e-računi davčni organ oman, akreditirani ponudnik storitev oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-računi v Omanu: <em class=\"text-copper-400 not-italic\">kaj se začne leta 2027</em>",
+  "heroSubtitle": "Decision 189/2026 uvaja obvezne e-račune za zavezance za DDV v dveh skupinah, od 1. aprila 2027 in od 1. oktobra 2027. Ta vodnik pojasnjuje, kateri datum velja za vas, kako račun pride do davčnega organa, kaj mora vsebovati e-račun PINT OM in kaj morate v evidencah popraviti že zdaj. Vsako pravilo ima povezavo na uradno besedilo.",
+  "heroBullets": [
+    "1. 4. 2027: dobave nad OMR 5 milijonov",
+    "1. 10. 2027: OMR 5 milijonov ali manj",
+    "Prostovoljni začetek je možen že zdaj"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara na kratko",
+  "facts": [
+    {
+      "label": "Pravna podlaga",
+      "value": "Decision 189/2026",
+      "note": "Spreminja Executive Regulations of the VAT Law. Davčni organ jo je izdal 3. avgusta 2026, Official Gazette pa jo je objavil v številki 1660 dne 9. avgusta 2026. Novi 143. člen zahteva davčni račun v odobreni, zavarovani elektronski obliki z enolično številko.",
+      "source": 1
+    },
+    {
+      "label": "Prva skupina",
+      "value": "1. april 2027",
+      "note": "Davčni zavezanci, katerih letne dobave presegajo OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Druga skupina",
+      "value": "1. oktober 2027",
+      "note": "Davčni zavezanci, katerih letne dobave znašajo OMR 5,000,000 ali manj.",
+      "source": 1
+    },
+    {
+      "label": "Pred vašim datumom",
+      "value": "Prostovoljno",
+      "note": "Davčni organ podjetja spodbuja, naj preizkusijo svoje sisteme in izdajajo e-račune še pred obveznim datumom.",
+      "source": 2
+    },
+    {
+      "label": "Oblika",
+      "value": "XML, PINT OM",
+      "note": "XML je obvezna strukturirana oblika. Omanska specifikacija je PINT OM različica 1.0.1, oblika Peppol, ki jo vzdržuje davčni organ.",
+      "source": 4
+    },
+    {
+      "label": "Čas pri B2B",
+      "value": "V realnem času",
+      "note": "E-račun med podjetji gre skozi omrežje v trenutku, ko ga izdate.",
+      "source": 2
+    },
+    {
+      "label": "Čas pri B2C",
+      "value": "24 ur",
+      "note": "Račun potrošniku ali kupcu, ki ni registriran za DDV, se sporoči v 24 urah.",
+      "source": 2
+    },
+    {
+      "label": "Stari računi",
+      "value": "Se ne oddajo",
+      "note": "Računi, izdani pred vašim začetkom, se davčnemu organu ne naložijo.",
+      "source": 2
+    },
+    {
+      "label": "Popravki",
+      "value": "Dobropis ali bremepis",
+      "note": "Izdanega e-računa ne morete preklicati ali urediti. Popravite ga z elektronskim dobropisom ali bremepisom.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Kateri datum velja za vas",
+      "body": "Preizkus upošteva vaše letne dobave na dan 31. marca 2027. Seštejte svoje obdavčljive dobave (brez dobav osnovnih sredstev), prištejte blago in storitve po mehanizmu obrnjene davčne obveznosti in prištejte svoje dobave znotraj GCC.\n\nZačnete 1. aprila 2027, če kateri koli od teh zneskov presega OMR 5,000,000: vaše dobave od 1. aprila 2026 do 31. marca 2027 ali vaše pričakovane dobave od 1. aprila 2027 do 31. marca 2028. Če noben znesek ne presega OMR 5,000,000, začnete 1. oktobra 2027. Nerezident šteje samo svoje dobave v Omanu. Skupina za DDV se preizkusi kot celota, ne po posameznih članih. Davčni organ ima tudi spletno preverjanje uvedbe: vnesete svojo identifikacijsko številko za DDV in razrede svojih dobav.",
+      "items": [
+        "Vključite: obdavčljive dobave, dobave po obrnjeni davčni obveznosti, dobave znotraj GCC",
+        "Izpustite: dobave osnovnih sredstev",
+        "Dve obdobji: 12 mesecev do 31. marca 2027 in 12 mesecev od 1. aprila 2027",
+        "Katero koli obdobje nad OMR 5,000,000 pomeni 1. april 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Kako račun pride do davčnega organa",
+      "body": "Fawtara uporablja model s petimi koti. Kot 1 ste vi, prodajalec. Kot 2 je vaš akreditirani ponudnik storitev. Kot 3 je ponudnik storitev vašega kupca, kot 4 je vaš kupec in kot 5 je davčni organ. Vaša programska oprema nikoli ne pošilja neposredno davčnemu organu. E-račun pošlje vašemu ponudniku.\n\nVaš ponudnik preveri račun po uradnih omanskih pravilih schematron, ga dostavi ponudniku kupca v omrežju Peppol in davčnemu organu pošlje dokument z davčnimi podatki. Prek portala Fawtara ste hkrati povezani z enim ponudnikom, pozneje pa ga lahko zamenjate. Za skladnost računa ostajate odgovorni vi.",
+      "items": [
+        "C1 prodajalec, C2 ponudnik prodajalca, C3 ponudnik kupca, C4 kupec, C5 davčni organ",
+        "Račun preveri ponudnik, ne davčni organ",
+        "Hkrati en ponudnik, povezan prek portala Fawtara",
+        "Odgovornost za pravilen račun ostaja pri vas"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Kaj mora vsebovati e-račun PINT OM",
+      "body": "PINT OM računu Peppol doda omanska pravila. Večina zavrnitev izhaja iz manjkajočih matičnih podatkov, ne iz skupnega zneska računa. Ta polja v evidencah preverite najprej.",
+      "items": [
+        "Enolični UUID računa, različica 5, in čas izdaje",
+        "Datum izdaje, ki po maskatskem času ni v prihodnosti",
+        "Identifikacijska številka prodajalca za DDV v obliki OM in 10 števk, naslov in telefon prodajalca",
+        "Pri polnem davčnem računu identifikacijska številka za DDV ali identifikator in naslov kupca",
+        "DDV po postavki in davčna kategorija po postavki (S, E, O ali Z)",
+        "Splošna stopnja 5 %; oproščene postavke in postavke z ničelno stopnjo potrebujejo šifro razloga",
+        "Pri blagu 12-mestna omanska oznaka HS in pri vsaki postavki oznaka blaga ali storitve",
+        "Šifra dejavnosti ISIC pri vsakem artiklu",
+        "Zneski z največ 3 decimalnimi mesti, skupni zneski DDV v OMR"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Dobropisi in bremepisi",
+      "body": "Ko e-račun izdate, ga ne prekličete, ne izbrišete in ne urejate. Izdate elektronski dobropis (za znižanje) ali bremepis (za zvišanje). Dokument navaja izvirni račun s številko, datumom in UUID ter nosi šifro razloga: CAN za preklic ali vračilo, VAT za spremembo obravnave DDV, VAL za spremembo vrednosti, QTY za spremembo količine ali OTH za drug razlog. Če ste račun izstavili napačnemu kupcu, temu kupcu izdajte dobropis, pravemu pa nov račun.",
+      "items": [
+        "Dobropis: vrsta dokumenta 381",
+        "Bremepis: vrsta dokumenta 383",
+        "Številka, datum in UUID izvirnega računa na vsakem dokumentu",
+        "Šifre razloga: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Izbira akreditiranega ponudnika storitev",
+      "body": "Davčni organ objavlja sprotni seznam akreditiranih ponudnikov storitev. Dne 13. oktobra 2026 je seznam imel 36 vnosov in še raste. Davčni organ davčnim zavezancem ne zaračunava nobene pristojbine in ne določa cen ponudnikov, zato vsak ponudnik določi svoj model: naročnino, plačilo na račun ali drugo. Ponudnike primerjajte po tem, s čim se povezujejo, kje hranijo vaše podatke, podpori za arabščino in tem, kako jih zapustite. Vsak ponudnik na seznamu navede svojo lokacijo hrambe podatkov, davčni organ pa tega ne preverja.",
+      "items": [
+        "Uporabljajte samo ponudnika s seznama davčnega organa",
+        "Vprašajte, kako se poveže vaša programska oprema: API, nalaganje datoteke ali pripravljen priključek",
+        "Vprašajte, kje se hranijo vaši podatki in kako dolgo se arhivirajo",
+        "Pred podpisom preverite korake za prehod drugam"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Prodaja B2C in koda QR",
+      "body": "Prodaja potrošniku ali kateremu koli kupcu, ki ni registriran za DDV, se davčnemu organu sporoči v 24 urah. Kupcu izročite berljiv račun po katerem koli kanalu. Ta natisnjena ali PDF kopija mora imeti kodo QR, ki jo kot prodajalec ustvarite vi. Koda QR ni del e-računa XML. Za vsebino kode QR davčni organ napotuje na Dodatek D dokumenta Peppol Oman Architecture. Ta dodatek še ni javen, zato vsako postavitev kode QR, ki jo vidite zdaj, obravnavajte kot nepotrjeno.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Kaj storiti zdaj",
+      "body": "Za pripravo vam ni treba čakati na svoj datum. Najdlje traja delo z matičnimi podatki in z njim lahko začnete že danes.",
+      "items": [
+        "Opravite preizkus praga in si zapišite datum začetka",
+        "Preverite identifikacijsko številko za DDV vsakega kupca: OM in 10 števk",
+        "Vsakemu blagu dodajte 12-mestno oznako HS in vsakemu artiklu šifro ISIC",
+        "Svoje enote povežite s šiframi enot UN/ECE (na primer kos je H87)",
+        "Nehajte brisati ali preštevilčevati izdane račune: uporabljajte dobropise",
+        "Izberite ponudnika s seznama davčnega organa in zgodaj testirajte",
+        "Vodite svoj arhiv: davčni organ podatkov o računih ne vrača"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Kdo pošlje kaj, primer za primerom",
+    "intro": "Pot računa je odvisna od tega, kdo je kupec. Tabela prikazuje kote za vsak primer iz pogostih vprašanj davčnega organa.",
+    "columns": [
+      "Primer",
+      "Tok",
+      "Kaj se zgodi"
+    ],
+    "rows": [
+      {
+        "label": "Domači B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "V realnem času. Vaš ponudnik račun dostavi ponudniku kupca in davčne podatke sporoči davčnemu organu.",
+        "source": 2
+      },
+      {
+        "label": "B2C ali kupec, ki ni registriran za DDV",
+        "flow": "C1 → C2 → C5",
+        "detail": "Sporoči se v 24 urah. Kupec prejme berljiv račun s kodo QR.",
+        "source": 2
+      },
+      {
+        "label": "Kupec še ni vključen v uvedbo",
+        "flow": "C1 → C2 → C5",
+        "detail": "Vaš ponudnik sporoči davčne podatke. Račun kupcu pošljete tako kot danes.",
+        "source": 2
+      },
+      {
+        "label": "Prodajalec še ni vključen v uvedbo",
+        "flow": "C1 → C4",
+        "detail": "Zavezanec za DDV zunaj trenutnih faz uvedbe izdaja račune kot danes. Kupec uveljavlja odbitek vstopnega DDV kot danes.",
+        "source": 2
+      },
+      {
+        "label": "Izvoz",
+        "flow": "C1 → C2 → C5",
+        "detail": "Račun tujemu kupcu posredujete kot danes. Davčni podatki gredo prek omrežja.",
+        "source": 2
+      },
+      {
+        "label": "Popravek",
+        "flow": "381 / 383",
+        "detail": "Dobropis ali bremepis gre po isti poti kot račun, ki ga popravlja.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Kdaj bodo e-računi v Omanu obvezni?",
+      "a": "1. aprila 2027 za davčne zavezance z letnimi dobavami nad OMR 5,000,000 in 1. oktobra 2027 za tiste z OMR 5,000,000 ali manj. Oba datuma določa Decision 189/2026. Pred vašim datumom so e-računi prostovoljni, davčni organ pa spodbuja zgodnji začetek."
+    },
+    {
+      "q": "Kako vem, ali je moje podjetje v skupini od aprila 2027?",
+      "a": "Seštejte svoje obdavčljive dobave (brez osnovnih sredstev), dobave po obrnjeni davčni obveznosti in dobave znotraj GCC. Če znesek od 1. aprila 2026 do 31. marca 2027 presega OMR 5,000,000 ali pričakujete, da ga bo od 1. aprila 2027 do 31. marca 2028 presegel, začnete 1. aprila 2027. Sicer začnete 1. oktobra 2027."
+    },
+    {
+      "q": "Ali je račun PDF v Omanu e-račun?",
+      "a": "Ne. E-račun je strukturirana datoteka XML v obliki PINT OM, ki gre prek akreditiranega ponudnika storitev. Kopijo PDF lahko še vedno natisnete ali pošljete, a ko začne veljati vaš datum, kot veljaven davčni račun šteje samo e-račun."
+    },
+    {
+      "q": "Ali moram naložiti svoje stare račune?",
+      "a": "Ne. Računi, ki ste jih izdali pred začetkom e-računov, se davčnemu organu ne oddajo. Hranite jih v svojih evidencah, kot zahteva zakon o DDV."
+    },
+    {
+      "q": "Kaj če moj kupec še ni na Fawtara?",
+      "a": "Račun vseeno oddate svojemu ponudniku storitev, ponudnik pa davčnemu organu pošlje dokument z davčnimi podatki. Račun kupcu pošljete tako kot danes."
+    },
+    {
+      "q": "Ali davčni organ za Fawtara kaj zaračuna?",
+      "a": "Ne. Davčni organ davčnim zavezancem ne zaračunava nobene pristojbine in ne določa, koliko zaračunajo ponudniki storitev. Vsak akreditirani ponudnik določi svojo ceno."
+    },
+    {
+      "q": "Ali so predvidene kazni?",
+      "a": "Davčni organ navaja, da se po začetku obveznosti uporabljajo kazni po zakonodaji o DDV. Posebne tabele kazni za e-račune ni objavil, zato vsak konkreten znesek, ki ga preberete drugje, obravnavajte kot nepotrjen."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Pripravite evidence na Fawtara",
+  "ctaSub": "Paper & Pen ustvarja e-račune PINT OM in jih preverja po uradnih omanskih pravilih. Začnite z brezplačnim delovnim prostorom.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 o spremembi Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, besedilo na Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Pogosta vprašanja o e-računih Fawtara, zadnja posodobitev 30. septembra 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Akreditirani ponudniki storitev (sprotni seznam)",
+      "publisher": "Oman Tax Authority, portal Fawtara",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Specifikacije PINT OM, različica 1.0.1",
+      "publisher": "OpenPeppol, vzdržuje Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Pravila jurisdikcije PINT OM (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, vzdržuje Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Preverjanje morebitne vključitve v uvedbo",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Opombe ob izdaji PINT OM 1.0.1",
+      "publisher": "OpenPeppol, vzdržuje Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

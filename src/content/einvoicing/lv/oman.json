@@ -1,0 +1,319 @@
+{
+  "locale": "lv",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Pārbaudīts pēc Nodokļu iestādes tekstiem 2026. gada 14. oktobrī.",
+  "title": "E-rēķini Omānā (Fawtara)",
+  "metaTitle": "E-rēķini Omānā: Fawtara datumi un noteikumi · Paper & Pen",
+  "metaDescription": "Fawtara sākas 2027. g. 1. aprīlī virs OMR 5 milj., pārējiem 2027. g. 1. oktobrī. Sliekšņa tests, PINT OM lauki, korekcijas, ar atsauci uz Nodokļu iestādi.",
+  "keywords": "e-rēķini omānā, fawtara, fawtara omāna, omānas e-rēķini 2027, pint om, omānas nodokļu iestāde e-rēķini, akreditēts pakalpojumu sniedzējs omāna, peppol omāna, decision 189/2026",
+  "heroEyebrow": "Omāna · Fawtara",
+  "heroTitle": "E-rēķini Omānā: <em class=\"text-copper-400 not-italic\">kas sākas 2027. gadā</em>",
+  "heroSubtitle": "Lēmums 189/2026 padara e-rēķinus obligātus PVN reģistrētiem uzņēmumiem divās grupās: no 2027. gada 1. aprīļa un no 2027. gada 1. oktobra. Šis ceļvedis izskaidro, kurš datums attiecas uz tevi, kā rēķins nonāk līdz Nodokļu iestādei, kas jāietver PINT OM e-rēķinā un kas tagad jāizlabo tavos ierakstos. Katrs noteikums ir saistīts ar oficiālo tekstu.",
+  "heroBullets": [
+    "2027. g. 1. apr.: piegādes virs OMR 5 miljoniem",
+    "2027. g. 1. okt.: OMR 5 miljoni vai mazāk",
+    "Brīvprātīgs sākums atļauts jau tagad"
+  ],
+  "authority": {
+    "name": "Omānas Nodokļu iestāde (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara īsumā",
+  "facts": [
+    {
+      "label": "Juridiskais pamats",
+      "value": "Lēmums 189/2026",
+      "note": "Tas groza PVN likuma izpildnoteikumus. Nodokļu iestāde to izdeva 2026. gada 3. augustā, un Oficiālais vēstnesis to publicēja 1660. numurā 2026. gada 9. augustā. Jaunais 143. pants prasa nodokļu rēķinu apstiprinātā, drošā elektroniskā formātā ar unikālu numuru.",
+      "source": 1
+    },
+    {
+      "label": "Pirmā grupa",
+      "value": "2027. gada 1. aprīlis",
+      "note": "Nodokļu maksātāji, kuru gada piegādes pārsniedz OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Otrā grupa",
+      "value": "2027. gada 1. oktobris",
+      "note": "Nodokļu maksātāji, kuru gada piegādes ir OMR 5,000,000 vai mazāk.",
+      "source": 1
+    },
+    {
+      "label": "Pirms tava datuma",
+      "value": "Brīvprātīgi",
+      "note": "Nodokļu iestāde mudina uzņēmumus pārbaudīt savas sistēmas un izrakstīt e-rēķinus pirms obligātā datuma.",
+      "source": 2
+    },
+    {
+      "label": "Formāts",
+      "value": "XML, PINT OM",
+      "note": "XML ir obligātais strukturētais formāts. Omānas specifikācija ir PINT OM versija 1.0.1, Peppol formāts, ko uztur Nodokļu iestāde.",
+      "source": 4
+    },
+    {
+      "label": "B2B termiņš",
+      "value": "Reāllaikā",
+      "note": "Uzņēmumu savstarpējs e-rēķins iet caur tīklu brīdī, kad tu to izraksti.",
+      "source": 2
+    },
+    {
+      "label": "B2C termiņš",
+      "value": "24 stundas",
+      "note": "Par rēķinu patērētājam vai pircējam, kas nav reģistrēts PVN vajadzībām, ziņo 24 stundu laikā.",
+      "source": 2
+    },
+    {
+      "label": "Vecie rēķini",
+      "value": "Netiek iesniegti",
+      "note": "Rēķini, kas izrakstīti pirms tava sākuma, netiek augšupielādēti Nodokļu iestādei.",
+      "source": 2
+    },
+    {
+      "label": "Labojumi",
+      "value": "Kredītrēķins vai debetrēķins",
+      "note": "Izrakstītu e-rēķinu nevar anulēt vai labot. Tu to koriģē ar elektronisku kredītrēķinu vai debetrēķinu.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Kurš datums attiecas uz tevi",
+      "body": "Pārbaudē izmanto tavas gada piegādes uz 2027. gada 31. martu. Saskaiti savas ar nodokli apliekamās piegādes (neskaiti pamatlīdzekļu piegādes), pieskaiti preces un pakalpojumus, kam piemēro apgriezto maksāšanas kārtību, un pieskaiti savas GCC iekšējās piegādes.\n\nTu sāc 2027. gada 1. aprīlī, ja kāda no summām pārsniedz OMR 5,000,000: tavas piegādes no 2026. gada 1. aprīļa līdz 2027. gada 31. martam vai tavas paredzamās piegādes no 2027. gada 1. aprīļa līdz 2028. gada 31. martam. Ja neviena summa nepārsniedz OMR 5,000,000, tu sāc 2027. gada 1. oktobrī. Nerezidents skaita tikai savas piegādes Omānā. PVN grupu pārbauda kā vienu grupu, nevis pa dalībniekiem. Nodokļu iestādei ir arī tiešsaistes ieviešanas pārbaude: tu ievadi savu PVN numuru un piegāžu diapazonus.",
+      "items": [
+        "Ieskaita: ar nodokli apliekamās piegādes, apgrieztās maksāšanas piegādes, GCC iekšējās piegādes",
+        "Neieskaita: pamatlīdzekļu piegādes",
+        "Divi periodi: 12 mēneši līdz 2027. gada 31. martam un 12 mēneši no 2027. gada 1. aprīļa",
+        "Ja kāds periods pārsniedz OMR 5,000,000, datums ir 2027. gada 1. aprīlis"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Kā rēķins nonāk līdz Nodokļu iestādei",
+      "body": "Fawtara izmanto piecu stūru modeli. 1. stūris esi tu, pārdevējs. 2. stūris ir tavs akreditētais pakalpojumu sniedzējs. 3. stūris ir pircēja pakalpojumu sniedzējs, 4. stūris ir pircējs, un 5. stūris ir Nodokļu iestāde. Tava programmatūra nekad nesūta tieši Nodokļu iestādei. Tā sūta e-rēķinu tavam pakalpojumu sniedzējam.\n\nPakalpojumu sniedzējs pārbauda rēķinu pēc oficiālajiem Omānas schematron noteikumiem, piegādā to pircēja pakalpojumu sniedzējam Peppol tīklā un nosūta Nodokļu iestādei nodokļu datu dokumentu. Tu vienlaikus esi saistīts ar vienu pakalpojumu sniedzēju caur Fawtara portālu un vēlāk vari to nomainīt. Atbildība par rēķina atbilstību paliek tev.",
+      "items": [
+        "C1 pārdevējs, C2 pārdevēja pakalpojumu sniedzējs, C3 pircēja pakalpojumu sniedzējs, C4 pircējs, C5 Nodokļu iestāde",
+        "Rēķinu validē pakalpojumu sniedzējs, nevis Nodokļu iestāde",
+        "Viens pakalpojumu sniedzējs vienlaikus, saistīts Fawtara portālā",
+        "Atbildība par pareizu rēķinu paliek tev"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Kas jāietver PINT OM e-rēķinā",
+      "body": "PINT OM pievieno Omānas noteikumus Peppol rēķinam. Lielākā daļa noraidījumu rodas no trūkstošiem pamatdatiem, nevis no rēķina kopsummas. Vispirms pārbaudi šos laukus savos ierakstos.",
+      "items": [
+        "Unikāls rēķina UUID, 5. versija, un izrakstīšanas laiks",
+        "Izrakstīšanas datums, kas pēc Maskatas laika nav nākotnē",
+        "Pārdevēja PVN numurs formā OM plus 10 cipari, pārdevēja adrese un tālrunis",
+        "Pilnam nodokļu rēķinam pircēja PVN numurs vai identifikators un adrese",
+        "PVN katrai rindai un nodokļa kategorija katrai rindai (S, E, O vai Z)",
+        "Standarta likme 5%; atbrīvotām un nulles likmes rindām vajadzīgs iemesla kods",
+        "Precēm 12 ciparu Omānas HS kods un preces vai pakalpojuma pazīme katrai rindai",
+        "ISIC darbības kods katrai pozīcijai",
+        "Summas ar ne vairāk kā 3 decimālzīmēm, PVN kopsummas OMR"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Kredītrēķini un debetrēķini",
+      "body": "Pēc e-rēķina izrakstīšanas tu to neanulē, nedzēs un nelabo. Tu izraksti elektronisku kredītrēķinu (lai to samazinātu) vai debetrēķinu (lai to palielinātu). Dokuments norāda sākotnējo rēķinu ar numuru, datumu un UUID, un tajā ir iemesla kods: CAN anulēšanai vai atgriešanai, VAT PVN piemērošanas izmaiņām, VAL vērtības izmaiņām, QTY daudzuma izmaiņām vai OTH citam iemeslam. Ja izrakstīji rēķinu nepareizam pircējam, izraksti kredītrēķinu šim pircējam un jaunu rēķinu pareizajam.",
+      "items": [
+        "Kredītrēķins: dokumenta veids 381",
+        "Debetrēķins: dokumenta veids 383",
+        "Sākotnējā rēķina numurs, datums un UUID katrā dokumentā",
+        "Iemeslu kodi: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Akreditēta pakalpojumu sniedzēja izvēle",
+      "body": "Nodokļu iestāde publicē aktuālo akreditēto pakalpojumu sniedzēju sarakstu. 2026. gada 13. oktobrī sarakstā bija 36 ieraksti, un tas joprojām aug. Nodokļu iestāde neiekasē no nodokļu maksātājiem maksu un nenosaka pakalpojumu sniedzēju cenas, tāpēc katrs pakalpojumu sniedzējs pats izvēlas savu modeli: abonements, maksa par rēķinu vai cits. Salīdzini pakalpojumu sniedzējus pēc tā, ar ko tie savienojas, kur tie glabā tavus datus, vai ir atbalsts arābu valodā un kā no tiem aiziet. Katrs pakalpojumu sniedzējs sarakstā pats norāda savu datu glabāšanas vietu, un Nodokļu iestāde to nepārbauda.",
+      "items": [
+        "Izmanto tikai pakalpojumu sniedzēju no Nodokļu iestādes saraksta",
+        "Pajautā, kā savienojas tava programmatūra: API, failu augšupielāde vai gatavs savienotājs",
+        "Pajautā, kur tiek glabāti tavi dati un cik ilgi tie tiek arhivēti",
+        "Pirms parakstīšanas pārbaudi aiziešanas soļus"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C pārdošana un QR kods",
+      "body": "Par pārdošanu patērētājam vai jebkuram pircējam, kas nav reģistrēts PVN vajadzībām, ziņo Nodokļu iestādei 24 stundu laikā. Tu pircējam izsniedz cilvēkam lasāmu rēķinu jebkurā kanālā. Šajā drukātajā vai PDF kopijā jābūt QR kodam, ko tu kā pārdevējs ģenerē. QR kods nav daļa no XML e-rēķina. Par QR koda saturu Nodokļu iestāde norāda uz Peppol Oman Architecture D pielikumu. Šis pielikums vēl nav publisks, tāpēc jebkuru QR izkārtojumu, ko redzi tagad, uzskati par neapstiprinātu.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Kas jādara tagad",
+      "body": "Lai sagatavotos, tev nav jāgaida savs datums. Visilgāk prasa darbs ar pamatdatiem, un to vari sākt jau šodien.",
+      "items": [
+        "Veic sliekšņa pārbaudi un pieraksti savu sākuma datumu",
+        "Pārbaudi katra klienta PVN numuru: OM plus 10 cipari",
+        "Pievieno 12 ciparu HS kodu katrai preču pozīcijai un ISIC kodu katrai pozīcijai",
+        "Piesaisti savas mērvienības UN/ECE vienību kodiem (piemēram, gabals ir H87)",
+        "Pārtrauc dzēst vai pārnumurēt izrakstītus rēķinus: izmanto kredītrēķinus",
+        "Izvēlies pakalpojumu sniedzēju no Nodokļu iestādes saraksta un testē laikus",
+        "Glabā savu arhīvu: Nodokļu iestāde rēķinu datus neatgriež"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Kurš ko sūta, katrā gadījumā",
+    "intro": "Rēķina ceļš ir atkarīgs no tā, kas ir pircējs. Tabula rāda stūrus katram gadījumam no Nodokļu iestādes BUJ.",
+    "columns": [
+      "Gadījums",
+      "Plūsma",
+      "Kas notiek"
+    ],
+    "rows": [
+      {
+        "label": "Iekšzemes B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Reāllaikā. Tavs pakalpojumu sniedzējs piegādā pircēja pakalpojumu sniedzējam un ziņo nodokļu datus Nodokļu iestādei.",
+        "source": 2
+      },
+      {
+        "label": "B2C vai pircējs, kas nav reģistrēts PVN vajadzībām",
+        "flow": "C1 → C2 → C5",
+        "detail": "Ziņo 24 stundu laikā. Pircējs saņem cilvēkam lasāmu rēķinu ar QR kodu.",
+        "source": 2
+      },
+      {
+        "label": "Pircējs vēl nav ieviešanas posmā",
+        "flow": "C1 → C2 → C5",
+        "detail": "Tavs pakalpojumu sniedzējs ziņo nodokļu datus. Rēķinu pircējam sūti tāpat kā šodien.",
+        "source": 2
+      },
+      {
+        "label": "Pārdevējs vēl nav ieviešanas posmā",
+        "flow": "C1 → C4",
+        "detail": "PVN reģistrēts pārdevējs ārpus pašreizējiem ieviešanas posmiem izraksta rēķinus kā šodien. Pircējs atskaita priekšnodokli kā šodien.",
+        "source": 2
+      },
+      {
+        "label": "Eksports",
+        "flow": "C1 → C2 → C5",
+        "detail": "Tu kopīgo rēķinu ar ārvalstu klientu kā šodien. Nodokļu dati iet caur tīklu.",
+        "source": 2
+      },
+      {
+        "label": "Labojums",
+        "flow": "381 / 383",
+        "detail": "Dokuments iet to pašu ceļu kā rēķins, ko tas labo.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Kad e-rēķini Omānā kļūst obligāti?",
+      "a": "2027. gada 1. aprīlī nodokļu maksātājiem, kuru gada piegādes pārsniedz OMR 5,000,000, un 2027. gada 1. oktobrī tiem, kuru piegādes ir OMR 5,000,000 vai mazāk. Abus datumus nosaka lēmums 189/2026. Pirms tava datuma e-rēķini ir brīvprātīgi, un Nodokļu iestāde mudina sākt agri."
+    },
+    {
+      "q": "Kā zināt, vai mans uzņēmums ir 2027. gada aprīļa grupā?",
+      "a": "Saskaiti savas ar nodokli apliekamās piegādes (bez pamatlīdzekļiem), apgrieztās maksāšanas piegādes un GCC iekšējās piegādes. Ja summa no 2026. gada 1. aprīļa līdz 2027. gada 31. martam pārsniedz OMR 5,000,000 vai tu sagaidi, ka tā pārsniegs šo summu no 2027. gada 1. aprīļa līdz 2028. gada 31. martam, tu sāc 2027. gada 1. aprīlī. Citādi tu sāc 2027. gada 1. oktobrī."
+    },
+    {
+      "q": "Vai PDF rēķins Omānā ir e-rēķins?",
+      "a": "Nē. E-rēķins ir strukturēts XML fails PINT OM formātā, kas iet caur akreditētu pakalpojumu sniedzēju. Tu joprojām vari izdrukāt vai nosūtīt PDF kopiju, bet no tava datuma par derīgu nodokļu rēķinu uzskata tikai e-rēķinu."
+    },
+    {
+      "q": "Vai man jāaugšupielādē vecie rēķini?",
+      "a": "Nē. Rēķini, ko izrakstīji pirms e-rēķinu sākuma, Nodokļu iestādei netiek iesniegti. Glabā tos savos ierakstos, kā to prasa PVN likums."
+    },
+    {
+      "q": "Ko darīt, ja mans klients vēl nav Fawtara sistēmā?",
+      "a": "Tu tāpat iesniedz rēķinu savam pakalpojumu sniedzējam, un pakalpojumu sniedzējs nosūta nodokļu datu dokumentu Nodokļu iestādei. Rēķinu klientam sūti tāpat kā šodien."
+    },
+    {
+      "q": "Vai Nodokļu iestāde iekasē maksu par Fawtara?",
+      "a": "Nē. Nodokļu iestāde neiekasē no nodokļu maksātājiem maksu un nenosaka, cik prasa pakalpojumu sniedzēji. Katrs akreditētais pakalpojumu sniedzējs pats nosaka savu cenu."
+    },
+    {
+      "q": "Vai ir sodi?",
+      "a": "Nodokļu iestāde norāda, ka pēc pienākuma sākuma piemēro sodus saskaņā ar PVN tiesību aktiem. Tā nav publicējusi atsevišķu e-rēķinu sodu tabulu, tāpēc jebkuru konkrētu summu, ko izlasi citur, uzskati par neapstiprinātu."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Sagatavo savus ierakstus Fawtara",
+  "ctaSub": "Paper & Pen sagatavo PINT OM e-rēķinus un pārbauda tos pēc oficiālajiem Omānas noteikumiem. Sāc ar bezmaksas darba vietu.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Lēmums 189/2026 par grozījumiem PVN likuma izpildnoteikumos (Oficiālais vēstnesis 1660)",
+      "publisher": "Omānas Nodokļu iestāde, teksts vietnē Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Fawtara e-rēķinu BUJ, pēdējoreiz atjaunināts 2026. gada 30. septembrī",
+      "publisher": "Omānas Nodokļu iestāde",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Akreditētie pakalpojumu sniedzēji (aktuālais saraksts)",
+      "publisher": "Omānas Nodokļu iestāde, Fawtara portāls",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM specifikācijas, versija 1.0.1",
+      "publisher": "OpenPeppol, uztur Omānas Nodokļu iestāde",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM jurisdikcijas noteikumi (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, uztur Omānas Nodokļu iestāde",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Iespējamās ieviešanas pārbaude",
+      "publisher": "Omānas Nodokļu iestāde",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "PINT OM 1.0.1 laidiena piezīmes",
+      "publisher": "OpenPeppol, uztur Omānas Nodokļu iestāde",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

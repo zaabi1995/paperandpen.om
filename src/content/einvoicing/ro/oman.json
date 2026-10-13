@@ -1,0 +1,319 @@
+{
+  "locale": "ro",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Verificat după textele Tax Authority la 14 octombrie 2026.",
+  "title": "Facturarea electronică în Oman (Fawtara)",
+  "metaTitle": "Facturare electronică în Oman: date Fawtara · Paper & Pen",
+  "metaDescription": "Fawtara începe la 1 aprilie 2027 peste OMR 5 milioane și la 1 octombrie 2027 pentru restul. Testul de prag, câmpurile PINT OM și notele, cu surse oficiale.",
+  "keywords": "facturare electronică oman, fawtara, fawtara oman, facturare electronică oman 2027, pint om, autoritatea fiscală oman facturare electronică, furnizor de servicii acreditat oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "Facturarea electronică în Oman: <em class=\"text-copper-400 not-italic\">ce începe în 2027</em>",
+  "heroSubtitle": "Decizia 189/2026 face facturarea electronică obligatorie pentru afacerile înregistrate în scopuri de TVA, în două grupe, de la 1 aprilie 2027 și de la 1 octombrie 2027. Acest ghid explică ce dată ți se aplică, cum ajunge o factură la Tax Authority, ce trebuie să conțină o factură electronică PINT OM și ce să corectezi acum în evidențele tale. Fiecare regulă are link către textul oficial.",
+  "heroBullets": [
+    "1 apr. 2027: livrări de peste OMR 5 milioane",
+    "1 oct. 2027: OMR 5 milioane sau mai puțin",
+    "Start voluntar permis de acum"
+  ],
+  "authority": {
+    "name": "Autoritatea Fiscală din Oman (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara pe scurt",
+  "facts": [
+    {
+      "label": "Temei legal",
+      "value": "Decizia 189/2026",
+      "note": "Modifică Executive Regulations of the VAT Law. Tax Authority a emis-o la 3 august 2026, iar Monitorul Oficial a publicat-o în numărul 1660 din 9 august 2026. Noul articol 143 cere o factură fiscală într-un format electronic aprobat și securizat, cu un număr unic.",
+      "source": 1
+    },
+    {
+      "label": "Prima grupă",
+      "value": "1 aprilie 2027",
+      "note": "Persoanele impozabile cu livrări anuale de peste OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "A doua grupă",
+      "value": "1 octombrie 2027",
+      "note": "Persoanele impozabile cu livrări anuale de OMR 5,000,000 sau mai puțin.",
+      "source": 1
+    },
+    {
+      "label": "Înainte de data ta",
+      "value": "Voluntar",
+      "note": "Tax Authority încurajează afacerile să își testeze sistemele și să emită facturi electronice înainte de data obligatorie.",
+      "source": 2
+    },
+    {
+      "label": "Format",
+      "value": "XML, PINT OM",
+      "note": "XML este formatul structurat obligatoriu. Specificația pentru Oman este PINT OM versiunea 1.0.1, un format Peppol întreținut de Tax Authority.",
+      "source": 4
+    },
+    {
+      "label": "Termen B2B",
+      "value": "În timp real",
+      "note": "O factură electronică între firme trece prin rețea în momentul în care o emiți.",
+      "source": 2
+    },
+    {
+      "label": "Termen B2C",
+      "value": "24 de ore",
+      "note": "O factură către un consumator sau către un cumpărător neînregistrat în scopuri de TVA se raportează în 24 de ore.",
+      "source": 2
+    },
+    {
+      "label": "Facturi vechi",
+      "value": "Nu se transmit",
+      "note": "Facturile emise înainte să începi nu se încarcă la Tax Authority.",
+      "source": 2
+    },
+    {
+      "label": "Corecții",
+      "value": "Notă de credit sau de debit",
+      "note": "Nu poți anula sau modifica o factură electronică emisă. O ajustezi cu o notă de credit sau o notă de debit electronică.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Ce dată ți se aplică",
+      "body": "Testul folosește livrările tale anuale la data de 31 martie 2027. Adună livrările taxabile (fără livrările de active imobilizate), adaugă bunurile și serviciile supuse taxării inverse și adaugă livrările tale intra-GCC.\n\nÎncepi la 1 aprilie 2027 dacă oricare dintre totaluri depășește OMR 5,000,000: livrările tale de la 1 aprilie 2026 la 31 martie 2027 sau livrările estimate de la 1 aprilie 2027 la 31 martie 2028. Dacă niciunul nu depășește OMR 5,000,000, începi la 1 octombrie 2027. Un nerezident își numără doar livrările din Oman. Un grup fiscal de TVA este testat ca un singur grup, nu membru cu membru. Tax Authority are și o verificare online a etapei de implementare: introduci codul de TVA și intervalele livrărilor tale.",
+      "items": [
+        "Se includ: livrări taxabile, livrări cu taxare inversă, livrări intra-GCC",
+        "Se exclud: livrările de active imobilizate",
+        "Două perioade: cele 12 luni până la 31 martie 2027 și cele 12 luni de la 1 aprilie 2027",
+        "Oricare perioadă peste OMR 5,000,000 înseamnă 1 aprilie 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Cum ajunge o factură la Tax Authority",
+      "body": "Fawtara folosește un model cu cinci colțuri. Colțul 1 ești tu, vânzătorul. Colțul 2 este furnizorul tău de servicii acreditat. Colțul 3 este furnizorul cumpărătorului, colțul 4 este cumpărătorul, iar colțul 5 este Tax Authority. Programul tău nu trimite niciodată direct la Tax Authority. Trimite factura electronică furnizorului tău.\n\nFurnizorul verifică factura după regulile schematron oficiale din Oman, o livrează furnizorului cumpărătorului prin rețeaua Peppol și trimite un document cu datele fiscale la Tax Authority. Te conectezi la un singur furnizor odată, prin portalul Fawtara, și poți schimba furnizorul mai târziu. Conformitatea facturii rămâne responsabilitatea ta.",
+      "items": [
+        "C1 vânzător, C2 furnizorul vânzătorului, C3 furnizorul cumpărătorului, C4 cumpărător, C5 Tax Authority",
+        "Furnizorul validează factura, nu Tax Authority",
+        "Un singur furnizor odată, conectat prin portalul Fawtara",
+        "Responsabilitatea pentru o factură corectă rămâne a ta"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Ce trebuie să conțină o factură electronică PINT OM",
+      "body": "PINT OM adaugă reguli specifice Omanului peste factura Peppol. Cele mai multe respingeri vin din date de bază lipsă, nu din totalul facturii. Verifică mai întâi aceste câmpuri în evidențele tale.",
+      "items": [
+        "Un UUID unic al facturii, versiunea 5, și ora emiterii",
+        "O dată de emitere care nu este în viitor după ora Muscatului",
+        "Codul de TVA al vânzătorului în forma OM plus 10 cifre, adresa și telefonul vânzătorului",
+        "Pentru o factură fiscală completă, codul de TVA sau identificatorul cumpărătorului și adresa lui",
+        "TVA pe fiecare linie și o categorie fiscală pe fiecare linie (S, E, O sau Z)",
+        "Cota standard 5%; liniile scutite și cele cu cota zero au nevoie de un cod de motiv",
+        "Pentru bunuri, un cod HS din Oman de 12 cifre și un indicator bun sau serviciu pe fiecare linie",
+        "Un cod de activitate ISIC pe fiecare articol",
+        "Sume cu cel mult 3 zecimale, în OMR pentru totalurile de TVA"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Note de credit și note de debit",
+      "body": "După ce emiți o factură electronică, nu o anulezi, nu o ștergi și nu o modifici. Emiți o notă de credit electronică (pentru a o reduce) sau o notă de debit (pentru a o majora). Nota indică factura inițială prin număr, dată și UUID și conține un cod de motiv: CAN pentru anulare sau retur, VAT pentru o schimbare a tratamentului TVA, VAL pentru o schimbare a valorii, QTY pentru o schimbare a cantității sau OTH pentru alt motiv. Dacă ai facturat cumpărătorul greșit, emite o notă de credit către acel cumpărător și o factură nouă către cel corect.",
+      "items": [
+        "Notă de credit: tip de document 381",
+        "Notă de debit: tip de document 383",
+        "Numărul, data și UUID-ul facturii inițiale pe fiecare notă",
+        "Coduri de motiv: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Cum alegi un furnizor de servicii acreditat",
+      "body": "Tax Authority publică lista actualizată a furnizorilor de servicii acreditați. La 13 octombrie 2026 lista avea 36 de intrări și încă se extinde. Tax Authority nu percepe nicio taxă de la contribuabili și nu stabilește prețurile furnizorilor, așa că fiecare furnizor își stabilește propriul model: abonament, preț pe factură sau altul. Compară furnizorii după ce sisteme conectează, unde îți păstrează datele, suportul în arabă și cum poți pleca de la ei. Fiecare furnizor își declară singur pe listă locul de stocare a datelor, iar Tax Authority nu verifică acest lucru.",
+      "items": [
+        "Folosește doar un furnizor de pe lista Tax Authority",
+        "Întreabă cum se conectează programul tău: API, încărcare de fișiere sau un conector gata făcut",
+        "Întreabă unde îți sunt păstrate datele și cât timp sunt arhivate",
+        "Verifică pașii de schimbare a furnizorului înainte să semnezi"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Vânzările B2C și codul QR",
+      "body": "O vânzare către un consumator sau către orice cumpărător neînregistrat în scopuri de TVA se raportează la Tax Authority în 24 de ore. Îi dai cumpărătorului o factură lizibilă pe orice canal. Această copie tipărită sau PDF trebuie să conțină un cod QR, pe care îl generezi tu, ca vânzător. Codul QR nu face parte din factura electronică XML. Pentru conținutul codului QR, Tax Authority trimite la Anexa D din Peppol Oman Architecture. Anexa nu este încă publică, așa că orice format de cod QR pe care îl vezi acum trebuie considerat neconfirmat.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "Ce să faci acum",
+      "body": "Nu trebuie să aștepți data ta ca să te pregătești. Partea care durează cel mai mult sunt datele de bază, iar pe ele poți începe să lucrezi chiar azi.",
+      "items": [
+        "Fă testul de prag și notează-ți data de început",
+        "Verifică fiecare cod de TVA al clienților: OM plus 10 cifre",
+        "Adaugă codul HS de 12 cifre la fiecare articol de tip bun și un cod ISIC la fiecare articol",
+        "Asociază unitățile de măsură cu codurile de unitate UN/ECE (de exemplu, bucata este H87)",
+        "Nu mai șterge și nu mai renumerota facturi emise: folosește note de credit",
+        "Alege un furnizor de pe lista Tax Authority și testează din timp",
+        "Păstrează-ți propria arhivă: Tax Authority nu îți returnează datele facturilor"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Cine trimite ce, caz cu caz",
+    "intro": "Drumul unei facturi depinde de cine este cumpărătorul. Tabelul arată colțurile pentru fiecare caz din întrebările frecvente ale Tax Authority.",
+    "columns": [
+      "Caz",
+      "Flux",
+      "Ce se întâmplă"
+    ],
+    "rows": [
+      {
+        "label": "B2B intern",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "În timp real. Furnizorul tău livrează către furnizorul cumpărătorului și raportează datele fiscale la Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C sau cumpărător neînregistrat în scopuri de TVA",
+        "flow": "C1 → C2 → C5",
+        "detail": "Raportare în 24 de ore. Cumpărătorul primește o factură lizibilă cu cod QR.",
+        "source": 2
+      },
+      {
+        "label": "Cumpărătorul nu este încă într-o etapă de implementare",
+        "flow": "C1 → C2 → C5",
+        "detail": "Furnizorul tău raportează datele fiscale. Trimiți factura cumpărătorului cum o faci și azi.",
+        "source": 2
+      },
+      {
+        "label": "Vânzătorul nu este încă într-o etapă de implementare",
+        "flow": "C1 → C4",
+        "detail": "Un vânzător înregistrat în scopuri de TVA din afara etapelor de implementare curente facturează ca azi. Cumpărătorul își deduce TVA-ul ca azi.",
+        "source": 2
+      },
+      {
+        "label": "Export",
+        "flow": "C1 → C2 → C5",
+        "detail": "Trimiți factura clientului străin ca azi. Datele fiscale trec prin rețea.",
+        "source": 2
+      },
+      {
+        "label": "Corecție",
+        "flow": "381 / 383",
+        "detail": "Nota urmează același drum ca factura pe care o corectează.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Când devine obligatorie facturarea electronică în Oman?",
+      "a": "La 1 aprilie 2027 pentru persoanele impozabile cu livrări anuale de peste OMR 5,000,000 și la 1 octombrie 2027 pentru cele cu OMR 5,000,000 sau mai puțin. Decizia 189/2026 stabilește ambele date. Înainte de data ta, facturarea electronică este voluntară, iar Tax Authority încurajează un start timpuriu."
+    },
+    {
+      "q": "Cum știu dacă afacerea mea este în grupa din aprilie 2027?",
+      "a": "Adună livrările taxabile (fără active imobilizate), livrările cu taxare inversă și livrările intra-GCC. Dacă totalul de la 1 aprilie 2026 la 31 martie 2027 depășește OMR 5,000,000 sau te aștepți să depășească această sumă de la 1 aprilie 2027 la 31 martie 2028, începi la 1 aprilie 2027. Altfel, începi la 1 octombrie 2027."
+    },
+    {
+      "q": "O factură PDF este factură electronică în Oman?",
+      "a": "Nu. Factura electronică este un fișier XML structurat în format PINT OM, care trece printr-un furnizor de servicii acreditat. Poți în continuare să tipărești sau să trimiți o copie PDF, dar de la data ta doar factura electronică este o factură fiscală valabilă."
+    },
+    {
+      "q": "Trebuie să încarc facturile vechi?",
+      "a": "Nu. Facturile emise înainte să începi facturarea electronică nu se transmit la Tax Authority. Păstrează-le în propriile evidențe, așa cum cere legea TVA."
+    },
+    {
+      "q": "Ce fac dacă clientul meu nu este încă în Fawtara?",
+      "a": "Transmiți în continuare factura furnizorului tău de servicii, iar furnizorul trimite documentul cu datele fiscale la Tax Authority. Trimiți factura clientului cum o faci și azi."
+    },
+    {
+      "q": "Tax Authority percepe vreo taxă pentru Fawtara?",
+      "a": "Nu. Tax Authority nu percepe nicio taxă de la contribuabili și nu stabilește cât cer furnizorii de servicii. Fiecare furnizor acreditat își stabilește propriul preț."
+    },
+    {
+      "q": "Există penalități?",
+      "a": "Tax Authority spune că, după începerea obligației, se aplică penalitățile prevăzute de legislația TVA. Nu a publicat un tabel separat de penalități pentru facturarea electronică, așa că orice sumă concretă pe care o citești în altă parte trebuie considerată neconfirmată."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Pregătește-ți evidențele pentru Fawtara",
+  "ctaSub": "Paper & Pen generează facturi electronice PINT OM și le verifică după regulile oficiale din Oman. Începe cu un spațiu de lucru gratuit.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decizia 189/2026 de modificare a Executive Regulations of the VAT Law (Monitorul Oficial nr. 1660)",
+      "publisher": "Oman Tax Authority, text pe Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Întrebări frecvente despre facturarea electronică Fawtara, actualizate ultima dată la 30 septembrie 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Furnizori de servicii acreditați (listă actualizată)",
+      "publisher": "Oman Tax Authority, portalul Fawtara",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Specificațiile PINT OM, versiunea 1.0.1",
+      "publisher": "OpenPeppol, întreținute de Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Regulile de jurisdicție PINT OM (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, întreținute de Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Verificarea etapei de implementare",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Notele de versiune PINT OM 1.0.1",
+      "publisher": "OpenPeppol, întreținute de Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

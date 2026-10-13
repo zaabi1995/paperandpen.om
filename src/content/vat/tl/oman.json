@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "VAT sa Oman",
   "metaTitle": "VAT sa Oman: Rate, Threshold, Invoice · Paper & Pen",
-  "metaDescription": "Ang 5% VAT rate ng Oman, ang OMR 38,500 na threshold sa registration at ang labindalawang item na dapat nasa tax invoice, bawat isa ay may sanggunian sa Tax Authority.",
-  "keywords": "vat oman, vat rate sa oman, threshold sa vat registration sa oman, requirements ng tax invoice sa oman, fawtara e-invoicing, oman tax authority, vat sa oman para sa OFW na negosyante",
+  "metaDescription": "5% VAT rate ng Oman, OMR 38,500 threshold, ang dapat taglay ng tax invoice at mga petsa ng Fawtara e-invoicing, may sanggunian sa opisyal na teksto.",
+  "keywords": "vat oman, vat rate sa oman, vat registration threshold sa oman, requirements ng tax invoice sa oman, fawtara e-invoicing, e-invoicing sa oman 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Oman",
   "heroTitle": "Pag-invoice sa ilalim ng mga patakaran sa <em class=\"text-copper-400 not-italic\">VAT ng Oman</em>",
-  "heroSubtitle": "Ang rate, ang mga threshold sa registration, ang dapat ipakita ng tax invoice at kung nasaan na ang e-invoicing. Bawat numero sa pahinang ito ay may sanggunian sa mismong nailathalang teksto ng Oman Tax Authority.",
+  "heroSubtitle": "Ang rate, ang mga threshold sa registration, ang dapat ipakita ng tax invoice at kung kailan magsisimula ang e-invoicing. Bawat numero sa pahinang ito ay may sanggunian sa opisyal na nailathalang teksto.",
   "heroBullets": [
     "5% na standard rate",
     "OMR 38,500 para magparehistro",
-    "Inanunsyo na ang Fawtara, hindi pa live"
+    "Fawtara simula 1 Abril 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Puwedeng gumamit ng simplified invoice ang supply na mas mababa sa halagang ito, nang may pag-apruba ng Tax Authority.",
       "source": 3
+    },
+    {
+      "label": "E-invoicing (Fawtara)",
+      "value": "1 Abr 2027 / 1 Okt 2027",
+      "note": "Ginagawang mandatory ng Decision 189/2026 ang e-invoicing sa 1 Abril 2027 para sa taunang supply na lampas OMR 5,000,000, at sa 1 Oktubre 2027 para sa OMR 5,000,000 o mas mababa. Bago noon, boluntaryo ito.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "Sa Arabic lang inilalathala ng Tax Authority ang Executive Regulations. Tapat na pagbasa ang listahang ito sa opisyal na tekstong Arabic, hindi opisyal na saling Ingles, kaya kumpirmahin ang pananalita sa tax adviser mo bago ka umasa rito."
   },
   "einvoicing": {
-    "status": "Inanunsyo at paunti-unti, hindi pa mandatory",
-    "body": "Fawtara ang tawag sa e-invoicing program ng Oman. Inilalarawan ng Tax Authority ang five-corner na modelo kung saan umaabot sa kanila ang mga invoice sa pamamagitan ng accredited na service provider, at naglalatag ng apat na yugto: pilot, pagpapalawak, pagsali ng mas maliliit na negosyo, at buong rollout. Hindi pa inilalathala ng Authority sa Ingles ang petsa ng mga yugto, at wala sa sarili nitong mga pahina ang mga petsang kumakalat sa press. Ituring na hindi kumpirmado ang anumang partikular na deadline ng Fawtara na mababasa mo sa ibang lugar hangga't hindi ito inilalathala ng Tax Authority.",
-    "source": 4
+    "status": "Mandatory simula 1 Abril 2027, boluntaryo sa ngayon",
+    "body": "Fawtara ang tawag sa e-invoicing program ng Oman. Ang Decision 189/2026, na nailathala sa Official Gazette isyu 1660 noong 9 Agosto 2026, ay nagtatakda ng dalawang petsa: 1 Abril 2027 para sa mga taxable person na lampas OMR 5,000,000 ang taunang supply, at 1 Oktubre 2027 para sa mga OMR 5,000,000 o mas mababa. Hanggang sa petsa mo, boluntaryo ang e-invoicing, at hinihikayat ng Tax Authority ang maagang pagsisimula. Ipinapadala ang mga invoice bilang PINT OM XML sa pamamagitan ng isang accredited service provider, na naghahatid nito sa buyer at nag-uulat nito sa Tax Authority. Ipinapaliwanag ng aming gabay sa e-invoicing sa Oman ang threshold test at ang mga patakaran.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Paghahanda",
-      "title": "Paghahanda para sa Fawtara nang hindi nanghuhula ng petsa",
-      "body": "Hindi mo kailangan ng nailathalang deadline para maging handa. Lahat ng e-invoicing regime na naging live sa rehiyon ay humingi ng parehong pangunahing disiplina: malinis at kumpletong record ng customer kasama ang tax number, tuloy-tuloy na pagkakasunod-sunod ng invoice, tax treatment na itinatala bawat linya sa halip na bawat invoice, at mga dokumentong nakatago sa paraang makukuha mo kapag hiningi. Maikli na lang ang implementasyon ng negosyong ang record ay pasok na sa apat na kondisyong iyon, kailan man dumating ang mga petsa. Ang negosyong hindi pa ay gugugulin ang notice period sa paglilinis ng data.",
+      "title": "Paghahanda para sa Fawtara bago dumating ang petsa mo",
+      "body": "Nakatakda na ang mga petsa, kaya ang trabaho ngayon ay ihanda ang mga record mo. Hinihingi ng Fawtara ang malinis at kumpletong record ng customer kasama ang tax number sa anyong OM at 10 digit, tuloy-tuloy na pagkakasunod-sunod ng invoice, tax treatment na itinatala bawat linya, HS code sa bawat goods item at activity code sa bawat item, at mga dokumentong makukuha kapag hiningi. Maikli ang implementasyong haharapin ng negosyong pasok na ang mga record sa mga kondisyong ito. Ang negosyong hindi pa pasok ay gugugulin ang notice period sa paglilinis ng data.",
       "items": [
         "Kumpletong record ng customer, kasama ang tax number",
         "Iisang tuloy-tuloy na pagkakasunod-sunod ng invoice bawat serye",
         "Tax treatment na itinatala bawat linya",
-        "Mga dokumentong makukuha kapag hiningi"
+        "HS code at activity code sa mga item mo"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "Kapag umabot o inaasahang aabot sa OMR 38,500 ang taunang supply mo. Puwede kang magparehistro nang boluntaryo mula OMR 19,250. Parehong nagmumula ang dalawang numero sa desisyon ng Chairman sa mga threshold sa registration sa halip na sa mismong VAT Law, kaya puwede silang magbago nang hindi nagbabago ang Batas."
     },
     {
-      "q": "Mandatory na ba ang e-invoicing sa Oman?",
-      "a": "Hindi pa. Inanunsyo ng Tax Authority ang Fawtara, isang paunti-unting five-corner na e-invoicing model na gumagamit ng accredited na service provider, at naglalarawan ng apat na yugto ng rollout. Hindi pa nito inilalathala sa Ingles sa sarili nitong mga pahina ang petsa ng mga yugto, kaya wala kaming binabanggit na petsa dito. Tingnan ang mga pahina ng Tax Authority sa e-invoicing para sa kasalukuyang lagay."
+      "q": "Kailan magiging mandatory ang e-invoicing sa Oman?",
+      "a": "Simula 1 Abril 2027 kung lampas OMR 5,000,000 ang taunang supply mo, at simula 1 Oktubre 2027 kung OMR 5,000,000 o mas mababa. Ang Decision 189/2026 ang nagtatakda ng dalawang petsa. Puwede kang magsimula nang boluntaryo bago ang petsa mo. Ipinapaliwanag ng FAQ ng Tax Authority kung paano bilangin ang supply mo para sa threshold."
     },
     {
       "q": "Puwede ba akong mag-isyu ng invoice sa Ingles sa Oman?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Mag-invoice nang tama sa Oman, libre",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 na nag-aamyenda sa Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, teksto sa Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "FAQ ng Fawtara e-invoicing, huling na-update noong 30 Setyembre 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }

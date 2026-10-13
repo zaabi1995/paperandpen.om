@@ -1,0 +1,113 @@
+{
+  "locale": "ms",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-invois untuk Oman",
+  "metaTitle": "Perisian E-invois Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen membina PINT OM XML, menyemaknya dengan schematron rasmi Oman, mengeluarkan sekali dengan UUID v5 dan membekukannya. Untuk Fawtara.",
+  "keywords": "perisian e-invois oman, perisian fawtara, pint om xml, e-invois oman, pengesahan schematron oman, nota kredit e-invois oman, nota debit oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-invois yang lulus <em class=\"text-copper-400 not-italic\">peraturan Oman</em> sebelum dihantar",
+  "heroSubtitle": "Paper & Pen menukar invois, nota kredit dan nota debit anda kepada PINT OM XML dan menyemak setiap satu berdasarkan schematron rasmi Oman. Semakan kesediaan menyenaraikan apa yang perlu dibetulkan dalam rekod anda. Invois yang lulus dikeluarkan sekali, dengan UUID tersendiri, dan kekal dibekukan.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Semakan schematron rasmi Oman",
+    "Dikeluarkan sekali, kemudian dibekukan"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Setiap invois menjadi e-invois PINT OM: format XML UBL 2.1 yang digunakan oleh Fawtara Oman."
+    },
+    {
+      "icon": "shield",
+      "title": "Schematron rasmi Oman",
+      "desc": "XML disemak berdasarkan peraturan schematron PINT OM rasmi OpenPeppol, versi 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Semakan kesediaan dengan pembetulan",
+      "desc": "Imbasan rekod syarikat, pelanggan dan item anda menyenaraikan setiap kekurangan dan tempat untuk membetulkannya."
+    },
+    {
+      "icon": "lock",
+      "title": "Keluarkan sekali, UUID v5",
+      "desc": "Invois dikeluarkan satu kali dengan UUID versi 5. Cubaan semula atau klik dua kali tidak akan menghasilkan invois kedua."
+    },
+    {
+      "icon": "invoice",
+      "title": "Dibekukan apabila dikeluarkan",
+      "desc": "Selepas dikeluarkan, tiada sesiapa boleh mengubah amaun, membatalkan invois atau memadamnya."
+    },
+    {
+      "icon": "receipt",
+      "title": "Nota kredit dan debit",
+      "desc": "Buat nota daripada invois asal. Ia membawa nombor, tarikh, UUID dan kod sebab."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Sebelum anda mengeluarkan",
+      "title": "Cari kekurangan semasa anda masih boleh membetulkannya",
+      "body": "Kebanyakan penolakan e-invois berpunca daripada data induk, bukan daripada jumlah: nombor VAT pelanggan dalam bentuk yang salah, alamat penjual yang tiada, item tanpa kod HS atau kod aktiviti. Semakan kesediaan mengimbas rekod anda berdasarkan peraturan PINT OM dan mengumpulkan setiap kekurangan mengikut rekod yang perlu dibetulkan, jadi anda membetulkan satu produk sekali dan setiap baris invois yang mengandunginya menjadi bersih. Invois yang gagal semakan tidak dikeluarkan. Kekurangannya kekal dan anda masih boleh mengeditnya.",
+      "items": [
+        "Kekurangan dikumpulkan mengikut syarikat, pelanggan dan item",
+        "Setiap kekurangan menamakan rekod yang perlu dibetulkan",
+        "Invois yang gagal kekal sebagai draf yang boleh anda betulkan"
+      ]
+    },
+    {
+      "eyebrow": "Apabila anda mengeluarkan",
+      "title": "Satu invois, satu UUID, tiada suntingan kemudian",
+      "body": "Di bawah Fawtara, invois yang telah dikeluarkan tidak boleh dibatalkan atau diedit. Paper & Pen mengikut peraturan yang sama. Apabila invois lulus semakan, ia dikeluarkan dengan UUID versi 5, dan XML-nya disimpan bersamanya. Sejak itu amaun, baris dan pelanggan dikunci, dan invois tidak boleh dibatalkan atau dipadam. Bayaran masih direkodkan seperti biasa.",
+      "items": [
+        "UUID versi 5 disimpan pada invois",
+        "XML disimpan bersama invois yang dikeluarkan",
+        "Amaun dikunci, tiada pembatalan, tiada pemadaman"
+      ]
+    },
+    {
+      "eyebrow": "Apabila sesuatu berubah",
+      "title": "Betulkan dengan nota kredit atau nota debit",
+      "body": "Untuk mengurangkan invois yang telah dikeluarkan, buat nota kredit daripadanya. Untuk menambahnya, buat nota debit daripadanya. Paper & Pen mengisi nota daripada invois asal: nombor, tarikh dan UUID yang dikehendaki oleh PINT OM. Anda memilih kod sebab: CAN untuk pembatalan atau pemulangan, VAT untuk perubahan layanan VAT, VAL untuk perubahan nilai, QTY untuk perubahan kuantiti, atau OTH. Nota itu melalui semakan yang sama dan peraturan keluarkan sekali yang sama.",
+      "items": [
+        "Nota kredit (381) dan nota debit (383)",
+        "Nombor, tarikh dan UUID asal diisi",
+        "Kod sebab CAN, VAT, VAL, QTY, OTH dalam bahasa Inggeris dan Arab"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Adakah Paper & Pen menghantar invois saya kepada Oman Tax Authority?",
+      "a": "Tiada perisian yang menghantar terus kepada Tax Authority. Di bawah Fawtara, penyedia perkhidmatan bertauliah menerima e-invois anda, menyampaikannya dan melaporkannya kepada Tax Authority. Paper & Pen membina dan menyemak PINT OM XML yang diterima oleh penyedia. Tax Authority menerbitkan senarai penyedia bertauliah."
+    },
+    {
+      "q": "Dokumen apakah yang diliputi?",
+      "a": "Invois, nota kredit dan nota debit. Setiap satu dibina sebagai PINT OM XML, disemak berdasarkan schematron rasmi Oman dan dikeluarkan sekali dengan UUID versi 5 tersendiri."
+    },
+    {
+      "q": "Apa yang berlaku kepada invois lama saya?",
+      "a": "E-invois dalam Paper & Pen bermula dari tarikh mula guna (go-live) yang ditetapkan untuk ruang kerja anda. Invois yang dikeluarkan sebelum tarikh itu tidak disentuh dan tidak dihantar, selaras dengan peraturan Tax Authority bahawa invois sejarah tidak diserahkan."
+    },
+    {
+      "q": "Bolehkah saya masih mengedit invois selepas saya mengeluarkannya?",
+      "a": "Tidak. E-invois yang telah dikeluarkan dibekukan: amaun dan barisnya dikunci, dan ia tidak boleh dibatalkan atau dipadam. Untuk membetulkannya, buat nota kredit atau nota debit daripadanya. Invois yang belum lulus semakan kekal boleh diedit."
+    },
+    {
+      "q": "Bilakah e-invois menjadi wajib di Oman?",
+      "a": "Pada 1 April 2027 bagi perniagaan dengan pembekalan tahunan melebihi OMR 5,000,000, dan pada 1 Oktober 2027 bagi yang lain, di bawah Decision 189/2026. Panduan e-invois Oman kami menerangkan ujian ambang dan memaut kepada teks rasmi."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Mulakan ruang kerja percuma anda",
+  "ctaSub": "Jualan dan invois percuma selama-lamanya. Semak rekod anda berdasarkan peraturan PINT OM sebelum tarikh Fawtara anda."
+}

@@ -1,0 +1,319 @@
+{
+  "locale": "pt",
+  "slug": "oman",
+  "order": 1,
+  "country": "Omã",
+  "updated": "Verificado com os textos da Tax Authority em 14 de outubro de 2026.",
+  "title": "Fatura eletrônica em Omã (Fawtara)",
+  "metaTitle": "Fatura eletrônica em Omã: datas e regras · Paper & Pen",
+  "metaDescription": "Fawtara: 1º/4/2027 acima de OMR 5 milhões e 1º/10/2027 para o resto. Teste do limite, campos PINT OM e notas, com fonte na Tax Authority.",
+  "keywords": "fatura eletrônica Omã, fawtara, fawtara Omã, fatura eletrônica Omã 2027, pint om, fatura eletrônica Oman Tax Authority, provedor de serviços credenciado Omã, peppol Omã, decision 189/2026",
+  "heroEyebrow": "Omã · Fawtara",
+  "heroTitle": "Fatura eletrônica em Omã: <em class=\"text-copper-400 not-italic\">o que começa em 2027</em>",
+  "heroSubtitle": "A Decisão 189/2026 torna a fatura eletrônica obrigatória para empresas registradas no IVA em dois grupos, a partir de 1º de abril de 2027 e a partir de 1º de outubro de 2027. Este guia explica qual data vale para você, como uma fatura chega à Tax Authority, o que uma fatura eletrônica PINT OM deve trazer e o que corrigir nos seus registros agora. Cada regra tem link para o texto oficial.",
+  "heroBullets": [
+    "1º/4/2027: fornecimentos acima de OMR 5 milhões",
+    "1º/10/2027: OMR 5 milhões ou menos",
+    "Início voluntário já permitido"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "A Fawtara em resumo",
+  "facts": [
+    {
+      "label": "Base legal",
+      "value": "Decisão 189/2026",
+      "note": "Ela altera o Regulamento Executivo da Lei do IVA. A Tax Authority a emitiu em 3 de agosto de 2026, e o Diário Oficial a publicou no número 1660 em 9 de agosto de 2026. O novo Artigo 143 exige uma fatura fiscal em formato eletrônico aprovado e seguro, com um número único.",
+      "source": 1
+    },
+    {
+      "label": "Primeiro grupo",
+      "value": "1º de abril de 2027",
+      "note": "Contribuintes cujos fornecimentos anuais estão acima de OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Segundo grupo",
+      "value": "1º de outubro de 2027",
+      "note": "Contribuintes cujos fornecimentos anuais são de OMR 5,000,000 ou menos.",
+      "source": 1
+    },
+    {
+      "label": "Antes da sua data",
+      "value": "Voluntária",
+      "note": "A Tax Authority incentiva as empresas a testar seus sistemas e emitir faturas eletrônicas antes da data obrigatória.",
+      "source": 2
+    },
+    {
+      "label": "Formato",
+      "value": "XML, PINT OM",
+      "note": "XML é o formato estruturado obrigatório. A especificação de Omã é a PINT OM versão 1.0.1, um formato Peppol mantido pela Tax Authority.",
+      "source": 4
+    },
+    {
+      "label": "Prazo B2B",
+      "value": "Tempo real",
+      "note": "Uma fatura eletrônica entre empresas passa pela rede no momento em que você a emite.",
+      "source": 2
+    },
+    {
+      "label": "Prazo B2C",
+      "value": "24 horas",
+      "note": "Uma fatura para um consumidor, ou para um comprador que não é registrado no IVA, é informada em até 24 horas.",
+      "source": 2
+    },
+    {
+      "label": "Faturas antigas",
+      "value": "Não enviadas",
+      "note": "As faturas emitidas antes de você começar não são enviadas à Tax Authority.",
+      "source": 2
+    },
+    {
+      "label": "Correções",
+      "value": "Nota de crédito ou de débito",
+      "note": "Você não pode cancelar nem editar uma fatura eletrônica emitida. Você a ajusta com uma nota de crédito ou nota de débito eletrônica.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Qual data vale para você",
+      "body": "O teste usa seus fornecimentos anuais na posição de 31 de março de 2027. Conte seus fornecimentos tributáveis (deixe de fora os fornecimentos de ativos imobilizados), some os bens e serviços sujeitos ao mecanismo de autoliquidação (reverse charge) e some seus fornecimentos intra-GCC.\n\nVocê começa em 1º de abril de 2027 se qualquer um dos totais estiver acima de OMR 5,000,000: seus fornecimentos de 1º de abril de 2026 a 31 de março de 2027, ou seus fornecimentos previstos de 1º de abril de 2027 a 31 de março de 2028. Se nenhum dos totais estiver acima de OMR 5,000,000, você começa em 1º de outubro de 2027. Um não residente conta apenas seus fornecimentos em Omã. Um grupo de IVA é testado como um só grupo, não membro a membro. A Tax Authority também tem uma verificação de implantação on-line: você informa seu número de IVA e suas faixas de fornecimento.",
+      "items": [
+        "Inclua: fornecimentos tributáveis, fornecimentos com autoliquidação, fornecimentos intra-GCC",
+        "Deixe de fora: fornecimentos de ativos imobilizados",
+        "Duas janelas: os 12 meses até 31 de março de 2027 e os 12 meses a partir de 1º de abril de 2027",
+        "Qualquer janela acima de OMR 5,000,000 significa 1º de abril de 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "Como uma fatura chega à Tax Authority",
+      "body": "A Fawtara usa um modelo de cinco cantos. O canto 1 é você, o vendedor. O canto 2 é o seu provedor de serviços credenciado. O canto 3 é o provedor de serviços do seu comprador, o canto 4 é o seu comprador e o canto 5 é a Tax Authority. Seu software nunca envia diretamente à Tax Authority. Ele envia a fatura eletrônica ao seu provedor.\n\nSeu provedor verifica a fatura com as regras oficiais de schematron de Omã, a entrega ao provedor do comprador na rede Peppol e envia um documento de dados fiscais à Tax Authority. Você se vincula a um provedor por vez pelo portal Fawtara e pode trocar de provedor depois. A conformidade da fatura continua sendo responsabilidade sua.",
+      "items": [
+        "C1 vendedor, C2 provedor do vendedor, C3 provedor do comprador, C4 comprador, C5 Tax Authority",
+        "Quem valida a fatura é o provedor, não a Tax Authority",
+        "Um provedor por vez, vinculado no portal Fawtara",
+        "A responsabilidade por uma fatura correta continua sendo sua"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "O que uma fatura eletrônica PINT OM deve trazer",
+      "body": "A PINT OM acrescenta regras de Omã à fatura Peppol. A maioria das rejeições vem de dados cadastrais faltando, não do total da fatura. Verifique primeiro estes campos nos seus registros.",
+      "items": [
+        "Um UUID único da fatura, versão 5, e a hora da emissão",
+        "Uma data de emissão que não esteja no futuro no horário de Mascate",
+        "Número de IVA do vendedor no formato OM mais 10 dígitos, endereço e telefone do vendedor",
+        "Para uma fatura fiscal completa, o número de IVA ou identificador do comprador e o endereço",
+        "IVA por linha e uma categoria fiscal por linha (S, E, O ou Z)",
+        "Alíquota padrão de 5%; linhas isentas e com alíquota zero precisam de um código de motivo",
+        "Para mercadorias, um código HS de Omã de 12 dígitos e um indicador de mercadoria ou serviço por linha",
+        "Um código de atividade ISIC por item",
+        "Valores com no máximo 3 casas decimais, em OMR para os totais de IVA"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Notas de crédito e notas de débito",
+      "body": "Depois de emitir uma fatura eletrônica, você não a cancela, não a apaga e não a edita. Você emite uma nota de crédito eletrônica (para reduzi-la) ou uma nota de débito eletrônica (para aumentá-la). A nota identifica a fatura original pelo número, data e UUID, e traz um código de motivo: CAN para cancelamento ou devolução, VAT para mudança no tratamento do IVA, VAL para mudança de valor, QTY para mudança de quantidade ou OTH para outro motivo. Se você faturou o comprador errado, emita uma nota de crédito para esse comprador e uma nova fatura para o comprador certo.",
+      "items": [
+        "Nota de crédito: tipo de documento 381",
+        "Nota de débito: tipo de documento 383",
+        "Número, data e UUID da fatura original em toda nota",
+        "Códigos de motivo: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Como escolher um provedor de serviços credenciado",
+      "body": "A Tax Authority publica a lista atualizada de provedores de serviços credenciados. Em 13 de outubro de 2026 a lista tinha 36 entradas, e ela continua crescendo. A Tax Authority não cobra nenhuma taxa dos contribuintes e não define os preços dos provedores, então cada provedor define seu próprio modelo: assinatura, por fatura ou outro. Compare os provedores pelo que eles integram, onde guardam seus dados, suporte em árabe e como você sai deles. Cada provedor declara na lista a residência dos próprios dados, e a Tax Authority não verifica essa informação.",
+      "items": [
+        "Use apenas um provedor da lista da Tax Authority",
+        "Pergunte como seu software se conecta: API, envio de arquivo ou um conector pronto",
+        "Pergunte onde seus dados ficam guardados e por quanto tempo são arquivados",
+        "Confira as etapas de saída antes de assinar"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "Vendas B2C e o QR code",
+      "body": "Uma venda a um consumidor, ou a qualquer comprador que não é registrado no IVA, é informada à Tax Authority em até 24 horas. Você entrega ao comprador uma fatura legível por pessoas, por qualquer canal. Essa cópia impressa ou em PDF deve trazer um QR code, que você, como vendedor, gera. O QR code não faz parte da fatura eletrônica em XML. A Tax Authority remete ao Apêndice D da Peppol Oman Architecture para o conteúdo do QR code. Esse apêndice ainda não é público, então trate qualquer layout de QR code que você veja agora como não confirmado.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "O que fazer agora",
+      "body": "Você não precisa esperar a sua data para se preparar. O trabalho que mais demora é o dos dados cadastrais, e você pode começá-lo hoje.",
+      "items": [
+        "Faça o teste do limite e anote sua data de início",
+        "Confira cada número de IVA de cliente: OM mais 10 dígitos",
+        "Adicione o código HS de 12 dígitos a cada item de mercadoria e um código ISIC a cada item",
+        "Associe suas unidades aos códigos de unidade UN/ECE (por exemplo, uma peça é H87)",
+        "Pare de apagar ou renumerar faturas emitidas: use notas de crédito",
+        "Escolha um provedor da lista da Tax Authority e teste cedo",
+        "Mantenha seu próprio arquivo: a Tax Authority não devolve os dados das faturas"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Quem envia o quê, caso a caso",
+    "intro": "O caminho de uma fatura depende de quem é o comprador. A tabela mostra os cantos de cada caso no FAQ da Tax Authority.",
+    "columns": [
+      "Caso",
+      "Fluxo",
+      "O que acontece"
+    ],
+    "rows": [
+      {
+        "label": "B2B nacional",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Tempo real. Seu provedor entrega ao provedor do comprador e informa os dados fiscais à Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C, ou comprador não registrado no IVA",
+        "flow": "C1 → C2 → C5",
+        "detail": "Informada em até 24 horas. O comprador recebe uma fatura legível por pessoas, com QR code.",
+        "source": 2
+      },
+      {
+        "label": "Comprador ainda fora de uma fase de implantação",
+        "flow": "C1 → C2 → C5",
+        "detail": "Seu provedor informa os dados fiscais. Você envia a fatura ao comprador como faz hoje.",
+        "source": 2
+      },
+      {
+        "label": "Vendedor ainda fora de uma fase de implantação",
+        "flow": "C1 → C4",
+        "detail": "Um vendedor registrado no IVA fora das fases de implantação atuais fatura como hoje. O comprador recupera o IVA de entrada como hoje.",
+        "source": 2
+      },
+      {
+        "label": "Exportação",
+        "flow": "C1 → C2 → C5",
+        "detail": "Você compartilha a fatura com o cliente estrangeiro como hoje. Os dados fiscais passam pela rede.",
+        "source": 2
+      },
+      {
+        "label": "Correção",
+        "flow": "381 / 383",
+        "detail": "A nota segue o mesmo caminho da fatura que ela corrige.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Quando a fatura eletrônica passa a ser obrigatória em Omã?",
+      "a": "Em 1º de abril de 2027 para contribuintes com fornecimentos anuais acima de OMR 5,000,000, e em 1º de outubro de 2027 para os que têm OMR 5,000,000 ou menos. A Decisão 189/2026 define as duas datas. Antes da sua data, a fatura eletrônica é voluntária e a Tax Authority incentiva um início antecipado."
+    },
+    {
+      "q": "Como sei se minha empresa está no grupo de abril de 2027?",
+      "a": "Some seus fornecimentos tributáveis (sem ativos imobilizados), seus fornecimentos com autoliquidação e seus fornecimentos intra-GCC. Se o total de 1º de abril de 2026 a 31 de março de 2027 estiver acima de OMR 5,000,000, ou se você prevê que ele fique acima disso de 1º de abril de 2027 a 31 de março de 2028, você começa em 1º de abril de 2027. Caso contrário, você começa em 1º de outubro de 2027."
+    },
+    {
+      "q": "Uma fatura em PDF é uma fatura eletrônica em Omã?",
+      "a": "Não. A fatura eletrônica é um arquivo XML estruturado no formato PINT OM que passa por um provedor de serviços credenciado. Você ainda pode imprimir ou enviar uma cópia em PDF, mas, a partir da sua data, só a fatura eletrônica vale como fatura fiscal válida."
+    },
+    {
+      "q": "Preciso enviar minhas faturas antigas?",
+      "a": "Não. As faturas que você emitiu antes de começar com a fatura eletrônica não são enviadas à Tax Authority. Guarde-as nos seus próprios registros, como a lei do IVA exige."
+    },
+    {
+      "q": "E se meu cliente ainda não estiver na Fawtara?",
+      "a": "Você ainda envia a fatura ao seu provedor de serviços, e o provedor envia o documento de dados fiscais à Tax Authority. Você envia a fatura ao cliente como faz hoje."
+    },
+    {
+      "q": "A Tax Authority cobra pela Fawtara?",
+      "a": "Não. A Tax Authority não cobra nenhuma taxa dos contribuintes e não define quanto os provedores de serviços cobram. Cada provedor credenciado define o próprio preço."
+    },
+    {
+      "q": "Existem multas?",
+      "a": "A Tax Authority diz que as multas se aplicam conforme a legislação do IVA depois que a obrigatoriedade começar. Ela não publicou uma tabela de multas separada para a fatura eletrônica, então trate qualquer valor específico que você ler em outro lugar como não confirmado."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Prepare seus registros para a Fawtara",
+  "ctaSub": "O Paper & Pen gera faturas eletrônicas PINT OM e as verifica com as regras oficiais de Omã. Comece com um espaço de trabalho grátis.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decisão 189/2026 que altera o Regulamento Executivo da Lei do IVA (Diário Oficial 1660)",
+      "publisher": "Oman Tax Authority, texto no Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "FAQ de fatura eletrônica da Fawtara, atualizado em 30 de setembro de 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Provedores de serviços credenciados (lista atualizada)",
+      "publisher": "Oman Tax Authority, portal Fawtara",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "Especificações PINT OM, versão 1.0.1",
+      "publisher": "OpenPeppol, mantido pela Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "Regras de jurisdição da PINT OM (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, mantido pela Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Verificação de possível implantação",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "Notas de versão da PINT OM 1.0.1",
+      "publisher": "OpenPeppol, mantido pela Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

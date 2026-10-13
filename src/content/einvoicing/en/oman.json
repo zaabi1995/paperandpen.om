@@ -206,7 +206,7 @@
       },
       {
         "label": "Seller not yet in a rollout",
-        "flow": "No change",
+        "flow": "C1 → C4",
         "detail": "A VAT-registered seller outside the current rollouts invoices as today. The buyer claims input VAT as today.",
         "source": 2
       },
@@ -218,7 +218,7 @@
       },
       {
         "label": "Correction",
-        "flow": "Credit or debit note",
+        "flow": "381 / 383",
         "detail": "The note follows the same path as the invoice it corrects.",
         "source": 2
       }

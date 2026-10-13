@@ -1,0 +1,113 @@
+{
+  "locale": "it",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "Fatturazione elettronica per l'Oman",
+  "metaTitle": "Software di fattura elettronica Oman (PINT OM) · Paper & Pen",
+  "metaDescription": "Paper & Pen crea XML PINT OM, lo verifica con lo schematron ufficiale dell'Oman, emette una volta con UUID v5 e blocca la fattura emessa. Per Fawtara.",
+  "keywords": "software fatturazione elettronica oman, software fawtara, xml pint om, fattura elettronica oman, validazione schematron oman, nota di credito fatturazione elettronica oman, nota di debito oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "Fatture elettroniche che superano le <em class=\"text-copper-400 not-italic\">regole dell'Oman</em> prima di partire",
+  "heroSubtitle": "Paper & Pen trasforma fatture, note di credito e note di debito in XML PINT OM e controlla ciascuna rispetto allo schematron ufficiale dell'Oman. Una verifica di preparazione elenca cosa sistemare nei tuoi dati. Una fattura che supera il controllo viene emessa una sola volta, con il proprio UUID, e resta bloccata.",
+  "heroBullets": [
+    "XML PINT OM 1.0.1",
+    "Controllo con lo schematron ufficiale dell'Oman",
+    "Emessa una volta, poi bloccata"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "Ogni fattura diventa una fattura elettronica PINT OM: il formato XML UBL 2.1 usato da Fawtara in Oman."
+    },
+    {
+      "icon": "shield",
+      "title": "Schematron ufficiale dell'Oman",
+      "desc": "L'XML viene controllato rispetto alle regole schematron ufficiali PINT OM di OpenPeppol, versione 1.0.1."
+    },
+    {
+      "icon": "check",
+      "title": "Verifica di preparazione con correzioni",
+      "desc": "Un'analisi delle anagrafiche di azienda, clienti e articoli elenca ogni lacuna e dove correggerla."
+    },
+    {
+      "icon": "lock",
+      "title": "Emissione unica, UUID v5",
+      "desc": "Una fattura viene emessa una sola volta con un UUID versione 5. Un nuovo tentativo o un doppio clic non ne crea mai una seconda."
+    },
+    {
+      "icon": "invoice",
+      "title": "Bloccata all'emissione",
+      "desc": "Dopo l'emissione nessuno può modificare gli importi, annullare la fattura o eliminarla."
+    },
+    {
+      "icon": "receipt",
+      "title": "Note di credito e di debito",
+      "desc": "Crea una nota dalla fattura originale. Riporta numero, data, UUID e un codice motivo."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Prima di emettere",
+      "title": "Trova le lacune finché puoi ancora correggerle",
+      "body": "La maggior parte degli scarti delle fatture elettroniche deriva dai dati anagrafici, non dai totali: una partita IVA del cliente nella forma sbagliata, un indirizzo del venditore mancante, un articolo senza codice HS o codice attività. La verifica di preparazione analizza i tuoi dati rispetto alle regole PINT OM e raggruppa ogni lacuna per l'anagrafica da correggere, così correggi un prodotto una volta e ogni riga di fattura che lo contiene è a posto. Una fattura che non supera il controllo non viene emessa. Mantiene le sue lacune e puoi ancora modificarla.",
+      "items": [
+        "Lacune raggruppate per azienda, cliente e articolo",
+        "Ogni lacuna indica l'anagrafica da correggere",
+        "Una fattura non superata resta una bozza che puoi correggere"
+      ]
+    },
+    {
+      "eyebrow": "Quando emetti",
+      "title": "Una fattura, un UUID, nessuna modifica successiva",
+      "body": "Con Fawtara una fattura emessa non può essere annullata né modificata. Paper & Pen segue la stessa regola. Quando una fattura supera il controllo, viene emessa con un UUID versione 5 e il suo XML viene salvato insieme a essa. Da quel momento importi, righe e cliente sono bloccati, e la fattura non può essere annullata né eliminata. I pagamenti si registrano normalmente.",
+      "items": [
+        "UUID versione 5 salvato sulla fattura",
+        "L'XML viene salvato con la fattura emessa",
+        "Importi bloccati, nessun annullamento, nessuna eliminazione"
+      ]
+    },
+    {
+      "eyebrow": "Quando qualcosa cambia",
+      "title": "Rettifica con una nota di credito o una nota di debito",
+      "body": "Per ridurre una fattura emessa, crea da essa una nota di credito. Per aumentarla, crea da essa una nota di debito. Paper & Pen compila la nota a partire dalla fattura originale: il numero, la data e l'UUID richiesti da PINT OM. Scegli tu il codice motivo: CAN per un annullamento o un reso, VAT per un cambio di trattamento IVA, VAL per una variazione di valore, QTY per una variazione di quantità oppure OTH. La nota riceve lo stesso controllo e la stessa regola di emissione unica.",
+      "items": [
+        "Nota di credito (381) e nota di debito (383)",
+        "Numero, data e UUID originali già compilati",
+        "Codici motivo CAN, VAT, VAL, QTY, OTH in inglese e in arabo"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Paper & Pen invia le mie fatture alla Oman Tax Authority?",
+      "a": "Nessun software invia direttamente alla Tax Authority. Con Fawtara un fornitore di servizi accreditato riceve la tua fattura elettronica, la consegna e la trasmette alla Tax Authority. Paper & Pen crea e controlla l'XML PINT OM che il fornitore riceve. La Tax Authority pubblica l'elenco dei fornitori accreditati."
+    },
+    {
+      "q": "Quali documenti copre?",
+      "a": "Fatture, note di credito e note di debito. Ognuno viene creato come XML PINT OM, controllato rispetto allo schematron ufficiale dell'Oman ed emesso una sola volta con il proprio UUID versione 5."
+    },
+    {
+      "q": "Cosa succede alle mie fatture precedenti?",
+      "a": "In Paper & Pen la fatturazione elettronica parte dalla data di avvio impostata per il tuo spazio di lavoro. Le fatture emesse prima di quella data non vengono toccate né inviate, in linea con la regola della Tax Authority per cui le fatture storiche non vengono trasmesse."
+    },
+    {
+      "q": "Posso ancora modificare una fattura dopo averla emessa?",
+      "a": "No. Una fattura elettronica emessa è bloccata: importi e righe sono bloccati, e non può essere annullata né eliminata. Per correggerla, crea da essa una nota di credito o una nota di debito. Una fattura che non ha ancora superato il controllo resta modificabile."
+    },
+    {
+      "q": "Quando diventa obbligatoria la fatturazione elettronica in Oman?",
+      "a": "Il 1° aprile 2027 per le imprese con cessioni annue superiori a OMR 5,000,000 e il 1° ottobre 2027 per tutte le altre, in base alla Decision 189/2026. La nostra guida alla fatturazione elettronica in Oman spiega il test di soglia e rimanda ai testi ufficiali."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Apri il tuo spazio di lavoro gratuito",
+  "ctaSub": "Vendite e fatturazione sono gratuite per sempre. Controlla i tuoi dati rispetto alle regole PINT OM prima della tua data Fawtara."
+}

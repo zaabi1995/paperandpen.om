@@ -1,0 +1,113 @@
+{
+  "locale": "zh-hant",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "阿曼電子發票",
+  "metaTitle": "阿曼電子發票 (PINT OM) 軟體 · Paper & Pen",
+  "metaDescription": "Paper & Pen 產生 PINT OM XML，以阿曼官方 schematron 驗證，以 UUID v5 只開立一次，並凍結已開立的發票。適用於 Fawtara。",
+  "keywords": "阿曼電子發票軟體, fawtara 軟體, pint om xml, 阿曼電子發票, 阿曼 schematron 驗證, 阿曼電子發票折讓單, 阿曼借項通知單",
+  "heroEyebrow": "阿曼 · Fawtara",
+  "heroTitle": "送出之前就符合<em class=\"text-copper-400 not-italic\">阿曼規則</em>的電子發票",
+  "heroSubtitle": "Paper & Pen 將您的發票、折讓單與借項通知單轉換為 PINT OM XML，並逐一依阿曼官方 schematron 進行驗證。準備度檢查會列出您的紀錄中需要修正的內容。通過驗證的發票只開立一次，具有自己的 UUID，並保持凍結。",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "阿曼官方 schematron 驗證",
+    "只開立一次，隨後凍結"
+  ],
+  "features": [
+    {
+      "icon": "doc",
+      "title": "PINT OM XML",
+      "desc": "每張發票都會成為一張 PINT OM 電子發票，也就是阿曼 Fawtara 使用的 UBL 2.1 XML 格式。"
+    },
+    {
+      "icon": "shield",
+      "title": "阿曼官方 schematron",
+      "desc": "XML 依 OpenPeppol 官方 PINT OM schematron 規則（1.0.1 版）進行驗證。"
+    },
+    {
+      "icon": "check",
+      "title": "附修正指引的準備度檢查",
+      "desc": "掃描您的公司、客戶與項目資料，列出每一處缺漏以及在哪裡修正。"
+    },
+    {
+      "icon": "lock",
+      "title": "只開立一次，UUID v5",
+      "desc": "一張發票只開立一次，具有第 5 版 UUID。重試或連點兩下都不會產生第二張。"
+    },
+    {
+      "icon": "invoice",
+      "title": "開立即凍結",
+      "desc": "開立之後，任何人都不能變更金額、作廢或刪除該發票。"
+    },
+    {
+      "icon": "receipt",
+      "title": "折讓單與借項通知單",
+      "desc": "從原發票產生通知單。通知單附有編號、日期、UUID 與原因代碼。"
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "開立之前",
+      "title": "趁還能修正時找出缺漏",
+      "body": "大多數電子發票退件的原因來自主檔資料，而不是合計金額：客戶營業稅號格式錯誤、缺少賣方地址、項目沒有 HS 編碼或營業活動代碼。準備度檢查依 PINT OM 規則掃描您的紀錄，並依需要修正的紀錄將每處缺漏分組，這樣您只需修正一次產品，所有含該產品的發票行就都沒有問題了。未通過檢查的發票不會開立。它保留缺漏，您仍可以編輯。",
+      "items": [
+        "缺漏依公司、客戶與項目分組",
+        "每處缺漏都指明需要修正的紀錄",
+        "未通過的發票仍是可更正的草稿"
+      ]
+    },
+    {
+      "eyebrow": "開立之時",
+      "title": "一張發票，一個 UUID，之後不可修改",
+      "body": "在 Fawtara 下，已開立的發票不能作廢或修改。Paper & Pen 遵循同樣的規則。發票通過檢查後，以第 5 版 UUID 開立，其 XML 隨發票一起儲存。此後金額、明細行與客戶都被鎖定，發票不能作廢或刪除。收款仍照常入帳。",
+      "items": [
+        "第 5 版 UUID 儲存在發票上",
+        "XML 隨已開立的發票一起儲存",
+        "金額鎖定，不能作廢，不能刪除"
+      ]
+    },
+    {
+      "eyebrow": "情況變動時",
+      "title": "以折讓單或借項通知單更正",
+      "body": "要減少已開立發票的金額，從該發票產生折讓單。要增加金額，從該發票產生借項通知單。Paper & Pen 依原發票填寫通知單：PINT OM 要求的編號、日期與 UUID。您選擇原因代碼：CAN 表示作廢或退貨，VAT 表示營業稅處理變更，VAL 表示金額變更，QTY 表示數量變更，或 OTH。通知單經過同樣的檢查，並適用同樣的只開立一次規則。",
+      "items": [
+        "折讓單 (381) 與借項通知單 (383)",
+        "自動填入原發票編號、日期與 UUID",
+        "原因代碼 CAN、VAT、VAL、QTY、OTH，提供英文與阿拉伯文"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Paper & Pen 會把我的發票傳送給阿曼稅務局嗎？",
+      "a": "沒有任何軟體直接傳送給稅務局。在 Fawtara 下，由經認證的服務供應商接收您的電子發票，進行交付並向稅務局申報。Paper & Pen 產生並驗證服務供應商接收的 PINT OM XML。稅務局公布經認證服務供應商的名單。"
+    },
+    {
+      "q": "它涵蓋哪些單據？",
+      "a": "發票、折讓單與借項通知單。每一張都產生為 PINT OM XML，依阿曼官方 schematron 驗證，並以自己的第 5 版 UUID 只開立一次。"
+    },
+    {
+      "q": "我以前的發票會怎樣？",
+      "a": "Paper & Pen 中的電子發票從為您的工作區設定的啟用日期開始。該日期之前開立的發票不會被變動，也不會被傳送，這與稅務局關於歷史發票無須提交的規定一致。"
+    },
+    {
+      "q": "發票開立後我還能修改嗎？",
+      "a": "不能。已開立的電子發票是凍結的：金額與明細行被鎖定，不能作廢或刪除。要更正，請從該發票產生折讓單或借項通知單。尚未通過檢查的發票仍可編輯。"
+    },
+    {
+      "q": "阿曼何時強制實施電子發票？",
+      "a": "依 Decision 189/2026，年度供應額超過 OMR 5,000,000 的企業為 2027年4月1日，其餘企業為 2027年10月1日。我們的阿曼電子發票指南說明門檻測試，並連結到官方文本。"
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "開始使用您的免費工作區",
+  "ctaSub": "銷售與開立發票永久免費。在您的 Fawtara 日期之前，依 PINT OM 規則檢查您的紀錄。"
+}
