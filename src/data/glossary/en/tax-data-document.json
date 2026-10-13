@@ -1,0 +1,44 @@
+{
+  "slug": "tax-data-document",
+  "term": "Tax data document",
+  "abbr": "TDD",
+  "category": "tax",
+  "short": "A tax data document is the structured report of an e-invoice that a service provider sends to the tax authority, separate from the invoice that goes to the buyer.",
+  "metaTitle": "What is a Tax Data Document (TDD)? · Paper & Pen",
+  "metaDescription": "A tax data document (TDD) is the report of an e-invoice that goes to the tax authority, not to the buyer. What it holds and who sends it.",
+  "definition": "In a five-corner e-invoicing model the invoice and the tax report travel separately. The invoice goes from the seller's provider to the buyer's provider. The tax data document is a second file that carries the tax-relevant content of that invoice to the tax authority. In Oman's PINT OM specification the tax data document is its own format. It holds a header, the reporting and receiving parties, the key invoice fields and a copy of the full source invoice or credit note. It is never exchanged between the seller and the buyer. The authority uses it to see transactions close to real time.",
+  "how": {
+    "title": "How a tax data document works",
+    "body": "When your provider accepts an invoice, it builds the tax data document from it. The document says whether it is a new submission, a resubmission or a request to disregard an earlier one, and whether the reporter is the sender or the receiver. It also states the scope: domestic, international inside the network, or international outside it. The provider sends it to the tax authority, which records the transaction. For an export or a buyer that is not yet on the network, the tax data document is still sent, even though the invoice reaches the buyer the usual way.",
+    "items": [
+      "Built by the service provider from an accepted invoice",
+      "Type: submit, resubmit or disregard",
+      "Reporter role: sender or receiver",
+      "Scope: domestic, international on or off the network",
+      "Carries a copy of the full source invoice"
+    ]
+  },
+  "matters": "You do not build the tax data document yourself, but it explains why a correct invoice matters so much. The tax authority sees what your provider reports, close to the time of the sale. Mistakes in the invoice reach the authority at once, and you correct them with a credit or debit note, not with an edit. Clean master data and correct tax categories on each line keep the reports right.",
+  "faqs": [
+    {
+      "q": "Does my customer see the tax data document?",
+      "a": "No. The tax data document goes only to the tax authority. Your customer receives the invoice itself, through their service provider or, if they are not on the network, the way you send invoices today. The two files carry the same transaction for two different readers."
+    },
+    {
+      "q": "Who sends the tax data document in Oman?",
+      "a": "The service provider sends it. Under the Oman model, the seller's provider (corner 2) reports to the Tax Authority (corner 5). Depending on the reporting duty, the issuer's side or the receiver's side can be the reporter, and the document records which one it is."
+    }
+  ],
+  "related": [
+    "e-invoicing",
+    "pint-om",
+    "five-corner-model",
+    "accredited-service-provider"
+  ],
+  "seeAlso": [
+    {
+      "href": "/e-invoicing/oman",
+      "label": "E-invoicing in Oman"
+    }
+  ]
+}

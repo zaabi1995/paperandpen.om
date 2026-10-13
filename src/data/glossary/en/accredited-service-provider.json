@@ -1,0 +1,45 @@
+{
+  "slug": "accredited-service-provider",
+  "term": "Accredited service provider",
+  "abbr": "ASP",
+  "category": "invoicing",
+  "short": "An accredited service provider is a company that a tax authority has approved to receive, validate, deliver and report a business's e-invoices on its behalf.",
+  "metaTitle": "What is an Accredited Service Provider (ASP)? · Paper & Pen",
+  "metaDescription": "An accredited service provider (ASP) validates, delivers and reports your e-invoices for the tax authority. What it does and how to choose one.",
+  "definition": "In e-invoicing models with several corners, your accounting software does not send invoices to the tax authority or to your buyer directly. It sends them to a service provider that the tax authority has approved. That provider checks each invoice against the official rules, delivers it to the buyer's provider, and sends the tax data to the tax authority. To be accredited, a provider must meet the authority's criteria and pass its technical tests. The authority publishes the list of accredited providers. In Oman, the Tax Authority keeps this list on the Fawtara portal, and a taxpayer links to one provider at a time.",
+  "how": {
+    "title": "How an accredited service provider works",
+    "body": "You sign up with a provider from the official list and link your tax registration to it on the tax authority portal. Your software then sends each new invoice to the provider, usually through an API or a file upload. The provider validates the invoice. If it passes, the provider delivers it to the buyer's provider and reports it to the tax authority, then returns a status to you. If it fails, you get the rule that it broke, and you correct and send again.",
+    "items": [
+      "Choose a provider from the tax authority list",
+      "Link your tax registration to it on the portal",
+      "Send each invoice from your software to the provider",
+      "The provider validates, delivers and reports the invoice",
+      "You receive an accepted or rejected status back"
+    ]
+  },
+  "matters": "Your provider sits between every invoice and your customer, so the choice affects your daily work. Compare how the provider connects to your software, where it keeps your data, how long it archives invoices, what it charges and how you can switch away later. Responsibility for a correct invoice stays with you, not with the provider, so clean records still matter. Paper & Pen builds and checks the PINT OM file that a provider receives.",
+  "faqs": [
+    {
+      "q": "Can I use more than one service provider in Oman?",
+      "a": "No. Under the Oman Tax Authority rules a taxpayer is linked to one service provider at a time. You link it through the Fawtara portal. You can disconnect and move to another provider later, and a provider cannot disconnect you without your approval."
+    },
+    {
+      "q": "Does the tax authority charge for e-invoicing?",
+      "a": "In Oman, no. The Tax Authority charges taxpayers no fee and does not set what providers charge. Each accredited provider sets its own price, for example a subscription, a fee per invoice or another model, so compare offers before you sign."
+    }
+  ],
+  "related": [
+    "e-invoicing",
+    "peppol",
+    "five-corner-model",
+    "tax-data-document",
+    "service-metadata-publisher"
+  ],
+  "seeAlso": [
+    {
+      "href": "/e-invoicing/oman",
+      "label": "E-invoicing in Oman"
+    }
+  ]
+}

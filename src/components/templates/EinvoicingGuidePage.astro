@@ -1,0 +1,188 @@
+---
+/*
+ * E-INVOICING GUIDE PAGE (/e-invoicing/<country>/).
+ *
+ * Built on the CountryVatPage rule: a reader can check every claim. Each fact,
+ * each row of the flow table and each guide section that states a rule links
+ * to a numbered source at the foot of the page. The guide is long-form, so its
+ * sections render as plain prose blocks, not as FeatureSplit product panels.
+ *
+ * Headings come from the entry (factsTitle, flows.title, guide[].title) so one
+ * translated JSON carries the whole page; only the shared table and source
+ * labels come from the `vat.*` UI keys every locale already has.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/blocks/Breadcrumbs.astro';
+import PageHero from '@/components/blocks/PageHero.astro';
+import FaqAccordion from '@/components/blocks/FaqAccordion.astro';
+import RelatedLinks from '@/components/blocks/RelatedLinks.astro';
+import CtaBand from '@/components/blocks/CtaBand.astro';
+import { useTranslations, localizePath, LOCALE_META, type Locale } from '@/i18n';
+import { labelFor } from '@/lib/links';
+import { graph, organization, faqPage, breadcrumbList, techArticle } from '@/lib/schema';
+
+interface Props { locale: Locale; data: any }
+const { locale, data } = Astro.props;
+const t = useTranslations(locale);
+
+const path = `/e-invoicing/${data.slug}`;
+const parent = { href: `/vat/${data.slug}`, name: await labelFor(`/vat/${data.slug}`, locale, t) };
+const crumbs = [
+  { name: t('nav.home'), url: '/' },
+  { name: parent.name, url: parent.href },
+  { name: data.title, url: path },
+];
+const related = await Promise.all(
+  (data.related || []).map(async (href: string) => ({ href, title: await labelFor(href, locale, t) }))
+);
+
+const jsonld = [
+  graph(
+    organization(),
+    techArticle({
+      headline: data.title,
+      description: data.metaDescription,
+      url: localizePath(path, locale),
+      locale: LOCALE_META[locale].htmlLang,
+    }),
+    breadcrumbList(crumbs, locale)
+  ),
+];
+if (data.faqs?.length) jsonld.push(graph(faqPage(data.faqs)));
+---
+
+<BaseLayout {locale} {path} title={data.metaTitle} description={data.metaDescription} keywords={data.keywords} {jsonld}>
+  <Breadcrumbs
+    {locale}
+    crumbs={[{ name: t('nav.home'), href: '/' }, { name: parent.name, href: parent.href }, { name: data.title }]}
+  />
+
+  <PageHero
+    {locale}
+    as="h1"
+    accent="copper"
+    eyebrow={data.heroEyebrow}
+    title={data.heroTitle}
+    subtitle={data.heroSubtitle}
+    bullets={data.heroBullets}
+    secondaryCta={{ href: '/features/e-invoicing', label: await labelFor('/features/e-invoicing', locale, t) }}
+  />
+
+  <section class="band band-surface" aria-labelledby="einv-facts">
+    <div class="container-wide">
+      <p class="eyebrow">{t('vat.factsEyebrow')}</p>
+      <h2 id="einv-facts" class="mt-3 font-display text-display-sm text-ink-500">{data.factsTitle}</h2>
+      <p class="mt-3 text-[15px] text-ink-500/70" dir="auto">{data.updated}</p>
+      <div class="mt-10 overflow-x-auto">
+        <table class="w-full min-w-[36rem] border-collapse text-start">
+          <caption class="sr-only">{data.factsTitle}</caption>
+          <thead>
+            <tr class="border-b border-ink-500">
+              <th scope="col" class="py-3 pe-6 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('vat.colItem')}</th>
+              <th scope="col" class="py-3 pe-6 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('vat.colValue')}</th>
+              <th scope="col" class="py-3 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('vat.colDetail')}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.facts.map((f: any) => (
+              <tr class="border-b border-ink-200 align-top">
+                <th scope="row" class="py-5 pe-6 text-start font-semibold text-ink-500">{f.label}</th>
+                <td class="py-5 pe-6 font-mono text-lg font-semibold text-ink-500">{f.value}</td>
+                <td class="py-5 text-[15px] leading-relaxed text-ink-500/80">
+                  {f.note}
+                  <a href={`#source-${f.source}`} class="ms-1 whitespace-nowrap font-semibold text-ink-500">[{f.source}]</a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  {data.guide.map((g: any, i: number) => (
+    <section class={`band ${i % 2 === 0 ? 'band-paper' : 'band-surface'}`} aria-labelledby={`einv-g${i + 1}`}>
+      <div class="container-narrow">
+        <h2 id={`einv-g${i + 1}`} class="font-display text-display-sm text-ink-500">{g.title}</h2>
+        {g.body.split('\n\n').map((para: string, j: number) => (
+          <p class="mt-6 max-w-[68ch] text-lg leading-relaxed text-ink-500/85">
+            {para}
+            {j === g.body.split('\n\n').length - 1 && (g.sources || []).map((n: number) => (
+              <a href={`#source-${n}`} class="ms-1 font-semibold text-ink-500">[{n}]</a>
+            ))}
+          </p>
+        ))}
+        {g.items?.length > 0 && (
+          <ul class="mt-8 max-w-[68ch] space-y-3">
+            {g.items.map((item: string) => (
+              <li class="flex gap-4 border-t border-ink-200 pt-3 text-[15px] leading-relaxed text-ink-500">
+                <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-copper-400"></span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </section>
+  ))}
+
+  <section class="band band-peri" aria-labelledby="einv-flows">
+    <div class="container-wide">
+      <p class="eyebrow-ink">{t('vat.einvEyebrow')}</p>
+      <h2 id="einv-flows" class="mt-3 font-display text-display-sm text-ink-500">{data.flows.title}</h2>
+      <p class="mt-6 max-w-[68ch] text-lg leading-relaxed text-ink-500/85">{data.flows.intro}</p>
+      <div class="mt-10 overflow-x-auto">
+        <table class="w-full min-w-[40rem] border-collapse text-start">
+          <caption class="sr-only">{data.flows.title}</caption>
+          <thead>
+            <tr class="border-b border-ink-500">
+              {data.flows.columns.map((c: string) => (
+                <th scope="col" class="py-3 pe-6 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{c}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {data.flows.rows.map((r: any) => (
+              <tr class="border-b border-ink-200 align-top">
+                <th scope="row" class="py-5 pe-6 text-start font-semibold text-ink-500">{r.label}</th>
+                <td class="py-5 pe-6 font-mono text-[15px] font-semibold text-ink-500" dir="ltr">{r.flow}</td>
+                <td class="py-5 text-[15px] leading-relaxed text-ink-500/80">
+                  {r.detail}
+                  <a href={`#source-${r.source}`} class="ms-1 whitespace-nowrap font-semibold text-ink-500">[{r.source}]</a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  {data.faqs?.length > 0 && (
+    <FaqAccordion title={t('faqSection.title')} eyebrow={t('faqSection.eyebrow')} faqs={data.faqs} band="sky" />
+  )}
+
+  <section class="band band-surface band-tight" aria-labelledby="einv-sources">
+    <div class="container-narrow">
+      <h2 id="einv-sources" class="font-display text-2xl text-ink-500 md:text-3xl">{t('vat.sourcesTitle')}</h2>
+      <p class="mt-4 max-w-[68ch] text-[15px] leading-relaxed text-ink-500/75">{t('vat.sourcesNote')}</p>
+      <ol class="mt-8 space-y-5">
+        {data.sources.map((s: any) => (
+          <li id={`source-${s.n}`} class="border-t border-ink-200 pt-4 text-[15px] leading-relaxed text-ink-500 scroll-mt-28">
+            <span class="font-mono text-sm text-ink-500/60" dir="ltr">[{s.n}]</span>
+            <span class="ms-2">{s.label}</span>
+            <span class="text-ink-500/70">, {s.publisher}, {s.year}. </span>
+            <a href={s.url} rel="nofollow noopener" target="_blank" class="break-all font-semibold text-ink-500">{s.url}</a>
+          </li>
+        ))}
+      </ol>
+      <p class="mt-8 max-w-[68ch] text-[15px] leading-relaxed text-ink-500/75">
+        {t('vat.authorityNote')}
+        <a href={data.authority.url} rel="nofollow noopener" target="_blank" class="font-semibold text-ink-500">{data.authority.name}</a>.
+      </p>
+    </div>
+  </section>
+
+  <RelatedLinks {locale} title={t('related.title')} links={related} band="tint" />
+  <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} />
+</BaseLayout>

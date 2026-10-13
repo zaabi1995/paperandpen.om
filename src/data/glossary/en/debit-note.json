@@ -30,6 +30,10 @@
     {
       "q": "What is the difference between a debit note and an invoice?",
       "a": "An invoice is the primary document requesting payment for goods or services provided. A debit note is a supplementary document used to adjust the value of that original invoice after the fact. You only use a debit note to correct an underbilling mistake or to formally request a credit from a supplier for returned or damaged items."
+    },
+    {
+      "q": "What must a debit note carry under Oman e-invoicing?",
+      "a": "Under PINT OM a debit note uses document type 383. It names the original invoice by its number, date and UUID, and it carries a reason code: CAN, VAT, VAL, QTY or OTH. You cannot edit an issued e-invoice, so a debit note is the way to raise the amount after issue."
     }
   ],
   "related": [
@@ -46,6 +50,10 @@
     {
       "href": "/invoicing/credit-notes",
       "label": "Credit Notes"
+    },
+    {
+      "href": "/e-invoicing/oman",
+      "label": "E-invoicing in Oman"
     }
   ]
 }

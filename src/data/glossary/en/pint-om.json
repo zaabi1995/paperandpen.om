@@ -1,0 +1,48 @@
+{
+  "slug": "pint-om",
+  "term": "PINT OM",
+  "category": "invoicing",
+  "short": "PINT OM is the Oman version of the Peppol International invoice format, the XML structure and rule set that every e-invoice under Oman's Fawtara programme must follow.",
+  "metaTitle": "What is PINT OM? Oman's E-invoice Format · Paper & Pen",
+  "metaDescription": "PINT OM is the Peppol invoice format for Oman: UBL XML plus Oman rules such as the transaction type, UUID v5, HS and ISIC codes and note reasons.",
+  "definition": "PINT stands for Peppol International. It is a shared invoice model that each country can extend with its own rules. PINT OM is the extension for Oman, and the Oman Tax Authority maintains it. It covers three documents: the standard billing invoice and credit note, the self-billed invoice for imports, and the tax data document that service providers report to the Tax Authority. A PINT OM file is UBL 2.1 XML. The rules check both the structure and the Oman content, such as the seller VAT number format, the tax category on each line and the codes that identify goods and activities.",
+  "how": {
+    "title": "How PINT OM works",
+    "body": "Your software maps each invoice to the PINT OM fields and writes the XML. It then checks the file against the official schematron rules. Shared Peppol rules check the structure. Oman rules check the local content. A file that breaks a rule is rejected with the rule number, so you know which field to fix. The checked file goes to your accredited service provider, which checks it again before it delivers the invoice and reports it.",
+    "items": [
+      "Map the invoice data to the PINT OM fields",
+      "Write the file as UBL 2.1 XML",
+      "Check it against the shared and the Oman schematron rules",
+      "Fix any field a rule names, then check again",
+      "Send the valid file to your service provider"
+    ]
+  },
+  "matters": "The format decides whether your invoice is accepted. Most PINT OM rejections come from master data: a buyer VAT number in the wrong form, a goods line with no HS code, or an item with no activity code. If you know the rules early, you can fix your customer and item records before your start date, not invoice by invoice after it. Paper & Pen builds PINT OM XML and checks it with the official Oman schematron.",
+  "faqs": [
+    {
+      "q": "What does a PINT OM invoice need that a normal invoice does not?",
+      "a": "It needs a unique UUID, version 5, and the time of issue. It needs a transaction type that says what kind of invoice it is, a tax category on every line, an HS code for goods lines and an activity code for items. Credit and debit notes need a reason code and the number, date and UUID of the original invoice."
+    },
+    {
+      "q": "Where are the official PINT OM rules?",
+      "a": "OpenPeppol publishes the specifications, the code lists and the rules on its documentation site, and the Oman Tax Authority maintains the Oman content. The Tax Authority FAQ points there. Our Oman e-invoicing guide links to the current version and its release notes."
+    }
+  ],
+  "related": [
+    "peppol",
+    "e-invoicing",
+    "uuid",
+    "tax-data-document",
+    "self-billing"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/e-invoicing",
+      "label": "PINT OM e-invoices"
+    },
+    {
+      "href": "/e-invoicing/oman",
+      "label": "E-invoicing in Oman"
+    }
+  ]
+}

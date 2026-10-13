@@ -1,0 +1,48 @@
+{
+  "slug": "peppol",
+  "term": "Peppol",
+  "category": "invoicing",
+  "short": "Peppol is an international network and set of document standards that lets businesses exchange e-invoices and other documents between their software through certified service providers.",
+  "metaTitle": "What is Peppol? · Paper & Pen",
+  "metaDescription": "Peppol is the network and the standards that move e-invoices between businesses through certified service providers. How it works and who uses it.",
+  "definition": "Peppol (Pan-European Public Procurement Online) started in European public procurement and is now used in many countries. It has two parts. The first is a set of document formats, built on UBL XML, so that an invoice made in one system reads correctly in another. The second is a delivery network. You do not connect to the network yourself: you use a service provider (an access point), and your buyer uses theirs. The providers find each other through a lookup service and pass the document across. OpenPeppol, a non-profit association, sets the rules. Each country that joins can add its own national rules on top of the shared format.",
+  "how": {
+    "title": "How Peppol works",
+    "body": "Every business on the network has a participant identifier, often based on its tax number. When you send an invoice, your software passes the structured file to your service provider. The provider looks up the buyer's identifier in the directory to find which provider serves that buyer and what documents it accepts. It then sends the file to that provider over a secure, certified connection. The receiving provider delivers the invoice to the buyer's software. In countries with tax reporting, a copy of the tax data also goes to the tax authority.",
+    "items": [
+      "Each business has a participant identifier",
+      "Your provider looks up the buyer in the directory",
+      "Providers exchange the file over a certified connection",
+      "The buyer's provider delivers it to the buyer's software",
+      "A national rule set can add country fields and checks"
+    ]
+  },
+  "matters": "Peppol matters because more tax authorities choose it as the base for national e-invoicing. When your country joins, your invoices must leave your software in the Peppol format for that country, and your choice of service provider becomes part of your invoicing setup. A business that keeps clean customer tax numbers and item data finds the switch much easier. Paper & Pen builds e-invoices in PINT OM, the Peppol format for Oman.",
+  "faqs": [
+    {
+      "q": "Do I need to join Peppol myself?",
+      "a": "No. A business does not connect to Peppol directly. You choose a certified service provider, and the provider connects to the network for you. Your software sends the invoice to the provider, and the provider handles the lookup, the delivery to the buyer's provider and, where the country requires it, the report to the tax authority."
+    },
+    {
+      "q": "Is Peppol only for Europe?",
+      "a": "No. Peppol began in European public procurement, but countries outside Europe now use it, including Singapore, Australia, Japan, Malaysia and Oman. Each country can add its own rules on top of the shared format, so an invoice must follow the version for the country where it is issued."
+    }
+  ],
+  "related": [
+    "e-invoicing",
+    "pint-om",
+    "accredited-service-provider",
+    "five-corner-model",
+    "service-metadata-publisher"
+  ],
+  "seeAlso": [
+    {
+      "href": "/e-invoicing/oman",
+      "label": "E-invoicing in Oman"
+    },
+    {
+      "href": "/features/e-invoicing",
+      "label": "PINT OM e-invoices"
+    }
+  ]
+}

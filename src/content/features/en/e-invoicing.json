@@ -1,0 +1,89 @@
+{
+  "locale": "en",
+  "slug": "e-invoicing",
+  "order": 6,
+  "title": "E-invoicing for Oman",
+  "metaTitle": "Oman E-invoicing (PINT OM) Software · Paper & Pen",
+  "metaDescription": "Paper & Pen builds PINT OM XML, checks it with the official Oman schematron, issues once with a UUID v5 and freezes the issued invoice. For Fawtara.",
+  "keywords": "e-invoicing software oman, fawtara software, pint om xml, oman e-invoice, oman schematron validation, credit note oman e-invoicing, debit note oman",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-invoices that pass the <em class=\"text-copper-400 not-italic\">Oman rules</em> before they leave",
+  "heroSubtitle": "Paper & Pen turns your invoices, credit notes and debit notes into PINT OM XML and checks each one against the official Oman schematron. A readiness check lists what to fix in your records. An invoice that passes is issued once, with its own UUID, and stays frozen.",
+  "heroBullets": [
+    "PINT OM 1.0.1 XML",
+    "Official Oman schematron check",
+    "Issued once, then frozen"
+  ],
+  "features": [
+    { "icon": "doc", "title": "PINT OM XML", "desc": "Each invoice becomes a PINT OM e-invoice: the UBL 2.1 XML format that Oman's Fawtara uses." },
+    { "icon": "shield", "title": "Official Oman schematron", "desc": "The XML is checked against the official OpenPeppol PINT OM schematron rules, version 1.0.1." },
+    { "icon": "check", "title": "Readiness check with fixes", "desc": "A scan of your company, customer and item records lists every gap and where to fix it." },
+    { "icon": "lock", "title": "Issue once, UUID v5", "desc": "An invoice is issued one time with a UUID version 5. A retry or a double click never makes a second one." },
+    { "icon": "invoice", "title": "Frozen when issued", "desc": "After issue, nobody can change the amounts, cancel the invoice or delete it." },
+    { "icon": "receipt", "title": "Credit and debit notes", "desc": "Make a note from the original invoice. It carries the number, date, UUID and a reason code." }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Before you issue",
+      "title": "Find the gaps while you can still fix them",
+      "body": "Most e-invoice rejections come from master data, not from totals: a customer VAT number in the wrong form, a missing seller address, an item with no HS code or activity code. The readiness check scans your records against the PINT OM rules and groups each gap by the record that needs the fix, so you fix a product once and every invoice line with it is clear. An invoice that fails the check is not issued. It keeps its gaps and you can still edit it.",
+      "items": [
+        "Gaps grouped by company, customer and item",
+        "Each gap names the record to fix",
+        "A failed invoice stays a draft you can correct"
+      ]
+    },
+    {
+      "eyebrow": "When you issue",
+      "title": "One invoice, one UUID, no later edits",
+      "body": "Under Fawtara an issued invoice cannot be cancelled or edited. Paper & Pen follows the same rule. When an invoice passes the check, it is issued with a UUID version 5, and its XML is stored with it. From then on the amounts, the lines and the customer are locked, and the invoice cannot be cancelled or deleted. Payments still post as normal.",
+      "items": [
+        "UUID version 5 stored on the invoice",
+        "The XML is stored with the issued invoice",
+        "Amounts locked, no cancel, no delete"
+      ]
+    },
+    {
+      "eyebrow": "When something changes",
+      "title": "Correct with a credit note or a debit note",
+      "body": "To reduce an issued invoice, make a credit note from it. To increase it, make a debit note from it. Paper & Pen fills the note from the original invoice: the number, the date and the UUID that PINT OM requires. You pick the reason code: CAN for a cancellation or return, VAT for a change in VAT treatment, VAL for a change in value, QTY for a change in quantity, or OTH. The note gets the same check and the same issue-once rule.",
+      "items": [
+        "Credit note (381) and debit note (383)",
+        "Original number, date and UUID filled in",
+        "Reason codes CAN, VAT, VAL, QTY, OTH in English and Arabic"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Paper & Pen send my invoices to the Oman Tax Authority?",
+      "a": "No software sends straight to the Tax Authority. Under Fawtara an accredited service provider receives your e-invoice, delivers it and reports it to the Tax Authority. Paper & Pen builds and checks the PINT OM XML that the provider receives. The Tax Authority publishes the list of accredited providers."
+    },
+    {
+      "q": "Which documents does it cover?",
+      "a": "Invoices, credit notes and debit notes. Each one is built as PINT OM XML, checked against the official Oman schematron and issued once with its own UUID version 5."
+    },
+    {
+      "q": "What happens to my older invoices?",
+      "a": "E-invoicing in Paper & Pen starts from the go-live date set for your workspace. Invoices issued before that date are not touched and are not sent, which matches the Tax Authority rule that historical invoices are not submitted."
+    },
+    {
+      "q": "Can I still edit an invoice after I issue it?",
+      "a": "No. An issued e-invoice is frozen: its amounts and lines are locked, and it cannot be cancelled or deleted. To correct it, make a credit note or a debit note from it. An invoice that has not passed the check yet stays editable."
+    },
+    {
+      "q": "When does e-invoicing become mandatory in Oman?",
+      "a": "On 1 April 2027 for businesses with annual supplies above OMR 5,000,000, and on 1 October 2027 for the rest, under Decision 189/2026. Our Oman e-invoicing guide explains the threshold test and links to the official texts."
+    }
+  ],
+  "related": [
+    "/e-invoicing/oman",
+    "/vat/oman",
+    "/features/invoicing",
+    "/invoicing/credit-notes",
+    "/invoicing/debit-notes",
+    "/glossary/pint-om"
+  ],
+  "ctaTitle": "Start your free workspace",
+  "ctaSub": "Sales and invoicing are free forever. Check your records against the PINT OM rules before your Fawtara date."
+}

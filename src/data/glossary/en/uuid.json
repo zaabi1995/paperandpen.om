@@ -1,0 +1,48 @@
+{
+  "slug": "uuid",
+  "term": "UUID",
+  "abbr": "UUID",
+  "category": "invoicing",
+  "short": "A UUID (universally unique identifier) is a 128-bit code that identifies one document or record so that no two documents anywhere share the same identifier.",
+  "metaTitle": "What is a UUID on an E-invoice? · Paper & Pen",
+  "metaDescription": "A UUID is a 128-bit identifier that marks one e-invoice uniquely. Why e-invoicing rules need it and why Oman's PINT OM asks for version 5.",
+  "definition": "A UUID is written as 32 hexadecimal characters in five groups, for example 8-4-4-4-12. The standard (RFC 4122) defines several versions. Version 4 is random. Version 5 is made from a name and a namespace with a hash, so the same input always gives the same UUID. On an e-invoice the UUID is separate from the invoice number. The number is for people and follows your sequence. The UUID is for systems: it lets a provider, a buyer and a tax authority recognise the same document without any doubt. Oman's PINT OM 1.0.1 requires a version 5 UUID on every invoice.",
+  "how": {
+    "title": "How a UUID works on an e-invoice",
+    "body": "When your software issues the invoice, it creates the UUID and writes it into the XML. The UUID then follows the document everywhere: to your provider, to the buyer and into the tax report. A credit note or debit note quotes the UUID of the invoice it corrects. If your software sends the same invoice twice after a network error, the provider sees the same UUID and knows it is a retry, not a second sale.",
+    "items": [
+      "Created once, when the invoice is issued",
+      "Written into the e-invoice XML",
+      "Quoted on every credit or debit note against the invoice",
+      "Lets a provider spot a retry of the same invoice",
+      "Stays with the document for the whole archive period"
+    ]
+  },
+  "matters": "A UUID protects you from two common e-invoicing problems: a duplicate invoice after a retry, and a note that cannot be matched to its invoice. Software that creates the UUID once and stores it with the issued invoice avoids both. Paper & Pen issues each e-invoice once with a version 5 UUID and keeps that UUID on the invoice.",
+  "faqs": [
+    {
+      "q": "Is the UUID the same as the invoice number?",
+      "a": "No. The invoice number follows your own sequence and is printed for people to read. The UUID is a long system identifier that no other document shares. An e-invoice carries both. A credit note quotes the original invoice number, its date and its UUID."
+    },
+    {
+      "q": "Why does Oman ask for UUID version 5?",
+      "a": "The PINT OM 1.0.1 release notes say that version 4, the random type, is no longer accepted and version 5 is required. A version 5 UUID comes from a fixed input through a hash, so the same document always gets the same identifier."
+    }
+  ],
+  "related": [
+    "e-invoicing",
+    "pint-om",
+    "invoice-number",
+    "credit-note"
+  ],
+  "seeAlso": [
+    {
+      "href": "/features/e-invoicing",
+      "label": "PINT OM e-invoices"
+    },
+    {
+      "href": "/e-invoicing/oman",
+      "label": "E-invoicing in Oman"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "five-corner-model",
+  "term": "Five-corner model",
+  "category": "invoicing",
+  "short": "The five-corner model is an e-invoicing setup in which the seller, the seller's provider, the buyer's provider, the buyer and the tax authority each take one role in the flow of every invoice.",
+  "metaTitle": "What is the Five-corner E-invoicing Model? · Paper & Pen",
+  "metaDescription": "The five-corner model adds the tax authority to the four-corner Peppol flow: seller, two service providers, buyer and the authority. How it works.",
+  "definition": "The four-corner model is the classic Peppol flow: the seller (corner 1) sends to its provider (corner 2), which delivers to the buyer's provider (corner 3), which passes the invoice to the buyer (corner 4). The five-corner model adds the tax authority as corner 5. A provider reports the tax data of each invoice to the authority as it passes through the network. Oman's Fawtara uses this model. The seller's software never talks to the authority itself, and the buyer and the seller can use different providers.",
+  "how": {
+    "title": "How the five-corner model works",
+    "body": "You issue the invoice in your software, which sends it to your provider. Your provider validates it against the national rules. It finds the buyer's provider in the directory and delivers the invoice there, and the buyer's provider passes it to the buyer's software. A provider reports the tax data to the authority. When the buyer is a consumer or is outside the network, corners 3 and 4 drop out: your provider still reports to the authority, and the buyer gets the invoice by another channel.",
+    "items": [
+      "Corner 1: the seller and its software",
+      "Corner 2: the seller's service provider",
+      "Corner 3: the buyer's service provider",
+      "Corner 4: the buyer",
+      "Corner 5: the tax authority, which receives the tax data"
+    ]
+  },
+  "matters": "The model decides who does what. Your software must produce a valid file, your provider must validate, deliver and report it, and you stay responsible for the content. Because the authority receives the data at once, an error cannot be fixed quietly later: it needs a credit or debit note. Knowing the corners also helps when you compare providers and plan how invoices reach customers who are not on the network yet.",
+  "faqs": [
+    {
+      "q": "What happens when my buyer is not on the network?",
+      "a": "Corners 3 and 4 are not used. Your provider still receives and validates the invoice and reports the tax data to the authority. You send the invoice to the buyer the way you do today. In Oman this applies to consumers, to buyers outside the current rollout and to exports."
+    },
+    {
+      "q": "Is the five-corner model the same as a clearance model?",
+      "a": "Not quite. In a clearance model the authority must approve each invoice before it reaches the buyer. In the five-corner model the provider validates and delivers the invoice, and the authority receives the tax data in the flow. The checks happen at the provider."
+    }
+  ],
+  "related": [
+    "e-invoicing",
+    "peppol",
+    "accredited-service-provider",
+    "tax-data-document",
+    "service-metadata-publisher"
+  ],
+  "seeAlso": [
+    {
+      "href": "/e-invoicing/oman",
+      "label": "E-invoicing in Oman"
+    }
+  ]
+}

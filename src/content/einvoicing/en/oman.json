@@ -1,0 +1,319 @@
+{
+  "locale": "en",
+  "slug": "oman",
+  "order": 1,
+  "country": "Oman",
+  "updated": "Checked against the Tax Authority texts on 14 October 2026.",
+  "title": "E-invoicing in Oman (Fawtara)",
+  "metaTitle": "E-invoicing in Oman: Fawtara Dates and Rules · Paper & Pen",
+  "metaDescription": "Fawtara starts 1 April 2027 above OMR 5 million and 1 October 2027 for the rest. The threshold test, PINT OM fields and notes, cited to the Tax Authority.",
+  "keywords": "e-invoicing oman, fawtara, fawtara oman, oman e-invoicing 2027, pint om, oman tax authority e-invoicing, accredited service provider oman, peppol oman, decision 189/2026",
+  "heroEyebrow": "Oman · Fawtara",
+  "heroTitle": "E-invoicing in Oman: <em class=\"text-copper-400 not-italic\">what starts in 2027</em>",
+  "heroSubtitle": "Decision 189/2026 makes e-invoicing mandatory for VAT-registered businesses in two groups, from 1 April 2027 and from 1 October 2027. This guide explains which date applies to you, how an invoice reaches the Tax Authority, what a PINT OM e-invoice must carry, and what to fix in your records now. Every rule links to the official text.",
+  "heroBullets": [
+    "1 Apr 2027: supplies above OMR 5 million",
+    "1 Oct 2027: OMR 5 million or less",
+    "Voluntary start allowed now"
+  ],
+  "authority": {
+    "name": "Oman Tax Authority (جهاز الضرائب)",
+    "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+  },
+  "factsTitle": "Fawtara at a glance",
+  "facts": [
+    {
+      "label": "Legal basis",
+      "value": "Decision 189/2026",
+      "note": "It amends the Executive Regulations of the VAT Law. The Tax Authority issued it on 3 August 2026, and the Official Gazette published it in issue 1660 on 9 August 2026. New Article 143 requires a tax invoice in an approved, secured electronic format with a unique number.",
+      "source": 1
+    },
+    {
+      "label": "First group",
+      "value": "1 April 2027",
+      "note": "Taxable persons whose annual supplies are above OMR 5,000,000.",
+      "source": 1
+    },
+    {
+      "label": "Second group",
+      "value": "1 October 2027",
+      "note": "Taxable persons whose annual supplies are OMR 5,000,000 or less.",
+      "source": 1
+    },
+    {
+      "label": "Before your date",
+      "value": "Voluntary",
+      "note": "The Tax Authority encourages businesses to test their systems and issue e-invoices before their mandatory date.",
+      "source": 2
+    },
+    {
+      "label": "Format",
+      "value": "XML, PINT OM",
+      "note": "XML is the mandatory structured format. The Oman specification is PINT OM version 1.0.1, a Peppol format that the Tax Authority maintains.",
+      "source": 4
+    },
+    {
+      "label": "B2B timing",
+      "value": "Real time",
+      "note": "A business-to-business e-invoice goes through the network when you issue it.",
+      "source": 2
+    },
+    {
+      "label": "B2C timing",
+      "value": "24 hours",
+      "note": "An invoice to a consumer, or to a buyer that is not VAT registered, is reported within 24 hours.",
+      "source": 2
+    },
+    {
+      "label": "Old invoices",
+      "value": "Not submitted",
+      "note": "Invoices issued before you start are not uploaded to the Tax Authority.",
+      "source": 2
+    },
+    {
+      "label": "Corrections",
+      "value": "Credit or debit note",
+      "note": "You cannot cancel or edit an issued e-invoice. You adjust it with an electronic credit note or debit note.",
+      "source": 2
+    }
+  ],
+  "guide": [
+    {
+      "title": "Which date applies to you",
+      "body": "The test uses your annual supplies as of 31 March 2027. Count your taxable supplies (leave out supplies of capital assets), add the goods and services under the reverse charge mechanism, and add your intra-GCC supplies.\n\nYou start on 1 April 2027 if either total is above OMR 5,000,000: your supplies from 1 April 2026 to 31 March 2027, or your expected supplies from 1 April 2027 to 31 March 2028. If neither total is above OMR 5,000,000, you start on 1 October 2027. A non-resident counts its supplies in Oman only. A VAT group is tested as one group, not member by member. The Tax Authority also has an online rollout check: you enter your VAT number and your supply bands.",
+      "items": [
+        "Include: taxable supplies, reverse charge supplies, intra-GCC supplies",
+        "Leave out: supplies of capital assets",
+        "Two windows: the 12 months to 31 March 2027, and the 12 months from 1 April 2027",
+        "Either window above OMR 5,000,000 means 1 April 2027"
+      ],
+      "sources": [
+        2,
+        6
+      ]
+    },
+    {
+      "title": "How an invoice reaches the Tax Authority",
+      "body": "Fawtara uses a five-corner model. Corner 1 is you, the seller. Corner 2 is your accredited service provider. Corner 3 is your buyer's service provider, corner 4 is your buyer, and corner 5 is the Tax Authority. Your software never sends to the Tax Authority directly. It sends the e-invoice to your provider.\n\nYour provider checks the invoice against the official Oman schematron rules, delivers it to the buyer's provider on the Peppol network, and sends a tax data document to the Tax Authority. You link to one provider at a time through the Fawtara portal, and you can change provider later. The compliance of the invoice stays your responsibility.",
+      "items": [
+        "C1 seller, C2 seller's provider, C3 buyer's provider, C4 buyer, C5 Tax Authority",
+        "The provider validates the invoice, not the Tax Authority",
+        "One provider at a time, linked on the Fawtara portal",
+        "The responsibility for a correct invoice stays with you"
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "What a PINT OM e-invoice must carry",
+      "body": "PINT OM adds Oman rules on top of the Peppol invoice. Most rejections come from missing master data, not from the invoice total. Check these fields in your records first.",
+      "items": [
+        "A unique invoice UUID, version 5, and the time of issue",
+        "An issue date that is not in the future in Muscat time",
+        "Seller VAT number in the form OM plus 10 digits, seller address and telephone",
+        "For a full tax invoice, the buyer's VAT number or identifier and address",
+        "VAT per line, and a tax category per line (S, E, O or Z)",
+        "Standard rate 5%; exempt and zero-rated lines need a reason code",
+        "For goods, a 12-digit Oman HS code and a goods or services flag per line",
+        "An ISIC activity code per item",
+        "Amounts to at most 3 decimals, in OMR for the VAT totals"
+      ],
+      "sources": [
+        5,
+        7
+      ]
+    },
+    {
+      "title": "Credit notes and debit notes",
+      "body": "After you issue an e-invoice, you do not cancel it, delete it or edit it. You issue an electronic credit note (to reduce it) or debit note (to increase it). The note names the original invoice by number, date and UUID, and it carries a reason code: CAN for a cancellation or return, VAT for a change in VAT treatment, VAL for a change in value, QTY for a change in quantity, or OTH for another reason. If you invoiced the wrong buyer, issue a credit note to that buyer and a new invoice to the right one.",
+      "items": [
+        "Credit note: document type 381",
+        "Debit note: document type 383",
+        "Original invoice number, date and UUID on every note",
+        "Reason codes: CAN, VAT, VAL, QTY, OTH"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    },
+    {
+      "title": "Choosing an accredited service provider",
+      "body": "The Tax Authority publishes the live list of accredited service providers. On 13 October 2026 the list had 36 entries, and it still grows. The Tax Authority charges taxpayers no fee and does not set provider prices, so each provider sets its own model: subscription, per invoice or another. Compare providers on what they connect to, where they keep your data, Arabic support, and how you switch away. Each provider states its own data residency on the list, and the Tax Authority does not verify it.",
+      "items": [
+        "Use only a provider on the Tax Authority's list",
+        "Ask how your software connects: API, file upload or a ready connector",
+        "Ask where your data is kept and how long it is archived",
+        "Check the switch-out steps before you sign"
+      ],
+      "sources": [
+        3,
+        2
+      ]
+    },
+    {
+      "title": "B2C sales and the QR code",
+      "body": "A sale to a consumer, or to any buyer that is not VAT registered, is reported to the Tax Authority within 24 hours. You give the buyer a human-readable invoice by any channel. That printed or PDF copy must carry a QR code, which you generate as the seller. The QR code is not part of the XML e-invoice. The Tax Authority points to Appendix D of the Peppol Oman Architecture for the QR content. That appendix is not public yet, so treat any QR layout you see now as unconfirmed.",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "title": "What to do now",
+      "body": "You do not need to wait for your date to get ready. The work that takes longest is master data, and you can start it today.",
+      "items": [
+        "Run the threshold test and write down your start date",
+        "Check every customer VAT number: OM plus 10 digits",
+        "Add the 12-digit HS code to each goods item and an ISIC code to each item",
+        "Map your units to UN/ECE unit codes (for example, a piece is H87)",
+        "Stop deleting or renumbering issued invoices: use credit notes",
+        "Choose a provider from the Tax Authority list and test early",
+        "Keep your own archive: the Tax Authority does not return invoice data"
+      ],
+      "sources": [
+        2,
+        5
+      ]
+    }
+  ],
+  "flows": {
+    "title": "Who sends what, case by case",
+    "intro": "The path of an invoice depends on who the buyer is. The table shows the corners for each case in the Tax Authority FAQ.",
+    "columns": [
+      "Case",
+      "Flow",
+      "What happens"
+    ],
+    "rows": [
+      {
+        "label": "Domestic B2B",
+        "flow": "C1 → C2 → C3 → C4, C5",
+        "detail": "Real time. Your provider delivers to the buyer's provider and reports the tax data to the Tax Authority.",
+        "source": 2
+      },
+      {
+        "label": "B2C, or buyer not VAT registered",
+        "flow": "C1 → C2 → C5",
+        "detail": "Reported within 24 hours. The buyer gets a human-readable invoice with a QR code.",
+        "source": 2
+      },
+      {
+        "label": "Buyer not yet in a rollout",
+        "flow": "C1 → C2 → C5",
+        "detail": "Your provider reports the tax data. You send the invoice to the buyer the way you do today.",
+        "source": 2
+      },
+      {
+        "label": "Seller not yet in a rollout",
+        "flow": "No change",
+        "detail": "A VAT-registered seller outside the current rollouts invoices as today. The buyer claims input VAT as today.",
+        "source": 2
+      },
+      {
+        "label": "Export",
+        "flow": "C1 → C2 → C5",
+        "detail": "You share the invoice with the foreign customer as today. The tax data goes through the network.",
+        "source": 2
+      },
+      {
+        "label": "Correction",
+        "flow": "Credit or debit note",
+        "detail": "The note follows the same path as the invoice it corrects.",
+        "source": 2
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "When does e-invoicing become mandatory in Oman?",
+      "a": "On 1 April 2027 for taxable persons with annual supplies above OMR 5,000,000, and on 1 October 2027 for those with OMR 5,000,000 or less. Decision 189/2026 sets both dates. Before your date, e-invoicing is voluntary and the Tax Authority encourages an early start."
+    },
+    {
+      "q": "How do I know if my business is in the April 2027 group?",
+      "a": "Add your taxable supplies (without capital assets), your reverse charge supplies and your intra-GCC supplies. If the total from 1 April 2026 to 31 March 2027 is above OMR 5,000,000, or you expect it to be above that from 1 April 2027 to 31 March 2028, you start on 1 April 2027. Otherwise you start on 1 October 2027."
+    },
+    {
+      "q": "Is a PDF invoice an e-invoice in Oman?",
+      "a": "No. The e-invoice is a structured XML file in the PINT OM format that goes through an accredited service provider. You can still print or send a PDF copy, but only the e-invoice counts as a valid tax invoice once your date starts."
+    },
+    {
+      "q": "Do I have to upload my old invoices?",
+      "a": "No. Invoices that you issued before you start e-invoicing are not submitted to the Tax Authority. Keep them in your own records as the VAT law requires."
+    },
+    {
+      "q": "What if my customer is not on Fawtara yet?",
+      "a": "You still submit the invoice to your service provider, and the provider sends the tax data document to the Tax Authority. You send the invoice to the customer the way you do today."
+    },
+    {
+      "q": "Does the Tax Authority charge for Fawtara?",
+      "a": "No. The Tax Authority charges taxpayers no fee and does not set what service providers charge. Each accredited provider sets its own price."
+    },
+    {
+      "q": "Are there penalties?",
+      "a": "The Tax Authority says that penalties apply under the VAT legislation after the mandate begins. It has not published a separate e-invoicing penalty table, so treat any specific amount you read elsewhere as unconfirmed."
+    }
+  ],
+  "related": [
+    "/vat/oman",
+    "/features/e-invoicing",
+    "/glossary/peppol",
+    "/glossary/pint-om",
+    "/glossary/five-corner-model",
+    "/glossary/accredited-service-provider",
+    "/invoicing/credit-notes"
+  ],
+  "ctaTitle": "Get your records ready for Fawtara",
+  "ctaSub": "Paper & Pen builds PINT OM e-invoices and checks them against the official Oman rules. Start with a free workspace.",
+  "sources": [
+    {
+      "n": 1,
+      "label": "Decision 189/2026 amending the Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, text on Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 2,
+      "label": "Fawtara e-invoicing FAQ, last updated 30 September 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
+    },
+    {
+      "n": 3,
+      "label": "Accredited service providers (live list)",
+      "publisher": "Oman Tax Authority, Fawtara portal",
+      "year": "2026",
+      "url": "https://fawtara.taxoman.gov.om/accredited-service-providers"
+    },
+    {
+      "n": 4,
+      "label": "PINT OM specifications, version 1.0.1",
+      "publisher": "OpenPeppol, maintained by the Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/"
+    },
+    {
+      "n": 5,
+      "label": "PINT OM jurisdiction rules (IBR-nnn-OM)",
+      "publisher": "OpenPeppol, maintained by the Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/trn-invoice/rule/PINT-jurisdiction-aligned-rules/"
+    },
+    {
+      "n": 6,
+      "label": "Potential rollout checking",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/potential-rollout-checking"
+    },
+    {
+      "n": 7,
+      "label": "PINT OM 1.0.1 release notes",
+      "publisher": "OpenPeppol, maintained by the Oman Tax Authority",
+      "year": "2026",
+      "url": "https://docs.peppol.eu/poac/om/pint-om/specialized-release-notes/"
+    }
+  ]
+}

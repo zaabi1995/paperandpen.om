@@ -868,7 +868,7 @@ def expected_counts() -> tuple[int, int, dict[str, set[str]]]:
         "features": "/features", "documents": "/invoicing", "industries": "/industries",
         "usecases": "/use-cases", "comparisons": "/compare", "tools": "/tools",
         "templates": "/invoice-templates", "alternatives": "/alternatives",
-        "vat": "/vat", "blog": "/blog",
+        "vat": "/vat", "einvoicing": "/e-invoicing", "blog": "/blog",
     }
     built: dict[str, set[str]] = {}
     for source in sorted(routes.rglob("*.astro")):

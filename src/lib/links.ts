@@ -21,6 +21,8 @@ const COLLECTION_BASE: Record<string, string> = {
   templates: '/invoice-templates',
   alternatives: '/alternatives',
   blog: '/blog',
+  vat: '/vat',
+  einvoicing: '/e-invoicing',
 };
 
 let cache: Map<Locale, Map<string, string>> | null = null;

@@ -1,0 +1,44 @@
+{
+  "slug": "service-metadata-publisher",
+  "term": "Service metadata publisher",
+  "abbr": "SMP",
+  "category": "invoicing",
+  "short": "A service metadata publisher is the directory service in an e-invoicing network that tells a sending provider which provider serves a buyer and which documents that buyer can receive.",
+  "metaTitle": "What is a Service Metadata Publisher (SMP)? · Paper & Pen",
+  "metaDescription": "A service metadata publisher (SMP) is the e-invoicing directory that tells a provider where to deliver an invoice. How the lookup works.",
+  "definition": "Before a service provider can deliver an e-invoice, it must know where the buyer is on the network. The service metadata publisher holds that information. For each participant identifier it lists the provider that receives documents for that business, the document types it accepts and the technical address to send to. In the wider Peppol network, many SMPs exist. In Oman, the Tax Authority runs one central SMP, and accredited providers may not run their own. Providers connect to it with certificate-based, mutually authenticated connections.",
+  "how": {
+    "title": "How a service metadata publisher works",
+    "body": "Your provider takes the buyer's participant identifier from the invoice. It asks the network which SMP holds that identifier, then asks the SMP for the buyer's details. The SMP answers with the receiving provider, the accepted document types and the endpoint. Your provider then delivers the invoice to that endpoint. When a business links to a new provider, its SMP entry changes, so new invoices go to the new provider.",
+    "items": [
+      "Take the buyer's participant identifier from the invoice",
+      "Find the SMP that holds the identifier",
+      "Read the receiving provider and accepted documents",
+      "Deliver the invoice to the listed endpoint",
+      "Update the entry when a business changes provider"
+    ]
+  },
+  "matters": "The lookup only works if the identifier on your invoice is right. In Oman the participant identifier is based on the buyer's VAT number, so a wrong or badly formatted VAT number means the invoice cannot find its buyer. That is one more reason to check every customer tax number before your e-invoicing start date.",
+  "faqs": [
+    {
+      "q": "Does a business need its own SMP?",
+      "a": "No. A business never runs an SMP. Its service provider registers it in the directory. In Oman the Tax Authority runs the only SMP, and accredited providers connect to it. Your part is to give your provider a correct VAT number and keep your customer records accurate."
+    },
+    {
+      "q": "What is the difference between an SMP and a service provider?",
+      "a": "The service provider sends and receives the documents. The SMP only answers the question of where to send them. Think of the SMP as the directory and the provider as the post office that uses it."
+    }
+  ],
+  "related": [
+    "peppol",
+    "accredited-service-provider",
+    "five-corner-model",
+    "e-invoicing"
+  ],
+  "seeAlso": [
+    {
+      "href": "/e-invoicing/oman",
+      "label": "E-invoicing in Oman"
+    }
+  ]
+}

@@ -107,6 +107,41 @@ const vat = defineCollection({
   }),
 });
 
+/*
+ * E-invoicing guides (/e-invoicing/<country>/). Same rule as the VAT pages:
+ * every fact, every case in the flow table and every guide section that states
+ * a rule points at a numbered entry in `sources`, and the page renders the
+ * sources as real links. The section headings live in the entry, not in the UI
+ * dictionary, so one translated file carries the whole page.
+ */
+const einvoicing = defineCollection({
+  loader: dataLoader('einvoicing'),
+  schema: pageSchema.extend({
+    country: z.string(),
+    updated: z.string(),
+    authority: z.object({ name: z.string(), url: z.string().url() }),
+    factsTitle: z.string(),
+    facts: z.array(z.object({
+      label: z.string(), value: z.string(), note: z.string().optional(), source: z.number(),
+    })).min(1),
+    flows: z.object({
+      title: z.string(),
+      intro: z.string(),
+      columns: z.array(z.string()).length(3),
+      rows: z.array(z.object({ label: z.string(), flow: z.string(), detail: z.string(), source: z.number() })).min(1),
+    }),
+    guide: z.array(z.object({
+      title: z.string(),
+      body: z.string(),
+      items: z.array(z.string()).optional(),
+      sources: z.array(z.number()).optional(),
+    })).min(1),
+    sources: z.array(z.object({
+      n: z.number(), label: z.string(), publisher: z.string(), year: z.string(), url: z.string().url(),
+    })).min(1),
+  }),
+});
+
 // Comparison pages add a feature matrix
 const comparisons = defineCollection({
   loader: dataLoader('comparisons'),
@@ -160,4 +195,4 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { features, documents, industries, usecases, comparisons, tools, blog, templates, alternatives, vat };
+export const collections = { features, documents, industries, usecases, comparisons, tools, blog, templates, alternatives, vat, einvoicing };

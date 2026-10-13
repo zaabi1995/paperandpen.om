@@ -30,6 +30,10 @@
     {
       "q": "What happens if the supplier deregisters for VAT?",
       "a": "If a supplier cancels their tax registration, the self-billing agreement usually becomes invalid immediately. The supplier must notify the customer without delay. If the customer continues to issue self-billed tax invoices for an unregistered supplier, the customer may face penalties and lose the right to claim the associated input tax."
+    },
+    {
+      "q": "How does self-billing work under Oman e-invoicing?",
+      "a": "Under the Oman PINT OM rules, an import is reported with a self-billed invoice: the buyer in Oman issues it in place of the foreign supplier. It uses document type 389, or 261 for a self-billed credit note, under its own PINT OM self-billing format. An import of goods also needs the customs declaration number, the import date and the importer's customs identifier."
     }
   ],
   "related": [
@@ -47,6 +51,10 @@
     {
       "href": "/invoicing/invoices",
       "label": "Manage Invoices"
+    },
+    {
+      "href": "/e-invoicing/oman",
+      "label": "E-invoicing in Oman"
     }
   ]
 }

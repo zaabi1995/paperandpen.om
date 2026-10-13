@@ -5,15 +5,15 @@
   "country": "Oman",
   "title": "VAT in Oman",
   "metaTitle": "VAT in Oman: Rate, Thresholds, Invoices · Paper & Pen",
-  "metaDescription": "Oman's 5% VAT rate, the OMR 38,500 registration threshold and the twelve items a tax invoice must carry, each cited to the Tax Authority.",
-  "keywords": "vat oman, oman vat rate, oman vat registration threshold, oman tax invoice requirements, fawtara e-invoicing, oman tax authority",
+  "metaDescription": "Oman's 5% VAT rate, the OMR 38,500 threshold, what a tax invoice must carry and the Fawtara e-invoicing dates, each cited to the official text.",
+  "keywords": "vat oman, oman vat rate, oman vat registration threshold, oman tax invoice requirements, fawtara e-invoicing, oman e-invoicing 2027, decision 189/2026, oman tax authority",
   "heroEyebrow": "Oman",
   "heroTitle": "Invoicing under <em class=\"text-copper-400 not-italic\">Oman's VAT</em> rules",
-  "heroSubtitle": "The rate, the registration thresholds, what a tax invoice has to show and where e-invoicing stands. Every figure on this page is cited to the Oman Tax Authority's own published text.",
+  "heroSubtitle": "The rate, the registration thresholds, what a tax invoice has to show and when e-invoicing starts. Every figure on this page is cited to the official published text.",
   "heroBullets": [
     "5% standard rate",
     "OMR 38,500 to register",
-    "Fawtara announced, not yet live"
+    "Fawtara from 1 April 2027"
   ],
   "authority": {
     "name": "Oman Tax Authority (جهاز الضرائب)",
@@ -49,6 +49,12 @@
       "value": "OMR 500",
       "note": "Supplies under this value may use a simplified invoice, with the Tax Authority's approval.",
       "source": 3
+    },
+    {
+      "label": "E-invoicing (Fawtara)",
+      "value": "1 Apr 2027 / 1 Oct 2027",
+      "note": "Decision 189/2026 makes e-invoicing mandatory on 1 April 2027 for annual supplies above OMR 5,000,000, and on 1 October 2027 for OMR 5,000,000 or less. Before that it is voluntary.",
+      "source": 5
     }
   ],
   "invoiceFields": {
@@ -71,9 +77,9 @@
     "caveat": "The Tax Authority publishes the Executive Regulations in Arabic only. This list is a faithful reading of the official Arabic text, not an official English translation, so confirm the wording with your tax adviser before you rely on it."
   },
   "einvoicing": {
-    "status": "Announced and phased, not yet mandatory",
-    "body": "Oman's e-invoicing programme is called Fawtara. The Tax Authority describes a five-corner model in which invoices reach it through an accredited service provider, and sets out four phases: a pilot, an expansion, onboarding of smaller businesses, and full rollout. The Authority has not published the phase dates in English, and dates circulating in the press are not carried on its own pages. Treat any specific Fawtara deadline you read elsewhere as unconfirmed until the Tax Authority publishes it.",
-    "source": 4
+    "status": "Mandatory from 1 April 2027, voluntary now",
+    "body": "Oman's e-invoicing programme is called Fawtara. Decision 189/2026, published in Official Gazette issue 1660 on 9 August 2026, sets two dates: 1 April 2027 for taxable persons whose annual supplies are above OMR 5,000,000, and 1 October 2027 for those at OMR 5,000,000 or less. Until your date, e-invoicing is voluntary, and the Tax Authority encourages an early start. Invoices go in PINT OM XML through an accredited service provider, which delivers them to the buyer and reports them to the Tax Authority. Our Oman e-invoicing guide explains the threshold test and the rules.",
+    "source": 5
   },
   "sections": [
     {
@@ -89,13 +95,13 @@
     },
     {
       "eyebrow": "Preparing",
-      "title": "Getting ready for Fawtara without guessing dates",
-      "body": "You do not need a published deadline to be ready. Every e-invoicing regime that has gone live in the region has asked for the same underlying discipline: clean, complete customer records including tax numbers, an unbroken invoice sequence, tax treatment recorded per line rather than per invoice, and documents stored in a way you can retrieve on request. A business whose records already meet those four conditions has a short implementation ahead of it whenever the dates land. A business that does not will spend the notice period cleaning data instead.",
+      "title": "Getting ready for Fawtara before your date",
+      "body": "The dates are now set, so the work is to get your records ready. Fawtara asks for clean, complete customer records including tax numbers in the form OM plus 10 digits, an unbroken invoice sequence, tax treatment recorded per line, an HS code on each goods item and an activity code on each item, and documents you can retrieve on request. A business whose records already meet these conditions has a short implementation ahead. A business that does not will spend its notice period cleaning data.",
       "items": [
         "Complete customer records, tax numbers included",
         "One unbroken invoice sequence per series",
         "Tax treatment recorded line by line",
-        "Documents retrievable on request"
+        "HS and activity codes on your items"
       ]
     }
   ],
@@ -109,8 +115,8 @@
       "a": "When your annual supplies reach or are expected to reach OMR 38,500. You may register voluntarily from OMR 19,250. Both figures come from the Chairman's decision on registration thresholds rather than from the VAT Law itself, which is why they can change without the Law changing."
     },
     {
-      "q": "Is e-invoicing mandatory in Oman yet?",
-      "a": "Not yet. The Tax Authority has announced Fawtara, a phased five-corner e-invoicing model using accredited service providers, and describes four rollout phases. It has not published the phase dates in English on its own pages, so we do not state a date here. Check the Tax Authority's e-invoicing pages for the current position."
+      "q": "When is e-invoicing mandatory in Oman?",
+      "a": "From 1 April 2027 if your annual supplies are above OMR 5,000,000, and from 1 October 2027 if they are OMR 5,000,000 or less. Decision 189/2026 sets both dates. You may start voluntarily before your date. The Tax Authority FAQ explains how to count your supplies for the threshold."
     },
     {
       "q": "Can I issue an invoice in English in Oman?",
@@ -118,10 +124,11 @@
     }
   ],
   "related": [
+    "/e-invoicing/oman",
+    "/features/e-invoicing",
     "/glossary/value-added-tax",
     "/glossary/tax-invoice",
     "/glossary/input-vat",
-    "/invoicing/invoices",
     "/tools/oman-vat-calculator"
   ],
   "ctaTitle": "Invoice correctly in Oman, free",
@@ -154,6 +161,20 @@
       "publisher": "Oman Tax Authority",
       "year": "2026",
       "url": "https://tms.taxoman.gov.om/portal/e-invoicing"
+    },
+    {
+      "n": 5,
+      "label": "Decision 189/2026 amending the Executive Regulations of the VAT Law (Official Gazette 1660)",
+      "publisher": "Oman Tax Authority, text on Qanoon.om",
+      "year": "2026",
+      "url": "https://qanoon.om/p/2026/ta20260189/"
+    },
+    {
+      "n": 6,
+      "label": "Fawtara e-invoicing FAQ, last updated 30 September 2026",
+      "publisher": "Oman Tax Authority",
+      "year": "2026",
+      "url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/monthly-faq-s-september-"
     }
   ]
 }
