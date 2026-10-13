@@ -28,4 +28,18 @@ Live mode holds the fixed nonblocking lock `/run/lock/paperandpen-nginx-deploy.l
 
 Any installation, validation, reload, service-health, INT, TERM, or HUP failure stages and checksum-verifies both previous files before restoring them. It reloads the restored configuration only after every restore step and the restored `nginx -t` succeed. A failed restore or failed restored configuration test performs no reload and exits with critical status 90.
 
+The live transaction and its failure paths:
+
+<!-- Figure from bhd-doc-figures (mdxcn), src/pages/pnp-nginx-release.mdx. Edit the page and run pnpm fences; do not hand-edit the frame. -->
+
+```
++--------------------------------------- [ LIVE MODE ] ---------------------------------------+
+|                                                                                             |
+| lock → stage both files → timestamped backups → sha-256 check → install → nginx -t → reload |
+| any failure → stage and verify previous files → restore → restored nginx -t → reload        |
+| failed restore or failed restored test → no reload → exit 90                                |
+|                                                                                             |
++---------------------------------------------------------------------------------------------+
+```
+
 The wrapper does not change DNS and does not perform broad or recursive deletion.
