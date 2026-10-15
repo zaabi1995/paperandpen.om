@@ -6,6 +6,7 @@ import {
   normalizeSubdomainCandidate,
 } from '@/lib/api';
 import { useTranslations, type Locale } from '@/i18n';
+import { firstTouchPayload } from '@/lib/firstTouch';
 
 /*
  * The rail's standing facts, and they are now DECISIONS rather than trivia.
@@ -185,6 +186,8 @@ export default function SignupForm({ locale }: { locale: Locale }) {
         ownerName: form.companyName.trim(),
         planId: 'starter',
         modules: [...selected],
+        // Where this visitor first came from (BHD-664). Absent when unknown.
+        firstTouch: firstTouchPayload(),
       });
       if (!data?.success) {
         setError(data.message || t('signup.errors.generic'));

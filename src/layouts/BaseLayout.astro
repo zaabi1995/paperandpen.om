@@ -167,6 +167,12 @@ const scriptFont = SCRIPT_FONTS[locale];
     {!bare && <Footer locale={locale} />}
     {!bare && <StickyCta locale={locale} />}
 
+    {/* First touch (BHD-664): keep where this visitor first came from, once. The signup form sends it. */}
+    <script>
+      import { captureFirstTouch } from '@/lib/firstTouch';
+      captureFirstTouch();
+    </script>
+
     {/* Reveal-on-scroll (progressive enhancement) */}
     <script>
       const els = document.querySelectorAll('.reveal');
