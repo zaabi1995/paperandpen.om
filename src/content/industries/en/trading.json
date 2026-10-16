@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Run your trade on one clean ledger",
-  "ctaSub": "Start free with quoting and invoicing, then add Inventory and Accounting as your trade grows."
+  "ctaSub": "Start free with quoting and invoicing, then add Inventory and Accounting as your trade grows.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

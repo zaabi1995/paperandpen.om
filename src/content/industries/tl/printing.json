@@ -1,0 +1,109 @@
+{
+  "locale": "tl",
+  "slug": "printing",
+  "order": 16,
+  "title": "Printing at Stationery",
+  "metaTitle": "Software para sa Print Shop: Quotation, Trabaho at Invoice · Paper & Pen",
+  "metaDescription": "Mabilis mag-quote ng print job, subaybayan ang bawat trabaho mula artwork hanggang delivery, bilangin ang stock ng papel at mag-bill sa OMR na may 5% VAT. Gawa para sa print shop at stationer.",
+  "keywords": "software para sa print shop, software para sa printing business, pagsubaybay ng print job, software sa print quotation, billing para sa stationery shop, printing press erp, print estimating",
+  "heroEyebrow": "Para sa mga print shop at stationer",
+  "heroTitle": "Mula quotation hanggang <em class=\"text-copper-400 not-italic\">naimprenta at bayad na</em>",
+  "heroSubtitle": "Mag-quote ng print job sa ilang minuto, gawing trabaho ang aprubadong quotation, subaybayan ito sa produksyon at delivery, at i-invoice nang hindi nagre-retype ng kahit isang linya. Pinagsasama ng Paper & Pen ang mga trabaho, stock ng papel at libro mo sa iisang lugar.",
+  "heroBullets": [
+    "Quotation na nagiging trabaho sa isang click",
+    "Bawat trabaho, nasusubaybayan hanggang delivery",
+    "Papel at stock, binibilang habang ginagamit"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Mabilis na print quotation",
+      "desc": "Bumuo ng quotation mula sa price list mo, i-share ito sa WhatsApp o email, at i-convert ito kapag um-oo na ang customer."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Pagsubaybay ng trabaho",
+      "desc": "Nagiging production job ang bawat aprubadong order, kaya alam mo palagi kung ano ang pini-print, ano ang naghihintay at ano ang huli na."
+    },
+    {
+      "icon": "inventory",
+      "title": "Papel at stock",
+      "desc": "Bilangin ang papel, tinta at tapos na stationery ayon sa SKU at unit, at gumagalaw ang stock sa bawat benta o gamit."
+    },
+    {
+      "icon": "truck",
+      "title": "Delivery note",
+      "desc": "Iabot ang tapos na trabaho kasama ang delivery note at itago sa order ang pirmadong patunay."
+    },
+    {
+      "icon": "invoice",
+      "title": "Invoice na may VAT",
+      "desc": "Mag-bill sa OMR na may 5% VAT, o sa kahit anong currency at tax rate, diretso mula sa quotation o sa trabaho."
+    },
+    {
+      "icon": "users",
+      "title": "Kasaysayan ng customer",
+      "desc": "Makita ang bawat quotation, trabaho at bayad ng customer, kaya ilang segundo na lang ang paulit-ulit na order."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Mula quotation hanggang trabaho",
+      "title": "Iisang record mula sa unang quotation hanggang sa huling bayad",
+      "body": "Maraming kamay ang dinadaanan ng isang print job: nag-quote ang sales, inaprubahan ng customer, nag-print ang produksyon, may naghatid at nangolekta ang accounts. Sa Paper & Pen, iisang record ito mula simula hanggang dulo, kaya walang inuulit na pag-encode at walang nawawala sa pagitan ng mga mesa. I-convert ang aprubadong quotation sa invoice at production job sa isang hakbang.",
+      "items": [
+        "Nagiging trabaho ang aprubadong quotation",
+        "Nakikita ng produksyon ang susunod na ipi-print",
+        "Invoice mula sa parehong mga linya"
+      ]
+    },
+    {
+      "eyebrow": "Kaha at stock",
+      "title": "Benta ng stationery at stock ng papel sa iisang lugar",
+      "body": "Magbenta ng ballpen, notebook at printing sa kaha at hayaang kusang mag-update ang stock. Magtakda ng reorder point sa mga papel at tinta na hindi mo puwedeng maubusan, at makita kung magkano ang kinikita ng bawat customer at bawat produkto. Gawa sa Oman na may native na OMR at 5% VAT, at handa para sa kahit anong currency.",
+      "items": [
+        "Benta sa kaha na may resibo",
+        "Reorder point sa papel at tinta",
+        "Ulat ayon sa customer at produkto"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puwede ba akong mag-quote ng print job gamit ang sarili kong presyo?",
+      "a": "Oo. Idagdag ang mga produkto at serbisyo mo na may sarili mong presyo, saka bumuo ng quotation mula rito. May starter print catalogue na inihahanda para sa iyo pagka-sign up, at ine-edit mo ito para tumugma sa shop mo."
+    },
+    {
+      "q": "Masusubaybayan ko ba ang trabaho pagkatapos aprubahan ng customer?",
+      "a": "Oo. Sa module na Manufacturing, nagiging production job ang aprubadong order na masusundan mo hanggang matapos at maihatid."
+    },
+    {
+      "q": "Kaya ba nitong hawakan ang stock ng stationery?",
+      "a": "Oo. Binibilang ng module na Imbentaryo ang papel, tinta at stationery ayon sa SKU at unit, at gumagalaw ang stock sa bawat benta o gamit."
+    },
+    {
+      "q": "Puwede ba akong magpadala ng quotation at invoice sa WhatsApp?",
+      "a": "Oo. I-share ang kahit anong quotation, invoice o resibo sa WhatsApp o email bilang link o PDF."
+    },
+    {
+      "q": "Magkano ito?",
+      "a": "Libre habambuhay ang quotation, invoice, customer at bayad. Idagdag ang Manufacturing, Imbentaryo, CRM o Delivery kapag kailangan mo na at bayaran lang ang mga module na iyon."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Patakbuhin ang print shop mo mula sa iisang screen",
+  "ctaSub": "Magsimula sa libreng quotation at invoice, saka idagdag ang pagsubaybay ng trabaho at stock ng papel kapag handa ka na.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

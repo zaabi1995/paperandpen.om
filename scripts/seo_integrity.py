@@ -1175,12 +1175,12 @@ for locale in LIVE:
     for required in (compare_path, industries_path):
         if required not in indexable_paths:
             fail(f"required indexable hub is missing: {required}")
-    # Core locales list the whole set (7 comparisons, 15 industries). Any other
+    # Core locales list the whole set (7 comparisons, 18 industries). Any other
     # locale lists only what has been translated into it.
     def built_children(base: str, code: str) -> int:
         return sum(1 for route, codes in EXPECTED_BUILT.items() if route.startswith(base + "/") and code in codes)
     compare_items = 7 if locale in CORE_LIVE else built_children("/compare", locale)
-    industry_items = 15 if locale in CORE_LIVE else built_children("/industries", locale)
+    industry_items = 18 if locale in CORE_LIVE else built_children("/industries", locale)
     if compare_path in jsonld_by_path:
         check_hub(compare_path, jsonld_by_path[compare_path], compare_items)
     if industries_path in jsonld_by_path:

@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Vodite trgovinu bez nagađanja",
-  "ctaSub": "Počnite besplatno s naplatom i računima, a zatim dodajte Zalihe za barkod zalihe i upozorenja o niskom stanju."
+  "ctaSub": "Počnite besplatno s naplatom i računima, a zatim dodajte Zalihe za barkod zalihe i upozorenja o niskom stanju.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

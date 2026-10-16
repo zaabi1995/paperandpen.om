@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Pyöritä kauppaasi yhdellä siistillä pääkirjalla",
-  "ctaSub": "Aloita ilmaiseksi tarjouksilla ja laskutuksella ja lisää Varastonhallinta ja Kirjanpito kaupankäyntisi kasvaessa."
+  "ctaSub": "Aloita ilmaiseksi tarjouksilla ja laskutuksella ja lisää Varastonhallinta ja Kirjanpito kaupankäyntisi kasvaessa.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

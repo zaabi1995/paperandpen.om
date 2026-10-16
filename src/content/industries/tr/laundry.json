@@ -1,0 +1,107 @@
+{
+  "locale": "tr",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Çamaşırhane ve Kuru Temizleme",
+  "metaTitle": "Çamaşırhane ve Kuru Temizleme Yazılımı: Fişler ve Faturalama · Paper & Pen",
+  "metaDescription": "Parçaları teslim alın, adet veya kilo başına fiyatlandırın, KDV'li OMR ile faturalayın ve müşteriye geri teslim edin. Çamaşırhaneler ve kuru temizleyiciler için basit tezgâh yazılımı.",
+  "keywords": "çamaşırhane yazılımı, kuru temizleme yazılımı, çamaşırhane faturalama yazılımı, çamaşırhane pos, kuru temizleyici faturalama, çamaşırhane teslimat yazılımı",
+  "heroEyebrow": "Çamaşırhaneler ve kuru temizleyiciler için",
+  "heroTitle": "Her parça içeri, <em class=\"text-copper-400 not-italic\">her parça ödenmiş</em>",
+  "heroSubtitle": "Dishdasha, gömlek, takım elbise ve abayaları adet başına, yıka-katla işini kilo başına fiyatlandırın, müşteriye fiş verin ve siparişi geri teslim edin. Paper & Pen tezgâhınızı, teslimatlarınızı ve defterlerinizi uyumlu tutar.",
+  "heroBullets": [
+    "Adet veya kilo başına fiyat",
+    "Tezgâhta fişler",
+    "Teslim alma ve teslimat irsaliyeleri"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Tezgâh fişleri",
+      "desc": "Parçaları ekleyin, ödemeyi alın veya hesaba yazın ve saniyeler içinde fiş verin."
+    },
+    {
+      "icon": "tag",
+      "title": "Kendi fiyat listeniz",
+      "desc": "Dishdasha, gömlek, takım elbise veya abaya başına, yıka-katla için kilo başına fiyat belirleyin."
+    },
+    {
+      "icon": "truck",
+      "title": "Teslim alma ve teslimat",
+      "desc": "Siparişleri irsaliyeyle gönderin ve müşterinin teslim aldığının kanıtını saklayın."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "WhatsApp fişleri",
+      "desc": "Fişi veya faturayı kağıt yerine müşteriye WhatsApp'ta gönderin."
+    },
+    {
+      "icon": "wallet",
+      "title": "Müşteri hesapları",
+      "desc": "Düzenli ve kurumsal müşteriler aylık ödesin; her birinin ne kadar borcu olduğunu görün."
+    },
+    {
+      "icon": "chart",
+      "title": "Günlük hasılat",
+      "desc": "Bugün ne girdiğini hizmete ve ödeme yöntemine göre görün."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Tezgâhta",
+      "title": "Hızlı gir, hızlı çık",
+      "body": "Bir müşteri bir torba gömlek ve iki dishdasha bırakır. Ürünleri fiyat listenizden seçin, ödemeyi şimdi veya teslimde alın, fişi yazdırın veya paylaşın. Başlangıç kataloğu yıka-katla, kuru temizleme ve ütü kalemleriyle hazır gelir; kendi fiyatlarınıza göre düzenlersiniz.",
+      "items": [
+        "Hazır çamaşırhane fiyat listesi",
+        "Şimdi veya teslimde ödeme",
+        "WhatsApp'ta veya basılı fişler"
+      ]
+    },
+    {
+      "eyebrow": "Teslimatlar ve hesaplar",
+      "title": "Geri teslim edin, aylık faturalayın",
+      "body": "Biten siparişleri irsaliyeyle gönderin ve teslim kanıtını saklayın. Oteller, klinikler ve ofisler hesapla çalışıp aylık ödeyebilir; borçlarını gösteren net bir ekstre ile. Yerleşik OMR ve %5 KDV desteğiyle Umman'da geliştirildi.",
+      "items": [
+        "Kanıtlı irsaliyeler",
+        "Düzenli müşteriler için aylık hesaplar",
+        "Borç ekstreleri"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Adet ve kilo başına fiyatlandırabilir miyim?",
+      "a": "Evet. Her hizmetin kendi birimi vardır; dishdasha adet başına, yıka-katla kilo başına fiyatlanır."
+    },
+    {
+      "q": "Siparişleri müşterilere teslim edebilir miyim?",
+      "a": "Evet. Teslimat modülü irsaliye ekler; böylece siparişleri gönderir ve teslim kanıtını saklarsınız."
+    },
+    {
+      "q": "Bir otel veya ofis aylık ödeyebilir mi?",
+      "a": "Evet. Satışları müşterinin hesabında bırakın ve ay sonunda tek bir fatura veya ekstre gönderin."
+    },
+    {
+      "q": "Fişleri WhatsApp'ta gönderebilir miyim?",
+      "a": "Evet. Her fişi veya faturayı WhatsApp'ta ya da e-postayla paylaşın."
+    },
+    {
+      "q": "Ücreti nedir?",
+      "a": "Satış ve Faturalama sonsuza kadar ücretsizdir. POS veya Teslimat'ı ihtiyacınız olunca ekleyin ve yalnızca onlar için ödeyin."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Çamaşırhanenizi tek tezgâhtan yönetin",
+  "ctaSub": "Fişler ve faturalarla ücretsiz başlayın, hazır olunca POS'u ve teslimatları ekleyin.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

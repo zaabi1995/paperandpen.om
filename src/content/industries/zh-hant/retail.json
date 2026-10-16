@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "經營門市，不再靠猜",
-  "ctaSub": "從免費的結帳和收據開始，再加入庫存模組，使用條碼庫存和低庫存提醒。"
+  "ctaSub": "從免費的結帳和收據開始，再加入庫存模組，使用條碼庫存和低庫存提醒。",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

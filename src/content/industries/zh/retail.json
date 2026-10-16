@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "经营门店，告别凭感觉",
-  "ctaSub": "从免费的收银和收据开始，再添加库存模块，实现条码库存管理和低库存提醒。"
+  "ctaSub": "从免费的收银和收据开始，再添加库存模块，实现条码库存管理和低库存提醒。",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

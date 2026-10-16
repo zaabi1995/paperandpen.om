@@ -1,0 +1,107 @@
+{
+  "locale": "nl",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Wasserij en stomerij",
+  "metaTitle": "Software voor wasserijen en stomerijen: bonnen en facturatie · Paper & Pen",
+  "metaDescription": "Neem kleding aan, reken per stuk of per kilo, factureer in OMR met btw en breng alles terug naar de klant. Eenvoudige toonbanksoftware voor wasserijen en stomerijen.",
+  "keywords": "wasserijsoftware, stomerijsoftware, facturatie wasserij, kassa voor wasserij, facturatie stomerij, bezorgsoftware wasserij",
+  "heroEyebrow": "Voor wasserijen en stomerijen",
+  "heroTitle": "Elk stuk binnen, <em class=\"text-copper-400 not-italic\">elk stuk betaald</em>",
+  "heroSubtitle": "Reken dishdasha's, overhemden, pakken en abaya's per stuk of was en vouw per kilo, geef de klant een kwitantie en breng de order terug. Paper & Pen houdt de toonbank, de leveringen en de boekhouding op één lijn.",
+  "heroBullets": [
+    "Prijs per stuk of per kilo",
+    "Kwitanties aan de toonbank",
+    "Pakbonnen voor ophalen en bezorgen"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Kwitanties aan de toonbank",
+      "desc": "Voeg de stukken toe, neem betaling aan of zet het op rekening en geef in seconden een kwitantie mee."
+    },
+    {
+      "icon": "tag",
+      "title": "Je eigen prijslijst",
+      "desc": "Stel een prijs in per dishdasha, overhemd, pak of abaya, of per kilo voor was en vouw."
+    },
+    {
+      "icon": "truck",
+      "title": "Ophalen en bezorgen",
+      "desc": "Stuur orders weg met een pakbon en bewaar het bewijs dat de klant ze heeft ontvangen."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Kwitanties via WhatsApp",
+      "desc": "Stuur de kwitantie of factuur via WhatsApp naar de klant in plaats van op papier."
+    },
+    {
+      "icon": "wallet",
+      "title": "Klantrekeningen",
+      "desc": "Laat vaste klanten en bedrijven maandelijks betalen en zie wat ieder nog verschuldigd is."
+    },
+    {
+      "icon": "chart",
+      "title": "Dagomzet",
+      "desc": "Zie wat er vandaag binnenkwam, per dienst en per betaalmethode."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Aan de toonbank",
+      "title": "Snel binnen, snel buiten",
+      "body": "Een klant brengt een tas overhemden en twee dishdasha's. Kies de artikelen uit je prijslijst, neem nu betaling aan of bij het ophalen, en druk de kwitantie af of deel die. Het start-assortiment bevat was en vouw, stomerij en strijken, klaar om aan je eigen prijzen aan te passen.",
+      "items": [
+        "Kant-en-klare prijslijst voor wasserijen",
+        "Nu betalen of bij het ophalen",
+        "Kwitanties via WhatsApp of print"
+      ]
+    },
+    {
+      "eyebrow": "Leveringen en rekeningen",
+      "title": "Breng terug en factureer maandelijks",
+      "body": "Stuur afgewerkte orders weg met een pakbon en bewaar het bewijs van overhandiging. Hotels, klinieken en kantoren kunnen op rekening werken en maandelijks betalen, met een duidelijk overzicht van wat ze verschuldigd zijn. Gemaakt in Oman met standaard OMR en 5% btw.",
+      "items": [
+        "Pakbonnen met bewijs",
+        "Maandrekeningen voor vaste klanten",
+        "Overzichten van wat verschuldigd is"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan ik per stuk en per kilo rekenen?",
+      "a": "Ja. Elke dienst heeft een eigen eenheid, dus een dishdasha reken je per stuk en was en vouw per kilo."
+    },
+    {
+      "q": "Kan ik orders bij klanten bezorgen?",
+      "a": "Ja. De module Levering voegt pakbonnen toe, zodat je orders kunt wegsturen en het bewijs van overhandiging bewaart."
+    },
+    {
+      "q": "Kan een hotel of kantoor maandelijks betalen?",
+      "a": "Ja. Zet verkopen op de rekening van de klant en stuur aan het eind van de maand één factuur of overzicht."
+    },
+    {
+      "q": "Kan ik kwitanties via WhatsApp versturen?",
+      "a": "Ja. Deel elke kwitantie of factuur via WhatsApp of e-mail."
+    },
+    {
+      "q": "Wat kost het?",
+      "a": "Verkoop en Facturatie is voor altijd gratis. Voeg Kassa of Levering toe wanneer je ze nodig hebt en betaal alleen voor die modules."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Run je wasserij vanaf één toonbank",
+  "ctaSub": "Begin gratis met kwitanties en facturen en voeg de kassa en leveringen toe wanneer je er klaar voor bent.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

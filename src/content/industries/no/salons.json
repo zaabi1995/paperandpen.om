@@ -31,5 +31,7 @@
   ],
   "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
   "ctaTitle": "Driv salongen, ikke papirarbeidet",
-  "ctaSub": "Start gratis med fakturering av tjenester og kundekort, og legg så til Lager og Lønn for lager og provisjon."
+  "ctaSub": "Start gratis med fakturering av tjenester og kundekort, og legg så til Lager og Lønn for lager og provisjon.",
+  "signupTemplate": "salon",
+  "signupModules": ["pos", "crm", "loyalty"]
 }

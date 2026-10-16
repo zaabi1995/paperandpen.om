@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "บริหารร้านโดยไม่ต้องเดา",
-  "ctaSub": "เริ่มต้นฟรีด้วยการออกบิลและใบเสร็จ แล้วเพิ่มสต็อกเพื่อใช้สต็อกบาร์โค้ดและการแจ้งเตือนสินค้าใกล้หมด"
+  "ctaSub": "เริ่มต้นฟรีด้วยการออกบิลและใบเสร็จ แล้วเพิ่มสต็อกเพื่อใช้สต็อกบาร์โค้ดและการแจ้งเตือนสินค้าใกล้หมด",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

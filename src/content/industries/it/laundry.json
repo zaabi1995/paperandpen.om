@@ -1,0 +1,107 @@
+{
+  "locale": "it",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Lavanderie e tintorie",
+  "metaTitle": "Software per lavanderie e tintorie: tagliandi e fatturazione · Paper & Pen",
+  "metaDescription": "Ritira i capi, applica il prezzo a capo o al chilo, fattura in OMR con IVA e riconsegna al cliente. Software di banco semplice per lavanderie e tintorie.",
+  "keywords": "software lavanderia, software tintoria, software fatturazione lavanderia, cassa lavanderia, fatturazione tintoria, software consegne lavanderia",
+  "heroEyebrow": "Per lavanderie e tintorie",
+  "heroTitle": "Ogni capo dentro, <em class=\"text-copper-400 not-italic\">ogni capo pagato</em>",
+  "heroSubtitle": "Applica il prezzo a dishdasha, camicie, abiti e abaya per capo, oppure lava e piega al chilo, consegna la ricevuta al cliente e riconsegna l'ordine. Paper & Pen tiene allineati banco, consegne e contabilità.",
+  "heroBullets": [
+    "Prezzo a capo o al chilo",
+    "Ricevute al banco",
+    "Documenti di ritiro e consegna"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Ricevute al banco",
+      "desc": "Aggiungi i capi, incassa o lascia in conto e consegna una ricevuta in pochi secondi."
+    },
+    {
+      "icon": "tag",
+      "title": "Il tuo listino",
+      "desc": "Imposta un prezzo per dishdasha, camicia, abito o abaya, oppure al chilo per lava e piega."
+    },
+    {
+      "icon": "truck",
+      "title": "Ritiro e consegna",
+      "desc": "Spedisci gli ordini con un documento di consegna e conserva la prova che il cliente li ha ricevuti."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Ricevute su WhatsApp",
+      "desc": "Invia la ricevuta o la fattura al cliente su WhatsApp invece che su carta."
+    },
+    {
+      "icon": "wallet",
+      "title": "Conti clienti",
+      "desc": "Lascia che i clienti abituali e aziendali paghino ogni mese e vedi quanto deve ciascuno."
+    },
+    {
+      "icon": "chart",
+      "title": "Incassi giornalieri",
+      "desc": "Vedi cosa è entrato oggi, per servizio e per metodo di pagamento."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Al banco",
+      "title": "Dentro in fretta, fuori in fretta",
+      "body": "Un cliente lascia un sacco di camicie e due dishdasha. Scegli gli articoli dal listino, incassa subito o al ritiro e stampa o condividi la ricevuta. Il catalogo iniziale include lava e piega, lavaggio a secco e stiro, pronti da modificare con i tuoi prezzi.",
+      "items": [
+        "Listino lavanderia già pronto",
+        "Paga subito o al ritiro",
+        "Ricevute su WhatsApp o stampate"
+      ]
+    },
+    {
+      "eyebrow": "Consegne e conti",
+      "title": "Riconsegna e fattura ogni mese",
+      "body": "Spedisci gli ordini finiti con un documento di consegna e conserva la prova della consegna. Hotel, cliniche e uffici possono lavorare in conto e pagare ogni mese, con un estratto chiaro di quanto è dovuto. Creato in Oman con OMR nativo e IVA al 5%.",
+      "items": [
+        "Documenti di consegna con prova",
+        "Conti mensili per i clienti abituali",
+        "Estratti di quanto è dovuto"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posso applicare il prezzo a capo e al chilo?",
+      "a": "Sì. Ogni servizio ha la sua unità, così una dishdasha costa a capo e lava e piega costa al chilo."
+    },
+    {
+      "q": "Posso consegnare gli ordini ai clienti?",
+      "a": "Sì. Il modulo Consegne aggiunge i documenti di consegna, così puoi spedire gli ordini e conservare la prova della consegna."
+    },
+    {
+      "q": "Un hotel o un ufficio può pagare ogni mese?",
+      "a": "Sì. Lascia le vendite sul conto del cliente e invia una fattura o un estratto a fine mese."
+    },
+    {
+      "q": "Posso inviare le ricevute su WhatsApp?",
+      "a": "Sì. Condividi qualsiasi ricevuta o fattura su WhatsApp o via email."
+    },
+    {
+      "q": "Quanto costa?",
+      "a": "Vendite e Fatturazione è gratis per sempre. Aggiungi Cassa o Consegne quando ti servono e paga solo quei moduli."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Gestisci la tua lavanderia da un solo banco",
+  "ctaSub": "Inizia gratis con ricevute e fatture, poi aggiungi la cassa e le consegne quando sei pronto.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

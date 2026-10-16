@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Διοικήστε το κατάστημά σας χωρίς εικασίες",
-  "ctaSub": "Ξεκινήστε δωρεάν με χρέωση και αποδείξεις και προσθέστε την Αποθήκη για απόθεμα με barcode και ειδοποιήσεις χαμηλού αποθέματος."
+  "ctaSub": "Ξεκινήστε δωρεάν με χρέωση και αποδείξεις και προσθέστε την Αποθήκη για απόθεμα με barcode και ειδοποιήσεις χαμηλού αποθέματος.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

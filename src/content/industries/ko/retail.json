@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "추측 없이 매장을 운영하세요",
-  "ctaSub": "청구와 영수증으로 무료로 시작하고, 바코드 재고와 재고 부족 알림을 위해 재고 모듈을 추가하세요."
+  "ctaSub": "청구와 영수증으로 무료로 시작하고, 바코드 재고와 재고 부족 알림을 위해 재고 모듈을 추가하세요.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

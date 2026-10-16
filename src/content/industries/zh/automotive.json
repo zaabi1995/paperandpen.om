@@ -106,5 +106,7 @@
     "/features/accounting"
   ],
   "ctaTitle": "今天就理顺您修理厂的账单",
-  "ctaSub": "免费制作详细估价单，管理配件库存，并向客户开票。"
+  "ctaSub": "免费制作详细估价单，管理配件库存，并向客户开票。",
+  "signupTemplate": "garage",
+  "signupModules": ["inventory", "crm"]
 }

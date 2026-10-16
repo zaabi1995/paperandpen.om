@@ -1,0 +1,107 @@
+{
+  "locale": "ro",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Spălătorii și curățătorii chimice",
+  "metaTitle": "Software pentru spălătorii și curățătorii: bonuri și facturare · Paper & Pen",
+  "metaDescription": "Preiei hainele, stabilești prețul pe bucată sau pe kilogram, facturezi în OMR cu TVA și livrezi înapoi clientului. Software simplu de tejghea pentru spălătorii și curățătorii chimice.",
+  "keywords": "software pentru spălătorie, software pentru curățătorie chimică, facturare spălătorie, POS pentru spălătorie, facturare curățătorie, software de livrare pentru spălătorie",
+  "heroEyebrow": "Pentru spălătorii și curățătorii chimice",
+  "heroTitle": "Fiecare piesă preluată, <em class=\"text-copper-400 not-italic\">fiecare piesă plătită</em>",
+  "heroSubtitle": "Stabilești prețul pentru dishdasha, cămăși, costume și abaya pe bucată sau pentru spălat și împăturit pe kilogram, dai clientului o chitanță și livrezi comanda înapoi. Paper & Pen ține tejgheaua, livrările și contabilitatea în pas.",
+  "heroBullets": [
+    "Preț pe bucată sau pe kilogram",
+    "Chitanțe la tejghea",
+    "Avize de ridicare și livrare"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Chitanțe la tejghea",
+      "desc": "Adaugi piesele, încasezi plata sau o lași pe cont și dai chitanța în câteva secunde."
+    },
+    {
+      "icon": "tag",
+      "title": "Lista ta de prețuri",
+      "desc": "Stabilești un preț pe dishdasha, cămașă, costum sau abaya, sau pe kilogram pentru spălat și împăturit."
+    },
+    {
+      "icon": "truck",
+      "title": "Ridicare și livrare",
+      "desc": "Trimiți comenzile cu un aviz de livrare și păstrezi dovada că le-a primit clientul."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Chitanțe pe WhatsApp",
+      "desc": "Trimiți chitanța sau factura clientului pe WhatsApp, în loc de hârtie."
+    },
+    {
+      "icon": "wallet",
+      "title": "Conturi de clienți",
+      "desc": "Lași clienții fideli și firmele să plătească lunar și vezi cât datorează fiecare."
+    },
+    {
+      "icon": "chart",
+      "title": "Încasări zilnice",
+      "desc": "Vezi ce a intrat azi, pe serviciu și pe metodă de plată."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "La tejghea",
+      "title": "Repede înăuntru, repede afară",
+      "body": "Un client lasă o pungă cu cămăși și două dishdasha. Alegi articolele din lista de prețuri, încasezi acum sau la ridicare și tipărești sau trimiți chitanța. Catalogul de pornire vine cu spălat și împăturit, curățare chimică și călcat, gata de editat cu prețurile tale.",
+      "items": [
+        "Listă de prețuri gata făcută pentru spălătorie",
+        "Plătești acum sau la ridicare",
+        "Chitanțe pe WhatsApp sau tipărite"
+      ]
+    },
+    {
+      "eyebrow": "Livrări și conturi",
+      "title": "Livrezi înapoi și facturezi lunar",
+      "body": "Trimiți comenzile finalizate cu un aviz de livrare și păstrezi dovada predării. Hotelurile, clinicile și birourile pot lucra pe cont și pot plăti lunar, cu un extras clar al sumelor datorate. Creat în Oman, cu OMR nativ și TVA de 5%.",
+      "items": [
+        "Avize de livrare cu dovadă",
+        "Conturi lunare pentru clienții fideli",
+        "Extrase cu sumele datorate"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Pot stabili prețul pe bucată și pe kilogram?",
+      "a": "Da. Fiecare serviciu are propria unitate, așa că dishdasha se taxează pe bucată, iar spălatul și împăturitul pe kilogram."
+    },
+    {
+      "q": "Pot livra comenzile la clienți?",
+      "a": "Da. Modulul Livrări adaugă avize de livrare, ca să poți trimite comenzile și să păstrezi dovada predării."
+    },
+    {
+      "q": "Poate un hotel sau un birou să plătească lunar?",
+      "a": "Da. Lași vânzările pe contul clientului și trimiți o factură sau un extras la sfârșitul lunii."
+    },
+    {
+      "q": "Pot trimite chitanțe pe WhatsApp?",
+      "a": "Da. Trimiți orice chitanță sau factură pe WhatsApp sau pe e-mail."
+    },
+    {
+      "q": "Cât costă?",
+      "a": "Vânzări și Facturare sunt gratuite pentru totdeauna. Adaugi POS sau Livrări când ai nevoie și plătești doar pentru acele module."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Condu spălătoria de la o singură tejghea",
+  "ctaSub": "Începe gratuit cu chitanțe și facturi, apoi adaugă POS și livrările când ești gata.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Jalankan toko Anda tanpa menebak-nebak",
-  "ctaSub": "Mulai gratis dengan penagihan dan kuitansi, lalu tambahkan Inventaris untuk stok barcode dan peringatan stok menipis."
+  "ctaSub": "Mulai gratis dengan penagihan dan kuitansi, lalu tambahkan Inventaris untuk stok barcode dan peringatan stok menipis.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

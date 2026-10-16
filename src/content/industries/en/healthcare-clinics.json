@@ -107,5 +107,7 @@
     "/invoicing/recurring-invoices"
   ],
   "ctaTitle": "Organise your clinic billing and stock today",
-  "ctaSub": "Start managing your healthcare practice finances, from per-procedure invoicing to medical consumable tracking, completely free."
+  "ctaSub": "Start managing your healthcare practice finances, from per-procedure invoicing to medical consumable tracking, completely free.",
+  "signupTemplate": "clinic",
+  "signupModules": ["crm", "pos", "portal"]
 }

@@ -1,0 +1,107 @@
+{
+  "locale": "sl",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Pralnice in kemične čistilnice",
+  "metaTitle": "Program za pralnice in čistilnice: listki in računi · Paper & Pen",
+  "metaDescription": "Sprejemajte kose, cenite jih po kosu ali kilogramu, izdajajte račune v OMR z DDV in dostavite nazaj stranki. Preprost program za pult v pralnicah in čistilnicah.",
+  "keywords": "program za pralnico, program za kemično čistilnico, računi za pralnico, blagajna za pralnico, računi za čistilnico, program za dostavo za pralnico",
+  "heroEyebrow": "Za pralnice in čistilnice",
+  "heroTitle": "Vsak kos sprejet, <em class=\"text-copper-400 not-italic\">vsak kos plačan</em>",
+  "heroSubtitle": "Dišdaše, srajce, obleke in abaje cenite po kosu, pranje in zlaganje po kilogramu, stranki izročite potrdilo in naročilo dostavite nazaj. Paper & Pen usklajuje pult, dostave in knjige.",
+  "heroBullets": [
+    "Cena po kosu ali kilogramu",
+    "Potrdila na pultu",
+    "Dobavnice za prevzem in dostavo"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Potrdila na pultu",
+      "desc": "Dodajte kose, sprejmite plačilo ali pustite na računu in v nekaj sekundah izročite potrdilo."
+    },
+    {
+      "icon": "tag",
+      "title": "Vaš cenik",
+      "desc": "Določite ceno za dišdašo, srajco, obleko ali abajo ali na kilogram za pranje in zlaganje."
+    },
+    {
+      "icon": "truck",
+      "title": "Prevzem in dostava",
+      "desc": "Naročila pošljite z dobavnico in hranite dokaz, da jih je stranka prejela."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Potrdila na WhatsApp",
+      "desc": "Stranki pošljite potrdilo ali račun prek WhatsApp namesto na papirju."
+    },
+    {
+      "icon": "wallet",
+      "title": "Računi strank",
+      "desc": "Stalnim in podjetniškim strankam omogočite mesečno plačevanje in vpogled v dolg vsake."
+    },
+    {
+      "icon": "chart",
+      "title": "Dnevni iztržek",
+      "desc": "Vidite, kaj je danes prispelo, po storitvi in načinu plačila."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Na pultu",
+      "title": "Hitro noter, hitro ven",
+      "body": "Stranka pusti vrečo srajc in dve dišdaši. Iz cenika izberite artikle, sprejmite plačilo takoj ali ob prevzemu ter natisnite ali delite potrdilo. Začetni katalog vsebuje pranje in zlaganje, kemično čiščenje in likanje, ki jih prilagodite svojim cenam.",
+      "items": [
+        "Že pripravljen cenik za pralnico",
+        "Plačilo takoj ali ob prevzemu",
+        "Potrdila na WhatsApp ali natisnjena"
+      ]
+    },
+    {
+      "eyebrow": "Dostave in računi",
+      "title": "Dostavite nazaj in zaračunajte mesečno",
+      "body": "Dokončana naročila pošljite z dobavnico in hranite dokaz o izročitvi. Hoteli, klinike in pisarne lahko poslujejo na račun in plačujejo mesečno, z jasnim izpiskom dolga. Razvito v Omanu z vgrajenima OMR in 5 % DDV.",
+      "items": [
+        "Dobavnice z dokazom",
+        "Mesečni računi za stalne stranke",
+        "Izpiski dolga"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ali lahko cenim po kosu in po kilogramu?",
+      "a": "Da. Vsaka storitev ima svojo enoto, zato je dišdaša cenjena po kosu, pranje in zlaganje pa po kilogramu."
+    },
+    {
+      "q": "Ali lahko naročila dostavljam strankam?",
+      "a": "Da. Modul Dostava doda dobavnice, tako da naročila pošljete in hranite dokaz o izročitvi."
+    },
+    {
+      "q": "Ali lahko hotel ali pisarna plačuje mesečno?",
+      "a": "Da. Prodajo pustite na računu stranke in ob koncu meseca pošljite en račun ali izpisek."
+    },
+    {
+      "q": "Ali lahko potrdila pošiljam prek WhatsApp?",
+      "a": "Da. Vsako potrdilo ali račun delite prek WhatsApp ali e-pošte."
+    },
+    {
+      "q": "Koliko stane?",
+      "a": "Prodaja in računi so brezplačni za vedno. Module Blagajna ali Dostava dodajte, ko jih potrebujete, in plačate samo zanje."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Vodite pralnico z enega pulta",
+  "ctaSub": "Začnite brezplačno s potrdili in računi, nato dodajte blagajno in dostave, ko ste pripravljeni.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

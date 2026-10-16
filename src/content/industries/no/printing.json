@@ -1,0 +1,109 @@
+{
+  "locale": "no",
+  "slug": "printing",
+  "order": 16,
+  "title": "Trykkeri og kontorrekvisita",
+  "metaTitle": "Programvare for trykkerier: tilbud, jobber og fakturaer · Paper & Pen",
+  "metaDescription": "Lag tilbud på trykkjobber raskt, følg hver jobb fra trykkfil til levering, hold orden på papirlageret og fakturer i OMR med 5 % MVA. Laget for trykkerier og papirhandlere.",
+  "keywords": "programvare for trykkeri, programvare for trykkvirksomhet, sporing av trykkjobber, tilbudsprogram for trykk, fakturering for papirhandel, ERP for trykkeri, kalkulasjon av trykk",
+  "heroEyebrow": "For trykkerier og papirhandlere",
+  "heroTitle": "Fra tilbud til <em class=\"text-copper-400 not-italic\">trykket og betalt</em>",
+  "heroSubtitle": "Lag tilbud på en trykkjobb på få minutter, gjør det godkjente tilbudet om til en jobb, følg den gjennom produksjon og levering, og fakturer uten å skrive en linje på nytt. Paper & Pen holder jobbene, papirlageret og regnskapet samlet på ett sted.",
+  "heroBullets": [
+    "Tilbud som blir til jobber med ett klikk",
+    "Hver jobb følges helt til levering",
+    "Papir og lager telles mens du bruker det"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Raske trykktilbud",
+      "desc": "Lag et tilbud fra prislisten din, del det på WhatsApp eller e-post, og gjør det om når kunden sier ja."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Jobbsporing",
+      "desc": "Hver godkjente ordre blir en produksjonsjobb, så du alltid vet hva som trykkes, hva som venter og hva som er forsinket."
+    },
+    {
+      "icon": "inventory",
+      "title": "Papir og lager",
+      "desc": "Tell papir, blekk og ferdige kontorrekvisita etter varenummer og enhet, med lager som flytter seg ved hvert salg og hvert bruk."
+    },
+    {
+      "icon": "truck",
+      "title": "Følgesedler",
+      "desc": "Lever ferdig arbeid med en følgeseddel og ta vare på det signerte beviset på ordren."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fakturaer med MVA",
+      "desc": "Fakturer i OMR med 5 % MVA, eller i hvilken som helst valuta og skattesats, rett fra tilbudet eller jobben."
+    },
+    {
+      "icon": "users",
+      "title": "Kundehistorikk",
+      "desc": "Se alle tilbud, jobber og betalinger for en kunde, så en gjentatt bestilling tar sekunder."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Fra tilbud til jobb",
+      "title": "Én post fra første tilbud til siste betaling",
+      "body": "Det går mange hender over en trykkjobb: salg lager tilbudet, kunden godkjenner, produksjon trykker, noen leverer og regnskap krever inn. I Paper & Pen er det én post hele veien, så ingenting skrives på nytt og ingenting går tapt mellom skrivebordene. Gjør et godkjent tilbud om til en faktura og en produksjonsjobb i ett steg.",
+      "items": [
+        "Godkjent tilbud blir jobben",
+        "Produksjon ser hva som skal trykkes neste",
+        "Faktura bygget på de samme linjene"
+      ]
+    },
+    {
+      "eyebrow": "Disk og lager",
+      "title": "Salg av kontorrekvisita og papirlager på samme sted",
+      "body": "Selg penner, notatbøker og trykk i disken og la lageret oppdatere seg selv. Sett bestillingspunkter på papiret og blekket du ikke kan gå tom for, og se hva hver kunde og hvert produkt gir. Laget i Oman med innebygd OMR og 5 % MVA, og klar for alle valutaer.",
+      "items": [
+        "Diskssalg med kvitteringer",
+        "Bestillingspunkter på papir og blekk",
+        "Rapporter per kunde og produkt"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan jeg lage tilbud på trykkjobber med mine egne priser?",
+      "a": "Ja. Legg inn produktene og tjenestene dine med egne priser, og lag tilbud fra dem. En startkatalog for trykk er klar for deg når du registrerer deg, og du endrer den slik at den passer trykkeriet ditt."
+    },
+    {
+      "q": "Kan jeg følge en jobb etter at kunden har godkjent?",
+      "a": "Ja. Med Produksjon-modulen blir en godkjent ordre en produksjonsjobb du kan følge til den er ferdig og levert."
+    },
+    {
+      "q": "Håndterer det lager av kontorrekvisita?",
+      "a": "Ja. Lager-modulen teller papir, blekk og kontorrekvisita etter varenummer og enhet, og hvert salg eller bruk flytter lageret."
+    },
+    {
+      "q": "Kan jeg sende tilbud og fakturaer på WhatsApp?",
+      "a": "Ja. Del alle tilbud, fakturaer og kvitteringer på WhatsApp eller e-post, som lenke eller PDF."
+    },
+    {
+      "q": "Hva koster det?",
+      "a": "Tilbud, fakturaer, kunder og betalinger er gratis for alltid. Legg til Produksjon, Lager, CRM eller Levering når du trenger dem, og betal bare for de modulene."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Driv trykkeriet fra én skjerm",
+  "ctaSub": "Start gratis med tilbud og fakturaer, og legg så til jobbsporing og papirlager når du er klar.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

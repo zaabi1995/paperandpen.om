@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Run je handel op één schoon grootboek",
-  "ctaSub": "Begin gratis met offertes en facturen en voeg Voorraad en Boekhouding toe naarmate je handel groeit."
+  "ctaSub": "Begin gratis met offertes en facturen en voeg Voorraad en Boekhouding toe naarmate je handel groeit.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

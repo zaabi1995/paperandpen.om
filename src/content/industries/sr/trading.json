@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Водите трговину уз једну чисту књигу",
-  "ctaSub": "Почните бесплатно са понудама и фактурисањем, па додајте Залихе и Рачуноводство како ваша трговина расте."
+  "ctaSub": "Почните бесплатно са понудама и фактурисањем, па додајте Залихе и Рачуноводство како ваша трговина расте.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

@@ -1,0 +1,109 @@
+{
+  "locale": "sv",
+  "slug": "printing",
+  "order": 16,
+  "title": "Tryckeri och pappershandel",
+  "metaTitle": "Program för tryckerier: offerter, jobb och fakturor · Paper & Pen",
+  "metaDescription": "Offerera tryckjobb snabbt, följ varje jobb från originalfil till leverans, håll papperslagret räknat och fakturera i OMR med 5 % moms. Byggt för tryckerier och pappershandlare.",
+  "keywords": "program för tryckeri, affärssystem för tryckeri, spårning av tryckjobb, offertprogram för tryck, fakturering för pappershandel, erp för tryckeri, kalkyl för tryck",
+  "heroEyebrow": "För tryckerier och pappershandlare",
+  "heroTitle": "Från offert till <em class=\"text-copper-400 not-italic\">tryckt och betalt</em>",
+  "heroSubtitle": "Offerera ett tryckjobb på några minuter, gör den godkända offerten till ett jobb, följ det genom produktion och leverans och fakturera utan att skriva om en rad. Paper & Pen samlar dina jobb, ditt papperslager och din bokföring på ett ställe.",
+  "heroBullets": [
+    "Offerter som blir jobb med ett klick",
+    "Varje jobb följs till leverans",
+    "Papper och lager räknas när du använder det"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Snabba tryckofferter",
+      "desc": "Bygg en offert från din prislista, dela den på WhatsApp eller e-post och omvandla den när kunden säger ja."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Jobbspårning",
+      "desc": "Varje godkänd order blir ett produktionsjobb, så du vet alltid vad som trycks, vad som väntar och vad som är sent."
+    },
+    {
+      "icon": "inventory",
+      "title": "Papper och lager",
+      "desc": "Räkna papper, bläck och färdiga pappersvaror per artikelnummer och enhet. Lagret rör sig vid varje försäljning och förbrukning."
+    },
+    {
+      "icon": "truck",
+      "title": "Följesedlar",
+      "desc": "Lämna över färdigt arbete med en följesedel och spara det signerade beviset på ordern."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fakturor med moms",
+      "desc": "Fakturera i OMR med 5 % moms, eller i valfri valuta och skattesats, direkt från offerten eller jobbet."
+    },
+    {
+      "icon": "users",
+      "title": "Kundhistorik",
+      "desc": "Se varje offert, jobb och betalning för en kund, så en återkommande order tar bara några sekunder."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Från offert till jobb",
+      "title": "En post från första offerten till sista betalningen",
+      "body": "Ett tryckjobb byter händer många gånger: försäljningen offererar, kunden godkänner, produktionen trycker, någon levererar och ekonomi tar betalt. I Paper & Pen är det en enda post hela vägen, så inget skrivs om och inget tappas mellan borden. Omvandla en godkänd offert till en faktura och ett produktionsjobb i ett steg.",
+      "items": [
+        "Godkänd offert blir jobbet",
+        "Produktionen ser vad som ska tryckas härnäst",
+        "Faktura byggd på samma rader"
+      ]
+    },
+    {
+      "eyebrow": "Disk och lager",
+      "title": "Pappersförsäljning och papperslager på samma ställe",
+      "body": "Sälj pennor, block och tryck i kassan och låt lagret uppdatera sig självt. Ställ in beställningspunkter för de papper och bläck du inte får ta slut på, och se vad varje kund och varje produkt ger. Byggt i Oman med inbyggt stöd för OMR och 5 % moms, och redo för valfri valuta.",
+      "items": [
+        "Kassaförsäljning med kvitton",
+        "Beställningspunkter för papper och bläck",
+        "Rapporter per kund och produkt"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan jag offerera tryckjobb med mina egna priser?",
+      "a": "Ja. Lägg till dina produkter och tjänster med egna priser och bygg offerter från dem. En startkatalog för tryck sätts upp åt dig när du registrerar dig, och du ändrar den så den passar ditt tryckeri."
+    },
+    {
+      "q": "Kan jag följa ett jobb efter att kunden godkänt det?",
+      "a": "Ja. Med modulen Tillverkning blir en godkänd order ett produktionsjobb som du kan följa tills det är klart och levererat."
+    },
+    {
+      "q": "Hanterar det lager för pappersvaror?",
+      "a": "Ja. Modulen Lager räknar papper, bläck och pappersvaror per artikelnummer och enhet, och varje försäljning eller förbrukning rör lagret."
+    },
+    {
+      "q": "Kan jag skicka offerter och fakturor på WhatsApp?",
+      "a": "Ja. Dela varje offert, faktura eller kvitto på WhatsApp eller via e-post som en länk eller PDF."
+    },
+    {
+      "q": "Vad kostar det?",
+      "a": "Offerter, fakturor, kunder och betalningar är gratis för alltid. Lägg till Tillverkning, Lager, CRM eller Leverans när du behöver dem och betala bara för de modulerna."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Driv ditt tryckeri från en skärm",
+  "ctaSub": "Börja med gratis offerter och fakturor och lägg sedan till jobbspårning och papperslager när du är redo.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "locale": "pt",
+  "slug": "printing",
+  "order": 16,
+  "title": "Gráficas e papelarias",
+  "metaTitle": "Software para gráficas: orçamentos, trabalhos e faturas · Paper & Pen",
+  "metaDescription": "Faça orçamentos de impressão rápido, acompanhe cada trabalho da arte à entrega, mantenha o estoque de papel contado e fature em OMR com IVA de 5%. Feito para gráficas e papelarias.",
+  "keywords": "software para gráfica, software para empresa gráfica, acompanhamento de trabalhos gráficos, orçamento de impressão, faturamento de papelaria, ERP para gráfica, cálculo de impressão",
+  "heroEyebrow": "Para gráficas e papelarias",
+  "heroTitle": "De orçamento a <em class=\"text-copper-400 not-italic\">impresso e pago</em>",
+  "heroSubtitle": "Faça o orçamento de um trabalho em minutos, transforme o orçamento aprovado em trabalho, acompanhe a produção e a entrega e fature sem redigitar uma linha. O Paper & Pen mantém seus trabalhos, o estoque de papel e a contabilidade em um só lugar.",
+  "heroBullets": [
+    "Orçamentos que viram trabalhos com um clique",
+    "Cada trabalho acompanhado até a entrega",
+    "Papel e estoque contados conforme você usa"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Orçamentos de impressão rápidos",
+      "desc": "Monte um orçamento a partir da sua tabela de preços, envie pelo WhatsApp ou e-mail e converta quando o cliente disser sim."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Acompanhamento de trabalhos",
+      "desc": "Cada pedido aprovado vira um trabalho de produção, então você sempre sabe o que está imprimindo, o que está esperando e o que está atrasado."
+    },
+    {
+      "icon": "inventory",
+      "title": "Papel e estoque",
+      "desc": "Conte papel, tinta e papelaria pronta por SKU e unidade, com o estoque se movendo a cada venda ou uso."
+    },
+    {
+      "icon": "truck",
+      "title": "Guias de remessa",
+      "desc": "Entregue o trabalho pronto com uma guia de remessa e guarde o comprovante assinado no pedido."
+    },
+    {
+      "icon": "invoice",
+      "title": "Faturas com IVA",
+      "desc": "Fature em OMR com IVA de 5%, ou em qualquer moeda e alíquota, direto do orçamento ou do trabalho."
+    },
+    {
+      "icon": "users",
+      "title": "Histórico do cliente",
+      "desc": "Veja todos os orçamentos, trabalhos e pagamentos de um cliente, e um pedido repetido leva segundos."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Do orçamento ao trabalho",
+      "title": "Um só registro do primeiro orçamento ao último pagamento",
+      "body": "Um trabalho gráfico passa por muitas mãos: vendas faz o orçamento, o cliente aprova, a produção imprime, alguém entrega e o financeiro cobra. No Paper & Pen é um só registro o tempo todo, então nada é redigitado e nada se perde entre as mesas. Converta um orçamento aprovado em fatura e trabalho de produção em um só passo.",
+      "items": [
+        "O orçamento aprovado vira o trabalho",
+        "A produção vê o que imprimir em seguida",
+        "Fatura montada com as mesmas linhas"
+      ]
+    },
+    {
+      "eyebrow": "Balcão e estoque",
+      "title": "Vendas de papelaria e estoque de papel no mesmo lugar",
+      "body": "Venda canetas, cadernos e impressão no balcão e deixe o estoque se atualizar sozinho. Defina pontos de reposição para os papéis e tintas que não podem faltar e veja quanto rende cada cliente e cada produto. Feito em Omã, com OMR nativo e IVA de 5%, e pronto para qualquer moeda.",
+      "items": [
+        "Vendas no balcão com recibos",
+        "Pontos de reposição de papel e tinta",
+        "Relatórios por cliente e produto"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posso fazer orçamentos de impressão com meus próprios preços?",
+      "a": "Sim. Cadastre seus produtos e serviços com seus preços e monte orçamentos a partir deles. Um catálogo inicial de impressão já vem pronto quando você se cadastra, e você o edita para combinar com a sua gráfica."
+    },
+    {
+      "q": "Posso acompanhar um trabalho depois que o cliente aprova?",
+      "a": "Sim. Com o módulo de Produção, um pedido aprovado vira um trabalho de produção que você acompanha até ficar pronto e ser entregue."
+    },
+    {
+      "q": "Ele controla o estoque de papelaria?",
+      "a": "Sim. O módulo de Estoque conta papel, tinta e papelaria por SKU e unidade, e cada venda ou uso movimenta o estoque."
+    },
+    {
+      "q": "Posso enviar orçamentos e faturas pelo WhatsApp?",
+      "a": "Sim. Compartilhe qualquer orçamento, fatura ou recibo pelo WhatsApp ou por e-mail, como link ou PDF."
+    },
+    {
+      "q": "Quanto custa?",
+      "a": "Orçamentos, faturas, clientes e pagamentos são grátis para sempre. Adicione Produção, Estoque, CRM ou Entregas quando precisar e pague só por esses módulos."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Comande sua gráfica em uma só tela",
+  "ctaSub": "Comece grátis com orçamentos e faturas e adicione o acompanhamento de trabalhos e o estoque de papel quando estiver pronto.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

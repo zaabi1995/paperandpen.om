@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Vadi savu veikalu bez minēšanas",
-  "ctaSub": "Sāc bez maksas ar norēķiniem un čekiem, tad pievieno Noliktavu svītrkodu krājumiem un brīdinājumiem par zemiem atlikumiem."
+  "ctaSub": "Sāc bez maksas ar norēķiniem un čekiem, tad pievieno Noliktavu svītrkodu krājumiem un brīdinājumiem par zemiem atlikumiem.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

@@ -14,8 +14,9 @@
 import { useTranslations, localizePath, type Locale } from '@/i18n';
 interface Props {
   locale: Locale;
+  signupQuery?: string;
 }
-const { locale } = Astro.props;
+const { locale, signupQuery = '' } = Astro.props;
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
 ---
@@ -27,7 +28,7 @@ const lp = (p: string) => localizePath(p, locale);
 >
   <div class="mx-auto flex max-w-md items-center justify-between gap-4 px-5 py-3">
     <span class="min-w-0 flex-1 truncate text-sm font-semibold text-ink-500">{t('sticky.text')}</span>
-    <a href={lp('/signup')} class="btn-base btn-sm shrink-0 bg-electric-500 text-white hover:bg-electric-600"
+    <a href={lp('/signup') + signupQuery} class="btn-base btn-sm shrink-0 bg-electric-500 text-white hover:bg-electric-600"
       >{t('nav.startFree')}</a
     >
   </div>

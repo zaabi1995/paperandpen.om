@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "অনুমান ছাড়াই আপনার দোকান চালান",
-  "ctaSub": "বিলিং ও রসিদ দিয়ে বিনামূল্যে শুরু করুন, তারপর বারকোড স্টক ও কম-স্টক সতর্কতার জন্য ইনভেন্টরি যোগ করুন।"
+  "ctaSub": "বিলিং ও রসিদ দিয়ে বিনামূল্যে শুরু করুন, তারপর বারকোড স্টক ও কম-স্টক সতর্কতার জন্য ইনভেন্টরি যোগ করুন।",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

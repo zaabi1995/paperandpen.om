@@ -32,6 +32,8 @@ interface Props {
      caller can be explicit, and so this block can never emit a second h1. */
   as?: 'h1' | 'h2';
   accent?: Accent;
+  /* Query appended to the default /signup CTA (industry pages, FU-4127). */
+  signupQuery?: string;
 }
 const {
   locale,
@@ -43,6 +45,7 @@ const {
   secondaryCta,
   as = 'h1',
   accent = 'electric',
+  signupQuery = '',
 } = Astro.props;
 const t = useTranslations(locale);
 const lp = (p: string) => localizePath(p, locale);
@@ -104,7 +107,7 @@ const Heading = as === 'h2' ? 'h2' : 'h1';
     {subtitle && <p class="lede mx-auto mt-7 text-ink-500">{subtitle}</p>}
 
     <div class="mt-9 flex flex-col items-center justify-center gap-x-8 gap-y-4 sm:flex-row">
-      <a href={lp(primary.href)} class={`btn-base btn-lg ${PILL[accent]}`}>{primary.label}</a>
+      <a href={lp(primary.href) + (primaryCta ? '' : signupQuery)} class={`btn-base btn-lg ${PILL[accent]}`}>{primary.label}</a>
       {secondaryCta && (
         <a
           href={lp(secondaryCta.href)}

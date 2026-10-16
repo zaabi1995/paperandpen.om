@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Valdykite parduotuvę be spėlionių",
-  "ctaSub": "Pradėkite nemokamai nuo sąskaitų ir kvitų, tada pridėkite Atsargas brūkšninių kodų apskaitai ir įspėjimams apie mažas atsargas."
+  "ctaSub": "Pradėkite nemokamai nuo sąskaitų ir kvitų, tada pridėkite Atsargas brūkšninių kodų apskaitai ir įspėjimams apie mažas atsargas.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

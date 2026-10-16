@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Vezesse üzletét találgatás nélkül",
-  "ctaSub": "Kezdje ingyen számlázással és nyugtákkal, majd adja hozzá a Készletet a vonalkódos készlethez és az alacsony készlet riasztásokhoz."
+  "ctaSub": "Kezdje ingyen számlázással és nyugtákkal, majd adja hozzá a Készletet a vonalkódos készlethez és az alacsony készlet riasztásokhoz.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

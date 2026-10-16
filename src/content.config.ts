@@ -53,6 +53,10 @@ const pageSchema = z.object({
   ctaTitle: z.string().optional(),
   ctaSub: z.string().optional(),
   order: z.number().optional(),
+  /* Industry pages: the starter pack and modules the signup link carries
+     (FU-4127). Pack ids and module codes are the backend's signup codes. */
+  signupTemplate: z.string().regex(/^[a-z0-9-]+$/).optional(),
+  signupModules: z.array(z.string().regex(/^[a-z_]+$/)).optional(),
 });
 
 // Preserve the locale folder in the id (en/inventory vs ar/inventory) so same-slug

@@ -1,0 +1,107 @@
+{
+  "locale": "da",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Vaskeri og renseri",
+  "metaTitle": "Software til vaskerier og renserier: sedler og afregning · Paper & Pen",
+  "metaDescription": "Tag tøj ind, prissæt pr. stykke eller pr. kilo, fakturér i OMR med moms og lever tilbage til kunden. Enkel disksoftware til vaskerier og renserier.",
+  "keywords": "software til vaskeri, software til renseri, afregningssoftware til vaskeri, pos til vaskeri, fakturering til renseri, leveringssoftware til vaskeri",
+  "heroEyebrow": "Til vaskerier og renserier",
+  "heroTitle": "Hvert stykke ind, <em class=\"text-copper-400 not-italic\">hvert stykke betalt</em>",
+  "heroSubtitle": "Prissæt dishdashaer, skjorter, jakkesæt og abayaer pr. stykke eller vask og fold pr. kilo, giv kunden en kvittering, og lever ordren tilbage. Paper & Pen holder disken, leveringerne og regnskabet i takt.",
+  "heroBullets": [
+    "Pris pr. stykke eller pr. kilo",
+    "Kvitteringer i disken",
+    "Afhentnings- og følgesedler"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Kvitteringer i disken",
+      "desc": "Tilføj stykkerne, tag imod betaling, eller læg det på konto, og aflevér en kvittering på sekunder."
+    },
+    {
+      "icon": "tag",
+      "title": "Din prisliste",
+      "desc": "Sæt en pris pr. dishdasha, skjorte, jakkesæt eller abaya eller pr. kilo for vask og fold."
+    },
+    {
+      "icon": "truck",
+      "title": "Afhentning og levering",
+      "desc": "Send ordrer afsted med en følgeseddel, og behold beviset for, at kunden har modtaget dem."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Kvitteringer på WhatsApp",
+      "desc": "Send kvitteringen eller fakturaen til kunden på WhatsApp i stedet for på papir."
+    },
+    {
+      "icon": "wallet",
+      "title": "Kundekonti",
+      "desc": "Lad faste kunder og virksomhedskunder betale månedligt, og se, hvad hver enkelt skylder."
+    },
+    {
+      "icon": "chart",
+      "title": "Dagens indtægt",
+      "desc": "Se, hvad der kom ind i dag, pr. ydelse og pr. betalingsmåde."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "I disken",
+      "title": "Hurtigt ind, hurtigt ud",
+      "body": "En kunde afleverer en pose skjorter og to dishdashaer. Vælg varerne fra din prisliste, tag imod betaling nu eller ved afhentning, og print eller del kvitteringen. Startkataloget kommer med vask og fold, rensning og presning, klar til at du tilpasser det til dine egne priser.",
+      "items": [
+        "Færdig prisliste til vaskeri",
+        "Betal nu eller ved afhentning",
+        "Kvitteringer på WhatsApp eller print"
+      ]
+    },
+    {
+      "eyebrow": "Leveringer og konti",
+      "title": "Lever tilbage og fakturér månedligt",
+      "body": "Send færdige ordrer afsted med en følgeseddel, og behold beviset for overdragelsen. Hoteller, klinikker og kontorer kan køre på konto og betale månedligt med et klart overblik over, hvad de skylder. Udviklet i Oman med OMR og 5 % moms indbygget.",
+      "items": [
+        "Følgesedler med bevis",
+        "Månedlige konti til faste kunder",
+        "Kontoudtog over det skyldige"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan jeg prissætte pr. stykke og pr. kilo?",
+      "a": "Ja. Hver ydelse har sin egen enhed, så en dishdasha prissættes pr. stykke og vask og fold pr. kilo."
+    },
+    {
+      "q": "Kan jeg levere ordrer til kunderne?",
+      "a": "Ja. Modulet Levering tilføjer følgesedler, så du kan sende ordrer afsted og beholde beviset for overdragelsen."
+    },
+    {
+      "q": "Kan et hotel eller et kontor betale månedligt?",
+      "a": "Ja. Læg salgene på kundens konto, og send én faktura eller ét kontoudtog i slutningen af måneden."
+    },
+    {
+      "q": "Kan jeg sende kvitteringer på WhatsApp?",
+      "a": "Ja. Del enhver kvittering eller faktura på WhatsApp eller e-mail."
+    },
+    {
+      "q": "Hvad koster det?",
+      "a": "Salg og fakturering er gratis for altid. Tilføj POS eller Levering, når du får brug for dem, og betal kun for de moduler."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Driv dit vaskeri fra én disk",
+  "ctaSub": "Start gratis med kvitteringer og fakturaer, og tilføj POS og leveringer, når du er klar.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

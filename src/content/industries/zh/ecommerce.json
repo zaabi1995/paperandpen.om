@@ -106,5 +106,7 @@
     "/features/accounting"
   ],
   "ctaTitle": "今天就理顺您的电商财务",
-  "ctaSub": "免费跟踪库存、开具贷项通知单，并计算真实利润率。"
+  "ctaSub": "免费跟踪库存、开具贷项通知单，并计算真实利润率。",
+  "signupTemplate": "ecommerce",
+  "signupModules": ["ecommerce", "inventory", "delivery"]
 }

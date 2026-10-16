@@ -1,0 +1,107 @@
+{
+  "locale": "ms",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Dobi & Cucian Kering",
+  "metaTitle": "Perisian Dobi & Cucian Kering: Tiket & Pengebilan · Paper & Pen",
+  "metaDescription": "Terima pakaian, letak harga mengikut helai atau kilogram, buat bil dalam OMR dengan VAT dan hantar semula kepada pelanggan. Perisian kaunter ringkas untuk dobi dan pencuci kering.",
+  "keywords": "perisian dobi, perisian cucian kering, perisian pengebilan dobi, pos dobi, invois pencuci kering, perisian penghantaran dobi",
+  "heroEyebrow": "Untuk dobi & pencuci kering",
+  "heroTitle": "Setiap helai masuk, <em class=\"text-copper-400 not-italic\">setiap helai dibayar</em>",
+  "heroSubtitle": "Letak harga dishdasha, kemeja, sut dan abaya mengikut helai atau basuh dan lipat mengikut kilogram, serahkan resit kepada pelanggan dan hantar semula pesanan. Paper & Pen memastikan kaunter, penghantaran dan buku akaun seiring.",
+  "heroBullets": [
+    "Harga mengikut helai atau kilogram",
+    "Resit di kaunter",
+    "Nota ambil dan hantar"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Resit kaunter",
+      "desc": "Tambah helaian, terima bayaran atau biarkan atas akaun, dan serahkan resit dalam beberapa saat."
+    },
+    {
+      "icon": "tag",
+      "title": "Senarai harga anda",
+      "desc": "Tetapkan harga bagi setiap dishdasha, kemeja, sut atau abaya, atau mengikut kilogram untuk basuh dan lipat."
+    },
+    {
+      "icon": "truck",
+      "title": "Ambil dan hantar",
+      "desc": "Hantar pesanan dengan nota penghantaran dan simpan bukti bahawa pelanggan menerimanya."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Resit WhatsApp",
+      "desc": "Hantar resit atau invois kepada pelanggan di WhatsApp dan bukannya kertas."
+    },
+    {
+      "icon": "wallet",
+      "title": "Akaun pelanggan",
+      "desc": "Biar pelanggan tetap dan korporat membayar setiap bulan dan lihat berapa banyak yang masih terhutang."
+    },
+    {
+      "icon": "chart",
+      "title": "Kutipan harian",
+      "desc": "Lihat apa yang masuk hari ini, mengikut perkhidmatan dan kaedah bayaran."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Di kaunter",
+      "title": "Masuk pantas, keluar pantas",
+      "body": "Seorang pelanggan menghantar sebeg kemeja dan dua dishdasha. Pilih item daripada senarai harga, terima bayaran sekarang atau semasa mengambil, dan cetak atau kongsi resit. Katalog permulaan dilengkapi item basuh dan lipat, cucian kering dan seterika, sedia untuk anda ubah mengikut harga sendiri.",
+      "items": [
+        "Senarai harga dobi siap sedia",
+        "Bayar sekarang atau semasa mengambil",
+        "Resit di WhatsApp atau cetak"
+      ]
+    },
+    {
+      "eyebrow": "Penghantaran dan akaun",
+      "title": "Hantar semula dan bil setiap bulan",
+      "body": "Hantar pesanan siap dengan nota penghantaran dan simpan bukti serah terima. Hotel, klinik dan pejabat boleh berurusan atas akaun dan membayar setiap bulan, dengan penyata yang jelas tentang jumlah terhutang. Dibina di Oman dengan OMR asli dan VAT 5%.",
+      "items": [
+        "Nota penghantaran dengan bukti",
+        "Akaun bulanan untuk pelanggan tetap",
+        "Penyata jumlah terhutang"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bolehkah saya letak harga mengikut helai dan kilogram?",
+      "a": "Ya. Setiap perkhidmatan mempunyai unitnya sendiri, jadi dishdasha dihargai setiap helai dan basuh serta lipat setiap kilogram."
+    },
+    {
+      "q": "Bolehkah saya menghantar pesanan kepada pelanggan?",
+      "a": "Ya. Modul Penghantaran menambah nota penghantaran, jadi anda boleh menghantar pesanan dan menyimpan bukti serah terima."
+    },
+    {
+      "q": "Bolehkah hotel atau pejabat membayar setiap bulan?",
+      "a": "Ya. Biarkan jualan atas akaun pelanggan dan hantar satu invois atau penyata pada akhir bulan."
+    },
+    {
+      "q": "Bolehkah saya menghantar resit di WhatsApp?",
+      "a": "Ya. Kongsi sebarang resit atau invois di WhatsApp atau melalui e-mel."
+    },
+    {
+      "q": "Berapakah kosnya?",
+      "a": "Jualan dan Invois percuma selamanya. Tambah POS atau Penghantaran apabila anda memerlukannya dan bayar hanya untuk modul itu."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Jalankan dobi anda dari satu kaunter",
+  "ctaSub": "Mula percuma dengan resit dan invois, kemudian tambah POS dan penghantaran apabila anda sudah bersedia.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

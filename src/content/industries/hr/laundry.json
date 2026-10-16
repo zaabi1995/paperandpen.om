@@ -1,0 +1,107 @@
+{
+  "locale": "hr",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Praonice i kemijsko čišćenje",
+  "metaTitle": "Softver za praonice i kemijsko čišćenje: nalozi i naplata · Paper & Pen",
+  "metaDescription": "Preuzmite komade, cijenite po komadu ili po kilogramu, naplaćujte u OMR-u s PDV-om i dostavite natrag kupcu. Jednostavan softver za pult praonica i kemijskih čistionica.",
+  "keywords": "softver za praonicu, softver za kemijsko čišćenje, softver za naplatu u praonici, blagajna za praonicu, fakturiranje kemijske čistionice, softver za dostavu iz praonice",
+  "heroEyebrow": "Za praonice i kemijske čistionice",
+  "heroTitle": "Svaki komad unutra, <em class=\"text-copper-400 not-italic\">svaki komad plaćen</em>",
+  "heroSubtitle": "Cijenite dishdashe, košulje, odijela i abaje po komadu ili pranje i slaganje po kilogramu, predajte kupcu račun i dostavite narudžbu natrag. Paper & Pen drži pult, dostave i knjige ukorak.",
+  "heroBullets": [
+    "Cijena po komadu ili po kilogramu",
+    "Računi na pultu",
+    "Otpremnice za preuzimanje i dostavu"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Računi na pultu",
+      "desc": "Dodajte komade, naplatite ili ostavite na račun i za nekoliko sekundi predajte račun."
+    },
+    {
+      "icon": "tag",
+      "title": "Vaš cjenik",
+      "desc": "Postavite cijenu po dishdashi, košulji, odijelu ili abaji ili po kilogramu za pranje i slaganje."
+    },
+    {
+      "icon": "truck",
+      "title": "Preuzimanje i dostava",
+      "desc": "Pošaljite narudžbe uz otpremnicu i čuvajte dokaz da ih je kupac primio."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Računi na WhatsAppu",
+      "desc": "Pošaljite kupcu račun na WhatsAppu umjesto na papiru."
+    },
+    {
+      "icon": "wallet",
+      "title": "Računi kupaca",
+      "desc": "Neka stalni i korporativni kupci plaćaju mjesečno, a vi vidite koliko je svaki dužan."
+    },
+    {
+      "icon": "chart",
+      "title": "Dnevni promet",
+      "desc": "Vidite što je danas stiglo, po usluzi i načinu plaćanja."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Na pultu",
+      "title": "Brzo unutra, brzo van",
+      "body": "Kupac donosi vreću košulja i dvije dishdashe. Odaberite artikle iz cjenika, naplatite odmah ili pri preuzimanju te ispišite ili podijelite račun. Početni katalog dolazi s pranjem i slaganjem, kemijskim čišćenjem i glačanjem, spremnim da ga uredite prema svojim cijenama.",
+      "items": [
+        "Gotov cjenik za praonicu",
+        "Plaćanje odmah ili pri preuzimanju",
+        "Računi na WhatsAppu ili ispis"
+      ]
+    },
+    {
+      "eyebrow": "Dostave i računi",
+      "title": "Dostavite natrag i naplaćujte mjesečno",
+      "body": "Gotove narudžbe šaljite uz otpremnicu i čuvajte dokaz o predaji. Hoteli, klinike i uredi mogu poslovati na račun i plaćati mjesečno, uz jasan izvadak onoga što dugujete. Izrađeno u Omanu, s izvornom podrškom za OMR i PDV od 5%.",
+      "items": [
+        "Otpremnice s dokazom",
+        "Mjesečni računi za stalne kupce",
+        "Izvadci o dugovanjima"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mogu li cijeniti po komadu i po kilogramu?",
+      "a": "Da. Svaka usluga ima svoju mjernu jedinicu, pa se dishdasha cijeni po komadu, a pranje i slaganje po kilogramu."
+    },
+    {
+      "q": "Mogu li dostavljati narudžbe kupcima?",
+      "a": "Da. Modul Dostava dodaje otpremnice, pa možete slati narudžbe i čuvati dokaz o predaji."
+    },
+    {
+      "q": "Može li hotel ili ured plaćati mjesečno?",
+      "a": "Da. Ostavite prodaju na računu kupca i na kraju mjeseca pošaljite jedan račun ili izvadak."
+    },
+    {
+      "q": "Mogu li slati račune na WhatsAppu?",
+      "a": "Da. Podijelite bilo koji račun ili potvrdu na WhatsAppu ili e-poštom."
+    },
+    {
+      "q": "Koliko košta?",
+      "a": "Prodaja i fakturiranje zauvijek su besplatni. Dodajte Blagajnu ili Dostavu kad vam zatrebaju i plaćajte samo te module."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Vodite praonicu s jednog pulta",
+  "ctaSub": "Počnite besplatno s računima i fakturama, a zatim dodajte blagajnu i dostave kad budete spremni.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

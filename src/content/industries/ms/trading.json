@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Jalankan perdagangan anda pada satu lejar yang bersih",
-  "ctaSub": "Mula percuma dengan sebut harga dan invois, kemudian tambah Inventori dan Perakaunan apabila perdagangan anda berkembang."
+  "ctaSub": "Mula percuma dengan sebut harga dan invois, kemudian tambah Inventori dan Perakaunan apabila perdagangan anda berkembang.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

@@ -1,0 +1,107 @@
+{
+  "locale": "pl",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Pralnie i pralnie chemiczne",
+  "metaTitle": "Program dla pralni i pralni chemicznych: bony i rozliczenia · Paper & Pen",
+  "metaDescription": "Przyjmuj odzież, wyceniaj za sztukę lub za kilogram, wystawiaj faktury w OMR z VAT i dostarczaj z powrotem do klienta. Prosty program do lady dla pralni i pralni chemicznych.",
+  "keywords": "program dla pralni, program dla pralni chemicznej, fakturowanie pralnia, kasa dla pralni, fakturowanie pralnia chemiczna, program do dostaw dla pralni",
+  "heroEyebrow": "Dla pralni i pralni chemicznych",
+  "heroTitle": "Każda sztuka przyjęta, <em class=\"text-copper-400 not-italic\">każda sztuka opłacona</em>",
+  "heroSubtitle": "Wyceniaj dishdasze, koszule, garnitury i abaje za sztukę albo pranie i składanie za kilogram, wydaj klientowi pokwitowanie i dostarcz zamówienie z powrotem. Paper & Pen trzyma ladę, dostawy i księgi w zgodzie.",
+  "heroBullets": [
+    "Cena za sztukę lub za kilogram",
+    "Pokwitowania przy ladzie",
+    "Dokumenty odbioru i dostawy"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Pokwitowania przy ladzie",
+      "desc": "Dodaj sztuki, przyjmij płatność lub zapisz na konto i wydaj pokwitowanie w kilka sekund."
+    },
+    {
+      "icon": "tag",
+      "title": "Twój cennik",
+      "desc": "Ustaw cenę za dishdaszę, koszulę, garnitur lub abaję albo za kilogram prania i składania."
+    },
+    {
+      "icon": "truck",
+      "title": "Odbiór i dostawa",
+      "desc": "Wysyłaj zamówienia z dokumentem dostawy i zachowaj dowód, że klient je otrzymał."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Pokwitowania na WhatsApp",
+      "desc": "Wyślij klientowi pokwitowanie lub fakturę na WhatsApp zamiast na papierze."
+    },
+    {
+      "icon": "wallet",
+      "title": "Konta klientów",
+      "desc": "Pozwól stałym klientom i firmom płacić miesięcznie i sprawdzaj, ile każdy jest winien."
+    },
+    {
+      "icon": "chart",
+      "title": "Dzienne wpływy",
+      "desc": "Zobacz, co dziś wpłynęło, według usługi i metody płatności."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Przy ladzie",
+      "title": "Szybko przyjąć, szybko wydać",
+      "body": "Klient zostawia torbę koszul i dwie dishdasze. Wybierz pozycje z cennika, przyjmij płatność teraz lub przy odbiorze i wydrukuj albo udostępnij pokwitowanie. Katalog startowy ma pranie i składanie, pranie chemiczne i prasowanie, gotowe do edycji pod Twoje ceny.",
+      "items": [
+        "Gotowy cennik pralni",
+        "Płatność teraz lub przy odbiorze",
+        "Pokwitowania na WhatsApp lub w druku"
+      ]
+    },
+    {
+      "eyebrow": "Dostawy i konta",
+      "title": "Dostarczaj z powrotem i fakturuj miesięcznie",
+      "body": "Wysyłaj gotowe zamówienia z dokumentem dostawy i zachowaj dowód przekazania. Hotele, kliniki i biura mogą działać na koncie i płacić miesięcznie, z czytelnym zestawieniem należności. Stworzony w Omanie z natywną obsługą OMR i VAT 5%.",
+      "items": [
+        "Dokumenty dostawy z dowodem",
+        "Konta miesięczne dla stałych klientów",
+        "Zestawienia należności"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy mogę wyceniać za sztukę i za kilogram?",
+      "a": "Tak. Każda usługa ma własną jednostkę, więc dishdasza jest wyceniana za sztukę, a pranie i składanie za kilogram."
+    },
+    {
+      "q": "Czy mogę dostarczać zamówienia do klientów?",
+      "a": "Tak. Moduł Dostawy dodaje dokumenty dostawy, więc możesz wysyłać zamówienia i zachować dowód przekazania."
+    },
+    {
+      "q": "Czy hotel lub biuro może płacić miesięcznie?",
+      "a": "Tak. Zostaw sprzedaż na koncie klienta i wyślij jedną fakturę lub zestawienie na koniec miesiąca."
+    },
+    {
+      "q": "Czy mogę wysyłać pokwitowania na WhatsApp?",
+      "a": "Tak. Udostępnij dowolne pokwitowanie lub fakturę na WhatsApp albo e-mail."
+    },
+    {
+      "q": "Ile to kosztuje?",
+      "a": "Sprzedaż i faktury są bezpłatne na zawsze. Dodaj Kasę lub Dostawy, gdy ich potrzebujesz, i płać tylko za te moduły."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Prowadź pralnię z jednej lady",
+  "ctaSub": "Zacznij za darmo od pokwitowań i faktur, a potem dodaj kasę i dostawy, gdy będziesz gotowy.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

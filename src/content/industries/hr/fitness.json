@@ -1,0 +1,108 @@
+{
+  "locale": "hr",
+  "slug": "fitness",
+  "order": 17,
+  "title": "Teretane i fitness studiji",
+  "metaTitle": "Softver za teretane i fitness studije: članovi i naplata · Paper & Pen",
+  "metaDescription": "Prodajte članarine, ulaznice za treninge i osobne treninge, držite sve članove na jednom popisu, naplaćujte na recepciji i nagradite stalne članove. Za teretane te yoga i pilates studije.",
+  "keywords": "softver za upravljanje teretanom, softver za fitness studio, softver za naplatu u teretani, upravljanje članarinama, softver za yoga studio, softver za pilates studio, blagajna za teretanu",
+  "heroEyebrow": "Za teretane te yoga i pilates studije",
+  "heroTitle": "Članovi unutra, <em class=\"text-copper-400 not-italic\">uplate unutra</em>",
+  "heroSubtitle": "Prodajte članarine, ulaznice za treninge i osobne treninge, naplaćujte na recepciji i znajte tko je platio. Paper & Pen drži vaše članove, prodaju i knjige na okupu, pa vrijeme provodite u dvorani, a ne uz papire.",
+  "heroBullets": [
+    "Članarine, ulaznice i dnevne ulaznice",
+    "Naplata na recepciji",
+    "Bodovi vjernosti koji vraćaju članove"
+  ],
+  "features": [
+    {
+      "icon": "users",
+      "title": "Popis članova",
+      "desc": "Svaki član s kontaktima, kupnjama i uplatama na jednom mjestu."
+    },
+    {
+      "icon": "receipt",
+      "title": "Prodaja na recepciji",
+      "desc": "Prodajte dnevnu ulaznicu, trening ili shake na recepciji i za nekoliko sekundi predajte račun."
+    },
+    {
+      "icon": "calendar",
+      "title": "Članarine i ulaznice",
+      "desc": "Prodajte mjesečne, tromjesečne i godišnje članarine te ulaznice za treninge kao gotove artikle."
+    },
+    {
+      "icon": "refresh",
+      "title": "Ponavljajući računi",
+      "desc": "Mjesečnu članarinu naplaćujte automatski umjesto da je svaki mjesec tražite."
+    },
+    {
+      "icon": "tag",
+      "title": "Nagrade za vjernost",
+      "desc": "Dajte bodove za svaku kupnju i pustite stalne članove da ih potroše, pa se stalno vraćaju."
+    },
+    {
+      "icon": "chart",
+      "title": "Prihod po usluzi",
+      "desc": "Vidite što najviše zarađuje: članarine, treninzi ili osobni treninzi."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Recepcija",
+      "title": "Pult koji prodaje, a ne piše",
+      "body": "Član dolazi obnoviti članarinu, posjetitelj želi dnevnu ulaznicu, stalni član kupuje paket treninga. Svaki je slučaj nekoliko dodira na pultu uz račun na WhatsAppu ili na papiru, a svaka prodaja ide u knjige bez ponovnog upisivanja. Početni katalog dolazi s već postavljenim članarinama, ulaznicama, treninzima i osobnim treninzima koje možete urediti.",
+      "items": [
+        "Gotovi artikli za članarine i ulaznice",
+        "Računi na WhatsAppu ili ispis",
+        "Svaka prodaja automatski u knjigama"
+      ]
+    },
+    {
+      "eyebrow": "Zadržite članove",
+      "title": "Upoznajte članove i vratite ih",
+      "body": "Vidite tko je što kupio i kada, naplaćujte mjesečne članarine ponavljajućim računima i nagradite stalne članove bodovima vjernosti koje mogu potrošiti na recepciji. Izrađeno u Omanu, s izvornom podrškom za OMR i PDV od 5%, a spremno za bilo koju valutu i poreznu stopu.",
+      "items": [
+        "Povijest kupnji po članu",
+        "Ponavljajuća naplata članarina",
+        "Bodovi koje članovi mogu potrošiti"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Radi li i za yoga i pilates studije?",
+      "a": "Da. Pri registraciji odaberite paket Yoga i pilates i krećete s pojedinačnim treninzima, ulaznicama za treninge i mjesečnim neograničenim članarinama. Odaberite Teretana i fitness za članarine, dnevne ulaznice i osobne treninge."
+    },
+    {
+      "q": "Mogu li naplaćivati članarine svaki mjesec?",
+      "a": "Da. Ponavljajućim računima naplaćujte članarinu po rasporedu, a uplatu evidentirajte kad stigne."
+    },
+    {
+      "q": "Mogu li prodavati na recepciji?",
+      "a": "Da. Modul Blagajna omogućuje prodaju ulaznica, treninga i proizvoda na recepciji uz predaju računa."
+    },
+    {
+      "q": "Postoji li program vjernosti?",
+      "a": "Da. Modul Vjernost daje članovima bodove za kupnje koje mogu potrošiti kasnije."
+    },
+    {
+      "q": "Je li početak besplatan?",
+      "a": "Prodaja i fakturiranje zauvijek su besplatni. Dodajte CRM, Blagajnu ili Vjernost kad vam zatrebaju i plaćajte samo te module."
+    }
+  ],
+  "related": [
+    "/features/sales-crm",
+    "/invoicing/recurring-invoices",
+    "/invoicing/payment-receipts",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Vodite teretanu ili studio bez papirologije",
+  "ctaSub": "Počnite besplatno s računima i potvrdama, a zatim dodajte recepciju, popis članova i vjernost kad vam zatrebaju.",
+  "signupTemplate": "gym",
+  "signupModules": [
+    "crm",
+    "pos",
+    "loyalty"
+  ]
+}

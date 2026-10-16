@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Patakbuhin ang trading mo sa iisang malinis na ledger",
-  "ctaSub": "Magsimula nang libre sa quotation at invoicing, saka idagdag ang Imbentaryo at Accounting habang lumalaki ang negosyo mo."
+  "ctaSub": "Magsimula nang libre sa quotation at invoicing, saka idagdag ang Imbentaryo at Accounting habang lumalaki ang negosyo mo.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

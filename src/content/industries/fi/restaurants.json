@@ -31,5 +31,7 @@
   ],
   "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
   "ctaTitle": "Palvele nopeasti, laske fiksusti",
-  "ctaSub": "Aloita ilmaiseksi kuiteilla ja laskutuksella ja lisää Varastonhallinta ja reseptien kustannuslaskenta, niin raaka-ainekustannukset pysyvät hallinnassa."
+  "ctaSub": "Aloita ilmaiseksi kuiteilla ja laskutuksella ja lisää Varastonhallinta ja reseptien kustannuslaskenta, niin raaka-ainekustannukset pysyvät hallinnassa.",
+  "signupTemplate": "restaurant",
+  "signupModules": ["pos", "inventory"]
 }

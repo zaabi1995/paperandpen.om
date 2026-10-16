@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "하나의 깔끔한 원장으로 무역을 운영하세요",
-  "ctaSub": "견적서와 인보이스로 무료로 시작하고, 거래가 커지면 재고와 회계를 추가하세요."
+  "ctaSub": "견적서와 인보이스로 무료로 시작하고, 거래가 커지면 재고와 회계를 추가하세요.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

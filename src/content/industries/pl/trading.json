@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Prowadź handel w jednej czystej księdze",
-  "ctaSub": "Zacznij za darmo od ofert i faktur, a potem dodaj Magazyn i Księgowość, gdy Twój handel się rozwinie."
+  "ctaSub": "Zacznij za darmo od ofert i faktur, a potem dodaj Magazyn i Księgowość, gdy Twój handel się rozwinie.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

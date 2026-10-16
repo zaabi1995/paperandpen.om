@@ -31,5 +31,7 @@
   ],
   "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
   "ctaTitle": "出餐快，算本精",
-  "ctaSub": "從免費的收據與結帳開始，再加入庫存和食譜成本計算，掌控食材成本。"
+  "ctaSub": "從免費的收據與結帳開始，再加入庫存和食譜成本計算，掌控食材成本。",
+  "signupTemplate": "restaurant",
+  "signupModules": ["pos", "inventory"]
 }

@@ -1,0 +1,108 @@
+{
+  "locale": "tl",
+  "slug": "fitness",
+  "order": 17,
+  "title": "Gym at Fitness Studio",
+  "metaTitle": "Software para sa Gym at Fitness Studio: Miyembro at Billing · Paper & Pen",
+  "metaDescription": "Magbenta ng membership, class pass at personal training, ilagay ang bawat miyembro sa iisang listahan, tumanggap ng bayad sa desk at gantimpalaan ang mga suki. Para sa gym, yoga at Pilates studio.",
+  "keywords": "software sa pamamahala ng gym, software para sa fitness studio, billing software para sa gym, pamamahala ng membership, software para sa yoga studio, software para sa pilates studio, gym pos",
+  "heroEyebrow": "Para sa gym, yoga at Pilates studio",
+  "heroTitle": "Pasok ang miyembro, <em class=\"text-copper-400 not-italic\">pasok ang bayad</em>",
+  "heroSubtitle": "Magbenta ng membership, class pass at personal training, tumanggap ng bayad sa desk at alamin kung sino ang bayad na. Pinagsasama ng Paper & Pen ang mga miyembro, benta at libro mo para nasa sahig ng gym ang oras mo, hindi sa papeles.",
+  "heroBullets": [
+    "Membership, pass at day pass",
+    "Bayad sa front desk",
+    "Loyalty points na nagbabalik ng mga miyembro"
+  ],
+  "features": [
+    {
+      "icon": "users",
+      "title": "Listahan ng miyembro",
+      "desc": "Bawat miyembro, kasama ang contact details, binili at bayad, nasa iisang lugar."
+    },
+    {
+      "icon": "receipt",
+      "title": "Benta sa front desk",
+      "desc": "Magbenta ng day pass, class o shake sa desk at iabot ang resibo sa ilang segundo."
+    },
+    {
+      "icon": "calendar",
+      "title": "Membership at pass",
+      "desc": "Magbenta ng buwanan, quarterly at taunang membership at class pass bilang mga item na handa na."
+    },
+    {
+      "icon": "refresh",
+      "title": "Paulit-ulit na invoice",
+      "desc": "Awtomatikong i-bill ang buwanang membership kaysa habulin ito tuwing buwan."
+    },
+    {
+      "icon": "tag",
+      "title": "Loyalty reward",
+      "desc": "Magbigay ng points sa bawat bili at hayaang gastusin ito ng mga suki, para bumalik sila palagi."
+    },
+    {
+      "icon": "chart",
+      "title": "Kita ayon sa serbisyo",
+      "desc": "Makita kung ano ang pinakamalaki ang kita: membership, class o personal training."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Ang front desk",
+      "title": "Desk na nagbebenta, hindi desk na nagsusulat",
+      "body": "May miyembrong magre-renew, may bisitang gustong mag-day pass, may suking bibili ng class pack. Ilang tap lang sa desk ang bawat isa, may resibo sa WhatsApp o papel, at pumapasok ang bawat benta sa libro mo nang walang uulitin. May kasamang starter catalogue na may membership, pass, class at personal training na handa mong i-edit.",
+      "items": [
+        "Mga item ng membership at pass na handa na",
+        "Resibo sa WhatsApp o print",
+        "Kusang pasok sa libro ang bawat benta"
+      ]
+    },
+    {
+      "eyebrow": "Panatilihin ang mga miyembro",
+      "title": "Kilalanin ang mga miyembro mo at ibalik sila",
+      "body": "Makita kung sino ang bumili ng ano at kailan, i-bill ang buwanang membership gamit ang paulit-ulit na invoice, at gantimpalaan ang mga suki ng loyalty points na magagastos nila sa desk. Gawa sa Oman na may native na OMR at 5% VAT, at handa para sa kahit anong currency o tax rate.",
+      "items": [
+        "Kasaysayan ng bilihin bawat miyembro",
+        "Paulit-ulit na billing ng membership",
+        "Points na magagastos ng mga miyembro"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Gumagana ba ito para sa yoga at Pilates studio rin?",
+      "a": "Oo. Piliin ang Yoga & Pilates pack sa pag-sign up at magsisimula ka na sa drop-in class, class pass at buwanang unlimited na membership. Piliin ang Gym & Fitness para sa membership, day pass at personal training."
+    },
+    {
+      "q": "Puwede ba akong mag-bill ng membership kada buwan?",
+      "a": "Oo. Gamitin ang paulit-ulit na invoice para i-bill ang membership ayon sa iskedyul, saka itala ang bayad kapag pumasok na ito."
+    },
+    {
+      "q": "Puwede ba akong magbenta sa front desk?",
+      "a": "Oo. Hinahayaan ka ng module na POS na magbenta ng pass, class at produkto sa desk at mag-abot ng resibo."
+    },
+    {
+      "q": "May loyalty programme ba?",
+      "a": "Oo. Binibigyan ng module na Loyalty ang mga miyembro ng points sa bilihin na magagastos nila sa susunod."
+    },
+    {
+      "q": "Libre ba ang simula?",
+      "a": "Libre habambuhay ang Benta at Invoicing. Idagdag ang CRM, POS o Loyalty kapag kailangan mo na at bayaran lang ang mga module na iyon."
+    }
+  ],
+  "related": [
+    "/features/sales-crm",
+    "/invoicing/recurring-invoices",
+    "/invoicing/payment-receipts",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Patakbuhin ang gym o studio mo nang walang papeles",
+  "ctaSub": "Magsimula nang libre sa invoice at resibo, saka idagdag ang front desk, listahan ng miyembro at loyalty kapag kailangan mo na.",
+  "signupTemplate": "gym",
+  "signupModules": [
+    "crm",
+    "pos",
+    "loyalty"
+  ]
+}

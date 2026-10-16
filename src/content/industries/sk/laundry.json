@@ -1,0 +1,107 @@
+{
+  "locale": "sk",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Práčovne a chemické čistiarne",
+  "metaTitle": "Softvér pre práčovne a čistiarne: lístky a fakturácia · Paper & Pen",
+  "metaDescription": "Prijímajte kusy, ocenite ich za kus alebo za kilo, fakturujte v OMR s DPH a doručte späť zákazníkovi. Jednoduchý softvér na pult pre práčovne a čistiarne.",
+  "keywords": "softvér pre práčovňu, softvér pre čistiareň, fakturácia pre práčovňu, pokladňa pre práčovňu, fakturácia pre čistiareň, softvér na doručovanie pre práčovňu",
+  "heroEyebrow": "Pre práčovne a čistiarne",
+  "heroTitle": "Každý kus prijatý, <em class=\"text-copper-400 not-italic\">každý kus zaplatený</em>",
+  "heroSubtitle": "Ocenite dišdašy, košele, obleky a abáje za kus alebo pranie a skladanie za kilo, odovzdajte zákazníkovi účtenku a doručte objednávku späť. Paper & Pen drží pult, doručenie aj účtovníctvo v súlade.",
+  "heroBullets": [
+    "Ceny za kus alebo za kilo",
+    "Účtenky pri pulte",
+    "Dodacie listy pri vyzdvihnutí a doručení"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Účtenky pri pulte",
+      "desc": "Pridajte kusy, prijmite platbu alebo nechajte na účet a odovzdajte účtenku za pár sekúnd."
+    },
+    {
+      "icon": "tag",
+      "title": "Váš cenník",
+      "desc": "Nastavte cenu za dišdašu, košeľu, oblek či abáju alebo za kilo pri praní a skladaní."
+    },
+    {
+      "icon": "truck",
+      "title": "Vyzdvihnutie a doručenie",
+      "desc": "Odošlite objednávky s dodacím listom a majte doklad, že ich zákazník prevzal."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Účtenky na WhatsApp",
+      "desc": "Pošlite zákazníkovi účtenku alebo faktúru cez WhatsApp namiesto papiera."
+    },
+    {
+      "icon": "wallet",
+      "title": "Účty zákazníkov",
+      "desc": "Nechajte stálych a firemných zákazníkov platiť mesačne a vidieť, koľko každý dlhuje."
+    },
+    {
+      "icon": "chart",
+      "title": "Denné tržby",
+      "desc": "Uvidíte, čo dnes prišlo, podľa služby aj spôsobu platby."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Pri pulte",
+      "title": "Rýchlo dnu, rýchlo von",
+      "body": "Zákazník nechá tašku košieľ a dve dišdašy. Vyberte položky z cenníka, prijmite platbu hneď alebo pri vyzdvihnutí a vytlačte alebo zdieľajte účtenku. Štartovací katalóg obsahuje pranie a skladanie, chemické čistenie a žehlenie, ktoré si upravíte podľa vlastných cien.",
+      "items": [
+        "Hotový cenník pre práčovňu",
+        "Platba hneď alebo pri vyzdvihnutí",
+        "Účtenky na WhatsApp alebo tlačené"
+      ]
+    },
+    {
+      "eyebrow": "Doručenie a účty",
+      "title": "Doručte späť a fakturujte mesačne",
+      "body": "Hotové objednávky odošlite s dodacím listom a uschovajte doklad o odovzdaní. Hotely, kliniky a kancelárie môžu fungovať na účet a platiť mesačne, s prehľadným výpisom, koľko dlhujú. Vytvorené v Ománe s natívnou podporou OMR a 5 % DPH.",
+      "items": [
+        "Dodacie listy s dokladom",
+        "Mesačné účty pre stálych zákazníkov",
+        "Výpisy toho, čo sa dlhuje"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Môžem oceňovať za kus aj za kilo?",
+      "a": "Áno. Každá služba má vlastnú jednotku, takže dišdaša sa oceňuje za kus a pranie a skladanie za kilo."
+    },
+    {
+      "q": "Môžem doručovať objednávky zákazníkom?",
+      "a": "Áno. Modul Doručovanie pridáva dodacie listy, takže objednávky odošlete a máte doklad o odovzdaní."
+    },
+    {
+      "q": "Môže hotel alebo kancelária platiť mesačne?",
+      "a": "Áno. Nechajte predaje na účte zákazníka a na konci mesiaca pošlite jednu faktúru alebo výpis."
+    },
+    {
+      "q": "Môžem posielať účtenky cez WhatsApp?",
+      "a": "Áno. Každú účtenku alebo faktúru zdieľajte cez WhatsApp alebo e-mailom."
+    },
+    {
+      "q": "Koľko to stojí?",
+      "a": "Predaj a fakturácia je navždy zadarmo. Moduly Pokladňa alebo Doručovanie pridáte, keď ich potrebujete, a platíte len za ne."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Veďte práčovňu z jedného pultu",
+  "ctaSub": "Začnite zadarmo s účtenkami a faktúrami a potom pridajte pokladňu a doručovanie, keď budete pripravení.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

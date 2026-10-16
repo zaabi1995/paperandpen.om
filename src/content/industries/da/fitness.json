@@ -1,0 +1,108 @@
+{
+  "locale": "da",
+  "slug": "fitness",
+  "order": 17,
+  "title": "Fitnesscentre og studier",
+  "metaTitle": "Software til fitnesscentre og studier: medlemmer og afregning · Paper & Pen",
+  "metaDescription": "Sælg medlemskaber, klippekort og personlig træning, hold hvert medlem i én liste, tag imod betaling i receptionen og beløn stamgæsterne. Til fitnesscentre samt yoga- og pilatesstudier.",
+  "keywords": "software til fitnesscenter, software til fitnessstudie, afregningssoftware til fitnesscenter, medlemsstyring, software til yogastudie, software til pilatesstudie, pos til fitnesscenter",
+  "heroEyebrow": "Til fitnesscentre samt yoga- og pilatesstudier",
+  "heroTitle": "Medlemmer ind, <em class=\"text-copper-400 not-italic\">betalinger ind</em>",
+  "heroSubtitle": "Sælg medlemskaber, klippekort og personlig træning, tag imod betaling i receptionen, og vid, hvem der har betalt. Paper & Pen samler dine medlemmer, salg og regnskab, så du bruger tiden på gulvet og ikke på papirarbejde.",
+  "heroBullets": [
+    "Medlemskaber, kort og dagskort",
+    "Betaling i receptionen",
+    "Loyalitetspoint, der får medlemmerne tilbage"
+  ],
+  "features": [
+    {
+      "icon": "users",
+      "title": "Medlemsliste",
+      "desc": "Hvert medlem med kontaktoplysninger, køb og betalinger samlet ét sted."
+    },
+    {
+      "icon": "receipt",
+      "title": "Salg i receptionen",
+      "desc": "Sælg et dagskort, en time eller en shake i receptionen, og aflevér en kvittering på sekunder."
+    },
+    {
+      "icon": "calendar",
+      "title": "Medlemskaber og kort",
+      "desc": "Sælg månedlige, kvartalsvise og årlige medlemskaber og klippekort som færdige varer."
+    },
+    {
+      "icon": "refresh",
+      "title": "Gentagne fakturaer",
+      "desc": "Fakturér et månedligt medlemskab automatisk i stedet for at jagte betalingen hver måned."
+    },
+    {
+      "icon": "tag",
+      "title": "Loyalitetsbelønninger",
+      "desc": "Giv point på hvert køb, og lad stamgæsterne bruge dem, så de bliver ved med at komme."
+    },
+    {
+      "icon": "chart",
+      "title": "Omsætning pr. ydelse",
+      "desc": "Se, hvad der tjener mest: medlemskaber, hold eller personlig træning."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Receptionen",
+      "title": "En reception, der sælger, ikke en reception, der skriver",
+      "body": "Et medlem kommer for at forny, en gæst vil have et dagskort, en stamgæst køber et klippekort. Hver gang er det få tryk i receptionen med en kvittering på WhatsApp eller papir, og hvert salg havner i dit regnskab uden at skulle tastes igen. Startkataloget kommer med medlemskaber, kort, hold og personlig træning, der allerede er sat op, så du kan tilpasse dem.",
+      "items": [
+        "Færdige varer til medlemskaber og kort",
+        "Kvitteringer på WhatsApp eller print",
+        "Hvert salg i regnskabet automatisk"
+      ]
+    },
+    {
+      "eyebrow": "Behold medlemmerne",
+      "title": "Kend dine medlemmer, og få dem tilbage",
+      "body": "Se, hvem der har købt hvad og hvornår, fakturér månedlige medlemskaber med gentagne fakturaer, og beløn stamgæsterne med loyalitetspoint, som de kan bruge i receptionen. Udviklet i Oman med OMR og 5 % moms indbygget og klar til enhver valuta eller momssats.",
+      "items": [
+        "Købshistorik pr. medlem",
+        "Gentagen fakturering af medlemskaber",
+        "Point, som medlemmer kan bruge"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Virker det også til yoga- og pilatesstudier?",
+      "a": "Ja. Vælg pakken Yoga og pilates ved oprettelsen, så starter du med drop-in-hold, klippekort og månedlige medlemskaber uden begrænsning. Vælg Fitness for medlemskaber, dagskort og personlig træning."
+    },
+    {
+      "q": "Kan jeg fakturere medlemskaber hver måned?",
+      "a": "Ja. Brug gentagne fakturaer til at fakturere et medlemskab efter en plan, og registrér betalingen, når den kommer ind."
+    },
+    {
+      "q": "Kan jeg sælge i receptionen?",
+      "a": "Ja. Modulet POS lader dig sælge kort, hold og produkter i receptionen og aflevere en kvittering."
+    },
+    {
+      "q": "Er der et loyalitetsprogram?",
+      "a": "Ja. Modulet Loyalitet giver medlemmerne point på køb, som de kan bruge senere."
+    },
+    {
+      "q": "Er det gratis at starte?",
+      "a": "Salg og fakturering er gratis for altid. Tilføj CRM, POS eller Loyalitet, når du får brug for dem, og betal kun for de moduler."
+    }
+  ],
+  "related": [
+    "/features/sales-crm",
+    "/invoicing/recurring-invoices",
+    "/invoicing/payment-receipts",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Driv dit fitnesscenter eller studie uden papirarbejdet",
+  "ctaSub": "Start gratis med fakturaer og kvitteringer, og tilføj receptionen, medlemslisten og loyalitet, når du får brug for dem.",
+  "signupTemplate": "gym",
+  "signupModules": [
+    "crm",
+    "pos",
+    "loyalty"
+  ]
+}

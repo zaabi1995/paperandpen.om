@@ -1,0 +1,107 @@
+{
+  "locale": "et",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Pesumajad ja keemiline puhastus",
+  "metaTitle": "Pesumaja ja keemilise puhastuse tarkvara: tšekid ja arveldus · Paper & Pen",
+  "metaDescription": "Võta riided vastu, hinnasta tüki või kilo järgi, arvelda OMR-is käibemaksuga ja toimeta kliendile tagasi. Lihtne letitarkvara pesumajadele ja keemilistele puhastustele.",
+  "keywords": "pesumaja tarkvara, keemilise puhastuse tarkvara, pesumaja arveldustarkvara, pesumaja pos, keemilise puhastuse arvete koostamine, pesumaja tarnetarkvara",
+  "heroEyebrow": "Pesumajadele ja keemilistele puhastustele",
+  "heroTitle": "Iga tükk sisse, <em class=\"text-copper-400 not-italic\">iga tükk tasutud</em>",
+  "heroSubtitle": "Hinnasta dišdašad, särgid, ülikonnad ja abajad tüki või pesu ja voltimine kilo järgi, anna kliendile tšekk ja toimeta tellimus tagasi. Paper & Pen hoiab leti, tarned ja raamatupidamise sünkroonis.",
+  "heroBullets": [
+    "Hind tüki või kilo järgi",
+    "Tšekid letis",
+    "Äraviimise ja tarne saatelehed"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Tšekid letis",
+      "desc": "Lisa tükid, võta tasu või jäta arvele ja anna tšekk sekunditega."
+    },
+    {
+      "icon": "tag",
+      "title": "Sinu hinnakiri",
+      "desc": "Määra hind dišdaša, särgi, ülikonna või abaja kohta või kilo kohta pesu ja voltimise puhul."
+    },
+    {
+      "icon": "truck",
+      "title": "Äraviimine ja tarne",
+      "desc": "Saada tellimused teele saatelehega ja hoia tõendit, et klient need kätte sai."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Tšekid WhatsAppis",
+      "desc": "Saada tšekk või arve kliendile WhatsAppis paberi asemel."
+    },
+    {
+      "icon": "wallet",
+      "title": "Kliendikontod",
+      "desc": "Lase püsi- ja ettevõttekliendil maksta kuus ning näe, mis iga klient võlgneb."
+    },
+    {
+      "icon": "chart",
+      "title": "Päevatulu",
+      "desc": "Näe, mis täna laekus, teenuse ja makseviisi kaupa."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Letis",
+      "title": "Kiiresti sisse, kiiresti välja",
+      "body": "Klient jätab kotitäie särke ja kaks dišdašat. Vali kaubad oma hinnakirjast, võta tasu kohe või äraviimisel ning prindi või jaga tšekk. Algkataloogis on pesu ja voltimine, keemiline puhastus ja triikimine, mida saad oma hindadega muuta.",
+      "items": [
+        "Valmis pesumaja hinnakiri",
+        "Maksa kohe või äraviimisel",
+        "Tšekid WhatsAppis või prinditult"
+      ]
+    },
+    {
+      "eyebrow": "Tarned ja kontod",
+      "title": "Toimeta tagasi ja arvelda kuuti",
+      "body": "Saada valmis tellimused teele saatelehega ja hoia üleandmise tõendit. Hotellid, kliinikud ja kontorid saavad töötada arvega ja maksta kuus, koos selge väljavõttega võlgnetavast. Loodud Omaanis, OMR ja 5% käibemaks sisse ehitatud.",
+      "items": [
+        "Saatelehed tõendiga",
+        "Kuukontod püsiklientidele",
+        "Väljavõtted võlgnetavast"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kas saan hinnastada tüki ja kilo järgi?",
+      "a": "Jah. Igal teenusel on oma ühik, nii et dišdaša hinnastatakse tüki ja pesu ning voltimine kilo järgi."
+    },
+    {
+      "q": "Kas saan tellimusi klientidele tarnida?",
+      "a": "Jah. Tarne moodul lisab saatelehed, nii et saad tellimusi teele saata ja üleandmise tõendit hoida."
+    },
+    {
+      "q": "Kas hotell või kontor saab kuus maksta?",
+      "a": "Jah. Jäta müügid kliendi arvele ja saada kuu lõpus üks arve või väljavõte."
+    },
+    {
+      "q": "Kas saan tšekke WhatsAppis saata?",
+      "a": "Jah. Jaga mis tahes tšekki või arvet WhatsAppis või e-postiga."
+    },
+    {
+      "q": "Kui palju see maksab?",
+      "a": "Müük ja arveldamine on igavesti tasuta. Lisa POS või Tarne, kui neid vajad, ja maksa ainult nende moodulite eest."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Pea oma pesumaja ühe leti tagant",
+  "ctaSub": "Alusta tasuta tšekkide ja arvetega ning lisa POS ja tarned, kui oled valmis.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

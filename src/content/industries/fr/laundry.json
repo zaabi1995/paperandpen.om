@@ -1,0 +1,107 @@
+{
+  "locale": "fr",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Laveries et pressings",
+  "metaTitle": "Logiciel pour laveries et pressings : tickets et facturation · Paper & Pen",
+  "metaDescription": "Prenez les articles en charge, facturez à la pièce ou au kilo, encaissez en OMR avec la TVA et livrez la commande au client. Un logiciel de comptoir simple pour les laveries et les pressings.",
+  "keywords": "logiciel laverie, logiciel pressing, facturation laverie, caisse laverie, facturation pressing, logiciel de livraison pour laverie",
+  "heroEyebrow": "Pour les laveries et les pressings",
+  "heroTitle": "Chaque article déposé, <em class=\"text-copper-400 not-italic\">chaque article payé</em>",
+  "heroSubtitle": "Facturez les dishdashas, les chemises, les costumes et les abayas à la pièce, ou le lavage et pliage au kilo, remettez un reçu au client et livrez la commande. Paper & Pen synchronise le comptoir, les livraisons et la comptabilité.",
+  "heroBullets": [
+    "Prix à la pièce ou au kilo",
+    "Reçus au comptoir",
+    "Bons de retrait et de livraison"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Reçus au comptoir",
+      "desc": "Ajoutez les articles, encaissez ou laissez sur le compte, et remettez un reçu en quelques secondes."
+    },
+    {
+      "icon": "tag",
+      "title": "Votre liste de prix",
+      "desc": "Fixez un prix par dishdasha, chemise, costume ou abaya, ou au kilo pour le lavage et pliage."
+    },
+    {
+      "icon": "truck",
+      "title": "Retrait et livraison",
+      "desc": "Envoyez les commandes avec un bon de livraison et gardez la preuve que le client les a reçues."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Reçus sur WhatsApp",
+      "desc": "Envoyez le reçu ou la facture au client sur WhatsApp plutôt que sur papier."
+    },
+    {
+      "icon": "wallet",
+      "title": "Comptes clients",
+      "desc": "Laissez les clients réguliers et les entreprises payer chaque mois et voyez ce que chacun doit."
+    },
+    {
+      "icon": "chart",
+      "title": "Recettes du jour",
+      "desc": "Voyez ce qui est entré aujourd'hui, par service et par mode de paiement."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Au comptoir",
+      "title": "Vite déposé, vite servi",
+      "body": "Un client dépose un sac de chemises et deux dishdashas. Choisissez les articles dans votre liste de prix, encaissez maintenant ou au retrait, et imprimez ou partagez le reçu. Le catalogue de départ comprend le lavage et pliage, le nettoyage à sec et le repassage, prêts à modifier avec vos propres prix.",
+      "items": [
+        "Liste de prix de laverie prête à l'emploi",
+        "Payez maintenant ou au retrait",
+        "Reçus sur WhatsApp ou imprimés"
+      ]
+    },
+    {
+      "eyebrow": "Livraisons et comptes",
+      "title": "Livrez et facturez chaque mois",
+      "body": "Envoyez les commandes terminées avec un bon de livraison et gardez la preuve de remise. Les hôtels, les cliniques et les bureaux peuvent travailler sur compte et payer chaque mois, avec un relevé clair de ce qui est dû. Conçu à Oman avec l'OMR en natif et la TVA à 5%.",
+      "items": [
+        "Bons de livraison avec preuve",
+        "Comptes mensuels pour les clients réguliers",
+        "Relevés de ce qui est dû"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je facturer à la pièce et au kilo ?",
+      "a": "Oui. Chaque service a sa propre unité : une dishdasha est facturée à la pièce et le lavage et pliage au kilo."
+    },
+    {
+      "q": "Puis-je livrer les commandes aux clients ?",
+      "a": "Oui. Le module Livraison ajoute des bons de livraison, pour envoyer les commandes et garder la preuve de remise."
+    },
+    {
+      "q": "Un hôtel ou un bureau peut-il payer chaque mois ?",
+      "a": "Oui. Laissez les ventes sur le compte du client et envoyez une facture ou un relevé en fin de mois."
+    },
+    {
+      "q": "Puis-je envoyer des reçus sur WhatsApp ?",
+      "a": "Oui. Partagez n'importe quel reçu ou facture sur WhatsApp ou par e-mail."
+    },
+    {
+      "q": "Combien ça coûte ?",
+      "a": "Ventes et Facturation est gratuit pour toujours. Ajoutez Caisse ou Livraison quand vous en avez besoin et ne payez que ces modules."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Gérez votre laverie depuis un seul comptoir",
+  "ctaSub": "Commencez gratuitement avec des reçus et des factures, puis ajoutez la caisse et les livraisons quand vous serez prêt.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

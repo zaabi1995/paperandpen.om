@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "取引を 1 つのきれいな元帳で",
-  "ctaSub": "見積書と請求書から無料で始め、取引の拡大に合わせて在庫と会計を追加しましょう。"
+  "ctaSub": "見積書と請求書から無料で始め、取引の拡大に合わせて在庫と会計を追加しましょう。",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

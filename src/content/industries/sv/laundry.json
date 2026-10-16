@@ -1,0 +1,107 @@
+{
+  "locale": "sv",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Tvätterier och kemtvättar",
+  "metaTitle": "Program för tvätterier och kemtvättar: lappar och fakturering · Paper & Pen",
+  "metaDescription": "Ta emot plagg, prissätt per plagg eller per kilo, fakturera i OMR med moms och leverera tillbaka till kunden. Enkelt diskprogram för tvätterier och kemtvättar.",
+  "keywords": "program för tvätteri, program för kemtvätt, fakturering för tvätteri, kassa för tvätteri, fakturering för kemtvätt, leveransprogram för tvätteri",
+  "heroEyebrow": "För tvätterier och kemtvättar",
+  "heroTitle": "Varje plagg in, <em class=\"text-copper-400 not-italic\">varje plagg betalt</em>",
+  "heroSubtitle": "Prissätt dishdashor, skjortor, kostymer och abayor per plagg, eller tvätt och vikning per kilo, ge kunden ett kvitto och leverera ordern tillbaka. Paper & Pen håller disk, leveranser och bokföring i takt.",
+  "heroBullets": [
+    "Pris per plagg eller per kilo",
+    "Kvitton i kassan",
+    "Följesedlar för hämtning och leverans"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Kvitton i kassan",
+      "desc": "Lägg till plaggen, ta betalt eller sätt det på konto och ge ett kvitto på några sekunder."
+    },
+    {
+      "icon": "tag",
+      "title": "Din prislista",
+      "desc": "Sätt ett pris per dishdasha, skjorta, kostym eller abaya, eller per kilo för tvätt och vikning."
+    },
+    {
+      "icon": "truck",
+      "title": "Hämtning och leverans",
+      "desc": "Skicka ut ordrar med en följesedel och spara beviset på att kunden fick dem."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Kvitton på WhatsApp",
+      "desc": "Skicka kvittot eller fakturan till kunden på WhatsApp i stället för på papper."
+    },
+    {
+      "icon": "wallet",
+      "title": "Kundkonton",
+      "desc": "Låt stamkunder och företagskunder betala månadsvis och se vad var och en är skyldig."
+    },
+    {
+      "icon": "chart",
+      "title": "Dagskassa",
+      "desc": "Se vad som kom in i dag, per tjänst och per betalsätt."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "I kassan",
+      "title": "Snabbt in, snabbt ut",
+      "body": "En kund lämnar en påse skjortor och två dishdashor. Välj artiklarna från din prislista, ta betalt nu eller vid hämtning och skriv ut eller dela kvittot. Startkatalogen har tvätt och vikning, kemtvätt och pressning färdiga, så du kan ändra till dina egna priser.",
+      "items": [
+        "Färdig prislista för tvätteri",
+        "Betala nu eller vid hämtning",
+        "Kvitton på WhatsApp eller utskrivna"
+      ]
+    },
+    {
+      "eyebrow": "Leveranser och konton",
+      "title": "Leverera tillbaka och fakturera månadsvis",
+      "body": "Skicka ut färdiga ordrar med en följesedel och spara beviset på överlämningen. Hotell, kliniker och kontor kan köra på konto och betala månadsvis, med ett tydligt kontoutdrag över vad som är skyldigt. Byggt i Oman med inbyggt stöd för OMR och 5 % moms.",
+      "items": [
+        "Följesedlar med bevis",
+        "Månadskonton för stamkunder",
+        "Kontoutdrag över vad som är skyldigt"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan jag prissätta per plagg och per kilo?",
+      "a": "Ja. Varje tjänst har sin egen enhet, så en dishdasha prissätts per plagg och tvätt och vikning per kilo."
+    },
+    {
+      "q": "Kan jag leverera ordrar till kunder?",
+      "a": "Ja. Modulen Leverans lägger till följesedlar, så du kan skicka ut ordrar och spara beviset på överlämning."
+    },
+    {
+      "q": "Kan ett hotell eller ett kontor betala månadsvis?",
+      "a": "Ja. Låt försäljningen ligga på kundens konto och skicka en faktura eller ett kontoutdrag i slutet av månaden."
+    },
+    {
+      "q": "Kan jag skicka kvitton på WhatsApp?",
+      "a": "Ja. Dela varje kvitto eller faktura på WhatsApp eller via e-post."
+    },
+    {
+      "q": "Vad kostar det?",
+      "a": "Försäljning och fakturering är gratis för alltid. Lägg till Kassa eller Leverans när du behöver dem och betala bara för de modulerna."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Driv ditt tvätteri från en disk",
+  "ctaSub": "Börja gratis med kvitton och fakturor och lägg sedan till kassan och leveranserna när du är redo.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

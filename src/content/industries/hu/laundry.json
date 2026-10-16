@@ -1,0 +1,107 @@
+{
+  "locale": "hu",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Mosodák és vegytisztítók",
+  "metaTitle": "Mosoda- és vegytisztító-szoftver: jegyek és számlázás · Paper & Pen",
+  "metaDescription": "Vegye át a darabokat, árazzon darabra vagy kilóra, számlázzon OMR-ben ÁFÁ-val, és szállítsa vissza a vevőnek. Egyszerű pultszoftver mosodáknak és vegytisztítóknak.",
+  "keywords": "mosoda szoftver, vegytisztító szoftver, mosoda számlázó szoftver, mosoda pénztár, vegytisztító számlázás, mosoda kiszállító szoftver",
+  "heroEyebrow": "Mosodáknak és vegytisztítóknak",
+  "heroTitle": "Minden darab be, <em class=\"text-copper-400 not-italic\">minden darab kifizetve</em>",
+  "heroSubtitle": "Árazza a dishdashákat, ingeket, öltönyöket és abayákat darabra, vagy a mosás és hajtogatás szolgáltatást kilóra, adjon át nyugtát a vevőnek, és szállítsa vissza a megrendelést. A Paper & Pen összhangban tartja a pultot, a kiszállításokat és a könyveket.",
+  "heroBullets": [
+    "Árazás darabra vagy kilóra",
+    "Nyugták a pultnál",
+    "Átvételi és szállítólevelek"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Pultnyugták",
+      "desc": "Adja hozzá a darabokat, vegye át a fizetést, vagy hagyja számlán, és másodpercek alatt adjon át nyugtát."
+    },
+    {
+      "icon": "tag",
+      "title": "Az Ön árlistája",
+      "desc": "Állítson be árat dishdashára, ingre, öltönyre vagy abayára, illetve kilónként a mosás és hajtogatás szolgáltatásra."
+    },
+    {
+      "icon": "truck",
+      "title": "Átvétel és kiszállítás",
+      "desc": "Küldje ki a megrendeléseket szállítólevéllel, és őrizze meg az igazolást, hogy a vevő megkapta őket."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "WhatsApp-nyugták",
+      "desc": "Küldje el a nyugtát vagy a számlát a vevőnek WhatsAppon papír helyett."
+    },
+    {
+      "icon": "wallet",
+      "title": "Vevői számlák",
+      "desc": "Hagyja, hogy a törzsvevők és a céges vevők havonta fizessenek, és lássa, mennyivel tartozik mindegyik."
+    },
+    {
+      "icon": "chart",
+      "title": "Napi bevétel",
+      "desc": "Lássa, mi érkezett ma, szolgáltatás és fizetési mód szerint."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "A pultnál",
+      "title": "Gyorsan be, gyorsan ki",
+      "body": "Egy vevő lead egy zsák inget és két dishdashát. Válassza ki a tételeket az árlistából, vegye át a fizetést most vagy átvételkor, és nyomtassa ki vagy ossza meg a nyugtát. Az induló katalógusban ott van a mosás és hajtogatás, a vegytisztítás és a vasalás, készen arra, hogy a saját áraihoz igazítsa.",
+      "items": [
+        "Kész mosodai árlista",
+        "Fizetés most vagy átvételkor",
+        "Nyugták WhatsAppon vagy nyomtatva"
+      ]
+    },
+    {
+      "eyebrow": "Kiszállítás és számlák",
+      "title": "Szállítsa vissza, és számlázzon havonta",
+      "body": "Küldje ki a kész megrendeléseket szállítólevéllel, és őrizze meg az átadás igazolását. A szállodák, rendelők és irodák számlán dolgozhatnak, és havonta fizethetnek, világos kivonattal arról, mi a tartozás. Ománban készült natív OMR támogatással és 5%-os ÁFA-val.",
+      "items": [
+        "Szállítólevelek igazolással",
+        "Havi számlák a törzsvevőknek",
+        "Kivonatok a fennálló tartozásról"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Árazhatok darabra és kilóra is?",
+      "a": "Igen. Minden szolgáltatásnak saját mértékegysége van, így a dishdasha darabra, a mosás és hajtogatás kilóra van árazva."
+    },
+    {
+      "q": "Kiszállíthatom a megrendeléseket a vevőknek?",
+      "a": "Igen. A Szállítás modul szállítólevelet ad, így kiküldheti a megrendeléseket, és megőrizheti az átadás igazolását."
+    },
+    {
+      "q": "Fizethet egy szálloda vagy iroda havonta?",
+      "a": "Igen. Hagyja az eladásokat a vevő számláján, és a hónap végén küldjön egyetlen számlát vagy kivonatot."
+    },
+    {
+      "q": "Küldhetek nyugtát WhatsAppon?",
+      "a": "Igen. Bármilyen nyugtát vagy számlát megoszthat WhatsAppon vagy e-mailben."
+    },
+    {
+      "q": "Mennyibe kerül?",
+      "a": "Az Értékesítés és Számlázás örökre ingyenes. Adja hozzá a Pénztárat vagy a Szállítást, amikor szüksége van rájuk, és csak ezekért a modulokért fizessen."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Vezesse a mosodáját egyetlen pultról",
+  "ctaSub": "Kezdje ingyen nyugtákkal és számlákkal, majd adja hozzá a pénztárat és a kiszállításokat, amikor készen áll.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

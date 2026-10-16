@@ -107,5 +107,7 @@
     "/invoicing/recurring-invoices"
   ],
   "ctaTitle": "Få ordning på klinikens fakturering och lager i dag",
-  "ctaSub": "Börja sköta ekonomin i din vårdverksamhet, från fakturering per behandling till uppföljning av medicinskt förbrukningsmaterial, helt gratis."
+  "ctaSub": "Börja sköta ekonomin i din vårdverksamhet, från fakturering per behandling till uppföljning av medicinskt förbrukningsmaterial, helt gratis.",
+  "signupTemplate": "clinic",
+  "signupModules": ["crm", "pos", "portal"]
 }

@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Vodite trgovino brez ugibanja",
-  "ctaSub": "Začnite brezplačno z računi in potrdili, nato dodajte Zaloge za zaloge s črtnimi kodami in opozorila o nizki zalogi."
+  "ctaSub": "Začnite brezplačno z računi in potrdili, nato dodajte Zaloge za zaloge s črtnimi kodami in opozorila o nizki zalogi.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

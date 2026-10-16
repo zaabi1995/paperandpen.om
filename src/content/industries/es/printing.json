@@ -1,0 +1,109 @@
+{
+  "locale": "es",
+  "slug": "printing",
+  "order": 16,
+  "title": "Imprentas y papelería",
+  "metaTitle": "Software para imprentas: presupuestos, trabajos y facturas · Paper & Pen",
+  "metaDescription": "Presupuesta trabajos de impresión rápido, sigue cada trabajo desde el arte final hasta la entrega, controla el stock de papel y factura en OMR con IVA del 5%. Hecho para imprentas y papelerías.",
+  "keywords": "software para imprentas, programa para negocio de impresión, seguimiento de trabajos de impresión, software de presupuestos de impresión, facturación para papelería, erp para imprenta, cálculo de costes de impresión",
+  "heroEyebrow": "Para imprentas y papelerías",
+  "heroTitle": "Del presupuesto a <em class=\"text-copper-400 not-italic\">impreso y cobrado</em>",
+  "heroSubtitle": "Presupuesta un trabajo de impresión en minutos, convierte el presupuesto aprobado en un trabajo, síguelo por producción y entrega, y factúralo sin volver a teclear una línea. Paper & Pen reúne tus trabajos, tu stock de papel y tus libros en un solo lugar.",
+  "heroBullets": [
+    "Presupuestos que se convierten en trabajos con un clic",
+    "Cada trabajo seguido hasta la entrega",
+    "Papel y stock contados a medida que los usas"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Presupuestos de impresión rápidos",
+      "desc": "Crea un presupuesto desde tu lista de precios, compártelo por WhatsApp o correo y conviértelo cuando el cliente diga que sí."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Seguimiento de trabajos",
+      "desc": "Cada pedido aprobado pasa a ser un trabajo de producción, así que siempre sabes qué se está imprimiendo, qué espera y qué va tarde."
+    },
+    {
+      "icon": "inventory",
+      "title": "Papel y stock",
+      "desc": "Cuenta papel, tinta y papelería terminada por SKU y unidad, con el stock moviéndose cada vez que vendes o usas algo."
+    },
+    {
+      "icon": "truck",
+      "title": "Albaranes de entrega",
+      "desc": "Entrega el trabajo terminado con un albarán y guarda el comprobante firmado en el pedido."
+    },
+    {
+      "icon": "invoice",
+      "title": "Facturas con IVA",
+      "desc": "Factura en OMR con IVA del 5%, o en cualquier moneda y tipo de impuesto, directamente desde el presupuesto o el trabajo."
+    },
+    {
+      "icon": "users",
+      "title": "Historial del cliente",
+      "desc": "Consulta todos los presupuestos, trabajos y pagos de un cliente, para que un pedido repetido lleve segundos."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Del presupuesto al trabajo",
+      "title": "Un solo registro desde el primer presupuesto hasta el último pago",
+      "body": "Un trabajo de impresión pasa por muchas manos: ventas lo presupuesta, el cliente lo aprueba, producción lo imprime, alguien lo entrega y administración lo cobra. En Paper & Pen es un único registro de principio a fin, así que no se vuelve a teclear nada y nada se pierde entre mesas. Convierte un presupuesto aprobado en una factura y un trabajo de producción en un solo paso.",
+      "items": [
+        "El presupuesto aprobado se convierte en el trabajo",
+        "Producción ve qué imprimir a continuación",
+        "Factura creada con las mismas líneas"
+      ]
+    },
+    {
+      "eyebrow": "Mostrador y stock",
+      "title": "Ventas de papelería y stock de papel en el mismo lugar",
+      "body": "Vende bolígrafos, cuadernos e impresión en el mostrador y deja que el stock se actualice solo. Define puntos de reposición para los papeles y las tintas que no pueden agotarse, y ve cuánto aporta cada cliente y cada producto. Hecho en Omán con OMR nativo e IVA del 5%, y listo para cualquier moneda.",
+      "items": [
+        "Ventas de mostrador con recibos",
+        "Puntos de reposición para papel y tinta",
+        "Informes por cliente y producto"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo presupuestar trabajos de impresión con mis propios precios?",
+      "a": "Sí. Añade tus productos y servicios con tus propios precios y crea presupuestos a partir de ellos. Al registrarte, te preparamos un catálogo de impresión inicial que editas para adaptarlo a tu imprenta."
+    },
+    {
+      "q": "¿Puedo seguir un trabajo después de que el cliente lo apruebe?",
+      "a": "Sí. Con el módulo de Fabricación, un pedido aprobado se convierte en un trabajo de producción que puedes seguir hasta que esté terminado y entregado."
+    },
+    {
+      "q": "¿Gestiona el stock de papelería?",
+      "a": "Sí. El módulo de Inventario cuenta papel, tinta y papelería por SKU y unidad, y cada venta o uso mueve el stock."
+    },
+    {
+      "q": "¿Puedo enviar presupuestos y facturas por WhatsApp?",
+      "a": "Sí. Comparte cualquier presupuesto, factura o recibo por WhatsApp o correo, como enlace o como PDF."
+    },
+    {
+      "q": "¿Cuánto cuesta?",
+      "a": "Presupuestos, facturas, clientes y pagos son gratis para siempre. Añade Fabricación, Inventario, CRM o Entregas cuando los necesites y paga solo por esos módulos."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Gestiona tu imprenta desde una sola pantalla",
+  "ctaSub": "Empieza con presupuestos y facturas gratis y añade el seguimiento de trabajos y el stock de papel cuando estés listo.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

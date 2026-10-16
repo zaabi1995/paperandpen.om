@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Juhi oma kaubandust ühe puhta pearaamatuga",
-  "ctaSub": "Alusta tasuta pakkumiste ja arveldusega ning lisa laohaldus ja raamatupidamine, kui su kaubandus kasvab."
+  "ctaSub": "Alusta tasuta pakkumiste ja arveldusega ning lisa laohaldus ja raamatupidamine, kui su kaubandus kasvab.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

@@ -1,0 +1,109 @@
+{
+  "locale": "sl",
+  "slug": "printing",
+  "order": 16,
+  "title": "Tiskarne in pisalne potrebščine",
+  "metaTitle": "Program za tiskarne: ponudbe, naročila in računi · Paper & Pen",
+  "metaDescription": "Hitro pripravite ponudbe za tisk, spremljajte vsako naročilo od grafike do dostave, štejte zalogo papirja in izdajajte račune v OMR s 5 % DDV. Za tiskarne in papirnice.",
+  "keywords": "program za tiskarno, program za tiskarski posel, spremljanje tiskarskih naročil, program za ponudbe za tisk, računi za papirnico, erp za tiskarno, kalkulacija tiska",
+  "heroEyebrow": "Za tiskarne in papirnice",
+  "heroTitle": "Od ponudbe do <em class=\"text-copper-400 not-italic\">natisnjeno in plačano</em>",
+  "heroSubtitle": "Ponudbo za tisk pripravite v nekaj minutah, potrjeno ponudbo spremenite v naročilo, sledite ji skozi proizvodnjo in dostavo ter jo zaračunajte brez ponovnega vnašanja. Paper & Pen drži naročila, papir in knjige na enem mestu.",
+  "heroBullets": [
+    "Ponudbe, ki se z enim klikom spremenijo v naročila",
+    "Vsako naročilo spremljano do dostave",
+    "Papir in zaloga se štejeta sproti"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Hitre ponudbe za tisk",
+      "desc": "Ponudbo sestavite iz cenika, jo delite prek WhatsApp ali e-pošte in jo pretvorite, ko stranka reče da."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Spremljanje naročil",
+      "desc": "Vsako potrjeno naročilo postane proizvodni nalog, zato vedno veste, kaj se tiska, kaj čaka in kaj zamuja."
+    },
+    {
+      "icon": "inventory",
+      "title": "Papir in zaloga",
+      "desc": "Štejte papir, barve in končne pisalne potrebščine po šifri in enoti. Zaloga se premakne ob vsaki prodaji ali porabi."
+    },
+    {
+      "icon": "truck",
+      "title": "Dobavnice",
+      "desc": "Dokončano delo izročite z dobavnico in podpisan dokaz hranite pri naročilu."
+    },
+    {
+      "icon": "invoice",
+      "title": "Računi z DDV",
+      "desc": "Zaračunajte v OMR s 5 % DDV ali v kateri koli valuti in davčni stopnji, kar iz ponudbe ali naročila."
+    },
+    {
+      "icon": "users",
+      "title": "Zgodovina stranke",
+      "desc": "Vidite vse ponudbe, naročila in plačila stranke, zato ponovno naročilo traja nekaj sekund."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Od ponudbe do naročila",
+      "title": "En zapis od prve ponudbe do zadnjega plačila",
+      "body": "Tiskarsko naročilo gre skozi mnoge roke: prodaja ga ponudi, stranka potrdi, proizvodnja natisne, nekdo dostavi, računovodstvo pa izterja plačilo. V Paper & Pen je ves čas en zapis, zato se nič ne vnaša znova in nič ne izgine med mizami. Potrjeno ponudbo z enim korakom pretvorite v račun in proizvodni nalog.",
+      "items": [
+        "Potrjena ponudba postane naročilo",
+        "Proizvodnja vidi, kaj tiskati naprej",
+        "Račun iz istih postavk"
+      ]
+    },
+    {
+      "eyebrow": "Pult in zaloga",
+      "title": "Prodaja pisalnih potrebščin in zaloga papirja na istem mestu",
+      "body": "Na pultu prodajajte svinčnike, zvezke in tisk, zaloga pa se posodablja sama. Določite točke ponovnega naročila za papir in barve, ki jih ne smete zmanjkati, ter spremljajte, koliko prinaša vsaka stranka in vsak izdelek. Razvito v Omanu z vgrajenima OMR in 5 % DDV, pripravljeno pa za katero koli valuto.",
+      "items": [
+        "Prodaja na pultu s potrdili",
+        "Točke ponovnega naročila za papir in barve",
+        "Poročila po stranki in izdelku"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ali lahko ponudbe za tisk pripravljam z lastnimi cenami?",
+      "a": "Da. Dodajte svoje izdelke in storitve z lastnimi cenami in iz njih sestavljajte ponudbe. Ob prijavi vam pripravimo začetni tiskarski katalog, ki ga prilagodite svoji tiskarni."
+    },
+    {
+      "q": "Ali lahko naročilo spremljam, ko ga stranka potrdi?",
+      "a": "Da. Z modulom Proizvodnja potrjeno naročilo postane proizvodni nalog, ki mu sledite do konca in dostave."
+    },
+    {
+      "q": "Ali podpira zalogo pisalnih potrebščin?",
+      "a": "Da. Modul Zaloge šteje papir, barve in pisalne potrebščine po šifri in enoti, vsaka prodaja ali poraba pa premakne zalogo."
+    },
+    {
+      "q": "Ali lahko ponudbe in račune pošiljam prek WhatsApp?",
+      "a": "Da. Vsako ponudbo, račun ali potrdilo delite prek WhatsApp ali e-pošte kot povezavo ali PDF."
+    },
+    {
+      "q": "Koliko stane?",
+      "a": "Ponudbe, računi, stranke in plačila so brezplačni za vedno. Module Proizvodnja, Zaloge, CRM ali Dostava dodajte, ko jih potrebujete, in plačate samo zanje."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Vodite tiskarno z enega zaslona",
+  "ctaSub": "Začnite z brezplačnimi ponudbami in računi, nato dodajte spremljanje naročil in zalogo papirja, ko ste pripravljeni.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

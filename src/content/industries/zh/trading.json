@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "用一本清晰的账经营您的贸易",
-  "ctaSub": "从免费报价和开票开始，随着业务增长再添加库存和会计模块。"
+  "ctaSub": "从免费报价和开票开始，随着业务增长再添加库存和会计模块。",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

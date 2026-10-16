@@ -1,0 +1,109 @@
+{
+  "locale": "da",
+  "slug": "printing",
+  "order": 16,
+  "title": "Trykkeri og papirvarer",
+  "metaTitle": "Software til trykkerier: tilbud, opgaver og fakturaer · Paper & Pen",
+  "metaDescription": "Lav hurtigt tilbud på trykopgaver, følg hver opgave fra grafik til levering, hold styr på papirlageret og fakturér i OMR med 5 % moms. Lavet til trykkerier og papirhandlere.",
+  "keywords": "software til trykkeri, software til trykbranchen, sporing af trykopgaver, software til trykketilbud, afregning til papirhandel, erp til trykkeri, trykkalkulation",
+  "heroEyebrow": "Til trykkerier og papirhandlere",
+  "heroTitle": "Fra tilbud til <em class=\"text-copper-400 not-italic\">trykt og betalt</em>",
+  "heroSubtitle": "Lav et tilbud på en trykopgave på få minutter, gør det godkendte tilbud til en opgave, følg den gennem produktion og levering, og fakturér den uden at skrive en eneste linje igen. Paper & Pen samler dine opgaver, dit papirlager og dit regnskab ét sted.",
+  "heroBullets": [
+    "Tilbud, der bliver til opgaver med ét klik",
+    "Hver opgave følges helt til levering",
+    "Papir og lager tælles, mens du bruger det"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Hurtige trykketilbud",
+      "desc": "Lav et tilbud ud fra din prisliste, del det på WhatsApp eller e-mail, og konvertér det, når kunden siger ja."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Opgavesporing",
+      "desc": "Hver godkendt ordre bliver til en produktionsopgave, så du altid ved, hvad der trykkes, hvad der venter, og hvad der er forsinket."
+    },
+    {
+      "icon": "inventory",
+      "title": "Papir og lager",
+      "desc": "Tæl papir, blæk og færdige papirvarer efter varenummer og enhed, så lageret flytter sig, hver gang du sælger eller bruger noget."
+    },
+    {
+      "icon": "truck",
+      "title": "Følgesedler",
+      "desc": "Aflevér det færdige arbejde med en følgeseddel, og behold det underskrevne bevis på ordren."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fakturaer med moms",
+      "desc": "Fakturér i OMR med 5 % moms eller i enhver valuta og momssats, direkte fra tilbuddet eller opgaven."
+    },
+    {
+      "icon": "users",
+      "title": "Kundehistorik",
+      "desc": "Se hvert tilbud, hver opgave og hver betaling for en kunde, så en gentagelsesordre tager sekunder."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Fra tilbud til opgave",
+      "title": "Én post fra det første tilbud til den sidste betaling",
+      "body": "En trykopgave skifter hænder mange gange: salg laver tilbuddet, kunden godkender det, produktionen trykker, en anden leverer, og regnskabet henter pengene. I Paper & Pen er det én post hele vejen, så intet skrives om, og intet går tabt mellem skrivebordene. Konvertér et godkendt tilbud til en faktura og en produktionsopgave i ét trin.",
+      "items": [
+        "Godkendt tilbud bliver til opgaven",
+        "Produktionen ser, hvad der skal trykkes næste gang",
+        "Fakturaen bygges af de samme linjer"
+      ]
+    },
+    {
+      "eyebrow": "Disk og lager",
+      "title": "Papirvaresalg og papirlager det samme sted",
+      "body": "Sælg penne, notesbøger og tryk i disken, og lad lageret opdatere sig selv. Sæt genbestillingspunkter på de papirer og blæk, du ikke må løbe tør for, og se, hvad hver kunde og hvert produkt indbringer. Udviklet i Oman med OMR og 5 % moms indbygget og klar til enhver valuta.",
+      "items": [
+        "Salg i disken med kvitteringer",
+        "Genbestillingspunkter på papir og blæk",
+        "Rapporter pr. kunde og produkt"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan jeg lave tilbud på trykopgaver med mine egne priser?",
+      "a": "Ja. Tilføj dine produkter og ydelser med dine egne priser, og lav tilbud ud fra dem. Et trykkatalog til at starte med er sat op til dig, når du opretter dig, og du tilpasser det til dit trykkeri."
+    },
+    {
+      "q": "Kan jeg følge en opgave, efter kunden har godkendt den?",
+      "a": "Ja. Med modulet Produktion bliver en godkendt ordre til en produktionsopgave, som du kan følge, til den er færdig og leveret."
+    },
+    {
+      "q": "Kan det styre papirvarelager?",
+      "a": "Ja. Modulet Lager tæller papir, blæk og papirvarer efter varenummer og enhed, og hvert salg eller forbrug flytter lageret."
+    },
+    {
+      "q": "Kan jeg sende tilbud og fakturaer på WhatsApp?",
+      "a": "Ja. Del ethvert tilbud, enhver faktura eller kvittering på WhatsApp eller e-mail som et link eller en PDF."
+    },
+    {
+      "q": "Hvad koster det?",
+      "a": "Tilbud, fakturaer, kunder og betalinger er gratis for altid. Tilføj Produktion, Lager, CRM eller Levering, når du får brug for dem, og betal kun for de moduler."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Driv dit trykkeri fra én skærm",
+  "ctaSub": "Start med gratis tilbud og fakturaer, og tilføj opgavesporing og papirlager, når du er klar.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

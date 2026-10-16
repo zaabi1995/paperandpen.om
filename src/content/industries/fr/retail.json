@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Gérez votre boutique sans approximation",
-  "ctaSub": "Commencez gratuitement avec la facturation et les reçus, puis ajoutez Gestion des stocks pour le stock par code-barres et les alertes de stock bas."
+  "ctaSub": "Commencez gratuitement avec la facturation et les reçus, puis ajoutez Gestion des stocks pour le stock par code-barres et les alertes de stock bas.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

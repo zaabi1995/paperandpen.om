@@ -107,5 +107,7 @@
     "/invoicing/recurring-invoices"
   ],
   "ctaTitle": "Järjestä klinikkasi laskutus ja varasto tänään",
-  "ctaSub": "Ala hallita vastaanottosi taloutta toimenpidekohtaisesta laskutuksesta hoitotarvikkeiden seurantaan, täysin ilmaiseksi."
+  "ctaSub": "Ala hallita vastaanottosi taloutta toimenpidekohtaisesta laskutuksesta hoitotarvikkeiden seurantaan, täysin ilmaiseksi.",
+  "signupTemplate": "clinic",
+  "signupModules": ["crm", "pos", "portal"]
 }

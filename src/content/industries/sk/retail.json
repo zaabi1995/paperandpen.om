@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Veďte predajňu bez hádania",
-  "ctaSub": "Začnite zadarmo s účtovaním a účtenkami a potom pridajte Sklad pre zásoby s čiarovými kódmi a upozornenia na nízky stav."
+  "ctaSub": "Začnite zadarmo s účtovaním a účtenkami a potom pridajte Sklad pre zásoby s čiarovými kódmi a upozornenia na nízky stav.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

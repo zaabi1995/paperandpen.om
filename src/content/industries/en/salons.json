@@ -31,5 +31,7 @@
   ],
   "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
   "ctaTitle": "Run the salon, not the paperwork",
-  "ctaSub": "Start free with service billing and client records, then add Inventory and Payroll for stock and commission."
+  "ctaSub": "Start free with service billing and client records, then add Inventory and Payroll for stock and commission.",
+  "signupTemplate": "salon",
+  "signupModules": ["pos", "crm", "loyalty"]
 }

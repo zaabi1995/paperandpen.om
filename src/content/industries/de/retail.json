@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Führen Sie Ihr Geschäft ohne Rätselraten",
-  "ctaSub": "Starten Sie kostenlos mit Abrechnung und Quittungen und fügen Sie dann das Lager für Barcode-Bestände und Warnungen bei niedrigem Bestand hinzu."
+  "ctaSub": "Starten Sie kostenlos mit Abrechnung und Quittungen und fügen Sie dann das Lager für Barcode-Bestände und Warnungen bei niedrigem Bestand hinzu.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

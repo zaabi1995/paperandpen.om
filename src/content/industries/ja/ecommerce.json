@@ -106,5 +106,7 @@
     "/features/accounting"
   ],
   "ctaTitle": "今日から EC の財務を整理",
-  "ctaSub": "在庫を管理し、貸方票を発行し、本当の利益を無料で計算できます。"
+  "ctaSub": "在庫を管理し、貸方票を発行し、本当の利益を無料で計算できます。",
+  "signupTemplate": "ecommerce",
+  "signupModules": ["ecommerce", "inventory", "delivery"]
 }

@@ -1,0 +1,107 @@
+{
+  "locale": "ca",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Bugaderia i neteja en sec",
+  "metaTitle": "Programari per a bugaderies i neteja en sec: tiquets i facturació · Paper & Pen",
+  "metaDescription": "Rep les peces, posa preu per peça o per quilo, factura en OMR amb IVA i lliura-ho al client. Programari senzill de mostrador per a bugaderies i tintoreries.",
+  "keywords": "programari per a bugaderies, programari per a neteja en sec, programari de facturació per a bugaderies, tpv per a bugaderies, facturació per a tintoreries, programari de lliurament per a bugaderies",
+  "heroEyebrow": "Per a bugaderies i tintoreries",
+  "heroTitle": "Cada peça entra, <em class=\"text-copper-400 not-italic\">cada peça es cobra</em>",
+  "heroSubtitle": "Posa preu a dishdashes, camises, vestits i abayes per peça, o a rentat i plegat per quilo, lliura un tiquet al client i torna-li la comanda. Paper & Pen manté el mostrador, els lliuraments i la comptabilitat sincronitzats.",
+  "heroBullets": [
+    "Preu per peça o per quilo",
+    "Tiquets al mostrador",
+    "Albarans de recollida i lliurament"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Tiquets al mostrador",
+      "desc": "Afegeix les peces, cobra o deixa-ho a compte i lliura un tiquet en segons."
+    },
+    {
+      "icon": "tag",
+      "title": "La teva tarifa",
+      "desc": "Defineix un preu per dishdasha, camisa, vestit o abaya, o per quilo per al rentat i plegat."
+    },
+    {
+      "icon": "truck",
+      "title": "Recollida i lliurament",
+      "desc": "Envia les comandes amb un albarà i guarda la prova que el client les ha rebut."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Tiquets per WhatsApp",
+      "desc": "Envia el tiquet o la factura al client per WhatsApp en comptes de paper."
+    },
+    {
+      "icon": "wallet",
+      "title": "Comptes de clients",
+      "desc": "Deixa que els clients habituals i les empreses paguin mensualment i mira què deu cadascun."
+    },
+    {
+      "icon": "chart",
+      "title": "Caixa diària",
+      "desc": "Mira què ha entrat avui, per servei i per mètode de pagament."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Al mostrador",
+      "title": "Entra ràpid, surt ràpid",
+      "body": "Un client deixa una bossa de camises i dues dishdashes. Tria els articles de la tarifa, cobra ara o a la recollida i imprimeix o comparteix el tiquet. El catàleg inicial inclou rentat i plegat, neteja en sec i planxa, a punt perquè l'editis amb els teus preus.",
+      "items": [
+        "Tarifa de bugaderia ja preparada",
+        "Paga ara o a la recollida",
+        "Tiquets per WhatsApp o en paper"
+      ]
+    },
+    {
+      "eyebrow": "Lliuraments i comptes",
+      "title": "Lliura-ho i factura mensualment",
+      "body": "Envia les comandes acabades amb un albarà i guarda la prova del lliurament. Hotels, clíniques i oficines poden treballar a compte i pagar mensualment, amb un extracte clar del que deuen. Creat a Oman amb OMR natiu i un 5% d'IVA.",
+      "items": [
+        "Albarans amb prova de lliurament",
+        "Comptes mensuals per als habituals",
+        "Extractes del que es deu"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puc posar preu per peça i per quilo?",
+      "a": "Sí. Cada servei té la seva unitat, de manera que una dishdasha té preu per peça i el rentat i plegat per quilo."
+    },
+    {
+      "q": "Puc lliurar les comandes als clients?",
+      "a": "Sí. El mòdul de Lliurament afegeix albarans, així que pots enviar les comandes i guardar la prova de lliurament."
+    },
+    {
+      "q": "Pot pagar mensualment un hotel o una oficina?",
+      "a": "Sí. Deixa les vendes al compte del client i envia una sola factura o extracte a final de mes."
+    },
+    {
+      "q": "Puc enviar tiquets per WhatsApp?",
+      "a": "Sí. Comparteix qualsevol tiquet o factura per WhatsApp o per correu."
+    },
+    {
+      "q": "Quant costa?",
+      "a": "Vendes i Facturació és gratis per sempre. Afegeix TPV o Lliurament quan els necessitis i paga només per aquests mòduls."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Porta la teva bugaderia des d'un sol mostrador",
+  "ctaSub": "Comença gratis amb tiquets i factures, i afegeix el TPV i els lliuraments quan estiguis a punt.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

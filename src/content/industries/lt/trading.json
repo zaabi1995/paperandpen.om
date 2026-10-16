@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Valdykite prekybą su viena tvarkinga knyga",
-  "ctaSub": "Pradėkite nemokamai nuo pasiūlymų ir sąskaitų, tada pridėkite Atsargas ir Buhalterinę apskaitą, kai jūsų prekyba augs."
+  "ctaSub": "Pradėkite nemokamai nuo pasiūlymų ir sąskaitų, tada pridėkite Atsargas ir Buhalterinę apskaitą, kai jūsų prekyba augs.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

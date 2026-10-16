@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Driv din butik uden gætværk",
-  "ctaSub": "Start gratis med afregning og kvitteringer, og tilføj Lager for stregkodelager og varsler om lav beholdning."
+  "ctaSub": "Start gratis med afregning og kvitteringer, og tilføj Lager for stregkodelager og varsler om lav beholdning.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

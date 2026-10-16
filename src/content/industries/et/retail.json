@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Pea oma poodi ilma oletusteta",
-  "ctaSub": "Alusta tasuta arvelduse ja tšekkidega ning lisa laohaldus vöötkoodiga laoarvestuse ja madala laoseisu hoiatuste jaoks."
+  "ctaSub": "Alusta tasuta arvelduse ja tšekkidega ning lisa laohaldus vöötkoodiga laoarvestuse ja madala laoseisu hoiatuste jaoks.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

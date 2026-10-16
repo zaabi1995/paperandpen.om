@@ -31,5 +31,7 @@
   ],
   "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
   "ctaTitle": "Szolgáljon ki gyorsan, kalkuláljon okosan",
-  "ctaSub": "Kezdje ingyen nyugtákkal és számlázással, majd adja hozzá a Készletet és a receptúra-kalkulációt, hogy kézbe vegye az élelmiszerköltséget."
+  "ctaSub": "Kezdje ingyen nyugtákkal és számlázással, majd adja hozzá a Készletet és a receptúra-kalkulációt, hogy kézbe vegye az élelmiszerköltséget.",
+  "signupTemplate": "restaurant",
+  "signupModules": ["pos", "inventory"]
 }

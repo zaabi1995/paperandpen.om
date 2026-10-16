@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Gestiona tu comercio con un solo libro limpio",
-  "ctaSub": "Empieza gratis con cotizaciones y facturación, y añade Inventario y Contabilidad a medida que crece tu negocio."
+  "ctaSub": "Empieza gratis con cotizaciones y facturación, y añade Inventario y Contabilidad a medida que crece tu negocio.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

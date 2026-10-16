@@ -31,5 +31,7 @@
   ],
   "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
   "ctaTitle": "Evrak işini değil, salonu yönetin",
-  "ctaSub": "Hizmet faturalaması ve müşteri kayıtlarıyla ücretsiz başlayın, ardından stok ve prim için Stok ve Bordro ekleyin."
+  "ctaSub": "Hizmet faturalaması ve müşteri kayıtlarıyla ücretsiz başlayın, ardından stok ve prim için Stok ve Bordro ekleyin.",
+  "signupTemplate": "salon",
+  "signupModules": ["pos", "crm", "loyalty"]
 }

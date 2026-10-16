@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Ticaretinizi tek temiz bir defterle yönetin",
-  "ctaSub": "Teklif ve faturalama ile ücretsiz başlayın, ticaretiniz büyüdükçe Stok ve Muhasebe ekleyin."
+  "ctaSub": "Teklif ve faturalama ile ücretsiz başlayın, ticaretiniz büyüdükçe Stok ve Muhasebe ekleyin.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

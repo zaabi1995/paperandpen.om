@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Pyöritä myymälääsi ilman arvailua",
-  "ctaSub": "Aloita ilmaiseksi laskutuksella ja kuiteilla ja lisää Varastonhallinta, niin saat viivakoodivaraston ja hälytykset vähäisestä saldosta."
+  "ctaSub": "Aloita ilmaiseksi laskutuksella ja kuiteilla ja lisää Varastonhallinta, niin saat viivakoodivaraston ja hälytykset vähäisestä saldosta.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

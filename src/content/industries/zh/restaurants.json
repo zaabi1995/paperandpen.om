@@ -31,5 +31,7 @@
   ],
   "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
   "ctaTitle": "出餐要快，成本要准",
-  "ctaSub": "从免费的收据和收银开始，再添加库存和配方成本核算，掌控食材成本。"
+  "ctaSub": "从免费的收据和收银开始，再添加库存和配方成本核算，掌控食材成本。",
+  "signupTemplate": "restaurant",
+  "signupModules": ["pos", "inventory"]
 }

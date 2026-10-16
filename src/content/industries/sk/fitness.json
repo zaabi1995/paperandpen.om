@@ -1,0 +1,108 @@
+{
+  "locale": "sk",
+  "slug": "fitness",
+  "order": 17,
+  "title": "Posilňovne a fitness štúdiá",
+  "metaTitle": "Softvér pre posilňovne a fitness štúdiá: členovia a fakturácia · Paper & Pen",
+  "metaDescription": "Predávajte členstvá, permanentky na lekcie a osobný tréning, majte všetkých členov v jednom zozname, prijímajte platby na recepcii a odmeňte stálych klientov. Pre posilňovne, jogu a pilates.",
+  "keywords": "softvér pre posilňovňu, softvér pre fitness štúdio, fakturácia pre posilňovňu, správa členstiev, softvér pre jogové štúdio, softvér pre pilates štúdio, pokladňa pre posilňovňu",
+  "heroEyebrow": "Pre posilňovne, jogu a pilates",
+  "heroTitle": "Členovia prichádzajú, <em class=\"text-copper-400 not-italic\">platby prichádzajú</em>",
+  "heroSubtitle": "Predávajte členstvá, permanentky na lekcie a osobný tréning, prijímajte platby na recepcii a vedzte, kto má zaplatené. Paper & Pen drží členov, predaj aj účtovníctvo pokope, takže čas trávite na parkete, nie pri papierovaní.",
+  "heroBullets": [
+    "Členstvá, permanentky a denné vstupy",
+    "Platba na recepcii",
+    "Vernostné body, ktoré vracajú členov"
+  ],
+  "features": [
+    {
+      "icon": "users",
+      "title": "Zoznam členov",
+      "desc": "Každý člen s kontaktmi, nákupmi a platbami na jednom mieste."
+    },
+    {
+      "icon": "receipt",
+      "title": "Predaj na recepcii",
+      "desc": "Predajte denný vstup, lekciu alebo šejk pri pulte a odovzdajte účtenku za pár sekúnd."
+    },
+    {
+      "icon": "calendar",
+      "title": "Členstvá a permanentky",
+      "desc": "Predávajte mesačné, štvrťročné a ročné členstvá a permanentky na lekcie ako hotové položky."
+    },
+    {
+      "icon": "refresh",
+      "title": "Opakované faktúry",
+      "desc": "Mesačné členstvo fakturujte automaticky, namiesto toho, aby ste ho každý mesiac naháňali."
+    },
+    {
+      "icon": "tag",
+      "title": "Vernostné odmeny",
+      "desc": "Dávajte body za každý nákup a nechajte stálych klientov, nech ich míňajú, aby sa vracali."
+    },
+    {
+      "icon": "chart",
+      "title": "Tržby podľa služby",
+      "desc": "Uvidíte, čo zarába najviac: členstvá, lekcie alebo osobný tréning."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Recepcia",
+      "title": "Recepcia, ktorá predáva, nie recepcia, ktorá píše",
+      "body": "Člen príde predĺžiť, návštevník chce denný vstup, stály klient kupuje balík lekcií. Každé je pár ťukov na recepcii s účtenkou na WhatsApp alebo na papieri a každý predaj skončí v účtovníctve bez prepisovania. Štartovací katalóg obsahuje členstvá, permanentky, lekcie a osobný tréning, ktoré si upravíte.",
+      "items": [
+        "Hotové položky členstiev a permanentiek",
+        "Účtenky na WhatsApp alebo tlačené",
+        "Každý predaj automaticky v účtovníctve"
+      ]
+    },
+    {
+      "eyebrow": "Udržte členov",
+      "title": "Poznajte svojich členov a vráťte ich späť",
+      "body": "Vidíte, kto čo kúpil a kedy, mesačné členstvá fakturujete opakovanými faktúrami a stálych klientov odmeňujete vernostnými bodmi, ktoré míňajú na recepcii. Vytvorené v Ománe s natívnou podporou OMR a 5 % DPH a pripravené na akúkoľvek menu a sadzbu dane.",
+      "items": [
+        "História nákupov každého člena",
+        "Opakovaná fakturácia členstva",
+        "Body, ktoré členovia môžu míňať"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Funguje to aj pre jogové a pilates štúdiá?",
+      "a": "Áno. Pri registrácii vyberte balík Joga a pilates a začnete s jednotlivými lekciami, permanentkami a mesačným neobmedzeným členstvom. Pre členstvá, denné vstupy a osobný tréning vyberte Posilňovňa a fitness."
+    },
+    {
+      "q": "Môžem fakturovať členstvá každý mesiac?",
+      "a": "Áno. Opakované faktúry vystavujú členstvo podľa plánu a platbu zaznamenáte, keď príde."
+    },
+    {
+      "q": "Môžem predávať na recepcii?",
+      "a": "Áno. Modul Pokladňa vám umožní predávať permanentky, lekcie a produkty pri pulte a odovzdať účtenku."
+    },
+    {
+      "q": "Je k dispozícii vernostný program?",
+      "a": "Áno. Modul Vernosť dáva členom body za nákupy, ktoré môžu neskôr míňať."
+    },
+    {
+      "q": "Je začiatok zadarmo?",
+      "a": "Predaj a fakturácia je navždy zadarmo. Moduly CRM, Pokladňa alebo Vernosť pridáte, keď ich potrebujete, a platíte len za ne."
+    }
+  ],
+  "related": [
+    "/features/sales-crm",
+    "/invoicing/recurring-invoices",
+    "/invoicing/payment-receipts",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Veďte posilňovňu alebo štúdio bez papierovania",
+  "ctaSub": "Začnite zadarmo s faktúrami a účtenkami a potom pridajte recepciu, zoznam členov a vernosť, keď ich budete potrebovať.",
+  "signupTemplate": "gym",
+  "signupModules": [
+    "crm",
+    "pos",
+    "loyalty"
+  ]
+}

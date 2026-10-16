@@ -31,5 +31,7 @@
   ],
   "related": ["/features/manufacturing", "/features/inventory", "/invoicing/payment-receipts", "/industries/retail", "/pricing"],
   "ctaTitle": "Sirve rápido y calcula bien",
-  "ctaSub": "Empieza gratis con recibos y facturación, y añade Inventario y escandallos para controlar el coste de la comida."
+  "ctaSub": "Empieza gratis con recibos y facturación, y añade Inventario y escandallos para controlar el coste de la comida.",
+  "signupTemplate": "restaurant",
+  "signupModules": ["pos", "inventory"]
 }

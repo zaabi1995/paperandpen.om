@@ -1,0 +1,108 @@
+{
+  "locale": "no",
+  "slug": "fitness",
+  "order": 17,
+  "title": "Treningssentre og studioer",
+  "metaTitle": "Programvare for treningssentre og studioer: medlemmer og fakturering · Paper & Pen",
+  "metaDescription": "Selg medlemskap, klippekort og personlig trening, hold alle medlemmer i én liste, ta betalt i resepsjonen og belønn trofaste kunder. For treningssentre, yoga- og pilatesstudioer.",
+  "keywords": "programvare for treningssenter, programvare for treningsstudio, fakturering for treningssenter, medlemsadministrasjon, programvare for yogastudio, programvare for pilatesstudio, kasse for treningssenter",
+  "heroEyebrow": "For treningssentre, yoga- og pilatesstudioer",
+  "heroTitle": "Medlemmer inn, <em class=\"text-copper-400 not-italic\">betalinger inn</em>",
+  "heroSubtitle": "Selg medlemskap, klippekort og personlig trening, ta betalt i resepsjonen og vit hvem som har betalt. Paper & Pen holder medlemmene, salget og regnskapet samlet, så du bruker tiden på gulvet og ikke på papirarbeid.",
+  "heroBullets": [
+    "Medlemskap, kort og dagskort",
+    "Betaling i resepsjonen",
+    "Lojalitetspoeng som får medlemmer tilbake"
+  ],
+  "features": [
+    {
+      "icon": "users",
+      "title": "Medlemsliste",
+      "desc": "Alle medlemmer med kontaktinfo, kjøp og betalinger på ett sted."
+    },
+    {
+      "icon": "receipt",
+      "title": "Salg i resepsjonen",
+      "desc": "Selg et dagskort, en time eller en shake i resepsjonen og gi en kvittering på sekunder."
+    },
+    {
+      "icon": "calendar",
+      "title": "Medlemskap og kort",
+      "desc": "Selg månedlige, kvartalsvise og årlige medlemskap og klippekort som ferdige varer."
+    },
+    {
+      "icon": "refresh",
+      "title": "Gjentakende fakturaer",
+      "desc": "Fakturer et månedlig medlemskap automatisk i stedet for å jage betalingen hver måned."
+    },
+    {
+      "icon": "tag",
+      "title": "Lojalitetsbelønninger",
+      "desc": "Gi poeng på hvert kjøp og la trofaste kunder bruke dem, så de fortsetter å komme."
+    },
+    {
+      "icon": "chart",
+      "title": "Inntekt per tjeneste",
+      "desc": "Se hva som gir mest: medlemskap, timer eller personlig trening."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Resepsjonen",
+      "title": "En resepsjon som selger, ikke en som skriver",
+      "body": "Et medlem kommer for å fornye, en gjest vil ha et dagskort, en trofast kunde kjøper et klippekort. Hver av dem er noen få trykk i resepsjonen med kvittering på WhatsApp eller papir, og hvert salg havner i regnskapet uten at du taster noe på nytt. Startkatalogen har medlemskap, kort, timer og personlig trening ferdig satt opp, så du kan endre dem.",
+      "items": [
+        "Ferdige medlemskaps- og kortvarer",
+        "Kvitteringer på WhatsApp eller utskrift",
+        "Hvert salg i regnskapet automatisk"
+      ]
+    },
+    {
+      "eyebrow": "Behold medlemmene",
+      "title": "Kjenn medlemmene dine og få dem tilbake",
+      "body": "Se hvem som kjøpte hva og når, fakturer månedlige medlemskap med gjentakende fakturaer, og belønn trofaste kunder med lojalitetspoeng de kan bruke i resepsjonen. Laget i Oman med innebygd OMR og 5 % MVA, og klar for alle valutaer og skattesatser.",
+      "items": [
+        "Kjøpshistorikk per medlem",
+        "Gjentakende fakturering av medlemskap",
+        "Poeng som medlemmer kan bruke"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Fungerer det for yoga- og pilatesstudioer også?",
+      "a": "Ja. Velg pakken Yoga og pilates når du registrerer deg, så starter du med enkelttimer, klippekort og månedlige medlemskap med ubegrenset trening. Velg Trening for medlemskap, dagskort og personlig trening."
+    },
+    {
+      "q": "Kan jeg fakturere medlemskap hver måned?",
+      "a": "Ja. Bruk gjentakende fakturaer for å fakturere et medlemskap etter en plan, og registrer betalingen når den kommer inn."
+    },
+    {
+      "q": "Kan jeg selge i resepsjonen?",
+      "a": "Ja. Med Kasse-modulen selger du kort, timer og produkter i resepsjonen og gir en kvittering."
+    },
+    {
+      "q": "Finnes det et lojalitetsprogram?",
+      "a": "Ja. Lojalitet-modulen gir medlemmer poeng på kjøp som de kan bruke senere."
+    },
+    {
+      "q": "Er det gratis å komme i gang?",
+      "a": "Salg og fakturering er gratis for alltid. Legg til CRM, Kasse eller Lojalitet når du trenger dem, og betal bare for de modulene."
+    }
+  ],
+  "related": [
+    "/features/sales-crm",
+    "/invoicing/recurring-invoices",
+    "/invoicing/payment-receipts",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Driv treningssenteret eller studioet uten papirarbeid",
+  "ctaSub": "Start gratis med fakturaer og kvitteringer, og legg så til resepsjonen, medlemslisten og lojaliteten når du trenger dem.",
+  "signupTemplate": "gym",
+  "signupModules": [
+    "crm",
+    "pos",
+    "loyalty"
+  ]
+}

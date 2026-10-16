@@ -1,0 +1,109 @@
+{
+  "locale": "fr",
+  "slug": "printing",
+  "order": 16,
+  "title": "Imprimeries et papeterie",
+  "metaTitle": "Logiciel pour imprimeries : devis, travaux et factures · Paper & Pen",
+  "metaDescription": "Chiffrez vos travaux d'impression vite, suivez chaque travail du fichier à la livraison, comptez le stock de papier et facturez en OMR avec 5% de TVA. Conçu pour les imprimeries et les papetiers.",
+  "keywords": "logiciel imprimerie, logiciel pour métier de l'impression, suivi des travaux d'impression, logiciel de devis impression, facturation papeterie, erp imprimerie, chiffrage impression",
+  "heroEyebrow": "Pour les imprimeries et les papetiers",
+  "heroTitle": "Du devis à <em class=\"text-copper-400 not-italic\">imprimé et payé</em>",
+  "heroSubtitle": "Chiffrez un travail d'impression en quelques minutes, transformez le devis accepté en travail, suivez-le en production et à la livraison, et facturez-le sans ressaisir une ligne. Paper & Pen réunit vos travaux, votre stock de papier et votre comptabilité au même endroit.",
+  "heroBullets": [
+    "Des devis qui deviennent des travaux en un clic",
+    "Chaque travail suivi jusqu'à la livraison",
+    "Papier et stock comptés au fur et à mesure"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Devis d'impression rapides",
+      "desc": "Créez un devis à partir de votre liste de prix, partagez-le sur WhatsApp ou par e-mail et convertissez-le quand le client dit oui."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Suivi des travaux",
+      "desc": "Chaque commande acceptée devient un travail de production, pour savoir toujours ce qui s'imprime, ce qui attend et ce qui est en retard."
+    },
+    {
+      "icon": "inventory",
+      "title": "Papier et stock",
+      "desc": "Comptez le papier, l'encre et la papeterie finie par référence et par unité, avec un stock qui bouge à chaque vente ou utilisation."
+    },
+    {
+      "icon": "truck",
+      "title": "Bons de livraison",
+      "desc": "Remettez le travail fini avec un bon de livraison et gardez la preuve signée sur la commande."
+    },
+    {
+      "icon": "invoice",
+      "title": "Factures avec TVA",
+      "desc": "Facturez en OMR avec 5% de TVA, ou dans n'importe quelle devise et à n'importe quel taux, directement depuis le devis ou le travail."
+    },
+    {
+      "icon": "users",
+      "title": "Historique client",
+      "desc": "Consultez chaque devis, travail et paiement d'un client, pour qu'une commande répétée ne prenne que quelques secondes."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Du devis au travail",
+      "title": "Un seul dossier, du premier devis au dernier paiement",
+      "body": "Un travail d'impression passe entre bien des mains : les ventes le chiffrent, le client l'accepte, la production l'imprime, quelqu'un le livre et la comptabilité l'encaisse. Dans Paper & Pen, c'est un seul dossier du début à la fin, donc rien n'est ressaisi et rien ne se perd entre les bureaux. Convertissez un devis accepté en facture et en travail de production en une seule étape.",
+      "items": [
+        "Le devis accepté devient le travail",
+        "La production voit quoi imprimer ensuite",
+        "Facture créée à partir des mêmes lignes"
+      ]
+    },
+    {
+      "eyebrow": "Comptoir et stock",
+      "title": "Ventes de papeterie et stock de papier au même endroit",
+      "body": "Vendez des stylos, des cahiers et de l'impression au comptoir et laissez le stock se mettre à jour tout seul. Fixez des seuils de réapprovisionnement pour les papiers et les encres qui ne doivent jamais manquer, et voyez ce que rapporte chaque client et chaque produit. Conçu à Oman avec l'OMR en natif et la TVA à 5%, et prêt pour toutes les devises.",
+      "items": [
+        "Ventes au comptoir avec reçus",
+        "Seuils de réapprovisionnement pour papier et encre",
+        "Rapports par client et par produit"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je chiffrer des travaux d'impression avec mes propres prix ?",
+      "a": "Oui. Ajoutez vos produits et services avec vos propres prix, puis créez des devis à partir de ceux-ci. Un catalogue d'impression de départ est prêt à l'inscription, et vous le modifiez pour l'adapter à votre imprimerie."
+    },
+    {
+      "q": "Puis-je suivre un travail après l'acceptation du client ?",
+      "a": "Oui. Avec le module Production, une commande acceptée devient un travail de production que vous suivez jusqu'à son achèvement et sa livraison."
+    },
+    {
+      "q": "Gère-t-il le stock de papeterie ?",
+      "a": "Oui. Le module Gestion des stocks compte le papier, l'encre et la papeterie par référence et par unité, et chaque vente ou utilisation fait bouger le stock."
+    },
+    {
+      "q": "Puis-je envoyer des devis et des factures sur WhatsApp ?",
+      "a": "Oui. Partagez n'importe quel devis, facture ou reçu sur WhatsApp ou par e-mail, sous forme de lien ou de PDF."
+    },
+    {
+      "q": "Combien ça coûte ?",
+      "a": "Les devis, les factures, les clients et les paiements sont gratuits pour toujours. Ajoutez Production, Gestion des stocks, CRM ou Livraison quand vous en avez besoin et ne payez que ces modules."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Gérez votre imprimerie depuis un seul écran",
+  "ctaSub": "Commencez avec des devis et des factures gratuits, puis ajoutez le suivi des travaux et le stock de papier quand vous serez prêt.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

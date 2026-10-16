@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Run your shop without the guesswork",
-  "ctaSub": "Start free with billing and receipts, then add Inventory for barcode stock and low-stock alerts."
+  "ctaSub": "Start free with billing and receipts, then add Inventory for barcode stock and low-stock alerts.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

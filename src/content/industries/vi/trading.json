@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Vận hành việc kinh doanh trên một sổ cái gọn gàng",
-  "ctaSub": "Bắt đầu miễn phí với báo giá và hóa đơn, rồi thêm Kho hàng và Kế toán khi việc kinh doanh phát triển."
+  "ctaSub": "Bắt đầu miễn phí với báo giá và hóa đơn, rồi thêm Kho hàng và Kế toán khi việc kinh doanh phát triển.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

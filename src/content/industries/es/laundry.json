@@ -1,0 +1,107 @@
+{
+  "locale": "es",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Lavanderías y tintorerías",
+  "metaTitle": "Software para lavanderías y tintorerías: tickets y facturación · Paper & Pen",
+  "metaDescription": "Recibe las prendas, ponles precio por pieza o por kilo, factura en OMR con IVA y entrega el pedido al cliente. Software de mostrador sencillo para lavanderías y tintorerías.",
+  "keywords": "software para lavanderías, software para tintorerías, facturación para lavanderías, punto de venta para lavandería, facturación para tintorerías, software de entregas para lavanderías",
+  "heroEyebrow": "Para lavanderías y tintorerías",
+  "heroTitle": "Cada prenda entra, <em class=\"text-copper-400 not-italic\">cada prenda se cobra</em>",
+  "heroSubtitle": "Pon precio a dishdashas, camisas, trajes y abayas por pieza, o al lavado y doblado por kilo, entrega un recibo al cliente y devuelve el pedido. Paper & Pen mantiene en sintonía el mostrador, las entregas y los libros.",
+  "heroBullets": [
+    "Precio por pieza o por kilo",
+    "Recibos en el mostrador",
+    "Albaranes de recogida y entrega"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Recibos de mostrador",
+      "desc": "Añade las piezas, cobra o déjalo en cuenta y entrega un recibo en segundos."
+    },
+    {
+      "icon": "tag",
+      "title": "Tu lista de precios",
+      "desc": "Fija un precio por dishdasha, camisa, traje o abaya, o por kilo para el lavado y doblado."
+    },
+    {
+      "icon": "truck",
+      "title": "Recogida y entrega",
+      "desc": "Envía los pedidos con un albarán de entrega y guarda el comprobante de que el cliente los recibió."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Recibos por WhatsApp",
+      "desc": "Envía el recibo o la factura al cliente por WhatsApp en lugar de en papel."
+    },
+    {
+      "icon": "wallet",
+      "title": "Cuentas de clientes",
+      "desc": "Deja que los clientes habituales y las empresas paguen cada mes y ve lo que debe cada uno."
+    },
+    {
+      "icon": "chart",
+      "title": "Caja del día",
+      "desc": "Ve lo que ha entrado hoy, por servicio y por método de pago."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "En el mostrador",
+      "title": "Entrar rápido, salir rápido",
+      "body": "Un cliente deja una bolsa de camisas y dos dishdashas. Elige los artículos de tu lista de precios, cobra ahora o en la recogida e imprime o comparte el recibo. El catálogo inicial trae lavado y doblado, limpieza en seco y planchado, listos para que los edites con tus propios precios.",
+      "items": [
+        "Lista de precios de lavandería lista para usar",
+        "Paga ahora o en la recogida",
+        "Recibos por WhatsApp o impresos"
+      ]
+    },
+    {
+      "eyebrow": "Entregas y cuentas",
+      "title": "Devuelve el pedido y factura cada mes",
+      "body": "Envía los pedidos terminados con un albarán de entrega y guarda el comprobante de entrega. Hoteles, clínicas y oficinas pueden trabajar en cuenta y pagar cada mes, con un extracto claro de lo que se debe. Hecho en Omán con OMR nativo e IVA del 5%.",
+      "items": [
+        "Albaranes de entrega con comprobante",
+        "Cuentas mensuales para clientes habituales",
+        "Extractos de lo que se debe"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo poner precio por pieza y por kilo?",
+      "a": "Sí. Cada servicio tiene su propia unidad, así que una dishdasha se cobra por pieza y el lavado y doblado por kilo."
+    },
+    {
+      "q": "¿Puedo entregar los pedidos a los clientes?",
+      "a": "Sí. El módulo de Entregas añade albaranes de entrega, para que envíes los pedidos y guardes el comprobante de entrega."
+    },
+    {
+      "q": "¿Puede un hotel o una oficina pagar cada mes?",
+      "a": "Sí. Deja las ventas en la cuenta del cliente y envía una factura o un extracto a final de mes."
+    },
+    {
+      "q": "¿Puedo enviar recibos por WhatsApp?",
+      "a": "Sí. Comparte cualquier recibo o factura por WhatsApp o correo."
+    },
+    {
+      "q": "¿Cuánto cuesta?",
+      "a": "Ventas y Facturación es gratis para siempre. Añade Punto de venta o Entregas cuando los necesites y paga solo por esos módulos."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Gestiona tu lavandería desde un solo mostrador",
+  "ctaSub": "Empieza gratis con recibos y facturas y añade el punto de venta y las entregas cuando estés listo.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

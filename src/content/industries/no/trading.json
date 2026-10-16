@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Driv handelen på én ryddig hovedbok",
-  "ctaSub": "Start gratis med tilbud og fakturering, og legg så til Lager og Regnskap etter hvert som handelen vokser."
+  "ctaSub": "Start gratis med tilbud og fakturering, og legg så til Lager og Regnskap etter hvert som handelen vokser.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

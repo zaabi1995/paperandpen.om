@@ -1,0 +1,109 @@
+{
+  "locale": "ro",
+  "slug": "printing",
+  "order": 16,
+  "title": "Tipografii și papetării",
+  "metaTitle": "Software pentru tipografii: oferte, comenzi și facturi · Paper & Pen",
+  "metaDescription": "Ofertează rapid lucrări de tipar, urmărește fiecare comandă de la grafică până la livrare, ține evidența stocului de hârtie și facturează în OMR cu TVA de 5%. Creat pentru tipografii și papetării.",
+  "keywords": "software pentru tipografie, software pentru afaceri de tipar, urmărirea comenzilor de tipar, ofertare tipar, facturare papetărie, ERP pentru tipografie, calcul de tipar",
+  "heroEyebrow": "Pentru tipografii și papetării",
+  "heroTitle": "De la ofertă la <em class=\"text-copper-400 not-italic\">tipărit și plătit</em>",
+  "heroSubtitle": "Ofertezi o lucrare de tipar în câteva minute, transformi oferta aprobată în comandă, o urmărești prin producție și livrare și facturezi fără să retastezi nicio linie. Paper & Pen ține comenzile, stocul de hârtie și contabilitatea într-un singur loc.",
+  "heroBullets": [
+    "Oferte care devin comenzi dintr-un clic",
+    "Fiecare comandă urmărită până la livrare",
+    "Hârtie și stoc numărate pe măsură ce le folosești"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Oferte rapide de tipar",
+      "desc": "Construiești o ofertă din lista ta de prețuri, o trimiți pe WhatsApp sau pe e-mail și o convertești când clientul spune da."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Urmărirea comenzilor",
+      "desc": "Fiecare comandă aprobată devine o lucrare de producție, așa că știi mereu ce se tipărește, ce așteaptă și ce întârzie."
+    },
+    {
+      "icon": "inventory",
+      "title": "Hârtie și stoc",
+      "desc": "Numeri hârtia, cerneala și papetăria finită pe SKU și unitate, iar stocul se mișcă la fiecare vânzare sau consum."
+    },
+    {
+      "icon": "truck",
+      "title": "Avize de livrare",
+      "desc": "Predai lucrarea gata cu un aviz de livrare și păstrezi dovada semnată pe comandă."
+    },
+    {
+      "icon": "invoice",
+      "title": "Facturi cu TVA",
+      "desc": "Facturezi în OMR cu TVA de 5%, sau în orice monedă și cu orice cotă de taxă, direct din ofertă sau din comandă."
+    },
+    {
+      "icon": "users",
+      "title": "Istoric client",
+      "desc": "Vezi toate ofertele, comenzile și plățile unui client, așa că o comandă repetată durează secunde."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "De la ofertă la comandă",
+      "title": "O singură fișă, de la prima ofertă la ultima plată",
+      "body": "O lucrare de tipar trece prin multe mâini: vânzările ofertează, clientul aprobă, producția tipărește, cineva livrează, iar contabilitatea încasează. În Paper & Pen e o singură fișă pe tot parcursul, așa că nimic nu se retastează și nimic nu se pierde între birouri. Transformi o ofertă aprobată în factură și comandă de producție dintr-un singur pas.",
+      "items": [
+        "Oferta aprobată devine comanda",
+        "Producția vede ce se tipărește următorul",
+        "Factură construită din aceleași linii"
+      ]
+    },
+    {
+      "eyebrow": "Tejghea și stoc",
+      "title": "Vânzări de papetărie și stoc de hârtie în același loc",
+      "body": "Vinzi pixuri, caiete și tipar la tejghea și lași stocul să se actualizeze singur. Setezi praguri de reaprovizionare pentru hârtia și cerneala care nu au voie să se termine și vezi cât aduce fiecare client și fiecare produs. Creat în Oman, cu OMR nativ și TVA de 5%, și pregătit pentru orice monedă.",
+      "items": [
+        "Vânzări la tejghea cu chitanțe",
+        "Praguri de reaprovizionare pentru hârtie și cerneală",
+        "Rapoarte pe client și produs"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Pot oferta lucrări de tipar cu prețurile mele?",
+      "a": "Da. Adaugi produsele și serviciile tale cu prețurile tale, apoi construiești oferte din ele. La înregistrare primești un catalog de tipar de pornire, pe care îl editezi ca să se potrivească tipografiei tale."
+    },
+    {
+      "q": "Pot urmări o comandă după ce clientul o aprobă?",
+      "a": "Da. Cu modulul Producție, o comandă aprobată devine o lucrare de producție pe care o urmărești până e gata și livrată."
+    },
+    {
+      "q": "Gestionează și stocul de papetărie?",
+      "a": "Da. Modulul Stocuri numără hârtia, cerneala și papetăria pe SKU și unitate, iar fiecare vânzare sau consum mișcă stocul."
+    },
+    {
+      "q": "Pot trimite oferte și facturi pe WhatsApp?",
+      "a": "Da. Trimiți orice ofertă, factură sau chitanță pe WhatsApp sau pe e-mail, ca link sau PDF."
+    },
+    {
+      "q": "Cât costă?",
+      "a": "Ofertele, facturile, clienții și plățile sunt gratuite pentru totdeauna. Adaugi Producție, Stocuri, CRM sau Livrări când ai nevoie și plătești doar pentru acele module."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Condu tipografia de pe un singur ecran",
+  "ctaSub": "Începe gratuit cu oferte și facturi, apoi adaugă urmărirea comenzilor și stocul de hârtie când ești gata.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

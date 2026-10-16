@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Gerencie sua loja sem achismo",
-  "ctaSub": "Comece grátis com faturamento e recibos e depois adicione o Estoque para controle por código de barras e alertas de estoque baixo."
+  "ctaSub": "Comece grátis com faturamento e recibos e depois adicione o Estoque para controle por código de barras e alertas de estoque baixo.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

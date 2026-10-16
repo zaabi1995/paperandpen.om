@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Porta la botiga sense anar a cegues",
-  "ctaSub": "Comença gratis amb la facturació i els tiquets, i després afegeix Inventari per tenir estoc amb codi de barres i avisos d'estoc baix."
+  "ctaSub": "Comença gratis amb la facturació i els tiquets, i després afegeix Inventari per tenir estoc amb codi de barres i avisos d'estoc baix.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

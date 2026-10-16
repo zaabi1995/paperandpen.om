@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Mağazanızı tahmine dayanmadan yönetin",
-  "ctaSub": "Faturalama ve fişlerle ücretsiz başlayın, ardından barkodlu stok ve düşük stok uyarıları için Stok'u ekleyin."
+  "ctaSub": "Faturalama ve fişlerle ücretsiz başlayın, ardından barkodlu stok ve düşük stok uyarıları için Stok'u ekleyin.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

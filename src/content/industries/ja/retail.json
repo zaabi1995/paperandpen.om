@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "勘に頼らずに店舗を運営",
-  "ctaSub": "請求とレシートから無料で始め、バーコード在庫と在庫不足の通知が必要になったら在庫を追加しましょう。"
+  "ctaSub": "請求とレシートから無料で始め、バーコード在庫と在庫不足の通知が必要になったら在庫を追加しましょう。",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

@@ -1,0 +1,107 @@
+{
+  "locale": "en",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Laundry & Dry Cleaning",
+  "metaTitle": "Laundry & Dry Cleaning Software · Paper & Pen",
+  "metaDescription": "Take in pieces, price by item or by kilo, bill in OMR with VAT and deliver back to the customer. Simple counter software for laundries and dry cleaners.",
+  "keywords": "laundry software, dry cleaning software, laundry billing software, laundry pos, dry cleaner invoicing, laundry delivery software",
+  "heroEyebrow": "For laundries & dry cleaners",
+  "heroTitle": "Every piece in, <em class=\"text-copper-400 not-italic\">every piece paid</em>",
+  "heroSubtitle": "Price dishdashas, shirts, suits and abayas by the piece or wash and fold by the kilo, hand the customer a receipt and deliver the order back. Paper & Pen keeps the counter, deliveries and books in step.",
+  "heroBullets": [
+    "Price by piece or by kilo",
+    "Receipts at the counter",
+    "Pickup and delivery notes"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Counter receipts",
+      "desc": "Add the pieces, take payment or leave it on account, and hand over a receipt in seconds."
+    },
+    {
+      "icon": "tag",
+      "title": "Your price list",
+      "desc": "Set a price per dishdasha, shirt, suit or abaya, or per kilo for wash and fold."
+    },
+    {
+      "icon": "truck",
+      "title": "Pickup and delivery",
+      "desc": "Send orders out with a delivery note and keep proof that the customer received them."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "WhatsApp receipts",
+      "desc": "Send the receipt or invoice to the customer on WhatsApp instead of paper."
+    },
+    {
+      "icon": "wallet",
+      "title": "Customer accounts",
+      "desc": "Let regular and corporate customers pay monthly and see what each one owes."
+    },
+    {
+      "icon": "chart",
+      "title": "Daily takings",
+      "desc": "See what came in today, by service and by payment method."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "At the counter",
+      "title": "Fast in, fast out",
+      "body": "A customer drops off a bag of shirts and two dishdashas. Pick the items from your price list, take payment now or at pickup, and print or share the receipt. The starter catalogue comes with wash and fold, dry cleaning and press items, ready for you to edit to your own prices.",
+      "items": [
+        "Ready-made laundry price list",
+        "Pay now or at pickup",
+        "Receipts on WhatsApp or print"
+      ]
+    },
+    {
+      "eyebrow": "Deliveries and accounts",
+      "title": "Deliver back and bill monthly",
+      "body": "Send finished orders out with a delivery note and keep the proof of handover. Hotels, clinics and offices can run on account and pay monthly, with a clear statement of what is owed. Built in Oman with native OMR and 5% VAT.",
+      "items": [
+        "Delivery notes with proof",
+        "Monthly accounts for regulars",
+        "Statements of what is owed"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I price by piece and by kilo?",
+      "a": "Yes. Each service has its own unit, so a dishdasha is priced per piece and wash and fold per kilo."
+    },
+    {
+      "q": "Can I deliver orders to customers?",
+      "a": "Yes. The Delivery module adds delivery notes, so you can send orders out and keep proof of handover."
+    },
+    {
+      "q": "Can a hotel or office pay monthly?",
+      "a": "Yes. Leave sales on the customer's account and send one invoice or statement at the end of the month."
+    },
+    {
+      "q": "Can I send receipts on WhatsApp?",
+      "a": "Yes. Share any receipt or invoice on WhatsApp or by email."
+    },
+    {
+      "q": "What does it cost?",
+      "a": "Sales and Invoicing is free forever. Add POS or Delivery when you need them and pay only for those modules."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Run your laundry from one counter",
+  "ctaSub": "Start free with receipts and invoices, then add the POS and deliveries when you are ready.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Водите продавницу без нагађања",
-  "ctaSub": "Почните бесплатно са наплатом и рачунима, па додајте Залихе за бар-код контролу и упозорења о ниским залихама."
+  "ctaSub": "Почните бесплатно са наплатом и рачунима, па додајте Залихе за бар-код контролу и упозорења о ниским залихама.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

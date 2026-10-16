@@ -1,0 +1,107 @@
+{
+  "locale": "pt",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Lavanderias e tinturarias",
+  "metaTitle": "Software para lavanderias e tinturarias: comandas e cobrança · Paper & Pen",
+  "metaDescription": "Receba as peças, cobre por peça ou por quilo, fature em OMR com IVA e entregue de volta ao cliente. Software simples de balcão para lavanderias e tinturarias.",
+  "keywords": "software para lavanderia, software para tinturaria, faturamento de lavanderia, PDV para lavanderia, faturamento de tinturaria, software de entrega para lavanderia",
+  "heroEyebrow": "Para lavanderias e tinturarias",
+  "heroTitle": "Cada peça recebida, <em class=\"text-copper-400 not-italic\">cada peça paga</em>",
+  "heroSubtitle": "Dê preço a dishdashas, camisas, ternos e abayas por peça ou lave e dobre por quilo, entregue um recibo ao cliente e leve o pedido de volta. O Paper & Pen mantém o balcão, as entregas e a contabilidade em sintonia.",
+  "heroBullets": [
+    "Preço por peça ou por quilo",
+    "Recibos no balcão",
+    "Guias de retirada e entrega"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Recibos no balcão",
+      "desc": "Adicione as peças, receba o pagamento ou deixe em conta e entregue um recibo em segundos."
+    },
+    {
+      "icon": "tag",
+      "title": "Sua tabela de preços",
+      "desc": "Defina um preço por dishdasha, camisa, terno ou abaya, ou por quilo para lavar e dobrar."
+    },
+    {
+      "icon": "truck",
+      "title": "Retirada e entrega",
+      "desc": "Envie pedidos com uma guia de remessa e guarde o comprovante de que o cliente os recebeu."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Recibos no WhatsApp",
+      "desc": "Envie o recibo ou a fatura ao cliente pelo WhatsApp em vez de papel."
+    },
+    {
+      "icon": "wallet",
+      "title": "Contas de clientes",
+      "desc": "Deixe clientes frequentes e empresas pagarem por mês e veja quanto cada um deve."
+    },
+    {
+      "icon": "chart",
+      "title": "Caixa do dia",
+      "desc": "Veja o que entrou hoje, por serviço e por forma de pagamento."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "No balcão",
+      "title": "Entra rápido, sai rápido",
+      "body": "Um cliente deixa uma sacola de camisas e duas dishdashas. Escolha os itens da sua tabela de preços, receba agora ou na retirada e imprima ou compartilhe o recibo. O catálogo inicial traz lavar e dobrar, lavagem a seco e passadoria, prontos para você editar com os seus preços.",
+      "items": [
+        "Tabela de preços de lavanderia pronta",
+        "Pague agora ou na retirada",
+        "Recibos no WhatsApp ou impressos"
+      ]
+    },
+    {
+      "eyebrow": "Entregas e contas",
+      "title": "Entregue de volta e cobre por mês",
+      "body": "Envie os pedidos prontos com uma guia de remessa e guarde o comprovante de entrega. Hotéis, clínicas e escritórios podem trabalhar em conta e pagar por mês, com um extrato claro do que devem. Feito em Omã, com OMR nativo e IVA de 5%.",
+      "items": [
+        "Guias de remessa com comprovante",
+        "Contas mensais para clientes frequentes",
+        "Extratos do que está em aberto"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posso cobrar por peça e por quilo?",
+      "a": "Sim. Cada serviço tem a sua própria unidade, então a dishdasha é cobrada por peça e lavar e dobrar por quilo."
+    },
+    {
+      "q": "Posso entregar pedidos aos clientes?",
+      "a": "Sim. O módulo de Entregas adiciona guias de remessa, para você enviar pedidos e guardar o comprovante de entrega."
+    },
+    {
+      "q": "Um hotel ou escritório pode pagar por mês?",
+      "a": "Sim. Deixe as vendas na conta do cliente e envie uma fatura ou um extrato no fim do mês."
+    },
+    {
+      "q": "Posso enviar recibos pelo WhatsApp?",
+      "a": "Sim. Compartilhe qualquer recibo ou fatura pelo WhatsApp ou por e-mail."
+    },
+    {
+      "q": "Quanto custa?",
+      "a": "Vendas e Faturamento é grátis para sempre. Adicione PDV ou Entregas quando precisar e pague só por esses módulos."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Comande sua lavanderia de um só balcão",
+  "ctaSub": "Comece grátis com recibos e faturas e adicione o PDV e as entregas quando estiver pronto.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

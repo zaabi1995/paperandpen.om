@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Patakbuhin ang tindahan mo nang walang hula",
-  "ctaSub": "Magsimula nang libre sa billing at resibo, saka idagdag ang Imbentaryo para sa barcode na stock at low-stock alert."
+  "ctaSub": "Magsimula nang libre sa billing at resibo, saka idagdag ang Imbentaryo para sa barcode na stock at low-stock alert.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

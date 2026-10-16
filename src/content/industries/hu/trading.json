@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Vezesse kereskedését egy tiszta főkönyvvel",
-  "ctaSub": "Kezdje ingyen árajánlatokkal és számlázással, majd adja hozzá a Készletet és a Könyvelést, ahogy kereskedése növekszik."
+  "ctaSub": "Kezdje ingyen árajánlatokkal és számlázással, majd adja hozzá a Készletet és a Könyvelést, ahogy kereskedése növekszik.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

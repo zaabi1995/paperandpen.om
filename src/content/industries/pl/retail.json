@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Prowadź sklep bez zgadywania",
-  "ctaSub": "Zacznij za darmo od rozliczania i pokwitowań, a potem dodaj Magazyn, by mieć kody kreskowe i alerty o niskim stanie."
+  "ctaSub": "Zacznij za darmo od rozliczania i pokwitowań, a potem dodaj Magazyn, by mieć kody kreskowe i alerty o niskim stanie.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

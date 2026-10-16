@@ -1,0 +1,107 @@
+{
+  "locale": "de",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Wäscherei & Reinigung",
+  "metaTitle": "Software für Wäschereien und Reinigungen: Belege & Abrechnung · Paper & Pen",
+  "metaDescription": "Teile annehmen, nach Stück oder nach Kilo berechnen, in OMR mit MwSt. abrechnen und dem Kunden zurückliefern. Einfache Kassensoftware für Wäschereien und Reinigungen.",
+  "keywords": "Software für Wäschereien, Software für Reinigungen, Abrechnung Wäscherei, Kasse Wäscherei, Rechnungen chemische Reinigung, Lieferung Wäscherei Software",
+  "heroEyebrow": "Für Wäschereien & Reinigungen",
+  "heroTitle": "Jedes Teil rein, <em class=\"text-copper-400 not-italic\">jedes Teil bezahlt</em>",
+  "heroSubtitle": "Berechnen Sie Dishdashas, Hemden, Anzüge und Abayas nach Stück oder Waschen und Falten nach Kilo, übergeben Sie dem Kunden eine Quittung und liefern Sie den Auftrag zurück. Paper & Pen hält Theke, Lieferungen und Bücher im Gleichschritt.",
+  "heroBullets": [
+    "Preis nach Stück oder nach Kilo",
+    "Quittungen an der Theke",
+    "Abhol- und Lieferscheine"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Quittungen an der Theke",
+      "desc": "Fügen Sie die Teile hinzu, nehmen Sie die Zahlung an oder lassen Sie sie auf Rechnung, und übergeben Sie in Sekunden eine Quittung."
+    },
+    {
+      "icon": "tag",
+      "title": "Ihre Preisliste",
+      "desc": "Legen Sie einen Preis je Dishdasha, Hemd, Anzug oder Abaya fest, oder je Kilo für Waschen und Falten."
+    },
+    {
+      "icon": "truck",
+      "title": "Abholung und Lieferung",
+      "desc": "Schicken Sie Aufträge mit einem Lieferschein hinaus und behalten Sie den Nachweis, dass der Kunde sie erhalten hat."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Quittungen per WhatsApp",
+      "desc": "Senden Sie dem Kunden die Quittung oder Rechnung per WhatsApp statt auf Papier."
+    },
+    {
+      "icon": "wallet",
+      "title": "Kundenkonten",
+      "desc": "Lassen Sie Stamm- und Firmenkunden monatlich zahlen und sehen Sie, was jeder schuldet."
+    },
+    {
+      "icon": "chart",
+      "title": "Tageseinnahmen",
+      "desc": "Sehen Sie, was heute eingegangen ist, nach Leistung und nach Zahlungsart."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "An der Theke",
+      "title": "Schnell rein, schnell raus",
+      "body": "Ein Kunde gibt eine Tüte Hemden und zwei Dishdashas ab. Wählen Sie die Teile aus Ihrer Preisliste, nehmen Sie die Zahlung jetzt oder bei der Abholung an und drucken oder teilen Sie die Quittung. Der Start-Katalog enthält Waschen und Falten, Reinigung und Bügeln, zum Anpassen an Ihre eigenen Preise.",
+      "items": [
+        "Fertige Preisliste für Wäschereien",
+        "Zahlung jetzt oder bei Abholung",
+        "Quittungen per WhatsApp oder Druck"
+      ]
+    },
+    {
+      "eyebrow": "Lieferungen und Konten",
+      "title": "Zurückliefern und monatlich abrechnen",
+      "body": "Schicken Sie fertige Aufträge mit einem Lieferschein hinaus und behalten Sie den Nachweis der Übergabe. Hotels, Kliniken und Büros können auf Rechnung arbeiten und monatlich zahlen, mit einer klaren Aufstellung des offenen Betrags. Entwickelt in Oman mit nativem OMR und 5% MwSt.",
+      "items": [
+        "Lieferscheine mit Nachweis",
+        "Monatskonten für Stammkunden",
+        "Aufstellungen offener Beträge"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann ich nach Stück und nach Kilo berechnen?",
+      "a": "Ja. Jede Leistung hat ihre eigene Einheit: Eine Dishdasha kostet pro Stück, Waschen und Falten pro Kilo."
+    },
+    {
+      "q": "Kann ich Aufträge an Kunden liefern?",
+      "a": "Ja. Das Modul Lieferung ergänzt Lieferscheine, damit Sie Aufträge hinausschicken und den Nachweis der Übergabe behalten."
+    },
+    {
+      "q": "Kann ein Hotel oder Büro monatlich zahlen?",
+      "a": "Ja. Lassen Sie Verkäufe auf dem Konto des Kunden und senden Sie am Monatsende eine Rechnung oder Aufstellung."
+    },
+    {
+      "q": "Kann ich Quittungen per WhatsApp senden?",
+      "a": "Ja. Teilen Sie jede Quittung oder Rechnung per WhatsApp oder E-Mail."
+    },
+    {
+      "q": "Was kostet es?",
+      "a": "Vertrieb & Rechnungen ist für immer kostenlos. Fügen Sie Kasse oder Lieferung hinzu, wenn Sie sie brauchen, und zahlen Sie nur für diese Module."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Führen Sie Ihre Wäscherei von einer Theke aus",
+  "ctaSub": "Starten Sie kostenlos mit Quittungen und Rechnungen und fügen Sie Kasse und Lieferungen hinzu, wenn Sie so weit sind.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

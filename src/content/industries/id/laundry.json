@@ -1,0 +1,107 @@
+{
+  "locale": "id",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Binatu & Cuci Kering",
+  "metaTitle": "Software Laundry & Dry Cleaning: Tiket & Penagihan · Paper & Pen",
+  "metaDescription": "Terima pakaian, beri harga per potong atau per kilo, tagih dalam OMR dengan PPN dan antar kembali ke pelanggan. Software kasir sederhana untuk laundry dan dry cleaner.",
+  "keywords": "aplikasi laundry, software dry cleaning, aplikasi penagihan laundry, kasir laundry, faktur dry cleaner, aplikasi pengantaran laundry",
+  "heroEyebrow": "Untuk laundry & dry cleaner",
+  "heroTitle": "Setiap potong masuk, <em class=\"text-copper-400 not-italic\">setiap potong terbayar</em>",
+  "heroSubtitle": "Beri harga dishdasha, kemeja, jas dan abaya per potong, atau cuci lipat per kilo, serahkan kuitansi ke pelanggan dan antar pesanan kembali. Paper & Pen menjaga kasir, pengantaran dan pembukuan tetap selaras.",
+  "heroBullets": [
+    "Harga per potong atau per kilo",
+    "Kuitansi di kasir",
+    "Surat jalan ambil dan antar"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Kuitansi kasir",
+      "desc": "Tambahkan pakaian, terima pembayaran atau catat sebagai piutang, dan serahkan kuitansi dalam hitungan detik."
+    },
+    {
+      "icon": "tag",
+      "title": "Daftar harga Anda",
+      "desc": "Tetapkan harga per dishdasha, kemeja, jas atau abaya, atau per kilo untuk cuci lipat."
+    },
+    {
+      "icon": "truck",
+      "title": "Ambil dan antar",
+      "desc": "Kirim pesanan dengan surat jalan dan simpan bukti bahwa pelanggan sudah menerimanya."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Kuitansi WhatsApp",
+      "desc": "Kirim kuitansi atau faktur ke pelanggan lewat WhatsApp, bukan kertas."
+    },
+    {
+      "icon": "wallet",
+      "title": "Akun pelanggan",
+      "desc": "Biarkan pelanggan tetap dan korporat membayar bulanan dan lihat berapa utang masing-masing."
+    },
+    {
+      "icon": "chart",
+      "title": "Pemasukan harian",
+      "desc": "Lihat apa yang masuk hari ini, per layanan dan per metode pembayaran."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Di kasir",
+      "title": "Cepat masuk, cepat keluar",
+      "body": "Pelanggan menitipkan sekantong kemeja dan dua dishdasha. Pilih item dari daftar harga, terima pembayaran sekarang atau saat pengambilan, lalu cetak atau bagikan kuitansi. Katalog awal berisi cuci lipat, dry cleaning dan setrika yang siap Anda ubah ke harga sendiri.",
+      "items": [
+        "Daftar harga laundry siap pakai",
+        "Bayar sekarang atau saat ambil",
+        "Kuitansi lewat WhatsApp atau cetak"
+      ]
+    },
+    {
+      "eyebrow": "Pengantaran dan akun",
+      "title": "Antar kembali dan tagih bulanan",
+      "body": "Kirim pesanan yang selesai dengan surat jalan dan simpan bukti serah terima. Hotel, klinik dan kantor bisa berlangganan dengan akun dan membayar bulanan, dengan rekening koran yang jelas tentang yang terutang. Dibuat di Oman dengan dukungan bawaan OMR dan PPN 5%.",
+      "items": [
+        "Surat jalan dengan bukti",
+        "Akun bulanan untuk pelanggan tetap",
+        "Rekening koran jumlah terutang"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya menetapkan harga per potong dan per kilo?",
+      "a": "Bisa. Setiap layanan punya satuannya sendiri, jadi dishdasha dihargai per potong dan cuci lipat per kilo."
+    },
+    {
+      "q": "Bisakah saya mengantar pesanan ke pelanggan?",
+      "a": "Bisa. Modul Pengiriman menambahkan surat jalan, jadi Anda bisa mengirim pesanan dan menyimpan bukti serah terima."
+    },
+    {
+      "q": "Bisakah hotel atau kantor membayar bulanan?",
+      "a": "Bisa. Biarkan penjualan di akun pelanggan dan kirim satu faktur atau rekening koran di akhir bulan."
+    },
+    {
+      "q": "Bisakah saya mengirim kuitansi lewat WhatsApp?",
+      "a": "Bisa. Bagikan kuitansi atau faktur apa pun lewat WhatsApp atau email."
+    },
+    {
+      "q": "Berapa biayanya?",
+      "a": "Penjualan dan Faktur gratis selamanya. Tambahkan POS atau Pengiriman saat Anda membutuhkannya dan bayar hanya untuk modul tersebut."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Jalankan laundry Anda dari satu kasir",
+  "ctaSub": "Mulai gratis dengan kuitansi dan faktur, lalu tambahkan POS dan pengantaran saat Anda siap.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

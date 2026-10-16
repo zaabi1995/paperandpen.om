@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "बिना अंदाज़े के अपनी दुकान चलाएँ",
-  "ctaSub": "बिलिंग और रसीदों के साथ मुफ्त शुरू करें, फिर बारकोड स्टॉक और कम-स्टॉक अलर्ट के लिए इन्वेंट्री जोड़ें।"
+  "ctaSub": "बिलिंग और रसीदों के साथ मुफ्त शुरू करें, फिर बारकोड स्टॉक और कम-स्टॉक अलर्ट के लिए इन्वेंट्री जोड़ें।",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

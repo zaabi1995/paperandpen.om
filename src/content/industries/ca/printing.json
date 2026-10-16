@@ -1,0 +1,109 @@
+{
+  "locale": "ca",
+  "slug": "printing",
+  "order": 16,
+  "title": "Impremta i papereria",
+  "metaTitle": "Programari per a impremtes: pressupostos, feines i factures · Paper & Pen",
+  "metaDescription": "Fes pressupostos d'impressió ràpid, segueix cada feina des de l'artwork fins a l'entrega, controla l'estoc de paper i factura en OMR amb un 5% d'IVA. Fet per a impremtes i papereries.",
+  "keywords": "programari per a impremtes, programari per a negoci d'impressió, seguiment de feines d'impressió, programari de pressupostos d'impressió, facturació per a papereria, erp per a impremta, estimació d'impressió",
+  "heroEyebrow": "Per a impremtes i papereries",
+  "heroTitle": "Del pressupost a <em class=\"text-copper-400 not-italic\">imprès i cobrat</em>",
+  "heroSubtitle": "Fes un pressupost d'impressió en minuts, converteix el pressupost aprovat en una feina, segueix-la durant la producció i l'entrega, i factura-la sense tornar a escriure cap línia. Paper & Pen té les feines, l'estoc de paper i la comptabilitat en un sol lloc.",
+  "heroBullets": [
+    "Pressupostos que es converteixen en feines amb un clic",
+    "Cada feina seguida fins a l'entrega",
+    "Paper i estoc comptats a mesura que els fas servir"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Pressupostos d'impressió ràpids",
+      "desc": "Crea un pressupost a partir de la teva tarifa, comparteix-lo per WhatsApp o per correu i converteix-lo quan el client digui que sí."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Seguiment de feines",
+      "desc": "Cada comanda aprovada es converteix en una feina de producció, així que sempre saps què s'està imprimint, què espera i què va tard."
+    },
+    {
+      "icon": "inventory",
+      "title": "Paper i estoc",
+      "desc": "Compta paper, tinta i papereria acabada per SKU i unitat, amb l'estoc movent-se cada cop que vens o fas servir un article."
+    },
+    {
+      "icon": "truck",
+      "title": "Albarans",
+      "desc": "Lliura la feina acabada amb un albarà i guarda la prova signada a la comanda."
+    },
+    {
+      "icon": "invoice",
+      "title": "Factures amb IVA",
+      "desc": "Factura en OMR amb un 5% d'IVA, o en qualsevol moneda i tipus impositiu, directament des del pressupost o la feina."
+    },
+    {
+      "icon": "users",
+      "title": "Historial de clients",
+      "desc": "Mira tots els pressupostos, feines i cobraments d'un client, de manera que una comanda repetida porta segons."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Del pressupost a la feina",
+      "title": "Un sol registre, del primer pressupost al darrer cobrament",
+      "body": "Una feina d'impressió passa per moltes mans: vendes fa el pressupost, el client l'aprova, producció imprimeix, algú l'entrega i comptabilitat cobra. A Paper & Pen és un sol registre de principi a fi, així que res es torna a escriure i res es perd entre taules. Converteix un pressupost aprovat en una factura i una feina de producció d'un sol pas.",
+      "items": [
+        "El pressupost aprovat es converteix en la feina",
+        "Producció veu què imprimir a continuació",
+        "Factura creada amb les mateixes línies"
+      ]
+    },
+    {
+      "eyebrow": "Mostrador i estoc",
+      "title": "Vendes de papereria i estoc de paper en un sol lloc",
+      "body": "Ven bolígrafs, llibretes i impressió al mostrador i deixa que l'estoc s'actualitzi sol. Defineix punts de reposició per als papers i les tintes que no et poden faltar, i mira què guanya cada client i cada producte. Creat a Oman amb OMR natiu i un 5% d'IVA, i a punt per a qualsevol moneda.",
+      "items": [
+        "Vendes al mostrador amb tiquets",
+        "Punts de reposició per a paper i tinta",
+        "Informes per client i per producte"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puc fer pressupostos d'impressió amb els meus preus?",
+      "a": "Sí. Afegeix els teus productes i serveis amb els teus preus i crea pressupostos a partir d'ells. En registrar-te ja tens un catàleg d'impressió inicial, que edites perquè s'adapti a la teva impremta."
+    },
+    {
+      "q": "Puc seguir una feina després que el client l'aprovi?",
+      "a": "Sí. Amb el mòdul de Producció, una comanda aprovada es converteix en una feina de producció que pots seguir fins que estigui acabada i entregada."
+    },
+    {
+      "q": "Gestiona l'estoc de papereria?",
+      "a": "Sí. El mòdul d'Inventari compta paper, tinta i papereria per SKU i unitat, i cada venda o ús mou l'estoc."
+    },
+    {
+      "q": "Puc enviar pressupostos i factures per WhatsApp?",
+      "a": "Sí. Comparteix qualsevol pressupost, factura o tiquet per WhatsApp o per correu, com a enllaç o com a PDF."
+    },
+    {
+      "q": "Quant costa?",
+      "a": "Pressupostos, factures, clients i cobraments són gratis per sempre. Afegeix Producció, Inventari, CRM o Lliurament quan els necessitis i paga només per aquests mòduls."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Porta la teva impremta des d'una sola pantalla",
+  "ctaSub": "Comença amb pressupostos i factures gratis, i afegeix el seguiment de feines i l'estoc de paper quan estiguis a punt.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

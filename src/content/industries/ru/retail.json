@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Ведите магазин без догадок",
-  "ctaSub": "Начните бесплатно со счетов и чеков, затем подключите склад для учёта со штрихкодами и уведомлений о низких остатках."
+  "ctaSub": "Начните бесплатно со счетов и чеков, затем подключите склад для учёта со штрихкодами и уведомлений о низких остатках.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

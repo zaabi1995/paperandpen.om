@@ -1,0 +1,109 @@
+{
+  "locale": "hr",
+  "slug": "printing",
+  "order": 16,
+  "title": "Tiskara i papirnica",
+  "metaTitle": "Softver za tiskare: ponude, poslovi i računi · Paper & Pen",
+  "metaDescription": "Brzo izradite ponude za tiskarske poslove, pratite svaki posao od dizajna do isporuke, vodite zalihe papira i naplaćujte u OMR-u s PDV-om od 5%. Izrađeno za tiskare i papirnice.",
+  "keywords": "softver za tiskare, program za tiskarsku djelatnost, praćenje tiskarskih poslova, softver za ponude tiska, naplata u papirnici, erp za tiskaru, kalkulacija tiska",
+  "heroEyebrow": "Za tiskare i papirnice",
+  "heroTitle": "Od ponude do <em class=\"text-copper-400 not-italic\">tiska i naplate</em>",
+  "heroSubtitle": "Izradite ponudu za tiskarski posao za nekoliko minuta, pretvorite prihvaćenu ponudu u posao, pratite ga kroz proizvodnju i isporuku i fakturirajte ga bez ponovnog upisivanja ijednog retka. Paper & Pen drži vaše poslove, zalihe papira i knjige na jednom mjestu.",
+  "heroBullets": [
+    "Ponude koje se jednim klikom pretvaraju u poslove",
+    "Svaki posao praćen do isporuke",
+    "Papir i zalihe broje se dok ih koristite"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Brze ponude za tisak",
+      "desc": "Složite ponudu iz svog cjenika, podijelite je na WhatsAppu ili e-poštom i pretvorite je kad kupac kaže da."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Praćenje poslova",
+      "desc": "Svaka prihvaćena narudžba postaje proizvodni posao, pa uvijek znate što se tiska, što čeka i što kasni."
+    },
+    {
+      "icon": "inventory",
+      "title": "Papir i zalihe",
+      "desc": "Brojite papir, tintu i gotovu papirnicu po šifri artikla i mjernoj jedinici, a zalihe se mijenjaju pri svakoj prodaji ili uporabi."
+    },
+    {
+      "icon": "truck",
+      "title": "Otpremnice",
+      "desc": "Predajte gotov posao uz otpremnicu i čuvajte potpisani dokaz uz narudžbu."
+    },
+    {
+      "icon": "invoice",
+      "title": "Računi s PDV-om",
+      "desc": "Naplatite u OMR-u uz PDV od 5% ili u bilo kojoj valuti i s bilo kojom poreznom stopom, izravno iz ponude ili posla."
+    },
+    {
+      "icon": "users",
+      "title": "Povijest kupca",
+      "desc": "Vidite sve ponude, poslove i uplate kupca, pa ponovljena narudžba traje nekoliko sekundi."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Od ponude do posla",
+      "title": "Jedan zapis od prve ponude do zadnje uplate",
+      "body": "Tiskarski posao mijenja ruke mnogo puta: prodaja izrađuje ponudu, kupac je prihvaća, proizvodnja tiska, netko isporučuje, a računovodstvo naplaćuje. U Paper & Pen to je jedan zapis cijelim putem, pa se ništa ne upisuje ponovno i ništa se ne gubi među stolovima. Prihvaćenu ponudu pretvorite u račun i proizvodni posao u jednom koraku.",
+      "items": [
+        "Prihvaćena ponuda postaje posao",
+        "Proizvodnja vidi što tiskati sljedeće",
+        "Račun se gradi iz istih stavki"
+      ]
+    },
+    {
+      "eyebrow": "Blagajna i zalihe",
+      "title": "Prodaja papirnice i zalihe papira na istom mjestu",
+      "body": "Prodajte olovke, bilježnice i tisak na pultu i pustite da se zalihe ažuriraju same. Postavite točke ponovne narudžbe za papire i tinte kojih ne smije nestati te vidite što zarađuje svaki kupac i svaki artikl. Izrađeno u Omanu, s izvornom podrškom za OMR i PDV od 5%, a spremno za bilo koju valutu.",
+      "items": [
+        "Prodaja na pultu s računima",
+        "Točke ponovne narudžbe za papir i tintu",
+        "Izvješća po kupcu i artiklu"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mogu li izrađivati ponude za tiskarske poslove s vlastitim cijenama?",
+      "a": "Da. Dodajte svoje proizvode i usluge s vlastitim cijenama pa iz njih izrađujte ponude. Početni katalog tiska postavlja se za vas pri registraciji, a vi ga uređujete prema svojoj tiskari."
+    },
+    {
+      "q": "Mogu li pratiti posao nakon što ga kupac prihvati?",
+      "a": "Da. Uz modul Proizvodnja prihvaćena narudžba postaje proizvodni posao koji možete pratiti dok nije gotov i isporučen."
+    },
+    {
+      "q": "Upravlja li zalihama papirnice?",
+      "a": "Da. Modul Zalihe broji papir, tintu i papirnicu po šifri artikla i mjernoj jedinici, a svaka prodaja ili uporaba mijenja zalihe."
+    },
+    {
+      "q": "Mogu li slati ponude i račune na WhatsAppu?",
+      "a": "Da. Podijelite bilo koju ponudu, račun ili potvrdu na WhatsAppu ili e-poštom, kao poveznicu ili PDF."
+    },
+    {
+      "q": "Koliko košta?",
+      "a": "Ponude, računi, kupci i uplate zauvijek su besplatni. Dodajte Proizvodnju, Zalihe, CRM ili Dostavu kad vam zatrebaju i plaćajte samo te module."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Vodite tiskaru s jednog zaslona",
+  "ctaSub": "Počnite s besplatnim ponudama i računima, a zatim dodajte praćenje poslova i zalihe papira kad budete spremni.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

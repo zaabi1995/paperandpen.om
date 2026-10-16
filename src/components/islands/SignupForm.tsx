@@ -496,7 +496,8 @@ export default function SignupForm({ locale }: { locale: Locale }) {
                 <div className="mt-2 flex items-center justify-between gap-4 border-t border-paper-300 pt-3">
                   <span className="font-semibold text-ink-500">{t('signup.step3.dueToday')}</span>
                   <span className="font-display text-2xl font-semibold text-electric-500" dir="ltr">
-                    0.000 OMR
+                    {/* Paid modules: the 0.100 OMR Paymob card check runs today (FU-4127). */}
+                    {total > 0 ? '0.100 OMR' : '0.000 OMR'}
                   </span>
                 </div>
                 <p className="mt-3 text-sm leading-relaxed text-ink-500">

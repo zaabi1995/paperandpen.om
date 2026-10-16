@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Ведіть торгівлю в одній чистій книзі",
-  "ctaSub": "Почніть безкоштовно з КП і рахунків, а потім додавайте Склад і Бухгалтерію в міру зростання бізнесу."
+  "ctaSub": "Почніть безкоштовно з КП і рахунків, а потім додавайте Склад і Бухгалтерію в міру зростання бізнесу.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

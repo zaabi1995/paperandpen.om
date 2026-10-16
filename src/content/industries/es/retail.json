@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Gestiona tu tienda sin adivinar",
-  "ctaSub": "Empieza gratis con la facturación y los recibos, y añade Inventario para tener stock con código de barras y alertas de stock bajo."
+  "ctaSub": "Empieza gratis con la facturación y los recibos, y añade Inventario para tener stock con código de barras y alertas de stock bajo.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

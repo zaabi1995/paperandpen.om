@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Run je winkel zonder giswerk",
-  "ctaSub": "Begin gratis met afrekenen en kwitanties en voeg daarna Voorraad toe voor barcodevoorraad en meldingen bij lage voorraad."
+  "ctaSub": "Begin gratis met afrekenen en kwitanties en voeg daarna Voorraad toe voor barcodevoorraad en meldingen bij lage voorraad.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

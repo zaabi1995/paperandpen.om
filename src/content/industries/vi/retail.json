@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Vận hành cửa hàng không cần phỏng đoán",
-  "ctaSub": "Bắt đầu miễn phí với tính tiền và biên lai, rồi thêm Kho hàng để quản lý tồn kho bằng mã vạch và cảnh báo sắp hết hàng."
+  "ctaSub": "Bắt đầu miễn phí với tính tiền và biên lai, rồi thêm Kho hàng để quản lý tồn kho bằng mã vạch và cảnh báo sắp hết hàng.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

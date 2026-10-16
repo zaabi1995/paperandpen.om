@@ -1,0 +1,107 @@
+{
+  "locale": "fi",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Pesulat ja kemialliset pesulat",
+  "metaTitle": "Pesulan ja kemiallisen pesulan ohjelmisto: kuitit ja laskutus · Paper & Pen",
+  "metaDescription": "Ota vastaan vaatteet, hinnoittele kappaleittain tai kiloittain, laskuta OMR:ssä ALV:n kanssa ja toimita takaisin asiakkaalle. Yksinkertainen tiskiohjelmisto pesuloille ja kemiallisille pesuloille.",
+  "keywords": "pesulaohjelmisto, kemiallisen pesulan ohjelmisto, pesulan laskutusohjelmisto, pesulan kassa, kemiallisen pesulan laskutus, pesulan toimitusohjelmisto",
+  "heroEyebrow": "Pesuloille ja kemiallisille pesuloille",
+  "heroTitle": "Jokainen vaate sisään, <em class=\"text-copper-400 not-italic\">jokainen vaate maksettu</em>",
+  "heroSubtitle": "Hinnoittele dishdashat, paidat, puvut ja abayat kappaleittain tai pesu ja taitto kiloittain, ojenna asiakkaalle kuitti ja toimita tilaus takaisin. Paper & Pen pitää tiskin, toimitukset ja kirjanpidon tahdissa.",
+  "heroBullets": [
+    "Hinta kappaleittain tai kiloittain",
+    "Kuitit tiskillä",
+    "Nouto- ja toimituslähetysluettelot"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Tiskikuitit",
+      "desc": "Lisää vaatteet, ota maksu vastaan tai jätä se tilille ja ojenna kuitti sekunneissa."
+    },
+    {
+      "icon": "tag",
+      "title": "Oma hinnastosi",
+      "desc": "Aseta hinta dishdashalle, paidalle, puvulle tai abayalle tai kilohinta pesulle ja taitolle."
+    },
+    {
+      "icon": "truck",
+      "title": "Nouto ja toimitus",
+      "desc": "Lähetä tilaukset matkaan lähetysluettelon kanssa ja säilytä todiste siitä, että asiakas sai ne."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "WhatsApp-kuitit",
+      "desc": "Lähetä kuitti tai lasku asiakkaalle WhatsAppissa paperin sijaan."
+    },
+    {
+      "icon": "wallet",
+      "title": "Asiakastilit",
+      "desc": "Anna vakioasiakkaiden ja yritysasiakkaiden maksaa kuukausittain ja näe, mitä kukin on velkaa."
+    },
+    {
+      "icon": "chart",
+      "title": "Päivän tulot",
+      "desc": "Näe, mitä tänään tuli, palveluittain ja maksutavoittain."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Tiskillä",
+      "title": "Nopeasti sisään, nopeasti ulos",
+      "body": "Asiakas jättää pussillisen paitoja ja kaksi dishdashaa. Valitse tuotteet hinnastosta, ota maksu nyt tai noudettaessa ja tulosta tai jaa kuitti. Aloitusvalikoimassa on pesu ja taitto, kemiallinen pesu ja prässäys valmiina, ja muokkaat ne omiksi hinnoiksesi.",
+      "items": [
+        "Valmis pesulan hinnasto",
+        "Maksa nyt tai noudettaessa",
+        "Kuitit WhatsAppissa tai tulosteena"
+      ]
+    },
+    {
+      "eyebrow": "Toimitukset ja tilit",
+      "title": "Toimita takaisin ja laskuta kuukausittain",
+      "body": "Lähetä valmiit tilaukset matkaan lähetysluettelon kanssa ja säilytä todiste luovutuksesta. Hotellit, klinikat ja toimistot voivat toimia tilillä ja maksaa kuukausittain, ja selkeä tiliote näyttää, mitä on maksamatta. Tehty Omanissa valmiilla OMR-tuella ja 5 %:n ALV:llä.",
+      "items": [
+        "Lähetysluettelot todisteineen",
+        "Kuukausitilit vakioasiakkaille",
+        "Tiliotteet maksamattomista"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Voinko hinnoitella kappaleittain ja kiloittain?",
+      "a": "Kyllä. Jokaisella palvelulla on oma yksikkönsä, joten dishdasha hinnoitellaan kappaleelta ja pesu ja taitto kilolta."
+    },
+    {
+      "q": "Voinko toimittaa tilaukset asiakkaille?",
+      "a": "Kyllä. Toimitus-moduuli lisää lähetysluettelot, joten voit lähettää tilaukset matkaan ja säilyttää todisteen luovutuksesta."
+    },
+    {
+      "q": "Voiko hotelli tai toimisto maksaa kuukausittain?",
+      "a": "Kyllä. Jätä myynnit asiakkaan tilille ja lähetä yksi lasku tai tiliote kuukauden lopussa."
+    },
+    {
+      "q": "Voinko lähettää kuitit WhatsAppissa?",
+      "a": "Kyllä. Jaa mikä tahansa kuitti tai lasku WhatsAppissa tai sähköpostilla."
+    },
+    {
+      "q": "Mitä se maksaa?",
+      "a": "Myynti ja laskutus on ilmaista ikuisesti. Lisää Kassa tai Toimitus, kun tarvitset niitä, ja maksa vain niistä moduuleista."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Pyöritä pesulaasi yhdeltä tiskiltä",
+  "ctaSub": "Aloita ilmaiseksi kuiteilla ja laskuilla ja lisää kassa ja toimitukset, kun olet valmis.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

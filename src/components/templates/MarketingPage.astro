@@ -26,6 +26,7 @@ import { useTranslations, localizePath, type Locale } from '@/i18n';
 import { graph, organization, softwareApplication, faqPage, breadcrumbList } from '@/lib/schema';
 import { labelFor } from '@/lib/links';
 import { allTerms } from '@/lib/glossary';
+import { signupQuery } from '@/lib/signupLink';
 
 interface Props {
   locale: Locale;
@@ -37,6 +38,7 @@ const { locale, data, basePath, section } = Astro.props;
 const t = useTranslations(locale);
 
 const path = `${basePath}/${data.slug}`;
+const signupQ = signupQuery(data.signupTemplate, data.signupModules);
 const crumbs = [
   { name: t('nav.home'), url: '/' },
   { name: section.label, url: section.href },
@@ -103,6 +105,7 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
   description={data.metaDescription}
   keywords={data.keywords}
   {jsonld}
+  signupQuery={signupQ}
 >
   <Breadcrumbs
     {locale}
@@ -118,6 +121,7 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
     subtitle={data.heroSubtitle}
     bullets={data.heroBullets}
     secondaryCta={{ href: '/pricing', label: t('nav.pricing') }}
+    signupQuery={signupQ}
   />
 
   <SocialProof {locale} compact />
@@ -168,5 +172,5 @@ if (faqs.length) jsonld.push(graph(faqPage(faqs)));
 
   <RelatedLinks {locale} title={t('related.title')} links={related} band="tint" />
 
-  <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} />
+  <CtaBand {locale} title={data.ctaTitle} sub={data.ctaSub} signupQuery={signupQ} />
 </BaseLayout>

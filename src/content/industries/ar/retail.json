@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "أدِر متجرك دون تخمين",
-  "ctaSub": "ابدأ مجاناً بالفوترة والإيصالات، ثم أضف المخزون لمراقبة بالباركود وتنبيهات النفاد."
+  "ctaSub": "ابدأ مجاناً بالفوترة والإيصالات، ثم أضف المخزون لمراقبة بالباركود وتنبيهات النفاد.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

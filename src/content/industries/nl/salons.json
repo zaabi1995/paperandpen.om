@@ -31,5 +31,7 @@
   ],
   "related": ["/features/hr-payroll", "/features/inventory", "/invoicing/payment-receipts", "/invoicing/share-whatsapp-email", "/pricing"],
   "ctaTitle": "Run de salon, niet het papierwerk",
-  "ctaSub": "Begin gratis met het afrekenen van diensten en klantgegevens en voeg daarna Voorraad en Salarisadministratie toe voor voorraad en commissie."
+  "ctaSub": "Begin gratis met het afrekenen van diensten en klantgegevens en voeg daarna Voorraad en Salarisadministratie toe voor voorraad en commissie.",
+  "signupTemplate": "salon",
+  "signupModules": ["pos", "crm", "loyalty"]
 }

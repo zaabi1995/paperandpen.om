@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Управлявайте магазина си без гадаене",
-  "ctaSub": "Започнете безплатно с таксуване и бележки, а после добавете Склад за баркодове и известия за ниски наличности."
+  "ctaSub": "Започнете безплатно с таксуване и бележки, а после добавете Склад за баркодове и известия за ниски наличности.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

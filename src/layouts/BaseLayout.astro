@@ -20,9 +20,11 @@ export interface Props {
   noAlternates?: boolean;
   /** Hide chrome (nav/footer/sticky CTA) for bare pages like signup/login. */
   bare?: boolean;
+  /** Query for the sticky /signup button (industry pages, FU-4127). */
+  signupQuery?: string;
 }
 
-const { locale, bare = false, ...seo } = Astro.props;
+const { locale, bare = false, signupQuery = '', ...seo } = Astro.props;
 
 /*
  * The WebSite node belongs to the SITE, not to any one page, so it is emitted
@@ -165,7 +167,7 @@ const scriptFont = SCRIPT_FONTS[locale];
       <slot />
     </main>
     {!bare && <Footer locale={locale} />}
-    {!bare && <StickyCta locale={locale} />}
+    {!bare && <StickyCta locale={locale} signupQuery={signupQuery} />}
 
     {/* First touch (BHD-664): keep where this visitor first came from, once. The signup form sends it. */}
     <script>

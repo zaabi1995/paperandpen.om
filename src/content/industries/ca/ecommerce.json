@@ -106,5 +106,7 @@
     "/features/accounting"
   ],
   "ctaTitle": "Posa ordre avui a les finances del teu comerç electrònic",
-  "ctaSub": "Controla l'estoc, emet factures rectificatives i calcula els teus marges reals, gratis."
+  "ctaSub": "Controla l'estoc, emet factures rectificatives i calcula els teus marges reals, gratis.",
+  "signupTemplate": "ecommerce",
+  "signupModules": ["ecommerce", "inventory", "delivery"]
 }

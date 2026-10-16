@@ -1,0 +1,109 @@
+{
+  "locale": "it",
+  "slug": "printing",
+  "order": 16,
+  "title": "Tipografie e cartolerie",
+  "metaTitle": "Software per tipografie: preventivi, lavori e fatture · Paper & Pen",
+  "metaDescription": "Prepara preventivi di stampa in fretta, segui ogni lavoro dalla grafica alla consegna, tieni contate le scorte di carta e fattura in OMR con IVA al 5%. Pensato per tipografie e cartolerie.",
+  "keywords": "software tipografia, gestionale per la stampa, tracciamento lavori di stampa, software preventivi di stampa, fatturazione cartoleria, erp per tipografia, calcolo costi di stampa",
+  "heroEyebrow": "Per tipografie e cartolerie",
+  "heroTitle": "Dal preventivo a <em class=\"text-copper-400 not-italic\">stampato e pagato</em>",
+  "heroSubtitle": "Prepara il preventivo di un lavoro di stampa in pochi minuti, trasforma il preventivo approvato in un lavoro, seguilo in produzione e nella consegna e fatturalo senza ridigitare una riga. Paper & Pen tiene lavori, scorte di carta e contabilità in un solo posto.",
+  "heroBullets": [
+    "Preventivi che diventano lavori con un clic",
+    "Ogni lavoro seguito fino alla consegna",
+    "Carta e scorte contate mentre le usi"
+  ],
+  "features": [
+    {
+      "icon": "quote",
+      "title": "Preventivi di stampa veloci",
+      "desc": "Crea un preventivo dal tuo listino, condividilo su WhatsApp o via email e convertilo quando il cliente dice sì."
+    },
+    {
+      "icon": "manufacturing",
+      "title": "Tracciamento dei lavori",
+      "desc": "Ogni ordine approvato diventa un lavoro di produzione, così sai sempre cosa si sta stampando, cosa aspetta e cosa è in ritardo."
+    },
+    {
+      "icon": "inventory",
+      "title": "Carta e scorte",
+      "desc": "Conta carta, inchiostro e cancelleria finita per SKU e unità, con le scorte che si muovono a ogni vendita o utilizzo."
+    },
+    {
+      "icon": "truck",
+      "title": "Documenti di trasporto",
+      "desc": "Consegna il lavoro finito con un documento di trasporto e tieni la prova firmata sull'ordine."
+    },
+    {
+      "icon": "invoice",
+      "title": "Fatture con IVA",
+      "desc": "Fattura in OMR con IVA al 5%, o in qualsiasi valuta e aliquota, direttamente dal preventivo o dal lavoro."
+    },
+    {
+      "icon": "users",
+      "title": "Storico clienti",
+      "desc": "Vedi ogni preventivo, lavoro e pagamento di un cliente, così un riordino richiede pochi secondi."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Dal preventivo al lavoro",
+      "title": "Un solo record dal primo preventivo all'ultimo pagamento",
+      "body": "Un lavoro di stampa passa di mano molte volte: le vendite fanno il preventivo, il cliente lo approva, la produzione stampa, qualcuno consegna e l'amministrazione incassa. In Paper & Pen è un solo record per tutto il percorso, così niente viene ridigitato e niente si perde tra una scrivania e l'altra. Converti un preventivo approvato in una fattura e in un lavoro di produzione in un solo passaggio.",
+      "items": [
+        "Il preventivo approvato diventa il lavoro",
+        "La produzione vede cosa stampare dopo",
+        "Fattura costruita sulle stesse righe"
+      ]
+    },
+    {
+      "eyebrow": "Banco e scorte",
+      "title": "Vendite di cancelleria e scorte di carta nello stesso posto",
+      "body": "Vendi penne, quaderni e stampe al banco e lascia che le scorte si aggiornino da sole. Imposta i punti di riordino su carte e inchiostri che non possono finire e scopri quanto rende ogni cliente e ogni prodotto. Creato in Oman con OMR nativo e IVA al 5%, e pronto per qualsiasi valuta.",
+      "items": [
+        "Vendite al banco con ricevute",
+        "Punti di riordino su carta e inchiostro",
+        "Report per cliente e per prodotto"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posso fare preventivi di stampa con i miei prezzi?",
+      "a": "Sì. Aggiungi i tuoi prodotti e servizi con i tuoi prezzi, poi crea i preventivi da lì. Al momento dell'iscrizione ti prepariamo un catalogo di stampa iniziale, che modifichi in base alla tua attività."
+    },
+    {
+      "q": "Posso seguire un lavoro dopo che il cliente lo approva?",
+      "a": "Sì. Con il modulo Produzione, un ordine approvato diventa un lavoro di produzione che puoi seguire fino al completamento e alla consegna."
+    },
+    {
+      "q": "Gestisce le scorte di cancelleria?",
+      "a": "Sì. Il modulo Magazzino conta carta, inchiostro e cancelleria per SKU e unità, e ogni vendita o utilizzo muove le scorte."
+    },
+    {
+      "q": "Posso inviare preventivi e fatture su WhatsApp?",
+      "a": "Sì. Condividi qualsiasi preventivo, fattura o ricevuta su WhatsApp o via email, come link o PDF."
+    },
+    {
+      "q": "Quanto costa?",
+      "a": "Preventivi, fatture, clienti e pagamenti sono gratis per sempre. Aggiungi Produzione, Magazzino, CRM o Consegne quando ti servono e paga solo quei moduli."
+    }
+  ],
+  "related": [
+    "/features/quotations",
+    "/features/manufacturing",
+    "/features/inventory",
+    "/invoicing/delivery-notes",
+    "/pricing"
+  ],
+  "ctaTitle": "Gestisci la tua tipografia da un'unica schermata",
+  "ctaSub": "Inizia con preventivi e fatture gratuiti, poi aggiungi il tracciamento dei lavori e le scorte di carta quando sei pronto.",
+  "signupTemplate": "printshop",
+  "signupModules": [
+    "manufacturing",
+    "inventory",
+    "crm",
+    "delivery"
+  ]
+}

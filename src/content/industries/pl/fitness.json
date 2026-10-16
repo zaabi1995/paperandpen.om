@@ -1,0 +1,108 @@
+{
+  "locale": "pl",
+  "slug": "fitness",
+  "order": 17,
+  "title": "Siłownie i studia fitness",
+  "metaTitle": "Program dla siłowni i studiów fitness: członkowie i rozliczenia · Paper & Pen",
+  "metaDescription": "Sprzedawaj karnety, wejściówki na zajęcia i treningi personalne, trzymaj wszystkich członków na jednej liście, przyjmuj płatności w recepcji i nagradzaj stałych klientów. Dla siłowni oraz studiów jogi i pilatesu.",
+  "keywords": "program dla siłowni, oprogramowanie dla studia fitness, fakturowanie siłownia, zarządzanie członkostwem, program dla studia jogi, program dla studia pilatesu, kasa dla siłowni",
+  "heroEyebrow": "Dla siłowni oraz studiów jogi i pilatesu",
+  "heroTitle": "Członkowie wchodzą, <em class=\"text-copper-400 not-italic\">płatności wpływają</em>",
+  "heroSubtitle": "Sprzedawaj karnety, wejściówki na zajęcia i treningi personalne, przyjmuj płatności w recepcji i wiedz, kto ma opłacone. Paper & Pen trzyma członków, sprzedaż i księgi razem, więc czas spędzasz na sali, a nie nad papierami.",
+  "heroBullets": [
+    "Karnety, wejściówki i bilety jednorazowe",
+    "Płatność w recepcji",
+    "Punkty lojalnościowe, dzięki którym członkowie wracają"
+  ],
+  "features": [
+    {
+      "icon": "users",
+      "title": "Lista członków",
+      "desc": "Każdy członek z danymi kontaktowymi, zakupami i płatnościami w jednym miejscu."
+    },
+    {
+      "icon": "receipt",
+      "title": "Sprzedaż w recepcji",
+      "desc": "Sprzedaj bilet jednorazowy, zajęcia lub koktajl w recepcji i wydaj pokwitowanie w kilka sekund."
+    },
+    {
+      "icon": "calendar",
+      "title": "Karnety i wejściówki",
+      "desc": "Sprzedawaj karnety miesięczne, kwartalne i roczne oraz wejściówki na zajęcia jako gotowe pozycje."
+    },
+    {
+      "icon": "refresh",
+      "title": "Faktury cykliczne",
+      "desc": "Wystawiaj fakturę za miesięczny karnet automatycznie, zamiast co miesiąc gonić za płatnością."
+    },
+    {
+      "icon": "tag",
+      "title": "Nagrody lojalnościowe",
+      "desc": "Dawaj punkty za każdy zakup i pozwól stałym klientom je wydawać, żeby wracali."
+    },
+    {
+      "icon": "chart",
+      "title": "Przychód według usługi",
+      "desc": "Zobacz, co zarabia najwięcej: karnety, zajęcia czy treningi personalne."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Recepcja",
+      "title": "Recepcja, która sprzedaje, a nie przepisuje",
+      "body": "Członek przychodzi przedłużyć karnet, gość chce bilet jednorazowy, stały klient kupuje pakiet zajęć. Każdy z nich to kilka dotknięć w recepcji z pokwitowaniem na WhatsApp lub na papierze, a każda sprzedaż trafia do ksiąg bez ponownego wpisywania. Katalog startowy ma karnety, wejściówki, zajęcia i treningi personalne gotowe do edycji.",
+      "items": [
+        "Gotowe pozycje karnetów i wejściówek",
+        "Pokwitowania na WhatsApp lub w druku",
+        "Każda sprzedaż w księgach automatycznie"
+      ]
+    },
+    {
+      "eyebrow": "Zatrzymaj członków",
+      "title": "Poznaj swoich członków i sprawiaj, by wracali",
+      "body": "Zobacz, kto co kupił i kiedy, fakturuj miesięczne karnety fakturami cyklicznymi i nagradzaj stałych klientów punktami lojalnościowymi do wydania w recepcji. Stworzony w Omanie z natywną obsługą OMR i VAT 5%, gotowy na każdą walutę i stawkę podatku.",
+      "items": [
+        "Historia zakupów każdego członka",
+        "Cykliczne fakturowanie karnetów",
+        "Punkty do wydania przez członków"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Czy działa też dla studiów jogi i pilatesu?",
+      "a": "Tak. Wybierz pakiet Joga i pilates przy rejestracji, a zaczniesz z zajęciami jednorazowymi, wejściówkami na zajęcia i miesięcznymi karnetami open. Wybierz Siłownia i fitness, jeśli chcesz karnety, bilety jednorazowe i treningi personalne."
+    },
+    {
+      "q": "Czy mogę fakturować karnety co miesiąc?",
+      "a": "Tak. Użyj faktur cyklicznych, by fakturować karnet według harmonogramu, a płatność zapisz, gdy wpłynie."
+    },
+    {
+      "q": "Czy mogę sprzedawać w recepcji?",
+      "a": "Tak. Moduł Kasa pozwala sprzedawać wejściówki, zajęcia i produkty w recepcji i wydawać pokwitowanie."
+    },
+    {
+      "q": "Czy jest program lojalnościowy?",
+      "a": "Tak. Moduł Lojalność daje członkom punkty za zakupy, które mogą wydać później."
+    },
+    {
+      "q": "Czy można zacząć za darmo?",
+      "a": "Sprzedaż i faktury są bezpłatne na zawsze. Dodaj CRM, Kasę lub Lojalność, gdy ich potrzebujesz, i płać tylko za te moduły."
+    }
+  ],
+  "related": [
+    "/features/sales-crm",
+    "/invoicing/recurring-invoices",
+    "/invoicing/payment-receipts",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Prowadź siłownię lub studio bez papierkowej roboty",
+  "ctaSub": "Zacznij za darmo od faktur i pokwitowań, a potem dodaj recepcję, listę członków i lojalność, gdy ich potrzebujesz.",
+  "signupTemplate": "gym",
+  "signupModules": [
+    "crm",
+    "pos",
+    "loyalty"
+  ]
+}

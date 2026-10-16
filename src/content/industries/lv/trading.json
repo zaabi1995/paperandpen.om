@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "Vadi savu tirdzniecību ar vienu tīru virsgrāmatu",
-  "ctaSub": "Sāc bez maksas ar piedāvājumiem un rēķiniem, tad pievieno Noliktavu un Grāmatvedību, kad tava tirdzniecība aug."
+  "ctaSub": "Sāc bez maksas ar piedāvājumiem un rēķiniem, tad pievieno Noliktavu un Grāmatvedību, kad tava tirdzniecība aug.",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

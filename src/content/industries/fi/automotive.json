@@ -106,5 +106,7 @@
     "/features/accounting"
   ],
   "ctaTitle": "Järjestä korjaamosi laskutus tänään",
-  "ctaSub": "Tee yksityiskohtaisia kustannusarvioita, seuraa varaosavarastoasi ja laskuta asiakkaitasi ilmaiseksi."
+  "ctaSub": "Tee yksityiskohtaisia kustannusarvioita, seuraa varaosavarastoasi ja laskuta asiakkaitasi ilmaiseksi.",
+  "signupTemplate": "garage",
+  "signupModules": ["inventory", "crm"]
 }

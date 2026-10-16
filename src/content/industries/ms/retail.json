@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Jalankan kedai anda tanpa meneka-neka",
-  "ctaSub": "Mula percuma dengan pengebilan dan resit, kemudian tambah Inventori untuk stok kod bar dan amaran stok rendah."
+  "ctaSub": "Mula percuma dengan pengebilan dan resit, kemudian tambah Inventori untuk stok kod bar dan amaran stok rendah.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

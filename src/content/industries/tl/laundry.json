@@ -1,0 +1,107 @@
+{
+  "locale": "tl",
+  "slug": "laundry",
+  "order": 18,
+  "title": "Laundry at Dry Cleaning",
+  "metaTitle": "Software para sa Laundry at Dry Cleaning: Ticket at Billing · Paper & Pen",
+  "metaDescription": "Tanggapin ang mga piraso, magpresyo kada item o kada kilo, mag-bill sa OMR na may VAT at ihatid pabalik sa customer. Simpleng counter software para sa laundry at dry cleaner.",
+  "keywords": "software sa laundry, software para sa dry cleaning, billing software para sa laundry, laundry pos, invoicing para sa dry cleaner, software sa delivery ng laundry",
+  "heroEyebrow": "Para sa laundry at dry cleaner",
+  "heroTitle": "Bawat piraso ay pumasok, <em class=\"text-copper-400 not-italic\">bawat piraso ay bayad</em>",
+  "heroSubtitle": "Magpresyo ng dishdasha, kamiseta, suit at abaya kada piraso o wash and fold kada kilo, mag-abot ng resibo sa customer at ihatid pabalik ang order. Pinagsasabay ng Paper & Pen ang kaha, mga delivery at libro mo.",
+  "heroBullets": [
+    "Presyo kada piraso o kada kilo",
+    "Resibo sa kaha",
+    "Pickup at delivery note"
+  ],
+  "features": [
+    {
+      "icon": "receipt",
+      "title": "Resibo sa kaha",
+      "desc": "Idagdag ang mga piraso, tumanggap ng bayad o iwan sa account, at mag-abot ng resibo sa ilang segundo."
+    },
+    {
+      "icon": "tag",
+      "title": "Sarili mong price list",
+      "desc": "Magtakda ng presyo kada dishdasha, kamiseta, suit o abaya, o kada kilo para sa wash and fold."
+    },
+    {
+      "icon": "truck",
+      "title": "Pickup at delivery",
+      "desc": "Ipadala ang mga order kasama ang delivery note at itago ang patunay na natanggap ito ng customer."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "Resibo sa WhatsApp",
+      "desc": "Ipadala ang resibo o invoice sa customer sa WhatsApp kaysa sa papel."
+    },
+    {
+      "icon": "wallet",
+      "title": "Account ng customer",
+      "desc": "Hayaang magbayad nang buwanan ang mga suki at corporate na customer, at makita kung magkano ang utang ng bawat isa."
+    },
+    {
+      "icon": "chart",
+      "title": "Kita sa araw",
+      "desc": "Makita kung ano ang pumasok ngayong araw, ayon sa serbisyo at paraan ng bayad."
+    }
+  ],
+  "sections": [
+    {
+      "eyebrow": "Sa kaha",
+      "title": "Mabilis pumasok, mabilis lumabas",
+      "body": "May customer na nag-iwan ng isang bag ng kamiseta at dalawang dishdasha. Piliin ang mga item mula sa price list mo, tumanggap ng bayad ngayon o sa pickup, at i-print o i-share ang resibo. May kasamang starter catalogue na may wash and fold, dry cleaning at plantsa, handa mong i-edit sa sarili mong presyo.",
+      "items": [
+        "Handa nang laundry price list",
+        "Bayad ngayon o sa pickup",
+        "Resibo sa WhatsApp o print"
+      ]
+    },
+    {
+      "eyebrow": "Delivery at account",
+      "title": "Ihatid pabalik at mag-bill nang buwanan",
+      "body": "Ipadala ang tapos na order kasama ang delivery note at itago ang patunay ng pagtanggap. Puwedeng tumakbo sa account ang mga hotel, klinika at opisina at magbayad nang buwanan, may malinaw na statement ng utang. Gawa sa Oman na may native na OMR at 5% VAT.",
+      "items": [
+        "Delivery note na may patunay",
+        "Buwanang account para sa mga suki",
+        "Statement ng utang"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puwede ba akong magpresyo kada piraso at kada kilo?",
+      "a": "Oo. May sariling unit ang bawat serbisyo, kaya kada piraso ang presyo ng dishdasha at kada kilo ang wash and fold."
+    },
+    {
+      "q": "Puwede ba akong maghatid ng order sa mga customer?",
+      "a": "Oo. Nagdaragdag ang module na Delivery ng delivery note, kaya makakapagpadala ka ng order at maitatago mo ang patunay ng pagtanggap."
+    },
+    {
+      "q": "Puwede bang magbayad nang buwanan ang hotel o opisina?",
+      "a": "Oo. Iwan ang mga benta sa account ng customer at magpadala ng isang invoice o statement sa katapusan ng buwan."
+    },
+    {
+      "q": "Puwede ba akong magpadala ng resibo sa WhatsApp?",
+      "a": "Oo. I-share ang kahit anong resibo o invoice sa WhatsApp o email."
+    },
+    {
+      "q": "Magkano ito?",
+      "a": "Libre habambuhay ang Benta at Invoicing. Idagdag ang POS o Delivery kapag kailangan mo na at bayaran lang ang mga module na iyon."
+    }
+  ],
+  "related": [
+    "/invoicing/payment-receipts",
+    "/invoicing/delivery-notes",
+    "/features/payments",
+    "/features/reports",
+    "/pricing"
+  ],
+  "ctaTitle": "Patakbuhin ang laundry mo mula sa iisang kaha",
+  "ctaSub": "Magsimula nang libre sa resibo at invoice, saka idagdag ang POS at mga delivery kapag handa ka na.",
+  "signupTemplate": "laundry",
+  "signupModules": [
+    "pos",
+    "delivery"
+  ]
+}

@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/purchase-orders", "/invoicing/quotations", "/industries/retail", "/pricing"],
   "ctaTitle": "บริหารการค้าด้วยบัญชีที่เรียบร้อยเพียงชุดเดียว",
-  "ctaSub": "เริ่มต้นฟรีด้วยใบเสนอราคาและใบแจ้งหนี้ แล้วเพิ่มสต็อกและบัญชีเมื่อธุรกิจการค้าของคุณเติบโต"
+  "ctaSub": "เริ่มต้นฟรีด้วยใบเสนอราคาและใบแจ้งหนี้ แล้วเพิ่มสต็อกและบัญชีเมื่อธุรกิจการค้าของคุณเติบโต",
+  "signupTemplate": "trading",
+  "signupModules": ["inventory", "crm", "accounting"]
 }

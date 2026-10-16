@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Driv din butik utan gissningar",
-  "ctaSub": "Börja gratis med fakturering och kvitton och lägg sedan till Lager för streckkodslager och varningar för lågt saldo."
+  "ctaSub": "Börja gratis med fakturering och kvitton och lägg sedan till Lager för streckkodslager och varningar för lågt saldo.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }

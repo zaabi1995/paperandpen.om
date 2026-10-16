@@ -31,5 +31,7 @@
   ],
   "related": ["/features/inventory", "/invoicing/payment-receipts", "/features/reports", "/industries/restaurants", "/pricing"],
   "ctaTitle": "Driv butikken uten gjetting",
-  "ctaSub": "Start gratis med fakturering og kvitteringer, og legg så til Lager for strekkodelager og varsel om lav beholdning."
+  "ctaSub": "Start gratis med fakturering og kvitteringer, og legg så til Lager for strekkodelager og varsel om lav beholdning.",
+  "signupTemplate": "retail",
+  "signupModules": ["pos", "inventory", "loyalty"]
 }
