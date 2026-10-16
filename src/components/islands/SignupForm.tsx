@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react';
 import {
   checkSubdomainAvailability,
+  fetchSignupModules,
   initiateSignup,
   isTrustedRedirectUrl,
   normalizeSubdomainCandidate,
 } from '@/lib/api';
 import { useTranslations, type Locale } from '@/i18n';
 import { firstTouchPayload } from '@/lib/firstTouch';
+import { SIGNUP_MODULES, parseTemplate, withLivePrices } from '@/lib/signupModules';
 
 /*
  * The rail's standing facts, and they are now DECISIONS rather than trivia.
@@ -29,13 +31,6 @@ const FACTS = [
   { label: 'signup.rail.dataLabel', value: 'signup.rail.dataValue' },
 ];
 
-const MODULES = [
-  { key: 'inventory', price: 5 },
-  { key: 'hr', price: 8 },
-  { key: 'accounting', price: 8 },
-  { key: 'manufacturing', price: 10 },
-  { key: 'reports', price: 5 },
-];
 
 /*
  * Field styling, kept as constants so every input on both auth pages is
@@ -94,8 +89,8 @@ function sanitizeInitial(value: string) {
 }
 function parseModules(value: string | null) {
   if (!value) return new Set<string>();
-  const valid = new Set(MODULES.map((m) => m.key));
-  return new Set(value.split(',').filter((k) => valid.has(k)));
+  const valid = new Set(SIGNUP_MODULES.map((m) => m.key));
+  return new Set(value.split(',').map((k) => k.trim()).filter((k) => valid.has(k)));
 }
 
 export default function SignupForm({ locale }: { locale: Locale }) {
@@ -103,6 +98,10 @@ export default function SignupForm({ locale }: { locale: Locale }) {
   const [step, setStep] = useState(1);
   const [form, setForm] = useState({ companyName: '', subdomain: '', email: '' });
   const [selected, setSelected] = useState<Set<string>>(new Set());
+  const [modules, setModules] = useState(SIGNUP_MODULES);
+  /* The starter pack from an industry page link (?template=printshop). Sent as
+     is; the backend rejects an id it does not know. */
+  const [template, setTemplate] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [subStatus, setSubStatus] = useState<null | 'checking' | 'available' | 'taken' | 'unknown'>(null);
@@ -111,6 +110,10 @@ export default function SignupForm({ locale }: { locale: Locale }) {
     const p = new URLSearchParams(window.location.search);
     setForm((f) => ({ ...f, subdomain: sanitizeInitial(p.get('subdomain') || '') }));
     setSelected(parseModules(p.get('modules')));
+    setTemplate(parseTemplate(p.get('template')));
+    fetchSignupModules().then((live) => {
+      if (live.length) setModules(withLivePrices(live));
+    });
   }, []);
 
   useEffect(() => {
@@ -147,7 +150,7 @@ export default function SignupForm({ locale }: { locale: Locale }) {
       return next;
     });
 
-  const total = MODULES.filter((m) => selected.has(m.key)).reduce((s, m) => s + m.price, 0);
+  const total = modules.filter((m) => selected.has(m.key)).reduce((s, m) => s + m.price, 0);
   const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email);
 
   /* Validation happens on the press, not on every keystroke, so nothing is
@@ -186,6 +189,7 @@ export default function SignupForm({ locale }: { locale: Locale }) {
         ownerName: form.companyName.trim(),
         planId: 'starter',
         modules: [...selected],
+        ...(template ? { template } : {}),
         // Where this visitor first came from (BHD-664). Absent when unknown.
         firstTouch: firstTouchPayload(),
       });
@@ -198,9 +202,11 @@ export default function SignupForm({ locale }: { locale: Locale }) {
         sessionStorage.setItem('pnp_signup_tenant', safe);
       } catch {}
       if (data.free && data.workspaceUrl) {
+        /* workspaceUrl already carries ?email=; appending a second one broke
+           the address. Untrusted or missing: the workspace's own sign-in page. */
         window.location.href = isTrustedRedirectUrl(data.workspaceUrl)
-          ? data.workspaceUrl + `?email=${encodeURIComponent(form.email.trim())}`
-          : `https://${safe}.paperandpen.om/login?email=${encodeURIComponent(form.email.trim())}`;
+          ? data.workspaceUrl
+          : `https://${safe}.paperandpen.om/login/code?email=${encodeURIComponent(form.email.trim())}`;
         return;
       }
       if (!isTrustedRedirectUrl(data.paymentUrl)) {
@@ -432,7 +438,7 @@ export default function SignupForm({ locale }: { locale: Locale }) {
                   Base row of the summary all already say. Dropped: the module
                   list now starts straight after the heading. */}
               <div className="mt-9 space-y-3">
-                {MODULES.map(({ key, price }) => {
+                {modules.map(({ key, price }) => {
                   const active = selected.has(key);
                   return (
                     <button

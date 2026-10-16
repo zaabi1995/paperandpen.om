@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { fetchSignupModules } from '@/lib/api';
+import { SIGNUP_MODULES } from '@/lib/signupModules';
 
 interface ModuleDef { key: string; price: number | null; included: boolean; icon: string }
 interface Strings {
@@ -23,17 +25,27 @@ const ICONS: Record<string, string> = {
   reports: 'M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z',
 };
 
+// Prices: the backend default until GET /api/pnp-billing/signup/modules answers.
+const PRICE = Object.fromEntries(SIGNUP_MODULES.map((m) => [m.key, m.price]));
 const MODULES: ModuleDef[] = [
   { key: 'sales', price: null, included: true, icon: ICONS.sales },
-  { key: 'inventory', price: 5, included: false, icon: ICONS.inventory },
-  { key: 'hr', price: 8, included: false, icon: ICONS.hr },
-  { key: 'accounting', price: 8, included: false, icon: ICONS.accounting },
-  { key: 'manufacturing', price: 10, included: false, icon: ICONS.manufacturing },
-  { key: 'reports', price: 5, included: false, icon: ICONS.reports },
+  { key: 'inventory', price: PRICE.inventory, included: false, icon: ICONS.inventory },
+  { key: 'hr', price: PRICE.hr, included: false, icon: ICONS.hr },
+  { key: 'accounting', price: PRICE.accounting, included: false, icon: ICONS.accounting },
+  { key: 'manufacturing', price: PRICE.manufacturing, included: false, icon: ICONS.manufacturing },
+  { key: 'reports', price: PRICE.reports, included: false, icon: ICONS.reports },
 ];
 
 export default function ModulePicker({ strings, signupBase }: Props) {
   const [selected, setSelected] = useState<Set<string>>(new Set(['sales']));
+  const [cards, setCards] = useState<ModuleDef[]>(MODULES);
+  useEffect(() => {
+    fetchSignupModules().then((live) => {
+      if (!live.length) return;
+      const byCode = new Map(live.map((m: { code: string; priceOMR: number }) => [m.code, m.priceOMR]));
+      setCards(MODULES.map((m) => (m.included ? m : { ...m, price: byCode.get(m.key) ?? m.price })));
+    });
+  }, []);
   const toggle = (key: string) => {
     if (key === 'sales') return;
     setSelected((prev) => {
@@ -42,14 +54,14 @@ export default function ModulePicker({ strings, signupBase }: Props) {
       return next;
     });
   };
-  const total = MODULES.filter((m) => selected.has(m.key) && m.price).reduce((s, m) => s + (m.price || 0), 0);
+  const total = cards.filter((m) => selected.has(m.key) && m.price).reduce((s, m) => s + (m.price || 0), 0);
   const modulesParam = [...selected].filter((k) => k !== 'sales').join(',');
   const signupHref = `${signupBase}${modulesParam ? `?modules=${modulesParam}` : ''}`;
 
   return (
     <div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-        {MODULES.map((m) => {
+        {cards.map((m) => {
           const active = selected.has(m.key);
           return (
             <button
