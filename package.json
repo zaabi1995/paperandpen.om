@@ -10,9 +10,10 @@
     "seo:check": "python3 -B scripts/seo_integrity.py",
     "test:nginx-deploy": "bash scripts/test_deploy_nginx.sh",
     "verify": "python3 -B scripts/verify.py && npm run seo:check && npm run test:nginx-deploy",
-    "ci": "npm run build && npm run verify",
+    "ci": "npm test && npm run build && npm run verify",
     "preview": "astro preview --port 4321",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "node --test tests/"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",

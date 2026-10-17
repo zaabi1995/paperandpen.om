@@ -537,7 +537,9 @@
       "passwordLabel": "Jelszó",
       "passwordPlaceholder": "Min. 8 karakter",
       "back": "Vissza",
-      "emailHint": "Ide érkezik minden alkalommal egy 6 jegyű belépési kód."
+      "emailHint": "Ide érkezik minden alkalommal egy 6 jegyű belépési kód.",
+      "phoneLabel": "WhatsApp-szám",
+      "phoneHint": "Ide küldünk segítséget a beállításhoz. Írja át a +968-at, ha a száma nem ománi."
     },
     "step3": {
       "title": "Válassza ki a modulokat",
@@ -585,7 +587,9 @@
       "subdomainTaken": "Ez a munkaterület-cím már foglalt. Tegyen hozzá egy szót, hogy a sajátja legyen, például a városát vagy a név rövid alakját.",
       "subdomainChecking": "Még ellenőrizzük, hogy szabad-e a cím. Egy pillanat múlva nyomja meg újra a Tovább gombot.",
       "emailRequired": "Adja meg az e-mail-címet, amellyel be szeretne lépni. Oda érkeznek az egyszer használatos kódok.",
-      "emailInvalid": "A címből hiányzik a @ vagy az utána következő rész. Írja ki teljesen, például you@company.com."
+      "emailInvalid": "A címből hiányzik a @ vagy az utána következő rész. Írja ki teljesen, például you@company.com.",
+      "phoneRequired": "Adja meg WhatsApp-számát. Arra használjuk, hogy segítsünk beállítani a munkaterületét.",
+      "phoneInvalid": "Ellenőrizze a számot. Az ománi számok 8 számjegyűek, például +968 9123 4567. Ománon kívül az ország hívószámával kezdje."
     },
     "rail": {
       "cardLabel": "Ma szükséges kártya",

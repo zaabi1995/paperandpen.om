@@ -8,6 +8,7 @@ import {
 } from '@/lib/api';
 import { useTranslations, type Locale } from '@/i18n';
 import { firstTouchPayload } from '@/lib/firstTouch';
+import { PHONE_PREFIX, normalizePhone, phoneProblem } from '@/lib/phone';
 import { SIGNUP_MODULES, parseTemplate, withLivePrices } from '@/lib/signupModules';
 
 /*
@@ -96,7 +97,7 @@ function parseModules(value: string | null) {
 export default function SignupForm({ locale }: { locale: Locale }) {
   const t = useTranslations(locale);
   const [step, setStep] = useState(1);
-  const [form, setForm] = useState({ companyName: '', subdomain: '', email: '' });
+  const [form, setForm] = useState({ companyName: '', subdomain: '', email: '', phone: PHONE_PREFIX });
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [modules, setModules] = useState(SIGNUP_MODULES);
   /* The starter pack from an industry page link (?template=printshop). Sent as
@@ -168,6 +169,8 @@ export default function SignupForm({ locale }: { locale: Locale }) {
   function goToModules() {
     if (!form.email.trim()) return setError(t('signup.errors.emailRequired'));
     if (!emailOk) return setError(t('signup.errors.emailInvalid'));
+    const phoneBad = phoneProblem(form.phone);
+    if (phoneBad) return setError(t(`signup.errors.${phoneBad}`));
     setError('');
     setStep(3);
   }
@@ -186,6 +189,7 @@ export default function SignupForm({ locale }: { locale: Locale }) {
         tenantId: safe,
         companyName: form.companyName.trim(),
         email: form.email.trim(),
+        phone: normalizePhone(form.phone),
         ownerName: form.companyName.trim(),
         planId: 'starter',
         modules: [...selected],
@@ -402,6 +406,28 @@ export default function SignupForm({ locale }: { locale: Locale }) {
                 />
                 <p id="pnp-email-hint" className="mt-2.5 text-sm text-ink-500">
                   {t('signup.step2.emailHint')}
+                </p>
+              </div>
+
+              <div className="mt-6">
+                <label className={LABEL} htmlFor="pnp-phone">
+                  {t('signup.step2.phoneLabel')}
+                </label>
+                <input
+                  id="pnp-phone"
+                  name="tel"
+                  type="tel"
+                  inputMode="tel"
+                  autoComplete="tel"
+                  className={FIELD_OK}
+                  dir="ltr"
+                  aria-describedby="pnp-phone-hint"
+                  value={form.phone}
+                  onChange={(e) => update('phone', e.target.value)}
+                  placeholder="+968 9123 4567"
+                />
+                <p id="pnp-phone-hint" className="mt-2.5 text-sm text-ink-500">
+                  {t('signup.step2.phoneHint')}
                 </p>
               </div>
 
