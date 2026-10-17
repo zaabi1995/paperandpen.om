@@ -79,6 +79,9 @@ function isTrustedRedirectUrl(value) {
   try {
     const url = new URL(value);
     if (url.protocol !== 'https:') return false;
+    // erp.bhd.om/pay/checkout: the card check runs there so Apple Pay works
+    // (Apple Pay is registered per domain; FU-4126, Ali 17 Oct 2026).
+    if (url.hostname === 'erp.bhd.om') return url.pathname === '/pay/checkout';
     return url.hostname === 'oman.paymob.com' || url.hostname.endsWith('.paperandpen.om');
   } catch {
     return false;
