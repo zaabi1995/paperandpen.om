@@ -196,6 +196,12 @@ const blog = defineCollection({
     howTo: z.object({ name: z.string(), steps: z.array(articleStep).min(3).max(10) }).optional(),
     faqs: z.array(faq).min(3).max(10).optional(),
     sources: z.array(articleSource).min(1).optional(),
+    /* A company news item is typed NewsArticle; everything else stays BlogPosting. */
+    articleType: z.enum(['BlogPosting', 'NewsArticle']).default('BlogPosting'),
+    /* The person a news item is about, emitted as about and mentions. */
+    person: z
+      .object({ id: z.string().url(), name: z.string(), sameAs: z.array(z.string().url()).default([]) })
+      .optional(),
   }),
 });
 

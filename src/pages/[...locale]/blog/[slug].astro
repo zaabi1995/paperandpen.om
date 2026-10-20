@@ -103,7 +103,8 @@ const formattedModifiedDate = modifiedDate
     }).format(modifiedDate)
   : undefined;
 const blogPosting: Record<string, unknown> = {
-  '@type': 'BlogPosting',
+  /* A news item keeps BlogPosting (the SEO checks key on it) and adds NewsArticle. */
+  '@type': entry.data.articleType === 'NewsArticle' ? ['BlogPosting', 'NewsArticle'] : 'BlogPosting',
   '@id': articleId,
   headline: entry.data.title,
   description: entry.data.description,
@@ -123,6 +124,10 @@ if (entry.data.slug === 'what-is-a-proforma-invoice') {
       '@id': `https://paperandpen.om${localizePath('/glossary/proforma-invoice', locale)}#term`,
     },
   });
+}
+if (entry.data.person) {
+  const person = { '@type': 'Person', '@id': entry.data.person.id, name: entry.data.person.name, sameAs: entry.data.person.sameAs };
+  Object.assign(blogPosting, { about: person, mentions: person });
 }
 if (sources.length) {
   blogPosting.citation = sources.map((source: any) => ({
