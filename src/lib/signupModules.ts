@@ -1,34 +1,39 @@
+import snapshot from './signupModules.snapshot.json' with { type: 'json' };
+
 /*
- * The 17 module codes the signup API accepts (backend SIGNUP_MODULE_PRICES), in
- * the order the form shows them, with the backend's default monthly price in
- * OMR. The live price comes from GET /api/pnp-billing/signup/modules; this table
- * is only what shows before that answers, or if it never does. Keep it equal to
- * the backend defaults: three of the old five prices here were wrong (FU-4127).
+ * The module codes the signup form shows, in the order it shows them. The
+ * site has a title and description for each of these (modules.<code>.*), so a
+ * code the API adds later (car_care) stays off the form until the site has its
+ * words.
  */
-export const SIGNUP_MODULES: { key: string; price: number }[] = [
-  { key: 'inventory', price: 6 },
-  { key: 'accounting', price: 10 },
-  { key: 'hr', price: 8 },
-  { key: 'manufacturing', price: 10 },
-  { key: 'reports', price: 6 },
-  { key: 'crm', price: 5 },
-  { key: 'pos', price: 4 },
-  { key: 'ecommerce', price: 8 },
-  { key: 'loyalty', price: 3 },
-  { key: 'portal', price: 4 },
-  { key: 'banking', price: 8 },
-  { key: 'projects', price: 5 },
-  { key: 'delivery', price: 3 },
-  { key: 'stock_reports', price: 3 },
-  { key: 'knowledge_base', price: 2 },
-  { key: 'surveys', price: 2 },
-  { key: 'pdf_designer', price: 3 },
+export const MODULE_ORDER = [
+  'inventory', 'accounting', 'hr', 'manufacturing', 'reports', 'crm', 'pos', 'ecommerce',
+  'loyalty', 'portal', 'banking', 'projects', 'delivery', 'stock_reports', 'knowledge_base',
+  'surveys', 'pdf_designer',
 ];
 
-/** Live prices over the fallback table. Unknown codes from the API are ignored. */
-export function withLivePrices(live: { code: string; priceOMR: number }[]) {
-  const byCode = new Map(live.map((m) => [m.code, m.priceOMR]));
-  return SIGNUP_MODULES.map((m) => ({ key: m.key, price: byCode.get(m.key) ?? m.price }));
+type PricedModule = { code: string; priceOMR: number };
+
+/*
+ * Prices come from the backend (GET /api/pnp-billing/signup/modules), never
+ * from this repo. signupModules.snapshot.json is the list the last build
+ * fetched (scripts/fetch_signup_modules.mjs runs before every build); it shows
+ * before the live call answers, or if that call never does.
+ */
+function priced(list: PricedModule[], base: { key: string; price: number }[] = []) {
+  const byCode = new Map(list.map((m) => [m.code, m.priceOMR]));
+  const before = new Map(base.map((m) => [m.key, m.price]));
+  return MODULE_ORDER.flatMap((key) => {
+    const price = byCode.get(key) ?? before.get(key);
+    return typeof price === 'number' ? [{ key, price }] : [];
+  });
+}
+
+export const SIGNUP_MODULES: { key: string; price: number }[] = priced(snapshot as PricedModule[]);
+
+/** Live prices over the build-time list. Unknown codes from the API are ignored. */
+export function withLivePrices(live: PricedModule[]) {
+  return priced(live, SIGNUP_MODULES);
 }
 
 /** A pack id from ?template=: lowercase letters, digits and hyphens. The backend checks it is real. */

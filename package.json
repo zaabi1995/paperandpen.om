@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev --port 5174",
+    "prebuild": "node scripts/fetch_signup_modules.mjs",
     "build": "astro build",
     "seo:refresh": "node scripts/refresh_search_snippets.mjs",
     "seo:check": "python3 -B scripts/seo_integrity.py",
