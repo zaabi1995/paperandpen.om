@@ -678,12 +678,16 @@
     @apply text-sm font-semibold text-ink-500;
   }
 
-  /* Small caps label above a headline. Violet, not copper — 6.47 : 1 on paper. */
+  /* Label above a headline. Violet, not copper — 6.47 : 1 on paper.
+     Was 12px bold UPPERCASE at 0.14em tracking, which is the badge-above-a-
+     heading style every generated page reaches for, and it ran on ~300 inner
+     pages. Sentence case, untracked, one step larger, at 600: the same words
+     read as a subtitle to the heading rather than as a label stuck on top. */
   .eyebrow {
-    @apply text-xs font-bold uppercase tracking-[0.14em] text-violet-600;
+    @apply text-sm font-semibold text-violet-600;
   }
   .eyebrow-ink {
-    @apply text-xs font-bold uppercase tracking-[0.14em] text-ink-500;
+    @apply text-sm font-semibold text-ink-500;
   }
 
   /* Inline link. Electric, underlined on hover only. */

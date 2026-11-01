@@ -78,9 +78,9 @@ if (data.faqs?.length) jsonld.push(graph(faqPage(data.faqs)));
           <caption class="sr-only">{data.factsTitle}</caption>
           <thead>
             <tr class="border-b border-ink-500">
-              <th scope="col" class="py-3 pe-6 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('vat.colItem')}</th>
-              <th scope="col" class="py-3 pe-6 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('vat.colValue')}</th>
-              <th scope="col" class="py-3 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{t('vat.colDetail')}</th>
+              <th scope="col" class="py-3 pe-6 text-start text-sm font-semibold text-ink-500">{t('vat.colItem')}</th>
+              <th scope="col" class="py-3 pe-6 text-start text-sm font-semibold text-ink-500">{t('vat.colValue')}</th>
+              <th scope="col" class="py-3 text-start text-sm font-semibold text-ink-500">{t('vat.colDetail')}</th>
             </tr>
           </thead>
           <tbody>
@@ -137,7 +137,7 @@ if (data.faqs?.length) jsonld.push(graph(faqPage(data.faqs)));
           <thead>
             <tr class="border-b border-ink-500">
               {data.flows.columns.map((c: string) => (
-                <th scope="col" class="py-3 pe-6 text-start text-xs font-bold uppercase tracking-[0.14em] text-ink-500">{c}</th>
+                <th scope="col" class="py-3 pe-6 text-start text-sm font-semibold text-ink-500">{c}</th>
               ))}
             </tr>
           </thead>

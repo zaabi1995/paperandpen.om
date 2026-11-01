@@ -141,7 +141,7 @@ const cols = [
           screen-reader users get four named lists instead of one long blur. */}
       {cols.map((col) => (
         <nav class="min-w-0" aria-labelledby={`footer-${col.id}`}>
-          <h3 id={`footer-${col.id}`} class="text-xs font-bold uppercase tracking-[0.14em] text-cream-50">{col.title}</h3>
+          <h3 id={`footer-${col.id}`} class="text-sm font-semibold text-cream-50">{col.title}</h3>
           <ul class="mt-5 space-y-3.5">
             {col.links.map((l) => (
               <li>
