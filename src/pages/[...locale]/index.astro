@@ -266,8 +266,6 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             headline that a reader can check on the pricing page in one click. */}
         <p class="microcopy mb-3 lg:mb-5">{t('proof.free')}</p>
 
-        <p class="eyebrow mb-3 lg:mb-6">{t('hero.badge')}</p>
-
         {/* `mb-11` = 44px, measured. The bar leaves 49 CSS px under a comparable
             headline; this sat at 28 and read as one cramped block. NO size,
             leading, weight or tracking utility here on purpose — the h1 takes
@@ -275,7 +273,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             beat it. */}
         <h1 class="mb-6 lg:mb-11">
           {t('hero.tagline_line1')}<br />{' '}{headline2.lead}{headline2.lead && ' '}<span
-            class="accent-italic squiggle">{headline2.accent}</span>{headline2.tail}
+            class="accent-italic">{headline2.accent}</span>{headline2.tail}
         </h1>
 
         {/* Two lines, not three. The third line was "Built in Oman, used by
@@ -321,9 +319,9 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
                 </span>
               </span>
               <div class="flex gap-1.5">
-                <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
-                <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
-                <span class="h-2.5 w-2.5 rounded-full bg-white/25"></span>
+                {/* No macOS traffic lights. Three grey dots are the universal
+                    shorthand for "this is a screenshot of a browser", and this is
+                    the product's own window, not one we ship. */}
               </div>
             </div>
 
@@ -490,10 +488,11 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             occupied by the reassurance line, so the chip pins to the frame's
             top-END corner instead, over the three window dots, the only part
             of the frame that is pure chrome. */}
-        <div class="float-card hero-float hero-float--tail-b absolute -top-5 end-0 lg:top-[-5.25rem] lg:end-auto lg:start-4">
-          <p class="text-[11px] font-semibold leading-none">{t('trust.stat1_label')}</p>
-          <p class="font-display text-xl font-semibold leading-none mt-1">{t('trust.stat1_value')}</p>
-        </div>
+        {/* The annotation chips were removed: a white card with a
+            pointer tail floating over a product shot reads as a sticker
+            dropped on the frame, and on a phone one of them covered the
+            window title. The title chip and the currency switcher they
+            pointed at are visible in the mock itself. */}
         {/* AIMED AT THE TOTAL, NOT AT BEIGE.
             This chip spent four rounds claiming a control its tail never
             reached. At its last position (x 729→848, y 596→657) the tail left
@@ -518,15 +517,20 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             Bengali or Urdu. The tip sits on the totals row's rule at y=648; the
             card body below it covers only the panel's bottom padding and the
             navy rim, no row and no figure. RTL mirrors both ends together. */}
-        <div class="float-card hero-float hero-float--tail-t absolute -bottom-7 start-[6%] lg:top-auto lg:bottom-[-2.0625rem] lg:start-auto lg:end-0">
-          <p class="text-[11px] font-semibold leading-none">{t('trust.stat4_label')}</p>
-          <p class="font-display text-xl font-semibold leading-none mt-1">{t('trust.stat4_value')}</p>
-        </div>
+        {/* The annotation chips were removed: a white card with a
+            pointer tail floating over a product shot reads as a sticker
+            dropped on the frame, and on a phone one of them covered the
+            window title. The title chip and the currency switcher they
+            pointed at are visible in the mock itself. */}
       </div>
     </div>
   </section>
 
   {/* Band 2: PERIWINKLE. Ink only — white and electric both fail AA here. */}
+  {/* The four facts under the fold. They used to be centred in a periwinkle
+      band, which made them read as four claims competing with the headline.
+      Left-aligned on the page's own grid at the body measure, they read as the
+      supporting record they are: each number, then what it counts. */}
   <section class="band band-peri band-tight">
     <div class="mx-auto max-w-6xl grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
       {[
@@ -535,9 +539,9 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         { v: t('trust.stat1_value'), l: t('trust.stat1_label') },
         { v: h('stats.db_v'), l: h('stats.db_l') },
       ].map((s) => (
-        <div class="text-center lg:text-start">
-          <p class="font-display text-4xl lg:text-5xl font-semibold tracking-tight">{s.v}</p>
-          <p class="text-sm mt-2">{s.l}</p>
+        <div class="text-start">
+          <p class="font-display text-3xl lg:text-4xl font-semibold tracking-tight tabular-nums">{s.v}</p>
+          <p class="text-sm mt-2 max-w-[22ch]">{s.l}</p>
         </div>
       ))}
     </div>
