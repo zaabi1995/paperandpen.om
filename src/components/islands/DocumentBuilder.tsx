@@ -135,7 +135,7 @@ export default function DocumentBuilder({ strings, docType }: { strings: Strings
           <textarea className="fld" rows={2} value={notes} onChange={(e) => setNotes(e.target.value)} />
         </label>
 
-        <button type="button" onClick={doPrint} className="w-full px-5 py-3 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 transition-all">
+        <button type="button" onClick={doPrint} className="w-full px-5 py-3 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 transition-colors">
           {strings.print}
         </button>
         <a href={strings.signupHref} className="block text-center text-sm text-copper-500 font-medium hover:text-copper-600">{strings.signupCta} →</a>

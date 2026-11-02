@@ -42,8 +42,8 @@ export default function VatCalculator({ strings }: { strings: Strings }) {
       </label>
 
       <div className="grid grid-cols-2 gap-2 mb-6">
-        <button type="button" onClick={() => setMode('add')} className={`px-4 py-2.5 rounded-lg text-sm font-semibold border-2 transition-all ${mode === 'add' ? 'border-ink-500 bg-ink-500 text-cream-50' : 'border-cream-200 text-ink-400 hover:border-ink-300'}`}>{strings.addVat}</button>
-        <button type="button" onClick={() => setMode('remove')} className={`px-4 py-2.5 rounded-lg text-sm font-semibold border-2 transition-all ${mode === 'remove' ? 'border-ink-500 bg-ink-500 text-cream-50' : 'border-cream-200 text-ink-400 hover:border-ink-300'}`}>{strings.removeVat}</button>
+        <button type="button" onClick={() => setMode('add')} className={`px-4 py-2.5 rounded-lg text-sm font-semibold border-2 transition-colors ${mode === 'add' ? 'border-ink-500 bg-ink-500 text-cream-50' : 'border-cream-200 text-ink-400 hover:border-ink-300'}`}>{strings.addVat}</button>
+        <button type="button" onClick={() => setMode('remove')} className={`px-4 py-2.5 rounded-lg text-sm font-semibold border-2 transition-colors ${mode === 'remove' ? 'border-ink-500 bg-ink-500 text-cream-50' : 'border-cream-200 text-ink-400 hover:border-ink-300'}`}>{strings.removeVat}</button>
       </div>
 
       <div className="space-y-2.5 text-sm">

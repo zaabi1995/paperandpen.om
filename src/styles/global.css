@@ -53,7 +53,7 @@
     --pnp-mint: #d9fbe6;
 
     /* The only lift in the system. Everything else is flat. */
-    --pnp-lift: 0 1px 2px rgba(13, 27, 94, 0.06);
+    --pnp-lift: 0 1px 2px rgba(17, 20, 28, 0.06);
   }
 
   html {
@@ -632,8 +632,11 @@
      The weight is INHERITED, not set. The bar's italic word is the same weight
      as the roman around it; pinning it to 600 made it the heaviest thing in a
      430 headline, which read as emphasis-by-boldness rather than by voice. */
+  /* Upright since Nov 2026: an italic word for emphasis read as a template
+     move. The class stays so the squiggle pages keep their hook. */
   .accent-italic {
-    @apply font-display italic;
+    @apply font-display;
+    font-style: normal;
     font-weight: inherit;
   }
 
@@ -823,7 +826,7 @@
      out inline: absolutely positioned cards overlapping the product image. The
      bar gives those a soft lift, so they keep one. */
   .bg-mesh-dark [class*='absolute'][class*='shadow-'] {
-    box-shadow: 0 8px 24px -12px rgba(13, 27, 94, 0.2);
+    box-shadow: 0 8px 24px -12px rgba(17, 20, 28, 0.2);
   }
   .bg-mesh-dark [class*='border-white'] {
     border-color: var(--pnp-hairline);
@@ -870,14 +873,14 @@
 
   /* Notched "Recommended" tab that sits on a card's top edge. */
   .tab-flag {
-    @apply inline-block rounded-t-lg bg-electric-500 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-white;
+    @apply inline-block rounded-t-lg bg-electric-500 px-4 py-1.5 text-sm font-semibold text-white;
   }
 
   .badge-save {
     @apply inline-block rounded-md bg-mint-100 px-2.5 py-1 text-sm font-bold text-mint-900;
   }
   .badge-new {
-    @apply inline-flex items-center gap-2 rounded-md bg-violet-600 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-white;
+    @apply inline-flex items-center gap-2 rounded-md bg-violet-600 px-3 py-1.5 text-sm font-semibold text-white;
   }
 
   .section-pad {

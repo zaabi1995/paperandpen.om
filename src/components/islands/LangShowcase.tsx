@@ -22,7 +22,7 @@ export default function LangShowcase() {
               key={l.code}
               type="button"
               onClick={() => setActive(l.code)}
-              className={`flex items-center gap-2 px-4 py-2 rounded-full border text-sm font-medium transition-all ${
+              className={`flex items-center gap-2 px-4 py-2 rounded-full border text-sm font-medium transition-colors ${
                 active === l.code ? 'bg-ink-500 text-cream-50 border-ink-500 shadow-md' : 'bg-white text-ink-400 border-cream-200 hover:border-ink-300 hover:text-ink-500'
               }`}
             >
@@ -34,7 +34,7 @@ export default function LangShowcase() {
       </div>
 
       <div className="relative">
-        <div dir={lang.dir} className="bg-white rounded-2xl border border-cream-200 shadow-xl overflow-hidden transition-all">
+        <div dir={lang.dir} className="bg-white rounded-2xl border border-cream-200 shadow-lg overflow-hidden">
           <div className="bg-ink-500 px-5 py-3 flex items-center justify-between">
             <span className="text-cream-50 text-xs font-semibold opacity-80">Paper & Pen ERP</span>
             <div className="flex gap-1.5">

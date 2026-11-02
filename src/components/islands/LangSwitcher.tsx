@@ -146,7 +146,7 @@ export default function LangSwitcher({ locale, path, live: liveList, available: 
 
   const panelClass =
     variant === 'popover'
-      ? 'absolute end-0 top-full mt-1 z-50 w-[min(19rem,calc(100vw-2rem))] bg-white rounded-xl shadow-2xl shadow-ink-500/10 border border-cream-200 p-2'
+      ? 'absolute end-0 top-full mt-1 z-50 w-[min(19rem,calc(100vw-2rem))] bg-white rounded-xl shadow-lg border border-cream-200 p-2'
       : 'mt-2 w-full max-w-sm bg-white rounded-xl border border-cream-200 p-2';
 
   return (

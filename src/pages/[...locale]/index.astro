@@ -264,7 +264,6 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         {/* Was a five-star row, a bold '4.9/5' and a review count, none of
             which any data supports. Replaced with the one claim above the
             headline that a reader can check on the pricing page in one click. */}
-        <p class="microcopy mb-3 lg:mb-5">{t('proof.free')}</p>
 
         {/* `mb-11` = 44px, measured. The bar leaves 49 CSS px under a comparable
             headline; this sat at 28 and read as one cramped block. NO size,
@@ -272,8 +271,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
             the foundation's display scale, and a local `text-*` would silently
             beat it. */}
         <h1 class="mb-6 lg:mb-11">
-          {t('hero.tagline_line1')}<br />{' '}{headline2.lead}{headline2.lead && ' '}<span
-            class="accent-italic">{headline2.accent}</span>{headline2.tail}
+          {t('hero.tagline_line1')}<br />{' '}{headline2.lead}{headline2.lead && ' '}{headline2.accent}
         </h1>
 
         {/* Two lines, not three. The third line was "Built in Oman, used by
@@ -290,7 +288,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         <div class="hero-signup max-w-xl">
           <SubdomainChecker client:load strings={checkerStrings} signupBase={lp('/signup')} rtl={rtl} />
         </div>
-        <p class="microcopy mt-2 lg:mt-4">{t('hero.trialNote')}</p>
+        <p class="microcopy mt-3 sm:mt-1">{t('hero.trialNote')}</p>
       </div>
 
       {/* Product window — tilted, bleeding off the inline-end edge. Decorative:
@@ -531,8 +529,8 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
       band, which made them read as four claims competing with the headline.
       Left-aligned on the page's own grid at the body measure, they read as the
       supporting record they are: each number, then what it counts. */}
-  <section class="band band-peri band-tight">
-    <div class="mx-auto max-w-6xl grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
+  <section class="band band-paper band-tight !pt-0">
+    <div class="mx-auto max-w-6xl grid grid-cols-2 gap-x-8 gap-y-10 border-t border-paper-300 pt-10 lg:grid-cols-4 lg:pt-12">
       {[
         { v: h('stats.modules_v'), l: h('stats.modules_l') },
         { v: t('trust.stat2_value'), l: t('trust.stat2_label') },
@@ -604,7 +602,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         <p class="mt-8 text-sm text-white/75">{h('ai.note')}</p>
       </div>
       <div class="min-w-0 reveal" aria-hidden="true">
-        <div class="rounded-2xl bg-white p-5 text-ink-500 shadow-2xl lg:p-6">
+        <div class="rounded-2xl bg-white p-5 text-ink-500 lg:p-6">
           <div class="flex items-center gap-2 border-b border-paper-300 pb-3">
             <Icon name="sparkle" class="h-4 w-4 text-electric-600" />
             <span class="font-display text-sm font-semibold">{h('ai.mockTitle')}</span>
@@ -702,7 +700,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
         ))}
       </ul>
       <div class="mt-16 border-t border-paper-300 pt-10">
-        <h3 class="text-sm font-bold uppercase tracking-wider text-ink-500/80">{h('sec.intTitle')}</h3>
+        <h3 class="text-base font-semibold text-ink-500">{h('sec.intTitle')}</h3>
         <ul class="mt-5 flex flex-wrap gap-3">
           {integrations.map((name) => (
             <li class="rounded-pill border border-paper-300 bg-paper px-4 py-2 text-sm font-semibold text-ink-500">{name}</li>
@@ -761,12 +759,12 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
     /* The single grounding shadow in the hero. Not a glow: no spread, no
        colour, and a long soft falloff so the window reads as sitting in the
        page rather than hovering over it. */
-    box-shadow: 0 18px 44px -30px rgba(13, 27, 94, 0.4);
+    box-shadow: 0 12px 32px -24px rgba(17, 20, 28, 0.3);
   }
 
   .hero-frame {
     /* The ground. Without it the frame floated and the crop read as an accident. */
-    box-shadow: 0 28px 60px -32px rgba(13, 27, 94, 0.45);
+    box-shadow: 0 24px 48px -32px rgba(17, 20, 28, 0.35);
   }
 
   @media (min-width: 1024px) {
@@ -880,11 +878,6 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
    * and generous padding. The status border COLOURS are deliberately left
    * alone so the available / taken feedback still reads.
    * ================================================================== */
-  .hero-signup :global(label) {
-    font-size: 0.6875rem;
-    letter-spacing: 0.14em;
-    margin-bottom: 0.65rem;
-  }
   .hero-signup :global(label + div) {
     border-width: 1.5px;
     border-radius: 999px;
@@ -927,7 +920,7 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
    * input too narrow to read what you typed.
    * ---------------------------------------------------------------- */
   @media (min-width: 640px) {
-    .hero-signup > :global(div) {
+    .hero-signup :global(astro-island > div) {
       display: grid;
       grid-template-columns: minmax(0, 1fr) auto;
       grid-template-areas:
@@ -964,18 +957,14 @@ const keywords = 'free ERP, cloud ERP, free invoicing software, online invoicing
     color: #fff;
   }
   .ai-eyebrow {
-    @apply text-sm font-bold uppercase tracking-wider;
+    @apply text-sm font-semibold;
     color: theme('colors.sky.300');
   }
   .ind-link {
-    box-shadow: 0 1px 0 rgba(13, 27, 94, 0.08);
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    border: 1px solid rgba(17, 20, 28, 0.08);
+    transition: border-color 0.15s ease;
   }
   .ind-link:hover {
-    box-shadow: 0 10px 24px -14px rgba(13, 27, 94, 0.45);
-    transform: translateY(-1px);
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .ind-link, .ind-link:hover { transition: none; transform: none; }
+    border-color: rgba(17, 20, 28, 0.24);
   }
 </style>

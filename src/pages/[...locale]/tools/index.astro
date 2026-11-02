@@ -49,7 +49,7 @@ const jsonld = [
       </div>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {list.map((e) => (
-          <a href={lp(`/tools/${e.data.slug}`)} class="reveal group p-6 rounded-2xl bg-white border border-cream-200 hover:border-copper-300 hover:shadow-lg hover:shadow-ink-500/5 transition-all">
+          <a href={lp(`/tools/${e.data.slug}`)} class="reveal group p-6 rounded-2xl bg-white border border-cream-200 hover:border-ink-200 transition-colors">
             <div class="inline-flex p-2.5 rounded-xl bg-cream-100 text-copper-500 mb-4 group-hover:bg-copper-50 transition-colors"><Icon name={ICONS[e.data.toolType] || 'doc'} class="w-6 h-6" /></div>
             <h2 class="font-semibold text-ink-500 group-hover:text-copper-500 transition-colors mb-1">{e.data.title}</h2>
             <p class="text-sm text-ink-400 leading-relaxed">{e.data.heroSubtitle}</p>

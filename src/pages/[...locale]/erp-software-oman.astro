@@ -243,7 +243,7 @@ const jsonld = [graph(appNode, faqPage(faqs), breadcrumbList(crumbs, locale))];
       <dl class="grid gap-10 sm:grid-cols-2">
         {c.facts.map(([term, detail]) => (
           <div class="border-t border-ink-200 pt-4">
-            <dt class="text-sm font-bold uppercase tracking-[0.12em] text-ink-500">{term}</dt>
+            <dt class="text-base font-semibold text-ink-500">{term}</dt>
             <dd class="mt-2 text-base leading-relaxed text-ink-500">{detail}</dd>
           </div>
         ))}

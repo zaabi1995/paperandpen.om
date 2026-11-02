@@ -63,7 +63,7 @@ export default function SubdomainChecker({ strings, signupBase, rtl = false }: P
           keeps its `aria-label`, so nothing changes for a screen reader. */}
       <label className="sr-only">{strings.label}</label>
       <div
-        className={`flex items-stretch rounded-xl border-2 bg-white shadow-sm overflow-hidden transition-all ${
+        className={`flex items-stretch rounded-xl border-2 bg-white overflow-hidden transition-colors ${
           status === 'available'
             ? 'border-emerald-400'
             : status === 'taken'
@@ -98,7 +98,7 @@ export default function SubdomainChecker({ strings, signupBase, rtl = false }: P
       </div>
       <a
         href={signupLink}
-        className="mt-3 inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 transition-all shadow-lg shadow-ink-500/20 hover:-translate-y-0.5 w-full sm:w-auto"
+        className="mt-3 inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 transition-colors min-h-[44px] w-full sm:w-auto"
       >
         {strings.cta}
         <svg className="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">

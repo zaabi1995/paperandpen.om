@@ -68,7 +68,7 @@ export default function ModulePicker({ strings, signupBase }: Props) {
               key={m.key}
               type="button"
               onClick={() => toggle(m.key)}
-              className={`group text-start p-6 rounded-2xl border-2 transition-all ${
+              className={`group text-start p-6 rounded-2xl border-2 transition-colors ${
                 m.included
                   ? 'border-ink-500 bg-ink-500 cursor-default'
                   : active
@@ -81,16 +81,16 @@ export default function ModulePicker({ strings, signupBase }: Props) {
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={m.icon} /></svg>
                 </div>
                 {m.included ? (
-                  <span className="text-xs font-bold bg-white/20 text-cream-100 px-2.5 py-1 rounded-full tracking-wide">{strings.included}</span>
+                  <span className="text-xs font-bold bg-white/20 text-cream-100 px-2.5 py-1 rounded-full">{strings.included}</span>
                 ) : (
-                  <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all ${active ? 'border-copper-400 bg-copper-400' : 'border-cream-300 bg-white'}`}>
+                  <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-colors ${active ? 'border-copper-400 bg-copper-400' : 'border-cream-300 bg-white'}`}>
                     {active && <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>}
                   </div>
                 )}
               </div>
               <div className="flex items-center justify-between mb-1.5">
                 <h3 className={`font-semibold text-base ${m.included ? 'text-cream-50' : 'text-ink-500'}`}>{strings.titles[m.key]}</h3>
-                {m.price && <span className={`text-xs font-bold ${active ? 'text-copper-500' : 'text-ink-400'}`}>+{m.price} {strings.perMonth}</span>}
+                {m.price && <span className={`text-xs font-bold ${active ? 'text-copper-500' : 'text-ink-400'}`}>+{Number(m.price).toFixed(3)} {strings.perMonth}</span>}
               </div>
               <p className={`text-sm leading-relaxed ${m.included ? 'text-cream-100/80' : 'text-ink-400'}`}>{strings.descs[m.key]}</p>
             </button>
@@ -100,14 +100,14 @@ export default function ModulePicker({ strings, signupBase }: Props) {
 
       <div className="bg-cream-50 border border-cream-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-6">
         <div>
-          <p className="text-xs font-semibold text-ink-400 tracking-widest uppercase mb-1">{strings.estimateLabel}</p>
-          <p className="font-display text-3xl font-bold text-ink-500">
-            {total === 0 ? strings.baseLabel : `${total} OMR`}
+          <p className="text-sm font-semibold text-ink-500 mb-1">{strings.estimateLabel}</p>
+          <p className="font-display text-3xl font-semibold text-ink-500 tabular-nums">
+            {total === 0 ? strings.baseLabel : `${total.toFixed(3)} OMR`}
             {total > 0 && <span className="text-base text-ink-400 font-normal"> {strings.perMonth}</span>}
           </p>
           <p className="text-xs text-ink-400 mt-1">{strings.estimateNote}</p>
         </div>
-        <a href={signupHref} className="inline-flex items-center gap-2 px-7 py-3.5 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 transition-all shadow-md whitespace-nowrap">
+        <a href={signupHref} className="inline-flex items-center gap-2 px-7 py-3.5 bg-ink-500 text-cream-50 font-semibold rounded-xl hover:bg-ink-700 transition-colors whitespace-nowrap">
           {strings.startTrial}
         </a>
       </div>
