@@ -15,12 +15,11 @@ export function organization() {
     name: 'Paper and Pen Company LLC',
     url: `${SITE}/`,
     logo: `${SITE}/logo.svg`,
-    // r372 / ledger llm20-13. schema.org telephone is a MACHINE field and this
-    // was the estate's ONLY non-E.164 value: '+968-9111-7795' normalises to the
-    // same number every other property publishes as '+96891117795', so a consumer
-    // comparing schema strings read one BHD line as two. The human render stays
-    // '+968 9111 7795' (Footer.astro:119) -- that is a display surface, not this one.
-    telephone: '+96891117795',
+    // r372 / ledger llm20-13. schema.org telephone is a MACHINE field: keep it
+    // E.164 ('+96891161761'), the form every other property publishes, so a
+    // consumer comparing schema strings reads one BHD line as one. The human
+    // render is '+968 9116 1761' (Footer.astro) -- a display surface, not this one.
+    telephone: '+96891161761',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Muscat',
@@ -29,8 +28,8 @@ export function organization() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer support',
-      telephone: '+96891117795',
-      url: 'https://api.whatsapp.com/send?phone=96891117795',
+      telephone: '+96891161761',
+      url: 'https://api.whatsapp.com/send?phone=96891161761',
     },
     // Keep the parent edge typed but reference-only. Re-stating its name,
     // legalName, or URL here could conflict with the entity bhd.om publishes.
